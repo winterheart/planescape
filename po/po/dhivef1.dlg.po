@@ -1,0 +1,827 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: planescape l10n\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-04-19 19:24+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: 1567
+msgid ""
+"You see a man in tattered clothing. As you approach him, he suddenly stops "
+"and begins to look around, frightened."
+msgstr ""
+"Ты видишь человека в лохмотьях. При твоем приближении он неожиданно начинает "
+"в страхе озираться."
+
+#: 1568
+msgid "\"You there! Hold a moment!\""
+msgstr "\"Эй ты! Подожди на минуточку!\""
+
+#: 1569
+msgid "\"Greetings.\""
+msgstr "\"Приветствую.\""
+
+#: 1570
+msgid "Leave him in peace."
+msgstr "Оставить его в покое."
+
+#: 1571
+msgid ""
+"The man looks startled, then takes a step back. \"Eh? What ye be wantin', "
+"cutter?\" His voice is shaky, and he seems taken aback by your scars. \"I "
+"have nothing on me, so's I don't, and my rags are not worth the trouble.\""
+msgstr ""
+"Мужчина выглядит затравленным, он делает шаг назад. \"А? Чего тебе надо, "
+"рубака?\" Его голос дрожит, похоже, на него произвели впечатление твои "
+"шрамы. \"У меня с собой ничего нет, совсем ничего, а мои тряпки того не "
+"стоят.\""
+
+#: 1572
+msgid "\"Calm yourself. I'm not here to rob you. I had some questions...\""
+msgstr ""
+"\"Успокойся. Я не собираюсь тебя грабить. У меня есть несколько вопросов...\""
+
+#: 1573
+msgid "\"Run, and I promise you won't get far. I had some questions...\""
+msgstr ""
+"\"Попробуй сбежать, и я тебе обещаю, что далеко ты не уйдешь. У меня есть "
+"несколько вопросов...\""
+
+#: 1574 1577 1590 7126 7131
+msgid "\"Nothing. Farewell.\""
+msgstr "\"Ничего. Прощай.\""
+
+#: 1575
+msgid ""
+"\"Eh?\" He doesn't seem thrilled to see you. \"What ye be wantin' *now,* "
+"cutter?\""
+msgstr ""
+"\"А?\" Ему не очень-то по душе смотреть на тебя. \"И чего тебе *нужно*, "
+"рубака?\""
+
+#: 1576
+msgid "\"I had some questions...\""
+msgstr "\"У меня есть некоторые вопросы...\" "
+
+#: 1578
+msgid ""
+"He keeps a safe distance, and his eyes dart from side to side, as if "
+"expecting something to step out of the shadows. \"Questions ye said...? "
+"An'... eh... what might those questions be?\""
+msgstr ""
+"Он остается на почтительном расстоянии, а глаза мечутся из стороны в "
+"сторону, как будто бы он ждет, что кто-то выйдет из тени. \"Вопросы, "
+"говоришь?.. И... эээ... что это за вопросы?\""
+
+#: 1579 1593
+msgid "\"Can you tell me about Sigil?\""
+msgstr "\"Что ты можешь сказать о Сигиле?\""
+
+#: 1580
+msgid "\"Can you tell me about this... city?\""
+msgstr "\"Что ты можешь сказать об этом... городе?\""
+
+#: 1581 1594
+msgid "\"Can you tell me about these slums?\""
+msgstr "\"Что ты можешь сказать об этих трущобах?\""
+
+#: 1582 1595
+msgid "\"Can you tell me about the Hive?\""
+msgstr "\"Что ты можешь сказать об Улье?\""
+
+#: 1583 1596
+msgid "\"Can you tell me about the Lady of Pain?\""
+msgstr "\"Что ты можешь сказать о Леди Боли?\""
+
+#: 1584 1597
+msgid "\"Do you know someone named Pharod?\""
+msgstr "\"Ты знаешь кого-нибудь по имени Фарод?\""
+
+#: 1585
+msgid "\"I'm missing a journal. Have you seen one?\""
+msgstr "\"Я потерял дневник. Тебе такой не попадался?\""
+
+#: 1586
+msgid ""
+"\"Eh...\" He looks at you warily, and his brow furrows in confusion. \"What "
+"ye wanting ta know 'bout the Hive, cutter?\""
+msgstr ""
+"\"Эээ...\" Оно осторожно на тебя смотрит, и его брови в смущении подымаются. "
+"\"А что ты хочешь знать об Улье, рубака?\""
+
+#: 1587
+msgid "\"Why is it called the Hive?\""
+msgstr "\"Почему его называют Ульем?\""
+
+#: 1588 1600
+msgid "\"What's around here of interest?\""
+msgstr "\"Что есть интересного в округе?\""
+
+#: 1589 1643
+msgid "\"Never mind. I had some other questions...\""
+msgstr "\"Неважно. У меня есть другие вопросы...\""
+
+#: 1591
+msgid "\"Eh... what might those questions be?\""
+msgstr "\"Эээ... и что это за вопросы?\""
+
+#: 1592
+msgid "\"Can you tell me about this...city?\""
+msgstr "\"Что ты можешь сказать об этом... городе?\""
+
+#: 1598
+msgid ""
+"\"I'm missing a journal. Have you seen one, or do you know where I might "
+"find one?\""
+msgstr ""
+"\"Я потерял дневник. Тебе такой не попадался или, может, ты знаешь, где его "
+"найти?\""
+
+#: 1599
+msgid ""
+"He looks puzzled. \"I... don't know.\" He looks frightened that he doesn't "
+"know the answer. \"Mess o' streets, mess o' people, mayhap.\""
+msgstr ""
+"Он в тупике. \"Я... не знаю.\" Он начинает дрожать, осознавая, что не может "
+"ответить на вопрос. \"Наверное, оттого, что здесь куча-мала из улиц и людей."
+"\""
+
+#: 1601 1688 2527 7145
+msgid "\"I see. I had some other questions...\""
+msgstr "\"Понятно. У меня были еще вопросы...\" "
+
+#: 1602
+msgid "\"Never mind then. Farewell.\""
+msgstr "\"Тогда неважно. Прощай.\""
+
+#: 1603
+msgid "\"It... eh... depenz. Depenz on what ye find interesting, cutter.\""
+msgstr ""
+"\"Зависит... эээ... зависит от того, что ты находишь интересным, рубака.\""
+
+#: 1604 1605
+msgid "\"I'm looking for a good time.\""
+msgstr "\"Я ищу развлечений.\""
+
+#: 1606
+msgid "\"I'm looking for work.\""
+msgstr "\"Я ищу работу.\""
+
+#: 1607
+msgid "\"I'm looking for someone named Pharod.\""
+msgstr "\"Я ищу кое-кого по имени Фарод.\""
+
+#: 1608
+msgid ""
+"\"I'm looking for a missing journal. Do you happen to know where I might "
+"find one?\""
+msgstr "\"Я ищу потерянный дневник. Ты не знаешь, где я его могу найти?\""
+
+#: 1609
+msgid "\"Forget it. I had some other questions...\""
+msgstr "\"Забудь об этом. У меня есть несколько вопросов...\""
+
+#: 1610
+msgid ""
+"\"Well...\" He licks his lips. \"There's the Smolderin' Corpse bar... n' the "
+"Dustie bar... though you don't look the cutter ta be drinkin' bub with the "
+"Dusties... any o' the other places 'round here is jest dangerous, so be on "
+"yer guard.\""
+msgstr ""
+"\"Ну...\" Он облизывает губы. \"Здесь неподалеку есть бар 'Тлеющий Труп'... "
+"бар Мертвяков... хотя ты не похож на рубаку, который будет пить пойло вместе "
+"Мертвяками... любое другое место вокруг очень опасно, так что будь настороже."
+"\""
+
+#: 1611
+msgid "\"Where are the places you mentioned?\""
+msgstr "\"А где это?\""
+
+#: 1612
+msgid "\"What's dangerous around here?\""
+msgstr "\"А что опасного в округе?\""
+
+#: 1613 1631
+msgid "\"'Dusties'?\""
+msgstr "\"'Мертвяков'?\""
+
+#: 1614 1619 1626 1636 1651 1681 1694 1697 1700 1709 1731 1733 2530 7134 7141
+#: 7143 7151
+msgid "\"I had some other questions...\""
+msgstr "\"У меня есть другие вопросы...\""
+
+#: 1615 1627 1637 7135
+msgid "\"I see. Thanks for the information. Farewell.\""
+msgstr "\"Понятно. Спасибо за информацию. Прощай.\""
+
+#: 1616
+msgid ""
+"\"Well, the Smolderin' Corpse is a few blocks spireward - uh, southward - of "
+"the Mortuary - and the Dustie bar is just a little to the south n' west of "
+"the Mortuary.\""
+msgstr ""
+"\"Ну, Тлеющий Труп находится через несколько кварталов к шпилю... эээ... "
+"югу, рядом с Моргом. Бар Мертвяков чуток юго-западнее Морга.\""
+
+#: 1617
+msgid ""
+"\"Anywhere in the Hive, once dark falls. Then there's the Angled Alley... ye "
+"want ta be keepin' yerself outta there unless ye want ta be in the dead book."
+"\""
+msgstr ""
+"\"Да повсюду в Улье, как только стемнеет. А потом еще Угловатая Аллея... "
+"тебе лучше держаться от нее подальше, если не хочешь попасть в книгу мертвых."
+"\""
+
+#: 1618
+msgid "\"Why is this 'Alley of Angles' so dangerous?\""
+msgstr "\"А почему эта 'Угловатая Аллея' так опасна?\""
+
+#: 1620 1653 1662
+msgid "\"Thanks for the information. Farewell.\""
+msgstr " \"Спасибо за информацию. Прощай.\""
+
+#: 1621
+msgid ""
+"He thinks. \"Precious little... eh, honest... work ta be found 'round here, "
+"cutter. Ye ken hunt some brain vermin fer some coppers, pass them off ta the "
+"Branch Office of vermin fer some jink, ta hear tell, but messin' with the "
+"brain vermin's dangerous work, though. Ye ken also gather some deaders "
+"around the Hive, take it ta the Mortuary fer some jink.\""
+msgstr ""
+"Он думает. \"Непыльной... эээ, честной работенки в городе много, если "
+"поискать, рубака. Можно поохотиться на мозговых паразитов, а потом сдать их "
+"в Филиал Офиса по паразитам за пару медяков, но скажу тебе, связываться с "
+"мозговыми паразитами очень опасно. А можно еще пошататься по Улью, "
+"пособирать трупы и притащить их Морг ради пары звенелок.\""
+
+#: 1622
+msgid ""
+"\"It's next to th' Hive market. Go spireward - that's south n' west of the "
+"Mortuary - three or four blocks, n' ye'll dead-end into it. The rat catchers "
+"mither out in front, can't miss it.\""
+msgstr ""
+"\"Он сразу за рынком Улья. Иди к шпилю - это на юг и чуть на восток от "
+"Морга, три или четыре квартала, пока не упрешься в тупик. Там он и будет. У "
+"входа вечно околачиваются крысоловы, так что ты его не пропустишь.\""
+
+#: 1623
+msgid "\"Where's this branch office?\""
+msgstr "\"А где этот филиал?\""
+
+#: 1624
+msgid "\"Brain vermin?\""
+msgstr "\"Мозговых паразитов?\""
+
+#: 1625
+msgid "\"Gather bodies?\""
+msgstr "\"Собирать трупы?\""
+
+#: 1628
+msgid ""
+"\"Aye, the Dusties will pay jink for any deaders ye bring ta their gates. "
+"Not much jink ta be made, but enough fer the Collectors t'keep makin' their "
+"rounds... an' there's always enough deaders ta be found 'round here.\""
+msgstr ""
+"\"Ага, Мертвяки платят звенелки за трупы, которые ты притащишь к их воротам. "
+"Много не заработаешь, но для Сборщиков этого хватает... да и к тому же, "
+"трупов всегда хватает.\""
+
+#: 1629
+msgid "\"Where was that branch office you mentioned located?\""
+msgstr "\"А где филиал офиса, про который ты говорил?\""
+
+#: 1630
+msgid "\"What were you saying about 'brain vermin?'\""
+msgstr "\"А что ты там говорил о 'мозговых паразитах'?\""
+
+#: 1632 1638 1698 1701 2528
+msgid "\"What other work is there in the Hive?\""
+msgstr "\"Какая еще работа есть в Улье?\""
+
+#: 1633
+msgid "\"Collectors?\""
+msgstr "\"Сборщиков?\""
+
+#: 1634
+msgid ""
+"\"Aye, nasty little critters.\" He bares his teeth like a rat. He looks "
+"pretty foolish. \"Alone, they're barely nothing at all... it's jest when "
+"brain vermin get together, they get all smart the more of them are around "
+"each other. They start gettin' as smart as a human...\" He shakes his head. "
+"\"Nobody in their right mind wants that ta happen. Hazard ta everyone's "
+"health, it is.\""
+msgstr ""
+"\"Ага, мерзкие маленькие твари.\" Он растягивается в широкой крысиной "
+"улыбке. Выглядит он при этом очень глупо. \"По одиночке они ничего сделать "
+"не могут... но если паразиты соберутся вместе, то становятся намного умнее, "
+"чем по отдельности. Они начинают думать, как человек...\" Он трясет головой. "
+"\"И никто не знает, что там копошится в их мыслях. Но здоровья этого не "
+"прибавит, уж поверь.\""
+
+#: 1635
+msgid ""
+"\"Aye... Dusties... Dustmen... the pale-faced Dead, they are, all grim and "
+"no humor to speak of. They keep the streets free o' the dead, stack 'em in "
+"the Mortuary. That's their job in Sigil, mostly 'cuz no one else wants it.\""
+msgstr ""
+"\"Ага... Мертвяки... Тленные... бледные люди, полные угрюмости и без всякого "
+"чувства юмора. Они заботятся о том, чтобы на улицах не было трупов, "
+"складывая их в Морге. Это их работа в Сигиле, скорее всего, потому, что "
+"больше никто этим заниматься не будет.\""
+
+#: 1639
+msgid "\"Which o' em?\""
+msgstr "\"Кто именно?\""
+
+#: 1640
+msgid "\"How about the Dustmen...\""
+msgstr "\"Как насчет Тленных...\""
+
+#: 1641
+msgid "\"The Chaosmen...they sound interesting.\""
+msgstr "\"Хаоты... звучит интригующе.\""
+
+#: 1642
+msgid "\"The Indeps?\""
+msgstr "\"Свободные?\""
+
+#: 1644
+msgid "\"Forget the question. Farewell.\""
+msgstr "\"Забудь. Прощай.\""
+
+#: 1645
+msgid "\"What d'ye want t'know 'bout Sigil then?\""
+msgstr "\"А что ты хочешь узнать о Сигиле?\""
+
+#: 1646
+msgid "\"What *is* this place?\""
+msgstr "\"Что *это* за место?\""
+
+#: 1647
+msgid "\"*Where* is Sigil?\""
+msgstr "\"*Где* расположен Сигил?\""
+
+#: 1648
+msgid "\"Actually, I had some other questions...\""
+msgstr "\"Вообще-то, у меня есть другие вопросы...\""
+
+#: 1649 1659 1665 1669 1682 1689 1693 7132 7144 7146 7147 7149 7155
+msgid "\"Never mind. Farewell.\""
+msgstr "\"Неважно. Прощай.\""
+
+#: 1650
+msgid ""
+"\"Th'city. City o' Doors, the Cage. Place where all doors lead to, n' from. "
+"Center of the Planes, and gets most of the backwash from all places, too. "
+"Some say this is where everybody ends up at one point or another.\""
+msgstr ""
+"\"Ну это город. Город Дверей, или Клетка. Место, где все двери куда-то "
+"ведут, но не откуда-то. Центр Планов, хотя ему и достается весь мусор со "
+"всех мест. Кто-то говорит, что это место, где все сходится в одной точке.\""
+
+#: 1652
+msgid "\"'City of Doors'?\""
+msgstr "\"'Город Дверей'?\""
+
+#: 1654
+msgid ""
+"\"Eh, aye... y'see, cutter, th' city is...\" He frowns, as if struggling "
+"with the words. \"The city's got a batch of doors scattered through it... "
+"n'... y'see, the doors...\" He frowns again, then sighs."
+msgstr ""
+"\"Эээ, ну да... понимаешь, этот город - это...\" Он нахмуривается, пытаясь "
+"найти подходящее выражение. \"В городе есть куча дверей, разбросанных "
+"повсюду и... ну понимаешь... двери...\" Он снова хмурится, бессильно вздыхая."
+
+#: 1655
+msgid ""
+"\"Let me rattle my bone box with a lil' more sense: Y'see, there's 'doors' "
+"all over Sigil, but they don't always look like doors. They're more like "
+"portals, see? An' they ken be just about *anything*... a window frame... er, "
+"a picture frame, an archway... a barrel hoop, a space between a table's "
+"legs... or a statue's legs...\" "
+msgstr ""
+"\"Давай я тебе по-простому объясню. Видишь, здесь всюду в Сигиле есть двери, "
+"но некоторые из них могут быть не совсем обычными дверьми. Они больше похожи "
+"на порталы, догоняешь? А выглядеть они могут вообще *по-любому*... типа "
+"оконного проема... эээ, рамы для картины, арки... кольца для бочки, проема "
+"между ножками стола... или ногами статуи...\" "
+
+#: 1656
+msgid "\"And... you're saying all of these things are doors?\""
+msgstr "\"И... ты хочешь сказать, что все это - двери?\""
+
+#: 1657
+msgid "\"The doors...?\""
+msgstr "\"Двери?..\""
+
+#: 1658
+msgid ""
+"\"I can see this is going to take a while. I had some other questions...\""
+msgstr ""
+"\"Кажется, это может занять порядком времени. У меня есть другие вопросы...\""
+
+#: 1660
+msgid ""
+"He frowns again. \"Doors... portals can be anything that's closed on all "
+"sides. It's hard ta tell where they are... unless ye got the key to the "
+"door. That how you get here, cutter? Through a door?\""
+msgstr ""
+"Он снова хмурится. \"Двери... то есть, порталы могут быть всем, что "
+"ограничено со всех сторон. Трудно сказать, где они расположены... пока ты не "
+"раздобудешь подходящий ключ к двери. Вообще, ты как сюда попал, рубака? "
+"Через дверь?\""
+
+#: 1661
+msgid "\"I... see. I had some other questions...\""
+msgstr "\"Понятно... У меня были еще вопросы...\" "
+
+#: 1663
+msgid "\"What makes you say that?\""
+msgstr "\"А какое это отношение имеет к сказанному?\""
+
+#: 1664
+msgid "\"Eh... well, ye don't act like yer from 'round Sigil, see?\""
+msgstr "\"Эээ, ну, ты ведь не из Сигила, верно?\""
+
+#: 1666
+msgid "\"What are these 'Keys' you mentioned?\""
+msgstr "\"А что это за 'ключи', про которые ты говорил?\""
+
+#: 1667
+msgid "\"So there's all these doors in the city... where do they all go to?\""
+msgstr "\"Значит, в городе полно дверей... а куда они ведут?\""
+
+#: 1668
+msgid "\"Maybe... look, I had some other questions...\""
+msgstr "\"Может быть... Слушай, у меня были еще вопросы...\""
+
+#: 1670
+msgid ""
+"\"Each door's got a key, which makes it open, see? Mosttimes, ye won't even "
+"*know* a door's around ye, *unless* ye got the key. Then th' door opens, an' "
+"ye can step through an' take yer chances. Trick is, ye know how I was saying "
+"that doors ken be anything? Well, so ken keys. They could be a tune ye hum "
+"to yerself near the door, a thought ye be havin' about pastries, or a lil' "
+"jig you do, or maybe the key's an object, like a piece of glass, or a "
+"cobblestone, or a broken tooth... anythin'.\""
+msgstr ""
+"\"К каждой двери есть ключ, который ее открывает, верно? Обычно ты даже не "
+"*знаешь*, что находишься рядом с дверью, *до тех пор*, пока у тебя нет "
+"ключа. Дверь открывается, и ты можешь шагнуть вперед и попытать удачу. Как я "
+"сказал, дверью может быть что угодно. Весь трюк в том, что и ключом тоже "
+"может быть что угодно, понимаешь? Твое бормотание рядом с дверью, твои "
+"воспоминания, или джига, которую ты танцуешь рядом. Или ключом может быть "
+"вообще предмет - осколок стекла, булыжник с мостовой, выбитый зуб... да все "
+"что угодно.\""
+
+#: 1671 1676 7138
+#, fuzzy
+msgid "\"Where do all these doors in the city go to?\""
+msgstr "\"Значит, в городе полно дверей... а куда они ведут?\""
+
+#: 1672 1675 1679
+msgid ""
+"\"Before, you asked if I came through one of these doors. What made you say "
+"that?\""
+msgstr ""
+
+#: 1673
+msgid "\"Sounds pretty confusing.\""
+msgstr "\"Звучит очень запутанно.\""
+
+#: 1674
+msgid "\"Ye get used ta it, ye do.\""
+msgstr "\"Когда ты это увидишь, вмиг все поймешь.\""
+
+#: 1677
+msgid ""
+"He shrugs. \"Doors ken go *anywhere,* cutter. Some don't even lead ta the "
+"same place twice.\" He sighs. \"Y'see, such is the way and number of the "
+"doors that they lead to almost anywhere in the Planes... *anywhere.* It's "
+"jest that there are so damnable many o' em, it's hard finding one that takes "
+"ye right where ye want to go.\""
+msgstr ""
+"Он пожимает плечами. \"Да куда *угодно*, приятель. Некоторые вообще никогда "
+"не ведут в одно и тоже место.\" Он вздыхает. \"Понимаешь, при таком раскладе "
+"двери могут вести в любое место в Планах... *любое*. Вся шутка в том, что их "
+"так чертовски много, что очень трудно найти такую, которая приведет тебя "
+"туда, куда ты хочешь.\""
+
+#: 1678
+msgid "\"You said these doors have 'keys'...?\""
+msgstr "\"Ты сказал, что у этих дверей есть 'ключи'...\""
+
+#: 1680
+msgid ""
+"\"Center of the Planes, ta here tell. Don't know from experience,\" He "
+"shrugs. \"I imagine everyplace touches here... one way or another. Not all "
+"o' a Sigil as ugly as y'see here, neither.\""
+msgstr ""
+"\"В центре Планов, как говорят. Хотя этого никто не проверял.\" Он пожимает "
+"плечами. \"Отсюда можно попасть в любое место... несколькими путями. Не все "
+"так ужасно в Сигиле, как это можно подумать.\""
+
+#: 1683 7128
+msgid ""
+"\"The mistress o' Sigil? Ye've not *heard* o' her? Ye must be blessed or "
+"more cluel... eh, know little about Sigil, indeed.\" He laughs weakly. "
+"\"Lady's word's law here in Sigil.\" He thinks for a moment. \"'Cept she "
+"don't say much. Dead silent she is, actually.\""
+msgstr ""
+"\"Леди Боли? Ты что, никогда *не слышал* о ней? Должно быть, ты либо "
+"благословен, либо еще больше безмоз... эээ, еще мало знаешь о Сигиле.\" Он "
+"тихонько смеется. \"Слово Леди - закон в Сигиле.\" Он немного "
+"призадумывается. \"Хотя она не очень-то и разговорчива. На самом деле, она "
+"убийственно молчалива.\""
+
+#: 1684
+msgid ""
+"\"Ye're missin' a what?\"  He looks confused. \"No idea where ye'd find such "
+"a thing, cutter.\""
+msgstr ""
+"\"Потерянный чего?\" Он обескуражен. \"Без понятия, где это можно найти, "
+"рубака.\""
+
+#: 1685 7129
+msgid ""
+"He looks at you warily. \"Don't want ta be talkin' too much about her, "
+"cutter... ye don't want ta cross her shadow nor be singing her praises, all "
+"right? Now, let's say no more about it. Rattlin' yer bone-box about the lady "
+"is dim, dim indeed.\""
+msgstr ""
+"Он с опаской смотрит на тебя. \"Не нужно много говорить о ней, рубака... "
+"тебе не нужно попадать в ее тень или петь ей хвалебные речи, хорошо? И не "
+"будем больше об этом. Трясти черепушкой про леди - это глупо, очень глупо.\""
+
+#: 1686 7153
+#, fuzzy
+msgid "\"Some law.\""
+msgstr "\"У меня есть некоторые вопросы...\" "
+
+#: 1687 7154
+msgid "\"What else can you tell me about this Lady?\""
+msgstr "\"Что ты еще можешь рассказать об этой Леди?\""
+
+#: 1690
+msgid ""
+"\"The Dusties' kip. Grim-lookin' place. Don't even want ta be seein' that "
+"place even when they pen me in the dead book.\""
+msgstr ""
+"\"Берлога Мертвяков. Мрачное место. Никогда не пойду туда, даже если меня "
+"пропишут в книгу мертвых.\""
+
+#: 1691
+msgid ""
+"\"Vultures. Lot of 'em have their kip in Ragpicker's Square. Gather th' "
+"deaders, scuttle everythin' worth jink from 'em, then sell the bodies back "
+"ta th' Dusties at the Mortuary.\""
+msgstr ""
+"\"Падальщики. Почти все они обитают на площади Старьевщиков. Только и "
+"делают, что ищут трупы, прикарманивают их звенелки, а потом продают тела "
+"Мертвякам в Морге.\""
+
+#: 1692
+msgid "\"All right then, I had some other questions...\""
+msgstr "\"Ну хорошо, у меня есть другие вопросы...\""
+
+#: 1695 7148
+msgid "\"I see. Farewell.\""
+msgstr "\"Понятно. Прощай.\""
+
+#: 1696
+msgid "\"Why do they do that?\""
+msgstr "\"А почему они это делают?\""
+
+#: 1699
+msgid ""
+"\"Dusties pay jink ta people fer bringin' 'em deaders off the streets and "
+"alleys, makes the Dusties' lives a lil' easier ta have a batch of Hivers "
+"collecting bodies for 'em. Lot of deaders in the Hive, everyday.\""
+msgstr ""
+"\"Мертвяки платят этим людям за то, что те приносят тела с улиц и аллей, из-"
+"за чего Мертвякам живется чуть проще - лучше иметь ораву людей с Улья, чем "
+"таскать трупы самому. А в Улье трупов порядком, каждый день появляются.\""
+
+#: 1702
+msgid "\"Name's not one I know, cutter. Who's he?\""
+msgstr "\"Это имя мне не знакомо, рубака. Кто это?\""
+
+#: 1703
+msgid "\"He's a Collector, I think.\""
+msgstr "\"Он Сборщик, как мне кажется.\""
+
+#: 1704
+msgid "\"Got it, thanks. I had some other questions...\""
+msgstr "\"Усек. У меня есть еще вопросы...\""
+
+#: 1705
+msgid ""
+"\"I'm trying to find that out myself. Look, I had some other questions...\""
+msgstr "\"Я сам хочу это узнать. Послушай, у меня есть еще вопросы...\""
+
+#: 1706
+msgid "\"Understood. Farewell.\""
+msgstr "\"Понятно. Прощай.\""
+
+#: 1707
+msgid ""
+"He thinks. \"Well, then he most likely has his kip in Ragpicker's Square, "
+"then. Ye might want ta look there... during the day, that is. Not a nice "
+"place at night.\""
+msgstr ""
+"Он думает. \"Ну, тогда, скорее всего, его берлога находится на Площади "
+"Старьевщиков. Ты можешь поискать там... только днем, конечно же. Ночью там "
+"не очень приятно находиться.\""
+
+#: 1708
+msgid "\"Where is this Ragpicker's Square located?\""
+msgstr "\"А где находится Площадь Старьевщиков?\""
+
+#: 1710
+msgid "\"Thanks for the warning. Farewell.\""
+msgstr "\"Спасибо за предупреждение. Прощай.\""
+
+#: 1711
+msgid ""
+"\"It's a few blocks from here - go west from the Mortuary as far as ye ken "
+"go, an' ye'll run right into it. Careful when ye're around there though, "
+"cutter... the Collectors there don't always wait fer a body ta die before "
+"collectin' on them, aye?\""
+msgstr ""
+"\"Пара кварталов отсюда - иди на запад от Морга до упора и ты окажешься там. "
+"Однако будь поосторожнее там, рубака... Сборщики не всегда ждут, пока тело "
+"само окочурится, чтобы его взять, понимаешь?\""
+
+#: 1712
+msgid ""
+"\"Place o' gangers and muggers, cutter. Don't be going there unless ye want "
+"ye're next stop ta be the Mortuary. Th'alley's a big burnt wreck, used ta be "
+"a street 'fore some barmy mage burned it down one night. Here tell, they "
+"caught th'fella, burned 'im in return, then put 'im on display at the "
+"Smolderin' Corpse bar. That's th'Hive fer ye.\""
+msgstr ""
+"\"Это место разбойников и грабителей, рубака. Не ходи туда, если только твоя "
+"следующая остановка не Морг. Эта аллея - сплошной выжженный мусор, который "
+"раньше был улицей, до того, как однажды ночью один свихнувшийся маг не сжег "
+"ее дотла. Говорят, что его поймали и самого сожгли, а потом выставили в "
+"качестве экспоната в баре 'Тлеющий Труп'. Вот такой он, Улей.\""
+
+#: 1713
+msgid ""
+"\"Eh...\" He licks his lips as you turn to leave. \"Cutter, ye might think "
+"ye...\" He studies you for a moment. \"Ye could spare a few coppers fer a "
+"blood who helped ye on yer way? Not many'd around here, do that fer a "
+"fella... enough fer a man ta wet his tongue after all that talkin'? Eh?\""
+msgstr ""
+"\"Эээ...\" Он облизывает губы, видя как ты собираешься уходить. \"Приятель, "
+"ты не подумай ничего такого...\" Он изучает тебя на мгновение. \"Ты можешь "
+"пожертвовать пару медяков знатоку, который помог тебе просветиться? Не очень "
+"много, сделай это для старого приятеля... немного для человека с подвешенным "
+"языком, который направил на путь истинный? А?\""
+
+#: 1714
+msgid "\"No.\""
+msgstr "\"Нет.\""
+
+#: 1715
+msgid "\"I'll spare your life. How's that?\""
+msgstr "\"Я пощажу твою жизнь. Как насчет этого?\""
+
+#: 1716
+msgid "\"Fair enough.\" Give him a copper piece."
+msgstr "\"Довольно честно.\" Дать ему один медяк."
+
+#: 1717
+msgid "Give five coppers."
+msgstr "Дать пять медяков."
+
+#: 1718
+msgid "Give ten coppers."
+msgstr "Дать десять медяков."
+
+#: 1719
+msgid ""
+"He seems disappointed. \"Oh, well, aye... peace, then, cutter...\" He "
+"grumbles under his breath as he walks off."
+msgstr ""
+"Он сбит с толку. \"Ох, ну хорошо, мир тебе, рубака...\" Под недовольное "
+"ворчание он уходит прочь."
+
+#: 1721
+msgid "Leave."
+msgstr "Уйти."
+
+#: 1722
+msgid ""
+"The man looks startled and raises his hands. \"Nay, nay, nothin', cutter! I "
+"was marking the weather, so I was! Nothin' about ye!\" He looks ready to run."
+msgstr ""
+"Мужчина в испуге поднимает руки. \"Нет, нет, ничего, рубака! Просто погода "
+"никчемная, вот и все, что я сказал!\" Он готов убежать."
+
+#: 1723
+msgid "\"*What* did you say?\""
+msgstr "\"*Что* ты сказал?\""
+
+#: 1724 1727
+msgid "Attack him."
+msgstr "Атаковать его."
+
+#: 1725 1728
+msgid "Let him run."
+msgstr "Позволить ему убежать."
+
+#: 1726
+msgid ""
+"\"Eh... that be sittin' well with me, cutter.\" He smiles uneasily. \"Peace, "
+"then.\" He leaves quickly."
+msgstr ""
+"\"Эээ... это очень щедро с твоей стороны, рубака.\" Он улыбается вымученной "
+"улыбкой. \"Ступай себе с миром.\" Он быстро уходит."
+
+#: 1729
+msgid ""
+"He glances around to see if anyone saw the exchange, then tucks the jink in "
+"the folds of his robe. \"Thank ye kindly, cutter! May the Lady's shadow pass "
+"ye by!\""
+msgstr ""
+"Он воровато оглядывается, пытаясь увидеть случайных свидетелей сделки, затем "
+"берет деньги и прячет в одежде. \"Большое спасибо тебе, рубака! Да минует "
+"тебя мимо тень Леди!\""
+
+#: 1730
+msgid "\"Wait a minute... Lady? What do you mean?\""
+msgstr "\"Погоди... Какая еще Леди? О чем это ты?\""
+
+#: 1732 7133 7152
+msgid "\"Thanks. Farewell.\""
+msgstr "\"Спасибо. Прощай.\""
+
+#: 2529 2533
+msgid "\"Where's this Alley located?\""
+msgstr "\"А где находится эта Аллея?\""
+
+#: 2531
+msgid "\"Never mind then. I had some questions...\""
+msgstr "\"Тогда неважно. У меня есть другие вопросы...\""
+
+#: 2532
+msgid "\"All right... farewell.\""
+msgstr "\"Ладно... Прощай.\""
+
+#: 2534
+msgid "\"I'm sorry, I don't have any money to spare.\""
+msgstr "\"Извини, у меня нет денег на пожертвования.\""
+
+#: 2535
+msgid "Lie: \"I'm sorry, I don't have any money to spare.\""
+msgstr "Ложь: \"Извини, у меня нет денег на пожертвования.\""
+
+#: 7127
+msgid ""
+"\"It's just south and west of the Mortuary, n' just south of the Gathering "
+"Dust, that Dustie bar.\""
+msgstr ""
+"\"Прямо на юг-запад от Морга, или прямо на юг от Собирателей Пыли, бара "
+"Мертвяков.\""
+
+#: 7136
+msgid "\"I've heard enough. Farewell.\""
+msgstr "\"Я выслушал достаточно. Прощай.\""
+
+#: 7137
+msgid "\"What are those 'Keys' you mentioned?\""
+msgstr "\"А что это за 'ключи', про которые ты говорил?\""
+
+#: 7139
+msgid "\"I had some other questions for you...\""
+msgstr "\"У меня были еще вопросы к тебе...\""
+
+#: 7140
+msgid "\"That's all I wanted to know. Farewell.\""
+msgstr "\"Это все, что я хотел узнать. Прощай.\""
+
+#: 7142
+msgid "\"All right then... farewell.\""
+msgstr "\"Тогда ладно... Прощай.\""
+
+#: 7150
+msgid "\"Farewell.\""
+msgstr "\"Прощай.\""
+
+#: 7156
+msgid "\"Farewell then.\""
+msgstr "\"Тогда прощай.\" "

@@ -1,0 +1,443 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: dtek.tra\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2009-04-20 01:39+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: 58197
+msgid ""
+"You see a vaguely humanoid creature covered with grotesque scales. It has "
+"huge wings and a prehensile tail. It watches your approach with amusement."
+msgstr ""
+
+#: 58198
+msgid "\"Greetings.\""
+msgstr "\"Приветствую.\""
+
+#: 58199
+msgid "Ignore the creature."
+msgstr "Не обращать внимания на существо."
+
+#: 58200
+msgid ""
+"It barks out a laugh and smiles at you. \"Yes... greetings to you, little "
+"human.\""
+msgstr ""
+
+#: 58201 58215 58222 58227 58307
+msgid "\"I have some questions...\""
+msgstr "\"У меня есть некоторые вопросы...\" "
+
+#: 58202 58223 58228
+msgid "\"I must be going, farewell.\""
+msgstr "\"Я должен идти. Прощай.\""
+
+#: 58203
+msgid "\"By all means, ask your questions...\" It gives you a humorous smile."
+msgstr ""
+
+#: 58204
+msgid "\"Who are you?\""
+msgstr "\"Кто ты?\""
+
+#: 58205
+#, fuzzy
+msgid "\"What are you?\""
+msgstr "\"Кто ты такой?\""
+
+#: 58206
+msgid "\"What are you doing here?\""
+msgstr "\"Что ты здесь делаешь?\""
+
+#: 58207
+msgid "\"What can you tell me about this place?\""
+msgstr "\"Что ты можешь рассказать об этом месте?\""
+
+#: 58208
+#, fuzzy
+msgid "\"What can you tell me about the city of Curst?\""
+msgstr "\"А что ты можешь сказать о Леди Боли?\""
+
+#: 58209 58210
+#, fuzzy
+msgid "\"What has happened to Curst? Why all the changes?\""
+msgstr "\"А что случилось с твоим глазом?\""
+
+#: 58211
+msgid ""
+"\"As a Godsman I happen to know we are working on a secret device in the "
+"foundry. Can you tell me anything about that?\""
+msgstr ""
+
+#: 58212 58264 58268 58272 58278 58281 58292 58296 58303
+#, fuzzy
+msgid "\"I must be going now, farewell.\""
+msgstr "\"Нет. Я должен идти. Прощай.\""
+
+#: 58213
+msgid ""
+"It ponders your question for a while. \"My name is not important. If there "
+"were a reason for you to know me, you would.\" It pauses. \"If you need to "
+"attach a name to me, you may call me Tek'elach.\" The creature smiles."
+msgstr ""
+
+#: 58214
+#, fuzzy
+msgid "\"What kind of name is that?\""
+msgstr "\"Что это за имя такое?\""
+
+#: 58216
+msgid "\"Farewell.\""
+msgstr "\"Прощай.\""
+
+#: 58217
+msgid "\"The only one you will get from me...\" It stares at you intently."
+msgstr ""
+
+#: 58218
+#, fuzzy
+msgid "\"I see. I have some questions...\""
+msgstr "\"Понятно. У меня были вопросы...\""
+
+#: 58219
+#, fuzzy
+msgid "\"I think I should be going. Farewell.\""
+msgstr "\"Нет. Я должен идти. Прощай.\""
+
+#: 58220
+msgid ""
+"It cocks its head to one side and gives you a thoughtful look. \"What am I? "
+"Hmm... do you really need to know?\" It pauses to think. \"No harm I "
+"suppose. I believe your kind knows me as a greater baatezu... specifically, "
+"a cornugon.\""
+msgstr ""
+
+#: 58221
+msgid "\"You're a greater baatezu?\""
+msgstr ""
+
+#: 58224
+msgid "\"Yes... does this surprise you?\" It looks at you expectantly."
+msgstr ""
+
+#: 58225
+msgid ""
+"\"I just don't see why you'd be here. Aren't you supposed to be fighting "
+"some Blood War or something back home?\""
+msgstr ""
+
+#: 58226
+msgid ""
+"\"I just don't see why you'd be here. Aren't you supposed to be doing "
+"something else?\""
+msgstr ""
+
+#: 58229
+msgid ""
+"It frowns at you. \"Yes... there is the Blood War. But, that is far away for "
+"now and need not be spoken of...\""
+msgstr ""
+
+#: 58230
+#, fuzzy
+msgid "\"Why not?\""
+msgstr "\"Почему?\""
+
+#: 58231
+msgid ""
+"\"For no other reason than I choose not to... for now.\" It glares at you."
+msgstr ""
+
+#: 58232
+msgid "\"I see. I have some other questions...\""
+msgstr "\"Понятно. У меня были еще вопросы...\""
+
+#: 58233
+#, fuzzy
+msgid "\"I'll be leaving now. Farewell.\""
+msgstr "\"Нет. Я должен идти. Прощай.\""
+
+#: 58234
+msgid ""
+"It gives you a confused look. \"Something else? Do you refer to the Blood "
+"War perhaps?\""
+msgstr ""
+
+#: 58235 58300
+#, fuzzy
+msgid "\"What is the Blood War?\""
+msgstr "\"Что-что?\""
+
+#: 58236
+msgid ""
+"\"Not specifically the war, just something other than sitting here in this "
+"tunnel.\""
+msgstr ""
+
+#: 58237
+#, fuzzy
+msgid "\"Never mind, I have some questions...\""
+msgstr "\"Неважно. У меня есть другие вопросы...\""
+
+#: 58238 58244 58248 58254 58256
+msgid "\"I must be going. Farewell.\""
+msgstr "\"Я должен идти. Прощай.\""
+
+#: 58239
+msgid ""
+"It ponders your question for a while. At first you think it will not answer "
+"you. \"The Blood War is a... skirmish that we are having with the tanar'ri. "
+"It is of no consequence and need not be spoken of.\""
+msgstr ""
+
+#: 58240
+#, fuzzy
+msgid "\"Why is that?\""
+msgstr "\"Что-что?\""
+
+#: 58241
+msgid ""
+"\"My business here is my own; I don't see it as a concern or yours.\" It "
+"smiles knowingly at you. \"I suggest you change the subject."
+msgstr ""
+
+#: 58242
+msgid ""
+"\"I don't understand, why the secrecy? You give me the impression that "
+"something else is going on here.\""
+msgstr ""
+
+#: 58243 58247 58255
+#, fuzzy
+msgid "\"Very well, I have some questions...\""
+msgstr "\"Понятно. У меня были вопросы...\""
+
+#: 58245
+msgid ""
+"It looks at you with mock surprise. \"Do I? Or do you choose to interpret my "
+"words or actions to suit your own needs? Either way, I have answered your "
+"question. I will speak no more on this matter.\""
+msgstr ""
+
+#: 58246 58251
+#, fuzzy
+msgid "\"Why?\""
+msgstr "\"Почему я?\""
+
+#: 58249
+msgid ""
+"\"What is there to tell?\" It gestures vaguely at the surroundings. \"Look "
+"with your own eyes. All is laid bare before you.\""
+msgstr ""
+
+#: 58250
+msgid ""
+"It looks at you with mock surprise. \"Really? Are you that paranoid or that "
+"suspicious? Either way, I have answered your question. I will speak no more "
+"on this matter.\""
+msgstr ""
+
+#: 58252
+msgid ""
+"\"I can't help but feel that there is more going on here than meets the "
+"eye...\""
+msgstr ""
+
+#: 58253
+#, fuzzy
+msgid "\"I see... I have some questions...\""
+msgstr "\"Понятно. У меня были вопросы...\""
+
+#: 58257
+msgid ""
+"It frowns and gives serious thought to your question. \"It is a forsaken "
+"place... a place of betrayal and chaos... a city balanced on the edge or "
+"disaster. Travel wisely within its borders.\""
+msgstr ""
+
+#: 58258
+msgid "\"Balanced on the edge of disaster?\""
+msgstr ""
+
+#: 58259
+msgid ""
+"It sighs and looks away. \"This is a *border* town, little human. On one "
+"side, are the outlands. On the other, is the plane of Carceri. So long as "
+"the status quo in Curst remains balanced, this will continue to be a border "
+"town.\" It pauses for effect. "
+msgstr ""
+
+#: 58260
+#, fuzzy
+msgid "\"Go on.\""
+msgstr "\"Нет, не нужна.\""
+
+#: 58261
+msgid ""
+"\"If things get out of hand in the city, it could slide into Carceri and "
+"become one with the plane. Impose too much order, and it ceases to be a "
+"border town by sliding into the Outlands.\" It shrugs. \"That is the way of "
+"such places.\""
+msgstr ""
+
+#: 58262
+msgid "\"You're saying the city could actually be... displaced?\""
+msgstr ""
+
+#: 58263 58267 58271 58277 58280 58291 58295
+#, fuzzy
+msgid "\"I have some other questions...\""
+msgstr "\"У меня есть некоторые вопросы...\""
+
+#: 58265
+msgid "It gives you a mock smile. \"Yes...\""
+msgstr ""
+
+#: 58266
+msgid "\"If that were to happen, what could be done about it?\""
+msgstr ""
+
+#: 58269
+msgid ""
+"It shrugs. \"Determine which way the city has slid and apply an opposing "
+"force. Too much order? Instigate some chaos. Too little order? Impose more "
+"law.\" It smiles at you. \"If you were persistent in your efforts you could "
+"pull the city back to its border status... or slide it to the opposite side."
+"\""
+msgstr ""
+
+#: 58270 58294
+msgid ""
+"\"You've been very helpful... Which brings up another question... Why?\""
+msgstr ""
+
+#: 58273
+msgid "It gives you a confused look. \"Why what?\""
+msgstr ""
+
+#: 58274
+msgid ""
+"\"You baatezu are supposed to be the incarnations of evil. So why are you "
+"being so helpful?\""
+msgstr ""
+
+#: 58275
+msgid ""
+"It barks out a laugh and smiles at you. \"Do not mistake my help as "
+"kindness, nor me as anything other than evil. I am helping you because it "
+"serves my needs... nothing more.\""
+msgstr ""
+
+#: 58276
+msgid "\"How does helping me serve your needs?\""
+msgstr ""
+
+#: 58279
+msgid "\"How indeed...\" It continues to smile at you."
+msgstr ""
+
+#: 58282
+msgid ""
+"It sighs and looks away. \"Curst was a border town, balanced between two "
+"extremes. On the one side, were the outlands; On the other, the plane of "
+"Carceri.\" It pauses."
+msgstr ""
+
+#: 58283
+msgid ""
+"\"Yes, I understand that. What upset the balance and caused the city to "
+"slide into Carceri?\""
+msgstr ""
+
+#: 58284
+msgid ""
+"It shrugs. \"Trias. He was the cause. Because of him chaos got the upper "
+"hand and slid the city into Carceri... and here it will stay unless drastic "
+"measures are taken.\""
+msgstr ""
+
+#: 58285
+msgid "\"What can be done?\""
+msgstr ""
+
+#: 58286
+msgid "\"Trias? What does he have to do with this?\""
+msgstr ""
+
+#: 58287
+msgid ""
+"\"Determine which way the city has slid and apply an opposing force. Too "
+"much order? Instigate some chaos. Too little order? Impose more law.\" It "
+"smiles at you. \"If you are persistent in your efforts you can pull the city "
+"back to its border status... or slide it to the opposite extreme.\""
+msgstr ""
+
+#: 58288
+msgid "\"You're saying someone needs to impose law and order on the city?"
+msgstr ""
+
+#: 58289
+msgid "It smiles at you. \"Yes... that is exactly what I am saying.\""
+msgstr ""
+
+#: 58290
+msgid "\"Would you help me in this?\""
+msgstr ""
+
+#: 58293
+msgid ""
+"It gazes at you steadily for some time before answering. \"Yes... I believe "
+"it would be within my best interest to do so. My servants and I will gladly "
+"assist you.\""
+msgstr ""
+
+#: 58297
+msgid "It shrugs. \"Exactly what I warned you of when we last talked.\""
+msgstr ""
+
+#: 58298
+msgid "\"What was that?\""
+msgstr "\"Что такое?\""
+
+#: 58299
+msgid ""
+"\"You are a Godsman?\" It looks at you with some respect. \"Because of your "
+"affiliation I will answer your question. My superior commissioned the "
+"device. It is a weapon to be used in the Blood War.\""
+msgstr ""
+
+#: 58301
+#, fuzzy
+msgid "\"I see. I have some more questions...\""
+msgstr "\"Понятно. У меня были еще вопросы...\""
+
+#: 58306
+msgid ""
+"You see the cornugon, Tek'elach. He gives you an amused smile. \"So we meet "
+"again, little human. What do you want?\""
+msgstr ""
+
+#: 58309
+msgid "\"Nothing, farewell.\""
+msgstr "\"Ничего, прощай.\""
+
+#: 58310
+msgid ""
+"It sighs. \"Trias is an agent of Chaos. He was sentenced to the prison for "
+"good reason. Unfortunately, some idiot freed him, which allowed him to wreak "
+"havoc about the city.\" He pauses and sighs again. \"I was sent here to keep "
+"an eye on him...\""
+msgstr ""
+
+#: 58311
+msgid "\"So, what can be done?\""
+msgstr ""
