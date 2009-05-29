@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dbarkis.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 20:56+0600\n"
+"PO-Revision-Date: 2009-05-29 22:58+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
@@ -53,6 +53,8 @@ msgid ""
 "\"When I first spoke to you, you said 'you again?'. What did you mean by "
 "that?\""
 msgstr ""
+"\"Когда в первый раз разговаривал с тобой, ты сказал 'опять ты'. Что ты имел "
+"под этим в виду?\""
 
 #: 10247
 msgid "\"You said you had my eye. I'd like it back now.\""
@@ -60,7 +62,7 @@ msgstr "\"Ты говорил, что у тебя есть мой глаз. Я �
 
 #: 10252 57941
 msgid "\"You won't be having trouble with Mochai again.\""
-msgstr ""
+msgstr "\"У тебя больше не будет проблем с Мочай.\""
 
 #: 10257
 msgid "\"Hurry it up, will you? I got paying customers.\""
@@ -77,7 +79,7 @@ msgstr "\"Я позаботился о должнике.\""
 
 #: 10268
 msgid "\"Giltspur the auctioneer wanted you to post this handbill.\""
-msgstr ""
+msgstr "\"Акционер Гилтспур хочет, чтобы ты повесил этот рекламный листок.\""
 
 #: 10269
 msgid ""
@@ -108,10 +110,9 @@ msgid "\"I don't have that much.\""
 msgstr "\"У меня нет столько.\""
 
 #: 10274 10306
-#, fuzzy
 msgid ""
 "\"Not interested right now. Answer some other questions for me instead.\""
-msgstr "\"Забудь. Лучше ответь на пару вопросов.\""
+msgstr "\"Сейчас мне это не интерсено. Лучше ответь на пару вопросов.\""
 
 #: 10275 10307 57942
 msgid "\"Forget it. Farewell.\""
@@ -484,9 +485,8 @@ msgid "\"Yes. Information.\""
 msgstr "\"Да. Информацию.\""
 
 #: 10358
-#, fuzzy
 msgid "\"No, sorry.\""
-msgstr "Нет! Я... умираю..."
+msgstr "\"Извини, нет.\""
 
 #: 10359
 msgid ""
@@ -577,9 +577,8 @@ msgstr ""
 "\"Не сейчас, спасибо. Вместо этого я хочу задать тебе несколько вопросов.\""
 
 #: 10373
-#, fuzzy
 msgid "\"Not right now. Farewell.\""
-msgstr "\"Тогда ладно... Прощай.\""
+msgstr "\"Не сейчас. Прощай.\""
 
 #: 10374
 msgid ""
@@ -594,9 +593,8 @@ msgstr ""
 "я знать его секрет,\" - говорит хозяин. \"Еще хочешь?\""
 
 #: 10375 10376
-#, fuzzy
 msgid "\"I certainly do.\""
-msgstr "\"Так и сделаю. Спасибо.\""
+msgstr "\"Да конечно.\""
 
 #: 10377
 msgid "\"No, but I would like some answers.\""
@@ -786,9 +784,8 @@ msgid "\"Thanks. A few more questions...\""
 msgstr "\"Спасибо. У меня несколько вопросов...\""
 
 #: 10412
-#, fuzzy
 msgid "\"I'll take you up on that later. Farewell.\""
-msgstr "\"Я запомню твое предупреждение. Прощай.\""
+msgstr "\"Я потом к тебе загляну. Прощай.\""
 
 #: 10413
 msgid "\"You don't know the half of it. You want a drink now?\""
@@ -853,3 +850,4 @@ msgstr ""
 #: 57944
 msgid "\"Just answer some questions for me.\""
 msgstr "\"Ответь мне на другие вопросы.\""
+
