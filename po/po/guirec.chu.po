@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: guirec.chu\n"
 "POT-Creation-Date: 2009-05-25 03:20 +0600\n"
-"PO-Revision-Date: 2009-05-24 15:23+0600\n"
+"PO-Revision-Date: 2009-05-29 14:46+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 0
@@ -26,7 +26,7 @@ msgstr ""
 
 #: 37680
 msgid "THIEF SKILLS"
-msgstr ""
+msgstr "НАВЫКИ ВОРА"
 
 #: 38570
 msgid "Points Left:"
@@ -50,71 +50,70 @@ msgid "Open Doors:"
 msgstr ""
 
 #: 38576
-#, fuzzy
 msgid "SAVING THROWS"
-msgstr "Спасброски"
+msgstr "СПАСБРОСКИ"
 
 #: 38577
 msgid "Save Vs. Death:"
-msgstr ""
+msgstr "Спасбросок против смерти:"
 
 #: 38578
 msgid "Save Vs. Wands:"
-msgstr ""
+msgstr "Спасбросок против жезлов"
 
 #: 38579
 msgid "Save Vs. Polymorph:"
-msgstr ""
+msgstr "Спасбросок против полиморфизма"
 
 #: 38580
 msgid "Save Vs. Breath:"
-msgstr ""
+msgstr "Спасбросок против атаки дыханием:"
 
 #: 38581
 msgid "Save Vs. Spell:"
-msgstr ""
+msgstr "Спасбросок против заклинания:"
 
 #: 38582
 msgid "Armor Class:"
 msgstr "Класс брони:"
 
 #: 38583
-#, fuzzy
 msgid "Current Hit Points:"
-msgstr "Текущие очки жизни"
+msgstr "Текущие очки жизни:"
 
 #: 38584
 msgid "Max Hit Points:"
-msgstr ""
+msgstr "Максимальные очки жизни:"
 
 #: 39596
 msgid "Strongest Creature Killed:"
-msgstr ""
+msgstr "Самое сильное убитое создание:"
 
 #: 41278
 msgid "Time With Party:"
-msgstr ""
+msgstr "Время с группой:"
 
 #: 41279
 msgid "Favorite Spell:"
-msgstr ""
+msgstr "Любимое заклинание:"
 
 #: 41280
 msgid "Favorite Weapon:"
-msgstr ""
+msgstr "Любимое оружие:"
 
 #: 41281
 msgid "Number of Kills:"
-msgstr ""
+msgstr "Число убитых:"
 
 #: 41307
 msgid "Party Kills:"
-msgstr ""
+msgstr "Группой убито:"
 
 #: 41308
 msgid "Party Experience:"
-msgstr ""
+msgstr "Опыт от группы:"
 
 #: 825
 msgid "Kill Experience:"
-msgstr ""
+msgstr "Опыт от убийств:"
+
