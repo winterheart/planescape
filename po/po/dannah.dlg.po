@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 20:53+0600\n"
+"PO-Revision-Date: 2009-05-29 20:34+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -1872,9 +1872,8 @@ msgid "\"Then do it.\""
 msgstr "\"Тогда я сделаю это.\""
 
 #: 24771 50234 50280 50283 6973 6974 6984
-#, fuzzy
 msgid "\"Never mind. Let's just leave.\""
-msgstr "\"Неважно. Мне пора идти.\""
+msgstr "\"Неважно. Идем отсюда.\""
 
 #: 24772
 msgid "\"I see. I'll just try and speak with him myself...\""
@@ -2881,6 +2880,7 @@ msgid ""
 "\"He jest said he was one of the dabus.\" She shrugs. \"They don't have "
 "names.\""
 msgstr ""
+"\"Он сказал, что он из дабусов.\" Она пожимает плечами. \"У них нет имен.\""
 
 #: 50154 50186 6985 6987
 msgid "\"Can you ask it another question?\""
@@ -2888,7 +2888,7 @@ msgstr "\"Можешь ли ты задать другой вопрос?\""
 
 #: 50163 6828
 msgid "\"Well, this one dinnae give 'is name, now *did* he, skull?!\""
-msgstr ""
+msgstr "\"Ну раз у этого нет имени, то *как* его зовут, череп?!\""
 
 #: 50185 6835
 msgid ""
@@ -6196,3 +6196,4 @@ msgstr "Ударить его свободной рукой, привлечь е
 #, fuzzy
 msgid "Leave him be."
 msgstr "Оставить его в покое."
+
