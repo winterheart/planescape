@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmorte1.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:41+0600\n"
+"PO-Revision-Date: 2009-05-30 00:49+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 39792
@@ -22,7 +22,6 @@ msgstr ""
 "Мертвяков? Я думал, что ты дал дуба.\""
 
 #: 39793
-#, fuzzy
 msgid "\"Wh...? Who are you?\""
 msgstr "\"Чт?.. Ты кто?\""
 
@@ -48,9 +47,8 @@ msgstr ""
 "Мортом. Я тоже заперт здесь.\""
 
 #: 39799
-#, fuzzy
 msgid "\"Trapped?\""
-msgstr "\"Поймал *себя*?\""
+msgstr "\"Заперт?\""
 
 #: 39800
 msgid "\"Yeah, 'an I asked you *second.* What's your name?\""
@@ -65,6 +63,8 @@ msgid ""
 "\"Tchhhh... you're tighter than a wet rope. All right, *I'll* be the nice "
 "guy here. Name's Morte. Who're you?\""
 msgstr ""
+"\"Пффф... ты хуже измочаленной веревки. Ну хорошо, пусть *я* буду хорошим "
+"парнем. Зовут Мортом. А кто ты?\""
 
 #: 39805
 msgid ""
@@ -72,25 +72,24 @@ msgid ""
 "I've tried all the doors, and this room is locked tighter than a chastity "
 "belt.\""
 msgstr ""
+"\"Ага, и пока ты еще не разомнул свои ноги, вот тебе новость: я перепробовал "
+"все двери, и эта комната заперта крепче пояса целомудрия.\""
 
 #: 39806
-#, fuzzy
 msgid "\"We're locked in... where? What is this place?\""
-msgstr "\"Извини... 'Морг'? Что это за место?\""
+msgstr "\"Мы заперты... где? Что это за место?\""
 
 #: 39807
-#, fuzzy
 msgid ""
 "\"It's called the 'Mortuary'... it's a big black structure with all the "
 "architectural charm of a pregnant spider.\""
 msgstr ""
-"\"Ты находишься в дыре под названием Морг... это такое большое черное здание "
+"\"Оно называется 'Моргом'... это такое большое черное здание "
 "с чарующей архитектурой беременной паучихи.\""
 
 #: 39808
-#, fuzzy
 msgid "\"'The Mortuary?' What... am I dead?\""
-msgstr "\"'Морг?' Я умер?\""
+msgstr "\"'Морг?' Постой... я умер?\""
 
 #: 39809
 msgid ""
@@ -98,6 +97,9 @@ msgid ""
 "some berk painted you with a knife. All the more reason to give this place "
 "the laugh before whoever carved you up comes back to finish the job.\""
 msgstr ""
+"\"Да не очень-то, как я погляжу. Хотя шрамы на тебе... похоже, какой-то пень "
+"изрисовал тебя всего ножом. Еще одна причина свалить отсюда побыстрее, пока "
+"тот, кто не изрезал тебя, не вернулся назад и не завершил свою работу.\""
 
 #: 39810
 msgid "\"Scars? How bad are they?\""
@@ -118,7 +120,6 @@ msgid "\"Tattoos on my back? What do they say?\""
 msgstr "\"Татуировки на моей спине? Что они означают?\""
 
 #: 39813
-#, fuzzy
 msgid ""
 "\"Heh! Looks like you come with directions...\" Morte clears his throat. "
 "\"Let's see... it starts with...\n"
@@ -128,8 +129,8 @@ msgid ""
 "some light on the dark of the matter. PHAROD can fill you in on the rest of "
 "the chant, if he's not in the dead-book already.'"
 msgstr ""
-"\"Ха! Похоже, ты прибыл с указаниями...\" Морт прочищает горло. "
-"\"Посмотрим... начинается с...\n"
+"\"Ха! Похоже, ты прибыл с указаниями...\" Морт прочищает горло. \"Посмотрим.."
+". начинается с...\n"
 "\n"
 "'Я знаю, что ты чувствуешь себя так, как будто ты выпил несколько бочонков "
 "помоев из Стикса, но тебе надо СОСРЕДОТОЧИТЬСЯ. Среди твоих вещей есть "
@@ -141,7 +142,6 @@ msgid "\"Pharod...? Does it say anything else?\""
 msgstr "\"Фарод?.. А там есть еще что-нибудь?\""
 
 #: 39815
-#, fuzzy
 msgid ""
 "\"Yeah, there's a bit more...\" Morte pauses. \"Let's see... it goes on..."
 "\"\n"
@@ -204,7 +204,7 @@ msgstr ""
 
 #: 39822
 msgid "\"Walking corpses?\""
-msgstr ""
+msgstr "\"Ходячих трупов?\""
 
 #: 39823
 msgid ""
@@ -212,14 +212,21 @@ msgid ""
 "dumb as stones, but they're harmless, and won't attack you unless you attack "
 "first.\""
 msgstr ""
+"\"Ага, хранители Морга используют мертвые тела в качестве дешевой рабочей "
+"силы. Трупы тупы как пробка, они безвредны и не будут атаковать до тех пор, "
+"пока ты не нападешь первым.\""
 
 #: 39824
 msgid "\"Is there some other way? I don't want to kill them just for a key.\""
 msgstr ""
+"\"А есть какой-нибудь другой способ? Я не хочу никого убивать из-за "
+"какого-то ключа.\""
 
 #: 39825
 msgid "\"So I should attack one of these corpses and loot it for the key?\""
 msgstr ""
+"\"Так значит, я должен напасть на одного из этих трупов и забрать у него "
+"ключ?\""
 
 #: 39826
 msgid ""
@@ -227,13 +234,15 @@ msgid ""
 "you want a bright side to this: if you kill them, at least they'll have a "
 "rest before their keepers raise them up to work again.\""
 msgstr ""
+"\"Погоди, ты что, думаешь, что причинишь им боль? Они уже МЕРТВЫ. Но если "
+"тебе нужна мотивация, то пожалуйста: если ты убьешь их, то по крайней мере "
+"они отдохнут до того, как хранители поднимут их снова на работу.\""
 
 #: 39827
 msgid "\"Well, all right... I'll take one of them down and get the key.\""
-msgstr ""
+msgstr "\"Ну хорошо... Я уроню одного из них и заберу ключ.\""
 
 #: 39828
-#, fuzzy
 msgid ""
 "\"Well, before you do that, arm yourself first. I think there's a scalpel on "
 "one of the shelves around here.\"\n"
@@ -252,12 +261,10 @@ msgstr ""
 "найденный предмет, щелкни правой кнопкой по нему в окне инвентаря."
 
 #: 39829
-#, fuzzy
 msgid "\"All right, I'll look for one.\""
-msgstr "\"А, ладно...\""
+msgstr "\"Ладно, я поищу его.\""
 
 #: 39830
-#, fuzzy
 msgid ""
 "\"One last thing: Those corpses are as slow as molasses, but getting punched "
 "by one of them is like being kissed by a battering ram. If they start "
@@ -280,12 +287,10 @@ msgstr ""
 "дистанцию с зомби, пока ты восстанавливаешься."
 
 #: 39831
-#, fuzzy
 msgid "\"All right. Thanks for the advice.\""
-msgstr "\"Спасибо за совет. Прощай.\""
+msgstr "\"Хорошо. Спасибо за совет.\""
 
 #: 39832
-#, fuzzy
 msgid ""
 "\"There should be a scalpel on one of the shelves around here. I'd find it "
 "before locking horns with any of the corpses around here.\"\n"
@@ -304,43 +309,40 @@ msgstr ""
 "найденный предмет, щелкни правой кнопкой по нему в окне инвентаря."
 
 #: 39833
-#, fuzzy
 msgid "\"All right... I'll keep searching.\""
-msgstr "\"Ладно... Я... попробую это запомнить.\""
+msgstr "\"Ладно... Я поищу.\""
 
 #: 39834
 msgid ""
 "\"All right, you found the scalpel! Now, go get those corpses... and don't "
 "worry, I'll stay back and provide valuable tactical advice.\""
 msgstr ""
+"\"Отлично, ты нашел скальпель! А теперь пора разделаться с этими трупами... "
+"и не бойся, я буду позади тебя давать ценные тактические советы.\""
 
 #: 39835
-#, fuzzy
 msgid "\"Maybe you could *help* me, Morte.\""
-msgstr "\"А ты не *лжешь* мне, Морт?\""
+msgstr "\"А может ты *поможешь* мне, Морт?\""
 
 #: 39836 39848
-#, fuzzy
 msgid "\"All right.\""
 msgstr "\"Хорошо.\" "
 
 #: 39837
 msgid "\"I WILL be helping you. Good advice is hard to come by.\""
-msgstr ""
+msgstr "\"Я ПОМОГУ тебе. Хороший совет всегда хорош в трудную минуту.\""
 
 #: 39838
 msgid "\"I meant help in attacking the *corpse.*\""
-msgstr "\"Я имел ввиду помощь в атаке *трупов*.\""
+msgstr "\"Я имел ввиду помощь в нападении на *трупов*.\""
 
 #: 39839 39842
-#, fuzzy
 msgid "\"All right, then.\""
-msgstr "\"Ну хорошо...\""
+msgstr "\"Ну хорошо тогда.\""
 
 #: 39840
-#, fuzzy
 msgid "\"Me? I'm a romantic, not a soldier. I'd just get in the way.\""
-msgstr "\"Да, сделай меня мертвецом. Мне нужно попасть в Морг.\""
+msgstr "\"Я? Я романтик, а не солдат. У меня другая судьба.\""
 
 #: 39841
 msgid ""
@@ -380,7 +382,6 @@ msgstr ""
 "можно вызвать с помощью нажатия клавиши \"A\" без использования меню."
 
 #: 39846
-#, fuzzy
 msgid "\"Let's go.\""
 msgstr "\"Вперед.\""
 
@@ -407,25 +408,24 @@ msgid ""
 "\"All right, that's the key. It must fit the lock of one of the doors in the "
 "room.\""
 msgstr ""
+"\"Отлично, вот и ключ. Он должен подойти к одной из дверей в этой комнате.\""
 
 #: 39850
-#, fuzzy
 msgid "\"I'll try all the doors, then.\""
-msgstr "\"Я вернусь с деньгами.\""
+msgstr "\"Тогда я перепробую все двери.\""
 
 #: 39851
 msgid "\"I knew you'd be back, chief! Finally realized you needed me, huh?\""
 msgstr ""
+"\"Я знал, что ты вернешься, шеф! Все-таки понял, что я нужен тебе, а?\""
 
 #: 39852
-#, fuzzy
 msgid "\"Yeah... let's go.\""
-msgstr "\"Да... да, конечно же.\""
+msgstr "\"Да... идем.\""
 
 #: 39853
-#, fuzzy
 msgid "\"Not right now, Morte.\""
-msgstr "\"Не сейчас. Прощай.\""
+msgstr "\"Не сейчас, Морт.\""
 
 #: 39854
 msgid ""
@@ -433,50 +433,53 @@ msgid ""
 "to give you one LAST chance. You sure you don't want my sage advice and "
 "quick wit?\""
 msgstr ""
+"\"Хмммф. Ну хорошо, не знаю, как долго я смогу здесь быть, так что я даю "
+"тебе ПОСЛЕДНИЙ шанс. Ты уверен, что не хочешь моего мудрого совета и быстрой "
+"остроты?\""
 
 #: 39855
-#, fuzzy
 msgid "\"Morte, you don't have EITHER of those things.\""
-msgstr "\"Вообще-то, у тебя его *тоже* нет.\""
+msgstr "\"Морт, у тебя НЕТ ни того, ни другого.\""
 
 #: 39856 39859
-#, fuzzy
 msgid "\"All right, I changed my mind. Come on, let's go.\""
-msgstr "\"Ладно. Идем.\""
+msgstr "\"Ладно. Изменил свое решение. Давай, идем.\""
 
 #: 39857
-#, fuzzy
 msgid "\"Not at the moment, Morte. Maybe later.\""
-msgstr "\"Спасибо, не сегодня. Может быть потом.\""
+msgstr "\"Не сейчас, Морт. Может быть потом.\""
 
 #: 39858
 msgid ""
 "\"Are you trying to hurt my feelings, chief? What, was it something I said? "
 "The fact I don't have arms? What?\""
 msgstr ""
+"\"Ты пытаешься задеть мои чувства, шеф? Погоди, разве я что-то не так "
+"сказал? Или это из-за того, что у меня нет рук? Что?\""
 
 #: 39860
-#, fuzzy
 msgid ""
 "\"Nothing like that. It's just I don't need your company right now. "
 "Farewell, Morte.\""
-msgstr "\"Нет, не думаю, что ты можешь помочь мне. Прощай, Мортай.\""
+msgstr ""
+"\"Ничего такого. Просто сейчас я не нуждаюсь в твоей компании. Прощай, Морт."
+"\""
 
 #: 39861
 msgid ""
 "\"Well, I'm not going to wait FOREVER, so you better come back as soon as "
 "you change your mind.\""
 msgstr ""
+"\"Ну хорошо, я не собираюсь ждать тебя ВЕЧНО, так что тебе лучше поскорее "
+"вернуться изменить свое решение.\""
 
 #: 39862
-#, fuzzy
 msgid "\"I will. Farewell, Morte.\""
-msgstr "\"Я постараюсь. Прощай.\""
+msgstr "\"Я так и сделаю. Прощай, Морт.\""
 
 #: 39863
-#, fuzzy
 msgid "\"What's eating you, chief?\""
-msgstr "\"Что за вопросы у тебя?\""
+msgstr "\"Что гложет тебя, шеф?\""
 
 #: 39864
 msgid ""
@@ -503,7 +506,6 @@ msgstr ""
 "не представляли.\""
 
 #: 42301
-#, fuzzy
 msgid "\"I... see.\""
 msgstr "\"Понятно.\""
 
@@ -518,12 +520,12 @@ msgstr ""
 "оставим разговоры с мертвецами сумашедшим, ладно?\""
 
 #: 42303
-#, fuzzy
 msgid "\"All right, then. Let's go.\""
-msgstr "\"Ладно. Идем.\""
+msgstr "\"Хорошо. Идем.\""
 
 #: 42306
 msgid ""
 "\"This looks like the lucky petitioner here, chief. Look... he's got the key "
 "there in his hand.\""
 msgstr "\"Кажется, просителю повезло, шеф. Смотри... у него в руке ключ.\""
+

@@ -2040,6 +2040,42 @@
                     </ntig>
                 </langSet>
             </termEntry>
+
+            <termEntry id="azamat_h._hackimov-111">
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>berk</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>пень</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-112">
+                <descrip type="subjectField">planescape</descrip>
+                <descrip type="definition">Река в Бездне</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>styx</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>стикс</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
         </body>
     </text>
 </martif>
