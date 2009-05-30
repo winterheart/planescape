@@ -3,20 +3,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmourn1.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:02+0600\n"
+"PO-Revision-Date: 2009-05-30 15:52+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 14817 7985
-#, fuzzy
 msgid "\"I apologize... I misspoke. Farewell.\""
-msgstr "\"Я ошибся. Прощай.\""
+msgstr "\"Прошу прощения... Я ошибся. Прощай.\""
 
 #: 27450
 msgid ""
@@ -24,6 +23,9 @@ msgid ""
 "apparently father of that spirit I met in the Mortuary. Perhaps Iannis might "
 "know something more about Deionarra and myself..."
 msgstr ""
+"Тленные плакальщики сказали, что они оплакивают мужчину по имени Ианнис, "
+"который является отцом того призрака, которого я встретил в Морге. Возможно, "
+"Ианнис может что-то знать об этой Дейонарре и обо мне..."
 
 #: 27451
 msgid ""
@@ -31,6 +33,9 @@ msgid ""
 "lost his only daughter, Deionarra. For some reason, those names sound "
 "vaguely familiar, but I cannot place them."
 msgstr ""
+"Тленные плакальщики сказали, что они оплакивают мужчину по имени Ианнис, "
+"который потерял свою единственную дочь, Дейонарру. Почему-то эти имена "
+"кажутся мне знакомыми, но я не могу вспомнить их."
 
 #: 7078
 msgid ""
@@ -38,6 +43,9 @@ msgid ""
 "his sleeves. His head is bowed, and he is chanting at a measured pace with "
 "the other Dustmen around him. "
 msgstr ""
+"Тленный одет в длинную темную робу, его руки вложены в рукава. Его голова "
+"постоянно кивает, он поет в неторопливом темпе с остальными Тленными, "
+"окружающими его."
 
 #: 7079 7820
 msgid "\"Greetings.\""
@@ -45,7 +53,7 @@ msgstr "\"Приветствую.\""
 
 #: 7759
 msgid "The Dustman appears to have heard you, but he does not look up."
-msgstr ""
+msgstr "Тленный, скорее всего, услышал тебя, но вида не подал."
 
 #: 7760
 msgid ""
@@ -54,63 +62,72 @@ msgid ""
 "an echo. Once it fades completely, the Dustmen speak several lines praising "
 "the 'True Death,' then begin their chant again."
 msgstr ""
+"Все Тленные поют в одном тоне и ритме. Песня каждые несколько минут "
+"достигает крика, после чего стихает до уровня, напоминающего эхо. После "
+"окончательного затихания Тленные произносят несколько строчек во славу "
+"'Истинной Смерти', после чего снова начинают петь."
 
 #: 7761
 msgid ""
 "The Dustman lifts his head. He does not stop chanting, keeping the same pace "
 "and tone as the other Dustmen about him."
 msgstr ""
+"Тленный поднимает свою голову. Он  не перестает петь в том же темпе и тоне, "
+"что и другие Тленные вокруг него."
 
 #: 7762
 msgid "The Dustman ignores you, instead bowing his head and resuming chanting."
 msgstr ""
+"Тленный не обращает на тебя внимания, кивая вместо этого головой и продолжая "
+"петь."
 
 #: 7763
 msgid ""
 "The mourner suddenly stops, and he studies you. \"Do you feel anguish over "
 "the one that has died?\""
 msgstr ""
+"Плакальщик неожиданно останавливается и рассматривает тебя. \"Чувствуешь ли "
+"ты страдание от того, что он умер?\""
 
 #: 7764
 msgid ""
 "\"We will mourn your pain and that of her father, if it does not give "
 "offense.\""
 msgstr ""
+"\"Мы будем оплакивать твою боль и боль ее отца, если это не причинит никому "
+"обиду.\""
 
 #: 7765 7766 7800
 msgid "\"We will mourn your pain, if you so desire.\""
-msgstr ""
+msgstr "\"Мы будем оплакивать твою боль, если ты этого так хочешь.\""
 
 #: 7767
 msgid "\"We will mourn her pain, if she will not take offense.\""
-msgstr ""
+msgstr "\"Мы будем оплакивать ее боль, если это не причинит ей обиду.\""
 
 #: 7768
 msgid "\"We will mourn his pain, if he will not take offense.\""
-msgstr ""
+msgstr "\"Мы будем оплакивать его боль, если это не причинит ему обиду.\""
 
 #: 7769
-#, fuzzy
 msgid "The Dustman nods and resumes chanting."
-msgstr "Тленный кивает и возвращается к своим делам."
+msgstr "Тленный кивает и возвращается к пению."
 
 #: 7770
 msgid "The Dustman bows his head and resumes chanting."
-msgstr ""
+msgstr "Тленный кивает головой и возвращается к пению."
 
 #: 7771
-#, fuzzy
 msgid "\"We are in mourning.\""
-msgstr "\"Что ты делаешь?\""
+msgstr "\"Мы оплакиваем.\""
 
 #: 7772
-#, fuzzy
 msgid "\"We mourn not for the dead. We mourn the living.\""
-msgstr "\"А почему они оплакивают живых?\""
+msgstr "\"Мы оплакиваем не мертвых. Мы оплакиваем живых.\""
 
 #: 7773
 msgid "\"We mourn the living that feel loss for the departed.\""
-msgstr ""
+msgstr "\"Мы оплакиваем живых, испытывающих боль утраты.\""
 
 #: 7774
 msgid ""
@@ -118,6 +135,8 @@ msgid ""
 "wake. When the departed is loved, anguish and a sense of loss often "
 "accompanies the passing.\""
 msgstr ""
+"\"Уход души к Истинной Смерти часто вызывает ощущение беспокойства. Когда "
+"уходит любимый, утрату часто сопровождают боль и чувство утери.\""
 
 #: 7781
 msgid ""
@@ -125,6 +144,10 @@ msgid ""
 "this existence, preventing them from reaching the True Death when death "
 "comes for them. We mourn the living stricken with such emotions.\""
 msgstr ""
+"\"Страдания и потеря являются сильными эмоциями. Подобные эмоции задерживают "
+"живущего в этой реальности, не позволяя ему достичь Истинной Смерти в тот "
+"момент, когда смерть приходит к ним. Мы оплакиваем живых, пораженных "
+"подобными эмоциями.\""
 
 #: 7782
 msgid ""
@@ -132,11 +155,15 @@ msgid ""
 "this shadowy, painful existence. It is freedom from emotion. Freedom from "
 "reason. Freedom from these shells.\""
 msgstr ""
+"\"Иногда ее называют последней смертью. Истинная Смерть - это освобождение "
+"от серой, полной боли реальности. Это освобождение от эмоций. Свобода от "
+"причин. Свобода от этих оболочек.\""
 
 #: 7783
 msgid ""
 "The Dustman nods. \"Some have called it that. It is not entirely accurate.\""
 msgstr ""
+"Тленный кивает. \"Некоторые это так и называют. Но это не совсем точно.\""
 
 #: 7784
 msgid "The Dustman waits."
@@ -149,6 +176,10 @@ msgid ""
 "cycles, like the cresting and receding of waves on a shoreline. With this "
 "thought, your memories stir... "
 msgstr ""
+"Все Тленные поют в одном тоне и ритме. Эта песня отличается от той, которую "
+"ты слышал, когда впервые подходил к мемориалу, тем не менее, эта песня "
+"повторяется словно волна, накатывающая на береговую линию. С этой мыслью в "
+"тебе пробуждается память..."
 
 #: 7786
 msgid ""
@@ -157,6 +188,10 @@ msgid ""
 "to your left just past your peripheral vision, and you can't make her figure "
 "out. As you try to flesh out the memory, it fades..."
 msgstr ""
+"Ты вспоминаешь неопределенную фигуру, стоящую на далеком берегу... где-то в "
+"другом месте, далеко отсюда. Эта фигура рядом с тобой - женщина. Она стоит "
+"слева от тебя, и ты ее видишь периферическим зрением, поэтому ты не можешь "
+"ее различить. При попытке освежить свою память она ускользает..."
 
 #: 7787
 msgid ""
@@ -164,6 +199,9 @@ msgid ""
 "has dropped to near-silence. They stop, speak several lines praising the "
 "'True Death,' then begin their chant again."
 msgstr ""
+"...и ты снова стоишь рядом с Тленными плакальщиками. Их песня снизилась "
+"почти до тишины. Они останавливаются произносят несколько строк во славу "
+"'Истинной Смерти', затем снова начинают петь."
 
 #: 7788
 msgid ""
@@ -174,6 +212,12 @@ msgid ""
 "silent, they speak several lines praising the 'True Death,' then begin their "
 "chant again."
 msgstr ""
+"Все Тленные  поют в одном тоне и ритме. В отличие от песни, которую ты "
+"слышал в первый раз, когда подходил к мемориалу, эта песня по тону намного "
+"выше, и напоминает свист летящей стрелы или ветер, гуляющий по каньону. Эта "
+"песня начинается и заканчивается быстро - когда Тленные завершает ее в "
+"тишине, они произносят несколько строк во славу 'Истинной Смерти', а затем "
+"начинают песню заново."
 
 #: 7789
 msgid ""
@@ -185,6 +229,13 @@ msgid ""
 "When the chanting finally drops to near-silence, the Dustmen speak several "
 "lines praising the 'True Death,' then begin their chant again."
 msgstr ""
+"Все Тленные  поют в одном тоне и ритме. В отличие от песни, которую ты "
+"слышал в первый раз, когда подходил к мемориалу, эта песня содержит "
+"определенную энергию и некую случайную последовательность - она стала "
+"непредсказуемой, кажется, тон меняется уже при пении. Вне зависимости от "
+"того, сколько раз менялась песня, Тленные поют ее каждый раз идеально. Когда "
+"громкость пения наконец снижается до почти тишины, Тленные произносят "
+"несколько строк во славу 'Истинной Смерти', а затем начинают песню заново."
 
 #: 7790
 msgid ""
@@ -194,6 +245,11 @@ msgid ""
 "ending the note, speak several lines praising the 'True Death,' then begin "
 "the 'chant' again."
 msgstr ""
+"В отличие от песни, которую ты слышал в первый раз, когда подходил к "
+"мемориалу, эта песня содержит звучащую несколько минут ноту... она "
+"напоминает тебе  звон большого колокола. Тленные молчат некоторое время "
+"после этой ноты, произносят несколько строк во славу 'Истинной Смерти', а "
+"затем начинают песню заново."
 
 #: 7791
 msgid ""
@@ -203,53 +259,64 @@ msgid ""
 "minute or so, speak several lines praising the 'True Death,' then begin the "
 "'chant' again."
 msgstr ""
+"В отличие от песни, которую ты слышал в первый раз, когда подходил к "
+"мемориалу, эта песня намного нежнее; иногда она звучит настолько тихо, что "
+"сливается с шумом улиц. Тленные на несколько минут совершенно умолкают, "
+"произносят несколько строк во славу 'Истинной Смерти', а затем начинают "
+"песню заново."
 
 #: 7792
 msgid ""
 "The Dustman looks at you blankly. \"Our chanting has not changed. We have "
 "carried the same chant since we began.\""
 msgstr ""
+"Тленный изумленно смотрит на тебя. \"Наши песнопения не менялись. Это та "
+"песня, которую мы пели с самого начала.\""
 
 #: 7793
 msgid "The Dustman shakes his head. \"Perhaps it is you who has changed.\" "
-msgstr ""
+msgstr "Тленный качает головой. \"Возможно, это изменился ты.\""
 
 #: 7794
 msgid ""
 "\"I mourn Iannis. He has been wounded by the loss of his first and last "
 "daughter, Deionarra.\""
 msgstr ""
+"\"Я оплакиваю Ианниса. Он был уязвлен потерей своей первой и единственной "
+"дочери, Дейонарры.\""
 
 #: 7795
 msgid "\"We mourn your anguish over the departed.\""
-msgstr ""
+msgstr "\"Мы оплакиваем твои страдания по усопшим.\""
 
 #: 7796
 msgid "\"We mourn the Wife-of-Angyar, who feels anguish over the departed.\""
 msgstr ""
+"\"Мы оплакиваем жену Ангиара, которая испытывает страдания по усопшему.\""
 
 #: 7797
 msgid "\"We mourn Adahn, who feels anguish over the departed.\""
-msgstr ""
+msgstr "\"Мы оплакиваем Адана, который испытывает страдания по усопшему.\""
 
 #: 7798
 msgid "The Dustman nods, then bows his head and resumes chanting."
-msgstr ""
+msgstr "Тленный кивает головой и возвращается к пению."
 
 #: 7799
 msgid ""
 "The mourner suddenly stops, and he studies you. \"Does the one you speak of "
 "feel anguish over the one that has died?\""
 msgstr ""
+"Плакальщик неожиданно останавливается и рассматривает тебя. \"Чувствует ли "
+"тот, о ком ты говоришь, страдание от того, что другой умер?\""
 
 #: 7801
-#, fuzzy
 msgid "\"The events surrounding her death are not known to me.\""
-msgstr "\"Способ добраться до нее не *известен* ему.\""
+msgstr "\"Подробностей ее смерти мне неизвестны.\""
 
 #: 7802
 msgid "\"We will mourn their pain, if it will not give offense.\""
-msgstr ""
+msgstr "\"Мы будем оплакивать их боль, если это не причинит им обиду.\""
 
 #: 7803
 msgid ""
@@ -259,53 +326,55 @@ msgid ""
 "Dustmen's chanting drops off after a minute or so, they speak several lines "
 "praising the 'True Death,' then they begin the chant again."
 msgstr ""
+"В отличие от песни, которую ты слышал в первый раз, когда подходил к "
+"мемориалу, тон этой песни намного жестче и различимей. Слушая ее, ты "
+"неожиданно понимаешь, что звуки почему-то начинают затихать, как будто бы "
+"сам воздух поглощает песню. Песня Тленных затухает спустя несколько минут, "
+"они произносят несколько строк во славу 'Истинной Смерти', а затем начинают "
+"песню заново."
 
 #: 7804
 msgid "\"We mourn the one you spoke of who feels anguish over the departed.\""
 msgstr ""
+"\"Мы оплакиваем того, о ком ты говорил, который испытывает страдания по "
+"усопшему.\""
 
 #: 7810 7819 7873 7874 7980
 msgid "Leave."
 msgstr "Уйти."
 
 #: 7811
-#, fuzzy
 msgid "\"I would speak with you for a moment.\""
-msgstr "\"Я хочу, чтобы ты жил.\""
+msgstr "\"Я хотел бы поговорить с тобой на пару минут.\""
 
 #: 7812 7813 7814 7815 7816 7817 7818 7840 7841 7842 7843 7844 7845 7846 7866
 #: 7867 7868 7869 7870 7871 7872
-#, fuzzy
 msgid "Listen to their chanting."
-msgstr "Позволить ей работать."
+msgstr "Слушать их пение."
 
 #: 7821 7953 7955 7957 7959 7961 7993
-#, fuzzy
 msgid "Leave them to their chanting."
-msgstr "Оставить женщину в покое."
+msgstr "Оставить их со своим песнопением."
 
 #: 7823 7939
 msgid "\"What are you doing?\""
 msgstr "\"Что ты делаешь?\""
 
 #: 7824 7941
-#, fuzzy
 msgid "\"I mourn for one dead.\""
-msgstr "\"Я хотел бы изучить навыки владения оружием.\""
+msgstr "\"Я оплакиваю покойника.\""
 
 #: 7825
 msgid "\"I am here for one who has lost another.\""
-msgstr ""
+msgstr "\"Я здесь ради того, кто потерял другого.\""
 
 #: 7828 7944
-#, fuzzy
 msgid "\"Sorry to trouble you. Farewell.\""
-msgstr "\"Неважно. Извини за беспокойство. Прощай.\""
+msgstr "\"Извини за беспокойство. Прощай.\""
 
 #: 7839
-#, fuzzy
 msgid "\"I would speak with you.\""
-msgstr "\"Постой! Я хочу поговорить с...\""
+msgstr "\"Я хотел бы поговорить с тобой.\""
 
 #: 7847
 msgid "Leave him in peace."
@@ -313,7 +382,7 @@ msgstr "Оставить его в покое."
 
 #: 7848
 msgid "\"No. The death does not stir my emotions.\""
-msgstr ""
+msgstr "\"Нет. Смерть не растревожила моих чувств.\""
 
 #: 7849
 msgid ""
@@ -321,12 +390,17 @@ msgid ""
 "Deionarra. Not only am I troubled over this, but I feel guilt over the grief "
 "I have caused her father.\""
 msgstr ""
+"Правда: \"Да... Я уверен, что я ответственен за смерть невинной женщины, "
+"Дейонарры. Я не столько страдаю над этим, сколько ощущаю чувство вины за ту "
+"печаль, которую я причинил ее отцу.\""
 
 #: 7850
 msgid ""
 "Truth: \"Yes... I am to blame for the death of an innocent man, Xachariah. "
 "His passing has troubled me.\""
 msgstr ""
+"Правда: \"Да... Я ответственен за смерть невинного мужчины, Захарии. Его "
+"смерть приносит мне страдания.\""
 
 #: 7851
 msgid ""
@@ -334,151 +408,139 @@ msgid ""
 "planes. The anguish caused by this revelation is almost more than I can bear."
 "\""
 msgstr ""
+"Правда: \"Да... Я ответственен за смерть множества невинных во многих планах."
+" Осознание этого причиняет мне боль, намного большую, чем я могу перенести.\""
 
 #: 7852
 msgid ""
 "\"It is not I. There is a woman, Wife-of-Angyar, who has lost a son. Anguish "
 "hangs heavy upon her.\""
 msgstr ""
+"\"Это не я. Есть женщина, жена Ангиара, потерявшая своего сына. Мука слишком "
+"сильно ее захватила.\""
 
 #: 7853
 msgid ""
 "Lie: \"No, uh, I'm speaking for a friend, uh... Adahn - he's the one who "
 "feels anguish over the person who died.\""
 msgstr ""
+"Ложь: \"Нет, эээ, я говорю о своем друге, эээ... Адане - он испытывает боль "
+"от утраты умершего человека.\""
 
 #: 7854
 msgid "\"Yes, this recent death brought me a great deal of anguish and pain.\""
-msgstr ""
+msgstr "\"Да, последняя смерть принесла мне много страданий и боли.\""
 
 #: 7855
 msgid "\"Well, uh, before I get into that, I had some questions for you...\""
 msgstr ""
+"\"Ну, эээ, до того, как я начну об этом, у меня есть несколько вопросов к "
+"тебе...\""
 
 #: 7856
 msgid "\"If you could, it would ease her father's pain and my pain greatly.\""
 msgstr ""
+"\"Если это возможно, то это бы сильно успокоило мою боль и боль ее отца.\""
 
 #: 7857 7859 7861 7863 7865 7987 7991
-#, fuzzy
 msgid "\"No, there is no need. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Нет, в этом нет нужды. Прощай.\""
 
 #: 7858 7860 7986
-#, fuzzy
 msgid "\"If you could, it would ease my pain greatly.\""
-msgstr "\"Если можно, я бы хотел на него взглянуть.\""
+msgstr "\"Если это возможно, то это бы сильно успокоило мою боль.\""
 
 #: 7862
-#, fuzzy
 msgid "\"If you could, it would ease her pain greatly.\""
-msgstr "\"Если можно, я бы хотел на него взглянуть.\""
+msgstr "\"Если это возможно, то это бы сильно успокоило ее боль.\""
 
 #: 7864
-#, fuzzy
 msgid "\"If you could, it would ease his pain greatly.\""
-msgstr "\"Если можно, я бы хотел на него взглянуть.\""
+msgstr "\"Если это возможно, то это бы сильно успокоило его боль.\""
 
 #: 7875
-#, fuzzy
 msgid "\"Who has died?\""
-msgstr "\"Что?\""
+msgstr "\"Кто умер?\""
 
 #: 7876 7877 7878 7879 7880 7881 7884 7885 7886 7887 7888 7889 7893 7894 7895
 #: 7896 7897 7898 7904 7905 7906 7907 7908 7909 7913 7914 7915 7916 7917 7918
 #: 7923 7924 7925 7926 7927 7928 7931 7932 7933 7934 7935 7936
-#, fuzzy
 msgid "\"Who are you mourning in particular?\""
-msgstr "\"О чем это ты толкуешь?\""
+msgstr "\"Кого вы оплакиваете в данный момент?\""
 
 #: 7882
-#, fuzzy
 msgid "\"That is all I wished to know. Farewell.\""
 msgstr "\"Это все, что я хотел узнать. Прощай.\""
 
 #: 7883
-#, fuzzy
 msgid "\"The living?\""
-msgstr "\"В Улье?\""
+msgstr "\"Живых?\""
 
 #: 7890 7899 7910 7919 7929
 msgid "\"I... see. I had some other questions...\""
 msgstr "\"Понятно... У меня были еще вопросы...\" "
 
 #: 7891 7900 7911 7920 7930 7938
-#, fuzzy
 msgid "\"I think I've heard enough. Farewell.\""
-msgstr "\"Думаю, я выслушал достаточно. Прощай, Дхолл.\""
+msgstr "\"Думаю, я выслушал достаточно. Прощай.\""
 
 #: 7892
-#, fuzzy
 msgid "\"Why?\""
-msgstr "\"Почему я?\""
+msgstr "\"Зачем?\""
 
 #: 7901
-#, fuzzy
 msgid "\"Which is natural...\""
-msgstr "\"Она настоящая.\""
+msgstr "\"Которые являются естественными...\""
 
 #: 7902
-#, fuzzy
 msgid "\"So you mourn the living because...\""
-msgstr "\"А почему они оплакивают живых?\""
+msgstr "\"Значит, вы оплакиваете живых, потому что...\""
 
 #: 7903 7912
-#, fuzzy
 msgid "\"True Death?\""
-msgstr "\"Истинной Смерти?..\""
+msgstr "\"Истинной Смерти?\""
 
 #: 7921
-#, fuzzy
 msgid "\"Sounds like oblivion.\""
-msgstr "\"Звучит так, будто он занятой мужчина.\""
+msgstr "\"Похоже на забвение.\""
 
 #: 7922
-#, fuzzy
 msgid "\"Is that why you mourn the living?\""
-msgstr "\"А почему они оплакивают живых?\""
+msgstr "\"Поэтому вы оплакиваете живых?\""
 
 #: 7937
-#, fuzzy
 msgid "\"No matter. I had some other questions...\""
 msgstr "\"Неважно. У меня есть другие вопросы...\""
 
 #: 7940
-#, fuzzy
 msgid "\"Why has your chanting changed?\""
-msgstr "\"Хмм, кажется, твое настроение не изменилось.\""
+msgstr "\"Почему ваши песнопения изменились?\""
 
 #: 7942
 msgid "\"I petition for one who has lost another.\""
-msgstr ""
+msgstr "\"У меня просьба от того, кто потерял другого.\""
 
 #: 7943
-#, fuzzy
 msgid "\"I would listen to your chant.\""
-msgstr "\"Я хотел бы, чтобы ты назвал точную сумму.\""
+msgstr "\"Я хотел бы послушать вашу песню.\""
 
 #: 7945 7946 7947 7948
 msgid "Try to remember..."
-msgstr ""
+msgstr "Попробовать вспомнить..."
 
 #: 7949
-#, fuzzy
 msgid "Shake off the memory."
-msgstr "Сдаться в угоду памяти."
+msgstr "Встряхнуть свою память."
 
 #: 7950 7951
 msgid "Regain your bearings."
-msgstr ""
+msgstr "Восстановить самообладание."
 
 #: 7952
-#, fuzzy
 msgid "Listen again."
-msgstr "Он снова кивает."
+msgstr "Снова слушать."
 
 #: 7954 7956 7958 7960 7992
-#, fuzzy
 msgid "\"I have some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
@@ -486,93 +548,99 @@ msgstr "\"У меня есть вопросы к тебе...\""
 msgid ""
 "\"Your chanting has changed... I can hear a difference in the tone and "
 "rhythm.\""
-msgstr ""
+msgstr "\"Ваша песня изменилась... Я различаю отличия в тоне и ритме.\""
 
 #: 7963
-#, fuzzy
 msgid "\"Very well, never mind.\""
-msgstr "\"Очень хорошо, идем.\""
+msgstr "\"Очень хорошо, не важно.\""
 
 #: 7964
-#, fuzzy
 msgid "\"I have other questions...\""
-msgstr "\"У меня есть другие вопросы.\""
+msgstr "\"У меня есть другие вопросы...\""
 
 #: 7965
-#, fuzzy
 msgid "\"Perhaps so. Farewell.\""
-msgstr "\"Возможно. Прощай.\""
+msgstr "\"Возможно и так. Прощай.\""
 
 #: 7966
-#, fuzzy
 msgid "\"Deionarra? I have heard of her. Do you know how she died?\""
-msgstr "\"Мне *нужно* найти его. Ты не знаешь, где он может быть?\""
+msgstr "\"Дейонарры? Кажется, я слышал о ней. Тебе известно, как она умерла?\""
 
 #: 7967 7970 7973 7976 7978 7988 7995
 msgid "\"I had some other questions...\""
 msgstr "\"У меня есть другие вопросы...\""
 
 #: 7968 7971 7974 7977 7996
-#, fuzzy
 msgid "\"Thank you. That is all I wished to know.\""
-msgstr "\"Спасибо. Это все, что я хотел узнать сегодня.\""
+msgstr "\"Спасибо. Это все, что я желал узнать.\""
 
 #: 7969
 msgid ""
 "\"I have recovered. The one you mourned before we spoke is more in need than "
 "I.\""
 msgstr ""
+"\"Я оправился. Одному из тех, кого ты оплакивал раньше меня, помощь нужна "
+"больше, чем мне.\""
 
 #: 7972
 msgid ""
 "\"She has recovered. The one you mourned before we spoke is more in need "
 "than she.\""
 msgstr ""
+"\"Она оправилась. Одному из тех, кого ты оплакивал раньше ее, помощь "
+"нужна больше, чем ей.\""
 
 #: 7975
 msgid ""
 "\"Uh... Adahn has recovered. The one you mourned before we spoke is more in "
 "need than he.\""
 msgstr ""
+"\"Эээ... Адан оправился. Одному из тех, кого ты оплакивал раньше его, помощь "
+"нужна больше, чем ему.\""
 
 #: 7979
 msgid "Listen."
 msgstr "Слушать."
 
 #: 7981
-#, fuzzy
 msgid "\"No. It does not stir their emotions.\""
-msgstr "\"О. У меня есть некоторые вопросы...\""
+msgstr "\"Нет. Это не вызывает у них никаких эмоций.\""
 
 #: 7982
 msgid ""
 "\"Yes. A woman, the Wife-of-Angyar, has lost a son. Anguish hangs heavy upon "
 "her.\""
 msgstr ""
+"\"Да. Женщина, жена Ангиара, потеряла своего сына. Мука слишком сильно ее "
+"захватила.\""
 
 #: 7983
 msgid ""
 "Lie: \"Uh, yes... my friend, uh... Adahn... just lost someone close to him. "
 "He feels anguish over the person who died.\""
 msgstr ""
+"Ложь: \"Эээ, да... мой друг, эээ... Адан... недавно потерял близкого к себе "
+"человека. Он испытывает боль от утраты умершего человека.\""
 
 #: 7984
 msgid ""
 "\"Yes, this recent death brought them a great deal of anguish and pain.\""
-msgstr ""
+msgstr "\"Да, последняя смерть принесла им много страданий и боли.\""
 
 #: 7989
-#, fuzzy
 msgid "\"Very well. That is all I wished to know.\""
-msgstr "\"Это все, что я желал знать; прощай.\""
+msgstr "\"Очень хорошо. Это все, что я желал знать.\""
 
 #: 7990
-#, fuzzy
 msgid "\"If you could, it would ease their pain greatly.\""
-msgstr "\"Если можно, я бы хотел на него взглянуть.\""
+msgstr "\"Если это возможно, то это бы сильно успокоило их боль.\""
 
 #: 7994
 msgid ""
 "\"The person has recovered. The one you mourned before is more in need than "
 "the one I spoke of.\""
 msgstr ""
+"\"Он оправился. Одному из тех, кого ты оплакивал раньше его, помощь нужна "
+"больше, чем тот, о ком я говорил.\""
+
+

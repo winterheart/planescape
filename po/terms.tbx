@@ -2094,6 +2094,80 @@
                     </ntig>
                 </langSet>
             </termEntry>
+
+            <termEntry id="azamat_h._hackimov-114">
+                <descrip type="subjectField">planescape</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>truth</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>правда</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-115">
+                <descrip type="subjectField">planescape</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>lie</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>ложь</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-116">
+                <descrip type="subjectField">planescape</descrip>
+                <descrip type="definition">Понятие Тленных, характеризующее полное забвение души и ее упокоение.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>true death</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>истинная смерть</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-117">
+                <descrip type="subjectField">planescape</descrip>
+                <descrip type="definition">Отец Дианарры</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>iannis</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>ианнис</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
         </body>
     </text>
 </martif>
