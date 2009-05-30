@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dtouthvc.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:44+0600\n"
+"PO-Revision-Date: 2009-05-30 18:36+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 33767
@@ -75,29 +75,24 @@ msgid ""
 msgstr ""
 
 #: 33776 33779
-#, fuzzy
 msgid "\"What's a tout?\""
-msgstr "\"Кто такие Сборщики?\""
+msgstr "\"Что за осведомитель?\""
 
 #: 33777 33780
-#, fuzzy
 msgid "\"Sure... here's a copper piece.\""
-msgstr "\"Довольно честно.\" Дать ему один медяк."
+msgstr "\"Конечно... вот медяк.\""
 
 #: 33778 33781
-#, fuzzy
 msgid "\"Nothing, right now. Farewell.\""
-msgstr "\"Ничего больше, спасибо. Прощай.\""
+msgstr "\"Больше ничего. Прощай.\""
 
 #: 33782
-#, fuzzy
 msgid "\"All right... here's a copper piece.\""
-msgstr "\"Хорошо, держи. Где он?\""
+msgstr "\"Хорошо... вот медяк.\""
 
 #: 33783
-#, fuzzy
 msgid "\"No directions right now, thanks. Farewell.\""
-msgstr "\"Ничего больше, спасибо. Прощай.\""
+msgstr "\"Сейчас мне это не нужно, спасибо. Прощай.\""
 
 #: 33784 33795 33800 33805 33810
 #, fuzzy
@@ -110,14 +105,12 @@ msgid "\"Where the Market?\""
 msgstr "\"Где находятся такие места?\""
 
 #: 33786 33791 33796 33807 33812
-#, fuzzy
 msgid "\"Where's the north gate lead?\""
-msgstr "\"Где находятся такие места?\""
+msgstr "\"Куда ведут северные ворота?\""
 
 #: 33787 33792 33797 33802 33813
-#, fuzzy
 msgid "\"Where's the southeast gate lead?\""
-msgstr "\"Где находятся такие места?\""
+msgstr "\"Куда ведут юго-восточные ворота?\""
 
 #: 33788 33793 33798 33803 33808
 #, fuzzy
@@ -131,3 +124,5 @@ msgstr "\"Это все, что я хотел узнать. Прощай.\""
 #: 33801
 msgid "\"Where's  the Market?\""
 msgstr ""
+
+
