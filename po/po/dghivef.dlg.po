@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dghivef.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:30+0600\n"
+"PO-Revision-Date: 2009-05-30 19:03+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 33304
@@ -22,9 +22,8 @@ msgstr ""
 "Прочь! Оставь меня в покое, или я закричу! Клянусь!\""
 
 #: 33305 33417 33418 33432
-#, fuzzy
 msgid "Let her go."
-msgstr "Позволить ей работать."
+msgstr "Позволить ей уйти."
 
 #: 33306
 msgid ""
@@ -65,11 +64,12 @@ msgid ""
 "\"Ye're the berk that was lookin' fer Pharod! Have ye found him, yet? If "
 "not, ye might try lookin' north o' here, in Ragpicker's Square.\""
 msgstr ""
+"\"Ты тот пень, который ищет Фарода! Еще не нашел его? Если нет, то можешь "
+"попробовать поискать к северу отсюда на площади Старьевщиков.\""
 
 #: 33315 33339 33363
-#, fuzzy
 msgid "\"I'll try there, then. Farewell.\""
-msgstr "\"Тогда я поищу здесь. Прощай.\""
+msgstr "\"Тогда я поищу там. Прощай.\""
 
 #: 33316 33332
 msgid ""
@@ -137,25 +137,24 @@ msgid ""
 "\"Looks like ye could use a bit o' rest at the Flophouse, cutter. If ye're "
 "interested, 'tis in the middle o' this part o' the Hive.\""
 msgstr ""
+"\"Похоже, тебе не помешает немного отдохнуть в Ночлежке, рубака. Если "
+"интересно, она посреди этой части Улья.\""
 
 #: 33340 33364 33448
-#, fuzzy
 msgid "\"I found him already, but thanks. Farewell.\""
-msgstr "\"Не сегодня, спасибо. Прощай.\""
+msgstr "\"Я его уже нашел, но все равно спасибо. Прощай.\""
 
 #: 33344 33370
-#, fuzzy
 msgid ""
 "\"Stay away from that burnt-out alley southwest o' here, if ye're not "
 "spoilin' fer trouble.\""
 msgstr ""
 "\"Если не хочешь нарваться на проблемы, держись подальше от выжженной аллеи, "
-"что к юго-востоку отсюда.\""
+"что к северо-западу отсюда.\""
 
 #: 33345 33371 33388
-#, fuzzy
 msgid "\"Yes, I've already been there. Farewell.\""
-msgstr "\"Я достаточно наслушался. Прощай.\""
+msgstr "\"Да, я уже был там. Прощай.\""
 
 #: 33347 33380
 msgid ""
@@ -169,20 +168,20 @@ msgid "\"Maybe I'll go find him. Farewell.\""
 msgstr "\"Пойду, поищу его. Прощай.\""
 
 #: 33349 33361 33379
-#, fuzzy
 msgid "\"Yes, I've met him. Farewell.\""
-msgstr "\"Да. Прощай.\""
+msgstr "\"Да, я уже виделся с ним. Прощай.\""
 
 #: 33351 33393
 msgid ""
 "\"Been ta th' Smolderin' Corpse, yet? Nice enough tavern, but th' burnin' "
 "man unnerves me a tad.\""
 msgstr ""
+"\"Ты уже был в 'Тлеющем Трупе'? Неплохая таверна, только горящий человек "
+"немного меня нервирует.\""
 
 #: 33352 33394
-#, fuzzy
 msgid "\"He's gone from there, now. Farewell.\""
-msgstr "\"Тогда я поищу его там. Прощай.\""
+msgstr "\"Ее здесь больше нет. Прощай.\""
 
 #: 33353
 msgid ""
@@ -213,9 +212,8 @@ msgstr ""
 "обязательно помогла бы.\""
 
 #: 33358
-#, fuzzy
 msgid "\"Thanks anyway. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай.\""
+msgstr "\"Все равно спасибо. Прощай.\""
 
 #: 33365
 msgid ""
@@ -244,11 +242,13 @@ msgid ""
 "Dustman there who can put someone's name on th' Memorial for ye, or tell ye "
 "if someone ye're lookin' for has died.\""
 msgstr ""
+"\"Много народу ходит поминать своих усопших в Мемориал Тленных... там есть "
+"Тленный, который может вписать в Мемориал любое имя для тебя или сказать, "
+"умер ли тот, кого ты ищешь.\""
 
 #: 33374
-#, fuzzy
 msgid "\"Yes, he's called 'Death-of-Names.' Farewell.\""
-msgstr "\"Да, это все, что я хотел узнать. Прощай.\""
+msgstr "\"Да, его зовут 'Смерть-Имен'. Прощай.\""
 
 #: 33375
 msgid ""
@@ -276,7 +276,7 @@ msgid ""
 "spoilin' fer trouble.\""
 msgstr ""
 "\"Если не хочешь нарваться на проблемы, держись подальше от выжженной аллеи, "
-"что к юго-востоку отсюда.\""
+"что к северо-востоку отсюда.\""
 
 #: 33390 33449
 #, fuzzy
@@ -295,15 +295,16 @@ msgid ""
 "\"All the help I can give is ta warn ye 'bout the thieves here, cutter... "
 "lots o' pickpockets in this part o' the Hive, I hear.\""
 msgstr ""
+"\"Единственное, чем я могу тебе помочь, так это предупредить о здешних "
+"ворах, рубака... Я слышала, в этой части Улья много карманников.\""
 
 #: 33398
 msgid "\"Thanks. Farewell.\""
 msgstr "\"Спасибо. Прощай.\""
 
 #: 33399
-#, fuzzy
 msgid "\"I've met her; her name is Ingress. Farewell.\""
-msgstr "\"Я знаю. Его зовут Фелл. Прощай.\""
+msgstr "\"Я встречался с ней. Ее зовут Ингресс. Прощай.\""
 
 #: 33401
 msgid ""
@@ -324,7 +325,7 @@ msgstr ""
 
 #: 33405
 msgid "\"No, I've never been there.\""
-msgstr ""
+msgstr "\"Нет, я никогда не был там.\""
 
 #: 33406
 #, fuzzy
@@ -345,7 +346,7 @@ msgstr "\"Да, я знаю. Его зовут Фелл.\""
 
 #: 33409
 msgid "\"I know the place, yes.\""
-msgstr ""
+msgstr "\"Да, я знаю это место.\""
 
 #: 33410
 msgid ""
@@ -382,9 +383,8 @@ msgstr ""
 "возьми его назад, рубака. Прощай.\""
 
 #: 33414
-#, fuzzy
 msgid "\"Thanks... farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо... Прощай.\""
 
 #: 33415
 msgid ""
@@ -399,9 +399,8 @@ msgstr ""
 "\" Она разворачивается и убегает."
 
 #: 33416
-#, fuzzy
 msgid "\"Wait...\""
-msgstr "\"Подождать!\""
+msgstr "\"Постой...\""
 
 #: 33420
 msgid ""
@@ -422,7 +421,7 @@ msgstr ""
 
 #: 33425
 msgid "\"Wait one moment... I had some questions...\""
-msgstr ""
+msgstr "\"Погоди секунду... У меня есть некоторые вопросы...\" "
 
 #: 33426
 msgid ""
@@ -432,9 +431,8 @@ msgid ""
 msgstr ""
 
 #: 33427
-#, fuzzy
 msgid "\"But...\""
-msgstr "\"Я...\""
+msgstr "\"Но...\""
 
 #: 33431
 msgid ""
@@ -443,24 +441,23 @@ msgid ""
 msgstr ""
 
 #: 33434
-#, fuzzy
 msgid "This person has nothing more to tell you."
-msgstr "Этому субъекту нечего больше сказать важного тебе."
+msgstr "Этому субъекту нечего больше сказать тебе."
 
 #: 33436
 msgid "This person has nothing of importance to say to you."
 msgstr "Этому субъекту нечего больше сказать важного тебе."
 
 #: 33469
-#, fuzzy
 msgid "This person has nothing more of interest to say."
-msgstr "Этому субъекту нечего больше сказать важного тебе."
+msgstr "Этому субъекту нечего больше сказать интересного тебе."
 
 #: 33470
-#, fuzzy
 msgid "This person has nothing more to say to you."
-msgstr "Этому субъекту нечего больше сказать важного тебе."
+msgstr "Этому субъекту нечего больше сказать тебе."
 
 #: 33472
 msgid "\"No. Farewell.\""
 msgstr "\"Нет. Прощай.\""
+
+
