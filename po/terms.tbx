@@ -2303,6 +2303,43 @@
                     </ntig>
                 </langSet>
             </termEntry>
+
+            <termEntry id="azamat_h._hackimov-132">
+                <descrip type="subjectField">planescape</descrip>
+                <descrip type="definition">Прозвище фракции Тленных</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>dustie</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>мертвяк</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-133">
+                <descrip type="subjectField">planescape</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>sigil</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>сигил</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
         </body>
     </text>
 </martif>

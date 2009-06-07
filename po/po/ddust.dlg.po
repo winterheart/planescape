@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddust.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:00+0600\n"
+"PO-Revision-Date: 2009-06-08 01:06+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 1332 329 337 3917
@@ -18,22 +18,22 @@ msgid "Leave. Quickly."
 msgstr "Уйти. Быстро."
 
 #: 1333
-#, fuzzy
 msgid "Wait."
-msgstr "\"Подождать!\""
+msgstr "Подождать."
 
 #: 1335 373
 msgid "Lean in as if to whisper something to him, then snap his neck."
 msgstr ""
+"Наклониться вперед, будто собираясь прошептать ему что-то, а затем свернуть "
+"ему шею."
 
 #: 1336 379
-#, fuzzy
 msgid "Run for it."
-msgstr "Игнорировать его."
+msgstr "Убежать от него."
 
 #: 1337 371 372 3906 399 450
 msgid "Lie: \"The name is... uh, Adahn.\""
-msgstr ""
+msgstr "Ложь: \"Меня зовут... эээ, Адан.\""
 
 #: 1339 449
 msgid "\"Shhhh! I can't answer you over all that shouting!\""
@@ -45,6 +45,9 @@ msgid ""
 "smell about him. His expression is blank, and he seems absorbed in his "
 "duties."
 msgstr ""
+"Этот бледный мужчина одет в длинную темную робу. От него распространяется "
+"легкий заплесневелый запах. Его лицо ничего не выражает, кажется, он "
+"полностью поглощен своими обязанностями."
 
 #: 1420 1421 1422 1423 295 302 315
 msgid "\"Greetings.\""
@@ -63,33 +66,28 @@ msgstr ""
 "виски, и ты резко сворачиваешь его голову влево."
 
 #: 1426 3890
-#, fuzzy
 msgid "\"Can't have you alerting your friends...\""
-msgstr "\"Кто твои друзья?\""
+msgstr "\"Не могу допустить, чтобы ты предупредил своих друзей.\""
 
 #: 1427
-#, fuzzy
 msgid "There is a *crack,* and the Dustman falls limp in your arms. "
 msgstr ""
 "В шее раздается характерный *хруст*, и тело Тленного безвольно падает в твои "
 "объятия."
 
 #: 1428 1429
-#, fuzzy
 msgid "\"Better you than me, Dustie.\""
-msgstr "\"Но ты ведь Тленная.\" "
+msgstr "\"Лучше ты, чем я, Мертвяк.\" "
 
 #: 1430
-#, fuzzy
 msgid ""
 "To your surprise, the act seemed instinctual, as if you had done it many "
 "times before... with this thought comes the stirring of a memory, but it is "
 "not strong enough to surface."
 msgstr ""
-"Ты отпускаешь ее, и она плюхается на землю. Глядя на ее тело, ты ощущаешь "
-"странную дрожь... ты *знаешь*, что уже убивал других таким способом. С этой "
-"мыслью проявляется пробуждение памяти, но не достаточное для того, чтобы за "
-"него зацепиться."
+"К своему удивлению, это действие происходит практически инстинктивно, будто "
+"ты это проделывал много раз... с этой мыслью проявляется пробуждение памяти, "
+"но не достаточное для того, чтобы за него зацепиться."
 
 #: 300
 msgid ""
@@ -135,7 +133,6 @@ msgstr ""
 "позвать на помощь."
 
 #: 313 3884
-#, fuzzy
 msgid "\"All right then...\""
 msgstr "\"Ну хорошо...\""
 
@@ -168,7 +165,6 @@ msgid "\"I will summon a guard to direct you out. Hold a moment.\""
 msgstr ""
 
 #: 327 328 344 358 3885 3887 3914 3915
-#, fuzzy
 msgid "Snap his neck before he can call out."
 msgstr "Свернуть ему шею до того, как он сможет позвать на помощь."
 
@@ -179,23 +175,20 @@ msgstr ""
 "Тленный хмурится, как только ты обращаешься к нему. \"Что ты здесь делаешь?\""
 
 #: 331
-#, fuzzy
 msgid "\"That is none of your concern.\""
-msgstr "Это не твое дело."
+msgstr "\"Это тебя не касается.\""
 
 #: 33183 33185
-#, fuzzy
 msgid "\"I am here to see Deionarra.\""
-msgstr "Ложь: \"Мне очень жаль, Дейонарра.\""
+msgstr "\"Я хочу повидаться с Дейонаррой.\""
 
 #: 33186 33187
-#, fuzzy
 msgid "\"I am here to see Soego.\""
-msgstr "\"Ну хорошо. Приготовься к смерти, Соэго.\""
+msgstr "\"Я хочу повидаться с Соэго.\""
 
 #: 33189 33190
 msgid "Lie: \"Uh... Adahn. Does he still work here, or...?\""
-msgstr ""
+msgstr "Ложь: \"Эээ... с Аданом. Он все еще работает здесь или?..\""
 
 #: 33191
 #, fuzzy
@@ -213,14 +206,14 @@ msgid "\"Thank you for the information. I will speak to him.\""
 msgstr "\"Спасибо за разъяснения. Теперь мне нужно отдать дань уважения ей.\""
 
 #: 333 377
-#, fuzzy
 msgid "\"I'm here to see someone.\""
-msgstr "\"Хочется посмотреть на эту попытку.\""
+msgstr "\"Я хочу повидаться кое-с-кем.\""
 
 #: 334 378
 msgid ""
 "\"I was here for an internment, but there seems to have been a mistake.\""
 msgstr ""
+"\"Я оказался здесь для погребения, но похоже, здесь произошла ошибка.\""
 
 #: 335
 msgid ""
@@ -241,73 +234,66 @@ msgstr ""
 "\" Тленный делает шаг назад; кажется, он собирается позвать стражников."
 
 #: 338
-#, fuzzy
 msgid "\"Who are you here to see?\""
 msgstr "\"Кого ты хочешь увидеть?\""
 
 #: 342 343
-#, fuzzy
 msgid "\"I am here to see Dhall.\""
-msgstr "\"Тогда прощай, Дхолл.\""
+msgstr "\"Я хочу повидаться с Дхоллом.\""
 
 #: 345
-#, fuzzy
 msgid ""
 "\"Dhall is in the receiving room on this floor. I must warn you... Dhall is "
 "quite busy with his duties and is not in the best of health. Unless you have "
 "pressing business, I would not disturb him.\""
 msgstr ""
-"\"Дхолла? Писаря Дхолла можно найти в приемной комнате на верхнем этаже.\" "
-"Уголки рта Соэго начинают подрагивать. \"Он очень занят, а здоровье его "
-"подкошено. Если у тебя к нему не срочное дело, то лучше не беспокоить его.\""
+"\"Дхолла можно найти в приемной комнате на этом этаже. Я должен предпредить "
+"тебя... Дхолл очень занят, а здоровье у него подкошено. Если у тебя к нему "
+"не срочное дело, то лучше не беспокоить его.\""
 
 #: 346
-#, fuzzy
 msgid ""
 "\"Dhall is most likely in the receiving room on the second floor. He is "
 "quite busy and not in the best of health. Unless you have pressing business, "
 "I would not disturb him.\""
 msgstr ""
-"\"Дхолла? Писаря Дхолла можно найти в приемной комнате на верхнем этаже.\" "
-"Уголки рта Соэго начинают подрагивать. \"Он очень занят, а здоровье его "
-"подкошено. Если у тебя к нему не срочное дело, то лучше не беспокоить его.\""
+"\"Скорее всего, Дхолла можно найти в приемной комнате на втором этаже. Он "
+"очень занят, а здоровье у него подкошено. Если у тебя к нему не срочное "
+"дело, то лучше не беспокоить его.\""
 
 #: 347 348
-#, fuzzy
 msgid "\"Very well. Thanks for the information.\""
-msgstr "\"Отлично. Спасибо за информацию.\""
+msgstr "\"Очень хорошо. Спасибо за информацию.\""
 
 #: 349
-#, fuzzy
 msgid ""
 "\"Deionarra? I know there is a woman interred in the memorial hall on the "
 "first floor. Could that be she?\""
 msgstr ""
-"\"Дейонарру? В северо-западном мемориальном зале погребена женщина с таким "
-"именем. Это та, которую ты ищешь?\""
+"\"Дейонарру? На первом этаже в мемориальном зале погребена женщина. Может "
+"быть, это она?\""
 
 #: 350
-#, fuzzy
 msgid ""
 "\"Deionarra? I know there is a woman interred in the northwest memorial "
 "hall. Could that be she?\""
 msgstr ""
-"\"Дейонарру? В северо-западном мемориальном зале погребена женщина с таким "
-"именем. Это та, которую ты ищешь?\""
+"\"Дейонарру? В северо-западном мемориальном зале погребена женщина. Может "
+"быть, это она?\""
 
 #: 351
 msgid ""
 "\"I believe Soego is by the front gate on the first floor. He is acting as a "
 "guide during the antipeak hours.\""
 msgstr ""
+"\"Скорее всего, Соэго находится у главных ворот на первом этаже. Он работает "
+"проводником в часы антипика.\""
 
 #: 352 353
-#, fuzzy
 msgid "\"Most likely. Thank you.\""
-msgstr "\"Спасибо...\""
+msgstr "\"Скорее всего. Спасибо.\""
 
 #: 354 356 366
-#, fuzzy
 msgid "\"Very well. Thank you.\""
 msgstr "\"Отлично. Спасибо.\""
 
@@ -316,6 +302,8 @@ msgid ""
 "\"I believe Soego is by the front gate. He is acting as a guide during the "
 "antipeak hours.\""
 msgstr ""
+"\"Скорее всего, Соэго находится у главных ворот. Он работает проводником в "
+"часы антипика.\""
 
 #: 357
 msgid ""
@@ -324,9 +312,8 @@ msgid ""
 msgstr ""
 
 #: 359
-#, fuzzy
 msgid "\"You misunderstand... the mistaken internment was ME.\""
-msgstr "Ты не понимаешь... ошибка в том, что похоронить собирались МЕНЯ."
+msgstr "\"Ты не понимаешь... ошибка в том, что похоронить собирались МЕНЯ.\""
 
 #: 360
 msgid "\"That could be. Where are these other services taking place?\""
@@ -343,6 +330,8 @@ msgid ""
 "follow the curve of the wall on the first and second floors. Do you know the "
 "name of the deceased?\""
 msgstr ""
+"\"По всему периметру Морга расположены погребальные залы. Они расположены "
+"вдоль стены на первом и втором этажах. Тебе известно имя усопшего?\""
 
 #: 365
 msgid ""
@@ -359,15 +348,16 @@ msgid ""
 "\"That name is not familiar to me. Check with one of the guides at the front "
 "gate... they may be able to direct you better than I.\""
 msgstr ""
+"\"Это имя не знакомо мне. Справься у одного из проводников у главных ворот..."
+" они смогут направить тебя лучше, чем я.\""
 
 #: 369
 msgid "\"Pardon... I misspoke. I don't know the name of the deceased.\""
 msgstr ""
 
 #: 370
-#, fuzzy
 msgid "\"The name is Deionarra.\""
-msgstr "Правда: \"Мне очень жаль, Дейонарра.\""
+msgstr "\"Это имя - Дейонарра.\""
 
 #: 374
 #, fuzzy
@@ -398,9 +388,8 @@ msgstr ""
 "\"Приветствую тебя, посвященный.\""
 
 #: 3882
-#, fuzzy
 msgid "Leave the body, continue on."
-msgstr "Оставить женщину в покое."
+msgstr "Оставить тело, уйти."
 
 #: 3883
 #, fuzzy
@@ -419,15 +408,14 @@ msgid "\"Summon them, then. I'd like to meet them.\""
 msgstr "\"Нет... но я хотел бы побольше знать об этой поэме.\""
 
 #: 3889
-#, fuzzy
 msgid ""
 "As you lean in to 'whisper' to him, the Dustman leans in as well. As he "
 "comes within arm's reach, your hands clamp onto his temples, and you twist "
 "his head sharply to the left. "
 msgstr ""
-"Как только ты наклоняешься, чтобы \"прошептать\" ей, Тленная тоже "
-"наклоняется. Как только она оказывается на расстоянии вытянутой руки, твои "
-"руки хватают ее за виски, и ты резко сворачиваешь голову влево. "
+"Как только ты наклоняешься, чтобы \"прошептать\" ему, Тленный тоже "
+"наклоняется. Как только он оказывается на расстоянии вытянутой руки, твои "
+"руки хватают его за виски, и ты резко сворачиваешь голову влево."
 
 #: 3891
 msgid ""
@@ -438,19 +426,18 @@ msgstr ""
 "качает головой и возвращается к своим обязанностям."
 
 #: 3892 3895
-#, fuzzy
 msgid "Walk away."
-msgstr "Уйти."
+msgstr "Уйти прочь."
 
 #: 3893
-#, fuzzy
 msgid ""
 "The Dustman studies you carefully. \"You are not one of us. What are you "
 "doing here? Are you a member of the Anarchists? Or a spy of another faction? "
 "This seems to be a matter for the guards...\""
 msgstr ""
-"\"Ты не из наших. Кто ты? Что ты здесь делаешь? Ты из Анархистов? Или шпион "
-"другой фракции?\" Тленная делает шаг назад. \"Стража! Стража!\""
+"Тленный внимательно тебя осматривает. \"Ты не из наших. Что ты здесь "
+"делаешь? Ты из Анархистов? Или шпион другой фракции? Кажется, здесь есть "
+"дело для стражников...\""
 
 #: 3894
 msgid "The Dustman nods, then returns to his duties."
@@ -458,7 +445,7 @@ msgstr "Тленный кивает, затем возвращается к св
 
 #: 3896
 msgid "The Dustman frowns. \"That name is unfamiliar to me.\""
-msgstr ""
+msgstr "Тленный хмурится. \"Это имя мне незнакомо.\""
 
 #: 3897
 msgid ""
@@ -470,7 +457,7 @@ msgstr ""
 
 #: 3898 413 436 445
 msgid "\"I'm a recent initiate. Forgive my ignorance.\""
-msgstr ""
+msgstr "\"Я недавно посвящен. Прости мое невежество.\""
 
 #: 3899
 #, fuzzy
@@ -499,7 +486,6 @@ msgid "\"My name is not your concern. I must take my leave. Farewell.\""
 msgstr "\"Спасибо за уделенное время. Я должен идти. Прощай.\""
 
 #: 3909 3918 446
-#, fuzzy
 msgid "\"I'm... new here. I'm... trying to get my bearings.\""
 msgstr "\"Я... недавно здесь. Я... пытаюсь изучить обстановку.\""
 
@@ -510,15 +496,16 @@ msgid ""
 msgstr ""
 
 #: 3922
-#, fuzzy
 msgid "\"It is none of your concern.\""
-msgstr "Это не твое дело."
+msgstr "\"Это не твое дело.\""
 
 #: 393
 msgid ""
 "\"That is as much my question as yours. Your face is unknown to me. Who are "
 "you?\""
 msgstr ""
+"\"Это скорее мой вопрос, чем твой. Твое лицо мне не знакомо. Как тебя "
+"зовут?\""
 
 #: 394
 msgid ""
@@ -529,46 +516,40 @@ msgstr ""
 "тобою сказанное. \"Как ты сказал, твое имя?\"\n"
 
 #: 398
-#, fuzzy
 msgid "\"A journal? I have not seen one.\""
-msgstr "\"Дневник?\" Соэго выглядит растерянным. \"Нет, мне он не попадался.\""
+msgstr "\"Дневник? Не встречал такого.\""
 
 #: 400
-#, fuzzy
 msgid "The Dustman waits patiently for you to continue."
-msgstr "Тленный кивает и возвращается к своим делам."
+msgstr "Тленный терпеливо ждет твоего продолжения."
 
 #: 401
-#, fuzzy
 msgid "\"Can you direct me out of here?\""
-msgstr "\"Можешь ли ты помочь мне выбраться отсюда?\""
+msgstr "\"Можешь показать мне, где выход?\""
 
 #: 402
 msgid "\"Do you know someone named Pharod?\""
 msgstr "\"Ты знаешь кого-нибудь по имени Фарод?\""
 
 #: 403
-#, fuzzy
 msgid "\"I'm missing a journal. Have you seen it?\""
-msgstr "\"Я ищу дневник. Тебе такой не попадался?\""
+msgstr "\"Я потерял дневник. Тебе такой не попадался?\""
 
 #: 404
-#, fuzzy
 msgid "\"Never mind. Sorry to trouble you.\""
-msgstr "\"Неважно. Извини за беспокойство. Прощай.\""
+msgstr "\"Неважно. Извини за беспокойство.\""
 
 #: 405
 msgid "\"You may simply leave by the front gate. It is on the first floor.\""
-msgstr ""
+msgstr "\"Ты можешь просто выйти через главные ворота. Они на первом этаже.\""
 
 #: 406 411 418 451
 msgid "\"I had some other questions...\""
 msgstr "\"У меня есть другие вопросы...\""
 
 #: 407
-#, fuzzy
 msgid "\"Thank you. Farewell.\""
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо. Прощай.\""
 
 #: 408
 msgid ""
@@ -576,25 +557,26 @@ msgid ""
 "familiar... I seem to recall a Collector by that name. Dhall the Scrivener "
 "might know of him.\""
 msgstr ""
+"\"Это имя...\" Тленный на секунду умолкает. \"Это имя *звучит* знакомо... "
+"Кажется, я припоминаю Сборщика с таким именем. Писец Дхолл может знать о нем "
+"больше.\""
 
 #: 409
-#, fuzzy
 msgid "\"Collector?\""
-msgstr "Сбощик"
+msgstr "\"Сборщика?\""
 
 #: 410
 msgid "\"Dhall?\""
 msgstr "\"Дхолл?\""
 
 #: 412
-#, fuzzy
 msgid ""
 "\"Collectors... they gather those who have died on the streets of Sigil and "
 "bring them to the Mortuary...\" The Dustman pauses, then frowns. \"You are "
 "not from around here. Who are you?\""
 msgstr ""
-"\"Гитцераи - это...\" Тленный умолкает, хмуря брови. \"Ты не здешний. Кто ты?"
-"\""
+"\"Сборщики... они собирают тех, кто умер на улицах Сигила, и доставляют их в "
+"Морг...\" Тленный умолкает, хмуря брови. \"Ты не здешний. Кто ты?\""
 
 #: 414
 msgid ""
@@ -610,9 +592,8 @@ msgid "\"*He will not linger long in the shadow of this existence?*\""
 msgstr "\"*Ему осталось не так долго жить?*\""
 
 #: 416 417
-#, fuzzy
 msgid "\"Where can I find Dhall?\""
-msgstr "\"Где я могу найти ее?\""
+msgstr "\"Где я могу найти Дхолла?\""
 
 #: 419
 msgid ""
@@ -741,36 +722,32 @@ msgstr ""
 "другой фракции? Стража! Стража!\""
 
 #: 448
-#, fuzzy
 msgid "\"Dammit!\""
-msgstr "\"Подождать!\""
+msgstr "\"Проклятье!\""
 
 #: 452
 msgid "\"I must take my leave. Farewell.\""
 msgstr "\"Я должен идти. Прощай.\""
 
 #: 66674
-#, fuzzy
 msgid "The Dustman regards you with a stony gaze. \"Are you lost?\""
-msgstr ""
-"Тленный медленно поднимает свою голову и оборачивается к тебе. \"Ты "
-"потерялся?\""
+msgstr "Тленный озирается на тебя с каменным взглядом. \"Ты потерялся?\""
 
 #: 66675
-#, fuzzy
 msgid "\"No, I am a member of the faction. I am just touring the Mortuary.\""
-msgstr "\"Я недавно посвящен во фракцию Тленных. Я просто осматриваю Морг.\""
+msgstr "\"Нет, я член фракции. Я просто осматриваю Морг.\""
 
 #: 66681
-#, fuzzy
 msgid ""
 "The Dustman stares at you for a moment, then nods. \"Very well. If you need "
 "assistance, let me know.\""
 msgstr ""
-"Страж на мгновение пристально на тебя смотрит, затем кивает. \"Позаботься о "
-"том, чтобы никого не отвлекать от своих обязанностей, пока ты здесь.\""
+"Страж на мгновение пристально на тебя смотрит, затем кивает. \"Хорошо. Если "
+"тебе нужна помощь, дай мне знать.\""
 
 #: 66682
 #, fuzzy
 msgid "\"I will do so. Farewell.\""
 msgstr "\"Я ничего не скажу. Прощай.\" "
+
+

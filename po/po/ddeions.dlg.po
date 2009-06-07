@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddeions.tra\n"
 "POT-Creation-Date: 2009-05-25 03:20 +0600\n"
-"PO-Revision-Date: 2009-04-19 21:45+0600\n"
+"PO-Revision-Date: 2009-06-07 22:57+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 0
@@ -38,9 +38,8 @@ msgid "\"Not yet. Farewell, Deionarra.\""
 msgstr "\"Ну и пусть. Прощай, Дейонарра.\""
 
 #: 1310 1312 6084 764
-#, fuzzy
 msgid "\"I must leave, Deionarra. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти, Дейонарра. Прощай.\""
 
 #: 1311 721
 msgid ""
@@ -72,9 +71,8 @@ msgid "\"Farewell, Deionarra.\""
 msgstr "\"Прощай, Дейонарра.\""
 
 #: 1322 1323
-#, fuzzy
 msgid "\"Farewell then, Deionarra.\""
-msgstr "\"Тогда прощай, Дхолл.\""
+msgstr "\"Тогда прощай, Дейонарра.\""
 
 #: 13255 13256 13257 13258 6081 6082 6085 6154 6155 699 701 803 9616
 msgid "Leave."
@@ -256,9 +254,8 @@ msgid "\"Undo what you have done! I warn you --\""
 msgstr "\"Сними свое чертово проклятье! Иначе...\""
 
 #: 6106
-#, fuzzy
 msgid "Wait..."
-msgstr "\"Подождать!\""
+msgstr "Подождать..."
 
 #: 6108
 msgid ""
@@ -1077,9 +1074,8 @@ msgid "\"Greetings...?\""
 msgstr "\"Приветствую...\""
 
 #: 704
-#, fuzzy
 msgid "Wait."
-msgstr "\"Подождать!\""
+msgstr "Подождать."
 
 #: 705
 msgid "Leave before the spirit gets her bearings."
@@ -1103,7 +1099,7 @@ msgstr ""
 
 #: 708 709
 msgid "\"'My Love?' Do I know you?\""
-msgstr ""
+msgstr "\"'Моя Любовь'? Я знаю тебя?\""
 
 #: 710
 msgid ""
@@ -1131,6 +1127,8 @@ msgid ""
 "\"I *think* I feel the stirrings of memory... tell me more. Perhaps your "
 "words shall chase the shadows from my mind, Deionarra.\""
 msgstr ""
+"\"*Кажется*, я чувствую касание памяти. Поговори со мной еще. Быть может, "
+"твои слова воскресят тени моей памяти, Дейонарра.\""
 
 #: 715
 msgid ""
@@ -1187,6 +1185,8 @@ msgid ""
 "Tell me more. Perhaps your words shall chase the shadows from my mind, "
 "Deionarra.\""
 msgstr ""
+"\"Я не уверен... но, кажется, я чувствую касание памяти. Поговори со мной "
+"еще. Быть может, твои слова воскресят тени моей памяти, Дейонарра.\""
 
 #: 725
 msgid ""
@@ -1211,26 +1211,20 @@ msgstr ""
 "возвращаются! Скажи мне, как я могу помочь тебе, и я сделаю это!\""
 
 #: 729
-#, fuzzy
 msgid "\"Do you know who I am?\""
 msgstr "\"Ты знаешь, кто я?\""
 
 #: 730 736
-#, fuzzy
 msgid "\"Can you tell me where I am?\""
-msgstr "\"Ты можешь сказать, кто я?\""
+msgstr "\"Можешь сказать мне, кто я нахожусь?\""
 
 #: 731 732 737 738
-#, fuzzy
 msgid "\"I need to escape this place. Can you help me?\""
-msgstr ""
-"\"Да, мне нужно выбраться из этого места. Тебе известен какой-нибудь выход "
-"отсюда?\""
+msgstr "\"Мне нужно выбраться из этого места. Ты поможешь мне?\""
 
 #: 733
-#, fuzzy
 msgid "\"What is it you wish to know?\""
-msgstr "\"Что ты хочешь знать?\""
+msgstr "\"Что ты желаешь знать?\""
 
 #: 735
 msgid "\"Can you tell me who I am?\""
@@ -1350,7 +1344,6 @@ msgid "\"There is much I need to know. I had some questions for you...\""
 msgstr "\"Мне нужно многое узнать. У меня есть вопросы к тебе...\""
 
 #: 766
-#, fuzzy
 msgid "\"I had some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
@@ -1437,7 +1430,6 @@ msgid ""
 msgstr ""
 
 #: 782 807
-#, fuzzy
 msgid "\"I... will do what I can.\""
 msgstr "\"Я... я сделаю все, что в моих силах.\""
 
@@ -1576,9 +1568,8 @@ msgstr ""
 "один из них.\""
 
 #: 819
-#, fuzzy
 msgid "\"Key?\""
-msgstr "\"Ключи?\""
+msgstr "\"Ключ?\""
 
 #: 821
 msgid ""
@@ -1599,3 +1590,4 @@ msgstr ""
 #: 824
 msgid "\"I see. I had some other questions...\""
 msgstr "\"Понятно. У меня были еще вопросы...\" "
+
