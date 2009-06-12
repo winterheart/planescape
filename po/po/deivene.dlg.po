@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: deivene.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:04+0600\n"
+"PO-Revision-Date: 2009-06-12 23:03+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 3404
@@ -44,24 +44,20 @@ msgstr ""
 "полости от удаляемых органов."
 
 #: 3412 3413
-#, fuzzy
 msgid "\"I said, Greetings.\""
-msgstr "Приветствую, говорю."
+msgstr "\"Приветствую, говорю.\""
 
 #: 3414 3415 3427 3428 3494 3495
-#, fuzzy
 msgid "\"What's wrong with your hands?\""
-msgstr "\"Что с ним не так?\""
+msgstr "\"Что произошло с твоими руками?\""
 
 #: 3417 3420 3472
-#, fuzzy
 msgid "The woman makes no response."
-msgstr "Фелл не отвечает."
+msgstr "Женщина не отвечает."
 
 #: 3418
-#, fuzzy
 msgid "Tap the woman, get her attention."
-msgstr "Прикоснуться к ее плечу, привлечь ее внимание."
+msgstr "Прикоснуться к женщине, привлечь ее внимание."
 
 #: 3421
 msgid ""
@@ -74,12 +70,10 @@ msgstr ""
 "удивление сменяется раздраженностью, она хмурится на тебя."
 
 #: 3422
-#, fuzzy
 msgid "\"Uh... greetings.\""
-msgstr "\"Ух... Приветствую?\""
+msgstr "\"Ух... Приветствую.\""
 
 #: 3423
-#, fuzzy
 msgid ""
 "She doesn't seem to have heard you. She leans forward, squinting, as if she "
 "can't quite make you out... whatever is wrong with her eyes must make her "
@@ -94,8 +88,8 @@ msgstr ""
 "Кажется, она тебя даже не слышала. Щурясь, она наклоняется вперед, как будто "
 "не может разглядеть тебя... что бы ни случилось с ее глазами, но ее вид с "
 "близкого расстояния вселяет страх. \"Ты.\" Она соединяет когти вместе, затем "
-"делает странное движение рукой. \"Найди НИТКУ и БАЛЬЗАМ, принеси СЮДА, к Эи-"
-"Вейн. Пшел - пшел - пшел.\"\n"
+"делает странное движение рукой. \"Найди НИТКУ и БАЛЬЗАМ, принеси СЮДА, к "
+"Эи-Вейн. Пшел - пшел - пшел.\"\n"
 "\n"
 "ПРИМЕЧАНИЕ: Только что ты получил задание. Задания отображаются в твоем "
 "дневнике в разделе \"Задания\". Чтобы увидеть все задания, полученные тобой "
@@ -103,10 +97,9 @@ msgstr ""
 
 #: 3424 3469
 msgid "Give her the thread and embalming fluid."
-msgstr ""
+msgstr "Дать ей нитку и банку с бальзамирующей жидкостью."
 
 #: 3425 3426
-#, fuzzy
 msgid "\"I had some questions first...\""
 msgstr "\"Сначала у меня есть некоторые вопросы...\""
 
@@ -115,11 +108,12 @@ msgid "Leave."
 msgstr "Уйти."
 
 #: 3430 3486 3498
-#, fuzzy
 msgid ""
 "She turns away... she makes no sign that she heard you. Her hearing must be "
 "as poor as her eyesight."
-msgstr "Она отвернулась... никаких признаков, что она услышала тебя. "
+msgstr ""
+"Она отвернулась... никаких признаков, что она услышала тебя. Должно быть, ее "
+"слух еще хуже зрения."
 
 #: 3431
 msgid "Tap her on the shoulder, get her attention."
@@ -136,9 +130,8 @@ msgstr ""
 "бальзамирующую жидкость и начинает наносить слой на тело."
 
 #: 3434 3437 3447
-#, fuzzy
 msgid "Wait."
-msgstr "\"Подождать!\""
+msgstr "Подождать."
 
 #: 3436
 msgid "As you are about to leave, Ei-Vene speaks: \"Stay. You - next.\""
@@ -160,16 +153,15 @@ msgstr ""
 
 #: 3440 3441
 msgid "\"Uh, it's not that I'm not flattered, but...\""
-msgstr ""
+msgstr "\"Ух, не то, чтобы я не польщен, но...\""
 
 #: 3442 3443
 msgid "Keep playing zombie."
-msgstr ""
+msgstr "Продолжать строить из себя зомби."
 
 #: 3444 3450
-#, fuzzy
 msgid "Push her away, leave."
-msgstr "Не обращать на него внимания и уйти."
+msgstr "Оттолкнуть ее, уйти."
 
 #: 3445
 msgid ""
@@ -209,7 +201,6 @@ msgstr ""
 "Кажется, она хочет заштопать твое тело."
 
 #: 3449 3452 3453
-#, fuzzy
 msgid "Let her work."
 msgstr "Позволить ей работать."
 
@@ -238,11 +229,12 @@ msgstr ""
 "кивает, а затем делает отгоняющее движение когтями. \"Готово. Пшел - пшел.\""
 
 #: 3456 3457 3470 3497 3501 3502
-#, fuzzy
 msgid ""
 "\"Wait a minute.\" (You make the motion of a key turning with your hand.) "
 "\"I need an embalming key. Do you have one?\""
-msgstr "Минуточку. Мне нужен ключ от бальзамационной. У тебя он есть?"
+msgstr ""
+"\"Минуточку.\" (Ты делаешь открывающий жест рукой.) \"Мне нужен ключ от "
+"бальзамационной. У тебя он есть?\""
 
 #: 3458
 msgid ""
@@ -297,7 +289,6 @@ msgid "She turns away... she makes no sign that she heard you. "
 msgstr "Она отвернулась... никаких признаков, что она услышала тебя. "
 
 #: 3491
-#, fuzzy
 msgid "\"All right then...\""
 msgstr "\"Ну хорошо...\""
 
@@ -376,7 +367,6 @@ msgstr ""
 "\"Ключа нет.\" Она делает отгоняющее движение. \"Пшел - пшел - пшел.\""
 
 #: 4353
-#, fuzzy
 msgid ""
 "You watch her for a while, and the rhythm of her hands causes two memories "
 "to surface - one of you playing some sort of stringed instrument, perhaps a "
@@ -424,15 +414,14 @@ msgid ""
 msgstr ""
 "...ты стоишь перед недавно умершим телом, предсмертная судорога оставила "
 "издевательскую улыбку на его лице; на черепе выколот номер '42'. Ты только "
-"что зашил тело зомби, лежащего на плите. Ты что-то положил внутрь тела, что-"
-"то, что может быть полезным в случае, если ты снова вернешься сюда..."
+"что зашил тело зомби, лежащего на плите. Ты что-то положил внутрь тела, "
+"что-то, что может быть полезным в случае, если ты снова вернешься сюда..."
 
 #: 63478 63479
 msgid "Echo: \"Keep these things safe and wait for my return.\""
-msgstr ""
+msgstr "Эхо: \"Храни это до тех пор, пока я не вернусь.\""
 
 #: 63480
-#, fuzzy
 msgid ""
 "The memory of your voice is an echo, strange and hollow to your ears. You "
 "cross your arms in front of your chest, and to your surprise, the corpse "
@@ -453,3 +442,4 @@ msgstr ""
 "тебе дополнительный опыт, навыки и позднее даже могут привести новым "
 "воспоминаниям.\n"
 "\n"
+
