@@ -2340,6 +2340,43 @@
                     </ntig>
                 </langSet>
             </termEntry>
+
+            <termEntry id="azamat_h._hackimov-134">
+                <descrip type="subjectField">planescape</descrip>
+                <descrip type="definition">Человек, который предлагает свои услуги в качестве гида по районам Сигила.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>tout</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>осведомитель</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-135">
+                <descrip type="subjectField">planescape</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>ei-vene</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>эи-вейн</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
         </body>
     </text>
 </martif>
