@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-06-13 00:54+0600\n"
+"PO-Revision-Date: 2009-06-14 03:43+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -596,8 +596,9 @@ msgid "Breastplate 4"
 msgstr ""
 
 #: 3411
+#, fuzzy
 msgid "I said, Greetings."
-msgstr ""
+msgstr "\"Приветствую, говорю.\""
 
 #: 3455
 msgid "Wait a minute. I need an embalming key. Do you have one?"
@@ -1407,7 +1408,7 @@ msgstr ""
 
 #: 3655
 msgid "\"How much?\""
-msgstr ""
+msgstr "\"Сколько?\""
 
 #: 3675
 msgid "Karina needs a friend."
@@ -1951,8 +1952,9 @@ msgid "I'm... new here. I'm... trying to learn the routine."
 msgstr ""
 
 #: 4488
+#, fuzzy
 msgid "Portals?"
-msgstr ""
+msgstr "\"Порталы?\""
 
 #: 4529
 msgid "Do you know someone named Pharod?"
@@ -2187,11 +2189,12 @@ msgstr ""
 
 #: 6937
 msgid "Leave the dabus in peace."
-msgstr ""
+msgstr "Оставить дабуса в покое."
 
 #: 6969
+#, fuzzy
 msgid "\"Will you?\""
-msgstr ""
+msgstr "\"А хочешь?\""
 
 #: 7086
 msgid "\"Need to send another report to the Hall of Records...\""
@@ -2313,7 +2316,7 @@ msgstr ""
 
 #: 8171
 msgid "\"All right then...\""
-msgstr ""
+msgstr "\"Ну хорошо...\""
 
 #: 8172
 msgid "\"Seen any deaders abouts, Rosie me sweet?\""
@@ -6243,7 +6246,7 @@ msgstr "Громкость роликов"
 
 #: 31470
 msgid "Autopause Options"
-msgstr ""
+msgstr "Параметры автопаузы"
 
 #: 31478
 msgid "Feedback Options"
@@ -6338,7 +6341,7 @@ msgstr ""
 
 #: 31554
 msgid "Bariaur"
-msgstr ""
+msgstr "Бариавр"
 
 #: 31568
 msgid "Please place the Planescape: Torment DVD"
@@ -6825,7 +6828,7 @@ msgstr "\"Кто ты?\""
 
 #: 32715
 msgid "Keep listening."
-msgstr ""
+msgstr "Продолжать слушать."
 
 #: 32787
 msgid "Eyeball"
@@ -7013,7 +7016,7 @@ msgstr ""
 
 #: 33342
 msgid "\"Yes, I've already been there. Farewell.\""
-msgstr ""
+msgstr "\"Да, я уже был там. Прощай.\""
 
 #: 33419
 msgid "\"But...\""
@@ -7025,6 +7028,9 @@ msgid ""
 "be seen talkin' to ye. He had friends, ye know, an' I think they've a "
 "feelin' about what happened. We won't speak again.\""
 msgstr ""
+"\"Нет, рубака... то были славные времена, но теперь нам лучше не светиться. "
+"У него были друзья, скорее всего, они догадываются, что произошло на самом "
+"деле. Мы не должны больше встречаться.\""
 
 #: 33440
 msgid "Your Strength is above average."
@@ -11856,7 +11862,7 @@ msgstr ""
 
 #: 48883
 msgid "Quick Save"
-msgstr ""
+msgstr "Быстрое сохранение"
 
 #: 48884
 msgid "Actions"
@@ -12100,7 +12106,7 @@ msgstr ""
 
 #: 49475
 msgid "\"I had some questions for you...\""
-msgstr ""
+msgstr "\"У меня есть вопросы к тебе...\""
 
 #: 49476
 msgid "\"I won't do it.\""
@@ -12252,9 +12258,8 @@ msgid ""
 msgstr ""
 
 #: 50445 52332
-#, fuzzy
 msgid "\"Never mind, farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно, прощай.\""
 
 #: 50449
 msgid "This character's intelligence is too low to copy this spell."
@@ -12718,9 +12723,8 @@ msgid "Silent King's Throne"
 msgstr ""
 
 #: 51286
-#, fuzzy
 msgid "\"Nothing, farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего, прощай.\""
 
 #: 51290
 msgid "Scatter some ashes into the air."
@@ -13093,7 +13097,7 @@ msgstr "Логотип Black Isle"
 
 #: 52399
 msgid "Opening"
-msgstr ""
+msgstr "Начало"
 
 #: 52400
 msgid ""
@@ -14231,7 +14235,7 @@ msgstr ""
 
 #: 59116
 msgid "Find Craddock for Baen the Sender."
-msgstr ""
+msgstr "Найти Крэддока для Баена Посыльного."
 
 #: 59117
 msgid ""
@@ -14249,6 +14253,8 @@ msgid ""
 "pleased and rewarded me with a sum of copper. Not bad pay for just relaying "
 "a message to someone."
 msgstr ""
+"Я вернулся и сообщил Баену, что я доставил сообщение Крэддоку. Он был очень "
+"рад и наградил меня медяками. Неплохая сделка для простой доставки сообщения."
 
 #: 59120
 msgid "Find Jhelai for Craddock."
@@ -14336,7 +14342,7 @@ msgstr "Невозможно удалить предмет"
 
 #: 59150 59151 59152
 msgid "Cannot remove diary"
-msgstr ""
+msgstr "Невозможно удалить дневник"
 
 #: 59153
 msgid "Cannot remove default bolts"
@@ -14348,7 +14354,7 @@ msgstr "Невозможно удалить глаз"
 
 #: 59155 59156
 msgid "Ring equipped"
-msgstr ""
+msgstr "Кольцо надето"
 
 #: 59157 61799 63622
 msgid "Can only equip teeth"
@@ -14359,18 +14365,16 @@ msgid "Tooth equipped"
 msgstr ""
 
 #: 59159
-#, fuzzy
 msgid "To the northeastern portion of the Hive."
 msgstr "К северо-восточной части Улья."
 
 #: 59160
-#, fuzzy
 msgid "To the southwestern portion of the Hive."
 msgstr "К юго-западной части Улья."
 
 #: 59161
 msgid "The Flophouse."
-msgstr ""
+msgstr "Ночлежка."
 
 #: 59162
 msgid "To the northwestern portion of the Hive."
@@ -14410,7 +14414,7 @@ msgstr "Вход в Морг."
 
 #: 59443
 msgid "Dustman Monument."
-msgstr ""
+msgstr "Монумент Тленных."
 
 #: 59446
 msgid "Gathering Dust bar."
@@ -14446,7 +14450,7 @@ msgstr "К северо-западной части Улья."
 
 #: 59793
 msgid "The Marketplace. "
-msgstr ""
+msgstr "Рынок."
 
 #: 59794
 msgid "Office of Vermin and Disease Control. "
@@ -15617,7 +15621,7 @@ msgstr ""
 
 #: 61968 68054
 msgid "\"Giltspur the auctioneer wanted you to post this handbill.\""
-msgstr ""
+msgstr "\"Акционер Гилтспур хочет, чтобы ты повесил этот рекламный листок.\""
 
 #: 61969
 msgid "To the Alley of Lingering Sighs."
