@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: guirec.chu\n"
 "POT-Creation-Date: 2009-05-25 03:20 +0600\n"
-"PO-Revision-Date: 2009-05-29 14:46+0600\n"
+"PO-Revision-Date: 2009-06-15 23:51+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,6 @@ msgstr ""
 "X-Generator: Lokalize 0.3\n"
 
 #: 0
-#, fuzzy
 msgid ""
 "\"I shall wait for you in death's halls, my Love.\" She smiles, but there is "
 "only sadness in it. She closes her eyes, and with an ethereal whisper, she "
@@ -30,24 +29,23 @@ msgstr "НАВЫКИ ВОРА"
 
 #: 38570
 msgid "Points Left:"
-msgstr ""
+msgstr "Осталось очков:"
 
 #: 38571
 msgid "Stealth:"
-msgstr ""
+msgstr "Скрытность:"
 
 #: 38572
 msgid "Detect Traps:"
-msgstr ""
+msgstr "Обнаружение ловушек:"
 
 #: 38574
-#, fuzzy
 msgid "Pick Pockets:"
-msgstr "Обчистить карманы"
+msgstr "Карманничество:"
 
 #: 38575
 msgid "Open Doors:"
-msgstr ""
+msgstr "Открывание дверей:"
 
 #: 38576
 msgid "SAVING THROWS"
@@ -55,23 +53,23 @@ msgstr "СПАСБРОСКИ"
 
 #: 38577
 msgid "Save Vs. Death:"
-msgstr "Спасбросок против смерти:"
+msgstr "против смерти:"
 
 #: 38578
 msgid "Save Vs. Wands:"
-msgstr "Спасбросок против жезлов"
+msgstr "против жезлов:"
 
 #: 38579
 msgid "Save Vs. Polymorph:"
-msgstr "Спасбросок против полиморфизма"
+msgstr "против полиморфизма:"
 
 #: 38580
 msgid "Save Vs. Breath:"
-msgstr "Спасбросок против атаки дыханием:"
+msgstr "против атаки дыханием:"
 
 #: 38581
 msgid "Save Vs. Spell:"
-msgstr "Спасбросок против заклинания:"
+msgstr "против заклинания:"
 
 #: 38582
 msgid "Armor Class:"
@@ -116,4 +114,5 @@ msgstr "Опыт от группы:"
 #: 825
 msgid "Kill Experience:"
 msgstr "Опыт от убийств:"
+
 
