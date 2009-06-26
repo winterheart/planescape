@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dwangyar.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:54+0600\n"
+"PO-Revision-Date: 2009-06-27 00:05+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 11806
@@ -309,7 +309,7 @@ msgstr "\"Хорошо, прошу прощения, что побеспокои
 #: 11852 11934
 #, fuzzy
 msgid "\"Dammit...\""
-msgstr "\"Черт возьми, Анна...\""
+msgstr "\"Проклятье!..\""
 
 #: 11853
 msgid "\"I spoke with him... he seems troubled. What's wrong with him?\""
@@ -344,9 +344,8 @@ msgid "\"I... see. Sounds like you have your share of troubles. Farewell.\""
 msgstr "\"Понятно... Похоже, ты взваливаешь на себя чужие проблемы. Прощай.\""
 
 #: 11862
-#, fuzzy
 msgid "\"Why?\""
-msgstr "\"Почему я?\""
+msgstr "\"Зачем?\""
 
 #: 11863 11873
 #, fuzzy
@@ -508,7 +507,6 @@ msgid "\"Don't worry. I have the contract right here.\""
 msgstr ""
 
 #: 11910
-#, fuzzy
 msgid "\"I had some questions first...\""
 msgstr "\"Сначала у меня есть некоторые вопросы...\""
 
@@ -645,3 +643,4 @@ msgid ""
 "I retrieved Angyar's Contract and returned it to his wife. She thanked me "
 "and asked me to show the Contract to her husband. "
 msgstr ""
+
