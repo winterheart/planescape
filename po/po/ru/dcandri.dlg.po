@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dcandri.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:12+0600\n"
+"PO-Revision-Date: 2009-06-26 23:51+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 12009 12015 12320 12323 12329
@@ -60,9 +60,8 @@ msgid ""
 msgstr ""
 
 #: 12020
-#, fuzzy
 msgid "\"I had some questions for you.\""
-msgstr "\"У меня есть вопросы к тебе.\""
+msgstr "\"У меня есть вопросы к тебе...\""
 
 #: 12021
 msgid "\"Nothing. Farewell.\""
@@ -150,14 +149,12 @@ msgid "\"What's the difference?\""
 msgstr "\"А в чем проблема?\""
 
 #: 12039 12047
-#, fuzzy
 msgid "\"Tell me of the Outer Planes.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне о Внешних Планах.\""
 
 #: 12040 12048 12179
-#, fuzzy
 msgid "\"Tell me of the Inner Planes.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне о Внутренних Планах.\""
 
 #: 12041 12049
 #, fuzzy
@@ -233,9 +230,8 @@ msgid ""
 msgstr ""
 
 #: 12059 28755
-#, fuzzy
 msgid "\"Tell me the cardinal rules.\""
-msgstr "\"Рас�кажи мне о демонах.\""
+msgstr ""
 
 #: 12060
 msgid "\"Tell me of the composition of the planes.\""
@@ -342,9 +338,8 @@ msgid ""
 msgstr ""
 
 #: 12174 12184
-#, fuzzy
 msgid "\"Go on.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Продолжай.\""
 
 #: 12176
 msgid "\"We'll take this up later. Farewell.\""
@@ -468,7 +463,6 @@ msgstr "\"Расскажи мне об Аллее.\""
 
 #: 12215 12220 12225 12234 12241 12247 12253 12258 12263 12268 12273 12279
 #: 12282 12287
-#, fuzzy
 msgid "\"I had some other questions.\""
 msgstr "\"У меня есть другие вопросы...\""
 
@@ -822,7 +816,6 @@ msgid ""
 msgstr ""
 
 #: 12328
-#, fuzzy
 msgid "\"No matter. I had some other questions...\""
 msgstr "\"Неважно. У меня есть другие вопросы...\""
 
@@ -879,3 +872,4 @@ msgid ""
 "In the palm of his hand are Ingress' dancing teeth, and he smoothly deposits "
 "them into your hand. \"Enjoy them, seeker.\" "
 msgstr ""
+
