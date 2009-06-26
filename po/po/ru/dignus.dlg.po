@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dignus.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:01+0600\n"
+"PO-Revision-Date: 2009-06-26 23:59+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 16198
@@ -345,7 +345,7 @@ msgstr ""
 #: 57454
 #, fuzzy
 msgid "\"Never mind, then...\""
-msgstr "\"А ладно, неважно. Прощай.\""
+msgstr "\"Тогда неважно.\""
 
 #: 57580
 msgid ""
@@ -812,9 +812,8 @@ msgid "Surrender to the memory."
 msgstr "Сдаться в угоду памяти."
 
 #: 57778 57785 57788 57791 57794 57797 57800 57803 57806 57809 57812 57817
-#, fuzzy
 msgid "Shake off the memory."
-msgstr "Сдаться в угоду памяти."
+msgstr "Встряхнуть свою память."
 
 #: 57779
 msgid ""
@@ -1069,7 +1068,7 @@ msgstr ""
 #: 57843 57854
 #, fuzzy
 msgid "\"I... see. I... had some... other questions...\""
-msgstr "\"Понятно... У меня были еще вопросы.\""
+msgstr "\"Понятно... У меня были еще вопросы...\" "
 
 #: 57844 57855
 #, fuzzy
@@ -1326,7 +1325,6 @@ msgid ""
 msgstr ""
 
 #: 61844 61846 61848 61850 61852
-#, fuzzy
 msgid "\"Let's go.\""
 msgstr "\"Вперед.\""
 
@@ -1447,3 +1445,4 @@ msgstr ""
 msgid ""
 "\"Keep up the pressure, Ignus -- don't give him a chance to concentrate.\""
 msgstr ""
+
