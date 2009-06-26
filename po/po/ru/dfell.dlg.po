@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dfell.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:09+0600\n"
+"PO-Revision-Date: 2009-06-26 23:57+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 21094
@@ -127,17 +127,16 @@ msgstr ""
 "отстраняется."
 
 #: 21506
-#, fuzzy
 msgid ""
 "A series of symbols appear above the dabus' head. It then bows and turns "
 "away."
 msgstr ""
-"Над головой дабуса появляется кучка символов: (Я выполняю свои обязанности.)"
+"Над головой дабуса появляется серия символов. Затем он кланяется и "
+"отворачивается."
 
 #: 21507
-#, fuzzy
 msgid "The dabus waits."
-msgstr "Он кивает и ждет."
+msgstr "Дабус ждет."
 
 #: 21508
 msgid ""
@@ -1010,9 +1009,8 @@ msgid "\"Annah... what's wrong?\""
 msgstr "\"... и что теперь?\""
 
 #: 23039 23042
-#, fuzzy
 msgid "\"Sorry to disturb you. Farewell.\""
-msgstr "\"Извини, что отвлек. Прощай.\""
+msgstr "\"Извини за беспокойство. Прощай.\""
 
 #: 23040
 msgid "\"Uh... greetings.\""
@@ -1033,7 +1031,6 @@ msgid "\"Can I see what tattoos you have, Fell?\""
 msgstr "\"Можно посмотреть на татуировки, которые у тебя есть, Фелл?\""
 
 #: 23047 23048 23060 23061 23078
-#, fuzzy
 msgid "\"I had some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
@@ -1058,7 +1055,6 @@ msgid "\"Fall-from-Grace, can you translate for me?\""
 msgstr "\"Даккон, ты можешь перевести мне?\""
 
 #: 23056
-#, fuzzy
 msgid "\"Never mind. Sorry to disturb you. Farewell.\""
 msgstr "\"Неважно. Извини за беспокойство. Прощай.\""
 
@@ -1071,9 +1067,8 @@ msgstr ""
 "существо."
 
 #: 23059
-#, fuzzy
 msgid "Try and speak to it, see if you can understand it."
-msgstr "Попробовать поговорить с Феллом, может быть, ты сможешь понять его."
+msgstr "Попробовать поговорить с ним, может быть, ты сможешь понять его."
 
 #: 23069
 msgid "Ignore the dabus and explore the studio."
@@ -1096,44 +1091,36 @@ msgstr ""
 "дабус."
 
 #: 23077
-#, fuzzy
 msgid "Try and speak to the dabus, see if you can understand it."
-msgstr "Попробовать поговорить с Феллом, может быть, ты сможешь понять его."
+msgstr "Попробовать поговорить с дабусом, может быть, ты сможешь понять его."
 
 #: 23086 23097
-#, fuzzy
 msgid "\"I'm sorry, I don't understand you.\""
-msgstr "\"Извини, у меня нет денег на пожертвования.\""
+msgstr "\"Извини... Я не могу понять тебя.\""
 
 #: 23087 23098 23100
-#, fuzzy
 msgid "\"Uh... farewell.\""
-msgstr "\"Ух, прощай...\""
+msgstr "\"Ух... Прощай.\""
 
 #: 23088
-#, fuzzy
 msgid "\"Maybe you can help me...\""
 msgstr "\"Возможно, ты можешь помочь мне...\""
 
 #: 23089
-#, fuzzy
 msgid "\"Just wanted to brush up on my rebuses. Farewell.\""
-msgstr "\"Звучная метафора, многослойная. Прощай.\""
+msgstr "\"Я просто хотел посмотреть на эти ребусы. Прощай.\""
 
 #: 23090 23091 23092 23093
-#, fuzzy
 msgid "\"Morte, can you translate what he's saying for me?\""
-msgstr "\"Что ты можешь рассказать об этой таверне?\""
+msgstr "\"Морт, ты можешь перевести мне то, что он говорит?\""
 
 #: 23094
-#, fuzzy
 msgid "\"Annah, can you translate what he's saying for me?\""
-msgstr "\"Что ты можешь рассказать об этой таверне?\""
+msgstr "\"Анна, ты можешь перевести мне то, что он говорит?\""
 
 #: 23095
-#, fuzzy
 msgid "\"Dak'kon, can you translate what he's saying for me?\""
-msgstr "\"Даккон, ты можешь перевести мне?\""
+msgstr "\"Даккон, ты можешь перевести мне то, что он говорит?\""
 
 #: 23096
 msgid "\"Fall-from-Grace, can you translate what he's saying for me?\""
@@ -1190,9 +1177,8 @@ msgstr "\"Неважно. Прощай.\""
 #: 24489 24492 24497 24500 24506 24512 24515 24521 24527 24534 24537 24543
 #: 24549 24552 24558 24586 24589 24595 24601 24604 24610 24616 24619 24625
 #: 24634 24643 24646 24653 24660 24663 24668 24681 24682 24683 24684 24690
-#, fuzzy
 msgid "\"What did he say, Annah?\""
-msgstr "\"Ты что-то сказал?\""
+msgstr "\"Что он сказал, Анна?\""
 
 #: 23121 23124 23130 23136 23139 23145 23151 23154 23288 24256 24259 24265
 #: 24272 24276 24281 24287 24292 24295 24304 24313 24316 24325 24334 24337
@@ -1202,9 +1188,8 @@ msgstr "\"Ты что-то сказал?\""
 #: 24522 24528 24535 24538 24544 24550 24553 24559 24587 24590 24596 24602
 #: 24605 24611 24617 24620 24626 24635 24644 24647 24654 24661 24664 24669
 #: 24685 24691
-#, fuzzy
 msgid "\"What did he say, Dak'kon?\""
-msgstr "\"Даккон? Что он сказал?\""
+msgstr "\"Что он сказал, Даккон?\""
 
 #: 23122 23125 23131 23137 23140 23146 23152 23155 23853 24257 24260 24266
 #: 24273 24277 24282 24288 24293 24296 24305 24314 24317 24326 24335 24338
@@ -1214,9 +1199,8 @@ msgstr "\"Даккон? Что он сказал?\""
 #: 24523 24529 24536 24539 24545 24551 24554 24560 24588 24591 24597 24603
 #: 24606 24612 24618 24621 24627 24636 24645 24648 24655 24662 24665 24670
 #: 24686 24692
-#, fuzzy
 msgid "\"What did he say, Grace?\""
-msgstr "\"Ты что-то сказал?\""
+msgstr "\"Что он сказал, Грейс?\""
 
 #: 23127 23133 23142 23148
 #, fuzzy
@@ -1225,12 +1209,10 @@ msgstr "\"У меня есть другой вопрос к тебе.\""
 
 #: 23128 23134 23143 23149 24300 24302 24309 24311 24321 24323 24330 24332
 #: 24351 24353 24370 24372 24389 24391
-#, fuzzy
 msgid "\"That is all I wished to know. Farewell.\""
 msgstr "\"Это все, что я хотел узнать. Прощай.\""
 
 #: 23156 23854
-#, fuzzy
 msgid "\"Do you know who I am?\""
 msgstr "\"Ты знаешь, кто я?\""
 
@@ -1423,7 +1405,7 @@ msgstr "\"Я выслушал достаточно. Прощай.\""
 #: 24518 24524
 #, fuzzy
 msgid "\"Why?\""
-msgstr "\"Почему я?\""
+msgstr "\"Зачем?\""
 
 #: 24540
 msgid "\"Sad? Why?\""
@@ -1440,7 +1422,7 @@ msgstr "\"О чем это ты?\""
 #: 24592 24598
 #, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Нет! Нет!..\""
+msgstr "\"Продолжай.\""
 
 #: 24607
 msgid "\"Uh... is there anything else you can tell me?\""
@@ -1474,9 +1456,8 @@ msgid ""
 msgstr ""
 
 #: 24650 24657
-#, fuzzy
 msgid "\"That is none of your concern.\""
-msgstr "Это не твое дело."
+msgstr "\"Это тебя не касается.\""
 
 #: 24651 24658
 msgid "Lie: \"I feel complete, yes. Why?\""
@@ -1520,3 +1501,4 @@ msgstr "\"Каковы твои обязанности?\""
 #: 64392 64393
 msgid "\"What are those frames in the back room, Fell?\""
 msgstr ""
+
