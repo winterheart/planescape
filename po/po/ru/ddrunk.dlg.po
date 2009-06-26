@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddrunk.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:55+0600\n"
+"PO-Revision-Date: 2009-06-27 02:19+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 9710
@@ -18,6 +18,9 @@ msgid ""
 "This man is drunk out of his gourd. He can barely stand, much less speak to "
 "you. He reeks of liquor, vomit, and stale urine."
 msgstr ""
+"Этот мужчина порядком нализался из своей тыквенной бутыли. Он с трудом может "
+"стоять, не то что разговаривать с тобой. От него воняет каким-то пойлом, "
+"блевотиной и затхлой мочой."
 
 #: 9792
 msgid ""
@@ -25,12 +28,17 @@ msgid ""
 "confused, trying to discover the source of your voice. You notice Annah "
 "creeping around behind him, most likely looking for a coin-purse."
 msgstr ""
+"До забулдыги с трудом доходит, что ты разговариваешь с ним. Он смущенно "
+"озирается, пытаясь найти источник твоего голоса. Ты замечаешь, что Анна "
+"подкрадывается к нему сзади с явным намерением поживиться его кошельком."
 
 #: 9793
 msgid ""
 "The drunk seems only dimly aware of your speaking to him. He looks about, "
 "confused, trying to discover the source of your voice."
 msgstr ""
+"До забулдыги с трудом доходит, что ты разговариваешь с ним. Он смущенно "
+"озирается, пытаясь найти источник твоего голоса."
 
 #: 9795
 msgid ""
@@ -38,6 +46,9 @@ msgid ""
 "hop back to avoid being spattered. You won't be getting anything useful from "
 "this disheveled, stench-ridden waste of a life."
 msgstr ""
+"\"Ух, ух? Шта? Ииииик!\" Неожиданно его начинает обильно рвать; ты "
+"отпрыгиваешь назад, стараясь избежать брызг. Ничего более полезного от этого "
+"растрепанного вонючего разочарования ты не получишь."
 
 #: 9796
 msgid ""
@@ -45,9 +56,11 @@ msgid ""
 "and Annah hop back to avoid being spattered. You won't be getting anything "
 "useful from this disheveled, stench-ridden waste of a life."
 msgstr ""
+"\"Ух, ух? Шта? Ииииик!\" Неожиданно его начинает обильно рвать; вместе с "
+"Анной ты отпрыгиваешь назад, стараясь избежать брызг. Ничего более полезного "
+"от этого растрепанного вонючего разочарования ты не получишь."
 
 #: 9807 9809
-#, fuzzy
 msgid "\"I have some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
@@ -56,15 +69,14 @@ msgid "Ignore him."
 msgstr "Игнорировать его."
 
 #: 9813 9816
-#, fuzzy
 msgid "\"Annah... don't.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Анна... не надо.\""
 
 #: 9819 9828
-#, fuzzy
 msgid "Shake him to get his attention."
-msgstr "Ударить его свободной рукой, привлечь его внимание."
+msgstr "Встряхнуть его, чтобы привлечь внимание."
 
 #: 9824 9830 9832 9834
 msgid "Leave him be."
 msgstr "Оставить его в покое."
+
