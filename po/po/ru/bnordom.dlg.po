@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: bnordom.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-08 19:59+0500\n"
+"PO-Revision-Date: 2009-06-27 00:20+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 31490 64219
@@ -48,7 +48,7 @@ msgstr ""
 
 #: 63635
 msgid "\"Affirmatory.\""
-msgstr ""
+msgstr "\"Утвердительно.\""
 
 #: 63636
 msgid ""
@@ -64,9 +64,8 @@ msgid "\"Free will does not seem to hold many benefits for a modron.\""
 msgstr "\"Собственная воля не принесет каких-либо преимуществ модрону.\""
 
 #: 63640
-#, fuzzy
 msgid "\"Negatory.\""
-msgstr "\"На самом деле, нет.\""
+msgstr "\"Отрицательно.\""
 
 #: 63641
 msgid "\"Attention: Morte. I have a question. What is the rule of three?\""
@@ -90,7 +89,7 @@ msgstr "\"Морт, правда, что...\""
 
 #: 63646
 msgid "\"I find you most curmudgeonly.\""
-msgstr "\"Я нахожу тебя очень жадным.\""
+msgstr "\"Я нахожу тебя очень брюзгливым.\""
 
 #: 63647
 msgid "\"Attention: Morte. I wish to address your body.\""
@@ -111,7 +110,7 @@ msgstr "\"Внимание: Морт. Достигли ли мы состоян�
 
 #: 63651 64220
 msgid "\"Annah, does your tail assist you in maintaining your balance?\""
-msgstr ""
+msgstr "\"Анна, твой  хвост помогает тебе поддерживать равновесие?\""
 
 #: 63652
 msgid "\"Yes, that is quite logical.\""
@@ -137,7 +136,7 @@ msgid ""
 "\"I estimate Fall-From-Grace to be found attractive by the male sex of over "
 "321,423 separate species. Give or take five.\""
 msgstr ""
-"\"По моей оценке, Падшая Грейс находят привлекательной 321423 особи мужского "
+"\"По моей оценке, Падшую Грейс находят привлекательной 321423 особи мужского "
 "пола различных видов. Плюс-минус пять.\""
 
 #: 63657
@@ -190,3 +189,4 @@ msgid "\"I am told Justice is blind. Is this why Mercykillers exist?\""
 msgstr ""
 "\"Я слышал, что Правосудие слепо. Тогда почему же существуют Убийцы "
 "Милосердия?\""
+
