@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debb.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:02+0600\n"
+"PO-Revision-Date: 2009-06-27 00:08+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 11001
@@ -105,9 +105,8 @@ msgid "\"Third Measure of the Harmonium?\""
 msgstr ""
 
 #: 11022
-#, fuzzy
 msgid "\"What's a tout?\""
-msgstr "\"Кто такие Сборщики?\""
+msgstr "\"Что за осведомитель?\""
 
 #: 11023
 msgid "\"What makes you think I'm in trouble?\""
@@ -630,9 +629,8 @@ msgid ""
 msgstr ""
 
 #: 11139 11171 11181
-#, fuzzy
 msgid "\"Go on.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Продолжай.\""
 
 #: 11140
 #, fuzzy
@@ -1238,3 +1236,4 @@ msgstr "\"Что у тебя есть из выпивки?\""
 #: 56935
 msgid "\"I can't do that.\""
 msgstr ""
+
