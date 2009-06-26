@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dsoego.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:32+0600\n"
+"PO-Revision-Date: 2009-06-27 00:03+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 1431
@@ -421,7 +421,6 @@ msgstr ""
 "всем Морге раздается звон огромного железного колокола."
 
 #: 1525 1533 1535 4961
-#, fuzzy
 msgid "\"All right then...\""
 msgstr "\"Ну хорошо...\""
 
@@ -434,9 +433,8 @@ msgstr ""
 "виски, и ты резко сворачиваешь его голову влево. "
 
 #: 1528
-#, fuzzy
 msgid "\"Can't have you alerting your friends...\""
-msgstr "\"Кто твои друзья?\""
+msgstr "\"Не могу допустить, чтобы ты предупредил своих друзей.\""
 
 #: 1529
 msgid ""
@@ -449,7 +447,7 @@ msgstr ""
 #: 1530 1531
 #, fuzzy
 msgid "\"What...?!\""
-msgstr "\"Что?..\""
+msgstr "\"Что?\""
 
 #: 1532
 msgid ""
@@ -488,7 +486,6 @@ msgid "\"You're Soego, from the Mortuary. What are you doing here?\""
 msgstr "\"Ты - Соэго, из Морга. Что ты здесь делаешь?\""
 
 #: 21657 21848 50792 64595 64597 64600 64602 64604 64606 64608 64610 64615
-#, fuzzy
 msgid "\"Where am I?\""
 msgstr "\"Где я?\""
 
@@ -559,7 +556,7 @@ msgstr "\"Фелл?\""
 #: 21676 21772
 #, fuzzy
 msgid "\"True Death?\""
-msgstr "\"Истинной Смерти?..\""
+msgstr "\"Истинной Смерти?\""
 
 #: 21716 21832
 msgid "Null node."
@@ -1354,9 +1351,8 @@ msgid "\"Never mind then. I had some other questions...\""
 msgstr "\"Ладно, неважно. У меня есть другие вопросы...\""
 
 #: 4896 4897
-#, fuzzy
 msgid "\"Thanks anyway. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай.\""
+msgstr "\"Все равно спасибо. Прощай.\""
 
 #: 4898
 msgid ""
@@ -1419,9 +1415,8 @@ msgid "\"No! I'm not lost - I misspoke.\""
 msgstr "\"Нет! Я не потерялся. Я оговорился.\""
 
 #: 4915
-#, fuzzy
 msgid "Wait."
-msgstr "\"Подождать!\""
+msgstr "Подождать."
 
 #: 4916
 msgid ""
@@ -1431,9 +1426,8 @@ msgid ""
 msgstr ""
 
 #: 4918
-#, fuzzy
 msgid "\"That is none of your concern.\""
-msgstr "Это не твое дело."
+msgstr "\"Это тебя не касается.\""
 
 #: 4919
 #, fuzzy
@@ -1441,14 +1435,14 @@ msgid "\"I awoke on one of the slabs in your preparation room.\""
 msgstr "\"Я очнулся на одной из плит.\""
 
 #: 4920 4954
-#, fuzzy
 msgid "\"I'm here to see someone.\""
-msgstr "\"Хочется посмотреть на эту попытку.\""
+msgstr "\"Я хочу повидаться кое-с-кем.\""
 
 #: 4921
 msgid ""
 "\"I was here for an internment, but there seems to have been a mistake.\""
 msgstr ""
+"\"Я оказался здесь для погребения, но похоже, здесь произошла ошибка.\""
 
 #: 4922 4956
 msgid "Lean in as if to whisper to him, then when he leans in, snap his neck."
@@ -1477,23 +1471,20 @@ msgid ""
 msgstr ""
 
 #: 4928
-#, fuzzy
 msgid "\"It is none of your concern.\""
-msgstr "Это не твое дело."
+msgstr "\"Это не твое дело.\""
 
 #: 4929
-#, fuzzy
 msgid "\"I am here to see Dhall.\""
-msgstr "\"Тогда прощай, Дхолл.\""
+msgstr "\"Я хочу повидаться с Дхоллом.\""
 
 #: 4930
-#, fuzzy
 msgid "\"I am here to see Deionarra.\""
-msgstr "Ложь: \"Мне очень жаль, Дейонарра.\""
+msgstr "\"Я хочу повидаться с Дейонаррой.\""
 
 #: 4931 4932
 msgid "Lie: \"Uh... Adahn. Does he still work here, or...?\""
-msgstr ""
+msgstr "Ложь: \"Эээ... с Аданом. Он все еще работает здесь или?..\""
 
 #: 4933
 #, fuzzy
@@ -1656,9 +1647,8 @@ msgid "\"Pardon... I misspoke. I don't know the name of the deceased.\""
 msgstr ""
 
 #: 4965
-#, fuzzy
 msgid "\"The name is Deionarra.\""
-msgstr "Правда: \"Мне очень жаль, Дейонарра.\""
+msgstr "\"Это имя - Дейонарра.\""
 
 #: 4966
 msgid ""
@@ -1674,16 +1664,17 @@ msgstr ""
 
 #: 4967 4968
 msgid "Lie: \"The name is... uh, Adahn.\""
-msgstr ""
+msgstr "Ложь: \"Меня зовут... эээ, Адан.\""
 
 #: 4969
 msgid "Lean in as if to whisper something to him, then snap his neck."
 msgstr ""
+"Наклониться вперед, будто собираясь прошептать ему что-то, а затем свернуть "
+"ему шею."
 
 #: 4970 5028
-#, fuzzy
 msgid "Run for it."
-msgstr "Игнорировать его."
+msgstr "Убежать от него."
 
 #: 4971
 msgid "\"Collectors?\""
@@ -1717,7 +1708,6 @@ msgstr ""
 "ладно. Позволь мне открыть главные ворота.\""
 
 #: 4975 4976
-#, fuzzy
 msgid "\"All right.\""
 msgstr "\"Хорошо.\" "
 
@@ -1937,3 +1927,4 @@ msgstr "Свернуть ему шею до того, как он сможет �
 #: 66723
 msgid "\"This is of no matter. I will take my leave now.\""
 msgstr ""
+
