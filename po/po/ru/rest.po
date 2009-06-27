@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-06-14 03:43+0600\n"
+"PO-Revision-Date: 2009-06-27 22:12+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -78,12 +78,12 @@ msgstr ""
 #: 296
 #, fuzzy
 msgid "Greetings. "
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую...\""
 
 #: 301 308
 #, fuzzy
 msgid "Greetings."
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую...\""
 
 #: 311 1173
 msgid "Greater Gehreleth"
@@ -1673,8 +1673,9 @@ msgid "Open Locks"
 msgstr "Вскрытие замков"
 
 #: 4212 48892
+#, fuzzy
 msgid "Stealth"
-msgstr ""
+msgstr "Скрытность:"
 
 #: 4213
 msgid "Find/Remove Traps"
@@ -1750,8 +1751,9 @@ msgid "Damage"
 msgstr "Урон"
 
 #: 4231
+#, fuzzy
 msgid "Open Doors"
-msgstr ""
+msgstr "Открывание дверей:"
 
 #: 4232
 msgid "Weight Allowance"
@@ -2192,7 +2194,6 @@ msgid "Leave the dabus in peace."
 msgstr "Оставить дабуса в покое."
 
 #: 6969
-#, fuzzy
 msgid "\"Will you?\""
 msgstr "\"А хочешь?\""
 
@@ -4299,7 +4300,7 @@ msgstr "РАЗМЕЩЕНИЕ ОЧКОВ ПЕРСОНАЖА"
 
 #: 19322
 msgid "Jhelai"
-msgstr ""
+msgstr "Джелай"
 
 #: 19325
 msgid "Rag Doll"
@@ -10830,8 +10831,9 @@ msgid "Unlock view on character"
 msgstr ""
 
 #: 41649
+#, fuzzy
 msgid "Detect Traps"
-msgstr ""
+msgstr "Обнаружение ловушек:"
 
 #: 41650
 msgid "Use Thieving Skills"
@@ -14246,6 +14248,12 @@ msgid ""
 "looking man.' I'll keep my eye out for him. If I find Craddock, I'll deliver "
 "the message, then go back and tell Baen."
 msgstr ""
+"Я согласился передать сообщение для мужчины по имени Баен Посыльный. Баен "
+"сказал, что того, кто мне нужен, зовут Крэддок, он надзиратель в каком-то "
+"рынке в Улье. По единственному описанию, которое смог дать Баен, Крэддок "
+"является 'гигантом с суровыми чертами'. Надо бы поискать такого. Если я "
+"найду Крэддока и передам сообщение, то я должен вернуться и сказать об этом "
+"Баену."
 
 #: 59118
 msgid ""
@@ -14258,7 +14266,7 @@ msgstr ""
 
 #: 59120
 msgid "Find Jhelai for Craddock."
-msgstr ""
+msgstr "Найти Джелая для Крэддока."
 
 #: 59121
 msgid ""
@@ -14268,6 +14276,10 @@ msgid ""
 "Smoldering Corpse Bar. I said I'd go see if I could find him, then come back "
 "and let Craddock know."
 msgstr ""
+"Когда я передал Крэддоку сообщение Баена, он разозлился... Крэддок потерял "
+"одного из своих рабочих, тифлинга-пьяницу по имени Джелай. Он сказал, что "
+"тот, скорее всего, слоняется у бара \"Тлеющий Труп\". Я сказал, что если "
+"найду его, я вернусь и дам Крэддоку знать."
 
 #: 59122
 msgid ""
@@ -14276,6 +14288,10 @@ msgid ""
 "his job.\" I went back and told Craddock, who wasn't too pleased to hear "
 "Jhelai's response.  "
 msgstr ""
+"Я нашел Джелая, он не только был в стельку пьян, но решил через меня сказать "
+"Крэддоку, что он - \"шелудивый пес\" и что он может \"подавиться своей "
+"работой\". Я вернулся и сообщил об этом Крэддоку. Он не очень рад такому "
+"ответу Джелая."
 
 #: 59123
 msgid ""
@@ -14285,6 +14301,11 @@ msgid ""
 "reply, I told him that Jhelai said I should fill in for him... a little "
 "extra copper for a day's work never hurt.  "
 msgstr ""
+"Я нашел Джелая, он не только был в стельку пьян, но решил через меня сказать "
+"Крэддоку, что он - \"шелудивый пес\" и что он может \"подавиться своей "
+"работой\". Я вернулся к Крэддоку, но вместо ответа Джелая я сказал, что я "
+"должен подменить его на работе... несколько монет за простую работу не "
+"повредят."
 
 #: 59124
 msgid "Find a tombstone for the Crier of Es-Annon."
@@ -14309,11 +14330,11 @@ msgstr ""
 
 #: 59127
 msgid "Look into the matter of the mausoleum's walking dead."
-msgstr ""
+msgstr "Выяснить причины хождения мертвых в мавзолее."
 
 #: 59128
 msgid "Track down a thief disguised as a Dustman."
-msgstr ""
+msgstr "Выследить вора, маскирующегося под Тленного."
 
 #: 59129
 msgid ""
@@ -14321,16 +14342,21 @@ msgid ""
 "disguised as a Dustman and stop him from further soiling the faction's name "
 "with his actions."
 msgstr ""
+"Норочж, Тленный из Бара Собирателей Пыли, нанял меня выследить вора, "
+"маскирующегося под Тленного, и пресечь его действия, порочащие имя фракции."
 
 #: 59130
 msgid ""
 "I resolved the problem of the thief disguised as a Dustman; he won't be "
 "troubling Norochj's faction any longer."
 msgstr ""
+"Я решил проблему с вором, маскирующимся под Тленного; он больше не будет "
+"причинять проблем фракции Норочжа."
 
 #: 59131
 msgid "Talk to Norochj for Emoric, and do what Norochj asks of you."
 msgstr ""
+"Переговорить с Норочжем для Эморика и сделать все, что попросит Норочж."
 
 #: 59142 59143 59144 59145 59146 59147 59148 61795 61796 61797 61798
 msgid "Cannot remove armor"
@@ -14442,7 +14468,7 @@ msgstr ""
 
 #: 59791
 msgid "Back to the Mausoleum."
-msgstr ""
+msgstr "Назад в Мавзолей."
 
 #: 59792
 msgid "To the Northwestern portion of the Hive. "
@@ -14490,7 +14516,7 @@ msgstr "Бар \"Тлеющий Труп\"."
 
 #: 59804
 msgid "Fell's Tattoo Parlor."
-msgstr ""
+msgstr "Тату-салон Фелла."
 
 #: 59805
 msgid "Tenement of Thugs."
