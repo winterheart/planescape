@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dpox.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:22+0600\n"
+"PO-Revision-Date: 2009-06-28 00:23+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 66542
@@ -296,7 +296,7 @@ msgstr "\"Ты знаешь кого-нибудь по имени Фарод?\""
 #: 8044 8051
 msgid ""
 "\"I've lost a journal... you wouldn't happen to have seen one, would you?\""
-msgstr ""
+msgstr "\"Я потерял журнал... может, он тебе попадался?\""
 
 #: 8045
 msgid "\"Can you smuggle me into the Mortuary?\""
@@ -319,13 +319,11 @@ msgid "\"'Deaders?' Corpses? Why?\""
 msgstr "\"'Жмуриков'? То есть трупов? Зачем?\""
 
 #: 8054 8058 8063 8067 8071 8074 8098 8101 8104 8107 8110 8121 8123
-#, fuzzy
 msgid "\"I see. Say, I had some other questions...\""
-msgstr "\"Хммм. Слушай, у меня есть некоторые вопросы...\""
+msgstr "\"Понятно. Слушай, у меня есть некоторые вопросы...\""
 
 #: 8055 8059 8064 8068 8072 8075 8089 8099 8102 8105 8108 8111 8116 8122 8124
 #: 8128 8131 8140 8144
-#, fuzzy
 msgid "\"That was all I wanted to know, thanks. Farewell.\""
 msgstr "\"Это все, что я хотел узнать, спасибо. Прощай.\""
 
@@ -334,9 +332,8 @@ msgid "\"Through the gate? Why?\""
 msgstr "\"Через ворота? Для чего?\""
 
 #: 8057 8062 8066 8070 8073 8120
-#, fuzzy
 msgid "\"Is the front gate the only way inside the Mortuary?\""
-msgstr "\"Тогда убей меня. Мне нужно попасть внутрь Морга.\""
+msgstr "\"Главные ворота - единственный способ попасть в Морг?\""
 
 #: 8060
 msgid "\"Why do the Dustmen pay for the dead?\""
@@ -371,9 +368,8 @@ msgid "Leave Pox alone."
 msgstr "Оставить Сифилитика в покое."
 
 #: 8080 8081 8082 8083 8084
-#, fuzzy
 msgid "Pretend to be dead..."
-msgstr "\"Я... кажется, потерялся.\" "
+msgstr "Притвориться мертвым..."
 
 #: 8085
 msgid "\"Not now. I had some other questions first...\""
@@ -398,14 +394,12 @@ msgid "\"Yes.\""
 msgstr "\"Да.\""
 
 #: 8094
-#, fuzzy
 msgid "\"No, not yet. I had some other questions, first.\""
-msgstr "\"Нет, нет... У меня есть некоторые вопросы...\""
+msgstr "\"Нет, пока нет. Сперва у меня есть другие вопросы.\""
 
 #: 8095 8151
-#, fuzzy
 msgid "\"Maybe some other time, thanks. Farewell.\""
-msgstr "\"Может быть в другой раз, спасибо... Прощай.\""
+msgstr "\"Может быть в другой раз, спасибо. Прощай.\""
 
 #: 8097
 msgid "\"Uh... 'last time?'\""
@@ -448,9 +442,8 @@ msgid "\"Hmmm. Say, I had some other questions...\""
 msgstr "\"Хммм. Слушай, у меня есть некоторые вопросы...\""
 
 #: 8117 8118
-#, fuzzy
 msgid "Fall into darkness..."
-msgstr "Падшая Грейс"
+msgstr "Упасть в темноту..."
 
 #: 8119
 msgid "\"What do the Dustmen want with dead people... these deaders?\""
@@ -469,9 +462,8 @@ msgid "\"I had some other questions...\""
 msgstr "\"У меня есть другие вопросы...\""
 
 #: 8130
-#, fuzzy
 msgid "\"Oh. I had some other questions...\""
-msgstr "\"Понятно... У меня были еще вопросы...\" "
+msgstr "\"О, у меня есть другие вопросы...\""
 
 #: 8132
 msgid "\"Can you be more specific?\""
@@ -494,14 +486,12 @@ msgid "\"Sharegrave?\""
 msgstr "\"Могильник?\""
 
 #: 8141 8142
-#, fuzzy
 msgid "\"Would your boss... this Sharegrave... know where Pharod is?\""
-msgstr "\"Ты знаешь, где находится Фарод?\" "
+msgstr "\"А твой босс... этот Могильник... знает, где находится Фарод?\""
 
 #: 8143
-#, fuzzy
 msgid "\"Hmmm. I had some other questions...\""
-msgstr "\"Хммм. Слушай, у меня есть некоторые вопросы...\""
+msgstr "\"Хммм. У меня есть другие вопросы...\""
 
 #: 8146
 msgid ""
@@ -530,3 +520,4 @@ msgstr ""
 #: 8150
 msgid "\"No, no... I had some other questions...\""
 msgstr "\"Нет, нет... У меня есть некоторые вопросы...\""
+
