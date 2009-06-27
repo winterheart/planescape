@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 20:07+0600\n"
+"PO-Revision-Date: 2009-06-27 20:54+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -59,14 +59,12 @@ msgid ""
 msgstr "\"Я ищу дневник. И это срочно. Ты не знаешь, где он может быть?\""
 
 #: 10706 10748
-#, fuzzy
 msgid "\"Have you seen or heard of Pharod, the Collector?\""
-msgstr "\"Ты - Фарод? Я ищу Фарода, Сборщика.\""
+msgstr "\"Видел ли ты или, может быть, слышал о Фароде, Сборщике?\""
 
 #: 10707 10749
-#, fuzzy
 msgid "\"Tell me of the patrons of this tavern.\""
-msgstr "\"Расскажи мне больше об этом... Ойносе.\""
+msgstr "\"Расскажи мне о здешних завсегдатаях.\""
 
 #: 10708
 msgid "\"Nothing. Farewell.\""
@@ -115,9 +113,8 @@ msgstr ""
 "Учишься ли ты на своих ошибках, ищущий?\""
 
 #: 10713 10780
-#, fuzzy
 msgid "\"I don't think I like your tone.\""
-msgstr "\"Я так не думаю. Хорошего дня.\""
+msgstr "\"Не думаю, что мне нравится твой тон.\""
 
 #: 10715
 msgid "\"Not this time. Farewell.\""
@@ -188,9 +185,8 @@ msgid "\"What sort of a name is that?\""
 msgstr "\"Что это за имя такое?\""
 
 #: 10727
-#, fuzzy
 msgid "\"What are you?\""
-msgstr "\"Что за?.. Что ты делаешь?\""
+msgstr "\"Что ты такое?\""
 
 #: 10728
 msgid "\"Pleased to meet you, O. Farewell.\""
@@ -230,9 +226,8 @@ msgid ""
 msgstr "\"Если ты хочешь в это верить. Удачи, путник. Прощай.\""
 
 #: 10735
-#, fuzzy
 msgid "\"Answer some other questions for me, will you?\""
-msgstr "\"...верно. Ты можешь ответить на мои вопросы?\""
+msgstr "\"Ты можешь ответить на другие вопросы?\""
 
 #: 10736
 msgid "\"Farewell.\""
@@ -257,9 +252,8 @@ msgid "\"Tell me about the Great Beyond.\""
 msgstr "\"Расскажи мне о Великом Пределе.\""
 
 #: 10739 10753
-#, fuzzy
 msgid "\"So what are you doing here?\""
-msgstr "\"Эй, шеф! Ты что творишь?!\""
+msgstr "\"А что ты делаешь здесь?\""
 
 #: 10740
 msgid "\"Then that means you know all the secrets of existence, doesn't it?\""
@@ -270,7 +264,6 @@ msgid "\"Then you should be able to answer some questions for me.\""
 msgstr "\"Тогда ты сможешь ответить на некоторые мои вопросы.\""
 
 #: 10742
-#, fuzzy
 msgid "\"I need some time to think about this. Farewell.\""
 msgstr "\"Мне нужно время, что обдумать это. Прощай.\""
 
@@ -288,7 +281,6 @@ msgid "\"Farewell, then.\""
 msgstr "\"Тогда прощай.\" "
 
 #: 10745
-#, fuzzy
 msgid "\"What is it you wish to know?\""
 msgstr "\"Что ты еще хочешь узнать?\""
 
@@ -378,9 +370,8 @@ msgid "\"Then tell me of something else.\""
 msgstr "\"Тогда расскажи мне о другом.\""
 
 #: 10766
-#, fuzzy
 msgid "\"Very well, then. Farewell.\""
-msgstr "\"Отлично. Прощай, Дхолл.\""
+msgstr "\"Отлично. Прощай.\""
 
 #: 10767
 msgid "\"Why, I am watching the ebb and flow of mortality.\""
@@ -486,9 +477,8 @@ msgstr ""
 "на другой вопрос?\""
 
 #: 10781
-#, fuzzy
 msgid "\"My thanks. Farewell.\""
-msgstr "\"Все равно благодарю. Прощай.\""
+msgstr "\"Спасибо. Прощай.\""
 
 #: 3070
 msgid ""
@@ -515,3 +505,4 @@ msgstr ""
 #: 3370
 msgid "\"Do you know me, stranger?\""
 msgstr "\"Ты знаешь меня, незнакомец?\""
+
