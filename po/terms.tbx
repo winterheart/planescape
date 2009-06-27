@@ -2635,6 +2635,43 @@
                     </ntig>
                 </langSet>
             </termEntry>
+
+            <termEntry id="azamat_h._hackimov-150">
+                <descrip type="subjectField">planescape</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>jhelai</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>джелай</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-151">
+                <descrip type="subjectField">planescape</descrip>
+                <descrip type="definition">Гуманоидальное существо во Внешних землях, весьма брутального вида.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>thokola</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>токола</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
         </body>
     </text>
 </martif>
