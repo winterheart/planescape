@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddakkon.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-06-27 00:01+0600\n"
+"PO-Revision-Date: 2009-06-28 21:27+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -522,7 +522,6 @@ msgid ""
 msgstr ""
 
 #: 15139
-#, fuzzy
 msgid "\"Very well. Farewell.\""
 msgstr "\"Отлично. Прощай.\""
 
@@ -1170,18 +1169,16 @@ msgid "\"Ask him who he is.\""
 msgstr "\"Спроси его, кто он.\""
 
 #: 25007 25008 25009
-#, fuzzy
 msgid "\"Ask him what this place is.\""
-msgstr "\"Что это за место?\""
+msgstr "\"Спроси его, что это за место.\""
 
 #: 25010 25011 25012 25013 25014 25015
-#, fuzzy
 msgid "\"I feel like I know you, Fell.\""
-msgstr "\"И все же я хочу знать.\""
+msgstr "\"Я чувствую, что знаю тебя, Фелл.\""
 
 #: 25016 25017 25018
 msgid "\"He mentioned that he'd met me before... does he know how I died?\""
-msgstr ""
+msgstr "\"Он сказал, что уже видел меня... он знает как я умер?\""
 
 #: 25019 25020 25021
 msgid "\"Ask him if he's heard of Ravel.\""
@@ -1190,16 +1187,15 @@ msgstr ""
 #: 25022 25023 25024
 msgid "\"Ask him if he did the tattoos on this dismembered arm I found.\""
 msgstr ""
+"\"Спроси его, это он сделал татуировки на оторванной руке, которую я нашел.\""
 
 #: 25025 25026 25027
-#, fuzzy
 msgid "\"Can he tell me anything about these tattoos on my body?\""
-msgstr "\"Что ты можешь сказать о Дхолле?\""
+msgstr "\"Он может сообщить мне что-нибудь о татуировках на моем теле?\""
 
 #: 25028 25029 25030 25034
-#, fuzzy
 msgid "\"Can I see what tattoos he has available?\""
-msgstr "\"Можно посмотреть на татуировки, которые у тебя есть, Фелл?\""
+msgstr "\"Можно посмотреть на татуировки, которые у него есть?\""
 
 #: 25031
 msgid "\"Never mind. Farewell.\""
@@ -1209,9 +1205,8 @@ msgstr "\"Неважно. Прощай.\""
 #: 25075 25083 25084 25085 25089 25094 25095 25096 25100 25105 25106 25107
 #: 25111 25117 25124 25179 25187 25191 25196 25198 25203 25208 25213 25218
 #: 25223 25237 25244
-#, fuzzy
 msgid "\"I had another question I wanted to ask him...\""
-msgstr "\"Понятно. У меня есть еще вопросы, которые я хотел бы задать ему...\""
+msgstr "\"Я хочу задать ему другой вопрос...\""
 
 #: 25033
 #, fuzzy
@@ -1226,12 +1221,10 @@ msgid "\"That is all I wished to know. Farewell.\""
 msgstr "\"Это все, что я хотел узнать. Прощай.\""
 
 #: 25037 25038 25039
-#, fuzzy
 msgid "\"Does he know who I am?\""
-msgstr "\"Ты знаешь, кто я?\""
+msgstr "\"Он знает, кто я такой?\""
 
 #: 25042 25043 25044 43548
-#, fuzzy
 msgid "\"Why not?\""
 msgstr "\"Почему?\""
 
@@ -1287,7 +1280,7 @@ msgstr "\"Даккон? Что он сказал?\""
 #: 25116 59266 59990
 #, fuzzy
 msgid "\"Dak'kon?\""
-msgstr "\"Даккон?\""
+msgstr "\"Даккон.\""
 
 #: 25119 25120
 #, fuzzy
@@ -1476,9 +1469,8 @@ msgstr "\"Фарод?.. А там есть еще что-нибудь?\""
 
 #: 25225 25229 25233 59998 68199 68200 68201 68202 68203 68204 68240 68256
 #: 68433 68434 68444
-#, fuzzy
 msgid "\"Very well.\""
-msgstr "\"Ух, прощай...\""
+msgstr "\"Очень хорошо.\""
 
 #: 25226 25227 25228 25230 25231 25232 25234 25235 25236
 msgid ""
@@ -1655,9 +1647,8 @@ msgid ""
 msgstr ""
 
 #: 42443
-#, fuzzy
 msgid "\"And?\""
-msgstr "и"
+msgstr "\"И?\""
 
 #: 42444
 msgid "\"Let's leave her alone, then. She may recover.\""
@@ -2685,9 +2676,8 @@ msgid ""
 msgstr ""
 
 #: 59308
-#, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Продолжай.\""
+msgstr "\"Продолжай...\""
 
 #: 59309 59650
 #, fuzzy
@@ -3076,7 +3066,7 @@ msgstr ""
 #: 59604 59933 59938
 #, fuzzy
 msgid "\"Very well...\""
-msgstr "\"Очень хорошо. Хорошего дня.\""
+msgstr "\"Очень хорошо.\""
 
 #: 59619
 msgid ""
@@ -4616,13 +4606,12 @@ msgid "\"A long road, must I still travel. This is but the beginning.\""
 msgstr "\"Я иду по длинной дороге. И я все еще нахожусь в самом начале.\""
 
 #: 64400 64401 64402
-#, fuzzy
 msgid "\"What lies beyond that curtain, Fell?\""
-msgstr "\"Каковы твои обязанности?\""
+msgstr "\"Что находится за занавесом, Фелл?\""
 
 #: 64403 64404 64405
 msgid "\"What are those frames in the back room, Fell?\""
-msgstr ""
+msgstr "\"Что это за рамы в задней комнате, Фелл?\""
 
 #: 6471
 msgid ""
