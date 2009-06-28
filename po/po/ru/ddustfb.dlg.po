@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddustfb.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:57+0600\n"
+"PO-Revision-Date: 2009-06-28 20:46+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 2305
@@ -46,38 +46,32 @@ msgid "She folds her arms into her robes and waits."
 msgstr "Она прячет свои руки в одеждах и ждет."
 
 #: 2311 2312
-#, fuzzy
 msgid "She shakes her head."
-msgstr "Он мотает головой. \"Нет.\""
+msgstr "Она мотает головой."
 
 #: 2315
 msgid "\"I had some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 2316 2319
-#, fuzzy
 msgid "\"Nothing, never mind.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно.\""
 
 #: 2317
 msgid "\"Do you know someone named Pharod?\""
 msgstr "\"Ты знаешь кого-нибудь по имени Фарод?\""
 
 #: 2318 2320
-#, fuzzy
 msgid "\"I'm looking for a lost journal. Have you seen one?\""
-msgstr "\"Я ищу дневник. Тебе такой не попадался?\""
+msgstr "\"Я ищу потерявшийся дневник. Тебе такой не попадался?\""
 
 #: 2321 2323
-#, fuzzy
 msgid "\"Thanks anyway. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай.\""
+msgstr "\"Все равно спасибо. Прощай.\""
 
 #: 2322
-#, fuzzy
 msgid "\"Do you know where I can find someone named Pharod?\""
-msgstr ""
-"\"Очень хорошо. Ты не знаешь, где я могу найти человека по имени Фарод?\""
+msgstr "\"Ты не знаешь, где я могу найти человека по имени Фарод?\""
 
 #: 66588
 msgid ""
@@ -104,31 +98,34 @@ msgid ""
 "\"As one leaves the Mortuary Front Gate, head south and west. It lies past "
 "the memorial.\""
 msgstr ""
+"\"Как только выйдешь из Главных ворот Морга, сразу поверни на юго-запад. Он "
+"расположен за мемориалом.\""
 
 #: 66591
-#, fuzzy
 msgid "\"Where is the Gathering Dust bar?\""
-msgstr "Бар Собирателей Пыли"
+msgstr "\"Где находится Бар Собирателей Пыли?\""
 
 #: 66592
-#, fuzzy
 msgid ""
 "\"I'm familiar with the bar you speak of. Before heading there, I had some "
 "other questions for you...\""
-msgstr "\"Пожалуй, это так. Слушай, у меня есть еще вопросы к тебе...\""
+msgstr ""
+"\"Мне знаком тот бар, о котором ты говоришь. Перед тем, как я пойду туда, я "
+"хотел бы задать другие вопросы...\""
 
 #: 66593
 msgid ""
 "\"The Gathering Dust Bar? That's to the southwest of here, right? I'll head "
 "there, then.\""
 msgstr ""
+"\"Бар Собирателей Пыли? Он на юго-западе отсюда, верно? Тогда я схожу туда."
+"\""
 
 #: 66594
-#, fuzzy
 msgid "\"All right. I had some other questions before I go...\""
-msgstr "\"Отлично. У меня есть другие вопросы...\""
+msgstr "\"Отлично. Перед тем, как уйти, я хотел бы задать другие вопросы...\""
 
 #: 66595
-#, fuzzy
 msgid "\"Very well. I will seek it out, then.\""
-msgstr "\"Очень хорошо, я подписываюсь.\""
+msgstr "\"Очень хорошо. Тогда пойду его искать.\""
+

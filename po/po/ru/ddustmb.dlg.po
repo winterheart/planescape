@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddustmb.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:59+0600\n"
+"PO-Revision-Date: 2009-06-28 20:45+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 2324
@@ -38,9 +38,8 @@ msgid "He folds his arms into his robes and waits."
 msgstr "Он прячет свои руки в одеждах и ждет."
 
 #: 2328 2329
-#, fuzzy
 msgid "He shakes his head."
-msgstr "Он мотает головой. \"Нет.\""
+msgstr "Он мотает головой."
 
 #: 2330 2332
 msgid "\"Greetings.\""
@@ -55,70 +54,65 @@ msgid "\"I had some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 2335 2338
-#, fuzzy
 msgid "\"Nothing, never mind.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно.\""
 
 #: 2336 2341
-#, fuzzy
 msgid "\"Do you know where I can find someone named Pharod?\""
-msgstr ""
-"\"Очень хорошо. Ты не знаешь, где я могу найти человека по имени Фарод?\""
+msgstr "\"Ты не знаешь, где я могу найти человека по имени Фарод?\""
 
 #: 2337 2339
-#, fuzzy
 msgid "\"I'm looking for a lost journal. Have you seen one?\""
-msgstr "\"Я ищу дневник. Тебе такой не попадался?\""
+msgstr "\"Я ищу потерявшийся дневник. Тебе такой не попадался?\""
 
 #: 2340 2342
-#, fuzzy
 msgid "\"Thanks anyway. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай.\""
+msgstr "\"Все равно спасибо. Прощай.\""
 
 #: 66581
-#, fuzzy
 msgid ""
 "\"Pharod is a Collector.\" The man studies you for a moment. \"If you would "
 "wish to know more of him, I am told that Initiate Emoric in the Gathering "
 "Dust Bar also seeks him. It may be that he can help you.\""
 msgstr ""
-"\"Фарод - это Сборщик.\" На мгновение женщина тебя изучает. \"Если хочешь "
-"знать, то Посвященный Эморик из Бара Собирателей Пыли тоже ищет его. "
-"Возможно, он поможет тебе.\""
+"\"Фарод - это Сборщик.\" На мгновение мужчина тебя изучает. \"Если хочешь "
+"знать о нем больше, то Посвященный Эморик из Бара Собирателей Пыли тоже ищет "
+"его. Возможно, он поможет тебе.\""
 
 #: 66582
-#, fuzzy
 msgid "\"Where is the Gathering Dust bar?\""
-msgstr "Бар Собирателей Пыли"
+msgstr "\"Где находится Бар Собирателей Пыли?\""
 
 #: 66583
 msgid ""
 "\"The Gathering Dust Bar? That's to the southwest of here, right? I'll head "
 "there, then.\""
 msgstr ""
+"\"Бар Собирателей Пыли? Он на юго-западе отсюда, верно? Тогда я схожу туда.\""
 
 #: 66584
 msgid ""
 "\"As one leaves the Mortuary Front Gate, head south and west. It lies past "
 "the memorial.\""
 msgstr ""
+"\"Как только выйдешь из Главных ворот Морга, сразу поверни на юго-запад. Он "
+"расположен за мемориалом.\""
 
 #: 66585
-#, fuzzy
 msgid "\"All right. I had some other questions before I go...\""
-msgstr "\"Отлично. У меня есть другие вопросы...\""
+msgstr "\"Отлично. Перед тем, как уйти, я хотел бы задать другие вопросы...\""
 
 #: 66586
-#, fuzzy
 msgid ""
 "\"I'm familiar with the bar you speak of. Before heading there, I had some "
 "other questions for you...\""
-msgstr "\"Пожалуй, это так. Слушай, у меня есть еще вопросы к тебе...\""
+msgstr ""
+"\"Мне знаком тот бар, о котором ты говоришь. Перед тем, как я пойду туда, я "
+"хотел бы задать другие вопросы...\""
 
 #: 66587
-#, fuzzy
 msgid "\"Very well. I will seek it out, then.\""
-msgstr "\"Очень хорошо, я подписываюсь.\""
+msgstr "\"Очень хорошо. Тогда пойду его искать.\""
 
 #: 66588
 msgid ""
@@ -129,3 +123,4 @@ msgstr ""
 "Один из Тленных сказал мне, что если я разыскиваю Фарода, то мне следует "
 "поговорить с некоим \"Эмориком\" в Баре Собирателей Пыли, заведении к юго-"
 "западу от Главных ворот Морга. "
+
