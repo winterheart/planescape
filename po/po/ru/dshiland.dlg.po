@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dshiland.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:27+0600\n"
+"PO-Revision-Date: 2009-06-30 22:47+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 45742
@@ -24,9 +24,8 @@ msgstr ""
 "просто тренировалась. Что тебе надо?\""
 
 #: 45743 45748
-#, fuzzy
 msgid "\"I wish to learn more about this box..\""
-msgstr "\"Да что такого ужасного в этой шкатулке?\""
+msgstr "\"Я хочу узнать побольше об этой шкатулке...\""
 
 #: 45744
 msgid "\"My apologies for disturbing you. Farewell.\""
@@ -103,11 +102,12 @@ msgid ""
 "\"You seem to know something about magic. Can you tell me what spells have "
 "been put on this box?\""
 msgstr ""
+"\"Похоже, ты разбираешься в магии. Можешь сказать, что за заклинания "
+"наложены на эту шкатулку?\""
 
 #: 45760 45765
-#, fuzzy
 msgid "\"Do you know the history behind this box?\""
-msgstr "\"Ты знаешь, где она находится?\""
+msgstr "\"Ты знаешь историю этой шкатулки?\""
 
 #: 45761
 msgid "\"What else do you wish to know?\""
@@ -151,7 +151,6 @@ msgstr ""
 "избавиться?\""
 
 #: 45769 45773 45778 45780 45782
-#, fuzzy
 msgid "\"I've more questions I wish to ask....\""
 msgstr "\"У меня есть вопросы, которые я бы хотел задать...\""
 
@@ -294,3 +293,4 @@ msgstr ""
 "посреди Аллеи с Опасными закоулками. Есть надежда, что более могущественный "
 "источник силы сможет вмешаться и изгнать демона до того, как тот сможет "
 "сбежать."
+
