@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drotwill.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:52+0600\n"
+"PO-Revision-Date: 2009-06-30 22:40+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 11670 34393 34400 34404 34410 3702
@@ -52,13 +52,13 @@ msgid ""
 "Rotten William has asked me to kill the killer Blackrose, who is apparently "
 "stalking around the Alley of Dangerous Angles."
 msgstr ""
-"Гнилой Уильям попросил меня убить убийцу Черную розу, который обычно бродит "
+"Гнилой Уильям попросил меня убить убийцу Черного бутона, который обычно "
+"бродит "
 "по Аллее с Опасными закоулками."
 
 #: 3371 34385 3703
-#, fuzzy
 msgid "\"I'm looking for Pharod.\""
-msgstr "\"Я ищу работу.\""
+msgstr "\"Я ищу Фарода.\""
 
 #: 34367
 msgid "\"Then let's not waste time, aye? My Shivs'll defend me.\""
@@ -93,7 +93,7 @@ msgid ""
 "\"Have yeh found the vigilante Blackrose yet? Have yeh put him down like we "
 "agreed?\""
 msgstr ""
-"\"Ты нашел разбойника Черную розу? Уложил его, как мы договаривались?\""
+"\"Ты нашел разбойника Черного бутона? Уложил его, как мы договаривались?\""
 
 #: 34372
 msgid ""
@@ -186,18 +186,16 @@ msgid "\"I'm looking for a journal.\""
 msgstr "\"Я ищу дневник.\""
 
 #: 34388 3650 3705
-#, fuzzy
 msgid "\"I don't want any trouble.\""
 msgstr "\"Я не хочу неприятностей.\""
 
 #: 34389 3651 3670 3706
 msgid "\"Blackrose wants you dead.\""
-msgstr ""
+msgstr "\"Черный бутон хочет твоей смерти.\""
 
 #: 34390 3652 3671 3707
-#, fuzzy
 msgid "\"Krystall wants you dead.\""
-msgstr "\"Черная роза хочет тебя убить.\""
+msgstr "\"Кристалл хочет твоей смерти.\""
 
 #: 34391
 msgid "\"I said it's not any of your business.\""
@@ -208,9 +206,8 @@ msgid "Fight."
 msgstr "Сражаться."
 
 #: 34394 34401 34412
-#, fuzzy
 msgid "\"Not yet.\""
-msgstr "\"На самом деле, нет.\""
+msgstr "\"Нет еще.\""
 
 #: 34395
 msgid "\"I've found him, but he convinced me to kill you instead.\""
@@ -221,14 +218,12 @@ msgid "\"He's dead. I'd like my reward now.\""
 msgstr "\"Он мертв. Где моя награда?\""
 
 #: 34397
-#, fuzzy
 msgid "\"I had some questions, first...\""
 msgstr "\"Сначала у меня есть некоторые вопросы...\""
 
 #: 34398
-#, fuzzy
 msgid "\"All right, then.\""
-msgstr "\"Ну хорошо...\""
+msgstr "\"Ну хорошо тогда.\""
 
 #: 34402 34413
 msgid "\"She's dead.\""
@@ -239,12 +234,10 @@ msgid "\"I'm afraid I'm going to have to turn it down.\""
 msgstr "\"Боюсь, что я намерен от него отказаться.\""
 
 #: 34406 3663 3696 3714 3720
-#, fuzzy
 msgid "\"I'll do it.\""
 msgstr "\"Я сделаю это.\""
 
 #: 34407
-#, fuzzy
 msgid "\"No, I don't.\""
 msgstr "\"Нет, не нужна.\""
 
@@ -259,19 +252,16 @@ msgid "\"I'll find him.\""
 msgstr "\"Я найду его.\""
 
 #: 34414
-#, fuzzy
 msgid "\"Very well, then. Farewell.\""
 msgstr "\"Отлично. Прощай.\""
 
 #: 3649 3667 3704
-#, fuzzy
 msgid "\"I'm passing through.\""
 msgstr "\"Я просто проходил мимо.\""
 
 #: 3653 3673 3708
-#, fuzzy
 msgid "\"It's not any of your business.\""
-msgstr "\"Я сказал, что это не твое дело.\""
+msgstr "\"Это не твое дело.\""
 
 #: 3654
 msgid ""
@@ -286,9 +276,8 @@ msgid "\"All right, here. Where is he?\""
 msgstr "\"Хорошо, держи. Где он?\""
 
 #: 3657
-#, fuzzy
 msgid "\"I'm not interested.\""
-msgstr "\"Боюсь, что я не заинтересован.\""
+msgstr "\"Я не заинтересован в этом.\""
 
 #: 3658
 msgid "\"I don't have that much.\""
@@ -311,19 +300,16 @@ msgstr ""
 "Достаточно честно для такого отчаянного, как ты.\""
 
 #: 3662 3713 3717
-#, fuzzy
 msgid "\"What's in it for me?\""
 msgstr "\"А что мне от этого будет?\""
 
 #: 3664 3715 3721
-#, fuzzy
 msgid "\"I won't do it. I'm no assassin.\""
 msgstr "\"Нет. Я не наемный убийца.\""
 
 #: 3665 3716 3722
-#, fuzzy
 msgid "\"I'd like to think about it first.\""
-msgstr "\"Хочется посмотреть на эту попытку.\""
+msgstr "\"Сперва я хочу это обдумать.\""
 
 #: 3668
 msgid ""
@@ -470,7 +456,6 @@ msgid "\"How about four hundred?\""
 msgstr "\"А как насчет четырех сотен?\""
 
 #: 3695 3697 3699
-#, fuzzy
 msgid "\"No. I won't do it.\""
 msgstr "\"Нет. Я не хочу этого делать.\""
 
@@ -503,18 +488,16 @@ msgid "\"I'd like to see you exact it.\""
 msgstr "\"Я хотел бы, чтобы ты назвал точную сумму.\""
 
 #: 3718
-#, fuzzy
 msgid "\"How much?\""
-msgstr "\"Понятно. Сколько?\""
+msgstr "\"Сколько?\""
 
 #: 3719
 msgid "\"I'm not interested, I'm afraid.\""
 msgstr "\"Боюсь, что я не заинтересован.\""
 
 #: 3723
-#, fuzzy
 msgid "\"What is it?\""
-msgstr "\"Что?\""
+msgstr "\"Что такое?\""
 
 #: 3724
 msgid "\"Yes.\""
@@ -525,15 +508,15 @@ msgid "\"Aye, then. D'yeh mean to carry out yer commission?\""
 msgstr "\"Ага, а ты хочешь получить за это комиссионные?\""
 
 #: 3726
-#, fuzzy
 msgid "\"I'm not sure.\""
-msgstr "\"Я не уверен. Прощай.\""
+msgstr "\"Я в этом не уверен.\""
 
 #: 37831 37832 37833 37834 37835 38114 41720
-#, fuzzy
 msgid "\"She's already dead.\""
 msgstr "\"Она уже мертва.\""
 
 #: 37836
 msgid "\"He's already dead. I'd like my reward now.\""
 msgstr "\"Он уже мертв. Где моя награда?\""
+
+
