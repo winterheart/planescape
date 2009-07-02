@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddustgu.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:58+0600\n"
+"PO-Revision-Date: 2009-07-03 01:11+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 1407
@@ -50,6 +50,8 @@ msgstr ""
 #: 1412 1413 4166 4167 66696 66697
 msgid "Lean in as if to whisper something to him, then snap his neck."
 msgstr ""
+"Наклониться вперед, будто собираясь прошептать ему что-то, а затем свернуть "
+"ему шею."
 
 #: 1414
 msgid ""
@@ -83,7 +85,6 @@ msgstr ""
 "охрану, которые выведут тебя.\" Кажется, он готов позвать на помощь. "
 
 #: 1418 2536 4151 4152 4172 4173
-#, fuzzy
 msgid "Snap his neck before he can call out."
 msgstr "Свернуть ему шею до того, как он сможет позвать на помощь."
 
@@ -126,15 +127,14 @@ msgstr ""
 "Похоже, он готов позвать других стражей. "
 
 #: 4122
-#, fuzzy
 msgid ""
 "As you lean in to 'whisper' to him, the Dustman leans in as well. As he "
 "comes within arm's reach, your hands clamp onto his temples, and you twist "
 "his head sharply to the left. "
 msgstr ""
-"Как только ты наклоняешься, чтобы \"прошептать\" ей, Тленная тоже "
-"наклоняется. Как только она оказывается на расстоянии вытянутой руки, твои "
-"руки хватают ее за виски, и ты резко сворачиваешь голову влево. "
+"Как только ты наклоняешься, чтобы \"прошептать\" ему, Тленный тоже "
+"наклоняется. Как только он оказывается на расстоянии вытянутой руки, твои "
+"руки хватают его за виски, и ты резко сворачиваешь голову влево."
 
 #: 4123
 msgid ""
@@ -145,33 +145,29 @@ msgstr ""
 "голову за виски и резко сворачивают ее влево. "
 
 #: 4124
-#, fuzzy
 msgid "There is a *crack,* and the Dustman falls limp in your arms. "
 msgstr ""
 "В шее раздается характерный *хруст*, и тело Тленного безвольно падает в твои "
 "объятия."
 
 #: 4125
-#, fuzzy
 msgid ""
 "To your surprise, the act seemed instinctual, as if you had done it many "
 "times before... with this thought comes the stirring of a memory, but it is "
 "not strong enough to surface."
 msgstr ""
-"Ты отпускаешь ее, и она плюхается на землю. Глядя на ее тело, ты ощущаешь "
-"странную дрожь... ты *знаешь*, что уже убивал других таким способом. С этой "
-"мыслью проявляется пробуждение памяти, но не достаточное для того, чтобы за "
-"него зацепиться."
+"К своему удивлению, это действие происходит практически инстинктивно, будто "
+"ты это проделывал много раз... с этой мыслью проявляется пробуждение памяти, "
+"но не достаточное для того, чтобы за него зацепиться."
 
 #: 4126
-#, fuzzy
 msgid ""
 "You are not fast enough, and the Dustman dodges as you lunge for him. Taking "
 "a step back, he claps his hands together sharply three times. In response, a "
 "great iron bell starts tolling throughout the Mortuary."
 msgstr ""
-"Ты недостаточно быстр, и Тленная уворачивается от твоего выпада. Сделав шаг "
-"назад, она быстро хлопает в ладони три раза. В ответ во всем Морге раздается "
+"Ты недостаточно быстр, и Тленный уворачивается от твоего выпада. Сделав шаг "
+"назад, он быстро хлопает в ладони три раза. В ответ во всем Морге раздается "
 "звон огромного железного колокола."
 
 #: 4127
@@ -232,24 +228,20 @@ msgid "\"Call your friends, Dustie... I look forward to meeting them.\""
 msgstr ""
 
 #: 4149 4154 4175
-#, fuzzy
 msgid "Run for it."
-msgstr "Игнорировать его."
+msgstr "Убежать."
 
 #: 4150 4155
-#, fuzzy
 msgid "Wait."
-msgstr "\"Подождать!\""
+msgstr "Подождать."
 
 #: 4156 4157
-#, fuzzy
 msgid "\"Can't have you alerting your friends...\""
-msgstr "\"Кто твои друзья?\""
+msgstr "\"Не могу допустить, чтобы ты предупредил своих друзей.\""
 
 #: 4158 4159
-#, fuzzy
 msgid "\"Better you than me, Dustie.\""
-msgstr "\"Но ты ведь Тленная.\" "
+msgstr "\"Лучше ты, чем я, Мертвяк.\" "
 
 #: 4160
 msgid "Tuck the body into the shadows, then continue on."
@@ -326,3 +318,4 @@ msgstr ""
 #: 66701
 msgid "\"Very well. I will take my leave, now.\""
 msgstr "\"Хорошо. Я уже ухожу.\""
+
