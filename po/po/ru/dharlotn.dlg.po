@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dharlotn.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:46+0600\n"
+"PO-Revision-Date: 2009-07-03 00:59+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 1809
@@ -319,7 +319,6 @@ msgid "\"Maybe you can help me find what I'm missing.\""
 msgstr "\"Может быть ты мне поможешь найти то, что я потерял.\""
 
 #: 7195
-#, fuzzy
 msgid "\"Actually, I had some questions...\""
 msgstr "\"Вообще-то, у меня несколько вопросов...\""
 
@@ -358,7 +357,7 @@ msgstr "\"Забудь об этом. У меня есть некоторые в
 #: 7203
 #, fuzzy
 msgid "\"Done.\""
-msgstr "Готово"
+msgstr "Готово."
 
 #: 7204
 msgid "\"Forget it. I had some questions, instead...\""
@@ -374,7 +373,6 @@ msgid "Follow her..."
 msgstr "Идти за ней..."
 
 #: 7213
-#, fuzzy
 msgid "\"Uh... farewell then.\""
 msgstr "\"Ух... Тогда прощай.\""
 
@@ -395,9 +393,8 @@ msgid "\"Never mind then. Farewell.\""
 msgstr "\"Тогда неважно. Прощай.\""
 
 #: 7218
-#, fuzzy
 msgid "\"Uh...\""
-msgstr "\"Я...\""
+msgstr "\"Ух...\""
 
 #: 7219 7223 7224
 #, fuzzy
@@ -441,9 +438,8 @@ msgid "\"Can you tell me about the factions?\""
 msgstr "\"Что ты можешь сказать об Улье?\""
 
 #: 7238
-#, fuzzy
 msgid "\"What can you tell me about the Lady of Pain?\""
-msgstr "\"Что ты можешь рассказать об этой таверне?\""
+msgstr "\"Что ты можешь рассказать о Леди Боли?\""
 
 #: 7239
 msgid "\"I'm looking for someone named Pharod.\""
@@ -460,7 +456,7 @@ msgstr "\"На самом деле, ничего. Прощай.\""
 #: 7242 7243
 #, fuzzy
 msgid "\"What is it?\""
-msgstr "\"Что?\""
+msgstr "\"Что еще?\""
 
 #: 7244 7249 7254
 msgid "\"Actually, I had some other questions...\""
@@ -586,3 +582,4 @@ msgstr "\"Справедливо. Вот семь монет.\""
 #: 7467
 msgid "\"Sounds fair. Here's three commons.\""
 msgstr "\"Справедливо. Вот три монеты.\""
+
