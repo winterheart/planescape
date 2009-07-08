@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: daola.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 20:53+0600\n"
+"PO-Revision-Date: 2009-07-09 00:14+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 45487
@@ -18,28 +18,26 @@ msgid ""
 "\"Welcome to the cathedral of Aoskar. Have you come to worship Aoskar with "
 "me? You can be his second disciple.\" "
 msgstr ""
+"\"Добро пожаловать в собор Аоскара. Ты пришел воздать хвалу Аоскару вместе "
+"со мной? Ты можешь стать его вторым последователем.\""
 
 #: 45488 60902
 msgid "\"I come seeking counsel concerning a box and a fiend.\""
-msgstr ""
+msgstr "\"Я пришел за советом по поводу шкатулки и демона.\""
 
 #: 45489 45504 45626
-#, fuzzy
 msgid "\"Why are there no other disciples of Aoskar?\""
-msgstr "\"Что это за ключи?\""
+msgstr "\"Почему здесь нет других последователей Аоскара?\""
 
 #: 45490 45497 45503 45601 45620
-#, fuzzy
 msgid "\"Tell me more about Aoskar.\""
-msgstr "\"Расскажи мне о телах побольше.\""
+msgstr "\"Расскажи мне об Аоскаре побольше.\""
 
 #: 45491 45498 45506
-#, fuzzy
 msgid "\"I'm interested in becoming a disciple of Aoskar.\""
-msgstr "\"Мне нужны некоторые заклинания.\""
+msgstr "\"Я хочу стать последователем Аоскара.\""
 
 #: 45492
-#, fuzzy
 msgid "\"Maybe some other time. Farewell\""
 msgstr "\"Возможно, в другой раз. Прощай.\""
 
@@ -49,59 +47,70 @@ msgid ""
 "celebrate your return. I assume you have reconsidered about joining my "
 "congregation.\""
 msgstr ""
+"\"Заблудшая душа вернулась. Так поблагодарим же Аоскара и воспоем твое "
+"возвращение. Надеюсь, ты все хорошо обдумал и решил присоединиться к моей "
+"пастве.\""
 
 #: 45494 45599 60951 60964
 msgid "\"I come seeking counsel concerning a box and a demon.\""
-msgstr ""
+msgstr "\"Я пришел за советом по поводу шкатулки и демона.\""
 
 #: 45495
 msgid "\"What congregation? The only people I see here are you.\""
-msgstr ""
+msgstr "\"Какая еще паства? Здесь тоько я и ты.\""
 
 #: 45499
-#, fuzzy
 msgid "\"Maybe some other time. Farewell.\""
 msgstr "\"Возможно, в другой раз. Прощай.\""
 
 #: 45500
 msgid "\"May Aoskar grant you safe passage. How may I help you?\" "
 msgstr ""
+"\"Да наградит тебя Аоскар безопасной дорогой. Чем я могу помочь тебе?\""
 
 #: 45501
 msgid "\"I'd like to purchase that gem you took from Moridor's Box.\""
 msgstr ""
+"\"Я хотел бы купить у тебя тот камень, который ты извлек из шкатулки "
+"Моридора.\""
 
 #: 45507 45602
 msgid ""
 "\"What happened? One minute I was becoming a disciple and then the next "
 "thing I know I'm stuck in some kind of 'maze'.\" "
 msgstr ""
+"\"Что произошло? Я всего одну минуту побыл последователем, как вдруг "
+"оказываюсь в каком-то 'лабиринте'.\""
 
 #: 45509 45603
-#, fuzzy
 msgid "\"Nothing for now. Farewell.\""
-msgstr "\"Ничего больше, спасибо. Прощай.\""
+msgstr "\"На этот раз ничего. Прощай.\""
 
 #: 45511
 msgid ""
 " \"You have returned! Excuse my surprise, it is just that you are the first "
 "disciple to ever return. Most seem to disappear. How may I help you?\""
 msgstr ""
+"\"Ты вернулся! Прошу прощения за мое удивление, но ты - первый последователь "
+"который вернулся назад. Большинство просто исчезло. Чем я могу тебе помочь?\""
 
 #: 45600
 msgid "\"I would like to purchase that gem you took from Moridor's Box.\""
 msgstr ""
+"\"Я хотел бы купить у тебя тот камень, который ты извлек из шкатулки "
+"Моридора.\""
 
 #: 45604
 msgid ""
 "Aola seems to have fallen into a deep trance. Every so often you hear him "
 "sing praises to Aoskar."
 msgstr ""
+"Похоже, Аола впал в глубокий транс. Единственное, что ты можешь от него "
+"услышать - это песнопения во славу Аоскара."
 
 #: 45605 45634 45643 45646 45657 60925
-#, fuzzy
 msgid "Farewell."
-msgstr "\"Прощай.\""
+msgstr "Попрощаться."
 
 #: 45606
 msgid ""
@@ -109,10 +118,13 @@ msgid ""
 "moment and then speaks to you. \"I, a humble disciple to the great Aoskar, "
 "can indeed help you. First you must relinquish the box to me.\""
 msgstr ""
+"Ты объясняешь ему свое затруднительное положение. Аола некоторое время "
+"обдумывает услышанное. \"Я, скромный служитель великого Аоскара, воистину "
+"могу тебе помочь. Но прежде ты должен отдать шкатулку мне.\""
 
 #: 45607
 msgid "Give him the box."
-msgstr ""
+msgstr "Отдать ему шкатулку."
 
 #: 45608
 msgid ""
@@ -121,9 +133,12 @@ msgid ""
 "in the sides of the pyramid. Aola then casually reaches through the portal "
 "and flips open Moridor's Box."
 msgstr ""
+"Аола помещает шкатулку Моридора в проволочную пирамидку, затем начинает тихо "
+"молиться Аоскару. Очень скоро стороны пирамидки заполняет уже знакомое "
+"свечение портала. Аола небрежно протягивает к шкатулке руку сквозь портал и "
+"с легким щелчком открывает ее."
 
 #: 45609 45611
-#, fuzzy
 msgid "Continue."
 msgstr "Продолжить."
 
@@ -134,6 +149,10 @@ msgid ""
 "the pyramid. A feeling of immense dread fills the room, and it is all you "
 "can do to keep yourself from bolting from the tent. "
 msgstr ""
+"Ты вскрикиваешь, пытаясь помешать ему, но уже слишком поздно. Почти сразу же "
+"шкатулка начала растворяться в блеклый дым, который постепенно заполнил всю "
+"пирамидку. Комнату охватило ощущение колоссального ужаса. Все, что тебе "
+"остается - бежать изо всех сил из помещения."
 
 #: 45612
 msgid ""
@@ -142,6 +161,10 @@ msgid ""
 "smoke disappears the feeling of dread passes. Aola smiles a bit nervously at "
 "you. \"Witness the power of Aoskar, the Keeper of Gateways!\"  "
 msgstr ""
+"Ты замечаешь, что завитки дыма, касающиеся сторон пирамиды, исчезают в "
+"кружащемся водовороте порталов. С последним завитком исчезает и ощущение "
+"ужаса. Аола слегка нервно улыбается тебе. \"Узри силу Аоскара, Хранителя "
+"Врат!\""
 
 #: 45613
 msgid ""
@@ -149,6 +172,9 @@ msgid ""
 "it will have no problems making its way back here. And when it does it's "
 "going to be looking for you...\" "
 msgstr ""
+"\"Уверен, что такой могущественный демон, на заточение которого понадобилось "
+"много заклинаний, без проблем сможет вернуться. И когда он это сделает, он "
+"будет искать тебя...\""
 
 #: 45615
 msgid ""
@@ -160,10 +186,17 @@ msgid ""
 "the gem that was attached to it. \"Payment for my services. I will use this "
 "to help rebuild my beautiful cathedral.\""
 msgstr ""
+"\"Я предусмотрел это. Каждая сторона пирамиды содержит портал на другой план."
+" Я разбросал его сущность в самые удаленные уголки мультивселенной. Знаешь "
+"ли ты, что некоторые существа рассматривают демонов в качестве особого "
+"деликатеса?\" Он сдавленно хихикая, он засовывает руку внутрь шкатулки и "
+"извлекает из пепла драгоценный камень, ранее инкрустированный в шкатулку. "
+"\"Это воздаяние за мои услуги. Он поможет мне отстроить заново мой "
+"прекрасный собор.\""
 
 #: 45617
 msgid "\"Keep the gem; you have more than earned it. Farewell.\""
-msgstr ""
+msgstr "\"Камень твой; ты заслужил его по праву. Прощай.\""
 
 #: 45618
 msgid ""
@@ -173,15 +206,20 @@ msgid ""
 "around that the Lady herself is the cause. Now no one comes by any more. You "
 "are the first soul I've seen stop by in a long while.\" "
 msgstr ""
+"\"Много лет назад у меня было много последователей. К сожалению, все они "
+"исчезли. Это довольно печально. Едва сделав посвященными, больше их я не "
+"вижу. Позднее пошли слухи, что причиной тому является сама Леди. И теперь "
+"сюда больше никто не приходит. Ты - первый, кого я вижу за последнее время.\""
 
 #: 45619
 msgid "\"I'm not afraid; I wish to become a disciple of Aoskar.\""
-msgstr ""
+msgstr "\"Я не боюсь. Я хочу стать последователем Аоскара.\""
 
 #: 45621
 msgid ""
 "\"The Lady... I have no wish to cross her. I'd best be on my way. Farewell.\""
 msgstr ""
+"\"Леди... Я не хочу встречаться с ней. Лучше я пойду своей дорогой. Прощай.\""
 
 #: 45623
 msgid ""
@@ -193,15 +231,22 @@ msgid ""
 "I help the people to see the greatness of Aoskar. She cannot stand against "
 "the will of the people!\" "
 msgstr ""
+"Тон Аолы становится льстивым. \"Аоскар - Хранитель Врат. В Аоскаре "
+"заключается сила порталов, дверей и возможностей. Сигил, известный также как "
+"Город Дверей, был домом Аоскара до тех пор, пока не был 'выброшен' этой "
+"проклятой Леди. С тех пор у Аоскара осталось всего несколько поклонников и "
+"все они под запретом Леди. Но скоро все изменится, я помогу  людям узреть "
+"величие Аоскара. Она не сможет устоять против воли людей!\""
 
 #: 45624
 msgid "\"I wish to become a disciple of Aoskar.\""
-msgstr ""
+msgstr "\"Я хочу стать последователем Аоскара.\""
 
 #: 45629
 msgid ""
 "\"The Lady... I have no wish to cross her. I best be on my way. Farewell.\""
 msgstr ""
+"\"Леди... Я не хочу встречаться с ней. Лучше я пойду своей дорогой. Прощай.\""
 
 #: 45631
 msgid ""
@@ -210,37 +255,42 @@ msgid ""
 "of Aoskar; go now and spread the word to the denizens of Sigil, so that all "
 "may know the glory of Aoskar!\""
 msgstr ""
+"\"Замечательно! Давно этого никто не просил.\" Аола заставляет тебя провести "
+"серию сложных ритуалов. \"Теперь ты последователь Аоскара. Иди и неси слово "
+"обитателям Сигила, чтобы все узнали великолепие Аоскара!\""
 
 #: 45635
 msgid ""
 "\"Luckily for you I haven't had the time to sell it yet. I'll let you have "
 "it for the bargain price of three hundred coppers.\""
 msgstr ""
+"\"Как удачно, у меня все не было времени продать его. Ты возымеешь его по "
+"сходной цене в триста медяков.\" "
 
 #: 45636 45649 61598
-#, fuzzy
 msgid "\"I'll take it.\""
-msgstr "\"Хорошо, я возьму его.\""
+msgstr "\"Беру.\""
 
 #: 45638 61600
-#, fuzzy
 msgid "\"I can't afford that much.\""
-msgstr "\"Я все еще не могу этого позволить.\""
+msgstr "\"Я не могу этого позволить.\""
 
 #: 45639
 msgid "\"That's robbery... I won't pay it.\""
-msgstr ""
+msgstr "\"Это грабеж... Я не буду платить.\""
 
 #: 45641
 msgid ""
 "\"May Aoskar, the god of portals, doors and 'opportunity', smile upon you.\""
-msgstr ""
+msgstr "\"Да улыбнется тебе Аоскар, бог порталов, дверей и 'возможностей'.\""
 
 #: 45645
 msgid ""
 "\"That is truly unfortunate. I cannot go any lower. Maybe you can earn some "
 "jink and come back. I'll be more than happy to hold onto the gem for you.\""
 msgstr ""
+"\"Это очень печально. Я не могу снизить цену. Заработай больше звенелок и "
+"возвращайся назад. Я буду счастлив придержать камень для тебя.\""
 
 #: 45648
 msgid ""
@@ -248,11 +298,12 @@ msgid ""
 "won't reconsider? ...because I know I can get at least that much at the "
 "market.\""
 msgstr ""
+"\"Мне очень нужны деньге на ремонт моего собора. Ты еще не передумал? На "
+"рынке я могу получить за него не меньше.\""
 
 #: 45651 61599
-#, fuzzy
 msgid "\"Forget it.\""
-msgstr "\"Забудь.\""
+msgstr "\"Забудь об этом.\""
 
 #: 45654
 msgid ""
@@ -261,6 +312,10 @@ msgid ""
 "disappearances of my other disciples. I must contemplate on this. Please "
 "leave.\""
 msgstr ""
+"\"Похоже, что ты провалился куда-то через портал. Только опытные "
+"последователи Аоскара и сама Леди могут сделать подобное. Это объясняет "
+"исчезновение моих последователей. Я должен подумать над этим. Пожалуйста, "
+"оставь меня.\""
 
 #: 60389
 msgid ""
@@ -269,6 +324,10 @@ msgid ""
 "Moridor's Box. The gem is of exceptional quality, as one would expect... "
 "after all, it was used to bind a demon. "
 msgstr ""
+"Благодаря жрецу Аоскара шкатулка Моридора была обезврежена. В обмен на "
+"услугу жрец забрал камень, который красовался на крышке шкатулки. Камень "
+"исключительного качества, уникальный в своем роде... он использовался для "
+"связывания демона."
 
 #: 60914
 msgid ""
@@ -276,13 +335,19 @@ msgid ""
 "handing it back to. \"I sense nothing out of the ordinary with this box. Now "
 "if you don't mind I'm busy.\""
 msgstr ""
+"После твоего объяснения о затруднительном положении Аола осматривает "
+"шкатулку, после чего возвращает ее назад. \"Я не чувствую ничего необычного, "
+"это обыкновенная шкатулка. А теперь прошу меня оставить, у меня много дел.\""
 
 #: 61596
 msgid "\"How about one hundred coppers?\""
-msgstr ""
+msgstr "\"Как насчет сотни медяков?\""
 
 #: 61597
 msgid ""
 "\"I don't know what it is, but I like you. I'll let you have the gem for two "
 "hundred and not a copper less. What do you say?\""
 msgstr ""
+"\"Не знаю почему, но ты мне нравишься. Да будет камень твоим за двести монет "
+"и ни монетой меньше. Что скажешь?\""
+
