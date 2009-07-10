@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dharlotd.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-07-03 00:58+0600\n"
+"PO-Revision-Date: 2009-07-10 22:00+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -182,7 +182,7 @@ msgid ""
 "There must be *something* in your tone, because she stops cold and looks at "
 "you with large, frightened eyes. "
 msgstr ""
-"Должно быть, в твоем голосе *что-то* проскочило, так как она прекращает "
+"Должно быть, в твоем голосе проскочило *что-то*, так как она прекращает "
 "кричать и смотрит на тебя огромными испуганными глазами. "
 
 #: 1876
@@ -283,14 +283,12 @@ msgid "\"Farewell.\""
 msgstr "\"Прощай.\""
 
 #: 32766 7593 7594
-#, fuzzy
 msgid "Drop her."
-msgstr "Идти за ней..."
+msgstr "Бросить ее."
 
 #: 61587 7509 7510 7511 7512
-#, fuzzy
 msgid "\"I see... Farewell, then.\""
-msgstr "\"Понятно. Тогда прощай.\""
+msgstr "\"Понятно... Тогда прощай.\""
 
 #: 61588 61589 61590 61591 7517 7518 7519 7520 7523 7524 7525 7526 7536 7537
 #: 7538 7539
@@ -316,37 +314,30 @@ msgid "\"No thanks. I had some questions, though...\""
 msgstr "\"Нет, спасибо. Однако у меня есть вопросы...\""
 
 #: 7498
-#, fuzzy
 msgid "\"No thanks.\""
 msgstr "\"Нет, спасибо.\""
 
 #: 7499
-#, fuzzy
 msgid "\"Sure.\""
-msgstr "\"Тебя?\""
+msgstr "\"Конечно.\""
 
 #: 7508
-#, fuzzy
 msgid "\"All right, then. I had some questions...\""
-msgstr "\"Хорошо. Тогда у меня есть несколько вопросов...\""
+msgstr "\"Тогда ладно. У меня есть несколько вопросов...\""
 
 #: 7513 7532
-#, fuzzy
 msgid "\"Can you tell me about this city?\""
-msgstr "\"Что ты можешь сказать об этом... городе?\""
+msgstr "\"Что ты можешь сказать об этом городе?\""
 
 #: 7514 7533
-#, fuzzy
 msgid "\"Can you tell me about this area?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 7515 7534
-#, fuzzy
 msgid "\"I'm looking for a journal. Have you seen it?\""
-msgstr "\"Я ищу дневник. Тебе такой не попадался?\""
+msgstr "\"Я ищу дневник. Тебе он не попадался?\""
 
 #: 7516 7535
-#, fuzzy
 msgid ""
 "\"I'm looking for someone named Pharod. Do you know where I could find him?\""
 msgstr "\"Я ищу кое-кого по имени Фарод. Ты не знаешь, где его можно найти?\""
@@ -372,23 +363,21 @@ msgid "Grab her hand."
 msgstr "Схватить ее за руку."
 
 #: 7542 7563 7573
-#, fuzzy
 msgid "\"Hey! What do you think you're doing?!\""
-msgstr "\"Что у тебя есть из выпивки?\""
+msgstr "\"Эй! Ты что творишь?!\""
 
 #: 7543 7545 7546 7564 7566 7567
 msgid ""
 "Bait the woman into pick pocketing you again, and observe her technique."
-msgstr ""
+msgstr "Спровоцировать женщину на воровство и проследить за ее техникой."
 
 #: 7547 7568 7574
 msgid "Attack her. "
 msgstr " Атаковать ее."
 
 #: 7548 7569 7575
-#, fuzzy
 msgid "Ignore the incident, leave."
-msgstr "Не обращать на него внимания и уйти."
+msgstr "Не обращать внимания на инцидент и уйти."
 
 #: 7549
 msgid "Quietly: \"Stop screaming, or I'll remove your lungs.\""
@@ -400,7 +389,7 @@ msgstr "\"Тихо! Черт, женщина, молчи!\""
 
 #: 7551 7556 7559 7577 7591
 msgid "Snap her neck with your free hand."
-msgstr ""
+msgstr "Свернуть ей шею свободной рукой."
 
 #: 7552 7557 7560
 msgid "Let her go."
@@ -415,19 +404,16 @@ msgid "Attack her."
 msgstr " Атаковать ее."
 
 #: 7576
-#, fuzzy
 msgid "\"Return what you stole from me. Now.\""
-msgstr "\"Верни мне все, что ты украл у меня.\""
+msgstr "\"Верни мне все, что ты украла у меня. Сейчас же.\""
 
 #: 7578 7583 7587 7590 7592
-#, fuzzy
 msgid "Let her go, then leave."
-msgstr "Взять мешочек и уйти."
+msgstr "Позволить ей уйти, уйти самому."
 
 #: 7579
-#, fuzzy
 msgid "\"We're even. Now, I never want to see you again. Understand?\""
-msgstr "\"Довольно. А теперь, чтоб я тебя никогда больше не видел. Понятно?\""
+msgstr "\"Довольно. И чтобы я тебя никогда больше не видел. Понятно?\""
 
 #: 7580
 msgid "Bluff: \"Give me everything else you have, and I'll let you live.\""
@@ -438,13 +424,13 @@ msgid "Truth: \"Give me everything else you have, and I'll let you live.\""
 msgstr "Правда: \"Отдай мне все, что у тебя есть, и я оставлю тебе жизнь.\""
 
 #: 7582 7586 7589
-#, fuzzy
 msgid "Nod your thanks, then snap her neck with your free hand."
-msgstr "Кивнуть в знак благодарности, а затем напасть на него."
+msgstr ""
+"Кивнуть в знак благодарности, а затем схватить ее свободной рукой за шею."
 
 #: 7584
 msgid "\"I meant *everything,* so give me *everything.*\""
-msgstr ""
+msgstr "\"Я же сказал - *все*.\""
 
 #: 7585
 msgid "\"I never want to see you again. Understand?\""
@@ -459,7 +445,7 @@ msgid "Leave."
 msgstr "Уйти."
 
 #: 7597
-#, fuzzy
 msgid "\"Dammit...\""
-msgstr "\"Проклятье!\""
+msgstr "\"Проклятье...\""
+
 
