@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmerkil3.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:28+0600\n"
+"PO-Revision-Date: 2009-07-11 01:39+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 10504
@@ -20,6 +20,9 @@ msgid ""
 "nasty-looking weapon. \"Boys! We got a murderer in our midst!\" He attacks "
 "you."
 msgstr ""
+"Седоватый Убийца милосердия медленно поворачивается к тебе, изучая твое лицо."
+" Неожиданно он взмахивает руками. В них появляется весьма грозное оружие. "
+"\"Ребята! У нас тут убийца!\" Он бросается на тебя."
 
 #: 10505
 msgid "Attack him."
@@ -36,22 +39,24 @@ msgid ""
 "almost as if it jogs his memory somehow. He sighs, then, and says, \"Can I "
 "help you with something, friend?\""
 msgstr ""
+"Ты видишь седоватого, плотного мужчину в шипастых доспехах. Он изучает тебя, "
+"медленно осматривая сверху донизу. На секунду он задерживается на твоем "
+"лице, словно пытаясь что-то вспомнить. Со вздохом он произносит: \"Я могу "
+"чем-нибудь тебе помочь, приятель?\""
 
 #: 10508 10517 10546
 msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 10509 10518 10547
-#, fuzzy
 msgid "\"Did you recognize me?\""
-msgstr "\"Ты веришь в это?\""
+msgstr "\"Ты знаешь меня?\""
 
 #: 10510 10519 10548
 msgid "\"Who are your friends here?\""
 msgstr "\"Кто твои друзья?\""
 
 #: 10511 10520 10549
-#, fuzzy
 msgid "\"I'm looking for a journal. Have you seen one?\""
 msgstr "\"Я ищу дневник. Тебе такой не попадался?\""
 
@@ -65,27 +70,25 @@ msgstr ""
 
 #: 10513
 msgid "\"You want something from me?\""
-msgstr ""
+msgstr "\"Ты что-то хочешь от меня?\""
 
 #: 10514 10522 10551
 msgid "\"What can you tell me about Vhailor?\""
 msgstr "\"Что ты можешь сказать о Вейлоре?\""
 
 #: 10515 10523 10552
-#, fuzzy
 msgid "\"Tell me about this place, if you would.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об этом месте, если можно.\""
 
 #: 10516 10524
-#, fuzzy
 msgid "\"No, not right now. Farewell.\""
-msgstr "\"Не сейчас. Прощай.\""
+msgstr "\"Нет, не сейчас. Прощай.\""
 
 #: 10521
 msgid ""
 "\"Do you know a Collector who goes by the name of Pharod? I'm looking for "
 "him.\""
-msgstr ""
+msgstr "\"Ты знаешь Сборщика по имения Фарод? Я ищу его.\""
 
 #: 10525
 msgid "\"Me? I'm Tarner.\""
@@ -93,17 +96,15 @@ msgstr "\"Я? Я - Тарнер.\""
 
 #: 10526
 msgid "\"What's with the outfit?\""
-msgstr ""
+msgstr "\"А что это за наряд?\""
 
 #: 10527
-#, fuzzy
 msgid "\"Who are your friends?\""
 msgstr "\"Кто твои друзья?\""
 
 #: 10528
-#, fuzzy
 msgid "\"Answer some other questions for me, will you?\""
-msgstr "\"Ты можешь ответить на мои вопросы?\""
+msgstr "\"Ты можешь ответить на другие вопросы?\""
 
 #: 10529
 msgid "\"Thanks. Good day.\""
@@ -116,38 +117,44 @@ msgid ""
 "things've happened. Still, if you're the feller I'm thinking of, it looks "
 "like you've served your sentence by means of pain.\""
 msgstr ""
+"\"Я подумал, что да, но тем картинкам уже сотни лет, скорее всего, "
+"подозреваемый уже давно мертв. Хотя, конечно, на планах случаются странные "
+"вещи. Так что если ты - тот, о ком я подумал, то, похоже, ты уже искупил "
+"свой приговор страданиями.\""
 
 #: 10531
 msgid "\"What can you tell me about this person you're talking about?\""
-msgstr ""
+msgstr "\"Расскажи мне об этом субъекте.\""
 
 #: 10532
-#, fuzzy
 msgid "\"Ha. Who knows? Answer some other questions for me, will you?\""
-msgstr "\"...верно. Ты можешь ответить на мои вопросы?\""
+msgstr "\"Ха. Кто знает? Ты можешь ответить на другие мои вопросы?\""
 
 #: 10533
 msgid "\"More than you could know. More than *I* know. Farewell.\""
 msgstr ""
+"\"Гораздо больше, чем ты можешь знать. Гораздо больше, чем *я* могу знать. "
+"Прощай.\""
 
 #: 10534
 msgid ""
 "\"They're Caleb and Ilsidon. Caleb's the new meat -- a new recruit. "
 "Ilsidon's the muscle. I'm the brains.\""
 msgstr ""
+"\"Это Калеб и Илсидон. Калеб - свежее мясо, новичок. Илсидон - мускулы. Я - "
+"мозги.\""
 
 #: 10535
 msgid "\"What are you doing here?\""
-msgstr "\"Что ты здесь делаешь?\""
+msgstr "\"Что вы здесь делаете?\""
 
 #: 10536
 msgid "\"A recruit? Is that why you're all dressed the same?\""
-msgstr ""
+msgstr "\"Новичок? А почему он тогда одет точно так же?\""
 
 #: 10537
-#, fuzzy
 msgid "\"Got it. Answer some questions for me.\""
-msgstr "\"А, не важно. Ответь мне на пару вопросов.\""
+msgstr "\"Понятно. Ответь мне на пару вопросов.\""
 
 #: 10538
 msgid "\"I see. Farewell.\""
@@ -158,14 +165,16 @@ msgid ""
 "\"I see far too much on the mean streets of Sigil, friend. 'Less this "
 "journal was something spectacular, chances are good I ain't seen it.\""
 msgstr ""
+"\"На улицах Сигила много чего происходит, приятель. Если этот дневник не "
+"является чем-то особенным, шанс того, что я его не видел, достаточно велик.\""
 
 #: 10540
 msgid "\"Very well, then. Do you have answers to other questions?\""
-msgstr ""
+msgstr "\"Очень хорошо. Ты можешь ответить на другие вопросы?\""
 
 #: 10541
 msgid "\"I suppose it'd be hard to remember. Farewell, then.\""
-msgstr ""
+msgstr "\"Полагаю, это трудно вспомнить. Тогда прощай.\""
 
 #: 10542
 msgid ""
@@ -175,34 +184,33 @@ msgid ""
 "bad place to be. You want to know more about the place, talk to the "
 "bartender or something.\""
 msgstr ""
+"\"Об этом? Это 'Тлеющий Труп'. Говорят, что в этом месте полно порталов, "
+"хотя на самом деле не больше, чем где-либо в Сигиле. Хорошая, дешевая "
+"выпивка, и, если не обращать на пьяниц и демонов, это не такое уж плохое "
+"место. Если хочешь узнать об этом месте побольше, поговори с барменом или "
+"еще с кем.\""
 
 #: 10543
 msgid "\"I understand. I'd like to know something else.\""
-msgstr ""
+msgstr "\"Понятно. Я хотел бы узнать о кое-чем еще.\""
 
 #: 10544
-#, fuzzy
 msgid "\"Very well. Farewell.\""
 msgstr "\"Отлично. Прощай.\""
 
 #: 10545
-#, fuzzy
 msgid "\"What'd you want to know?"
 msgstr "\"Что ты хочешь знать?\""
 
 #: 10550
-#, fuzzy
 msgid ""
 "\"Have you ever heard of a Collector by the name of Pharod? I'm looking for "
 "him.\""
-msgstr ""
-"\"Я ищу Сборщика по имени Фарод. Ты видела его или, может быть, слышала о "
-"нем?\""
+msgstr "\"Слышал ли ты когда-нибудь о Сборщике по имения Фарод? Я ищу его.\""
 
 #: 10553
-#, fuzzy
 msgid "\"Nothing for now. Farewell.\""
-msgstr "\"Ничего больше, спасибо. Прощай.\""
+msgstr "\"На этот раз ничего. Прощай.\""
 
 #: 10554
 msgid ""
@@ -210,15 +218,18 @@ msgid ""
 "justice folks. Someone commits a crime, we bring 'em to justice. We right "
 "wrongs, too. You want to know more, go talk to one of the recruiters.\""
 msgstr ""
+"\"Это наша униформа. Мы - Красная Смерть... Убийцы милосердия. Мы люди "
+"правосудия. Кто-то совершает преступление, мы предаем его правосудию. Мы "
+"тоже можем совершать ошибки. Если хочешь знать больше, поговори с одним из "
+"нанимателей.\""
 
 #: 10555
-#, fuzzy
 msgid "\"Fair enough. Answer some questions for me, will you?\""
-msgstr "\"Неважно. Ты можешь ответить на мои вопросы?\""
+msgstr "\"Достаточно. Ты можешь ответить на другие вопросы?\""
 
 #: 10556
 msgid "\"Good day, then.\""
-msgstr ""
+msgstr "\"Тогда хорошего дня.\""
 
 #: 10557
 msgid ""
@@ -230,32 +241,42 @@ msgid ""
 "They have pictures of him. Take away some of the scars and you might be "
 "related to him. Probably not him, though.\"\n"
 msgstr ""
+"\"Насколько я знаю, это был чрезвычайно опасный преступник. Это было сотни "
+"лет назад. Говорили, он был необычайной силы, он мог голыми руками оторвать "
+"бариавру оторвать голову. С ним никто не мог совладать. Поговаривали, что "
+"когда его окружил патруль Красной Смерти, он сумел сбежать через портал, и с "
+"тех пор его никто не видел.\n"
+"У нас были его изображения. Если убрать все твои шрамы, то ты на него очень "
+"похож. Хоть и отдаленно.\""
 
 #: 10558
 msgid ""
 "\"Sounds like a nasty fellow. I had some questions about something else.\""
-msgstr ""
+msgstr "\"Похоже, он был отвратительным типом. У меня есть еще вопросы...\" "
 
 #: 10559
 msgid "\"Sounds nasty. Farewell.\""
-msgstr ""
+msgstr "\"Звучит отвратительно. Прощай.\""
 
 #: 10560
 msgid ""
 "\"Waiting for a criminal. This'll be eager Caleb's first arrest -- if the "
 "berk we're waiting for ever shows up.\""
 msgstr ""
+"\"Ждем преступника. Это будет первый арест для нетерпеливого Калеба - если "
+"только тот пень, которого мы ждем, здесь объявится.\""
 
 #: 10561
 msgid ""
 "\"What, are you some kind of police force? Is that what your armor is... a "
 "uniform?\""
 msgstr ""
+"\"Погоди, так вы что-то вроде сил правопорядка? А эта ваша броня... "
+"униформа?\""
 
 #: 10562
-#, fuzzy
 msgid "\"I see. Answer some other questions for me.\""
-msgstr "\"Тогда ответь мне на несколько вопросов.\""
+msgstr "\"Понятно. Ответь мне на несколько вопросов.\""
 
 #: 10563
 msgid "\"Good luck. Farewell.\""
@@ -271,15 +292,20 @@ msgid ""
 "know where the sod is, but you ought to know he's a suspect, and it won't do "
 "you any good to be seen with him.\""
 msgstr ""
+"\"Ищешь его, да? Судя по твоему голосу, готов поспорить, не для того, чтобы "
+"пропустить с ним стаканчик в таверне. Видишь ли, я знаю старину Фарода. "
+"Скользкий тип, и пройдет порядком времени прежде, чем мы сможем пришить ему "
+"дело. Только фанатик Вейлор мог вздернуть человек без явных доказательств. "
+"Иначе говоря, я не знаю, где этот бедолага, но ты должен знать, что он "
+"является подозреваемым, так что лучше с ним не встречаться.\""
 
 #: 10565
 msgid "\"Thanks for the advice. Can you answer something else for me?\""
-msgstr ""
+msgstr "\"Спасибо за совет. Ты можешь ответить на другой мой вопрос?\""
 
 #: 10566
-#, fuzzy
 msgid "\"Thanks for the dark, friend. Farewell.\""
-msgstr "\"Спасибо за предупреждение. Прощай.\""
+msgstr "\"Спасибо за секрет. Прощай.\""
 
 #: 10567
 msgid ""
@@ -289,12 +315,19 @@ msgid ""
 "Death itself to get to an informant who could lead him to a criminal. No "
 "regard for boundaries. He was an inspiration to all of us.\""
 msgstr ""
+"\"О Вейлоре? Фанатик, вот кто он. Если он думал, что прав, то ничто не могло "
+"его остановить, даже если он мог лишиться при этом жизни. Он был так предан "
+"идее справедливости, настоящей справедливости, что, готов поспорить, мог бы "
+"убить саму Смерть ради доносчика, который выведет его на преступника. И "
+"плевал он на ограничения. Он был воплощением нас всех.\""
 
 #: 10568
 msgid ""
 "\"That's devotion, all right. Answer another question for me, will you?\""
 msgstr ""
+"\"Вот это настоящая преданность. Можешь ли ты ответить другой мой вопрос?\""
 
 #: 10569
 msgid "\"I'd wager he was. Farewell.\""
-msgstr ""
+msgstr "\"Держу пари, что он и был таким. Прощай.\""
+
