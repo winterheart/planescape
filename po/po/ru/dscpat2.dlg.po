@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dscpat2.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:17+0600\n"
+"PO-Revision-Date: 2009-07-10 23:02+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 10815
@@ -37,21 +37,18 @@ msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 10818 10845 10878
-#, fuzzy
 msgid "\"I'm looking for a journal. Would you happen to have seen it?\""
-msgstr "\"Я ищу потерянный дневник. Ты не знаешь, где я его могу найти?\""
+msgstr "\"Я ищу дневник. Ты не знаешь, где я его могу найти?\""
 
 #: 10819 10846
 msgid "\"What can you tell me about this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 10820 10848
-#, fuzzy
 msgid "\"Who is that burning by the entryway?\""
-msgstr "\"А все-таки, кто этот труп?\""
+msgstr "\"Кто это горит у входа?\""
 
 #: 10821 10847 10879
-#, fuzzy
 msgid ""
 "\"I'm looking for a Collector by the name of Pharod. Have you seen or heard "
 "of him?\""
@@ -60,7 +57,6 @@ msgstr ""
 "нем?\""
 
 #: 10822 10849
-#, fuzzy
 msgid "\"Nothing. Good day.\""
 msgstr "\"Ничего. Хорошего дня.\""
 
@@ -182,14 +178,12 @@ msgstr ""
 "несколько моих вопросов?\""
 
 #: 10841 10869
-#, fuzzy
 msgid "\"What's your connection to him?\""
-msgstr "\"Ну и что за вопросы у тебя?\""
+msgstr "\"Какая у тебя связь с ним?\""
 
 #: 10842
-#, fuzzy
 msgid "\"That's too bad. Farewell.\""
-msgstr "\"Это точно. Тогда прощай.\""
+msgstr "\"Как это печально. Прощай.\""
 
 #: 10843
 msgid "\"Aye, traveler? What is it you seek?\""
@@ -207,7 +201,6 @@ msgid "\"Whatever. Answer some questions for me.\""
 msgstr "\"А, не важно. Ответь мне на пару вопросов.\""
 
 #: 10852
-#, fuzzy
 msgid "\"Whatever. Farewell.\""
 msgstr "\"Как бы то ни было. Прощай.\""
 
@@ -305,12 +298,11 @@ msgstr "\"О чем это ты?\""
 
 #: 10866
 msgid "\"No, I'm not. Answer some more questions.\""
-msgstr "\"Нет, я не тот. Ответь на мои вопросы.\""
+msgstr "\"Нет, я это не он. Ответь на мои вопросы.\""
 
 #: 10867
-#, fuzzy
 msgid "\"No, I'm not. Farewell.\""
-msgstr "\"Нет, нету. Прощай.\""
+msgstr "\"Нет, я это не он. Прощай.\""
 
 #: 10868
 msgid ""
@@ -329,7 +321,6 @@ msgid "\"I'll think about it. Answer some more questions for me, first.\""
 msgstr "\"Я подумаю над этим. Но сначала ответь на мои вопросы.\""
 
 #: 10871
-#, fuzzy
 msgid "\"I'll think about it. Farewell.\""
 msgstr "\"Я подумаю над этим. Прощай.\""
 
@@ -345,7 +336,7 @@ msgstr ""
 
 #: 10873
 msgid "\"You're barmy, aren't you? All right, answer some questions for me.\""
-msgstr "\"Да ты спятила, верно? ну хорошо, ответь на мои вопросы.\""
+msgstr "\"Да ты спятила, верно? Ну хорошо, ответь на мои вопросы.\""
 
 #: 10874
 msgid "\"You're totally over the edge. Farewell.\""
@@ -376,17 +367,15 @@ msgid ""
 "word?\""
 msgstr ""
 "\"Да! Вылей на него, и он будет свободен! Ох, мой Игнус, я жду тебя!\" Она "
-"на минуту умолкает со страхом в глазах. \"Ты знаешь управляющее слово?\""
+"на минуту умолкает со страхом в глазах. \"А ты знаешь управляющее слово?\""
 
 #: 10883
-#, fuzzy
 msgid "\"Not yet.\""
-msgstr "\"На самом деле, нет.\""
+msgstr "\"Еще нет.\""
 
 #: 10884
-#, fuzzy
 msgid "\"Yes, I do.\""
-msgstr "\"Да.\""
+msgstr "\"Да, знаю.\""
 
 #: 10885
 msgid ""
@@ -401,14 +390,12 @@ msgstr ""
 "ненавижу это место.\""
 
 #: 10886 10889 10892 10895
-#, fuzzy
 msgid "\"Very well. Answer some other questions.\""
 msgstr "\"Очень хорошо. Ответь на другие вопросы.\""
 
 #: 10887 10890 10893 10896 10899
-#, fuzzy
 msgid "\"I understand. Farewell.\""
-msgstr "\"Я понимаю. В таком случе, прощай.\""
+msgstr "\"Понятно. Прощай.\""
 
 #: 10888
 msgid ""
@@ -485,7 +472,7 @@ msgid ""
 "\"Then go find it, I implore you!\" She tugs on your sleeve. Her eyes have "
 "taken a frantic sheen of madness."
 msgstr ""
-"\"Тогда найди его, умоляю тебя!\" Она хватает тебя за рукав, ее глаза "
+"\"Тогда найди его, умоляю тебя!\" Она хватает тебя за запястье, ее глаза "
 "наполняются безумным блеском."
 
 #: 20715
@@ -493,9 +480,8 @@ msgid "\"I will, I will. I need more answers first...\""
 msgstr "\"Хорошо, хорошо. Но сначала мне нужны ответы...\""
 
 #: 20716
-#, fuzzy
 msgid "\"I will. Farewell.\""
-msgstr "\"Я постараюсь. Прощай.\""
+msgstr "\"Хорошо. Прощай.\""
 
 #: 3073
 msgid ""
@@ -525,3 +511,4 @@ msgstr ""
 "появлявшийся когда-либо в Улье. Его недоброжелатели открыли внутри него "
 "канал до Элементального плана Огня, и теперь он продолжает оставаться в "
 "живых благодаря тонкой концентрации. Действительно, это могущественный маг..."
+
