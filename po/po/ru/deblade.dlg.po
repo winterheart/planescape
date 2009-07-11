@@ -1,15 +1,17 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: deblade.dlg\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-08 19:59+0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2009-07-11 23:26+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 0.3\n"
 
 #: 55077
 msgid ""
@@ -19,15 +21,18 @@ msgid ""
 "change in your hand. It looks as if it is trying to break free of its "
 "current form."
 msgstr ""
+"Это оружие сделано из необычного металла. Осмотр показывает, что оно "
+"сделано из целого куска металла, а не клинка, вставленного в эфес. В твоих "
+"руках клинок начинает вибрировать и меняться. Похоже, он пытается "
+"вырваться из своей текущей формы."
 
 #: 55079
 msgid "Will the blade to change."
-msgstr ""
+msgstr "Заставить клинок измениться."
 
 #: 57687
-#, fuzzy
 msgid "Leave the blade alone."
-msgstr "Оставить записку в покое."
+msgstr "Оставить клинок в покое."
 
 #: 57692
 msgid ""
@@ -35,36 +40,41 @@ msgid ""
 "almost sense a feeling of anticipation emanating from the blade. What form "
 "do you will it to take?"
 msgstr ""
+"Металл клинка начинает извиваться и пульсировать в твоих руках. Ты "
+"ощущаешь чувство ожидания, исходящее от клинка. Какую форму ты хочешь ему "
+"придать?"
 
 #: 57695 57724 57742 57752
 msgid "Will it to become a hammer."
-msgstr ""
+msgstr "Заставить его стать молотом."
 
 #: 57699 57715 57746 57756
 msgid "Will it to become an axe."
-msgstr ""
+msgstr "Заставить его стать топором."
 
 #: 57702 57720 57728 57758
 msgid "Will it to become a mace."
-msgstr ""
+msgstr "Заставить его стать булавой."
 
 #: 57705 57721 57731 57749
 msgid "Will it to become spiked gauntlets."
-msgstr ""
+msgstr "Заставить его стать шипованными рукавицами."
 
 #: 57711 57722 57735 57750
 msgid "Will it to become a fine dagger."
-msgstr ""
+msgstr "Заставить его стать кинжалом."
 
 #: 57762
 msgid "Leave the blade as is."
-msgstr ""
+msgstr "Оставить клинок таким, какой он есть."
 
 #: 57767
 msgid ""
 "There is a flurry of activity as the blade undergoes some astounding "
 "changes. Within moments you have the weapon of your choice."
 msgstr ""
+"Клинок испытывает потрясающие изменения. Через несколько секунд у тебя в "
+"руках оказывается требуемое оружие."
 
 #: 57770 57774
 msgid "Done."
@@ -73,3 +83,5 @@ msgstr "Готово."
 #: 57772
 msgid "The blade suddenly stops writhing and settles into its current form."
 msgstr ""
+"Клинок неожиданно перестает извиваться и приобретает свою текущую форму."
+
