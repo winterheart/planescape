@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dilquixn.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:01+0600\n"
+"PO-Revision-Date: 2009-08-08 00:49+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 11350
@@ -22,10 +22,15 @@ msgid ""
 "can barely hear his words. \"Hello, traveler. My name is Ilquix. Can I be of "
 "some assistance to you?\""
 msgstr ""
+"Ты видишь низкорослого, пухлого мужчину со смущённым выражением лица. Если "
+"учесть линии на его коже, это не так уж и удивительно. Он держит быстро "
+"пустеющий кувшин эля. Между глотками, он обращается к тебе нежным голосом, "
+"таким тихим, что ты едва слышишь его слова. \"Здравствуй, путешественник. "
+"Меня зовут Илквикс. Чем могу помочь?\""
 
 #: 11351
 msgid "\"Greetings. I would like to ask you some questions.\""
-msgstr ""
+msgstr "\"Приветствую. Я хотел бы задать тебе несколько вопросов.\""
 
 #: 11352 11403
 msgid "\"No. Farewell.\""
@@ -36,10 +41,12 @@ msgid ""
 "The loose-skinned man turns and smiles at you. \"Hello again, traveler. What "
 "can Ilquix do for you today?\""
 msgstr ""
+"Человек с дряблой кожей улыбается тебе. \"И снова здравствуй, "
+"путешественник. Что Илквикс может сделать для тебя на этот раз?\""
 
 #: 11354
 msgid "\"Greetings, Ilquix. I had some questions for you.\""
-msgstr ""
+msgstr "\"Здравствуй, Илквикс. У меня к тебе несколько вопросов.\""
 
 #: 11355 11363
 msgid "\"Nothing. Farewell.\""
@@ -47,31 +54,31 @@ msgstr "\"Ничего. Прощай.\""
 
 #: 11356
 msgid "\"What did you want to know, my friend?\""
-msgstr ""
+msgstr "\"Что ты хочешь узнать, приятель?\""
 
 #: 11357 11358
-#, fuzzy
 msgid "\"Who exactly are you?\""
-msgstr "\"Кто ты такой?\""
+msgstr "\"Кто ты вообще такой?\""
 
 #: 11359
 msgid "\"What can you tell me about this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 11360
-#, fuzzy
 msgid "\"What can you tell me of the patrons of this place?\""
 msgstr "\"Что ты можешь рассказать о здешних завсегдатаях?\""
 
 #: 11361
 msgid "\"Who is that burning man?\""
-msgstr ""
+msgstr "\"Кто этот горящий мужчина?\""
 
 #: 11362
 msgid ""
 "\"I'm trying to find a way to make this Mochai pay for her drinks. Any "
 "suggestions?\""
 msgstr ""
+"\"Я пытаюсь найти способ заставить Мочай расплатиться за выпивку. Есть "
+"предложения?\""
 
 #: 11365
 msgid ""
@@ -83,6 +90,12 @@ msgid ""
 "his needs; just as obviously, you are a man with drive. One must be "
 "appreciative of all ambitious men.\""
 msgstr ""
+"\"Я? Я всего лишь скромный мужчина со слегка пышными, поэтическими "
+"наклонностями и любовью к сверхъестественному. Жаль, что у меня нет с собой "
+"моих запасов, я бы очень, ОЧЕНЬ хотел научить тебя путям силы.\" Он делает "
+"паузу и восхищенно глядит на Грейс. \"И позволь сделать тебе комплимент по "
+"поводу выбора спутников. Ты явно тот, кто знает, что ему нужно. Самый "
+"амбициозный из всех мужчин.\" "
 
 #: 11367
 msgid ""
@@ -91,15 +104,19 @@ msgid ""
 "here, or I should be most, MOST eager to teach you of the ways of power. "
 "Perhaps some later time?\""
 msgstr ""
+"\"Я? Я всего лишь скромный мужчина со слегка пышными, поэтическими "
+"наклонностями и любовью к сверхъестественному. Жаль, что у меня нет с собой "
+"моих запасов, я бы очень, ОЧЕНЬ хотел научить тебя путям силы. Может быть, в "
+"другой раз?\""
 
 #: 11369
 msgid "\"Yes, I'd like that. For now, though, I have some other questions...\""
 msgstr ""
+"\"Да, мне бы этого хотелось. Но сейчас у меня есть несколько вопросов...\""
 
 #: 11371
-#, fuzzy
 msgid "\"Perhaps. Farewell.\""
-msgstr "\"Возможно. Прощай.\""
+msgstr "\"Может быть. Прощай.\""
 
 #: 11373
 msgid ""
@@ -108,14 +125,17 @@ msgid ""
 "standing to boot. These, I feel, are the most useful qualities one can "
 "possess.\""
 msgstr ""
+"\"Об этом месте? Тлеющем Трупе? Прекрасное заведение с отличным владельцем. "
+"Баркис - настоящий джентльмен, старается прочно стоять на ногах. Я считаю, "
+"что это самые полезные для каждого качества.\""
 
 #: 11374
 msgid "\"They drive people. I had some more questions...\""
-msgstr ""
+msgstr "\"Они воодушевляют людей. У меня были другие вопросы...\""
 
 #: 11376
 msgid "\"Many would agree with you. Farewell.\""
-msgstr ""
+msgstr "\"Многие с тобой согласятся. Прощай.\""
 
 #: 11377
 msgid ""
@@ -129,20 +149,26 @@ msgid ""
 "say so myself. Those are the folk of interest here. The others... well, "
 "perhaps I am too discriminating.\""
 msgstr ""
+"\"В этой таверне много разнообразных посетителей. Я разговаривал почти со "
+"всеми и нашел их очаровательными, за исключением тех порождений закона.\" Он "
+"указывает на пару сидящих в углу абишаев. \"Они отравляют воздух одним лишь "
+"своим присутствием, загрязняя отвратительным зловонием всё прекрасное вокруг."
+" Рекомендую поговорить с Баркисом - кажется, ему нужна помощь с одним "
+"пустяковым делом. Еще здесь есть некий О - я всё ещё пытаюсь его осмыслить. "
+"Он - *весьма* загадочная личность, надо сказать. Эти персоны вызывают "
+"наибольший интерес. Остальные... ну, наверное, я слишком разборчив.\""
 
 #: 11379
 msgid "\"Why do you despise creatures of law?\""
-msgstr ""
+msgstr "\"Почему ты презираешь порождения закона?\""
 
 #: 11381
-#, fuzzy
 msgid "\"Perhaps. I had some other questions.\""
-msgstr "\"Возможно, позднее. У меня есть другие вопросы...\""
+msgstr "\"Может быть. У меня есть другие вопросы...\""
 
 #: 11383
-#, fuzzy
 msgid "\"Thank you for your time. Farewell.\""
-msgstr "\"Хорошо. Спасибо за уделенное время. Прощай.\""
+msgstr "\"Спасибо за уделенное время. Прощай.\""
 
 #: 11385
 msgid ""
@@ -153,6 +179,13 @@ msgid ""
 "control. Now, well, you can see what became of him. If you wish to learn "
 "more of him, perhaps that poor creature Drusilla can help you.\""
 msgstr ""
+"\"Этот? Ха. Это последний неудачник из тех, кто пытается выразить "
+"собственную индивидуальность, не имея силы для подкрепления своих желаний. "
+"Его зовут Игнус, и он пироманьяк... был пироманьяком. Он сжигал и сжигал, но "
+"жег не тех людей, и в итоге сгорел, пытаясь пропустить через себя больше "
+"чистой энергии, чем мог контролировать. Теперь ты видишь что с ним стало. "
+"Если хочешь узнать о нем побольше, возможно несчастная Друзилла сможет тебе "
+"помочь.\""
 
 #: 11387
 msgid "\"I see. I had some other questions...\""
@@ -169,15 +202,18 @@ msgid ""
 "in bringing resolution to nearly *any* conflict!\" He laughs again. \"Of "
 "course, I'm joking.\" He winks."
 msgstr ""
+"Он хохочет, болтая челюстью, которая едва не отваливается. \"Ты всегда "
+"можешь ее отравить, приятель! Одна такая порция всегда эффективна для "
+"разрешения почти *любого* конфликта!\" Он снова смеется. \"Конечно, я шучу."
+"\" Он подмигивает."
 
 #: 11392
-#, fuzzy
 msgid "\"Of course you are. I had some other questions...\""
 msgstr "\"Ну конечно. У меня есть другие вопросы...\""
 
 #: 11393
 msgid "\"Of course you are. Farewell.\""
-msgstr ""
+msgstr "\"Ну конечно. Прощай.\""
 
 #: 11394
 msgid ""
@@ -189,37 +225,49 @@ msgid ""
 "is reprehensible and tyrannical. If I am to be crushed underfoot, I'd rather "
 "it be by an individual than a machine that knows nothing of emotion.\""
 msgstr ""
+"\"А, хороший вопрос, друг мой! Моё отрочество прошло на хаотичной стороне "
+"Великого Кольца - ты можешь поговорить на эту тему с Кандрианом "
+"Болезнерожденным (самое неправильное имя, какое я слышал). Он считает себя "
+"великим путешественником по планам. Но вернемся ко мне. Я много лет жил бок "
+"о бок с Хаосом, и теперь нахожу его весьма приемлемым. Я считаю, что пятно "
+"закона, которое лежит на тех существах, достойно осуждения и тиранично. Если "
+"мне сужден быть раздавленным под чье-либо пятой, то я бы предпочел, чтобы "
+"это была личность, а не бездушная машина.\""
 
 #: 11395
 msgid "Truth: \"I very much agree.\""
-msgstr ""
+msgstr "Правда: \"Более чем согласен.\""
 
 #: 11396
 msgid "Lie: \"I very much agree.\""
-msgstr ""
+msgstr "Ложь: \"Более чем согласен.\""
 
 #: 11397
 msgid "Truth: \"I disagree.\""
-msgstr ""
+msgstr "Правда: \"Я не согласен.\""
 
 #: 11398
 msgid "Lie: \"I disagree.\""
-msgstr ""
+msgstr "Ложь: \"Я не согласен.\""
 
 #: 11399
 msgid "\"There are many who agree with you. I have some other questions...\""
-msgstr ""
+msgstr "\"Многие бы с тобой согласились. У меня есть другие вопросы...\""
 
 #: 11400
 msgid "\"There are many who agree with you. Farewell.\""
-msgstr ""
+msgstr "\"Многие бы с тобой согласились. Прощай.\""
 
 #: 11401
 msgid ""
 "Ilquix smiles toothily, his fat cheeks barely moving. \"To each his own, I "
 "say. Did you have more questions?\""
 msgstr ""
+"Илквикс улыбается во весь рот, его жирные щеки едва движутся. \"Каждому "
+"свое, я считаю. У тебя есть ещё вопросы?\""
 
 #: 11402
 msgid "\"Yes.\""
 msgstr "\"Да.\""
+
+
