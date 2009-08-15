@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dgrace.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-07-10 22:25+0600\n"
+"PO-Revision-Date: 2009-08-16 00:19+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 11273
 msgid ""
@@ -23,14 +23,20 @@ msgid ""
 "would reward anyone who brought such excellent news of me to her.\" She "
 "smiles gently."
 msgstr ""
+"Падшая Грация невозмутимо говорит. \"Илквикс, я согласна, что моя мать была "
+"бы рада услышать, что я все еще добром здравии, что я все еще продолжаю "
+"двигаться в выбранном направлении и что я едина с моими спутниками. Когда "
+"вернешься назад в Бездну, будь любезен, доставь это сообщение ради меня? Я "
+"уверена, что она щедро наградит того, кто принесет ей столь великолепную "
+"новость от меня.\" Она кротко улыбается."
 
 #: 11274
 msgid "\"This is all very fascinating, but I had some other questions...\""
-msgstr ""
+msgstr "\"Это все очень очаровательно, но у меня есть еще вопросы...\""
 
 #: 11275
 msgid "\"That's enough. Farewell, Ilquix.\""
-msgstr ""
+msgstr "\"Довольно. Прощай, Илквикс.\""
 
 #: 11404
 msgid ""
@@ -39,16 +45,22 @@ msgid ""
 "people are both more and less than they seem. 'Twould be a shame indeed if "
 "all were revealed so quickly - anticlimactic, even.\""
 msgstr ""
+"Сделав небольшой реверанс, Грация отвечает. \"Уверена, что твои любезные "
+"слова растопят любое сердце, Илквикс. И все же мы должны помнить, что "
+"некоторые выглядят одновременно больше и меньше, чем на самом деле. Было бы "
+"очень стыдно, если бы нас выявляли так быстро, или, по крайней мере, очень "
+"разочаровывающе.\""
 
 #: 11405
 msgid "\"What exactly do you mean, Grace?\""
-msgstr ""
+msgstr "\"Что ты имеешь в виду, Грация?\""
 
 #: 11406
 msgid "\"Enough. I need the answers to some questions, Ilquix.\""
-msgstr ""
+msgstr "\"Довольно. Мне нужны ответы на некоторые вопросы, Илквикс.\""
 
 #: 11407
+#, fuzzy
 msgid ""
 "\"I mean only that words spoken in haste are often looked back upon with "
 "regret - and that many people possess attributes and even virtues which few "
@@ -56,19 +68,21 @@ msgid ""
 "never realize that ledge will crumble under them. Thus it is that we "
 "consider our words before they reveal more about us than we intend.\""
 msgstr ""
+"\"Я хотела сказать лишь, что опрометчивые слова часто возвращаются вместе с "
+"сожалением, и что многие обладают признаками и даже достоинствами, которые "
+"другие только подозревают. Слишком много прыгают "
 
 #: 11408
-#, fuzzy
 msgid "\"I ... see. Ilquix, I had some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно... Илквикс, у меня были еще вопросы...\""
 
 #: 11409
 msgid "\"Well spoken, Grace. Farewell, Ilquix.\""
-msgstr ""
+msgstr "\"Хорошо сказано, Грация. Прощай, Илквикс.\""
 
 #: 11410
 msgid "\"This conversation is at an end. Farewell, Ilquix.\""
-msgstr ""
+msgstr "\"Закончим эту беседу. Прощай, Илквикс.\""
 
 #: 16627
 msgid "Grace nods. \"Certainly. I think that is an excellent idea.\""
@@ -119,7 +133,7 @@ msgstr ""
 
 #: 22578 50149 6858
 msgid "Fall-from-Grace nods. \"Yes, of course.\""
-msgstr "Падшая Грейс кивает. \"Да, конечно же.\""
+msgstr "Падшая Грация кивает. \"Да, конечно же.\""
 
 #: 22580
 msgid ""
@@ -1819,7 +1833,7 @@ msgstr ""
 #: 28560 62172
 #, fuzzy
 msgid "\"Is Fall-From-Grace your real name?\""
-msgstr "\"Падшая Грейс голая?\""
+msgstr "\"Падшая Грация голая?\""
 
 #: 28561 28564 62173 62182 62209 62214 62217
 #, fuzzy
@@ -2150,7 +2164,7 @@ msgid ""
 "a dabus who has ever given a name... at least, something we would recognize "
 "as names. They seem like they would be more prone to use symbols.\""
 msgstr ""
-"\"Он говорит, что он - 'дабус'.\" Грейс замолкает. \"Я редко встречала "
+"\"Он говорит, что он - 'дабус'.\" Грация замолкает. \"Я редко встречала "
 "дабуса, у которого было бы имя... по крайней мере, хоть что-либо, что можно "
 "принимать за имя. Похоже, они больше предпочитают использовать символы.\""
 
@@ -2698,7 +2712,7 @@ msgid ""
 "Grace nods, as if to give you privacy. \"I will return shortly.\" She then "
 "turns and leaves."
 msgstr ""
-"Грейс кивает, как бы предоставляя тебе уединение. \"Я скоро вернусь.\" Она "
+"Грация кивает, как бы предоставляя тебе уединение. \"Я скоро вернусь.\" Она "
 "поворачивается и уходит."
 
 #: 61424
@@ -5007,7 +5021,7 @@ msgstr "\"Говори.\""
 #: 68354
 #, fuzzy
 msgid "FALL-FROM-GRACE."
-msgstr "Падшая Грейс"
+msgstr "Падшая Грация"
 
 #: 68355
 msgid ""
