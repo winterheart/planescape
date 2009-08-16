@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: maslow.itm\n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-05-25 06:33+0600\n"
+"PO-Revision-Date: 2009-08-16 21:48+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 26082
 msgid ""
@@ -21,6 +21,11 @@ msgid ""
 "This tiny stone pyramid is extremely heavy. It looks like it is made from "
 "granite."
 msgstr ""
+"КАМЕННАЯ ПИРАМИДА\n"
+"Вес: 7\n"
+"\n"
+"Это небольшая каменная пирамидка необычайно тяжела. Кажется, он сделана из "
+"гранита."
 
 #: 30008
 msgid "Maslow's Pyramid"
@@ -44,4 +49,5 @@ msgstr ""
 #: 30028
 msgid "Stone Pyramid"
 msgstr "Каменная пирамида"
+
 
