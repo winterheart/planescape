@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dsheryl.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:27+0600\n"
+"PO-Revision-Date: 2009-09-03 18:14+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 64583
 msgid ""
@@ -20,6 +20,10 @@ msgid ""
 "Sheryl wants me to talk to a witch named Ulthera, whom she believes gave her "
 "father the portal key. I have agreed to help her."
 msgstr ""
+"Девушка по имени Шерил беспокоиться за своего пропавшего отца. Она боится, "
+"что тот оказался в ловушке в склепе, попасть в который можно только через "
+"портал. Шерил хочет, чтобы я поговорил ведьмой по имени Ультера, которая, "
+"предположительно, дала отцу ключ к порталу. Я согласился помочь ей."
 
 #: 64681
 msgid ""
@@ -27,6 +31,8 @@ msgid ""
 "forth with a worried expression on her face. She does not notice your "
 "approach."
 msgstr ""
+"Ты видишь привлекательную девушку в лохмотьях. С встревоженным выражением "
+"лица она ходит взад-вперед. Она даже не замечает твоего присутствия."
 
 #: 64682
 msgid "\"Greetings.\""
@@ -42,6 +48,9 @@ msgid ""
 "along your many scars and her worried look deepens. \"Uh... Hello, cutter. "
 "Can I help you with something?\" "
 msgstr ""
+"Подскочив от неожиданности, она она разворачивается к тебе. Ты замечаешь, "
+"как ее взгляд скользит вдоль твоих шрамов, отчего она становится еще более "
+"встревоженней. \"Эээ... Привет, рубака. Чем я могу тебе помочь?\""
 
 #: 64685 64696 64754
 msgid "\"I have some questions...\""
@@ -49,15 +58,15 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 64686
 msgid "\"You seem upset. Is something wrong?\""
-msgstr ""
+msgstr "\"Ты выглядишь обеспокоенной. Что-то не так?\""
 
 #: 64687
 msgid "\"No, not really. I think I'll be going now. Farewell.\""
-msgstr ""
+msgstr "\"Нет, ничем. Думаю, мне стоит уйти. Прощай.\""
 
 #: 64688
 msgid "\"Questions... I think I can help you.\" She waits for you to speak."
-msgstr ""
+msgstr "\"Вопросы... Думаю, я смогу тебе помочь.\" Она ждет твоего вопроса."
 
 #: 64689
 msgid "\"Who are you?\""
@@ -73,83 +82,86 @@ msgstr "\"Что ты можешь рассказать об этом месте
 
 #: 64692
 msgid "\"You seem upset. Is there something wrong?\""
-msgstr ""
+msgstr "\"Ты выглядишь обеспокоенной. Что-то не так?\""
 
 #: 64693
 msgid ""
 "\"You mentioned the Weeping Stone Catacombs. What can you tell me about them?"
 "\""
 msgstr ""
+"\"Ты упомянула про катакомбы Покаянных камней. Что ты можешь рассказать о "
+"них?\""
 
 #: 64694
 msgid "\"Never mind, I must be going now. Farewell.\""
-msgstr ""
+msgstr "\"Неважно Я должен идти. Прощай.\""
 
 #: 64695
 msgid ""
 "\"Sheryl...\" She seems distracted as she speaks to you. \"My name is Sheryl."
 "\""
-msgstr ""
+msgstr "\"Шерил...\" Кажется, она сбита с толку. \"Меня зовут Шерил.\""
 
 #: 64697
-#, fuzzy
 msgid "\"I see. I must be going, farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Ясно. Я должен идти, прощай.\""
 
 #: 64698
 msgid ""
 "She hesitates before answering. \"Nothing... Nothing really. I just...\" She "
 "shrugs and looks away from you. You think she is hiding something."
 msgstr ""
+"Она мешкает с ответом. \"Ничего... Совсем ничего. Я просто...\" Она пожимает "
+"плечами и отводит в сторону взгляд. Тебе кажется, что она что-то скрывает."
 
 #: 64699
-#, fuzzy
 msgid "\"Hmm. I have some questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"Хмм. У меня есть некоторые вопросы...\" "
 
 #: 64700
 msgid "\"Well, I'll be going now. Farewell.\""
-msgstr ""
+msgstr "\"Ладно, мне пора идти. Прощай.\""
 
 #: 64701
 msgid ""
 "\"You new here?\" She gives you a quizzical look and then sighs. \"Of course "
 "you are... I'm sorry, what would you like to know?\""
 msgstr ""
+"\"Ты нездешний?\" Она насмешливо смотрит на тебя, затем вздыхает. \"Ну "
+"конечно же... Извини, что ты хочешь узнать?\""
 
 #: 64702 64725
-#, fuzzy
 msgid ""
 "\"I'm looking for someone named Pharod. Do you know where I can find him?\""
 msgstr "\"Я ищу кое-кого по имени Фарод. Ты не знаешь, где его можно найти?\""
 
 #: 64703
 msgid "\"Is there anything you can tell me about this place?\""
-msgstr ""
+msgstr "\"Ты можешь мне что-нибудь рассказать об этом месте?\""
 
 #: 64704
-#, fuzzy
 msgid "\"Hmm. Never mind, I have other questions...\""
-msgstr "\"Неважно. У меня есть другие вопросы...\""
+msgstr "\"Хмм. Неважно, у меня есть другие вопросы...\""
 
 #: 64705
-#, fuzzy
 msgid "\"Never mind, I must be going. Farewell."
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Неважно. Я должен идти. Прощай."
 
 #: 64706
 msgid ""
 "\"Pharod...\" At the mention of Pharod she tenses up for just a moment but "
 "quickly hides it. \"I know of him... You a friend of his?\""
 msgstr ""
+"\"Фарод...\" При упоминании Фарода она на секунду напрягается, но тут же "
+"берет себя в руки. \"Я знаю его... Ты его друг?\""
 
 #: 64707
 msgid "\"Yes, we go back a long way.\""
-msgstr ""
+msgstr "\"Да, мы с ним закадычные друзья.\""
 
 #: 64708
 msgid "\"No, I just want to... *talk* to him.\""
-msgstr ""
+msgstr "\"Нет, я просто хочу... *поговорить* с ним.\""
 
 #: 64709
 msgid ""
@@ -157,6 +169,9 @@ msgid ""
 "take my leave now. Farewell.\" She ignores any further attempt to talk to "
 "her."
 msgstr ""
+"Она хмурится и кивает. \"Тогда ты можешь найти своего *друга* на севере. Мне "
+"пора идти. Прощай.\" Твои дальнейшие попытки заговорить с ней заканчиваются "
+"неудачей."
 
 #: 64710
 msgid "Leave."
@@ -168,20 +183,22 @@ msgid ""
 "north. Look for the passage with the two thugs outside. I think you can find "
 "him there.\""
 msgstr ""
+"Она пристально смотрит на тебя, затем улыбается. \"Ясно... Что ж, он на "
+"севере отсюда. Поищи проход с двумя головорезами по бокам. Думаю, ты сможешь "
+"найти его там.\""
 
 #: 64712
 msgid "\"I get the impression you don't care for Pharod much.\""
 msgstr ""
+"\"У меня создалось впечатление, что ты не особо волнуешься за Фарода.\""
 
 #: 64713
-#, fuzzy
 msgid "\"Is there anything else you can tell about this place?\""
-msgstr "\"Что еще ты можешь сказать мне?\""
+msgstr "\"Ты можешь мне еще что-нибудь рассказать об этом месте?\""
 
 #: 64714 64722 64773 64777 64781
-#, fuzzy
 msgid "\"I have some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще вопросы...\" "
 
 #: 64715 64723 64727 64731
 msgid "\"I must be going, farewell.\""
@@ -193,10 +210,13 @@ msgid ""
 "set up as some sort of *baron* here. Everyone does what he says; everyone "
 "pays him tribute. If you don't...\" She shrugs."
 msgstr ""
+"\"Нет, нисколько.\" На секунду умолкнув, она вздыхает. \"Здесь он возомнил "
+"себя кем-то на вроде *барона*. Все делают так, как он говорит, все платят "
+"ему дань. А если нет...\" Она пожимает плечами."
 
 #: 64717
 msgid "\"Tribute? From what?\""
-msgstr ""
+msgstr "\"Дань? За что?\""
 
 #: 64718
 msgid ""
@@ -206,11 +226,15 @@ msgid ""
 "pretty hefty share of anything that is found...\" She straightens up and "
 "pauses.\""
 msgstr ""
+"Она нервничает, когда наклоняется к тебе ближе, чтобы прошептать слова. \"На "
+"юго-восток отсюда есть катакомбы Покаянных камней. Фарод отправляет туда "
+"своих сборщиков забирать у мертвых любые сокровища, которые были при них. "
+"Себе он оставляет солидную долю от найденного...\" Она выпрямляется и "
+"умолкает."
 
 #: 64719 64733
-#, fuzzy
 msgid "\"Go on.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Продолжай.\""
 
 #: 64720
 msgid ""
@@ -218,21 +242,25 @@ msgid ""
 "the same story no matter where you go. The rich get richer and the poor get "
 "poorer.\""
 msgstr ""
+"Она пожимает плечами. \"Фарод богатеет, а его сборщики... едва-едва сводят "
+"концы с концами. Такое повсюду случается. Богачи становятся богаче, бедняки "
+"становятся беднее.\""
 
 #: 64721
 msgid "\"Is there anything else you can tell me about this place?\""
-msgstr ""
+msgstr "\"Ты можешь мне еще что-нибудь рассказать об этом месте?\""
 
 #: 64724
 msgid ""
 "\"Not really. Just watch your step. Be careful who you call friend. That's "
 "all.\""
 msgstr ""
+"\"Не много. Просто следи за собой. Будь осторожен с тем, кого называешь "
+"другом. Вот и все.\""
 
 #: 64726
-#, fuzzy
 msgid "\"I see. I have some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня есть еще вопросы...\" "
 
 #: 64728
 msgid ""
@@ -240,15 +268,16 @@ msgid ""
 "earnest. \"My father, Arkin... He's missing and I don't know what to do. I'm "
 "at my wits end.\""
 msgstr ""
+"Поначалу она говорит неохотно, но затем продолжает со всей серьезностью. "
+"\"Мой отец, Аркин... Он пропал, и я не знаю, что делать. Я в тупике.\""
 
 #: 64729
 msgid "\"Tell me what happened, maybe I can help.\""
-msgstr ""
+msgstr "\"Расскажи мне, что произошло, может быть, я помогу тебе.\""
 
 #: 64730
-#, fuzzy
 msgid "\"Hmm. I have some other questions...\""
-msgstr "\"Хммм. У меня есть некоторые вопросы...\""
+msgstr "\"Хмм. У меня были еще вопросы...\""
 
 #: 64732
 msgid ""
@@ -258,6 +287,11 @@ msgid ""
 "father found some record or something that spoke of crypts that could only "
 "be entered through portals...\" She pauses."
 msgstr ""
+"\"На юго-восток отсюда есть место под названием катакомбы Покаянных камней. "
+"Много сборщиков, и мой отец тоже, ходят туда и...\" Она смущается. \"Ну, они "
+"обыскивают мертвых. В одной из вылазок мой отец нашел какую-то запись, в "
+"которой говорилось о склепе, в который можно попасть только через портал..."
+"\" Она умолкает."
 
 #: 64734
 msgid ""
@@ -266,10 +300,14 @@ msgid ""
 "only through portals? In any case, the crypts are also a trap for would be "
 "crypt thieves...\""
 msgstr ""
+"\"Мой отец считал, что такие склепы предназначены для особых людей... "
+"Богатых или благородных... кто знает. Зачем тогда делать их доступными "
+"только через порталы? Ведь такие склепы могут стать западней для "
+"расхитителей гробниц...\""
 
 #: 64735
 msgid "\"A trap? In what way?\""
-msgstr ""
+msgstr "\"Западней? Каким образом?\""
 
 #: 64736
 msgid ""
@@ -278,14 +316,20 @@ msgid ""
 "there if they didn't have the key for the exit portal...\" She pauses for "
 "effect."
 msgstr ""
+"\"До них можно добраться только через портал, так что выбраться из них можно "
+"только тоже через портал. Даже если кто-нибудь найдет ключ для входного "
+"портала, он окажется в западне, если у него не окажется ключа от выходного..."
+"\" Она выразительно молчит."
 
 #: 64737
 msgid "\"So you think your father may be trapped in one of these crypts?\""
 msgstr ""
+"\"Так ты считаешь, что твой отец мог оказаться запертым в одном из таких "
+"склепов?\""
 
 #: 64738
 msgid "\"Did your father find the keys?\""
-msgstr ""
+msgstr "\"Как твой отец отыскал ключи?\""
 
 #: 64739
 msgid ""
@@ -293,10 +337,13 @@ msgid ""
 "may well be. He was very excited about the prospects of what could be found "
 "in such a crypt. He was searching for the portal keys.\""
 msgstr ""
+"Она хмурит брови в раздумье. \"Я не уверена до конца, но это может быть так. "
+"Он был слишком взволнован тем, что мог бы найти в таком склепе. Он искал "
+"ключи для портала.\""
 
 #: 64740
 msgid "\"Did he find the keys?\""
-msgstr ""
+msgstr "\"Он нашел ключи?\""
 
 #: 64741
 msgid ""
@@ -304,10 +351,13 @@ msgid ""
 "Ulthera. He wanted to ask her if she could *divine* what the entry and exit "
 "keys were for one of the portals...\""
 msgstr ""
+"\"Вполне возможно. Он говорил, что собирается встретиться со здешней ведьмой "
+"по имени Ультера. Он хотел спросить ее, сможет ли она *угадать*, чем могут "
+"быть ключи для порталов входа и выхода...\""
 
 #: 64742
 msgid "\"Is it possible to do that?\""
-msgstr ""
+msgstr "\"Разве это возможно?\""
 
 #: 64743
 msgid ""
@@ -317,10 +367,15 @@ msgid ""
 "refund. She could sit back, wait for him to die, and then investigate the "
 "crypt herself.\""
 msgstr ""
+"Она вздыхает. \"Я не знаю. Меня это не особо беспокоит. Больше всего я "
+"боюсь, что Ультера угадала ключ для входа... а для выхода указала "
+"неправильный. Она ведь могла просто взять деньги и не беспокоиться о том, "
+"что он вернется за возмещение ошибки. Она могла просто сидеть и ждать, пока "
+"он не умрет, а потом сама исследовать склеп.\""
 
 #: 64744
 msgid "\"Have you talked to her about this?\""
-msgstr ""
+msgstr "\"Ты разговаривала с ней по этому поводу?\""
 
 #: 64745
 msgid ""
@@ -329,25 +384,30 @@ msgid ""
 "will no longer speak to me.\" She gives you a hopeful look. \"Will you seek "
 "her out and speak to her for me?\""
 msgstr ""
+"Она смущенно отводит взгляд. \"Ну... да. Боюсь, я была слишком тактичной в "
+"выяснении сути, и я разозлила ее. Она не хочет со мной больше общаться.\" "
+"Она с надеждой смотрит на тебя. \"Может быть, ты поговоришь с ней вместо "
+"меня?\""
 
 #: 64746
 msgid "\"Hmm. I'll think about it, let me ask you something else...\""
-msgstr ""
+msgstr "\"Хмм. Я подумаю об этом. Позволь мне спросить еще кое о чем...\""
 
 #: 64747
-#, fuzzy
 msgid "\"No, I don't want to get involved.\""
-msgstr "\"Я не хочу неприятностей.\""
+msgstr "\"Нет, я не хочу ввязываться в это дело.\""
 
 #: 64748
 msgid "\"Yes, I'll help you. Just tell me where I can find her.\""
-msgstr ""
+msgstr "\"Да, я помогу тебе. Только скажи, где мне ее найти.\""
 
 #: 64749
 msgid ""
 "She frowns. \"I see. Well, thank you for listening to me. It was nice to "
 "have someone to speak to at least. Forgive me, but I must be going.\" "
 msgstr ""
+"Она хмурится. \"Понятно. Что ж, спасибо, что выслушал. По крайней мере, было "
+"приятно поболтать с кем-то. Прости, но я должна идти.\""
 
 #: 64750
 msgid "\"Farewell.\""
@@ -360,17 +420,22 @@ msgid ""
 "about town. She has no permanent residence that I know of. Please find her "
 "and ask her about my father.\""
 msgstr ""
+"Она заметно расслабляется и улыбается тебе. \"Спасибо тебе большое, я даже "
+"не могу выразить, как это для меня многое значит... Ведьму Ультеру можно "
+"найти гуляющей в округе. Насколько мне известно, у нее нет постоянного места."
+" Пожалуйста, найди ее и расспроси насчет моего отца.\""
 
 #: 64752
-#, fuzzy
 msgid "\"Very well, farewell.\""
-msgstr "\"Ух, прощай...\""
+msgstr "\"Хорошо, прощай.\""
 
 #: 64753
 msgid ""
 "You see Sheryl. She is pacing back and forth with a worried look on her "
 "face. She smiles at your approach. \"Hell again, cutter. What's up?\""
 msgstr ""
+"Ты видишь Шерил. С встревоженным выражением лица она ходит взад-вперед. При "
+"твоем приближении она улыбается. \"И снова привет, рубака! Как дела?\""
 
 #: 64755 64770
 msgid "\"Nothing, farewell.\""
@@ -382,18 +447,21 @@ msgid ""
 "face. She smiles at your approach. \"Hell again, cutter. Have you given some "
 "more thought to helping me find my father?\""
 msgstr ""
+"Ты видишь Шерил. С встревоженным выражением лица она ходит взад-вперед. При "
+"твоем приближении она улыбается. \"И снова привет, рубака! Еще не решил "
+"помочь мне найти моего отца?\""
 
 #: 64757
 msgid "\"No, I'm still considering it. Farewell.\""
-msgstr ""
+msgstr "\"Нет, я все еще думаю над этим. Прощай.\""
 
 #: 64758 64762
 msgid "\"What was your problem again? I seem to have forgotten.\""
-msgstr ""
+msgstr "\"Еще раз, в чем проблема? Кажется, я уже забыл.\""
 
 #: 64759 64763
 msgid "\"Yes, I've given it some thought and I will try to help you.\""
-msgstr ""
+msgstr "\"Да, я думал над этим и решил попробовать помочь тебе.\""
 
 #: 64760
 msgid ""
@@ -401,10 +469,14 @@ msgid ""
 "face. She smiles at your approach. \"Hell again, cutter. I know you refused "
 "me aid before, but would you please reconsider and help me find my father?\""
 msgstr ""
+"Ты видишь Шерил. С встревоженным выражением лица она ходит взад-вперед. При "
+"твоем приближении она улыбается. \"И снова привет, рубака! Знаю, ты "
+"отказался мне помогать, но может быть ты передумаешь и поможешь мне найти "
+"моего отца?\""
 
 #: 64761
 msgid "\"No, I don't want to get involved. Farewell.\""
-msgstr ""
+msgstr "\"Нет, я не хочу ввязываться в это дело. Прощай.\""
 
 #: 64764
 msgid ""
@@ -412,16 +484,21 @@ msgid ""
 "face. She smiles at your approach and speaks to you anxiously. \"Hell again, "
 "cutter. Any luck finding my father yet?\""
 msgstr ""
+"Ты видишь Шерил С встревоженным выражением лица она ходит взад-вперед. При "
+"твоем приближении она улыбается. \"И снова привет, рубака! Есть что-нибудь "
+"насчет моего отца?\""
 
 #: 64765
 msgid "\"No, but I'm working on it. Farewell.\""
-msgstr ""
+msgstr "\"Нет, но я работаю над этим. Прощай.\""
 
 #: 64766
 msgid ""
 "\"I found this ring on a body in a crypt that could only be reached by "
 "portal. It may be your father's...\""
 msgstr ""
+"\"Я нашел это кольцо на теле в склепе, в который можно попасть только через "
+"портал. Возможно, оно принадлежало твоему отцу...\""
 
 #: 64767
 msgid ""
@@ -431,31 +508,40 @@ msgid ""
 "least now I can put him to rest in my mind. I have nothing to give you for "
 "your kindness, other than my gratitude.\""
 msgstr ""
+"Шерил берет кольцо со слезами на глазах. Она быстро вытирает их и дарит тебе "
+"вымученную улыбку. \"Кольцо моего отца... Спасибо тебе, рубака. Я не смогла "
+"бы постоянно думать о том, что с ним стало. По крайней мере, теперь я могу "
+"больше о нем не беспокоиться. Мне нечем отплатить за твою доброту кроме моей "
+"благодарности.\""
 
 #: 64768
 msgid "\"Your gratitude is enough Sheryl, farewell.\""
-msgstr ""
+msgstr "\"Твоей благодарности достаточно, Шерил. Прощай.\""
 
 #: 64769
 msgid ""
 "You see Sheryl. She looks up at your approach and smiles at you. \"Hello, "
 "cutter. What can I do for you?"
 msgstr ""
+"Ты видишь Шерил. При твоем приближении она поднимает голову и улыбается тебе."
+" \"Привет, рубака. Чем я могу тебе помочь?\""
 
 #: 64771
 msgid ""
 "\"The catacombs... Take care if you go down there. I've never seen them "
 "myself, but I've been told that some strange creatures wander the crypts.\""
 msgstr ""
+"\"Катакомбы... Будь осторожен, если решишь туда спуститься. Я сама их "
+"никогда не видела, но мне рассказывали, что по склепам бродят странные "
+"существа.\""
 
 #: 64772
 msgid "\"What kind of strange creatures?\""
-msgstr ""
+msgstr "\"Что за существа?\""
 
 #: 64774 64778 64782
-#, fuzzy
 msgid "\"I'll be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай.\""
 
 #: 64775
 msgid ""
@@ -463,10 +549,13 @@ msgid ""
 "horned lizards. Vicious fighters from what I hear. Oh, and the flying heads. "
 "Those you should watch out for.\""
 msgstr ""
+"\"Ну, там нежить. По большей части - зомби и скелеты. А еще там есть рогатые "
+"ящерицы. Я слышала, они злобные бойцы. А, и еще летающие головы. От них тоже "
+"надо держаться подальше.\""
 
 #: 64776
 msgid "\"Flying heads?\""
-msgstr ""
+msgstr "\"Летающие головы?\""
 
 #: 64780
 msgid ""
@@ -474,9 +563,15 @@ msgid ""
 "of these myself, but I've talked to collectors who say they have. One of "
 "them spoke of the flying heads.\""
 msgstr ""
+"Она пожимает плечами. \"Знаю, это звучит глупо. Я же говорила, я там никогда "
+"не была, но мне рассказывали сборщики, которые туда спускались. Один из них "
+"говорил про летающие головы.\""
 
 #: 64786
 msgid ""
 "I found a ring on a body in a crypt that could only be reached by portal. I "
 "gave Sheryl the ring and she says it belonged to her father."
 msgstr ""
+"Я нашел кольцо на теле в склепе, в который можно попасть только через портал."
+" Я отдал это кольцо Шерил, и она сказала, что это кольцо ее отца."
+
