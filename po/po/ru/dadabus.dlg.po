@@ -1,15 +1,17 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-08 19:58+0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2009-09-04 17:18+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 50108
 msgid ""
@@ -66,37 +68,30 @@ msgstr ""
 "подобное раньше."
 
 #: 50122
-#, fuzzy
 msgid "\"Maybe you can help me...\""
 msgstr "\"Возможно, ты можешь помочь мне...\""
 
 #: 50123
-#, fuzzy
 msgid "The dabus waits."
-msgstr "Он кивает и ждет."
+msgstr "Дабус ждет."
 
 #: 50124 50135
-#, fuzzy
 msgid "\"Who are you?\""
-msgstr "\"Так кто ты на самом деле?\""
+msgstr "\"Кто ты?\""
 
 #: 50125 50158
-#, fuzzy
 msgid ""
 "The dabus inclines his head slightly, and a stream of symbols appears above "
 "his head. You think he's saying he's a dabus."
 msgstr ""
-"Дабус легко кивает головой, и над его головой возникает единственный символ. "
-"Поначалу расплывчатый, он превращается в черную молнию, пронзающую белый "
-"овал."
+"Дабус легко кивает головой, и над его головой возникает поток символов. "
+"Кажется, он говорит, что он - дабус."
 
 #: 50126 50137
-#, fuzzy
 msgid "\"I had another question for you.\""
 msgstr "\"У меня есть другой вопрос к тебе.\""
 
 #: 50127 50134 50138 50143
-#, fuzzy
 msgid "\"That is all I wished to know. Farewell.\""
 msgstr "\"Это все, что я хотел узнать. Прощай.\""
 
@@ -112,37 +107,32 @@ msgid "Leave."
 msgstr "Уйти."
 
 #: 50130 50139
-#, fuzzy
 msgid "\"What are you doing?\""
 msgstr "\"Что ты делаешь?\""
 
 #: 50131 50197
-#, fuzzy
 msgid ""
 "A batch of symbols appears above the dabus' head. You think he's saying he's "
 "attending to his duty... or duties. "
 msgstr ""
-"Над головой дабуса появляется кучка символов: (Я выполняю свои обязанности.)"
+"Над головой дабуса появляется кучка символов. Кажется, он говорит, что он "
+"выполняет свою обязанность... или обязанности."
 
 #: 50132 50141
-#, fuzzy
 msgid "\"I had another question for you...\""
-msgstr "\"У меня есть другой вопрос к тебе...\""
+msgstr "\"У меня есть другой вопрос к тебе.\""
 
 #: 50133 50142
-#, fuzzy
 msgid "\"Very descriptive. Thanks. Farewell.\""
-msgstr "\"Спасибо, я так и сделаю. Прощай.\""
+msgstr "\"Очень доходчиво. Спасибо. Прощай.\""
 
 #: 50136 50174
-#, fuzzy
 msgid ""
 "The dabus inclines his head slightly, and a stream of symbols appears above "
 "his head. (I am a dabus.)"
 msgstr ""
-"Дабус легко кивает головой, и над его головой возникает единственный символ. "
-"Поначалу расплывчатый, он превращается в черную молнию, пронзающую белый "
-"овал."
+"Дабус легко кивает головой, и над его головой возникают поток символов. (Я - "
+"дабус.)"
 
 #: 50140 50202
 msgid ""
@@ -165,9 +155,8 @@ msgstr ""
 "призрачного изображения тебе становится неуютно."
 
 #: 50146
-#, fuzzy
 msgid "\"Uh... not quite the answer I was expecting.\""
-msgstr "\"Просто ответь на несколько вопросов.\""
+msgstr "\"Ух... Это не совсем то, что я хотел узнать.\""
 
 #: 50151
 msgid ""
@@ -177,19 +166,16 @@ msgstr ""
 "Дабус легко кивает головой, и над его головой возникают поток символов."
 
 #: 50152 50159 50160 50175 50176 50184 50198 50203 50236
-#, fuzzy
 msgid "\"What did he say, Annah?\""
-msgstr "\"Ты что-то сказал?\""
+msgstr "\"Что он сказал, Анна?\""
 
 #: 50167 50177 50188 50199 50204 50237
-#, fuzzy
 msgid "\"What did he say, Dak'kon?\""
-msgstr "\"Даккон? Что он сказал?\""
+msgstr "\"Что он сказал, Даккон?\""
 
 #: 50178 50192 50200 50205 50212 50238
-#, fuzzy
 msgid "\"What did he say, Grace?\""
-msgstr "\"Ты что-то сказал?\""
+msgstr "\"Что он сказал, Грация?\""
 
 #: 50183
 msgid "A batch of symbols appears above the dabus' head. "
@@ -206,44 +192,36 @@ msgstr ""
 "отворачивается, не обращая на тебя внимания."
 
 #: 50209
-#, fuzzy
 msgid "\"Uh... farewell then.\""
 msgstr "\"Ух... Тогда прощай.\""
 
 #: 50253
-#, fuzzy
 msgid "\"Uh... I see. Dak'kon, can you ask it another question?\""
-msgstr "\"Понятно. Могу ли я задать пару вопросов?\""
+msgstr "\"Ух... понятно. Даккон, ты можешь задать ему другой вопрос?\""
 
 #: 50254
-#, fuzzy
 msgid "\"Uh... I had another question for you...\""
-msgstr "\"Понятно. У меня есть другой вопрос к тебе...\""
+msgstr "\"Ух... У меня есть другой вопрос к тебе...\""
 
 #: 50255
-#, fuzzy
 msgid "\"Uh... that's all I wanted to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Ух... Это все, что я хотел знать. Прощай.\""
 
 #: 50256
-#, fuzzy
 msgid "\"Can you tell me about Fell?\""
-msgstr "\"Что ты можешь сказать об Увядшей?\""
+msgstr "\"Что ты можешь сказать о Фелле?\""
 
 #: 50257 50347
-#, fuzzy
 msgid "\"Farewell.\""
 msgstr "\"Прощай.\""
 
 #: 50258
-#, fuzzy
 msgid "\"Just wanted to brush up on my rebuses. Farewell.\""
-msgstr "\"Звучная метафора, многослойная. Прощай.\""
+msgstr "\"Я просто хотел посмотреть на эти ребусы. Прощай.\""
 
 #: 50260
-#, fuzzy
 msgid "Try and speak to the dabus, see if you can understand it."
-msgstr "Попробовать поговорить с Феллом, может быть, ты сможешь понять его."
+msgstr "Попробовать поговорить с дабусом, может быть, ты сможешь понять его."
 
 #: 50261
 msgid ""
@@ -258,55 +236,48 @@ msgstr ""
 "показывать символы и замирает в ожидании."
 
 #: 50262 50265 50268 50271 50291 50292 50293 50294 50310 50311 50312 50313
-#, fuzzy
 msgid "\"Morte, can you translate what he's saying for me?\""
-msgstr "\"Что ты можешь рассказать об этой таверне?\""
+msgstr "\"Морт, ты можешь перевести мне то, что он говорит?\""
 
 #: 50274 50295 50314
-#, fuzzy
 msgid "\"Annah, can you translate what he's saying for me?\""
-msgstr "\"Что ты можешь рассказать об этой таверне?\""
+msgstr "\"Анна, ты можешь перевести мне то, что он говорит?\""
 
 #: 50284 50296
-#, fuzzy
 msgid "\"Dak'kon, can you translate what he's saying for me?\""
-msgstr "\"Даккон, ты можешь перевести мне?\""
+msgstr "\"Даккон, ты можешь перевести мне то, что он говорит?\""
 
 #: 50285 50297
 msgid "\"Fall-from-Grace, can you translate what he's saying for me?\""
 msgstr "\"Падшая Грация, ты можешь перевести мне то, что он говорит?\""
 
 #: 50286 50298
-#, fuzzy
 msgid "\"I'm sorry, I don't understand you.\""
-msgstr "\"Извини, у меня нет денег на пожертвования.\""
+msgstr "\"Извини... Я не могу понять тебя.\""
 
 #: 50287
-#, fuzzy
 msgid ""
 "A series of symbols appear above the dabus' head. It then bows and turns "
 "away."
 msgstr ""
-"Над головой дабуса появляется кучка символов: (Я выполняю свои обязанности.)"
+"Над головой дабуса появляется серия символов. Затем он кланяется и "
+"отворачивается."
 
 #: 50288 50289 50299
-#, fuzzy
 msgid "\"Uh... farewell.\""
-msgstr "\"Нет... прощай.\""
+msgstr "\"Ух, прощай...\""
 
 #: 50290 50308
-#, fuzzy
 msgid "\"I had some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
 #: 50304 50338
-#, fuzzy
 msgid ""
 "It turns to face you, and a series of symbols appear around its head. The "
 "symbols have a slight glow about them, and they just... hover there."
 msgstr ""
-"Над головой существа появляется несколько символов. Они слегка светятся "
-"изнутри и… парят в воздухе."
+"Он поворачивается к тебе, и над его головой появляется несколько символов. "
+"Они слегка светятся изнутри и… парят в воздухе."
 
 #: 50305 50306
 msgid ""
@@ -317,33 +288,28 @@ msgstr ""
 "существо."
 
 #: 50307
-#, fuzzy
 msgid "Try and speak to it, see if you can understand it."
-msgstr "Попробовать поговорить с Феллом, может быть, ты сможешь понять его."
+msgstr "Попробовать поговорить с ним, может быть, ты сможешь понять его."
 
 #: 50309
-#, fuzzy
 msgid "\"I'm sorry... I can't understand you.\""
-msgstr "\"Я не понимаю тебя. Прощай.\""
+msgstr "\"Извини... Я не могу понять тебя.\""
 
 #: 50315
-#, fuzzy
 msgid "\"Dak'kon, can you translate what it's saying?\""
-msgstr "\"Даккон, ты можешь перевести мне?\""
+msgstr "\"Даккон, ты можешь перевести мне, что он говорит?\""
 
 #: 50316
 msgid "\"Fall-from-Grace, can you translate what he's saying?\""
 msgstr "\"Падшая Грация, ты можешь перевести мне, что он говорит?\""
 
 #: 50317
-#, fuzzy
 msgid "\"Never mind. Sorry to disturb you. Farewell.\""
 msgstr "\"Неважно. Извини за беспокойство. Прощай.\""
 
 #: 50330
-#, fuzzy
 msgid "Leave the creature in peace."
-msgstr "Оставить мужчину в покое."
+msgstr "Оставить существо в покое."
 
 #: 50331 50334
 msgid ""
@@ -354,9 +320,8 @@ msgstr ""
 "землей."
 
 #: 50333 50342
-#, fuzzy
 msgid "Leave the dabus in peace."
-msgstr "Оставить мужчину в покое."
+msgstr "Оставить дабуса в покое."
 
 #: 50335
 msgid ""
@@ -418,3 +383,4 @@ msgid ""
 "\"It lies in the abandoned building not far from here. I don't know how it "
 "died.\""
 msgstr ""
+
