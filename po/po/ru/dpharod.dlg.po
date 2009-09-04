@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dpharod.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:12+0600\n"
+"PO-Revision-Date: 2009-09-04 18:26+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 17834
 msgid ""
@@ -651,7 +651,7 @@ msgstr ""
 #: 17927
 #, fuzzy
 msgid "\"Pharod...?\""
-msgstr "Фарод"
+msgstr "\"Фарод.\""
 
 #: 17928 17930
 msgid ""
@@ -818,9 +818,8 @@ msgstr "\"О чем это ты?\""
 
 #: 17978 18100 18103 18108 18112 18115 18119 18122 18126 18132 18136 18140
 #: 18145 18148 18151 18154 18157 18181
-#, fuzzy
 msgid "\"Never mind. I had some other questions for you...\""
-msgstr "\"Нет. У меня были еще вопросы к тебе...\""
+msgstr "\"Неважно. У меня были еще вопросы к тебе...\""
 
 #: 17979
 msgid "\"That's all I wanted to know. Farewell.\""
@@ -847,9 +846,8 @@ msgid "\"Never mind. I must take my leave. Farewell.\""
 msgstr "\"Неважно. Я должен идти. Прощай.\""
 
 #: 17985
-#, fuzzy
 msgid "\"All right, go on.\""
-msgstr "\"А, ладно...\""
+msgstr "\"Хорошо, продолжай.\""
 
 #: 17988
 msgid "\"How did you find it?\""
@@ -972,12 +970,12 @@ msgstr ""
 #: 18041 18110
 #, fuzzy
 msgid "\"Yes...?\""
-msgstr "Да."
+msgstr "\"Да.\""
 
 #: 18042 18043
 #, fuzzy
 msgid "\"What is it?\""
-msgstr "\"Что?\""
+msgstr "\"Что еще?\""
 
 #: 18044
 msgid ""
@@ -1110,9 +1108,8 @@ msgid ""
 msgstr ""
 
 #: 18081 18124
-#, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Нет! Нет!..\""
+msgstr "\"Продолжай...\""
 
 #: 18083 18086 18089 18093 18096 18098
 #, fuzzy
@@ -1345,7 +1342,7 @@ msgstr "\"Фелл?\""
 #: 18183
 #, fuzzy
 msgid "Wait..."
-msgstr "\"Подождать!\""
+msgstr "Подождать..."
 
 #: 18184
 msgid "\"Hmmm. Wonder where he's going...\""
@@ -1514,3 +1511,4 @@ msgid ""
 "haunted alley. He told me if she happened to lose me on the way there, to "
 "come back and see him and he would guide me... "
 msgstr ""
+

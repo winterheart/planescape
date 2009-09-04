@@ -3,20 +3,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dzm1146.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 02:05+0600\n"
+"PO-Revision-Date: 2009-09-04 18:43+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 20099
-#, fuzzy
 msgid "\"Again?!\""
-msgstr "\"Снова?\""
+msgstr "\"Опять?!\""
 
 #: 20100
 msgid "\"I had some questions...\""
@@ -24,7 +23,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 20101
 msgid "\"Nothing, I was just passing by. Farewell.\""
-msgstr ""
+msgstr "\"Ничего, я просто проходил мимо. Прощай.\""
 
 #: 6518
 msgid ""
@@ -76,9 +75,8 @@ msgid "Leave the corpse in peace."
 msgstr "Оставить труп в покое."
 
 #: 6528
-#, fuzzy
 msgid "\"Are you... all right?\""
-msgstr "\"Прошу прощения... с тобой все в порядке?\""
+msgstr "\"С тобой... все в порядке?\""
 
 #: 9398
 msgid ""
@@ -136,12 +134,13 @@ msgstr ""
 
 #: 9405
 msgid "\"None a' yer business... leaves me... be...\""
-msgstr ""
+msgstr "\"Не твое дело... оставь меня... в покое...\""
 
 #: 9406
 msgid ""
 "\"Eh? Fer da love of da powers, who... cares? From Sigil, ya... ya piker.\""
 msgstr ""
+"\"А? Любовь сил, да кому... это интересно? Из Сигила, ты... неудачник.\""
 
 #: 9407
 msgid ""
@@ -152,6 +151,11 @@ msgid ""
 "right in da middle!\" The spirit mumbles evilly for a bit, steaming fluid "
 "bubbling out from the corners of his jagged slit of a mouth."
 msgstr ""
+"\"А ты как думаешь, бестолочь?\" Вспышка вызвала у духа резкий болезненный "
+"кашель. \"Я продал мясо... в обмен на немного звенелок. Чертовым Мертвякам..."
+" и сразу же - представляешь, СРАЗУ ЖЕ - какой-то тупоголовый маг решил "
+"изжарить Улей в пламени забвения, а я оказался в самом пекле!\" Дух что-то "
+"злобно пробормотал, изрыгая жидкость из уголков зашитого рта."
 
 #: 9408
 msgid ""
@@ -191,7 +195,6 @@ msgid ""
 msgstr ""
 
 #: 9413
-#, fuzzy
 msgid "\"I had questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
@@ -205,9 +208,8 @@ msgid "\"Is there something I can do to aid you?\""
 msgstr ""
 
 #: 9416
-#, fuzzy
 msgid "\"I had a question...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня вопрос...\""
 
 #: 9417
 msgid ""
@@ -289,9 +291,8 @@ msgid "\"Nothing, never mind.\""
 msgstr "\"Ничего, неважно.\""
 
 #: 9436
-#, fuzzy
 msgid "\"No. I had another question...\""
-msgstr "\"Нет, у меня есть другие вопросы...\""
+msgstr "\"Нет. У меня другой вопрос...\""
 
 #: 9437 9448
 msgid "\"Farewell, then.\""
@@ -303,7 +304,7 @@ msgstr "\"Это все, что я хотел узнать. Прощай.\""
 
 #: 9440
 msgid "\"A wizard burned down the Hive?\""
-msgstr ""
+msgstr "\"Волшебник сжег Улей?\""
 
 #: 9442
 msgid "\"Why would you wish to inflict your fate upon others?\""
@@ -316,19 +317,17 @@ msgstr "\"Это все, что я хотел узнать. Прощай.\""
 
 #: 9445
 msgid "\"A mage... burned up... the Hive?\""
-msgstr ""
+msgstr "\"Маг... сжег... Улей?\""
 
 #: 9447
-#, fuzzy
 msgid "\"Very well. I had another question, then...\""
-msgstr "\"Хорошо. Тогда у меня есть вопросы...\""
+msgstr "\"Хорошо. Тогда у меня другой вопрос...\""
 
 #: 9449
 msgid "\"Very well. I had another question...\""
 msgstr "\"Очень хорошо. У меня есть другие вопросы...\""
 
 #: 9451 9464 9747
-#, fuzzy
 msgid "\"I see. I had more questions for you...\""
 msgstr "\"Понятно. У меня есть другой вопрос к тебе...\""
 
@@ -344,9 +343,8 @@ msgid ""
 msgstr ""
 
 #: 9459
-#, fuzzy
 msgid "\"Who was this wizard?\""
-msgstr "\"Кто такой Фарод?\""
+msgstr "\"Кем был тот волшебник?\""
 
 #: 9744
 msgid ""
@@ -355,3 +353,8 @@ msgid ""
 "alls, shoutin' his name... er... oh! Ignis, I'm tinkin' it was. Ignis. Or "
 "sumtin' like dat. I sure hopes dat piker's in a worse hole dan me!\""
 msgstr ""
+"\"Без понятия. Я был уже порядочно поджарен, прежде чем его остановили, если "
+"смогли. Кажется, вспоминаю, как за ним в самом начале гнались люди, "
+"выкрикивали его имя... эээ... а! Игнис, кажется так. Игнис. Или типа того. "
+"Надеюсь, этим неудачникам досталось больше, чем мне!\""
+

@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dpillar.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:13+0600\n"
+"PO-Revision-Date: 2009-09-04 18:24+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 51733
 msgid ""
@@ -178,7 +178,7 @@ msgstr ""
 #: 53360
 #, fuzzy
 msgid "\"What are you?\""
-msgstr "\"Кто ты такой?\""
+msgstr "\"Что ты такое?\""
 
 #: 53361
 msgid "\"How do I reach the Fortress of Regrets?\""
@@ -390,8 +390,9 @@ msgid ""
 msgstr ""
 
 #: 53451
+#, fuzzy
 msgid "Fall into darkness..."
-msgstr ""
+msgstr "Упасть в темноту..."
 
 #: 53452
 msgid ""
@@ -611,7 +612,7 @@ msgstr ""
 #: 53529
 #, fuzzy
 msgid "\"Vhailor...?\""
-msgstr "\"Вейлор.\""
+msgstr "Вейлор"
 
 #: 53530
 msgid ""
@@ -635,9 +636,8 @@ msgid ""
 msgstr ""
 
 #: 53536 53546
-#, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Нет! Нет!..\""
+msgstr "\"Продолжай...\""
 
 #: 53537 53542 53547
 #, fuzzy
@@ -893,3 +893,4 @@ msgstr "\"Хорошо. Тогда у меня есть несколько во�
 #, fuzzy
 msgid "\"Sure, sure. Farewell.\""
 msgstr "\"Конечно. Прощай.\""
+
