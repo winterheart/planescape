@@ -15,7 +15,7 @@ GetOptions(\%config,
 my $output;
 my %hash;
 
-my $translated = 0;
+my %translated;
 my $total = 0;
 
 my $text = read_file($config{tra});
@@ -48,19 +48,25 @@ foreach my $file (@files) {
 
 	# В этом цикле все переведенные строки из po-каталога заменяют оригинальные из хеша
 	# при этом используются адреса strref как ссылки для принятия соответствия
+	# Пустые строки, неточные и устаревшие переводы не учитываются
 	foreach my $item ( @{$po_entries} ) {
 		my $string = Locale::PO->dequote($item->msgstr());
-		unless (($string eq "") || $item->fuzzy()) {
+		unless (($string eq "") || $item->fuzzy() || $item->obsolete()) {
+			my $test = $item -> reference();
 			my @referencies = split(/[ |\n]/, $item->reference());
 			foreach my $reference (@referencies) {				
 				$hash{$reference}[0] = $string;
-				$translated++;
+				# Делаем зарубку по адресу strref
+				$translated{$reference} = 1;
 			}
 		}
 	} 
 }
 
-printf ("Translated:\t%d\nTotal:\t\t%d\nPercent:\t%.2f\n", $translated, $total, $translated/$total*100);
+# Считаем количество реально замененных строк
+my $non_empty = keys %translated;
+
+printf ("Translated:\t%d\nTotal:\t\t%d\nPercent:\t%.2f\n", $non_empty, $total, $non_empty/$total*100);
 
 # Формируем заново строки
 foreach my $item (sort {$a<=>$b} keys %hash) {
