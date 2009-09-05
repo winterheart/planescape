@@ -2,6 +2,7 @@
 
 use InfinityParser::TLK;
 use InfinityParser::AREA;
+use InfinityParser::BAF;
 use InfinityParser::CHUI;
 use InfinityParser::CRE;
 use InfinityParser::DLG;
@@ -41,6 +42,8 @@ foreach $file (@files) {
 	my $filename = $1;
 	if ($file =~ m/\.(SRC|src)$/ ) {
 		$src = InfinityParser::SRC->new();
+	} elsif ($file =~ m/\.(BAF|baf)$/ ) {
+		$src = InfinityParser::BAF->new();
 	} else {		
 		open(FILE,"<", $file);
 		read(FILE, my $buffer, 4);
@@ -58,38 +61,41 @@ foreach $file (@files) {
 	}
 	$src->open($file);
 	@str = $src->strref();
-	my %hashTemp = map { $_ => 1 } @str;
-	@str = sort keys %hashTemp;
+	# Если массив пустой, ничего не делаем 
+	if (@str) {
+		my %hashTemp = map { $_ => 1 } @str;
+		@str = sort keys %hashTemp;
 
-	$po[0] = new Locale::PO(-fuzzy=>'1', -msgid=>'', -msgstr=>
-		"Project-Id-Version: PACKAGE VERSION\\n" .
-		"POT-Creation-Date: $date\\n" .
-		"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\\n" .
-		"Last-Translator: FULL NAME <EMAIL\@ADDRESS>\\n" .
-		"Language-Team: LANGUAGE <LL\@li.org>\\n" .
-		"MIME-Version: 1.0\\n" .
-		"Content-Type: text/plain; charset=CHARSET\\n" .
-		"Content-Transfer-Encoding: ENCODING\\n");
+		$po[0] = new Locale::PO(-fuzzy=>'1', -msgid=>'', -msgstr=>
+			"Project-Id-Version: PACKAGE VERSION\\n" .
+			"POT-Creation-Date: $date\\n" .
+			"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\\n" .
+			"Last-Translator: FULL NAME <EMAIL\@ADDRESS>\\n" .
+			"Language-Team: LANGUAGE <LL\@li.org>\\n" .
+			"MIME-Version: 1.0\\n" .
+			"Content-Type: text/plain; charset=CHARSET\\n" .
+			"Content-Transfer-Encoding: ENCODING\\n");
 
-	foreach my $i (@str) {
-		my ($string, undef, undef, undef) = $tlk->strref($i);
-		if ($string ne "") {
-			$string =~ s/\\/\\\\/g;
-			$string =~ s/\r//g;
-			$string =~ s/\n/\\n/g;
-			# Странно, но ноль не может подставляться. Bug.
-			if ($i != 0) {
-				push(@po, new Locale::PO(-msgid=>"$string", -msgstr=>"", -reference=>"$i"));
-			} else {
-				push(@po, new Locale::PO(-msgid=>"$string", -msgstr=>"", -reference=>"0 "));
+		foreach my $i (@str) {
+			my ($string, undef, undef, undef) = $tlk->strref($i);
+			if ($string ne "") {
+				$string =~ s/\\/\\\\/g;
+				$string =~ s/\r//g;
+				$string =~ s/\n/\\n/g;
+				# Странно, но ноль не может подставляться. Bug.
+				if ($i != 0) {
+					push(@po, new Locale::PO(-msgid=>"$string", -msgstr=>"", -reference=>"$i"));
+				} else {
+					push(@po, new Locale::PO(-msgid=>"$string", -msgstr=>"", -reference=>"0 "));
+				}
 			}
 		}
+		push(@all, @str);
+		Locale::PO->save_file_fromarray($config{output}."/$filename.pot", \@po);
+		@po = ();
+		@po_entries= (); 
+		system("msguniq", $config{output}."/$filename.pot", "-o", $config{output}."/$filename.pot");
 	}
-	push(@all, @str);
-	Locale::PO->save_file_fromarray($config{output}."/$filename.pot", \@po);
-	@po = ();
-	@po_entries= (); 
-	system("msguniq", $config{output}."/$filename.pot", "-o", $config{output}."/$filename.pot");
 } 
 
 %hashTemp = map { $_ => 1 } @all;
