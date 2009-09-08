@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddakkon.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-09-04 17:01+0600\n"
+"PO-Revision-Date: 2009-09-08 16:07+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,13 @@ msgid ""
 "glaive, made of some metal whose surface swirls like a film of oil on a "
 "pond.  "
 msgstr ""
+"Перед тобой действительно *старый* мужчина. Его суховатая, покрытая шрамами "
+"желтая кожа выдает в нем путешественника, всюду побывавшего и нигде не "
+"задерживавшегося надолго. Его вытянутое лицо не человечески угловато, "
+"заостренные уши сильно выпирают из головы. Он одет в просторную оранжевую "
+"тунику, за спиной - какой-то странный мерцающий клинок. Он похож на "
+"обоюдоострый меч, сделанный из металла, поверхность которого переливается "
+"словно пленка масла на воде."
 
 #: 14982
 msgid ""
@@ -30,6 +37,9 @@ msgid ""
 "and for a moment, you wonder if he might be blind. The weapon suddenly turns "
 "a dead, flat black, mirroring the man's eyes."
 msgstr ""
+"Мужчина поворачивается к тебе, его глаза черны как уголь. Некоторое время он "
+"смотрит сквозь тебя, и у тебя возникает ощущение, что он слеп. Неожиданно "
+"оружие становится мертвенно черным, как его глаза."
 
 #: 14984
 msgid ""
@@ -37,6 +47,9 @@ msgid ""
 "\"Hail... traveler.\" His voice is quiet and somber, like a wind whispering "
 "through the branches of a great tree. "
 msgstr ""
+"Некоторое время он беззвучно смотрит на тебя. \"Приветствую... путник.\" Его "
+"голос тих и мрачен, словно ветер, что-то шепчущий среди ветвей большого "
+"дерева."
 
 #: 14985
 msgid ""
@@ -45,6 +58,9 @@ msgid ""
 "him. \"Your eyes have the weight of one who has traveled far to be in this "
 "place.\""
 msgstr ""
+"Взгляд мужчины теряется в твоем. Оружие, потеряв свой черный цвет, снова "
+"переливается всем цветами. \"В твоих глазах видно бремя путника, побывавшего "
+"далеко от этого места.\""
 
 #: 14986
 msgid ""
@@ -54,6 +70,10 @@ msgid ""
 "\"Your eyes have the weight of one who has traveled far to be in this place."
 "\""
 msgstr ""
+"\"Стой.\" Голос мужчины тих и мрачен, словно ветер, что-то шепчущий среди "
+"ветвей большого дерева. Почему-то ты находишь этот голос успокаивающим. "
+"Повернувшись назад, ты видишь, что он рассматривает черты твоего лица. \"В "
+"твоих глазах видно бремя путника, побывавшего далеко от этого места.\""
 
 #: 14987
 msgid ""
@@ -63,6 +83,11 @@ msgid ""
 "*known* strikes you as odd... yet familiar at the same time. \"You... are "
 "not *known* to me.\""
 msgstr ""
+"\"Ты не побеспокоил меня. Мои мысли сохранились.\" Мужчина не отводит "
+"взгляда, ты обнаруживаешь, что, пока он смотрит на тебя, тебе не удастся "
+"отвернуться. \"Я *известен* как Даккон.\" Особо произнесенное слово "
+"*известен* звучит для тебя странно... и в то же время знакомо. \"Ты... не "
+"*известен* мне.\""
 
 #: 14989
 msgid ""
@@ -70,6 +95,9 @@ msgid ""
 "emphasis he places on the word *known* strikes you as odd... yet familiar at "
 "the same time. \"You... are not *known* to me.\""
 msgstr ""
+" Мужчина не отводит взгляда. \"Я *известен* как Даккон.\" Особо "
+"произнесенное слово *известен* звучит для тебя странно... и в то же время "
+"знакомо. \"Ты... не *известен* мне.\""
 
 #: 14990
 msgid ""
@@ -78,6 +106,9 @@ msgid ""
 "you with his coal-black eyes. \"I would *know* why you have come to this "
 "city.\""
 msgstr ""
+"\"Так даже лучше. *Узнай* себя, и в Планах останется мало того, что "
+"останется *узнать*.\" Он умолкает, все еще изучая тебя своими "
+"угольно-черными глазами. \"Могу ли я *знать*, зачем ты пришел в этот город?\""
 
 #: 14991
 msgid ""
@@ -96,23 +127,27 @@ msgstr ""
 
 #: 14995
 msgid "\"Speak your questions. I will hear you.\""
-msgstr ""
+msgstr "\"Задай свои вопросы. Я выслушаю тебя.\""
 
 #: 14997 14999 59188 59196
-#, fuzzy
 msgid "\"A githzerai.\""
-msgstr "\"Прощай, Мортай.\""
+msgstr "\"Гитцерай.\""
 
 #: 14998 59192
+#, fuzzy
 msgid "\"A githzerai is one of the People.\""
-msgstr ""
+msgstr "\"Гитцерай - один из Народа.\""
 
 #: 15000 59200
+#, fuzzy
 msgid ""
 "Dak'kon is silent for a moment, then speaks. \"Our history does not need to "
 "be made *known* to you. We would bleed to death on time's blade before I "
 "recited a fraction of the histories of our People.\""
 msgstr ""
+"Даккон, на время умолкнув, произносит. \"Нет необходимости делать нашу "
+"историю *известной* тебе. Мы истечем кровью на клинке времени прежде, чем я "
+"изложу часть историй нашего Народа.\""
 
 #: 15002 59205
 msgid ""
@@ -120,6 +155,9 @@ msgid ""
 "are the People who make our home upon the shifting plane of Limbo.\" With a "
 "deft motion, Dak'kon slips the blade from his back and holds it before him."
 msgstr ""
+"Даккон на секунду умолкает. \"*Узнай* это и прими в качестве ответа: Мы - "
+"Народ, создавший свой дом в переменчивом плане Лимбо.\" Ловким движением "
+"Даккон выхватывает клинок из-за спины и удерживает его перед собой."
 
 #: 15004
 msgid ""
@@ -129,18 +167,28 @@ msgid ""
 "match the inflections in Dak'kon's voice. \"In its chaos we dwell, with only "
 "our *knowing* to preserve us. We are the githzerai.\""
 msgstr ""
+"\"Вот, мы формируем материю Лимбо своим разумом. Мы выковываем город одной "
+"лишь мыслью.\" У тебя на глазах от центра к краям по поверхности клинка "
+"проходят несколько волн. Длина и высота волн в точности повторяют интонацию "
+"голоса Даккона. \"Мы живем в хаосе, и только наше *знание* спасает нас. Мы - "
+"гитзерай.\""
 
 #: 15005 59215
 msgid ""
 "\"It is *known* by the name 'Sigil.' Among the People, it is *known* as the "
 "city that does not *know* itself.\""
 msgstr ""
+"\"Он *известен* под именем 'Сигил'. Среди Народа он *известен* как город, "
+"который не *знает* себя.\""
 
 #: 15006 59219
+#, fuzzy
 msgid ""
 "\"The city exists, but it does not *know* itself. In not *knowing* itself, "
 "its existence is flawed.\" "
 msgstr ""
+"\"Город существует, но не *знает* себя. Существование того, кто не *знает* "
+"себя, вызывает сомнение.\""
 
 #: 15007
 msgid ""
@@ -284,6 +332,8 @@ msgid ""
 "\"It is a *karach* blade. It is an object that lets others *know* the rank "
 "of the wielder.\""
 msgstr ""
+"\"Это клинок *карач*. Это предмет, позволяющий другим *узнавать* уровень "
+"владельца.\""
 
 #: 15040 59561
 msgid ""
@@ -291,12 +341,16 @@ msgid ""
 "the words of Zerthimon. In *knowing* the words of Zerthimon, they *know* "
 "themselves.\""
 msgstr ""
+"\"Клинок является символом, который носит *зерт*. *Зерт* - тот, кто *знает* "
+"слова Зертимона. *Зная* слова Зертимона, они *знают* себя.\""
 
 #: 15041 59569
 msgid ""
 "\"Zerthimon founded our race. He *knew* the githzerai before they *knew* "
 "themselves. He defined the People. He gave them one mind.\""
 msgstr ""
+"\"Зертимон основал нашу расу. Он *знал* гитцераев до того, как они *узнали* "
+"себя. Он определил Народ. Он дал им разум.\""
 
 #: 15042 59575
 msgid ""
@@ -304,11 +358,13 @@ msgid ""
 "\"In your tongue, the closest translation is 'chaos matter.' The People may "
 "shape it with their thoughts.\""
 msgstr ""
+"Даккон умолкает, пытаясь подобрать подходящие слова. \"На вашем языке "
+"ближайший перевод звучит как 'материя хаоса'. Народ может придавать ему "
+"форму силой мысли.\""
 
 #: 15043 59583
-#, fuzzy
 msgid "\"The githzerai.\""
-msgstr "\"Прощай, Мортай.\""
+msgstr "\"Гитцерай.\""
 
 #: 15044
 msgid ""
@@ -318,12 +374,18 @@ msgid ""
 "steel. When one does not *know* themselves, the blade is as water -- "
 "formless and weak.\" "
 msgstr ""
+"*Карачу* придает форму не жар, а *знание*. Это зеркало, которое отражает на "
+"своей поверхности и гранях волю владельца. Когда он *знает* себя, клинок "
+"тверд, тверже и прочнее стали. Когда он не *знает* себя, клинок похож на "
+"воду - бесформен и слаб.\""
 
 #: 15045
 msgid ""
 "\"It would become as nothing in the hands of another. The blade *knows* my "
 "mind, and I *know* its heart. We die the same death.\""
 msgstr ""
+"\"В чужих руках он станет бесполезным. Клинок *знает* мой разум, а я *знаю* "
+"его сердце. Мы умираем одной смертью.\""
 
 #: 15046 59607
 #, fuzzy
@@ -394,55 +456,48 @@ msgid "Ignore the man."
 msgstr "Не обращать внимания на мужчину."
 
 #: 15058
-#, fuzzy
 msgid "\"Are you all right?\""
 msgstr "\"С тобой все в порядке?\""
 
 #: 15060
 msgid "\"Hail.\""
-msgstr ""
+msgstr "\"Приветствую.\""
 
 #: 15061 15063
 msgid "\"Sorry to trouble you. Farewell.\""
 msgstr "\"Извини за беспокойство. Прощай.\""
 
 #: 15062 15064
-#, fuzzy
 msgid "\"You could say that.\""
-msgstr "\"Я ничего не скажу. Прощай.\""
+msgstr "\"Можно и так сказать.\""
 
 #: 15065 15067
-#, fuzzy
 msgid "\"I did not mean to disturb you. Farewell.\""
-msgstr "\"Извини, что отвлек. Прощай.\""
+msgstr "\"Я не хотел тебя беспокоить. Прощай.\""
 
 #: 15066 15068
-#, fuzzy
 msgid "\"I do not know myself.\""
-msgstr "\"Не знаю. Прощай.\""
+msgstr "\"Я и сам себя не знаю.\""
 
 #: 15069
 msgid "\"I am a visitor to this city.\""
-msgstr ""
+msgstr "\"Я - гость этого города.\""
 
 #: 15070
 msgid "\"You are not known to me.\""
-msgstr ""
+msgstr "\"А ты не известен мне.\""
 
 #: 15071 15072 15073
-#, fuzzy
 msgid "\"I'm looking for answers... I have many questions.\""
-msgstr "\"Я не уверен. У меня есть несколько вопросов...\""
+msgstr "\"Я ищу ответы... У меня много вопросов.\""
 
 #: 15074 59177
-#, fuzzy
 msgid "\"Your features are... unfamiliar to me. What are you?\""
-msgstr "\"Не думаю, что ты - мимир, Морт. Что ты такое?\""
+msgstr "\"Твои черты... незнакомы мне. Кто ты?\""
 
 #: 15075 59384
-#, fuzzy
 msgid "\"Can you tell me of the githzerai people again?\""
-msgstr "\"Что ты можешь сказать о фракциях?\""
+msgstr "\"Можешь еще раз рассказать о гитцераях?\""
 
 #: 15076
 msgid "\"Can you tell me about this city?\""
@@ -469,14 +524,12 @@ msgid "\"I've lost a journal. Do you know where it might be?\""
 msgstr "\"Я ищу потерянный дневник. Ты не знаешь, где я его могу найти?\""
 
 #: 15081 15136 15142 15146 15158 15163 15231 15237 15278 15280
-#, fuzzy
 msgid "\"There is nothing to be said. Farewell.\""
-msgstr "\"Больше ничего сказать. Прощай.\""
+msgstr "\"Больше нечего сказать. Прощай.\""
 
 #: 15082 59189
-#, fuzzy
 msgid "\"A githzerai?\""
-msgstr "Гитцерай"
+msgstr "\"Гитцерай?\""
 
 #: 15083 15126 15132 15135 15138 15141 15145 15157 15162 15228 15236 15253
 #: 15257 15260 15264 15269 15273 15275 15277 15279
@@ -484,9 +537,8 @@ msgid "\"I had some other questions...\""
 msgstr "\"У меня есть другие вопросы...\""
 
 #: 15084 15127 15130 15133 15254 15259 15261 15265 15270 15274 15276
-#, fuzzy
 msgid "\"I see. I must take my leave. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Понятно. Я должен идти. Прощай.\""
 
 #: 15125 59193
 #, fuzzy
@@ -495,39 +547,42 @@ msgstr "\"'Рыцарь легкой наживы'?\""
 
 #: 15128 59197
 msgid "\"Yes, but what are the githzerai, exactly?\""
-msgstr ""
+msgstr "\"Ну да, но кто такие гитцераи именно?\""
 
 #: 15129
 msgid ""
 "\"Thanks for the explanation. It clears up a lot. I had some other "
 "questions...\""
 msgstr ""
+"\"Большое спасибо за объяснение. Это многое прояснило. У меня есть другие "
+"вопросы...\""
 
 #: 15131 59201
 msgid ""
 "\"I don't need to know your histories... but I would know of your people as "
 "they are now.\""
 msgstr ""
+"\"Да не нужны мне ваши истории... я хочу знать, что представляют из себя ваш "
+"народ на данный момент.\""
 
 #: 15134 59206
-#, fuzzy
 msgid "Wait, see what happens."
-msgstr "Смотреть, чем это закончится."
+msgstr "Посмотреть, что произойдет."
 
 #: 15137 59211
 msgid ""
 "\"What is that blade you have... it moved, shifted in response to your voice."
 "\""
 msgstr ""
+"\"Как удивительный у тебя клинок... он движется согласно твоему голосу.\""
 
 #: 15139
 msgid "\"Very well. Farewell.\""
 msgstr "\"Отлично. Прощай.\""
 
 #: 15140 59216
-#, fuzzy
 msgid "\"It doesn't know itself? What do you mean?\""
-msgstr "\"Друзей? О чем это ты?\""
+msgstr "\"Не знает себя? О чем это ты?\""
 
 #: 15143 59220
 #, fuzzy
@@ -699,15 +754,15 @@ msgid "\"Why?\""
 msgstr "\"Зачем?\""
 
 #: 15250 59552
-#, fuzzy
 msgid "*\"Karach?* What does that mean?\""
-msgstr "\"И что это означает?\""
+msgstr "\"*Карач*? Что это значит?\""
 
 #: 15251 59554
+#, fuzzy
 msgid ""
 "\"It's made out of a strange metal... it's almost hypnotic the way it shifts "
 "back and forth.\""
-msgstr ""
+msgstr "\"Он сделан из странного металла..."
 
 #: 15252 59555
 #, fuzzy
@@ -715,18 +770,16 @@ msgid "\"What rank does it signify?\""
 msgstr "\"На что он похож?\""
 
 #: 15255 59563
-#, fuzzy
 msgid "\"Zerthimon?\""
-msgstr "\"Клятвы?\""
+msgstr "\"Зертимона?\""
 
 #: 15256 15258 59564 59570
-#, fuzzy
 msgid "\"What is that blade made of again?\""
-msgstr "\"Еще раз - где тот ключ, о котором ты говорил?\""
+msgstr "\"Еще раз - что это за клинок?\""
 
 #: 15262
 msgid "\"The people?\""
-msgstr ""
+msgstr "\"Народ?\""
 
 #: 15263 59577
 #, fuzzy
@@ -734,9 +787,8 @@ msgid "\"Move it with their thoughts?\""
 msgstr "\"Морт, правда, что...\""
 
 #: 15266 59584
-#, fuzzy
 msgid "\"What is a githzerai?\""
-msgstr "\"Что это еще за *гитцераи*?\""
+msgstr "\"Кто такие гитцераи?\""
 
 #: 15267 59586
 #, fuzzy
@@ -747,15 +799,16 @@ msgstr "\"Еще раз, кто эти смотрители?\""
 msgid ""
 "\"And you say the githzerai can shape this *karach*... with their thoughts?\""
 msgstr ""
+"\"И ты сказал, что гитцерай могут придавать форму этуму *карачу*... силой "
+"мысли?\""
 
 #: 15271
 msgid "\"Are you willing to sell it?\""
-msgstr ""
+msgstr "\"Не хочешь продать его?\""
 
 #: 15272 59596
-#, fuzzy
 msgid "\"What rank does the blade signify?\""
-msgstr "\"Что это за уровни?\""
+msgstr "\"Что это за уровень отражает клинок?\""
 
 #: 15284
 msgid "\"Very well. An extra blade would be welcome, Dak'kon.\""
@@ -2457,6 +2510,11 @@ msgid ""
 "match the inflections in Dak'kon's voice. \"In its chaos we dwell, with only "
 "our *knowing* to preserve us. We are the githzerai.\""
 msgstr ""
+"\"Вот, мы формируем материю Лимбо своим разумом. Мы выковываем город одной "
+"лишь мыслью.\" У тебя на глазах от центра к краям по поверхности клинка "
+"проходят несколько волн. Длина и высота волн в точности повторяют интонацию "
+"голоса Даккона. \"Мы живем в хаосе, и только наше *знание* спасает нас. Мы - "
+"гитзерай.\""
 
 #: 59213
 msgid "\"Understood. There are other things I would *know*...\""
@@ -3053,6 +3111,10 @@ msgid ""
 "When one does not *know* oneself, the blade is as water - formless and weak."
 "\""
 msgstr ""
+"*Карачу* придает форму не жар, а *знание*. Это зеркало, которое отражает на "
+"своей поверхности и гранях волю владельца. Когда он *знает* себя, клинок "
+"тверд, тверже и прочнее стали. Когда он не *знает* себя, клинок похож на "
+"воду - бесформен и слаб.\""
 
 #: 59602
 msgid ""
