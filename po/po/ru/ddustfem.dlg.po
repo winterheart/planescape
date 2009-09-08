@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddustfem.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-07-11 22:49+0600\n"
+"PO-Revision-Date: 2009-09-08 15:39+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 1168 1228 1287
 msgid "\"What is this place?\""
@@ -298,7 +298,7 @@ msgid ""
 "\"The githzerai are...\" The Dustman pauses, then stares at you intently. "
 "\"You are not from around here. Who are you?\""
 msgstr ""
-"\"Гитцераи - это...\" Тленная умолкает, пристально глядя на тебя. \"Ты не "
+"\"Гитцерай - это...\" Тленная умолкает, пристально глядя на тебя. \"Ты не "
 "здешний. Кто ты?\""
 
 #: 1210
@@ -634,7 +634,7 @@ msgstr "\"Меркам гитцераев?\""
 
 #: 4285 4292
 msgid "\"What is a *githzerai?*\""
-msgstr "\"Что это еще за *гитцераив*?\""
+msgstr "\"Что это еще за *гитцераи*?\""
 
 #: 4286
 msgid "\"Fortunate?\""
