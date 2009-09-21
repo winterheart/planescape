@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dphineas.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:12+0600\n"
+"PO-Revision-Date: 2009-09-22 00:03+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 2397
 msgid ""
@@ -20,6 +20,10 @@ msgid ""
 "are dirty, wrinkled and covered with rat hair. As you watch, he idly "
 "scratches himself with his stubby fingers."
 msgstr ""
+"Ты видишь коренастого мужчину с сыпью и прыщами на лице. Одежда *указывает* "
+"на то, что он является представителем власти, однако она очень грязная, "
+"мятая и покрыта крысиными волосами. Ты видишь, как он лениво почесывает себя "
+"короткими пальцами."
 
 #: 2398
 msgid "\"Greetings.\""
@@ -27,7 +31,7 @@ msgstr "\"Приветствую.\""
 
 #: 2400
 msgid "Leave the man alone, look around the shop."
-msgstr ""
+msgstr "Оставить мужчину в покое, осмотреть все вокруг."
 
 #: 2401
 msgid "\"I had some questions...\""
@@ -42,16 +46,23 @@ msgid ""
 "eh... have little to nothing in the till, so if you have come to plunder the "
 "premises, this locale is ill-chosen.\""
 msgstr ""
+"\"Аййй!\" Коротышка вскрикивает и испуганно подпрыгивает. Схватившись за "
+"сердце, он глубоко вздыхает на надевает очки на свой прыщавый нос. \"Да, да? "
+"Чем могу служить...\" Он чешет свой нос, внимательно осматривая твои шрамы. "
+"\"Я... эээ... у меня почти ничего нет, так что если ты решил грабить дома, "
+"то это место для этого не подходит.\""
 
 #: 2403
 msgid "\"I'm not here to 'plunder the premises.' Who are you?\""
-msgstr ""
+msgstr "\"Я не собираюсь 'грабить дома'. Ты кто такой?\""
 
 #: 2404
 msgid ""
 "\"'Little to nothing in the till,' eh? Well, why don't you just give me what "
 "you *have,* and we'll part as friends.\""
 msgstr ""
+"\"'Почти ничего нет', да? Что ж, просто отдай, что у тебя *есть*, и "
+"останемся друзьями.\""
 
 #: 2405 51514
 msgid "\"Farewell.\""
@@ -63,6 +74,9 @@ msgid ""
 "his spectacles up on his nose and gives you a hard look. \"And what is it I "
 "can do for you *this* time, hmnnnn?\""
 msgstr ""
+"\"Айййй! О, Силы... хватит ко мне так *подкрадываться*!\" Он надевает свои "
+"очки на нос и окидывает тебя тяжелым взглядом. \"Чему могу быть полезным на "
+"*этот* раз, ммм?\""
 
 #: 2407
 msgid ""
@@ -75,15 +89,22 @@ msgid ""
 "fair streets of Sigil, hub of the multiverse and the city which sits at the "
 "center of all things, the city by which *all* other cities are measured.\""
 msgstr ""
+"\"Я? Я - уважаемый Финеас Т. Лорт тридцать девятый, управляющий в Улье этим "
+"филиалом Офиса по контроля паразитов и эпидемий. Считаю своей почетной "
+"обязанностью...\" Он чешет грудь и вздыхает. \"проинформировать тебя, что "
+"мы, в бюрократическом смысле слова *мы*, включающем в себя всю "
+"бюрократическую систему Сигила, выплачиваем награду за любых паразитов и "
+"бездомных животных, способных заразить...\" Он чешется снова. \"...улицы "
+"славного Сигила, сердца мультивселенной, города, находящемся в центре всего "
+"сущего, города, на который *равняются* все остальные города.\""
 
 #: 2408
 msgid "\"Bounties?\""
-msgstr ""
+msgstr "\"Награду?\""
 
 #: 2409
-#, fuzzy
 msgid "\"I see. Well, I think I've heard enough. Farewell.\""
-msgstr "\"Думаю, я выслушал достаточно. Прощай, Дхолл.\""
+msgstr "\"Понятно. Думаю, я выслушал достаточно. Прощай.\""
 
 #: 2410
 msgid ""
@@ -95,19 +116,25 @@ msgid ""
 "Sigilian bureaucracy to pay a bounty of...\" He puffs up dramatically. \"..."
 "one copper common per cranium rat delivered to my branch office.\""
 msgstr ""
+"\"Да, да... мы, в бюрократическом смысле слова *мы*, включающем в себя всю "
+"бюрократическую систему Сигила, принимаем доказательства уничтожения "
+"мозговых паразитов, также известных как черепных крыс, которые несколько лет "
+"назад, если верить подсчетам популяции паразитов, довольно густо населяли "
+"район Улья. Я уполномочен бюрократической системой Сигила выплачивать "
+"награду в размере...\" Он выразительно вздыхает. \"... одного медяка за "
+"каждую черепную крысу, доставленную в филиал офиса.\""
 
 #: 2411
 msgid "\"'Cranium rat'?\""
-msgstr ""
+msgstr "\"'Черепную крысу'?\""
 
 #: 2412 2418 2422
-#, fuzzy
 msgid "\"I don't have any rats, but I have some rat tails.\""
-msgstr "\"Я не знаю, в самом деле. У меня еще есть вопросы...\""
+msgstr "\"У меня нет крыс, но у меня есть крысиные хвосты.\""
 
 #: 2413
 msgid "\"I see. Well, I better be going... farewell.\""
-msgstr ""
+msgstr "\"Понятно. Что ж, мне лучше пойти... прощай.\""
 
 #: 2414
 msgid ""
@@ -118,19 +145,26 @@ msgid ""
 "ones such as myself.\" Scratches, then sniffs disdainfully. \"I imagine that "
 "two or three cranium rats might be enough to outwit *you,* sir.\""
 msgstr ""
+"\"Черепные крысы - это вид паразитов, которые становятся более умными при "
+"тесной близости со своими сородичами. Сама по себе черепная крыса - не "
+"больше, чем досадная неприятность, снующая под полом и ворующая еду, однако "
+"если взять пять, десять или больше крыс, то их интеллект растет, становясь "
+"подобным нашему.\" Он чешется, презрительно усмехаясь. \"Возможно, что две "
+"или три черепные крысы, могут перехитрить *тебя*, сэр.\""
 
 #: 2415
 msgid "\"Another comment like that, and you'll be wearing your ass as a hat.\""
 msgstr ""
+"\"Еще один такой комментарий, я тебе тебе задницу на голову надену вместо "
+"шляпы.\""
 
 #: 2416 2420
 msgid "\"How many cranium rats are in Sigil?\""
-msgstr ""
+msgstr "\"Сколько черепных крыс в Сигиле?\""
 
 #: 2417 2421
-#, fuzzy
 msgid "\"Tell me more about the cranium rats.\""
-msgstr "\"Расскажи мне о телах побольше.\""
+msgstr "\"Расскажи мне о черепных крысах побольше.\""
 
 #: 2419
 msgid ""
@@ -138,6 +172,9 @@ msgid ""
 "my most inappropriate comment, especially in light of your recent assertion "
 "of dominance and physical superiority in this social situation.\""
 msgstr ""
+"Финеас моргает. Кажется, наконец-то твой вид произвел впечатление. \"Хммм. "
+"Беру назад свое последнюю реплику, особенно в свете твоего утверждения в "
+"превосходстве физической силы в данном социальном конфликте.\""
 
 #: 2423 2424
 msgid "\"I've heard enough. Farewell.\""
@@ -147,20 +184,23 @@ msgstr "\"Я выслушал достаточно. Прощай.\""
 msgid ""
 "\"Excellent! Most excellent!\" Claps his hands delightedly. \"Let me see...\""
 msgstr ""
+"\"Великолепно! Просто великолепно!\" Он восхищенно хлопает в ладоши. \"Так, "
+"посмотрим...\""
 
 #: 2432
 msgid ""
 "\"More than enough to last a bounty hunter a lifetime... perhaps several.\""
 msgstr ""
+"\"Более чем достаточно для одного охотника за наградами... или даже "
+"нескольких.\""
 
 #: 2433 2436 2444 2456
 msgid "\"I had some other questions...\""
 msgstr "\"У меня есть другие вопросы...\""
 
 #: 2434 2437 2445
-#, fuzzy
 msgid "\"I see. Well, thanks for your time. Farewell.\""
-msgstr "\"Хорошо. Спасибо за уделенное время. Прощай.\""
+msgstr "\"Понятно. Спасибо за уделенное время. Прощай.\""
 
 #: 2435
 msgid ""
@@ -170,16 +210,22 @@ msgid ""
 "spectacles up on his nose. \"As you can understand, we are anxious to reduce "
 "their numbers in Sigil.\""
 msgstr ""
+"\"Поблизости их очень много, они могут стать очень опасными... некоторые из "
+"них могут творить магические заклинания, некоторые из могут сопротивляться "
+"сильным магическим воздействиям, а еще они могут задействовать... коварную "
+"тактику.\" Он поправляет свои очки. \"Как ты понимаешь, мы весьма "
+"заинтересованы сократить их численность в Сигиле.\""
 
 #: 2438
 msgid ""
 "\"Well, it is quite an epic tale... you see, I was born here in Sigil...\""
 msgstr ""
+"\"Что ж, это довольно легендарная история... понимаешь, я ведь родился в "
+"Сигиле...\""
 
 #: 2439
-#, fuzzy
 msgid "\"Uh...\""
-msgstr "\"Я...\""
+msgstr "\"Ух...\""
 
 #: 2440
 msgid ""
@@ -187,15 +233,17 @@ msgid ""
 "found myself 'promoted' to this branch office and have remained here for "
 "these past... *many*... years.\" He sighs, then idly scratches his nose."
 msgstr ""
+"\"...и потом я понял, что каким-то образом оскорбил своих коллег, после чего "
+"обнаружил себя 'повышенным' до этого отделения офиса, да так и остался здесь "
+"на... *многие* годы.\" Он вздыхает, лениво почесывая свой нос."
 
 #: 2441
-#, fuzzy
 msgid "\"Uh... *yawn* ...I had some other questions...\""
-msgstr "\"Ух... У меня есть другие вопросы...\""
+msgstr "\"Ух... *зевок*... У меня есть другие вопросы...\""
 
 #: 2442
 msgid "\"I see... well, uh, thanks for your time. Farewell.\""
-msgstr ""
+msgstr "\"Понятно... что ж, спасибо за уделенное время. Прощай.\""
 
 #: 2443
 msgid ""
@@ -203,6 +251,9 @@ msgid ""
 "symptom of the position, I'm afraid. The job literally grows on you.\" He "
 "scratches himself again."
 msgstr ""
+"\"Моя сыпь? Заразная? Нет, нет... по крайней мере, я так не думаю. Боюсь это "
+"признак моего положения. Работа буквально множится на глазах.\" Он снова "
+"чешется."
 
 #: 2446
 msgid ""
@@ -212,37 +263,41 @@ msgid ""
 "guilt for this action. Without those meager funds, this branch office will "
 "be unable to cover its costs.\""
 msgstr ""
+"\"Ээээ... ну конечно же...\" Он дотягивается до ящичка с деньгами под "
+"прилавком, открывает крышку и шарит внутри, затем достает руку с несколькими "
+"монетами, которые он отдает тебе. \"Надеюсь, в тебе проснется хоть небольшое "
+"чувство вины. Без этих скудных средств филиал не сможет покрыть свои траты.\""
 
 #: 2447
 msgid "\"My heart bleeds for you. Farewell.\""
-msgstr ""
+msgstr "\"Мое сердце просто обливается кровью. Прощай.\""
 
 #: 2448
 msgid ""
 "\"I can only speculate that robbing me of all that I have wasn't enough for "
 "you. Why have you returned?\""
 msgstr ""
+"\"Мне остается только догадываться, почему награбленного тебе не хватило. "
+"Почему ты вернулся?\""
 
 #: 2450
 msgid "\"I could use what you have in your cashbox, then I'll be going.\""
-msgstr ""
+msgstr "\"Ты можешь отдать то, что у тебя в денежном ящике, а потом я пойду.\""
 
 #: 2451
-#, fuzzy
 msgid "\"Nothing today. Farewell.\""
-msgstr "\"Ничего больше, спасибо. Прощай.\""
+msgstr "\"На сегодня ничего. Прощай.\""
 
 #: 2452
 msgid "Turn in a rat tail, collect the bounty."
-msgstr ""
+msgstr "Отдать крысиные хвосты, забрать награду."
 
 #: 2453
 msgid ""
 "\"Actually, I'll hold on to them for a while. I had some other questions...\""
-msgstr ""
+msgstr "\"Лучше я их подержу некоторое время у себя. У меня есть вопросы...\""
 
 #: 2454
-#, fuzzy
 msgid "\"Maybe some other time. Farewell.\""
 msgstr "\"Возможно, в другой раз. Прощай.\""
 
@@ -252,14 +307,17 @@ msgid ""
 "you, good sir. The city of Sigil, and I, appreciate your efforts on our "
 "behalf.\""
 msgstr ""
+"Финеас оживленно мурлычет, совершая обмен. \"Спасибо, спасибо тебе, "
+"уважаемый сэр. Город Сигил и я от его имени благодарим тебя за приложенные "
+"усилия.\""
 
 #: 2457
 msgid "\"Thanks. If I get any more rat tails, I'll be back.\""
-msgstr ""
+msgstr "\"Спасибо. Если у меня будут еще хвосты, я обязательно вернусь.\""
 
 #: 2458
 msgid "\"Hmnnnnn? And your questions would be...?\""
-msgstr ""
+msgstr "\"Хмммм? И твой вопрос о...\""
 
 #: 2459
 msgid "\"Who are you?\""
@@ -271,24 +329,23 @@ msgstr "\"Что ты здесь делаешь?\""
 
 #: 2461
 msgid "\"How did someone as... illustrious as you end up in such a place?\""
-msgstr ""
+msgstr "\"Как такой выдающийся человек... как ты, оказался в подобном месте?\""
 
 #: 2462
 msgid "\"Tell me about these cranium rats.\""
-msgstr ""
+msgstr "\"Расскажи мне об этих черепных крысах.\""
 
 #: 2463
 msgid "\"I have some rat tails. I'd like to collect the bounty on them.\""
-msgstr ""
+msgstr "\"У меня есть крысиные хвосты. Я хотел бы получить за них награду.\""
 
 #: 2464
 msgid "\"Is that rash of yours contagious?\""
-msgstr ""
+msgstr "\"Твоя сыпь заразная?\""
 
 #: 2465
-#, fuzzy
 msgid "\"No more questions. Farewell.\""
-msgstr "\"На сегодня вопросов нет. Прощай.\""
+msgstr "\"Больше вопросов нет. Прощай.\""
 
 #: 51468 51501 51505 64158 64161
 msgid "\"I have some questions...\""
@@ -304,14 +361,17 @@ msgid ""
 "He looks at you as if he expected someone else. \"Thank the Powers, it's "
 "only you...\" He pauses and tries to compose himself."
 msgstr ""
+"\"Айййй! Пожалуйста, не убивайте меня...\" Финеас вскрикивает и испуганно "
+"подпрыгивает. По его взгляду ясно, что он ждал кого-то другого. \"Хвала "
+"Силам, это всего лишь ты...\" Он умолкает и пытается успокоиться."
 
 #: 51477
 msgid "\"Don't kill you? Are you in some sort of trouble?\""
-msgstr ""
+msgstr "\"Не убивать тебя? У тебя какие-то неприятности?\""
 
 #: 51478
 msgid "\"I can tell I don't want to be here, farewell.\""
-msgstr ""
+msgstr "\"Скажу тебе, что я не хочу здесь задерживаться. Прощай.\""
 
 #: 51479
 msgid ""
@@ -320,13 +380,15 @@ msgid ""
 "Office for Vermin and Disease Control too diligently.\" He looks at you "
 "pleadingly."
 msgstr ""
+"Он громко глотает и озирается. \"Черепные крысы... Кажется, они решили "
+"избавить Сигил от моего присутствия. Я выполнял свои обязанности в Офисе по "
+"контролю паразитов и эпидемий слишком усердно.\" Он умоляюще смотрит на тебя."
 
 #: 51480
 msgid "\"What are you talking about?\""
 msgstr "\"О чем это ты толкуешь?\""
 
 #: 51481 51484
-#, fuzzy
 msgid "\"I've heard enough, farewell.\""
 msgstr "\"Я выслушал достаточно. Прощай.\""
 
@@ -338,11 +400,15 @@ msgid ""
 "eyes it grew into a huge man-sized creature and said it was sent to kill me "
 "for my crimes against the cranium rats!\""
 msgstr ""
+"\"Сегодня я обнаружил огромную крысу, здесь, в моем офисе. Я поймал ее и "
+"пошел вниз, в подвал, чтобы расправиться с ней.\" С широко раскрытыми "
+"глазами он начинает задыхаться. \"На моих собственных глазах она выросла в "
+"огромное существо размером с человека и сказала, что ее прислали убить меня "
+"за те преступления, которые я совершил против черепных крыс!\""
 
 #: 51483
-#, fuzzy
 msgid "\"What did you do?\""
-msgstr "\"Что сделала Рейвел?\""
+msgstr "\"Что ты сделал?\""
 
 #: 51485
 msgid ""
@@ -352,14 +418,16 @@ msgid ""
 "scars. He meets your gaze again. \"Slay the creature for me... I'll make it "
 "worth your while.\""
 msgstr ""
+"\"Я спасся бегством! Слава Силам, я сделал дверь в подвал. Я запер дверь за "
+"собой, и теперь существо там взаперти.\" Он смотрит на тебя, а затем его "
+"взгляд пробегает по твоим многочисленным шрамам. Он снова встречается с "
+"тобой взглядом. \"Убей это существо ради меня... Я вознагражу твои усилия.\""
 
 #: 51486 51487
-#, fuzzy
 msgid "\"What'll you give me if I do?"
-msgstr "\"А ты меня отпустишь, если я скажу?\""
+msgstr "\"И что ты мне дашь взамен?\""
 
 #: 51488 51491 51495
-#, fuzzy
 msgid "\"I'll think about it, farewell.\""
 msgstr "\"Я подумаю над этим. Прощай.\""
 
@@ -369,33 +437,37 @@ msgid ""
 "and not turn the matter over to the city authorities...\" He pauses to gauge "
 "your reaction. \"And I'll pay you a hundred copper commons as well.\""
 msgstr ""
+"Немного подумав, он улыбается. \"Я забуду, что ты грабил меня, и не донесу "
+"городским властям...\" Он умолкает, чтобы оценить твою реакцию. \"И, конечно "
+"же, заплачу сто медяков.\""
 
 #: 51490 51494 51500 51504
-#, fuzzy
 msgid "\"All right, I'll do it.\""
-msgstr "\"А, ладно...\""
+msgstr "\"Хорошо, я сделаю это.\""
 
 #: 51492 51496
-#, fuzzy
 msgid "\"I don't want to get involved. Farewell."
-msgstr "\"Я не хочу больше слушать. Прощай.\""
+msgstr "\"Я не хочу в это ввязываться. Прощай.\""
 
 #: 51493
 msgid ""
 "He thinks for a moment then smiles. \"I'll pay you two hundred copper "
 "commons to rid my basement of the vile beast.\""
 msgstr ""
+"Немного подумав, он улыбается. \"Я заплачу двести медяков за то, что ты "
+"избавишь мой подвал от ужасной твари.\""
 
 #: 51497
 msgid ""
 "He smiles and gives you a slight bow. \"Excellent. Here is the key to my "
 "basement. Take care of the beast and then I shall pay you.\""
 msgstr ""
+"Он улыбается и слегка кивает. \"Великолепно. Вот ключ от моего подвала. "
+"Позаботься об этой твари, и тогда я заплачу тебе.\""
 
 #: 51498
-#, fuzzy
 msgid "Take the key and leave."
-msgstr "Взять предметы и уйти."
+msgstr "Взять ключи и уйти."
 
 #: 51499
 msgid ""
@@ -403,11 +475,13 @@ msgid ""
 "again you grace me with your presence. Perhaps you have come to accept my "
 "request for aid in slaying that beast in my basement?\""
 msgstr ""
+"Ты видишь Финеаса. Он смотрит на тебя поверх своих очков. \"И снова ты "
+"оказал любезность посетить меня. Может быть, ты все-таки согласишься и "
+"убьешь ту тварь из моего подвала?\""
 
 #: 51502 51506
-#, fuzzy
 msgid "\"I think not, farewell.\" "
-msgstr "\"Я ошибся. Прощай.\""
+msgstr "\"Не думаю. Прощай.\""
 
 #: 51503
 msgid ""
@@ -415,6 +489,9 @@ msgid ""
 "again you grace me with your presence. Perhaps you have reconsidered my "
 "request for aid in slaying that beast in my basement?\""
 msgstr ""
+"Ты видишь Финеаса. Он смотрит на тебя поверх своих очков. \"И снова ты "
+"оказал любезность посетить меня. Может быть, ты все-таки передумаешь и "
+"убьешь ту тварь из моего подвала?\""
 
 #: 51507
 msgid ""
@@ -422,41 +499,47 @@ msgid ""
 "again you grace me with your presence. You have completed the task I set "
 "before you?\""
 msgstr ""
+"Ты видишь Финеаса. Он смотрит на тебя поверх своих очков. \"И снова ты "
+"оказал любезность посетить меня. Ты выполнил то задание, которое я дал "
+"тебе?\""
 
 #: 51508
 msgid "\"Yes, the creature is dead and I have come for my reward.\""
-msgstr ""
+msgstr "\"Да, тварь убита. Я пришел за наградой.\""
 
 #: 51509
-#, fuzzy
 msgid "\"No, not yet.\""
-msgstr "\"Нет, не сегодня.\""
+msgstr "\"Нет, еще нет.\""
 
 #: 51510
 msgid ""
 "Phineas smiles at you. \"This is excellent news indeed. What was the reward "
 "I promised you?\""
 msgstr ""
+"Финеас улыбается тебе. \"Это великолепная новость. Какая там была награда, "
+"которую я тебе обещал?\""
 
 #: 51511
 msgid ""
 "\"One hundred copper commons and you'll forget my... borrowing the money "
 "from your till.\""
-msgstr ""
+msgstr "\"Сто медяков и ты забудешь, что я... одалживал у тебя деньги.\""
 
 #: 51512
 msgid "\"Two hundred copper commons.\""
-msgstr ""
+msgstr "\"Двести медяков.\""
 
 #: 51513
 msgid "\"Thank you for your services. I am in your debt.\" He bows to you."
-msgstr ""
+msgstr "\"Спасибо тебе за работу. Я у тебя в долгу.\" Он кивает тебе."
 
 #: 51515
 msgid ""
 "He frowns at you. \"I would appreciate it if you would attend to this matter "
 "with haste. Good day to you.\""
 msgstr ""
+"Он хмурится. \"Я приму это, если ты разберешься с этим как можно скорее. "
+"Хорошего тебе дня.\""
 
 #: 51516
 msgid "Leave."
@@ -468,6 +551,9 @@ msgid ""
 "He was quite distraught and rambling about what sounds like a wererat "
 "inhabiting his basement. I have agreed to kill the creature for a reward. "
 msgstr ""
+"Я был в Офисе по контролю паразитов и эпидемий, чтобы встретиться с Финеасом "
+"Т. Лортом. Он был сильно смятен и бормотал что-то насчет крысы-оборотня в "
+"его подвале. За вознаграждение я согласился убить существо."
 
 #: 54870
 msgid ""
@@ -475,6 +561,8 @@ msgid ""
 "reward, considering what I went through to accomplish the deed, but money is "
 "money."
 msgstr ""
+"Я убил крысу-оборотня и получил награду от Финеаса. Плата была скромной,  "
+"учитывая то, сквозь что ради этого прошел, но деньги - это деньги."
 
 #: 64156
 msgid ""
@@ -482,10 +570,12 @@ msgid ""
 "friendly look. \"Ah, my friend. And what is it I can do for you *this* time, "
 "hmnnnn?\""
 msgstr ""
+"Ты видишь Финеаса. Он надевает свои очки и дружески на тебя смотрит. \"А, "
+"это ты, друг мой. Что я могу сделать для тебя на *этот* раз, ммм?\""
 
 #: 64157
 msgid "\"You didn't jump out of your skin when I came in this time.\""
-msgstr ""
+msgstr "\"На этот раз ты не подпрыгнул от испуга, когда я пришел.\""
 
 #: 64159 64162
 msgid "\"Nothing, farewell.\""
@@ -497,6 +587,10 @@ msgid ""
 "I must admit that I have not felt so relaxed in years.\" He pauses to think "
 "for a moment. \"I thank you for that. Now, What can I do for you?"
 msgstr ""
+"Он кивает и улыбается. \"После твоего героического поступка я чувствую себя.."
+". гораздо лучше. Должен признать, что не чувствовал себя таким отдохнувшим "
+"уже много лет.\" С задумчивым выражением лица он умолкает. \"Спасибо тебе за "
+"это. Итак, что я могу для тебя сделать?\""
 
 #: 66745
 msgid ""
@@ -506,3 +600,10 @@ msgid ""
 "better than none at all... maybe if I bring enough rat tails to him, I can "
 "squeeze him for a better rate. "
 msgstr ""
+"Я поговорил с инспектором по контролю паразитов в Улье, Финеасом Т. Лортом, "
+"который сказал, что платит награды за все принесенные в офис хвосты черепных "
+"крыс по цене один медяк за хвост. Думаю, немного деньжат в кармане - лучше, "
+"чем ничего... может быть, если я принесу ему достаточно крысиных хвостов, то "
+"смогу договориться на более выгодную цену."
+
+
