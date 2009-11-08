@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2009-09-08 15:39+0600\n"
+"PO-Revision-Date: 2009-11-08 21:27+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -3813,11 +3813,11 @@ msgstr "Мавзолей"
 
 #: 22096
 msgid "House of Vermin and Disease Control"
-msgstr ""
+msgstr "Дом по контролю паразитов и эпидемий"
 
 #: 22097
 msgid "House of Vermin and Disease Control Cellar"
-msgstr ""
+msgstr "Подвал офиса по контролю паразитов и эпидемий"
 
 #: 22100
 msgid "Smoldering Corpse Bar"
@@ -3829,7 +3829,7 @@ msgstr ""
 
 #: 22102
 msgid "Fell's Tattoo Parlor"
-msgstr ""
+msgstr "Тату-салон Фелла"
 
 #: 22104
 msgid "Inside the Siege Tower"
@@ -3853,7 +3853,7 @@ msgstr ""
 
 #: 22115
 msgid "Coffin Maker's Shop"
-msgstr ""
+msgstr "Магазин гробовщика"
 
 #: 22117
 msgid "Wrecked House"
@@ -3901,7 +3901,7 @@ msgstr "Бордель"
 
 #: 22133
 msgid "Brothel Cellar"
-msgstr ""
+msgstr "Подвал борделя"
 
 #: 22134
 msgid "Advocate's House"
@@ -6074,29 +6074,36 @@ msgid ""
 "Your Dexterity is that of a bumbling fool. You earn a penalty of -%d to your "
 "Armor Class."
 msgstr ""
+"У тебя Ловкость неуклюжего болвана. Ты получаешь штраф в -%d к Классу Брони."
 
 #: 34251
 msgid ""
 "Your Dexterity demonstrates your poor reflexes. You earn a penalty of -%d to "
 "your Armor Class."
 msgstr ""
+"Твоя Ловкость демонстрирует твои плохие рефлексы. Ты получаешь штраф -%d к "
+"Классу Брони."
 
 #: 34252
 msgid "Your low Dexterity earns you a penalty of -%d to your Armor Class."
-msgstr ""
+msgstr "Из-за низкой Ловкости ты получаешь штраф -%d к своему Классу Брони."
 
 #: 34253
 msgid ""
 "Your sickly Constitution costs you a penalty of -%d hit points per level."
 msgstr ""
+"За свое ущербное Телосложение ты расплачиваешься штрафом в -%d очков жизни "
+"на каждый уровень."
 
 #: 34254
 msgid "Your poor Constitution costs you a penalty of -%d hit points per level."
 msgstr ""
+"За свое слабое Телосложение ты расплачиваешься штрафом в -%d очков жизни на "
+"каждый уровень."
 
 #: 34255
 msgid "Your Intelligence marks you as a drooling idiot."
-msgstr ""
+msgstr "Твой Интеллект выдает в тебе слюнтяя-идиота."
 
 #: 34256
 msgid "Your Intelligence is far below average."
@@ -6108,7 +6115,7 @@ msgstr "Твой Интеллект ниже среднего."
 
 #: 34258
 msgid "Your Wisdom marks you as one of the most foolish of all men."
-msgstr ""
+msgstr "Твоя Мудрость выдает в тебе одно из самых глупейших из всех людей."
 
 #: 34259
 msgid "Your Wisdom is far below average."
@@ -6124,7 +6131,7 @@ msgstr "Твое Телосложение ниже среднего."
 
 #: 34262
 msgid "Your Charisma is repulsive."
-msgstr ""
+msgstr "Твое Обаяние отвратительно."
 
 #: 34263
 msgid "Your Charisma is far below average."
@@ -6152,6 +6159,9 @@ msgid ""
 "\n"
 "No faction allegiance. "
 msgstr ""
+"Фракция: нейтральный\n"
+"\n"
+"Не принадлежит какой-либо фракции."
 
 #: 34585
 msgid ""
@@ -6781,31 +6791,31 @@ msgstr "Увеличились Пункты Мастерства [Nameless One]"
 
 #: 35614
 msgid "Proficiency Points increased permanently [Morte]"
-msgstr ""
+msgstr "Увеличились Пункты Мастерства [Morte]"
 
 #: 35615
 msgid "Proficiency Points increased permanently [Annah]"
-msgstr ""
+msgstr "Увеличились Пункты Мастерства [Annah]"
 
 #: 35616
 msgid "Proficiency Points increased permanently [Dak'kon]"
-msgstr ""
+msgstr "Увеличились Пункты Мастерства [Dak'kon]"
 
 #: 35617
 msgid "Proficiency Points increased permanently [Fall-From-Grace]"
-msgstr ""
+msgstr "Увеличились Пункты Мастерства [Fall-From-Grace]"
 
 #: 35618
 msgid "Proficiency Points increased permanently [Nordom]"
-msgstr ""
+msgstr "Увеличились Пункты Мастерства [Nordom]"
 
 #: 35619
 msgid "Proficiency Points increased permanently [Ignus]"
-msgstr ""
+msgstr "Увеличились Пункты Мастерства [Ignus]"
 
 #: 35620
 msgid "Proficiency Points increased permanently [Vhailor]"
-msgstr ""
+msgstr "Увеличились Пункты Мастерства [Vhailor]"
 
 #: 35621
 msgid "Characteristic Points increased permanently [Nameless One]"
@@ -7001,67 +7011,67 @@ msgstr "Предмет не может быть снят [Vhailor]"
 
 #: 35669
 msgid "Character does not want that item [Nameless One]"
-msgstr ""
+msgstr "Персонаж не хочет этого предмета [Nameless One]"
 
 #: 35670
 msgid "Character does not want that item [Morte]"
-msgstr ""
+msgstr "Персонаж не хочет этого предмета [Morte]"
 
 #: 35671
 msgid "Character does not want that item [Annah]"
-msgstr ""
+msgstr "Персонаж не хочет этого предмета [Annah]"
 
 #: 35672
 msgid "Character does not want that item [Dak'kon]"
-msgstr ""
+msgstr "Персонаж не хочет этого предмета [Dak'kon]"
 
 #: 35673
 msgid "Character does not want that item [Fall-From-Grace]"
-msgstr ""
+msgstr "Персонаж не хочет этого предмета [Fall-From-Grace]"
 
 #: 35674
 msgid "Character does not want that item [Nordom]"
-msgstr ""
+msgstr "Персонаж не хочет этого предмета [Nordom]"
 
 #: 35675
 msgid "Character does not want that item [Ignus]"
-msgstr ""
+msgstr "Персонаж не хочет этого предмета [Ignus]"
 
 #: 35676
 msgid "Character does not want that item [Vhailor]"
-msgstr ""
+msgstr "Персонаж не хочет этого предмета [Vhailor]"
 
 #: 35677
 msgid "Character does not want that cursed item [Nameless One]"
-msgstr ""
+msgstr "Персонаж не хочет этого проклятого предмета [Nameless One]"
 
 #: 35678
 msgid "Character does not want that cursed item [Morte]"
-msgstr ""
+msgstr "Персонаж не хочет этого проклятого предмета [Morte]"
 
 #: 35679
 msgid "Character does not want that cursed item [Annah]"
-msgstr ""
+msgstr "Персонаж не хочет этого проклятого предмета [Annah]"
 
 #: 35680
 msgid "Character does not want that cursed item [Dak'kon]"
-msgstr ""
+msgstr "Персонаж не хочет этого проклятого предмета [Dak'kon]"
 
 #: 35681
 msgid "Character does not want that cursed item [Fall-From-Grace]"
-msgstr ""
+msgstr "Персонаж не хочет этого проклятого предмета [Fall-From-Grace]"
 
 #: 35682
 msgid "Character does not want that cursed item [Nordom]"
-msgstr ""
+msgstr "Персонаж не хочет этого проклятого предмета [Nordom]"
 
 #: 35683
 msgid "Character does not want that cursed item [Ignus]"
-msgstr ""
+msgstr "Персонаж не хочет этого проклятого предмета [Ignus]"
 
 #: 35684
 msgid "Character does not want that cursed item [Vhailor]"
-msgstr ""
+msgstr "Персонаж не хочет этого проклятого предмета [Vhailor]"
 
 #: 35685
 msgid "Item is identified [Nameless One]"
@@ -8329,7 +8339,7 @@ msgstr "Оружие бесполезно"
 
 #: 37685
 msgid "Target Gone"
-msgstr ""
+msgstr "Цель исчезла"
 
 #: 37686
 msgid "End of Round"
@@ -8603,7 +8613,7 @@ msgstr ""
 
 #: 38885
 msgid "This is a test\n"
-msgstr ""
+msgstr "Это тест\n"
 
 #: 39198
 msgid "\"I have another question...\""
@@ -9025,6 +9035,8 @@ msgid ""
 "Krystall wants Rotten William dead in exchange for free passage through the "
 "Alley of Dangerous Angles."
 msgstr ""
+"Кристалл желает, чтобы Гнилой Уильям был мертв в обмен на бесплатный проход "
+"через Аллею с Опасными Углами."
 
 #: 39748
 msgid "Krystall wants Blackrose dead."
@@ -9036,7 +9048,7 @@ msgstr "Гнилой Уильям желает, чтобы Кристалл бы
 
 #: 39750
 msgid "Rotten William wants Blackrose dead."
-msgstr ""
+msgstr "Гнилой Уильям желает, чтобы Черный бутон был мертв."
 
 #: 40375
 msgid "Rule-of-Three Earring"
@@ -9811,7 +9823,7 @@ msgstr "Разное"
 
 #: 48882
 msgid "Location"
-msgstr ""
+msgstr "Расположение"
 
 #: 48883
 msgid "Quick Save"
@@ -10241,11 +10253,11 @@ msgstr ""
 
 #: 50876
 msgid "\"Pike off berk!\""
-msgstr ""
+msgstr "\"Отвали, пень!\""
 
 #: 50877
 msgid "\"Shut yer bone box!\""
-msgstr ""
+msgstr "\"Заткни свою черепушку!\""
 
 #: 50968
 msgid ""
