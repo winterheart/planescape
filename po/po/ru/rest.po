@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2009-11-08 21:27+0500\n"
+"PO-Revision-Date: 2009-11-16 00:33+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -930,7 +930,7 @@ msgstr ""
 
 #: 3595
 msgid "You have yet to meet any notable creatures in this category."
-msgstr ""
+msgstr "Ты еще не встречал ни одного существа из этой категории."
 
 #: 3596
 msgid ""
@@ -940,6 +940,10 @@ msgid ""
 "in exchange for money from the Dustmen. You know they've gathered your body "
 "from the streets on occasion..."
 msgstr ""
+"Сборщики - жалкие подобия людей, плывущие по течению Улья. Они проводят свою "
+"имитацию жизни, собирая тела умерших на улицах Улья и доставляя их к Моргу в "
+"обмен на деньги Тленных. Ты знаешь, что однажды они уже приносили твое тело "
+"с улиц..."
 
 #: 3597
 msgid ""
@@ -1392,7 +1396,7 @@ msgstr "\"Сколько?\""
 
 #: 3675
 msgid "Karina needs a friend."
-msgstr ""
+msgstr "Карине нужен друг."
 
 #: 3689
 msgid ""
@@ -1716,7 +1720,7 @@ msgstr "Заклинания"
 
 #: 4227
 msgid "Weapon Proficiencies"
-msgstr ""
+msgstr "Специализация оружия"
 
 #: 4228
 msgid "Ability Bonuses"
@@ -3079,7 +3083,7 @@ msgstr ""
 
 #: 19239
 msgid "Vermin Control Office"
-msgstr ""
+msgstr "Офис по контролю паразитов"
 
 #: 19240
 msgid "Wife-of-Angyar"
@@ -3175,6 +3179,8 @@ msgid ""
 "Journal has been updated\n"
 "   [Blank Line Placeholder] \n"
 msgstr ""
+"Обновлен журнал\n"
+"   [Blank Line Placeholder] \n"
 
 #: 19264
 msgid "World Map has been updated"
@@ -3781,7 +3787,7 @@ msgstr ""
 
 #: 22086
 msgid "Trash Warrens"
-msgstr ""
+msgstr "Мусорные районы"
 
 #: 22088
 msgid "Pharod's Court"
@@ -3825,7 +3831,7 @@ msgstr "Бар \"Тлеющий Труп\""
 
 #: 22101
 msgid "Tenement of Thugs"
-msgstr ""
+msgstr "Пристанище Головорезов"
 
 #: 22102
 msgid "Fell's Tattoo Parlor"
@@ -3857,12 +3863,13 @@ msgstr "Магазин гробовщика"
 
 #: 22117
 msgid "Wrecked House"
-msgstr ""
+msgstr "Разрушенный дом"
 
 #: 22118
 msgid "Bones of the Night"
 msgstr ""
 
+# Печатный дом, типография
 #: 22119
 msgid "Printing Shop"
 msgstr ""
@@ -3969,7 +3976,7 @@ msgstr ""
 
 #: 22161
 msgid "Maze of Reflections"
-msgstr ""
+msgstr "Лабиринт отражений"
 
 #: 22162
 msgid "Fortress Roof"
@@ -4029,7 +4036,7 @@ msgstr ""
 
 #: 22177
 msgid "Cranium Rat Collective"
-msgstr ""
+msgstr "Коллектив черепных крыс"
 
 #: 22178
 msgid "Drowned Nations"
@@ -4092,7 +4099,7 @@ msgstr "Нет"
 
 #: 23932
 msgid "\"Fine.\""
-msgstr ""
+msgstr "\"Отлично.\""
 
 #: 24207
 msgid "\"Do a small BODY of text, and a small series of responses, please.\""
@@ -4184,7 +4191,7 @@ msgstr ""
 
 #: 25622
 msgid "Soego's chambers."
-msgstr ""
+msgstr "Покои Соэго."
 
 #: 25623
 msgid "Antechamber of the Silent King's throne room."
@@ -4192,7 +4199,7 @@ msgstr ""
 
 #: 25624
 msgid "To the Cranium Rat Collective."
-msgstr ""
+msgstr "К коллективу черепных крыс."
 
 #: 25625
 msgid "Back to the Warrens of Thought."
@@ -4208,7 +4215,7 @@ msgstr ""
 
 #: 25629
 msgid "The Tailor."
-msgstr ""
+msgstr "Портной."
 
 #: 25630
 msgid "The Brothel of Slating Intellectual Lusts."
@@ -4216,7 +4223,7 @@ msgstr ""
 
 #: 25631
 msgid "To UnderSigil."
-msgstr ""
+msgstr "К Подсигилью."
 
 #: 25633
 msgid "The Advocate's home."
@@ -4244,15 +4251,15 @@ msgstr ""
 
 #: 25648
 msgid "Combat training chamber."
-msgstr ""
+msgstr "Боевая тренировочная комната."
 
 #: 25649
 msgid "Thievery training chamber."
-msgstr ""
+msgstr "Воровская тренировочная комната."
 
 #: 25651
 msgid "Magecraft training chamber."
-msgstr ""
+msgstr "Магическая тренировочная комната."
 
 #: 25653
 msgid "Hallway leading to the dormitories."
@@ -4303,7 +4310,7 @@ msgstr ""
 
 #: 25835
 msgid "This is a test"
-msgstr ""
+msgstr "Этот тест"
 
 #: 25931
 msgid "Let him be on his way."
@@ -4437,7 +4444,7 @@ msgstr ""
 
 #: 28082
 msgid "CLICK TO CLOSE"
-msgstr ""
+msgstr "ЗАКРЫТЬ"
 
 #: 28291
 msgid "\"Oh. I see. Can I ask you some other questions?\""
@@ -4445,7 +4452,7 @@ msgstr ""
 
 #: 28638 48876
 msgid "Return to Game"
-msgstr ""
+msgstr "Вернуться в игру"
 
 #: 28639
 msgid "Are you sure you want to delete this saved game?"
@@ -4521,7 +4528,7 @@ msgstr "Выполнен спасбросок: сопротивление пол
 
 #: 28887
 msgid "Made Save: Resist Breath"
-msgstr ""
+msgstr "Выполнен спасбросок: сопротивление дыханию"
 
 #: 28888
 msgid "Made Save: Resist Spell"
@@ -4541,7 +4548,7 @@ msgstr "Спасбросок провален: сопротивление пол
 
 #: 28892
 msgid "Failed Save: Resist Breath"
-msgstr ""
+msgstr "Спасбросок провален: сопротивление дыханию"
 
 #: 28893
 msgid "Failed Save: Resist Spell"
@@ -4633,7 +4640,7 @@ msgstr "ГОРЯЧИЕ КЛАВИШИ"
 
 #: 30406
 msgid "Unbroken Circle of Zerthimon"
-msgstr ""
+msgstr "Неразрывный круг Зертимона"
 
 #: 30407
 msgid "Book"
@@ -4645,7 +4652,7 @@ msgstr "Дневник Падшей Грации"
 
 #: 30420
 msgid "Dustman Earring"
-msgstr ""
+msgstr "Серьга Тленного"
 
 #: 30429
 msgid "Clot Charm"
@@ -4675,7 +4682,7 @@ msgstr ""
 
 #: 30631 32860 35734
 msgid "Loan Document"
-msgstr ""
+msgstr "Долговая расписка"
 
 #: 30687
 msgid ""
@@ -4934,7 +4941,7 @@ msgstr "Параметры автопаузы"
 
 #: 31478
 msgid "Feedback Options"
-msgstr ""
+msgstr "Параметры обратной связи"
 
 #: 31479
 msgid "Difficulty"
@@ -5219,9 +5226,10 @@ msgstr ""
 msgid "Lazlo"
 msgstr "Лазло"
 
+# пасхалка?
 #: 32068
 msgid "Hi Dr. Nick!"
-msgstr ""
+msgstr "Привет, доктор Ник!"
 
 #: 32079
 msgid "Human Male Thug Damage 1"
@@ -5345,7 +5353,7 @@ msgstr "Татуировка"
 
 #: 32798
 msgid "Chest"
-msgstr ""
+msgstr "Грудь"
 
 #: 32799
 msgid "Teeth"
@@ -5437,7 +5445,7 @@ msgstr "Крематорий. "
 
 #: 32845
 msgid "Downstairs to the Brothel's cellar."
-msgstr ""
+msgstr "Вниз в подвал борделя."
 
 #: 32846
 msgid "Yves' chambers."
@@ -5675,6 +5683,10 @@ msgid ""
 "for others. Their definition of \"betterment of life\" for others can vary, "
 "however."
 msgstr ""
+"законопослушное доброе\n"
+"\n"
+"Законопослушные добрые персонажи твердо верят в порядок и улучшение жизни "
+"других. Однако смысл \"улучшения жизни\" может трактоваться по-разному."
 
 #: 33927
 msgid ""
@@ -5947,7 +5959,7 @@ msgstr ""
 
 #: 34186
 msgid "Back upstairs to the Brothel."
-msgstr ""
+msgstr "Наверх в бордель."
 
 #: 34212
 msgid "\"I'm Civic Festhall Public Sensorium Sensory Stone #1.\""
@@ -5968,6 +5980,10 @@ msgid ""
 "some Embalming Fluid and Needle and Thread for her. There must be some "
 "around the Mortuary."
 msgstr ""
+"Странная женщина с когтями на руках и бледной кожей из Бальзамационной "
+"комнаты Морга со второго этажа ошибочно приняла меня за зомби и попросила "
+"меня принести ей бальзамирующую жидкость и иголку с ниткой. Они должны быть "
+"где-то в Морге."
 
 #: 34224
 msgid ""
@@ -5976,6 +5992,10 @@ msgid ""
 "some Embalming Fluid and Needle and Thread for her. It took a little while, "
 "but I was finally able to find some and deliver them to her."
 msgstr ""
+"Странная женщина с когтями на руках и бледной кожей из Бальзамационной "
+"комнаты Морга со второго этажа ошибочно приняла меня за зомби и попросила "
+"меня принести ей бальзамирующую жидкость и иголку с ниткой. Это потребовало "
+"немного времени, но я все-таки сумел найти их и принести их ей."
 
 #: 34225
 msgid "Fetch Embalming Key for Vaxis."
@@ -5987,6 +6007,9 @@ msgid ""
 "of the Embalming Room. He asked me to fetch an embalming key for him - in "
 "return, he said he would help me escape."
 msgstr ""
+"Я встретил замаскированного под зомби шпиона в восточной комнате Морга, к "
+"югу от Бальзамационной. Он попросил меня принести ему ключ от "
+"бальзамационной. В обмен он поможет, как он сказал, выбраться отсюда."
 
 #: 34227
 msgid ""
@@ -5995,6 +6018,10 @@ msgid ""
 "return, he said he would help me escape. I retrieved the key from Ei-Vene "
 "and gave it to Vaxis. "
 msgstr ""
+"Я встретил замаскированного под зомби шпиона в восточной комнате Морга, к "
+"югу от Бальзамационной. Он попросил меня принести ему ключ от "
+"бальзамационной. В обмен он поможет, как он сказал, выбраться отсюда. Я "
+"получил ключ от Эи-Вейн и дал его Ваксису."
 
 #: 34228
 msgid "Release Dimtree from his zombie condition."
@@ -6819,35 +6846,35 @@ msgstr "Увеличились Пункты Мастерства [Vhailor]"
 
 #: 35621
 msgid "Characteristic Points increased permanently [Nameless One]"
-msgstr ""
+msgstr "Увеличились Пункты Персонажа [Nameless One]"
 
 #: 35622
 msgid "Characteristic Points increased permanently [Morte]"
-msgstr ""
+msgstr "Увеличились Пункты Персонажа [Morte]"
 
 #: 35623
 msgid "Characteristic Points increased permanently [Annah]"
-msgstr ""
+msgstr "Увеличились Пункты Персонажа [Annah]"
 
 #: 35624
 msgid "Characteristic Points increased permanently [Dak'kon]"
-msgstr ""
+msgstr "Увеличились Пункты Персонажа [Dak'kon]"
 
 #: 35625
 msgid "Characteristic Points increased permanently [Fall-From-Grace]"
-msgstr ""
+msgstr "Увеличились Пункты Персонажа [Fall-From-Grace]"
 
 #: 35626
 msgid "Characteristic Points increased permanently [Nordom]"
-msgstr ""
+msgstr "Увеличились Пункты Персонажа [Nordom]"
 
 #: 35627
 msgid "Characteristic Points increased permanently [Ignus]"
-msgstr ""
+msgstr "Увеличились Пункты Персонажа [Ignus]"
 
 #: 35628
 msgid "Characteristic Points increased permanently [Vhailor]"
-msgstr ""
+msgstr "Увеличились Пункты Персонажа [Vhailor]"
 
 #: 35629
 msgid "Spell has failed to have been copied [Nameless One]"
@@ -7715,67 +7742,67 @@ msgstr "Новый уровень [Vhailor]"
 
 #: 36999
 msgid "Encumbered: Cannot Run [Nameless One]"
-msgstr ""
+msgstr "Затруднение: невозможно бежать [Nameless One]"
 
 #: 37000
 msgid "Encumbered: Cannot Run [Morte]"
-msgstr ""
+msgstr "Затруднение: невозможно бежать [Morte]"
 
 #: 37001
 msgid "Encumbered: Cannot Run [Annah]"
-msgstr ""
+msgstr "Затруднение: невозможно бежать [Annah]"
 
 #: 37002
 msgid "Encumbered: Cannot Run [Dak'kon]"
-msgstr ""
+msgstr "Затруднение: невозможно бежать [Dak'kon]"
 
 #: 37003
 msgid "Encumbered: Cannot Run [Fall-From-Grace]"
-msgstr ""
+msgstr "Затруднение: невозможно бежать [Fall-From-Grace]"
 
 #: 37004
 msgid "Encumbered: Cannot Run [Nordom]"
-msgstr ""
+msgstr "Затруднение: невозможно бежать [Nordom]"
 
 #: 37005
 msgid "Encumbered: Cannot Run [Ignus]"
-msgstr ""
+msgstr "Затруднение: невозможно бежать [Ignus]"
 
 #: 37006
 msgid "Encumbered: Cannot Run [Vhailor]"
-msgstr ""
+msgstr "Затруднение: невозможно бежать [Vhailor]"
 
 #: 37007
 msgid "Encumbered: Cannot Move [Nameless One]"
-msgstr ""
+msgstr "Затруднение: невозможно двигаться [Nameless One]"
 
 #: 37008
 msgid "Encumbered: Cannot Move [Morte]"
-msgstr ""
+msgstr "Затруднение: невозможно двигаться [Morte]"
 
 #: 37009
 msgid "Encumbered: Cannot Move [Annah]"
-msgstr ""
+msgstr "Затруднение: невозможно двигаться [Annah]"
 
 #: 37010
 msgid "Encumbered: Cannot Move [Dak'kon]"
-msgstr ""
+msgstr "Затруднение: невозможно двигаться [Dak'kon]"
 
 #: 37011
 msgid "Encumbered: Cannot Move [Fall-From-Grace]"
-msgstr ""
+msgstr "Затруднение: невозможно двигаться [Fall-From-Grace]"
 
 #: 37012
 msgid "Encumbered: Cannot Move [Nordom]"
-msgstr ""
+msgstr "Затруднение: невозможно двигаться [Nordom]"
 
 #: 37013
 msgid "Encumbered: Cannot Move [Ignus]"
-msgstr ""
+msgstr "Затруднение: невозможно двигаться [Ignus]"
 
 #: 37014
 msgid "Encumbered: Cannot Move [Vhailor]"
-msgstr ""
+msgstr "Затруднение: невозможно двигаться [Vhailor]"
 
 #: 37015
 msgid "Morale Failure: Panic [Nameless One]"
@@ -7923,115 +7950,115 @@ msgstr ""
 
 #: 37051
 msgid "Bash Succeeded [Nameless One]"
-msgstr ""
+msgstr "Успешный удар [Nameless One]"
 
 #: 37052
 msgid "Bash Succeeded [Morte]"
-msgstr ""
+msgstr "Успешный удар [Morte]"
 
 #: 37053
 msgid "Bash Succeeded [Annah]"
-msgstr ""
+msgstr "Успешный удар [Annah]"
 
 #: 37054
 msgid "Bash Succeeded [Dak'kon]"
-msgstr ""
+msgstr "Успешный удар [Dak'kon]"
 
 #: 37055
 msgid "Bash Succeeded [Fall-From-Grace]"
-msgstr ""
+msgstr "Успешный удар [Fall-From-Grace]"
 
 #: 37056
 msgid "Bash Succeeded [Nordom]"
-msgstr ""
+msgstr "Успешный удар [Nordom]"
 
 #: 37057
 msgid "Bash Succeeded [Ignus]"
-msgstr ""
+msgstr "Успешный удар [Ignus]"
 
 #: 37058
 msgid "Bash Succeeded [Vhailor]"
-msgstr ""
+msgstr "Успешный удар [Vhailor]"
 
 #: 37059
 msgid "Bash Failed [Nameless One]"
-msgstr ""
+msgstr "Неудачный удар [Nameless One]"
 
 #: 37060
 msgid "Bash Failed [Morte]"
-msgstr ""
+msgstr "Неудачный удар [Morte]"
 
 #: 37061
 msgid "Bash Failed [Annah]"
-msgstr ""
+msgstr "Неудачный удар [Annah]"
 
 #: 37062
 msgid "Bash Failed [Dak'kon]"
-msgstr ""
+msgstr "Неудачный удар [Dak'kon]"
 
 #: 37063
 msgid "Bash Failed [Fall-From-Grace]"
-msgstr ""
+msgstr "Неудачный удар [Fall-From-Grace]"
 
 #: 37064
 msgid "Bash Failed [Nordom]"
-msgstr ""
+msgstr "Неудачный удар [Nordom]"
 
 #: 37065
 msgid "Bash Failed [Ignus]"
-msgstr ""
+msgstr "Неудачный удар [Ignus]"
 
 #: 37066
 msgid "Bash Failed [Vhailor]"
-msgstr ""
+msgstr "Неудачный удар [Vhailor]"
 
 #: 37067
 msgid "Can't back stab with weapon [Nameless One]"
-msgstr ""
+msgstr "Невозможно нанести удар в спину этим оружием [Nameless One]"
 
 #: 37068
 msgid "Can't back stab with weapon [Annah]"
-msgstr ""
+msgstr "Невозможно нанести удар в спину этим оружием [Annah]"
 
 #: 37069
 msgid "Pick Pocket failed, target is Hostile [Nameless One]"
-msgstr ""
+msgstr "Воровство неудачно, цель враждебно настроена [Nameless One]"
 
 #: 37070
 msgid "Pick Pocket failed, target is Hostile [Annah]"
-msgstr ""
+msgstr "Воровство неудачно, цель враждебно настроена [Annah]"
 
 #: 37071
 msgid "Pick Pocket Failed [Nameless One]"
-msgstr ""
+msgstr "Воровство неудачно [Nameless One]"
 
 #: 37072
 msgid "Pick Pocket Failed [Annah]"
-msgstr ""
+msgstr "Воровство неудачно [Annah]"
 
 #: 37073
 msgid "Pick Pocket Failed [General, other NPC]"
-msgstr ""
+msgstr "Воровство неудачно [General, other NPC]"
 
 #: 37074
 msgid "Pick Pocket failed, target has no items [Nameless One]"
-msgstr ""
+msgstr "Воровство неудачно, у цели нет вещей [Nameless One]"
 
 #: 37075
 msgid "Pick Pocket failed, target has no items [Annah]"
-msgstr ""
+msgstr "Воровство неудачно, у цели нет вещей [Annah]"
 
 #: 37076
 msgid "Pick Pocket failed, your inventory is full [Nameless One]"
-msgstr ""
+msgstr "Воровство неудачно, инвентарь полон [Nameless One]"
 
 #: 37077
 msgid "Pick Pocket failed, your inventory is full [Annah]"
-msgstr ""
+msgstr "Воровство неудачно, инвентарь полон [Annah]"
 
 #: 37078
 msgid "Special Ability gained [Nameless One]"
-msgstr ""
+msgstr "Получена особая возможность [Nameless One]"
 
 #: 37079
 msgid "Inventory Full, Item Dropped [Nameless One]"
@@ -9001,14 +9028,17 @@ msgid ""
 "Rotten William wants Krystall dead in exchange for free passage through the "
 "Alley of Dangerous Angles."
 msgstr ""
+"Гнилой Уильям желает, чтобы Кристалл была мертва в обмен на бесплатный "
+"проход через Аллею с Опасными Углами."
 
 #: 39740
 msgid "Krystall is dead. Now I have to kill Blackrose for Rotten William."
 msgstr ""
+"Кристалл мертва. Теперь мне нужно убить Черного бутона для Гнилого Уильяма."
 
 #: 39741
 msgid "Blackrose is dead and Rotten William tried to betray me."
-msgstr ""
+msgstr "Черный бутон мертв, а Гнилой Уильям попытался предать меня."
 
 #: 39742 39751
 msgid "Blackrose wants Krystall dead."
@@ -9020,7 +9050,7 @@ msgstr "Кристалл мертва."
 
 #: 39744 44300
 msgid "Blackrose wants Rotten William dead."
-msgstr ""
+msgstr "Черный бутон желает, чтобы Гнилой Уильям был мертв."
 
 #: 39745
 msgid "Rotten William is dead."
@@ -9056,7 +9086,7 @@ msgstr "Серьга \"Правило трех\""
 
 #: 40388
 msgid "Disguise Dropped"
-msgstr ""
+msgstr "Маскировка сброшена"
 
 #: 41271
 msgid "Wisdom gained from specialization bonus."
@@ -9211,7 +9241,7 @@ msgstr "[Do Not Translate] test"
 
 #: 41839
 msgid "Number of Deaths:"
-msgstr ""
+msgstr "Число смертей:"
 
 #: 42307
 msgid "Note from Corpse #1201"
@@ -9255,7 +9285,7 @@ msgstr ""
 
 #: 43166
 msgid "This door is locked."
-msgstr ""
+msgstr "Эта дверь заперта."
 
 #: 43283
 msgid "\"Sure. Farewell.\""
@@ -9419,7 +9449,7 @@ msgstr ""
 
 #: 44958
 msgid "T"
-msgstr ""
+msgstr "T"
 
 #: 44959
 msgid "Gather"
@@ -9450,7 +9480,7 @@ msgstr "Шеренга"
 
 #: 44965
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #: 44966
 msgid "Wedge"
@@ -9458,7 +9488,7 @@ msgstr "Клин"
 
 #: 44967
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: 44968
 msgid "Line"
@@ -9550,7 +9580,7 @@ msgstr ""
 
 #: 45374
 msgid "<ITEMNAME> - <ITEMCOST>CP"
-msgstr ""
+msgstr "<ITEMNAME> - <ITEMCOST> мед."
 
 #: 45375
 msgid ""
@@ -9601,7 +9631,7 @@ msgstr ""
 
 #: 46717
 msgid "Bead"
-msgstr ""
+msgstr "Бусина"
 
 #: 46719 48032
 msgid "Lesser Shade"
@@ -9745,7 +9775,7 @@ msgstr "Ручной Лим-Лим"
 
 #: 48339
 msgid "Stone Lim-Lim"
-msgstr ""
+msgstr "Каменный лим-лим"
 
 #: 48371
 msgid "Festhall Room Key"
@@ -10189,7 +10219,7 @@ msgstr ""
 
 #: 50532
 msgid "Cannot use item."
-msgstr ""
+msgstr "Невозможно использовать предмет."
 
 #: 50537
 msgid "Wrong Item Type"
@@ -10217,7 +10247,7 @@ msgstr ""
 
 #: 50569
 msgid "Cannot move item"
-msgstr ""
+msgstr "Невозможно переместить предмет"
 
 #: 50570
 msgid "Blade of the Immortal"
@@ -10623,7 +10653,7 @@ msgstr ""
 
 #: 51464
 msgid "To Ragpicker's Square."
-msgstr ""
+msgstr "На площадь Старьевщиков."
 
 #: 51465
 msgid "Entrance to the Black-Barbed Maze. "
@@ -11480,7 +11510,7 @@ msgstr ""
 
 #: 58938
 msgid "Cannot remove default weapon"
-msgstr ""
+msgstr "Невозможно удалить оружие по умолчанию"
 
 #: 58963
 msgid "Insult Morte to Nordom 1"
@@ -11633,7 +11663,7 @@ msgstr ""
 
 #: 59124
 msgid "Find a tombstone for the Crier of Es-Annon."
-msgstr ""
+msgstr "Найти надгробье для Плакальщика Эс-Аннона."
 
 #: 59125
 msgid ""
@@ -11708,11 +11738,11 @@ msgstr "Кольцо надето"
 
 #: 59157 61799 63622
 msgid "Can only equip teeth"
-msgstr ""
+msgstr "Можно надевать только зубы"
 
 #: 59158 59857 61853 61854
 msgid "Tooth equipped"
-msgstr ""
+msgstr "Зубы надеты"
 
 #: 59159
 msgid "To the northeastern portion of the Hive."
@@ -11824,7 +11854,7 @@ msgstr "К северо-восточной части Улья."
 
 #: 59799
 msgid "To the Cellar."
-msgstr ""
+msgstr "В подвал."
 
 #: 59801
 msgid "To the Southwestern portion of the Hive."
@@ -11872,7 +11902,7 @@ msgstr "В Верхний район."
 
 #: 59814
 msgid "Arrival Point."
-msgstr ""
+msgstr "Точка прибытия."
 
 #: 59815
 msgid "Crystal."
@@ -11901,7 +11931,7 @@ msgstr ""
 
 #: 59824
 msgid "Asleep"
-msgstr ""
+msgstr "Сон"
 
 #: 59825
 msgid "Berserk"
@@ -11913,7 +11943,7 @@ msgstr "Паника"
 
 #: 59830
 msgid "Stunned"
-msgstr ""
+msgstr "Оглушение"
 
 #: 59831
 msgid "Cursed"
@@ -11921,7 +11951,7 @@ msgstr "Проклятие"
 
 #: 59832
 msgid "Helpless"
-msgstr ""
+msgstr "Беспомощность"
 
 #: 59833
 msgid "Mirror Image"
@@ -11929,11 +11959,11 @@ msgstr ""
 
 #: 59834
 msgid "Silenced"
-msgstr ""
+msgstr "Безмолвие"
 
 #: 59835
 msgid "Charmed"
-msgstr ""
+msgstr "Очарование"
 
 #: 59836
 msgid "Poisoned"
@@ -11941,15 +11971,15 @@ msgstr "Отравление"
 
 #: 59837
 msgid "Protection from Critical Hits"
-msgstr ""
+msgstr "Защита от критических попаданий"
 
 #: 59838
 msgid "Better Critical Hits"
-msgstr ""
+msgstr "Лучшие критические попадания"
 
 #: 59839
 msgid "Infravision"
-msgstr ""
+msgstr "Тепловидение"
 
 #: 59840
 msgid "Blinded"
@@ -11957,11 +11987,11 @@ msgstr "Слепота"
 
 #: 59841
 msgid "Diseased"
-msgstr ""
+msgstr "Болезнь"
 
 #: 59842
 msgid "Feebleminded"
-msgstr ""
+msgstr "Слабоумие"
 
 #: 59843
 msgid "Undetectable"
@@ -11969,7 +11999,7 @@ msgstr ""
 
 #: 59844
 msgid "Duplicated"
-msgstr ""
+msgstr "Двойник"
 
 #: 59845
 msgid "Blessed"
@@ -11977,7 +12007,7 @@ msgstr "Благословение"
 
 #: 59846
 msgid "Detect Evil"
-msgstr ""
+msgstr "Обнаружение зла"
 
 #: 59847
 msgid "Invisible"
@@ -11985,11 +12015,11 @@ msgstr "Невидимость"
 
 #: 59848
 msgid "Luck Bonus"
-msgstr ""
+msgstr "Бонус к Удаче"
 
 #: 59849 67294
 msgid "Aid"
-msgstr ""
+msgstr "Помощь"
 
 #: 59850
 msgid "Within Antimagic Zone"
@@ -11997,7 +12027,7 @@ msgstr ""
 
 #: 59851
 msgid "Blurred"
-msgstr ""
+msgstr "Расплывчатость"
 
 #: 59852
 msgid "Embalmed"
@@ -12005,7 +12035,7 @@ msgstr ""
 
 #: 59853
 msgid "Confused"
-msgstr ""
+msgstr "Смущение"
 
 #: 59854
 msgid "Celestial Fire"
@@ -12241,15 +12271,15 @@ msgstr ""
 
 #: 60572
 msgid "I've delivered the handbill."
-msgstr ""
+msgstr "Я доставил рекламный листок."
 
 #: 60573
 msgid "I've delivered the message."
-msgstr ""
+msgstr "Я доставил сообщение."
 
 #: 60574
 msgid "Take the handbill to Barkis at the Smoldering Corpse."
-msgstr ""
+msgstr "Принести рекламный листок Баркису из Тлеющего трупа."
 
 #: 60575
 msgid "I've posted the handbill at the Smoldering Corpse."
@@ -12465,7 +12495,7 @@ msgstr ""
 
 #: 60742
 msgid "Free the deva."
-msgstr ""
+msgstr "Освободить дэву."
 
 #: 60758
 msgid ""
@@ -12475,7 +12505,7 @@ msgstr ""
 
 #: 60759
 msgid "I have freed Trias. "
-msgstr ""
+msgstr "Я освободил Триаса."
 
 #: 60760
 msgid "Find Forked-Tongue"
@@ -12678,7 +12708,7 @@ msgstr ""
 
 #: 60803
 msgid "Kill Carl Parfidor"
-msgstr ""
+msgstr "Убить Карла Парфидора"
 
 #: 60804
 msgid ""
@@ -12686,6 +12716,9 @@ msgid ""
 "perform the deed myself, I have agreed to hire someone else to do it. I "
 "believe that the harlot, Kiri, will perform the deed for me."
 msgstr ""
+"Роберта Парфидор попросила меня убить своего мужа, Карла. Хотя я и не могу "
+"сделать этого, я согласился нанять кого-нибудь еще для этого. Думаю, что "
+"проститутка Кири сможет сделать это для меня."
 
 #: 60805
 msgid "Free Dona Quisho's fiend."
@@ -12781,7 +12814,7 @@ msgstr "Склад Куатраа"
 
 #: 61278
 msgid "Open Tomb."
-msgstr ""
+msgstr "Открытая могила."
 
 #: 61279
 msgid "The Pawn Shop."
@@ -12829,7 +12862,7 @@ msgstr ""
 
 #: 61495
 msgid "Find the \"source\" of Pharod's bodies for Emoric."
-msgstr ""
+msgstr "Выяснить для Эморика, откуда Фарод берет тела."
 
 #: 61577
 msgid "\"The Forge\""
@@ -12884,7 +12917,7 @@ msgstr ""
 
 #: 61625
 msgid "To the Wrecked House."
-msgstr ""
+msgstr "В разрушенный дом."
 
 #: 61626
 msgid "To the Factor's Room."
@@ -12908,7 +12941,7 @@ msgstr "В Нижний район"
 
 #: 61631
 msgid "A Wrecked House."
-msgstr ""
+msgstr "Разрушенный дом."
 
 #: 61632
 msgid "To the Bones of the Night."
@@ -12935,6 +12968,8 @@ msgid ""
 "Kiri has killed Carl Parfidor. I contacted Roberta and she paid me my fee. "
 "All has worked out well."
 msgstr ""
+"Кири убила Карла Парфидора. Я связался с Робертой, и она выплатила мне мою "
+"долю. Все сработали хорошо."
 
 #: 61967
 msgid ""
@@ -12982,7 +13017,7 @@ msgstr "Лестница на третий этаж."
 
 #: 62398
 msgid "To the Outlands."
-msgstr ""
+msgstr "Во Внешние земли."
 
 #: 62399
 msgid "House of Fhjull."
@@ -13010,7 +13045,7 @@ msgstr ""
 
 #: 62405
 msgid "The Dump."
-msgstr ""
+msgstr "Свалка."
 
 #: 62406
 msgid "Grain Silo."
@@ -13026,7 +13061,7 @@ msgstr ""
 
 #: 62418
 msgid "Always Run"
-msgstr ""
+msgstr "Всегда бежать"
 
 #: 62419
 msgid ""
@@ -13053,15 +13088,15 @@ msgstr ""
 
 #: 63235
 msgid "UnderSigil"
-msgstr ""
+msgstr "Подсигилье"
 
 #: 63242
 msgid "Sound Processing"
-msgstr ""
+msgstr "Обработка звука"
 
 #: 63243
 msgid "Music Processing"
-msgstr ""
+msgstr "Обработка музыки"
 
 #: 63244
 msgid ""
@@ -13420,11 +13455,11 @@ msgstr "Сигил: Город Дверей"
 
 #: 65011
 msgid "Death in the Alley"
-msgstr ""
+msgstr "Смерть в аллее"
 
 #: 65012
 msgid "Shadows Will Follow"
-msgstr ""
+msgstr "Тень идут следом"
 
 #: 65013
 msgid "Pharod's Destiny"
@@ -13444,7 +13479,7 @@ msgstr ""
 
 #: 65018
 msgid "Curst Returns"
-msgstr ""
+msgstr "Возвращение в Проклятый"
 
 #: 65019
 msgid "Curst"
@@ -13464,7 +13499,7 @@ msgstr ""
 
 #: 65023
 msgid "The Outlands"
-msgstr ""
+msgstr "Внешние земли"
 
 #: 65024
 msgid "Transcendence 1"
@@ -13703,7 +13738,7 @@ msgstr ""
 
 #: 67049
 msgid "AC Bonuses"
-msgstr ""
+msgstr "Бонусы КБ"
 
 #: 67154
 msgid "Portal Lens"
@@ -13735,7 +13770,7 @@ msgstr "КБ против Снарядов"
 
 #: 67208
 msgid "Resistances"
-msgstr ""
+msgstr "Сопротивления"
 
 #: 67209
 msgid "Normal Fire"

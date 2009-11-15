@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddhall.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:48+0600\n"
+"PO-Revision-Date: 2009-11-16 00:39+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 1301
 msgid "\"Only surface wounds? What do you mean?\""
@@ -32,9 +32,8 @@ msgid "\"So be it. Farewell, Dhall.\""
 msgstr "\"Пусть будет так. Прощай, Дхолл.\""
 
 #: 1327
-#, fuzzy
 msgid "\"Who *are* you?\""
-msgstr "\"Кто ты?\""
+msgstr "\"Кто *ты*?\""
 
 #: 13288
 #, fuzzy
@@ -168,7 +167,6 @@ msgid "\"Farewell.\""
 msgstr "\"Прощай.\""
 
 #: 5069
-#, fuzzy
 msgid "\"Do you know who I am?\""
 msgstr "\"Ты знаешь, кто я?\""
 
@@ -248,7 +246,6 @@ msgstr ""
 "\"Возможно, ты сможешь ответить на некоторые из моих вопросов, Дхолл...\""
 
 #: 5732
-#, fuzzy
 msgid "\"I don't have time for this. Farewell.\""
 msgstr "\"У меня нет времени на это. Прощай.\""
 
@@ -354,7 +351,7 @@ msgstr "\"Возможно, ты сможешь объяснить, почему
 #: 6033 953 958 974 985
 #, fuzzy
 msgid "\"True Death?\""
-msgstr "\"Истинной Смерти?..\""
+msgstr "\"Истинная Смерть?\""
 
 #: 6034
 msgid "\"Shadow that is this life?\""
@@ -1085,12 +1082,11 @@ msgstr ""
 #: 954
 #, fuzzy
 msgid "\"Dustmen?\""
-msgstr "\"Тленных.\""
+msgstr "\"Тленных?\""
 
 #: 955
-#, fuzzy
 msgid "\"Sigil?\""
-msgstr "\"Сэр?\""
+msgstr "\"Сигил?\""
 
 #: 957
 msgid ""
@@ -1207,3 +1203,4 @@ msgstr "\"Возможно, я это выдумал. У меня были ещ�
 #: 983
 msgid "\"The boundary between the shadow of this life and the True Death.\""
 msgstr "\"Границу между владениями тени этой жизни и Истинной Смерти.\""
+
