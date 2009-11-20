@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dfleece.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:10+0600\n"
+"PO-Revision-Date: 2009-11-20 23:57+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 1754
 msgid ""
@@ -196,7 +196,7 @@ msgid ""
 "might have taken something from you."
 msgstr ""
 "Ты уже почти готов идти прочь, когда неожиданно чувствуешь, что чего-то не "
-"хватает. Ты подозревающе оглядываешься на человека, как раз в то время, "
+"хватает. Ты с подозрением оглядываешься на человека, как раз в то время, "
 "когда он засовывает руку в твой кошелек... ты не уверен, но тебе кажется, "
 "что он мог что-то забрать у тебя."
 
@@ -205,22 +205,20 @@ msgid "Grab his hand."
 msgstr "Схватить его за руку."
 
 #: 7621 7644 7654
-#, fuzzy
 msgid "\"Hey! What do you think you're doing?!\""
-msgstr "\"Что у тебя есть из выпивки?\""
+msgstr "\"Эй! Ты что творишь?!\""
 
 #: 7622 7624 7625 7645 7647 7648
 msgid "Bait the man into pick pocketing you again, and observe his technique."
-msgstr ""
+msgstr "Спровоцировать мужчину на воровство и проследить за его техникой."
 
 #: 7626 7631 7638 7669 7678 7689
 msgid "Attack him."
 msgstr "Атаковать его."
 
 #: 7627 7650 7656
-#, fuzzy
 msgid "Ignore the incident, leave."
-msgstr "Не обращать на него внимания и уйти."
+msgstr "Не обращать внимания на инцидент и уйти."
 
 #: 7628
 msgid ""
@@ -239,9 +237,8 @@ msgid "\"Stop struggling, dammit!\""
 msgstr "\"Хватит вырываться, черт возьми!\""
 
 #: 7632 7640
-#, fuzzy
 msgid "Let him go."
-msgstr "Отпустить его... на этот раз."
+msgstr "Позволить ему уйти."
 
 #: 7633
 msgid ""
@@ -252,7 +249,6 @@ msgstr ""
 "схватить. С криком он бросается наутек вниз по улице."
 
 #: 7634 7636
-#, fuzzy
 msgid "\"All right then...\""
 msgstr "\"Ну хорошо...\""
 
@@ -314,14 +310,12 @@ msgstr ""
 "выкручиваться. Под твоим взглядом он сникает. "
 
 #: 7658
-#, fuzzy
 msgid "\"Return what you stole from me. Now.\""
-msgstr "\"Верни мне все, что ты украл у меня.\""
+msgstr "\"Верни мне все, что ты украла у меня. Сейчас же.\""
 
 #: 7659 7666 7671 7675 7679 7690 7700
-#, fuzzy
 msgid "Let him go, then leave."
-msgstr "Отпустить его... на этот раз."
+msgstr "Позволить ему уйти, уйти самому."
 
 #: 7660
 msgid ""
@@ -339,9 +333,8 @@ msgstr ""
 "\"Нет, оставь себе лишнее... Мне нужно только то, что ты украл у меня.\""
 
 #: 7662 7668
-#, fuzzy
 msgid "\"We're even. Now, I never want to see you again. Understand?\""
-msgstr "\"Довольно. А теперь, чтоб я тебя никогда больше не видел. Понятно?\""
+msgstr "\"Довольно. И чтобы я тебя никогда больше не видел. Понятно?\""
 
 #: 7663
 msgid "Bluff: \"Give me everything else you have, and I won't kill you.\""
@@ -369,17 +362,15 @@ msgstr "\"Эээ...\" Он сглатывает. \"Рубака, это все. 
 
 #: 7672
 msgid "\"I meant *everything,* so give me *everything.*\""
-msgstr ""
+msgstr "\"Я же сказал - *все*, так что отдай мне *все*.\""
 
 #: 7673 7698
-#, fuzzy
 msgid "\"Fine. I never want to see you again. Understand?\""
-msgstr "\"Я не хочу тебя больше видеть. Понятно?\""
+msgstr "\"Отлично. Я не хочу тебя больше видеть. Понятно?\""
 
 #: 7674 7699
-#, fuzzy
 msgid "\"Then your life's run out. Prepare to die.\""
-msgstr "\"Это был твой последний шанс. Готовься к смерти.\""
+msgstr "\"Тогда твоя жизнь подходит к концу. Готовься к смерти.\""
 
 #: 7676
 msgid "He nods. "
@@ -387,7 +378,7 @@ msgstr "Он кивает. "
 
 #: 7677 7688
 msgid "Punch him, make sure he understands."
-msgstr ""
+msgstr "Ударить его, чтобы он понял окончательно."
 
 #: 7680
 msgid ""
@@ -446,7 +437,7 @@ msgstr ""
 
 #: 7693
 msgid "Pass him by."
-msgstr ""
+msgstr "Пройти мимо."
 
 #: 7694
 msgid ""
@@ -470,3 +461,4 @@ msgstr "\"Нет, не сегодня.\""
 #: 7697
 msgid "\"I mean it! I don't have anything more!\""
 msgstr "\"Я же сказал! У меня ничего больше нет!\""
+
