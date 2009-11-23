@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddakkon.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-09-27 09:26+0600\n"
+"PO-Revision-Date: 2009-11-23 23:42+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -310,6 +310,10 @@ msgid ""
 "from the tongue of a dying man, the memory of a past love, or an angry curse "
 "hurled at the sky. When the key and door match, the door reveals itself.\""
 msgstr ""
+"\"Ключей, как и дверей, много. Необязательно они могут быть предметами из "
+"металла. Ключом могут быть скрещенные мечи, капля крови, упавшая с языка "
+"умирающего человека, память о прошлой любви или проклятье, пущенное в небо. "
+"Когда ключ подходит к двери, она проявляется.\""
 
 #: 15027 59507
 msgid ""
@@ -871,7 +875,7 @@ msgstr "\"Что это за уровень отражает клинок?\""
 
 #: 15284
 msgid "\"Very well. An extra blade would be welcome, Dak'kon.\""
-msgstr ""
+msgstr "\"Очень хорошо. Еще один клинок всегда кстати, Даккон.\""
 
 #: 15285
 msgid ""
@@ -1153,15 +1157,14 @@ msgid ""
 "was a familiar, a mage's pet, bought and bound. And the last was a slave.\""
 msgstr ""
 "Даккон даже не смотрит на символы. \"В татуировке говорится о четырех "
-"разумах. Один был женщиной, которая любила человека, который *знал* ее и "
+"разумах. Одна был девушкой, которая любила человека, который *знал* ее и "
 "*знал*, что не любит. Другой был слепым человеком, который видел вещи, "
 "которых не мог увидеть глаз смертного. Другой был хранителем, ручным "
-"животным мага, купленным и связанным. А последний был рабом.\""
+"животным мага, купленным и связанным. А последний был невольником.\""
 
 #: 22562 60140
-#, fuzzy
 msgid "\"The four are bound with a symbol that is *known* to me.\""
-msgstr "\"Прошу прощения, но это имя мне неизвестно.\""
+msgstr "\"Четверо связаны символом, *известным* мне.\""
 
 #: 22563
 msgid ""
@@ -1319,9 +1322,8 @@ msgid "\"I had another question I wanted to ask him...\""
 msgstr "\"Я хочу задать ему другой вопрос...\""
 
 #: 25033
-#, fuzzy
 msgid "\"I see. That is all I wished to know. Farewell.\""
-msgstr "\"Хорошо. Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Понятно. Это все, что я хотел узнать. Прощай.\""
 
 #: 25036 25041 25046 25048 25058 25059 25060 25062 25072 25073 25074 25076
 #: 25086 25087 25088 25090 25097 25098 25099 25101 25108 25109 25110 25112
@@ -1501,23 +1503,21 @@ msgid "\"Why did you not want to tell me this?\""
 msgstr "\"Почему ты хочешь умереть?\""
 
 #: 25169 25170 25171 60141
-#, fuzzy
 msgid "\"What symbol?\""
 msgstr "\"Каким символом?\""
 
 #: 25174 60147 60148 60155
-#, fuzzy
 msgid ""
 "\"Enough about the symbol. Tell me everything you know about those four that "
 "are on the tattoo.\""
 msgstr ""
-"\"Довольно о символе. Расскажи мне все, что ты знаешь о тех четырех из "
-"татуировки.\""
+"\"Довольно о символе. Расскажи мне все, что ты знаешь о тех четырех на "
+"татуировке.\""
 
 #: 25175 60149 60150 60156 60162
-#, fuzzy
 msgid "\"I see. Can you tell me anything more about the four on the tattoo?\""
-msgstr "\"Ого. Расскажи мне побольше о Морге.\""
+msgstr ""
+"\"Понятно. Ты можешь рассказать что-нибудь еще о четырех на татуировке?\""
 
 #: 25176 25177 25178
 #, fuzzy
@@ -2532,9 +2532,8 @@ msgstr "\"Есть еще несколько вещей, о которых я х
 #: 59191 59195 59199 59204 59214 59218 59223 59227 59237 59243 59260 59264
 #: 59439 59455 59465 59474 59480 59488 59497 59506 59511 59518 59524 59539
 #: 59945
-#, fuzzy
 msgid "\"I see. Let's move on.\""
-msgstr "\"Я в порядке. Идем.\""
+msgstr "\"Понятно. Идем.\""
 
 #: 59198
 msgid "\"All... right then. There are other things I would *know*...\""
@@ -2592,9 +2591,8 @@ msgstr ""
 "\"Очень хорошо. Есть еще несколько вещей, о которых я хочу *узнать*...\""
 
 #: 59248 59950 59954
-#, fuzzy
 msgid "\"Never mind, then. Let's move on.\""
-msgstr "\"А ладно, неважно. Прощай.\""
+msgstr "\"Тогда не важно. Идем дальше.\""
 
 #: 59252 59257
 #, fuzzy
@@ -2621,9 +2619,8 @@ msgid "\"Dak'kon, did I hear those words from you when I traveled with you?\""
 msgstr "\"Даккон, я слышал эти слова от тебя, когда путешествовал с тобой?\""
 
 #: 59256 59272 59289 59370 59412 59426
-#, fuzzy
 msgid "\"I... see. There are other things I would *know*...\""
-msgstr "\"Есть еще несколько вещей, о которых я хочу узнать...\""
+msgstr "\"Ясно... Есть еще несколько вещей, о которых я хочу *узнать*...\""
 
 #: 59258
 msgid ""
@@ -2671,7 +2668,6 @@ msgid ""
 msgstr ""
 
 #: 59270
-#, fuzzy
 msgid ""
 "\"*Know* that he was different. *Know* that the differences were not marked "
 "on the skin, nor in the Way of the weapon, nor in the attire that cloaked "
@@ -2937,34 +2933,36 @@ msgid "\"You asked that I hear you.\""
 msgstr "\"Ты попросил меня выслушать себя.\""
 
 #: 59355
-#, fuzzy
 msgid "\"What did I say?\""
-msgstr "\"Ты что-то сказал?\""
+msgstr "\"И что я сказал?\""
 
 #: 59360
 msgid ""
 "Dak'kon is silent. \"I heard your words. The chaos in my mind became still. "
 "I *knew* myself again.\""
 msgstr ""
+"Даккон умолкает. \"Я услышал твои слова. Хаос в моем разуме превратился в "
+"безмолвие. Я *узнал* себя снова.\""
 
 #: 59361
 msgid "\"So you got the Circle from me?\""
-msgstr ""
+msgstr "\"Так это от меня ты получил Круг?\""
 
 #: 59364
 msgid "\"Yes. In *knowing* its words, I *knew* myself.\""
-msgstr ""
+msgstr "\"Да. *Зная* его слова, я *знал* себя.\""
 
 #: 59365
 msgid ""
 "\"But *did* it save your life, Dak'kon? Or did it divide you further once "
 "you studied the Circle?\""
 msgstr ""
+"\"Но он ли *спас* твою жизнь, Даккон? Или же ты еще сильнее рассеял себя в "
+"изучении Круга?\""
 
 #: 59367 59371
-#, fuzzy
 msgid "\"That is all I wished to know. Let's move on.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Идем.\""
 
 #: 59368
 msgid ""
@@ -2975,16 +2973,23 @@ msgid ""
 "longer. All you must do is take the stone and you shall *know* yourself "
 "again.\""
 msgstr ""
+"\"Даккон, *зерт* Затонувшего Шрактлора, последний носитель клинка *карач*, "
+"знай, что я пришел к тебе со словами Зертимона, вырезанными волей не на "
+"хаосе, а на камне в Неразрывном круге. *Знай*, что слова Зертимона, "
+"вырезанные на этом камне, являются истиной, и *знай*, что твоему рассеянному "
+"разуму не нужно больше быть рассеянным. Все, что тебе нужно сделать - взять "
+"этот камень, и ты снова *узнаешь* себя.\""
 
 #: 59369
 msgid "\"So you got the Circle from *me?*\""
-msgstr ""
+msgstr "\"Так это от *меня* ты получил Круг?\""
 
 #: 59372
 msgid ""
 "It turns out *I* was the one who gave the Unbroken Circle of Zerthimon to "
 "Dak'kon. "
 msgstr ""
+"Оказалось, что это *я* тот, кто дал Неразрывный круг Зертимона Даккону."
 
 #: 59373
 msgid ""
@@ -2992,6 +2997,9 @@ msgid ""
 "slow to speak again, and when he does, his voice is somber. \"It divided me."
 "\""
 msgstr ""
+"Даккон молчит, но его клинок корчится и извивается, словно в агонии. Он "
+"снова говорит, в завершение его голос становится мрачным. \"Он рассеял меня."
+"\""
 
 #: 59374
 msgid ""
@@ -2999,18 +3007,22 @@ msgid ""
 "already felt? Those words... those words of Zerthimon's - they only seem to "
 "divide you more. I see it when you pour over the teachings.\""
 msgstr ""
+"\"Так *спас* ли я твою жизнь, Даккон? Или я всего лишь продлил твою агонию? "
+"Те слова... слова Зертимона, похоже, рассеяли тебя еще сильнее. Я пойму это "
+"после того, как ты пройдешь обучение.\""
 
 #: 59375
 msgid "\"That's what I thought. There are other things I would *know*...\""
 msgstr ""
+"\"Я так и знал. Есть еще несколько вещей, о которых я хочу *узнать*...\""
 
 #: 59376
 msgid "\"We'll speak no more of this. Let's move on.\""
-msgstr ""
+msgstr "\"Мы поговорим об этом в другой раз. А теперь идем.\""
 
 #: 59377
 msgid "Dak'kon is silent."
-msgstr ""
+msgstr "Даккон молчит."
 
 #: 59378
 msgid ""
@@ -3018,6 +3030,9 @@ msgid ""
 "so that you might die again. If you had died at Shra'kt'lor, then you would "
 "have known peace.\""
 msgstr ""
+"\"Я НИКОГДА не спасал тебя, Даккон... Я всего лишь вытащил тебя из "
+"полусмерти, для того, чтобы ты смог умереть еще раз. Если бы ты умер в "
+"Шрактлора, то узнал бы покой.\""
 
 #: 59379
 msgid ""
@@ -3025,20 +3040,27 @@ msgid ""
 "Shra'kt'lor - that would have been the last death. Every day I have lived "
 "since is a new death.\""
 msgstr ""
+"\"В твоих словах сквозит тяжесть истины. Смерть, которую я перенес в "
+"Шрактлоре, была последней. Каждый прожитый мною новый день был новой смертью."
+"\""
 
 #: 59380
 msgid ""
 "\"You need serve me no more, Dak'kon. I never saved your life; I only killed "
 "you twice. You owe me nothing.\""
 msgstr ""
+"\"Тебе больше не нужно служить мне, Даккон. Я никогда не спасал тебе жизнь, "
+"я всего лишь дважды убил тебя. Ты не обязан мне ничем.\""
 
 #: 59381
 msgid "\"Such is the way of things. There is other things I would *know*...\""
 msgstr ""
+"\"Такова сущность вещей. Есть еще несколько вещей, о которых я хочу *узнать*."
+"..\""
 
 #: 59382
 msgid "\"We will speak of this later. Let's go.\""
-msgstr ""
+msgstr "\"Мы поговорим об этом после. Идем.\""
 
 #: 59383 59390 60025
 msgid "Dak'kon waits."
@@ -3085,40 +3107,51 @@ msgid ""
 "free me. The word that chains me is mine. The torment is mine. I *know* in "
 "my heart that the chains remain. Words will not free them.\""
 msgstr ""
+"\"Нет...\" Лицо Даккона искажено болью, он смотрит сквозь тебя. \"Не твое "
+"слово имеет силу, оно не освободит меня. Слово, сковывающее меня, "
+"принадлежит мне. Мучение мое. В своем сердце я *знаю*, что цепи еще остались."
+" Слова не разорвут их.\""
 
 #: 59399
 msgid "\"Is there any way you can be freed?\""
-msgstr ""
+msgstr "\"Есть ли какой-либо способ освободить тебя?\""
 
 #: 59403 59414 59428
 msgid ""
 "\"We'll speak of this another time - this matter is not closed. Let's move "
 "on.\""
-msgstr ""
+msgstr "\"Поговорим об этом в другой раз - вопрос еще не закрыт. Идем.\""
 
 #: 59404
 msgid ""
 "Dak'kon says the only way he can be freed from slavery is for me to die a "
 "final death. I'm not sure how I would even bring such a thing about."
 msgstr ""
+"Даккон сказал, что единственный способ освободить его - моя окончательная "
+"смерть. Даже не знаю, как это можно сделать."
 
 #: 59406
 msgid ""
 "\"You must die a final death. Yet your path is not death's path. There is "
 "*no* resolution to this matter.\""
 msgstr ""
+"\"Ты должен умереть окончательно. Пока твой путь - не путь смерти. У этой "
+"проблемы *нет* разрешения.\""
 
 #: 59409
 msgid ""
 "Vow: \"I swear I will find one, Dak'kon. I will find one that sets you free."
 "\""
 msgstr ""
+"Клятва: \"Я обещаю, я найду его, Даккон. Я найду способ освободить тебя.\""
 
 #: 59416
 msgid ""
 "I swore to Dak'kon I would find a way to free him from his servitude. Rather "
 "than bolster his spirit, the vow seemed to crush him more."
 msgstr ""
+"Я поклялся Даккону, что найду способ освободить его от своего рабства. "
+"Вместо того, чтобы укрепить его, клятва, наоборот, сокрушила его еще сильнее."
 
 #: 59425
 msgid ""
@@ -3126,6 +3159,9 @@ msgid ""
 "you have added other words to my words.\" His expression is pained, and his "
 "gaze meets yours. \"Now you have chained us both.\""
 msgstr ""
+"Голос Даккона стал обрывистым, словно его внезапно поразила болезнь. "
+"\"*Знай*, что только что добавил к моим слова новые.\" Он выглядит "
+"измученным, его взгляд встречается с твоим. \"Ты сковал нас между собой.\""
 
 #: 59435 59450 59470 59478 59484 59494 59503 59509 59608 59616
 msgid "\"I had some other questions about our travels...\""
@@ -3184,9 +3220,8 @@ msgstr ""
 "определяется *знанием* их самих.\""
 
 #: 59514 59522
-#, fuzzy
 msgid "\"I see. I had some other questions about the githzerai...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня есть еще несколько вопросов о гитцераях...\""
 
 #: 59525
 msgid ""
@@ -3278,9 +3313,8 @@ msgid "\"What is this place?\""
 msgstr "\"Что это за место?\""
 
 #: 59626 59630
-#, fuzzy
 msgid "\"We'll speak of this another time. Let's move on.\""
-msgstr "\"Поговорим об этом в другой раз.\""
+msgstr "\"Поговорим об этом в другой раз. Идем.\""
 
 #: 59627
 msgid ""
@@ -3344,7 +3378,7 @@ msgstr ""
 
 #: 59660
 msgid "\"We'll speak no more of it, then. Let's move on.\""
-msgstr ""
+msgstr "\"Тогда мы поговорим об этом в другой раз. А теперь идем.\""
 
 #: 59664
 msgid "Dak'kon waits. "
@@ -3449,9 +3483,8 @@ msgid ""
 msgstr ""
 
 #: 59702 59732 60201 60213
-#, fuzzy
 msgid "\"Then we'll speak no more of it. Let's move on.\""
-msgstr "\"Я в порядке. Идем.\""
+msgstr "\"Тогда не будем больше об этом. Идем.\""
 
 #: 59703 60202
 msgid ""
@@ -3466,12 +3499,11 @@ msgid "\"What? But why?\""
 msgstr "\"А что с ним?\""
 
 #: 59713 60204
-#, fuzzy
 msgid ""
 "\"We'll speak no more of this. There are other things I would *know*...\""
 msgstr ""
-"\"Я понимаю. Тем не менее, есть несколько вещей, которые мне нужно узнать..."
-"\""
+"\"Тогда мы поговорим об этом в следующий раз. Есть еще несколько вещей, о "
+"которых я хочу *узнать*...\""
 
 #: 59714 60205
 #, fuzzy
@@ -3508,9 +3540,8 @@ msgid ""
 msgstr ""
 
 #: 59725 60084 60211
-#, fuzzy
 msgid "\"I would hear it.\""
-msgstr "\"Я хочу, чтобы ты жил.\""
+msgstr "\"Я хотел бы ее услышать.\""
 
 #: 59727
 msgid "\"No matter, then. I had some other language questions...\""
@@ -4337,9 +4368,8 @@ msgid "\"The symbols speak of four you have traveled with in the past.\""
 msgstr "\"Символы говорят о четырех, с которыми ты путешествовал в прошлом.\""
 
 #: 60064
-#, fuzzy
 msgid "\"What four are these?\""
-msgstr "\"Что это за ключи?\""
+msgstr "\"Кто эти четверо?\""
 
 #: 60065
 msgid "\"Actually, I had some other questions about our travels...\""
@@ -4356,24 +4386,26 @@ msgid ""
 "Dak'kon told me of four that used to walk my path: a woman, who loved a man "
 "who knew her and knew not love, a blind archer, a familiar, and a slave."
 msgstr ""
+"Даккон рассказал мне о четырех, которые путешествовали вместе со мной: "
+"девушке, любящей мужчину, который знал ее, но не знал любви, слепом лучнике, "
+"прирученном и невольнике."
 
 #: 60069
-#, fuzzy
 msgid ""
 "\"The tattoo speaks of four minds. One was a woman, who loved a man who "
 "*knew* her and *knew* not love. The other was a blind man, who saw things no "
 "mortal eye could see. Another was a familiar, a mage's pet, bought and "
 "bound. And the last was a slave.\""
 msgstr ""
-"Даккон даже не смотрит на символы. \"В татуировке говорится о четырех "
-"разумах. Один был женщиной, которая любила человека, который *знал* ее и "
-"*знал*, что не любит. Другой был слепым человеком, который видел вещи, "
-"которых не мог увидеть глаз смертного. Другой был хранителем, ручным "
-"животным мага, купленным и связанным. А последний был рабом.\""
+"\"В татуировке говорится о четырех разумах. Одна была девушкой, которая "
+"любила человека, который *знал* ее и *знал*, что не любит. Другой был слепым "
+"человеком, который видел вещи, которых не мог увидеть глаз смертного. Другой "
+"был хранителем, ручным животным мага, купленным и связанным. А последний был "
+"невольником.\""
 
 #: 60070 60071
 msgid "\"And which one of them was you, Dak'kon? Were you the slave?\""
-msgstr ""
+msgstr "\"И кем из них был ты, Даккон? Невольником?\""
 
 #: 60072
 msgid "\"And you were the slave, Dak'kon?\""
@@ -4390,9 +4422,8 @@ msgid "\"Very well. For now, there are other things I would *know*...\""
 msgstr "\"Очень хорошо. У меня были еще вопросы к тебе...\""
 
 #: 60076 60096 60106 60117 60127 60139 60152 60158 60164
-#, fuzzy
 msgid "\"That is all I wished to know, Dak'kon. Let's move on.\""
-msgstr "\"Это все, что я желал знать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать, Даккон. Идем.\""
 
 #: 60077
 msgid ""
@@ -4400,26 +4431,31 @@ msgid ""
 "turmoil. \"*Know* that this one owed you a service. In owing this to you, it "
 "became as slavery.\""
 msgstr ""
+"Даккон на секунду умолкает. Поверхность клинка покрывается рябью, как будто "
+"Даккона охватило смятение. \"*Знай*, что он поклялся тебе служить. "
+"Принадлежа тебе, он стал невольником.\""
 
 #: 60078
 msgid "\"How did this come to be?\""
-msgstr ""
+msgstr "\"Как такое могло произойти?\""
 
 #: 60079 60085
-#, fuzzy
 msgid "\"What can you tell me of the four that traveled with me in the past?\""
-msgstr "\"Что ты можешь рассказать о здешних завсегдатаях?\""
+msgstr ""
+"\"Что ты можешь рассказать о четырех, с которыми я путешествовал в прошлом?\""
 
 #: 60080 60093 60103 60113 60123 60135
-#, fuzzy
 msgid "\"Why did you not want to tell me about the four on the tattoo?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Почему ты не хочешь говорить о четырех на татуировке?\""
 
 #: 60083
 msgid ""
 "\"*Know* the tale is long. The matter is between me and the other that was "
 "once you. *Know* that if you hear it, *know* it shall be a long tale.\""
 msgstr ""
+"\"*Знай*, что это долгая история. Причина кроется между мной и тем, кто "
+"раньше был тобой. *Знай* это, если будешь слушать, *знай*, что эта история "
+"будет долгой.\""
 
 #: 60086
 msgid ""
@@ -4434,10 +4470,14 @@ msgid ""
 "other one could see. The path of his arrows always led to the heart of an "
 "enemy. The familiar and the slave I *know* little of.\""
 msgstr ""
+"\"Девушка была молодой. Она поклонялась времени, это было в ее крови, она "
+"*знала* грядущее. Лучник был слепым, но мог видеть вещи, который не мог "
+"видеть никто. Его стрелы всегда находили путь к сердцу противника. "
+"Прирученного и невольника я *знал* мало.\""
 
 #: 60090 60091 60099 60100
 msgid "\"See things to come? The woman's name wasn't Deionarra, was it?\""
-msgstr ""
+msgstr "\"Видела грядущее? Случаем, имя девушки было не Дейонарра?\""
 
 #: 60092 60101
 #, fuzzy
@@ -4445,15 +4485,17 @@ msgid "\"Tell me more about the archer.\""
 msgstr "\"Расскажи мне о телах побольше.\""
 
 #: 60094 60114 60124 60136
-#, fuzzy
 msgid "\"Do you know why I was traveling with these four?\""
-msgstr "\"Ты знаешь, как мне добраться до ее лабиринта?\""
+msgstr "\"Ты знаешь, почему я путешествовал вместе с этими четырьмя?\""
 
 #: 60097
 msgid ""
 "I just learned that Deionarra traveled with me in the past... Dak'kon said "
 "she had the power to \"see\" coming events before they happened."
 msgstr ""
+"Я только что узнал, что Дейонарра в прошлом путешествовала вместе со мной... "
+"Даккон сказал, что у нее был дар \"видеть\" грядущие, еще не наступившие "
+"события."
 
 #: 60098
 msgid ""
@@ -4462,16 +4504,18 @@ msgid ""
 "other one could see. The path of his arrows always led to the heart of an "
 "enemy. The familiar I *know* little of.\""
 msgstr ""
+"\"Девушка была молодой. Она поклонялась времени, это было в ее крови, она "
+"*знала* грядущее. Лучник был слепым, но мог видеть вещи, который не мог "
+"видеть никто. Его стрелы всегда находили путь к сердцу противника. "
+"Прирученного я *знал* мало.\""
 
 #: 60102 60110 60120 60132
-#, fuzzy
 msgid "\"How did you come to be my slave?\""
-msgstr "\"Как ты потерял ухо?\""
+msgstr "\"Как ты стал моим невольником?\""
 
 #: 60104 60115 60125 60137
-#, fuzzy
 msgid "\"Do you know why we were traveling together?\""
-msgstr "\"Ты знаешь меня, незнакомец?\""
+msgstr "\"Ты знаешь, почему мы путешествовали вместе?\""
 
 #: 60107
 msgid ""
@@ -4479,20 +4523,21 @@ msgid ""
 "Dak'kon. Dak'kon said she had the power to \"see\" coming events before they "
 "happened."
 msgstr ""
+"Я только что узнал, что Дейонарра в прошлом путешествовала вместе со мной... "
+"и Дакконом. Даккон сказал, что у нее был дар \"видеть\" грядущие, еще не "
+"наступившие события."
 
 #: 60108
 msgid "\"*Know* that Deionarra was the name she carried.\""
-msgstr ""
+msgstr "\"*Знай*, что она носила имя Дейонарра.\""
 
 #: 60109
-#, fuzzy
 msgid "\"What do you know of the archer?\""
-msgstr "\"Что ты знаешь об этом месте?\""
+msgstr "\"Что ты знаешь о лучнике?\""
 
 #: 60111 60112 60121 60122
-#, fuzzy
 msgid "\"Tell me of the others.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об остальных.\""
 
 #: 60118
 msgid ""
@@ -4501,10 +4546,13 @@ msgid ""
 "different sight. In *knowing* this, he had become strong. Yet he did not "
 "*know* his own strength.\""
 msgstr ""
+"\"Я мало *знал* его. Я *знаю*, что он был солдатом. Я *знаю*, что алкоголь "
+"забрал часть его жизни. Ослепнув, он *познал* другое зрение. *Зная* это, он "
+"стал сильнее. Хоть он и не *знал*, насколько он силен.\""
 
 #: 60119
 msgid "\"Do you know what his name was?\""
-msgstr ""
+msgstr "\"Ты знаешь, как его звали?\""
 
 #: 60128
 msgid ""
@@ -4512,6 +4560,9 @@ msgid ""
 "crawling sensation in the back of your skull, and you feel the name "
 "surfacing, as if from beneath a great muddy ocean."
 msgstr ""
+"Еще до того, как Даккон начинает отвечать, ты неожиданно *знаешь* ответ. В "
+"затылке возникает ползущее ощущение, и ты чувствуешь, как имя всплывает на "
+"поверхность огромного мутного океана памяти."
 
 #: 60129
 msgid ""
@@ -4520,6 +4571,10 @@ msgid ""
 "was an archer, and where his arrows flew, they found the hearts of their "
 "targets.\"\n"
 msgstr ""
+"Эхо: \"Его имя было *Захария*... он был слеп, но не ослеплен. У него "
+"появилось второе зрение, позволявшее ему видеть скрытое от других. Он был "
+"лучником, и куда бы не летели его стрелы, они всюду находили сердца своих "
+"мишеней.\"\n"
 
 #: 60130
 msgid ""
@@ -4527,34 +4582,36 @@ msgid ""
 "traveled with me. His name was Xachariah; he possessed a second sight that "
 "allowed his arrows to find the hearts of their targets"
 msgstr ""
+"Разговаривая с Дакконом, я вспомнил имя слепого лучника, когда-то "
+"путешествовавшего вместе со мной. Его звали Захария. Он обладал вторым "
+"зрением, которое помогало его стрелам находит сердца своих целей."
 
 #: 60131
 msgid ""
 "\"*Know* that Xachariah was the name he carried. And *know* that his name "
 "pierced the heart of many enemies.\""
 msgstr ""
+"\"*Знай*, что он носил имя Захария. И *знай*, что его имя пробило много "
+"сердец врагов.\""
 
 #: 60133 60134
-#, fuzzy
 msgid "\"Tell me about the others.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об остальных.\""
 
 #: 60142 60143
-#, fuzzy
 msgid ""
 "\"I'm not interested in the symbol right now; tell me everything you know "
 "about those four that are on the tattoo.\""
 msgstr ""
-"\"Довольно о символе. Расскажи мне все, что ты знаешь о тех четырех из "
-"татуировки.\""
+"\"Пока мне не интересен этот символ. Расскажи мне все, что ты знаешь о тех "
+"четырех на татуировке.\""
 
 #: 60146
-#, fuzzy
 msgid ""
 "\"The symbol is torment. Fell said that you have always worn it, for the "
 "flesh *knows* that it suffers, even when the mind does not.\""
 msgstr ""
-"\"Символом мучения. Он сказал, что ты всегда носил его, потому что тело "
+"\"Символом мучения. Фелл сказал, что ты всегда носил его, потому что тело "
 "*знает*, что страдает, даже когда разум об этом не догадывается.\""
 
 #: 60153
@@ -4562,6 +4619,8 @@ msgid ""
 "\"The tattoo speaks nothing of their path, only the symbol that bound them. "
 "*Know* that the path may have been *known* to only you.\""
 msgstr ""
+"\"В татуировке ничего не говорится об их пути, только символ, связывающий их."
+" *Знай*, что путь был *известен* только тебе.\""
 
 #: 60154
 #, fuzzy
@@ -4574,19 +4633,21 @@ msgid ""
 "not *know* it. *Know* that those that walked your path *knew* only the "
 "symbol that bound them.\""
 msgstr ""
+"\"*Знай*, что путь был *известен* только тебе, и ты хотел, чтобы мы не "
+"*знали* его. *Знай*, что они шли за тобой, лишь зная символ, что связывал их."
+"\""
 
 #: 60160
 msgid "\"Very well... tell me about the symbol.\""
-msgstr ""
+msgstr "\"Хорошо... расскажи мне о символе.\""
 
 #: 60161
-#, fuzzy
 msgid ""
 "\"Enough about the symbol. Tell me everything you know about the others on "
 "the tattoo.\""
 msgstr ""
-"\"Довольно о символе. Расскажи мне все, что ты знаешь о тех четырех из "
-"татуировки.\""
+"\"Довольно о символе. Расскажи мне все, что ты знаешь о четырех на "
+"татуировке.\""
 
 #: 60165
 msgid ""
@@ -4711,7 +4772,8 @@ msgid ""
 "carved not in chaos, but in stone, carved by the will in an Unbroken Circle."
 "\""
 msgstr ""
-"Эхо: \"Даккон, *зерт* Тонущего Шрактлора, последний носитель клинка *карач*, "
+"Эхо: \"Даккон, *зерт* Затонувшего Шрактлора, последний носитель клинка "
+"*карач*, "
 "знай, что я пришел к тебе со словами Зертимона, вырезанными волей не на "
 "хаосе, а на камне в Неразрывном круге."
 
@@ -4733,9 +4795,10 @@ msgid ""
 "and know that your divided mind need be divided no longer. All you must do "
 "is take the stone and you shall *know* yourself again.\""
 msgstr ""
-"Эхо: \"Знай, что слова Зертимона, вырезанные на это камне, являются истиной, "
-"и знай, что твоему рассеянному разуму не нужно больше быть рассеянным. Все, "
-"что тебе нужно сделать - взять этот камень, и ты снова *узнаешь* себя.\""
+"Эхо: \"Знай, что слова Зертимона, вырезанные на этом камне, являются "
+"истиной, и знай, что твоему рассеянному разуму не нужно больше быть "
+"рассеянным. Все, что тебе нужно сделать - взять этот камень, и ты снова "
+"*узнаешь* себя.\""
 
 #: 60187
 msgid ""
@@ -4803,9 +4866,8 @@ msgid ""
 msgstr ""
 
 #: 60197
-#, fuzzy
 msgid "\"Never mind, then. Let's go.\""
-msgstr "\"А ладно, неважно. Прощай.\""
+msgstr "\"Тогда неважно. Идем.\""
 
 #: 60198
 msgid ""
