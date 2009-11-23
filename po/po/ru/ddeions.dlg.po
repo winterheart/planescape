@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddeions.tra\n"
 "POT-Creation-Date: 2009-05-25 03:20 +0600\n"
-"PO-Revision-Date: 2009-06-07 22:57+0600\n"
+"PO-Revision-Date: 2009-11-23 22:27+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 0
 msgid ""
@@ -48,9 +48,8 @@ msgid ""
 msgstr ""
 
 #: 1313 747
-#, fuzzy
 msgid "\"Very well...\""
-msgstr "\"Очень хорошо. Хорошего дня.\""
+msgstr "\"Очень хорошо...\""
 
 #: 1314 6107 6127 6128
 #, fuzzy
@@ -62,9 +61,8 @@ msgid "\"Can you remove the curse you placed upon me?\""
 msgstr "\"Можешь ли ты снять проклятие, которое ты наложила на меня?\""
 
 #: 1316 1318 1319 6140 6141 6145 6146 6152 6153 742 746 755 761 790 792
-#, fuzzy
 msgid "\"I must leave. Farewell, Deionarra.\""
-msgstr "\"Я должен идти. Прощай, Увядшая.\""
+msgstr "\"Я должен идти. Прощай, Дейонарра.\""
 
 #: 1320 1321 1324 1325 798 813 816 820
 msgid "\"Farewell, Deionarra.\""
@@ -1459,9 +1457,8 @@ msgstr ""
 "порожденные и оплетенные законами планов.\""
 
 #: 786 787
-#, fuzzy
 msgid "Wait for her to continue."
-msgstr "Подождать, пока он не вернется."
+msgstr "Подождать, пока она не продолжит."
 
 #: 788
 msgid ""
@@ -1590,4 +1587,5 @@ msgstr ""
 #: 824
 msgid "\"I see. I had some other questions...\""
 msgstr "\"Понятно. У меня были еще вопросы...\" "
+
 
