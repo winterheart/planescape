@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: darmoire.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 20:54+0600\n"
+"PO-Revision-Date: 2009-11-29 18:44+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 2879
 msgid ""
@@ -21,9 +21,8 @@ msgid ""
 msgstr ""
 
 #: 2880
-#, fuzzy
 msgid "\"Hello?\""
-msgstr "\"Фелл?\""
+msgstr "\"Привет?\""
 
 #: 42532
 msgid "\"Do I? Why yes, I do.\""
@@ -97,9 +96,8 @@ msgid ""
 msgstr ""
 
 #: 42542
-#, fuzzy
 msgid "\"Yes?\""
-msgstr "Да."
+msgstr "\"Да?\""
 
 #: 42543
 msgid ""
@@ -295,9 +293,8 @@ msgid "\"Never mind that. What are you doing here?\""
 msgstr ""
 
 #: 42576
-#, fuzzy
 msgid "\"Never mind; farewell.\""
-msgstr "\"Неважно, прощай.\""
+msgstr "\"Неважно. Прощай.\""
 
 #: 42577
 msgid "\"But *why* are you being an armoire in this brothel?\""
@@ -321,7 +318,6 @@ msgid "\"I'll need something from you to keep quiet about this one.\""
 msgstr "\"Я хочу задать несколько вопросов о городе.\""
 
 #: 42584
-#, fuzzy
 msgid "\"I had some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
@@ -378,7 +374,6 @@ msgid "\"Can you return to your normal form at will?\""
 msgstr ""
 
 #: 42598
-#, fuzzy
 msgid "Can you tell me about this place?\""
 msgstr "\"Что ты можешь сказать об этом месте?\""
 
@@ -424,9 +419,8 @@ msgid "\"Never mind. Farewell.\""
 msgstr "\"Неважно. Прощай.\""
 
 #: 42607 42609 42611 42613 42615 42621
-#, fuzzy
 msgid "\"I had another question...\""
-msgstr "\"Нет, у меня есть другие вопросы...\""
+msgstr "\"У меня есть другие вопросы...\""
 
 #: 42616
 #, fuzzy
@@ -495,7 +489,6 @@ msgid "\"I had some questions, Luis...\""
 msgstr "\"Сначала у меня есть некоторые вопросы...\""
 
 #: 42646 42648
-#, fuzzy
 msgid "Leave him be."
 msgstr "Оставить его в покое."
 
@@ -520,3 +513,4 @@ msgid ""
 "\"'Hello,' indeed.\" The armoire gives another *hmph!* \"So, what have we "
 "here? A rogue after some lady's frilly undergarments, hmmmnn?\""
 msgstr ""
+
