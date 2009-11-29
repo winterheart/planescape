@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmorte.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-11-29 00:07+0500\n"
+"PO-Revision-Date: 2009-11-30 03:52+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -4029,9 +4029,8 @@ msgstr ""
 "\"Эй, шеф, *да ладно* тебе. Только не говори, что ты опять все забыл.\""
 
 #: 41850 65553
-#, fuzzy
 msgid "\"I just need to refresh my memory.\""
-msgstr "\"Мне просто нужно освежить свою память, вот и все.\""
+msgstr "\"Мне просто нужно освежить свою память.\""
 
 #: 41851 65555 65571 65575 65579 65583 65586 65591
 msgid "\"Never mind, then. I had some other questions...\""
@@ -4089,9 +4088,8 @@ msgid "\"And there wasn't a journal with me when I woke up?\""
 msgstr "\"Когда я очнулся, со мной не было рядом дневника?\""
 
 #: 41861 65567 65807
-#, fuzzy
 msgid "\"All right, then. I had some other questions...\""
-msgstr "\"Ну хорошо, у меня есть другие вопросы...\""
+msgstr "\"Тогда ладно. У меня есть другие вопросы...\""
 
 #: 41864 65692
 msgid ""
@@ -4340,9 +4338,8 @@ msgid "\"Come on, chief... I'm sure we can think of *something.* Eh? Eh?\""
 msgstr ""
 
 #: 43923
-#, fuzzy
 msgid "\"Forget it, Morte. Let's go.\""
-msgstr "\"Тогда забудь. Уходим.\""
+msgstr "\"Забудь об этом, Морт. Идем.\""
 
 #: 44244
 msgid ""
@@ -4505,7 +4502,7 @@ msgstr ""
 
 #: 45996
 msgid "\"Hey, look! Another floating head.\""
-msgstr ""
+msgstr "\"Эй, смотри! Еще одна летающая голова.\""
 
 #: 4675
 msgid ""
@@ -4942,9 +4939,8 @@ msgid ""
 msgstr ""
 
 #: 53625 53795 53801
-#, fuzzy
 msgid "\"Forget it, Morte. I'm going to speak to it now...\""
-msgstr "\"Ладно, не важно. Идем.\""
+msgstr "\"Забудь об этом, Морт. Теперь я хочу поговорить о другом...\""
 
 #: 53626
 msgid ""
@@ -4991,6 +4987,10 @@ msgid ""
 "explain why he's not *quite* as useful as he told that earlier incarnation "
 "of mine he would be"
 msgstr ""
+"Морт сказал, что давным-давно я вытащил его из Колонны, хотя он не совсем "
+"понимает, каким образом. Также он сказал, что когда он оказался вне Колонны, "
+"потерял все собранные ею знания... Это может быть объяснением, почему он не "
+"*столь* полезен, как он заявил моему раннему воплощению."
 
 #: 53661
 msgid ""
@@ -5131,6 +5131,14 @@ msgid ""
 "me back into the Pillar, because 'it's where I belonged.'\" Morte smirks. "
 "\"*That's* why. Besides, no harm's ever come of you not knowing...\""
 msgstr ""
+"Неожиданно Морт начинает защищаться. \"Потому что я никогда не *знал*, что "
+"ты будешь делать! Некоторые твои воплощения совершенно безумными! Однажды ты "
+"проснулся одержимый идеей, что это *я* был твоим черепом, и преследовал меня "
+"вокруг всего Шпиля, пытаясь разбить меня... к счастью, на улице ты попал под "
+"повозку. А в другой раз, 'хороший и законопослушный', ты пытался засунуть "
+"меня обратно в Колонну, потому что 'там мне положено быть'.\" Морт "
+"ухмыляется. \"*Вот* почему. Кроме того, ведь нет вреда в том, что ты чего-то "
+"не знаешь...\""
 
 #: 53815 53820
 #, fuzzy
@@ -5781,9 +5789,8 @@ msgid "\"Nordom, what did you mean before by 'Null Home?'\""
 msgstr "\"А, неважно. Что ты имел ввиду под словом 'возрожден'?\""
 
 #: 55850 55858
-#, fuzzy
 msgid "\"Never mind, Morte. I've heard enough. Let's go.\""
-msgstr "\"Ладно, неважно. У меня есть другие вопросы...\""
+msgstr "\"Неважно, Морт. Я достаточно наслушался. Идем.\""
 
 #: 55855
 msgid ""
@@ -5812,9 +5819,8 @@ msgid "\"I see. Nordom, I had some other questions for you...\""
 msgstr "\"Спасибо. У меня были еще вопросы к тебе...\""
 
 #: 55865 55879 55895 55900
-#, fuzzy
 msgid "\"That's all I wanted to know. Let's move on.\""
-msgstr "\"Это все, что я хотел знать. Идем отсюда.\""
+msgstr "\"Это все, что я хотел знать. Пошли.\""
 
 #: 55867
 msgid ""
@@ -5911,9 +5917,8 @@ msgid "\"Well, I wanted to know the answer, and I was getting it from him.\""
 msgstr ""
 
 #: 55906 55912 55917 55926
-#, fuzzy
 msgid "\"Never mind. I had some other questions for Nordom...\""
-msgstr "\"Забудь о Фароде... У меня есть другие вопросы...\""
+msgstr "\"Неважно. У меня были еще вопросы к Нордому...\""
 
 #: 55907 55913 55918 55928 55937
 #, fuzzy
@@ -6433,41 +6438,39 @@ msgid "\"But you AREN'T a mimir, Morte...\""
 msgstr ""
 
 #: 65539 66345
-#, fuzzy
 msgid "\"Can you read to me what's tattooed on my back again?\""
 msgstr "\"Можешь еще раз прочитать, что у меня вытатуировано на спине?\""
 
 #: 65540 66346
-#, fuzzy
 msgid "\"Can you tell me a little about Sigil?\""
-msgstr "\"Расскажи мне немного об этом месте.\""
+msgstr "\"Расскажи мне немного о Сигиле.\""
 
 #: 65541 66347
 msgid ""
 "\"Morte... I don't mind you tagging along, but is there anything *else* you "
 "can do except chatter?\""
 msgstr ""
+"\"Морт... я не хочу навешивать ярлыки на тебя, но умеешь ли ты *еще* "
+"что-нибудь, кроме болтовни?\""
 
 #: 65542 66348
-#, fuzzy
 msgid "\"Morte... what are your special talents again?\""
-msgstr "\"Так что же ты здесь делаешь?\""
+msgstr "\"Морт... еще раз, какие у тебя есть способности?\""
 
 #: 65543 66349
 msgid ""
 "\"Morte, why didn't you tell me about that extra line of tattoos on my back?"
 "\""
 msgstr ""
+"\"Морт, почему ты не прочитал последнюю строку татуировки на моей спине?\""
 
 #: 65544 66350
-#, fuzzy
 msgid "\"I could use some advice. What do you think we should do next?\""
-msgstr "\"Ну да. А кто еще, по-твоему, смог бы сделать такое?\""
+msgstr "\"Мне нужен совет. Что, по-твоему, нужно делать дальше?\""
 
 #: 65545 66351
-#, fuzzy
 msgid "\"You said you're a mimir, right, Morte?\""
-msgstr "\"Не думаю, что ты - мимир, Морт. Что ты такое?\""
+msgstr "\"Ты говорил, что ты - мимир, верно, Морт?\""
 
 #: 65546 66352
 msgid "\"Tell me again how you ended up on the Pillar of Skulls.\""
@@ -6479,9 +6482,8 @@ msgid ""
 msgstr ""
 
 #: 65548 66354
-#, fuzzy
 msgid "\"What do you know about the Blood War?\""
-msgstr "\"А как насчет Фарода? Не знаешь такого?\""
+msgstr "\"Что ты знаешь о Войне Крови?\""
 
 #: 65549 66355
 #, fuzzy
@@ -6489,14 +6491,12 @@ msgid "\"What do you know about the night hag Ravel?\""
 msgstr "\"Ты знаешь что-нибудь о нем?\""
 
 #: 65550 66356
-#, fuzzy
 msgid "\"How did you die, Morte?\""
-msgstr "\"Как ты потерял ухо?\""
+msgstr "\"Как ты умер, Морт?\""
 
 #: 65551 66357
-#, fuzzy
 msgid "\"Nothing, Morte. Just checking to see if you were still with me.\""
-msgstr "\"На этот раз ничего, Морт. Просто проверяю, что ты еще со мной.\""
+msgstr "\"Ничего, Морт. Просто проверяю, что ты все еще со мной.\""
 
 #: 65552
 msgid "\"Aw, *c'mon,* chief. Don't tell me you forgot again.\""
@@ -6529,9 +6529,8 @@ msgid "\"Go on. What does it say after that?\""
 msgstr "\"А дальше? Что там написано после этого?\""
 
 #: 65569 65570
-#, fuzzy
 msgid "\"What about, 'Don't trust the skull?'\""
-msgstr "\"Что ты можешь рассказать о здешних завсегдатаях?\""
+msgstr "\"А как насчет 'Не верь черепу'?\""
 
 #: 65573
 msgid ""
@@ -6634,14 +6633,12 @@ msgstr ""
 "может *быть* в центре Планов, порождают массу вопросов.\""
 
 #: 65597 65622
-#, fuzzy
 msgid "\"Anything else?\""
-msgstr "\"Я не могу вспомнить. Что-нибудь еще?\""
+msgstr "\"Что-нибудь еще?\""
 
 #: 65599 65603 65607 65610 65836
-#, fuzzy
 msgid "\"That's all I wanted to know. Let's go.\""
-msgstr "\"Это все, что я хотел знать. Идем отсюда.\""
+msgstr "\"Это все, что я хотел знать. Идем.\""
 
 #: 65600
 msgid ""
@@ -6711,11 +6708,12 @@ msgid ""
 "\"Yeah, I know about the Litany of Curses, Morte - I'm more curious about "
 "what you got while you were at Lothar's.\""
 msgstr ""
+"\"Да-да, я уже знаю о Потоке Проклятий, Морт. Мне очень интересно, чем ты "
+"занимался, когда оказался у Лотара.\""
 
 #: 65615 65619
-#, fuzzy
 msgid "\"Never mind. Let's go.\""
-msgstr "\"Как знаешь, Морт. Идем.\""
+msgstr "\"Неважно Идем.\""
 
 #: 65616
 msgid ""
@@ -6748,9 +6746,8 @@ msgid "\"How does it work?\""
 msgstr "\"А как это действует?\""
 
 #: 65624 65629
-#, fuzzy
 msgid "\"Hmmm. That might prove useful. Let's go.\""
-msgstr "\"Ладно. Идем.\""
+msgstr "\"Хммм. Это может пригодиться. Идем.\""
 
 #: 65625
 msgid ""
@@ -6817,9 +6814,8 @@ msgid "\"Friends? What do you mean?\""
 msgstr "\"Друзей? О чем это ты?\""
 
 #: 65633 65636
-#, fuzzy
 msgid "\"Good to hear it, then. Let's go.\""
-msgstr "\"Ладно, не важно. Идем.\""
+msgstr "\"Приятно слышать это. Идем.\""
 
 #: 65634
 msgid ""
@@ -6874,9 +6870,8 @@ msgid "\"*That's* a big change. I had some other questions...\""
 msgstr "\"Это проблема. Слушай, у меня еще есть вопросы...\""
 
 #: 65652 65658 65661 65664 65668 65672 65677 65685
-#, fuzzy
 msgid "\"All right. Let's move on, then.\""
-msgstr "\"Хорошо. Давай тогда искать его.\""
+msgstr "\"Хорошо. Тогда идем.\""
 
 #: 65653
 msgid ""
@@ -6891,9 +6886,8 @@ msgstr ""
 "знать, где он находится.\""
 
 #: 65654 65657 65660 65663 65667 65671 65681
-#, fuzzy
 msgid "\"Good point. I had some other questions...\""
-msgstr "\"Хорошо... У меня есть другие вопросы...\""
+msgstr "\"Неплохой совет... У меня есть другие вопросы...\""
 
 #: 65655
 msgid "\"All right. Let's keep looking for him, then.\""
@@ -7068,9 +7062,8 @@ msgid "\"Nothing, I suppose. I had some other questions...\""
 msgstr "\"Думаю, да. У меня есть другие вопросы...\""
 
 #: 65711
-#, fuzzy
 msgid "\"Never mind, then. Let's go.\""
-msgstr "\"Тогда неважно. У меня есть другие вопросы...\""
+msgstr "\"Тогда неважно. Идем.\""
 
 #: 65712
 msgid ""
@@ -7099,17 +7092,16 @@ msgid "\"I'm a floating skull who knows a lot.\""
 msgstr "\"Я летающий череп, который много знает.\""
 
 #: 65718 65719
-#, fuzzy
 msgid "\"What about that Baatorian smell you have?\""
-msgstr "\"Как насчет обучению оружию, которое ты обещал?\""
+msgstr "\"А как насчет твоего бааторийского запаха?\""
 
 #: 65722
 msgid "\"What would YOU know about what Baator smells like?!\""
-msgstr ""
+msgstr "\"А откуда ТЕБЕ знать, как пахнет Баатор?!\""
 
 #: 65723
 msgid "\"Because I've *been* there, Morte. I walked on Avernus.\""
-msgstr ""
+msgstr "\"А я *был* там, Морт. Я бродил по Авернусу.\""
 
 #: 65725 65729
 #, fuzzy
@@ -7122,6 +7114,8 @@ msgid ""
 "been talking about me with that tanar'ri, haven't you?! What does she know?!"
 "\""
 msgstr ""
+"\"А откуда ТЕБЕ знать, как пахнет Баатор?! Если только... Эй ты разговаривал "
+"обо мне с этой танарри, разве не так?! Что она-то знает?!\""
 
 #: 65727
 msgid ""
@@ -7131,29 +7125,35 @@ msgstr ""
 
 #: 65730
 msgid "\"Well, yeah, but - well, yeah. So I smell a little. *Excuse* me.\""
-msgstr ""
+msgstr "\"Тогда... да, но... ну да. Да, я пахну немного. *Прошу прощения*.\""
 
 #: 65731
 msgid "\"*Why* do you smell like Baator?\""
-msgstr ""
+msgstr "\"*Почему* ты пахнешь как Баатор?\""
 
 #: 65732
 msgid ""
 "\"I was in the hells for a while. Kind of a long while. The stench kind of "
 "grows on you.\""
 msgstr ""
+"\"Я был тамошних преисподних. Довольно долго был. А эта вонь въедается в "
+"тебя.\""
 
 #: 65733
 msgid "\"You were in the hells? What were you DOING there?\""
-msgstr ""
+msgstr "\"Ты был тех преисподних? Что ты там ДЕЛАЛ?\""
 
 #: 65734
 msgid ""
 "\"See, well, there's this *pillar* on Avernus, the first layer of Baator; "
 "it's called the Pillar of Skulls, but it's more like the pillar of heads.\""
 msgstr ""
+"\"Знаешь, на Авернусе, первом слое Баатор, есть *колонна*. Она называется "
+"Колонна Черепов, но лучше ее звать, скорее, колонной голов."
 
+# I don't get it :(
 #: 65735
+#, fuzzy
 msgid ""
 "\"To hear some bashers tell it, it's *supposedly* made of the heads of "
 "berks, mostly sages and scholars, who used their knowing of this and knowing "
@@ -7161,6 +7161,11 @@ msgid ""
 "might have hurt, or uh, killed someone by doing it. Well, when I *died,* I "
 "ended up there. Funny, huh?\""
 msgstr ""
+"\"Если верить некоторым громилам, она *предположительно* была сделана из "
+"голов пней, по большей части мудрецов и ученых, которые использовали свои "
+"знания об этом и о том, что они знали при жизни, чтобы немного преувеличить.."
+". настолько, что этим могут причинить вред или даже, эээ, убить кого-нибудь. "
+"Так вот, когда я *умер*, я очутился там. Весело, правда?\""
 
 #: 65736
 msgid ""
@@ -7170,27 +7175,28 @@ msgid ""
 "I'm thinking that when I bent the truth once or twice, I may have led to "
 "someone getting penned in the dead-book sooner than they should have.\""
 msgstr ""
+"\"Эээ...\" Морт на секунду умолкает. \"Да, ты прав, в этом нет ничего "
+"веселого. Понимаешь, я знал кучу вещей, пока был жив. И может быть, когда я "
+"знал что-то, то не всегда говорил об этом правду. Я думал, что раз я смогу "
+"исказить правду пару раз, то смогу прописать кое-кого в книгу мертвых раньше "
+"срока.\""
 
 #: 65737
-#, fuzzy
 msgid "\"Can you remember who?\""
-msgstr "\"Ты можешь сказать, кто я?\""
+msgstr "\"Ты помнишь, кого?\""
 
 #: 65738
-#, fuzzy
 msgid "\"It was me, wasn't it?\""
-msgstr "\"Для меня это важно.\""
+msgstr "\"И это был я, не так ли?\""
 
 #: 65739 65743 65747 65754 65759 65778 65782 65786 65790 65798 65802
-#, fuzzy
 msgid "\"Forget it, Morte. I had some other questions...\""
-msgstr "\"Забудь об этом. Вместо этого у меня есть несколько вопросов...\""
+msgstr "\"Забудь об этом, Морт. У меня есть несколько вопросов...\""
 
 #: 65740 65744 65748 65755 65760 65779 65783 65787 65791 65795 65799 65803
 #: 65808
-#, fuzzy
 msgid "\"Never mind, Morte. Let's move on.\""
-msgstr "\"Я в порядке. Идем.\""
+msgstr "\"Неважно, Морт. Идем дальше.\""
 
 #: 65741
 msgid ""
@@ -7202,9 +7208,8 @@ msgid ""
 msgstr ""
 
 #: 65742 65746
-#, fuzzy
 msgid "\"Why did you forget?\""
-msgstr "\"Ты принес? Да?\""
+msgstr "\"Почему ты забыл?\""
 
 #: 65745
 msgid ""
@@ -7212,6 +7217,10 @@ msgid ""
 "Thing is, I can't remember what happened - I don't even remember being "
 "human, or what I was even like before I woke up on the Pillar.\""
 msgstr ""
+"\"Не могу сказать, как я об этом узнал, но я думаю, что это был *ты*. По "
+"крайней мере однажды. Дело в том, что не могу вспомнить, что произошло. Я "
+"даже не могу вспомнить себя человеком, или кем я там был до того, как "
+"пробудился в Колонне.\""
 
 #: 65749
 msgid ""
@@ -7220,17 +7229,24 @@ msgid ""
 "community when I was alive... but hells, who is?\" Morte sighs. \"It's just "
 "that I can't help it. Nothing's worse than being *honest* all the time.\""
 msgstr ""
+"\"Обычно так происходит, когда ты умираешь. Уверен, что тебе это знакомо. Ты "
+"просто... забываешь. Думаю, я был не очень уважаемым членом общества при "
+"жизни... но черт возьми, а кто был? Морт вздыхает. \"В этом я не помощник. "
+"Нет ничего хуже, чем быть *честным* все время.\""
 
 #: 65750
 msgid ""
 "\"Except being sentenced to the hells. That sounds a lot worse than telling "
 "the truth.\""
 msgstr ""
+"\"Кроме как быть приговоренным к преисподней. Это гораздо хуже, чем говорить "
+"правду.\""
 
 #: 65751
 msgid "\"Well, that's true... but you've got to choose your lies carefully.\""
 msgstr ""
 
+# damn, what he mean?
 #: 65752
 msgid ""
 "\"Yeah... you're right. *Again.*\" Morte clicks his teeth; the way he does "
@@ -7238,10 +7254,14 @@ msgid ""
 "good and evil and lying and cheating catches up with you - and when I got "
 "penned in the dead-book, it was my turn to pay the ferryman.\""
 msgstr ""
+"\"Да... ты прав. *Снова*.\" Морт щелкает зубами. Это напоминает "
+"похрустывание пальцами. \"Думаю, все эти добро, зло, ложь и обман еще на "
+"тебе отыграются. И когда меня прописали в книгу мертвых, оказалось, что "
+"теперь моя очередь платить перевозчику.\""
 
 #: 65753
 msgid "\"So how did you escape the Pillar?\""
-msgstr ""
+msgstr "\"Так как же тебе удалось выбраться из Колонны?\""
 
 #: 65757
 msgid ""
@@ -7250,10 +7270,14 @@ msgid ""
 "attention - you knew that *I* was the head that knew the most. So I cut a "
 "deal with you.\""
 msgstr ""
+"\"Ну... это ты помог мне, шеф. Когда ты объявился перед Колонной Черепов, я "
+"пробился наружу. Мои очевидные эрудиция и очарование привлекли твое внимание "
+"- ты знал, что именно *я* был головой, которая больше всех знала. Так что я "
+"подписался под твою сделку.\""
 
 #: 65758
 msgid "\"Deal...?\""
-msgstr ""
+msgstr "\"Сделку?..\""
 
 #: 65761
 msgid ""
@@ -7263,11 +7287,15 @@ msgid ""
 "faint, almost lost in the horde. He sounds desperate, frightened, and... "
 "pathetically, tragically *lost.* "
 msgstr ""
+"Пока Морт говорит, твое зрение заволакивает кроваво-красным, ты слышишь "
+"оглушительный рев, ужасный *пронзительный* гомон голосов, болтовни, "
+"визжания, криков. ВСЕ они молят, кричат об освобождении, а голос Морта... "
+"слабый, едва слышный в этой урагане. Он звучит отчаянно, напугано и... "
+"жалостно, трагически *потерянно*."
 
 #: 65762
-#, fuzzy
 msgid "Echo: \"You. Skull. Speak.\""
-msgstr "\"Я первый спросил тебя, череп.\""
+msgstr "Эхо: \"Ты. Череп. Говори.\""
 
 #: 65763 65766 65769 65772
 msgid "Shake off the memory."
@@ -7282,12 +7310,20 @@ msgid ""
 "all their knowing... just please, I *beg* you, free me. Let me *help* you. "
 "I'll tell you anything, *everything.*\""
 msgstr ""
+"Ревущие голоса утихают, ты смотришь на маленький череп, на его треснувшие "
+"черты в адском свете. Он поднимает глаза на тебя. По его лицу течет кровь и "
+"гной, его зубы стучат словно от холода. \"Я... я с-с-смогу п-п-помочь тебе. "
+"Я з-з-знаю, что т-т-тебе надо... все эти головы... их знания... п-п-прошу "
+"тебя, *умоляю*, освободи меня. Позволь мне *помочь* тебе. Я расскажу тебе о "
+"чем угодно, обо *всем*.\""
 
 #: 65765
 msgid ""
 "Echo: \"*Will* you? SWEAR it, skull. SWEAR you will serve me until my End "
 "Days, or here you will remain.\""
 msgstr ""
+"Эхо: \"*Так* ли это? ПОКЛЯНИСЬ в этом, череп. ПОКЛЯНИСЬ, что ты будешь "
+"служить мне до конца моих дней, или ты останешься здесь.\""
 
 #: 65767
 msgid ""
@@ -7295,10 +7331,13 @@ msgid ""
 "Morte sickeningly swallows, his pride almost a tangible thing. \"I... *beg* "
 "you. Let me *help* you. Please.\""
 msgstr ""
+"\"Клянусь. Клянусь... только *пожалуйста*, освободи меня... Я...\" Ты "
+"видишь, как Морт тошнотворно глотает, его гордость становится осязаемой. \"Я."
+".. *умоляю* тебя. Позволь мне *помочь* тебе. Пожалуйста.\""
 
 #: 65768
 msgid "Echo: \"Very well. I shall free you.\""
-msgstr ""
+msgstr "Эхо: \"Хорошо. Я освобожу тебя.\""
 
 #: 65770
 msgid ""
@@ -7309,11 +7348,15 @@ msgid ""
 "locking around the tiny skull and ripping, tearing it from the pillar like "
 "an old scab..."
 msgstr ""
+"Твое зрение смещается, как будто ты движешься. Какофония криков и рева "
+"начинается снова, кошмарные вопли, рычания, выпады и оскорбления... ты "
+"чувствуешь, как твои руки погружаются в грязную трясину колонны кусающих "
+"клыков и челюстей. Твои руки окружают небольшой череп и вырывают его из "
+"колонны как гнилой зуб..."
 
 #: 65771
-#, fuzzy
 msgid "Echo: \"It is DONE.\""
-msgstr "\"А почему это 'белиберда'?\""
+msgstr "Эхо: \"Это СДЕЛАНО.\""
 
 #: 65773
 msgid ""
@@ -7322,11 +7365,16 @@ msgid ""
 "a wailing newborn, helpless -- and in the eyes of the man you once were -- "
 "pathetic."
 msgstr ""
+"Ты смотришь вниз, на кровавый череп в своих израненных руках. Его глаза "
+"покрыты гноем колонны, зубы стучат, еще и еще раз. Это напоминает тебе крик "
+"новорожденного, беспомощного, и, в глазах человека, которым ты когда-то был, "
+"трогательного."
 
 #: 65774 65775
 msgid ""
 "Echo: \"I have freed you. Now your life... and your death is mine... Morte.\""
 msgstr ""
+"Эхо: \"Я освободил тебя. Теперь твоя жизнь... и смерть - моя... Морт.\""
 
 #: 65776
 msgid ""
@@ -7336,11 +7384,15 @@ msgid ""
 "each other, so you invited me off the Pillar, and I've kind of been with you "
 "ever since.\""
 msgstr ""
+"Видение расплывается, пелена уходит прочь, а Морт все еще продолжает без "
+"умолку болтать. \"Мы поговорили между собой некоторое время, согласовывая "
+"обязательства сделки. Думаю, мы произвели на друг друга хорошее впечатление, "
+"так что ты предложил мне выйти из Колонны, и с тех пор я рад находится рядом "
+"с тобой.\""
 
 #: 65777
-#, fuzzy
 msgid "\"Uh... what happened then?\""
-msgstr "\"Ну и что за вопросы у тебя?\""
+msgstr "\"Ух... И что случилось потом?\""
 
 #: 65780
 msgid ""
@@ -7348,10 +7400,13 @@ msgid ""
 "of it... I mean, how was I to know, I'd never been off the damn thing... but "
 "you were pretty understanding about it...\""
 msgstr ""
+"\"Я не знаю. Как только я выбрался, я потерял почти все знания Колонны. То "
+"есть я хочу сказать, откуда мне было знать, я ведь ни разу не был вне этой "
+"чертовой штуки... но ты отнесся к этому с большим пониманием...\""
 
 #: 65781
 msgid "\"You lost all the knowledge you said you had...?\""
-msgstr ""
+msgstr "\"Ты потерял все знания, которые имел?..\""
 
 #: 65784
 msgid ""
@@ -7360,12 +7415,18 @@ msgid ""
 "pain, screaming for someone to stop, to stop *killing* him... and your hand, "
 "lashing out, again and again and..."
 msgstr ""
+"Твое зрение снова затуманивается, ты чувствуешь головокружение, кишки "
+"завязываются в узел. Ты слышишь треск кости и крик Морта - крик боли, "
+"отчаяния, помощи прекратить, прекратить *убивать* его... а твоя рука все "
+"била и била, била и била..."
 
 #: 65785
 msgid ""
 "Echo: \"DAMN you, skull, you LIED to me. I'll THRUST YOU BACK IN THAT "
 "DAMNABLE PILLAR AND LEAVE YOU TO *DIE* THERE.\""
 msgstr ""
+"Эхо: \"Будь ты ПРОКЛЯТ, чертов череп, ты ОБМАНУЛ меня. Я БРОШУ ТЕБЯ НАЗАД В "
+"ЭТУ ЧЕРТОВУ КОЛОННУ И ОСТАВЛЮ ТЕБЯ ТАМ *ПОДЫХАТЬ*.\""
 
 #: 65788
 msgid ""
@@ -7373,12 +7434,17 @@ msgid ""
 "wall, and the skittering of teeth knocked free. You can hear Morte, mewling "
 "like a beaten dog for you to st-"
 msgstr ""
+"Послышался звук, с которым ударяется кость о что-то металлическое - пол или "
+"стену. Брызнули вылетевшие зубы. Ты слышишь Морта, скулящего как побитый "
+"пес, молящего тебя..."
 
 #: 65789
 msgid ""
 "Echo: \"KNOW THAT YOUR SUFFERING ON THE PILLAR WILL BE *NOTHING* TO THE "
 "TORMENT I WILL MAKE YOU *SUFFER.*\""
 msgstr ""
+"Эхо: \"ЗНАЙ, ЧТО ТВОИ СТРАДАНИЯ В КОЛОННЕ БУДУТ *НИЧЕМ* ПО СРАВНЕНИЮ С ТЕМ "
+"МУЧЕНИЕМ, КОТОРЫЕ ТЫ *ИСПЫТАЕШЬ* У МЕНЯ.\""
 
 #: 65792
 msgid ""
@@ -7386,12 +7452,17 @@ msgid ""
 "rhythm. \"So, you realized I still had my uses, so I took up with you and "
 "I've been with you ever since.\""
 msgstr ""
+"Видение снова отступает, превращая вопль Морта в размеренный ритм болтовни. "
+"\"И ты понял, что я все еще полезен для тебя, поэтому я до сих пор следую за "
+"тобой по пятам.\""
 
 #: 65793
 msgid ""
 "\"Morte, what did I want from the Pillar? And how long was it that I freed "
 "you?\""
 msgstr ""
+"\"Морт, а что я хотел от Колонны? И как давно прошло времени, как я тебя "
+"освободил?\""
 
 #: 65794
 #, fuzzy
@@ -7405,14 +7476,18 @@ msgid ""
 "but...\" Morte sighs. \"It's not easy. And as for what you wanted at the "
 "Pillar, I don't know - once you pried me off, I couldn't remember.\""
 msgstr ""
+"Морт задумывается. \"Ну достаточно давно, я не знаю точно, шеф. Несколько "
+"веков, наверное. Я всегда делал все, что мог, чтобы помочь тебе, но...\" "
+"Морт вздыхает. \"Это не так просто. Я не знаю, что тебе было нужно от "
+"Колонны - как только ты меня вырвал из нее, я все забыл.\""
 
 #: 65797
 msgid "\"Morte, why didn't you SAY something when we were at the Mortuary?\" "
-msgstr ""
+msgstr "\"Морт, почему ты ничего не СКАЗАЛ тогда, в Морге?\""
 
 #: 65801
 msgid "\"So you've stayed with me all this time?\""
-msgstr ""
+msgstr "\"Так значит, ты был со мной все это время?\""
 
 #: 65804
 msgid ""
@@ -7420,30 +7495,38 @@ msgid ""
 "pauses. \"Well, most of them. Heh-heh. There was this one chit on Arborea "
 "who --\""
 msgstr ""
+"\"Ну да, шеф. Я же обещал. Морт всегда держит свои обещания.\" Он делает "
+"паузу. \"Ну, почти всегда. Хе-хе. Была одна крошка с Арбореи, которая...\""
 
 #: 65805
 msgid ""
 "You suddenly realize that Morte's tone has changed - past the joke, you "
 "realize he's trying to hide something. Something about why he's with you."
 msgstr ""
+"Неожиданно ты понимаешь, что тон Морта изменился. После шутки тебе кажется, "
+"что он пытается что-то скрыть. Что-то о том, почему он по-прежнему с тобой."
 
 #: 65806
 msgid "\"Morte, seriously, why are you still traveling with me?\""
-msgstr ""
+msgstr "\"А если серьезно, Морт, почему ты до сих пор путешествуешь со мной?\""
 
 #: 65809
 msgid ""
 "\"Chief, I said it's because I promised, all right?\" He looks irritated. "
 "\"What else could it be?\""
 msgstr ""
+"\"Шеф, я же сказал, потому что я обещал, верно?\" Он выглядит раздраженным. "
+"\"Что может быть еще?\""
 
 #: 65810
 msgid "\"I don't know. You didn't need to stick around after I freed you.\""
 msgstr ""
+"\"Не знаю. Тебе ведь не обязательно кружить вокруг меня, раз я тебя "
+"освободил.\""
 
 #: 65812
 msgid "\"Forget it, Morte. Let's move on.\""
-msgstr ""
+msgstr "\"Забудь об этом, Морт. Пошли.\""
 
 #: 65813
 msgid ""
@@ -7451,16 +7534,20 @@ msgid ""
 "strikes a chord in you, and you know *why* he's remained with you, all this "
 "time."
 msgstr ""
+"\"Конечно нет, шеф, но я...\" Внезапно его голос струной режет тебя. Ты "
+"знаешь *почему* он по-прежнему остается рядом с тобой, все это время."
 
 #: 65814
 msgid ""
 "\"You feel *guilty.* Because you led me to my death so long ago, isn't it? "
 "And you've been suffering ever since.\""
 msgstr ""
+"\"Ты чувствуешь себя *виновным*. Вот почему ты следуешь за мной до моей "
+"смерти, верно? И все это время ты страдал.\""
 
 #: 65815
 msgid "\"Aw, c'mon, chief. Me, feel *guilty?* I'm Morte.\""
-msgstr ""
+msgstr "\"А, да ладно, шеф. Я, чувствую себя, *виновным*? Я - Морт.\""
 
 #: 65816
 msgid ""
@@ -7468,6 +7555,10 @@ msgid ""
 "you couldn't *help* but try and help me. And when you could have left after "
 "I freed you, you remained. Because you felt indebted.\""
 msgstr ""
+"\"Нет, все именно так. Когда я пришел, чтобы освободить тебя от твоей "
+"судьбы, ты не мог *помочь* мне, но ты попробовал. А после освобождения, "
+"когда ты мог просто уйти, ты остался. Потому что ты чувствовал себя в долгу."
+"\""
 
 #: 65817
 msgid ""
@@ -7475,6 +7566,9 @@ msgid ""
 "funny? At first, I don't know what the feeling was - it kind of slowly eats "
 "at you, y'know?\""
 msgstr ""
+"Глядя на тебя, Морт на секунду умолкает. \"Может быть. И знаешь, что самое "
+"смешное? Во-первых, я не знал, что такое чувствовать - когда что-то тебя "
+"поглощает, понимаешь?\""
 
 #: 65818
 msgid ""
@@ -7485,6 +7579,12 @@ msgid ""
 "Maybe I felt... I don't know, *responsible* for whatever it is I did. What "
 "if something I did brought you to this state?\""
 msgstr ""
+"\"Я имею в виду, сначала я думал, что это побочный эффект того, что "
+"'связывает' меня с тобой... но спустя несколько сотен лет, я понял, что это "
+"нечто *большее*... более глубокое. Я просто почувствовал, что каким-то "
+"образом *связан* с тобой. Возможно, это все твои муки, шеф... твое мучение. "
+"Я не знаю. Возможно, я чувствую... не знаю, что я *ответственен* за то, что "
+"я сделал. Что, если я сделал то, что привело тебя к такому состоянию?\""
 
 #: 65820
 msgid ""
@@ -7494,10 +7594,14 @@ msgid ""
 "you were the one I'd betrayed. Once... long ago.\" Morte sighs. \"And that's "
 "all I know.\""
 msgstr ""
+"\"Дело в том, что я, кем бы я ни был прежде, не *видел* всех последствий "
+"всей этой лжи и обмана, которую создал. А когда я в Колонне впервые увидел "
+"тебя, я почему-то *знал*, что я тебя однажды предал. Однажды... давным-давно."
+"\" Морт вздыхает. \"И это все, что я знаю.\""
 
 #: 65821
 msgid "\"I see. Thanks for coming clean, Morte.\""
-msgstr ""
+msgstr "\"Понятно. Спасибо за разъяснения, Морт.\""
 
 #: 65822
 msgid ""
@@ -7506,11 +7610,14 @@ msgid ""
 "his skull have vanished, as if healed. \"Nah, the thanks is all to you - I "
 "feel like I just had a Plane moved off my shoulders... so to speak.\""
 msgstr ""
+"\"А, не благодари...\" Морт вздыхает. К твоему удивлению, его голос каким-то "
+"образом стал более твердым и уверенным. Некоторые трещины и сколы в его "
+"черепе исчезли, как после исцеления. \"Это мне нужно тебя благодарить. Я "
+"прямо чувствую, как сбросил Планы со своих плеч... образно выражаясь.\""
 
 #: 65824
-#, fuzzy
 msgid "\"All right, Morte. Let's move on.\""
-msgstr "\"Я в порядке. Идем.\""
+msgstr "\"Отлично, Морт. Пошли.\""
 
 #: 65825
 msgid ""
@@ -7519,6 +7626,10 @@ msgid ""
 "his guilty feelings seemed to take some of the burden off of him, and he "
 "seemed to become stronger as a result."
 msgstr ""
+"Я выяснил, почему Морт оставался со мной все это время... Все из-за того, "
+"что он испытывал чувство вины за то, что убил меня однажды, когда был жив. "
+"Встретившись со своей виной лицом к лицу, он сбросил с себя весь этот груз "
+"и, в конце концов, стал сильнее."
 
 #: 65826
 msgid ""
@@ -7605,9 +7716,8 @@ msgid "\"Look who's talking. Let's go.\""
 msgstr "\"Ой-ой, кто бы говорил. Идем.\""
 
 #: 65846
-#, fuzzy
 msgid "\"Not really.\""
-msgstr "Правда: \"Да не очень-то.\""
+msgstr "\"Не очень-то.\""
 
 #: 6611
 msgid "\"Would you cut that out? His arms are gonna snap off.\""

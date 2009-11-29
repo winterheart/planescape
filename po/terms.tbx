@@ -4172,7 +4172,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-235">
                 <descrip type="subjectField">персонажи</descrip>
                 <descrip type="definition">Маг, создатель Кулона Йемета.</descrip>
@@ -4187,6 +4186,116 @@
                     <ntig>
                         <termGrp>
                             <term>йемет</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-236">
+                <descrip type="subjectField">заклинания</descrip>
+                <descrip type="definition">Уникальное заклинание Морта.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>litany of curses</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>поток проклятий</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-237">
+                <descrip type="subjectField">персонажи</descrip>
+                <descrip type="definition">Коллекционер черепов</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>lothar</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>лотар</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-238">
+                <descrip type="subjectField">персонажи</descrip>
+                <descrip type="definition">Огромный столб, состоящий из черепов, находится на Авернусе.</descrip>
+                
+                
+                
+                
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>pillar</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>pillar of skulls</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>колонна</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>колонна черепов</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-239">
+                <descrip type="subjectField">planescape</descrip>
+                <descrip type="definition">Характеристика воспоминаний Безымянного.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>echo</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>эхо</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-240">
+                <descrip type="subjectField">география планов</descrip>
+                <descrip type="definition">План хаотичного добра.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>arborea</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>арборея</term>
                         </termGrp>
                     </ntig>
                 </langSet>
