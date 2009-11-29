@@ -3,31 +3,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dinscr7.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:07+0600\n"
+"PO-Revision-Date: 2009-11-29 05:31+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 38109
 msgid ""
 "So they said - You have been divided. You are one of many men. You bear many "
 "names, and each has left their scars on your flesh."
 msgstr ""
+"Они сказали - Ты разделен. Ты один из многих мужчин. У тебя много имен, и "
+"каждое из них оставило на твоей плоти шрам."
 
 #: 53751 53754
-#, fuzzy
 msgid "Continue."
 msgstr "Продолжить."
 
 #: 53752 53755 53763
-#, fuzzy
 msgid "Turn away from the inscription."
-msgstr "Отступить прочь от кузницы."
+msgstr "Отойти от описания."
 
 #: 53753
 msgid ""
@@ -36,10 +36,13 @@ msgid ""
 "HOLDS PRISONER... THE BRINGER OF SHADOWS... THE WOUNDED ONE... MISERY-"
 "BRINGER... YEMETH..."
 msgstr ""
+"ПОТЕРЯВШИЙ... БЕССМЕРТНЫЙ... КОНЕЦ ВОПЛОЩЕНИЙ... ЧЕЛОВЕК ТЫСЯЧИ СМЕРТЕЙ... "
+"ОБРЕЧЕННЫЙ ЖИТЬ... НЕУПОКОЕННЫЙ... ОДИН ИЗ МНОГИХ... ТОТ, В КОТОРОМ ЖИЗНЬ "
+"ДЕРЖИТ УЗНИКА... ПРИНЕСШИЙ ТЕНИ... УВЕЧНЫЙ... ПРИНЕСШИЙ МУЧЕНИЯ... ЙЕМЕТ..."
 
 #: 53756
 msgid "I grow weary."
-msgstr ""
+msgstr "Я так устал."
 
 #: 53757
 msgid "Examine the panel."
@@ -54,6 +57,8 @@ msgid ""
 "The panel is finely crafted, obviously the work of a master. It looks like "
 "it can recess into the wall."
 msgstr ""
+"Панель отлично сделана, выдавая работу мастера. Похоже, ее можно вдавить в "
+"стену."
 
 #: 53760
 msgid "Push the panel."
@@ -64,3 +69,7 @@ msgid ""
 "There is a slight hissing sound as the panel slides into the wall. You hear "
 "a click from the sarcophagus behind you."
 msgstr ""
+"С легким свистом панель уходит в стену. Ты слышишь щелчок от саркофага "
+"позади тебя."
+
+

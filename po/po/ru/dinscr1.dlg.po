@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dinscr1.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:06+0600\n"
+"PO-Revision-Date: 2009-11-29 04:50+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 38097
 msgid ""
@@ -20,11 +20,14 @@ msgid ""
 "this life so badly, break it, smash it, and stain it in blood and feces, so "
 "you cannot live it either! Let all creation burn for I cannot die!"
 msgstr ""
+"Как в мире коротка жизнь, вытекающая из этой дырки в моем теле. Пусть мир "
+"горит, пусть горят планы, только верните мне жизнь! Я уничтожу эту жизнь так "
+"сильно, разобью ее, разрушу, смешаю ее с кровью и дерьмом, так, чтобы вы не "
+"смогли прожить ею тоже! Пусть все живое горит за то, что я не могу умереть!"
 
 #: 53652 53660
-#, fuzzy
 msgid "Turn away from the inscription."
-msgstr "Отступить прочь от кузницы."
+msgstr "Отойти от описания."
 
 #: 53654
 msgid "Examine the panel."
@@ -32,7 +35,7 @@ msgstr "Осмотреть панель."
 
 #: 53656
 msgid "The panel is crafted in such a way that it can recess into the wall."
-msgstr ""
+msgstr "Панель сделана таким образом, чтобы она могла вдавливаться в стену."
 
 #: 53657
 msgid "Push the panel."
@@ -47,3 +50,6 @@ msgid ""
 "You push the panel and it slides easily into the wall. You hear a click from "
 "the sarcophagus behind you."
 msgstr ""
+"Ты наживаешь на панель, и она легко уходит в стену. Ты слышишь щелчок от "
+"саркофага позади тебя."
+
