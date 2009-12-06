@@ -3,20 +3,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: daileena.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 20:46+0600\n"
+"PO-Revision-Date: 2009-12-06 02:37+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 58096
 msgid ""
 "You see a young woman wearing dirty work clothes. She nods at your approach."
 msgstr ""
+"Ты видишь девушку в грязной рабочей одежде. При твоем приближении она кивает."
 
 #: 58098
 msgid "\"Greetings.\""
@@ -28,19 +29,17 @@ msgstr "Игнорировать ее."
 
 #: 58100
 msgid "\"Hello... you need something?\""
-msgstr ""
+msgstr "\"Привет... тебе что-нибудь нужно?\""
 
 #: 58101 58110 58114 58128 58131 58134
 msgid "\"I have some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 58102
-#, fuzzy
 msgid "\"No, not really. Farewell.\""
-msgstr "\"На самом деле - ничего. Прощай.\""
+msgstr "\"Нет, ничего. Прощай.\""
 
 #: 58103
-#, fuzzy
 msgid "\"All right.\""
 msgstr "\"Хорошо.\" "
 
@@ -57,9 +56,8 @@ msgid "\"What can you tell me about this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 58107
-#, fuzzy
 msgid "\"I'm looking for a deva. I've been told he's in Curst.\""
-msgstr "\"Я ищу дневник.\""
+msgstr "\"Я ищу одного дэва. Мне сказали, что он в Проклятом.\""
 
 #: 58108 58111 58115
 msgid "\"I must be going, farewell.\""
@@ -67,38 +65,39 @@ msgstr "\"Я должен идти. Прощай.\""
 
 #: 58109
 msgid "\"The name's Aileena.\""
-msgstr ""
+msgstr "\"Меня зовут Айлина.\""
 
 #: 58112
 msgid ""
 "\"Processing work orders. I receive various orders for goods from merchants "
 "throughout the city. I then pick the items and ready them for shipment.\""
 msgstr ""
+"\"Обрабатываю различные заказы. Я получаю заказы на товары от городских "
+"торговцев. Затем беру вещи и готовлю их к отправке.\""
 
 #: 58113
 msgid "\"Sounds like interesting work.\""
-msgstr ""
+msgstr "\"Похоже, это очень интересная работа.\""
 
 #: 58116
 msgid ""
 "She smiles. \"It is, actually...\" She sighs and shrugs her shoulders. \"If "
 "it weren't, I certainly wouldn't be doing it.\""
 msgstr ""
+"Она улыбается. \"Да, правда...\" Она вздыхает и пожимает плечами. \"Если бы "
+"это не было так, я бы этим точно не занималась.\""
 
 #: 58117
-#, fuzzy
 msgid "\"Why is that?\""
-msgstr "\"Что-что?\""
+msgstr "\"Почему?\""
 
 #: 58118 58122 58125
-#, fuzzy
 msgid "\"I see. I have some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Понятно. У меня еще есть вопросы...\""
 
 #: 58119 58123 58126 58129 58132
-#, fuzzy
 msgid "\"I must be going now, farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Я должен идти, прощай.\""
 
 #: 58120
 msgid ""
@@ -106,22 +105,29 @@ msgid ""
 "by more than one person. However, the boss is a cheap son of a harlot and "
 "won't hire another person.\""
 msgstr ""
+"Нахмурившись, она думает. \"Ну... это не очень простая работа и ее нужно "
+"делать сразу для нескольких людей. К тому же, хозяин - сучий потрох и не "
+"хочет нанимать никого больше.\""
 
 #: 58121
 msgid "\"Then why do you stay here?\""
-msgstr ""
+msgstr "\"Тогда почему ты до сих пор здесь?\""
 
 #: 58124
 msgid ""
 "She smiles again. \"Devore, the boss, may be cheap but he has a nice streak "
 "in him. He actually gives us all a day off each week with pay!\""
 msgstr ""
+"Она снова улыбается. \"Девор, хозяин, может быть и сволочь, но у него есть "
+"одна отличная черта. Он платит всем нам каждую неделю точно в срок!\""
 
 #: 58127
 msgid ""
 "She shrugs. \"There's nothing to tell. If you've seen one warehouse, you've "
 "seen them all. This one is no different.\""
 msgstr ""
+"Она пожимает плечами. \"Нечего сказать. Если ты когда-нибудь видел склад, "
+"значит ты видел их все. Этот - не исключение.\""
 
 #: 58130
 msgid ""
@@ -130,13 +136,20 @@ msgid ""
 "She pauses. \"I can't remember what though. I think you should go to the "
 "administration office and ask there. It's in the town square.\""
 msgstr ""
+"Она смущенно смотрит на тебя. \"Я хотела было сказать, что глупо искать его "
+"в Проклятом... но потом я вспомнила кое-что о дэва.\" Она умолкает. \"Хотя "
+"не так уж и много. Наверное, тебе следует сходить в правительственное здание "
+"и поспрашивать там. Оно там, на городской площади.\""
 
 #: 58133
 msgid ""
 "You see Aileena, the warehouse worker. She smiles and nods at your approach. "
 "\"Hello again. What's up?\""
 msgstr ""
+"Ты видишь Айлину, рабочую склада. Она улыбается и кивает тебе при твоем "
+"приближении. \"Привет еще раз. Что нового?\""
 
 #: 58135
 msgid "\"Nothing, farewell.\""
 msgstr "\"Ничего, прощай.\""
+
