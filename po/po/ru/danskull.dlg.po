@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: danskull.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 20:53+0600\n"
+"PO-Revision-Date: 2009-12-06 05:22+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 31732
 msgid ""
@@ -24,43 +24,40 @@ msgid ""
 "This skull's voice is low and raspy, the sound of flint and steel. \"I... I "
 "think I've seen you before, stranger.\""
 msgstr ""
+"Голос этого черепа низок и скрипуч, словно звук камня по металлу. \"Мне... "
+"мне кажется, что я уже видел тебя, незнакомец.\""
 
 #: 31734
-#, fuzzy
 msgid "\"Where have you seen me?\""
-msgstr "\"Может быть. Где ты меня видел?\""
+msgstr "\"Где ты меня видел?\""
 
 #: 31743
 msgid "\"Quite possibly, but I don't have time for that.\""
-msgstr ""
+msgstr "\"Очень возможно, но у меня нет времени на это.\""
 
 #: 31744
 msgid "\"You again, eh? What do you want of me now?\""
-msgstr ""
+msgstr "\"А, снова ты? Что на этот раз тебе от меня нужно?\""
 
 #: 31745
 msgid "\"You said you'd seen me before. Where?\""
-msgstr ""
+msgstr "\"Ты сказал, что ты меня уже видел. Где?\""
 
 #: 31746
-#, fuzzy
 msgid "\"Tell me of yourself.\""
 msgstr "\"Расскажи мне о себе.\""
 
 #: 31747
-#, fuzzy
 msgid "\"How did you get here?\""
 msgstr "\"Как ты попала сюда?\""
 
 #: 31748 31756
-#, fuzzy
 msgid "\"Tell me about Lothar.\""
-msgstr "\"Расскажи мне о демонах.\""
+msgstr "\"Расскажи мне о Лотаре.\""
 
 #: 31749 31757
-#, fuzzy
 msgid "\"Tell me about the other skulls here.\""
-msgstr "\"Расскажи мне о Морге.\""
+msgstr "\"Расскажи мне о других черепах.\""
 
 #: 31750
 msgid "\"Nothing. Farewell.\""
@@ -68,16 +65,15 @@ msgstr "\"Ничего. Прощай.\""
 
 #: 31751
 msgid "\"Curst. Gate town to Carceri.\""
-msgstr ""
+msgstr "\"В Проклятом. Привратном городе в Карцери.\""
 
 #: 31752
 msgid "\"Curst? Gate town? Carceri?\""
-msgstr ""
+msgstr "\"Проклятом? Привратном городе? Карцери?\""
 
 #: 31753 31776
-#, fuzzy
 msgid "\"What was I doing there?\""
-msgstr "\"Что ты здесь делаешь?\""
+msgstr "\"Что я там делал?\""
 
 #: 31754
 msgid ""
@@ -89,11 +85,16 @@ msgid ""
 "Good thing most of them are out of date by now - there ain't no resisting "
 "Lothar's charms.\""
 msgstr ""
+"\"Я? Я - Гримскальп. Раньше был Анархистом - одним из Революционной лиги. У "
+"нас были секреты и ячейки. Мы хотели перевернуть существо планов, чтобы все "
+"могли жить в свободе. У знали тайны некоторых фрактолов и были готовы "
+"сделать ход. Но нас предала другая фракция. Я был смертельно ранен, а Лотар "
+"был до смерти охоч до моих секретов. Хорошо, что большая часть теперь "
+"неактуальна - обаянию Лотара невозможно сопротивляться.\""
 
 #: 31755
-#, fuzzy
 msgid "\"What can you tell me of the Anarchists?\""
-msgstr "\"Что ты можешь рассказать о здешних завсегдатаях?\""
+msgstr "\"Что ты можешь рассказать мне об Анархистах?\""
 
 #: 31758 31777 31809
 msgid "\"Thanks. Farewell.\""
@@ -104,11 +105,12 @@ msgid ""
 "\"Betrayal. I should have expected it, given who I am - or rather, who I was."
 "\""
 msgstr ""
+"\"Предательство. Я должен был это предвидеть, если учесть, кто я. Или, по "
+"крайней мере, кем был.\""
 
 #: 31760
-#, fuzzy
 msgid "\"Who were you?\""
-msgstr "\"Так кто ты на самом деле?\""
+msgstr "\"Кем ты был?\""
 
 #: 31761
 #, fuzzy
@@ -122,31 +124,30 @@ msgid ""
 "rigid rules to shame. He knows my secrets far better than I know his, and "
 "I'll be damned if I'm giving them up for anyone. Even you. Especially you.\""
 msgstr ""
+"\"Я развеял темноту со многих секретов, но ими я не собирался жертвовать. В "
+"руках Лотара я видел ужас, который сможет даже жестокие правила Гармониума "
+"ввергнуть в смущение. Он знает мои секреты лучше, чем я его, и будь я "
+"проклят, если отдам их кому-нибудь. Даже тебе. Особенно тебе.\""
 
 #: 31763 31764
-#, fuzzy
 msgid "\"Why? What do you know about me?\""
-msgstr "\"Ты знаешь что-нибудь обо мне?\""
+msgstr "\"Почему? Ты что-то знаешь обо мне?\""
 
 #: 31765
-#, fuzzy
 msgid "\"Then tell me of yourself.\""
-msgstr "\"Расскажи мне о себе.\""
+msgstr "\"Тогда расскажи мне о себе.\""
 
 #: 31766
-#, fuzzy
 msgid "\"How did you get here, then?\""
-msgstr "\"Как ты попала сюда?\""
+msgstr "\"И как ты попал сюда?\""
 
 #: 31767
-#, fuzzy
 msgid "\"What can you tell me of the other skulls?\""
-msgstr "\"Что ты можешь рассказать о здешних завсегдатаях?\""
+msgstr "\"Что ты можешь рассказать мне об остальных черепах?\""
 
 #: 31768
-#, fuzzy
 msgid "\"Fair enough. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Довольно справедливо. Прощай.\""
 
 #: 31769
 msgid ""
@@ -155,18 +156,21 @@ msgid ""
 "They do not see beyond themselves. They are worthless. I do not speak to "
 "them.\""
 msgstr ""
+"\"О них? Они всего лишь инструменты, хоть и не знают этого. Их сны мелки и "
+"личны. В своих мыслях ни не видят всей картины. Они ничего не видят перед "
+"собой. Они бесполезны. Я не разговариваю с ними.\""
 
 #: 31770
 msgid "\"I see. Tell me of yourself, then.\""
-msgstr ""
+msgstr "\"Понятно. Тогда расскажи о себе.\""
 
 #: 31771
 msgid "\"So then how did you come here?\""
-msgstr ""
+msgstr "\"И как тогда ты попал сюда?\""
 
 #: 31772
 msgid "\"What of Lothar, then?\""
-msgstr ""
+msgstr "\"А что же Лотар?\""
 
 #: 31773 31800
 msgid "\"That's all I needed to know. Farewell.\""
@@ -180,11 +184,15 @@ msgid ""
 "next door to Carceri's apt to change a burg's nature; I wouldn't be "
 "surprised if the town were about to slide over.\""
 msgstr ""
+"\"Что с тобой, пустоголовый? Это привратный город, на краю Внешних земель, "
+"вход в тюремный план Карцери. Это место предателей и изменников, и там "
+"столько заговоров, сколько у баатезу за пазухой. Быть входом в Карцери - "
+"самое подходящее предназначение этого местечка. Не удивлюсь, если город уже "
+"сползает.\""
 
 #: 31775
-#, fuzzy
 msgid "\"Slide over? What do you mean?\""
-msgstr "\"Друзей? О чем это ты?\""
+msgstr "\"Сползает? О чем это ты?\""
 
 #: 31778
 msgid ""
@@ -194,21 +202,23 @@ msgid ""
 "shiv in you and divvied up your stuff. It was right after that that I was "
 "betrayed, but not before I hid some of that stuff.\""
 msgstr ""
+"\"А что ты делаешь здесь? Ты что-то болтал о пне, который пытается тебя "
+"убить, и о странствиях по неправильным местам. Ты был настолько спятившим, "
+"что я и мои друзья тебя завернули. Оставили в тебе заточку и забрали твои "
+"вещички. Это было как раз перед тем, как меня предали, но я успел-таки "
+"спрятать кое-что.\""
 
 #: 31779
-#, fuzzy
 msgid "\"What can you tell me of Curst?\""
-msgstr "\"Что ты можешь сказать о ней?\""
+msgstr "\"Что ты можешь сказать о Проклятом?\""
 
 #: 31780 31781 31782
-#, fuzzy
 msgid "\"Where is it?\""
-msgstr "\"Где она?\""
+msgstr "\"И где это?\""
 
 #: 31783
-#, fuzzy
 msgid "\"Oh. Well, thanks. Farewell.\""
-msgstr "\"Нет, спасибо. Прощай.\""
+msgstr "\"О. Хорошо, спасибо. Прощай.\""
 
 #: 31784
 msgid ""
@@ -217,14 +227,16 @@ msgid ""
 "you, boyo, and he wants his questions answered. He'll be keeping an eye on "
 "you. And I know that you're a far traveler - you've been seen before.\""
 msgstr ""
+"\"Мне известно, что ты чем-то важен Лотару, и это что-то важное о тебе, что "
+"он хочет понять. Ты похож на головоломку. Он интересуется тобой, мальчик, и "
+"хочет, чтобы его вопросы нашли ответы. Он следит за тобой. И я знаю, что ты "
+"старый путешественник - тебя уже видели.\""
 
 #: 31785 31796
-#, fuzzy
 msgid "\"What do you know of me?\""
-msgstr "\"Ты знаешь что-нибудь обо мне?\""
+msgstr "\"Что ты знаешь обо мне?\""
 
 #: 31794 31797
-#, fuzzy
 msgid "\"I'll keep that in mind. Farewell.\""
 msgstr "\"Я запомню это. Прощай.\""
 
@@ -236,6 +248,11 @@ msgid ""
 "answered. He'll be keeping an eye on you. I also know you're a far traveler "
 "- you've been seen before.\""
 msgstr ""
+"\"Я уже поговорил с твоим другом обо всем. Мне известно, что ты чем-то важен "
+"Лотару, и это что-то важное о тебе, что он хочет понять. Ты похож на "
+"головоломку. Он интересуется тобой, мальчик, и хочет, чтобы его вопросы "
+"нашли ответы. Он следит за тобой. Я также знаю, что ты старый путешественник "
+"- тебя уже видели.\""
 
 #: 31798
 msgid ""
@@ -248,12 +265,22 @@ msgid ""
 "all the secrets I knew are no longer valid, except for the faces I can "
 "remember - and even those must have been changed by now.\""
 msgstr ""
+"\"Мы - тайное сообщество, члены ячеек, которые работают обособленно или "
+"получают директивы через сеть информаторов от руководителей, остающихся в "
+"тени. Наша цель - искоренить структуры власти, освободить людей от лжи "
+"политиканов и сил, позволить им жить по собственной воле. Мы работаем в "
+"тайне - работали в тайне - и постоянно меняли порядки, чтобы избежать "
+"внедрения. Мое время прошло десятилетия назад, и все мои секреты больше не "
+"актуальны, за исключением лиц, которые я смог запомнить - да и те уже успели "
+"смениться.\""
 
 #: 31799
 msgid "\"You sound like a paranoid bunch.\""
-msgstr ""
+msgstr "\"Вы похоже на кучку параноиков.\""
 
+# Triple-cross?
 #: 31801
+#, fuzzy
 msgid ""
 "\"If a society you belonged to thrived on intrigue, infiltration, and the "
 "hatred of the established power-mongers, you'd be careful too. It's not "
@@ -261,6 +288,9 @@ msgid ""
 "involved in a triple-cross is an amateur.\" The skull regards you evenly for "
 "a moment. \"I think I'm done speaking with you. Farewell.\""
 msgstr ""
+"\"Если твое сообщество растет на интригах и внедрениях, ненавидит "
+"состоявшихся властолюбцев, то ты тоже станешь осторожным. Это не паранойя, "
+"когда с тобой на самом деле могут разобраться. "
 
 #: 31802
 msgid "\"Farewell.\""
@@ -292,6 +322,8 @@ msgid ""
 "\"I'll remember that. Thanks, though I'm not too happy about having been "
 "killed by you then. Farewell.\""
 msgstr ""
+"\"Я запомню это. Спасибо, хоть я и не очень счастлив быть убитым тобой. "
+"Прощай.\""
 
 #: 31807
 msgid ""
@@ -300,8 +332,13 @@ msgid ""
 "Happens all the time - at least when the Anarchists are involved.\" He "
 "speaks this last with a kind of grim pride."
 msgstr ""
+"\"Когда убеждения привратного города становятся слишком соответствующими "
+"пограничному плану, силы этих убеждений становится достаточно, чтобы план "
+"смог поглотить его целиком. Это происходит постоянно - по крайней мере, там, "
+"где вовлечены Анархисты.\" Последнюю фразу они произносит со зловещей "
+"гордостью."
 
 #: 31808
-#, fuzzy
 msgid "\"Tell me about the Anarchists.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Анархистах.\""
+
