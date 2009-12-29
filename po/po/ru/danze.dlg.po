@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: danze.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 20:53+0600\n"
+"PO-Revision-Date: 2009-12-29 23:20+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 33883
 msgid ""
@@ -24,7 +24,6 @@ msgid "\"Greetings.\""
 msgstr "\"Приветствую.\""
 
 #: 33885
-#, fuzzy
 msgid "Ignore the man."
 msgstr "Не обращать внимания на мужчину."
 
@@ -74,7 +73,6 @@ msgid "\"I need to buy some magic items.\""
 msgstr "\"Мне нужна некоторая помощь.\""
 
 #: 33895 33899 33903 33907 33911 33916
-#, fuzzy
 msgid "\"I must be going. Farewell.\""
 msgstr "\"Я должен идти. Прощай.\""
 
@@ -86,14 +84,12 @@ msgid ""
 msgstr ""
 
 #: 33897 33905
-#, fuzzy
 msgid "\"Where can I find him?\""
-msgstr "\"Где я могу найти ее?\""
+msgstr "\"Где я могу найти его?\""
 
 #: 33898 33901
-#, fuzzy
 msgid "\"What can you tell me about him?\""
-msgstr "\"Что ты еще можешь рассказать об этой Леди?\""
+msgstr "\"Что ты можешь рассказать о нем?\""
 
 #: 33900
 msgid ""
@@ -149,14 +145,12 @@ msgid ""
 msgstr ""
 
 #: 33918 33921
-#, fuzzy
 msgid "\"I have some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще вопросы...\""
 
 #: 33919
-#, fuzzy
 msgid "\"Thank you. Farewell.\""
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо. Прощай.\""
 
 #: 33920
 msgid ""
@@ -199,3 +193,4 @@ msgstr ""
 #: 34249
 msgid "Leave."
 msgstr "Уйти."
+
