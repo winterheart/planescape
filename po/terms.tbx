@@ -4392,7 +4392,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-246">
                 <descrip type="subjectField">planescape</descrip>
                 <descrip type="definition">Особое растение, растущее в Сигиле.</descrip>
@@ -4411,7 +4410,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-247">
                 <descrip type="subjectField">персонажи</descrip>
                 <descrip type="definition">Глаабрезу</descrip>
@@ -4426,6 +4424,77 @@
                     <ntig>
                         <termGrp>
                             <term>агриль-шенак</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-248">
+                <descrip type="subjectField">персонажи</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>keldor</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>келдор</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-249">
+                <descrip type="subjectField">planescape</descrip>
+                <descrip type="definition">Одна из фракций Сигила</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>doomguard</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>хранители рока</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-250">
+                <descrip type="subjectField">planescape</descrip>
+                <descrip type="definition">Одна из фракций в Сигиле.</descrip>
+                
+                
+                
+                
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>godsman</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>godsmen</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>богочеловек</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>боголюди</term>
                         </termGrp>
                     </ntig>
                 </langSet>
