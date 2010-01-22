@@ -1576,6 +1576,10 @@
             <termEntry id="azamat_h._hackimov-88">
                 <descrip type="subjectField">planescape</descrip>
                 <descrip type="definition">Характеристика оружия</descrip>
+                
+                
+                
+                
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
@@ -1586,7 +1590,7 @@
                 <langSet xml:lang="ru">
                     <ntig>
                         <termGrp>
-                            <term>специальное</term>
+                            <term>особенности</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -4262,7 +4266,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-239">
                 <descrip type="subjectField">planescape</descrip>
                 <descrip type="definition">Характеристика воспоминаний Безымянного.</descrip>
@@ -4281,7 +4284,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-240">
                 <descrip type="subjectField">география планов</descrip>
                 <descrip type="definition">План хаотичного добра.</descrip>
@@ -4300,7 +4302,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-241">
                 <descrip type="subjectField">персонажи</descrip>
                 <descrip type="definition">Жительница Проклятого.</descrip>
@@ -4319,7 +4320,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-242">
                 <descrip type="subjectField">персонажи</descrip>
                 <descrip type="definition">Хозяин склада в Проклятом.</descrip>
@@ -4338,7 +4338,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-243">
                 <descrip type="subjectField">персонажи</descrip>
                 <descrip type="definition">Череп из Анархистов.</descrip>
@@ -4353,6 +4352,80 @@
                     <ntig>
                         <termGrp>
                             <term>гримскальп</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-244">
+                <descrip type="subjectField">механика AD&amp;D</descrip>
+                <descrip type="definition">Один из терминов характеристик предметов.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>invokes</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>вызывает</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-245">
+                <descrip type="subjectField">персонажи</descrip>
+                <descrip type="definition">Неизвестное имя.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>dahnthur</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>дантур</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-246">
+                <descrip type="subjectField">planescape</descrip>
+                <descrip type="definition">Особое растение, растущее в Сигиле.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>razor vine</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>остролистник</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-247">
+                <descrip type="subjectField">персонажи</descrip>
+                <descrip type="definition">Глаабрезу</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>agril-shanak</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>агриль-шенак</term>
                         </termGrp>
                     </ntig>
                 </langSet>
