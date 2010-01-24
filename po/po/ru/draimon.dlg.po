@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: draimon.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:47+0600\n"
+"PO-Revision-Date: 2010-01-23 19:07+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 23859
 msgid ""
@@ -104,7 +104,6 @@ msgid ""
 msgstr ""
 
 #: 23876
-#, fuzzy
 msgid "\"I'll think about it. Farewell.\""
 msgstr "\"Я подумаю над этим. Прощай.\""
 
@@ -154,9 +153,8 @@ msgid ""
 msgstr ""
 
 #: 23887
-#, fuzzy
 msgid "\"It's a deal.\""
-msgstr "\"Он уже мертв.\""
+msgstr "\"По рукам.\""
 
 #: 23888 23892 23906
 msgid "\"Forget it.\""
@@ -170,14 +168,12 @@ msgid ""
 msgstr ""
 
 #: 23890
-#, fuzzy
 msgid "\"All right. Here you go.\""
-msgstr "\"Хорошо. Прощай.\""
+msgstr "\"Хорошо. Держи.\""
 
 #: 23891
-#, fuzzy
 msgid "\"I don't have that much...\""
-msgstr "\"У меня нет столько.\""
+msgstr "\"У меня нет столько...\""
 
 #: 23893
 msgid ""
@@ -196,9 +192,8 @@ msgid ""
 msgstr ""
 
 #: 23896
-#, fuzzy
 msgid "\"Dammit...\""
-msgstr "\"Черт возьми, Анна...\""
+msgstr "\"Проклятье...\""
 
 #: 23897
 msgid ""
@@ -212,9 +207,8 @@ msgid "\"Then I'd like to discuss getting me out of here.\""
 msgstr "\"Я хочу выбраться отсюда.\""
 
 #: 23899
-#, fuzzy
 msgid "\"Fine, then.\""
-msgstr "\"На, держи.\""
+msgstr "\"Вот и отлично.\""
 
 #: 23900
 msgid ""
@@ -248,9 +242,8 @@ msgid ""
 msgstr ""
 
 #: 23912
-#, fuzzy
 msgid "\"Very well.\""
-msgstr "\"Ух, прощай...\""
+msgstr "\"Очень хорошо.\""
 
 #: 23913
 msgid "\"What the... SHADDEUS! GET 'IM!\" The two wererats attack you."
@@ -259,3 +252,4 @@ msgstr ""
 #: 23914
 msgid "Fight."
 msgstr "Сражаться."
+
