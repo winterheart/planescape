@@ -228,6 +228,10 @@
             <termEntry id="azamat_h._hackimov-12">
                 <descrip type="subjectField">planescape</descrip>
                 <descrip type="definition">Одна из фракций в Сигиле</descrip>
+                
+                
+                
+                
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
@@ -235,10 +239,24 @@
                         </termGrp>
                     </ntig>
                 </langSet>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>dustmen</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
                 <langSet xml:lang="ru">
                     <ntig>
                         <termGrp>
                             <term>тленный</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>тленные</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -264,6 +282,10 @@
             <termEntry id="azamat_h._hackimov-14">
                 <descrip type="subjectField">planescape</descrip>
                 <descrip type="definition">Собиратель трупов, одна из профессий в Улье</descrip>
+                
+                
+                
+                
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
@@ -271,10 +293,24 @@
                         </termGrp>
                     </ntig>
                 </langSet>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>collectors</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
                 <langSet xml:lang="ru">
                     <ntig>
                         <termGrp>
                             <term>сборщик</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>сборщики</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -4620,7 +4656,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-257">
                 <descrip type="subjectField">география планов</descrip>
                 <descrip type="definition">Собирательное название Баатора, Геены, Серой пустоши, Карцери и Бездны</descrip>
@@ -4653,7 +4688,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-258">
                 <descrip type="subjectField">география планов</descrip>
                 <langSet xml:lang="en">
@@ -4667,6 +4701,24 @@
                     <ntig>
                         <termGrp>
                             <term>астральный план</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-259">
+                <descrip type="subjectField">персонажи</descrip>
+                <descrip type="definition">Сборщик</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>vlask</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>власк</term>
                         </termGrp>
                     </ntig>
                 </langSet>
