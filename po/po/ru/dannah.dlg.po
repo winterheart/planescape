@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: 2009-05-24 14:44+0600\n"
-"PO-Revision-Date: 2009-09-02 06:19+0600\n"
+"PO-Revision-Date: 2010-01-31 05:20+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1353,6 +1353,9 @@ msgid ""
 "notice she is staring wide-eyed at the creature. She makes a semi-circle "
 "over her heart."
 msgstr ""
+"\"Шшшш!\" Анна предупреждающе шипит. Когда ты поворачиваешься к ней, ты "
+"замечаешь, что она смотрит на существо широкими глазами. Она делает полукруг "
+"над своим сердцем."
 
 #: 21612
 msgid ""
@@ -1706,11 +1709,11 @@ msgid ""
 "casts a shadow. An' that yeh need travel... ta a place where there's mad "
 "shadows, where mad shadows live, an' the earth is cut from regrets.\""
 msgstr ""
-"\"Эээ... он предупреждает тебя о чем-то... каждая из твоих прошлой жизни, "
-"жизней...\" Она изучает символы, затем продолжает. \"Карнаций... "
-"*инкарнаций* создает тень. И что тебе нужно попасть... в место, где эти "
-"сумасшедшие тени, где эти сумасшедшие тени живут, и где земля рыдает от "
-"сожалений.\""
+"\"Эээ... он предупреждает тебя о чем-то... твоя прошлая жизнь, эээ, каждая "
+"из твоих прошлых жизней...\" Она изучает символы, затем продолжает. "
+"\"Карнаций... *инкарнаций* создает тень. И что тебе нужно попасть... в "
+"место, где есть сумасшедшие тени, где сумасшедшие тени живут, и где земля "
+"рыдает от сожалений.\""
 
 #: 21648
 msgid "\"He also says not t'sign anythin'.\""
@@ -1784,7 +1787,7 @@ msgstr "\"Пожалуйста, продолжай.\""
 
 #: 24723
 msgid "\"What's wrong, Annah?\""
-msgstr "\"Что не так, Анна?\""
+msgstr "\"Что-то не так, Анна?\""
 
 #: 24724
 msgid "\"What's the problem?\""
@@ -1849,9 +1852,8 @@ msgid "\"'Her?' You mean the Lady of Pain?\" "
 msgstr "\"'Ее'? Ты имеешь в виду Леди Боли?\" "
 
 #: 24757 24759
-#, fuzzy
 msgid "\"I'd like to speak to Fell, first.\""
-msgstr "\"Я хотел бы, чтобы ты назвал точную сумму.\""
+msgstr "\"Сперва я бы хотел поговорить с Феллом.\""
 
 #: 24758
 msgid "\"Very well, we'll go.\""
@@ -2029,55 +2031,50 @@ msgid "\"What's that symbol on my shoulder?\""
 msgstr "\"Что? Что ты видишь?\""
 
 #: 24934 24935 24936
-#, fuzzy
 msgid "\"Shadows?\""
-msgstr "\"Тени.\""
+msgstr "\"Тени?\""
 
 #: 24941 24942 24943
-#, fuzzy
 msgid "\"Saddened for me?\""
-msgstr "\"Скорбишь по мне? Почему?\""
+msgstr "\"Скорбит по мне? Почему?\""
 
 #: 24946 24947 24948
-#, fuzzy
 msgid "\"What does he mean?\""
-msgstr "\"Интересно. А что это означает?\""
+msgstr "\"Что он имеет в виду?\""
 
 #: 24951
 msgid "\"Take a deep breath, try again.\""
 msgstr "\"Вздохни поглубже и попробуй еще раз.\""
 
 #: 24952 24957 24962 24967
-#, fuzzy
 msgid "\"Forget it, then. I had another question I wanted to ask him...\""
-msgstr "\"Понятно. У меня есть еще вопросы, которые я хотел бы задать ему...\""
+msgstr "\"Тогда забудь об этом. У меня есть другой вопрос к нему...\""
 
 #: 24954 24955 24956
-#, fuzzy
 msgid "\"Ask him to go on.\""
-msgstr "Попробовать не обращать на него внимания, пройти мимо."
+msgstr "\"Попроси его продолжить.\""
 
 #: 24959 24960 24961
-#, fuzzy
 msgid "\"Does he say anything else?\""
-msgstr "\"Фарод?.. А там есть еще что-нибудь?\""
+msgstr "\"Может, он еще что-то сказал?\""
 
 #: 24964 24965 24966
-#, fuzzy
 msgid "\"I... see. Does he say anything else?\""
-msgstr "\"Фарод?.. А там есть еще что-нибудь?\""
+msgstr "\"Понятно... Может, он еще что-то сказал?\""
 
 #: 24970 24971 24972 24974 24975 24976 24978 24979 24980
 msgid ""
 "\"Very well. I mean... uh... I'll try not to sign anything more than I "
 "already have.\""
-msgstr ""
+msgstr "\"Очень хорошо... ох... Я постараюсь больше ничего не подписывать.\""
 
 #: 24983 24984 24985
 msgid ""
 "Truth: \"I... don't. In fact, ever since I woke up in the Mortuary, I feel "
 "like something's... missing. Something inside.\""
 msgstr ""
+"Правда: \"Нет... На самом деле, с тех пор, как я очнулся в Морге, я "
+"чувствую, что чего-то... не хватает. Чего-то внутри.\""
 
 #: 24986
 msgid "\"That is none of your concern.\""
@@ -2085,12 +2082,11 @@ msgstr "\"Это тебя не касается.\""
 
 #: 24987
 msgid "Lie: \"I feel complete, yes. Why?\""
-msgstr ""
+msgstr "Ложь: \"Да, я чувствую себя полностью. А что?\""
 
 #: 24991 24992 24993
-#, fuzzy
 msgid "\"I'll try.\""
-msgstr "\"Попробуй.\""
+msgstr "\"Я постараюсь.\""
 
 #: 28622
 msgid ""
