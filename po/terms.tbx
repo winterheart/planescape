@@ -4499,7 +4499,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-251">
                 <descrip type="subjectField">персонажи</descrip>
                 <langSet xml:lang="en">
@@ -4517,7 +4516,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-252">
                 <langSet xml:lang="en">
                     <ntig>
@@ -4534,7 +4532,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-253">
                 <descrip type="subjectField">персонажи</descrip>
                 <descrip type="definition">Фрактор Боголюдей</descrip>
@@ -4553,7 +4550,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-254">
                 <descrip type="subjectField">механика AD&amp;D</descrip>
                 <descrip type="definition">Характеристика предмета</descrip>
@@ -4572,7 +4568,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-255">
                 <descrip type="subjectField">персонажи</descrip>
                 <descrip type="definition">рабочий на складе</descrip>
@@ -4587,6 +4582,91 @@
                     <ntig>
                         <termGrp>
                             <term>леигис</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-256">
+                <descrip type="subjectField">персонажи</descrip>
+                
+                
+                
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>sarhava</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>sarhava vhjul</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>сархава</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>сархава вджул</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-257">
+                <descrip type="subjectField">география планов</descrip>
+                <descrip type="definition">Собирательное название Баатора, Геены, Серой пустоши, Карцери и Бездны</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>lower plane</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>lower planes</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>нижний план</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>нижние планы</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-258">
+                <descrip type="subjectField">география планов</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>astral plane</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>астральный план</term>
                         </termGrp>
                     </ntig>
                 </langSet>
