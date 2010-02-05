@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: backbtr.itm\n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-05-25 08:03+0600\n"
+"PO-Revision-Date: 2010-02-06 00:55+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 48309
 msgid ""
@@ -37,7 +37,7 @@ msgstr ""
 
 #: 51313
 msgid "Backbiter"
-msgstr ""
+msgstr "Клеветник"
 
 #: 52831
 msgid ""
@@ -58,8 +58,25 @@ msgid ""
 "make in passing, thus improving his or her chances of approaching a target "
 "by stealth.\n"
 msgstr ""
+"КЛЕВЕТНИК\n"
+"Урон: 2-5 колющий\n"
+"Заколдованный: +1\n"
+"Особенности:\n"
+"   +1 колющего урона\n"
+"   +10% к умению Скрытности\n"
+"THACO: +1\n"
+"Скорость: 1\n"
+"Вес: 1\n"
+"Специализация: клинковые\n"
+"Используется только ворами\n"
+"\n"
+"Этот магический клинок, будучи изготовленным специально для мастера темных "
+"дел, скрывает приближение своего владельца, заглушая любые звуки, которые "
+"тот производит при передвижении, и таким образом улучшает его или ее шансы "
+"незаметно подкрасться к цели.\n"
 
 #: 52980
 msgid "Dagger"
 msgstr "Кинжал"
+
 
