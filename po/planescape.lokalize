@@ -1,6 +1,7 @@
 [General]
+AltDir=./
 BranchDir=./stage
 MailingList=azamat.hackimov@gmail.com
-PoBaseDir=./po/
+PoBaseDir=./ru/LC_MESSAGES
 PotBaseDir=./pot
 ProjectID=planescape
