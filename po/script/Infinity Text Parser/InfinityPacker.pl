@@ -1,5 +1,6 @@
 #!/usr/bin/perl
 
+use File::Find;
 use File::Read;
 use Locale::PO;
 use Getopt::Long;
@@ -14,6 +15,7 @@ GetOptions(\%config,
 
 my $output;
 my %hash;
+my @files;
 
 my %translated;
 my $total = 0;
@@ -38,7 +40,14 @@ while ($text =~ m/\@(\d+)\s*\=\s*~(.*?)~(.*?)\n/sg) {
 	}
 }
 
-my @files = <$config{input}/*.po>;
+sub wanted {
+	if (m/.*\.po$/) {
+		push(@files, $File::Find::name);
+	}
+}
+
+find(\&wanted, $config{input});
+#my @files = <$config{input}/*.po>;
 
 foreach my $file (@files) {
 	my $po_entries = Locale::PO->load_file_asarray($file) || die "Can't open file";
