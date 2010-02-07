@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: danze.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-12-29 23:20+0500\n"
+"PO-Revision-Date: 2010-02-07 23:40+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -18,6 +18,8 @@ msgid ""
 "You see an older, stern looking man. His face is a mixture of wrinkles and "
 "frown lines."
 msgstr ""
+"Ты видишь стареющего, угрюмого человека. Его лицо - сплошная смесь из "
+"складок и морщин."
 
 #: 33884
 msgid "\"Greetings.\""
@@ -32,6 +34,8 @@ msgid ""
 "He gives you a quick, stiff bow. \"Aye, greetin' to ye as well. Anze is me "
 "name. Whatcha' be needin?\""
 msgstr ""
+"Он отвешивает тебе короткий, сдержанный поклон. \"Ага, привет тебе. Зовут "
+"Анце. Чего надо?\""
 
 #: 33887 34246
 msgid "\"I have some questions...\""
@@ -46,31 +50,32 @@ msgid ""
 "He gives you a toothless grin. \"I reckon I gots the time ta give ye the "
 "chant. Whatcha be needin' ta know?\""
 msgstr ""
+"Он одаривает тебя беззубой ухмылкой. \"Думаю, потрепаться с тобой время "
+"найдется. Чего хочешь знать?\""
 
 #: 33890
-#, fuzzy
 msgid "\"I'm looking for someone named Lothar, or the Master of the Bones...\""
-msgstr "\"Я ищу кое-кого по имени Фарод. Ты не знаешь, где его можно найти?\""
+msgstr "\"Я ищу кое-кого по имени Лотар, он же Повелитель Костей...\""
 
 #: 33891
 msgid ""
 "\"I had a skull and it's been stolen from me. Do you know anyone who would "
 "do such a thing?\""
 msgstr ""
+"\"У меня был череп, который украли. Ты не знаешь кого-нибудь, кто бы мог это "
+"сделать?\""
 
 #: 33892
 msgid "\"What's that furnace used for?\""
-msgstr ""
+msgstr "\"А для чего эта печь?\""
 
 #: 33893
-#, fuzzy
 msgid "\"I need to buy some weapons.\""
-msgstr "\"Мне нужны некоторые заклинания.\""
+msgstr "\"Я хочу купить кое-какое оружие.\""
 
 #: 33894
-#, fuzzy
 msgid "\"I need to buy some magic items.\""
-msgstr "\"Мне нужна некоторая помощь.\""
+msgstr "\"Я хочу купить кое-какие магические вещи.\""
 
 #: 33895 33899 33903 33907 33911 33916
 msgid "\"I must be going. Farewell.\""
@@ -82,6 +87,9 @@ msgid ""
 "\"But this *bones* fella, yeah, I heard of 'em. Chant is ya don't mess with "
 "'em. Po'erful cutter, consorts with the dead an' such.\""
 msgstr ""
+"\"Не скажу, что когда-либо слышал о Лотаре...\" Он щурит глаза, размышляя. "
+"\"Но этот *костяшка*, да, слыхал о нем. Трепаться с ним даже и не думай. "
+"Сильный рубака, с мертвяками якшается, всякое.\""
 
 #: 33897 33905
 msgid "\"Where can I find him?\""
@@ -96,6 +104,8 @@ msgid ""
 "He shrugs. \"I dunno. Cutter like that can set his kip where 'e pleases. No "
 "berks gonna deny 'em, that's fer certain.\""
 msgstr ""
+"Он пожимает плечами. \"А хрен его знает. Такой рубака творит что хочет. Пней "
+"с ним поспорить не найдется, это точно.\""
 
 #: 33902 33906 33914
 msgid "\"I see. I have some other questions...\""
@@ -106,43 +116,52 @@ msgid ""
 "He barks out a short laugh. \"Ye heard it all, cutter. Don't know anythin' "
 "else 'bout 'em.\""
 msgstr ""
+"Он издает смешок, похожий на лай. \"Ты все услышал, рубака. А больше я "
+"ничего не знаю.\""
 
 #: 33908
 msgid ""
 "He tries to look concerned but fails miserably. \"Sorry ta hear that, "
 "cutter. If'n ye think it were stolen, ye should tell the Harmonium.\""
 msgstr ""
+"Он пытается выглядеть обеспокоенным, но проваливается с треском. \"Печально "
+"слышать, рубака. Раз думаешь украли, жалуйся в Гармониум.\""
 
 #: 33909
 msgid "\"The Harmonium?\""
-msgstr ""
+msgstr "\"Гармониум?\""
 
 #: 33910
-#, fuzzy
 msgid "\"Thank you, I have some other questions...\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Спасибо тебе, у меня есть другие вопросы...\""
 
 #: 33912
 msgid ""
 "He smiles. \"The law, cutter. Harmonium bashers are the law 'ere in Sigil. "
 "If'n yer property is missin' then ye should tell 'em.\""
 msgstr ""
+"Он улыбается. \"Закон, рубака. Громилы Гармониума в Сигиле - закон. Раз "
+"шмотки пропали, им и жалуйся.\""
 
 #: 33913
 msgid "\"Do you think the Harmonium can recover the skull?\""
-msgstr ""
+msgstr "\"Ты думаешь, что Гармониум может вернуть череп?\""
 
 #: 33915
 msgid ""
 "He starts to say something, then stops to think. After a moment he chuckles. "
 "\"Nay, cutter. I'd be guessin' not. Ne'er mind.\""
 msgstr ""
+"Он начинает было говорить, но задумывается. И через мгновение хмыкает. \"Не, "
+"рубака. Не думаю. Забудь.\""
 
 #: 33917
 msgid ""
 "\"Ye can talk to Aalek next door. He may have what ye need.\" He gestures at "
 "the counter to his left."
 msgstr ""
+"\"Можешь с Аалеком перетереть, он рядом. Может у него есть, что нужно.\" Он "
+"показывает на прилавок слева."
 
 #: 33918 33921
 msgid "\"I have some more questions...\""
@@ -160,6 +179,10 @@ msgid ""
 "value o' real work. If'n ye have serious questions... well, he may be better "
 "ta ask than me.\""
 msgstr ""
+"Он смотрит на печь и переходит на шепот. \"Печь ни для чего, кроме как учить "
+"моего лентяя ответственности. Он вечно болтает и треплется, и всякое. "
+"Думает, он ученый, а настоящей работы даже и не нюхнул. Если вопросы "
+"серьезные... ну, спроси лучше его, а не меня.\""
 
 #: 33922
 msgid "\"I see. Farewell.\""
@@ -174,11 +197,12 @@ msgid ""
 "Anze gives you his usual toothless grin. \"Welcome back, cutter. Whatcha be "
 "needin' this day?\""
 msgstr ""
+"Анце дарит тебе свою неизменную беззубую усмешку. \"Снова добро пожаловать, "
+"рубака. Чего надо сегодня?\""
 
 #: 34245
-#, fuzzy
 msgid "\"I'd like to see your wares.\""
-msgstr "\"Хочется посмотреть на эту попытку.\""
+msgstr "\"Хотелось бы глянуть на твои товары.\""
 
 #: 34247
 msgid "\"Nothing. Farewell.\""
@@ -188,9 +212,10 @@ msgstr "\"Ничего. Прощай.\""
 msgid ""
 "\"I be mournin' for the loss of me boy, Lazlo. I'll not open shop fer... I "
 "dunno how long...\""
-msgstr ""
+msgstr "\"Я грущу по пацану, Лазло. Магазин не открою до... не знаю когда...\""
 
 #: 34249
 msgid "Leave."
 msgstr "Уйти."
+
 
