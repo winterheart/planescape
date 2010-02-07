@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-11-08 19:40+0500\n"
+"PO-Revision-Date: 2010-02-07 21:53+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr "Треснувший бронзовый нагрудник"
 
 #: 3393
 msgid "Rune of Lesser Warding"
-msgstr ""
+msgstr "Руна малой защиты"
 
 #: 3503
 msgid ""
@@ -41,6 +41,22 @@ msgid ""
 "protected the giant skeleton. Activating the rune will destroy the "
 "breastplate, however."
 msgstr ""
+"РУНА МАЛОЙ ЗАЩИТЫ\n"
+"Вызывает: \"Броня\"\n"
+"Учит владельца заклинанию \"Броня\"\n"
+"Уровень: 1 / маг\n"
+"Дальность: 0\n"
+"Длительность: пока не будет разрушена уроном\n"
+"Скорость: 1\n"
+"Область действия: 1 существо\n"
+"Спасбросок: нет\n"
+"Вес: 5\n"
+"Используется только магами\n"
+"\n"
+"После внимательного исследования рун, которыми покрыта поверхность этого "
+"нагрудника, ты делаешь вывод, что можешь высвободить силу рун и использовать "
+"ее для создания простого защитного заклинания, похожего на то, что защищало "
+"гигантского скелета. Однако активизация рун разрушит нагрудник."
 
 #: 3518
 msgid ""
@@ -51,5 +67,11 @@ msgid ""
 "surface. You obtained it from the giant Mortuary skeleton when you dispelled "
 "the enchantment that animated it."
 msgstr ""
+"ТРЕСНУВШИЙ БРОНЗОВЫЙ НАГРУДНИК\n"
+"Вес: 5\n"
+"\n"
+"На поверхности этого сломанного бронзового нагрудника выгравировано "
+"множество рун. Ты получил его от гигантского скелета из Морга, после того "
+"как ты рассеял оживившие его чары."
 
 

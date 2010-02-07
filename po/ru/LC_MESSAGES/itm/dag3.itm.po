@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dag3.itm\n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-05-25 08:06+0600\n"
+"PO-Revision-Date: 2010-02-07 21:20+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 47876
 msgid "Dagger"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: 66179
 msgid "Phantom Dagger"
-msgstr ""
+msgstr "Призрачный клинок"
 
 #: 66180
 msgid ""
@@ -58,4 +58,17 @@ msgid ""
 "As if of its own volition, this dagger seems to reach out to its enemies, "
 "instinctively finding the most vulnerable spots on any creature.."
 msgstr ""
+"ПРИЗРАЧНЫЙ КЛИНОК\n"
+"Урон: 1-6 колющий\n"
+"Заколдованный: +3\n"
+"Особенность: +3 колющего урона\n"
+"THAC0: +3\n"
+"Скорость: 2\n"
+"Вес: 1\n"
+"Специализация: клинковые\n"
+"Не используется жрецами\n"
+"\n"
+"Словно по собственной воле, этот клинок поражает своих врагов, "
+"самостоятельно находя наиболее уязвимые места на теле любого существа."
+
 

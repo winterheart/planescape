@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dag1.itm\n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-05-25 08:06+0600\n"
+"PO-Revision-Date: 2010-02-07 21:16+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 47876
 msgid "Dagger"
@@ -36,6 +36,18 @@ msgid ""
 "The blade of this dagger seems to be made from the bone of some creature. "
 "The edge of this blade is extremely sharp."
 msgstr ""
+"КОСТЯНОЙ КИНЖАЛ\n"
+"Урон: 1-6 колющий\n"
+"Заколдованный: +1\n"
+"Особенность: +1 колющего урона\n"
+"THAC0: +1\n"
+"Скорость: 2\n"
+"Вес: 1\n"
+"Специализация: клинковые\n"
+"Не используется жрецами\n"
+"\n"
+"Похоже, клинок этого кинжала сделан из кости какого-то существа. Его лезвие "
+"очень острое."
 
 #: 66174
 msgid ""
@@ -58,4 +70,5 @@ msgstr ""
 "\n"
 "Этот кинжал выглядит весьма добротным. Он хорошо сбалансирован и имеет очень "
 "острый клинок."
+
 
