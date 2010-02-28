@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 18:47+0600\n"
+"PO-Revision-Date: 2010-02-26 00:05+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -24,10 +24,18 @@ msgid ""
 "\n"
 "These teeth are short, blunt and radiate a feeling of unease.\n"
 msgstr ""
+"ЗУБЫ\n"
+"Урон: 1-6 дробящий\n"
+"Скорость: 4\n"
+"Вес: 1\n"
+"Специализация: кулаки\n"
+"Используется только Мортом\n"
+"\n"
+"Эти зубы короткие и тупые. От них исходит ощущение тревоги.\n"
 
 #: 63069
 msgid "Fiend's Teeth"
-msgstr ""
+msgstr "Зубы демона"
 
 #: 63075
 msgid ""
@@ -49,8 +57,26 @@ msgid ""
 "unknown. Using the teeth grants the wearer certain benefits normally "
 "possessed only by fiends."
 msgstr ""
+"ЗУБЫ ДЕМОНА\n"
+"Урон: 1-6 дробящий\n"
+"Особенности:\n"
+"   Базовая Сила 18/30\n"
+"   +50% сопротивления холоду\n"
+"   +10% сопротивления огню\n"
+"   +10% сопротивления электричеству\n"
+"   +10% сопротивления яду\n"
+"Скорость: 4\n"
+"Вес: 1\n"
+"Специализация: кулаки\n"
+"Используется только Мортом\n"
+"\n"
+"Эти зубы короткие и тупые. От них исходит ощущение тревоги. Похоже, они "
+"были позаимствованы у демона из Нижних планов, но их точное происхождение "
+"неизвестно. Использование этих зубов дает некоторые преимущества, обычно "
+"присущие демонам."
 
 #: 63080
 msgid "Teeth"
 msgstr "Зубы"
+
 
