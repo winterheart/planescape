@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dnames.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:06+0600\n"
+"PO-Revision-Date: 2010-02-23 03:04+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 7288
 msgid ""
@@ -40,7 +40,6 @@ msgstr ""
 "звучит как звон колокольчика."
 
 #: 7292 7360
-#, fuzzy
 msgid "\"I... I don't know.\""
 msgstr "\"Я... не знаю.\""
 
@@ -57,9 +56,8 @@ msgstr ""
 "напевая. \"Нужно имя, чтобы увидеть, где оно умерло.\""
 
 #: 7295
-#, fuzzy
 msgid "\"What?\""
-msgstr "\"*ЧТО?!*\""
+msgstr "\"Что?\""
 
 #: 7296
 msgid ""
@@ -129,11 +127,13 @@ msgid ""
 "side. His eyes, now suddenly alive, roll to the back of his head, then snap "
 "forward and begin scanning the monolith and walls of the memorial area. "
 msgstr ""
+"Медяки падают в руку Смерти-Имен, и он убирает ее назад. Его глаза, "
+"закатившись назад, неожиданно оживают и взметают в поисках места на "
+"монолите и стенах мемориала."
 
 #: 7351 7405
-#, fuzzy
 msgid "Wait..."
-msgstr "\"Подождать!\""
+msgstr "Подождать..."
 
 #: 7352
 msgid ""
@@ -148,14 +148,12 @@ msgstr ""
 "заставляет почувствовать тебя неуютно."
 
 #: 7353 7407
-#, fuzzy
 msgid "\"I'd like you to look for a name for me...\""
-msgstr "\"Привет, Друзилла. Я хотел бы задать тебе несколько вопросов.\""
+msgstr "\"Я хотел бы, чтобы ты поискал имя для меня...\""
 
 #: 7354 7408
-#, fuzzy
 msgid "\"I'd like to bury another name.\""
-msgstr "\"Позволь попробовать другое имя...\""
+msgstr "\"Я хотел бы похоронить другое имя.\""
 
 #: 7355 7409
 msgid "\"Thank you. Farewell.\""
@@ -182,9 +180,8 @@ msgstr ""
 "слова звучит как звон колокольчика."
 
 #: 7361 7372 7388
-#, fuzzy
 msgid "\"I'd like to bury a name.\""
-msgstr "\"Хочется посмотреть на эту попытку.\""
+msgstr "\"Я хотел бы похоронить имя.\""
 
 #: 7366 7367
 msgid "\"Xixi.\""
@@ -201,19 +198,16 @@ msgstr ""
 "стен. \"Похоронено.\""
 
 #: 7370 7386
-#, fuzzy
 msgid "Examine the spot he is pointing at."
-msgstr "Снова осмотреть записку."
+msgstr "Осмотреть то место, куда он указывает."
 
 #: 7371 7375 7380 7387 7392
-#, fuzzy
 msgid "\"I had another name...\""
-msgstr "\"Позволь попробовать другое имя...\""
+msgstr "\"У меня есть другое имя...\""
 
 #: 7373 7377 7383 7390 7403
-#, fuzzy
 msgid "\"Just checking. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Просто проверяю. Прощай.\""
 
 #: 7374
 msgid ""
@@ -224,9 +218,8 @@ msgstr ""
 "Оно практически теряется под морем имен, окружающих его."
 
 #: 7376 7382 7394
-#, fuzzy
 msgid "\"I'd like to bury a name...\""
-msgstr "\"Хочется посмотреть на эту попытку.\""
+msgstr "\"Я хотел бы похоронить имя...\""
 
 #: 7378
 msgid "He shakes his head. \"Buried.\" "
@@ -265,3 +258,4 @@ msgstr ""
 "разломилось после его имени. Смерть-имен завершает работу мгновение спустя, "
 "поднимается и возвращается к тебе. \"Похоронено.\" Последнее слово "
 "заставляет почувствовать тебя неуютно."
+

@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: danizius.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 20:50+0600\n"
+"PO-Revision-Date: 2010-02-23 02:50+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 59314
 msgid ""
@@ -40,9 +40,8 @@ msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 59328 59540 59610
-#, fuzzy
 msgid "\"What can you tell me of Curst?\""
-msgstr "\"Что ты можешь сказать о ней?\""
+msgstr "\"Что ты можешь сказать о Проклятом?\""
 
 #: 59329 59542 59611
 #, fuzzy
@@ -91,7 +90,7 @@ msgstr "\"Так кто ты на самом деле?\""
 #: 59356
 #, fuzzy
 msgid "\"I will. Farewell.\""
-msgstr "\"Я постараюсь. Прощай.\""
+msgstr "\"Хорошо. Прощай.\""
 
 #: 59401
 msgid ""
@@ -228,7 +227,6 @@ msgid "\"I'll do it, then.\""
 msgstr "\"Тогда я это сделаю.\""
 
 #: 59496
-#, fuzzy
 msgid "\"Forget it.\""
 msgstr "\"Забудь.\""
 
@@ -243,9 +241,8 @@ msgid ""
 msgstr ""
 
 #: 59502
-#, fuzzy
 msgid "\"I'll be back.\""
-msgstr "\"Я вернусь.\""
+msgstr "\"Я еще вернусь.\""
 
 #: 59505
 msgid ""
@@ -277,7 +274,7 @@ msgstr ""
 #: 59530
 #, fuzzy
 msgid "\"What are they?\""
-msgstr "\"Тогда кто же ты?\""
+msgstr "\"Чем они являются?\""
 
 #: 59547
 #, fuzzy
@@ -349,7 +346,6 @@ msgid ""
 msgstr ""
 
 #: 59603
-#, fuzzy
 msgid "\"Very well. Farewell.\""
 msgstr "\"Отлично. Прощай.\""
 
@@ -364,10 +360,11 @@ msgid ""
 msgstr ""
 
 #: 66923
-#, fuzzy
 msgid "\"I'll try...\""
-msgstr "\"Я попытаюсь.\""
+msgstr "\"Я постараюсь...\""
 
 #: 66924
 msgid "\"We'll see about that...\""
 msgstr ""
+
+

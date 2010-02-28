@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dbedai.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:00+0600\n"
+"PO-Revision-Date: 2010-02-23 02:37+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 43055
 msgid ""
@@ -134,9 +134,8 @@ msgid ""
 msgstr ""
 
 #: 43083
-#, fuzzy
 msgid "\"Let's go.\""
-msgstr "\"Вперед.\""
+msgstr "\"Идем.\""
 
 #: 43084
 #, fuzzy
@@ -296,9 +295,8 @@ msgid ""
 msgstr ""
 
 #: 43132
-#, fuzzy
 msgid "\"All right. I had some other questions...\""
-msgstr "\"Хорошо... У меня есть другие вопросы...\""
+msgstr "\"Хорошо. У меня есть другие вопросы...\""
 
 #: 43133 43222 43227 43231 43319 43328 43331 43364
 msgid "\"I see. Farewell.\""
@@ -330,9 +328,8 @@ msgid ""
 msgstr ""
 
 #: 43139 43226 43230 43346 43363
-#, fuzzy
 msgid "\"Very well. I had some other questions...\""
-msgstr "\"Очень хорошо. У меня были еще вопросы...\""
+msgstr "\"Очень хорошо. У меня есть другие вопросы...\""
 
 #: 43141
 msgid ""
@@ -349,9 +346,8 @@ msgid "\"Sounds like quite a life. Are you happy with it?\""
 msgstr ""
 
 #: 43143 43317
-#, fuzzy
 msgid "\"I see. I had some other questions.\""
-msgstr "\"Понятно. У меня были еще вопросы...\" "
+msgstr "\"Понятно. У меня были еще вопросы.\""
 
 #: 43144
 msgid "\"Must be fun. Farewell.\""
@@ -400,9 +396,8 @@ msgid "\"Probably. I had some other questions.\""
 msgstr "\"Возможно. У меня есть другие вопросы...\""
 
 #: 43153
-#, fuzzy
 msgid "\"Probably. Farewell.\""
-msgstr "\"Возможно, нет. Прощай.\""
+msgstr "\"Возможно. Прощай.\""
 
 #: 43154
 msgid "\"It has become a part of me. Without it, I become nothing.\""
@@ -462,7 +457,6 @@ msgid "\"So true. I had some other questions...\""
 msgstr "\"Понятно. У меня были еще вопросы...\""
 
 #: 43173
-#, fuzzy
 msgid "\"Yes. Farewell.\""
 msgstr "\"Да. Прощай.\""
 
@@ -522,9 +516,8 @@ msgid ""
 msgstr ""
 
 #: 43188
-#, fuzzy
 msgid "\"Good day.\""
-msgstr "\"Ничего. Хорошего дня.\""
+msgstr "\"Хорошего дня.\""
 
 #: 43189
 msgid "\"Have you written the name Sandoz into the dead book yet?\""
@@ -536,14 +529,12 @@ msgid "\"Yes. He's dead.\""
 msgstr "\"Он тоже мертв.\""
 
 #: 43191
-#, fuzzy
 msgid "\"No, not yet. I had some other questions, first.\""
-msgstr "\"Нет, нет... У меня есть некоторые вопросы...\""
+msgstr "\"Нет, пока нет. Сперва у меня есть другие вопросы.\""
 
 #: 43192
-#, fuzzy
 msgid "\"Not yet. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Еще нет. Прощай.\""
 
 #: 43193
 msgid "\"Have you come to a decision whether you will accept the job?\""
@@ -698,7 +689,6 @@ msgid "\"I see. I had some other questions...\""
 msgstr "\"Понятно. У меня были еще вопросы...\" "
 
 #: 43234 43246 43265 43347
-#, fuzzy
 msgid "\"Very well. Farewell.\""
 msgstr "\"Отлично. Прощай.\""
 
@@ -711,7 +701,7 @@ msgstr ""
 #: 43236 43344 66890
 #, fuzzy
 msgid "\"What is it?\""
-msgstr "\"Что?\""
+msgstr "\"Что такое?\""
 
 #: 43237
 msgid ""
@@ -729,7 +719,6 @@ msgid ""
 msgstr ""
 
 #: 43239 43368
-#, fuzzy
 msgid "\"I'll do it.\""
 msgstr "\"Я сделаю это.\""
 
@@ -748,9 +737,8 @@ msgid ""
 msgstr ""
 
 #: 43242
-#, fuzzy
 msgid "\"I'll kill him.\""
-msgstr "\"Я найду его.\""
+msgstr "\"Я убью его.\""
 
 #: 43243
 msgid "\"No. I don't want to kill him.\""
@@ -777,7 +765,6 @@ msgid ""
 msgstr ""
 
 #: 43248
-#, fuzzy
 msgid "\"Very well, then. Farewell.\""
 msgstr "\"Отлично. Прощай.\""
 
@@ -882,7 +869,7 @@ msgstr ""
 #: 43280
 #, fuzzy
 msgid "\"Yes, I am.\""
-msgstr "\"Да, есть...\""
+msgstr "\"Да.\""
 
 #: 43281
 #, fuzzy
@@ -901,9 +888,8 @@ msgid ""
 msgstr ""
 
 #: 43286
-#, fuzzy
 msgid "\"Nothing, thanks. Farewell.\""
-msgstr "\"Ничего больше, спасибо. Прощай.\""
+msgstr "\"Ничего, спасибо. Прощай.\""
 
 #: 43287
 #, fuzzy
@@ -982,9 +968,8 @@ msgid "\"Sure. I have a few questions, though...\""
 msgstr ""
 
 #: 43303 43337 5531
-#, fuzzy
 msgid "\"Sure. Farewell.\""
-msgstr "\"Нет... прощай.\""
+msgstr "\"Конечно. Прощай.\""
 
 #: 43304
 msgid "\"Would you say you're devoted to the Godsmen, then?\""
@@ -1005,9 +990,8 @@ msgid "Truth: \"No.\""
 msgstr "Правда: \"Да не очень-то.\""
 
 #: 43308
-#, fuzzy
 msgid "Lie: \"No.\""
-msgstr "Ложь: \"Да.\""
+msgstr "Ложь: \"Нет.\""
 
 #: 43309
 msgid "\"I can't see that it's any business of yours.\""
@@ -1043,9 +1027,8 @@ msgid ""
 msgstr ""
 
 #: 43321
-#, fuzzy
 msgid "\"I had some other questions.\""
-msgstr "\"У меня есть другие вопросы...\""
+msgstr "\"У меня есть другие вопросы.\""
 
 #: 43322
 #, fuzzy
@@ -1065,9 +1048,8 @@ msgid "\"Fine. Answer some other questions for me, then...\""
 msgstr "\"Хорошо. Ответь тогда на несколько вопросов.\""
 
 #: 43325
-#, fuzzy
 msgid "\"Fine. Farewell.\""
-msgstr "\"Конечно. Прощай.\""
+msgstr "\"Отлично. Прощай.\""
 
 #: 43326
 msgid ""
@@ -1271,3 +1253,4 @@ msgid ""
 "Bedai-Lihn told me to seek out Scofflaw Penn at the print shop, and to tell "
 "him this: \"The city must burn.\""
 msgstr ""
+

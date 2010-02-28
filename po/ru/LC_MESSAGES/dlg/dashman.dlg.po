@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dashman.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 20:54+0600\n"
+"PO-Revision-Date: 2010-02-23 02:45+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 12067
 msgid "\"Give me everything you have, thief, and I'll let you go.\""
@@ -27,14 +27,12 @@ msgid "Attack him."
 msgstr "Атаковать его."
 
 #: 12070
-#, fuzzy
 msgid "Let him go."
-msgstr "Отпустить его... на этот раз."
+msgstr "Позволить ему уйти."
 
 #: 12071 12072
-#, fuzzy
 msgid "\"Dammit...\""
-msgstr "\"Черт возьми, Анна...\""
+msgstr "\"Проклятье...\""
 
 #: 12073
 msgid ""
@@ -81,7 +79,6 @@ msgid "\"I'm looking for someone named 'Pharod.' You know him?\""
 msgstr "\"Я ищу кое-кого по имени 'Фарод'. Знаешь такого?\""
 
 #: 12080
-#, fuzzy
 msgid "\"I'm looking for a journal.\""
 msgstr "\"Я ищу дневник.\""
 
@@ -125,7 +122,6 @@ msgstr ""
 "Сигиле подобным образом. Все понятно?\""
 
 #: 12088
-#, fuzzy
 msgid "\"Interesting. I had some other questions...\""
 msgstr "\"Интересно. У меня есть другие вопросы...\""
 
@@ -193,7 +189,6 @@ msgid "\"That's all I wanted. Prepare to die.\""
 msgstr "\"Это все, что я хотел. Приготовься к смерти.\""
 
 #: 12106
-#, fuzzy
 msgid "\"All right then...\""
 msgstr "\"Ну хорошо...\""
 
@@ -260,12 +255,10 @@ msgid "Lie: \"Okay, I'll let you go.\""
 msgstr "Ложь: \"Хорошо, я отпущу тебя.\""
 
 #: 12128
-#, fuzzy
 msgid "\"Where can I find him?\""
-msgstr "\"Где я могу найти ее?\""
+msgstr "\"Где я могу найти его?\""
 
 #: 12129 12130
-#, fuzzy
 msgid "\"No. I had some other questions for you...\""
 msgstr "\"Нет. У меня были еще вопросы к тебе...\""
 
@@ -291,7 +284,7 @@ msgstr "\"Приветствую.\""
 
 #: 12140
 msgid "Pass him by."
-msgstr ""
+msgstr "Пройти мимо."
 
 #: 12141 12150 2184 2195
 msgid ""
@@ -721,7 +714,6 @@ msgstr ""
 "члены моей секты?\""
 
 #: 2181 2183
-#, fuzzy
 msgid "Ignore the man."
 msgstr "Не обращать внимания на мужчину."
 
@@ -736,13 +728,12 @@ msgid "Lie: \"No, I'm sorry, I don't know where that is.\""
 msgstr "Ложь: \"Извини, у меня нет денег на пожертвования.\""
 
 #: 2196 2622
-#, fuzzy
 msgid ""
 "\"The bar you want is by the Mortuary. Orient yourself by the Mortuary front "
 "gate, then walk directly southwest. You can't miss it.\""
 msgstr ""
-"\"Тогда забудь об этом. Бар, который ты ищешь, рядом с Моргом. Иди от "
-"главных ворот Морга строго на юго-запад и ты его не пропустишь.\""
+"\"Бар, который ты ищешь, рядом с Моргом. Иди от главных ворот Морга строго "
+"на юго-запад и ты его не пропустишь.\""
 
 #: 2205
 msgid ""
@@ -778,9 +769,8 @@ msgid "\"Tell me about it. Say, can I ask you some questions?\""
 msgstr "\"И не говори. Скажи, ты можешь ответить на несколько моих вопросов?\""
 
 #: 2621 2657
-#, fuzzy
 msgid "\"Not a problem. Farewell, Ash-Mantle.\""
-msgstr "\"Всегда пожалуйста. Прощай.\""
+msgstr "\"Без проблем. Прощай, Осыпанный-Пеплом.\""
 
 #: 2649
 msgid ""
@@ -799,9 +789,8 @@ msgstr ""
 "вспомню. Прощай.\""
 
 #: 2651
-#, fuzzy
 msgid "\"I'm looking for a man named Pharod. Do you know of him?\""
-msgstr "\"Я ищу кое-кого по имени Фарод. Ты не знаешь, где его можно найти?\""
+msgstr "\"Я ищу кое-кого по имени Фарод. Знаешь такого?\""
 
 #: 2652
 msgid ""
@@ -821,9 +810,8 @@ msgid "\"Never mind. Farewell.\""
 msgstr "\"Неважно. Прощай.\""
 
 #: 2656
-#, fuzzy
 msgid "\"Very well. I had some other questions...\""
-msgstr "\"Очень хорошо. У меня были еще вопросы...\""
+msgstr "\"Очень хорошо. У меня есть другие вопросы...\""
 
 #: 2658
 msgid "\"Really? I thought Dustmen didn't value possessions.\""
@@ -854,9 +842,8 @@ msgid "\"I thought you didn't know the area very well.\""
 msgstr "\"А я думал, что ты не очень знаком с этим местом.\""
 
 #: 2666 2667
-#, fuzzy
 msgid "\"You seem to know *this* area very well.\""
-msgstr "\"А я думал, что ты не очень знаком с этим местом.\""
+msgstr "\"Похоже, ты знаешь *это* место очень хорошо.\""
 
 #: 2670
 msgid ""
@@ -887,7 +874,6 @@ msgid "\"I... see. I had some other questions...\" "
 msgstr "\"Понятно... У меня были еще вопросы...\" "
 
 #: 2688
-#, fuzzy
 msgid "\"Very well, then. Farewell.\""
 msgstr "\"Отлично. Прощай.\""
 
@@ -920,23 +906,23 @@ msgid "\"Very well. Now go.\""
 msgstr "\"Очень хорошо. А теперь проваливай.\""
 
 #: 2723 2732 2741 2751 2777
-#, fuzzy
 msgid "\"Hey! What do you think you're doing?!\""
-msgstr "\"Что у тебя есть из выпивки?\""
+msgstr "\"Эй! Ты что творишь?!\""
 
 #: 2724 2726 2727 2752 2754 2755
 msgid ""
 "Bait Ash-Mantle into pick pocketing you again, and observe his technique."
 msgstr ""
+"Спровоцировать Осыпанного-Пеплом на воровство и проследить за его техникой."
 
 #: 2729 2738 2748 2760 2779
-#, fuzzy
 msgid "Ignore the incident, leave."
-msgstr "Не обращать на него внимания и уйти."
+msgstr "Не обращать внимания на инцидент и уйти."
 
 #: 2733 2735 2736 2742 2744 2746
 msgid "Allow Ash-Mantle to pick your pocket, and observe his technique."
 msgstr ""
+"Позволить Осыпанному-Пеплом залезть в карман и проследить за его техникой."
 
 #: 2778
 msgid "Attack him. "
@@ -945,3 +931,4 @@ msgstr "Атаковать его."
 #: 2780
 msgid "\"*After* you answer some questions, 'Dustman.'\""
 msgstr "\"*После* того, как ты ответишь на некоторые вопросы, 'Тленный'.\""
+

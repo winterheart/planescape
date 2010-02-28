@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dbrocus5.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:03+0600\n"
+"PO-Revision-Date: 2010-02-23 02:32+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 3206
 msgid ""
@@ -24,9 +24,8 @@ msgid "\"I had some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 40689 40692
-#, fuzzy
 msgid "\"Nothing; I was just passing by. Farewell.\""
-msgstr "\"Я просто проходил мимо. Прощай.\""
+msgstr "\"Ничего, я просто проходил мимо. Прощай.\""
 
 #: 40690
 msgid ""
@@ -107,9 +106,8 @@ msgid "\"I've yet to play against her, myself.\""
 msgstr ""
 
 #: 40708 40712 40715 40720 40730 40733 40737 40740 40743 40746
-#, fuzzy
 msgid "\"I had another question...\""
-msgstr "\"Нет, у меня есть другие вопросы...\""
+msgstr "\"У меня есть другие вопросы...\""
 
 #: 40709 40713 40716 40721 40738
 msgid "\"That's all I wished to know. Farewell.\""
@@ -174,9 +172,8 @@ msgid "\"Sorry to disturb you, then. Farewell.\""
 msgstr "\"Извини, что отвлек. Прощай.\""
 
 #: 40728
-#, fuzzy
 msgid "\"Fine; farewell.\""
-msgstr "\"Нет. Прощай.\""
+msgstr "\"Отлично Прощай.\""
 
 #: 40729
 #, fuzzy
@@ -222,3 +219,4 @@ msgstr "\"Спасибо за внимание. Прощай.\""
 #: 40745
 msgid "He shakes his head. \"No; I had understood there to be only nine.\""
 msgstr ""
+

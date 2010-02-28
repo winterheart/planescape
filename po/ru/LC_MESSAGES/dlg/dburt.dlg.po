@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dburt.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:05+0600\n"
+"PO-Revision-Date: 2010-02-23 02:30+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 20787
 msgid "\"Nothing.  Farewell.\""
@@ -41,9 +41,8 @@ msgid "\"How did you die?\""
 msgstr "\"О чем это ты?\""
 
 #: 20793
-#, fuzzy
 msgid "\"Tell me about the catacombs.\""
-msgstr "\"Расскажи мне об этих дабусах побольше.\""
+msgstr "\"Расскажи мне о катакомбах.\""
 
 #: 20794
 msgid "\"Nothing. Farewell.\""
@@ -98,7 +97,7 @@ msgstr ""
 #: 20805
 #, fuzzy
 msgid "\"I will. Farewell.\""
-msgstr "\"Я постараюсь. Прощай.\""
+msgstr "\"Хорошо. Прощай.\""
 
 #: 20806
 msgid ""
@@ -178,3 +177,4 @@ msgstr ""
 #: 2882
 msgid "\"I wanted to ask you a few more questions...\""
 msgstr ""
+

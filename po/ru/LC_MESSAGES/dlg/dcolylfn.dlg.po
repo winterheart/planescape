@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcolylfn.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:23+0600\n"
+"PO-Revision-Date: 2010-02-23 02:14+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 18505
 msgid ""
@@ -361,18 +361,16 @@ msgid "\"Tell me about Sigil.\""
 msgstr "\"Расскажи мне о демонах.\""
 
 #: 18631 18639 18669 18676 18719 18726
-#, fuzzy
 msgid "\"Tell me about Collectors.\""
-msgstr "\"Расскажи мне о себе.\""
+msgstr "\"Расскажи мне о Сборщиках.\""
 
 #: 18632 18640 18670 18677 18686 18694 18702 18720 18727
 msgid "\"I'm looking for a man named Pharod.\""
 msgstr "\"Я разыскиваю мужчину по имени Фарод.\""
 
 #: 18633 18641 18671 18678 18687 18695 18703 18721
-#, fuzzy
 msgid "\"I'm looking for a journal that I've lost.\""
-msgstr "\"Я ищу дневник.\""
+msgstr "\"Я ищу потерянный дневник.\""
 
 #: 18634 18642 18672 18679 18688 18696 18704 18728
 #, fuzzy
@@ -520,14 +518,12 @@ msgid ""
 msgstr ""
 
 #: 18715
-#, fuzzy
 msgid "\"Wait-\""
-msgstr "\"Подождать!\""
+msgstr "Подождать.ать!\""
 
 #: 18716
-#, fuzzy
 msgid "Let him go."
-msgstr "Отпустить его... на этот раз."
+msgstr "Позволить ему уйти."
 
 #: 18717
 msgid ""
@@ -775,3 +771,4 @@ msgstr ""
 #, fuzzy
 msgid "Ignore it and leave."
 msgstr "Не обращать на него внимания и уйти."
+

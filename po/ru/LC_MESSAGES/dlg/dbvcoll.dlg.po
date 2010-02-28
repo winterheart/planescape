@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dbvcoll.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:05+0600\n"
+"PO-Revision-Date: 2010-02-23 02:30+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 54788
 msgid ""
@@ -24,7 +24,6 @@ msgid "\"Greetings...\""
 msgstr "\"Приветствую...\""
 
 #: 54790
-#, fuzzy
 msgid "Leave him be."
 msgstr "Оставить его в покое."
 
@@ -85,9 +84,8 @@ msgid "\"I'm looking for a man named Pharod.\""
 msgstr "\"Я разыскиваю мужчину по имени Фарод.\""
 
 #: 54813
-#, fuzzy
 msgid "\"I'm looking for a journal I've lost.\""
-msgstr "\"Я ищу дневник.\""
+msgstr "\"Я ищу потерянный дневник.\""
 
 #: 54814 54818
 msgid "\"Never mind. Farewell.\""
@@ -110,9 +108,8 @@ msgid ""
 msgstr ""
 
 #: 54820 54823
-#, fuzzy
 msgid "\"I'm also looking for a journal I've lost.\""
-msgstr "\"Я ищу дневник.\""
+msgstr "\"Также я ищу потерянный дневник.\""
 
 #: 54822
 msgid ""
@@ -125,3 +122,4 @@ msgid ""
 "The man takes a step back, peering suspiciously at you from beneath his "
 "hood. \"Again, eh? What do ye want?\""
 msgstr ""
+

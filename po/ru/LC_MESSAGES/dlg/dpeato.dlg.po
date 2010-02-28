@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dpeato.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:09+0600\n"
+"PO-Revision-Date: 2010-02-23 03:10+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 58706
 msgid ""
@@ -50,7 +50,7 @@ msgstr "\"Кто ты?\""
 #: 58714
 #, fuzzy
 msgid "\"Why are you here?\""
-msgstr "\"Кого ты хочешь увидеть?\""
+msgstr "\"Как ты сюда попал?\""
 
 #: 58715
 msgid "\"What can you tell me about this place?\""
@@ -82,9 +82,8 @@ msgid "\"Never mind, I have some more questions...\""
 msgstr "\"Неважно. У меня есть другие вопросы...\""
 
 #: 58722
-#, fuzzy
 msgid "\"I must be going now, farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Я должен идти, прощай.\""
 
 #: 58723
 msgid "\"I'm Peato.\" He gives you a bored look."
@@ -111,9 +110,8 @@ msgid "\"So you're a thief.\""
 msgstr ""
 
 #: 58731 58734 58748 58753 58758 58763
-#, fuzzy
 msgid "\"I see. I have some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня есть еще вопросы...\""
 
 #: 58733
 msgid "He glares at you. \"I guess you could say that.\""
@@ -130,9 +128,8 @@ msgid "\"No, you look like someone with serious health problems.\""
 msgstr ""
 
 #: 58738
-#, fuzzy
 msgid "\"I have some other questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 58739 58743 58749 58754 58759 58764 58771 58775 58778
 msgid "\"Farewell.\""
@@ -161,19 +158,16 @@ msgid ""
 msgstr ""
 
 #: 58745 58756 58761
-#, fuzzy
 msgid "\"Tell me about the outer ring.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне о внешнем кольце.\""
 
 #: 58746 58751 58762
-#, fuzzy
 msgid "\"Tell me about the center ring.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне о центральном кольце.\""
 
 #: 58747 58752
-#, fuzzy
 msgid "\"Tell me about the inner ring.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне о внутреннем кольце.\""
 
 #: 58750
 msgid ""
@@ -226,9 +220,8 @@ msgid "\"Plague?\""
 msgstr ""
 
 #: 58770 58774 58777
-#, fuzzy
 msgid "\"I have some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще вопросы...\""
 
 #: 58772
 msgid ""
@@ -264,3 +257,4 @@ msgstr ""
 #: 58783
 msgid "\"Nothing, farewell.\""
 msgstr "\"Ничего, прощай.\""
+

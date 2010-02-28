@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: djumble.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:09+0600\n"
+"PO-Revision-Date: 2010-02-15 02:30+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 2937
 msgid ""
@@ -157,9 +157,8 @@ msgid "\"I'd like you to remove his curse.\""
 msgstr ""
 
 #: 41956
-#, fuzzy
 msgid "\"I had another question...\""
-msgstr "\"Нет, у меня есть другие вопросы...\""
+msgstr "\"У меня есть другие вопросы...\""
 
 #: 41957
 msgid "\"That's all I wished to know. Farewell.\""
@@ -252,9 +251,8 @@ msgid ""
 msgstr ""
 
 #: 41986
-#, fuzzy
 msgid "Continue..."
-msgstr "Продолжить."
+msgstr "Продолжить..."
 
 #: 41987
 msgid ""
@@ -380,3 +378,4 @@ msgstr "\"Это все, что я хотел узнать. Прощай.\""
 #: 67870 67871
 msgid "\"You cursed Reekwind too, didn't you?\""
 msgstr ""
+

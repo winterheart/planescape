@@ -1,23 +1,25 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcstthg1.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:31+0600\n"
+"PO-Revision-Date: 2010-02-23 01:44+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 3164
 msgid ""
 "You see a young man wearing ill fitting clothes. He watches you approach "
 "with a bored look. "
 msgstr ""
+"Ты видишь молодого человека, примеряющего неподходящие вещи. Он смотрит на "
+"тебя скучающим взглядом."
 
 #: 3165
 msgid "\"Greetings.\""
@@ -86,18 +88,16 @@ msgid "\"Just some answers.\""
 msgstr "\"Просто несколько вопросов...\""
 
 #: 9939
-#, fuzzy
 msgid "\"Never mind.\""
-msgstr "\"Тогда неважно.\""
+msgstr "\"Неважно.\""
 
 #: 9940
 msgid "He shrugs his shoulders. \"Sure. Ask away.\""
 msgstr ""
 
 #: 9941
-#, fuzzy
 msgid "\"I'm looking for a deva. I've been told he's in Curst.\""
-msgstr "\"Я ищу дневник.\""
+msgstr "\"Я ищу одного дэва. Мне сказали, что он в Проклятом.\""
 
 #: 9942
 #, fuzzy
@@ -193,7 +193,6 @@ msgid "\"How do I find this place?\""
 msgstr "\"Как мне найти эти места?\""
 
 #: 9963
-#, fuzzy
 msgid "\"My thanks. Farewell."
 msgstr "\"Спасибо. Прощай.\""
 
@@ -260,3 +259,4 @@ msgstr "\"Понятно. У меня есть другой вопрос к те
 #, fuzzy
 msgid "\"I must take my leave. Good day.\""
 msgstr "\"Я должен идти. Прощай.\""
+

@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcandri.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-06-26 23:51+0600\n"
+"PO-Revision-Date: 2010-02-23 02:29+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 12009 12015 12320 12323 12329
 msgid "\"Farewell.\""
@@ -30,9 +30,8 @@ msgid "\"Not yet. I had some questions for you.\""
 msgstr "\"Послушай, у меня есть вопросы к тебе...\""
 
 #: 12012 12018
-#, fuzzy
 msgid "\"Not yet. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Еще нет. Прощай.\""
 
 #: 12013
 msgid ""
@@ -210,7 +209,7 @@ msgstr "\"Да.\""
 #: 12055
 #, fuzzy
 msgid "\"I'm not sure.\""
-msgstr "\"Я не уверен. Прощай.\""
+msgstr "\"Я в этом не уверен.\""
 
 #: 12056
 msgid "\"Forget this line of questioning. I had some other questions...\""
@@ -298,7 +297,6 @@ msgid "\"Very well. So tell me of the planes.\""
 msgstr ""
 
 #: 12168
-#, fuzzy
 msgid "\"I must be going. Farewell.\""
 msgstr "\"Я должен идти. Прощай.\""
 
@@ -409,7 +407,7 @@ msgstr ""
 #: 12192 12208
 #, fuzzy
 msgid "\"The Outlands.\""
-msgstr "\"Свободные?\""
+msgstr "Внешние земли"
 
 #: 12196
 msgid ""
@@ -703,9 +701,8 @@ msgid ""
 msgstr ""
 
 #: 12295 12296
-#, fuzzy
 msgid "\"How did you survive?\""
-msgstr "\"Как ты попала сюда?\""
+msgstr "\"Как тебе удалось выжить?\""
 
 #: 12297
 msgid "\"Tell me of the other planes, then.\""
@@ -800,12 +797,10 @@ msgid ""
 msgstr ""
 
 #: 12325
-#, fuzzy
 msgid "\"Very well. I had some other questions...\""
-msgstr "\"Очень хорошо. У меня были еще вопросы...\""
+msgstr "\"Очень хорошо. У меня есть другие вопросы...\""
 
 #: 12326 12332
-#, fuzzy
 msgid "\"Very well. Farewell.\""
 msgstr "\"Отлично. Прощай.\""
 
@@ -830,7 +825,7 @@ msgstr ""
 #: 12331
 #, fuzzy
 msgid "'Very well. I had some other questions...\""
-msgstr "\"Очень хорошо. У меня были еще вопросы...\""
+msgstr "\"Очень хорошо. У меня есть другие вопросы...\""
 
 #: 28750
 msgid ""
@@ -872,4 +867,5 @@ msgid ""
 "In the palm of his hand are Ingress' dancing teeth, and he smoothly deposits "
 "them into your hand. \"Enjoy them, seeker.\" "
 msgstr ""
+
 

@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmw1.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:03+0600\n"
+"PO-Revision-Date: 2010-02-23 03:01+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 47907
 msgid ""
@@ -45,9 +45,8 @@ msgid "\"Very well.\" He awaits your questions."
 msgstr "\"Хорошо... задавай свои вопросы.\""
 
 #: 47914
-#, fuzzy
 msgid "\"I'm looking for someone named Lothar, or the Master of the Bones...\""
-msgstr "\"Я ищу кое-кого по имени Фарод. Ты не знаешь, где его можно найти?\""
+msgstr "\"Я ищу кое-кого по имени Лотар, он же Повелитель Костей...\""
 
 #: 47915
 msgid ""
@@ -60,6 +59,8 @@ msgid ""
 "\"I had a skull and it's been stolen from me. Do you know anyone who would "
 "do such a thing?\""
 msgstr ""
+"\"У меня был череп, который украли. Ты не знаешь кого-нибудь, кто бы мог это "
+"сделать?\""
 
 #: 47917
 #, fuzzy
@@ -113,7 +114,7 @@ msgstr ""
 #: 47931
 #, fuzzy
 msgid "\"Yes, I do...\""
-msgstr "\"Да, есть...\""
+msgstr "\"Да, знаю.\""
 
 #: 47932
 #, fuzzy
@@ -121,9 +122,8 @@ msgid "\"All right. Let me as you something else...\""
 msgstr "\"Довольно правдиво. Позволь мне спросить кое о чем еще...\""
 
 #: 47933 47939 47943 47946 47949
-#, fuzzy
 msgid "\"I must be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай.\""
 
 #: 47934
 msgid ""
@@ -143,9 +143,8 @@ msgid ""
 msgstr ""
 
 #: 47938 47942 47945
-#, fuzzy
 msgid "\"I have some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще вопросы...\""
 
 #: 47941
 msgid "\"What if it could talk?\""
@@ -165,9 +164,8 @@ msgid ""
 msgstr ""
 
 #: 47948
-#, fuzzy
 msgid "\"I have some other questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 47950
 msgid ""
@@ -178,3 +176,4 @@ msgstr ""
 #: 47952
 msgid "\"Nothing, farewell.\""
 msgstr "\"Ничего, прощай.\""
+

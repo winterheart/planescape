@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dbyron.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:06+0600\n"
+"PO-Revision-Date: 2010-02-23 02:29+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 34629
 msgid ""
@@ -264,9 +264,8 @@ msgid "\"Can you tell me about your business?\""
 msgstr "\"Что ты можешь сказать об этих трущобах?\""
 
 #: 34673
-#, fuzzy
 msgid "\"Very well, farewell.\""
-msgstr "\"Ух, прощай...\""
+msgstr "\"Хорошо, прощай.\""
 
 #: 34674
 msgid "\"What is this place?\""
@@ -278,18 +277,16 @@ msgid "\"I want to talk to you about Trist.\""
 msgstr "\"Я хочу задать несколько вопросов о городе.\""
 
 #: 34676
-#, fuzzy
 msgid "\"I'm looking for someone named Lothar, or the Master of the Bones...\""
-msgstr "\"Я ищу кое-кого по имени Фарод. Ты не знаешь, где его можно найти?\""
+msgstr "\"Я ищу кое-кого по имени Лотар, он же Повелитель Костей...\""
 
 #: 34677
 msgid "\"I'm missing a skull... know anyone who'd want something like that?\""
 msgstr ""
 
 #: 34678
-#, fuzzy
 msgid "\"I must be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай.\""
 
 #: 34679
 #, fuzzy
@@ -302,12 +299,10 @@ msgid "\"Tell me about the open-air market.\""
 msgstr "\"Расскажи мне об Аллее.\""
 
 #: 34681 34685
-#, fuzzy
 msgid "\"I have other questions...\""
-msgstr "\"У меня есть другие вопросы.\""
+msgstr "\"У меня есть другие вопросы...\""
 
 #: 34682 34686 34689 34692 35755
-#, fuzzy
 msgid "\"I must be going. Farewell.\""
 msgstr "\"Я должен идти. Прощай.\""
 
@@ -321,23 +316,20 @@ msgid "\"Tell me about the open-air market?\""
 msgstr ""
 
 #: 34687
-#, fuzzy
 msgid "\"Go on.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Продолжай.\""
 
 #: 34688 34698 35754 35768 35790
-#, fuzzy
 msgid "\"I have some other questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 34690
 msgid "\"You mentioned thieves. Who helps *provide* them?\""
 msgstr ""
 
 #: 34691
-#, fuzzy
 msgid "\"I see... I have some other questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно... У меня были еще вопросы...\""
 
 #: 34693
 msgid "\"Call it curiosity...\""
@@ -367,18 +359,16 @@ msgid "\"Oh? Why is that?\""
 msgstr ""
 
 #: 35743 35746 35778 35780
-#, fuzzy
 msgid "\"I see. I must be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Ясно. Я должен идти. Прощай.\""
 
 #: 35744
 msgid "\"What kind of secrets?\""
 msgstr ""
 
 #: 35747
-#, fuzzy
 msgid "\"I have some other questions..\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 35748
 #, fuzzy
@@ -439,9 +429,8 @@ msgid "\"Well, if any proof does exist, I intend to find it.\""
 msgstr ""
 
 #: 35765
-#, fuzzy
 msgid "\"I have some other questions..."
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 35766
 #, fuzzy
@@ -484,7 +473,7 @@ msgstr ""
 #: 35781
 #, fuzzy
 msgid "\"Why?\""
-msgstr "\"Почему я?\""
+msgstr "\"Зачем?\""
 
 #: 35782
 #, fuzzy
@@ -504,3 +493,4 @@ msgstr "\"Спасибо, прощай.\""
 #, fuzzy
 msgid "\"No reason, I have other questions...\""
 msgstr "\"Неважно. У меня есть другие вопросы...\""
+

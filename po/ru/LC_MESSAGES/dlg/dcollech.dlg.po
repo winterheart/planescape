@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcollech.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:21+0600\n"
+"PO-Revision-Date: 2010-02-23 02:18+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 25492
 msgid ""
@@ -54,9 +54,8 @@ msgid ""
 msgstr ""
 
 #: 25499
-#, fuzzy
 msgid "\"Why do the Dustmen buy the bodies?\""
-msgstr "\"А почему Тленные платят за мертвецов?\""
+msgstr "\"А почему Тленные покупают мертвецов?\""
 
 #: 25500
 msgid ""
@@ -113,9 +112,8 @@ msgid ""
 msgstr ""
 
 #: 25510 25571 25575
-#, fuzzy
 msgid "Throw him five coppers."
-msgstr "Дать пять медяков."
+msgstr "Бросить ему пять медяков."
 
 #: 25511
 msgid ""
@@ -124,9 +122,8 @@ msgid ""
 msgstr ""
 
 #: 25512 25523 25526 25530 25539 25544 25549 25562 25579
-#, fuzzy
 msgid "\"Tell me about Collectors.\""
-msgstr "\"Расскажи мне о себе.\""
+msgstr "\"Расскажи мне о Сборщиках.\""
 
 #: 25513
 msgid ""
@@ -159,9 +156,8 @@ msgid ""
 msgstr ""
 
 #: 25518
-#, fuzzy
 msgid "\"Tell me about Sharegrave.\""
-msgstr "\"Расскажи мне о демонах.\""
+msgstr "\"Расскажи мне о Могильнике.\""
 
 #: 25519
 msgid ""
@@ -171,9 +167,8 @@ msgid ""
 msgstr ""
 
 #: 25520 25543
-#, fuzzy
 msgid "\"Do you know where Pharod is?\""
-msgstr "\"Ты знаешь, где находится Фарод?\" "
+msgstr "\"Ты знаешь, где находится Фарод?\""
 
 #: 25521
 msgid ""
@@ -187,9 +182,8 @@ msgid "\"Do all Collectors share your opinion of Pharod?\""
 msgstr ""
 
 #: 25524 25540 25545 25550
-#, fuzzy
 msgid "\"I'm also looking for a journal I've lost.\""
-msgstr "\"Я ищу дневник.\""
+msgstr "\"Также я ищу потерянный дневник.\""
 
 #: 25525
 #, fuzzy
@@ -213,9 +207,8 @@ msgid ""
 msgstr ""
 
 #: 25532 25553 25557 25564 25581
-#, fuzzy
 msgid "\"I'm looking for a journal I've lost.\""
-msgstr "\"Я ищу дневник.\""
+msgstr "\"Я ищу потерянный дневник.\""
 
 #: 25533 25538 25542 25547 25552 25555 25586 25589 25592
 msgid "\"That's all I wished to know. Farewell.\""
@@ -285,7 +278,6 @@ msgid "\"Nothing. Farewell.\""
 msgstr "\"Ничего. Прощай.\""
 
 #: 25596
-#, fuzzy
 msgid "Leave him be."
 msgstr "Оставить его в покое."
 
@@ -294,3 +286,4 @@ msgid ""
 "The man takes a step back, peering suspiciously at you from beneath his "
 "hood. \"Again, eh? What do ye want?\""
 msgstr ""
+

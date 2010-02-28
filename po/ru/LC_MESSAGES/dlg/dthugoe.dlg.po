@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dthugoe.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:41+0600\n"
+"PO-Revision-Date: 2010-02-15 02:41+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 28823
 msgid ""
@@ -176,7 +176,6 @@ msgstr ""
 "\"Я сказал *П-Р-И-В-Е-Т-С-Т-В-У-Ю*. У тебя, что... другое ухо не слышит?\""
 
 #: 30187
-#, fuzzy
 msgid "\"I had some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
@@ -252,7 +251,6 @@ msgid "\"Why don't you put that blade away before you get hurt?\""
 msgstr "\"Почему бы тебе не убрать этот ножичек, пока ты им не поранился?\""
 
 #: 30203
-#, fuzzy
 msgid "\"What happened?\""
 msgstr "\"Что произошло?\""
 
@@ -265,9 +263,8 @@ msgid "\"That I do. Farewell, then.\""
 msgstr "\"Это точно. Тогда прощай.\""
 
 #: 30206
-#, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Нет! Нет!..\""
+msgstr "\"Продолжай...\""
 
 #: 30207
 msgid ""
@@ -278,9 +275,8 @@ msgstr ""
 "вилку. Все верно?\""
 
 #: 30208 30211 30214 30217
-#, fuzzy
 msgid "\"Interesting... farewell.\""
-msgstr "\"Интересно. Прощай.\""
+msgstr "\"Интересно... Прощай.\""
 
 #: 30209
 msgid "\"Then what happened?\""
@@ -299,6 +295,8 @@ msgid ""
 "\"The old man's not dead, you fool. I spoke with him over at the flophouse "
 "and he says he wants his fork back.\""
 msgstr ""
+"\"Старик не умер, идиот. Я говорил с ним в ночлежке, и он сказал, что хочет "
+"свою вилку назад.\""
 
 #: 30215
 msgid ""
@@ -331,6 +329,6 @@ msgid "\"Have no fear... the spirit shall trouble you no more. Farewell.\""
 msgstr "\"Не бойся... дух больше не будет тебя беспокоить. Прощай.\""
 
 #: 30223
-#, fuzzy
 msgid "Defend yourself."
-msgstr "Приготовиться к самозащите."
+msgstr "Защищаться."
+

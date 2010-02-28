@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcoax.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:20+0600\n"
+"PO-Revision-Date: 2010-02-23 02:20+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 17090
 msgid ""
@@ -459,9 +459,8 @@ msgid "Leave the golem alone."
 msgstr "Оставить женщину в покое."
 
 #: 26283
-#, fuzzy
 msgid "\"What are you?\""
-msgstr "\"Кто ты такой?\""
+msgstr "\"Что ты такое?\""
 
 #: 26284
 msgid "\"What is this place?\""
@@ -507,9 +506,8 @@ msgid "\"Perhaps another day. Farewell.\""
 msgstr "\"Возможно в другой раз. Прощай.\""
 
 #: 26297
-#, fuzzy
 msgid "\"What *are* you?\""
-msgstr "\"Чем же тогда ты *являешься*?\""
+msgstr "\"Что *ты* такое?\""
 
 #: 26298
 msgid ""
@@ -530,9 +528,8 @@ msgid "\"Yes, you'd mentioned that before. I had some other questions...\""
 msgstr "\"Да, ты уже об этом говорил. У меня есть другие вопросы...\""
 
 #: 26302 26403
-#, fuzzy
 msgid "\"I... see. That is all I wished to know. Farewell.\""
-msgstr "\"Понятно. Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Понятно... Это все, что я хотел узнать. Прощай.\""
 
 #: 26303
 msgid "\"You mean forging weapons? That's your purpose?\""
@@ -562,20 +559,17 @@ msgstr "\"Чем ты здесь занимаешься?\""
 
 #: 26311 26314 26317 26375 26378 26383 26386 26388 26391 26394 26396 26402
 #: 26405 26408 26413 26417 26421 26425 26429 26436 26439 26442 26454
-#, fuzzy
 msgid "\"I had another question...\""
-msgstr "\"Нет, у меня есть другие вопросы...\""
+msgstr "\"У меня есть другой вопрос...\""
 
 #: 26313
-#, fuzzy
 msgid "\"What happened?\""
 msgstr "\"Что произошло?\""
 
 #: 26315 26318 26376 26379 26381 26384 26387 26392 26395 26397 26406 26409
 #: 26414 26418 26422 26426 26430 26433 26437 26440 26443 26446
-#, fuzzy
 msgid "\"I see. That is all I wished to know. Farewell.\""
-msgstr "\"Хорошо. Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Понятно. Это все, что я хотел узнать. Прощай.\""
 
 #: 26316
 msgid ""
@@ -587,9 +581,8 @@ msgid "\"And you said your purpose now is to forge weapons?\""
 msgstr ""
 
 #: 26320
-#, fuzzy
 msgid "\"I see... I had another question...\""
-msgstr "\"Понятно. У меня есть другой вопрос...\""
+msgstr "\"Понятно... У меня есть другой вопрос...\""
 
 #: 26321
 msgid ""
@@ -601,9 +594,8 @@ msgid "\"What does entropy need weapons for?\""
 msgstr ""
 
 #: 26323
-#, fuzzy
 msgid "\"I see. I had some other questions..\""
-msgstr "\"Понятно. У меня были еще вопросы...\" "
+msgstr "\"Понятно. У меня были еще вопросы..\""
 
 #: 26324 26327 26330 26343 26373
 #, fuzzy
@@ -669,9 +661,8 @@ msgid "\"Very interesting...that is all I wished to know. Farewell.\""
 msgstr "\"Хорошо. Это все, что я хотел узнать. Прощай.\""
 
 #: 26347
-#, fuzzy
 msgid "\"I...see. I had some other questions...\""
-msgstr "\"Понятно... У меня были еще вопросы...\" "
+msgstr "\"Понятно... У меня были еще вопросы...\""
 
 #: 26348
 msgid ""
@@ -741,7 +732,6 @@ msgid "\"Do you know where this cage is?\""
 msgstr "\"Ты знаешь, где она находится?\""
 
 #: 26389
-#, fuzzy
 msgid "\"That is all I wished to know. Farewell.\""
 msgstr "\"Это все, что я хотел узнать. Прощай.\""
 
@@ -764,9 +754,8 @@ msgid "Before I go, I had other questions...\""
 msgstr "\"Понятно. У меня были еще вопросы...\""
 
 #: 26400
-#, fuzzy
 msgid "\"Thank you. Farewell.\""
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо. Прощай.\""
 
 #: 26401
 msgid "\"You're saying you could forge a weapon to kill an immortal?\""
@@ -831,9 +820,8 @@ msgid "\"Really? How?\""
 msgstr ""
 
 #: 26444 26489
-#, fuzzy
 msgid "\"Very well...\""
-msgstr "\"Очень хорошо. Хорошего дня.\""
+msgstr "\"Очень хорошо...\""
 
 #: 26445
 #, fuzzy
@@ -847,7 +835,7 @@ msgstr "\"О чем это ты?\""
 #: 26448
 #, fuzzy
 msgid "\"Why?\""
-msgstr "\"Почему я?\""
+msgstr "\"Почему?\""
 
 #: 26450
 msgid "\"Where would I find such a shell that separated me from the Planes?\""
@@ -1011,3 +999,4 @@ msgid ""
 "iron golem, almost the size of the tower itself. It seems to be forging "
 "weapons using a furnace within the tower. "
 msgstr ""
+

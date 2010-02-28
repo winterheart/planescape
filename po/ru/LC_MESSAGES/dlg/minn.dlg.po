@@ -1,16 +1,16 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2009-09-04 18:59+0600\n"
+"PO-Revision-Date: 2010-02-15 03:06+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 38976
@@ -35,11 +35,11 @@ msgstr ""
 
 #: 44368
 msgid "Attack."
-msgstr ""
+msgstr "Атаковать."
 
 #: 44369 44465 44488
 msgid "Flee."
-msgstr ""
+msgstr "Сбежать."
 
 #: 44372 44391
 msgid ""
@@ -210,7 +210,7 @@ msgstr ""
 
 #: 44464 44484 44608 44612 44615
 msgid "Fight."
-msgstr ""
+msgstr "Сражаться."
 
 #: 44466
 msgid ""
@@ -373,7 +373,7 @@ msgstr ""
 
 #: 44518
 msgid "\"Sure. Farewell.\""
-msgstr ""
+msgstr "\"Конечно. Прощай.\""
 
 #: 44519
 msgid ""
@@ -387,8 +387,9 @@ msgid ""
 msgstr ""
 
 #: 44520
+#, fuzzy
 msgid "\"What are you talking about?\""
-msgstr ""
+msgstr "\"О чем это ты толкуешь?\""
 
 #: 44521
 msgid "\"I just have a few questions...\""
@@ -406,7 +407,7 @@ msgstr ""
 
 #: 44524
 msgid "\"Fine, then.\""
-msgstr ""
+msgstr "\"Вот и отлично.\""
 
 #: 44525
 msgid "\"I told you to speak to me no more. Are all humans as slow as you?\""
@@ -448,7 +449,7 @@ msgstr ""
 
 #: 44537
 msgid "\"Very well, then. Farewell.\""
-msgstr ""
+msgstr "\"Отлично. Прощай.\""
 
 #: 44538
 msgid ""
@@ -517,7 +518,7 @@ msgstr ""
 
 #: 44565
 msgid "\"Thanks. Farewell.\""
-msgstr ""
+msgstr "\"Спасибо. Прощай.\""
 
 #: 44566
 msgid "\"I have answered your questions once. Do not come to me again.\""
@@ -555,7 +556,7 @@ msgstr ""
 
 #: 44577 44580
 msgid "\"Very well. Farewell.\""
-msgstr ""
+msgstr "\"Отлично. Прощай.\""
 
 #: 44579
 msgid ""
@@ -744,3 +745,4 @@ msgid ""
 "\"We shall see about that, githzerai dog!\" The githyanki attacks Dak'kon "
 "furiously."
 msgstr ""
+

@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dvaxis.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:50+0600\n"
+"PO-Revision-Date: 2010-02-15 03:08+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 1306 1348
 msgid ""
@@ -58,7 +58,6 @@ msgid "\"Uh, I don't have time to talk right now... maybe some other time.\""
 msgstr "\"Сейчас у меня нет времени, чтобы помогать тебе... Прощай.\""
 
 #: 4359 4671
-#, fuzzy
 msgid "\"Huh?\""
 msgstr "\"А?\""
 
@@ -98,9 +97,8 @@ msgid "\"Can you help me escape?\""
 msgstr "\"Ты поможешь мне выбраться отсюда?\""
 
 #: 4369
-#, fuzzy
 msgid "\"So what are you doing here?\""
-msgstr "\"Что ты здесь делаешь?\""
+msgstr "\"А что ты делаешь здесь?\""
 
 #: 4370
 msgid ""
@@ -262,11 +260,10 @@ msgid "\"I'll risk it. Prepare to die.\""
 msgstr "\"Я тоже прошу прощения. Приготовься к смерти.\""
 
 #: 4406 4411 4667 4670
-#, fuzzy
 msgid ""
 "\"Burn in hell, then. I'm leaving. You better watch yourself... *zombie.*\""
 msgstr ""
-"\"Чтоб ты горел в аду. Я ухожу. Тебе лучше быть настороже... *зомби*!\""
+"\"Чтоб ты горел в аду. Я ухожу. Тебе лучше быть настороже... *зомби*.\""
 
 #: 4407 4663
 msgid ""
@@ -561,7 +558,6 @@ msgid ""
 msgstr ""
 
 #: 4486
-#, fuzzy
 msgid "\"Not interested. Farewell.\""
 msgstr "\"Не заинтересован. Прощай.\""
 
@@ -674,9 +670,8 @@ msgid ""
 msgstr ""
 
 #: 4509 4511
-#, fuzzy
 msgid "\"I'll be back.\""
-msgstr "\"Я вернусь.\""
+msgstr "\"Я еще вернусь.\""
 
 #: 4512 4601
 msgid ""
@@ -715,7 +710,6 @@ msgid "\"Hold a moment. There's something I want first.\""
 msgstr "\"Секундочку. Я хочу кое-что взамен.\""
 
 #: 4519 4620
-#, fuzzy
 msgid "\"Here you go.\""
 msgstr "\"На, бери.\""
 
@@ -771,9 +765,8 @@ msgstr ""
 "формальдегида."
 
 #: 4530
-#, fuzzy
 msgid "\"I'm missing a journal. Have you seen it?\""
-msgstr "\"Я ищу дневник. Тебе такой не попадался?\""
+msgstr "\"Я потерял дневник. Тебе такой не попадался?\""
 
 #: 4531
 msgid "\"Can you tell me anything about Dhall?\""
@@ -817,7 +810,6 @@ msgid "\"Why don't the Dustmen like Pharod?\""
 msgstr "\"А почему Тленные платят за мертвецов?\""
 
 #: 454 455
-#, fuzzy
 msgid "\"So... seen anything interesting going on?\""
 msgstr "\"Итак... что тут у нас интересного?\""
 
@@ -835,9 +827,8 @@ msgstr ""
 "Меяки ненают, окуда он их беет. Думают, он пиет пеней в кигу меетых.\""
 
 #: 4547 4548 4552 4553
-#, fuzzy
 msgid "\"Uh... what?\""
-msgstr "\"... и что теперь?\""
+msgstr "\"Ух... что?\""
 
 #: 4549 4554 4557
 #, fuzzy
@@ -955,9 +946,8 @@ msgid "\"It was great talking to you. Farewell.\""
 msgstr "\"Было приятно поболтать с тобой. Прощай.\""
 
 #: 4580
-#, fuzzy
 msgid "\"What do you know about him?\""
-msgstr "\"Ты знаешь что-нибудь обо мне?\""
+msgstr "\"Что ты знаешь о нем?\""
 
 #: 4582
 msgid ""
@@ -1017,9 +1007,8 @@ msgid "\"I had some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
 #: 4596
-#, fuzzy
 msgid "\"Never mind.\""
-msgstr "\"Тогда неважно.\""
+msgstr "\"Неважно.\""
 
 #: 4597
 msgid ""
@@ -1034,7 +1023,6 @@ msgid "\"No. I had some questions for you, first...\""
 msgstr "\"Нет. Сначала у меня несколько вопросов к тебе...\""
 
 #: 4599 4600
-#, fuzzy
 msgid "\"Never mind then.\""
 msgstr "\"Тогда неважно.\""
 
@@ -1498,9 +1486,8 @@ msgstr ""
 "быть там.\""
 
 #: 64524
-#, fuzzy
 msgid "\"All right. I had some other questions...\""
-msgstr "\"Хорошо... У меня есть другие вопросы...\""
+msgstr "\"Хорошо. У меня есть другие вопросы...\""
 
 #: 64525
 msgid ""
@@ -1554,3 +1541,4 @@ msgstr ""
 #: 64532
 msgid "\"Very well. Farewell, Vaxis.\""
 msgstr "\"Отлично. Прощай, Ваксис.\""
+

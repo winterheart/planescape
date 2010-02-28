@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dtrist.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:47+0600\n"
+"PO-Revision-Date: 2010-02-15 02:47+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 37704
 msgid ""
@@ -86,7 +86,7 @@ msgstr ""
 #: 37986 37989 37991 38084
 #, fuzzy
 msgid "\"Go on.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Продолжай.\" нужна.\""
 
 #: 37987
 msgid "\"I don't have time for this. Farewell.\""
@@ -196,12 +196,10 @@ msgid "\"Yes, I'll help you. I have some questions though...\""
 msgstr "Ложь: \"Я не уверен. У меня есть несколько вопросов...\""
 
 #: 38009 38053 38095
-#, fuzzy
 msgid "\"No, I don't want to get involved.\""
-msgstr "\"Я не хочу неприятностей.\""
+msgstr "\"Нет, я не хочу ввязываться в это дело.\""
 
 #: 38010 38054 38096
-#, fuzzy
 msgid "\"I need some time to think about this. Farewell.\""
 msgstr "\"Мне нужно время, что обдумать это. Прощай.\""
 
@@ -251,14 +249,12 @@ msgid "\"Where can I find Byron?\""
 msgstr "\"Где я могу найти этого Фарода?\""
 
 #: 38021 38025 38028 38031 38036 38040 38043 38046 38050 38087 38091
-#, fuzzy
 msgid "\"I have some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще вопросы...\""
 
 #: 38022 38026 38029 38032 38037 38041 38044 38047 38088 38092 38113
-#, fuzzy
 msgid "\"I must be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай.\""
 
 #: 38023
 msgid ""
@@ -340,7 +336,6 @@ msgid ""
 msgstr ""
 
 #: 38056
-#, fuzzy
 msgid "\"All right.\""
 msgstr "\"Хорошо.\" "
 
@@ -404,7 +399,7 @@ msgstr ""
 #: 38070
 #, fuzzy
 msgid "\"I will. Farewell.\""
-msgstr "\"Я постараюсь. Прощай.\""
+msgstr "\"Хорошо. Прощай.\""
 
 #: 38071
 msgid ""
@@ -500,3 +495,4 @@ msgstr ""
 #, fuzzy
 msgid "\"No, I'm still working on it. Farewell.\""
 msgstr "\"На самом деле, я все еще расследую это дело. Прощай.\""
+

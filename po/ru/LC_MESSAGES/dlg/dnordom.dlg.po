@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dnordom.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-07-10 00:27+0600\n"
+"PO-Revision-Date: 2010-02-15 03:04+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 16630
 msgid "\"Define: Aid, required.\""
@@ -173,9 +173,8 @@ msgid ""
 msgstr ""
 
 #: 34010 66820
-#, fuzzy
 msgid "\"Let's go, then.\""
-msgstr "\"Вперед.\""
+msgstr "\"Тогда вперед.\""
 
 #: 34011
 msgid ""
@@ -308,9 +307,8 @@ msgid ""
 msgstr ""
 
 #: 55102
-#, fuzzy
 msgid "\"Uh...\""
-msgstr "\"Я...\""
+msgstr "\"Ух...\""
 
 #: 55105
 msgid ""
@@ -713,9 +711,8 @@ msgid ""
 msgstr ""
 
 #: 55213
-#, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Нет! Нет!..\""
+msgstr "\"Продолжай...\""
 
 #: 55214
 msgid "\"Hold on, Nordom. What's the Plane of Mechanus?\""
@@ -999,9 +996,8 @@ msgid "\"Nordom, what do you mean, 'Null Home?'\""
 msgstr ""
 
 #: 55287
-#, fuzzy
 msgid "\"Never mind, Morte. I've heard enough. Let's go.\""
-msgstr "\"Ладно, неважно. У меня есть другие вопросы...\""
+msgstr "\"Неважно, Морт. Я достаточно наслушался. Идем.\""
 
 #: 55288
 msgid ""
@@ -1021,9 +1017,8 @@ msgid "\"I see. Nordom, I had some other questions for you...\""
 msgstr "\"Понятно. Слушай, у меня есть некоторые вопросы...\""
 
 #: 55293 55297 55301 55305 55308 55334 55339 55343 55347
-#, fuzzy
 msgid "\"That's all I wanted to know. Let's move on.\""
-msgstr "\"Это все, что я желал знать; прощай.\""
+msgstr "\"Это все, что я хотел знать. Пошли.\""
 
 #: 55294 55309 55310
 msgid "\"!SOURCE! = Energy.\""
@@ -1244,7 +1239,7 @@ msgstr "\"Я в порядке. Идем.\""
 
 #: 55355 55484
 msgid "\"Affirmatory.\""
-msgstr ""
+msgstr "\"Утвердительно.\""
 
 #: 55356
 msgid "\"Well, then, I have some orders for you...\""
@@ -2116,9 +2111,8 @@ msgstr ""
 "'один'.\""
 
 #: 61674
-#, fuzzy
 msgid "\"Negatory.\""
-msgstr "\"На самом деле, нет.\""
+msgstr "\"Отрицательно.\""
 
 #: 61675
 msgid ""
@@ -2291,4 +2285,5 @@ msgid ""
 "\"Just keep pumping crossbow bolts into the branched thing, and we'll sort "
 "it out later...\""
 msgstr ""
+
 
