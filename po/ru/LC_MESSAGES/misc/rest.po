@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2010-01-24 14:29+0500\n"
+"PO-Revision-Date: 2010-02-17 01:23+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -159,7 +159,7 @@ msgstr "Уйти."
 
 #: 912
 msgid "(Placeholder.)"
-msgstr ""
+msgstr "(Заглушка.)"
 
 #: 1250
 msgid "It is none of your concern."
@@ -175,7 +175,7 @@ msgstr "Главный зал"
 
 #: 1351
 msgid "Huh?"
-msgstr ""
+msgstr "А?"
 
 #: 1353 66811
 msgid "Tiefling Thug"
@@ -296,7 +296,7 @@ msgstr "Древний свиток"
 
 #: 2241
 msgid "Enough of your lies!"
-msgstr ""
+msgstr "Хватит врать!"
 
 #: 2483
 msgid "Sign the parchment."
@@ -332,11 +332,11 @@ msgstr "УРОВЕНЬ"
 
 #: 2619
 msgid "Very well. I had some other questions..."
-msgstr ""
+msgstr "Очень хорошо. У меня есть другие вопросы..."
 
 #: 2661
 msgid "Ninth Circle? There's no such thing."
-msgstr ""
+msgstr "Девятый Круг? Такого не существует."
 
 #: 2721 3869 17161 19517 19518 19522 21055 21961 22913 29159 33038 34179 34180
 #: 34181 34182 34183 45997 45998 45999 46000 46001 46003 46011 46788 46789
@@ -348,7 +348,7 @@ msgstr "[no text]"
 
 #: 2745
 msgid "No. I had some other questions for you..."
-msgstr ""
+msgstr "Нет. У меня были еще вопросы к тебе..."
 
 #: 2757
 msgid "This is Node 1"
@@ -364,7 +364,7 @@ msgstr "This is Node 3."
 
 #: 2763
 msgid "This is Node 4. You must have had Morte."
-msgstr ""
+msgstr "This is Node 4. You must have had Morte."
 
 #: 2764
 msgid "TEST Computer"
@@ -549,7 +549,7 @@ msgstr "Убийца Милосердия"
 
 #: 3320
 msgid "Worm"
-msgstr ""
+msgstr "Червь"
 
 #: 3339
 msgid "I am one of Mantuok's followers. Chitter-chitter."
@@ -565,15 +565,15 @@ msgstr "Гигантский скелет"
 
 #: 3376
 msgid "Breastplate 2"
-msgstr ""
+msgstr "Нагрудник 2"
 
 #: 3378 4109
 msgid "Breastplate 3"
-msgstr ""
+msgstr "Нагрудник 3"
 
 #: 3381 4104
 msgid "Breastplate 4"
-msgstr ""
+msgstr "Нагрудник 4"
 
 #: 3411
 #, fuzzy
@@ -586,7 +586,7 @@ msgstr "Минуточку. Мне нужен ключ от бальзамаци
 
 #: 3500
 msgid "I need a key. Do you have one?"
-msgstr ""
+msgstr "Мне нужен ключ. У тебя он есть?"
 
 #: 3510
 msgid ""
@@ -594,6 +594,8 @@ msgid ""
 "together. Although the strap is frayed and cracked along the edges, it still "
 "looks pretty strong."
 msgstr ""
+"Это один из кожаных ремней, использовавшихся для связывания воедино костей "
+"скелета. И хотя по краям он уже растрескался, он все еще достаточно крепкий."
 
 #: 3513
 msgid "A receipt stamped with a symbol of a sword radiating a sunburst. "
@@ -855,6 +857,10 @@ msgid ""
 "will listen to him. He's a font of information, if you can get past all the "
 "long-winded explanations."
 msgstr ""
+"Эбб Коленоскрип - старый член Гармониума, который, сидя в кресле в Тлеющем "
+"трупе, с удовольствием треплет языком со всяким, кто готов его слушать. Он "
+"просто кладезь информации, если только ты сможешь продраться сквозь его "
+"длинные пассажи и отступления."
 
 #: 3586
 msgid ""
@@ -909,6 +915,10 @@ msgid ""
 "under the unspoken command of the Lady. There's something about them that "
 "strikes you as wrong."
 msgstr ""
+"Дабусы являются слугами Леди Боли, таинственной повелительницы Сигила. Они "
+"парят над землей и общаются с помощью ребусов, цепочек символов, витающих "
+"вокруг них. По негласному приказу Леди они рушат стены и возводят целые "
+"улицы. В них есть что-то неправильное."
 
 #: 3592
 msgid ""
@@ -926,7 +936,7 @@ msgstr ""
 
 #: 3594
 msgid "No Known Creatures"
-msgstr ""
+msgstr "Неизвестные существа"
 
 #: 3595
 msgid "You have yet to meet any notable creatures in this category."
@@ -1478,6 +1488,9 @@ msgid ""
 "I gave the evidence that Byron Pikit is a criminal to the Harmonium guard, "
 "Corvus. He arrested Byron and will see that he is brought to justice."
 msgstr ""
+"Я дал показания стражнику Гармониума Корвусу, что Байрон Пикит является "
+"преступником. Он арестовал Байрона и проследит, что тот оказался перед лицом "
+"правосудия."
 
 #: 3849
 msgid "Kill Grosuk the abishai for Sebastion."
@@ -2021,6 +2034,15 @@ msgid ""
 "This slim dagger is a beauty among its kind. It is a one-handed thrusting "
 "weapon."
 msgstr ""
+"ВЫСОКОКАЧЕСТВЕННЫЙ СТИЛЕТ\n"
+"Урон: 1-4 колющий\n"
+"Вес: 1\n"
+"Скорость: 1\n"
+"Специализация: клинковые\n"
+"Не используется жрецами\n"
+"\n"
+"Этот тонкий кинжал - своего рода произведение искусства. Это одноручное "
+"колющее оружие."
 
 #: 5004
 msgid ""
@@ -2028,6 +2050,9 @@ msgid ""
 "better used as a paperweight. It is not sharp or well-balanced, and might "
 "actually hinder you in combat."
 msgstr ""
+"Этот широкий кинжал, предназначенный быть идеальным колющим оружием, на деле "
+"больше годится под пресс-папье. Он не остр и не сбалансирован, и в настоящем "
+"бою может только помешать."
 
 #: 5005
 msgid ""
@@ -2141,31 +2166,31 @@ msgstr ""
 
 #: 7570
 msgid "Grab her hand."
-msgstr ""
+msgstr "Схватить ее за руку."
 
 #: 8190
 msgid "Character Select"
-msgstr ""
+msgstr "Выбор персонажа"
 
 #: 8191
 msgid "Dialogue"
-msgstr ""
+msgstr "Диалог"
 
 #: 8192
 msgid "Combat/Select Weapon"
-msgstr ""
+msgstr "Битва/Выбрать оружие"
 
 #: 8193
 msgid "Select Spell"
-msgstr ""
+msgstr "Выбрать заклинание"
 
 #: 8194
 msgid "Select Item"
-msgstr ""
+msgstr "Выбрать предмет"
 
 #: 8195
 msgid "Select Special Ability"
-msgstr ""
+msgstr "Выбрать специальную способность"
 
 #: 8196
 msgid "Action Button"
@@ -2173,11 +2198,11 @@ msgstr ""
 
 #: 8197
 msgid "Rotate Items Left"
-msgstr ""
+msgstr "Повернуть предметы влево"
 
 #: 8198
 msgid "Rotate Items Right"
-msgstr ""
+msgstr "Повернуть предметы вправо"
 
 #: 8199
 msgid "Menu Anchor (click and hold down button to move)"
@@ -2193,7 +2218,7 @@ msgstr ""
 
 #: 8616
 msgid "Intimidate"
-msgstr ""
+msgstr "Запугивание"
 
 #: 8620
 msgid "Seizure"
@@ -2209,7 +2234,7 @@ msgstr ""
 
 #: 8631
 msgid "Irritation"
-msgstr ""
+msgstr "Гнев"
 
 #: 8633
 msgid "Ray of Enfeeblement"
@@ -2221,7 +2246,7 @@ msgstr ""
 
 #: 8638
 msgid "Bewilder"
-msgstr ""
+msgstr "Смущение"
 
 #: 8641
 msgid "Ghost Armor"
@@ -2229,7 +2254,7 @@ msgstr ""
 
 #: 8648
 msgid "Despair"
-msgstr ""
+msgstr "Отчаяние"
 
 #: 8649
 msgid "Flamestrike"
@@ -2241,7 +2266,7 @@ msgstr ""
 
 #: 8656
 msgid "Fear Aura"
-msgstr ""
+msgstr "Аура страха"
 
 #: 8665
 msgid "Wind Tempest"
@@ -2253,11 +2278,11 @@ msgstr ""
 
 #: 8806
 msgid "Wilting"
-msgstr ""
+msgstr "Увядание"
 
 #: 8810
 msgid "Disruption"
-msgstr ""
+msgstr "Крушение"
 
 #: 8811
 msgid "Immunity to Undeath"
@@ -3035,31 +3060,31 @@ msgstr ""
 
 #: 18496
 msgid "\"Strangers aren't welcome here.\""
-msgstr ""
+msgstr "\"Чужакам здесь не рады.\""
 
 #: 18497
 msgid "\"GET HIM!\" "
-msgstr ""
+msgstr "\"ВЗЯТЬ ЕГО!\" "
 
 #: 18498
 msgid "\"You've entered the WRONG part of town, berk!\" "
-msgstr ""
+msgstr "\"Ты оказался в НЕПРАВИЛЬНОЙ части города, пень!\""
 
 #: 18499
 msgid "\"How'd you get down here?\""
-msgstr ""
+msgstr "\"Как ты очутился здесь?\""
 
 #: 18500
 msgid "\"Hmm.  Where'd you come from?\""
-msgstr ""
+msgstr "\"Хммм. Откуда ты взялся?\""
 
 #: 18501
 msgid "\"Don't see many strangers around these parts.\""
-msgstr ""
+msgstr "\"Здесь не часто увидишь незнакомцев.\""
 
 #: 18502
 msgid "\"Nice weather we're having eh?\""
-msgstr ""
+msgstr "\"Хорошая погодка, а?\""
 
 #: 18503
 msgid "\"Someone's attacking us, lets get them!\" "
@@ -3067,7 +3092,7 @@ msgstr ""
 
 #: 18504
 msgid "\"Hey stranger, nice clothes.  I think we'll TAKE THEM!\""
-msgstr ""
+msgstr "\"Эй чужак, неплохие вещички. Возьмем-ка мы ИХ СЕБЕ!\""
 
 #: 19233
 msgid "CHARACTER GENERATION"
@@ -3208,7 +3233,7 @@ msgstr "Удар в спину! 6x [Nameless One]"
 
 #: 19270
 msgid "Immune to Weapon"
-msgstr ""
+msgstr "Иммунитет к оружию"
 
 #: 19271
 msgid "Not a Backstab Weapon"
@@ -3220,7 +3245,7 @@ msgstr "Критическое попадание!"
 
 #: 19273
 msgid "Critical Hit Avoided!"
-msgstr ""
+msgstr "Уклонение от критического попадания!"
 
 #: 19274
 msgid "Critical Miss!"
@@ -3634,11 +3659,11 @@ msgstr "Оба"
 
 #: 19891
 msgid "Small Sword"
-msgstr ""
+msgstr "Короткие меч"
 
 #: 19894
 msgid "Blunt Weapons"
-msgstr ""
+msgstr "Тупое оружие"
 
 #: 19897
 msgid "Axe"
@@ -3646,7 +3671,7 @@ msgstr "Топор"
 
 #: 19898
 msgid "Missile Weapons"
-msgstr ""
+msgstr "Снарядное оружие"
 
 #: 20105
 msgid ""
@@ -3771,11 +3796,11 @@ msgstr ""
 
 #: 22082 22098 50026
 msgid "Small Dwelling"
-msgstr ""
+msgstr "Маленькое жилище"
 
 #: 22083
 msgid "Pharod's Vault"
-msgstr ""
+msgstr "Убежище Фарода"
 
 #: 22084
 msgid "Ojo's House"
@@ -3928,7 +3953,7 @@ msgstr "Портной"
 
 #: 22140
 msgid "Apothecary"
-msgstr ""
+msgstr "Аптека"
 
 #: 22142
 msgid "Prison"
@@ -4028,7 +4053,7 @@ msgstr ""
 
 #: 22175
 msgid "Throne Room"
-msgstr ""
+msgstr "Тронный зал"
 
 #: 22176
 msgid "Warrens of Thought"
@@ -4083,7 +4108,7 @@ msgstr ""
 
 #: 23315
 msgid "Please let me out or I'll never finish this game!"
-msgstr ""
+msgstr "Пожалуйста, выпусти меня наружу, или я никогда не закончу эту игру!"
 
 #: 23555
 msgid "\"Perhaps I'll seek it out. Farewell.\""
@@ -4135,7 +4160,7 @@ msgstr ""
 
 #: 25608
 msgid "Portal to Pharod's Vault."
-msgstr ""
+msgstr "Портал в убежище Фарода."
 
 #: 25609
 msgid "To the Crypt of the Embraced."
@@ -4187,7 +4212,7 @@ msgstr ""
 
 #: 25621
 msgid "The Chapel."
-msgstr ""
+msgstr "Часовня."
 
 #: 25622
 msgid "Soego's chambers."
@@ -4211,7 +4236,7 @@ msgstr ""
 
 #: 25627
 msgid "Sealed passageway."
-msgstr ""
+msgstr "Запечатанный проход."
 
 #: 25629
 msgid "The Tailor."
@@ -4239,7 +4264,7 @@ msgstr ""
 
 #: 25641
 msgid "The Apothecary."
-msgstr ""
+msgstr "Аптека."
 
 #: 25643
 msgid "The Civic Festhall."
@@ -4322,12 +4347,14 @@ msgstr ""
 
 #: 26022
 msgid "Black-Barbed Seed"
-msgstr ""
+msgstr "Семя с черными шипами"
 
 #: 26075
 msgid ""
 "This tiny black seed has a series of small barbs sprouting from its surface. "
 msgstr ""
+"Это маленькое черное семя покрыто рядами мелких шипов, торчащих из его "
+"поверхности. "
 
 #: 26089
 msgid ""
@@ -4340,11 +4367,11 @@ msgstr ""
 
 #: 26282
 msgid "There is nothing of interest in this tent."
-msgstr ""
+msgstr "В этой палатке нет ничего интересного."
 
 #: 26380
 msgid "\"Oh...uh, I had another question...\""
-msgstr ""
+msgstr "\"Эээ... у меня есть другой вопрос...\""
 
 #: 26424 42226
 msgid "\"I had another question...\""
@@ -4440,7 +4467,7 @@ msgstr ""
 
 #: 28081
 msgid "Confusion"
-msgstr ""
+msgstr "Замешательство"
 
 #: 28082
 msgid "CLICK TO CLOSE"
@@ -4700,7 +4727,7 @@ msgstr ""
 
 #: 30700
 msgid "The Revolutionary League"
-msgstr ""
+msgstr "Революционная лига"
 
 #: 30701
 msgid "Xaositects"
@@ -4757,7 +4784,7 @@ msgstr ""
 
 #: 31211
 msgid "STRREF_OPTIONS_HELP_GAMEPLAY"
-msgstr ""
+msgstr "STRREF_OPTIONS_HELP_GAMEPLAY"
 
 #: 31212
 msgid ""
@@ -5461,7 +5488,7 @@ msgstr ""
 
 #: 32849
 msgid "Kesai-Serris' chambers."
-msgstr ""
+msgstr "Покои Кесай-Серри."
 
 #: 32850
 msgid "Marissa's chambers."
@@ -5477,7 +5504,7 @@ msgstr ""
 
 #: 32853
 msgid "Ecco's chambers."
-msgstr ""
+msgstr "Покои Экко."
 
 #: 32857
 msgid "Right Earring"
@@ -5485,7 +5512,7 @@ msgstr "Правая серьга"
 
 #: 32959
 msgid "\"What's Avernus like?\""
-msgstr ""
+msgstr "\"На что похож Авернус?\""
 
 #: 33033
 msgid "Current Alignment:"
@@ -6205,6 +6232,10 @@ msgid ""
 "Motto: Justice is everything. When properly applied, punishment leads to "
 "perfection."
 msgstr ""
+"Фракция: Убийцы милосердия (\"Красная смерть\")\n"
+"\n"
+"Девиз: Правосудие повсюду. Правильно примененное наказание ведет к "
+"совершенству."
 
 #: 34587
 msgid ""
@@ -6221,6 +6252,10 @@ msgid ""
 "Motto: Everyone is dead. Purge your passions, and in so doing, ascend toward "
 "the purity of True Death."
 msgstr ""
+"Фракция: Тленные (\"Мертвые\")\n"
+"\n"
+"Девиз: Все мертвы. Отринь свои чувства. Совершая это, ты движешься навстречу "
+"чистоте Истинной Смерти."
 
 #: 34589
 msgid ""
@@ -6229,6 +6264,10 @@ msgid ""
 "Motto: Destroy the factions; they're built on lies and greed. Break them all "
 "down and rebuild with what's left; that's the way to the real truth."
 msgstr ""
+"Фракция: Революционная лига (\"Анархисты\")\n"
+"\n"
+"Девиз: Уничтожь фракции; они построены на лжи и алчности. Разрушь их всех до "
+"основания и перестрой то, что осталось. Так ты постигнешь истину."
 
 #: 34590
 msgid ""
@@ -7330,7 +7369,7 @@ msgstr "Назад в Улей"
 
 #: 36322
 msgid "\"I have some other questions...\""
-msgstr ""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 36344
 msgid "\"Can you teach me the warriors way?\""
@@ -8151,6 +8190,11 @@ msgid ""
 "I will destroy this life so badly, break it, smash it, stain it in blood and "
 "feces, so you cannot live it either! Let all creation burn for I cannot die!"
 msgstr ""
+"Надпись: Как в мире коротка жизнь, вытекающая из этой дырки в моем теле. "
+"Пусть мир горит, пусть горят планы, только верните мне жизнь! Я уничтожу эту "
+"жизнь так сильно, разобью ее, разрушу, смешаю ее с кровью и дерьмом, так, "
+"чтобы вы не смогли прожить ею тоже! Пусть все живое горит за то, что я не "
+"могу умереть!"
 
 #: 37409
 msgid ""
@@ -8201,6 +8245,11 @@ msgid ""
 "by death or destruction, then you will never know who or what you are or how "
 "you came to be this way. "
 msgstr ""
+"Надпись: Очень важно записывать свои путешествия, чтобы ты смог узнавать о "
+"их. Тем не менее, еще важнее - держать обнаруженные источники информации, "
+"которые помогли тебе раскрыть тайну, в безопасности. Убей или уничтожь "
+"ключевые фигуры, документы или предсказателей, и ты никогда не узнаешь, кто "
+"ты или как оказался в таком положении. "
 
 #: 37453
 msgid ""
@@ -8311,6 +8360,11 @@ msgid ""
 "\n"
 "I am the Nameless One."
 msgstr ""
+"Надпись: Бойся имен. Имена имеют силу в личности. Имена могут быть "
+"использованы другими как оружие. Имена - это ловушки, по которым тебя могут "
+"отследить в планах. Оставайся безымянным, и ты будешь в безопасности.\n"
+"\n"
+"Я - Безымянный."
 
 #: 37586
 msgid "Locator Feedback"
@@ -8435,15 +8489,16 @@ msgstr "Найти \"Фарода\"."
 
 #: 37697
 msgid "Find Nestor's fork."
-msgstr ""
+msgstr "Найти вилку Нестора."
 
 #: 37698
 msgid "Get rid of Nestor for Arlo, the Flophouse Slumlord."
-msgstr ""
+msgstr "Избавиться от Нестора для Арло, хозяина Ночлежки."
 
 #: 37699
+#, fuzzy
 msgid "Defeat the intruder in the Mausoleum for the Guardian Spirit."
-msgstr ""
+msgstr "Уничтожить незваного гостя в Мавзолее для Духа-стража."
 
 #: 37799
 msgid ""
@@ -8475,19 +8530,19 @@ msgstr ""
 
 #: 37844
 msgid "Painting"
-msgstr ""
+msgstr "Картина"
 
 #: 37851
 msgid "Birds"
-msgstr ""
+msgstr "Птицы"
 
 #: 38049
 msgid "\"I have some more questions...\""
-msgstr ""
+msgstr "\"У меня есть еще вопросы...\""
 
 #: 38098
 msgid "Turn away from the inscription."
-msgstr ""
+msgstr "Отойти от описания."
 
 #: 38100 38104 38106 38108 38110 38112 61865 66826
 msgid "Done."
@@ -8516,6 +8571,12 @@ msgid ""
 "even the barest memory of picking someone's pocket has caused me to remember "
 "some of the skill. "
 msgstr ""
+"Наблюдая за тем, как Эи-Вейн своими когтями зашивает тело, я кое-что "
+"вспомнил... В одном воспоминании я исполнял какую-то мелодию на каком-то "
+"струнном инструменте, а во втором я крал чей-то кошелек. Наверное, когда-то "
+"я был музыкантом или карманным вором?... Не могу вспомнить. Тем не менее, "
+"даже отдаленное воспоминание о карманной краже позволило мне вспомнить "
+"некоторые навыки."
 
 #: 38201
 msgid ""
@@ -8524,6 +8585,10 @@ msgid ""
 "instrument, and the second was of stealing someone's purse. Perhaps I was "
 "once a musician or a pickpocket...? I cannot recall. "
 msgstr ""
+"Наблюдая за тем, как Эи-Вейн своими когтями зашивает тело, я кое-что "
+"вспомнил... В одном воспоминании я исполнял какую-то мелодию на каком-то "
+"струнном инструменте, а во втором я крал чей-то кошелек. Наверное, когда-то "
+"я был музыкантом или карманным вором?... Не могу вспомнить."
 
 #: 38275
 msgid ""
@@ -8636,7 +8701,7 @@ msgstr ""
 
 #: 38879 48274 48281
 msgid "(continue)"
-msgstr ""
+msgstr "(продолжить)"
 
 #: 38885
 msgid "This is a test\n"
@@ -9018,6 +9083,7 @@ msgstr ""
 #: 39737
 msgid "Rotten William is dead. Now I have to kill Blackrose for Krystall."
 msgstr ""
+"Гнилой Уильям мертв. Теперь мне нужно убить Черного бутона для Кристалл."
 
 #: 39738
 msgid "Blackrose is dead."
@@ -9157,9 +9223,8 @@ msgid "Unlock view on character"
 msgstr ""
 
 #: 41649
-#, fuzzy
 msgid "Detect Traps"
-msgstr "Обнаружение ловушек:"
+msgstr "Обнаружение ловушек"
 
 #: 41650
 msgid "Use Thieving Skills"
@@ -9213,7 +9278,7 @@ msgstr ""
 
 #: 41711 48872
 msgid "Mage Spells"
-msgstr ""
+msgstr "Заклинания мага"
 
 #: 41712
 msgid "AI Toggle"
@@ -9225,7 +9290,7 @@ msgstr "Окно характеристик персонажа"
 
 #: 41715 48873
 msgid "Priest Spells"
-msgstr ""
+msgstr "Заклинания жреца"
 
 #: 41717
 msgid "Rest Party"
@@ -9249,7 +9314,7 @@ msgstr "Записка от трупа #1201"
 
 #: 42514
 msgid "Remove"
-msgstr ""
+msgstr "Удалить"
 
 #: 42518
 msgid "was Attacked"
@@ -9322,7 +9387,7 @@ msgstr ""
 
 #: 44287
 msgid "Kill the wererat in Phineas' basement."
-msgstr ""
+msgstr "Убить крысу-оборотня в подвале Финеаса."
 
 #: 44288
 msgid ""
@@ -9330,6 +9395,9 @@ msgid ""
 "He was quite distraught and rambling about what sounds like a wererat "
 "inhabiting his basement. I have agreed to kill the creature for a reward.  "
 msgstr ""
+"Я был в Офисе по контролю паразитов и эпидемий, чтобы встретиться с Финеасом "
+"Т. Лортом. Он был сильно смятен и бормотал что-то насчет крысы-оборотня в "
+"его подвале. За вознаграждение я согласился убить существо."
 
 #: 44289
 msgid ""
@@ -9340,7 +9408,7 @@ msgstr ""
 
 #: 44290
 msgid "Find Amarysse for Nodd."
-msgstr ""
+msgstr "Найти Амариссу для Нодда."
 
 #: 44291
 msgid ""
@@ -9352,7 +9420,7 @@ msgstr ""
 
 #: 44292
 msgid "I found Nodd's sister, Amarysse, and told him where she was."
-msgstr ""
+msgstr "Я нашел сестру Нодда, Амариссу, и сообщил ему, где она находится."
 
 #: 44293
 msgid ""
@@ -9627,7 +9695,7 @@ msgstr "Назад"
 
 #: 46703
 msgid "Morte's Skull Mob"
-msgstr ""
+msgstr "Толпа черепов Морта"
 
 #: 46717
 msgid "Bead"
@@ -9679,7 +9747,7 @@ msgstr "Fall-from-Grace Dying 2"
 
 #: 47141
 msgid "Tome o' Cheats"
-msgstr ""
+msgstr "Том Уловок"
 
 #: 47647
 msgid "\"What's with the attitude?\""
@@ -9691,7 +9759,7 @@ msgstr ""
 
 #: 48034
 msgid "Curst Official"
-msgstr ""
+msgstr "Служащий Проклятого"
 
 #: 48081
 msgid "\"SHUT UP!\""
@@ -9771,7 +9839,7 @@ msgstr ""
 
 #: 48327
 msgid "Pet Lim-Lim"
-msgstr "Ручной Лим-Лим"
+msgstr "Ручной лим-лим"
 
 #: 48339
 msgid "Stone Lim-Lim"
@@ -9783,7 +9851,7 @@ msgstr ""
 
 #: 48375
 msgid "A Goody!"
-msgstr ""
+msgstr "Безделушка"
 
 #: 48377
 msgid "Sample Scroll"
@@ -10113,7 +10181,7 @@ msgstr ""
 
 #: 50028
 msgid "Barracks"
-msgstr ""
+msgstr "Бараки"
 
 #: 50032
 msgid "Distillery"
@@ -10157,7 +10225,7 @@ msgstr "Оставить камень в покое. "
 
 #: 50392
 msgid "Dodecahedron"
-msgstr ""
+msgstr "Додекаэдр"
 
 #: 50394
 msgid "This spell is already in this character's spellbook."
@@ -10251,7 +10319,7 @@ msgstr "Невозможно переместить предмет"
 
 #: 50570
 msgid "Blade of the Immortal"
-msgstr ""
+msgstr "Клинок Бессмертного"
 
 #: 50784
 msgid "\"Some more wine, if you would...\""
@@ -10259,7 +10327,7 @@ msgstr ""
 
 #: 50811
 msgid "Box"
-msgstr ""
+msgstr "Шкатулка"
 
 #: 50813
 msgid "Archway"
@@ -10705,7 +10773,7 @@ msgstr ""
 
 #: 52586
 msgid "\"Dead Dabus\""
-msgstr ""
+msgstr "\"Мертвый дабус\""
 
 #: 52588
 msgid "Strip of Skin"
@@ -10826,6 +10894,17 @@ msgid ""
 "material that smells faintly of sulfur and leaves a curious ash-like residue "
 "upon everything it touches.\n"
 msgstr ""
+"КУВАЛДА\n"
+"Урон: 2-9 дробящий\n"
+"Вес: 5\n"
+"Скорость: 7\n"
+"Специализация: молоты\n"
+"Используется только бойцами\n"
+"\n"
+"Предназначенный в основном для тяжелой работы, этот огромный молот может "
+"послужить грозным оружием. Его боек и рукоятка сделаны из необычного, "
+"черного как смоль материала, который слабо отдает серой и оставляет "
+"необычные, похожие на пепел следы на всем, с чем он соприкасается.\n"
 
 #: 52856
 msgid "\"Burrrrrrnnn...\""
@@ -10959,7 +11038,7 @@ msgstr ""
 
 #: 55011
 msgid "Unused Slots"
-msgstr ""
+msgstr "Неиспользованные ячейки"
 
 #: 55012
 msgid "Command Feedback Level"
@@ -11190,11 +11269,11 @@ msgstr ""
 
 #: 56990
 msgid "\"Hi there, Saros!\""
-msgstr ""
+msgstr "\"Привет, Сарос!\""
 
 #: 56991
 msgid "\"Saros, my lad!\""
-msgstr ""
+msgstr "\"Сарос, старина!\""
 
 #: 57276
 msgid "\"Nothing. Farewell.\""
@@ -11570,7 +11649,7 @@ msgstr ""
 
 #: 59113
 msgid "Find the site where Annah found your body."
-msgstr ""
+msgstr "Найти место, где Анна нашла твое тело."
 
 #: 59114
 msgid ""
@@ -11770,7 +11849,7 @@ msgstr ""
 
 #: 59165
 msgid "To the Trash Warrens."
-msgstr ""
+msgstr "К Мусорным районам."
 
 #: 59166
 msgid "A trash-filled archway."
@@ -12283,11 +12362,11 @@ msgstr "Принести рекламный листок Баркису из Т�
 
 #: 60575
 msgid "I've posted the handbill at the Smoldering Corpse."
-msgstr ""
+msgstr "Я разместил рекламный листок в Тлеющем трупе."
 
 #: 60576
 msgid "Kill Officer Vorten."
-msgstr ""
+msgstr "Убить офицера Вортена."
 
 #: 60577
 msgid "Join the Anarchists"
@@ -12374,7 +12453,7 @@ msgstr ""
 
 #: 60632
 msgid "I have killed Sandoz."
-msgstr ""
+msgstr "Я убил Сандоза."
 
 #: 60633
 msgid "I turned Bedai-Lihn in for the murder of Sandoz."
@@ -12409,11 +12488,11 @@ msgstr ""
 
 #: 60682
 msgid "Join the Godsmen"
-msgstr ""
+msgstr "Присоединиться к Боголюдям"
 
 #: 60688
 msgid "Forge an Item"
-msgstr ""
+msgstr "Выковать предмет"
 
 #: 60691
 msgid "I am to forge an item for my first test."
@@ -12443,7 +12522,7 @@ msgstr ""
 
 #: 60705
 msgid "Prevent Sandoz from killing himself."
-msgstr ""
+msgstr "Предотвратить самоубийство Сандоза."
 
 #: 60706
 msgid "I have accused Thildon of the murder of the smith."
@@ -12802,7 +12881,7 @@ msgstr "Берлога Браскена."
 
 #: 61275
 msgid "Hive Dwelling."
-msgstr ""
+msgstr "Дом в Улье."
 
 #: 61276
 msgid "Painted Door. "
@@ -12874,7 +12953,7 @@ msgstr ""
 
 #: 61580
 msgid "Bronze Sphere"
-msgstr ""
+msgstr "Бронзовая сфера"
 
 #: 61581
 msgid "Shelf of Skulls"
@@ -13025,15 +13104,15 @@ msgstr ""
 
 #: 62400
 msgid "To Carceri."
-msgstr ""
+msgstr "В Карцери."
 
 #: 62401
 msgid "Barracks."
-msgstr ""
+msgstr "Бараки."
 
 #: 62402
 msgid "Administration Building."
-msgstr ""
+msgstr "Административное здание."
 
 #: 62403
 msgid "Warehouse."
@@ -13057,7 +13136,7 @@ msgstr ""
 
 #: 62411
 msgid "Examine the sphere."
-msgstr ""
+msgstr "Осмотреть сферу."
 
 #: 62418
 msgid "Always Run"
@@ -13072,19 +13151,19 @@ msgstr ""
 
 #: 62421 64658
 msgid "Townsperson, Male"
-msgstr ""
+msgstr "Горожанин"
 
 #: 62422 64659
 msgid "Townsperson, Female"
-msgstr ""
+msgstr "Горожанка"
 
 #: 62423 63015
 msgid "Male Curst Townsperson"
-msgstr ""
+msgstr "Житель Проклятого"
 
 #: 62424
 msgid "Female Curst Townsperson"
-msgstr ""
+msgstr "Жительница Проклятого"
 
 #: 63235
 msgid "UnderSigil"
@@ -13160,7 +13239,7 @@ msgstr ""
 
 #: 64136
 msgid "YOU CANNOT DIE. "
-msgstr ""
+msgstr "ТЫ НЕ МОЖЕШЬ УМЕРЕТЬ."
 
 #: 64143
 msgid ""
@@ -13475,7 +13554,7 @@ msgstr ""
 
 #: 65017
 msgid "Carceri"
-msgstr ""
+msgstr "Карцери"
 
 #: 65018
 msgid "Curst Returns"
@@ -13580,7 +13659,7 @@ msgstr ""
 
 #: 66379
 msgid "\"Poor Sandoz...\""
-msgstr ""
+msgstr "\"Бедный Сандоз...\""
 
 #: 66387
 msgid "Entrance to the Great Foundry"
@@ -13627,7 +13706,7 @@ msgstr ""
 
 #: 66821
 msgid "To the Buried Village."
-msgstr ""
+msgstr "В Похороненную деревню."
 
 #: 66823
 msgid ""
@@ -13639,7 +13718,7 @@ msgstr ""
 
 #: 66824
 msgid "Fall into darkness..."
-msgstr ""
+msgstr "Упасть в темноту..."
 
 #: 66825
 msgid ""
@@ -13754,19 +13833,19 @@ msgstr ""
 
 #: 67204
 msgid "AC vs. Slashing"
-msgstr "КБ против Рубящего"
+msgstr "КБ против рубящего"
 
 #: 67205
 msgid "AC vs. Piercing"
-msgstr "КБ против Колющего"
+msgstr "КБ против колющего"
 
 #: 67206
 msgid "AC vs. Crushing"
-msgstr "КБ против Крушащего"
+msgstr "КБ против дробящего"
 
 #: 67207
 msgid "AC vs. Missile"
-msgstr "КБ против Снарядов"
+msgstr "КБ против снарядов"
 
 #: 67208
 msgid "Resistances"
@@ -13832,7 +13911,7 @@ msgstr ""
 
 #: 67593
 msgid "\"PLEASE DO NOT ATTACK THE HEAD!\""
-msgstr ""
+msgstr "\"ПОЖАЛУЙСТА, НЕ БЕЙ В ГОЛОВУ!\""
 
 #: 67733
 msgid ""
@@ -13871,7 +13950,7 @@ msgstr ""
 
 #: 67900
 msgid "The Barracks"
-msgstr ""
+msgstr "Бараки"
 
 #: 67901
 msgid "The Distiller"
@@ -13879,11 +13958,11 @@ msgstr ""
 
 #: 67902
 msgid "Curst Administration "
-msgstr ""
+msgstr "Администрация Проклятого"
 
 #: 67903
 msgid "The Gate to Carceri "
-msgstr ""
+msgstr "Врата в Карцери"
 
 #: 67904
 msgid "The Blacksmith "
@@ -13947,7 +14026,7 @@ msgstr ""
 
 #: 68048
 msgid "Get the key."
-msgstr ""
+msgstr "Достать ключ."
 
 #: 68049
 msgid "All I need to do gain the key to the dreambuilder is ask Xander for it."
@@ -13959,7 +14038,7 @@ msgstr ""
 
 #: 68052
 msgid "Your inventory is full."
-msgstr ""
+msgstr "Твой инвентарь полон."
 
 #: 68137
 msgid "I have found the elusive hag, Ravel Puzzlewell."
@@ -13978,19 +14057,19 @@ msgstr ""
 
 #: 68160
 msgid "Outer Ring."
-msgstr ""
+msgstr "Внешнее кольцо."
 
 #: 68161
 msgid "Middle Ring."
-msgstr ""
+msgstr "Среднее кольцо."
 
 #: 68162
 msgid "Inner Ring."
-msgstr ""
+msgstr "Внутреннее кольцо."
 
 #: 68163
 msgid "Sanctum."
-msgstr ""
+msgstr "Святилище."
 
 #: 68164
 msgid "Trias' Dais."
@@ -14060,7 +14139,7 @@ msgstr "Воровство успешно [Annah]"
 
 #: 68468
 msgid "Your inventory is full.  Some items could not be bought."
-msgstr ""
+msgstr "Твой инвентарь полон. Некоторые предметы не были куплены."
 
 #: 68483
 msgid "\"WE YIELD TO YOU, BIPED.  WE YIELD.  WE SHALL TROUBLE YOU NO MORE.\""
