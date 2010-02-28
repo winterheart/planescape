@@ -1,31 +1,35 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dsguard3.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:26+0600\n"
+"PO-Revision-Date: 2010-03-01 03:15+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 37953
 msgid "You see a Harmonium guard. He watches you approach with a bored look."
 msgstr ""
+"Ты видишь стражника Гармониума. При твоем приближении он смотрит на тебя "
+"скучающим видом."
 
 #: 37954
 msgid "He nods to you. \"And to you as well, citizen.\""
-msgstr ""
+msgstr "Он кивает тебе. \"И тебе тоже, гражданин.\""
 
 #: 37955
 msgid ""
 "\"I am new to the Harmonium and to this ward, citizen. I can not help you "
 "with your questions.\" He gives you an apologetic smile."
 msgstr ""
+"\"Я новенький в Гармониуме и в этом районе, гражданин. Я не смогу ответить "
+"на твои вопросы. Он извиняющеся улыбается."
 
 #: 37956
 msgid ""
@@ -33,18 +37,25 @@ msgid ""
 "been sentenced to a few years of indentured servitude and are being sold.\" "
 "He pauses. \"That is all I can say, citizen.\""
 msgstr ""
+"Он кивает. \"Эти люди были признаны виновными в небольших преступлениях. Их "
+"приговорили к нескольким годам каторжных работ и продаже.\" Он делает паузу. "
+"\"Это все, что я могу сказать, гражданин.\""
 
 #: 37957
 msgid ""
 "He shakes his head. \"I must be vigilant in my duty, citizen. I must ask you "
 "to move on now.\""
 msgstr ""
+"Он качает головой. \"Я должен быть бдительным при исполнении обязанностей, "
+"гражданин. Я вынужден попросить тебя уйти.\""
 
 #: 37958
 msgid ""
 "You see a Harmonium guard. He nods at your approach. \"Hello again, citizen. "
 "May I help you?\""
 msgstr ""
+"Ты видишь стражника Гармониума. При твоем приближении он кивает. "
+"\"Здравствуй снова, гражданин. Чем я могу помочь?\""
 
 #: 37960
 msgid "\"Never mind. Farewell.\""
@@ -68,17 +79,17 @@ msgstr "\"Прощай.\""
 
 #: 37965
 msgid "\"Can you at least tell me what's going on here?\""
-msgstr ""
+msgstr "\"Можешь тогда сказать, что здесь происходит?\""
 
 #: 37966 37969
 msgid "\"Fine, farewell.\""
 msgstr "\"Отлично, прощай.\""
 
 #: 37967
-#, fuzzy
 msgid "\"I see. Can I ask you something else?\""
-msgstr "\"Понятно. Могу ли я задать пару вопросов?\""
+msgstr "\"Понятно. Могу ли я спросить о чем-нибудь еще?\""
 
 #: 37968
 msgid "\"Thank you. Farewell.\""
 msgstr "\"Спасибо. Прощай.\""
+

@@ -1,23 +1,25 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dsguard4.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:26+0600\n"
+"PO-Revision-Date: 2010-03-01 03:19+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 61227
 msgid ""
 "You see a Harmonium guard. He seems to be watching his surroundings "
 "carefully."
 msgstr ""
+"Ты видишь стражника Гармониума. Похоже, он внимательно осматривает "
+"обстановку вокруг себя."
 
 #: 61228
 msgid "\"Greetings.\""
@@ -32,6 +34,8 @@ msgid ""
 "He glances at you then looks away. He shows no other reaction to your "
 "presence."
 msgstr ""
+"Он бросает на тебя быстрый взгляд, а затем отводит глаза. Больше никакой "
+"реакции на твое присутствие он не проявляет."
 
 #: 61231 61239
 msgid "\"I have some questions...\""
@@ -45,11 +49,12 @@ msgstr "\"Прощай.\""
 msgid ""
 "He shakes his head and waves you away. \"No.\" He seems to be ignoring you."
 msgstr ""
+"Он качает головой и отмахивается от тебя. \"Нет.\" Похоже, он игнорирует "
+"тебя."
 
 #: 61234
-#, fuzzy
 msgid "\"It will only take a moment of your time.\""
-msgstr "\"Спасибо за уделенное время. Прощай.\""
+msgstr "\"Это не займет много твоего времени.\""
 
 #: 61235 61237
 msgid "\"Fine. Farewell.\""
@@ -60,9 +65,14 @@ msgid ""
 "He shakes his head and waves you away. \"No.\" He still seems to be ignoring "
 "you."
 msgstr ""
+"Он качает головой и отмахивается от тебя. \"Нет.\" Похоже, он по-прежнему "
+"игнорирует тебя."
 
 #: 61238
 msgid ""
 "You see a harmonium guard. He does not react to your presence although you "
 "are certain he knows you are there."
 msgstr ""
+"Ты видишь стражника Гармониума. Он не реагирует на тебя, хотя ты определенно "
+"уверен, что он знает о твоем присутствии."
+
