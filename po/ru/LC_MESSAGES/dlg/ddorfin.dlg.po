@@ -1,23 +1,25 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddorfin.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:53+0600\n"
+"PO-Revision-Date: 2010-04-25 21:48+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 57994
 msgid ""
 "You see a muscular young man wearing dirty work clothes. He seems to be "
 "checking the contents of several crates and comparing them with a list."
 msgstr ""
+"Ты видишь мускулистого молодого мужчину, одетого в грязную рабочую одежду. "
+"Похоже, он проверят содержимое ящиков, сверяя их со списком."
 
 #: 57996
 msgid "\"Greetings.\""
@@ -31,19 +33,20 @@ msgstr "Не обращать внимания на мужчину."
 msgid ""
 "He pauses for a moment before turning to face you. \"Yes? May I help you?\""
 msgstr ""
+"Он на секунду задерживается перед тем, как повернуться к тебе. \"Да? Чем я "
+"могу помочь?\""
 
 #: 58001 58021 58062
 msgid "\"I have some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 58007
-#, fuzzy
 msgid "\"No, not really. Farewell.\""
-msgstr "\"На самом деле - ничего. Прощай.\""
+msgstr "\"Нет, ничего. Прощай.\"ощай.\""
 
 #: 58009
 msgid "He glances about quickly. \"All right...\""
-msgstr ""
+msgstr "Он рассеянно смотрит вокруг. \"Хорошо...\""
 
 #: 58010
 msgid "\"Who are you?\""
@@ -58,65 +61,76 @@ msgid "\"What can you tell me about this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 58016
-#, fuzzy
 msgid "\"I'm looking for a deva. I've been told he's in Curst.\""
-msgstr "\"Я ищу дневник.\""
+msgstr "\"Я ищу одного дэва. Мне сказали, что он в Проклятом.\""
 
 #: 58017 58022 58029 58034 58040 58044 58048 58054 58058
 msgid "\"I must be going, farewell.\""
 msgstr "\"Я должен идти. Прощай.\""
 
+# Dorfin - фирма, специализирующаяся по доставке и упаковке товаров. Символично, что этот молодой человек занимается тем же.
 #: 58019
 msgid ""
 "\"I'm Dorfin, cutter. I'm one of the warehousemen here.\" He gives you a "
 "friendly smile."
 msgstr ""
+"\"Я - Дорфин, я один из здешних кладовщиков.\" Он озаряет тебя дружелюбной "
+"улыбкой."
 
 #: 58024
 msgid ""
 "\"Inventory.\" He frowns. \"For the third time this month, I might add.\""
 msgstr ""
+"\"Составляю опись.\" Он хмурится. \"Уже третий раз за месяц, должен сказать."
+"\""
 
 #: 58025
 msgid "\"Is that unusual?\""
-msgstr ""
+msgstr "\"Это что-то особенное?\""
 
 #: 58027 58033 58038 58043 58046 58052
-#, fuzzy
 msgid "\"I see. I have some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня есть еще вопросы...\""
 
 #: 58030
 msgid ""
 "He sighs. \"No, the boss is a slave driver. He works us hard and rarely "
 "let's up on us.\" He shrugs. \"It's a living.\""
 msgstr ""
+"Он вздыхает. \"Нет, босс сущий погонщик рабов. Он заставляет нас вкалывать "
+"на работе и редко нас отпускает.\" Он вздыхает. \"Такова жизнь.\""
 
 #: 58031
 msgid "\"If he's such a slave driver, why do you work for him?\""
-msgstr ""
+msgstr "\"Если он такой погонщик, почему же ты на него работаешь?\""
 
 #: 58035
 msgid ""
 "He leans in close to whisper to you. \"We're allowed one day a week off... "
 "with pay no less. We don't complain because of that.\""
 msgstr ""
+"Он наклоняется к тебе и шепчет. \"У нас есть один выходной день в неделю... "
+"полностью оплачиваемый. Поэтому мы не жалуемся.\""
 
 #: 58037
 msgid "\"Interesting. Why does he do that?\""
-msgstr ""
+msgstr "\"Интересно. Почему он это делает?\""
 
 #: 58042
 msgid ""
 "He shrugs. \"I have no idea and I don't really care. It's a break from the "
 "grind.\""
 msgstr ""
+"Он пожимает плечами. \"Не знаю, да мне все равно. Это все равно, что "
+"передышка от тяжелой работы.\""
 
 #: 58045
 msgid ""
 "He gives you a confused look then shrugs. \"It's just a warehouse. We store "
 "the usual stuff. You know, tools, weapons, foodstuff, whatever...\""
 msgstr ""
+"Он смущенно смотрит на тебя, пожимая плечами. \"Это просто склад. Мы храним "
+"обычные товары. Ну знаешь, инструменты, оружие, еду, все что угодно...\""
 
 #: 58049
 msgid ""
@@ -124,9 +138,11 @@ msgid ""
 "would a deva come here?\" He pauses for a moment then barks out a laugh. "
 "\"Ha! Unless it was to rain *holy justice* down upon us.\""
 msgstr ""
+"\"Правда?\" Он удивлен. \"Даже представить себе этого не могу... То есть, "
+"что дэва мог забыть здесь?\" Спустя секунду он разряжается громким смехом. "
+"\"Ха! Если только, он не собирается обрушить на нас *святое правосудие*.\""
 
 #: 58051
-#, fuzzy
 msgid "'What do you mean?\""
 msgstr "\"О чем это ты?\""
 
@@ -137,6 +153,10 @@ msgid ""
 "here unless, of course, he or she was sent by some power. That would only be "
 "done in the name of some sort of *higher* justice.\""
 msgstr ""
+"\"Граждане Проклятого не славятся добротой и благородством. Дэва слишком "
+"хорош для этого места. Нет никаких явных причин для того, что он оказался "
+"здесь. За исключением, конечно, если его или ее не прислала какая-нибудь "
+"сила. А это случается только во имя какой-нибудь *высшей* справедливости.\""
 
 #: 58057
 msgid "\"I see. I have some other questions...\""
@@ -146,7 +166,10 @@ msgstr "\"Понятно. У меня были еще вопросы...\""
 msgid ""
 "You see Dorfin, the warehouseman. He nods at you. \"Hello again, cutter.\""
 msgstr ""
+"Ты видишь Дорфина, служащего склада. Он кивает тебе. \"Привет, рубака.\""
 
 #: 58064
 msgid "\"Never mind. Farewell.\""
 msgstr "\"Неважно. Прощай.\""
+
+
