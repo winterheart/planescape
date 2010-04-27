@@ -1,44 +1,39 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dscpat1.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:17+0600\n"
+"PO-Revision-Date: 2010-04-28 02:35+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 10782
-#, fuzzy
 msgid "\"I'm looking for a journal. Have you seen one?\""
 msgstr "\"Я ищу дневник. Тебе такой не попадался?\""
 
 #: 10783
-#, fuzzy
 msgid ""
 "I'm looking for a Collector by the name of Pharod. Do you know anything "
 "about him?\""
-msgstr ""
-"\"Я ищу Сборщика по имени Фарод. Ты видела его или, может быть, слышала о "
-"нем?\""
+msgstr "\"Я ищу Сборщика по имени Фарод. Ты знаешь что-нибудь о нем?\""
 
 #: 10784 10790 10809
 msgid "\"What can you tell me about this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 10785 10791 10810
-#, fuzzy
 msgid "\"Who is that burning by the entryway?\""
-msgstr "\"А все-таки, кто этот труп?\""
+msgstr "\"Кто это горит у входа?\""
 
 #: 10786
 msgid "\"Obviously, you can't help me. Good day.\""
-msgstr ""
+msgstr "\"Очевидно, ты не можешь мне помочь. Хорошего дня.\""
 
 #: 10787
 msgid ""
@@ -46,6 +41,10 @@ msgid ""
 "least makes a valiant attempt. In his inebriated condition, he has trouble "
 "doing anything quietly. \"What can ol' Slappy do for you, scarman?\""
 msgstr ""
+"\"Уж не это мой приятель Шрам!\" Он давит в себе смех или, по крайней мере, "
+"геройски пытается это сделать. Будучи пьяным, сделать это тихо очень "
+"затруднительно. \"Што старый Шлепок может сделать для тебя, человек со "
+"шрамом?\""
 
 #: 10788 10806 3372
 msgid "\"Who are you?\""
@@ -53,10 +52,9 @@ msgstr "\"Кто ты?\""
 
 #: 10789
 msgid "\"I'm looking for a journal. I seem to have misplaced it.\""
-msgstr ""
+msgstr "\"Я ищу дневник. Кажется, я его где-то забыл.\""
 
 #: 10792 10811
-#, fuzzy
 msgid "\"Nothing. Good day.\""
 msgstr "\"Ничего. Хорошего дня.\""
 
@@ -67,14 +65,18 @@ msgid ""
 "cuz I was so good at doin' it to people, but now they call me Slappy cuz so "
 "many women do it t'me when I talk to'm.\""
 msgstr ""
+"\"Я? Я АНДОР!\" Он слабо покачивается, стоя на ногах. \"Раньше был бойцом, и "
+"но это было до запоя. Дружки меня звали Шлепком, патамушта я хорошо бил "
+"людей! Но теперь меня так зовут, потому что почти все телки шлепают меня, "
+"когда я с ними болтаю.\""
 
 #: 10794
 msgid "\"That's great. Can you answer some questions for me?\""
-msgstr ""
+msgstr "\"Отлично. Можешь ответить на пару моих вопросов?\""
 
 #: 10795
 msgid "\"That's great... umm... Andor. Farewell.\""
-msgstr ""
+msgstr "\"Отлично... эээ... Андор. Прощай.\""
 
 #: 10796
 msgid ""
@@ -82,10 +84,13 @@ msgid ""
 "some Collector somewhere has it. Check out in the Hive s'more. They find all "
 "sorts of stuff out there. Maybe they can help you.\""
 msgstr ""
+"Он задумывается на секунду. \"Ну, если ты што-то потерял в Уле, скорее "
+"какой-то Сборщик его где-то подобрал. Попробуй поищи в Уле дальше. Они всяко "
+"найдут. Может, помогут тебе.\""
 
 #: 10797
 msgid "\"All right. I require a few more answers, please.\""
-msgstr ""
+msgstr "\"Отлично. Мне нужно задать еще несколько вопросов.\""
 
 #: 10798
 msgid "\"Thank you. Farewell.\""
@@ -98,12 +103,16 @@ msgid ""
 "Red Death pokin' their heads in on occasion. Lots of people here. Lots of "
 "interesting things. Lots.\""
 msgstr ""
+"\"Этом? Тлеющий Труп. Лучшее место в городе по части выпивки. Только если "
+"пока ты не против выпить с демоном под боком, или двумя. И если не против "
+"тех из Красной смерти. Куча людей здесь. Много интересных вещей. Много.\""
 
 #: 10800
 msgid ""
 "\"I assume you're one of the attractions, then. Answer some more questions "
 "for me.\""
 msgstr ""
+"\"И наверное, ты один из здешних аттракционов. Ответь еще на мои вопросы.\""
 
 #: 10801
 msgid "\"I see. Farewell.\""
@@ -117,33 +126,33 @@ msgid ""
 "tavern theme thing... umm... mascot. My cousin was one o' the wizards. No "
 "great shakes as a mage, but he sure got this berk!\""
 msgstr ""
+"\"Этот? Это Игнус. Старый съехавший маг, который решил пожечь весь Сигил. "
+"Видал Аллею с Опасными закоулками? Его работа. Куча волшебников собралась "
+"вместе и сделала особую магию для него, и вот теперь он тут, в таверне в "
+"виде... ммм... талисмана. Мой двоюрный брат был одним из тех волшебников. Не "
+"такая уж большая заслуга, но он сцапал этого пня!\""
 
 #: 10803
 msgid "\"That's great, Slappy. Answer some other questions for me.\""
-msgstr ""
+msgstr "\"Отлично, Шлепок. Можешь ответить на пару моих вопросов?\""
 
 #: 10804
-#, fuzzy
 msgid "\"Thanks, Slappy. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай.\""
+msgstr "\"Спасибо, Шлепок. Прощай.\""
 
 #: 10805
 msgid "\"Whaddya need to know?\""
-msgstr ""
+msgstr "\"Чего тебе еще надо?\""
 
 #: 10807
-#, fuzzy
 msgid "\"I'm looking for a journal. Have you seen one recently?\""
-msgstr "\"Я ищу дневник. Тебе такой не попадался?\""
+msgstr "\"Я ищу дневник. Тебе такой не попадался недавно?\""
 
 #: 10808
-#, fuzzy
 msgid ""
 "\"I'm looking for a Collector by the name of Pharod. Do you know anything "
 "about him?\""
-msgstr ""
-"\"Я ищу Сборщика по имени Фарод. Ты видела его или, может быть, слышала о "
-"нем?\""
+msgstr "\"Я ищу Сборщика по имени Фарод. Ты знаешь что-нибудь о нем?\""
 
 #: 10812
 msgid ""
@@ -151,11 +160,12 @@ msgid ""
 "done pickled your head wi' bub, I'm sure. I just can't remember. You got my "
 "apologies, scar.\""
 msgstr ""
+"\"Фарод? Звучит знакомо, но... знаешь, как это, когда ты залит выпивкой под "
+"самую макушку. Не могу вспомнить. Уж извиняй, шрам.\""
 
 #: 10813
-#, fuzzy
 msgid "\"Very well. Then answer some other questions for me, will you?\""
-msgstr "\"Хорошо. Ответь тогда на несколько вопросов.\""
+msgstr "\"Очень хорошо. Ты можешь ответить на другие вопросы?\""
 
 #: 10814
 msgid "\"Very well. Good day.\""
@@ -168,3 +178,9 @@ msgid ""
 "like you could use a HEALER!\" He laughs loudly at his own poor humor, and "
 "the nauseating stench of liquor and poorly-chewed food washes over you."
 msgstr ""
+"Ты видишь неряшливого, плохо причесанного мужчину. От него сильно несет "
+"алкоголем. \"Да? Чего тебе?\" Он придвигает ближе и осматривает тебя сверху "
+"до низу. \"Похоже, тебе нужен ЛЕКАРЬ!\" Он громко хохочет над своей "
+"несмешной шуткой, обдавая тебя тошнотворной смесью запахов дешевого пойла и "
+"плохо пережеванной пищи."
+
