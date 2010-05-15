@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dcollech.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:18+0500\n"
+"PO-Revision-Date: 2010-05-16 00:52+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -18,6 +18,7 @@ msgid ""
 "This man is draped in filthy, tattered brown robes, a long hood concealing "
 "most of his face from view."
 msgstr ""
+"Этот мужчина одет в грязную, рваную робу. Его лицо скрыто длинным капюшоном."
 
 #: 25493
 msgid "\"Greetings...\""
@@ -28,6 +29,7 @@ msgid ""
 "You see his eyes narrow beneath his hood, and he takes a step back. \"What "
 "do ye want?\""
 msgstr ""
+"Его глаза, скрытые капюшоном, сужаются, он делает шаг назад. \"Чего надо?\""
 
 #: 25495 25598
 msgid "\"What are you doing?\""
@@ -41,17 +43,22 @@ msgid ""
 "\"We had a pox last month, an' it was a glorious time, it was... bodies "
 "stinkin' ta the high heavens, an' plenty of jink ta be had, too.\""
 msgstr ""
+"\"Пытаюсь найти чертовы тела, только похоже Силы Смерти сложили свои манатки "
+"и свалили с Планов, оставив людей, полных сил.\" Глаза неожиданно сверкают. "
+"\"А вот в прошлый месяц была чума, славное было время... слава небесам за "
+"воняющие тела, и кучу звенелок за них.\""
 
 #: 25497
-#, fuzzy
 msgid "\"Why are you looking for bodies?\""
-msgstr "\"О чем ты говоришь?\""
+msgstr "\"Для чего ты ищешь тела?\""
 
 #: 25498
 msgid ""
 "He looks surprised. \"Well, y'haul the blighters ta the Mortuary. There, ya "
 "talk ta the Dusties, haggle a little, an' get a few bits of jink.\""
 msgstr ""
+"Он удивлен. \"Ну тащишь этих неудачников в Морг. Там болтаешь с Мертвяками, "
+"торгуешься немного, а потом получаешь немного звенелок.\""
 
 #: 25499
 msgid "\"Why do the Dustmen buy the bodies?\""
@@ -64,6 +71,11 @@ msgid ""
 "body goes ta its proper place or gets cremated. They're all serious about "
 "it, their barmy philosophy, but it just means more jink for me.\" He winks."
 msgstr ""
+"\"Они собирают мертвых... это их работа. Они платят нам за то, что мы "
+"очищаем улицы от тел и привозим им их. Потом они следят за тем, чтобы тело "
+"неудачника было похоронено или сожжено. Для них это все серьезно, это все их "
+"тупая философия, но для меня это значит, что для меня найдется немного "
+"звенелок.\" Он подмигивает."
 
 #: 25501 25587 25590 25593 25599
 msgid "\"What is this place?\""
@@ -74,22 +86,24 @@ msgid ""
 "He frowns at you. \"Yer in the Hive, a' course. Dirtiest bit in all a' "
 "Sigil. Where ye from, cutter? Ye from the Prime, or somethin'?\""
 msgstr ""
+"Он хмурится. \"Ты в Улье, конечно же. Самое завалящее место во всем Сигиле. "
+"Откуда ты, рубака? С Первичного или еще откуда?\""
 
 #: 25503
-#, fuzzy
 msgid "\"No. Why are you looking for bodies?\""
-msgstr "\"О чем ты говоришь?\""
+msgstr "\"Нет. Для чего ты ищешь тела?\""
 
 #: 25504
-#, fuzzy
 msgid "\"No. I had some questions...\""
-msgstr "\"Нет, у меня есть некоторые вопросы...\""
+msgstr "\"Нет. У меня есть вопросы...\""
 
 #: 25505
 msgid ""
 "He raises an eyebrow. \"I've some for ye, then, like what did ye want ta "
 "know, an' how badly did ye want ta know it?\""
 msgstr ""
+"Он вскидывает бровь. \"Тогда я почти весь внимание, хочешь ли знать или "
+"хочешь знать плохо?\""
 
 #: 25506
 msgid "\"What do you mean?\""
@@ -100,16 +114,20 @@ msgid ""
 "\"Look around ye, cutter... I don't make enough jink ta go lightin' up the "
 "dark for nothin'. It'll take a bit a' coin, it will, if ya wants the chant.\""
 msgstr ""
+"\"Подумай, рубака... С того, что я просвещу тебя, я не получу звенелок. "
+"Хочешь поболтать - дай немного монет.\""
 
 #: 25508 25570
 msgid "Hand him a couple coins."
-msgstr ""
+msgstr "Дать ему пару монет."
 
 #: 25509
 msgid ""
 "He scoffs. \"Even Dusties'd pay more that that, cutter. Ye must not need ta "
 "know much a' anythin'.\""
 msgstr ""
+"Он фыркает. \"Даже Мертвяки платят больше, рубака. Должно быть, ты и знать "
+"ничего не хочешь.\""
 
 #: 25510 25571 25575
 msgid "Throw him five coppers."
@@ -120,6 +138,8 @@ msgid ""
 "He studies the coins for a moment as they lay in his hands. \"Eh.\" He "
 "pockets then swiftly. \"Ask.\""
 msgstr ""
+"Он изучает монеты, лежащие у него в руке. \"Эх.\" Он прячет их в карман. "
+"\"Спрашивай.\""
 
 #: 25512 25523 25526 25530 25539 25544 25549 25562 25579
 msgid "\"Tell me about Collectors.\""
@@ -132,6 +152,10 @@ msgid ""
 "earn a livin', but it's a start. Is that all ye wanted ta know, cutter?\" He "
 "looks at you oddly."
 msgstr ""
+"\"Я... мы... тратим свою жизнь, убирая трупы с улиц Сигила и оттаскивая их "
+"жирные тушки в Морг. Не самый лучший способ сводить концы с концами, но "
+"только поначалу. Это то, что ты хотел узнать, рубака?\" Он странно на тебя "
+"смотрит."
 
 #: 25514 25531 25556 25563 25580
 msgid "\"I'm looking for a man named Pharod.\""
@@ -139,11 +163,11 @@ msgstr "\"Я разыскиваю мужчину по имени Фарод.\""
 
 #: 25515
 msgid "He narrows his eyes suddenly. \"Pharod... what about 'im?\""
-msgstr ""
+msgstr "Неожиданно он сужает глаза. \"Фарод... а что с ним?\""
 
 #: 25516
 msgid "\"You seem suddenly wary... why?\""
-msgstr ""
+msgstr "\"Ты как-то насторожился... почему?\""
 
 #: 25517
 msgid ""
@@ -154,6 +178,11 @@ msgid ""
 "'round the Square. Usually we turn 'em inta a quick spot a' jink at the "
 "Mortuary, the pikin' sods.\""
 msgstr ""
+"\"Фарод, ха!\" Он сплевывает, презрительно усмехнувшись. \"Понимаешь, "
+"площадь Старьевщиков - это территория Могильника, моего босса. Фарод и его "
+"псы пытались нас оттуда выгнать. Мы их победили, и теперь они где-то "
+"прячутся. Иногда мы ловим у площади одного из его дружков. Обычно мы "
+"превращаем бедолагу в быстрый способ получить звенелки в Морге.\""
 
 #: 25518
 msgid "\"Tell me about Sharegrave.\""
@@ -165,6 +194,9 @@ msgid ""
 "I'd stay away from him unless ye gots *right* good cause ta talk ta the "
 "man... I've never spoken with him personally, meself.\""
 msgstr ""
+"\"Он мой босс... покрывает тенью все делишки Сборщиков. Я бы на твоем месте "
+"держался бы подальше от него, если ты в *самом деле* не захочешь поговорить "
+"с ним... Я сам его даже никогда не видел.\""
 
 #: 25520 25543
 msgid "\"Do you know where Pharod is?\""
@@ -176,28 +208,28 @@ msgid ""
 "Collectors call kip, in Ragpicker's Square, but that he's close by there "
 "somewhere's the chant.\""
 msgstr ""
+"\"Я знаю, где этой крысы нет... его нет там, где обретаются все Сборщики - "
+"на площади Старьевщиков, но говорят, что он где-то очень рядом.\""
 
 #: 25522
 msgid "\"Do all Collectors share your opinion of Pharod?\""
-msgstr ""
+msgstr "\"А другие Сборщики так же думают о Фароде?\""
 
 #: 25524 25540 25545 25550
 msgid "\"I'm also looking for a journal I've lost.\""
 msgstr "\"Также я ищу потерянный дневник.\""
 
 #: 25525
-#, fuzzy
 msgid "He just shakes his head, puzzled."
-msgstr "Он качает головой. \"Похоронено.\" "
+msgstr "Он недоуменно качает головой."
 
 #: 25527
 msgid "\"I'm also looking for a man named Pharod.\""
 msgstr "\"Еще я разыскиваю мужчину по имени Фарод.\""
 
 #: 25528 25537 25541 25546 25551 25554 25558 25565 25582
-#, fuzzy
 msgid "\"What do you know of Mebbeth?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Ты знаешь что-нибудь о Меббет?\""
 
 #: 25529
 msgid ""
@@ -205,6 +237,8 @@ msgid ""
 "such. She lives in a hut up along the platforms in Ragpicker's Square, if ye "
 "need ta see her.\""
 msgstr ""
+"\"Повивальная бабка? Уважаемая женщина, помогает больным. Если ищешь ее, то "
+"она живет в лачуге на площади Старьевщиков.\""
 
 #: 25532 25553 25557 25564 25581
 msgid "\"I'm looking for a journal I've lost.\""
@@ -219,6 +253,8 @@ msgid ""
 "\"Well, keep yerself safe, cutter. If I find ye on the streets, I'll be kind "
 "ta yer corpse.\""
 msgstr ""
+"\"Береги себя, рубака. Если я найди тебя на улицах, я буду обходителен с "
+"твоим телом.\""
 
 #: 25535
 msgid "Leave."
@@ -229,9 +265,8 @@ msgid "\"Farewell, then.\""
 msgstr "\"Тогда прощай.\" "
 
 #: 25548
-#, fuzzy
 msgid "\"Do you know where he is?\""
-msgstr "\"Ты знаешь, где она находится?\""
+msgstr "\"Ты знаешь, где он находится?\""
 
 #: 25559 25566 25583
 msgid "\"Never mind. Farewell.\""
@@ -239,35 +274,35 @@ msgstr "\"Неважно. Прощай.\""
 
 #: 25560 25572 25576
 msgid "Dump ten coppers into his palms."
-msgstr ""
+msgstr "Бросить десять медяков в его ладонь."
 
 #: 25561
 msgid "\"Ask yer questions. I can't says I can help, but I might.\""
 msgstr ""
+"\"Задавай свои вопросы. Не скажу, что все знаю, но попробую ответить.\""
 
 #: 25567 25577
-#, fuzzy
 msgid "\"You'll get nothing, and you'll answer my questions.\""
-msgstr "\"Забудь об этом. Вместо этого ответь на несколько вопросов.\""
+msgstr "\"Ты ничего не получишь, но ответишь на мои вопросы.\""
 
 #: 25568
 msgid ""
 "\"I don't know nothin', basher, an' I suggest ye look for answers somewhere "
 "else.\""
 msgstr ""
+"\"Я ничего не знаю, резака, и советую поискать ответы где-нибудь еще.\""
 
 #: 25569
 msgid "Grab him, shake him up a bit."
-msgstr ""
+msgstr "Схватить и встряхнуть его."
 
 #: 25573 25574 25578
 msgid "\"Never mind, then. Farewell.\""
 msgstr "\"Тогда неважно. Прощай.\""
 
 #: 25584
-#, fuzzy
 msgid "\"No. That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Нет. Это все, что я хотел узнать. Прощай.\""
 
 #: 25585 25588 25591 25594 25600
 msgid "\"I had some questions...\""
@@ -286,4 +321,7 @@ msgid ""
 "The man takes a step back, peering suspiciously at you from beneath his "
 "hood. \"Again, eh? What do ye want?\""
 msgstr ""
+"Мужчина отступает назад, подозрительно оглядывая тебя из глубины своего "
+"капюшона. \"Опять? Чего тебе надо?\""
+
 
