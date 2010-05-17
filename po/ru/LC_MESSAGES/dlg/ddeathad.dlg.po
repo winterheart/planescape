@@ -1,23 +1,25 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddeathad.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:39+0600\n"
+"PO-Revision-Date: 2010-05-18 01:00+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 2945
 msgid ""
 "\"Sigilians, welcome! Please, take your seats, and listen to the 'darks' of "
 "which I speak!\""
 msgstr ""
+"\"Здравствуйте, сигильцы! Занимайте свои места и послушайте о 'тайнах', о "
+"которых я буду говорить!\""
 
 #: 2946
 msgid "Listen."
@@ -25,9 +27,8 @@ msgstr "Слушать."
 
 #: 32106 32112 32114 32118 32121 32124 32127 32130 32133 32136 32139 32142
 #: 32147 32339 32341 32343
-#, fuzzy
 msgid "Stop listening, leave."
-msgstr "Снова кивнуть, уйти."
+msgstr "Прекратить слушать, уйти."
 
 #: 32107
 msgid ""
@@ -36,15 +37,17 @@ msgid ""
 "dramatically, waving his hands at the same time: \"Death is *not* an end! "
 "But a beginning!\""
 msgstr ""
+"Он начинает речь унылым тоном: \"Смерть. Вот что ждет вас в конце жизненного "
+"пути.\" Он слегка прокашливается, театрально вскинув брови и взмахнув руками."
+" \"Но смерть - это *не* конец! Это только начало!\""
 
 #: 32108 32111 32115 32117 32120 32123 32126 32129 32132 32135 32138 32141
 msgid "Keep listening."
 msgstr "Продолжать слушать."
 
 #: 32109
-#, fuzzy
 msgid "Leave the lecture hall."
-msgstr "Оставить фигуру в покое."
+msgstr "Покинуть лекционный зал."
 
 #: 32110
 msgid ""
@@ -52,6 +55,9 @@ msgid ""
 "Planes shall welcome you to their breasts! There, a new life... one such as "
 "you have *never* known, awaits you there!\""
 msgstr ""
+"\"Когда вы умрете, вы не перестанете существовать, нет! Это далеко не так! "
+"Внешние планы будут рады принять вас в свое лоно! Новая жизнь... которую вы "
+"*никогда* не знали, ждет вас там!\""
 
 #: 32113
 msgid ""
@@ -59,6 +65,9 @@ msgid ""
 "faithful, a petitioner! As a *petitioner* on this Outer Plane, your life's "
 "journey shall *truly* begin!\""
 msgstr ""
+"\"Сбросьте с себя рваные лохмотья этой жизни и станьте одними из верующих - "
+"просителями! Став *просителем* на Внешнем плане, вы заживете *истинной* "
+"жизнью!\""
 
 #: 32116
 msgid ""
@@ -68,6 +77,10 @@ msgid ""
 "this place, dwelling as a petitioner in the beauty of golden mornings, soft "
 "sunlight that caresses...\" He sighs dreamily."
 msgstr ""
+"\"Если вы были благочестивым человеком, непоколебимым в милосердии и доброй "
+"воле к своим ближним, то, возможно, белоснежные склоны Небесной горы примут "
+"вас после смерти. Ваш дух будет пребывать там в виде просителя в красотах "
+"золотых рассветов, ласкового солнечного света...\" Он мечтательно вздыхает."
 
 #: 32119
 msgid ""
@@ -78,6 +91,11 @@ msgid ""
 "shall live a life of treachery and treacheries, of lies and lying, knowing a "
 "life without trust.\""
 msgstr ""
+"\"Или же вы жили жизнью предателя, лжеца, изменника, готового на все ради "
+"своих интересов. Холодный, кроваво-красный Карцери, план, куда низвергаются "
+"все предатели после смерти, будет вам клеткой. Будучи просителем на этом "
+"плане, вы будете жить жизнью вероломства и предательства, лжи и обмана, "
+"жизнью, где ничему нельзя верить.\""
 
 #: 32122
 msgid ""
@@ -86,6 +104,9 @@ msgid ""
 "others low and doing as you pleased without a care for who or what you "
 "hurt...\""
 msgstr ""
+"Он склоняется вперед, меча взгляд из стороны в сторону. \"А *возможно* вы "
+"жили жизнью кровожадного злодея, презирающего близких, втаптывающего других "
+"ради своих утех, не взирая ни на что...\""
 
 #: 32125
 msgid ""
@@ -95,20 +116,31 @@ msgid ""
 "cruelty and suffering or servitude in the dreaded...\" He whispers "
 "dramatically \"...Blood War.\""
 msgstr ""
+"\"...тогда один из Нижних планов - Баатор, или хаотично кружащиеся слои "
+"Бездны примут вас! Злые в самом своем *сердце* попадут на этот план, но "
+"большинство будет обречено на безумную жестокость и муки или же на рабство в "
+"ужасной, - он театрально понижает голос, - Кровавой войне.\""
 
 #: 32128
 msgid ""
 "\"No matter where you go, know this: You shall be embarking on a *new* life. "
 "A new life, my Sigilians!\""
 msgstr ""
+"\"Не важно, куда вы попадете, важно только одно: вы начнете *новую* жизнь. "
+"Новую жизнь, дорогие сигильцы!\""
 
+# Игра слов - your soul goal (цель вашей души) и your sole goal (ваша единственная цель)
 #: 32131
+#, fuzzy
 msgid ""
 "\"You shall be able to start anew without the burden of memory or your past "
 "life. Your 'soul' goal, if you will...\" He smiles at his own humor. \"Is to "
 "*merge* with this new Plane that you are on, becoming *one* with the ideals "
 "and the very substance of the Plane itself!\""
 msgstr ""
+"\"Вы сможете начать заново, не мучаясь с памятью старой жизни. Главная цель "
+"вашей 'души', - он улыбается собственной шутке, - *слиться* с вашим новым "
+"Планом, став *одним* целым с идеалами и сущностью самого Плана!\""
 
 #: 32134
 msgid ""
@@ -118,6 +150,11 @@ msgid ""
 "hands together for emphasis: \"...MUST *clap!* HOLD *clap!* TO *clap!* YOUR "
 "* clap!* IDEALS!\""
 msgstr ""
+"\"Вы должны стать одним из жителей, просителем этого Плана или, в идеальном "
+"случае, одним из строительных блоков фундамента, на котором зиждиться сам "
+"План! В этом заключается цель *всех* просителей! Чтобы выполнить свою цель, "
+"вы, - он хлопает в ладони для ударения, - ДОЛЖНЫ - *хлопок* - ДЕРЖАТЬСЯ - "
+"*хлопок* - СВОИХ - *хлопок* - ИДЕАЛОВ!\""
 
 #: 32137
 msgid ""
@@ -126,6 +163,10 @@ msgid ""
 "part... of... the... plane... *itself!* 'Tis a glorious existence, my "
 "Sigilians!\""
 msgstr ""
+"\"Ваших идеалов! Добро или зло, порядок или хаос, а может быть что-то между "
+"ними! Попав на подходящий по мировоззрению План, вы завершите свой путь, "
+"став частью... самого... *плана*! Это почетное существование, дорогие "
+"сигильцы!\""
 
 #: 32140
 msgid ""
@@ -133,19 +174,20 @@ msgid ""
 "to how you live your life, but know that it is *not* oblivion that awaits "
 "you after this life!\""
 msgstr ""
+"\"Вот что ждет вас *после* 'смерти', дорогие слушатели! Живите своей жизнью, "
+"но знайте, что после нее вас ждет *не* забвение!\""
 
 #: 32143
 msgid "\"Now, I shall field any questions you may have for me. Anyone?\""
-msgstr ""
+msgstr "\"А теперь я отвечу на любые ваши вопросы. Кто-нибудь?\""
 
 #: 32144 32150
-#, fuzzy
 msgid "\"I had a question...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть вопрос...\""
 
 #: 32145 32151
 msgid "Wait silently."
-msgstr ""
+msgstr "Тихо ждать."
 
 #: 32146
 msgid ""
@@ -153,6 +195,9 @@ msgid ""
 "shall continue to lecture here at the Hall, and perhaps in years hence... I "
 "shall meet *you* as a petitioner beyond Death's Door!\""
 msgstr ""
+"\"Если вопросов нет, тогда завершим выступление... на этот раз. Я продолжу "
+"свои чтения в Зале, и, возможно, спустя несколько лет... я встречу *вас* в "
+"качестве просителя по ту сторону Смерти!\""
 
 #: 32148
 msgid ""
@@ -160,59 +205,63 @@ msgid ""
 "trying to see who spoke. \"A question? A question from one of the living, "
 "perhaps?\""
 msgstr ""
+"Немного нахмурившись, докладчик поворачивается в сторону Морта. Он "
+"вытягивает шею, пытаясь узнать, кто это сказал. \"Вопрос? Вопрос от одного "
+"из живущих?\""
 
 #: 32149
 msgid ""
 "He nods, as if he has put you in your place. \"Very well. Now, I shall field "
 "any questions you may have for me. Anyone?\""
 msgstr ""
+"Он кивает, словно ставя тебя на свое место. \"А теперь я отвечу на любые "
+"ваши вопросы. Кто-нибудь?\""
 
 #: 32152
 msgid "He indicates for you to continue."
-msgstr ""
+msgstr "Своим видом он просит тебя продолжать."
 
 #: 32153
 msgid "\"What determines which plane you go to when you die?\""
-msgstr ""
+msgstr "\"Как определить, на какой план ты попадешь после смерти?\""
 
 #: 32157
 msgid "\"What if someone can't die?\""
-msgstr ""
+msgstr "\"Что, если кто-то не может умереть?\""
 
 #: 32158
 msgid "\"Explain 'alignment' to me.\""
-msgstr ""
+msgstr "\"Объясни мне, что такое мировоззрение.\""
 
 #: 32159
 msgid "\"The Dustmen say that *this* life is where we end up when we die.\""
 msgstr ""
+"\"Тленные говорят, что *эта* жизнь - та, в которой мы закончим существование "
+"после смерти.\""
 
 #: 32160
 msgid "\"Prove what you say is true.\""
-msgstr ""
+msgstr "\"Докажи сказанное.\""
 
 #: 32161
-#, fuzzy
 msgid "\"Tell me about the Blood War.\""
-msgstr "\"Расскажи мне о Морге.\""
+msgstr "\"Расскажи мне о Кровавой войне.\""
 
 #: 32162
 msgid "\"I wanted to ask about one of the planes you mentioned.\""
-msgstr ""
+msgstr "\"Я хочу спросить об одном из упомянутых планов.\""
 
 #: 32163 64429
-#, fuzzy
 msgid "\"Never mind, actually. No question.\""
-msgstr "\"Ладно, неважно. У меня есть другие вопросы...\""
+msgstr "\"На самом деле, не важно. Вопросов нет.\""
 
 #: 32164
 msgid "\"If there are no more questions...?\""
-msgstr ""
+msgstr "\"Если вопросов больше нет...\""
 
 #: 32165 32166 32167
-#, fuzzy
 msgid "Get ready to leave."
-msgstr "Не обращать на него внимания и уйти."
+msgstr "Собраться уходить."
 
 #: 32168
 msgid ""
@@ -221,21 +270,23 @@ msgid ""
 "clasping his hand to his heart dramatically. \"...may the Powers have mercy "
 "on their souls.\""
 msgstr ""
+"\"По вашему мировоззрению, конечно же! Хорошие люди попадают на Верхние "
+"планы, а *плохие* - низвергаются в Нижние... - Он закатывает глаза, "
+"театрально прикладывая руку к сердцу. - Да смилостивятся Силы над их душами."
+"\""
 
 #: 32169
 msgid "\"Where do neutral people go?\""
-msgstr ""
+msgstr "\"А куда попадают нейтральные люди?\""
 
 #: 32170 32173 32180 32185 32193 32199 32207 32278 32281 32314 32317 32327
 #: 32330 32333 32336
-#, fuzzy
 msgid "\"I had another question...\""
-msgstr "\"Нет, у меня есть другие вопросы...\""
+msgstr "\"У меня другой вопрос...\""
 
 #: 32171 32174 32182 32186 32194 32201 32208 32279 32282
-#, fuzzy
 msgid "\"That's all I wished to know.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать.\""
 
 #: 32172
 msgid ""
@@ -246,6 +297,11 @@ msgid ""
 "destined for no Plane except the land that lies right outside our sky, and "
 "of which the Spire is a part.\""
 msgstr ""
+"Он приподнимает бровь. \"Отличный вопрос, просто отличный!\" Чтобы привлечь "
+"внимание аудитории, он поднимает палец. \"Ответ таков: дух, живший полностью "
+"нейтральной жизнью, не склонившийся ни к добру, ни к злу, станет просителем "
+"*Внешних земель*, земель, окружающих Сигил. Для них нет Плана, кроме той "
+"земли, что лежит под нашим небом, и частью которой является Шпиль.\""
 
 #: 32175
 msgid ""
@@ -254,61 +310,67 @@ msgid ""
 "solely on your new one. And the goal of this new one is...?\" He waits for a "
 "response from you with a smile."
 msgstr ""
+"\"Проситель - это тот, кем вы станете, прибыв после своей смерти на новый "
+"План. Будучи просителем, вы забудете прошлую жизнь, посвятив себя полностью "
+"новой. И целью новой жизни является?..\" - он с улыбкой ждет твоего ответа."
 
 #: 32176
 msgid "\"To merge with the Plane.\""
-msgstr ""
+msgstr "\"Объединение с Планом.\""
 
 #: 32177
 msgid "\"Answer your own question. Don't presume to test me.\""
-msgstr ""
+msgstr "\"Отвечай на свой вопрос. Даже не пробуй проверять меня.\""
 
 #: 32178
 msgid "\"Don't patronize me, you sod.\""
-msgstr ""
+msgstr "\"Не опекай меня, бездарь.\""
 
 #: 32179
 msgid ""
 "\"Very good! It looks as if some of my words actually have sunk into that "
 "skull of yours!\" The audience chuckles."
 msgstr ""
+"\"Очень хорошо! Похоже, хоть часть моих слов задержалась-таки в ваших "
+"головах!\" Слушатели сдавленно хихикают."
 
 #: 32183
 msgid "\"Hmph. Remain in ignorance, then.\""
-msgstr ""
+msgstr "\"Пхм. Ну и оставайтесь тогда в невежестве.\""
 
 #: 32188
 msgid "He looks slightly uncomfortable at this. \"Well... yes.\""
-msgstr ""
+msgstr "После этих слов он чувствует себя несколько неуютно. \"Что ж... да.\""
 
 #: 32190
-#, fuzzy
 msgid "\"How?\""
-msgstr "\"Тебя?\""
+msgstr "\"Каким образом?\""
 
 #: 32192 32198
-#, fuzzy
 msgid "\"What happens when they die?\""
-msgstr "\"Что произошло?\""
+msgstr "\"Что происходит, когда они умирают?\""
 
 #: 32197
 msgid ""
 "He looks a little more uncomfortable. \"Well... through any of the normal "
 "means, really.\""
 msgstr ""
+"Он чувствует себя еще неуютнее. \"Ну... по естественным причинам, конечно же."
+"\""
 
 #: 32203
 msgid ""
 "He looks a little more uncomfortable. \"Well... you merge with the Plane.\""
-msgstr ""
+msgstr "Он чувствует себя еще неуютнее. \"Ну... объединяются с Планом.\""
 
 #: 32204
 msgid "\"What if the petitioner dies on a Plane other than their home Plane?\""
 msgstr ""
+"\"А что если проситель умер на Плане, отличного от своего домашнего Плана?\""
 
 #: 32205
 msgid "\"And how can they die?\""
-msgstr ""
+msgstr "\"И как они могут умереть?\""
 
 #: 32209
 msgid ""
@@ -317,58 +379,62 @@ msgid ""
 "looks around, realizing he is in a trap. \"To do so would, uh, be oblivion "
 "should they die, really.\""
 msgstr ""
+"Он чувствует себя очень неуютно. \"Эээ... тогда *это* будет концом жизни... "
+"эээ, но просители никогда не захотят покинуть свой домашний план, дружище!\" "
+"Он осознает, что попал в ловушку. \"Даже если такое случится, эээ, они умрут "
+"в забвении.\""
 
 #: 32210 32222 32226 32233 32248 32251 32254 32259 32264 32275
-#, fuzzy
 msgid "\"Hmm. I had another question...\""
-msgstr "\"Хмм. У меня были еще вопросы...\""
+msgstr "\"Хмм. У меня другой вопрос...\""
 
 #: 32212 32223 32227 32235 32239 32249 32260 32265 32276
-#, fuzzy
 msgid "\"I see. Well, that's all I wished to know.\""
-msgstr "\"Это все, что я желал знать; прощай.\""
+msgstr "\"Понятно. Что ж, это все, что я хотел узнать.\""
 
 #: 32213
 msgid "He raises an eyebrow. \"Many pardons? What?\""
-msgstr ""
+msgstr "Он вскидывает бровь. \"Что, прошу прощения?\""
 
 #: 32214
 msgid "\"I *said,* why do petitioners lose their memories when they die?\""
-msgstr ""
+msgstr "\"Я *сказал*, почему просители теряют свою память после смерти?\""
 
 #: 32216 32268 32285 32289
-#, fuzzy
 msgid "\"Forget it. I had another question...\""
-msgstr "\"Нет, у меня есть другие вопросы...\""
+msgstr "\"Забудь. У меня есть другие вопросы...\""
 
 #: 32217
 msgid "\"Never mind. I have no question.\""
-msgstr ""
+msgstr "\"Не важно. У меня больше нет вопросов.\""
 
 #: 32219
 msgid ""
 "He looks uncomfortable. \"Eh... well, you know, who wishes to be burdened "
 "with such things as memories?\" The audience murmurs."
 msgstr ""
+"Он чувствует себя неуютно. \"Эээ... ну знаете ли, кто захочет таскаться с "
+"такой вещью как память?\" Слушатели начинают перешептываться."
 
 #: 32220
-#, fuzzy
 msgid "\"I do.\""
-msgstr "\"Да.\""
+msgstr "\"Я хочу.\""
 
 #: 32221
 msgid "\"But *why* do they lose their memories?\""
-msgstr ""
+msgstr "\"Но *почему* они теряют свою память?\""
 
 #: 32224
 msgid ""
 "The speaker smirks. \"Looking at you, sir, I cannot begin to wonder why!\" "
 "The audience chuckles."
 msgstr ""
+"Докладчик самодовольно ухмыляется. \"Глядя на вас, сэр, я даже думать не "
+"могу, почему!\" Слушатели хихикают."
 
 #: 32225
 msgid "\"So *why* do they lose their memories?\""
-msgstr ""
+msgstr "\"Так *почему* они теряют свою память?\""
 
 #: 32228
 msgid ""
@@ -377,49 +443,57 @@ msgid ""
 "you must start afresh, your petitioner soul pure when you arrive on your new "
 "Plane.\""
 msgstr ""
+"\"Я...\" - он хмурится, пытаясь что-то сказать, но останавливается. Спустя "
+"мгновение он продолжает, осторожно подбирая слова. \"Я думаю, потому что, вы "
+"должны начать заново, душа просителя чиста, когда прибывает на новый План.\""
 
 #: 32229
 msgid ""
 "\"And why should you have to do that, when all your life experiences have "
 "determined what Plane you end up on?\""
 msgstr ""
+"\"И почему это должно случаться, если весь твой жизненный опыт как раз и "
+"определяет, на какой План ты попадешь?\""
 
 #: 32231 32237 32258
-#, fuzzy
 msgid "\"That's no answer.\""
-msgstr "\"Это не то, что *я* услышал.\""
+msgstr "\"Это не ответ.\""
 
 #: 32232
 msgid "\"That's... awful. Like a sick joke.\""
-msgstr ""
+msgstr "\"Это... отвратительно. Похоже на несмешную шутку.\""
 
 #: 32236
 msgid ""
 "He looks very uncomfortable. \"Well... I...\" He pauses. \"Hmm. I don't know."
 "\""
 msgstr ""
+"Он чувствует себя очень неуютно. \"Ну... я...\" Он умолкает. \"Хмм. Я не "
+"знаю.\""
 
 #: 32238
-#, fuzzy
 msgid "\"All right... I had another question...\""
-msgstr "\"Хорошо. У меня есть другой вопрос...\""
+msgstr "\"Хорошо... У меня есть другой вопрос...\""
 
 #: 32240
 msgid ""
 "He becomes slightly angry. \"Do you have a *better* answer, my friend? "
 "Perhaps one you can share?\" The audience turns to face you."
 msgstr ""
+"Он начинает немного злиться. \"А у вас есть ответ *получше*, дружище? Может "
+"быть, поделитесь им?\" Зрители разом поворачиваются к тебе."
 
 #: 32241
 msgid ""
 "\"I don't remember where or when, but I seem to recall having heard that "
 "memories drift on the Astral Plane, as 'memory cores.'\""
 msgstr ""
+"\"Я не помню, откуда я это узнал, но припоминаю, что слышал, что "
+"воспоминания дрейфуют по Астральному плану в виде 'сущности воспоминаний'.\""
 
 #: 32242
-#, fuzzy
 msgid "\"No... I don't.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Нет... у меня нет.\""
 
 #: 32243
 msgid ""
@@ -429,83 +503,92 @@ msgid ""
 "Well then, the question becomes: Is a lifetime of memories more important "
 "than living life again?\"\n"
 msgstr ""
+"Один из слушателей кричит: \"Он прав!\"\n"
+"\n"
+"Докладчик поворачивается к нему лицом. \"Эээ, что ж, возможно, это так. "
+"Тогда возникает вопрос: является ли жизненный путь воспоминаний важнее самой "
+"новой жизни?\"\n"
 
 #: 32244
 msgid "Truth: \"Yes, it is.\""
-msgstr ""
+msgstr "Правда: \"Да, это так.\""
 
 #: 32245
-#, fuzzy
 msgid "Truth: \"No.\""
-msgstr "Правда: \"Да не очень-то.\""
+msgstr "Правда: \"Нет.\""
 
 #: 32246
-#, fuzzy
 msgid "\"I don't know.\""
-msgstr "\"Я не знаю.\" "
+msgstr "\"Я не знаю.\""
 
 #: 32247
 msgid ""
 "He says angrily: \"Then it's simple enough: don't die, friend.\" The "
 "audience chuckles."
 msgstr ""
+"Он раздраженно говорит: \"Тогда все ясно: просто не умирай, дружище.\" "
+"Слушатели хихикают."
 
+# ничейный кусок, без контекста непонятно
 #: 32250
 msgid "He gives an exaggerated half-bow: \"There you have it, then!\""
-msgstr ""
+msgstr "Он подчеркнуто кивает: \"Тогда задавайте!\""
 
 #: 32252
 msgid "\"I suppose so. Well, that's all I wished to know.\""
-msgstr ""
+msgstr "\"Я тоже так думаю. Что ж, это все, что я хотел знать.\""
 
 #: 32253
 msgid "He sneers. \"Yes, that's what I *thought* your answer might be.\""
-msgstr ""
+msgstr "Он усмехается. \"Да, я так и *думал*, что ваш ответ будет таким.\""
 
 #: 32255 32315 32318 32328 32331 32334 32337
-#, fuzzy
 msgid "\"I've no more questions.\""
-msgstr "\"У меня есть еще вопросы...\""
+msgstr "\"У меня больше нет вопросов.\""
 
 #: 32256
 msgid ""
 "\"But compared to the life that awaits you on the new Plane, it is trivial!\""
 msgstr ""
+"\"Но по сравнению с жизнью, которая ждет вас на новом Плане, это "
+"незначительно!\""
 
 #: 32257
 msgid ""
 "\"But why should you have to do that, when all your life experiences have "
 "determined what Plane you end up on?\""
 msgstr ""
+"\"Но почему это должно случаться, если весь твой жизненный опыт как раз и "
+"определяет, на какой План ты попадешь?\""
 
 #: 32261
 msgid "He laughs. \"Nonsense! Everyone *dies,* friend. Even gods die.\""
-msgstr ""
+msgstr "Он смеется. \"Вздор! Все *умирают*, приятель. Даже боги смертны.\""
 
 #: 32262 32274
-#, fuzzy
 msgid "\"I can't die.\""
-msgstr "\"Я постараюсь. Прощай.\""
+msgstr "\"Я не могу умереть.\""
 
 #: 32263
 msgid "\"But *suppose* that someone can't die.\""
-msgstr ""
+msgstr "\"Но а если *предположить*, что кто-то не может умереть.\""
 
 #: 32266
 msgid ""
 "\"Oh, truly! Look, everyone, a rare treat: one of the great immortals has "
 "graced us with his presence! Greetings, o immortal!\" The audience laughs."
 msgstr ""
+"\"О, правда? Смотрите все, только здесь и сегодня: величайший бессмертный "
+"снизошел до нас своим присутствием! Приветствую тебя, о бессмертный!\" "
+"Слушатели хохочут."
 
 #: 32267
-#, fuzzy
 msgid "\"I can prove it.\""
-msgstr "\"Я сделаю это.\""
+msgstr "\"Я могу доказать это.\""
 
 #: 32269 32286 32290
-#, fuzzy
 msgid "\"Never mind. I've no more questions.\""
-msgstr "\"Неважно. У меня есть другие вопросы...\""
+msgstr "\"Неважно. У меня больше нет вопросов.\""
 
 #: 32270
 msgid ""
@@ -513,21 +596,25 @@ msgid ""
 "heed, my audience. I think we shall have a rare display of my lecture today! "
 "Come up here, o immortal, and we shall see who is right and who is dead!\""
 msgstr ""
+"\"О, докажи! Докажи!\" Слушатели смеются еще громче. \"Внимание! Только "
+"сейчас и только сегодня! Редчайшая наглядная демонстрация моей лекции! "
+"Подойди же сюда, о бессмертный, и мы узнаем: кто будет прав, а кто - мертв!\""
 
 #: 32271 32292
 msgid "Kill yourself, then get back up."
-msgstr ""
+msgstr "Убить себя, затем восстать."
 
 #: 32272 32293
-#, fuzzy
 msgid "\"Actually, forget it.\""
-msgstr "\"Я сделаю это.\""
+msgstr "\"Забудь об этом.\""
 
 #: 32273
 msgid ""
 "\"Well then, based on what I've *said,* he would never reach the Outer "
 "Planes and never become a petitioner.\""
 msgstr ""
+"\"Тогда, следуя моим *высказываниям*, он никогда не достигнет Внешних планов "
+"и никогда не станет просителем.\""
 
 #: 32277
 msgid ""
@@ -536,6 +623,10 @@ msgid ""
 "you *behave.* And it is of consequence! The way you approach life decides "
 "your destination when you die.\""
 msgstr ""
+"\"Прошу прощения, я не объяснил смысл для всех слушателей: 'Мировоззрение' - "
+"это ваша духовная принадлежность к добру или злу, порядку или хаосу. "
+"Мировоззрение - это способ вашего *существования*. И как следствие - способ "
+"определения назначения после вашей смерти.\""
 
 #: 32280
 msgid ""
@@ -543,14 +634,17 @@ msgid ""
 "well. \"There are countless petitioners, my friend, *Dustmen* among them, "
 "who would disagree with Dustman... 'philosophy.'\""
 msgstr ""
+"Докладчик насмешливо цокает языком... некоторые из слушателей вторят ему "
+"вслед. \"Просителей - бесчисленное множество, мой друг, *Тленные* - всего "
+"лишь капля в море тех, кто не согласен с... 'философией' Тленных.\""
 
 #: 32283
 msgid "\"Eh?\" The lecturer looks taken aback. \"And how might I do that?\""
-msgstr ""
+msgstr "\"Э?\" Докладчик захвачен врасплох. \"И как я могу это сделать?\""
 
 #: 32284
 msgid "\"Die. Here. Now.\""
-msgstr ""
+msgstr "\"Умри. Сейчас. Здесь.\""
 
 #: 32287
 msgid ""
@@ -558,11 +652,13 @@ msgid ""
 "slightly. \"Well now...\" He smirks suddenly. \"If you go first, I shall do "
 "so.\" The audience chuckles."
 msgstr ""
+"Слушатели замолкают. Чувствуя давление, докладчик легко вздыхает. \"Ну... - "
+"его неожиданно озаряет. - Если ты будешь первым, то я повторю за тобой.\" "
+"Слушатели тихо хихикают."
 
 #: 32288
-#, fuzzy
 msgid "\"Agreed.\""
-msgstr "\"Конечно. Прощай.\""
+msgstr "\"Договорились.\""
 
 #: 32291
 msgid ""
@@ -571,47 +667,56 @@ msgid ""
 "treat, Sigilians! Today - and today only - we shall have a live "
 "demonstration of how to become a petitioner.\""
 msgstr ""
+"\"Очень хорошо! - напряженное лицо докладчика озаряется облегчением. - Идем "
+"сюда на сцену, мой друг!\" С улыбкой он поворачивается к зрителям. \"Только "
+"здесь и сейчас, дорогие сигильцы! Сегодня и только сегодня вы увидите "
+"наглядную иллюстрацию того, как стать просителем.\""
 
 #: 32294
 msgid ""
 "The speaker turns white at this, taking a step back. \"By the Powers...!\""
-msgstr ""
+msgstr "\"Силы небесные!..\" - с побледневшим лицом докладчик отступает назад."
 
 #: 32295
 msgid "\"I think it's only fair that you prove *your* point, now...\""
 msgstr ""
+"\"Думаю, теперь есть только один способ доказать *свою* точку зрения...\""
 
 #: 32296
 msgid "\"Your turn.\""
-msgstr ""
+msgstr "\"Твоя очередь.\""
 
 #: 32297
 msgid "Just smile at him."
-msgstr ""
+msgstr "Просто улыбнуться ему."
 
 #: 32298
 msgid "\"Eh...\" The audience watches in morbid fascination. \"Well now...\""
-msgstr ""
+msgstr "\"Эээ...\" Слушатели завороженно замерли в ожидании. \"Что ж...\""
 
 #: 32299
 msgid ""
 "\"Go on, die. Here. Now. Prove your words to be true. Embrace your life as a "
 "petitioner.\""
 msgstr ""
+"\"Давай, умирай. Здесь. Сейчас. Докажи, что твои слова истинны. Начни свою "
+"жизнь просителя.\""
 
 #: 32300
 msgid "Bluff: \"Kill yourself, or I'll do it.\""
-msgstr ""
+msgstr "Блеф: \"Убей себя, или это сделаю я.\""
 
 #: 32301
 msgid "Truth: \"Kill yourself, or I'll do it.\""
-msgstr ""
+msgstr "Правда: \"Убей себя, или это сделаю я.\""
 
 #: 32302
 msgid ""
 "He gulps. \"Now... eh... hmmmn.\" He offers weakly: \"Heh. I must confess "
 "that I'm not *quite* ready to depart this life just yet.\""
 msgstr ""
+"Он задыхается. \"Ну... эээ... хммм.\" Он слабо продолжает: \"Хех. Должен "
+"признать, что я еще не *совсем* готов покинуть эту жизнь.\""
 
 #: 32303
 msgid "Kill him."
@@ -619,23 +724,27 @@ msgstr "Убить его."
 
 #: 32304
 msgid "Make a motion to kill him, stopping *just* short of his neck."
-msgstr ""
+msgstr "Сделать угрожающий жест, остановившись за *волосок* от его шеи."
 
 #: 32305 32308
 msgid ""
 "\"So, this great new life on the Outer Planes may not be all it's supposed "
 "to be?\""
 msgstr ""
+"\"Значит, эта прекрасная новая жизнь на Внешних планах может быть не совсем "
+"той, как предполагается?\""
 
 #: 32306 32309
 msgid "\"That's what I *thought,* you pompous, blustery charlatan.\""
-msgstr ""
+msgstr "\"Так я и *думал*, ты - напыщенный тупоголовый шарлатан.\""
 
 #: 32307
 msgid ""
 "The speaker flinches, clasping his eyes shut and screeching... you hear a "
 "drizzling sound as he soils himself."
 msgstr ""
+"Докладчик отскакивает с испуганными глазами и гортанным криком... ты "
+"слышишь, как он обделался."
 
 #: 32310
 msgid ""
@@ -643,21 +752,25 @@ msgid ""
 "\"Perhaps not. Heh.\" He glances quickly at the audience. \"Eh... well. "
 "Certainly not *now.*\""
 msgstr ""
+"Докладчик боится своего притворства, однако альтернатива страшит его еще "
+"больше. \"Нет, скорее всего. Хех, - он быстро оглядывается на слушателей, - "
+"Эээ... да. Определенно не *сейчас*.\""
 
 #: 32311
-#, fuzzy
 msgid "\"As I thought. I had another question...\""
-msgstr "\"Понятно. Тогда у меня есть другой вопрос...\""
+msgstr "\"Так я и думал. У меня другой вопрос...\""
 
 #: 32312
 msgid "\"That's what I thought. I've no more questions.\""
-msgstr ""
+msgstr "\"Так я и думал. У меня больше нет вопросов.\""
 
 #: 32313
 msgid ""
 "\"Eh... yes.\" The speaker looks cowed, and his voice drops in defeat. "
 "\"Hmmmn. Yes.\""
 msgstr ""
+"\"Эээ... да.\" Докладчик похож на пугало, он полностью побежден. \"Хммм. Да."
+"\""
 
 #: 32316
 msgid ""
@@ -665,35 +778,37 @@ msgid ""
 "and tan'nari? I do not have the centuries it would take to describe this "
 "conflict. Seek out another, for that is not what this lecture is about.\""
 msgstr ""
+"\"Разве ты о ней не слышал, о Пустоголовый? О войне между баатезу и танарри? "
+"Столетий не хватит на то, чтобы описать этот конфликт. Поищи кого-нибудь "
+"другого, эта лекция не об этом.\""
 
 #: 32319
 msgid "\"Oh? Which?\""
-msgstr ""
+msgstr "\"О? О каком?\""
 
 #: 32320
 msgid "\"The Abyss...\""
-msgstr ""
+msgstr "\"О Бездне...\""
 
 #: 32321
 msgid "\"Baator...\""
-msgstr ""
+msgstr "\"О Бааторе...\""
 
 #: 32322
 msgid "\"Carceri...\""
-msgstr ""
+msgstr "\"О Карцери...\""
 
 #: 32323
 msgid "\"Mount Celestia...\""
-msgstr ""
+msgstr "\"О Небесной горе...\""
 
 #: 32324
-#, fuzzy
 msgid "\"Never mind. I had another question...\""
-msgstr "\"Неважно. У меня есть другие вопросы...\""
+msgstr "\"Неважно. У меня есть другой вопрос...\""
 
 #: 32325
 msgid "\"Actually, forget it. I've no more questions.\""
-msgstr ""
+msgstr "\"Забудь. У меня больше нет вопросов.\""
 
 #: 32326
 msgid ""
@@ -701,6 +816,9 @@ msgid ""
 "the fiendish tanar'ri!\" He gestures dramatically. \"But you should seek out "
 "someone more knowledgeable on the Planes than I.\""
 msgstr ""
+"\"Это план, состоящий из шести сотен слоев терзающего хаоса и зла. Дом "
+"демонических танарри! - он делает театральный жест. - Но вам следует "
+"поискать более сведущего в Планах, нежели я.\""
 
 #: 32329
 msgid ""
@@ -709,6 +827,11 @@ msgid ""
 "you'll be wrapped in their chains of intrigue for life!\" He smiles. \"But "
 "you should seek out someone more knowledgeable on the Planes than I.\""
 msgstr ""
+"\"План законопослушного зла, поделенный на девять частей. - прищелкнув "
+"языком, он делает театральный жест. - Дом демонических баатезу! Только "
+"подпишите с ними договор, и тут же окажетесь в цепях их интриг на всю "
+"жизнь!\" Он улыбается. \"Но вам следует поискать более сведущего в Планах, "
+"нежели я.\""
 
 #: 32332
 msgid ""
@@ -717,6 +840,10 @@ msgid ""
 "they were hurled from Olympus!\" He gestures dramatically. \"But you should "
 "seek out someone more knowledgeable on the Planes than I.\""
 msgstr ""
+"\"Тюремный план, холодный, грубый и окрашенный в красное. Предатели и лжецы "
+"находят свое пристанище здесь... говорят там были заключены Титаны, "
+"сброшенные с Олимпа!\" Он делает театральный жест. \"Но вам следует поискать "
+"более сведущего в Планах, нежели я.\""
 
 #: 32335
 msgid ""
@@ -725,6 +852,10 @@ msgid ""
 "nobility... the very model of goodness!\" He smiles. \"But you should seek "
 "out someone more knowledgeable on the Planes than I.\""
 msgstr ""
+"\"Небесная гора, план вечного добра и согласия. - он хлопает в ладони, "
+"вознося песнь. - Где дэва парят в небесах, а благородные архонты правят "
+"справедливо... идеал доброты!\" Он улыбается. \"Но вам следует поискать "
+"более сведущего в Планах, нежели я.\""
 
 #: 32338
 msgid ""
@@ -732,6 +863,9 @@ msgid ""
 "at the Hall, and perhaps in years hence... I shall meet *you* as a "
 "petitioner beyond Death's Door!\""
 msgstr ""
+"\"...тогда завершим выступление на этот раз. Я продолжу свои чтения в Зале, "
+"и, возможно, спустя несколько лет... я встречу *вас* в качестве просителя по "
+"ту сторону Смерти!\""
 
 #: 32340 32342
 msgid ""
@@ -739,17 +873,21 @@ msgid ""
 "I shall continue to lecture here at the Hall, so... eh... tell all your "
 "friends.\""
 msgstr ""
+"Похоже, ему не терпится закончить. \"...тогда завершим выступление... эээ, я "
+"продолжу свои чтения здесь, в Зале, так что... эээ... расскажите об этом "
+"своим друзьям.\""
 
 #: 32344
 msgid ""
 "Someone in the audience shouts: \"Sure! So they can come see you mess your "
 "tunic again!\" The room fills with laughter..."
 msgstr ""
+"Кто-то выкрикивает с места: \"Непременно! Тогда они точно увидят, как тебя "
+"опять изваляют в грязи!\" Комната наполняется смехом..."
 
 #: 32345
-#, fuzzy
 msgid "\"Eh... hmm.\""
-msgstr "\"Эээ... нет.\""
+msgstr "\"Эээ... хмм.\""
 
 #: 32346 49452
 msgid "Leave."
@@ -760,29 +898,31 @@ msgid ""
 "This short, squat man carries himself with an air of self-importance. He "
 "appears to be giving a lecture at the moment."
 msgstr ""
+"Этот невысокий приземистый мужчина поддерживает вокруг себя атмосферу "
+"самодовольства. Похоже, он вот-вот начнет читать лекцию."
 
 #: 49451
 msgid "Stay for the lecture."
-msgstr ""
+msgstr "Остаться на лекции."
 
 #: 64424
-#, fuzzy
 msgid "\"Go on, then...\""
-msgstr "\"Ну хорошо...\""
+msgstr "\"Продолжай...\""
 
 #: 64425
 msgid "\"What determines which plane they appear on when they die?\""
-msgstr ""
+msgstr "\"Как определяется, на какой план они попадут после смерти?\""
 
 #: 64426
-#, fuzzy
 msgid "\"What's a petitioner?\""
-msgstr "\"Кто такие Сборщики?\""
+msgstr "\"Кто такой проситель?\""
 
 #: 64427
 msgid "\"Can a petitioner die?\""
-msgstr ""
+msgstr "\"Может ли проситель умереть?\""
 
 #: 64428
 msgid "\"Why do petitioners lose their memories?\""
-msgstr ""
+msgstr "\"Почему просители теряют свою память после смерти?\""
+
+
