@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:04+0600\n"
+"PO-Revision-Date: 2010-05-18 21:45+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -30,8 +30,24 @@ msgid ""
 "attacks are +3 to hit and +6 to damage. The Nameless One cannot cast spells "
 "while the Fist of Iron is in place."
 msgstr ""
+"ЖЕЛЕЗНЫЙ КУЛАК\n"
+"Дистанция: заклинатель\n"
+"Длительность: (5 секунд / уровень) + 5 секунд\n"
+"Скорость: 1\n"
+"Зона действия: только Безымянный\n"
+"Спасбросок: нет\n"
+"\n"
+"Это заклинание дает кулаку колдующего силу и прочность железа, превращая "
+"его в живое оружие. Любые удары кулаками будут причинять более сильный "
+"урон, чем обычно.\n"
+"\n"
+"Это заклинание действует только на Безымянного. После наложения заклинания "
+"его кулачные атаки получают прибавку +3 к попаданию и +6 к урону. "
+"Безымянный не может читать заклинания, когда он находится под действием "
+"Железного кулака."
 
 #: 8614
 msgid "Fist of Iron"
-msgstr ""
+msgstr "Железный кулак"
+
 

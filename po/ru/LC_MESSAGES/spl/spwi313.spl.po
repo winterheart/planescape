@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:14+0600\n"
+"PO-Revision-Date: 2010-05-19 00:14+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: 49630
 msgid "Fiery Rain"
-msgstr ""
+msgstr "Огненный дождь"
 
 #: 63350
 msgid ""
@@ -35,4 +35,21 @@ msgid ""
 "inflicts 1-2 points of blunt damage and 1-4 points of fire damage. Anyone "
 "within 3 feet of the target takes 1point of fire damage as well."
 msgstr ""
+"ОГНЕННЫЙ ДОЖДЬ\n"
+"Дистанция: 90 футов\n"
+"Длительность: мгновенно\n"
+"Скорость: 3\n"
+"Зона действия: 1 цель/метеор\n"
+"Спасбросок: нет\n"
+"\n"
+"Потоки огненного дождя низвергаются на цель, сжигая и сокрушая ее до "
+"полного подчинения.\n"
+"\n"
+"Заклинатель выбирает любую единственную цель в пределах дальности "
+"заклинания. Далее на цель падает дождь из огненных метеоров, поражая ее и "
+"окружающее пространство: один 'метеор' за каждый уровень опыта, до "
+"максимума в 10 штук. Каждый попавший снаряд наносит 1-2 очка дробящего "
+"урона и 1-4 очка огненного урона. Любой в пределах 3-х футов от цели также "
+"получает 1 очко огненного урона."
+
 

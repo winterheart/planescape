@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:15+0600\n"
+"PO-Revision-Date: 2010-05-19 00:41+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -31,8 +31,25 @@ msgid ""
 "up to 6 HD to roll unmodified saving throws vs. poison or be slain! Those "
 "above 6 HD suffer 1-10 pts."
 msgstr ""
+"ОБЛАКО-УБИЙЦА\n"
+"Дистанция: 100 футов\n"
+"Длительность: мгновенно\n"
+"Скорость: 5\n"
+"Зона действия: облако 50 x 50 футов\n"
+"Спасбросок: нет\n"
+"\n"
+"Облако смерти исходит от заклинателя и отправляет тех, кто недостаточно "
+"силен на свободном пути, на заслуженный план покоя.\n"
+"\n"
+"Создается клубящееся облако ядовитых испарений, столь смертоносное, что "
+"убивает любое существо с уровнем здоровья менее 4+1, заставляет существ "
+"уровнем здоровья от 4+1 до 5+1 сделать спасбросок против яда с пенальти -4 "
+"или погибнуть, а существ с уровнем здоровья 6 - совершить не "
+"модифицированный спасбросок против яда или быть убитыми! Те, у кого уровень "
+"здоровья выше 6-го, получают урон 1-10 очков."
 
 #: 8654
 msgid "Cloudkill"
-msgstr ""
+msgstr "Облако-убийца"
+
 

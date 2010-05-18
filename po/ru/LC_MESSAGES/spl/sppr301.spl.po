@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:02+0600\n"
+"PO-Revision-Date: 2010-05-18 21:26+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -31,8 +31,24 @@ msgid ""
 "Radius. A Save vs. Spells results in half-damage. This spell can only be "
 "used outdoors."
 msgstr ""
+"ВЫЗОВ МОЛНИИ\n"
+"Дистанция: 180 футов\n"
+"Длительность: мгновенно\n"
+"Скорость: 3\n"
+"Зона действия: 10-футовый радиус\n"
+"Спасбросок: уменьшает эффект вдвое\n"
+"\n"
+"Это заклинание призывает ярость природы, бьющая по твоим врагам.\n"
+"\n"
+"Колдующий может вызвать один электрический разряд, бросив его на врагов с "
+"2-16 очками электрического урона, плюс 1-8 дополнительных очков за каждый "
+"уровень заклинателя. Этот урон наносится любому существу в 10-футовом "
+"радиусе от места, куда попал разряд. Зона действия - 10-футовый радиус. "
+"Спасбросок против заклинаний приводит к половинному урону. Это заклинание "
+"можно использовать только вне помещений."
 
 #: 8829
 msgid "Call Lightning"
-msgstr ""
+msgstr "Вызов молнии"
+
 

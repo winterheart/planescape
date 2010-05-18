@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:03+0600\n"
+"PO-Revision-Date: 2010-05-18 21:29+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -28,8 +28,21 @@ msgid ""
 "based attack, and gives all fire-based attacks a multiplier of x.5 for any "
 "damage that does succeed in reaching the targets of this spell. "
 msgstr ""
+"ХОЖДЕНИЕ ПО ОГНЮ\n"
+"Дистанция: 0\n"
+"Длительность: 10 секунд + 10 секунд за уровень\n"
+"Скорость: 3\n"
+"Зона действия: существа, к которым прикоснулись\n"
+"Спасбросок: нет\n"
+"\n"
+"Это заклинание защищает заколдованного от действия пламени... на время.\n"
+"\n"
+"Заклинание дает одной цели прибавку +2 к ее спасброскам против огненных "
+"атак, и снижает урон всех огненных атак, достигших цели этого заклинания, "
+"вдвое."
 
 #: 8830
 msgid "Flamewalk"
-msgstr ""
+msgstr "Хождение по огню"
+
 

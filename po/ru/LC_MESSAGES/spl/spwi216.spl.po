@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:06+0600\n"
+"PO-Revision-Date: 2010-05-19 00:24+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: 29166
 msgid "Blur"
-msgstr ""
+msgstr "Расплывчатость"
 
 #: 51024
 msgid ""
@@ -33,4 +33,18 @@ msgid ""
 "difficult to attack the caster: It causes all incoming attacks to be made at "
 "-3 penalty and grants the wizard +1 on all saving throws."
 msgstr ""
+"РАСПЛЫВЧАТОСТЬ\n"
+"Дистанция: 0\n"
+"Длительность: 15 секунд + 5 секунд за уровень\n"
+"Скорость: 2\n"
+"Зона действия: колдующий\n"
+"Спасбросок: нет\n"
+"\n"
+"При расплывчатости тела и духа человека становиться сложно прикоснутся к "
+"нему или разглядеть его, что дает большое преимущество в битве.\n"
+"\n"
+"Расплывчатость меняет и размазывает облик мага, усложняя нападение на "
+"заклинателя: все атаки по нему получают пенальти -3, а магу даруется "
+"прибавка +1 ко всем спасброскам."
+
 

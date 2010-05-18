@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 19:55+0600\n"
+"PO-Revision-Date: 2010-05-18 20:58+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -27,8 +27,22 @@ msgid ""
 "When cast, this spell detects any evil emanations from creatures within "
 "range for 50 seconds + 25 seconds / level of the caster. "
 msgstr ""
+"ОБНАРУЖЕНИЕ ЗЛА\n"
+"Дистанция: 0\n"
+"Длительность: 50 секунд + 25 секунд / уровень (максимум 5 минут)\n"
+"Скорость: 1\n"
+"Зона действия: колдующий\n"
+"Спасбросок: нет\n"
+"\n"
+"Это заклинание обнаруживает злые намерения, раскрывая внутреннюю сущность "
+"цели.\n"
+"\n"
+"После сотворения это заклинание определяет любые злые эманации от существ, "
+"находящихся в пределах дальности заклинания на 50 секунд + 25 секунд / "
+"уровень колдующего. "
 
 #: 8823
 msgid "Detect Evil"
-msgstr ""
+msgstr "Обнаружение зла"
+
 

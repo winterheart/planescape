@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:14+0600\n"
+"PO-Revision-Date: 2010-05-18 23:42+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -28,8 +28,21 @@ msgid ""
 "become confused and unsure of itself. They will either: 1) Wander away; 2) "
 "Stand confused; 3) Attack nearest creature; 4) Act normal."
 msgstr ""
+"ЗАМЕШАТЕЛЬСТВО\n"
+"Дистанция: 120 футов\n"
+"Длительность: 10 секунд + 1 секунда за уровень\n"
+"Скорость: 4\n"
+"Зона действия: вплоть до 60 кв. футов\n"
+"Спасбросок: отменяет действие\n"
+"\n"
+"Концентрация и целеустремленность будут потеряны.\n"
+"\n"
+"Как следует из названия, это заклинание приводит 1-4 создания +1 создание "
+"/ уровень в замешательство и неуверенность. Они могут: уйти прочь; встать "
+"в замешательстве; напасть на ближайшее существо; действовать как обычно."
 
 #: 8647
 msgid "Confusion"
-msgstr ""
+msgstr "Замешательство"
+
 

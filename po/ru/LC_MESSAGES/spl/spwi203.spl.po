@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:05+0600\n"
+"PO-Revision-Date: 2010-05-18 22:47+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -14,6 +14,7 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 
 #: 51014
+#, fuzzy
 msgid ""
 "BLACK-BARBED SHIELD\n"
 "Range: Self only\n"
@@ -31,8 +32,24 @@ msgid ""
 "attacks the player with a melee attack should suffer 1-6 hit points of "
 "damage every time they successfully hit the character."
 msgstr ""
+"ЩИТ ИЗ ЧЕРНЫХ ШИПОВ\n"
+"Дистанция: на себя\n"
+"Длительность: 10-30 секунд\n"
+"Скорость: 2\n"
+"Зона действия: на себя\n"
+"Спасбросок: нет\n"
+"\n"
+"Те, кто гулял по тропам в лабиринте Рейвел, могут призвать его ветви, "
+"чтобы защитить себя от урона. \n"
+"\n"
+"Это заклинание (действующее только на колдующего) вызывает множество "
+"черных шипов, которые защищают и оберегают заклинателя от вреда на 10-30 "
+"секунд. Игрок получает +2 к КБ на время действия заклинания, а любое "
+"существо, атакующее его в рукопашную, получает 1-6 очков урона каждый раз, "
+"когда успешно попадает по персонажу."
 
 #: 8626
 msgid "Black-Barbed Shield"
-msgstr ""
+msgstr "Щит из черных шипов"
+
 

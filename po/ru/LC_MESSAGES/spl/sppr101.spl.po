@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 19:55+0600\n"
+"PO-Revision-Date: 2010-05-18 20:48+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -27,8 +27,20 @@ msgid ""
 "Bless grants +1 to hit and +1 to saves to all friendly creatures that are in "
 "a 50 feet radius from the casting point."
 msgstr ""
+"БЛАГОСЛОВЕНИЕ\n"
+"Дистанция: 180 футов\n"
+"Длительность: 30 секунд\n"
+"Скорость: 1\n"
+"Зона действия: 50-футовый куб\n"
+"Спасбросок: нет\n"
+"\n"
+"Благо для спутников, дарующее силу, в которой они нуждаются.\n"
+"\n"
+"Благословение дает +1 к попаданию и +1 ко всем спасброскам для всех "
+"дружественных существ в радиусе 50 футов от точки наложения."
 
 #: 8820
 msgid "Blessing"
-msgstr ""
+msgstr "Благословение"
+
 

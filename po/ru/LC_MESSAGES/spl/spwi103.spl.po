@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:04+0600\n"
+"PO-Revision-Date: 2010-05-18 21:44+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -32,8 +32,25 @@ msgid ""
 "they will heal the caster if he is less than max hit points or they will "
 "give him bonus hit points for a half-hour."
 msgstr ""
+"МАЛОЕ БАЛЬЗАМИРОВАНИЕ\n"
+"Дистанция: 0\n"
+"Длительность: 30 минут\n"
+"Скорость: 1\n"
+"Зона действия: существо, к которому прикоснулись\n"
+"Спасбросок: нет\n"
+"\n"
+"Бальзамирование сохраняет плоть мертвеца... по сути, это заклинание может "
+"сохранять плоть Безымянного, исцеляя порезы, устраняя разложение и делая "
+"кожу более устойчивой к повреждениям.\n"
+"\n"
+"Это заклинание действует только на Безымянного или любую нежить. При "
+"наложении цель получает +2-8 временных очков жизни и временную прибавку +1 "
+"КБ на полчаса. Дополнительные очки жизни действуют так же, как и в "
+"заклинании Помощь: они вылечат заклинателя, если у него не максимум очков "
+"жизни, или же пропадут через полчаса."
 
 #: 8613
 msgid "Minor Embalming"
-msgstr ""
+msgstr "Малое бальзамирование"
+
 

@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 19:55+0600\n"
+"PO-Revision-Date: 2010-05-18 20:55+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -27,8 +27,20 @@ msgid ""
 "The opposite of Bless, Curse grants all enemy targets in a 50-ft. radius, -1 "
 "to Attacks and -1 to their saving throws for 30 seconds."
 msgstr ""
+"ПРОКЛЯТИЕ\n"
+"Дистанция: 180 футов\n"
+"Длительность: 30 секунд\n"
+"Скорость: 1\n"
+"Зона действия: 50-футовый радиус\n"
+"Спасбросок: нет\n"
+"\n"
+"Погибель для врагов, ослабляющая их.\n"
+"\n"
+"В отличие от Благословения, Проклятие накладывает на все вражеские цели в "
+"радиусе 50 футов на 30 секунд штраф -1 к атаке и -1 к спасброскам."
 
 #: 8822
 msgid "Curse"
-msgstr ""
+msgstr "Проклятие"
+
 

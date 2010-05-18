@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 19:55+0600\n"
+"PO-Revision-Date: 2010-05-18 21:16+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -29,8 +29,22 @@ msgid ""
 "points of damage. The creature's restored hit points cannot exceed its "
 "maximum hit points."
 msgstr ""
+"ИСЦЕЛЕНИЕ СРЕДНИХ РАН\n"
+"Дистанция: 0\n"
+"Длительность: постоянная / мгновенно\n"
+"Скорость: 2\n"
+"Зона действия: существо, к которому прикоснулись\n"
+"Спасбросок: нет\n"
+"\n"
+"Это заклинание закрывает средние раны на цели.\n"
+"\n"
+"После создания заклинания появляется наводящий курсор, и игрок может "
+"наложить заклинание на любого в пределах досягаемости. Исцеление средних "
+"ран лечит у цели 11 очков урона. Восстановленные очки жизни существа не "
+"могут превысить его максимум очков жизни."
 
 #: 8826
 msgid "Cure Moderate Wounds"
-msgstr ""
+msgstr "Исцеление средних ран"
+
 

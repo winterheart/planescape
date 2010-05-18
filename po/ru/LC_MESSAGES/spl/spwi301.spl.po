@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:13+0600\n"
+"PO-Revision-Date: 2010-05-19 00:30+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -32,8 +32,25 @@ msgid ""
 "2        5-20 each\n"
 "1        4-48\n"
 msgstr ""
+"ШАРОВАЯ МОЛНИЯ\n"
+"Дистанция: 90 футов + 30 футов за уровень\n"
+"Длительность: мгновенно\n"
+"Скорость: 3\n"
+"Зона действия: ближайшая цель\n"
+"Спасбросок: уменьшает эффект вдвое\n"
+"\n"
+"Выпускает сферы из электрической энергии, которые поражают твоих врагов.\n"
+"\n"
+"При создании заклинания колдующий может создать до 4 сияющих сфер из молний. "
+"Они приблизительно 3 фута в диаметре. Урон различный, в зависимости от "
+"количества созданных шаров:\n"
+"4        2d4 каждый\n"
+"3        2d6 каждый\n"
+"2        5d4 каждый\n"
+"1        4d12\n"
 
 #: 8636
 msgid "Ball Lightning"
-msgstr ""
+msgstr "Шаровая молния"
+
 

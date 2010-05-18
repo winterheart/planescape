@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:13+0600\n"
+"PO-Revision-Date: 2010-05-19 00:31+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -30,8 +30,24 @@ msgid ""
 "absorbed this amount of damage, it shatters or \"powers down\". The spell "
 "will also expire after 5 seconds per level of the caster."
 msgstr ""
+"МАНТИЯ ЗАЩИТЫ\n"
+"Дистанция: 0\n"
+"Длительность: 5 секунд за уровень или особая\n"
+"Скорость: 3\n"
+"Зона действия: колдующий\n"
+"Спасбросок: нет\n"
+"\n"
+"Это заклинание создает вокруг твоего тела волшебную мантию силы, которая "
+"поглощает урон.\n"
+"\n"
+"Заклинание создает эффект \"щита\", похожий на заклинание щита, который "
+"поглощает 3-12 очков урона + 1 очко за каждый уровень заклинателя. Как "
+"только поглощено данное количество урона, он раскалывается или "
+"\"выключается\". Кроме того, заклинание завершит свое действие, когда "
+"пройдет 5 секунд за каждый уровень колдующего."
 
 #: 8639
 msgid "Cloak of Warding"
-msgstr ""
+msgstr "Мантия защиты"
+
 

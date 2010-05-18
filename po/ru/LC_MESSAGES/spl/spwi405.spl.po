@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:14+0600\n"
+"PO-Revision-Date: 2010-05-19 00:38+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -32,8 +32,25 @@ msgid ""
 "creates 1 missile at 7th, + an additional missile every 2nd level after 7th, "
 "for a max of 7 missiles."
 msgstr ""
+"СИЛОВЫЕ СНАРЯДЫ\n"
+"Дистанция: 90 футов + 5 футов за уровень\n"
+"Длительность: мгновенно\n"
+"Скорость: 4\n"
+"Зона действия: 1 и более существ или предметов\n"
+"Спасбросок: особый\n"
+"\n"
+"Снаряды Силы бьют метко, поражая выбранных жертв. \n"
+"\n"
+"Подобно магическому снаряду, это заклинание создает таинственный шар "
+"магической энергии, который успешно попадает в цель с 2-8 очками урона, вне "
+"зависимости от спасброска. Далее он разрывается с шокирующим взрывом, "
+"наносящим 1 очко урона / уровень колдующего в пределах 3-футового радиуса. "
+"Если совершен спасбросок, шокирующий урон будет отклонен. Маг создает 1 "
+"снаряд на 7-м + дополнительный снаряд на каждом 2-м уровне после 7-го, до "
+"максимума в 7 снарядов."
 
 #: 8650
 msgid "Force Missiles"
-msgstr ""
+msgstr "Силовые снаряды"
+
 

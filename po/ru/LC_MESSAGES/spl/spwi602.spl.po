@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:17+0600\n"
+"PO-Revision-Date: 2010-05-19 00:44+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -32,8 +32,25 @@ msgid ""
 "shell, any type of spell can be cast out of the sphere. The globe lasts for "
 "5 seconds per level of the caster."
 msgstr ""
+"СФЕРА НЕУЯЗВИМОСТИ\n"
+"Дистанция: 0\n"
+"Длительность: 5 секунд за уровень\n"
+"Скорость: 3\n"
+"Зона действия: 5-футовый радиус\n"
+"Спасбросок: нет\n"
+"\n"
+"Подобно своему заклинанию-побратиму, Антимагической оболочке, это колдовство "
+"несколько ограничивает магию от пересечения его пределов. И все же, в "
+"отличие от него, это заклинание позволяет магии проходить наружу.\n"
+"\n"
+"Это заклинание создает неподвижную магическую сферу, которая предотвращает "
+"проникновение любых эффектов заклинаний 1-4 уровней (даже массовых "
+"заклинаний). Заклинания 5-го или более высоких уровней не задерживаются "
+"сферой. Однако, в отличие от антимагической оболочки, заклинания могут "
+"проходить через сферу наружу. Сфера действует 5 секунд за уровень колдующего."
 
 #: 8659
 msgid "Globe of Invulnerability"
-msgstr ""
+msgstr "Сфера неуязвимости"
+
 

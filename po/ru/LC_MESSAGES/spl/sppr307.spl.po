@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:03+0600\n"
+"PO-Revision-Date: 2010-05-18 21:32+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: 29160
 msgid "Remove Curse"
-msgstr ""
+msgstr "Удаление проклятия"
 
 #: 51070
 msgid ""
@@ -32,4 +32,18 @@ msgid ""
 "remove the curse from the actual item itself, but it allows the person to "
 "successfully unequip and rid themselves of the cursed item."
 msgstr ""
+"УДАЛЕНИЕ ПРОКЛЯТИЯ\n"
+"Дистанция: 0\n"
+"Длительность: мгновенно\n"
+"Скорость: 4\n"
+"Зона действия: особая\n"
+"Спасбросок: нет\n"
+"\n"
+"После сотворения этого заклинания проклятые предметы больше не будут "
+"беспокоить тебя.\n"
+"\n"
+"При создании данное заклинание снимает проклятие с выбранной цели. Оно не "
+"снимает проклятие с самой вещи, однако позволяет субъекту успешно снять ее "
+"и избавится от проклятого предмета."
+
 

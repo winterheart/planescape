@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:16+0600\n"
+"PO-Revision-Date: 2010-05-19 00:48+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -28,8 +28,22 @@ msgid ""
 "a 20 ft radius area that inflicts 1-6 pts. of damage for every 5 seconds per "
 "level of the caster. A successful saving throw reduces the damage in half."
 msgstr ""
+"КИСЛОТНАЯ БУРЯ\n"
+"Дистанция: 30 футов\n"
+"Длительность: 30 секунд\n"
+"Скорость: 7\n"
+"Зона действия: 20-футовый радиус высотой до 20 футов\n"
+"Спасбросок: уменьшает эффект вдвое\n"
+"\n"
+"Кислотная буря может пройти, но ожоги от нее останутся еще надолго.\n"
+"\n"
+"Это заклинание создает сильную бурю, которая поливает всех врагов в области "
+"радиусом 20 футов смертоносной кислотой, наносящей 1-6 очков урона каждые 5 "
+"секунд за каждый уровень заклинателя. Успешный спасбросок уменьшает урон "
+"вдвое."
 
 #: 8661
 msgid "Acid Storm"
-msgstr ""
+msgstr "Кислотная буря"
+
 

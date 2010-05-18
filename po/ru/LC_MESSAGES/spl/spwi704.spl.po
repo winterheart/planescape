@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:16+0600\n"
+"PO-Revision-Date: 2010-05-19 00:47+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -32,8 +32,25 @@ msgid ""
 "can still attack or use magic. [This spell cancels all other protective "
 "effects while the spell is active.] "
 msgstr ""
+"МАНТИЯ ОПЕКИ\n"
+"Дистанция: 0\n"
+"Длительность: 50 секунд + 5 секунд за уровень\n"
+"Скорость: 7\n"
+"Зона действия: колдующий\n"
+"Спасбросок: нет\n"
+"\n"
+"Может разделаться со всеми физическими атаками врагов.\n"
+"\n"
+"Это заклинание создает волшебный энергетический покров, который покрывает "
+"тело заклинателя и отражает все физические атаки на протяжении 50 секунд + "
+"5 секунд за уровень колдующего. Все нападающие должны совершить успешный "
+"спасбросок против заклинаний с пенальти -4, чтобы пробить защиту, иначе их "
+"атаки будут отклоняться мантией. К тому же, пока действует заклинание, "
+"колдующий все еще может атаковать и пользоваться магией. [Это заклинание "
+"отменяет все остальные защитные эффекты, пока оно действует.]"
 
 #: 8664
 msgid "Guardian Mantle"
-msgstr ""
+msgstr "Мантия опеки"
+
 

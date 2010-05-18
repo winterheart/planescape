@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:03+0600\n"
+"PO-Revision-Date: 2010-05-18 21:35+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -28,8 +28,21 @@ msgid ""
 "Restores all hit points to a target creature and removes all blindness and "
 "disease conditions on a character."
 msgstr ""
+"ЛЕЧЕНИЕ\n"
+"Дистанция: 0\n"
+"Длительность: постоянная / мгновенно\n"
+"Скорость: 6\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: нет\n"
+"\n"
+"Это заклинание создает высшую силу исцеления. Оно лечит слепоту, все "
+"болезни и полностью восстанавливает цель.\n"
+"\n"
+"Восстанавливает все очки жизни целевого существа и снимает все болезни и "
+"слепоту с персонажа."
 
 #: 8836
 msgid "Heal"
-msgstr ""
+msgstr "Лечение"
+
 

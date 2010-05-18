@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:16+0600\n"
+"PO-Revision-Date: 2010-05-19 00:49+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -30,8 +30,23 @@ msgid ""
 "8 pts. of damage per level of the caster, in addition to inflicting another "
 "2-20 pts. of damage on a natural roll of 20."
 msgstr ""
+"БУРЯ КЛИНКОВ\n"
+"Дистанция: 75 футов\n"
+"Длительность: мгновенно\n"
+"Скорость: 7\n"
+"Зона действия: радиус в 10 ярдов за уровень\n"
+"Спасбросок: уменьшает эффект вдвое\n"
+"\n"
+"Призывается чернейший лед с четвертого слоя Ахерона, чтобы резать, рубить и "
+"рассекать всех, кто против тебя.\n"
+"\n"
+"Это заклинание призывает ряды острых, словно бритвы, Окантийских ледяных "
+"осколков, которые поражают всех врагов в радиусе 10 ярдов за уровень с THAC0 "
+"11, и наносят 1-8 очков урона за уровень колдующего, также причиняя "
+"дополнительно 2-20 очков урона при обычном броске 20."
 
 #: 8662
 msgid "Blade Storm"
-msgstr ""
+msgstr "Буря клинков"
+
 

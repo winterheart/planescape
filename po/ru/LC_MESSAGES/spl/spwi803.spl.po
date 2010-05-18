@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:16+0600\n"
+"PO-Revision-Date: 2010-05-19 00:51+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -29,8 +29,23 @@ msgid ""
 "target, unless it makes a successful saving throw vs. spell. Even on a "
 "successful saving throw, the victim suffers 10-60 pts. of damage."
 msgstr ""
+"СТРЕЛА СМЕРТИ\n"
+"Дистанция: 100 футов\n"
+"Длительность: мгновенно\n"
+"Скорость: 8\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: особый\n"
+"\n"
+"Смерть приходить во многих формах, но среди них нет такой болезненной как "
+"эта. Даже если ты ускользнешь от прикосновения смерти, оно все равно оставит "
+"отметину.\n"
+"\n"
+"Это заклинание призывает волшебную стрелу смерти, которая убывает выбранную "
+"цель, если она не совершит успешный спасбросок против заклинаний. Но даже в "
+"этом случае жертва получит 10-60 очков урона."
 
 #: 8803
 msgid "Deathbolt"
-msgstr ""
+msgstr "Стрела смерти"
+
 

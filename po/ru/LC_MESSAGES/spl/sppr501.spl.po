@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:03+0600\n"
+"PO-Revision-Date: 2010-05-18 21:33+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -27,8 +27,20 @@ msgid ""
 "Restores 27 hit points to the target creature. The creature's restored hit "
 "points cannot exceed its maximum hit points."
 msgstr ""
+"ИСЦЕЛЕНИЕ КРИТИЧЕСКИХ РАН\n"
+"Дистанция: 0\n"
+"Длительность: постоянная / мгновенно\n"
+"Скорость: 8\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: нет\n"
+"\n"
+"Это заклинание лечит любые серьезные раны, полученные целью.\n"
+"\n"
+"Восстанавливает 27 очков жизни у цели-существа. Восстановленные очки жизни "
+"не могут превышать их максимального количества."
 
 #: 8835
 msgid "Cure Critical Wounds"
-msgstr ""
+msgstr "Исцеление критических ран"
+
 

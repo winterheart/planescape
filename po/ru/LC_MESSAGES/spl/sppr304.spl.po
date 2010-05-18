@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:03+0600\n"
+"PO-Revision-Date: 2010-05-18 21:31+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -27,8 +27,20 @@ msgid ""
 "This spell allows the Nameless One to initiate a dialogue with a dead body "
 "within speaking range."
 msgstr ""
+"РАЗГОВОР С МЕРТВЫМ\n"
+"Дистанция: 50 футов\n"
+"Длительность: особая\n"
+"Скорость: 1\n"
+"Зона действия: 1 существо (нежить)\n"
+"Спасбросок: нет\n"
+"\n"
+"Для общения с душами усопших.\n"
+"\n"
+"Это заклинание позволяет Безымянному начинать диалог с мертвым телом на "
+"расстоянии разговора."
 
 #: 8832
 msgid "Speak with Dead"
-msgstr ""
+msgstr "Разговор с мертвым"
+
 

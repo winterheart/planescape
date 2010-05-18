@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:15+0600\n"
+"PO-Revision-Date: 2010-05-19 00:20+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -30,8 +30,23 @@ msgid ""
 "following abilities: +3 to AC, +10% to Stealth, and targets have a -1 "
 "penalty to hit the caster."
 msgstr ""
+"САВАН ТЕНЕЙ\n"
+"Дистанция: 0\n"
+"Длительность: 5-20 секунд +10 секунд\n"
+"Скорость: 4\n"
+"Зона действия: одна цель\n"
+"Спасбросок: нет\n"
+"\n"
+"Это заклинание дает тебе в помощь тени, укрывающие твое тело от обнаружения "
+"и физических атак.\n"
+"\n"
+"При наложении этого заклинания появляется указывающий курсор, и игрок может "
+"выбрать любую цель в пределах досягаемости. Тот, на кого наложили данное "
+"заклинание, увеличивает следующие способности: +3 к КБ, +10% к Скрытности, "
+"а цели получают пенальти -1 к попаданию по заклинателю."
 
 #: 8653
 msgid "Shroud of Shadows"
-msgstr ""
+msgstr "Саван теней"
+
 

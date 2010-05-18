@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:05+0600\n"
+"PO-Revision-Date: 2010-05-18 22:20+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: 29158
 msgid "Blindness"
-msgstr ""
+msgstr "Слепота"
 
 #: 50993
 msgid ""
@@ -33,4 +33,18 @@ msgid ""
 "with blindness and suffer a -4 penalty to its attack rolls and a +4 penalty "
 "to the target's AC."
 msgstr ""
+"СЛЕПОТА\n"
+"Дистанция: 90 футов + 30 футов / уровень\n"
+"Длительность: 60 секунд\n"
+"Скорость: 1\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: отменяет действие\n"
+"\n"
+"Как ненадежно тело, зависящее от глаз! Когда зрение утрачено, становится "
+"сложнее попадать по цели, а сам пострадавший становится легкой мишенью.\n"
+"\n"
+"Если целевое существо проваливает спасбросок, оно будет ослеплено и получит "
+"пенальти -4 к своим броскам атаки, а все противники получат прибавку +4 к "
+"броскам атаки."
+
 

@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:13+0600\n"
+"PO-Revision-Date: 2010-05-19 00:34+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -30,8 +30,24 @@ msgid ""
 "hp over the normal maximum is treated as 'temporary hit points' which will "
 "be lost after one hour if not used beforehand (absorbing damage). "
 msgstr ""
+"ВАМПИРИЧЕСКОЕ КАСАНИЕ\n"
+"Дистанция: касание\n"
+"Длительность: мгновенно\n"
+"Скорость: 3\n"
+"Зона действия: существо, к которому прикоснулись\n"
+"Спасбросок: нет\n"
+"\n"
+"Это заклинание крадет жизнь из цели и передает ее тебе.\n"
+"\n"
+"Когда игрок касается существа (кроме нежити), он вытягивает 1-6 очков жизни "
+"из цели за каждые 2 уровня мага, которые у него есть (2-12 очков жизни для "
+"4-го уровня). Поглощенный урон передается к заклинателю и прибавляется к его "
+"суммарным очкам жизни. Каждое очко сверх обычного максимума считается "
+"'временным очком жизни', которое теряется через час, если не будет "
+"использовано прежде (при поглощении урона)."
 
 #: 8644
 msgid "Vampiric Touch"
-msgstr ""
+msgstr "Вампирическое касание"
+
 

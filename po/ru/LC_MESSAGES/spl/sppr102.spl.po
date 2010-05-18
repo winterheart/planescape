@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 19:55+0600\n"
+"PO-Revision-Date: 2010-05-18 20:50+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -28,8 +28,22 @@ msgid ""
 "area. Cure Light Wounds heals a target for 8 hit points of damage. The "
 "creature's restored hit points cannot exceed its maximum hit points."
 msgstr ""
+"ИСЦЕЛЕНИЕ ЛЕГКИХ РАН\n"
+"Дистанция: 0\n"
+"Длительность: постоянная / мгновенно\n"
+"Скорость: 1\n"
+"Зона действия: существо, к которому прикоснулись\n"
+"Спасбросок: нет\n"
+"\n"
+"Это заклинание закрывает легкие раны на цели.\n"
+"\n"
+"Заклинатель может наложить заклинание на любого в пределах касания, в "
+"30-футовой области. Исцеление легких ран лечит 8 очков жизни у цели. "
+"Восстановленные очки жизни не могут превышать их максимального "
+"количества."
 
 #: 8821
 msgid "Cure Light Wounds"
-msgstr ""
+msgstr "Исцеление легких ран"
+
 

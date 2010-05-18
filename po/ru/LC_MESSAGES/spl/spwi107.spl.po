@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:04+0600\n"
+"PO-Revision-Date: 2010-05-18 21:51+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -29,8 +29,23 @@ msgid ""
 "5 pts. of damage with no saving throw possible. In addition, the caster "
 "gains 1 extra missile every 2 levels, for a total of 5 missiles at level 9."
 msgstr ""
+"МАГИЧЕСКИЙ СНАРЯД\n"
+"Дистанция: 80 футов + (30 футов / уровень)\n"
+"Длительность: мгновенно\n"
+"Скорость: 1\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: нет\n"
+"\n"
+"Это заклинание создает из мистической энергии снаряды, бьющие без промаха. "
+"Чем выше твое мастерство, тем больше снарядов ты можешь швырнуть.\n"
+"\n"
+"Заклинание призывает магический снаряд, безошибочно попадающий в цель с 2-5 "
+"очками урона без возможности спасброска. Также заклинатель создает 1 "
+"дополнительный снаряд за каждые 2 уровня, вплоть до 5-и снарядов на 9-м "
+"уровне."
 
 #: 8617
 msgid "Magic Missile"
-msgstr ""
+msgstr "Магический снаряд"
+
 

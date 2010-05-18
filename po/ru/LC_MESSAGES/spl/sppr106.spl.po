@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 19:55+0600\n"
+"PO-Revision-Date: 2010-05-18 21:09+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -31,8 +31,23 @@ msgid ""
 "caused by such evil attacks for a duration of 10 seconds / level of the "
 "caster."
 msgstr ""
+"ЗАЩИТА ОТ ЗЛА\n"
+"Дистанция: 0\n"
+"Длительность: 10 секунд за уровень\n"
+"Скорость: 1\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: нет\n"
+"\n"
+"Это заклинание окружает заклинателя кольцом защиты, которое помогает "
+"защитить его от нападения существ со злыми намерениями.\n"
+"\n"
+"Это заклинание дает защиту от злых существ в виде магического барьера, "
+"который окружает заколдованного. Оно дает штраф -2 к броскам атаки злых "
+"существ и дарует бонус +2 ко всем спасброскам, которые были вызваны "
+"подобными злыми атаками, на 10 секунд за каждый уровень заклинателя."
 
 #: 8619
 msgid "Protection from Evil"
-msgstr ""
+msgstr "Защита от зла"
+
 

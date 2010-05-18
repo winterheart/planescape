@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:15+0600\n"
+"PO-Revision-Date: 2010-05-18 23:21+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -28,8 +28,21 @@ msgid ""
 "is instantly killed. It can kill any creature that has up to 120 hit points, "
 "with no saving throw allowed."
 msgstr ""
+"УБИВАЮЩЕЕ СЛОВО СИЛЫ\n"
+"Дистанция: 15 футов за 2 уровня\n"
+"Длительность: мгновенно\n"
+"Скорость: 1\n"
+"Зона действия: 10-футовый радиус\n"
+"Спасбросок: нет\n"
+"\n"
+"С помощью единственного слова вытягиваются все жизненные силы.\n"
+"\n"
+"Когда произносится это заклинание, одно существо любого типа в пределах "
+"дальности заклинание мгновенно лишается жизни. Можно убить любое существо, "
+"имеющее до 120 очков жизни, без возможности спасброска."
 
 #: 8814
 msgid "Power Word, Kill"
-msgstr ""
+msgstr "Убивающее слово силы"
+
 

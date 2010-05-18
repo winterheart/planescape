@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-09-04 20:15+0600\n"
+"PO-Revision-Date: 2010-05-18 23:30+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -30,8 +30,23 @@ msgid ""
 "also suffer 2-12 pts. of damage, but are allowed a saving throw vs. spells "
 "to halve the damage."
 msgstr ""
+"СОЖЖЕНИЕ\n"
+"Дистанция: 50 футов\n"
+"Длительность: 50 секунд\n"
+"Скорость: 9\n"
+"Зона действия: 1 существо\n"
+"Спасбросок: особый\n"
+"\n"
+"Гори, гори, гори.\n"
+"\n"
+"С помощью этого ужасного заклинания одно существо будет охвачено огнем, "
+"получая 2-12 очков урона за каждые 5 секунд без спасброска. Заклинание "
+"длится 5 секунд за уровень колдующего. Любой в пределах 10 футов от цели "
+"также получит 2-12 очков урона, но может выкинуть спасбросок против "
+"заклинаний, чтобы получить вдвое меньше урона."
 
 #: 8808
 msgid "Conflagration"
-msgstr ""
+msgstr "Сожжение"
+
 
