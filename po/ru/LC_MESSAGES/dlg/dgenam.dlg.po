@@ -1,23 +1,25 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dgenam.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:17+0600\n"
+"PO-Revision-Date: 2010-06-07 16:56+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 63563
 msgid ""
 "You see a young man with a bored expression on his face. He doesn't notice "
 "your approach."
 msgstr ""
+"Ты видишь парня со скучающим выражением на лице. Он не замечает твоего "
+"приближения."
 
 #: 63564 63575 63605
 msgid "\"Greetings.\""
@@ -32,24 +34,24 @@ msgid ""
 "He jumps at your greeting and turns to face you. \"What... What do you want?"
 "\""
 msgstr ""
+"Подпрыгнув от неожиданного приветствия, он поворачивается к тебе. \"Что... "
+"что тебе нужно?\""
 
 #: 63567 63578 63608
 msgid "\"I have some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 63568
-#, fuzzy
 msgid "\"Nothing, never mind.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно.\""
 
 #: 63569
 msgid "\"Questions... Oh, no. I'm busy.\" "
-msgstr ""
+msgstr "\"Вопросы... Только не это. Я занят.\""
 
 #: 63570
-#, fuzzy
 msgid "\"It will take just a moment of your time...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Это займет совсем немного твоего времени...\""
 
 #: 63571
 msgid "\"Farewell then.\""
@@ -57,7 +59,7 @@ msgstr "\"Тогда прощай.\" "
 
 #: 63572
 msgid "\"I don't care.\" He turns away from you."
-msgstr ""
+msgstr "\"Меня это не волнует\", - он отворачивается от тебя."
 
 #: 63573 63619
 msgid "Leave."
@@ -68,19 +70,20 @@ msgid ""
 "You see a young man. He is paying careful attention to the crowd around him. "
 "He nods at your approach."
 msgstr ""
+"Ты видишь парня, внимательно прислушивающегося к людям вокруг него. При "
+"твоем приближении он кивает."
 
 #: 63577
 msgid "\"Aye, a good day to you.\" He looks you up and down."
-msgstr ""
+msgstr "\"Ага, и тебе хорошего дня.\" Он осматривает тебя с головы до пят."
 
 #: 63579
-#, fuzzy
 msgid "\"No, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Нет, неважно. Прощай.\""
 
 #: 63581
 msgid "\"Please ask away.\""
-msgstr ""
+msgstr "\"Пожалуйста, задавай.\""
 
 #: 63582
 msgid "\"Who are you?\""
@@ -91,14 +94,12 @@ msgid "\"What are you doing?\""
 msgstr "\"Что ты делаешь?\""
 
 #: 63584
-#, fuzzy
 msgid "\"What can you tell me about this ward?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Что ты можешь рассказать об этом районе?\""
 
 #: 63585
-#, fuzzy
 msgid "\"Is there anything of interest in this ward?\""
-msgstr "\"Что еще ты можешь сказать мне?\""
+msgstr "\"Есть ли что интересное в этом районе?\""
 
 #: 63586 63589 63592 63597 63600
 msgid "\"I must be going, farewell.\""
@@ -107,23 +108,23 @@ msgstr "\"Я должен идти. Прощай.\""
 #: 63587
 msgid ""
 "\"No one of any importance. Is there something specific you wanted to ask me?"
-msgstr ""
+msgstr "\"Это не имеет значения. Тебя интересует что-то особенное?\""
 
 #: 63588
-#, fuzzy
 msgid "\"Yes, I have some questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"Да, у меня есть некоторые вопросы...\""
 
 #: 63590
 msgid ""
 "\"I'm watching the crowd. I like to watch people because I find them to be "
 "fascinating.\""
 msgstr ""
+"\"Я слежу за толпой. Мне нравится наблюдать за людми, я нахожу это занятие "
+"увлекательным.\""
 
 #: 63591
-#, fuzzy
 msgid "\"I see. I have some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Понятно. У меня еще есть вопросы...\""
 
 #: 63593
 msgid ""
@@ -131,36 +132,37 @@ msgid ""
 "of markets and such here so it attracts a wide variety of people... I like "
 "watching people.\" He glances about."
 msgstr ""
+"\"Не так уж и много. Я просто пришел сюда, чтобы смотреть на толпу. Здесь "
+"полно всяких рынков, которые привлекают много разных людей... Мне нравится "
+"наблюдать за людьми.\" Он оглядывает все вокруг."
 
 #: 63594
-#, fuzzy
 msgid "\"What can I buy here?\""
-msgstr "\"Где я могу найти ее?\""
+msgstr "\"Что здесь можно купить?\""
 
 #: 63595
-#, fuzzy
 msgid "\"I see. I have some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня есть еще вопросы...\""
 
 #: 63598
 msgid "He smiles. \"Well... just about anything... Look around and shop.\""
-msgstr ""
+msgstr "Он улыбается. \"Ну... все что угодно... Просто пройдись по округе.\""
 
 #: 63599
-#, fuzzy
 msgid "\"I have some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще вопросы...\""
 
 #: 63601
 msgid ""
 "\"Yes! The people here are fascinating. Quite a variety really... But I "
 "don't suppose most folks would care...\""
 msgstr ""
+"\"Да! Здешние люди просто потрясающие. Такое разнообразие... Только мне "
+"кажется, никому до этого нет дела...\""
 
 #: 63602
-#, fuzzy
 msgid "\"Hmm. I have some more questions...\""
-msgstr "\"Хммм. У меня есть некоторые вопросы...\""
+msgstr "\"Хммм. У меня есть еще вопросы...\""
 
 #: 63603
 msgid "\"Thank you, farewell.\""
@@ -170,47 +172,51 @@ msgstr "\"Спасибо, прощай.\""
 msgid ""
 "You see an anxious looking man. He gives you an annoyed look as you approach."
 msgstr ""
+"Ты видишь беспокойного мужчину. При твоем приближении он раздраженно смотрит "
+"на тебя."
 
 #: 63607
 msgid "He gives you a bored look. \"Uh... Hello.\""
-msgstr ""
+msgstr "\"О... Привет\", - он отвечает со скучающим лицом."
 
 #: 63609 63612 63617
-#, fuzzy
 msgid "\"Very well, farewell.\""
-msgstr "\"Ух, прощай...\""
+msgstr "\"Хорошо, прощай.\""
 
 #: 63610
 msgid "\"Then go find a tout.\" He frowns."
-msgstr ""
+msgstr "\"Тогда иди и найди осведомителя\", - хмуро говорит он."
 
 #: 63611
-#, fuzzy
 msgid "\"It will only take a moment of your time.\""
-msgstr "\"Спасибо за уделенное время. Прощай.\""
+msgstr "\"Это не займет много твоего времени.\""
 
 #: 63613
 msgid "His frown deepens. \"I really don't give a rat's arse...\""
 msgstr ""
+"Он хмурится еще сильнее. \"Я не собираюсь тут выкаблучиваться перед тобой..."
+"\""
 
 #: 63614
-#, fuzzy
 msgid "\"So you won't help me?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Значит, ты не поможешь мне?\""
 
 #: 63615
-#, fuzzy
 msgid "\"I see, farewell.\""
-msgstr "\"Понятно. Прощай.\""
+msgstr "\"Понятно,  прощай.\""
 
 #: 63616
 msgid ""
 "He gives you a disgusted look, snorts, and then turns away. \"Clueless sod..."
 "\""
 msgstr ""
+"С отвращением фыркнув на тебя, он отворачивается... \"Пустоголовый...\""
 
 #: 63618
 msgid ""
 "You see the auctioneer customer. He waves you off as you attempt to talk to "
 "him again."
 msgstr ""
+"Ты видишь покупателя аукциониста. Он отмахивается от твоей попытки снова "
+"заговорить с ней."
+
