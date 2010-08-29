@@ -1354,10 +1354,20 @@
             </termEntry>
             <termEntry id="azamat_h._hackimov-73">
                 <descrip type="subjectField">planescape</descrip>
+                
+                
+                
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
                             <term>fiend</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>fiends</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -3189,10 +3199,21 @@
             <termEntry id="azamat_h._hackimov-179">
                 <descrip type="subjectField">существа</descrip>
                 <descrip type="definition">Одно из планарных существ</descrip>
+                
+                
+                
+                
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
                             <term>deva</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>devas</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -4765,10 +4786,28 @@
             <termEntry id="azamat_h._hackimov-262">
                 <descrip type="subjectField">персонажи</descrip>
                 <descrip type="definition">Проститутка</descrip>
+                
+                
+                
+                
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>kesai</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
                             <term>kesai-serris</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>кесай</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -5473,7 +5512,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-300">
                 <descrip type="subjectField">персонажи</descrip>
                 <langSet xml:lang="en">
@@ -5491,7 +5529,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-301">
                 <descrip type="subjectField">общие термины</descrip>
                 <descrip type="definition">Проситель - житель Плана, представляющий его суть, его сущность.</descrip>
@@ -5510,7 +5547,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-302">
                 <descrip type="subjectField">механика AD&amp;D</descrip>
                 <langSet xml:lang="en">
@@ -5528,7 +5564,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-303">
                 <descrip type="subjectField">персонажи</descrip>
                 <langSet xml:lang="en">
@@ -5546,7 +5581,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-304">
                 <descrip type="subjectField">география планов</descrip>
                 <descrip type="definition">Пятый слой Баатора</descrip>
@@ -5565,7 +5599,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-305">
                 <descrip type="subjectField">существа</descrip>
                 <descrip type="definition">Вампироподобное существо с злых планов</descrip>
@@ -5584,7 +5617,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-306">
                 <descrip type="subjectField">существа</descrip>
                 <langSet xml:lang="en">
@@ -5602,7 +5634,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-307">
                 <descrip type="subjectField">персонажи</descrip>
                 <descrip type="definition">Первая любовь Долоры, у которого есть ключи от ее сердца.</descrip>
@@ -5621,7 +5652,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-308">
                 <descrip type="subjectField">персонажи</descrip>
                 <descrip type="definition">Одна из служительниц Борделя.</descrip>
@@ -5640,7 +5670,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-309">
                 <descrip type="subjectField">география планов</descrip>
                 <descrip type="definition">Один из планов, состоящий из четырех слоев. Также известен как Адское поле битвы Ахерона.</descrip>
@@ -5659,7 +5688,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-310">
                 <descrip type="subjectField">planescape</descrip>
                 <descrip type="definition">Одна из фракций Сигила.</descrip>
@@ -5678,7 +5706,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-311">
                 <descrip type="subjectField">planescape</descrip>
                 <descrip type="definition">Фракция в Сигиле.</descrip>
@@ -5697,7 +5724,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-312">
                 <descrip type="subjectField">персонажи</descrip>
                 <descrip type="definition">Одна из проституток Борделя.</descrip>
@@ -5712,6 +5738,83 @@
                     <ntig>
                         <termGrp>
                             <term>ненни</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-313">
+                <descrip type="subjectField">персонажи</descrip>
+                <descrip type="definition">Жрец Хранителей Рока, владелец Дробящего молота</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>enote</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>энот</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            
+            
+
+            <termEntry id="azamat_h._hackimov-314">
+                <descrip type="subjectField">персонажи</descrip>
+                <descrip type="definition">Проститутка из Борделя.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>kimasxi</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>кимаскси</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-315">
+                <descrip type="subjectField">география планов</descrip>
+                <descrip type="definition">Один из планов</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>gray waste</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>серая пустошь</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-316">
+                <descrip type="subjectField">planescape</descrip>
+                <descrip type="definition">Название фракции Братства Порядка.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>guvner</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>законник</term>
                         </termGrp>
                     </ntig>
                 </langSet>
