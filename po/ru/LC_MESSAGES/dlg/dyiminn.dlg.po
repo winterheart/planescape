@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dyi'minn.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 02:05+0600\n"
+"PO-Revision-Date: 2010-10-17 05:00+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 38976
 msgid ""
@@ -19,6 +19,9 @@ msgid ""
 "Apparently, they used to be the same race, but split millennia ago, and now "
 "their hatred for each other knows no bounds."
 msgstr ""
+"Я узнал о противостоянии гитьянки и гитцерай. Очевидно, когда-то они были "
+"одной расой, но разделились тысячи лет назад, и теперь их взаимная ненависть "
+"не имеет границ."
 
 #: 39452
 msgid ""
@@ -26,12 +29,18 @@ msgid ""
 "memories for me from the Astral Plane. He said I should meet him again in "
 "the Lower Ward in a week's time."
 msgstr ""
+"Я только что заключил сделку с Йиминн, гитьянки-ловцом, о возврате моих "
+"воспоминаний из Астрального плана. Он сказал, что я должен встретиться с ним "
+"снова в Нижнем районе через неделю."
 
 #: 44367
 msgid ""
 "This feral, yellow-skinned man looks you over for a moment. His eyes widen, "
 "and he whips out his sword. \"Dog! Githzerai-loving dog!\" He lunges at you!"
 msgstr ""
+"Этот грубый желтокожий мужчина некоторое время рассматривает тебя. Его глаза "
+"расширяются, и он выхватывает меч. \"Пес! Пес-любитель гитцерай!\" Он "
+"кидается на тебя!"
 
 #: 44368
 msgid "Attack."
@@ -50,47 +59,49 @@ msgid ""
 "eyes are like two small black stones and they track you as you approach. "
 "\"You are the human seeking memories,\" he says, flatly. \"I can help you.\""
 msgstr ""
+"У этого мужчины грубая жесткая кожа с желтоватым оттенком и резкие черты "
+"лица. Его лицо угловатое, нос небольшой и высоко посажен, а уши заостренные "
+"на концах. Паутина татуировок и шрамов покрывает его тело. Он одет в "
+"странные яркие кожаные доспехи, которые, казалось бы, служат скорее для "
+"украшения, чем для боя. Его глаза - словно два маленьких черных камешка; они "
+"следят за твоим приближением. \"Ты - человек, ищущий воспоминания, - говорит "
+"он равнодушно. - Я могу помочь тебе\"."
 
 #: 44375 44392
-#, fuzzy
 msgid "\"You're a githyanki, aren't you?\""
-msgstr "\"Ты не зомби! Кто ты?\""
+msgstr "\"Ты ведь гитьянки?\""
 
 #: 44378 44393 44405 44432
-#, fuzzy
 msgid "\"Who and what are you?\""
-msgstr "\"Кто ты такой?\""
+msgstr "\"Кто или что ты?\""
 
 #: 44380 44394
-#, fuzzy
 msgid "\"Greetings, sword-ringer.\""
-msgstr "\"Приветствую, Порфирон.\""
+msgstr "\"Приветствую, звенящий мечем\"."
 
 #: 44385 44398
-#, fuzzy
 msgid "\"How do you know this?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Откуда тебе об этом известно?\""
 
 #: 44388 44401
-#, fuzzy
 msgid "\"What help can you offer?\""
-msgstr "\"Что ты делаешь?\""
+msgstr "\"Как ты можешь мне помочь?\""
 
 #: 44390 44402
-#, fuzzy
 msgid "\"I'm not interested, thanks. Farewell.\""
-msgstr "\"Не заинтересован. Прощай.\""
+msgstr "\"Спасибо, меня это не интересует. Прощай\"."
 
 #: 44404
 msgid ""
 "\"I have the pleasure to be of that people.\" His voice is flat. \"Do you "
 "wish my aid in recovering your memories?\""
 msgstr ""
+"\"Я имею удовольствие быть представителем этого народа, - говорит он ровным "
+"голосом. - Тебе нужна моя помощь в восстановлении твоих воспоминаний?\""
 
 #: 44406
-#, fuzzy
 msgid "\"Hmm. Not today, thanks.\""
-msgstr "\"Спасибо, не сегодня.\""
+msgstr "\"Хмм. Спасибо, не сегодня.\""
 
 #: 44407
 msgid ""
@@ -100,15 +111,19 @@ msgid ""
 "cores of the dead and gleaning them for information. I can locate your "
 "memories. You have only to pay the price.\""
 msgstr ""
+"\"Я - Йиминн. Я - гитьянки-ловец. Мой народ - несомненные повелители "
+"Астрального плана, куда уходят умирать боги и где воспоминания мертвых "
+"плавают словно листья в пруду. Мой долг в том, чтобы вылавливать сущность "
+"памяти мертвых и извлекать из нее информацию. Я могу найти твои воспоминания."
+" Тебе нужно лишь заплатить.\""
 
 #: 44408
 msgid "\"What price would that be?\""
-msgstr ""
+msgstr "\"Какова же будет цена?\""
 
 #: 44410
-#, fuzzy
 msgid "\"Not interested, thanks. Farewell.\""
-msgstr "\"Не заинтересован. Прощай.\""
+msgstr "\"Спасибо, меня это не интересует. Прощай.\""
 
 #: 44413
 msgid ""
@@ -116,32 +131,37 @@ msgid ""
 "involuntarily to his sword hilt. \"You have addressed me in the speech of "
 "the githzerai dogs. Was this ignorance or insult?\""
 msgstr ""
+"Его лицо моментально вытягивается, мышцы напрягаются, а рука непроизвольно "
+"тянется к рукоятке меча. \"Ты обратился ко мне, как это делают гитцерайские "
+"псы. Было ли это невежество или оскорбление?\""
 
 #: 44416
 msgid "\"Ignorance.\""
-msgstr ""
+msgstr "\"Невежество.\""
 
 #: 44417
 msgid "\"Insult.\""
-msgstr ""
+msgstr "\"Оскорбление.\""
 
 #: 44419
 msgid "\"You're not a githzerai?\""
-msgstr ""
+msgstr "\"Ты не гитцерай?\""
 
 #: 44422
 msgid "\"It was neither.\""
-msgstr ""
+msgstr "\"Ни то, ни другое.\""
 
 #: 44425
 msgid ""
 "\"You have the look of one such. In my profession, we see many of your kind."
 "\""
 msgstr ""
+"\"Просто у тебя такой вид. В моей профессии мы встречаем много таких как ты."
+"\""
 
 #: 44434
 msgid "\"Leave me alone. I'm not interested in your quackery.\""
-msgstr ""
+msgstr "\"Оставь меня в покое. Мне не интересно твое шарлатанство.\""
 
 #: 44437
 msgid ""
@@ -150,32 +170,34 @@ msgid ""
 "how to catch them.\" He pauses and leans forward, conspiratorially. \"I know "
 "how to *restore* them. All you need do is pay the price.\""
 msgstr ""
+"\"Я ли не гитьянки? Не мы ли живем на полях Астрала? Я ловец воспоминаний, "
+"которые исчезают. Я знаю, как заманивать воспоминания. Я знаю, как ловить "
+"их, - он умолкает и с видом заговорщика наклоняется вперед. - Я знаю, как "
+"*восстановить* их. Все, что тебе нужно - это заплатить.\""
 
 #: 44439 44491 44503 44633
-#, fuzzy
 msgid "\"What price is that?\""
-msgstr "\"Что-что?\""
+msgstr "\"Какова цена?\""
 
 #: 44441 44540
-#, fuzzy
 msgid "\"What can you tell me of the Astral Plane?\""
-msgstr "\"Что ты можешь рассказать о здешних завсегдатаях?\""
+msgstr "\"Что ты можешь рассказать мне об Астральном плане?\""
 
 #: 44445
-#, fuzzy
 msgid "\"I'm not interested. Farewell.\""
-msgstr "\"Не заинтересован. Прощай.\""
+msgstr "\"Меня это не интересует. Прощай.\""
 
 #: 44447
 msgid ""
 "\"Remember my offer, human. Should you desire your memories, you can find me "
 "here. Remember my words.\""
 msgstr ""
+"\"Помни о моем предложении, человек. Если пожелаешь вернуть свои "
+"воспоминания, можешь найти меня здесь. Запомни мои слова.\""
 
 #: 44450
-#, fuzzy
 msgid "\"I'll do that. Farewell.\""
-msgstr "\"Я свалю. Прощай.\""
+msgstr "\"Конечно. Прощай.\""
 
 #: 44455
 msgid ""
@@ -183,15 +205,16 @@ msgid ""
 "hundred. You will determine the value of the memories I find and pay "
 "accordingly.\""
 msgstr ""
+"\"Это дело всего лишь нескольких монет. Цена доступна. Я прошу сотню. Ты "
+"определишь ценность найденных мной воспоминаний и заплатишь соответственно.\""
 
 #: 44457
 msgid "\"Sounds good. What do I have to do?\""
-msgstr ""
+msgstr "\"Звучит неплохо. Что я должен делать?\""
 
 #: 44458
-#, fuzzy
 msgid "\"Perhaps later. Farewell.\""
-msgstr "\"Возможно. Прощай.\""
+msgstr "\"Может, позже. Прощай.\""
 
 #: 44459
 msgid ""
@@ -200,26 +223,34 @@ msgid ""
 "quiet. If you will follow me, we will journey to one such place and I will "
 "make you whole once again. We go alone, with no companions.\""
 msgstr ""
+"\"Чтобы найти приманку для твоих воспоминаний, мне понадобятся кое-какие "
+"воспоминания из тех, которыми ты владеешь. Мне также необходимо тихое место, "
+"чтобы сосредоточиться. Если ты последуешь за мной, мы отправимся в одно "
+"такое место, и я вновь сделаю тебя единым. Мы пойдем одни, без попутчиков.\""
 
 #: 44460
 msgid "\"Agreed. Let's go.\""
-msgstr ""
+msgstr "\"Согласен. Пошли.\""
 
 #: 44461
 msgid "\"Perhaps not right now.\""
-msgstr ""
+msgstr "\"Пожалуй, не сейчас.\""
 
 #: 44462
 msgid ""
 "\"I smell your trap, githyanki dog. Your *illithid* masters should have kept "
 "you in chains.\""
 msgstr ""
+"\"Я учуял твою ловушку, пес гитьянки. Твои хозяева-*иллитиды* должны были "
+"держать тебя в цепях.\""
 
 #: 44463
 msgid ""
 "Without a word, and as smooth as silk, the angler draws his weapon and leaps "
 "to attack you!"
 msgstr ""
+"Без единого слова, плавно как шелк, ловец достает свое оружие и подскакивает "
+"к тебе для атаки!"
 
 #: 44464 44484 44608 44612 44615
 msgid "Fight."
@@ -230,57 +261,64 @@ msgid ""
 "\"You may beg forgiveness now.\" He stands stock-still, his eyes flickering "
 "across your body."
 msgstr ""
+"\"Теперь можешь молить о прощении\". Он неподвижно стоит, его глаза бегают "
+"по тебе."
 
 #: 44467 44472
 msgid "\"You have my apologies.\""
-msgstr ""
+msgstr "\"Приношу свои извинения.\""
 
 #: 44468
 msgid "\"Beg? To you?\""
-msgstr ""
+msgstr "\"Молить? Тебя?\""
 
 #: 44469 44473
-#, fuzzy
 msgid "\"What, you don't like being called a githzerai?\""
-msgstr "\"Что ты можешь сказать о фракциях?\""
+msgstr "\"Что, тебе не нравится, когда тебя называют гитцерай?\""
 
 #: 44470 44474
 msgid "\"Unthinkable.\""
-msgstr ""
+msgstr "\"Немыслимо.\""
 
 #: 44471
 msgid ""
 "\"Yes.\" He shows his teeth. \"You have uttered a nearly-unforgivable "
 "insult. You may beg forgiveness.\""
 msgstr ""
+"\"Да, - он скалится. - Ты произнес почти непростительное оскорбление. Можешь "
+"молить о прощении.\""
 
 #: 44475
 msgid ""
 "\"I am a *githyanki*. I have nothing to do with the githzerai dogs. Can the "
 "same be said of you?\""
 msgstr ""
+"\"Я - *гитьянки*. У меня нет ничего общего с гитцерайскими псами. Можешь ли "
+"ты сказать то же самое о себе?\""
 
 #: 44476
 msgid "Truth: \"I've known some githzerai. Nice people.\""
-msgstr ""
+msgstr "Правда: \"Я знал нескольких гитцерай. Приятный народ.\""
 
 #: 44477
 msgid "Lie: \"I've known some githzerai. Nice people.\""
-msgstr ""
+msgstr "Ложь: \"Я знал нескольких гитцерай. Приятный народ.\""
 
 #: 44478 44480
 msgid "Truth: \"No, the githzerai are less than nothing to me.\""
-msgstr ""
+msgstr "Правда: \"Нет, гитцерай для меня - меньше чем ничто.\""
 
 #: 44479 44481
 msgid "Lie: \"No, the githzerai are less than nothing to me.\""
-msgstr ""
+msgstr "Ложь: \"Нет, гитцерай для меня - меньше чем ничто.\""
 
 #: 44483
 msgid ""
 "\"So your sympathies lie with the githzerai dogs? So shall your corpse!\" He "
 "draws his blade and attacks!"
 msgstr ""
+"\"Так ты на стороне гитцерайских псов? Да будет там же твой труп!\" - он "
+"обнажает свой клинок и нападает!"
 
 #: 44490
 msgid ""
@@ -288,10 +326,13 @@ msgid ""
 "memories that require retrieval. I can retrieve them. We need only decide on "
 "a price.\""
 msgstr ""
+"\"Тогда неважно. Это лишь тлен. Поговорим о других вещах. У тебя есть "
+"воспоминания, которые нужно вернуть. Я способен выловить их. Нам нужно лишь "
+"определить цену.\""
 
 #: 44492
 msgid "\"I'm not interested right now.\""
-msgstr ""
+msgstr "\"В данный момент меня это не интересует.\""
 
 #: 44493
 msgid ""
@@ -299,16 +340,20 @@ msgid ""
 "say they are nothing to you, yet you addressed me in their greeting. What is "
 "the truth?\""
 msgstr ""
+"Его оскал не пропадает, а тело все еще напряжено. \"Ты говоришь: они ничто "
+"для тебя. И все же обращаешься ко мне с их приветствием. Где же правда?\""
 
 #: 44494
 msgid "\"You caught me. They're not bad people.\""
-msgstr ""
+msgstr "\"Ты меня подловил. Они неплохие люди.\""
 
 #: 44495
 msgid ""
 "\"They are nothing. I admitted my ignorance, admitted I misspoke, and "
 "apologize. Better?\""
 msgstr ""
+"\"Они - ничто. Я признаю свое невежество, признаю, что выразился "
+"неправильно, и прошу прощения. Так лучше?\""
 
 #: 44496
 msgid ""
@@ -316,28 +361,30 @@ msgid ""
 "Let us speak of other matters: You have memories, and I can retrieve them. "
 "We need but agree on a price.\""
 msgstr ""
+"\"Это хорошо. У гитцерай кровь как вода, и семя их слабо. Давай обсудим "
+"другие вещи: у тебя есть воспоминания, и я могу вернуть их. Нам нужно лишь "
+"согласовать цену.\""
 
 #: 44497 44558
-#, fuzzy
 msgid "\"What is that price?\""
-msgstr "\"Что-что?\""
+msgstr "\"Какова цена?\""
 
 #: 44498 44505
-#, fuzzy
 msgid "\"Let me get back to you on that.\""
-msgstr "\"Ты можешь задать еще один вопрос?\""
+msgstr "\"Теперь давай вернемся к тебе.\""
 
 #: 44499
 msgid "\"It must be one or the other - calculated or ignorant. Which?\""
 msgstr ""
+"\"Это должно быть одно из двух - либо рассчет, либо невежество. Так что же?\""
 
 #: 44500
 msgid "\"It came from ignorance.\""
-msgstr ""
+msgstr "\"Это невежество\"."
 
 #: 44501
 msgid "\"It came from insult.\""
-msgstr ""
+msgstr "\"Это оскорбление\"."
 
 #: 44502
 msgid ""
@@ -348,6 +395,12 @@ msgid ""
 "sea. I can help retrieve your lost memories. All that remains is for us to "
 "agree upon a price.\""
 msgstr ""
+"\"Это не-место, место среди мест, где разум - единственное, что имеет "
+"значение. Это дом моего народа. Когда люди умирают, их души улетают во "
+"Внешние планы. Когда они проходят через Астральный план, их воспоминания "
+"покидают их и остаются дрейфовать в Серебряном море. Мне известен мой путь "
+"через это море. Я могу помочь возвратить потерянные тобой воспоминания. Все, "
+"что осталось - это определиться с ценой.\""
 
 #: 44504 44509
 msgid ""
@@ -355,45 +408,46 @@ msgid ""
 "Your lost look grows ever greater. You have but a small price to pay for "
 "peace of mind.\""
 msgstr ""
+"\"Ты ищешь воспоминания, не так ли, человек? Я могу вернуть их тебе. Похоже, "
+"что твоя потеря стала еще больше. Тебе нужно лишь немного заплатить за них.\""
 
 #: 44506 44510 44514
-#, fuzzy
 msgid "\"What's the price?\""
-msgstr "\"А в чем проблема?\""
+msgstr "\"Какова цена?\""
 
 #: 44507 44511
-#, fuzzy
 msgid "\"Tell me more of your people.\""
-msgstr "\"Доложи свою задачу.\""
+msgstr "\"Расскажи мне побольше о твоем народе.\""
 
 #: 44508 44512
-#, fuzzy
 msgid "\"Not today, thanks. Farewell.\""
-msgstr "\"Не сегодня, спасибо. Прощай.\""
+msgstr "\"Спасибо, не сегодня. Прощай.\""
 
 #: 44513
 msgid ""
 "\"The answer may be contained in your lost memories. Let us begin, and you "
 "shall learn.\""
 msgstr ""
+"\"Ответ может быть в утрачнных тобой воспоминаниях. Начнем, и ты узнаешь.\""
 
 #: 44515
 msgid "\"What's involved in this?\""
-msgstr ""
+msgstr "\"Как они с этим связаны?\""
 
 #: 44516
 msgid "\"I don't think I'm interested yet.\""
-msgstr ""
+msgstr "\"Пока не думаю, что мне это интересно.\""
 
 #: 44517
 msgid ""
 "\"When you change your mind - and you will, human, you will - return here.\""
 msgstr ""
+"\"Когда изменишь свое мнение - а ты его изменишь, человек, - возвращайся "
+"сюда.\""
 
 #: 44518
-#, fuzzy
 msgid "\"Sure. Farewell.\""
-msgstr "\"Нет... прощай.\""
+msgstr "\"Конечно. Прощай.\""
 
 #: 44519
 msgid ""
@@ -405,49 +459,56 @@ msgid ""
 "you open your mouth, he holds up a hand: \"I will not hear you, human. Do "
 "not speak to one of the People.\""
 msgstr ""
+"У этого мужчины грубая жесткая кожа с желтоватым оттенком и резкие черты "
+"лица. Его лицо угловатое, нос небольшой и высоко посажен, а уши заостренные "
+"на концах. Паутина татуировок и шрамов покрывает его тело. Он одет в "
+"странные яркие кожаные доспехи, которые, казалось бы, служат скорее для "
+"украшения, чем для боя. Его глаза - словно два маленьких черных камешка; они "
+"следят за твоим приближением. Когда ты раскрываешь рот, он станавливает тебя "
+"жестом: \"Я не буду тебя слушать, человек. Не обращайся к одному из Народа\"."
 
 #: 44520
 msgid "\"What are you talking about?\""
 msgstr "\"О чем это ты толкуешь?\""
 
 #: 44521
-#, fuzzy
 msgid "\"I just have a few questions...\""
-msgstr "\"Всего лишь несколько вопросов...\""
+msgstr "\"У меня только пару вопросов...\""
 
 #: 44522 44527 44531
 msgid ""
 "\"Your 'People' are dogs who never should have slipped the leash of their "
 "*illithid* masters.\""
 msgstr ""
+"\"Твой 'Народ' - собаки, которым никогда следовало срываться с поводка своих "
+"хозяев-*иллитидов*.\""
 
 #: 44523 44528
-#, fuzzy
 msgid "\"I merely had some questions for one of the honored githyanki.\""
-msgstr "\"Послушай, у меня есть вопросы к тебе...\""
+msgstr ""
+"\"Просто я хотел задать пару вопросов одному из благородных гитьянки.\""
 
 #: 44524
-#, fuzzy
 msgid "\"Fine, then.\""
-msgstr "\"На, держи.\""
+msgstr "\"Вот и отлично.\""
 
 #: 44525
 msgid "\"I told you to speak to me no more. Are all humans as slow as you?\""
 msgstr ""
+"\"Я же сказал: больше со мной не говори. Неужели все люди такие же тупые как "
+"ты?\""
 
 #: 44526
-#, fuzzy
 msgid "\"I just want some questions answered...\""
-msgstr "\"У меня есть некоторые вопросы.\""
+msgstr "\"Мне просто нужны ответы на некоторые вопросы...\""
 
 #: 44529
-#, fuzzy
 msgid "\"Forget it, then.\""
-msgstr "\"Тогда забудь об этом.\""
+msgstr "\"Тогда забудь.\""
 
 #: 44530
 msgid "He gazes at you flatly. His mouth presses into a thin line. "
-msgstr ""
+msgstr "Он смотрит на тебя равнодушно. Его рот вытягивается в тонкую линию. "
 
 #: 44532 44546 44567
 msgid "\"Farewell, then.\""
@@ -458,24 +519,22 @@ msgid ""
 "He pauses for a moment, and his eyes lock onto yours. \"I bow to your honor, "
 "yet my knowledge would be as water to you.\""
 msgstr ""
+"Он умолкает на миг и смотрит тебе в глаза. \"Я преклоняюсь перед твоим "
+"благородством, и все же мои знания будут для тебя как вода.\""
 
 #: 44534
-#, fuzzy
 msgid "\"Can you tell me about yourself?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Ты можешь рассказать мне о себе?\""
 
 #: 44535
-#, fuzzy
 msgid "\"Can you tell me about your people?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Ты можешь рассказать мне о своем народе?\""
 
 #: 44536
-#, fuzzy
 msgid "\"Can you tell me about the githzerai?\""
-msgstr "\"Что ты можешь сказать о фракциях?\""
+msgstr "\"Ты можешь рассказать мне о гитцерай?\""
 
 #: 44537
-#, fuzzy
 msgid "\"Very well, then. Farewell.\""
 msgstr "\"Отлично. Прощай.\""
 
@@ -484,22 +543,25 @@ msgid ""
 "\"I am Yi'minn, an angler. I fish for the memories of the dead trapped in "
 "the Astral Plane.\""
 msgstr ""
+"\"Я - Йиминн, ловец. Я ловлю воспоминания мертвых, заключенные в Астральном "
+"плане.\""
 
 #: 44539
 msgid "\"Can you find my memories?\""
-msgstr ""
+msgstr "\"Ты можешь найти мои воспоминания?\""
 
 #: 44541
 msgid "\"If you honor our people, how is it you know nothing of them?\" "
 msgstr ""
+"\"Раз ты уважаешь мой народ, так почему же ты ничего о них не знаешь?\" "
 
 #: 44542
 msgid "\"I want to know more than I already do.\""
-msgstr ""
+msgstr "\"Я хочу знать больше того, что уже знаю.\""
 
 #: 44543
 msgid "\"I just wanted to get you to talk to me.\""
-msgstr ""
+msgstr "\"Я всего лишь хотел с тобой поговорить.\""
 
 #: 44544
 msgid ""
@@ -507,27 +569,29 @@ msgid ""
 "water and their minds equally so.\" He bares his teeth. \"It is my duty and "
 "my pleasure to harry them and their quislings to a painful doom.\""
 msgstr ""
+"\"Они - наши отбросы. Они молят о пощаде. Их кровь жиже воды, как и их "
+"разум, - он скалит зубы. - Моя обязанность и мое удовольствие в том, чтобы "
+"предрекать их и их приспешников на мучительную гибель.\""
 
 #: 44545
 msgid "\"Nice. Can you answer some more questions for me?\""
-msgstr ""
+msgstr "\"Отлично. Можешь ли ты ответить еще на несколько вопросов?\""
 
 #: 44556
 msgid "\"I can... for a price.\""
-msgstr ""
+msgstr "\"Могу... не за бесплатно.\""
 
 #: 44559
 msgid "\"I'll pay anything.\""
-msgstr ""
+msgstr "\"Я заплачу сколько угодно.\""
 
 #: 44560
 msgid "\"Can we make a trade for something else?\""
-msgstr ""
+msgstr "\"Мы можем договориться по-другому?\""
 
 #: 44561
-#, fuzzy
 msgid "\"Forget it. Answer some other questions for me.\""
-msgstr "\"Хорошо. Ответь мне на пару вопросов.\""
+msgstr "\"Забудь. Лучше ответь мне на другие вопросы.\""
 
 #: 44562 44573
 msgid "\"Forget it. Farewell.\""
@@ -540,10 +604,14 @@ msgid ""
 "Planes. As they pass through the Astral Plane, their memories are stripped "
 "from them and left to drift in the Silver Sea.\""
 msgstr ""
+"\"Это не-место, место среди мест, где разум - единственное, что имеет "
+"значение. Это дом моего народа. Когда люди умирают, их души улетают во "
+"Внешние планы. Когда они проходят через Астральный план, их воспоминание "
+"покидают их и остаются дрейфовать в Серебряном море.\""
 
 #: 44564
 msgid "\"I see. Can you answer more questions for me?\""
-msgstr ""
+msgstr "\"Ясно. Ты не мог бы ответить еще на пару вопросов?\""
 
 #: 44565
 msgid "\"Thanks. Farewell.\""
@@ -551,41 +619,43 @@ msgstr "\"Спасибо. Прощай.\""
 
 #: 44566
 msgid "\"I have answered your questions once. Do not come to me again.\""
-msgstr ""
+msgstr "\"Я уже ответил на твои вопросы. Не подходи ко мне снова.\""
 
 #: 44568
 msgid ""
 "\"I will give you no more answers. You have given your honor, and I have "
 "repaid you in kind.\""
 msgstr ""
+"\"Я больше не дам тебе ответов. Ты оказал мне уважение, и я отплатил тебе "
+"тем же.\""
 
 #: 44569
 msgid "\"If that's the way it has to be, farewell.\""
-msgstr ""
+msgstr "\"Раз так, тогда прощай.\""
 
 #: 44570 44636
 msgid ""
 "\"My price is two hundred coins - nothing else shall suffice in this time.\""
-msgstr ""
+msgstr "\"Моя цена - двести монет. На этот раз меньшего будет недостаточно.\""
 
 #: 44571 44637
-#, fuzzy
 msgid "\"Here. Take this money.\""
-msgstr "\"Она имеет в виду деньги.\""
+msgstr "\"Вот. Возьми эти деньги.\""
 
 #: 44572
 msgid ""
 "\"That's a little steep. Perhaps you could answer more questions for me...\""
-msgstr ""
+msgstr "\"Это уж слишком. Может, ответишь еще на несколько вопросов...\""
 
 #: 44574
 msgid ""
 "The githyanki pockets your coins, and says, \"Return here in a week's time, "
 "and I shall have a memory for  you. Do not be late.\""
 msgstr ""
+"Гитьянки кладет твои монеты в карман и произносит: \"Возвращайся сюда через "
+"неделю, и у меня будут воспоминания для тебя. Не опаздывай.\""
 
 #: 44577 44580
-#, fuzzy
 msgid "\"Very well. Farewell.\""
 msgstr "\"Отлично. Прощай.\""
 
@@ -594,6 +664,8 @@ msgid ""
 "\"Do you think your shallow deception casts a veil over my eyes? Go. I have "
 "paid your honor with answers, and I will speak to you no more.\""
 msgstr ""
+"\"Ты же не думаешь, что твои мелкие уловки затуманят мне взгляд? Ступай. Я "
+"отплатил за твое почтение ответами, и больше не буду с тобой разговаривать.\""
 
 #: 44583
 msgid ""
@@ -601,29 +673,29 @@ msgid ""
 "previous arrogance. \"Now, human, drop your painted shield and tell us what "
 "you have said and done for the githzerai dogs within Sigil's walls.\""
 msgstr ""
+"Настроение гитьянки сменилось на нечто значительно более уродливое, чем "
+"первоначальное высокомерие. \"А тепер, человек, сбрось свою маску и "
+"расскажи, что ты говорил и делал для гитцерай в Сигильских стенах.\""
 
 #: 44586
 msgid "\"Weren't we going to go look for my memories?\""
-msgstr ""
+msgstr "\"Разве мы не должны были отправиться на поиски моих воспоминаний?\""
 
 #: 44588 44601
-#, fuzzy
 msgid "\"I will not tell you.\""
-msgstr "\"Я ничего не скажу тебе.\""
+msgstr "\"Я не скажу тебе.\""
 
 #: 44590 44603
 msgid "\"I merely relieved a githzerai's woman's pain.\""
-msgstr ""
+msgstr "\"Я лишь облегчил боль женщины гитцерай.\""
 
 #: 44594 44605
-#, fuzzy
 msgid "\"I merely asked some questions.\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Я просто задал пару вопросов.\""
 
 #: 44596 44606
-#, fuzzy
 msgid "\"I told them lies to confuse them.\""
-msgstr "\"У меня есть другие вопросы...\""
+msgstr "\"Я лгал им, чтобы запутать.\""
 
 #: 44598
 msgid ""
@@ -631,27 +703,33 @@ msgid ""
 "have one more chance to tell me what you have said and done for the "
 "githzerai within Sigil's walls.\""
 msgstr ""
+"\"Единственный путь для тебя в Астральный план - в цепях. У тебя есть еще "
+"один шанс поведать мне, что ты сказал и сделал для гитцерай в Сигильских "
+"стенах\"."
 
 #: 44607
 msgid "\"Then you shall die.\" He draws his weapon to attack!"
-msgstr ""
+msgstr "\"Тогда ты умрешь\", - он обнажает оружие для атаки!"
 
 #: 44610 44613 44616
-#, fuzzy
 msgid "Let them kill you."
-msgstr "\"Я принес тебе смерть.\""
+msgstr "Дать им прикончить тебя."
 
 #: 44611
 msgid ""
 "\"You lie like a githzerai dog, human. You are their quisling and their "
 "leech. We will do you a favor by killing you.\" He draws his weapon."
 msgstr ""
+"\"Ты лжешь, словно гитцерайский пес, человек. Ты - предатель и их шпион. Мы "
+"окажем тебе услугу, прикончив тебя\", - он обнажает свое оружие."
 
 #: 44614
 msgid ""
 "\"You did not. We were watching, listening. Your words and your heart betray "
 "you, human. Prepare to die.\""
 msgstr ""
+"\"Это не так. Мы следили и подслушивали за тобой. Твои слова и стук сердца "
+"выдают тебя, человек. Приготовься умереть.\""
 
 #: 44617
 msgid ""
@@ -659,12 +737,17 @@ msgid ""
 "bleeding. They stand over you and begin to speak again. \"Did he truly know "
 "nothing, Al-midil?\""
 msgstr ""
+"Клинок Йиминн перерезает тебе горло, и ты падаешь на землю, истекая кровью. "
+"Они стоят над тобой и снова начинают говорить. \"Он что, действительно "
+"ничего не знал, Ал-мидил?\""
 
 #: 44618
 msgid ""
 "\"If you believe our knowledge is sufficient, then we shall go. Gather our "
 "warriors and let us join our war party in Limbo.\""
 msgstr ""
+"\"Если ты считаешь, что наших знаний достаточно, тогда идем. Собирай наших "
+"воинов и давай присоединимся к нашим в Лимбо\"."
 
 #: 44619
 msgid ""
@@ -675,6 +758,13 @@ msgid ""
 "eyes are like two small black stones and they track you as you approach. "
 "Before you reach him, Dak'kon pauses."
 msgstr ""
+"У этого мужчины грубая жесткая кожа с желтоватым оттенком и резкие черты "
+"лица. Его лицо угловатое, нос небольшой и высоко посажен, а уши заостренные "
+"на концах. Паутина татуировок и шрамов покрывает его тело. Он одет в "
+"странные яркие кожаные доспехи, которые, казалось бы, служат скорее для "
+"украшения, чем для боя. Его глаза - словно два маленьких черных камешка; они "
+"следят за твоим приближением. Перед тем, как ты подходишь к нему, Даккон "
+"останавливается."
 
 #: 44620
 msgid ""
@@ -682,6 +772,9 @@ msgid ""
 "entirely. \"Dak'kon-who-wails-on-the-walls-of-Shrak'at'lor... an unexpected "
 "surprise.\" He draws his weapon."
 msgstr ""
+"Гитьянки наблюдал за твоим приближением, и ты его, похоже, совсем не "
+"интересуешь. \"Даккон-причитающий-на-стенах-Шракатлора... какой неожиданный "
+"сюрприз\", - он достает свое оружие."
 
 #: 44621
 msgid ""
@@ -690,33 +783,39 @@ msgid ""
 "walls-of-Shrak'at'lor? You will face me with steel bared or I shall see that "
 "you wear the sigil of cowardice upon your back.\" He draws his weapon."
 msgstr ""
+"Когда ты возвращаешься, гитьянки, наблюдавший за вами все это время, "
+"обращается к вам. \"Ты повернулся ко мне спиной, "
+"Даккон-причитающий-на-стенах-Шракатлора? Ты встретишся со мной с обнаженной "
+"сталью, или же я увижу, что ты носишь знак трусости у себя на спине\", - он "
+"выхватывает свое оружие."
 
 #: 44622
 msgid "The githyanki and Dak'kon begin to trade blows immediately."
-msgstr ""
+msgstr "Гитьянки и Даккон незамедлительно начинают обмениваться ударами."
 
 #: 44623 44641 44644 44649
-#, fuzzy
 msgid "Attack the githyanki."
-msgstr "Атаковать демонов."
+msgstr "Напасть на гитьянки."
 
 #: 44624
 msgid "Leave them to fight."
-msgstr ""
+msgstr "Дать им сразиться."
 
 #: 44625
 msgid ""
 "When Dak'kon nods, the githyanki lets out a harsh bark of laughter. \"You "
 "are this human's lodebeast, dog. First a traitor, and then a slave.\""
 msgstr ""
+"Когда Даккон кивает, гитьянки заливается грубым лающим смехом. \"Ты ручной "
+"зверек этого человека, пес. Сперва предатель, а теперь еще и раб.\""
 
 #: 44626
 msgid "\"I'll have your silence as well, or I'll take your tongue.\""
-msgstr ""
+msgstr "\"Что ж, или ты замолчишь, или я отниму у тебя язык.\""
 
 #: 44627 44635
 msgid "\"Dak'kon, kill him.\""
-msgstr ""
+msgstr "\"Даккон, убей его.\""
 
 #: 44628
 msgid ""
@@ -724,63 +823,70 @@ msgid ""
 "present, then. I shall carry word of your slave's plight to my people. They "
 "shall relish it.\" "
 msgstr ""
+"Гитьянки кивает и ухмыляется Даккону. \"Нет надобности говорить что-либо еще."
+" Я передам слово от твоем рабском положении своему народу. Им это понравится."
+"\""
 
 #: 44629
 msgid "\"Enough of this talk. I'm looking for memories.\""
-msgstr ""
+msgstr "\"Хватит разговоров. Я ищу воспоминания.\""
 
 #: 44630
 msgid "\"Enough. Dak'kon, kill him.\""
-msgstr ""
+msgstr "\"Довольно. Даккон, убей его.\""
 
 #: 44631
-#, fuzzy
 msgid "\"Enough. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Довольно. Прощай.\""
 
 #: 44632
 msgid ""
 "\"Memories? I find memories, floating in the Astral Plane. I should be happy "
 "to retrieve one for you... for a price.\""
 msgstr ""
+"\"Воспоминания? Я нахожу их, паря в Астральном плане. Буду рад выловить их "
+"для тебя... не за бесплатно.\""
 
 #: 44634 44639
-#, fuzzy
 msgid "\"Forget it. We're leaving.\""
-msgstr "\"Забудь. Я вернусь.\""
+msgstr "\"Забудь. Мы уходим.\""
 
 #: 44638
 msgid "\"I'm afraid I don't have enough money. I guess we'll be leaving.\""
-msgstr ""
+msgstr "\"Боюсь, у меня недостаточно денег. Мы, пожалуй, уйдем.\""
 
 #: 44640
 msgid ""
 "\"The entire multiverse is our battlefield, dog. There are no sanctuaries. "
 "There is no peace. You shall die.\" The githyanki attacks!"
 msgstr ""
+"\"Наше поле битвы - вся мультивселенная, пес. Нет святилищ. Нет мира. Ты "
+"умрешь.\" Гитьянки нападает!"
 
 #: 44642 44645 44650
-#, fuzzy
 msgid "Let them fight."
-msgstr "\"Сначала попробуй.\""
+msgstr "Дать им сразиться."
 
 #: 44643
 msgid ""
 "\"Leaving? No. Not without the heart of the traitor of Shrak'at'lor.\" The "
 "githyanki attacks!"
 msgstr ""
+"\"Уходишь? Нет. Вы не уйдете, пока я не получу сердце предателя Шракатлора\"."
+" Гитьянки нападает!"
 
 #: 44646
 msgid "\"Come with me, then, and leave your dogsbody behind.\""
-msgstr ""
+msgstr "\"Тогда пойдем со мной, и оставь своего мальчика на побегушках.\""
 
 #: 44647
 msgid ""
 "\"And you shall have the substance of one when I am finished with you.\""
-msgstr ""
+msgstr "\"И ты получишь их сущность, когда я закончу.\""
 
 #: 44648
 msgid ""
 "\"We shall see about that, githzerai dog!\" The githyanki attacks Dak'kon "
 "furiously."
-msgstr ""
+msgstr "\"Посмотрим, гитцерайский пес!\" Гитьянки яросно атакует Даккона."
+
