@@ -1,51 +1,57 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dshad.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:27+0600\n"
+"PO-Revision-Date: 2010-10-17 03:42+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 23309
 msgid "\"I said don't talk to me.\" The wererat still won't look at you."
 msgstr ""
+"\"Я же сказал, не разговаривать со мной.\" Крысоборотень не смотрит в твою "
+"сторону."
 
 #: 23310
 msgid ""
 "\"Don't you have someplace else to go? Like, not here?\" The wererat's voice "
 "is languid and unworried."
 msgstr ""
+"\"Ты не можешь сходить в другое место? Например, не в это?\" Голос "
+"крысоборотня спокоен и расслаблен."
 
 #: 23434
-#, fuzzy
 msgid "\"We will. Thanks.\""
-msgstr "\"Отлично. Спасибо.\""
+msgstr "\"Конечно. Спасибо\"."
 
 #: 23915
 msgid "\"Don't talk to me. Talk to Raimon.\" The wererat avoids your gaze."
 msgstr ""
+"\"Не разговаривай со мной. Поговори с Раймоном.\" Крысоборотень избегает "
+"твоего взгляда."
 
 #: 23916
 msgid ""
 "\"Big man, eh? Get goin' before Raimon gets up his courage and calls for "
 "reinforcements.\" This wererat seems strangely unconcerned."
 msgstr ""
+"\"Типа крутой, да? Давай, продолжай, пока Раймон не наберется смелости и не "
+"позовет подмогу.\" Этот крысоборотень почему-то ничем не обеспокоен."
 
 #: 23917
-#, fuzzy
 msgid "He shrugs."
-msgstr "Головорез из Улья"
+msgstr "Он пожимает плечами."
 
 #: 23918
 msgid "\"Aw, for the love of... I guess you gotta die, berk...\""
-msgstr ""
+msgstr "\"Ай, во имя любви... Кажется, сейчас ты умрешь, пень...\""
 
 #: 23919
 msgid ""
@@ -55,12 +61,19 @@ msgid ""
 "and let 'em know that somethin' bad's coming that way. Can't say what, yet, "
 "but...  just so you know.\""
 msgstr ""
+"Прикончив своего приятеля-оборотня, этот парень смотрит прямо на Анну: "
+"\"Анна, это Шаддеус. Я выпускаю тебя. Я не могу видеть тебя вот так, в "
+"клетке. Замолви за меня словечко, если вернешься в Деревню, и скажи им, что "
+"тут происходит нечто зловещее. Пока не могу сказать, что, но... ты же сама "
+"это знаешь\"."
 
 #: 23920
 msgid ""
 "\"Aye, then.\" He takes the keys from Raimon's body, unlocks the door, and "
 "opens it for you. \"Get going, now.\" He gives a quick bow and scampers away."
 msgstr ""
+"\"Вот так, - он берет с тела Раймона ключи, отпирает дверь и открывает ее "
+"тебе. - А теперь пошевеливайся\". Он отвешивает быстрый поклон и убегает."
 
 #: 23921
 msgid ""
@@ -69,29 +82,30 @@ msgid ""
 "figure that it makes me any less loyal to humanity to have this disease. Get "
 "out. Now.\" He unlocks the door, opens it for you, and scampers away."
 msgstr ""
+"\"Тебя удивляет, почему я это сделал, ведь так? Когда-то я жил в Погребенной "
+"Деревне. Меня звали Шаддеус. Я не хочу быть крысоборотнем, и не считаю, "
+"что эта зараза делает меня менее человечным. Уходи. Сейчас же.\" Он отпирает "
+"дверь, открывает ее тебе и убегает прочь."
 
 #: 23931
-#, fuzzy
 msgid "\"Very well.\""
-msgstr "\"Ух, прощай...\""
+msgstr "\"Очень хорошо.\""
 
 #: 23933
-#, fuzzy
 msgid "\"Fine.\""
-msgstr "\"Хай.\""
+msgstr "\"Отлично.\""
 
 #: 23934
-#, fuzzy
 msgid "\"I suppose I do. Farewell.\""
-msgstr "\"Нет, думаю, нет. Прощай.\""
+msgstr "\"Наверное, так и следует поступить. Прощай.\""
 
 #: 23935
 msgid "\"What if I threatened YOU?\""
-msgstr ""
+msgstr "\"А если я буду угрожать ТЕБЕ?\""
 
 #: 23936
 msgid "\"I'm gone, then.\""
-msgstr ""
+msgstr "\"Тогда я ухожу.\""
 
 #: 23937
 msgid "Attack him."
@@ -103,9 +117,10 @@ msgstr "\"Тогда прощай.\" "
 
 #: 23939
 msgid "\"I guess you can try.\""
-msgstr ""
+msgstr "\"Можешь попробовать.\""
 
 #: 23940
-#, fuzzy
 msgid "\"Thanks, Shaddeus. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай.\""
+msgstr "\"Спасибо, Шаддеус. Прощай\"."
+
+
