@@ -5762,7 +5762,6 @@
             </termEntry>
             
             
-
             <termEntry id="azamat_h._hackimov-314">
                 <descrip type="subjectField">персонажи</descrip>
                 <descrip type="definition">Проститутка из Борделя.</descrip>
@@ -5781,7 +5780,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-315">
                 <descrip type="subjectField">география планов</descrip>
                 <descrip type="definition">Один из планов</descrip>
@@ -5800,7 +5798,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-316">
                 <descrip type="subjectField">planescape</descrip>
                 <descrip type="definition">Название фракции Братства Порядка.</descrip>
@@ -5819,7 +5816,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-317">
                 <descrip type="subjectField">персонажи</descrip>
                 <langSet xml:lang="en">
@@ -5833,6 +5829,24 @@
                     <ntig>
                         <termGrp>
                             <term>усердная</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-318">
+                <descrip type="subjectField">персонажи</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>mantuok</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>мантуок</term>
                         </termGrp>
                     </ntig>
                 </langSet>
