@@ -1809,6 +1809,8 @@
                 </langSet>
             </termEntry>
             <termEntry id="azamat_h._hackimov-99">
+                
+                
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
@@ -1819,7 +1821,7 @@
                 <langSet xml:lang="ru">
                     <ntig>
                         <termGrp>
-                            <term>крыса-оборотень</term>
+                            <term>крысооборотень</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -3127,6 +3129,10 @@
             <termEntry id="azamat_h._hackimov-175">
                 <descrip type="subjectField">география планов</descrip>
                 <descrip type="definition">Хаотично-злой план, насчитывающий бесконечное количество слоев, родной план танарри.</descrip>
+                
+                
+                
+                
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
@@ -3137,7 +3143,7 @@
                 <langSet xml:lang="ru">
                     <ntig>
                         <termGrp>
-                            <term>бездны</term>
+                            <term>бездна</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -5833,7 +5839,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-318">
                 <descrip type="subjectField">персонажи</descrip>
                 <langSet xml:lang="en">
@@ -5851,7 +5856,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-319">
                 <descrip type="subjectField">персонажи</descrip>
                 <langSet xml:lang="en">
@@ -5869,7 +5873,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-320">
                 <descrip type="subjectField">персонажи</descrip>
                 <langSet xml:lang="en">
@@ -5887,7 +5890,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-321">
                 <descrip type="subjectField">персонажи</descrip>
                 <langSet xml:lang="en">
@@ -5905,7 +5907,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-322">
                 <descrip type="subjectField">персонажи</descrip>
                 <langSet xml:lang="en">
@@ -5923,7 +5924,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-323">
                 <descrip type="subjectField">география планов</descrip>
                 <descrip type="definition">Место в Астральном плане.</descrip>
@@ -5942,7 +5942,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-324">
                 <descrip type="subjectField">география планов</descrip>
                 <descrip type="definition">Крепость гитцерай</descrip>
@@ -5961,7 +5960,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-
             <termEntry id="azamat_h._hackimov-325">
                 <descrip type="subjectField">существа</descrip>
                 <descrip type="definition">Один из могущественных видов демонов танарри.</descrip>
@@ -5976,6 +5974,113 @@
                     <ntig>
                         <termGrp>
                             <term>балор</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-326">
+                <descrip type="subjectField">персонажи</descrip>
+                <descrip type="definition">Член фракции Тленных, продавец Контрактов Смерти.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>mortai</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>мортай</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+            <termEntry id="azamat_h._hackimov-327">
+                <descrip type="subjectField">существа</descrip>
+                <descrip type="definition">один из демонов</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>incubus</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>инкуб</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-328">
+                <descrip type="subjectField">география планов</descrip>
+                <descrip type="definition">Магазин в Сигиле, поставляет товары с Нижних планов.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>curiosity shop</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>магазинчик странностей</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-329">
+                <descrip type="subjectField">общие термины</descrip>
+                <descrip type="definition">Фракция Сигила</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>sensate</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>чувствующие</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+            </termEntry>
+
+            <termEntry id="azamat_h._hackimov-330">
+                <descrip type="subjectField">planescape</descrip>
+                <descrip type="definition">Средство для хранения испытанных чувств, используемое Чувствующими.</descrip>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>sensorium</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="en">
+                    <ntig>
+                        <termGrp>
+                            <term>sensoriums</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>сенсориум</term>
+                        </termGrp>
+                    </ntig>
+                </langSet>
+                <langSet xml:lang="ru">
+                    <ntig>
+                        <termGrp>
+                            <term>сенсориумы</term>
                         </termGrp>
                     </ntig>
                 </langSet>
