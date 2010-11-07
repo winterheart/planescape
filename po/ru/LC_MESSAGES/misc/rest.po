@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2010-04-27 23:27+0600\n"
+"PO-Revision-Date: 2010-11-01 02:08+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -33,6 +33,12 @@ msgid ""
 "\n"
 "These metal instruments are used to open stubborn locks."
 msgstr ""
+"ОТМЫЧКИ\n"
+"+5 % к открыванию замков\n"
+"Вес: 0\n"
+"Используется только ворами.\n"
+"\n"
+"Эти металлические инструменты используются для отрывания упрямых замков."
 
 #: 142
 msgid "Sledgehammer"
@@ -466,6 +472,12 @@ msgid ""
 "crystals radiate from the skull in a circle, forming a crown of sorts. A "
 "leather lanyard is looped though an eyehole attached to the top of the skull."
 msgstr ""
+"ЧЕРЕП-КУЛОН\n"
+"Вес: 1\n"
+"\n"
+"Этот необычный кулон в форме черепа сделан из какого-то серебристого металла."
+" Череп окружают шесть кристаллов, образуя нечто вроде короны. Через глазок "
+"над черепом продет кожаный шнурок."
 
 #: 3063
 msgid ""
@@ -718,6 +730,15 @@ msgid ""
 "apparent when they catch a target. Their blows are capable of killing a "
 "normal human being with a single punch."
 msgstr ""
+"Зомби - это безмозглые тела, поднятые некромантом. В отличие от скелетов, у "
+"зомби все еще есть большая часть мяса на теле, которая является как "
+"преимуществом, так и недостатком... они крепче и сильнее скелетов, но в то "
+"же время трупное окоченение сковывает их движение, делая их гораздо "
+"медлительнее нормального живого человека.\n"
+"\n"
+"Хотя зомби двигаются и атакуют очень медленно, но вся их сила проявится в "
+"том случае, если они все же настигнут цель. Их удар способен убить "
+"нормального человека с первого раза."
 
 #: 3530
 msgid ""
@@ -868,6 +889,9 @@ msgid ""
 "yellow and lined; he appears to be old, and pain haunts his small black "
 "eyes. He carries a blade of strange metal."
 msgstr ""
+"Даккон - гитцерай, один из немногословного народа с Лимбо. У него желтая, "
+"морщинистая кожа. Похоже, он уже старик, но в его маленьких черных глазах "
+"видна боль. У него есть клинок из странного металла."
 
 #: 3587
 msgid ""
@@ -1413,6 +1437,8 @@ msgid ""
 "I met a talkative young woman named Karina. She told me that people tend to "
 "avoid her and she is lonely. Maybe I can help her."
 msgstr ""
+"Я встретился с общительной девушкой по имени Карина. Она сказала мне, что "
+"люди ее избегают, и поэтому она одинока. Возможно, я смогу ей помочь."
 
 #: 3691
 msgid ""
@@ -1558,9 +1584,10 @@ msgid ""
 "Great Foundry."
 msgstr ""
 
+# Элемент интерфейса, больше 5 символов не помещается.
 #: 4182
 msgid "Add Note"
-msgstr "Добавить отметку"
+msgstr "Метка"
 
 #: 4184
 msgid "Neutral Good"
@@ -1794,7 +1821,7 @@ msgstr "Ты уверен, что хочешь отдохнуть?"
 
 #: 4242 41628
 msgid "Rest"
-msgstr ""
+msgstr "Отдых"
 
 #: 4243
 msgid "DONE"
@@ -3571,7 +3598,7 @@ msgstr ""
 
 #: 19672
 msgid "Level <LEVEL> Spells"
-msgstr "Заклинания <LEVEL> уровня"
+msgstr "Закл. <LEVEL> уровня"
 
 #: 19673
 msgid "Experience"
@@ -9172,7 +9199,7 @@ msgstr ""
 
 #: 41275 44969 67223
 msgid "None"
-msgstr ""
+msgstr "Нет"
 
 #: 41276
 msgid "Dexterity gained from specialization bonus."
@@ -10073,7 +10100,7 @@ msgstr "Быстрые предметы"
 
 #: 49057
 msgid "Character Selection"
-msgstr ""
+msgstr "Выбор персонажа"
 
 #: 49104
 msgid "Tasha's Laughter"
@@ -10101,7 +10128,7 @@ msgstr "Нажмите ESC для отмены."
 
 #: 49152
 msgid "To quit the game, press ALT-F4."
-msgstr ""
+msgstr "Чтобы выйти из игры, нажмите ALT-F4."
 
 #: 49154
 msgid ""
@@ -10335,7 +10362,7 @@ msgstr ""
 
 #: 50814
 msgid "Diseased Heart"
-msgstr ""
+msgstr "Мертвое сердце"
 
 #: 50815
 msgid "Light Urn"
@@ -10440,6 +10467,19 @@ msgid ""
 "remove the curse from the actual item itself, but it allows the person to "
 "successfully unequip and rid themselves of the cursed item."
 msgstr ""
+"УДАЛЕНИЕ ПРОКЛЯТИЯ\n"
+"Дистанция: 0\n"
+"Длительность: мгновенно\n"
+"Скорость: 3\n"
+"Зона действия: особая\n"
+"Спасбросок: нет\n"
+"\n"
+"После сотворения этого заклинания проклятые предметы больше не будут "
+"беспокоить тебя.\n"
+"\n"
+"При создании данное заклинание снимает проклятие с выбранной цели. Оно не "
+"снимает проклятие с самой вещи, однако позволяет субъекту успешно снять ее и "
+"избавится от проклятого предмета."
 
 #: 51350
 msgid "Global(\"Fell_Arm\",\"GLOBAL\",1)"
@@ -10829,6 +10869,10 @@ msgid ""
 "This spell reveals the mysteries of an enchanted object, allowing you to "
 "know its exact abilities. "
 msgstr ""
+"ОПОЗНАНИЕ\n"
+"\n"
+"Это заклинание раскрывает загадки зачарованного предмета, позволяя тебе "
+"узнать его точные возможности. "
 
 #: 52733
 msgid ""
