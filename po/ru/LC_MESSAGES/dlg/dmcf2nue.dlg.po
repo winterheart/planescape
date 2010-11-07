@@ -1,58 +1,68 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmcf2nue.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:24+0600\n"
+"PO-Revision-Date: 2010-11-01 01:16+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 37137
 msgid ""
 "You see an older woman dressed in simple clothes. Her pale, yellow skin is "
 "weathered with age. She gives you a bored look as you approach. "
 msgstr ""
+"Перед тобой старая женщина в простой одежде, с бледной желтоватой и "
+"выветренной кожей. Она скучающе смотрит на тебя."
 
 #: 37138
 msgid ""
 "\"Hello to you as well, youngster. What you be needing from old Belle?\""
-msgstr ""
+msgstr "\"И тебе привет, сынок. Что тебе нужно от старой Беллы?\""
 
 #: 37139
 msgid ""
 "She frowns and her face almost disappears into her wrinkles. \"I got time "
 "for a couple, but make it quick.\""
 msgstr ""
+"Она хмурится, ее лицо почти теряется под сетью морщин: \"У меня есть немного "
+"времени, так что давай побыстрее.\""
 
 #: 37140
 msgid "\"Lothar... don't reckon with that name. Can't help you.\""
-msgstr ""
+msgstr "\"Лотар... что-то не припомню никого с таким именем.\""
 
 #: 37141
 msgid "She shakes her head. \"Nay.\" She gives you a bored expression."
-msgstr ""
+msgstr "\"Нет,\" - качает она головой, скучающе глядя на тебя."
 
 #: 37142
 msgid ""
 "\"Missing skull...\" She barks out a laugh. \"Well now, can't say I've heard "
 "that one before. Don't know what to tell you.\""
 msgstr ""
+"\"Череп, значит, потерял... - она громко смеется. - Не могу сказать, что "
+"раньше слышала такое. Не знаю, что и сказать даже.\""
 
 #: 37143
 msgid ""
 "She sighs. \"Listen, youngster. I'm here to shop, and you ain't a merchant. "
 "Get my drift?\""
 msgstr ""
+"Она вздыхает. \"Слушай, сынок. Я сюда пришла за покупками, а ты не продавец. "
+"Чуешь, куда я клоню?\""
 
 #: 37144
 msgid "\"Well, I ain't got any answers. G'day to you.\" She turns away."
 msgstr ""
+"\"А у меня нет больше ответов. Хорошего дня тебе\", - она отворачивается от "
+"тебя."
 
 #: 37145
 msgid ""
@@ -60,6 +70,9 @@ msgid ""
 "weathered with age. She gives you a bored look as you approach. \"Why d'ye "
 "insist on botherin' me? Go away!\" She turns away."
 msgstr ""
+"Перед тобой старая женщина в простой одежде, с бледной желтоватой и "
+"выветренной кожей. Она скучающе смотрит на тебя. \"Почему ты продолжаешь "
+"докучать? Уходи!\" - она отворачивается."
 
 #: 37146
 msgid "\"Greetings.\""
@@ -78,38 +91,36 @@ msgid "\"Nothing. Farewell.\""
 msgstr "\"Ничего. Прощай.\""
 
 #: 37150
-#, fuzzy
 msgid "\"I'm looking for someone named Lothar, or the Master of the Bones...\""
-msgstr "\"Я ищу кое-кого по имени Фарод. Ты не знаешь, где его можно найти?\""
+msgstr "\"Я ищу кое-кого по имени Лотар, он же Повелитель Костей...\""
 
 #: 37151
 msgid ""
 "\"I had a skull and it's been stolen from me. Do you know anyone who would "
 "do such a thing?\""
 msgstr ""
+"\"У меня был череп, который украли. Ты не знаешь кого-нибудь, кто бы мог это "
+"сделать?\""
 
 #: 37152
-#, fuzzy
 msgid "\"Can you tell me about this ward?\""
-msgstr "\"Что ты можешь сказать об Улье?\""
+msgstr "\"Можешь рассказать об этом районе?\""
 
 #: 37153
 msgid "\"Never mind. Farewell.\""
 msgstr "\"Неважно. Прощай.\""
 
 #: 37154 37158
-#, fuzzy
 msgid "\"I see. Do you know who can help me?\""
-msgstr "\"Ты знаешь, кто я?\""
+msgstr "\"Понятно. А ты не знаешь, кто может помочь мне?\""
 
 #: 37155 37157 37159 37162
 msgid "\"Farewell.\""
 msgstr "\"Прощай.\""
 
 #: 37156 37160
-#, fuzzy
 msgid "\"I have some other questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 37161
 msgid "\"I see. Farewell.\""
@@ -118,3 +129,5 @@ msgstr "\"Понятно. Прощай.\""
 #: 37163
 msgid "Leave."
 msgstr "Уйти."
+
+
