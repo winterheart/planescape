@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dsoego.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-06-27 00:03+0600\n"
+"PO-Revision-Date: 2010-11-05 00:30+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 1431
 msgid ""
@@ -51,8 +51,8 @@ msgid ""
 "The Dustman's head snaps up as you address him. \"Par... pardon? Did you "
 "just speak to me?\""
 msgstr ""
-"Как только ты заговорил с ним, Тленный резко поднимает голову. \"Про... "
-"прошу прощения? Ты что-то сказал мне?\""
+"Едва ты пытаешься заговорить с ним, как Тленный резко поднимает голову: "
+"\"Про... прошу прощения? Ты что-то сказал мне?\""
 
 #: 1438
 msgid "\"Yes, I did. I had some questions...\""
@@ -64,7 +64,7 @@ msgstr "\"Нет. Нет, это не я.\""
 
 #: 1440 1441
 msgid "Become deathly silent."
-msgstr ""
+msgstr "Стать мертвецки тихим."
 
 #: 1442 1460 4914 4923
 msgid "Leave. Quickly."
@@ -80,22 +80,21 @@ msgid ""
 msgstr ""
 "\"О Боги!\" Тленный подпрыгивает, затем внимательно смотрит на тебя. Ты "
 "замечаешь, что глаза больше не налиты кровью, а просто отдают краснотой. "
-"\"Эй, я должен признаться, ты очень убедительно похож на зомби.\" Он слегка "
-"кланяется. \"Я Соэго. Могу ли я спросить тебя, что ты делаешь здесь...\" Он "
-"косится на твои шрамы. \"...в таком виде?\" "
+"\"Эй, я должен признаться, ты очень убедительно похож на зомби, - он слегка "
+"кланяется. - Я Соэго. Могу ли я спросить тебя, что ты делаешь здесь... - он "
+"косится на твои шрамы, - в таком виде?\" "
 
 #: 1444 1462 1504
-#, fuzzy
 msgid "\"It's none of your concern.\""
-msgstr "Это не твое дело."
+msgstr "\"Это не твое дело.\""
 
 #: 1445 1463 1505
-#, fuzzy
 msgid ""
 "\"I'm not certain what I'm doing here. I woke up on one of the slabs "
 "upstairs, and my memory's... a little foggy.\""
 msgstr ""
-"\"Я очнулся на одной из плит наверху, и моя память... немного туманна.\""
+"\"Я не совсем понимаю, что я здесь делаю. Я очнулся на одной из плит "
+"наверху, и моя память... немного туманна.\""
 
 #: 1446
 msgid ""
@@ -110,9 +109,8 @@ msgid "\"I'm trying to get out of here.\""
 msgstr "\"Я хочу выбраться отсюда.\""
 
 #: 1448 1466 1509
-#, fuzzy
 msgid "\"I needed a change.\""
-msgstr "\"Мне нужна некоторая помощь.\""
+msgstr "\"Мне не хватает перемен.\""
 
 #: 1449
 msgid ""
@@ -121,7 +119,7 @@ msgid ""
 "worse...\""
 msgstr ""
 "Тленный некоторое время изучает тебя, затем трясет головой. \"Опять "
-"почудилось...\" Он вздыхает и трет глаза. \"Эти заклинания от лихорадки "
+"почудилось... - вздыхает он и трет глаза. - Эти заклинания от лихорадки "
 "действуют слишком сильно...\""
 
 #: 1450
@@ -130,7 +128,7 @@ msgstr "\"Это не твое воображение. У меня есть др
 
 #: 1451 1452
 msgid "Snap his neck while he is distracted."
-msgstr ""
+msgstr "Свернуть ему шею пока он отвлечен."
 
 #: 1453
 msgid "\"I had some questions.\""
@@ -160,7 +158,7 @@ msgstr "\"Послушай, у меня есть вопросы к тебе...\"
 
 #: 1458 1459 66716 66717
 msgid "Snap his neck when he leans in."
-msgstr ""
+msgstr "Свернуть ему шею, пока он наклоняется вперед."
 
 #: 1461
 msgid ""
@@ -175,7 +173,7 @@ msgstr ""
 "наклоняется вперед и обнюхивает тебя. \"О Боги!\" Тленный отступает назад, "
 "его глаза широко раскрыты. Ты замечаешь, что его глаза не налиты кровью, а "
 "лишь слегка отдают краснотой. \"Эй, ты заставляешь меня сделать нелестное "
-"признание: из тебя вышел убедительный зомби.\" Он слегка кланяется. \"Я "
+"признание: из тебя вышел убедительный зомби, - он слегка кланяется. - Я "
 "Соэго. Могу ли я спросить, что ты здесь делаешь... в таком виде?\" "
 
 #: 1464 1506
@@ -219,15 +217,16 @@ msgid ""
 "\"Stop! Don't call the guards! I just want to get out of here... can you "
 "help me?\""
 msgstr ""
+"\"Стой! Не надо звать стражу! Я просто хочу выбраться отсюда... ты поможешь "
+"мне?\""
 
 #: 1471 1472 1483 1484 1514 1515 1521 1522 4912 4913 4958 4959 4993 4994
 msgid "Snap his neck before he can call out."
 msgstr "Свернуть ему шею до того, как он сможет позвать на помощь."
 
 #: 1473 1516 1523 4995
-#, fuzzy
 msgid "\"Summon them, then. I'd like to meet them.\""
-msgstr "\"Нет... но я хотел бы побольше знать об этой поэме.\""
+msgstr "\"Давай, зови их. Буду рад с ними встретиться.\""
 
 #: 1474
 msgid ""
@@ -235,7 +234,7 @@ msgid ""
 "prepared. I don't know how you would have survived such pain... are you *in* "
 "pain? You look it.\""
 msgstr ""
-"\"Правда?\" Тленный недоверчиво осматривает тебя. \"Ты *выглядишь* так, как "
+"\"Правда? - Тленный недоверчиво осматривает тебя. - Ты *выглядишь* так, как "
 "будто тебя только что вскрыли. Не представляю как ты мог выжить от такой "
 "невыносимой боли... ты *чувствуешь* боль? Кажется, да.\""
 
@@ -273,7 +272,7 @@ msgstr ""
 "Соэго тянется к поясу, шарит по одежде, тяжело сопя. \"Ключ!\" Его глаза "
 "наливаются кровью, а губы складываются в гримасу ярости... выражение лица "
 "при этом напоминает звериный оскал. \"Кто-то украл ключ!\" Он "
-"разворачивается к тебе и рычит. \"Ты! Это сделал ты!\" "
+"разворачивается к тебе и рычит: \"Ты! Это сделал ты!\" "
 
 #: 1481
 msgid "Bluff him: \"Uh...wait! Why would I ask you for it if I'd stolen it?\""
@@ -317,9 +316,8 @@ msgstr ""
 "раскатываясь по мраморным стенам. "
 
 #: 1490
-#, fuzzy
 msgid "Wait for him to return."
-msgstr "Подождать, пока он не вернется..."
+msgstr "Подождать, пока он не вернется."
 
 #: 1491
 msgid "\"Very well. The front gate is now unlocked, but you cannot re-enter.\""
@@ -345,11 +343,12 @@ msgid ""
 "leave... but I seem to have gotten turned around. Can you help me find the "
 "exit?\""
 msgstr ""
+"\"Я оказался здесь для погребения, отдавал дань уважения. Я уже был готов "
+"уйти... вот только, кажется, я заблудился. Ты не поможешь мне найти выход?\""
 
 #: 1496 1497
-#, fuzzy
 msgid "\"I don't really know.\""
-msgstr "\"Я не знаю.\" "
+msgstr "\"Я и сам не знаю.\""
 
 #: 1498
 msgid ""
@@ -363,7 +362,7 @@ msgid ""
 "Soego clicks his tongue. \"Most curious.\" He studies you again. \"Is it "
 "possible that you are one of the Contracted?\""
 msgstr ""
-"Соэго щелкает языком. \"Очень любопытно.\" Он снова смотрит на тебя. \"А "
+"Соэго цокает языком. \"Очень любопытно, - он снова изучает тебя. - А "
 "может, ты один из Контрактников?\""
 
 #: 1501
@@ -380,10 +379,10 @@ msgid ""
 "here... looking like that?\" "
 msgstr ""
 "Как только ты собираешься уйти, Тленный перестает тебя обнюхивать и "
-"испускает легкое шипение. \"О Боги!\" Тленный отступает назад, его глаза "
+"испускает легкое шипение. \"О Боги!\" - Тленный отступает назад, его глаза "
 "широко раскрыты. Ты замечаешь, что его глаза не налиты кровью, а лишь слегка "
 "отдают краснотой. \"Эй, ты заставляешь меня сделать нелестное признание: из "
-"тебя вышел убедительный зомби.\" Он слегка кланяется. \"Я Соэго. Могу ли я "
+"тебя вышел убедительный зомби, - он слегка кланяется. - Я Соэго. Могу ли я "
 "спросить, что ты здесь делаешь... в таком виде?\" "
 
 #: 1511
@@ -394,8 +393,8 @@ msgid ""
 "think I will do that.\""
 msgstr ""
 "\"Понятно...\" В глазах Соэго вспыхивает огонек, отдающий краснотой, уголки "
-"рта в знак неприятия начинают подрагивать. \"Может...\" Он широко "
-"ухмыляется, показывая ряд острых грязных зубов. \"Может, мне стоит позвать "
+"рта в знак неприятия начинают подрагивать. \"Может... - он широко "
+"ухмыляется, показывая ряд острых грязных зубов. - Может, мне стоит позвать "
 "охрану? Да... да, пожалуй, я так и сделаю.\""
 
 #: 1517
@@ -409,8 +408,8 @@ msgstr ""
 "Ты собираешься уходить, как Соэго издает злобное шипение... затем он "
 "неожиданно успокаивается и поднимает руки. \"Нет, нет, боюсь, что ты не "
 "можешь уйти. Что-то здесь не так. Мне кажется, что будет лучше, если узнаем "
-"об этом поподробнее...\" Уголки его рта подрагивают, в глаза вспыхивает "
-"огонек.  \"Может, охрана поможет. Да... наверное, мне стоит позвать их.\""
+"об этом поподробнее... - уголки его рта подрагивают, в глазах вспыхивает "
+"огонек. - Может, охрана поможет. Да... наверное, мне стоит позвать их.\""
 
 #: 1524
 msgid ""
@@ -445,9 +444,8 @@ msgstr ""
 "упасть, Тленный издает душераздирающий крик и вырывается из твоей хватки! "
 
 #: 1530 1531
-#, fuzzy
 msgid "\"What...?!\""
-msgstr "\"Что?\""
+msgstr "\"Что?!..\""
 
 #: 1532
 msgid ""
@@ -491,7 +489,7 @@ msgstr "\"Где я?\""
 
 #: 21658 21841 50793 64596 64599 64601 64603 64605 64607 64609 64611 64616
 msgid "\"Why have I been made a prisoner here?\""
-msgstr ""
+msgstr "\"Почему из меня сделали заключенного?\""
 
 #: 21660 21850 25251 25253
 msgid "\"Perhaps. Farewell.\""
@@ -502,33 +500,32 @@ msgid ""
 "\"I am Soego, factotum of the Dustmen. I am a missionary in these parts.\" "
 "He gives a half-bow."
 msgstr ""
-"\"Я Соэго, фрактотум Тленных. Я здешний проповедник.\" Он слегка кланяется."
+"\"Я Соэго, фрактотум Тленных. Я здесь миссионерской деятельностью\", - он "
+"слегка кланяется."
 
 #: 21662 21809
-#, fuzzy
 msgid "\"Missionary?\""
-msgstr "\"Дейонарра.\""
+msgstr "\"Миссионерской?\""
 
 #: 21663 21811 21823 22020
-#, fuzzy
 msgid "\"What are the Dustmen doing here?\""
-msgstr "\"Что ты здесь делаешь?\""
+msgstr "\"Что Тленные делают здесь?\""
 
 #: 21665
-#, fuzzy
 msgid "\"Greetings, and farewell.\""
-msgstr "\"Спасибо... Прощай.\""
+msgstr "\"Здравствуй и прощай.\""
 
 #: 21666
 msgid ""
 "\"Yes, I came to these catacombs after hearing rumors of undead that were "
 "*aware* in these parts. I hope to save them.\""
 msgstr ""
+"\"Да, я пришел в эти катакомбы, когда услышал, что здесь бродит "
+"*беспокойная* нежить. Надеюсь, что смогу спасти их.\""
 
 #: 21667 21671
-#, fuzzy
 msgid "\"Save them?\""
-msgstr "\"Заставляют их ходить?\""
+msgstr "\"Спасти их?\""
 
 #: 21669 21673 21770 21776 21784 21794 21813 21825 21843 21977 21981 21984
 #: 21988 21991 22022
@@ -540,6 +537,8 @@ msgid ""
 "\"I am the only one. I came to these catacombs after hearing rumors of "
 "undead that were *aware* in these parts. I hope to save them.\""
 msgstr ""
+"\"Я один здесь. Я пришел в эти катакомбы, когда услышал, что здесь бродит "
+"*беспокойная* нежить. Надеюсь, что смогу спасти их.\""
 
 #: 21674
 msgid ""
@@ -547,14 +546,14 @@ msgid ""
 "forsake these passions and leave this false life behind and reach the True "
 "Death.\""
 msgstr ""
+"\"Да, чувства связывают их с этой ложной жизнью. Я надеюсь убедить их забыть "
+"свои чувства, покинуть эту ложную жизнь и достичь Истинной Смерти.\""
 
 #: 21675
-#, fuzzy
 msgid "\"False life?\""
-msgstr "\"Фелл?\""
+msgstr "\"Ложную жизнь?\""
 
 #: 21676 21772
-#, fuzzy
 msgid "\"True Death?\""
 msgstr "\"Истинной Смерти?\""
 
@@ -563,15 +562,16 @@ msgid "Null node."
 msgstr "Null node."
 
 #: 21767 21774 21780
-#, fuzzy
 msgid "\"You want them to die?\""
-msgstr "\"Ты *хочешь* умереть?\""
+msgstr "\"Ты хочешь, чтобы они умерли?\""
 
 #: 21771
 msgid ""
 "\"These... dead ones... are so close to the True Death... yet they cling to "
 "this life. This false life is the lie of existence on this plane.\""
 msgstr ""
+"\"Эти... мертвые... они так близки к Истинной Смерти... но все еще цепляются "
+"за эту жизнь. Ложную жизнь, которая является ложью реальности этого плана.\""
 
 #: 21777
 msgid ""
@@ -579,21 +579,25 @@ msgid ""
 "shadow of existence. It is to this place that these dead must reach to free "
 "themselves.\""
 msgstr ""
+"\"Полное отсутствие чувств, Истинная Смерть - это истинная жизнь, за "
+"пределами тени этой реальности. Это место, которого должны достичь все "
+"мертвые.\""
 
 #: 21779 21788
-#, fuzzy
 msgid "\"What was that 'false life' you mentioned?\""
-msgstr "\"А что это за 'ключи', про которые ты говорил?\""
+msgstr "\"А что это за 'ложная жизнь', про которую ты говорил?\""
 
 #: 21786
 msgid ""
 "\"I wish them to transcend this plane of existence, divorce themselves from "
 "passion. It can save them.\""
 msgstr ""
+"\"Я хочу, чтобы они переступили пределы этого плана бытия и отринули себя от "
+"чувств. Это спасет их.\""
 
 #: 21790
 msgid "\"You had mentioned the 'True Death?'\""
-msgstr ""
+msgstr "\"Ты что-то говорил об 'Истинная смерти'\"?"
 
 #: 21799
 msgid ""
@@ -602,10 +606,14 @@ msgid ""
 "Should you prove hostile they will defend themselves, and there are... many "
 "of them. Lastly, you may return here if you need to rest.\""
 msgstr ""
+"\"Подожди минуту. Не нападай на здешних мертвецов, если ты не будешь их "
+"беспокоить, они не причинят тебе вреда. Будешь враждебно к ним относиться, и "
+"они начнуть защищаться... а их очень много. И еще - если тебе нужно "
+"отдохнуть, ты можешь приходить сюда.\""
 
 #: 21800
 msgid "\"Wait... can I rest now?\""
-msgstr ""
+msgstr "\"Погоди... а сейчас можно отдохнуть?\""
 
 #: 21805
 msgid ""
@@ -618,20 +626,24 @@ msgid ""
 "\"Your memory serves you well. I am no longer stationed in the Mortuary... "
 "instead, I have become a missionary in these parts.\""
 msgstr ""
+"\"Память тебе не изменяет. Я больше не работаю в Морге... теперь я работаю "
+"здесь с мессионерской деятельностью.\""
 
 #: 21808
 msgid "\"But I thought I'd *killed* you...\""
-msgstr ""
+msgstr "\"Но я думал, что *убил* тебя...\""
 
 #: 21814
 msgid ""
 "\"The wound you struck was not a mortal one. I recovered quickly... and "
 "found that I would like to distance myself from the Mortuary.\""
 msgstr ""
+"\"Твоя рана была не смертельной. Я быстро восстановился... и понял, что хочу "
+"быть от Морга подальше.\""
 
 #: 21815
 msgid "\"Soego, I snapped your neck... not a mortal blow?\""
-msgstr ""
+msgstr "\"Соэго, я свернул тебе шею... разве это не смертельно?\""
 
 #: 21816 22018
 #, fuzzy
@@ -640,7 +652,7 @@ msgstr "\"С тобой все в порядке?\""
 
 #: 21817
 msgid "\"Hmmm. So... you'd said you're a missionary?\""
-msgstr ""
+msgstr "\"Хммм... Ты говорил, что ты здесь с миссионерской деятельностью?\""
 
 #: 21818
 msgid "\"Fine, then. What are the Dustmen doing here?\""
@@ -657,6 +669,9 @@ msgid ""
 "leave this place. Nonetheless, you should not return to the Mortuary, for "
 "many of my fellow factotums would not be pleased to see you.\""
 msgstr ""
+"\"Нет... а должен? Я был немного сбит с толку, я не собирался уходить оттуда."
+" Однако ты все равно не должен возвращаться в Морг, не многие фрактотумы "
+"будут рады постречать тебя.\""
 
 #: 21837
 msgid ""
@@ -665,13 +680,12 @@ msgid ""
 msgstr ""
 
 #: 21840 21847
-#, fuzzy
 msgid "\"And who were you?\""
-msgstr "\"Кто *ты* такой?\""
+msgstr "\"А кто ты?\""
 
 #: 21844
 msgid "\"I do not know. Ask some of the 'citizens,' here.\""
-msgstr ""
+msgstr "\"Не знаю. Поспрашивай здешних 'граждан'.\""
 
 #: 21851
 msgid ""
@@ -682,7 +696,7 @@ msgstr ""
 
 #: 21852
 msgid "\"Wait: are you Soego? Emoric wanted to know where you were.\""
-msgstr ""
+msgstr "\"Постой, ты Соэго? Эморик хочет знать, где ты.\""
 
 #: 21853
 msgid "\"How do I get to the Silent King?\""
@@ -693,13 +707,13 @@ msgid "\"I see. Farewell, then.\""
 msgstr "\"Понятно. Тогда прощай.\""
 
 #: 21856
-#, fuzzy
 msgid ""
 "I found Soego. He was infected with lycanthropy, which drove him into the "
 "catacombs. His mind was no longer his own and his Dustman beliefs were lost."
 msgstr ""
-"\"Он был заражен ликантропией, которая свела его в катакомбы. Его разум "
-"более не принадлежал ему, и его вера в Тленных была утеряна.\""
+"Я нашел Соэго. Он был заражен ликантропией, которая свела его в катакомбы. "
+"Его разум "
+"более не принадлежит ему, его вера в Тленных утеряна."
 
 #: 21857
 msgid ""
@@ -713,20 +727,25 @@ msgid ""
 "way inside his throne room. Perhaps you will have better luck, unburdened by "
 "the hatred and bigotry that is directed toward me.\""
 msgstr ""
+"\"Не знаю... Я здесь уже много времени, но так и не смог найти способ "
+"попасть в его тронный зал. Может быть, тебе повезет больше, без той "
+"ненависти и фанатизма, которые направлены на меня.\""
 
 #: 21860
 msgid "\"Hatred and bigotry?\""
-msgstr ""
+msgstr "\"Ненависти и фанатизма?\""
 
 #: 21864
 msgid ""
 "\"My faction views are popular with some, but not all. The most important "
 "figureheads of this civilization do not hold them dear.\""
 msgstr ""
+"\"Взгляды моей фракции популярны, но не все их принимают. Многие важные "
+"персоны этой цивилизации не питают к ним теплых чувств.\""
 
 #: 21913
 msgid "\"Ah, well met again.\""
-msgstr ""
+msgstr "\"А, рад встрече.\""
 
 #: 21914 22051
 #, fuzzy
@@ -741,7 +760,7 @@ msgstr ""
 
 #: 21916
 msgid "\"I was in your chamber, and saw your journal.\""
-msgstr ""
+msgstr "\"Я был в твоей комнате и видел твой дневник.\""
 
 #: 21917
 msgid ""
@@ -751,11 +770,11 @@ msgstr ""
 
 #: 21920
 msgid "\"I need to rest.\""
-msgstr ""
+msgstr "\"Мне нужно отдохнуть.\""
 
 #: 21922
 msgid "\"We need to rest.\""
-msgstr ""
+msgstr "\"Нам нужно отдохнуть.\""
 
 #: 21925
 msgid "\"Just passing by. Farewell.\""
@@ -766,6 +785,8 @@ msgid ""
 "I confronted Soego with contents of his journal, and he transformed into a "
 "wererat and attacked me."
 msgstr ""
+"Я рассказал Соэго про содержимое его дневника, и он трансформировался в "
+"крысооборотня и напал на меня."
 
 #: 21943
 #, fuzzy
@@ -803,7 +824,7 @@ msgstr "\"Неважно. Прощай.\""
 
 #: 21954
 msgid "\"Of course. You shall be safe in this chamber while you rest.\""
-msgstr ""
+msgstr "\"Конечно. Здесь ты будешь в безопасности.\""
 
 #: 21956
 msgid "\"Thanks...\""
@@ -882,11 +903,11 @@ msgstr ""
 
 #: 21997
 msgid "\"You... bastard!\""
-msgstr ""
+msgstr "\"Ах ты... сволочь!\""
 
 #: 21998
 msgid "\"Wha-\""
-msgstr ""
+msgstr "\"Чт...\""
 
 #: 22003
 msgid ""
@@ -923,26 +944,28 @@ msgid ""
 "Soego pauses for a moment. \"I see.\" He suddenly begins a startling "
 "transformation..."
 msgstr ""
+"Соэго некоторое время молчит. \"Все ясно.\" Неожиданно он начинает "
+"трансформироваться..."
 
 #: 22012 22024
-#, fuzzy
 msgid "\"What the...?\""
-msgstr "\"Что?!..\""
+msgstr "\"Какого?..\""
 
 #: 22014
 msgid ""
 "\"Er... your memory does you a disservice. My neck was hurt, surely... "
 "sprained. But broken? Hardly.\""
 msgstr ""
+"\"Эээ... твоя память тебе изменяет. Моя шея немного побаливает... она "
+"немного вывернута. Но сломана? Вряд ли.\""
 
 #: 22015 22016
-#, fuzzy
 msgid "\"I beg to differ. What are you, Soego?\""
-msgstr "\"Эй! Эй! Что ты делаешь?\""
+msgstr "\"Позволь не согласиться. Что ты такое, Соэго?\""
 
 #: 22019 22034 64614
 msgid "\"You'd said you're a missionary?\""
-msgstr ""
+msgstr "\"Ты говорил, что ты здесь с миссионерской деятельностью?\""
 
 #: 22023
 msgid ""
@@ -970,19 +993,19 @@ msgstr ""
 #: 22029 22041
 msgid ""
 "\"No. Something is wrong here, and I'll find out what it is soon enough.\""
-msgstr ""
+msgstr "\"Нет. Что-то здесь не так, и я очень скоро выясню это.\""
 
 #: 22032
 msgid "He shrugs. \"Very well.\""
-msgstr ""
+msgstr "\"Ну и ладно\", -  он пожимает плечами."
 
 #: 22033
 msgid "\"Aren't you angry about what happened?\""
-msgstr ""
+msgstr "\"Ты не злишься насчет того, что произошло?\""
 
 #: 22035
 msgid "\"So what are the Dustmen doing here?\""
-msgstr ""
+msgstr "\"Так что Тленные делают здесь?\""
 
 #: 22038 22056
 #, fuzzy
@@ -995,37 +1018,38 @@ msgstr ""
 
 #: 22043
 msgid "\"What am-? What sort of question is that?\""
-msgstr ""
+msgstr "\"Что я такое? Что за вопрос такой?\""
 
 #: 22044
 msgid "\"You heard me. You're no ordinary Dustman... what *are* you, Soego?\""
 msgstr ""
+"\"Ты слышал меня. Ты ведь не обычный Тленный... что ты *такое*, Соэго?\""
 
 #: 22045
 msgid "\"Forget it. Never mind.\""
-msgstr ""
+msgstr "\"Забудь. Неважно.\""
 
 #: 22047
 msgid "Soego scowls at you. \"I don't know *what* you speak of.\""
 msgstr ""
+"Соэго бросает на тебя угрюмый взгляд: \"Я не понимаю, о *чем* ты говоришь.\""
 
 #: 22048
 msgid "\"Something is wrong here, and I'll find out what it is soon enough.\""
-msgstr ""
+msgstr "\"Что-то здесь не так, и я очень скоро выясню это.\""
 
 #: 22052
-#, fuzzy
 msgid ""
 "I found Soego. He has discovered a group of undead guardians who were "
 "protecting the catacombs. He is trying to convince them to join the True "
 "Death."
 msgstr ""
-"\"Он обнаружил группу мертвых охранников, защищавших катакомбы. Он пытается "
-"убедить их присоединиться к Истинной Смерти.\""
+"\"Я нашел Соэго. Он обнаружил группу мертвых охранников, защищавших "
+"катакомбы. Он пытается убедить их присоединиться к Истинной Смерти.\""
 
 #: 22053
 msgid "\"Yes, I am he. I am doing missionary work for the Dustmen, here.\""
-msgstr ""
+msgstr "\"Да, это я. Я здесь с миссионерской деятельностью Тленных.\""
 
 #: 22054
 msgid "\"Are there other Dustmen here?\""
@@ -1033,16 +1057,15 @@ msgstr ""
 
 #: 22057
 msgid "\"Yes, I am he.\""
-msgstr ""
+msgstr "\"Да, это я.\""
 
 #: 22058
 msgid "\"Good. Now, how do I get to the Silent King?\""
 msgstr ""
 
 #: 22060
-#, fuzzy
 msgid "\"Good. Farewell.\""
-msgstr "\"Удачи. Прощай.\""
+msgstr "\"Хорошо. Прощай.\""
 
 #: 25248
 msgid "\"Many-As-One?\""
@@ -1055,7 +1078,6 @@ msgid ""
 msgstr ""
 
 #: 25250 25252
-#, fuzzy
 msgid "\"Interesting. I had some questions...\""
 msgstr "\"Интересно. У меня есть другие вопросы...\""
 
@@ -1082,9 +1104,8 @@ msgid "\"People sell their bodies after death to you?\""
 msgstr "\"Люди продают вам свои тела после смерти?\""
 
 #: 4794 4865 4875 4881 4886 4891
-#, fuzzy
 msgid "\"Oh. I had some other questions...\""
-msgstr "\"Ух... У меня есть другие вопросы...\""
+msgstr "\"О. У меня есть другие вопросы...\""
 
 #: 4796
 msgid ""
@@ -1099,9 +1120,8 @@ msgid "\"What do you do with these bodies?\""
 msgstr "\"И что вы делаете с этими телами?\""
 
 #: 4798 4802
-#, fuzzy
 msgid "\"I... see. Do you mind if I ask you some other questions?\""
-msgstr "\"Могу ли я задать тебе пару вопросов?\""
+msgstr "\"Понятно... Ты не против, если я задам тебе пару вопросов?\""
 
 #: 4799 4803 4887 4888 4892 4893
 msgid "\"Thanks for the information. Farewell.\""
@@ -1125,7 +1145,7 @@ msgstr ""
 
 #: 4804
 msgid "Soego nods. \"You may ask your questions.\""
-msgstr "Соэго кивает. \"Задавай свои вопросы.\""
+msgstr "Соэго кивает: \"Задавай свои вопросы.\""
 
 #: 4805
 msgid "\"I'd like to leave. Can you guide me to the exit?\""
@@ -1152,11 +1172,12 @@ msgid "\"If I may ask... are you all right? You look tired.\""
 msgstr "\"Могу ли спросить... с тобой все в порядке? Ты выглядишь уставшим.\""
 
 #: 4810 4811
-#, fuzzy
 msgid ""
 "\"You're Soego, right? I heard you're a little odd for a Dustman. That you "
 "like rats.\""
-msgstr "\"Я слышал о тебе кое-что странное, Соэго. Что ты похож на крысу.\""
+msgstr ""
+"\"Ты ведь Соэго, верно? Я слышал, что ты немного странноват для Тленного. "
+"Что ты похож на крысу.\""
 
 #: 4832
 msgid "\"Do you know someone named Pharod?\""
@@ -1175,6 +1196,8 @@ msgid ""
 "\"There's a man disguised as a corpse upstairs. I think he's spying on the "
 "Dustmen.\""
 msgstr ""
+"\"Наверху есть мужчина, замаскированный под труп. Я думаю, он шпионит за "
+"Тленными.\""
 
 #: 4838
 msgid "\"Forget it. I had some other questions...\""
@@ -1188,9 +1211,9 @@ msgid ""
 "remember your presence, and he composes himself. \"Thank you for informing "
 "me. I will see to it that the guards handle this matter.\" "
 msgstr ""
-" \"Что? Как это могло случиться?..\" Голос Соэго неожиданно срывается на "
-"шипение, его губы раскрываются, показывая ряд неровных зубов. \"*Анархист*."
-"\" В его глазах вспыхивает красный огонек. \"Анархист. *Здесь*.\" Неожиданно "
+" \"Что? Как это могло случиться?..\" - голос Соэго неожиданно срывается на "
+"шипение, его губы раскрываются, показывая ряд неровных зубов. \"*Анархист*, "
+"- в его глазах вспыхивает красный огонек. - Анархист. *Здесь*.\" Неожиданно "
 "он вспоминает о твоем присутствии и успокаивается. \"Спасибо за "
 "предупреждение. Я позабочусь, чтобы стража разобралась с этим.\" "
 
@@ -1252,16 +1275,15 @@ msgid "\"Anything I could do?\""
 msgstr "\"Я могу чем-нибудь помочь?\""
 
 #: 4866 4867 4882 4883
-#, fuzzy
 msgid "\"I see. Well, I must take my leave. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Ясно. Что ж, мне нужно идти. Прощай.\""
 
 #: 4868
 msgid ""
 "Soego shakes his head. \"No, no, thank you for your concern... I will endure."
 "\" He frowns slightly. \"Was there something else you wanted?\""
 msgstr ""
-"Соэго качает головой. \"Нет, нет, спасибо за заботу... Я это выдержу.\" Он "
+"Соэго качает головой: \"Нет, нет, спасибо за заботу... Я это выдержу.\" Он "
 "слегка хмурится. \"Тебе нужно что-либо еще?\""
 
 #: 4869
@@ -1269,9 +1291,8 @@ msgid "\"Yes. I had some other questions...\""
 msgstr "\"Да. У меня есть еще вопросы...\""
 
 #: 4870 4871
-#, fuzzy
 msgid "\"No, I won't trouble you anymore. Thanks for the information.\""
-msgstr "\"Отлично. Спасибо за информацию.\""
+msgstr "\"Нет, не хочу тебя больше беспокоить. Спасибо за информацию.\""
 
 #: 4872
 msgid ""
@@ -1343,10 +1364,9 @@ msgstr "\"Еще раз, чем занимаются Сборщики?\""
 
 #: 4894
 msgid "\"A journal?\" Soego seems confused. \"No, I have not seen one.\""
-msgstr "\"Дневник?\" Соэго выглядит растерянным. \"Нет, мне он не попадался.\""
+msgstr "\"Дневник? - Соэго выглядит растерянным. - Нет, мне он не попадался.\""
 
 #: 4895
-#, fuzzy
 msgid "\"Never mind then. I had some other questions...\""
 msgstr "\"Ладно, неважно. У меня есть другие вопросы...\""
 
@@ -1373,19 +1393,18 @@ msgid ""
 "scars, and the corner of his mouth twitches. \"I'm sorry, sirrah, are you "
 "lost?\""
 msgstr ""
-"\"Приветствую...\" Мужчина поворачивается к тебе лицом и слегка кланяется. "
+"\"Приветствую...\" - мужчина поворачивается к тебе лицом и слегка кланяется. "
 "Случайно ты замечаешь, что его глаза не налиты кровью, а просто отдают "
-"краснотой. \"Я Соэго. Чем я могу...\" Случайно он замечает твои шрамы, при "
-"этом уголки его рта начинают подрагивать. \"Прошу прощения, ты потерялся?\""
+"краснотой. \"Я Соэго. Чем я могу... - неожиданно он замечает твои шрамы, при "
+"этом уголки его рта начинают подрагивать. - Прошу прощения, ты потерялся?\""
 
 #: 4906
 msgid "\"No.\""
 msgstr "\"Нет.\""
 
 #: 4907
-#, fuzzy
 msgid "\"No, I'm not lost. I had some questions...\""
-msgstr "\"Я не уверен. У меня есть несколько вопросов...\""
+msgstr "\"Нет я не потерялся. У меня есть несколько вопросов...\""
 
 #: 4908
 msgid "\"No. I was merely looking for the exit. Farewell.\""
@@ -1397,8 +1416,8 @@ msgid ""
 "anticipation. \"Let me call the guards to lead you out. Stand for a moment."
 "\" He looks like he is about to call the guards."
 msgstr ""
-"\"Что ж, тогда...\" Уголки рта Соэго снова начинают в неприятии подрагивать. "
-"\"Позволь мне позвать охрану, она выпроводит тебя. Подожди минуточку.\" "
+"\"Что ж, тогда... - уголки рта Соэго снова начинают в неприятии подрагивать, "
+"- позволь мне позвать охрану, она выпроводит тебя. Подожди минуточку.\" "
 "Кажется, вот-вот он позовет охрану."
 
 #: 4910
@@ -1424,15 +1443,16 @@ msgid ""
 "eyes gleam red in the light of the torches. \"May I ask what you are doing "
 "here?\""
 msgstr ""
+"\"Не помню, чтобы я тебя впускал, - Соэго подозревающе смотрит на тебя, его "
+"глаза горят красными факелами. - Могу ли я спросить, что ты здесь делаешь?\""
 
 #: 4918
 msgid "\"That is none of your concern.\""
 msgstr "\"Это тебя не касается.\""
 
 #: 4919
-#, fuzzy
 msgid "\"I awoke on one of the slabs in your preparation room.\""
-msgstr "\"Я очнулся на одной из плит.\""
+msgstr "\"Я очнулся на одной из плит в вашей препараторской.\""
 
 #: 4920 4954
 msgid "\"I'm here to see someone.\""
@@ -1447,6 +1467,8 @@ msgstr ""
 #: 4922 4956
 msgid "Lean in as if to whisper to him, then when he leans in, snap his neck."
 msgstr ""
+"Наклониться вперед, будто собираясь прошептать ему что-то, а затем, когда он "
+"наклоняется в ответ, свернуть ему шею."
 
 #: 4924
 msgid "He seems surprised. \"You... woke up on one of the slabs upstairs?\""
@@ -1541,8 +1563,8 @@ msgid ""
 "course. Death will no doubt soon follow the wasting sickness he has "
 "contracted.\""
 msgstr ""
-"\"О, с ним ничего плохого. Дхолл...\" Соэго щелкает зубами. \"очень *стар*. "
-"Его ревностная каталогизация мертвых довело его до ручки. Несомненно, смерть "
+"\"О, с ним ничего плохого. Дхолл... - Соэго щелкает зубами, - очень *стар*. "
+"Его ревностная каталогизация мертвых довела его до ручки. Несомненно, смерть "
 "незамедлительно последует за его изнурительной болезнью.\""
 
 #: 4943
@@ -1582,8 +1604,8 @@ msgid ""
 "halls, living or dead.\" His mouth twitches, and to your surprise, he sniffs "
 "the air for a moment. "
 msgstr ""
-"\"Адана...\" Глаза Соэго сужаются, легкая краснота, которую ты в них видел, "
-"приобретает новый цвет. \"В этих залах Морга нет никого, живого или "
+"\"Адана... - глаза Соэго сужаются, легкая краснота, которую ты в них видел, "
+"приобретает новый цвет. - В этих залах Морга нет никого, живого или "
 "мертвого, носящего подобное имя.\" Его рот подергивается, и, к твоей "
 "неожиданности, а начинает принюхиваться. "
 
@@ -1600,18 +1622,16 @@ msgstr ""
 "делаешь?\""
 
 #: 4952
-#, fuzzy
 msgid "\"None of your concern.\""
-msgstr "Это не твое дело."
+msgstr "\"Это не твое дело.\""
 
 #: 4953
-#, fuzzy
 msgid "\"I woke up on one of the slabs in your preparation room.\""
-msgstr "\"Я очнулся на одной из плит.\""
+msgstr "\"Я очнулся на одной из плит в вашей препараторской.\""
 
 #: 4955
 msgid "\"I was here for an internment.\""
-msgstr ""
+msgstr "\"Я оказался здесь для погребения.\""
 
 #: 4957
 msgid ""
@@ -1619,24 +1639,26 @@ msgid ""
 "it. His eyes suddenly narrow, and he looks like he is about to call for the "
 "guards."
 msgstr ""
+"Соэго хмурится, когда ты наклоняешься вперед. Ты замечаешь, что он что-то "
+"вынюхивает, что-то проверяя. Неожиданно его глаза сужаются, похоже, он готов "
+"позвать стражу."
 
 #: 4960
-#, fuzzy
 msgid ""
 "As you lunge for him, Soego leaps back, his eyes gleaming red and his teeth "
 "bared. With a hiss, he claps his hands together sharply three times. In "
 "response, a great iron bell starts tolling throughout the Mortuary."
 msgstr ""
-"Должно быть, *что-то* насторожило Тленного... до того, как ты смог до него "
-"дотянуться, он отскакивает назад. В его глазах вспыхивает красный огонек, он "
-"скалит зубы. Шипя, он быстро хлопает в ладони три раза. В ответ во всем "
-"Морге раздается звон огромного железного колокола."
+"До того, как ты смог дотянуться до Соэго, он отскакивает назад. В его глазах "
+"вспыхивает красный огонек, он скалит зубы. Шипя, он быстро хлопает в ладони "
+"три раза. В ответ во всем Морге раздается звон огромного железного колокола."
 
 #: 4962
 msgid ""
 "\"Who was being interred? Perhaps the services are taking place somewhere "
 "else in the Mortuary.\""
 msgstr ""
+"\"Кто был погребен? Возможно, служба проводится в другом месте Морга.\""
 
 #: 4963
 msgid "\"You misunderstand... the internment was ME.\""
@@ -1644,7 +1666,7 @@ msgstr "\"Ты не понял... погребать собирались МЕН
 
 #: 4964
 msgid "\"Pardon... I misspoke. I don't know the name of the deceased.\""
-msgstr ""
+msgstr "\"Прошу прощения... Я оговорился. Мне неизвестно имя усопшего.\""
 
 #: 4965
 msgid "\"The name is Deionarra.\""
@@ -1657,10 +1679,10 @@ msgid ""
 "\" Soego suddenly hisses, as if an unpleasant thought had just occurred to "
 "him. \"Or one of the *Collectors.*\""
 msgstr ""
-"\"Ну...\" Соэго отводит глаза в сторону. Кажется, он смущен. \"Кажется, "
+"\"Ну...\" - Соэго отводит глаза в сторону. Кажется, он смущен. \"Кажется, "
 "произошла какая-то ошибка. Или тебя принесли твои кровожадные родственники, "
-"или Тленные, или...\" Соэго неожиданно умолкает, похоже, его охватила очень "
-"неприятная мысль. \"Или один из *Сборщиков*.\""
+"или Тленные, или... - Соэго неожиданно умолкает, похоже, его охватила очень "
+"неприятная мысль, - или один из *Сборщиков*.\""
 
 #: 4967 4968
 msgid "Lie: \"The name is... uh, Adahn.\""
@@ -1689,8 +1711,8 @@ msgid ""
 "you may have reached the True Death before your time.\""
 msgstr ""
 "\"Да, Сборщиков... банды собирателей, которые приносят нам мертвые тела. Они "
-"могли решить, что ты мертв...\" Соэго хрипит, его глаза приобретают блеск. "
-"\"... они были так ослеплены медью, что не позаботились проверить тело перед "
+"могли решить, что ты мертв... - Соэго хрипит, его глаза приобретают блеск, - "
+"... они были так ослеплены медью, что не позаботились проверить тело перед "
 "тем, как доставить тебя сюда.\" Соэго изучает тебя. \"Тебе несказанно "
 "повезло, что ты выжил... или ты мог достичь Истинной Смерти раньше "
 "положенного срока.\""
@@ -1728,52 +1750,60 @@ msgid ""
 "As you approach, Soego sniffs the air, and he looks up. When he sees you, he "
 "frowns. \"I unlocked the gate for you. Why are you still here?\""
 msgstr ""
+"При твоем приближении, Соэго вынюхивает воздух и поднимает взгляд. Увидев "
+"тебя, он хмурится. \"Я уже открыл для тебя ворота. Почему ты все еще здесь?\""
 
 #: 4981
 msgid "\"I had some questions for you before I left.\""
-msgstr ""
+msgstr "\"Перед тем, как уйти, я хочу задать несколько вопросов.\""
 
 #: 4982
 msgid "\"I am heading for the gate now. Farewell.\""
-msgstr ""
+msgstr "\"Я как раз направляюсь к воротам. Прощай.\""
 
 #: 4983
 msgid ""
 "As you approach, Soego sniffs the air, and he looks up. When he sees you, he "
 "bows slightly. \"Did you find what you were looking for?\""
 msgstr ""
+"При твоем приближении, Соэго вынюхивает воздух и поднимает взгляд Увидев "
+"тебя, он слегка кивает. \"Ты нашел то, что искал?\""
 
 #: 4984
 msgid ""
 "\"Yes, thank you. Pardon me, I've gotten all turned around in these halls... "
 "can you help me find the exit?\""
 msgstr ""
+"\"Да, спасибо. Прошу прощения, я, кажется, заблудился в этих залах... Ты не "
+"поможешь мне найти выход?\""
 
 #: 4985
 msgid "\"Yes. I want to leave now. Can you take me to the exit?\""
-msgstr ""
+msgstr "\"Да. Мне пора идти. Ты можешь указать, где выход?\""
 
 #: 4986
 msgid "\"Yes, and I am heading for the gate now. Farewell.\""
-msgstr ""
+msgstr "\"Да, я как раз направляюсь к воротам. Прощай.\""
 
 #: 4987
 msgid ""
 "Soego nods, and the corner of his mouth twitches.  \"Why... of course. These "
 "halls *can* be confusing to visitors. Let me open the front gate for you.\""
 msgstr ""
+"Соэго кивает, уголки его рта немого подрагивают. \"Ну почему же... конечно. "
+"Эти залы *могут* запутать посетителей. Позволь мне открыть для тебя ворота.\""
 
 #: 4990
-#, fuzzy
 msgid ""
 "\"This is most odd.\" Soego's eyes gleam red, and the corners of his mouth "
 "twitch slightly, as if in anticipation. \"Mayhap...\" He sneers, displaying "
 "a row of sharp, dirty teeth. \"Mayhap I should call the guards? Yes... yes, "
 "I think I will do that.\""
 msgstr ""
-"\"Понятно...\" В глазах Соэго вспыхивает огонек, отдающий краснотой, уголки "
-"рта в знак неприятия начинают подрагивать. \"Может...\" Он широко "
-"ухмыляется, показывая ряд острых грязных зубов. \"Может, мне стоит позвать "
+"\"Очень странно\", - в глазах Соэго вспыхивает огонек, отдающий краснотой, "
+"уголки "
+"рта в знак неприятия начинают подрагивать. \"Может... - он широко "
+"ухмыляется, показывая ряд острых грязных зубов. - Может, мне стоит позвать "
 "охрану? Да... да, пожалуй, я так и сделаю.\""
 
 #: 4996
@@ -1808,11 +1838,11 @@ msgstr ""
 
 #: 64547
 msgid "\"But I thought I'd broken your neck...\""
-msgstr ""
+msgstr "\"Но я думал, что сломал тебе шею...\""
 
 #: 64569
 msgid "\"Wait... can we rest now?\""
-msgstr ""
+msgstr "\"Погоди... а сейчас можно отдохнуть?\""
 
 #: 64612
 msgid "\"All right... so where am I?\""
@@ -1820,21 +1850,23 @@ msgstr ""
 
 #: 64613
 msgid "\"I... see. Why have I been made a prisoner here?\""
-msgstr ""
+msgstr "\"Понятно... Почему из меня сделали заключенного?\""
 
 #: 64617
 msgid "\"All right. But... I thought I'd broken your neck...\""
-msgstr ""
+msgstr "\"Хорошо. Но... я думал, что сломал тебе шею...\""
 
 #: 64618
 msgid "\"Good. But... I thought I'd *killed* you...\""
-msgstr ""
+msgstr "\"Хорошо. Но... я думал, что *убил* тебя...\""
 
 #: 64620
 msgid ""
 "He waves your words away. \"Nothing; it was nothing to me. I had already "
 "been blessed with lycanthropy; the wounds healed in little time at all.\""
 msgstr ""
+"Он отмахивается от твоих слов: \"Ничто, для меня это ничто. Я уже был "
+"благославлен ликантропией - любые раны восстанавливаются очень быстро.\""
 
 #: 64621
 msgid "\"I... see. So, how do I get to the Silent King?\""
@@ -1846,26 +1878,22 @@ msgid "\"All right... farewell, then.\""
 msgstr "\"Тогда ладно... Прощай.\""
 
 #: 64623 64625
-#, fuzzy
 msgid "\"Wait a moment... didn't I break your neck in the Mortuary?\""
-msgstr "\"Что тебе нужно в Морге?\""
+msgstr "\"Постой... разве я не сломал тебе шею в Морге?\""
 
 #: 64624 64626
-#, fuzzy
 msgid "\"Wait a moment... I thought I'd *killed* you at the Mortuary...\""
-msgstr "\"Я - Посвященный Тленный; я хотел бы попасть в Морг.\""
+msgstr "\"Постой... Я думал, что *убил* тебя в Морге...\""
 
 #: 66173 66181
-#, fuzzy
 msgid "\"Soego... Emoric wanted to know where you were.\""
-msgstr "\"Оставь деньги себе. Я хочу знать, почему ты хочешь умереть.\""
+msgstr "\"Соэго... Эморик хочет знать, где ты.\""
 
 #: 66706 66707
 msgid "\"Greetings...\""
 msgstr "\"Приветствую...\""
 
 #: 66708
-#, fuzzy
 msgid "Leave him to his thoughts."
 msgstr "Оставить его в раздумьях."
 
@@ -1875,12 +1903,17 @@ msgid ""
 "suddenly notice that his eyes aren't bloodshot so much as they have a red "
 "tinge to them. \"I am Soego. How may I help you?\""
 msgstr ""
+"\"Приветствую...\" - мужчина поворачивается к тебе лицом и слегка кланяется "
+"Случайно ты замечаешь, что его глаза не налиты кровью, а просто отдают "
+"краснотой. \"Я Соэго. Чем я могу помочь?\""
 
 #: 66710
 msgid ""
 "Halfway through your comment, Soego's lips suddenly peel back, revealing a "
 "row of dirty, sharp teeth, and he leans in, sniffing you. "
 msgstr ""
+"Пока ты произносишь фразу, губы Соэго неожиданно раскрываются, обнажая ряд "
+"грязных и острых зубов. Он наклоняется вперед, обнюхивая тебя."
 
 #: 66711
 msgid ""
@@ -1888,18 +1921,18 @@ msgid ""
 "Soego's lips seal into a strange smile, and his eyes gleam with an almost "
 "feral light. \"Who *are* you?\""
 msgstr ""
+"\"Твоя одежда... эта роба. Она пахнет другим. Она не твоя.\" Губы Соэго "
+"растягиваются в странной улыбке, глаза горят диким огнем. \"Кто ты *такой*?\""
 
 #: 66712
 msgid "\"I would like to leave the Mortuary. Can you help me?\""
-msgstr ""
+msgstr "\"Я хотел бы покинуть Морг. Ты не поможешь мне?\""
 
 #: 66714
-#, fuzzy
 msgid "\"I was merely passing by. Farewell.\""
 msgstr "\"Я просто проходил мимо. Прощай.\""
 
 #: 66715
-#, fuzzy
 msgid "\"Uh... why in the hells are you sniffing me?\""
 msgstr "\"Эй... какого черта ты меня обнюхиваешь?\""
 
@@ -1912,19 +1945,21 @@ msgid ""
 "\"I... only took these robes so I could leave in peace. I woke up on one of "
 "the preparation rooms upstairs.\""
 msgstr ""
+"\"Я... одолжил эту робу. Я очнулся на одной из плит наверху в препараторской."
+"\""
 
 #: 66720
 msgid ""
 "\"You're correct. These robes aren't mine, but who they belong to is not "
 "your concern.\""
-msgstr ""
+msgstr "\"Ты прав. Эта роба не моя, но чья она - это не твое дело.\""
 
 #: 66721 66722
-#, fuzzy
 msgid "Snap his neck before he can call for help."
 msgstr "Свернуть ему шею до того, как он сможет позвать на помощь."
 
 #: 66723
 msgid "\"This is of no matter. I will take my leave now.\""
-msgstr ""
+msgstr "\"Это не важно. Мне пора идти.\""
+
 
