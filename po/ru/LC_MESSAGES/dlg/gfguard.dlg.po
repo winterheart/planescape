@@ -3,20 +3,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gfguard.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-09-04 18:49+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2010-09-25 19:50+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 5826 5829
-#, fuzzy
 msgid "\"You again? Guards! Guards!\""
-msgstr "\"Опять я? Что ты имеешь в виду?\""
+msgstr "\"Опять ты? Стража! Стража!\""
 
 #: 5827 5830
 msgid "Fight."
@@ -28,40 +27,37 @@ msgstr "Уйти."
 
 #: 5832
 msgid "\"All right, berk... move it along and no one gets hurt.\""
-msgstr ""
+msgstr "\"Ладно, пень... проваливай, и никто не пострадает\"."
 
 #: 5834 5837
-#, fuzzy
 msgid "\"Welcome back to the Foundry, sir.\""
-msgstr "\"Добро пожаловать на планы, сынок.\""
+msgstr "\"Добро пожаловать обратно в Литейную, сер\"."
 
 #: 5835 5838
-#, fuzzy
 msgid "\"Thanks. I had an item to be picked up.\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Спасибо. Мне нужно забрать одну вещь\"."
 
 #: 5836 5839 5858 5862 5908 6481 6483 67932
 msgid "\"Thanks.\""
-msgstr "\"Спасибо.\""
+msgstr "\"Спасибо\"."
 
 #: 5840
 msgid "You see a burly, bored-looking guard. \"State your business, please.\""
 msgstr ""
+"Ты видишь крепкого стражника, который выглядит скучающим. \"Прошу сообщить, "
+"по какому ты делу\"."
 
 #: 5841 5872
-#, fuzzy
 msgid "\"Just looking around.\""
-msgstr "\"Я просто проходил мимо.\""
+msgstr "\"Просто осматриваюсь\"."
 
 #: 5842 5873
-#, fuzzy
 msgid "\"I'm here to pick up an order.\""
-msgstr "\"Я здесь, чтобы помочь тебе.\""
+msgstr "\"Я здесь, чтобы забрать заказ\"."
 
 #: 5843 5874
-#, fuzzy
 msgid "\"I'm here to put in an order.\""
-msgstr "\"Я здесь, чтобы помочь тебе.\""
+msgstr "\"Я здесь, чтобы оставить заказ\"."
 
 #: 5844 5875
 msgid "\"Who are you?\""
@@ -69,49 +65,48 @@ msgstr "\"Кто ты?\""
 
 #: 5845 5876
 msgid "\"What are you doing?\""
-msgstr "\"Что ты делаешь?\""
+msgstr "\"Чем ты занимаешься?\""
 
 #: 5846
 msgid "\"I'm helping Xander with the dreambuilder.\""
-msgstr ""
+msgstr "\"Я помогаю Зандеру с построителем снов\"."
 
 #: 5847
 msgid "\"I'm here to use the dreambuilder. .\""
-msgstr ""
+msgstr "\"Я здесь для того, чтобы воспользоваться построителем снов\"."
 
 #: 5848
 msgid "\"Then I'm certain you won't mind just passing along.\""
 msgstr ""
+"\"Тогда уверен, что ты не будешь против того, чтобы просто отойти подальше\"."
 
 #: 5849
 msgid "\"May I come in?\""
-msgstr ""
+msgstr "\"Можно войти?\""
 
 #: 5850
-#, fuzzy
 msgid "\"Not at all.\""
-msgstr "\"Нет, не во всем объеме.\""
+msgstr "\"Вовсе нет\"."
 
 #: 5851
 msgid "\"Yes, sir.  May we see your receipt?\""
-msgstr ""
+msgstr "\"Да, сер. Могу ли я увидеть твою квитанцию?\""
 
 #: 5852
 msgid "\"Yes.\""
-msgstr "\"Да.\""
+msgstr "\"Да\"."
 
 #: 5853
 msgid "Lie: \"Yes.\""
-msgstr "Ложь: \"Да.\""
+msgstr "Ложь: \"Да\"."
 
 #: 5854 5905
 msgid "\"No.\""
-msgstr "\"Нет.\""
+msgstr "\"Нет\"."
 
 #: 5855 5885
-#, fuzzy
 msgid "\"I'm sure I had it on me...\""
-msgstr "\"Я не уверен. У меня есть несколько вопросов...\""
+msgstr "\"Уверен, она у меня где-то была...\""
 
 #: 5856
 msgid ""
@@ -119,65 +114,64 @@ msgid ""
 "a large project we have undertaken. Check back in about a year, sir. Thank "
 "you for your interest.\""
 msgstr ""
+"\"Прошу прощения, сер, но в данный момент мы не принимаем новых заказов в "
+"связи с крупным проектом, которым мы заняты. Возвращайся примерно через год. "
+"Спасибо за твою заинтересованность\"."
 
 #: 5857
-#, fuzzy
 msgid "\"Right. I had more questions.\""
-msgstr "\"У меня есть еще вопросы...\""
+msgstr "\"Ладно. У меня есть еще вопросы...\""
 
 #: 5859
 msgid "\"I am a guard of the Believers of the Source, sir.\""
-msgstr ""
+msgstr "\"Я - стражник Верящих в Первопричину, сер\"."
 
 #: 5860
 msgid "\"Believers of the Source?\""
-msgstr ""
+msgstr "\"Верящих в Первопричину?\""
 
 #: 5861
-#, fuzzy
 msgid "\"Oh. I see.  I had more questions.\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"О, понятно. У меня были еще вопросы...\""
 
 #: 5863
 msgid "\"Guarding the gate, sir.\""
-msgstr ""
+msgstr "\"Охраняю ворота, сер\"."
 
 #: 5864
-#, fuzzy
 msgid "\"Riiight. I had more questions.\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"П-нятно. У меня были еще вопросы\"."
 
 #: 5865
 msgid "\"Thanks for your time.\""
-msgstr ""
+msgstr "\"Спасибо за уделенное время.\""
 
 #: 5866
 msgid ""
 "\"You are in front of the Great Foundry, home to the Believers of the Source."
 "\""
 msgstr ""
+"\"Ты находишься перед Великой Литейной, домом Верящих в Первопричину\"."
 
 #: 5867
-#, fuzzy
 msgid "\"The who?\""
-msgstr "\"Указатель\""
+msgstr "\"Кого?\""
 
 #: 5868
 msgid "\"What is the Great Foundry?\""
-msgstr ""
+msgstr "\"Что такое Великая Литейная?\""
 
 #: 5869
-#, fuzzy
 msgid "\"Oh. Thanks. I had more questions.\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"О, спасибо. У меня есть другие вопросы\"."
 
 #: 5870
 msgid "Leave: \"Oh.\""
-msgstr ""
+msgstr "Уйти: \"Ах\"."
 
 #: 5871
 msgid "\"State the nature of your requirement, sir.\""
-msgstr ""
+msgstr "\"Укажите суть вашего требования, сер\"."
 
 #: 5877 6478
 msgid "\"What is this place?\""
@@ -185,62 +179,64 @@ msgstr "\"Что это за место?\""
 
 #: 5878
 msgid "\"No business. Sorry.\""
-msgstr ""
+msgstr "\"Извини, я здесь не по делу\"."
 
 #: 5879
 msgid "\"Not until you can demonstrate that you have business here, sir.\""
-msgstr ""
+msgstr "\"Только если вы покажите, что вы здесь по делу, сер\"."
 
 #: 5880
-#, fuzzy
 msgid "\"I see. I had more questions, then.\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. Тогда у меня еще вопросы\"."
 
 #: 5881
 msgid "\"I see. Goodbye.\""
-msgstr ""
+msgstr "\"Ясно. Прощай\"."
 
 #: 5882
 msgid ""
 "\"Thank you, sir. The clerk you seek holds office on the southern wall of "
 "the Foundry. Thank you for your patronage.\" He opens the gate for you."
 msgstr ""
+"\"Благодарю, сер. У клерка, которого ты ищешь, есть контора в южной стене "
+"Литейной. Спасибо за поддержку\". Он открывает для тебя ворота."
 
 #: 5884
 msgid "\"Sir, you do not appear to have a receipt.\""
-msgstr ""
+msgstr "\"Сер, похоже, у вас нет квитанции\"."
 
 #: 5886
 msgid "\"Hm. No. I do have other questions, though.\""
-msgstr ""
+msgstr "\"Хм, нет. Только у меня есть другие вопросы\"."
 
 #: 5888
 msgid "\"Then I'm afraid you'll have to leave, sir.\""
-msgstr ""
+msgstr "\"Тогда боюсь, что вы должны уйти, сер\"."
 
 #: 5890
 msgid ""
 "\"Yes, sir, I'm sure you did. However, until you can produce evidence that "
 "you have business here, I'm afraid we cannot offer admittance.\""
 msgstr ""
+"\"Да, сер, я уверен, что так оно и есть. Однако, пока ты не предоставишь "
+"доказательство, что ты здесь по делу, боюсь, что мы не можем разрешить тебе "
+"войти\"."
 
 #: 5891
-#, fuzzy
 msgid "\"I had other questions, then.\""
-msgstr "\"У меня есть другие вопросы...\""
+msgstr "\"Тогда у меня есть другие вопросы\"."
 
 #: 5893
 msgid "\"Yes, sir. Godsmen, we're called.\""
-msgstr ""
+msgstr "\"Да, сер. Нас называют Боголюдьми\"."
 
 #: 5894
-#, fuzzy
 msgid "\"Why?\""
-msgstr "\"Зачем?\""
+msgstr "\"Почему?\""
 
 #: 5895
 msgid "\"Good for you. Goodbye. \""
-msgstr ""
+msgstr "\"Рад за тебя. Прощай\"."
 
 #: 5896
 msgid ""
@@ -253,14 +249,21 @@ msgid ""
 "unless you have a receipt for work to pick up or have urgent business inside."
 "\""
 msgstr ""
+"\"Кроме того, что это дом Верящих в Первопричину, это еще и одна из самых "
+"больших литейных, известных смертным. Через эти ворота много чего проходит; "
+"мы принимаем заказы со всех планов. В данный момент мы больше не принимаем "
+"заказов, поскольку большинство наших ремесленников либо работают над новым "
+"проектом, либо им поручены более мелкие заказы на ближайшие несколько "
+"месяцев. На деле это означает, что тебя впустят, только если при тебе есть "
+"квитанция на получение заказа, либо у тебя здесь срочное дело\"."
 
 #: 5897
 msgid "\"I do have urgent business!\""
-msgstr ""
+msgstr "\"У меня срочное дело!\""
 
 #: 5898
 msgid "\"I do have a receipt!\""
-msgstr ""
+msgstr "\"У меня есть квитанция!\""
 
 #: 5900
 msgid ""
@@ -271,63 +274,73 @@ msgid ""
 "and we are devoted to understanding what these goals are. We strive toward "
 "greatness with every step in our lives.\""
 msgstr ""
+"\"Мы - одна из пятнадцати признанных фракций Сигила, сер. Мы верим, что в "
+"каждом существе есть искорка божественности - не обязательно добро или зло, "
+"а лишь возможность быть подобным богу. Мы полагаем, что за божественностью "
+"есть нечто большее. Мы верим, что у каждой жизни есть предназначение и цель, "
+"и мы призваны осознать эти цели. С каждым шагом в нашей жизни мы стремимся к "
+"величию\"."
 
 #: 5901
 msgid "\"Sounds important.\""
-msgstr ""
+msgstr "\"Звучит важно\"."
 
 #: 5902
 msgid "\"Good for you. Are you going to let me in?\""
-msgstr ""
+msgstr "\"Рад за тебя. Ты собираешься меня впускать?\""
 
 #: 5903
 msgid "\"We believe it is, sir. Can I help you with anything else?\""
-msgstr ""
+msgstr "\"Мы верим, что это так, сер. Могу ли я еще чем-то помочь?\""
 
 #: 5904
-#, fuzzy
 msgid "\"Yes. I had more questions.\""
-msgstr "\"У меня есть еще вопросы...\""
+msgstr "\"Да. У меня есть еще вопросы\"."
 
 #: 5906
 msgid "\"Thanks, no.\""
-msgstr ""
+msgstr "\"Спасибо, не стоит\"."
 
 #: 5907
 msgid "\"Yes, sir. Go on in.\""
-msgstr ""
+msgstr "\"Да. Входи\"."
 
 #: 6479
 msgid "\"I have a message for Keldor from Giltspur the auctioneer.\""
-msgstr ""
+msgstr "\"У меня сообщение для Келдора от аукционера Гилтспура\"."
 
 #: 6480
 msgid "\"Yes, sir. We were told about you. Go on in.\""
-msgstr ""
+msgstr "\"Да. Нам о тебе сообщили. Входи\"."
 
 #: 6482
 msgid ""
 "The guard looks at you with an unreadable expression for a moment. \"Good "
 "luck with it. Go on in.\""
 msgstr ""
+"Некоторое время стражник смотрит на тебя со скучным выражением. \"Желаю "
+"удачи. Входи\"."
 
 #: 66285
 msgid ""
 "\"Welcome back, sir? You have more business inside, I presume. Please keep "
 "the courtyard clear, and keep moving.\""
 msgstr ""
+"\"Добро пожаловать обратно, сер! Полагаю, у тебя тут еще дела. Пожалуйста, "
+"проходи и не загораживай проход\"."
 
 #: 66286
 msgid "\"Very well. Farewell.\""
-msgstr "\"Отлично. Прощай.\""
+msgstr "\"Отлично. Прощай\"."
 
 #: 67931
 msgid ""
 "\"Thank you, sir. You'll find him in the Great Godsman Hall.\" He opens the "
 "gate for you."
 msgstr ""
+"\"Благодарю, сер. Ты найдешь его в Великом зале Боголюдей\". Он открывает "
+"для тебя ворота."
 
 #: 67933
 msgid "\"No business. Sorry. Farewell.\""
-msgstr ""
-
+msgstr "\"Извини, я здесь не по делу. Прощай\"."
