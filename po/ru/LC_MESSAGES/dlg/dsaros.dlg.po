@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dsaros.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-15 02:21+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2010-10-09 23:59+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 39512
@@ -18,7 +18,7 @@ msgid ""
 "Saros gave me an awl with Thildon's name engraved on it. He told me that he "
 "found it the night of the murder, near the body."
 msgstr ""
-"Сарос дал мне шило с вырезанным на рукояти именем Тилдона. Он сказал мне, "
+"Сарос дал мне шило с вырезанным на рукояти именем Тильдона. Он сказал мне, "
 "что нашел его в ночь убийства возле тела."
 
 #: 39513
@@ -27,12 +27,17 @@ msgid ""
 "open about it. He claims that he did it to make sure people would "
 "investigate Thildon's involvement."
 msgstr ""
+"Сарос упомянул, что он оставил шило на месте преступления, и не отвергает "
+"этого. Он утверждает, что сделал это, чтобы обратить внимание тех, кто ведет "
+"расследование, на участие в этом деле Тильдона."
 
 #: 39514
 msgid ""
 "Saros denies framing Thildon. He says Thildon should be arrested for murder. "
 "As if I didn't already know SOMEONE should be."
 msgstr ""
+"Сарос отрицает, что подставил Тильдона. Он говорит, что Тильдона нужно "
+"арестовать за убийство. Как будто я уже не знаю, КОГО нужно арестовать."
 
 #: 39515
 msgid "I told Saros how to be an Anarchist."
@@ -44,84 +49,86 @@ msgstr "\"Эй, не трогай меня! Оставь меня в покое!
 
 #: 43406
 msgid "\"I just wanted to... forget it.\""
-msgstr "\"Я просто... а, забудь.\""
+msgstr "\"Я просто хотел... а, забудь\"."
 
 #: 43407
 msgid "\"They caught you, huh? Too bad.\""
-msgstr ""
+msgstr "\"Значит, они тебя поймали? Очень плохо\"."
 
 #: 43408 43440
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 43409
 msgid ""
 "\"Thanks for your mercy. I'll stay on the straight and narrow now, all right?"
 "\""
 msgstr ""
+"\"Спасибо за твою доброту. Теперь я встану на стезю добродетели, ладно?\""
 
 #: 43410
-#, fuzzy
 msgid "\"Sure, Saros. Answer some questions for me, will you?\""
-msgstr "\"Неважно. Ты можешь ответить на мои вопросы?\""
+msgstr "\"Конечно, Сарос. Ответь на пару вопросов, ладно?\""
 
 #: 43411
 msgid "\"Whatever. Farewell.\""
-msgstr "\"Как угодно. Прощай.\""
+msgstr "\"Как угодно. Прощай\"."
 
 #: 43412
 msgid "\"What have you found? Are you going to let me go free?\""
-msgstr ""
+msgstr "\"Что ты нашел? Ты собираешься освободить меня?\""
 
 #: 43413 43457
 msgid ""
 "\"Thildon says that you planted the awl at the murder scene, and that you're "
 "trying to frame him for the murder because you two disagreed.\""
 msgstr ""
+"\"Тильдон говорит, что ты оставил шило на месте преступления, и что ты "
+"пытаешься его подставить, потому что между вами разногласия\"."
 
 #: 43414 43458
 msgid ""
 "\"Thildon tells me that you and Bedai-Lihn are Anarchists, and that you're "
 "trying to frame him because he turned down an offer to join you.\""
 msgstr ""
+"\"Тильдон говорит, что вы с Бедай-Линн - Анархисты, и что ты пытаешься "
+"подставить его, потому что он отказался присоединиться к вам\"."
 
 #: 43415 43459
 msgid "\"I've found enough to make a decision.\""
-msgstr ""
+msgstr "\"Я выяснил достаточно, чтобы принять решение\"."
 
 #: 43416
 msgid "\"No, not yet. However, I had some more questions for you.\""
-msgstr ""
+msgstr "\"Пока что нет. Тем не менее, у меня к тебе еще несколько вопросов\"."
 
 #: 43417
 msgid "\"Not yet. Farewell.\""
-msgstr "\"Еще нет. Прощай.\""
+msgstr "\"Еще нет. Прощай\"."
 
 #: 43418
 msgid "\"Sure. Whatever you want to know...\""
-msgstr ""
+msgstr "\"Конечно. Все, что угодно...\""
 
 #: 43419 43460 43500
 msgid "\"Tell me about yourself.\""
-msgstr "\"Расскажи мне о себе.\""
+msgstr "\"Расскажи мне о себе\"."
 
 #: 43420 43421 43461 43462 43501 43502
-#, fuzzy
 msgid "\"Tell me about the Great Foundry.\""
-msgstr "\"Расскажи мне о Великом Пределе.\""
+msgstr "\"Расскажи мне о Великой Литейной\"."
 
 #: 43422 43463
 msgid "\"Tell me about the Anarchists.\""
-msgstr "\"Расскажи мне об Анархистах.\""
+msgstr "\"Расскажи мне об Анархистах\"."
 
 #: 43423 43464 43503
 msgid "\"Tell me about the people here.\""
-msgstr "\"Расскажи мне о местных людях.\""
+msgstr "\"Расскажи мне о людях здесь\"."
 
 #: 43424
-#, fuzzy
 msgid "\"Nothing right now. Farewell.\""
-msgstr "\"Больше ничего. Прощай.\""
+msgstr "\"Пока больше ничего. Прощай\"."
 
 #: 43425
 msgid ""
@@ -131,6 +138,11 @@ msgid ""
 "witch, but she knows stuff. She knows how to change people to make them more "
 "like what they are.\""
 msgstr ""
+"\"Так, посмотрим... я вырос в Литейной с моей сестрой Сароссой. Мой отец, "
+"Сандоз, является здесь фрактором, и потому провел много времени вдали "
+"отсюда, пытаясь привлечь новообращенных и усилить влияние фракции. Моя "
+"сестра Саросса - вроде бы как колдунья, но она свое дело знает. Она знает, "
+"как менять людей, чтобы сделать их ближе к тому, чем они являются\"."
 
 #: 43426 43427
 msgid "\"What do you mean?\""
@@ -138,33 +150,31 @@ msgstr "\"О чем это ты?\""
 
 #: 43428
 msgid "\"I've heard that already. Answer some other questions, will you?\""
-msgstr ""
+msgstr "\"Я это уже слышал. Ответь еще на пару вопросов, ладно?\""
 
 #: 43429 43491 43511 43527 43532
-#, fuzzy
 msgid "\"Thanks for your time. Farewell.\""
-msgstr "\"Спасибо за внимание. Прощай.\""
+msgstr "\"Спасибо за уделенное время. Прощай\"."
 
 #: 43430
 msgid "\"Leave me alone. My father's dead.\""
-msgstr ""
+msgstr "\"Оставь меня в покое. Мой отец мертв\"."
 
 #: 43431
-#, fuzzy
 msgid "\"I had a few questions.\""
-msgstr "\"У меня есть другие вопросы.\""
+msgstr "\"У меня есть несколько вопросов\"."
 
 #: 43432
 msgid "\"Very well. Farewell.\""
-msgstr "\"Отлично. Прощай.\""
+msgstr "\"Отлично. Прощай\"."
 
 #: 43433
 msgid "\"I said to leave me alone!\""
-msgstr ""
+msgstr "\"Я сказал: оставь меня в покое!\""
 
 #: 43434
 msgid "\"Fine, fine. Farewell.\""
-msgstr ""
+msgstr "\"Ладно, ладно. Прощай\"."
 
 #: 43435
 msgid ""
@@ -172,15 +182,17 @@ msgid ""
 "barracks. It stinks and it's loud and people can be ... people, I guess... "
 "but it's still home for me.\""
 msgstr ""
+"\"Я вырос здесь. Я играл в главном зале литейной и бегал по баракам. Здесь "
+"воняет и шумно, и люди здесь могут быть... людьми, наверное... и все же это "
+"мой дом\"."
 
 #: 43436
 msgid "\"Touching. Answer a few more questions for me...\""
-msgstr ""
+msgstr "\"Как трогательно. Ответь мне еще на пару вопросов...\""
 
 #: 43437
-#, fuzzy
 msgid "\"Thanks, Saros. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай.\""
+msgstr "\"Спасибо, Сарос. Прощай\"."
 
 #: 43438
 msgid ""
@@ -188,10 +200,13 @@ msgid ""
 "kid... they all died in that explosion. The Foundry used to feel like home, "
 "but it just hurts now. Can you leave me alone?\""
 msgstr ""
+"\"Они все мертвы. Все, с кем я играл, когда был ребенком... все они погибли "
+"в том взрыве. К Литейной привыкаешь, как к дому, но теперь от этого только "
+"больнее. Можешь оставить меня в покое?\""
 
 #: 43439
 msgid "\"Tough, kid. I have some more questions.\""
-msgstr ""
+msgstr "\"Тогда держись, парень. У меня имеется еще несколько вопросов\"."
 
 #: 43441
 msgid ""
@@ -200,30 +215,37 @@ msgid ""
 "themselves when everyone's against them... but I just wanted to be part of "
 "them.\""
 msgstr ""
+"\"Я не хотел бы об этом говорить. Я думал, что они мне помогут и сделают мою "
+"жизнь интересней, но вместо этого они пошли против меня. Думаю, им "
+"приходится бы следить за собой, когда все против них... но я только хотел "
+"быть одним из них\"."
 
 #: 43442 43443
 msgid ""
 "\"That defeats the entire point of anarchy, Saros. You're supposed to be "
 "your own person.\""
-msgstr ""
+msgstr "\"Это ломает саму суть анархии, Сарос. Ты должен быть сам по себе\"."
 
 #: 43444
 msgid ""
 "\"Sure. You're just a kid. You'll get over it. Answer some more questions "
 "for me.\""
 msgstr ""
+"\"Конечно. Ты же еще ребенок. Ты это переживешь. Ответь мне еще на несколько "
+"вопросов\"."
 
 #: 43445
 msgid "\"I understand. You'll get over it. Farewell.\""
-msgstr ""
+msgstr "\"Понимаю. Ты это переживешь. Счастливо\"."
 
 #: 43446
 msgid "He shrugs. \"They're just people.\""
-msgstr ""
+msgstr "Он пожимает плечами. \"Они просто люди\"."
 
 #: 43447
 msgid "\"Helpful. Can you answer any more questions for me?\""
 msgstr ""
+"\"Очень содержательно. Не мог бы ты ответить мне еще на пару вопросов?\""
 
 #: 43448 43453 43514 43536
 msgid "\"Thanks. Farewell.\""
@@ -231,13 +253,15 @@ msgstr "\"Спасибо. Прощай.\""
 
 #: 43449
 msgid "\"So to be part of them I have to not want to be part of them?\""
-msgstr ""
+msgstr "\"Значит, чтобы быть с ними, я не должен хотеть быть с ними?\""
 
 #: 43450
 msgid ""
 "\"Basically. By being yourself, you become more than a pawn. Think about it. "
 "Farewell.\""
 msgstr ""
+"\"По сути - да. Будучи самим собой, ты становишься чем-то большим, чем "
+"просто пешка. Подумай об этом. Прощай\"."
 
 #: 43451
 msgid ""
@@ -246,9 +270,12 @@ msgid ""
 "something about her ascending to another level. He said *she* was a born "
 "Godsman.\""
 msgstr ""
+"\"Она может просто глянуть на кого-то и увидеть, что нужно добавить, а что - "
+"забрать. Я не знаю, как она это делает. Мой отец всегда говорил, что это как-"
+"то связано с ее подъемом на другой уровень. Он говорил, что *она* - "
+"прирожденный Богочеловек\"."
 
 #: 43452
-#, fuzzy
 msgid "\"Thanks. I had some more questions...\""
 msgstr "\"Спасибо. У меня есть другие вопросы...\""
 
@@ -258,21 +285,20 @@ msgid ""
 "you keep saying the same things over and over, anyway? Are you looking for "
 "something more from me?\""
 msgstr ""
+"\"Ты уже это говорил! Можешь сказать что-нибудь новое? Почему ты продолжаешь "
+"снова и снова повторять одни и те же вещи? Ты хочешь от меня чего-то еще?\""
 
 #: 43455
-#, fuzzy
 msgid "\"Guess not. Farewell.\""
-msgstr "\"Возможно, нет. Прощай.\""
+msgstr "\"Пожалуй, нет. Прощай\"."
 
 #: 43456
-#, fuzzy
 msgid "\"What did you want to know?\""
-msgstr "\"Что ты хочешь знать?\""
+msgstr "\"Что ты хотел узнать?\""
 
 #: 43465 43504
-#, fuzzy
 msgid "\"Nothing more for now. Farewell.\""
-msgstr "\"Ничего больше, спасибо. Прощай.\""
+msgstr "\"Пока достаточно. Прощай\"."
 
 #: 43466
 msgid ""
@@ -282,16 +308,19 @@ msgid ""
 "should be arrested. He should be arrested for killing Avildon! Tell him he "
 "needs proof!\""
 msgstr ""
+"\"Конечно же, он буде так говорить! Он же виновен и хочет, чтобы ты искал в "
+"другом месте! Я видел, как он убил того человека! Конечно, мы поссорились, "
+"но это вовсе не означает, что я желаю его смерти. То, что он полный "
+"придурок, вовсе не значит, что его нужно арестовать. Его нужно арестовать за "
+"убийство Авильдона! Скажи ему, что у него нет доказательств!\""
 
 #: 43468
-#, fuzzy
 msgid "\"All right, then. I had some more questions for you.\""
 msgstr "\"Ну хорошо, у меня есть другие вопросы к тебе...\""
 
 #: 43469
-#, fuzzy
 msgid "\"I'll do that. Farewell.\""
-msgstr "\"Я свалю. Прощай.\""
+msgstr "\"Хорошо. Прощай\"."
 
 #: 43470
 msgid ""
@@ -301,59 +330,69 @@ msgid ""
 "would believe what I was saying. All right? I admit that I planted the awl. "
 "But I only did it to make sure he got punished for his crime.\""
 msgstr ""
+"Сарос бледнеет. \"Она к этому непричастна. Я сделал это сам. Но правда в "
+"том, что это Тильдон толкнул Авильдона в механизмы. Я оставил там шило, "
+"чтобы убедиться, что все узнают о том, что он был там, потому что я еще "
+"ребенок, и никто мне не поверит, если я это скажу. Идет? Я признаю, что шило "
+"оставил я. Но я сделал это только чтобы убедиться, что он будет наказан за "
+"преступление\"."
 
 #: 43471
 msgid "\"Then I'll make a decision on how to tell Keldor about this.\""
-msgstr ""
+msgstr "\"Тогда я решу, как рассказать об этом Кельдору\"."
 
 #: 43472
 msgid ""
 "\"Why? Why should I not think that you're doing this to get back at him for "
 "some other crime?\""
 msgstr ""
+"\"Почему? Почему же мне не думать, что ты делаешь это, чтобы отомстить ему "
+"за какое-то другое преступление?\""
 
 #: 43473
-#, fuzzy
 msgid "\"We'll see about that. Farewell.\""
-msgstr "\"Я не буду об этом говорить. Прощай.\""
+msgstr "\"Посмотрим на счет этого. Прощай\"."
 
 #: 43474
 msgid "\"What is that decision?\" He seems to be holding back tears."
-msgstr ""
+msgstr "\"И какое же это решение?\" Он, похоже, еле сдерживает слезы."
 
 #: 43475
 msgid "\"You'll see when I've told him.\""
-msgstr ""
+msgstr "\"Ты увидишь, когда я с ним поговорю\"."
 
 #: 43476
 msgid ""
 "\"I'm scared. I'm afraid you're going to choose me as the killer, and I "
 "ain't!\""
 msgstr ""
+"\"Мне страшно. Я боюсь, что ты собираешься сделать меня убийцей, но это ведь "
+"не я!\""
 
 #: 43477
 msgid "\"We'll see about that. Answer some other questions for me...\""
 msgstr ""
+"\"На этот счет еще посмотрим. Ответь мне еще на несколько вопросов...\""
 
 #: 43478
 msgid "\"I will if you're guilty. Farewell.\""
-msgstr ""
+msgstr "\"Если ты виновен, я так и сделаю. Прощай\"."
 
 #: 43479 43518
 msgid ""
 "\"Everything seems to be going wrong here now... they say it's another test "
 "for life, but... I don't know...\""
 msgstr ""
+"\"Кажется, теперь здесь все идет не так... говорят, что это еще одно "
+"испытание жизни, но... я даже не знаю...\""
 
 #: 43480 43519
-#, fuzzy
 msgid "\"Answer some other questions for me, then...\""
 msgstr "\"Тогда ответь мне на несколько вопросов.\""
 
 #: 43481 43520
-#, fuzzy
 msgid "\"Things are rough all over. Farewell.\""
-msgstr "\"На самом деле - ничего. Прощай.\""
+msgstr "\"Везде есть трудности. Прощай\"."
 
 #: 43482 43521
 msgid ""
@@ -361,15 +400,17 @@ msgid ""
 "barracks. It stinks and it's loud and people can be like Thildon... but it's "
 "still home for me.\""
 msgstr ""
+"\"Я вырос здесь. Я играл в главном зале литейной и бегал по баракам. Здесь "
+"воняет и шумно, с люди могут быть... такими как Тильдон... и все же это мой "
+"дом\"."
 
 #: 43483 43522
-#, fuzzy
 msgid "\"I see. Answer me some other questions...\""
 msgstr "\"Понятно. У меня есть еще вопросы...\""
 
 #: 43484 43523
 msgid "\"I see. Farewell.\""
-msgstr "\"Понятно. Прощай.\""
+msgstr "\"Понятно. Прощай\"."
 
 #: 43485
 msgid ""
@@ -380,12 +421,20 @@ msgid ""
 "the gears and said he'd tell on me and... I don't even know who it was who "
 "talked to me!\""
 msgstr ""
+"\"Они... какие-то люди подходили поговорить со мной, и сказали, что я как "
+"раз тот, кто им нужен, потому что у меня есть доступ куда-угодно, и никто не "
+"обращает на меня внимание... я и представить себе не мог, что кому-то "
+"придется умереть. Я-то думал, что я должен просто подсматривать и "
+"подслушивать. Но потом Тильдон толкнул Авилдона в механизмы и сказал, что "
+"донесет на меня... а я ведь даже не знаю, кто со мной говорил!\""
 
 #: 43486 43487
 msgid ""
 "\"So did you and Bedai-Lihn frame Thildon? He says you did. He seems pretty "
 "sure she was involved.\""
 msgstr ""
+"\"Так вы с Бедай-Линн подставили Тильдона? Он говорит, что ты это сделал. "
+"Похоже, он точно уверен, что она к этому тоже причастна\"."
 
 #: 43488 43524
 msgid ""
@@ -393,31 +442,37 @@ msgid ""
 "earnest and *boring*. They need to liven themselves up a bit. Like, say, the "
 "Sensates.\""
 msgstr ""
+"\"Они - рабочие и кузнецы. Думаю, что у них добрые намерения, но они все "
+"такие серьезные и *скучные*. Им нужно стать хоть немного живее. Скажем, как "
+"Чувствующие\"."
 
 #: 43489 43525
-#, fuzzy
 msgid "\"You like the Sensates, huh?\""
-msgstr "\"Что ты можешь сказать о фракциях?\""
+msgstr "\"Тебе нравятся Чувствующие, не так ли?\""
 
 #: 43490 43526
-#, fuzzy
 msgid "\"I can see why you might think that. I had some other questions...\""
 msgstr ""
-"\"Кажется, это может занять порядком времени. У меня есть другие вопросы...\""
+"\"Понимаю, почему ты можешь так думать. У меня есть другие вопросы...\""
 
 #: 43492
 msgid "\"That poor smith... I can't believe what happened to him...\""
 msgstr ""
+"\"Тот несчастный кузнец... не могу поверить, что с ним такое случилось...\""
 
 #: 43493 43495 43499
 msgid "\"Do you have any idea what might have happened, or have some leads?\""
 msgstr ""
+"\"У тебя есть идеи на счет того, что там могло произойти, или хотя бы какие-"
+"то зацепки?\""
 
 #: 43494
 msgid ""
 "\"It's pretty awful to be wedged into the gears like that. I had some "
 "questions for you...\""
 msgstr ""
+"\"Это просто ужасно - быть вот так раздавленным в механизмах. У меня к тебе "
+"несколько вопросов...\""
 
 #: 43496
 msgid ""
@@ -427,14 +482,19 @@ msgid ""
 "here. The main reason I know it was him is because he dropped something.\" "
 "He hands you an awl, with the name 'Thildon' etched into the wooden handle."
 msgstr ""
+"\"Кто тебе рассказал? Бригадир? Она права. Я иногда прихожу сюда, когда "
+"здесь никого нет, - он осторожно оглядывается, и наклоняется к тебе. - Я "
+"видел Тильдона, крадущегося отсюда. Я узнал его главным образом потому, что "
+"он кое-что уронил\". Он дает тебе шило с надписью 'Тильдон', вырезанной на "
+"деревянной рукоятке."
 
 #: 43497
 msgid "\"Thanks. I'll be back to talk to you again, I'm sure.\""
-msgstr ""
+msgstr "\"Спасибо. Уверен, я еще вернусь, чтобы поговорить с тобой\"."
 
 #: 43498
 msgid "\"Ask whatever you want.\""
-msgstr ""
+msgstr "\"Спрашивай что угодно\"."
 
 #: 43505
 msgid ""
@@ -442,10 +502,13 @@ msgid ""
 "go talk to him and tell him what I said, and then you can decide for "
 "yourself.'"
 msgstr ""
+"\"Потому что... потому что... я не знаю, к чему тебе так думать. Но я "
+"обещаю... иди, поговори с ним и скажи ему то, что я рассказал, а потом уж "
+"решай\"."
 
 #: 43506
 msgid "\"I'll do that. Stay here.\""
-msgstr ""
+msgstr "\"Я этим займусь. Оставайся здесь\"."
 
 #: 43507 43528
 msgid ""
@@ -455,16 +518,20 @@ msgid ""
 "don't see how she knows that, since all she knows is through her senses. I "
 "just don't get why people make this stuff up.\""
 msgstr ""
+"\"Они знают, что значит жить. Они знают, зачем это все. Не то что эти люди. "
+"Продолжают делать вид, что у всего есть какая-то большая и благородная цель, "
+"но я-то ее не вижу. Моя сестра говорит, что жизнь - нечто большее, чем то, "
+"что показывают нам наши чувства, но я не вижу, откуда ей это знать. Ведь "
+"все, что она знает, она получила через чувства. Просто не понимаю, зачем "
+"людям все это выдумывать\"."
 
 #: 43508 43509 43529 43530
-#, fuzzy
 msgid "\"Who's your sister?\""
-msgstr "\"Кто твои друзья?\""
+msgstr "\"Кто твоя сестра?\""
 
 #: 43510 43531
-#, fuzzy
 msgid "\"Hmm. I see. I had some more questions...\""
-msgstr "\"Хммм. У меня есть некоторые вопросы...\""
+msgstr "\"Хмм. Понятно. У меня еще пару вопросов...\""
 
 #: 43512 43534
 msgid ""
@@ -473,9 +540,12 @@ msgid ""
 "was something about her ascending to another level. He said *she* was a born "
 "Godsman.\""
 msgstr ""
+"\"Саросса? Она может просто глянуть на кого-то и увидеть, что нужно "
+"добавить, а что - забрать. Я не знаю, как она это делает. Мой отец всегда "
+"говорил, что это как-то связано с ее подъемом на другой уровень. Он говорил, "
+"что *она* - прирожденный Богочеловек\"."
 
 #: 43513 43535
-#, fuzzy
 msgid "\"Interesting. Let me ask some more questions...\""
 msgstr "\"Интересно. У меня есть другие вопросы...\""
 
@@ -486,29 +556,31 @@ msgid ""
 "He keeps saying I'm not raised right and that my father is a poor parent. "
 "All I know is that Thildon's the biggest sod I ever met.\""
 msgstr ""
+"\"Я? Я - Сарос. Я вырос здесь. Бегал по Литейной, играл с оборудыванием... я "
+"почти как все здесь, за исключение Тильдона. Он продолжает повторять, что "
+"меня неправильно воспитывали, и что мой отец - плохой родитель. Все, что я "
+"знаю, так это то, что Тильдон - самая большая сволочь из тех, что я когда-"
+"либо встречал\"."
 
 #: 43516
-#, fuzzy
 msgid "\"I'm sure. I had a few more questions.\""
-msgstr "\"Я не уверен. У меня есть несколько вопросов...\""
+msgstr "\"Уверен в этом. У меня есть пару вопросов...\""
 
 #: 43517
-#, fuzzy
 msgid "\"Got it. Farewell.\""
-msgstr "\"Удачи. Прощай.\""
+msgstr "\"Ясно. Прощай\"."
 
 #: 43537
 msgid "\"You again, huh? What do you want?\""
-msgstr ""
+msgstr "\"А, снова ты? Чего тебе?\""
 
 #: 43538
-#, fuzzy
 msgid "\"I just wanted to ask a few questions...\""
-msgstr "\"У меня есть вопросы, которые я бы хотел задать...\""
+msgstr "\"Я просто хотел задать пару вопросов...\""
 
 #: 43539
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 43540
 msgid ""
@@ -517,18 +589,20 @@ msgid ""
 "possible without having the slightest idea how - in other words, he seems "
 "innocent. \"Hey, stranger. What can I do for you?\""
 msgstr ""
+"Ты видишь юношу со светло-русыми волосами. Он как раз на грани между юностью "
+"и зрелостью, и по его глазам видно, что он, похоже, пытается быть взрослым, "
+"насколько это возможно, не имея ни малейшего представления о том, что это "
+"такое. Другими словами, он кажется простодушным. \"Привет, незнакомец. Чем я "
+"могу тебе помочь?\""
 
 #: 43541
 msgid "\"You could answer a few questions for me...\""
-msgstr ""
+msgstr "\"Ты не мог бы ответить мне на пару вопросов?\""
 
 #: 43542
 msgid "\"Nothing, thanks. Farewell.\""
-msgstr "\"Ничего, спасибо. Прощай.\""
+msgstr "\"Ничего, спасибо. Прощай\"."
 
 #: 64942
-#, fuzzy
 msgid "\"Nor I. Farewell.\""
-msgstr "\"Понятно. Прощай.\""
-
-
+msgstr "\"Я - тоже. Прощай\"."
