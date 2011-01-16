@@ -3,29 +3,31 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gfclerk.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-09-04 18:49+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2010-10-02 17:41+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 26874 5985
 msgid "\"It was in a legacy.\""
-msgstr ""
+msgstr "\"Это было в завещании\"."
 
 #: 5909
 msgid ""
 "\"So you're the one they're making all the fuss about, eh? Can't say I blame "
 "'em... you look a dangerous sort. Go on, git out of here.\""
 msgstr ""
+"\"Значит, ты - тот, из-за кого они подняли весь этот шум, а? Не стал бы их "
+"винить за это... на вид то ты опасен. Давай, вали отсюдова\"."
 
 #: 5910
 msgid "Kill the old man."
-msgstr ""
+msgstr "Прикончить старика."
 
 #: 5911 5913 5993 6002 6023 6025
 msgid "Leave."
@@ -37,6 +39,9 @@ msgid ""
 "worth. Go on, come back some other time when the guards ain't breathing down "
 "y'neck.\""
 msgstr ""
+"\"Я б и рад тебе помочь, сынок, но для меня от этого проблем будет больше, "
+"чем толку. Уходи и возвращайся попозже, когда стража не будет дышать тебе в "
+"спину\"."
 
 #: 5914
 msgid ""
@@ -44,83 +49,85 @@ msgid ""
 "you over, carefully, and speaks: \"Hel... uh... have I seen ye before? Ye "
 "seem familiar to me somehow.\""
 msgstr ""
+"Ты видишь иссушеного старика с трясущимися пальцами и лукавым лицом. Он "
+"внимательно осматривает тебя и произносит: \"Черт... эээ... а мы раньше не "
+"встречались? Ты мне кажешься чем-то знакомым\"."
 
 #: 5915
 msgid "\"I suppose it's possible.\""
-msgstr ""
+msgstr "\"Думаю, такое возможно\"."
 
 #: 5916
 msgid "\"No chance, old man.\""
-msgstr ""
+msgstr "\"Вряд ли, старик\"."
 
 #: 5917
 msgid "\"From where? Do you remember where?\""
-msgstr ""
+msgstr "\"Откуда? Ты помнишь, где мы встречались?\""
 
 #: 5918 5927 5935
 msgid "\"I'm here to pick up an item.\""
-msgstr ""
+msgstr "\"Я здесь, чтобы забрать одну вещь\"."
 
 #: 5919 5928 5936
 msgid "\"I needed some spare rags and forge gear.\""
-msgstr ""
+msgstr "\"Мне нужно несколько лишних шмоток и кузнечный инструмент\"."
 
 #: 5920 5929 5937
-#, fuzzy
 msgid "\"I'm looking for a disguise.\""
-msgstr "\"Я ищу дневник.\""
+msgstr "\"Я ищу одежду для маскировки\"."
 
 #: 5921 5930 5938
 msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 5922 5931 5939
-#, fuzzy
 msgid "\"I'd like to pick up some gear for the forge.\""
-msgstr "\"Хочется посмотреть на эту попытку.\""
+msgstr "\"Я хотел бы получить кузнечный инструмент\"."
 
 #: 5923 5932
-#, fuzzy
 msgid "\"Interesting. Goodbye, old man.\""
-msgstr "\"Интересно. А что это означает?\""
+msgstr "\"Интересно. Бывай, старик\"."
 
 #: 5924
 msgid "\"Was there something else y'wanted?\""
-msgstr ""
+msgstr "\"Ты хотел еще чего-то?\""
 
 #: 5925
 msgid "\"You mentioned having seen me before. Do you remember where?\""
-msgstr ""
+msgstr "\"Ты упоминал, что видел меня раньше. Не припоминаешь, где?\""
 
 #: 5926
 msgid "\"No, I just wanted to see your smiling face.\""
-msgstr ""
+msgstr "\"Нет, просто хотел увидеть твою улыбающуюся рожу\"."
 
 #: 5933
 msgid "\"I never forget a face... it'll come to me... aw, t'Baator with it.\""
-msgstr ""
+msgstr "\"Я никогда не забываю лица... постой-ка... ой, ну и Баатор с ним\"."
 
 #: 5934
 msgid "\"Do you remember where? It's important to me.\""
-msgstr ""
+msgstr "\"Ты помнишь, где это было? Для меня это важно\"."
 
 #: 5940
 msgid "\"Forget it, then. So long.\""
-msgstr ""
+msgstr "\"Тогда забудь. Пока\"."
 
 #: 5941
 msgid ""
 "\"I could swear I've seen ye before. Were y'ever a criminal?\" The old man "
 "giggles quietly to himself. \"Ah, forget it. It'll come to me.\""
 msgstr ""
+"\"Могу поклясться, что видал тебя раньше. Ты, случай, преступником не бывал? "
+"- старик тихонько хихикает. - О, забудь. Потом вспомню\"."
 
 #: 5942
 msgid "\"Right. Then answer me some questions.\""
-msgstr ""
+msgstr "\"Ладно. Тогда ответь мне на пару вопросов\"."
 
 #: 5943
 msgid "\"I hope not. Good day.\""
-msgstr ""
+msgstr "\"Надеюсь, что нет. Счастливо\"."
 
 #: 5944
 msgid ""
@@ -131,87 +138,96 @@ msgid ""
 "\n"
 "Before replying, you mutter, \"Tell me about it, 'lad'.\"\n"
 msgstr ""
+"\"Не так быстро, малец. Мозгам требуется время, чтобы разогреться для таких "
+"задач. Я много прожил, и в то время видел намного больше лиц, так что "
+"вспомнить не так-то просто. Память - штука слишком скоротечная, чтоб на нее "
+"полагаться\".\n"
+"\n"
+"Перед ответом ты бормочешь: \"Мне то можешь не рассказывать, \"малец\"\".\n"
 
 #: 5945
 msgid "\"Then forget it. I'm here to pick up an item.\""
-msgstr ""
+msgstr "\"Тогда забудь. Я здесь, чтобы забрать одну вещь\"."
 
 #: 5946
 msgid "\"All right, then. I needed some spare rags and forge gear.\""
 msgstr ""
+"\"Тогда ладно. Мне нужно несколько лишних шмоток и кузнечный инструмент\"."
 
 #: 5947
 msgid "\"Fine. I'm looking for a disguise.\""
-msgstr ""
+msgstr "\"Ладно. Я ищу одежду для маскировки\"."
 
 #: 5948
 msgid "\"Then can you tell me who you are?\""
-msgstr ""
+msgstr "\"Тогда скажи мне: кто ты?\""
 
 #: 5949
 msgid "\"Then I'd like to pick up some gear for the forge.\""
-msgstr ""
+msgstr "\"Тогда мне нужно получить кузнечный инструмент\"."
 
 #: 5950
 msgid "\"Fine. So long, 'lad'\"."
-msgstr ""
+msgstr "\"Отлично. Бывай, \"малец\"\"."
 
 #: 5951
 msgid ""
 "\"Do y'have a receipt? You need a receipt or I can't give you anything.\""
 msgstr ""
+"\"Есть квитанция? Тебе понадобится квитанция, иначе я ничего не смогу тебе "
+"дать\"."
 
 #: 5952
 msgid "\"I have a pair of them right here.\""
-msgstr ""
+msgstr "\"У меня здесь имеется парочка\"."
 
 #: 5953 5954 5957
-#, fuzzy
 msgid "\"Sure do. Here you go.\""
-msgstr "\"Вот твоя плата.\""
+msgstr "\"Конечно. Держи\"."
 
 #: 5955
-#, fuzzy
 msgid "\"Yes, I do.\""
-msgstr "\"Да, знаю.\""
+msgstr "\"Так и есть\"."
 
 #: 5956
 msgid "Lie: \"Yes.\""
-msgstr "Ложь: \"Да.\""
+msgstr "Ложь: \"Да\"."
 
 #: 5958
 msgid "\"No.\""
-msgstr "\"Нет.\""
+msgstr "\"Нет\"."
 
 #: 5959 5964 5969
-#, fuzzy
 msgid "\"Forget it. So long.\""
-msgstr "\"Забудь. Я не хочу этого делать.\""
+msgstr "\"Забудь. Пока\"."
 
 #: 5960
 msgid ""
 "\"Y'do, eh? Well, all right. That'll come to... let's see... call it sixty "
 "copper.\""
 msgstr ""
+"\"Во как? Тогда ладно. Это обойдется тебе... давай прикинем... ну, скажем, в "
+"шестьдесят монет\"."
 
 #: 5961 5966
 msgid "\"Here you go.\""
-msgstr "\"На, бери.\""
+msgstr "\"На, держи\"."
 
 #: 5962 5967
 msgid "\"I don't have that much.\""
-msgstr "\"У меня нет столько.\""
+msgstr "\"У меня нет столько\"."
 
 #: 5963 5968 5978
-#, fuzzy
 msgid "\"Forget it. I had other questions.\""
-msgstr "\"Забудь об этом. У меня есть некоторые вопросы...\""
+msgstr "\"Забудь об этом. У меня есть пару вопросов\"."
 
 #: 5965
 msgid ""
 "\"A disguise, eh? I can already guess what it might be for, and I'll give it "
 "to ye for the low price of sixty copper.\""
 msgstr ""
+"\"Значит, маскировка? Уже догадываюсь, для чего она тебе сдалась, и продам "
+"ее тебе за скромную цену в шестьдесят медяков\"."
 
 #: 5970
 msgid ""
@@ -219,16 +235,17 @@ msgid ""
 "used to be. Now I'm a clerk in the Foundry, breathin' in this sooty air and "
 "hastenin' my dyin' day along.\""
 msgstr ""
+"\"Я-то? Я - Надилин, величайший воин Боголюдей! - он вздыхает. - По крайней "
+"мере, был когда-то. Теперь я клерк в Литейной, дышу этой копотью и приближаю "
+"день своей смерти\"."
 
 #: 5971
-#, fuzzy
 msgid "\"That's a pity. I had other questions.\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Какая жалость. У меня есть другие вопросы\"."
 
 #: 5972
-#, fuzzy
 msgid "\"Right. That's all I needed to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Ладно. Это все, что я хотел узнать. Прощай\"."
 
 #: 5973
 msgid ""
@@ -236,36 +253,40 @@ msgid ""
 "apron - ten copper - some tongs - another ten - and a hammer - which'll be "
 "twenty. That comes to, let me see, fifty copper."
 msgstr ""
+"\"О, теперь ты хочешь стат кузнецом, не так ли, малец? Хорошо. Тебе "
+"понадобится фартук (десять медяков), какие-нибудь щипцы (еще десять) и молот "
+"(он по двадцать). Итого выходит... дай-ка подумать... пятьдесят монет\"."
 
 #: 5974
 msgid "\"That comes to forty copper, old man.\""
-msgstr ""
+msgstr "\"Старик, вообще-то это сорок медяков\"."
 
 #: 5975
 msgid "Pay fifty copper."
-msgstr ""
+msgstr "Заплатить пятьдесят медяков."
 
 #: 5976
 msgid "Pay fifty copper"
-msgstr ""
+msgstr "Заплатить пятьдесят медяков."
 
 #: 5977
 msgid "\"I'm sorry, but that sounds more like forty copper to me.\""
-msgstr ""
+msgstr "\"Извини, но это больше похоже сорок медяков\"."
 
 #: 5979
 msgid "\"I don't think I need that right now. Farewell.\""
-msgstr ""
+msgstr "\"Не думаю, что сейчас мне это нужно. Счастливо\"."
 
 #: 5980
 msgid ""
 "\"Bless ye, son. And now if ye'll excuse me, I have some windows to look out."
 "\""
 msgstr ""
+"\"Будь здоров, сынок. А теперь, если ты не против, мне есть чем заняться\"."
 
 #: 5981
 msgid "\"Err. Right.\""
-msgstr ""
+msgstr "\"Ррр. Ладно\"."
 
 #: 5982
 msgid ""
@@ -275,14 +296,18 @@ msgid ""
 "a hundred years old! You've been waiting for this for a long time, friend. "
 "How'd you come by it?\""
 msgstr ""
+"\"Сейчас вернусь\", - говорит он. Проходит несколько минут. Он в торопливо "
+"возвращается и дает тебе пару предметов: небольшую, почти невесомую "
+"металлическую штуковину, и палицу превосходной работы. \"Этой штуковине... "
+"ей же больше сотни лет! Долго же ты ждал, дружище. Как она к тебе попала?\""
 
 #: 5983 5990
 msgid "\"I left it for myself, but I got busy.\""
-msgstr ""
+msgstr "\"Оставил ее для себя, но потом был занят\"."
 
 #: 5984 5991
 msgid "\"It was a hand-me-down.\""
-msgstr ""
+msgstr "\"Досталась мне по наследству\"."
 
 #: 5986
 msgid ""
@@ -290,21 +315,24 @@ msgid ""
 "off for a minute or two and comes back with a fine mace in his hands. \"Here "
 "you go, lad.\""
 msgstr ""
+"Старик берет твою квитанцию и сверяет ее со своими записями. Он исчезает на "
+"одну-две минуты и возвращается с отличной палицей в руках. \"Держи, малец\"."
 
 #: 5987
-#, fuzzy
 msgid "\"Thanks. I had some questions.\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Спасибо. У меня еще пару вопросов\"."
 
 #: 5988
 msgid "\"Thanks. So long.\""
-msgstr ""
+msgstr "\"Спасибо. Пока.\""
 
 #: 5989
 msgid ""
 "The old man takes the receipt from you, and scrutinizes it carefully. \"This "
 "thing's over a hundred years old! How'd you come by it?\""
 msgstr ""
+"Старик берет у тебя квитанцию, тщательно ее изучает. \"Этой вещи больше "
+"сотни лет! Как она к тебе попала?\""
 
 #: 5992
 msgid ""
@@ -312,37 +340,41 @@ msgid ""
 "can't give you anything. Now, go on. I'm sure I can be a busy man without "
 "bein' played with by passerby.\""
 msgstr ""
+"Он замолкает на миг. \"Если у тебя имеется квитанция, давай ее сюда. За так "
+"я тебе ничего не дам. А теперь уходи. Уверен, что найду, чем заняться, кроме "
+"как отвлекаться на прохожих\"."
 
 #: 5994
 msgid ""
 "\"Here you go, then. Smuggle that bitch out of here so we don't have to put "
 "up with her treachery no more.\""
 msgstr ""
+"\"Тогда держи. Выведи эту сучку, чтоб нам больше не пришлось терпеть ее "
+"предательство\"."
 
 #: 5995
 msgid "Lie: \"What? That's not what I need it for!\""
-msgstr ""
+msgstr "Ложь: \"Чего? Оно мне не для того нужно!\""
 
 #: 5996
-#, fuzzy
 msgid "\"How do you know that?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Откуда ты это знаешь?\""
 
 #: 5997
 msgid "\"Thanks a lot, old man. Farewell.\""
-msgstr ""
+msgstr "\"Спасибо большое, старик. Счастливо\"."
 
 #: 5998
 msgid "\"Then I can't really give it to ye. Sorry.\""
-msgstr ""
+msgstr "\"Тогда я вообще не могу отдать тебе это. Извини\"."
 
 #: 5999
 msgid "\"Fine. Then answer me some questions.\""
-msgstr ""
+msgstr "\"Отлично. Тогда ответь мне на пару вопросов\"."
 
 #: 6000
 msgid "\"Fine. Goodbye.\""
-msgstr ""
+msgstr "\"Отлично. Прощай\"."
 
 #: 6001
 msgid ""
@@ -350,37 +382,41 @@ msgid ""
 "the same item I already gave to ye? I can't give it t'ye twice, y'know.\" He "
 "pockets the receipt. \"Now go on. Git!\""
 msgstr ""
+"Он внимательно изучает квитанцию, потом снова смотрит на тебя. \"Разве я "
+"тебе уже это не выдавал? Видишь ли, я не могу выдать тебе это дважды, - он "
+"кладет квитанцию в карман. - А теперь уходи. Вон!\""
 
 #: 6003
 msgid ""
 "\"What am I thinking? Of course it is. I tell you, memory's an insidious "
 "thing.\""
 msgstr ""
+"\"Что же это я? Конечно же, так оно и есть. Говорю тебе: память - вещь "
+"коварная\"."
 
 #: 6004 6005
-#, fuzzy
 msgid "\"That it is. Give me the stuff.\""
-msgstr "\"Это было великолепно. Дай мне другую выпивку.\""
+msgstr "\"Так-то. Давай мне мои вещи\"."
 
 #: 6006
 msgid "\"Well, it's still too rich for my taste.\""
-msgstr ""
+msgstr "\"Ну, для меня это все еще дорого\"."
 
 #: 6007
 msgid ""
 "\"Don't forget to pick up some ore from Thildon if ye're wanting to work the "
 "forge. He's a miserly bastard, but he's the only person to get ore from.\""
 msgstr ""
+"\"Если хочешь поработать в кузнице, не забудь взять немного руды у Тильдона. "
+"Он - скупой ублюдок, но только у него можно достать руду\"."
 
 #: 6008
-#, fuzzy
 msgid "\"Thanks. I had some other questions for you.\""
-msgstr "\"Спасибо. У меня были еще вопросы к тебе...\""
+msgstr "\"Спасибо. У меня были еще вопросы к тебе\"."
 
 #: 6009
-#, fuzzy
 msgid "\"Thanks. Goodbye.\""
-msgstr "\"Спасибо. Хорошего дня.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 6010
 msgid ""
@@ -388,15 +424,17 @@ msgid ""
 "Try out Thildon's replacement. I forget her name, but she should give it to "
 "ye with a minimum of fuss.\""
 msgstr ""
+"\"Если хочешь поработать в кузнице, тебе понадобится немного руды. Попробуй "
+"взять ее у заместителя Тильдона. Не помню, как ее звать, но она должна дать "
+"ее тебе без особых возражений\"."
 
 #: 6011
-#, fuzzy
 msgid "\"Thanks, old man. I had some questions for you.\""
-msgstr "\"Спасибо. У меня были еще вопросы к тебе...\""
+msgstr "\"Спасибо, старик. У меня были еще вопросы к тебе\"."
 
 #: 6012
 msgid "\"Thank you, and goodbye.\""
-msgstr ""
+msgstr "\"Спасибо и прощай\"."
 
 #: 6013
 msgid ""
@@ -404,16 +442,16 @@ msgid ""
 "himself. He passes over his armload. \"Here you go. Treat this work with "
 "care, y'hear?\""
 msgstr ""
+"\"Хорошая вещица, малец. Уверен, ты действительно был занят! - он смеется и "
+"передает ее тебе. - Держи. Поосторожней с ней, слышишь?\""
 
 #: 6014
-#, fuzzy
 msgid "\"That I will. I had some more questions, though.\""
-msgstr "\"Очень хорошо. Но у меня были еще вопросы к тебе...\""
+msgstr "\"Так и будет. Только у меня были еще вопросы\"."
 
 #: 6015
-#, fuzzy
 msgid "\"I certainly will. Farewell.\""
-msgstr "\"Я ничего не скажу. Прощай.\""
+msgstr "\"Конечно. Прощай\"."
 
 #: 6016
 msgid ""
@@ -421,29 +459,34 @@ msgid ""
 "away - we do, sometimes, or sell it off, when we can prove the customer "
 "ain't comin' back for his stuff. Well, here you go. Treat it well, y'hear?\""
 msgstr ""
+"\"Значит, это передавалось из поколения в поколение? Тебе повезло, что мы "
+"это не выкинули. Мы иногда так и делаем, а иногда продаем такие вещи, если "
+"можем доказать, что заказчик не вернется за ними. Что ж, держи. Обращайся с "
+"ним как следует, слышишь?\""
 
 #: 6017
 msgid "\"Will do. Answer me a few more questions, will you?\""
-msgstr ""
+msgstr "\"Конечно. Ответь мне еще на пару вопросов, ладно?\""
 
 #: 6018
-#, fuzzy
 msgid "\"Will do. Farewell.\""
-msgstr "\"Я свалю. Прощай.\""
+msgstr "\"Конечно. Прощай\"."
 
 #: 6019
 msgid ""
 "\"I see. Quite a catch you've made. Here you go, lad. Treat this metal well, "
 "hear?\""
 msgstr ""
+"\"Понятно. Неплохой улов. Держи, малец. Обращайся с ним как следует, слышишь?"
+"\""
 
 #: 6020
 msgid "\"Sure thing. Answer me a question, will you?\""
-msgstr ""
+msgstr "\"Разумеется. Ответь еще на вопрос, ладно?\""
 
 #: 6021
 msgid "\"Sure thing. Good bye.\""
-msgstr ""
+msgstr "\"Разумеется. Прощай\"."
 
 #: 6022
 msgid ""
@@ -451,6 +494,8 @@ msgid ""
 "stuff. Now get on out of here or I'll change my mind 'bout callin' the "
 "guards.\""
 msgstr ""
+"Он смотрит на тебя с отвращением. \"Брось, малец. Ты же получил свои вещи. "
+"Тепер убирайся отсюда, или я передумаю на счет того, чтобы позвать стражу\"."
 
 #: 6024
 msgid ""
@@ -458,4 +503,7 @@ msgid ""
 "Bedai-Lihn ain't been happy for some time, and she's never liked workin' for "
 "the fiends. Now go on. I'm sure I have somethin' t'do.\""
 msgstr ""
-
+"\"Я, быть может, стар и слегка не в себе, но это вовсе не значит, что я не "
+"вижу, что к чему. Последнее время Бедай-Линн было несладко, а она ведь "
+"никогда не любила работать на демонов. А теперь уходи. Уверен, мне будет чем "
+"заняться\"."
