@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dkeldor.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:12+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2010-12-15 20:41+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,24 +21,28 @@ msgid ""
 "I have accused both Thildon and Saros of the murder of the smith Avildon. "
 "They have been arrested."
 msgstr ""
+"Я обвинил обоих Тильдона и Сароса в убийстве кузнеца Авильдона. Их "
+"арестовали."
 
 #: 39498
 msgid ""
 "I have accused Saros of the murder of the smith Avildon. He has been "
 "arrested."
-msgstr ""
+msgstr "Я обвинил Сароса в убийстве кузнеца Авильдона. Его арестовали."
 
 #: 39499
 msgid ""
 "My final test for Godsmen membership is to talk down a suicidal member. His "
 "name is Sandoz, and he is the father of Saros and Sarossa."
 msgstr ""
+"Мое последнее испытание у Боголюдей - отговорить самоубийцу-члена их "
+"фракции. Его зовут Сандоз, и он - отец Сароса и Сароссы."
 
 #: 39500
 msgid ""
 "I have accused Thildon of the murder of the smith Avildon. He has been "
 "arrested."
-msgstr ""
+msgstr "Я обвинил Тильдона в убийстве кузнеца Авильдона. Его арестовали."
 
 #: 39501
 msgid ""
@@ -47,6 +51,9 @@ msgid ""
 "supervisor in the Foundry, and report back to Keldor when I have gathered my "
 "evidence. "
 msgstr ""
+"Я выполнил свое первое задание для Боголюдей, и взялся за прохождение "
+"второго испытания - расследования убийства. Мне нужно поговорить с "
+"бригадиром в Литейной и отчитаться перед Кельдором, когда я соберу сведения."
 
 #: 39502
 msgid ""
@@ -55,6 +62,11 @@ msgid ""
 "item. I am to do this to prove that I can see potential even in a cold lump "
 "of rock. Shouldn't be hard. I am to return to him when I'm done. "
 msgstr ""
+"Я на пути становления Богочеловеком. Мне нужно найти кузнеца в Великой "
+"Литейной, и он расскажет мне, как работать в кузнице, чтобы я смог создать "
+"предмет. Мне необходимо сделать это, чтобы доказать, что я способен увидеть "
+"потенциал даже в холодной каменной глыбе. Это должно быть несложно. Мне "
+"нужно вернуться к нему, когда я закончу с этим."
 
 #: 46638
 msgid ""
@@ -67,6 +79,14 @@ msgid ""
 "I swear fealty to the Believers of the Source and their goals, never to "
 "forsake them.\""
 msgstr ""
+"Я присоединился к Верящим в Первопричину, и теперь официально являюсь "
+"Богочеловеком. Вот моя клятва: \"Жизненные невзгоды - это испытания. Все, с "
+"чем я сталкиваюсь, является уроком. Боль - способ мультивселенной закреплять "
+"уроки. То, что я больше всего ненавижу в других - отражение того, что я "
+"больше всего ненавижу в себе. Мои действия будут направлены на раскрытие "
+"своих возможностей, и на содействие другим в достижении ими своих целей. Я "
+"буду помнить, что во всем присутствует искра божественности. Я клянусь в "
+"верности Верящим в Первопричину и их целям, и никогда не отвергну их\"."
 
 #: 47128
 msgid ""
@@ -74,20 +94,22 @@ msgid ""
 "have betrayed our ideals. You have no place here. Our guards will escort you "
 "out. Will you leave peacefully?\""
 msgstr ""
+"Его лицо спокойно, но в голосе слышна ярость. \"Ты предал наши идеалы. Для "
+"тебя здесь нет места. Наша стража проводит тебя к выходу. Уйдешь ли ты с "
+"миром?\""
 
 #: 47129
 msgid "\"I'd like to apologize and rejoin the Believers of the Source.\""
 msgstr ""
+"\"Я бы хотел извиниться и снова присоединиться к Верящим в Первопричину\"."
 
 #: 47130 47133
-#, fuzzy
 msgid "\"I'll leave peacefully.\""
-msgstr "\"Хорошо, хорошо. Мы уходим.\""
+msgstr "\"Я уйду с миром\"."
 
 #: 47131 47134
-#, fuzzy
 msgid "\"You'll have to drag me out of here.\""
-msgstr "\"Ты можешь мне сказать, как мне выбраться отсюда?\""
+msgstr "\"Тебе придется тащить меня отсюда\"."
 
 #: 47132
 msgid ""
@@ -96,63 +118,67 @@ msgid ""
 "or aid you on your quest for enlightenment. Now... will you leave "
 "peacefully, or will there be blood shed?\""
 msgstr ""
+"\"Однажды ты повернулся спиной к нашим убеждениям, и теперь нет пути "
+"обратно. Если хочешь, можешь рассматривать это как еще одно испытание, но мы "
+"не откроемся тебе и не станем помогать тебе на твоем пути к просветлению. А "
+"теперь... уйдешь ли ты с миром, или будет пролита кровь?\""
 
 #: 47135
 msgid "\"Greetings, comrade! What can I do for you today?\""
-msgstr ""
+msgstr "\"Приветствую, друг! Чем я могу помочь тебе сегодня?\""
 
 #: 47136 47169
-#, fuzzy
 msgid "\"I'd like to get some healing, if I could.\""
-msgstr "\"Я хотел бы войти в Морг.\""
+msgstr "\"Я хотел бы немного подлечиться, если можно\"."
 
 #: 47137 47170
-#, fuzzy
 msgid "\"I need to purchase some items.\""
-msgstr "\"Я купил их.\""
+msgstr "\"Мне нужно купить кое-какие вещи\"."
 
 #: 47138 47171
-#, fuzzy
 msgid "\"I need a place to rest.\""
-msgstr "Ты уверен, что хочешь отдохнуть?"
+msgstr "\"Мне нужно место для отдыха\"."
 
 #: 47139 47172 47204
-#, fuzzy
 msgid "\"I'd like to see the secret project, if I could.\""
-msgstr "\"Если можно, я бы хотел на него взглянуть.\""
+msgstr "\"Я хотел бы увидеть секретный проект, если это возможно\"."
 
 #: 47140 47173 47205
-#, fuzzy
 msgid "\"I've lost the token to get into the secret project room.\""
-msgstr "\"У меня нет времени на это. Прощай.\""
+msgstr "\"Я потерял символ, дающий доступ к помещению секретного проекта\"."
 
 #: 47143 47174 47206
 msgid "\"Bedai-Lihn has asked me to sabotage the machine.\""
-msgstr ""
+msgstr "\"Бедай-Линн попросила меня саботировать машину\"."
 
 #: 47144 47145 47175 47176 47207 47208
 msgid "\"Bedai-Lihn is the one who destroyed the machine.\""
-msgstr ""
+msgstr "\"Бедай-Линн - та, кто разрушил машину\"."
 
 #: 47146 47209
 msgid ""
 "\"Bedai-Lihn has asked me to sabotage the machine. I turned her down, but I "
 "thought I ought to tell you.\""
 msgstr ""
+"\"Бедай-Линн попросила меня саботировать машину. Я отказал ей, но подумал, "
+"что тебе следует знать об этом\"."
 
 #: 47147 47148 47178 47179 47210 47211
 msgid ""
 "\"Bedai-Lihn asked me to assassinate Sandoz. I thought you ought to know.\""
 msgstr ""
+"\"Бедай-Линн попросила меня убить Сандоза. Я подумал, что тебе следует знать "
+"об этом\"."
 
 #: 47149 47150 47180 47181 47212 47213
 msgid "\"Bedai-Lihn is the one who assassinated Sandoz.\""
-msgstr ""
+msgstr "\"Бедай-Линн убила Сандоза\"."
 
 #: 47151 47182 47408 47411 51169
 msgid "\"I have a message for you from Giltspur the auctioneer.\""
-msgstr ""
+msgstr "\"У меня для тебя послание от аукциониста Гилтспура\"."
 
+# token=монета, потому что так сказано в описании к этому предмету
 #: 47152
 msgid ""
 "\"You have proven yourself trustworthy. Here. Take this.\" He presses a "
@@ -160,15 +186,18 @@ msgid ""
 "If you do, I'm afraid I cannot replace it, so be careful with it. Is there "
 "anything else I can do for you?\""
 msgstr ""
+"\"Ты доказал, что заслуживаешь доверия. Вот. Возьми это, - он втискивает в "
+"твои руки монету, украшенную символом Боголюдей. - Не теряй его. Если ты это "
+"сделаешь, боюсь, что я не смогу его заменить, так что будь осторожен. Могу "
+"ли я еще чем-то тебе помочь?\""
 
 #: 47153
-#, fuzzy
 msgid "\"Yes, I had a few questions...\""
-msgstr "\"Да, сказал. У меня есть некоторые вопросы...\""
+msgstr "\"Да, у меня еще пара вопросов...\""
 
 #: 47154
 msgid "\"No, thanks. Farewell.\""
-msgstr "\"Нет, спасибо. Прощай.\""
+msgstr "\"Нет, спасибо. Прощай\"."
 
 #: 47155
 msgid ""
@@ -176,15 +205,17 @@ msgid ""
 "could not replace it?\" He sighs. \"Is there anything else I can do for you?"
 "\""
 msgstr ""
+"\"Я сожалею, что не могу выдать тебе другой. Я же предупреждал, что не смогу "
+"заменить его, разве не так? - он вздыхает. - Могу ли я еще чем-то тебе "
+"помочь?\""
 
 #: 47156 47219
-#, fuzzy
 msgid "\"Answer a few more questions...\""
-msgstr "\"Спасибо. У меня несколько вопросов...\""
+msgstr "\"Ответь еще на пару вопросов...\""
 
 #: 47157 47220 51174
 msgid "\"No. Farewell.\""
-msgstr "\"Нет. Прощай.\""
+msgstr "\"Нет. Прощай\"."
 
 #: 47158 47163 47221 47226
 msgid ""
@@ -192,13 +223,16 @@ msgid ""
 "detention, then, and find the truth. And if it's the case... we'll execute "
 "her. Excuse me. I have business to attend to.\""
 msgstr ""
+"Его веселое лицо становится жестким и мрачным. \"Это так? Тогда мы посадим "
+"ее под арест и выясним правду. И если это правда... мы казним ее. Извини. "
+"Мне нужно кое о чем позаботиться\"."
 
 #: 47159 47164 47222 47227 47385 47390 47392
-#, fuzzy
 msgid "\"Take your time.\""
-msgstr "Свернуть себе шею."
+msgstr "\"Не торопись\"."
 
 #: 47160 47223
+#, fuzzy
 msgid ""
 "When he returns, Keldor's face is set. \"Your information has apprehended a "
 "dangerous criminal. We've scored points with the Harmonium and the "
@@ -206,15 +240,19 @@ msgid ""
 "personal level, you have my gratitude for proving I was right in believing "
 "you to be an excellent choice for a Godsman.\""
 msgstr ""
+"Когда Кельдор возвращается, лицо его неподвижно. \"Твои сведения помогли "
+"задержать опасную преступницу. Этим мы превзошли Гармониум и Милосердных "
+"Убийц, и мы обязаны тебе за это. Прими мою благодарность, и, между нами, я "
+"признателен тебе за то, что ты доказал правильность моего мнения о том, что "
+"ты - прекрасный выбор для Боголюдей\"."
 
 #: 47161 47224
-#, fuzzy
 msgid "\"No problem. I had some questions...\""
 msgstr "\"Без проблем. У меня есть еще вопросы...\""
 
 #: 47162 47225 47233 47238 47241 47248 47295
 msgid "\"Thanks. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 47165 47228
 msgid ""
@@ -223,35 +261,38 @@ msgid ""
 "to her treachery, though. Rest assured that if she shows her face around "
 "here, she's doomed. You have my word on that.\""
 msgstr ""
+"Когда он возвращается, лицо его еще более мрачно. \"Она исчезла. Никто не "
+"видел, как она ускользнула, и никто не знает, куда она ушла. Так или иначе, "
+"прими мою благодарность за то, что предупредил нас о ее предательстве. Будь "
+"уверен: если она здесь покажется, она обречена. Даю тебе слово\"."
 
 #: 47166 47229
-#, fuzzy
 msgid "\"I had some questions for you...\""
-msgstr "\"Послушай, у меня есть вопросы к тебе...\""
+msgstr "\"У меня несколько вопросов к тебе...\""
 
 #: 47167 47230
-#, fuzzy
 msgid "\"If I see her, I'll make sure of it. Farewell.\""
-msgstr "\"Хорошо. Спасибо за уделенное время. Прощай.\""
+msgstr "\"Если увижу ее, я об этом позабочусь. Прощай\"."
 
 #: 47168
 msgid "\"More questions? What can I do for you?\""
-msgstr ""
+msgstr "\"Еще вопросы? Что я могу для тебя сделать?\""
 
 #: 47177
 msgid ""
 "\"\"Bedai-Lihn has asked me to sabotage the machine. I turned her down, but "
 "I thought I ought to tell you.\""
 msgstr ""
+"\"Бедай-Линн попросила меня саботировать машину. Я отказал ей, но подумал, "
+"что тебе следует знать об этом\"."
 
 #: 47183
 msgid "\"Will you accept the oath of the Godsmen, and join us?\""
-msgstr ""
+msgstr "\"Примешь ли ты присягу Боголюдей и присоединишься к нам?\""
 
 #: 47184 47185 47186 66311 66312
-#, fuzzy
 msgid "\"I will.\""
-msgstr "\"Очень хорошо.\""
+msgstr "\"Да\"."
 
 #: 47187
 msgid ""
@@ -264,20 +305,27 @@ msgid ""
 "swear the oath, and Keldor smiles. \"Welcome to the Godsmen, lad. Do you "
 "need anything from me now?\""
 msgstr ""
+"Клятва: \"Жизненные невзгоды - это испытания. Все, с чем я сталкиваюсь, "
+"является уроком. Боль - способ мультивселенной закреплять уроки. То, что я "
+"больше всего ненавижу в других - отражение того, что я больше всего ненавижу "
+"в себе. Мои действия будут направлены на раскрытие своих возможностей, и на "
+"содействие другим в достижении ими своих целей. Я буду помнить, что во всем "
+"присутствует искра божественности. Я клянусь в верности Верящим в "
+"Первопричину и их целям, и никогда не отвергну их\". Ты клянешься, и Кельдор "
+"улыбается. \"Добро пожаловать к Боголюдям, парень. Тебе что-нибудь нужно от "
+"меня в данный момент?\""
 
 #: 47188
 msgid "\"I had some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 47189
-#, fuzzy
 msgid "\"Not right now. Farewell.\""
-msgstr "\"Тогда ладно... Прощай.\""
+msgstr "\"Сейчас - нет. Прощай\"."
 
 #: 47190
-#, fuzzy
 msgid "\"What did you want to know?\""
-msgstr "...а что вы хотите знать?"
+msgstr "\"Что же ты хочешь знать?\""
 
 #: 47191
 msgid "\"Who are you?\""
@@ -285,67 +333,63 @@ msgstr "\"Кто ты?\""
 
 #: 47192
 msgid "\"What can you tell me about this place?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Что ты можешь рассказать мне об этом месте?\""
 
 #: 47193
 msgid "\"What are the benefits of joining the Godsmen?\""
-msgstr ""
+msgstr "\"В чем выгода от присоединения к Боголюдям?\""
 
 #: 47194
-#, fuzzy
 msgid "\"Tell me more about your faction.\""
-msgstr "\"Ясно. Расскажи мне побольше о Морге.\""
+msgstr "\"Расскажи побольше о своей фракции\"."
 
 #: 47195 47246
-#, fuzzy
 msgid "\"What can you tell me about your faction?\""
-msgstr "\"Что ты можешь рассказать об этой таверне?\""
+msgstr "\"Что ты можешь рассказать мне о своей фракции?\""
 
 #: 47196 47197 47198 47199
-#, fuzzy
 msgid "\"I would like to join the Godsmen.\""
-msgstr "Кем бы вы хотели играть?"
+msgstr "\"Я хотел бы присоединиться к Боголюдям\"."
 
 #: 47200
-#, fuzzy
 msgid "\"I needed to ask some questions about the forge.\""
-msgstr "\"Я хочу задать несколько вопросов о городе.\""
+msgstr "\"Я хочу задать несколько вопросов о кузнице\"."
 
 #: 47201
-#, fuzzy
 msgid "\"I wanted to talk about the murder investigation.\""
-msgstr "\"Я хочу поговорить с тобой о торговце Заке.\""
+msgstr "\"Я хотел бы поговорить о расследовании убийства\"."
 
 #: 47202
-#, fuzzy
 msgid "\"I wanted to talk about Sandoz.\""
-msgstr "\"Я хочу поговорить с тобой о торговце Заке.\""
+msgstr "\"Я хотел бы поговорить о Сандозе\"."
 
 #: 47203
 msgid "\"I'd like to take the Godsman oath.\""
-msgstr ""
+msgstr "\"Я хотел бы принести присягу Боголюдям\"."
 
 #: 47215
 msgid ""
 "He smiles. \"Friend, I can't give that to you until you prove yourself a "
 "friend of the Godsmen.\""
 msgstr ""
+"Он улыбается. \"Дружище, я не могу дать тебе это, пока ты не докажешь свое "
+"расположение к Боголюдям\"."
 
 #: 47216
-#, fuzzy
 msgid "\"Then answer a few more questions for me...\""
-msgstr "\"Тогда ответь мне на несколько вопросов.\""
+msgstr "\"Тогда ответь мне еще на пару вопросов...\""
 
 #: 47217
-#, fuzzy
 msgid "\"Maybe later. Farewell.\""
-msgstr "\"Спасибо, не сегодня. Может быть потом.\""
+msgstr "\"Может, позже. Счастливо\"."
 
 #: 47218
 msgid ""
 "\"I regret that I cannot give you another.\" He sighs. \"Is there anything "
 "else I can do for you?\""
 msgstr ""
+"\"Сожалею, что не могу выдать тебе другой, - вздыхает он. - Могу ли я помочь "
+"тебе еще чем-то?\""
 
 #: 47231
 msgid ""
@@ -355,11 +399,15 @@ msgid ""
 "of them can be found across Sigil. All of them become much cheaper for our "
 "members.\""
 msgstr ""
+"\"Вдобавок к присоединению к таким славным людям, какие у нас тут имеются, - "
+"улыбается он, - ты получаешь почти неограниченный доступ к ресурсам. У нас "
+"есть заклинания, предметы, места для отдыха. Некоторые из них предназначены "
+"только для нашей фракции. Некоторые из них можно найти по всему Сигилу. Все "
+"это намного дешевле для членов нашей фракции\"."
 
 #: 47232
-#, fuzzy
 msgid "\"All right. I had some other questions...\""
-msgstr "\"Хорошо... У меня есть другие вопросы...\""
+msgstr "\"Хорошо. У меня были другие вопросы...\""
 
 #: 47234
 msgid ""
@@ -369,18 +417,21 @@ msgid ""
 "staff of smiths that rival those in Mount Clangeddin itself. Personally, I "
 "don't think we're that good... but we ARE close.\""
 msgstr ""
+"\"Это Великая Литейная, дом Верящих в Первопричину, также известных под "
+"именем Боголюди. Здесь мы создаем вещи, которые поставляются во все планы - "
+"мы известны во многих мирах. Здесь работают только лучшие. Говорят, что наши "
+"кузнецы соперничают с кузнецами самой горы Кланжеддин. Лично я не думаю, что "
+"мы настолько хороши... но мы ОЧЕНЬ близки к этому\"."
 
 #: 47235
 msgid "\"Can you take on additional work?\""
-msgstr ""
+msgstr "\"Вы можете взяться за дополнительную работу?\""
 
 #: 47236
-#, fuzzy
 msgid "\"What can you tell me of the people here?\""
-msgstr "\"Что ты можешь рассказать о здешних завсегдатаях?\""
+msgstr "\"Что ты можешь рассказать о здешних людях?\""
 
 #: 47237
-#, fuzzy
 msgid "\"I see. I had more questions.\""
 msgstr "\"Понятно. У меня были еще вопросы...\""
 
@@ -390,6 +441,10 @@ msgid ""
 "that's taking up most of our resources. Perhaps when we've finished... in a "
 "matter of years.\" He shrugs. \"My apologies.\""
 msgstr ""
+"\"Увы, друг мой, это невозможно. В данный момент мы заняты долговременным "
+"заказом, который забирает большую часть наших ресурсов. Может быть, когда мы "
+"закончим... это вопрос нескольких лет, - он пожимает плечами. - Прими мои "
+"извинения\"."
 
 #: 47240 47276
 msgid "\"I had some other questions...\""
@@ -402,15 +457,18 @@ msgid ""
 "are doing some incredible things with the fabric of reality. Ask Nihil "
 "Xander about his dreambuilder someday.\""
 msgstr ""
+"\"У нас тут много разного народа, в большинстве своем - кузнецы и рабочие, "
+"которые поддерживают деятельность этого места. Также у нас есть парочка "
+"инженеров, которые делают какие-то невероятные вещи с тканью реальности. Как-"
+"нибудь спроси Нила Зандера о его построителе снов\"."
 
 #: 47243
-#, fuzzy
 msgid "\"Maybe I will. I had some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Может, я так и сделаю. У меня были еще вопросы...\""
 
 #: 47244
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 47245
 msgid ""
@@ -418,66 +476,61 @@ msgid ""
 "of the Godsmen, and nominally in charge of this place while our true high-"
 "ups are gone in conclave.\""
 msgstr ""
+"Он широко улыбается. \"Друг мой, я - Кельдор Дурианский, один из фрактотумов "
+"Боголюдей, и формально управляю этим местом, пока наше настоящее начальство "
+"ушло на тайное совещание\"."
 
 #: 47247
-#, fuzzy
 msgid "\"I had some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 47249
 msgid ""
 "He smiles, his face creasing in wrinkles. \"What would you like to know "
 "about us?\""
 msgstr ""
+"Он улыбается, его лицо покрывается морщинками. \"Что бы ты хотел узнать о "
+"нас?\""
 
 #: 47250 47251 47252 47253 47263 47264 47265 47266
-#, fuzzy
 msgid "\"How do I join?\""
-msgstr "Что ты имеешь виду?"
+msgstr "\"Как мне присоединиться?\""
 
 #: 47254 47267
-#, fuzzy
 msgid "\"What are the beliefs of this faction?\""
-msgstr "\"Что это за уровни?\""
+msgstr "\"Каковы убеждения этой фракции?\""
 
 #: 47255 47268
-#, fuzzy
 msgid "\"Tell me of the faction's history.\""
-msgstr "\"Расскажи мне о Морге.\""
+msgstr "\"Расскажи мне об истории фракции\"."
 
 #: 47256 47269
-#, fuzzy
 msgid "\"What do I get for being in the faction?\""
-msgstr "\"И что вы делаете с этими телами?\""
+msgstr "\"Что я получу, будучи членом фракции?\""
 
 #: 47257 47270
-#, fuzzy
 msgid "\"Who are the faction's enemies?\""
-msgstr "\"Так кто ты на самом деле?\""
+msgstr "\"Какие у фракции враги?\""
 
 #: 47258 47271
-#, fuzzy
 msgid "\"What do you do, anyway?\""
-msgstr "Что? Что ты слышишь?"
+msgstr "\"А вообще, чем ты занимаешься?\""
 
 #: 47259 47272
-#, fuzzy
 msgid "\"Why are you named as you are?\""
-msgstr "Почему? Вы узники мертвецов?"
+msgstr "\"Почему вас так называют?\""
 
 #: 47260 47273
-#, fuzzy
 msgid "\"Nothing, right now. I had more questions...\""
-msgstr "\"Хорошо. У меня есть другие вопросы...\""
+msgstr "\"Пока ничего. У меня есть другие вопросы...\""
 
 #: 47261 47274 54087
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 47262
-#, fuzzy
 msgid "\"Gladly. What did you want to know?\""
-msgstr "...а что вы хотите знать?"
+msgstr "\"С удовольствием. Что бы ты хотел узнать?\""
 
 #: 47275
 msgid ""
@@ -489,62 +542,73 @@ msgid ""
 "ability to make the potential actual. Talk to Alissa, the Foundry "
 "Supervisor, in the Main Foundry to see how it all works.\""
 msgstr ""
+"\"Если хочешь присоединиться к Верящим в Первопричину, ты должен выполнить "
+"три задания. Первое задание такое: ты должен пойти в кузницу и создать "
+"предмет. Это покажет, что ты способен увидеть возможность даже в простом "
+"куске железа; что ты способен создать нечто, способное выдержать испытание "
+"временем. Это определит твою проницательность и способность делать возможное "
+"действительным. Поговори с Алиссой, бригадиром Литейной, в Главной Литейной, "
+"чтобы увидеть, как все это делается\"."
 
 #: 47277
-#, fuzzy
 msgid "\"I'll get on it. Farewell.\""
-msgstr "\"Когда разберусь с ним. Прощай.\""
+msgstr "\"Я займусь этим. Прощай\"."
 
 #: 47278
 msgid ""
 "A sly smile creeps across his face. \"Well, first you'll have to renounce "
 "your Dustman membership.\""
 msgstr ""
+"На его лице появляется лукавая улыбка. \"Ну, сначала ты должен отречься от "
+"членства в фракции Тленных\"."
 
 #: 47279 47284 47289
-#, fuzzy
 msgid "\"Very well. I renounce them. What do I have to do?\""
-msgstr "\"Что у тебя есть из выпивки?\""
+msgstr "\"Отлично. Я отрекаюсь от них. Что мне нужно делать?\""
 
 #: 47280 47285 47290
-#, fuzzy
 msgid ""
 "\"I'm not sure I'm ready to do that. Answer some more questions about your "
 "faction for me, will you?\""
-msgstr "\"Неважно. Ты можешь ответить на мои вопросы?\""
+msgstr ""
+"\"Не уверен, готов ли я сделать это. Ответь мне еще на пару вопросов о твоей "
+"фракции, хорошо?\""
 
 #: 47281 47286 47291
-#, fuzzy
 msgid "\"Not yet. I had some other questions, not about your faction.\""
-msgstr "\"Ясно. У меня есть другие вопросы для тебя...\""
+msgstr ""
+"\"Не в этот раз. У меня есть другие вопросы, не касающиеся твоей фракции\"."
 
 #: 47282 47287 47292
-#, fuzzy
 msgid "\"Not yet, thanks. Farewell.\""
-msgstr "\"Не сегодня, спасибо. Прощай.\""
+msgstr "\"Не в этот раз, спасибо. Прощай\"."
 
 #: 47283
 msgid ""
 "A sly smile creeps across his face. \"Well, first you'll have to renounce "
 "your Sensate membership.\""
 msgstr ""
+"На его лице появляется лукавая улыбка. \"Ну, сначала ты должен отречься от "
+"членства в фракции Чувствующих\"."
 
 #: 47288
 msgid ""
 "A sly smile creeps across his face. \"Well, first you'll have to renounce "
 "your Xaositect membership.\""
 msgstr ""
+"На его лице появляется лукавая улыбка. \"Ну, сначала ты должен отречься от "
+"членства в фракции Хаоситектов\"."
 
 #: 47293
 msgid "\"Any of the smiths there should be able to help you out.\""
-msgstr ""
+msgstr "\"Любой из здешних кузнецов вполне может помочь тебе\"."
 
 #: 47294
-#, fuzzy
 msgid "\"Very well. I had some additional questions.\""
-msgstr "\"Очень хорошо. Но у меня были еще вопросы к тебе...\""
+msgstr "\"Очень хорошо. У меня были еще вопросы к тебе.\""
 
 #: 47296
+#, fuzzy
 msgid ""
 "\"We believe that the universe is a giant testing ground, a place where we "
 "prove ourselves through a series of tests. These tests continue throughout "
@@ -554,29 +618,33 @@ msgid ""
 "and that experience extends through your lives, making you into something "
 "greater than just a single life.\""
 msgstr ""
+"\"Мы верим, что вселенная - это гигантский полигон, место, где мы проходим "
+"серию испытаний. Эти испытания продолжаются в течение всей твоей жизни, в "
+"течении всех твоих жизней. Каждый шаг, каждый день вполне может быть твоим "
+"испытанием, и твое вознаграждение в следующей жизни зависит от того, "
+"насколько хорошо ты усвоил уроки теперешней жизни. Мы верим, что тело учится "
+"на опыте... и что опыт распространяется на все твои жизни, превращая тебя в "
+"нечто большее, чем если бы у тебя была одна жизнь\"."
 
 #: 47297
-#, fuzzy
 msgid "\"So what's the point of it all?\""
-msgstr "Что это за голос? Он очень знаком мне."
+msgstr "\"Так какой же смысл у всего этого?\""
 
 #: 47298
 msgid "\"Makes sense so far. Keep going.\""
-msgstr ""
+msgstr "\"Пока что убедительно. Продолжай\"."
 
 #: 47299
 msgid "\"All right... more questions about your faction.\""
-msgstr ""
+msgstr "\"Ладно... есть еще вопросы о твоей фракции\"."
 
 #: 47300 47304 47332 47336 47340 47344 47349 47353
-#, fuzzy
 msgid "\"I had other questions, not about your faction...\""
-msgstr "\"У меня есть другие вопросы для тебя, Морт\""
+msgstr "\"У меня есть другие вопросы, не касающиеся твоей фракции...\""
 
 #: 47301 47305 47333 47337 47341 47345 47350 47354
-#, fuzzy
 msgid "\"Thanks for your time. Farewell.\""
-msgstr "\"У меня нет времени на это. Прощай.\""
+msgstr "\"Спасибо за уделенное время. Прощай\"."
 
 #: 47302
 msgid ""
@@ -588,11 +656,17 @@ msgid ""
 "led us to a new era. These two were the most important figures in our "
 "faction - we have plenty more stories, but those are the bare bones.\""
 msgstr ""
+"\"Общепринято считать, что мы были основаны Перреном, еще до Великого "
+"Переворота, когда фракций стало пятнадцать. Во время Переворота Ожи "
+"Фонейская свела убеждения фракции к тому, чем они являются теперь - она "
+"реинкарнировалась тысячу раз, и могла вспомнить *каждую* из своих "
+"реинкарнаций. Она научила нас, как обращаться со своей интуицией, и привела "
+"нас в новую эпоху. Эти двое были самыми важными фигурами в нашей фракции. У "
+"нас есть множество других историй, но эта раскрывает саму суть\"."
 
 #: 47303 47331 47335 47339 47343 47348 47352
-#, fuzzy
 msgid "\"All right... I had more questions about your faction.\""
-msgstr "\"Как Тленный, я хочу задать несколько вопросов о нашей фракции...\""
+msgstr "\"Ладно... У меня еще вопросы касательно твоей фракции\"."
 
 #: 47306
 msgid ""
@@ -602,8 +676,14 @@ msgid ""
 "Of course, if you're planning on being with us merely for the benefits, I'd "
 "have to counsel against it.\""
 msgstr ""
+"\"Ну, кроме доступа к нашей прекрасной литейной, жилью и питанию для тебя и "
+"твоих друзей, особых предметов и заклинаний, и более благосклонной реакции "
+"на тебя прохожих на улице, нас больше незачем рекомендовать. Конечно, если "
+"ты планируешь присоединиться к нам только из корыстных интересов, я бы не "
+"советовал тебе делать это\"."
 
 #: 47334
+#, fuzzy
 msgid ""
 "\"We don't have enemies, per se. Still, there are some who oppose our "
 "beliefs. The Bleak Cabal scoff at the idea that we evolve toward something "
@@ -613,6 +693,13 @@ msgid ""
 "champions the cause of life. They promote death, we celebrate life. What "
 "could be more opposed?\""
 msgstr ""
+"\"По сути, у нас нет врагов. И все же, есть такие, кто не согласен с нашими "
+"взглядами. Мрачная Кабала насмехается над идеей, что мы стремимся к чему-то "
+"более совершенному. Я считаю, что даже если они не согласны с этой точкой "
+"зрения, им бы следовало принят ее... также, как и Тленным. Тленные считают, "
+"что жизнь - это иллюзия, подготовка к Истинной Смерти, а наша вера "
+"отстаивает причинность жизни. Они содействуют смерти, мы празднуем жизнь. "
+"Что может быть большей противоположностью?\""
 
 #: 47338
 msgid ""
@@ -624,6 +711,14 @@ msgid ""
 "sure every creature faces up to its responsibilities - we want to see the "
 "multiverse move on.\""
 msgstr ""
+"\"Ну, мы управляем Великой Литейной. Также мы управляем Домом Предвестника, "
+"где мы готовим людей, которые кажутся весьма способными... бойцов, которые "
+"показывают какие-либо способности, выделяющие их среди простых смертных. "
+"Некоторые говорят, что мы делаем это, потому что хотим, чтобы на нашей "
+"стороне была сила, но правда в том, что мы делаем это, потому что считаем, "
+"что это тоже часть наших испытаний. Мы изо всех сил стараемся сделать так, "
+"чтобы каждый был готов принять на себя свои обязанностями - мы хотим видеть, "
+"как движется мультивселенная\"."
 
 #: 47342
 msgid ""
@@ -632,6 +727,11 @@ msgid ""
 "we believe that all creatures have the potential for godliness within them, "
 "it's only natural that our nickname would be the Godsmen.\""
 msgstr ""
+"\"Хороший вопрос. Наше настоящее название - Верящие в Первопричину, "
+"поскольку мы верим, что вся жизнь берет начало от чистого первозданного "
+"источника. Но поскольку мы верим, что все существа имеют в себе "
+"потенциальную божественность, вполне естественно, что наше прозвище будет "
+"\"Боголюди\"\"."
 
 #: 47346
 msgid ""
@@ -640,11 +740,14 @@ msgid ""
 "seeking to find the answers that are right for us, and in the end, we move "
 "on to godhood and beyond. What waits there is anybody's guess.\""
 msgstr ""
+"\"Мы не вполне уверены. В конце концов, мы еще не дошли до конца, ведь так? "
+"Лучшее, что нам остается - это считать, что мы тратим свою жизнь на поиск "
+"ответов, правильных для нас, и, в конце концов, мы обретаем божественность, "
+"или даже нечто большее. Что нас ждет - остается лишь догадываться\"."
 
 #: 47347
-#, fuzzy
 msgid "\"All right. Keep going.\""
-msgstr "\"Тогда ладно... Прощай.\""
+msgstr "\"Ладно. Продолжай\"."
 
 #: 47351
 msgid ""
@@ -655,27 +758,33 @@ msgid ""
 "on the side of the free will people... I hate thinking that my choices have "
 "already been made for me.\""
 msgstr ""
+"\"Значит, так. Жизнь - это испытание. Мы проходим испытание. После этого мы "
+"переходим в другую форму. Это может быть форма архона, демона или силы. И, "
+"как всегда, решения, принимаемые нами в этой жизни, позволяют выбрать наш "
+"путь. Свободны ли мы в принятии решений - все еще спорный вопрос, - он "
+"улыбается. - Конечно, я - сторонник свободной воли людей... Ненавижу думать, "
+"будто мои решения уже приняты за меня\"."
 
 #: 47355
 msgid "\"You had questions about the forge? I will answer all I can.\""
 msgstr ""
+"\"У тебя вопросы относительно кузницы? Я отвечу на все, на которые смогу\"."
 
 #: 47356
 msgid "\"Who do I talk to again?\""
-msgstr ""
+msgstr "\"Еще раз, с кем мне нужно поговорить?\""
 
 #: 47357 47358 47359
 msgid "Show him the item you forged: \"I have finished forging my creation.\""
-msgstr ""
+msgstr "Показать ему выкованный тобой предмет: \"Я завершил свое творение\"."
 
 #: 47360
-#, fuzzy
 msgid "\"Actually, just answer some other questions for me...\""
-msgstr "\"...верно. Ты можешь ответить на мои вопросы?\""
+msgstr "\"Вообще-то, просто ответь еще на несколько вопросов...\""
 
 #: 47361
 msgid "\"Forget it. Farewell.\""
-msgstr "\"Забудь. Прощай.\""
+msgstr "\"Забудь. Прощай\"."
 
 #: 47362
 msgid ""
@@ -683,11 +792,13 @@ msgid ""
 "himself from harsh words. \"At least you tried, hm? Are you ready for the "
 "next test? I certainly hope so...\""
 msgstr ""
+"Он берет его у тебя и внимательно рассматривает. Похоже, он сдерживается от "
+"резких слов. \"По крайней мере, ты старался, хм? Ты готов к следующему "
+"испытанию? Конечно, я надеюсь на это...\""
 
 #: 47363 47365 47367
-#, fuzzy
 msgid "\"I suppose I am...\""
-msgstr "Мне конец."
+msgstr "\"Полагаю, да...\""
 
 #: 47364
 msgid ""
@@ -695,6 +806,9 @@ msgid ""
 "practice, you might become a serviceable smith. Are you ready for the next "
 "test? I certainly hope so...\""
 msgstr ""
+"Он берет его у тебя и внимательно рассматривает. \"Это сойдет. Еще немного "
+"практики - и ты можешь стать полезным кузнецом. Ты готов к следующему "
+"испытанию? Конечно, я надеюсь на это...\""
 
 #: 47366
 msgid ""
@@ -702,6 +816,10 @@ msgid ""
 "one of the better pieces I have seen a recruit forge. You'll go far, my "
 "friend. Are you ready for the next test? I certainly hope so...\""
 msgstr ""
+"Он берет его у тебя и внимательно рассматривает. \"Это, несомненно, один из "
+"лучших виденных мной образцов, которые выковывали новобранцы. Далеко "
+"пойдешь, друг мой. Ты готов к следующему испытанию? Конечно, я надеюсь на "
+"это...\""
 
 #: 47368
 msgid ""
@@ -711,45 +829,56 @@ msgid ""
 "there. When you have completed your investigation and are ready to name a "
 "culprit, come back to me.\""
 msgstr ""
+"Он мрачно продолжает. \"В Литейной произошло убийство, и я отказываюсь от "
+"проведения обычного испытания, чтобы поручить тебе выследил убийцу. Иди, "
+"поговори с бригадиром, Алиссой Тилд, в Главной Литейной, и начни оттуда. "
+"Когда ты закончишь расследование и будешь готов назвать преступника, "
+"возвращайся ко мне\"."
 
 #: 47369
 msgid "\"All right. Answer a few questions for me first...\""
-msgstr ""
+msgstr "\"Ладно. Сперва ответь мне на пару вопросов...\""
 
 #: 47370
-#, fuzzy
 msgid "\"I'll be back. Farewell.\""
-msgstr "\"Я вернусь.\""
+msgstr "\"Я вернусь. Прощай\"."
 
 #: 47371
 msgid ""
 "\"Well? Have you found a culprit for this heinous crime? Do you have "
 "evidence?\""
 msgstr ""
+"\"Ну? Ты нашел виновных в этом гнусном преступление? У тебя есть улики?\""
 
 #: 47372
 msgid "\"Not enough. I'd like to ask you a few more questions first...\""
-msgstr ""
+msgstr "\"Пока недостаточно. Сперва я хотел задать тебе еще пару вопросов...\""
 
 #: 47373
 msgid "\"Yes. Thildon is your culprit. He has no real alibi.\""
-msgstr ""
+msgstr "\"Да. Во всем виноват Тильдон. У него нет настоящего алиби\"."
 
 #: 47374
 msgid "\"Yes. Saros is your culprit. He's known to sneak around the Foundry.\""
 msgstr ""
+"\"Да. Сарос во всем виновен. Известно, что он тайком бродит по всей Литейной"
+"\"."
 
 #: 47375
 msgid ""
 "\"Yes. Both Thildon and Saros are guilty, as well as Bedai-Lihn. None of "
 "them can account for their actions the night of the murder.\""
 msgstr ""
+"\"Да. Виновны Тильдон и Сарос, как, впрочем, и Бедай-Линн. Никто из них не "
+"может отчитаться за свои действия в ночь убийства\"."
 
 #: 47376
 msgid ""
 "\"Yes. Thildon is guilty. Saros gave me an awl he found near the body. It "
 "was Thildon's awl.\""
 msgstr ""
+"\"Да. Тильдон виновен. Сарос дал мне шило, которое он нашел возле тела. Это "
+"было шило Тильдона\"."
 
 #: 47377
 msgid ""
@@ -757,28 +886,37 @@ msgid ""
 "He claimed that he recovered it near the body, but Thildon denies all "
 "knowledge of this. Saros is your man.\""
 msgstr ""
+"\"Да. Сарос виновен. Он пытался подставить Тильдона, украв его шило. Заявил, "
+"что нашел его возле тела, но Тильдон отрицает это. Сарос - вот кто вам нужен"
+"\"."
 
 #: 47378
 msgid "\"Saros did it. He's in league with the Anarchists.\""
-msgstr ""
+msgstr "\"Сарос сделал это. Он в союзе с Анархистами\"."
 
 #: 47379
 msgid ""
 "\"Thildon committed the crime, but Saros tried to frame him for it - it's an "
 "Anarchist plot, and Saros is in the middle of it. Arrest them both.\""
 msgstr ""
+"\"Тильдон совершил преступление, но Сарос пытался подставить его. Это план "
+"Анархистов, и Сарос в нем - ключевая фигура. Арестуйте их обоих\"."
 
 #: 47380
 msgid ""
 "\"Thildon did it. He had personal problems with Avildon, and he was trying "
 "to frame Saros for the crime. Execute him.\""
 msgstr ""
+"\"Тильдон сделал это. У него были личные проблемы с Авильдоном, и он пытался "
+"ложно обвинить Сароса в этом преступлении. Казните его\"."
 
 #: 47381
 msgid ""
 "\"Saros is an Anarchist, trying to break down the Foundry. He tried to frame "
 "Thildon for the crime.\""
 msgstr ""
+"\"Сарос - Анархист, и он пытался разрушить Литейную. Он пытался ложно "
+"обвинить Тильдона в этом преступлении\"."
 
 #: 47382
 msgid ""
@@ -786,10 +924,12 @@ msgid ""
 "evidence to convict. Go back and investigate some more.\" He turns back to "
 "his work."
 msgstr ""
+"Он качает головой. \"Мы уже проходили через это. Для обвинения недостаточно "
+"доказательств. Иди и собери больше улик\". Он возвращается к своей работе."
 
 #: 47383 66317
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\" ."
 
 #: 47384
 msgid ""
@@ -797,6 +937,9 @@ msgid ""
 "your investigation was thorough... and I trust you. Allow me to summon the "
 "guards.\""
 msgstr ""
+"Он качает головой. \"Я бы никогда не поверил, что это Тильдон. Я верю, что "
+"твое расследование было исчерпывающим... и я доверяю тебе. Позволь мне "
+"вызвать стражу\"."
 
 #: 47386
 msgid ""
@@ -806,15 +949,19 @@ msgid ""
 "harrowing journey. He has locked himself in his tower room and is "
 "threatening to kill himself. Speak to him. Stop him.\""
 msgstr ""
+"Похоже, он опечален исходом испытания. \"Готово. Спасибо за успешное "
+"расследование. Тебе осталось выполнить лишь одно задание. Сандоз, отец "
+"Сароссы и Сароса, один из наиболее важных членов нашей фракции, вернулся из "
+"кошмарного путешествия. Он закрылся у себя в комнате в башне и угрожает "
+"покончить с собой. Поговори с ним. Останови его\"."
 
 #: 47387
 msgid "\"I'm on it. Just answer a few more questions for me...\""
-msgstr ""
+msgstr "\"Я займусь этим. Только ответь мне еще на пару вопросов...\""
 
 #: 47388
-#, fuzzy
 msgid "\"I'm on it. Farewell.\""
-msgstr "\"Я свалю. Прощай.\""
+msgstr "\"Я займусь этим. Прощай\"."
 
 #: 47389
 msgid ""
@@ -822,34 +969,42 @@ msgid ""
 "Thildon lie? It a grim task, but if you claim it is so, it must be so. I "
 "shall have him arrested. Allow me to summon the guards.\""
 msgstr ""
+"Он раскрывает рот от удивления. \"Не могу поверить, чтобы Сарос делал "
+"такое... но к чему Тильдону лгать? Это мрачная задача, но раз ты так "
+"утверждаешь - да будет так. Мне нужно взять его под арест. Позволь мне "
+"вызвать стражу\"."
 
 #: 47391
 msgid ""
 "\"What? Both of them? This is a sad day for the Godsmen, a sad day indeed... "
 "Allow me a moment to summon the guards.\""
 msgstr ""
+"\"Что? Оба? Печальный день для Боголюдей, воистину печальный... Дай мне "
+"минуту, чтобы позвать стражу\"."
 
 #: 47393
 msgid "\"Have you succeeded in convincing him that life is worthwhile?\""
-msgstr ""
+msgstr "\"Тебе удалось убедить его, что жизнь имеет смысл?\""
 
 #: 47394
 msgid ""
 "\"Not yet. He's still alive, at least. Answer some more questions for me, "
 "would you?\""
 msgstr ""
+"\"Еще нет. По крайней мере, он все еще жив. Ответь мне еще на несколько "
+"вопросов, хорошо?\""
 
 #: 47395
 msgid "\"I have succeeded. He has regained his zest for life.\""
-msgstr ""
+msgstr "\"Мне удалось это. Он вновь обрел жажду жизни\"."
 
 #: 47396
 msgid "\"I failed. He took his own life.\""
-msgstr ""
+msgstr "\"Мне это не удалось. Он покончил с собой\"."
 
 #: 47397
 msgid "\"Not yet. I'm working on it. Farewell.\""
-msgstr ""
+msgstr "\"Еще нет. Я работаю над этим. Прощай\"."
 
 #: 47398
 msgid ""
@@ -857,11 +1012,13 @@ msgid ""
 "proven yourself worthy of joining the Godsmen! Would you like to take the "
 "oath now, or perhaps wait until later?\""
 msgstr ""
+"\"Тебе это удалось? Замечательная новость! Поздравляю, друг мой! Ты доказал, "
+"что достоин того, чтобы присоединиться к Боголюдям! Хочешь присягнуть "
+"сейчас, или, может быть, в другой раз?\""
 
 #: 47399 47400 47401 47403 47404 47405 67783 67784 67787 67788
-#, fuzzy
 msgid "\"Now.\""
-msgstr "\"... и что теперь?\""
+msgstr "\"Сейчас\"."
 
 #: 47402
 msgid ""
@@ -869,6 +1026,10 @@ msgid ""
 "important thing. That you tried.\" He does his best to look cheery, and "
 "fails miserably. \"Would you care to take the oath now, or later?\""
 msgstr ""
+"\"Тебе не удалось? Это очень печальные новости. Но ты попытался, верно? Это "
+"важно. То, что ты попытался, - он изо всех сил пытается выглядеть радостным, "
+"но эта жалкая попытка ему не удается. - Желаешь ли ты принять присягу, или "
+"отложим этот вопрос?\""
 
 #: 47406
 msgid ""
@@ -876,47 +1037,50 @@ msgid ""
 "face is tanned and lined, and his black beard is beginning to show hints of "
 "white. \"Hail, stranger, and well met! What can I do for you this fine day?\""
 msgstr ""
+"Ты видишь крепкого мужчину, который своим видом просто излучает жизненную "
+"энергию. Его загорелое лицо покрыто морщинами, а его черную бороду уже "
+"тронула седина. \"Приветствую, незнакомец, добро пожаловать! Что я могу для "
+"тебя сделать в этот чудный денек?\""
 
 #: 47407
-#, fuzzy
 msgid "\"I'd like to ask you a few questions...\""
-msgstr "\"Тогда ты - тот, кто отвечает на вопросы.\""
+msgstr "\"Я хотел бы задать тебе пару вопросов...\""
 
 #: 47409
 msgid "\"Well met, friend! What can I do for you today?\""
-msgstr ""
+msgstr "\"Рад нашей встрече, друг! Чем я могу помочь тебе сегодня?\""
 
 #: 47410
-#, fuzzy
 msgid "\"You can answer some questions...\""
-msgstr "\"Могу ли я задать пару вопросов?..\""
+msgstr "\"Можешь ли ты ответить на несколько вопросов?\""
 
 #: 51167 51168 51170
-#, fuzzy
 msgid "\"Nothing, thanks. Farewell.\""
-msgstr "\"Ничего больше, спасибо. Прощай.\""
+msgstr "\"Ничего, спасибо. Прощай\"."
 
 #: 51171
 msgid ""
 "\"A message, eh?\" He takes the note from you. \"Very well. You can tell him "
 "the message is delivered. Was there anything else you wanted?\""
 msgstr ""
+"\"Э, послание? - он берет у тебя записку. - Отлично. Можешь передать ему, "
+"что послание доставлено. Ты еще чего-то хотел?\""
 
 #: 51172 51173
-#, fuzzy
 msgid "\"I had a few more questions.\""
-msgstr "\"Спасибо. У меня несколько вопросов...\""
+msgstr "\"У меня еще пару вопросов...\""
 
 #: 54086
-#, fuzzy
 msgid "\"Nothing right now, thanks. Farewell.\""
-msgstr "\"Ничего больше, спасибо. Прощай.\""
+msgstr "\"Пока ничего, спасибо. Прощай\"."
 
 #: 64545
 msgid ""
 "I reported my success in saving Sandoz' life to Keldor. He was exceptionally "
 "pleased."
 msgstr ""
+"Я сообщил Кельдору, что мне удалось спасти жизнь Сандозу. Он был "
+"исключительно доволен."
 
 #: 64546
 msgid ""
@@ -924,71 +1088,76 @@ msgid ""
 "disappointed, he understood that it was a difficult task, and told me I had "
 "passed the test simply by trying."
 msgstr ""
+"Я сообщил Кельдору, что мне не удалось спасти жизнь Сандозу. Хотя он был "
+"разочарован, он понимал, что это была сложная задача, и сказал мне, что я "
+"прошел испытание, просто сделав попытку."
 
 #: 66313
-#, fuzzy
 msgid "\"Not yet. I had some questions first.\""
-msgstr "\"Не сейчас. У меня есть некоторые вопросы...\""
+msgstr "\"Еще нет. Для начала у меня есть некоторые вопросы...\""
 
 #: 66314
-#, fuzzy
 msgid "\"Not yet. Farewell.\""
-msgstr "\"Не буду. Пока что. Прощай.\""
+msgstr "\"Еще нет. Прощай\"."
 
 #: 66315
 msgid ""
 "He scowls at you. \"You must first renounce your membership in the faction "
 "you joined since you applied to join the Godsmen.\""
 msgstr ""
+"Он бросает на тебя сердитый взгляд. \"Сперва ты должен отречься от членства "
+"в фракции, к которой ты присоединился после того, как решил примкнуть к "
+"Боголюдям\"."
 
 #: 66316
 msgid ""
 "\"Then I cannot allow you to join my faction. Farewell.\" He turns away from "
 "you."
 msgstr ""
+"\"Тогда я не могу позволить тебе присоединиться к моей фракции. Прощай\". Он "
+"отворачивается от тебя."
 
 #: 66318
 msgid "Renounce the Anarchists truthfully: \"I do renounce that faction.\""
-msgstr ""
+msgstr "Искренне отречься от Анархистов: \"Я отрекаюсь от этой фракции\"."
 
 #: 66319
-#, fuzzy
 msgid "\"I do renounce the Sensates.\""
-msgstr "Зовите меня леди Изгнанная."
+msgstr "\"Я отрекаюсь от Чувствующих\"."
 
 #: 66320
-#, fuzzy
 msgid "\"I do renounce the Dustmen.\""
-msgstr "\"Если я должен... Я отрекаюсь от Тленных. Прощай.\""
+msgstr "\"Я отрекаюсь от Тленных\"."
 
 #: 66321
-#, fuzzy
 msgid "\"I do renounce the Chaosmen.\""
-msgstr "Зовите меня леди Изгнанная."
+msgstr "\"Я отрекаюсь от Хаоситов\"."
 
 #: 66322
 msgid ""
 "Lie to infiltrate the faction for the Anarchists: \"I do renounce that "
 "faction.\""
 msgstr ""
+"Солгать с целью проникнуть в фракцию для Анархистов: \"Я отрекаюсь от этой "
+"фракции\"."
 
 #: 66323
-#, fuzzy
 msgid "\"I won't.\""
-msgstr "\"Не буду. Пока что. Прощай.\""
+msgstr "\"Не буду\"."
 
 #: 66513
 msgid ""
 "I have turned Bedai-Lihn in to Keldor for her Anarchist leanings and "
 "attempts to disrupt the Foundry's workings. Keldor was pleased."
 msgstr ""
+"Я сдал Кельдору Бедай-Линн за ее связь с Анархистами и за попытку подорвать "
+"рабочих Литейной. Кельдор был доволен."
 
 #: 67785 67789
-#, fuzzy
 msgid "\"I'll do it later. Answer some questions for me, will you?\""
-msgstr "\"Неважно. Ты можешь ответить на мои вопросы?\""
+msgstr ""
+"\"Я займусь этим позже. Ответь мне на пару вопросов, ведь ты не против?\""
 
 #: 67786 67790
-#, fuzzy
 msgid "\"I'll do it later. Farewell.\""
-msgstr "\"Забудь. Я вернусь.\""
+msgstr "\"Я займусь этим позже. Прощай\"."
