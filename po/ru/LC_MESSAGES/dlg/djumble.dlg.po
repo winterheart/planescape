@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: djumble.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-15 02:30+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-02-12 20:03+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 2937
@@ -20,6 +20,11 @@ msgid ""
 "with a slow rhythm, as if it were a drum. The man's odd, crooked smile and a "
 "strange gleam in his eyes make him look a bit mad."
 msgstr ""
+"Оранжевая туника и приличных размеров живот этого невысокого лысеющего "
+"мужчины делают его похожим на ходячую тыкву. Он рассеянно и неспешно "
+"похлопывает себя по огромному пузу, будто это барабан. Его необычная "
+"перекошенная улыбка и странный блеск в глазах создают впечатление того, что "
+"он слегка не в себе."
 
 #: 2938
 msgid "\"Greetings...\""
@@ -36,56 +41,61 @@ msgid ""
 "then snatches the card from your grasp and proceeds to eat it, grinning "
 "wildly all the while."
 msgstr ""
+"Человек отвешивает подчеркнуто-показушный поклон, и дает карточку, в которой "
+"можно разобрать лишь \"Джамбл Смыслогуб - эКстраордный Колдун и хаоситеКт\". "
+"Затем он выхватывает карточку у тебя из рук и начинает есть ее, не "
+"переставая дико улыбаться."
 
 #: 41928 41968
-#, fuzzy
 msgid "\"I had some questions, Jumble...\""
-msgstr "\"Сначала у меня есть некоторые вопросы...\""
+msgstr "\"Джамбл, у меня несколько вопросов...\""
 
 #: 41929 41969
 msgid "\"You're the man who cursed Reekwind, aren't you?\""
-msgstr ""
+msgstr "\"Ты - тот, кто проклял Зловонного, не так ли?\""
 
 #: 41930
-#, fuzzy
 msgid "\"I'll take my leave now, Jumble. Farewell.\""
-msgstr "\"Я должен идти, прощай.\""
+msgstr "\"А теперь я ухожу, Джамбл. Прощай\"."
 
 #: 41931
 msgid ""
 "Jumble yawns and looks away, drumming on his belly with the palms of his "
 "hands."
-msgstr ""
+msgstr "Джамбл зевает и смотрит в сторону, барабаня по пузу ладонями."
 
 #: 41932
 msgid "\"Jumble? My questions?\""
-msgstr ""
+msgstr "\"Джамбл? Как на счет моих вопросов?\""
 
 #: 41933
 msgid "\"Never mind... farewell.\""
-msgstr "\"Неважно... Прощай.\""
+msgstr "\"Неважно... Прощай\"."
 
 #: 41934
+#, fuzzy
 msgid "Jumble rolls his eyes. He turns to you, smirks, then bites his thumb."
 msgstr ""
+"Джамбл закатывает глаза. Он поворачивается к тебе, глупо ухмыляясь, затем "
+"показывает кукиш."
 
 #: 41935
 msgid "\"At least answer me this: did you curse Reekwind?\""
-msgstr ""
+msgstr "\"Ответь хотя бы на вопрос: это ты проклял Зловонного?\""
 
 #: 41936
 msgid "\"Are you mute? Is that why you won't answer me?\""
-msgstr ""
+msgstr "\"Ты немой? Поэтому ты мне не отвечаешь?\""
 
 #: 41937 41941
 msgid ""
 "Truth: \"I want some answers, and I'll beat them out of you if I have to.\""
-msgstr ""
+msgstr "Правда: \"Мне нужны ответы, и, если нужно, я их из тебя выбью\"."
 
 #: 41938 41942
 msgid ""
 "Bluff: \"I want some answers, and I'll beat them out of you if I have to.\""
-msgstr ""
+msgstr "Блеф: \"Мне нужны ответы, и, если нужно, я их из тебя выбью\"."
 
 #: 41939 41943 41962 41966 41975 41980 41984
 msgid "Leave."
@@ -96,6 +106,8 @@ msgid ""
 "Jumble cocks his head and gives you stupid grin. Slowly, he shrugs... then "
 "shuts his eyes and sticks his tongue out at you."
 msgstr ""
+"Джамбл поднимает голову и дарит тебе идиотскую улыбку. Он медленно пожимает "
+"плечами... затем закрывает глаза и показывает тебе язык."
 
 #: 41944
 msgid ""
@@ -103,11 +115,13 @@ msgid ""
 "abruptly, and - though his lips or throat don't move to shape any words or "
 "sound - a torrent of incomprehensible babbling begins to pour forth."
 msgstr ""
+"Джамбл поднимает бровь и отступает на шаг. Внезапно он раскрывает рот и "
+"изрыгает поток невразумительного бормотания (хотя его губы и глотка при этом "
+"не двигаются)."
 
 #: 41945
-#, fuzzy
 msgid "\"What the...?\""
-msgstr "\"Что?!..\""
+msgstr "\"Что за?..\""
 
 #: 41946
 msgid ""
@@ -119,28 +133,36 @@ msgid ""
 "\n"
 "Jumble Murdersense merely turns his head and waves you away.\n"
 msgstr ""
+"Джамбл закрывает рот, и бормотание прекращается... прищурив глаза, он "
+"рассматривает тебя; его пухлое лицо озаряет самодовольная улыбка. И вдруг ты "
+"икаешь.\n"
+"\n"
+"Снова икаешь. Еще раз. И еще.\n"
+"\n"
+"Джамбл Смыслогуб попросту отворачивается и знаком показывает тебе уходить.\n"
 
 #: 41947
-#, fuzzy
 msgid "\"What have you done to me?\""
-msgstr "\"Что у тебя есть из выпивки?\""
+msgstr "\"Что ты со мной сделал?\""
 
 #: 41948
 msgid "\"Jumble... please, undo whatever you've done.\""
-msgstr ""
+msgstr "\"Джамбл... пожалуйста, убери это, что бы ты там не натворил\"."
 
 #: 41949
 msgid "\"Whatever you've done, undo it - or you'll regret it sorely.\""
 msgstr ""
+"\"Что бы ты там не сделал, убери это... или ты об этом горько пожалеешь\"."
 
 #: 41950 41953
-#, fuzzy
 msgid "\"I'd better find someone who can help me lose this curse. Farewell.\""
-msgstr "\"Посмотрим, смогу ли я найти такого. Прощай.\""
+msgstr ""
+"\"Лучше мне найти кого-нибудь, кто бы помог мне избавиться от этого "
+"проклятья. Прощай\"."
 
 #: 41951
 msgid "Jumble ignores you entirely."
-msgstr ""
+msgstr "Джамбл не обращает на тебя никакого внимания."
 
 #: 41952 41983
 msgid "Attack him."
@@ -151,10 +173,12 @@ msgid ""
 "Jumble pulls an innocent face and shrugs, as if to say 'I don't know.' He "
 "then covers his mouth with his hand and giggles like a giddy schoolgirl."
 msgstr ""
+"Джамбл делает невинное лицо и пожимает плечами, как бы говоря \"Я не знаю\". "
+"Он прикрывает рот рукой и хихикает, словно беззаботная школьница."
 
 #: 41955
 msgid "\"I'd like you to remove his curse.\""
-msgstr ""
+msgstr "\"Я хотел бы, чтобы ты снял с него проклятье\"."
 
 #: 41956
 msgid "\"I had another question...\""
@@ -162,85 +186,104 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 41957
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 41958
 msgid ""
 "Jumble pretends not to hear you, instead belching loudly and resuming his "
 "belly drumming, his eyes wandering around the Festhall."
 msgstr ""
+"Джамбл притворяется, будто не слышит тебя: он громко рыгает и продолжает "
+"барабанить себя по пузу. Его глаза блуждают по Ратуше."
 
 #: 41959
 msgid "\"Is there anything I could do so that you'd remove Reekwind's curse?\""
 msgstr ""
+"\"Я могу хочь что-нибудь сделать, чтобы ты снял проклятие со Зловонного?\""
 
 #: 41960
 msgid "Truth: \"Remove his curse, Jumble, before I'm forced to hurt you.\""
 msgstr ""
+"Правда: \"Сними с него проклятье, Джамбл, пока мне не пришлось причинить "
+"тебе боль\"."
 
 #: 41961
 msgid "Bluff: \" Remove his curse, Jumble, before I'm forced to hurt you.\""
 msgstr ""
+"Блеф: \"Сними с него проклятье, Джамбл, пока мне не пришлось причинить тебе "
+"боль\"."
 
 #: 41963
 msgid "Jumble won't look at you, but shakes his head."
-msgstr ""
+msgstr "Джамбл мотает головой, не смотря на тебя."
 
 #: 41964
 msgid ""
 "Truth: \"Remove Reekwind's curse, Jumble, before I'm forced to hurt you.\""
 msgstr ""
+"Правда: \"Сними со Зловонного проклятье, Джамбл, пока мне не пришлось "
+"причинить тебе боль\"."
 
 #: 41965
 msgid ""
 "Bluff: \"Remove Reekwind's curse, Jumble, before I'm forced to hurt you.\""
 msgstr ""
+"Блеф: \"Сними со Зловонного проклятье, Джамбл, пока мне не пришлось "
+"причинить тебе боль\"."
 
 #: 41967
 msgid ""
 "Jumble Murdersense gives you his trademark exaggerated, flourishing bow, "
 "then cocks his head and looks at you curiously."
 msgstr ""
+"Джамбл Смыслогуб отвешивает тебе свой фирменный, подчеркнуто-показушный "
+"поклон, затем поднимает голову и с интересом глядит на тебя."
 
 #: 41970
-#, fuzzy
 msgid "\"I was just passing by; farewell.\""
-msgstr "\"Я просто проходил мимо. Прощай.\""
+msgstr "\"Я просто проходил мимо. Прощай\"."
 
 #: 41971
+#, fuzzy
 msgid ""
 "Jumble frowns at your appearance, biting his thumb in your direction and "
 "waving you away."
 msgstr ""
+"Увидев тебя, Джамбл хмурится, показывает тебе кукиш и жестом гонит тебя "
+"прочь."
 
 #: 41972 41977 41982
 msgid "Throw the curse Salabesh taught you at him."
-msgstr ""
+msgstr "Кинуть в него проклятье, которому тебя обучил Салабеш."
 
 #: 41973
 msgid "\"Jumble, I need you to remove the curse you put on me.\""
 msgstr ""
+"\"Джамбл, мне нужно, чтобы ты снял с меня проклятье, которое ты наложил\"."
 
 #: 41974
 msgid "\"I had some questions...\""
-msgstr "\"У меня есть некоторые вопросы...\" "
+msgstr "\"У меня есть несколько вопросов...\" "
 
 #: 41976
 msgid "He rolls his eyes and yawns pointedly."
-msgstr ""
+msgstr "Он закатывает глаза и подчеркнуто зевает."
 
 #: 41978
 msgid "Truth: \"Remove the curse, Jumble, before I'm forced to hurt you.\""
 msgstr ""
+"Правда: \"Снимай проклятье, Джамбл, пока мне не пришлось причинить тебе боль"
+"\"."
 
 #: 41979
 msgid "Bluff: \"Remove the curse, Jumble, before I'm forced to hurt you.\""
 msgstr ""
+"Блеф: \"Снимай проклятье, Джамбл, пока мне не пришлось причинить тебе боль\"."
 
 #: 41981
 msgid ""
 "Jumble Murdersense makes a show of examining and cleaning his fingernails."
-msgstr ""
+msgstr "Джамбл Смыслогуб подчеркнуто рассматривает и чистит свои ногти."
 
 #: 41985
 msgid ""
@@ -249,6 +292,9 @@ msgid ""
 "Xaositect mage notes that nothing seems to have happened... and an evil grin "
 "spreads across his face."
 msgstr ""
+"Когда ты произносишь тайные слова проклятья Салабеша, Джамбл смотрит на тебя "
+"слегка скептически. После минуты неловкого молчания маг-хаситект понимает, "
+"что ничего не случилось... и лицо его расплывается в злобной усмешке."
 
 #: 41986
 msgid "Continue..."
@@ -261,6 +307,10 @@ msgid ""
 "speak, thereby destroying the Xaositect's ability to curse others. He "
 "clutches at his throat, panic welling up in his eyes."
 msgstr ""
+"Он раскрывает рот, чтобы ответить еще одним своим проклятьем... и вдруг "
+"осознает, что у него нет голоса! Проклятье Салабеша отняло у Джамбла дар "
+"речи, таким образом, лишив его способности проклинать других. Он в панике "
+"сжимает себя за горло, чуть не плача."
 
 #: 41988
 msgid ""
@@ -268,26 +318,33 @@ msgid ""
 "anyone - *hiccup!* - you've ever cursed finds out you can't speak - or curse "
 "- anymore?\""
 msgstr ""
+"\"Похоже, теперь мы поменялись местами, Джамбл. Как ты думаешь, что будет, "
+"если кто-нибудь, - *ик!* - кого ты когда-то проклял, узнает, что ты больше "
+"не можешь говорить... или проклинать?\""
 
 #: 41989
 msgid ""
 "Jumble drops to his knees, a pleading expression in his eyes. He looks ready "
 "to burst into tears."
 msgstr ""
+"Джамбл падает на колени и смотрит на тебя умоляюще. Кажется, он готов "
+"разрыдаться."
 
 #: 41990
 msgid ""
 "\"Will you - *hiccup!* - remove the curse you placed on me? And swear never "
 "to curse another who didn't mean you harm?\""
 msgstr ""
+"\"Ты - *ик!* - снимешь с меня проклятье, которое ты наложил? И поклянешься "
+"больше никогда не проклинать кого-либо, кто не желал тебе зла?\""
 
 #: 41991
 msgid "Jumble places his hands over his heart and nods vigorously."
-msgstr ""
+msgstr "Джамбл кладет руку на сердце и решительно кивает."
 
 #: 41992
 msgid "\"Very well. I'll remove the curse, then...\""
-msgstr ""
+msgstr "\"Отлично. В таком случае, я сниму проклятье...\""
 
 #: 41993
 msgid ""
@@ -295,39 +352,43 @@ msgid ""
 "turn, removes his own, and your hiccups finally stop. He then bows humbly "
 "and casts his eyes to the floor."
 msgstr ""
+"Как только ты снимаешь с Джамбла проклятье Салабеша, он вздыхает с "
+"облегчением. Взамен он снимает с тебя свое проклятье, и твоя икота, наконец, "
+"проходит. Затем он смиренно кланяется и опускает свой взгляд на пол."
 
 #: 41994
 msgid "\"I'd like you to take your curse off Reekwind, as well.\""
-msgstr ""
+msgstr "\"Еще я бы хотел, чтобы ты снял проклятие со Зловонного\"."
 
 #: 41995
 msgid "\"Farewell, Jumble.\""
-msgstr ""
+msgstr "\"Прощай, Джамбл\"."
 
 #: 41996
 msgid ""
 "Jumble nods, pouting, and with a wave of his hand, removes Reekwind's curse."
 msgstr ""
+"Надув губы, Джамбл кивает и взмахом руки снимает проклятье со Зловонного."
 
 #: 41997
-#, fuzzy
 msgid "\"Thanks. Farewell, Jumble.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай.\""
+msgstr "\"Спасибо. Прощай, Джамбл\"."
 
 #: 41998
 msgid ""
 "Jumble gives you an awkward bow and an uneasy look. It's clear he'd rather "
 "not have anything more to do with you."
 msgstr ""
+"Джамбл отдает тебе неловкий поклон и смущенно смотрит на тебя. Ясно, что "
+"больше он не желает иметь с тобой дело."
 
 #: 41999
 msgid "\"I'd like for you to take your old curse off Reekwind.\""
-msgstr ""
+msgstr "\"Я хотел бы, чтобы ты снял со Зловонного свое старое проклятье\"."
 
 #: 42000
-#, fuzzy
 msgid "\"Just passing by, Jumble. Farewell.\""
-msgstr "\"Я просто проходил мимо. Прощай.\""
+msgstr "\"Джамбл, я просто проходил мимо. Прощай\"."
 
 #: 66219
 msgid ""
@@ -336,46 +397,55 @@ msgid ""
 "how to either remove the annoying curse... or how to get Jumble himself to "
 "undo it."
 msgstr ""
+"Маг-хаоситект по имени Джамбл Смыслогуб проклял меня нескончаемой икотой. "
+"Надеюсь, кто-нибудь в Ратуше знает хоть что-то о том, как снять это досадное "
+"проклятье... или как заставить Джамбла самостоятельно снять его."
 
 #: 66550
 msgid ""
 "I forced Jumble Murdersense to remove the curse he placed on me, all with "
 "the help of a hex I learned from Salabesh the Onyx, 'Master of Curses.'"
 msgstr ""
+"Я заставил Джамбла Смыслогуба снять с меня проклятье, которым он меня "
+"наградил, и все с помощью колдовства, которому меня обучил Салабеш Оникс, "
+"\"Мастер проклятий\"."
 
 #: 66551
 msgid ""
 "I convinced Jumble Murdersense to remove Reekwind's curse with a little "
 "curse of my own."
 msgstr ""
+"Я убедил Джамбла Смыслогуба снять со Зловонного проклятье с помощью своего "
+"маленького проклятья."
 
 #: 67862
 msgid ""
 "I met the man who cursed Reekwind in the Civic Festhall: Jumble Murdersense."
 msgstr ""
+"В Ратуше я встретил человека, который проклял Зловонного, - Джамбла "
+"Смыслогуба."
 
 #: 67863 67866
-#, fuzzy
 msgid "\"I'd like you to remove Reekwind's curse.\""
-msgstr "\"Привет, Друзилла. Я хотел бы задать тебе несколько вопросов.\""
+msgstr "\"Я хотел бы, чтобы ты снял проклятие со Зловонного\"."
 
 #: 67865
 msgid "\"Fine. But I'd like you to remove Reekwind's curse.\""
 msgstr ""
+"\"Хорошо. Вот только я хотел бы, чтобы ты снял проклятие со Зловонного\"."
 
 #: 67867
 msgid "Jumble sighs loudly, rolls his eyes, and nods."
-msgstr ""
+msgstr "Джамбл громко вздыхает, закатывает глаза и кивает."
 
 #: 67868
 msgid "\"I'd like for you to take your old curse off of him.\""
-msgstr ""
+msgstr "\"Я бы хотел, чтобы ты снял с него свое старое проклятье\"."
 
 #: 67869
 msgid "\"That's all I wanted to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 67870 67871
 msgid "\"You cursed Reekwind too, didn't you?\""
-msgstr ""
-
+msgstr "\"Ты и Зловонного проклял, так ведь?\""

@@ -3,24 +3,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gfweaps.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-01-31 20:24+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2010-09-15 19:30+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 16224 5566 5616
-#, fuzzy
 msgid "\"What is this project?\""
-msgstr "\"Что это за место?\""
+msgstr "\"Что это за проект?\""
 
 #: 5559
 msgid "\"GUARDS! GUARDS! The intruder is over here!\""
-msgstr ""
+msgstr "\"СТРАЖА! СТРАЖА! Здесь нарушитель!\""
 
 #: 5560
 msgid "Done."
@@ -29,6 +28,8 @@ msgstr "Готово."
 #: 5561
 msgid "\"Sorry. I can't talk to you right now. Perhaps when you come back.\""
 msgstr ""
+"\"Извини. Не могу с тобой сейчас говорить. Пожалуй, поговорим, когда "
+"вернешься\"/"
 
 #: 5562 5612
 msgid "Leave."
@@ -39,50 +40,49 @@ msgid ""
 "\"Can't thank you enough for scragging that crazy engineer. Who knew she was "
 "an Anarchist? We could all've been killed! What can I help you with?\""
 msgstr ""
+"\"Не могу тебя как следует отблагодарить за то, что свернул шею тому "
+"безумному инженеру. Кто бы мог подумать, что она - Анархистка? Мы же все "
+"могли погибнуть! Чем я могу тебе помочь?\""
 
 #: 5564 5620
-#, fuzzy
 msgid "\"You can tell me who this project is being built for.\""
-msgstr "\"Можешь еще раз сказать, что это за монумент?\""
+msgstr "\"Можешь рассказать, для кого разрабатывается этот проект?\""
 
 #: 5565 5615 5678
 msgid "\"You mentioned something about a critical phase before?\""
-msgstr ""
+msgstr "\"Ты упоминал что-то о критической стадии?\""
 
 #: 5567 5617
-#, fuzzy
 msgid "\"What's this thing do?\""
-msgstr "\"А в чем проблема?\""
+msgstr "\"Что делает эта штуковина?\""
 
 #: 5568 5618
-#, fuzzy
 msgid "\"Why the secrecy?\""
-msgstr "\"Почему он там находится?\""
+msgstr "\"К чему эта секретность?\""
 
 #: 5569 5619 5647 5653 5660
 msgid "\"How long 'til it's done?\""
-msgstr ""
+msgstr "\"Сколько еще осталось?\""
 
 #: 5570 5621
 msgid ""
 "\"I'm curious if you can tell me anything about the murder in the main "
 "foundry area.\""
 msgstr ""
+"\"Интересно, можешь ли ты рассказать мне что-нибудь об убийстве в главном "
+"зале литейной?\""
 
 #: 5571 5572 5622 5623
-#, fuzzy
 msgid "\"What can you tell me about your boss?\""
-msgstr "\"Что ты можешь сказать о ней?\""
+msgstr "\"Что ты можешь рассказать о своем начальнике?\""
 
 #: 5573 5577 5578 5579 5624 5628 5629 5630
-#, fuzzy
 msgid "\"Tell me about the engineers on this project.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об инженерах в этом проекте\"."
 
 #: 5574 5626
-#, fuzzy
 msgid "\"Can you tell me where to find the clerk's office?\""
-msgstr "\"Ты не знаешь, где я могу найти некоего Фарода?\""
+msgstr "\"Не подскажешь, где мне найти контору клерка?\""
 
 #: 5575
 msgid ""
@@ -91,24 +91,26 @@ msgid ""
 "project. If the project fails, I could die -- and so could all my friends "
 "here. I ain't taking that risk.\""
 msgstr ""
+"\"Нет, об этом ничего сказать не могу. Во-первых, я ничего не знаю. Во-"
+"вторых, я подписал договор о неразглашении, который связывает мою жизнь с "
+"целостностью этого проекта. Если проект провалится, я могу умереть, также "
+"как и все мои друзья здесь. Я не могу пойти на такой риск\"."
 
 #: 5576 5627
-#, fuzzy
 msgid "\"Tell me about the Godsmen.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне о Боголюдях\"."
 
 #: 5580 5631
-#, fuzzy
 msgid "\"Nothing right now, thanks.\""
-msgstr "\"Ничего больше, спасибо. Прощай.\""
+msgstr "\"Пока ничего, спасибо\"."
 
 #: 5581
 msgid "\"Fair enough. Tell me something else, then.\""
-msgstr ""
+msgstr "\"Вполне справедливо. Тогда расскажи мне еще о чем-нибудь\"."
 
 #: 5582
 msgid "\"Fine. Farewell.\""
-msgstr "\"Отлично. Прощай.\""
+msgstr "\"Отлично. Прощай\"."
 
 #: 5583
 msgid ""
@@ -119,15 +121,20 @@ msgid ""
 "the whereabouts of all of us workers -- we haven't been out of each others' "
 "sight long enough to do that.\""
 msgstr ""
+"\"Ужасная вещь. Я слышал, что пострадавший был слегка придурком, но это "
+"вовсе не означает, что его нужно было вот так толкнуть в механизмы. "
+"Поскольку Литейная была закрыта большую часть года, пока мы работаем над "
+"этим проектом, это должен был быть кто-то из здешних. Все, что я могу "
+"сделать - это поручится за то, где был каждый из наших рабочих: мы не "
+"отходили друг от друга на время, достаточное, чтобы сделать это\"."
 
 #: 5584
 msgid "\"I see. Then can you answer other questions for me?\""
-msgstr ""
+msgstr "\"Ясно. Тогда можешь ответить на другие мои вопросы?\""
 
 #: 5585
-#, fuzzy
 msgid "\"Good enough. Farewell.\""
-msgstr "\"Удачи. Прощай.\""
+msgstr "\"Этого достаточно. Прощай\"."
 
 #: 5586
 msgid ""
@@ -136,20 +143,25 @@ msgid ""
 "she doesn't get seen much and so her shame is lessened. She's brilliant and "
 "hard-minded.\"\n"
 msgstr ""
+"\"Обычно ты можешь найти ее где-то здесь.\n"
+"Она - гитцерай, изгнанная своим народом. Она работает здесь, потому что так "
+"ее почти не видят, и таким образом ее позор облегчается. Она талантлива и "
+"умна\".\n"
 
 #: 5587
 msgid "\"I wonder if she'd talk to my friend Dak'kon here.\""
-msgstr ""
+msgstr "\"Интересно, будет ли она говорить с моим другом Дакконом\"."
 
 #: 5588
 msgid ""
 "\"Then perhaps I'll speak to her later. I have more questions for you.\""
 msgstr ""
+"\"Тогда, наверно, поговорю с ней позже. У меня к тебе еще несколько вопросов"
+"\"."
 
 #: 5589
-#, fuzzy
 msgid "\"Thank you for your time. Good day.\""
-msgstr "\"Спасибо за уделенное время. Прощай.\""
+msgstr "\"Спасибо за уделенное время. Доброго дня\"."
 
 #: 5590
 msgid ""
@@ -162,26 +174,35 @@ msgid ""
 "erratic, but her work shows great promise and skill.\n"
 "You can usually find them in the main meeting hall.\n"
 msgstr ""
+"\"Наш главный инженер, Нил Зандер, - настоящий гений. Он создал такие вещи, "
+"что я даже и не мечтал, что такое возможно. Говорят, что он даже создал "
+"складной портал, а в свободное время работает над построителем снов. Ходят "
+"слухи, что давным-давно его семья подписала контракт на создание этой машины "
+"для человека, который не мог видеть снов.\n"
+"Другой наш инженер, Бедай-Линн, - работает не так давно, но столь же "
+"одаренная. Она слегка эксцентрична, но работа ее выглядит мастерски и "
+"многообещающе.\n"
+"Обычно ты можешь найти их в главном зале собраний\".\n"
 
 #: 5591
 msgid "\"Great. In the meantime, I had more questions for you.\""
-msgstr ""
+msgstr "\"Прекрасно. Между тем, у меня есть еще несколько вопросов\"."
 
 #: 5592
 msgid "\"A dreaming machine, eh? Perhaps I'll seek him out.\""
-msgstr ""
+msgstr "\"Значит, машина снов? Пожалуй, поищу его\"."
 
 #: 5593
 msgid "\"You can find the clerk's office right off the main foundry.\""
-msgstr ""
+msgstr "\"Ты можешь найти контору клерка справа от главной литейной\"."
 
 #: 5594
 msgid "\"Thanks. Answer me something else.\""
-msgstr ""
+msgstr "\"Спасибо. Ответь еще на пару вопросов\"."
 
 #: 5595
 msgid "\"Thanks.\""
-msgstr "\"Спасибо.\""
+msgstr "\"Спасибо\"."
 
 #: 5596
 msgid ""
@@ -191,15 +212,19 @@ msgid ""
 "why we help everyone. Otherwise, we're selfish and more than selfish -- "
 "we're stupid. And we ain't stupid.\""
 msgstr ""
+"\"Что я думаю о Боголюдях? Одна из лучших вещей в этой фракции - это то, что "
+"мы искренне заботимся о людях - не просто о членах фракции, а обо всех. "
+"Когда-нибудь каждый из нас сможет стать богом или более чем богом, и потому "
+"мы помогаем всем. Иначе мы бы были эгоистами или, чего хуже, - дураками. А "
+"ведь мы не дураки\"."
 
 #: 5597
 msgid "\"Time will tell. Answer me another question.\""
-msgstr ""
+msgstr "\"Время покажет. Ответь еще на один вопрос\"."
 
 #: 5598
-#, fuzzy
 msgid "\"Right. Farewell.\""
-msgstr "\"Я постараюсь. Прощай.\""
+msgstr "\"Хорошо. Прощай\"."
 
 #: 5599
 msgid ""
@@ -211,14 +236,21 @@ msgid ""
 "machine for a man who could not dream himself. You can usually find him in "
 "the main meeting hall.\"\n"
 msgstr ""
+"\"Как ты уже знаешь, Бедай-Линн была задержана за убийство. Она была умелой "
+"- но ненадежной. Откуда же нам было знать, что она - убийца?\n"
+"Наш главный инженер - Нил Зандер, талантливый старик. Говорят, будто он "
+"создал складной портал, а в свободное время работает над построителем снов. "
+"Ходят слухи, что давным-давно его семья подписала контракт на создание этой "
+"машины для человека, который не мог видеть снов. Обычно ты можешь найти его "
+"в главном зале собраний\".\n"
 
 #: 5600
 msgid "\"Great. I've got another question.\""
-msgstr ""
+msgstr "\"Отлично. У меня еще один вопрос\"."
 
 #: 5601
 msgid "\"A dreambuilder? I'll go find him.\""
-msgstr ""
+msgstr "\"Построитель снов? Пойду поищу его\"."
 
 #: 5602
 msgid ""
@@ -228,15 +260,19 @@ msgid ""
 "main meeting hall. He's devised a host of ingenious devices in his lifetime, "
 "and chances are good he's not done.\"\n"
 msgstr ""
+"\"Хвала Силам, ты остановил эту суку Бедай-Линн до того, как она смогла нам "
+"навредить. Это могло бы стоить нам жизни\n"
+".Что касается другого нашего инженера, Нила Зандера, то его обычно можно "
+"найти в главном зале собраний. За свою жизнь он разработал уйму хитроумных "
+"устройств, и, вполне вероятно, создаст еще\".\n"
 
 #: 5603
-#, fuzzy
 msgid "\"Thanks. Tell me something else.\""
-msgstr "\"Тогда расскажи мне о другом.\""
+msgstr "\"Спасибо. Расскажи еще о чем-нибудь\"."
 
 #: 5604
 msgid "\"Chances are, huh? Farewell.\""
-msgstr ""
+msgstr "\"Говоришь, еще создаст? Тогда прощай\"."
 
 #: 5605
 msgid ""
@@ -247,14 +283,20 @@ msgid ""
 "devised a host of ingenious devices in his lifetime, and chances are good "
 "he's not done.\"\n"
 msgstr ""
+"\"Кто же знал, что Бедай-Линн попытается низвергнуть саму организацию "
+"Боголюдей? Мы знали, что она - способный магический инженер, но и не "
+"подозревали, что она - анархистка.\n"
+"Что касается другого нашего инженера, Нила Зандера, то его обычно можно "
+"найти в главном зале для собраний. За свою жизнь он разработал уйму "
+"хитроумных устройств, и, вполне вероятно, создаст еще\".\n"
 
 #: 5606
 msgid "\"Indeed. Who knew? I had more questions.\""
-msgstr ""
+msgstr "\"Действительно, кто бы мог подумать? У меня еще несколько вопросов\"."
 
 #: 5607
 msgid "\"Maybe I'll go look for him, then. Good day.\""
-msgstr ""
+msgstr "\"Тогда, наверно, я пойду и поищу его. Счастливо\"."
 
 #: 5608
 msgid ""
@@ -266,14 +308,21 @@ msgid ""
 "waiting to fall apart. I'd say the biggest vulnerability is the firing "
 "mechanism on the end there. And if it goes, all us workers go with it.\""
 msgstr ""
+"Он пристально разглядывает тебя, а затем, видимо, решается поверить тебе. "
+"\"Эээ... сейчас где только не найдешь этих слабых мест. Обшивка все еще "
+"непрочная - мы ее еще не укрепляли. В огневых гнездах установлены орудия, но "
+"в данный момент они опасно нестабильны. И паровой котел внутри может "
+"взорваться от всей нагрузки, которую мы к нему прикладываем. Все так и ждет, "
+"чтобы рассыпаться. По-моему, самое уязвимое место - огневой механизм там на "
+"конце. И если он сломается, вместе с ним погибнут все наши рабочие\"."
 
 #: 5609
 msgid "\"Thanks. I had other questions.\""
-msgstr "\"Спасибо. У меня есть другие вопросы.\""
+msgstr "\"Спасибо. У меня есть другие вопросы\"."
 
 #: 5610 5669
 msgid "\"Thanks. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 5611
 msgid ""
@@ -281,19 +330,21 @@ msgid ""
 "that's all I have to say about her. This conversation's over. Leave. Guards! "
 "Get this berk out of here!\""
 msgstr ""
+"\"Ты хочешь узнать о Келлере? Какой-то чертов придурок убил ее, и это все, "
+"что я могу о ней сказать. Разговор окончен. Убирайся. Стража! Уберите отсюда "
+"этого пня!\""
 
 #: 5613
-#, fuzzy
 msgid "\"Yeah? What'd you want to know?\""
-msgstr "\"Что, эм, ты хочешь знать?\""
+msgstr "\"Да? Что же ты хочешь узнать?\""
 
 #: 5614
 msgid "\"What are the weak points on this thing, anyway?\""
-msgstr ""
+msgstr "\"И все же, какие у этой штуки слабые места?\""
 
 #: 5625
 msgid "He looks at you suspiciously. \"Why do you want to know?\""
-msgstr ""
+msgstr "Он смотрит на тебя подозрительно. \"Зачем тебе это знать?\""
 
 #: 5632 5633
 msgid ""
@@ -301,50 +352,57 @@ msgid ""
 "possible to help optimize the work. If you pointed out the weak spots to me, "
 "I might be able to offer you some solutions.\""
 msgstr ""
+"\"Потому что я сам немного понимаю в магической инженерии, и подумал, что "
+"мог бы помочь оптимизировать работу. Если бы ты указал мне на слабые места, "
+"я мог бы подкинуть тебе парочку идей\"."
 
 #: 5634
 msgid "\"Because this whole thing looks really fragile.\""
-msgstr ""
+msgstr "\"Потому что вся эта штуковина кажется весьма хрупкой\"."
 
 #: 5635
 msgid ""
 "\"Because I've been granted authority to look at this project, and I would "
 "like to know its flaws.\""
 msgstr ""
+"\"Потому что мне дали полномочия осмотреть этот проект, и я желаю знать его "
+"слабые места\"."
 
 #: 5636
 msgid ""
 "\"Because I've been granted authority to look at this project, and would "
 "like to know its flaws.\""
 msgstr ""
+"\"Потому что мне дали полномочия осмотреть этот проект, и я желаю знать его "
+"слабые места\"."
 
 #: 5637
 msgid "\"I was just curious, that's all.\""
-msgstr ""
+msgstr "\"Мне просто было интересно, вот и все\"."
 
 #: 5638
-#, fuzzy
 msgid "\"Forget it. I had other questions.\""
-msgstr "\"Забудь об этом. У меня есть некоторые вопросы...\""
+msgstr "\"Забудь об этом. У меня есть другие вопросы...\""
 
 #: 5639
 msgid "\"Forget I asked. Goodbye.\""
-msgstr ""
+msgstr "\"Забудь, что я спрашивал. Прощай\"."
 
 #: 5640
 msgid ""
 "He looks at you even more suspiciously. \"I'm not going to answer that. You "
 "want to know something like that, you talk to Kel'lera, not me.\""
 msgstr ""
+"Он смотрит на тебя еще более подозрительно. \"Я не стану отвечать. Если тебе "
+"нужно знать нечто подобное, говори с Келлерой, а не со мной\"."
 
 #: 5641 5642
-#, fuzzy
 msgid "\"Where is Kel'lera?\""
-msgstr "\"Где она?\""
+msgstr "\"Где Келлера?\""
 
 #: 5643
 msgid "\"No, forget I asked. Good day.\""
-msgstr ""
+msgstr "\"Нет, забудь, что я спрашивал. Счастливого дня.\""
 
 #: 5644
 msgid ""
@@ -354,23 +412,27 @@ msgid ""
 "Chaos Ship the Doomguard built a few years back with the tanar'ri. At least, "
 "that's the theory.\""
 msgstr ""
+"\"Я думаю, это оружие. Мы не уверены, для войны оно или для охоты (Силы "
+"небесные, если оно для охоты, я не хотел бы увидеть тварь, для которой оно "
+"предназначено), но когда мы закончим, оно будет наравне с Кораблем Хаоса, "
+"которий Хранители Рока построили вместе с танарри пару лет назад. Во всяком "
+"случае, в теории\"."
 
 #: 5645
 msgid "\"What does it do?\""
-msgstr ""
+msgstr "\"Что оно делает?\""
 
 #: 5646 5652 5667
-#, fuzzy
 msgid "\"Why all the secrecy?\""
-msgstr "\"Почему он там находился?\""
+msgstr "\"Зачем вся эта секретность?\""
 
 #: 5648
 msgid "\"I have other questions.\""
-msgstr "\"У меня есть другие вопросы.\""
+msgstr "\"У меня есть другие вопросы\"."
 
 #: 5649
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 5650
 msgid ""
@@ -381,20 +443,24 @@ msgid ""
 "not even begun work on yet. We're not allowed to see them until we're done "
 "with each portion.\""
 msgstr ""
+"\"Знаешь, я не вполне уверен. Чтобы получить эту информацию, тебе следует "
+"поговорить с одним из инженеров. Я знаю, что у него есть массивный, "
+"сфокусированный тепловой луч - по крайней мере, эту его часть мы завершили. "
+"Мы даже окончательно установили его на устройстве. Над многими вещами в этой "
+"штуковине мы еще даже не начинали работать. Нам не разрешается их видеть, "
+"пока мы не закончим каждую часть\"."
 
 #: 5651 5658 5665
-#, fuzzy
 msgid "\"What is it, again?\""
-msgstr "\"Что-что?\""
+msgstr "\"Еще раз, что это?\""
 
 #: 5654 5661
-#, fuzzy
 msgid "\"Answer some other questions, if you would.\""
-msgstr "\"Тогда ответь мне на несколько вопросов.\""
+msgstr "\"Ответь еще на несколько вопросов, если ты не против\"."
 
 #: 5655 5662
 msgid "\"Thanks. Bye.\""
-msgstr "\"Спасибо. Пока.\""
+msgstr "\"Спасибо. Пока\"."
 
 #: 5656
 msgid ""
@@ -405,16 +471,21 @@ msgid ""
 "it, so there's no chance we'll spill the dark of it to someone who wants to "
 "see it destroyed... especially because we've all sealed our lives on it.\""
 msgstr ""
+"\"Если бы ты знал, что враг создает оружие, чтобы воспользоваться им против "
+"тебя, разве ты не приложил бы все усилия для его уничтожения? Мы даже не "
+"имеем понятия, для кого оно. Мы просто верим слову начальства, что оно не "
+"будет использовано таким образом, чтобы это противоречило нашим взглядам. "
+"Никто из нас не знает, кто его заказал, так что нет шансов, что мы расскажем "
+"о нем кому-нибудь, кто хочет его уничтожить... особенно потому, что мы "
+"запечатали в нем свои жизни\"."
 
 #: 5657
-#, fuzzy
 msgid "\"What do you mean by that?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Что ты имеешь в виду?\""
 
 #: 5659 5666
-#, fuzzy
 msgid "\"And what does it do?\""
-msgstr "\"И что же ты видишь?\""
+msgstr "\"И что же оно делает?\""
 
 #: 5663
 msgid ""
@@ -423,15 +494,19 @@ msgid ""
 "done, and those take time. We'll all breathe easier knowing we're not sealed "
 "to a project that's going to detonate because it's unstable.\""
 msgstr ""
+"\"Пожалуй, он не будет закончен до конца десятилетия. Но самая сложная часть "
+"будет завершена в этом году. Необходимо совершить некоторые магические "
+"ритуалы, а это займет время. Нам всем будет легче дышаться, зная, что мы "
+"запечатаны свои жизни в проекте, который уже не взорвется из-за "
+"нестабильности\"."
 
 #: 5664
 msgid "\"Sealed? What do you mean by that?\""
-msgstr ""
+msgstr "\"Запечатали? Что ты имеешь в виду?\""
 
 #: 5668
-#, fuzzy
 msgid "\"I have other questions for you.\""
-msgstr "\"У меня есть другой вопрос к тебе.\""
+msgstr "\"У меня к тебе другие вопросы\"."
 
 #: 5670
 msgid ""
@@ -441,14 +516,19 @@ msgid ""
 "back when the project's done -- but if it malfunctions, or powers forbid, "
 "gets sabotaged, it takes our lives when it blows.\""
 msgstr ""
+"\"В силу характера этого проекта (секретность и все такое, не говоря уже о "
+"магии, которая позволяет нам работать с машиной) нам пришлось запечатать "
+"часть наших жизней в машине. Мы получим свои жизни обратно, когда проект "
+"будет завершен, но если он выйдет из строя, или, да не допустят Силы, будет "
+"саботирован, он заберет наши жизни при взрыве\"."
 
 #: 5671
 msgid "\"That sounds bad. I have other questions for you, though.\""
-msgstr ""
+msgstr "\"Плохи дела. И все же, у меня к тебе другие вопросы\"."
 
 #: 5672
 msgid "\"That sounds bad. Good luck with it. Farewell.\""
-msgstr ""
+msgstr "\"Плохи дела. Удачи вам с этим. Счастливо\"."
 
 #: 5673
 msgid ""
@@ -456,23 +536,25 @@ msgid ""
 "in the center of the room. \"I can't really talk right now. We're at a "
 "critical phase.\""
 msgstr ""
+"Ты видишь тифлинга, одетого как Боголюди, который тщательно осматривает "
+"какую-то штуку в центре зала. \"В данный момент я не могу с тобой говорить. "
+"Мы на критической стадии\"."
 
 #: 5674
 msgid "\"A critical phase? Of what?\""
-msgstr ""
+msgstr "\"Критическая стадия? Чего?\""
 
 #: 5675
 msgid "\"I was hoping you could answer me some questions.\""
-msgstr ""
+msgstr "\"Я надеялся, что ты ответишь мне на несколько вопросов\"."
 
 #: 5676
-#, fuzzy
 msgid "\"Sorry to disturb you, then. Farewell.\""
-msgstr "\"Извини, что отвлек. Прощай.\""
+msgstr "\"Тогда извини, что отвлек. Прощай\"."
 
 #: 5677
 msgid "\"You again? What do you need this time?\""
-msgstr ""
+msgstr "\"Снова ты? Что тебе нужно на этот раз?\""
 
 #: 5679
 msgid "\"I had some questions for you.\""
@@ -480,7 +562,7 @@ msgstr "\"У меня есть вопросы к тебе...\""
 
 #: 5680
 msgid "\"Then in that case, I'll leave you alone. Goodbye.\""
-msgstr ""
+msgstr "\"В таком случае, я покидаю тебя. Прощай\"."
 
 #: 5681
 msgid ""
@@ -489,19 +571,22 @@ msgid ""
 "delicate phase -- delicate enough that it could put us all in the dead book "
 "if some berk fails us now.\""
 msgstr ""
+"\"Да. Этот проект, над которым мы работаем, - оружие, которое, кроме всего "
+"прочего, может иметь массовое применение в мирное время. Нам еще далеко до "
+"конца, но мы на деликатной стадии - достаточно деликатной, чтобы вписать "
+"всех нас в книгу мертвых, если какой-нибудь пень все испортит\"."
 
 #: 5682
 msgid "\"What is it you're doing?\""
-msgstr ""
+msgstr "\"Чем ты занимаешься?\""
 
 #: 5683
-#, fuzzy
 msgid "\"Oh. I had other questions.\""
-msgstr "\"У меня есть другие вопросы...\""
+msgstr "\"О... У меня еще один вопрос\"."
 
 #: 5684
 msgid "\"I see. Good luck.\""
-msgstr ""
+msgstr "\"Понятно. Удачи\"."
 
 #: 5685
 msgid ""
@@ -509,13 +594,14 @@ msgid ""
 "One mistake could sink the whole project, and if the project goes under, "
 "it'll take us all out in the resulting magical wave.\""
 msgstr ""
+"\"Мы настраиваем переменные в нижних магических диапазонах устройства. Одна "
+"единственная ошибка может погубить весь проект, и если весь проект "
+"провалится, нас уничтожит образовавшейся в результате магической волной\"."
 
 #: 5686
-#, fuzzy
 msgid "\"I see. Can you answer some other questions?\""
-msgstr "\"Я понял. Ответишь на другие вопросы?\""
+msgstr "\"Понятно. Ответишь на другие вопросы?\""
 
 #: 5687
 msgid "\"I see. Farewell.\""
-msgstr "\"Понятно. Прощай.\""
-
+msgstr "\"Понятно. Прощай\"."

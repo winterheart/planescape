@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gfigrd.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 02:08+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2010-09-25 18:53+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: 5691
 msgid "\"Comrades! To me! The intruder's here! Over here!\""
-msgstr ""
+msgstr "\"Ребята! Ко мне! Здесь нарушитель! Прямо тут!\""
 
 #: 5692
 msgid "Fight."
@@ -23,7 +23,7 @@ msgstr "Сражаться."
 
 #: 5693
 msgid "\"Sir, you've been asked to leave. Please do so. Now.\""
-msgstr ""
+msgstr "\"Сер, вас попросили уйти. Прошу так и поступить. Сейчас же\"."
 
 #: 5694
 msgid "Done."
@@ -31,44 +31,41 @@ msgstr "Готово."
 
 #: 5695
 msgid "\"Please keep the courtyard clear, sir. Either inside or outside.\""
-msgstr ""
+msgstr "\"Прошу чистить проход, сер. Входите либо выходите\"."
 
 #: 5701 5704 5708
 msgid "NULL MODE"
-msgstr ""
+msgstr "НЕСУЩЕСТВУЮЩИЙ РЕЖИМ"
 
 #: 5712
 msgid "\"Good day, sir. May I help you with something?\""
-msgstr ""
+msgstr "\"Добрый день, сер. Могу ли я чем-то помочь?\""
 
 #: 5714 5798 5814 5821
 msgid ""
 "\"Well, yes. I didn't know who to talk to about this, but I guess you're the "
 "one. Bedai-Lihn asked me to kill Sandoz. How about that?\""
 msgstr ""
+"\"В общем, да. Не знал, кому бы это рассказать, но тебе, думаю, можно. Бедай-"
+"Линн попросила меня убить Сандоза. Как насчет такого?\""
 
 #: 5715 5724 5762 5768 5773 5799
-#, fuzzy
 msgid ""
 "\"I'm looking for the murderer of the smith. Did you see anything that night?"
 "\""
-msgstr ""
-"\"Я ищу Сборщика по имени Фарод. Ты видела его или, может быть, слышала о "
-"нем?\""
+msgstr "\"Я разыскиваю убийцу кузнеца. Ты что-нибудь видел той ночью?\""
 
 #: 5716 5800 5815 5822
-#, fuzzy
 msgid "\"Where's the clerk's office?\""
-msgstr "\"А где этот филиал?\""
+msgstr "\"Где тут контора клерка?\""
 
 #: 5717 5718 5801 5802 5816 5817 5823 5824
-#, fuzzy
 msgid "\"Where can I find a high-up here?\""
-msgstr "\"Где я могу найти ее?\""
+msgstr "\"Где я могу найти начальство?\""
 
 #: 5719
 msgid "\"No, thank you. Goodbye.\""
-msgstr ""
+msgstr "\"Нет, спасибо. Прощай\"."
 
 #: 5720
 msgid ""
@@ -76,51 +73,57 @@ msgid ""
 "Unless you're involved in the project itself, or unless you receive "
 "authorization from one of the high-ups, we can't allow you in.\""
 msgstr ""
+"\"Боюсь, это секрет, сер. Даже для наших самых высокоценимых членов фракции. "
+"Если ты непричастен к проекту, и не получил разрешение от одного из "
+"начальников, мы не можем пропустить тебя\"."
 
 #: 5721
 msgid "\"Very well. Can you tell me where to find the clerk's office?\""
-msgstr ""
+msgstr "\"Отлично. Не подскажешь, где контора клерка?\""
 
 #: 5722 5723
-#, fuzzy
 msgid "\"Fine. Where can I find the high-ups?\""
-msgstr "\"Где я могу найти этого Фарода?\""
+msgstr "\"Отлично. Где я могу найти ваших начальников?\""
 
 #: 5725
 msgid ""
 "\"Speaking of the high-ups, Bedai-Lihn asked me to kill Sandoz. How about "
 "that?\""
 msgstr ""
+"\"Кстати, о начальниках: Бедай-Линн попросила меня убить Сандоза. Как насчет "
+"такого?\""
 
 #: 5726
 msgid "\"How about I beat it out of you?\""
-msgstr ""
+msgstr "\"Что, если я выбью это из тебя?\""
 
 #: 5727
 msgid "\"I see. Farewell.\""
-msgstr "\"Понятно. Прощай.\""
+msgstr "\"Понятно. Прощай\"."
 
 #: 5759
 msgid ""
 "\"Just south of the main foundry, sir, you'll find an office with a desk in "
 "it. That's the clerk's office.\""
 msgstr ""
+"\"Прямо на юг от главной литейной, сер, вы найдете конторку со столом. Это и "
+"есть контора клерка\"."
 
 #: 5760 5761
-#, fuzzy
 msgid "\"Thank you. Where can I find the high-ups?\""
-msgstr "\"Где я могу найти этого Фарода?\""
+msgstr "\"Спасибо. Где я могу найти начальство?\""
 
 #: 5763
 msgid ""
 "\"I didn't know who tell this to, but... Bedai-Lihn asked me to kill Sandoz."
 "\""
 msgstr ""
+"\"Не знал, кому бы это рассказать, но... Бедай-Линн попросила меня убить "
+"Сандоза\"."
 
 #: 5764 5772 5797 5813 5820
-#, fuzzy
 msgid "\"What's behind those guarded doors?\""
-msgstr "\"Что это за уровни?\""
+msgstr "\"Что за теми охраняемыми дверьми?\""
 
 #: 5765
 msgid ""
@@ -128,14 +131,17 @@ msgid ""
 "give you any help. You can find him the main meeting hall -- out the door on "
 "the right side of the main foundry. You shouldn't be able to miss him.\""
 msgstr ""
+"\"После гибели Сандоза, Кельдор - пожалуй, единственный, кто может тебе чем-"
+"то помочь. Ты можешь найти его в главном зале собраний - за дверью на правой "
+"стороне главной литейной. Ты не сможешь его пропустить\"."
 
 #: 5766
 msgid "\"Fine. What's behind those guarded doors?\""
-msgstr ""
+msgstr "\"Отлично. Что за теми охраняемыми дверьми?\""
 
 #: 5767
 msgid "\"Can you tell me how to find the clerk's office?\""
-msgstr ""
+msgstr "\"Можешь ли ты подсказать мне, где найти контору клерка?\""
 
 #: 5769 5778 5785
 msgid "Leave."
@@ -148,23 +154,28 @@ msgid ""
 "main foundry. Sandoz can usually be found in the rooms to the rear of the "
 "Hall.\""
 msgstr ""
+"\"Либо Сандоз, либо Кельдор смогут помочь тебе по этому поводу. Кельдор в "
+"главном Зале собраний, прямо за дверью на правой стороне главной литейной. "
+"Сандоза обычно можно найти в комнатах за Залом\"."
 
 #: 5771
 msgid "\"Thanks. How do I find the clerk's office?\""
-msgstr ""
+msgstr "\"Спасибо. Как мне найти контору клерка?\""
 
 #: 5774
 msgid ""
 "\"Speaking of Sandoz, Bedai-Lihn asked me to kill him. How about that?\""
 msgstr ""
+"\"Кстати, о Сандозе: Бедай-Линн попросила меня убить его. Как насчет такого?"
+"\""
 
 #: 5775 64516
 msgid "\"Thanks. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 5776
 msgid "\"I would love to see you try it. Sir.\""
-msgstr ""
+msgstr "\"Хотелось бы увидеть, как вы это сделаете, сер\"."
 
 #: 5777
 msgid "Attack."
@@ -172,52 +183,55 @@ msgstr "Атаковать."
 
 #: 5779
 msgid "\"No, sir. We had left the room for the night.\""
-msgstr ""
+msgstr "\"Нет, сер. На ночь мы покинули комнату\"."
 
 #: 5780
 msgid "\"Isn't that unusual?\""
-msgstr ""
+msgstr "\"Разве это не необычно?\""
 
 #: 5781
 msgid "\"Under whose orders?\""
-msgstr ""
+msgstr "\"По чьему приказу?\""
 
 #: 5782
 msgid "\"I had other, non-murder-related questions for you.\""
-msgstr ""
+msgstr "\"У меня другие, не касающиеся убийства вопросы\"."
 
 #: 5783
 msgid "\"I see. Interesting. Thank you for your time.\""
-msgstr ""
+msgstr "\"Понятно. Это интересно. Спасибо за уделенное время\"."
 
 #: 5784
 msgid ""
 "\"WHAT? Are you serious? Go talk to Keldor about this. In the meantime, "
 "we'll take care of the engineer. Thank you, and goodbye.\""
 msgstr ""
+"\"ЧТО? Ты серьезно? Иди, поговори об этом с Кельдором. Тем временем мы "
+"позаботимся об инженере. Спасибо тебе, и прощай\"."
 
 #: 5786
 msgid ""
 "\"Yes, sir, it is unusual. Ordinarily, they keep us here day and night to "
 "make sure the project is kept safe.\""
 msgstr ""
+"\"Да, сер, это необычно. Обычно нас держат здесь день и ночь, чтобы "
+"обеспечить безопасность проекта\"."
 
 #: 5787
 msgid "\"Who has the authority to dismiss you like that?\""
-msgstr ""
+msgstr "\"Кто имеет право вот так отпустить тебя?\""
 
 #: 5788
-#, fuzzy
 msgid "\"What can you tell me about the project?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Что ты можешь рассказать о проекте?\""
 
 #: 5789
 msgid "\"So what you're saying is that you didn't see anything.\""
-msgstr ""
+msgstr "\"Значит, ты говоришь, что ничего не видел\"."
 
 #: 5790
 msgid "\"Interesting. Thank you.\""
-msgstr ""
+msgstr "\"Интересно. Спасибо\"."
 
 #: 5791
 msgid ""
@@ -226,50 +240,54 @@ msgid ""
 "order, but they aren't really likely to have done it. I don't know who the "
 "order came from, and I don't know why anyone would want to give it.\""
 msgstr ""
+"\"Единственные люди, обладающие такой властью - Тильдон и Бедай-Линн. Я "
+"предполагаю, что фракторы, либо кто-нибудь, близкий к ним, мог бы отдать "
+"такой приказ, но непохоже, чтобы они это делали. Я не знаю, чей это приказ, "
+"и не представляю, кто бы мог захотеть его отдать\"."
 
 #: 5792
 msgid ""
 "\"That's less than helpful, but it's a start. Answer me some other "
 "questions, instead.\""
 msgstr ""
+"\"Это мало чем поможет, но хоть что-то для начала. Тогда ответь мне на "
+"другие вопросы\"."
 
 #: 5793
 msgid "\"And it's not unusual that you would have received this order?\""
-msgstr ""
+msgstr "\"А было ли необычным то, что ты получил этот приказ?\""
 
 #: 5794
 msgid "\"And you didn't see anything?\""
-msgstr ""
+msgstr "\"И ты ничего не видел?\""
 
 #: 5795
 msgid "\"That's... 'illuminating.' Good day.\""
-msgstr ""
+msgstr "\"Это... много чего объясняет. Счастливо\"."
 
 #: 5796
 msgid "\"More questions?\""
-msgstr ""
+msgstr "\"Еще вопросы?\""
 
 #: 5803 5818 5825
-#, fuzzy
 msgid "\"Forget it. Goodbye.\""
-msgstr "\"Забудь. Готовься к смерти.\""
+msgstr "\"Забудь. Счастливо\"."
 
 #: 5804
 msgid "\"That's exactly right, sir. I saw nothing.\""
-msgstr ""
+msgstr "\"Именно так, сер. Я ничего не видел\"."
 
 #: 5805
-#, fuzzy
 msgid "\"Hm. Answer me some other questions, then.\""
-msgstr "\"Хорошо. Ответь мне на пару вопросов.\""
+msgstr "\"Хм. Тогда ответь мне на пару вопросов.\""
 
 #: 5806
 msgid "\"You didn't think this order was unusual?\""
-msgstr ""
+msgstr "\"Тебе не кажется, что этот приказ был необычным?\""
 
 #: 5807
 msgid "\"That's... \"illuminating.\" Good day.\""
-msgstr ""
+msgstr "\"Это... много чего объясняет. До свиданья\"."
 
 #: 5808
 msgid ""
@@ -277,39 +295,45 @@ msgid ""
 "murder, but I have to warn you that my help isn't going to be that valuable."
 "\""
 msgstr ""
+"\"Я понимаю, что мы обязаны помогать тебе любым способом касательно этого "
+"убийства, но должен предупредить тебя, что моя помощь будет не особо ценной"
+"\"."
 
 #: 5809
 msgid "\"Why not? Weren't you here?\""
-msgstr ""
+msgstr "\"Почему же нет? Тебя здесь не было?\""
 
 #: 5810
 msgid "\"Right. Well, I had other questions anyway.\""
-msgstr ""
+msgstr "\"Ладно. Ну, в любом случае, у меня есть еще пару вопросов\"."
 
 #: 5811
-#, fuzzy
 msgid "\"Oh. Forget it, then.\""
-msgstr "\"Тогда забудь об этом.\""
+msgstr "\"О, тогда забудь об этом\"."
 
 #: 5812
 msgid ""
 "You see a competent, somewhat bored-looking guard. \"Greeting, sir. May I be "
 "of assistance?\""
 msgstr ""
+"Ты видишь внушительного стражника, который выглядит немного скучающим. "
+"\"Приветствую, сер. Чем могу служить?\""
 
 #: 5819
 msgid "\"Greeting, sir. May I be of assistance?\""
-msgstr ""
+msgstr "\"Приветствую, сер. Чем могу служить?\""
 
 #: 66282
 msgid "\"All right. Farewell.\""
-msgstr "\"Ладно. Прощай.\""
+msgstr "\"Ладно. Прощай\"."
 
 #: 67221
 msgid ""
 "The guard glares at you. \"Out of the way. We've a job that needs doing.\""
 msgstr ""
+"Стражник бросает на тебя гневный взгляд. \"Прочь с дороги. У нас тут "
+"неотложное дело\"."
 
 #: 67222
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."

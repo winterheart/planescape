@@ -3,19 +3,19 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gfwrk.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-09-04 18:50+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2010-11-27 15:44+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 5503
 msgid "The yard worker turns and flees from you."
-msgstr ""
+msgstr "Рабочий разворачивается и убегает от тебя."
 
 #: 5504 5506
 msgid "Done."
@@ -25,6 +25,8 @@ msgstr "Готово."
 msgid ""
 "This person studiously ignores you as the guards escort you toward the exit."
 msgstr ""
+"Этот человек намеренно игнорирует тебя, пока стража сопровождает тебя к "
+"выходу."
 
 #: 5507
 msgid ""
@@ -32,19 +34,22 @@ msgid ""
 "could find one of those just about anywhere here. My money's on Thildon as "
 "the culprit -- never was a meaner man in the Foundry.\""
 msgstr ""
+"\"Я слышал, что рядом с телом нашли шило кузнеца. Но, другой стороны, я "
+"считаю, что здесь его можно было бы найти где угодно. Ставлю на то, что "
+"виновен Тильдон - в Литейной не было более злобного человека\"."
 
 #: 5508
 msgid "\"Thanks for your help. But I need some questions answered.\""
 msgstr ""
+"\"Спасибо за помощь. Тем не менее, мне нужны ответы на некоторые вопросы\"."
 
 #: 5509
-#, fuzzy
 msgid "\"Right. That's all I needed to know.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Отлично. Это все, что я хотел узнать\"."
 
 #: 5510
 msgid "\"Ask away.\""
-msgstr ""
+msgstr "\"Спрашивай\"."
 
 #: 5511
 msgid "\"Who are you?\""
@@ -52,37 +57,35 @@ msgstr "\"Кто ты?\""
 
 #: 5512
 msgid "\"What are you doing?\""
-msgstr "\"Что ты делаешь?\""
+msgstr "\"Чем ты занимаешься?\""
 
 #: 5513
 msgid "\"Who's your boss?\""
-msgstr ""
+msgstr "\"Кто твой начальник?\""
 
 #: 5514
-#, fuzzy
 msgid "\"Forget it. Goodbye.\""
-msgstr "\"Забудь. Готовься к смерти.\""
+msgstr "\"Забудь об этом. Прощай\"."
 
 #: 5515
 msgid "\"Why? You with the Takers? I already paid my taxes.\""
-msgstr ""
+msgstr "\"А что? Ты от Стяжателей? Я уже заплатил налоги\"."
 
 #: 5516
 msgid "\"The Takers? Who?\""
-msgstr ""
+msgstr "\"Стяжатели? Кто они такие?\""
 
 #: 5517
 msgid "\"No, I was just curious. You know. Being friendly.\""
-msgstr ""
+msgstr "\"Нет, я просто поинтересовался. Ну, ты знаешь. Проявил дружелюбие\"."
 
 #: 5518
-#, fuzzy
 msgid "\"Forget it. I wanted to know something else anyway.\""
-msgstr "\"Забудь. Я хочу знать кое-что еще...\""
+msgstr "\"Забудь. Мне все равно нужно узнать кое-что другое\"."
 
 #: 5519
 msgid "\"Forget it.\""
-msgstr "\"Забудь.\""
+msgstr "\"Забудь\"."
 
 #: 5520
 msgid ""
@@ -90,37 +93,43 @@ msgid ""
 "Making sure the material gets to the smiths when they need it. Making sure "
 "the finished product gets wherever it's supposed to go... in short, my job.\""
 msgstr ""
+"\"Отрабатываю свое дневное жалование. Работаю над собой. Поддерживаю в этом "
+"месте чистоту. Слежу, чтобы материалы доходили до кузнецов, когда они в них "
+"нуждаются. Забочусь, чтобы готовая продукция доходила туда, куда надо... "
+"короче, делаю свою работу\"."
 
 #: 5521
 msgid "\"So your job is basically clean-up and grunt work?\""
 msgstr ""
+"\"Значит, твоя задача - просто прибираться и выполнять черную работу?\""
 
 #: 5522
-#, fuzzy
 msgid "\"I see. Another question for you.\""
-msgstr "\"У меня есть другой вопрос к тебе.\""
+msgstr "\"Ясно. Еще один вопрос к тебе\"."
 
 #: 5523
 msgid "\"I see. So long.\""
-msgstr ""
+msgstr "\"Ясно. Пока\"."
 
 #: 5524
 msgid "\"Why? You work for him?"
-msgstr ""
+msgstr "\"А что? Ты на него работаешь?"
 
 #: 5525
 msgid "\"Um... yes.\""
-msgstr ""
+msgstr "\"Ммм... да\"."
 
 #: 5526
 msgid "\"Are you kidding?\""
-msgstr ""
+msgstr "\"Ты шутишь?\""
 
 #: 5527
 msgid ""
 "\"You know... the taxmen of the city? What are you, clueless? I have to get "
 "back to work.\" "
 msgstr ""
+"\"Ну, ты знаешь... городские сборщики налогов. Ты что, бестолочь? Мне нужно "
+"возвращаться к работе\"."
 
 #: 5528 5537 5545 5547 5549
 msgid "Leave."
@@ -132,14 +141,17 @@ msgid ""
 "lookin' over the shoulder. We're busy these days. How about if I just tell "
 "you I can be friendly when this project's done?\""
 msgstr ""
+"\"Нет у меня времени быть дружелюбным, особенно когда начальник смотрит тебе "
+"через плечо. Последнее время мы заняты. Что, если я просто скажу, что могу "
+"побыть дружелюбным, когда этот проект закончится?\""
 
 #: 5530
 msgid "\"All right. Maybe you can answer another question.\""
-msgstr ""
+msgstr "\"Хорошо. Может, ответишь еще на один вопрос?\""
 
 #: 5531
 msgid "\"Sure. Farewell.\""
-msgstr "\"Конечно. Прощай.\""
+msgstr "\"Конечно. Прощай\"."
 
 #: 5532
 msgid ""
@@ -147,18 +159,23 @@ msgid ""
 "screed, I figure it's a test of stubborns. I look at my whole life as a test "
 "of stubborns.\""
 msgstr ""
+"\"Если хочешь так считать. С тех пор, как я изучаю нудное учение Боголюдей, "
+"я решил, что это - проверка на упорство. Я рассматриваю свою жизнь как "
+"проверку на упорство\"."
 
 #: 5533
 msgid "\"Why not look at it as a test of smarts and just walk away?\""
 msgstr ""
+"\"Почему бы не посмотреть на это как на тест на сообразительность и просто "
+"не уйти?\""
 
 #: 5534
 msgid "\"Does that really help?\""
-msgstr ""
+msgstr "\"И как, выходит?\""
 
 #: 5535
 msgid "\"I see. Farewell.\""
-msgstr "\"Понятно. Прощай.\""
+msgstr "\"Понятно. Прощай\"."
 
 #: 5536
 msgid ""
@@ -166,6 +183,9 @@ msgid ""
 "things about him, only I got to get back to work. Bye.\" The worker turns "
 "away and ignores further entreaties."
 msgstr ""
+"\"Тогда он - соль земли. Настоящий джентльмен. Хороших вещей о нем просто не "
+"перечесть, вот только мне нужно возвращаться к работе. Пока\". Рабочий "
+"отворачивается и игнорирует последующие просьбы."
 
 #: 5538
 msgid ""
@@ -174,15 +194,18 @@ msgid ""
 "killed soon... painfully and horribly. But then, most of us yard workers do."
 "\""
 msgstr ""
+"\"Один из самых прогнивших ублюдков, которых я имел несчастье повстречать... "
+"а вырос я в Улье среди нескольких настоящих чемпионов по этой части. "
+"Надеюсь, его скоро прикончат... ужасно и мучительно. Да и потом, большинство "
+"из нас, рабочих, думают так же\"."
 
 #: 5539
-#, fuzzy
 msgid "\"I see. Answer me some other questions.\""
-msgstr "\"Понятно. У меня есть еще вопросы...\""
+msgstr "\"Понятно. Ответь еще на несколько вопросов\"."
 
 #: 5540
 msgid "\"Got it. So long.\""
-msgstr ""
+msgstr "\"Ясно. Пока\"."
 
 #: 5541
 msgid ""
@@ -191,14 +214,21 @@ msgid ""
 "Hells, I'm happy to've made it this far. 'Less you can get me a better job "
 "than this, I'm happy where I am. Better than starvin' to death.\""
 msgstr ""
+"\"Уйти куда? Кто возьмет меня на работу? Система позаботилась о том, чтобы я "
+"не подходил для других видов труда, кроме как для прислуживания, потому что "
+"родился я в Улье. Черт, я рад, что хоть здесь работаю. Если только ты не "
+"найдешь мне лучшую работу, чем эта, я рад оставаться здесь. Все же лучше, "
+"чем помереть с голоду\"."
 
 #: 5542
 msgid "\"Oh, please, you can do anything if you put your mind to it.\""
 msgstr ""
+"\"О, прошу тебя, ты мог бы заняться чем угодно, если б только решился\"."
 
 #: 5543
 msgid "\"That's convincing. But don't you think you could do it better?\""
 msgstr ""
+"\"Звучит убедительно. Но тебе не кажется, что ты мог бы добиться лучшего?\""
 
 #: 5544
 msgid ""
@@ -209,6 +239,12 @@ msgid ""
 "classes, berk.\" The worker turns away. \"I got to get back to work. Goodbye."
 "\""
 msgstr ""
+"\"Как ни странно, да. Это дает мне надежду на то, что когда-нибудь я закончу "
+"лучше, в этой жизни или в следующей. Я, может, и не вижу очевидного, но "
+"скажу тебе вот что: хлебнув помоев, как я, начинаешь ценить те маленькие "
+"радости, что жизнь подбрасывает тебе. Для низших классов жизнь - не одни "
+"лишь первоцветы, пень, - рабочий отворачивается. - Мне нужно возвращаться к "
+"работе. Прощай\"."
 
 #: 5546
 msgid ""
@@ -217,12 +253,20 @@ msgid ""
 "progression through life is more suited to my beliefs. Now if you'll excuse "
 "me, I gotta get back to work.\" The worker turns and ignores you."
 msgstr ""
+"\"И что, закончить таким испуганным зомби, как ты? Нет уж, извольте. Не "
+"знаю, что ты там наделал, но спасибо, я рад быть таким, какой я есть. "
+"Медленное продвижение по жизни больше соответствует моим убеждениям. А "
+"теперь, если ты позволишь, мне надо вернуться к работе\". Рабочий "
+"отворачивается и игнорирует тебя."
 
 #: 5548
 msgid ""
 "\"Tell you what... you live your life and I'll live mine. Right? I have to "
 "get back to work.\" The worker turns away and ignores you."
 msgstr ""
+"\"Вот что я тебе скажу... ты живешь своей жизнью, а я живу своей. Лады? А "
+"теперь мне нужно возвращаться к работе\". Рабочий отворачивается и "
+"игнорирует тебя."
 
 #: 5550
 msgid ""
@@ -230,41 +274,42 @@ msgid ""
 "hardly know what's happening. It's like I never left the Hive... how can I "
 "help you?\""
 msgstr ""
+"\"Говорю тебе, со всеми теми волнениями, которые происходят вокруг в "
+"последнее время, я с трудом понимаю, что вообще происходит. Как будто я "
+"никогда не покидал Улей... чем я могу тебе помочь?\""
 
 #: 5551
-#, fuzzy
 msgid "\"You can answer me some questions.\""
-msgstr "\"Ответь мне на другие вопросы.\""
+msgstr "\"Ты мог бы ответить мне на несколько вопросов\"."
 
 #: 5552
 msgid "\"You can't. Forget it.\""
-msgstr ""
+msgstr "\"Не можешь. Забудь\"."
 
 #: 5553
 msgid ""
 "You see a drab Hiver hauling crates around. You can't even tell this poor "
 "sod's sex. \"What do you want from me?\""
 msgstr ""
+"Ты видишь серого жителя Улья, который таскает ящики. Ты даже не можешь "
+"определить пол бедняги. \"Чего ты хочешь от меня?\""
 
 #: 5554
 msgid "\"Just a couple of answers.\""
-msgstr ""
+msgstr "\"Только пару ответов\"."
 
 #: 5555
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 5556
-#, fuzzy
 msgid "\"What do you want?\""
-msgstr "\"Что ты хочешь знать?\""
+msgstr "\"Чего тебе надо?\""
 
 #: 5557
-#, fuzzy
 msgid "\"Just some answers.\""
-msgstr "\"Просто несколько вопросов...\""
+msgstr "\"Просто несколько ответов\"."
 
 #: 5558
 msgid "\"Nothing.\""
-msgstr "\"Ничего.\""
-
+msgstr "\"Ничего\"."
