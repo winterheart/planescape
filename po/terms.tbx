@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE martif PUBLIC "ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN" "TBXcdv04.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE martif PUBLIC 'ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN' 'TBXcdv04.dtd'>
 <martif type="TBX" xml:lang="en">
     <martifHeader>
         <fileDesc>
@@ -8,7 +8,7 @@
             </titleStmt>
         </fileDesc>
         <encodingDesc>
-            <p type="DCSName">SYSTEM &quot;TBXDCSv05b.xml&quot;</p>
+            <p type="DCSName">SYSTEM "TBXDCSv05b.xml"</p>
         </encodingDesc>
     </martifHeader>
     <text>
@@ -443,7 +443,7 @@
             </termEntry>
             <termEntry id="azamat_h._hackimov-22">
                 <descrip type="subjectField">planescape</descrip>
-                <descrip type="definition">Владелец бара &quot;Тлеющий Труп&quot;</descrip>
+                <descrip type="definition">Владелец бара "Тлеющий Труп"</descrip>
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
@@ -2612,7 +2612,7 @@
             </termEntry>
             <termEntry id="azamat_h._hackimov-146">
                 <descrip type="subjectField">planescape</descrip>
-                <descrip type="definition">Одно из &quot;имен&quot; Безымянного.</descrip>
+                <descrip type="definition">Одно из "имен" Безымянного.</descrip>
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
@@ -2647,7 +2647,7 @@
             </termEntry>
             <termEntry id="azamat_h._hackimov-148">
                 <descrip type="subjectField">planescape</descrip>
-                <descrip type="definition">здание в Улье, рядом с &quot;Тлеющим Трупом&quot;</descrip>
+                <descrip type="definition">здание в Улье, рядом с "Тлеющим Трупом"</descrip>
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
@@ -2928,7 +2928,7 @@
             </termEntry>
             <termEntry id="azamat_h._hackimov-164">
                 <descrip type="subjectField">planescape</descrip>
-                <descrip type="definition">Убийца милосердия в баре &quot;Тлеющий Труп&quot;</descrip>
+                <descrip type="definition">Убийца милосердия в баре "Тлеющий Труп"</descrip>
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
@@ -5484,7 +5484,7 @@
             </termEntry>
             <termEntry id="azamat_h._hackimov-299">
                 <descrip type="subjectField">персонажи</descrip>
-                <descrip type="definition">Андор &quot;Шлепок&quot;, выпивоха из бара Тлеющий Труп.</descrip>
+                <descrip type="definition">Андор "Шлепок", выпивоха из бара Тлеющий Труп.</descrip>
                 
                 
                 
@@ -6085,6 +6085,24 @@
                     </ntig>
                 </langSet>
             </termEntry>
-        </body>
+        <termEntry id="azamat_h._hackimov-331">
+        <descrip type="definition">Женщина-гитцерай в Литейной.</descrip>
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>kel'lera</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>келлера</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+    </body>
     </text>
 </martif>
