@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: drotwill.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-02-20 21:00+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2011-02-21 23:32+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 11670 34393 34400 34404 34410 3702
 msgid "Flee."
@@ -92,7 +93,7 @@ msgid ""
 "\"Have yeh found the vigilante Blackrose yet? Have yeh put him down like we "
 "agreed?\""
 msgstr ""
-"\"Ты нашел этого линчевателя, Черного бутона? Уложил его, как мы "
+"\"Ты нашел этого разбойника, Черного бутона? Уложил его, как мы "
 "договаривались?\""
 
 #: 34372
@@ -520,3 +521,4 @@ msgstr "\"Она уже мертва\"."
 #: 37836
 msgid "\"He's already dead. I'd like my reward now.\""
 msgstr "\"Он уже мертв. Где моя награда?\""
+
