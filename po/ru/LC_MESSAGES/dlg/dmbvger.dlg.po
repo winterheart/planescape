@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 20067
@@ -44,7 +44,7 @@ msgstr "\"О чем ты говоришь?\""
 
 #: 20073 20095 20098
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 20074
 msgid ""
@@ -60,7 +60,7 @@ msgstr "\"Нет. У меня были еще вопросы к тебе...\""
 
 #: 20076 20089
 msgid "\"I see. Farewell.\""
-msgstr "\"Понятно. Прощай.\""
+msgstr "\"Понятно. Прощай\"."
 
 #: 20077
 msgid "\"Make it fast, cutter. I got mouths t' feed.\""
@@ -69,7 +69,7 @@ msgstr ""
 #: 20081
 #, fuzzy
 msgid "\"Forget it, then. Farewell.\""
-msgstr "\"Забудь об этом. Прощай.\""
+msgstr "\"Забудь об этом. Прощай\"."
 
 #: 20082
 msgid ""
@@ -124,7 +124,7 @@ msgstr "\"Довольно правдиво. Позволь мне спроси�
 
 #: 20092
 msgid "\"That's all I wanted to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 20093
 msgid "He coughs noisily into his hand. \"What d'ya want this time?\""
@@ -133,7 +133,7 @@ msgstr ""
 #: 20094
 #, fuzzy
 msgid "\"I wanted some answers.\""
-msgstr "\"Мне нужна некоторая помощь.\""
+msgstr "\"Мне нужна некоторая помощь\"."
 
 #: 20096
 msgid ""
@@ -145,4 +145,4 @@ msgstr ""
 #: 20097
 #, fuzzy
 msgid "\"Just the answers to some questions...\""
-msgstr "\"Просто ответь на несколько вопросов.\""
+msgstr "\"Просто ответь на несколько вопросов\"."

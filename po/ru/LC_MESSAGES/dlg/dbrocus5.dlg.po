@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 3206
@@ -25,7 +25,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 40689 40692
 msgid "\"Nothing; I was just passing by. Farewell.\""
-msgstr "\"Ничего, я просто проходил мимо. Прощай.\""
+msgstr "\"Ничего, я просто проходил мимо. Прощай\"."
 
 #: 40690
 msgid ""
@@ -84,7 +84,7 @@ msgstr ""
 #: 40703
 #, fuzzy
 msgid "\"Never mind, actually. Farewell.\""
-msgstr "\"Ничего особенного, Нелли. Прощай.\""
+msgstr "\"Ничего особенного, Нелли. Прощай\"."
 
 #: 40704
 msgid ""
@@ -111,7 +111,7 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 40709 40713 40716 40721 40738
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 40710
 msgid ""
@@ -155,7 +155,7 @@ msgstr "\"Да, еще один вопрос...\""
 #: 40724
 #, fuzzy
 msgid "\"No, that's all. Farewell.\""
-msgstr "\"Нет, спасибо. Прощай.\""
+msgstr "\"Нет, спасибо. Прощай\"."
 
 #: 40725
 msgid "\"Look, I've things to think about. So if you wouldn't mind...\""
@@ -169,20 +169,20 @@ msgstr "\"Позволь мне спросить чем-нибудь еще...\"
 #: 40727
 #, fuzzy
 msgid "\"Sorry to disturb you, then. Farewell.\""
-msgstr "\"Извини, что отвлек. Прощай.\""
+msgstr "\"Извини, что отвлек. Прощай\"."
 
 #: 40728
 msgid "\"Fine; farewell.\""
-msgstr "\"Отлично Прощай.\""
+msgstr "\"Отлично Прощай\"."
 
 #: 40729
 #, fuzzy
 msgid "\"Nothing, really.\""
-msgstr "\"На самом деле, нет.\""
+msgstr "\"На самом деле, нет\"."
 
 #: 40731 40734 40741 40747
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 40732
 msgid "\"Ravel, you say? I've never asked her about it. Perhaps you should.\""
@@ -190,7 +190,7 @@ msgstr ""
 
 #: 40735
 msgid "\"Perhaps I will. Farewell.\""
-msgstr "\"Возможно, я так и сделаю. Прощай.\""
+msgstr "\"Возможно, я так и сделаю. Прощай\"."
 
 #: 40736
 msgid ""
@@ -214,9 +214,8 @@ msgstr ""
 #: 40744
 #, fuzzy
 msgid "\"Thanks just the same. Farewell.\""
-msgstr "\"Спасибо за внимание. Прощай.\""
+msgstr "\"Спасибо за внимание. Прощай\"."
 
 #: 40745
 msgid "He shakes his head. \"No; I had understood there to be only nine.\""
 msgstr ""
-

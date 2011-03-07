@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 34107
@@ -124,7 +124,7 @@ msgstr ""
 #: 34123
 #, fuzzy
 msgid "\"I have no name.\""
-msgstr "\"Для меня это важно.\""
+msgstr "\"Для меня это важно\"."
 
 #: 34124
 msgid "Lie: \"My name is 'Adahn.'\" "
@@ -132,7 +132,7 @@ msgstr ""
 
 #: 34125 34136 34157
 msgid "\"None of your business.\""
-msgstr "\"Не твое дело.\""
+msgstr "\"Не твое дело\"."
 
 #: 34126
 msgid "Ignore the man and continue on."
@@ -155,20 +155,20 @@ msgstr ""
 #: 34130 34142 34159
 #, fuzzy
 msgid "\"I just want to pass through.\""
-msgstr "\"Я просто проходил мимо.\""
+msgstr "\"Я просто проходил мимо\"."
 
 #: 34131 34132 34143 34144
 #, fuzzy
 msgid "\"If you don't stand aside right now, there'll be hell to pay.\""
-msgstr "\"У меня нет времени на это. Прощай.\""
+msgstr "\"У меня нет времени на это. Прощай\"."
 
 #: 34133 34138 34155
 msgid "\"I'm looking for a man named Pharod.\""
-msgstr "\"Я разыскиваю мужчину по имени Фарод.\""
+msgstr "\"Я разыскиваю мужчину по имени Фарод\"."
 
 #: 34134 34139 34156
 msgid "\"I'm looking for a journal.\""
-msgstr "\"Я ищу дневник.\""
+msgstr "\"Я ищу дневник\"."
 
 #: 34135
 msgid "\"I was told I could locate Pharod around these parts.\""
@@ -181,7 +181,7 @@ msgstr "Атаковать его."
 
 #: 34140
 msgid " \"None of your business.\""
-msgstr "\"Не твое дело.\""
+msgstr "\"Не твое дело\"."
 
 #: 34146 34163 66908
 #, fuzzy
@@ -211,7 +211,7 @@ msgstr ""
 #: 34153
 #, fuzzy
 msgid "\"I don't think so...\""
-msgstr "\"Нет, не думаю.\""
+msgstr "\"Нет, не думаю\"."
 
 #: 34154 34175
 #, fuzzy
@@ -225,7 +225,7 @@ msgstr ""
 #: 34160 34161
 #, fuzzy
 msgid "\"If you don't stand aside right now, there will be hell to pay.\""
-msgstr "\"У меня нет времени на это. Прощай.\""
+msgstr "\"У меня нет времени на это. Прощай\"."
 
 #: 34164
 msgid "\"Goodbye...\""
@@ -234,12 +234,12 @@ msgstr ""
 #: 34165
 #, fuzzy
 msgid "\"I'll do what I want...\""
-msgstr "\"Я... я сделаю все, что в моих силах.\""
+msgstr "\"Я... я сделаю все, что в моих силах\"."
 
 #: 34166 34167
 #, fuzzy
 msgid "\"My money then.\""
-msgstr "\"Деньги назад. Сейчас же.\""
+msgstr "\"Деньги назад. Сейчас же\"."
 
 #: 34168
 msgid "\"I'll give you neither!\""
@@ -299,5 +299,4 @@ msgstr ""
 
 #: 66909 66910
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
-
+msgstr "\"Прощай\"."

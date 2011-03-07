@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -22,7 +22,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 12004
 msgid "\"My error... I thought you were someone else. Farewell.\""
-msgstr "\"Я ошибся. Я тебя перепутал кое с кем. Прощай.\""
+msgstr "\"Я ошибся. Я тебя перепутал кое с кем. Прощай\"."
 
 #: 12005
 msgid "Copper-eyes says nothing."
@@ -33,15 +33,15 @@ msgid ""
 "\"This is your last chance. Give the contract back to me, or you'll regret "
 "it.\""
 msgstr ""
-"\"Это твой последний шанс. Верни мне контракт или ты пожалеешь об этом.\""
+"\"Это твой последний шанс. Верни мне контракт или ты пожалеешь об этом\"."
 
 #: 12007 2523
 msgid "\"Uh... never mind. Farewell.\""
-msgstr "\"Ух... не важно. Прощай.\""
+msgstr "\"Ух... не важно. Прощай\"."
 
 #: 12008 2493 2512 2518
 msgid "\"I've changed my mind. Farewell.\""
-msgstr "\"Я передумал. Прощай.\""
+msgstr "\"Я передумал. Прощай\"."
 
 #: 2474
 msgid ""
@@ -61,7 +61,7 @@ msgstr ""
 
 #: 2475
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 2476
 msgid "Leave the man in peace."
@@ -78,18 +78,18 @@ msgstr ""
 
 #: 2478
 msgid "\"I'm looking to sign one of the Dead Contracts.\""
-msgstr "\"Я хочу подписать Контракт Смерти.\""
+msgstr "\"Я хочу подписать Контракт Смерти\"."
 
 #: 2479
 msgid "\"I want to undo that Dead Contract I signed with you.\""
-msgstr "\"Я хочу отменить Контракт Смерти, который подписал с тобой.\""
+msgstr "\"Я хочу отменить Контракт Смерти, который подписал с тобой\"."
 
 #: 2480
 msgid ""
 "\"Give me back that Dead Contract I signed, or I'll take it from you by "
 "force.\""
 msgstr ""
-"\"Верни мне Контракт Смерти, который я подписал, или я заберу его силой.\""
+"\"Верни мне Контракт Смерти, который я подписал, или я заберу его силой\"."
 
 #: 2481
 msgid ""
@@ -173,7 +173,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 2499 2526
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 2500
 msgid "\"Uh... wait a minute... could I see that contract again?\""
@@ -245,7 +245,7 @@ msgstr "\"У меня есть вопросы, которые я бы хотел
 
 #: 2522
 msgid "\"I've come to sign the Dead Contract.\""
-msgstr "\"Я пришел подписать Контракт Смерти.\""
+msgstr "\"Я пришел подписать Контракт Смерти\"."
 
 #: 2524
 msgid ""
@@ -254,4 +254,3 @@ msgid ""
 msgstr ""
 "Не произнося ни слова, Медноглазый поднимает со стола пергамент с мешочком и "
 "кладет их в рукав своей робы."
-

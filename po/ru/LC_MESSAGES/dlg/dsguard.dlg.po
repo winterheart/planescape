@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 46767
@@ -26,7 +26,7 @@ msgstr "\"Что ты можешь рассказать о нем?\""
 
 #: 46906
 msgid "\"All right. Farewell.\""
-msgstr "\"Ладно. Прощай.\""
+msgstr "\"Ладно. Прощай\"."
 
 #: 46907
 msgid ""
@@ -39,7 +39,7 @@ msgstr ""
 #: 46908
 #, fuzzy
 msgid "\"We'll see, I suppose. Farewell.\""
-msgstr "\"Благодарю. Прощай.\""
+msgstr "\"Благодарю. Прощай\"."
 
 #: 46909
 msgid ""
@@ -68,7 +68,7 @@ msgstr ""
 
 #: 46914 64647
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 63354
 msgid ""
@@ -78,5 +78,4 @@ msgstr ""
 
 #: 63355
 msgid "\"Fine. Farewell.\""
-msgstr "\"Отлично. Прощай.\""
-
+msgstr "\"Отлично. Прощай\"."

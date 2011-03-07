@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 37758
@@ -92,7 +92,7 @@ msgstr ""
 
 #: 37770
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 37771
 msgid "Ignore the man."
@@ -104,7 +104,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 37773
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 37774
 msgid "\"Why, what's going on here?\""
@@ -112,7 +112,7 @@ msgstr ""
 
 #: 37775 37778 37788 37791
 msgid "\"Fine, farewell.\""
-msgstr "\"Отлично, прощай.\""
+msgstr "\"Отлично, прощай\"."
 
 #: 37776
 #, fuzzy
@@ -145,7 +145,7 @@ msgstr ""
 
 #: 37784 37785 37786
 msgid "\"I see. Farewell.\""
-msgstr "\"Понятно. Прощай.\""
+msgstr "\"Понятно. Прощай\"."
 
 #: 37787
 msgid "\"I see. So why are you being sold?\""
@@ -153,5 +153,4 @@ msgstr ""
 
 #: 37790
 msgid "\"Never mind. Farewell."
-msgstr "\"Неважно. Прощай.\""
-
+msgstr "\"Неважно. Прощай\"."

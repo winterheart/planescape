@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 17834
@@ -593,7 +593,7 @@ msgstr ""
 
 #: 17912 17916
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 17913
 #, fuzzy
@@ -638,7 +638,7 @@ msgstr ""
 #: 17923 17926
 #, fuzzy
 msgid "\"I don't have time to talk with you, Pharod. Farewell.\""
-msgstr "\"У меня нет времени на это. Прощай.\""
+msgstr "\"У меня нет времени на это. Прощай\"."
 
 #: 17924
 msgid "\"Pharod? What is it?\""
@@ -651,7 +651,7 @@ msgstr ""
 #: 17927
 #, fuzzy
 msgid "\"Pharod...?\""
-msgstr "\"Фарод.\""
+msgstr "\"Фарод\"."
 
 #: 17928 17930
 msgid ""
@@ -690,7 +690,7 @@ msgstr ""
 #: 17940 17943 17946 17949 17952
 #, fuzzy
 msgid "\"Never mind, Pharod. I must take my leave.\" "
-msgstr "\"Неважно. Мне нужно идти.\""
+msgstr "\"Неважно. Мне нужно идти\"."
 
 #: 17942
 msgid "\"What were you saying before about a 'jaunt to the Mortuary?'\""
@@ -790,7 +790,7 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 17970 18076 18079 18191
 msgid "\"I must take my leave. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 17971
 msgid ""
@@ -804,7 +804,7 @@ msgstr "\"Неважно. У меня есть другие вопросы...\""
 
 #: 17973 17976
 msgid "\"I've heard enough. Farewell.\""
-msgstr "\"Я выслушал достаточно. Прощай.\""
+msgstr "\"Я выслушал достаточно. Прощай\"."
 
 #: 17974
 msgid "\"What is the Buried Village?\""
@@ -821,7 +821,7 @@ msgstr "\"Неважно. У меня были еще вопросы к тебе
 
 #: 17979
 msgid "\"That's all I wanted to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 17980 17981
 #, fuzzy
@@ -831,7 +831,7 @@ msgstr "\"Каким символом?\""
 #: 17982
 #, fuzzy
 msgid "\"Yes, go on.\""
-msgstr "\"Пожалуйста, продолжай.\""
+msgstr "\"Пожалуйста, продолжай\"."
 
 #: 17983 17986
 #, fuzzy
@@ -841,11 +841,11 @@ msgstr "\"Ясно. У меня есть другие вопросы для те
 #: 17984 17987
 #, fuzzy
 msgid "\"Never mind. I must take my leave. Farewell.\""
-msgstr "\"Неважно. Я должен идти. Прощай.\""
+msgstr "\"Неважно. Я должен идти. Прощай\"."
 
 #: 17985
 msgid "\"All right, go on.\""
-msgstr "\"Хорошо, продолжай.\""
+msgstr "\"Хорошо, продолжай\"."
 
 #: 17988
 msgid "\"How did you find it?\""
@@ -858,7 +858,7 @@ msgstr "\"Понятно. У меня есть другой вопрос к те
 
 #: 17990
 msgid "\"That is all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 17991
 #, fuzzy
@@ -868,7 +868,7 @@ msgstr "\"Нет. У меня были еще вопросы к тебе...\""
 #: 17992 17995
 #, fuzzy
 msgid "\"No, that is all I wished to know. Farewell.\""
-msgstr "\"Да, это все, что я хотел узнать. Прощай.\""
+msgstr "\"Да, это все, что я хотел узнать. Прощай\"."
 
 #: 17993
 msgid ""
@@ -894,7 +894,7 @@ msgstr ""
 #: 17998
 #, fuzzy
 msgid "\"Then I shall say no more. Farewell.\""
-msgstr "\"Я больше не хочу мучить тебя. Прощай.\""
+msgstr "\"Я больше не хочу мучить тебя. Прощай\"."
 
 #: 17999
 msgid ""
@@ -910,7 +910,7 @@ msgstr "\"Ой... У меня есть еще вопросы к тебе...\""
 #: 18001 18005
 #, fuzzy
 msgid "\"I have said enough. Farewell.\""
-msgstr "\"Я достаточно наслушался. Прощай.\""
+msgstr "\"Я достаточно наслушался. Прощай\"."
 
 #: 18002
 msgid ""
@@ -939,7 +939,7 @@ msgstr "\"Ну хорошо, у меня есть другие вопросы к
 #: 18008 18010 18193
 #, fuzzy
 msgid "\"We'll see, Pharod. Farewell.\""
-msgstr "\"Благодарю. Прощай.\""
+msgstr "\"Благодарю. Прощай\"."
 
 #: 18009
 #, fuzzy
@@ -1062,7 +1062,7 @@ msgstr "\"Я не знаю, в самом деле. У меня еще есть 
 #: 18070
 #, fuzzy
 msgid "\"Forget it. I must take my leave. Farewell.\""
-msgstr "\"Забудь о нашей встрече. Я должен идти. Прощай.\""
+msgstr "\"Забудь о нашей встрече. Я должен идти. Прощай\"."
 
 #: 18071
 msgid "I promised Pharod I wouldn't say where he was getting the bodies from."
@@ -1110,7 +1110,7 @@ msgstr "\"Продолжай...\""
 #: 18083 18086 18089 18093 18096 18098
 #, fuzzy
 msgid "\"I've heard enough... I must take my leave. Farewell.\""
-msgstr "\"Неважно. Я должен идти. Прощай.\""
+msgstr "\"Неважно. Я должен идти. Прощай\"."
 
 #: 18084
 msgid "\"Where do all these dead come from?\""
@@ -1148,7 +1148,7 @@ msgstr ""
 #: 18101 18104 18109 18113 18116 18120 18123 18127 18133 18137 18141 18146
 #: 18149 18152 18155 18158 18182
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 18102
 msgid "\"What do you know about me? Why was I told to seek you out?\""
@@ -1294,7 +1294,7 @@ msgstr "\"У меня были еще вопросы к тебе...\""
 #: 18167
 #, fuzzy
 msgid "\"Very well, that's all I wished to know.\""
-msgstr "\"Это все, что я желал знать; прощай.\""
+msgstr "\"Это все, что я желал знать; прощай\"."
 
 #: 18168
 msgid "\"Where did she find me?\""
@@ -1439,7 +1439,7 @@ msgstr ""
 #: 47828 47834
 #, fuzzy
 msgid "\"Very well, that's all I wished to know. Farewell.\""
-msgstr "\"Хорошо. Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Хорошо. Это все, что я хотел узнать. Прощай\"."
 
 #: 47829
 msgid ""
@@ -1486,7 +1486,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "\"Very well, that's all I wished to know. I'll go find this painted door.\""
-msgstr "\"Это все, что я желал знать; прощай.\""
+msgstr "\"Это все, что я желал знать; прощай\"."
 
 #: 47848
 msgid ""
@@ -1506,5 +1506,3 @@ msgid ""
 "haunted alley. He told me if she happened to lose me on the way there, to "
 "come back and see him and he would guide me... "
 msgstr ""
-
-

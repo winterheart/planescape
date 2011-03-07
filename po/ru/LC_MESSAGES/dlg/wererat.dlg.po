@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 29298
@@ -27,8 +27,8 @@ msgid ""
 "The wererat looks you up and down scornfully. \"None of your businesssss, "
 "human.\" It chitters its laughter."
 msgstr ""
-"Крысооборотень презрительно осматривает тебя сверху донизу. \"Не твоего "
-"ума дело, человек\", - хихикает он."
+"Крысооборотень презрительно осматривает тебя сверху донизу. \"Не твоего ума "
+"дело, человек\", - хихикает он."
 
 #: 29301
 msgid ""
@@ -52,8 +52,8 @@ msgid ""
 "\"Mantuok? What do you want with Mantuok? Mantuok will find you if you need "
 "Mantuok.\" It chitters and backs away from you."
 msgstr ""
-"\"Мантуок? Чего тебе нужно от Мантуока? Если тебе нужен Мантуок, Мантуок "
-"сам тебя найдет\", - хихикает он и отступает от тебя."
+"\"Мантуок? Чего тебе нужно от Мантуока? Если тебе нужен Мантуок, Мантуок сам "
+"тебя найдет\", - хихикает он и отступает от тебя."
 
 #: 29304
 msgid "\"Dammit, I just wanted to talk!\""
@@ -77,7 +77,7 @@ msgstr "\"Ты знаешь Мантуока?\""
 
 #: 29309
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 29310
 msgid "\"Fine, then. Where's Lothar?\""
@@ -89,11 +89,11 @@ msgstr "\"Где Мантуок?\""
 
 #: 29313
 msgid "\"Forget it.\""
-msgstr "\"Забудь.\""
+msgstr "\"Забудь\"."
 
 #: 29314
 msgid "\"All right, then.\""
-msgstr "\"Ну хорошо тогда.\""
+msgstr "\"Ну хорошо тогда\"."
 
 #: 29315
 msgid ""
@@ -101,7 +101,7 @@ msgid ""
 "anyway. Farewell.\""
 msgstr ""
 "\"Тебе не стоит об этом беспокоится. Мне кажется, что эта вонь меня и так "
-"одолеет. Счастливо.\""
+"одолеет. Счастливо\"."
 
 #: 29316
 msgid "\"Probably not. It's not exactly a pleasure spot. Farewell.\""
@@ -117,6 +117,4 @@ msgstr "\"Тогда расскажи мне об этом месте\"."
 
 #: 29319
 msgid "\"Fine. Farewell.\""
-msgstr "\"Отлично. Прощай.\""
-
-
+msgstr "\"Отлично. Прощай\"."

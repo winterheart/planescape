@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 37792
@@ -90,7 +90,7 @@ msgstr ""
 
 #: 37804
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 37805
 msgid "Ignore the man."
@@ -102,7 +102,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 37807 37812 37829
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 37809
 msgid "\"What merchandise?\""
@@ -111,17 +111,17 @@ msgstr ""
 #: 37810
 #, fuzzy
 msgid "\"I just want some questions answered...\""
-msgstr "\"У меня есть некоторые вопросы.\""
+msgstr "\"У меня есть некоторые вопросы\"."
 
 #: 37813 37825
 #, fuzzy
 msgid "\"Yes, I am.\""
-msgstr "\"Да.\""
+msgstr "\"Да\"."
 
 #: 37815
 #, fuzzy
 msgid "\"No, I'm not.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Нет, не нужна\"."
 
 #: 37816
 msgid "\"You're for sale?\""
@@ -129,7 +129,7 @@ msgstr ""
 
 #: 37817
 msgid "\"Never mind.\""
-msgstr "\"Неважно.\""
+msgstr "\"Неважно\"."
 
 #: 37818
 msgid "\"Oh, and why is that?\""
@@ -138,7 +138,7 @@ msgstr ""
 #: 37819 37820
 #, fuzzy
 msgid "\"Yes, I think you're right.\""
-msgstr "\"Хорошо, я возьму его.\""
+msgstr "\"Хорошо, я возьму его\"."
 
 #: 37821
 msgid "\"No, I think you'll do just fine.\""
@@ -146,7 +146,7 @@ msgstr ""
 
 #: 37823
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 37824
 msgid "Leave before anyone notices."
@@ -159,4 +159,3 @@ msgstr ""
 #: 37827
 msgid "Leave."
 msgstr "Уйти."
-

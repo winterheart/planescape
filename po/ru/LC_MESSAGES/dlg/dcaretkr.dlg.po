@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 3196
@@ -91,7 +91,7 @@ msgstr ""
 
 #: 60261
 msgid "\"Good luck. Farewell.\""
-msgstr "\"Удачи. Прощай.\""
+msgstr "\"Удачи. Прощай\"."
 
 #: 60262
 msgid "\"You have my gratitude, stranger. What can I do for you?\""
@@ -100,7 +100,7 @@ msgstr ""
 #: 60263 60274 60279
 #, fuzzy
 msgid "\"I require healing.\""
-msgstr "\"На, держи.\""
+msgstr "\"На, держи\"."
 
 #: 60264 60275 60280
 #, fuzzy
@@ -109,17 +109,17 @@ msgstr "\"О чем это ты толкуешь?\""
 
 #: 60265 60281
 msgid "\"Tell me of yourself.\""
-msgstr "\"Расскажи мне о себе.\""
+msgstr "\"Расскажи мне о себе\"."
 
 #: 60266 60270 60276
 #, fuzzy
 msgid "\"Tell me of Curst.\""
-msgstr "\"Доложи свою задачу.\""
+msgstr "\"Доложи свою задачу\"."
 
 #: 60267 60272
 #, fuzzy
 msgid "\"Tell me of this dump.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Аллее\"."
 
 #: 60268
 msgid ""
@@ -147,7 +147,7 @@ msgstr ""
 #: 60277 60282 60290 60296 60315
 #, fuzzy
 msgid "\"Tell me about this dump.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Аллее\"."
 
 #: 60278 60303
 msgid ""
@@ -166,7 +166,7 @@ msgstr ""
 
 #: 60284
 msgid "\"Sure. Farewell.\""
-msgstr "\"Конечно. Прощай.\""
+msgstr "\"Конечно. Прощай\"."
 
 #: 60285
 msgid ""
@@ -202,7 +202,7 @@ msgstr "\"Понятно. У меня были еще вопросы...\""
 
 #: 60299 60302 60305 60308 68149 68152
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 60300
 msgid ""
@@ -254,7 +254,7 @@ msgstr "\"Спасибо. У меня несколько вопросов...\""
 
 #: 68146 68151 68153
 msgid "\"I see. Farewell.\""
-msgstr "\"Понятно. Прощай.\""
+msgstr "\"Понятно. Прощай\"."
 
 #: 68147
 msgid ""
@@ -265,9 +265,8 @@ msgstr ""
 
 #: 68148 68154
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 68150
 msgid "\"No. Farewell.\""
-msgstr "\"Нет. Прощай.\""
-
+msgstr "\"Нет. Прощай\"."

@@ -9,14 +9,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 20821
 #, fuzzy
 msgid "\"Nothing. Forget it.\""
-msgstr "\"Забудь.\""
+msgstr "\"Забудь\"."
 
 #: 20822
 msgid "\"Mayhap I'll tell...  mayhap I won't... Ask yer questions...\""
@@ -29,7 +29,7 @@ msgstr "\"Кто ты?\""
 #: 20824
 #, fuzzy
 msgid "\"Tell me about yourself again.\""
-msgstr "\"Расскажи мне о свой банде.\""
+msgstr "\"Расскажи мне о свой банде\"."
 
 #: 20825 20831 20835
 #, fuzzy
@@ -44,11 +44,11 @@ msgstr "\"О чем это ты?\""
 #: 20827
 #, fuzzy
 msgid "\"Tell me about the catacombs.\""
-msgstr "\"Расскажи мне об этих дабусах побольше.\""
+msgstr "\"Расскажи мне об этих дабусах побольше\"."
 
 #: 20828
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 20829
 msgid ""
@@ -70,7 +70,7 @@ msgstr "\"Возможно. У меня есть еще вопросы...\""
 #: 20833
 #, fuzzy
 msgid "\"Probably. Farewell.\""
-msgstr "\"Возможно, нет. Прощай.\""
+msgstr "\"Возможно, нет. Прощай\"."
 
 #: 20834
 msgid ""
@@ -128,7 +128,7 @@ msgstr "\"Нет. У меня были еще вопросы к тебе...\""
 #: 20844
 #, fuzzy
 msgid "\"Nice. Farewell.\""
-msgstr "\"Конечно. Прощай.\""
+msgstr "\"Конечно. Прощай\"."
 
 #: 20845
 msgid ""
@@ -142,7 +142,7 @@ msgstr ""
 #: 20846
 #, fuzzy
 msgid "\"Answer a few more questions for me...\""
-msgstr "\"Ответь мне на пару вопросов.\""
+msgstr "\"Ответь мне на пару вопросов\"."
 
 #: 20847
 msgid "\"Then go dark. Farewell.\""
@@ -160,11 +160,11 @@ msgstr ""
 #: 20849
 #, fuzzy
 msgid "\"The answers to some questions...\""
-msgstr "\"Просто ответь на несколько вопросов.\""
+msgstr "\"Просто ответь на несколько вопросов\"."
 
 #: 20850
 msgid "\"Nothing.\""
-msgstr "\"Ничего.\""
+msgstr "\"Ничего\"."
 
 #: 20851
 msgid ""
@@ -186,4 +186,4 @@ msgstr ""
 #: 2884
 #, fuzzy
 msgid "\"Just the answers to some questions, Lowden.\""
-msgstr "\"Просто ответь на несколько вопросов.\""
+msgstr "\"Просто ответь на несколько вопросов\"."

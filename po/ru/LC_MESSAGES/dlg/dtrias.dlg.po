@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 2995
@@ -26,7 +26,7 @@ msgstr ""
 #: 2996 54306 54307 54308 54309 54310 54311
 #, fuzzy
 msgid "\"I've been looking for you, deva.\""
-msgstr "\"Я ищу работу.\""
+msgstr "\"Я ищу работу\"."
 
 #: 54312
 msgid ""
@@ -47,11 +47,11 @@ msgstr "\"У меня есть вопросы к тебе...\""
 #: 54315 54319 61299
 #, fuzzy
 msgid "\"I have your sword.\""
-msgstr "Ложь: \"У меня к тебе новые распоряжения.\""
+msgstr "Ложь: \"У меня к тебе новые распоряжения\"."
 
 #: 54316 54371 54383 54413 54489 54497 54530 54555 54568 54872
 msgid "\"Forget it. Farewell.\""
-msgstr "\"Забудь. Прощай.\""
+msgstr "\"Забудь. Прощай\"."
 
 #: 54317
 msgid "\"What need you, mortal?\""
@@ -64,7 +64,7 @@ msgstr "\"У меня есть вопросы к тебе...\""
 
 #: 54320
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 54321
 msgid ""
@@ -92,7 +92,7 @@ msgstr ""
 #: 54325 54365 54376
 #, fuzzy
 msgid "\"Ravel the hag told me to seek you.\""
-msgstr "\"Погоди. Эморик сказал мне поговорить с тобой.\""
+msgstr "\"Погоди. Эморик сказал мне поговорить с тобой\"."
 
 #: 54326 54366 54377 54484 54492 54525 54550
 msgid ""
@@ -174,7 +174,7 @@ msgstr "Остановить мужчину."
 
 #: 54388 54514
 msgid "\"Not yet. Farewell.\""
-msgstr "\"Еще нет. Прощай.\""
+msgstr "\"Еще нет. Прощай\"."
 
 #: 54389
 msgid ""
@@ -237,7 +237,7 @@ msgstr ""
 #: 54399 54454
 #, fuzzy
 msgid "\"Tell me of Curst.\""
-msgstr "\"Доложи свою задачу.\""
+msgstr "\"Доложи свою задачу\"."
 
 #: 54400
 msgid "\"Tell me of Carceri.\""
@@ -282,7 +282,7 @@ msgstr ""
 #: 54410
 #, fuzzy
 msgid "\"I had a few questions for you...\""
-msgstr "\"У меня есть вопросы к тебе.\""
+msgstr "\"У меня есть вопросы к тебе\"."
 
 #: 54412
 #, fuzzy
@@ -322,7 +322,7 @@ msgstr ""
 #: 54424 54547
 #, fuzzy
 msgid "\"That's done, then...\""
-msgstr "\"Это хорошо. Прощай.\""
+msgstr "\"Это хорошо. Прощай\"."
 
 #: 54425 54544
 msgid ""
@@ -366,7 +366,7 @@ msgstr "\"Сифилитик, у меня есть еще вопросы к те
 #: 54433
 #, fuzzy
 msgid "\"Well, good luck. Farewell.\""
-msgstr "\"Удачи. Прощай.\""
+msgstr "\"Удачи. Прощай\"."
 
 #: 54434
 msgid ""
@@ -398,7 +398,7 @@ msgstr "\"Понятно... У меня были еще вопросы...\""
 
 #: 54439
 msgid "\"Probably. Farewell.\""
-msgstr "\"Возможно. Прощай.\""
+msgstr "\"Возможно. Прощай\"."
 
 #: 54440
 msgid ""
@@ -422,7 +422,7 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 54445
 msgid "\"Good luck. Farewell.\""
-msgstr "\"Удачи. Прощай.\""
+msgstr "\"Удачи. Прощай\"."
 
 #: 54446
 msgid ""
@@ -456,7 +456,7 @@ msgstr "\"Так кто ты на самом деле?\""
 
 #: 54452 54457 54460 54479 54517 54539
 msgid "\"I see. Farewell.\""
-msgstr "\"Понятно. Прощай.\""
+msgstr "\"Понятно. Прощай\"."
 
 #: 54453
 msgid ""
@@ -484,7 +484,7 @@ msgstr ""
 
 #: 54465 54470 54475 54576
 msgid "\"My thanks. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 54466
 msgid ""
@@ -763,7 +763,7 @@ msgstr ""
 
 #: 54574
 msgid "\"Yes.\""
-msgstr "\"Да.\""
+msgstr "\"Да\"."
 
 #: 54575
 msgid ""
@@ -880,7 +880,7 @@ msgstr "Подождать."
 #: 54614 54617
 #, fuzzy
 msgid "\"Let's talk this out!\""
-msgstr "\"Сначала попробуй.\""
+msgstr "\"Сначала попробуй\"."
 
 #: 54618
 msgid ""
@@ -975,7 +975,7 @@ msgstr ""
 #: 54636 54642 54643
 #, fuzzy
 msgid "\"There must be another way, Trias.\""
-msgstr "\"Расскажи мне о демонах.\""
+msgstr "\"Расскажи мне о демонах\"."
 
 #: 54638
 msgid ""
@@ -1156,7 +1156,7 @@ msgstr ""
 #: 54676 54679
 #, fuzzy
 msgid "\"That's enough, Trias. Stand down, or we shall fight.\""
-msgstr "\"Хватит с меня этой напыщенности. Прощай.\""
+msgstr "\"Хватит с меня этой напыщенности. Прощай\"."
 
 #: 54677
 msgid ""
@@ -1261,7 +1261,7 @@ msgstr ""
 #: 54706 54761
 #, fuzzy
 msgid "\"Just die, already.\""
-msgstr "\"Она уже мертва.\""
+msgstr "\"Она уже мертва\"."
 
 #: 54707
 msgid ""
@@ -1329,7 +1329,7 @@ msgstr "\"Что ты можешь рассказать о здешних зав
 #: 54718 54724
 #, fuzzy
 msgid "\"My thanks, Trias. Now you shall die.\""
-msgstr "\"Все равно благодарю. Прощай.\""
+msgstr "\"Все равно благодарю. Прощай\"."
 
 #: 54719 54725
 #, fuzzy
@@ -1349,7 +1349,7 @@ msgstr ""
 
 #: 54722
 msgid "\"Go on.\""
-msgstr "\"Продолжай.\" нужна.\""
+msgstr "\"Продолжай\". нужна\"."
 
 #: 54723
 msgid ""
@@ -1395,7 +1395,7 @@ msgstr ""
 #: 54733 54734
 #, fuzzy
 msgid "\"Good luck with it. Farewell.\""
-msgstr "\"Удачи. Прощай.\""
+msgstr "\"Удачи. Прощай\"."
 
 #: 54735
 msgid ""
@@ -1442,7 +1442,7 @@ msgstr ""
 #: 54745 54746
 #, fuzzy
 msgid "\"Forget it. Farewell, Trias.\""
-msgstr "\"Забудь об этом. Прощай.\""
+msgstr "\"Забудь об этом. Прощай\"."
 
 #: 54747
 msgid ""
@@ -1456,7 +1456,7 @@ msgstr ""
 #: 54748 54749
 #, fuzzy
 msgid "\"Best of luck, Trias. Farewell.\""
-msgstr "\"Да прибудет с тобой удача. Прощай.\""
+msgstr "\"Да прибудет с тобой удача. Прощай\"."
 
 #: 54750
 msgid "I convinced Trias to seek forgiveness in the Upper Planes."
@@ -1495,12 +1495,12 @@ msgstr ""
 #: 54758
 #, fuzzy
 msgid "\"I had more questions for you.\""
-msgstr "\"У меня есть вопросы к тебе.\""
+msgstr "\"У меня есть вопросы к тебе\"."
 
 #: 54759
 #, fuzzy
 msgid "\"Not really. Farewell.\""
-msgstr "\"На самом деле - ничего. Прощай.\""
+msgstr "\"На самом деле - ничего. Прощай\"."
 
 #: 54760
 msgid ""
@@ -1547,7 +1547,7 @@ msgstr ""
 #: 61306
 #, fuzzy
 msgid "\"I just wanted some questions answered...\""
-msgstr "\"У меня есть некоторые вопросы.\""
+msgstr "\"У меня есть некоторые вопросы\"."
 
 #: 61310 61311
 msgid ""
@@ -1567,9 +1567,8 @@ msgstr "\"Чем ты здесь занимаешься?\""
 #: 68139
 #, fuzzy
 msgid "\"I'll do it. Farewell.\""
-msgstr "\"Я свалю. Прощай.\""
+msgstr "\"Я свалю. Прощай\"."
 
 #: 68140
 msgid "\"Very well. I'll be back.\""
 msgstr ""
-

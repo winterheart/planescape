@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 49532
@@ -31,7 +31,7 @@ msgstr "\"Как я попал сюда?\""
 #: 49535
 #, fuzzy
 msgid "\"Not at the moment. Farewell.\""
-msgstr "\"Нет, в этот раз. Прощай.\""
+msgstr "\"Нет, в этот раз. Прощай\"."
 
 #: 49536
 msgid ""
@@ -46,7 +46,7 @@ msgstr ""
 
 #: 49538
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 49539
 msgid ""
@@ -58,7 +58,7 @@ msgstr ""
 #: 49540
 #, fuzzy
 msgid "\"Yes, please do.\""
-msgstr "\"Хорошо, по рукам.\""
+msgstr "\"Хорошо, по рукам\"."
 
 #: 49541
 msgid ""
@@ -72,7 +72,7 @@ msgstr ""
 #: 49542 49546 49549
 #, fuzzy
 msgid "\"Yes, that'd be nice.\""
-msgstr "\"Да, это звучит достаточно логично.\""
+msgstr "\"Да, это звучит достаточно логично\"."
 
 #: 49543
 msgid "\"No... but what do you mean, 'waiting for my return?'\""
@@ -81,7 +81,7 @@ msgstr ""
 #: 49544 49547 49550
 #, fuzzy
 msgid "\"Not right now. Farewell.\""
-msgstr "\"Не сейчас. Прощай.\""
+msgstr "\"Не сейчас. Прощай\"."
 
 #: 49545
 msgid ""
@@ -98,4 +98,4 @@ msgstr ""
 
 #: 64176
 msgid "\"No thanks. Farewell.\""
-msgstr "\"Нет, спасибо. Прощай.\""
+msgstr "\"Нет, спасибо. Прощай\"."

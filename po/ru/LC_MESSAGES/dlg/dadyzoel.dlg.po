@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 15296
@@ -294,7 +294,7 @@ msgstr ""
 
 #: 15359
 msgid "\"No. Farewell.\""
-msgstr "\"Нет. Прощай.\""
+msgstr "\"Нет. Прощай\"."
 
 #: 15360
 msgid ""
@@ -304,7 +304,7 @@ msgstr ""
 #: 15361 15362
 #, fuzzy
 msgid "\"Make the time. You'll answer my questions.\""
-msgstr "\"Забудь об этом. Вместо этого ответь на несколько вопросов.\""
+msgstr "\"Забудь об этом. Вместо этого ответь на несколько вопросов\"."
 
 #: 15363
 msgid "\"I won't waste your time, then, low-bred cur.\""
@@ -317,11 +317,11 @@ msgstr "Уйти."
 #: 15365 15366
 #, fuzzy
 msgid "\"You heard me, woman.\""
-msgstr "\"Ты - покойник.\""
+msgstr "\"Ты - покойник\"."
 
 #: 15367
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 15368 15373 15389 15420 15467
 msgid "Meet his attack."
@@ -364,7 +364,7 @@ msgstr ""
 #: 15380
 #, fuzzy
 msgid "\"That I won't do. Farewell.\""
-msgstr "\"Это точно. Тогда прощай.\""
+msgstr "\"Это точно. Тогда прощай\"."
 
 #: 15381 15422
 #, fuzzy
@@ -420,19 +420,19 @@ msgstr "\"Что ты здесь делаешь?\""
 #: 15396 15397 15432 15433
 #, fuzzy
 msgid "\"I want to fight a duel.\""
-msgstr "\"Я не буду делать этого. Никакой сделки.\""
+msgstr "\"Я не буду делать этого. Никакой сделки\"."
 
 #: 15398 15434
 msgid "\"I'm looking for a man named Pharod.\""
-msgstr "\"Я разыскиваю мужчину по имени Фарод.\""
+msgstr "\"Я разыскиваю мужчину по имени Фарод\"."
 
 #: 15399 15435
 msgid "\"I'm looking for a journal I've lost.\""
-msgstr "\"Я ищу потерянный дневник.\""
+msgstr "\"Я ищу потерянный дневник\"."
 
 #: 15400 15436 15437
 msgid "\"Nothing, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно. Прощай\"."
 
 #: 15401 15405 15409 15415
 msgid "\"I had other questions...\""
@@ -440,22 +440,22 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 15402 15403 15404 15406 15407 15408
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 15410 15411 15412
 #, fuzzy
 msgid "\"We may speak again, Adyzoel. Farewell.\""
-msgstr "\"Я не буду об этом говорить. Прощай.\""
+msgstr "\"Я не буду об этом говорить. Прощай\"."
 
 #: 15413 15414
 #, fuzzy
 msgid "\"I think I'd be a good test of your skills.\""
-msgstr "\"Думаю, я выслушал достаточно. Прощай.\""
+msgstr "\"Думаю, я выслушал достаточно. Прощай\"."
 
 #: 15416 15417 15418
 #, fuzzy
 msgid "\"I hope you find your trouble, then. Farewell.\""
-msgstr "\"Посмотрим, смогу ли я найти такого. Прощай.\""
+msgstr "\"Посмотрим, смогу ли я найти такого. Прощай\"."
 
 #: 15419
 msgid "\"Wait...\""
@@ -464,7 +464,7 @@ msgstr "\"Постой...\"ь!\""
 #: 15426 15427
 #, fuzzy
 msgid "\"Very well. Let's fight.\""
-msgstr "\"Хорошо. Уходим.\""
+msgstr "\"Хорошо. Уходим\"."
 
 #: 15428
 msgid "\"Forget it, then. I had some questions...\""
@@ -472,12 +472,12 @@ msgstr "\"Забудь об этом. У меня есть некоторые в
 
 #: 15429
 msgid "\"Never mind, then. Farewell.\""
-msgstr "\"Тогда неважно. Прощай.\""
+msgstr "\"Тогда неважно. Прощай\"."
 
 #: 15438 15439
 #, fuzzy
 msgid "\"I'm here to fight.\""
-msgstr "\"Ух... Хорошо.\""
+msgstr "\"Ух... Хорошо\"."
 
 #: 15440 15441 15450
 msgid "\"I had some questions...\""
@@ -486,7 +486,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 #: 15442 15443
 #, fuzzy
 msgid "\"Neither. Farewell.\""
-msgstr "\"Конечно. Прощай.\""
+msgstr "\"Конечно. Прощай\"."
 
 #: 15446 15448
 #, fuzzy
@@ -513,7 +513,7 @@ msgstr ""
 #: 15458 15459
 #, fuzzy
 msgid "\"Not quite. I'm back for another fight.\""
-msgstr "\"Забудь. Я вернусь.\""
+msgstr "\"Забудь. Я вернусь\"."
 
 #: 15460
 #, fuzzy
@@ -560,7 +560,7 @@ msgstr ""
 #: 15474
 #, fuzzy
 msgid "\"It's no concern of yours.\""
-msgstr "\"Это не твое дело. Прощай.\""
+msgstr "\"Это не твое дело. Прощай\"."
 
 #: 15475
 msgid "\"Mind your mouth, or you're next.\""
@@ -568,7 +568,7 @@ msgstr ""
 
 #: 15476
 msgid "\"Very well. Farewell.\""
-msgstr "\"Отлично. Прощай.\""
+msgstr "\"Отлично. Прощай\"."
 
 #: 15477
 msgid "\"First, tell me why it matters to you at all.\""
@@ -580,7 +580,7 @@ msgstr ""
 
 #: 15479
 msgid "\"Fine. Farewell.\""
-msgstr "\"Отлично. Прощай.\""
+msgstr "\"Отлично. Прощай\"."
 
 #: 15481
 msgid "Wait."
@@ -593,5 +593,4 @@ msgstr ""
 #: 15484 15485
 #, fuzzy
 msgid "\"We'll fight.\""
-msgstr "\"Хорошо.\" "
-
+msgstr "\"Хорошо\". "

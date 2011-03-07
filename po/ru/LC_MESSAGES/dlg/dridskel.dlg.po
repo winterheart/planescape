@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 20324
@@ -211,7 +211,7 @@ msgstr ""
 #: 20359 20363
 #, fuzzy
 msgid "\"I'd like the answer to one of your riddles.\""
-msgstr "\"Хочется посмотреть на эту попытку.\""
+msgstr "\"Хочется посмотреть на эту попытку\"."
 
 #: 20360
 msgid "\"I had some questions...\""
@@ -220,7 +220,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 #: 20361
 #, fuzzy
 msgid "\"I'll take my leave, now. Farewell.\""
-msgstr "\"Я должен идти, прощай.\""
+msgstr "\"Я должен идти, прощай\"."
 
 #: 20364
 msgid "\"Very well, I'll find someone else. Farewell.\""
@@ -240,7 +240,7 @@ msgstr ""
 
 #: 20368 20393
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 20370 20384 20428 48940
 msgid "Leave."
@@ -248,11 +248,11 @@ msgstr "Уйти."
 
 #: 20371
 msgid "\"Yes.\""
-msgstr "\"Да.\""
+msgstr "\"Да\"."
 
 #: 20372
 msgid "\"No, farewell.\""
-msgstr "\"Нет, прощай.\""
+msgstr "\"Нет, прощай\"."
 
 #: 20373
 #, fuzzy
@@ -262,12 +262,12 @@ msgstr "\"Ну конечно. У меня есть другие вопросы.
 #: 20374
 #, fuzzy
 msgid "\"It's... uh... hmm.\""
-msgstr "\"Эээ... нет.\""
+msgstr "\"Эээ... нет\"."
 
 #: 20375
 #, fuzzy
 msgid "\"I'll think about it. Farewell.\""
-msgstr "\"Я подумаю над этим. Прощай.\""
+msgstr "\"Я подумаю над этим. Прощай\"."
 
 #: 20376
 msgid ""
@@ -287,12 +287,12 @@ msgstr "\"Что-что?\""
 #: 20379 20381 20386
 #, fuzzy
 msgid "\"Sure. I promise not to tell. Farewell.\""
-msgstr "\"Нет, думаю, нет. Прощай.\""
+msgstr "\"Нет, думаю, нет. Прощай\"."
 
 #: 20380 20382 20387
 #, fuzzy
 msgid "\"I won't promise anything. Farewell.\""
-msgstr "\"Мне это не нужно. Прощай.\""
+msgstr "\"Мне это не нужно. Прощай\"."
 
 #: 20383
 msgid "\"Right, right. Farewell.\""
@@ -305,7 +305,7 @@ msgstr ""
 #: 20389
 #, fuzzy
 msgid "\"Heh. Farewell.\""
-msgstr "\"Хм. Прощай.\""
+msgstr "\"Хм. Прощай\"."
 
 #: 20390
 msgid "\"What if I stump *you?* Will you tell me, then?\""
@@ -314,12 +314,12 @@ msgstr ""
 #: 20394
 #, fuzzy
 msgid "\"Very well. Let's begin.\""
-msgstr "\"Хорошо. Уходим.\""
+msgstr "\"Хорошо. Уходим\"."
 
 #: 20395 20397 20399 20402 20404 20406 20409 20411 20413 20416 20418
 #, fuzzy
 msgid "\"Never mind this. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 20396
 msgid ""
@@ -337,7 +337,7 @@ msgstr ""
 
 #: 20401 20408 20415
 msgid "\"I... don't know.\""
-msgstr "\"Я... не знаю.\" "
+msgstr "\"Я... не знаю\". "
 
 #: 20403
 msgid ""

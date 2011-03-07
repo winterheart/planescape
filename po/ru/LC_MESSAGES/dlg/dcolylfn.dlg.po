@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 18505
@@ -51,7 +51,7 @@ msgstr ""
 #: 18511 18513
 #, fuzzy
 msgid "\"I'm looking for some information...\""
-msgstr "\"Сейчас мне нужна информация.\""
+msgstr "\"Сейчас мне нужна информация\"."
 
 #: 18512
 msgid "\"Eh, now how's me skull?\" He laughs, a wheezing, horrible sound."
@@ -71,7 +71,7 @@ msgstr "\"Каковы твои обязанности?\""
 #: 18516 18575
 #, fuzzy
 msgid "Truth: \"Go on, take the skull.\""
-msgstr "Правда: \"Да не очень-то.\""
+msgstr "Правда: \"Да не очень-то\"."
 
 #: 18517 18576
 msgid "Attack him as soon as he's off-guard: \"Go on, take the skull.\""
@@ -91,7 +91,7 @@ msgstr ""
 #: 18520 18553 18569 18579
 #, fuzzy
 msgid "\"I'll buy the skull from you. Fair?\""
-msgstr "\"Я принесу тебе их, Раук.\""
+msgstr "\"Я принесу тебе их, Раук\"."
 
 #: 18521 18554 18570
 msgid "\"Who are you?\""
@@ -100,7 +100,7 @@ msgstr "\"Кто ты?\""
 #: 18522 18523 18528 18529 18533 18534 18555 18556 18571 18572 18580 18581
 #, fuzzy
 msgid "\"Just forget you ever saw it. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно. Прощай\"."
 
 #: 18524
 msgid ""
@@ -118,7 +118,7 @@ msgstr ""
 #: 18526 18531
 #, fuzzy
 msgid "\"I wouldn't try it.\""
-msgstr "\"Я хотел бы, чтобы ты назвал точную сумму.\""
+msgstr "\"Я хотел бы, чтобы ты назвал точную сумму\"."
 
 #: 18527 18532
 #, fuzzy
@@ -135,7 +135,7 @@ msgstr ""
 #: 18547 18548
 #, fuzzy
 msgid "\"Get lost, mongrel.\""
-msgstr "\"Приветствую тебя, Ингресс.\""
+msgstr "\"Приветствую тебя, Ингресс\"."
 
 #: 18549
 msgid "Truth: \"Go on, the. Take the skull.\""
@@ -286,7 +286,7 @@ msgstr "\"Понятно. У меня были вопросы...\""
 #: 18605 18606
 #, fuzzy
 msgid "\"Ah, 'trouble.' Farewell.\""
-msgstr "\"Они-то смогут. Прощай.\""
+msgstr "\"Они-то смогут. Прощай\"."
 
 #: 18607
 msgid "\"Hmph.\" He narrows his eyes, but says nothing more. He looks uneasy."
@@ -298,7 +298,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 18609 18610
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 18611
 msgid ""
@@ -342,7 +342,7 @@ msgstr "\"Так что же ты здесь делаешь?\""
 #: 18620 18621 18627 18628 18664 18665
 #, fuzzy
 msgid "\"Forget I asked. Farewell.\""
-msgstr "\"Забудь об этом. Прощай.\""
+msgstr "\"Забудь об этом. Прощай\"."
 
 #: 18622
 msgid ""
@@ -358,28 +358,28 @@ msgstr ""
 #: 18630 18638 18685 18693 18701 18718 18725
 #, fuzzy
 msgid "\"Tell me about Sigil.\""
-msgstr "\"Расскажи мне о демонах.\""
+msgstr "\"Расскажи мне о демонах\"."
 
 #: 18631 18639 18669 18676 18719 18726
 msgid "\"Tell me about Collectors.\""
-msgstr "\"Расскажи мне о Сборщиках.\""
+msgstr "\"Расскажи мне о Сборщиках\"."
 
 #: 18632 18640 18670 18677 18686 18694 18702 18720 18727
 msgid "\"I'm looking for a man named Pharod.\""
-msgstr "\"Я разыскиваю мужчину по имени Фарод.\""
+msgstr "\"Я разыскиваю мужчину по имени Фарод\"."
 
 #: 18633 18641 18671 18678 18687 18695 18703 18721
 msgid "\"I'm looking for a journal that I've lost.\""
-msgstr "\"Я ищу потерянный дневник.\""
+msgstr "\"Я ищу потерянный дневник\"."
 
 #: 18634 18642 18672 18679 18688 18696 18704 18728
 #, fuzzy
 msgid "\"Tell me about Mebbeth.\""
-msgstr "\"Расскажи мне о демонах.\""
+msgstr "\"Расскажи мне о демонах\"."
 
 #: 18635 18636 18643 18644
 msgid "\"Nothing, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно. Прощай\"."
 
 #: 18637
 msgid "\"Talk. I lissen, mebbe I have some things to say...\""
@@ -398,7 +398,7 @@ msgstr ""
 #: 18651 18652 18710 18711
 #, fuzzy
 msgid "\"Forget I asked, then. Farewell.\""
-msgstr "\"Забудь об этом. Прощай.\""
+msgstr "\"Забудь об этом. Прощай\"."
 
 #: 18653
 msgid ""
@@ -416,7 +416,7 @@ msgstr ""
 
 #: 18656 18657
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 18658
 msgid ""
@@ -439,7 +439,7 @@ msgstr ""
 #: 18667
 #, fuzzy
 msgid "\"Tell me more about the city.\""
-msgstr "\"Расскажи мне о телах побольше.\""
+msgstr "\"Расскажи мне о телах побольше\"."
 
 #: 18668
 msgid "\"What about this area?\""
@@ -447,7 +447,7 @@ msgstr ""
 
 #: 18673 18674 18689 18690 18697 18698 18722 18723 18729 18730
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 18675
 msgid ""
@@ -458,7 +458,7 @@ msgstr ""
 #: 18680 18681
 #, fuzzy
 msgid "\"I'll find one, then. Farewell.\""
-msgstr "\"Посмотрим, смогу ли я найти такого. Прощай.\""
+msgstr "\"Посмотрим, смогу ли я найти такого. Прощай\"."
 
 #: 18682
 msgid "\"Aye?\" Looks confused. \"What about 'em?\""
@@ -487,7 +487,7 @@ msgstr ""
 #: 18705 18706
 #, fuzzy
 msgid "\"It doesn't. Farewell.\""
-msgstr "\"Я постараюсь. Прощай.\""
+msgstr "\"Я постараюсь. Прощай\"."
 
 #: 18707
 msgid ""
@@ -593,7 +593,7 @@ msgstr ""
 #: 18744
 #, fuzzy
 msgid "\"Give me everything you've got and I'll let you live.\""
-msgstr "\"Отдай мне все, что у тебя есть, ворюга, и я тебя отпущу.\""
+msgstr "\"Отдай мне все, что у тебя есть, ворюга, и я тебя отпущу\"."
 
 #: 18745
 msgid "\"Just get out of here, and don't ever let me see you again.\""
@@ -669,7 +669,7 @@ msgstr ""
 
 #: 18764
 msgid "\"Forget it. Farewell.\""
-msgstr "\"Забудь. Прощай.\""
+msgstr "\"Забудь. Прощай\"."
 
 #: 18765
 msgid "\"You were robbing me. Leave, and don't let me see you again.\""
@@ -742,7 +742,7 @@ msgstr ""
 
 #: 18789 18790 18793 18794
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 18791
 msgid ""
@@ -771,4 +771,3 @@ msgstr ""
 #, fuzzy
 msgid "Ignore it and leave."
 msgstr "Не обращать на него внимания и уйти."
-

@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 16198
@@ -207,7 +207,7 @@ msgstr ""
 #: 61841 61855 61856 61857 61858 61859
 #, fuzzy
 msgid "\"Ignus, I need your help.\""
-msgstr "\"Потому что мне нужна твоя помощь.\""
+msgstr "\"Потому что мне нужна твоя помощь\"."
 
 #: 33994
 msgid "*\"I am yourssss... 'til death comessss for ussss both...\"*"
@@ -216,7 +216,7 @@ msgstr ""
 #: 33995
 #, fuzzy
 msgid "\"Very well. Let's go.\""
-msgstr "\"Хорошо. Уходим.\""
+msgstr "\"Хорошо. Уходим\"."
 
 #: 33996
 msgid ""
@@ -232,7 +232,7 @@ msgstr "\"А что случилось с твоим глазом?\""
 #: 48406 52782
 #, fuzzy
 msgid "\"We shall see...\""
-msgstr "\"Говори.\""
+msgstr "\"Говори\"."
 
 #: 52561
 msgid "*\"Burnnnnn....\"*"
@@ -270,18 +270,18 @@ msgstr ""
 #: 54148 54149
 #, fuzzy
 msgid "\"I... see. Dak'kon?\""
-msgstr "\"Прощай, Дхолл.\""
+msgstr "\"Прощай, Дхолл\"."
 
 #: 54150 54151
 #, fuzzy
 msgid "\"I... see. Morte?\""
-msgstr "\"Я... кажется, потерялся.\" "
+msgstr "\"Я... кажется, потерялся\". "
 
 #: 54152 54153 54154
 #, fuzzy
 msgid ""
 "\"All right then... let's see what's on the other side of this portal.\""
-msgstr "\"Хорошо. Ответь тогда на несколько вопросов.\""
+msgstr "\"Хорошо. Ответь тогда на несколько вопросов\"."
 
 #: 57439 57610 57639
 msgid "\"Ignus... is it true you burned down the Alley of Dangerous Angles?\""
@@ -345,7 +345,7 @@ msgstr ""
 #: 57454
 #, fuzzy
 msgid "\"Never mind, then...\""
-msgstr "\"Тогда неважно.\""
+msgstr "\"Тогда неважно\"."
 
 #: 57580
 msgid ""
@@ -609,7 +609,7 @@ msgstr ""
 #: 57698
 #, fuzzy
 msgid "\"I've heard enough. We'll sp-\""
-msgstr "\"Я достаточно наслушался. Прощай.\""
+msgstr "\"Я достаточно наслушался. Прощай\"."
 
 #: 57700
 msgid ""
@@ -773,7 +773,7 @@ msgstr ""
 #: 57759 57775 57782
 #, fuzzy
 msgid "\"Never mind, Ignus... we will speak again later.\""
-msgstr "\"Неважно. Мне пора идти.\""
+msgstr "\"Неважно. Мне пора идти\"."
 
 #: 57760
 msgid ""
@@ -990,7 +990,7 @@ msgstr ""
 #: 57823 57828 57835
 #, fuzzy
 msgid "\"Maybe some other time, Ignus... we may speak again later.\""
-msgstr "\"Возможно, в другой раз. Прощай.\""
+msgstr "\"Возможно, в другой раз. Прощай\"."
 
 #: 57824
 msgid ""
@@ -1073,7 +1073,7 @@ msgstr "\"Понятно... У меня были еще вопросы...\" "
 #: 57844 57855
 #, fuzzy
 msgid "\"Enough... Ignus... we will speak again later.\""
-msgstr "\"Ясно. Возможно, мы еще встретимся.\""
+msgstr "\"Ясно. Возможно, мы еще встретимся\"."
 
 #: 57845
 msgid ""
@@ -1143,7 +1143,7 @@ msgstr ""
 #: 57861 57886
 #, fuzzy
 msgid "\"Never mind then, Ignus... we will speak again later.\""
-msgstr "\"Неважно. Мне пора идти.\""
+msgstr "\"Неважно. Мне пора идти\"."
 
 #: 57862
 msgid ""
@@ -1310,7 +1310,7 @@ msgstr ""
 #: 61834 61842 61860
 #, fuzzy
 msgid "\"Uh... I see. Farewell, then.\""
-msgstr "\"Ух... Тогда прощай.\""
+msgstr "\"Ух... Тогда прощай\"."
 
 #: 61835
 msgid ""
@@ -1326,7 +1326,7 @@ msgstr ""
 
 #: 61844 61846 61848 61850 61852
 msgid "\"Let's go.\""
-msgstr "\"Вперед.\""
+msgstr "\"Вперед\"."
 
 #: 61845
 msgid ""
@@ -1445,4 +1445,3 @@ msgstr ""
 msgid ""
 "\"Keep up the pressure, Ignus -- don't give him a chance to concentrate.\""
 msgstr ""
-

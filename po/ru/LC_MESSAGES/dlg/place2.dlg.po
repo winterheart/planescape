@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 30880
@@ -30,18 +30,17 @@ msgstr ""
 "Перед тобой тощий мужчина в рваной одежде, с носом крючком и двумя "
 "обломанными рогами, выступающими изо лба. Он шатается из стороны в сторону, "
 "что-то бормоча себе под нос... от него воняет рассолом, блевотиной и дешевым "
-"вином. [Be sure to put in "
-"placeholder 2]"
+"вином. [Be sure to put in placeholder 2]"
 
 #: 38701
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 38702 38705
 msgid "\"Are you Jhelai? If so, Craddock needs you back at the marketplace.\""
 msgstr ""
-"\"Ты ведь Джелай? Если да, то Крэддок хочет, чтобы ты вернулся назад на "
-"рынок.\""
+"\"Ты ведь Джелай? Если да, то Крэддок хочет, чтобы ты вернулся назад на рынок"
+"\"."
 
 #: 38703
 msgid "Pass on by."
@@ -53,6 +52,4 @@ msgstr "\"А?\" Мужчина рассеянно на тебя косится. 
 
 #: 38706
 msgid "\"Never mind. Sorry to bother you.\""
-msgstr "\"Неважно. Извини за беспокойство.\""
-
-
+msgstr "\"Неважно. Извини за беспокойство\"."

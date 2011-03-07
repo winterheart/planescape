@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 17170
@@ -234,7 +234,7 @@ msgstr "Отступить назад."
 #: 17245 17249
 #, fuzzy
 msgid "\"No, I'm not dead.\""
-msgstr "\"Нет, не сегодня.\""
+msgstr "\"Нет, не сегодня\"."
 
 #: 17252 17257
 #, fuzzy
@@ -288,7 +288,7 @@ msgstr ""
 #: 17288
 #, fuzzy
 msgid "\"Eh... thanks. Farewell.\""
-msgstr "\"Нет, спасибо. Прощай.\""
+msgstr "\"Нет, спасибо. Прощай\"."
 
 #: 17293
 msgid "Don't let him bite you, leave."
@@ -316,7 +316,7 @@ msgstr ""
 #: 17312 17334
 #, fuzzy
 msgid "\"That's too bad. Farewell.\""
-msgstr "\"Это точно. Тогда прощай.\""
+msgstr "\"Это точно. Тогда прощай\"."
 
 #: 17313
 #, fuzzy
@@ -326,22 +326,22 @@ msgstr "\"Почему ты лжешь мне?\""
 #: 17314 17325
 #, fuzzy
 msgid "Truth: \"Stop following me, or I'll kill you. Farewell.\""
-msgstr "Тихо: \"Хватит вырываться, или я вырву тебе руку.\""
+msgstr "Тихо: \"Хватит вырываться, или я вырву тебе руку\"."
 
 #: 17315 17326
 #, fuzzy
 msgid "Bluff: \"Stop following me, or I'll kill you. Farewell.\""
-msgstr "Блеф: \"Отдай мне все, что у тебя есть, или я убью тебя.\""
+msgstr "Блеф: \"Отдай мне все, что у тебя есть, или я убью тебя\"."
 
 #: 17321 17328
 #, fuzzy
 msgid "\"Stop following me. Farewell.\""
-msgstr "\"Нет. Прощай.\""
+msgstr "\"Нет. Прощай\"."
 
 #: 17322 17323
 #, fuzzy
 msgid "\"Very well. Here, take a bite of my arm.\""
-msgstr "\"Хорошо. Вот пять монет.\""
+msgstr "\"Хорошо. Вот пять монет\"."
 
 #: 17330
 msgid "\"Don't follow me any longer. Farewell.\""
@@ -358,7 +358,7 @@ msgstr ""
 #: 17339
 #, fuzzy
 msgid "\"No, not yet.\""
-msgstr "\"Нет, не сегодня.\""
+msgstr "\"Нет, не сегодня\"."
 
 #: 17340
 msgid "Lie: \"I... must have dropped it somewhere. I'll return soon.\""

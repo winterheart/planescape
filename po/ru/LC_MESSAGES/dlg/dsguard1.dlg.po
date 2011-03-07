@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 37925
@@ -21,7 +21,7 @@ msgstr ""
 
 #: 37926
 msgid "He nods at you. \"Good day, citizen.\""
-msgstr "Он кивает тебе. \"Добрый день, гражданин.\""
+msgstr "Он кивает тебе. \"Добрый день, гражданин\"."
 
 #: 37927
 msgid ""
@@ -29,13 +29,13 @@ msgid ""
 "questions. Please take them elsewhere.\""
 msgstr ""
 "Он качает головой. \"Я при исполнении, гражданин. У меня нет времени на "
-"вопросы. Пожалуйста, задай их кому-нибудь другому.\""
+"вопросы. Пожалуйста, задай их кому-нибудь другому\"."
 
 #: 37928
 msgid ""
 "He frowns at you. \"I do not have time for questions, citizen. Move along.\""
 msgstr ""
-"Он хмурится. \"У меня нет времени на вопросы, гражданин. Проходи мимо.\""
+"Он хмурится. \"У меня нет времени на вопросы, гражданин. Проходи мимо\"."
 
 #: 37929
 msgid ""
@@ -43,11 +43,11 @@ msgid ""
 "citizen.\""
 msgstr ""
 "Ты видишь стражника Гармониума. При твоем приближении он хмурится. \"Добрый "
-"день еще раз, гражданин.\""
+"день еще раз, гражданин\"."
 
 #: 37930
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 37931
 msgid "Ignore the man."
@@ -59,13 +59,12 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 37933 37938
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 37934
 msgid "\"It would only take a moment of your time.\""
-msgstr "\"Это займет не так уж много твоего времени.\""
+msgstr "\"Это займет не так уж много твоего времени\"."
 
 #: 37935 37936
 msgid "\"Fine. Farewell.\""
-msgstr "\"Отлично. Прощай.\""
-
+msgstr "\"Отлично. Прощай\"."

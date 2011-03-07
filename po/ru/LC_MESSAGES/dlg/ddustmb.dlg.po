@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 2324
@@ -43,7 +43,7 @@ msgstr "Он мотает головой."
 
 #: 2330 2332
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 2331 2333
 msgid "Leave him in peace."
@@ -55,7 +55,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 2335 2338
 msgid "\"Nothing, never mind.\""
-msgstr "\"Ничего, неважно.\""
+msgstr "\"Ничего, неважно\"."
 
 #: 2336 2341
 msgid "\"Do you know where I can find someone named Pharod?\""
@@ -67,7 +67,7 @@ msgstr "\"Я ищу потерявшийся дневник. Тебе такой
 
 #: 2340 2342
 msgid "\"Thanks anyway. Farewell.\""
-msgstr "\"Все равно спасибо. Прощай.\""
+msgstr "\"Все равно спасибо. Прощай\"."
 
 #: 66581
 msgid ""
@@ -75,9 +75,9 @@ msgid ""
 "wish to know more of him, I am told that Initiate Emoric in the Gathering "
 "Dust Bar also seeks him. It may be that he can help you.\""
 msgstr ""
-"\"Фарод - это Сборщик.\" На мгновение мужчина тебя изучает. \"Если хочешь "
+"\"Фарод - это Сборщик\". На мгновение мужчина тебя изучает. \"Если хочешь "
 "знать о нем больше, то Посвященный Эморик из Бара Собирателей Пыли тоже ищет "
-"его. Возможно, он поможет тебе.\""
+"его. Возможно, он поможет тебе\"."
 
 #: 66582
 msgid "\"Where is the Gathering Dust bar?\""
@@ -88,7 +88,7 @@ msgid ""
 "\"The Gathering Dust Bar? That's to the southwest of here, right? I'll head "
 "there, then.\""
 msgstr ""
-"\"Бар Собирателей Пыли? Он на юго-западе отсюда, верно? Тогда я схожу туда.\""
+"\"Бар Собирателей Пыли? Он на юго-западе отсюда, верно? Тогда я схожу туда\"."
 
 #: 66584
 msgid ""
@@ -96,7 +96,7 @@ msgid ""
 "the memorial.\""
 msgstr ""
 "\"Как только выйдешь из Главных ворот Морга, сразу поверни на юго-запад. Он "
-"расположен за мемориалом.\""
+"расположен за мемориалом\"."
 
 #: 66585
 msgid "\"All right. I had some other questions before I go...\""
@@ -112,7 +112,7 @@ msgstr ""
 
 #: 66587
 msgid "\"Very well. I will seek it out, then.\""
-msgstr "\"Очень хорошо. Тогда пойду его искать.\""
+msgstr "\"Очень хорошо. Тогда пойду его искать\"."
 
 #: 66588
 msgid ""
@@ -123,4 +123,3 @@ msgstr ""
 "Один из Тленных сказал мне, что если я разыскиваю Фарода, то мне следует "
 "поговорить с некоим \"Эмориком\" в Баре Собирателей Пыли, заведении к юго-"
 "западу от Главных ворот Морга. "
-

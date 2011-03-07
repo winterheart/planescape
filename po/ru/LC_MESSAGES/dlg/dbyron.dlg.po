@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 34629
@@ -232,7 +232,7 @@ msgstr ""
 
 #: 34661
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 34662
 msgid "Ignore the man."
@@ -248,7 +248,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 34665
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 34666
 msgid "\"I'm a merchant.\""
@@ -256,7 +256,7 @@ msgstr ""
 
 #: 34668 68105
 msgid "\"Nothing, farewell.\""
-msgstr "\"Ничего, прощай.\""
+msgstr "\"Ничего, прощай\"."
 
 #: 34669
 #, fuzzy
@@ -265,7 +265,7 @@ msgstr "\"Что ты можешь сказать об этих трущобах
 
 #: 34673
 msgid "\"Very well, farewell.\""
-msgstr "\"Хорошо, прощай.\""
+msgstr "\"Хорошо, прощай\"."
 
 #: 34674
 msgid "\"What is this place?\""
@@ -274,7 +274,7 @@ msgstr "\"Что это за место?\""
 #: 34675 35787
 #, fuzzy
 msgid "\"I want to talk to you about Trist.\""
-msgstr "\"Я хочу задать несколько вопросов о городе.\""
+msgstr "\"Я хочу задать несколько вопросов о городе\"."
 
 #: 34676
 msgid "\"I'm looking for someone named Lothar, or the Master of the Bones...\""
@@ -286,17 +286,17 @@ msgstr ""
 
 #: 34678
 msgid "\"I must be going now. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 34679
 #, fuzzy
 msgid "\"Tell me about the Lower Ward.\""
-msgstr "\"Расскажи мне о Морге.\""
+msgstr "\"Расскажи мне о Морге\"."
 
 #: 34680 34697 35789
 #, fuzzy
 msgid "\"Tell me about the open-air market.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Аллее\"."
 
 #: 34681 34685
 msgid "\"I have other questions...\""
@@ -304,7 +304,7 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 34682 34686 34689 34692 35755
 msgid "\"I must be going. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 34683
 #, fuzzy
@@ -317,7 +317,7 @@ msgstr ""
 
 #: 34687
 msgid "\"Go on.\""
-msgstr "\"Продолжай.\""
+msgstr "\"Продолжай\"."
 
 #: 34688 34698 35754 35768 35790
 msgid "\"I have some other questions...\""
@@ -338,7 +338,7 @@ msgstr ""
 #: 34694 67290
 #, fuzzy
 msgid "\"I'm looking for some training...\""
-msgstr "\"Я ищу работу.\""
+msgstr "\"Я ищу работу\"."
 
 #: 34695
 msgid "\"Call it Curiosity...\""
@@ -352,7 +352,7 @@ msgstr ""
 
 #: 35738 35740 35791
 msgid "\"Thank you, farewell.\""
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо, прощай\"."
 
 #: 35741
 msgid "\"Oh? Why is that?\""
@@ -360,7 +360,7 @@ msgstr ""
 
 #: 35743 35746 35778 35780
 msgid "\"I see. I must be going now. Farewell.\""
-msgstr "\"Ясно. Я должен идти. Прощай.\""
+msgstr "\"Ясно. Я должен идти. Прощай\"."
 
 #: 35744
 msgid "\"What kind of secrets?\""
@@ -373,7 +373,7 @@ msgstr "\"У меня были еще вопросы...\""
 #: 35748
 #, fuzzy
 msgid "\"I guess not. Farewell.\""
-msgstr "\"Возможно, нет. Прощай.\""
+msgstr "\"Возможно, нет. Прощай\"."
 
 #: 35749
 msgid "\"I'm trying to find a missing document for her.\""
@@ -386,7 +386,7 @@ msgstr "\"Неважно. У меня есть другие вопросы к т
 
 #: 35751
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 35752
 msgid "\"The Mercykillers?\""
@@ -395,7 +395,7 @@ msgstr ""
 #: 35753 35756
 #, fuzzy
 msgid "\"They could have missed something.\""
-msgstr "\"Тогда расскажи мне о другом.\""
+msgstr "\"Тогда расскажи мне о другом\"."
 
 #: 35757
 msgid "\"I see. I have some other questions...\""
@@ -435,7 +435,7 @@ msgstr "\"У меня были еще вопросы...\""
 #: 35766
 #, fuzzy
 msgid "\"I think I've had enough of this. Farewell.\""
-msgstr "\"Думаю, я выслушал достаточно. Прощай.\""
+msgstr "\"Думаю, я выслушал достаточно. Прощай\"."
 
 #: 35767
 msgid "I told Byron Pikit that I intend to find Trist's missing documents."
@@ -459,12 +459,12 @@ msgstr ""
 
 #: 35774 35788
 msgid "\"Never mind, farewell.\""
-msgstr "\"Неважно, прощай.\""
+msgstr "\"Неважно, прощай\"."
 
 #: 35776 35779
 #, fuzzy
 msgid "\"I still need to find him.\""
-msgstr "\"Я найду его.\""
+msgstr "\"Я найду его\"."
 
 #: 35777
 msgid "\"Just how tough can one man be?\""
@@ -478,7 +478,7 @@ msgstr "\"Зачем?\""
 #: 35782
 #, fuzzy
 msgid "\"Thank you, I must be going. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Нет. Я должен идти. Прощай\"."
 
 #: 35783
 #, fuzzy
@@ -487,10 +487,9 @@ msgstr "\"Где я могу найти этого Фарода?\""
 
 #: 35784
 msgid "\"Thank you, farewell."
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо, прощай\"."
 
 #: 67291
 #, fuzzy
 msgid "\"No reason, I have other questions...\""
 msgstr "\"Неважно. У меня есть другие вопросы...\""
-

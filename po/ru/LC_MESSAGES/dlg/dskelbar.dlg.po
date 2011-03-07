@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -31,7 +31,7 @@ msgstr "Осмотреть скелет."
 
 #: 2567
 msgid "\"Nice tunic. I mean it.\""
-msgstr "\"Красивая туника.\""
+msgstr "\"Красивая туника\"."
 
 #: 2568
 msgid "Use your Stories-Bones-Tell ability on the corpse."
@@ -43,7 +43,7 @@ msgstr "Скелет не реагирует."
 
 #: 2571
 msgid "\"Great talking to you, bones. Stay healthy.\""
-msgstr "\"Приятно было поболтать с тобой, Костяшка. Будь здоров.\""
+msgstr "\"Приятно было поболтать с тобой, Костяшка. Будь здоров\"."
 
 #: 2572
 msgid ""
@@ -95,5 +95,4 @@ msgstr "\"Эй, а как насчет этого скелета, Морт? По
 
 #: 7073
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
-
+msgstr "\"Прощай\"."

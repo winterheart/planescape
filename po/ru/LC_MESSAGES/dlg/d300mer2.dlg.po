@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 17378
@@ -79,11 +79,11 @@ msgstr "\"Так кто же ты?\""
 
 #: 17389 17397
 msgid "\"No thanks. Farewell.\""
-msgstr "\"Нет, спасибо. Прощай.\""
+msgstr "\"Нет, спасибо. Прощай\"."
 
 #: 17391
 msgid "\"No thanks, farewell.\""
-msgstr "\"Нет, спасибо. Прощай.\""
+msgstr "\"Нет, спасибо. Прощай\"."
 
 #: 17392
 msgid "\"I believe you're mistaken. Take a closer look.\""
@@ -99,7 +99,7 @@ msgstr ""
 
 #: 17402
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 17403
 msgid "\"Where do the fish come from?\""
@@ -113,7 +113,7 @@ msgstr "\"Да, но меня есть еще вопросы...\""
 #: 17405 17407
 #, fuzzy
 msgid "\"I've no need for fish - or their heads, for that matter. Farewell.\""
-msgstr "\"Тогда я поищу его там. Прощай.\""
+msgstr "\"Тогда я поищу его там. Прощай\"."
 
 #: 21903
 msgid ""
@@ -184,4 +184,4 @@ msgstr ""
 #: 22075
 #, fuzzy
 msgid "\"I'll go seek her out, then. Farewell.\""
-msgstr "\"Пойду, поищу его. Прощай.\""
+msgstr "\"Пойду, поищу его. Прощай\"."

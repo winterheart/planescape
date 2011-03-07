@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 35792
@@ -269,7 +269,7 @@ msgstr ""
 
 #: 35834
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 35835
 msgid "Ignore the man."
@@ -285,7 +285,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 35838 35902 35905 35909 35919
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 35839 35894
 msgid "\"You sell slaves?\""
@@ -299,7 +299,7 @@ msgstr "\"У меня есть вопросы к тебе...\""
 #: 35841 35847 35849
 #, fuzzy
 msgid "\"I must be going. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 35842
 msgid "Truth: \"It still sounds like slavery to me.\""
@@ -353,7 +353,7 @@ msgstr "\"Что ты можешь сказать о Сигиле?\""
 
 #: 35856
 msgid "\"I must be going, farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 35857
 msgid "\"I happen to like danger. Imperil me.\""
@@ -366,7 +366,7 @@ msgstr "\"Понятно. У меня были еще вопросы...\""
 #: 35859
 #, fuzzy
 msgid "\"I must take my leave. Farewell.\""
-msgstr "\"Я должен идти, прощай.\""
+msgstr "\"Я должен идти, прощай\"."
 
 #: 35860
 #, fuzzy
@@ -381,11 +381,11 @@ msgstr "\"Спасибо. У меня есть другие вопросы...\""
 #: 35862
 #, fuzzy
 msgid "\"I must be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Нет. Я должен идти. Прощай\"."
 
 #: 35863
 msgid "\"I see. Farewell.\""
-msgstr "\"Понятно. Прощай.\""
+msgstr "\"Понятно. Прощай\"."
 
 #: 35864
 #, fuzzy
@@ -395,17 +395,17 @@ msgstr "\"Нет! Нет!..\""
 #: 35865 35879 35883
 #, fuzzy
 msgid "\"Tell me about the Foundry.\""
-msgstr "\"Расскажи мне о Морге.\""
+msgstr "\"Расскажи мне о Морге\"."
 
 #: 35866 35871 35875 35884
 #, fuzzy
 msgid "\"Tell me about the siege tower.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Аллее\"."
 
 #: 35867 35872 35876 35880
 #, fuzzy
 msgid "\"Tell me about the open-air market.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Аллее\"."
 
 #: 35868 35873 35877 35881 35885 35887
 #, fuzzy
@@ -414,7 +414,7 @@ msgstr "\"У меня есть некоторые вопросы...\""
 
 #: 35869 35874 35878 35882 35886 35888 35914
 msgid "\"Thank you, farewell.\""
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо, прощай\"."
 
 #: 35870
 msgid "\"The Godsmen?\""
@@ -422,7 +422,7 @@ msgstr ""
 
 #: 35892
 msgid "\"Nothing, farewell.\""
-msgstr "\"Ничего, прощай.\""
+msgstr "\"Ничего, прощай\"."
 
 #: 35893
 msgid "Leave."
@@ -436,7 +436,7 @@ msgstr "\"У меня есть некоторые вопросы...\""
 #: 35896
 #, fuzzy
 msgid "\"No thank you, farewell.\""
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо, прощай\"."
 
 #: 35897
 msgid "\"Can I buy her contract?\""
@@ -452,7 +452,7 @@ msgstr ""
 
 #: 35900
 msgid "\"Never mind. Farewell."
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 35901
 msgid "\"What are the requirements?\""
@@ -481,17 +481,17 @@ msgstr ""
 #: 35911
 #, fuzzy
 msgid "\"Yes I do.\""
-msgstr "\"Да.\""
+msgstr "\"Да\"."
 
 #: 35912
 #, fuzzy
 msgid "\"Yes, I do.\""
-msgstr "\"Да.\""
+msgstr "\"Да\"."
 
 #: 35913
 #, fuzzy
 msgid "\"I don't know...\""
-msgstr "\"Я не знаю.\" "
+msgstr "\"Я не знаю\". "
 
 #: 35915
 msgid "\"What if I can prove she is innocent?\""
@@ -515,7 +515,7 @@ msgstr ""
 
 #: 35921
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 36237
 msgid "\"Tell me about this Lothar.\""

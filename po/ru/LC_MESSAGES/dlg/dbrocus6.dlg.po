@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 3208 40748
@@ -55,20 +55,20 @@ msgstr ""
 #: 40760 40765
 #, fuzzy
 msgid "\"It's not important who I am.\""
-msgstr "\"Нет. Это не так уж важно.\""
+msgstr "\"Нет. Это не так уж важно\"."
 
 #: 40761 40766 40770 40779
 msgid "Lie: \"I'm... Adahn.\""
-msgstr "Ложь: \"Я... Адан.\""
+msgstr "Ложь: \"Я... Адан\"."
 
 #: 40762 40767 40771
 #, fuzzy
 msgid "\"I'm not sure who I am.\""
-msgstr "\"Я не уверен. Прощай.\""
+msgstr "\"Я не уверен. Прощай\"."
 
 #: 40763 40768 40772 40780
 msgid "\"Forget it... farewell.\""
-msgstr "\"Забудь... Прощай.\""
+msgstr "\"Забудь... Прощай\"."
 
 #: 40764
 msgid ""
@@ -100,7 +100,7 @@ msgstr "\"У меня есть несколько вопросов, Гвозди
 #: 40775 40783
 #, fuzzy
 msgid "\"I'll be taking my leave, now. Farewell.\""
-msgstr "\"Я должен идти, прощай.\""
+msgstr "\"Я должен идти, прощай\"."
 
 #: 40776
 msgid "\"We would know why this is so.\""
@@ -113,7 +113,7 @@ msgstr ""
 #: 40778
 #, fuzzy
 msgid "\"I don't know, myself. I just can't remember.\""
-msgstr "\"Я не знаю... Не могу вспомнить.\""
+msgstr "\"Я не знаю... Не могу вспомнить\"."
 
 #: 40781
 msgid ""
@@ -174,7 +174,7 @@ msgstr ""
 #: 40794
 #, fuzzy
 msgid "\"Never mind, actually. Farewell.\""
-msgstr "\"Ничего особенного, Нелли. Прощай.\""
+msgstr "\"Ничего особенного, Нелли. Прощай\"."
 
 #: 40795
 msgid "\"Our purpose here is observation.\""
@@ -192,7 +192,7 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 40798 40802 40806 40810 40813 40817 40820 40823 40827 40830
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 40799
 msgid "\"We are observing one of the establishment's staff.\""
@@ -294,7 +294,7 @@ msgstr ""
 
 #: 40836 40839 40845
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 40837
 msgid ""
@@ -331,5 +331,4 @@ msgstr ""
 
 #: 65533
 msgid "\"I'll take my leave, now. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
-
+msgstr "\"Я должен идти. Прощай\"."

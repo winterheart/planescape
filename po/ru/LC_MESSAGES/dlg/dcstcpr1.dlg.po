@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 10146
@@ -21,7 +21,7 @@ msgstr ""
 
 #: 10147
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 10148
 msgid "Ignore her."
@@ -73,7 +73,7 @@ msgstr "\"А что мне от этого будет?\""
 #: 10157 10161
 #, fuzzy
 msgid "\"Not really. I'll be leaving now.\""
-msgstr "\"Хорошо. Я уже ухожу.\""
+msgstr "\"Хорошо. Я уже ухожу\"."
 
 #: 10158
 msgid ""
@@ -89,7 +89,7 @@ msgstr ""
 
 #: 10163 10180 10208 10227
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 10164
 msgid "She smiles at you. \"Good day to you then.\""
@@ -101,11 +101,11 @@ msgstr ""
 
 #: 10166
 msgid "\"Farewell\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 10167
 msgid "\"I'm looking for a deva. I've been told he's in Curst.\""
-msgstr "\"Я ищу одного дэва. Мне сказали, что он в Проклятом.\""
+msgstr "\"Я ищу одного дэва. Мне сказали, что он в Проклятом\"."
 
 #: 10168
 #, fuzzy
@@ -128,7 +128,7 @@ msgstr ""
 
 #: 10172
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 10173
 msgid ""
@@ -165,7 +165,7 @@ msgstr ""
 #: 10179
 #, fuzzy
 msgid "\"Another question.\""
-msgstr "\"У меня есть другие вопросы.\""
+msgstr "\"У меня есть другие вопросы\"."
 
 #: 10181
 msgid "She holds out her hand and smiles slyly at you. \"Jink? Jink?\""
@@ -186,7 +186,7 @@ msgstr "\"Ты можешь задать еще один вопрос?\""
 
 #: 10185
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 10186
 msgid ""
@@ -216,7 +216,7 @@ msgstr ""
 
 #: 10191 10195 10199 10214 10217
 msgid "\"Go on.\""
-msgstr "\"Продолжай.\""
+msgstr "\"Продолжай\"."
 
 #: 10192
 msgid "\"Excuse me. Plague?\""
@@ -255,7 +255,7 @@ msgstr "\"Что сделала Рейвел?\""
 #: 10201
 #, fuzzy
 msgid "\"I thank you, lady Farewell.\""
-msgstr "\"Спасибо, Увядшая. Прощай.\""
+msgstr "\"Спасибо, Увядшая. Прощай\"."
 
 #: 10202
 msgid ""
@@ -295,7 +295,7 @@ msgstr ""
 #: 10210 10232
 #, fuzzy
 msgid "\"I see. Go on.\""
-msgstr "\"Понятно. Спасибо.\""
+msgstr "\"Понятно. Спасибо\"."
 
 #: 10211
 msgid ""
@@ -305,7 +305,7 @@ msgstr ""
 
 #: 10212
 msgid "\"I must be going now. Farewell."
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 10213
 msgid ""
@@ -316,7 +316,7 @@ msgstr ""
 #: 10215
 #, fuzzy
 msgid "\"I thank you for your help. Farewell.\""
-msgstr "\"Спасибо за совет. Прощай.\""
+msgstr "\"Спасибо за совет. Прощай\"."
 
 #: 10216
 msgid ""
@@ -428,10 +428,8 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 63240
 msgid "Nothing, farewell."
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 67907 67908
 msgid "\"I must be going now, farewell.\""
-msgstr "\"Я должен идти, прощай.\""
-
-
+msgstr "\"Я должен идти, прощай\"."

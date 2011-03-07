@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 65087
@@ -21,7 +21,7 @@ msgstr ""
 
 #: 65088 65099 65127
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 65089 65100 65128
 msgid "Ignore her."
@@ -40,7 +40,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 #: 65092
 #, fuzzy
 msgid "\"Nothing, never mind.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно. Прощай\"."
 
 #: 65093
 msgid ""
@@ -55,7 +55,7 @@ msgstr "\"Понятно. У меня были еще вопросы...\""
 
 #: 65095
 msgid "\"Farewell then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 65096
 msgid ""
@@ -82,7 +82,7 @@ msgstr ""
 #: 65103
 #, fuzzy
 msgid "\"No, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно. Прощай\"."
 
 #: 65104
 msgid "\"Glad to help, but please be quick.\""
@@ -108,7 +108,7 @@ msgstr ""
 
 #: 65109 65112 65115 65119 65122 65138
 msgid "\"I must be going, farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 65110
 msgid "She smiles. \"Yes. Thank you for asking. It'll pass.\""
@@ -156,7 +156,7 @@ msgstr ""
 
 #: 65125 65142
 msgid "\"Thank you, farewell.\""
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо, прощай\"."
 
 #: 65126
 msgid ""
@@ -187,7 +187,7 @@ msgstr ""
 
 #: 65135
 msgid "\"Never mind, farewell.\""
-msgstr "\"Неважно, прощай.\""
+msgstr "\"Неважно, прощай\"."
 
 #: 65136
 msgid ""
@@ -222,4 +222,4 @@ msgstr ""
 
 #: 65144
 msgid "\"No, farewell.\""
-msgstr "\"Нет, прощай.\""
+msgstr "\"Нет, прощай\"."

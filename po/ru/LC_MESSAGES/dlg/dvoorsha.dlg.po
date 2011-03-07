@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 57956
@@ -21,7 +21,7 @@ msgstr ""
 
 #: 57957
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 57959
 msgid "Ignore him."
@@ -38,7 +38,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 57965
 msgid "\"Never mind. I must be going, farewell.\""
-msgstr "\"Неважно. Я должен идти. Прощай.\""
+msgstr "\"Неважно. Я должен идти. Прощай\"."
 
 #: 57966
 #, fuzzy
@@ -74,7 +74,7 @@ msgstr "\"У меня есть еще вопросы...\""
 #: 57973 57980 57984 57988 57992 57997 58006 58018 58032 58066 58069 58079
 #: 68251
 msgid "\"I must be going, farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 57974
 msgid ""
@@ -184,7 +184,7 @@ msgstr ""
 #: 58041
 #, fuzzy
 msgid "\"I don't think so.\""
-msgstr "\"Нет, не думаю.\""
+msgstr "\"Нет, не думаю\"."
 
 #: 58047
 #, fuzzy
@@ -235,7 +235,7 @@ msgstr ""
 
 #: 58073
 msgid "\"Go on.\""
-msgstr "\"Продолжай.\""
+msgstr "\"Продолжай\"."
 
 #: 58074
 msgid ""
@@ -279,7 +279,7 @@ msgstr ""
 
 #: 58085
 msgid "\"Nothing, farewell.\""
-msgstr "\"Ничего, прощай.\""
+msgstr "\"Ничего, прощай\"."
 
 #: 58086
 msgid "He stares at you for a moment. \"Yes. Will you do it?\""
@@ -335,7 +335,7 @@ msgstr ""
 
 #: 68252
 msgid "\"I must be going now. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 68272
 msgid ""
@@ -344,5 +344,4 @@ msgstr ""
 
 #: 68273
 msgid "\"I must be going now, farewell.\""
-msgstr "\"Я должен идти, прощай.\""
-
+msgstr "\"Я должен идти, прощай\"."

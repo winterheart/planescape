@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 3325
@@ -28,7 +28,7 @@ msgstr ""
 
 #: 3326 3992 3993 3994 3995 7753
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 7718 7723 7727 7733 7741
 msgid "Leave the creature alone."
@@ -41,12 +41,12 @@ msgid ""
 "You notice that the heat radiating from the creature begins to rise."
 msgstr ""
 "Существо медленно наклоняет свою голову и смотрит на тебя. На широкому лбу "
-"появляются вертикальные морщины, оно открывает пасть, издавая резкое шипение."
-" Ты замечаешь, что жар, излучаемый существом, начинает нарастать."
+"появляются вертикальные морщины, оно открывает пасть, издавая резкое "
+"шипение. Ты замечаешь, что жар, излучаемый существом, начинает нарастать."
 
 #: 7720 7721 7722
 msgid "\"I would speak with you for a moment.\""
-msgstr "\"Я хотел бы поговорить с тобой на пару минут.\""
+msgstr "\"Я хотел бы поговорить с тобой на пару минут\"."
 
 #: 7724
 msgid ""
@@ -54,12 +54,12 @@ msgid ""
 "begins to dance around the shoulders and arms of the creature as it gives a "
 "long, low hiss."
 msgstr ""
-"Существо отрывает пасть, показывая ряд почерневших клыков. Он протяжно шипит."
-" Вокруг его плеч и рук начинает плясать огонь."
+"Существо отрывает пасть, показывая ряд почерневших клыков. Он протяжно "
+"шипит. Вокруг его плеч и рук начинает плясать огонь."
 
 #: 7725
 msgid "\"Calm yourself! I just want to talk to you.\""
-msgstr "\"Успокойся! Я просто хочу поговорить с тобой.\""
+msgstr "\"Успокойся! Я просто хочу поговорить с тобой\"."
 
 #: 7726
 msgid "Hiss back."
@@ -91,8 +91,8 @@ msgid ""
 "The creature snarls. \"NOTHING to sssay to you, do I.\" The fiend's eyes "
 "narrow to slits. \"If ssstay, your warm blood will cover the ssstones.\""
 msgstr ""
-"Существо рычит. \"НЕЧЕГО тебе сссказать.\" Глаза демона превращаются узкие "
-"щелки. \"Будешшшь докучать - твоя жаркая кровь прольется на камни.\""
+"Существо рычит. \"НЕЧЕГО тебе сссказать\". Глаза демона превращаются узкие "
+"щелки. \"Будешшшь докучать - твоя жаркая кровь прольется на камни\"."
 
 #: 7735
 msgid "\"I just wanted to ask you some questions...\""
@@ -101,7 +101,7 @@ msgstr "\"Я просто хочу задать тебе несколько во
 #: 7736
 msgid ""
 "\"Just try it, and we'll see whose blood covers the street when we're done.\""
-msgstr "\"Только попробуй, мы еще посмотрим, чья кровь прольется на улицу.\""
+msgstr "\"Только попробуй, мы еще посмотрим, чья кровь прольется на улицу\"."
 
 #: 7737
 msgid "Back off and leave the creature alone."
@@ -117,7 +117,7 @@ msgstr ""
 
 #: 7739 7740
 msgid "\"I said, I would speak with you.\""
-msgstr "\"Я сказал, что хочу поговорить с тобой.\""
+msgstr "\"Я сказал, что хочу поговорить с тобой\"."
 
 #: 7742
 msgid ""
@@ -181,5 +181,3 @@ msgstr ""
 #: 7758
 msgid "Leave the abishai alone."
 msgstr "Оставить абишая в покое."
-
-

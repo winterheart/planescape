@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 51205
@@ -21,7 +21,7 @@ msgstr ""
 
 #: 51206
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 51207
 msgid "Ignore the creature."
@@ -39,7 +39,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 51210 51284 66164
 msgid "\"Nothing, farewell.\""
-msgstr "\"Ничего, прощай.\""
+msgstr "\"Ничего, прощай\"."
 
 #: 51211
 msgid "\"You got question, maybe Thorp got answer.\" He smiles at you."
@@ -76,12 +76,12 @@ msgstr ""
 
 #: 51219
 msgid "Lie: \"I'm Adahn.\""
-msgstr "Ложь: \"Я - Адан.\""
+msgstr "Ложь: \"Я - Адан\"."
 
 #: 51220
 #, fuzzy
 msgid "\"I don't remember my name.\""
-msgstr "\"Я не могу вспомнить, откуда я.\""
+msgstr "\"Я не могу вспомнить, откуда я\"."
 
 #: 51221
 msgid ""
@@ -91,7 +91,7 @@ msgstr ""
 
 #: 51223 51277
 msgid "\"I must be going, farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 51224
 msgid ""
@@ -102,7 +102,7 @@ msgstr ""
 
 #: 51226 68262
 msgid "\"I must be going now, farewell.\""
-msgstr "\"Я должен идти, прощай.\""
+msgstr "\"Я должен идти, прощай\"."
 
 #: 51227
 msgid ""
@@ -122,7 +122,7 @@ msgstr "\"Понятно. У меня есть еще вопросы...\""
 #: 51230 51234 51239 51243 51248 51252 51255 51261
 #, fuzzy
 msgid "\"I have to go now, farewell.\""
-msgstr "\"Мне нужно идти. Прощай.\""
+msgstr "\"Мне нужно идти. Прощай\"."
 
 #: 51231
 msgid ""
@@ -262,7 +262,7 @@ msgstr ""
 
 #: 51274
 msgid "\"Thank you.\""
-msgstr "\"Спасибо.\""
+msgstr "\"Спасибо\"."
 
 #: 51275
 msgid "He smiles. \"You good friend. You deserve.\""
@@ -310,7 +310,7 @@ msgstr ""
 #: 63466
 #, fuzzy
 msgid "\"Farewell, Thorp.\""
-msgstr "\"Тогда прощай.\""
+msgstr "\"Тогда прощай\"."
 
 #: 63467
 msgid ""
@@ -369,4 +369,3 @@ msgid ""
 "Sometimes I amaze myself. I felt sorry for Thorp and his friends so I helped "
 "them kill the abishai. What can I say... A moment of weakness on my part?"
 msgstr ""
-

@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 21938
@@ -295,7 +295,7 @@ msgstr "Оставить его в покое."
 #: 22477 22489 22490 22491
 #, fuzzy
 msgid "\"I spoke to your sister, Amarysse...\""
-msgstr "\"Хочется посмотреть на эту попытку.\""
+msgstr "\"Хочется посмотреть на эту попытку\"."
 
 #: 22492 22517
 msgid "\"What are you doing?\""
@@ -311,7 +311,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 22495
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 22496
 #, fuzzy
@@ -326,7 +326,7 @@ msgstr ""
 #: 22584 22586 22594 22595 22600 22601 22606 22607 22612 22613 22619 22620
 #: 22625 22626
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 22502
 msgid "\"You can sell the corpses?\""
@@ -351,20 +351,20 @@ msgstr ""
 #: 22524
 #, fuzzy
 msgid "\"You'll get nothing, and you'll answer my questions.\""
-msgstr "\"Забудь об этом. Вместо этого ответь на несколько вопросов.\""
+msgstr "\"Забудь об этом. Вместо этого ответь на несколько вопросов\"."
 
 #: 22525
 msgid "\"Never mind, then. Farewell.\""
-msgstr "\"Тогда неважно. Прощай.\""
+msgstr "\"Тогда неважно. Прощай\"."
 
 #: 22526 22540 22589 22596 22602 22608 22614 22621
 msgid "\"Tell me about Collectors.\""
-msgstr "\"Расскажи мне о Сборщиках.\""
+msgstr "\"Расскажи мне о Сборщиках\"."
 
 #: 22527 22533 22590 22597 22603 22609 22615
 #, fuzzy
 msgid "\"Tell me about this area.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Аллее\"."
 
 #: 22528 22534 22579 22604 22610 22616 22622
 msgid "\"Do you know of a man named Pharod?\""
@@ -372,20 +372,20 @@ msgstr "\"Ты знаешь кого-нибудь по имени Фарод?\""
 
 #: 22529 22535 22581 22592 22598 22611 22617 22623
 msgid "\"I'm looking for a journal that I've lost.\""
-msgstr "\"Я ищу потерянный дневник.\""
+msgstr "\"Я ищу потерянный дневник\"."
 
 #: 22530 22536 22582 22593 22599 22605 22618 22624
 #, fuzzy
 msgid "\"Tell me about Mebbeth.\""
-msgstr "\"Расскажи мне о демонах.\""
+msgstr "\"Расскажи мне о демонах\"."
 
 #: 22531 22532
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 22539
 msgid "\"Tell me about Sharegrave.\""
-msgstr "\"Расскажи мне о Могильнике.\""
+msgstr "\"Расскажи мне о Могильнике\"."
 
 #: 22588
 #, fuzzy
@@ -411,7 +411,7 @@ msgstr ""
 
 #: 22631 22649 22674 22679 22682
 msgid "\"Interesting. Farewell.\""
-msgstr "\"Интересно. Прощай.\""
+msgstr "\"Интересно. Прощай\"."
 
 #: 22634
 msgid ""
@@ -442,11 +442,11 @@ msgstr ""
 #: 22639 22643
 #, fuzzy
 msgid "\"I'll find her... for a price.\""
-msgstr "\"Я выслежу его... в обмен на награду.\""
+msgstr "\"Я выслежу его... в обмен на награду\"."
 
 #: 22640 22644
 msgid "\"I'll consider it. Farewell.\""
-msgstr "\"Я обдумаю это. Прощай.\""
+msgstr "\"Я обдумаю это. Прощай\"."
 
 #: 22641
 #, fuzzy
@@ -469,7 +469,7 @@ msgstr "\"Хорошо. У меня есть другие вопросы...\""
 #: 22648 22671 22678 22681
 #, fuzzy
 msgid "\"I'll find your sister... for a price.\""
-msgstr "\"Я выслежу его... в обмен на награду.\""
+msgstr "\"Я выслежу его... в обмен на награду\"."
 
 #: 22650 22676
 msgid "\"Go on with your story...\""
@@ -482,7 +482,7 @@ msgstr ""
 #: 22683 22728 22731
 #, fuzzy
 msgid "\"Farewell, Nodd.\""
-msgstr "\"Прощай, Раук.\""
+msgstr "\"Прощай, Раук\"."
 
 #: 22684
 msgid "\"Anything will suffice.\""
@@ -495,7 +495,7 @@ msgstr ""
 #: 22686
 #, fuzzy
 msgid "\"Forget it, then. Farewell.\""
-msgstr "\"Забудь об этом. Прощай.\""
+msgstr "\"Забудь об этом. Прощай\"."
 
 #: 22687
 msgid "\"It's a deal. I'll return once I've spoken to her. Farewell.\""
@@ -503,7 +503,7 @@ msgstr ""
 
 #: 22688
 msgid "\"Forget it. Farewell.\""
-msgstr "\"Забудь. Прощай.\""
+msgstr "\"Забудь. Прощай\"."
 
 #: 22689 22713
 msgid ""
@@ -630,7 +630,7 @@ msgstr ""
 #: 22722 22725
 #, fuzzy
 msgid "\"Glad I could help. Farewell, Nodd.\""
-msgstr "\"Рад был помочь. Прощай.\""
+msgstr "\"Рад был помочь. Прощай\"."
 
 #: 22723 22724 22726 22727
 msgid ""
@@ -651,4 +651,3 @@ msgstr ""
 #: 63621
 msgid "Meet his attack."
 msgstr ""
-

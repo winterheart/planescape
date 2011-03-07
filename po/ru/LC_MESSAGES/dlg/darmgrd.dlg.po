@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 64550
@@ -55,7 +55,7 @@ msgstr ""
 #: 64558 64568
 #, fuzzy
 msgid "\"Forget it, then.\""
-msgstr "\"Тогда забудь об этом.\""
+msgstr "\"Тогда забудь об этом\"."
 
 #: 64559
 msgid "\"I'll try it anyway.\""
@@ -68,11 +68,11 @@ msgstr ""
 #: 64561
 #, fuzzy
 msgid "\"No. Good day.\""
-msgstr "\"Ничего. Хорошего дня.\""
+msgstr "\"Ничего. Хорошего дня\"."
 
 #: 64562
 msgid "\"No.\""
-msgstr "\"Нет.\""
+msgstr "\"Нет\"."
 
 #: 64563
 msgid "\"Then maybe you ought to do something about it.\""
@@ -89,4 +89,3 @@ msgstr ""
 #: 64567
 msgid "Lie: \"I've got authorization to get through the door.\""
 msgstr ""
-

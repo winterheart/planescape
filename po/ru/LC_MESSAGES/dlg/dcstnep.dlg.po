@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 9789
@@ -21,7 +21,7 @@ msgstr ""
 
 #: 9790
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 9791
 msgid "Leave him in peace."
@@ -40,7 +40,7 @@ msgstr ""
 #: 9798
 #, fuzzy
 msgid "\"Sorry to bother you. Farewell.\""
-msgstr "\"Извини, что отвлек тебя. Прощай.\""
+msgstr "\"Извини, что отвлек тебя. Прощай\"."
 
 #: 9799
 msgid ""
@@ -57,7 +57,7 @@ msgstr ""
 
 #: 9804
 msgid "\"Very well. Farewell.\""
-msgstr "\"Отлично. Прощай.\""
+msgstr "\"Отлично. Прощай\"."
 
 #: 9805
 msgid ""
@@ -95,7 +95,7 @@ msgstr ""
 
 #: 9815
 msgid "\"I'm listening.\""
-msgstr "\"Я слушаю.\""
+msgstr "\"Я слушаю\"."
 
 #: 9817
 #, fuzzy
@@ -117,7 +117,7 @@ msgstr ""
 #: 9822
 #, fuzzy
 msgid "\"Never mind. Good day.\""
-msgstr "\"Ничего. Хорошего дня.\""
+msgstr "\"Ничего. Хорошего дня\"."
 
 #: 9823
 msgid "\"A simple execution. That's all.\""
@@ -133,7 +133,7 @@ msgstr ""
 
 #: 9827
 msgid "\"My thanks. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 9829
 msgid "\"I wouldn't know. You can ask at the administration office.\""
@@ -162,7 +162,7 @@ msgstr ""
 #: 9841
 #, fuzzy
 msgid "\"I think I've had enough of you. Farewell.\""
-msgstr "\"Думаю, я выслушал достаточно. Прощай.\""
+msgstr "\"Думаю, я выслушал достаточно. Прощай\"."
 
 #: 9843
 msgid ""
@@ -186,7 +186,7 @@ msgstr ""
 
 #: 9848
 msgid "\"All right. Farewell.\""
-msgstr "\"Ладно. Прощай.\""
+msgstr "\"Ладно. Прощай\"."
 
 #: 9849
 msgid "He shrugs his shoulders. \"None that I can think of.\""
@@ -198,5 +198,4 @@ msgstr ""
 
 #: 9851
 msgid "\"Farewell then.\""
-msgstr "\"Тогда прощай.\" "
-
+msgstr "\"Тогда прощай\". "

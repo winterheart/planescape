@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 26110
@@ -72,7 +72,7 @@ msgstr ""
 #: 26121 26181 26203
 #, fuzzy
 msgid "\"Stop. You'll stand here and answer my questions.\""
-msgstr "\"Ты здесь, чтобы отвечать на *мои* вопросы, дух.\""
+msgstr "\"Ты здесь, чтобы отвечать на *мои* вопросы, дух\"."
 
 #: 26122
 msgid ""
@@ -102,20 +102,20 @@ msgstr ""
 msgid "\"You'll not call for anyone if you know what's good for you.\""
 msgstr ""
 "\"Я первым нашел это место. Тебе лучше не пытаться, раз ты не знаешь, что "
-"хорошо для тебя.\""
+"хорошо для тебя\"."
 
 #: 26128
 #, fuzzy
 msgid "\"My apologies. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 26129 26130 26185 26193 26204
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 26131 26205
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 26132
 msgid "\"What is of interest here?\""
@@ -151,7 +151,7 @@ msgstr "\"Позволь мне спросить еще кое о чем...\""
 #: 26138 26143 26207
 #, fuzzy
 msgid "\"Thanks for your time. Farewell.\""
-msgstr "\"Спасибо за внимание. Прощай.\""
+msgstr "\"Спасибо за внимание. Прощай\"."
 
 #: 26139
 #, fuzzy
@@ -197,12 +197,12 @@ msgstr "\"Позволь мне спросить кое о чем еще...\""
 #: 26149 26153 26157 26161 26165 26169 26177
 #, fuzzy
 msgid "\"I see. Thanks for your time. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 26150
 #, fuzzy
 msgid "\"The apothecary.\""
-msgstr "\"Расскажи мне о демонах.\""
+msgstr "\"Расскажи мне о демонах\"."
 
 #: 26151
 msgid ""
@@ -215,7 +215,7 @@ msgstr ""
 #: 26154
 #, fuzzy
 msgid "\"The art store.\""
-msgstr "\"Они-то смогут. Прощай.\""
+msgstr "\"Они-то смогут. Прощай\"."
 
 #: 26155
 msgid ""
@@ -239,7 +239,7 @@ msgstr ""
 #: 26162
 #, fuzzy
 msgid "\"The catacombs beneath the Ward.\""
-msgstr "\"Я нашел его в катакомбах под Сигилом.\""
+msgstr "\"Я нашел его в катакомбах под Сигилом\"."
 
 #: 26163
 msgid ""
@@ -250,7 +250,7 @@ msgstr ""
 #: 26166
 #, fuzzy
 msgid "\"The Civic Festhall.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Аллее\"."
 
 #: 26167
 msgid ""
@@ -273,7 +273,7 @@ msgstr ""
 #: 26173
 #, fuzzy
 msgid "\"I see. Thanks for you time. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 26174
 #, fuzzy
@@ -288,7 +288,7 @@ msgstr ""
 
 #: 26178 26187
 msgid "\"Nothing, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно. Прощай\"."
 
 #: 26179
 #, fuzzy
@@ -319,7 +319,7 @@ msgstr "\"Позволь мне спросить кое о чем еще...\""
 #: 26186
 #, fuzzy
 msgid "\"Thanks, that's all I wished to know. Farewell.\""
-msgstr "\"Да, это все, что я хотел узнать. Прощай.\""
+msgstr "\"Да, это все, что я хотел узнать. Прощай\"."
 
 #: 26189
 msgid ""
@@ -332,7 +332,7 @@ msgstr ""
 #: 26190
 #, fuzzy
 msgid "\"Tell me about the Lady of Pain.\""
-msgstr "\"Расскажи мне о Великом Пределе.\""
+msgstr "\"Расскажи мне о Великом Пределе\"."
 
 #: 26191
 msgid "\"Can anyone reach these mazes?\""
@@ -361,7 +361,7 @@ msgstr ""
 #: 26197
 #, fuzzy
 msgid "\"I don't need anything else. Farewell.\""
-msgstr "\"Мне это не нужно. Прощай.\""
+msgstr "\"Мне это не нужно. Прощай\"."
 
 #: 26198
 #, fuzzy
@@ -391,5 +391,4 @@ msgstr ""
 
 #: 26206
 msgid "\"No. Farewell.\""
-msgstr "\"Нет. Прощай.\""
-
+msgstr "\"Нет. Прощай\"."
