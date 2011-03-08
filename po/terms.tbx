@@ -691,6 +691,7 @@
                 </langSet>
             </termEntry>
             <termEntry id="azamat_h._hackimov-36">
+        <descrip type="subjectField">заклинания</descrip>
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
@@ -701,7 +702,7 @@
                 <langSet xml:lang="ru">
                     <ntig>
                         <termGrp>
-                            <term>зона действия</term>
+                            <term>область действия</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -6220,6 +6221,77 @@
           <ntig>
             <termGrp>
               <term>великая литейная</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-338">
+        <descrip type="subjectField">заклинания</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>until destroyed by damage</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>пока не будет разрушена уроном</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-339">
+        <descrip type="definition">Модрон, создавший заклинание Удвоения, названное его именем.</descrip>
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>enoll eva</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>энолл эва</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-340">
+        <descrip type="definition">Один из нижних планов.</descrip>
+        <descrip type="subjectField">география планов</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>pandemonium</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>пандемониум</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-341">
+        <descrip type="definition">Ангел Верхних планов.</descrip>
+        <descrip type="subjectField">существа</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>aasimon</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>аасимон</term>
             </termGrp>
           </ntig>
         </langSet>

@@ -9,7 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 26081 30016
@@ -17,14 +18,15 @@ msgid ""
 "GOLD INGOT\n"
 "Weight: 15\n"
 "\n"
-"This is a gold ingot. It weighs a ton, but if it's worth its weight in gold..."
+"This is a gold ingot. It weighs a ton, but if it's worth its weight in "
+"gold..."
 msgstr ""
 "ЗОЛОТОЙ СЛИТОК\n"
 "Вес: 15\n"
 "\n"
-"Это золотой слиток. Он весит с тонну, и если бы он стоил столько же золота, сколько весит сам..."
+"Это золотой слиток. Он весит с тонну, и если бы он стоил столько же золота, "
+"сколько весит сам..."
 
 #: 30007 30027
 msgid "Gold Ingot"
 msgstr "Золотой слиток"
-
