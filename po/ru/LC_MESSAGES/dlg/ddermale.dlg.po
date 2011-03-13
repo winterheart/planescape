@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddermale.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:47+0600\n"
+"PO-Revision-Date: 2011-03-13 23:38+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 66457
 msgid ""
@@ -38,7 +39,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 #: 66462
 #, fuzzy
 msgid "\"Nothing, never mind.\""
-msgstr "\"Ничего, неважно. Прощай\"."
+msgstr "\"Ничего, неважно.\""
 
 #: 66463
 msgid ""
@@ -47,9 +48,8 @@ msgid ""
 msgstr ""
 
 #: 66464
-#, fuzzy
 msgid "\"It will take just a moment of your time...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Это займет совсем немного твоего времени...\""
 
 #: 66465
 msgid "\"Farewell then.\""
@@ -96,9 +96,8 @@ msgid "\"What can you tell me about what's going on?\""
 msgstr "\"Что ты можешь рассказать об этой таверне?\""
 
 #: 66479
-#, fuzzy
 msgid "\"Is there anything of interest in this ward?\""
-msgstr "\"Что еще ты можешь сказать мне?\""
+msgstr "\"Есть ли что интересное в этом районе?\""
 
 #: 66480 66483 66486 66490 66493
 msgid "\"I must be going, farewell.\""
@@ -111,7 +110,7 @@ msgstr ""
 #: 66482
 #, fuzzy
 msgid "\"Very well, I have some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Хорошо. У меня были вопросы...\""
 
 #: 66484
 msgid ""
@@ -120,9 +119,8 @@ msgid ""
 msgstr ""
 
 #: 66485
-#, fuzzy
 msgid "\"I see. I have some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Понятно. У меня еще есть вопросы...\""
 
 #: 66487
 msgid ""
@@ -138,7 +136,7 @@ msgstr ""
 #: 66489
 #, fuzzy
 msgid "\"I see. I have some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня есть еще вопросы...\""
 
 #: 66491
 msgid ""
@@ -149,7 +147,7 @@ msgstr ""
 #: 66492
 #, fuzzy
 msgid "\"I have some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще вопросы...\""
 
 #: 66494
 msgid ""
@@ -158,9 +156,8 @@ msgid ""
 msgstr ""
 
 #: 66495
-#, fuzzy
 msgid "\"Hmm. I have some more questions...\""
-msgstr "\"Хммм. У меня есть некоторые вопросы...\""
+msgstr "\"Хммм. У меня есть еще вопросы...\""
 
 #: 66496
 msgid "\"Thank you, farewell.\""
@@ -177,7 +174,7 @@ msgstr ""
 #: 66502 66505 66510
 #, fuzzy
 msgid "\"Very well, farewell.\""
-msgstr "\"Ух, прощай...\""
+msgstr "\"Хорошо, прощай.\""
 
 #: 66503
 msgid ""
@@ -202,9 +199,8 @@ msgid "\"So you won't help me?\""
 msgstr "\"Ты знаешь что-нибудь о нем?\""
 
 #: 66508
-#, fuzzy
 msgid "\"I see, farewell.\""
-msgstr "\"Понятно. Прощай\"."
+msgstr "\"Понятно,  прощай\"."
 
 #: 66509
 msgid "\"No, sure won't. I'd go find yourself that tout."
@@ -215,3 +211,6 @@ msgid ""
 "You see the auctioneer customer. He waves you off as you attempt to talk to "
 "him again."
 msgstr ""
+"Ты видишь покупателя аукциониста. Он отмахивается от твоей попытки снова "
+"заговорить с ней."
+

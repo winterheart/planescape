@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dderan.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:46+0600\n"
+"PO-Revision-Date: 2011-03-13 23:39+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 35792
 msgid ""
@@ -292,14 +293,13 @@ msgid "\"You sell slaves?\""
 msgstr ""
 
 #: 35840 35846
-#, fuzzy
 msgid "\"I have some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
 #: 35841 35847 35849
 #, fuzzy
 msgid "\"I must be going. Farewell.\""
-msgstr "\"Я должен идти. Прощай\"."
+msgstr "\"Я должен идти. Прощай.\""
 
 #: 35842
 msgid "Truth: \"It still sounds like slavery to me.\""
@@ -323,15 +323,16 @@ msgid "\"I see... I have some questions for you...\""
 msgstr "\"Ой... У меня есть еще вопросы к тебе...\""
 
 #: 35850
-#, fuzzy
 msgid "\"I'm looking for someone named Lothar, or the Master of the Bones...\""
-msgstr "\"Я ищу кое-кого по имени Фарод. Ты не знаешь, где его можно найти?\""
+msgstr "\"Я ищу кое-кого по имени Лотар, он же Повелитель Костей...\""
 
 #: 35851
 msgid ""
 "\"I had a skull and it's been stolen from me. Do you know anyone who would "
 "do such a thing?\""
 msgstr ""
+"\"У меня был череп, который украли. Ты не знаешь кого-нибудь, кто бы мог это "
+"сделать?\""
 
 #: 35852 35891
 #, fuzzy
@@ -343,9 +344,8 @@ msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 35854
-#, fuzzy
 msgid "\"Can you tell me about this ward?\""
-msgstr "\"Что ты можешь сказать об Улье?\""
+msgstr "\"Можешь рассказать об этом районе?\""
 
 #: 35855
 msgid "\"Can you tell me about Sigil?"
@@ -366,22 +366,21 @@ msgstr "\"Понятно. У меня были еще вопросы...\""
 #: 35859
 #, fuzzy
 msgid "\"I must take my leave. Farewell.\""
-msgstr "\"Я должен идти, прощай\"."
+msgstr "\"Я должен идти. Прощай.\""
 
 #: 35860
-#, fuzzy
 msgid "\"Where can I find this place?\""
-msgstr "\"Где я могу найти этого Фарода?\""
+msgstr "\"Где можно найти это место?\""
 
 #: 35861
 #, fuzzy
 msgid "\"Thank you. I have some other questions...\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Спасибо тебе, у меня есть другие вопросы...\""
 
 #: 35862
 #, fuzzy
 msgid "\"I must be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай\"."
+msgstr "\"Я должен идти. Прощай.\""
 
 #: 35863
 msgid "\"I see. Farewell.\""
@@ -390,7 +389,7 @@ msgstr "\"Понятно. Прощай\"."
 #: 35864
 #, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Нет! Нет!..\""
+msgstr "\"Продолжай...\""
 
 #: 35865 35879 35883
 #, fuzzy
@@ -410,7 +409,7 @@ msgstr "\"Расскажи мне об Аллее\"."
 #: 35868 35873 35877 35881 35885 35887
 #, fuzzy
 msgid "\"I have some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще вопросы...\""
 
 #: 35869 35874 35878 35882 35886 35888 35914
 msgid "\"Thank you, farewell.\""
@@ -431,7 +430,7 @@ msgstr "Уйти."
 #: 35895
 #, fuzzy
 msgid "\"I have some other questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 35896
 #, fuzzy
@@ -481,17 +480,17 @@ msgstr ""
 #: 35911
 #, fuzzy
 msgid "\"Yes I do.\""
-msgstr "\"Да\"."
+msgstr "\"Да, знаю.\""
 
 #: 35912
 #, fuzzy
 msgid "\"Yes, I do.\""
-msgstr "\"Да\"."
+msgstr "\"Да, знаю\"."
 
 #: 35913
 #, fuzzy
 msgid "\"I don't know...\""
-msgstr "\"Я не знаю\". "
+msgstr "\"Я не знаю.\" "
 
 #: 35915
 msgid "\"What if I can prove she is innocent?\""
@@ -532,3 +531,4 @@ msgid ""
 "I gave Deran Trist's loan document. He has agreed to set Trist free and see "
 "that her status is restored. "
 msgstr ""
+
