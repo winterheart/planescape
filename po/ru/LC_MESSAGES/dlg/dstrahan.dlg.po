@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dstrahan.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-08 19:57+0500\n"
+"PO-Revision-Date: 2011-03-13 22:50+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 32470
 msgid ""
@@ -21,6 +22,11 @@ msgid ""
 "confidently over to you, smiling. \"Impressive... I must admit, I never "
 "thought you would make it this far.\""
 msgstr ""
+"Ты видишь мужчину в черном одеянии. Аккуратоно прибранные волосы и элегантно "
+"подстриженная бородка подчеркивают его привлекательную внешность. Заметив "
+"твое присутствие, он прекращает писать, откладывает в сторону книгу и, "
+"улыбаясь, внимательно тебя изучает. \"Впечатляюще... Должен признать, я не "
+"думал, что ты доберешься так далеко\"."
 
 #: 32471
 msgid ""
@@ -28,10 +34,13 @@ msgid ""
 "should concern you most.\" As he speaks, he looks you up and down, as if "
 "somehow fascinated by you."
 msgstr ""
+"\"Кто я такой - для тебя не имеет значения. Что мне нужно - вот что тебя "
+"должно беспокоить в первую очередь\", - говорит он, зачарованно осматривая "
+"тебя с ног до головы."
 
 #: 32472
 msgid "He takes a step back and cocks an eyebrow. \"I want... your blood.\""
-msgstr ""
+msgstr "Он делает шаг назад, вскинув брови. \"Мне нужна... твоя кровь\"."
 
 #: 32473
 msgid ""
@@ -41,6 +50,11 @@ msgid ""
 "hands have begun to move at his sides. Slowly, they flit back and forth, "
 "tracing intricate patterns in the air."
 msgstr ""
+"Едва начав отвечать, мужчина внезапно умолкает. На его лице возникает "
+"дьявольская улыбка, и он начинает хохотать. \"Да... можно и так сказать\". Он "
+"хохочет над своей, известной только ему шутке, все громче и громче. Ты "
+"замечаешь, что его руки приходят в движение - он медленно машет ими вперед и "
+"назад, оставляя в воздухе замысловатые узоры."
 
 #: 32474
 msgid ""
@@ -48,6 +62,9 @@ msgid ""
 "and raises his hands before him. Slowly, they flit back and forth, tracing "
 "intricate patterns in the air."
 msgstr ""
+"\"Правда? Ну что ж, тогда приложи к этому все усилия\". Самодовольно "
+"улыбаясь, он поднимает руки перед собой. Он медленно машет ими вперед и "
+"назад, оставляя в воздухе замысловатые узоры."
 
 #: 32475
 msgid ""
@@ -55,52 +72,61 @@ msgid ""
 "hands before him. Slowly, they flit back and forth, tracing intricate "
 "patterns in the air."
 msgstr ""
+"\"Боюсь, что ты никуда не пойдешь\". Самодовольно улыбаясь, он поднимает руки "
+"перед собой. Он медленно машет ими вперед и назад, оставляя в воздухе "
+"замысловатые узоры."
 
 #: 32476
 msgid ""
 "\"I'm glad to have disappointed you... are you the one responsible for all "
 "the walking dead?"
 msgstr ""
+"\"Рад, что обманул твои ожидания... так это ты источник всех этих ходячих "
+"мертвецов?\""
 
 #: 32477
 msgid ""
 "\"Foul Necromancer! I've come to put an end to your desecration of this "
 "place.\""
 msgstr ""
+"\"Глупый некромант! Я пришел сюда, чтобы прекратить твое осквернение этого "
+"места\"."
 
 #: 32478
-#, fuzzy
 msgid "\"Sorry to have to disturbed you. Farewell.\""
-msgstr "\"Извини, что отвлек. Прощай\"."
+msgstr "\"Прошу прощения за беспокойство. Прощай\"."
 
 #: 32479
 msgid "\"Very well... what do you want?\""
-msgstr ""
+msgstr "\"Хорошо... и что тебе нужно?\""
 
 #: 32480
 msgid ""
 "\"You're wrong. What you want *doesn't* interest me... I'm here to kill you."
 "\""
 msgstr ""
+"\"Ты ошибаешься. Что тебе нужно - меня *не* интересует... Я здесь, чтобы "
+"убить тебя\"."
 
 #: 32481
-#, fuzzy
 msgid "\"Never mind. I must be going.\""
-msgstr "\"Не важно. Мне нужно идти\"."
+msgstr "\"Неважно. Я должен идти.\""
 
 #: 32482
 msgid "\"Is that some kind of threat?\""
-msgstr ""
+msgstr "\"Это что-то типа угрозы?\""
 
 #: 32483
 msgid ""
 "\"What a coincidence... I've come for your blood as well. Prepare to die!\""
 msgstr ""
+"\"Какое совпадение... Я тоже пришел за твоей кровью. Приготовься к смерти!\""
 
 #: 32484
 msgid "\"Uh... I'm not interested. Farewell.\""
-msgstr ""
+msgstr "\"Эээ... Меня это не интересует. Прощай.\""
 
 #: 32485
 msgid "Attack."
 msgstr "Атаковать."
+
