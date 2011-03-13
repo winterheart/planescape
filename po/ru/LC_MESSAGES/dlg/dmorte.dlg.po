@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmorte.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-03-07 01:16+0500\n"
+"PO-Revision-Date: 2011-03-13 16:01+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.2\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
@@ -2297,7 +2297,7 @@ msgid ""
 "worry, I'll stay back and provide valuable tactical advice.\""
 msgstr ""
 "\"Отлично, ты нашел скальпель! А теперь пора разделаться с этими трупами... "
-"и не бойся, я буду позади тебя давать ценные тактические советы\"."
+"и не бойся, я буду позади тебя и давать ценные тактические советы\"."
 
 #: 27298
 msgid "\"I WILL be helping you. Good advice is hard to come by.\""
@@ -3111,11 +3111,11 @@ msgid ""
 "\"I think the dustie chit might be a bit short of hearing, chief. Let's lay "
 "off, shall we?\""
 msgstr ""
+"\"Похоже, эта мертвячка немного туга на ухо, шеф. Пойдем отсюда, шеф\"."
 
 #: 3474 3483
-#, fuzzy
 msgid "\"What's wrong with her hands?\""
-msgstr "\"Что на самом деле с ним не так?\""
+msgstr "\"А что это с ее руками?\""
 
 #: 3475 3478
 msgid "Tap the woman, get her attention."
@@ -4444,9 +4444,8 @@ msgid ""
 msgstr "\"Ты что-то сказал про 'Правило Трех'. Что ты имел ввиду?\""
 
 #: 45094 45101 45105
-#, fuzzy
 msgid "\"All right. Come on, let's keep moving.\""
-msgstr "\"Ладно. Идем\"."
+msgstr "\"Ладно. Идем дальше\"."
 
 #: 45095
 msgid ""
@@ -4481,9 +4480,8 @@ msgstr ""
 "потом забыл его остановить. А кто отдает трупам приказы?\""
 
 #: 45100 45104
-#, fuzzy
 msgid "\"Understood. I wanted to examine this zombie a bit more...\""
-msgstr "\"Хорошая мысль. У меня еще есть некоторые вопросы...\""
+msgstr "\"Хорошая мысль. Надо изучить этого зомби поподробнее...\""
 
 #: 45102
 msgid ""
@@ -4691,15 +4689,16 @@ msgstr ""
 "положенного срока... ну, ты понял, просто убивает их\"."
 
 #: 4701 4704
-#, fuzzy
 msgid "\"I see. There was something else I wanted to know...\""
-msgstr "\"А теперь... Есть кое-что, о чем я хочу узнать...\""
+msgstr "\"Понятно. Есть еще кое-что, что я хочу узнать...\""
 
 #: 4702
 msgid ""
 "\"This Pharod sounds like a saint. I may have some questions later. Don't go "
 "anywhere.\""
 msgstr ""
+"\"Да этот Фарод просто святой какой-то. Позже у меня могут появиться другие "
+"вопросы. Никуда не уходи\"."
 
 #: 4703
 msgid "\"He wants to know if somebody robbed you. Probably what happened.\""
@@ -6235,17 +6234,15 @@ msgid ""
 "without the arms.\" "
 msgstr ""
 "\"Это напоминает мне работу, которая у меня однажды была\". Он смущается. "
-"\"Ну, только... без маханий рук\". "
+"\"Ну, только... без маханий руками\". "
 
 #: 6325 6326
-#, fuzzy
 msgid "Examine the corpse."
-msgstr "Снова осмотреть труп. "
+msgstr "Осмотреть труп."
 
 #: 6327
-#, fuzzy
 msgid "\"Hmmm. I wonder if this would work with the other notices...\""
-msgstr "\"Хммм. Думаю, я смогу найти применение этой руке...\""
+msgstr "\"Хммм. Интересно, сработает ли это с другими объявлениями...\""
 
 #: 6328
 #, fuzzy
@@ -6436,9 +6433,8 @@ msgstr ""
 "напоминает \"устоявшийся институт\". "
 
 #: 64534 64535
-#, fuzzy
 msgid "\"Pretty barmy, I suppose...\""
-msgstr "\"Звучит очень запутанно\"."
+msgstr "\"Достаточно для этого, наверное...\""
 
 #: 64990
 msgid ""
@@ -8217,3 +8213,4 @@ msgid ""
 "\" Pauses for a moment. \"Say, I *have* to ask: are you one of those "
 "Sensates into self-mutilation or did somebody give you those scars?\" "
 msgstr ""
+
