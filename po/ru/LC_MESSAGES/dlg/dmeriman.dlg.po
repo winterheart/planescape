@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmeriman.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:28+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-03-05 16:58+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,35 +21,43 @@ msgid ""
 "time for the likes of you!\" He goes into a fit of coughing from the "
 "exertion of shooing you away so loudly."
 msgstr ""
+"У этого мужчины вид злобного, сварливого старикана. Его рот искривлен в "
+"недовольной гримасе, которая только ухудшается, когда он замечает твое "
+"приближение. \"Может, меня и Весельчак зовут, но я вовсе не веселый! "
+"Проваливай, юнец! Нет у меня времени на таких как ты!\" Он аж заходится в "
+"приступе кашля от того, что так громко гнал тебя прочь."
 
 #: 49921 49924
-#, fuzzy
 msgid "\"Wait... Dolora wanted me to speak with you.\""
-msgstr "\"Погоди. Эморик сказал мне поговорить с тобой.\""
+msgstr "\"Погоди... Долора хотела, чтобы я с тобой поговорил\"."
 
 #: 49922 49925
-#, fuzzy
 msgid "\"Fine... farewell.\""
-msgstr "\"Ух... прощай.\""
+msgstr "\"Ладно... прощай\"."
 
 #: 49923
 msgid "Merriman gives you a sour, withering look. \"Go away,\" he hisses."
 msgstr ""
+"Весельчак дарит тебе мрачный испепеляющий взгляд. \"Уходи\", - шипит он."
 
 #: 49926
 msgid ""
 "Merriman eyes you suspiciously. \"That so? About *what,* eh? Hmm? Well?\""
 msgstr ""
+"Весельчак с подозрением осматривает тебя. \"И что? На счет *чего*, а? Хм? Ну?"
+"\""
 
 #: 49927
 msgid ""
 "\"She says that you're her first love, and that so long as you hold the keys "
 "to her heart, she'll never be free to love another.\""
 msgstr ""
+"\"Она сказала, что ты - ее первая любовь, и что пока у тебя ключи от ее "
+"сердца, она никогда не сможет полюбить другого\"."
 
 #: 49928
 msgid "\"Forget it. Farewell.\""
-msgstr "\"Забудь. Прощай.\""
+msgstr "\"Забудь об этом. Прощай\"."
 
 #: 49929
 msgid ""
@@ -58,22 +66,26 @@ msgid ""
 "*feelings.* In any case...\" He pats a pocket on his tunic. \"...I won't "
 "just *give* the keys to you.\""
 msgstr ""
+"\"Вот что, значит, она тебе сказала? Удивлен. Возможно, попечение госпожи "
+"Грации сделало то, чего я не смог... у нее появились *чувства*. Так или "
+"иначе... - он похлопывает по карману своей туники. - Я их тебе *не отдам* за "
+"просто так\"."
 
 #: 49930
 msgid "\"Wait - those are literally 'the keys to her heart?'\""
-msgstr ""
+msgstr "\"Постой... Это в прямом смысле \"ключи от ее сердца\"?\""
 
 #: 49931
 msgid "\"What do you want for them, then?\""
-msgstr ""
+msgstr "\"Тогда что же ты за них хочешь?\""
 
 #: 49932
 msgid "\"Then perhaps I'll just *take* them from you...\""
-msgstr ""
+msgstr "\"Тогда я, наверно, просто *заберу* их у тебя...\""
 
 #: 49933
 msgid "\"We'll talk about them later. Farewell.\""
-msgstr ""
+msgstr "\"Мы обсудим это позже. Счастливо\"."
 
 #: 49934
 msgid ""
@@ -81,6 +93,9 @@ msgid ""
 "my cold, dead fingers! And I'm uncertain of the wisdom in starting a row in "
 "the Civic Festhall...\""
 msgstr ""
+"\"Единственный способ *забрать* у меня ключи, юнец, - это выдернуть их из "
+"моих холодных мертвых пальцев! И я не уверен, будет ли мудрым решением "
+"затевать драку в Городской ратуше...\""
 
 #: 49935
 msgid "Attack him."
@@ -88,16 +103,15 @@ msgstr "Атаковать его."
 
 #: 49936
 msgid "\"Granted. So - are these literally 'the keys to her heart?'\""
-msgstr ""
+msgstr "\"Проехали. Значит... это в прямом смысле \"ключи от ее сердца\"?\""
 
 #: 49937
 msgid "\"All right. What did you want for them, Merriman?\""
-msgstr ""
+msgstr "\"Хорошо. Что ты хочешь за них, Весельчак?\""
 
 #: 49938
-#, fuzzy
 msgid "\"In that case, farewell.\""
-msgstr "\"Нет, спасибо. Прощай.\""
+msgstr "\"В таком случае, прощай\"."
 
 #: 49939
 msgid ""
@@ -109,40 +123,50 @@ msgid ""
 "own personality. The keys are the tools used to 'set' her; she wants them "
 "because she feels that they're limiting her personal growth now, I suspect.\""
 msgstr ""
+"Он кивает. \"Так и есть. Долора - конструкт; разве ты не знал? Творение "
+"магии и механизмов - вот кто она; и одно из моих лучших творений, - "
+"Весельчак вздыхает. - Вот только она холодная, без эмоций и характера. Я "
+"привел ее в Бордель и \"настроил\" так, чтобы она не смогла уйти, надеясь, "
+"что постоянное общение с множеством других людей разовьет ее собственную "
+"личность. Ключи - это инструменты для ее \"настройки\". Подозреваю, что они "
+"нужны ей, поскольку она чувствует, что теперь они ограничивают рост ее "
+"личности\"."
 
 #: 49940
 msgid "\"Then why don't you just return them to her?\""
-msgstr ""
+msgstr "\"Тогда почему ты просто не вернешь их ей?\""
 
 #: 49941
 msgid "\"What do you want for the keys?\""
-msgstr ""
+msgstr "\"Что ты хочешь за ключи?\""
 
 #: 49942
 msgid "\"Perhaps I'll just *take* the keys from you...\""
-msgstr ""
+msgstr "\"Пожалуй, я просто *заберу* у тебя ключи...\""
 
 #: 49943
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 49944
 msgid ""
 "Merriman scowls. \"Because I've become a cruel and bitter old man, who sees "
 "he can get something out of you.\""
 msgstr ""
+"Весельчак нахмуривается. \"Потому что я стал злым и жестоким стариком, "
+"который видит, что из тебя извлечь выгоду\"."
 
 #: 49945
 msgid "\"Go on, then... what do you want?\""
-msgstr ""
+msgstr "\"Ну, валяй... чего ты хочешь?\""
 
 #: 49946
 msgid "\"Not if I just take the keys, Merriman...\""
-msgstr ""
+msgstr "\"Только если я просто не заберу ключи, Весельчак...\""
 
 #: 49947
 msgid "\"We'll discuss this later. Farewell.\""
-msgstr ""
+msgstr "\"Мы обсудим это позже. Счастливо\"."
 
 #: 49948
 msgid ""
@@ -152,19 +176,23 @@ msgid ""
 "new experiences... so I need to find a way to forget them all. That way, I "
 "can start again in my final days...\""
 msgstr ""
+"\"Я хочу... Я хочу забыть. Я прожил почти сто пятьдесят лет, и просмотрел "
+"все камни переживаний, которые меня интересовали, в том огромном зале. Мне "
+"уже немного осталось, и я слишком слаб, чтобы уйти на поиски совершенно "
+"новых переживаний... так что мне нужно найти способ забыть их все. Таким "
+"образом, я могу начать все заново в остаток моих дней...\""
 
 #: 49949
 msgid "\"So... do I just wallop you in the back of the head, or what?\""
-msgstr ""
+msgstr "\"Ну... может, мне просто дать тебе по затылку, или как?\""
 
 #: 49950
 msgid "\"How can I help?\""
-msgstr ""
+msgstr "\"Как я могу помочь?\""
 
 #: 49951
-#, fuzzy
 msgid "\"I'll think about it. Farewell.\""
-msgstr "\"Я подумаю над этим. Прощай.\""
+msgstr "\"Я подумаю над этим. Прощай\"."
 
 #: 49952
 msgid ""
@@ -173,26 +201,34 @@ msgid ""
 "to a person, then bring it back to him... Merriman himself suggested water "
 "from the River Styx as one possibility."
 msgstr ""
+"Весельчак хочет, чтобы я помог ему потерять свою память, и тогда он отдаст "
+"мне ключи к сердцу Долоры. Полагаю, мне нужно найти что-нибудь, что так и "
+"подействует, а потом напомнить ему об уговоре... Сам Весельчак предположил, "
+"что единственная возможность сделать это - вода из реки Стикс."
 
 #: 49953
 msgid "\"No, you bloodthirsty lummox!\""
-msgstr ""
+msgstr "\"Нет, кровожадный ты болван!\""
 
 #: 49954
 msgid ""
 "\"I'll need something... some item, some concoction... that will allow me to "
 "forget. Like a draught of the river Styx; something like that.\""
 msgstr ""
+"\"Мне нужно что-нибудь... какой-то предмет или смесь... которая позволит мне "
+"все забыть. Например, глоток из реки Стикс; что-нибудь эдакое\"."
 
 #: 49955 49958
 msgid ""
 "\"Here, take this mug... it holds a Dark Bird of Ocanthus, a sliver of ice "
 "from the River Styx. It should wipe your memories clean...\""
 msgstr ""
+"\"Вот, возьми эту кружку... в ней Темная птица Окантуса, осколок льда из "
+"реки Стикс. Она должна начисто стереть твою память...\""
 
 #: 49956
 msgid "\"Right. I'll return if I find something... farewell.\""
-msgstr ""
+msgstr "\"Ладно. Я вернусь, если найду что-нибудь... Прощай\"."
 
 #: 49957
 msgid ""
@@ -200,15 +236,18 @@ msgid ""
 "mind of these accursed memories? I certainly hope you haven't returned "
 "without... you'll never get the keys to Dolora's heart, that way.\""
 msgstr ""
+"Весельчак смотрит на тебя, сузив глаза. \"Ну? У тебя уже есть что-нибудь, "
+"что очистит мой разум от этих проклятых воспоминаний? Я, конечно же, "
+"надеюсь, что ты не пришел с пустыми руками... В этом случае, ты никогда не "
+"получишь ключи от сердца Долоры\"."
 
 #: 49959
 msgid "\"Perhaps I'll just take the keys, Merriman...\""
-msgstr ""
+msgstr "\"Пожалуй, я просто заберу у ключи, Весельчак...\""
 
 #: 49960
-#, fuzzy
 msgid "\"No, I don't. Farewell.\""
-msgstr "\"Нет, нету. Прощай.\""
+msgstr "\"Нет. Прощай\"."
 
 #: 49961
 msgid ""
@@ -216,11 +255,13 @@ msgid ""
 "tilts the mug back and takes the ice into his mouth... it melts instantly, "
 "leaving him with a somewhat startled expression..."
 msgstr ""
+"Весельчак берет кружку и достает из своего кармана клочок бумаги. Он "
+"запрокидывает кружку и кладет кусочек льда себе в рот... тот мгновенно "
+"растает, оставив старика со слегка испуганным выражением лица..."
 
 #: 49962 49963
-#, fuzzy
 msgid "\"Merriman...?\""
-msgstr "\"Мортай?..\""
+msgstr "\"Весельчак?..\""
 
 #: 49964
 msgid ""
@@ -231,10 +272,17 @@ msgid ""
 "again. \"Well... it would seem I owe you thanks, good sir. Here... take this "
 "key. I'd best find this 'Splinter' fellow and find out what's going on!\""
 msgstr ""
+"Весельчак озадаченно смотрит на тебя, затем на клочок бумаги в своих руках. "
+"Он читает вслух: \"Поздравляю, Весельчак: ты начал все заново. Поблагодари "
+"человека перед тобой и дай ему ключ из твоего кармана. Чтобы выяснить "
+"больше, поговори со Сплинтером, человеком у входа в это здание, - он снова "
+"смотрит на тебя. - Что ж... похоже, я должен поблагодарить тебя, сударь. "
+"Вот... возьми этот ключ. Я лучше поищу этого парня, \"Сплинтера\", и выясню, "
+"что же тут происходит!\""
 
 #: 49965
 msgid "\"Thanks, Merriman. Good luck.\""
-msgstr ""
+msgstr "\"Спасибо, Весельчак. Удачи\"."
 
 #: 49966
 msgid ""
@@ -246,10 +294,18 @@ msgid ""
 "seem to have a key on me, though. Perhaps someone took it from me. So sorry! "
 "Well, I'd best find this 'Splinter' fellow and find out what's going on!\""
 msgstr ""
+"Весельчак озадаченно смотрит на тебя, затем на клочок бумаги в своих руках. "
+"Он читает вслух: \"Поздравляю, Весельчак: ты начал все заново. Поблагодари "
+"человека перед тобой и дай ему ключ из твоего кармана. Чтобы выяснить "
+"больше, поговори со Сплинтером, человеком у входа в это здание, - он снова "
+"смотрит на тебя. - Что ж... похоже, я должен поблагодарить тебя, сударь. "
+"Хмм... Похоже, что у меня нет ключа. Возможно, кто-то забрал его у меня. Так "
+"что извини! Ну, а я лучше поищу этого парня, \"Сплинтера\", и выясню, что же "
+"тут происходит!\""
 
 #: 49967
 msgid "\"Good luck, Merriman. Farewell.\""
-msgstr ""
+msgstr "\"Удачи, Весельчак. Прощай\"."
 
 #: 66580
 msgid ""
@@ -257,3 +313,6 @@ msgid ""
 "Merriman. Upon consuming it, he lost all his memories. It's what he wanted, "
 "though I can't say I envy the fellow."
 msgstr ""
+"Я принес Весельчаку кусок льда Стикса - Темную птицу Окантуса. Проглотив ее, "
+"он потерял все свои воспоминания. Это то, чего он добивался, хотя я бы не "
+"сказал, что завидую этому парню."
