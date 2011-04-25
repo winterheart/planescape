@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dvivian.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-15 03:08+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-03-23 22:39+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 2999 38431
@@ -20,6 +20,11 @@ msgid ""
 "silver thread, and a small phial dangles from her necklace. She is perfumed "
 "with an exotic, erotic scent that seems to draw you towards her."
 msgstr ""
+"Эта высокая элегантная женщина с резкими чертами лица и королевскими "
+"манерами - поразительный пример аристократической красоты. Ее одежда, "
+"похоже, соткана из серебряных нитей, а на ее ожерелье висит маленький "
+"пузырек. Она источает диковинный эротический запах, который, казалось бы, "
+"притягивает тебя к ней."
 
 #: 3000
 msgid "\"Greetings...\""
@@ -34,19 +39,21 @@ msgid ""
 "She looks you over, arching an eyebrow with what you sense to be disdain. "
 "\"Greetings. My name is Vivian; am I to presume I am being summoned?\""
 msgstr ""
+"Она осматривает тебя, подняв бровь, что, как тебе кажется, означает "
+"пренебрежение. \"Приветствую. Меня зовут Вивьен. Смею предположить, что меня "
+"вызвали?\""
 
 #: 38435
-#, fuzzy
 msgid "\"No, I just had some questions...\""
-msgstr "\"Нет... Просто у меня есть некоторые вопросы...\""
+msgstr "\"Нет, просто у меня есть некоторые вопросы...\""
 
 #: 38436
 msgid "\"No. Farewell.\""
-msgstr "\"Нет. Прощай.\""
+msgstr "\"Нет. Прощай\"."
 
 #: 39059
 msgid "She nods imperiously. \"Go on, then.\""
-msgstr ""
+msgstr "Она властно кивает. \"Что ж, продолжай\"."
 
 #: 39060 39067
 msgid "\"What are you doing here?\""
@@ -54,69 +61,70 @@ msgstr "\"Что ты здесь делаешь?\""
 
 #: 39068
 msgid "\"What's that incredible smell?\""
-msgstr ""
+msgstr "\"Что это за невероятный запах?\""
 
 #: 39069
 msgid "\"What's that phial you've got on your necklace?\""
-msgstr ""
+msgstr "\"Что это за флакон у тебя в ожерелье?\""
 
 #: 39070
 msgid "Can you tell me about this place?\""
 msgstr "\"Что ты можешь сказать об этом месте?\""
 
 #: 39071 67850
-#, fuzzy
 msgid "\"What can you tell me about the silent prostitute?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Что ты можешь рассказать о молчаливой проститутке?\""
 
 #: 39072
 msgid "\"I heard that Kesai-Serris is Ravel's daughter. Is that true?\""
-msgstr ""
+msgstr "\"Я слыхал, что Кесай-Серри - дочь Равель. Это правда?\""
 
 #: 39073
-#, fuzzy
 msgid ""
 "\"I'm trying find Marissa's Crimson Veil... do you know where it might be?\""
-msgstr "\"Я ищу потерянный дневник. Ты не знаешь, где я его могу найти?\""
+msgstr ""
+"\"Я пытаюсь найти малиновую вуаль Мариссы... Ты не знаешь, где бы она могла "
+"быть?\""
 
 #: 39074
-#, fuzzy
 msgid "\"Do you know anything about Ravel Puzzlewell?\""
-msgstr "\"А еще что-нибудь ты обо мне знаешь?\""
+msgstr "\"Ты что-нибудь знаешь о Равель Заморочке?\""
 
 #: 39075
 msgid ""
 "\"I've spoken to nine prostitutes altogether... do you know who or where the "
 "tenth student is?\""
 msgstr ""
+"\"Я переговорил со всеми девятью проститутками... ты не знаешь, кто десятая "
+"или где она находится?\""
 
 #: 39076
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 39077
 msgid ""
 "\"Aside from my work as a student here? I am looking for something, "
 "actually. You would not happen to have smelled it, would you?\""
 msgstr ""
+"\"Кроме того, что я здесь ученица? Вообще-то, я кое-что ищу. Ты ведь не "
+"слышал тот аромат, не так ли?\""
 
 #: 39078
-#, fuzzy
 msgid "\"A student?\""
-msgstr "\"Соревнование?\""
+msgstr "\"Ученица?\""
 
 #: 39079
 msgid "\"Smelled it?\""
-msgstr ""
+msgstr "\"Аромат?\""
 
 #: 39080
-#, fuzzy
 msgid "\"No, I don't think so...\""
-msgstr "\"Нет, не думаю.\""
+msgstr "\"Нет, не думаю...\""
 
 #: 39081
 msgid "\"Actually, I'd best be taking my leave. Farewell.\""
-msgstr ""
+msgstr "\"Вообще-то, мне лучше уйти. Счастливо\"."
 
 #: 39082
 msgid ""
@@ -125,10 +133,14 @@ msgid ""
 "with one's words, and to gain new insights into both them and ourselves. All "
 "the prostitutes here are such students.\""
 msgstr ""
+"Вивьен кивает, на вид слегка заскучавшая. \"Совершенно верно. Госпожа Грация "
+"обучает нас искусству языка и разговора - способности влиять на других "
+"посредством слов и смотреть по-новому на других и на самих себя. Все "
+"проститутки здесь являются ученицами\"."
 
 #: 39083
 msgid "\"You... asked if I had smelled something?\""
-msgstr ""
+msgstr "\"Ты... спросила, не слышал ли я какой-то аромат?\""
 
 #: 39084 39093 39101 39105 39113 39127 39130 39134 39138
 msgid "\"Let me ask you about something else...\""
@@ -136,7 +148,7 @@ msgstr "\"Позволь мне спросить еще кое о чем...\""
 
 #: 39085 39135 39139 39147 39154 39157 39175 52814
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 39086
 msgid ""
@@ -145,38 +157,38 @@ msgid ""
 "take it by accident... though you never know, with the 'ladies' around here."
 "\" She frowns. \"So... by any chance you have smelled it somewhere?\""
 msgstr ""
+"\"Да, у меня есть особый аромат, который, по всей видимости, пошел... "
+"*погулять*. Довольно... сложно держать его в одном месте. Надеюсь, никто "
+"случайно не взял его... хотя никогда не знаешь, чего ожидать от здешних \"дам"
+"\", - она нахмуривается. - Что ж... ты случайно нигде его не чувствовал?\""
 
 #: 39087
 msgid "\"You smell quite nice right now, you know...\""
-msgstr ""
+msgstr "\"Сейчас ты очень хорошо пахнешь, знаешь ли...\""
 
 #: 39088 39096
 msgid "\"How can a scent go wandering?\""
-msgstr ""
+msgstr "\"Как может аромат пойти гулять?\""
 
 #: 39089 39097
-#, fuzzy
 msgid "\"I don't think I've smelled it...\""
-msgstr "\"Нет, не думаю.\""
+msgstr "\"Не думаю, что я чувствовал его...\""
 
 #: 39090
 msgid "\"Unfortunate. I fear that I may never find it.\""
-msgstr ""
+msgstr "\"Увы. Боюсь, что так и не найду его\"."
 
 #: 39091 39099
-#, fuzzy
 msgid "\"How would you know it if you found it?\""
-msgstr "Как ты хочешь опознать этот предмет?"
+msgstr "Как ты узнаешь его, если найдешь?"
 
 #: 39092 39100
-#, fuzzy
 msgid "\"I can help...\""
-msgstr "\"Нет, если получится.\""
+msgstr "\"Я могу помочь...\""
 
 #: 39094 39102 39106
-#, fuzzy
 msgid "\"Good luck finding it. Farewell.\""
-msgstr "\"Удачи. Прощай.\""
+msgstr "\"Удачи в его поисках. Прощай\"."
 
 #: 39095
 msgid ""
@@ -184,6 +196,9 @@ msgid ""
 "your compliment... but I assure you, this particular aroma is *nothing* to "
 "my personal scent.\" She sighs."
 msgstr ""
+"На миг она мрачнеет, потом улыбается тебе. \"Да, да, и спасибо за "
+"комплимент... но я тебя уверяю: данный запах - *ничто*, по сравнению с моим "
+"личным ароматом\". Она вздыхает."
 
 #: 39098
 msgid ""
@@ -194,33 +209,41 @@ msgid ""
 "now *poof!* 'Tis gone! I need not bear such annoyances!\" Vivian stomps her "
 "feet: \"I want that scent back, and I want it now!\""
 msgstr ""
+"Вивьен качает головой. \"Я имела в виду, что подозреваю, что его *забрали*. "
+"Здешние \"дамы\" временами немного завистливы, и бывали случаи, что они "
+"забирали себе мои духи. Однако на этот раз кто-то прихватил мой личный "
+"аромат... Я работала над этим запахом, совершенствовала его, а потом *паф*! "
+"- он пропал! Мне не вынести такой досады! - Вивьен топает ножкой. - Я хочу "
+"вернуть этот аромат, сейчас же!\""
 
 #: 39103
 msgid ""
 "\"You would know it by smell, I assure you. 'Tis quite striking, especially "
 "to men.\""
 msgstr ""
+"\"Ты узнаешь его, уверяю. Он довольно примечательный, особенно для мужчин\"."
 
 #: 39104
 msgid "\"I can help you...\""
-msgstr ""
+msgstr "\"Я могу тебе помочь...\""
 
 #: 39107
 msgid "Vivian seems dubious. \"Are you certain? I do not wish to impose.\""
 msgstr ""
+"Вивьен, похоже, колеблется. \"Ты уверен? Я не хотела бы навязываться\"."
 
 #: 39108 39109
 msgid ""
 "\"No imposition. I am pleased to help such a lovely woman as yourself.\""
-msgstr ""
+msgstr "\"Ничуть. Мне будет приятно помочь такой красивой женщине как ты\"."
 
 #: 39110
 msgid "\"Oh, no imposition - I expect a reward.\""
-msgstr ""
+msgstr "\"О, ничего подобного - я надеюсь на награду\"."
 
 #: 39111
 msgid "\"If you doubt, then perhaps I can't help you.\""
-msgstr ""
+msgstr "\"Раз ты сомневаешься, тогда, пожалуй, я не смогу тебе помочь\"."
 
 #: 39112
 msgid ""
@@ -228,10 +251,13 @@ msgid ""
 "across it, please let me know. I am somewhat anxious to get it back. A one-"
 "of-a-kind scent, really.\""
 msgstr ""
+"Вивьен улыбается и кивает тебе. \"Ты слишком добр. Отлично... если он тебе "
+"случайно попадется, дай мне знать. Я очень хочу его вернуть. Этот аромат - "
+"единственный в своем роде, в самом деле\"."
 
 #: 39114 39128 39131
 msgid "\"I'll take my leave, now. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 39115
 msgid ""
@@ -239,10 +265,13 @@ msgid ""
 "mercenary appearance. Very well... recover my scent, and I shall aid you "
 "with yours.\""
 msgstr ""
+"Вивьен закатывает глаза. \"Этого я и ожидала от твоего грубой внешности "
+"типичного наемника. Отлично... верни мне мой аромат, и я помогу тебе с твоим"
+"\"."
 
 #: 39116
 msgid "\"Mine?\""
-msgstr ""
+msgstr "\"Моим?\""
 
 #: 39117
 msgid ""
@@ -250,15 +279,17 @@ msgid ""
 "She sniffs, then wrinkles her nose. \"'Tis in your *skin,* too... no bathing "
 "will remove that stink.\""
 msgstr ""
+"Она ухмыляется и указывает на тебя: \"Да, *твоим*. Этот отвратительный "
+"кислый запах, - она вдыхает, затем морщит нос. - К тому же, он в твоей "
+"*коже*... никакое купание не избавит от этой вони\"."
 
 #: 39118
 msgid "\"How would you do this, and how could it benefit me?\""
-msgstr ""
+msgstr "\"Как ты это сделаешь, и какая мне с этого выгода?\""
 
 #: 39119 39122 39125
-#, fuzzy
 msgid "\"Forget it. Waste of my time.\""
-msgstr "\"Забудь. Готовься к смерти.\""
+msgstr "\"Забудь. Пустая трата моего времени\"."
 
 #: 39120
 msgid ""
@@ -266,10 +297,13 @@ msgid ""
 "nature, which I shan't elaborate upon further - which allow me to create and "
 "change one's scent.\""
 msgstr ""
+"\"Касательно твоего первого вопроса: я владею некоторыми умениями, - "
+"магическими по своей сути, о которых я далее не буду распространяться - "
+"которые позволяют мне создавать и менять чьи-либо запахи\"."
 
 #: 39121
 msgid "\"And the benefits...?\""
-msgstr ""
+msgstr "\"А выгода какая?..\""
 
 #: 39123
 msgid ""
@@ -279,33 +313,46 @@ msgid ""
 "aroma of yours. It might increase your charisma considerably to smell a bit "
 "better, you know.\""
 msgstr ""
+"\"Ты попросту не можешь отрицать тот факт, что запах мужчины или женщины "
+"играет важную роль в том, как их воспринимают. Говорили тебе или нет, но я "
+"почти уверена, что людей, по крайней мере, чуточку отталкивает этот твой "
+"мертвецкий амбре. Видишь ли, твое обаяние может существенно улучшиться, если "
+"ты будешь лучше пахнуть\"."
 
 #: 39124
 msgid "\"Very well... I'll find your scent for you.\""
-msgstr ""
+msgstr "\"Отлично... Я найду твой аромат\"."
 
 #: 39126
 msgid ""
 "\"The deal is done, then. Should you run across it, let me know. I am "
 "somewhat anxious to get it back. A one-of-a-kind scent, really.\""
 msgstr ""
+"\"Тогда по рукам. Если он тебе случайно попадется, дай мне знать. Я очень "
+"хочу его вернуть. Этот аромат - единственный в своем роде, в самом деле\"."
 
 #: 39129
 msgid ""
 "\"Very well. 'Tis of no matter - I am certain I shall find it in time, with "
 "your help or not.\""
 msgstr ""
+"\"Отлично. Это не имеет значения. Уверена, что найду его со временем, с "
+"твоей помощью или без\"."
 
 #: 39132
+#, fuzzy
 msgid ""
 "She smiles at you. \"I thank you for your compliment... but I assure you, "
 "this particular aroma is a bland and paltry odor in comparison to my "
 "personal scent.\" She sighs."
 msgstr ""
+"Она улыбается тебе. \"Благодарю за комплимент... но я тебя уверяю: данный "
+"запах - несчастный безликий запашок на фоне моего личного аромата\". Она "
+"вздыхает."
 
 #: 39133 39137
 msgid "\"Your... 'personal' scent?\""
-msgstr ""
+msgstr "\"Твой... \"личный\" аромат?\""
 
 #: 39136
 msgid ""
@@ -313,23 +360,25 @@ msgid ""
 "a phial of perfume, merely. I assure you, though, this particular aroma in "
 "no way compares to my personal scent.\" She sighs."
 msgstr ""
+"Вивьен смотрит на пузырек, висящий на ее горле. \"А... этот. Это всего-"
+"навсего пузырек с духами. Уверяю тебя: данный запах просто несравним с моим "
+"личным ароматом\". Она вздыхает."
 
 #: 39140
 msgid "\"Isn't she some historical figure? I can't quite recall. Who is she?\""
-msgstr ""
+msgstr "\"Разве она не историческая фигура? Я точно не помню. Кто она?\""
 
 #: 39141
 msgid "\"A night hag from Sigil's past, I think.\""
-msgstr ""
+msgstr "\"Полагаю, ночная ведьма из прошлого Сигила\"."
 
 #: 39142
-#, fuzzy
 msgid "\"Never mind... let me ask you something else...'"
-msgstr "\"Интересно. Позволь мне спросить кое о чем еще...\""
+msgstr "\"Не обращай внимания... Позволь мне спросить кое о чем еще...\""
 
 #: 39143
 msgid "\"Forget it. Farewell.\""
-msgstr "\"Забудь. Прощай.\""
+msgstr "\"Забудь об этом. Прощай\"."
 
 #: 39144
 msgid ""
@@ -337,6 +386,10 @@ msgid ""
 "besmirching all femininity everywhere in the Planes.\" She suddenly pauses. "
 "\"You may wish to ask Yves. She knows all sorts of peculiar little tales.\""
 msgstr ""
+"\"Тогда надеюсь, что она и останется в прошлом. Ночные ведьмы - "
+"отвратительные существа, порочащие само женское начало на всех планах, - "
+"неожиданно она останавливается. - Возможно, тебе следует расспросить об этом "
+"Ив. Она знает великое множество разных необычных рассказов\"."
 
 #: 39146 39149 39153 39156 39174
 msgid "\"I had another question...\""
@@ -349,10 +402,14 @@ msgid ""
 "and be confined to that chamber for the rest of her days!\" Vivian "
 "'harumphs.'"
 msgstr ""
+"\"Если бы я знала, где она находится, я бы сожгла ее и сбросила все, что от "
+"нее осталось, в самую глубокую яму! Ах, если б эта презренная *никогда* не "
+"нашла свою драгоценную вуаль, и сидела в той комнате до конца своих дней!\" "
+"Вивьен фыркает."
 
 #: 39150 39160 39163
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 39151
 msgid ""
@@ -361,10 +418,14 @@ msgid ""
 "and to gain new insights into both them and ourselves. For many, 'tis in "
 "preparation to become a member of the Society of Sensation.\""
 msgstr ""
+"\"Бордель госпожи Грации? Это школа, где она преподает нам искусство языка и "
+"разговора - способность влиять на других посредством слов и смотреть по-"
+"новому на других и на самих себя. Для многих это - подготовка к вступлению в "
+"Общество Восприятия\"."
 
 #: 39152
 msgid "\"The Society of Sensation?\""
-msgstr ""
+msgstr "\"Общество Восприятия?\""
 
 #: 39155
 msgid ""
@@ -372,6 +433,9 @@ msgid ""
 "at the Civic Festhall - about the Sensates. They would be happy to speak "
 "with you, I am certain.\""
 msgstr ""
+"Вивьен издает вздох. \"Возможно, ты захочешь спросить Падшую Грацию - или, "
+"что еще лучше, кого-то в Городской ратуше - про Чувствующих. Уверена, они "
+"будут рады поболтать с тобой\"."
 
 #: 39158
 msgid ""
@@ -380,11 +444,14 @@ msgid ""
 "gossip is true, however. Inquire of Juliette -- she was once Kesai-Serris' "
 "best friend, until Juliette fell in love with Montague.\""
 msgstr ""
+"Вивьен кивает и понижает голос. \"Я тоже слышала подобный слух. Это "
+"объясняет ее красные глаза и... необычный оттенок ее кожи. Правда, я не "
+"знаю, могут ли быть такие сплетни правдой. Спроси у Джульетты - когда-то она "
+"была лучшей подругой Кесай-Серри, пока не влюбилась в Монтекки\"."
 
 #: 39159 39162
-#, fuzzy
 msgid "\"I had other questions, then...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"Тогда у меня есть другие вопросы...\""
 
 #: 39161
 msgid ""
@@ -393,6 +460,10 @@ msgid ""
 "the girls has been playing games with you. There is no tenth prostitute that "
 "I know of.\""
 msgstr ""
+"\"Десятая ученица? - она внимательно смотрит на тебя, будто неуверенная в "
+"том, правильно ли расслышала тебя. - Может, тебя слишком много били по "
+"голове. Или, может, кто-то из девочек играет с тобой. Я не знаю никакой "
+"десятой ученицы\"."
 
 #: 39164
 msgid ""
@@ -400,6 +471,9 @@ msgid ""
 "by the scent of her exotic, erotic perfume, which seems to irresistibly draw "
 "you towards her."
 msgstr ""
+"Вивьен подтверждает твое присутствие величественным кивком. Она все еще "
+"окружена запахом своих диковинных эротических духов, которые неодолимо "
+"притягивают тебя к ней."
 
 #: 39165
 msgid "\"I had some questions...\""
@@ -407,33 +481,35 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 39166
 msgid "\"Just passing by. Farewell.\""
-msgstr "\"Я просто проходил мимо. Прощай.\""
+msgstr "\"Я просто проходил мимо. Прощай\"."
 
 #: 39167
 msgid ""
 "Vivian greets you with a polite half-smile. \"Had you any luck in finding my "
 "scent, perchance?\""
 msgstr ""
+"Вивьен приветствует тебя учтивой полуулыбкой. \"Тебе случайно не удалось "
+"найти мой аромат?\""
 
 #: 39168
 msgid "\"Yes... I found it in this red veil...\""
-msgstr ""
+msgstr "\"Да... Я нашел его в этой красной вуали...\""
 
 #: 39169
 msgid ""
 "\"In a way... I believe it was on Marissa's lost veil, which I returned to "
 "her. She has your scent.\""
 msgstr ""
+"\"В некотором смысле... Думаю, он был на пропавшей вуали Мариссы, которую я "
+"ей вернул. Твой аромат у нее\"."
 
 #: 39170
-#, fuzzy
 msgid "\"No, but I had some questions...\""
-msgstr "\"Нет, у меня есть некоторые вопросы...\""
+msgstr "\"Нет, но у меня есть некоторые вопросы...\""
 
 #: 39171
-#, fuzzy
 msgid "\"No, but I'll keep looking. Farewell.\""
-msgstr "\"Я прослежу за этим. Прощай.\""
+msgstr "\"Нет, но я продолжу поиски. Прощай\"."
 
 #: 39172
 msgid ""
@@ -442,10 +518,15 @@ msgid ""
 "family recommended this establishment as one means by which I could examine "
 "my inner self to see if I wished to join.\""
 msgstr ""
+"\"Я - одна из проституток госпожи Грации (одна из ее учениц) здесь в "
+"борделе. Я готовлюсь к вступлению в Общество Чувствующих, и моя семья "
+"посоветовала мне это заведение в качестве средства, с помощью которого я "
+"могу проверить свое внутреннее \"я\", и увидеть, хочу ли я к ним "
+"присоединиться\"."
 
 #: 39173
 msgid "\"The Sensate faction?\""
-msgstr ""
+msgstr "\"Фракция Чувствующих?\""
 
 #: 39176
 msgid ""
@@ -455,27 +536,31 @@ msgid ""
 "intensely exotic and arousing scent you have ever had the pleasure of "
 "smelling."
 msgstr ""
+"Глаза Вивьен загораются. \"О, это просто чудесно!\" Она берет вуаль из твоих "
+"рук, проговаривает над ней несколько слов, и возвращает ее тебе. Она "
+"взмахивает своими темно-красными волосами, и тебя вмиг окружает самый "
+"экзотический и волнующий из ароматов, которые ты имел удовольствие вдыхать."
 
 #: 39177 39178 39192 39193
-#, fuzzy
 msgid "\"That smells... great...\""
-msgstr "\"Ух... Приветствую...?\""
+msgstr "\"Пахнет... чудесно...\""
 
 #: 39179
 msgid ""
 "\"It does, does it not?\" She smiles at you. \"And as you have done a favor "
 "for me, so I wish to perform one for you. Stand close to me, scarred one...\""
 msgstr ""
+"\"Прекрасный аромат, не так ли? - она улыбается тебе. - И так как ты оказал "
+"мне услугу, я хочу ответить тебе тем же. Подойди поближе, покрытый шрамами..."
+"\""
 
 #: 39180 39187
-#, fuzzy
 msgid "Approach her."
 msgstr "Подойти к ней."
 
 #: 39181 39188
-#, fuzzy
 msgid "\"No thanks; I'm all right. Farewell.\""
-msgstr "\"Нет... нет... так тоже неплохо. Прощай.\""
+msgstr "\"Нет, спасибо. Я в порядке. Прощай\"."
 
 #: 39184
 msgid ""
@@ -487,11 +572,16 @@ msgid ""
 "substantially. \"There - how is that? People should be less eager to avoid "
 "conversation with you, now.\""
 msgstr ""
+"Ты подходишь к Вивьен ближе; она берет твою руку и, перевернув ее, осторожно "
+"нюхает твое запястье. \"Фу! - она морщит нос. - Уксус! Или... бальзамирующая "
+"жидкость? Вот, я избавлю тебя от этого запаха...\" Она тихо проговаривает "
+"несколько странных слов, и по твоей коже пробегает легкое ощущение "
+"покалывания. Вмиг запах химикатов от тебя существенно уменьшается. \"Ну, "
+"вот... Как оно? Теперь люди не будут так рьяно избегать разговора с тобой\"."
 
 #: 39185
-#, fuzzy
 msgid "\"Thanks, Vivian. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай.\""
+msgstr "\"Спасибо, Вивьен. Прощай\"."
 
 #: 39186
 msgid ""
@@ -499,12 +589,17 @@ msgid ""
 "suppose you shall be wanting your reward, now. Stand closer to me, scarred "
 "one...\""
 msgstr ""
+"\"Прекрасный аромат, не так ли? - неожиданно улыбка Вивьен исчезает. - Что "
+"ж, полагаю, теперь ты ждешь свое вознаграждение. Подойди ближе, покрытый "
+"шрамами...\""
 
 #: 39189
 msgid ""
 "For the briefest of moments, Vivian's eyes smolder with rage. \"She *does,* "
 "does she? We shall see about that. Do not move; I shall return shortly.\""
 msgstr ""
+"На кратчайший миг в глазах Вивьен вспыхивает ярость. \"Это *она*, это она? "
+"Что ж, посмотрим. Не двигайся; я скоро вернусь\"."
 
 #: 39190
 msgid "Wait."
@@ -518,6 +613,11 @@ msgid ""
 "moments, you are surrounded by the most intensely exotic and arousing scent "
 "you have ever had the pleasure of smelling."
 msgstr ""
+"\"Вот как! Это все объясняет! Эта мерзкая ведьма... постоянно крала у меня "
+"духи, но я бы никогда не подумала, что она осмелится украсть мой личный "
+"аромат. Пф!\" Неожиданно она взмахивает своими темно-красными волосами, и "
+"тебя в миг окружает самый экзотический и волнующий из ароматов, которые ты "
+"имел удовольствие вдыхать."
 
 #: 39194
 msgid ""
@@ -525,16 +625,17 @@ msgid ""
 "of the wondrously erotic scent that surrounds her... her exotic 'personal "
 "smell,' which you recovered for her."
 msgstr ""
+"Вивьен поворачивается, чтобы поздороваться с тобой. Даже ее величественная "
+"красота тускнеет перед этим поразительным эротическим запахом, окружающим "
+"ее... экзотическим \"личным ароматом\", который ты ей вернул."
 
 #: 39195
-#, fuzzy
 msgid "\"I had a question for you, Vivian...\""
-msgstr "\"У меня есть другой вопрос к тебе...\""
+msgstr "\"У меня есть другой вопрос к тебе, Вивьен...\""
 
 #: 39196
-#, fuzzy
 msgid "\"Just passing by. Farewell, Vivian.\""
-msgstr "\"Я просто проходил мимо. Прощай.\""
+msgstr "\"Я просто проходил мимо. Прощай, Вивьен\"."
 
 #: 39197
 msgid ""
@@ -544,10 +645,15 @@ msgid ""
 "She has been known to speak to a man Ecco once loved, before she lost her "
 "voice.\""
 msgstr ""
+"\"Ты имеешь в виду Экко? Она прелесть. Тихая, - Вивьен мрачнеет. - Возможно, "
+"это часть ее обаяния. Есть несчетное количество объяснений того, почему она "
+"молчит, но я считаю, что это из-за того, что ее сердце жестоко разбито. "
+"Долора должна знать больше. Она вроде как говорила с мужчиной, которого "
+"когда-то любила Экко - еще до того, как потеряла свой голос\"."
 
 #: 39199
 msgid "\"I have another question...\""
-msgstr "\"У меня есть другой вопрос...\"\""
+msgstr "\"У меня есть другой вопрос...\""
 
 #: 61607
 msgid ""
@@ -555,10 +661,13 @@ msgid ""
 "Slating Intellectual Lust, find her 'personal scent.' She said I'd know it "
 "when I smelled it."
 msgstr ""
+"Я согласился помочь Вивьен, одной из проституток Борделя утоления "
+"интеллектуальной страсти, найти ее \"личный аромат\". Она сказала, что я "
+"узнаю его, когда почувствую."
 
 #: 61608
 msgid "I returned Vivian's personal scent to her."
-msgstr ""
+msgstr "Я вернул Вивьен ее личный аромат."
 
 #: 66742
 msgid ""
@@ -566,6 +675,9 @@ msgid ""
 "speak to Yves about it. I'm told that Yves collects all sorts of tales, and "
 "will likely have one about Ravel in her repertoire."
 msgstr ""
+"Я спросил одну из проституток Борделя о Равель, и она предложила мне "
+"поговорить об этом с Ив. Мне сказали, что Ив собирает различные истории, и, "
+"скорее всего, имеет что-нибудь про Равель в своем репертуаре."
 
 #: 66743
 msgid ""
@@ -573,6 +685,9 @@ msgid ""
 "truly Ravel's daughter, and she suggested I ask Juliette about it. "
 "Apparently, they were good friends before Juliette met Montague."
 msgstr ""
+"Я спросил одну из проституток, знает ли она, что Кесай-Серри - в самом деле "
+"дочь Равель, и она предложила, чтобы я спросил об этом Джульетту. Очевидно, "
+"они были близкими подругами, пока Джульетта не встретила Монтекки."
 
 #: 66744
 msgid ""
@@ -580,4 +695,6 @@ msgid ""
 "prostitute. She said that Dolora sometimes spoke to an old lover of Ecco's, "
 "one who knew her before she stopped speaking."
 msgstr ""
-
+"Одна из проституток предложила, чтобы я расспросил Долору об Экко, "
+"молчаливой проститутке. Она сказала, что когда-то Долора говорила с бывшим "
+"возлюбленным Экко, который знал ее еще до того, как она перестала говорить."
