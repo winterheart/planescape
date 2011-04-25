@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 2993
@@ -119,7 +119,7 @@ msgstr ""
 #: 64030 64031 64032 64036
 #, fuzzy
 msgid "\"So you *killed* them.\""
-msgstr "\"Я украл их.\""
+msgstr "\"Я украл их\"."
 
 #: 64033
 msgid "I TOOK NO PLEASURE IN THEIR DEATHS."
@@ -767,7 +767,7 @@ msgstr ""
 #: 68306 68307 68308 68309 68469 68470 68471 68472 68473 68474
 #, fuzzy
 msgid "\"Very well. I am ready to become mortal again.\""
-msgstr "\"Хорошо. Оставь меня. Мы должны больше разговаривать.\""
+msgstr "\"Хорошо. Оставь меня. Мы должны больше разговаривать\"."
 
 #: 65941
 msgid ""
@@ -1110,7 +1110,7 @@ msgstr ""
 #: 66013 66016 66018
 #, fuzzy
 msgid "Use the blade on yourself."
-msgstr "\"Расскажи мне о себе.\""
+msgstr "\"Расскажи мне о себе\"."
 
 #: 66014
 msgid "IT WOULD BE A FOOL'S GESTURE. YOUR DEATH WOULD HAVE NO MEANING."
@@ -1824,4 +1824,3 @@ msgid ""
 "\"Then you shall die as well. Prepare yourself, spirit. We shall see if my "
 "mortality can be slain.\" "
 msgstr ""
-

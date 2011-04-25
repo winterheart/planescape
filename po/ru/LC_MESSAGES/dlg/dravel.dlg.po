@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 2976
@@ -80,7 +80,7 @@ msgstr ""
 #: 51577
 #, fuzzy
 msgid "\"Greetings... Ravel.\""
-msgstr "\"Ух... Приветствую.\""
+msgstr "\"Ух... Приветствую\"."
 
 #: 51578
 msgid ""
@@ -672,7 +672,7 @@ msgstr ""
 #: 51697
 #, fuzzy
 msgid "\"Very well, Ravel... ask your questions.\""
-msgstr "\"Хорошо... задавай свои вопросы.\""
+msgstr "\"Хорошо... задавай свои вопросы\"."
 
 #: 51698
 msgid "\"Ravel, I need a little more information first...\""
@@ -716,12 +716,12 @@ msgstr ""
 #: 51705 51706
 #, fuzzy
 msgid "\"Understood. Ask your questions, Ravel.\""
-msgstr "\"Выкладывай, красавчик.\""
+msgstr "\"Выкладывай, красавчик\"."
 
 #: 51707 51708
 #, fuzzy
 msgid "\"Your rules are fair. Ask your questions, Ravel.\""
-msgstr "\"Ну хорошо... задавай свои вопросы.\""
+msgstr "\"Ну хорошо... задавай свои вопросы\"."
 
 #: 51709 51710
 msgid ""
@@ -774,7 +774,7 @@ msgstr ""
 #: 51754 51768 51805 51819 51832
 #, fuzzy
 msgid "\"I tire of your questions, Ravel. It is my turn again.\""
-msgstr "\"Природа твоего вопроса неясна, Посвященный.\""
+msgstr "\"Природа твоего вопроса неясна, Посвященный\"."
 
 #: 51755
 msgid "\"Ahhh... so it was then... so it is now. Another question have I...\""
@@ -862,7 +862,7 @@ msgstr ""
 
 #: 51775 51776 51777 51778 51779 51780
 msgid "\"Yes.\""
-msgstr "\"Да.\""
+msgstr "\"Да\"."
 
 #: 51781
 msgid "\"Yes, look, Ravel, I don't have time for th--\""
@@ -907,7 +907,7 @@ msgstr ""
 #: 51788 51789
 #, fuzzy
 msgid "\"Ravel. Enough of this...\""
-msgstr "\"Довольно этого. Прощай.\""
+msgstr "\"Довольно этого. Прощай\"."
 
 #: 51790
 msgid ""
@@ -939,7 +939,7 @@ msgstr ""
 #: 51824 51825
 #, fuzzy
 msgid "Truth: \"They *matter* to me.\""
-msgstr "\"Для меня это важно.\""
+msgstr "\"Для меня это важно\"."
 
 #: 51798 51812 51826
 msgid ""
@@ -1030,7 +1030,7 @@ msgstr ""
 #: 51843 51868
 #, fuzzy
 msgid "Truth: \"I hate him.\""
-msgstr "Правда: \"Просто хочу.\""
+msgstr "Правда: \"Просто хочу\"."
 
 #: 51844 51869
 msgid ""
@@ -1126,7 +1126,7 @@ msgstr ""
 #: 51872 51873 51874 51875 51876
 #, fuzzy
 msgid "\"I hide nothing.\""
-msgstr "\"Я ничего не скажу тебе.\""
+msgstr "\"Я ничего не скажу тебе\"."
 
 #: 51877
 msgid ""
@@ -1185,7 +1185,7 @@ msgstr ""
 #: 51887 51911 51925
 #, fuzzy
 msgid "Truth: \"I don't know her well enough yet.\""
-msgstr "\"На самом деле я не знаю.\""
+msgstr "\"На самом деле я не знаю\"."
 
 #: 51888
 msgid ""
@@ -1196,12 +1196,12 @@ msgstr ""
 #: 51889 51890 51898 51899 51927
 #, fuzzy
 msgid "\"Enough of these games, Ravel. Look -\""
-msgstr "\"Довольно этого. Прощай.\""
+msgstr "\"Довольно этого. Прощай\"."
 
 #: 51891 51900
 #, fuzzy
 msgid "\"Any other questions?\""
-msgstr "\"У меня есть другие вопросы.\""
+msgstr "\"У меня есть другие вопросы\"."
 
 #: 51892
 msgid ""
@@ -1435,62 +1435,62 @@ msgstr ""
 #: 51964 51981
 #, fuzzy
 msgid "Truth: \"I... don't know.\""
-msgstr "\"На самом деле я не знаю.\""
+msgstr "\"На самом деле я не знаю\"."
 
 #: 51965 51982
 #, fuzzy
 msgid "Truth: \"Love.\""
-msgstr "Правда: \"Да не очень-то.\""
+msgstr "Правда: \"Да не очень-то\"."
 
 #: 51966 51983
 #, fuzzy
 msgid "Truth: \"Hatred.\""
-msgstr "Правда: \"Много.\""
+msgstr "Правда: \"Много\"."
 
 #: 51967 51984
 #, fuzzy
 msgid "Truth: \"Power.\""
-msgstr "Правда: \"Да не очень-то.\""
+msgstr "Правда: \"Да не очень-то\"."
 
 #: 51968 51985
 #, fuzzy
 msgid "Truth: \"Greed.\""
-msgstr "Правда: \"Много.\""
+msgstr "Правда: \"Много\"."
 
 #: 51969 51986
 #, fuzzy
 msgid "Truth: \"Betrayal.\""
-msgstr "Правда: \"Да не очень-то.\""
+msgstr "Правда: \"Да не очень-то\"."
 
 #: 51970 51987
 #, fuzzy
 msgid "Truth: \"Death.\""
-msgstr "Правда: \"Да не очень-то.\""
+msgstr "Правда: \"Да не очень-то\"."
 
 #: 51971 51988
 #, fuzzy
 msgid "Truth: \"Regret.\""
-msgstr "Правда: \"Да не очень-то.\""
+msgstr "Правда: \"Да не очень-то\"."
 
 #: 51972 51989
 #, fuzzy
 msgid "Truth: \"Age.\""
-msgstr "Правда: \"Много.\""
+msgstr "Правда: \"Много\"."
 
 #: 51973 51990
 #, fuzzy
 msgid "Truth: \"Suffering.\""
-msgstr "Правда: \"Много.\""
+msgstr "Правда: \"Много\"."
 
 #: 51974 51991
 #, fuzzy
 msgid "Truth: \"Success.\""
-msgstr "Правда: \"Просто хочу.\""
+msgstr "Правда: \"Просто хочу\"."
 
 #: 51975 51992
 #, fuzzy
 msgid "Truth: \"The Planes.\""
-msgstr "Правда: \"Много.\""
+msgstr "Правда: \"Много\"."
 
 #: 51976 51993
 msgid "Truth: \"You, Ravel. As you changed my nature forever.\""
@@ -1653,7 +1653,7 @@ msgstr ""
 msgid ""
 "\"Thank you for the information you have given me, Ravel; I must leave now."
 "\" "
-msgstr "\"Спасибо за разъяснения. Теперь мне нужно отдать дань уважения ей.\""
+msgstr "\"Спасибо за разъяснения. Теперь мне нужно отдать дань уважения ей\"."
 
 #: 52024
 msgid ""
@@ -1819,7 +1819,7 @@ msgstr ""
 #: 52060 52063 52066
 #, fuzzy
 msgid "\"Tell me more about this ritual...\""
-msgstr "\"Расскажи мне о телах побольше.\""
+msgstr "\"Расскажи мне о телах побольше\"."
 
 #: 52062
 msgid ""
@@ -2238,7 +2238,7 @@ msgstr ""
 #: 52152 52153 52154
 #, fuzzy
 msgid "Truth: \"I would call you ugly.\""
-msgstr "Правда: \"Хорошо, я отпущу тебя.\""
+msgstr "Правда: \"Хорошо, я отпущу тебя\"."
 
 #: 52155
 msgid "\"I would say all the descriptions are all correct.\""
@@ -2309,7 +2309,7 @@ msgstr ""
 #: 52172 52173 52195 52204
 #, fuzzy
 msgid "\"No, Ravel.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Нет, не нужна\"."
 
 #: 52174 52175 52196 52205
 msgid ""
@@ -3289,7 +3289,7 @@ msgstr ""
 #: 52464 52465 52473 52474 52487 52488
 #, fuzzy
 msgid "\"Very well... thank you, Ravel. I must bid you farewell.\""
-msgstr "\"Хорошо. Спасибо за уделенное время. Прощай.\""
+msgstr "\"Хорошо. Спасибо за уделенное время. Прощай\"."
 
 #: 52466
 msgid ""
@@ -3462,7 +3462,7 @@ msgstr ""
 #: 52503 52505
 #, fuzzy
 msgid "\"I think you know not what you say, Ravel...\""
-msgstr "\"Я хотел бы узнать, что ты сказал ей.\""
+msgstr "\"Я хотел бы узнать, что ты сказал ей\"."
 
 #: 52504
 msgid ""
@@ -3583,5 +3583,3 @@ msgid ""
 "returns to her skin, and the blood red bleeds back into her eyes. She "
 "blinks, slowly, as if re-orienting herself. "
 msgstr ""
-
-

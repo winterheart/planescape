@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 28196
@@ -31,13 +31,13 @@ msgid ""
 "She nods towards the poet. \"Not a classic, certainly, but the old fellow "
 "*does* have potential.\""
 msgstr ""
-"Девушка поворачивается к тебе, однако поэт по-прежнему занимает ее внимание."
-" Она тихо говорит: \"Я прошу вас говорить потише, сэр.\" Она кивает на "
-"поэта. \"Не классика, конечно же, но у этого старика *есть* потенциал.\""
+"Девушка поворачивается к тебе, однако поэт по-прежнему занимает ее внимание. "
+"Она тихо говорит: \"Я прошу вас говорить потише, сэр\". Она кивает на поэта. "
+"\"Не классика, конечно же, но у этого старика *есть* потенциал\"."
 
 #: 28199
 msgid "\"I'm not sure, really.\""
-msgstr "\"Я не уверен в этом.\""
+msgstr "\"Я не уверен в этом\"."
 
 #: 28200
 msgid "The woman nods slowly, her eyes still on the poet."
@@ -53,7 +53,7 @@ msgid ""
 "Please respect the poet and keep silent...farewell.\""
 msgstr ""
 "Хмурясь, он тихо произносит: \"Не сейчас, сэр. Уважайте поэта и держитесь "
-"тихо... Прощайте.\""
+"тихо... Прощайте\"."
 
 #: 28203
 msgid "\"Just a few questions...\""
@@ -66,11 +66,11 @@ msgid ""
 "guard.\""
 msgstr ""
 "Она по-прежнему говорит тихо, но в голосе появляются угрожающие нотки. \"Не "
-"время и не место для вопросов, сэр. Оставьте меня или я позову стражников.\""
+"время и не место для вопросов, сэр. Оставьте меня или я позову стражников\"."
 
 #: 28205
 msgid "\"Fine, call them.\""
-msgstr "\"Отлично, зови их.\"его.\""
+msgstr "\"Отлично, зови их\".его\"."
 
 #: 28206 28207 28208 68102
 msgid "Leave."
@@ -78,7 +78,7 @@ msgstr "Уйти."
 
 #: 28209
 msgid "\"Yes, he's a poor poet.\""
-msgstr "\"Да, он неважный поэт.\""
+msgstr "\"Да, он неважный поэт\"."
 
 #: 28650
 msgid "The woman nods a greeting, but indicates for you to be silent."
@@ -91,9 +91,8 @@ msgstr "Оставить женщину в покое."
 
 #: 28654
 msgid "\"No, I think he's a good poet, actually.\""
-msgstr "\"Нет, мне кажется, что он хороший поэт.\""
+msgstr "\"Нет, мне кажется, что он хороший поэт\"."
 
 #: 28655
 msgid "\"Never mind that... I have some questions...\""
 msgstr "\"Тогда неважно... У меня есть некоторые вопросы...\"\""
-

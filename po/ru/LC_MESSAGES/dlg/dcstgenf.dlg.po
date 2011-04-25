@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 63249 63261 63289
@@ -21,7 +21,7 @@ msgstr "Ты видишь строгого мужчину в черной роб
 
 #: 63250 63262 63290
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 63251 63263 63291
 msgid "Ignore her."
@@ -39,7 +39,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 63254
 msgid "\"Nothing, never mind.\""
-msgstr "\"Ничего, неважно.\""
+msgstr "\"Ничего, неважно\"."
 
 #: 63255
 msgid ""
@@ -54,7 +54,7 @@ msgstr "\"Понятно. У меня были еще вопросы...\""
 
 #: 63257
 msgid "\"Farewell then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 63258
 msgid ""
@@ -80,7 +80,7 @@ msgstr ""
 #: 63266
 #, fuzzy
 msgid "\"No, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно. Прощай\"."
 
 #: 63267
 msgid "She frowns and sighs. \"If you must. Please be quick.\""
@@ -106,7 +106,7 @@ msgstr "\"А еще что-нибудь ты обо мне знаешь?\""
 
 #: 63272 63275 63278 63282 63285
 msgid "\"I must be going, farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 63273
 msgid ""
@@ -157,7 +157,7 @@ msgstr "\"Понятно. У меня были еще вопросы...\""
 
 #: 63288
 msgid "\"Thank you, farewell.\""
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо, прощай\"."
 
 #: 63292
 msgid ""
@@ -167,7 +167,7 @@ msgstr ""
 
 #: 63294 63297 63302
 msgid "\"Very well, farewell.\""
-msgstr "\"Хорошо, прощай.\""
+msgstr "\"Хорошо, прощай\"."
 
 #: 63295
 msgid ""
@@ -178,7 +178,7 @@ msgstr ""
 #: 63296
 #, fuzzy
 msgid "\"It will only take a moment of your time.\""
-msgstr "\"Спасибо за уделенное время. Прощай.\""
+msgstr "\"Спасибо за уделенное время. Прощай\"."
 
 #: 63298
 msgid ""
@@ -190,11 +190,11 @@ msgstr ""
 #: 63299
 #, fuzzy
 msgid "\"Yes, you do.\""
-msgstr "\"Хорошо, по рукам.\""
+msgstr "\"Хорошо, по рукам\"."
 
 #: 63300
 msgid "\"No, farewell.\""
-msgstr "\"Нет, прощай.\""
+msgstr "\"Нет, прощай\"."
 
 #: 63301
 msgid ""
@@ -215,4 +215,3 @@ msgid ""
 "This person looks extremely upset at being in the prison. You can't get a "
 "response from them regardless of how hard you try."
 msgstr ""
-

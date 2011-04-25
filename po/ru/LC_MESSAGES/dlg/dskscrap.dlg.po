@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 52402
@@ -140,7 +140,7 @@ msgstr "\"Эээ... что?\""
 #: 53281
 #, fuzzy
 msgid "\"...Morte's death.\""
-msgstr "\"Он тоже мертв.\""
+msgstr "\"Он тоже мертв\"."
 
 #: 53282
 #, fuzzy
@@ -154,7 +154,7 @@ msgstr ""
 #: 53284
 #, fuzzy
 msgid "\"...Nordom's death.\""
-msgstr "\"Без понятия.\""
+msgstr "\"Без понятия\"."
 
 #: 53286
 msgid "\"...Vhailor's death.\""
@@ -168,7 +168,7 @@ msgstr "\"Тогда у меня есть другой вопрос...\""
 #: 53290
 #, fuzzy
 msgid "\"...I didn't get to kill more people.\""
-msgstr "\"Я не хочу больше слушать. Прощай.\""
+msgstr "\"Я не хочу больше слушать. Прощай\"."
 
 #: 53291 68188
 msgid "\"...not setting Coaxmetal free from the siege tower.\""
@@ -181,7 +181,7 @@ msgstr ""
 #: 53295
 #, fuzzy
 msgid "\"...having to slay Ravel.\""
-msgstr "\"Тогда нам не о чем больше говорить. Прощай.\""
+msgstr "\"Тогда нам не о чем больше говорить. Прощай\"."
 
 #: 53297
 msgid ""
@@ -259,4 +259,3 @@ msgid ""
 "forth some more blood. As you prepare to scrawl your regret, a series of "
 "images float across your mind..."
 msgstr ""
-

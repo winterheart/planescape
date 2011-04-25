@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 17772
@@ -134,7 +134,7 @@ msgstr "Оставить ее в покое."
 
 #: 17793
 msgid "\"I was just passing by. Farewell.\""
-msgstr "\"Я просто проходил мимо. Прощай.\""
+msgstr "\"Я просто проходил мимо. Прощай\"."
 
 #: 17794
 #, fuzzy
@@ -143,7 +143,7 @@ msgstr "\"Нет, спасибо. Однако у меня есть вопрос
 
 #: 17795
 msgid "\"No, thanks. Farewell.\""
-msgstr "\"Нет, спасибо. Прощай.\""
+msgstr "\"Нет, спасибо. Прощай\"."
 
 #: 17796
 msgid "Look behind you, see what she's staring at."
@@ -165,7 +165,7 @@ msgstr "\"Я ищу потерянный дневник. Тебе он не по
 
 #: 17800
 msgid "\"Never mind... farewell.\""
-msgstr "\"Неважно... Прощай.\""
+msgstr "\"Неважно... Прощай\"."
 
 #: 17801 17826
 #, fuzzy
@@ -179,7 +179,7 @@ msgstr "\"Что ты можешь рассказать об этом месте
 #: 17805 17830
 #, fuzzy
 msgid "\"Er... farewell.\""
-msgstr "\"Нет... прощай.\""
+msgstr "\"Нет... прощай\"."
 
 #: 17806
 msgid "\"Have you seen me before, then?\""
@@ -188,7 +188,7 @@ msgstr ""
 #: 17807 17809 17811 17813 17815
 #, fuzzy
 msgid "\"Interesting. Farewell, fishwife.\""
-msgstr "\"Интересно. Прощай.\""
+msgstr "\"Интересно. Прощай\"."
 
 #: 17808
 msgid "\"Tell me...\""
@@ -237,11 +237,11 @@ msgstr ""
 
 #: 17823
 msgid "\"Of course. Farewell.\""
-msgstr "\"Конечно. Прощай.\""
+msgstr "\"Конечно. Прощай\"."
 
 #: 17824 17825
 msgid "\"Thanks. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 17831
 msgid "\"Could you tell me of when you saw me before, again?\""
@@ -250,7 +250,7 @@ msgstr ""
 #: 17832
 #, fuzzy
 msgid "\"Nothing, just passing by. Farewell.\""
-msgstr "\"Я просто проходил мимо. Прощай.\""
+msgstr "\"Я просто проходил мимо. Прощай\"."
 
 #: 21904
 msgid ""
@@ -302,7 +302,7 @@ msgstr "\"С тобой все в порядке?\""
 #: 22126
 #, fuzzy
 msgid "\"Great... I'll go look for one, then I'll be back.\""
-msgstr "\"Тогда пойду, поищу его. Прощай.\""
+msgstr "\"Тогда пойду, поищу его. Прощай\"."
 
 #: 22127
 msgid ""
@@ -313,7 +313,7 @@ msgstr ""
 #: 22129
 #, fuzzy
 msgid "\"Thanks, and farewell.\""
-msgstr "\"Спасибо... Прощай.\""
+msgstr "\"Спасибо... Прощай\"."
 
 #: 22136
 #, fuzzy
@@ -327,5 +327,3 @@ msgstr ""
 #: 22149
 msgid "\"I brought a tankard. Can I get the ink from the fish in it?\""
 msgstr ""
-
-

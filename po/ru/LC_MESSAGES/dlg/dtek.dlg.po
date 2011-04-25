@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dtek.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:39+0600\n"
+"PO-Revision-Date: 2011-04-25 16:57+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,17 +11,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 58197
 msgid ""
 "You see a vaguely humanoid creature covered with grotesque scales. It has "
 "huge wings and a prehensile tail. It watches your approach with amusement."
 msgstr ""
+"Перед тобой огромное существо с огромными крыльями и цепким хвостом, по "
+"форме отдаленно напоминающее человеческие очертания. Оно наблюдает твое "
+"приближение с явным предвкушением позабавиться."
 
 #: 58198
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 58199
 msgid "Ignore the creature."
@@ -31,7 +35,7 @@ msgstr "Не обращать внимания на существо."
 msgid ""
 "It barks out a laugh and smiles at you. \"Yes... greetings to you, little "
 "human.\""
-msgstr ""
+msgstr "Хохотнув, оно улыбается тебе. \"Да... здравствуй, человечишка\"."
 
 #: 58201 58215 58222 58227 58307
 msgid "\"I have some questions...\""
@@ -39,20 +43,19 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 58202 58223 58228
 msgid "\"I must be going, farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 58203
 msgid "\"By all means, ask your questions...\" It gives you a humorous smile."
-msgstr ""
+msgstr "\"Всенепременно, задавай свои вопросы...\" - улыбается он тебе."
 
 #: 58204
 msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 58205
-#, fuzzy
 msgid "\"What are you?\""
-msgstr "\"Кто ты такой?\""
+msgstr "\"Что ты такое?\""
 
 #: 58206
 msgid "\"What are you doing here?\""
@@ -63,25 +66,24 @@ msgid "\"What can you tell me about this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 58208
-#, fuzzy
 msgid "\"What can you tell me about the city of Curst?\""
-msgstr "\"А что ты можешь сказать о Леди Боли?\""
+msgstr "\"Что ты можешь сказать о Проклятом?\""
 
 #: 58209 58210
-#, fuzzy
 msgid "\"What has happened to Curst? Why all the changes?\""
-msgstr "\"А что случилось с твоим глазом?\""
+msgstr "\"Что случилось с Проклятым? Откуда все эти изменения?\""
 
 #: 58211
 msgid ""
 "\"As a Godsman I happen to know we are working on a secret device in the "
 "foundry. Can you tell me anything about that?\""
 msgstr ""
+"\"Будучи Богочеловеком, я узнал, что мы работаем над секретным устройством в "
+"Литейной. Ты можешь что-нибудь рассказать об этом?\""
 
 #: 58212 58264 58268 58272 58278 58281 58292 58296 58303
-#, fuzzy
 msgid "\"I must be going now, farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Я должен идти, прощай\"."
 
 #: 58213
 msgid ""
@@ -89,29 +91,31 @@ msgid ""
 "were a reason for you to know me, you would.\" It pauses. \"If you need to "
 "attach a name to me, you may call me Tek'elach.\" The creature smiles."
 msgstr ""
+"Некоторое время он размышлеяет над ответом. \"Мое имя не имеет значения. "
+"Если бы это было необходимо, ты бы уже знал его, - оно делает паузу. - Если "
+"же тебе нужно связать меня с именем, зови меня Текелач\". Существо широко "
+"улыбается."
 
 #: 58214
-#, fuzzy
 msgid "\"What kind of name is that?\""
 msgstr "\"Что это за имя такое?\""
 
 #: 58216
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 58217
 msgid "\"The only one you will get from me...\" It stares at you intently."
 msgstr ""
+"\"От меня ты услышишь только его...\" - оно пристально смотрит на тебя."
 
 #: 58218
-#, fuzzy
 msgid "\"I see. I have some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Понятно. У меня еще есть вопросы...\""
 
 #: 58219
-#, fuzzy
 msgid "\"I think I should be going. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Кажется, мне пора идти. Прощай\"."
 
 #: 58220
 msgid ""
@@ -120,77 +124,86 @@ msgid ""
 "suppose. I believe your kind knows me as a greater baatezu... specifically, "
 "a cornugon.\""
 msgstr ""
+"Оно задумчиво наклоняет голову набок. \"Что я такое? Хм... ты правда хочешь "
+"это знать? - он задумывается. - Думаю, вреда от этого не будет. Кажется, "
+"твои сородичи называют меня великим баатезу... корнугоном, если быть точным"
+"\"."
 
 #: 58221
 msgid "\"You're a greater baatezu?\""
-msgstr ""
+msgstr "\"Ты - великий баатезу?\""
 
 #: 58224
 msgid "\"Yes... does this surprise you?\" It looks at you expectantly."
-msgstr ""
+msgstr "\"Да... Тебя это удивляет?\" - оно выжидающе на тебя смотрит."
 
 #: 58225
 msgid ""
 "\"I just don't see why you'd be here. Aren't you supposed to be fighting "
 "some Blood War or something back home?\""
 msgstr ""
+"\"Я просто не понимаю, почему ты здесь. Разве ты не должен сейчас биться где-"
+"нибудь в Кровавой войне или находиться у себя дома?\""
 
 #: 58226
 msgid ""
 "\"I just don't see why you'd be here. Aren't you supposed to be doing "
 "something else?\""
 msgstr ""
+"\"Я просто не понимаю, почему ты здесь. Разве ты не должен сейчас находится "
+"где-то еще?\""
 
 #: 58229
 msgid ""
 "It frowns at you. \"Yes... there is the Blood War. But, that is far away for "
 "now and need not be spoken of...\""
 msgstr ""
+"Оно хмурится на тебя. \"Да... Кровавая война существует. Но она далеко, так "
+"что сейчас не стоит о ней разговаривать...\""
 
 #: 58230
-#, fuzzy
 msgid "\"Why not?\""
-msgstr "\"Почему?\""
+msgstr "\"Почему нет?\""
 
 #: 58231
 msgid ""
 "\"For no other reason than I choose not to... for now.\" It glares at you."
-msgstr ""
+msgstr "\"Я не буду называть причин... пока что\", - он смотрит на тебя."
 
 #: 58232
 msgid "\"I see. I have some other questions...\""
 msgstr "\"Понятно. У меня были еще вопросы...\""
 
 #: 58233
-#, fuzzy
 msgid "\"I'll be leaving now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Мне пора идти. Прощай\"."
 
 #: 58234
 msgid ""
 "It gives you a confused look. \"Something else? Do you refer to the Blood "
 "War perhaps?\""
 msgstr ""
+"Оно смущенно смотрит на тебя: \"Где-то еще? Наверное, ты имеешь в виду "
+"Кровавую войну?\""
 
 #: 58235 58300
-#, fuzzy
 msgid "\"What is the Blood War?\""
-msgstr "\"Что-что?\""
+msgstr "\"Что такое Кровавая война?\""
 
 #: 58236
 msgid ""
 "\"Not specifically the war, just something other than sitting here in this "
 "tunnel.\""
 msgstr ""
+"\"Не совсем войну, что-нибудь другое, чем сидеть здесь, в этом туннеле\"."
 
 #: 58237
-#, fuzzy
 msgid "\"Never mind, I have some questions...\""
 msgstr "\"Неважно. У меня есть другие вопросы...\""
 
 #: 58238 58244 58248 58254 58256
 msgid "\"I must be going. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 58239
 msgid ""
@@ -198,28 +211,35 @@ msgid ""
 "you. \"The Blood War is a... skirmish that we are having with the tanar'ri. "
 "It is of no consequence and need not be spoken of.\""
 msgstr ""
+"Некоторое время он размышлеяет над ответом. Поначалу тебе кажется даже, что "
+"оно не ответит тебе. \"Кровавая война - это... потасовка, в которой нам "
+"приходится иметь дела с танарри. Это не имеет никакого значения, так что не "
+"стоит об этом говорить\"."
 
 #: 58240
-#, fuzzy
 msgid "\"Why is that?\""
-msgstr "\"Что-что?\""
+msgstr "\"Отчего же так?\""
 
 #: 58241
 msgid ""
 "\"My business here is my own; I don't see it as a concern or yours.\" It "
 "smiles knowingly at you. \"I suggest you change the subject."
 msgstr ""
+"\"Что я здесь делаю - это мое дело. Я не понимаю, почему тебя это должно "
+"беспокоить, - он многозначительно улыбается тебе. - Советую тебе сменить тему"
+"\"."
 
 #: 58242
 msgid ""
 "\"I don't understand, why the secrecy? You give me the impression that "
 "something else is going on here.\""
 msgstr ""
+"\"Не понимаю, к чему такая секретность? Создается такое впечатление, что "
+"здесь что-то замышляется\"."
 
 #: 58243 58247 58255
-#, fuzzy
 msgid "\"Very well, I have some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Хорошо. У меня были вопросы...\""
 
 #: 58245
 msgid ""
@@ -227,17 +247,21 @@ msgid ""
 "words or actions to suit your own needs? Either way, I have answered your "
 "question. I will speak no more on this matter.\""
 msgstr ""
+"Оно смотрит на тебя с притворным удивлением. \"Неужели? Или ты решил "
+"истолковать мои слова на свой манер? Так или иначе, я ответил на твой вопрос "
+"и больше об этом не буду ничего говорить\"."
 
 #: 58246 58251
-#, fuzzy
 msgid "\"Why?\""
-msgstr "\"Почему я?\""
+msgstr "\"Почему?\""
 
 #: 58249
 msgid ""
 "\"What is there to tell?\" It gestures vaguely at the surroundings. \"Look "
 "with your own eyes. All is laid bare before you.\""
 msgstr ""
+"\"Что можно об этом сказать? - оно окидывает жестом окружающую обстановку. - "
+"Смотри сам. Все перед твоими глазами\"."
 
 #: 58250
 msgid ""
@@ -245,17 +269,21 @@ msgid ""
 "suspicious? Either way, I have answered your question. I will speak no more "
 "on this matter.\""
 msgstr ""
+"Оно смотрит на тебя с притворным удивлением. \"Правда? Ты страдаешь "
+"паранойей или слишком подозрителен? Так или иначе, я ответил на твой вопрос "
+"и больше об этом не буду ничего говорить\"."
 
 #: 58252
 msgid ""
 "\"I can't help but feel that there is more going on here than meets the "
 "eye...\""
 msgstr ""
+"\"У меня такое ощущение, что здесь происходит что-то, что нельзя разглядеть "
+"глазами...\""
 
 #: 58253
-#, fuzzy
 msgid "\"I see... I have some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Понятно... У меня еще есть вопросы...\""
 
 #: 58257
 msgid ""
@@ -263,10 +291,13 @@ msgid ""
 "place... a place of betrayal and chaos... a city balanced on the edge or "
 "disaster. Travel wisely within its borders.\""
 msgstr ""
+"Оно хмурится, глубоко задумавшись над твоим вопросом. \"Это забытое место... "
+"место предательств и беспорядков... город, балансирующий на грани "
+"катастрофы. Будь осторожен в его пределах\"."
 
 #: 58258
 msgid "\"Balanced on the edge of disaster?\""
-msgstr ""
+msgstr "\"Балансирующий на грани катастрофы?\""
 
 #: 58259
 msgid ""
@@ -275,11 +306,14 @@ msgid ""
 "the status quo in Curst remains balanced, this will continue to be a border "
 "town.\" It pauses for effect. "
 msgstr ""
+"Вздыхая, оно отводит взгляд. \"Это *пограничный* город, человечишка. С одной "
+"стороны - Внешние земли. С другой - план Карцери. Пока соблюдается статус "
+"кво, и Проклятый балансирует, он будет оставаться пограничным городом\". Он "
+"делает эффектную паузу."
 
 #: 58260
-#, fuzzy
 msgid "\"Go on.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Продолжай\"."
 
 #: 58261
 msgid ""
@@ -288,23 +322,27 @@ msgid ""
 "border town by sliding into the Outlands.\" It shrugs. \"That is the way of "
 "such places.\""
 msgstr ""
+"\"Если ситуация выйдет из-под контроля, город съедет в Карцери и станет "
+"единым целым с этим планом. Приложи больше контроля, и город перестанет быть "
+"пограничным и сползет во Внешние земли, - оно пожимает плечами. - Так обычно "
+"случается в подобных местах\"."
 
 #: 58262
 msgid "\"You're saying the city could actually be... displaced?\""
 msgstr ""
+"\"То есть ты утверждаешь, что город может быть буквально... перемещен?\""
 
 #: 58263 58267 58271 58277 58280 58291 58295
-#, fuzzy
 msgid "\"I have some other questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 58265
 msgid "It gives you a mock smile. \"Yes...\""
-msgstr ""
+msgstr "Оно неискренне улыбается. \"Да...\""
 
 #: 58266
 msgid "\"If that were to happen, what could be done about it?\""
-msgstr ""
+msgstr "\"Если такое произойдет, как это можно будет исправить?\""
 
 #: 58269
 msgid ""
@@ -314,21 +352,29 @@ msgid ""
 "pull the city back to its border status... or slide it to the opposite side."
 "\""
 msgstr ""
+"Оно пожимает плечами. \"Определить, куда сползает город, и применить "
+"противодействие. Слишком много порядка? Внеси немного хаоса. Слишком мало "
+"порядка? Внеси немного закона, - улыбается оно тебе. - Если ты будешь "
+"настойчив в своих действиях, то ты сможешь вытянуть город обратно в "
+"пограничное состояние... или свалить его в противоположную сторону\"."
 
 #: 58270 58294
 msgid ""
 "\"You've been very helpful... Which brings up another question... Why?\""
 msgstr ""
+"\"Твои ответы были очень полезны... Что вызывает другой вопрос - почему?\""
 
 #: 58273
 msgid "It gives you a confused look. \"Why what?\""
-msgstr ""
+msgstr "Оно непонимающе на тебя смотрит. \"Что почему?\""
 
 #: 58274
 msgid ""
 "\"You baatezu are supposed to be the incarnations of evil. So why are you "
 "being so helpful?\""
 msgstr ""
+"\"Вы, баатезу, являетесь воплощением зла. Так почему же ты так со мной "
+"любезен?\""
 
 #: 58275
 msgid ""
@@ -336,14 +382,17 @@ msgid ""
 "kindness, nor me as anything other than evil. I am helping you because it "
 "serves my needs... nothing more.\""
 msgstr ""
+"Громко прохохотав, оно улыбается тебе. \"Не воспринимай мою помощь в "
+"качестве акта доброй воли, и не думай, что в этом есть злой умысел. Я "
+"помогаю тебе лишь потому, что это в моих интересах... ничего кроме\"."
 
 #: 58276
 msgid "\"How does helping me serve your needs?\""
-msgstr ""
+msgstr "\"Каким образом помощь мне может быть в твоих интересах?\""
 
 #: 58279
 msgid "\"How indeed...\" It continues to smile at you."
-msgstr ""
+msgstr "\"Действительно, каким образом...\" Оно продолжает улыбаться."
 
 #: 58282
 msgid ""
@@ -351,12 +400,17 @@ msgid ""
 "extremes. On the one side, were the outlands; On the other, the plane of "
 "Carceri.\" It pauses."
 msgstr ""
+"Вздыхая, оно отводит взгляд. \"Проклятый - это пограничный город, "
+"балансирующий между двумя крайностями. С одной стороны - Внешние земли. С "
+"другой - план Карцери\". Он делает эффектную паузу."
 
 #: 58283
 msgid ""
 "\"Yes, I understand that. What upset the balance and caused the city to "
 "slide into Carceri?\""
 msgstr ""
+"\"Да, я это знаю. Что нарушило баланс и заставило город скатиться в Карцери?"
+"\""
 
 #: 58284
 msgid ""
@@ -364,14 +418,17 @@ msgid ""
 "hand and slid the city into Carceri... and here it will stay unless drastic "
 "measures are taken.\""
 msgstr ""
+"Он пожимает плечами. \"Триас. Он - причина. Из-за него хаос стал "
+"перевешивать и сваливать город в Карцери... и он будет там до тех пор, пока "
+"не будут предприняты самые решительные меры\"."
 
 #: 58285
 msgid "\"What can be done?\""
-msgstr ""
+msgstr "\"Что можно сделать?\""
 
 #: 58286
 msgid "\"Trias? What does he have to do with this?\""
-msgstr ""
+msgstr "\"Триас? Какова его роль в этом беспорядке?\""
 
 #: 58287
 msgid ""
@@ -380,18 +437,24 @@ msgid ""
 "smiles at you. \"If you are persistent in your efforts you can pull the city "
 "back to its border status... or slide it to the opposite extreme.\""
 msgstr ""
+"\"Определить, куда сползает город, и применить противодействие. Слишком "
+"много порядка? Внеси немного хаоса. Слишком мало порядка? Внеси немного "
+"закона, - улыбается оно тебе. - Если ты будешь настойчив в своих действиях, "
+"то ты сможешь вытянуть город обратно в пограничное состояние... или свалить "
+"его в противоположную крайность\"."
 
 #: 58288
 msgid "\"You're saying someone needs to impose law and order on the city?"
 msgstr ""
+"\"То есть ты утверждаешь, что нужно кому-то внести закон и порядок в город?\""
 
 #: 58289
 msgid "It smiles at you. \"Yes... that is exactly what I am saying.\""
-msgstr ""
+msgstr "Оно улыбается. \"Да... Именно это я и хотел сказать\"."
 
 #: 58290
 msgid "\"Would you help me in this?\""
-msgstr ""
+msgstr "\"Ты не поможешь мне с этим?\""
 
 #: 58293
 msgid ""
@@ -399,14 +462,18 @@ msgid ""
 "it would be within my best interest to do so. My servants and I will gladly "
 "assist you.\""
 msgstr ""
+"Перед тем, как ответить, оно пристально смотрит на тебя. \"Да... Убежден, "
+"что это будет в моих интересах. Я с моими слугами с радостью помогу тебе\"."
 
 #: 58297
 msgid "It shrugs. \"Exactly what I warned you of when we last talked.\""
 msgstr ""
+"Оно пожимает плечами. \"Все случилось так, как я тебя предупреждал в прошлый "
+"раз\"."
 
 #: 58298
 msgid "\"What was that?\""
-msgstr "\"Что такое?\""
+msgstr "\"Что же именно?\""
 
 #: 58299
 msgid ""
@@ -414,21 +481,25 @@ msgid ""
 "affiliation I will answer your question. My superior commissioned the "
 "device. It is a weapon to be used in the Blood War.\""
 msgstr ""
+"\"Ты Богочеловек? - с уважением спрашивает существо. - Раз так, то я отвечу "
+"на твой вопрос. Мой начальник заказал построить это устройство. Это оружие "
+"для использования в Кровавой войне\"."
 
 #: 58301
-#, fuzzy
 msgid "\"I see. I have some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня есть еще вопросы...\""
 
 #: 58306
 msgid ""
 "You see the cornugon, Tek'elach. He gives you an amused smile. \"So we meet "
 "again, little human. What do you want?\""
 msgstr ""
+"Перед тобой корнугон Текелач. Он озаряет тебя довольно улыбкой. \"Вот мы и "
+"встретились снова, человечишка. Что тебе нужно?\""
 
 #: 58309
 msgid "\"Nothing, farewell.\""
-msgstr "\"Ничего, прощай.\""
+msgstr "\"Ничего, прощай\"."
 
 #: 58310
 msgid ""
@@ -437,7 +508,11 @@ msgid ""
 "havoc about the city.\" He pauses and sighs again. \"I was sent here to keep "
 "an eye on him...\""
 msgstr ""
+"Оно вздыхает. \"Триас - представитель Хаоса, и он был справедливо заключен в "
+"тюрьму. К сожалению, какой-то идиот освободил его, что позволило тому "
+"выплеснуть свою месть на город, - оно снова вздыхает. - Меня направили сюда "
+"приглядывать за ним...\""
 
 #: 58311
 msgid "\"So, what can be done?\""
-msgstr ""
+msgstr "\"И что теперь можно сделать?\""

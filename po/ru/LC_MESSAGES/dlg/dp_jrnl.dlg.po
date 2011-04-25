@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 45746
@@ -316,7 +316,7 @@ msgstr ""
 #: 46316 46319 47079
 #, fuzzy
 msgid "Read something else."
-msgstr "\"Тогда расскажи мне о другом.\""
+msgstr "\"Тогда расскажи мне о другом\"."
 
 #: 46278
 msgid ""
@@ -378,7 +378,7 @@ msgid ""
 msgstr ""
 "\"Бойся ИМЕН. ИМЕНА имеют силу в личности. ИМЕНА могут быть использованы "
 "другими как ОРУЖИЕ. Имена - это ЛОВУШКИ, по которым ТЕБЯ МОГУТ ОТСЛЕДИТЬ В "
-"ПЛАНАХ. Оставайся БЕЗЫМЯННЫМ, и ты будешь в БЕЗОПАСНОСТИ.\""
+"ПЛАНАХ. Оставайся БЕЗЫМЯННЫМ, и ты будешь в БЕЗОПАСНОСТИ\"."
 
 #: 46297
 msgid ""
@@ -501,5 +501,3 @@ msgid ""
 "secrets - it turns out it's a journal, penned by one of my less-than-sane "
 "earlier incarnations."
 msgstr ""
-
-

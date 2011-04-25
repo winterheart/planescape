@@ -1,27 +1,30 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dthorp.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-15 02:39+0500\n"
+"PO-Revision-Date: 2011-03-12 21:31+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 51205
 msgid ""
 "This creature is huge, standing over nine feet tall. Rippling muscles "
 "support its massive frame. As you approach, he leers at you and laughs."
 msgstr ""
+"Перед тобой стоит огромное существо высотой в девять футов. Его массивное "
+"тело играет мускулами. Хитро на тебя поглядывая, оно хохочет."
 
 #: 51206
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 51207
 msgid "Ignore the creature."
@@ -32,6 +35,7 @@ msgid ""
 "He looks down at you and gives you a friendly smile. \"What you want, "
 "smallie?\""
 msgstr ""
+"Оно смотрит на тебя, приветливо улыбаясь. \"Чего тебе надо, коротышка?\""
 
 #: 51209 51222 51225 51283
 msgid "\"I have some questions...\""
@@ -39,11 +43,12 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 51210 51284 66164
 msgid "\"Nothing, farewell.\""
-msgstr "\"Ничего, прощай.\""
+msgstr "\"Ничего, прощай\"."
 
 #: 51211
 msgid "\"You got question, maybe Thorp got answer.\" He smiles at you."
 msgstr ""
+"\"У тебя есть вопросы, у Тропа, может быть, есть ответы\", - улыбается он."
 
 #: 51212
 msgid "\"Who are you?\""
@@ -54,17 +59,18 @@ msgid "\"What are you doing here?\""
 msgstr "\"Что ты здесь делаешь?\""
 
 #: 51214
-#, fuzzy
 msgid "\"What can you tell me about this ward?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Что ты можешь рассказать об этом районе?\""
 
 #: 51215
 msgid "\"You said you're going to fight an abishai?\""
-msgstr ""
+msgstr "\"Ты говорил, что собираешься сразиться с абишаем?\""
 
 #: 51216
 msgid "\"I've talked to Xanthia. She said you're going to fight an abishai?\""
 msgstr ""
+"\"Я общался с Ксантией. Она сказала, что ты собираешься сразиться с абишаем?"
+"\""
 
 #: 51217
 msgid ""
@@ -73,25 +79,29 @@ msgid ""
 "Thorp. All thokola are mighty warriors.\" He places his fists on his hips "
 "and glares at you. \"Who you?\""
 msgstr ""
+"Он бьет себя по груди оглушительным ударом. \"Торп, - он вздымает руки над "
+"головой и грозится кулаками небу. - Великий воин - это Торп. Все токола - "
+"великие воины\". Он опускает свои кулачищи и подпирает ими бока. \"Ты кто?\""
 
 #: 51219
 msgid "Lie: \"I'm Adahn.\""
-msgstr "Ложь: \"Я - Адан.\""
+msgstr "Ложь: \"Я - Адан\"."
 
 #: 51220
-#, fuzzy
 msgid "\"I don't remember my name.\""
-msgstr "\"Я не могу вспомнить, откуда я.\""
+msgstr "\"Я не помню своего имени\"."
 
 #: 51221
 msgid ""
 "He thinks for a moment then nods. \"That good name for smallie. Nice ring to "
 "it. Thorp like.\""
 msgstr ""
+"На секунду задумавшись, он кивает: \"Хорошее имя для коротышки. Звучит. "
+"Торпу нравится\"."
 
 #: 51223 51277
 msgid "\"I must be going, farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 51224
 msgid ""
@@ -99,10 +109,13 @@ msgid ""
 "be great warrior... like Thorp!\" He frowns and nods wisely. \"You got hit "
 "on head too many time. Not remember name. Someday, it come back.\""
 msgstr ""
+"Заметив твои шрамы, он кивает. \"У тебя много шрамов. Ты, наверное, великий "
+"воин... как Торп! - он мудро кивает. - Тебя били по голове слишком много. Не "
+"помнишь имя. Когда-нибудь оно вернется\"."
 
 #: 51226 68262
 msgid "\"I must be going now, farewell.\""
-msgstr "\"Я должен идти, прощай.\""
+msgstr "\"Я должен идти, прощай\"."
 
 #: 51227
 msgid ""
@@ -110,19 +123,21 @@ msgid ""
 "gestures at the nearby thokola. \"We gonna barsh a... flying lizard.\" He "
 "let's out a roar and begins to pound his chest with fists the size of hams."
 msgstr ""
+"Громко хохоча, он улыбается тебе. \"Торп здесь с друзьями, - он указывает на "
+"остальных токола, - хотим побить... летучую ящерицу\". Он громко кричит и "
+"бьет себя по груди кулачищами размером с хороший окорок."
 
 #: 51228
 msgid "\"Uh... a flying lizard?\""
-msgstr ""
+msgstr "\"Эээ... летучую ящерицу?\""
 
 #: 51229 51233 51237 51242 51247 51251 51254 51260
 msgid "\"I see. I have some more questions...\""
 msgstr "\"Понятно. У меня есть еще вопросы...\""
 
 #: 51230 51234 51239 51243 51248 51252 51255 51261
-#, fuzzy
 msgid "\"I have to go now, farewell.\""
-msgstr "\"Мне нужно идти. Прощай.\""
+msgstr "\"Мне нужно идти, прощай\"."
 
 #: 51231
 msgid ""
@@ -130,10 +145,13 @@ msgid ""
 "but it fly.\" He begins to flap his arms like a huge misshapen bird. "
 "Eventually he settles down and looks at you expectantly."
 msgstr ""
+"Он кивает, начиная изображать ползучую тварь. \"Ящерица... только летучая\", "
+"- он машет руками словно огромная неуклюжая птица. Усевшись, он выжидательно "
+"смотрит на тебя."
 
 #: 51232
 msgid "\"You mean a dragon?\""
-msgstr ""
+msgstr "\"Ты имеешь в виду дракона?\""
 
 #: 51235
 msgid ""
@@ -141,10 +159,13 @@ msgid ""
 "Someday Thorp want to barsh dragon...\" He stares off into the distance with "
 "a longing expression then sighs. \"But this not that day.\""
 msgstr ""
+"Хмыкнув, он встает во весь рост. \"Торп хорош, но не настолько хорош. Когда-"
+"нибудь Торп хочет побить дракона... - он задумчиво смотрит вдаль, вздыхая. - "
+"Но не сегодня\"."
 
 #: 51236
 msgid "\"Well, if it's not a dragon you're talking about then what is it?\""
-msgstr ""
+msgstr "\"Ну раз это не дракон, о ком ты тогда говоришь?\""
 
 #: 51240
 msgid ""
@@ -152,10 +173,14 @@ msgid ""
 "lizard, tall as Thorp. Walk on back legs... got wings... got claws... red in "
 "color. Think she say they called... abbey shy?\" He pauses, then shrugs."
 msgstr ""
+"\"Торп не помнит, как Ксантия их называет... - он задумывается. - Это "
+"ящирица, длинная, как Торп. Ходит на задних лапах... с крыльями... с "
+"когтями... красная. Кажется, она их зовет... забей швай?\" Он пожимает "
+"плечами."
 
 #: 51241
 msgid "\"I've heard of something called an abishai. Is that what you mean?\""
-msgstr ""
+msgstr "\"Я что-то слышал про абишаев. Это они?\""
 
 #: 51245
 msgid ""
@@ -163,10 +188,13 @@ msgid ""
 "\"Yes! Abishai... Flying lizard. Thorp and friends barsh real good. Thorp be "
 "warrior of stature then. Xanthia accept apology...\""
 msgstr ""
+"Озарившись, он радостно тебе улыбается, кивая головой. \"Да! Абишай... "
+"летучая ящерица.Торп с друзьями очень хороши. Торп будет достойный воин. "
+"Ксантия примает извинения...\""
 
 #: 51246
 msgid "\"What's this about Xanthia and an apology?\""
-msgstr ""
+msgstr "\"Что за Ксантия и какие извинения?\""
 
 #: 51249
 msgid ""
@@ -174,84 +202,100 @@ msgid ""
 "Xanthia's table, spill drinks all over her.\" He looks embarrassed. "
 "\"Xanthia say she not accept apology unless Thorp be warrior of stature.\""
 msgstr ""
+"\"Торп ведет друзей в таверну прошлой ночью. Торп сильно напивается, падает "
+"на стол Ксантии, обливает всю выпивкой, - он раздосадован. - Ксантия "
+"говорит, она не примет извинения, пока Торп не будет достойный воин\"."
 
 #: 51250
 msgid "\"So, killing an abishai is supposed to give you stature?\""
-msgstr ""
+msgstr "\"То есть, ты думаешь, что, убив абишая, ты станешь достойным?\""
 
 #: 51253
 msgid "He shrugs. \"Xanthia say so. Thorp not know.\""
-msgstr ""
+msgstr "Он пожимает плечами. \"Ксантия так говорит. Торп не знает\"."
 
 #: 51256
 msgid ""
 "He stares at you for a moment then shrugs. \"Thorp not know. Thorp new here."
 "\" He gives you a childish smile. \"Thorp here for fun!\""
 msgstr ""
+"Он пожимает плечами. \"Торп не знает. Торп здесь недавно. - он по-детски "
+"улыбается. - Торп здесь для развлечения!\""
 
 #: 51257
 msgid "\"What kind of fun?\""
-msgstr ""
+msgstr "\"Какого развлечения?\""
 
 #: 51258 63237
 msgid "\"Yes, you're going to barsh an abishai.\""
-msgstr ""
+msgstr "\"Да, вы собираетесь побить абишая\"."
 
 #: 51259 51262
 msgid ""
 "He smiles and nods at you enthusiastically. \"That right! Thorp and friends "
 "barsh!\""
-msgstr ""
+msgstr "Он радостно тебе кивает. \"Точно! Торп с друзьями на охоте!\""
 
 #: 51263
 msgid "\"Well, enjoy yourself. Farewell.\""
-msgstr ""
+msgstr "\"Ладно, получай удовольствие. Прощай\"."
 
 #: 51264
 msgid ""
 "Warn Thorp: \"I've learned that abishai can only be hurt by magic weapons.\""
 msgstr ""
+"Предупредить Торпа: \"Я слышал, что абишая можно ранить только магическим "
+"оружием\"."
 
 #: 51265
 msgid ""
 "Don't warn Thorp: \"Well, enjoy yourself. I'm sure you'll be victorious. "
 "Farewell.\""
 msgstr ""
+"Не предупреждать Торпа: \"Ладно, получай удовольствие. Уверен, что ты "
+"одержишь победу. Прощай\"."
 
 #: 51266
 msgid "He gives you a worried look. \"Need magic? How you know?\""
-msgstr ""
+msgstr "Он обеспокоенно смотрит на тебя: \"Надо магия? Откуда знаешь?\""
 
 #: 51267
 msgid "\"I've asked around, Thorp. It's what people tell me.\""
-msgstr ""
+msgstr "\"Спрашивал у людей, Троп. Так все говорят\"."
 
 #: 51268
 msgid "\"I've talked to Xanthia. She told me.\""
-msgstr ""
+msgstr "\"Я общался с Ксантией. Она сказала мне это\"."
 
 #: 51269
 msgid ""
 "\"Thorp not have magic. Friends not have magic. We die if we barsh abishai..."
 "\" He sighs. \"Thorp not be warrior of stature. Xanthia not accept apology.\""
 msgstr ""
+"\"У Торпа нет магии. У друзей нет магии. Мы умираем, если нападаем на "
+"абишая... - он вздыхает. - Торп - не достойный воин. Ксантия не принимает "
+"извинения\"."
 
 #: 51270
 msgid ""
 "\"You were willing to risk your life for the honor of a lady, Thorp. Only a "
 "warrior of stature would do that.\""
 msgstr ""
+"\"Ты собирался рисковать своей жизнью ради чести дамы, Торп. Только "
+"достойные воины поступают так\"."
 
 #: 51271
 msgid ""
 "He stares at you blankly for a moment and then a huge smile appears on his "
 "face. \"Really? Thorp and friends now have stature?\""
 msgstr ""
+"Некоторое время он молча смотрит на тебя, затем на его лице появляется "
+"широкая улыбка. \"Правда? Торп и друзья - теперь достойные?\""
 
 #: 51272
 msgid ""
 "\"Yes. Consider Xanthia's honor to be satisfied and the apology accepted.\""
-msgstr ""
+msgstr "\"Да. Считай, что честь Ксантии защищена, и она приняла извинения\"."
 
 #: 51273
 msgid ""
@@ -259,14 +303,17 @@ msgid ""
 "the other thokola and speaks to them hurriedly. After a moment all three bow "
 "to you and each hands you a pouch of coins."
 msgstr ""
+"\"Торп говорит спасибо. Ты спасаешь жизнь. Ты спасаешь жизнь друзей\", - он "
+"поворачивается к другим токола и поспешно что-то им говорит. Через секунду "
+"все трое кланаются тебе, протягивая по пригорошне монет."
 
 #: 51274
 msgid "\"Thank you.\""
-msgstr "\"Спасибо.\""
+msgstr "\"Спасибо\"."
 
 #: 51275
 msgid "He smiles. \"You good friend. You deserve.\""
-msgstr ""
+msgstr "Он улыбается. \"Ты хороший друг. Ты заслуживаешь\"."
 
 #: 51278
 msgid ""
@@ -274,30 +321,37 @@ msgid ""
 "\"Xanthia play Thorp for a coney... She lie, try get Thorp and friends "
 "dead...\""
 msgstr ""
+"Волна смущения сменяется осознанием. \"Ксантия разводит Торпа вместо "
+"кролика... Она врет, пытается убить Торпа с друзьями...\""
 
 #: 51279
 msgid "\"I'm afraid so, Thorp.\""
-msgstr ""
+msgstr "\"Боюсь, это так, Торп\"."
 
 #: 51280
 msgid "He nods. \"Xanthia not deserve apology. Thorp free from debt to her.\""
 msgstr ""
+"Он кивает: \"Ксантия не заслуживает извинения. Торп ничего ей не должен\"."
 
 #: 51281
 msgid "\"Yes, you are free of your debt.\""
-msgstr ""
+msgstr "\"Да, ты свободен от своих обязательств\"."
 
 #: 51282
 msgid ""
 "You see Thorp, the thokola. He gives you a friendly laugh as you approach. "
 "\"The smallie back! What you want of Thorp?\""
 msgstr ""
+"Ты видишь токола Торпа. Он приветливо тебе хохочет. \"Коротышка здесь! Что "
+"тебе нужно от Торпа?\""
 
 #: 51285
 msgid ""
 "You see Thorp, the thokola. He gives you a friendly laugh. \"It the smallie "
 "again! What you want?\""
 msgstr ""
+"Ты видишь токола Торпа Он приветливо тебе хохочет. \"Снова коротышка! Что "
+"тебе нужно?\""
 
 #: 63465
 msgid ""
@@ -306,11 +360,13 @@ msgid ""
 "settles down and gives you a serious look. \"Then lady forgive Thorp for "
 "being oaf.\""
 msgstr ""
+"Торп оглушительно хохочет, ударяя себя кулаком по груди. \"Торп - великий "
+"воин. Скоро Торп становится достойным воином, - он садится и становится "
+"серьезным, - и тогда дама прощает Торпа за неуклюжесть\"."
 
 #: 63466
-#, fuzzy
 msgid "\"Farewell, Thorp.\""
-msgstr "\"Тогда прощай.\""
+msgstr "\"Прощай, Торп\"."
 
 #: 63467
 msgid ""
@@ -318,22 +374,27 @@ msgid ""
 "\"Thorp good friend the smallie is back! What you want of Thorp?\" He smiles "
 "warmly. \"Thorp not forget you save life.\""
 msgstr ""
+"Ты видишь токола Торпа. Он приветливо тебе хохочет. \"Лучший друг Торпа "
+"коротышка здесь! Что тебе нужно от Торпа? - он тепло улыбается. - Торп не "
+"забывает, ты спасаешь жизнь\"."
 
 #: 66163
 msgid ""
 "\"Nothing, just waiting for the glorious battle between you and the abishai."
 "\""
-msgstr ""
+msgstr "\"Ничего, просто жду начала славной битвы между вами и абишаем\"."
 
 #: 66165
 msgid ""
 "You see Thorp, the thokola. He gives you a friendly laugh as you approach. "
 "\"Thorp thank you, smallie. You help Thorp!\""
 msgstr ""
+"Ты видишь токола Торпа. Он приветливо тебе хохочет. \"Торп говорит спасибо, "
+"коротышка. Ты помогаешь Торпу!\""
 
 #: 66166
 msgid "\"You're welcome, Thorp. Farewell.\""
-msgstr ""
+msgstr "\"Всегда пожалуйста, Торп. Прощай\"."
 
 #: 67299
 msgid ""
@@ -341,6 +402,9 @@ msgid ""
 "abishai. The thokola don't appear to be the brightest of individuals, but "
 "they do look pretty tough. Maybe they can do it."
 msgstr ""
+"Токола по имени Торп вместе с двумя своими друзьями собирается сразится с "
+"абишаем. Токола - не самые лучшие интеллектуалы, но зато выглядят достаточно "
+"внушительно. Возможно, у этих все получится."
 
 #: 67300
 msgid ""
@@ -349,6 +413,10 @@ msgid ""
 "Thorp's apology unless he could prove himself to be a warrior of stature. He "
 "needs to kill an abishai to do this."
 msgstr ""
+"Похоже, Торп, напившись с друзьями в таверне, оскорбил даму, облив ее "
+"выпивкой с ног до головы. Ксантия, оскорбленная дама, отказывается принимать "
+"извинения Торпа до тех пор, пока он не докажет, что он великий воин. Для "
+"этого ему нужно убить абишая."
 
 #: 67301
 msgid ""
@@ -356,6 +424,8 @@ msgid ""
 "It's a good thing I did because him and his friends would have been slain "
 "otherwise."
 msgstr ""
+"Я предупредил Торпа, что абишая можно ранить только магическим оружием. Я "
+"поступил правильно, потому что иначе бы он погиб вместе с друзьями."
 
 #: 67302
 msgid ""
@@ -363,10 +433,14 @@ msgid ""
 "weapons. I could have warned him... but what the hell. This could be an "
 "amusing fight."
 msgstr ""
+"Торп не догадывается о том, что абишая можно ранить только магическим "
+"оружием. Я мог предупредить его... но какого черта. Это будет забавное "
+"зрелище."
 
 #: 67303
 msgid ""
 "Sometimes I amaze myself. I felt sorry for Thorp and his friends so I helped "
 "them kill the abishai. What can I say... A moment of weakness on my part?"
 msgstr ""
-
+"Иногда я просто себя удивляю. Я пожалел Торпа и его друзей и помог им убить "
+"абишая. Что можно сказать... это была минутная слабость?"

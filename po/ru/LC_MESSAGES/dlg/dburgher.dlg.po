@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 57017
@@ -28,12 +28,12 @@ msgstr "\"Кто ты?\""
 #: 57020 57021 57027 57028 57068 57069 57075 57076
 #, fuzzy
 msgid "\"Relax. I'll pull you out.\""
-msgstr "\"Конечно. Я сделаю это.\""
+msgstr "\"Конечно. Я сделаю это\"."
 
 #: 57022 57023 57029 57030 57070 57071 57077 57078
 #, fuzzy
 msgid "\"No, I'm not.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Нет, не нужна\"."
 
 #: 57024
 msgid ""
@@ -66,12 +66,12 @@ msgstr ""
 #: 57035 57044 57083 57091
 #, fuzzy
 msgid "\"Let me get you out of there.\""
-msgstr "\"А теперь проваливай отсюда.\""
+msgstr "\"А теперь проваливай отсюда\"."
 
 #: 57036 57045 57084 57092
 #, fuzzy
 msgid "\"In that case, I'll leave you to die. Farewell.\""
-msgstr "\"Тогда пойду, посмотрю. Прощай.\""
+msgstr "\"Тогда пойду, посмотрю. Прощай\"."
 
 #: 57038 57085
 msgid ""
@@ -82,7 +82,7 @@ msgstr ""
 #: 57039 57086
 #, fuzzy
 msgid "\"Well struck, Dak'kon.\""
-msgstr "\"Прощай, Дхолл.\""
+msgstr "\"Прощай, Дхолл\"."
 
 #: 57040 57087
 msgid ""
@@ -99,11 +99,11 @@ msgstr ""
 #: 57047 57094
 #, fuzzy
 msgid "\"Let's do it.\""
-msgstr "\"Сначала попробуй.\""
+msgstr "\"Сначала попробуй\"."
 
 #: 57048 57095
 msgid "\"Forget it. Maybe I'll come back later.\""
-msgstr "\"Забудь. Может быть, я вернусь позже.\""
+msgstr "\"Забудь. Может быть, я вернусь позже\"."
 
 #: 57049 57096
 msgid ""
@@ -114,7 +114,7 @@ msgstr ""
 #: 57050 57097
 #, fuzzy
 msgid "\"So long.\""
-msgstr "\"Продолжай.\""
+msgstr "\"Продолжай\"."
 
 #: 57051
 msgid ""
@@ -127,7 +127,7 @@ msgstr ""
 
 #: 57052 57099 57126
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 57053 57100
 msgid ""
@@ -140,7 +140,7 @@ msgstr ""
 #: 57054 57058 57062 57101 57105 57109
 #, fuzzy
 msgid "\"All right. Get ready.\""
-msgstr "\"Хорошо. Прощай.\""
+msgstr "\"Хорошо. Прощай\"."
 
 #: 57055 57102
 msgid "\"You were the Burgher of this town?\""
@@ -149,7 +149,7 @@ msgstr ""
 #: 57056 57060 57064 57103 57107 57111
 #, fuzzy
 msgid "\"No, I don't think so.\""
-msgstr "\"Нет, не думаю.\""
+msgstr "\"Нет, не думаю\"."
 
 #: 57057 57104
 msgid ""
@@ -218,7 +218,7 @@ msgid ""
 "we throw ourselves into it.\""
 msgstr ""
 "\"Как насчет того, чтобы мы вытащили вас обоих? Мои компаньоны и я "
-"справимся, если подналяжем вместе.\""
+"справимся, если подналяжем вместе\"."
 
 #: 57117
 msgid "\"I'll be back later, then, when I figure this out.\""
@@ -268,4 +268,3 @@ msgstr ""
 msgid ""
 "\"It's... the Burgher, you little fool.\" He turns his attention to you."
 msgstr ""
-

@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 59002
@@ -29,7 +29,7 @@ msgstr ""
 
 #: 59070
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 59071
 msgid "Ignore her."
@@ -48,7 +48,7 @@ msgstr ""
 
 #: 59074 59099
 msgid "\"Nothing, farewell.\""
-msgstr "\"Ничего, прощай.\""
+msgstr "\"Ничего, прощай\"."
 
 #: 59075
 msgid ""
@@ -62,7 +62,7 @@ msgstr ""
 
 #: 59077 59080
 msgid "\"I must be going now. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 59078
 msgid ""
@@ -111,7 +111,7 @@ msgstr ""
 
 #: 59088
 msgid "\"I'll remember that. Farewell.\""
-msgstr "\"Я запомню. Прощай.\""
+msgstr "\"Я запомню. Прощай\"."
 
 #: 59089
 msgid ""
@@ -177,7 +177,7 @@ msgstr ""
 
 #: 59102
 msgid "\"Very well, farewell.\""
-msgstr "\"Хорошо, прощай.\""
+msgstr "\"Хорошо, прощай\"."
 
 #: 61394
 msgid ""
@@ -192,11 +192,10 @@ msgstr ""
 #: 61396
 #, fuzzy
 msgid "\"Not really, I was just curious. Farewell.\""
-msgstr "\"Я просто интересуюсь. Прощай.\""
+msgstr "\"Я просто интересуюсь. Прощай\"."
 
 #: 61397
 msgid ""
 "The harlot, Kiri, says she is willing to do anything for money... I'll have "
 "to keep that in mind, maybe I'll have a use for her."
 msgstr ""
-

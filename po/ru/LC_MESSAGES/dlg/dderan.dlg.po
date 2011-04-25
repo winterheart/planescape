@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dderan.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:46+0600\n"
+"PO-Revision-Date: 2011-03-13 23:39+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 35792
 msgid ""
@@ -269,7 +270,7 @@ msgstr ""
 
 #: 35834
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 35835
 msgid "Ignore the man."
@@ -285,14 +286,13 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 35838 35902 35905 35909 35919
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 35839 35894
 msgid "\"You sell slaves?\""
 msgstr ""
 
 #: 35840 35846
-#, fuzzy
 msgid "\"I have some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
@@ -323,15 +323,16 @@ msgid "\"I see... I have some questions for you...\""
 msgstr "\"Ой... У меня есть еще вопросы к тебе...\""
 
 #: 35850
-#, fuzzy
 msgid "\"I'm looking for someone named Lothar, or the Master of the Bones...\""
-msgstr "\"Я ищу кое-кого по имени Фарод. Ты не знаешь, где его можно найти?\""
+msgstr "\"Я ищу кое-кого по имени Лотар, он же Повелитель Костей...\""
 
 #: 35851
 msgid ""
 "\"I had a skull and it's been stolen from me. Do you know anyone who would "
 "do such a thing?\""
 msgstr ""
+"\"У меня был череп, который украли. Ты не знаешь кого-нибудь, кто бы мог это "
+"сделать?\""
 
 #: 35852 35891
 #, fuzzy
@@ -343,9 +344,8 @@ msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 35854
-#, fuzzy
 msgid "\"Can you tell me about this ward?\""
-msgstr "\"Что ты можешь сказать об Улье?\""
+msgstr "\"Можешь рассказать об этом районе?\""
 
 #: 35855
 msgid "\"Can you tell me about Sigil?"
@@ -353,7 +353,7 @@ msgstr "\"Что ты можешь сказать о Сигиле?\""
 
 #: 35856
 msgid "\"I must be going, farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 35857
 msgid "\"I happen to like danger. Imperil me.\""
@@ -366,55 +366,54 @@ msgstr "\"Понятно. У меня были еще вопросы...\""
 #: 35859
 #, fuzzy
 msgid "\"I must take my leave. Farewell.\""
-msgstr "\"Я должен идти, прощай.\""
+msgstr "\"Я должен идти. Прощай.\""
 
 #: 35860
-#, fuzzy
 msgid "\"Where can I find this place?\""
-msgstr "\"Где я могу найти этого Фарода?\""
+msgstr "\"Где можно найти это место?\""
 
 #: 35861
 #, fuzzy
 msgid "\"Thank you. I have some other questions...\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Спасибо тебе, у меня есть другие вопросы...\""
 
 #: 35862
 #, fuzzy
 msgid "\"I must be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай.\""
 
 #: 35863
 msgid "\"I see. Farewell.\""
-msgstr "\"Понятно. Прощай.\""
+msgstr "\"Понятно. Прощай\"."
 
 #: 35864
 #, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Нет! Нет!..\""
+msgstr "\"Продолжай...\""
 
 #: 35865 35879 35883
 #, fuzzy
 msgid "\"Tell me about the Foundry.\""
-msgstr "\"Расскажи мне о Морге.\""
+msgstr "\"Расскажи мне о Морге\"."
 
 #: 35866 35871 35875 35884
 #, fuzzy
 msgid "\"Tell me about the siege tower.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Аллее\"."
 
 #: 35867 35872 35876 35880
 #, fuzzy
 msgid "\"Tell me about the open-air market.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Аллее\"."
 
 #: 35868 35873 35877 35881 35885 35887
 #, fuzzy
 msgid "\"I have some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще вопросы...\""
 
 #: 35869 35874 35878 35882 35886 35888 35914
 msgid "\"Thank you, farewell.\""
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо, прощай\"."
 
 #: 35870
 msgid "\"The Godsmen?\""
@@ -422,7 +421,7 @@ msgstr ""
 
 #: 35892
 msgid "\"Nothing, farewell.\""
-msgstr "\"Ничего, прощай.\""
+msgstr "\"Ничего, прощай\"."
 
 #: 35893
 msgid "Leave."
@@ -431,12 +430,12 @@ msgstr "Уйти."
 #: 35895
 #, fuzzy
 msgid "\"I have some other questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 35896
 #, fuzzy
 msgid "\"No thank you, farewell.\""
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо, прощай\"."
 
 #: 35897
 msgid "\"Can I buy her contract?\""
@@ -452,7 +451,7 @@ msgstr ""
 
 #: 35900
 msgid "\"Never mind. Farewell."
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 35901
 msgid "\"What are the requirements?\""
@@ -481,12 +480,12 @@ msgstr ""
 #: 35911
 #, fuzzy
 msgid "\"Yes I do.\""
-msgstr "\"Да.\""
+msgstr "\"Да, знаю.\""
 
 #: 35912
 #, fuzzy
 msgid "\"Yes, I do.\""
-msgstr "\"Да.\""
+msgstr "\"Да, знаю\"."
 
 #: 35913
 #, fuzzy
@@ -515,7 +514,7 @@ msgstr ""
 
 #: 35921
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 36237
 msgid "\"Tell me about this Lothar.\""

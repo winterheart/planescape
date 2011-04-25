@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmajord.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:21+0600\n"
+"PO-Revision-Date: 2011-03-14 00:13+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 44696
 msgid ""
@@ -19,10 +20,13 @@ msgid ""
 "its sides. On the front of the cube is an animated face. As you approach, "
 "the creature focuses its eyes upon you."
 msgstr ""
+"Перед тобой куб с парой рук, ног и парой небольших крылышек по бокам. "
+"Спереди куба есть лицо, которое при твоем приближении фокусирует на тебе "
+"глаза."
 
 #: 44697
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 44698
 msgid "Ignore the creature."
@@ -34,28 +38,31 @@ msgid ""
 "Welcome to Rubikon, the dungeon construct. Thank you for choosing Rubikon "
 "for your dungeoning experience. You may access Rubikon through this door.\""
 msgstr ""
+"Существо фокусирует на тебе бесстрастные глаза. \"Приветствуем вас, "
+"приключенец. Добро пожаловать в Рубикон, конструктор подземелий. Мы "
+"благодарим вас за выбор Рубикона в качестве приключеий в подземельях. Вы "
+"можете попасть в Рубикон через эту дверь\"."
 
 #: 44700 44708
-#, fuzzy
 msgid "\"What is Rubikon?\""
-msgstr "\"Что теперь?\""
+msgstr "\"Что такое Рубикон?\""
 
 #: 44701 44704
-#, fuzzy
 msgid "\"What is a dungeon construct?\""
-msgstr "\"Каковы твои обязанности?\""
+msgstr "\"Что такое конструктор подземелий?\""
 
 #: 44702 44705 44709
-#, fuzzy
 msgid "\"Never mind, I've got to go. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"А, неважно, я ухожу. Прощай\"."
 
 #: 44703
 msgid "The creature stares at you without answering."
-msgstr ""
+msgstr "Существо молча смотрит на тебя."
 
 #: 44706
 msgid ""
 "The creature blinks at you but gives no indication it has heard your "
 "question."
 msgstr ""
+"Существо, моргая, смотрит на тебя, но ни коим образом не показывает, что "
+"услышал твой вопрос."

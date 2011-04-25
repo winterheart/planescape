@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 3164
@@ -23,7 +23,7 @@ msgstr ""
 
 #: 3165
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 9926
 msgid "Leave him in peace."
@@ -41,7 +41,7 @@ msgstr ""
 
 #: 9929 9945
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 9930
 msgid ""
@@ -63,7 +63,7 @@ msgstr ""
 #: 9933
 #, fuzzy
 msgid "\"Fine. Good day.\""
-msgstr "\"Ничего. Хорошего дня.\""
+msgstr "\"Ничего. Хорошего дня\"."
 
 #: 9934
 msgid ""
@@ -89,7 +89,7 @@ msgstr "\"Просто несколько вопросов...\""
 
 #: 9939
 msgid "\"Never mind.\""
-msgstr "\"Неважно.\""
+msgstr "\"Неважно\"."
 
 #: 9940
 msgid "He shrugs his shoulders. \"Sure. Ask away.\""
@@ -97,7 +97,7 @@ msgstr ""
 
 #: 9941
 msgid "\"I'm looking for a deva. I've been told he's in Curst.\""
-msgstr "\"Я ищу одного дэва. Мне сказали, что он в Проклятом.\""
+msgstr "\"Я ищу одного дэва. Мне сказали, что он в Проклятом\"."
 
 #: 9942
 #, fuzzy
@@ -132,7 +132,7 @@ msgstr "\"О чем это ты?\""
 #: 9949
 #, fuzzy
 msgid "\"I thank you. Farewell.\""
-msgstr "\"Нет, спасибо. Прощай.\""
+msgstr "\"Нет, спасибо. Прощай\"."
 
 #: 9950
 msgid ""
@@ -160,7 +160,7 @@ msgstr ""
 #: 9955
 #, fuzzy
 msgid "\"Never mind. Fare well.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 9956
 msgid ""
@@ -194,7 +194,7 @@ msgstr "\"Как мне найти эти места?\""
 
 #: 9963
 msgid "\"My thanks. Farewell."
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 9964
 msgid ""
@@ -208,7 +208,7 @@ msgstr ""
 
 #: 9966
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 9967
 msgid ""
@@ -224,7 +224,7 @@ msgstr "\"Что ты можешь сказать о Вейлоре?\""
 #: 9969
 #, fuzzy
 msgid "\"Another question.\""
-msgstr "\"У меня есть другие вопросы.\""
+msgstr "\"У меня есть другие вопросы\"."
 
 #: 9970
 msgid "\"I thank you, and good day.\""
@@ -258,5 +258,4 @@ msgstr "\"Понятно. У меня есть другой вопрос к те
 #: 9976
 #, fuzzy
 msgid "\"I must take my leave. Good day.\""
-msgstr "\"Я должен идти. Прощай.\""
-
+msgstr "\"Я должен идти. Прощай\"."

@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcwrushb.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-11-16 00:36+0500\n"
+"PO-Revision-Date: 2011-03-13 23:32+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 26110
 msgid "This older, well-dressed gentleman is clearly on his way somewhere."
@@ -38,9 +39,8 @@ msgid ""
 msgstr ""
 
 #: 26115 26188
-#, fuzzy
 msgid "\"Just a single question, then?\""
-msgstr "\"Всего лишь несколько вопросов...\""
+msgstr "\"Всего один вопрос?\""
 
 #: 26116
 msgid ""
@@ -72,7 +72,7 @@ msgstr ""
 #: 26121 26181 26203
 #, fuzzy
 msgid "\"Stop. You'll stand here and answer my questions.\""
-msgstr "\"Ты здесь, чтобы отвечать на *мои* вопросы, дух.\""
+msgstr "\"Ты здесь, чтобы отвечать на *мои* вопросы, дух\"."
 
 #: 26122
 msgid ""
@@ -95,27 +95,27 @@ msgstr "Атаковать его."
 
 #: 26126
 msgid "Try and leave before anyone arrives."
-msgstr ""
+msgstr "Попытаться уйти до того, как кто-нибудь придет."
 
 #: 26127
 #, fuzzy
 msgid "\"You'll not call for anyone if you know what's good for you.\""
 msgstr ""
 "\"Я первым нашел это место. Тебе лучше не пытаться, раз ты не знаешь, что "
-"хорошо для тебя.\""
+"хорошо для тебя\"."
 
 #: 26128
 #, fuzzy
 msgid "\"My apologies. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 26129 26130 26185 26193 26204
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 26131 26205
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 26132
 msgid "\"What is of interest here?\""
@@ -131,7 +131,7 @@ msgstr ""
 #: 26134
 #, fuzzy
 msgid "\"Anything else?\""
-msgstr "\"А еще что-нибудь ты умеешь?\""
+msgstr "\"Что-нибудь еще?\""
 
 #: 26135
 msgid ""
@@ -151,12 +151,11 @@ msgstr "\"Позволь мне спросить еще кое о чем...\""
 #: 26138 26143 26207
 #, fuzzy
 msgid "\"Thanks for your time. Farewell.\""
-msgstr "\"Спасибо за внимание. Прощай.\""
+msgstr "\"Спасибо за внимание. Прощай\"."
 
 #: 26139
-#, fuzzy
 msgid "\"Where could I find work, here?\""
-msgstr "\"Где можно найти его?\""
+msgstr "\"Где можно найти работу здесь?\""
 
 #: 26140
 msgid ""
@@ -171,17 +170,17 @@ msgid "\"I had a question about one of those places you mentioned...\""
 msgstr "\"У меня вопрос насчет Перемирия со Смертью...\""
 
 #: 26144
-#, fuzzy
 msgid "\"I just needed directions...\""
-msgstr "\"Всего лишь несколько вопросов...\""
+msgstr "\"Мне нужно узнать направления...\""
 
 #: 26145
 msgid "\"To where? Out with it, man!\""
 msgstr ""
 
 #: 26146
+#, fuzzy
 msgid "\"The advocate's home.\""
-msgstr ""
+msgstr "\"Дом адвоката.\""
 
 #: 26147
 msgid ""
@@ -190,19 +189,18 @@ msgid ""
 msgstr ""
 
 #: 26148 26152 26156 26160 26164 26168 26172 26176
-#, fuzzy
 msgid "\"Thanks. Let me ask you about something else...\""
-msgstr "\"Позволь мне спросить кое о чем еще...\""
+msgstr "\"Спасибо. Позвольте мне спросить еще кое о чем...\""
 
 #: 26149 26153 26157 26161 26165 26169 26177
 #, fuzzy
 msgid "\"I see. Thanks for your time. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Понятно. Спасибо за уделенное время. Прощайте\"."
 
 #: 26150
 #, fuzzy
 msgid "\"The apothecary.\""
-msgstr "\"Расскажи мне о демонах.\""
+msgstr "\"Аптека\"."
 
 #: 26151
 msgid ""
@@ -215,7 +213,7 @@ msgstr ""
 #: 26154
 #, fuzzy
 msgid "\"The art store.\""
-msgstr "\"Они-то смогут. Прощай.\""
+msgstr "\"Они-то смогут. Прощай\"."
 
 #: 26155
 msgid ""
@@ -228,7 +226,7 @@ msgstr ""
 #: 26158
 #, fuzzy
 msgid "\"The Brothel.\""
-msgstr "\"Указатель\""
+msgstr "\"Бордель.\""
 
 #: 26159
 msgid ""
@@ -239,7 +237,7 @@ msgstr ""
 #: 26162
 #, fuzzy
 msgid "\"The catacombs beneath the Ward.\""
-msgstr "\"Я нашел его в катакомбах под Сигилом.\""
+msgstr "\"Катакомбы под районом.\""
 
 #: 26163
 msgid ""
@@ -250,7 +248,7 @@ msgstr ""
 #: 26166
 #, fuzzy
 msgid "\"The Civic Festhall.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Аллее\"."
 
 #: 26167
 msgid ""
@@ -259,8 +257,9 @@ msgid ""
 msgstr ""
 
 #: 26170
+#, fuzzy
 msgid "\"The curiosity shop.\""
-msgstr ""
+msgstr "\"Магазинчик странностей.\""
 
 #: 26171
 msgid ""
@@ -273,12 +272,12 @@ msgstr ""
 #: 26173
 #, fuzzy
 msgid "\"I see. Thanks for you time. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Понятно. Спасибо вам за уделенное время. Прощайте.\""
 
 #: 26174
 #, fuzzy
 msgid "\"The tailor.\""
-msgstr "Портной."
+msgstr "\"Портной\"."
 
 #: 26175
 msgid ""
@@ -288,7 +287,7 @@ msgstr ""
 
 #: 26178 26187
 msgid "\"Nothing, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно. Прощай\"."
 
 #: 26179
 #, fuzzy
@@ -319,7 +318,7 @@ msgstr "\"Позволь мне спросить кое о чем еще...\""
 #: 26186
 #, fuzzy
 msgid "\"Thanks, that's all I wished to know. Farewell.\""
-msgstr "\"Да, это все, что я хотел узнать. Прощай.\""
+msgstr "\"Да, это все, что я хотел узнать. Прощай\"."
 
 #: 26189
 msgid ""
@@ -332,7 +331,7 @@ msgstr ""
 #: 26190
 #, fuzzy
 msgid "\"Tell me about the Lady of Pain.\""
-msgstr "\"Расскажи мне о Великом Пределе.\""
+msgstr "\"Расскажи мне о Великом Пределе\"."
 
 #: 26191
 msgid "\"Can anyone reach these mazes?\""
@@ -361,10 +360,9 @@ msgstr ""
 #: 26197
 #, fuzzy
 msgid "\"I don't need anything else. Farewell.\""
-msgstr "\"Мне это не нужно. Прощай.\""
+msgstr "\"Мне это не нужно. Прощай\"."
 
 #: 26198
-#, fuzzy
 msgid "\"Something troubling about my appearance?\""
 msgstr "\"Что-то не так с моим внешним видом?\""
 
@@ -379,9 +377,8 @@ msgid ""
 msgstr ""
 
 #: 26201
-#, fuzzy
 msgid "\"Wait. I had some questions...\""
-msgstr "\"Нет, у меня есть некоторые вопросы...\""
+msgstr "\"Постой. У меня есть несколько вопросов...\""
 
 #: 26202
 msgid ""
@@ -391,5 +388,4 @@ msgstr ""
 
 #: 26206
 msgid "\"No. Farewell.\""
-msgstr "\"Нет. Прощай.\""
-
+msgstr "\"Нет. Прощай\"."

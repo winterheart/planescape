@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dlazlo.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:16+0600\n"
+"PO-Revision-Date: 2011-04-25 19:14+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 3026
 msgid ""
@@ -21,7 +22,7 @@ msgstr ""
 
 #: 3027
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 36020
 msgid ""
@@ -284,27 +285,24 @@ msgid "Ignore him."
 msgstr "Игнорировать его."
 
 #: 36386
-#, fuzzy
 msgid "\"Yes, I have some questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"Да, у меня есть некоторые вопросы...\""
 
 #: 36387 36483
 msgid "\"No, farewell.\""
-msgstr "\"Нет, прощай.\""
+msgstr "\"Нет, прощай\"."
 
 #: 36388
 msgid "\"What is this place?\""
 msgstr "\"Что это за место?\""
 
 #: 36389
-#, fuzzy
 msgid "\"Can you tell me about this ward?\""
-msgstr "\"Что ты можешь сказать об Улье?\""
+msgstr "\"Можешь рассказать об этом районе?\""
 
 #: 36391
-#, fuzzy
 msgid "\"What can you tell me about the city of Sigil?\""
-msgstr "\"А что ты можешь сказать о Леди Боли?\""
+msgstr "\"Что ты можешь сказать о городе Сигиле?\""
 
 #: 36392
 msgid "\"Why does everyone seem to have yellow skin around here?\""
@@ -322,7 +320,7 @@ msgstr ""
 #: 36395
 #, fuzzy
 msgid "\"I must be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай.\""
 
 #: 36396
 #, fuzzy
@@ -340,13 +338,13 @@ msgstr ""
 #: 36400
 #, fuzzy
 msgid "\"I see. I have some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня есть еще вопросы...\""
 
 #: 36401 36415 36419 36423 36427 36430 36441 36445 36447 36449 36452 36455
 #: 36459 36462 36466 36469 36472 36475 36479 36481 62001 62003 62009 62014
 #: 62098 62101
 msgid "\"I must be going, farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 36402
 msgid "\"What kinds of goods are available?\""
@@ -358,9 +356,8 @@ msgid "\"Where can I buy some magic items?\""
 msgstr "\"Где я могу найти этого Фарода?\""
 
 #: 36412 36416
-#, fuzzy
 msgid "\"Where can I buy some weapons?\""
-msgstr "\"Где я могу найти этого Фарода?\""
+msgstr "\"Где я могу купить оружие?\""
 
 #: 36413 36417 36421
 #, fuzzy
@@ -400,7 +397,7 @@ msgstr ""
 #: 36433 36437 62007 62013 62100
 #, fuzzy
 msgid "\"I have some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще вопросы...\""
 
 #: 36435
 msgid "\"You look nervous, you've seen this yourself?\""
@@ -409,12 +406,11 @@ msgstr ""
 #: 36440 36444 36451 36454
 #, fuzzy
 msgid "\"I have some other questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 36448
-#, fuzzy
 msgid "\"What can you tell me about the Lady of Pain?\""
-msgstr "\"Что ты можешь рассказать об этой таверне?\""
+msgstr "\"Что ты можешь рассказать о Леди Боли?\""
 
 #: 36450 68424
 #, fuzzy
@@ -428,17 +424,16 @@ msgstr ""
 #: 36456 36463
 #, fuzzy
 msgid "\"Tell me about the Foundry.\""
-msgstr "\"Расскажи мне о Морге.\""
+msgstr "\"Расскажи мне о Морге\"."
 
 #: 36457 36460
 #, fuzzy
 msgid "\"Tell me about the Believers.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Аллее\"."
 
 #: 36458
-#, fuzzy
 msgid "\"I have other questions...\""
-msgstr "\"У меня есть другие вопросы.\""
+msgstr "\"У меня есть другие вопросы...\""
 
 #: 36461
 #, fuzzy
@@ -499,7 +494,7 @@ msgstr "\"Да...\""
 #: 61999
 #, fuzzy
 msgid "\"I see. I have some more questions..."
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня есть еще вопросы...\""
 
 #: 62005
 msgid "\"Do any creatures ever come out of these portals?\""

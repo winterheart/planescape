@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 50027
@@ -24,7 +24,7 @@ msgstr ""
 
 #: 50029 50076
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 50030
 msgid ""
@@ -34,7 +34,7 @@ msgstr ""
 
 #: 50031
 msgid "\"Very well, then.\""
-msgstr "\"Ну и хорошо.\""
+msgstr "\"Ну и хорошо\"."
 
 #: 50033
 msgid ""
@@ -54,12 +54,12 @@ msgstr "\"Почему?\""
 #: 50036 50042 50059
 #, fuzzy
 msgid "\"I don't hold with freeing fiends.\""
-msgstr "\"Я хочу воссоединиться с моими друзьями.\""
+msgstr "\"Я хочу воссоединиться с моими друзьями\"."
 
 #: 50038 50043 50048 50060
 #, fuzzy
 msgid "\"Tell me what I have to do.\""
-msgstr "\"Я... я сделаю все, что в моих силах.\""
+msgstr "\"Я... я сделаю все, что в моих силах\"."
 
 #: 50039 50044 50061
 msgid "\"Fall-from-Grace, what's your opinion?\""
@@ -89,7 +89,7 @@ msgstr ""
 #: 50047 50054
 #, fuzzy
 msgid "\"I won't do it.\""
-msgstr "\"Я не хочу этого делать.\""
+msgstr "\"Я не хочу этого делать\"."
 
 #: 50049
 msgid ""
@@ -101,7 +101,7 @@ msgstr ""
 
 #: 50050 50065
 msgid "\"Very well. Farewell.\""
-msgstr "\"Отлично. Прощай.\""
+msgstr "\"Отлично. Прощай\"."
 
 #: 50051
 msgid ""
@@ -164,7 +164,7 @@ msgstr ""
 
 #: 50067
 msgid "\"Farewell, then.\" "
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 50068
 msgid "\"You're done, ain't you? Yes, you are... but where's Agril-Shanak?\""
@@ -224,5 +224,3 @@ msgid ""
 "\"I left it stewing in the pentagram. You can go free it yourself. I've "
 "resummoned it... the rest is up to you.\""
 msgstr ""
-
-

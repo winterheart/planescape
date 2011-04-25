@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dzerb.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 02:05+0600\n"
+"PO-Revision-Date: 2011-03-13 23:26+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 51192
 msgid ""
@@ -19,10 +20,13 @@ msgid ""
 "massive frame. It seems to be engaged in conversation with two similar "
 "creatures next to it. "
 msgstr ""
+"Перед тобой стоит существо высотой в девять футов. Его массивное тело играет "
+"мускулами. Похоже, оно увлеченно общается с двумя другими подобными "
+"существами."
 
 #: 51193
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 51194
 msgid "Ignore the creature."
@@ -34,6 +38,9 @@ msgid ""
 "down and notices you. A look of confusion crosses his features. \"What you "
 "want of Zerb?\""
 msgstr ""
+"Он оборачивается на твое приветствие, глядя озираясь по сторонам. Глянув "
+"вниз, он замечает тебя. На его лице появляется смущение. \"Что надо от Зерба?"
+"\""
 
 #: 51196 51201
 msgid "\"I have some questions...\""
@@ -41,7 +48,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 51197
 msgid "\"Nothing, farewell.\""
-msgstr "\"Ничего, прощай.\""
+msgstr "\"Ничего, прощай\"."
 
 #: 51198
 msgid ""
@@ -49,26 +56,31 @@ msgid ""
 "language well. Sorry, you talk Thorp.\" He gestures to one of the creatures "
 "next to him."
 msgstr ""
+"С извиняющимся видом он качает головой. \"Зерб не говорит язык хорошо. "
+"Прощение, спроси Торпа\", - он указывает на одно из существ рядом с собой."
 
 #: 51199
-#, fuzzy
 msgid "\"All right, thank you.\""
-msgstr "\"Ну хорошо...\""
+msgstr "\"Хорошо, спасибо.\""
 
 #: 51200
 msgid ""
 "You see Zerb. He looks down at you and smiles. \"Zerb greet you again.\""
 msgstr ""
+"Ты видишь Зерба. С улыбкой он смотрит вниз на тебя \"Зерб приветствует тебя "
+"еще один раз\"."
 
 #: 51202
 msgid "\"Never mind, farewell.\""
-msgstr "\"Неважно, прощай.\""
+msgstr "\"Неважно, прощай\"."
 
 #: 51203
 msgid ""
 "You see Zerb. He looks down at you and bows. \"Zerb greet you, friend. Zerb "
 "thank you for saving life.\" He turns away."
 msgstr ""
+"Ты видишь Зерба. Он смотрит на тебя вниз, кланясь. \"Зерб приветствует тебя, "
+"друг. Зерб говорит спасибо, за спасение жизни\". Он отворачивается назад."
 
 #: 51204
 msgid "Leave."

@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmengine.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:27+0600\n"
+"PO-Revision-Date: 2011-03-14 00:23+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 48686
 msgid ""
@@ -19,10 +20,13 @@ msgid ""
 "its sides. On the front of the cube is an animated face. As you approach, "
 "the creature focuses its eyes upon you."
 msgstr ""
+"Перед тобой куб с парой рук, ног и парой небольших крылышек по бокам. "
+"Спереди куба есть лицо, которое при твоем приближении фокусирует на тебе "
+"глаза."
 
 #: 48687
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 48688
 msgid "Ignore the creature."
@@ -39,7 +43,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 48691 48915
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 48692
 msgid "The creature continues to look at you blankly. \"State your question.\""
@@ -50,9 +54,8 @@ msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 48694
-#, fuzzy
 msgid "\"What are you?\""
-msgstr "\"Кто ты такой?\""
+msgstr "\"Что ты такое?\""
 
 #: 48695
 msgid "\"What is this place?\""
@@ -73,7 +76,7 @@ msgstr ""
 #: 48700
 #, fuzzy
 msgid "\"We are modron.\""
-msgstr "\"Пожалуйста, продолжай.\""
+msgstr "\"Пожалуйста, продолжай\"."
 
 #: 48701
 #, fuzzy
@@ -84,7 +87,7 @@ msgstr "\"Ты имеешь в виду этот ключ?\""
 #: 48763 48767 48772 48776 48781 48918 48923 48927 48932
 #, fuzzy
 msgid "\"I must be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай.\""
 
 #: 48704
 msgid ""
@@ -191,7 +194,7 @@ msgstr "\"Ты что-то сказал про 'Правило Трех'. Что
 #: 48737 48748 48930
 #, fuzzy
 msgid "\"Interesting. I'd like to try out one of these dungeons.\""
-msgstr "\"Понятно. Я хотел бы задать другой вопрос.\""
+msgstr "\"Понятно. Я хотел бы задать другой вопрос\"."
 
 #: 48740
 msgid ""
@@ -359,7 +362,7 @@ msgstr ""
 #: 48794
 #, fuzzy
 msgid "\"That is all for now. Farewell.\""
-msgstr "\"Это все, что мне нужно. Прощай.\""
+msgstr "\"Это все, что мне нужно. Прощай\"."
 
 #: 48795
 msgid ""
@@ -375,24 +378,29 @@ msgid "\"State your destination, Director.\""
 msgstr ""
 
 #: 48905
+#, fuzzy
 msgid "\"The Hive, near Ragpicker's Square.\""
-msgstr ""
+msgstr "Улей, рядом с площадью Старьевщиков"
 
 #: 48906
+#, fuzzy
 msgid "\"The Hive, near the Mortuary.\""
-msgstr ""
+msgstr "Улей, рядом с Моргом."
 
 #: 48907
+#, fuzzy
 msgid "\"The Hive, near the marketplace.\""
-msgstr ""
+msgstr "Морг, рядом с рынком."
 
 #: 48908
+#, fuzzy
 msgid "\"The Hive, near the Smoldering Corpse bar.\""
-msgstr ""
+msgstr "Улей, рядом с баром Тлеющий труп."
 
 #: 48909
+#, fuzzy
 msgid "\"Lower Ward.\""
-msgstr ""
+msgstr "Нижний район"
 
 #: 48910
 msgid "\"Clerk's Ward.\""
@@ -430,7 +438,7 @@ msgstr ""
 #: 48920 48925
 #, fuzzy
 msgid "\"All right. I'd like to try out one of these dungeons you mentioned.\""
-msgstr "\"Хорошо. Но я хочу знать о кое-чем еще.\""
+msgstr "\"Хорошо. Но я хочу знать о кое-чем еще\"."
 
 #: 48921
 msgid "\"I know what I heard. You started to say *I* and...\""
@@ -450,7 +458,6 @@ msgid ""
 msgstr ""
 
 #: 54222
-#, fuzzy
 msgid "\"How do I get out of here?\""
 msgstr "\"Как мне выбраться отсюда?\""
 
@@ -473,12 +480,12 @@ msgstr "\"Последний шанс? О *чем* это ты толкуешь?
 #: 66396 68069
 #, fuzzy
 msgid "\"I see. I have some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня есть еще вопросы...\""
 
 #: 66397 68063
 #, fuzzy
 msgid "\"I must be going now, farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Я должен идти, прощай.\""
 
 #: 68064
 msgid ""
@@ -511,7 +518,7 @@ msgstr ""
 #: 68070
 #, fuzzy
 msgid "\"Very well, farewell.\""
-msgstr "\"Ух, прощай...\""
+msgstr "\"Хорошо, прощай.\""
 
 #: 68071
 msgid ""

@@ -9,13 +9,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 20787
 msgid "\"Nothing.  Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 20788
 msgid "\"What... what did ye want to know... know?\""
@@ -28,7 +28,7 @@ msgstr "\"Кто ты?\""
 #: 20790
 #, fuzzy
 msgid "\"Tell me about yourself again.\""
-msgstr "\"Расскажи мне о свой банде.\""
+msgstr "\"Расскажи мне о свой банде\"."
 
 #: 20791
 #, fuzzy
@@ -42,11 +42,11 @@ msgstr "\"О чем это ты?\""
 
 #: 20793
 msgid "\"Tell me about the catacombs.\""
-msgstr "\"Расскажи мне о катакомбах.\""
+msgstr "\"Расскажи мне о катакомбах\"."
 
 #: 20794
 msgid "\"Nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 20795
 msgid "\"I... I was Burt. Me an' Lowden, me best mate, we's dead now.\""
@@ -59,11 +59,11 @@ msgstr ""
 #: 20797
 #, fuzzy
 msgid "\"Answer some other questions for me...\""
-msgstr "\"Тогда ответь мне на несколько вопросов.\""
+msgstr "\"Тогда ответь мне на несколько вопросов\"."
 
 #: 20798 20808 20812
 msgid "\"I see. Farewell.\""
-msgstr "\"Понятно. Прощай.\""
+msgstr "\"Понятно. Прощай\"."
 
 #: 20799
 msgid ""
@@ -86,7 +86,7 @@ msgstr "Ложь: \"Я не уверен. У меня есть нескольк�
 #: 20802
 #, fuzzy
 msgid "\"Really. Farewell.\""
-msgstr "\"Великолепно. Прощай.\""
+msgstr "\"Великолепно. Прощай\"."
 
 #: 20803
 msgid ""
@@ -97,7 +97,7 @@ msgstr ""
 #: 20805
 #, fuzzy
 msgid "\"I will. Farewell.\""
-msgstr "\"Хорошо. Прощай.\""
+msgstr "\"Хорошо. Прощай\"."
 
 #: 20806
 msgid ""
@@ -134,7 +134,7 @@ msgstr ""
 
 #: 20814
 msgid "\"Answer some questions for me.\""
-msgstr "\"А, не важно. Ответь мне на пару вопросов.\""
+msgstr "\"А, не важно. Ответь мне на пару вопросов\"."
 
 #: 20815
 msgid "Leave it."
@@ -156,7 +156,7 @@ msgstr "\"Послушай, у меня есть вопросы к тебе...\"
 #: 20818
 #, fuzzy
 msgid "\"No one. Farewell.\""
-msgstr "\"Нет. Прощай.\""
+msgstr "\"Нет. Прощай\"."
 
 #: 20819
 msgid ""
@@ -177,4 +177,3 @@ msgstr ""
 #: 2882
 msgid "\"I wanted to ask you a few more questions...\""
 msgstr ""
-

@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-09-04 18:33+0600\n"
+"PO-Revision-Date: 2011-03-20 16:52+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 66828
 msgid ""
@@ -24,6 +25,14 @@ msgid ""
 "I received it scroll from a woman who told me that it had been given to her "
 "mother with directions to deliver it to a man with my description."
 msgstr ""
+"Я вскрыл и прочел свиток с магической ловушкой, в котором было написано:\n"
+"\n"
+"\"это может и не УБИТЬ тебя но по крайней мере ЗАМЕДЛИТ я в этом УВЕРЕНА\"\n"
+"\"ХВАТИТ ПРЕСЛЕДОВАТЬ МЕНЯ УБЛЮДОЧНЫЕ ВОРЫ это МОЕ тело МОЕ МОЕ МОЕ\"\n"
+"\"а теперь УМРИ\"\n"
+"\n"
+"Я получил этот свиток от женщины, которая сказала, что ей его дала мать с "
+"указаниями вручить его человеку, похожему на меня."
 
 #: 66878
 msgid ""
@@ -31,15 +40,16 @@ msgid ""
 "single red ribbon and smelling faintly of mildew. The ribbon is held in "
 "place with a plain wax seal."
 msgstr ""
+"Это старый, поблекший и безобидный пергамент, перевязанный красной лентой. "
+"Он слега попахивает плесенью. Лента на месте узла скреплена восковой печатью."
 
 #: 66880
 msgid "Break the seal, open the scroll, read it."
-msgstr ""
+msgstr "Сломать печать, открыть свиток, прочитать его."
 
 #: 66881
-#, fuzzy
 msgid "Put the scroll away."
-msgstr "Выбросить записку."
+msgstr "Отложить свиток."
 
 #: 66882
 msgid ""
@@ -50,11 +60,15 @@ msgid ""
 "\"STOP CHASING ME YOU THIEVING BASTARDS it's MY body MINE MINE MINE \"\n"
 "\"now... DIE\""
 msgstr ""
+"Свиток содержит несколько строк, написанных корявым почерком, и странную "
+"руну. Записка следующая:\n"
+"\"это может и не УБИТЬ тебя но по крайней мере ЗАМЕДЛИТ я в этом УВЕРЕНА\"\n"
+"\"ХВАТИТ ПРЕСЛЕДОВАТЬ МЕНЯ УБЛЮДОЧНЫЕ ВОРЫ это МОЕ тело МОЕ МОЕ МОЕ\"\n"
+"\"а теперь УМРИ\""
 
 #: 66883 66884
-#, fuzzy
 msgid "\"What the...?\""
-msgstr "\"Что?!..\""
+msgstr "\"Что за?..\""
 
 #: 66885
 msgid ""
@@ -63,9 +77,12 @@ msgid ""
 "hands... in seconds, the magical hemotoxin has rendered your blood into "
 "black bile. You begin to die an exquisitely painful death..."
 msgstr ""
+"Руна неожиданно начинает пульсировать, преварщая весь свиток бесформенную "
+"вонючую черную массу. Жидкость сразу же впитывается в твою плоть... за "
+"считанные секунды магический гемотоксин превращает твою кровь в черную "
+"желчь. Ты умираешь страшной и мучительной смертью..."
 
 #: 66886
-#, fuzzy
 msgid "Fall into darkness..."
 msgstr "Упасть в темноту..."
 
@@ -78,8 +95,12 @@ msgid ""
 "then the pain subsides. You have survived whatever horrible magic was placed "
 "upon the scroll."
 msgstr ""
+"Руна неожиданно начинает пульсировать, преварщая весь свиток бесформенную "
+"вонючую черную массу. Жидкость сразу же впитывается в твою плоть... за "
+"считанные секунды магический гемотоксин превращает твою кровь в черную "
+"желчь. На мгновение тебя охватывает агония... но затем боль отступает. Какой "
+"ужасной ни была магия в свитке, тебе удалось выжить."
 
 #: 66888
 msgid "Done."
 msgstr "Готово."
-

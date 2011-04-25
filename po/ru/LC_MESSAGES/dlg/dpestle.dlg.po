@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 2968
@@ -56,7 +56,7 @@ msgstr "\"Нет, у меня есть некоторые вопросы...\""
 #: 42006
 #, fuzzy
 msgid "\"No, that's all right. Farewell.\""
-msgstr "\"Нет... нет... так тоже неплохо. Прощай.\""
+msgstr "\"Нет... нет... так тоже неплохо. Прощай\"."
 
 #: 42007
 msgid ""
@@ -98,7 +98,7 @@ msgstr ""
 
 #: 42015 42019
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 42016
 msgid ""
@@ -134,7 +134,7 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 42023 42027
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 42024
 msgid ""
@@ -181,7 +181,7 @@ msgstr ""
 #: 42036
 #, fuzzy
 msgid "\"I was just passing by. Farewell.\""
-msgstr "\"Я просто проходил мимо. Прощай.\""
+msgstr "\"Я просто проходил мимо. Прощай\"."
 
 #: 42037
 msgid ""
@@ -210,7 +210,7 @@ msgstr ""
 #: 42042
 #, fuzzy
 msgid "\"All right... farewell for now, then.\""
-msgstr "\"Тогда ладно... Прощай.\""
+msgstr "\"Тогда ладно... Прощай\"."
 
 #: 42043
 msgid ""
@@ -243,10 +243,9 @@ msgstr "\"Прошу прощения... с тобой все в порядке?
 #: 42048
 #, fuzzy
 msgid "\"Yes... I wanted to purchase something.\""
-msgstr "\"Ух... я хотел бы у тебя кое-что спросить.\""
+msgstr "\"Ух... я хотел бы у тебя кое-что спросить\"."
 
 #: 42049
 #, fuzzy
 msgid "\"No, that's all. Thanks, and farewell.\""
-msgstr "\"Нет, спасибо. Прощай.\""
-
+msgstr "\"Нет, спасибо. Прощай\"."

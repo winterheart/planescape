@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: maslow.itm\n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-08-16 21:48+0600\n"
+"PO-Revision-Date: 2011-03-03 02:33+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 26082
 msgid ""
@@ -31,6 +32,7 @@ msgstr ""
 msgid "Maslow's Pyramid"
 msgstr "Пирамида Маслоу"
 
+# Пасхалка: пирамида Маслоу - это пирамида потребностей человека, разработанная Абрахамом Маслоу.
 #: 30017
 msgid ""
 "MASLOW'S PYRAMID\n"
@@ -45,9 +47,18 @@ msgid ""
 "can remove fatigue remove intoxication effects, and heal a character for "
 "nine points of damage per charge."
 msgstr ""
+"ПИРАМИДА МАСЛОУ\n"
+"Особенности:\n"
+"   Снижает усталость\n"
+"   Снижает отравление\n"
+"   Лечит 9 очков жизни\n"
+"Вес: 7\n"
+"\n"
+"Пирамида Маслоу избавляет от потребности в еде и питье, а также притупляет "
+"боль. Изначально она содержит тридцать три заряда, которые могут снять "
+"усталость, устранить эффекты отравления и вылечить девять очков урона за "
+"одно использование."
 
 #: 30028
 msgid "Stone Pyramid"
 msgstr "Каменная пирамида"
-
-

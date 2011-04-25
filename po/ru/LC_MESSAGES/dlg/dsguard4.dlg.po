@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 61227
@@ -23,7 +23,7 @@ msgstr ""
 
 #: 61228
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 61229
 msgid "Ignore the man."
@@ -43,29 +43,29 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 61232 61240
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 61233
 msgid ""
 "He shakes his head and waves you away. \"No.\" He seems to be ignoring you."
 msgstr ""
-"Он качает головой и отмахивается от тебя. \"Нет.\" Похоже, он игнорирует "
+"Он качает головой и отмахивается от тебя. \"Нет\". Похоже, он игнорирует "
 "тебя."
 
 #: 61234
 msgid "\"It will only take a moment of your time.\""
-msgstr "\"Это не займет много твоего времени.\""
+msgstr "\"Это не займет много твоего времени\"."
 
 #: 61235 61237
 msgid "\"Fine. Farewell.\""
-msgstr "\"Отлично. Прощай.\""
+msgstr "\"Отлично. Прощай\"."
 
 #: 61236
 msgid ""
 "He shakes his head and waves you away. \"No.\" He still seems to be ignoring "
 "you."
 msgstr ""
-"Он качает головой и отмахивается от тебя. \"Нет.\" Похоже, он по-прежнему "
+"Он качает головой и отмахивается от тебя. \"Нет\". Похоже, он по-прежнему "
 "игнорирует тебя."
 
 #: 61238
@@ -75,4 +75,3 @@ msgid ""
 msgstr ""
 "Ты видишь стражника Гармониума. Он не реагирует на тебя, хотя ты определенно "
 "уверен, что он знает о твоем присутствии."
-

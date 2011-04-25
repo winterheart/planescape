@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dderfem.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:47+0600\n"
+"PO-Revision-Date: 2011-03-13 23:38+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 66400
 msgid ""
@@ -21,7 +22,7 @@ msgstr ""
 
 #: 66401 66412 66441
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 66402 66413 66442
 msgid "Ignore her."
@@ -39,7 +40,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 #: 66405
 #, fuzzy
 msgid "\"Nothing, never mind.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно.\""
 
 #: 66406
 msgid ""
@@ -48,13 +49,12 @@ msgid ""
 msgstr ""
 
 #: 66407
-#, fuzzy
 msgid "\"It will take just a moment of your time...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Это займет совсем немного твоего времени...\""
 
 #: 66408
 msgid "\"Farewell then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 66409
 msgid ""
@@ -77,9 +77,8 @@ msgid "\"Hello, cutter. You want something?\""
 msgstr ""
 
 #: 66416
-#, fuzzy
 msgid "\"No, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Нет, неважно. Прощай\"."
 
 #: 66417
 msgid ""
@@ -99,13 +98,12 @@ msgid "\"What exactly is going on?\""
 msgstr ""
 
 #: 66421
-#, fuzzy
 msgid "\"Is there anything of interest in this ward?\""
-msgstr "\"Что еще ты можешь сказать мне?\""
+msgstr "\"Есть ли что интересное в этом районе?\""
 
 #: 66422 66425 66429 66433 66436
 msgid "\"I must be going, farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 66423
 msgid ""
@@ -114,9 +112,8 @@ msgid ""
 msgstr ""
 
 #: 66424
-#, fuzzy
 msgid "\"Very well. I have some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Хорошо. У меня были вопросы...\""
 
 #: 66426
 msgid ""
@@ -137,7 +134,7 @@ msgstr ""
 #: 66432 66435
 #, fuzzy
 msgid "\"I see. I have some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня есть еще вопросы...\""
 
 #: 66434
 msgid ""
@@ -153,22 +150,20 @@ msgid ""
 msgstr ""
 
 #: 66438
-#, fuzzy
 msgid "\"I will. I have some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Я так и сделаю. У меня были еще вопросы...\""
 
 #: 66439
-#, fuzzy
 msgid ""
 "You see a stern looking woman. She glances at you as you approach and then "
 "makes an effort to avoid you."
 msgstr ""
-"Ты видишь мужчину в старых лохотьях. При твоем приближении он обходит тебя "
-"стороной и продолжает идти."
+"Ты видишь суровую женщину. Увидев, как ты приближаешься, она пытается не "
+"обращать на тебя внимания."
 
 #: 66440
 msgid "\"Thank you, farewell.\""
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо, прощай\"."
 
 #: 66443
 msgid "She gives you an annoyed look. \"Well, what do you want?\""
@@ -177,16 +172,15 @@ msgstr ""
 #: 66445 66448 66453
 #, fuzzy
 msgid "\"Very well, farewell.\""
-msgstr "\"Ух, прощай...\""
+msgstr "\"Хорошо, прощай.\""
 
 #: 66446
 msgid "She frowns at you. \"I don't care, take em to someone who does.\""
 msgstr ""
 
 #: 66447
-#, fuzzy
 msgid "\"It will only take a moment of your time.\""
-msgstr "\"Спасибо за уделенное время. Прощай.\""
+msgstr "\"Это не займет много твоего времени.\""
 
 #: 66449
 msgid "Her frown deepens. \"I don't care. Go away.\""
@@ -198,14 +192,16 @@ msgstr ""
 
 #: 66451
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 66452
 msgid "She gives you a disgusted look, snorts, and then turns away."
-msgstr ""
+msgstr "С отвращением фыркнув на тебя, она отворачивается."
 
 #: 66454
 msgid ""
 "You see the auctioneer customer. She waves you off as you attempt to talk to "
 "her again."
 msgstr ""
+"Ты видишь покупательницу аукциониста. Она отмахивается от твоей попытки "
+"снова заговорить с ней."

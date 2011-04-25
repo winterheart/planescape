@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 57455
@@ -21,7 +21,7 @@ msgstr ""
 
 #: 57456
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 57457
 msgid "Ignore her."
@@ -38,7 +38,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 57460 57469 57473 57477 57483 57487 57491 57494 57497
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 57461
 msgid ""
@@ -56,7 +56,7 @@ msgstr ""
 
 #: 57464
 msgid "\"Fine, farewell.\""
-msgstr "\"Отлично, прощай.\""
+msgstr "\"Отлично, прощай\"."
 
 #: 57465
 msgid "She glares at you. \"Fine. Make it quick.\""
@@ -112,7 +112,7 @@ msgstr "\"Понятно. У меня были вопросы...\""
 
 #: 57480
 msgid "\"Thank you. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 57481
 msgid ""
@@ -161,4 +161,3 @@ msgid ""
 "You see Dylana. She does not appear to be happy to see you. \"Back again... "
 "why?\""
 msgstr ""
-

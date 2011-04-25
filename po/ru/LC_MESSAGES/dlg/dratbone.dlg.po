@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 16225
@@ -313,7 +313,7 @@ msgstr ""
 #: 16274
 #, fuzzy
 msgid "\"Eh... never mind, then.\""
-msgstr "\"Тогда неважно.\""
+msgstr "\"Тогда неважно\"."
 
 #: 16275
 msgid ""
@@ -524,7 +524,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 16308 16324 16334 16444
 msgid "\"Nothing, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай.\""
+msgstr "\"Ничего, неважно. Прощай\"."
 
 #: 16309
 msgid "\"It won't do you any harm to speak with me...\""
@@ -537,11 +537,11 @@ msgstr "\"Ты *угрожаешь* мне, сопляк?\""
 
 #: 16311 16385
 msgid "\"Farewell.\""
-msgstr "\"Прощай.\""
+msgstr "\"Прощай\"."
 
 #: 16312
 msgid "\"I don't understand.\""
-msgstr "\"Я не понимаю.\""
+msgstr "\"Я не понимаю\"."
 
 #: 16313
 msgid "\"You'll just have to trust me.\""
@@ -549,7 +549,7 @@ msgstr ""
 
 #: 16314 16344 16405
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 16315
 msgid "\"Just talk to me. I had only a few questions...\""
@@ -566,7 +566,7 @@ msgstr ""
 #: 16318 16395 16400 16501
 #, fuzzy
 msgid "\"Forget I asked. Farewell.\""
-msgstr "\"Забудь об этом. Прощай.\""
+msgstr "\"Забудь об этом. Прощай\"."
 
 #: 16319 16325 16332 16358 16521 16524
 msgid "Leave."
@@ -575,16 +575,16 @@ msgstr "Уйти."
 #: 16320
 #, fuzzy
 msgid "\"No, I'm not.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Нет, не нужна\"."
 
 #: 16321
 #, fuzzy
 msgid "\"Yes, I do.\""
-msgstr "\"Да, знаю.\""
+msgstr "\"Да, знаю\"."
 
 #: 16322
 msgid "\"Forget it. Farewell.\""
-msgstr "\"Забудь. Прощай.\""
+msgstr "\"Забудь. Прощай\"."
 
 #: 16323 16333
 #, fuzzy
@@ -615,7 +615,7 @@ msgstr "\"О чем это ты *толкуешь*?\""
 #: 16331 16348 16353
 #, fuzzy
 msgid "\"It's no concern of yours.\""
-msgstr "\"Это не твое дело. Прощай.\""
+msgstr "\"Это не твое дело. Прощай\"."
 
 #: 16335
 msgid "\"Who are you?\""
@@ -640,12 +640,12 @@ msgstr ""
 #: 16340 16341 16342
 #, fuzzy
 msgid "\"I'm looking for a someone named Pharod.\""
-msgstr "\"Я разыскиваю мужчину по имени Фарод.\""
+msgstr "\"Я разыскиваю мужчину по имени Фарод\"."
 
 #: 16343
 #, fuzzy
 msgid "\"I'm looking for a lost journal.\""
-msgstr "\"Я ищу дневник.\""
+msgstr "\"Я ищу дневник\"."
 
 #: 16345
 msgid "Lie: \"I'm, uh... Adahn.\""
@@ -657,7 +657,7 @@ msgstr ""
 
 #: 16347
 msgid "\"I... don't know.\""
-msgstr "\"Я... не знаю.\" "
+msgstr "\"Я... не знаю\". "
 
 #: 16349 16356 16359 16370 16384 16427 16448 16452 16456 16459 16463 16483
 #: 16488
@@ -686,11 +686,11 @@ msgstr ""
 
 #: 16357 16363 16426 16428 16436 16438
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\". "
 
 #: 16360 16371 16375 16378 16387 16480
 msgid "\"That's all I wanted to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 16361
 msgid "\"It seems like you're searching for something.\""
@@ -720,7 +720,7 @@ msgstr "\"Понятно... У меня были еще вопросы...\""
 #: 16368
 #, fuzzy
 msgid "\"I don't, actually. Farewell.\""
-msgstr "\"На самом деле - ничего. Прощай.\""
+msgstr "\"На самом деле - ничего. Прощай\"."
 
 #: 16369
 msgid "\"Why are you hunting rats?\""
@@ -746,11 +746,11 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 16379
 msgid "\"Yes, I am.\""
-msgstr "\"Да.\"\""
+msgstr "\"Да\".\""
 
 #: 16380
 msgid "\"Perhaps.\""
-msgstr "\"Может быть.\""
+msgstr "\"Может быть\"."
 
 #: 16381
 msgid "\"No, just curious.\""
@@ -782,11 +782,11 @@ msgstr ""
 
 #: 16391 16396
 msgid "\"I'm looking for a man named Pharod.\""
-msgstr "\"Я разыскиваю мужчину по имени Фарод.\""
+msgstr "\"Я разыскиваю мужчину по имени Фарод\"."
 
 #: 16392 16397
 msgid "\"I'm looking for a journal I've lost.\""
-msgstr "\"Я ищу потерянный дневник.\""
+msgstr "\"Я ищу потерянный дневник\"."
 
 #: 16393
 msgid "\"I don't know, myself. Just wandering.\""
@@ -795,7 +795,7 @@ msgstr ""
 #: 16394 16404
 #, fuzzy
 msgid "\"I don't think it's any concern of yours.\""
-msgstr "\"Я так не думаю. Хорошего дня.\""
+msgstr "\"Я так не думаю. Хорошего дня\"."
 
 #: 16398
 msgid "\"I am just wandering, as I said.\""
@@ -825,12 +825,12 @@ msgstr "\"Спасибо. У меня есть другие вопросы...\""
 #: 16407 16409 16420 16430
 #, fuzzy
 msgid "\"I'll go find him, then. Farewell.\""
-msgstr "\"Может быть, тогда я найду его. Прощай.\""
+msgstr "\"Может быть, тогда я найду его. Прощай\"."
 
 #: 16410 16411
 #, fuzzy
 msgid "Vow: \"I swear I won't mention your name.\""
-msgstr "Клятва: \"Неважно. Обещаю, что я не скажу никому.\""
+msgstr "Клятва: \"Неважно. Обещаю, что я не скажу никому\"."
 
 #: 16412
 msgid "Lie: \"I swear I won't mention your name.\""
@@ -870,7 +870,7 @@ msgstr "\"Где можно найти его?\""
 #: 16441 16442 16467 16468 16472 16473
 #, fuzzy
 msgid "\"Anything to look out for here?\""
-msgstr "\"Я хочу выбраться отсюда.\""
+msgstr "\"Я хочу выбраться отсюда\"."
 
 #: 16443
 #, fuzzy
@@ -895,7 +895,7 @@ msgstr "\"Как мне выбраться отсюда?\""
 #: 16449
 #, fuzzy
 msgid "\"Maybe I'll look there, then. Farewell.\""
-msgstr "\"Тогда я поищу его там. Прощай.\""
+msgstr "\"Тогда я поищу его там. Прощай\"."
 
 #: 16450
 msgid "\"Dabus?\""
@@ -908,21 +908,21 @@ msgstr "\"А что ты там говорил о 'мозговых парази
 
 #: 16453
 msgid "\"Thanks. Farewell.\""
-msgstr "\"Спасибо. Прощай.\""
+msgstr "\"Спасибо. Прощай\"."
 
 #: 16457 16460
 msgid "\"That's all I needed to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 16464
 #, fuzzy
 msgid "\"We'll see. Farewell.\""
-msgstr "\"Понятно... Прощай.\""
+msgstr "\"Понятно... Прощай\"."
 
 #: 16465
 #, fuzzy
 msgid "\"No, I don't.\""
-msgstr "\"Нет, не нужна.\""
+msgstr "\"Нет, не нужна\"."
 
 #: 16466 16471
 #, fuzzy
@@ -931,7 +931,7 @@ msgstr "\"Где можно найти его?\""
 
 #: 16470 16475 16484
 msgid "\"That's all I needed to hear. Farewell.\""
-msgstr "\"Это все, что я хотел услышать. Прощай.\""
+msgstr "\"Это все, что я хотел услышать. Прощай\"."
 
 #: 16476
 msgid "\"Worse?\""
@@ -945,7 +945,7 @@ msgstr "\"Кто он такой?\""
 #: 16489
 #, fuzzy
 msgid "\"I'll watch for him, then. Farewell.\""
-msgstr "\"Тогда пойду, поищу его. Прощай.\""
+msgstr "\"Тогда пойду, поищу его. Прощай\"."
 
 #: 16490
 msgid "\"Collector?\""
@@ -993,12 +993,12 @@ msgstr ""
 #: 16504 16507 16556
 #, fuzzy
 msgid "\"I understand.\""
-msgstr "\"Я понял.\""
+msgstr "\"Я понял\"."
 
 #: 16505 16508 16557
 #, fuzzy
 msgid "\"I don't think it's worth my time.\""
-msgstr "\"Я так не думаю. Хорошего дня.\""
+msgstr "\"Я так не думаю. Хорошего дня\"."
 
 #: 16509 16513
 #, fuzzy
@@ -1018,7 +1018,7 @@ msgstr "\"Да, у меня есть еще вопросы...\""
 #: 16512 16516
 #, fuzzy
 msgid "\"No, nothing. Farewell.\""
-msgstr "\"Ничего. Прощай.\""
+msgstr "\"Ничего. Прощай\"."
 
 #: 16518 16519 16520
 #, fuzzy
@@ -1033,7 +1033,7 @@ msgstr "\"Спасибо. У меня есть другие вопросы...\""
 #: 16523
 #, fuzzy
 msgid "\"I will. Farewell.\""
-msgstr "\"Хорошо. Прощай.\""
+msgstr "\"Хорошо. Прощай\"."
 
 #: 16525
 msgid "\"I had those rat tails for you.\""
@@ -1041,11 +1041,11 @@ msgstr ""
 
 #: 16527 16559
 msgid "\"Just passing by. Farewell.\""
-msgstr "\"Я просто проходил мимо. Прощай.\""
+msgstr "\"Я просто проходил мимо. Прощай\"."
 
 #: 16528
 msgid "\"Yes.\""
-msgstr "\"Да.\""
+msgstr "\"Да\"."
 
 #: 16529
 #, fuzzy
@@ -1055,7 +1055,7 @@ msgstr "\"Нет, у меня есть некоторые вопросы...\""
 #: 16530
 #, fuzzy
 msgid "\"No, not yet. Farewell.\""
-msgstr "\"Еще нет. Прощай, Дейонарра.\""
+msgstr "\"Еще нет. Прощай, Дейонарра\"."
 
 #: 16531
 msgid "\"I'll have that secret of yours, now.\""
@@ -1072,7 +1072,7 @@ msgstr "\"Продолжай...\""
 #: 16534 16536 16538 16540 16545
 #, fuzzy
 msgid "\"I'll have to hear the rest later. Farewell.\""
-msgstr "\"Я выслушаю оставшуюся часть истории в другой раз. Прощай.\""
+msgstr "\"Я выслушаю оставшуюся часть истории в другой раз. Прощай\"."
 
 #: 16535
 msgid "\"I see. Go on, then...\""
@@ -1093,7 +1093,7 @@ msgstr "\"В Улье?\""
 
 #: 16542
 msgid "\"Tell me.\""
-msgstr "\"Скажи мне.\""
+msgstr "\"Скажи мне\"."
 
 #: 16543
 msgid "\"Tell me another time. Farewell.\""
@@ -1115,7 +1115,7 @@ msgstr "\"Кто такие Сборщики?\""
 #: 16548 16551
 #, fuzzy
 msgid "\"An interesting tale. Farewell.\""
-msgstr "\"Не заинтересован. Прощай.\""
+msgstr "\"Не заинтересован. Прощай\"."
 
 #: 16552 16554
 #, fuzzy
@@ -1125,6 +1125,4 @@ msgstr "\"Забудь. У меня есть еще вопросы...\""
 #: 16553 16555
 #, fuzzy
 msgid "\"Perhaps I will, should I meet one. Farewell.\""
-msgstr "\"Может быть, тогда я найду его. Прощай.\""
-
-
+msgstr "\"Может быть, тогда я найду его. Прощай\"."

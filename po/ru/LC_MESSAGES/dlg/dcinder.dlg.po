@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 31880
@@ -31,7 +31,7 @@ msgstr ""
 
 #: 34265
 msgid "\"Greetings.\""
-msgstr "\"Приветствую.\""
+msgstr "\"Приветствую\"."
 
 #: 34266
 msgid "Ignore the man."
@@ -54,7 +54,7 @@ msgstr ""
 
 #: 34270 34324
 msgid "\"Nothing, farewell.\""
-msgstr "\"Ничего, прощай.\""
+msgstr "\"Ничего, прощай\"."
 
 #: 34271
 msgid ""
@@ -77,16 +77,16 @@ msgstr ""
 
 #: 34274
 msgid "\"I need to buy some weapons.\""
-msgstr "\"Я хочу купить кое-какое оружие.\""
+msgstr "\"Я хочу купить кое-какое оружие\"."
 
 #: 34275
 msgid "\"I need to buy some magic items.\""
-msgstr "\"Я хочу купить кое-какие магические вещи.\""
+msgstr "\"Я хочу купить кое-какие магические вещи\"."
 
 #: 34276
 #, fuzzy
 msgid "\"I'm interested in spells.\""
-msgstr "\"Мне нужны некоторые заклинания.\""
+msgstr "\"Мне нужны некоторые заклинания\"."
 
 #: 34277
 msgid "\"What is this place?\""
@@ -94,7 +94,7 @@ msgstr "\"Что это за место?\""
 
 #: 34278 34291 34313 34317 34320
 msgid "\"I must be going. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 34279
 msgid ""
@@ -108,7 +108,7 @@ msgstr "\"Понятно. У меня есть еще вопросы...\""
 
 #: 34281 34288 34294 34296 34299 34302
 msgid "\"Thank you, farewell.\""
-msgstr "\"Спасибо, прощай.\""
+msgstr "\"Спасибо, прощай\"."
 
 #: 34282
 msgid "He frowns. \"A skull? Ye mean a... skull?\""
@@ -124,7 +124,7 @@ msgstr ""
 
 #: 34285
 msgid "\"Never mind. Farewell.\""
-msgstr "\"Неважно. Прощай.\""
+msgstr "\"Неважно. Прощай\"."
 
 #: 34286
 msgid ""
@@ -183,11 +183,11 @@ msgstr ""
 
 #: 34304
 msgid "\"All right.\""
-msgstr "\"Хорошо.\" "
+msgstr "\"Хорошо\". "
 
 #: 34305
 msgid "\"Never mind, farewell.\""
-msgstr "\"Неважно, прощай.\""
+msgstr "\"Неважно, прощай\"."
 
 #: 34306
 msgid "Null node"
@@ -241,7 +241,7 @@ msgstr ""
 #: 34323
 #, fuzzy
 msgid "\"I'm in need of some spells.\""
-msgstr "\"Мне нужны некоторые заклинания.\""
+msgstr "\"Мне нужны некоторые заклинания\"."
 
 #: 34325
 msgid ""
@@ -264,7 +264,7 @@ msgstr "\"Я это запомню. У меня еще несколько воп
 #: 34328 34333 34339 34344 34349 34353
 #, fuzzy
 msgid "\"Thank you, I must be going. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Нет. Я должен идти. Прощай\"."
 
 #: 34329
 msgid ""
@@ -291,7 +291,7 @@ msgstr ""
 
 #: 34335
 msgid "\"Go on.\""
-msgstr "\"Продолжай.\""
+msgstr "\"Продолжай\"."
 
 #: 34336
 msgid ""
@@ -370,7 +370,7 @@ msgstr ""
 #: 34361 34364 66229 66235
 #, fuzzy
 msgid "\"Thank you. I must be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай.\""
+msgstr "\"Нет. Я должен идти. Прощай\"."
 
 #: 34362
 msgid "\"Sets his kip up right outside the market, cutter. Ye can't miss em.\""
@@ -400,4 +400,3 @@ msgstr ""
 #, fuzzy
 msgid "\"Where can I find Byron Pikit?\""
 msgstr "\"Где я могу найти этого Фарода?\""
-
