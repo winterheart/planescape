@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dbrocus6.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:32+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-04-03 23:22+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 3208 40748
@@ -19,6 +19,9 @@ msgid ""
 "As you approach the thing, it silently stares at you with wide, unblinking "
 "eyes.  Its face hasn't the slightest trace of emotion on it."
 msgstr ""
+"Похоже, это странное кубическое создание в равной мере является машиной и "
+"органическим существом. Пока ты подходишь к нему, оно молча следит за тобой "
+"широко раскрытыми немигающими глазами. На его лице нет ни намека на эмоции."
 
 #: 40749
 msgid "\"Greetings...\""
@@ -30,7 +33,7 @@ msgstr "Оставить его в покое."
 
 #: 40751
 msgid "The modron stares at you quietly."
-msgstr ""
+msgstr "Модрон молча смотрит на тебя."
 
 #: 40752 40753 40756 40757
 msgid "\"I had some questions...\""
@@ -43,32 +46,34 @@ msgid ""
 "greeting is returned.\" There is a soft *click* as the creature blinks. An "
 "awkward silence hangs in the air between the two of you."
 msgstr ""
+"Его голос имеет металлический оттенок и дрожит, как будто издается каким-то "
+"поломанным музыкальным инструментом: \"Приветствуем тебя в ответ\". Когда "
+"существо моргает, раздается легкий *клац*. В воздухе между вами нависает "
+"неловкая тишина."
 
 #: 40758
 msgid "\"Identify yourself to us.\""
-msgstr ""
+msgstr "\"Назови себя\"."
 
 #: 40759
 msgid "\"But... my questions...\""
-msgstr ""
+msgstr "\"Но как же... мои вопросы...\""
 
 #: 40760 40765
-#, fuzzy
 msgid "\"It's not important who I am.\""
-msgstr "\"Нет. Это не так уж важно.\""
+msgstr "\"Не важно, кто я\"."
 
 #: 40761 40766 40770 40779
 msgid "Lie: \"I'm... Adahn.\""
-msgstr "Ложь: \"Я... Адан.\""
+msgstr "Ложь: \"Я... Адан\"."
 
 #: 40762 40767 40771
-#, fuzzy
 msgid "\"I'm not sure who I am.\""
-msgstr "\"Я не уверен. Прощай.\""
+msgstr "\"Я не уверен в том, кто я такой\"."
 
 #: 40763 40768 40772 40780
 msgid "\"Forget it... farewell.\""
-msgstr "\"Забудь... Прощай.\""
+msgstr "\"Забудь... Прощай\"."
 
 #: 40764
 msgid ""
@@ -76,6 +81,9 @@ msgid ""
 "various questions that might be posed by the subject is of a low priority. "
 "Identify yourself to us.\""
 msgstr ""
+"\"Определение личности субъекта имеет высокий приоритет. Предоставление "
+"ответов на различные вопросы, которые может задавать субъект, имеет низкий "
+"приоритет. Назови себя\"."
 
 #: 40769
 msgid ""
@@ -83,6 +91,9 @@ msgid ""
 "We consider the identity of the subject to be important; thus, for all "
 "intents and purposes, it is important.\""
 msgstr ""
+"\"Мнение субъекта относительно важности его личности является "
+"несущественным. Мы считаем личность субъекта важной; таким образом, для "
+"любых намерений и целей важно определить личность\"."
 
 #: 40773
 msgid ""
@@ -91,29 +102,29 @@ msgid ""
 "\"We would identity ourselves as modrons, quadrone type, winged variant, to "
 "the subject, Adahn.\""
 msgstr ""
+"Существо слегка наклоняется вперед, потом назад. Непонятно только, что "
+"означает это движение: поклон или кивок. \"Субъекту Адану мы представимся "
+"как модроны, тип квадрон, крылатый вариант\"."
 
 #: 40774 40782
-#, fuzzy
 msgid "\"I had some questions, now...\""
-msgstr "\"У меня есть несколько вопросов, Гвоздинка...\""
+msgstr "\"У меня есть несколько вопросов...\""
 
 #: 40775 40783
-#, fuzzy
 msgid "\"I'll be taking my leave, now. Farewell.\""
-msgstr "\"Я должен идти, прощай.\""
+msgstr "\"Я уже должен идти. Прощай\"."
 
 #: 40776
 msgid "\"We would know why this is so.\""
-msgstr ""
+msgstr "\"Мы желаем узнать, почему это так\"."
 
 #: 40777
 msgid "\"It's not important, really...\""
-msgstr ""
+msgstr "\"Это не важно, правда...\""
 
 #: 40778
-#, fuzzy
 msgid "\"I don't know, myself. I just can't remember.\""
-msgstr "\"Я не знаю... Не могу вспомнить.\""
+msgstr "\"Я его не знаю. Просто не могу вспомнить\"."
 
 #: 40781
 msgid ""
@@ -122,15 +133,18 @@ msgid ""
 "The creature pauses and blinks at you. \"We would identity ourselves as "
 "modrons, quadrone type, winged variant, to the subject.\""
 msgstr ""
+"\"У всех должно быть имя; каждый должен быть идентифицирован. Мы находим "
+"твой ответ неудовлетворительным, однако на данный момент этого будет "
+"достаточно, - существо умолкает и моргает тебе. - Субъекту мы представляемся "
+"как модроны, тип квадрон, крылатый вариант\"."
 
 #: 40784
 msgid "\"The subject is free to ask a question.\""
-msgstr ""
+msgstr "\"Объект может спрашивать\"."
 
 #: 40785
-#, fuzzy
 msgid "\"Do you know what this little cube-like toy creature is?\""
-msgstr "\"Ты знаешь, где она находится?\""
+msgstr "\"Ты знаешь, что это за маленькое игрушечное существо в форме куба?\""
 
 #: 40786
 msgid "\"What are you doing here?\""
@@ -141,49 +155,47 @@ msgid "\"What can you tell me about this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 40788 68126
-#, fuzzy
 msgid "\"What can you tell me about the silent prostitute?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Что ты можешь рассказать о молчаливой проститутке?\""
 
 #: 40789
 msgid "\"I heard that Kesai-Serris is Ravel's daughter. Is that true?\""
-msgstr ""
+msgstr "\"Я слышал, что Кесай-Серри - дочь Равель. Это правда?\""
 
 #: 40790
-#, fuzzy
 msgid "\"I'm trying find Vivian's scent... do you know where it might be?\""
-msgstr "\"Я ищу потерянный дневник. Ты не знаешь, где я его могу найти?\""
+msgstr "\"Я пытаюсь найти аромат Вивьен... не знаешь, где он может быть?\""
 
 #: 40791
-#, fuzzy
 msgid ""
 "\"I'm trying find Marissa's Crimson Veil... do you know where it might be?\""
-msgstr "\"Я ищу потерянный дневник. Ты не знаешь, где я его могу найти?\""
+msgstr ""
+"\"Я пытаюсь найти малиновую вуаль Мариссы... не знаешь, где она может быть?\""
 
 #: 40792
 #, fuzzy
 msgid "\"Do you know anything about Ravel Puzzlewell?\""
-msgstr "\"А еще что-нибудь ты обо мне знаешь?\""
+msgstr "\"Ты что-нибудь знаешь о Равель Заморочке?\""
 
 #: 40793
 msgid ""
 "\"I've spoken to nine prostitutes altogether... do you know who or where the "
 "tenth student is?\""
 msgstr ""
+"\"Я переговорил со всеми девятью проститутками... ты не знаешь, кто десятая "
+"или где она находится?\""
 
 #: 40794
-#, fuzzy
 msgid "\"Never mind, actually. Farewell.\""
-msgstr "\"Ничего особенного, Нелли. Прощай.\""
+msgstr "\"На самом деле, не важно. Прощай\"."
 
 #: 40795
 msgid "\"Our purpose here is observation.\""
-msgstr ""
+msgstr "\"Наша цель - наблюдение\"."
 
 #: 40796
-#, fuzzy
 msgid "\"What are you observing?\""
-msgstr "\"Что ты делаешь?\""
+msgstr "\"За чем вы наблюдаете?\""
 
 #: 40797 40801 40805 40809 40812 40816 40819 40822 40826 40829 40832 40835
 #: 40838 40844
@@ -192,32 +204,34 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 40798 40802 40806 40810 40813 40817 40820 40823 40827 40830
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 40799
 msgid "\"We are observing one of the establishment's staff.\""
-msgstr ""
+msgstr "\"Мы наблюдаем за одной из служащих этого заведения\"."
 
 #: 40800
 msgid "\"Who are you observing?\""
-msgstr ""
+msgstr "\"За кем вы наблюдаете?\""
 
 #: 40803
 msgid ""
 "\"As previously stated, we are observing one of the establishment's staff.\""
 msgstr ""
+"\"Как было сказано ранее, мы наблюдаем за одной из служащих этого заведения"
+"\"."
 
 #: 40804
 msgid "\"Yes, but who *exactly* are you observing?\""
-msgstr ""
+msgstr "\"Да, но за кем *именно* вы наблюдаете?\""
 
 #: 40807
 msgid "\"The object of our scrutiny is named 'Dolora.'\""
-msgstr ""
+msgstr "\"Объект нашего наблюдения носит имя Долора\"."
 
 #: 40808
 msgid "\"Why are you watching her?\""
-msgstr ""
+msgstr "\"Зачем вы за ней следите?\""
 
 #: 40811
 msgid ""
@@ -226,6 +240,10 @@ msgid ""
 "pentadrone is sufficient reason to perform said task; as such, the purpose "
 "or purposes are irrelevant to us.\""
 msgstr ""
+"\"Нас не проинформировали относительно конкретной цели или целей, которые "
+"послужили причиной получения нами текущего задания. Команда нашего старшего "
+"пентадрона - достаточное основание для выполнения указанного задания; по "
+"сути, эта цель или цели к делу не относятся\"."
 
 #: 40814
 msgid ""
@@ -238,10 +256,18 @@ msgid ""
 "which varies from student to student, become a factotum of the Society of "
 "Sensation.\""
 msgstr ""
+"\"Здание расположено в части Сигила, общеизвестной под названием Чиновничий "
+"район. Мы не можем дать точные координаты, так как поверхность Сигила "
+"меняется через невыясненные пока отрезки времени. Само здание известно под "
+"названием Бордель утоления интеллектуальной страсти. В общих чертах его "
+"можно определить как языковую школу. В школе обучаются преимущественно "
+"женщины, собирающиеся с некоторого момента (который мы не можем определить, "
+"и который колеблется от ученицы к ученице) стать фрактотумами Общества "
+"Восприятия\"."
 
 #: 40815
 msgid "\"The Society of Sensation?\""
-msgstr ""
+msgstr "\"Общество Восприятия?\""
 
 #: 40818
 msgid ""
@@ -249,12 +275,17 @@ msgid ""
 "defined as: a faction whose core belief is that with experience comes true "
 "understanding of the multiverse and its secrets.\""
 msgstr ""
+"\"Мы предоставим краткое определение Общества Воспрития: фракция, чье "
+"фундаментальное убеждение заключается в том, что истинное понимание "
+"мультивселенной и всех ее секретов приходит с опытом\"."
 
 #: 40821
 msgid ""
 "\"The subject referred to is named 'Ecco.' We have gathered no more "
 "information regarding said subject.\""
 msgstr ""
+"\"Упомянутый субъект носит имя Экко. Мы не собрали больше никакой информации "
+"относительно упомянутого субъекта\"."
 
 #: 40824
 msgid ""
@@ -262,10 +293,13 @@ msgid ""
 "to, we would still possess no means of determining whether or not Ravel was "
 "the mother of Kesai.\""
 msgstr ""
+"\"Даже если бы мы могли с уверенностью выдвинуть гипотезу относительно того, "
+"о какой Равель идет речь, мы так или иначе не владеем средствами определения "
+"того, была ли Равель матерью Кесай, или нет\"."
 
 #: 40825
 msgid "\"Which Ravel? There's more than one?\""
-msgstr ""
+msgstr "\"Какая Равель? Их что, несколько?\""
 
 #: 40828
 msgid ""
@@ -275,6 +309,11 @@ msgid ""
 "stands to reason that, at any one moment in time, there would be an infinite "
 "number of beings so named.\""
 msgstr ""
+"\"Мы не способны проверить этот факт, но необходимо учитывать, что 11032 "
+"планов бесконечны по масштабу, и не менее 3701 из них населены разумными "
+"существами, у которых есть собственные имена. Из этого можно сделать вывод, "
+"что в любой момент времени может существовать бесконечное количество существ "
+"с таким именем\"."
 
 #: 40831
 msgid ""
@@ -282,25 +321,29 @@ msgid ""
 "suggest the methodical approach and questioning of each of the inhabitants "
 "of this building.\""
 msgstr ""
+"\"Нет. Если ты еще не занялся этим, мы предлагаем тебе применить "
+"методологический подход и опросить всех обитателей этого здания\"."
 
 #: 40833
 msgid "\"I'll keep asking around, then. Farewell.\""
-msgstr ""
+msgstr "\"Тогда я продолжу расспрашивать. Счастливо\"."
 
 #: 40834
 msgid ""
 "\"We know nothing of any being or object possessing such an appellation.\""
-msgstr ""
+msgstr "\"Мы ничего не знаем о существе или объекте с таким названием\"."
 
 #: 40836 40839 40845
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай.\" "
+msgstr "\"Тогда прощай\" ."
 
 #: 40837
 msgid ""
 "\"We do not. We have not as yet made an effort to catalog each of the "
 "inhabitants of this building, and do not intend to do so at any time.\""
 msgstr ""
+"\"Нет. Мы еще не пытались каталогизировать всех обитателей этого здания, и "
+"не намерены делать это когда-либо\"."
 
 #: 40840
 msgid ""
@@ -310,14 +353,20 @@ msgid ""
 "manner that it will activate. Once activated, the portal cube will transport "
 "the user to whatever destination it was tuned to during its creation.\""
 msgstr ""
+"Модрон - его внешний вид идентичен предмету в твоих руках во всех аспектах, "
+"кроме размера, - моргает раз, потом еще раз, и произносит: \"Этот предмет - "
+"портальный куб. Пользователю необходимо сконфигурировать его конечности "
+"таким образом, чтобы он активизировался. После активизации портальный куб "
+"перенесет пользователя в место, на которое он был настроен в процессе своего "
+"создания\"."
 
 #: 40841
 msgid "\"What's the proper position to activate this one?\""
-msgstr ""
+msgstr "\"И как же его правильно активизировать?\""
 
 #: 40842
 msgid "\"Where will this cube take its user?\""
-msgstr ""
+msgstr "\"И куда же этот куб отправит пользователя?\""
 
 #: 40843
 msgid ""
@@ -328,8 +377,13 @@ msgid ""
 "cube, they will have to determine its method of operation and destination "
 "via experimentation.\""
 msgstr ""
+"\"Мы не располагаем такой информацией. Более девяноста семи процентов всех "
+"портальных кубов имеют небольшие различия в принципе действия. Мы не "
+"присутствовали при создании этого портального куба, и нам не предоставили "
+"инструкций по его использованию. Если субъект изъявляет желание "
+"воспользоваться портальным кубом, ему придется определить способ его "
+"использования и то, куда он ведет, экспериментальным путем\"."
 
 #: 65533
 msgid "\"I'll take my leave, now. Farewell.\""
-msgstr "\"Я должен идти. Прощай.\""
-
+msgstr "\"Я должен идти. Прощай\"."

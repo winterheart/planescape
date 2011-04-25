@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dbrocus2.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:33+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-03-30 22:24+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 3200
@@ -19,44 +19,45 @@ msgid ""
 "met, sir. Might I be so bold as to say, before you ask anything of me, that "
 "I am a patron here, and not one of the students.\""
 msgstr ""
+"Эта немолодо выглядящая знатная женщина приветствует тебя элегантным "
+"реверансом. \"Приветствую, сэр. Прежде чем ты спросишь, позволю себе "
+"заметить, что я - здешний постоянный клиент, а не одна из учениц\"."
 
 #: 3201 40131
-#, fuzzy
 msgid "\"You're a patron?\""
-msgstr "\"Ты - покойник.\""
+msgstr "\"Ты - постоянный клиент?\""
 
 #: 40085
-#, fuzzy
 msgid "\"I see. I had some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Понятно. У меня были некоторые вопросы...\""
 
 #: 40086
-#, fuzzy
 msgid "\"I was only passing by, actually. Farewell.\""
-msgstr "\"Я просто проходил мимо. Прощай.\""
+msgstr "\"Вообще-то, я просто проходил мимо. Прощай\"."
 
 #: 40087
 msgid ""
 "The noblewoman curtseys gracefully as you approach her. \"Well met once "
 "more, sir.\""
 msgstr ""
+"Когда ты подходишь, знатная женщина грациозно приседает в реверансе. \"Рада "
+"снова вас видеть, сэр\"."
 
 #: 40088
-#, fuzzy
 msgid "\"Yes, greetings. I had some questions...\""
-msgstr "\"Да, сказал. У меня есть некоторые вопросы...\""
+msgstr "\"Да, приветствую. У меня есть некоторые вопросы...\""
 
 #: 40089
 msgid "\"Well met. I was just passing by. Farewell.\""
-msgstr ""
+msgstr "\"Приветствую. Я просто проходил мимо. Счастливо\"."
 
 #: 40090
 msgid "The woman nods. \"Of course.\""
-msgstr ""
+msgstr "Женщина кивает. \"Конечно\"."
 
 #: 40091
 msgid "\"You had said you're patron, here?\""
-msgstr ""
+msgstr "\"Ты упомянула, что ты здесь постоянная клиентка?\""
 
 #: 40092
 msgid "\"What are you doing here?\""
@@ -67,40 +68,38 @@ msgid "\"What can you tell me about this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 40094
-#, fuzzy
 msgid "\"What can you tell me about the silent prostitute?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Что ты можешь рассказать о молчаливой проститутке?\""
 
 #: 40095 40136
 msgid "\"I heard that Kesai-Serris is Ravel's daughter. Is that true?\""
-msgstr ""
+msgstr "\"Я слышал, что Кесай-Серри - дочь Равель. Это правда?\""
 
 #: 40096
-#, fuzzy
 msgid "\"I'm trying find Vivian's scent... do you know where it might be?\""
-msgstr "\"Я ищу потерянный дневник. Ты не знаешь, где я его могу найти?\""
+msgstr "\"Я пытаюсь найти аромат Вивьен... не знаешь, где он может быть?\""
 
 #: 40097
-#, fuzzy
 msgid ""
 "\"I'm trying find Marissa's Crimson Veil... do you know where it might be?\""
-msgstr "\"Я ищу потерянный дневник. Ты не знаешь, где я его могу найти?\""
+msgstr ""
+"\"Я пытаюсь найти малиновую вуаль Мариссы... не знаешь, где она может быть?\""
 
 #: 40098
-#, fuzzy
 msgid "\"Do you know anything about Ravel Puzzlewell?\""
-msgstr "\"А еще что-нибудь ты обо мне знаешь?\""
+msgstr "\"Ты что-нибудь знаешь о Равель Заморочке?\""
 
 #: 40099
 msgid ""
 "\"I've spoken to nine prostitutes altogether... do you know who or where the "
 "tenth student is?\""
 msgstr ""
+"\"Я переговорил со всеми девятью проститутками... ты не знаешь, кто десятая "
+"или где она находится?\""
 
 #: 40100
-#, fuzzy
 msgid "\"Never mind, actually. Farewell.\""
-msgstr "\"Ничего особенного, Нелли. Прощай.\""
+msgstr "\"Вообще-то, неважно. Прощай\"."
 
 #: 40101
 msgid ""
@@ -109,15 +108,19 @@ msgid ""
 "fast friends with a number of the prostitutes, and so here I am! It's not "
 "only for men to enjoy a good conversation, you know.\""
 msgstr ""
+"Она кивает. \"Все верно, юный господин. Однажды вечером я пришла сюда, чтобы "
+"собственными глазами посмотреть, по какой причине мой муж наносит сюда "
+"постоянные визиты... Я быстро подружилась со многими проститутками, и вот я "
+"здесь! Знаешь ли, наслаждаться добротной беседой - удовольствие не только "
+"для мужчин\"."
 
 #: 40102
-#, fuzzy
 msgid "\"True enough. I had another question...\""
-msgstr "\"Достаточно. У меня есть другие вопросы...\""
+msgstr "\"Совершенно верно. У меня еще вопрос...\""
 
 #: 40103
 msgid "\"I suppose so. In any case, farewell.\""
-msgstr ""
+msgstr "\"Наверное. Так или иначе, прощай\"."
 
 #: 40104
 msgid ""
@@ -126,16 +129,18 @@ msgid ""
 "and communication. If what I have been told is correct, the Brothel supports "
 "itself with donations from its wealthier patrons.\""
 msgstr ""
+"\"Бордель - это школа, основанная Падшей Грацией... она обучает будущих "
+"членов Общества Восприятия тонкому искусству речи и общения. Если то, что я "
+"слышала, правда, то Бордель содержится на средства его более обеспеченных "
+"клиентов\"."
 
 #: 40105
-#, fuzzy
 msgid "\"Fall-From-Grace?\""
 msgstr "\"Падшая Грация?\""
 
 #: 40106
-#, fuzzy
 msgid "\"Tell me about the Society of Sensation.\""
-msgstr "\"Расскажи мне об Аллее.\""
+msgstr "\"Расскажи мне об Обществе Восприятия\"."
 
 #: 40107 40110 40113 40116 40119 40122 40125 40128 40133 40137 40140
 msgid "\"I had another question...\""
@@ -143,7 +148,7 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 40108 40111 40114 40117 40120 40123 40126 40129 40134 40138 40141
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 40109
 msgid ""
@@ -154,6 +159,12 @@ msgid ""
 "then turn left again. You'll find many willing to speak of the Society of "
 "Sensation, there.\""
 msgstr ""
+"Женщина бросает на тебя странный взгляд, но лишь ненадолго. \"Ты, конечно, "
+"уже слышал о них раньше, да? О Чувствующих? Они - фракция, верящая, что "
+"переживания являются ключом к пониманию мультивселенной. Штаб-квартира их "
+"фракции, Городская ратуша, находится неподалеку... выйди отсюда, поверни "
+"налево, потом еще раз налево. Там ты найдешь многих желающих поговорить об "
+"Обществе Восприятия\"."
 
 #: 40112
 msgid ""
@@ -161,6 +172,8 @@ msgid ""
 "she cannot communicate, and so I have never take it upon myself to try and "
 "speak with her.\""
 msgstr ""
+"\"Я ее не знаю... и не могу вспомнит ее имя. Мне сказали, что она не может "
+"говорить, так что я никогда и не пыталась заговорить с ней\"."
 
 #: 40115
 msgid ""
@@ -168,6 +181,9 @@ msgid ""
 "mother. Kesai herself told me she was an orphan, though; that her father, a "
 "half-fiend, left her to be raised here, in Sigil.\""
 msgstr ""
+"\"Равель? Я не знаю никого по имени Равель, тем более что она - мать Кесай. "
+"Ведь сама Кесай мне говорила, что она - сирота, и что ее отец, полудемон, "
+"оставил ее на воспитание здесь, в Сигиле\"."
 
 #: 40118
 msgid ""
@@ -175,6 +191,9 @@ msgid ""
 "most upset! I would be most pleased to see it returned to her, for she "
 "speaks of little else these days.\""
 msgstr ""
+"\"Нет. Хотя в последнее время Вивьен об этом постоянно упоминает - она ведь "
+"так расстроена! Я была бы очень рада, если бы ей его вернули - она теперь "
+"почти ни о чем другом не говорит\"."
 
 #: 40121
 msgid ""
@@ -182,12 +201,17 @@ msgid ""
 "unpleasant disposition, has she! As for that veil of hers, no... I know "
 "nothing of it.\""
 msgstr ""
+"Женщина резко нахмуривается. \"О, мне нет дела до Мариссы... какой же у нее "
+"неприятный характер! Что касается ее вуали, то нет... я ничего об этом не "
+"знаю\"."
 
 #: 40124
 msgid ""
 "\"Ravel... Puzzlewell...\" She says the name slowly, as if never having "
 "spoken it before. \"I must confess I do not.\""
 msgstr ""
+"\"Равель... Заморочка... - она медленно произносит это имя, будто никогда "
+"раньше не произносила его. - Должна признаться - не знаю\"."
 
 #: 40127
 msgid ""
@@ -195,16 +219,21 @@ msgid ""
 "I've spoken to them all. Perhaps there is a new girl, who I have not met, "
 "yet...?\""
 msgstr ""
+"\"Я знаю только девятерых проституток... и я точно уверена, что я со всеми "
+"ими разговаривала. Возможно, появилась новая девочка, с которой я еще "
+"незнакома?..\""
 
 #: 40130
 msgid ""
 "\"Stopping by to speak with some friends here, is all. I am one of the few "
 "female patrons of the Brothel of Slating Intellectual Lusts.\""
 msgstr ""
+"\"Заглядываю сюда, чтобы поболтать с подругами, вот и все. Я - одна из "
+"немногих женщин, посещающих Бордель утоления интеллектуальной страсти\"."
 
 #: 40132
 msgid "\"Anyone you'd recommend I speak to?\""
-msgstr ""
+msgstr "\"Можешь порекомендовать, с кем бы мне поболтать?\""
 
 #: 40135
 msgid ""
@@ -212,6 +241,9 @@ msgid ""
 "Myself - well, I am friends with Vivian and Kesai-Serris, and occasionally "
 "chat a bit with that dear little sunfly, Nenny.\""
 msgstr ""
+"\"Зависит от того, с каким человеком ты желаешь побеседовать. Что касается "
+"меня - ну, я дружу с Вивьен и Кесай-Серри, а также изредка перекидываюсь "
+"парой слов с этой милой мушкой Ненни\"."
 
 #: 40139
 msgid ""
@@ -219,4 +251,5 @@ msgid ""
 "patrons in the Brothel's foyer... you might seek her out there, should you "
 "wish to speak with her.\""
 msgstr ""
-
+"\"Да... проститутки зовут ее госпожой Грацией. Обычно она встречает клиентов "
+"в фойе Борделя... ты можешь найти ее там, если захочешь с ней пообщаться\"."
