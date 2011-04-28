@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmontagu.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:35+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-03-23 00:09+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 43991
@@ -18,21 +18,24 @@ msgid ""
 "This handsome young man seems lost in thought, his brow furrowed and slight "
 "frown upon his lips."
 msgstr ""
+"Этот статный юноша, похоже, погружен в собственные мысли. Лоб его нахмурен, "
+"а губы слегка изогнуты."
 
 #: 43992
 msgid "\"Greetings...\""
 msgstr "\"Приветствую...\""
 
 #: 43993
-#, fuzzy
 msgid "Leave him to his thoughts."
-msgstr "Оставить его в раздумьях."
+msgstr "Оставить его наедине со своими мыслями."
 
 #: 43994
 msgid ""
 "This young man still seems troubled. He greets you as you approach. \"Once "
 "more I extend to thee my greetings. There is something thou wished of me?\""
 msgstr ""
+"Этот юноша все еще имеет озабоченный вид. Он приветствует тебя, когда ты "
+"подходишь. \"И вновь приветствую. Ты чего-нибудь хочешь от меня?\""
 
 #: 43995 43998 44058 44061
 msgid "\"I had some questions...\""
@@ -44,7 +47,7 @@ msgstr "\"Ничего, неважно. Прощай\"."
 
 #: 43997
 msgid "\"And to thee, sir, hail. What dost thou wish of me?\""
-msgstr ""
+msgstr "\"Приветствую, сэр. Чего же ты жаждешь от меня?\""
 
 #: 44000
 msgid "\"Yes?\""
@@ -59,35 +62,32 @@ msgid "\"Who are you again?\""
 msgstr "\"Еще раз, кто ты?\""
 
 #: 44003 44004 66156 66157
-#, fuzzy
 msgid "\"I need to speak with you about Juliette.\""
-msgstr "\"Позволь мне спросить кое о чем еще...\""
+msgstr "\"Мне нужно поговорить с тобой о Джульетте\"."
 
 #: 44005
 msgid "\"What are you doing here?\""
 msgstr "\"Что ты здесь делаешь?\""
 
 #: 44006
-#, fuzzy
 msgid "\"I had some questions about this place...\""
-msgstr "\"У меня вопрос насчет Перемирия со Смертью...\""
+msgstr "\"У меня несколько вопросов об этом месте...\""
 
 #: 44007
-#, fuzzy
 msgid "\"What do you know of Ravel Puzzlewell?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Ты что-нибудь знаешь о Равель Заморочке?\""
 
 #: 44009
 msgid "\"I am named Montague, factotum of the Sensates.\""
-msgstr ""
+msgstr "\"Я - Монтекки, фрактотум Чувствующих\"."
 
 #: 44010
 msgid "\"Factotum?\""
-msgstr ""
+msgstr "\"Фрактотум?\""
 
 #: 44011
 msgid "\"The Sensates?\""
-msgstr ""
+msgstr "\"Чувствующих?\""
 
 #: 44012 44017 44020 44141 44144
 msgid "\"I had other questions...\""
@@ -99,7 +99,7 @@ msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 44014
 msgid "\"Verily, sir. A 'member,' if thou like.\""
-msgstr ""
+msgstr "\"Истинно так, сэр. \"Представитель\", если соизволишь\"."
 
 #: 44015
 msgid ""
@@ -107,14 +107,17 @@ msgid ""
 "largest. Shouldst thou wish to learn more of the Sensates, speak with "
 "Splinter. Thou shall find him just inside the entrance to this building.\""
 msgstr ""
+"\"Истинно так, сэр... Общество Восприятия. Сигильская фракция... самая "
+"крупная. Если желаешь разузнать о Чувствующих побольше, поговори со "
+"Сплинтером. Ты найдешь его внутри прямо у входа в это здание\"."
 
 #: 44016
 msgid "\"You had said 'Sensates?'\""
-msgstr ""
+msgstr "\"Ты упомянул Чувствующих?\""
 
 #: 44019
 msgid "\"Did you say 'factotum?'\""
-msgstr ""
+msgstr "\"Ты сказал \"фрактотум\"?\""
 
 #: 44022
 msgid ""
@@ -122,52 +125,53 @@ msgid ""
 "more often now than the past, I find myself perplexed by one of life's "
 "strange ways.\""
 msgstr ""
+"\"Я состою на службе помощником одного из управителей фракции. Однако "
+"намного чаще, чем раньше, я пребываю в недоумении от этих странных поворотов "
+"судьбы\"."
 
 #: 44023
-#, fuzzy
 msgid "\"Such as...?\""
-msgstr "\"Это?..\""
+msgstr "\"Например?..\""
 
 #: 44024
 msgid "\"Problems of the feminine variety.\""
-msgstr ""
+msgstr "\"Проблем женского характера\"."
 
 #: 44025 44029
 msgid "\"I see. I had other questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня еще вопросы...\""
 
 #: 44027 44032
-#, fuzzy
 msgid "\"What's the problem, exactly?\""
-msgstr "\"Так кто же ты?\""
+msgstr "\"А в чем, собственно, проблема?\""
 
 #: 44028
 msgid "\"You're a female?\""
-msgstr ""
+msgstr "\"Ты женщина?\""
 
 #: 44031
 msgid "The young man gives you a long look. \"Nay.\""
-msgstr ""
+msgstr "Юноша надолго задерживает на тебе взгляд. \"Нисколько\"."
 
 #: 44033
-#, fuzzy
 msgid "\"In any case, I had other questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Так или иначе, у меня есть другие вопросы...\""
 
 #: 44035
 msgid ""
 "\"I don't know what's bothering her. I have tried to cheer her up. I don't "
 "know what could be the matter.\""
 msgstr ""
+"\"Я не понимаю, что ее беспокоит. Я пытался развеселить ее. Ума не приложу, "
+"в чем тут может быть дело\"."
 
 #: 44036
 msgid "\"How are things between you two?\""
-msgstr ""
+msgstr "\"Как у вас двоих дела?\""
 
 #: 44037
-#, fuzzy
 msgid "\"That's too bad. I had other questions...\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Очень жаль. У меня есть другие вопросы...\""
 
 #: 44038
 msgid "\"Good luck. Farewell.\""
@@ -180,38 +184,42 @@ msgid ""
 "than satisfied with our potential union, and her siblings love me. There is "
 "nothing wrong.\""
 msgstr ""
+"\"Не считая этой череды досад и банальностей, все просто великолепно! Все, "
+"что вращается вокруг нас, навеивает такое спокойствие... наши семьи более "
+"чем удовлетворены нашим будущим союзом, ее родственники обожают меня. Все "
+"так, как и должно быть\"."
 
 #: 44040
 msgid "\"Hmm. Perhaps that's the problem: no problems.\""
-msgstr ""
+msgstr "\"Хмм. Возможно, в том то и проблема, что проблемы отсутствуют\"."
 
 #: 44041
-#, fuzzy
 msgid "\"That's too bad. I had other questions..\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Очень жаль. У меня есть другие вопросы...\""
 
 #: 44042
 msgid "\"I hope it works out. Farewell.\""
-msgstr ""
+msgstr "\"Надеюсь, у вас все образуется. Счастливо\"."
 
 #: 44043
 msgid ""
 "\"How dost thou mean that no problems are problems? 'Tis my desire that thou "
 "speak plainly, sir.\""
 msgstr ""
+"\"Что ты подразумеваешь под тем, что отсутствие проблем - это проблема? "
+"Прошу изъясняться яснее, сэр\"."
 
 #: 44045
 msgid "\"Perhaps she wants a little more spice in your relationship.\""
-msgstr ""
+msgstr "\"Наверно, она хочет внести немного разнообразия в ваши отношения\"."
 
 #: 44046
-#, fuzzy
 msgid "\"Never mind, I had other questions...\""
 msgstr "\"Неважно. У меня есть другие вопросы...\""
 
 #: 44047
 msgid "\"Forget it. Farewell.\""
-msgstr "\"Забудь. Прощай\"."
+msgstr "\"Забудь. Счастливо\"."
 
 #: 44048
 msgid ""
@@ -220,102 +228,111 @@ msgid ""
 "that seem to unfold all in young love. I call thee out, sir, and I call thee "
 "a recreant knave and a fool!\""
 msgstr ""
+"\"Откуда тебе известно, чего она желает?! - он начинает закипать. - Мы любим "
+"друг друга, не взирая на все обстоятельства, без всей этой мишуры, которой "
+"так полна незрелая любовь. Ты - мошенник и глупец, и я вызываю тебя на дуэль!"
+"\""
 
 #: 44049
 msgid "\"Hold there... calm yourself.\""
-msgstr ""
+msgstr "\"Погоди-ка... успокойся\"."
 
 #: 44050
 msgid "\"You're a fool to seek a fight with me, but I'll give it to you...\""
 msgstr ""
+"\"Ты глупец, раз ввязываешься в драку со мной, однако я тебе преподам урок..."
+"\""
 
 #: 44051
 msgid "\"That's enough insults for now, boy. I had other questions...\""
-msgstr ""
+msgstr "\"Довольно оскорблений, парень. У меня другие вопросы...\""
 
 #: 44052
 msgid ""
 "\"Watch your tongue, or you'll find it torn from your mouth. Farewell.\""
-msgstr ""
+msgstr "\"Придержи язык, не то я вырву его. Прощай\"."
 
 #: 44053
 msgid ""
 "\"I am sorry... 'twas the fury of the moment that caused me to speak so. I "
 "tender my apologies to thee and thine, good sir.\""
 msgstr ""
+"\"Прости меня... Мимолетная ярость заставила меня говорить подобным образом. "
+"Приношу свои глубочайшие извинения, сударь\"."
 
 #: 44054
 msgid "\"Think nothing of it. It's no matter.\""
-msgstr ""
+msgstr "\"Забудь об этом. Пустяки\"."
 
 #: 44055
 msgid ""
 "\"Just watch yourself. Fighting me might have been the worst mistake you've "
 "ever made.\""
 msgstr ""
+"\"Просто следи за собой. Драка со мной могла стать самой страшной ошибкой в "
+"твоей жизни\"."
 
 #: 44056
-#, fuzzy
 msgid "Ignore him and walk away."
-msgstr "Не обращать внимания на его угрозы и уйти."
+msgstr "Не обращать на его внимания и уйти."
 
 #: 44057
 msgid "\"Thou art indeed gracious, sir.\""
-msgstr ""
+msgstr "\"Ты воистину милосерден\"."
 
 #: 44059 44062 44096 44098 44109 44111
-#, fuzzy
 msgid "\"I'll take my leave, now. Farewell.\""
-msgstr "\"Я должен идти, прощай\"."
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 44060
 msgid "\"Then watch myself I shall, sir.\""
-msgstr ""
+msgstr "\"В таком случае, я буду следить за собой, сэр\"."
 
 #: 44063
 msgid "\"Oh?\" He gives you a puzzled, slightly suspicious look."
-msgstr ""
+msgstr "\"А?\" Он смотрит на тебя озадаченно, даже слегка подозрительно."
 
 #: 44064
 msgid ""
 "\"I overheard her speaking at the Brothel. She's having an affair, you know."
 "\""
-msgstr ""
+msgstr "\"Я подслушал ее разговор в Борделе. Представляешь: у нее роман\"."
 
 #: 44065
 msgid ""
 "\"I demand her love. And I demand that you withdraw your false protestations "
 "of love before I mash you into tiny bits.\""
 msgstr ""
+"\"Мне нужна ее любовь. И я требую, чтобы ты забрал назад свои лживые "
+"признания в любви, пока я не порубил тебя на мелкие кусочки\"."
 
 #: 44066
-#, fuzzy
 msgid "\"Never mind that, actually. I had some questions...\""
-msgstr ""
-"\"Не обращай на нее внимания, Гвоздинка. У меня есть несколько вопросов...\""
+msgstr "\"В принципе, это не важно. У меня есть несколько вопросов...\""
 
 #: 44067
 msgid "\"We'll speak of her later, though. Farewell.\""
-msgstr ""
+msgstr "\"Тогда поговорим о ней позже. Счастливо\"."
 
 #: 44068
 msgid ""
 "\"Thou speak falsely. I would have thee present me proof, before I took thy "
 "claim as true.\""
 msgstr ""
+"\"Ты лжешь. Тебе придется представить мне доказательства, прежде чем я "
+"поверю в твои заявления\"."
 
 #: 44069
 msgid "\"I also found these letters... here, read them.\""
-msgstr ""
+msgstr "\"Еще я нашел эти письма... на, почитай\"."
 
 #: 44070
 msgid "Lie: \"I... saw her reading letters from him.\""
-msgstr ""
+msgstr "Ложь: \"Я... видел, как она читала письма от него\"."
 
 #: 44071
-#, fuzzy
 msgid "\"We'll speak of it later. Farewell.\""
-msgstr "\"Я не буду об этом говорить. Прощай\"."
+msgstr "\"Поговорим об этом позже. Прощай\"."
 
 #: 44072
 msgid ""
@@ -324,9 +341,11 @@ msgid ""
 "appraisal of the situation. Were thou to bring me these letters, I would "
 "speak to thee of the matter once more.\""
 msgstr ""
+"\"Нет. Я отказываюсь принимать на веру обвинения... Я должен почувствовать "
+"вес этих писем в своей руке, прежде чем я дам оценку данной ситуации. Как "
+"только ты принесешь мне эти письма, мы продолжим разговор\"."
 
 #: 44073
-#, fuzzy
 msgid "\"I'll return when I have them. Farewell.\""
 msgstr "\"Я вернусь, как только их найду. Прощай\"."
 
@@ -337,23 +356,26 @@ msgid ""
 "think. I shall move on to another love and let this other suitor have her, "
 "considering the passion of his words.\""
 msgstr ""
+"Он берет письма и перечитывает их. \"Увы! Это правда! Она нашла себе "
+"другого, который искренне любит ее. Ах, видимо, таков удел Чувствующих - "
+"испытывать душевные страдания. Принимая во внимание всю пылкость его слов, я "
+"обязан найти себе другую и отдать ее этому ее поклоннику\"."
 
 #: 44075
 msgid "\"Wait - this was all a ruse.\""
-msgstr ""
+msgstr "\"Погоди... это всего лишь розыгрыш\"."
 
 #: 44076
-#, fuzzy
 msgid "\"I wish you luck, then. Farewell.\""
-msgstr "\"Желаю тебе удачи. Прощай\"."
+msgstr "\"В таком случае, желаю тебе удачи. Прощай\"."
 
 #: 44077
 msgid "\"Eh? What is this thou speak of?\""
-msgstr ""
+msgstr "\"Что? О чем это ты говоришь?\""
 
 #: 44078
 msgid "\"She's trying to trick you into being more passionate.\""
-msgstr ""
+msgstr "\"Она пытается таким образом разбудить в тебе страсть\"."
 
 #: 44079 44132
 msgid "\"Never mind... farewell.\""
@@ -361,59 +383,60 @@ msgstr "\"Неважно... Прощай\"."
 
 #: 44080
 msgid "\"And why did she not simply say something?\""
-msgstr ""
+msgstr "\"Но почему она просто не сказала мне?\""
 
 #: 44081
 msgid "\"I don't think it really occurred to her.\""
-msgstr ""
+msgstr "\"Не думаю, что ей это могло прийти в голову\"."
 
 #: 44082
 msgid "\"This way may have been easier for her.\""
-msgstr ""
+msgstr "\"Так для нее, наверное, проще\"."
 
 #: 44083
 msgid "\"Apparently not. So what should be done?\""
-msgstr ""
+msgstr "\"Видимо, нет. Так что же делать?\""
 
 #: 44084 44085 44120 44121 44134 44135
 msgid "\"Turnabout is fair play...\""
-msgstr ""
+msgstr "\"Отплати ей той же монетой...\""
 
 #: 44086 44122 44136
-#, fuzzy
 msgid "\"Nothing, I think.\""
-msgstr "\"Спасибо, не сегодня\"."
+msgstr "\"Думаю, ничего\"."
 
 #: 44087
 msgid "\"Very well. I shall hold off, then, on making a response.\""
 msgstr ""
+"\"Отлично. В таком случае, мне нужно задержаться и подготовить ответ\"."
 
 #: 44088
 msgid "\"I hope you can work it out. Farewell.\""
-msgstr ""
+msgstr "\"Надеюсь, ты сможешь все уладить. Прощай\"."
 
 #: 44089
 msgid "\"Whatever you like. Farewell.\""
-msgstr ""
+msgstr "\"Как пожелаешь. Счастливо\"."
 
 #: 44090
 msgid "\"How should I do so, sir?\""
-msgstr ""
+msgstr "\"Как мне поступить, сэр?\""
 
 #: 44091 44113
 msgid ""
 "\"Say that you're bored with the relationship - that she's not interesting "
 "enough anymore.\""
 msgstr ""
+"\"Скажи, что ты устал от ваших с ней отношений, что она тебе больше не "
+"интересна\"."
 
 #: 44092 44114
 msgid "\"Say that you're having an affair.\""
-msgstr ""
+msgstr "\"Скажи, что у тебя роман\"."
 
 #: 44093 44101 44115
-#, fuzzy
 msgid "\"I'm not sure. You should decide.\""
-msgstr "\"Я не уверен. Прощай\"."
+msgstr "\"Не уверен. Тебе решать\"."
 
 #: 44094
 msgid ""
@@ -421,11 +444,13 @@ msgid ""
 "interest. Assuredly, that is irony. I shall agree to what thou suggest and "
 "observe the results.\""
 msgstr ""
+"\"Говоришь, я должен притворится безразличным, чтобы подогреть ее интерес. "
+"Как иронично. Пожалуй, я приму твое предложение и просмотрю, что из этого "
+"выйдет\"."
 
 #: 44095 44097 44108 44110
-#, fuzzy
 msgid "\"Good luck - I hope it works out. Farewell.\""
-msgstr "\"Удачи. Прощай\"."
+msgstr "\"Удачи... Надеюсь, это сработает. Счастливо\"."
 
 #: 44099
 msgid ""
@@ -433,57 +458,61 @@ msgid ""
 "our relationship and fight to keep it. It shall be done. How shall it be "
 "committed?\""
 msgstr ""
+"\"Подобный совет может быть опасен, но это, вне всякого сомнения, заставит "
+"ее пересмотреть наши отношения и попытаться сохранить их. Да будет так. "
+"Каким образом это можно осуществить?\""
 
 #: 44100
 msgid "\"I'll handle it. I'll say that I found you with another woman.\""
-msgstr ""
+msgstr "\"Я это улажу. Я скажу, что застал тебя с другой женщиной\"."
 
 #: 44102
 msgid "\"All right, then. It shall be as thou say.\""
-msgstr ""
+msgstr "\"Тогда хорошо. Пускай будет по-твоему\"."
 
 #: 44103
 msgid "\"On second thought, I'd best let you handle it.\""
-msgstr ""
+msgstr "\"Хотя, если подумать, мне лучше дать тебе самому это уладить\"."
 
 #: 44104 44105
-#, fuzzy
 msgid "\"I'll be sure to tell her when we next meet. Farewell.\""
-msgstr "\"Я вернусь, как только их найду. Прощай\"."
+msgstr "\"Я обязательно скажу ей это при следующей встрече. Прощай\"."
 
 #: 44106
 msgid "\"Truly?\""
-msgstr ""
+msgstr "\"В самом деле?\""
 
 #: 44107
 msgid "\"Aye, I like the sound of that very much.\""
-msgstr ""
+msgstr "\"Да, мне это очень даже нравится\"."
 
 #: 44112
 msgid "\"All right... then what, sir?\""
-msgstr ""
+msgstr "\"Ладно... что тогда, сэр?\""
 
 #: 44116
 msgid "\"But... I had thought we could talk about everything.\""
-msgstr ""
+msgstr "\"Но... я подумал, что мы можем говорить о чем угодно\"."
 
 #: 44117
 msgid ""
 "\"Perhaps this was something that, by its very nature, could not be spoken "
 "about.\""
 msgstr ""
+"\"Пожалуй, это именно то, что по своей сути не следовало бы обсуждать вообще"
+"\"."
 
 #: 44118
 msgid "\"You may have been mistaken.\""
-msgstr ""
+msgstr "\"Ты, наверно, ошибся\"."
 
 #: 44119
 msgid "\"What wouldst thou recommend me do, sir?\""
-msgstr ""
+msgstr "\"Как же мне поступить, сэр?\""
 
 #: 44123
 msgid "\"Thou love her so that thou wouldst fight me?\""
-msgstr ""
+msgstr "\"Ты любишь ее настолько, что будешь драться со мной?\""
 
 #: 44124
 msgid "\"Yes.\""
@@ -491,7 +520,7 @@ msgstr "\"Да\"."
 
 #: 44125
 msgid "\"No, I don't love her - but I'll fight for her.\""
-msgstr ""
+msgstr "\"Нет, я ее не люблю, но буду за нее драться\"."
 
 #: 44126
 msgid ""
@@ -500,24 +529,26 @@ msgid ""
 "as thine. I shall from this moment onward hold no claim on her; thou may do "
 "as thou wish.\""
 msgstr ""
+"Он некоторое время изучает тебя. \"Вижу, ты относишься к этому делу со всей "
+"страстью. А страсть появляется из любви. Ты любишь ее, и я не вправе лишать "
+"ей такой любви. Отныне я отказываюсь от притязаний на нее; поступай, как ты "
+"того пожелаешь\"."
 
 #: 44127 44138
-#, fuzzy
 msgid "\"Hold a moment... this was all a ruse.\""
-msgstr "\"Секундочку. Я хочу кое-что взамен\"."
+msgstr "\"Секундочку... это все было розыгрышем\"."
 
 #: 44128 44139
-#, fuzzy
 msgid "\"Eh... all right, then. Farewell.\""
-msgstr "\"Хорошо. Прощай\"."
+msgstr "\"Э... тогда ладно. Прощай\"."
 
 #: 44130
 msgid "\"A ruse? Of what sort?\""
-msgstr ""
+msgstr "\"Розыгрыш? В каком смысле?\""
 
 #: 44131
 msgid "\"She wanted to provoke you into fighting for her.\""
-msgstr ""
+msgstr "\"Она хотела подтолкнуть тебя на драку за нее\"."
 
 #: 44133
 msgid ""
@@ -525,6 +556,10 @@ msgid ""
 "with a brutally-scarred man of thy stature? Perhaps she thinks my devotion "
 "to her a little high. So... what should be done about this ruse?\""
 msgstr ""
+"\"Да? Неужели она думает, что моя любовь столь безгранична, что я ввяжусь в "
+"драку с обезображенным шрамами человеком, имеющим твое телосложение? "
+"Вероятно, она слегка переоценила мою преданность к ней. Итак... как мы "
+"поступим с этим розыгрышем?\""
 
 #: 44137
 msgid ""
@@ -534,12 +569,19 @@ msgid ""
 "greatness. I shall from this moment onward hold no claim on her; thou may do "
 "as thou wish.\""
 msgstr ""
+"\"Ах, но ты же понимаешь... вот она - страсть. А страсть происходит из "
+"любви. Ты любишь ее, и я не в праве лишать ей такой любви. Мне ли не знать "
+"ее красоты, ее сдержанности, ее добродетели, мне ли не знать ее способности "
+"побуждать мужчин к великим свершениям. Отныне я отказываюсь от притязаний на "
+"нее; поступай, как ты того пожелаешь\"."
 
 #: 44140
 msgid ""
 "\"The Civic Festhall? Thou wouldst do well to speak with Splinter, just "
 "inside the entrance to this building.\""
 msgstr ""
+"\"О Городской ратуше? Тебе следует поговорить об этом со Сплинтером. Он "
+"стоит прямо у входа в это здание со внутренней стороны\"."
 
 #: 44143
 msgid ""
@@ -547,6 +589,9 @@ msgid ""
 "is most knowledgeable regarding such things. He is within the Festhall, "
 "though where, I do not know.\""
 msgstr ""
+"\"Хмм... легендарая ночная ведьма, нет? Тебе следует поговорить со Келлом - "
+"он наиболее просвещен в такого рода вещах. Он в Ратуше, хотя где - мне не "
+"ведомо\"."
 
 #: 44146
 msgid ""
@@ -554,6 +599,9 @@ msgid ""
 "should we meet again, we might speak more of the matter.\" Montague bows and "
 "turns to go."
 msgstr ""
+"\"И тебе доброго пути. А теперь мне нужно кое-чем заняться; если нам будет "
+"суждено встретиться вновь, мы продолжим наш разговор\". Монтекки отвешивает "
+"поклон и поворачивается, чтобы уйти."
 
 #: 44147
 msgid "Leave."
@@ -561,8 +609,8 @@ msgstr "Уйти."
 
 #: 52994 52995
 msgid "\"Montague... I need to speak with you about Juliette.\""
-msgstr ""
+msgstr "\"Монтекки... Мне нужно поговорить с тобой о Джульетте\"."
 
 #: 66152 66153 66154 66155 66158 66159
 msgid "\"Are you Montague? I need to speak with you about Juliette.\""
-msgstr ""
+msgstr "\"Ты Монтекки? Мне нужно поговорить с тобой о Джульетте\"."

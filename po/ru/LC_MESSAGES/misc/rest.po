@@ -1,22 +1,21 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2011-04-14 09:35+0600\n"
+"PO-Revision-Date: 2010-11-01 02:08+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
-"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 30 1773
 msgid "Lockpicks"
-msgstr "Отмычки"
+msgstr ""
 
 #: 120
 msgid ""
@@ -476,9 +475,9 @@ msgstr ""
 "ЧЕРЕП-КУЛОН\n"
 "Вес: 1\n"
 "\n"
-"Этот необычный кулон в форме черепа сделан из какого-то серебристого металла."
-" Череп окружают шесть кристаллов, образуя нечто вроде короны. Через глазок "
-"над черепом продет кожаный шнурок."
+"Этот необычный кулон в форме черепа сделан из какого-то серебристого "
+"металла. Череп окружают шесть кристаллов, образуя нечто вроде короны. Через "
+"глазок над черепом продет кожаный шнурок."
 
 #: 3063
 msgid ""
@@ -1414,10 +1413,6 @@ msgid ""
 "their misshapen teeth. They are warriors, and find no greater joy than in "
 "bloodshed. It is probably best to avoid angering them."
 msgstr ""
-"Токола - это неповоротливые и здоровенные гуманоиды. Их тела почти полностью "
-"покрыты коричневой шерстью, выступающая челюсть почти не скрывает уродливых "
-"зубов. Они - воины, для них нет ничего лучше славной потасовки. Лучше их не "
-"выводить из себя."
 
 #: 3647
 msgid ""
@@ -8633,6 +8628,8 @@ msgid ""
 "\"Wait... the reward's fine, but what about the cost of the Deva's Tears? I "
 "paid nine hundred and ninety-nine coins for them, you know.\""
 msgstr ""
+"\"Постой... этого достаточно для вознаграждения, но как на счет стоимости "
+"слез дэва? Знаешь ли, я заплатил за них девятсот девяносто девять монет\"."
 
 #: 38586
 msgid "It is too dangerous to rest here."
@@ -9933,7 +9930,7 @@ msgstr "Характеристики персонажа"
 
 #: 48877
 msgid "Center Character"
-msgstr "Центрировать на персонаже"
+msgstr ""
 
 #: 48878
 msgid "Action Menu"
@@ -12212,9 +12209,6 @@ msgid ""
 "speak to Norochj -- also in the Gathering Dust bar -- and do what he asks of "
 "me."
 msgstr ""
-"В рамках вступления в фракцию Тленных Эморик попросил меня переговорить с "
-"Норочжем (он тоже находится в Баре Собирателей Пыли) и сделать все, что тот "
-"скажет."
 
 #: 59870
 msgid ""
@@ -12222,9 +12216,6 @@ msgid ""
 "the thief who disguised himself as a Dustman. I should now go back and tell "
 "Emoric I did as he asked."
 msgstr ""
-"Я поговорил с Норочжем и сделал то, о чем он попросил - решил проблему с "
-"вором, который притворялся Тленным. Теперь я должен вернуться к Эморику и все "
-"рассказать."
 
 #: 59874
 msgid "Speak to Awaiting Death on behalf of Emoric."
@@ -12239,20 +12230,12 @@ msgid ""
 "out what ails Awaiting-Death, I am to return to Emoric and tell him what I "
 "found. "
 msgstr ""
-"В рамках вступления в фракцию Тленных Эморик попросил меня переговорить с "
-"Ждущим-Смерти (он тоже находится в Баре Собирателей Пыли). Похоже, "
-"Ждущий-Смерти начал страстно желать достичь Истинной Смерти, и ему нужно "
-"помочь, пока не наступило непоправимое. Как только я узнаю, что томит "
-"Ждущего-Смерти, я должен вернуться к Эморику и рассказать ему то, что я "
-"выяснил."
 
 #: 59876
 msgid ""
 "I spoke with Awaiting-Death and helped him as I could, then returned to "
 "Emoric to tell him of it."
 msgstr ""
-"Я поговорил с Ждущим-Смерти и помог ему как мог. Теперь я должен вернуться к "
-"Эморику и все рассказать ему."
 
 #: 59878
 msgid "Speak to Sere on behalf of Emoric."
@@ -12266,11 +12249,6 @@ msgid ""
 "why. Once I find out what ails Sere, I am to return to Emoric and tell him "
 "what I found."
 msgstr ""
-"В рамках вступления в фракцию Тленных Эморик попросил меня переговорить "
-"Увядшей (она тоже находится в Баре Собирателей Пыли). Эморик сказал, что она "
-"больше не обучает Тленных, и хочет знать - почему. Как только я узнаю, что "
-"томит Увядшую, я должен вернуться к Эморику и рассказать ему то, что я "
-"выяснил."
 
 #: 59880
 msgid "I spoke to Sere, and returned to Emoric to tell him what I discovered."
@@ -12319,8 +12297,6 @@ msgstr ""
 #: 59907
 msgid "Free Angyar from his Dead Contract and return it to him and his wife."
 msgstr ""
-"Освободить Ангиара от обязательств Контракта Смерти и вернуть бумаги ему и "
-"его жене."
 
 #: 59908
 msgid ""
@@ -12332,21 +12308,12 @@ msgid ""
 "Dust bar. When I obtain the contract, I'll take it back to Angyar and his "
 "wife and give it to them."
 msgstr ""
-"Мужчина по имени Ангиар подписал с Тленными Контракт Смерти, согласно "
-"которому, тело Ангиара может быть поднято после смерти в качестве мертвого "
-"слуги. Теперь Ангиар сожалеет об этом поступке, что приносит ему и его жене "
-"большие страдания. Я предложил переговорить с Тленным, заключившим с Ангиаром "
-"эту сделку - Мортаем Сводящим-в-Могилу, который должен находится в Баре "
-"Собирателей Пыли. Когда я добуду контракт, я должен вернуть его Ангиару и его "
-"жене."
 
 #: 59909
 msgid ""
 "I brought Angyar's contract to him and tore it to pieces before his eyes, "
 "freeing him of his obligation to the Dustmen."
 msgstr ""
-"Я принес контракт Ангиару и порвал бумаги на его глазах. Теперь он свободен "
-"от обязательств перед Тленными."
 
 #: 59910
 msgid "Obtain permission for Iannis to use Deionarra's sensory stone."
@@ -12364,7 +12331,7 @@ msgstr ""
 
 #: 60322
 msgid "Return to Curst and speak to Trias."
-msgstr "Вернуться в Проклятый и поговорить с Триасом."
+msgstr ""
 
 #: 60323
 msgid ""
@@ -12405,7 +12372,7 @@ msgstr ""
 
 #: 60566
 msgid "I have found a strange book on Mantuok's body. It can speak!"
-msgstr "На теле Мантуока я обнаружил странную книгу. Она разговаривает!"
+msgstr ""
 
 #: 60567
 msgid "Sell a companion into slavery."
@@ -13207,7 +13174,7 @@ msgstr "Свалка."
 
 #: 62406
 msgid "Grain Silo."
-msgstr "Зернохранилище."
+msgstr ""
 
 #: 62408
 msgid "To Inner Curst."
@@ -13286,19 +13253,6 @@ msgid ""
 "This spell restores life back to any slain individual chosen. No saving "
 "throw is required."
 msgstr ""
-"ПОДНЯТЬ МЕРТВЕЦА\n"
-"Дистанция: 90 футов\n"
-"Длительность: постоянно / мгновенно\n"
-"Скорость: 5\n"
-"Область действия: 1 субъект\n"
-"Спасбросок: нет\n"
-"\n"
-"Всем тем, кто был утрачен для живых, даруется ценнейший из даров. Безымянный "
-"может воспользоваться этой способностью до 3 раз в день, после отдыха она "
-"восстанавливается.\n"
-"\n"
-"Это заклинание возвращает жизнь любому выбранному индивидууму. Спасброски "
-"не требуются."
 
 #: 63468
 msgid "\"Farewell, Thorp.\""
@@ -13485,9 +13439,6 @@ msgid ""
 "\" whatever THAT means. Vaxis accusing anyone of being strange is ironic "
 "enough. "
 msgstr ""
-"Ваксис как-то странно отозвался о Соэго - сказал, что тот похож на \"крысу\", "
-"что бы ЭТО ни значило. Все выпады Ваксиса в чью-либо сторону довольно "
-"ироничны."
 
 #: 64630
 msgid "Quint's House."
@@ -13593,11 +13544,11 @@ msgstr ""
 
 #: 65002
 msgid "Conflagration"
-msgstr "Сожжение"
+msgstr ""
 
 #: 65003
 msgid "Celestial Host"
-msgstr "Небесное воинство"
+msgstr ""
 
 #: 65004
 msgid "Ignus' Fury"
