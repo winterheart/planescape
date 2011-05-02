@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dbrocus2.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-03-30 22:24+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2011-04-28 23:41+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 3200
 msgid ""
@@ -41,7 +42,7 @@ msgid ""
 "more, sir.\""
 msgstr ""
 "Когда ты подходишь, знатная женщина грациозно приседает в реверансе. \"Рада "
-"снова вас видеть, сэр\"."
+"снова тебя видеть, сэр\"."
 
 #: 40088
 msgid "\"Yes, greetings. I had some questions...\""
@@ -49,7 +50,7 @@ msgstr "\"Да, приветствую. У меня есть некоторые 
 
 #: 40089
 msgid "\"Well met. I was just passing by. Farewell.\""
-msgstr "\"Приветствую. Я просто проходил мимо. Счастливо\"."
+msgstr "\"Приветствую. Я просто проходил мимо. Прощай\"."
 
 #: 40090
 msgid "The woman nods. \"Of course.\""
@@ -72,6 +73,7 @@ msgid "\"What can you tell me about the silent prostitute?\""
 msgstr "\"Что ты можешь рассказать о молчаливой проститутке?\""
 
 #: 40095 40136
+#, fuzzy
 msgid "\"I heard that Kesai-Serris is Ravel's daughter. Is that true?\""
 msgstr "\"Я слышал, что Кесай-Серри - дочь Равель. Это правда?\""
 
@@ -86,6 +88,7 @@ msgstr ""
 "\"Я пытаюсь найти малиновую вуаль Мариссы... не знаешь, где она может быть?\""
 
 #: 40098
+#, fuzzy
 msgid "\"Do you know anything about Ravel Puzzlewell?\""
 msgstr "\"Ты что-нибудь знаешь о Равель Заморочке?\""
 
@@ -131,7 +134,7 @@ msgid ""
 msgstr ""
 "\"Бордель - это школа, основанная Падшей Грацией... она обучает будущих "
 "членов Общества Восприятия тонкому искусству речи и общения. Если то, что я "
-"слышала, правда, то Бордель содержится на средства его более обеспеченных "
+"слышала, правда, то Бордель содержится на средства наиболее обеспеченных "
 "клиентов\"."
 
 #: 40105
@@ -172,10 +175,11 @@ msgid ""
 "she cannot communicate, and so I have never take it upon myself to try and "
 "speak with her.\""
 msgstr ""
-"\"Я ее не знаю... и не могу вспомнит ее имя. Мне сказали, что она не может "
-"говорить, так что я никогда и не пыталась заговорить с ней\"."
+"\"Я ее не знаю... не помню ее имени. Мне сказали, что она не может общаться, "
+"так что я никогда и не пыталась заговорить с ней\"."
 
 #: 40115
+#, fuzzy
 msgid ""
 "\"Ravel? I know no one named Ravel, much less if they might be Kesai's "
 "mother. Kesai herself told me she was an orphan, though; that her father, a "
@@ -183,7 +187,7 @@ msgid ""
 msgstr ""
 "\"Равель? Я не знаю никого по имени Равель, тем более что она - мать Кесай. "
 "Ведь сама Кесай мне говорила, что она - сирота, и что ее отец, полудемон, "
-"оставил ее на воспитание здесь, в Сигиле\"."
+"оставил ее здесь, в Сигиле\"."
 
 #: 40118
 msgid ""
@@ -206,6 +210,7 @@ msgstr ""
 "знаю\"."
 
 #: 40124
+#, fuzzy
 msgid ""
 "\"Ravel... Puzzlewell...\" She says the name slowly, as if never having "
 "spoken it before. \"I must confess I do not.\""
@@ -219,8 +224,8 @@ msgid ""
 "I've spoken to them all. Perhaps there is a new girl, who I have not met, "
 "yet...?\""
 msgstr ""
-"\"Я знаю только девятерых проституток... и я точно уверена, что я со всеми "
-"ими разговаривала. Возможно, появилась новая девочка, с которой я еще "
+"\"Я знаю только девятерых проституток... и я точно уверена, что со всеми "
+"ними я общалась. Возможно, появилась новая девочка, с которой я еще "
 "незнакома?..\""
 
 #: 40130
@@ -241,7 +246,7 @@ msgid ""
 "Myself - well, I am friends with Vivian and Kesai-Serris, and occasionally "
 "chat a bit with that dear little sunfly, Nenny.\""
 msgstr ""
-"\"Зависит от того, с каким человеком ты желаешь побеседовать. Что касается "
+"\"Зависит от того, с кем именно ты желаешь побеседовать. Что касается "
 "меня - ну, я дружу с Вивьен и Кесай-Серри, а также изредка перекидываюсь "
 "парой слов с этой милой мушкой Ненни\"."
 
@@ -252,4 +257,5 @@ msgid ""
 "wish to speak with her.\""
 msgstr ""
 "\"Да... проститутки зовут ее госпожой Грацией. Обычно она встречает клиентов "
-"в фойе Борделя... ты можешь найти ее там, если захочешь с ней пообщаться\"."
+"в фойе Борделя... ты можешь найти ее там, если захочешь пообщаться\"."
+

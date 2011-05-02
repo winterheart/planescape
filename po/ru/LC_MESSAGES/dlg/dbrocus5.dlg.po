@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dbrocus5.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-03-28 00:50+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2011-04-29 00:11+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 3206
 msgid ""
@@ -41,7 +42,7 @@ msgstr ""
 
 #: 40693
 msgid "He looks slightly annoyed, but says nothing."
-msgstr "Он выглядит немного раздраженным, но ничего не отвечает."
+msgstr "Он выглядит немного раздраженным, но ничего не говорит."
 
 #: 40694
 msgid "\"You seem troubled...\""
@@ -60,6 +61,7 @@ msgid "\"What can you tell me about the silent prostitute?\""
 msgstr "\"Что ты можешь рассказать о молчаливой проститутке?\""
 
 #: 40698
+#, fuzzy
 msgid "\"I heard that Kesai-Serris is Ravel's daughter. Is that true?\""
 msgstr "\"Я слышал, что Кесай-Серри - дочь Равель. Это правда?\""
 
@@ -74,6 +76,7 @@ msgstr ""
 "\"Я пытаюсь найти малиновую вуаль Мариссы... не знаешь, где она может быть?\""
 
 #: 40701
+#, fuzzy
 msgid "\"Do you know anything about Ravel Puzzlewell?\""
 msgstr "\"Ты что-нибудь знаешь о Равель Заморочке?\""
 
@@ -149,7 +152,8 @@ msgid ""
 "almost bested her this last time, though, so I'm trying to think of what I "
 "can do to win the next time we play.\""
 msgstr ""
-"\"Отдыхаю после громкого поражения, которое мне устроила Долора. И все же "
+"\"Отдыхаю после оглушительного поражения, которое мне устроила Долора. И все "
+"же "
 "мне кажется, в этот раз я почти что победил ее, так что я пытаюсь придумать, "
 "что бы мне предпринять, чтобы выиграть в следующий раз\"."
 
@@ -195,6 +199,7 @@ msgid "\"Farewell, then.\""
 msgstr "\"Тогда прощай\"."
 
 #: 40732
+#, fuzzy
 msgid "\"Ravel, you say? I've never asked her about it. Perhaps you should.\""
 msgstr ""
 "\"Равель, говоришь? Я никогда не спрашивал ее об этом. Может, тебе "
@@ -236,5 +241,5 @@ msgstr "\"И на том спасибо. Прощай\"."
 
 #: 40745
 msgid "He shakes his head. \"No; I had understood there to be only nine.\""
-msgstr ""
-"Он качает головой. \"Нет, насколько я понимаю, здесь их только девять\"."
+msgstr "Он качает головой. \"Нет, насколько я знаю, здесь их только девять\"."
+
