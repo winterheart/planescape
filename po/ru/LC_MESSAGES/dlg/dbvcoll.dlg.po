@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dbvcoll.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:30+0500\n"
+"PO-Revision-Date: 2011-07-04 01:22+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,13 +11,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 54788
 msgid ""
 "This man is draped in filthy, tattered brown robes, a long hood concealing "
 "most of his face from view."
 msgstr ""
+"Этот мужчина одет в грязную, рваную робу. Его лицо скрыто длинным капюшоном."
 
 #: 54789
 msgid "\"Greetings...\""
@@ -32,6 +34,7 @@ msgid ""
 "You see his eyes narrow beneath his hood, and he takes a step back. \"What "
 "do ye want?\""
 msgstr ""
+"Его глаза, скрытые капюшоном, сужаются, он делает шаг назад. \"Чего надо?\""
 
 #: 54792 54826
 msgid "\"What are you doing?\""
@@ -53,6 +56,7 @@ msgstr "\"Ничего. Прощай\"."
 msgid ""
 "\"I like ta mind me own business, cutter, an' I'll ask ye ta do the same.\""
 msgstr ""
+"\"Я занимаюсь своим делом, рубака, и тебя попросил бы заниматься тем же\"."
 
 #: 54801 54805 54809 54821 54824
 msgid "\"That's all I wished to know. Farewell.\""
@@ -63,6 +67,8 @@ msgid ""
 "He looks around himself. \"No proper name for it, really. The Trash Warrens, "
 "I s'pose ye could say.\""
 msgstr ""
+"Он оглядывается вокруг. \"На самом деле, определенного имени у него нет. "
+"Наверное, ты можешь называть его Мусорными районами\"."
 
 #: 54803 54807
 msgid "\"What are you doing here?\""
@@ -73,9 +79,10 @@ msgid ""
 "\"Pharod's village, cutter.\" He points up to the ceiling bricks and "
 "garbage, high above you in the stinking darkness. \"The Buried Village.\""
 msgstr ""
+"\"Деревня Фарода, рубака, - он указывает на груду кирпичей и мусор, "
+"возвышающихся над тобой в вонючей темноте. - Похороненная деревня\"."
 
 #: 54810
-#, fuzzy
 msgid "\"Eh?\""
 msgstr "\"А?\""
 
@@ -92,20 +99,20 @@ msgid "\"Never mind. Farewell.\""
 msgstr "\"Неважно. Прощай\"."
 
 #: 54815
-#, fuzzy
 msgid "He just shakes his head, puzzled."
-msgstr "Он качает головой. \"Похоронено\". "
+msgstr "Он недоуменно качает головой."
 
 #: 54816 54817
-#, fuzzy
 msgid "\"How about Pharod? Know where he is?\""
-msgstr "\"Ты знаешь, где она находится?\""
+msgstr "\"А как насчет Фарода? Знаешь, где он?\""
 
 #: 54819
 msgid ""
 "The man nods. \"Ye'll want ta make yer way ta the southwestern part a' maze "
 "a' trash. There's a trap door there, leadin' down ta where Pharod's at.\""
 msgstr ""
+"Мужчина кивает. \"Тебе нужно идти к юго-западной части мусорного лабиринта. "
+"Там есть потайная дверь, которая ведет вниз, в логово Фарода\"."
 
 #: 54820 54823
 msgid "\"I'm also looking for a journal I've lost.\""
@@ -116,9 +123,14 @@ msgid ""
 "The man nods. \"There's an arch leadin' northwest out a' this big chamber... "
 "ye'll find ol' Pharod through there.\""
 msgstr ""
+"Мужчина кивает. \"Тут есть арка, которая ведет на северо-запад в большую "
+"комнату... Там ты и найдешь старика Фарода\"."
 
 #: 54825
 msgid ""
 "The man takes a step back, peering suspiciously at you from beneath his "
 "hood. \"Again, eh? What do ye want?\""
 msgstr ""
+"Мужчина отступает назад, подозрительно оглядывая тебя из глубины своего "
+"капюшона. \"Опять? Чего тебе надо?\""
+
