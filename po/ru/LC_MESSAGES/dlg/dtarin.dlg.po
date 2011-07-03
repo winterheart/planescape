@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dtarin.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:38+0600\n"
+"PO-Revision-Date: 2011-07-04 01:07+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,35 +11,44 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 33625
 msgid ""
 "This is one of two men shouting and waving their weapons at one another. It "
 "seems as if at any moment they'll leap at each other's throats..."
 msgstr ""
+"Это один двух парней, кричащих друг на друга, и машущих перед собой оружием. "
+"Похоже, они в любой момент готовы вгрызться друг другу в глотки."
 
 #: 33626
 msgid ""
 "The man, face reddened from the exertion of hurling curses at his foe, "
 "whirls to face you. \"What do ye want?! Can't ye see I'm *busy,* ye sod!\""
 msgstr ""
+"Раскрасневшее от метаемых проклятий лицо парня обращается к тебе. \"Чего "
+"надо?! Не видишь, я *занят*, пустоголовый?\""
 
 #: 33627
 msgid "\"None a' yer business, berk. Pike off!\""
-msgstr ""
+msgstr "\"Не твое дело, пень. Отвали!\""
 
 #: 33628
 msgid ""
 "\"No, ye can't! This son-of-a-whore treats me sis like *dirt,* so he does, "
 "an' he's gonna pay fer it... it's no concern a' yers, so stays outta it!\""
 msgstr ""
+"\"Нет, не можешь! Этот сукин сын мешает мою сеструху с *грязью*, но теперь-то "
+"он за это поплатится! Тебя это не касается, так что держись в сторонке!\""
 
 #: 33629
 msgid ""
 "The man suddenly becomes silent. \"Elyce called fer ye, eh? I dunno who ye "
 "are, berk, but I don't see how ye' plans on stoppin' us!\""
 msgstr ""
+"Парень неожиданно затихает. \"Элис тебя позвала, да? Не знаю, кто ты такой, "
+"пень, но что-то не пойму, как это ты вдруг решил нас остановить!\""
 
 #: 33630
 msgid ""
@@ -47,11 +56,13 @@ msgid ""
 "scarred, but ye don't worries me! Stop rattlin' yer bone-box an' *pike off!*"
 "\""
 msgstr ""
+"\"Что, ты *рехнулся*, рубака? Погляди на себя... может ты и весь шрамах, да "
+"только меня этим не напугаешь! Хватит трясти черепушкой и *свали* отсюдова!\""
 
 #: 33631
 msgid ""
 "\"Can't ye mind yer own business?! Go stuff yer head in a dung-heap, berk!\""
-msgstr ""
+msgstr "\"Не лезь не в свое дело! Иди, окунись в куче навоза, пень!\""
 
 #: 33632
 msgid ""
@@ -59,6 +70,9 @@ msgid ""
 "better way fer me an' this sod ta work things out. That'd make Elyce "
 "happier, besides...\""
 msgstr ""
+"Парень быстро оглядывает тебя с ног до головы. \"Э-э-э... ну это... Конечно "
+"же, всяко лучше нам с этим бедолагой переговорить насчет этого. Да и Элис "
+"будет рада...\""
 
 #: 33633
 msgid ""
@@ -67,29 +81,33 @@ msgid ""
 "ignore her pleadin'.\" He sighs. \"Guess I'll work things out with this sod "
 "some other way...\""
 msgstr ""
+"Немного похмурившись, парень кивает головой \"Да, ты прав, рубака... Я хотел "
+"защитить ее интересы, а вышло так, что совсем о ней не подумал, - вздыхает он."
+" - Наверное, стоит решить проблему с этим бедолагой по-другому...\""
 
 #: 33634
 msgid ""
 "Elyce's brother nods approvingly at you. \"Thanks fer helpin' us work things "
 "out... ye're an alright cutter, so's ye are.\""
 msgstr ""
+"Брат Элис доброжелательно тебе кивает: \"Спасибо, что помог с тем делом... ты "
+"хороший рубака\"."
 
 #: 33636
 msgid "\"Greetings...\""
 msgstr "\"Приветствую...\""
 
 #: 33637
-#, fuzzy
 msgid "Keep clear of them."
-msgstr "Остановить мужчину."
+msgstr "Держаться от них на расстоянии."
 
 #: 33638 33641 33645
 msgid "\"Your sister wanted me to stop the two of you from fighting.\""
-msgstr ""
+msgstr "\"Твоя сестра попросила меня остановить вас обоих\"."
 
 #: 33639
 msgid "\"I'm wondering why you two are fighting.\""
-msgstr ""
+msgstr "\"Мне интересно, почему вы деретесь\"."
 
 #: 33640 33644 33646
 msgid "\"Farewell, then.\""
@@ -97,44 +115,45 @@ msgstr "\"Тогда прощай\". "
 
 #: 33643
 msgid "\"Any way I can help resolve the dispute?\""
-msgstr ""
+msgstr "\"Может быть, я смогу разрешить спор?\""
 
 #: 33647 33648 33650 33652
 msgid "\"By beating you both bloody, if I have to.\""
-msgstr ""
+msgstr "\"Жестоко избив вас обоих, если придется\"."
 
 #: 33654
 msgid ""
 "\"Look, Elyce doesn't want to see either of you hurt...can't you take care "
 "of whatever the problem is without scaring the wits out of her?\""
 msgstr ""
+"\"Послушай, Элис не хочет, чтобы вы поранили друг друга... Вы что, не можете "
+"разобраться в проблеме, не причиняя ей страданий?\""
 
 #: 33656 33659 33660
 msgid ""
 "\"Look, Elyce doesn't want to see either of you hurt... can't you take care "
 "of whatever the problem is without scaring the wits out of her?\""
 msgstr ""
+"\"Послушай, Элис не хочет, чтобы вы поранили друг друга... Вы что, не можете "
+"разобраться в проблеме, не причиняя ей страданий?\""
 
 #: 33658
-#, fuzzy
 msgid "\"Neither do I. Farewell.\""
-msgstr "\"Понятно. Прощай\"."
+msgstr "\"Да я и не собирался. Прощай\"."
 
 #: 33661 33666
-#, fuzzy
 msgid "\"Fine... farewell.\""
-msgstr "\"Отлично, прощай\"."
+msgstr "\"Отлично... Прощай\"."
 
 #: 33662 33663 33664 33665
-#, fuzzy
 msgid "\"Stop fighting, or I'll beat you both bloody.\""
-msgstr "Тихо: \"Хватит вырываться, или я вырву тебе руку\"."
+msgstr "\"Хватит драться или я жестоко избью вас обоих\"."
 
 #: 33667 33668
-#, fuzzy
 msgid "\"Glad you see things that way. Farewell.\""
-msgstr "\"На самом деле - ничего. Прощай\"."
+msgstr "\"Рад, что ты подходишь к проблеме с этой стороны. Прощай\"."
 
 #: 33669
 msgid "\"Thanks. Farewell.\""
 msgstr "\"Спасибо. Прощай\"."
+
