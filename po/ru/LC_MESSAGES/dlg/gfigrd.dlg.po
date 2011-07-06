@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 5691
@@ -61,7 +61,7 @@ msgstr "\"Где тут контора клерка?\""
 
 #: 5717 5718 5801 5802 5816 5817 5823 5824
 msgid "\"Where can I find a high-up here?\""
-msgstr "\"Где я могу найти начальство?\""
+msgstr "\"Где я могу найти здешнее начальство?\""
 
 #: 5719
 msgid "\"No, thank you. Goodbye.\""
@@ -95,7 +95,7 @@ msgstr ""
 
 #: 5726
 msgid "\"How about I beat it out of you?\""
-msgstr "\"Что, если я выбью это из тебя?\""
+msgstr "\"Что, если я выбью из тебя это?\""
 
 #: 5727
 msgid "\"I see. Farewell.\""
@@ -106,8 +106,8 @@ msgid ""
 "\"Just south of the main foundry, sir, you'll find an office with a desk in "
 "it. That's the clerk's office.\""
 msgstr ""
-"\"Прямо на юг от главной литейной, сэр, вы найдете конторку со столом. Это и "
-"есть контора клерка\"."
+"\"Прямо на юг от главной литейной ты найдешь конторку со столом. Это и есть "
+"контора клерка\"."
 
 #: 5760 5761
 msgid "\"Thank you. Where can I find the high-ups?\""
@@ -141,7 +141,7 @@ msgstr "\"Отлично. Что за теми охраняемыми дверь
 
 #: 5767
 msgid "\"Can you tell me how to find the clerk's office?\""
-msgstr "\"Можешь ли ты подсказать мне, где найти контору клерка?\""
+msgstr "\"Можешь подсказать, где найти контору клерка?\""
 
 #: 5769 5778 5785
 msgid "Leave."
@@ -154,9 +154,9 @@ msgid ""
 "main foundry. Sandoz can usually be found in the rooms to the rear of the "
 "Hall.\""
 msgstr ""
-"\"Либо Сандоз, либо Кельдор смогут помочь тебе по этому поводу. Кельдор в "
+"\"По этому поводу тебе смогут помочь либо Сандоз, либо Кельдор. Кельдор в "
 "главном Зале собраний, прямо за дверью на правой стороне главной литейной. "
-"Сандоза обычно можно найти в комнатах за Залом\"."
+"Сандоза обычно можно найти в помещении за Залом\"."
 
 #: 5771
 msgid "\"Thanks. How do I find the clerk's office?\""
@@ -206,7 +206,7 @@ msgid ""
 "\"WHAT? Are you serious? Go talk to Keldor about this. In the meantime, "
 "we'll take care of the engineer. Thank you, and goodbye.\""
 msgstr ""
-"\"ЧТО? Ты серьезно? Иди, поговори об этом с Кельдором. Тем временем мы "
+"\"ЧТО? Ты серьезно? Сходи поговори об этом с Кельдором. Тем временем мы "
 "позаботимся об инженере. Спасибо тебе, и прощай\"."
 
 #: 5786
@@ -227,7 +227,7 @@ msgstr "\"Что ты можешь рассказать о проекте?\""
 
 #: 5789
 msgid "\"So what you're saying is that you didn't see anything.\""
-msgstr "\"Значит, ты говоришь, что ничего не видел\"."
+msgstr "\"Значит, ты утверждаешь, что ничего не видел\"."
 
 #: 5790
 msgid "\"Interesting. Thank you.\""
@@ -240,7 +240,7 @@ msgid ""
 "order, but they aren't really likely to have done it. I don't know who the "
 "order came from, and I don't know why anyone would want to give it.\""
 msgstr ""
-"\"Единственные люди, обладающие такой властью - Тильдон и Бедай-Линн. Я "
+"\"Единственные люди, обладающие такой властью, - Тильдон и Бедай-Линн. Я "
 "предполагаю, что фракторы, либо кто-нибудь, близкий к ним, мог бы отдать "
 "такой приказ, но непохоже, чтобы они это делали. Я не знаю, чей это приказ, "
 "и не представляю, кто бы мог захотеть его отдать\"."
@@ -250,8 +250,8 @@ msgid ""
 "\"That's less than helpful, but it's a start. Answer me some other "
 "questions, instead.\""
 msgstr ""
-"\"Это мало чем поможет, но хоть что-то для начала. Тогда ответь мне на "
-"другие вопросы\"."
+"\"Это мало чем поможет, но хоть что-то для начала. В таком случае, ответь "
+"мне на другие вопросы\"."
 
 #: 5793
 msgid "\"And it's not unusual that you would have received this order?\""
@@ -296,8 +296,7 @@ msgid ""
 "\""
 msgstr ""
 "\"Я понимаю, что мы обязаны помогать тебе любым способом касательно этого "
-"убийства, но должен предупредить тебя, что моя помощь будет не особо ценной"
-"\"."
+"убийства, но должен предупредить, что моя помощь будет не особо ценной\"."
 
 #: 5809
 msgid "\"Why not? Weren't you here?\""

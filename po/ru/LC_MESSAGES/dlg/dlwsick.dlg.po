@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.2\n"
 "Language: ru\n"
 
@@ -19,10 +19,9 @@ msgid ""
 "I am a sick Lower Ward dweller. I have a fascinating life story to tell you, "
 "but I am too busy hacking and coughing to tell you about it."
 msgstr ""
-"Я больной житель с Нижнего района. У меня есть потрясающая жизненная история, "
-"но я так занят кашлем, что не могу ничего сказать."
+"Я больной житель с Нижнего района. У меня есть потрясающая жизненная "
+"история, но я так занят кашлем, что не могу ничего сказать."
 
 #: 3031
 msgid "Maybe it's for the best, then."
 msgstr "Может быть, это и к лучшему."
-
