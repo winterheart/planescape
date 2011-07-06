@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmsgr.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:02+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-07-03 19:36+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 39487
@@ -20,6 +20,9 @@ msgid ""
 "- she wears green silks trimmed with gold, and has hair the color of blue "
 "steel."
 msgstr ""
+"Мне передали, что женщины по имени Джолми из дома Сирма желает сделать "
+"предложить мне сделку. Мне нужно искать ее в Городском Фестхолле: она носит "
+"зеленые шелка, отделанные золотом, и у нее волосы цвета вороненой стали."
 
 #: 43384
 msgid ""
@@ -27,29 +30,33 @@ msgid ""
 "\"One thousand pardons, sir, but I am looking for a certain man, and I think "
 "you might be able to help me...\""
 msgstr ""
+"Этот стройный молодой человек подходит к тебе с несколько озабоченным видом. "
+"\"Тысяча извинений, сэр, но я тут разыскиваю одного человека, и я думаю, что "
+"ты мог бы мне помочь...\""
 
 #: 43385
 msgid "\"Oh? How so?\""
-msgstr ""
+msgstr "\"О? И как же?\""
 
 #: 43817
-#, fuzzy
 msgid "\"I doubt it. Farewell.\""
-msgstr "\"Я свалю. Прощай\"."
+msgstr "\"Сомневаюсь. Прощай\"."
 
 #: 43818
 msgid ""
 "\"But if you'll only give me a moment, sir... it shan't take but a few "
 "breath's time...\""
 msgstr ""
+"\"Но если у тебя найдется хоть минутка... это займет совсем немного "
+"времени...\""
 
 #: 43819
 msgid "\"All right... what is it?\""
-msgstr ""
+msgstr "\"Ладно... что там у тебя?\""
 
 #: 43820
 msgid "\"Leave me alone, boy. Farewell.\""
-msgstr ""
+msgstr "\"Оставь меня в покое, мальчик. Прощай\"."
 
 #: 43821
 msgid ""
@@ -58,18 +65,22 @@ msgid ""
 "the admittedly vague description I was given, sir, and I had wondered if you "
 "were he.\""
 msgstr ""
+"\"Сэр, я посыльный, который ищет человека, по слухам, неспособного "
+"умереть... человека в шрамах, для которого смерть - не более чем обычная "
+"неприятность. Ты как раз подходишь тому смутному описанию, что мне дали, и "
+"мне интересно, ты ли это\"."
 
 #: 43822
 msgid "\"Yes, that's me.\""
-msgstr ""
+msgstr "\"Да, это я\"."
 
 #: 43823
 msgid "\"No, that's not me.\""
-msgstr ""
+msgstr "\"Нет, это не я\"."
 
 #: 43824
 msgid "\"Just who wants to know?\""
-msgstr ""
+msgstr "\"А кто хочеть это знать?\""
 
 #: 43825
 msgid ""
@@ -80,10 +91,16 @@ msgid ""
 "wears green silks, trimmed with gold, and has hair the color of blue steel. "
 "That is the extent of my message, sir... farewell.\""
 msgstr ""
+"Он кивает, затем низко кланяется тебе. \"Для тебя есть послание. Меня "
+"прислала госпожа Джолми из дома Сирма, высокопоставленная дама. Госпожа "
+"Джолми встретится тобой в Городском Фестхолле, где она предложит тебе "
+"сделку, о которой я ничего не знаю. Если захочешь разыскать ее, то она носит "
+"зеленые шелка, отделанные золотом, и у нее волосы цвета вороненой стали. "
+"Таково мое сообщение... прощай\"."
 
 #: 43826
 msgid "\"Wait... where's the Civic Festhall?\""
-msgstr ""
+msgstr "\"Постой... где этот Городской Фестхолл?\""
 
 #: 43827 43829 43831
 msgid "\"Farewell.\""
@@ -94,33 +111,39 @@ msgid ""
 "\"In the northeastern corner of this part of the Clerk's Ward, sir. 'Tis a "
 "large structure, and should be easy to spot. Farewell now, sir.\""
 msgstr ""
+"\"В северо-восточном углу этой части Чиновничьего района, сэр. Большая "
+"постройка, ее не составит труда найти. Что ж, счастливо, сэр\"."
 
 #: 43830
 msgid ""
 "\"A pity, then. Farewell, sir - my apologies for having troubled you. "
 "Farewell.\""
 msgstr ""
+"\"Очень жаль. До свиданья, сэр, прошу простить меня за причиненное "
+"беспокойство. Прощай\"."
 
 #: 43832
 msgid "\"I am in the hire of a wealthy noblewoman, Jolmi Syrma, sir.\""
-msgstr ""
+msgstr "\"Я работаю на богатую дворянку, Джолми Сирма, сэр\"."
 
 #: 43833
 msgid "\"I am the man you're looking for.\""
-msgstr ""
+msgstr "\"Я тот, кого ты ищешь\"."
 
 #: 43834
 msgid "\"Well, you've got the wrong man.\""
-msgstr ""
+msgstr "\"Что ж, ты принял меня за другого\"."
 
 #: 43835
 msgid "The young messenger gives a polite half-bow. \"We meet again, sir.\""
 msgstr ""
+"Юный посыльный отвешивает вежливый полупоклон. \"Вот мы и встретились снова, "
+"сэр\"."
 
 #: 43836
 msgid "\"I wanted to tell you that I actually am the man you're looking for.\""
-msgstr ""
+msgstr "\"Я хотел сообщить, что я и есть тот человек, которого ты ищешь\"."
 
 #: 43837
 msgid "\"Yes... I was just passing by. Farewell.\""
-msgstr ""
+msgstr "\"Да... Я просто проходил мимо. Прощай\"."
