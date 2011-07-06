@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dvault9.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:49+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-05-02 19:34+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 45843
@@ -18,40 +18,40 @@ msgid ""
 "\"Welcome to the Vaults of the Ninth World! How may I serve you on this fine "
 "day, Sigilian?\""
 msgstr ""
+"\"Добро пожаловать в Хранилище Девятого мира! Чем могу быть полезен в этот "
+"славный денек, сигилец?\""
 
 #: 45844 45849 45880
 msgid "\"What is this place?\""
 msgstr "\"Что это за место?\""
 
 #: 45845 45850 45856 45881
-#, fuzzy
 msgid "\"What are you?\""
-msgstr "\"Кто ты такой?\""
+msgstr "\"Что ты такое?\""
 
 #: 45846 45853 45886
 msgid "\"I'd heard there were some problems in retrieving items from here.\""
-msgstr ""
+msgstr "\"Слышал, тут какие-то проблемы с возвратом вещей\"."
 
 #: 45847
-#, fuzzy
 msgid "\"I had a few questions...\""
-msgstr "\"У меня есть другие вопросы\"."
+msgstr "\"У меня есть несколько вопросов...\""
 
 #: 45848
 msgid ""
 "\"Twice-welcome to the Vaults of the Ninth World! How may I serve you on "
 "this fine day, Sigilian?\""
 msgstr ""
+"\"Дважды добро пожаловать в Хранилище Девятого мира! Чем могу быть полезен в "
+"этот славный денек, сигилец?\""
 
 #: 45851 45859 45865 45870 45882
-#, fuzzy
 msgid "\"I'd like to store something.\""
-msgstr "\"Я хотел бы, чтобы ты назвал точную сумму\"."
+msgstr "\"Я хотел бы кое-что оставить на хранение\"."
 
 #: 45852 45860 45866 45871 45876 45883
-#, fuzzy
 msgid "\"I'd like to claim something.\""
-msgstr "\"Я хочу похоронить имя\"."
+msgstr "\"Я хотел бы кое-что забрать\"."
 
 #: 45854 45857 45907 66903
 msgid "\"Farewell.\""
@@ -65,57 +65,67 @@ msgid ""
 "to spare. Our prices are competitive! Our service exemplary! And our "
 "courtesy to customers is known throughout the planes!\""
 msgstr ""
+"\"Хранилище Девятого мира с радость служит складом Нижнему району и всем "
+"разумным существам Сигила! Наш девиз: \"Когда одного мира мало!\" Мы "
+"предоставляем складское пространство тем, кому его не хватает. У нас "
+"конкурентные цены! У нас образцовое обслуживание! И наша учтивость по "
+"отношению к клиентам известна во всех планах!\""
 
 #: 45858
 msgid ""
 "\"I am the voice of the Vault of the Ninth World. I am here to serve you, "
 "the customer. Instruct me in what you desire!\""
 msgstr ""
+"\"Я голос Хранилища Девятого мира. Я здесь, чтобы обслуживать вас, клиент. "
+"Скажите, что вам угодно!\""
 
 #: 45861 45872 45884
 msgid "\"Why is this place called the Vault of the Ninth World?\""
-msgstr ""
+msgstr "\"Почему это место названо Хранилищем Девятого мира?\""
 
 #: 45862 45867 45885
 msgid "\"Is this place really as big as a world?\""
-msgstr ""
+msgstr "\"Это место и в правду велико как мир?\""
 
 #: 45863 45887
-#, fuzzy
 msgid "\"Never mind. Thanks.\""
-msgstr "\"Неважно. Прощай\"."
+msgstr "\"Неважно. Спасибо\"."
 
 #: 45864
 msgid ""
 "\"Frankly, I have no idea! I think the owners thought that it would be a "
 "clever name or something.\""
 msgstr ""
+"\"Если честно - я без понятия! Полагаю, владельцы сочли это подходящим "
+"названием, или чем-то в этом роде\"."
 
 #: 45868 45873
-#, fuzzy
 msgid "\"Oh. Farewell.\""
-msgstr "\"Хм. Прощай\"."
+msgstr "\"О. Прощай\"."
 
 #: 45869
 msgid ""
 "\"No, it's just a marketing exaggeration. There's a lot of space here, but "
 "not that much.\""
 msgstr ""
+"\"Нет, это просто маркетинговое преувеличение. Здесь много места, но не "
+"настолько\"."
 
 #: 45874
 msgid ""
 "\"I'm sorry! We seem to be full up at the moment! Can I do anything else for "
 "you?\""
 msgstr ""
+"\"Простите! Похоже, на данный момент мы переполнены! Могу ли я что-нибудь "
+"еще для вас сделать?\""
 
 #: 45875
 msgid "\"I thought this was supposed to be a huge storehouse.\""
-msgstr ""
+msgstr "\"Я-то думал, что это, должно быть, огромный склад\"."
 
 #: 45877
-#, fuzzy
 msgid "\"I had a few more questions...\""
-msgstr "\"Спасибо. У меня несколько вопросов...\""
+msgstr "\"У меня еще несколько вопросов...\""
 
 #: 45878 45914
 msgid "\"No. Farewell.\""
@@ -123,7 +133,7 @@ msgstr "\"Нет. Прощай\"."
 
 #: 45879
 msgid "\"Of course! What can I do for you?\""
-msgstr ""
+msgstr "\"Разумеется! Что я могу для вас сделать?\""
 
 #: 45888
 msgid ""
@@ -132,10 +142,14 @@ msgid ""
 "know what. The gist of the matter is this: We don't really accept items for "
 "storage anymore.\""
 msgstr ""
+"\"Ну-у-у... да, - голос головы звучит слегка смущенно. - Только у нас "
+"закончилось место, да и вокруг творится что-то подозрительное, сам не знаю "
+"что. Суть проблемы такова: мы действительно больше не принимаем вещи на "
+"хранение\"."
 
 #: 45889
 msgid "\"Oh. Then I have a few questions...\""
-msgstr ""
+msgstr "\"О. Тогда у меня есть пара вопросов...\""
 
 #: 45890
 msgid "\"I see. Farewell, then.\""
@@ -143,33 +157,31 @@ msgstr "\"Понятно. Тогда прощай\"."
 
 #: 45891
 msgid "\"And what was it you were looking for, exactly?\""
-msgstr ""
+msgstr "\"И что же в точности вы ищете?\""
 
 #: 45892 45893
-#, fuzzy
 msgid "\"I was looking for a large bag of coins.\""
-msgstr "\"Я ищу дневник\"."
+msgstr "\"Я ищу большую сумку с монетами\"."
 
 #: 45894
 msgid "\"I'm here to retrieve a pillow for Hamrys the coffin-maker.\""
-msgstr ""
+msgstr "\"Я здесь, чтобы забрать подушку для Хармиса-гробовщика\"."
 
 #: 45895
 msgid "\"I was told that I could retrieve some plans for a tomb here.\""
-msgstr ""
+msgstr "\"Мне сказали, что здесь я смогу забрать планы гробницы\"."
 
 #: 45896
 msgid "\"I was told to tell you that I'm here for a loan.\""
-msgstr ""
+msgstr "\"Меня попросили передать, что я здесь за ссудой\"."
 
 #: 45897 45898
 msgid "\"I was told to tell you that I gave Pikit the laugh.\""
-msgstr ""
+msgstr "\"Меня попросили передать, что я удрал от Пикита\"."
 
 #: 45899
-#, fuzzy
 msgid "\"Nothing. I had some questions, though...\""
-msgstr "\"Нет, спасибо. Однако у меня есть вопросы...\""
+msgstr "\"Ничего. Однако у меня есть несколько вопросов...\""
 
 #: 45900 45991 45995
 msgid "\"Nothing. Farewell.\""
@@ -182,104 +194,114 @@ msgid ""
 "space. We're open now, in case anyone asks! You should have no difficulty in "
 "getting something out. Just ask for it!\""
 msgstr ""
+"\"Да. Мои хозяева тоже очень этим интересуются. Я бы выяснил, но я всего "
+"лишь большое заклинание, наложенное на голову! Я понятия не имею, что "
+"случилось со всем складским пространством. Сейчас мы открыты - на случай, "
+"если кто спросит! У вас не должно быть проблем с тем, чтобы что-нибудь "
+"забрать отсюда. Только спросите!\""
 
 #: 45902
 msgid "\"All right, then. I'd like to claim something.\""
-msgstr ""
+msgstr "\"Тогда ладно. Я хотел бы кое-что забрать\"."
 
 #: 45903
 msgid "\"I had a few questions, instead.\""
-msgstr ""
+msgstr "\"В таком случае, у меня есть пара вопросов\"."
 
 #: 45904
 msgid "\"Thanks, I will. Later, though. Farewell.\""
-msgstr ""
+msgstr "\"Спасибо, так и сделаю. Но позже. Счастливо\"."
 
 #: 45905
 msgid ""
 "\"Farewell! We at the Vault of the Ninth World value your business. Please "
 "return.\""
 msgstr ""
+"\"Прощайте! Мы в Хранилище Девятого мира ценим ваш бизнес. Пожалуйста, "
+"возвращайтесь\"."
 
 #: 45906
 msgid "\"Yeah, I'll bet.\""
-msgstr ""
+msgstr "\"Да уж, конечно\"."
 
 #: 45908
 msgid "\"Pardon me. Please do not attack the head.\""
-msgstr ""
+msgstr "\"Прошу прощения. Пожалуйста, не нападайте на голову\"."
 
 #: 45909
-#, fuzzy
 msgid "\"Right. I just had a few questions...\""
-msgstr "\"Нет... Просто у меня есть некоторые вопросы...\""
+msgstr "\"Ладно. Просто у меня есть несколько вопросов...\""
 
 #: 45910
-#, fuzzy
 msgid "\"Right. Farewell.\""
-msgstr "\"Я постараюсь. Прощай\"."
+msgstr "\"Ладно. Прощай\"."
 
 #: 45911
 msgid ""
 "\"I'm sorry, sir! That item has already been claimed! Would you like to "
 "claim something else?\""
 msgstr ""
+"\"Простите, сэр! Эту вещь уже забрали! Не хотите забрать что-нибудь еще?\""
 
 #: 45912
 msgid "\"Yes.\""
 msgstr "\"Да\"."
 
 #: 45913
-#, fuzzy
 msgid "\"No. Just answer some questions.\""
-msgstr "\"Ответь мне на другие вопросы\"."
+msgstr "\"Нет. Просто ответь на пару вопросов\"."
 
 #: 45915
 msgid ""
 "\"We have a bag of coins like the one you describe, sir! I'll just need to "
 "find out one thing from you: How much was in it?\""
 msgstr ""
+"\"У нас есть сумка с монетами, похожая на описанную вами, сэр! Мне нужно "
+"узнать у вас только одно: сколько в ней?\""
 
 #: 45916 45918 45930
 msgid "Somehow, this guess feels right...  \"1,123 coins.\""
-msgstr ""
+msgstr "Почему-то эта сумма кажется верной... \"1123 монеты\""
 
 #: 45917
 msgid ""
 "\"Here you go, sir! Thanks for storing your goods at Vault of the Ninth "
 "World! Can I get you anything else?\""
 msgstr ""
+"\"Держите, сэр! Спасибо за то, что храните ваши вещи в Хранилище Девятого "
+"мира! Могу ли я принести вам что-нибудь еще?\""
 
 #: 45937
 msgid "Guess: \"1,000 coins.\""
-msgstr ""
+msgstr "Угадать: \"1000 монет\"."
 
 #: 45938
 msgid "Guess: \"500 coins.\""
-msgstr ""
+msgstr "Угадать: \"500 монет\"."
 
 #: 45940
 msgid "Guess: \"750 coins.\""
-msgstr ""
+msgstr "Угадать: \"750 монет\"."
 
 #: 45943
 msgid "Guess: \"331 coins.\""
-msgstr ""
+msgstr "Угадать: \"331 монета\"."
 
 #: 45945
 msgid "Guess: \"2,112 coins.\""
-msgstr ""
+msgstr "Угадать: \"2112 монеты\"."
 
 #: 45948
 msgid ""
 "\"I'm sorry, sir! That must not be your bag of wealth! Can I get you "
 "something else?\""
 msgstr ""
+"\"Простите, сэр! Должно быть, это не ваша сумка! Могу ли я принести вам что-"
+"нибудь еще?\""
 
 #: 45950 45957 45965 45984 45994
-#, fuzzy
 msgid "\"Answer a few more questions for me...\""
-msgstr "\"Ответь мне на пару вопросов\"."
+msgstr "\"Ответь мне еще на пару вопросов...\""
 
 #: 45952 45959 45978 45986 45992
 msgid "\"No, thanks. Farewell.\""
@@ -291,18 +313,26 @@ msgid ""
 "your pillow, Master Hamrys, and good luck sleeping with it! Can I get you "
 "anything else?\""
 msgstr ""
+"\"Подушка? Конечно же, я могу дать вам подушку... большую КАМЕННУЮ подушку! "
+"Вот ваша подушка, господин Хармис, и хорошего вам сна на ней! Могу ли я "
+"принести вам что-нибудь еще?\""
 
 #: 45962
 msgid ""
 "\"Plans for a tomb? You don't look dead, sir, not that it's any of my "
 "business if you are! Here are your plans, sir! Can I get you anything else?\""
 msgstr ""
+"\"Планы гробницы? Вы не кажетесь мертвым, сэр, хотя если даже это и так, это "
+"меня не касается! Вот ваши планы, сэр! Могу ли я принести вам что-нибудь еще?"
+"\""
 
 #: 45990
 msgid ""
 "\"Ooh! One of my secret passwords! Here are the papers you want, sir! Thank "
 "you! What else can I do for you?\""
 msgstr ""
+"\"О-о-о! Один из моих тайных паролей! Вот нужные вам бумаги, сэр! Спасибо! "
+"Могу ли я принести вам что-нибудь еще?\""
 
 #: 45993
 msgid ""
@@ -310,3 +340,6 @@ msgid ""
 "head! Here are your papers, sir, and here! Thank you! What can I do for you?"
 "\""
 msgstr ""
+"\"Я, безусловно, надеюсь, что это так, сэр, что бы это не значило! Я всего "
+"лишь большая глупая каменная голова! Вот ваши бумаги, сер, и вот еще! "
+"Спасибо! Могу ли я принести вам что-нибудь еще?\""

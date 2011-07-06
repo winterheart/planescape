@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dquell.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 03:24+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-05-30 20:41+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 18041 29625
@@ -18,10 +18,13 @@ msgid "\"Yes...?\""
 msgstr "\"Да?..\""
 
 #: 28832
+#, fuzzy
 msgid ""
 "A mage named Quell told me the key to the portal which would lead to Ravel's "
 "maze was, oddly enough, a piece of Ravel."
 msgstr ""
+"Маг по имени Квелл сказал мне, что ключ к порталу, ведущему в лабиринт "
+"Равель, является, что довольно странно, частью самой Равель."
 
 #: 28833
 msgid ""
@@ -29,6 +32,9 @@ msgid ""
 "Festhall. He sells a variety of magical chocolates, all of which are imbued "
 "with various magics that take effect as soon as they are eaten."
 msgstr ""
+"В частном сенсориуме Городского Фестхолла я встретил мага по имени Квелл. Он "
+"торгует разнообразными волшебными конфетами. В каждой из них содержится "
+"разного рода магия, которая начинает действовать, если ее съесть."
 
 #: 29455
 msgid ""
@@ -37,6 +43,10 @@ msgid ""
 "then swallows it. His bushy, brassy white eyebrows furrow for a moment, "
 "rise, and then furrow again. \"Hmmm...\""
 msgstr ""
+"Этот старик что-то жует, тихонько бормоча себе что-то под нос... через миг "
+"раздается *ХРУМ* - это он что-то раскусывает и глотает. Его густые, "
+"вызывающе белые брови на миг нахмуриваются, потом поднимаются, потом снова "
+"нахмуриваются. \"Хм-м-м...\""
 
 #: 29456
 msgid "\"Greetings...\""
@@ -44,7 +54,7 @@ msgstr "\"Приветствую...\""
 
 #: 29457 29460 29463
 msgid "Leave the man be."
-msgstr "Оставить мужчину в покое."
+msgstr "Оставить его в покое."
 
 #: 29458
 msgid ""
@@ -52,6 +62,9 @@ msgid ""
 "a puce-colored ball, regards it curiously for a moment, then pops it into "
 "his mouth."
 msgstr ""
+"Даже не глядя на тебя, старик лезет в тунику, достает оттуда красновато-"
+"коричневый шарик, некоторое время с любопытством разглядывает его, затем "
+"кладет его в рот."
 
 #: 29459
 msgid "\"I said, 'greetings...'\""
@@ -62,34 +75,39 @@ msgid ""
 "The man frowns and waves you away, then nods to himself thoughtfully as he "
 "savors the flavor of whatever he's put into his mouth."
 msgstr ""
+"Старик нахмуривается и делает тебе знак отойти, потом задумчиво кивает сам "
+"себе, смакуя что-то у себя во рту."
 
 #: 29462
-#, fuzzy
 msgid "\"I've... got some questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня тут... пара вопросов...\""
 
 #: 29464
+#, fuzzy
 msgid ""
 "The man smirks, bites his thumb at you, then abruptly pauses... his cheeks "
 "swell and, with a violent gag, he spits up a large black fly which begins to "
 "buzz around the chamber. \"Minaurosian candies be *damned!*\" he cries, "
 "shaking his fist at the insect. He whirls on you. \"What?!\""
 msgstr ""
+"Старик ухмыляется, показывает тебе кукиш, затем внезапно застывает... его "
+"щеки надуваются, и, скорчившись в жестоком рвотном позыве, он выплевывает "
+"огромную черную муху, которая начинают сновать по комнате. \"*Проклятые* "
+"Минаврозийские конфеты!\" - кричит он, грозя кулаком насекомому. Затем "
+"оборачивается к тебе. \"Чего?!\""
 
 #: 29465
-#, fuzzy
 msgid "\"I had questions about you...\""
-msgstr "\"У меня есть вопросы к тебе...\""
+msgstr "\"У меня вопросы о тебе...\""
 
 #: 29466
-#, fuzzy
 msgid "\"I had questions about this place...\""
-msgstr "\"У меня вопрос насчет Перемирия со Смертью...\""
+msgstr "\"У меня вопрос насчет этого места...\""
 
 #: 29467
 #, fuzzy
 msgid "\"What do you know of Ravel Puzzlewell?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Ты знаешь что-нибудь о Равель Заморочке?\""
 
 #: 29468
 msgid "\"Nothing, farewell.\""
@@ -103,19 +121,25 @@ msgid ""
 "flying in a high arc to land on the floor with a wet *plip.* He stares at it "
 "sadly."
 msgstr ""
+"Он закидывает в рот маленькую красную конфетку. \"Ты что, всегда вот так "
+"бродишь и надокучаешь могущественным магам своей невежественной болтовней?! "
+"Бормотание, болтовня, трескотня, ТРЕП!\" При слове 'треп' конфета "
+"выстреливает у него изо рта, летит по высокой дуге и шлепается на пол с "
+"влажным *плюх*. Он печально глядит на нее."
 
 #: 29470
 msgid "\"I'm, uh, sorry about your candy.\""
-msgstr ""
+msgstr "\"Я, э-э-э, сожалею насчет конфеты\"."
 
 #: 29471
 msgid "Pick it up and eat it."
-msgstr ""
+msgstr "Поднять и съесть ее."
 
 #: 29473
+#, fuzzy
 msgid ""
 "He groans incredulously, slapping his forehead. \"Nothing? *FAREWELL?*\""
-msgstr ""
+msgstr "Он недоверчиво стонет, хлопая себя по лбу. \"Ничего? *ПРОЩАЙ*?\""
 
 #: 29474
 msgid ""
@@ -124,15 +148,18 @@ msgid ""
 "and bashers like you should know their proper place!\" He begins to jump up "
 "and down. \"Proper place! Proper place!\""
 msgstr ""
+"\"А ведь она была такая *вкусная*...\" - хнычет он, затем внезапно, рыча, "
+"поднимает взгляд. \"СОЖАЛЕЕШЬ?! Да уж *конечно*, чертов навозный жук! Маги "
+"заслуживают уважение, а такие как ты рубаки должны знать свое место! - он "
+"начинает подпрыгивать. - Свое место! Свое место!\""
 
 #: 29475 29480
-#, fuzzy
 msgid "\"Calm down, I only mean to ask you some questions...\""
-msgstr "\"Убери это... Я просто хочу задать тебе пару вопросов\"."
+msgstr "\"Успокойся. Я всего лишь хотел задать тебе пару вопросов\"."
 
 #: 29476
 msgid "Snatch up the mage's candy and eat it."
-msgstr ""
+msgstr "Схватить конфету мага и съесть ее."
 
 #: 29478
 msgid ""
@@ -140,25 +167,29 @@ msgid ""
 "tangy. The mage's jaw drops. \"My... my delectably scrumptious Bytopian "
 "Fruit candy!\""
 msgstr ""
+"Ты хватаешь конфету и кладешь ее себе в рот; у нее терпкий сладкий вкус. У "
+"мага отпадает челюсть. \"Моя... Моя восхитительная изысканная байтопийская "
+"фруктовая конфета!\""
 
 #: 29479
 msgid "\"That was good. Can I have another?\""
-msgstr ""
+msgstr "\"Вкусно. Можно еще одну?\""
 
 #: 29483
 msgid ""
 "\"Another one?! *Another* one?! Of all the raw, blistering nerve! What makes "
 "you think you *deserve* another candy, you unmannerly, churlish dullard?!\""
 msgstr ""
+"\"Еще одну?! *Еще* одну?! Что за вульгарная дерзость! С чего ты взял, что "
+"*заслуживаешь* еще одну конфету, ты, грубый невежественный болван?!\""
 
 #: 29484
 msgid "\"I don't *deserve* one, I *want* one. Now let's have it.\""
-msgstr ""
+msgstr "\"Я не *заслуживаю*, я *хочу* ее. Давай ее сюда\"."
 
 #: 29485 29496
-#, fuzzy
 msgid "\"Come on... just give me one.\""
-msgstr "\"Нет, у меня есть некоторые вопросы...\""
+msgstr "\"Да брось... Дай хоть одну\"."
 
 #: 29486
 msgid "\"Forget it.\""
@@ -170,25 +201,30 @@ msgid ""
 "mouth for emphasis. \"Mmmmmm. *Soooo* good.\" He swirls it in his mouth, his "
 "eyes closed as if he were rapt with ecstasy. \"*Soooooo* delicious.\""
 msgstr ""
+"\"Ты ничего не получишь! И еще будешь *радоваться*, - чтобы подчеркнуть это, "
+"он причмокивает конфетой во рту. - М-м-м-м. *О-о-объедение*, - он вертит "
+"конфетой во рту, его глаза закрыты, будто он пребывает в экстазе. - *Ка-а-"
+"ак* же вкусно\"."
 
 #: 29488
 msgid "\"I *want* one, and you'll *give* it to me. Now let's have it.\""
-msgstr ""
+msgstr "\"Я *хочу* конфету, и ты мне ее *дашь*. Давай ее сюда\"."
 
 #: 29489
 msgid "\"Fine, then... forget it.\""
-msgstr ""
+msgstr "\"Что ж, отлично... Забудь об этом\"."
 
 #: 29490
 msgid ""
 "\"I shall! Forgotten! Forgotten it is, you scabrous, rot-brained clatter-"
 "trap! Now farewell.\""
 msgstr ""
+"\"Именно! Забуду! Забуду, паршивый тухлоголовый пустозвон! А теперь бывай "
+"здоров\"."
 
 #: 29491
-#, fuzzy
 msgid "\"But... I had some questions...\""
-msgstr "\"Нелли... У меня есть несколько вопросов...\""
+msgstr "\"Но... У меня было несколько вопросов...\""
 
 #: 29493
 msgid ""
@@ -199,12 +235,19 @@ msgid ""
 "his mouth: \"Candies or chocolate would be nice. But nothing common, mind "
 "you - bring something *exotic.* Now begone!\""
 msgstr ""
+"\"А мне *НАЧХАТЬ*, каштан ты пустоголовый! - глаза его выпучиваются, он "
+"тычет в тебя пальцем. - А теперь пошел вон отсюда! ПОШЕЛ! ВОН! ОТСЮДА! И не "
+"возвращайся, пока не будешь готов проявить ко мне надлежащее уважение... и "
+"не принесешь с собой подарок!\" Неожиданно он подходит ближе и шепчет "
+"уголком рта: \"Хорошо бы это были конфеты или шоколад. Но учти: ничего "
+"обыкновенного, принеси что-нибудь *экзотическое*. А теперь прочь!\""
 
 #: 29494
 msgid ""
 "\"Wait... I've got this imported chocolate. I could give it to you, as "
 "gift...\""
 msgstr ""
+"\"Постой... У меня тут импортный шоколад. Я бы мог презентовать его тебе...\""
 
 #: 29495
 msgid ""
@@ -215,10 +258,16 @@ msgid ""
 "blessed, first?\" He stomps his foot with each word: \"No! No! No! I think "
 "not!\""
 msgstr ""
+"\"Как ты *смеешь* столь грубо *требовать* у меня конфеты, как будто это "
+"какое-то священное право, дарованное тебе величайшей из Сил! Может, мне "
+"просто *пасть ниц* от этой твоей прихоти, о великий? И отдать мои "
+"драгоценные конфеты твоему ошрамованному святейшеству? Может, мне сперва "
+"умастить их дорогими маслами и благословить?\" При каждом слове он топает "
+"ногой: \"Нет! Нет! Нет! Как бы не так!\""
 
 #: 29497
 msgid "\"Fine, then. Forget it.\""
-msgstr ""
+msgstr "\"Что ж, отлично. Забудь об этом\"."
 
 #: 29498
 msgid ""
@@ -227,15 +276,18 @@ msgid ""
 "conceived, reeky sod?\" He pauses his haranguing to eat a small peppermint. "
 "\"I pray you've learned yourself some *manners!*\""
 msgstr ""
+"Маг мрачнеет, следя за твоим приближением. \"Невероятно! Ты снова решил "
+"проклясть меня своим отвратительным присутствием, ты, бездумный смердящий "
+"придурок? - он прерывает свою речь, чтобы съесть маленький мятный леденец. - "
+"Надеюсь, ты научился хоть каким-то *манерам*!\""
 
 #: 29499
 msgid "\"I've brought you some imported chocolate, as a gift.\""
-msgstr ""
+msgstr "\"Я принес тебе немного импортного шоколада - в качестве подарка\"."
 
 #: 29500
-#, fuzzy
 msgid "\"I had some questions, actually...\""
-msgstr "\"Вообще-то, у меня просто несколько вопросов...\""
+msgstr "\"Вообще-то, у меня есть несколько вопросов...\""
 
 #: 29501
 msgid "\"I'll take my leave, now. Farewell.\""
@@ -246,35 +298,36 @@ msgid ""
 "\"Oh?\" His demeanor changes in an instant. \"Very kind of you, very "
 "gentlemanly! May I see?\""
 msgstr ""
+"\"О? - его поведение вмиг меняется. - Так любезно с твоей стороны, так по-"
+"джентльменски! Можно посмотреть?\""
 
 #: 29503
 msgid "Show him the chocolate quasit."
-msgstr ""
+msgstr "Показать ему шоколадного квазита."
 
 #: 29504
 msgid "\"Actually, no.\""
-msgstr ""
+msgstr "\"Вообще-то, нет\"."
 
 #: 29505
-#, fuzzy
 msgid "\"It'll have to wait. Farewell.\""
-msgstr "\"Мне нужно идти. Прощай\"."
+msgstr "\"Это подождет. Прощай\"."
 
 #: 29506
 msgid "He rears back, totally flabbergasted. \"WHAT?!\""
-msgstr ""
+msgstr "Он отступает, совершенно ошеломленный. \"ЧТО?!\""
 
 #: 29507 29512
 msgid "\"I was only jesting. Here it is...\""
-msgstr ""
+msgstr "\"Я просто пошутил. Вот...\""
 
 #: 29508
 msgid "\"I really don't think you deserve it. You've been so rude.\""
-msgstr ""
+msgstr "\"Вообще-то, я не думаю, что ты его заслужил. Ты был таким грубым\"."
 
 #: 29509
 msgid "\"I'll bring it by later. Farewell.\""
-msgstr ""
+msgstr "\"Я принесу его позже. Счастливо\"."
 
 #: 29510
 msgid ""
@@ -284,29 +337,35 @@ msgid ""
 "little puffs from my bum! *THAT* would be most rude, I assure you, and I "
 "have been *nothing* of the sort!\""
 msgstr ""
+"\"Ты... ты *что*? - он начинает подпрыгивать. - Абсурд! Нелепость! Бред! "
+"*ГРУБО* было бы превратить тебя в миску бааторийских пряных бобов, съесть "
+"тебя, а потом развеять тебя по Сигилу маленькими зловонными пуками из моего "
+"зада! Вот *ЭТО*, уж будь уверен, было бы грубо, в то время как я *ничего* "
+"подобного не сделал!\""
 
 #: 29511
 msgid "\"In any case, you're not getting it until you've apologized.\""
-msgstr ""
+msgstr "\"Как бы там ни было, ты его не получишь, пока не извинишься\"."
 
 #: 29513 29517 29522 29525 29529
-#, fuzzy
 msgid "\"Perhaps I'll bring it by later. Farewell.\""
-msgstr "\"Может быть, тогда я найду его. Прощай\"."
+msgstr "\"Возможно, я принесу его позже. Прощай\"."
 
 #: 29514
 msgid ""
 "He immediately becomes quiet, eyes narrowed suspiciously. \"You would let me "
 "*see* this gift, first, at least?\""
 msgstr ""
+"Он тут же умолкает, его глаза сужаются с подозрением. \"Ну, ты для начала "
+"хоть дашь мне *посмотреть* на этот подарок?\""
 
 #: 29515
 msgid "Give him a just a peek at the chocolate quasit."
-msgstr ""
+msgstr "Дать ему только посмотреть на шоколадного квазита."
 
 #: 29516
 msgid "\"I was really only jesting. Here, have it...\""
-msgstr ""
+msgstr "\"Я, по правде говоря, просто пошутил. Вот, держи...\""
 
 #: 29518
 msgid ""
@@ -314,15 +373,17 @@ msgid ""
 "straight back on his head. \"Oh... oh my. Is that... is that a...? He licks "
 "his lips, reaching gingerly for the chocolate quasit."
 msgstr ""
+"Шапочка старика взлетает в воздух с гулким *чпок* и приземляется ему на "
+"голову. \"Ух... ух ты. Это... это ведь?..\" Он облизывается и робко тянется "
+"к шоколадному квазиту."
 
 #: 29519 29520
-#, fuzzy
 msgid "\"Oh, no. Apology. Now.\""
-msgstr "\"Эээ... нет\"."
+msgstr "\"Э, нет. Проси прощения. Сейчас же\"."
 
 #: 29521
 msgid "Let him take it."
-msgstr ""
+msgstr "Позволить ему забрать его."
 
 #: 29523 29526
 msgid ""
@@ -330,11 +391,14 @@ msgid ""
 "Finally, he stops, brushes off his clothes, and exhales slowly. \"Very well, "
 "sir. I apologize.\" You notice he has one of his hands behind his back."
 msgstr ""
+"Он сморщивает лицо, закусывает губу и молча трясет кулаками. Наконец он "
+"останавливается, разглаживает свои одежды и медленно выдыхает. \"Очень "
+"хорошо, сэр. Прошу прощения\". Ты замечаешь, что одну руку он держит у себя "
+"за спиной."
 
 #: 29524 29528
-#, fuzzy
 msgid "\"Hmm. All right, here: a chocolate quasit.\""
-msgstr "\"Хорошо. У меня есть другие вопросы...\""
+msgstr "\"Хм. Ладно, вот шоколадный квазит\"."
 
 #: 29527
 msgid ""
@@ -342,6 +406,8 @@ msgid ""
 "\" The mage smiles innocently at you, presenting his hands for your "
 "inspection."
 msgstr ""
+"\"Молчать, болтливый... о! Я имею в виду: а что, я ничего такого не делал!\" "
+"Маг невинно улыбается тебе, предоставив свои руки для осмотра."
 
 #: 29530
 msgid ""
@@ -349,6 +415,9 @@ msgid ""
 "delectable.\" He bites off a large piece and tucks what's left into his "
 "tunic."
 msgstr ""
+"Он берет его у тебя из рук. \"О... он довольно редкий - и просто "
+"восхитительный\". Он откусывает большой кусок и прячет в тунику то, что от "
+"него осталось."
 
 #: 29531 29669
 msgid "\"I had some questions...\""
@@ -365,30 +434,31 @@ msgid ""
 "\"Come now... what is it that you wish to bother me with, or begone!\" He "
 "fishes a malt-ball from his sleeve and eats it."
 msgstr ""
+"Он нахмуривается, слизывая с пальцев остатки шоколада. \"Кто тебя надоумил "
+"надоедать мне глупыми вопросами?! - он осудительно смотрит на тебя. - Давай "
+"уже... выкладывай, чем ты там хотел мне понадокучать, или проваливай!\" Он "
+"выуживает из рукава солодовый шарик и съедает его."
 
 #: 29534 29543
 msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 29535 29544
-#, fuzzy
 msgid "\"I'd like to purchase some spells.\""
-msgstr "\"Хочется посмотреть на эту попытку\"."
+msgstr "\"Я хотел бы купить несколько заклинаний\"."
 
 #: 29537 29546
-#, fuzzy
 msgid "\"May I have some candy?\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"Можно немного конфет?\""
 
 #: 29538
 msgid ""
 "He rolls his eyes, indicating for you to continue with a wave of his hand."
-msgstr ""
+msgstr "Он закатывает глаза, взмахом руки указывая тебе продолжать."
 
 #: 29539 29547
-#, fuzzy
 msgid "\"I'd like to buy some candy.\""
-msgstr "\"Хочется посмотреть на эту попытку\"."
+msgstr "\"Я хочу купить немного конфет\"."
 
 #: 29540 29548
 msgid "\"What can you tell me about this place?\""
@@ -397,7 +467,7 @@ msgstr "\"Что ты можешь рассказать об этом месте
 #: 29541 29549
 #, fuzzy
 msgid "\"What do you know of Ravel Puzzelwell?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Ты знаешь что-нибудь о Равель Заморочке?\""
 
 #: 29542 29550 29570
 msgid "\"Nothing. Farewell.\""
@@ -410,8 +480,13 @@ msgid ""
 "be the most insolent, annoying pest this side of Sigil that I've heard so "
 "much about!\""
 msgstr ""
+"\"Я... Квелл... - он властно поднимает руку, как бы удерживая тебя от "
+"представления. - И не представляйся: ты, должно быть, и есть тот самый "
+"чемпион по хамству и занудности по эту сторону Сигила, о котором я так много "
+"слышал!\""
 
 #: 29552
+#, fuzzy
 msgid ""
 "\"A true *pleasure* to meet you, and thank the Powers it couldn't have "
 "waited until you had curled up and died, thereby sparing me the pain of "
@@ -419,14 +494,19 @@ msgid ""
 "sorcerous powers for but a minor enchantment that would pierce your thick "
 "skull and introduce at least the idea of 'manners!'\""
 msgstr ""
+"\"Как же я *рад* встретить тебя, и хвала Силам, что они не подождали, пока "
+"ты загнешься и помрешь, и не уберегли меня от мук быть вынужденным "
+"подшучивать над тобой! Я с радостью обменяю свои внушительные магические "
+"силы на малейшую возможность пробить твой толстый череп и внушить тебе хоть "
+"какое-то понятие манер!\""
 
 #: 29553
 msgid "\"Manners? What about that chocolate I brought you?\""
-msgstr ""
+msgstr "\"Манер? А как на счет того шоколада, который я тебе принес?\""
 
 #: 29554
 msgid "\"Formidable sorcerous powers? Could you teach me?\""
-msgstr ""
+msgstr "\"Внушительные магические силы? А ты не мог бы обучить меня?\""
 
 #: 29555 29590 29595 29675
 msgid "\"I had other questions...\""
@@ -437,20 +517,22 @@ msgid "\"That's all I wished to know. Farewell.\""
 msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 29557
+#, fuzzy
 msgid ""
 "He opens his mouth to speak, finger raised, then stops. \"Hmm. You have me "
 "there, sir.\" He shrugs and eats another candy."
 msgstr ""
+"Он поднимает палец и раскрывает рот, чтобы ответить, но останавливается. "
+"\"Хм. Вот тут ты меня подловил\". Он пожимает плечами и съедает еще одну "
+"конфету."
 
 #: 29558
-#, fuzzy
 msgid "\"As I thought. I had other questions...\""
-msgstr "\"Хорошо. У меня есть другие вопросы...\""
+msgstr "\"Так я и думал. У меня есть другие вопросы...\""
 
 #: 29559
-#, fuzzy
 msgid "\"That I do. Farewell.\""
-msgstr "\"Это точно. Тогда прощай\"."
+msgstr "\"Это уж точно. Прощай\"."
 
 #: 29560
 msgid ""
@@ -458,31 +540,32 @@ msgid ""
 "purses his lips and gives you a suspicious, sidelong glance through narrowed "
 "eyes."
 msgstr ""
+"Он выглядит сбитым с толку. \"Я? Шляпа? Не морочь мне голову... Я не ношу "
+"шляпу!\" Он надувает губы и с подозрением смотрит на тебя суженными глазами."
 
 #: 29561
 msgid "\"If it's not a hat, what's that glowing thing on your head?\""
-msgstr ""
+msgstr "\"Если это не шляпа, тогда что это светится у тебя на голове?\""
 
 #: 29562
-#, fuzzy
 msgid "\"No, but I have other questions...\""
-msgstr "\"Да, но меня есть еще вопросы...\""
+msgstr "\"Нет, но меня есть еще вопросы...\""
 
 #: 29563 29566
-#, fuzzy
 msgid "\"All right... never mind. Farewell.\""
-msgstr "\"Ух... неважно. Прощай\"."
+msgstr "\"Ладно... неважно. Прощай\"."
 
 #: 29564
 msgid ""
 "\"Absolute madness! I've nothing on my head... nothing, I say! And I'll "
 "speak no more on the matter, thank you.\""
 msgstr ""
+"\"Полнейший бред! Нет у меня ничего на голове... нету, говорю! И я больше не "
+"буду это обсуждать, так вот\"."
 
 #: 29565
-#, fuzzy
 msgid "\"Hmm. I have other questions...\""
-msgstr "\"Хмм. У меня были еще вопросы...\""
+msgstr "\"Хмм. У меня еще вопросы...\""
 
 #: 29567
 msgid ""
@@ -490,15 +573,17 @@ msgid ""
 "makes you think I'd *give* a candy to a shirtless, impertinent pumpion such "
 "as yourself, hmm?\" He taps his foot, arms crossed, awaiting your answer."
 msgstr ""
+"\"Конфету?! И еще разок, на всякий случай: *конфету*?! С чего, умоляю, "
+"скажи, с чего ты решил, что я *дам* конфету такому полуголому хаму как ты, м-"
+"м-м?\" Он топает ногой, скрестив руки на груди, в ожидании твоего ответа."
 
 #: 29568
 msgid "\"Would you *sell* some, then?\""
-msgstr ""
+msgstr "\"Тогда, может, *продашь* мне парочку?\""
 
 #: 29569
-#, fuzzy
 msgid "\"Nothing. I have another question...\""
-msgstr "\"Нет, у меня есть другие вопросы...\""
+msgstr "\"Ничего. У меня есть другой вопрос...\""
 
 #: 29571
 msgid ""
@@ -506,10 +591,13 @@ msgid ""
 "candies, but chocolates... of *power!*\" He draws this last word out, "
 "rubbing his hands together greedily..."
 msgstr ""
+"\"Ну, это... это я *могу*. Но предупреждаю: я торгую конфетами, но не "
+"обычными - конфетами... *силы*!\" - он протягивает последнее слово, жадно "
+"потирая руки..."
 
 #: 29572
 msgid "\"Chocolates... of power?\""
-msgstr ""
+msgstr "\"Конфеты... силы?\""
 
 #: 29573
 msgid ""
@@ -518,15 +606,18 @@ msgid ""
 "you like to see what I have to offer, hmmm?\" He cocks his head, looking at "
 "you slyly."
 msgstr ""
+"Он кивает. \"Именно. Заметь, они *недешевые*, так что если у тебя "
+"недостаточно звенелок, советую *немедленно* закрыть эту тему. Хочешь "
+"посмотреть, что у меня есть, м-м-м?\" Он склоняет голову набок и лукаво "
+"смотрит на тебя."
 
 #: 29574
 msgid "\"Yes.\""
 msgstr "\"Да\"."
 
 #: 29575
-#, fuzzy
 msgid "\"No, but I have some questions...\""
-msgstr "\"Нет, у меня есть некоторые вопросы...\""
+msgstr "\"Нет, но у меня есть пара вопросов...\""
 
 #: 29576 29667
 msgid "\"No thanks. Farewell.\""
@@ -539,9 +630,12 @@ msgid ""
 "the Festhall's foyer, Splinter, should you have any more fatuous questions "
 "about the place.\""
 msgstr ""
+"\"Ты находишься в Городском Фестхолле, в недоступном... *весьма* недоступном "
+"месте, пока *ты* не ворвался сюда... частном сенсориуме. Поговори с "
+"человеком в фойе Фестхолла, Сплинтером, если у тебя возникнут другие "
+"бессмысленные вопросы об этом месте\"."
 
 #: 29578
-#, fuzzy
 msgid "\"Let me ask about something else...\""
 msgstr "\"Позволь мне спросить кое о чем еще...\""
 
@@ -553,20 +647,23 @@ msgid ""
 "minds! Evil, evil! Such a name, such a name... and such dark tales swarm "
 "about it, like flies on a corpse.\""
 msgstr ""
+"При упоминании ее имени он громко глотает конфету, содрогнувшись от боли. "
+"\"Рассказать что?! И зачем, в конце концов? Подобные вещи, подобные рассказы "
+"лучше оставить в пыльных книгах на чердаке памяти старика! Зло, зло! Что за "
+"имя, что за имя... и что за темные истории роятся вокруг нее, как мухи над "
+"трупом\"."
 
 #: 29581
 msgid "\"Just the same, I need you to tell me.\""
-msgstr ""
+msgstr "\"Тем не менее, я хотел бы услышать о ней\"."
 
 #: 29582
-#, fuzzy
 msgid "\"Never mind; I had other questions...\""
 msgstr "\"Неважно. У меня есть другие вопросы...\""
 
 #: 29583 29602 29606 29610 29615 29619 29623 29634 29639 29651
-#, fuzzy
 msgid "\"Forget I asked. Farewell.\""
-msgstr "\"Забудь об этом. Прощай\"."
+msgstr "\"Забудь, что я спрашивал. Прощай\"."
 
 #: 29584
 msgid ""
@@ -576,36 +673,44 @@ msgid ""
 "barmy old hag... only succeeding in getting herself mazed. She's likely "
 "dead, by now.\""
 msgstr ""
+"Он закатывает глаза, закинув в рот еще одну конфету. \"Она ночная ведьма, "
+"мальчик мой, которая пришла в Сигил... всецело порочная, злобно хихикающая, "
+"исполненная своей теневой магией, готовая столкнуться лбами с Леди Боли. "
+"Чокнутая, чокнутая, чокнутая старая карга... и что ей удалось, так это "
+"попасть в лабиринт. Теперь она уже, вероятно, мертва\"."
 
 #: 29585
 msgid "\"Shadow-magic?\""
-msgstr ""
+msgstr "\"Теневая магия?\""
 
 #: 29586 29587 29593 29594 29673 29674
-#, fuzzy
 msgid "\"How might I find her?\""
-msgstr "\"Как мне выбраться отсюда?\""
+msgstr "\"Как бы мне ее найти?\""
 
 #: 29588
-#, fuzzy
 msgid "\"Mazed?\""
-msgstr "\"Морт!\""
+msgstr "\"Лабиринт?\""
 
 #: 29589
 msgid "\"The Lady of Pain?\""
-msgstr ""
+msgstr "\"Леди Боли?\""
 
 #: 29591 29596 29676
 msgid "\"That's all I wished to know, farewell.\""
 msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 29592
+#, fuzzy
 msgid ""
 "\"Yes, yes, yes...\" He seems uneasy about speaking of her. \"Ravel "
 "dabbled... no, not dabbled, but *excelled* in all schools of magic. She knew "
 "shadow magics, magics of illusion and shadow substance, shadows, residues of "
 "dead things.\""
 msgstr ""
+"\"Да, да, да... - ему, похоже, неловко о ней говорить. - Равель кое-что "
+"понимала... да нет, не кое-что - она была *лучшей* во всех магических "
+"школах. Она знала теневую магию - магию иллюзии и материи теней, останков "
+"мертвых\"."
 
 #: 29597
 msgid ""
@@ -613,25 +718,29 @@ msgid ""
 "tiles. Before you can so much as look at it, he snatches it up and pops it "
 "back into his mouth, giving you a dirty look."
 msgstr ""
+"\"Как бы тебе ЧТО?!\" Его конфета вылетает изо рта и падает на пол. Ты не "
+"успеваешь и глянуть на нее, как он подхватывает и кидает ее обратно в рот, "
+"окинув тебя раздражененный взгляд."
 
 #: 29598
 msgid ""
 "\"Why... why would you *ask* such a thing? Are you *MAD?* What could you "
 "possibly want with such an evil creature?\""
 msgstr ""
+"\"Зачем... зачем тебе *спрашивать* о подобном? Ты что, *СПЯТИЛ*? Да что тебе "
+"вообще понадобилось от этой злобной твари?\""
 
 #: 29599
 msgid "\"She knows something about my past.\""
-msgstr ""
+msgstr "\"Она кое-что знает о моем прошлом\"."
 
 #: 29600
 msgid "\"Never mind that - what did you say about 'shadow magic?'\""
-msgstr ""
+msgstr "\"Не обращай внимания... так что ты там говорил о теневой магии?\""
 
 #: 29601 29605 29609 29614 29618 29622 29633
-#, fuzzy
 msgid "\"Forget it. I had other questions...\""
-msgstr "\"Забудь об этом. У меня есть некоторые вопросы...\""
+msgstr "\"Забудь об этом. У меня есть другие вопросы...\""
 
 #: 29603
 msgid ""
@@ -641,10 +750,15 @@ msgid ""
 "*you?* If she wasn't the spitting image of cackling evil, that is, and was "
 "even *willing* to help you...\""
 msgstr ""
+"\"Сомневаюсь... ее заточили в лабиринт много веков назад. Нет уже ее - "
+"попала в книгу мертвых. И даже если она почему-то, по *как-то* причине все "
+"еще держится за жизнь своими почерневшими от крови когтями, что она *может* "
+"знать о *тебе*? То есть, не будь она точным воплощением хихикающего зла, и "
+"даже если бы она *хотела* тебе помочь...\""
 
 #: 29604
 msgid "\"I'll just have to hope she's alive and will help me.\""
-msgstr ""
+msgstr "\"Я просто надеюсь, что она жива и поможет мне\"."
 
 #: 29607
 msgid ""
@@ -652,26 +766,34 @@ msgid ""
 "hope hurled into the howling winds of Pandemonium that is! *Flicker-flicker-"
 "whooosh!* Don't be any more the fool than you need be!\""
 msgstr ""
+"\"Во имя шести сисек Лиши и ее вздутого животика, что это, если не мерцающая "
+"свеча надежды, закинутая в воющие ветра Пандемониума! *Блим-блим-уууу*! Не "
+"будь глупее, чем это необходимо!\""
 
 #: 29608
 msgid "\"I must still seek her out, whether she's dead or alive.\""
-msgstr ""
+msgstr "\"Мне в любом случае нужно ее найти, жива она или мертва\"."
 
 #: 29611
+#, fuzzy
 msgid ""
 "\"So if she's dead - as she most likely is - then what is your plan, may I "
 "ask? You have everything all figured out, do you? Quell is just blowing "
 "words out of his pits, nonsense, nothing! What *do* you plan to do if she's "
 "in the dead-book, eh?\""
 msgstr ""
+"\"Итак, если она мертва, а она наверняка мертва, то какой будет твой план, "
+"могу я поинтересоваться? Ты ведь все продумал, не так ли? Квелл просто "
+"сыплет словами изо всех дыр! Что *именно* ты планируешь предпринять, если "
+"она в книге мертвых, а?\""
 
 #: 29612
 msgid "\"I don't know. I'll figure something out.\""
-msgstr ""
+msgstr "\"Не знаю. Что-нибудь придумаю\"."
 
 #: 29613
 msgid "\"What do you think I should do?\""
-msgstr ""
+msgstr "\"И что же, по-твоему, я должен сделать?\""
 
 #: 29616
 msgid ""
@@ -681,11 +803,15 @@ msgid ""
 "alive. I might as well be talking to a lemure for all the barmy foolishness "
 "you're spouting out!\""
 msgstr ""
+"\"Вай, вай, вай, да это же лучший план, который я когда-либо слышал! "
+"Чистейший, ослепительно белый дух идеи! Без понятия, как пробраться в "
+"лабиринт, как выбраться оттуда, жива ли она, и, конечно же, без понятия, что "
+"делать, если она жива. Да я с таким же успехом мог бы разговаривать с "
+"лемуром, учитывая все то бредовое безрассудство, извергаемое тобой!\""
 
 #: 29617 29632
-#, fuzzy
 msgid "\"Can you tell me how to get to her maze?\""
-msgstr "\"Ты можешь мне сказать, как мне выбраться отсюда?\""
+msgstr "\"Ты можешь мне сказать, как добраться до ее лабиринта?\""
 
 #: 29620
 msgid ""
@@ -696,12 +822,21 @@ msgid ""
 "thrice-dead and... if by some happenstance she isn't... she'll make *you* "
 "dead!\""
 msgstr ""
+"\"Сумасшедший! Безумец! Пустоголовый! Ты что, не слышал, о чем я говорил?! "
+"Она заключена в межпространственный *лабиринт* за то, что пыталась "
+"переплюнуть саму *ЛЕДИ БОЛИ*! Это значит, что она как минимум вдесятеро "
+"более чокнутая чем ты, и, по крайней мере, в сотню раз более могущественная! "
+"Да она, скорее всего, мертва, мертва, мертва, трижды мертва... и даже если "
+"по какой-то счастливой случайности она выжила... она сделает мертвым *тебя*!"
+"\""
 
 #: 29621
 msgid ""
 "\"I understand, but I really need your help. Can you tell me how to reach "
 "her or not?\""
 msgstr ""
+"\"Понимаю, но мне действительно нужна твоя помощь. Ты можешь подсказать мне, "
+"как до нее добраться, или нет?\""
 
 #: 29624
 msgid ""
@@ -710,20 +845,31 @@ msgid ""
 "Serious now? Why so serious, so Baator-bent, so mule-stubborn?\" He sighs. "
 "\"Well, born Clueless, die Clueless.\""
 msgstr ""
+"Квелл умолкает, пожевывая губу. Пару секунд спустя он выуживает из туники "
+"мятный леденец и закидывая его себе в рот. \"Ты серьезно? На полном серьезе? "
+"К чему вся эта серьезность, это стремление в Баатором, эта ослиная "
+"упрямость? - он вздыхает. - Что ж, бестолочью больше - бестолочью меньше\"."
 
 #: 29626
+#, fuzzy
 msgid ""
 "\"All mazes have portals; this much I *know* to be true. A way in, a way "
 "out... this is how the Lady fashions them. I do not know the portal - its "
 "location, or even its form - but I am told its key... is a piece of Ravel.\""
 msgstr ""
+"\"Во всех лабиринтах есть порталы; уж это я *знаю* наверняка. Вход, выход... "
+"именно так их и строит Леди Боли. Я ничего не знаю о портале - ни его "
+"расположение, ни даже форму, - но мне рассказывали о ключе к нему... это "
+"кусочек Равель\"."
 
 #: 29627
+#, fuzzy
 msgid ""
 "\"A piece of Ravel? But if Ravel is MAZED, then how am I supposed to...\""
-msgstr ""
+msgstr "\"Кусочек Равель? Но если Равель в ЛАБИРИНТЕ, то как же мне тогда...\""
 
 #: 29628
+#, fuzzy
 msgid ""
 "\"Then you'll have to make do. Find something that has Ravel's taint in it, "
 "mayhap... that is all I know! All! Bother me no more about it! If you want "
@@ -731,15 +877,20 @@ msgid ""
 "Slating Intellectual Lust -- one of the ladies there is bound to have met "
 "someone or know something that'll help.\""
 msgstr ""
+"\"Значит, тебе придется довольствоваться тем, что есть. Знаешь что, найди "
+"что-нибудь, зараженное Равель... это все, что я знаю! Все! И больше не "
+"беспокой меня этим! Если хочешь понадоедать еще кому-нибудь на этот счет, "
+"направляйся в Бордель утоления интеллектуальной страсти - одна из тамошних "
+"дамочек наверняка встречала кого-то, либо слышала нечто, что может тебе "
+"помочь\"."
 
 #: 29629
 msgid "\"Thanks. I had other questions...\""
 msgstr "\"Спасибо. У меня есть другие вопросы...\""
 
 #: 29630
-#, fuzzy
 msgid "\"My thanks for your help. Farewell.\""
-msgstr "\"Спасибо за совет. Прощай\"."
+msgstr "\"Благодарю за помощь. Прощай\"."
 
 #: 29631
 msgid ""
@@ -748,19 +899,23 @@ msgid ""
 "lope back into whatever crypt you crawled out of! Makes far more sense than "
 "fishing for the Lady's anger, it does.\""
 msgstr ""
+"\"Первый блестящий вопрос из тех, что ты задал! По-моему? *Я* считаю, что "
+"тебе следует бросить эту бестолковую идею насчет того, чтобы пробраться в "
+"лабиринты, поболтать с ночной ведьмой и заскочить назад в склеп, откуда ты "
+"выполз! Это намного лучшая мысль, чем нарываться на гнев Леди, это уж точно"
+"\"."
 
 #: 29635
 msgid "\"*Teach* you?! Hah! Are you even a *mage?*\""
-msgstr ""
+msgstr "\"*Учить* тебя?! Ха! А ты что, еще и *маг*?\""
 
 #: 29636
-#, fuzzy
 msgid "\"Yes, I am.\""
 msgstr "\"Да\"."
 
 #: 29637
 msgid "\"No, but I was hoping you could make me one.\""
-msgstr ""
+msgstr "\"Нет, но я надеялся, что ты поможешь мне им стать\"."
 
 #: 29638 29650 29654 29658 29662
 msgid "\"Forget it. I had some other questions...\""
@@ -772,11 +927,14 @@ msgid ""
 "Kicking to throw down upon you! NO!!! I will most certainly *not* make you a "
 "mage, you boil-brained puttock! To do so would be to demean the Art!\""
 msgstr ""
+"Он усмехается тебе. \"О-о-о, если бы только у меня был Ботинок Праведного "
+"Задопинания Бигзби, чтобы кинуть им в тебя! НЕТ!!! Я абсолютно точно *не "
+"сделаю* из тебя мага, болван ты эдакий с бульоном вместо мозгов! Сделать "
+"такое - значит, унизит Искусство!\""
 
 #: 29641
-#, fuzzy
 msgid "\"I had some other questions, then...\""
-msgstr "\"Да, у меня есть еще вопросы...\""
+msgstr "\"Тогда у меня есть несколько вопросов...\""
 
 #: 29642
 msgid "\"Never mind, then. Farewell.\""
@@ -787,20 +945,20 @@ msgid ""
 "\"Oh! What wonders the multiverse holds for Quell today! Come, let me see "
 "your spell-book.\""
 msgstr ""
+"\"О! Что за чудеса припасены на сегодня мультивселенной для Квелла! Давай, "
+"показывай свою книгу заклинаний\"."
 
 #: 29644
 msgid "Let him look at it."
-msgstr ""
+msgstr "Позволить ему осмотреть ее."
 
 #: 29645
-#, fuzzy
 msgid "\"I think not. Let me ask you something else...\""
-msgstr "\"Понятно. Позволь мне спросить кое о чем еще...\""
+msgstr "\"Не думаю. Позволь мне спросить кое о чем еще...\""
 
 #: 29646
-#, fuzzy
 msgid "\"Perhaps another time. Farewell.\""
-msgstr "\"Возможно в другой раз. Прощай\"."
+msgstr "\"Может, в другой раз. Прощай\"."
 
 #: 29647
 msgid ""
@@ -810,14 +968,19 @@ msgid ""
 "towel, so soaked in spirits, glue and blood it is! Do you not care for your "
 "spell book?! How can I teach someone who does not respect the Art?!\""
 msgstr ""
+"Он вырывает ее у тебя из рук и неистово листает. \"Это еще что за мусор?! Я "
+"тебе отвечу: дерьмо! Дерьмо, дерьмо, дерьмо! Как ты вообще разбираешь "
+"заклинания на этих грязных страницах... ты, небось, подставляешь ее под пиво "
+"- она вся в выпивке, клею и крови! Да ты не ухаживаешь за своей книгой "
+"заклинаний?! Как я могу учить того, кто не уважает Искусство?!\""
 
 #: 29648
 msgid "\"Why does its appearance matter?\""
-msgstr ""
+msgstr "\"Почему ее вид имеет значение?\""
 
 #: 29649
 msgid "\"It holds my spells. Its appearance is unimportant.\""
-msgstr ""
+msgstr "\"В ней мои заклинания. Ее вид значения не имеет\"."
 
 #: 29652
 msgid ""
@@ -827,25 +990,31 @@ msgid ""
 "vellum edged with gold leaf! Everything in its proper place, or not at all!"
 "\" He begins to hop about madly. \"Proper place! Proper place!\""
 msgstr ""
+"\"Внешний вид твоей книги заклинаний должен отражать твое уважение к силам, "
+"которые она хранит. Эта твоя дрянная книженция годится только для простейших "
+"чар! *Истинные* заклинания следует записывать редкими дорогими чернилами на "
+"пергаментных листах, окаймленных листовым золотом! Все должно быть как надо, "
+"или вообще никак! - он начинает бешено скакать. - Как надо! Как надо!\""
 
 #: 29653
 msgid "\"I... see. Can you teach me or not?\""
-msgstr ""
+msgstr "\"Понятно... Так ты научишь меня, или нет?\""
 
 #: 29655 29659 29663
-#, fuzzy
 msgid "\"Forget I ever asked. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай\"."
+msgstr "\"Забудь, что я даже спрашивал. Прощай\"."
 
 #: 29656
 msgid ""
 "\"Ridiculous! Preposterous! I most laughable notion, if I ever heard one! "
 "Whoever *taught* you the Art?\""
 msgstr ""
+"\"Нелепость! Абсурд! Да это самое смехотворное утверждение из тех, что я "
+"слышал! И кто же *учил* тебя Искусству?\""
 
 #: 29657
 msgid "\"A midwife in Ragpicker's Square, Mebbeth.\""
-msgstr ""
+msgstr "\"Повитуха с площади Старьевщиков, Меббет\"."
 
 #: 29660
 msgid ""
@@ -854,10 +1023,14 @@ msgid ""
 "sullying magicks with hoodoo names and mumbo-jumbo wash! Trivial, tiny, "
 "flickering candle-like magicks with grandiose names!\""
 msgstr ""
+"\"Писать такую неописуемую чушь - значит, позорить свое имя! Погляди на эти "
+"заклинание! Что за бредовое дерьмо тут накалякано: грязное волшебство с "
+"названиями сглазов и мумба-юмбой! Банальная, мелочная, мерцающая как свеча "
+"магия с напыщенными названиями!\""
 
 #: 29661
 msgid "\"So why does its appearance matter?\""
-msgstr ""
+msgstr "\"И все же, почему же ее вид имеет значение?\""
 
 #: 29664
 msgid ""
@@ -866,16 +1039,18 @@ msgid ""
 "however, have some spells you might wish to *purchase* from me. Would you "
 "care to see them? Hmmm?\""
 msgstr ""
+"Он закрывает глаза и пару секунд массирует виски. Наконец он произносит "
+"холодным ровным тоном: \"Очевидно, что я ничему не смогу тебя научить. "
+"Однако у меня имеются кое-какие заклинания, которые ты, возможно, захочешь "
+"*приобрести*. Хочешь на них посмотреть? М-м-м?\""
 
 #: 29665
-#, fuzzy
 msgid "\"Yes, I would.\""
 msgstr "\"Да\"."
 
 #: 29666
-#, fuzzy
 msgid "\"Not now. I had some other questions...\""
-msgstr "\"Нет, нет... У меня есть некоторые вопросы...\""
+msgstr "\"Не сейчас. У меня есть еще несколько вопросов...\""
 
 #: 29668
 msgid ""
@@ -883,11 +1058,14 @@ msgid ""
 "sighs loudly. \"Well, out with it! What do you wish of me *now,* hmm?\" He "
 "plops a candy into his mouth and looks at you expectantly."
 msgstr ""
+"Квелл оглядывается вокруг, когда ты подходишь. \"Проклятье! Уже негде "
+"спрятаться! - он громко вздыхает. - Ну, выкладывай! Что ты *теперь* от меня "
+"хочешь, м-м-м?\" Он закидывает себе в рот конфету и выжидающе смотрит на "
+"тебя."
 
 #: 29670
-#, fuzzy
 msgid "\"Nothing, I was only passing by. Farewell.\""
-msgstr "\"Я просто проходил мимо. Прощай\"."
+msgstr "\"Ничего, я просто проходил мимо. Прощай\"."
 
 #: 29671
 msgid ""
@@ -897,34 +1075,46 @@ msgid ""
 "and banishing it to who-knows-where, the offender trapped inside. Gone, "
 "gone, gone they are to the planes, then!\""
 msgstr ""
+"Он мрачно кивает. \"Леди Боли, она... 'правит' городом Сигил: держит Силы "
+"подальше от него, и тому подобное. Одним из наказаний, припасенных ею для "
+"тех, кто пересекает ей дорогу, является заключение в лабиринт... она "
+"откалывает кусок Сигила, перекручивает и забрасывает его черт-знает-куда "
+"вместе с провинившимся внутри. И тогда он пропал, пропал, пропал для планов!"
+"\""
 
 #: 29672
 msgid "\"You had mentioned 'shadow-magic?'\""
-msgstr ""
+msgstr "\"Ты упоминал магию теней...\""
 
 #: 50720
 msgid "\"Lady Thorncombe, here in the Festhall.\""
-msgstr ""
+msgstr "\"Леди Торнкомб, здесь, в Фестхолле\"."
 
 #: 66703
+#, fuzzy
 msgid ""
 "Quell suggested that I go to the Brothel of Slating Intellectual Lusts in "
 "search of the key to Ravel's Maze. He claimed that at least one of the "
 "ladies there will most likely have met someone who - or know something that "
 "- can help me."
 msgstr ""
+"Квел посоветовал мне отправиться в Бордель утоления интеллектуальной страсти "
+"на поиски ключа к лабиринту Равель. Он утверждает, что, по крайней мере, "
+"одна из тамошних дам, скорее всего, встречала кого-то, или знает что-нибудь, "
+"что может мне помочь."
 
 #: 67160
 msgid "\"A mage I met in the Lower Ward, Sebastion.\""
-msgstr ""
+msgstr "\"Маг, которого я встретил в Нижнем районе, Себастион\""
 
 #: 67161
 msgid "\"A woman I met in Curst, Kitla.\""
-msgstr ""
+msgstr "\"Женщина, которую я встретил в Проклятом, Китла\"."
 
 #: 68057
 msgid "\"Fine... I'll look around the Ward for something suitable, then.\""
 msgstr ""
+"\"Отлично... В таком случае, я поищу на районе что-нибудь подходящее\"."
 
 #: 68058
 msgid ""
@@ -934,8 +1124,12 @@ msgid ""
 "sort... they must be 'exotic.' I told him that I'd find somewhere in the "
 "Clerk's Ward that sold such things."
 msgstr ""
+"Весьма эксцентричный маг по имени Квелл отказывается разговаривать со мной "
+"на том основании, что я не проявил к нему должного уважения, не сделав ему "
+"подарок. Он намекнул, что это должны быть конфеты или шоколад, но они не "
+"могут быть обыкновенными... они должны быть 'экзотическими'. Я сказал ему, "
+"что посмотрю, продаются ли подобные вещи где-нибудь в Чиновничьем районе."
 
 #: 68083
-#, fuzzy
 msgid "\"My question...?\""
-msgstr "\"Вопрос...\""
+msgstr "\"Мой вопрос?..\""

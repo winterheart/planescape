@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dthornco.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 03:24+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-06-15 20:24+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 2943
@@ -20,6 +20,10 @@ msgid ""
 "She is dressed in elegant, yet disheveled finery, and her hair is slightly "
 "tussled."
 msgstr ""
+"Эта привлекательная женщина средних лет мечтательно бродит туда-сюда, "
+"рассеянно жуя ноготь на большом пальце; взгляд ее устремлен в никуда. Одета "
+"она в элегантные, хоть и немного измятые одежды, а волосы ее слегка "
+"взъерошены."
 
 #: 31030 31326
 msgid ""
@@ -27,12 +31,17 @@ msgid ""
 "Festhall's many sensoriums. She refuses to train me... although I'm not sure "
 "why."
 msgstr ""
+"Я встретил Леди Торнкомб, наставницу магов, в Чиновничьем районе, в одном из "
+"множества сенсориумов Фестхолла. Она отказывается обучать меня... хотя я и "
+"не пойму, почему."
 
 #: 31261
 msgid ""
 "\"Hm?\" She takes her thumb from her mouth, smoothing back a strand of hair "
 "that had fallen in front of her eyes."
 msgstr ""
+"\"Хм?\" Она убирает палец изо рта и приглаживает назад локон, опустившийся "
+"ей на глаза."
 
 #: 31262
 msgid "\"Greetings...\""
@@ -44,41 +53,43 @@ msgstr "Оставить женщину в покое."
 
 #: 31264 31288 31338
 msgid "\"Are you, by chance, Lady Thorncombe?\""
-msgstr ""
+msgstr "\"Ты случайно не Леди Торнкомб?\""
 
 #: 31265 31339
 msgid "\"I had some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 31266 31340
-#, fuzzy
 msgid "\"Don't mind me. Farewell.\""
-msgstr "\"Ничего. Прощай\"."
+msgstr "\"Не обращай внимания. Счастливо\"."
 
 #: 31267
 msgid ""
 "Her eyes widen momentarily. She looks away from you. \"No. No, I am not, sir."
 "\""
 msgstr ""
+"Ее глаза моментально расширяются. Она отворачивается от тебя. \"Нет-нет, это "
+"не я, сэр\"."
 
 #: 31268
 msgid ""
 "\"But I think that you are, madam. I was told you are the mages' tutor of "
 "the Civic Festhall.\""
 msgstr ""
+"\"Я все же думаю, что это ты, госпожа. Мне сказали, что ты наставница магов "
+"в Городском Фестхолле\"."
 
 #: 31269 31329 31336
 msgid "\"You're a terrible liar, you know.\""
-msgstr ""
+msgstr "\"Лгунья из тебя неважная, знаешь ли\"."
 
 #: 31270
 msgid "\"Who are you, then, if I may ask?\""
-msgstr ""
+msgstr "\"Тогда кто ты, могу ли я поинтересоваться?\""
 
 #: 31271 31331
-#, fuzzy
 msgid "\"Just the same, I had some questions...\""
-msgstr "\"Ну хорошо, у меня есть другие вопросы...\""
+msgstr "\"И все же у меня есть несколько вопросов...\""
 
 #: 31272 31332
 msgid "\"I'll take my leave, then. Farewell.\""
@@ -89,15 +100,16 @@ msgid ""
 "Lady Thorncombe puts on a sullen look. \"And if I was this woman? What of it?"
 "\""
 msgstr ""
+"Леди Торнкомб угрюмо смотрит на тебя. \"А хоть бы я и была той женщиной? Что "
+"с того?\""
 
 #: 31274
 msgid "\"I had hoped to receive training in the magical arts.\""
-msgstr ""
+msgstr "\"Я надеялся пройти обучение магическим искусствам\"."
 
 #: 31275
-#, fuzzy
 msgid "\"Then I had some questions for you...\""
-msgstr "\"Послушай, у меня есть вопросы к тебе...\""
+msgstr "\"Тогда у меня есть несколько вопросов к тебе...\""
 
 #: 31276 31316
 msgid "\"Nothing, never mind. Farewell.\""
@@ -108,16 +120,16 @@ msgid ""
 "\"I shall dash your hopes to pieces, then. I no longer wish to teach "
 "magic... now go, leave me in peace.\""
 msgstr ""
+"\"Тогда я разобью твои надежды. Я больше не хочу обучать магии... а теперь "
+"уходи, оставь меня в покое\"."
 
 #: 31278
-#, fuzzy
 msgid "\"But why not?\""
-msgstr "\"Почему?\""
+msgstr "\"Но почему?\""
 
 #: 31279
-#, fuzzy
 msgid "\"Before I leave you, I had some questions...\""
-msgstr "\"Перед тем, как я уйду, я задам несколько вопросов...\""
+msgstr "\"Перед тем, как уйти, я задам несколько вопросов...\""
 
 #: 31280
 msgid "\"Farewell.\""
@@ -125,18 +137,19 @@ msgstr "\"Прощай\"."
 
 #: 31281
 msgid "\"As if it were any concern of yours!\""
-msgstr ""
+msgstr "\"Как будто это хоть как-то тебя касается!\""
 
 #: 31282
 msgid ""
 "\"But it is... I seek to learn, and you can teach. I would know what I might "
 "do to convince you to train me.\""
 msgstr ""
+"\"Но это так... Я хочу учиться, ты можешь учить. Хотел бы я знать, как мне "
+"убедить тебя обучать меня\"."
 
 #: 31283 31295 31298
-#, fuzzy
 msgid "\"Fine, then. Farewell.\""
-msgstr "\"Я так и сделаю. Прощай Морт\"."
+msgstr "\"Тогда ладно. Прощай\"."
 
 #: 31284 31365
 msgid ""
@@ -144,40 +157,41 @@ msgid ""
 "our spells merely crutches against this deficiency. When one's sorcery is "
 "spent, the core of combat still remains.\""
 msgstr ""
+"Она качает головой. \"Это не всегда так... маги физически немощны, наши "
+"заклинания - словно костыли, восполняющие нашу неполноценность. Когда магия "
+"потрачена, суть битвы все еще остается\"."
 
 #: 31285
 msgid "\"I see. I had other questions...\""
 msgstr "\"Понятно. У меня были еще вопросы...\""
 
 #: 31286 31366
-#, fuzzy
 msgid "\"I understand. Thanks, and farewell.\""
-msgstr "\"Хорошо. Спасибо и прощай\"."
+msgstr "\"Понимаю. Спасибо и прощай\"."
 
 #: 31287
 msgid "\"Very well, ask what you wish.\" She sounds apathetic."
-msgstr ""
+msgstr "\"Очень хорошо, спрашивай, что хочешь\". Голос ее звучит равнодушно."
 
 #: 31289
 msgid ""
 "\"Qui-Sai won't train me... he says spells are more effective than melee in "
 "combat. What do you think?\""
 msgstr ""
+"\"Ки-Саи не хочет меня обучать... он говорит, что в бою магия эффективнее "
+"рукопашной схватки. Что ты об этом думаешь?\""
 
 #: 31290
-#, fuzzy
 msgid "\"I had questions about you...\""
-msgstr "\"У меня есть вопросы к тебе...\""
+msgstr "\"У меня есть вопросы на счет тебя...\""
 
 #: 31291
-#, fuzzy
 msgid "\"I had questions about this place...\""
-msgstr "\"У меня вопрос насчет Перемирия со Смертью...\""
+msgstr "\"У меня вопрос об этом месте...\""
 
 #: 31292 31372
-#, fuzzy
 msgid "\"Never mind, actually. Farewell.\""
-msgstr "\"Ничего особенного, Нелли. Прощай\"."
+msgstr "\"Вообще-то, ничего особенного. Прощай\"."
 
 #: 31293
 msgid ""
@@ -185,10 +199,14 @@ msgid ""
 "little you can offer me which I cannot find on my own. The sensory stones "
 "provide me with all things that my considerable wealth cannot buy.\""
 msgstr ""
+"Она громко вздыхает и продолжает жевать ноготь на большом пальце. "
+"\"Сомневаюсь, что ты можешь предложить мне хоть что-то из того, что я не "
+"могу достать сама. Камни переживаний обеспечивают меня всем, чего я не могу "
+"купить на свое внушительное состояние\"."
 
 #: 31294
 msgid "\"The sensory stones?\""
-msgstr ""
+msgstr "\"Камни переживаний?\""
 
 #: 31296
 msgid ""
@@ -196,10 +214,13 @@ msgid ""
 "When I first came to these halls, I spent little time with them. Only now do "
 "I realize what I had been missing...\""
 msgstr ""
+"\"М-м-м, да... в каждом из камней записаны те или иные переживания. Когда я "
+"впервые пришла в эти залы, я проводила с ними мало времени. Только теперь я "
+"понимаю, как много всего пропустила...\""
 
 #: 31297
 msgid "\"What had you been missing?\""
-msgstr ""
+msgstr "\"Что же ты пропустила?\""
 
 #: 31299
 msgid ""
@@ -208,6 +229,10 @@ msgid ""
 "instructor of magic. I wonder what I could do to convince her to teach once "
 "more..."
 msgstr ""
+"Леди Торнкомб, похоже, впала в зависимость от камней переживаний, и отдает "
+"предпочтение трате своего времени на испытание чужих переживаний перед тем, "
+"чтобы продолжить выполнение своих обязанностей в качестве наставника магии. "
+"Интересно, смогу ли я убедить ее продолжить обучение..."
 
 #: 31300
 msgid ""
@@ -216,10 +241,14 @@ msgid ""
 "after wondrous experience... mere words cannot express their magnificence. I "
 "can only suggest you see for yourself, sir.\""
 msgstr ""
+"Она кивает, улыбаясь. Ее глаза принимают стеклянный блеск, она начинает "
+"вести себя скрытно. \"Здесь, среди камней, можно прожить целую жизнь... одно "
+"изумительное впечатление за другим... их великолепие не можно передать "
+"простыми словами. Могу лишь посоветовать попробовать это самому, сэр\"."
 
 #: 31301
 msgid "\"You sound... addicted.\""
-msgstr ""
+msgstr "\"Ты, кажется... пристрастилась\"."
 
 #: 31302
 msgid "\"Perhaps I will. Farewell.\""
@@ -232,12 +261,18 @@ msgid ""
 "ungrateful magelings, when I could remain here among these precious stones, "
 "living one hundred new lives each day?\""
 msgstr ""
+"Она сердито отвечает: \"Вздор! Я могу остановиться в любую минуту! Я просто "
+"*решила* насладиться этим чудом. Зачем учить неблагодарных подмастерьев-"
+"оболтусов, когда можно оставаться здесь, среди этих драгоценных камней, "
+"проживая по сотне новых жизней в день?\""
 
 #: 31304
 msgid ""
 "\"I don't think the stones are there for that. Shouldn't you seek sensations "
 "of your own to share?\""
 msgstr ""
+"\"Не думаю, что камни здесь для этого. Может, тебе самой следует поискать "
+"переживания, которыми можно было бы поделиться?\""
 
 #: 31305
 msgid "\"Never mind, then. Farewell.\""
@@ -245,7 +280,7 @@ msgstr "\"Тогда неважно. Прощай\"."
 
 #: 31306
 msgid "\"Hpmh! What *you* think matters little to me. Farewell.\""
-msgstr ""
+msgstr "\"Пф! *Твое* мнение меня не сильно волнует. Счастливо\"."
 
 #: 31307 31355
 msgid "Leave."
@@ -256,38 +291,41 @@ msgid ""
 "As you begin to ask your question, you realize she's not looking at you... "
 "let alone paying you any attention."
 msgstr ""
+"Когда ты начинаешь задавать вопрос, ты понимаешь, что она и не смотрит на "
+"тебя... не говоря уже о том, чтобы обратить на тебя внимание."
 
 #: 31309
-#, fuzzy
 msgid "\"Hello? I had a question...\""
-msgstr "\"У меня есть другой вопрос...\""
+msgstr "\"Привет? У меня вопрос...\""
 
 #: 31310
 msgid "\"Lady Thorncombe? My question...\""
-msgstr ""
+msgstr "\"Леди Торнкомб? Мой вопрос...\""
 
 #: 31311
 msgid "Leave her."
-msgstr ""
+msgstr "Оставить ее."
 
 #: 31312
 msgid ""
 "Lady Thorncombe sneers. \"And you're a horribly scarred ruin of a man, more "
 "a corpse given some sad semblance of life than anything else. Now go away.\""
 msgstr ""
+"Леди Торнкомб усмехается. \"А ты - изуродованная шрамами человеческая "
+"развалина, больше похожая на труп с жалким подобием жизни. Убирайся сейчас же"
+"\"."
 
 #: 31313
 msgid "\"Speak to me that way and *you'll* end up the corpse.\""
-msgstr ""
+msgstr "\"Поговори со мной так - и *сама* станешь трупом\"."
 
 #: 31314
 msgid "\"Wait... I had hoped to receive training in the magical arts.\""
-msgstr ""
+msgstr "\"Погоди... Я надеялся получить обучение магическим искусствам\"."
 
 #: 31315
-#, fuzzy
 msgid "\"Not yet. I had some questions for you...\""
-msgstr "\"Ясно. У меня есть другие вопросы для тебя...\""
+msgstr "\"Еще нет. У меня есть другие вопросы к тебе...\""
 
 #: 31317
 msgid ""
@@ -295,21 +333,26 @@ msgid ""
 "you a bit intimidating. I myself shall begin to find it insulting - rather "
 "than amusing - soon... and I'm certain you won't wish to be around, then.\""
 msgstr ""
+"Она издевательски смеется над тобой. \"Иди бей себя в грудь перед тем, кто "
+"находит тебя хоть немного страшным. Вскоре мне это начнет казаться уже не "
+"забавным, а оскорбительным... и тогда лучше бы тебя не было поблизости\"."
 
 #: 31318
 msgid ""
 "\"On the contrary: let's just cut to the chase and have it out, you haughty "
 "witch.\""
 msgstr ""
+"\"Напротив: давай уже перейдем к сути и посмотрим, ты, надменная ведьма\"."
 
 #: 31319
 msgid ""
 "\"I... hadn't meant for things to go this way. Allow me to apologize...\""
 msgstr ""
+"\"Я... не предполагал такого развития событий. Позволь мне извиниться...\""
 
 #: 31320
 msgid "\"I leave because I tire of you, and for no other reason. Farewell.\""
-msgstr ""
+msgstr "\"Я ухожу, потому что устал от тебя, и только. Прощай\"."
 
 #: 31321
 msgid "Just walk away."
@@ -320,50 +363,56 @@ msgid ""
 "She shakes her head, sighing loudly. \"I would gladly accept your apology, "
 "if only you'd leave me be.\""
 msgstr ""
+"Она качает головой с громким вздохом. \"Я с радостью приму твои извинения, "
+"если только ты оставишь меня в покое\"."
 
 #: 31323
 msgid "\"But I had hoped to receive training in the magical arts.\""
-msgstr ""
+msgstr "\"Но я ведь надеялся обучиться магическим искусствам\"."
 
 #: 31324
-#, fuzzy
 msgid "\"In a moment; I had some questions for you...\""
-msgstr "\"Сифилитик, у меня есть еще вопросы к тебе...\""
+msgstr "\"Минутку, у меня есть еще вопросы к тебе...\""
 
 #: 31325
-#, fuzzy
 msgid "\"I will, then. Farewell.\""
-msgstr "\"Я так и сделаю. Прощай Морт\"."
+msgstr "\"Тогда я так и сделаю. Прощай\"."
 
 #: 31327
 msgid "She smiles nervously. \"No one of consequence, I assure you.\""
-msgstr ""
+msgstr "Она нервно улыбается. \"Это неважно, уверяю тебя\"."
 
 #: 31328
 msgid ""
 "\"But I think that you are, madam. You are Lady Thorncombe, mages' tutor of "
 "the Civic Festhall.\""
 msgstr ""
+"\"А вот я думаю что это ты. Ты - Леди Торнкомб, наставница магов Городского "
+"Фестхолла\"."
 
 #: 31330
 msgid "\"Might I have your name?\""
-msgstr ""
+msgstr "\"Можно узнать твое имя?\""
 
 #: 31333
 msgid "\"Oh... I'm, eh... Adhana?\""
-msgstr ""
+msgstr "\"О... я, э... Адана?\""
 
 #: 31334
 msgid ""
 "\"All right, that's enough of this. I think we *both* know who you are, Lady "
 "Thorncombe.\""
 msgstr ""
+"\"Ладно, довольно всего этого. Думаю, мы *оба* знаем, кто ты, Леди Торнкомб"
+"\"."
 
 #: 31335
 msgid ""
 "\"You are actually Lady Thorncombe, mages' tutor of the Civic Festhall. Am I "
 "correct?\""
 msgstr ""
+"\"Ты действительно Леди Торнкомб, наставница магов Городского Фестхолла. Я "
+"прав?\""
 
 #: 31337
 msgid ""
@@ -371,6 +420,9 @@ msgid ""
 "stone. She looks you over as you approach, but does not seem to recognize "
 "you."
 msgstr ""
+"Эта женщина все еще бесцельно бродит по сенсориуму, передвигаясь от камня к "
+"камню. При твоем приближении она окидывает тебя взглядом, но, по всей "
+"видимости, не узнает тебя."
 
 #: 31341
 msgid ""
@@ -379,38 +431,47 @@ msgid ""
 "ill-fated attempt to drag me back to the training chamber... because I most "
 "certainly shall not go.\""
 msgstr ""
+"Леди Торнкомб смотрит на тебя, прищурившись, будто пытаясь вспомнить, кто ты "
+"такой. Внезапно она многозначительно нахмуривается. \"Ты! Я надеялась, что "
+"ты не придешь сюда, бесполезно пытаясь затащить меня в тренировочный зал... "
+"потому что я совершенно уверена, что не пойду\"."
 
 #: 31342
 msgid ""
 "\"I just wondered if you knew that Salabesh was happy to hear of your "
 "decision, and is requesting to be made the new mages' tutor.\""
 msgstr ""
+"\"Мне просто интересно, знаешь ли ты, что Салабеш рад твоему решению, и "
+"просится на место нового наставника магов\"."
 
 #: 31343
-#, fuzzy
 msgid "\"I just had some questions, actually...\""
-msgstr "\"Вообще-то, у меня просто несколько вопросов...\""
+msgstr "\"Вообще-то, у меня только несколько вопросов...\""
 
 #: 31344
-#, fuzzy
 msgid "\"No, I didn't. Farewell.\""
-msgstr "\"Нет, нету. Прощай\"."
+msgstr "\"Нет. Прощай\"."
 
 #: 31345
 msgid ""
 "\"Salabesh?! That portly little oaf... the man couldn't magic his way out of "
 "a mildewed sack! Now what is this *decision* you speak of?\""
 msgstr ""
+"\"Салабеш?! Этот маленький дородный болван... да со своим колдовством он не "
+"выберется даже из заплесневелого мешка! Так о каком это *решении* ты "
+"говоришь?\""
 
 #: 31346
 msgid ""
 "\"Why, your decision to remain in the sensoriums, and to no longer train "
 "less experienced mages.\""
 msgstr ""
+"\"Ну, о твоем решении остаться в сенсориумах и больше не обучать менее "
+"опытных магов\"."
 
 #: 31347
 msgid "\"Nothing; forget I mentioned it. Farewell.\""
-msgstr ""
+msgstr "\"Никаком; забудь, что я говорил. Прощай\"."
 
 #: 31349
 msgid ""
@@ -419,30 +480,39 @@ msgid ""
 "one another, and she was quick to return to the mages' training chamber so "
 "as to foil his plans."
 msgstr ""
+"Я рассказал Леди Торнкомб о намерении Салабеша занять ее позицию наставника "
+"магов Городского Фестхолла... очевидно, они недолюбливают друг друга, и она "
+"быстро вернулась в тренировочный зал магов, чтобы разрушить его планы."
 
 #: 31350
 msgid "\"What?! But... I...\""
-msgstr ""
+msgstr "\"Что?! Но... Я...\""
 
 #: 31351
 msgid "\"Yes, Lady Thorncombe?\""
-msgstr ""
+msgstr "\"Да, Леди Торнкомб?\""
 
 #: 31352
 msgid ""
 "She glares at you. \"Asinine. Wholly asinine. Should you see Salabesh again, "
 "tell him not to bother. I shall return to the training chambers at once.\""
 msgstr ""
+"Она таращится на тебя. \"Глупо. Весьма глупо. Если снова увидишь Салабеша, "
+"передай, чтобы он не суетился. Я немедленно возвращаюсь в тренировочный зал"
+"\"."
 
 #: 31353
 msgid "\"Perhaps I'll see you there, Lady Thorncombe. Farewell.\""
-msgstr ""
+msgstr "\"Возможно, там и увидимся, Леди Торнкомб. Счастливо\"."
 
 #: 31354
 msgid ""
 "Lady Thorncombe frowns at you. \"I've no time to talk, now... you may meet "
 "me in the mages' training chamber later, if you wish. Farewell.\""
 msgstr ""
+"Леди Торнкомб сердито смотрит на тебя. \"Теперь у меня нет времени на "
+"разговоры... мы можем встретиться в тренировочном зале магов, если хочешь. "
+"Прощай\"."
 
 #: 31356
 msgid ""
@@ -452,31 +522,34 @@ msgid ""
 "easily distracted. \"Greetings... are you here to train in the magical arts?"
 "\""
 msgstr ""
+"Леди Торнкомб кивает тебе, но тебе неясно, узнала ли она тебя. Она "
+"разгладила свою одежду и волосы, и теперь у нее вид хоть и немолодой, но "
+"привлекательной дворянки... и все же она кажется отстраненной и слегка "
+"сметенной. \"Здравствуй... ты здесь, чтобы изучать магические искусства?\""
 
 #: 31357
 msgid "\"Yes... show me what spells you have to teach.\""
-msgstr ""
+msgstr "\"Да... покажи, каким заклинаниям ты можешь меня научить\"."
 
 #: 31358
-#, fuzzy
 msgid "\"Yes, I am.\""
 msgstr "\"Да\"."
 
 #: 31359
-#, fuzzy
 msgid "\"No, but I had some questions...\""
-msgstr "\"Нет, у меня есть некоторые вопросы...\""
+msgstr "\"Нет, но у меня есть некоторые вопросы...\""
 
 #: 31360
-#, fuzzy
 msgid "\"No, not now. Farewell.\""
-msgstr "\"Не знаю. Прощай\"."
+msgstr "\"Нет, не сейчас. Прощай\"."
 
 #: 31362
 msgid ""
 "\"Wait: Qui-Sai won't train me... he says spells are more effective than "
 "melee in combat. What do you think?\""
 msgstr ""
+"\"Постой: меня не хочет обучать Ки-Саи... он говорит, что в бою заклинания "
+"эффективнее рукопашной схватки. Что ты об этом думаешь?\""
 
 #: 31363
 msgid "\"Farewell, then.\""
@@ -487,45 +560,52 @@ msgid ""
 "\"My time and attention is reserved for my students, sir. I suggest you "
 "speak to one of them... or better yet, someone less occupied.\""
 msgstr ""
+"\"Свое время и внимание я посвящаю своим ученикам, сэр. Предлагаю поговорить "
+"с одним из них... или, что было бы еще лучше, с кем-то менее занятым\"."
 
 #: 31367
 msgid ""
 "You answer the last of her questions, and she nods, pleased. \"You are a "
 "mage by trade then, I take it?\""
 msgstr ""
+"Ты отвечаешь на последний из ее вопросов, и она удовлетворенно кивает. \"В "
+"таком случае, ты - профессиональный маг, я правильно поняла?\""
 
 #: 31369
-#, fuzzy
 msgid "\"That I am.\""
-msgstr "\"Так это был ты?\""
+msgstr "\"Так и есть\"."
 
 #: 31370
 msgid "\"No... I am not.\""
-msgstr ""
+msgstr "\"Нет... это не так\"."
 
 #: 31371
 msgid "\"Not currently, no... though I've been trained.\""
-msgstr ""
+msgstr "\"Нет, пока нет... хотя я проходил обучение\"."
 
 #: 31373
 msgid ""
 "She shuts her eyes and lets out a long, low sigh. \"What do you expect me to "
 "teach you, then? Waste no more of my time, nor my students'! Farewell.\""
 msgstr ""
+"Она закрывает глаза и издает длинный низкий вздох. \"Тогда чему же ты "
+"ожидаешь у меня научиться? Больше не трать мое время, и время моих учеников! "
+"Прощай\"."
 
 #: 31374
 msgid "\"Wait... could you *make* me a mage?\""
-msgstr ""
+msgstr "\"Погоди... а ты можешь *сделать* из меня мага?\""
 
 #: 31375
 msgid ""
 "\"Wait... I wish to walk the path of the mage once more. Can you show me the "
 "way?\""
 msgstr ""
+"\"Погоди... я хочу еще раз встать на путь мага. Ты можешь помочь мне?\""
 
 #: 31376
 msgid "\"Farewell, Lady Thorncombe.\""
-msgstr ""
+msgstr "\"До свиданья, Леди Торнкомб\"."
 
 #: 31377
 msgid ""
@@ -533,11 +613,13 @@ msgid ""
 "test your intelligence and reasoning ability with a long series of logic and "
 "word puzzles..."
 msgstr ""
+"\"Очень хорошо. Ответь на следующие вопросы...\" Она начинает проверять твой "
+"интеллект и способность к рассуждению длинной чередой логических и словесных "
+"загадок..."
 
 #: 31378 31379
-#, fuzzy
 msgid "Answer her questions as best you can."
-msgstr "\"Нет. Лучше ответь мне на пару вопросов\"."
+msgstr "Отвечать на ее вопросы как можно лучше."
 
 #: 31380
 msgid ""
@@ -545,54 +627,61 @@ msgid ""
 "fundamental concepts of magery. I wish you well, though, on whatever other "
 "path you choose to take through life; farewell.\""
 msgstr ""
+"\"Извини, но ты попросту недостаточно умен, чтобы понять фундаментальные "
+"основы магии. Тем не менее, я желаю тебе удачи на любом другом выбранном "
+"тобой жизненном пути; прощай\"."
 
 #: 31381
-#, fuzzy
 msgid "\"Uh... all right. Farewell.\""
-msgstr "\"Хорошо. Прощай\"."
+msgstr "\"Э... Хорошо. Прощай\"."
 
 #: 31382
 msgid ""
 "\"I could *try,* that much is certain. Would you truly give up your current "
 "profession?\""
 msgstr ""
+"\"Я могла бы *попробовать*, это уж точно. Ты и вправду хочешь закинуть свою "
+"текущую специализацию?\""
 
 #: 31383
 msgid ""
 "\"Yes, I wish to give up the sword in exchange for sorcery, taking up the "
 "Art once more.\""
 msgstr ""
+"\"Да, я хочу забросить меч ради магии и продолжить постижение Искусства\"."
 
 #: 31384
 msgid ""
 "\"Yes, I wish to leave thievery behind me and take up the Art once more.\""
-msgstr ""
+msgstr "\"Да, я хочу забросить воровство и продолжить постижение Искусства\"."
 
 #: 31385
 msgid ""
 "\"Yes, I wish to give up the sword in exchange for sorcery. Teach me the "
 "ways of the Art.\""
-msgstr ""
+msgstr "\"Да, я хочу забросить меч ради магии. Обучи меня пути Искусства\"."
 
 #: 31386
 msgid ""
 "\"Yes, I wish to leave thievery behind me and take up the ways of the Art.\""
 msgstr ""
+"\"Да, я хочу забросить воровство и заняться изучением пути Искусства\"."
 
 #: 31387
-#, fuzzy
 msgid "\"No, I had best not. Farewell.\""
-msgstr "\"Нет, думаю, нет. Прощай\"."
+msgstr "\"Нет, думаю, не стоит. Прощай\"."
 
 #: 31388
 msgid ""
 "\"Very well. Together we shall review what you know of the Art... we shall "
 "soon set you on its path once more.\""
 msgstr ""
+"\"Очень хорошо. Вместе мы восстановим твои познания Искусства... вскоре мы "
+"снова обратим тебя на его путь\"."
 
 #: 31389
 msgid "Listen and learn."
-msgstr ""
+msgstr "Слушать и учиться."
 
 #: 31390
 msgid ""
@@ -601,20 +690,22 @@ msgid ""
 "recalled the ways of the Art. Are you ready to see what spells I can teach "
 "you, then?\""
 msgstr ""
+"\"Я просто поражена! Если бы камни переживаний не раскрывали мне невозможное "
+"столько раз до этого, я бы не смогла поверить тому, как быстро ты вспомнил "
+"путь Искусства. Итак, ты готов увидеть, каким заклинаниям я могу тебя "
+"обучить?\""
 
 #: 31391 31394
-#, fuzzy
 msgid "\"Yes, please show me.\""
-msgstr "\"Хорошо, по рукам\"."
+msgstr "\"Да, пожалуйста, покажи мне\"."
 
 #: 31392 31395
-#, fuzzy
 msgid "\"Not right now, but I'll return later. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай\"."
+msgstr "\"Не сейчас, но позже я вернусь. Прощай\"."
 
 #: 31393
 msgid "\"Are you ready to see what spells I can teach you, then?\""
-msgstr ""
+msgstr "\"Итак, ты готов увидеть, каким заклинаниям я могу тебя обучить?\""
 
 #: 31396
 msgid ""
@@ -625,20 +716,29 @@ msgid ""
 "tablets... embroidered silk... animal hides...\" Her eyes seem to glaze "
 "over, and she begins to chew her thumbnail."
 msgstr ""
+"\"Очень хорошо. Я научу тебя тому, чему смогу, - на миг она останавливается, "
+"погрузившись в мысли. - Одного лишь таланта к Искусству недостаточно. Тебе "
+"необходимы средства для его фокусировки - заклинания. Их чаще всего хранят в "
+"книге, хотя мне попадались маги, хранившие их в папирусовых свитках, на "
+"каменных табличках... на расшитом шелке... на шкурах животных...\" Ее глаза "
+"становятся стеклянными, и она начинает жевать ноготь на большом пальце."
 
 #: 31397
 msgid "\"Lady Thorncombe? You were saying?\""
-msgstr ""
+msgstr "\"Леди Торнкомб? Ты что-то говорила?\""
 
 #: 31398
 msgid ""
 "\"Hmm? Oh! Forgive me... as I was saying, the Art demands a book - or its "
 "like - before you cast spells. You can read, yes?\""
 msgstr ""
+"\"М-м-м? Ах, прости... как я уже сказала, для Искусства нужна книга, или что-"
+"нибудь подобное, прежде чем ты начнешь творить заклинания. Ты умеешь читать, "
+"да?\""
 
 #: 31399
 msgid "\"I don't know.\""
-msgstr "\"Я не знаю\". "
+msgstr "\"Не знаю\". "
 
 #: 31400
 msgid "\"Yes.\""
@@ -649,11 +749,12 @@ msgid ""
 "\"We shall test you once more, then.\" She draws a scroll from a leather "
 "case hung at her side. \"Might you read this for me?\""
 msgstr ""
+"\"Тогда проверим тебя еще раз, - она достает свиток из кожаной сумки, "
+"висящей у нее на боку. - Можешь прочитать это мне?\""
 
 #: 31402 31403
-#, fuzzy
 msgid "Examine the scroll."
-msgstr "Осмотреть доспехи."
+msgstr "Осмотреть свиток."
 
 #: 31404
 msgid ""
@@ -664,26 +765,36 @@ msgid ""
 "components and mystical hand motions used to control the flow of mana... it "
 "appears to be a minor charm spell."
 msgstr ""
+"Надписи на свитке плывут у тебя перед глазами, каждый символ расплывается, "
+"как только ты пытаешься его прочесть. Почти инстинктивно ты расслабляешь "
+"глаза, позволив им охватить страницу целиком... и вдруг символы на ней "
+"сливаются: свиток перечисляет тайные знаки, магические компоненты и "
+"загадочные движения руками, используемые для контроля потока маны... похоже, "
+"это заклинание малого зачарования."
 
 #: 31405 31416
 msgid ""
 "\"This is a minor charm, isn't it? It looks like it's a spell to make "
 "yourself more appealing to others, more charismatic.\""
 msgstr ""
+"\"Это ведь малое зачарование? Похоже на заклинание, делающее тебя более "
+"привлекательным для других, более обаятельным\"."
 
 #: 31406
 msgid ""
 "The writing upon the scroll swims before your eyes, each symbol twisting out "
 "of focus whenever you try and read it."
 msgstr ""
+"Надписи на свитке плывут у тебя перед глазами, каждый символ расплывается, "
+"как только ты пытаешься его прочесть."
 
 #: 31407
 msgid "Study the symbols, see if you can decipher them."
-msgstr ""
+msgstr "Изучить символы, посмотреть, можешь ли ты расшифровать их."
 
 #: 31408 31411 31414
 msgid "\"I give up, Lady Thorncombe... what does this writing mean?\""
-msgstr ""
+msgstr "\"Я сдаюсь, Леди Торнкомб... что означают эти надписи?\""
 
 #: 31409
 msgid ""
@@ -692,10 +803,14 @@ msgid ""
 "like a nest of snakes. It makes your eyes hurt just trying to follow their "
 "movements. "
 msgstr ""
+"Ты пристально рассматриваешь символы. И все же, как бы сильно ты не "
+"старался, надписи на свитке расплываются, изгибаются и скручиваются, как "
+"клубок змей. От одних лишь попыток уследить за их движениями твои глаза "
+"начинают болеть."
 
 #: 31410 31413
 msgid "Keep studying the symbols, try and puzzle out their meaning. "
-msgstr ""
+msgstr "Продолжить изучать символы, пытаться разгадать их значение."
 
 #: 31412
 msgid ""
@@ -703,6 +818,9 @@ msgid ""
 "silently watching you. Eventually, she loses interest and her eyes begin to "
 "wander around the chamber."
 msgstr ""
+"Ты продолжаешь изучать символы еще несколько минут, Леди Торнкомб молча "
+"следит за тобой. В конце концов, она утрачивает интерес к этому занятию, и "
+"ее взгляд начинает блуждать по залу."
 
 #: 31415
 msgid ""
@@ -711,6 +829,10 @@ msgid ""
 "scroll lists arcane syllables, magical components and mystical hand motions "
 "used to control the flow of mana ... it appears to be a minor charm spell."
 msgstr ""
+"Ты уже готов сдаться и отвернуться, но тут ты расслабляешь глаза и "
+"охватываешь страницу целиком... неожиданно символы начинают сливаться. "
+"Свиток перечисляет тайные знаки, магические компоненты и загадочные движения "
+"руками, используемые для контроля потока маны... похоже, это малое заклятье."
 
 #: 31417
 msgid ""
@@ -718,6 +840,9 @@ msgid ""
 "the scroll from your grasp. \"Did you lie to me? You are a mage after all? "
 "Or a fiend, perhaps? Answer me!\""
 msgstr ""
+"Глаза Леди Торнкомб расширяются. \"Кто ты такой, чтобы обманывать меня?! - "
+"она выдергивает свиток из твоей руки. - Ты лгал мне? Ты все-таки маг? Или, "
+"может, демон? Отвечай!\""
 
 #: 31418
 msgid "\"What's wrong?\""
@@ -725,7 +850,7 @@ msgstr "\"Что не так?\""
 
 #: 31419
 msgid "\"No, not to my knowledge. What's wrong?\""
-msgstr ""
+msgstr "\"Нет, насколько я знаю. Что не так?\""
 
 #: 31420
 msgid ""
@@ -733,6 +858,10 @@ msgid ""
 "in the language of the Art. I was able to decipher its meaning with no "
 "training. I must have learned how to read magic at some point in the past."
 msgstr ""
+"Леди Торнкомб проверила меня... дала мне заклинание малого зачарования, "
+"написанное в свитке на языке Искусства. Мне удалось расшифровать его "
+"значение без обучения. Должно быть, когда-то в прошлом я изучал, как читать "
+"магию."
 
 #: 31421
 msgid ""
@@ -742,17 +871,22 @@ msgid ""
 "Yet, as if it were clear as the Amorian sky, you made sense of it. How is "
 "this?\""
 msgstr ""
+"\"Я не ожидала... хм-м... - она долго и пристально рассматривает тебя. - То, "
+"что ты прочитал, записано на языке *Искусства*. Не будь ты магом, для тебя "
+"это был бы не более чем набор бессвязных символов, совершенно тебе "
+"непонятных. И все же ясно, как Аморийское небо, что ты его понимаешь. Как?\""
 
 #: 31422
-#, fuzzy
 msgid "\"I don't really know... I just *knew* what it said.\""
-msgstr "\"У меня нет никаких дел, мне просто нужно попасть внутрь\"."
+msgstr "\"Я действительно не знаю... Я просто *знал*, о чем тут говориться\"."
 
 #: 31423
 msgid ""
 "\"I think I may have known once, but forgot... seeing the symbols just "
 "jarred my memory.\""
 msgstr ""
+"\"Думаю, когда-то я помнил, но забыл... увидев символы, я просто дал "
+"встряску своей памяти\"."
 
 #: 31424
 msgid ""
@@ -760,20 +894,26 @@ msgid ""
 "have just shaved seasons, perhaps *years* of study off your training. Now... "
 "you can read spells well enough, but do you have a book for them?\""
 msgstr ""
+"\"Или, возможно, это дар от природы... впрочем, неважно, - она улыбается "
+"тебе. - Ты скосил многие месяцы, а то и *годы* учебы в своем обучении. "
+"Итак... ты вполне можешь читать заклинания, но есть ли у тебя книга для них?"
+"\""
 
 #: 31425
 msgid "\"A spell book? No...\""
-msgstr ""
+msgstr "\"Книга заклинаний? Нет...\""
 
 #: 31426
 msgid "\"What is that, then?\" She points to your journal."
-msgstr ""
+msgstr "\"Тогда что это?\" Она указывает на твой дневник."
 
 #: 31427
 msgid ""
 "\"This is my journal. I've been recording things of interest... people I've "
 "met and the like... within it.\""
 msgstr ""
+"\"Это мой дневник. Я записываю туда заметки... о встреченных людях и тому "
+"подобном...\""
 
 #: 31428
 msgid ""
@@ -782,10 +922,14 @@ msgid ""
 "time, regarding your journal. She appears to be lost in thought, and begins "
 "to chew on her thumbnail."
 msgstr ""
+"\"В таком случае, ты также можешь записывать туда и заклинания, - она "
+"неодобрительно смотрит на дневник. - Изорванная штука... но и он сойдет\". "
+"Некоторое время она молча стоит и изучает твой дневник. Похоже, она "
+"углубилась в свои мысли и начала жевать ноготь на большом пальце."
 
 #: 31430
 msgid "\"Lady Thorncombe...?\""
-msgstr ""
+msgstr "\"Леди Торнкомб?..\""
 
 #: 31432
 msgid ""
@@ -795,16 +939,19 @@ msgid ""
 "a clear mind, so it is best advised that you rest before doing so. Do you "
 "understand?\""
 msgstr ""
+"Она вновь сосредотачивается на тебе: \"М-м? Ах... да. Итак, пока твои "
+"заклинания в этой книге, в них нет силы - это просто слова. Искусство "
+"требует, чтобы ты заучивал заклинания - *запоминал* их, - перед тем как "
+"высвободить их силу. Это требует ясности ума, так что рекомендуется, чтобы "
+"ты прежде отдохнул. Понимаешь?\""
 
 #: 31433
-#, fuzzy
 msgid "\"Yes, go on.\""
-msgstr "\"Пожалуйста, продолжай\"."
+msgstr "\"Да, продолжай\"."
 
 #: 31434 31437 31440 31445 31448 31452 31455
-#, fuzzy
 msgid "\"I think I understand these basics, Lady Thorncombe.\""
-msgstr "\"Я понимаю. В таком случае, прощай\"."
+msgstr "\"Думаю, основы я понял, Леди Торнкомб\"."
 
 #: 31435
 msgid ""
@@ -812,10 +959,13 @@ msgid ""
 "this is of the utmost importance. When you arise, they shall be fresh in "
 "your mind, rich with mana and ready to be cast.\""
 msgstr ""
+"\"Превосходно. Итак, выбери заклинания, которые ты хочешь запомнить, *перед* "
+"сном: это крайне важно. Когда ты встанешь, они освежатся в твоей памяти, "
+"обогащенные маной и готовые для использования\"."
 
 #: 31436
 msgid "\"How many spells can I cast?\""
-msgstr ""
+msgstr "\"Сколько заклинаний я могу сотворить?\""
 
 #: 31438
 msgid ""
@@ -825,11 +975,16 @@ msgid ""
 "would advise you to use them wisely even then. As your experience grows, "
 "you'll find your ability to memorize spells grows, as well.\""
 msgstr ""
+"\"Только одно, может, два заклинания, а потом тебе снова понадобится "
+"отдохнуть... у начинающего мага не найдется места в голове для большего "
+"количества. Пользуйся заклинаниями мудро, пока не станешь более умелым в "
+"Искусстве... однако я бы посоветовала использовать их мудро даже тогда. С "
+"ростом опытности ты обнаружишь, что твоя способность запоминания заклинаний "
+"также возрастет\"."
 
 #: 31439
-#, fuzzy
 msgid "\"All right... go on...\""
-msgstr "\"Хорошо, продолжай\"."
+msgstr "\"Хорошо... продолжай...\""
 
 #: 31441
 msgid ""
@@ -837,28 +992,34 @@ msgid ""
 "use the Art to say, identify two different enchanted objects, you would need "
 "to memorize the Identify spell... how many times?\""
 msgstr ""
+"\"Ты можешь создавать лишь те заклинания, которые запомнил. Итак, если бы ты "
+"захотел воспользоваться Искусством для распознания, скажем, двух разных "
+"заколдованных предметов, ты должен запомнить заклинание Опознания... сколько "
+"раз?\""
 
 #: 31442
 msgid "\"Once.\""
-msgstr ""
+msgstr "\"Один раз\"."
 
 #: 31443
 msgid "\"Twice.\""
-msgstr ""
+msgstr "\"Два раза\"."
 
 #: 31444
 msgid "\"Uh...\""
-msgstr "\"Ух...\""
+msgstr "\"Э...\""
 
 #: 31446
 msgid ""
 "\"Twice! To cast a spell *twice,* you would need to memorize the spell "
 "*twice.*\""
 msgstr ""
+"\"Два раза! Чтобы создать заклинание *два раза*, нужно запомнить заклинание "
+"*дважды*\"."
 
 #: 31447
 msgid "\"I understand. How do I get more spells?\""
-msgstr ""
+msgstr "\"Понятно. Как мне достать еще заклинаний?\""
 
 #: 31449
 msgid ""
@@ -871,14 +1032,23 @@ msgid ""
 "become more proficient in their use. I might be able to find other teachers "
 "around this city who can teach me to cast spells, as well."
 msgstr ""
+"Леди Торнкомб обучила меня азам Искусства. Она сказала, что перед отдыхом "
+"мне нужно подобрать заклинания, которые я хочу запомнить, открыв книгу "
+"заклинаний и выбрав их. Если мне нужно создать заклинание несколько раз, я "
+"должен запомнить заклинание несколько раз. Когда бы я не отдыхал, я "
+"просыпаюсь на следующее утро с готовыми к использованию заклинаниями в "
+"памяти. Она сказала, что каждый день я смогу творить лишь небольшое "
+"количество заклинаний, пока не стану более умелым в их использовании. Я "
+"также могу поискать в городе других учителей, которые могут обучить меня "
+"заклинаниям."
 
 #: 31450
 msgid "Lady Thorncombe nods, smiling. \"Yes, twice, correct.\""
-msgstr ""
+msgstr "Леди Торнкомб кивает, улыбаясь. \"Да, два раза, правильно\"."
 
 #: 31451
 msgid "\"How do I get more spells?\""
-msgstr ""
+msgstr "\"Как мне достать еще заклинаний?\""
 
 #: 31453
 msgid ""
@@ -887,11 +1057,15 @@ msgid ""
 "items that have spells inscribed upon them. Should you find one, simply "
 "examine it closely and copy the spell into your book if you desire it.\""
 msgstr ""
+"\"Всегда ищи возможность научиться большему - даже обычные люди могут "
+"обучить некоторым простым чарам. Также существуют рецепты, книги, и даже еще "
+"более странные предметы с написанными на них заклинаниями. Если найдешь что-"
+"нибудь такое, просто изучи его внимательно и скопируй заклинание в свою "
+"книгу, если захочешь\"."
 
 #: 31454
-#, fuzzy
 msgid "\"Got it.\""
-msgstr "\"Продекламируй\"."
+msgstr "\"Понятно\"."
 
 #: 31456
 msgid ""
@@ -900,26 +1074,34 @@ msgid ""
 "the multiverse... no longer may you train here without cost, but I shall be "
 "able to sell you more powerful spells as you gain the ability to use them.\""
 msgstr ""
+"\"Возьми эти свитки... простая магия, чтобы подогреть твои интерес к "
+"Искусству, - она лукаво улыбается. - Возвращайся сюда, когда станешь "
+"опытнее... больше ты не можешь обучаться здесь бесплатно, однако я могу "
+"продать тебе более могущественные заклинания, когда ты сможешь использовать "
+"их\"."
 
 #: 31457
 msgid "\"Thank you, Lady Thorncombe. Farewell.\""
-msgstr ""
+msgstr "\"Спасибо, Леди Торнкомб. Счастливо\"."
 
 #: 31458
 msgid "\"I'll be back later, then. Farewell.\""
-msgstr ""
+msgstr "\"Тогда я вернусь позже. Прощай\"."
 
 #: 39474
 msgid ""
 "I trained to become a mage under a woman named Lady Thorncombe, the mages' "
 "tutor in the Civic Festhall."
 msgstr ""
+"Я обучился на мага у женщины по имени Леди Торнкомб, наставницы магов в "
+"Городском Фестхолле."
 
 #: 64643
 msgid ""
 "\"Yes... I wish to walk the path of the mage once more. Can you show me the "
 "way?\""
 msgstr ""
+"\"Да... Я бы хотел еще раз пройти путь мага. Ты можешь показать мне путь?\""
 
 #: 66574
 msgid ""
@@ -929,7 +1111,12 @@ msgid ""
 "merely crutches against that deficiency. This should provide a good "
 "counterpoint to Qui-Sai's argument."
 msgstr ""
+"Ки-Саи отказался обучать меня на воина, расхвалив преимущества магов. Тем не "
+"менее, я поговорил с Леди Торнкомб, наставницей магов Городского Фестхолла, "
+"и она объяснила мне, что они физически немощны, и их заклинания - словно "
+"костыли, восполняющие эту неполноценность. Это должно быть хорошим "
+"контраргументом на довод Ки-Саи."
 
 #: 68458
 msgid "\"No, but I'd like to purchase some spells.\""
-msgstr ""
+msgstr "\"Нет, но я хотел бы купить пару заклинаний\"."

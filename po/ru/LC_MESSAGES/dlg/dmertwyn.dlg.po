@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmertwyn.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-09-03 02:30+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-06-18 18:24+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
 #: 2960
@@ -21,6 +21,11 @@ msgid ""
 "his shoulders is merely a skillfully carved wooden prosthesis... a false "
 "head."
 msgstr ""
+"С этим человеком определенно что-то *не так*... его шатающаяся походка, то, "
+"как он натыкается на все, как безучастно смотрит в пустое место. "
+"Приблизившись к нему, ты, наконец, понимаешь, в чем дело... у него нет "
+"головы. Та штука у него на плечах - просто искусно сделанный деревянный "
+"протез... фальшивая голова."
 
 #: 2961 42316 42376 42377
 msgid "\"Greetings...?\""
@@ -28,7 +33,7 @@ msgstr "\"Приветствую?..\""
 
 #: 42317 42378
 msgid "\"This must be Mertwyn's body...\""
-msgstr ""
+msgstr "\"Должно быть, это тело Мертвина...\""
 
 #: 42318 42379
 msgid "Leave it be."
@@ -39,10 +44,12 @@ msgid ""
 "The headless body stops fumbling for a moment and pauses. Its hands begin to "
 "reach out, as if trying to feel exactly where you are."
 msgstr ""
+"Безголовое тело на миг перестает рыскать и останавливается. Его руки "
+"начинают тянуться вперед, как бы нащупывая, где именно ты находишься."
 
 #: 42321
 msgid "Let it touch you."
-msgstr ""
+msgstr "Позволить потрогать себя."
 
 #: 42322
 msgid "Grab its hand."
@@ -50,7 +57,7 @@ msgstr "Схватить его за руку."
 
 #: 42323
 msgid "Step away from it."
-msgstr ""
+msgstr "Отступить от него."
 
 #: 42324
 msgid ""
@@ -60,11 +67,15 @@ msgid ""
 "Finally, it grabs your hand and shakes it vigorously in greeting. You notice "
 "that its skin is cold and slightly clammy."
 msgstr ""
+"Спустя миг его пальцы притрагиваются к твоему предплечью. Он хватается за "
+"твою руку и следует к плечу, потом к голове. Ощупав твое лицо и голову, его "
+"руки притрагиваются к твоей шее, как бы что-то проверяя. Наконец он хватает "
+"твою руку и яростно пожимает ее в знак приветствия. Ты отмечаешь, что кожа у "
+"него холодная и немного липкая."
 
 #: 42325
-#, fuzzy
 msgid "\"Can you understand me?\""
-msgstr "\"Ты можешь похоронить имя для меня?\""
+msgstr "\"Ты меня понимаешь?\""
 
 #: 42326 42329 42332
 msgid "\"I'll take my leave, now. Farewell.\""
@@ -76,20 +87,25 @@ msgid ""
 "it... the headless body seems friendly enough. It has a strong grip, but the "
 "skin is cold and slightly clammy."
 msgstr ""
+"Безголовый неожиданно подскакивает и крепко хватает тебя за руку, пожимая "
+"ее... это тело без головы кажется довольно дружелюбным. У него сильная "
+"хватка, но кожа у него холодная и немного липкая."
 
 #: 42328
 msgid "\"Where's your head? Can you even understand me?\""
-msgstr ""
+msgstr "\"Где твоя голова? Ты вообще меня понимаешь?\""
 
 #: 42330
 msgid ""
 "The figure makes a series of hand motions, then waits for a response. It "
 "seems like it's asking a question."
 msgstr ""
+"Тело делает ряд движений руками и ждет ответа. Кажется, оно задало тебе "
+"вопрос."
 
 #: 42331
 msgid "\"What? I don't understand...\""
-msgstr ""
+msgstr "\"Что? Я не понимаю...\""
 
 #: 42333
 msgid ""
@@ -98,14 +114,21 @@ msgid ""
 "points at you, then at the eyes of its wooden head, then at you again. It "
 "then indicates its wooden head with both hands, shrugs, and points at you."
 msgstr ""
+"Тело без головы несколько секунд топает ногой, почесывая подбородок головы-"
+"протеза. Внезапно оно подымает палец, будто что-то придумав. Оно указывает "
+"на тебя, затем на глаза своей деревянной головы, затем снова на тебя. Потом "
+"оно указывает на свою деревянную голову обеими руками, пожимает плечами и "
+"указывает на тебя."
 
 #: 42334
 msgid "\"Uh, no... I haven't seen your head anywhere.\""
-msgstr ""
+msgstr "\"Э-э, нет... Твоей головы я нигде не видел\"."
 
 #: 42335
 msgid "The headless body shrugs, slumps a bit, and turns to amble off."
 msgstr ""
+"Безголовое тело пожимает плечами, опускает плечи и поворачивается, чтобы "
+"отойти."
 
 #: 42336
 msgid "Leave."
@@ -116,14 +139,15 @@ msgid ""
 "The body shuffles towards you, reaching out towards the steel box containing "
 "Mertwyn's head."
 msgstr ""
+"Тело перемещается в твою сторону, вытянув руки к коробке с головой Мертвина."
 
 #: 42338
 msgid "Allow Mertwyn's body to take his head."
-msgstr ""
+msgstr "Позволить телу Мертвина забрать его голову."
 
 #: 42339
 msgid "Keep the head away from the body."
-msgstr ""
+msgstr "Не дать голову телу."
 
 #: 42340
 msgid ""
@@ -135,24 +159,29 @@ msgid ""
 "in its pockets, and, finding nothing there, in its tunic. Finally, it "
 "presents you with several handfuls of copper coins."
 msgstr ""
+"\"Ох, так намного лучше; спасибо, сударь! Думаю, мое тело без меня стало "
+"немного беспокойным, - тело крепко обнимает стальную коробку. - Да, мне тебя "
+"тоже не хватало... - тело берет коробку под мышку и кланяется тебе. - Что "
+"касается тебя, сударь... ты, несомненно, заслужил *некоторое* вознаграждение "
+"за беспокойство. Так, посмотрим, что тут у меня... - тело роется в карманах, "
+"и, ничего там не отыскав, лезет в тунику. Наконец оно дает тебе несколько "
+"горстей медных монет."
 
 #: 42341
-#, fuzzy
 msgid "\"Thanks, Mertwyn. I had some questions...\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Спасибо, Мертвин. У меня есть другие вопросы...\""
 
 #: 42342
-#, fuzzy
 msgid "\"My thanks. Farewell, Mertwyn.\""
-msgstr "\"Все равно благодарю. Прощай\"."
+msgstr "\"Благодарю. Прощай, Мертвин\"."
 
 #: 42343
 msgid "\"Certainly; ask whatever you'd like!\""
-msgstr ""
+msgstr "\"Конечно; спрашивай, что захочешь!\""
 
 #: 42344
 msgid "\"How'd you end up... the way you are?\""
-msgstr ""
+msgstr "\"Как вышло, что ты... остался без головы?\""
 
 #: 42345
 msgid "\"What are you doing here?\""
@@ -160,16 +189,16 @@ msgstr "\"Что ты здесь делаешь?\""
 
 #: 42346
 msgid "\"Can you tell me about this place?\""
-msgstr "\"Что ты можешь сказать об этом месте?\""
+msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 42347
+#, fuzzy
 msgid "\"What do you know about Ravel Puzzlewell?\""
-msgstr ""
+msgstr "\"Что ты знаешь о Равель Заморочке?\""
 
 #: 42348
-#, fuzzy
 msgid "\"Never mind, Mertwyn. Farewell.\""
-msgstr "\"А ладно, неважно. Прощай\"."
+msgstr "\"Неважно, Мертвин. Прощай\"."
 
 #: 42349
 msgid ""
@@ -177,14 +206,17 @@ msgid ""
 "and the next thing I knew, someone had absconded with me! The next thing I "
 "remember was being picked up by you...\""
 msgstr ""
+"\"Я не уверен, правда... тело положило меня в одном из лекционных залов, и "
+"следующее, что я помню, это что кто-то сбежал со мной! Следующее, что я "
+"помню, это как ты меня подобрал...\""
 
 #: 42350
 msgid "\"But what I meant was, how'd you lose your *head?*\""
-msgstr ""
+msgstr "\"Но я имею в виду, каким образом ты лишился своей *головы*?\""
 
 #: 42351 42354 42358 42361 42366 42370
 msgid "\"I had another question...\""
-msgstr "\"У меня есть другие вопросы...\"просы...\""
+msgstr "\"У меня есть другие вопросы...\""
 
 #: 42352 42355 42359 42362 42367 42371
 msgid "\"That's all I wished to know. Farewell.\""
@@ -197,6 +229,10 @@ msgid ""
 "will say I'm in the box because my head's not quite as presentable as my "
 "body, if you get my meaning.\""
 msgstr ""
+"Тело заметно напрягается. \"О, мы об этом не любим говорить. Все просто "
+"ужасно, правда... что было - то прошло; не стоит ворошить прошлое. Я лишь "
+"скажу, что нахожусь в коробке, потому что моя голова выглядит не столь "
+"презентабельно, как мое тело, если ты понимаешь, о чем я\"."
 
 #: 42356
 msgid ""
@@ -204,11 +240,13 @@ msgid ""
 "I'm not a Sensate, mind you, but I just like to watch all the different "
 "sorts of people milling about.\""
 msgstr ""
+"\"В основном я брожу по Фестхоллу. Ну, знаешь: шатаюсь туда-сюда. Я не "
+"Чувствующий, прошу заметить, но мне просто нравится наблюдать весь этот "
+"разношерстый народ, что тут бродит\"."
 
 #: 42357
-#, fuzzy
 msgid "\"A Sensate?\""
-msgstr "\"Соревнование?\""
+msgstr "\"Чувствующий?\""
 
 #: 42360
 msgid ""
@@ -217,6 +255,11 @@ msgid ""
 "everything, figuring they'll eventually tumble onto some great dark of the "
 "multiverse should they keep it up long enough.\" The body shrugs."
 msgstr ""
+"Тело осторожно качает стальной коробкой, 'кивая' головой внутри. \"Да... ну, "
+"знаешь, Общество Восприятия. Они из кожи вон лезут, пытаясь все "
+"перепробовать, считают, что они в конце концов наткнутся на какую-нибудь "
+"великую тайну мультивселенной, если будут продолжать заниматься этим "
+"достаточно долго\". Тело пожимает плечами."
 
 #: 42363
 msgid ""
@@ -224,15 +267,17 @@ msgid ""
 "Hmmm... well, it's the faction quarters of the Sensates, and perhaps more "
 "importantly, it holds their sensoriums.\""
 msgstr ""
+"Мертвин, кажется, сбит с толку. \"Разве не всем известно о Городском "
+"Фестхолле? Хм-м-м... что ж, это штаб-квартира Чувствующих, и что, вероятно, "
+"более важно - в ней находятся их сенсориумы\"."
 
 #: 42364
 msgid "\"Tell me about these sensoriums...\""
-msgstr ""
+msgstr "\"Расскажи мен об этих сенсориумах...\""
 
 #: 42365 42369
-#, fuzzy
 msgid "\"Sensates?\""
-msgstr "\"Что да?\""
+msgstr "\"Чувствующие?\""
 
 #: 42368
 msgid ""
@@ -243,20 +288,25 @@ msgid ""
 "The private sensoriums are only open to members of the Society of Sensation "
 "- Sensates.\""
 msgstr ""
+"\"Здешний привратник может объяснить это лучше меня, сэр... это комнаты, где "
+"храниться много заколдованных камней, которые в свою очередь содержат "
+"различные впечатления и переживания, которые в них записали. Публичные "
+"сенсориумы открыты для каждого, но за их пользование взимается небольшая "
+"плата. Частные сенсорумы доступны только для Чувствующих, членов Общества "
+"Восприятия\"."
 
 #: 42372
+#, fuzzy
 msgid "\"Ravel? Can't say I recall the woman...\""
-msgstr ""
+msgstr "\"Равель? Не припомню такой женщины...\""
 
 #: 42373
-#, fuzzy
 msgid "\"I had another question, then...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"Тогда у меня еще вопрос...\""
 
 #: 42374
-#, fuzzy
 msgid "\"In that case, farewell.\""
-msgstr "\"Нет, спасибо. Прощай\"."
+msgstr "\"В таком случае, прощай\"."
 
 #: 42375
 msgid ""
@@ -264,6 +314,9 @@ msgid ""
 "the like. His false wooden head rocks precariously on his shoulders as he "
 "shambles to and fro."
 msgstr ""
+"Обезглавленный человек все еще бродит вокруг, натыкаясь на стены, колонны и "
+"другие предметы. Его фальшивая деревянная голова ненадежно качается на "
+"плечах, когда он ходит взад-вперед."
 
 #: 42381
 msgid ""
@@ -271,17 +324,22 @@ msgid ""
 "box that holds his head. It tilts the box towards you as you approach. "
 "\"Hello again, good sir!\""
 msgstr ""
+"Тело Мертвина стоит здесь, неторопливо перебирая пальцами по стальной "
+"коробке, в которой находится его голова. Когда ты подходишь, оно наклоняет "
+"коробку вперед. \"И снова здравствуй, сударь!\""
 
 #: 42382
 msgid "\"Greetings. I had some questions, Mertwyn...\""
-msgstr ""
+msgstr "\"Приветствую. у меня есть несколько вопросов, Мертвин...\""
 
 #: 42383
 msgid "\"I was just passing by, Mertwyn. Farewell.\""
-msgstr ""
+msgstr "\"Я просто мимо проходил, Мертвин. Счастливо\"."
 
 #: 56738
 msgid ""
 "I reunited Mertwyn's head with his body; the two seemed quite happy to see "
 "one another again."
 msgstr ""
+"Я воссоединил голову Мертвина с его телом; эта парочка кажется весьма радой "
+"видеть друг друга снова."
