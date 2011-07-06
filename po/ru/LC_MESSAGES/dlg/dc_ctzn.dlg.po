@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dc_ctzn.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:13+0600\n"
+"PO-Revision-Date: 2011-07-06 23:08+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,28 +11,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 67990
 msgid ""
 "This person glares at you, obviously irked at interrupting the conversation, "
 "and turns back to the crowd."
 msgstr ""
+"Явно раздраженный тем, что его отвлекли от разговора, человек смотрит на "
+"тебя, а затем поворачивается назад к толпе."
 
 #: 67991
 msgid "The reply is snappish. \"You're interrupting. Of course not!\""
-msgstr ""
+msgstr "Звучит брюзгливый ответ: \"Ты отвлекаешь меня. Нет!\""
 
 #: 67992
-#, fuzzy
 msgid "\"Fine, then. Farewell.\""
-msgstr "\"Я так и сделаю. Прощай Морт\"."
+msgstr "\"Ну и ладно. Прощай\"."
 
 #: 67993
-#, fuzzy
 msgid "\"I just had some questions...\""
-msgstr "\"У меня есть некоторые вопросы\"."
+msgstr "\"У меня всего лишь несколько вопросов...\""
 
 #: 67994
 msgid "\"Farewell, then...\""
 msgstr "\"Тогда прощай...\" "
+
