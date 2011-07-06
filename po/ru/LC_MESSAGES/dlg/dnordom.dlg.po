@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dnordom.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-15 03:04+0500\n"
+"PO-Revision-Date: 2011-06-28 00:02+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 16630
 msgid "\"Define: Aid, required.\""
@@ -193,10 +194,10 @@ msgid ""
 "gear turned as per its normal speed. Upon completing our task, we were then "
 "returned to the Source.\""
 msgstr ""
-"\"Во время 13,7-го цикла нам понадобилось починить шестерню и подмножество "
-"зубцов номер тридцать один в пятом кольце Механуса. Мы устранили эту помеху, "
-"и шестерня стала крутиться с нормальной скоростью. После выполнения задания "
-"мы вернулись к Источнику\"."
+"\"Во время 13,7-го Цикла нам понадобилось починить шестерню и подмножество "
+"зубцов номер тридцать один в пятом кольце Механуса. Мы устранили помеху, и "
+"шестерня стала крутиться с нормальной скоростью. Выполнив свое задание, мы "
+"вернулись к Источнику\"."
 
 #: 39580
 msgid "\"It was what took place. With embellishments, of course.\""
@@ -1156,7 +1157,7 @@ msgstr ""
 #: 55330 56000
 #, fuzzy
 msgid "\"Nordom, do you know anything about the Blood War?\""
-msgstr "\"Что ты знаешь о Войне Крови?\""
+msgstr "\"Что ты знаешь о Кровавой войне?\""
 
 #: 55331
 msgid "\"No more... queries, Nordom. Let's go.\""

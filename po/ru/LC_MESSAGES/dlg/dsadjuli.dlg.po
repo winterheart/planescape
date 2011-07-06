@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dsadjuli.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-03-21 00:03+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2011-05-01 00:09+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 2982
 msgid ""
@@ -62,12 +63,13 @@ msgstr ""
 "найти в типографии в Нижнем районе."
 
 #: 39457
+#, fuzzy
 msgid ""
 "Juliette told me that Kimasxi Addertongue, one of the prostitutes in the "
 "Brothel of Slating Intellectual Lusts, is the half-sister of Kesai-Serris, "
 "who I've been told is Ravel Puzzlewell's daughter."
 msgstr ""
-"Джульетта сказала мне, что Кимаши Змееязыкая, одна из проституток Борделя "
+"Джульетта сказала мне, что Кимаскси Змееязыкая, одна из проституток Борделя "
 "утоления интеллектуальной страсти, приходится сводной сестрой Кесай-Серри, "
 "которая, насколько я слышал, является дочерью Равель Заморочки."
 
@@ -385,6 +387,7 @@ msgstr ""
 "может знать: она без конца тут блуждает, присматриваясь ко всему\"."
 
 #: 40257
+#, fuzzy
 msgid ""
 "\"Ravel Puzzle-what? Who?\" Juliette appears perplexed. \"Is that truly "
 "someone's name? If it is, Yves might know of her. She knows myriad tales, "
@@ -475,6 +478,7 @@ msgid "\"Greetings. Come to ask thy questions of me, I take it?\""
 msgstr "\"Приветствую. Пришел задавать свои вопросы, угадала?\""
 
 #: 40273
+#, fuzzy
 msgid ""
 "\"Ravel... hmm... ah! I thought I might have heard that name before. I know "
 "not the truth of it, but I *have* heard such a rumor. Thou may wish to ask "
@@ -483,7 +487,7 @@ msgid ""
 msgstr ""
 "\"Равель... хмм... а! Думаю, я где-то уже слышала это имя. Не знаю, правда "
 "ли это, но до меня *доносились* кое-какие слухи. Ты можешь спросить о том же "
-"Кимаши Змееязыкую... видишь ли, они сестры по крови\"."
+"Кимаскси Змееязыкую... видишь ли, они сводные сестры\"."
 
 #: 40274
 msgid ""
@@ -529,14 +533,14 @@ msgstr "\"Уверен я мог бы добавить твою жизнь не�
 
 #: 40298
 msgid "\"I can't remember any courtships I have had, really.\""
-msgstr "\"Не помню, чтобы у меня хоть с кем-то быль отношения, правда\"."
+msgstr "\"Не помню, чтобы у меня хоть с кем-то были отношения\"."
 
 #: 40299
 msgid ""
 "\"I can't remember any courtships I have had. The remnants of the ones I "
 "have encountered suggest that I may have had some problems.\""
 msgstr ""
-"\"Не помню, чтобы у меня хоть с кем-то быль отношения. Остатки воспоминаний "
+"\"Не помню, чтобы у меня хоть с кем-то были отношения. Остатки воспоминаний "
 "о них наводят меня на мысль, что у меня были какие-то проблемы с этим\"."
 
 #: 40302
@@ -545,7 +549,7 @@ msgstr "\"Это звучит не очень мудро. Довольствуй
 
 #: 40303
 msgid "\"What did you have in mind?\""
-msgstr "\"Что ты имела в виду?\""
+msgstr "\"Что ты имеешь в виду?\""
 
 #: 40307
 msgid "\"What did you have in mind to spice things up?\""
@@ -685,6 +689,7 @@ msgid "\"What can you tell me about the silent prostitute?\""
 msgstr "\"Что ты можешь рассказать о молчаливой проститутке?\""
 
 #: 40345 40352
+#, fuzzy
 msgid "\"I heard that Kesai-Serris is Ravel's daughter. Is that true?\""
 msgstr "\"Я слышал, что Кесай-Серри - дочь Равель. Это правда?\""
 
@@ -699,6 +704,7 @@ msgstr ""
 "\"Я пытаюсь найти малиновую вуаль Мариссы... не знаешь, где она может быть?\""
 
 #: 40348 40355
+#, fuzzy
 msgid "\"Do you know anything about Ravel Puzzlewell?\""
 msgstr "\"Ты что-нибудь знаешь о Равель Заморочке?\""
 
@@ -1092,6 +1098,7 @@ msgstr ""
 "следящей за всеми девушки."
 
 #: 66742
+#, fuzzy
 msgid ""
 "I asked one of the Brothel's prostitutes about Ravel, and she suggested I "
 "speak to Yves about it. I'm told that Yves collects all sorts of tales, and "

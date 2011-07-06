@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dalais.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:52+0500\n"
+"PO-Revision-Date: 2011-07-03 23:05+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,16 +11,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 11435
 msgid "\"Relax. I just wanted to ask you some questions.\""
-msgstr ""
+msgstr "\"Спокойно. Я просто хочу задать тебе несколько вопросов\"."
 
 #: 11436
-#, fuzzy
 msgid "\"From you? Nothing.\""
-msgstr "\"Для тебя - ничего\"."
+msgstr "\"От тебя? Ничего\"."
 
 #: 11437
 msgid ""
@@ -28,12 +28,17 @@ msgid ""
 "me, and it would please me greatly if you would not trouble my presence with "
 "yours. Good day.\" He turns stiffly away from you."
 msgstr ""
+"\"Судя по твоему отношению, тебе от меня больше ничего не нужно, поэтому, "
+"пожалуйста, не беспокой меня больше своим присутствием. Хорошего дня\". С "
+"надменным видом он отворачивается от тебя."
 
 #: 11438
 msgid ""
 "\"Look, I apologize for what I said to you before. I just need some "
 "questions answered.\""
 msgstr ""
+"\"Послушай, я приношу свои извинения за то, что сказал тебе. Мне просто "
+"нужно, чтобы ты ответил на некоторые вопросы\"."
 
 #: 11439
 msgid "\"Fine, then.\""
@@ -44,41 +49,36 @@ msgid ""
 "\"You have said what you have said, and I have taken it to heart. Yet never "
 "let it be said that I am entirely rigid. What would you ask of me?\""
 msgstr ""
+"\"Ты сказал то, что ты сказал, а я принял это близко к сердцу. По крайней "
+"мере, никто не скажет, что я совсем косный. Что ты хотел спросить у меня?\""
 
 #: 11441 11458
 msgid "\"Who are you again?\""
 msgstr "\"Еще раз, кто ты?\""
 
 #: 11442 11460 11559 11568
-#, fuzzy
 msgid "\"Who are the patrons of this tavern?\""
-msgstr "\"Что это за ключи?\""
+msgstr "\"Кто завсегдатаи этой таверны?\""
 
 #: 11443 11461 11561 11570
 msgid "\"What can you tell me about this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 11444 11462 11562 11573
-#, fuzzy
 msgid "\"I'm looking for a journal. Have you seen one recently?\""
-msgstr "\"Я ищу дневник. Тебе такой не попадался?\""
+msgstr "\"Я ищу дневник. Тебе такой не попадался недавно?\""
 
 #: 11445 11464 11574 11583
-#, fuzzy
 msgid "\"Have you heard of a Collector named Pharod?\""
-msgstr ""
-"\"Я ищу Сборщика по имени Фарод. Ты видела его или, может быть, слышала о "
-"нем?\""
+msgstr "\"Слышал ли ты когда-нибудь о Сборщике по имени Фарод?\""
 
 #: 11446 11447 11465 11466 11526
-#, fuzzy
 msgid "\"I'd like to apologize to you.\""
-msgstr "\"Хочется посмотреть на эту попытку\"."
+msgstr "\"Я бы хотел извиниться перед тобой\"."
 
 #: 11448 11467 11580 11658
-#, fuzzy
 msgid "\"Nothing. Forget it.\""
-msgstr "\"Забудь\"."
+msgstr "\"Ничего. Забудь\"."
 
 #: 11449
 msgid ""
@@ -87,6 +87,10 @@ msgid ""
 "pride, and no amount of cajoling on your part can induce him to turn back to "
 "you."
 msgstr ""
+"Его глаза вспыхивают огнем. \"Довольно с меня оскорблений, 'приятель'. Я "
+"больше не буду с тобой разговаривать.\" С чувством задетого собственного "
+"достоинства он гордо отворачивается. Никакие льстивые обращения с твоей "
+"стороны не заставят повернуться к тебе снова."
 
 #: 11450 11478 11536 11550
 msgid "Attack him."
@@ -102,20 +106,25 @@ msgid ""
 "not make it my business to meddle in the affairs of others. Did you have any "
 "further questions for me, or may I continue to enjoy my solitude?\""
 msgstr ""
+"\"Я знаю только одного - это Эбб. Я недавно в этом месте, поэтому я не "
+"вмешиваюсь в дела других. У тебя есть еще вопросы ко мне, или я могу снова "
+"наслаждаться своим одиночеством?\""
 
 #: 11454
 msgid "\"Well, actually, I had a few more questions for you first.\""
-msgstr ""
+msgstr "\"Ну, вообще-то, у меня есть еще несколько вопросов к тебе\"."
 
 #: 11455
 msgid "\"You can go back to whatever you were doing.\""
-msgstr ""
+msgstr "\"Можешь возвращаться к тому, чем занимался\"."
 
 #: 11456
 msgid ""
 "He sighs heavily, and eyes you with disdain. \"Then be on with it, scarred "
 "one, ask and be done.\""
 msgstr ""
+"Он тяжело вздыхает, презрительно глядя на тебя. \"Тогда покончим с этим, "
+"человек со шрамами. Задавай вопросы и уходи\"."
 
 #: 11469
 msgid ""
@@ -124,22 +133,25 @@ msgid ""
 "that parades before my eyes. I find that at least there is some humanity in "
 "this place, for which I am grateful.\""
 msgstr ""
+"\"Это таверна, очень похожа на те, что у меня дома. Если только не обращать "
+"внимания на демонов в углу и бесконечный парад странностей вокруг меня. По "
+"крайней мере, этом месте есть немного людей, чему я очень рад\"."
 
 #: 11470
 msgid "\"Oh, that's right. You're clueless, aren't you?\""
-msgstr ""
+msgstr "\"А, так и есть. Ты ведь невежда, так?\""
 
 #: 11471
 msgid "\"You're a prime, aren't you?\""
-msgstr ""
+msgstr "\"Ты ведь первичник, не так ли?\""
 
 #: 11472
 msgid "\"I'd imagine. More questions, if I may.\""
-msgstr ""
+msgstr "\"Могу себе представить. Еще вопрос, если можно\"."
 
 #: 11473
 msgid "\"I'd imagine. Farewell.\""
-msgstr ""
+msgstr "\"Могу себе представить. Прощай\"."
 
 #: 11474
 msgid ""
@@ -147,18 +159,21 @@ msgid ""
 "would you expect me to remember a JOURNAL? Not only are you insulting and "
 "offensive, it appears you are stupid as well.\""
 msgstr ""
+"\"Дневник? И где бы я мог его увидеть? Я здесь совсем недавно, как ты мог "
+"ожидать того, что я вспомню о каком-то ДНЕВНИКЕ? Ты не только груб и "
+"бестактен, похоже, ты еще и глуп\"."
 
 #: 11475
 msgid "\"Let's just call it even on the insults now, shall we?\""
-msgstr ""
+msgstr "\"Давай забудем все наши оскорбления?\""
 
 #: 11476
 msgid "\"Are you trying to provoke me?\""
-msgstr ""
+msgstr "\"Ты пытаешься меня спровоцировать?\""
 
 #: 11477
 msgid "\"This is pointless. Farewell.\""
-msgstr ""
+msgstr "\"Это бессмысленно. Прощай\"."
 
 #: 11524
 msgid ""
@@ -166,32 +181,37 @@ msgid ""
 "Obviously, I know nothing of these 'Collectors'. Now will you leave me alone?"
 "\""
 msgstr ""
+"\"Я же уже сказал тебе, я здесь недавно, а ты продолжаешь надо мной "
+"издеваться. Очевидно же, что я ничего не знаю ни о каких 'Сборщиках'. Теперь "
+"ты оставишь меня в покое?\""
 
 #: 11525
 msgid "\"Not yet. I still need answers from you.\""
-msgstr ""
+msgstr "\"Пока нет. Мне все еще есть к тебе вопросы\"."
 
 #: 11527
 msgid "\"I'd like to make amends, somehow.\""
-msgstr ""
+msgstr "\"Я хотел бы хоть как-то возместить ущерб\"."
 
 #: 11528
 msgid "\"Certainly. Good day.\""
-msgstr ""
+msgstr "\"Несомненно. Хорошего дня\"."
 
 #: 11529
 msgid ""
 "He appears entirely shocked, as if the notion of apologies is alien to him. "
 "\"You wish to... apologize?\""
 msgstr ""
+"Он сильно потрясен, словно понятие извинения для него совершенно незнакомо. "
+"\"Ты хочешь... принести извинения?\""
 
 #: 11530
 msgid "\"That's what I said.\""
-msgstr ""
+msgstr "\"Именно это я хотел сказать\"."
 
 #: 11531
 msgid "\"No, come to think of it. I changed my mind. Farewell.\""
-msgstr ""
+msgstr "\"Нет, я думал над этим и передумал. Прощай\"."
 
 #: 11532
 msgid ""
@@ -199,10 +219,13 @@ msgid ""
 "apology. Very well. In return, I offer my apology as well. Let us set the "
 "matter aside and speak no more of it.\""
 msgstr ""
+"\"Тогда... тогда... в таком случае, я полагаю, что в качестве дани уважения "
+"я должен принять твои извинения. И принести свои извинения тоже. Давай "
+"отринем прошлые обиды и забудем их навсегда\"."
 
 #: 11533
 msgid "\"Very well. Could you answer some more questions for me?\""
-msgstr ""
+msgstr "\"Хорошо. Сможешь ли ты ответить на другие вопросы?\""
 
 #: 11534 11543
 msgid "\"Very well. Farewell.\""
@@ -215,6 +238,11 @@ msgid ""
 "can only hope that you'll earn yourself more scars and perhaps more honor. "
 "Good day, sir.\" He turns stiffly, and ignores you completely."
 msgstr ""
+"\"Может быть, я и глупец, но я не настолько глуп, чтобы терпеть от тебя "
+"оскорбления и так просто их прощать. Можешь теперь себя за это казнить, но "
+"мне уже все равно, сэр. Могу только надеяться лишь на то, что ты получишь "
+"еще больше шрамов и, может быть, хоть немного чести. Хорошего дня, сэр\". Он "
+"чопорно отворачивается, полностью тебя игнорируя."
 
 #: 11537 11551
 msgid "Leave."
@@ -225,10 +253,11 @@ msgid ""
 "\"That is twice you have insulted me, sirrah, and I shall hear no more of "
 "it. Defend yourself!\""
 msgstr ""
+"\"Ты дважды оскорбил меня! Больше я не собираюсь этого терпеть. Защищайся!\""
 
 #: 11539
 msgid "\"We can work this out...\""
-msgstr ""
+msgstr "\"Мы можем решить эту проблему...\""
 
 #: 11540
 msgid ""
@@ -237,28 +266,34 @@ msgid ""
 "loopholes of this new land, neither would I call myself 'clueless', as some "
 "of the local varlets around here have done.\""
 msgstr ""
+"\"Если ты имеешь в виду, из настоящего ли я мира, то да, я - первичник. Я не "
+"очень здесь известен. И хоть я не знаю всех ходов в этой новой земле, но я "
+"не позволю называть себя 'невеждой', как выражаются здешние местные\"."
 
 #: 11541
 msgid "\"No, all right. Let's just call off the insults, shall we?\""
-msgstr ""
+msgstr "\"Нет, все нормально. Давай забудем все оскорбления?\""
 
 #: 11542
 msgid "\"Really? I would.\""
-msgstr ""
+msgstr "\"Правда? А я бы назвал\"."
 
 #: 11545
 msgid ""
 "\"Call it even? Not until you apologize, villain.\" He looks like he's just "
 "spoiling for a fight. \"Or shall I provoke you more?\""
 msgstr ""
+"\"Забудем? Нет, пока ты не принесешь своих извинений, злодей, - всем своим "
+"видом он показывает, что готов ринуться в бой. - Или продолжать тебя "
+"провоцировать?\""
 
 #: 11546
 msgid "\"Very well, then. I apologize.\""
-msgstr ""
+msgstr "\"Ну хорошо. Я приношу свои извинения\"."
 
 #: 11547
 msgid "\"Apologize? To you? Never.\""
-msgstr ""
+msgstr "Извинения? Тебе? Никогда\"."
 
 #: 11549
 msgid ""
@@ -268,10 +303,15 @@ msgid ""
 "man. I am finished with you, for I feel only pity for you. Good day, sir.\" "
 "He turns his back on you."
 msgstr ""
+"\"Ты простой подлец, слизняк без чувства чести, кусок мяса, лишенное духа, "
+"старый человек со шрамами, без надежды на искупление, обреченный влачить "
+"свою жизнь, лишенную всякого намека на человечность. Я закончил с тобой, и "
+"теперь ощущаю к тебе только жалость. Хорошего дня, сэр\". Он поворачивается "
+"к тебе спиной."
 
 #: 11553
 msgid "\"What knowledge do you seek?\""
-msgstr ""
+msgstr "\"Что за знания ты ищешь?\""
 
 #: 11555 11566
 msgid "\"Who are you?\""
@@ -284,19 +324,23 @@ msgid ""
 "carries himself with an air of supercilious arrogance. He also looks "
 "dramatically out of place here. \"What do you want?\" he asks."
 msgstr ""
+"Перед тобой подтянутый, мускулистый мужчина. На нем сравнительно простая и "
+"неброская одежда, которая разительно выделяется на фоне тех нарядов, которые "
+"тебе доводилось видеть в этом городе. Воздух вокруг него словно пронизан "
+"надменным высокомерием. Это выглядит очень театрально. \"Чего тебе нужно?\" "
+"- спрашивает он."
 
 #: 11585
 msgid "\"I am Alais, warrior of renown! Surely you have heard of me?\""
-msgstr ""
+msgstr "\"Я - Алаис, прославленный воин! Ты наверняка слышал обо мне?\""
 
 #: 11588
 msgid "Lie: \"Yes.\""
 msgstr "Ложь: \"Да\"."
 
 #: 11590
-#, fuzzy
 msgid "Truth: \"No.\""
-msgstr "Правда: \"Да не очень-то\"."
+msgstr "Правда: \"Нет\"."
 
 #: 11592
 msgid ""
@@ -305,19 +349,24 @@ msgid ""
 "adventures, including the tale of how I came to this most wondrous, "
 "dismaying city.\""
 msgstr ""
+"\"Наконец-то! Хоть кто-то здесь не настолько невежественен! Разрешаю тебе "
+"купить мне выпить, а потом мы обменяемся своими историями! Я попотчую тебя "
+"одним из последних моих приключений, в котором я попал в этот удивительный и "
+"тревожный город\"."
 
 #: 11594
 msgid "\"I can hardly wait. First, could you answer some questions for me?\""
 msgstr ""
+"\"Жду его с нетерпением. Но сначала не мог бы ты ответить на некоторые "
+"вопросы?\""
 
 #: 11595
 msgid "\"Where are you from? How DID you get here?\""
-msgstr ""
+msgstr "\"Откуда ты пришел? КАК ты попал сюда?\""
 
 #: 11597
-#, fuzzy
 msgid "\"Perhaps later. Farewell.\""
-msgstr "\"Возможно. Прощай\"."
+msgstr "\"Может, позже. Прощай\"."
 
 #: 11606
 msgid ""
@@ -325,19 +374,21 @@ msgid ""
 "or my exploits? Alas... I shall have to prove myself all over again. And "
 "here I had thought my fame had spread across the world.\""
 msgstr ""
+"\"Как? Как такое может быть, что никто в этом городе не слышал обо мне и "
+"моих подвигах? Увы... Я снова должен себя проявлять в качестве героя. И "
+"отсюда моя слава вновь разойдется по всему миру\"."
 
 #: 11608
 msgid "\"What world *are* you from?\""
-msgstr ""
+msgstr "\"Из *какого* мира ты пришел?\""
 
 #: 11609
-#, fuzzy
 msgid "\"I'm certain it has. Answer some questions for me, will you?\""
-msgstr "\"Неважно. Ты можешь ответить на мои вопросы?\""
+msgstr "\"Уверен, что так и будет. Ты можешь ответить на другие вопросы?\""
 
 #: 11612
 msgid "\"We all face disappointments. Farewell.\""
-msgstr ""
+msgstr "\"Мы все иногда сталкиваемся с разочарованиями. Прощай\"."
 
 #: 11629
 msgid ""
@@ -347,6 +398,10 @@ msgid ""
 "my land is what is called a 'prime' by the denizens of this city - though a "
 "prime of what, I don't know.\""
 msgstr ""
+"\"Я пришел из города Алиберн на реке Тейм. Ты слышал о его славе и чудесах? "
+"А, неважно... Это место погрязло во мраке невежества, когда дело доходит до "
+"истинного великолепия городов. Обитатели здешнего города сказали, что моя "
+"земля называется 'первичной', вот только я не понимаю - первичной для чего?\""
 
 #: 11637
 msgid ""
@@ -355,6 +410,10 @@ msgid ""
 "bid you farewell in the hopes that we should never cross paths again.\" He "
 "turns away from you, still flushed with pride and rage."
 msgstr ""
+"Он сверипеет и, краснея от злости, судорожно нащупывает эфес своего меча. "
+"\"Невежда, да? Я стерплю твое оскорбление и надеюсь, что наши пути больше "
+"никогда не пересекутся снова\". Преисполненный яростью и гордыней, он "
+"отворачивается от тебя."
 
 #: 11638
 msgid "\"I just wanted to ask you some questions.\""
@@ -364,31 +423,41 @@ msgstr "\"Я просто хочу задать тебе несколько во
 msgid "\"Farewell, then.\""
 msgstr "\"Тогда прощай\". "
 
+# Игра слов, planes (планы) и plains (равнины) созвучны, отчего Алаис путается, считая, что до сих пор находится в своем мире. Нужна удачная комбинация к "планам".
 #: 11640
+#, fuzzy
 msgid ""
 "\"I have met only the elderly Ebb Creakknees, who has been instructing me in "
 "the ways of the city and the 'plains.' My foe's spell must have catapulted "
 "us far across the world, for I know of no plains near our former location.\""
 msgstr ""
+"\"Я общался только со старым Эббом Коленоскрипом, который рассказал об "
+"устройстве города и 'планах'. Должно быть, заклинание моего врага забросило "
+"нас через весь мир, потому что, насколько мне известно, на прежнем месте "
+"каких планов не было\"."
 
+# Продолжение игры слов с объяснением.
 #: 11641 11642
+#, fuzzy
 msgid ""
 "\"No, no... Planes. As in planes of existence. They are planes of the "
 "imagination, of thought and belief. They are not physical prairies or "
 "grasslands, but other dimensions.\""
 msgstr ""
+"\"Нет, нет... Планы. Основы существования. Это планы воображений, мыслей и "
+"убеждений. Это не обычные прерири или лужайки, это другие измерения\"."
 
 #: 11643
 msgid "\"I get it. You're clueless.\""
-msgstr ""
+msgstr "\"Я понял. Ты невежда\"."
 
 #: 11644
 msgid "\"Um. Right. Listen, I had other questions.\""
-msgstr ""
+msgstr "\"Эээ. Ну да, верно. Послушай, у меня есть еще вопросы\"."
 
 #: 11645 45190
 msgid "\"Right. You're a long way from home. Good luck, and farewell.\""
-msgstr ""
+msgstr "\"Ты оказался далеко от своего дома. Удачи тебе и прощай\"."
 
 #: 11646
 msgid ""
@@ -396,6 +465,9 @@ msgid ""
 "old man said is starting to make sense... excuse me. I must think this over. "
 "Farewell.\""
 msgstr ""
+"На его лице возникает выражение смущения. \"Теперь... теперь я понимаю. То, "
+"что говорил старик, теперь приобретает смысл... Прошу прощения. Я должен над "
+"этим подумать. Прощай\"."
 
 #: 11647
 msgid "\"Farewell.\""
@@ -408,6 +480,10 @@ msgid ""
 "this part of the world is populated by the eccentrics and crazies. I have "
 "truly been transported to a madhouse!\""
 msgstr ""
+"\"Не знаю. Когда я прибыл сюда, я понял, что мне нужно место, где можно "
+"будет перевести дыхание. Представь себе мое потрясение, когда я обнаружил, "
+"что в этой части мира даже обычная таверна населена чудаками и безумцами. Я "
+"определенно попал в сумасшедший дом!."
 
 #: 11649
 msgid "\"Where are you from?\""
@@ -418,11 +494,12 @@ msgid ""
 "\"It certainly seems that way sometimes. I'd like to ask a few more "
 "questions.\""
 msgstr ""
+"\"Определенно, иногда это так и есть. Я бы хотел задать тебе еще несколько "
+"вопросов\"."
 
 #: 11651
-#, fuzzy
 msgid "\"Yes, you have. Farewell.\""
-msgstr "\"Спасибо, Увядшая. Прощай\"."
+msgstr "\"Да, это так. Прощай\"."
 
 #: 11652
 msgid ""
@@ -431,16 +508,18 @@ msgid ""
 "small details in my attempt to do so, I must confess I have not been looking "
 "for journals of any sort.\""
 msgstr ""
+"\"Боюсь, что я не намеревался искать подобных вещей. Я делаю все возможное, "
+"чтобы заново соориентироваться в незнакомой обстановке, и пусть из-за этого "
+"мне приходится уделять много внимания даже мелким деталями, должен признать, "
+"что никаких дневников я не находил\"."
 
 #: 11653
-#, fuzzy
 msgid "\"All right, then. Answer some other questions for me.\""
-msgstr "\"Хорошо. Ответь тогда на несколько вопросов\"."
+msgstr "\"Ну хорошо. Ответь тогда на другие вопросы\"."
 
 #: 11654
-#, fuzzy
 msgid "\"Very well. Thank you for your time.\""
-msgstr "\"Спасибо за уделенное время. Прощай\"."
+msgstr "\"Хорошо. Спасибо за уделенное время\"."
 
 #: 11655
 msgid ""
@@ -448,11 +527,13 @@ msgid ""
 "should hear them mentioned in any other context. I shall certainly remember "
 "your face. Indeed, I could not forget it.\""
 msgstr ""
+"\"Фарод? Сборщик? Ни имя, ни понятие мне не знакомы, но если бы я их услышал "
+"в любом контексте, я бы их запомнил. Я даже запомнил бы твое лицо. Его-то "
+"точно невозможно забыть\"."
 
 #: 11656
-#, fuzzy
 msgid "\"Thank you. Answer more questions for me, will you?\""
-msgstr "\"Неважно. Ты можешь ответить на мои вопросы?\""
+msgstr "\"Спасибо. Ты можешь ответить на другие мои вопросы?\""
 
 #: 11657
 msgid "\"Thanks. Farewell.\""
@@ -466,25 +547,32 @@ msgid ""
 "Before he could flee me entirely, I threw myself after him... and found "
 "myself here.\""
 msgstr ""
+"Я преследовал своего старого врага - теневого злодея Тира Танелеля... - он "
+"делает паузу, ожидая аплодисментов, но, не дождавшись, продолжает. - Он "
+"наколдовал какую-то демоническую магию, открыл для себя проход и бросился в "
+"него. Я ринулся за ним, чтобы не дать ему сбежать... и оказался здесь\"."
 
 #: 3067
 msgid ""
 "The prime looks at you disgustedly. \"What do YOU want?\" The way he accents "
 "the pronoun is almost infuriating, and definitely insulting."
 msgstr ""
+"Первичник смотрит на тебя с отвращением. \"Что ТЕБЕ нужно?\" - уже само "
+"произношение полно ярости затаенной обиды."
 
 #: 45189
 msgid "\"How did you get here?\""
-msgstr "\"Как ты попала сюда?\""
+msgstr "\"Как ты попал сюда?\""
 
 #: 45193
 msgid "\"I get it. You're one of the Clueless.\""
-msgstr ""
+msgstr "\"Я понял. Ты - один из Невежд\"."
 
 #: 45195
 msgid "\"That sounds like quite an adventure. I had other questions for you.\""
 msgstr ""
+"\"Очень похоже на какое-то приключение. У меня есть другие вопросы к тебе\"."
 
 #: 45196
 msgid "\"Good luck getting around. You'll need it. Farewell.\""
-msgstr ""
+msgstr "\"Удачи с местными. Она тебе понадобится. Прощай\"."

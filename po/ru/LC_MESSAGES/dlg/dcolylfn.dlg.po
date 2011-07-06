@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcolylfn.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:14+0500\n"
+"PO-Revision-Date: 2011-07-04 01:25+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 18505
 msgid ""
@@ -319,16 +320,15 @@ msgstr ""
 
 #: 18615 18647 18660
 msgid "Hand him a couple coins."
-msgstr ""
+msgstr "Дать ему пару монет."
 
 #: 18616 18623 18648 18661
-#, fuzzy
 msgid "Throw him five coppers."
-msgstr "Дать пять медяков."
+msgstr "Бросить ему пять медяков."
 
 #: 18617 18624 18649 18662
 msgid "Dump ten coppers into his palms."
-msgstr ""
+msgstr "Бросить десять медяков в его ладонь."
 
 #: 18618 18625 18663
 msgid "\"You'll get nothing. Spill the chant.\""
@@ -340,9 +340,8 @@ msgid "\"Uh... why are your fingers yellow?\""
 msgstr "\"Так что же ты здесь делаешь?\""
 
 #: 18620 18621 18627 18628 18664 18665
-#, fuzzy
 msgid "\"Forget I asked. Farewell.\""
-msgstr "\"Забудь об этом. Прощай\"."
+msgstr "\"Забудь, что я спрашивал. Прощай\"."
 
 #: 18622
 msgid ""
@@ -393,12 +392,11 @@ msgstr ""
 
 #: 18646
 msgid "Grab him, shake him up a bit."
-msgstr ""
+msgstr "Схватить и встряхнуть его."
 
 #: 18651 18652 18710 18711
-#, fuzzy
 msgid "\"Forget I asked, then. Farewell.\""
-msgstr "\"Забудь об этом. Прощай\"."
+msgstr "\"Тогда забудь о вопросе. Прощай\"."
 
 #: 18653
 msgid ""
@@ -497,9 +495,8 @@ msgid ""
 msgstr ""
 
 #: 18708
-#, fuzzy
 msgid "\"Do you know where he is?\""
-msgstr "\"Ты знаешь, где она находится?\""
+msgstr "\"Ты знаешь, где он находится?\""
 
 #: 18709 18713
 msgid "Offer him five more coins."
@@ -562,9 +559,8 @@ msgid "He leaps backwards and begins to flee!"
 msgstr ""
 
 #: 18738 18779 18781
-#, fuzzy
 msgid "\"Damn...\""
-msgstr "\"Я...\""
+msgstr "\"Черт...\""
 
 #: 18739
 msgid ""

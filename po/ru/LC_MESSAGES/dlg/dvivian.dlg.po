@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dvivian.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-03-23 22:39+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2011-05-01 00:27+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 2999 38431
 msgid ""
@@ -76,8 +77,9 @@ msgid "\"What can you tell me about the silent prostitute?\""
 msgstr "\"Что ты можешь рассказать о молчаливой проститутке?\""
 
 #: 39072
+#, fuzzy
 msgid "\"I heard that Kesai-Serris is Ravel's daughter. Is that true?\""
-msgstr "\"Я слыхал, что Кесай-Серри - дочь Равель. Это правда?\""
+msgstr "\"Я слышал, что Кесай-Серри - дочь Равель. Это правда?\""
 
 #: 39073
 msgid ""
@@ -87,6 +89,7 @@ msgstr ""
 "быть?\""
 
 #: 39074
+#, fuzzy
 msgid "\"Do you know anything about Ravel Puzzlewell?\""
 msgstr "\"Ты что-нибудь знаешь о Равель Заморочке?\""
 
@@ -265,9 +268,9 @@ msgid ""
 "mercenary appearance. Very well... recover my scent, and I shall aid you "
 "with yours.\""
 msgstr ""
-"Вивьен закатывает глаза. \"Этого я и ожидала от твоего грубой внешности "
-"типичного наемника. Отлично... верни мне мой аромат, и я помогу тебе с твоим"
-"\"."
+"Вивьен закатывает глаза. \"Этого следовало ожидать, судя по твоей грубой "
+"внешности типичного наемника. Отлично... верни мне мой аромат, и я помогу "
+"тебе с твоим\"."
 
 #: 39116
 msgid "\"Mine?\""
@@ -328,8 +331,9 @@ msgid ""
 "\"The deal is done, then. Should you run across it, let me know. I am "
 "somewhat anxious to get it back. A one-of-a-kind scent, really.\""
 msgstr ""
-"\"Тогда по рукам. Если он тебе случайно попадется, дай мне знать. Я очень "
-"хочу его вернуть. Этот аромат - единственный в своем роде, в самом деле\"."
+"\"Тогда договорились. Если он тебе случайно попадется, дай мне знать. Я "
+"очень хочу его вернуть. Этот аромат - единственный в своем роде, в самом деле"
+"\"."
 
 #: 39129
 msgid ""
@@ -434,8 +438,8 @@ msgid ""
 "with you, I am certain.\""
 msgstr ""
 "Вивьен издает вздох. \"Возможно, ты захочешь спросить Падшую Грацию - или, "
-"что еще лучше, кого-то в Городском Фестхолле - про Чувствующих. Уверена, они "
-"будут рады поболтать с тобой\"."
+"что еще лучше, кого-то в Городской ратуше - про Чувствующих. Уверена, они "
+"будут рады поговорить с тобой\"."
 
 #: 39158
 msgid ""
@@ -518,7 +522,7 @@ msgid ""
 "family recommended this establishment as one means by which I could examine "
 "my inner self to see if I wished to join.\""
 msgstr ""
-"\"Я - одна из проституток госпожи Грации (одна из ее учениц) здесь в "
+"\"Я - одна из проституток госпожи Грации - одна из ее учениц - здесь в "
 "борделе. Я готовлюсь к вступлению в Общество Чувствующих, и моя семья "
 "посоветовала мне это заведение в качестве средства, с помощью которого я "
 "могу проверить свое внутреннее \"я\", и увидеть, хочу ли я к ним "
@@ -670,6 +674,7 @@ msgid "I returned Vivian's personal scent to her."
 msgstr "Я вернул Вивьен ее личный аромат."
 
 #: 66742
+#, fuzzy
 msgid ""
 "I asked one of the Brothel's prostitutes about Ravel, and she suggested I "
 "speak to Yves about it. I'm told that Yves collects all sorts of tales, and "
@@ -680,6 +685,7 @@ msgstr ""
 "скорее всего, имеет что-нибудь про Равель в своем репертуаре."
 
 #: 66743
+#, fuzzy
 msgid ""
 "I asked one of the prostitutes if she knew whether or not Kesai-Serris was "
 "truly Ravel's daughter, and she suggested I ask Juliette about it. "
