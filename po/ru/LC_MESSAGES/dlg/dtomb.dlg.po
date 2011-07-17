@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dtomb.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:44+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-07-15 23:27+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,26 +21,29 @@ msgid ""
 "months to get correct. Fine cracks run over the entire statue, and there is "
 "a plaque attached to its base."
 msgstr ""
+"Статуя выглядит так, будто собирается сделать какое-то гневное заявление. "
+"Скульптор великолепно передал сущность ярости: должно быть, потребовались "
+"многие месяцы, чтобы правильно высечь одни только морщины напряжения на шее "
+"и лбу. Изваяние покрыто мелкими трещинами, а к пьедесталу прикреплена "
+"табличка."
 
 #: 31530 31535 31546 31551
 msgid "Apply the Gorgon Salve to the statue."
-msgstr ""
+msgstr "Намазать статую мазью Горгоны."
 
 #: 31531 31541 31548 31556
-#, fuzzy
 msgid "Read the plaque."
-msgstr "Взять страницу."
+msgstr "Прочитать табличку."
 
 #: 31532
-#, fuzzy
 msgid "Examine the cracks."
-msgstr "Осмотреть труп."
+msgstr "Осмотреть трещины."
 
 #: 31533 31537 31542 31549 31557
-#, fuzzy
 msgid "Leave the statue."
-msgstr "Оставить духа в покое."
+msgstr "Оставить статую в покое."
 
+# dream=dread???
 #: 31534
 msgid ""
 "The plaque reads: 'This statue is believed to be the final fate of the "
@@ -50,9 +53,14 @@ msgid ""
 "with a final, awful curse still upon his lips, a curse so terrible that it "
 "was *never* meant to be spoken by the lips of a living man.'"
 msgstr ""
+"Табличка гласит: \"Считается, что эта статуя - конечная судьба "
+"этерсерийского чародея Гангройгидона. Атакованный враждебным конклавом "
+"чародеев, находясь в пике ужасного безумия, он был лишен свободы "
+"заклинанием, которое обратило его плоть в камень. Говорят, будто "
+"Гангройгидон застыл с последним страшным проклятием на губах, столь ужасным, "
+"что ему *никогда* не следовало слетать с уст живого человека\"."
 
 #: 31536 31547 31552
-#, fuzzy
 msgid "Examine the statue."
 msgstr "Осмотреть статую."
 
@@ -62,11 +70,13 @@ msgid ""
 "veins, along the statue's surface. At one point, near its inner arm, is a "
 "section where an entire splinter of stone looks ready to come off."
 msgstr ""
+"Ты тщательно изучаешь трещины, идущие по поверхности статуи, словно сеть "
+"тонких черных сосудов. В одном месте, на внутренней стороне руки, есть "
+"участок, где кусок камня уже готов отвалиться."
 
 #: 31539 31540
-#, fuzzy
 msgid "Break the piece off."
-msgstr "Осмотреть кусок железа."
+msgstr "Отломить кусок."
 
 #: 31543
 msgid ""
@@ -75,10 +85,13 @@ msgid ""
 "of metal striking on stone, and a splinter the size of a dagger snaps off "
 "the statue."
 msgstr ""
+"Ты протягиваешь руку к месту на руке, где образовалась трещина, крепко "
+"хватаешь его и бьешь по нему своим кузнечным молотом. Слышится звук удара "
+"металла о камень, и от статуи отпадает обломок размером с кинжал."
 
 #: 31544
 msgid "\"Got it...\""
-msgstr ""
+msgstr "\"Есть...\""
 
 #: 31545
 msgid ""
@@ -87,6 +100,10 @@ msgid ""
 "the arm comes off in your hands. You quickly - and quietly - tuck away the "
 "splinter and turn away from the crying statue."
 msgstr ""
+"Когда обломок отпадает, ты чувствуешь, как по тыльной стороне твоей руки "
+"начинает течь вода... взяв обломок руки, ты видишь, как глаза статуи "
+"наполняются слезами. Ты быстро - и бесшумно - возвращаешь обломок на место и "
+"отворачиваешься от плачущего изваяния."
 
 #: 31550
 msgid ""
@@ -95,6 +112,11 @@ msgid ""
 "and a small one: the limited space between the statue's arm and body means a "
 "large one... one suitable for combat, for instance... won't work."
 msgstr ""
+"Ты протягиваешь руку к месту на 'This statue is believed to be the final "
+"fate , где образовалась трещина, крепко обхватываешь его и дергаешь - "
+"безуспешно. Чтобы отколоть камень, тебе нужен молоток, и небольшого размера: "
+"из-за ограниченного пространства между рукой и телом статуи большой молот... "
+"например, боевой... не подойдет."
 
 #: 31558
 msgid ""
@@ -102,6 +124,9 @@ msgid ""
 "shimmering around the statue, and you watch as the statue takes an intake of "
 "breath and the eyes of Gangroighydon fill with a blazing, vengeful madness."
 msgstr ""
+"Ты обмазываешь изваяние зловонной мазью. Вокруг него появляется странное "
+"мерцание, и ты наблюдаешь, как статуя делает вдох, и глаза Гангройгидона "
+"наполняются пылающим мстительным безумством. "
 
 #: 31559
 msgid "\"Greetings...\""
@@ -109,11 +134,11 @@ msgstr "\"Приветствую...\""
 
 #: 31560
 msgid "Cover your ears."
-msgstr ""
+msgstr "Прикрыть уши."
 
 #: 31561
 msgid "Run like mad."
-msgstr ""
+msgstr "Бежать как сумасшедший."
 
 #: 31562
 msgid ""
@@ -124,19 +149,27 @@ msgid ""
 "their sockets like shattered eggs... you hear someone screaming, and realize "
 "it is you... "
 msgstr ""
+"Прежде чем ты успеваешь что-нибудь предпринять, с губ чародея срывается "
+"пламенный поток слов. При этом ты чувствуешь мучительное ощущение, будто "
+"тебя окатывает стремительной волной чудовищной жары, которая покрывает твою "
+"кожу как ожог. Тебя ослепляет: твои глаза, вылетев из орбит, лопаются, как "
+"разбитые яйца... ты слышишь, как кто-то кричит, и вдруг осознаешь, что это "
+"ты..."
 
 #: 31563
 msgid "Wait for the horror to end."
-msgstr ""
+msgstr "Подождать, пока этот кошмар закончится."
 
 #: 31564
 msgid "Fall into darkness, a victim of Gangroighydon's Awful Curse."
-msgstr ""
+msgstr "Пасть во тьму, став жертвой страшного проклятья Гангройгидона."
 
 #: 31565
 msgid ""
 "The last things you hear, even over your own cries, is Morte shouting..."
 msgstr ""
+"Последнее, что ты слышишь, даже сквозь собственный крик, - это ликующий "
+"возглас Морта..."
 
 #: 66515
 msgid ""
@@ -144,6 +177,9 @@ msgid ""
 "simply gone, presumably having walked off without leaving so much as a note "
 "of apology."
 msgstr ""
+"\"Статуя\" - в действительности, однажды обращенный в камень чародей "
+"Гангройгидон - попросту исчезла. Скорее всего, он ушел, даже не удосужившись "
+"извиниться."
 
 #: 66516
 msgid "Leave."
