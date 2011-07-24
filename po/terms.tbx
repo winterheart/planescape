@@ -2507,6 +2507,7 @@
                 </langSet>
             </termEntry>
             <termEntry id="azamat_h._hackimov-140">
+        <descrip type="definition">Проклятый зловонием мужчина.</descrip>
                 <descrip type="subjectField">planescape</descrip>
                 <langSet xml:lang="en">
                     <ntig>
@@ -2518,7 +2519,7 @@
                 <langSet xml:lang="ru">
                     <ntig>
                         <termGrp>
-                            <term>риквинд</term>
+                            <term>вонючка</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -7349,6 +7350,168 @@
           <ntig>
             <termGrp>
               <term>мертвин</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-397">
+        <descrip type="definition">Цепные дьяволы, обитатели третьего слоя Баатора.</descrip>
+        <descrip type="subjectField">существа</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>kyton</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>китон</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-398">
+        <descrip type="definition">Город в Минауросе, третьем слое Баатора. Подвешен цепями к небесам, населен китонами.</descrip>
+        <descrip type="subjectField">география планов</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>jangling hiter</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>звенящий хайтер</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-399">
+        <descrip type="definition">Слой вечной ночи на Звериных землях.</descrip>
+        <descrip type="subjectField">география планов</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>karasuthra</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>карасуфра</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-400">
+        <descrip type="definition">Гора, вотчина дварфийского бога войны Клангеддина Сребробородого, названа в его честь. Находится в первом слое Аркадии - Абеллио.</descrip>
+        <descrip type="subjectField">география планов</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>clanggedin</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>клангеддин</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-401">
+        <descrip type="definition">Первый слой Серых Пустошей.</descrip>
+        <descrip type="subjectField">география планов</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>oinos</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>ойнос</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-402">
+        <descrip type="definition">Третий слой Баатора.</descrip>
+        <descrip type="subjectField">география планов</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>baator</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>минаурос</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-403">
+        <descrip type="definition">Слой вечной ночи в Звериных землях</descrip>
+        <descrip type="subjectField">география планов</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>karasuthra</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>карасуфра</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-404">
+        <descrip type="definition">Крупнейший дом для сумасшедших в Сигиле.</descrip>
+        <descrip type="subjectField">география планов</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>gatehouse</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>застава</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-405">
+        <descrip type="definition">Четвертый слой Элизиума, огромное море, откуда берет начало река Океанус.</descrip>
+        <descrip type="subjectField">география планов</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>thalasia</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>таласия</term>
             </termGrp>
           </ntig>
         </langSet>

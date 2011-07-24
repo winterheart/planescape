@@ -1,17 +1,19 @@
 #!/usr/bin/perl
 
 use File::Find;
-use File::Read;
+use File::Slurp;
 use Locale::PO;
 use Getopt::Long;
 
 use strict;
 use warnings;
+use encoding 'utf8';
 
 my %config;
 GetOptions(\%config,
 	'tra|t=s',
-	'input|i=s' );
+	'input|i=s',
+	'output|o=s');
 
 my $output;
 my %hash;
@@ -47,7 +49,6 @@ sub wanted {
 }
 
 find(\&wanted, $config{input});
-#my @files = <$config{input}/*.po>;
 
 foreach my $file (@files) {
 	my $po_entries = Locale::PO->load_file_asarray($file) || die "Can't open file";
@@ -88,6 +89,6 @@ foreach my $item (sort {$a<=>$b} keys %hash) {
 }
 
 
-open(TEXT,">", "$config{tra}");
+open(TEXT,">:utf8", "$config{output}") || die "$!";
 print TEXT $output;
 close(TEXT);
