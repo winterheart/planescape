@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dgoncal.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:37+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-07-30 21:43+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,6 +20,10 @@ msgid ""
 "across a wooden frame; he is currently embroidering some pattern into the "
 "fabric."
 msgstr ""
+"Этот невысокий крепкий мужчина средних лет носит одежду, которая, казалось "
+"бы, выткана из сверкающего золота. В своей руке он держит кусок ткани, туго "
+"натянутый на деревянную раму; в текущий момент он вышивает на ткани какой-то "
+"узор."
 
 #: 2924 44234
 msgid "\"Greetings...\""
@@ -35,16 +39,17 @@ msgid ""
 "his embroidery, muttering under his breath... as he sews, shimmering motes "
 "of light seem to sparkle and drop from the tip of the needle."
 msgstr ""
+"Мужчина будто не замечает твоего присутствия. Он продолжает работать над "
+"вышивкой, что-то бормоча себе под нос... когда он шьет, кажется, будто с "
+"кончика его иглы слетают и падают мерцающие пылинки света."
 
 #: 44150 44152
-#, fuzzy
 msgid "\"Good sir; did you hear me?\""
-msgstr "\"Морт, как ты умер?\""
+msgstr "\"Сэр, вы меня слышите?\""
 
 #: 44151 44153
-#, fuzzy
 msgid "\"I said 'greetings.'\""
-msgstr "Приветствую, говорю."
+msgstr "\"Я сказал: 'приветствую'\"."
 
 #: 44154 44158 44166 44169 44174 44178 44243 66869
 msgid "Leave."
@@ -56,6 +61,9 @@ msgid ""
 "you: \"Yes, yes... and I am certain that what you need is truly *quite* "
 "urgent. Now, if you could be silent for just a moment...\""
 msgstr ""
+"Человек не отрывает взгляд от работы и, противно нахмурившись, отвечает "
+"тебе: \"Да-да... и я уверен, что вы по действительно *крайне* срочному делу. "
+"А теперь не могли бы вы минутку помолчать...\""
 
 #: 44156
 msgid "\"I had some questions...\""
@@ -63,16 +71,15 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 44157 44162 44165
 msgid "Wait quietly."
-msgstr ""
+msgstr "Молча ждать."
 
 #: 44160
 msgid "He smirks, but does not respond."
-msgstr ""
+msgstr "Он ухмыляется, но не отвечает."
 
 #: 44161
-#, fuzzy
 msgid "\"I said, 'I had some questions...'\""
-msgstr "\"Я говорил, у меня были еще вопросы...\""
+msgstr "\"Я сказал: 'меня есть некоторые вопросы...'\"."
 
 #: 44163
 msgid ""
@@ -80,10 +87,14 @@ msgid ""
 "as look at you directly. \"I do not *care* if you have questions! Now be "
 "silent or kindly *leave* my store!\""
 msgstr ""
+"Его лицо начинает багроветь; он стискивает зубы, и все же не удостаивает "
+"тебя даже взглядом. \"Меня не *волнуют* твои вопросы! А теперь замолчи и "
+"*покинь* мою лавку по-хорошему!\""
 
 #: 44164 44172 44176
 msgid "\"Answer my questions, *tailor*... or there's going to be trouble.\""
 msgstr ""
+"\"Отвечай на мои вопросы, *портной*... не то у тебя будут неприятности\"."
 
 #: 44167
 msgid ""
@@ -92,10 +103,13 @@ msgid ""
 "in to bash you to pieces! Now, OUT! OUT! OUT OF MY STORE WITH YOU! Before I "
 "summon the Harmonium!\""
 msgstr ""
+"Он кидает работу в припадке ярости и кричит, брызжа слюной: \"Очень хорошо, "
+"неприятности *будут*, когда зайдет стража, чтобы разорвать вас на кусочки! А "
+"теперь ВОН! ВОН! ВОН ИЗ МОЕЙ ЛАВКИ! Не то я позову Гармониум!\""
 
 #: 44168
 msgid "\"I *dare* you to do it.\""
-msgstr ""
+msgstr "\"*Давай*, зови\"."
 
 #: 44170
 msgid ""
@@ -104,15 +118,18 @@ msgid ""
 "Again, as he works what looks to be tiny, colored sparks drip from the "
 "fabric."
 msgstr ""
+"Наконец, он откладывает вышивку и поднимает на тебя взгляд. Однако, прежде "
+"чем ты успеваешь заговорить, он внезапно берет другую вещь и принимается "
+"работать над ней. И вновь при этом с ткани слетает нечто, похожее на "
+"крохотные цветные искорки."
 
 #: 44171
 msgid "\"Look, I just have a few questions...\""
-msgstr ""
+msgstr "\"Послушайте, у меня всего лишь несколько вопросов...\""
 
 #: 44173 44177
-#, fuzzy
 msgid "Wait some more."
-msgstr "Подождать, пока он не вернется..."
+msgstr "Подождать еще немного."
 
 #: 44175
 msgid ""
@@ -120,48 +137,54 @@ msgid ""
 "wait quietly for a bit - I am certain it shan't see you dead to reign your "
 "tongue in but for a moment more...\""
 msgstr ""
+"Человек громко вздыхает. \"Не сомневаюсь, что они у вас есть. А теперь не "
+"могли бы вы чуточку помолчать: уверен, что для вас не будет смертельным, "
+"если вы еще пару минут попридержите свой язык...\""
 
 #: 44179
 msgid ""
 "He finally finishes his work, setting it down to examine you. \"Greetings, I "
 "am Goncalves. Now, what was it you were here to see me about?\""
 msgstr ""
+"В конце концов, он заканчивает свою работу и откладывает ее, чтобы "
+"рассмотреть тебя. \"Здравствуйте, я Гонсалвис. Итак, зачем вы хотели меня "
+"видеть?\""
 
 #: 44180 44227 44231 44237
-#, fuzzy
 msgid "\"I had questions...\""
-msgstr "\"У меня есть некоторые вопросы...\" "
+msgstr "\"У меня есть вопросы...\" "
 
 #: 44181 44228 44232
 msgid "\"Nothing, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай\"."
+msgstr "\"Ничего, неважно. Прощайте\"."
 
 #: 44182
 msgid ""
 "\"Hmm? I hope 'tis about garments and the like. I shan't answer anything not "
 "concerning myself or the store, you know.\""
 msgstr ""
+"\"Хм-м? Надеюсь, это касательно одежды и тому подобного. Я не стану отвечать "
+"на какие-либо вопросы, не касающиеся меня или моей лавки, знаете ли\"."
 
 #: 44183
 msgid "\"I wanted to pick up a Dustman costume.\""
-msgstr ""
+msgstr "\"Я хотел бы купить наряд Тленного\"."
 
 #: 44184
 msgid "\"I wanted to pick up a another, different costume.\""
-msgstr ""
+msgstr "\"Я хотел бы купить какой-нибудь другой наряд\"."
 
 #: 44185
 msgid "\"What were those lights while you were embroidering?\""
-msgstr ""
+msgstr "\"Что это был за свет, когда вы шили?\""
 
 #: 44186 44199
-#, fuzzy
 msgid "\"What sort of magical clothes do you have available?\""
-msgstr "\"Что за вопросы у тебя?\""
+msgstr "\"Какая магическая одежда у вас есть?\""
 
 #: 44188
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай\". "
+msgstr "\"Тогда прощайте\". "
 
 #: 44189 44194
 msgid "Null node."
@@ -173,51 +196,53 @@ msgid ""
 "fabric when the fancy strikes me. Those items which I lavish enchantments "
 "upon are my most special creations, and are rarely sold.\""
 msgstr ""
+"\"Это? Ничего особенного, сэр, всего лишь капелька Искусства, которое я "
+"время от времени вплетаю в ткань, когда мне этого хочется. Вещи, в которых я "
+"оставляю волшебство, - мои особые творения, и я их редко продаю\"."
 
 #: 44200
-#, fuzzy
 msgid "\"I had another question...\""
-msgstr "\"Нет, у меня есть другие вопросы...\""
+msgstr "\"У меня есть другой вопрос...\""
 
 #: 44201
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай\"."
+msgstr "\"Это все, что я хотел узнать. Прощайте\"."
 
 #: 44202
 msgid ""
 "Goncalves looks you over, frowning. \"Nothing that would fit *you,* that is "
 "for certain.\""
 msgstr ""
+"Гонсалвис мрачно осматривает тебя. \"Ничего, что подошло бы *вам*, это уж "
+"точно\"."
 
 #: 44203
 msgid "\"I'd like to see what you've to offer just the same.\""
-msgstr ""
+msgstr "\"Тем не менее, я хотел бы взглянуть на то, что вы предлагаете\"."
 
 #: 44204
 msgid ""
 "\"You are in luck then, sir... I happen to have one available. Its cost is "
 "thirty copper commons.\""
 msgstr ""
+"\"Тогда вам повезло, сэр... У меня случайно есть один такой. Он стоит "
+"тридцать медных монет\"."
 
 #: 44205 44212
-#, fuzzy
 msgid "\"I'll take it.\""
-msgstr "\"Хорошо, я возьму его\"."
+msgstr "\"Беру\"."
 
 #: 44206 44213
-#, fuzzy
 msgid "\"Hmm... not enough on me. I had another question...\""
-msgstr "\"Достаточно. У меня есть другие вопросы...\""
+msgstr "\"Хм-м... у меня не хватит денег. У меня другой вопрос...\""
 
 #: 44207 44214
-#, fuzzy
 msgid "\"Never mind, actually. I had another question...\""
-msgstr "\"Ладно, неважно. У меня есть другие вопросы...\""
+msgstr "\"На самом деле, неважно. У меня другой вопрос...\""
 
 #: 44208 44215
-#, fuzzy
 msgid "\"I might be back, then. Farewell.\""
-msgstr "\"Желаю тебе удачи. Прощай\"."
+msgstr "\"Тогда я, возможно, еще вернусь. Прощайте\"."
 
 #: 44209
 msgid ""
@@ -225,11 +250,13 @@ msgid ""
 "you are, sir. I would warn you, though: if this is for the upcoming "
 "masquerade of Lord Ird, many folk are already attending as Dustmen.\""
 msgstr ""
+"Гонсалвис достает из-под прилавка стопку аккуратно сложенной одежды. "
+"\"Держите, сэр. Однако должен вас предупредить: если это для предстоящего "
+"маскарада лорда Ирда, то уже многие оделись как Тленные\"."
 
 #: 44210
-#, fuzzy
 msgid "\"I'll keep that in mind. Farewell, Goncalves.\""
-msgstr "\"Я запомню это. Прощай\"."
+msgstr "\"Буду иметь в виду. Прощайте, Гонсалвис\"."
 
 #: 44211
 msgid ""
@@ -237,17 +264,21 @@ msgid ""
 "common after all, eh? Well, it just so happens that I have a Godsman "
 "costume, if you would like. It shall cost you only fifty coppers.\""
 msgstr ""
+"Гонсалвис кивает и понимающе улыбается. \"Похоже, наряд Тленного уже слишком "
+"обыкновенный, да? Что ж, так уж случилось, что у меня есть и наряд "
+"Богочеловека. Он будет стоить вам всего пятьдесят медяков\"."
 
 #: 44216
 msgid ""
 "Goncalves retrieves a set of folded clothing and a heavy leather apron and "
 "work-boots from under a counter. \"Here you are, sir. Enjoy the masquerade.\""
 msgstr ""
+"Гонсалвис достает из-под прилавка стопку сложенной одежды, тяжелый кожаный "
+"фартук и рабочие ботинки. \"Держите, сэр. Повеселитесь на маскараде\"."
 
 #: 44217
-#, fuzzy
 msgid "\"Thanks, Goncalves. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай\"."
+msgstr "\"Спасибо, Гонсалвис. Прощайте\"."
 
 #: 44218
 msgid ""
@@ -255,6 +286,9 @@ msgid ""
 "Tutting softly, he shakes his head. \"Lass, what in the maddening winds of "
 "Pandemonium has *possessed* you to dress in such a way?\""
 msgstr ""
+"Человек отрывает взгляд от работы и, казалось бы, впервые замечает Анну. "
+"Тихонько цокая, он качает головой. \"Девочка, что, во имя сводящих с ума "
+"ветров Пандемониума, *нашло* на вас, что вы вот так нарядились?\""
 
 #: 44219
 msgid ""
@@ -266,15 +300,21 @@ msgid ""
 "you tieflings tend to do, the message is really harming you in the long "
 "run...\""
 msgstr ""
+"Он указывает на снаряжение Анны. \"Кожа, мисс. Полная ее непригодность. "
+"Обратите внимание на линию бюста, особенно на *несказанно удобные* стяжки "
+"корсажа крест-накрест. Ваше снаряжение было, *очевидно*, сшито скорее для "
+"удовлетворения чьей-то похоти, чем для вашего удобства. Даже если вы "
+"пытаетесь таким образом *высказаться* против власти и благопристойности, как "
+"и свойственно тифлингам, это послание уже давно причиняет вам большие "
+"неудобства...\""
 
 #: 44220 44224
-#, fuzzy
 msgid "Try and interrupt."
-msgstr "Попробовать вытащить записку."
+msgstr "Попробовать прервать его."
 
 #: 44221 44225
 msgid "Let them keep talking."
-msgstr ""
+msgstr "Позволить им продолжить разговор."
 
 #: 44222
 msgid ""
@@ -282,12 +322,17 @@ msgid ""
 "a session at the Festhall than...\" He frowns. \"By the way, you aren't a "
 "Sensate, are you?\""
 msgstr ""
+"Гонсалвис продолжает бранить Анну. \"Я серьезно, вы выглядите скорее готовой "
+"к занятиям в Фестхолле, чем... - он хмурится. - Кстати, вы Чувствующая, не "
+"так ли?\""
 
 #: 44223
 msgid ""
 "The tailor nods. \"I didn't think so. Not at all. Why don't you let me "
 "attire you in something else a little more modest...\""
 msgstr ""
+"Портной кивает. \"Я так и не думал. Вовсе нет. Вы не позволите мне облачить "
+"вас в что-нибудь другое, немного более скромное...\""
 
 #: 44226
 msgid ""
@@ -295,6 +340,9 @@ msgid ""
 "my work has been well and truly interrupted... I am Goncalves. What was it "
 "you were here to see me about?\""
 msgstr ""
+"\"Как пожелаете, миледи, - Гонсалвис смотрит на тебя. - А теперь, сэр, раз "
+"моя работа была успешно и надолго прервана... Я Гонсалвис. Зачем вы хотели "
+"меня видеть?\""
 
 #: 44229
 msgid ""
@@ -302,28 +350,37 @@ msgid ""
 "Grace, a gesture she then returns. \"Greetings, Lady Grace. How is it that I "
 "can help you today? That order is almost complete...\""
 msgstr ""
+"Гонсалвис немедленно отрывается от работы и уважительно кивает Падшей "
+"Грации, на что она отвечает тем же жестом. \"Приветствую, леди Грация. Чем я "
+"могу вам сегодня помочь? Тот заказ уже почти закончен...\""
 
 #: 44230
 msgid ""
 "\"Of course!\" Goncalves turns to you. \"And so, sir... what was it you were "
 "here to see me about?\""
 msgstr ""
+"\"Конечно! - Гонсалвис поворачивается к тебе. - Итак, сэр... зачем вы хотели "
+"меня видеть?\""
 
 #: 44233
 msgid ""
 "The tailor is still embroidering patterns into the fabric he held before. He "
 "seems to take no notice of you whatsoever."
 msgstr ""
+"Портной все еще вышивает узоры на той же ткани, что и прежде. Похоже, он не "
+"обращает на тебя ни малейшего внимания."
 
 #: 44236
 msgid ""
 "Goncalves sets down something he was working on and nods to you. \"You come "
 "again, sir... good. What can I help you with?\""
 msgstr ""
+"Гонсалвис откладывает нечто, над чем он работал, и кивает тебе. \"Вы снова "
+"пришли, сэр... хорошо. Чем я могу вам помочь?\""
 
 #: 44238
 msgid "\"Just passing by, Goncalves. Farewell.\""
-msgstr ""
+msgstr "\"Просто проходил мимо, Гонсалвис. Прощайте\"."
 
 #: 44240
 msgid ""
@@ -331,21 +388,22 @@ msgid ""
 "summon the guards once more. No word or deed could ever merit forgiveness "
 "for the offense you have given me. Away!\""
 msgstr ""
+"Портной ухмыляется тебе. \"Советую вам *удалиться*, сэр, пока я снова не "
+"позвал стражу. Вы не сможете заслужить себе прощение за нанесенную мне обиду "
+"никакими словами или поступками. Прочь!\""
 
 #: 44242
 msgid "\"Go ahead; summon the guard.\""
-msgstr ""
+msgstr "\"Вперед, зови стражу\"."
 
 #: 66876
 msgid "\"Could I buy some needle and thread here?\""
-msgstr ""
+msgstr "\"Можно тут купить немного ниток и иголок?\""
 
 #: 67828
-#, fuzzy
 msgid "\"I had another question, then...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"Тогда у меня другой вопросы...\""
 
 #: 67829
-#, fuzzy
 msgid "\"In that case, farewell.\""
-msgstr "\"Нет, спасибо. Прощай\"."
+msgstr "\"В таком случае, прощайте\"."
