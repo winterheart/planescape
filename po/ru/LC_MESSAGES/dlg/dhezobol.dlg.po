@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dhezobol.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:48+0600\n"
+"PO-Revision-Date: 2011-08-07 19:22+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 50917
 msgid ""
@@ -20,15 +21,18 @@ msgid ""
 "up, scumbags! We only have so much time to make a sacrifice!\" He doesn't "
 "appear to notice you."
 msgstr ""
+"Ты видишь ловкого человека в обтягивающей одежде. С яростным лицом он кричит "
+"на своих подчиненных, чтобы те проворнее двигались. \"Побыстрее, мешки с "
+"отбросами! У нас не так много времени, чтобы совершить жертвоприношение!\" "
+"Кажется, тебя он не замечает."
 
 #: 50918 50936
 msgid "\"What are you doing?\""
 msgstr "\"Что ты делаешь?\""
 
 #: 50919 50925 50937
-#, fuzzy
 msgid "\"I'm here to stop you.\""
-msgstr "\"Мне нечего больше сказать тебе\"."
+msgstr "\"Я здесь, чтобы остановить тебя\"."
 
 #: 50920 50938
 msgid "Leave quietly."
@@ -41,6 +45,10 @@ msgid ""
 "everyone's worried about putting the town back into order. If you'll excuse "
 "me, I've got business to attend to.\" He turns back to his men."
 msgstr ""
+"Его раздраженное лицо поворачивается к тебе. \"Я извлекаю выгоду из хаоса, "
+"пень. Сейчас самое время хватать рабов, пока все остальные пытаются вернуть "
+"город назад. Извини, но у меня есть неотложные дела\". Он поворачивается "
+"назад."
 
 #: 50922
 msgid ""
@@ -48,6 +56,9 @@ msgid ""
 "disaster. Leave off on it, and you might be able to help the town slide back "
 "- and then you can resume your trade.\""
 msgstr ""
+"\"Крушение города вызвано теми, кто пытается извлечь выгоду из этого бедствия."
+" Прекрати это, и ты поможешь городу вернуться назад. И тогда ты снова сможешь "
+"возобновить торговлю\"."
 
 #: 50923
 msgid ""
@@ -55,6 +66,9 @@ msgid ""
 "you would have your men aid in the defense of the town, you might shift the "
 "balance again.\""
 msgstr ""
+"\"Слишком много людей пытаются добавить хаоса и зла, привнесенного другими. "
+"Если бы ты со своими людьми помог в защите города, это могло бы сместить "
+"баланс обратно\"."
 
 #: 50924
 msgid ""
@@ -62,6 +76,8 @@ msgid ""
 "in now. Join me in combating this, and we can all get out of this place that "
 "much faster.\""
 msgstr ""
+"\"Именно это и привело город к нынешнему состоянию. Помоги мне бороться с "
+"этим, и вместе мы сможем вернуть это место гораздо быстрее\"."
 
 #: 50926
 msgid "Attack him."
@@ -72,6 +88,8 @@ msgid ""
 "He sneers at you. \"I'd like to see you stop me. Men! Leave off the slaves "
 "and kill this intruder!\""
 msgstr ""
+"Он презрительно усмехается. \"Хотелось бы посмотреть, как ты будешь меня "
+"останавливать. Эй, ребята! К черту рабов, убейте незванного гостя!\""
 
 #: 50928
 msgid "Fight."
@@ -83,18 +101,25 @@ msgid ""
 "thoughtfully. \"So you're saying we won't need a sacrifice to the gehreleths?"
 "\""
 msgstr ""
+"\"Эй, ну-ка притормозите!\" - кричит он своим людям. Задумчиво на тебя глядя, "
+"он спрашивает: \"То есть ты утверждаешь, что нам не нужно делать "
+"жертвоприношения гехрелетам?\""
 
 #: 50931
 msgid ""
 "\"No. This entire town will be a sacrifice unless you work with the other "
 "citizens.\""
 msgstr ""
+"\"Нет. Весь город станет жертвоприношением, если вы не станете работать "
+"вместе с остальными жителями\"."
 
 #: 50932
 msgid ""
 "I convinced the slaver leader to lay down his slave trade and take arms "
 "against the gehreleths plaguing the town."
 msgstr ""
+"Я уговорил главу работорговцев прекратить торговлю рабами и встать против "
+"гехрелетов, досаждающих городу."
 
 #: 50933
 msgid ""
@@ -102,13 +127,20 @@ msgid ""
 "We got us a town to save!\" He gives you an unreadable look and leads his "
 "group away. \"Thanks for the tip, stranger.\""
 msgstr ""
+"Он сыплет проклятиями. \"Вот свезло, так свезло. Почти весь улов. Ладно, "
+"ребята, отпускаем всех! Будем спасать город!\" Он выразительно смотрит на "
+"тебя и уводит свою группу. \"Спасибо за совет, незнакомец\"."
 
 #: 50934
 msgid "\"No problem. Good luck.\""
-msgstr ""
+msgstr "\"Нет проблем. Удачи\"."
 
 #: 50935
 msgid ""
 "The slave leader appears to be running his operation smoothly, though he "
 "keeps watching for impending gehreleth attacks. \"What do you want, berk?\""
 msgstr ""
+"Глава работорговцев ловко заправляет своими делами, поглядывая, однако на "
+"приближающиеся волны гехрелетов. \"Чего тебе, пень?\""
+
+
