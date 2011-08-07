@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dashman.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:45+0500\n"
+"PO-Revision-Date: 2011-08-07 20:53+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 12067
 msgid "\"Give me everything you have, thief, and I'll let you go.\""
@@ -110,15 +111,14 @@ msgstr ""
 
 #: 12086 12099 12104 12109 12114 12132 12136
 msgid "\"Get out of here. I see you around again, I'll gut you.\""
-msgstr ""
+msgstr "\"Проваливай отсюда. Еще раз увижу - прирежу\"."
 
 #: 12087 12100 12105 12110 12115 12133 12137
-#, fuzzy
 msgid ""
 "\"Now leave. I don't want to ever even *hear* of you pulling this little con "
 "anywhere in Sigil again. Understand?\""
 msgstr ""
-"\"Ага, очень умно. Слушай сюда, я не желаю, чтобы ты разводил кого-либо в "
+"\"А теперь уходи. И чтобы я больше не *слышал*, чтобы ты разводил кого-либо в "
 "Сигиле подобным образом. Все понятно?\""
 
 #: 12088
@@ -126,9 +126,8 @@ msgid "\"Interesting. I had some other questions...\""
 msgstr "\"Интересно. У меня есть другие вопросы...\""
 
 #: 12089 12108
-#, fuzzy
 msgid "\"That's all I wanted to know. Prepare to die.\""
-msgstr "\"Это все, что я хотел. Приготовься к смерти\"."
+msgstr "\"Это все, что я хотел узнать. Приготовься к смерти\"."
 
 #: 12090
 msgid ""
@@ -163,13 +162,13 @@ msgstr ""
 "тебя есть, или Сборщики найдут новое тело на улице\"."
 
 #: 12094 12103 12127
-#, fuzzy
 msgid "\"Wrong answer. Prepare to die.\""
-msgstr "\"Забудь. Готовься к смерти\"."
+msgstr "\"Неправильный ответ. Готовься к смерти\"."
 
 #: 12095 12102
 msgid "\"Oh, yeah? Well, let me shake you down and see if that's true.\""
 msgstr ""
+"\"Что, правда? Тогда давай-ка тебя немного потрясем и посмотрим, так ли это\"."
 
 #: 12096
 msgid ""
@@ -180,9 +179,8 @@ msgstr ""
 "или ты в миг подружишься со своей смертью\"."
 
 #: 12097 12101
-#, fuzzy
 msgid "\"All right then. Now I had some questions for you...\""
-msgstr "\"Ну хорошо, у меня есть другие вопросы к тебе...\""
+msgstr "\"Вот и хорошо. А теперь у меня есть вопросы к тебе...\""
 
 #: 12098
 msgid "\"That's all I wanted. Prepare to die.\""
@@ -197,7 +195,6 @@ msgid "\"All right then, I have some other questions for you...\""
 msgstr "\"Ну хорошо, у меня есть другие вопросы к тебе...\""
 
 #: 12111
-#, fuzzy
 msgid "\"Who is he?\""
 msgstr "\"Кто он такой?\""
 
@@ -221,22 +218,20 @@ msgstr ""
 "Клятва: \"Даю слово, что я отпущу тебя... если ты ответишь на мой вопрос\"."
 
 #: 12118
-#, fuzzy
 msgid "Truth: \"Yes.\""
-msgstr "Правда: \"Много\"."
+msgstr "Правда: \"Да\"."
 
 #: 12119
 msgid "Lie: \"Yes.\""
 msgstr "Ложь: \"Да\"."
 
 #: 12120 12125
-#, fuzzy
 msgid "Truth: \"I'll let you *live* if you tell me.\""
-msgstr "Правда: \"Хорошо, я отпущу тебя\"."
+msgstr "Правда: \"Я оставлю тебя *живым*, если ты скажешь\"."
 
 #: 12121 12126
 msgid "Bluff: \"I'll let you *live* if you tell me.\""
-msgstr ""
+msgstr "Блеф: \"Я оставлю тебя *живым*, если ты скажешь\"."
 
 #: 12122
 msgid ""
@@ -291,43 +286,43 @@ msgid ""
 "\"You know, there's been talk that there's a pickpocket masquerading as a "
 "Dustman around here. Maybe you know him?\""
 msgstr ""
+"\"Знаешь, тут ходят слухи о карманном воре, который наряжается как Тленный. "
+"Ты случайно не знаешь его?\""
 
 #: 12142 12153 2187
-#, fuzzy
 msgid ""
 "\"Oh, the Dustman bar? It's by the Mortuary. Orient yourself by the Mortuary "
 "front gate, then walk directly southwest. You can't miss it.\""
 msgstr ""
-"\"Тогда забудь об этом. Бар, который ты ищешь, рядом с Моргом. Иди от "
+"\"А, бар Тленных? Он рядом с Моргом. Иди от "
 "главных ворот Морга строго на юго-запад и ты его не пропустишь\"."
 
 #: 12143 12154 2188 2197
-#, fuzzy
 msgid "\"I've heard of it. I'd be willing to help you... for a price.\""
-msgstr "\"Я выслежу его... в обмен на награду\"."
+msgstr "\"Я слыхал о нем. Я помогу тебе... в обмен на награду\"."
 
 #: 12144 12155 2198 61400
-#, fuzzy
 msgid ""
 "\"I've heard of it. I'd be willing to help you... if you'll answer some "
 "questions for me.\""
-msgstr "\"Привет, Друзилла. Я хотел бы задать тебе несколько вопросов\"."
+msgstr "\"Я слыхал о нем. Я помогу тебе... если ты ответишь на мои вопросы\"."
 
 #: 12145 12156 2189 2199
 msgid ""
 "Lie: \"Er... yeah, I've heard of it. I'd be willing to help you... for a "
 "price.\""
 msgstr ""
+"Ложь: \"Э-э-э... ага, я слыхал о нем. Я помогу тебе... в обмен на награду\"."
 
 #: 12146 12157 2190 2200
-#, fuzzy
 msgid ""
 "Lie: \"Er... yeah, I've heard of it. I'd be willing to help you... if you'll "
 "answer some questions for me.\""
-msgstr "\"Привет, Друзилла. Я хотел бы задать тебе несколько вопросов\"."
+msgstr ""
+"Ложь: \"Э-э-э... ага, я слыхал о нем. Я помогу тебе... если ты ответишь на "
+"мои вопросы\"."
 
 #: 12147 12148 12158 12159 2193 2194 2203 2204
-#, fuzzy
 msgid "\"I can't help you, Farewell.\""
 msgstr "\"Я не могу помочь тебе. Прощай\"."
 
@@ -337,11 +332,11 @@ msgstr "\"Советую тебе поторопиться\"."
 
 #: 12151 2185
 msgid "\"'Sect'? Don't you mean 'faction'?\""
-msgstr ""
+msgstr "\"'Секты'? Ты, наверное, имел в виду 'фракции'?\""
 
 #: 12152 2186
 msgid "\"'Sect'? You're a Dustman: Don't you mean 'faction'?\""
-msgstr ""
+msgstr "\"'Секты'? Ты ведь Тленный. Наверное, имел в виду 'фракции'?\""
 
 #: 2133
 msgid ""
@@ -375,7 +370,7 @@ msgid ""
 msgstr ""
 "Кажется, мужчина испытывает явное облегчение, когда ты начинаешь "
 "разговаривать с ним. Он едва заметно кланяется. \"Спасибо, что не прошел "
-"мимо, путешественник. Я - Осыпанный-Пеплом, один из членов секты Тленных. Я "
+"мимо, странник. Я - Осыпанный-Пеплом, один из членов секты Тленных. Я "
 "буду очень признателен, если ты мне поможешь… Я не очень хорошо знаю это "
 "место, но ищу некое заведение, бар, в котором часто бывают члены моей секты. "
 "Ты не знаешь, где он находится?\""
@@ -409,7 +404,7 @@ msgid ""
 "The Dustman smiles. \"Thank you very much, traveler. I appreciate your "
 "kindness. The people of the Hive are... rarely helpful in such matters.\""
 msgstr ""
-"Тленный улыбается. \"Большое спасибо тебе, путешественник. Я благодарю тебя "
+"Тленный улыбается. \"Большое спасибо тебе, странник. Я благодарю тебя "
 "за помощь. Люди в Улье... очень редко помогают в подобных случаях\"."
 
 #: 2140
@@ -447,8 +442,8 @@ msgid ""
 "Control Office, I think.\""
 msgstr ""
 "\"Это место... ну, это северо-западный рынок, если я не ошибаюсь. На юго-"
-"западе есть какой-то правительственный офис...\" Он ненадолго задумывается. "
-"\"Кажется, Офис по контролю паразитов и эпидемий\"."
+"западе есть какой-то правительственный офис... - он ненадолго задумывается. - "
+"Кажется, Офис по контролю паразитов и эпидемий\"."
 
 #: 2146
 msgid ""
@@ -718,14 +713,12 @@ msgid "Ignore the man."
 msgstr "Не обращать внимания на мужчину."
 
 #: 2191 2201
-#, fuzzy
 msgid "\"No, I'm sorry, I don't know where that is.\""
-msgstr "\"Извини, у меня нет денег на пожертвования\"."
+msgstr "\"Нет, извини, я не знаю, где это находится\"."
 
 #: 2192 2202
-#, fuzzy
 msgid "Lie: \"No, I'm sorry, I don't know where that is.\""
-msgstr "Ложь: \"Извини, у меня нет денег на пожертвования\"."
+msgstr "Ложь: \"Нет, извини, я не знаю, где это находится\"."
 
 #: 2196 2622
 msgid ""
@@ -751,14 +744,12 @@ msgstr ""
 "вспомню его\"."
 
 #: 2613
-#, fuzzy
 msgid "\"Then I can't help you. Farewell.\""
-msgstr "\"Я не могу помочь тебе. Прощай\"."
+msgstr "\"Тогда я ничем не могу помочь тебе. Прощай\"."
 
 #: 2614 2615 2616 2618
-#, fuzzy
 msgid "\"Certainly. Farewell.\""
-msgstr "\"Не за что... Прощай\"."
+msgstr "\"Не за что. Прощай\"."
 
 #: 2617
 msgid "\"Certainly... Farewell.\""
@@ -931,3 +922,4 @@ msgstr "Атаковать его."
 #: 2780
 msgid "\"*After* you answer some questions, 'Dustman.'\""
 msgstr "\"*После* того, как ты ответишь на некоторые вопросы, 'Тленный'\"."
+
