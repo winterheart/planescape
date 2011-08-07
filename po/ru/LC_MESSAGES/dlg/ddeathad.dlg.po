@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddeathad.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-05-18 01:00+0600\n"
+"PO-Revision-Date: 2011-07-31 21:51+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 2945
 msgid ""
@@ -297,8 +298,8 @@ msgid ""
 "destined for no Plane except the land that lies right outside our sky, and "
 "of which the Spire is a part.\""
 msgstr ""
-"Он приподнимает бровь. \"Отличный вопрос, просто отличный!\" Чтобы привлечь "
-"внимание аудитории, он поднимает палец. \"Ответ таков: дух, живший полностью "
+"Он приподнимает бровь. \"Отличный вопрос, просто отличный! - чтобы привлечь "
+"внимание аудитории, он поднимает палец. - Ответ таков: дух, живший полностью "
 "нейтральной жизнью, не склонившийся ни к добру, ни к злу, станет просителем "
 "*Внешних земель*, земель, окружающих Сигил. Для них нет Плана, кроме той "
 "земли, что лежит под нашим небом, и частью которой является Шпиль\"."
@@ -724,7 +725,7 @@ msgstr "Убить его."
 
 #: 32304
 msgid "Make a motion to kill him, stopping *just* short of his neck."
-msgstr "Сделать угрожающий жест, остановившись за *волосок* от его шеи."
+msgstr "Сделать угрожающий жест, остановившись на *волосок* от его шеи."
 
 #: 32305 32308
 msgid ""
@@ -924,3 +925,4 @@ msgstr "\"Может ли проситель умереть?\""
 #: 64428
 msgid "\"Why do petitioners lose their memories?\""
 msgstr "\"Почему просители теряют свою память после смерти?\""
+

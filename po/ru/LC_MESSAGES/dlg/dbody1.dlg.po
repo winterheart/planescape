@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dbody1.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:02+0600\n"
+"PO-Revision-Date: 2011-08-07 19:57+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,24 +11,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 20615
 msgid ""
 "The corpse lies motionless. No amount of prodding or poking induces it to "
 "say or do anything."
 msgstr ""
+"Тело неподвижно. Без тычков и уколов оно ничего не говорит и не делает."
 
 #: 20616 54873
-#, fuzzy
 msgid "\"I guess it's not a zombie, then...\""
-msgstr "Ложь: \"Я не уверен. Прощай\"."
+msgstr "\"Это не очень-то похоже на зомби...\""
 
 #: 20617
 msgid ""
 "The corpse jerks visibly, as if electric current ran through it, and a gassy "
 "sigh escapes its mouth."
 msgstr ""
+"Испустив пустой вздох, тело судорожно дергается, словно по нему идет "
+"электрический ток."
 
 #: 20618 20621
 msgid "\"Greetings.\""
@@ -39,21 +42,23 @@ msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 20620 20632
-#, fuzzy
 msgid "\"I need to ask you some questions.\""
-msgstr "\"У меня есть вопросы, которые я бы хотел задать...\""
+msgstr "\"Мне нужно задать тебе несколько вопросов...\""
 
 #: 20622
 msgid ""
 "\"Nnnngh! Aghhhh...\" The corpse babbles with its liquefied tongue, and you "
 "cannot understand a single word."
 msgstr ""
+"\"Н-н-н-х-г! Агх...\" - бубнит тело своим разжиженным языком, но ты не можешь "
+"понять ни единого слова."
 
 #: 20624
-#, fuzzy
 msgid "\"Forget this, then...\""
-msgstr "\"Тогда забудь об этом\"."
+msgstr "\"Тогда забудь об этом...\""
 
 #: 20633
 msgid "\"Forget it.\""
 msgstr "\"Забудь\"."
+
+
