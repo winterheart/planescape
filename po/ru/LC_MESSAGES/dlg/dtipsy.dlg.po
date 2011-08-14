@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dtipsy.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:43+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-08-14 18:27+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,31 +21,35 @@ msgid ""
 "looks up as you approach him. \"Greetings... sir...\" He seems slightly "
 "tipsy."
 msgstr ""
+"Этот старик пялится в свою кружку с элем, на его лице высечено страдание. "
+"Эта помятая оловянная кружка довольно необычна: на ней выгравированы "
+"странные руны и бородатые лица, а сама она покрыта тонким слоем инея. Когда "
+"ты подходишь, старик поднимает взгляд. \"Приветствую... сэр...\" Кажется, он "
+"немного навеселе."
 
 #: 46154 46159
-#, fuzzy
 msgid "\"What's that mug you've got?\""
-msgstr "\"Что ты делаешь?\""
+msgstr "\"Что это у тебя за кружка?\""
 
 #: 46155
 msgid "\"I had some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 46156
-#, fuzzy
 msgid "\"Greetings, and farewell.\""
-msgstr "\"Спасибо... Прощай\"."
+msgstr "\"Здравствуй и прощай\"."
 
 #: 46157
 msgid ""
 "He shakes his head sadly, taking another draught of his ale. \"Nay, nay... "
 "you shan't... find any answers here... you won't.\""
 msgstr ""
+"Он печально качает головой, сделав еще один глоток эля. \"Нет-нет... не "
+"нужно... искать здесь ответы... не надо\"."
 
 #: 46158 46173
-#, fuzzy
 msgid "\"Is something wrong?\""
-msgstr "\"Тебя что-то беспокоит?\""
+msgstr "\"Что-то не так?\""
 
 #: 46160
 msgid "\"Farewell, then.\""
@@ -60,20 +64,25 @@ msgid ""
 "hand, but in seconds his expression softens and he takes another swig. "
 "\"Ruins everything, it does, this damnable drinking of mine...\""
 msgstr ""
+"Он вздыхает, прикрывает отрыжку рукой и кивает, еще раз приложившись к элю. "
+"\"Ну ладно, да, что-то не так. Я пропал, я больше... не ученик. У меня было "
+"тяжелое похмелье, и я испортил... последний опыт моего наставника. Все из-за "
+"этой проклятой... выпивки! - он усмехается кружке, которую держит руке, но "
+"уже через секунду выражение его лица смягчается, и он делает еще глоток. - "
+"Она все разрушает, эта чертова выпивка...\""
 
 #: 46162
 msgid "\"Why don't you stop drinking, then?\""
-msgstr ""
+msgstr "\"Так почему бы тебе не бросить пить?\""
 
 #: 46163 46168
-#, fuzzy
 msgid "\"If you're too weak to stop, it's your own fault. Farewell.\""
-msgstr "\"В конце концов, я не думаю, что мне нужно это делать. Прощай\"."
+msgstr ""
+"\"Если ты слишком слаб, чтобы остановиться, ты сам в этом виноват. Прощай\"."
 
 #: 46164 46169
-#, fuzzy
 msgid "\"That's too bad. Farewell.\""
-msgstr "\"Это точно. Тогда прощай\"."
+msgstr "\"Очень жаль. Прощай\"."
 
 #: 46165
 msgid ""
@@ -82,6 +91,11 @@ msgid ""
 "eventually... overcomes me, and I can not resist. Such a... wreck I've "
 "become!\" He throws back the last of his ale and calls for more."
 msgstr ""
+"Он пожимает плечами и несчастно вздыхает. \"Я просто... не могу. Я хотел бы, "
+"но не могу. Мне просто... *нужно* пить. Я пытаюсь держаться от нее подальше, "
+"но, в конце концов, желание... переполняет меня, и я не могу сопротивляться. "
+"Я стал... таким развалиной!\" Он опрокидывает в рот последние капли эля и "
+"заказывает еще."
 
 #: 46166
 msgid ""
@@ -89,10 +103,13 @@ msgid ""
 "her in the Civic Festhall. Talk to her of your love for drink... you'll soon "
 "find you won't want it any longer.\""
 msgstr ""
+"\"Тут есть кое-кто, с кем тебе следовало бы переговорить... Несбыточная "
+"Мечта. Ты найдешь ее в Городском Фестхолле. Поговори с ней о своей любви к "
+"выпивке... и вскоре ты обнаружишь, что больше не хочешь пить\"."
 
 #: 46167
 msgid "\"I see. What's that mug you've got there?\""
-msgstr ""
+msgstr "\"Понятно. Что это за кружка у тебя?\""
 
 #: 46170
 msgid ""
@@ -101,6 +118,10 @@ msgid ""
 "you take this. I need it... no longer.\" He hands you the rune-covered ale "
 "stein."
 msgstr ""
+"Его взгляд проясняется. \"Правда? Тогда мне сейчас же нужно пойти... "
+"поговорит с ней. Спасибо... сэр, - он останавливается, взглянув на пустую "
+"кружку. - Вот... Я бы хотел отдать тебе это. Мне она больше... не нужна\". "
+"Он дает тебе кружку для эля, покрытую рунами."
 
 #: 46171
 msgid "\"Thanks... farewell.\""
@@ -112,6 +133,9 @@ msgid ""
 "enchanted to... keep whatever's in it freezing cold. In my case... cheap ale."
 "\" He frowns, rubs at his eyes, and takes another swig of his drink."
 msgstr ""
+"\"Эта? - он глядит на оловянную кружку. - Выиграл в кости. Она "
+"заколдована... все, что в ней хранится, остается холодным как лед. В моем "
+"случае это... дешевый эль\". Он хмурится, трет глаза и делает еще глоток."
 
 #: 46174
 msgid "\"That's all I wished to know. Farewell.\""
@@ -124,6 +148,10 @@ msgid ""
 "willpower to ignore his craving for alcohol, I wonder what such a man could "
 "do to rid himself of such an addiction..."
 msgstr ""
+"В Чиновничьем районе в кафе я встретил человека, чья тяга к выпивке "
+"разрушила его карьеру ученика мага.  Наблюдая, как он не может противиться "
+"желанию выпить, я поразмыслил, каким образом такой человек смог бы "
+"избавиться от этой зависимости..."
 
 #: 66805
 msgid ""
@@ -132,7 +160,12 @@ msgid ""
 "enough to rid of his want for drink. He was kind enough to give me his "
 "magical Frost-Ale mug as a gift of sorts, claiming he'd no longer need it."
 msgstr ""
+"Я рассказал пьянице-ученику мага, которого я встретил в Чиновничьем районе, "
+"о Несбыточной Мечте... Уверен, что какими бы странными силами она не "
+"обладала, их хватит, чтобы избавить его от пристрастия к выпивке. Он был так "
+"добр, что дал мне свою Кружку ледяного эля в качестве своеобразного подарка, "
+"заявив, что она ему больше не нужна."
 
 #: 7234
 msgid "\"Something wrong?\""
-msgstr ""
+msgstr "\"Что-то не так?\""
