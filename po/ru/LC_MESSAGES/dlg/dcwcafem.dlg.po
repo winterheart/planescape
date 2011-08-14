@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcwcafem.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-11-07 21:10+0500\n"
+"PO-Revision-Date: 2011-08-13 14:24+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 27334
 msgid ""
@@ -44,7 +45,7 @@ msgstr ""
 
 #: 27338
 msgid "\"Ask what you will... I'll answer what I can.\""
-msgstr ""
+msgstr "\"Спрашивайте, что хотите... Попробую вам ответить\"."
 
 #: 27339
 msgid ""
@@ -134,12 +135,17 @@ msgid ""
 "frowns momentarily.  \"The place's proprietors are a bit barmy, constantly "
 "sampling the store's stock. Good men, though.\""
 msgstr ""
+"\"В аптеке продают различные мази, снадобья, травы и тому подобное, - на "
+"секунду он хмурится. - Хозяева немного чокнутые, постоянно испытывают на себе "
+"свои товары. Хотя ребята они неплохие\"."
 
 #: 27351
 msgid ""
 "\"Yvanna's Art and Curio Galleria is a most intriguing place. She has a "
 "collection of artwork, antiques, and artifacts from all across the planes.\""
 msgstr ""
+"\"Художественная галерея Иваны - очень захватывающее место. У нее собрана "
+"коллекция редчайших предметов искусства со всех планов\"."
 
 #: 27352
 msgid ""
@@ -148,18 +154,28 @@ msgid ""
 "Fall-from-Grace. I highly recommend it if this is your first time in the "
 "Ward, sir.\""
 msgstr ""
+"\"Заведение Чувствующих, которое ублажает разум и чувства, - на секунду он "
+"закрывает глаза, счастливо улыбаясь. - Им управляет очаровательнейшая "
+"женщина, Падшая Грация. Очень рекомендую посетить его, если вы впервые "
+"оказались в этом районе, сэр\"."
 
 #: 27353
 msgid ""
 "\"A Sensate establishment that pleasures one's mind and senses. Run by a "
 "most charming woman, Fall-from-Grace.\" He pauses to bow deeply to Grace."
 msgstr ""
+"\"Заведение Чувствующих, которое ублажает разум и чувства. Им управляет "
+"очаровательнейшая женщина, Падшая Грация\". Он делает глубокий поклон в "
+"сторону Грации."
 
 #: 27354
 msgid ""
 "\"Oh, but you are most deserving of praise, Lady Grace. It is my great honor "
 "to deliver such a compliment in person.\" He turns to you once more."
 msgstr ""
+"\"О нет, это вы заслуживаете похвалы, госпожа Грация. Для меня это большая "
+"честь - произносить подобный комплимент лично вам\". Он снова поворачивается "
+"к тебе."
 
 #: 27355
 msgid ""
@@ -167,6 +183,9 @@ msgid ""
 "They're full of monsters, or so it's said, horrible things that gibber and "
 "drool in the darkness.\""
 msgstr ""
+"\"Для меня до сих пор остается загадкой, почему дабусы до сих пор еще их не "
+"закрыли. Там полным-полно монстров. А еще поговаривают, там есть ужасные "
+"существа, что-то бормочущие в темноте\"."
 
 #: 27356
 msgid ""
@@ -185,7 +204,7 @@ msgid ""
 "importer of sorts... a half-fiend, in fact, whose goods come from the Lower "
 "Planes.\""
 msgstr ""
-"\"Не могу похвастаться, что я была там, но я знаю, что им заправляет кто-то "
+"\"Не могу похвастаться, что я был там, но я знаю, что им заправляет кто-то "
 "очень важный... полудемон, на самом деле. Его товары с Нижних планов\"."
 
 #: 27358
@@ -194,10 +213,13 @@ msgid ""
 "offended. I must warn you, sir: he will likely judge you by your appearance, "
 "and thus you might have a difficult time making a friend of him.\""
 msgstr ""
+"\"Гонсалвис - великолепный портной, вот только у него пылкий нрав и его легко "
+"обидеть. Должен предупредить вас, сэр: он судит людей по одежке, так что вам "
+"будет очень трудно с ним сдружиться\"."
 
 #: 27359
 msgid "\"To where, sir?\""
-msgstr ""
+msgstr "\"Куда, сэр?\""
 
 #: 27360
 msgid ""
@@ -239,6 +261,10 @@ msgid ""
 "this place, most likely. It is a large, round building, whose entrance faces "
 "southwards.\""
 msgstr ""
+"\"Бордель Утоления Интеллектуальной Страсти, да? - он понимающе улыбается. - "
+"Он прямо на западе от ворот в Нижний район, скорее всего, вы через них сюда "
+"попали. Это большое круглое "
+"здание, вход находится на юге\"."
 
 #: 27364
 msgid ""
@@ -246,6 +272,9 @@ msgid ""
 "but little more. I would warn you, though, that nothing comes up from those "
 "catacombs... including those who enter them.\""
 msgstr ""
+"Он хмурится. \"Хм. Насколько я знаю, есть несколько входов. И еще кое-что. "
+"Должен предупредить вас, из этих катакомб никто не выходит... включая тех, "
+"кто вошел туда\"."
 
 #: 27365
 msgid ""
@@ -259,6 +288,9 @@ msgid ""
 "southeast section of this area. An unusual building, set atop a wide flight "
 "of stairs. Difficult to miss, really.\""
 msgstr ""
+"\"Я никогда не был там, но знаю, где он. Он находится здесь, в юго-восточной "
+"части. Необычное здание, стоит на вершине широких лестничных пролетов. Сложно "
+"не заметить\"."
 
 #: 27367
 msgid ""
@@ -272,6 +304,8 @@ msgid ""
 "He nods, lowering his voice to a whisper. \"You know, sir... Baator, the "
 "Abyss and the like. Terrible places.\""
 msgstr ""
+"Кивнув, он говорит шепотом: \"Ну знаете, сэр... Баатор, Бездна и тому "
+"подобное. Ужасные места\"."
 
 #: 27369
 msgid ""
@@ -288,7 +322,8 @@ msgid ""
 "the true nature of the multiverse can only be discovered through direct "
 "experience...\""
 msgstr ""
-"\"Да. Их правильное - 'Общество чувств'. Они верят, что истинную сущность "
+"\"Да. Их правильное название - 'Общество чувств'. Они верят, что истинную "
+"сущность "
 "Мультивсленной можно постичь только с помощью непосредственного ощущения...\""
 
 #: 27371
@@ -382,7 +417,7 @@ msgstr ""
 
 #: 27383
 msgid "\"I'll take my leave, now. Farewell.\""
-msgstr "\"Я должен идти. Прощай\"."
+msgstr "\"Я должен идти. Прощайте\"."
 
 #: 27384
 msgid "\"Worldly?\""
@@ -442,11 +477,11 @@ msgstr "\"Мне нужно узнать направления...\""
 #: 27397
 #, fuzzy
 msgid "\"What do you know of Ravel Puzzlewell?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Ты что-нибудь знаешь о Равель Заморочке?\""
 
 #: 27398
 msgid "\"Never mind, actually. Farewell.\""
-msgstr "\"Ничего особенного. Прощай\"."
+msgstr "\"Ничего особенного. Прощайте\"."
 
 #: 27399
 msgid "\"What can you tell me about the Ward?\""
@@ -461,7 +496,7 @@ msgstr "\"Хорошо. Тогда у меня есть вопросы...\""
 #: 27500 27504 27510 27516 27520 27566 27571 27574 27577 27581 27585 27589
 #: 27591 27609
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай\"."
+msgstr "\"Это все, что я хотел узнать. Прощайте\"."
 
 #: 27402
 msgid "\"Why are you 'doomed' to remain there?\""
@@ -496,9 +531,8 @@ msgid "\"The apothecary.\""
 msgstr "\"Аптека\"."
 
 #: 27468 27523
-#, fuzzy
 msgid "\"The art store.\""
-msgstr "\"Они-то смогут. Прощай\"."
+msgstr "\"Художественная галерея\"."
 
 #: 27469 27470 27524
 msgid "\"The Brothel.\""
@@ -546,9 +580,8 @@ msgid "\"How do I reach the apothecary?\""
 msgstr "\"Как мне попасть в аптеку?\""
 
 #: 27488
-#, fuzzy
 msgid "\"How do I reach the art store?\""
-msgstr "\"Как я попал сюда?\""
+msgstr "\"Как мне попасть в художественную галерею?\""
 
 #: 27492
 msgid "\"Sensate?\""
@@ -564,7 +597,7 @@ msgstr "\"Я забыл... Как мне попасть в Бордель?\""
 
 #: 27501
 msgid "\"How would I find my way into them?\""
-msgstr ""
+msgstr "\"Как мне попасть в них?\""
 
 #: 27505
 msgid "\"Sensates?\""
@@ -592,9 +625,8 @@ msgid "\"Where can I find this place?\""
 msgstr "\"Где можно найти это место?\""
 
 #: 27517
-#, fuzzy
 msgid "\"Where is Goncalve's shop?\""
-msgstr "\"Где она?\""
+msgstr "\"Где находится мастерская Гонсалвеса?\""
 
 #: 27531
 msgid "\"What can you tell me about the advocate?\""
@@ -635,7 +667,7 @@ msgstr "\"Что вы знаете об этом месте?\""
 
 #: 27558
 msgid "\"I see. Thanks for you time. Farewell.\""
-msgstr "\"Понятно. Спасибо вам за уделенное время. Прощайте\"."
+msgstr "\"Понятно. Спасибо за уделенное время. Прощайте\"."
 
 #: 27559
 msgid "\"What can you tell me of the place?\""
@@ -748,3 +780,5 @@ msgstr "Оставить мужчину в покое."
 #: 2898
 msgid "\"Something troubling about my appearance?\""
 msgstr "\"Что-то не так с моим внешним видом?\""
+
+

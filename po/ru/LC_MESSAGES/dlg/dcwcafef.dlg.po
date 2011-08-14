@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcwcafef.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-11-07 20:55+0500\n"
+"PO-Revision-Date: 2011-08-13 14:28+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 27654
 msgid ""
@@ -236,7 +237,7 @@ msgstr "\"Я расскажу все, что знаю...\""
 
 #: 27710 27711 27783
 msgid "\"The advocate's home.\""
-msgstr ""
+msgstr "\"Дом адвоката\"."
 
 #: 27712 27784
 msgid "\"The apothecary.\""
@@ -322,6 +323,9 @@ msgid ""
 "frowns momentarily.  \"The place's proprietors are a bit barmy, constantly "
 "sampling the store's stock. Good men, though.\""
 msgstr ""
+"\"В аптеке продают различные мази, снадобья, травы и тому подобное, - на "
+"секунду она хмурится. - Хозяева немного чокнутые, постоянно испытывают на "
+"себе свои товары. Хотя ребята они неплохие\"."
 
 #: 27735
 msgid "\"How do I reach the apothecary?\""
@@ -332,6 +336,8 @@ msgid ""
 "\"Yvanna's Art and Curio Galleria is a most intriguing place. She has a "
 "collection of artwork, antiques, and artifacts from all across the planes.\""
 msgstr ""
+"\"Художественная галерея Иваны - очень захватывающее место. У нее собрана "
+"коллекция редчайших предметов искусства со всех планов\"."
 
 #: 27740
 #, fuzzy
@@ -350,7 +356,7 @@ msgstr ""
 #: 27745 27751
 #, fuzzy
 msgid "\"Sensate?\""
-msgstr "\"Что да?\""
+msgstr "\"Чувствующие?\""
 
 #: 27746 27752
 msgid "\"How do I reach the Brothel?\""
@@ -433,11 +439,13 @@ msgid ""
 "offended. I must warn you, sir: he will likely judge you by your appearance, "
 "and thus you might have a difficult time making a friend of him.\""
 msgstr ""
+"\"Гонсалвис - великолепный портной, вот только у него пылкий нрав и его легко "
+"обидеть. Должен предупредить вас, сэр: он судит людей по одежке, так что вам "
+"будет очень трудно с ним сдружиться\"."
 
 #: 27778
-#, fuzzy
 msgid "\"Where is Goncalve's shop?\""
-msgstr "\"Где она?\""
+msgstr "\"Где находится мастерская Гонсалвеса?\""
 
 #: 27782
 msgid "\"Oh? To where?\""
@@ -863,3 +871,4 @@ msgstr "\"Да... что ж, у меня есть несколько вопро�
 #: 27910
 msgid "\"Isn't it all? Farewell.\""
 msgstr "\"А разве нет? Прощайте\"."
+

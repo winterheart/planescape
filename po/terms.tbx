@@ -4585,6 +4585,7 @@
                 </langSet>
             </termEntry>
             <termEntry id="azamat_h._hackimov-252">
+        <descrip type="subjectField">персонажи</descrip>
                 <langSet xml:lang="en">
                     <ntig>
                         <termGrp>
@@ -4595,7 +4596,7 @@
                 <langSet xml:lang="ru">
                     <ntig>
                         <termGrp>
-                            <term>тилдон</term>
+                            <term>тильдон</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -7638,6 +7639,40 @@
           <ntig>
             <termGrp>
               <term>фин эндли</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-413">
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>aelwyn</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>эльвин</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-414">
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>nemelle</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>немель</term>
             </termGrp>
           </ntig>
         </langSet>
