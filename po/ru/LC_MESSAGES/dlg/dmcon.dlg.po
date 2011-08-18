@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmcon.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:25+0600\n"
+"PO-Revision-Date: 2011-08-19 01:53+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 60874 60898 60920
 msgid ""
@@ -19,6 +20,9 @@ msgid ""
 "is obviously a construct, it does have a very animate face, which is "
 "scowling at you."
 msgstr ""
+"Перед тобой механическое существо в виде человека с нездорово-желтой кожей на "
+"одной из рук. Хотя очевидно, что это концепция, у нее очень подвижное лицо, "
+"которое в данный момент угрюмо смотрит на тебя."
 
 #: 60875 60899 60921
 msgid "\"Greetings.\""
@@ -35,26 +39,27 @@ msgid ""
 "the cube, and jumps up and down a couple of times. Finally it settles down "
 "and leers at you. \"Oook!\""
 msgstr ""
+"Со звуком крутящихся шестеренок глаза сужаются в узкие щелочки. Неожиданно он "
+"со звоном, отдающим по всему кубу, бьет себя по груди руками и несколько раз "
+"подпрыгивает. В довершение он замирает и косо смотрит на тебя. \"У-ук!\""
 
 #: 60878
 msgid "\"Just what was that supposed to accomplish?\""
-msgstr ""
+msgstr "\"И что это могло означать?\""
 
 #: 60879 60904 60924
 msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 60880 60905 60926
-#, fuzzy
 msgid "\"What are you?\""
-msgstr "\"Кто ты такой?\""
+msgstr "\"Что ты такое?\""
 
 #: 60881 60927
 msgid "\"What are you doing?\""
 msgstr "\"Что ты делаешь?\""
 
 #: 60882
-#, fuzzy
 msgid "\"I really don't have time for this. Farewell.\""
 msgstr "\"У меня совершенно нет времени на это. Прощай\"."
 
@@ -63,15 +68,16 @@ msgid ""
 "It looks at you in confusion as it straightens up and scratches its head. "
 "\"It was intended to induce a fear response. Did it succeed?\""
 msgstr ""
+"Оно в замешательстве смотрит на тебя, озадаченно почесывая голову. "
+"\"Подразумевалось, что это вызовет реакцию страха. Получилось?\""
 
 #: 60884
-#, fuzzy
 msgid "\"Not really.\""
-msgstr "\"На самом деле, нет\"."
+msgstr "\"Не очень-то.\""
 
 #: 60885
 msgid "\"Yes, it was brilliantly done.\""
-msgstr ""
+msgstr "\"Да, в самую точку\"."
 
 #: 60886
 msgid ""
@@ -79,22 +85,26 @@ msgid ""
 "hoping to increase my life expectancy enough to get in a few extra hits on "
 "you. Oh well...\" It leaps to the attack."
 msgstr ""
+"Оно вздыхает, отводя взляд. \"Очень жаль слышать это. Я рассчитывал, что "
+"увеличенное математическое ожидание моей жизни позволит мне нанести по тебе "
+"несколько дополнительных ударов. Как жаль...\" Он бросается в атаку."
 
 #: 60887 60889 60891 60893 60895 60897 60909 60911 60915 60917 60919 60930
 #: 60932 60938 60941
-#, fuzzy
 msgid "Defend yourself."
-msgstr "Приготовиться к самозащите."
+msgstr "Защищаться."
 
 #: 60888
 msgid ""
 "It smiles and nods its head. \"Excellent. I will note this as a viable "
 "technique for future use.\" It leaps to the attack."
 msgstr ""
+"Оно улыбается и кивает. \"Великолепно. Следует отметить этот прием как "
+"действенный для использования в будущем\". Оно бросается в атаку."
 
 #: 60890
 msgid "\"I am your sworn enemy.\" It leaps to the attack."
-msgstr ""
+msgstr "\"Я твой заклятый враг\". Оно бросается в атаку."
 
 #: 60892
 msgid ""
@@ -102,6 +112,9 @@ msgid ""
 "abilities, average intelligence, and mediocre skill in the use of my weapon "
 "of choice.\" It leaps to the attack."
 msgstr ""
+"\"Я средняя боевая концепция. Текущие возможности: средние возможности "
+"ведения боя, средний интеллект, посредственные навыки использования "
+"выбранного оружия\". Оно бросается в атаку."
 
 #: 60894
 msgid ""
@@ -109,12 +122,17 @@ msgid ""
 "pauses. \"I have completed my assessment, and I will now attack you without "
 "mercy.\" It leaps to the attack."
 msgstr ""
+"\"В данный момент я оцениваю твои слабые места, - оно делает небольшую паузу. "
+"- Оценка завершена, теперь я беспощадно начинаю атаковать тебя\". Оно "
+"бросается в атаку."
 
 #: 60896
 msgid ""
 "\"You dare to attract my attention and then just summarily dismiss me? I "
 "don't think so!\" It leaps to the attack."
 msgstr ""
+"\"Ты осмелился привлечь мое внимание, а теперь пытаешься просто отбросить "
+"меня? Я так не считаю!\" Оно бросается в атаку."
 
 #: 60901
 msgid ""
@@ -122,19 +140,21 @@ msgid ""
 "barks out a monotone laugh. \"Is this the best they can send? Ha! I pity the "
 "fools.\" It continues to leer at you."
 msgstr ""
+"Оно смотрит на тебя с преувеличенно-презрительной усмешкой. Наконец оно "
+"начинает монотонно хохотать. \"И это лучшее, что они смогли прислать? Ха! "
+"Даже жалко немного\". Оно продолжает косо смотреть на тебя."
 
 #: 60903
 msgid "\"The best that who can send?\""
-msgstr ""
+msgstr "\"Лучшее кто мог прислать?\""
 
 #: 60906
 msgid "\"What are you doing?"
 msgstr "\"Что ты делаешь?\""
 
 #: 60907
-#, fuzzy
 msgid "\"I must be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай\"."
+msgstr "\"Я должен идти. Прощай\"."
 
 #: 60908
 msgid ""
@@ -142,12 +162,16 @@ msgid ""
 "ignorance will not save you. Know that you are doomed, fool!\" It leaps to "
 "the attack."
 msgstr ""
+"Оно хохочет во весь голос. \"Ха! Ха! Твоя жалкая попытка незнания не спасет "
+"тебя. Знай, глупец, что ты обречен!\" Оно бросается в атаку."
 
 #: 60910
 msgid ""
 "\"I have no identity, I am just another nameless piece of cannon fodder "
 "placed in your way as you explore these halls.\" It leaps to the attack."
 msgstr ""
+"\"У меня нет индивидуальности, я просто безымянное пушечное мясо, которое "
+"встает на пути твоего исследования этих залов\". Оно бросается в атаку."
 
 #: 60912
 msgid ""
@@ -155,6 +179,9 @@ msgid ""
 "to beat you profusely until you die... unless, of course, you kill me first."
 "\" It leaps to the attack."
 msgstr ""
+"Оно озадаченно чешет голову. \"Я монстр, который собирается забить тебя до "
+"смерти... Конечно же, если только ты меня не убьешь первым\". Оно бросается в "
+"атаку."
 
 #: 60916
 msgid ""
@@ -162,21 +189,25 @@ msgid ""
 "feeling of incompetence in you. If successful, this will ensure my victory "
 "in the battle that I will now initiate.\" It leaps to the attack."
 msgstr ""
+"\"Я нагнетаю атмосферу надменности и превосходства для того с целью внушить "
+"тебе чувство собственной неполноценности. В случае успеха это станет залогом "
+"моей победы в битве, которую я сейчас начну\". Оно бросается в атаку."
 
 #: 60918
 msgid ""
 "\"Ha! You think you can escape my wrath with your nonchalant attitude and a "
 "simple dismissal? Nay, fool!\" It leaps to the attack."
 msgstr ""
+"\"Ха! Думаешь, ты сможешь избежать моего гнева беззаботным поведением и "
+"простым уходом? Нет, глупец!\" Оно бросается в атаку."
 
 #: 60923
 msgid "\"Greetings to you as well.\" It looks at you with a blank expression."
-msgstr ""
+msgstr "\"И тебя тоже\". Оно смотрит на тебя безразличным взглядом."
 
 #: 60928
-#, fuzzy
 msgid "\"I must be going now, farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай\"."
+msgstr "\"Я должен идти, прощай\"."
 
 #: 60929
 msgid ""
@@ -186,6 +217,11 @@ msgid ""
 "lost... alone... I feel like... taking my frustrations out on someone or "
 "something...\" It leaps to the attack."
 msgstr ""
+"Немного подумав, оно пожимает плечами. \"Без понятия, - хмурится оно. - Я не "
+"уверен, знаю ли я, кто я на самом деле. Мне почему-то кажется, что моя "
+"индивидуальность и мое жизненное предназначение не имеют значения. Я чувствую "
+"себя потерянным... одиноким... Я чувствую... что мне нужно выместить свое "
+"разочарование на ком-нибудь...\" Оно бросается в атаку."
 
 #: 60931
 msgid ""
@@ -193,22 +229,26 @@ msgid ""
 "identity, no life, and now you show up and start irritating me with your "
 "meaningless questions. I hate life, I hate you.\" It leaps to the attack."
 msgstr ""
+"Оно хмурится. \"Я всего лишь пешка в чье-то заумной игре. У меня нет "
+"индивидуальности, нет жизни. А тут появляешься ты и начинаешь раздражать меня "
+"своими бессмысленными вопросами. Ненавижу жизнь, ненавижу тебя\". Оно "
+"бросается в атаку."
 
 #: 60933
 msgid ""
 "It looks at you with disdain. \"I am waiting for us to finish this "
 "meaningless banter so that I may then beat you senseless.\" It glares at you."
 msgstr ""
+"Оно с презрением смотрит на тебя. \"Я жду, пока мы не окончим этот балаган, "
+"чтобы я смог наконец-то тебя поколотить ни за что\"."
 
 #: 60934
-#, fuzzy
 msgid "\"Why do you want to do that?"
-msgstr "\"Почему ты хочешь умереть?\""
+msgstr "\"Почему ты хочешь это сделать?\""
 
 #: 60935
-#, fuzzy
 msgid "Attack the creature."
-msgstr "Атаковать демонов."
+msgstr "Атаковать существо."
 
 #: 60937
 msgid ""
@@ -216,9 +256,14 @@ msgid ""
 "creator. Once this sentence is complete I will initiate combat with you.\" "
 "It leaps to the attack."
 msgstr ""
+"Оно пожимает плечами. \"Мой создатель не дал мне другого выбора. Выполнив эту "
+"задачу, я начну на тебя нападать\". Он бросается в атаку."
 
 #: 60939
 msgid ""
 "\"Farewell to you as well. However, before you go, please allow me to vent "
 "some frustrations on you that were induced by your presence here.\""
 msgstr ""
+"\"И тебе прощай. Тем не менее, перед тем, как ты уйдешь, позволь мне вымести "
+"свое разочарование, вызванное твоим присутствием\"."
+
