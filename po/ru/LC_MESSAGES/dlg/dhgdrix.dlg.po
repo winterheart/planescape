@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dhgdrix.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:49+0600\n"
+"PO-Revision-Date: 2011-08-19 22:06+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 37412
 msgid ""
@@ -19,6 +20,9 @@ msgid ""
 "spikes flaring from the shoulders, elbows, and forearms. He nods at your "
 "approach. \"Good day, citizen.\""
 msgstr ""
+"Ты видишь долговязого мужчину в пластинчатых доспехах. Его броня представляет "
+"собой необычную конструкцию из шипов, торчащих из плеч, локтей и запястий. "
+"При твоем приближении он кивает тебе. \"Добрый день, гражданин\"."
 
 #: 37413
 msgid "\"Greetings.\""
@@ -30,61 +34,59 @@ msgstr "Игнорировать его."
 
 #: 37415
 msgid "\"How may I help you, citizen?\" He gives you a friendly look."
-msgstr ""
+msgstr "\"Чем я могу помочь тебе, гражданин?\" Он дружелюбно смотрит на тебя."
 
 #: 37416 37455
 msgid "\"I have some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 37417
-#, fuzzy
 msgid "\"I don't think you can. Farewell.\""
-msgstr "\"Не думаю, что ты можешь помочь мне... прощай\"."
+msgstr "\"Думаю, ничем. Прощай\"."
 
 #: 37418
 msgid "He smiles. \"Certainly, citizen.\""
-msgstr ""
+msgstr "Он улыбается. \"Конечно же, гражданин\"."
 
 #: 37419
 msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 37420
-#, fuzzy
 msgid "\"I'm looking for someone named Lothar, or the Master of the Bones...\""
-msgstr "\"Я ищу кое-кого по имени Фарод. Ты не знаешь, где его можно найти?\""
+msgstr "\"Я ищу кое-кого по имени Лотар, он же Повелитель Костей...\""
 
 #: 37421
 msgid ""
 "\"I had a skull and it's been stolen from me. Do you know anyone who would "
 "do such a thing?\""
 msgstr ""
+"\"У меня был череп, который украли. Ты не знаешь кого-нибудь, кто бы мог это "
+"сделать?\""
 
 #: 37422
-#, fuzzy
 msgid "\"I need to buy some weapons.\""
-msgstr "\"Мне нужны некоторые заклинания\"."
+msgstr "\"Я хочу купить кое-какое оружие\"."
 
 #: 37423
-#, fuzzy
 msgid "\"I need to buy some magic items.\""
-msgstr "\"Мне нужна некоторая помощь\"."
+msgstr "\"Я хочу купить кое-какие магические вещи.\""
 
 #: 37424
 msgid ""
 "He gives you a slight bow. \"I am Harmonium guard Drixel, citizen. I keep "
 "the peace here at the market.\""
 msgstr ""
+"Он слегка кивает. \"Я стражник Гармониума Дриксел, гражданин. Я охраняю "
+"порядок здесь, на рынке\"."
 
 #: 37425
-#, fuzzy
 msgid "\"Tell me about the Harmonium.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне об Гармониуме\"."
 
 #: 37426 37434
-#, fuzzy
 msgid "\"I have other questions...\""
-msgstr "\"У меня есть другие вопросы\"."
+msgstr "\"У меня есть другие вопросы...\""
 
 #: 37427
 msgid ""
@@ -95,11 +97,17 @@ msgid ""
 "stones to do anything about it. The Harmonium, we take action. We keep order "
 "on Sigil's streets and on the Planes.\" He nods at you matter-of-factly."
 msgstr ""
+"Он важно щелкает пальцами. \"Наши убеждения просты. Мы есть свет. Мы есть "
+"Прогресс. Мы есть порядок. Мы есть Истина, - его лицо становится суровым. - Я "
+"даже не задавался вопросом о том, вступать ли в Гармониум. Понимаешь, "
+"некоторые пни болтают о битвах с хаосом для восстановления порядка и "
+"гармонии, да вот только сами палец о палец не ударят. А вот мы, Гармониум, "
+"занимаемся реальным делом. Мы поддерживаем порядок на улицах Сигила и среди "
+"планов\"."
 
 #: 37428
-#, fuzzy
 msgid "\"Go on.\""
-msgstr "\"Нет, не нужна\"."
+msgstr "\"Продолжай\"."
 
 #: 37429 37432
 msgid "\"I see. I have some other questions...\""
@@ -112,17 +120,23 @@ msgid ""
 "of-the-post, Indeps, Anarchists, Xaositects, tanar'ri fiends... all had best "
 "beware the Harmonium's shadow. Chaos can only exist in an air of tolerance!\""
 msgstr ""
+"Его взгляд полон решимости. \"Им не охраняем порядок только на словах. Мы "
+"сражаемся, тяжело и упорно, дабы поддерживать и насаждать порядок повсюду. "
+"Темные дельцы, рыцари легкой наживы, Свободные, Анархисты, Хаоситеки, демоны "
+"танарри... все боятся тени Гармониума. Хаос может существовать только в "
+"атмосфере терпимости!\""
 
 #: 37431
-#, fuzzy
 msgid "\"What can you tell me of the other factions?\""
-msgstr "\"Что ты можешь рассказать о здешних завсегдатаях?\""
+msgstr "\"Что ты можешь рассказать о других фракциях?\""
 
 #: 37433
 msgid ""
 "He looks rather bored, then shrugs his shoulders. \"Nothing. They are not a "
 "part of the Truth that is the Harmonium. I have not studied them.\""
 msgstr ""
+"Кажется, ему это совершенно неинтересно, он просто пожимает плечами. \"Ничего."
+" Они не являются частью Истины, как Гармониум. Я не изучал их\"."
 
 #: 37435
 msgid ""
@@ -131,21 +145,22 @@ msgid ""
 "citizen. He hasn't broken any laws that we know of so we at the Harmonium "
 "leave him be. Uh... I'd suggest you do the same.\""
 msgstr ""
+"Он ошарашено смотрит на тебя, бессмысленно пытаясь что-то сказать. \"А, ну... "
+"Никто точно не знает, где находится Лотар, гражданин. Он не нарушал никаких "
+"наших законов, так что мы в Гармониуме его не трогаем. Эээ... и тебе я "
+"советую сделать то же самое\"."
 
 #: 37436
-#, fuzzy
 msgid "\"Why?\""
-msgstr "\"Почему я?\""
+msgstr "\"Почему?\""
 
 #: 37437 37441
-#, fuzzy
 msgid "\"I still need to find him.\""
-msgstr "\"Я найду его\"."
+msgstr "\"Тем не менее, мне все еще нужно его найти\"."
 
 #: 37438 37442
-#, fuzzy
 msgid "\"I see... I have some other questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно... У меня были еще вопросы...\""
 
 #: 37439
 msgid "\"Farewell then.\""
@@ -157,6 +172,9 @@ msgid ""
 "as powerful as Lothar without an extremely good reason and lots of friends "
 "backing you up! That's why.\""
 msgstr ""
+"Он раздраженно смотрит на тебя. \"Потому что, пень. Без очень веской причины "
+"и кучи друзей, которые смогут прикрыть тебя, лучше не связываться с такой "
+"могущественной фигурой, как Лотар! Вот почему\"."
 
 #: 37443
 msgid "\"Farewell, then.\""
@@ -168,11 +186,13 @@ msgid ""
 "the entrance to his kip in a wrecked building here in the Ward.\" He begins "
 "to look through you, rather than at you."
 msgstr ""
+"Он молча смотрит на тебя перед тем, как ответить. \"Очень хорошо. Вход в его "
+"берлогу можно найти в разрушенном доме, здесь, в этом районе\". Его взгляд "
+"соскальзывает с тебя и устремляется куда-то вдаль."
 
 #: 37445
-#, fuzzy
 msgid "\"Thank you. I have some other questions...\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Спасибо тебе. У меня есть другие вопросы...\""
 
 #: 37446
 msgid ""
@@ -181,22 +201,26 @@ msgid ""
 "around nervously and then talks softly to you. \"Well, not Lothar himself, "
 "but one of his henchmen. Lothar keeps his nose clean.\""
 msgstr ""
+"Он молча смотрит на тебя перед тем, как ответить. \"Очень похоже на то, что "
+"это сделал Лотар, Повелитель костей\". Нервно оглядываясь, он вкрадчиво "
+"продолжает: \"Ну, не сам лично Лотар, а, скорее всего, один из его "
+"прихвостней. Сам-то Лотар свои ручки чистыми держит\"."
 
 #: 37448
-#, fuzzy
 msgid "\"Where can I find this 'Lothar?'\""
-msgstr "\"Где я могу найти этого 'Фарода'?'\""
+msgstr "\"Где я могу найти этого 'Лотара'?'\""
 
 #: 37449
 msgid ""
 "He gestures at the market. \"Plenty of merchants here, citizen. You can find "
 "what you need with them.\""
 msgstr ""
+"Он указывает на рынок. \"Тут полно торговцев, гражданин. У них ты найдешь "
+"все, что пожелаешь\"."
 
 #: 37450
-#, fuzzy
 msgid "\"I have some other questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 37452
 msgid "\"Thank you, farewell.\""
@@ -207,6 +231,7 @@ msgid ""
 "Drixel bows slightly to you. \"Good day to you again, citizen. How may I "
 "serve you?\""
 msgstr ""
+"Дриксел кивает тебе. \"Добрый день, гражданин. Чем я могу тебе служить?\""
 
 #: 37456
 msgid "\"Never mind. Farewell.\""
@@ -215,3 +240,4 @@ msgstr "\"Неважно. Прощай\"."
 #: 37459
 msgid "\"Thank you. Farewell.\""
 msgstr "\"Спасибо. Прощай\"."
+

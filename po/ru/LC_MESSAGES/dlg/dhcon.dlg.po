@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dhcon.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:46+0600\n"
+"PO-Revision-Date: 2011-08-20 00:54+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 60814 60833 60853
 msgid ""
@@ -42,9 +43,8 @@ msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 60820 60839 60859
-#, fuzzy
 msgid "\"What are you?\""
-msgstr "\"Кто ты такой?\""
+msgstr "\"Что ты такое?\""
 
 #: 60821 60840 60860
 msgid "\"What are you doing?\""
@@ -62,9 +62,8 @@ msgstr ""
 
 #: 60824 60826 60828 60830 60832 60843 60846 60848 60850 60852 60863 60865
 #: 60867 60869 60871
-#, fuzzy
 msgid "Defend yourself."
-msgstr "Приготовиться к самозащите."
+msgstr "Защищаться."
 
 #: 60825
 msgid ""
@@ -169,3 +168,4 @@ msgstr ""
 #: 60870
 msgid "\"Yes... Until we meet again, intruder.\" It leaps to the attack."
 msgstr ""
+
