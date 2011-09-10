@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dcwrushf.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-03-13 23:31+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-09-10 22:55+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: 25842
 msgid "This clean, well-dressed woman is clearly on her way somewhere."
-msgstr ""
+msgstr "Эта опрятная, хорошо одетая женщина определенно куда-то направляется."
 
 #: 25843 25938 25939
 msgid "\"Greetings...\""
@@ -28,17 +28,21 @@ msgid ""
 "her to see if you were calling to someone else, then smiles uneasily. "
 "\"Pardon me, but... do I know you?\""
 msgstr ""
+"Она останавливается, чтобы поглядеть на тебя, и ее глаза тут же расширяются. "
+"Она оглядывается в поисках того, к тому ты обращался, затем натянуто "
+"улыбается. \"Извините, но... мы знакомы?\""
 
 #: 25845
-#, fuzzy
 msgid "\"No, but I had some questions...\""
-msgstr "\"Нет, у меня есть некоторые вопросы...\""
+msgstr "\"Нет, но у меня есть некоторые вопросы...\""
 
 #: 25846
 msgid ""
 "\"I'm on my way somewhere, sir - with little time left to reach my "
 "destination.\" She takes a step backwards.  \"So if you wouldn't mind...\""
 msgstr ""
+"\"Я кое-куда спешу, сэр, и у меня осталось мало времени, чтобы туда "
+"добраться, - она отступает назад. - Так что если вы не возражаете...\""
 
 #: 25847 25920
 msgid "\"Just a single question, then?\""
@@ -49,6 +53,8 @@ msgid ""
 "She bites her lip, then nods. \"Very well, sir. But ask with haste... time "
 "is of the essence!\""
 msgstr ""
+"Она закусывает губу и кивает. \"Хорошо, сэр. Но поспешите с вопросом... у "
+"меня времени вобрез!\""
 
 #: 25849
 msgid "\"What is this place?\""
@@ -59,11 +65,12 @@ msgid ""
 "Her eyebrows arch in surprise. \"'Tis the Clerk's Ward, sir. Have you lost "
 "your way? Oh, never mind that. I've to be going! Farewell...\""
 msgstr ""
+"Она поднимает брови от удивления. \"Это Чиновничий район, сэр. Вы "
+"заблудились? Ах, не берите в голову. Мне нужно идти! Счастливо...\""
 
 #: 25851
-#, fuzzy
 msgid "\"Wait... I had more questions...\""
-msgstr "\"Нелли... У меня есть несколько вопросов...\""
+msgstr "\"Постой... У меня есть еще вопрос...\""
 
 #: 25852
 msgid ""
@@ -71,11 +78,13 @@ msgid ""
 "that and let me be on my way, won't you? Perhaps you shall find someone with "
 "more time at one of the street-side cafes.\""
 msgstr ""
+"\"Я согласилась на один вопрос, сэр. Будьте так любезны учесть это и дать "
+"мне уйти, хорошо? Возможно, вы найдете кого-нибудь более свободного в одном "
+"из уличных кафе\"."
 
 #: 25853 25913 25935
-#, fuzzy
 msgid "\"Stop. You'll stand here and answer my questions.\""
-msgstr "\"Ты здесь, чтобы отвечать на *мои* вопросы, дух\"."
+msgstr "\"Ни с места. Стой здесь и отвечай на мои вопросы\"."
 
 #: 25854
 msgid ""
@@ -83,15 +92,19 @@ msgid ""
 "wherever you came lumbering here from, but we've the law in this part of "
 "fair Sigil. Now leave me be, 'sir,' lest I be forced to cry for help!\""
 msgstr ""
+"Ее глаза сужаются. \"Возможно, там, откуда вы пришли, ваша пугающая "
+"внешность и грубые внешние манеры считаются за норму, но в этой части "
+"порядочного Сигила царит порядок. А теперь оставьте меня, 'сэр', иначе я "
+"буду вынуждена позвать на помощь!\""
 
 #: 25855
 msgid "\"I doubt anyone will make it in time to save you.\""
-msgstr ""
+msgstr "\"Сомневаюсь, что кто-нибудь успеет тебя спасти\"."
 
 #: 25856
 msgid ""
 "She begins to back away, calling for aid as she does so: \"Guards! Guards!\""
-msgstr ""
+msgstr "Она начинает пятиться, зовя на помощь: \"Стража! Стража!\""
 
 #: 25857
 msgid "Attack her."
@@ -102,16 +115,12 @@ msgid "Try and leave before anyone arrives."
 msgstr "Попытаться уйти до того, как кто-нибудь придет."
 
 #: 25859
-#, fuzzy
 msgid "\"You'll not call for anyone if you know what's good for you.\""
-msgstr ""
-"\"Я первым нашел это место. Тебе лучше не пытаться, раз ты не знаешь, что "
-"хорошо для тебя\"."
+msgstr "\"Ты никого не будешь звать, если тебе дорога твоя жизнь\"."
 
 #: 25860
-#, fuzzy
 msgid "\"My apologies. Farewell.\""
-msgstr "\"Спасибо. Прощай\"."
+msgstr "\"Прошу прощения. Прощай\"."
 
 #: 25861 25862 25917 25925 25936
 msgid "\"Farewell, then.\""
@@ -130,9 +139,10 @@ msgid ""
 "\"So much, sir! And especially here, in this part of the Clerk's Ward, where "
 "the Civic Festhall is located. The Art and Curio Galleria, too.\""
 msgstr ""
+"\"Еще бы, сэр! Особенно в этой части Чиновничьего района, где находится "
+"Городской Фестхолл. А также художественная галерея\"."
 
 #: 25866
-#, fuzzy
 msgid "\"Anything else?\""
 msgstr "\"Что-нибудь еще?\""
 
@@ -143,24 +153,25 @@ msgid ""
 "Lusts.' Oh, and the catacombs beneath the Ward. And that odd little "
 "curiosity shop, too.\""
 msgstr ""
+"Она на мгновение задумывается. \"Хм-м. Ну, здесь есть мастерская портного, "
+"аптека, дом адвоката и бордель 'утоления интеллектуальной страсти'. А, и еще "
+"катакомбы под районом. А также тот странный антикварный магазинчик\"."
 
 #: 25868 25873
-#, fuzzy
 msgid "\"I had a question about one of those places you mentioned...\""
-msgstr "\"У меня вопрос насчет Перемирия со Смертью...\""
+msgstr "\"У меня вопрос насчет одного из упомянутых тобой мест...\""
 
 #: 25869 25874
 msgid "\"Let me ask you about something else...\""
 msgstr "\"Позволь мне спросить еще кое о чем...\""
 
 #: 25870 25875 25923
-#, fuzzy
 msgid "\"Thanks for your time. Farewell.\""
-msgstr "\"Спасибо за внимание. Прощай\"."
+msgstr "\"Спасибо за уделенное время. Прощай\"."
 
 #: 25871
 msgid "\"Where could I find work, here?\""
-msgstr "\"Где можно найти работу здесь?\""
+msgstr "\"Где здесь можно найти работу?\""
 
 #: 25872
 msgid ""
@@ -168,14 +179,17 @@ msgid ""
 "something to offer you. You may wish to try the advocate, too, or perhaps "
 "the apothecary. I'd best be going, though... farewell.\""
 msgstr ""
+"Она на миг задумывается. \"Вы могли бы поискать в Фестхолле... у них должно "
+"быть что-нибудь для вас. Еще можете попробовать спросить у адвоката и в "
+"аптеке. А мне уже нужно идти... Прощайте\"."
 
 #: 25876
 msgid "\"I just needed directions...\""
-msgstr "\"Мне нужно узнать направления...\""
+msgstr "\"Мне лишь нужно узнать, как попасть в одно место...\""
 
 #: 25877
 msgid "\"What are you trying to find, sir?\""
-msgstr ""
+msgstr "\"Что вы ищете, сэр?\""
 
 #: 25878
 msgid "\"The advocate's home.\""
@@ -187,53 +201,48 @@ msgid ""
 "entered this place, most likely. It will be on the eastern side of the road."
 "\""
 msgstr ""
-"\"Дом Ианниса находится на юге от ворот в Нижний район, скорее всего, вы "
-"через них сюда попали. Он будет на восточной стороне дороги\"."
+"\"Дом Яниса находится на юге от ворот в Нижний район, через которые вы, "
+"скорее всего, сюда и вошли. Он будет на восточной стороне дороги\"."
 
 #: 25880 25884 25888 25892 25896 25900 25904 25908
 msgid "\"Thanks. Let me ask you about something else...\""
 msgstr "\"Спасибо. Позвольте мне спросить еще кое о чем...\""
 
 #: 25881 25885 25889 25893 25897 25901 25909
-#, fuzzy
 msgid "\"I see. Thanks for your time. Farewell.\""
-msgstr "\"Понятно. Спасибо за уделенное время. Прощайте\"."
+msgstr "\"Понятно. Спасибо за уделенное время. Прощай\"."
 
 #: 25882
-#, fuzzy
 msgid "\"The apothecary.\""
 msgstr "\"Аптека\"."
 
 #: 25883
-#, fuzzy
 msgid ""
 "\"Follow the road that leads east from the gate to the Lower Ward - where "
 "you first entered this place, most likely. When the road forks northeast and "
 "southeast, go southwards... you will find it, there, east of the road. It "
 "faces southwards and has three windows of stained glass.\""
 msgstr ""
-"\"Идите по дороге на восток от ворот в Нижний район, скорее всего, вы через "
-"них сюда попали. Когда дорога разделяется на северо-восток и юго-восток, "
-"идите по южной... там и найдете, к востоку от дороги. Она обращена на юг и у "
-"нее три окна с грязными стеклами.\""
+"\"Идите по дороге на восток от ворот в Нижний район, через которые вы, "
+"скорее всего, сюда и вошли. На развилке сворачивайте и идите на юг... там ее "
+"и найдете, к востоку от дороги. У нее фасад с южной стороны и три витражных "
+"окна\"."
 
 #: 25886
-#, fuzzy
 msgid "\"The art store.\""
-msgstr "\"Они-то смогут. Прощай\"."
+msgstr "\"Художественная галерея\"."
 
 #: 25887
-#, fuzzy
 msgid ""
 "\"Follow the road that leads east from the gate to the Lower Ward - where "
 "you first entered this place, most likely. When the road forks northeast and "
 "southeast, go southwards... you will find it, there, west of the road. It "
 "faces southwards and has a roof whose tiles are held down by large stones.\""
 msgstr ""
-"\"Идите по дороге на восток от ворот в Нижний район, скорее всего, вы через "
-"них сюда попали. Когда дорога разделяется на северо-восток и юго-восток, "
-"идите по южной... там и найдете, к западу от дороги. Она обращена на юг и у "
-"нее крыша, выложенная огромными камнями.\""
+"\"Идите по дороге на восток от ворот в Нижний район, через которые вы, "
+"скорее всего, сюда и вошли. На развилке сворачивайте и идите на юг... там ее "
+"и найдете, к западу от дороги. Ее фасад обращен на юг, а черепица на крыше "
+"привалена крупными камнями\"."
 
 #: 25890
 msgid "\"The Brothel.\""
@@ -245,9 +254,9 @@ msgid ""
 "Lower Ward - where you first entered this place, most likely. It is a large, "
 "round building, whose entrance faces southwards.\""
 msgstr ""
-"Она подчеркнуто хмурится, покачивая головой: \"Он прямо на западе от ворот в "
-"Нижний район, скорее всего, вы через них сюда попали. Это большое круглое "
-"здание, вход находится на юге\"."
+"Она подчеркнуто хмурится, покачивая головой: \"Он прямо на восток от ворот в "
+"Нижний район, через которые вы, скорее всего, сюда и вошли. Это большое "
+"круглое здание, вход находится на юге\"."
 
 #: 25894
 msgid "\"The catacombs beneath the Ward.\""
@@ -259,6 +268,9 @@ msgid ""
 "certainly guarded... those catacombs are said to be quite dangerous. I am "
 "unsure as to exactly how to reach them, sir.\""
 msgstr ""
+"Она хмурится. \"Те входы все еще открыты? Раз так, тогда они должны "
+"охраняться... говорят, в этих катакомбах довольно опасно. Я не знаю, как "
+"именно в них попасть, сэр\"."
 
 #: 25898
 msgid "\"The Civic Festhall.\""
@@ -269,6 +281,8 @@ msgid ""
 "\"The Festhall is most easy to find, sir. 'Tis a massive structure in the "
 "northeastern portion of this area.\""
 msgstr ""
+"\"Найти Фестхолл легче всего, сэр. Это огромное здание в северо-восточной "
+"части этого района\"."
 
 #: 25902
 msgid "\"The curiosity shop.\""
@@ -280,19 +294,17 @@ msgid ""
 "a wide flight of stairs. I've never entered the place, myself... I've an odd "
 "feeling about it.\""
 msgstr ""
-"\"Он находится здесь, в юго-восточной части. Необычное здание, стоит на "
-"вершине широких лесничных пролетов. Никогда сама не ходила туда... От этого "
-"мне становится не по себе\"."
+"\"Он находится здесь, в юго-восточной части. Необычное здание, к нему ведет "
+"широкая лестница. Никогда сама туда не ходила... От него мне становится не "
+"по себе\"."
 
 #: 25905
-#, fuzzy
 msgid "\"I see. Thanks for you time. Farewell.\""
-msgstr "\"Понятно. Спасибо вам за уделенное время. Прощайте.\""
+msgstr "\"Понятно. Спасибо за уделенное время. Прощай\"."
 
 #: 25906
-#, fuzzy
 msgid "\"The tailor.\""
-msgstr "\"Портной\"."
+msgstr "\"Мастерская портного\"."
 
 #: 25907
 msgid ""
@@ -300,8 +312,9 @@ msgid ""
 "the Lower Ward - where you first entered this place, most likely. 'Tis a "
 "wide building, whose entrance faces southwards.\""
 msgstr ""
-"\"Магазин портного находится на северо-востоке от ворот в Нижний район, "
-"скорее всего, вы через них сюда попали. Это широкое здание, вход - с юга\"."
+"\"Мастерская портного находится на северо-востоке от ворот в Нижний район, "
+"через которые вы, скорее всего, сюда и вошли. Это длинное здание, вход - с "
+"юга\"."
 
 #: 25910 25919
 msgid "\"Nothing, never mind. Farewell.\""
@@ -310,33 +323,36 @@ msgstr "\"Ничего, неважно. Прощай\"."
 #: 25911
 #, fuzzy
 msgid "\"What do you know of Ravel Puzzlewell?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Ты знаешь что-нибудь о Равель Заморочке?\""
 
 #: 25912
 msgid ""
 "She shakes her head. \"So sorry... perhaps you shall find someone with more "
 "time at one of the street-side cafes, sir. Now, farewell...\""
 msgstr ""
+"Она качает головой. \"Очень жаль... Возможно, вы найдете кого-нибудь более "
+"свободного в одном из уличных кафе, сэр. А теперь прощайте...\""
 
 #: 25914
+#, fuzzy
 msgid ""
 "\"Ravel the Night Hag? My parents told me tales of her when I was but a "
 "child... frightening stories.\""
 msgstr ""
+"\"Ночная ведьма Равель? В детстве мои родители рассказывали мне о ней "
+"сказки... страшные истории\"."
 
 #: 25915
 msgid "\"Child's tales?\""
-msgstr ""
+msgstr "\"Сказки?\""
 
 #: 25916
-#, fuzzy
 msgid "\"I see. Let me ask you about something else...\""
-msgstr "\"Позволь мне спросить кое о чем еще...\""
+msgstr "\"Ясно. Позволь мне спросить кое о чем еще...\""
 
 #: 25918
-#, fuzzy
 msgid "\"Thanks, that's all I wished to know. Farewell.\""
-msgstr "\"Да, это все, что я хотел узнать. Прощай\"."
+msgstr "\"Спасибо, это все, что я хотел узнать. Прощай\"."
 
 #: 25921
 msgid ""
@@ -345,16 +361,18 @@ msgid ""
 "horrid place she was banished to.\" She suddenly frowns. \"I'd really best "
 "be going, sir... farewell.\""
 msgstr ""
+"Она кивает. \"Да. Про злую ведьму, которая пыталась разрушить Сигил. В них "
+"говорилось о том, что если я буду слишком громко плакать, она придет ко мне "
+"и заберет меня в то ужасное место, куда ее изгнали, - внезапно она "
+"нахмуривается. - Мне и вправду нужно идти, сэр... Прощайте\"."
 
 #: 25922
-#, fuzzy
 msgid "\"Wait. I had another question...\""
-msgstr "\"Нет, у меня есть другие вопросы...\""
+msgstr "\"Погоди. У меня есть другой вопрос...\""
 
 #: 25924
-#, fuzzy
 msgid "\"I *would* mind. Now answer my questions...\""
-msgstr "\"Ответь мне на другие вопросы\"."
+msgstr "\"Я *возражаю*. А теперь отвечай на вопросы...\""
 
 #: 25926 25946
 msgid "\"Something troubling about my appearance?\""
@@ -367,16 +385,18 @@ msgid ""
 "more... ah... 'fierce-looking,' than the Ward's typical inhabitants, no? "
 "Please take no offense at my words, sir.\""
 msgstr ""
+"\"Нет-нет... нисколько! - женщина нервно смеется. - Ну, может... - она "
+"указывает на твой обнаженный, покрытый шрамами торс. - У вас *немного* ... "
+"э... 'свирепый' вид, по сравнению с обычными обитателями этого района, разве "
+"нет? Прошу, не обижайтесь из-за моих слов, сэр\"."
 
 #: 25928
-#, fuzzy
 msgid "\"None taken. I had some questions...\""
-msgstr "\"Нелли... У меня есть несколько вопросов...\""
+msgstr "\"Нисколько. У меня есть несколько вопросов...\""
 
 #: 25929
-#, fuzzy
 msgid "\"I don't need anything else. Farewell.\""
-msgstr "\"Мне это не нужно. Прощай\"."
+msgstr "\"У меня все. Прощай\"."
 
 #: 25930 25947
 msgid "\"No. Farewell.\""
@@ -387,6 +407,8 @@ msgid ""
 "The woman nods a polite greeting. \"Greetings, and farewell... if you'll "
 "excuse me, sir, I'm in a bit of a rush.\""
 msgstr ""
+"Женщина вежливо кивает в знак приветствия. \"Здравствуйте и прощайте... "
+"извините, сэр, но я немного спешу\"."
 
 #: 25933
 msgid "\"Wait. I had some questions...\""
@@ -397,10 +419,12 @@ msgid ""
 "\"As I said, sir, I am in a great hurry. Perhaps you shall find someone with "
 "more time at one of the street-side cafes. Now, farewell...\""
 msgstr ""
+"\"Как я уже сказала, сэр, я очень спешу. Возможно, вы найдете кого-нибудь "
+"более свободного в одном из уличных кафе. А теперь прощайте...\""
 
 #: 25940
 msgid "Let her be on her way."
-msgstr ""
+msgstr "Позволить ей уйти."
 
 #: 25941
 msgid ""
@@ -409,6 +433,10 @@ msgid ""
 "\"Pardon me, but do I know-\" Suddenly, her eyes alight on Morte. \"Oh! What "
 "a cute little mimir!\""
 msgstr ""
+"Она останавливается, чтобы поглядеть на тебя, и ее глаза тут же расширяются. "
+"Она оглядывается в поисках того, к тому ты обратился, затем натянуто "
+"улыбается. \"Извините, но мы... - внезапно она замечает Морта. - О! Какой "
+"хорошенький мимир!\""
 
 #: 25942
 msgid "\"Mimir?\""
@@ -423,9 +451,8 @@ msgid "\"I wouldn't touch him - he bites.\""
 msgstr "\"Я бы не советовал его трогать - может укусить\"."
 
 #: 25945
-#, fuzzy
 msgid "\"Yes, yes. I had some questions...\""
-msgstr "\"Да, сказал. У меня есть некоторые вопросы...\""
+msgstr "\"Да-да. У меня есть некоторые вопросы...\""
 
 #: 25948
 msgid "The woman smiles. \"How darling! It talks on its own!\""
@@ -456,8 +483,8 @@ msgid ""
 "\"Truly?\" She remains smiling, but looks suspicious. \"Surely you jest, "
 "sir! 'Tis only a mimir...\""
 msgstr ""
-"\"Правда? - все еще улыбаясь, подозревающе спрашивает она. - Должно быть, вы "
-"шутите, сэр! Это же мимир...\""
+"\"Правда? - все еще улыбаясь, подозрительно спрашивает она. - Должно быть, "
+"вы шутите, сэр! Это же мимир...\""
 
 #: 25956
 msgid "\"What do you mean? Don't they all enjoy that?\""
@@ -465,11 +492,11 @@ msgstr "\"То есть? Разве им это не нравится?\""
 
 #: 25957
 msgid "\"No, I speak the truth. Go ahead.\""
-msgstr "\"Нет, это правда. Сами попробуйте\"."
+msgstr "\"Нет, это правда. Попробуй\"."
 
 #: 25958
 msgid "\"Never mind him. I had some questions...\""
-msgstr "\"Забудьте о нем. У меня есть другие вопросы...\""
+msgstr "\"Забудь о нем. У меня есть другие вопросы...\""
 
 #: 25959
 msgid ""
@@ -486,6 +513,5 @@ msgid "\"Yes... well, I had some questions...\""
 msgstr "\"Да... что ж, у меня есть несколько вопросов...\""
 
 #: 25961
-#, fuzzy
 msgid "\"Isn't it all? Farewell.\""
-msgstr "\"Я постараюсь. Прощай\"."
+msgstr "\"Это все? Прощай\"."
