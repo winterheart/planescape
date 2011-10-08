@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dpuzskel.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 03:24+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-10-08 22:24+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,26 +19,35 @@ msgid ""
 "skull. It is old enough so that no meat is left on its bones... only a few "
 "colored rags."
 msgstr ""
+"Этот скелет бормочет себе под нос, время от времени останавливаясь, чтобы "
+"почесать череп. Он довольно стар, так что на его костях не осталось плоти... "
+"только несколько цветных тряпок."
 
 #: 20283
 msgid "It nods a greeting in return, but does not reply to you."
-msgstr ""
+msgstr "Он приветственно кивает в ответ, но не отвечает тебе."
 
 #: 20284
 msgid ""
 "The skeleton looks up at you and grunts in frustration. \"Not now! Forgive "
 "me, but I've the most *horrid* riddle on my mind and I can't puzzle it out!\""
 msgstr ""
+"Скелет поднимает на тебя взгляд и что-то раздражительно бормочет. \"Не "
+"сейчас! Извини, но у меня тут просто *чудовищная* загадка, и я не могу ее "
+"разгадать!\""
 
 #: 20285
 msgid "It seems surprised. \"Oh? Going to give it a try, art thou?\""
-msgstr ""
+msgstr "Он, похоже, удивлен. \"Вот как? Значит, хочешь попробовать?\""
 
 #: 20286
 msgid ""
 "\"Very well. This is from a chortling buffoon of a bone-bag thou may well "
 "find nearby. It refuses to give me the answer, and it's *killing* me!\""
 msgstr ""
+"\"Отлично. Это все тот шутовской мешок с костями, которого ты, может, уже "
+"встречал неподалеку. Он отказывается сказать мне ответ, и это меня просто "
+"*убивает*!\""
 
 #: 20287
 msgid ""
@@ -47,10 +56,14 @@ msgid ""
 "word? The word is something that one uses every day. If thou hast listened "
 "carefully, I have already told thee what it is.\""
 msgstr ""
+"Он кивает. \"Вспомни слова, которые кончаются на '-люс'. Всеобщий планарный "
+"язык содержит три слова: полюс, плюс... какое третье слово? Оно "
+"употребляется в каждодневной речи. Если ты слушал внимательно, то я его уже "
+"произнес\"."
 
 #: 20288
 msgid "It seems incredulous. \" 'Tis *what?* But...\""
-msgstr ""
+msgstr "Он, похоже, не поверил. \"*Что*? Но...\""
 
 #: 20289
 msgid "[no text]"
@@ -62,6 +75,9 @@ msgid ""
 "It stops, then laughs, dust billowing from its creaking jaws. \"That's good, "
 "all right. I thank thee!\""
 msgstr ""
+"\"Это же... это же... о-о-о! Грязный трюк! Хотя у меня все равно нет языка! "
+"- он застывает, потом заходится в смехе, аж пыль из челюстей идет. - Ладно, "
+"проехали. Спасибо тебе!\""
 
 #: 20291
 msgid ""
@@ -69,27 +85,34 @@ msgid ""
 "best of luck should thou try and get it from the chattering fool which gave "
 "it to me!\""
 msgstr ""
+"\"Что, тоже не знаешь? Дай мне знать, если разгадаешь... можешь еще "
+"попробовать вытрясти ее из того болтливого дурака, что ее подкинул!\""
 
 #: 20292
 msgid "The skeleton looks up. \"Solve that dastardly riddle, yet?\""
-msgstr ""
+msgstr "Скелет смотрит на тебя. \"Ну как, разгадал ту подлую загадку?\""
 
 #: 20293
 msgid ""
 "\"I thank thee again for solving that riddle! I imagine my  'friend' would "
 "be quite upset over it!\" It chortles heartily."
 msgstr ""
+"\"Еще раз спасибо, что разгадал ту загадку! Думаю, мой 'друг' будет очень "
+"расстроен по этому поводу!\" Он хохочет от всего сердца."
 
 #: 20294
 msgid "\"But... but why? Come, now! Thou *must* tell me!\""
-msgstr ""
+msgstr "\"Но... но почему? Ладно тебе! Ты *должен* мне рассказать!\""
 
 #: 20295
+#, fuzzy
 msgid ""
 "It gnashes its teeth together in frustration. \"Bah! Just like that... "
 "that... incessantly rattling dust-for-brains! And *thee!* I thank thee for "
 "*nothing!\"*"
 msgstr ""
+"Он раздосадовано скрежещет зубами. \"Вот еще! Тут такая... такая... "
+"бесконечная мозгодробилка! А тут еще *ты*! Спасибо тебе *ни за что*!\""
 
 #: 20296
 msgid "\"Greetings...\""
@@ -105,41 +128,35 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 20299
 msgid "\"I'll take my leave, now. Farewell.\""
-msgstr "\"Я должен идти. Прощай\"."
+msgstr "\"Мне пора идти. Прощай\"."
 
 #: 20300
-#, fuzzy
 msgid "\"What's the riddle?\""
-msgstr "\"А в чем проблема?\""
+msgstr "\"Что за загадка?\""
 
 #: 20301
 msgid "\"Farewell, then.\""
 msgstr "\"Тогда прощай\". "
 
 #: 20302
-#, fuzzy
 msgid "\"Yes, go ahead.\""
-msgstr "\"Да. Прощай\"."
+msgstr "\"Да, давай\"."
 
 #: 20303
-#, fuzzy
 msgid "\"No, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай\"."
+msgstr "\"Нет, не бери в голову. Прощай\"."
 
 #: 20304
-#, fuzzy
 msgid "\"Go on, then...\""
-msgstr "\"Ну хорошо...\""
+msgstr "\"Что ж, продолжай...\""
 
 #: 20305
-#, fuzzy
 msgid "\"Of course you have. It's 'tongue.'\""
-msgstr "\"Ну конечно. У меня есть другие вопросы...\""
+msgstr "\"Конечно. Это язык\"."
 
 #: 20306
-#, fuzzy
 msgid "\"It's... uh... hmm.\""
-msgstr "\"Эээ... нет\"."
+msgstr "\"Это... э... хм\"."
 
 #: 20307
 msgid "\"I'll think about it. Farewell.\""
@@ -151,11 +168,13 @@ msgid ""
 "there are three words in 'the - Common - Tongue.' The third word is "
 "'tongue.'\""
 msgstr ""
+"\"Первое предложение и половину второго можно проигнорировать: они просто "
+"запутывают тебя. Вспомни: 'всеобщий - планарный - язык' содержит три "
+"слова... Третье слово - 'язык'\"."
 
 #: 20309
-#, fuzzy
 msgid "Laugh and walk away."
-msgstr "Не обращать внимания на его угрозы и уйти."
+msgstr "Посмеяться и уйти."
 
 #: 20310 20317
 msgid "\"Of course. Farewell.\""
@@ -167,50 +186,47 @@ msgstr "\"Прощай\"."
 
 #: 20312
 msgid "\"Yes. It's 'tongue.'\""
-msgstr ""
+msgstr "\"Да. Это язык\"."
 
 #: 20313
 msgid "\"Yes, but I won't give you the answer.\""
-msgstr ""
+msgstr "\"Да, но я тебе не скажу\"."
 
 #: 20314
 msgid "Lie: \"Eh... no. Farewell.\""
-msgstr ""
+msgstr "Ложь: \"Э... нет. Прощай\"."
 
 #: 20315
 msgid "\"No. Tell me the riddle again.\""
-msgstr ""
+msgstr "\"Нет. Повтори мне загадку\"."
 
 #: 20316
-#, fuzzy
 msgid "\"No, not yet. Farewell.\""
-msgstr "\"Еще нет. Прощай, Дейонарра\"."
+msgstr "\"Еще нет. Прощай\"."
 
 #: 20318 20319
-#, fuzzy
 msgid "\"Very well. It's 'tongue.'\""
-msgstr "\"Хорошо. Уходим\"."
+msgstr "\"Хорошо. Это язык\"."
 
 #: 20320
 msgid "\"I promised I wouldn't.\""
-msgstr ""
+msgstr "\"Я обещал не рассказывать\"."
 
 #: 20321
 msgid "\"Must I? Farewell.\""
-msgstr ""
+msgstr "\"Разве я должен? Счастливо\"."
 
 #: 20322
 msgid "\"All right, all right. It's 'tongue.'\""
-msgstr ""
+msgstr "\"Ладно, ладно. Это 'язык'\"."
 
 #: 20323
-#, fuzzy
 msgid "\"My apologies. Farewell.\""
-msgstr "\"Спасибо. Прощай\"."
+msgstr "\"Прошу прощения. Счастливо\"."
 
 #: 68086
 msgid "The skeleton crosses its arms and refuses to say even a single word."
-msgstr ""
+msgstr "Скелет скрещивает руки на груди и отказывается говорить."
 
 #: 68087
 msgid "Leave."
