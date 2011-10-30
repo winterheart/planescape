@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dstalema.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:35+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-10-30 15:45+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +19,13 @@ msgid ""
 "now converse with corpses that haven't been too long dead for their previous "
 "occupants to speak through them."
 msgstr ""
+"Тухлая Мери поделилась со мной знанием того, как разговаривать с мертвыми. "
+"Теперь я могу общаться с трупами, которые мертвы достаточно недолго, чтобы "
+"их прежние обитатели могли говорить через них."
 
 #: 22185
-#, fuzzy
 msgid "\"Greetings, and farewell.\""
-msgstr "\"Спасибо... Прощай\"."
+msgstr "\"Привет и пока\"."
 
 #: 22189
 msgid ""
@@ -31,55 +33,51 @@ msgid ""
 "as if her vocal cords are festering away in some soupy mess at the base of "
 "her throat."
 msgstr ""
+"Она указывает на себя и говорит: \"Ту-ту-тулуй Муури\". Звучит так, будто ее "
+"связки превратились в какую-то желеобразную массу."
 
 #: 22191 22192
-#, fuzzy
 msgid "\"Stale Mary? I had some questions...\""
-msgstr "\"Вообще-то, у меня несколько вопросов...\""
+msgstr "\"Тухлая Мери? У меня есть несколько вопросов...\""
 
 #: 22193
-#, fuzzy
 msgid "\"I must take my leave now, Mary. Farewell.\""
-msgstr "\"Я должен идти, Дхолл. Прощай\"."
+msgstr "\"Мне пора идти, Мери. Прощай\"."
 
 #: 22195
 msgid "The corpse nods slowly in reply."
-msgstr ""
+msgstr "Труп медленно кивает в ответ."
 
 #: 22196 22197 22481 22482 22484
 msgid "\"I had some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 22198 22270 22273
-#, fuzzy
 msgid "\"I must take my leave, now. Farewell.\""
-msgstr "\"Не сегодня. Я должен идти. Прощай\"."
+msgstr "\"Мне уже пора идти. Прощай\"."
 
 #: 22200 22287
-#, fuzzy
 msgid "She nods her head, awaiting your question."
-msgstr "Соэго кивает. \"Задавай свои вопросы\"."
+msgstr "Она кивает, ожидая вопрос."
 
 #: 22201 23858
 msgid ""
 "\"Hargrimm said that I needed to *learn* to listen to you... do you know "
 "what he meant by that?\""
 msgstr ""
+"\"Харгримм сказал, что мне нужно *научиться* слушать тебя... Ты знаешь, что "
+"он имел в виду?\""
 
 #: 22202 22288 22289 22290
-#, fuzzy
 msgid "\"Mary, I need to speak with the Silent King. Can you help me?\""
 msgstr ""
-"\"Я не шпион. Меня случайно здесь заперли. Ты поможешь мне выбраться отсюда?"
-"\""
+"\"Мери, мне нужно поговорить с Безмолвным Королем. Ты можешь мне помочь?\""
 
 #: 22203 22291
-#, fuzzy
 msgid "\"Why have I been made a prisoner?\""
-msgstr "\"Может быть. Где ты меня видел?\""
+msgstr "\"Почему меня сделали пленником?\""
 
 #: 22205 22292
-#, fuzzy
 msgid "\"Where am I?\""
 msgstr "\"Где я?\""
 
@@ -88,19 +86,16 @@ msgid "\"What are you doing here?\""
 msgstr "\"Что ты здесь делаешь?\""
 
 #: 22209 22294
-#, fuzzy
 msgid "\"Who inhabits this place?\""
-msgstr "\"Что *это* за место?\""
+msgstr "\"Кто здесь живет?\""
 
 #: 22210 22295
-#, fuzzy
 msgid "\"Let me ask you of someone in particular...\""
-msgstr "\"Позволь мне спросить кое о чем еще...\""
+msgstr "\"Позволь мне спросить кое о ком в частности...\""
 
 #: 22211 22296
-#, fuzzy
 msgid "\"Have you seen a small, bronze sphere anywhere here?\""
-msgstr "\"Тебе не встречался где-нибудь поблизости дневник?\""
+msgstr "\"Тебе не попадался где-нибудь поблизости маленький бронзовый шар?\""
 
 #: 22212 22297 22347 22352 22357
 msgid "\"Never mind. Farewell.\""
@@ -110,21 +105,21 @@ msgstr "\"Неважно. Прощай\"."
 msgid ""
 "She mumbles and groans a stuttering, completely incomprehensible phrase."
 msgstr ""
+"Она издает бормотание и стоны, произнося что-то совершенно нечленораздельное."
 
 #: 22215
 msgid ""
 "\"My apologies, but I can't understand you. Would there be a better way for "
 "us to communicate?\""
-msgstr ""
+msgstr "\"Извини, но я не могу тебя понять. Как бы нам еще пообщаться?\""
 
 #: 22216
 msgid "\"I can't understand you. Can't you speak any more clearly?\""
-msgstr ""
+msgstr "\"Я не понимаю тебя. Ты не могла бы говорить почетче?\""
 
 #: 22217
-#, fuzzy
 msgid "\"Er... I had some other questions...\""
-msgstr "\"Ух... У меня есть другие вопросы...\""
+msgstr "\"Э... У меня есть другие вопросы...\""
 
 #: 22218
 msgid "\"Never mind... farewell.\""
@@ -134,6 +129,8 @@ msgstr "\"Неважно... Прощай\"."
 msgid ""
 "She shakes her head sadly, her shoulders rising up in a painfully slow shrug."
 msgstr ""
+"Она печально качает головой, ее плечи поднимаются от долгого болезненного "
+"вздоха."
 
 #: 22221 22479
 msgid "\"Farewell, then.\""
@@ -141,17 +138,15 @@ msgstr "\"Тогда прощай\". "
 
 #: 22223
 msgid "The corpse takes a step towards you, reaching her arm out to touch you."
-msgstr ""
+msgstr "Труп делает к тебе шаг, протягивая руку, чтобы коснуться тебя."
 
 #: 22224 22226
-#, fuzzy
 msgid "Take a step back."
-msgstr "Взять страницу."
+msgstr "Отступить на шаг."
 
 #: 22227
-#, fuzzy
 msgid "Let her touch you."
-msgstr "Оставить ее за работой."
+msgstr "Позволить ей коснуться тебя."
 
 #: 22228 22229
 msgid "\"What are you doing?\""
@@ -160,11 +155,11 @@ msgstr "\"Что ты делаешь?\""
 #: 22268
 msgid ""
 "She only moans softly in reply, reaching out once more to touch your arm. "
-msgstr ""
+msgstr "Она лишь тихонько стонет, еще раз пытаясь прикоснуться к тебе."
 
 #: 22269 22272
 msgid "Allow her to touch you."
-msgstr ""
+msgstr "Позволить ей прикоснуться к тебе."
 
 #: 22271
 msgid ""
@@ -172,21 +167,25 @@ msgid ""
 "Despite the ravages of time, there is still some vestige of humanity left in "
 "her gaze. You can see she means you no harm."
 msgstr ""
+"Она лишь тихонько стонет, еще раз пытаясь прикоснуться к тебе. Несмотря на "
+"разрушительное действие времени, в ее взгляде еще осталась капля "
+"человечности. Ты видишь, что она не желает тебе зла."
 
 #: 22274
 msgid ""
 "Her nearly fleshless hand brushes gently against your forearm, and she "
 "speaks: \"Luhhhssnnn.\" (Listen.)"
 msgstr ""
+"Она нежно проводит своей рукой, на которой почти не осталось плоти, по твоей "
+"руке, и произносит: \"Сууушй\". (Слушай.)"
 
 #: 22275
-#, fuzzy
 msgid "\"How did you do that?\""
-msgstr "\"А почему они это делают?\""
+msgstr "\"Как ты это сделала?\""
 
 #: 22276
 msgid "\"How is it that I can understand you?\""
-msgstr ""
+msgstr "\"Каким образом я тебя понимаю?\""
 
 #: 22277
 msgid ""
@@ -194,41 +193,48 @@ msgid ""
 "mhuuusssst duhh uhhht puhhhpuhhleee.\" (Speak to us you can. But you must do "
 "it properly.)"
 msgstr ""
+"Она снова касается тебя. \"Гуувурить с нуууми муушешь. Нуу нуууну деелуть "
+"эээту пуруувиинуу\". (Говорить с нами можешь. Но нужно делать это правильно.)"
 
 #: 22278
 msgid "\"Can you teach me?\""
-msgstr ""
+msgstr "\"Можешь меня научить?\""
 
 #: 22279
 msgid ""
 "She smiles, the hardened skin of her face creaking like thick leather. "
 "\"Yuhhh.\" (Yes.)"
 msgstr ""
+"Она улыбается, загрубевшая кожа ее лица скрипит как жесткая кожаная одежда. "
+"\"Дууу\". (Да.)"
 
 #: 22280
 msgid "\"Please do, then...\""
-msgstr ""
+msgstr "\"Тогда сделай это, пожалуйста...\""
 
 #: 22282
 msgid ""
 "She finishes teaching you the skills required to speak with the dead, a "
 "process she calls 'Stories-Bones-Tell.'"
 msgstr ""
+"Она заканчивает обучать тебя всем необходимым для общения с мертвыми "
+"навыкам, которые она называет \"Историей костей\"."
 
 #: 22283
 msgid "\"Can I talk to any dead body?\""
-msgstr ""
+msgstr "\"Я могу говорить с любыми трупами?\""
 
 #: 22284
 msgid ""
 "\"Suhmmm. Uhhhhers tuh duhhhud. Muhhht yuhhhh skuhhhh.\" (Some. Others too "
 "dead. Must use skill.)"
 msgstr ""
+"\"С некутууурммм. Дурухии сишшкм мерссвыы. Нуужнуу ыыспууйзуууть умеениии\". "
+"(С некоторыми. Другие слишком мертвы. Нужно использовать умение.)"
 
 #: 22285
-#, fuzzy
 msgid "\"Thanks. I had some questions...\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Спасибо. У меня есть несколько вопросов...\""
 
 #: 22286
 msgid "\"Thanks. Farewell.\""
@@ -236,12 +242,11 @@ msgstr "\"Спасибо. Прощай\"."
 
 #: 22298
 msgid "\"Huhhhllls uffff Suhhlnnn Kuhnnng.\" (Halls of Silent King.)"
-msgstr ""
+msgstr "\"В зууулххх Бесмулуунуу Кууурууул\". (В залах Безмолвного Короля.)"
 
 #: 22299 22316 22321 22327 22342
-#, fuzzy
 msgid "\"Tell me about the Silent King.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне о Безмолвном Короле\"."
 
 #: 22300 22305 22312 22318 22323 22329 22333 22338 22365 22371 22376 22382
 #: 22391 22400 22405 22411 22416 22422 22429 22438 22442 22449 22457 50855
@@ -258,22 +263,23 @@ msgid ""
 "\"Guuhhhd uuuhd zzzohhhhmmmb. Cuhrrr fuhhrrr kuh-kuwht whunnns.\" (Guide "
 "other zombies. Care for quiet ones.)"
 msgstr ""
+"\"Слиижу з дурухимии зуумб. Зубуучусь уу тиихииххх\". (Слежу за другими "
+"зомби. Забочусь о тихих.)"
 
 #: 22303 22436
-#, fuzzy
 msgid "\"Tell me about the other zombies.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне о других зомби\"."
 
 #: 22304
-#, fuzzy
 msgid "\"Quiet ones?\""
-msgstr "\"Соревнование?\""
+msgstr "\"Тихих?\""
 
 #: 22307
 msgid ""
 "\"Zzzohhhmmmb. Ssskeeelllt. Guh-guh-gooooolll. Rrrrahhhhts.\" (Zombies. "
 "Skeletons. Ghouls. Rats.)"
 msgstr ""
+"\"Зззуумб. Ссскееелты. Упыыыры. Курыыысы\". (Зомби. Скелеты. Упыри. Крысы.)"
 
 #: 22308
 msgid "\"Tell me about the zombies.\""
@@ -284,9 +290,8 @@ msgid "\"Tell me about the skeletons.\""
 msgstr "\"Расскажи мне о скелетах\"."
 
 #: 22310 22336
-#, fuzzy
 msgid "\"Tell me about the ghouls.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне об упырях\"."
 
 #: 22311
 msgid "\"Tell me about the rats.\""
@@ -296,21 +301,24 @@ msgstr "\"Расскажи мне о крысах\"."
 msgid ""
 "\"Duhhh whu-whu-whuuuk uhhhh Suhhlnnn Kuhnnng.\" (Do work of Silent King.)"
 msgstr ""
+"\"Дееелт ру-ру-рубууту лууу Беесмуулнуу Кууруул\". (Делаю работу для "
+"Безмолвного Короля.)"
 
 #: 22315
 msgid "\"What sort of work?\""
-msgstr ""
+msgstr "\"Какую работу?\""
 
 #: 22317 22322 22328 22332 22337
-#, fuzzy
 msgid "\"Who else inhabits this place?\""
-msgstr "\"Что *это* за место?\""
+msgstr "\"Кто еще здесь живет?\""
 
 #: 22320
 msgid ""
 "\"Rhuuuuhhhb thhhht whuuuchhh huhhh b-b-bhhooork. Cuhrrr fuhhrrr thuh truh "
 "duhhhd.\" (Rebuild that which has been broken. Care for the true dead.)"
 msgstr ""
+"\"Вустууувливуут р-р-рузрууушыынуууе. Зубуутиисуу уб истиинуу мервыыыхх\". "
+"(Восстанавливают разрушенное. Заботятся об истинно мертвых.)"
 
 #: 22325
 msgid ""
@@ -318,23 +326,25 @@ msgid ""
 "Kuhnnng. Ssskeeelllts ghuuudsss uunnn uurh whuuhk.\" (Hargrimm, their "
 "leader, gives us the word of Silent King. Skeletons guide us in our work.)"
 msgstr ""
+"\"Хууг-рррм, ииих лииидр, переедуует нууум сулуууву Бесмуулнуу Куурул. "
+"Скеелты рукууувудт нуушеи рубуутуу\". (Харгримм, их лидер, передает нам "
+"слово Безмолвного Короля. Скелеты руководят нашей работой.)"
 
 #: 22326 22343 22447
-#, fuzzy
 msgid "\"Tell me about Hargrimm.\""
-msgstr "\"Расскажи мне о демонах\"."
+msgstr "\"Расскажи мне о Харгримме\"."
 
 #: 22331
 msgid "\"Hunnnguhhh... uuhhhlwuhh hunnnguhhh.\" (Hungry... always hungry.)"
-msgstr ""
+msgstr "\"Гулуудныы... вееечнуу гулуудныыы\". (Голодные... вечно голодные.)"
 
 #: 22335
 msgid "\"Ghuuuhhhn. Gooools shhhaaayyy uhhhh.\" (Gone. Ghouls chase away.\""
-msgstr ""
+msgstr "\"Ууушлиии. Упыыы иих пуругнуууи\". (Ушли. Упыри их прогнали.)"
 
 #: 22340
 msgid "\"Uuuhhnn?\" (Yes?)"
-msgstr ""
+msgstr "\"Уууу?\" (Да?)"
 
 #: 22341
 msgid "\"Tell me of yourself.\""
@@ -345,9 +355,8 @@ msgid "\"Tell me about Soego.\""
 msgstr "\"Расскажи мне о Соэго\"."
 
 #: 22345
-#, fuzzy
 msgid "\"Tell me about Acaste.\""
-msgstr "\"Расскажи мне о демонах\"."
+msgstr "\"Расскажи мне об Акасте\"."
 
 #: 22346 22351 22356 22464 22471
 msgid "\"Never mind. I had some other questions...\""
@@ -355,31 +364,27 @@ msgstr "\"Неважно. У меня есть другие вопросы...\""
 
 #: 22348 22353 22358
 msgid "\"Suhhhhhlunnnh Kuh-kuknnng.\" (Silent King.)"
-msgstr ""
+msgstr "\"Бисмууулны Кууруль\". (Безмолвный Король.)"
 
 #: 22349
-#, fuzzy
 msgid "\"Yes, what can you tell me of him?\""
-msgstr "\"Что ты можешь сказать о нем?\""
+msgstr "\"Да, но что ты можешь о нем сказать?\""
 
 #: 22350 22355
-#, fuzzy
 msgid "\"Never mind. Tell me of someone else.\""
-msgstr "\"Интересно. Позволь мне спросить кое о чем еще...\""
+msgstr "\"Неважно. Расскажи мне о ком-то другом\"."
 
 #: 22354
-#, fuzzy
 msgid "\"What do you know of him?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Что ты о нем знаешь?\""
 
 #: 22359
 msgid "\"Never mind, then... tell me of someone else.\""
-msgstr ""
+msgstr "\"Тогда неважно... расскажи мне ком-то другом\"."
 
 #: 22360
-#, fuzzy
 msgid "\"Never mind, then... I had some other questions...\""
-msgstr "\"Ладно, неважно. У меня есть другие вопросы...\""
+msgstr "\"Тогда неважно... У меня есть другие вопросы...\""
 
 #: 22361
 msgid "\"Never mind, then. Farewell.\""
@@ -391,44 +396,45 @@ msgid ""
 "Suhhlnnn Kuhnnng. Cuh-cuhnnnshurnd. Wuhhhhrhhd.\" (Hargrimm, skeletons' "
 "leader, gives us the word of Silent King. Concerned. Worried.)"
 msgstr ""
+"\"Хуууг-рррм, лииидр скееелтууув, переедууут нум сулуууву Бесмуулнуу Куурул. "
+"Ву-вузулууунувун. Биспуукуитс\". (Харгримм, лидер скелетов, передает нам "
+"слово Безмолвного Короля. Взволнован. Беспокоится.)"
 
 #: 22363
 msgid "\"Why is he concerned?\""
-msgstr ""
+msgstr "\"Почему он взволнован?\""
 
 #: 22364 22370 22375 22380 22390 22399 22404 22410 22414 22420 22430 22455
-#, fuzzy
 msgid "\"Tell me of someone else.\""
-msgstr "\"Тогда расскажи мне о другом\"."
+msgstr "\"Расскажи мне о ком-то другом\"."
 
 #: 22367
 msgid "\"Suhhhguh. Uhhhcuhhhstuh.\" (Soego. Acaste.)"
-msgstr ""
+msgstr "\"Сууугу. Уукустууу\". (Соэго. Акаста.)"
 
 #: 22368
 msgid "\"Why is he worried about Soego?\""
-msgstr ""
+msgstr "\"Почему он беспокоится насчет Соэго?\""
 
 #: 22369
 msgid "\"Why is he worried about Acaste?\""
-msgstr ""
+msgstr "\"Почему он беспокоится насчет Акасты?\""
 
 #: 22373
 msgid "\"Suhhguh puhhhrrrkuuuh duhthuh.\" (Soego preaches death.)"
-msgstr ""
+msgstr "\"Сууугуу пруупуведуит смиирть\". (Соэго проповедует смерть.)"
 
 #: 22374
 msgid "\"Preaches death?\""
-msgstr ""
+msgstr "\"Проповедует смерть?\""
 
 #: 22378
 msgid "\"Wuhhhnnnzzz uhsss tuh-tuh-tuh duhhh.\" (Wants us to die.)"
-msgstr ""
+msgstr "\"Хуучит, штуубы мыыы умиирлиии\". (Хочет, чтобы мы умерли.)"
 
 #: 22379
-#, fuzzy
 msgid "\"Why does he want you to die?\""
-msgstr "\"Почему ты хочешь умереть?\""
+msgstr "\"Почему он хочет вашей смерти?\""
 
 #: 22385
 msgid ""
@@ -436,40 +442,43 @@ msgid ""
 "about the Dustman, Soego. Soego has been trying to get the other undead of "
 "the Dead Nations to give up their 'un-life' and accept the True Death."
 msgstr ""
+"Тухлая Мери сказала мне, что Харгримм, высший жрец Безмолвного Короля, "
+"обеспокоен по поводу Тленного, Соэго. Тот пытался убедить другую нежить "
+"Мертвых Народов отдать свою \"нежизнь\" и принять Истинную Смерть."
 
 #: 22386 22419
 msgid "\"Huh-hhhhh Duzzzzmunn.\" (He Dustman.)"
-msgstr ""
+msgstr "\"Ууун Тулиииныыы\". (Он Тленный.)"
 
 #: 22388
 msgid "\"Why is Hargrimm worried about Acaste?\""
-msgstr ""
+msgstr "\"Почему Харгримм беспокоится насчет Акасты?\""
 
 #: 22395
 msgid "\"Uhhhcuhhhstuhhh... unnhguh.\" (Acaste... anger.)"
-msgstr ""
+msgstr "\"Ууукусту... злууу\". (Акаста... злая.)"
 
 #: 22397
 msgid "\"Anger?\""
-msgstr ""
+msgstr "\"Злая?\""
 
 #: 22402
 msgid ""
 "\"Uhhhcuhhhstuhhh wunnnn kuh-kuhllll uhh-uhhhvuhhhunnn.\" (Acaste want kill "
 "everyone.)"
-msgstr ""
+msgstr "\"Уукууусту хуучт всиих упиить\". (Акаста хочет всех убить.)"
 
 #: 22403
 msgid "\"Why does she want to kill everyone?\""
-msgstr ""
+msgstr "\"Почему она хочет всех убить?\""
 
 #: 22407 22408
 msgid "\"Hunnnguhhh... unnnhgrrruhhh.\" (Hungry. Angry.)"
-msgstr ""
+msgstr "\"Гуулуднй... злуууй\". (Голодная. Злая.)"
 
 #: 22409
 msgid "\"Why is Hargrimm worried about Soego?\""
-msgstr ""
+msgstr "\"Почему Харгримм обеспокоен Соэго?\""
 
 #: 22413
 msgid ""
@@ -477,42 +486,43 @@ msgid ""
 "about Acaste. She is a ghoul who seems intent on killing and eating "
 "everything in the Dead Nations."
 msgstr ""
+"Тухлая Мери сказала мне, что Харгримм, высший жрец Безмолвного Короля, "
+"обеспокоен по поводу Акасты. Она - упыриха, которая, по всей видимости, "
+"намеревается убить и сожрать всех подряд в Мертвых Народах."
 
 #: 22424
 msgid "\"Stuh-stuh-*stuhhh* Muhreee.\" (Stale Mary.)"
-msgstr ""
+msgstr "\"Ту-ту-*туулууй* Мээри\". (Тухлая Мери.)"
 
 #: 22426 22454
-#, fuzzy
 msgid "\"What do you do, here?\""
 msgstr "\"Чем ты здесь занимаешься?\""
 
 #: 22428
-#, fuzzy
 msgid "\"How did you come to be here?\""
-msgstr "\"Как ты попала сюда?\""
+msgstr "\"Как ты сюда попала?\""
 
 #: 22434
 msgid "\"Thuh truh duhhhd.\" (The true dead.)"
-msgstr ""
+msgstr "\"Истину миртвыыы\". (Истинно мертвые.)"
 
 #: 22440
 msgid "\"Nuuhhhh, sssuuhhh.\" (No, sorry.)"
-msgstr ""
+msgstr "\"Неее, изувинии\". (Нет, извини.)"
 
 #: 22445
 msgid "She shrugs. \"Uuhhhsssk Hhhhuhhhg-rrrrm.\" (Ask Hargrimm.)"
-msgstr ""
+msgstr "Она пожимает плечами. \"Спрууусиии Хуг-рррм\". (Спроси Харгримма.)"
 
 #: 22453
 msgid ""
 "\"Duhhhhd luhhhnnn tuhhhmmm. Muhhhhmuhrrr guhhhnnn.\" (Dead long time. "
 "Memory gone.)"
-msgstr ""
+msgstr "\"Дуууну умиирлуу. Зубыыылууу\". (Давно умерла. Забыла.)"
 
 #: 22460 22467
 msgid "\"Whuh?\" (Why?)"
-msgstr ""
+msgstr "\"Зууучм?\" (Зачем?)"
 
 #: 22462
 msgid ""
@@ -520,36 +530,42 @@ msgid ""
 "imprisoned here, simply for stumbling upon the Dead Nations... it isn't "
 "right. Please... I ask only for a modicum of compassion. Can you help me?\""
 msgstr ""
+"\"Мне нужно покинуть это место, Мери. Мне еще столько нужно сделать... "
+"томиться здесь, бродить по Мертвым Народам... это все неправильно. "
+"Пожалуйста... я прошу тебя проявить лишь каплю сострадания. Ты можешь мне "
+"помочь?\""
 
 #: 22465 22472
-#, fuzzy
 msgid "\"Never mind, for now. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай\"."
+msgstr "\"Пока неважно. Прощай\"."
 
 #: 22468
 msgid "\"I need to leave this place.\""
-msgstr ""
+msgstr "\"Мне нужно уйти отсюда\"."
 
 #: 22474
 msgid "\"Nuhhh.\" (No.)"
-msgstr ""
+msgstr "\"Неее\". (Нет.)"
 
 #: 22478
-#, fuzzy
 msgid "\"Then I had some other questions...\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Тогда у меня есть другие вопросы...\""
 
 #: 22480
 msgid ""
 "You see Stale Mary. When she finally notices you, she groans softly: \"Guh-"
 "guhruuuhhh...\""
 msgstr ""
+"Ты видишь Тухлую Мери. В конце концов, заметив тебя, она тихо стонет: \"П-"
+"пуривеестууу...\""
 
 #: 22483
 msgid ""
 "You see Stale Mary. When she finally notices you, she groans softly: \"Guh-"
 "guhruuuhhh...\" (Greetings.)"
 msgstr ""
+"Ты видишь Тухлую Мери. В конце концов, заметив тебя, она тихо стонет: \"П-"
+"пуривеестууу...\" (Приветствую.)"
 
 #: 22485 60478
 msgid "\"Just passing by. Farewell.\""
@@ -563,11 +579,15 @@ msgid ""
 "Bhu-bhu-buhhh uhn suuuhhh lhuuung ayyye lhhhuuuv.\" (Close eyes. Think of "
 "Silent King. Walk through northwest alcove. But only so long as I live.)"
 msgstr ""
+"Тухлая Мери некоторое время молчит, затем кивает. Она указывает на первый из "
+"трех входов в северной стене. \"З-з-зукрууй глууз. Дууумууй у Бизмуулнуум К-"
+"кууурул. Прруды чииз сеевир-зуупудну н-н-ниишу. Нуу тууку й дууужну быыыт "
+"живууу\". (Закрой глаза. Думай о Безмолвном Короле. Пройди через северо-"
+"западную нишу. Но только я должна быть жива.)"
 
 #: 22487
-#, fuzzy
 msgid "\"Thanks, Mary. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай\"."
+msgstr "\"Спасибо, Мери. Прощай\"."
 
 #: 22488
 msgid ""
@@ -576,22 +596,26 @@ msgid ""
 "Silent King before stepping into the alcove in the northwest corner. The "
 "portal should work as long as Stale Mary is still alive."
 msgstr ""
+"Тухлая Мери сказала, что для того чтобы попасть в тронный зал Безмолвного "
+"Короля, я могу воспользоваться порталом в ее комнате. Я должен закрыть глаза "
+"и подумать о Безмолвном Короле, входя в нишу в северо-западном углу. Портал "
+"будет действовать до тех пор, пока Тухлая Мери жива."
 
 #: 24104
 msgid "\"Luhnnngg.\" (Long.)"
-msgstr ""
+msgstr "\"Дуувнууу\". (Давно.)"
 
 #: 24106
 msgid "Stale Mary speaks, her voice ponderous: \"Nuh-nuh-nor I.\" (Nor I.)"
-msgstr ""
+msgstr "Тухлая Мери произносит тяжелым голосом: \"Й т-т-туужи\". (Я тоже.)"
 
 #: 24107
 msgid "\"Yuhhh.\" (Yes.)"
-msgstr ""
+msgstr "\"Дуууу\". (Да.)"
 
 #: 24109
 msgid "Stale Mary makes a faint gurgling sound."
-msgstr ""
+msgstr "Тухлая Мери издает тихий булькающий звук."
 
 #: 2991
 msgid ""
@@ -600,6 +624,10 @@ msgid ""
 "eyes has fallen out, leaving a dark pit in her face. Her voice is slow and "
 "thick: \"Guh-guh-guhreeetingz.\""
 msgstr ""
+"Эта пахнущая плесенью женщина-зомби выглядит исключительно старой, почти как "
+"мумия. У ее кожи вид гниющего серо-зеленого мяса, один из глаз выпал, "
+"оставив на лице темную дыру. Она говорит медленно и хрипло: \"Пы-пы-"
+"пыривееествую\"."
 
 #: 2992
 msgid "\"Greetings...\""
@@ -610,23 +638,24 @@ msgid ""
 "\"Yuhhhrrr f-f-f-rehhhnd? Tuh-tuh-tuhk muhhh ssskuhhl...\" (Your friend? "
 "Take my skull.) Stale Mary grips her head in both her hands..."
 msgstr ""
+"\"Туувуй дурууг? В-в-вузмиии мууй чеерип...\" (Твой друг? Возьми мой череп.) "
+"Тухлая Мери берется за свою голову обеими руками..."
 
 #: 50846
 msgid "\"Take... your skull? But that'll kill you.\""
-msgstr ""
+msgstr "\"Взять... твой череп? Но это же убьет тебя\"."
 
 #: 50847
 msgid "\"Uh... all right. Thanks...\""
-msgstr ""
+msgstr "\"Э... ладно. Спасибо...\""
 
 #: 50848
-#, fuzzy
 msgid "\"Wait... I had some other questions...\""
-msgstr "\"Отлично... У меня были еще вопросы...\""
+msgstr "\"Погоди... У меня еще вопросы...\""
 
 #: 50849
 msgid "\"We'll discuss it later. Farewell.\""
-msgstr ""
+msgstr "\"Мы обсудим это позже. Прощай\"."
 
 #: 50850
 msgid ""
@@ -635,24 +664,26 @@ msgid ""
 "\" (Kill? No. I'm already dead.) Her hands remain at her temples, awaiting "
 "your reply."
 msgstr ""
+"Мери медленно мотает головой туда-сюда, ее разомкнутые губы образуют подобие "
+"грустной улыбки. \"Убииит? Н-н-нее. Я ужыы миртууу\". (Убьет? Нет. Я уже "
+"мертва.) Она ждет твоего ответа, держа руки на висках."
 
 #: 50851
 msgid "\"Thanks, Mary. I'll take your skull to Lothar.\""
-msgstr ""
+msgstr "\"Спасибо, Мери. Я принесу твой череп Лотару\"."
 
 #: 50852
 msgid "\"No, Mary - I just can't. I'll find another way.\""
-msgstr ""
+msgstr "\"Нет, Мери, я просто не могу. Я найду другой способ\"."
 
 #: 50854
 msgid ""
 "Mary nods. \"Y-y-yuh hhhuf uhhh kinnnd hhhuhhhrt.\" (You have a kind heart.)"
-msgstr ""
+msgstr "Мери кивает. \"У-у-у тее дубрууу сиирце\". (У тебя доброе сердце.)"
 
 #: 50856
-#, fuzzy
 msgid "\"Farewell, Mary.\""
-msgstr "\"Прощай, Раук\"."
+msgstr "\"Прощай, Мери\"."
 
 #: 50857
 msgid ""
@@ -660,16 +691,21 @@ msgid ""
 "shoulders. Her rotten body collapses in a stinking heap shortly after "
 "passing you her skull."
 msgstr ""
+"С отвратительным чвакающим звуком Тухлая Мери вырывает свою голову из плеч. "
+"Как только череп оказывается у тебя в руках, ее разложившееся тело "
+"распадается на зловонные останки."
 
 #: 50858
 msgid "Put the head away, leave."
-msgstr ""
+msgstr "Забрать голову и уйти."
 
 #: 50859
 msgid ""
 "\"My companion has been kidnapped by a powerful man who demands a 'greater' "
 "skull for my companion's release. What should I do, Mary?\""
 msgstr ""
+"\"Моего товарища похитил могущественный человек, который требует в обмен на "
+"его освобождение 'более великий' череп. Что мне делать, Мери?\""
 
 #: 58912
 msgid ""
@@ -677,6 +713,8 @@ msgid ""
 "\"L-L-Luuhhhv hhheeere nooowww. Wuhhhl tuhhhlk ughhhahn lllaaatuhhhr..."
 "\" (Leave here, now. We'll talk again later.)"
 msgstr ""
+"Мери кивает на двойные двери в южном конце тронного зала. \"Уууухууди. "
+"Пугууурим пууже...\" (Уходи. Поговорим позже.)"
 
 #: 58913
 msgid "Leave."
@@ -687,3 +725,5 @@ msgid ""
 "\"How is it that you speak to these other zombies? I cannot understand them "
 "as I can you...\""
 msgstr ""
+"\"Как ты разговариваешь с теми другими зомби? Я не могу понять их так, как "
+"понимаю тебя...\""
