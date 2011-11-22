@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dkuuyin.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:16+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-11-22 23:27+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,22 +21,27 @@ msgid ""
 "name. Get me my name. Has she given it?\" His eyes crawl across your face, "
 "watching intently."
 msgstr ""
+"Подавленный человек поднимает на тебя взгляд, в котором виден проблеск "
+"надежды, однако говорит он все так же бесстрастно. \"Она отдала тебе мое имя "
+"и номер? Она предлагала деньги, не так ли? Я не могу жить. Без имени деньги "
+"ничего не значат. Дай мне мое имя. Она его отдала?\" Его внимательный взгляд "
+"пробегает по твоему лицу."
 
 #: 20110
 msgid "\"Yes. She has.\""
-msgstr ""
+msgstr "\"Да\"."
 
 #: 20111
 msgid "Lie: \"No. Not yet.\""
-msgstr ""
+msgstr "Ложь: \"Еще нет\"."
 
 #: 20112
 msgid "\"No. Not yet.\""
-msgstr ""
+msgstr "\"Еще нет\"."
 
 #: 20113
 msgid "\"No. Not yet. I'm still working on it. Farewell.\""
-msgstr ""
+msgstr "\"Еще нет. Я все еще работаю над этим. Прощай\"."
 
 #: 20114
 msgid ""
@@ -45,27 +50,30 @@ msgid ""
 "my name and number, yet I hear your voice tell me you do not. I ask again. "
 "Do you have my name and number?\""
 msgstr ""
+"По его лицу пробегает волна мышечных спазмов. \"Прости меня, - говорит он, - "
+"поскольку я подумал о тебе плохо. По твоему лицу я вижу, что у тебя есть мое "
+"имя и номер, и все же твой голос говорит, что это не так. Я спрашиваю еще "
+"раз: у тебя есть мое имя и номер?\""
 
 #: 20115
-#, fuzzy
 msgid "Lie: \"No, I don't.\""
-msgstr "\"Я не знаю\"."
+msgstr "Ложь: \"Нет\"."
 
 #: 20116 20120
-#, fuzzy
 msgid "\"Yes. I do.\""
 msgstr "\"Да\"."
 
 #: 20117 20121
-#, fuzzy
 msgid "\"Answer some questions for me first, will you?\""
-msgstr "\"Ответь мне на пару вопросов\"."
+msgstr "\"Сперва ответь мне на пару вопросов, ладно?\""
 
 #: 20118
 msgid ""
 "\"Three times must I ask before I can ask no longer. That is the law. Do you "
 "have my name and number?\""
 msgstr ""
+"\"Я могу спросить не более трех раз - таков закон. У тебя есть мое имя и "
+"номер?\""
 
 #: 20119
 msgid "Lie: \"No.\""
@@ -76,23 +84,24 @@ msgid ""
 "\"There is no justice here. I have been wronged, and cannot speak of it. I "
 "am nothing, and remain nothing forever. I will see you no more.\""
 msgstr ""
+"\"Это несправедливо. Меня обманули, и мне не дозволено больше говорить. Я "
+"ничто, и останусь таким навсегда. Больше мы не увидимся\"."
 
 #: 20123
 msgid "\"Wait, I have your name and number after all...\""
-msgstr ""
+msgstr "\"Погоди, есть у меня твое имя с номером...\""
 
 #: 20124
-#, fuzzy
 msgid "\"Answer a few more questions for me, will you?\""
-msgstr "\"Ты можешь ответить на мои вопросы?\""
+msgstr "\"Ответь мне еще на пару вопросов, ладно?\""
 
 #: 20125
 msgid "\"All right. If that's the way you want it.\""
-msgstr ""
+msgstr "\"Ладно, как знаешь\"."
 
 #: 20126
 msgid "He shakes his head, and turns to walk away."
-msgstr ""
+msgstr "Он качает головой и поворачивается, чтобы уйти."
 
 #: 20127
 msgid "\"Farewell, then.\""
@@ -100,15 +109,15 @@ msgstr "\"Тогда прощай\". "
 
 #: 20128
 msgid "\"May I have them?\""
-msgstr ""
+msgstr "\"Можешь мне их отдать?\""
 
 #: 20129
 msgid "\"What will you give me for them?\""
-msgstr ""
+msgstr "\"Что ты мне за них дашь?\""
 
 #: 20130 20133
 msgid "\"Yes. Your name is Ku'u Yin. Take your number.\""
-msgstr ""
+msgstr "\"Да. Тебя зовут Куу Йин. Держи свой номер\"."
 
 #: 20131 20134 20137
 msgid "\"No.\""
@@ -119,6 +128,8 @@ msgid ""
 "\"I can give you nothing for I have nothing. Will you give me my name and "
 "number?\""
 msgstr ""
+"\"Я ничего не могу тебе дать, потому что у меня ничего нет. Ты дашь мне мое "
+"имя и номер?\""
 
 #: 20135
 msgid ""
@@ -127,6 +138,10 @@ msgid ""
 "if necessary. I give you my old number.  It can help you. It is a mantle of "
 "law. It is protection. Do you accept it?\""
 msgstr ""
+"\"Благодарю тебя за имя и номер. Да. Куу Йин. Да. Но нет. Теперь я понимаю, "
+"что номер мне не нужен. Если что, я найду себе новый номер. Я отдам тебе "
+"свой старый. Он может тебе помочь. Это покров закона. Это защита. Ты примешь "
+"ее?\""
 
 #: 20136
 msgid "\"Yes.\""
@@ -139,11 +154,13 @@ msgid ""
 "around his throat like a scarf, and it sinks into his skin. He begins to "
 "walk away from you."
 msgstr ""
+"Он мрачно принимает их. \"Спасибо тебе за имя и номер. Да. Куу Йин. Да. "
+"Благодарю тебя. Я буду помнить тебя\". Он накидывает номер на шею, словно "
+"шарф, и тот вкипает ему в кожу. Он собирается уходить."
 
 #: 20139 20142
-#, fuzzy
 msgid "\"Wait. I had a few more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Постой. У меня были еще вопросы...\""
 
 #: 20140 20143 20182
 msgid "\"Farewell.\""
@@ -154,34 +171,36 @@ msgid ""
 "\"Let it warm you . Trust in it. It will protect you. Farewell.\" He turns "
 "and begins to walk away from you."
 msgstr ""
+"\"Пусть он согреет тебя. Верь в него. Он тебя защитит. Прощай\". Он "
+"поворачивается и собирается уходить."
 
 #: 20144
 msgid "\"What were they?\""
-msgstr ""
+msgstr "\"Какие?\""
 
 #: 20145
 msgid "\"Tell me about yourself.\""
 msgstr "\"Расскажи мне о себе\"."
 
 #: 20146
-#, fuzzy
 msgid "\"Tell me about this place.\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Расскажи мне об этом месте\"."
 
 #: 20147
 msgid "\"What are you doing?\""
-msgstr "\"Что ты делаешь?\""
+msgstr "\"Чем ты занимаешься?\""
 
 #: 20148
-#, fuzzy
 msgid "\"Nothing. Forget it. Farewell.\""
-msgstr "\"Ничего больше, спасибо. Прощай\"."
+msgstr "\"Ничего, забудь. Прощай\"."
 
 #: 20149
 msgid ""
 "\"I am Ku'u Yin. I came here by accident. Now that I am here, I intend to "
 "learn more. I must know more.\""
 msgstr ""
+"\"Я Куу Йин. Я попал сюда случайно. И теперь, раз я здесь, я собираюсь "
+"узнать больше. Я должен знать больше\"."
 
 #: 20150 20153 20156 20159
 msgid "\"I had other questions...\""
@@ -196,12 +215,17 @@ msgid ""
 "\"I intend to discover that myself. With my name, I am again a person. I can "
 "learn. I will do so.\""
 msgstr ""
+"\"Я сам намерен это выяснить. Со своим именем я вновь личность. Я могу "
+"учиться. Этим я и займусь\"."
 
 #: 20155
 msgid ""
 "\"Preparing to face this new world with my old identity. Now that I know "
 "there are hidden pitfalls, I intend to discover what I can. I am ready now.\""
 msgstr ""
+"\"Готовлюсь предстать перед этим новым миром со моей старой личностью. "
+"Теперь, когда я знаю, что в нем скрыты ловушки, я намерен найти их. Теперь я "
+"готов к этому\"."
 
 #: 20158
 msgid ""
@@ -209,39 +233,41 @@ msgid ""
 "skin. \"Then I will wear my old number. You have my gratitude. Farewell.\" "
 "He turns and begins to walk toward the exit."
 msgstr ""
+"Он накидывает номер на шею, словно шарф, и тот вкипает ему в кожу. \"Тогда я "
+"буду носить свой старый номер. Благодарю тебя. Прощай\". Он разворачивается "
+"и идет к выходу."
 
 #: 20161
 msgid ""
 "He speaks flatly as you approach. \"I implore you to continue your "
 "bargaining with the thief. Without my name and number, I am nothing.\""
 msgstr ""
+"Когда ты подходишь, он произносит ровным тоном: \"Я заклинаю тебя продолжать "
+"переговоры с той воровкой. Без имени и номера я ничто\"."
 
 #: 20162
 msgid "\"I'm on my way. Answer a few questions first, will you?"
-msgstr ""
+msgstr "\"Я уже иду, но сперва ответь на пару вопросов, ладно?"
 
 #: 20163
-#, fuzzy
 msgid "\"Very well. Farewell.\""
 msgstr "\"Отлично. Прощай\"."
 
 #: 20164
-#, fuzzy
 msgid "\"What do you wish to know?\""
 msgstr "\"Что ты хочешь знать?\""
 
 #: 20165 20166
-#, fuzzy
 msgid "\"Tell me of yourself.\""
 msgstr "\"Расскажи мне о себе\"."
 
 #: 20167
 msgid "\"Tell me of this place.\""
-msgstr ""
+msgstr "\"Расскажи мне об этом месте\"."
 
 #: 20168
 msgid "\"Tell me of Sigil.\""
-msgstr ""
+msgstr "\"Расскажи мне о Сигиле\"."
 
 #: 20169 20170
 msgid "\"Nothing. Farewell.\""
@@ -253,38 +279,41 @@ msgid ""
 "won the name from me, but she did not. She stole it. I require my name and "
 "number. She is in the Village, somewhere.\""
 msgstr ""
+"\"Ты нашел женщину с моим именем и номером? Она скажет тебе, что получила их "
+"от меня, но это не так. Она их украла. Мне требуется мое имя и номер. Она "
+"где-то в деревне\"."
 
 #: 20172
 msgid "Lie: \"No, not yet.\""
-msgstr ""
+msgstr "Ложь: \"Пока нет\"."
 
 #: 20173
 msgid "\"I have your name and number.\""
-msgstr ""
+msgstr "\"У меня есть твое имя и номер\"."
 
 #: 20174
 msgid "\"I have. She doesn't want to give it up.\""
-msgstr ""
+msgstr "\"Да. Она не хочет их отдавать\"."
 
 #: 20175
 msgid "\"I haven't got it yet.\""
-msgstr ""
+msgstr "\"У меня их пока что нет\"."
 
 #: 20176
 msgid ""
 "He pales for a moment. \"She must. They are mine. She stole them from me. I "
 "request your assistance.\""
 msgstr ""
+"На миг он бледнеет. \"Она должна. Они мои. Она их у меня украла. Я прошу у "
+"тебя помощи\"."
 
 #: 20177
 msgid "\"You're getting it.\""
-msgstr ""
+msgstr "\"Ты ее получишь\"."
 
 #: 20178
-#, fuzzy
 msgid "\"Perhaps if you answered some other questions for me...\""
-msgstr ""
-"\"Возможно, ты сможешь ответить на некоторые из моих вопросов, Дхолл...\""
+msgstr "\"Возможно, ты сможешь ответить на некоторые из моих вопросов...\""
 
 #: 20179
 msgid "\"Forget it.\""
@@ -295,10 +324,12 @@ msgid ""
 "\"I require assistance. Any assistance you give me will be remembered with "
 "gratitude. Please help.\""
 msgstr ""
+"\"Я взываю о помощи. Любая оказанная тобой помощь будет вспоминаться с "
+"благодарностью. Прошу, помоги\"."
 
 #: 20181
 msgid "\"We can start with you answering some other questions for me...\""
-msgstr ""
+msgstr "\"Мы могли бы начать с ответов на мои вопросы...\""
 
 #: 20183
 msgid ""
@@ -308,34 +339,36 @@ msgid ""
 "kind, they are all I have. They are all I have had of my own all my life. "
 "They were stolen from me. Without them I am nothing. I request your aid.\""
 msgstr ""
+"\"Когда-то я жил в стране металлических машин и дверей, которые открывались "
+"с помощью слов. Мне снятся древние города из металла и пустые оболочки - "
+"люди нашего народа. Там у меня было имя и номер, а теперь их у меня нет. Как "
+"и у других моих собратьев, это все, чем я располагаю. Они - все, что было у "
+"меня за всю мою жизнь. Их у меня украли. Без них я ничто. Я прошу тебя о "
+"помощи\"."
 
 #: 20184 20197 20202
-#, fuzzy
 msgid "\"I'll see what I can do. Answer some other questions for me...\""
-msgstr "\"Тогда ответь мне на несколько вопросов\"."
+msgstr "\"Посмотрим, что я могу сделать. Ответь мне еще на пару вопросов...\""
 
 #: 20185
 msgid "\"Who has your name and number?\""
-msgstr ""
+msgstr "\"У кого твое имя и номер?\""
 
 #: 20186
 msgid "\"What can you give me?\""
-msgstr ""
+msgstr "\"Что ты мне дашь?\""
 
 #: 20187 20198
-#, fuzzy
 msgid "\"We'll see. Answer some other questions for me.\""
-msgstr "\"Тогда ответь мне на несколько вопросов\"."
+msgstr "\"Посмотрим. Ответь мне еще на пару вопросов\"."
 
 #: 20188
-#, fuzzy
 msgid "\"We'll see. Farewell.\""
-msgstr "\"Понятно... Прощай\"."
+msgstr "\"Посмотрим. Прощай\"."
 
 #: 20189 20200
-#, fuzzy
 msgid "\"I'll try. Farewell.\""
-msgstr "\"Я свалю. Прощай\"."
+msgstr "\"Я попытаюсь. Прощай\"."
 
 #: 20190
 msgid ""
@@ -343,6 +376,9 @@ msgid ""
 "number. I have no memory of this place. I am cold. I am scared. This is "
 "strange, to be so naked. I fear I will die.\" "
 msgstr ""
+"\"Я ничего о нем не знаю. Я не знаю этого места. У меня нет имени. У меня "
+"нет номера. У меня нет воспоминаний об этом месте. Мне холодно. Мне страшно. "
+"Странное чувство - быть столь обнаженным. Боюсь, что я умру\"."
 
 #: 20191 20192
 msgid "\"What do you mean?\""
@@ -353,18 +389,16 @@ msgid "\"I had some other questions...\""
 msgstr "\"У меня есть другие вопросы...\""
 
 #: 20194 20195
-#, fuzzy
 msgid "\"Hm. Interesting. Farewell.\""
-msgstr "\"Интересно. Прощай\"."
+msgstr "\"Хм. Интересно. Прощай\"."
 
 #: 20196
 msgid "\"I have nothing. I request your aid.\""
-msgstr ""
+msgstr "\"У меня ничего нет. Я прошу твоей помощи\"."
 
 #: 20199
-#, fuzzy
 msgid "\"Forget it, then. Farewell.\""
-msgstr "\"Забудь об этом. Прощай\"."
+msgstr "\"Тогда забудь об этом. Прощай\"."
 
 #: 20201
 msgid ""
@@ -372,20 +406,21 @@ msgid ""
 "shelter of my name and number, and she stole them from me. They are mine "
 "lawfully and by right. Find her. She is in this Village.\""
 msgstr ""
+"\"Та, которая когда-то звалась Радин. Она украла их у меня. Я предложил ей "
+"защиту моего имени и номера, и она украла их. Они мои по закону и праву. "
+"Найди ее. Она в этом поселке\"."
 
 #: 20203
-#, fuzzy
 msgid "\"Tough. Answer some other questions for me...\""
-msgstr "\"Хорошо. Ответь мне на пару вопросов\"."
+msgstr "\"Не унывай. Ответь мне еще на пару вопросов...\""
 
 #: 20204
-#, fuzzy
 msgid "\"I'll see what I can do.\""
-msgstr "\"Я... я сделаю все, что в моих силах\"."
+msgstr "\"Посмотрим, что я смогу сделать\"."
 
 #: 20205
 msgid "\"Tough for you. Farewell.\""
-msgstr ""
+msgstr "\"Не падай духом. Прощай\"."
 
 #: 20206
 msgid ""
@@ -393,10 +428,13 @@ msgid ""
 "without expression, and does not speak. He looks as though his voice would "
 "be as flat as a meadow."
 msgstr ""
+"Ты видишь серого человека с идеально-круглым лицом. Он смотрит на тебя без "
+"всякого выражения, и не произносит ни слова. Он выглядит так, будто его "
+"голос такой же спокойный, как и пустынная равнина."
 
 #: 20207
 msgid "\"Greetings. I was hoping you could answer a few questions for me...\""
-msgstr ""
+msgstr "\"Здравствуй. Надеюсь, ты сможешь ответить мне на пару вопросов...\""
 
 #: 20208
 msgid "Leave him in peace."
@@ -407,15 +445,16 @@ msgid ""
 "\"No money can buy a name. No amount can buy a number. Coin is scant "
 "consolation for identity. Surely you can understand.\""
 msgstr ""
+"\"Имя не купишь ни за какие деньги. Номер не купишь ни за какие богатства. "
+"Монеты - скудное утешение за личность. Ты это, конечно же, понимаешь\"."
 
 #: 45396
 msgid "\"She has offered money for them.\""
-msgstr ""
+msgstr "\"Она предложила за них деньги\"."
 
 #: 45397
-#, fuzzy
 msgid "\"Yes, I can. I'll do what I can. Farewell.\""
-msgstr "\"Посмотрим, что я смогу сделать. Прощай\"."
+msgstr "\"Да, я сделаю, что смогу сделать. Прощай\"."
 
 #: 66389
 msgid ""
@@ -423,21 +462,30 @@ msgid ""
 "come from a land of law and metal, where all things have their place and "
 "number, and he seems naked and cold without his."
 msgstr ""
+"Я встретил странного человека, чье имя и номер были украдены. Похоже, что он "
+"пришел из страны закона и металла, где у всех вещей есть место и номер, и "
+"без него он словно без одежды и крова."
 
 #: 66390
 msgid ""
 "Ku'u Yin refused me when I offered him his name and number back. To the Nine "
 "Hells with him, anyway."
 msgstr ""
+"Куу Йин отказался от предложенного мной имени и номера. А, ну и пусть "
+"катится в Девять Преисподен."
 
 #: 66391
 msgid ""
 "I returned Ku'u Yin's name and number to him. He didn't offer me anything "
 "for them. Maybe I shouldn't have tried to blackmail him for them..."
 msgstr ""
+"Я вернул Куу Йину его имя и номер. Он не дал мне ничего взамен. Пожалуй, мне "
+"не стоило пытаться требовать за них деньги..."
 
 #: 66392
 msgid ""
 "I returned Ku'u Yin's name and number to him. He offered me his number, and "
 "said it would warm me and protect me."
 msgstr ""
+"Я вернул Куу Йину его имя и номер. Он предложил мне свой номер и сказал, что "
+"он согреет и защитит меня."
