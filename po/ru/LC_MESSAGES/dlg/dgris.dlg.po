@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dgris.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:41+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-11-27 20:27+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,15 +14,16 @@ msgstr ""
 "X-Generator: Lokalize 0.3\n"
 
 #: 10881 20660 20669
-#, fuzzy
 msgid "\"Where did you say your stash was again?\""
-msgstr "\"Еще раз, кто эти смотрители?\""
+msgstr "\"Еще раз, где твой тайник?\""
 
 #: 20657
 msgid ""
 "\"That's a bad way to go. If I could talk to him, he'd surely have a hell of "
 "a tale...\""
 msgstr ""
+"\"Так не пойдет. Если б мне с ним поговорить, он бы точно много чего мог "
+"рассказать...\""
 
 #: 20658 20667
 msgid ""
@@ -31,21 +32,22 @@ msgid ""
 "gallivanting about while I lie here rotting. Ah, well. What can old, dead "
 "Gris do for ye now?\""
 msgstr ""
+"Крючконосый мертвец начинает дергаться, затем слышится хриплый голос Гриса: "
+"\"Ну что, нашел? Я ж тебе четко сказал, где искать, и теперь ты бродишь "
+"вокруг, пока я тут гнию. А, ладно. Чем мертвый старина Грис может быть тебе "
+"полезен?\""
 
 #: 20659 20668 20702
-#, fuzzy
 msgid "\"Where did you say Quint's charm was?\""
-msgstr "\"Где ты ее нашла?\""
+msgstr "\"Так где же амулет Квинта?\""
 
 #: 20661 20670 20703
-#, fuzzy
 msgid "\"What happened to you, anyway?\""
-msgstr "\"А что случилось с твоим телом?\""
+msgstr "\"Так что же с тобой случилось?\""
 
 #: 20662 20671 20705
-#, fuzzy
 msgid "\"What can you tell me about the catacombs?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Что ты можешь рассказать мне о катакомбах?\""
 
 #: 20663 20664 20665 20672 20673 20674 20706 20707 20708
 msgid "\"Tell me about yourself.\""
@@ -60,15 +62,16 @@ msgid ""
 "\"Told ye. It's on the left side of Marta's home - the crazy corpse-witch? - "
 "hidden in a pile o' refuse. Look long enough and ye'll find it.\""
 msgstr ""
+"\"Я же сказал: слева от дома Марты (ну, та чокнутая ведьма-любительница "
+"трупаков), заныкан в куче отбросов. Присмотрись, и найдешь его\"."
 
 #: 20677
 msgid "\"I had some other questions for you...\""
-msgstr "\"У меня были еще вопросы к тебе...\""
+msgstr "\"У меня были к тебе еще вопросы...\""
 
 #: 20678 20745 20748
-#, fuzzy
 msgid "\"Thanks, Gris. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай\"."
+msgstr "\"Спасибо, Грис. Прощай\"."
 
 #: 20679
 msgid ""
@@ -77,9 +80,12 @@ msgid ""
 "one I'll be talking to, no doubt, ye can have it. It's off on the right side "
 "of his house as you face his door.\""
 msgstr ""
+"\"Я спрятал его возле Охо (во тупица, правда?). Заныкал недалеко от его "
+"жилища. Не думаю, что кто-нибудь потратится на мое воскрешение, так что ты, "
+"несомненно, последний, с кем я говорю. Можешь их забрать. Они справа от его "
+"дома, если стоишь лицом к двери\"."
 
 #: 20680 20681
-#, fuzzy
 msgid "\"All right. I have some other questions for you.\""
 msgstr "\"Ну хорошо, у меня есть другие вопросы к тебе...\""
 
@@ -93,29 +99,32 @@ msgid ""
 "start runnin'...  me bloods... what happened to them, eh? Where be Burt? "
 "Lowden? They make it or are they in the dead-book?\""
 msgstr ""
+"\"Мы с парнями забрались в этот склеп... вскрыть его оказалось сложнее, чем "
+"пояс верности, говорю тебе. Взломав дверь (на это ушла почти вечность), мы "
+"вошли сюда и собирались открыть главный склеп, и тут мои спецы как начнут "
+"орать, а эта... эта *тварь*... как полоснет меня, и толкает в тот склеп... я "
+"борюсь с ней, и слышу, как они начинают удирать... мои спецы... что с ними "
+"случилось, а? Где Берт? Лауден? Они выбрались, или уже в книге мертвых?\""
 
 #: 20683
 msgid "Truth: \"They're dead.\""
-msgstr ""
+msgstr "Правда: \"Они мертвы\"."
 
 #: 20684 20687
-#, fuzzy
 msgid "Lie: \"They made it.\""
-msgstr "\"Сначала попробуй\"."
+msgstr "Ложь: \"Им удалось выбраться\"."
 
 #: 20685
-#, fuzzy
 msgid "Lie: \"I don't know.\""
-msgstr "\"Я не знаю\"."
+msgstr "Ложь: \"Я не знаю\"."
 
 #: 20686
 msgid "Lie: \"They're dead.\""
-msgstr ""
+msgstr "Ложь: \"Они мертвы\"."
 
 #: 20688
-#, fuzzy
 msgid "Truth: \"I don't know.\""
-msgstr "\"На самом деле я не знаю\"."
+msgstr "Правда: \"Я не знаю\"."
 
 #: 20689
 msgid ""
@@ -124,21 +133,22 @@ msgid ""
 "reckoning. Me and the boys have cracked a lot of crypts down here... we'd "
 "just gotten to this one when the problem happened.\""
 msgstr ""
+"\"Мои любимые места. Куча забитых добром склепов, почти никем нетронутых "
+"уже... - он умолкает. - Ну, уже много лет, по моим подсчетам. Мы с парнями "
+"вскрыли здесь немало склепов... добрались до этого, и тут стряслась эта беда"
+"\"."
 
 #: 20690
-#, fuzzy
 msgid "\"What happened?\""
 msgstr "\"Что произошло?\""
 
 #: 20691
-#, fuzzy
 msgid "\"What crypts can you tell me about?\""
-msgstr "\"Что ты можешь сказать о ней?\""
+msgstr "\"О каких склепах ты можешь мне рассказать?\""
 
 #: 20692
-#, fuzzy
 msgid "\"Answer some other questions for me, will you?\""
-msgstr "\"Ты можешь ответить на мои вопросы?\""
+msgstr "\"Ответь еще на пару вопросов, ладно?\""
 
 #: 20693
 msgid "\"Thanks. Farewell.\""
@@ -150,29 +160,34 @@ msgid ""
 "smell out crypts and snatch the best loot 'fore anyone else knew it was "
 "there. Spent most of my time pickin' at dead bodies. Why d'ye ask?\""
 msgstr ""
+"\"Грис. Грис Стервятник. Меня так прозвали, потому что я мог вынюхать новый "
+"склеп и обчистить его до того, как любой другой найдет его. В основном "
+"занимался оббиранием мертвых тел. А спрашиваешь зачем?\""
 
 #: 20695
 msgid "\"Quint was looking for you, Gris. He said you had something of his.\""
 msgstr ""
+"\"Грис, тебя искал Квинт. Сказал, что у тебя есть что-то, принадлежащее ему"
+"\"."
 
 #: 20696 20697
 msgid "\"You're Gris, eh? I'll let the other villagers know you're dead.\""
-msgstr ""
+msgstr "\"Значит, ты Грис? Я скажу в деревне, что ты мертв\"."
 
 #: 20698
-#, fuzzy
 msgid "\"No reason.\""
-msgstr "\"Без понятия\"."
+msgstr "\"Просто так\"."
 
 #: 20701
 msgid "The corpse lets loose a gusty sigh. \"What did ye want to know, berk?\""
-msgstr ""
+msgstr "Мертвец делает резкий вздох. \"Чего тебе, пень?\""
 
 #: 20704
 msgid ""
 "\"Gris, I need you to tell me where Quint's charm is. He said you would know."
 "\""
 msgstr ""
+"\"Грис, мне нужно знать, где амулет Квинта. Он сказал, что ты знаешь\"."
 
 #: 20717
 msgid ""
@@ -180,14 +195,17 @@ msgid ""
 "whoreson sent you down here for that, you're in the wrong place, berk. That "
 "thing's back in the Buried Village.\""
 msgstr ""
+"\"Амулет Квинта? - мертвец смеется. - Если тебя послал сюда тот набитый "
+"шелудивый шлюхин сын, то ты не туда попал, пень. Та штуковина в Погребенной "
+"деревне\"."
 
 #: 20718
 msgid "\"But where is it?\""
-msgstr ""
+msgstr "\"Но где она?\""
 
 #: 20719
 msgid "\"I see. I'll go look. Farewell.\""
-msgstr ""
+msgstr "\"Ясно. Пойду, посмотрю. Счастливо\"."
 
 #: 20720
 msgid ""
@@ -195,42 +213,50 @@ msgid ""
 "smell out crypts and snatch the best loot 'fore anyone else knew it was "
 "there. Spent most of my time pickin' at dead bodies.\""
 msgstr ""
+"\"Грис. Грис Стервятник. Меня так прозвали, потому что я мог вынюхать новый "
+"склеп и обчистить его до того, как любой другой найдет его. В основном "
+"занимался оббиранием мертвых тел\"."
 
 #: 20726
 msgid ""
 "\"Aye, good. Hate t' think they'd got away clean wi' me left down here for "
 "dead.\""
 msgstr ""
+"\"Вот и славно. Было бы плохо, если б они выбрались отсюда чистенькими, "
+"оставив меня здесь умирать\"."
 
 #: 20728 20731 20734 20741 20754
 msgid "\"I had some other questions...\""
 msgstr "\"У меня есть другие вопросы...\""
 
 #: 20729 20732 20735
-#, fuzzy
 msgid "\"Yeah. Farewell.\""
-msgstr "\"Хм. Прощай\"."
+msgstr "\"Ага. Прощай\"."
 
 #: 20730
 msgid ""
 "\"Filthy blighters! Probably sold me out to fortune's whore, they did, "
 "leavin' me to that *thing* while they ran on back ta safety...\""
 msgstr ""
+"\"Грязные засранцы! Наверно, продали меня шлюхе-судьбе, бросили с этой "
+"*тварью*, а сами вернулись в целости...\""
 
 #: 20733
 msgid "\"Aye, well, and let's hope they didn't. Filthy running pikers.\""
 msgstr ""
+"\"Ну что ж, будем надеяться, что у них ничего не вышло. Грязные предатели\"."
 
 #: 20736
 msgid ""
 "\"Y'already asked me about that, berk. Gris, Vulture, crypts, catacombs, "
 "bein' a Collector... what else did you need to know?\""
 msgstr ""
+"\"Ты уже об этом спрашивал, пень. Грис, Стервятник, склепы, катакомбы, был "
+"Сборщиком... что еще тебе нужно знать?\""
 
 #: 20737
-#, fuzzy
 msgid "\"Just the answers to some questions...\""
-msgstr "\"Просто ответь на несколько вопросов\"."
+msgstr "\"Просто ответь на несколько вопросов...\""
 
 #: 20739
 msgid ""
@@ -242,27 +268,29 @@ msgid ""
 "tiles has got some secret about it... it smells different. An' there's a "
 "secret chamber somewhere abouts, but I can't figure a way into it.\""
 msgstr ""
+"\"Есть один слева от прохода с ордой летающих голов варгулек... и не суйся "
+"туда без кучи факелов и пары арбалетов. Справа от прохода есть склеп с "
+"красивой плиткой... там я побывал перед тем, как попасть в эту беду... "
+"думаю, там есть какой-то секрет... там пахнет по-другому. Где-то там есть "
+"тайная комната, но я так и не выяснил, где\"."
 
 #: 20740
-#, fuzzy
 msgid "\"Where is it?\""
-msgstr "\"Где она?\""
+msgstr "\"Где он?\""
 
 #: 20742
-#, fuzzy
 msgid "\"Farewell, Gris.\""
-msgstr "\"Прощай, Раук\"."
+msgstr "\"Прощай, Грис\"."
 
 #: 20743
 msgid ""
 "\"Down through the Drowned Nations a ways... don't remember exactly where, "
 "though.\""
-msgstr ""
+msgstr "\"Внизу, в Затопленных Народах, возле... а вот где точно, не помню\"."
 
 #: 20744
-#, fuzzy
 msgid "\"All right. I had some other questions, then...\""
-msgstr "\"Отлично. У меня есть другие вопросы...\""
+msgstr "\"Отлично. Тогда у меня есть другие вопросы...\""
 
 #: 20746
 msgid ""
@@ -271,11 +299,14 @@ msgid ""
 "I'll tell ye. It's buried in the refuse on the left side of Marta the corpse-"
 "ripper's house. Y'aint averse to diggin' in refuse, I hope.\""
 msgstr ""
+"\"Хе. Пень, не будь я мертв, ты бы это из меня и клещами не вытянул. Но... - "
+"он делает философскую паузу, - но раз уж я трупак, я тебе скажу. Он закопан "
+"в отбросах слева от дома Марты-трупорезки. Надеюсь, ты не против того, чтоб "
+"покопаться в мусоре\"."
 
 #: 20747
-#, fuzzy
 msgid "\"I'll find it. I had some other questions, first...\""
-msgstr "\"Я подумаю над этим. У меня есть еще вопросы...\""
+msgstr "\"Я найду его. Но сперва у меня есть другие вопросы...\""
 
 #: 20749
 msgid ""
@@ -283,21 +314,21 @@ msgid ""
 "The blighters are probably already picking through me stash and scrounging "
 "my corpse.\""
 msgstr ""
+"\"Что ж, похоже, что теперь я чертовски мертв. Ладно, передавай им мои "
+"наихудшие пожелания. Эти засранцы, наверно, уже обчистили мое тело и мой "
+"тайник\"."
 
 #: 20750 20772
-#, fuzzy
 msgid "\"Your stash?\""
-msgstr "\"Твои владения?\""
+msgstr "\"Что за тайник?\""
 
 #: 20751
-#, fuzzy
 msgid "\"Probably. I had some other questions...\""
-msgstr "\"Я постараюсь. У меня есть другие вопросы...\""
+msgstr "\"Возможно. У меня есть другие вопросы...\""
 
 #: 20752
-#, fuzzy
 msgid "\"Probably. Farewell.\""
-msgstr "\"Возможно, нет. Прощай\"."
+msgstr "\"Возможно. Прощай\"."
 
 #: 20753
 msgid ""
@@ -305,6 +336,9 @@ msgid ""
 "that wheezing crusty blighter Pharod didn't know nothing about. It's to the "
 "right of that retard Ojo's place, if I remember correctly.\""
 msgstr ""
+"\"Да... я тут кое-что припрятал возле своей берлоги... то, что смог утаить "
+"от того сопящего паршивого засранца Фарода. Это справа от дома того тупицы "
+"Охо, если я правильно помню\"."
 
 #: 20755
 msgid "\"Farewell.\""
@@ -312,16 +346,15 @@ msgstr "\"Прощай\"."
 
 #: 20756
 msgid "\"Aye, well, that's different for you, I'm sure.\""
-msgstr ""
+msgstr "\"Ага, и тебе это, конечно же, не безразлично\"."
 
 #: 20757
-#, fuzzy
 msgid "\"Yeah, well... answer some other questions...\""
-msgstr "\"Очень хорошо. Ответь на другие вопросы\"."
+msgstr "\"Ну, да... ответь еще на пару вопросов...\""
 
 #: 20758
 msgid "\"Err... yeah. Farewell.\""
-msgstr ""
+msgstr "\"Э-э... да. Прощай\"."
 
 #: 20759
 msgid ""
@@ -334,6 +367,14 @@ msgid ""
 "What - last thing I remember is being pushed in here, the boys being slashed "
 "by some big pikin' thing...\""
 msgstr ""
+"Это труп мужчины с удивленным выражением на лице с крючковатым носом. От "
+"чего он умер, сказать сложно: то ли от многочисленных страшных резаных ран "
+"на животе и горле, то ли от потери крови из-за того, что его рука возле "
+"плеча была почти что оторвана. Когда мертвец обращается к тебе, его голос "
+"клокочет в глотке. \"О... нет... нет, зверюга, нужно... бежать! От чего ж "
+"это у меня все так онемело... набрался, что ли? Почему я рук не чувствую... "
+"и ног? Что... Последнее, что помню: меня толкнули сюда, а на парней "
+"накинулась какая-то чертовски здоровенная тварь...\""
 
 #: 20760
 msgid "\"Who are you?\""
@@ -341,27 +382,31 @@ msgstr "\"Кто ты?\""
 
 #: 20761
 msgid "\"What are you talking about?\""
-msgstr "\"О чем это ты толкуешь?\""
+msgstr "\"О чем это ты?\""
 
 #: 20762
 msgid ""
 "\"Eh? Who in the Nine Hells are you? Show yerself... aww, by the hairy arse "
 "of Pan himself... I'm dead, ain't I?\""
 msgstr ""
+"\"А? Кто ты такой, во имя Девяти Преисподен? Покажись... ох, во имя "
+"волосатой жопы Пана... Я что, помер?\""
 
 #: 20763
 msgid "\"I'm afraid so. Can you answer me some questions?\""
-msgstr ""
+msgstr "\"Боюсь, что да. Можешь ответить мне на несколько вопросов?\""
 
 #: 20764
 msgid "\"Well...\""
-msgstr ""
+msgstr "\"Ну...\""
 
 #: 20765
 msgid ""
 "\"Always knew it'd come down to this... tell me, cutter... am I still in the "
 "catacombs?\""
 msgstr ""
+"\"Всегда знал, что до этого дойдет... скажи мне, рубака... я все еще в "
+"катакомбах?\""
 
 #: 20766
 msgid "\"Yes.\""
@@ -376,14 +421,14 @@ msgid ""
 "The corpse's voice is bitter. \"Figures, aye, it does. Do them a good turn "
 "and they'll do nothing for ye.\""
 msgstr ""
+"В голосе мертвеца слышна горечь: \"Похоже, что да, так оно и есть. "
+"Стараешься для них - и в результате ничего не получаешь\"."
 
 #: 20769 20773
-#, fuzzy
 msgid "\"Right. I just wanted to ask some questions...\""
-msgstr "\"У меня есть вопросы, которые я бы хотел задать...\""
+msgstr "\"Точно. Я просто хотел кое-что спросить...\""
 
 #: 20770 20774
-#, fuzzy
 msgid "\"Forget this. Farewell.\""
 msgstr "\"Забудь об этом. Прощай\"."
 
@@ -392,6 +437,8 @@ msgid ""
 "The corpse seems surprised. \"Someone fetched me out? Can't say I expected "
 "it of 'em... probably did it for me stash...\""
 msgstr ""
+"Похоже, мертвец удивлен. \"Кто-то вытащил меня? Не скажу, что ожидал от них "
+"такое... наверно, это из-за моего тайника...\""
 
 #: 2925 2926
 msgid ""
@@ -400,9 +447,15 @@ msgid ""
 "wounds across his abdomen and throat, or from blood loss incurred when his "
 "right arm was nearly severed from his shoulder."
 msgstr ""
+"Это труп мужчины с удивленным выражением на лице с крючковатым носом. От "
+"чего он умер, сказать сложно: то ли от многочисленных страшных резаных ран "
+"на животе и горле, то ли от потери крови из-за того, что его рука возле "
+"плеча была почти что оторвана."
 
 #: 66297
 msgid ""
 "Gris the Vulture told me where I could find Quint's poison charm - in a "
 "rubbish heap to the left of Marta's house, back in the Buried Village."
 msgstr ""
+"Грис Стервятник рассказал мне, где можно найти амулет защиты от яда Квинта: "
+"он в куче мусора слева от дома Марты в Погребенной деревне."
