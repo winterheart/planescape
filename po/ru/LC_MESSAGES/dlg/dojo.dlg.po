@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dojo.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 03:08+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2011-12-10 19:36+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,50 +18,53 @@ msgid ""
 "The large man hulks more than ever, a thin layer of patchy brown fur "
 "covering him from head to tail. \"Ojo like man in wall now,\" he says sadly."
 msgstr ""
+"Это здоровяк теперь еще больше, его с головы до хвоста покрывает тонкий слой "
+"пятнистого коричневого меха. \"Теперь Охо как человек в стене\", - печально "
+"произносит он."
 
 #: 18839
 msgid "\"Where did everyone go?\""
-msgstr ""
+msgstr "\"Куда все делись?\""
 
 #: 18840
 msgid "\"You're a wererat now?\""
-msgstr ""
+msgstr "\"Теперь ты крысооборотень?\""
 
 #: 18841
 msgid "\"Your speech has improved, Ojo. What happened?\""
-msgstr ""
+msgstr "\"Теперь ты лучше говоришь, Охо. Что случилось?\""
 
 #: 18842
 msgid "\"Then I'd better kill you.\""
-msgstr ""
+msgstr "\"Тогда мне лучше убить тебя\"."
 
 #: 18843
-#, fuzzy
 msgid "\"That's too bad. Farewell.\""
-msgstr "\"Это точно. Тогда прощай\"."
+msgstr "\"Очень жаль. Прощай\"."
 
 #: 18844
 msgid "\"So where did everyone go?\""
-msgstr ""
+msgstr "\"Так куда же все делись?\""
 
 #: 18845
 msgid "\"The rats came and invaded? Thanks, Ojo. Farewell.\""
-msgstr ""
+msgstr "\"Сюда вторглись крысы? Спасибо, Охо. Прощай\"."
 
 #: 18846
 msgid ""
 "\"Rats and fur-men come. Everyone hitting. They go away to crying place. Ojo "
 "not follow. They come back. They furry and mean.\""
 msgstr ""
+"\"Приходить крысы и волосатые люди. Всех перебить. Уходить в плачущее место. "
+"Охо остаться. Они вернуться. Они волосатые и злые\"."
 
 #: 18847
 msgid "\"I see. Was there anything else I should know about this?\""
-msgstr ""
+msgstr "\"Понятно. Есть ли что-нибудь еще, что я должен об этом знать?\""
 
 #: 18848
-#, fuzzy
 msgid "\"I see. Thanks, Ojo. Farewell.\""
-msgstr "\"Спасибо, я так и сделаю. Прощай\"."
+msgstr "\"Понятно. Спасибо, Охо. Прощай\"."
 
 #: 18849
 msgid ""
@@ -69,10 +72,13 @@ msgid ""
 "gone feral, and a thin trail of drool depends from his open mouth. His teeth "
 "look very, very sharp."
 msgstr ""
+"Обернувшись, ты замечаешь, что здоровяк присел, готовясь к прыжку. Его "
+"взгляд стал безумным, из его раскрытого рта тянется тонкая струйка слюны. "
+"Его зубы кажутся очень острыми."
 
 #: 18850 18851
 msgid "\"Don't do it, Ojo. I don't want to have to hurt you.\""
-msgstr ""
+msgstr "\"Не делай этого, Охо. Я не хочу причинить тебе вред\"."
 
 #: 18852 18864
 msgid "Attack him."
@@ -84,24 +90,26 @@ msgid ""
 "his teeth as he says, \"Ratsy.\" An evil smile starts to dance around his "
 "mouth."
 msgstr ""
+"Он печально смотрит на свои руки, потом на тебя. Его зубы поблескивают, "
+"когда он произносит: \"Крыска\". На его лице пляшет зловещая улыбка."
 
 #: 18854 18858
-#, fuzzy
 msgid "\"Is there anything else I should know?\""
-msgstr "\"Что еще ты можешь сказать мне?\""
+msgstr "\"Есть ли что-нибудь еще, о чем я должен знать?\""
 
 #: 18855
 msgid "\"Well, that's too bad. Farewell, Ojo.\""
-msgstr ""
+msgstr "\"Что ж, очень жаль. Прощай, Охо\"."
 
 #: 18856
 msgid "\"Then I had better make sure you infect no others. Prepare to die.\""
 msgstr ""
+"\"Тогда мне лучше позаботится о том, чтобы ты больше никого не заразил. "
+"Готовься к смерти\"."
 
 #: 18857 18905
-#, fuzzy
 msgid "He shrugs."
-msgstr "Головорез из Улья"
+msgstr "Он пожимает плечами."
 
 #: 18859 18914 18931 18943 18958 18987 18991 18995 19000 19004
 msgid "\"Farewell, then.\""
@@ -109,7 +117,7 @@ msgstr "\"Тогда прощай\". "
 
 #: 18860
 msgid "\"Leave. Ratsies bite. Then I bite you.\""
-msgstr ""
+msgstr "\"Уходить. Крыски кусать. Теперь я кусать ты\"."
 
 #: 18861
 msgid "\"Very well. Farewell, then.\""
@@ -118,6 +126,8 @@ msgstr "\"Очень хорошо. Тогда прощай\"."
 #: 18862
 msgid "He pauses, his muscles slowly relaxing. \"Leave. Or bite you.\""
 msgstr ""
+"Он останавливается, его мышцы медленно расслабляются. \"Уходить. Или кусать "
+"тебя\"."
 
 #: 18863
 msgid "Leave."
@@ -125,78 +135,72 @@ msgstr "Уйти."
 
 #: 18865
 msgid "He ignores your words and leaps at you!"
-msgstr ""
+msgstr "Он игнорирует твои слова и накидывается на тебя!"
 
 #: 18866 18869
-#, fuzzy
 msgid "\"Ojo, wait!\""
-msgstr "\"Подождать!\""
+msgstr "\"Охо, стой!\""
 
 #: 18867
 msgid "\"If that's the way it has to be...\""
-msgstr ""
+msgstr "\"Ну, раз уж на то пошло...\""
 
 #: 18868
 msgid "The large man turns to you, crouches, and springs!"
-msgstr ""
+msgstr "Здоровяк оборачивается к тебе, приседает и прыгает!"
 
 #: 18870
 msgid "\"If that's the way you want to be...\""
-msgstr ""
+msgstr "\"Ну, раз ты этого хочешь...\""
 
 #: 18871
 msgid "Ojo turns away from the wall and looks at you dully."
-msgstr ""
+msgstr "Охо отворачивается от стены и смотрит на тебя без выражения."
 
 #: 18872
 msgid ""
 "Ojo turns away from the wall and stares at Morte, a slow smolder in his eyes."
-msgstr ""
+msgstr "Охо отворачивается от стены и пялится на Морта. Его глаза затуманены."
 
 #: 18873
 msgid "\"All right, Morte, that's enough.\""
-msgstr ""
+msgstr "\"Ладно, Морт, завязывай с этим\"."
 
 #: 18874
-#, fuzzy
 msgid "\"Ojo, I had some questions.\""
-msgstr "\"Нет, у меня есть некоторые вопросы...\""
+msgstr "\"Охо, у меня есть некоторые вопросы\"."
 
 #: 18875
-#, fuzzy
 msgid "\"Let's get out of here. Farewell, Ojo.\""
-msgstr "\"Просто уходим отсюда. Прощай, красавица\"."
+msgstr "\"Пора отсюда сваливать. Прощай, Охо\"."
 
 #: 18876
 msgid "Ojo just stares."
-msgstr ""
+msgstr "Охо продолжает пялиться."
 
 #: 18877
 msgid "\"Can you tell me about the man in the wall again?\""
-msgstr ""
+msgstr "\"Можешь рассказать мне еще раз о человеке в стене?\""
 
 #: 18878
-#, fuzzy
 msgid "\"Tell me about yourself again.\""
-msgstr "\"Расскажи мне о свой банде\"."
+msgstr "\"Расскажи мне о себе еще раз\"."
 
 #: 18879 18890 18897
 msgid "\"What are you doing?\""
 msgstr "\"Что ты делаешь?\""
 
 #: 18880 18891 18898
-#, fuzzy
 msgid "\"Tell me about the people of this village.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне жителях деревни\"."
 
 #: 18881 18892 18899
 msgid "\"Tell me about the catacombs.\""
 msgstr "\"Расскажи мне о катакомбах\"."
 
 #: 18882 18893 18900
-#, fuzzy
 msgid "\"Tell me about the Buried Village.\""
-msgstr "\"Расскажи мне о Морге\"."
+msgstr "\"Расскажи мне о Погребенной деревне\"."
 
 #: 18883 18887 18894 18901 18949 18982
 msgid "\"Forget it. Farewell.\""
@@ -204,22 +208,23 @@ msgstr "\"Забудь. Прощай\"."
 
 #: 18884
 msgid "He blinks at you."
-msgstr ""
+msgstr "Он смотрит на тебя удивленно."
 
 #: 18885
 msgid "Point at him: \"Who are you?\""
-msgstr ""
+msgstr "Указать на него: \"Кто ты?\""
 
 #: 18886
-#, fuzzy
 msgid "\"Forget it. I had other questions...\""
-msgstr "\"Забудь об этом. У меня есть некоторые вопросы...\""
+msgstr "\"Забудь об этом. У меня есть другие вопросы...\""
 
 #: 18888
 msgid ""
 "You see a burly man with a slack jaw. The spark of intelligence is, in his "
 "eyes, little more than a brief flare."
 msgstr ""
+"Ты видишь здорового детину с вялым подбордком. В его взгляде видна искра "
+"разума, едва ли большая, чем мимолетная вспышка."
 
 #: 18889
 msgid "\"Who are you?\""
@@ -227,31 +232,27 @@ msgstr "\"Кто ты?\""
 
 #: 18895
 msgid "The man blinks at you."
-msgstr ""
+msgstr "Человек удивленно смотрит на тебя."
 
 #: 18896
 msgid "\"Tell me about yourself.\""
 msgstr "\"Расскажи мне о себе\"."
 
 #: 18902
-#, fuzzy
 msgid "\"Ojo.\""
-msgstr "\"Тебя?\""
+msgstr "\"Охо\"."
 
 #: 18903
-#, fuzzy
 msgid "\"Okay, Ojo. I had some questions for you...\""
-msgstr "\"Нет. Сначала у меня несколько вопросов к тебе...\""
+msgstr "\"Хорошо, Охо. У меня к тебе пара вопросов...\""
 
 #: 18904 18967
-#, fuzzy
 msgid "\"Thanks, Ojo. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай\"."
+msgstr "\"Спасибо, Охо. Прощай\"."
 
 #: 18906
-#, fuzzy
 msgid "\"All right... then answer some other questions for me.\""
-msgstr "\"...верно. Ты можешь ответить на мои вопросы?\""
+msgstr "\"Ладно... тогда ответь еще на пару вопросов\"."
 
 #: 18907 18926 18938
 msgid "\"All right. Farewell.\""
@@ -260,41 +261,38 @@ msgstr "\"Ладно. Прощай\"."
 #: 18908
 msgid "\"Ojo talk...\" He stops abruptly and begins massaging his hand."
 msgstr ""
+"\"Охо говорить...\" Неожиданно он запинается и начинает массировать руку."
 
 #: 18909
 msgid "Examine his hand."
-msgstr ""
+msgstr "Осмотреть его руку."
 
 #: 18910 18911 18928 18929
-#, fuzzy
 msgid "\"Who are you talking to?\""
-msgstr "\"Почему ты лжешь мне?\""
+msgstr "\"О чем ты говоришь?\""
 
 #: 18912
-#, fuzzy
 msgid "\"What?\""
-msgstr "\"*ЧТО?!*\""
+msgstr "\"Что?\""
 
 #: 18913 18930 18948
-#, fuzzy
 msgid "\"All right. I had some other questions for you.\""
-msgstr "\"Нет. У меня были еще вопросы к тебе...\""
+msgstr "\"Ладно. У меня были еще вопросы к тебе\"."
 
 #: 18915
 msgid ""
 "There is a small, inflamed scab on his skin. As you watch, he peels the scab "
 "away again."
 msgstr ""
+"На его коже есть маленькая воспаленная ранка. Он соскабливает с нее корку."
 
 #: 18916
-#, fuzzy
 msgid "\"What happened to your hand?\""
-msgstr "\"А что случилось с твоим телом?\""
+msgstr "\"А что случилось с твоей рукой?\""
 
 #: 18917
-#, fuzzy
 msgid "\"I had some other questions for you, Ojo.\""
-msgstr "\"У меня были еще вопросы к тебе\"."
+msgstr "\"Охо, у меня к тебе еще несколько вопросов\"."
 
 #: 18918 18954 18973 19011 19024 19030 19038
 msgid "\"Farewell.\""
@@ -302,46 +300,43 @@ msgstr "\"Прощай\"."
 
 #: 18919
 msgid "\"Bit.\""
-msgstr ""
+msgstr "\"Укус\"."
 
 #: 18920 18921
-#, fuzzy
 msgid "\"Who bit you, Ojo?\""
-msgstr "\"Каковы твои обязанности?\""
+msgstr "\"Кто тебя укусил, Охо?\""
 
 #: 18922
 msgid "\"All right. I had some other questions...\""
 msgstr "\"Хорошо. У меня есть другие вопросы...\""
 
 #: 18923
-#, fuzzy
 msgid "\"Farewell, Ojo.\""
-msgstr "\"Прощай, Раук\"."
+msgstr "\"Прощай, Охо\"."
 
 #: 18924
 msgid "\"Not talk strangers.\" He looks away from you, rubbing his hand."
-msgstr ""
+msgstr "\"Не говорить незнакомцы\". Он отворачивается, почесывая руку."
 
 #: 18925
 msgid "\"All right. Tell me about yourself.\""
-msgstr ""
+msgstr "\"Хорошо. Расскажи мне о себе\"."
 
 #: 18927
 msgid "\"Ojo talk.\" He turns away from you."
-msgstr ""
+msgstr "\"Охо говорить\". Он отворачивается от тебя."
 
 #: 18932
 msgid "He looks at the wall, and looks back at you. \"Man in wall.\""
-msgstr ""
+msgstr "Он глядит на стену, потом на тебя. \"Человек в стене\"."
 
 #: 18933
 msgid "\"There's a man in the wall?\""
-msgstr ""
+msgstr "\"В стене есть человек?\""
 
 #: 18934
-#, fuzzy
 msgid "\"Uh, okay. I had some other questions...\""
-msgstr "\"Ух... У меня есть другие вопросы...\""
+msgstr "\"Э, ладно. У меня есть другие вопросы...\""
 
 #: 18935
 msgid "\"I see. Farewell.\""
@@ -352,19 +347,20 @@ msgid ""
 "Ojo looks toward one of the walls, and then turns back to you, eyes narrowed "
 "and the corner of his mouth twitching. \"Who you? You leave.\""
 msgstr ""
+"Охо смотрит на одну из стен, потом поворачивается к тебе. Его глаза "
+"прищурены, кончик рта подергивается. \"Ты кто? Ты уходить\"."
 
 #: 18937
 msgid "\"I just wanted to ask you some more questions, Ojo.\""
-msgstr ""
+msgstr "\"Охо, я просто хотел задать тебе еще пару вопросов\"."
 
 #: 18939
 msgid "\"No! You leave!\" He is becoming agitated."
-msgstr ""
+msgstr "\"Нет! Ты уходить!\" Он начинает волноваться."
 
 #: 18940
-#, fuzzy
 msgid "\"Just a few more questions.\""
-msgstr "\"Всего лишь несколько вопросов...\""
+msgstr "\"Всего лишь несколько вопросов\"."
 
 #: 18941
 msgid "\"All right, then. Farewell.\""
@@ -376,34 +372,38 @@ msgid ""
 "you. No amount of cajoling will convince him to look at you or respond to "
 "you."
 msgstr ""
+"Он ковыляет в угол и опускается на пол, отвернувшись от тебя. Как бы ты не "
+"упрашивал его, он не смотрит на тебя и не отвечает."
 
 #: 18944
 msgid "He looks at the wall, and then looks back at you."
-msgstr ""
+msgstr "Он смотрит на стену, затем на тебя."
 
 #: 18945
 msgid "\"What does the man in the wall say?\""
-msgstr ""
+msgstr "\"Что говорит человек в стене?\""
 
 #: 18946
 msgid "\"What does the man in the wall look like?\""
-msgstr ""
+msgstr "\"Как выглядит человек в стене?\""
 
 #: 18947
 msgid "\"What wall is he in?\""
-msgstr ""
+msgstr "\"В какой он стене?\""
 
 #: 18950
 msgid "\"Tells about crying stone place. Tells stories. I tell stories too.\""
 msgstr ""
+"\"Говорить про место плачущих камней. Говорить истории. Я тоже говорить "
+"истории\"."
 
 #: 18951
 msgid "\"Stories about what?\""
-msgstr ""
+msgstr "\"Истории о чем?\""
 
 #: 18952
 msgid "\"I had some other questions about the man in the wall...\""
-msgstr ""
+msgstr "\"У меня еще вопросы насчет человека в стене...\""
 
 #: 18953 18957 18962 18966 18972 19010 19017 19023 19029
 msgid "\"I had some other questions...\""
@@ -411,24 +411,23 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 18955
 msgid "He looks at the wall and falls silent."
-msgstr ""
+msgstr "Он смотрит на стену и умолкает."
 
 #: 18956
 msgid "\"All right, then. Tell me about the man in the wall again.\""
-msgstr ""
+msgstr "\"Ну, ладно. Расскажи мне еще раз о человеке в стене\"."
 
 #: 18959
 msgid "\"Small. Red eyes. Hairy.\""
-msgstr ""
+msgstr "\"Маленький. Красные глаза. Волосатый\"."
 
 #: 18960
 msgid "\"He sounds like a rat.\""
-msgstr ""
+msgstr "\"Кажется, это крыса\"."
 
 #: 18961 18965
-#, fuzzy
 msgid "\"All right. I had some other questions about the man in the wall...\""
-msgstr "\"Отлично. У меня есть другие вопросы...\""
+msgstr "\"Ладно. У меня есть другие вопросы насчет человека в стене...\""
 
 #: 18963
 msgid "\"Thanks. Farewell.\""
@@ -443,22 +442,24 @@ msgid ""
 "He points at a wall. You notice a small hole in it. Upon closer examination, "
 "you see that the hole is ragged, as if it had been chewed out by a rat."
 msgstr ""
+"Он указывает на стену. Ты замечаешь в ней маленькую дырку. Рассмотрев ее "
+"поближе, ты замечаешь, что у нее рваные края, как будто ее прогрызла крыса."
 
 #: 18969
 msgid "\"This looks like it was chewed by a rat.\""
-msgstr ""
+msgstr "\"Кажется, ее прогрызла крыса\"."
 
 #: 18970
 msgid "\"Is the man in the wall a rat?\""
-msgstr ""
+msgstr "\"Человек в стене - крыса?\""
 
 #: 18971
 msgid ""
 "\"I see... Ojo, I had some other questions about the man in the wall...\""
 msgstr ""
+"\"Ясно... Охо, у меня еще несколько вопросов насчет человека в стене...\""
 
 #: 18974
-#, fuzzy
 msgid "\"Who?\""
 msgstr "\"Кто?\""
 
@@ -476,29 +477,27 @@ msgstr "\"Фарод\"."
 
 #: 18979
 msgid "\"Gris.\""
-msgstr ""
+msgstr "\"Грис\"."
 
 #: 18980
 msgid "\"Quint.\""
-msgstr ""
+msgstr "\"Квинт\"."
 
 #: 18981
-#, fuzzy
 msgid "\"I had some other questions, instead.\""
-msgstr "\"Да, у меня есть еще вопросы...\""
+msgstr "\"Тогда у меня есть еще вопросы\"."
 
 #: 18983
 msgid "He looks fearfully at Annah."
-msgstr ""
+msgstr "Он боязно поглядывает на Анну."
 
 #: 18984
 msgid "\"Mean girl.\""
-msgstr ""
+msgstr "\"Злая девочка\"."
 
 #: 18985 18989 18993 18998 19002
-#, fuzzy
 msgid "\"All right. Tell me about some of the others.\""
-msgstr "\"Что ты можешь рассказать о некоторых здешних завсегдатаях?\""
+msgstr "\"Ладно. Расскажи мне о кое-ком другом\"."
 
 #: 18986 18990 18994 18999 19003
 msgid "\"All right. I had some other questions.\""
@@ -506,66 +505,64 @@ msgstr "\"Хорошо. У меня есть другие вопросы\"."
 
 #: 18988
 msgid "\"Scary witch.\""
-msgstr ""
+msgstr "\"Страшная ведьма\"."
 
 #: 18992
 msgid "\"Fair-odd.\""
-msgstr ""
+msgstr "\"Странный\"."
 
 #: 18996
 msgid "His eyes narrow suddenly. \"Dead.\""
-msgstr ""
+msgstr "Внезапно он прищуривается. \"Мертвый\"."
 
 #: 18997
 msgid "\"How do you know he's dead?\""
-msgstr ""
+msgstr "\"Откуда ты знаешь, что но мертв?\""
 
 #: 19001
 msgid "\"Kwint.\""
-msgstr ""
+msgstr "\"Куинт\"."
 
 #: 19005
 msgid "\"Man in wall told me.\""
-msgstr ""
+msgstr "\"Мне говорить человек в стене\"."
 
 #: 19006 19007 19014 19015 19020 19021 19026 19027
-#, fuzzy
 msgid "\"Tell me about the man in the wall.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне о человеке в стене\"."
 
 #: 19008
 msgid "\"What did he tell you?\""
-msgstr ""
+msgstr "\"Что он тебе сказал?\""
 
 #: 19009 19016 19022 19028
-#, fuzzy
 msgid "\"Tell me about some of the other villagers.\""
-msgstr "\"Что ты можешь рассказать о некоторых здешних завсегдатаях?\""
+msgstr "\"Расскажи мне об одном из жителей деревни\"."
 
 #: 19012
 msgid "\"Gris dead.\""
-msgstr ""
+msgstr "\"Грис мертвый\"."
 
 #: 19013
-#, fuzzy
 msgid "\"Where is Gris?\""
-msgstr "\"Где она?\""
+msgstr "\"Где Грис?\""
 
 #: 19018
 msgid "\"In crying place.\""
-msgstr ""
+msgstr "\"В плачущем месте\"."
 
 #: 19019
 msgid "\"You mean the Weeping Stone Catacombs?\""
-msgstr ""
+msgstr "\"Ты имеешь в виду Катакомбы Плачущих Камней?\""
 
 #: 2829
 msgid ""
 "\"Big fur. Teeth. All friends bite. Some be food. Some be furry. They leave "
 "Ojo alone.\""
 msgstr ""
+"\"Много волос. Зубы. Все друзья укусить. Некоторые стать еда. Некоторые "
+"стать волосатые. Они покинуть Охо\"."
 
 #: 2830
-#, fuzzy
 msgid "\"What happened here?\""
-msgstr "\"Что произошло?\""
+msgstr "\"Что здесь произошло?\""
