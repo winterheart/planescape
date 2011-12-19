@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dburt.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-11-27 21:18+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2011-12-19 21:54+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 20787
 msgid "\"Nothing.  Farewell.\""
@@ -70,15 +71,15 @@ msgid ""
 "disappointed for a moment. \"He had all the swag from this run, too... and "
 "it were a good run...\""
 msgstr ""
-"\"Попал в какой-то ужасный склеп-ловушку. Мы удирали от Гриса и той *твари*, "
-"что на него напала. Лауден направился в... склеп с дурной славой, но... он "
-"был так напуган, что ему было все равно. Я слышал, как он умер, - на миг его "
-"голос звучит разочарованно. - Еще у него было все награбленное добро... а "
-"добра было немало...\""
+"\"Попал в какой-то ужасную склеп-западню. Мы удирали от Гриса и той *твари*, "
+"что на него напала. Лауден бросился в склеп... с дурной славой, но... он был "
+"так напуган, что ему было все равно. Я слышал, как он умер, - на миг его "
+"голос звучит огорченно. - У него была вся добыча с того набега... а добра там "
+"было немало...\""
 
 #: 20800
 msgid "\"Trap crypt?\""
-msgstr "\"Склеп-ловушка?\""
+msgstr "\"Склеп-западня?\""
 
 #: 20801 20804
 msgid "\"I'm sure. I had some more questions...\""
@@ -93,8 +94,9 @@ msgid ""
 "\"Aye. Spikes, blades, blood, grates in the ground. If Lowden's still in one "
 "piece, he'll be there. Y'go lookin' fer him, watch yer... yer step...\""
 msgstr ""
-"\"Ага. Копья, лезвия, кровь, решетки на полу. Если Лауден еще цел, он там. "
-"Если пойдешь его искать, смотри... под ноги...\""
+"\"Ага. Всякие копья, лезвия, решетки по полу. Если Лаудена еще не порезало на "
+"куски, то он там. "
+"Пойдешь его искать - смотри... под ноги...\""
 
 #: 20805
 msgid "\"I will. Farewell.\""
@@ -105,8 +107,8 @@ msgid ""
 "\"Sommat horrible... opened a crypt, and *she* were there. Lowden 'n me, we "
 "shoved Gris inside and bolted. Heard him... him screamin'.\""
 msgstr ""
-"\"Что-то жуткое... открыли склеп, и там была *она*. Мы с Лауденом втолкнули "
-"туда Гриса и кинулись убегать. Было слышно... его крики\"."
+"\"Что-то жуткое... вскрыли склеп, а там - *она*. Мы с Лауденом втолкнули "
+"туда Гриса и дали деру. Слышали его... его крики\"."
 
 #: 20807
 msgid "\"I... see. I had some other questions...\""
@@ -120,9 +122,9 @@ msgid ""
 "ate me to death...\""
 msgstr ""
 "\"Я... Я мертв? Похоже на то... убегал от королевы склепа через катакомбы. "
-"Лауден попал в плохое место... я... я продолжил бежать. Ударился об стену... "
-"истек кровью... проснулся оттого, что меня грызли крысы... они загрызли меня "
-"насмерть...\""
+"Лауден попал в плохое место... я... я побежал дальше. Ударился об стену... "
+"истек кровью... очнулся оттого, что меня грызли крысы... они съели меня "
+"заживо...\""
 
 #: 20810
 msgid "\"Where's Lowden?\""
@@ -132,7 +134,9 @@ msgstr "\"Где Лауден?\""
 msgid "\"I had some other questions...\""
 msgstr "\"У меня есть другие вопросы...\""
 
+# Не очень понятен смысл, сленг? wh
 #: 20813
+#, fuzzy
 msgid ""
 "\"Used to... used to be... stomping grounds... wealth grounds... was going "
 "to make it out of here on bones alone... too dangerous... Gris? Gris?\" The "
@@ -162,7 +166,7 @@ msgstr ""
 
 #: 20817
 msgid "\"I had some questions for you, corpse...\""
-msgstr "\"Мертвец, у меня к тебе несколько вопросов...\""
+msgstr "\"У меня к тебе несколько вопросов, мертвец...\""
 
 #: 20818
 msgid "\"No one. Farewell.\""
@@ -177,11 +181,11 @@ msgid ""
 msgstr ""
 "Этот труп относительно свеж (ему не больше пары недель) и сильно поеден "
 "крысами. Лоб трупа выглядит так, будто кто-то расколол этому бедняге череп. "
-"Ты пинаешь его носком, и он колышется, как желе."
+"Ты пинаешь его носком, и он безвольно колышется, словно желе."
 
 #: 20820
 msgid "\"Nothing useful here...\""
-msgstr "\"Бесполезно...\""
+msgstr "\"Ничего полезного...\""
 
 #: 2881
 msgid "Burt's corpse twitches as you speak to it. \"What... what do ye want?\""
@@ -192,3 +196,4 @@ msgstr ""
 #: 2882
 msgid "\"I wanted to ask you a few more questions...\""
 msgstr "\"Хотел задать тебе пару вопросов...\""
+
