@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmantuok.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-11-06 19:34+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2011-12-25 22:47+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 25632
 msgid ""
@@ -416,7 +417,7 @@ msgid ""
 "your hands.\" He pauses and looks at you suspiciously. \"Have you a skull "
 "yet?\""
 msgstr ""
-"Mантуок снова шипит на тебя: \"Тогда убирайся и не приходи, пока череп не "
+"Мантуок снова шипит на тебя: \"Тогда убирайся и не приходи, пока череп не "
 "будет у тебя в руках, - он умолкает и с подозрением смотрит на тебя. - У "
 "тебя уже есть череп?\""
 
@@ -517,7 +518,6 @@ msgid "\"And have you retrieved the particular skull the master wants?\""
 msgstr "\"А ты достал тот череп, который нужен хозяину?\""
 
 #: 29335
-#, fuzzy
 msgid ""
 "\"And why should it, hm? The Master knows the secrets of power, and the Many "
 "know the secrets of the city. Perhaps someday I shall play them against each "
@@ -526,7 +526,8 @@ msgid ""
 "help to extend the reach of Lothar and Many-As-One. All benefit, yes? Now... "
 "what is your purpose here?\""
 msgstr ""
-"\"Хм, а почему бы и нет? Хозяин знает тайны силы, а Многоединый знает тайны "
+"\"Хм, а почему бы и нет? Хозяин искушен в тайнах силы, а Многоединый - в "
+"тайнах "
 "города. Возможно, однажды я объединю их усилия и стану от этого сильнее. В "
 "таком соглашении Многоединый видит много преимуществ... а обращение жителей "
 "Погребенной Деревни поможет расширить влияние Лотара и Многоединого. Все в "
@@ -605,8 +606,9 @@ msgstr ""
 "Мантуок берет череп и критически его обнюхивает. \"В катакомбах много, очень "
 "много мест, двуногий, не так ли? Много мест, где можно кого-нибудь "
 "замуровать, чтобы его крики никогда больше не услышали. В одно из таких мест "
-"попадешь ты\". Он поворачивается к своим крысолюдям. \"Колите двуногого, "
-"пока он не упадет. Унесите его тело в катакомбы и закопайте там живьем\"."
+"попадешь ты, - он поворачивается к своим крысолюдям. - Бейте его, пока не "
+"упадет. Потом унесите тело в катакомбы и где-нибудь замуруйте. Пусть вечно "
+"живет в стене\"."
 
 #: 29345
 msgid ""
@@ -614,8 +616,8 @@ msgid ""
 "until he falls. Take his body to the catacombs and wall him up someplace. "
 "Let him live forever entombed.\""
 msgstr ""
-"\"Тогда ты не оставляешь мне выбора\". Он поворачивается к своим крысолюдям. "
-"\"Колите его, пока он не упадет. Унесите его тело в катакомбы и где-нибудь "
+"\"Тогда ты не оставляешь мне выбора, - он поворачивается к своим крысолюдям. -"
+"Бейте его, пока не упадет. Потом унесите тело в катакомбы и где-нибудь "
 "замуруйте. Пусть вечно живет в стене\"."
 
 #: 29346
@@ -623,7 +625,7 @@ msgid ""
 "\"It is no disease! It is a blessing! I am far greater than you, a thing "
 "more a corpse than a man.\""
 msgstr ""
-"\"Это не болезнь! Это благословление! Я намного выше тебя, полутрупа\"."
+"\"Это не болезнь! Это благословление! Я намного лучше тебя, полутрупа\"."
 
 #: 29347
 msgid ""
@@ -646,9 +648,8 @@ msgid ""
 "body to the catacombs and wall him up. Let him live his eternity forever "
 "entombed.\""
 msgstr ""
-"Он поворачивается к своим крысолюдям. \"Колите его, пока он не упадет. "
-"Унесите его тело в катакомбы и где-нибудь замуруйте. Пусть вечно живет в "
-"стене\"."
+"Он поворачивается к своим крысолюдям. \"Бейте его, пока не упадет. Потом "
+"унесите тело в катакомбы и где-нибудь замуруйте. Пусть вечно живет в стене\"."
 
 #: 29350
 msgid "\"You return, man-thing. What do you want?\""
@@ -727,9 +728,8 @@ msgid "\"Who is Lothar?\""
 msgstr "\"Кто такой Лотар?\""
 
 #: 29373
-#, fuzzy
 msgid "\"You work for both of them? Doesn't that test your loyalty?\""
-msgstr "\"Ты служишь им обоим? Разве это не испытание твоей преданности?\""
+msgstr "\"Ты работаешь на них обоих? Разве такое возможно?\""
 
 #: 29375 29379 29385 29404
 msgid "\"I seek the master of this place.\""
@@ -845,12 +845,12 @@ msgid ""
 "\"Perhaps your pathetic disease has affected your hearing. I said I will "
 "give Lothar the skull.\""
 msgstr ""
-"\"Возможно, твоя презренная болезнь повредил тебе слух. Я сказал, что я "
+"\"Возможно, твоя презренная болезнь повредил тебе слух. Я сказал, что я сам "
 "передам Лотару череп\"."
 
 #: 29429
 msgid "\"I said I will give Lothar the skull.\""
-msgstr "\"Я сказал, что я передам Лотару череп\"."
+msgstr "\"Я сказал, что я сам передам Лотару череп\"."
 
 #: 29430
 msgid "\"Let me by or I will kill you where you stand.\""
@@ -889,11 +889,11 @@ msgid ""
 "with your naked scaly tails dragging in the muck behind you? You're vermin, "
 "shadows of people, desperately wishing to be human.  Pathetic.\""
 msgstr ""
-"\"Как для тех, кто выше меня, полагаю, вы считаете за привилегию ползать по "
-"канавам, питаться отбросами и, временами, мертвечиной, лишь бы не сдохнуть, "
-"и ходить в блестящих лохмотьях со своими лысыми чешуйчатыми хвостами, "
-"волочащимися за вами по дерьму? Вы - вредители, тени людей, отчаянно "
-"желающие быть ими. Жалкое зрелище\"."
+"\"Полагаю, как лучшие вы считаете за привилегию ползать по канавам, питаться "
+"отбросами и, временами, мертвечиной, лишь бы не сдохнуть, и ходить в "
+"великолепных лохмотьях со своими лысыми чешуйчатыми хвостами, волочащимися за "
+"вами по дерьму? Вы - вредители, тени людей, отчаянно желающие быть ими. "
+"Жалкое зрелище\"."
 
 #: 29446
 msgid "\"You are not my equal.\""
@@ -910,3 +910,4 @@ msgstr "\"Ты для меня - как учебная мишень\"."
 #: 29449
 msgid "\"I'd like to see you try...\""
 msgstr "\"Посмотрим на твою попытку...\""
+
