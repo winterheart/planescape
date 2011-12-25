@@ -5909,7 +5909,21 @@
                         </termGrp>
                     </ntig>
                 </langSet>
-            </termEntry>
+            <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>харгримм суровый</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>hargrimm the bleak</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
             <termEntry id="azamat_h._hackimov-322">
                 <descrip type="subjectField">персонажи</descrip>
                 <langSet xml:lang="en">
@@ -7809,6 +7823,186 @@
           <ntig>
             <termGrp>
               <term>финам</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-421">
+        <descrip type="definition">Неудачливый расхититель гробниц</descrip>
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>burt</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>берт</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-422">
+        <descrip type="definition">Неудачливый расхититель гробниц</descrip>
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>lowden</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>лауден</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-423">
+        <descrip type="definition">Божество из греческого пантеона, покровитель овец.</descrip>
+        <descrip type="subjectField">существа</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>pan</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>пан</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-424">
+        <descrip type="definition">Заточенный в каменное лицо</descrip>
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>glyve</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>глайв</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-425">
+        <descrip type="definition">Королева упырей</descrip>
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>acaste</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>акаста</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-426">
+        <descrip type="definition">Ранг среди членов фракции.</descrip>
+        <descrip type="subjectField">общие термины</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>factotum</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>фрактотум</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-427">
+        <descrip type="definition">Болезнь. Заболевшие ею становятся оборотнями.</descrip>
+        <descrip type="subjectField">общие термины</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>lycanthropy</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>ликантропия</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-428">
+        <descrip type="definition">Женщина, забравшая номер и имя.</descrip>
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>radine</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>радин</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-429">
+        <descrip type="definition">Слабоумный гигант из Похороненной деревни.</descrip>
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>ojo</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>охо</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-430">
+        <descrip type="definition">Резиденция Фарода</descrip>
+        <descrip type="subjectField">география планов</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>ill-wind court</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>зловонный двор</term>
             </termGrp>
           </ntig>
         </langSet>
