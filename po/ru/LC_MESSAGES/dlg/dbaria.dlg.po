@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:38+0500\n"
+"PO-Revision-Date: 2012-01-03 03:19+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 12341
 msgid ""
@@ -46,7 +47,7 @@ msgstr ""
 
 #: 12386
 msgid "\"Vhat do you vish to ask me?\""
-msgstr ""
+msgstr "\"Что ты хочешь узнать у меня?\""
 
 #: 12387
 msgid ""
@@ -77,9 +78,10 @@ msgid ""
 "vant, but zhere vill be no honor lost should you back down now...\""
 msgstr ""
 
+# двухногий - не ошибка
 #: 12392
 msgid "\"Ah, you again, two-legs. Vhat now?\""
-msgstr ""
+msgstr "\"А, опять ты, двухногий. Что опять?\""
 
 #: 12393
 msgid ""
@@ -199,9 +201,8 @@ msgid "\"I had some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\""
 
 #: 12472
-#, fuzzy
 msgid "\"No, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай\"."
+msgstr "\"Нет, неважно. Прощай\"."
 
 #: 12473
 msgid "\"But...\""
@@ -228,9 +229,8 @@ msgid "\"Why were you so wary of me?\""
 msgstr ""
 
 #: 12479
-#, fuzzy
 msgid "\"Tell me about this city.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне об этом городе\"."
 
 #: 12480
 msgid "\"Tell me about the slums around us.\""
@@ -273,9 +273,8 @@ msgid "\"Because I *feel* like it...\""
 msgstr ""
 
 #: 12490
-#, fuzzy
 msgid "Turn and walk away."
-msgstr "Не обращать внимания на его угрозы и уйти."
+msgstr "Отвернуться и уйти прочь."
 
 #: 12491 12500
 msgid "Run away."
@@ -300,12 +299,10 @@ msgid "\"Oh, no... it was *you*, and you'll regret it!\""
 msgstr ""
 
 #: 12496
-#, fuzzy
 msgid "\"Forget it, then. Farewell.\""
-msgstr "\"Забудь об этом. Прощай\"."
+msgstr "\"Тогда забудь об этом. Прощай\"."
 
 #: 12497
-#, fuzzy
 msgid "\"I had a some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\""
 
@@ -323,9 +320,8 @@ msgid "\"Where is it, exactly?\""
 msgstr "\"А что это, на самом деле?\""
 
 #: 12503
-#, fuzzy
 msgid "\"Never mind. Let me ask you something else.\""
-msgstr "\"Интересно. Позволь мне спросить кое о чем еще...\""
+msgstr "\"Не обращай внимания... Позволь мне спросить кое о чем еще\"."
 
 #: 12504
 msgid "\"Forget I asked; it's nothing. Farewell.\""
@@ -428,9 +424,8 @@ msgid "\"Nothing, actually. I had some other questions...\""
 msgstr "\"Нет, конечно. У меня есть некоторые вопросы...\""
 
 #: 12532
-#, fuzzy
 msgid "\"Nothing, come to think of it. Farewell.\""
-msgstr "\"Ничего больше, спасибо. Прощай\"."
+msgstr "\"Если подумать, то ничего. Прощай\"."
 
 #: 12533
 msgid "\"What if I were looking for work?\""
@@ -454,14 +449,12 @@ msgid "\"Perhaps; I'm not sure, myself. Farewell.\""
 msgstr ""
 
 #: 12539
-#, fuzzy
 msgid "\"Hmm. I have another question...\""
-msgstr "\"Хмм. У меня были еще вопросы...\""
+msgstr "\"Хмм. У меня еще один вопрос...\""
 
 #: 12540
-#, fuzzy
 msgid "\"All right. Farewell, then.\""
-msgstr "\"Тогда ладно... Прощай\"."
+msgstr "\"Хорошо, тогда прощай\"."
 
 #: 12541
 msgid "\"I see. Answer me something else...\""
@@ -480,9 +473,8 @@ msgid "\"I understand. Where is Sigil, exactly?\""
 msgstr ""
 
 #: 12545
-#, fuzzy
 msgid "\"I see. Let me ask you about something else.\""
-msgstr "\"Позволь мне спросить кое о чем еще...\""
+msgstr "\"Ясно. Позволь мне спросить кое о чем еще...\""
 
 #: 12546
 #, fuzzy
@@ -526,3 +518,4 @@ msgstr "\"Кажется, ты права. Прощай\"."
 #: 12559
 msgid "\"Another ward, you say? Perhaps. Farewell.\""
 msgstr ""
+
