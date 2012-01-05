@@ -1483,23 +1483,6 @@
                     </ntig>
                 </langSet>
             </termEntry>
-            <termEntry id="azamat_h._hackimov-80">
-                <descrip type="definition">Суккуб</descrip>
-                <langSet xml:lang="en">
-                    <ntig>
-                        <termGrp>
-                            <term>fall-from-grace</term>
-                        </termGrp>
-                    </ntig>
-                </langSet>
-                <langSet xml:lang="ru">
-                    <ntig>
-                        <termGrp>
-                            <term>падшая грейс</term>
-                        </termGrp>
-                    </ntig>
-                </langSet>
-            </termEntry>
             <termEntry id="azamat_h._hackimov-81">
                 <descrip type="subjectField">planescape</descrip>
                 <descrip type="definition">Хаотичный-злой демон</descrip>
@@ -6240,6 +6223,20 @@
             </termGrp>
           </ntig>
         </langSet>
+      <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>литейная</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>foundry</term>
+            </termGrp>
+          </ntig>
+        </langSet>
       </termEntry>
     <termEntry id="azamat_h._hackimov-338">
         <descrip type="subjectField">заклинания</descrip>
@@ -8057,6 +8054,78 @@
           <ntig>
             <termGrp>
               <term>барр</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-434">
+        <descrip type="definition">Сборщик-баатезу (от греческих богинь мести).</descrip>
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>erinyes</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>эриния</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-435">
+        <descrip type="definition">Достопримечательность Нижнего района Сигила.</descrip>
+        <descrip type="subjectField">география планов</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>siege tower</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>осадная башня</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-436">
+        <descrip type="definition">Фракция в Сигиле, Боголюди.</descrip>
+        <descrip type="subjectField">общие термины</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>believers of the source</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>верящие в первопричину</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-437">
+        <descrip type="definition">Одно из названий Законников.</descrip>
+        <descrip type="subjectField">общие термины</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>fraternity of order</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>братство порядка</term>
             </termGrp>
           </ntig>
         </langSet>

@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dtegarin.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:38+0600\n"
+"PO-Revision-Date: 2012-01-04 20:17+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 12396 12397 12399 12403 12405 12407
 msgid "\"Farewell, then.\""
@@ -26,12 +27,12 @@ msgid ""
 "rasps, hissing, \"Take the Abyssal vermin away and we'll talk. 'Til then, we "
 "say nothing.\" It spits again for good measure."
 msgstr ""
-"Ты видишь чешуйчатого демона, очень похожего на его собрата, стоящего рядом "
-"- у обоих проколото левое ухо, оба - рептилии черного оттенка со сложенными "
-"сзади перепончатыми крыльями. Только у этого небольшой шрам под левым "
-"глазом. Увидев Падшую Грацию рядом с тобой, он скрежещет зубами, шипя: "
-"\"Убери своего червя с Бездны, тогда заговорим. Иначе мы ничего не скажем\". "
-"Он смачно сплевывает."
+"Ты видишь чешуйчатого демона, очень похожего на его собрата, стоящего рядом - "
+"у обоих проколото левое ухо, оба - рептилии черного оттенка со сложенными "
+"сзади перепончатыми крыльями. Только у этого небольшой шрам под левым глазом. "
+"Увидев Падшую Грацию рядом с тобой, он скрежещет зубами, шипя: \"Убери своего "
+"червя с Бездны, тогда и поговорим. Иначе мы ничего не скажем\". Он смачно "
+"сплевывает."
 
 #: 12400
 msgid ""
@@ -56,6 +57,10 @@ msgid ""
 "indicating Fall-from-Grace and Annah, \"away from us and we shall bargain "
 "with you. Until then, we'll have no words with you.\""
 msgstr ""
+"Абишай пялится назад при твоем приближении. \"Убери своих хаотических крыс от "
+"нас, - указывает он на Падшую Грацию и Анну, - тогда и поговорим. А до тех "
+"пор нам не о чем "
+"говорить\"."
 
 #: 12404
 msgid ""
@@ -63,6 +68,9 @@ msgid ""
 "indicating Annah, \"away from us and we shall bargain with you. Until then, "
 "we'll have no words with you.\""
 msgstr ""
+"Абишай пялится назад при твоем приближении. \"Убери свою хаотическую крысу от "
+"нас, - указывает он на Анну, - тогда и поговорим. А до тех пор нам не о чем "
+"говорить\"."
 
 #: 12406
 msgid ""
@@ -70,6 +78,10 @@ msgid ""
 "indicating Fall-from-Grace, \"away from us and we shall bargain with you. "
 "Until then, we'll have no words with you.\""
 msgstr ""
+"Абишай пялится назад при твоем приближении. \"Убери свою хаотическую крысу от "
+"нас, - указывает он на Падшую Грацию, - тогда и поговорим. А до тех пор нам "
+"не о чем "
+"говорить\"."
 
 #: 12408
 msgid ""
@@ -77,6 +89,9 @@ msgid ""
 "vapors coiling from the corner of its mouth. \"Have your memories returned "
 "to you, old friend?\""
 msgstr ""
+"\"Вернулся, транжира? - с шипением улыбается тебе демон, изрыгая тошнотворные "
+"испарения из уголков рта. - Вернулись ли твои воспоминания к тебе, старый "
+"приятель?\""
 
 #: 12409
 msgid "\"What do you mean?\""
@@ -88,28 +103,28 @@ msgid ""
 "did. What do you suppose brings him back to us? What DOES bring you back to "
 "us, friend?\""
 msgstr ""
+"\"Именно так, Аэтелгрин, именно так. Однако глаза его утратили былой блеск. "
+"Как полагаешь, что привело его снова к нам? ЧТО привело тебя к нам, друг?\""
 
 #: 12411
 msgid "\"Who are you?\""
-msgstr "\"Кто ты?\""
+msgstr "\"Кто вы?\""
 
 #: 12412
 msgid "\"What are you doing?\""
-msgstr "\"Что ты делаешь?\""
+msgstr "\"Что вы делаете?\""
 
 #: 12413
 msgid "\"What is this place?\""
 msgstr "\"Что это за место?\""
 
 #: 12414
-#, fuzzy
 msgid "\"Tell me about fiends.\""
-msgstr "\"Расскажи мне о демонах\"."
+msgstr "\"Расскажите мне о демонах\"."
 
 #: 12415
-#, fuzzy
 msgid "\"Do you know a Collector named Pharod?\""
-msgstr "\"Ты знаешь кого-нибудь по имени Фарод?\""
+msgstr "\"Вы знаете Сборщика по имени Фарод?\""
 
 #: 12416
 msgid "\"I'm looking for a journal.\""
@@ -156,7 +171,7 @@ msgid ""
 "my ability to find the best in every situation. This is Aethelgrin, who has "
 "earned himself no special name, though not for lack of trying.\""
 msgstr ""
-"\"Ахх, хорошо сказано. Старый приятель, мы - два абишая, которые покинули "
+"\"Ах, хорошо сказано. Старый приятель, мы - два абишая, которые покинули "
 "свой пост на Бааторе. Я - Тегарин Трижды Проклятый, названный так за "
 "способность изворачиваться в любой ситуации. А это Аэтелгрин, у которого нет "
 "особого имени, хотя не из-за недостатка усердия\"."
@@ -173,8 +188,8 @@ msgid ""
 "to our identities?\""
 msgstr ""
 "Тегарин, в свою очередь игнорируя тебя, отвечает товарищу. \"И снова "
-"повторюсь, что упоминать при удобном случае - лучше, чем не упоминать вовсе"
-"\". Абишай поворачивается к тебе. \"Старый приятель, будет ли это ответом на "
+"повторюсь, что упоминать при удобном случае - лучше, чем не упоминать вовсе, "
+"- абишай поворачивается к тебе. - Старый приятель, будет ли это ответом на "
 "твой вопрос о наших прозвищах?\""
 
 #: 12426
@@ -195,16 +210,20 @@ msgid ""
 "ward of the city carries a delicious tang of pain and supplication. Wouldn't "
 "you agree?\" Again, the fiend smiles broadly at you. "
 msgstr ""
+"\"Непосредственно в данный момент мы развлекаемся в этом... замечательном... "
+"заведении. И, конечно же, мы рады возвращению нашего старого приятеля. Однако "
+"зловонные сквозняки, которые иногда задувают в двери запах добра, несколько "
+"нас уязвляют, физически, психически и духовно ослабляя нас. К счастью, воздух "
+"в этом районе несет восхитительный привкус боли и страданий. Не так ли?\" "
+"Демон снова широко улыбается тебе."
 
 #: 12429
-#, fuzzy
 msgid "\"I had some other questions.\""
-msgstr "\"У меня есть другие вопросы...\""
+msgstr "\"У меня есть другие вопросы\"."
 
 #: 12430
-#, fuzzy
 msgid "\"Indeed. Farewell.\""
-msgstr "\"Конечно. Прощай\"."
+msgstr "\"В самом деле. Прощай\"."
 
 #: 12431
 msgid ""
@@ -289,9 +308,8 @@ msgstr ""
 "сможет помочь тебе\"."
 
 #: 12442
-#, fuzzy
 msgid "\"Perhaps. I had some other questions.\""
-msgstr "\"Возможно, позднее. У меня есть другие вопросы...\""
+msgstr "\"Может быть. У меня есть другие вопросы...\""
 
 #: 12443
 msgid "\"Perhaps. Farewell.\""
@@ -305,9 +323,13 @@ msgid ""
 "against you. Indeed, it can even lead to actions tantamount to desertion... "
 "leaving or losing a journal can cost you your very existence.\""
 msgstr ""
+"\"Потому что, приятель, очень легко совершить ошибку, оставив истинные слова "
+"потомкам, а тому, кому ты прежде верил, - тут он бросает полный язвительности "
+"взгляд на Аэтелгрина, - гораздо легче найти и использовать их против тебя. "
+"Право же, это даже может привести к действиям, равносильным невыполнению "
+"обязательств... потеря или утрата дневника может стоить тебе существования\"."
 
 #: 12446
-#, fuzzy
 msgid "\"I see. I had some questions...\""
 msgstr "\"Понятно. У меня были вопросы...\""
 
@@ -328,12 +350,16 @@ msgid ""
 "\"He asks of him... would our friend inquire of us, did he not know? Or was "
 "suspicious, at the very least.\""
 msgstr ""
+"\"Он спрашивает о нем... стал бы он интересоваться нами, если он не знает? "
+"Или, по крайней мере, подозревает\"."
 
 #: 14692
 msgid ""
 "\"And yet you wonder, Aethelgrin, why your name has yet no appellation?\" "
 "The fiend turns back to you. \"I would be happy to enlighten you.\""
 msgstr ""
+"\"И ты все еще удивляешься, Аэтелгрин, почему у тебя нет собственного "
+"имени?\" Демон обращается к тебе: \"Я буду рад просветить тебя\"."
 
 #: 14693
 msgid ""
@@ -341,6 +367,8 @@ msgid ""
 "it seems to me that our friend, here, remains outside that particular group."
 "\""
 msgstr ""
+"\"Конечно же, да, но не так, как ты! Ни с одним танарри я не могу говорить на "
+"эту тему. Однако мне кажется, что наш выпадает из этой группы\"."
 
 #: 14694
 msgid ""
@@ -349,10 +377,13 @@ msgid ""
 "gentleman you may have seen near him is in the Collector's thrall, though he "
 "does not realize it as such.\""
 msgstr ""
+"\"Именно!\" Демон еще раз обращается к тебе: \"Этот сборщик, мой приятель, - "
+"дьявол, проклятый святым. Молодой привлекательный джентельмен, которого ты, "
+"возможно, видел рядом с ним, - его раб, хоть и не осознающий этого\"."
 
 #: 14695
 msgid "\"Would I, Aethelgrin? I think not.\""
-msgstr ""
+msgstr "\"Разве я могу, Аэтелгрин? Конечно же, нет\"."
 
 #: 14696
 msgid ""
@@ -360,6 +391,9 @@ msgid ""
 "find ourselves in possession of. I can guarantee it's of little or no use to "
 "you, friend, so perhaps...\""
 msgstr ""
+"\"У демона есть кулон, магический артефакт, который мы бы очень рады "
+"заполучить. Могу уверить тебя, приятель, что для тебя он будет практически "
+"бесполезен, поэтому...\""
 
 #: 14697
 msgid "\"...*everything*...\""
@@ -378,6 +412,7 @@ msgid ""
 "\"Alas, even I could not avoid the ruling. Our hands are bound in this "
 "matter, friend.\""
 msgstr ""
+"\"Увы, даже я не могу нарушать правила. Тут мы связаны по рукам, приятель\"."
 
 #: 14700
 msgid "\"Nothing at all, friend.\""
@@ -400,16 +435,21 @@ msgid ""
 "\"Yes, Aethelgrin, it is a shame. We shall remain here, old friend, should "
 "you wisely reconsider.\""
 msgstr ""
+"\"Да, Аэтелгрин, это очень печально. Мы будем здесь, старый приятель, если ты "
+"изменишь свое решение\"."
 
 #: 14704
 msgid ""
 "\"The 'Collector' was an Erinyes. She overstepped her bounds; overcome with "
 "ambition she tried to seduce one well beyond such things.\""
 msgstr ""
+"\"Этот 'Сборщик' - Эриния. Она вышла за свои рамки - переполненная амбициями, "
+"она попыталась соблазнить того, кто выше подобных вещей\"."
 
 #: 14705
 msgid "\"Now, no Erinyes is much a fighter, you see.\""
-msgstr "\"И теперь Эринейс - не такой уж сильный боец, знаешь ли\"."
+msgstr ""
+"\"И теперь, как понимаешь, Эриния - не такая уж и сильная воительница\"."
 
 #: 14706
 msgid ""
@@ -418,7 +458,7 @@ msgid ""
 "carry and usual fiendish resistances, she should be quite easily slain -- "
 "without her dashing young rake nearby, of course.\""
 msgstr ""
-"Демон поворачивается к своему товарищу. \"Да, это точно\". Возвращаясь к "
+"Демон обращается к своему товарищу: \"Да, это точно\". Возвращаясь к "
 "тебе, он шипит: \"Как я уже сказал, без магической веревки, которую носят "
 "все ее Сестры и которая обладает удивительной сопротивляемостью к демонам, "
 "убить ее можно будет довольно просто - конечно же, если поблизости нет "
@@ -430,6 +470,9 @@ msgid ""
 "alone in alley just north of this very establishment, between two buildings. "
 "Seek her out there, near anti-peak.\""
 msgstr ""
+"\"Ах, я как раз к этому и веду, старый приятель. Ты можешь найти ее одну в "
+"переулке между двумя домами к северу от этого хорошего заведения. Он бывает "
+"там незадолго до антипика\"."
 
 #: 14708
 msgid ""
@@ -437,6 +480,9 @@ msgid ""
 "We've fulfilled our part of the bargain; would you be so callous and "
 "uncaring of our ancient friendship to default on yours?\""
 msgstr ""
+"\"О, но сделка уже заключена, приятель. Ты же ведь уже согласился, помнишь? "
+"Мы выполнили свою часть сделки, разве ты столь неотзывчивим и беспечным к "
+"нашей старой дружбе, отказавшись от своих обязательств?\""
 
 #: 14709
 msgid ""
@@ -444,10 +490,13 @@ msgid ""
 "him. \"And have you already forgotten the power we've promised? The talisman "
 "in our hands could make you stronger, friend...\""
 msgstr ""
+"\"В самом деле, Аэтелгрин, - дьявол обеспокоенно обращается к тебе. - Разве "
+"ты забыл о силе, которую мы тебе обещали? Талисман в наших руках может "
+"сделать тебя сильнее, приятель...\""
 
 #: 14710
 msgid "\"Are you certain you would dismiss us so easily?\""
-msgstr ""
+msgstr "\"Ты уверен, что можешь так легко от нас отделаться?\""
 
 #: 14711
 msgid ""
@@ -458,6 +507,12 @@ msgid ""
 "your soul.  You're to be a camp follower in the Blood War when I have my "
 "way, slave to to the whims of the basest of fiends!\""
 msgstr ""
+"\"Я сглупил, Аэтелгрин. Мне стоило заключить письменное соглашение, но я "
+"допустил чудовищный просчет, положившись в этом деле на нашу дружбу, - он "
+"поворачивается к тебя, скалясь. - Будь ты проклят, жалкий человечишка... ты "
+"пожалеешь об это. Знай, что с этого дня Тегарин Трижды-Проклятый желает не "
+"только твоей погибели, но и твою душу. Ты станешь вечным прислужником в "
+"Кровавой Войне, рабом причуд самых низменных демонов!\""
 
 #: 14712
 msgid ""
@@ -465,6 +520,9 @@ msgid ""
 "him, after all...\" The two fiends smile wickedly at each other, then wave "
 "you away."
 msgstr ""
+"\"Нет, не сейчас. Пусть идет своей дорогой. В конце концов, у нас в запасе "
+"целая вечность против него...\" Оба демона многозначительно улыбаются друг "
+"другу."
 
 #: 14713
 msgid ""
@@ -473,6 +531,10 @@ msgid ""
 "wounds heal with time... perhaps once you've fulfilled your end of the "
 "bargain, our friendship will be as it once was. Farewell.\""
 msgstr ""
+"\"Тише, Аэтелгрин! Мы все совершаем ошибки\". Тегарин обращается к тебе, "
+"презрительно скалясь: \"Ты знаешь, что нам от тебя нужно. Время лечит все... "
+"возможно, если ты выполнишь сделку, наша дружба вновь станет прежней. "
+"Прощай\"."
 
 #: 14714
 msgid ""
@@ -481,10 +543,13 @@ msgid ""
 "permanent... until you die, of course, but let's not speak of such things, "
 "old friend.\""
 msgstr ""
+"\"Мы используем его силу, чтобы укрепить тебя... ты обнаружишь, что станешь "
+"физически сильнее и выносливее. Эффект будет постоянным... пока ты не умрешь, "
+"конечно же, но не будем об этом, старый приятель\"."
 
 #: 14715
 msgid "\"Wait... we require the pendant, first.\""
-msgstr ""
+msgstr "\"Постой... Сначала нам нужен кулон\"."
 
 #: 14716
 msgid ""
@@ -493,6 +558,9 @@ msgid ""
 "his eyes alight with a fiery glow. A nimbus of power surrounds the pendant "
 "for a moment -- then nothing."
 msgstr ""
+"\"Да, Аэтелгрин, точно. А теперь пора одарить тебя украденной силой кулона, "
+"старый...\" - демон сжимает кулон в когтях, его глаза ярко загораются. Кулон "
+"на мгновение окружает ореол силы... и ничего не происходит."
 
 #: 14717
 msgid ""
@@ -501,12 +569,18 @@ msgid ""
 "sort of strange magic has been worked upon you, sorcery that somehow "
 "prevents the pendant from empowering you.\""
 msgstr ""
+"\"Я... я не знаю, приятель! - Тегарин выглядит неподдельно удивленным, но "
+"стоящий рядом Аэтелгрин дьявольски улыбается. - Похоже... похоже, над тобой "
+"сотворена какая-то странная магия, колдовство, которое каким-то образом не "
+"позволяет кулону усилить тебя\"."
 
 #: 14718
 msgid ""
 "\"No, my old friend! I most certainly did not. Aethelgrin?\" The fiend "
 "tosses the pendant back to his companion."
 msgstr ""
+"\"Нет, мой старый приятель! Конечно же, я не знал. Аэтелгрин?\" Демон бросает "
+"кулон назад своему спутнику."
 
 #: 14719
 msgid ""
@@ -514,15 +588,18 @@ msgid ""
 "removed -- we may use the pendant to your benefit. You know where to find "
 "us, should you succeed in this.\" The devil smiles at you."
 msgstr ""
+"\"Мне искренне жаль, драгоценнейший приятель. Возможно, когда эта магия будет."
+".. убрана... мы сможем применить кулон тебе во благо. Как только тебе это "
+"удасться, ты знаешь где нас искать\". Демон улыбается тебе."
 
 #: 14720
 msgid "Tegar'in shakes his sadly."
-msgstr ""
+msgstr "Тегарин печально качает головой."
 
 #: 14721
 msgid ""
 "\"It is ours, now, by right. Remember the bargain, friend of long years.\""
-msgstr ""
+msgstr "\"Он наш по праву. Помни о договоре, приятель давних лет\"."
 
 #: 14722
 msgid ""
@@ -530,31 +607,36 @@ msgid ""
 "thoughtless manner? Please, I beg of you... do not betray such an ancient "
 "camaraderie. Return the pendant.\""
 msgstr ""
+"\"О, как печально... ты в самом деле разорвешь нашу дружбу этим бездумным "
+"поступком? Пожалуйста, прошу тебя... не предавай старых товарищей. Верни "
+"кулон\"."
 
 #: 14723
-#, fuzzy
 msgid "\"Yes, let's.\""
-msgstr "\"Хорошо, по рукам\"."
+msgstr "\"Да, давай\"."
 
 #: 14724
 msgid ""
 "\"Well...\" The two fiends smile at one another, then nod. \"In that case..."
 "\""
 msgstr ""
+"\"Что же, - оба демона, улыбнувшись друг другу, кивают, - в таком случае...\""
 
 #: 14725
 msgid "\"Look, he has returned, and with the pendant!\""
-msgstr ""
+msgstr "\"Смотри, смотри - он вернулся, и с кулоном!\""
 
 #: 14726
 msgid ""
 "\"Ah, look who has returned. So sorry, friend, but we won't be speaking to "
 "you until you've got our pendant. Farewell.\""
 msgstr ""
+"\"О, смотри, кто вернулся. Очень жаль, приятель, но пока ты не принесешь нам "
+"кулон, мы не станем с тобой разговаривать. Прощай\"."
 
 #: 14727
 msgid "\"Well, well... Betrayer of Friends!\""
-msgstr ""
+msgstr "\"Так, так... Предатель пожаловал!\""
 
 #: 14728
 msgid ""
@@ -562,41 +644,38 @@ msgid ""
 "follows your words. Finally, Tegar'in speaks: \"Very well. 'Tis a shame... "
 "friend.\""
 msgstr ""
+"За твоими словами последовала долгая, тревожная тишина. Дьяволы холодно "
+"смотрят на тебя. Наконец, Тегарин говорит: \"Хорошо. Очень жаль... приятель\"."
 
 #: 14767
-#, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Нет! Нет!..\""
+msgstr "\"Продолжай...\""
 
 #: 14768
 msgid "\"What pendant?\""
 msgstr "\"Какой кулон?\""
 
 #: 14769
-#, fuzzy
 msgid "\"I'll have to hear this another time. Farewell.\""
-msgstr "\"Я выслушаю оставшуюся часть истории в другой раз. Прощай\"."
+msgstr "\"Я выслушаю вас в другой раз. Прощайте\"."
 
 #: 14770
 msgid "\"What does the pendant do?\""
 msgstr "\"Что делает кулон?\""
 
 #: 14771 14775
-#, fuzzy
 msgid "\"Agreed.\""
-msgstr "\"Конечно. Прощай\"."
+msgstr "\"Согласен\"."
 
 #: 14772 14776
-#, fuzzy
 msgid "\"No. No deal.\""
-msgstr "\"На самом деле, нет\"."
+msgstr "\"Нет. Никакой сделки\"."
 
 #: 14773
 msgid "\"Tell me, or there'll be no deal.\""
-msgstr "\"Скажи мне, или никакой сделки не будет\"."
+msgstr "\"Скажите, или никакой сделки не будет\"."
 
 #: 14774
-#, fuzzy
 msgid "\"Why don't you seize it yourself?\""
 msgstr "\"А почему вы не заберете его сами?\""
 
@@ -609,30 +688,29 @@ msgid "\"How would I get her alone?\""
 msgstr "\"И как мне застать ее одной?\""
 
 #: 14780 14782
-#, fuzzy
 msgid "\"No, you're right.\""
-msgstr "\"Забудь\"."
+msgstr "\"Нет, вы правы\"."
 
 #: 14781
 msgid "\"Yes.\""
 msgstr "\"Да\"."
 
+# Ответ на вопрос Тегарина: "Ты уверен, что можешь так легко от нас отделаться?"
 #: 14783
 msgid "\"Yes, I just can't do this.\""
-msgstr ""
+msgstr "\"Да, уверен\"."
 
 #: 14784
 msgid "\"Wait! Wait! I've reconsidered!\""
-msgstr ""
+msgstr "\"Стойте! Стойте! Я передумал!\""
 
 #: 14785 14786 14811
 msgid "Leave."
 msgstr "Уйти."
 
 #: 14787 14792
-#, fuzzy
 msgid "\"Here is the pendant, then.\""
-msgstr "\"Вот этот кулон\"."
+msgstr "\"Вот этот кулон\""
 
 #: 14788 14789
 msgid "\"I had other questions...\""
@@ -643,67 +721,61 @@ msgid "\"That's all I wished to know. Farewell.\""
 msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 14793 14807 14810
-#, fuzzy
 msgid "\"I have decided to keep the pendant.\""
-msgstr "\"Постой... У меня есть кулон\"."
+msgstr "\"Я решил оставить кулон себе\"."
 
 #: 14794
-#, fuzzy
 msgid "\"What happened?\""
 msgstr "\"Что произошло?\""
 
 #: 14795
 msgid "\"What?! Did you know of this beforehand?\""
-msgstr ""
+msgstr "\"Что?! Ты знал об этом?\""
 
 #: 14796
 msgid ""
 "\"Give the pendant back, then. I'll return it when the magic has been "
 "removed.\""
 msgstr ""
+"\"Тогда верни назад кулон. Я верну его, как только магия будет развеяна\"."
 
 #: 14797
-#, fuzzy
 msgid "Attack the fiends."
 msgstr "Атаковать демонов."
 
 #: 14798
-#, fuzzy
 msgid "\"Hmph. Farewell.\""
 msgstr "\"Хм. Прощай\"."
 
 #: 14799
 msgid "\"Very well. Here is the pendant.\""
-msgstr ""
+msgstr "\"Хорошо. Вот кулон\"."
 
 #: 14800
 msgid "\"No, I think I'll keep it for now.\""
-msgstr ""
+msgstr "\"Нет, думаю, лучше я оставлю его у себя\"."
 
 #: 14801
 msgid "\"Very well. Here it is.\""
-msgstr ""
+msgstr "\"Хорошо Вот он\"."
 
 #: 14802
 msgid "\"No. Not going to happen.\""
-msgstr ""
+msgstr "\"Нет, не отдам\"."
 
 #: 14803
-#, fuzzy
 msgid "Meet their attack."
-msgstr "Позволить ей работать."
+msgstr "Встретить нападение."
 
 #: 14804
-#, fuzzy
 msgid "Flee with the pendant."
-msgstr "\"Вот этот кулон\"."
+msgstr "Бежать с кулоном."
 
 #: 14805 14808
 msgid "\"Wait -- what sort of power will you be giving me?\""
-msgstr ""
+msgstr "\"Постойте, что за силу в дадите мне?\""
 
 #: 14806 14809
-#, fuzzy
 msgid "\"Here is the pendant.\""
 msgstr "\"Вот этот кулон\"."
 
@@ -713,7 +785,7 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 14813
 msgid "\"That's all. Farewell.\""
-msgstr ""
+msgstr "\"Вот и все. Прощайте\"."
 
 #: 3058
 msgid ""
@@ -728,7 +800,7 @@ msgstr ""
 "- у обоих проколото левое ухо, оба - рептилии черного оттенка со сложенными "
 "сзади перепончатыми крыльями. Только у этого небольшой шрам под левым "
 "глазом. Увидев Анну и Падшую Грацию рядом с тобой, он скрежещет зубами, "
-"шипя: \"Убери своих червей с Бездны, тогда заговорим. Иначе мы ничего не "
+"шипя: \"Убери своих червей с Бездны, тогда и поговорим. Иначе мы ничего не "
 "скажем\". Он смачно сплевывает."
 
 #: 3060
@@ -740,9 +812,11 @@ msgid ""
 "\"Take the little fiendling vermin away and we'll talk. 'Til then, we say "
 "nothing.\" It spits again for good measure."
 msgstr ""
-"Ты видишь чешуйчатого демона, очень похожего на его собрата, стоящего рядом "
-"- у обоих проколото левое ухо, оба - рептилии черного оттенка со сложенными "
-"сзади перепончатыми крыльями. Только у этого небольшой шрам под левым "
-"глазом. Увидев Анну рядом с тобой, он скрежещет зубами, шипя: \"Убери своего "
-"демонического червя, тогда заговорим. Иначе мы ничего не скажем\". Он смачно "
-"сплевывает."
+"Ты видишь чешуйчатого демона, очень похожего на его собрата, стоящего рядом - "
+"у обоих проколото левое ухо, оба - рептилии черного оттенка со сложенными "
+"сзади перепончатыми крыльями. Только у этого небольшой шрам под левым глазом. "
+"Увидев Анну рядом с тобой, он скрежещет зубами, шипя: \"Убери своего "
+"демонического червя, тогда и поговорим. Иначе мы ничего не скажем\". Он "
+"смачно сплевывает."
+
+
