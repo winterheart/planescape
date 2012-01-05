@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dsabast.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:13+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-01-05 22:19+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,6 +19,9 @@ msgid ""
 "He gives you a slight bow as you approach. \"Good day, cutter. I am "
 "Sebastion, how may I serve you?\""
 msgstr ""
+"Ты видишь пожилого мужчину в элегантных одеждах. У него ясный взгляд и "
+"теплая улыбка. Когда ты подходишь, он делает небольшой поклон. \"Добрый "
+"день, рубака. Я Себастион. Чем могу быть полезен?\""
 
 #: 37466 50447
 msgid "\"Greetings.\""
@@ -36,19 +39,23 @@ msgid ""
 "do for you, but there is no need. I think I see why you came to see me, "
 "cutter.\"  "
 msgstr ""
+"\"Приветствую и тебя, рубака...\" Его речь обрывается на полуслове, когда он "
+"замечает твои шрамы. Ты видишь, как его глаза блуждают по ним, а брови "
+"поднимаются от удивления. Он переводит взгляд на тебя. \"Я собирался было "
+"спросить, что я могу для тебя сделать, но в этом нет надобности. Думаю, я "
+"знаю, зачем ты ко мне пришел, рубака\"."
 
 #: 37469 37511 37641 37676
 msgid "\"I have some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 37470 37478 37619 37623 37627 37636
-#, fuzzy
 msgid "\"Actually, I want to talk to you about Dimtree.\""
-msgstr "\"Позволь мне спросить кое о чем еще...\""
+msgstr "\"Вообще-то, я хочу поговорить с тобой насчет Димтри\"."
 
 #: 37471
 msgid "\"What... are you trying to say you can help me with these scars?\""
-msgstr ""
+msgstr "\"Что... ты хочешь сказать, что можешь помочь мне со шрамами?\""
 
 #: 37472 37550 37643
 msgid "\"Never mind. Farewell.\""
@@ -57,6 +64,7 @@ msgstr "\"Неважно. Прощай\"."
 #: 37473
 msgid "His smile broadens as he gives you a slight bow. \"Ask away, cutter.\""
 msgstr ""
+"Его улыбка расширяется, и он делает легкий поклон. \"Спрашивай, рубака\"."
 
 #: 37474
 msgid "\"Who are you?"
@@ -67,39 +75,38 @@ msgid "\"What is this place?\""
 msgstr "\"Что это за место?\""
 
 #: 37476
-#, fuzzy
 msgid "\"What's going on around here?\""
-msgstr "\"А что опасного в округе?\""
+msgstr "\"Что происходит в округе?\""
 
 #: 37477
 msgid "\"I had a talking skull and he was kidnapped. Can you help me?"
-msgstr ""
+msgstr "\"У меня есть говорящий череп, и его похитили. Ты можешь мне помочь?\""
 
 #: 37479
 msgid "\"I got the impression that you can help me with my scars.\""
-msgstr ""
+msgstr "\"Я так понял, ты можешь помочь мне со шрамами\"."
 
 #: 37480 37485 37489 37493 37498 37502 37508 37512 37518 37528 37531 37534
-#, fuzzy
 msgid "\"I must go now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай\"."
+msgstr "\"Я уже должен идти. Прощай\"."
 
 #: 37481
 msgid ""
 "\"I am Sebastion, a... mage of sorts. I do contract work for those who can "
 "meet my price.\""
 msgstr ""
+"\"Я Себастион... в некотором роде, маг. Я оказываю услуги тем, кого "
+"устраивают мои расценки\"."
 
 #: 37482
 msgid "\"What kind of work?\""
-msgstr ""
+msgstr "\"Какого рода услуги?\""
 
 #: 37483 37487
 msgid "\"You hesitate to use the word *mage.* Why?\""
-msgstr ""
+msgstr "\"Ты не решаешься употребить слово *маг*. Почему?\""
 
 #: 37484 37488 37492 37501 37507
-#, fuzzy
 msgid "\"I have more questions...\""
 msgstr "\"У меня есть еще вопросы...\""
 
@@ -110,6 +117,10 @@ msgid ""
 "come to me with quests. If I can perform them, I do so. If I can not, I "
 "don't. In either case, I keep silent.\""
 msgstr ""
+"Он слегка улыбается и пожимает плечами. \"Частные дела, рубака. Я известен "
+"своей осторожностью и умением доводить дело до конца. Люди приходят ко мне с "
+"поручениями. Если я могу их выполнить, я берусь за них. Если не могу - не "
+"берусь. В любом случае, я храню молчание\"."
 
 #: 37490
 msgid ""
@@ -118,27 +129,32 @@ msgid ""
 "my own path.\" He pauses and shrugs his shoulders. \"It is easier to call me "
 "a mage than to argue the point.\""
 msgstr ""
+"Он кивает. \"Да... я не маг, рубака, но я могу использовать Искусство по-"
+"своему. Я забросил обычное обучение магии и пошел по собственному пути, - он "
+"останавливается и пожимает плечами. - Проще назвать меня магом, чем спорить "
+"об этом\"."
 
 #: 37491
 msgid "\"What kind of work do you do?\""
-msgstr ""
+msgstr "\"Какого рода услуги ты оказываешь?\""
 
 #: 37494
 msgid ""
 "He gives you a quizzical look. \"Do you mean this market, or this ward of "
 "Sigil?\""
 msgstr ""
+"Он недоумевающе смотрит на тебя. \"Ты имеешь в виду этот рынок или этот "
+"район Сигила?\""
 
 #: 37495
 msgid "\"The market.\""
-msgstr ""
+msgstr "\"Рынок\"."
 
 #: 37496
 msgid "\"This ward.\""
-msgstr ""
+msgstr "\"Этот район\"."
 
 #: 37497
-#, fuzzy
 msgid "\"Never mind. I have other questions...\""
 msgstr "\"Неважно. У меня есть другие вопросы...\""
 
@@ -148,11 +164,13 @@ msgid ""
 "Spells, potions, information, women, men... Just about anything, if you can "
 "afford the price.\""
 msgstr ""
+"\"Это обычный рынок, рубака. Здесь много чего продается: заклинания, "
+"снадобья, сведенья, женщины, мужчины... Практически все, если ты можешь за "
+"это заплатить\"."
 
 #: 37500
-#, fuzzy
 msgid "\"Tell me about this ward.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне об этом районе\"."
 
 #: 37503
 msgid ""
@@ -160,16 +178,17 @@ msgid ""
 "industrial side of Sigil. It's not the slums of the Hive, yet it holds no "
 "splendor such as the Lady's Ward.\""
 msgstr ""
+"\"Это Нижний район, рубака. Дом для обычных людей и промышленная зона "
+"Сигила. Это не трущобы Улья, и все же тут нет такой роскоши, как в районе "
+"Леди\"."
 
 #: 37504
-#, fuzzy
 msgid "\"Tell me about the market.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне о рынке\"."
 
 #: 37506
-#, fuzzy
 msgid "\"Why is it called the Lower Ward?\""
-msgstr "\"Почему его называют Ульем?\""
+msgstr "\"Почему его называют Нижним районом?\""
 
 #: 37509
 msgid ""
@@ -178,11 +197,16 @@ msgid ""
 "common or *lower* classes. If you ask those who live here it's because of "
 "the portals... and the incident.\""
 msgstr ""
+"Он издает смешок и пожимает плечами. \"Это зависит от твоей точки зрения, "
+"рубака. Богач скажет, что это из-за того, что тут живут простые люди, "
+"*низший* класс. Местные ответят, что это из-за порталов... и одного инцидента"
+"\"."
 
 #: 37510
 msgid "\"The incident?\""
-msgstr ""
+msgstr "\"Инцидента?\""
 
+# район длля первичников?:)
 #: 37513
 msgid ""
 "\"Yes...\" He frowns as he pauses to think.  \"A long time ago this was "
@@ -192,11 +216,15 @@ msgid ""
 "rebellion. It went nowhere, of course, until he made a fascinating "
 "discovery...\""
 msgstr ""
+"\"Да... - он хмурится, задумавшись на миг. - Когда-то давно это был Исходный "
+"район. Сюда помещали новых переселенцев, и у них не было доступа к "
+"остальному Сигилу. Также у них было много других ограничений... Какой-то "
+"пень обиделся на все это и решил поднять восстание. Конечно, оно шло к "
+"провалу, но тут он сделал замечательное открытие...\""
 
 #: 37514 37566 37581
-#, fuzzy
 msgid "\"Go on.\""
-msgstr "\"Нет, не нужна\"."
+msgstr "\"Продолжай\"."
 
 #: 37515
 msgid ""
@@ -207,15 +235,21 @@ msgid ""
 "Anyway, that's why this is known as the *lower* ward. Because of the portals."
 "\""
 msgstr ""
+"\"Видишь ли, в этой части города есть множество порталов, и большинство из "
+"них ведут в Нижние планы. Так вот, тот спятивший пень выяснил, как открыть "
+"их всех сразу. Он позволил *всем* желающим войти через порталы в город. Было "
+"пролито много крови: развязалась страшная война. Как бы там ни было, из-за "
+"этого он и называется *нижним* районом. Из-за порталов\"."
 
 #: 37516
 msgid "\"Sebastion, how did this person open all the gates?\""
-msgstr ""
+msgstr "\"Себастион, а как этот человек открыл все порталы?\""
 
 #: 37517 37530 37667
 msgid "\"I see. I have some other questions...\""
 msgstr "\"Понятно. У меня были еще вопросы...\""
 
+# sorcelled = ensorcelled
 #: 37519
 msgid ""
 "\"He used an item that he either had commissioned or made himself. What was "
@@ -224,16 +258,23 @@ msgid ""
 "world around you freezes, and everything turns gray. You sense a past memory "
 "trying to force it's way into your consciousness."
 msgstr ""
+"\"Он воспользовался предметом, который то ли заказал, то ли сделал сам. Как "
+"же он назывался... - он задумывается на миг. - А, вспомнил: Ключ Теневых "
+"Чар...\" При упоминании ключа ты чувствуешь головокружение, мир вокруг "
+"застывает, и все становится серым. Ты ощущаешь, что в твое сознание пытаются "
+"проникнуть старые воспоминания."
 
 #: 37520 37521
 msgid "Relax and let it come."
-msgstr ""
+msgstr "Расслабиться и позволить им всплыть."
 
 #: 37522
 msgid ""
 "I remember something about a rebellion in the Lower Ward. I either caused it "
 "or played a significant role in it. I don't know which."
 msgstr ""
+"Я вспомнил что-то о восстании в Нижнем районе. Я то ли послужил его "
+"причиной, то ли сыграл в нем ключевую роль. Точно я не знаю."
 
 #: 37523
 msgid ""
@@ -241,10 +282,13 @@ msgid ""
 "now. Many believe the Lady of Pain took the key to prevent it ever being "
 "used again.\""
 msgstr ""
+"Он пожимает плечами. \"Никто не знает. С тех пор ключа никто не видел. "
+"Многие считают, что его забрала Леди Боли, чтобы никто им больше не "
+"воспользовался\"."
 
 #: 37524
 msgid "So, what was the outcome of the rebellion?\""
-msgstr ""
+msgstr "\"Ну и чем закончилось восстание?\""
 
 #: 37525
 msgid ""
@@ -254,22 +298,27 @@ msgid ""
 "the Lower Planes had polluted the air, you see. Anyway, the ward remained "
 "deserted until the Foundry was eventually built.\""
 msgstr ""
+"На мгновение он задумывается. \"Ну... Все, кроме предводителя, попали на "
+"страницы книги мертвых. Предводитель и пришедшие твари просто исчезли в один "
+"прекрасный день - без сомнений, это дело рук Леди. Выжившие спаслись "
+"бегством из района. Видишь ли, воздух загрязнился испарениями с Нижних "
+"планов. Как бы там ни было, район пустовал, покуда не построили Литейную\"."
 
 #: 37526
-#, fuzzy
 msgid "\"What can you tell me about the Foundry?\""
-msgstr "\"Что ты можешь рассказать об этой таверне?\""
+msgstr "\"Что ты можешь рассказать мне о Литейной?\""
 
 #: 37527
-#, fuzzy
 msgid "\"I have some other questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще несколько вопросов...\""
 
 #: 37529
 msgid ""
 "He frowns. \"It is the home of the Godsmen, cutter. If you have any "
 "questions regarding them, I suggest you go to the Foundry to ask them.\" "
 msgstr ""
+"Он хмурится. \"Это жилище Боголюдей, рубака. Если у тебя есть какие-либо "
+"вопросы, касающиеся их, советую сходить в Литейную и расспросить их самих\". "
 
 #: 37532
 msgid ""
@@ -277,11 +326,13 @@ msgid ""
 "and spreads his arms as if to encompass the whole ward. \"Life, cutter. Life "
 "as usual, nothing more.\""
 msgstr ""
+"Он подозрительно смотрит на тебя. \"О чем это ты, рубака? - он оглядывается "
+"и разводит руки, как бы охватывая весь район. - Жизнь, рубака. Обычная "
+"жизнь, не более\"."
 
 #: 37533
-#, fuzzy
 msgid "\"All right, I have other questions...\""
-msgstr "\"Хорошо. У меня есть другие вопросы...\""
+msgstr "\"Ладно, у меня есть другие вопросы...\""
 
 #: 37535
 msgid ""
@@ -290,16 +341,17 @@ msgid ""
 "of the Master of the Bones. Which means you should get yourself another "
 "skull, cutter.\""
 msgstr ""
+"Он некоторое время смотрит на тебя, после чего отвечает: \"Череп... что ж, "
+"рискну предположить, что теперь он принадлежит Повелителю Костей. Это "
+"значит, что тебе придется найти себе другой череп, рубака\"."
 
 #: 37536 37544
-#, fuzzy
 msgid "\"What can you tell me about the Master of the Bones?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Что ты можешь рассказать о Повелителе Костей?\""
 
 #: 37537 37540
-#, fuzzy
 msgid "\"Where can I find this Master of the Bones?\""
-msgstr "\"Где я могу найти этого Фарода?\""
+msgstr "\"Где я могу найти этого Повелителя Костей?\""
 
 #: 37538
 msgid "\"I see. Farewell.\""
@@ -312,11 +364,14 @@ msgid ""
 "no questions about him.\" You can actually see a hint of fear in his eyes. "
 "\"Let us speak of another subject, cutter.\""
 msgstr ""
+"Он хмурится и смотрит по сторонам. \"Его зовут Лотар, и он не любит внимания "
+"со стороны. Я ничего о нем не знаю и не могу ответить на вопросы о нем, - ты "
+"замечаешь в его взгляде намек на испуг. - Давай поговорим на другую тему, "
+"рубака\"."
 
 #: 37541 37545
-#, fuzzy
 msgid "\"Very well, I have other questions...\""
-msgstr "\"Очень хорошо. У меня есть другие вопросы...\""
+msgstr "\"Хорошо, у меня есть другие вопросы...\""
 
 #: 37542 37546 62177 64653
 msgid "\"Farewell.\""
@@ -328,19 +383,24 @@ msgid ""
 "his demesne. I know nothing more.\" You can actually see a hint of fear in "
 "his eyes. \"Let us speak of another subject, cutter.\""
 msgstr ""
+"Он взволнованно осматривается по сторонам. \"Где-то в этом районе есть "
+"разрушенный дом, ведущий в его владения. Больше я ничего не знаю, - ты "
+"замечаешь в его взгляде намек на испуг. - Давай поговорим на другую тему, "
+"рубака\"."
 
 #: 37547
 msgid ""
 "He stares at you for a moment and then sighs. \"What about Dimtree, cutter?\""
-msgstr ""
+msgstr "Он пристально смотрит на тебя и вздыхает. \"А что с Димтри, рубака?\""
 
 #: 37548
 msgid "\"He wants to be released from his curse.\""
-msgstr ""
+msgstr "\"Он хочет освободиться от проклятия\"."
 
+# complement = compliment
 #: 37549
 msgid "\"I just wanted to complement you on a job well done.\""
-msgstr ""
+msgstr "\"Я просто хотел похвалить тебя за хорошо выполненную работу\"."
 
 #: 37551
 msgid ""
@@ -348,6 +408,9 @@ msgid ""
 "believe, cutter. Dimtree doesn't have the mental power to desire anything.\" "
 "He frowns for a moment. \"Did that idiot Hamrys put you up to this?\""
 msgstr ""
+"Он смотрит на тебя удивленно, затем отмахивается. \"Мне трудно в это "
+"поверить, рубака. Димтри умственно неспособен что-либо желать, - на миг он "
+"мрачнеет. - Это тот идиот Хамрис подговорил тебя на это?\""
 
 #: 37552
 msgid "\"No.\""
@@ -358,10 +421,12 @@ msgid ""
 "\"Think about it, Sebastion. Hamrys doesn't know Dimtree is a zombie, let "
 "alone who created him. Right?\""
 msgstr ""
+"\"Подумай, Себастион: Хамрис ведь не знает, что Димтри - зомби, не говоря "
+"уже о том, кто его создал. Верно?\""
 
 #: 37555
 msgid "\"What difference does it make?\""
-msgstr ""
+msgstr "\"А какое это имеет значение?\""
 
 #: 37556
 msgid ""
@@ -370,11 +435,14 @@ msgid ""
 "exasperation. \"Which means that poor Dimtree is more aware than I thought."
 "\" He looks away from you and seems to be deep in thought."
 msgstr ""
+"Он задумчиво смотрит на тебя. \"Хм-м. Хамрису не хватает мозгов. Сомневаюсь, "
+"что он способен выяснить, кто это сделал, - он вздыхает и раздраженно "
+"пожимает плечами. - Это означает, что бедняга Димтри оказался более "
+"сознательным, чем я думал\". Он смотрит вдали, погрузившись в мысли."
 
 #: 37557 37559
-#, fuzzy
 msgid "\"So, will you release him?\""
-msgstr "\"Даккон, ты можешь перевести мне?\""
+msgstr "\"Так ты его освободишь?\""
 
 #: 37558
 msgid ""
@@ -382,6 +450,9 @@ msgid ""
 "Hamrys could not have sent you. I guess poor Dimtree is more aware than I "
 "intended. A pox on me for my stupidity!\""
 msgstr ""
+"Он вздыхает; похоже, он глубоко задумался. \"Да... конечно же, ты прав. "
+"Хамрис не мог тебя послать. Похоже, бедняга Димтри оказался более "
+"сознательным, чем я думал. Чтоб меня оспа побила за мою глупость!\""
 
 #: 37560
 msgid ""
@@ -391,28 +462,39 @@ msgid ""
 "contract by creating Dimtree and I cannot break it, right or wrong. I am a "
 "man of my word, my reputation demands it.\""
 msgstr ""
+"На секунду он задерживает на тебе взгляд; его лицо перекашивает от "
+"внутренней борьбы. Он вздыхает и вскидывает руки от досады. \"Прости, но я "
+"не могу, - он смотрит на тебя умоляюще. - Пойми, я хотел бы, но не могу. Я "
+"создал Димтри по контракту, и не могу нарушить его, вне зависимости от того, "
+"правильно это или нет. Я человек слова - от этого зависит моя репутация\"."
 
 #: 37561
 msgid ""
 "Truth: \"I understand your dilemma and agree with you. Could I release him "
 "instead?\""
 msgstr ""
+"Правда: \"Я понимаю твое затруднительное положение и согласен с тобой. Могу "
+"ли я сам его освободить?\""
 
 #: 37562 37574
 msgid ""
 "Truth: \"I really don't give a rat's arse about contracts. What you did is "
 "wrong and he needs to be freed.\""
 msgstr ""
+"Правда: \"Да мне плевать на все эти контракты. Ты поступил неправильно, и "
+"его нужно освободить\"."
 
 #: 37563
 msgid "\"Who contracted you? Maybe I can get them to agree to his release.\""
-msgstr ""
+msgstr "\"Кто тебя нанял? Может, я смогу убедить их освободить его\"."
 
 #: 37564
 msgid ""
 "\"Yeah, well I really don't care one way or another. I just agreed to try "
 "and help him. Farewell.\""
 msgstr ""
+"\"Ага. Так или иначе, мне все равно. Я просто согласился помочь ему. Прощай"
+"\"."
 
 #: 37565
 msgid ""
@@ -422,6 +504,10 @@ msgid ""
 "able to properly speak the words you find on page twenty-three of this book."
 "\""
 msgstr ""
+"\"Это будет непросто...\" Он поворачивается и начинает рыться в коробке "
+"возле него. Через миг он достает книгу и кладет ее перед тобой. \"Во-первых, "
+"у тебя должны быть хоть какие-то магические способности. Во-вторых, ты "
+"должен суметь прочесть вслух слова на двадцать третьей странице этой книги\"."
 
 #: 37567
 msgid ""
@@ -431,16 +517,19 @@ msgid ""
 "tantamount to my breaking my word through the actions of another.\" He "
 "continues poking through the box, ignoring you."
 msgstr ""
+"\"И последнее: ты должен прикоснуться к Димтри, как только почувствуешь, как "
+"сила слов в тебе достигла наивысшей точки, - он поворачивается к тебе спиной "
+"и роется в другой коробке. - Однако я не могу позволить тебе читать эту "
+"книгу. Это будет равносильно нарушению моего слова действиями другого "
+"человека\". Он продолжает копаться в коробке, игнорируя тебя."
 
 #: 37569
-#, fuzzy
 msgid "Read the book and leave."
-msgstr "Взять мешочек и уйти."
+msgstr "Прочесть книгу и уйти."
 
 #: 37570
-#, fuzzy
 msgid "Ignore the book and leave."
-msgstr "Взять мешочек и уйти."
+msgstr "Проигнорировать книгу и уйти."
 
 #: 37571
 msgid ""
@@ -448,6 +537,9 @@ msgid ""
 "allowed me to learn it from his book, although he pretended not to notice "
 "what I was doing."
 msgstr ""
+"Я изучил заклинание, необходимое для освобождения зомби Димтри. Себастион "
+"позволил прочесть его из книги, хотя и притворился, что не заметил, как я "
+"это делаю."
 
 #: 37572
 msgid ""
@@ -455,16 +547,20 @@ msgid ""
 "cutter. That is why people come to me. They know that if I accept a "
 "contract, it will be handled with discretion.\""
 msgstr ""
+"Он улыбается тебе. \"Я магически принужден не раскрывать подобные сведенья, "
+"рубака. Поэтому люди и приходят ко мне. Они знают, что если я возьмусь за "
+"контракт, то выполню его должным образом\"."
 
 #: 37573
 msgid ""
 "Truth: \"I understand, that's the way business should be conducted. Could I "
 "release him instead?\""
 msgstr ""
+"Правда: \"Я понимаю, так и нужно вести дела. Могу ли я сам его освободить?\""
 
 #: 37575
 msgid "\"Never mind. I don't really want to deal with this. Farewell.\""
-msgstr ""
+msgstr "\"Неважно. На самом деле, я не хочу в этом участвовать. Прощай\"."
 
 #: 37576
 msgid ""
@@ -474,15 +570,19 @@ msgid ""
 "\"Yes, cutter, I can help you. I cannot cure you, but I can alleviate the "
 "worst of your... condition.\""
 msgstr ""
+"Он улыбается и пожимает плечами. \"Возможно, рубака, возможно\". Он "
+"наклоняется вперед и начинает тщательно осматривать твои шрамы. Он проводит "
+"пальцем по нескольким из них, что-то бормоча. Наконец он поднимает на тебя "
+"взгляд. \"Да, рубака, я могу тебе помочь. Я не в силах тебя исцелить, но я "
+"могу облегчить самое тяжелое из твоих... расстройств\"."
 
 #: 37577
 msgid "\"And your price?\""
-msgstr ""
+msgstr "\"И какова цена?\""
 
 #: 37578
-#, fuzzy
 msgid "\"Yeah, right. I have some questions for you...\""
-msgstr "\"Пока нет. У меня несколько вопросов к тебе...\""
+msgstr "\"Ага, точно. У меня несколько вопросов к тебе...\""
 
 #: 37580
 msgid ""
@@ -490,15 +590,18 @@ msgid ""
 "get the impression you are being weighed somehow. He seems to come to some "
 "sort of a decision. \"I have a job that I think you could perform.\""
 msgstr ""
+"\"Ах, да... цена\". Он начинает поглаживать подбородок, пристально глядя на "
+"тебя. У тебя создается впечатление, что тебя оценивают. Похоже, он принимает "
+"какое-то решение. \"У меня есть для тебя работа, которую ты сможешь "
+"выполнить, как мне кажется\"."
 
 #: 37582
-#, fuzzy
 msgid "\"Forget it. I have other questions for you...\""
-msgstr "\"Ясно. У меня есть другие вопросы для тебя...\""
+msgstr "\"Забудь. У меня есть другие вопросы для тебя...\""
 
 #: 37583
 msgid "\"I'm not interested in any jobs. Farewell.\""
-msgstr ""
+msgstr "\"Работа меня не интересует. Счастливо\"."
 
 #: 37584
 msgid ""
@@ -507,18 +610,21 @@ msgid ""
 "will not release me from the contract. Instead it has threatened me with "
 "death unless I fulfill the contract.\""
 msgstr ""
+"\"Я подписал контракт с одним существом. Я больше не могу его выполнять; "
+"это... выше моих сил. Однако существо не освободит меня от обязательств. "
+"Напротив, оно угрожало мне расправой, если я не выполню контракт\"."
 
 #: 37585
 msgid "\"Let me guess: You want me to solve this problem for you.\""
-msgstr ""
+msgstr "\"Дай, угадаю: ты хочешь, чтобы я решил эту проблему\"."
 
 #: 37587
 msgid "\"I'm not interested. I have some questions for you...\""
-msgstr ""
+msgstr "\"Мне это неинтересно. У меня к тебе несколько вопросов...\""
 
 #: 37589
 msgid "\"I don't like the way this is going. Farewell.\""
-msgstr ""
+msgstr "\"Мне не нравится, к чему все идет. Прощай\"."
 
 #: 37591
 msgid ""
@@ -526,16 +632,17 @@ msgid ""
 "the contract or face the consequences. I am at your mercy in this regard. "
 "Will you help me?\""
 msgstr ""
+"Он вздыхает. \"Да. Я не могу сделать это сам. Моя репутация требует, чтобы я "
+"выполнил контракт либо понес за него ответственность. В этом отношении я "
+"полагаюсь на твою милость. Ты мне поможешь?\""
 
 #: 37593 37602
-#, fuzzy
 msgid "\"What kind of creature are we talking about?\""
-msgstr "\"О чем это ты толкуешь?\""
+msgstr "\"О каком существе идет речь?\""
 
 #: 37595 37599
-#, fuzzy
 msgid "\"What were you contracted to do?\""
-msgstr "\"Что у тебя есть из выпивки?\""
+msgstr "\"Что ты должен был сделать по контракту?\""
 
 #: 37597
 msgid ""
@@ -543,11 +650,14 @@ msgid ""
 "know this is a difficult task, but one I think you can handle. Also, the "
 "reward I offer you is great.\" He gestures at your scars."
 msgstr ""
+"\"Это абишай по имени Гросук, рубака, - он останавливается, чтобы оценить "
+"твою реакцию. - Я знаю, что это непростая задача, но мне кажется, что ты "
+"можешь с ней справиться. К тому же, я предлагаю неплохое вознаграждение\", - "
+"он указывает на твои шрамы."
 
 #: 37600 37603
-#, fuzzy
 msgid "\"I see, an interesting proposal.\""
-msgstr "\"Теперь понятно. Еще вопрос...\""
+msgstr "\"Понятно, любопытное предложение\"."
 
 #: 37601
 msgid ""
@@ -555,28 +665,29 @@ msgid ""
 "magically bound not to. That is why people come to me. They know that if I "
 "accept a contract, it will be handled with discretion.\""
 msgstr ""
+"Он качает головой. \"Я не могу разглашать эту информацию. Я магически "
+"принужден не делать этого. Поэтому люди ко мне и приходят. Они знают, что "
+"если я возьмусь за контракт, то выполню его должным образом\"."
 
 #: 37604
 msgid "He looks at you hopefully. \"Will you do it, cutter?\""
-msgstr ""
+msgstr "Он смотрит на тебя с надеждой. \"Ты сделаешь это, рубака?\""
 
 #: 37605
 msgid "\"I've already killed him."
-msgstr ""
+msgstr "\"Я уже убил его\"."
 
 #: 37606 37620 37624
-#, fuzzy
 msgid "\"Yes, give me the details.\""
-msgstr "\"Да, у меня есть еще вопросы...\""
+msgstr "\"Да, посвяти меня в детали\"."
 
 #: 37607
-#, fuzzy
 msgid "\"No, I don't want to get involved.\""
-msgstr "\"Я не хочу неприятностей\"."
+msgstr "\"Нет, я не хочу в этом участвовать\"."
 
 #: 37608
 msgid "\"I don't know, I'll take it under consideration.\""
-msgstr ""
+msgstr "\"Даже не знаю; приму это к сведенью\"."
 
 #: 37609
 msgid ""
@@ -584,12 +695,17 @@ msgid ""
 "was willing to help me with my scars. Fortunately I had already done this "
 "and out of gratitude Sebastion helped anyway."
 msgstr ""
+"Маг по имени Себастион хочет, чтобы я убил для него абишая. За это он готов "
+"помочь мне с моими шрамами. К счастью, я уже сделал это, но из чувства "
+"благодарности Себастион все равно помог мне."
 
 #: 37610
 msgid ""
 "A mage named Sebastion wants me to kill an abishai for him. In return he "
 "will help me with my scars. I've agreed to do this."
 msgstr ""
+"Маг по имени Себастион хочет, чтобы я убил для него абишая. За это он "
+"поможет мне с моими шрамами. Я согласился сделать это."
 
 #: 37611
 msgid ""
@@ -599,29 +715,33 @@ msgid ""
 "caster can harm it as well. Grosuk can be found to the east, beyond the "
 "siege tower.\""
 msgstr ""
+"Он улыбается и вздыхает с облегчением. \"Спасибо, рубака. Это существо - "
+"абишай по имени Гросук. Чтобы ранить его, тебе понадобится магическое "
+"оружие, так что приобрети его в какой-нибудь лавке, если у тебя его еще нет. "
+"Заклинатель также сможет причинить ему вред. Гросука можно найти на востоке "
+"за осадной башней\"."
 
 #: 37612
 msgid "\"Siege tower?\""
-msgstr ""
+msgstr "\"Осадной башней?\""
 
 #: 37613
-#, fuzzy
 msgid "\"All right, but I have some other questions...\""
-msgstr "\"Отлично. У меня есть другие вопросы...\""
+msgstr "\"Хорошо, только у меня есть еще несколько вопросов...\""
 
 #: 37614 37668
-#, fuzzy
 msgid "\"Fine. Farewell.\""
-msgstr "\"Конечно. Прощай\"."
+msgstr "\"Ладно. Прощай\"."
 
 #: 37615
 msgid ""
 "He tries to hide his disappointment from you with a smile. \"I understand, "
 "cutter. Is there anything else I can help you with?\""
 msgstr ""
+"Он пытается улыбкой скрыть свое разочарование. \"Понимаю, рубака. Я могу "
+"тебе еще чем-нибудь помочь?\""
 
 #: 37616
-#, fuzzy
 msgid "\"Yes, I have some more questions...\""
 msgstr "\"Да, у меня есть еще вопросы...\""
 
@@ -634,16 +754,20 @@ msgid ""
 "Sebastion smiles at your approach. \"Good day, cutter. Have you considered "
 "my proposal and decided to accept?\""
 msgstr ""
+"Себастион улыбается, когда ты подходишь. \"Добрый день, рубака. Возможно, ты "
+"обдумал мое предложение и решил принять его?\""
 
 #: 37621
 msgid "\"I'm still thinking about it. Farewell.\""
-msgstr ""
+msgstr "\"Я все еще думаю над ним. Прощай\""
 
 #: 37622
 msgid ""
 "Sebastion smiles at your approach. \"Good day, cutter. Please tell me that "
 "you've changed your mind and will help me with my problem.\""
 msgstr ""
+"Себастион улыбается, когда ты подходишь. \"Добрый день, рубака. Прошу, "
+"скажи, что ты передумал и поможешь мне разобраться с моей проблемой?\""
 
 #: 37625
 msgid "\"No. Farewell.\""
@@ -654,14 +778,16 @@ msgid ""
 "Sebastion smiles at your approach. \"Good day, cutter. Have you completed "
 "your quest?\""
 msgstr ""
+"Себастион улыбается, когда ты подходишь. \"Добрый день, рубака. Ты выполнил "
+"свое задание?\""
 
 #: 37628
 msgid "\"No, I'm working on it.\""
-msgstr ""
+msgstr "\"Нет, я работаю над этим\"."
 
 #: 37630
 msgid "\"Yes, and I've come for what is due me.\""
-msgstr ""
+msgstr "\"Да, я пришел за тем, что мне причитается\"."
 
 #: 37631
 msgid ""
@@ -670,6 +796,10 @@ msgid ""
 "attention to you. \"I cannot thank you enough, cutter. I shall live up to my "
 "part of the bargain. Are you ready?\""
 msgstr ""
+"\"Обожди минутку, рубака\". Себастион достает из одежд маленький хрустальный "
+"шарик. Он несколько секунд всматривается в него, потом возвращается к тебе. "
+"\"Нет предела моей благодарности, рубака. Перейдем к моей части сделки. Ты "
+"готов?\""
 
 #: 37632
 msgid "\"Yes.\""
@@ -679,14 +809,15 @@ msgstr "\"Да\"."
 msgid ""
 "\"It is done, cutter. Once again I thank you.\" Sebastion bows deeply to you."
 msgstr ""
+"\"Готово, рубака. Еще раз спасибо тебе\", - Себастион низко кланяется тебе."
 
 #: 37634
 msgid "\"Thank you and farewell, Sebastion.\""
-msgstr ""
+msgstr "\"Спасибо и прощай, Себастион\"."
 
 #: 37635
 msgid "Sebastion smiles at you. \"Good day, cutter. How may I help you?\""
-msgstr ""
+msgstr "Себастион улыбается тебе. \"Добрый день, рубака. Чем могу помочь?\""
 
 #: 37638
 msgid ""
@@ -694,6 +825,8 @@ msgid ""
 "creature is an abishai named Grosuk. It can be found to the east, beyond the "
 "siege tower.\""
 msgstr ""
+"Он улыбается тебе и вздыхает с облегчением. \"Спасибо, рубака. Это существо "
+"- абишай по имени Гросук. Его можно найти на востоке за осадной башней\"."
 
 #: 37639
 msgid "\"All right. Farewell.\""
@@ -704,11 +837,12 @@ msgid ""
 "Sebastion smiles at your approach. \"Good day, cutter. It's good to see you "
 "again.\""
 msgstr ""
+"Себастион улыбается, когда ты подходишь. \"Добрый день, рубака. Рад снова "
+"тебя видеть\"."
 
 #: 37642 64548
-#, fuzzy
 msgid "\"Can you train me in the Art, Sebastion?\""
-msgstr "\"Может, есть другое решение?\""
+msgstr "\"Ты можешь обучить меня Искусству, Себастион?\""
 
 #: 37644
 msgid ""
@@ -717,9 +851,11 @@ msgid ""
 "breath comes in ragged gasps. You've been running for hours it seems, and "
 "yet you cannot stop..."
 msgstr ""
+"Мир вокруг тускнеет, и ты оказываешься на темных улицах Сигила. Твое сердце "
+"колотится, пытаясь выпрыгнуть из груди; ты судорожно дышишь. Похоже, ты "
+"бежишь вот уже несколько часов, и все еще не можешь остановиться... "
 
 #: 37645 37647 37649 37651
-#, fuzzy
 msgid "Continue."
 msgstr "Продолжить."
 
@@ -731,6 +867,10 @@ msgid ""
 "hand. Glancing down you open your clenched fist to stare at the gem embedded "
 "in the flesh."
 msgstr ""
+"Ты заворачиваешь за угол и попадаешь в переулок, где, наконец, замедляешь "
+"бег. Прислонившись к ближайшей стене, ты чувствуешь, как тебя покидают силы. "
+"Ты пытаешься перевести дыхание. Ты замечаешь, что что-то крепко стиснул в "
+"кулаке. Ты разжимаешь кулак и видишь самоцвет, вжатый в ладонь."
 
 #: 37648
 msgid ""
@@ -739,6 +879,11 @@ msgid ""
 "Just as you feel your strength returning you hear a faint noise and "
 "instantly snap to full awareness. You turn to look toward the alley mouth."
 msgstr ""
+"Твое тело клонится к стене, пока ты не касаешься лбом ее холодной влажной "
+"поверхности. Твои глаза закрываются, и ты заставляешь себя дышать медленно и "
+"глубоко. Только почувствовав, как силы возвращаются к тебе, ты слышишь "
+"слабый шум и тут же приходишь в себя. Ты оборачиваешься и смотришь в сторону "
+"входа в переулок."
 
 #: 37650
 msgid ""
@@ -749,6 +894,12 @@ msgid ""
 "then her blade-enshrouded face. Even in the darkness you can see her cold, "
 "emotionless eyes..."
 msgstr ""
+"Поначалу ты не видишь ничего, кроме призрачных видений от ночных теней. Ты "
+"уже собираешься отвернуться, когда замечаешь небольшое движение. Медленно из-"
+"за угла выскальзывает женская фигура, останавливается, затем поворачивается "
+"к тебе. Твой взгляд пробегает по ее стройной талии, полной груди и лицу, "
+"окруженному лезвиями. Даже во тьме ты различаешь ее холодный бесстрастный "
+"взгляд..."
 
 #: 37652
 msgid ""
@@ -757,36 +908,38 @@ msgid ""
 "passes when he sees that you are all right. \"Thought I lost you for a "
 "moment there, cutter.\""
 msgstr ""
+"Воспоминание угасает, и к тебе возвращается обычное зрение. Ты стоишь на "
+"рынке перед Себастионом. Он глядит на тебя с каким-то беспокойством, но оно "
+"проходит, когда он замечает, что с тобой уже все в порядке. \"Кажется, я "
+"потерял тебя на минуту, рубака\"."
 
 #: 37653 37670
-#, fuzzy
 msgid "\"What became of this Shadow-Sorcelled Key?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Что случилось с этим Ключом Теневых Чар?\""
 
 #: 37654 37671
-#, fuzzy
 msgid "\"Interesting, I have some other questions for you...\""
-msgstr "\"Очень хорошо. У меня были еще вопросы к тебе...\""
+msgstr "\"Интересно. У меня были еще вопросы к тебе...\""
 
 #: 37655
 msgid ""
 "He beams at you. \"Why thank you, cutter. It's always nice to find someone "
 "who can appreciate the humor of such a situation.\""
 msgstr ""
+"Он широко улыбается тебе. \"Ну, это тебе спасибо, рубака. Всегда приятно "
+"найти кого-нибудь, кто ценит комичность подобных ситуаций\"."
 
 #: 37656
 msgid "\"Tell me, why did you do it in the first place?\""
-msgstr ""
+msgstr "\"Прежде всего, скажи, зачем ты это сделал?\""
 
 #: 37657
-#, fuzzy
 msgid "\"Yes... I have some questions for you...\""
-msgstr "\"Пока нет. У меня несколько вопросов к тебе...\""
+msgstr "\"Да... У меня несколько вопросов к тебе...\""
 
 #: 37658
-#, fuzzy
 msgid "\"Well, I must be going. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай\"."
+msgstr "\"Ну, мне нужно идти. Прощай\"."
 
 #: 37659
 msgid ""
@@ -796,11 +949,15 @@ msgid ""
 "Businesses were failing. Dimtree provides him a willing companion to listen "
 "to his many tales and, more importantly, keep him in his shop.\""
 msgstr ""
+"\"О... - он смеется, качая головой, затем пытается восстановить "
+"хладнокровие. - Хамрису нравится звук его собственного голоса, рубака. Он "
+"может часами бродить по рынку, заставляя всех слушать его бесконечную "
+"болтовню. Его дела шли плохо. Димтри для него - товарищ, охотно слушающий "
+"его тирады, и, что более важно, удерживающий его в лавке\"."
 
 #: 37660
-#, fuzzy
 msgid "\"I see. I have some questions for you...\""
-msgstr "\"Ой... У меня есть еще вопросы к тебе...\""
+msgstr "\"Ясно. У меня к тебе пара вопросов...\""
 
 #: 37661
 msgid ""
@@ -811,26 +968,36 @@ msgid ""
 "willing companion to listen to his many tales and, more importantly, keep "
 "him in his shop.\""
 msgstr ""
+"\"О... - он смеется, качая головой, затем пытается восстановить "
+"хладнокровие. - Хамрису нравится звук его собственного голоса, рубака. Он "
+"может часами бродить по рынку, заставляя всех слушать его бесконечную "
+"болтовню. Его дела шли плохо - от него начали уходить клиенты! Димтри для "
+"него - товарищ, охотно слушающий его тирады, и, что более важно, "
+"удерживающий его в лавке\"."
 
 #: 37662
 msgid "\"I see. Well, never mind then. I have some questions for you...\""
-msgstr ""
+msgstr "\"Понятно. Ну, тогда неважно. У меня к тебе несколько вопросов...\""
 
 #: 37663
 msgid ""
 "\"Be that as it may, what you did is still wrong. You need to release "
 "Dimtree.\""
 msgstr ""
+"\"Может, оно и так, но то, что ты сделал, неправильно. Тебе нужно освободить "
+"Димтри\"."
 
 #: 37664
 msgid ""
 "He sighs and seems to be deep in thought. \"Yes... you are correct, of "
 "course. A pox on me for my stupidity!\""
 msgstr ""
+"Он вздыхает; похоже, он ушел в мысли. \"Да... конечно же, ты прав. Чтоб меня "
+"оспа побила за мою глупость!\""
 
 #: 37665
 msgid "\"Then you'll release him?\""
-msgstr ""
+msgstr "\"Так ты его освободишь?\""
 
 #: 37666
 msgid ""
@@ -838,12 +1005,17 @@ msgid ""
 "years back. No one knows why and no one seems able to get inside it to find "
 "out.\""
 msgstr ""
+"\"Да, прямо за рынком. Несколько лет назад эта чертова штука появилась здесь "
+"из ниоткуда. Никто не знает, почему, и никто не может пробраться внутрь и "
+"все выяснить\"."
 
 #: 37669
 msgid ""
 "You focus your thoughts and concentrate. Slowly the world regains its color "
 "and becomes animate again. The memory fades..."
 msgstr ""
+"Ты собираешься с мыслями и сосредотачиваешься. Постепенно в мир возвращаются "
+"краски, и он снова оживает. Воспоминание уходит..."
 
 #: 37672
 msgid ""
@@ -853,15 +1025,18 @@ msgid ""
 "not entered into an agreement, I will help you with your scars. Are you "
 "ready?\""
 msgstr ""
+"\"Обожди минутку, рубака\". Себастион достает из одежд маленький хрустальный "
+"шарик. Он несколько секунд всматривается в него, потом возвращается к тебе. "
+"\"Нет предела моей благодарности, рубака. Хотя мы и не договаривались, я "
+"помогу тебе с твоими шрамами. Ты готов?\""
 
 #: 37673
-#, fuzzy
 msgid "\"Yes. Thank you.\""
-msgstr "\"Спасибо...\""
+msgstr "\"Да. Спасибо\"."
 
 #: 37674
 msgid "He smiles at you. \"It is done, cutter. Once again, I thank you.\""
-msgstr ""
+msgstr "Он улыбается тебе. \"Готово, рубака. Еще раз спасибо тебе\"."
 
 #: 37677
 msgid "\"I must be going, farewell.\""
@@ -872,6 +1047,8 @@ msgid ""
 "\"Are you sure you want to give up your current profession and take up the "
 "Art as a mage?\""
 msgstr ""
+"\"Ты уверен в том, что хочешь покинуть свою текущую специализацию и заняться "
+"Искусством в качестве мага?\""
 
 #: 52386 52387
 msgid "\"Yes...\""
@@ -885,43 +1062,51 @@ msgid ""
 "upon your skills. Within a few hours time you think you feel comfortable "
 "with your abilities as a mage."
 msgstr ""
+"\"Я обычно таким не занимаюсь. Тем не менее, покажи мне, что ты знаешь, и я "
+"дам тебе пару подсказок\". Он внимательно наблюдает за тем, как ты "
+"демонстрируешь свои знания. В нескольких местах он останавливает тебя и "
+"показывает, как тебе улучшить свои умения. Через несколько часов ты "
+"осваиваешься со своими магическими способностями."
 
 #: 58936
-#, fuzzy
 msgid "\"No, let me think about it. Farewell.\""
-msgstr "\"Я подумаю над этим. Прощай\"."
+msgstr "\"Нет, дай мне подумать над этим. Прощай\"."
 
 #: 62174
 msgid ""
 "\"You are most welcome, friend. Take these two spells as well; they may come "
 "in handy. Now if you'll forgive me, I have work to do.\""
 msgstr ""
+"\"Всегда рад тебя видеть, друг. Возьми эти два заклинания: они тебе могут "
+"пригодятся. А теперь, с твоего позволения, я вернусь к своим делам\"."
 
 #: 62180 64651
-#, fuzzy
 msgid "\"Thank you, Sebastion.\""
-msgstr "\"Спасибо, Увядшая. Прощай\"."
+msgstr "\"Спасибо, Себастион\"."
 
 #: 64549
-#, fuzzy
 msgid "\"Never mind, Sebastion. Farewell.\""
-msgstr "\"А ладно, неважно. Прощай\"."
+msgstr "\"Не бери в голову, Себастион. Прощай\"."
 
 #: 64652
 msgid ""
 "\"You are most welcome, friend. Now if you'll forgive me, I have work to do."
 "\""
 msgstr ""
+"\"Всегда рад видеть тебя, друг. А теперь, с твоего позволения, я вернусь к "
+"своим делам\"."
 
 #: 65508
 msgid "Concentrate and repress the memory."
-msgstr ""
+msgstr "Сосредоточиться и подавить память."
 
 #: 66544
 msgid ""
 "I killed the abishai, Grosuk, for Sebastion. As per our agreement he helped "
 "me with my scars. I noticed quite an improvement in my general appearance. "
 msgstr ""
+"Я убил абишая Гросука для Себастиона. Согласно нашему уговору, он помог мне "
+"с моими шрамами. Я отметил заметное улучшение своего внешнего вида."
 
 #: 66545
 msgid ""
@@ -929,3 +1114,6 @@ msgid ""
 "creature dead for some reason. As a reward, Sebastion helped me with my "
 "scars. I noticed an immediate improvement in my general appearance."
 msgstr ""
+"Я убил абишая по имени Гросук. Похоже, Себастион по какой-то причине желал "
+"смерти этому существу. В награду Себастион помог мне с моими шрамами. Я "
+"отметил заметное улучшение своего внешнего вида."
