@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dscpat4.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:17+0600\n"
+"PO-Revision-Date: 2012-02-01 01:38+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 10941
 msgid ""
@@ -31,7 +32,6 @@ msgid "\"I'm looking for a journal.\""
 msgstr "\"Я ищу дневник\"."
 
 #: 10944 10976
-#, fuzzy
 msgid ""
 "\"I'm looking for a Collector by the name of Pharod. Have you seen or heard "
 "of him?\""
@@ -44,17 +44,14 @@ msgid "\"What can you tell me about this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 10946 10978
-#, fuzzy
 msgid "\"Who is that burning by the entryway?\""
-msgstr "\"А все-таки, кто этот труп?\""
+msgstr "\"Кто это горит у входа?\""
 
 #: 10947 10979
-#, fuzzy
 msgid "\"What was that you and your friend were saying about Sigil?\""
-msgstr "\"Что такое то, что ты назвал божественным алфавитом?\""
+msgstr "\"Что ты со своей подругой говорили о Сигиле?\""
 
 #: 10948 10980
-#, fuzzy
 msgid "\"Nothing. Good day.\""
 msgstr "\"Ничего. Хорошего дня\"."
 
@@ -63,9 +60,8 @@ msgid "\"Do you need something?\""
 msgstr ""
 
 #: 10950
-#, fuzzy
 msgid "\"The answers to some questions.\""
-msgstr "\"Просто ответь на несколько вопросов\"."
+msgstr "\"Ответь на несколько вопросов\"."
 
 #: 10951
 msgid "\"No. Farewell.\""
@@ -302,3 +298,4 @@ msgstr ""
 #: 11000
 msgid "\"That's a good suggestion. Thank you, and farewell.\""
 msgstr ""
+
