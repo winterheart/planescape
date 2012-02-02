@@ -4491,7 +4491,7 @@
                 <langSet xml:lang="ru">
                     <ntig>
                         <termGrp>
-                            <term>келдор</term>
+                            <term>кельдор</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -8230,6 +8230,56 @@
           <ntig>
             <termGrp>
               <term>силаен</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-440">
+        <descrip type="definition">Аукционист</descrip>
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>deran</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>деран</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-441">
+        <descrip type="definition">Первичница в Тлеющем Трупе.</descrip>
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>kiarus thorntongue</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>киарус языкастая</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>kiarus</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>киарус</term>
             </termGrp>
           </ntig>
         </langSet>
