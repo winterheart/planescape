@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: d300mer2.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 20:32+0600\n"
+"PO-Revision-Date: 2012-02-05 05:36+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,24 +11,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 17378
 msgid ""
 "This toothless old crone reeks of fish and brine. Spying your approach, she "
 "gives you a wide, pink smile. \"Fish, my child? Fish-heads, mayhap?\""
 msgstr ""
+"Эта беззубая старуха воняет рыбой и солью. Следя за твоим приближением, она "
+"широко улыбается тебя. \"Рыбу, сынок? Или рыбьих голов?\""
 
 #: 17379
 msgid ""
 "The old woman gives you a gummy smile. \"Some fish, my child? Fish heads?\" "
 "A cloying fish-smell surrounds her."
 msgstr ""
+"Старуха одаривает тебя отекшей улыбкой. \"Рыбы, сынок? Или рыбных голов?\" Ее "
+"окружает надоедливый запах рыбы."
 
 #: 17380
 msgid ""
 "\"Oh yes, yes! But a child ye are, to my years! Hee-hee, youngsters...\""
-msgstr ""
+msgstr "\"Ах, да-да! Но в моих глазах ты - сынок! Эх, молодежь...\""
 
 #: 17381
 msgid ""
@@ -37,6 +42,9 @@ msgid ""
 "does she recoil in surprise: \"Oh, my! How many years *have* those eyes seen?"
 "\""
 msgstr ""
+"Она ковыляет к тебе поближе. Рыбья вонь становится невыносимой. Старуха, "
+"хмурясь, косится на твое лицо, затем смотрит в глаза. Только после этого она "
+"отскакивает от изумления: \"Ой! Сколько лет *назад* я видела эти глаза?\""
 
 #: 17382
 msgid ""
@@ -45,37 +53,44 @@ msgid ""
 "keep it our little secret.\" She resumes her normal tone of voice.  \"So: "
 "fish, my child? Hee-hee!\" She pokes you in the belly."
 msgstr ""
+"\"Не знаю, не знаю. Очень много, наверное. Но это неважно! - она наклоняется "
+"к тебе и шепчет. - \"Об этом не стоит трепаться с каждым встречным. Пусть это "
+"будет нашим маленьким секретом\". Она возвращается к своему обычному голосу. "
+"\"Может, рыбу, сынок? Хи-хи!\" Он тычет тебя в живот."
 
 #: 17383
 msgid ""
 "She shakes her little, wrinkled head. \"No answers, have I... only fish.\""
 msgstr ""
+"Она качает своей морщинистой головой. \"У меня нет ответов... только рыба\"."
 
 #: 17384
 msgid ""
 "\"Why, fish, my silly child! Fish of all sorts - and fish heads, for those "
 "too short of jink for the whole ones. Teeny-tiny fish-heads! Hee-hee!\" "
 msgstr ""
+"\"Как что, рыбу, глупенький! Рыбу всех сортов, и рыбьи головы, для тех, у "
+"кого нет звенелок, чтобы купить целую. Мелкие-мелкие рыбьи головки! Хи-хи!\""
 
 #: 17385
 msgid ""
 "\"They're brought to Sigil from all over the Planes, my boy!  Would ye like "
 "some? I sell only the heads, should ye be short on jink...\""
 msgstr ""
+"\"Ее привозят в Сигил со всех Планов, сынок! Хочешь купить? Если у тебя мало "
+"звенелок, то могу продать рыбьи головы...\""
 
 #: 17386
 msgid "\"Child? Hardly.\""
-msgstr ""
+msgstr "\"Сынок? Вот уж вряд ли\"."
 
 #: 17387 17390 17395
-#, fuzzy
 msgid "\"No fish for me, but I had some questions...\""
-msgstr "\"Да, но меня есть еще вопросы...\""
+msgstr "\"Мне не нужна рыба, но меня есть вопросы...\""
 
 #: 17388 17396
-#, fuzzy
 msgid "\"What are you offering, exactly?\""
-msgstr "\"Так кто же ты?\""
+msgstr "\"Что именно ты можешь предложить?\""
 
 #: 17389 17397
 msgid "\"No thanks. Farewell.\""
@@ -87,15 +102,15 @@ msgstr "\"Нет, спасибо. Прощай\"."
 
 #: 17392
 msgid "\"I believe you're mistaken. Take a closer look.\""
-msgstr ""
+msgstr "\"Уверен, ты ошиблась. Присмотрись поближе\"."
 
 #: 17394
 msgid "\"I do not know... how many do you think?\""
-msgstr ""
+msgstr "\"Не знаю... А ты как думаешь, сколько?\""
 
 #: 17401
 msgid "\"Very well. What do you have to offer, exactly?\""
-msgstr ""
+msgstr "\"Хорошо. Что именно ты предлагаешь?\""
 
 #: 17402
 msgid "\"Farewell, then.\""
@@ -103,17 +118,15 @@ msgstr "\"Тогда прощай\". "
 
 #: 17403
 msgid "\"Where do the fish come from?\""
-msgstr ""
+msgstr "\"А откуда эта рыба?\""
 
 #: 17404 17406
-#, fuzzy
 msgid "\"I don't need fish, but I had some questions...\""
-msgstr "\"Да, но меня есть еще вопросы...\""
+msgstr "\"Мне не нужна рыба, но меня есть вопросы...\""
 
 #: 17405 17407
-#, fuzzy
 msgid "\"I've no need for fish - or their heads, for that matter. Farewell.\""
-msgstr "\"Тогда я поищу его там. Прощай\"."
+msgstr "\"Мне не нужна рыба. И рыбьи головы тоже. Прощай\"."
 
 #: 21903
 msgid ""
@@ -122,15 +135,21 @@ msgid ""
 "sell it. She said I should try Meir'am, a fishwife who sold her wares on a "
 "street just south of the market."
 msgstr ""
+"Косса-Джай, одна из торговок рыбой на рынке, сказала мне, что она знает "
+"только один способ получить чернила для Меббет - из *брогота-фина*, но она "
+"этой рыбой не торгует. Она сказал, что мне стоит попробовать у Меирам, другой "
+"торговки, которая продает свои товары на улице к югу от рынка."
 
 #: 22064 22069 22076 22077 22078
 msgid "\"Mebbeth said you sell ink. She sent me to purchase some.\""
 msgstr ""
+"\"Меббет сказала, что ты продаешь чернила. Она послала меня купить немного\"."
 
 #: 22065
 msgid ""
 "\"Ink?\" She chuckles. \"Nay, sir, I sells no ink, I sells just fish...\""
 msgstr ""
+"\"Чернила? - она хихикает. - Неа, сэр, я продаю чернила, только рыбу...\""
 
 #: 22066
 msgid ""
@@ -139,6 +158,10 @@ msgid ""
 "matters. No idea what's she on about... a midwife in the Picker's Square, ye "
 "say?\" She thinks for a moment. \"Don't know her, I don't.\""
 msgstr ""
+"\"Хе! Ну, Косса-Джай - это имя моей мамки и моей бабки, так что этом может "
+"быть любая из нас... Но они обе сейчас в книге мертвых, так что есть только "
+"*одна* Косса-Джай. Не знаю, о ком она... повитуха с площади Старьевщиков, "
+"говоришь? - он задумывается на мгновение. - Нет, не знаю ее\"."
 
 #: 22067
 msgid ""
@@ -146,6 +169,9 @@ msgid ""
 "ink... but it may not be the ink ye're lookin' for... the ink I'm thinkin' "
 "of bleeds from the gills of a *brogota-fin,* it does.\""
 msgstr ""
+"\"Погоди-ка... возможно, твоя повитуха и не ошиблась. Я знаю, откуда ты "
+"можешь получить чернила... Но это могут быть не те чернила, которые тебе "
+"нужны... Это чернила, которые вытекают из жабер *брогота-фина*\"."
 
 #: 22068
 msgid ""
@@ -154,34 +180,44 @@ msgid ""
 "fish-sell down the street a southerly way.\" She cackles. \"She mights have "
 "one o' them fish ye needs on *her* pole...\""
 msgstr ""
+"Она хмурится. \"Ага... понимаешь, эту рыбу нельзя *есть*, у нее противный "
+"вкус, обжигает язык... можешь спросить Меирам, она торгует рыбой вниз по "
+"улице, на южной стороне, - она хихикает. - Может быть, на *ее* удочке ты "
+"найдешь нужную рыбку...\""
 
 #: 22070
 msgid ""
 "\"Are you sure? Mebbeth... the midwife in Ragpicker's Square... mentioned "
 "you specifically.\""
 msgstr ""
+"\"Ты уверена? Меббет... повитуха с площади Старьевщиков... упомянула именно "
+"тебя\"."
 
 #: 22071
 msgid ""
 "\"So... you don't have any ink? Well, I can't say that's much of a SURPRISE. "
 "I swear Mebbeth is having me run in circles-\""
 msgstr ""
+"\"Так значит... у тебя нет чернил? Что же, не скажу, что для меня это "
+"УДИВИТЕЛЬНО. Клянусь, Меббет гоняет меня по кругу...\""
 
 #: 22072
 msgid ""
 "\"Well, then. She said you would be able to help me, but if that's not the "
 "case, never mind.\""
 msgstr ""
+"\"Тогда ладно. Она сказала, что ты сможешь помочь, но, кажется, в данном "
+"случае. Так что неважно\"."
 
 #: 22073
 msgid "\"This *brogota-fin*... it bleeds ink?\""
-msgstr ""
+msgstr "\"Этот *брогота-фин*... он кровоточит чернилами?\""
 
 #: 22074
 msgid "\"But you don't have this *brogota-fin,* right?\""
-msgstr ""
+msgstr "\"Но у тебя этого *брогота-фина* нет, верно?\""
 
 #: 22075
-#, fuzzy
 msgid "\"I'll go seek her out, then. Farewell.\""
-msgstr "\"Пойду, поищу его. Прощай\"."
+msgstr "\"Тогда я пойду, поищу ее. Прощай\"."
+
