@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmftree.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:29+0600\n"
+"PO-Revision-Date: 2012-02-05 21:47+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 16560
 msgid ""
@@ -384,7 +385,7 @@ msgstr "\"И что же ты видишь?\""
 #: 16651 16654
 #, fuzzy
 msgid "\"Wait -- I had some questions...\""
-msgstr "\"Я говорил, у меня были еще вопросы...\""
+msgstr "\"Постой. У меня есть несколько вопросов...\""
 
 #: 16652 16655 16660
 msgid "\"Farewell.\""
@@ -405,12 +406,11 @@ msgstr ""
 #: 16659
 #, fuzzy
 msgid "\"Wait -- I had some questions.\""
-msgstr "\"Нелли... У меня есть несколько вопросов\"."
+msgstr "\"Постой. У меня есть несколько вопросов...\""
 
 #: 16661
-#, fuzzy
 msgid "\"Why's that?\""
-msgstr "\"Что-что?\""
+msgstr "\"Это еще почему?\""
 
 #: 16662
 #, fuzzy
@@ -445,7 +445,7 @@ msgstr "\"Нелли... У меня есть несколько вопросов
 #: 16668
 #, fuzzy
 msgid "\"I understand. Farewell.\""
-msgstr "\"Я понимаю. В таком случае, прощай\"."
+msgstr "\"Понятно. Прощай.\""
 
 #: 16669
 msgid "\"What is it you had wanted the people to do?\""
@@ -473,9 +473,8 @@ msgid "\"I suppose not. I had some questions...\""
 msgstr "\"Я не уверен. У меня есть несколько вопросов...\""
 
 #: 16675
-#, fuzzy
 msgid "\"Perhaps not. Farewell.\""
-msgstr "\"Возможно, нет. Прощай\"."
+msgstr "\"Возможно, нет. Прощай.\""
 
 #: 16676
 #, fuzzy
@@ -494,12 +493,11 @@ msgstr "\"Нет, нету. Прощай\"."
 #: 16679
 #, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Нет! Нет!..\""
+msgstr "\"Продолжай...\""
 
 #: 16680
-#, fuzzy
 msgid "\"I'll have to hear this another time. Farewell.\""
-msgstr "\"Я выслушаю оставшуюся часть истории в другой раз. Прощай\"."
+msgstr "\"Я выслушаю вас в другой раз. Прощайте\"."
 
 #: 16681
 msgid "\"What? That makes no sense.\""
@@ -559,9 +557,8 @@ msgid "\"Nothing, but thanks. Farewell.\""
 msgstr "\"Не сегодня, спасибо. Прощай\"."
 
 #: 16698 16855
-#, fuzzy
 msgid "\"Morte? What do you think?\""
-msgstr "\"Друзей? О чем это ты?\""
+msgstr "\"Что думаешь, Морт?\""
 
 #: 16699 16856
 #, fuzzy
@@ -569,9 +566,8 @@ msgid "\"Annah? Could you?\""
 msgstr "\"Я могу чем-нибудь помочь?\""
 
 #: 16700 16857
-#, fuzzy
 msgid "\"Ignus?\""
-msgstr "\"Игнус...\""
+msgstr "\"Игнус?\""
 
 #: 16701 16858
 #, fuzzy
@@ -606,7 +602,7 @@ msgstr "\"Возможно, позднее. У меня есть другие в
 #: 16709 16864
 #, fuzzy
 msgid "\"Maybe another time. Farewell.\""
-msgstr "\"Может быть в другой раз, спасибо. Прощай\"."
+msgstr "\"Возможно, в другой раз. Прощай.\""
 
 #: 16718 16738
 msgid "\"Dabus?\""
@@ -615,7 +611,7 @@ msgstr "\"Дабус?\""
 #: 16720 16774
 #, fuzzy
 msgid "\"Why is that?\""
-msgstr "\"Что-что?\""
+msgstr "\"Почему?\""
 
 #: 16721 16726
 msgid "\"I had some other questions...\""
@@ -677,7 +673,7 @@ msgstr "\"У меня нет никаких дел, мне просто нужн
 #: 16748
 #, fuzzy
 msgid "\"Yes, go on.\""
-msgstr "\"Пожалуйста, продолжай\"."
+msgstr "\"Да, продолжайте\"."
 
 #: 16749
 msgid "\"They do?\""
@@ -732,7 +728,7 @@ msgstr "\"Я разыскиваю мужчину по имени Фарод\"."
 #: 16772
 #, fuzzy
 msgid "\"I'm looking for a journal I've lost.\""
-msgstr "\"Я ищу дневник\"."
+msgstr "\"Я ищу потерянный дневник.\""
 
 #: 16773
 msgid "\"Never mind. Farewell.\""
@@ -772,7 +768,7 @@ msgstr "\"Я ищу развлечений\"."
 #: 16786
 #, fuzzy
 msgid "\"Why are you here?\""
-msgstr "\"Кого ты хочешь увидеть?\""
+msgstr "\"Как ты сюда попал?\""
 
 #: 16790
 msgid "\"What's dangerous?\""
@@ -805,7 +801,7 @@ msgstr "\"Понятно. У меня были еще вопросы...\""
 #: 16802 22239
 #, fuzzy
 msgid "\"Greetings... and farewell.\""
-msgstr "\"Ух... Приветствую\"."
+msgstr "\"Здравствуй и прощай\"."
 
 #: 16804 16806
 msgid "\"I wanted to apologize for my rudeness earlier.\""
@@ -878,9 +874,8 @@ msgid "\"No, I wanted to ask Vhailor to help you.\""
 msgstr ""
 
 #: 16834
-#, fuzzy
 msgid "\"No, just passing by. Farewell.\""
-msgstr "\"Я просто проходил мимо. Прощай\"."
+msgstr "\"Нет, просто проходил мимо. Прощай\"."
 
 #: 16835
 msgid "\"I wanted to ask Morte to help you.\""
@@ -1005,9 +1000,8 @@ msgid "\"Nothing at all. Farewell.\""
 msgstr "\"На самом деле - ничего. Прощай\"."
 
 #: 16877 16878
-#, fuzzy
 msgid "Continue..."
-msgstr "Продолжить."
+msgstr "Продолжить..."
 
 #: 16880
 msgid "\"No, just passing by. Farewell, Mourns-For-Trees.\""
@@ -1139,3 +1133,4 @@ msgid ""
 "tree in front of him. He is mumbling to himself and tapping his chin, as if "
 "trying to figure something out. Occasionally, he shakes his head sadly."
 msgstr ""
+
