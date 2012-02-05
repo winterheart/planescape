@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmebbeth.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:27+0600\n"
+"PO-Revision-Date: 2012-02-05 04:39+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 1801
 msgid ""
@@ -92,13 +93,15 @@ msgstr "Ложь: \"Да. А ты?\""
 #: 23165 23188 23191
 #, fuzzy
 msgid "\"Sorry to disturb you. Farewell.\""
-msgstr "\"Извини, что отвлек. Прощай\"."
+msgstr "\"Извини за беспокойство. Прощай.\""
 
 #: 23166
 msgid ""
 "Mebbeth turns as you enter and gives you a skeptical eye. \"Yer path brings "
 "ye back here, does it, child...?\""
 msgstr ""
+"Меббет поворачивается и с сомнением смотрит на тебя. \"Судьба снова привела "
+"тебя сюда, сынок?..\""
 
 #: 23167 23232
 msgid "\"I found the fruit merchant in the market.\""
@@ -117,23 +120,20 @@ msgid ""
 msgstr ""
 
 #: 23170
-#, fuzzy
 msgid "\"Yes, I had some questions for you...\""
-msgstr "\"Послушай, у меня есть вопросы к тебе...\""
+msgstr "\"Да, у меня есть вопросы к тебе...\""
 
 #: 23171
-#, fuzzy
 msgid "\"Yes, I am in need of healing.\""
-msgstr "\"Мне нужно исцеление\"."
+msgstr "\"Да, мне нужно исцеление\"."
 
 #: 23172
 msgid "\"I came to purchase some cures and charms from you...\""
 msgstr ""
 
 #: 23173 23231 23629 23642
-#, fuzzy
 msgid "\"Could I rest here?\""
-msgstr "\"Как я попал сюда?\""
+msgstr "\"Могу ля я здесь отдохнуть?\""
 
 #: 23174
 msgid "\"No, I just came back to check on you. Farewell.\""
@@ -188,7 +188,7 @@ msgstr ""
 #: 23184
 #, fuzzy
 msgid "\"Are you all right?\""
-msgstr "\"Прошу прощения... с тобой все в порядке?\""
+msgstr "\"С тобой все в порядке?\""
 
 #: 23185
 #, fuzzy
@@ -290,7 +290,7 @@ msgstr ""
 #: 23206
 #, fuzzy
 msgid "\"I see. I must take my leave. Farewell.\""
-msgstr "\"Я должен идти. Прощай\"."
+msgstr "\"Понятно. Я должен идти. Прощай.\""
 
 #: 23207
 msgid ""
@@ -301,9 +301,8 @@ msgid ""
 msgstr ""
 
 #: 23208 23209
-#, fuzzy
 msgid "Take a deep breath."
-msgstr "\"Вздохни поглубже и попробуй еще раз\"."
+msgstr "Глубоко вздохнуть."
 
 #: 23210
 msgid ""
@@ -359,18 +358,17 @@ msgid "\"I see. Can I see what you have to sell, then?\""
 msgstr ""
 
 #: 23222
-#, fuzzy
 msgid "\"Very well. I had some other questions for you...\""
 msgstr "\"Очень хорошо. У меня были еще вопросы к тебе...\""
 
 #: 23223 23250 23254 23258
 #, fuzzy
 msgid "\"That is all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай\"."
+msgstr "\"Это все, что я хотел узнать. Прощай.\""
 
 #: 23224
 msgid "\"Go on n' ask, then.\""
-msgstr ""
+msgstr "\"Тогда давай, задавай\"."
 
 #: 23225
 msgid "\"Do you know someone named Pharod?\""
@@ -378,21 +376,19 @@ msgstr "\"Ты знаешь кого-нибудь по имени Фарод?\""
 
 #: 23226
 msgid "\"I'm missing a journal. Do you know where one could be found?\""
-msgstr ""
+msgstr "\"Я потерял дневник. Не знаешь, где его можно найти?\""
 
 #: 23227
 msgid "\"Have you ever heard of someone named 'Ravel,' Mebbeth?\""
 msgstr ""
 
 #: 23228 23627 23638
-#, fuzzy
 msgid "\"I could use some healing...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"Мне нужно лечение...\""
 
 #: 23229 23639
-#, fuzzy
 msgid "\"What do you sell here, Mebbeth?\""
-msgstr "\"Чем ты здесь занимаешься?\""
+msgstr "\"Чем ты торгуешь, Меббет?\""
 
 #: 23230 23628 23641
 #, fuzzy
@@ -425,9 +421,8 @@ msgid ""
 msgstr ""
 
 #: 23242 23630
-#, fuzzy
 msgid "\"No questions today. Farewell.\""
-msgstr "\"На сегодня вопросов нет. Прощай\"."
+msgstr "\"На сегодня вопросов нет. Прощай.\""
 
 #: 23243
 msgid ""
@@ -437,9 +432,8 @@ msgid ""
 msgstr ""
 
 #: 23244
-#, fuzzy
 msgid "\"I need to find him. Do you know where he is?\""
-msgstr "\"Мне *нужно* найти его. Ты не знаешь, где он может быть?\""
+msgstr "\"Мне нужно найти его. Ты не знаешь, где он может быть?\""
 
 #: 23245
 msgid "\"Never mind. I had some other questions...\""
@@ -516,7 +510,6 @@ msgid "\"What do you know about her?\""
 msgstr "\"Ты знаешь что-нибудь о нем?\""
 
 #: 23264 23268 23272 23276
-#, fuzzy
 msgid "\"Never mind, then. I had some other questions...\""
 msgstr "\"Ладно, неважно. У меня есть другие вопросы...\""
 
@@ -638,9 +631,8 @@ msgid ""
 msgstr ""
 
 #: 23291
-#, fuzzy
 msgid "\"Yes...?\""
-msgstr "\"Да\"."
+msgstr "\"Да?..\""
 
 #: 23292 23296 23300 23304
 #, fuzzy
@@ -707,7 +699,7 @@ msgstr ""
 #: 23312 23324 23325 23788
 #, fuzzy
 msgid "\"Very well...\""
-msgstr "\"Очень хорошо. Хорошего дня\"."
+msgstr "\"Очень хорошо...\""
 
 #: 23314
 msgid ""
@@ -821,11 +813,12 @@ msgid ""
 "She nods. \"Of course, child. I have a mess of blankets in the corner that "
 "would serve...\""
 msgstr ""
+"Она кивает. \"Конечно, сынок. В углу есть одеяла, которыми можно "
+"воспользоваться...\" "
 
 #: 23346 23356 23358
-#, fuzzy
 msgid "\"That would be fine. Thank you.\""
-msgstr "\"Спасибо...\""
+msgstr "\"Это было бы превосходно. Спасибо\"."
 
 #: 23360
 msgid ""
@@ -901,14 +894,13 @@ msgid "\"I want to learn about magic. Could you teach me?\""
 msgstr ""
 
 #: 23420 23432 23450
-#, fuzzy
 msgid "\"No matter. I had some other questions...\""
 msgstr "\"Неважно. У меня есть другие вопросы...\""
 
 #: 23421
 #, fuzzy
 msgid "\"Never mind. I must take my leave. Farewell.\""
-msgstr "\"Неважно. Я должен идти. Прощай\"."
+msgstr "\"Тогда неважно. Я должен идти. Прощай.\""
 
 #: 23422
 msgid ""
@@ -959,7 +951,7 @@ msgstr ""
 #: 23433
 #, fuzzy
 msgid "\"Never mind... I must take my leave. Farewell.\""
-msgstr "\"Неважно. Я должен идти. Прощай\"."
+msgstr "\"Тогда неважно. Я должен идти. Прощай.\""
 
 #: 23435 23439
 #, fuzzy
@@ -1047,7 +1039,7 @@ msgstr ""
 #: 23457
 #, fuzzy
 msgid "\"Like what?\""
-msgstr "\"Где, например?\""
+msgstr "\"Например?\""
 
 #: 23458
 msgid ""
@@ -1106,7 +1098,6 @@ msgid ""
 msgstr ""
 
 #: 23469
-#, fuzzy
 msgid "\"All right then...\""
 msgstr "\"Ну хорошо...\""
 
@@ -1221,7 +1212,7 @@ msgstr ""
 #: 23536 23738
 #, fuzzy
 msgid "\"Uh...\""
-msgstr "\"Я...\""
+msgstr "\"Ух...\""
 
 #: 23538
 msgid "Mebbeth snorts. \"Maybe ye'd better try again.\""
@@ -1594,7 +1585,7 @@ msgstr ""
 
 #: 23676
 msgid "Study the symbols, see if you can decipher them."
-msgstr ""
+msgstr "Изучить символы, посмотреть, можешь ли ты расшифровать их."
 
 #: 23677 23680 23683
 msgid "\"I give up, Mebbeth... what does this writing mean?\""
@@ -1610,7 +1601,7 @@ msgstr ""
 
 #: 23679 23682
 msgid "Keep studying the symbols, try and puzzle out their meaning. "
-msgstr ""
+msgstr "Продолжить изучать символы, пытаться разгадать их значение."
 
 #: 23681
 msgid ""
@@ -1633,9 +1624,8 @@ msgid ""
 msgstr ""
 
 #: 23687
-#, fuzzy
 msgid "\"What's wrong?\""
-msgstr "\"Что теперь?\""
+msgstr "\"Что не так?\""
 
 #: 23688
 msgid "\"No... well, not to my knowledge. What's wrong?\""
@@ -1663,15 +1653,16 @@ msgid ""
 msgstr ""
 
 #: 23692
-#, fuzzy
 msgid "\"I don't really know... I just *knew* what it said.\""
-msgstr "\"У меня нет никаких дел, мне просто нужно попасть внутрь\"."
+msgstr "\"Я действительно не знаю... Я просто *знал*, о чем тут говорится\"."
 
 #: 23693
 msgid ""
 "\"I think I may have known once, but forgot... seeing the symbols just "
 "jarred my memory.\""
 msgstr ""
+"\"Думаю, когда-то я помнил, но забыл... увидев символы, я просто дал "
+"встряску своей памяти\"."
 
 #: 23694
 msgid ""
@@ -1763,7 +1754,7 @@ msgstr ""
 #: 23712
 #, fuzzy
 msgid "Wait..."
-msgstr "\"Подождать!\""
+msgstr "Подождать..."
 
 #: 23713
 msgid ""
@@ -1788,7 +1779,7 @@ msgstr ""
 #: 23716
 #, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Нет! Нет!..\""
+msgstr "\"Продолжай...\""
 
 #: 23717 23721 23725 23728 23734 23739 23742 23745 23749 23752
 #, fuzzy
@@ -1837,7 +1828,7 @@ msgstr ""
 
 #: 23727
 msgid "\"How many spells can I cast?\""
-msgstr ""
+msgstr "\"Сколько заклинаний я могу сотворить?\""
 
 #: 23729
 msgid ""
@@ -1864,7 +1855,7 @@ msgstr ""
 #: 23733
 #, fuzzy
 msgid "\"All right... go on...\""
-msgstr "\"Ну хорошо...\""
+msgstr "\"Хорошо... продолжайте...\""
 
 #: 23735
 msgid ""
@@ -1874,12 +1865,14 @@ msgid ""
 msgstr ""
 
 #: 23736
+#, fuzzy
 msgid "\"Once.\""
-msgstr ""
+msgstr "\"Один раз\"."
 
 #: 23737
+#, fuzzy
 msgid "\"Twice.\""
-msgstr ""
+msgstr "\"Два раза\"."
 
 #: 23740
 msgid ""
@@ -1919,9 +1912,8 @@ msgid ""
 msgstr ""
 
 #: 23748
-#, fuzzy
 msgid "\"Got it.\""
-msgstr "\"Продекламируй\"."
+msgstr "\"Понятно\"."
 
 #: 23750
 msgid ""
@@ -2152,8 +2144,9 @@ msgid ""
 msgstr ""
 
 #: 23801
+#, fuzzy
 msgid "\"Yes. Here.\""
-msgstr ""
+msgstr "\"Да... вот...\""
 
 #: 23802
 msgid "\"I have it, but I will not give it to you.\""
@@ -2220,3 +2213,4 @@ msgstr ""
 #: 66279
 msgid "\"Thanks again...\""
 msgstr ""
+

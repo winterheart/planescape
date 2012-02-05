@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-09-06 01:58 +0600\n"
-"PO-Revision-Date: 2009-09-08 12:47+0600\n"
+"PO-Revision-Date: 2012-02-03 00:35+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 10571
 msgid "\"I'm getting bored of waiting for him.\""
@@ -27,6 +28,6 @@ msgstr ""
 
 #: 9336
 msgid "\"I didn't see him.\""
-msgstr ""
+msgstr "\"Я его не вижу\"."
 
 
