@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dgiltsp.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-02-05 01:38+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2012-02-07 00:49+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.2\n"
+"Language: ru\n"
 
 #: 39508
 msgid ""
@@ -19,7 +20,7 @@ msgid ""
 "deliver a handbill to Barkis at the Smoldering Corpse bar for the sum of two "
 "hundred coins. "
 msgstr ""
-"Как только я доставил послание Кельдору, аукционист Гилтспур попросить меня "
+"Как только я доставил послание Кельдору, аукционист Гилтспур попросил меня "
 "передать рекламный листок Баркису в бар \"Тлеющий труп\" за вознаграждение в "
 "две сотни монет."
 
@@ -350,7 +351,7 @@ msgid ""
 "have the temerity to face them. There is much that can be learned there... "
 "if the place doesn't drive you *mad* first!\""
 msgstr ""
-"\"Повелитель Костей! Хозяин Косетей Ночи, владелец самой жуткой коллекции по "
+"\"Повелитель Костей! Хозяин Костей Ночи, владелец самой жуткой коллекции по "
 "эту сторону от дома Сета! На его полках лежат черепа, нашептывая свои тайны "
 "на ухо Лотару и всем, кто осмелился встретиться с ними. Там можно много о "
 "чем узнать... если только это не сведет вас с ума!\""
@@ -410,16 +411,16 @@ msgstr ""
 "встретитесь с самим Лотаром!\""
 
 #: 45668
-#, fuzzy
 msgid ""
 "\"They say dead men tell no tales... but in Lothar's salon, the dead spill "
 "their secrets to the willing ear! The more dead, the more tales, the more "
 "chant, and the more chant... why, the more one's eyes are opened to the very "
 "heart of the multiverse!\" He wags his eyebrows for emphasis."
 msgstr ""
-"\"Говорят, что мертвые не разговаривают... однако в салоне Лотара мертвые "
-"раскрывают свои тайны его усердному уху! Чем больше мертвецов, тем больше "
-"историй... ну, и больше глаз раскрываются самому сердцу мультивселенной!\" "
+"\"Говорят, что мертвые не молчат... однако в салоне Лотара мертвые "
+"раскрывают свои тайны его усердному уху! Больше мертвецов, больше "
+"историй, больше слухов... ну, и больше глаз раскрываются самому сердцу "
+"мультивселенной!\" "
 "Чтобы подчеркнуть это, он водит бровями."
 
 #: 45669
@@ -484,7 +485,7 @@ msgstr "\"Гармониум\"."
 
 #: 45683
 msgid "\"The Anarchists.\""
-msgstr "\"Анархисты\""
+msgstr "\"Анархисты\"."
 
 #: 45684
 msgid "\"The Sensates.\""
@@ -622,3 +623,4 @@ msgid ""
 msgstr ""
 "Доставив рекламный листок в Тлеющий труп, я вернулся к Гилтспуру, и он "
 "сказал, что у него больше нет для меня работы."
+
