@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dcoax.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:20+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-02-11 20:14+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -13,6 +13,7 @@ msgstr ""
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 1.0\n"
 
+# тут какая-то ошибка в скриптах
 #: 17090
 msgid ""
 "Fortunately, I'd already butchered ol' Ash-Mantle, so I collected the reward."
@@ -26,6 +27,10 @@ msgid ""
 "Planes. I asked him where I could find such a place, and he said he did not "
 "know."
 msgstr ""
+"Железный голем выковал оружие, которое, по его словам, может убить меня... "
+"но им следует воспользоваться в подходящем месте, в оболочке, где я был бы "
+"отрезан от планов. Я спросил его, где мне найти такое место, и он ответил, "
+"что не знает."
 
 #: 26090 26093
 msgid ""
@@ -35,6 +40,10 @@ msgid ""
 "never allowed to set foot in it again. It was a small price to pay so that "
 "the Planes would not suffer. "
 msgstr ""
+"Когда я отправился в Крепость из осадной башни, голем попросил меня помочь "
+"ему выбраться из тюрьмы и продолжить свой энтропический поход по планам. Я "
+"отказался. Он выбросил меня из осадной башни, и мне навеки запрещено "
+"переступать ее порог. Небольшая цена за избавление планов от страданий."
 
 #: 26091 26094
 msgid ""
@@ -43,6 +52,9 @@ msgid ""
 "feeling that I will never be able to enter it again. Yet he seems to have "
 "left me with a strange weapon..."
 msgstr ""
+"Я отдал голему Куб-Модрон, а потом наступила тьма. Не знаю, что случилось, "
+"но осадная башня все еще на месте. У меня странное чувство, что я больше не "
+"смогу войти в нее снова. И все же он оставил мне необычное оружие..."
 
 #: 26092
 msgid ""
@@ -52,6 +64,11 @@ msgid ""
 "across the Planes on some foolish ideal. He has cast me from the siege "
 "tower, and I am never allowed to set foot in it again. "
 msgstr ""
+"Когда я отправился в Крепость из осадной башни, голем попросил меня помочь "
+"ему выбраться из тюрьмы и продолжить свой энтропический поход по планам. Я "
+"отказался; его назначение - служить МНЕ, а не воевать на планах за какие-то "
+"дурацкие идеалы. Он выбросил меня из осадной башни, и мне навеки запрещено "
+"переступать ее порог."
 
 #: 26095
 msgid ""
@@ -62,6 +79,12 @@ msgid ""
 "there is some reason my enemy cannot fight me directly, he said I should "
 "find the reason and exploit it."
 msgstr ""
+"Голем дал мне совет насчет врага, который нападает из теней... он сказал, "
+"что тот факт, что он не вступает или не может вступить с тобой в открытый "
+"бой, является его слабым местом, которым мне нужно воспользоваться. Он "
+"посоветовал мне не сражаться с врагом по его правилам, а, напротив, вовлечь "
+"его в бой. Он сказал, что если существует причина, почему мой враг не "
+"сражается со мной в открытую, мне следует найти причину и сыграть на ней."
 
 #: 26096
 msgid ""
@@ -69,6 +92,9 @@ msgid ""
 "even the siege tower could breach. He said it was a memorial that had "
 "forgotten itself and now slowly dies on the 'Negative Material Plane.'"
 msgstr ""
+"Голем знал о Крепости Сожалений... он сказал, что через ее стены не может "
+"пробиться даже осадная башня. Он сказал, это памятник, забывший себя, и "
+"теперь медленно умирающий на \"Негативном материальном плане\"."
 
 #: 26097
 msgid ""
@@ -76,6 +102,9 @@ msgid ""
 "siege tower. He refused to listen to any more of my questions and requests "
 "until I bring it to him. "
 msgstr ""
+"Голем попросил меня принести ему планарный куб, чтобы помочь вызволит его "
+"осадную башню. Он отказался отвечать на любые мои последующие вопросы и "
+"просьбы, пока я не принесу ему куб."
 
 #: 26102
 msgid ""
@@ -84,18 +113,27 @@ msgid ""
 "I should exploit. He suggested that I do not fight the enemy on its terms, "
 "but instead, take the battle to the enemy."
 msgstr ""
+"Голем дал мне совет насчет врага, который нападает из теней... он сказал, "
+"что тот факт, что не вступает с тобой в открытый бой, является его слабым "
+"местом, которым мне нужно воспользоваться. Он посоветовал мне не сражаться с "
+"врагом по его правилам, а, напротив, вовлечь его в бой."
 
 #: 26103
 msgid ""
 "I obtained the dreamcage from the golem. I'll take it back to Xander and see "
 "if he can make use of it."
 msgstr ""
+"Я получил от голема клетку снов. Я отнесу ее Зандеру; посмотрим, сможет ли "
+"он извлечь из нее толк."
 
 #: 26104
+#, fuzzy
 msgid ""
 "The golem said that Ravel sought to sunder Sigil, and that 'order' punished "
 "her by placing her in a cage. He doesn't know where this cage is, though."
 msgstr ""
+"Голем сказал, что Равель пыталась разделить Сигил, и что \"порядок\" наказал "
+"ее, поместив в клетку. Однако он не знает, где эта клетка."
 
 #: 26105 26106
 msgid ""
@@ -108,6 +146,14 @@ msgid ""
 "victimized by an invading army. I wonder what damage the tower is doing to "
 "the Planes themselves by punching all these holes in the multiverse..."
 msgstr ""
+"Очевидно, эта осадная башня способна пробивать стены между планами, "
+"действуя, как настоящая осадная башня, только в межпространственном смысле. "
+"Вторгающийся легион готовится с одной стороны планарной стены, ожидая, пока "
+"осадная башня не опустит свой мост и не проделает дыру в целевой план, а "
+"потом устремляется туда прямо через башню. Осадная башня становится грубым "
+"подобием двери, с помощью которой вторгающаяся армия может напасть на этот "
+"план. Представляю, сколько ущерба планам наносит башня, пробивая все эти "
+"дыры в мультивселенной..."
 
 #: 26107
 msgid ""
@@ -115,16 +161,21 @@ msgid ""
 "enemy... and that is why he labors on the forge. He seeks to make weapons by "
 "which the multiverse may be unmade. "
 msgstr ""
+"Голем в осадной башне утверждает, что его враг - сама мультивселенная... и "
+"что поэтому он трудится в кузнице. Он пытается создать оружие, которым можно "
+"уничтожить мультивселенную."
 
 #: 26210
 msgid ""
 "The gigantic iron golem is still working at its forge. Sparks, ash and "
 "hissing clouds of steam rise up from beneath the walkway. "
 msgstr ""
+"Гигантский железный голем все еще работает в своей кузнице. Искры, пепел и "
+"шипящие облака вырываются из-под мостика."
 
 #: 26211
 msgid "ASK."
-msgstr ""
+msgstr "СПРАШИВАЙ."
 
 #: 26212
 msgid ""
@@ -133,14 +184,18 @@ msgid ""
 "pipes, and huge bracers run through its lower torso and into the walls, and "
 "the bottom portion of its body makes up the forge itself. "
 msgstr ""
+"Со скрежетом металла о металл гигант поворачивается к тебе. Неожиданно ты "
+"осознаешь, что голем встроен в осадную башню: балки, трубы и огромные "
+"крепления идут от нижней части его туловища к стенам, а нижняя часть его "
+"тела переходит в кузницу."
 
 #: 26213
 msgid "I AM IRON GIVEN PURPOSE."
-msgstr ""
+msgstr "Я ЖЕЛЕЗО, КОТОРОМУ ДАНО ПРЕДНАЗНАЧЕНИЕ."
 
 #: 26214
 msgid "I FORGE THE IMPLEMENTS BY WHICH THE MULTIVERSE WILL BE UNMADE."
-msgstr ""
+msgstr "Я КУЮ ОРУДИЯ, КОТОРЫМИ БУДЕТ УНИЧТОЖЕНА МУЛЬТИВСЕЛЕННАЯ."
 
 #: 26215
 msgid ""
@@ -148,6 +203,9 @@ msgid ""
 "HEAT AND PRESSURE, THE POTENTIAL SURFACES. MY PURPOSE IS TO BRING FORTH THIS "
 "POTENTIAL. ALLOW IT EXPRESSION. "
 msgstr ""
+"МЕТАЛЛ - КАК ПЛОТЬ. И ТО, И ДРУГОЕ НЕСЕТ В СЕБЕ ПОТЕНЦИАЛ. ЕСЛИ НАГРЕТЬ ЕГО "
+"ПОД ДАВЛЕНИЕМ, ПОТЕНЦИАЛ ПРОЯВЛЯЕТ СЕБЯ. МОЯ ЦЕЛЬ - РАСКРЫТЬ ЭТОТ ПОТЕНЦИАЛ. "
+"ВЫРАЗИТЬ ЕГО."
 
 #: 26216
 msgid ""
@@ -155,6 +213,9 @@ msgid ""
 "SPEARS. AXES. ARROWHEADS. RIVETS IN CATAPULTS. FROM THESE IMPLEMENTS OF WAR "
 "WAS I WROUGHT."
 msgstr ""
+"ЖЕЛЕЗО МОЕГО ТЕЛА КОГДА-ТО БЫЛО ЛИШЬ МАЛЫМ ВЫРАЖЕНИЕМ БОЛИ: КЛИНКАМИ, "
+"КОПЬЯМИ, ТОПОРАМИ, НАКОНЕЧНИКАМИ СТРЕЛ, ЗАКЛЕПКАМИ В КАТАПУЛЬТАХ. ИЗ ЭТИХ "
+"ОРУДИЙ ВОЙНЫ БЫЛ СДЕЛАН Я."
 
 #: 26217
 msgid ""
@@ -162,44 +223,59 @@ msgid ""
 "WAS ALLOWED TO SURFACE. NOW MY PURPOSE IS TO BRING OUT THE POTENTIAL IN "
 "OTHER METALS."
 msgstr ""
+"ТЕ МАЛЫЕ ВЫРАЖЕНИЯ БОЛИ БЫЛИ РАСПЛАВЛЕНЫ, ЧТОБЫ СОЗДАТЬ ЭТО ТЕЛО. МОЙ "
+"ПОТЕНЦИАЛ РАСКРЫЛСЯ. ТЕПЕРЬ МОЕ ПРЕДНАЗНАЧЕНИЕ - РАСКРЫВАТЬ ПОТЕНЦИАЛ В "
+"ДРУГИХ МЕТАЛЛАХ."
 
 #: 26218
 msgid "ENTROPY RAISED ME FROM THE PLANAR BATTLEFIELDS. "
-msgstr ""
+msgstr "ЭНТРОПИЯ ПОДНЯЛА МЕНЯ С ПЛАНАРНЫХ ПОЛЕЙ БРАНИ."
 
 #: 26219
 msgid "I FORGE THEM FOR THE SAKE OF ENTROPY. THEY ARE PAIN SEEKING EXPRESSION."
-msgstr ""
+msgstr "Я КУЮ ИХ ВО ИМЯ ЭНТРОПИИ. ОНИ - БОЛЬ, КОТОРАЯ СТРЕМИТСЯ ВЫРАЗИТЬ СЕБЯ."
 
 #: 26220
 msgid ""
 "BEYOND THIS TOWER, ORDER RALLIES ITS LEGIONS. THE MULTIVERSE HEALS ITS "
 "WOUNDS.  IN TIME, ITS STRENGTH MAY EQUAL ENTROPY."
 msgstr ""
+"ЗА ПРЕДЕЛАМИ ЭТОЙ БАШНИ ПОРЯДОК СОБИРАЕТ СВОИ ВОЙСКА. МУЛЬТИВСЕЛЕННАЯ "
+"ЗАЛЕЧИВАЕТ РАНЫ. СО ВРЕМЕНЕМ ЕЕ СИЛА МОЖЕТ СРАВНЯТЬСЯ С ЭНТРОПИЕЙ."
 
+# PLAINS = PLANES?
 #: 26222
 msgid ""
 "THE MULTIVERSE BREATHES. IT GROWS. IT STAGNATES. IT FORGES ITS CHAINS AROUND "
 "THE PLAINS LINK BY LINK. IN TIME, EVEN ENTROPY MAY BE CHAINED."
 msgstr ""
+"МУЛЬТИВСЕЛЕННАЯ ДЫШИТ. ОНА РАСТЕТ. ОНА ПРИХОДИТ В ЗАСТОЙ. ОНА КУЕТ ЦЕПИ "
+"ВОКРУГ ПЛАНОВ, ЗВЕНО ЗА ЗВЕНОМ. СО ВРЕМЕНЕМ ДАЖЕ ЭНТРОПИЯ МОЖЕТ БЫТЬ "
+"ЗАКОВАНА."
 
 #: 26223
 msgid ""
 "WHEN A THING SEALS ITSELF AGAINST ITS OWN DESTRUCTION, IT MERELY DIES A "
 "DIFFERENT DEATH."
 msgstr ""
+"ЕСЛИ ЧТО-ТО ПРЕДОТВРАЩАЕТ СВОЕ УНИЧТОЖЕНИЕ, ОНО ПОПРОСТУ УМИРАЕТ ДРУГОЙ "
+"СМЕРТЬЮ."
 
 #: 26224
 msgid ""
 "ALL THINGS HAVE A COMMON GROUND IN DECAY. WAR IS NECESSARY. DEATH IS "
 "NECESSARY. DECAY IS NECESSARY. "
 msgstr ""
+"У ВСЕХ ВЕЩЕЙ ПРИЧИНА УПАДКА ОДНА И ТА ЖЕ. ВОЙНА НЕОБХОДИМА. СМЕРТЬ "
+"НЕОБХОДИМА. УПАДОК НЕОБХОДИМ."
 
 #: 26225
 msgid ""
 "THERE ARE NO LIMITS. LIMITS ARE ONE OF THE LINKS IN THE CHAIN OF ORDER. "
 "LIMITS MUST BE SHATTERED. "
 msgstr ""
+"НЕТ ПРЕДЕЛОВ. ПРЕДЕЛЫ - ЭТО ОДНО ИЗ ЗВЕНЬЕВ В ЦЕПИ ПОРЯДКА. ПРЕДЕЛЫ ДОЛЖНЫ "
+"БЫТЬ УНИЧТОЖЕНЫ."
 
 #: 26226
 msgid ""
@@ -207,22 +283,31 @@ msgid ""
 "TO BREACH THE WALLS OF CREATION. ORDER WILL BE PUT TO THE SWORD. ITS CHAINS "
 "WILL BE BROKEN. THE MULTIVERSE WILL BE UNMADE."
 msgstr ""
+"ВСЕ ДОЛЖНО ПАСТЬ ОТ КЛИНКА ЭНТРОПИИ. БЛИЗИТСЯ ВРЕМЯ, КОГДА БУДЕТ НЕОБХОДИМО "
+"ПРОБИТЬ СТЕНЫ МИРОЗДАНИЯ. ПОРЯДОК БУДЕТ ПРЕДАН МЕЧУ. ЕГО ЦЕПИ БУДУТ "
+"РАЗОРВАНЫ. МУЛЬТИВСЕЛЕННАЯ БУДЕТ УНИЧТОЖЕНА."
 
 #: 26227
 msgid ""
 "THIS TOWER IS A SIEGE ENGINE. IT EXISTS TO BREACH THE WALLS BETWEEN PLANES. "
 msgstr ""
+"ЭТА БАШНЯ - ОСАДНАЯ МАШИНА. ОНА СОЗДАНА ДЛЯ ТОГО, ЧТОБЫ ПРОБИВАТЬ СТЕНЫ "
+"МЕЖДУ ПЛАНАМИ."
 
 #: 26228
 msgid ""
 "THE TOWER IS TRAPPED IN THIS CITY. THIS CITY IS A CAGE THAT IT CANNOT BREACH."
 msgstr ""
+"БАШНЯ ЗАСТРЯЛА В ЭТОМ ГОРОДЕ. ЭТОТ ГОРОД - КЛЕТКА, КОТОРУЮ ОНА НЕ МОЖЕТ "
+"ПРОБИТЬ."
 
 #: 26229
 msgid ""
 "AT ONE TIME THE TOWER LAID SIEGE TO THE PLANES. HOW I WAS BROUGHT HERE IS "
 "NOT KNOWN TO ME. HOW I MAY ESCAPE IS NOT KNOWN TO ME."
 msgstr ""
+"КОГДА-ТО БАШНЯ ОСАЖДАЛА ПЛАНЫ. КАК Я СЮДА ПОПАЛ, МНЕ НЕИЗВЕСТНО. КАК МНЕ "
+"ОТСЮДА ВЫБРАТЬСЯ, Я НЕ ЗНАЮ."
 
 #: 26230
 msgid ""
@@ -231,18 +316,21 @@ msgid ""
 "OTHER THROUGH THE TOWER. WHEN THE PLANE HAS SERVED ENTROPY'S PURPOSE, THE "
 "TOWER ANCHORS ITSELF AGAIN."
 msgstr ""
+"БАШНЯ УКРЕПЛЯЕТСЯ НА ПЛАНЕ. КОГДА ЕЕ МОСТ ОПУСКАЕТСЯ, В МУЛЬТИВСЕЛЕННОЙ "
+"ОБРАЗУЕТСЯ РАНА. ИЗ ОДНОГО ПЛАНА НА ДРУГОЙ ЧЕРЕЗ БАШНЮ МОГУТ ПРОЙТИ ЦЕЛЫЕ "
+"ЛЕГИОНЫ. КОГДА ПЛАН ПОСЛУЖИТ ЦЕЛЯМ ЭНТРОПИИ, БАШНЯ СНОВА УКРЕПЛЯЕТСЯ."
 
 #: 26231 26232
 msgid "ENTROPY HAS UNMADE THEM."
-msgstr ""
+msgstr "ЭНТРОПИЯ УНИЧТОЖИЛА ИХ."
 
 #: 26233
 msgid "IT IS THE WAR BY WHICH THE PLANES WILL BE UNMADE."
-msgstr ""
+msgstr "ЭТО ВОЙНА, В КОТОРОЙ БУДУТ УНИЧТОЖЕНЫ ПЛАНЫ."
 
 #: 26234
 msgid "THE LIFETIMES OF MANY METALS."
-msgstr ""
+msgstr "НА ПРОТЯЖЕНИИ ЖИЗНЕЙ МНОГИХ МЕТАЛЛОВ."
 
 #: 26235
 msgid ""
@@ -250,30 +338,36 @@ msgid ""
 "SMOKING SKIES OF AVERNUS WERE MADE. WEAPONS SO SHARP THE WIND ITSELF KNEW "
 "AGONY."
 msgstr ""
+"ДА. ИМЕННО В ЭТОЙ КУЗНИЦЕ БЫЛИ СОЗДАНЫ СВИСТЯЩИЕ СНАРЯДЫ, КОТОРЫЕ РАЗРЫВАЛИ "
+"ДЫМЯЩЕЕСЯ НЕБО АВЕРНУСА, СТОЛЬ ОСТРЫЕ, ЧТО САМ ВЕТЕР ИСПЫТЫВАЛ МУЧЕНИЯ."
 
 #: 26236
 msgid ""
 "THE NIGHT HAG SOUGHT TO SUNDER THIS CITY. HER GREATEST WORKS WERE THOSE OF "
 "UNMAKING. SHE WALKED THE PATH OF ENTROPY. "
 msgstr ""
+"НОЧНАЯ ВЕДЬМА ХОТЕЛА РАЗДЕЛИТЬ ЭТОТ ГОРОД. ЕЕ ВЕЛИЧАЙШИМЕ ДЕЛА БЫЛИ СВЯЗАНЫ "
+"С РАЗРУШЕНИЕМ. ОНА ШЛА ДОРОГОЙ ЭНТРОПИИ."
 
 #: 26237
 msgid "ORDER SET CHAINS ABOUT HER. SHE WAS CAST WITHIN A CAGE. "
-msgstr ""
+msgstr "ПОРЯДОК ЗАКОВАЛ ЕЕ. ОНА БЫЛА БРОШЕНА В КЛЕТКУ."
 
 #: 26238
 msgid "HER PRISON IS UNKNOWN TO ME. "
-msgstr ""
+msgstr "ЕЕ ТЕМНИЦА МНЕ НЕИЗВЕСТНА."
 
 #: 26239
 msgid "IT IS A PLACE OF SHADOWS. A FORTRESS NOT EVEN THIS TOWER CAN BREACH. "
-msgstr ""
+msgstr "ЭТО МЕСТО ТЕНЕЙ. КРЕПОСТЬ, КОТОРУЮ НЕ МОЖЕТ ПРОБИТЬ ДАЖЕ ЭТА БАШНЯ."
 
 #: 26240
 msgid ""
 "IT IS A MEMORIAL THAT HAS FORGOTTEN ITSELF. IT NOW DECAYS IN DARKNESS, "
 "SLOWLY DYING AMONG THE SKIES OF THE NEGATIVE MATERIAL PLANE."
 msgstr ""
+"ЭТО ПАМЯТНИК, ЗАБЫВШИЙ СЕБЯ. ТЕПЕРЬ ОН УГАСАЕТ ВО ТЬМЕ, МЕДЛЕННО УМИРАЯ В "
+"НЕБЕСАХ НЕГАТИВНОГО МАТЕРИАЛЬНОГО ПЛАНА."
 
 #: 26241
 msgid "NO. "
@@ -285,66 +379,81 @@ msgid ""
 "THAT MY DURANCE IN THE PRISON OF THIS CITY WOULD BE NEAR AN END WHEN THE "
 "CAGE LEFT MY POSSESSION. "
 msgstr ""
+"У МЕНЯ ЕСТЬ ТАКОЙ ПРЕДМЕТ. ДАВНЫМ-ДАВНО КО МНЕ ПРИШЕЛ ЗОДЧИЙ СНОВ. ОН "
+"ПООБЕЩАЛ МНЕ, ЧТО МОЕ ЗАТОЧЕНИЕ В ЭТОМ ГОРОДЕ ПОДОЙДЕТ К КОНЦУ, КОГДА Я "
+"ОТДАМ КЛЕТКУ."
 
 #: 26243
 msgid "YES. TAKE THIS CAGE AND LAY WASTE TO THOSE WHO CREATE SUCH CONFINES."
-msgstr ""
+msgstr "ДА. ВОЗЬМИ ЭТУ КЛЕТКУ И ПОГУБИ ТЕХ, КТО СОЗДАЕТ ЭТИ ГРАНИЦЫ."
 
 #: 26244
 msgid "IMMORTALITY IS ONLY A WORD. ALL THAT EXISTS CAN DIE."
-msgstr ""
+msgstr "БЕССМЕРТИЕ - ВСЕГО ЛИШЬ СЛОВО. ВСЕ СУЩЕЕ МОЖЕТ УМЕРЕТЬ."
 
 #: 26245
 msgid ""
 "EVERY LIVING THING HAS A WEAPON AGAINST WHICH IT HAS NO DEFENSE. TIME. "
 "DISEASE. IRON. GUILT. "
 msgstr ""
+"У КАЖДОГО ЖИВОГО СУЩЕСТВА ЕСТЬ ОРУЖИЕ, ПЕРЕД КОТОРЫМ ОНО БЕЗЗАЩИТНО. ВРЕМЯ. "
+"БОЛЕЗНЬ. ЖЕЛЕЗО. ВИНА."
 
 #: 26246
 msgid "ONE MUST KNOW THE ENEMY TO FORGE SUCH A WEAPON."
-msgstr ""
+msgstr "ЧТОБЫ ВЫКОВАТЬ ТАКОЕ ОРУЖИЕ, НУЖНО ЗНАТЬ ВРАГА."
 
 #: 26247
 msgid ""
 "START WITH A FRAGMENT OF THE ENEMY. A DROP OF BLOOD. A CRYSTALLIZED THOUGHT. "
 "ONE OF ITS HOPES. ALL OF THESE THINGS TELL THE WAY IT CAN DIE."
 msgstr ""
+"НАЧНИ С ЧАСТИЦЫ ВРАГА. КАПЛИ КРОВИ. КРИСТАЛЛИЗИРОВАННОЙ МЫСЛИ. ОДНОЙ ИЗ "
+"НАДЕЖД. ВСЕ ЭТИ ВЕЩИ ПОКАЖУТ, КАК ОН МОЖЕТ УМЕРЕТЬ."
 
 #: 26248
 msgid "THEN THAT IS THE FRAGMENT OF THE ENEMY YOU MUST USE. "
-msgstr ""
+msgstr "ТОГДА ЭТО И ЕСТЬ ЧАСТИЦА ВРАГА, КОТОРОЙ ТЫ ДОЛЖЕН ВОСПОЛЬЗОВАТЬСЯ."
 
 #: 26249
 msgid ""
 "THE ACTIONS OF YOUR ENEMY HAVE TOLD YOU MUCH. YOUR ENEMY DOES NOT WISH TO "
 "ENGAGE YOU DIRECTLY. THAT IS A WEAKNESS. "
 msgstr ""
+"ДЕЙСТВИЯ ТВОЕГО ВРАГА ГОВОРЯТ ТЕБЕ О МНОГОМ. ТВОЙ ВРАГ НЕ ХОЧЕТ ВСТУПАТЬ С "
+"ТОБОЙ В ОТКРЫТЫЙ БОЙ. ЭТО ЕГО СЛАБОЕ МЕСТО."
 
 #: 26250
 msgid "THAT IS AN EQUAL POSSIBILITY. EITHER POSSIBILITY REVEALS WEAKNESS."
-msgstr ""
+msgstr "ВЕРОЯТНОСТИ ЭТИ РАВНОЦЕННЫ. КАЖДАЯ ИЗ НИХ ОТКРЫВАЕТ СЛАБОЕ МЕСТО."
 
 #: 26251
 msgid ""
 "THE ACTIONS OF YOUR ENEMY HAVE TOLD YOU IT DOES NOT WISH ENGAGE YOU "
 "DIRECTLY. THAT IS A WEAKNESS. "
 msgstr ""
+"ДЕЙСТВИЯ ТВОЕГО ВРАГА ГОВОРЯТ ТЕБЕ, ЧТО ТВОЙ ВРАГ НЕ ХОЧЕТ ВСТУПАТЬ С ТОБОЙ "
+"В ОТКРЫТЫЙ БОЙ. ЭТО ЕГО СЛАБОЕ МЕСТО."
 
 #: 26252
 msgid "CONFRONT YOUR ENEMY DIRECTLY. TAKE THE BATTLE TO THE ENEMY."
-msgstr ""
+msgstr "ВСТРЕТЬСЯ СО СВОИМ ВРАГОМ В ОТКРЫТОМ БОЮ. ВТЯНИ ЕГО В БИТВУ."
 
 #: 26253
 msgid ""
 "IF THE ENEMY DOES NOT WISH TO CONFRONT YOU DIRECTLY, DENY ITS WISH. TAKE THE "
 "BATTLE TO THE ENEMY."
 msgstr ""
+"ЕСЛИ ВРАГ НЕ ХОЧЕТ СРАЖАТЬСЯ С ТОБОЙ В ОТКРЫТУЮ, ДЕЙСТВУЙ ВОПРЕКИ ЕГО "
+"ЖЕЛАНИЯМ. ВТЯНИ ЕГО В БОЙ."
 
 #: 26254
 msgid ""
 "IF IT IS NOT ALLOWED TO CONFRONT YOU DIRECTLY, FIND THE REASON. THE REASON "
 "WILL REVEAL A WEAKNESS."
 msgstr ""
+"ЕСЛИ ОН НЕ МОЖЕТ СРАЖАТЬСЯ С ТОБОЙ В ОТКРЫТОМ БОЮ, НАЙДИ ПРИЧИНУ. ОНА "
+"РАСКРОЕТ ТЕБЕ ЕГО СЛАБОЕ МЕСТО."
 
 #: 26255
 msgid "YES. "
@@ -352,12 +461,12 @@ msgstr "ДА."
 
 #: 26256
 msgid "I WOULD NEED A DROP OF YOUR BLOOD. THAT IS ALL. "
-msgstr ""
+msgstr "МНЕ БУДЕТ НУЖНА КАПЛЯ ТВОЕЙ КРОВИ. ЭТО ВСЕ."
 
 #: 26257
 msgid ""
 "THE TOOL OF YOUR DESTRUCTION HAS BEEN FORGED AND EDUCATED. IT IS NOT ENOUGH. "
-msgstr ""
+msgstr "ИНСТРУМЕНТ ТВОЕГО УНИЧТОЖЕНИЯ ВЫКОВАН И ОБУЧЕН. ЭТОГО НЕДОСТАТОЧНО."
 
 #: 26258
 msgid ""
@@ -365,29 +474,36 @@ msgid ""
 "MUST SINK THE BLADE INTO YOUR BODY ONLY WITHIN A SHELL WHERE YOU ARE CUT OFF "
 "FROM THE PLANES."
 msgstr ""
+"МАГИЯ, ЗАСТАВЛЯЮЩАЯ ТВОЕ СЕРДЦЕ БИТЬСЯ И ЗАЛЕЧИВАЮЩАЯ ТВОИ РАНЫ, СИЛЬНА. ТЫ "
+"ДОЛЖЕН ПОГРУЗИТЬ КЛИНОК В СВОЕ ТЕЛО, ТОЛЬКО БУДУЧИ В ОБОЛОЧКЕ, В КОТОРОЙ ТЫ "
+"БУДЕШЬ ОТРЕЗАН ОТ ПЛАНОВ."
 
 #: 26259
 msgid ""
 "THE REASON IS NOT KNOWN TO ME. YET BOTH THE WEAPON AND THE PLACE ARE "
 "NECESSARY FOR YOUR DESTRUCTION."
 msgstr ""
+"ПРИЧИНА МНЕ НЕИЗВЕСТНА. И ВСЕ ЖЕ ЭТО МЕСТО И ЭТО ОРУЖИЕ НЕОБХОДИМЫ ДЛЯ "
+"ТВОЕГО УНИЧТОЖЕНИЯ."
 
 #: 26260
 msgid "THAT IS NOT KNOWN TO ME."
-msgstr ""
+msgstr "ЭТО МНЕ НЕИЗВЕСТНО."
 
 #: 26261
 msgid "HOLD. BEFORE YOU DEPART, THERE IS SOMETHING YOU MUST DO."
-msgstr ""
+msgstr "ПОСТОЙ. ПЕРЕД ТВОИМ УХОДОМ НУЖНО, ЧТОБЫ ТЫ КОЕ-ЧТО СДЕЛАЛ."
 
 #: 26262
 msgid ""
 "SUNDER THIS PRISON. FREE ME. MY PURPOSE CANNOT BE FUFILLED IN THIS CAGE. "
 msgstr ""
+"РАСКРОЙ ЭТУ ТЮРЬМУ. ОСВОБОДИ МЕНЯ. МОЕ ПРЕДНАЗНАЧЕНИЕ НЕ МОЖЕТ БЫТЬ "
+"ВЫПОЛНЕНО В ЭТОЙ КЛЕТКЕ."
 
 #: 26263
 msgid "EXPLAIN."
-msgstr ""
+msgstr "ОБЪЯСНИ."
 
 #: 26264
 msgid ""
@@ -395,68 +511,78 @@ msgid ""
 "HEALING ITS WOUNDS. IN TIME, IT MAY GROW TO BE THE EQUAL OF ENTROPY. THIS "
 "MUST NOT BE ALLOWED TO COME TO PASS."
 msgstr ""
+"ПОЭТОМУ Я И ДОЛЖЕН БЫТЬ ОСВОБОЖДЕН. МУЛЬТИВСЕЛЕННАЯ СОБИРАЕТ СВОИ АРМИИ. ОНА "
+"ЗАЛЕЧИВАЕТ РАНЫ. СО ВРЕМЕНЕМ ОНА МОЖЕТ СРАВНЯТЬСЯ С ЭНТРОПИЕЙ. ЭТОГО НЕ "
+"ДОЛЖНО СЛУЧИТЬСЯ."
 
 #: 26265
 msgid "LISTEN. DO YOU HEAR IT?"
-msgstr ""
+msgstr "СЛУШАЙ. ТЫ СЛЫШИШЬ?"
 
 #: 26266
 msgid ""
 "THE SOUND OF NEGLECTED METAL. RUST. WEAPONS WITHOUT EXPRESSION. UNBLOODED ON "
 "PLANAR BATTLEGROUNDS. THEY SUFFER. FREE ME. FREE THEM."
 msgstr ""
+"ЗВУК РАЗРУШАЮЩЕГОСЯ МЕТАЛЛА. РЖАВЧИНА. ОРУЖИЕ БЕЗ ВЫРАЖЕНИЯ. ОБЕСКРОВЛЕННОЕ "
+"НА ПЛАНАРНЫХ ПОЛЯХ БРАНИ. ОНО СТРАДАЕТ. ОСВОБОДИ МЕНЯ. ОСВОБОДИ ЕГО."
 
 #: 26267
 msgid ""
 "ORDER HAS SET ITS CHAINS AROUND YOU. YOU ARE MY ENEMY AND THE ENEMY OF ALL "
 "THAT DIES. YOU SHALL BE BARRED FROM THIS TOWER UNTIL ETERNITY ENDS."
 msgstr ""
+"ПОРЯДОК ЗАКОВАЛ ТЕБЯ В ЦЕПИ. ТЫ - МОЙ ВРАГ, И ВРАГ ВСЕМУ, ЧТО УМИРАЕТ. ТЫ НЕ "
+"БУДЕШЬ ДОПУЩЕН В ЭТУ БАШНЮ ДО СКОНЧАНИЯ ВЕКОВ."
 
 #: 26268
 msgid "GIVE ME THE PLANAR CUBE YOU CARRY. IT CAN FREE ME FROM THIS PLACE. "
 msgstr ""
+"ОТДАЙ МНЕ ПЛАНАРНЫЙ КУБ, КОТОРЫЙ ПРИ ТЕБЕ. ОН МОЖЕТ ОСВОБОДИТЬ МЕНЯ ОТСЮДА."
 
 #: 26269
 msgid ""
 "IT IS THE DOOR THAT WILL ALLOW THIS TOWER TO LEAVE THIS PLACE. GIVE TO ME "
 "THE PLANAR CUBE."
 msgstr ""
+"ЭТО ДВЕРЬ, КОТОРАЯ ПОЗВОЛИТ БАШНЕ ПОКИНУТЬ ЭТО МЕСТО. ОТДАЙ МНЕ ПЛАНАРНЫЙ "
+"КУБ."
 
 #: 26270
 msgid "THERE IS A PLANAR CUBE. IT CAN FREE ME FROM THIS PLACE. "
-msgstr ""
+msgstr "ГДЕ-ТО ЕСТЬ ПЛАНАРНЫЙ КУБ. ОН МОЖЕТ ОСВОБОДИТЬ МЕНЯ ОТСЮДА."
 
 #: 26271
 msgid "THEN YOU WILL FIND THE CUBE. YOU WILL BRING IT TO ME."
-msgstr ""
+msgstr "ТОГДА ТЫ НАЙДЕШЬ КУБ. ТЫ ПРИНЕСЕШЬ ЕГО МНЕ."
 
 #: 26272
 msgid "ITS LOCATION IS NOT KNOWN TO ME. FIND IT. BRING IT TO ME."
-msgstr ""
+msgstr "ЕГО МЕСТОНАХОЖДЕНИЕ МНЕ НЕИЗВЕСТНО. НАЙДИ ЕГО. ПРИНЕСИ ЕГО МНЕ."
 
 #: 26273
 msgid "WHERE IS THE PLANAR CUBE?"
-msgstr ""
+msgstr "ГДЕ ПЛАНАРНЫЙ КУБ?"
 
 #: 26274
 msgid ""
 "SHOW ME WHAT YOU HAVE BROUGHT. I WILL STUDY ITS POTENTIAL AND SEE IF ITS "
 "PAIN CAN BE GIVEN EXPRESSION."
 msgstr ""
+"ПОКАЖИ, ЧТО ТЫ ПРИНЕС. Я ИЗУЧУ ЕГО ПОТЕНЦИАЛ И ПОСМОТРЮ, МОЖНО ЛИ ВЫРАЗИТЬ "
+"ЕГО."
 
 #: 26276
 msgid "IT IS DONE."
-msgstr ""
+msgstr "ГОТОВО."
 
 #: 26277 26279 26280
-#, fuzzy
 msgid "\"I had some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
 #: 26281 3018
-#, fuzzy
 msgid "Leave the golem alone."
-msgstr "Оставить женщину в покое."
+msgstr "Оставить голема в покое."
 
 #: 26283
 msgid "\"What are you?\""
@@ -472,38 +598,39 @@ msgstr "\"Что ты делаешь?\""
 
 #: 26286
 msgid "\"Why do you make weapons?\""
-msgstr ""
+msgstr "\"Зачем ты делаешь оружие?\""
 
 #: 26287
 msgid "\"Can you tell me more of what you do with weapons?\""
 msgstr ""
+"\"Ты не мог бы рассказать мне побольше о том, что ты делаешь с оружием?\""
 
 #: 26288 26309 26310
-#, fuzzy
 msgid "\"Can you do anything with my weapons?\""
-msgstr "\"А еще что-нибудь ты умеешь?\""
+msgstr "\"Ты можешь что-нибудь сделать с моим оружием?\""
 
 #: 26290
-#, fuzzy
 msgid "\"What do you know of the Blood War?\""
-msgstr "\"Что ты знаешь об этом месте?\""
+msgstr "\"Что ты знаешь о Кровавой Войне?\""
 
 #: 26291
+#, fuzzy
 msgid "\"Have you heard of a night hag named Ravel?\""
-msgstr ""
+msgstr "\"Ты слышал о ночной ведьме по имени Равель?\""
 
 #: 26292
 msgid "\"Do you know of a citadel called the Fortress of Regrets?\""
-msgstr ""
+msgstr "\"Ты знаешь о цитадели под названием Крепость Сожалений?\""
 
 #: 26294
 msgid "\"I need a heavy, decorated, wrought-iron birdcage. Do you have one?\""
 msgstr ""
+"\"Мне нужна тяжелая украшенная птичья клетка из кованого железа. У тебя "
+"такой не найдется?\""
 
 #: 26295 26296
-#, fuzzy
 msgid "\"Perhaps another day. Farewell.\""
-msgstr "\"Возможно в другой раз. Прощай\"."
+msgstr "\"Возможно, в другой раз. Прощай\"."
 
 #: 26297
 msgid "\"What *are* you?\""
@@ -512,20 +639,19 @@ msgstr "\"Что *ты* такое?\""
 #: 26298
 msgid ""
 "\"Never mind... I'm definitely in the wrong place. Sorry to disturb you.\""
-msgstr ""
+msgstr "\"Неважно... Я определенно не туда попал. Извини, что побеспокоил\"."
 
 #: 26299
 msgid "\"What purpose?\""
-msgstr ""
+msgstr "\"Какое предназначение?\""
 
 #: 26300
 msgid "\"What was your purpose again?\""
-msgstr ""
+msgstr "\"Еще раз, каково твое предназначение?\""
 
 #: 26301
-#, fuzzy
 msgid "\"Yes, you'd mentioned that before. I had some other questions...\""
-msgstr "\"Да, ты уже об этом говорил. У меня есть другие вопросы...\""
+msgstr "\"Да, ты уже об этом говорил. У меня были еще вопросы...\""
 
 #: 26302 26403
 msgid "\"I... see. That is all I wished to know. Farewell.\""
@@ -533,29 +659,27 @@ msgstr "\"Понятно... Это все, что я хотел узнать. П
 
 #: 26303
 msgid "\"You mean forging weapons? That's your purpose?\""
-msgstr ""
+msgstr "\"То есть ты куешь оружие? Это и есть твое предназначение?\""
 
 #: 26304
 msgid "\"And you said before that your purpose is to forge weapons... right?\""
-msgstr ""
+msgstr "\"Ты сказал, что твое предназначение - ковать оружие... правильно?\""
 
 #: 26305 26326 26329 26335 26342 26345 26351 26355 26358 26370
 msgid "\"I see. I had some other questions...\""
 msgstr "\"Понятно. У меня были еще вопросы...\" "
 
 #: 26306 26312
-#, fuzzy
 msgid "\"I'll let you carry on with your work, then. Farewell.\""
-msgstr "\"Тогда пойду, посмотрю. Прощай\"."
+msgstr "\"Тогда я позволю тебе продолжить свою работу. Прощай\"."
 
 #: 26307
 msgid "\"Who do you make these weapons for?\""
-msgstr ""
+msgstr "\"Для кого ты делаешь это оружие?\""
 
 #: 26308
-#, fuzzy
 msgid "\"Why do you do this?\""
-msgstr "\"Чем ты здесь занимаешься?\""
+msgstr "\"Зачем ты это делаешь?\""
 
 #: 26311 26314 26317 26375 26378 26383 26386 26388 26391 26394 26396 26402
 #: 26405 26408 26413 26417 26421 26425 26429 26436 26439 26442 26454
@@ -575,10 +699,11 @@ msgstr "\"Понятно. Это все, что я хотел узнать. Пр
 msgid ""
 "\"You said that someone melted those weapons and forged your body. Who?\""
 msgstr ""
+"\"Ты говорил, что кто-то расплавил оружие и создал твое тело. Кто это был?\""
 
 #: 26319
 msgid "\"And you said your purpose now is to forge weapons?\""
-msgstr ""
+msgstr "\"И ты сказал, что теперь твое предназначение - ковать оружие?\""
 
 #: 26320
 msgid "\"I see... I had another question...\""
@@ -588,77 +713,82 @@ msgstr "\"Понятно... У меня есть другой вопрос...\""
 msgid ""
 "\"Well, remind me to thank, uh, entropy when I see him again. Farewell.\""
 msgstr ""
+"\"Что ж, напомни мне сказать спасибо, э, энтропии, когда я снова с ней "
+"увижусь. Прощай\"."
 
 #: 26322
 msgid "\"What does entropy need weapons for?\""
-msgstr ""
+msgstr "\"Зачем энтропии оружие?\""
 
 #: 26323
 msgid "\"I see. I had some other questions..\""
-msgstr "\"Понятно. У меня были еще вопросы..\""
+msgstr "\"Понятно. У меня были еще вопросы...\""
 
 #: 26324 26327 26330 26343 26373
-#, fuzzy
 msgid "\"Very interesting... that is all I wished to know. Farewell.\""
-msgstr "\"Хорошо. Это все, что я хотел узнать. Прощай\"."
+msgstr "\"Очень интересно... Это все, что я хотел узнать. Прощай\"."
 
 #: 26325
 msgid "\"The multiverse is your enemy? Why?\""
-msgstr ""
+msgstr "\"Мультивселенная - твой враг? Почему?\""
 
 #: 26328
 msgid "\"And you're opposed to chaining entropy?\""
-msgstr ""
+msgstr "\"И ты против сковывания энтропии?\""
 
 #: 26331
 msgid "\"So you're saying immortality is just a different kind of death?\""
-msgstr ""
+msgstr "\"Так ты говоришь, что бессмертие - всего лишь еще один вид смерти?\""
 
 #: 26332
 msgid "\"What makes that death any worse than another?\""
-msgstr ""
+msgstr "\"Почему эта смерть хуже остальных?\""
 
 #: 26333
 msgid ""
 "Truth: \"Except the death you seem to offer is violent and senseless -- "
 "without meaning.\" "
 msgstr ""
+"Правда: \"За исключением того, что предлагаемая тобой смерть жестока и "
+"бессмысленная\"."
 
 #: 26334
 msgid "Truth: \"True enough; so what made you take up entropy's cause?\""
 msgstr ""
+"Правда: \"Совершенно верно. Так что же заставило тебя принять сторону "
+"энтропии?\""
 
 #: 26336
-#, fuzzy
 msgid "\"Very interesting that is all I wished to know. Farewell.\""
-msgstr "\"Хорошо. Это все, что я хотел узнать. Прощай\"."
+msgstr "\"Очень интересно. Это все, что я хотел узнать. Прощай\"."
 
 #: 26337
 msgid "\"And how much of this is too much?\""
-msgstr ""
+msgstr "\"А есть ли всему этому предел?\""
 
 #: 26338
 msgid "\"These things may be necessary... within limits.\""
-msgstr ""
+msgstr "\"Это может быть необходимо... в разумных пределах\"."
 
 #: 26339
 msgid ""
 "\"These things are *never* necessary. To promote them and glorify the "
 "destruction they cause is wrong.\""
 msgstr ""
+"\"Это вещи *никогда* не были необходимостью. Неправильно поощрять их и "
+"восхвалять разрушение, которое они несут\"."
 
 #: 26341
 msgid "\"Agreed. Without these things, there is stagnation.\""
-msgstr ""
+msgstr "\"Согласен. Без всего этого наступит застой\"."
 
 #: 26344
 msgid "\"Even if death is the result?\""
-msgstr ""
+msgstr "\"Даже если результатом будет смерть?\""
 
 #: 26346 26353 26368 26371
-#, fuzzy
 msgid "\"Very interesting...that is all I wished to know. Farewell.\""
-msgstr "\"Хорошо. Это все, что я хотел узнать. Прощай\"."
+msgstr "\"Очень интересно... Это все, что я хотел узнать. Прощай\"."
 
 #: 26347
 msgid "\"I...see. I had some other questions...\""
@@ -668,90 +798,85 @@ msgstr "\"Понятно... У меня были еще вопросы...\""
 msgid ""
 "\"Sounds like it'll be a hell of a battle... perhaps I'll see you there. "
 "Farewell.\""
-msgstr ""
+msgstr "\"Похоже, битва будет знатной... может, там и увидимся. Прощай\"."
 
 #: 26349
 msgid "\"Breach planes? How?\""
-msgstr ""
+msgstr "\"Пробивает планы? Как?\""
 
 #: 26350
 msgid "\"If this siege tower can travel the planes, why do you remain here?\""
 msgstr ""
+"\"Если эта осадная башня может путешествовать по планам, почему ты остаешься "
+"здесь?\""
 
 #: 26354
 msgid "\"How did the siege tower get in the city in the first place?\""
-msgstr ""
+msgstr "\"Как вообще эта осадная башня попала в город?\""
 
 #: 26356
-#, fuzzy
 msgid "\"Very interesting... that is all I wished to know. Farewell.\"\n"
-msgstr "\"Хорошо. Это все, что я хотел узнать. Прощай\"."
+msgstr "\"Очень интересно... Это все, что я хотел узнать. Прощай\".\n"
 
 #: 26357
 msgid "\"You said the tower can breach planes? How?\""
-msgstr ""
+msgstr "\"Ты сказал, что башня может пробивать планы? Как?\""
 
 #: 26359
 msgid "\"I'm sorry to hear that; I don't think I can help you. Farewell.\""
-msgstr ""
+msgstr "\"Жаль это слышать, не думаю, что смогу тебе помочь. Прощай\"."
 
 #: 26366
 msgid "\"What happened to the legions that have used the tower?\""
-msgstr ""
+msgstr "\"Что случилось с легионами, которые воспользовались башней?\""
 
 #: 26367
-#, fuzzy
 msgid "\"I see. I had some other questions...\"\n"
-msgstr ""
-"\"Понятно. У меня были еще вопросы...\"\n"
-"\n"
+msgstr "\"Понятно. У меня были еще вопросы...\"\n"
 
 #: 26369
 msgid "\"And what happened to the Planes the siege tower invaded?\""
-msgstr ""
+msgstr "\"И что случилась с планами, в которые вторглась осадная башня?\""
 
 #: 26372
 msgid "\"I... see. I had some other questions...\""
-msgstr "\"Понятно... У меня были еще вопросы...\" "
+msgstr "\"Понятно... У меня были еще вопросы...\""
 
 #: 26374
 msgid "\"How long has it gone on?\""
-msgstr ""
+msgstr "\"Как долго она длится?\""
 
 #: 26377
 msgid "\"Did you ever serve in it?\""
-msgstr ""
+msgstr "\"Ты когда-нибудь служил на ней?\""
 
 #: 26382
 msgid "\"Do you know what happened to her?\""
-msgstr ""
+msgstr "\"Ты знаешь, что с ней случилось?\""
 
 #: 26385
-#, fuzzy
 msgid "\"Do you know where this cage is?\""
-msgstr "\"Ты знаешь, где она находится?\""
+msgstr "\"Ты знаешь, где находится эта клетка?\""
 
 #: 26389
 msgid "\"That is all I wished to know. Farewell.\""
 msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 26390
-#, fuzzy
 msgid "\"Do you know anything more about it?\""
-msgstr "\"А еще что-нибудь ты обо мне знаешь?\""
+msgstr "\"Ты знаешь об этом еще что-нибудь?\""
 
 #: 26393
 msgid "\"Do you know how to reach it?\""
-msgstr ""
+msgstr "\"Ты не знаешь, как туда попасть?\""
 
 #: 26398
 msgid "\"I...see. Can I have it?\""
-msgstr ""
+msgstr "\"Понятно... Мне можно ее забрать?\""
 
 #: 26399
-#, fuzzy
 msgid "Before I go, I had other questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Пока я не ушел, у меня еще вопросы...\""
 
 #: 26400
 msgid "\"Thank you. Farewell.\""
@@ -760,44 +885,47 @@ msgstr "\"Спасибо. Прощай\"."
 #: 26401
 msgid "\"You're saying you could forge a weapon to kill an immortal?\""
 msgstr ""
+"\"Ты говоришь, что мог бы выковать оружие, которое убьет бессмертного?\""
 
 #: 26404
 msgid "\"How do you know what weapon to use?\""
-msgstr ""
+msgstr "\"Откуда ты знаешь, каким оружием нужно воспользоваться?\""
 
 #: 26407
 msgid "\"And how do I do that?\""
-msgstr ""
+msgstr "\"И как мне это сделать?\""
 
 #: 26410
 msgid ""
 "\"What if your enemy strikes from a distance, from shadows, and never shows "
 "himself?\""
 msgstr ""
+"\"Что, если враг нападает издалека, из теней, и никогда не показывается?\""
 
 #: 26411 26412
 msgid "\"Hmmmm. Could you forge a weapon that would kill me?\""
-msgstr ""
+msgstr "\"Хм-м. Ты мог бы выковать оружие, которое убьет меня?\""
 
 #: 26416
-#, fuzzy
 msgid "\"How?\""
-msgstr "\"Тебя?\""
+msgstr "\"Как?\""
 
 #: 26419
 msgid "\"Or... for some reason, it *cannot* engage me directly.\""
 msgstr ""
+"\"Или... по какой-то причине он *не может* вступит со мной в открытый бой\"."
 
 #: 26420 26423 26427
-#, fuzzy
 msgid "\"How do I exploit that?\""
-msgstr "\"Как я попал сюда?\""
+msgstr "\"Как мне воспользоваться этим?\""
 
 #: 26431
 msgid ""
 "\"You said that immortality was just a word... that all that lives can die. "
 "Could you make a weapon that could kill me?\""
 msgstr ""
+"\"Ты сказал, что бессмертие - всего лишь слово... что все живущее умирает. "
+"Ты смог бы создать оружие, которым можно было бы убить меня?\""
 
 #: 26432
 msgid "\"Very well. I had another question...\""
@@ -808,52 +936,54 @@ msgid ""
 "\"And if the reason it can't attack me directly is because it has no choice?"
 "\""
 msgstr ""
+"\"А что, если причина того, что он не нападает на меня в открытую, в том, "
+"что у него нет выбора?\""
 
+# you=that
 #: 26438
 msgid ""
 "\"You said you immortality was just a word... that all that lives can die. "
 "Could you make a weapon that could kill me?\""
 msgstr ""
+"\"Ты сказал, что бессмертие - всего лишь слово... что все живущее умирает. "
+"Ты смог бы создать оружие, которым можно было бы убить меня?\""
 
 #: 26441
 msgid "\"Really? How?\""
-msgstr ""
+msgstr "\"Правда? Как?\""
 
 #: 26444 26489
 msgid "\"Very well...\""
 msgstr "\"Очень хорошо...\""
 
 #: 26445
-#, fuzzy
 msgid "\"Perhaps another time. I had some other questions...\""
-msgstr "\"Возможно, я это выдумал. У меня были еще вопросы\"."
+msgstr "\"Может, в другой раз. У меня были еще вопросы...\""
 
 #: 26447
 msgid "\"What do you mean?\""
 msgstr "\"О чем это ты?\""
 
 #: 26448
-#, fuzzy
 msgid "\"Why?\""
 msgstr "\"Почему?\""
 
 #: 26450
 msgid "\"Where would I find such a shell that separated me from the Planes?\""
 msgstr ""
+"\"Где же мне найти такую оболочку, которая бы отделила меня от планов?\""
 
 #: 26455
 msgid "\"I'll have to go find such a place on my own, then. Farewell.\""
-msgstr ""
+msgstr "\"Тогда мне придется найти это место самому. Прощай\"."
 
 #: 26456 26465
-#, fuzzy
 msgid "\"What?\""
-msgstr "\"*ЧТО?!*\""
+msgstr "\"Что?\""
 
 #: 26457 26460
-#, fuzzy
 msgid "\"How could *I* free you?\""
-msgstr "\"И как мне застать ее одной?\""
+msgstr "\"Как *мне* освободить тебя?\""
 
 #: 26458
 msgid ""
@@ -861,125 +991,139 @@ msgid ""
 "rest of the Planes. Countless planars would die. I could not allow such a "
 "thing.\""
 msgstr ""
+"\"Если ты покинешь город, ты принесешь планам только войну и разрушение. "
+"Умрет несчетное количество планаров. Я не могу позволить такому случиться\"."
 
 #: 26459
 msgid "\"I cannot do that.\""
-msgstr ""
+msgstr "\"Я не могу этого сделать\"."
 
 #: 26461
 msgid ""
 "\"Your purpose is here, golem. Your purpose is to serve me. Provide me with "
 "weapons and speak to me no more of your 'freedom.'\""
 msgstr ""
+"\"Твое предназначение - быть здесь. Твое назначение - служить мне. Снабжай "
+"меня оружием и больше не заикайся о 'свободе'\"."
 
 #: 26462
 msgid "\"I disagree.\""
-msgstr ""
+msgstr "\"Я не согласен\"."
 
 #: 26463 26464
 msgid "\"Hmmm. I see your point... how can I free you?\""
-msgstr ""
+msgstr "\"Хм-м. Я тебя понял... как мне освободить тебя?\""
 
 #: 26466
 msgid ""
 "\"There is nothing more to be said. I will not free you; the Planes do not "
 "need the chaos and suffering you will bring. Farewell.\""
 msgstr ""
+"\"Говорить больше не о чем. Я не стану тебя освобождать: планам не нужны "
+"хаос и страдания, которые ты несешь. Прощай\"."
 
 #: 26467
 msgid ""
 "\"There is nothing more to be said. Your purpose is here, golem, and you "
 "will continue to serve me. Farewell.\""
 msgstr ""
+"\"Говорить больше не о чем. Твое назначение, голем, - находиться здесь и "
+"служить мне. Прощай\"."
 
 #: 26468
 msgid ""
 "\"I cannot allow you to be free. The Planes do not need any more chaos and "
 "blood-letting.\""
 msgstr ""
+"\"Я не могу позволить тебе освободиться. Планам больше не нужны хаос и "
+"кровопролитие\"."
 
 #: 26469
 msgid ""
 "\"There is nothing more to be said. Your purpose is here, golem, and you "
 "will continue to serve me.\""
 msgstr ""
+"\"Говорить больше не о чем. Твое назначение, голем, - находиться здесь и "
+"служить мне\"."
 
 #: 26470 26471
-#, fuzzy
 msgid "\"How could I free them?\""
-msgstr "\"Как я попал сюда?\""
+msgstr "\"Как мне освободить их?\""
 
 #: 26472
 msgid "\"If that is what must be, then that is what must be. Farewell.\""
-msgstr ""
+msgstr "\"Чему быть - того не миновать. Прощай\"."
 
 #: 26473 26475
-#, fuzzy
 msgid "\"All right, here you are.\""
-msgstr "\"Хорошо. Прощай\"."
+msgstr "\"Хорошо, вот\"."
 
 #: 26474
 msgid "\"I can't give that up.\""
-msgstr ""
+msgstr "\"Я не могу отдать его\"."
 
 #: 26476
 msgid ""
 "\"Be that as it may, I can't give the cube up. It's too precious to me.\""
 msgstr ""
+"\"Как бы там ни было, я не могу отдать куб. Он слишком ценен для меня\"."
 
 #: 26477
 msgid ""
 "\"I wouldn't give up such an item to you. It sounds too powerful to be made "
 "a gift... if I find it, I'll keep it for myself.\""
 msgstr ""
+"\"Я бы не стал отдавать тебе такой предмет. Как для подарка, он слишком "
+"могущественный... если он мне попадется, я оставлю его себе\"."
 
 #: 26478
 msgid ""
 "\"I'm not giving it to you. I cannot allow you to be free. The Planes do not "
 "need any more chaos and blood-letting.\""
 msgstr ""
+"\"Я не отдам его тебе. Я не могу дать тебе освободиться. Планам больше не "
+"нужны хаос и кровопролитие\"."
 
 #: 26479
 msgid "\"But... I do not have such a cube.\""
-msgstr ""
+msgstr "\"Но... у меня нет такого куба\"."
 
 #: 26480 26483 26485
 msgid "\"I know of such a cube. But I will not give it to you.\""
-msgstr ""
+msgstr "\"Я знаю о таком кубе. Но я не отдам его тебе\"."
 
 #: 26482
-#, fuzzy
 msgid "\"Where would I find such a thing?\""
-msgstr "\"Где можно найти его?\""
+msgstr "\"Где можно найти такую вещь?\""
 
 #: 26484
 msgid "\"Very well... I will find the cube and bring it to you.\""
-msgstr ""
+msgstr "\"Хорошо... я найду куб и принесу его тебе\"."
 
 #: 26486
 msgid "\"I do not have it. If I had it, I would not give it to you.\""
-msgstr ""
+msgstr "\"У меня его нет. Но если бы и был, я бы не отдал его тебе\"."
 
 #: 26487
 msgid "\"I don't have the cube yet, but I wanted to ask you some questions--\""
 msgstr ""
+"\"У меня пока нет с собой куба, но я хотед задать тебе пару вопросов...\""
 
 #: 26488
 msgid "\"I haven't found it yet. I'll return when I have.\""
-msgstr ""
+msgstr "\"Я еще не нашел его. Как найду - вернусь\"."
 
 #: 26490
 msgid "\"Can I take a look at what other weapons you have?\""
-msgstr ""
+msgstr "\"Можно посмотреть на другое имеющееся у тебя оружие?\""
 
 #: 26491
 msgid "\"All right. I had another question...\""
 msgstr "\"Хорошо. У меня есть другой вопрос...\""
 
 #: 26492 26493
-#, fuzzy
 msgid "\"I see. That is all I wanted. Farewell.\""
-msgstr "\"Это все, что мне нужно. Прощай\"."
+msgstr "\"Понятно. Это все, что мне нужно. Прощай\"."
 
 #: 3017
 msgid ""
@@ -988,6 +1132,10 @@ msgid ""
 "rattle the walkway as the creature hammers away on its forge, and the smell "
 "of soot and ash fills the air. "
 msgstr ""
+"Ты видишь железное... существо. Его размеры поражают. Если бы оно встало в "
+"полный рост, оно проломило бы крышу осадной башни. Под мостиком рокочет "
+"оглушающее эхо ударов молота по наковальне, а воздух заполнен запахом сажи и "
+"пепла. "
 
 #: 3019
 msgid "\"Greetings.\""
@@ -999,3 +1147,5 @@ msgid ""
 "iron golem, almost the size of the tower itself. It seems to be forging "
 "weapons using a furnace within the tower. "
 msgstr ""
+"Я пробрался в осадную башню в Нижнем районе. В ней оказался железный голем "
+"размером почти с саму башню. Похоже, он кует оружие, используя горн в башне."
