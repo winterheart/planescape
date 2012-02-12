@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddimtree.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:50+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-02-12 22:31+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,6 +19,9 @@ msgid ""
 "engrossed in some tale that the shopkeeper is relating. Occasionally he nods "
 "his head, but makes no comments of his own."
 msgstr ""
+"Ты видишь высокого стройного мужчину со стеклянным взглядом. Кажется, он "
+"поглощен каким-то рассказом владельца лавки. Он временами кивает, но сам не "
+"говорит."
 
 #: 2908 35965
 msgid "\"Greetings.\""
@@ -31,19 +34,23 @@ msgid ""
 "looking. He is giving you a blank stare. The shopkeeper does not seem to "
 "notice any of this and continues with his stream of useless prattle."
 msgstr ""
+"В ответ на твое приветствие человек немного поворачивается, как раз "
+"настолько, чтобы увидеть тебя. Ты замечаешь, что у него бледноватый оттенок "
+"лица и довольно изможденный вид. Он бросает на тебя бесстрастный взгляд. "
+"Похоже, хозяин лавки всего этого не замечает и продолжает лить потоки "
+"бесполезной болтовни."
 
 #: 35923
 msgid "Ignore the man."
-msgstr "Не обращать внимания на мужчину."
+msgstr "Не обращать на него внимания."
 
 #: 35924 35940 35967
 msgid "\"I have some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 35925 35928
-#, fuzzy
 msgid "\"Are you... all right?\""
-msgstr "\"Прошу прощения... с тобой все в порядке?\""
+msgstr "\"Ты... в порядке?\""
 
 #: 35926 35937 35941 35949 35954
 msgid "\"Farewell.\""
@@ -56,6 +63,10 @@ msgid ""
 "but the shopkeeper is oblivious to this fact. Slowly the man returns his "
 "attention to you, staring at you blankly."
 msgstr ""
+"Человек медленно поворачивается обратно к владельцу лавки и кивает в ответ "
+"на что-то. Кажется, кивок немного запоздал по отношению к разговору, но "
+"лавочник не придает этому значения. Человек медленно поворачивается к тебе, "
+"глядя на тебя без выражения."
 
 #: 35929
 msgid "\"Never mind. Farewell.\""
@@ -67,13 +78,16 @@ msgid ""
 "response but he says nothing, only stares. You are about to turn away in "
 "frustration when you think you notice a strange musty odor about the man."
 msgstr ""
+"Человек продолжает пристально смотреть на тебя и медленно кивает. Ты "
+"ожидаешь ответа, но он не отвечает, а только смотрит. Ты уже собираешься "
+"разочаровано отвернуться, как вдруг тебе начинает казаться, что ты "
+"улавливаешь идущий от него странный запах плесени."
 
 #: 35931
 msgid "Step closer and sniff."
-msgstr ""
+msgstr "Подойти поближе и принюхаться."
 
 #: 35932
-#, fuzzy
 msgid "Ignore the man and leave."
 msgstr "Не обращать на него внимания и уйти."
 
@@ -83,17 +97,22 @@ msgid ""
 "musty odor fills your senses, an odor you recognize from your time in the "
 "mortuary. It is the smell of dead flesh preserved by magic."
 msgstr ""
+"Ты подходишь и принюхиваешься к нему, не зная, чего ожидать. При этом все "
+"твои чувства заполняет запах плесени, запах, хорошо тебе знакомый со времен "
+"пребывания в морге. Это запах мертвой плоти, удерживаемой от разложения "
+"магией."
 
 #: 35934 35935
-#, fuzzy
 msgid "\"You're a zombie, aren't you?\""
-msgstr "\"Ты не зомби! Кто ты?\""
+msgstr "\"Ты зомби, не так ли?\""
 
 #: 35936
 msgid ""
 "The man slowly nods his head to you again, then returns his attention to the "
 "shopkeeper. He ignores any further attempts to communicate."
 msgstr ""
+"Человек снова медленно кивает тебе, затем переключает внимание на владельца "
+"лавки. Он не реагирует на все дальнейшие попытки заговорить с ним."
 
 #: 35938
 msgid ""
@@ -101,10 +120,13 @@ msgid ""
 "effort, he begins to reply to you. Only your speak with dead power makes him "
 "understandable. \"Yes... I am... Dimtree.\""
 msgstr ""
+"Существо продолжает безучастно пялиться на тебя. Медленно, будто прилагая "
+"огромные усилия, он отвечаеть тебе. Только твоя способность разговаривать с "
+"мертвыми позволяет тебе понимать его. \"Да... я... Димтри\"."
 
 #: 35939
 msgid "\"Why are you here, Dimtree?\""
-msgstr ""
+msgstr "\"Зачем ты здесь находишься, Димтри?\""
 
 #: 35942
 msgid ""
@@ -116,20 +138,26 @@ msgid ""
 "talk Hamrys... Now Hamrys stay in shop... Master happy... town happy. "
 "Dimtree sad...\""
 msgstr ""
+"Димтри медленно обращает взгляд на лавочника и делает немощный жест в его "
+"сторону. Расценив это как проявление интереса, лавочник удваивает свои "
+"усилия в донесении какой-то там истории бедному созданию. Димтри снова "
+"смотрит н тебя. \"Хамрис... Он болтает... Хамрис никогда не умолкает... "
+"Бродит по городу... надоедает хозяину, надоедает всем подряд... Хозяин "
+"создает Димтри... Приказывает Димтри разговаривать с Хамрисом... Теперь "
+"Хамрис остается в лавке... Хозяин доволен... город доволен. Димтри "
+"опечален...\""
 
 #: 35943
 msgid "\"Is there anything I can do to help you, Dimtree?\""
-msgstr ""
+msgstr "\"Я могу тебе чем-нибудь помочь, Димтри?\""
 
 #: 35944
-#, fuzzy
 msgid "\"I have some questions for you..."
 msgstr "\"У меня есть вопросы к тебе...\""
 
 #: 35945 35958
-#, fuzzy
 msgid "\"Farewell, Dimtree.\""
-msgstr "\"Тогда прощай\"."
+msgstr "\"Прощай, Димтри\"."
 
 #: 35946
 msgid ""
@@ -138,45 +166,54 @@ msgid ""
 "Ask him release me... Please...\" He turns his attention to Hamrys "
 "momentarily. \"Please...\""
 msgstr ""
+"Существо умолкает, затем возобновляет свою долгую беседу с тобой. Ты почти "
+"различаешь в его голосе нотки мольбы. \"Да... Найди хозяина... Себастиона... "
+"Попроси освободить меня... Пожалуйста... - он быстро поворачивается к "
+"Хамрису. - Прошу...\""
 
 #: 35947
 msgid "\"Why don't I just put you out of your misery?\""
-msgstr ""
+msgstr "\"Почему бы мне просто не избавить тебя от страданий?\""
 
 #: 35948 35953
-#, fuzzy
 msgid "\"I don't know... I'll think about it. I have some questions...\""
-msgstr "\"Я подумаю над этим. У меня есть еще вопросы...\""
+msgstr "\"Не знаю... Я подумаю об этом. У меня есть еще вопросы...\""
 
 #: 35950
 msgid ""
 "Dimtree barely shakes his head at you. \"No... Master revive... Must ask "
 "master... Sebastion... please.\" He awaits your answer."
 msgstr ""
+"Димтри с трудом качает тебе головой. \"Нет... Хозяин оживит... Нужно "
+"попросить хозяина... Себастиона... пожалуйста\". Он ждет твоего ответа."
 
 #: 35951
 msgid "\"Sure, Dimtree. I'll see what I can do for you.\""
-msgstr ""
+msgstr "\"Конечно, Димтри. Посмотрим, что я смогу для тебя сделать\"."
 
 #: 35952
 msgid "\"Sorry, Dimtree. Not my job, you know?\""
-msgstr ""
+msgstr "\"Извини, Димтри. Это не моя работа, понимаешь?\""
 
 #: 35955
 msgid ""
 "I have agreed to help Dimtree the zombie. I must find someone named "
 "Sebastion and ask him to free Dimtree from his current condition."
 msgstr ""
+"Я согласился помочь зомби Димтри. Я должен найти некого Себастиона и "
+"попросить его избавить Димтри от его теперешнего состояния."
 
 #: 35956 35989
 msgid ""
 "You can almost sense a feeling of relief emanating from the zombie. "
 "\"Dimtree... thank you friend...\""
 msgstr ""
+"Ты почти ощущаешь чувство облегчения, исходящее от зомби. \"Димтри... "
+"благодарит тебя, друг...\""
 
 #: 35957
 msgid "\"You're welcome. I have some questions...\""
-msgstr ""
+msgstr "\"Не за что. У меня несколько вопросов...\""
 
 #: 35959
 msgid ""
@@ -184,6 +221,9 @@ msgid ""
 "you. He begins nodding once more to the shopkeeper who has not once slowed "
 "his rain of words during your entire conversation."
 msgstr ""
+"Ты ощущаешь в воздухе чувство досады, когда Димтри отворачивается от тебя. "
+"Он снова начинает кивать лавочнику, который даже на секунду не остановил "
+"свой поток слов на протяжении всего вашего разговора."
 
 #: 35960 35983
 msgid "Leave."
@@ -195,11 +235,13 @@ msgid ""
 "\"Know... nothing... Dimtree summoned... by master... Know darkness... "
 "peace... rest... Then Hamrys... Sorry... help you... if could...\""
 msgstr ""
+"Существо делает едва различимое движение плечами. \"Ничего... не знаю... "
+"Димтри вызвал... хозяин... Был в темноте... мире.. покое... Потом Хамрис... "
+"Извини... помогу... если смогу...\""
 
 #: 35962 35970
-#, fuzzy
 msgid "\"Do you know where I can find Sebastion?\""
-msgstr "\"Хммм. Ты не знаешь, где я могу найти Фарода?\""
+msgstr "\"Ты не знаешь, где мне найти Себастиона?\""
 
 #: 35963
 msgid "\"I see... Farewell then.\""
@@ -210,10 +252,12 @@ msgid ""
 "The tall, gaunt man is still locked in conversation with the shopkeeper. The "
 "shopkeeper is doing all the talking, however."
 msgstr ""
+"Высокий худощавый человек все еще разговаривает с лавочником. Тем не менее, "
+"из них двоих говорит только лавочник."
 
 #: 35966
 msgid "\"Just thought I'd pay my respects... farewell.\""
-msgstr ""
+msgstr "\"Просто хотел оказать знак уважения... прощай\"."
 
 #: 35968
 msgid "Ignore him."
@@ -224,41 +268,45 @@ msgid ""
 "Dimtree turns to face you slightly as you approach. You can feel a sense of "
 "expectation in the air about him. \"You... find master? Dimtree release?\""
 msgstr ""
+"Когда ты подходишь, Димтри слегка поворачивается к тебе. Ты чувствуешь, как "
+"в вохдухе над ним повисло чувство ожидания. \"Ты... нашел хозяина? "
+"Освободишь Димтри?\""
 
 #: 35971
 msgid "\"Not yet, Dimtree. I'll keep working on it. Farewell.\""
-msgstr ""
+msgstr "\"Пока нет, Димтри. Я продолжаю работать над этим. Прощай\"."
 
 #: 35972
 msgid ""
 "The creature pauses. \"Not know... Remember voice... give order be here... "
 "Walking... Hamrys... Nothing more... Sorry.\""
 msgstr ""
+"Существо останавливается. \"Не знаю... Помню голос... отдает приказ быть "
+"здесь... Иду к... Хамрису... Больше ничего... Извини\"."
 
 #: 35973
-#, fuzzy
 msgid "\"I see, farewell then.\""
-msgstr "\"Понятно. Тогда прощай\"."
+msgstr "\"Понятно, что ж, прощай\"."
 
 #: 35975
 msgid "\"Yes, Dimtree. I know how to release you now.\""
-msgstr ""
+msgstr "\"Да, Димтри. Теперь я знаю, как тебя освободить\"."
 
 #: 35976
-#, fuzzy
 msgid "\"Not right now, I must be going. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай\"."
+msgstr "\"Не сейчас, я должен идти. Прощай\"."
 
 #: 35977
 msgid "Dimtree turns to face you and gestures toward you. \"Please friend...\""
 msgstr ""
+"Димтри поворачивается к тебе и показывает в твою сторону. \"Пожалуйста, "
+"друг...\""
 
 #: 35978
 msgid "Speak the words Sebastion taught you."
-msgstr ""
+msgstr "Произнести слова, которым научил тебя Себастион."
 
 #: 35979
-#, fuzzy
 msgid "\"Not right now. Farewell.\""
 msgstr "\"Не сейчас. Прощай\"."
 
@@ -268,56 +316,62 @@ msgid ""
 "Sebastion taught you. You then reach out and touch Dimtree lightly on the "
 "forehead. "
 msgstr ""
+"Ты делаешь паузу, чтобы собраться с мыслями, затем осторожно произносишь "
+"слова, которым научил тебя Себастион. Ты протягиваешь руку и легонько "
+"касаешься лба Димтри."
 
 #: 35981
 msgid "\"Rest well, Dimtree.\""
-msgstr ""
+msgstr "\"Покойся с миром, Димтри\"."
 
 #: 35982
 msgid ""
 "With a sigh the zombie collapses at your feet. You think you hear a fleeting "
 "*thank you, friend* as he falls to the ground."
 msgstr ""
+"Со вздохом зомбы оседает у твоих ног. Кажется, ты слышишь мимолетное "
+"*спасибо, друг*, когда он падает на землю."
 
 #: 35984
 msgid ""
 "Dimtree turns to face you. \"You... help please? You... find Sebastion... "
 "release me...\""
 msgstr ""
+"Димтри поворачивается к тебе. \"Ты... поможешь? Ты... найди Себастиона... "
+"освободи меня...\""
 
 #: 35985 35993
-#, fuzzy
 msgid "\"Yes, I'll help you.\""
-msgstr "\"Хорошо, я возьму его\"."
+msgstr "\"Хорошо, я помогу тебе\"."
 
 #: 35986 35994
-#, fuzzy
 msgid "\"No, it's not my problem.\""
-msgstr "\"Нет, это не важно. Прощай\"."
+msgstr "\"Нет, это не моя проблема\"."
 
 #: 35987 35995
-#, fuzzy
 msgid "\"I don't know, I'll think about it. Farewell.\""
-msgstr "\"Я подумаю над этим. Прощай\"."
+msgstr "\"Не знаю, я подумаю над этим. Прощай\"."
 
 #: 35990
-#, fuzzy
 msgid "\"Where can I find Sebastion?\""
-msgstr "\"Где я могу найти ее?\""
+msgstr "\"Где я могу найти Себастиона?\""
 
 #: 35991
-#, fuzzy
 msgid "\"You're welcome. Farewell.\""
-msgstr "\"Нет. Прощай\"."
+msgstr "\"Не за что. Прощай\"."
 
 #: 35992
 msgid ""
 "Dimtree turns to face you. \"Why you here...You refuse help... You change "
 "mind... find Sebastion... release me... please?\""
 msgstr ""
+"Димтри поворачивается к тебе. \"Зачем ты здесь... Ты отказался помочь... Ты "
+"передумал... найди Себастиона... освободи меня... пожалуйста...\""
 
 #: 66526
 msgid ""
 "I cast the spell that I learned from Sebastion on Dimtree. He is now at "
 "peace and no longer needs to listen to Hamrys' prattle."
 msgstr ""
+"Я наложил на Димтри заклинание, которому научился у Себастиона. Теперь он "
+"покоится с миром и больше не обязан слушать болтовню Хамриса."
