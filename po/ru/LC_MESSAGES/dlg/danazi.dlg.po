@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: danazi.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:51+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-02-15 22:44+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,6 +20,9 @@ msgid ""
 "that is practically soaking with blood, tissue, and phlegm to her face. She "
 "spies you and hisses."
 msgstr ""
+"Перед тобой больная женщина-гитцерай. Она сгорблена, ее постоянный кашель "
+"явно причиняет ей боль: она держит у лица платок, насквозь пропитанный "
+"кровью и мокротой. Она следит за тобой, шипя."
 
 #: 3025 42468
 msgid "\"Greetings.\""
@@ -30,52 +33,53 @@ msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 42427 42470
-#, fuzzy
 msgid "\"What can you tell me of this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 42428 42473
-#, fuzzy
 msgid "\"I have no questions for you. Farewell.\""
-msgstr "\"На сегодня вопросов нет. Прощай\"."
+msgstr "\"У меня нет вопросов к тебе. Прощай\"."
 
 #: 42429
 msgid ""
 "An'azi blinks at you, her rheumy eyes tearing, and hisses a few words at "
 "Dak'kon."
 msgstr ""
+"Анаци удивленно смотрит на тебя своими слезящимися глазами, затем "
+"перекидывается парой слов с Дакконом."
 
 #: 42430
-#, fuzzy
 msgid "\"What did she say?\""
-msgstr "\"Ты что-то сказал?\""
+msgstr "\"Что она сказала?\""
 
 #: 42431
 msgid "\"Kill her, Dak'kon. Make it hurt.\""
-msgstr ""
+msgstr "\"Убей ее, Даккон. Заставь ее мучаться\"."
 
 #: 42432
 msgid ""
 "\"Dak'kon, put her out of her misery. She's obviously in too much pain, and "
 "she will not survive much longer.\""
 msgstr ""
+"\"Даккон, избавь ее от страданий. Очевидно, что ей очень больно, и она "
+"недолго еще протянет\"."
 
 #: 42433
 msgid "\"Let's get out of here, Dak'kon. Say farewell.\""
-msgstr ""
+msgstr "\"Давай убираться отсюда, Даккон. Попрощайся с ней\"."
 
 #: 42434 42508
-#, fuzzy
 msgid "Put her out of her misery."
-msgstr "\"А теперь проваливай отсюда\"."
+msgstr "Избавить ее от страданий."
 
 #: 42435
 msgid "Stab her for fun."
-msgstr ""
+msgstr "Заколоть ее для развлечения."
 
 #: 42436
 msgid "She stares at you, and speaks a few mumbled words to Dak'kon."
 msgstr ""
+"Она пристально смотрит на тебя и произносит Даккону пару неразборчивых слов."
 
 #: 42467
 msgid ""
@@ -84,35 +88,41 @@ msgid ""
 "handkerchief that is practically soaking with blood, tissue, and phlegm. She "
 "spies you and hisses."
 msgstr ""
+"Перед тобой больная женщина-гитцерай. Она сгорблена, ее постоянный кашель "
+"явно причиняет ей боль: она держит у лица платок, насквозь пропитанный "
+"кровью и мокротой. Она следит за тобой, шипя."
 
 #: 42471 42475 42480
 msgid "\"Would you like some healing? Is there anything I can do for you?\""
-msgstr ""
+msgstr "\"Тебе нужно лечение? Я могу для тебя что-нибудь сделать?\""
 
 #: 42472 42476 42481
-#, fuzzy
 msgid "\"What's wrong with you?\""
-msgstr "\"Что с ним не так?\""
+msgstr "\"Что с тобой?\""
 
 #: 42474
 msgid ""
 "The elderly githzerai woman looks, if possible, even worse off than before. "
 "She attempts to hiss at you, but is stopped by a fit of bloody coughing."
 msgstr ""
+"Старая гитцерай выглядит еще хуже, чем раньше, если такое возможно. Она "
+"пытается шипеть на тебя, но у нее начинается приступ кровавого кашля."
 
 #: 42477
 msgid "\"Is it possible you could answer some questions for me?\""
-msgstr ""
+msgstr "\"Ты не могла бы ответить мне на несколько вопросов?\""
 
 #: 42478
 msgid "\"Farewell, old woman.\""
-msgstr ""
+msgstr "\"Прощай, старуха\"."
 
 #: 42479
 msgid ""
 "She coughs and coughs, filling her damp handkerchief with sodden tissue. Her "
 "eyes glare malice at you."
 msgstr ""
+"Она все кашляет и кашляет, наполняя свой промокший платок мокротой. Ее глаза "
+"ненавистно глядят на тебя."
 
 #: 42482 42489 42491
 msgid "\"Farewell, then.\""
@@ -123,18 +133,20 @@ msgid ""
 "She coughs. She waves her hands at you dismissively. She huddles into her "
 "rags, clearly wishing to be left to die alone."
 msgstr ""
+"Она кашляет, пренебрежительно отмахиваясь от тебя. Она кутается в свои "
+"лохмотья, явно желая, чтобы ее оставили умирать в одиночестве."
 
 #: 42484
 msgid "\"Are you in pain? Is there *anything* I can do for you?\""
-msgstr ""
+msgstr "\"Тебе больно? Я могу тебе хоть *чем-то* помочь?\""
 
 #: 42485
 msgid "Give her some cash."
-msgstr ""
+msgstr "Дать ей немного денег."
 
 #: 42486
 msgid "\"Look, just answer a few questions for me...\""
-msgstr ""
+msgstr "\"Слушай, просто ответь на пару вопросов...\""
 
 #: 42487
 msgid "\"All right, then. Farewell.\""
@@ -145,12 +157,16 @@ msgid ""
 "She coughs out a few phrases in a language you don't know, and doubles over "
 "in agony as another coughing fit wracks her body."
 msgstr ""
+"Сквозь кашель она произносит пару фраз на неведомом тебе языке и сгибается "
+"пополам от очередного приступа мучительного кашля."
 
 #: 42490
 msgid ""
 "She dashes the coins from your hand, sending them spilling across the "
 "street. She gives you another weak hiss."
 msgstr ""
+"Она выбивает монеты из твоей руки, рассыпая их по улице. Она снова вяло "
+"шипит на тебя."
 
 #: 42492
 msgid ""
@@ -159,35 +175,38 @@ msgid ""
 "emphasize her words, another fit of coughing wracks her and leaves her with "
 "bloodied lips."
 msgstr ""
+"Она бессильно показывает на воздух над ней. Затем она указывает на Литейную, "
+"на мусор, на горы угля, а потом на свою грудь. Как бы подчеркивая свои "
+"слова, она разражается еще одним приступом кашля, который оставляет кровь на "
+"ее губах."
 
 #: 42493
 msgid "\"It's the smog?\""
-msgstr ""
+msgstr "\"Это все смог?\""
 
 #: 42494 42496
 msgid "\"Is there some sort of healing I can offer?\""
-msgstr ""
+msgstr "\"Я могу дать тебе какое-нибудь лекарство?\""
 
 #: 42495
 msgid "She nods her head and heaves out another wet cough."
-msgstr ""
+msgstr "Она кивает и еще раз хрипло кашляет."
 
 #: 42497
 msgid "\"I can do nothing for you, then. Farewell.\""
-msgstr ""
+msgstr "\"Тогда я ничего не могу для тебя сделать. Прощай\"."
 
 #: 42498
 msgid "Her eyes grow somber as she points to your weapon, and then to herself."
-msgstr ""
+msgstr "Ее взгляд мрачнеет, когда она указывает на твое оружие, затем на себя."
 
 #: 42499
 msgid "\"You wish me to kill you?\""
-msgstr ""
+msgstr "\"Ты хочешь, чтобы я тебя убил?\""
 
 #: 42500
-#, fuzzy
 msgid "\"I will not do that for you. Farewell.\""
-msgstr "\"Я не буду этого делать. Прощай\"."
+msgstr "\"Я не стану это делать для тебя. Прощай\"."
 
 #: 42501
 msgid ""
@@ -195,19 +214,23 @@ msgid ""
 "vicious coughing fit. She points firmly to your weapon. Her yellowed eyes "
 "show no fear."
 msgstr ""
+"Она качает головой так энергично, как только может, и расплачивается за это "
+"ужасным приступом кашля. Она твердо указывает на твое оружие. В ее желтых "
+"глазах не видно страха."
 
 #: 42502
 msgid "\"Very well, then. I wish you luck in the next life.\""
-msgstr ""
+msgstr "\"Ну что ж, удачи тебе в следующей жизни\"."
 
 #: 42503
 msgid "\"I will not do that for you.\""
-msgstr ""
+msgstr "\"Я не стану этого делать для тебя\"."
 
 #: 42504
 msgid ""
 "She spits a bloodied gob of phlegm at your feet as you turn away from her."
 msgstr ""
+"Она сплевывает кровавый комок слизи тебе под ноги, когда ты отворачиваешься."
 
 #: 42505
 msgid "Leave her alone."
@@ -220,24 +243,28 @@ msgstr "Убить ее."
 #: 42507
 msgid "She faces you bravely, unafraid, awaiting the killing stroke."
 msgstr ""
+"Она смотрит на тебя отважно и без тени страха, в ожидании смертельного удара."
 
 #: 42509
 msgid "\"I cannot do this for you.\""
-msgstr ""
+msgstr "\"Я не могу это сделать для тебя\"."
 
 #: 42510
 msgid ""
 "With a swift stroke, you dispatch her. Her body crumples to the hard street "
 "- but somehow she seems grateful."
 msgstr ""
+"Ты убиваешь ее ловким ударом. Ее тело оседает на твердую мостовую, но почему-"
+"то она кажется благодарной."
 
 #: 42511
-#, fuzzy
 msgid "\"Farewell, githzerai.\""
-msgstr "\"Прощай, Мортай\"."
+msgstr "\"Прощай, гитцерай\"."
 
 #: 67286
 msgid ""
 "I killed a sick githzerai woman in the Lower Ward today. She was having "
 "trouble breathing the thick air of the Ward, and seemed unafraid of death."
 msgstr ""
+"Сегодня в Нижнем районе я убил больную женщину-гитцерай. Ей было трудно "
+"дышать густым воздуха района, а смерть ее, похоже, не страшила."
