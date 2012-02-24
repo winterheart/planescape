@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dkiina.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:13+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-02-20 23:13+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,6 +19,9 @@ msgid ""
 "have stolen my kin from me. *Know* that you will *suffer.*\" Her hands begin "
 "to weave a glowing tracery in the air."
 msgstr ""
+"Глаза этой суровой гитцерайской женщины полны ненависть. \"*Знай*, что ты "
+"забрал у меня родных. *Знай*, что ты об этом *пожалеешь*\". Ее руки начинают "
+"плести в воздухе светящийся узор."
 
 #: 2922
 msgid "\"What do you mean?\""
@@ -31,12 +34,18 @@ msgid ""
 "Odd how often two things that sprang from the same source can become so "
 "diametrically opposed."
 msgstr ""
+"Я выяснил, что вражда между гитцераями и гитьянки берет исток из их общего "
+"древнего наследия: каждый из них ненавидит то, чем стал другой. Странно, как "
+"часто бывает так, что две вещи с общими корнями стают такими абсолютными "
+"противоположностями."
 
 #: 39489
 msgid ""
 "I told one of the githzerai I met about the planned githyanki attack on the "
 "fortress Vristigor. She left in a hurry."
 msgstr ""
+"Я рассказал одной из встреченных мной гитцераев о планах гитьянки напасть на "
+"крепость Вристигор. Она в спешке удалилась."
 
 #: 43584 43626 43722
 msgid "Fight."
@@ -52,11 +61,14 @@ msgid ""
 "her body, and she wears a long blade at her side. Her eyes are like two "
 "small black pearls. As you approach her, they follow your movements."
 msgstr ""
+"У этой женщины кожа желтого оттенка и суровое лицо. Ее тело покрыто "
+"татуировками, на боку она носит длинный клинок. Ее глаза - словно две "
+"маленькие черные жемчужины. Они следят за каждым твоим движением, когда ты "
+"подходишь."
 
 #: 43587 43594 43671 43678 43725 43759
-#, fuzzy
 msgid "\"Greetings, sword-ringer.\""
-msgstr "\"Приветствую, Порфирон\"."
+msgstr "\"Приветствую, звенящая мечом\"."
 
 #: 43588 43595 43672 43726 43760 43812
 msgid "\"Greetings.\""
@@ -64,52 +76,51 @@ msgstr "\"Приветствую\"."
 
 #: 43589 43596 43602 43605 43608 43611 43673 43704 43813
 msgid "\"Are you familiar with the fortress Vristigor?\""
-msgstr ""
+msgstr "\"Тебе знакома крепость Вристигор?\""
 
 #: 43590 43597 43631 43674 43814
 msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 43591 43598 43675 43815
-#, fuzzy
 msgid "\"What can you tell me of this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 43592 43599 43632 43676 43816
-#, fuzzy
 msgid "\"Sorry, wrong person. Farewell.\""
-msgstr "\"Извини, что отвлек тебя. Прощай\"."
+msgstr "\"Извини, обознался. Прощай\"."
 
 #: 43600
 msgid ""
 "\"You are... *known* among the People as a friend. You are not yet *known* "
 "to me. I cannot help you.\""
 msgstr ""
+"\"Среди Народа... тебя *знают* как друга. И все же я тебя не *знаю*. Я не "
+"могу тебе помочь\"."
 
 #: 43601 43703
-#, fuzzy
 msgid "\"I just had a few questions...\""
-msgstr "\"Всего лишь несколько вопросов...\""
+msgstr "\"У меня всего лишь несколько вопросов...\""
 
 #: 43603
-#, fuzzy
 msgid "\"Perhaps some other time, then. Farewell.\""
-msgstr "\"Возможно, в другой раз. Прощай\"."
+msgstr "\"Тогда, может, в другой раз. Прощай\"."
 
 #: 43604
 msgid ""
 "Her eyes glitter as she stares at you. \"Hear my words and *know* my mind: I "
 "cannot help you. Leave.\""
 msgstr ""
+"Ее глаза блестят, когда она смотрит на тебя. \"Услышь мои слова и *пойми* "
+"меня: я не могу тебе помочь. Уходи\"."
 
 #: 43606
-#, fuzzy
 msgid "\"Very well. Farewell.\""
 msgstr "\"Отлично. Прощай\"."
 
 #: 43607 43610
 msgid "\"You are not yet *known* to me. *Know* that I have no words for you.\""
-msgstr ""
+msgstr "\"Я все еще тебя не *знаю*. *Знай*, что мне нечего тебе сказать\"."
 
 #: 43609 43612 43660 43692
 msgid "\"Farewell, then.\""
@@ -117,17 +128,19 @@ msgstr "\"Тогда прощай\". "
 
 #: 43613
 msgid "She tenses slightly. \"How did you come to *know* that name?\""
-msgstr ""
+msgstr "Она слегка напрягается. \"Откуда ты *узнал* это название?\""
 
 #: 43614 43620 43623 43711 43718 43729 43738 43763 43779 43802
 msgid ""
 "\"A group of githyanki are planning a raid on the fortress within the "
 "sevenday. They are on their way there even now.\""
 msgstr ""
+"\"Группа гитьянки планирует налет на крепость в течение недели. Как раз "
+"сейчас они на пути к ней\"."
 
 #: 43615 43712
 msgid "\"A rumor on the street.\""
-msgstr ""
+msgstr "\"Из уличных слухов\"."
 
 #: 43616 43713
 msgid "\"Forget it.\""
@@ -139,31 +152,33 @@ msgid ""
 "you have the gratitude of the githzerai people. This shall not be forgotten. "
 "Sunset over Haldar, traveler - I must warn my people.\""
 msgstr ""
+"Она бросает взгляд на твое лицо. Ты чувствуешь, как внимательно она на тебя "
+"смотрит. \"*Знай*, что народ гитцераев благодарен тебе. Это не будет забыто. "
+"Закат нал Хальдаром, путник: мне нужно предупредить своих людей\"."
 
 #: 43618
-#, fuzzy
 msgid "\"Good luck, then, and farewell.\""
-msgstr "\"Хорошо. Спасибо и прощай\"."
+msgstr "\"Тогда удачи тебе и прощай\"."
 
 #: 43619
 msgid "Her eyes harden. \"Tell me the source.\""
-msgstr ""
+msgstr "Ее взгляд ожесточается. \"Скажи мне источник\"."
 
 #: 43621
 msgid "\"I'm not telling.\""
-msgstr ""
+msgstr "\"Я не буду говорить\"."
 
 #: 43622
 msgid "\"Vilquar's Eye upon you if you do not tell me!\""
-msgstr ""
+msgstr "\"Да падет на тебя око Вилькара, если ты мне не расскажешь!\""
 
 #: 43624
 msgid "\"Why should I tell you?\""
-msgstr ""
+msgstr "\"С чего мне тебе рассказывать?\""
 
 #: 43625
 msgid "With a hiss, she begins tracing blue light in the air before you..."
-msgstr ""
+msgstr "Шипя, она начинает чертить синим светом в воздухе над тобой..."
 
 #: 43628
 msgid ""
@@ -173,75 +188,79 @@ msgid ""
 "\"Zerchai's kin bow to you. I *know* of your wisdom and your aid. Tell me "
 "how I may aid you.\""
 msgstr ""
+"У этой женщины кожа желтого оттенка и суровое лицо. Ее тело покрыто "
+"татуировками, на боку она носит длинный клинок. Ее глаза - словно две "
+"маленькие черные жемчужины. Они следят за каждым твоим движением, когда ты "
+"подходишь. \"Род Зеркаи шлет тебе поклон. Мне *известны* твои мудрость и "
+"участие. Скажи, чем я могу тебе помочь\"."
 
 #: 43629
 msgid ""
 "\"And the traveler is pleased. I was hoping you could answer some questions."
 "\""
 msgstr ""
+"\"И путник доволен. Я надеялся, что ты сможешь ответить на пару вопросов\"."
 
 #: 43630
 msgid "\"I had some questions I was hoping you could answer.\""
 msgstr ""
+"\"У меня есть пара вопросов, и я надеялся, что ты сможешь на них ответить\"."
 
 #: 43633
 msgid "\"Speak your mind. I will hear you.\""
-msgstr ""
+msgstr "\"Говори. Я выслушаю тебя\"."
 
 #: 43634 43635 43640 43641
-#, fuzzy
 msgid ""
 "\"What can you tell me of the difference between githyanki and githzerai?\""
-msgstr "\"Что ты можешь рассказать о здешних завсегдатаях?\""
+msgstr "\"Что ты можешь рассказать о различиях между гитьянки и гитцераями?\""
 
 #: 43636 43642
-#, fuzzy
 msgid "\"Can you teach me githzerai figures of speech?\""
-msgstr "\"Можешь мне рассказать о здешних интересных местах?\""
+msgstr "\"Можешь научить меня фигурам речи гитцераев?\""
 
 #: 43637 43643 43733 43742 43767 43783 43810
-#, fuzzy
 msgid "\"Can you teach me the Way of Zerthimon?\""
-msgstr "\"Ты можешь научить меня пути воина?\""
+msgstr "\"Можешь обучить меня Пути Зертимона?\""
 
 #: 43638 43644
-#, fuzzy
 msgid "\"I have no other questions right now. My thanks for your time.\""
-msgstr "\"У меня есть другой вопрос к тебе\"."
+msgstr "\"Пока у меня больше нет вопросов. Спасибо за уделенное время\"."
 
 #: 43639
 msgid ""
 "\"I am Kii'na. I am a *zerth*. I teach the Way of Zerthimon, and guide the "
 "People toward destiny.\""
 msgstr ""
+"\"Я Киина. Я *зерт*. Я учу Пути Зертимона, и веду Народ навстречу его судьбе"
+"\"."
 
 #: 43645
 msgid ""
 "\"Sunset over Haldar, traveler. You are as Elezpah on the mountain, brave "
 "and bold.\""
 msgstr ""
+"\"Закат над Хальдаром, путник. Ты словно Элезпа на горе, храбрый и сильный\"."
 
 #: 43646
 msgid "\"I have dined at Toryg's table. Farewell.\" (\"I'm grateful.\")"
-msgstr ""
+msgstr "\"Я отобедал за столом Торига. Прощай\". (\"Я благодарен\".)"
 
 #: 43647 43654 43772
-#, fuzzy
 msgid "\"My thanks. Farewell.\""
-msgstr "\"Спасибо. Прощай\"."
+msgstr "\"Благодарю. Прощай\"."
 
 #: 43648
 msgid "\"Hail, sword-ringer.\""
-msgstr ""
+msgstr "\"Приветствую, звенящий мечом\"."
 
 #: 43649
-#, fuzzy
 msgid "\"Hail. I had some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Здравствуй. У меня тут еще вопросы...\""
 
 #: 43650
 msgid "\"Hail, Kii'na, and farewell.\""
-msgstr ""
+msgstr "\"Здравствуй, Киина, и прощай\"."
 
 #: 43651
 msgid ""
@@ -253,11 +272,17 @@ msgid ""
 "Those of us who traveled Zerthimon's path remained true to the People and "
 "took the name Githzerai.\" "
 msgstr ""
+"Она бросает на тебя *тяжелый* взгляд. \"Гит была великой воительницей, "
+"которая освободила наш народ от гнета *иллитидских* господ. Зертимон был ее "
+"помощником. После того как они освободили наш народ, Гит набросилась на "
+"Зертимона на Проклятых Равнинах. Слова были сказаны, сталь - обнажена, и "
+"народ разделился. Те, кто остались с сукой-королевой, назвали себя гитьянки. "
+"Те из нас, кто пошли путем Зертимона, остались верными Народу и взяли себе "
+"имя гитцераи\"."
 
 #: 43652 43770
-#, fuzzy
 msgid "\"And that's why you hate each other so much?\""
-msgstr "\"Что ты можешь сказать о ней?\""
+msgstr "\"И поэтому вы друг друга так ненавидите?\""
 
 #: 43653 43662 43771 43774
 msgid "\"I see. I had some other questions...\""
@@ -272,6 +297,12 @@ msgid ""
 "Selqant's heart, we recall the lecherous and cruel nature of Selqant. Do you "
 "understand?\""
 msgstr ""
+"\"Речь гитцераев основана на истории. Каждая вещь для нас - целая история. "
+"Метафора - могучий инструмент, вдохновение на подвиги для нашего народа, "
+"оберег против злых деяний. Когда мы говорим о столе Тогира, мы вспоминаем, "
+"что Тогир был известен своей гостеприимностью и искренностью. Когда мы "
+"говорим о сердце Селканта, и мы вспоминаем развратную и жестокую сущность "
+"Селканта. Ты понимаешь?\""
 
 #: 43656 43786
 msgid "\"Yes.\""
@@ -283,12 +314,11 @@ msgstr "\"Нет\"."
 
 #: 43658
 msgid "\"Then I cannot teach you any further.\""
-msgstr ""
+msgstr "\"Тогда я больше не могу учить тебя\"."
 
 #: 43659
-#, fuzzy
 msgid "\"Very well. I had some other questions...\""
-msgstr "\"Очень хорошо. У меня были еще вопросы...\""
+msgstr "\"Хорошо. У меня были еще вопросы...\""
 
 #: 43661 43773
 msgid ""
@@ -296,6 +326,10 @@ msgid ""
 "bothersome. The githyanki add cruelty to that list. They hate us for our "
 "growth into realms they cannot understand.\""
 msgstr ""
+"\"Каждый из наших народов похож на пенанского мула - такой же упрямый, "
+"слепой и назойливый. А гитьянки в добавок ко всему еще и жестокие. Они "
+"ненавидят нас за то, что мы достигли высот в том, что недоступно их пониманию"
+"\"."
 
 #: 43663 43775
 msgid "\"I see. Farewell.\""
@@ -311,30 +345,40 @@ msgid ""
 "you,\" to which one should respond, \"And the traveler is pleased.\"\n"
 "Your mind is filled with many other such phrases.\n"
 msgstr ""
+"Твое обучение началось:\n"
+"Мудрец \"написал книгу Анархов\".\n"
+"Чтобы обвинить кого-нибудь в предательстве, нужно вспомнить об \"Оке Вилькара"
+"\".\n"
+"О щедрых людях говорят, что их \"кладовые пусты\".\n"
+"Общепринятыми приветствиями являются \"Приветствую, звенящий мечом\" и \"Род "
+"Зеркаи шлет тебе поклон\", на которые нужно отвечать \"И путник доволен\".\n"
+"Твой разум наполняется подобным фразами.\n"
 
 #: 43665
 msgid "\"My thanks, Kii'na. I had some more questions...\""
-msgstr ""
+msgstr "\"Спасибо тебе, Киина. У меня еще вопросы...\""
 
 #: 43666
 msgid ""
 "\"My thanks, Kii'na. It is the sunset over Haldar.\" (\"This has been "
 "enjoyable and pleasurable.\")"
 msgstr ""
+"\"Спасибо тебе, Киина. Это было словно закат над Хальдаром\". (\"Было очень "
+"приятно\".)"
 
 #: 43667
 msgid "\"I cannot. You are too divided, too... human... to *know* the Way.\""
 msgstr ""
+"\"Я не могу. Ты слишком разделенный, слишком... людской... чтобы *познать* "
+"Путь\"."
 
 #: 43668
-#, fuzzy
 msgid "\"I see. I had a few more questions...\""
 msgstr "\"Понятно. У меня были еще вопросы...\""
 
 #: 43669
-#, fuzzy
 msgid "\"My thanks, Kii'na. Farewell.\""
-msgstr "\"Все равно благодарю. Прощай\"."
+msgstr "\"Спасибо, Киина. Прощай\"."
 
 #: 43670
 msgid ""
@@ -342,16 +386,22 @@ msgid ""
 "her body, and she wears a long blade at her side. Her eyes are like two "
 "small black pearls. As you approach her, they follow your movements. "
 msgstr ""
+"У этой женщины кожа желтого оттенка и суровое лицо. Ее тело покрыто "
+"татуировками, на боку она носит длинный клинок. Ее глаза - словно две "
+"маленькие черные жемчужины. Они следят за каждым твоим движением, когда ты "
+"подходишь."
 
 #: 43677
 msgid "She gazes at you calmly as you approach."
-msgstr ""
+msgstr "Она спокойно следит за твоим приближением."
 
 #: 43684
 msgid ""
 "She is unperturbed. \"You are not... *known* to me. This meeting can have no "
 "benefit to either of us. Farewell.\""
 msgstr ""
+"Она невозмутима. \"Я... не *знаю* тебя. Эта встреча не принесет нам ничего "
+"хорошего. Прощай\"."
 
 #: 43685
 msgid "\"Farewell.\""
@@ -362,10 +412,12 @@ msgid ""
 "\"You are not *known* to me, yet you greet me in the manner of my people. No "
 "matter... I cannot help you, traveler. Farewell.\""
 msgstr ""
+"\"Я не *знаю* тебя, и все же ты обращаешься ко мне как представитель моего "
+"народа. Это неважно... Я не могу помочь тебе, путник. Прощай\"."
 
 #: 43687
 msgid "\"The salt-crusted boat sets sail.\""
-msgstr ""
+msgstr "\"Покрытая солью лодка отправляется в плаванье\"."
 
 #: 43688
 msgid ""
@@ -373,20 +425,26 @@ msgid ""
 "her body, and she wears a long blade at her side. Her eyes are like two "
 "small black pearls. As you approach her, they follow Dak'kon's movements."
 msgstr ""
+"У этой женщины кожа желтого оттенка и суровое лицо. Ее тело покрыто "
+"татуировками, на боку она носит длинный клинок. Ее глаза - словно две "
+"маленькие черные жемчужины. Когда вы подходите, они следят за движениями "
+"Даккона."
 
 #: 43689
 msgid ""
 "The zerth stares blackly at Dak'kon as he returns with you. She turns her "
 "back to you, as if daring Dak'kon to strike the target."
 msgstr ""
+"Когда вы возвращаетесь, зерт мрачно смотрит на Даккона. Она поворачивается к "
+"вам спиной, как бы подталкивая Даккона к нанесению удара."
 
 #: 43690
 msgid "\"Dak'kon, cut her down.\""
-msgstr ""
+msgstr "\"Даккон, поруби ее\"."
 
 #: 43691
 msgid "\"Cut it out, Kii'na. Are you familiar with the fortress Vristigor?\""
-msgstr ""
+msgstr "\"Прекрати, Киина. Тебе знакома крепость Вристигор?\""
 
 #: 43693
 msgid ""
@@ -394,30 +452,30 @@ msgid ""
 "which she ignores entirely. She looses a string of harsh words at Dak'kon, "
 "and he replies in a level tone. This only seems to infuriate her."
 msgstr ""
+"Когда вы подходите, она полностью игнорирует вас. Даккон делает ей легкий "
+"поклон, на который она не обращает внимания. Она выпаливает в адрес Даккона "
+"вереницу резких слов, и он спокойно отвечает ей. Но это лишь приводит ее в "
+"бешенство."
 
 #: 43694
-#, fuzzy
 msgid "\"Dak'kon, will you translate for me?\""
 msgstr "\"Даккон, ты можешь перевести мне?\""
 
 #: 43695
-#, fuzzy
 msgid "\"What did she say?\""
-msgstr "\"Ты что-то сказал?\""
+msgstr "\"Что она сказала?\""
 
 #: 43696
 msgid "\"Ask her if she is familiar with the fortress Vristigor.\""
-msgstr ""
+msgstr "\"Спроси ее, знакома ли ей крепость Вристигор\"."
 
 #: 43697
-#, fuzzy
 msgid "Wait."
-msgstr "\"Подождать!\""
+msgstr "Подождать."
 
 #: 43698
-#, fuzzy
 msgid "\"Let's get out of here.\""
-msgstr "\"А теперь проваливай отсюда\"."
+msgstr "\"Пошли отсюда\"."
 
 #: 43699
 msgid ""
@@ -426,17 +484,22 @@ msgid ""
 "Shrak'at'lor! The Anarchs and the*zerths* have spoken and their words shall "
 "be obeyed. You are not to speak your mind to me... or to any *zerth.*\""
 msgstr ""
+"\"Зачем ты оскорбляешь Неразорванный Круг Зертимона, продолжая носить его "
+"возле сердца? Ты не числишься среди Народа, предатель Шракатлора! Анархи и "
+"*зерты* сказали свое слово, и ему нужно подчиняться. Ты не можешь обращаться "
+"ко мне... или к любому другому *зерту*\"."
 
 #: 43700
 msgid ""
 "Dak'kon cuts her off mid-sentence with a stiffly correct bow. She turns her "
 "head from him and gazes at you. \"You walk in the shadow of a pariah!\""
 msgstr ""
+"Даккон обрывает ее на полуслове натянуто-правильным поклоном. Она "
+"отворачивается от него и глядит на тебя. \"Ты идешь в тени изгоя!\""
 
 #: 43701
-#, fuzzy
 msgid "\"Let's go.\""
-msgstr "\"Вперед\"."
+msgstr "\"Идем\"."
 
 #: 43702
 msgid ""
@@ -445,11 +508,14 @@ msgid ""
 "the shadow of a pariah. Yet he has persuaded me to allow you to hear me "
 "speak. I would *know* your will.\""
 msgstr ""
+"\"Ему не нужно переводить это для тебя. Я скажу тебе. Ты человек, носящий "
+"рубаху из шрамов и крови, негодный для того, чтобы услышать слова Зертимона. "
+"Ты идешь в тени изгоя. Тем не менее, он убедил меня позволить тебе слушать "
+"меня. Я хочу *знать*, чего ты хочешь\"."
 
 #: 43705
-#, fuzzy
 msgid "\"I want nothing. Farewell.\""
-msgstr "\"Это ничего. Прощай\"."
+msgstr "\"Ничего. Прощай\"."
 
 #: 43706
 msgid ""
@@ -457,6 +523,9 @@ msgid ""
 "let your treachery overflow from your githyanki heart.\" She bares her "
 "throat to him."
 msgstr ""
+"Она выглядит одновременно удивленной и испуганной. \"Да, Даккон, бей, и "
+"пусть предательство переполнит твое сердце гитьянки\". Она обнажает свое "
+"горло."
 
 #: 43707
 msgid ""
@@ -464,23 +533,29 @@ msgid ""
 "People? Do his words carry more weight than those of a *zerth?* You are "
 "truly lost, Dak'kon. How did this come to be?\""
 msgstr ""
+"Она снова обращается к Даккону. \"Ты повергнешь меня ради того, кто не из "
+"Народа? Его слова весят для тебя больше, чем слова *зерта*? Ты воистину "
+"потерян, Даккон. Как это могло случиться?\""
 
 #: 43708
 msgid ""
 "\"You have lost your way, Dak'kon. *Know* that I hope you find your path. I "
 "pity you. Farewell.\""
 msgstr ""
+"\"Ты сбился с пути, Даккон. *Знай*, я надеюсь, что ты найдешь свою дорогу. "
+"Мне тебя жаль. Прощай\"."
 
 #: 43709
-#, fuzzy
 msgid "\"Let's go, Dak'kon.\""
-msgstr "\"Вперед\"."
+msgstr "\"Пошли, Даккон\"."
 
 #: 43710
 msgid ""
 "She looks at you - hard. \"How did you, who walks in the shadow of a "
 "pariah,  come to *know* that name?\""
 msgstr ""
+"Она смотрит на тебя сурово. \"Как ты, идущий в тени изгоя, *узнал* это "
+"название?\""
 
 #: 43714
 msgid ""
@@ -488,28 +563,31 @@ msgid ""
 "this shall not be forgotten.\" She turns to Dak'kon. \"*Know* that this will "
 "NOT atone for the fall of Shrak'at'lor. The Anarchs' verdict stands still.\""
 msgstr ""
+"\"*Знай*... *знай*, что я тебе благодарна... тебе и этому *зерту*. *Знай*, "
+"что это не будет забыто, - она поворачивается к Даккону. - *Знай*, что это "
+"не искупит падение Шракатлора. Решение Анархов все еще в силе\"."
 
 #: 43715 43716
-#, fuzzy
 msgid "\"Ummm... Farewell.\""
-msgstr "\"Понятно... Прощай\"."
+msgstr "\"Эмм... Прощай\"."
 
 #: 43717
 msgid "\"I must *know* where you heard this name.\""
-msgstr ""
+msgstr "\"Я должна *знать*, где ты услышал это название\"."
 
 #: 43719
 msgid "\"Did I not make myself clear? I'm not going to tell you.\""
-msgstr ""
+msgstr "\"Разве я неясно выразился? Я не собираюсь тебе рассказывать\"."
 
 #: 43720
 msgid "\"Vilquar's Eye!\" She turns to Dak'kon. \"Make him tell!\""
 msgstr ""
+"\"Глаз Вилькара! - она поворачивается к Даккону. - Заставь его говорить!\""
 
 #: 43721
 msgid ""
 "\"Then you both shall die.\" Her hands begin weaving incantations in the air."
-msgstr ""
+msgstr "\"Тогда вы оба умрете\". Она начинает чертить в воздухе заклинание."
 
 #: 43724
 msgid ""
@@ -519,21 +597,23 @@ msgid ""
 "written in scars and blood, and you walk in the shadow of a pariah that does "
 "not *know* Zerthimon and does not *know* himself. Speak your mind!\""
 msgstr ""
+"Вслед за очередным коротким суетливым обменом словами женщина прекращает "
+"разговор с Дакконом. \"Я не буду тебя слушать. Послушай ты меня, человек. Я "
+"не *знаю* тебя, но твой вид говорит о тебе много дурного. Твое тело - книга, "
+"написанная шрамами и кровью, и ты идешь в тени изгоя, который не *знает* "
+"Зертимона и не *знает* себя. Говори!\""
 
 #: 43727 43728 43761 43762
-#, fuzzy
 msgid "\"Shadow of a pariah? What do you mean?\""
-msgstr "\"Недостатка усердия? Что ты имеешь в виду?\""
+msgstr "\"В тени изгоя? Что ты имеешь в виду?\""
 
 #: 43730 43731 43739 43740 43764 43765 43780 43781 43807 43808
-#, fuzzy
 msgid "\"Can you teach me of the difference between githzerai and githyanki?\""
-msgstr "\"Ты можешь научить меня пути воина?\""
+msgstr "\"Ты можешь объяснить мне различия между гитцераями и гитьянки?\""
 
 #: 43732 43741 43766 43782 43809
-#, fuzzy
 msgid "\"Can you teach me the githzerai language?\""
-msgstr "\"Что ты можешь сказать о фракциях?\""
+msgstr "\"Ты можешь научить меня языку гитцераев?\""
 
 #: 43734 43743 43768
 msgid "\"Forget it. Farewell.\""
@@ -545,10 +625,13 @@ msgid ""
 "mourning draws near - time is short, human. I would *know* your questions, "
 "then it is my will you leave.\""
 msgstr ""
+"Она раздражительно шипит. \"Твои любезности - пыль. Знак скорби "
+"приближается. Времени в обрез, человек. Я хочу *узнать* твои вопросы, а "
+"потом - чтобы ты ушел\"."
 
 #: 43736 43737 43777 43778
 msgid "\"What did you mean when you said I walk in the shadow of a pariah?\""
-msgstr ""
+msgstr "\"Что ты имела в виду, говоря, что я иду в тени изгоя?\""
 
 #: 43744
 msgid ""
@@ -558,6 +641,11 @@ msgid ""
 "what his divided mind reveals to you. Ask him how he speaks with Zerthimon's "
 "words, but his *karach* is as mist.\""
 msgstr ""
+"\"Ты идешь с изгоем и не *знаешь* его истории? Он скор говорить о чем "
+"угодно, но о своем прошлом молчит? Спроси его о Шракатлоре, о падении "
+"могущественной крепости перед гитьянки, и увидишь, что раскроет тебе его "
+"разделенный разум. Спроси его, как он произносит слова Зертимона, оставляя "
+"свой *карач* мутным как туман\"."
 
 #: 43745
 msgid ""
@@ -566,41 +654,46 @@ msgid ""
 "carries with it a divided mind. The doubt is yours, an echo cast from your "
 "own faithlessness.\""
 msgstr ""
+"\"Нет сомнения в том, как произносить мысли Зертимона. Поколения *зертов*, "
+"словно камень Рракмы, единодушны по этому поводу. Твое положение несет в "
+"себе разделенный разум. Это твои сомнения, эхо от твоей собственной измены\"."
 
 #: 43746
 msgid ""
 "\"You shall lie with the dead of Shrak'at'lor in shifting chaos, for you see "
 "all with Vilquar's Eye. Your mind is divided, your *karach* weak!\""
 msgstr ""
+"\"Ты будешь лежать в движущемся хаосе вместе с мертвецами Шраклатлора, "
+"потому что видишь все оком Вилькара. Твой разум разделен, твой *карач* слаб!"
+"\""
 
 #: 43747
 msgid "Stand in the way of the blades."
-msgstr ""
+msgstr "Встать между их клинками."
 
 #: 43748
 msgid "\"Dak'kon, you will stop this now.\""
-msgstr ""
+msgstr "\"Даккон, прекрати сейчас же\"."
 
 #: 43749
-#, fuzzy
 msgid "\"Let it go, Dak'kon.\""
-msgstr "\"Даккон? Что он сказал?\""
+msgstr "\"Брось, Даккон\"."
 
 #: 43750
 msgid "Attack the zerth."
-msgstr ""
+msgstr "Напасть на зерта."
 
 #: 43751
 msgid "\"Dog! Githyanki traitor dog!\" She lashes out with her sword at you!"
-msgstr ""
+msgstr "\"Пес! Продажный пес гитьянки!\" Она бросается на тебя с мечом!"
 
 #: 43752
 msgid "\"Time to die, Kii'na.\""
-msgstr ""
+msgstr "\"Пришло время умереть, Киина\"."
 
 #: 43753
 msgid "The blades of the two fly at each other in a whirlwind of motion!"
-msgstr ""
+msgstr "Их клинки летят друг на друга в вихре движений!"
 
 #: 43754
 msgid ""
@@ -609,12 +702,18 @@ msgid ""
 "Your mind is not divided. You are... a *slave* to this human. He speaks with "
 "an Anarch's authority to you, and you *listen*.\""
 msgstr ""
+"Даккон с неохотой опускает клинок. Киина недоверчиво смотрит на него пару "
+"мгновений, затем расплывается в резкой усмешке. \"Наконец-то правда. Твой "
+"разум не разделен. Ты... *раб* этого человека. Он говорит с тобой со "
+"властностью Анарха, и ты его *слушаешься*\"."
 
 #: 43755
 msgid ""
 "\"His words carry the weight of yours and have the shape of Limbo's form. I "
 "will not hear you, Dak'kon.\""
 msgstr ""
+"\"Его слова повторяют твои, и имеют форму Лимбо. Я не буду слушать тебя, "
+"Даккон\""
 
 #: 43756
 msgid ""
@@ -623,10 +722,14 @@ msgid ""
 "wears a shirt of scars and blood, and he travels with a traitor. Vilquar's "
 "heart beats within your chest if you ask if I will hear him.\""
 msgstr ""
+"\"Слова Зертимона не для ушей человека. Его разум не един, и он несет раздор "
+"везде, где бы он ни был. Он носит рубаху из шрамов и крови, и странствует с "
+"предателем. Если ты спрашиваешь, буду ли я его слушать, значит, в твоей "
+"груди бьется сердце Вилькара\"."
 
 #: 43757
 msgid "\"I will not hear him. He will hear me.\""
-msgstr ""
+msgstr "\"Я не буду его слушать. Он будет слушать меня\"."
 
 #: 43758
 msgid ""
@@ -635,6 +738,10 @@ msgid ""
 "is a book written in scars and blood, and you walk in the shadow of a pariah "
 "that claims to speak for Zerthimon himself. Speak your mind!\""
 msgstr ""
+"Женщина гит поворачивается к тебе. В ее черных глазах-жемчужинах виден "
+"опасный блеск. \"Я не *знаю* тебя, но твой вид говорит о тебе много дурного. "
+"Твое тело - книга, написанная шрамами и кровью, и ты идешь в тени изгоя, "
+"который утверждает, что говорит за самого Зертимона. Говори!\""
 
 #: 43769
 msgid ""
@@ -646,15 +753,21 @@ msgid ""
 "Githyanki. Those of us who traveled Zerthimon's path remained true to the "
 "People took the name Githzerai. Our rage lies in Gith's betrayal.\" "
 msgstr ""
+"На миг она бросает на Даккона *тяжелый* взгляд. \"Гит была великой "
+"воительницей, которая освободила наш народ от гнета *иллитидских* господ. "
+"Зертимон был ее помощником. После того как они освободили наш народ, Гит "
+"набросилась на Зертимона на Проклятых Равнинах. Слова были сказаны, сталь - "
+"обнажена, и народ разделился. Те, кто остались с сукой-королевой, назвали "
+"себя гитьянки. Те из нас, кто пошли путем Зертимона, остались верными Народу "
+"и взяли себе имя гитцераи\"."
 
 #: 43776
 msgid "\"Ach'ali drowning! Ask and you shall be answered.\""
-msgstr ""
+msgstr "\"Утонувшая Ачали! Спрашивай, и получишь ответы\"."
 
 #: 43784 43811
-#, fuzzy
 msgid "\"I have no other questions. Farewell.\""
-msgstr "\"На сегодня вопросов нет. Прощай\"."
+msgstr "\"Больше вопросов у меня нет. Прощай\"."
 
 #: 43785
 msgid ""
@@ -666,6 +779,13 @@ msgid ""
 "Selqant's heart, we recall the lecherous and cruel nature of Selqant. Do you "
 "understand?\""
 msgstr ""
+"\"Если твой спутник не утруждает себя этим, учить тебя буду я. Речь "
+"гитцераев основана на истории. Каждая вещь для нас - целая история. Метафора "
+"- могучий инструмент, вдохновение на подвиги для нашего народа, оберег "
+"против злых деяний. Когда мы говорим о столе Тогира, мы вспоминаем, что "
+"Тогир был известен своей гостеприимностью и искренностью. Когда мы говорим о "
+"сердце Селканта, и мы вспоминаем развратную и жестокую сущность Селканта. Ты "
+"понимаешь?\""
 
 #: 43788
 msgid ""
@@ -677,11 +797,18 @@ msgid ""
 "you,\" to which one should respond, \"And the traveler is pleased.\"\n"
 "Your mind is filled with many other such phrases.\n"
 msgstr ""
+"Твое обучение продолжается:\n"
+"Мудрец \"написал книгу Анархов\".\n"
+"Чтобы обвинить кого-нибудь в предательстве, нужно вспомнить об \"Оке Вилькара"
+"\".\n"
+"О щедрых людях говорят, что их \"кладовые пусты\".\n"
+"Общепринятыми приветствиями являются \"Приветствую, звенящий мечом\" и \"Род "
+"Зеркаи шлет тебе поклон\", на которые нужно отвечать \"И путник доволен\".\n"
+"Твой разум заполняется подобным фразами.\n"
 
 #: 43789
-#, fuzzy
 msgid "\"I had some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня еще пара вопросов...\""
 
 #: 43790
 msgid "\"Thanks. Farewell.\""
@@ -692,16 +819,19 @@ msgid ""
 "\"Then I can aid you no further. Let the one who walks with you speak his "
 "mind on the matter.\""
 msgstr ""
+"\"Тогда я больше ничем не могу тебе помочь. Пусть твой спутник выскажется по "
+"этому поводу\"."
 
 #: 43792
-#, fuzzy
 msgid "\"I just had some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"У меня тут еще немного вопросов...\""
 
 #: 43793
 msgid ""
 "\"Maybe I'll get him to do it, because you don't make any sense. Farewell.\""
 msgstr ""
+"\"Может, я как-нибудь заставлю его это сделать - от тебя-то толку не "
+"добьешься. Прощай\"."
 
 #: 43794
 msgid ""
@@ -709,24 +839,25 @@ msgid ""
 "lectures me on my morality, and yet you ask if I can teach you the Way? Ask "
 "*him* to teach you, for I will not!\""
 msgstr ""
+"Ее взгляд становится суровым. \"Ты странствуешь с тем, кто зовет себя "
+"*зертом* и читает мне морали, и в то же время просишь обучить тебя Пути? "
+"Проси *его* учить тебя - я не буду этого делать!\""
 
 #: 43798
 msgid "\"Calm down and answer me some more questions.\""
-msgstr ""
+msgstr "\"Успокойся и ответь мне еще на пару вопросов\"."
 
 #: 43799
-#, fuzzy
 msgid "\"Maybe I will. Farewell.\""
-msgstr "\"Спасибо, я так и сделаю. Прощай\"."
+msgstr "\"Может, я так и сделаю. Прощай\"."
 
 #: 43800
 msgid "\"You have returned to plague me? What do you want now?\""
-msgstr ""
+msgstr "\"Ты вернулся мучить меня? Чего ты хочешь теперь?\""
 
 #: 43801
-#, fuzzy
 msgid "\"I just wanted to ask a few questions...\""
-msgstr "\"У меня есть вопросы, которые я бы хотел задать...\""
+msgstr "\"Я просто хотел задать пару вопросов...\""
 
 #: 43803
 msgid "\"Nothing. Farewell.\""
@@ -740,6 +871,11 @@ msgid ""
 "Dak'kon. \"But you have shown yourself to be a friend to the People. I will "
 "hear you.\" Despite her words, she seems reluctant to deal with you."
 msgstr ""
+"При твоем приближении зерт нехотя кланяется тебе. \"*Знай*, что твои слова "
+"спасли нас от трагедии. Мы дали клятву Золотой Руки, человек. Твой выбор "
+"себе попутчиков неудачен... - она бросает на Даккона взгляд. - Но ты показал "
+"себя другом Народа. Я выслушаю тебя\". Несмотря на свои слова, она, похоже "
+"не особо желает иметь с тобой дело."
 
 #: 43805 43806
 msgid "\"What can you tell me about Dak'kon?\""
@@ -750,3 +886,5 @@ msgid ""
 "Kii'na the zerth has taught me much of the githzerai language. It seems to "
 "be based on metaphor, allegory, and stories from githzerai history."
 msgstr ""
+"Зерт Киина научила меня многим аспектам языка гитцераев. Похоже, он основан "
+"на метафорах, аллегориях и отрывках из истории гитцераев."
