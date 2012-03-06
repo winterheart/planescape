@@ -3069,9 +3069,9 @@ msgid ""
 "longer. All you must do is take the stone and you shall *know* yourself "
 "again.\""
 msgstr ""
-"\"Даккон, *зерт* Затонувшего Шрактлора, последний носитель клинка *карач*, "
+"\"Даккон, *зерт* Затонувшего Шракатлора, последний носитель клинка *карач*, "
 "знай, что я пришел к тебе со словами Зертимона, вырезанными волей не на "
-"хаосе, а на камне в Неразрывном круге. *Знай*, что слова Зертимона, "
+"хаосе, а на камне в Неразрывном Круге. *Знай*, что слова Зертимона, "
 "вырезанные на этом камне, являются истиной, и *знай*, что твоему рассеянному "
 "разуму не нужно больше быть рассеянным. Все, что тебе нужно сделать - взять "
 "этот камень, и ты снова *узнаешь* себя\"."
@@ -3085,7 +3085,7 @@ msgid ""
 "It turns out *I* was the one who gave the Unbroken Circle of Zerthimon to "
 "Dak'kon. "
 msgstr ""
-"Оказалось, что это *я* тот, кто дал Неразрывный круг Зертимона Даккону."
+"Оказалось, что это *я* тот, кто дал Неразрывный Круг Зертимона Даккону."
 
 #: 59373
 msgid ""
@@ -3655,6 +3655,10 @@ msgid ""
 "own wisdom to Zerthimon's teachings before I understand the Way of "
 "Zerthimon. "
 msgstr ""
+"Похоже, я не мне понимаю, что означает Первый Круг в Неразорванном Круге "
+"Зертимона, или так говорит мне Даккон. Мне кажется, что смысл находится за "
+"тем, что начертано на камне... Возможно, мне придется немного разобраться с "
+"учением Зертимона, прежде чем я пойму Путь Зертимона."
 
 #: 59743
 msgid ""
@@ -3663,6 +3667,10 @@ msgid ""
 "I think he intends to teach the Unbroken Circle to me in stages, unlocking "
 "each Circle as I come to understand the previous one"
 msgstr ""
+"Я пришел к пониманию Первого Круга Зертимона, использовав собственную "
+"мудрость при чтении текста. В ответ Даккон открыл мне следующий Круг "
+"Зертимона. Думаю, что он намерен обучать меня Неразорванному Кругу поэтапно, "
+"раскрывая каждый Круг после того, как я пойму предыдущий."
 
 #: 59744
 msgid ""
@@ -3670,6 +3678,8 @@ msgid ""
 "Circle of Zerthimon for me, and he told me to study it and *know* the "
 "history of his People."
 msgstr ""
+"Даккон согласился обучать меня Пути Зертимона. Он раскрыл мне Неразорванный "
+"Круг Зертимона и сказал мне изучить его и *познать* историю Народа."
 
 #: 59755
 msgid ""
@@ -3790,12 +3800,11 @@ msgstr ""
 
 #: 59943
 msgid "\"Would you teach me the Way of Zerthimon, Dak'kon?\""
-msgstr ""
+msgstr "\"Ты обучишь меня Пути Зертимона, Даккон?\""
 
 #: 59944 59949 59953
-#, fuzzy
 msgid "\"I had other things I would *know,* Dak'kon...\""
-msgstr "\"Нет, у меня есть вопросы, которые я бы хотел задать...\""
+msgstr "\"Я хотел бы *познать* другие вещи, Даккон...\""
 
 #: 59946
 msgid ""
@@ -3805,16 +3814,23 @@ msgid ""
 "difficult matter. There are those not of the People who have heard the Way "
 "of Zerthimon, but they do not *know* the Way.\""
 msgstr ""
+"\"Ты *понимаешь*, о чем ты попросил? - структура клинка Даккона меняется до "
+"тех пор, пока он не стает похожим на камень. - Чтобы идти путем Зертимона, "
+"ты должен *познать* Народ. *Познание* таких вещей тем, кто не является "
+"частью Народа, будет непростым. Среди тех, кто не из Народа, есть такие, кто "
+"слышал о Пути Зертимона, но не *понимает* его\"."
 
 #: 59947
 msgid ""
 "\"Dak'kon, I want to *know* of the People and *know* Zerthimon's teachings. "
 "I believe there is wisdom to be learned in such things.\""
 msgstr ""
+"\"Даккон, я хочу *познать* Народ и учение Зертимона. Я считаю, что из таких "
+"вещей можно извлечь много мудрости\"."
 
 #: 59948
 msgid "\"If you will teach me, I will learn.\""
-msgstr ""
+msgstr "\"Если будешь учить меня, я буду учиться\"."
 
 #: 59951
 msgid ""
@@ -3825,10 +3841,16 @@ msgid ""
 "is a path that requires focus. If your mind is divided, if you do not *know* "
 "the meaning of the Way, your will is lost.\""
 msgstr ""
+"\"Я *знаю*, как люди постигают 'Искусство'. Они учат его кусками в виде "
+"свитков, заклинаний и книг. Такая избирательнось - *не* Путь Зертимона. Ты "
+"не можешь изучить часть и отбросить все остальное, - Даккон молчаливо "
+"смотрит на тебя, поверхность его клинка начинает рябить. - *Знай*, что этот "
+"путь требует концентрации. Если твой разум разделен, если ты не *понимаешь* "
+"значение Пути - твое желание обречено\"."
 
 #: 59952
 msgid "\"I still wish to learn.\""
-msgstr ""
+msgstr "\"Я все равно хочу учиться\"."
 
 #: 59955
 msgid ""
@@ -3840,32 +3862,43 @@ msgid ""
 "sealing the stone. \"*Know* the First Circle of Zerthimon is open to you. "
 "Study it, then I will hear your words.\""
 msgstr ""
+"\"*Знай*, что я услышал твои слова, и я проверю их. Чтобы учиться, ты должен "
+"*познать* Народ. Для этого ты должен *познать* Неразорванный Круг Зертимона"
+"\". Даккон достает из своих пожитков каменный диск, его паучьи пальцы "
+"хватают его за края. Слышится щелчок, и пластины Круга передвигаются в новое "
+"положение. Он делает обратное движение, закрывая камень. \"*Знай*: Первый "
+"Круг Зертимона открыт для тебя. Изучи его, затем я выслушаю тебя\"."
 
 #: 59956
 msgid ""
 "\"I will read the First Circle, then. In the meantime, I had other things I "
 "would *know*...\""
 msgstr ""
+"\"Тогда я прочту Первый Круг. Тем временем, я хочу *познать* другие вещи...\""
 
 #: 59957
 msgid "\"Very well. I will examine it, then speak with you again.\""
-msgstr ""
+msgstr "\"Хорошо. Я изучу его и снова поговорю с тобой\"."
 
 #: 59958
 msgid "\"What did you come to *know?*\""
-msgstr ""
+msgstr "\"Что ты *познал*?\""
 
 #: 59959
 msgid ""
 "\"Strength lies in knowing oneself. I learned that once someone does not "
 "*know* themselves, they are lost. They become tool for others.\""
 msgstr ""
+"\"Сила заключается в понимании себя. Я узнал, что когда кто-то не *знает* "
+"себя, он теряет себя и стает инструментом в руках у других\"."
 
 #: 59960
 msgid ""
 "\"I learned that your people were once slaves to the *illithids.* It seems "
 "they committed many crimes against your people.\""
 msgstr ""
+"\"Я узнал, что твой народ когда-то попал в рабство к *иллитидам*. Похоже, "
+"они совершили много преступлений против твоего народа\"."
 
 #: 59961
 msgid ""
@@ -3873,6 +3906,9 @@ msgid ""
 "steel, if upon encountering it, you attempt to *know* its nature and how it "
 "came to be.\""
 msgstr ""
+"\"Я узнал, что *незнание* чего-либо может стать твоим инструментом, будь то "
+"плоть или сталь, если, найдя его, ты попытаешься *познать* его природу и то, "
+"как оно стало таким, каким оно есть\"."
 
 #: 59962
 msgid ""
@@ -3880,16 +3916,20 @@ msgid ""
 "learned of the nature of steel and how it could be used to defeat the "
 "*illithids.*\""
 msgstr ""
+"\"Я узнал, что, возделывая поля *иллитидов*, Зертимон изучил природу стали и "
+"то, как использовать ее для того, чтобы победить *иллитидов*\"."
 
 #: 59963
 msgid "\"Endure. In enduring, grow strong.\""
-msgstr ""
+msgstr "\"Терпи. Терпя, становись сильнее\"."
 
 #: 59964
 msgid ""
 "\"I learned that sometimes a leader must suffer in order to protect his "
 "goals.\""
 msgstr ""
+"\"Я понял, что иногда лидер должен терпеть страдания, чтобы защитить свои "
+"цели\"."
 
 #: 59965
 msgid ""
@@ -3899,10 +3939,17 @@ msgid ""
 "heard Vilquar's words, they turned their sight outwards again, didn't they? "
 "And the Rising was free to strike?\""
 msgstr ""
+"\"Если кто-то решает видеть только то, что перед ним, он видит лишь часть "
+"целого. Он слеп. И как Вилькар был ослеплен обещанной наградой, так "
+"*иллитиды* были слепы относительно настоящего восстания. Потому что, услышав "
+"слова Вилькара, они снова направили свои взоры наружу, не так ли? И "
+"восстание могло беспрепятственно начаться?\""
 
 #: 59966
 msgid "\"When one chooses to see without knowing, they betray themselves.\""
 msgstr ""
+"\"Когда кто-то решает видеть что-нибудь, не понимая его, он предает самого "
+"себя\"."
 
 #: 59967
 msgid ""
@@ -3911,12 +3958,17 @@ msgid ""
 "not only in *knowing* the self, but *knowing* how to bring it forth in "
 "others.\""
 msgstr ""
+"\"В числе - большая сила, но и в один - великая мощь, поскольку сила волии "
+"одного может сплотить вокруг него остальных. Сила не только в *знании* себя, "
+"но и в *знании* того, как передать это другим\"."
 
 #: 59968
 msgid ""
 "\"Zerthimon learned to join with an even more powerful figure, Gith. "
 "Together, the People grew stronger.\""
 msgstr ""
+"\"Зертимон решил объединиться с еще более могущественной личностью, Гит. От "
+"этого Народ стал сильнее\"."
 
 #: 59969
 msgid ""
@@ -3926,50 +3978,66 @@ msgid ""
 "he chose to stop Gith before she carried the People to their deaths. There "
 "must be balance in all things, or else the self will not hold.\""
 msgstr ""
+"\"Я знаю, что преданность Зертимона Народу была такова, что он хотел "
+"защитить их от самих себя. Он знал, что *иллитиды* не *познали* себя в своей "
+"одержимости властью и доминированием. Поэтому он решил остановить Гит, пока "
+"та не привела Народ в гибели. Во всем должен быть баланс, иначе не сможешь "
+"устоять\"."
 
 #: 59970
 msgid ""
 "\"Zerthimon learned that even in freedom, one must continue fighting for "
 "freedom, even within one's own race.\""
 msgstr ""
+"\"Зертимон узнал, что, даже будучи свободным, нужно продолжать бороться за "
+"свободу, даже со своей собственной расой\"."
 
 #: 59971
 msgid ""
 "\"There was a Seventh Circle within the Stone of Zerthimon. It spoke of the "
 "building of the rebellion against the *illithids.*\""
 msgstr ""
+"\"В камне Зертимона нашелся Седьмой Круг. В нем говорилось о подготовке "
+"восстания против *иллитидов*\"."
 
 #: 59972
 msgid ""
 "\"There was an Eighth Circle within the Stone of Zerthimon. It spoke of "
 "division of the mind, and the importance of focus.\""
 msgstr ""
+"\"В камне Зертимона нашелся Восьмой Круг. В нем говорилось о разделение "
+"разума и важности концентрации\"."
 
 #: 59973
 msgid "\"Never mind. I had other things I would *know,* Dak'kon...\""
-msgstr ""
+msgstr "\"Неважно. Я хотел бы *познать* другие вещи, Даккон...\""
 
 #: 59974
 msgid ""
 "\"I am still thinking over what I have read; we will speak later. Let's move "
 "on.\""
 msgstr ""
+"\"Я все еще обдумываю прочтенное. Мы поговорим позже. Давай двигаться\"."
 
 #: 59975
 msgid ""
 "Dak'kon's forehead creases into a frown. \"Then you have come to *know* "
 "nothing. You are one who hears the words and does not *know* them.\""
 msgstr ""
+"Даккон хмурится, покрыв лоб морщинами. \"Тогда ты ничего не *познал*. Ты из "
+"тех, кто слышит слова и не *понимает* их\"."
 
 #: 59976
 msgid ""
 "\"Very well... I will study the text again. In the meantime, I had other "
 "things I would *know*...\""
 msgstr ""
+"\"Хорошо... Я еще раз изучу текст. Тем временем, я хочу *познать* другие "
+"вещи...\""
 
 #: 59977
 msgid "\"Never mind then, Dak'kon.\""
-msgstr ""
+msgstr "\"Тогда это неважно, Даккон\"."
 
 #: 59978
 msgid ""
@@ -3980,17 +4048,22 @@ msgid ""
 "sealing the stone. \"*Know* the Second Circle of Zerthimon is open to you. "
 "Study it, then I will hear your words.\""
 msgstr ""
+"\"Ты *познал* Первый Круг Зертимона. Ты не только увидел слова Зертимона, но "
+"и *познал* их\". Даккон берет Круг и поддевает пальцами его края. Слышится "
+"щелчок, и пластины Круга складываются в новые положения. Он делает обратное "
+"действие, закрывая камень. \"*Знай*, что Второй Круг Зертимона открыт тебе. "
+"Изучи его, потом я выслушаю тебя\"."
 
 #: 59979
 msgid ""
 "\"I will read the Second Circle, then. In the meantime, I had other things I "
 "would *know*...\""
 msgstr ""
+"\"Тогда я прочту Второй Круг. Тем временем, я хочу *познать* другие вещи...\""
 
 #: 59980 59985
-#, fuzzy
 msgid "\"Very well. I will read it, then speak with you again.\""
-msgstr "\"Хорошо. Я незамедлительно пойду и поговорю с ним\"."
+msgstr "\"Хорошо. Я прочту его и снова поговорю с тобой\"."
 
 #: 59981
 msgid ""
@@ -4001,12 +4074,20 @@ msgid ""
 "\"Meditate upon this teaching, and the *knowing* of it shall give you "
 "strength. When you have absorbed it, you shall *know* more.\""
 msgstr ""
+"\"Ты увидел слова и то, что стоит за ними. Ты *познал* Второй Круг Зертимона"
+"\" Он берет Круг и ловким движением сдвигает одно из соединений так, что "
+"одна из пластин выдвигается вперед, но что довольно странно, камень все еще "
+"выглядит нетронутым. Он передает тебе пластину. \"Поразмысли над этим "
+"учением, и его *познание* придаст тебе силу. После того как ты постигнешь "
+"его, ты *узнаешь* больше\"."
 
 #: 59982
 msgid ""
 "\"Very well... I will study this Circle. Yet I would still know more of "
 "Zerthimon's teachings.\""
 msgstr ""
+"\"Хорошо... Я изучу этот Круг. И все же я хотел бы знать больше об учении "
+"Зертимона\"."
 
 #: 59983
 msgid ""
@@ -4015,18 +4096,27 @@ msgid ""
 "configuration. He then reverses the motion, resetting the stone. \"The next "
 "Circle of Zerthimon is open to you. Study it, then I will hear your words.\""
 msgstr ""
+"Пальцы Даккона ощупывают края каменного круга; он поворачивает его по "
+"часовой стрелке, и соединения клацают до тех пор, пока не переходят в новое "
+"положение. Он делает обратное движение, приводя камень в исходное состояние. "
+"\"Тебе открыт следующий Круг Зертимона. Изучи его, потом я выслушаю тебя\"."
 
 #: 59984
 msgid ""
 "\"I will read the next Circle, then. In the meantime, I had other things I "
 "would *know*...\""
 msgstr ""
+"\"Тогда я прочту следующий Круг. Тем временем, я хочу *познать* другие "
+"вещи...\""
 
 #: 59986
 msgid ""
 "The words you speak seem to strike Dak'kon strangely... as you speak them, "
 "his forehead creases, then resettles into its normal passive expression. "
 msgstr ""
+"Сказанные тобой слова, похоже, как-то странно действуют на Даккона... когда "
+"ты произносишь их, его лоб морщится, но потом возвращает себе свое обычное "
+"безразличное выражение."
 
 #: 59987
 msgid ""
@@ -4036,11 +4126,17 @@ msgid ""
 "He hands the plate to you. \"Meditate upon its teachings, and the *knowing* "
 "of it shall give you strength.\""
 msgstr ""
+"\"Твоя воля дала тебе *знание* Третьего Круга Зертимона. С этим *знанием* я "
+"передаю тебе это\". Он берет Круг и ловким движением передвигает одно из "
+"соединений так, что одна из пластин выдвигается вперед. Он передает тебе "
+"пластину. \"Поразмысли над этим учением, и его *познание* придаст тебе силу"
+"\"."
 
 #: 59988
 msgid ""
 "\"Very well... I will study this Circle. Is there more you can teach me?\""
 msgstr ""
+"\"Хорошо... Я изучу этот Круг. Ты можешь обучить меня еще чему-нибудь?\""
 
 #: 59989
 msgid ""
@@ -4049,6 +4145,10 @@ msgid ""
 "taken on the same texture as the Unbroken Circle... and Dak'kon suddenly "
 "seems *older* somehow."
 msgstr ""
+"Произнося эти слова, ты вдруг замечаешь, что Даккон не смотрит на тебя. Он "
+"держит в руках Неразорванный Круг, изучая его. Поверхность его клинка "
+"приняла фактуру Неразорванного Круга... и сам Даккон выглядит как-то "
+"*старше*."
 
 #: 59991
 msgid ""
@@ -4057,10 +4157,13 @@ msgid ""
 "is... a difficult path you will walk in learning the Way of Zerthimon. Is "
 "your mind focused on this matter?\""
 msgstr ""
+"Черные глаза Даккона отрываются от Круга и смотрят на тебя. \"*Знай*, что я "
+"не верил в то, что ты *познаешь* учение Круга. Тебе предстоит... нелегкий "
+"путь в изучении Пути Зертимона. Сосредоточен ли твой разум на этом?\""
 
 #: 59992
 msgid "\"Yes. I wish to learn more.\""
-msgstr ""
+msgstr "\"Да. Я хочу учиться дальше\"."
 
 #: 59993
 msgid ""
@@ -4069,12 +4172,16 @@ msgid ""
 "Rising occurred, the ground drank deep of *illithid* blood. So was victory "
 "born from treachery.\""
 msgstr ""
+"\"*Знай*, что ты говоришь истину. Око Вилькара ослепило и Вилькара, и "
+"*иллитидов*. Щупальцеголовые думали, что восстания больше нет. Когда же "
+"восстание поднялось, земля была щедро напитана кровью *иллитидов*. Такой "
+"была победа, рожденная из предательства\"."
 
 #: 59994
 msgid ""
 "\"It is a curious lesson. Why would it be part of the teachings of Zerthimon?"
 "\""
-msgstr ""
+msgstr "\"Это занимательный урок. Почему он входит в учение Зертимона?\""
 
 #: 59995
 msgid ""
@@ -4082,10 +4189,13 @@ msgid ""
 "a moment, you think he's angry, but you're not so sure. \"There is much "
 "about the Way of Zerthimon and his path that is difficult to *know.*\""
 msgstr ""
+"Клинок Даккона стает черным как ночь, и его голос становится ниже. Тебе уже "
+"кажется, что он зол, но ты в этом не уверен. \"В Пути Зертимона и его жизни "
+"есть много такого, что сложно *понять*\"."
 
 #: 59996
 msgid "\"Do *you* know why Vilquar's Eye is part of the Way of Zerthimon?\""
-msgstr ""
+msgstr "\"*Ты* знаешь, почему Око Вилькара - часть Пути Зертимона?\""
 
 #: 59997
 msgid ""
@@ -4094,6 +4204,9 @@ msgid ""
 "the People. And that even in the greatest treachery, a greater *knowing* may "
 "be achieved.\""
 msgstr ""
+"\"Это часть рассказа о том, как наш Народ *познал* свободу. Она дает нам "
+"*понять*, что даже среди Народа есть те, кто не из Народа. И что даже в "
+"величайшем предательстве можно достигнуть большего *знания*\"."
 
 #: 59999
 msgid ""
@@ -4102,11 +4215,14 @@ msgid ""
 "plates slides forth. He hands the plate to you. \"Meditate upon its "
 "teachings, and the *knowing* of it shall give you strength.\""
 msgstr ""
+"\"Ты *познал* Четвертый Круг Зертимона\". Он берет Круг и ловким движением "
+"сдвигает одно из соединений так, что одна из пластин выдвигается вперед. Он "
+"передает тебе пластину. \"Поразмысли над этим учением, и его *познание* "
+"придаст тебе силу\"."
 
 #: 60000 60002
-#, fuzzy
 msgid "\"I would know more of the Way of Zerthimon.\""
-msgstr "\"Я хотел бы изучить навыки владения оружием\"."
+msgstr "\"Я хотел бы узнать больше о Пути Зертимона\"."
 
 #: 60001
 msgid ""
@@ -4116,6 +4232,10 @@ msgid ""
 "plate to you. \"Meditate upon its teachings, and the *knowing* of it shall "
 "give you strength.\""
 msgstr ""
+"\"Ты *познал* Пятый Круг Зертимона. С этим *знанием* я передаю тебе вот это"
+"\". Он берет Круг и ловким движением передвигает одно из соединений так, что "
+"одна из пластин выдвигается вперед. Он передает тебе пластину. \"Поразмысли "
+"над этим учением, и его *познание* даст тебе силу\"."
 
 #: 60003
 msgid ""
@@ -4124,20 +4244,26 @@ msgid ""
 "there is a *click* as two plates slides forth. Dak'kon stares at the two "
 "plates in his hand - he makes no move to hand them to you."
 msgstr ""
+"\"Ты увидел слова и *познал* их\". Речь Даккона замедляется, его пальцы "
+"хватаются за края Неразорванного Круга. Он поворачивает его по часовой "
+"стрелке, и после щелчка вперед выдвигаются две пластины. Даккон внимательно "
+"смотрит на них в своей руке; он стоит неподвижно, не передавая их тебе."
 
 #: 60004
 msgid "\"Dak'kon... is that second plate for you?\""
-msgstr ""
+msgstr "\"Даккон... вторая пластина предназначена тебе?\""
 
 #: 60005
 msgid ""
 "Dak'kon falls silent. His blade has ceased shimmering, the film freezing "
 "upon its surface. He is staring at the second plate, paralyzed."
 msgstr ""
+"Даккон умолкает. Его клинок прекращает рябить, его поверхность покрывается "
+"пленкой. Он впивается взглядом во вторую пластину, обездвиженный."
 
 #: 60006
 msgid "\"Do *you* know the Sixth Circle?\""
-msgstr ""
+msgstr "\"*Ты* знаешь Шестой Круг?\""
 
 #: 60007
 msgid ""
@@ -4146,10 +4272,14 @@ msgid ""
 "*know* it, and it shall give you the direction by which you may *know* "
 "yourself.\""
 msgstr ""
+"Даккон поднимает взгляд, но его угольно-черные глаза избегают твоего "
+"взгляда. \"*Знай*, что я больше ничему не могу тебя научить. Ты *знаешь* "
+"Путь, как *знает* его Народ, и это даст тебе направление для *познания* "
+"самого себя\"."
 
 #: 60008
 msgid "\"That's *not* what I asked. Do you *know* the Sixth Circle or not?\""
-msgstr ""
+msgstr "\"Это *не* то, о чем я спрашивал. *Ты* знаешь Шестой Круг или нет?\""
 
 #: 60009
 msgid ""
@@ -4159,10 +4289,15 @@ msgid ""
 "stare through you. \"That is all. It is my path that I no longer *know* the "
 "Way of Zerthimon.\""
 msgstr ""
+"Даккон несколько мгновений остается безмолвным, затем отвечает, медленно и "
+"осторожно. \"Случилось так, что я не *знаю* Шестого Круга Зертимона. Когда-"
+"то я его *знал*, но теперь не *понимаю*, а только вижу слова, - Даккон "
+"обращает на тебя взгляд. - Вот и все. Мой путь таков, что я больше не *знаю* "
+"Пути Зертимона\"."
 
 #: 60010
 msgid "\"Was it because of what happened at Shra'kt'lor?\""
-msgstr ""
+msgstr "\"Это из-за того, что случилось при Шракатлоре?\""
 
 #: 60011
 msgid ""
@@ -4170,6 +4305,9 @@ msgid ""
 "in the Circle of Zerthimon? It seems strange. It tells of how the People "
 "benefited from a treachery from their own. It seems... \""
 msgstr ""
+"\"Даккон... Я хотел бы *знать* еще одну вещь. Почему Око Вилькара в Круге "
+"Зертимона? Это кажется странным. Там говорится о том, как Народ извлек "
+"пользу из собственного предательства. Это кажется...\""
 
 #: 60012
 msgid ""
@@ -4178,6 +4316,10 @@ msgid ""
 "if he is reciting a passage from memory. \"It tells the People that even in "
 "the greatest treachery, a greater *knowing* may be achieved.\""
 msgstr ""
+"Глаза Даккона сверкаю. \"Я уже говорил тебе, что это часть рассказа о том, "
+"как Народ *познал* свободу. Ты не слушал? - его голос выравнивается, как "
+"будто он зачитывает отрывок на память. - Он рассказывает Народу, что даже в "
+"величайшем предательстве можно достигнуть большего *знания*\"."
 
 #: 60013
 msgid ""
@@ -4186,12 +4328,18 @@ msgid ""
 "of the Sixth Circle and the Pronouncement of Two Skies. It's there to "
 "justify Zerthimon's treachery to the People upon the Blasted Plains.\""
 msgstr ""
+"\"Мне почему-то кажется, что ты в это не веришь. Я думаю, что существует "
+"другая причина, почему Око Вилькара в Круге Зертимона. Его включили сюда из-"
+"за Шестого Круга и Предвестья Двух Небес. Оно здесь затем, чтобы "
+"уравновесить предательство Зертимона на Проклятых Равнинах\"."
 
 #: 60014
 msgid ""
 "Dak'kon is silent, and his blade bleeds into a dead-black, teeth rippling "
 "along the edge. "
 msgstr ""
+"Даккон молчит, его клинок стает абсолютно черным, по его краям вздымаются "
+"зубцы."
 
 #: 60015
 msgid ""
@@ -4200,6 +4348,9 @@ msgid ""
 "it was because he wished to save the People from themselves - but I don't "
 "think *you* believe that.\""
 msgstr ""
+"\"Он разделил Народ на Проклятых Равнинах, Даккон. Он разделил твою расу, "
+"когда они были на пути к победе. *Хотел* бы я верить, что это из-за эго "
+"желания спасти Народ от него самого, но я не думаю, что *ты* веришь в это\"."
 
 #: 60016
 msgid ""
@@ -4208,6 +4359,9 @@ msgid ""
 "the Fourth Circle and the Sixth Circle are more closely linked than many "
 "*know.* It is in that *knowing* that I have lost myself.\" "
 msgstr ""
+"Немного помедлив, Даккон медленно произносит: \"Я... не *знаю* Шестой Круг, "
+"как его *знают* другие. Боюсь, что Третий, Четвертый и Шестой Круги связаны "
+"сильнее, чем *известно* большинству. Именно в этом *знании* я потерял себя\"."
 
 #: 60017
 msgid ""
@@ -4217,6 +4371,10 @@ msgid ""
 "they exterminate the *illithids.* Do you think Zerthimon's words may not "
 "have been his own?\""
 msgstr ""
+"\"В Третьем Круге Зертимон погрузил свою волю, чтобы ввести в заблуждение "
+"*иллитидов*, затем в Четвертом Круге говорится о выгодах *предательства*. "
+"Потом в Шестом Круге Зертимон разделяет свой народ, прежде чем они истребят "
+"*иллитидов*. Думаешь, слова Зертимона могли и не принадлежать ему?\""
 
 #: 60018
 msgid ""
@@ -4226,10 +4384,16 @@ msgid ""
 "spoke upon the Blasted Plains, it was their words he spoke. I fear that what "
 "he did was not for the People's sake, but for our former masters.\""
 msgstr ""
+"\"*Знай* мои слова, и *знай* рану в моем сердце: боюсь, что, будучи в "
+"Столпах Молчания, Зертимон не погружался в свою волю. Боюсь, что его волю "
+"забрали у него *иллитиды*. И когда он говорил на Проклятых Равнинах, он "
+"говорил их слова. Боюсь, что сказанное им было на благо не Народу, а нашим "
+"бывшим хозяевам\"."
 
 #: 60019
 msgid "\"It's possible, but *know* it doesn't necessarily mean that h...\""
 msgstr ""
+"\"Это возможно, но *знай*, что это не обязательно означает то, что...\""
 
 #: 60020
 msgid ""
@@ -4237,6 +4401,9 @@ msgid ""
 "believe in the Sixth Circle himself. Ironically enough, I think he lost the "
 "*knowing* of himself *because* he read the Unbroken Circle of Zerthimon. "
 msgstr ""
+"Изучая Шестой Круг Зертимона, я обнаружил, что Даккон сам не верит Шестому "
+"Кругу. Довольно иронично, но мне кажется, что он потерял *знание* себя, "
+"*потому* что читал Неразорванный Круг Зертимона."
 
 #: 60021
 msgid ""
@@ -4246,12 +4413,20 @@ msgid ""
 "\" His coal black eyes glare at the stone circle in his hand. \"And so I do "
 "not *know* myself because of the Unbroken Circle of Zerthimon.\""
 msgstr ""
+"\"Так *знай* это и не говори об этом БОЛЬШЕ, - голос Даккона остр словно "
+"нож. - *Знай*, что я никогда не *узнаю* ПРАВДУ. В этом деле НЕТ решения, "
+"поскольку я НИКОГДА не *узнаю*, что было на сердце у Зертимона на Проклятых "
+"Равнинах, - его угольно-черные глаза всматриваются в каменный круг у него в "
+"руках. - Я не *знаю* себя из-за Неразорванного Круга Зертимона\"."
 
 #: 60022
 msgid "\"Very well, Dak'kon. We'll discuss this no more... let's move on.\""
 msgstr ""
+"\"Ладно, Даккон. Мы больше не будем это обсуждать... давай двигаться дальше"
+"\"."
 
 #: 60023
+#, fuzzy
 msgid ""
 "\"I do not *know.* The People became divided, and the People suffered. Upon "
 "reading the Unbroken Circle, I *know* now that I took the *knowing* of the "
@@ -4259,6 +4434,10 @@ msgid ""
 "Shra'kt'lor. In so doing, I divided the People. There was much suffering. I "
 "carry Shra'kt'lor with me always.\""
 msgstr ""
+"\"Я не *знаю*. Народ разделился и пострадал. Прочитав Неразорванный Круг, "
+"теперь я *знаю*, что взял *знания* из Пятого Круга и использовал Силу "
+"Единственной, вызывая Шестой Круг в Шракатлоре. Сделав это, я разделил "
+"Народ. Это принесло много страданий. Я всегда ношу с собой Шракатлор\"."
 
 #: 60024
 msgid ""
@@ -4266,43 +4445,49 @@ msgid ""
 "in the Circle of Zerthimon? It seems strange. It tells of how the People "
 "benefited from a treachery from their own. It seems - \""
 msgstr ""
+"\"Даккон... я хотел бы *познать* еще одну вещь: почему Око Вилькара "
+"находится в Круге Зертимона? Это кажется странным. Здесь говорится о том, "
+"как Народ извлек выгоду из своего предательства. Это кажется...\""
 
 #: 60026
 msgid "\"Can you teach me anything of weapon craft, Dak'kon?\""
-msgstr ""
+msgstr "\"Ты можешь обучить меня чему-нибудь в воинском деле, Даккон?\""
 
 #: 60027
 msgid ""
 "\"I wish to give up my current profession and resume the study of weapon "
 "craft, Dak'kon. Can you train me?\""
 msgstr ""
+"\"Я хочу покинуть текущую специализацию и продолжить изучение воинского "
+"дела, Даккон. Ты можешь меня обучать?\""
 
 #: 60028 60029
-#, fuzzy
 msgid ""
 "\"I wish to give up my current profession and resume the study of the Art, "
 "Dak'kon. Can you train me?\""
-msgstr "\"Я хочу оставить свою специализацию и снова встать на путь воина\"."
+msgstr ""
+"\"Я хочу бросить свою специализацию и снова заняться изучением Искусства, "
+"Даккон. Ты можешь меня обучать?\""
 
 #: 60030 68062
-#, fuzzy
 msgid "\"Can you teach me anything of the Art, Dak'kon?\""
-msgstr "\"Что ты можешь сказать о Дхолле?\""
+msgstr "\"Ты можешь обучить меня чему-нибудь в Искусстве, Даккон?\""
 
 #: 60031
 msgid ""
 "\"I have read the Unbroken Circle of Zerthimon. I want to speak to you more "
 "about the Way of Zerthimon.\""
 msgstr ""
+"\"Я читал Неразорванный Круг Зертимона. Я хочу еще поговорить с тобой о Пути "
+"Зертимона\"."
 
 #: 60032
-#, fuzzy
 msgid "\"Actually, I had some other questions instead...\""
-msgstr "\"Да, у меня есть еще вопросы...\""
+msgstr "\"На самом деле, у меня есть другие вопросы...\""
 
 #: 60034
 msgid "Dak'kon falls silent. \"What does this Seventh Circle speak of?\""
-msgstr ""
+msgstr "Даккон умолкает. \"О чем говорит Седьмой Круг?\""
 
 #: 60035
 msgid ""
@@ -4311,48 +4496,47 @@ msgid ""
 "of an empire. Your victories may be small, but over time, a greater victory "
 "may be achieved.\""
 msgstr ""
+"\"Он говорит о времени, как о союзнике, а не как о враге. Он говорит, что "
+"терпение может превратить даже самые небольшие усилия в оружие, которое "
+"может поразить сердце империи. Может, твои победы и невелики, но со временем "
+"может быть достигнута большая победа\"."
 
 #: 60036
 msgid ""
 "\"I don't know... it speaks of time and labor, but I haven't found meaning "
 "in it. When I come to know its wisdom, I shall share it with you.\""
 msgstr ""
+"\"Не знаю... оно говорит о времени и труде, но я не нашел в этом какого-то "
+"смысла. Когда я постигну его мудрость, я поделюсь ею с тобой\"."
 
 #: 60037 60051
-#, fuzzy
 msgid ""
 "\"I will not speak of it now. I had other things I would *know,* Dak'kon...\""
 msgstr ""
-"\"Он пожелал разговаривать со мной. Я пытался, но он не слушает меня\"."
+"\"Я не буду об этом говорить. Я хочу *познать* другие вещи, Даккон...\""
 
 #: 60038 60052
-#, fuzzy
 msgid "\"I will share it with you another time. For now, let's move on.\""
-msgstr "\"Твои распоряжения будут сообщены в свое время. Я вернусь\"."
+msgstr "\"Я расскажу тебе в другой раз. А пока продолжим путь\"."
 
 #: 60039 60053
-#, fuzzy
 msgid ""
 "Dak'kon is silent for a moment. \"Will you make this Circle *known* to me?\""
-msgstr ""
-"Даккон на минуту умолкает. \"Оставшаяся часть символов не *известна* мне\"."
+msgstr "Даккон на минуту умолкает. \"Ты сделаешь этот Круг *известным* мне?\""
 
 #: 60040
 msgid "Take the Unbroken Circle of Zerthimon and unlock the Seventh Circle."
-msgstr ""
+msgstr "Взять Неразорванный Круг Зертимона и раскрыть Седьмой Круг."
 
 #: 60041 60055
-#, fuzzy
 msgid "\"I will, but not now. There are other things I would *know*...\""
-msgstr ""
-"\"Я понимаю. Тем не менее, есть несколько вещей, которые мне нужно узнать..."
-"\""
+msgstr "\"Да, но не сейчас. Я хочу *узнать* другие вещи...\""
 
 #: 60042 60056
 msgid ""
 "\"Not at the moment... I shall share it with you another time. For now, "
 "let's move on.\""
-msgstr ""
+msgstr "\"Не сейчас... Я расскажу тебе в другой раз. А пока продолжим путь\"."
 
 #: 60043
 msgid ""
@@ -4361,12 +4545,17 @@ msgid ""
 "Unbroken Circle still seems intact - the Seventh Circle remains. Dak'kon "
 "watches you silently."
 msgstr ""
+"Когда ты берешь круг и смещаешь соединения, изнутри появляются *две* "
+"пластины и падают тебе в руки. Ты не знаешь, откуда они взялись, но "
+"Неразорванный Круг кажется нетронутым: Седьмой Круг остался на месте. Даккон "
+"молча наблюдает за тобой."
 
 #: 60044
 msgid ""
 "\"There are two plates here... perhaps we should both study them, you and I?"
 "\""
 msgstr ""
+"\"Здесь две пластины... может, нам обоим следует их изучить, и мне, и тебе?\""
 
 #: 60045
 msgid ""
@@ -4376,21 +4565,27 @@ msgid ""
 "pass that as you *knew* the Way of Zerthimon from me, I shall *know* the Way "
 "of Zerthimon from you.\""
 msgstr ""
+"Даккон отвечает не сразу: \"Ты *познал* многое в Круге, и твои *знания* "
+"многое для меня значат, - Даккон встречается с тобой взглядом. - *Знай*, у "
+"нас один путь, и я буду *познавать* Путь Зертимона от тебя, как ты "
+"*познавал* его от меня\"."
 
 #: 60046
 msgid ""
 "\"We'll study the plates later. There were other things I would *know*...\""
-msgstr ""
+msgstr "\"Мы изучим пластины позже. Я хочу *узнать* другие вещи...\""
 
 #: 60047
 msgid "\"Very well, Dak'kon. Let's move on.\""
-msgstr ""
+msgstr "\"Хорошо, Даккон. Давай двигаться дальше\"."
 
 #: 60048
 msgid ""
 "Dak'kon falls silent. When he speaks again... his tone is quiet, almost "
 "reverent. \"What does this Eighth Circle speak of?\""
 msgstr ""
+"Даккон умолкает. Когда он начинает говорить снова... его голос звучит тихо, "
+"почти благоговейно. \"Что говорится в этом Восьмом Круге?\""
 
 #: 60049
 msgid ""
@@ -4400,16 +4595,23 @@ msgid ""
 "take strength from that, but that your focus can reveal weaknesses in your "
 "enemy.\""
 msgstr ""
+"\"В нем говорится о концентрации и дисциплине... о том, как *незнание* себя "
+"может физически разделить человека. Еще в нем говорится о слабостях, "
+"возникающих из-за этого разделения. Мне кажется, что тут говорится о том, "
+"что нужно не только *знать* себя и черпать из этого силу, но и раскрывать "
+"слабые места врага с помощью концентрации\"."
 
 #: 60050
 msgid ""
 "\"I don't know... it speaks of focus and division, but I haven't found "
 "meaning in it. When I come to know its wisdom, I shall share it with you.\""
 msgstr ""
+"\"Не знаю... в нем говорится о концентрации и дисциплине, но я не нашел в "
+"этом смысла. Когда я познаю его мудрость, я поделюсь ею с тобой\","
 
 #: 60054
 msgid "Take the Unbroken Circle of Zerthimon and unlock the Eighth Circle."
-msgstr ""
+msgstr "Взять Неразорванный Круг Зертимона и раскрыть Восьмой Круг."
 
 #: 60057
 msgid ""
@@ -4418,6 +4620,10 @@ msgid ""
 "where they came from, but the Unbroken Circle still seems intact - the "
 "Eighth Circle remains. Dak'kon watches you silently."
 msgstr ""
+"Когда ты берешь круг и смещаешь соединения, изнутри появляются *две* "
+"пластины и падают тебе в руки. Ты не знаешь, откуда они появились, но "
+"Неразорванный Круг кажется нетронутым: Восьмой Круг остался на месте. Даккон "
+"молча наблюдает за тобой."
 
 #: 60058
 msgid ""
@@ -4426,6 +4632,10 @@ msgid ""
 "heart when he made the Pronouncement of Two Skies. His words were not those "
 "of the *illithids,* but of the People.\""
 msgstr ""
+"\"Здесь две пластины... нам обоим следует из изучить, и мне, и тебе. Думаю, "
+"что когда ты *познаешь* Восьмой Круг, возможно, тогда ты *узнаешь*, что было "
+"в сердце Зертимона, когда он произнес Предвестье Двух Небес. Его слова "
+"принадлежали не *иллитидам*, а Народу\"."
 
 #: 60059
 msgid ""
@@ -4434,6 +4644,10 @@ msgid ""
 "the shimmering you notice before has become a silver glow. He seems "
 "*stronger* somehow."
 msgstr ""
+"Даккон пристально смотрит на пластины, его глаза бегают по геометрическим "
+"фигурам на них, потом он поднимает глаза, и ваши взгляды встречаются. Его "
+"клинок изгибается до тех пор, пока замеченное тобой ранее мерцание не "
+"превращается в серебристое сияние. Он кажется каким-то более *сильным*."
 
 #: 60060
 msgid ""
@@ -4441,12 +4655,17 @@ msgid ""
 "with mine. *Know* that when all dies around you, *know* I shall live for "
 "your sake.\""
 msgstr ""
+"\"*Знай*, что когда за тобой придет смерть, *знай*, что ее клинок встретится "
+"с моим. *Знай*, что когда все вокруг тебя умрет, *знай*: я буду жить ради "
+"тебя\"."
 
 #: 60061
 msgid ""
 "\"When we die, Dak'kon, it shall be the same death. It shall be the "
 "Pronouncement of Two Deaths As One.\""
 msgstr ""
+"\"Когда мы умрем, Даккон, это будет одна смерть. Это будет Предвестье "
+"Двухединой Смерти\"."
 
 #: 60062
 msgid ""
@@ -4457,6 +4676,12 @@ msgid ""
 "One, where he swore that when death came for me, he would meet its blade "
 "with his"
 msgstr ""
+"Я думаю, что обнаружение мной Восьмого Круга дало Даккону лучшее понимание "
+"самого себя и устранило *сомнения*, которые его терзали. Я буквально "
+"наблюдал за тем, как с него спал покров лет, когда я сказал ему о Восьмом "
+"Круге. Услышав мои слова, Даккон произнес Предвестье Двухединой Смерти, в "
+"котором он поклялся, что когда ко мне придет смерть, он встретит ее клинок "
+"своим."
 
 #: 60063
 msgid "\"The symbols speak of four you have traveled with in the past.\""
@@ -5085,6 +5310,10 @@ msgid ""
 "own wisdom to Zerthimon's teachings before I understand the Way of "
 "Zerthimon. "
 msgstr ""
+"Очевидно, я не мне понимаю, что означает следующий Круг в Неразорванном "
+"Круге Зертимона, или так говорит мне Даккон. Мне кажется, что значение слов "
+"находится за тем, что начертано на камне... Возможно, мне придется немного "
+"разобраться с учением Зертимона, прежде чем я пойму Путь Зертимона."
 
 #: 68059
 msgid ""

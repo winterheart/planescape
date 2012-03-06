@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dcirclez.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:17+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-03-04 23:37+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,10 +21,15 @@ msgid ""
 "links prove the text was constructed by a master artisan. You can't figure "
 "out how to unlock the plates, however."
 msgstr ""
+"Этот маленький круглый камень представляет собой религиозные тексты, которые "
+"носит с собой Даккон. Он сделан из ряда сцепленных между собой колец, "
+"вставленных друг в друга; сложность пластин и замысловатость соединений "
+"между ними показывает, что эти тексты были созданы искусным ремесленником. "
+"Тем не менее, непонятно, как разъединить пластины."
 
 #: 60450
 msgid "Leave the stone alone."
-msgstr "Оставить камень в покое. "
+msgstr "Оставить камень в покое."
 
 #: 60451
 msgid ""
@@ -33,79 +38,83 @@ msgid ""
 "complexity of the plates and the intricacy of their links prove the text was "
 "constructed by a master artisan. "
 msgstr ""
+"Этот маленький круглый камень - Неразорванный Круг Зертимона. Он сделан из "
+"ряда сцепленных между собой колец, которые вставляются друг в друга; "
+"сложность пластин и замысловатость соединений между ними указывает на руку "
+"искусного ремесленника."
 
 #: 60452
 msgid "Unlock the first plate as Dak'kon showed you."
-msgstr ""
+msgstr "Раскрыть первую пластину, как показал тебе Даккон."
 
 #: 60453
 msgid "Unlock the Second Circle of Zerthimon. "
-msgstr ""
+msgstr "Раскрыть Второй Круг Зертимона."
 
 #: 60454
 msgid "Unlock the Third Circle of Zerthimon. "
-msgstr ""
+msgstr "Раскрыть Третий Круг Зертимона."
 
 #: 60455
 msgid "Unlock the Fourth Circle of Zerthimon. "
-msgstr ""
+msgstr "Раскрыть Четвертый Круг Зертимона."
 
 #: 60456
 msgid "Unlock the Fifth Circle of Zerthimon. "
-msgstr ""
+msgstr "Раскрыть Пятый Круг Зертимона."
 
 #: 60457
 msgid "Unlock the Sixth Circle of Zerthimon. "
-msgstr ""
+msgstr "Раскрыть Шестой Круг Зертимона."
 
 #: 60458
 msgid "Unlock the Seventh Circle of Zerthimon. "
-msgstr ""
+msgstr "Раскрыть Седьмой Круг Зертимона."
 
 #: 60459
 msgid "Unlock the Eighth Circle of Zerthimon. "
-msgstr ""
+msgstr "Раскрыть Восьмой Круг Зертимона."
 
 #: 60460 60461 60462
 msgid "Examine the plates, see if you can puzzle out any new combinations."
 msgstr ""
+"Осмотреть пластины: вдруг удастся составить какие-нибудь новые комбинации."
 
 #: 60463
 msgid "Re-read the First Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть еще раз Первый Круг Зертимона."
 
 #: 60464
 msgid "Re-read the Second Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть еще раз Второй Круг Зертимона."
 
 #: 60465
 msgid "Re-read the Third Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть еще раз Третий Круг Зертимона."
 
 #: 60466
 msgid "Re-read the Fourth Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть еще раз Четвертый Круг Зертимона."
 
 #: 60467
 msgid "Re-read the Fifth Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть еще раз Пятый Круг Зертимона."
 
 #: 60468
 msgid "Re-read the Sixth Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть еще раз Шестой Круг Зертимона."
 
 #: 60469
 msgid "Re-read the Seventh Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть еще раз Седьмой Круг Зертимона."
 
 #: 60470
 msgid "Re-read the Eighth Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть еще раз Восьмой Круг Зертимона."
 
 #: 60471 60474
-#, fuzzy
 msgid "Leave the Unbroken Circle of Zerthimon alone."
-msgstr "Оставить гигантского скелета в покое."
+msgstr "Отложить Неразорванный Круг Зертимона."
 
 #: 60472
 msgid ""
@@ -116,29 +125,33 @@ msgid ""
 "dominating. Just looking at it, you *know* the symbols and *know* you can "
 "read them."
 msgstr ""
+"Ты повторяешь манипуляции Даккона с Кругом, пластины сдвигаются от твоего "
+"прикосновения и кольца складываются в новую комбинацию. Под кольцами есть "
+"ряд символов. Их начертания не похожи ни на что из того, что ты видел: это "
+"ряд пересекающихся геометрических фигур с преобладанием колец. Лишь взглянув "
+"на символы, ты *понимаешь*, что знаешь эти символы и можешь их читать."
 
 #: 60473
 msgid "Read the First Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть Первый Круг Зертимона."
 
 #: 60475
 msgid "\"*Know* that we are the First People.\""
-msgstr ""
+msgstr "\"*Знай*, что мы - Первый Народ\"."
 
 #: 60476 60481 60485 60489 60493 60497 60501 60520 60524 60528 60532 60536
 #: 60540 60544 60548 60552 60588 60593 60597 60608 60612 60616 60620 60631
 #: 60639 60643 60656 60660 60664 60675 60679 60685 60690 60699 60733 60737
 #: 60749 60753 60757 67280
 msgid "Continue reading the symbols..."
-msgstr ""
+msgstr "Продолжить чтение символов..."
 
 #: 60477 60482 60486 60490 60494 60498 60502 60506 60521 60525 60529 60533
 #: 60537 60541 60545 60549 60553 60557 60590 60594 60598 60602 60609 60613
 #: 60617 60628 60634 60640 60644 60649 60657 60661 60665 60669 60676 60680
 #: 60686 60694 60700 60707 60734 60738 60743 60750 60754 60764
-#, fuzzy
 msgid "Stop reading, examine the Circle again."
-msgstr "Снова осмотреть руны."
+msgstr "Прекратить чтение и снова осмотреть Круг."
 
 #: 60479 60483 60491 60495 60499 60503 60507 60510 60518 60522 60526 60530
 #: 60534 60538 60542 60546 60550 60554 60558 60586 60591 60595 60599 60603
@@ -146,7 +159,7 @@ msgstr "Снова осмотреть руны."
 #: 60666 60670 60673 60677 60683 60687 60697 60701 60708 60711 60721 60726
 #: 60731 60735 60739 60744 60747 60751 60755 60769 60775
 msgid "Slide the plates closed and seal the Circle."
-msgstr ""
+msgstr "Сдвинуть пластины и закрыть Круг."
 
 #: 60480
 msgid ""
@@ -154,16 +167,21 @@ msgid ""
 "the First People came to *know* themselves, they were chaos no longer, and "
 "became flesh.\""
 msgstr ""
+"\"Когда-то был повсюду хаос. И мыслью Первый был Народ, из хаоса которая "
+"возникла. Когда ж Народ *познал* себя, он перестал быть хаосом, и плоть обрел"
+"\"."
 
 #: 60484
 msgid ""
 "\"With their thoughts and *knowing* of matter, the People shaped the First "
 "World and dwelled there with their *knowing* to sustain them.\""
 msgstr ""
+"\"Мышления посредством и *пониманья* сути был Первый создан Мир Народом, и "
+"где он и жил, самодостаточность *познав*\"."
 
 #: 60487
 msgid "Slide the plates closed and seal the Circle.''\t"
-msgstr ""
+msgstr "Сдвинуть пластины и закрыть Круг."
 
 #: 60488
 msgid ""
@@ -173,6 +191,10 @@ msgid ""
 "the minds of the People were divided. In their division, the People were "
 "punished.\""
 msgstr ""
+"\"И все же плоть была в новинку для Народа, и с нею он не *понимал* себя. "
+"Плоть породила новых мыслей всходы. Ненависть, алчность, боль и радость, "
+"зависть и сомнение, которые подпитаны были друг другом, и разделяли разумы "
+"Народа. За собственную разделенность Народ наказан был\"."
 
 #: 60492
 msgid ""
@@ -182,12 +204,18 @@ msgid ""
 "*knew* flesh only as tools for their will. *Know* these beasts were the "
 "*illithids.*\""
 msgstr ""
+"\"И плоти чувства сильными были. Ненависть, алчность, боль и радость, "
+"зависть и сомнение - все это послужило путеводным камнем для врагов. Плоть "
+"обретя, Народ рабами стал у тех, кто плоть *познал* как воли собственной "
+"орудие. И *знай*, что *иллитиды* - звери те\"."
 
 #: 60496
 msgid ""
 "\"The *illithids* were a race that had come not to *know* themselves. They "
 "had learned how to make other races not *know* themselves.\""
 msgstr ""
+"\"Ведь раса *иллитидов* не нуждалась том, чтобы *познать* себя: обучена была "
+"тому, чтоб другие расы не пускать к *познанию* себя\"."
 
 #: 60500
 msgid ""
@@ -196,6 +224,9 @@ msgid ""
 "thoughts. When the *illithids* came upon the People, the People were a "
 "people no more. The People became slaves.\""
 msgstr ""
+"\"Они были щупальцеголовыми. И плотью жили, видели в ней только воли "
+"собственной орудие. Их кровь - вода, их мысли - разума творцы. Когда сошлись "
+"Народ и *иллитиды*, то перестал Народ народом быть: попал он в рабство\"."
 
 #: 60504
 msgid ""
@@ -207,21 +238,27 @@ msgid ""
 "another and have their flesh consumed. They came to *know* the horror of "
 "being made to feel joy in such things.\""
 msgstr ""
+"\"Народ забрали *иллитиды* из Мира Первого, перенесли его в Ненастоящие "
+"Миры. Пока Народ трудился средь Миров Ненастоящих, учил он *иллитидов* Плоти "
+"Путь. И так Народ *познал* утраты. *Познал* страдания. И смерть *познал* - и "
+"разума, и тела. *Познал*, что значит стадом быть и пищею другим служить. "
+"*Познал* он ужас от того, что это стало радовать его\"."
 
 #: 60505 67271
 msgid "Finish reading the Circle."
-msgstr ""
+msgstr "Закончить чтение Круга."
 
 #: 60508
 msgid ""
 "\"The Unbroken Circle is the *knowing* of how the People lost themselves. "
 "And how they came to *know* themselves again.\""
 msgstr ""
+"\"Круг Неразорванный - *познание* того, как потерял себя Народ. И как "
+"*познал* себя он снова\"."
 
 #: 60509 60517 60562 60605 60653 60672 60710 60720 60725 60730 60746 60774
-#, fuzzy
 msgid "Examine the Circle again."
-msgstr "Снова осмотреть руны."
+msgstr "Еще раз осмотреть Круг."
 
 #: 60511
 msgid ""
@@ -229,32 +266,37 @@ msgid ""
 "ring is revealed. The ring carries the same script as you read before, with "
 "the same geometries... you *know* the symbols and *know* you can read them."
 msgstr ""
+"Ты двигаешь пластины, как показал тебе Даккон, и открывается новое кольцо. "
+"Под ним такие же письмена, такие же геометрические фигуры... ты *осознаешь*, "
+"что символы тебе знакомы, и ты можешь их читать."
 
 #: 60512
 msgid "Read the Second Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть Второй Круг Зертимона."
 
 #: 60513
 msgid "Read the Third Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть Третий Круг Зертимона."
 
 #: 60514
 msgid "Read the Fourth Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть Четвертый Круг Зертимона."
 
 #: 60515
 msgid "Read the Fifth Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть Пятый Круг Зертимона."
 
 #: 60516
 msgid "Read the Sixth Circle of Zerthimon."
-msgstr ""
+msgstr "Прочесть Шестой Круг Зертимона."
 
 #: 60519
 msgid ""
 "\"*Know* that flesh cannot mark steel. *Know* that steel may mark flesh. In "
 "*knowing* this, Zerthimon became free.\""
 msgstr ""
+"\"*Знай* - не способна плоть пометить сталь. *Знай* - может сталь пометить "
+"плоть. Ведь это *осознав*, свободу Зертимон обрел\"."
 
 #: 60523
 msgid ""
@@ -262,6 +304,9 @@ msgid ""
 "used it as tools for their will. One of the places where flesh served their "
 "will was the Fields of Husks on the False Worlds of the *illithids.*\""
 msgstr ""
+"\"*Знай*, щупальцеголовые из плоти были. На плоть они лишь полагались, "
+"используя ее как воли собственной орудие. Одним из мест, где плоть служила "
+"воле их, были Поля Останков, что расположены Мирах Ненастоящих *иллитидов*\"."
 
 #: 60527
 msgid ""
@@ -271,6 +316,10 @@ msgid ""
 "*illithids.* Zerthimon worked the Fields with no *knowing* of himself or "
 "what he had become. He was a tool of flesh, and the flesh was content.\""
 msgstr ""
+"\"На тех Полях бросали *иллитиды* тела Народа, прежде поглотив их мозг. "
+"Оставшиеся оболочки в дальнейшем превращались в удобренье для *иллитидов* "
+"ядовитых трав. Работал Зертимон на тех Полях, того не *понимая*, кем он "
+"стал. Он был лишь инструментом плоти, и естеством его являлась плоть\"."
 
 #: 60531
 msgid ""
@@ -279,6 +328,9 @@ msgid ""
 "hands, he came across a husk whose brain remained within it. It had not been "
 "used as food. Yet it was dead.\""
 msgstr ""
+"\"И были *познаны* на тех полях стальные Зертимоном письмена. В один из "
+"циклов, когда возделыванием Полей был занят Зертимон, нашел он прах, в "
+"котором находился мозг. Его не употребили в пищу, и все же был он мертв\"."
 
 #: 60535
 msgid ""
@@ -286,6 +338,9 @@ msgid ""
 "for the *illithids* was a thought Zerthimon had difficulty understanding. "
 "From that thought, came a desire to *know* what had happened to the husk.\""
 msgstr ""
+"\"И мысль об оболочке, что смерти была предана, не став при этом пищей "
+"*иллитидов*, была непостижимою для Зертимона. От мысли этой вдруг желание "
+"возникло: *узнать*, что же случилось с телом\"."
 
 #: 60539
 msgid ""
@@ -293,6 +348,9 @@ msgid ""
 "bone. Zerthimon realized that was what had killed the husk. The steel had "
 "marked the flesh, but the flesh had not marked the steel.\""
 msgstr ""
+"\"Стальной клинок был воткнут в череп трупа, пронзил он кость. И понял "
+"Зертимон, что это лишь убило оболочку. И сталь отметилась на плоти, однако "
+"не отметилась на стали плоть\"."
 
 #: 60543
 msgid ""
@@ -302,6 +360,10 @@ msgid ""
 "that would come to be raised against Gith when Zerthimon made the "
 "Pronouncement of Two Skies.\""
 msgstr ""
+"\"Взял Зертимон клинок и изучил его поверхность, и в ней увидел отражение "
+"свое. И в отражении стали впервые Зертимон *познал* себя. Края клинка были "
+"остры, и он нуждался во владельце. Тот самый это был клинок, который поднят "
+"был пред Гит в тот миг, как Зертимон изрек Предвестье Двух Небес\"."
 
 #: 60547
 msgid ""
@@ -309,6 +371,9 @@ msgid ""
 "had about it. He used it in the fields to aid his work. In using it, he "
 "thought about how it was not used.\""
 msgstr ""
+"\"И прятал Зертимон клинок на протяжении многих циклов, и много раз он "
+"размышлял о нем. Использовал клинок в своей работе, и, пользуясь им, "
+"размышлял о новых применениях его\"."
 
 #: 60551
 msgid ""
@@ -319,6 +384,12 @@ msgid ""
 "superior to flesh. When the blade had killed the husk, it was the flesh that "
 "had been weaker than the steel.\""
 msgstr ""
+"\"Были могущественны *иллитиды*. И верил Зертимон, что в мире нет такого, "
+"чего они не *знают*. Однако *иллитиды* никогда стальных орудий не носили. "
+"Лишь плоть служила инструментом им. Все делалось посредством плоти, ведь "
+"щупальцеголовые из плоти были и *понимали* плоть. И все же сталь была "
+"сильнее плоти. Когда ж поверг клинок ту оболочку, слабее плоть была, чем "
+"сталь\"."
 
 #: 60555
 msgid ""
@@ -326,16 +397,20 @@ msgid ""
 "*knowing* that, he came to *know* that steel was stronger than the "
 "*illithids.*\""
 msgstr ""
+"\"И *понял* Зертимон, что уступила стали плоть. *Постигнув* это, к "
+"*пониманию* пришел того, что сталь сильнее *иллитидов*\"."
 
 #: 60556 60601 60647 60668 60703 60741 67272 67275 67276 67277 67278 67279
 msgid "Finish reading the symbols."
-msgstr ""
+msgstr "Закончить чтение."
 
 #: 60559
 msgid ""
 "\"Steel became the scripture of the People. *Know* that steel is the "
 "scripture by which the People came to *know* freedom.\""
 msgstr ""
+"\"Сталь письменами стала у Народа. Так *знай*, что сталь - писание, которого "
+"посредством Народ *постиг* свободу\"."
 
 #: 60587
 msgid ""
@@ -344,6 +419,9 @@ msgid ""
 "would have broken the backs of many others, but Zerthimon labored on, "
 "suffering torment and exhaustion.\""
 msgstr ""
+"\"И много циклов Зертимон работал на *иллитида* Арлатаи Дважды-Мертвеца, а "
+"также на товарищей его в пещеристом раю Миров Поддельных. Обязанность его "
+"сломила многих, но продолжал работу Зертимон, томясь от боли и изнеможенья\"."
 
 #: 60592
 msgid ""
@@ -354,6 +432,12 @@ msgid ""
 "flames raged within Zerthimon's heart. He wished to *know* if Zerthimon's "
 "heart was one of a slave or of a rebel.\""
 msgstr ""
+"\"Однажды Арлатаи Дважды-Мертвый призвал в свои покои Зертимона, в свою "
+"многососудистую галерею. Он утверждал, что Зертимон неуваженье проявил к "
+"товарищам его, упрямым будучи и малодушным. И обвиненье то являлось "
+"клеветой, поскольку Арлатаи лишь хотел *узнать*, горит ли пламя ярости у "
+"Зертимона в сердце. Желал *понять* он, каково у Зертимона сердце: невольника "
+"иль бунтаря\"."
 
 #: 60596
 msgid ""
@@ -363,6 +447,11 @@ msgid ""
 "to endure the punishment and was placed within the Pillars of Silence so he "
 "might suffer for a turning.\""
 msgstr ""
+"\"И принял наказанье *иллитида* Зертимон, не стал он раскрывать свою недавно "
+"найденную силу. Он *понимал*, что было неразумно показывать всю ненависть "
+"свою, поскольку это б навредило тем, кто помыслами с ним един. Он принял "
+"наказанье это, и был он помещен в Столпы Молчанья, дабы испытывать там муки "
+"в теченье цикла\"."
 
 #: 60600
 msgid ""
@@ -372,6 +461,11 @@ msgid ""
 "punishment to the *illithid* as was custom. In so doing, he proved himself a "
 "slave in the *illithid* eyes while his heart remained free.\""
 msgstr ""
+"\"Привязанный к Столпам, направил Зертимон свой разум в место, куда не "
+"досягала боль, оставив свое тело позади. Так выдержал он цикл; когда же к "
+"Арлатаи Дважды-Мертвецу доставлен был он, то благодарность выразил за кару "
+"*иллитиду*, поскольку так велел обычай. И сделав это, показал себя рабом он "
+"пред глазами *иллитида*, душа ж его свободною осталась\"."
 
 #: 60604
 msgid ""
@@ -380,6 +474,10 @@ msgid ""
 "was the first of the *illithid* to *know* death by Zerthimon's hand and die "
 "a third death.\""
 msgstr ""
+"\"Терпением своим и подавленьем ярости огня, что в нем пылал, позволил "
+"Арлатаи Дважды-Мертвецу считать себя беспомощным и слабым. Когда же пробил "
+"час Восстанья, то Арлатаи первым из народа *иллитидов* *познал* погибель от "
+"десницы Зертимона, и умер в третий раз\"."
 
 #: 60607
 msgid ""
@@ -390,6 +488,11 @@ msgid ""
 "scripture of steel, and most importantly, they were given the *knowing* of "
 "freedom.\""
 msgstr ""
+"\"*Знай*, что восстание Народа против *иллитидов* плодом было десятков "
+"циклов тяжкого труда. И из Народа многие собрались, и втайне изучали, как "
+"победить господ своих. Они учились защищать свой разум, и превращать его в "
+"оружие свое. Учили также и Писанье стали, и что было важнее остального, "
+"свободы *пониманье* обрели\"."
 
 #: 60611
 msgid ""
@@ -398,6 +501,10 @@ msgid ""
 "silent. But there were those that *knew* freedom and *knew* slavery, and it "
 "was their choice that the People remain chained. One of these was Vilquar.\""
 msgstr ""
+"\"Одни познали суть свободы и сберегли ее в своих сердцах. И *знание* им "
+"силы придавало. Другие же боялись и молчали. А были и такие, кто *знал* "
+"свободу, и рабство *знал*, но выбор их таков: Народ в цепях оставить. "
+"Вилькар принадлежал к таким\"."
 
 #: 60615
 msgid ""
@@ -407,6 +514,11 @@ msgid ""
 "not already touch. Vilquar's eye saw that much took place that the "
 "*illithid* did not see. To the Rising, the *illithid* were blinded.\""
 msgstr ""
+"\"Вилькар в восстаньи видел не *свободу*, а возможность. Он знал, что "
+"*иллитиды* расселились во множестве Миров Ненастоящих. Число миров их было "
+"столь большим, что взор их был направлен лишь наружу, к тому, чего еще "
+"захватили. Приметило Вилькаровое око, что слишком многого не видят "
+"*иллитиды*. К Восстанью слепы они были\"."
 
 #: 60619
 msgid ""
@@ -415,6 +527,10 @@ msgid ""
 "eyes against the Rising. In exchange, Vilquar asked that he be rewarded for "
 "his service. The *illithid* agreed to his contract.\""
 msgstr ""
+"\"Итак, однажды пришел Вилькар к хозяину его, что звался Зиджитарис, со "
+"*знаниями* о Восстанье. Сковал себя Вилкар и предложил глазами быть против "
+"Восстанья. Взамен он попросил награду за свои услуги. И принял *иллитид* "
+"условие его\"."
 
 #: 60630
 msgid ""
@@ -423,6 +539,10 @@ msgid ""
 "fed upon to stem the Rising. It seemed that the Rising would die before it "
 "could occur, and the *illithid* were pleased with Vilquar's eye.\""
 msgstr ""
+"\"С началом того уговора настали смуты времена. И множество предательств "
+"совершил Вилькар, и многих из Народа поглотили *иллитиды*, дабы восстание "
+"сломить. Казалось, что падет Восстанье, так и не начавшись, и оком Вилькара "
+"были довольны *иллитиды*\"."
 
 #: 60638
 msgid ""
@@ -433,6 +553,12 @@ msgid ""
 "Vilquar's eye was filled only with the reward he had been promised. He would "
 "see what he wished to see.\""
 msgstr ""
+"\"Но к завершению предательства времен *узнал* в итоге Зертимон о "
+"вероломствах всех Вилькара. Об оке Вилкара *узнав*, Восстание сумел "
+"утихомирить Зертимон, дабы Вилькар считал: предательства его в итоге "
+"принесли успех, и было, наконец, подавлено восстанье. Он *ведал*, что "
+"Вилькаровое око было исполнено лишь ожиданием обещанной награды. И он увидит "
+"то, к чему стремился\"."
 
 #: 60642
 msgid ""
@@ -442,6 +568,10 @@ msgid ""
 "more. He praised their wisdom in using Vilquar's eye, and he asked them for "
 "his reward.\""
 msgstr ""
+"\"И алчностью своею одержимый, Вилькар пришел к хозяину его, и рассказал о "
+"собственном успехе. Сказал он, что восстанье пало, и могут *иллитиды* вновь "
+"направить взор наружу свой с спокойною душей. Он восхвалял их мудрость в "
+"применении Вилькарового ока, затем спросил он о своей награде\"."
 
 #: 60646
 msgid ""
@@ -452,6 +582,11 @@ msgid ""
 "Vilquar came to *know* that when Vilquar's eye had nothing left to see, "
 "Vilquar's eye was useless.\" "
 msgstr ""
+"\"От жадности ослепнув, забыл Вилькар о *знании* того, зачем Народ стремится "
+"к воле. Утратил *пониманье* он того, что значит рабство. Забыл о том, что "
+"видят *иллитиды*, когда свой взор кидают на него. И вышло так: Вилькарова "
+"измена пред Народом закончилось другой изменой. Тогда и *осознал* Вилькар, "
+"что если не за кем теперь следить, то стало его око бесполезным\"."
 
 #: 60652
 msgid ""
@@ -459,12 +594,17 @@ msgid ""
 "and devouring his brain. Vilquar's corpse was cast upon the Fields of Husks "
 "so its blood might water the poison-stemmed grasses.\""
 msgstr ""
+"\"Вознаградил Вилькара *иллитид*, вскрыв его череп и мозг бедняги поглотив. "
+"А тело Вилькара оставили среди Полей Останков, чтоб кровью увлажняло "
+"ядовитую траву\"."
 
 #: 60655
 msgid ""
 "\"Zerthimon was the first to *know* the way of freedom. Yet it was not he "
 "that first came to *know* the way of rebellion.\""
 msgstr ""
+"\"Был первым Зертимон из тех, к кому *познание* пришло свободы. Но не был "
+"первым он из тех, кем *познан* был восстанья путь\"."
 
 #: 60659
 msgid ""
@@ -476,6 +616,13 @@ msgid ""
 "weapons by which they could be defeated. Her mind was focused, and both her "
 "will and her blade were as one.\""
 msgstr ""
+"\"Восстания *познанье* пришло к воительной царице Гит, что была из Народа. "
+"Она служила *иллитидам* в качестве бойца во множестве Миров Ненастоящих, и "
+"там она войну *постигла*, и унесла ее в своей душе. Она *узнала*, как "
+"сплотить людей, чтоб остальных поработить. Она *познала* силы путь, "
+"*постигла* она также и уменье захватывать оружие хозяев, чтоб против них его "
+"и обратить. И разум ее был сосредоточен, а воля и клинок единым целым стали"
+"\"."
 
 #: 60663
 msgid ""
@@ -485,6 +632,11 @@ msgid ""
 "afflicted him, but he *knew* he wished to join his blade to Gith. He wished "
 "to give his hate expression and share his pain with the *illithid.*\""
 msgstr ""
+"\"В тот цикл, в котором Зертимон *постиг* воительницу Гит, себя *познанье* "
+"потерял. Слова ее были как пламя, что зажигает сердце каждого, кто слышит "
+"их. Ее услышав, возжелал *познать* войну. Не *понимал*, что так его терзает; "
+"одно лишь *знал*: желает он сражаться с Гит. Хотел он выразить свою "
+"ненависть и поделится болью с *иллитидом*\"."
 
 #: 60667
 msgid ""
@@ -494,24 +646,35 @@ msgid ""
 "them in battle. The strength of her *knowing* was so great, that all those "
 "that walked her path came to *know* themselves.\""
 msgstr ""
+"\"Гит из Народа была, но *знание* самой себя сильнее было у нее, чем у "
+"любого, кого случилось встретить Зертимону. Она *постигла* плоти путь, она "
+"*познала* *иллитидов*, и с *осознанием* себя, пришло к ней *понимание* того, "
+"как победить их в битве. И мощь ее *познания* была столь велика, что все "
+"идущие ее путем себя *познали*\"."
 
 #: 60671
 msgid ""
 "\"Gith was but one. Her strength was such that it caused others to *know* "
 "their strength. And Zerthimon laid his steel at her feet.\""
 msgstr ""
+"\"И Гит единственной такою была. Ее способность помогала *познать* другим их "
+"собственные силы. И Зертимоном был возложен клинок к ее ногам\"."
 
 #: 60674
 msgid ""
 "\"Upon the Blasted Plains, Zerthimon told Gith there cannot be two skies. In "
 "the wake of his words, came war.\""
 msgstr ""
+"\"На Проклятых Равнинах Гит ответил Зертимон, что быть не может двух небес. "
+"Слова те начали войну...\""
 
 #: 60678
 msgid ""
 "\"Upon the Blasted Plains, the People had achieved victory over their "
 "*illithid* masters. They *knew* freedom.\""
 msgstr ""
+"\"И победил Народ своих хозяев-*иллитидов* на Проклятых Равнинах. *Познал* "
+"он волю\"."
 
 #: 60684
 msgid ""
@@ -521,12 +684,19 @@ msgid ""
 "destroying all *illithids* across the Planes. After the *illithids* had been "
 "exterminated, they would bring war to all other races they encountered.\" "
 msgstr ""
+"\"Еще погаснуть не успели огни зеленые на поле боя, как Гит заговорила о "
+"продолжении войны. И многие, еще исполненные жаждой крови, согласились. Она "
+"же говорила не простой о разгроме *иллитидов*, о полном истреблении их рода "
+"на планах всех. А после истребленья *иллитидов*, они войну продолжат против "
+"каждой расы, которую случится повстречать\"."
 
 #: 60689
 msgid ""
 "\"In Gith's heart, fires raged. She lived in war, and in war, she *knew* "
 "herself. All that her eyes saw, she wanted to conquer.\""
 msgstr ""
+"\"В душе у Гит пылала ярость. Она жила войной, в войне себя *познала*. И "
+"все, что видели ее глаза, она хотела захватить\"."
 
 #: 60698
 msgid ""
@@ -536,6 +706,10 @@ msgid ""
 "Behind his words were many other hearts of the People who were weary of the "
 "war against the *illithid.*\""
 msgstr ""
+"\"А Зертимон заговорил о тех началах, которые противоречат воле Гит. Он "
+"говорил: Народ уже *познал* свободу. Теперь же заново должны себя "
+"*постигнуть*, оправиться от всех потерь, Народом понесенных. И за его слова "
+"стояло множество других сердец Народа, которые устали от войны\"."
 
 #: 60702
 msgid ""
@@ -545,18 +719,25 @@ msgid ""
 "their own. Gith told Zerthimon that they would be under the same sky in this "
 "matter. The words were like bared steel.\""
 msgstr ""
+"\"*Знай*, сердце Гит в согласии не пребывало с сердцем Зертимона в вопросе "
+"этом. Она ответила: продолжится война. И *иллитиды* будут уничтожены, а "
+"плоть их прекратит существованье. Тогда Народ своими сможет назвать "
+"Ненастоящие Миры. Сказала Зертимону Гит, что в этом деле быть под единым "
+"небом им. Слова были подобны обнаженной стали\"."
 
 #: 60709
 msgid ""
 "\"From Zerthimon came the Pronouncement of Two Skies. In the wake of his "
 "words came war.\" "
-msgstr ""
+msgstr "\"И Зертимон изрек Предвестье Двух Небес. Слова те начали войну\"."
 
 #: 60719
 msgid ""
 "You examine the Circle carefully, studying the links and trying new "
 "patterns, but no new Circles reveal themselves."
 msgstr ""
+"Ты тщательно рассматриваешь Круг, изучая соединения и пробуя новые схемы, но "
+"новые Круги не раскрываются."
 
 #: 60722
 msgid ""
@@ -565,11 +746,14 @@ msgid ""
 "Rising. A new circle emerges from the link, and you unlock it, pulling the "
 "plate forth so you can study it."
 msgstr ""
+"Осматривая кольца Второго Круга, ты находишь на пластине странное "
+"соединение, на котором упоминаются усилия народа гит в подготовке восстания. "
+"Из него выступает новый круг, который ты и раскрываешь, выдвигая пластину "
+"так, чтобы можно было рассмотреть ее."
 
 #: 60724 60728
-#, fuzzy
 msgid "Read the symbols..."
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "Прочесть символы..."
 
 #: 60727
 msgid ""
@@ -578,6 +762,10 @@ msgid ""
 "fingers into the sides of the Circle, and unlock a hidden segment, pulling "
 "the plate forth so you can study it."
 msgstr ""
+"Осматривая кольца семи Кругов Зертимона, внезапно ты осознаешь, что все "
+"соединения выполнены по определенной схеме... ты поддеваешь круг пальцами и "
+"открываешь скрытый сегмент, выдвигая пластину так, чтобы можно было "
+"рассмотреть ее."
 
 #: 60732
 msgid ""
@@ -585,6 +773,9 @@ msgid ""
 "built upon many turnings. Many were the People who lived and died under "
 "time's blade while the Rising was shaped.\""
 msgstr ""
+"\"*Знай*, что восстание Народа против *иллитидов* являлось результатом "
+"циклов многих тяжелого труда. Народа множество погибло от времени клинка, "
+"пока готовилось восстанье\"."
 
 #: 60736
 msgid ""
@@ -595,6 +786,11 @@ msgid ""
 "*illithids* were observed. In observing them, their ways of the mind were "
 "*known.*\""
 msgstr ""
+"\"Восстанье создавалось постепенно. Сталь была собрана, чтобы пометить "
+"*иллитидов* плоть. И найден метод был *познанья* передвижений *иллитидов*, "
+"сначала неуверенные и слабый, затем окрепший, как дитя, нашедшее свой голос. "
+"Когда *постигнутыми* были передвиженья *иллитидов*, возможным стало "
+"наблюдение за ними. А в наблюдении за ними ход их мышления *постигнут* был\"."
 
 #: 60740
 msgid ""
@@ -603,6 +799,10 @@ msgid ""
 "to harness their will as weapons. They were taught the scripture of steel, "
 "and most importantly, they were given the *knowing* of freedom.\""
 msgstr ""
+"\"Как только *познан* был ход мыслей *иллитидов*, собралось множество "
+"Народу, и в тайне стали изучать защиты разума пути, и как использовать их "
+"волю в качестве оружия. Учили и Писанье стали, и что было важнее остального, "
+"свободы *пониманье* обрели\"."
 
 #: 60745
 msgid ""
@@ -612,12 +812,18 @@ msgid ""
 "submerging the will, to the *knowing* of seeing itself. All of these things "
 "and more the People built upon. In time, they came to *know* the whole.\""
 msgstr ""
+"\"Те вещи изучались долго. *Познание* бесчисленного множества путей нескорым "
+"было, и тяжесть времени на всех давила. От *знания* отображенья своего в "
+"стальном клинке до *пониманья* погружений в волю и до *самопознанья*. Все "
+"вещи те опорою служили для Народа. И в свое время, они *постигли* их\"."
 
 #: 60748
 msgid ""
 "\"*Know* that a mind divided divides the man. The will and the hand must be "
 "as one. In *knowing* the self, one becomes strong.\""
 msgstr ""
+"\"*Знай*: разум разделенный человека разделяет. И воля, и рука единым целым "
+"быть должны. Лишь *осознав* себя, становишься сильнее\"."
 
 #: 60752
 msgid ""
@@ -626,6 +832,9 @@ msgid ""
 "suffering, the Rising would have never been, and the People would never have "
 "come to *know* themselves.\""
 msgstr ""
+"\"*Знай*: если *понимаешь* ты, что верный путь свершений в твоем сердце, не "
+"предавай его, ведь этот путь к лишениям тебя ведет. И *знай*, что без "
+"страданий не случилось бы Восстанья, не *познал* себя Народ\"."
 
 #: 60756
 msgid ""
@@ -633,6 +842,9 @@ msgid ""
 "unity. When all *know* a single purpose, when all hands are guided by one "
 "will, and all act with the same intent, the Planes themselves may be moved.\""
 msgstr ""
+"\"*Знай*: ничему в Мирах единство не преодолеть. Когда *осознают* единое "
+"стремленье, когда единой воле следует рука, все действуют с намереньем "
+"единым, то могут Планы сдвинутыми быть\"."
 
 #: 60773
 msgid ""
@@ -640,3 +852,6 @@ msgid ""
 "cleaves the body in two. When one has a single purpose, the body is "
 "strengthened. In *knowing* the self, grow strong.\""
 msgstr ""
+"\"Ведь разделенный ум себя не *понимает*. И, будучи разъединенным, надвое "
+"тело рассекает он. Когда имеешь ты цель одну, то это укрепляет тело. И в "
+"*понимании* себя становишься сильней\"."
