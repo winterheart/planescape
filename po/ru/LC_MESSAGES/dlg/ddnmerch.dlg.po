@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-09-04 18:02+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-03-08 22:39+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,19 +21,23 @@ msgid ""
 "of items for your perusal, fresh from the latest berks who've been trying to "
 "loot the quiet ones. Would you like to see them?\""
 msgstr ""
+"Перед тобой скелет, переминающийся с ноги на ногу. Он что-то насвистывает "
+"сквозь зубы. Похоже, он изнывает от скуки. Когда ты подходишь, его поведение "
+"кардинально меняется. \"Добро пожаловать! У меня тут целая гора вещей на "
+"твое рассмотрение, свежачок от последних пней, пытавшихся обчистить тихих. "
+"Хочешь взглянуть?\""
 
 #: 51001
-#, fuzzy
 msgid "\"No. Instead, I'd like you to answer me some questions.\""
-msgstr "\"Привет, Друзилла. Я хотел бы задать тебе несколько вопросов\"."
+msgstr "\"Нет. Вообще-то, я хотел бы задать тебе несколько вопросов\"."
 
 #: 51002
 msgid "\"Yes. Show me what you've got.\""
-msgstr ""
+msgstr "\"Да. Покажи-ка, что тут у тебя\"."
 
 #: 51003
 msgid "\"No. My mistake. Farewell.\""
-msgstr ""
+msgstr "\"Нет. Ошибочка вышла. Прощай\"."
 
 #: 51004
 msgid ""
@@ -44,76 +48,85 @@ msgid ""
 "the transaction and go home, all right? So. You want to see what I have? "
 "Fine. I'll show it to you. Otherwise, leave me alone.\""
 msgstr ""
+"Он вздыхает. \"Слушай, я, конечно, мог бы стоять тут и трепаться до "
+"скончания веков, но, по правде говоря, мне не по душе иметь дело с живыми, "
+"понятно? Я беру у них это барахло до того, как они умрут, и продаю его "
+"другим трупакам, так что если тебе это неинтересно, то мне лучше "
+"сворачиваться и идти домой, понятно? Итак. Хочешь посмотреть, что у меня "
+"есть? Отлично, я все тебе покажу. Если нет - оставь меня в покое\"."
 
 #: 51005
-#, fuzzy
 msgid "\"Forget it, then.\""
 msgstr "\"Тогда забудь об этом\"."
 
 #: 51006
-#, fuzzy
 msgid "\"Show me what you have.\""
-msgstr "\"Чем ты здесь занимаешься?\""
+msgstr "\"Покажи, что тут у тебя\"."
 
 #: 51007
 msgid "\"Oh. You again. What do you want now?\""
-msgstr ""
+msgstr "\"О, снова ты. Что тебе нужно на этот раз?\""
 
 #: 51008
 msgid "\"Are you going to answer any of my questions?\""
-msgstr ""
+msgstr "\"Так ты собираешься отвечать на мои вопросы или нет?\""
 
 #: 51009
 msgid "\"Do you have any new wares to offer?\""
-msgstr ""
+msgstr "\"У тебя есть что-нибудь новое на продажу?\""
 
 #: 51010
 msgid "\"Nothing. My mistake. Farewell.\""
-msgstr ""
+msgstr "\"Ничего. Ошибочка вышла. Прощай\"."
 
 #: 51011
 msgid ""
 "\"No.\" He looks around behind you. \"I'd rather stare at the wall, frankly."
 "\" He looks back at you. \"Are you going to buy something or not?\""
 msgstr ""
+"\"Нет, - он заглядывает тебе за спину. - Если честно, я лучше буду пялиться "
+"в стену, - он снова смотрит на тебя. - Так мы будем что-нибудь покупать или "
+"нет?\""
 
 #: 51012
 msgid "\"I guess I will.\""
-msgstr ""
+msgstr "\"Пожалуй, да\"."
 
 #: 51034
-#, fuzzy
 msgid "\"No, I don't think so.\""
-msgstr "\"Нет, не думаю\"."
+msgstr "\"Нет, я так не думаю\"."
 
 #: 51035
 msgid ""
 "\"Good day, then.\" He continues to whistle tunelessly behind his white, "
 "white teeth."
 msgstr ""
+"\"Тогда счастливо\". Он снова начинает что-то насвистывать сквозь "
+"белоснежные зубы."
 
 #: 51036
-#, fuzzy
 msgid "\"Good day.\""
-msgstr "\"Ничего. Хорошего дня\"."
+msgstr "\"Счастливо\"."
 
 #: 51037
 msgid ""
 "The merchant looks unimpressed, despite the clamor of the area. \"Come to "
 "put me down then, eh? Go ahead. I don't care.\""
 msgstr ""
+"Похоже, торговец спокон, несмотря на гомон вокруг. \"Значит, пришел меня "
+"усыпить? Вперед. Мне все равно\"."
 
 #: 51038
 msgid "\"You really don't care?\""
-msgstr ""
+msgstr "\"Тебе правда все равно?\""
 
 #: 51039
 msgid "\"Let's put that to the test.\""
-msgstr ""
+msgstr "\"Давай это проверим\"."
 
 #: 51040
 msgid "\"Then I'll leave you be. Farewell.\""
-msgstr ""
+msgstr "\"Тогда я оставлю тебя в покое. Прощай\"."
 
 #: 51041
 msgid ""
@@ -121,12 +134,14 @@ msgid ""
 "anything you could possibly do to me. Pain means nothing. All I have now is "
 "consciousness, and I don't value that so highly that I'll fight you for it.\""
 msgstr ""
+"\"Конечно. Много лет назад я погиб ужасной смертью. Меня не волнует ничего "
+"из того, что ты можешь со мной сделать. Боль ничего не значит. Все, что у "
+"меня есть - это сознание, а его я не ценю настолько, чтобы драться с тобой\"."
 
 #: 51042
 msgid "\"Good. Die.\""
-msgstr ""
+msgstr "\"Хорошо. Умри\"."
 
 #: 51043
-#, fuzzy
 msgid "\"Interesting. Farewell, then.\""
-msgstr "\"Интересно. Прощай\"."
+msgstr "\"Как интересно. Что ж, прощай\"."
