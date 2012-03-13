@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmebbeth.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-02-05 04:39+0600\n"
+"PO-Revision-Date: 2012-03-12 01:28+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -118,6 +118,8 @@ msgid ""
 "\"I brought your wash... I think Giscorl was a little heavy on the cleaning "
 "ritual, though.\""
 msgstr ""
+"\"Я принес тебе твое белье... Только, кажется, Дискорл немного "
+"переусердствовал с ритуалами чистки\"."
 
 #: 23170
 msgid "\"Yes, I had some questions for you...\""
@@ -133,7 +135,7 @@ msgstr ""
 
 #: 23173 23231 23629 23642
 msgid "\"Could I rest here?\""
-msgstr "\"Могу ля я здесь отдохнуть?\""
+msgstr "\"Могу ли я здесь отдохнуть?\""
 
 #: 23174
 msgid "\"No, I just came back to check on you. Farewell.\""
@@ -400,11 +402,13 @@ msgid ""
 "\"I found Kossah-Jai. She doesn't have any ink, but another fishwife does... "
 "thing is, I need something to hold the ink in.\""
 msgstr ""
+"\"Я нашел Косса-Джай. У нее не было никаких чернил, но у другой торговки "
+"рыбой они нашлись... Вот только мне нужно что-то, куда можно эти чернила "
+"налить\"."
 
 #: 23236 23635
-#, fuzzy
 msgid "\"Here's that ink you wanted.\""
-msgstr "\"Еще раз - где тот ключ, о котором ты говорил?\""
+msgstr "\"Вот чернила, которые ты хотела\"."
 
 #: 23237
 msgid "\"Are you a witch, Mebbeth?\""
@@ -1284,12 +1288,17 @@ msgid ""
 "She takes the stacks of starched-green rags from you, and she examines them "
 "critically. \"At least they won't tear.\" She sighs. \"Or bend.\""
 msgstr ""
+"Взяв у тебя кипу накрахмаленных зеленных тряпок, она внимательно их "
+"разглядывает. \"По крайней мере, их теперь не порвешь, - она вздыхает. - И не "
+"согнешь\"."
 
 #: 23562
 msgid ""
 "\"What was with that cloth-merchant, Giscorl? His hands were all scarred. "
 "and he seemed... slow.\""
 msgstr ""
+"\"Что случилось с торговцем одеждой, Дискорлом? Его руки все в шрамах, а сам "
+"он какой-то... заторможенный\"."
 
 #: 23563
 msgid ""
@@ -1297,10 +1306,12 @@ msgid ""
 "finger. \"Well, child, sometimes one burns with the Art, and other times, "
 "the Art burns ye.\""
 msgstr ""
+"Меббет все еще поглаживает одежду рукой. \"Иногда, сынок, ты зажигаешь "
+"Искусство, а иногда - Искусство зажигает тебя\"."
 
 #: 23564
 msgid "\"Is that what happened to him?\""
-msgstr ""
+msgstr "\"Это и случилось с ним?\""
 
 #: 23565
 msgid ""
@@ -1310,10 +1321,15 @@ msgid ""
 "half-seers n' midwives who flicker with the Art... them have a harder time "
 "of it.\""
 msgstr ""
+"Меббет щелкает языком. \"Может быть. Есть такие, которые без Искусства жить "
+"не могут, как без воздуха. Гуляют себе в остроконечных шляпах и курят вонючие "
+"трубки... А есть еще захудалые волшебники, и тронутые планами бродяги, и "
+"ловцы удачи, и пророки-самоучки, и повитухи, которые в Искусстве вспыхивают..."
+" Им от него приходится тяжелее всех\"."
 
 #: 23567
 msgid "\"And Giscorl was one of them?\""
-msgstr ""
+msgstr "\"Так, значит, Дискорл был одним из них?\""
 
 #: 23568
 msgid ""
@@ -1322,20 +1338,26 @@ msgid ""
 "rags; they *clunk* as she places them on the floor. \"Aye, now, there's one "
 "last thing I need from ye, child...\""
 msgstr ""
+"Меббет кивает. \"Ага... можно и так сказать. В некотором смысле, нынешний он "
+"мало отличается от того, кем он был. Все такой же одержимый привычками и "
+"ритуалами\". Она бросает тряпки, которые с глухим *стуком* падают на пол. "
+"\"Да, мне нужна еще одна вещь от тебя, сынок...\""
 
 #: 23569
 msgid "\"This better not involve me going back to the market, Mebbeth.\""
-msgstr ""
+msgstr "\"Только не очередной поход на рынок, Меббет\"."
 
 #: 23570
 msgid "\"Of course. What do you need?\""
-msgstr ""
+msgstr "\"Конечно. Что тебе нужно?\""
 
 #: 23571
 msgid ""
 "\"Oh? And iffen it does, child?!\" Mebbeth draws herself up, and she glares "
 "at you. Even at full height, her head barely crests your shoulders. "
 msgstr ""
+"\"Да? А что, если это так, сынок?!\" Меббет встает во весь рост, грозно глядя "
+"на тебя. Но даже полностью выпрямившись, она едва ли достает тебе до плеч."
 
 #: 23572
 msgid ""
@@ -1344,16 +1366,22 @@ msgid ""
 "about everything you needed instead of sending me on the same errand *three* "
 "times.\""
 msgstr ""
+"\"Меббет, это просто пустая трата времени - каждый раз идти на рынок за "
+"каким-то пустяком, особенно когда ты могла бы просто вспомнить все, что тебе "
+"нужно, вместо того, чтобы посылать меня с поручениями *три* раза\"."
 
 #: 23574
 msgid ""
 "\"All's I'm saying is that if you can't keep your head straight about what "
 "you need from the market, I doubt you can teach me much about magic.\""
 msgstr ""
+"\"Если ты даже не можешь удержать в голове то, что тебе нужно взять на рынке, "
+"то я очень сомневаюсь, что ты сможешь научить меня хоть чему-нибудь в магии. "
+"Вот все, что я хотел сказать\"."
 
 #: 23575
 msgid "\"Never mind. What do you need?\""
-msgstr ""
+msgstr "\"Неважно. Что тебе нужно?\""
 
 #: 23577
 msgid ""
@@ -1361,20 +1389,25 @@ msgid ""
 "feelin's on the matter, is it? If so, then leave! I'll tell ye, I won't be a-"
 "wastin' my time tryin' to shine light in that mule-head o' yers!\""
 msgstr ""
+"Меббет фыркает, ее лицо наливается красным, \"Ах вот оно что? Вот что ты об "
+"этом думаешь? Ну тогда проваливай! Я не собираюсь тратить свое время на "
+"просвещение такого тупоголового осла, как ты!\""
 
 #: 23578
 msgid ""
 "\"No, I'll do the errands... just tell me: is there anything else you need "
 "me to pick up while I'm there?\""
 msgstr ""
+"\"Нет, я выполню поручение... Только скажи мне, может быть, тебе нужно будет "
+"принести еще что-нибудь?\""
 
 #: 23580
 msgid "\"All right, all right. I spoke in haste. What do you need?\""
-msgstr ""
+msgstr "\"Ну хорошо, хорошо. Я погорячился. Что тебе нужно?\""
 
 #: 23581
 msgid "\"Fine, I'm leaving. Farewell.\""
-msgstr ""
+msgstr "\"Отлично, я ухожу. Прощай\"."
 
 #: 23583
 msgid ""
@@ -1382,16 +1415,21 @@ msgid ""
 "cookery books. I'll need ye to fetch some from one of the merchants -- "
 "Kossah-Jai, be her name.\""
 msgstr ""
+"\"Только одна вещь. Мне нужно немного чернил, чтобы записать ингридиенты для "
+"одного моего рецепта. Принеси мне их от одной их торговок - Косса-Джай ее "
+"зовут\"."
 
 #: 23584
 msgid ""
 "\"Very well. I'll go see if I can find her, but I had some questions first..."
 "\""
 msgstr ""
+"\"Очень хорошо. Я пойду и поищу ее, но сначала я хочу задать несколько "
+"вопросов...\""
 
 #: 23585
 msgid "\"All right, then... I'm off. Farewell.\""
-msgstr ""
+msgstr "\"Ну хорошо... Я пошел. Прощай\"."
 
 #: 23587
 msgid ""
@@ -1400,22 +1438,30 @@ msgid ""
 "Kossah-Jai in the market square. She's probably the only merchant I "
 "*haven't* spoken to yet."
 msgstr ""
+"Меббет послала меня *еще* с одним проклятым поручением... снова на рынок, "
+"достать чернил. Она сказала переговорить на рыночной площади с женщиной по "
+"имени Косса-Джай. Кажется, это единственная торговка, с которой я еще не "
+"*разговаривал*."
 
 #: 23589
 msgid ""
 "\"Can't ye get a cup, or a bowl, or a tankard or something from one of the "
 "other merchants?\""
 msgstr ""
+"\"А ты не можешь взять какую-нибудь чашку, кубок или кружку у другого "
+"торговца?\""
 
 #: 23590
 msgid ""
 "\"I could. I'll ask one of the other merchants, but I had some other "
 "questions for you first...\""
 msgstr ""
+"\"Могу. Я поспрашиваю других торговцев, но сначала я хочу задать тебе "
+"несколько вопросов...\""
 
 #: 23592
 msgid "\"I suppose I could... oh, well, I'm off. Farewell.\""
-msgstr ""
+msgstr "\"Думаю, что могу... Уф-ф, я пошел. Прощай\"."
 
 #: 23595
 msgid ""
@@ -1424,45 +1470,54 @@ msgid ""
 "asked. Now, I ask ye again: after all ye've seen, do ye still want to learn "
 "the art?\""
 msgstr ""
+"Меббет берет у тебя кружку с чернилами и обнюхивает их. \"Настоящие чернила, "
+"свежие... - она кивает тебе. - Ты хорошо поработал, сынок. Принес все, что я "
+"просила. А теперь я спрошу тебя еще раз: после всего, что ты видел, ты все "
+"еще хочешь изучать искусство?\""
 
 #: 23596
 msgid "\"After all I've seen? What do you mean?\""
-msgstr ""
+msgstr "\"После всего, что я видел? Что ты имеешь в виду?\""
 
 #: 23597
-#, fuzzy
 msgid "\"Yes, I do.\""
-msgstr "\"Да\"."
+msgstr "\"Да, хочу\"."
 
 #: 23598 23600
 msgid ""
 "\"Yes. After all, the guiding goal of your errands was to test my "
 "persistence, was it not?\""
 msgstr ""
+"\"Да. В конце концов, основной целью в твоих поручениях была проверка моей "
+"настойчивости, не так ли?\""
 
 #: 23601
 msgid "\"No, I don't think the Art is for me. Farewell, Mebbeth.\""
-msgstr ""
+msgstr "\"Нет, я не думаю, что Искусство для меня. Прощай, Меббет\"."
 
 #: 23604
 msgid "Mebbeth smiles, then nods. \"Yes... mayhap, child, mayhap.\""
-msgstr ""
+msgstr "Меббет улыбается, кивая. \"Да... может быть, сынок, может быть\"."
 
 #: 23605
 msgid ""
 "\"And that's not all; you knew who I had to see to accomplish each errand, "
 "didn't you?\""
 msgstr ""
+"\"Но это еще не все. Ты знала, с кем мне доведется встретиться в каждый раз, "
+"не так ли?\""
 
 #: 23607
 msgid "\"Very well. I still want to learn the Art.\""
-msgstr ""
+msgstr "\"Хорошо. Я все еще хочу изучать Искусство\"."
 
 #: 23609
 msgid ""
 "Mebbeth nods again, slower this time. \"Mayhap, child, mayhap... iffen so, "
 "what did yer senses tell ye about them?\""
 msgstr ""
+"Меббет кивает снова, на этот раз медленнее. \"Может быть, сынок, может быть..."
+" Если это и так, что ты осознал от них?\""
 
 #: 23611
 msgid ""
@@ -1471,6 +1526,11 @@ msgid ""
 "ritual is ignored, Meir'am taught me that no matter how much I think I know, "
 "there is still much I can learn from another's eyes.\""
 msgstr ""
+"\"Скорбящий-по-деревьям показал мне, что мои убеждения могут влиять на "
+"окружающий мир. Дискорл продемонстрировал мне, что ритуал - это бесполезное "
+"занятие, если результат ритуала не нужен. Меирам научила меня тому, что "
+"неважно, сколько я знаю, потому что вокруг есть много всего, что можно "
+"постичь, просто взглянув на это глазами другого\"."
 
 #: 23612
 msgid ""
@@ -1479,26 +1539,34 @@ msgid ""
 "sorcerer one day, ye will. Ye have the knowin' of it, yet... ye've come to "
 "Ol' Mebbeth for help, ye have. What could a midwife teach such a one?\""
 msgstr ""
+"Меббет умолкает на секунду, после чего подходит к тебе и касается щеки. \"Ох, "
+"сынок... - вздыхает она. - Однажды ты станешь премудрым чародеем. И ты знаешь "
+"об этом... но все же ты пришел к старой Меббет за помощью. Чему же старая "
+"повитуха сможет тебя обучить?\""
 
 #: 23613
 msgid "\"Much, Mebbeth. I want to learn all you have to teach.\""
-msgstr ""
+msgstr "\"Многому, Меббет. Я хочу, чтобы ты меня обучала\"."
 
 #: 23614
 msgid "\"From all ye've seen... have ye learned anythin'?\""
-msgstr ""
+msgstr "\"От всего увиденного... понял ли ты что-нибудь?\""
 
 #: 23615
 msgid ""
 "\"I learned I must be willing to put up with a lot of running around if I "
 "want to get anything out of you.\""
 msgstr ""
+"\"Я понял, что должен сильно постараться, если хочу хоть что-то получить от "
+"тебя\"."
 
 #: 23616
 msgid ""
 "\"Well, some things. Not anything I could really comment on... except that I "
 "want to learn the Art.\""
 msgstr ""
+"\"Ну, некоторые вещи. Не обо всем я могу рассказать... Кроме, разве что, "
+"того, что я хочу учиться Искусству\"."
 
 #: 23619
 msgid ""
@@ -1506,6 +1574,9 @@ msgid ""
 "Many errands will ye run in its name, some seemin' to have no sense about "
 "them. Knowin' that, do ye still want to learn?\""
 msgstr ""
+"Меббет смеется. \"Так и с Искусством, сынок, так и с Искусством. Тебе "
+"придется выполнять много заданий ради него, и некоторые из них даже могут не "
+"иметь смысла. Зная это, ты все еще хочешь учиться?\""
 
 #: 23621 23648
 msgid "\"Yes.\""
@@ -1543,6 +1614,11 @@ msgid ""
 "the Art demands ye have a spell book or its like a-fore ye ken cast spells. "
 "Ken ye read?\""
 msgstr ""
+"\"Ну тогда приступим... - Меббет делает паузу. - Ну, перво-наперво: простых "
+"способностей к Искусству недостаточно. Тебе нужны средства для их "
+"фокусирования: это 'заклинания'. Заклинания обычно хранятся в книге. Так что "
+"для Искусства тебе понадобится книга заклинаний или что-то, на чем ты сможешь "
+"создавать заклинания. Ты читать-то умеешь?\""
 
 #: 23647
 msgid "\"I don't know.\""
@@ -1553,11 +1629,12 @@ msgid ""
 "\"Then let's test it, ken ye read this?\" Mebbeth draws forth a small "
 "tattered card... it looks like a recipe. "
 msgstr ""
+"\"Тогда проверим это. Можешь это прочитать?\" - Меббет достает какую-то "
+"измятую карточку... Похоже на рецепт."
 
 #: 23651 23652
-#, fuzzy
 msgid "Examine the recipe."
-msgstr "Осмотреть зубы."
+msgstr "Осмотреть рецепт."
 
 #: 23654
 msgid ""
@@ -2007,7 +2084,7 @@ msgstr ""
 
 #: 23769
 msgid "\"You aren't dead, yet, 'Mebbeth?'\""
-msgstr ""
+msgstr "\"Ты жива еще, 'Меббет'?\""
 
 #: 23770 23772 23774
 msgid "\"Mebbeth... did you *know* you were Ravel?\""
@@ -2213,4 +2290,5 @@ msgstr ""
 #: 66279
 msgid "\"Thanks again...\""
 msgstr ""
+
 
