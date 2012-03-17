@@ -5557,6 +5557,7 @@
                 </langSet>
             </termEntry>
             <termEntry id="azamat_h._hackimov-303">
+        <descrip type="definition">Легендарный пират-гит из старого сеттинга Spelljammer. В современной Planescape мифологии - предатель гитов, выдавший Зертимона иллитидам ради временной выгоды, закончил тем, что был поглощен своими хозяевами. Метафора "Око Вилькара" означает жадность коварство и недальновидность. Око Вилькара также - базовое заклинание некромантии.</descrip>
                 <descrip type="subjectField">персонажи</descrip>
                 <langSet xml:lang="en">
                     <ntig>
@@ -8332,6 +8333,128 @@
           <ntig>
             <termGrp>
               <term>корур</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-445">
+        <descrip type="definition">Какая-то область, известная гитцераям.</descrip>
+        <descrip type="subjectField">география планов</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>haldar</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>хальдар</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-446">
+        <descrip type="definition">Идиома, упоминаемая гитцераями.</descrip>
+        <descrip type="subjectField">общие термины</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>mule of penansk</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>пенанский мул</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-447">
+        <descrip type="definition">Гитцерай, упоминаемый в метафорах как гостеприимный и доброжелательный.</descrip>
+        <descrip type="subjectField">общие термины</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>toryg</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>ториг</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-448">
+        <descrip type="definition">Гитцерай, упоминаемый в метафорах как развратный и порочный.</descrip>
+        <descrip type="subjectField">общие термины</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>selqant</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>селкант</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-449">
+        <descrip type="definition">Предводители гитцераев.</descrip>
+        <descrip type="subjectField">общие термины</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>anarch</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>вождь</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>anarchs</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>вожди</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-450">
+        <descrip type="definition">Раса поработителей разумов. Бывшие хозяева гитов.</descrip>
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en_US">
+          <ntig>
+            <termGrp>
+              <term>illithids</term>
+            </termGrp>
+          </ntig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <ntig>
+            <termGrp>
+              <term>иллитиды</term>
             </termGrp>
           </ntig>
         </langSet>
