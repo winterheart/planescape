@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dhguard.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:49+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-03-22 22:50+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,6 +19,9 @@ msgid ""
 "stairs beside him. You dimly recall that his ornate armor marks him as an "
 "officer of the Harmonium, one who provides law enforcement for the city."
 msgstr ""
+"Этот массивный человек в красных доспехах стоит на месте, очевидно, охраняя "
+"лестницу за собой. Ты смутно припоминаешь, что его украшенная броня "
+"указывает на офицера Гармониума, фракции, поддерживающей в городе порядок."
 
 #: 27898 27954 27957
 msgid "\"Greetings...\""
@@ -31,6 +34,8 @@ msgstr "Оставить его в покое."
 #: 27923
 msgid "The man casually motions back towards the street. \"Move along, sir.\""
 msgstr ""
+"Человек небрежным жестом указывает в сторону улицы. \"Не задерживайтесь, сэр"
+"\"."
 
 #: 27924 27928
 msgid "\"What are you doing here?\""
@@ -46,51 +51,48 @@ msgstr "Уйти."
 
 #: 27927
 msgid "\"No use asking here, sir. Move along.\""
-msgstr ""
+msgstr "\"Здесь не место для вопросов, сэр. Проходите\"."
 
 #: 27929
-#, fuzzy
 msgid "\"I just need a few answers...\""
-msgstr "\"Просто несколько вопросов...\""
+msgstr "\"Мне нужна всего-навсего пара ответов...\""
 
 #: 27930
-#, fuzzy
 msgid "\"I need your help...\""
-msgstr "\"Потому что мне нужна твоя помощь\"."
+msgstr "\"Мне нужна помощь...\""
 
 #: 27931 27936 27944 27948
 msgid "\"And what if I feel like staying right here?\""
-msgstr ""
+msgstr "\"А что, если мне хочется здесь стоять?\""
 
 #: 27933
 msgid ""
 "He shakes his head. \"Speak to a citizen, then. I've a job to do here... and "
 "I won't neglect it to speak with you or anyone else, sir. Now move along.\""
 msgstr ""
+"Он качает головой. \"Тогда поговорите с горожанами. У меня здесь работа... и "
+"я не стану пренебрегать ею ради разговора с вами или кем-нибудь другим, сэр. "
+"А теперь уходите\"."
 
 #: 27934 27943 27947 27951
-#, fuzzy
 msgid "\"Can you tell me what you're doing here, at least?\""
-msgstr "\"Можешь мне рассказать о здешних интересных местах?\""
+msgstr "\"Можешь, по крайней мере, сказать, что ты здесь делаешь?\""
 
 #: 27935
-#, fuzzy
 msgid "\"But I need your help...\""
-msgstr "\"Потому что мне нужна твоя помощь\"."
+msgstr "\"Но мне нужна твоя помощь...\""
 
 #: 27938
 msgid "He hefts his weapon.  \"You need help? Has a crime been committed?\""
-msgstr ""
+msgstr "Он поднимает оружие. \"Нужна помощь? Совершено преступление?\""
 
 #: 27939 27940
-#, fuzzy
 msgid "\"Well... no. I just had some questions.\""
-msgstr "\"Нет... Просто у меня есть некоторые вопросы...\""
+msgstr "\"В общем... нет. Просто у меня есть парочка вопросов\"."
 
 #: 27941
-#, fuzzy
 msgid "\"No, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай\"."
+msgstr "\"Нет, не бери в голову. Прощай\"."
 
 #: 27942
 msgid ""
@@ -99,6 +101,10 @@ msgid ""
 "suspiciously down the stairway. \"But this is neither, so... just move "
 "along, sir. Now.\""
 msgstr ""
+"Он вздыхает. \"Я понимаю, что у вас есть вопросы, и я буду рад вам помочь, "
+"но не здесь и не сейчас. Сейчас... - он останавливается, чтобы с подозрением "
+"глянуть на лестницу, - не время и не место, так что... просто уходите, сэр. "
+"Сейчас же\"."
 
 #: 27946
 msgid ""
@@ -107,6 +113,10 @@ msgid ""
 "not getting them done while I talk with some addle-coved sod who's looking "
 "for so-and-so or wants directions to who-knows-where. Move along.\""
 msgstr ""
+"\"Слушай, пень, у меня... - он прерывается, чтобы с подозрением взглянуть на "
+"лестницу, затем переключает внимание на тебя. - У меня есть дела, и мне их "
+"не закончить, пока я болтаю с каким бестолковым бедолагой, который ищет то-"
+"то или хочет попасть туда-то. Проходите\"."
 
 #: 27950
 msgid ""
@@ -114,6 +124,9 @@ msgid ""
 "here, but not to pester the law. I'd suggest you leave, before there's "
 "any... trouble. Farewell.\""
 msgstr ""
+"Он пожимает плечами, от движения его броня брязкает. \"Вы вольны оставаться "
+"тут, но не за тем, чтобы докучать закону. Советую вам уйти, пока не "
+"приключилось каких-нибудь... неприятностей. Прощайте\"."
 
 #: 27953
 msgid ""
@@ -121,43 +134,49 @@ msgid ""
 "you may have encountered this particular man before, but with the great "
 "helms and identical Harmonium armor it's difficult to tell one from another."
 msgstr ""
+"Этот офицер Гармониума, похоже, охраняет лестницу за ним. Тебе кажется, что "
+"ты уже с ним пересекался, но из-за огромного шлема и одинаковых доспехов "
+"Гармониума их трудно различать между собой."
 
 #: 27955
-#, fuzzy
 msgid "Leave the officer alone."
-msgstr "Оставить фигуру в покое."
+msgstr "Оставить офицера в покое."
 
 #: 27956
 msgid ""
 "You recognize this man as a member of the Harmonium, a faction that's been "
 "out for you lately. He doesn't seem to have noticed you, yet."
 msgstr ""
+"Ты узнаешь в этом человеке члена Гармониума, фракции, которая с недавних пор "
+"пытается тебя схватить. Похоже, он еще тебя не заметил."
 
 #: 27958
-#, fuzzy
 msgid "Leave before he sees you."
-msgstr "Уйти до того, как дух обратит на тебя внимание."
+msgstr "Уйти до того, он обратит на тебя внимание."
 
 #: 27959
 msgid ""
 "You see the man's eyes widen through the slits in his helm. \"It's him!\" He "
 "prepares to charge you, bellowing: \"Get this man, alive or dead!\""
 msgstr ""
+"Сквозь щели в шлеме ты видишь, как его глаза расширяются. \"Это он!\" Он "
+"готовится к нападению, рыча: \"Взять его, живым или мертвым!\""
 
 #: 27960
-#, fuzzy
 msgid "Defend yourself."
-msgstr "Приготовиться к самозащите."
+msgstr "Защищаться."
 
 #: 27961
 msgid ""
 "He points towards the stairs beside him, which look to descend straight "
 "beneath the city. \"Guarding this stairway, sir.\""
 msgstr ""
+"Он указывает на лестницу возле него, которая, по всей видимости, спускается "
+"прямо под город. \"Охраняю лестницу, сэр\"."
 
 #: 27962
 msgid "\"Why? Where's it lead?\""
-msgstr ""
+msgstr "\"Зачем? Куда она ведет?\""
 
 #: 27963 27967 27971
 msgid "\"I had some other questions...\""
@@ -172,10 +191,12 @@ msgid ""
 "\"To the Realm Below.\" Seeing your expression, he continues. \"UnderSigil, "
 "you may have heard it called.\""
 msgstr ""
+"\"В Подземное Царство, - видя выражение твоего лица, он продолжает. - "
+"Подсигил, возможно, вы слышали такое название\"."
 
 #: 27966
 msgid "\"Any reason you're keeping people from entering the place?\""
-msgstr ""
+msgstr "\"По каким причинам ты никого туда не пускаешь?\""
 
 #: 27969
 msgid ""
@@ -183,10 +204,12 @@ msgid ""
 "\"I'm watching for anything that comes *out,* sir. Things that don't "
 "*belong* in Sigil proper.\""
 msgstr ""
+"Он тихо смеется, пластины его брони грохочут от этого. \"Я слежу за тем, что "
+"выходит *оттуда*, сэр. Твари, которым не *место* в Сигиле\"."
 
 #: 27970
 msgid "\"What sort of things are down there?\""
-msgstr ""
+msgstr "\"А что там внизу творится?\""
 
 #: 27973
 msgid ""
@@ -194,9 +217,11 @@ msgid ""
 "\"You're considering going down there, aren't you? Well, be most cautious. "
 "Rumors abound of the worst sorts of creatures living Down Below.\""
 msgstr ""
+"\"Не беспокойтесь на этот счет, - он бросает на тебя взгляд любопытства. - "
+"Вы что, собираетесь туда спуститься? Что ж, будьте предельно осторожны. "
+"Ходят слухи о самых ужасных тварях, обитающих внизу\"."
 
 #: 27974
-#, fuzzy
 msgid "\"Thanks. I had some other questions...\""
 msgstr "\"Спасибо. У меня есть другие вопросы...\""
 
