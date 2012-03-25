@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dlwgm.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:19+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-03-25 19:08+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,6 +18,8 @@ msgid ""
 "You see a young man with pale yellow skin. As you approach him you notice "
 "that he has a rash that covers the exposed areas of his skin. "
 msgstr ""
+"Перед тобой юноша с бледно-желтой кожей. Подойдя, ты замечаешь, что открытые "
+"участки его тела покрыты мелкой сыпью."
 
 #: 65030 65041 65069
 msgid "\"Greetings.\""
@@ -31,16 +33,15 @@ msgstr "Игнорировать его."
 msgid ""
 "He turns tired looking eyes toward you and then frowns. \"What do you want, "
 "berk?\""
-msgstr ""
+msgstr "Он обращает на тебя усталый взгляд и хмурится. \"Чего тебе, пень?\""
 
 #: 65033 65044 65072
 msgid "\"I have some questions...\""
 msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 65034
-#, fuzzy
 msgid "\"Nothing, never mind.\""
-msgstr "\"Ничего, неважно. Прощай\"."
+msgstr "\"Ничего, это неважно\"."
 
 #: 65035
 msgid ""
@@ -48,11 +49,12 @@ msgid ""
 "beat right now. I don't have the time to talk to you...\" He starts to turn "
 "away. "
 msgstr ""
+"Его лицо принимает изможденный вид. \"Извини, я очень устал. У меня нет "
+"времени на болтовню с тобой...\" Он начинает отворачиваться."
 
 #: 65036
-#, fuzzy
 msgid "\"It will take just a moment of your time...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Это займет не так много твоего времени...\""
 
 #: 65037
 msgid "\"Farewell then.\""
@@ -63,6 +65,8 @@ msgid ""
 "\"I don't have a moment to give you. Please ask someone else...\" He turns "
 "away."
 msgstr ""
+"\"У меня не найдется для тебя даже минуты. Пожалуйста, спроси кого-нибудь "
+"другого...\" Он начинает отворачиваться."
 
 #: 65039
 msgid "Leave."
@@ -73,39 +77,40 @@ msgid ""
 "You see a man with pale yellow skin and a persistent cough. He glances at "
 "you as you approach."
 msgstr ""
+"Перед тобой мужчина с бледно-желтой кожей, одолеваемый непрекращающимся "
+"кашлем. Когда ты подходишь, он бросает на тебя взгляд."
 
 #: 65043
 msgid ""
 "He smiles at you. \"Yes...\" He coughs a bit but it soon passes. \"You want "
 "something from me, I can tell.\""
 msgstr ""
+"Он улыбается тебе. \"Да... - он начинает кашлять, но это быстро проходит. - "
+"Если чего хочешь, я могу подсказать\"."
 
 #: 65045
-#, fuzzy
 msgid "\"No, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай\"."
+msgstr "\"Нет, не бери в голову. Прощай\"."
 
 #: 65046
 msgid "\"Oh... Alright, ask away.\""
-msgstr ""
+msgstr "\"О... Ладно, спрашивай\"."
 
 #: 65047
-#, fuzzy
 msgid "\"Are you alright?\""
-msgstr "\"Ты уверен?\""
+msgstr "\"Ты в порядке?\""
 
 #: 65048
 msgid "\"Why do you have yellow skin and the cough?\""
-msgstr ""
+msgstr "\"От чего у тебя желтая кожа и этот кашель?\""
 
 #: 65049 65075
-#, fuzzy
 msgid "\"Can you tell me about this ward?\""
-msgstr "\"Что ты можешь сказать об Улье?\""
+msgstr "\"Что ты можешь сказать об этом районе?\""
 
 #: 65050
 msgid "\"I'm missing a skull. I'm trying to find who took him.\""
-msgstr ""
+msgstr "\"У меня пропал череп. Я пытаюсь найти того, кто его забрал\"."
 
 #: 65051 65054 65057 65061 65064 65080
 msgid "\"I must be going, farewell.\""
@@ -117,11 +122,12 @@ msgid ""
 "ward... Thank you for the courtesy of asking, but I'm sure you want "
 "something else.\""
 msgstr ""
+"Он улыбается. \"Не совсем, но я здоровее большинства бедолаг в этом "
+"районе... Спасибо за учтивый вопрос, но я уверен, что ты здесь не за этим\"."
 
 #: 65053
-#, fuzzy
 msgid "\"Yes. I have some questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"Да. У меня еще вопросы...\""
 
 #: 65055
 msgid ""
@@ -130,11 +136,14 @@ msgid ""
 "turn color on them and get a rash as well.\" He pauses and then shrugs. "
 "\"Nothing anyone can do about it, it's a fact of life here.\""
 msgstr ""
+"\"Этот район полон дыма и испарений от фабрик и тому подобных штук. Все это "
+"загрязняет воздух и приводит к кашлю. У большинства здешних меняется цвет "
+"кожи и появляется сыпь, - он умолкает и пожимает плечами. - Никто ничего с "
+"этим не может поделать - такова здешняя правда жизни\"."
 
 #: 65056
-#, fuzzy
 msgid "\"I see. I have some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Понятно. У меня еще вопросы...\""
 
 #: 65058
 msgid ""
@@ -142,15 +151,17 @@ msgid ""
 "heaven and it isn't hell. There's better places to aspire to and worse ones "
 "to avoid.\""
 msgstr ""
+"Он пожимает плечами и жестом показывает вокруг себя. \"Оглянись - и все сам "
+"увидишь, рубака. Это не рай, но и не ад. Существуют места и получше, к "
+"которым стоит стремиться, и похуже, которых следует избегать\"."
 
 #: 65059
 msgid "\"I've been to the hive. That must be the place to avoid.\""
-msgstr ""
+msgstr "\"Я бывал в Улье. Вот таких мест следует избегать\"."
 
 #: 65060 65066 65079
-#, fuzzy
 msgid "\"I see. I have some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня еще несколько вопросов...\""
 
 #: 65062
 msgid ""
@@ -158,17 +169,21 @@ msgid ""
 "The hive isn't hell but it's just a stones throw away. Was there something "
 "else you needed cutter?\""
 msgstr ""
+"Он начинает смеяться, но останавливается из-за угрозы приступа кашля. "
+"\"Ага... Улей - не ад, но чертовски близок к этому. Ты еще чего-то хотел, "
+"рубака?\""
 
 #: 65063
-#, fuzzy
 msgid "\"I have some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня еще несколько вопросов...\""
 
 #: 65065
 msgid ""
 "\"Not a clue in the world. If you were in the hive I'd be partial to blaming "
 "the dusties... Here, I don't know who would want such a thing.\" "
 msgstr ""
+"\"Понятия не имею. Если бы это было в Улье, я был бы склонен винить в этом "
+"Мертвяков... А здесь я даже не знаю, кому бы это могло понадобиться\"."
 
 #: 65067 65084
 msgid "\"Thank you, farewell.\""
@@ -179,23 +194,24 @@ msgid ""
 "You see a middle-aged man with yellow skin. He glances at you as you "
 "approach and sighs. He gives you a bored look."
 msgstr ""
+"Перед тобой мужчина среднего возраста с желтой кожей. Когда ты подходишь, он "
+"бросает на тебя скучающий взгляд и вздыхает."
 
 #: 65071
 msgid "\"I don't know what you want, but I don't want to give it. Go away.\" "
-msgstr ""
+msgstr "\"Не знаю, чего ты там хочешь, но я тебе этого не дам. Уходи\"."
 
 #: 65073
-#, fuzzy
 msgid "\"Very well, farewell.\""
-msgstr "\"Ух, прощай...\""
+msgstr "\"Хорошо, прощай...\""
 
 #: 65074
 msgid "\"Really? Well if that's all you want...\""
-msgstr ""
+msgstr "\"Правда? Ну, раз ты за этим...\""
 
 #: 65076
 msgid "\"Someone stole a skull that I had. I'm trying to find him.\""
-msgstr ""
+msgstr "\"Кто-то украл у меня череп. Я пытаюсь его найти\"."
 
 #: 65077
 msgid "\"Never mind, farewell.\""
@@ -206,6 +222,8 @@ msgid ""
 "\"Yeah, this is the Lower Ward. Common folk live here. Not much else to say "
 "about it.\""
 msgstr ""
+"\"Ага, это Нижний район. Здесь живет простой народ. Больше и рассказать-то "
+"не о чем\"."
 
 #: 65081
 msgid ""
@@ -213,22 +231,29 @@ msgid ""
 "anyone, including yourself, want with a skull\" He stares at you for a "
 "moment and then shrugs. \"Never mind, none of my business.\""
 msgstr ""
+"Он фыркает и хмуро смотрит на тебя. \"Череп? Зачем, во имя Баатора, кому-то, "
+"включая тебя, может понадобиться череп? - он смотрит на тебя пару секунд, "
+"затем пожимает плечами. - Не бери в голову, это не мое дело\"."
 
 #: 65082
 msgid "\"So, do you know who might have taken him?\""
-msgstr ""
+msgstr "\"Так ты знаешь, кто бы мог его взять?\""
 
 #: 65083
 msgid ""
 "He shakes his head slowly. \"No, I don't. And the more I think about it the "
 "more certain I am that I don't want to know...\""
 msgstr ""
+"Он медленно качает головой. \"Нет. И чем больше я об этом думаю, тем больше "
+"уверен, что и знать не хочу...\""
 
 #: 65085
 msgid ""
 "As you approach this man you realize that you have spoken with him once "
 "before. \"Hello again, cutter. You want something?\""
 msgstr ""
+"Подойдя к этому мужчине, ты осознаешь, что уже разговаривал с ним раньше. "
+"\"Привет, рубака. Чего-то хочешь?\""
 
 #: 65086
 msgid "\"No, farewell.\""
