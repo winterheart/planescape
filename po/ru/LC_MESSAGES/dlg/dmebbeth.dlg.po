@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmebbeth.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-03-25 06:28+0600\n"
+"PO-Revision-Date: 2012-03-28 01:11+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -22,6 +22,10 @@ msgid ""
 "which are tied to her belt by their stalks. The herbs make a strange "
 "*swsshhh* when she moves, like a broom."
 msgstr ""
+"Эта коренастая старушка словно полностью выцвела - все, начиная с волос и "
+"заканчивая платком и платьем, имеет оттенок серого. Унылую картину разбавляют "
+"только странные травы, привязанные за стебли к ее поясу. Когда она двигается, "
+"эти растения издают странный *шелест*, словно ими что-то подметают."
 
 #: 1802
 msgid "\"Greetings.\""
@@ -75,24 +79,26 @@ msgid ""
 "gray, and her eyes are like chips of granite. She frowns when she sees you. "
 "\"And who might ye be, hmmmn?\""
 msgstr ""
+"Старуха поворачивается и молча смотрит на тебя... И ты замечаешь, что серый "
+"цвет ее одежды присутствует и в ее облике: волосы пепельно-серые, а глаза "
+"похожи на кусочки гранита. Разглядев тебя как следует, она хмурится. \"И кем "
+"же ты будешь, ммм?\""
 
 #: 23161
 msgid "\"I am a traveler.\""
-msgstr ""
+msgstr "\"Я странник\"."
 
 #: 23162
 msgid "\"I don't really know who I am.\""
-msgstr ""
+msgstr "\"Я не знаю, кто я на самом деле\"."
 
 #: 23163 23164
-#, fuzzy
 msgid "Lie: \"The name's Adahn. Who are you?\""
-msgstr "Ложь: \"Да. А ты?\""
+msgstr "Ложь: \"Меня зовут Адан. А кто ты?\""
 
 #: 23165 23188 23191
-#, fuzzy
 msgid "\"Sorry to disturb you. Farewell.\""
-msgstr "\"Извини за беспокойство. Прощай.\""
+msgstr "\"Извини за беспокойство. Прощай\"."
 
 #: 23166
 msgid ""
@@ -140,28 +146,27 @@ msgstr "\"Могу ли я здесь отдохнуть?\""
 
 #: 23174
 msgid "\"No, I just came back to check on you. Farewell.\""
-msgstr ""
+msgstr "\"Нет, просто пришел проведать тебя. Прощай\"."
 
 #: 23175
 msgid "\"Is that so? An' where have ye traveled *from* then?\""
-msgstr ""
+msgstr "\"Вот оно как? *Откуда* и куда же ты тогда странствуешь?\""
 
 #: 23176
 msgid "\"To death's kingdom and back, I think.\""
-msgstr ""
+msgstr "\"Из владений смерти и обратно, похоже\"."
 
 #: 23177
 msgid "\"From the Mortuary through the Hive to here.\""
-msgstr ""
+msgstr "\"Из Морга через весь Улей прямо сюда\"."
 
 #: 23178
 msgid "\"Here and about... a number of places, really.\""
-msgstr ""
+msgstr "\"То туда, то сюда... во многие места, на самом деле\"."
 
 #: 23179
-#, fuzzy
 msgid "\"It is of no importance. Farewell.\""
-msgstr "\"Нет, это не важно. Прощай\"."
+msgstr "\"Это не имеет значения. Прощай\"."
 
 #: 23180
 msgid ""
@@ -169,14 +174,15 @@ msgid ""
 "her heart. \"'Ware what ye say, child -- and pray one of the Dead Powers "
 "don't take offense at yer words.\""
 msgstr ""
+"Старуха сплевывает... еще раз... а потом еще, после чего делает полукруг над "
+"своим сердцем. \"Следи за своим языком, сынок. И молись, что ни одна Сила "
+"Смерти не сочла это за оскорбление\"."
 
 #: 23181 23187
-#, fuzzy
 msgid "\"I... see. Who are you?\""
-msgstr "\"Чт?.. Ты кто?\""
+msgstr "\"Понял... Кто ты?\""
 
 #: 23182
-#, fuzzy
 msgid "\"I'll keep that in mind. Farewell.\""
 msgstr "\"Я запомню это. Прощай\"."
 
@@ -187,15 +193,17 @@ msgid ""
 "meaning.\" The woman's features suddenly go blank, and her eyes roll to the "
 "back of her head. "
 msgstr ""
+"\"Ха! Бледнолицые из Морга, только и делают, что следят за тем, чтобы трупы "
+"были на своих местах! Ха! Мертвяки и дураки - два слова, а смысл тот же\". "
+"Внезапно, закатив глаза, старуха бледнеет."
 
 #: 23184
 msgid "\"Are you all right?\""
 msgstr "\"С тобой все в порядке?\""
 
 #: 23185
-#, fuzzy
 msgid "\"Uh... sorry to disturb you. Farewell.\""
-msgstr "\"Извини, что отвлек. Прощай\"."
+msgstr "\"Э-э-э... Извини за беспокойство. Прощай\"."
 
 #: 23186
 msgid ""
@@ -204,12 +212,18 @@ msgid ""
 "\"Dusties! No sense know-nothings!\" She points her finger at you. \"Ye run "
 "outta this life, child, there's little or no place ta go.\""
 msgstr ""
+"Старуха начинает притворно бормотать. \"Я Мертвяк. Я хочу умереть, потому что "
+"это ненастоящая жизнь, - моргнув, она фыркает. - Мертвяки. Ничерта не "
+"знают!\" Она указывает на тебя пальцем. \"Беги от такой жизни, сынок, тут "
+"почти что некуда пойти\"."
 
 #: 23189
 msgid ""
 "\"Ahhh...\" She nods to herself. \"Yet in all yer wandering, ye've decided "
 "to come to my door, have ye?\" She snorts. \"Blessed, am I.\""
 msgstr ""
+"\"А-а-а... - кивает она. - Бродил туда-сюда, и вот решил постучаться в мою "
+"дверь, так? Вот ведь счастья привалило\"."
 
 #: 23190
 msgid "\"Who are you?\""
@@ -221,10 +235,12 @@ msgid ""
 "\"Hard ta piece together the man beneath all that tracery and scrawling "
 "scars, is it?\""
 msgstr ""
+"\"Так ты не знаешь, кто ты, сынок? - она хихикает указывая на твою грудь. - "
+"Трудно оставаться человеком под покровом всех этих шрамов и ран, верно?\""
 
 #: 23193
 msgid "\"Maybe... who are you?\""
-msgstr ""
+msgstr "\"Может быть... кто ты такая?\""
 
 #: 23194 23293 23297 23301 23305 23425
 msgid "\"I must take my leave. Farewell.\""
@@ -236,10 +252,13 @@ msgid ""
 "then, the midwife of the Square? Have ye not now?\" She narrows her eyes, "
 "and her voice drops. \"Well, now ye have, fer *I* be Mebbeth.\""
 msgstr ""
+"Лукаво улыбнувшись, она удивленно поднимает брови. \"Разве ты не слыхал о "
+"старой Меббет, повитухе с площади? Еще не слыхал? - она хитро щурится, "
+"переходя на шепот. - \"Ну так теперь услышишь, потому что я и *есть* Меббет\"."
 
 #: 23196
 msgid "\"You're a midwife? What do you do?\""
-msgstr ""
+msgstr "\"Ты повитуха? А чем ты занимаешься?\""
 
 #: 23197
 msgid ""
@@ -248,15 +267,17 @@ msgid ""
 "such.\" She squints at you, studying your scars. \"Be needin' a cure or "
 "three, do ye then?\""
 msgstr ""
+"\"Сращиваю кости правильно, лечу кашель, вытаскиваю на свет орущих упрямых "
+"малышей, штопаю разные тряпки, делаю снадобья из трав, всякое такое, - она "
+"косится, изучая твои шрамы. - Тебе снадобья нужны?\""
 
 #: 23198
 msgid "\"Cures?\""
-msgstr ""
+msgstr "\"Снадобья?\""
 
 #: 23199
-#, fuzzy
 msgid "\"No thanks. I must take my leave. Farewell.\""
-msgstr "\"Не сегодня. Я должен идти. Прощай\"."
+msgstr "\"Нет, спасибо. Я должен идти. Прощай\"."
 
 #: 23200
 msgid ""
@@ -264,35 +285,41 @@ msgid ""
 "ye...?\" She glances at the scars covering your body again, then shrugs. "
 "\"Too late ta be askin' for them, I think.\""
 msgstr ""
+"\"Ага, тебе бы не помешала парочка для поправки здоровья. Будешь покупать?.. "
+"- она снова оглядывает шрамы на твоем теле, пожимая плечами. - Хотя для них, "
+"наверное, уже будет поздновато\"."
 
 #: 23201
 msgid "\"Actually, I *could* use some healing...\""
-msgstr ""
+msgstr "\"Вообще-то, мне бы *не помешало* небольшое лечение...\""
 
 #: 23202
 msgid "\"Actually, we *could* use some healing...\""
-msgstr ""
+msgstr "\"Вообще-то, нам бы *не помешало* небольшое лечение...\""
 
 #: 23203
 msgid ""
 "\"I don't need any cures now, but they might be useful later. Could I see "
 "what you have?\""
 msgstr ""
+"\"Сейчас мне не нужны снадобья, но потом они могут пригодиться. Можно "
+"взглянуть, что у тебя есть?\""
 
 #: 23204
 msgid ""
 "\"Actually, I could just use a place to rest. Would you mind if I slept here?"
 "\""
 msgstr ""
+"\"Вообще-то, я бы хотел воспользоваться этим местом для отдыха. Ты не против, "
+"если я посплю здесь?\""
 
 #: 23205
 msgid "\"Not at the moment. I had a question for you...\""
-msgstr ""
+msgstr "\"Не сейчас. У меня есть вопрос к тебе...\""
 
 #: 23206
-#, fuzzy
 msgid "\"I see. I must take my leave. Farewell.\""
-msgstr "\"Понятно. Я должен идти. Прощай.\""
+msgstr "\"Понятно. Я должен идти. Прощай\"."
 
 #: 23207
 msgid ""
