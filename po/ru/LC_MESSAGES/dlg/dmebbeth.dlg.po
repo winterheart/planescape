@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmebbeth.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-03-28 01:11+0600\n"
+"PO-Revision-Date: 2012-04-11 23:57+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.4\n"
 "Language: ru\n"
 
 #: 1801
@@ -37,18 +37,25 @@ msgid ""
 "at the Hive market and get some herbs from him. She said the market is a few "
 "blocks south and east of her hut."
 msgstr ""
+"Меббет попросила отнести странное черное семя одному из торговцев фруктами на "
+"рынке в Улье и вернуться от него с травами. Она сказала, что рынок находится "
+"в нескольких кварталах к юго-востоку от ее хижины."
 
 #: 22703
 msgid ""
 "I met an old woman, Mebbeth, a midwife in Ragpicker's Square. She seems a "
 "little addled... but so does everyone else in this berg."
 msgstr ""
+"Я повстречал старушку Меббет, повитуху с площади Старьевщиков. Похоже, она "
+"немного тронулась умом... А кто не тронется в подобном городишке?"
 
 #: 22704
 msgid ""
 "Mebbeth offered to cure my wounds for free... it might be a good idea to "
 "return to her every once in a while if I need healing. "
 msgstr ""
+"Меббет предложила излечить мои раны даром... Неплохо бы возвращаться к ней "
+"каждый раз, когда мне понадобиться исцеление."
 
 #: 22705
 msgid ""
@@ -56,6 +63,9 @@ msgid ""
 "Square. She said I should ask one of the other Collectors how I could find "
 "it. "
 msgstr ""
+"Меббет рассказала мне, что где-то на площади существуют ворота, которые ведут "
+"к берлоге Фарода. Она сказала, что я должен порасспрашивать других Сборщиков "
+"насчет их местонахождения."
 
 #: 22706
 msgid ""
@@ -328,6 +338,10 @@ msgid ""
 "Small wisps of dust and pollen rise from her hands. She then mumbles to "
 "herself, then blows the dust into the air..."
 msgstr ""
+"\"Хорошо\", - кивает Меббет. Она берет за стебель одно из своих высушенных "
+"растений на поясе и растирает его в своих мозолистых ладонях. Вокруг ее рук "
+"появляется небольшое облачко пыльцы. Она что-то шепчет про себя, после чего "
+"подбрасывает получившийся порошок в воздух..."
 
 #: 23208 23209
 msgid "Take a deep breath."
@@ -338,16 +352,18 @@ msgid ""
 "The gray pollen swirls around the room, and you breath deeply... and less "
 "than a moment later, you feel strangely refreshed. "
 msgstr ""
+"Серая пыльца кружится по всей комнате, ты глубоко ее вдыхаешь... Не прошло и "
+"мгновения, как ты чувствуешь себя необычайно посвежевшим."
 
 #: 23211 23214
-#, fuzzy
 msgid "\"Thanks, Mebbeth. Before I go, I had some other questions for you...\""
-msgstr "\"Спасибо. У меня были еще вопросы к тебе...\""
+msgstr ""
+"\"Спасибо тебе, Меббет. Перед тем, как уйти, я бы хотел задать тебе несколько "
+"вопросов...\""
 
 #: 23212 23215
-#, fuzzy
 msgid "\"Thank you, Mebbeth... I feel well again. Farewell.\""
-msgstr "\"Спасибо, Увядшая. Прощай\"."
+msgstr "\"Спасибо тебе, Меббет... Мне снова стало лучше. Прощай\"."
 
 #: 23213
 msgid ""
@@ -355,24 +371,27 @@ msgid ""
 "You breath deeply... and less than a moment later, you feel strangely "
 "refreshed."
 msgstr ""
+"Серая пыльца кружится по всей комнате, обволакивая тебя и твоих спутников. Ты "
+"глубоко ее вдыхаешь... Не прошло и мгновения, как ты чувствуешь себя "
+"необычайно посвежевшим."
 
+# Хвост, нигде не применяется.
 #: 23216
 msgid "\"Ye be wantin' anythin' else, child?\""
-msgstr ""
+msgstr "\"Еще что-нибудь ищешь, сынок?\""
 
+# Хвост, нигде не применяется.
 #: 23217
 msgid "\"Actually, yes... could I take another look at what you have?\""
-msgstr ""
+msgstr "\"Вообще-то, да... Можно еще раз взглянуть на то, что у тебя есть?\""
 
 #: 23218
-#, fuzzy
 msgid "\"No, but I had some other questions for you...\""
-msgstr "\"Нет. У меня были еще вопросы к тебе...\""
+msgstr "\"Нет, но у меня были еще вопросы к тебе...\""
 
 #: 23219
-#, fuzzy
 msgid "\"Not this day, Mebbeth... thanks. Farewell.\""
-msgstr "\"Не сегодня, спасибо. Прощай\"."
+msgstr "\"Не сегодня, Меббет, спасибо. Прощай\"."
 
 #: 23220
 msgid ""
@@ -381,19 +400,22 @@ msgid ""
 "bring it to Mebbeth... no promises, child, but mayhap I ken riddle out what "
 "it is.\""
 msgstr ""
+"\"Я продаю тряпки, и снадобья, и амулеты, и микстуры, и припарки, и "
+"стиральные порошки... - она качает плечами. - А еще, если найдешь курьезную и "
+"непонятную вещицу, тащи ее Меббет... Обещать ничего не буду, сынок, но, может "
+"быть, я смогу разгадать, что это за вещица\"."
 
 #: 23221
 msgid "\"I see. Can I see what you have to sell, then?\""
-msgstr ""
+msgstr "\"Понятно. Можно тогда посмотреть, что у тебя есть?\""
 
 #: 23222
 msgid "\"Very well. I had some other questions for you...\""
 msgstr "\"Очень хорошо. У меня были еще вопросы к тебе...\""
 
 #: 23223 23250 23254 23258
-#, fuzzy
 msgid "\"That is all I wished to know. Farewell.\""
-msgstr "\"Это все, что я хотел узнать. Прощай.\""
+msgstr "\"Это все, что я хотел узнать. Прощай\"."
 
 #: 23224
 msgid "\"Go on n' ask, then.\""
@@ -408,8 +430,9 @@ msgid "\"I'm missing a journal. Do you know where one could be found?\""
 msgstr "\"Я потерял дневник. Не знаешь, где его можно найти?\""
 
 #: 23227
+#, fuzzy
 msgid "\"Have you ever heard of someone named 'Ravel,' Mebbeth?\""
-msgstr ""
+msgstr "\"Слышала ли ты когда-нибудь о ком-нибудь по имени 'Равель', Меббет?\""
 
 #: 23228 23627 23638
 msgid "\"I could use some healing...\""
@@ -420,9 +443,8 @@ msgid "\"What do you sell here, Mebbeth?\""
 msgstr "\"Чем ты торгуешь, Меббет?\""
 
 #: 23230 23628 23641
-#, fuzzy
 msgid "\"Could I buy some cures from you?\""
-msgstr "\"Пока нет. У меня несколько вопросов к тебе...\""
+msgstr "\"Могу ли я приобрести у тебя немного снадобий?\""
 
 #: 23235 23633
 msgid ""
@@ -450,6 +472,8 @@ msgid ""
 "\"I'd like to switch my profession and concentrate on my mage studies, "
 "Mebbeth.\""
 msgstr ""
+"\"Я бы хотел сменить свою специализацию и сконцентрироваться на навыках мага, "
+"Меббет\"."
 
 #: 23242 23630
 msgid "\"No questions today. Farewell.\""
@@ -461,6 +485,9 @@ msgid ""
 "three times, then follows it by making a semi-circle over her heart. \"That "
 "gull tird! Whatcha be wantin' with the likes of him?\""
 msgstr ""
+"\"Фарод?! Этот... этот... тьфу! - ты наблюдаешь за тем, как Меббет сплевывает."
+".. еще раз... и еще, после чего делает полукруг над своим сердцем. - "
+"Крикливая чайка! Чего тебе это от него могло понадобиться?\""
 
 #: 23244
 msgid "\"I need to find him. Do you know where he is?\""
@@ -481,10 +508,13 @@ msgid ""
 "find a way *under* the Square ta get ta that tird spider's kip.\" She spits "
 "again. \"Even talkin' 'bout him leaves a foul taste, it does.\""
 msgstr ""
+"\"Он не *на* площади Старьевщиков - вот все, что я могу тебе сказать... Чтобы "
+"найти берлогу этого паучины, тебе стоит искать *под* площадью, - она снова "
+"плюется. - Даже просто говорить о нем противно\"."
 
 #: 23248
 msgid "\"He's under the Square?\""
-msgstr ""
+msgstr "\"Он под площадью?\""
 
 #: 23249 23253 23257
 msgid "\"I see. I had some other questions...\""
@@ -496,10 +526,13 @@ msgid ""
 "trash, him and his boys, and a tough time ye'd have diggin' him out of his "
 "nest.\" She shakes her head. \"Let be, let be, child.\""
 msgstr ""
+"Она тычет пальцем в пол. \"Ага, схоронился со своими прихвостнями под горами "
+"мусора. Придется попотеть, чтобы выковырять его из своего гнездышка, - качает "
+"она головой. - Как пить дать, сынок\"."
 
 #: 23252
 msgid "\"I need to find him. How do I get down there?\""
-msgstr ""
+msgstr "\"Мне нужно найти его. Как мне попасть вниз?\""
 
 #: 23256
 msgid ""
@@ -508,6 +541,10 @@ msgid ""
 "Ye might want to ask some of the others, some who travel a bit more than Ol' "
 "Mebbeth.\""
 msgstr ""
+"Нахмурившись, Меббет вздыхает. \"Говорят, у Фарода где-то на площади есть "
+"ворота, которые ведут прямо в его гнездышко... Это только вопрос времени - "
+"найти их. Можешь поспрашивать других, кто попутешествовал побольше старой "
+"Меббет\"."
 
 #: 23259
 msgid ""
