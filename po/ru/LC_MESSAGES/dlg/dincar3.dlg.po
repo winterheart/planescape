@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dincar3.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-04-04 22:41+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2012-04-11 23:19+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 52688
 msgid "\"He has awakened.\""
@@ -301,15 +302,14 @@ msgstr ""
 "выйти, но не я\"."
 
 #: 63927
-#, fuzzy
 msgid ""
 "\"I had a suspicion - we were not meant to exist as this, and as unnatural "
 "as our immortality is, this situation compounds it.\" He nods. \"Yes, I will "
 "merge with you again.\""
 msgstr ""
-"\"У меня было подозрение: мы не должны существовать в этом виде, таком же "
-"неестественном, как и наша бессмертность. Данная ситуация сочетает ее в "
-"себе, - он кивает. - Да, я снова сольюсь с тобой\"."
+"\"У меня было подозрение: мы не должны существовать в таком виде. Это так же "
+"неестественно, как как и наше бессмертие, - он кивает. - Да, я снова сольюсь "
+"с тобой\"."
 
 #: 63928
 msgid "\"You know you will cease to exist?\""
@@ -438,13 +438,12 @@ msgid "\"Like how?\""
 msgstr "\"Например?\""
 
 #: 63951
-#, fuzzy
 msgid ""
 "The expression on the incarnation's face flickers for just a moment, but it "
 "is like a window, and you suddenly realize who it is you are speaking to."
 msgstr ""
-"Лицо воплощения содрогается на миг, но оно - как окно, и ты вдруг понимаешь, "
-"с кем говоришь."
+"Лицо воплощения содрогается на миг, но его достаточно, чтобы ты понял, с кем "
+"ты говоришь на самом деле."
 
 #: 63952
 msgid "\"*You* were the first of us.\""
@@ -518,8 +517,8 @@ msgid ""
 "\"And Ravel did. But when she first tested your immortality and killed you, "
 "you forgot everything. *Everything.*\""
 msgstr ""
-"\"И Равель сделала это. Но когда она в первый раз проверяла твою "
-"бессмертность и убила тебя, ты все забыл. *Полностью*\"."
+"\"И Равель сделала это. Но когда она в первый раз проверяла твое бессмертие и "
+"убила тебя, ты все забыл. *Полностью*\"."
 
 #: 63960
 msgid ""
@@ -551,3 +550,4 @@ msgstr ""
 #: 63963
 msgid "\"Very well, then... we shall become as one. Are you ready?\""
 msgstr "\"Ну что ж... мы станем одним целым. Ты готов?\""
+
