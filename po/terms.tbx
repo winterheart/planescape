@@ -3243,14 +3243,26 @@
                             <term>tovus giljaf</term>
                         </termGrp>
                     </ntig>
-                </langSet>
+                <tig>
+            <term>tovus</term>
+          </tig>
+          <tig>
+            <term>giljaf</term>
+          </tig>
+        </langSet>
                 <langSet xml:lang="ru">
                     <ntig>
                         <termGrp>
                             <term>товус гильяф</term>
                         </termGrp>
                     </ntig>
-                </langSet>
+                <tig>
+            <term>Товус</term>
+          </tig>
+          <tig>
+            <term>Гильяф</term>
+          </tig>
+        </langSet>
             </termEntry>
             <termEntry id="azamat_h._hackimov-182">
                 <descrip type="subjectField">персонажи</descrip>
@@ -8475,6 +8487,20 @@
               <term>подсигилье</term>
             </termGrp>
           </ntig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-452">
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>yelaan</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <descrip type="definition">Проститутка в Карцери.</descrip>
+          <tig>
+            <term>елаан</term>
+          </tig>
         </langSet>
       </termEntry>
     </body>
