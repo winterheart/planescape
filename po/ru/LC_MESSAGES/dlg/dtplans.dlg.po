@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-09-04 18:36+0600\n"
+"PO-Revision-Date: 2012-05-06 19:27+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 61864
 msgid ""
@@ -21,12 +22,19 @@ msgid ""
 "along the bottom is a note written by another hand. It looks like your "
 "handwriting."
 msgstr ""
+"План указывает, что гробница начинена ловушками, но определенные области ими "
+"не затронуты. Тем не менее, на одной стороне ты находишь запись, в каждой "
+"комнате установлено по одной особенно смертельной ловушке. Ниже записи видна "
+"небрежная приписка, сделанная очевидно другой рукой. Очень похоже на твой "
+"почерк."
 
 #: 61866
 msgid ""
 "The plans would make more sense if you were in the tomb itself. You could "
 "then make direct comparisons between the plans and how they were implemented."
 msgstr ""
+"План был бы гораздо полезнее, если бы ты находился в самой гробнице. Тогда ты "
+"бы смог сравнить план и его реализацию напрямую."
 
 #: 61867 61870
 msgid "Done."
@@ -39,7 +47,12 @@ msgid ""
 "without having to negotiate the traps myself... Hmm. An enchantment perhaps, "
 "that somehow transports the corpse back to the beginning...\""
 msgstr ""
+"\"Ловушка готова, теперь остается только ждать, пока мой мучитель не войдет в "
+"ее стены. Выяснилось, однако, что мне нужно найти способ извлечь тело обратно "
+"без взаимодействия с ловушками... Хм-м-м. Возможно, какое-нибудь заклинание, "
+"которое каким-то образом перенесет тело назад к началу...\""
 
 #: 61869
 msgid "Read the note."
-msgstr ""
+msgstr "Прочесть заметку."
+
