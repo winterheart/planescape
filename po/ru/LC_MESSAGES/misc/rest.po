@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2012-05-07 01:39+0600\n"
+"PO-Revision-Date: 2012-05-21 21:26+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -243,6 +243,9 @@ msgid ""
 "off, no doubt to still keep the appearance it is a coin and allowing the "
 "'clipper' to use the shaved copper to make another coin. It is worthless."
 msgstr ""
+"Этот медяк был \"срезан\"... почти весь металл сточен, хотя оставшаяся часть "
+"по-прежнему выглядит как целая монета, а вот спиленная медь позволит "
+"\"резчику\" сделать еще одну. Эта монета ничего не стоит."
 
 #: 1799
 msgid "Who are you? What are you doing on our territory?"
@@ -1702,9 +1705,8 @@ msgid "Open Locks"
 msgstr "Вскрытие замков"
 
 #: 4212 48892
-#, fuzzy
 msgid "Stealth"
-msgstr "Скрытность:"
+msgstr "Скрытность"
 
 #: 4213
 msgid "Find/Remove Traps"
@@ -2165,7 +2167,7 @@ msgstr ""
 
 #: 6475
 msgid "Kel'lera bows."
-msgstr ""
+msgstr "Келлера кивает."
 
 #: 6497
 msgid ""
@@ -2176,7 +2178,7 @@ msgstr ""
 
 #: 6750
 msgid "\"I've got it right here. Now give me my dreams.\""
-msgstr ""
+msgstr "\"Все у меня с собой. А теперь давай мне мои сны\"."
 
 #: 6937
 msgid "Leave the dabus in peace."
@@ -2366,7 +2368,7 @@ msgstr "0100dab1"
 
 #: 9329
 msgid "\"Ratsies! Fresh ratsies!\""
-msgstr ""
+msgstr "\"Крысочки! Свежие крысочки!\""
 
 #: 9342
 msgid ""
@@ -2724,11 +2726,11 @@ msgstr ""
 
 #: 11557
 msgid "\"Who are the patrons of this tavern?\""
-msgstr ""
+msgstr "\"Кто завсегдатаи этой таверны?\""
 
 #: 11571
 msgid "\"I'm looking for a journal. Have you seen one recently?\""
-msgstr ""
+msgstr "\"Я ищу дневник. Тебе такой не попадался недавно?\""
 
 #: 11996
 msgid ""
@@ -2741,11 +2743,11 @@ msgstr ""
 
 #: 12276
 msgid "\"Tell me of your journey...\""
-msgstr ""
+msgstr "\"Расскажи о своем путешествии\"."
 
 #: 12338
 msgid "Attack him as he leaves."
-msgstr ""
+msgstr "Атаковать его, пока он отходит."
 
 #: 12468
 msgid "*Sniff* - *Sniff* \"Hmph! Nothin'!\""
@@ -2777,6 +2779,9 @@ msgid ""
 "seams, and it looks like its threads are unraveling. It looks like some "
 "strange robed woman with a halo of spikes on her head."
 msgstr ""
+"Годы не пожалели эту маленькую тряпичную куклу: она расходится по швам, а "
+"ткань, похоже, уже начала расползаться. Выглядит она как какая-то странно "
+"одетая женщина с ореолом шипов вокруг головы."
 
 #: 14818
 msgid "\"Ya little bastards! Can't hide from Ratbone forever!\"\n"
@@ -2803,6 +2808,8 @@ msgid ""
 "\"I misspoke. I have no *desire* to join the Dustman faction. I merely "
 "believe what the Dustmen believe.\""
 msgstr ""
+"\"Я оговорился. Я не *желаю* присоединиться к фракции Тленных. Я всего лишь "
+"верю в то, во что верят Тленные\"."
 
 #: 15508
 msgid ""
@@ -3151,6 +3158,8 @@ msgid ""
 "\"Stop! Thou have come too far, traveler, and trespassed into the Dead "
 "Nations, realm of the Silent King! Will thou submit peacefully?\""
 msgstr ""
+"\"Стоять! Ты зашел слишком далеко, странник. Ты пересек границы Мертвых "
+"Народов, государства Безмолвного Короля! Подчинишься ли ты без боя?\""
 
 #: 19242
 msgid "Fell's Studio"
@@ -3158,13 +3167,15 @@ msgstr "Студия Фелла"
 
 #: 19243
 msgid "\"Submit to what?\""
-msgstr ""
+msgstr "\"Подчинюсь чему?\""
 
 #: 19244
 msgid ""
 "\"'Tis the will of the Silent King that all who pass the gates into our "
 "Nation become prisoners of his lands. Will thou submit?\""
 msgstr ""
+"\"Такова воля Безмолвного Короля: все, кто проходит через ворота в Народы, "
+"становятся пленниками его земель. Ты подчинишься?\""
 
 #: 19245
 msgid ""
@@ -3174,7 +3185,7 @@ msgstr ""
 
 #: 19246
 msgid "\"Very well, I will submit.\""
-msgstr ""
+msgstr "\"Хорошо, я подчиняюсь\"."
 
 #: 19247
 msgid ""
@@ -3519,7 +3530,7 @@ msgstr ""
 
 #: 19368
 msgid "NECROMANCER"
-msgstr ""
+msgstr "НЕКРОМАНТ"
 
 #: 19369
 msgid "TRANSMUTER"
@@ -3555,7 +3566,7 @@ msgstr ""
 
 #: 19379
 msgid "Necromancer"
-msgstr ""
+msgstr "Некромант"
 
 #: 19381
 msgid "Transmuter"
@@ -3743,7 +3754,7 @@ msgstr "Ты уверен, что хочешь покинуть игру?"
 
 #: 20623
 msgid "\"Forget this, then...\""
-msgstr ""
+msgstr "\"Тогда забудь об этом...\""
 
 #: 20634
 msgid "Beasts"
@@ -3772,6 +3783,10 @@ msgid ""
 "intended to be a replica of the Lady of Pain, but the button eyes and its "
 "plush softness don't strike much fear into your heart."
 msgstr ""
+"Годы не пожалели эту маленькую тряпичную куклу: она расходится по швам, а "
+"ткань, похоже, уже начала расползаться. Очевидно, это умышленная копия Леди "
+"Боли, хотя глаза-пуговки и плюшевая мягкость как-то не особо нагоняют на тебя "
+"страх."
 
 #: 20724
 msgid "\"How 'bout I just step on you and be done with it?\""
@@ -3824,7 +3839,7 @@ msgstr "Урон:"
 
 #: 22081
 msgid "Midwife's Hut"
-msgstr ""
+msgstr "Лачуга повитухи"
 
 #: 22082 22098 50026
 msgid "Small Dwelling"
@@ -3836,7 +3851,7 @@ msgstr "Убежище Фарода"
 
 #: 22084
 msgid "Ojo's House"
-msgstr ""
+msgstr "Дом Охо"
 
 #: 22085
 msgid "Seamstress' House"
@@ -3900,7 +3915,7 @@ msgstr ""
 
 #: 22110
 msgid "Foundry"
-msgstr ""
+msgstr "Литейная"
 
 #: 22111
 msgid "Godsman Hall"
@@ -3924,7 +3939,7 @@ msgstr "Разрушенный дом"
 
 #: 22118
 msgid "Bones of the Night"
-msgstr ""
+msgstr "Кости ночи"
 
 # Печатный дом, типография
 #: 22119
@@ -3945,19 +3960,19 @@ msgstr ""
 
 #: 22124
 msgid "\"Great... I'll go look for one, then I'll be back.\""
-msgstr ""
+msgstr "\"Отлично... Пойду, поищу, потом вернусь\"."
 
 #: 22128
 msgid "Civic Festhall"
-msgstr ""
+msgstr "Городской Фестхолл"
 
 #: 22130
 msgid "Public Sensorium"
-msgstr ""
+msgstr "Публичный сенсориум"
 
 #: 22131
 msgid "Private Sensorium"
-msgstr ""
+msgstr "Частный сенсориум"
 
 #: 22132
 msgid "Brothel"
@@ -3969,15 +3984,15 @@ msgstr "Подвал борделя"
 
 #: 22134
 msgid "Advocate's House"
-msgstr ""
+msgstr "Дом адвоката"
 
 #: 22135
 msgid "Art Store"
-msgstr ""
+msgstr "Художественная галерея"
 
 #: 22137
 msgid "Curiosity Shop"
-msgstr ""
+msgstr "Магазинчик странностей"
 
 #: 22139
 msgid "Tailor"
@@ -3993,11 +4008,11 @@ msgstr "Тюрьма"
 
 #: 22144 62407
 msgid "Traitor's Gate Tavern"
-msgstr ""
+msgstr "Таверна \"Ворота предателей\""
 
 #: 22145
 msgid "Grain Silo"
-msgstr ""
+msgstr "Зернохранилище"
 
 #: 22146
 msgid "Curst Underground"
@@ -4005,7 +4020,7 @@ msgstr ""
 
 #: 22150
 msgid "Curst Administration"
-msgstr ""
+msgstr "Администрация Проклятого"
 
 #: 22151
 msgid "Curst Warehouse"
@@ -4081,7 +4096,7 @@ msgstr ""
 
 #: 22174
 msgid "Dead Nations"
-msgstr ""
+msgstr "Мертвые Народы"
 
 #: 22175
 msgid "Throne Room"
@@ -4112,6 +4127,8 @@ msgid ""
 "\"I am not going to wait for this damn thing to grow. I need those herbs, "
 "and I need them now.\""
 msgstr ""
+"\"Я не собираюсь ждать, пока эта чертова штуковина не прорастет. Мне нужны "
+"травы, и нужны прямо сейчас\"."
 
 #: 22845
 msgid ""
@@ -4144,7 +4161,7 @@ msgstr "Пожалуйста, выпусти меня наружу, или я н
 
 #: 23555
 msgid "\"Perhaps I'll seek it out. Farewell.\""
-msgstr ""
+msgstr "\"Пожалуй, я его поищу. Прощай\"."
 
 #: 23787
 msgid "Yes"
@@ -4161,6 +4178,8 @@ msgstr "\"Отлично.\""
 #: 24207
 msgid "\"Do a small BODY of text, and a small series of responses, please.\""
 msgstr ""
+"\"Сделай, пожалуйста, маленький КУСОК текста и короткую цепочку ответов на "
+"него\"."
 
 #: 24999
 msgid "Gaerien"
@@ -4284,7 +4303,7 @@ msgstr "К Подсигилью."
 
 #: 25633
 msgid "The Advocate's home."
-msgstr ""
+msgstr "Дом адвоката."
 
 #: 25635
 msgid "Art and Curio Galleria."
@@ -4292,7 +4311,7 @@ msgstr ""
 
 #: 25636
 msgid "The Curiosity Shoppe."
-msgstr ""
+msgstr "Магазинчик странностей"
 
 #: 25641
 msgid "The Apothecary."
@@ -4300,7 +4319,7 @@ msgstr "Аптека."
 
 #: 25643
 msgid "The Civic Festhall."
-msgstr ""
+msgstr "Городской Фестхолл."
 
 #: 25644
 msgid "The Festhall's foyer."
@@ -4331,11 +4350,11 @@ msgstr ""
 
 #: 25725
 msgid "The Western Lecture Hall."
-msgstr ""
+msgstr "Западный лекционный зал."
 
 #: 25726
 msgid "The Eastern Lecture Hall."
-msgstr ""
+msgstr "Восточный лекционный зал."
 
 #: 25727
 msgid "Back towards the Festhall's foyer."
@@ -4396,6 +4415,11 @@ msgid ""
 "across the Planes on some foolish ideal. He has cast me from the siege "
 "tower, and I am never allowed to set foot in it again"
 msgstr ""
+"Когда я отправился в Крепость из осадной башни, голем попросил меня помочь "
+"ему выбраться из тюрьмы и продолжить свой энтропический поход по планам Я "
+"отказался; его назначение - служить МНЕ, а не воевать на планах за какие-то "
+"дурацкие идеалы. Он выбросил меня из осадной башни, и мне навеки запрещено "
+"переступать ее порог."
 
 #: 26282
 msgid "There is nothing of interest in this tent."
@@ -4415,7 +4439,7 @@ msgstr ""
 
 #: 26481
 msgid "\"Where would I find such a thing?\""
-msgstr ""
+msgstr "\"Где можно найти такую вещь?\""
 
 #: 26548
 msgid "This luxurious drapery conceals nothing but the wall behind it."
@@ -4483,11 +4507,11 @@ msgstr ""
 
 #: 27551
 msgid "\"What can you tell of the Festhall?\""
-msgstr ""
+msgstr "\"Что ты можешь рассказать о Фестхолле?\""
 
 #: 27552
 msgid "\"Thanks. Let me ask you about something else...\""
-msgstr ""
+msgstr "\"Спасибо. Позволь мне спросить еще кое о чем...\""
 
 #: 28071
 msgid "Are you sure you want to remove this character from your party?"
@@ -4559,7 +4583,7 @@ msgstr "Параметры видео"
 
 #: 28847
 msgid "\"Hmmm, such a waste.\""
-msgstr ""
+msgstr "\"Хммм, какое расточительство\"."
 
 #: 28850
 msgid "\"GODSMEN KNOW WHAT IT'S ABOUT\""
@@ -4651,7 +4675,7 @@ msgstr ""
 
 #: 29384
 msgid "\"I seek the master of this place.\""
-msgstr ""
+msgstr "\"Я ищу хозяина этого места\"."
 
 #: 29454
 msgid "Alignment Changed [Nameless One]"
@@ -4678,6 +4702,8 @@ msgid ""
 "This is the Trigit's main crushing attack. It's of average speed, and it "
 "hits for a lot of damage."
 msgstr ""
+"Это основная дробящая атака тригита. У нее средняя скорость, и она наносит "
+"много урона."
 
 #: 30046
 msgid ""
@@ -4763,7 +4789,7 @@ msgstr "Революционная лига"
 
 #: 30701
 msgid "Xaositects"
-msgstr ""
+msgstr "Хаоситеки"
 
 #: 30702
 msgid "Alu-fiend"
@@ -4959,10 +4985,12 @@ msgid ""
 "\"My time and attention is reserved for my students, sir. I suggest you "
 "speak to one of them... or better yet, someone less occupied.\""
 msgstr ""
+"\"Свое время и внимание я посвящаю своим ученикам, сэр. Предлагаю поговорить "
+"с одним из них... или, что было бы еще лучше, с кем-то менее занятым\"."
 
 #: 31368
 msgid "\"That I am.\""
-msgstr ""
+msgstr "\"Так и есть\"."
 
 #: 31429
 msgid "Contrast"
@@ -5089,7 +5117,7 @@ msgstr ""
 
 #: 31553
 msgid "Society of Sensation"
-msgstr ""
+msgstr "Общество Восприятия"
 
 #: 31554
 msgid "Bariaur"
@@ -5402,7 +5430,7 @@ msgstr "Глазное яблоко"
 
 #: 32793
 msgid "\"Why don't the fiends just take Sigil?\""
-msgstr ""
+msgstr "\"Почему демоны просто не взяли Сигил?\""
 
 #: 32795
 msgid "Magnifying Lens"
@@ -5514,15 +5542,15 @@ msgstr "Вниз в подвал борделя."
 
 #: 32846
 msgid "Yves' chambers."
-msgstr ""
+msgstr "Покои Ив."
 
 #: 32847
 msgid "Kimasxi's chambers."
-msgstr ""
+msgstr "Покои Кимаскси."
 
 #: 32848
 msgid "Dolora's chambers."
-msgstr ""
+msgstr "Покои Долоры."
 
 #: 32849
 msgid "Kesai-Serris' chambers."
@@ -5530,7 +5558,7 @@ msgstr "Покои Кесай-Серри."
 
 #: 32850
 msgid "Marissa's chambers."
-msgstr ""
+msgstr "Покои Мариссы."
 
 #: 32851
 msgid "To the Inner Chamber"
@@ -5538,7 +5566,7 @@ msgstr ""
 
 #: 32852
 msgid "Vivian's chambers."
-msgstr ""
+msgstr "Покои Вивьен."
 
 #: 32853
 msgid "Ecco's chambers."
@@ -5570,7 +5598,7 @@ msgstr "Твоя Сила средняя."
 
 #: 33135
 msgid "\"I see... but it still sounds like you murdered those two, to me.\""
-msgstr ""
+msgstr "\"Понятно... Но мне все еще кажется, будто ты убил тех двоих\"."
 
 #: 33341
 msgid ""
@@ -6016,11 +6044,11 @@ msgstr ""
 
 #: 34184
 msgid "Nenny's chambers."
-msgstr ""
+msgstr "Покои Ненни."
 
 #: 34185
 msgid "Juliette's chambers."
-msgstr ""
+msgstr "Покои Джульетты."
 
 #: 34186
 msgid "Back upstairs to the Brothel."
@@ -6243,7 +6271,7 @@ msgstr ""
 
 #: 34387
 msgid "\"I'm passing through.\""
-msgstr ""
+msgstr "\"Я просто проходил мимо\"."
 
 #: 34584
 msgid ""
@@ -6987,35 +7015,35 @@ msgstr "Не удалось скопировать заклинание [Vhailor
 
 #: 35637
 msgid "Spell has been gained [Nameless One]"
-msgstr ""
+msgstr "Заклинание было получено [Nameless One]"
 
 #: 35638
 msgid "Spell has been gained [Morte]"
-msgstr ""
+msgstr "Заклинание было получено [Morte]"
 
 #: 35639
 msgid "Spell has been gained [Annah]"
-msgstr ""
+msgstr "Заклинание было получено [Annah]"
 
 #: 35640
 msgid "Spell has been gained [Dak'kon]"
-msgstr ""
+msgstr "Заклинание было получено [Dak'kon]"
 
 #: 35641
 msgid "Spell has been gained [Fall-From-Grace]"
-msgstr ""
+msgstr "Заклинание было получено [Fall-From-Grace]"
 
 #: 35642
 msgid "Spell has been gained [Nordom]"
-msgstr ""
+msgstr "Заклинание было получено [Nordom]"
 
 #: 35643
 msgid "Spell has been gained [Ignus]"
-msgstr ""
+msgstr "Заклинание было получено [Ignus]"
 
 #: 35644
 msgid "Spell has been gained [Vhailor]"
-msgstr ""
+msgstr "Заклинание было получено [Vhailor]"
 
 #: 35645
 msgid "Spell has been copied [Nameless One]"
@@ -7399,7 +7427,7 @@ msgstr "Лестница на второй этаж"
 
 #: 35832
 msgid "To the Alley of Lingering Sighs"
-msgstr ""
+msgstr "На улицу Протяжных Вздохов"
 
 #: 35833
 msgid "Back to the Hive"
@@ -7411,15 +7439,15 @@ msgstr "\"У меня были еще вопросы...\""
 
 #: 36344
 msgid "\"Can you teach me the warriors way?\""
-msgstr ""
+msgstr "\"Ты можешь обучить меня пути воина?\""
 
 #: 36434
 msgid "\"Any creatures come out of these portals?\""
-msgstr ""
+msgstr "\"Из этих порталов выходят какие-нибудь существа?\""
 
 #: 36436
 msgid "\"The Tower?\""
-msgstr ""
+msgstr "\"Башню?\""
 
 #: 36438
 msgid "\"Where exactly is this portal?\""
@@ -7715,75 +7743,75 @@ msgstr "Обнаружена ловушка [Vhailor]"
 
 #: 36973
 msgid "Hide Failed [Nameless One]"
-msgstr ""
+msgstr "Спрятаться не удалось [Nameless One]"
 
 #: 36974
 msgid "Hide Failed [Morte]"
-msgstr ""
+msgstr "Спрятаться не удалось [Morte]"
 
 #: 36975
 msgid "Hide Failed [Annah]"
-msgstr ""
+msgstr "Спрятаться не удалось [Annah]"
 
 #: 36976
 msgid "Hide Failed [Dak'kon]"
-msgstr ""
+msgstr "Спрятаться не удалось [Dak'kon]"
 
 #: 36977
 msgid "Hide Failed [Fall-From-Grace]"
-msgstr ""
+msgstr "Спрятаться не удалось [Fall-From-Grace]"
 
 #: 36978
 msgid "Hide Failed [Nordom]"
-msgstr ""
+msgstr "Спрятаться не удалось [Nordom]"
 
 #: 36979
 msgid "Hide Failed [Ignus]"
-msgstr ""
+msgstr "Спрятаться не удалось [Ignus]"
 
 #: 36980
 msgid "Hide Failed [Vhailor]"
-msgstr ""
+msgstr "Спрятаться не удалось [Vhailor]"
 
 #: 36981
 msgid "Hide Failed [General, other NPC]"
-msgstr ""
+msgstr "Спрятаться не удалось [General, other NPC]"
 
 #: 36982
 msgid "Hide Succeeded [Nameless One]"
-msgstr ""
+msgstr "Удалось спрятаться [Nameless One]"
 
 #: 36983
 msgid "Hide Succeeded [Morte]"
-msgstr ""
+msgstr "Удалось спрятаться [Morte]"
 
 #: 36984
 msgid "Hide Succeeded [Annah]"
-msgstr ""
+msgstr "Удалось спрятаться [Annah]"
 
 #: 36985
 msgid "Hide Succeeded [Dak'kon]"
-msgstr ""
+msgstr "Удалось спрятаться [Dak'kon]"
 
 #: 36986
 msgid "Hide Succeeded [Fall-From-Grace]"
-msgstr ""
+msgstr "Удалось спрятаться [Fall-From-Grace]"
 
 #: 36987
 msgid "Hide Succeeded [Nordom]"
-msgstr ""
+msgstr "Удалось спрятаться [Nordom]"
 
 #: 36988
 msgid "Hide Succeeded [Ignus]"
-msgstr ""
+msgstr "Удалось спрятаться [Ignus]"
 
 #: 36989
 msgid "Hide Succeeded [Vhailor]"
-msgstr ""
+msgstr "Удалось спрятаться [Vhailor]"
 
 #: 36990
 msgid "Hide Succeeded [General, other NPC]"
-msgstr ""
+msgstr "Удалось спрятаться [General, other NPC]"
 
 #: 36991
 msgid "Level Up [Nameless One]"
@@ -7991,39 +8019,39 @@ msgstr "Падение морали: бешенство [General, other NPC]"
 
 #: 37042
 msgid "Leaving Shadows [Nameless One]"
-msgstr ""
+msgstr "Выход из теней [Nameless One]"
 
 #: 37043
 msgid "Leaving Shadows [Morte]"
-msgstr ""
+msgstr "Выход из теней [Morte]"
 
 #: 37044
 msgid "Leaving Shadows [Annah]"
-msgstr ""
+msgstr "Выход из теней [Annah]"
 
 #: 37045
 msgid "Leaving Shadows [Dak'kon]"
-msgstr ""
+msgstr "Выход из теней [Dak'kon]"
 
 #: 37046
 msgid "Leaving Shadows [Fall-From-Grace]"
-msgstr ""
+msgstr "Выход из теней [Fall-From-Grace]"
 
 #: 37047
 msgid "Leaving Shadows [Nordom]"
-msgstr ""
+msgstr "Выход из теней [Nordom]"
 
 #: 37048
 msgid "Leaving Shadows [Ignus]"
-msgstr ""
+msgstr "Выход из теней [Ignus]"
 
 #: 37049
 msgid "Leaving Shadows [Vhailor]"
-msgstr ""
+msgstr "Выход из теней [Vhailor]"
 
 #: 37050
 msgid "Leaving Shadows [General, other NPC]"
-msgstr ""
+msgstr "Выход из теней [General, other NPC]"
 
 #: 37051
 msgid "Bash Succeeded [Nameless One]"
@@ -8215,7 +8243,7 @@ msgstr "Маскировка удалена"
 
 #: 37099 50096
 msgid "Armoire"
-msgstr ""
+msgstr "Шкаф"
 
 #: 37279
 msgid "This is a invisble slashing weapon for a medium level 1-3 creature."
@@ -8356,7 +8384,7 @@ msgstr ""
 
 #: 37505
 msgid "\"Why is it called the Lower Ward?\""
-msgstr ""
+msgstr "\"Почему его называют Нижним районом?\""
 
 #: 37553
 msgid ""
@@ -8651,11 +8679,11 @@ msgstr "Ты должен получить разрешение, чтобы от
 
 #: 38713
 msgid "Hit Points gained."
-msgstr ""
+msgstr "Получены Очки Жизни."
 
 #: 38714
 msgid "Characteristic Points gained."
-msgstr ""
+msgstr "Получены Пункты Персонажа."
 
 #: 38715
 msgid "Weapon Proficiency slots gained."
@@ -8675,7 +8703,7 @@ msgstr ""
 
 #: 38719
 msgid "Saving Throws have improved."
-msgstr ""
+msgstr "Улучшены спасброски."
 
 #: 38720
 msgid "Priest Abilities have increased."
@@ -10189,7 +10217,7 @@ msgstr ""
 
 #: 49529
 msgid "Dark Birds of Ocanthus"
-msgstr ""
+msgstr "Темные птицы Окантуса"
 
 #: 49580
 msgid "This ancient machine looks like a forgotten war relic."
@@ -10236,7 +10264,7 @@ msgstr ""
 
 #: 50081
 msgid "You cannot afford all of the selected items."
-msgstr ""
+msgstr "Ты не можешь себе позволить покупку выбранных предметов."
 
 #: 50082
 msgid "You cannot afford this spell."
@@ -10378,7 +10406,7 @@ msgstr "Мертвое сердце"
 
 #: 50815
 msgid "Light Urn"
-msgstr ""
+msgstr "Легкая урна"
 
 #: 50873
 msgid "\"What took you guys so long?\""
@@ -10446,7 +10474,7 @@ msgstr ""
 
 #: 51000
 msgid "\"No. Instead, I'd like you to answer me some questions.\""
-msgstr ""
+msgstr "\"Нет. Вообще-то, я хотел бы задать тебе несколько вопросов\"."
 
 #: 51054
 msgid "Silent King's Throne"
@@ -10462,7 +10490,7 @@ msgstr ""
 
 #: 51315
 msgid "Brimstone Hammer"
-msgstr ""
+msgstr "Серный молот"
 
 #: 51333
 msgid ""
@@ -10980,7 +11008,7 @@ msgstr ""
 
 #: 52997
 msgid "Berrog"
-msgstr ""
+msgstr "Беррог"
 
 #: 53001
 msgid "Slaver"
@@ -11060,15 +11088,15 @@ msgstr ""
 
 #: 53777
 msgid "Entropic Blade"
-msgstr ""
+msgstr "Клинок Энтропии"
 
 #: 54117
 msgid "Black-Barbed Curse"
-msgstr ""
+msgstr "Проклятие черных шипов"
 
 #: 54118
 msgid "Black-Barbed Shield"
-msgstr ""
+msgstr "Щит из черных шипов"
 
 #: 54183
 msgid "Hi. I hope you have a cool axe for me."
@@ -11102,7 +11130,7 @@ msgstr ""
 
 #: 55013
 msgid "Rest not permitted."
-msgstr ""
+msgstr "Отдых не разрешен."
 
 #: 55021
 msgid "You may not rest when your party is scattered."
@@ -11114,7 +11142,7 @@ msgstr "Твое новое глазное яблоко."
 
 #: 55160
 msgid "ClickLButtonPoint"
-msgstr ""
+msgstr "ClickLButtonPoint"
 
 #: 55437 55463 55611 55646 55670 59405 68292
 msgid "\"Forget it. Farewell.\""
@@ -11134,7 +11162,7 @@ msgstr ""
 
 #: 56480
 msgid "Find Nemelle for Aelwyn."
-msgstr ""
+msgstr "Найти Немель для Эльвин."
 
 #: 56481
 msgid ""
@@ -11154,7 +11182,7 @@ msgstr ""
 
 #: 56484
 msgid "Find Aelwyn for Nemelle."
-msgstr ""
+msgstr "Найти Эльвин для Немель."
 
 #: 56485
 msgid ""
@@ -11164,7 +11192,7 @@ msgstr ""
 
 #: 56487
 msgid "Retrieve Malmaner's costume from Goncalves."
-msgstr ""
+msgstr "Забрать у Гонсалвиса костюм Малманера."
 
 #: 56488
 msgid ""
@@ -11221,6 +11249,9 @@ msgid ""
 "Merriman. Upon consuming it, he lost all his memories. It's what he wanted, "
 "though I can't say I envy the fellow."
 msgstr ""
+"Я принес Весельчаку кусок льда Стикса - Темную птицу Окантуса. Проглотив ее, "
+"он потерял все свои воспоминания. Это то, чего он добивался, хотя я бы не "
+"сказал, что завидую этому парню."
 
 #: 56499
 msgid "Return to Dolora the 'keys to her heart.'"
@@ -11272,10 +11303,13 @@ msgid ""
 "Slating Intellectual Lust, find her 'personal scent.' She said I'd know it "
 "when I smelled it."
 msgstr ""
+"Я согласился помочь Вивьен, одной из проституток Борделя утоления "
+"интеллектуальной страсти, найти ее \"личный аромат\". Она сказала, что я "
+"узнаю его, когда почувствую."
 
 #: 56686
 msgid "I returned Vivian's personal scent to her."
-msgstr ""
+msgstr "Я вернул Вивьен ее личный аромат."
 
 #: 56687
 msgid "Find and return Marissa's Crimson Veil."
@@ -11294,7 +11328,7 @@ msgstr ""
 
 #: 56778
 msgid "\"It is as I, Aelwyn, thought. A man's mind has been lost to him.\""
-msgstr ""
+msgstr "\"Я, Эльвин, так и думала. Разум человека потерян для него\"."
 
 #: 56785
 msgid "Learn the language of the dodecahedron puzzle box."
@@ -11926,7 +11960,7 @@ msgstr "Берлога Могильника."
 
 #: 59164
 msgid "The midwife's hut."
-msgstr ""
+msgstr "Лачуга повитухи"
 
 #: 59165
 msgid "To the Trash Warrens."
@@ -12088,6 +12122,23 @@ msgid ""
 "metals. Sometimes they blend together, other times, they submerge into the "
 "core of the blade, only to resurface again minutes later."
 msgstr ""
+"КЛИНОК ЭНТРОПИИ\n"
+"Урон: 3-23 дробящий\n"
+"Зачарован: +1\n"
+"THAC0: +2\n"
+"Скорость: 1\n"
+"Вес: 1\n"
+"Специализация: клинковые\n"
+"Не используется жрецами\n"
+"\n"
+"Ты получил этот странный предмет после того, как отдал Куб-Модрон железному "
+"голему в Осадной башне. Он похож на маленький кинжал, но когда ты его "
+"осматриваешь, то замечаешь, что поверхность его волнуется и искажается, "
+"словно пытается освободится от своей формы. \n"
+"\n"
+"Кажется, клинок сделан из железа, серебра и множества других металлов. "
+"Временами они смешиваются, а иногда погружаются внутрь клинка, чтобы уже "
+"через несколько минут вновь покрыть его поверхность."
 
 #: 59824
 msgid "Asleep"
@@ -12388,6 +12439,8 @@ msgid ""
 "I returned to Iannis and told him that the Sensates agreed to allow him "
 "access to his daughter's sensory stone."
 msgstr ""
+"Я вернулся к Янису и сказал ему, что Чувствующие согласились предоставить "
+"ему доступ к камню переживаний его дочери."
 
 #: 60317
 msgid "Find the portal key to Ravel's maze."
@@ -12402,6 +12455,8 @@ msgid ""
 "The Pillar of Skulls told me that Trias -- who it called 'Trias the "
 "Betrayer' -- would know where the portal to the Fortress of Regrets was."
 msgstr ""
+"Колонна Черепов сказала мне, что Триас, которого они назвали \"Триасом-"
+"Предателем\", знает, где находится портал в Крепость Сожалений."
 
 #: 60324
 msgid "I returned to Curst and spoke to Trias of the Fortress of Regrets."
@@ -12684,7 +12739,7 @@ msgstr ""
 
 #: 60742
 msgid "Free the deva."
-msgstr "Освободить дэву."
+msgstr "Освободить дэва."
 
 #: 60758
 msgid ""
@@ -12916,7 +12971,7 @@ msgstr ""
 
 #: 60805
 msgid "Free Dona Quisho's fiend."
-msgstr ""
+msgstr "Освободить демона Доны Куишо."
 
 #: 60806
 msgid "Deliver box to Ku'atraa."
@@ -13064,7 +13119,7 @@ msgstr ""
 
 #: 61578
 msgid "Glyve"
-msgstr ""
+msgstr "Глайв"
 
 #: 61580
 msgid "Bronze Sphere"
@@ -13103,11 +13158,11 @@ msgstr "Склад"
 
 #: 61623
 msgid "The Foundry."
-msgstr ""
+msgstr "Литейная."
 
 #: 61624
 msgid "To the Weeping Stone Catacombs."
-msgstr ""
+msgstr "К Катакомбам Плачущих Камней."
 
 #: 61625
 msgid "To the Wrecked House."
@@ -13119,7 +13174,7 @@ msgstr ""
 
 #: 61627
 msgid "To the Foundry."
-msgstr ""
+msgstr "К Литейной."
 
 #: 61628
 msgid "To the Godsman Hall."
@@ -13346,7 +13401,7 @@ msgstr ""
 
 #: 63624
 msgid "Mechanus Cannon"
-msgstr ""
+msgstr "Орудие Механуса"
 
 #: 63692
 msgid "Mertwyn's Head"
@@ -13846,6 +13901,10 @@ msgid ""
 "hands... in seconds, the magical hemotoxin has rendered your blood into "
 "black bile. You begin to die an exquisitely painful death..."
 msgstr ""
+"Руна неожиданно начинает пульсировать, превращая весь свиток бесформенную "
+"вонючую черную массу. Жидкость сразу же впитывается в твою плоть... за "
+"считанные секунды магический гемотоксин превращает твою кровь в черную "
+"желчь. Ты умираешь страшной и мучительной смертью..."
 
 #: 66824
 msgid "Fall into darkness..."
@@ -13860,10 +13919,15 @@ msgid ""
 "then the pain subsides. You have survived whatever horrible magic was placed "
 "upon the scroll."
 msgstr ""
+"Руна неожиданно начинает пульсировать, превращая весь свиток бесформенную "
+"вонючую черную массу. Жидкость сразу же впитывается в твою плоть... за "
+"считанные секунды магический гемотоксин превращает твою кровь в черную "
+"желчь. На мгновение тебя охватывает агония... но затем боль отступает. Какой "
+"ужасной ни была магия в свитке, тебе удалось выжить."
 
 #: 66827
 msgid "\"What the...?\""
-msgstr ""
+msgstr "\"Что за?..\""
 
 #: 66843
 msgid "\"I want you to become the best magical weapon you can.\""
@@ -14223,7 +14287,7 @@ msgstr ""
 
 #: 68293
 msgid "\"Not yet.\""
-msgstr ""
+msgstr "\"Еще нет\"."
 
 #: 68295
 msgid ""
@@ -14278,7 +14342,7 @@ msgstr ""
 
 #: 68506
 msgid "\"I... think I do. Farewell, Nemelle.\""
-msgstr ""
+msgstr "\"Думаю... да. Прощай, Немель\"."
 
 #~ msgid "::Skritch Skritch::"
 #~ msgstr "::Скрип Скрип::"
