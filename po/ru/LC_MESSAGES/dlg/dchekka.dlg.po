@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dchekka.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:16+0600\n"
+"PO-Revision-Date: 2012-05-21 20:05+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 48041
 msgid ""
@@ -19,6 +20,9 @@ msgid ""
 "looks like all he's interested in protecting is his bub. He looks you over "
 "without much interest, his eyes dead."
 msgstr ""
+"Ты видишь пьяного стражника. Он облачен лучшие доспехи Проклятого, однако, "
+"похоже, его выпивка - единственное, что он будет защищать. Он смотрит на тебя "
+"без особого интереса."
 
 #: 48042 48046 48085
 msgid "\"Who are you?\""
@@ -37,6 +41,9 @@ msgid ""
 "Chek'ka Plute looks you over carefully, with all the concentration a drunk "
 "man can muster. He sneers, and goes back to his tankard."
 msgstr ""
+"Чек-ка Плут внимательно и осторожно, насколько может это сделать пьяный "
+"человек, осматривает тебя. Презрительно усмехнувшись, он возвращается к своей "
+"кружке."
 
 #: 48048 48086
 msgid "\"Farewell, then.\""
@@ -44,7 +51,7 @@ msgstr "\"Тогда прощай\". "
 
 #: 48049
 msgid "\"Chek'ka Plute. One a' Curst's elite.\" He belches."
-msgstr ""
+msgstr "\"Чек-ка Плут. Верхушка Проклятого\". Он отрыгивает."
 
 #: 48051
 msgid "\"Farewell.\""
@@ -56,13 +63,19 @@ msgid ""
 "and I wanna see him use t' see if it's true. Waitin'. Watchin'. Go 'way now. "
 "I got watchin' t' do.\""
 msgstr ""
+"Он указывает на Гниющего Копчика. \"Слежу за ним. Говорят, у него здесь "
+"туннель есть, вот я и хочу выяснить, правда ли это. Жду. Слежу. Иди. Мне "
+"нужно следить\"."
 
 #: 48087
 msgid ""
 "The drunken guard staggers at you, roaring. It's obvious he'll see you dead "
 "first."
 msgstr ""
+"Пьяный стражник с ревом бросается на тебя. Очевидно, что он хочет видеть тебя "
+"мертвым."
 
 #: 48088
 msgid "Fight."
 msgstr "Сражаться."
+
