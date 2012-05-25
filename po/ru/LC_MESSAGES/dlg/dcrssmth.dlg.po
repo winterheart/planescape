@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcrssmth.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:12+0500\n"
+"PO-Revision-Date: 2012-05-25 01:01+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 3168
 msgid ""
@@ -19,6 +20,9 @@ msgid ""
 "seems a little slow, but earnest - not as poisonous as the others in this "
 "town. \"Aye? What d'yeh want?\""
 msgstr ""
+"Ты отвлекаешь от работы этого дородного мужчину. Он кисло смотрит на тебя. "
+"Похоже, он немного медлительный, но при этом внушительный - не такой "
+"отвратительный, как все остальные в этом городе. \"Да? Чего тебе?\""
 
 #: 3169
 msgid "\"Who are you?\""
@@ -29,9 +33,8 @@ msgid "\"What is this place?\""
 msgstr "\"Что это за место?\""
 
 #: 61320 61347 61370
-#, fuzzy
 msgid "\"Have you heard anything about a deva in Curst?\""
-msgstr "\"Что ты можешь сказать о Дейонарре?\""
+msgstr "\"Ты что-нибудь слышал о дэва в Проклятом?\""
 
 #: 61321 61343
 msgid "\"Nothing. Farewell.\""
@@ -39,15 +42,16 @@ msgstr "\"Ничего. Прощай\"."
 
 #: 61322
 msgid "The smith looks at you irritably. \"What d'yeh want now?\""
-msgstr ""
+msgstr "Кузнец раздраженно смотрит на тебя. \"Чего тебе опять?\""
 
 #: 61323
+#, fuzzy
 msgid "\"I'm Crumplepunch Malako, the town's smith. Yeh want somethin'?\""
-msgstr ""
+msgstr "\"Я Crumplepunch Малако, городской кузнец. Тебе надо что-нибудь?\""
 
 #: 61324
 msgid "\"Well? What's yer progress on this matter?\""
-msgstr ""
+msgstr "\"Ну? Как там продвигается вопрос?\""
 
 #: 61325
 msgid ""
@@ -55,26 +59,32 @@ msgid ""
 "up'n'up.\" He passes you a crumpled wad of paper. \"Jest let one of us know."
 "\""
 msgstr ""
+"\"Ну... ладно. Надеюсь, ты изучишь его и сделаешь все честь-по-чести\". Он "
+"передает тебе измятый комок бумаги. \"Только сообщи кому-нибудь из нас\"."
 
 #: 61326
 msgid ""
 "\"Good. Then go off and make up yer mind. Let one of us know when yeh've "
 "made a decision.\""
 msgstr ""
+"\"Хорошо. Тогда иди и обдумай все. Сообщи кому-нибудь из нас о своем "
+"решении\"."
 
 #: 61327
 msgid "\"Have yeh made up yer mind yet?\""
-msgstr ""
+msgstr "\"Ну как, ты еще не принял решения?\""
 
 #: 61328
 msgid "\"It's a smithy, yeh dolt. D'yeh want somethin' or no?\""
-msgstr ""
+msgstr "\"Это кузница, дурень. Тебе нужно что-нибудь или нет?\""
 
 #: 61329
 msgid ""
 "\"A wha'? Deva? Ain't that one o' them angel things? No, we ain't got one "
 "here.\" He pauses. \"D'yeh want somethin' of me?\""
 msgstr ""
+"\"О ком? Дэва? Они разве не типа что-то ангелов? Нет, таких у нас нет, - он "
+"умолкает. - Что-нибудь надо от меня?\""
 
 #: 61330
 msgid ""
@@ -83,6 +93,10 @@ msgid ""
 "me? Am I t' be slandered jest 'cause I ain't educated? The planes be against "
 "me!\" He shakes his fist at the sky."
 msgstr ""
+"\"Вот оно как, да? Так значит, про мое дело с братом-грамотеем талдычит весь "
+"город, да? Младший брат, небось, про меня небылицы сочиняет? На меня клевещут "
+"оттого, что я неграмотный? Планы против меня ополчились!\" Он грозит кулаком "
+"в небо."
 
 #: 61331
 msgid ""
@@ -94,12 +108,21 @@ msgid ""
 "in this town t'help me. Yeh help me, I'll give yeh some jink, and I'll live "
 "by yer decision.\""
 msgstr ""
+"Он проницательно смотрит на тебя. \"Тогда вот вся история. Наш отец был тем "
+"еще полудурком, но довольно богатым. После смерти он оставил нам кузницу и "
+"винокурню... Но теперь мой братец пытается присвоить винокурню, которая "
+"всегда денег больше приносила, себе, а я, стало быть, не даю. У меня есть "
+"завещание, где все расписано по правилам, да только я не шибко умен во всем "
+"этом, а довериться в этом городе некому. Если поможешь, дам тебе звенелок и "
+"послушаюсь твоего решения\"."
 
 #: 61332
 msgid ""
 "\"Well... all right. I guess yeh got t' study it up and make sure it's on "
 "the up'n'up.\" He passes you a crumpled wad of paper."
 msgstr ""
+"\"Ну... ладно. Надеюсь, ты изучишь его и сделаешь все честь-по-чести\". Он "
+"передает тебе измятый комок бумаги."
 
 #: 61333
 msgid ""
@@ -107,6 +130,9 @@ msgid ""
 "then. Damn yeh, stranger, and yer cheatin' ways. Yeh need metal work, yeh "
 "come back here... but yer prices are goin' to be higher than any in town.\""
 msgstr ""
+"\"Он получит ВСЕ? - он опускает голову. - Тогда мне придется работать вдвое "
+"больше. Черт бы тебя побрал, незнакомец, и твои обманные уловки. Понадобится "
+"работа по металлу, приходи... только цена будет выше, чем в городе\"."
 
 #: 61334
 msgid ""
@@ -114,6 +140,9 @@ msgid ""
 "jig, and shakes your hand. \"Yeh need quality smith work, friend, yeh come "
 "back here anytime! Right now, I'm thinkin' it's time t' get bubbed!\""
 msgstr ""
+"\"Все? - глаза его заблестели. - Все?\" Откаблучив небольшую джигу, он трясет "
+"твою руку. \"Понадобится хорошая кузнечная работа, друг, приходи в любое "
+"время! За это надо выпить!\""
 
 #: 61335
 msgid ""
@@ -121,56 +150,61 @@ msgid ""
 "in favor of it. Yeh done me a good turn, friend. Yeh ever need quality metal "
 "work done, yeh come here.\""
 msgstr ""
+"\"То есть нужно поделить выручку с обоих дел, да? В таком случае, я буду в "
+"выигрыше. Ты оказал мне хорошую услугу, друг. Понадобится хорошая работа по "
+"металлу, приходи\"."
 
 #: 61336
 msgid ""
 "\"WHAT? Yeh rotten, lousy, thievin' bastard! Get out of my smithy! OUT!\""
-msgstr ""
+msgstr "\"ЧТО? Ах ты, чертов ублюдок! Вон из моей кузницы! ВОН!\""
 
 #: 61337
 msgid "\"Yeh've come back, eh? Yeh need some work done?\""
-msgstr ""
+msgstr "\"Снова пришел, да? Нужно работу сделать какую?\""
 
 #: 61338
 msgid ""
 "\"Yeh've come, eh, fair-trader? Let's see if I can give yeh a fair trade in "
 "return.\""
 msgstr ""
+"\"Вернулся, справедливый торговец? Давай-ка посмотрим, смогу ли я отплатить "
+"тебе по-справедливости\"."
 
 #: 61339
 msgid "\"Come back to gaze on a man yeh've ruined, eh? What d'yeh want?\""
-msgstr ""
+msgstr "\"Пришел посмотреть на то, как угробил чью-то жизнь? Чего надо?\""
 
 #: 61340
 msgid ""
 "\"Get out of my shop, yeh lousy cross-trader. Yeh'll do no business here "
 "this day.\""
 msgstr ""
+"\"Вон из моего магазина, любитель наживы. Я не желаю иметь с тобой никаких "
+"дел\"."
 
 #: 61341
 msgid "\"Fine. Farewell.\""
 msgstr "\"Отлично. Прощай\"."
 
 #: 61342
-#, fuzzy
 msgid "\"Let's see what you've got.\""
-msgstr "\"Посмотрим, что тут у нас на этот раз...\""
+msgstr "\"Посмотрим, что у тебя есть\"."
 
 #: 61344 61350 61367 61372
 msgid ""
 "\"I've come from your brother about a question of debts between you two...\""
-msgstr ""
+msgstr "\"Я пришел от твоего брата по поводу вашего спора...\""
 
 #: 61345 61351 61368 61373 61375
 msgid ""
 "\"I've heard there's some trouble between you and your brother. I'd like to "
 "help.\""
-msgstr ""
+msgstr "\"Я слышал, что у тебя проблемы с твоим братом. Я бы хотел помочь\"."
 
 #: 61348
-#, fuzzy
 msgid "\"I'd like to buy something.\""
-msgstr "\"Хочется посмотреть на эту попытку\"."
+msgstr "\"Я хотел бы кое-что купить\"."
 
 #: 61349
 msgid "\"Nothing, thanks. Farewell.\""
@@ -178,7 +212,7 @@ msgstr "\"Ничего, спасибо. Прощай\"."
 
 #: 61352
 msgid "\"I'd like to look at your wares.\""
-msgstr ""
+msgstr "\"Я бы хотел взглянуть на твои товары\"."
 
 #: 61353
 msgid "\"No thanks. Farewell.\""
@@ -189,102 +223,116 @@ msgid ""
 "\"Your brother has agreed to allow me to mediate. I'll need your copy of the "
 "legacy to determine your inheritance.\""
 msgstr ""
+"\"Твой брат согласился на мое посредничество. Для определения вашего "
+"наследства мне понадобится изучить твою копию завещания\"."
 
 #: 61355
 msgid "\"Your brother has also agreed to allow me to mediate.\""
-msgstr ""
+msgstr "\"Твой брат также согласился на мое посредничество\"."
 
 #: 61356
 msgid ""
 "\"I've decided you should have all the money. It's only fair, you being the "
 "older brother and all.\""
 msgstr ""
+"\"Я решил, что ты должен получить все деньги. По закону, ты являешься "
+"наследником как старший из двух братьев\". "
 
 #: 61357
 msgid "\"It's coming along. I need to see your wares...\""
-msgstr ""
+msgstr "\"Пока в процессе. Мне нужно взглянуть на твои товары...\""
 
 #: 61358
 msgid "\"It's coming along. Farewell.\""
-msgstr ""
+msgstr "\"Пока в процессе. Прощай\"."
 
 #: 61359
 msgid "\"Thanks. I'll let you know when I make a decision.\""
-msgstr ""
+msgstr "\"Спасибо. Я дам тебе знать, как приму решение\"."
 
 #: 61360 61385
-#, fuzzy
 msgid "\"I will. Farewell.\""
-msgstr "\"Хорошо. Прощай\"."
+msgstr "\"Я так и сделаю. Прощай\"."
 
 #: 61361
 msgid ""
 "\"I've decided in favor of your brother. After reading the legacies, it's "
 "clear to me that he should get the entire inheritance.\""
 msgstr ""
+"\"Я решил встать на сторону твоего брата. После прочтения завещаний я "
+"определенно "
+"пришел к выводу, что он должен получить все наследство целиком\"."
 
 #: 61362
 msgid ""
 "\"I've decided that you should own the distillery and get your father's "
 "money. It's clear that you're in the right.\""
 msgstr ""
+"\"Я решил, что ты должен владеть винокурней и получить все деньги отца. "
+"Совершенно очевидно, что "
+"ты имеешь на это полное право\"."
 
 #: 61363
 msgid ""
 "\"The two of you should split the money from the two businesses down the "
 "middle. It's clear that your father wanted it this way.\""
 msgstr ""
+"\"Вы оба должны разделить деньги с обоих дел поровну. Совершенно очевидно, "
+"что ваш отец "
+"хотел сделать именно так\"."
 
 #: 61364
 msgid ""
 "\"Neither of you deserves this inheritance. I'll pass your legacies off to "
 "someone who will use the money properly. Farewell.\""
 msgstr ""
+"\"Никто из вас не заслуживает этого наследства. Я передам ваши завещания "
+"тому, кто сможет "
+"правильно распорядиться деньгами. Прощай\"."
 
 #: 61365
-#, fuzzy
 msgid "\"Not yet. I'd like to take a look at your wares, though.\""
-msgstr "\"Хорошо. Но я хочу знать о кое-чем еще\"."
+msgstr "\"Пока нет. Но я бы хотел взглянуть на твои товары\"."
 
 #: 61366
 msgid "\"Not yet. Farewell.\""
 msgstr "\"Еще нет. Прощай\"."
 
 #: 61369 61374
-#, fuzzy
 msgid "\"I'd like to take a look at your wares.\""
-msgstr "\"Хочется посмотреть на эту попытку\"."
+msgstr "\"Я бы хотел взглянуть на твои товары\"."
 
 #: 61371
 msgid "\"No. Farewell.\""
 msgstr "\"Нет. Прощай\"."
 
 #: 61376 66570
-#, fuzzy
 msgid "\"I'm actually interested in clearing the matter up.\""
-msgstr "\"Я думаю, что лучше прояснить этот вопрос прямо сейчас\"."
+msgstr "\"Вообще-то, я хочу прояснить этот вопрос\"."
 
 #: 61377
 msgid "\"All right. I'll need your legacy to look it over.\""
-msgstr ""
+msgstr "\"Хорошо. Мне нужно твое завещание, чтобы изучить его\"."
 
 #: 61378
 msgid "\"All right. I'll figure something out.\""
-msgstr ""
+msgstr "\"Хорошо. Постараюсь что-нибудь придумать\"."
 
 #: 61379
 msgid "\"Thanks. I'll let you know what happens.\""
-msgstr ""
+msgstr "\"Спасибо. Я сообщу тебе, как что случится\"."
 
 #: 61380
 msgid "\"I'll remember that.\""
-msgstr ""
+msgstr "\"Я запомню это\"."
 
 #: 61381
 msgid ""
 "I have agreed to help the blacksmith in his struggle with his brother, the "
 "distiller, over their father's inheritance."
 msgstr ""
+"Я согласился помочь кузнецу в его тяжбе со своим братом-винокуром по "
+"отцовскому наследству."
 
 #: 61382
 msgid "\"Farewell, then.\""
@@ -295,16 +343,20 @@ msgid ""
 "I have decided the inheritance issue in favor of the blacksmith. He's going "
 "to give me bargains on his work, he says."
 msgstr ""
+"Я решил проблему с наследством в пользу кузнеца. Он сказал, что даст скидку "
+"на свою работу."
 
 #: 61384
 msgid "I have decided the inheritance issue in favor of the distiller. "
-msgstr ""
+msgstr "Я решил проблему с наследством в пользу винокура."
 
 #: 61386
 msgid ""
 "I have decided the inheritance issue by deciding the two should split the "
 "proceeds. "
 msgstr ""
+"Я решил проблему с наследством, распорядившись разделить выручку поровну "
+"между обоими братьями."
 
 #: 61387
 msgid "\"Farewell.\""
@@ -315,17 +367,19 @@ msgid ""
 "I have decided the inheritance issue in favor of neither of them. Neither of "
 "them deserve their money."
 msgstr ""
+"Я решил проблему с наследством ни в чью пользу. Никто из них не заслуживает "
+"денег."
 
 #: 61389 61391
-#, fuzzy
 msgid "\"Let's see what you've got...\""
-msgstr "\"Посмотрим, что тут у нас на этот раз...\""
+msgstr "\"Посмотрим, что у тебя есть...\""
 
 #: 61390 61392
 msgid "\"No, thanks. Farewell.\""
 msgstr "\"Нет, спасибо. Прощай\"."
 
 #: 67886
-#, fuzzy
 msgid "\"Thanks for your time. Farewell.\""
-msgstr "\"Спасибо за внимание. Прощай\"."
+msgstr "\"Спасибо за уделенное время. Прощай\"."
+
+
