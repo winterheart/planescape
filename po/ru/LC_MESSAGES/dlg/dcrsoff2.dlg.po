@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcrsoff2.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:12+0500\n"
+"PO-Revision-Date: 2012-05-22 21:08+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 3176
 msgid ""
@@ -31,7 +32,7 @@ msgstr ""
 #: 3180 60226
 #, fuzzy
 msgid "\"I just had a few questions...\""
-msgstr "\"Всего лишь несколько вопросов...\""
+msgstr "\"У меня всего лишь несколько вопросов...\""
 
 #: 60214 60227
 #, fuzzy
@@ -45,7 +46,7 @@ msgstr ""
 #: 60216 60229
 #, fuzzy
 msgid "\"Forget it, then. Farewell.\""
-msgstr "\"Забудь об этом. Прощай\"."
+msgstr "\"Тогда забудь об этом. Прощай\"."
 
 #: 60217
 msgid "\"Well? "
@@ -185,7 +186,7 @@ msgstr ""
 #: 60249
 #, fuzzy
 msgid "\"I will. Farewell.\""
-msgstr "\"Хорошо. Прощай\"."
+msgstr "\"Хорошо. Прощай.\""
 
 #: 66785
 msgid ""
@@ -221,3 +222,4 @@ msgstr ""
 #, fuzzy
 msgid "\"Farewell, Siabha.\""
 msgstr "\"Прощай, Дхолл\"."
+

@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddallan.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:37+0600\n"
+"PO-Revision-Date: 2012-05-25 19:22+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 49373
 msgid ""
@@ -35,7 +36,7 @@ msgstr "\"Приятно было встретиться с тобой, О. Пр
 #: 49376
 #, fuzzy
 msgid "\"Whatever. Farewell.\""
-msgstr "\"Как бы то ни было. Прощай\"."
+msgstr "\"Как угодно. Прощай.\""
 
 #: 49377
 msgid "Dallan smiles largely at you again. \"What's happening?\""
@@ -115,12 +116,11 @@ msgstr ""
 #: 49396 49401
 #, fuzzy
 msgid "\"Tell me about yourself, then...\""
-msgstr "\"Расскажи мне о себе\"."
+msgstr "\"Тогда расскажи мне о себе\"."
 
 #: 49397
-#, fuzzy
 msgid "\"Got it. Farewell.\""
-msgstr "\"Удачи. Прощай\"."
+msgstr "\"Понятно. Прощай\"."
 
 #: 49398
 msgid ""
@@ -139,7 +139,7 @@ msgstr ""
 #: 49402
 #, fuzzy
 msgid "\"I understand. Farewell.\""
-msgstr "\"Я понимаю. В таком случае, прощай\"."
+msgstr "\"Понятно. Прощай.\""
 
 #: 49403
 msgid ""
@@ -228,9 +228,8 @@ msgid "\"I'm working on it. I had some questions for you...\""
 msgstr "\"Ясно. У меня есть другие вопросы для тебя...\""
 
 #: 49424
-#, fuzzy
 msgid "\"I'm working on it. Farewell.\""
-msgstr "\"Я свалю. Прощай\"."
+msgstr "\"Я работаю над этим. Прощай\"."
 
 #: 49425
 msgid ""
@@ -281,7 +280,7 @@ msgstr ""
 #: 49434
 #, fuzzy
 msgid "\"What did you want to know?\""
-msgstr "\"Что ты хочешь знать?\""
+msgstr "\"Что же ты хочешь знать?\""
 
 #: 49436
 msgid ""
@@ -313,3 +312,4 @@ msgstr ""
 #: 49442
 msgid "\"I see. Farewell.\""
 msgstr "\"Понятно. Прощай\"."
+

@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dnabat.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 03:03+0500\n"
+"PO-Revision-Date: 2012-05-25 19:21+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 47847
 msgid ""
@@ -35,9 +36,8 @@ msgid "\"I had some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
 #: 49304
-#, fuzzy
 msgid "\"Greetings, and farewell.\""
-msgstr "\"Спасибо... Прощай\"."
+msgstr "\"Здравствуй и прощай\"."
 
 #: 49305
 msgid "\"What'd you want to know?\""
@@ -52,9 +52,8 @@ msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 49308 49312 49316
-#, fuzzy
 msgid "\"I'm looking for a deva.\""
-msgstr "\"Я ищу дневник\"."
+msgstr "\"Я ищу дэва\"."
 
 #: 49309 49317 49321
 msgid "\"Nothing, thanks. Farewell.\""
@@ -156,9 +155,8 @@ msgid ""
 msgstr ""
 
 #: 49337 49341
-#, fuzzy
 msgid "\"All right. What do I have to do?\""
-msgstr "\"Что у тебя есть из выпивки?\""
+msgstr "\"Ладно. Что мне нужно сделать?\""
 
 #: 49338
 msgid "\"Why is this so important to you?\""
@@ -246,9 +244,8 @@ msgid "\"Tell me a story.\""
 msgstr ""
 
 #: 49356
-#, fuzzy
 msgid "\"Tell me about this place.\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Расскажи мне об этом месте\"."
 
 #: 49357
 msgid "\"Can you train me in the arts of stealth?\""
@@ -455,6 +452,9 @@ msgid ""
 "drift into focus, you manage to recall enough to 'learn' more than Nabat has "
 "taught you."
 msgstr ""
+"Расплывчатые воспоминания того, как ты прятался в темных проходах и обходил "
+"смертоносные ловушки, помогают тебе вспомнить достаточно, чтобы \"изучить\" "
+"сверх того, чему обучил тебя Набат."
 
 #: 67191
 msgid "\"I've done it before.\""
@@ -517,9 +517,8 @@ msgid "\"No. Forget it. Answer a few questions for me...\""
 msgstr "\"Забудь. Лучше ответь на пару вопросов\"."
 
 #: 67226 67229 67231
-#, fuzzy
 msgid "\"No. Forget it. Farewell.\""
-msgstr "\"Забудь об этом. Прощай\"."
+msgstr "\"Нет. Забудь об этом. Прощай\"."
 
 #: 67230
 msgid "\"Answer some questions for me.\""
@@ -540,7 +539,7 @@ msgstr ""
 
 #: 67245 67246 67247
 msgid "Learn all you can."
-msgstr ""
+msgstr "Выучить все, что сможешь."
 
 #: 67248
 msgid ""
@@ -559,3 +558,4 @@ msgstr ""
 #: 67251
 msgid "Leave."
 msgstr "Уйти."
+
