@@ -1,6 +1,135 @@
 Changelog of Planescape: Torment l10n
 --------------------------------------------------------------------------------
 
++++ 20120528
+
+* [REST] Квесты, связанные со сборкой Ключа в Проклятом
+* [STO] Магазины в Проклятом (barse.sto, crumple1.sto, crumple2.sto,
+crumple3.sto, jasilya.sto)
+* [DLG] Стражник Проклятого (dcrstgrd.dlg)
+* [ITM] Наследство Кестера (kestleg.itm)
+* [DLG] Китла, постоялица "Ворот Предателей" (dkitla.dlg)
+* [CRE][DLG] Костолом-кузнец (dcrssmth.dlg)
+* [CRE][DLG] Кестер-винокур (kester.cre, dkester.dlg)
+* [CRE][DLG] Гниющий Копчик, владелец "Ворот Предателей" (barse.cre,
+dtbarse.dlg)
+* [CRE][DLG] Чек-ка Плут, посетитель "Ворот Предателей" (chekka.cre,
+dchekka.dlg)
+* [CRE][DLG] Маркес, бывший офицер Гармониума (marquez.cre, dmarquez.dlg)
+* [CRE][DLG] Джасилья, дочь Гниющего Копчика (jasilya.cre, dannah.dlg,
+djas.dlg)
+* [DLG] Офицер Гармониума
+* [REST] Квесты Доны Куишо
+* [CRE][DLG] Дона Куишо (quisho.cre, dgrace.dlg, dquisho.dlg)
+* [DLG] Глабрезу Агриль-Шенак (dagril.dlg)
+* [DLG] Планы гробницы с заметками Безымянного (dtplans.dlg)
+* [CRE][DLG] Колонна Черепов (pillar.cre, dannah.dlg, ddakkon.dlg, dgrace.dlg,
+dmorte.dlg, dnodrom.dlg, dpillar.dlg, dvhail.dlg)
+* [DLG] Модрон в Лабиринте Модронов (dmodron.dlg)
+* [CRE][DLG] Диалоги Запредельного с Гарцией и Анной (transf.cre, dannahf.dlg,
+dgracef.dlg, dtransf.dlg)
+* [CRE][DLG] Запредельный, смертность Безымянного (trans.cre, trans2.cre,
+trans3.cre, trans4.cre, trans5.cre, transcut.cre, dtrams.dlg)
+* [DLG] Заготовки зомби из катакомб (dzomfcat.dlg, dzommcat.dlg)
+* [DLG] Проститутка Елаан (dyelaan.dlg)
+* [DLG] Роберта Порфидор (droberta.dlg)
+* [DLG] Кири (dkiri.dlg)
+* [DLG] Тяжелая концепция Лабиринта Модронов (dhcon.dlg)
+* [DLG] Заготовка слабой концепции Лабиринта Модронов (dclow.dlg)
+* [DLG][ITM] Клочок кожи с раскаянием (dskscrap.dlg, skregret.itm,
+skscrap.itm)
+* [DLG][ITM] Вещающий камень (dsostone.dlg, sostone.itm)
+* [DLG] Военные машины в Крепости Сожалений (dmach1.dlg, dmach2,dlg, dmach3,
+dmach4.dlg) 
+* [DLG] Часы в Крепости Сожалений (dclock1.dlg, dclock2.dlg)
+* [DLG] Кристалл-портал в Лабиринт Отражений (dimpulse.dlg)
+* [CRE][DLG] Доброе воплощение Безымянного (incar3.cre, dincar3.dlg)
+* [DLG] Параноидальное воплощение Безымянного (dincar2.dlg)
+* [CRE][DLG] Практичное воплощение Безымянного (incar1.cre, dincar1.dlg)
+* [SRC] Восклицания скелетов (1500doub.src, 1500puzz.src)
+* [SRC] Восклицания Акасты (1500aca1.src, 1500aca2.src)
+* [SRC] Восклицания Вришки (0609vris.src)
+* [SRC] Восклицания Тильдона (0502thil.src)
+* [SRC] Восклицания бригадира (0502supe.src)
+* [WMP] Названия на карте (worldmap.wmp)
+* [DLG] Жители Ниженего района (dlwgf.dlg, dlwgm.dlg)
+* [DLG] Портал в Осадную башню (dsttrans.dlg)
+* [DLG] Рабочие открытого рынка (dmw1.dlg, dmw2.dlg, dmw3.dlg, dmw4.dlg)
+* [DLG] Результаты ремонта дабуса на Беременной улице (dpapuz1.dlg,
+dpapuz2.dlg)
+* [DLG] Стражник покоев Сандоза (dsguard.dlg)
+* [DLG] Стражник у входа в Подсигилье (dhguard.dlg)
+* [DLG] Мим (dmime.dlg, dgrace.dlg)
+* [DLG] Слушатель лекции (dlecture.dlg)
+* [DLG] Телохранитель Само-собой (dhbdygrd.dlg, dmatter.dlg)
+* [DLG] Безымянная зомби (dnoname.dlg)
+* [DLG] Саркофаг в гробнице Безымянного (dptcoff.dlg)
+* [DLG] Ворота в гробницу Безымянного (dpttrans.dlg)
+* [DLG] Портал в тайнок логово Фарода (dovtrans.dlg, dpvtrans.dlg)
+* [DLG] Бариавры (dbaria.dlg, dbarih.dlg, dmorte.dlg)
+* [BAF][DLG] Дискорл, торговец тканями (0300mer7.baf, dgiscorl.dlg)
+* [DLG] Куб-модрон (dcube.dlg)
+* [DLG][ITM] Костяной палец с кольцом (dfinger.dlg, finger.itm, jring.itm)
+* [DLG] Стражница Гармониума (dfhguard.dlg)
+* [DLG] Рабочие Литейной (dgwwf.dlg, dgwwm.dlg)
+* [DLG] Дневник Грации (dgdiary.dlg)
+* [DLG] Сны Безымянного (ddream.dlg)
+* [DLG] Кодекс необъяснимого (dcodexi.dlg, dmorte.dlg)
+* [DLG] Оружие Боголюдей (dcannon.dlg)
+* [DLG] Клинок Бессмертного (dbladeim.dlg)
+* [DLG] Охраник Боголюдей у входа в запретную зону (darmgrd.dlg)
+* [DLG] Громила с головой Мертвина (dannah.dlg, dyoboy.dlg)
+* [CRE][DLG] Смотритель Борделя (b_crtkr.cre, db_crtkr.dlg)
+* [DLG][STO] Гаэриэн, скелет-торговец (ddnmerch.dlg, gaerien.sto)
+* [DLG] Портал в зал Безмолвного Короля (ddn_prtl.dlg)
+* [DLG] Стражник возле Барра (dbvggrd.dlg)
+* [DLG] Старжник в Погребенной деревне (dbvpcgrd.dlg)
+* [ITM][DLG] Неразрывный Круг Зертимона (circle02.itm, circle03.itm,
+circle04.itm, circle05.itm. circle06.itm, circle07.itm, circle08.itm,
+circlez.itm, dcirclez.dlg, ddakkon.dlg)
+* [CRE][DLG] Киина (kiina.cre, ddakkon.dlg, dkiina.dlg)
+* [DLG] Анаци (danazi.dlg, ddakkon.dlg)
+* [DLG] Зомби Димтри (ddimtree.dlg)
+* [ITM] Предметы Убежденного Металла (bladeim.itm, edag.itm)
+* [CRE][DLG] Голем Убежденный Металл (coax.cre, dcoax.dlg)
+* [CRE][DLG] Корур (korur.cre, dkorur.dlg)
+* [STO] Магазины (alekstr.sto, anzestr.sto, brokah.sto, cindstr.sto, coax.sto,
+emoric.sto, giltspur.sto, giscorl.sto, hargrimm.sto, inn1.sto, kester.sto, lothar.sto, mebbeth.sto, pk_store.sto, temple1.sto)
+* [REST] Квесты, связанные с Меббет
+* [CRE][DLG] Скорбящий-по-деревьям (dmftree.dlg, dannah.dlg, ddakkon.dlg,
+dgrace.dlg, dignus.dlg, dmorte.dlg, dnodrom.dlg, dvhail.dlg)
+* [CRE][DLG] Меббет, неготовый перевод (mebbeth.cre, dmebbeth.dlg)
+* [DLG] Торговец экзотическими продуктами (d300mer6.dlg, ddakkon.dlg)
+* [CRE][DLG] Мериам, торговка рыбой (meriam.cre, d300mer8.dlg)
+* [CRE][DLG] Косса-Джай, торговка рыбой в Улье (kossah.cre, d300mer2.dlg)
+* Киарус Языкастая, первичница в баре "Тлеющего трупа" (dscpat4.dlg)
+* [BAF] Реплики посетителей "Тлеющего трупа" (0402mk22.baf, 0402mk2.baf,
+0402mk3, 0402ptn3.baf)
+* [ITM] Связанные с аукционистом предметы (giltbill.itm, giltnote.itm
+giltpost.itm)
+* [DLG] Аукционист Гилтспур (dannah.dlg, ddakkon.dlg, dgiltsp.dlg, dmorte.dlg)
+* [DLG] Силаен Железнопалый, посетитель "Тлеющего Трупа" (dscpat3.dlg)
+* [ITM] Компромат на Байрона Пикита (evidence.itm)
+* [ITM] Детали к построителю снов (drmcage.itm. drmkey.itm, drmpilw.itm,
+drmvial.itm)
+* [DLG] Ленни (dlenny.dlg)
+* [DLG] Байрон Пикит (dbyron.dlg)
+* [DLG] Деран (dderan.dlg)
+* [DLG] Трист (dtrist.dlg)
+* [DLG] Участники аукциона рабов (dderfem,dlg, ddermale.dlg)
+* [ITM] Различные вещи, связанные с кузницей (axqual.itm, lapron.itm, pax.itm,
+psledge.itm, qsledge.itm, tongs.itm)
+* [DLG] Кузница (dforge.dlg, forge.dlg)
+* [DLG] Кузнец из Литейной (fsmith.dlg)
+* [DLG] Рабыня (dfslave1.dlg)
+* [DLG] Раб-философ (dmslave3.dlg)
+* [DLG] Встревоженный раб (dmslave2.dlg)
+* [DLG] Раб с печальным лицом (dmslave1.dlg)
+* [CRE][DLG] Стражник Корвус (corvus.cre, dhgcorv.dlg)
+* [DLG] Лазло (dlazlo.dlg)
+* [DLG] Карина (dkarina.dlg)
+* [DLG] Торговец Циндер (dcinder.dlg)
+
 +++ 20120107
 * Хамрис-гробовщик (dhamrys.dlg)
 * Демоны Аэтелгрин и Тегарин (daethel.dlg, dtegarin.dlg)
