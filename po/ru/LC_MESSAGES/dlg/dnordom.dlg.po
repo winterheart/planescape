@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dnordom.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-02-19 22:07+0600\n"
+"PO-Revision-Date: 2012-05-30 00:33+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.4\n"
 "Language: ru\n"
 
 #: 16630
@@ -2171,13 +2171,15 @@ msgstr ""
 
 #: 61785
 msgid "\"I do not accept orders from you.\""
-msgstr ""
+msgstr "\"Я не принимаю приказов от тебя\"."
 
 #: 61786
 msgid ""
 "\"That is physically impossible for you without surrogate arms. Nor am I "
 "numbered like a die.\""
 msgstr ""
+"\"Для тебя это физически невозможно без заменителя рук. Кроме того, на моих "
+"гранях нет цифр, как на игральных костях\"."
 
 #: 61787
 msgid "\"They do not require reloading. They are always ready to fire.\""
@@ -2306,3 +2308,4 @@ msgid ""
 "\"Just keep pumping crossbow bolts into the branched thing, and we'll sort "
 "it out later...\""
 msgstr ""
+

@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: bmorte.dlg\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-07-10 00:28+0600\n"
+"PO-Revision-Date: 2012-05-30 00:34+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 31485
 msgid "\"It couldn't hurt you to say a few words to me, fiendling.\""
@@ -169,10 +170,12 @@ msgid ""
 "\"Annah, if yeh don't like me staring, why do you wear that um...  you "
 "know... that... that vest?\""
 msgstr ""
+"\"Анна, если ты так не любишь, когда я на тебя глазею, почему ты тогда носишь "
+"этот... э-э-э... ну, ты понимаешь... эту кирасу?"
 
 #: 61740
 msgid "\"Well, it sure takes my breath away.\""
-msgstr ""
+msgstr "\"А вот я от нее не могу дышать ровно\"."
 
 #: 61741
 msgid "\"So, Grace... you uh, have any sisters?\""
@@ -186,38 +189,46 @@ msgstr ""
 msgid ""
 "\"C'mon, Grace, I thought you succubi were supposed to be fun. Why so cold?\""
 msgstr ""
+"\"Ну ладно, Грация, я думал, что вы, суккубы, должны быть веселыми. Почему ты "
+"такая холодная?\""
 
 #: 61744
 msgid "\"Sheesh. Ask a question, and they flay the skin from your bones.\""
 msgstr ""
+"\"Уф-ф-ф. Стоит только задать вопрос, а они уже готовы содрать кожу с "
+"костей\"."
 
 #: 61745
 msgid ""
 "\"The only succubus ever to travel with us, and she's a puritan. You know, I "
 "have the worst luck.\""
 msgstr ""
+"\"Из всех суккубов нам досталась только одна, да и та - пуританка. Вот же не "
+"везет мне\"."
 
 #: 61746
 msgid "\"I'll say. I... hey, wait a minute.\""
-msgstr ""
+msgstr "\"Да уж точно. Я... Эй, секундочку!\""
 
 #: 61747
 msgid ""
 "\"Hey, don't let the fiendling get to you, Grace. She's just not as pretty "
 "as she'd like to be.\""
 msgstr ""
+"\"Эй, не позволяй этой бесовке доставать тебя. Она не такая уж "
+"привлекательная, как хотела бы\"."
 
 #: 61749
 msgid "\"Why don't you hop back to Mechanus, Nordom, huh?\""
-msgstr ""
+msgstr "\"Эй, Нордом, а почему бы тебе не прыгнуть обратно на Механус?\""
 
 #: 61750
 msgid "\"I'm going to roll that stupid box like dice.\""
-msgstr ""
+msgstr "\"Я сейчас брошу этот тупой ящик вместо игральных костей\"."
 
 #: 61751
 msgid "\"Stupid clockwork reject.\""
-msgstr ""
+msgstr "\"Тупая бракованная шестеренка\"."
 
 #: 61752
 msgid "\"Nordom, how come you never reload your crossbows?\""
@@ -272,3 +283,4 @@ msgstr "\"Грация... у тебя есть сестры?\""
 #: 64209
 msgid "\"Hey, why don't you hop back to Mechanus, Nordom, huh?\""
 msgstr ""
+
