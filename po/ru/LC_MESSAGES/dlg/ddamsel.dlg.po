@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddamsel.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 21:37+0600\n"
+"PO-Revision-Date: 2012-05-29 23:55+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,13 +11,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 2207
 msgid ""
 "You see a pretty, young woman. Her hair is in disarray and the bodice of her "
 "dress is torn. She looks about in desperation and then notices you. "
 msgstr ""
+"Перед тобой симпатичная девушка. Ее волосы спутаны, а корсаж платья разорван. "
+"Будучи явно на грани отчаяния, она замечает тебя."
 
 #: 2208
 msgid "\"Greetings.\""
@@ -33,18 +36,19 @@ msgid ""
 "stained with blood. \"Help me, cutter! Please! They're killing my sister!\" "
 "She begins to tug on your arm."
 msgstr ""
+"Она подбегает к тебе и хватает за руку. Ты замечаешь, что ее платье заляпано "
+"кровью. \"Рубака, помоги мне! Пожалуйста! Они хотят убить мою сестру!\" Она "
+"тянет тебя за руку."
 
 #: 51525
-#, fuzzy
 msgid "\"Who?\""
 msgstr "\"Кто?\""
 
 #: 51526
 msgid "\"I'll help you, take me to her.\""
-msgstr ""
+msgstr "\"Я помогу тебе, отведи меня к ней\"."
 
 #: 51527 51532 51535 51542 51556
-#, fuzzy
 msgid "\"I don't have time for this, farewell.\""
 msgstr "\"У меня нет времени на это. Прощай\"."
 
@@ -54,20 +58,25 @@ msgid ""
 "taverns... we thought he meant no harm... please, cutter, there is no more "
 "time! Help us!\""
 msgstr ""
+"Она озирается по сторонам. \"Это тот пьяница, который шел за нами из "
+"таверны... Мы думали, он безобидный... Пожалуйста, рубака, скорее! Помоги "
+"нам!\""
 
 #: 51529
 msgid ""
 "\"Wait, first you said *they* were killing your sister, and now you say *he* "
 "is killing her. Which is it?\""
 msgstr ""
+"\"Постой, в начале ты говорила, что *они* хотят убить твою сестру, а теперь "
+"ты говоришь, что *он* хочет убить ее. Как это понимать?\""
 
 #: 51530
 msgid "\"Why did he attack her?\""
-msgstr ""
+msgstr "\"Почему он напал на нее?\""
 
 #: 51531
 msgid "\"I'll help you, take me to her."
-msgstr ""
+msgstr "\"Я помогу тебе, отведи меня к ней\"."
 
 #: 51533
 msgid ""
@@ -75,24 +84,27 @@ msgid ""
 "mistake.\" She glances at the blood that stains her dress. \"Please help me, "
 "cutter!\""
 msgstr ""
+"Она смотрит на тебя, не зная, что сказать. \"Я... я сильно испугалась... Я "
+"перепутала\". Она смотрит на пятно крови на платье. \"Пожалуйста, рубака, "
+"помоги мне!\""
 
 #: 51534 51555
-#, fuzzy
 msgid "Examine the blood on her dress."
-msgstr "Осмотреть книги."
+msgstr "Осмотреть кровь на ее платье."
 
 #: 51536
 msgid ""
 "You glance down at her dress and look at the blood. Although it does appear "
 "to be real, it has completely dried. It must be hours old."
 msgstr ""
+"Ты внимательно смотришь на кровь на платье. Несмотря на то, что она похоже на "
+"настоящую, она уже высохла. Скорее всего, этому пятну уже несколько часов."
 
 #: 51537
 msgid "\"That blood is hours old... What are you up to?\""
-msgstr ""
+msgstr "\"Эта кровь высохла несколько часов назад... Ты что-то скрываешь?\""
 
 #: 51538
-#, fuzzy
 msgid "\"No, I'll be going now. Farewell.\""
 msgstr "\"Нет. Я должен идти. Прощай\"."
 
@@ -102,16 +114,21 @@ msgid ""
 "you can hear a hint of nervousness in her voice. \"You are mistaken, cutter, "
 "please help me! My sister lies dying while we tarry!\""
 msgstr ""
+"Она мельком смотрит на пятно крови. Тебе кажется, что в ее голосе появились "
+"нотки нервозности. \"Ты ошибся, рубака, пожалуйста, помоги мне! Пока мы тут "
+"прохлаждаемся, моя сестра умрет!\""
 
 #: 51540
 msgid ""
 "Truth: \"You're up to something. Tell me what's going on or I'll kill you.\""
 msgstr ""
+"Правда: \"Ты что-то скрываешь. Скажи мне, что происходит или я убью тебя\"."
 
 #: 51541
 msgid ""
 "Bluff: \"You're up to something. Tell me what's going on or I'll kill you.\""
 msgstr ""
+"Блеф: \"Ты что-то скрываешь. Скажи мне, что происходит или я убью тебя\"."
 
 #: 51543
 msgid ""
@@ -120,24 +137,30 @@ msgid ""
 "supposed to lure people into an alley nearby. They're waiting there... to "
 "take your jink...\" She looks at you apprehensively."
 msgstr ""
+"Она смотрит тебе в глаза, оглядывает шрамы, покрывающие твое тело. Нервно "
+"сглотнув, она бледнеет буквально у тебя на глазах. \"Я... я должна завлечь "
+"людей в ближайший переулок. Там поджидают другие... чтобы забрать твои "
+"звенелки...\" Она со страхом смотрит на тебя."
 
 #: 51544
 msgid "\"Let me give you some advice...\""
-msgstr ""
+msgstr "\"Позволь мне дать тебе один совет...\""
 
 #: 51545
 msgid "\"Get out of here and don't come back...\""
-msgstr ""
+msgstr "\"Проваливай отсюда и никогда не возвращайся назад...\""
 
 #: 51546
 msgid "She gazes at you in silence then nods her head."
-msgstr ""
+msgstr "Она молча кивает тебе в ответ."
 
 #: 51547
 msgid ""
 "\"Don't pick someone like me as your mark. Choose some drunken fop who looks "
 "like he's never seen a battle in his life...\""
 msgstr ""
+"\"Не выбирай в качестве жертвы такого, как я. Лучше поищи кого-нибудь "
+"подвыпившего хлыща, который никогда в жизни не бывал в битве...\""
 
 #: 51548 51551
 msgid "\"Never mind, farewell.\""
@@ -145,19 +168,23 @@ msgstr "\"Неважно, прощай\"."
 
 #: 51549
 msgid "She nods once curtly."
-msgstr ""
+msgstr "Она коротко кивает."
 
 #: 51550
 msgid ""
 "\"And make sure he looks like he has more than a couple coins to his name... "
 "Now get out of here.\""
 msgstr ""
+"\"И удостоверься, что он выглядит на большую сумму, чем пара монет... А "
+"теперь прочь с глаз моих\"."
 
 #: 51552
 msgid ""
 "She nods curtly and then backs away from you. She hesitates for a moment and "
 "turns to leave. \"Thank you, cutter.\" She sprints off."
 msgstr ""
+"Она коротко кивает и отступает от тебя. Секунду поколебавшись, она собирается "
+"уйти. \"Спасибо, рубака\". Она срывается с места."
 
 #: 51553 51563
 msgid "Leave."
@@ -169,31 +196,34 @@ msgid ""
 "then he drew a knife...\" She looks at the front of her dress, and then tugs "
 "at your arm again."
 msgstr ""
+"\"Когда она узнала, что у него нет ни гроша, она сказала, что не будет спать "
+"с ним! А он достал нож...\" Взглянув на платье, она снова тянет тебя за руку."
 
 #: 51557
 msgid "\"Please, cutter, don't ignore me. I need help!\""
-msgstr ""
+msgstr "\"Пожалуйста, рубака, не проходи мимо. Мне нужна помощь!\""
 
 #: 51558
-#, fuzzy
 msgid "\"What do you want of me?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Что ты хочешь от меня?\""
 
 #: 51559
 msgid "Continue to ignore her."
-msgstr ""
+msgstr "Продолжать игнорировать ее."
 
 #: 51560
 msgid ""
 "A look of relief washes over her face. She tugs at your arm. \"This way, "
 "cutter.\""
 msgstr ""
+"На ее лице появилось чувство облегчения. Она тянет тебя за руку. \"Сюда, "
+"рубака\"."
 
 #: 51561
-#, fuzzy
 msgid "Follow her."
-msgstr "Идти за ней..."
+msgstr "Идти за ней."
 
 #: 51562
 msgid "As you walk away the woman continues weeping and crying out."
-msgstr ""
+msgstr "Видя, как ты уходишь, девушка продолжает плакать и кричать."
+
