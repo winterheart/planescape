@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dnordom.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-02-19 22:07+0600\n"
+"PO-Revision-Date: 2012-05-30 01:39+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.4\n"
 "Language: ru\n"
 
 #: 16630
@@ -265,38 +265,38 @@ msgid ""
 "\"Query: Received. Response: Nordom is readied and waited. Awaiting to "
 "profess further directives.\""
 msgstr ""
+"\"Запрос: получен. Ответ: Нордом готов и ожидает. Ожидание дальнейших "
+"указаний для переработки\"."
 
 #: 54848
 msgid "\"Actually, it's 'process'... never mind. Vhailor?\""
-msgstr ""
+msgstr "\"Вообще-то, для 'обработки'... А, неважно. Вейлор?\""
 
 #: 54849
 msgid "\"Actually, it's 'process'... never mind. Ignus?\""
-msgstr ""
+msgstr "\"Вообще-то, для 'обработки'... А, неважно. Игнус?\""
 
 #: 54850
 msgid "\"Actually, it's 'process'... never mind. Fall-From-Grace?\""
-msgstr ""
+msgstr "\"Вообще-то, для 'обработки'... А, неважно. Падшая Грация?\""
 
 #: 54851
 msgid "\"Actually, it's 'process'... never mind. Annah?\""
-msgstr ""
+msgstr "\"Вообще-то, для 'обработки'... А, неважно. Анна?\""
 
 #: 54852 54853
-#, fuzzy
 msgid "\"Actually, it's 'process'... never mind. Dak'kon?\""
-msgstr "\"На самом деле, ничего. Прощай\"."
+msgstr "\"Вообще-то, для 'обработки'... А, неважно. Даккон?\""
 
 #: 54854 54855
-#, fuzzy
 msgid "\"Actually, it's 'process'... never mind. Morte?\""
-msgstr "\"На самом деле, ничего. Прощай\"."
+msgstr "\"Вообще-то, для 'обработки'... А, неважно. Морт?\""
 
 #: 54856 54857 54858
-#, fuzzy
 msgid ""
 "\"All right then... let's see what's on the other side of this portal.\""
-msgstr "\"Хорошо. Ответь тогда на несколько вопросов\"."
+msgstr ""
+"\"Хорошо... А теперь посмотрим, что же находится по ту сторону портала\"."
 
 #: 55092 61281
 msgid ""
@@ -2171,13 +2171,15 @@ msgstr ""
 
 #: 61785
 msgid "\"I do not accept orders from you.\""
-msgstr ""
+msgstr "\"Я не принимаю приказов от тебя\"."
 
 #: 61786
 msgid ""
 "\"That is physically impossible for you without surrogate arms. Nor am I "
 "numbered like a die.\""
 msgstr ""
+"\"Для тебя это физически невозможно без заменителя рук. Кроме того, на моих "
+"гранях нет цифр, как на игральных костях\"."
 
 #: 61787
 msgid "\"They do not require reloading. They are always ready to fire.\""

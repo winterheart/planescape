@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dignus.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-02-19 21:38+0600\n"
+"PO-Revision-Date: 2012-05-30 01:47+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.4\n"
 "Language: ru\n"
 
 #: 16198
@@ -269,31 +269,29 @@ msgstr ""
 
 #: 54145
 msgid "*\"I am yourssss... 'til death comessss for ussss BOTH...\"*"
-msgstr ""
+msgstr "\"*Я твой... Пока ссссмерть не придет к нам ОБОИМ...*\""
 
 #: 54146
 msgid "\"I... see. Fall-From-Grace?\""
-msgstr ""
+msgstr "\"Понятно... Падшая Грация?\""
 
 #: 54147
 msgid "\"I... see. Annah?\""
-msgstr ""
+msgstr "\"Понятно... Анна?\""
 
 #: 54148 54149
-#, fuzzy
 msgid "\"I... see. Dak'kon?\""
-msgstr "\"Прощай, Дхолл\"."
+msgstr "\"Понятно... Даккон?\""
 
 #: 54150 54151
-#, fuzzy
 msgid "\"I... see. Morte?\""
-msgstr "\"Я... кажется, потерялся\". "
+msgstr "\"Понятно... Морт?\""
 
 #: 54152 54153 54154
-#, fuzzy
 msgid ""
 "\"All right then... let's see what's on the other side of this portal.\""
-msgstr "\"Хорошо. Ответь тогда на несколько вопросов\"."
+msgstr ""
+"\"Хорошо... А теперь посмотрим, что же находится по ту сторону портала\"."
 
 #: 57439 57610 57639
 msgid "\"Ignus... is it true you burned down the Alley of Dangerous Angles?\""

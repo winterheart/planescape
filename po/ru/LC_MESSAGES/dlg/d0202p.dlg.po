@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 03:00+0500\n"
+"PO-Revision-Date: 2012-05-30 01:32+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 36382
 msgid ""
@@ -21,15 +22,18 @@ msgid ""
 "some reason, you KNOW this is the portal to the Fortress of Regrets... now "
 "all you need to do is open it."
 msgstr ""
+"В этой арке есть что-то... пугающе знакомое. Воздух между двумя черными "
+"колоннами наполнен мертвенно-затхлым воздухом, словно арка граничит с более "
+"холодным пространством. По какой-то причине ты ЗНАЕШЬ, что это портал в "
+"Крепость Сожалений... Теперь все, нужно сделать, это открыть его."
 
 #: 36383
 msgid "Grit your teeth and peel the skin from your left forearm..."
-msgstr ""
+msgstr "Сжать челюсть и вырвать кожу с левого предплечья..."
 
 #: 36384 53642 66929
-#, fuzzy
 msgid "Leave the portal alone... for now."
-msgstr "Оставить существо в покое."
+msgstr "Оставить портал в покое... пока."
 
 #: 53637
 msgid ""
@@ -38,6 +42,9 @@ msgid ""
 "pillars becomes stronger, almost hungering, as if the portal has opened a "
 "crack..."
 msgstr ""
+"Стиснув зубы, ты впиваешься ногтями в левое предплечье. С сухим треском ты "
+"вырываешь полоску кожи. Холод между колоннами становится все сильнее, словно "
+"в портале обнаружилась трещина..."
 
 #: 53640
 msgid ""
@@ -47,12 +54,18 @@ msgid ""
 "all you need to do is inscribe a regret on the scrap of skin you ripped from "
 "arm."
 msgstr ""
+"Ты снова стоишь перед аркой. Воздух между двумя черными колоннами наполнен "
+"мертвенно-затхлым воздухом, словно арка граничит с более холодным "
+"пространством. Это портал в Крепость Сожалений... Теперь все, нужно сделать, "
+"это написать слова сожаления на полоске кожи, которую ты вырвал из своей "
+"руки."
 
 #: 53641 53644
 msgid ""
 "Prick your left index finger, and inscribe a regret on the scrap of flesh "
 "with your blood..."
 msgstr ""
+"Проколоть левый указательный и кровью написать раскаяние на клочке кожи..."
 
 #: 53643
 msgid ""
@@ -60,11 +73,13 @@ msgid ""
 "scarred, gray surface reminds you of a zombie's hide; it feels more like a "
 "piece of cured leather than a strip of skin. "
 msgstr ""
+"Этот клочок кожи был содран с тыльной стороны твоего левого предплечья. Его "
+"покрытая шрамами серая поверхность напоминает тебе шкуру зомби. Он больше "
+"похож на кусок дубленой шкуры, чем на полоску кожи."
 
 #: 53645 53973
-#, fuzzy
 msgid "Put the skin away..."
-msgstr "Выбросить записку."
+msgstr "Отложить кожу..."
 
 #: 53646
 msgid ""
@@ -72,210 +87,223 @@ msgid ""
 "squeeze forth several drops of blood. As you prepare to scrawl your regret, "
 "a series of images float across your mind..."
 msgstr ""
+"Ты прокалываешь кончик указательного пальца. Прежде чем рана успевает "
+"затянуться, ты выдавливаешь несколько капель крови. Пока ты готовишься "
+"написать раскаяние, в твоей голове проносится несколько образов..."
 
 #: 53647 53969
 msgid "Regret: \"I regret what happened to my companions...\""
-msgstr ""
+msgstr "Раскаяние: \"Я сожалею о том, что случилось с моими товарищами...\""
 
 #: 53648 53970
 msgid "Regret: \"I regret my actions...\""
-msgstr ""
+msgstr "Раскаяние: \"Я сожалею о содеянном...\""
 
 #: 53649 53971
 msgid "Regret: \"I regret my past...\""
-msgstr ""
+msgstr "Раскаяние: \"Я сожалею о своем прошлом...\""
 
 #: 53650 53972
 msgid "Regret: \"I regret events that have led up to this point...\""
-msgstr ""
+msgstr "Раскаяние: \"Я сожалею о событиях, приведших ко всему этому...\""
 
 #: 53651 53895 53906 53916 53923
 msgid "Let the wound heal without writing on the flesh, and put the skin away."
-msgstr ""
+msgstr "Позволить ранке затянуться, отложить кожу."
 
 #: 53653 53896 53907 53917
 msgid ""
 "You whisper the words to yourself, but the regret echoes through your mind: "
 "'I regret...'"
 msgstr ""
+"Ты шепчешь слова про себя, но раскаяние отдается эхом в твоей голове: \"Я "
+"сожалею...\""
 
 #: 53655
 msgid "\"...all my companions had to suffer for me to reach here.\""
 msgstr ""
+"\"...о том, что всем моим товарищам пришлось страдать, чтобы я сюда добрался"
+"\"."
 
 #: 53869
 msgid "\"...trying to sell Morte to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что пытался продать Морта Вришике\"."
 
 #: 53870
 msgid "\"...trying to sell Annah to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что пытался продать Анну Вришике\"."
 
 #: 53871
 msgid "\"...trying to sell Dak'kon to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что пытался продать Даккона Вришике\"."
 
 #: 53872
 msgid "\"...trying to sell Fall-From-Grace to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что пытался продать Падшую Грацию Вришике\"."
 
 #: 53873
 msgid "\"...trying to sell Nordom to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что пытался продать Нордома Вришике\"."
 
 #: 53874
 msgid "\"...not selling Morte to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что не продал Морта Вришике\"."
 
 #: 53875
 msgid "\"...not selling Annah to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что не продал Анну Вришике\"."
 
 #: 53878
 msgid "\"...not selling Dak'kon to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что не продал Даккона Вришике\"."
 
 #: 53879
 msgid "\"...not selling Nordom to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что не продал Нордома Вришике\"."
 
 #: 53880
 msgid "\"...for selling Morte to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что продал Морта Вришике\"."
 
 #: 53881
 msgid "\"...for selling Annah to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что продал Анну Вришике\"."
 
 #: 53882
 msgid "\"...for selling Dak'kon to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что продал Даккона Вришике\"."
 
 #: 53883
 msgid "\"...for selling Nordom to Vrischika.\""
-msgstr ""
+msgstr "\"...о том, что продал Нордома Вришике\"."
 
 #: 53884
 msgid "\"...enslaving Dak'kon all these decades.\""
-msgstr ""
+msgstr "\"...о том, что держал Даккона в рабстве все эти годы\"."
 
 #: 53885
 msgid "\"...having taught Ignus the power to harm others.\""
-msgstr ""
+msgstr "\"...о том, что научил Игнуса силе, причиняющей другим боль\"."
 
 #: 53886
 msgid "\"...betraying Morte and leaving him in the Pillar of Skulls.\""
-msgstr ""
+msgstr "\"...о том, что предал Морта и оставил его в Колонне Черепов\"."
 
 #: 53887
 msgid "\"...Dak'kon's death.\""
-msgstr ""
+msgstr "\"...о смерти Даккона\"."
 
 #: 53888
-#, fuzzy
 msgid "\"...Annah's death.\""
-msgstr "\"Эээ... что?\""
+msgstr "\"...о смерти Анны\"."
 
 #: 53889
-#, fuzzy
 msgid "\"...Morte's death.\""
-msgstr "\"Он тоже мертв\"."
+msgstr "\"...о смерти Морта\"."
 
 #: 53890
-#, fuzzy
 msgid "\"...Fall-From-Grace's death.\""
-msgstr "Падшая Грация"
+msgstr "\"...о смерти Падшей Грации\"."
 
 #: 53891
 msgid "\"...the death of Ignus.\""
-msgstr ""
+msgstr "\"...о смерти Игнуса\"."
 
 #: 53892
-#, fuzzy
 msgid "\"...Nordom's death.\""
-msgstr "\"Без понятия\"."
+msgstr "\"...о смерти Нордома\"."
 
 #: 53893
 msgid "\"...Vhailor's death.\""
-msgstr ""
+msgstr "\"...о смерти Вейлора\"."
 
 #: 53894 53905 53915 53922
-#, fuzzy
 msgid "Think of another regret..."
-msgstr "\"Тогда у меня есть другой вопрос...\""
+msgstr "Раскаяться в чем-то другом..."
 
 #: 53897
-#, fuzzy
 msgid "\"...I didn't get to kill more people.\""
-msgstr "\"Я не хочу больше слушать. Прощай\"."
+msgstr "\"...о том, что не было случая убить еще больше народу\"."
 
 #: 53898 53899
 msgid "\"...not setting Coaxmetal free from the siege tower.\""
-msgstr ""
+msgstr "\"...о том, что не выпустил Убежденного Металла из осадной башни\"."
 
 #: 53900
 msgid "\"...setting Coaxmetal free from the siege tower.\""
-msgstr ""
+msgstr "\"...о том, что выпустил Убежденного Металла из осадной башни\"."
 
 #: 53903
 #, fuzzy
 msgid "\"...having to slay Ravel.\""
-msgstr "\"Тогда нам не о чем больше говорить. Прощай\"."
+msgstr "\"...о том, что пришлось убить Равель\"."
 
 #: 53904
 msgid ""
 "\"...I wandered all over the Planes when the damn portal was right here when "
 "I FIRST woke up.\""
 msgstr ""
+"\"...о том, что бродил по планам, в то время как портал был прямо здесь, "
+"когда я очнулся ВПЕРВЫЕ\"."
 
 #: 53908
 msgid "\"...ever asking to become immortal.\""
-msgstr ""
+msgstr "\"...о том, что просил о бессмертии\"."
 
 #: 53909
 msgid ""
 "\"...Fin Andlye's murder. If I hadn't become immortal, that paranoid "
 "incarnation of mine never would have killed him...\""
 msgstr ""
+"\"...об убийстве Фина Эндли. Если бы я не стал бессмертным, мое "
+"параноидальное воплощение никогда бы его не убило...\""
 
 #: 53910
 msgid ""
 "\"...the damage my previous incarnations have done, to themselves and to "
 "others.\""
 msgstr ""
+"\"...о всех бедах, которые мои прежние воплощения причинили самим себе и "
+"другим\"."
 
 #: 53911
 msgid "\"...the deaths I've caused, here and across the multiverse.\""
 msgstr ""
+"\"...о смертях, причиной которых стал я, здесь и по всей мультивселенной\"."
 
 #: 53912
 msgid "\"...lying to Deionarra to force her to accompany me on my journey.\""
 msgstr ""
+"\"...о том, что солгал Дейонарре, чтобы заставить ее сопровождать меня в "
+"моих странствиях\"."
 
 #: 53913
 msgid "\"...murdering Deionarra at the Fortress of Regrets.\""
-msgstr ""
+msgstr "\"...о том, что убил Дейонарру в Крепости Сожалений\"."
 
 #: 53914
 msgid ""
 "\"...the suffering I caused Iannis by leading his daughter to her death.\""
 msgstr ""
+"\"...о страданиях, которые я причинил Янису, доведя его дочь до смерти\"."
 
 #: 53918
 msgid "\"...it took *this* long to find where my mortality lies.\""
-msgstr ""
+msgstr "\"...о том, *как* долго пришлось искать истоки моей смертности\"."
 
 #: 53919
 msgid "\"...it took this many deaths to reach this point.\""
-msgstr ""
+msgstr "\"...о том, скольким пришлось умереть, чтобы я добрался сюда\"."
 
 #: 53920
 msgid "\"...there's no one here to share this moment with me.\""
-msgstr ""
+msgstr "\"...о том, что некому больше разделить со мной этот миг\"."
 
 #: 53921
 msgid "\"...that I have no regrets to write upon this scrap of skin.\""
 msgstr ""
+"\"...о том, что у меня нет сожалений, которые я мог бы записать на этом "
+"клочке кожи\"."
 
 #: 53924
 msgid ""
@@ -285,10 +313,14 @@ msgid ""
 "on the scrap of skin... a combination of your flesh, your blood, and your "
 "regret."
 msgstr ""
+"Ты пишешь раскаяние на клочке кожи... но из-за быстрой регенерации тебе "
+"часто приходится прерываться, чтобы снова проколоть палец и выдавить еще "
+"немного крови. Через пару секунд ты закончил. Твоя кровь блестит на клочке "
+"кожи... сочетание твоей плоти, крови, и твоего раскаяния."
 
 #: 53926 53927
 msgid "Watch the blood dry..."
-msgstr ""
+msgstr "Следить как высыхает кровь..."
 
 #: 53928
 msgid ""
@@ -298,18 +330,22 @@ msgid ""
 "between them. Beyond the curtain, you can barely make out a weathered stone "
 "causeway leading into darkness."
 msgstr ""
+"Пока ты смотришь на кровавые сожаления, волна холода обхватывает тебя со "
+"всех сторон. Ты смотришь вверх; черные колонны по сторонам арки мягко "
+"светятся, искры туманно-синего цвета кружат вдоль них, образуя мерцающий "
+"занавес между ними. Позади него ты едва различаешь выветренную глыбу, "
+"плывущую посреди тьмы."
 
 #: 53929 53930 53931 53932 53934 53935 53936 53937 53938 53939 53948 53949
 #: 53950 53951 53952 53954 53956 53957 53958 53959
-#, fuzzy
 msgid "\"Everybody ready?\""
-msgstr "\"Везде?\""
+msgstr "\"Все готовы?\""
 
 #: 53940 53941 53942
 msgid ""
 "Hold the scrap of skin with your regret upon it, then step through the "
 "curtain."
-msgstr ""
+msgstr "Сжать полоску кожи с сожалениями и шагнуть сквозь занавес."
 
 #: 53943 53963
 msgid "Leave the portal alone."
@@ -323,22 +359,30 @@ msgid ""
 "shimmering curtain between them. Beyond the curtain, you can barely make out "
 "a weathered stone causeway leading into darkness."
 msgstr ""
+"Когда ты подходишь с сожалениями к колоннам, что ведут в Крепость, ты "
+"чувствуешь волну холода. Черные колонны по сторонам арки мягко светятся, "
+"искры туманно-синего цвета кружат вдоль них, образуя мерцающий занавес между "
+"ними. Позади него ты едва различаешь выветренную глыбу, плывущую посреди "
+"тьмы."
 
 #: 53960 53961 53962 53965
 msgid ""
 "Hold the scrap of skin with your regret upon it, then prepare to step "
 "through the curtain."
 msgstr ""
+"Сжать полоску кожи с сожалениями и приготовиться шагнуть сквозь занавес."
 
 #: 53964
 msgid ""
 "Your question is met with silence; none of your companions are close enough "
 "to hear you. "
 msgstr ""
+"Твой вопрос повисает в тишине. Твои спутники недостаточно близко, чтобы "
+"слышать тебя."
 
 #: 53966
 msgid "Go find your companions, then return to the portal."
-msgstr ""
+msgstr "Найти своих спутников и вернуться к порталу."
 
 #: 53967
 msgid ""
@@ -347,14 +391,18 @@ msgid ""
 "forth some more blood. As you prepare to scrawl your regret, a series of "
 "images float across your mind.... "
 msgstr ""
+"За те несколько мгновений, которые ты потратил на обдумывание, порез на "
+"пальце полностью зажил; тебе приходиться снова проколоть палец и выдавить "
+"еще немного крови. Пока ты готовишься написать раскаяние, в твоей голове "
+"проносится несколько образов..."
 
 #: 66925
 msgid "...but you have no room to hold the skin, and it falls to the floor."
-msgstr ""
+msgstr "...но у тебя не хватает места для кожи, и она падает на землю."
 
 #: 66926
 msgid "Turn away from the portal and pick up the skin."
-msgstr ""
+msgstr "Отойти от портала и поднять кожу."
 
 #: 66928
 msgid "Examine the skin..."
