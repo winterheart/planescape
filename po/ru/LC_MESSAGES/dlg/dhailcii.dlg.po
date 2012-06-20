@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dhailcii.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:42+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-06-20 23:30+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,6 +18,8 @@ msgid ""
 "This capable githzerai warrior has been watching you closely as you "
 "approach. As you draw near, he suddenly draws his sword and attacks!"
 msgstr ""
+"Этот умелый воин-гитцерай внимательно следит за твоим приближением. Когда ты "
+"подходишь ближе, он внезапно обнажает меч и бросается в атаку!"
 
 #: 45139
 msgid "Fight."
@@ -34,57 +36,59 @@ msgid ""
 "like two small black stones. He bows to you as you approach. \"Greetings, "
 "sword-ringer. I *know* of your timely information. Ask what you will of me.\""
 msgstr ""
+"У этого человека желтый оттенок кожи и худощавое лицо. Его тело покрыто "
+"татуировками и шрамами; на груди у него висит длинный клинок. Его глаза - "
+"словно два уголька. Он кланяется тебе, когда ты подходишь. \"Приветствую, "
+"звенящий мечом. Мне *известно* о твоей своевременной наводке. Скажи, чего ты "
+"хочешь от меня\"."
 
 #: 45142 45154 45249 45255 45270 45283 45289 45348
 msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 45143 45155 45185 45250 45256
-#, fuzzy
 msgid "\"Can you join my party?\""
-msgstr "\"Ты можешь это доказать?\""
+msgstr "\"Ты можешь присоединиться к моему отряду?\""
 
 #: 45144 45156 45186 45251 45257 45271 45284 45290 45349
-#, fuzzy
 msgid "\"Where did you get your scars?\""
-msgstr "\"Где ты ее нашла?\""
+msgstr "\"Где ты получил свои шрамы?\""
 
 #: 45145 45157 45187 45252 45258 45272 45285 45291 45350
-#, fuzzy
 msgid "\"Where did you get your tattoos?\""
-msgstr "\"Где ты ее нашла?\""
+msgstr "\"Где ты получил свои татуировки?\""
 
 #: 45146 45147 45158 45159 45188 45191 45231 45232 45259 45260 45273 45274
 msgid "\"What is the difference between githzerai and githyanki?\""
-msgstr ""
+msgstr "\"В чем разница между гитцераями и гитьянки?\""
 
 #: 45148 45160 45192 45233 45261 45275 45286 45292 45351
-#, fuzzy
 msgid "\"Can you teach me to speak your language?\""
-msgstr "\"Что ты можешь рассказать об этом месте?\""
+msgstr "\"Ты можешь обучить меня своему языку?\""
 
 #: 45149 45161 45194 45253 45262 45276 45287 45293 45352
-#, fuzzy
 msgid "\"I require nothing. Thanks, and farewell.\""
-msgstr "\"Хорошо. Спасибо и прощай\"."
+msgstr "\"Мне ничего не нужно. Спасибо и прощай\"."
 
 #: 45150
 msgid "\"I cannot. I have a duty to my people.\""
-msgstr ""
+msgstr "\"Я не могу. У меня есть долг перед своим народом\"."
 
 #: 45151
 msgid "\"What is that duty?\""
-msgstr ""
+msgstr "\"Что это за долг?\""
 
 #: 45152
 msgid "\"Then I'd like to ask you some more questions.\""
-msgstr ""
+msgstr "\"Тогда я хотел бы задать тебе еще несколько вопросов\"."
 
 #: 45153
 msgid ""
 "\"Ask your questions, but be not like Ach'ali drowning - make them direct "
 "and to the point.\""
 msgstr ""
+"\"Задавай свои вопросы, но уподобляйся тонущей Ачали: задавай их прямо и по "
+"сути\"."
 
 #: 45162 45297
 msgid ""
@@ -94,22 +98,27 @@ msgid ""
 "The scar upon my upper torso comes from the weak-driven blade of a githyanki "
 "kin-stealer.\" He nods at your scars. \"Speak the history of your scars.\""
 msgstr ""
+"Он поднимает руки, почтительно прикладывает их к своему лицу, потом к груди. "
+"\"Шрамы, украшающие мое лицо, получены в стычках в залах Ильсенсайна. Мой "
+"отряд рракма был едва не поглощен трусливыми *иллитидами*. Шрам на верхней "
+"части моего торса получен от неверного удара 'крадущего форму', клинка "
+"гитьянки, - он кивает на твои шрамы. - Поведай историю своих шрамов\"."
 
 #: 45163
-#, fuzzy
 msgid "\"I do not recall how I earned most of them.\""
-msgstr "\"Не думаю, что я должен оправдываться перед тобой\"."
+msgstr "\"Я не помню, как получил большинство из них\"."
 
 #: 45164
 msgid ""
 "\"They have come from so many battles that the tale would be too long in the "
 "telling.\""
 msgstr ""
+"\"Они получены в столь многих битвах, что этот рассказ займет слишком много "
+"времени\"."
 
 #: 45165 45166
-#, fuzzy
 msgid "\"They're just scars. I had some other questions...\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Это всего лишь шрамы. У меня есть другие вопросы...\""
 
 #: 45167 45319
 msgid ""
@@ -121,25 +130,32 @@ msgid ""
 "eighth silenced Ro'jhi's mind.\" He nods at your tattoos. \"Speak the "
 "history of your tattoos.\""
 msgstr ""
+"\"Они рассказывают историю моего рода и даруют мне его силу и дух. Одна из "
+"них, наколотая Арджароком с острова Сеал, повествует о моем сородиче, "
+"Джиликаи, которых похоронил своих врагов в стенах Шракатлора. А вот эта "
+"сделана Феллом, ходящим дабусом, и рассказывает о нашей с Роджхи битве: на "
+"плане Лимбо мы победили семерых слаади, прежде чем восьмой заглушил разум "
+"Роджхи, - он кивает на твои татуировки. - Поведай историю своих татуировок\"."
 
 #: 45168 45320
 msgid "\"They speak of what I hope to accomplish.\""
-msgstr ""
+msgstr "\"Они рассазывают о том, что я надеюсь осуществить\"."
 
 #: 45169 45321
 msgid ""
 "\"They speak of the obstacles I have overcome, and the tales of my past lest "
 "I forget them.\""
 msgstr ""
+"\"Они рассказывают о преодоленных мной препятствиях и хранят рассказы о моем "
+"прошлом, чтобы я не забыл его\"."
 
 #: 45170 45171
 msgid "\"They're just tattoos. Tell me of Fell.\""
-msgstr ""
+msgstr "\"Это всего лишь татуировки. Расскажи мне о Фелле\"."
 
 #: 45172 45173 45322
-#, fuzzy
 msgid "\"They're just tattoos. I had some other questions...\""
-msgstr "\"Забудь. У меня есть еще вопросы...\""
+msgstr "\"Это всего лишь татуировки. У меня есть другие вопросы...\""
 
 #: 45174
 msgid ""
@@ -148,14 +164,16 @@ msgid ""
 "encounter one, remember the lessons of Selqant's heart and Vilquar's eye - "
 "and remember that the githyanki are trebly worse.\""
 msgstr ""
+"Он прищуривает глаза и сплевывает на землю. \"Они кучка лживых вороватых "
+"продажных псов, которым нельзя доверять ни под каким предлогом. Если "
+"встретишь одного из них, вспомни урок сердца Сельканта и ока Вилькара... и "
+"помни, что гитьянки втройе хуже\"."
 
 #: 45175
-#, fuzzy
 msgid "\"What are those lessons?\""
-msgstr "\"Что это за уровни?\""
+msgstr "\"Что это за уроки?\""
 
 #: 45176 45210 45220 45228 45325 45342
-#, fuzzy
 msgid "\"Thanks. I had some other questions...\""
 msgstr "\"Спасибо. У меня есть другие вопросы...\""
 
@@ -170,16 +188,17 @@ msgid ""
 "my pleasure. But, like a guest at Toryg's table, my platter is full. I "
 "cannot. Perhaps there is another you might try...\""
 msgstr ""
+"Он делает легкий поклон. \"Если бы не мой долг перед моим народом, я бы с "
+"радостью сделал это. Но, как у гостя за столом Тогира, моя тарелка полна. Я "
+"не могу. Может, тебе попросить кого-то другого...\""
 
 #: 45179 45345
-#, fuzzy
 msgid "\"Thanks anyway. I had a few more questions...\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Все равно спасибо. У меня есть другие вопросы...\""
 
 #: 45180 45346
-#, fuzzy
 msgid "\"Thanks anyway. Farewell.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай\"."
+msgstr "\"Все равно спасибо. Прощай\"."
 
 #: 45181
 msgid ""
@@ -188,22 +207,25 @@ msgid ""
 "githyanki, the stoniest-hearted breed of vermin ever to sail the Silver Sea."
 "\""
 msgstr ""
+"\"Селькант и Вилькар известны своей жестокостью и вероломством, и "
+"принадлежали к народу гитцераев. Но их деяния бледнеют на фоне гитьянки, "
+"самых бессердечных подонков, когда-либо плававших по Серебряному морю\"."
 
 #: 45182
-#, fuzzy
 msgid "\"I had some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще несколько вопросов...\""
 
 #: 45183
-#, fuzzy
 msgid "\"Thanks for your time. Farewell.\""
-msgstr "\"Спасибо за внимание. Прощай\"."
+msgstr "\"Спасибо за уделенное время. Прощай\"."
 
 #: 45184
 msgid ""
 "He pauses for a moment, and you have the feeling he disapproves of that "
 "answer. \"Ach'ali drowning, ask your questions, then.\""
 msgstr ""
+"На миг он умолкает, и ты ощущаешь, что он недоволен ответом. \"Тонущая "
+"Ачали, ну так задавай свои вопросы\"."
 
 #: 45197
 msgid ""
@@ -212,11 +234,13 @@ msgid ""
 "with you no longer.\" He closes his eyes for a moment, and then looks past "
 "you."
 msgstr ""
+"С гневом во глазах он отвешивает тебе поклон и произносит: \"Твои слова не "
+"делают тебе чести. И выслушивание их не делает чести мне. Я больше не стану "
+"с тобой говорить\". На миг он закрывает глаза, затем смотрит мимо тебя."
 
 #: 45198
-#, fuzzy
 msgid "\"I just wanted to ask a few questions...\""
-msgstr "\"У меня есть вопросы, которые я бы хотел задать...\""
+msgstr "\"Я хотел лишь задать пару вопросов...\""
 
 #: 45199
 msgid "\"Farewell, then.\""
@@ -224,34 +248,35 @@ msgstr "\"Тогда прощай\". "
 
 #: 45200
 msgid "Hit him."
-msgstr ""
+msgstr "Ударить его."
 
 #: 45201 45298
 msgid ""
 "His expression alters slightly - whether in confusion or contempt, you "
 "cannot tell. \"How can scars not tell stories of how they came to be?\""
 msgstr ""
+"Выражение его лица слегка меняется; трудно сказать, смятение это или "
+"презрение. \"Как шрамы могут умолчать о том, как они были получены?\""
 
 #: 45202 45203 45299
-#, fuzzy
 msgid "\"They're just scars. Everyone gets them.\""
-msgstr "\"Они не более чем крапинки по сравнению с путем Зертимона\"."
+msgstr "\"Это всего лишь шрамы. У каждого они есть\"."
 
 #: 45204 45300
-#, fuzzy
 msgid "\"I have lost the memory of their past and my past as well.\""
-msgstr "\"У меня нет времени на безумства. Прощай\"."
+msgstr "\"Я лишился воспоминаний о них, а также о своем прошлом\"."
 
 #: 45205 45311
 msgid ""
 "He pauses for a moment, absorbing this, and then: \"T'cha's Lament then. I "
 "mourn your loss of mind and history.\""
 msgstr ""
+"На миг он умолкает, переваривая это, затем говорит: \"Что ж, стенания Тча. Я "
+"сожалею, что ты утратил память и прошлое\"."
 
 #: 45206 45312
-#, fuzzy
 msgid "\"Thanks. I had a few more questions...\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Спасибо. У меня есть еще несколько вопросов...\""
 
 #: 45208 45323
 msgid ""
@@ -259,21 +284,23 @@ msgid ""
 "bring the future to the present and give it focus. There is an Anarch's "
 "wisdom in such tattoos. Your tales are noted.\""
 msgstr ""
+"Он ждет пару секунд, затем закрывает глаза и делает еще один поклон. \"Твои "
+"татуировки превращают будущее в настоящее и направляют его. В подобных "
+"татуировках кроется мудрость Вождей. Твои рассказы отмечены\"."
 
 #: 45209 45324 45328
-#, fuzzy
 msgid "\"Thanks. You spoke of Fell?\""
-msgstr "\"Ты мне очень помогла. Спасибо\"."
+msgstr "\"Спасибо. Ты упоминал Фелла?\""
 
 #: 45212 45327
-#, fuzzy
 msgid "He closes his eyes and bows. \"Your tales are noted, sword-ringer.\""
-msgstr "Он качает головой. \"Вход внутрь закрыт\"."
+msgstr ""
+"Он закрывает глаза и делает поклон. \"Твои рассказы отмечены, звенящий мечом"
+"\"."
 
 #: 45213
-#, fuzzy
 msgid "\"As are yours. I had some other questions...\""
-msgstr "\"Ну конечно. У меня есть другие вопросы...\""
+msgstr "\"Как и твои. У меня есть другие вопросы...\""
 
 #: 45214 45224 45234 45238 45317 45329 45338
 msgid "\"I had some other questions...\""
@@ -281,17 +308,15 @@ msgstr "\"У меня есть другие вопросы...\""
 
 #: 45215
 msgid "\"As are yours. Farewell.\""
-msgstr ""
+msgstr "\"Как и твои. Прощай\"."
 
 #: 45217 45218 45332
-#, fuzzy
 msgid "\"Where can I find Fell?\""
-msgstr "\"Где я могу найти ее?\""
+msgstr "\"Где мне найти Фелла?\""
 
 #: 45219 45333
-#, fuzzy
 msgid "\"What kind of strength?\""
-msgstr "\"Что это за имя такое?\""
+msgstr "\"Какого рода силу?\""
 
 #: 45222 45336
 msgid ""
@@ -299,11 +324,13 @@ msgid ""
 "portion. The directions in this city are poorly given - they are like "
 "following the ravings of an Anarch who does not *know* himself.\" "
 msgstr ""
+"\"Он находится в Улье, на севере юго-восточной области. В этом городе плохо "
+"объясняют дорогу: как будто ты следуешь бредовым идеям Вождя, не *знающего* "
+"себя\". "
 
 #: 45223 45337
-#, fuzzy
 msgid "\"What kind of strength can his tattoos give?\""
-msgstr "\"Что это за имя такое?\""
+msgstr "\"Какого рода силу дають его татуировки?\""
 
 #: 45226 45340
 msgid ""
@@ -312,11 +339,14 @@ msgid ""
 "would depend on the experience: tell Fell your tales, and the tattoos will "
 "grant their power when the tale is placed upon the flesh.\""
 msgstr ""
+"\"Татуировка Роджхи, который лишил жизни семерых слаади, придает силу моим "
+"конечностям, когда я сталкиваюсь с непреодолимыми трудностями. Характер силы "
+"будет зависит от опыта: расскажи Феллу истории о себе, и татуировки подарят "
+"тебе свою силу, как только рассказы попадут на кожу\"."
 
 #: 45227 45341
-#, fuzzy
 msgid "\"Where can I find him?\""
-msgstr "\"Где я могу найти ее?\""
+msgstr "\"Где мне его найти?\""
 
 #: 45230
 msgid ""
@@ -324,33 +354,33 @@ msgid ""
 "here to gather supplies. I have discovered that this city is like "
 "Try'ig'or's Gem - oft-praised, but little of value is to be found in it.\""
 msgstr ""
+"Он кивает тебе. \"Я Хайлциин, воин гитцераев. Я здесь за припасами. Я "
+"обнаружил, что этот город - словно камень Трайигора: его часто восхваляют, "
+"но ценности в нем найдется немного\"."
 
 #: 45236 45315
 msgid "He bows his head to you. \"Your prowess is noted, sword-ringer.\""
-msgstr ""
+msgstr "Он делает тебе кивок. \"Твоя доблесть отмечена, звенящий мечом\"."
 
 #: 45237
-#, fuzzy
 msgid "\"As is yours. I had some other questions...\""
-msgstr "\"Ну конечно. У меня есть другие вопросы...\""
+msgstr "\"Как и твоя. У меня есть другие вопросы...\""
 
 #: 45239
 msgid "\"As is yours. Farewell.\""
-msgstr ""
+msgstr "\"Как и твоя. Прощай\"."
 
 #: 45241 45263 45266
 msgid "Hailcii'n bows to you. \"Greetings, sword-ringer.\""
-msgstr ""
+msgstr "Хайлциин отвешивает тебе поклон. \"Приветствую, звенящий мечом\"."
 
 #: 45242 45264 45267 45278
-#, fuzzy
 msgid "\"Greetings. I had some questions...\""
-msgstr "\"Забудь об этом. У меня есть некоторые вопросы...\""
+msgstr "\"Здравствуй. У меня есть некоторые вопросы...\""
 
 #: 45247 45265 45268 45279
-#, fuzzy
 msgid "\"Hail and farewell.\""
-msgstr "\"Спасибо... Прощай\"."
+msgstr "\"Здравствуй и прощай\"."
 
 #: 45248 45254
 msgid ""
@@ -359,6 +389,11 @@ msgid ""
 "like two small black stones. He bows to you as you approach. \"Greetings, "
 "sword-ringer. I *know* of your aid to the people. Ask what you will of me.\""
 msgstr ""
+"У этого человека желтый оттенок кожи и худощавое лицо. Его тело покрыто "
+"татуировками и шрамами; на груди у него висит длинный клинок. Его глаза - "
+"словно два уголька. Он кланяется тебе, когда ты подходишь. \"Приветствую, "
+"звенящий мечом. Мне *известно* о твоей помощи моему народу. Скажи, чего ты "
+"хочешь от меня\"."
 
 #: 45269
 msgid ""
@@ -367,12 +402,18 @@ msgid ""
 "like two small black stones. He watches you as you approach, and he waits "
 "until you speak. \"I do not *know* you... but I will speak to you.\""
 msgstr ""
+"У этого человека желтый оттенок кожи и худощавое лицо. Его тело покрыто "
+"татуировками и шрамами; на груди у него висит длинный клинок. Его глаза - "
+"словно два уголька. Он кланяется тебе, когда ты подходишь. \"Я тебя не "
+"*знаю*... однако я буду говорить с тобой\"."
 
 #: 45277
 msgid ""
 "Hailcii'n watches you calmly as you approach, and offers a laconic, "
 "\"Greetings, traveler.\""
 msgstr ""
+"Хаилциин спокойно наблюдает за твоим приближением, потом лаконично "
+"произносит: \"Приветствую, путник\"."
 
 #: 45280
 msgid ""
@@ -381,6 +422,10 @@ msgid ""
 "like two small black stones. As you approach, he bows to Dak'kon. \"All "
 "beholden, *zerth.*\""
 msgstr ""
+"У этого человека желтый оттенок кожи и худощавое лицо. Его тело покрыто "
+"татуировками и шрамами; на груди у него висит длинный клинок. Его глаза - "
+"словно два уголька. Когда ты подходишь, он кланяется Даккону. \"Мое "
+"почтение, *зерт*\"."
 
 #: 45281
 msgid ""
@@ -388,16 +433,21 @@ msgid ""
 "speaks of one who has seen combat and bested all that stood against him. Do "
 "my eyes fail to see beyond the still circle?\""
 msgstr ""
+"\"Его слова *известны* мне, *зерт*. В отличие от его деяний. Его тень "
+"говорит о том, кто повидал сражений и одержал верх над каждым, кто выступал "
+"против него. Правильно ли я увидел его под этой оболочкой?\""
 
 #: 45282
 msgid ""
 "\"I will hear him, *zerth.*\" He turns to face you and awaits your "
 "questions. \"Ask your questions. Direct them as you would direct your mind.\""
 msgstr ""
+"\"Я выслушаю его, *зерт*, - он поворачивается к тебе в ожидании вопросов. - "
+"Задавай свои вопросы. Направляй их так, как направлял бы свой разум\"."
 
 #: 45288
 msgid "\"Ask, then.\""
-msgstr ""
+msgstr "\"Что ж, спрашивай\""
 
 #: 45294
 msgid ""
@@ -407,21 +457,26 @@ msgid ""
 "air is poor for one of the people, and those within it do not *know* "
 "themselves. They are empty shells.\""
 msgstr ""
+"Он кивает тебе. \"Я Хайлциин, воин гитцераев. Я здесь за припасами. Я "
+"обнаружил, что этот город словно камень Трайигора - его часто восхваляют, но "
+"ценности в нем найдется немного. Воздух здесь непригоден для нашего народа, "
+"а живущие здесь не *знают* себя. Они - пустые оболочки\"."
 
 #: 45295
 msgid "\"I see. I had more questions...\""
 msgstr "\"Понятно. У меня были еще вопросы...\""
 
 #: 45296
-#, fuzzy
 msgid "\"Indeed. Farewell.\""
-msgstr "\"Конечно. Прощай\"."
+msgstr "\"И то правда. Прощай\"."
 
 #: 45301
 msgid ""
 "He shoots Dak'kon an unreadable look. You get the impression you've failed "
 "some sort of test. \"Is there more you would *know?*\""
 msgstr ""
+"Он бросает на Даккона непонятный взгляд. У тебя появляется впечатление, что "
+"ты провалил своего рода испытание. \"Ты хотел еще что-то *узнать*?\""
 
 #: 45302 45357
 msgid "\"Yes.\""
@@ -437,54 +492,63 @@ msgid ""
 "Others tell of the spirit. The tattoos that Fell inscribes upon the skin "
 "lend strength of the body and strength of the mind based on the tale.\""
 msgstr ""
+"\"Ходящий дабус - мастер своего дела. Некоторые его татуировки рассказывают "
+"истории. Другие говорят о духе. Татуировки, которые Фелл наносит на кожу, "
+"придают силу телу и разуму, в зависимости от истории\"."
 
 #: 45334
-#, fuzzy
 msgid "\"Thanks. I had some other questions..\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Спасибо. У меня есть еще несколько вопросов...\""
 
 #: 45344
 msgid ""
 "He bows slightly. \"You have with you an incomparable master of the tongue. "
 "Ask him, and perhaps he shall teach you.\""
 msgstr ""
+"Он делает легкий поклон. \"С тобой находится непревзойденный мастер языка. "
+"Попроси его, и, возможно, он тебя обучит\"."
 
 #: 45347
 msgid ""
 "\"His words are *known* to me, *zerth,* as are his timely actions concerning "
 "our fortress.  I will hear him.\""
 msgstr ""
+"\"Его слова *известны* мне, *зерт*, так же как и его своевременные действия "
+"касательно нашей крепости. Я выслушаю его\"."
 
 #: 45353
 msgid ""
 "Hailcii'n bows as you approach. \"I am honored in the return of your "
 "presence.\""
 msgstr ""
+"Хайлциин кланяется тебе, когда ты подходишь. \"Ты делаешь мне честь своим "
+"возвращением\"."
 
 #: 45354
-#, fuzzy
 msgid "\"Thanks. I had a few questions...\""
-msgstr "\"Спасибо. У меня есть другие вопросы...\""
+msgstr "\"Спасибо. У меня есть пара вопросов...\""
 
 #: 45355
-#, fuzzy
 msgid "\"Thanks, but I must be going. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай\"."
+msgstr "\"Спасибо, но я должен идти. Прощай\"."
 
 #: 45356
 msgid ""
 "\"You return, *zerth,* with your human. Is there more you would *know?*\""
 msgstr ""
+"\"Ты вернулся, *зерт*, вместе со своим человеком. Ты хочешь *знать* больше?\""
 
 #: 45359
 msgid ""
 "\"I am here to gather supplies and summon reinforcements. The githyanki grow "
 "bold these days. We prepare for bloody war.\""
 msgstr ""
+"\"Я здесь, чтобы собрать припасы и созвать подкрепление. В последнее время "
+"гитьянки осмелели. Мы готовимся к кровавой войне\"."
 
 #: 45360
 msgid "\"Sounds exciting. I'd like to ask you some more questions.\""
-msgstr ""
+msgstr "\"Звучит захватывающе. Я хотел бы задать тебе еще пару вопросов\"."
 
 #: 45361
 msgid "\"I see. Farewell.\""
