@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dskatch.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:28+0600\n"
+"PO-Revision-Date: 2012-08-03 20:45+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 50896
 msgid ""
@@ -55,14 +56,13 @@ msgid ""
 msgstr ""
 
 #: 50904
-#, fuzzy
 msgid "\"I'm not interested.\""
-msgstr "\"Боюсь, что я не заинтересован\"."
+msgstr "\"Я не заинтересован в этом\"."
 
 #: 50905 50912
 #, fuzzy
 msgid "\"Tell me more.\""
-msgstr "\"Расскажи мне о демонах\"."
+msgstr "\"Расскажи мне еще.\""
 
 #: 50906
 msgid ""
@@ -98,3 +98,4 @@ msgid ""
 "and there is the wrong way. Those who are wrong must be... punished.\" He "
 "points to you and calls to his men. \"Take him!\""
 msgstr ""
+

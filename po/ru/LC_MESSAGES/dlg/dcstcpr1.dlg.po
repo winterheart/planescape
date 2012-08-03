@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcstcpr1.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 01:55+0500\n"
+"PO-Revision-Date: 2012-08-03 20:36+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 10146
 msgid ""
@@ -118,9 +119,8 @@ msgid "\"Who's in charge around here?\""
 msgstr "\"А что опасного в округе?\""
 
 #: 10170
-#, fuzzy
 msgid "\"What can you tell me about Curst?\""
-msgstr "\"Что ты можешь сказать об Увядшей?\""
+msgstr "\"Что ты можешь сказать о Проклятом?\""
 
 #: 10171
 msgid "\"What's your name?\""
@@ -293,9 +293,8 @@ msgid ""
 msgstr ""
 
 #: 10210 10232
-#, fuzzy
 msgid "\"I see. Go on.\""
-msgstr "\"Понятно. Спасибо\"."
+msgstr "\"Понятно. Продолжай\"."
 
 #: 10211
 msgid ""
@@ -433,3 +432,4 @@ msgstr "\"Ничего. Прощай\"."
 #: 67907 67908
 msgid "\"I must be going now, farewell.\""
 msgstr "\"Я должен идти, прощай\"."
+

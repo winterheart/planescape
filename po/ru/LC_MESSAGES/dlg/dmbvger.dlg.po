@@ -1,4 +1,4 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmbvger.tra\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 20067
 msgid ""
@@ -59,8 +60,9 @@ msgstr ""
 "пытается хоть как-то выжить\"."
 
 #: 20075
+#, fuzzy
 msgid "\"All right. I had some other questions for you.\""
-msgstr "\"Ладно. У меня еще вопросы к тебе...\""
+msgstr "\"Ладно. У меня были еще вопросы к тебе\"."
 
 #: 20076 20089
 msgid "\"I see. Farewell.\""
@@ -154,3 +156,4 @@ msgstr ""
 #: 20097
 msgid "\"Just the answers to some questions...\""
 msgstr "\"Просто ответь на несколько вопросов...\""
+

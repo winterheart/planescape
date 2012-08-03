@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: drkchsr.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:51+0600\n"
+"PO-Revision-Date: 2012-08-03 20:44+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 15496
 msgid ""
@@ -190,9 +191,8 @@ msgid "\"What are you doing here?\""
 msgstr "\"Что ты здесь делаешь?\""
 
 #: 15534 15541
-#, fuzzy
 msgid "\"Tell me about this area.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне об этом месте\"."
 
 #: 15535 15542
 msgid "\"I'm looking for someone named Pharod.\""
@@ -216,9 +216,8 @@ msgid "\"Are you sure? I understand he's a Collector.\""
 msgstr ""
 
 #: 15548
-#, fuzzy
 msgid "\"I have some other questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня были еще вопросы...\""
 
 #: 15549 15551
 msgid "\"Never mind, then. Farewell.\""
@@ -231,7 +230,7 @@ msgstr "\"Понятно. У меня были еще вопросы...\""
 #: 15552
 #, fuzzy
 msgid "\"Why's that?\""
-msgstr "\"Что-что?\""
+msgstr "\"Отчего так?\""
 
 #: 15554 15561 15570 15578
 msgid "\"That's all I wanted to know. Farewell.\""
@@ -243,7 +242,6 @@ msgid "\"Why do you do that?\""
 msgstr "\"А почему они это делают?\""
 
 #: 15556
-#, fuzzy
 msgid "\"Who is he?\""
 msgstr "\"Кто он такой?\""
 
@@ -304,19 +302,16 @@ msgid "\"Greetings, Rake-Chaser. I had some questions...\""
 msgstr ""
 
 #: 15582
-#, fuzzy
 msgid "\"Greetings, and farewell.\""
-msgstr "\"Спасибо... Прощай\"."
+msgstr "\"Здравствуй и прощай\"."
 
 #: 15585
-#, fuzzy
 msgid "\"Damn...\""
-msgstr "\"Я...\""
+msgstr "\"Черт...\""
 
 #: 15590
-#, fuzzy
 msgid "\"I had some more questions...\""
-msgstr "\"У меня есть некоторые вопросы...\""
+msgstr "\"У меня есть еще несколько вопросов...\""
 
 #: 15592
 msgid "\"Why don't you tell me, 'Rake-Chaser.'\""
@@ -348,14 +343,12 @@ msgid "Bluff: \"Talk, or I'll beat the answer out of you, wretch!\""
 msgstr ""
 
 #: 15600
-#, fuzzy
 msgid "\"Wait, I had some questions...\""
-msgstr "\"Нет, у меня есть некоторые вопросы...\""
+msgstr "\"Постой, у меня есть несколько вопросов...\""
 
 #: 15601
-#, fuzzy
 msgid "Let him go."
-msgstr "Отпустить его... на этот раз."
+msgstr "Позволить ему уйти."
 
 #: 15602
 #, fuzzy
@@ -369,3 +362,4 @@ msgstr ""
 #: 15604
 msgid "\"As I thought. Farewell.\""
 msgstr ""
+

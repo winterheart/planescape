@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcstgenm.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 01:43+0500\n"
+"PO-Revision-Date: 2012-08-03 20:38+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 64432
 msgid ""
@@ -46,9 +47,8 @@ msgid "He frowns. \"Questions... Bar that, berk. Pike off.\" "
 msgstr ""
 
 #: 64439
-#, fuzzy
 msgid "\"It will take just a moment of your time...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Это займет совсем немного твоего времени...\""
 
 #: 64440
 msgid "\"Farewell then.\""
@@ -79,9 +79,8 @@ msgid ""
 msgstr ""
 
 #: 64449
-#, fuzzy
 msgid "\"No, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай\"."
+msgstr "\"Нет, неважно. Прощай\"."
 
 #: 64450
 msgid "He frowns and sighs. \"If you must.\""
@@ -96,9 +95,8 @@ msgid "\"What are you doing?\""
 msgstr "\"Что ты делаешь?\""
 
 #: 64453
-#, fuzzy
 msgid "\"What can you tell me about Curst?\""
-msgstr "\"Что ты можешь сказать об Увядшей?\""
+msgstr "\"Что ты можешь сказать о Проклятом?\""
 
 #: 64454
 #, fuzzy
@@ -116,9 +114,8 @@ msgid ""
 msgstr ""
 
 #: 64457 64460
-#, fuzzy
 msgid "\"Very well. I have some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Ладно. У меня еще вопросы...\""
 
 #: 64459
 msgid ""
@@ -151,9 +148,8 @@ msgid ""
 msgstr ""
 
 #: 64470
-#, fuzzy
 msgid "\"I will. I have some more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Я так и сделаю. У меня были еще вопросы...\""
 
 #: 64471
 msgid "\"Thank you, farewell.\""
@@ -182,9 +178,8 @@ msgid ""
 msgstr ""
 
 #: 64479
-#, fuzzy
 msgid "\"It will only take a moment of your time.\""
-msgstr "\"Спасибо за уделенное время. Прощай\"."
+msgstr "\"Это не займет много твоего времени\"."
 
 #: 64481
 msgid ""
@@ -220,3 +215,4 @@ msgid ""
 "This person looks extremely upset at being in the prison. You can't get a "
 "response from them regardless of how hard you try."
 msgstr ""
+

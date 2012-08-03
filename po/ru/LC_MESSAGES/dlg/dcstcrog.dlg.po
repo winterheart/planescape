@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcstcrog.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 01:42+0500\n"
+"PO-Revision-Date: 2012-08-03 20:37+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 10037
 msgid ""
@@ -38,9 +39,8 @@ msgid "\"Just a moment, please. I wanted to ask you a question.\""
 msgstr ""
 
 #: 10042
-#, fuzzy
 msgid "Let him leave."
-msgstr "Оставить его в покое."
+msgstr "Пусть уходит."
 
 #: 10043
 msgid ""
@@ -160,9 +160,8 @@ msgid "\"Thanks, I'll do that.\""
 msgstr ""
 
 #: 10066
-#, fuzzy
 msgid "\"Where can I find this place?\""
-msgstr "\"Где я могу найти этого Фарода?\""
+msgstr "\"Где можно найти это место?\""
 
 #: 10067
 msgid ""
@@ -212,3 +211,4 @@ msgstr ""
 #: 10076
 msgid "\"I'm sorry we couldn't come to terms.\""
 msgstr ""
+
