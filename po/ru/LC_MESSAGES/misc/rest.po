@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2012-05-26 20:31+0600\n"
+"PO-Revision-Date: 2012-08-03 20:54+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -85,12 +85,12 @@ msgstr ""
 #: 296
 #, fuzzy
 msgid "Greetings. "
-msgstr "\"Приветствую...\""
+msgstr "\"Приветствую.\""
 
 #: 301 308
 #, fuzzy
 msgid "Greetings."
-msgstr "\"Приветствую...\""
+msgstr "\"Приветствую.\""
 
 #: 311 1173
 msgid "Greater Gehreleth"
@@ -227,7 +227,7 @@ msgstr ""
 
 #: 1734
 msgid "Kester's Legacy"
-msgstr ""
+msgstr "Наследство Кестера"
 
 #: 1737
 msgid "Tiefling"
@@ -544,8 +544,9 @@ msgid "I don't want to hear it."
 msgstr ""
 
 #: 3236
+#, fuzzy
 msgid "Sensate"
-msgstr ""
+msgstr "Чувствующий"
 
 #: 3237
 msgid "Alchemist"
@@ -594,7 +595,7 @@ msgstr "Нагрудник 4"
 #: 3411
 #, fuzzy
 msgid "I said, Greetings."
-msgstr "\"Приветствую, говорю.\""
+msgstr "\"Я сказал, 'приветствую'\"."
 
 #: 3455
 msgid "Wait a minute. I need an embalming key. Do you have one?"
@@ -1739,7 +1740,7 @@ msgstr "Урон от удара в спину"
 #: 4220
 #, fuzzy
 msgid "Proficiencies"
-msgstr "Специализации"
+msgstr "Специализация оружия"
 
 #: 4221
 msgid "Saving Throws"
@@ -1784,7 +1785,7 @@ msgstr "Урон"
 #: 4231
 #, fuzzy
 msgid "Open Doors"
-msgstr "Открывание дверей:"
+msgstr "Открывание дверей"
 
 #: 4232
 msgid "Weight Allowance"
@@ -1981,8 +1982,9 @@ msgid "This item has not been identified."
 msgstr "Этот предмет не опознан."
 
 #: 4330
+#, fuzzy
 msgid "I'm... new here. I'm... trying to learn the routine."
-msgstr ""
+msgstr "\"Я... недавно здесь. Я... пытаюсь изучить порядки.\""
 
 #: 4488
 #, fuzzy
@@ -2023,7 +2025,7 @@ msgstr "СИЛ"
 
 #: 4757
 msgid "\"You'd be surprised, berk. Get out of here. I'm busy.\""
-msgstr ""
+msgstr "\"Посмотрим, как ты удивишься, пень. Убирайся отсюда. Я занят\"."
 
 #: 4830
 msgid "Flat, black token"
@@ -2308,7 +2310,7 @@ msgstr ""
 
 #: 8800
 msgid "\"I had some other... specific... questions about the city...\""
-msgstr ""
+msgstr "\"У меня есть другие... конкретные... вопросы о городе...\""
 
 #: 8806
 msgid "Wilting"
@@ -2340,15 +2342,15 @@ msgstr ""
 
 #: 8869
 msgid "\"Bounties on rats?\""
-msgstr ""
+msgstr "\"Награда за крыс?\""
 
 #: 8874
 msgid "\"What was that other job you mentioned? Gathering the dead?\""
-msgstr ""
+msgstr "\"А что это за та работа, о которой ты говорил? Собирание мертвых?\""
 
 #: 9020
 msgid "Attack the gith while he is looking at Dak'kon."
-msgstr ""
+msgstr "Напасть на гита, пока он смотрит на Даккона."
 
 #: 9055
 msgid "Witchy woman"
@@ -3477,8 +3479,9 @@ msgid ""
 msgstr ""
 
 #: 19346
+#, fuzzy
 msgid "Now"
-msgstr ""
+msgstr "\"Сейчас\"."
 
 #: 19347
 msgid "Dual Class"
@@ -3816,6 +3819,9 @@ msgid ""
 "the Silent King's grace that we honor the Dead Contract. Rest assured, "
 "though, that thou shall *never* leave these catacombs. Farewell.\""
 msgstr ""
+"Он поднимает посох, но вдруг останавливается. \"Увы! К твоему счастью и из "
+"милости Безмолвного Короля, мы чтим Контракт Смерти. Однако будь уверен: ты "
+"*никогда* не покинешь эти катакомбы. Прощай\"."
 
 #: 21496
 msgid "This tiny rag doll is a vessel for the Lady of Pain's displeasure."
@@ -3827,7 +3833,7 @@ msgstr ""
 
 #: 21822
 msgid "\"You'd said you're a missionary?\""
-msgstr ""
+msgstr "\"Ты говорил, что ты здесь с миссионерской деятельностью?\""
 
 #: 22031
 msgid "This container is locked."
@@ -4394,7 +4400,7 @@ msgstr ""
 
 #: 25988
 msgid "\"The Justifier\""
-msgstr ""
+msgstr "\"Оправдатель\""
 
 #: 26022
 msgid "Black-Barbed Seed"
@@ -4489,17 +4495,19 @@ msgstr ""
 
 #: 26925
 msgid "\"You can talk?\""
-msgstr ""
+msgstr "\"Ты умеешь говорить?\""
 
 #: 27156
 msgid "\"Give me some more advice.\""
-msgstr ""
+msgstr "\"Дай мне еще один совет\"."
 
 #: 27280
 msgid ""
 "The book has given me yet another, more powerful spell in exchange for the "
 "death of one of my companions - a worthy trade."
 msgstr ""
+"Книга дала мне еще одно, более могущественное заклинание в обмен на смерть "
+"одного из моих товарищей - стоящая сделка."
 
 #: 27431
 msgid "\"I DON'T KNOW BUT I'VE BEEN TOLD...\""
@@ -8462,11 +8470,11 @@ msgstr ""
 
 #: 37637
 msgid "\"Never mind, Sebastion. Farewell.\""
-msgstr ""
+msgstr "\"Не бери в голову, Себастион. Прощай\"."
 
 #: 37679 52389
 msgid "\"Thank you. I must be going now. Farewell.\""
-msgstr ""
+msgstr "\"Спасибо. Я должен идти. Прощай\"."
 
 #: 37681
 msgid "Character Injured"
@@ -8572,6 +8580,10 @@ msgid ""
 "eyes grow wide with surprise as he clutches his chest and silently slumps to "
 "the ground."
 msgstr ""
+"Он смотрит на тебя еще несколько секунд, потом его руки начинают бешено "
+"трястись. Он раскрывает рот, чтобы что-то сказать, но слова застревают в "
+"глотке. Выпучив глаза от удивления, он хватается за сердце и "
+"беззвучно оседает на землю."
 
 #: 37808
 msgid "Sensory Stone"
@@ -8759,12 +8771,16 @@ msgid ""
 "\"WE ASK THAT YOUR COMPANIONS REMAIN SILENT. YOU HAVE BROUGHT PAIN TO US, "
 "MUCH PAIN, AND WE DEMAND AMENDS FROM YOU.\""
 msgstr ""
+"\"МЫ ТРЕБУЕМ, ЧТОБЫ ТВОИ СПУТНИКИ МОЛЧАЛИ. ТЫ ПРИЧИНИЛ НАМ БОЛЬ, МНОГО БОЛИ, "
+"И МЫ ТРЕБУЕМ ОТ ТЕБЯ САТИСФАКЦИИ\"."
 
 #: 38858
 msgid ""
 "\"THE HARM HAS BEEN DONE. THE PAST WILL NOT BE ALTERED BY YOUR MERE "
 "APOLOGIES. PERFORM THIS SERVICE FOR US OR WE SHALL ELIMINATE YOU.\""
 msgstr ""
+"\"ТЫ ПРИЧИНИЛ НАМ ВРЕД. ПРОШЛОГО НЕ ИЗМЕНИТЬ ОДНИМИ ЛИШЬ ТВОИМИ ИЗВИНЕНИЯМИ. "
+"ОКАЖИ НАМ ЭТУ УСЛУГУ, ИНАЧЕ МЫ УНИЧТОЖИМ ТЕБЯ\"."
 
 #: 38879 48274 48281
 msgid "(continue)"
@@ -9095,6 +9111,10 @@ msgid ""
 "lover, Montague, in the Civic Festhall, and demand that he relinquish her to "
 "me."
 msgstr ""
+"Я согласился притвориться ревнивым поклонником Джульетты, одной из "
+"проституток Борделя утоления интеллектуальной страсти. Мне нужно найти ее "
+"возлюбленного, Монтекки, в Городской ратуше, и потребовать, чтобы он уступил "
+"ее мне."
 
 #: 39527
 msgid "Completed Quests"
@@ -9421,7 +9441,7 @@ msgstr "Эта дверь заперта."
 
 #: 43283
 msgid "\"Sure. Farewell.\""
-msgstr ""
+msgstr "\"Конечно. Прощай\"."
 
 #: 43467
 msgid "\"All right, then. I had some more questions for you.\""
@@ -9429,7 +9449,7 @@ msgstr ""
 
 #: 44044
 msgid "\"Perhaps she wants a little more spice in your relationship.\""
-msgstr ""
+msgstr "\"Наверно, она хочет внести немного разнообразия в ваши отношения\"."
 
 #: 44284
 msgid "Find the angel Ravel spoke of."
@@ -9519,16 +9539,20 @@ msgid ""
 "Hargrimm told me to look around the Dead Nations and slay any cranium rats I "
 "might happen upon."
 msgstr ""
+"Харгримм сказал, чтобы я огляделся в Мертвых Народах и перебил всех "
+"найденных черепных крыс."
 
 #: 44299
 msgid ""
 "I told Hargrimm how I found several cranium rats within the Dead Nations, "
 "and killed them. He gave me his thanks, but nothing more."
 msgstr ""
+"Я сказал Харгримму, что нашел несколько черепных крыс в пределах Мертвых "
+"Народов и убил их. Он поблагодарил меня, но не более."
 
 #: 44707
 msgid "\"What is Rubikon?\""
-msgstr ""
+msgstr "\"Что такое Рубикон?\""
 
 #: 44945 48890
 msgid "Formations"
@@ -9818,7 +9842,7 @@ msgstr "Том Уловок"
 
 #: 47647
 msgid "\"What's with the attitude?\""
-msgstr ""
+msgstr "\"Что с тобой?\""
 
 #: 48033 50404
 msgid "Vault of the Ninth World Mouthpiece"
@@ -9834,11 +9858,11 @@ msgstr "\"ЗАТКНИСЬ!\""
 
 #: 48090
 msgid "Bloody Handkerchief"
-msgstr ""
+msgstr "Окровавленный платок"
 
 #: 48115
 msgid "\"Why? What's wrong?\""
-msgstr ""
+msgstr "\"А что? Что-то не так?\""
 
 #: 48152
 msgid "2 by 3"
@@ -9902,7 +9926,7 @@ msgstr ""
 
 #: 48288
 msgid "Monster Jug"
-msgstr ""
+msgstr "Кувшин с монстром"
 
 #: 48327
 msgid "Pet Lim-Lim"
@@ -9948,7 +9972,7 @@ msgstr ""
 
 #: 48555
 msgid "\"Yes, please do.\""
-msgstr ""
+msgstr "\"Да, пожалуйста\"."
 
 #: 48869
 msgid "Inventory"
@@ -10019,8 +10043,9 @@ msgid "Trap Detection"
 msgstr ""
 
 #: 48894
+#, fuzzy
 msgid "Stop"
-msgstr ""
+msgstr "\"Стой!\""
 
 #: 48895
 msgid "Special Abilities"
@@ -10177,6 +10202,9 @@ msgid ""
 "this for Marquez; in return, he'll give me the first part of the key I need "
 "to get to where the imprisoned deva is."
 msgstr ""
+"Я согласился найти работорговцев за городскими бараками, спасти дочь Гниющего "
+"Копчика и убить их по поручению Маркеса. В обмен он даст мне первую часть "
+"ключа, который мне понадобится для того, чтобы попасть к заключенному дэва."
 
 #: 49155
 msgid ""
@@ -10189,7 +10217,7 @@ msgstr ""
 
 #: 49225 67820
 msgid "\"Teach me something about weapons.\""
-msgstr ""
+msgstr "\"Научи меня какому-нибудь оружию\"."
 
 #: 49227
 msgid "\"You change your mind, or do you have some idiotic questions for me?\""
@@ -10205,7 +10233,7 @@ msgstr ""
 
 #: 49477
 msgid "\"Will do. Farewell.\""
-msgstr ""
+msgstr "\"Я так и сделаю. Прощай\"."
 
 #: 49526
 msgid "Are you sure you want to reset ALL keymaps to their default values?"
@@ -10235,6 +10263,9 @@ msgid ""
 "walls are weathered and worn with age. A number of planks on this side of "
 "the structure appear to have been recently pried loose."
 msgstr ""
+"Этот шаткий жилой дом выглядит так, будто он стоит тут уже много веков. Его "
+"деревянные стены высохли и обветшали от времени. Несколько досок с этой "
+"стороны здания, похоже, были недавно выдернуты."
 
 #: 49587
 msgid ""
@@ -10322,7 +10353,7 @@ msgstr ""
 
 #: 50452
 msgid "Sword of Wh'ynn"
-msgstr ""
+msgstr "Меч Винн"
 
 #: 50453
 msgid "Yelaan"
@@ -10486,7 +10517,7 @@ msgstr "\"Ничего, прощай.\""
 
 #: 51290
 msgid "Scatter some ashes into the air."
-msgstr ""
+msgstr "Развеять немного пепла по ветру."
 
 #: 51315
 msgid "Brimstone Hammer"
@@ -11003,8 +11034,9 @@ msgid "Chad"
 msgstr ""
 
 #: 52981
+#, fuzzy
 msgid "\"Dead Body\""
-msgstr ""
+msgstr "Мертвое тело"
 
 #: 52997
 msgid "Berrog"
@@ -11377,6 +11409,11 @@ msgid ""
 "fine job of weakenin' him... the town's chaos is subsidin' and his plan "
 "ain't workin' so well. Head up and finish the job.\""
 msgstr ""
+"Перед тобой грязный человек, потрепанный и сгорбленный от возраста и "
+"темноты. Когда он оглядывается, его прилизанные сальные волосы слетают с "
+"плеч. Заметив тебя, он выпаливает: \"Смотритель Кайз говорил, что ты "
+"заскочишь. Ты хорошо постарался, ослабляя его... хаос в городе утихает, и "
+"его план пошел наперекосяк. Вперед, заверши начатое\"."
 
 #: 57894
 msgid "Resolve a bar tab."
@@ -12395,6 +12432,8 @@ msgid ""
 "I convinced Jumble Murdersense to remove Reekwind's curse with a little "
 "curse of my own."
 msgstr ""
+"Я убедил Джамбла Смыслогуба снять с Вонючки проклятье с помощью своего "
+"маленького проклятья."
 
 #: 59907
 msgid "Free Angyar from his Dead Contract and return it to him and his wife."
@@ -12744,6 +12783,8 @@ msgid ""
 "Trias told me that he can only be freed by an act of kindness - in this "
 "case, by retrieving his sword and striking off his chains."
 msgstr ""
+"Триас сказал мне, что может быть освобожден только проявлением доброты; в "
+"данном случае нужно вернуть его меч и разбить его оковы."
 
 #: 60759
 msgid "I have freed Trias. "
@@ -13255,7 +13296,7 @@ msgstr "\"Акционер Гилтспур хочет, чтобы ты пове
 
 #: 61969
 msgid "To the Alley of Lingering Sighs."
-msgstr ""
+msgstr "На улицу Протяжных Вздохов."
 
 #: 62329
 msgid "Annah Damage 2"
@@ -13414,7 +13455,7 @@ msgstr ""
 
 #: 63468
 msgid "\"Farewell, Thorp.\""
-msgstr ""
+msgstr "\"Прощай, Торп\"."
 
 #: 63623
 msgid "Axe Proficiency"
@@ -13781,7 +13822,7 @@ msgstr ""
 
 #: 65022
 msgid "Fortress of Regrets"
-msgstr ""
+msgstr "Крепость сожалений"
 
 #: 65023
 msgid "The Outlands"
@@ -13848,8 +13889,9 @@ msgid "Catacombs below Bones of the Night"
 msgstr ""
 
 #: 66360
+#, fuzzy
 msgid "\"Not yet. Farewell.\""
-msgstr ""
+msgstr "\"Еще нет. Прощай.\""
 
 #: 66376
 msgid "\"When's this worthless shift over?\""
@@ -13952,7 +13994,7 @@ msgstr "\"Что за?..\""
 
 #: 66843
 msgid "\"I want you to become the best magical weapon you can.\""
-msgstr ""
+msgstr "\"Я хочу, чтобы вы стали лучшим магическим оружием.\""
 
 #: 66865
 msgid ""
@@ -14037,7 +14079,7 @@ msgstr "Бонусы КБ"
 
 #: 67154
 msgid "Portal Lens"
-msgstr ""
+msgstr "Портальная линза"
 
 #: 67156
 msgid "Regeneration Massive"
@@ -14192,8 +14234,9 @@ msgid ""
 msgstr ""
 
 #: 67996
+#, fuzzy
 msgid "\"Fine, then.\""
-msgstr ""
+msgstr "\"Вот и отлично.\""
 
 #: 68026
 msgid ""
@@ -14304,7 +14347,7 @@ msgstr ""
 
 #: 68254
 msgid "\"Nothing, I guess. Farewell.\""
-msgstr ""
+msgstr "\"Пожалуй, ничего. Прощай\"."
 
 #: 68293
 msgid "\"Not yet.\""

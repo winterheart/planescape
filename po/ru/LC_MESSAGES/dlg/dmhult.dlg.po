@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmhult.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:30+0600\n"
+"PO-Revision-Date: 2012-08-03 20:41+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 18015
 msgid "\"An' farewell to ye too, cutter!\" He waves goodbye and walks off."
@@ -132,7 +133,7 @@ msgstr ""
 
 #: 18032
 msgid "Pass him by."
-msgstr ""
+msgstr "Пройти мимо."
 
 #: 18033 18485
 #, fuzzy
@@ -154,7 +155,6 @@ msgid "\"What are you looking for?\""
 msgstr "\"О чем ты говоришь?\""
 
 #: 18037 18467 18478
-#, fuzzy
 msgid "\"Can you tell me about this area?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
@@ -201,14 +201,12 @@ msgid "\"Are there rival packs of Collectors near here?\""
 msgstr ""
 
 #: 18439 18452 18457
-#, fuzzy
 msgid "\"Tell me about Sharegrave.\""
-msgstr "\"Расскажи мне о демонах\"."
+msgstr "\"Расскажи мне о Могильнике.\""
 
 #: 18440 18444
-#, fuzzy
 msgid "\"Tell me about Pharod.\""
-msgstr "\"Расскажи мне о демонах\"."
+msgstr "\"Расскажи мне о Фароде\"."
 
 #: 18448
 msgid "\"Does he have many men left?\""
@@ -253,3 +251,4 @@ msgstr ""
 #: 2803
 msgid "\"'Allo, cutter! Say... ye seen any deaders about?\""
 msgstr ""
+

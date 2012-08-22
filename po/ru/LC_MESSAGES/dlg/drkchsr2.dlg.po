@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: drkchsr2.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 00:51+0600\n"
+"PO-Revision-Date: 2012-08-03 20:45+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 15606
 msgid ""
@@ -399,9 +400,8 @@ msgid "\"I shall answer thee as best I can.\""
 msgstr ""
 
 #: 15710
-#, fuzzy
 msgid "\"But why?\""
-msgstr "\"Кто *ты* такой?\""
+msgstr "\"Но почему?\""
 
 #: 15711
 msgid ""
@@ -490,7 +490,6 @@ msgid "\"We need to speak...\""
 msgstr ""
 
 #: 15726
-#, fuzzy
 msgid "\"Just passing by. Farewell.\""
 msgstr "\"Я просто проходил мимо. Прощай\"."
 
@@ -568,14 +567,12 @@ msgid "\"Don't you have a pendant? Shaped like a skull?\""
 msgstr ""
 
 #: 15821
-#, fuzzy
 msgid "\"Never mind. I had some questions...\""
-msgstr "\"Тогда неважно. У меня есть другие вопросы...\""
+msgstr "\"Неважно. У меня есть другие вопросы...\""
 
 #: 15822 15826
-#, fuzzy
 msgid "\"Forget I asked. Farewell.\""
-msgstr "\"Забудь об этом. Прощай\"."
+msgstr "\"Забудь, что я спрашивал. Прощай\"."
 
 #: 15824
 msgid "\"You wouldn't mind if you searched you, then...\""
@@ -591,9 +588,8 @@ msgid "\"I seek only to have it.\""
 msgstr ""
 
 #: 15828
-#, fuzzy
 msgid "\"What is it, exactly?\""
-msgstr "\"А что это, на самом деле?\""
+msgstr "\"А что это такое на самом деле?\""
 
 #: 15830
 msgid "\"Then you'll perish...\""
@@ -674,7 +670,7 @@ msgstr ""
 #: 16032
 #, fuzzy
 msgid "\"Maybe another time. Farewell.\""
-msgstr "\"Может быть в другой раз, спасибо. Прощай\"."
+msgstr "\"Возможно, в другой раз. Прощай.\""
 
 #: 16033
 msgid "\"How am I to believe this?\""
@@ -682,7 +678,7 @@ msgstr ""
 
 #: 16034
 msgid "\"I see. Go on...\""
-msgstr ""
+msgstr "\"Понятно. Продолжай...\""
 
 #: 16037 16042 16047 16052 16057 16060 16065 16070
 #, fuzzy
@@ -696,12 +692,11 @@ msgstr "\"Это все, что я желал знать сейчас. Прощ�
 
 #: 16039
 msgid "\"Yes. Go on...\""
-msgstr ""
+msgstr "\"Да, продолжай\"."
 
 #: 16044 16062
-#, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Нет! Нет!..\""
+msgstr "\"Продолжай...\""
 
 #: 16049
 msgid "Keep listening."
@@ -751,9 +746,8 @@ msgid "\"Forget it; keep your pendant. Farewell.\""
 msgstr "\"Ничего, неважно. Прощай\"."
 
 #: 16081
-#, fuzzy
 msgid "\"Are you threatening me?\""
-msgstr "\"Ты *угрожаешь* мне, сопляк?\""
+msgstr "\"Ты мне угрожаешь?\""
 
 #: 16082
 msgid "\"No, but what is the second reason?\""
@@ -856,19 +850,17 @@ msgid "Try to recall the memory."
 msgstr ""
 
 #: 16146
-#, fuzzy
 msgid "Repress the memory."
-msgstr "Сдаться в угоду памяти."
+msgstr "Подавить воспоминание."
 
 #: 16147
 #, fuzzy
 msgid "\"Wait; I had some questions...\""
-msgstr "\"Я говорил, у меня были еще вопросы...\""
+msgstr "\"Постой. У меня есть несколько вопросов...\""
 
 #: 16148
-#, fuzzy
 msgid "Let him go."
-msgstr "Отпустить его... на этот раз."
+msgstr "Позволить ему уйти."
 
 #: 16150
 msgid "\"No more talk... I'll just slay you and take it.\""
@@ -881,7 +873,7 @@ msgstr "\"Неважно. Прощай\"."
 #: 16152
 #, fuzzy
 msgid "\"Why are you here?\""
-msgstr "\"Кого ты хочешь увидеть?\""
+msgstr "\"Как ты сюда попала?\""
 
 #: 16153
 msgid "\"Tell me your tale again.\""
@@ -916,7 +908,7 @@ msgstr ""
 #: 16162
 #, fuzzy
 msgid "\"It's no concern of yours.\""
-msgstr "\"Это не твое дело. Прощай\"."
+msgstr "\"Это тебя не касается\"."
 
 #: 16164 16169 16173 16178
 #, fuzzy
@@ -934,7 +926,7 @@ msgstr ""
 #: 16171
 #, fuzzy
 msgid "\"Such as?\""
-msgstr "\"Тени\"."
+msgstr "\"Например?..\""
 
 #: 16180
 msgid "\"By a pair of fiends, then, and I'm not sure what sort of power.\""
@@ -965,11 +957,11 @@ msgid "\"Never mind the contract; keep your pendant. Farewell.\""
 msgstr ""
 
 #: 16191 16192 16193 16194
-#, fuzzy
 msgid "Continue..."
-msgstr "Продолжить."
+msgstr "Продолжить..."
 
 #: 16197
 #, fuzzy
 msgid "Leave 'him' in peace."
 msgstr "Оставить его в покое."
+

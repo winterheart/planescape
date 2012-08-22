@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmooch.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:35+0600\n"
+"PO-Revision-Date: 2012-08-03 20:41+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 10577
 msgid "\"Just making sure. Get moving.\""
@@ -31,7 +32,6 @@ msgstr ""
 "вывод, что для члена этой фракции она слишком живо выглядит."
 
 #: 10579 10583
-#, fuzzy
 msgid "Approach her."
 msgstr "Подойти к ней."
 
@@ -136,7 +136,7 @@ msgstr "\"Ответь мне на некоторые вопросы за мои
 #: 10610
 #, fuzzy
 msgid "\"Good day.\""
-msgstr "\"Ничего. Хорошего дня\"."
+msgstr "\"Хорошего дня.\""
 
 #: 10611
 msgid "\"What, um, do you want to know?\""
@@ -221,7 +221,7 @@ msgstr ""
 #: 10635 10682
 #, fuzzy
 msgid "\"How much do you need?\""
-msgstr "\"О чем это ты?\""
+msgstr "\"Сколько тебе надо?\""
 
 #: 10636 10683
 msgid ""
@@ -387,9 +387,8 @@ msgid "\"Fifty? I want more.\""
 msgstr ""
 
 #: 10673
-#, fuzzy
 msgid "\"We'll see. Farewell.\""
-msgstr "\"Понятно... Прощай\"."
+msgstr "\"Посмотрим. Прощай\"."
 
 #: 10674
 msgid ""
@@ -507,3 +506,4 @@ msgstr "\"Прощай\"."
 #: 3078
 msgid "\"I'm going, I'm going! You don't have to pester me!\""
 msgstr "\"Да иду я, иду! Хватит мне докучать!\""
+
