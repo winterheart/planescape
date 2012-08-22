@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcstchlp.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 01:55+0500\n"
+"PO-Revision-Date: 2012-08-23 01:50+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 13656 13681
 msgid "Leave him in peace."
@@ -25,6 +26,10 @@ msgid ""
 "say I've ever seen anyone as scarred as you. What'd you do? Fight off the "
 "hordes of Baator by yourself?\""
 msgstr ""
+"Он быстро смотрит на тебя и отворачивается, но, передумав, он обращается к "
+"тебе. Он пробегается взглядом по твоему телу сверху вниз, покачивая при этом "
+"головой. \"Какой кошмар, рубака. Столько шрамов я еще ни у кого не видел. Как "
+"это получилось? Дрался голыми руками с ордами Баатора?\""
 
 #: 13658 13683
 msgid "\"I have some questions for you.\""
@@ -32,16 +37,15 @@ msgstr "\"У меня есть вопросы к тебе\"."
 
 #: 13659
 msgid "\"None of your business, old man.\""
-msgstr ""
+msgstr "\"Не твое дело, старик\"."
 
 #: 13660
 msgid "\"I've seen a few battles and I've got the scars to prove it.\""
-msgstr ""
+msgstr "\"Я был во многих битвах, и теперь шрамы это могут подтвердить\"."
 
 #: 13661
-#, fuzzy
 msgid "\"What's going on here?\""
-msgstr "\"А что опасного в округе?\""
+msgstr "\"Что здесь происходит?\""
 
 #: 13662
 msgid "\"Never mind.\""
@@ -52,21 +56,26 @@ msgid ""
 "He frowns at you. \"Do you see the word 'sage' tattooed on me anywhere?\" He "
 "looks at you as if he really expects an answer to his question. "
 msgstr ""
+"Он хмурится. \"Разве на мне где-то наколота татуировка 'мудрец'?\" Он смотрит "
+"на тебя, словно действительно ожидая ответа на свой вопрос."
 
 #: 13664
 msgid ""
 "\"I... Well, no. I just thought that a man of your years would have acquired "
 "great wisdom that he could pass on to those less fortunate than him...\""
 msgstr ""
+"\"Э-э-э... Да вроде нет. Я просто подумал, что человек в твоих годах сумел "
+"получить огромный опыт, которым он может поделиться с теми, кто не так "
+"удачлив...\""
 
 #: 13665
 msgid "\"Look, I just need some answers. Can you give them?\""
 msgstr ""
+"\"Послушай, мне просто нужны некоторые ответы. Ты можешь мне дать их?\""
 
 #: 13666
-#, fuzzy
 msgid "\"Oh, never mind. Farewell.\""
-msgstr "\"Ух... неважно. Прощай\"."
+msgstr "\"А, неважно. Прощай\"."
 
 #: 13667
 msgid ""
@@ -74,49 +83,54 @@ msgid ""
 "cutter. 'Great wisdom' my arse.\" He pauses for a moment. \"All right, "
 "you've bought yourself some answers. What can I help you with?\""
 msgstr ""
+"Постепенно его хмурое лицо расплывается в улыбке. \"А ты забавный малый, "
+"рубака. 'Огромный опыт' моей задницы, - он умолкает на несколько секунд. - Ну "
+"хорошо, ты заслужил некоторых ответов. Чем я могу помочь тебе?\""
 
 #: 13668
 msgid "\"First of all, what's going on here?\""
-msgstr ""
+msgstr "\"Прежде всего, что здесь происходит?\""
 
 #: 13669
 msgid ""
 "He gestures over his shoulder. \"You see the chopper? Some sod's gonna lose "
 "his head. Not something you see every day.\""
 msgstr ""
+"Он кивает через плечо. \"Видишь мясника? Сейчас какой-то бедолага лишится "
+"головы. Такое не каждый день увидишь\"."
 
 #: 13670
 msgid "\"What crime did he commit?\" "
-msgstr ""
+msgstr "\"А какое преступление он совершил?\""
 
 #: 13671
-#, fuzzy
 msgid "\"Oh. I wanted to ask you something else.\""
-msgstr "\"У меня есть еще несколько вопросов к тебе...\""
+msgstr "\"О. Я хотел бы у тебя кое-что еще спросить\"."
 
 #: 13672
-#, fuzzy
 msgid "\"I see. Well, I thank you for your time. Farewell.\""
-msgstr "\"Хорошо. Спасибо за уделенное время. Прощай\"."
+msgstr "\"Понятно. Что ж, спасибо за уделенное время. Прощай\"."
 
 #: 13673
 msgid ""
 "\"I don't rightly know. Maybe he killed some sod, maybe someone turned stag "
 "on him and got him sent to the chopper. You just don't know in this burg.\""
 msgstr ""
+"\"Я точно не знаю. Может, убил какого-нибудь доходягу, или может быть его "
+"кто-то кинул и положил под топор мясника. В этом городишке ничего не "
+"известно\"."
 
 #: 13674
 msgid "\"Turned stag?\""
-msgstr ""
+msgstr "\"Кинул?\""
 
 #: 13675
-#, fuzzy
 msgid "\"I have other questions for you.\""
-msgstr "\"У меня есть другой вопрос к тебе\"."
+msgstr "\"У меня есть другие вопросы к тебе\"."
 
 #: 13676
 msgid "\"Oh... I thank you. Good day.\""
-msgstr ""
+msgstr "\"О... Спасибо. Хорошего дня\"."
 
 #: 13677
 msgid ""
@@ -124,29 +138,32 @@ msgid ""
 "Betrayed, set up, given the shiv in the back so to say. It happens in Curst."
 "\""
 msgstr ""
+"Он смеется. \"Ты ведь недавно здесь, так? 'Кинуть' - значит подставить, "
+"предать, вогнать заточку поддых. Такое случается в Проклятом\"."
 
 #: 13678
 msgid "\"I see. Tell me something else...\""
-msgstr ""
+msgstr "\"Понятно. Расскажи мне еще о кое-чем...\""
 
 #: 13679
-#, fuzzy
 msgid "\"Hmm. I must be going now. Farewell.\""
-msgstr "\"Нет. Я должен идти. Прощай\"."
+msgstr "\"Хмм. Я должен идти, прощай\"."
 
 #: 13680
 msgid ""
 "He scowls at you and then gives you a rude gesture. \"Pike it, berk!\" He "
 "turns his back to you."
 msgstr ""
+"Он хмуро смотрит на тебя и делает неприличный жест. \"Наденься на кол, "
+"пень!\" Он отворачивается от тебя."
 
 #: 13682
 msgid "He nods in agreement. \"I'll say you do... So what can I do for you?\""
-msgstr ""
+msgstr "Он согласно кивает. \"Это точно. Что хочешь от меня?\""
 
 #: 13684
 msgid "\"You could tell me what's going on.\""
-msgstr ""
+msgstr "\"Скажи, что здесь происходит\"."
 
 #: 13685
 msgid "\"Nothing actually. Farewell.\""
@@ -154,26 +171,23 @@ msgstr "\"На самом деле - ничего. Прощай\"."
 
 #: 13686
 msgid "\"Certainly.\" He waits for your questions."
-msgstr ""
+msgstr "\"Конечно\". Он ждет твой вопрос."
 
 #: 13687
 msgid "\"I'm looking for a deva. I've heard he's somewhere in Curst.\""
-msgstr ""
+msgstr "\"Я ищу одного дэва. Я слышал, что он где-то в Проклятом\"."
 
 #: 13688
-#, fuzzy
 msgid "\"What can you tell me about Curst?\""
-msgstr "\"Что ты можешь сказать об Увядшей?\""
+msgstr "\"Что ты можешь сказать о Проклятом?\""
 
 #: 13689
-#, fuzzy
 msgid "\"Who's in charge here?\""
-msgstr "\"Почему он там находится?\""
+msgstr "\"Кто здесь всем управляет?\""
 
 #: 13690
-#, fuzzy
 msgid "\"What's the local news?\""
-msgstr "\"А в чем проблема?\""
+msgstr "\"Какие местные новости?\""
 
 #: 13691
 msgid "\"Never mind. Farewell.\""
@@ -186,15 +200,18 @@ msgid ""
 "pauses to think. \"I don't have an answer for you. Keep asking around. "
 "Somebody's probably seen him.\""
 msgstr ""
+"\"Ходят слухи, что дэва в городе... Только я не знаю, где он может быть. Дэва "
+"в городе определенно привлек бы много внимания, - он задумывается. - У меня "
+"нет ответа для тебя. Попробуй порасспрашивать еще кого. Кто-нибудь "
+"обязательно его видел\"."
 
 #: 13693
-#, fuzzy
 msgid "\"Another question.\""
-msgstr "\"У меня есть другие вопросы\"."
+msgstr "\"Еще один вопрос\"."
 
 #: 13694
 msgid "\"You've been very helpful. I must leave now.\""
-msgstr ""
+msgstr "\"Ты был очень полезен. Теперь мне нужно идти\"."
 
 #: 13695
 msgid ""
@@ -202,16 +219,17 @@ msgid ""
 "simple. A cutter's got to watch his backside here... That's all I'm willing "
 "to say.\""
 msgstr ""
+"Он задумчиво оглядывается по сторонам. \"Проклятый - это просто огромная "
+"навозная яма. Тут следует следить за собой... Вот все, что можно об этом "
+"сказать\"."
 
 #: 13696
-#, fuzzy
 msgid "\"All right. Let me ask you something else.\""
-msgstr "\"Позволь мне спросить чем-нибудь еще...\""
+msgstr "\"Хорошо. Позволь мне спросить чем-нибудь еще...\""
 
 #: 13697 13704
-#, fuzzy
 msgid "\"I thank you for your help. Farewell.\""
-msgstr "\"Спасибо за совет. Прощай\"."
+msgstr "\"Спасибо за помощь. Прощай\"."
 
 #: 13698
 msgid ""
@@ -220,14 +238,17 @@ msgid ""
 "wouldn't be the smartest thing to do and you could lose your head.\" He "
 "gestures at the guillotine behind him. "
 msgstr ""
+"\"Наверное, Товус Гильяф. Его можно найти в административном здании. Только "
+"один совет: не суй свой нос в его дела, иначе можешь запросто лишиться "
+"головы\". Ребром руки он разрубает воздух, словно гильотина."
 
 #: 13699
 msgid "\"I'll keep that in mind. Another thing though...\""
-msgstr ""
+msgstr "\"Я запомню это. Еще одна вещь...\""
 
 #: 13700
 msgid "I see. I must leave now. Farewell.\""
-msgstr ""
+msgstr "Понятно. Я должен идти. Прощай\"."
 
 #: 13701
 msgid ""
@@ -235,13 +256,15 @@ msgid ""
 "Barse's daughter turned up missing. He's a bit on the barmy side because of "
 "it. Other than that I can't think of anything worth mentioning."
 msgstr ""
+"На секунду он крепко задумывается. \"Ну... Говорят, что дочь Гниющего Копчика "
+"пропала. От этого он немного не в себе. Помимо этого нет ничего достойного "
+"упоминания\"."
 
 #: 13702
 msgid "\"Who is this Tainted Barse?\""
-msgstr ""
+msgstr "\"Кто такой Гниющий Копчик?\""
 
 #: 13703
-#, fuzzy
 msgid "\"I have another question for you.\""
 msgstr "\"У меня есть другой вопрос к тебе\"."
 
@@ -250,13 +273,14 @@ msgid ""
 "\"He's the barkeep at the Traitor's Gate. Local swill hole for the bubbers. "
 "It's down that way I think\" He gestures in a vague direction."
 msgstr ""
+"\"Он хозяин Ворот предателей, местной дыры для пропойц. Кажется, она там\". "
+"Он указывает в неопределенном направлении\"."
 
 #: 13706
 msgid "\"Tell me something else.\""
-msgstr ""
+msgstr "\"Расскажи мне еще о кое-чем\"."
 
 #: 13707
-#, fuzzy
 msgid "\"I must leave you now. Farewell.\""
 msgstr "\"Я должен идти. Прощай\"."
 
@@ -271,3 +295,4 @@ msgstr ""
 #: 3167
 msgid "\"Greetings.\""
 msgstr "\"Приветствую\"."
+
