@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dcolylfn.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-07-04 01:25+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-08-25 21:49+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,6 +21,9 @@ msgid ""
 "at you from the corners of his eyes. Suddenly, he beckons to you: \"Hssst. "
 "You. Hsssst! Ey!\""
 msgstr ""
+"Этот пронырливый с виду парень крадется среди мусора, словно тень в "
+"лохмотьях. Он делает вид, что не замечает тебя, но ты ощущаешь на себе его "
+"вороватый взгляд искоса. Внезапно он делает тебе знак: \"Псс. Ты. Псс. Эй!\""
 
 #: 18506
 msgid "Approach him."
@@ -28,7 +31,7 @@ msgstr "Подойти к нему."
 
 #: 18507
 msgid "Ignore the man, continue on your way."
-msgstr ""
+msgstr "Игнорировать его и пройти мимо."
 
 #: 18508
 msgid ""
@@ -36,7 +39,11 @@ msgid ""
 "shadow. Seeing you and Morte, he beckons to you: \"Hsssssst... ey! Th'skull. "
 "Where ye get the skull, ey? Me skull, it is! Give it backta me.\""
 msgstr ""
+"Этот пронырливый с виду парень крадется среди мусора, словно тень в "
+"лохмотьях. Увидев вас с Мортом, он делает тебе знак: \"Пссс... эй! Тот "
+"череп. Откуда он у тебя, а? Он мой! Верни его мне\"."
 
+# slip: a girl being a ho or acting ho-ish
 #: 18509
 msgid ""
 "This weasely-looking fellow is skulking about the garbage like a tattered "
@@ -44,64 +51,70 @@ msgid ""
 "teeth, as if anticipation of a meal. \"Hsssst...ey! Jink-jink fer the slip, "
 "ey? Pretty, pretty.\" He licks his cracked, scabby lips."
 msgstr ""
+"Этот пронырливый с виду парень крадется среди мусора, словно тень в "
+"лохмотьях. Когда он замечает Анну, его глаза расширяются; он процеживает "
+"слюну сквозь свои желтые зубы, словно предвкушая пищу. \"Пссс... эй! "
+"Звенелки за потаскушку, а? Хорошенькая\". Он облизывает свои потрескавшиеся, "
+"покрытые струпьями губы."
 
 #: 18510
 msgid "\"Eh. Whatta want?!\""
-msgstr ""
+msgstr "\"А. Че нада?!\""
 
 #: 18511 18513
-#, fuzzy
 msgid "\"I'm looking for some information...\""
-msgstr "\"Сейчас мне нужна информация\"."
+msgstr "\"Мне нужны кое-какие сведенья...\""
 
 #: 18512
 msgid "\"Eh, now how's me skull?\" He laughs, a wheezing, horrible sound."
 msgstr ""
+"\"Эй, как там насчет моего черепа?\" Он заливается ужасным свистящим смехом."
 
 #: 18514
 msgid ""
 "\"Thief! Ye vulture, scabby gull, stealin', pickin' at other's things, "
 "takin' thems! Give me the skull! Mine! It's mine!\""
 msgstr ""
+"\"Ворюга! Ты падальщик, паршивый простофиля, берущий чужое без спросу! Отдай "
+"мне череп! Мой! Он мой!\""
 
 #: 18515 18566 18574
-#, fuzzy
 msgid "\"This is not your skull.\""
-msgstr "\"Каковы твои обязанности?\""
+msgstr "\"Это не твой череп\"."
 
 #: 18516 18575
-#, fuzzy
 msgid "Truth: \"Go on, take the skull.\""
-msgstr "Правда: \"Да не очень-то\"."
+msgstr "Правда: \"Вперед, забирай череп\"."
 
 #: 18517 18576
 msgid "Attack him as soon as he's off-guard: \"Go on, take the skull.\""
 msgstr ""
+"Напасть на него, как только он потеряет бдительность: \"Вперед, забирай череп"
+"\"."
 
 #: 18518 18551 18577
-#, fuzzy
 msgid "\"What proof do you have that this is your skull?\""
-msgstr "\"Что есть в вашем хранилище?\""
+msgstr "\"Чем докажешь, что это твой череп?\""
 
 #: 18519 18552 18578
 msgid ""
 "Truth: \"If you can prove to me the skull's yours, then I'll give it to you. "
 "It's only fair.\""
 msgstr ""
+"Правда: \"Если тебе удастся доказать, что череп твой, я отдам его тебе. Так "
+"будет честно\"."
 
 #: 18520 18553 18569 18579
-#, fuzzy
 msgid "\"I'll buy the skull from you. Fair?\""
-msgstr "\"Я принесу тебе их, Раук\"."
+msgstr "\"Я куплю у тебя череп. Пойдет?\""
 
 #: 18521 18554 18570
 msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 18522 18523 18528 18529 18533 18534 18555 18556 18571 18572 18580 18581
-#, fuzzy
 msgid "\"Just forget you ever saw it. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай\"."
+msgstr "\"Просто забудь, что видел его. Прощай\"."
 
 #: 18524
 msgid ""
@@ -109,22 +122,24 @@ msgid ""
 "moment, eyes rolling and darting. \"Ye the thief, spittin' lies... I'll gut "
 "ye.\""
 msgstr ""
+"\"Значит, я - *лжец*, а? Череп *мой*! Мой! - он некоторое время что-то "
+"бормочет, поглядывая на тебя. - Ты лживый ворюга... Я выпущу тебе кишки\"."
 
 #: 18525 18530
 msgid ""
 "\"Touch me, and you'll be regretting it the short few moments before you die."
 "\""
 msgstr ""
+"\"Только тронь меня - и будешь жалеть об этом те несколько мгновений, что "
+"будут у тебя перед смертью\"."
 
 #: 18526 18531
-#, fuzzy
 msgid "\"I wouldn't try it.\""
-msgstr "\"Я хотел бы, чтобы ты назвал точную сумму\"."
+msgstr "\"Я бы не стал пробовать\"."
 
 #: 18527 18532
-#, fuzzy
 msgid "\"Go on, try it. See what happens.\""
-msgstr "Смотреть, чем это закончится."
+msgstr "\"Давай, попробуй. Посмотрим, что из этого выйдет\"."
 
 #: 18546
 msgid ""
@@ -132,27 +147,31 @@ msgid ""
 "- he mumbles a bit, but doesn't do anything. \"Me skull. Ye're a thief. A "
 "thief. Stealin'...\""
 msgstr ""
+"Человек смотрит на тебя прищурено. Похоже, он не уверен в своих шансах на "
+"победу. Он какое-то время бормочет, но ничего не предпринимает. \"Череп мой. "
+"Ты - вор. Ворюга...\""
 
 #: 18547 18548
-#, fuzzy
 msgid "\"Get lost, mongrel.\""
-msgstr "\"Приветствую тебя, Ингресс\"."
+msgstr "\"Прочь отсюда, полукровка\"."
 
 #: 18549
 msgid "Truth: \"Go on, the. Take the skull.\""
-msgstr ""
+msgstr "Правда: \"Тогда вперед. Забирай череп\"."
 
 #: 18550 18568
 msgid "Attack him as soon as he's off-guard: \"Go on, then. Take the skull.\""
 msgstr ""
+"Напасть на него, как только он потеряет бдительность: \"Тогда вперед. "
+"Забирай череп\"."
 
 #: 18557
 msgid "The man glances at you, eyes narrow. Suddenly, he attacks!"
-msgstr ""
+msgstr "Человек смотрит на тебя, прищурившись. И вдруг он бросается в атаку!"
 
 #: 18558 18563
 msgid "Meet his attack."
-msgstr ""
+msgstr "Встретить его атаку."
 
 #: 18559 18564
 msgid "Flee."
@@ -164,6 +183,8 @@ msgid ""
 "and the man's hand whips back. The man begins screaming: \"Aiggghhhh! "
 "Aighhh!!! I'll *kill* ye! *Kill* ye!\""
 msgstr ""
+"Он глухо хихикает. Как только он протягивает руку к Морту, слышится *клац!*, "
+"и человек одергивает руку, вопя: \"Аййййййй! Аййййй! Я тебя *убью*! *Убью*!\""
 
 #: 18561
 msgid ""
@@ -171,27 +192,35 @@ msgid ""
 "to attack him, there is a *snap!* and the man's hand whips back. The man "
 "begins screaming: \"Aiggghhhh! Aighhh!!! I'll *kill* ye! *Kill* ye!\""
 msgstr ""
+"Он глухо хихикает и протягивает руку к Морту, но прежде чем ты успеваешь "
+"напасть на него, слышится *клац!*, и он одергивает руку, вопя: \"Аййййййй! "
+"Аййййй! Я тебя *убью*! *Убью*!\""
 
 #: 18562
 msgid ""
 "The man, biting his lip from the pain, glares at you. Suddenly, he attacks!"
 msgstr ""
+"Человек пялится на тебя, закусив губу от боли. Внезапно он бросается в атаку!"
 
 #: 18565
 msgid ""
 "He stares at you for a moment, like you're addled. \"It's pikin' mine, "
 "talkin' proof, don't-know-nothin'! Gives me the skull back, nows!\""
 msgstr ""
+"Он глядит на тебя, как на пустоголового. \"Он мой как пить дать, говорящее "
+"доказательство, ничего-не-знаю! Отдай мне череп, сейчас же!\""
 
 #: 18567
 msgid "Truth: \"Go on, then. Take the skull.\""
-msgstr ""
+msgstr "Правда: \"Тогда вперед. Забирай череп\"."
 
 #: 18573
 msgid ""
 "\"Skull's mine, mine, ey! Give it ta me, I'll forgit ye stole it.\" He "
 "mumbles, his narrowed eyes darting."
 msgstr ""
+"\"Череп мой, мой, эй! Отдай мне его, и я забуду, что ты его украл\", - "
+"бормочет он, поглядывая на тебя прищуренными глазами."
 
 #: 18582
 msgid ""
@@ -199,17 +228,24 @@ msgid ""
 "twisted sneer. \"Skull's... skull a *lotta* jink. You ken pay? Means a lot "
 "ta me, that skull.\""
 msgstr ""
+"Его глаза сужаются, а губы обнажают грязные кривые зубы в перекошенной "
+"ухмылке. \"Череп... череп *много* стоит. Сможешь заплатить? Этот череп много "
+"для меня значит\"."
 
 #: 18583
 msgid ""
 "The man hisses angrily at Morte: \"Is that anyway ta talk ta me, yer owner?\""
 msgstr ""
+"Человек злобно шипит на Морта: \"Да как ты разговариваешь со мной, твоим "
+"хозяином?\""
 
 #: 18584
 msgid ""
 "The man turns to you, teeth bared and angrier than ever. \"Oh, it's gonna "
 "cost... gonna cost to settle the matter.\""
 msgstr ""
+"Мужчина оборачивается к тебе, обнажив зубы, еще более злой, чем прежде. \"О, "
+"ты за это заплатишь... заплатишь, чтобы уладить дело\"."
 
 #: 18585
 msgid "Give him one copper coin."
@@ -233,37 +269,40 @@ msgstr "Дать ему пятьсот медяков."
 
 #: 18590
 msgid "\"I don't have any copper to give you.\""
-msgstr ""
+msgstr "\"У меня нет ни одной монеты\"."
 
 #: 18591
 msgid "\"Forget the offer. This isn't your skull, and you're not getting it.\""
-msgstr ""
+msgstr "\"Забудь мое предложение. Это не твой череп, и ты его не получишь\"."
 
 #: 18592
 msgid "\"It's a start... now cough up the rest, an' I'll be on my way.\""
-msgstr ""
+msgstr "\"Это только начало... вытряхивай остальное, и я уйду\"."
 
 #: 18593
 msgid ""
 "\"Ey...that'll settle it between us.\" He sneers horribly. \"Steal from me "
 "again, though...\""
 msgstr ""
+"\"Эй... теперь между нами все улажено, - он выдает страшную ухмылку. - "
+"Только попробуй еще раз меня обокрасть...\""
 
 #: 18594
 msgid "\"Then return me skull, thief! Give it back! Give it, give it to me!\""
-msgstr ""
+msgstr "\"Тогда отдай мне череп, ворюга! Отдай его! Отдай, отдай его мне!\""
 
 #: 18595
 msgid "Truth: \"Very well. Take it.\""
-msgstr ""
+msgstr "Правда: \"Ладно. Забирай\"."
 
 #: 18596
 msgid "Attack him as soon as he's off-guard: \"Very well. Take it.\""
 msgstr ""
+"Напасть на него, как только он потеряет бдительность: \"Ладно. Забирай\"."
 
 #: 18597
 msgid "\"No. It's not yours to take.\""
-msgstr ""
+msgstr "\"Нет. Он не твой, и ты его не получишь\"."
 
 #: 18598 18736 18786
 msgid "Attack him."
@@ -272,26 +311,28 @@ msgstr "Атаковать его."
 #: 18599
 msgid "\"Never ya mind... there'll be trouble, ye ken be sure. Trouble!\""
 msgstr ""
+"\"Неважно... жди неприятностей, можешь не сомневаться. Неприятностей!\""
 
 #: 18600 18601 18602 18603
 msgid ""
 "\"Don't make the mistake of presuming I paid you out of fear or weakness... "
 "you could end up dead.\""
 msgstr ""
+"\"Не делай ошибку, предполагая, что я заплатил тебе из страха или "
+"слабости... ты мог бы уже быть мертвым\"."
 
 #: 18604
-#, fuzzy
 msgid "\"I see. I had some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Понятно. У меня есть несколько вопросов...\""
 
 #: 18605 18606
-#, fuzzy
 msgid "\"Ah, 'trouble.' Farewell.\""
-msgstr "\"Они-то смогут. Прощай\"."
+msgstr "\"Ага, 'неприятности'. Прощай\"."
 
 #: 18607
 msgid "\"Hmph.\" He narrows his eyes, but says nothing more. He looks uneasy."
 msgstr ""
+"\"Пф\". Он сужает глаза, но ничего не отвечает. Он выглядит обеспокоенным."
 
 #: 18608 18788 18792
 msgid "\"I had some questions...\""
@@ -306,6 +347,8 @@ msgid ""
 "\"Pah! Rattle yer bone-box somewheres else. Away with ye. Dirty thief. "
 "Stealin' thief...\" He starts to walk past you."
 msgstr ""
+"\"Ба! Трещи своей костяной коробкой где-нибудь в другом месте. Пошел прочь. "
+"Грязный вор. Ворюга...\" Он пытается пройти мимо тебя."
 
 #: 18612 18613 54288 54787
 msgid "Leave."
@@ -317,6 +360,9 @@ msgid ""
 "\"Jink-jink?\" His eyes, constantly rolling and darting as he speaks to you, "
 "seem to fall on your coin-purse frequently."
 msgstr ""
+"Он ухмыляется. \"Слухи - товар недешевый, - он потирает свои желтые пальцы "
+"друг о друга. - Дзинь-дзинь?\" Пока он говорит, его глаза без конца бегают, "
+"часто задерживаясь на твоем кошельке."
 
 #: 18615 18647 18660
 msgid "Hand him a couple coins."
@@ -328,16 +374,15 @@ msgstr "Бросить ему пять медяков."
 
 #: 18617 18624 18649 18662
 msgid "Dump ten coppers into his palms."
-msgstr "Бросить десять медяков в его ладонь."
+msgstr "Бросить ему в ладонь десять медяков."
 
 #: 18618 18625 18663
 msgid "\"You'll get nothing. Spill the chant.\""
-msgstr ""
+msgstr "\"Ты ничего не получишь. Колись\"."
 
 #: 18619 18626 18650
-#, fuzzy
 msgid "\"Uh... why are your fingers yellow?\""
-msgstr "\"Так что же ты здесь делаешь?\""
+msgstr "\"Э... почему у тебя желтые пальцы?\""
 
 #: 18620 18621 18627 18628 18664 18665
 msgid "\"Forget I asked. Farewell.\""
@@ -347,17 +392,20 @@ msgstr "\"Забудь, что я спрашивал. Прощай\"."
 msgid ""
 "He scoffs. \"Chant's not *cheap.* You deaf? *Lissen* when I talks to you.\""
 msgstr ""
+"Он насмешливо произносит: \"Слухи - товар *недешевый*. Ты что, оглох? "
+"*Слушай*, когда я говорю\"."
 
 #: 18629
 msgid ""
 "He studies the coins for a moment, then squints at you. \"I knows some. "
 "Whatcha' want ta know?\""
 msgstr ""
+"Он некоторое время рассматривает монеты, потом косится на тебя. \"Я кое-что "
+"знаю. Чего хочешь знать ты?\""
 
 #: 18630 18638 18685 18693 18701 18718 18725
-#, fuzzy
 msgid "\"Tell me about Sigil.\""
-msgstr "\"Расскажи мне о демонах\"."
+msgstr "\"Расскажи мне о Сигиле\"."
 
 #: 18631 18639 18669 18676 18719 18726
 msgid "\"Tell me about Collectors.\""
@@ -372,45 +420,49 @@ msgid "\"I'm looking for a journal that I've lost.\""
 msgstr "\"Я ищу потерянный дневник\"."
 
 #: 18634 18642 18672 18679 18688 18696 18704 18728
-#, fuzzy
 msgid "\"Tell me about Mebbeth.\""
-msgstr "\"Расскажи мне о демонах\"."
+msgstr "\"Расскажи мне о Меббет\"."
 
 #: 18635 18636 18643 18644
 msgid "\"Nothing, never mind. Farewell.\""
-msgstr "\"Ничего, неважно. Прощай\"."
+msgstr "\"Ничего, забудь. Прощай\"."
 
 #: 18637
 msgid "\"Talk. I lissen, mebbe I have some things to say...\""
-msgstr ""
+msgstr "\"Говори. Я послушаю. Может, чего и расскажу...\""
 
 #: 18645
 msgid ""
 "\"I'll spill nothin'.\" He sneers at you, then points at himself. \"I know "
 "the chant, you *don't.* You got jink, you know the chant, too - see?\""
 msgstr ""
+"\"Я ничего не скажу, - он ухмыляется, затем указывает на себя. - Я знаю "
+"слухи, а ты - *нет*. У тебя есть звенелки, и ты тоже хочешь знать слухи - "
+"улавливаешь?\""
 
 #: 18646
 msgid "Grab him, shake him up a bit."
-msgstr "Схватить и встряхнуть его."
+msgstr "Схватить его и встряхнуть как следует."
 
 #: 18651 18652 18710 18711
 msgid "\"Forget I asked, then. Farewell.\""
-msgstr "\"Тогда забудь о вопросе. Прощай\"."
+msgstr "\"Тогда забудь, что я спрашивал. Прощай\"."
 
 #: 18653
 msgid ""
 "\"Eh? Come again?\" His eyes narrow to slits; he peers at you sideways "
 "though them."
 msgstr ""
+"\"А? Снова явился?\" Его глаза превращаются в щелочки. Сквозь них он "
+"поглядывает в твою сторону."
 
 #: 18654
 msgid "\"On second thought, I don't want to know. Never mind.\""
-msgstr ""
+msgstr "\"Если подумать, то мне это неинтересно. Забудь\"."
 
 #: 18655
 msgid "\"Your fingers: they're yellow. Why?\""
-msgstr ""
+msgstr "\"Твои пальцы, они желтые. Почему?\""
 
 #: 18656 18657
 msgid "\"Never mind. Farewell.\""
@@ -421,27 +473,32 @@ msgid ""
 "\"A little somethin' I picked up from a corpse...a lil' corpse-rot, ta hear "
 "tells.\""
 msgstr ""
+"\"Одна штучка, которую я подцепил от мертвеца... трупная гнильца, если "
+"верить слухам\"."
 
 #: 18659
 msgid ""
 "\"Don't mind it... jink for chant, 'member? Jink-jink?\" He holds out his "
 "palms, thrusting them towards you."
 msgstr ""
+"\"Не бери в голову... звенелки за слухи, помнишь? Дзинь-дзинь?\" Он "
+"протягивает к тебе ладони."
 
 #: 18666
 msgid ""
 "\"This pikin' city, ye sod...the lil' ring, lil' ring, city in a ring. "
 "Center of the big rings.\""
 msgstr ""
+"\"Это ж этот чертов город, бедолага ты эдакий... колечко в колечке, и город "
+"в кольце. Центр больших колец\"."
 
 #: 18667
-#, fuzzy
 msgid "\"Tell me more about the city.\""
-msgstr "\"Расскажи мне о телах побольше\"."
+msgstr "\"Расскажи мне еще о городе\"."
 
 #: 18668
 msgid "\"What about this area?\""
-msgstr ""
+msgstr "\"Как насчет этого района?\""
 
 #: 18673 18674 18689 18690 18697 18698 18722 18723 18729 18730
 msgid "\"That's all I wished to know. Farewell.\""
@@ -452,40 +509,40 @@ msgid ""
 "\"Wastin' me time an' yer jink, ye are. Throwin' it aways... find a tout fer "
 "such questions.\""
 msgstr ""
+"\"Ты тратишь попусту мое время и свои звенелки. Разбрасываешься ими... для "
+"таких вопросов найди осведомителя\"."
 
 #: 18680 18681
-#, fuzzy
 msgid "\"I'll find one, then. Farewell.\""
-msgstr "\"Посмотрим, смогу ли я найти такого. Прощай\"."
+msgstr "\"В таком случае, пойду его искать. Прощай\"."
 
 #: 18682
 msgid "\"Aye?\" Looks confused. \"What about 'em?\""
-msgstr ""
+msgstr "\"Да? - он выглядит озадаченным. - Что насчет их?\""
 
 #: 18683 18700
-#, fuzzy
 msgid "\"What do they do?\""
-msgstr "\"Что сделала Рейвел?\""
+msgstr "\"Чем они занимаются?\""
 
 #: 18684 18692
-#, fuzzy
 msgid "\"Are you one?\""
-msgstr "\"С тобой все в порядке?\""
+msgstr "\"Ты - один из них?\""
 
 #: 18691
 msgid ""
 "He looks at you like you're addled. \"Scrape up the deaders. Drop 'em off at "
 "the Dusties' place, get some jink fer the journey. So?\""
 msgstr ""
+"Он глядит на тебя, как на бестолочь. \"Обдирают трупаков. Сбрасывают их в "
+"хате Мертвяков, получают немного звенелок за труды. А что?\""
 
 #: 18699
 msgid "\"Mebbe. On occasion. What's that matter?\""
-msgstr ""
+msgstr "\"Возможно. По случаю. А какая разница?\""
 
 #: 18705 18706
-#, fuzzy
 msgid "\"It doesn't. Farewell.\""
-msgstr "\"Я постараюсь. Прощай\"."
+msgstr "\"Да никакой. Прощай\"."
 
 #: 18707
 msgid ""
@@ -493,6 +550,9 @@ msgid ""
 "\"Pharod... knowin' about him n' jawbonin' about him... *not* cheap. Get ye "
 "put in the dead book, no, no, *not* cheap.\""
 msgstr ""
+"Внезапно он сужает глаза. \"Э.. - он склоняет голову набок, изучая тебя. - "
+"Фарод... знать о нем и трещать о нем... *недешево*. Того и гляди - получишь "
+"место в книге мертвых. Нет-нет, *недешево*\"."
 
 #: 18708
 msgid "\"Do you know where he is?\""
@@ -500,11 +560,13 @@ msgstr "\"Ты знаешь, где он находится?\""
 
 #: 18709 18713
 msgid "Offer him five more coins."
-msgstr ""
+msgstr "Предложить ему еще пять монет."
 
 #: 18712
 msgid "He nods, then looks around. \"That chant... *not* cheap.\""
 msgstr ""
+"Он кивает, затем оглядывается по сторонам. \"Эти слухи... *недешевый* товар"
+"\"."
 
 #: 18714
 msgid ""
@@ -513,10 +575,14 @@ msgid ""
 "wanna be seen with ye any longer. No more questions now... get-get!\" He "
 "makes to move past you."
 msgstr ""
+"Он смотрит по сторонам, потом наклоняется к твоему уху: \"Иди на восточную "
+"часть площади и жди: я встречусь с тобой через час. Больше не хочу, чтобы "
+"нас видели вместе. Хватит вопросов... Двигай, двигай!\" Ему удается пройти "
+"мимо тебя."
 
 #: 18715
 msgid "\"Wait-\""
-msgstr "Подождать.ать!\""
+msgstr "\"Стой...\""
 
 #: 18716
 msgid "Let him go."
@@ -530,17 +596,25 @@ msgid ""
 "the Square, along the boards runnin' across the trash. Seek her if ye want, "
 "but don't be talkin' ta me again afters!\""
 msgstr ""
+"\"Грязная, покрытая язвами *ведьма*! - он сплевывает и выводит полукруг "
+"напротив сердца. - Чтоб ее оспа побила, эту каргу-полукровку! Чтоб ее кишки "
+"сгнили от *тысячи тысяч* болячек. Если захочешь плюнуть в нее - ее крысиное "
+"гнездо в лачуге за площадью, возле забора, который вокруг мусора. Найдешь "
+"ее, коли захочешь, но после ко мне не подходи!\""
 
 #: 18724
 msgid ""
 "\"Eh... maybe... maybe... no. Haven't seen it, haven't seen any books.\" "
 msgstr ""
+"\"Э... возможно... возможно... хотя нет. Не видал, не видал никаких книжек\"."
 
 #: 18731
 msgid ""
 "You suddenly notice that Yellow-Fingers is standing too close to you and "
 "that his hand darts out, as if trying to pluck your purse."
 msgstr ""
+"Вдруг ты замечаешь, что Желтопалый стоит слишком близко к тебе и что его "
+"рука тянется вперед, словно пытаясь умыкнуть твой кошелек."
 
 #: 18732 18733 18783 18784
 msgid "Grab his hand."
@@ -548,7 +622,7 @@ msgstr "Схватить его за руку."
 
 #: 18734
 msgid "Observe the attempt carefully."
-msgstr ""
+msgstr "Внимательно наблюдать за его попыткой."
 
 #: 18735 18785
 msgid "\"What are you doing?\""
@@ -556,7 +630,7 @@ msgstr "\"Что ты делаешь?\""
 
 #: 18737
 msgid "He leaps backwards and begins to flee!"
-msgstr ""
+msgstr "Он отскакивает и начинает убегать!"
 
 #: 18738 18779 18781
 msgid "\"Damn...\""
@@ -567,55 +641,62 @@ msgid ""
 "You grab his hand. Yellow-Fingers looks startled. \"Ey! Ey! What ye doin'! "
 "Let go!\" He struggles, but can't break your grip."
 msgstr ""
+"Ты хватаешь его за руку. Желтопалый, кажется, опешил. \"Эй! Эй! Что ты "
+"делаешь! Пусти!\" Он борется, но не может избавиться от твоей хватки."
 
 #: 18740 18762
 msgid "Truth: \"You were robbing me. I'm going to kill you.\""
-msgstr ""
+msgstr "Правда: \"Ты пытался грабить меня. Я тебя прикончу\"."
 
 #: 18741 18763
 msgid "Bluff: \"You were robbing me. I'm going to kill you.\""
-msgstr ""
+msgstr "Блеф: \"Ты пытался грабить меня. Я тебя прикончу\"."
 
 #: 18742
 msgid ""
 "\"Ey! Ey! Now 'old on! Mistake, mistake! We ken settle this without bringin' "
 "the dead book inta it!\""
 msgstr ""
+"\"Эй! Эй! Погоди! Ошибка, ошибка! Мы можем уладить это без участия книги "
+"мертвых!\""
 
 #: 18743
 msgid "\"I'll spare your life for some information.\""
-msgstr ""
+msgstr "\"Я пощажу тебя в обмен на кое-какие сведенья\"."
 
 #: 18744
-#, fuzzy
 msgid "\"Give me everything you've got and I'll let you live.\""
-msgstr "\"Отдай мне все, что у тебя есть, ворюга, и я тебя отпущу\"."
+msgstr "\"Отдай мне все, что у тебя есть, и я тебя пощажу\"."
 
 #: 18745
 msgid "\"Just get out of here, and don't ever let me see you again.\""
-msgstr ""
+msgstr "\"Просто убирайся отсюда, и больше мне не попадайся\"."
 
 #: 18746
 msgid "He nods vigorously. \"Yes, yes, ask! Questions, go!\""
-msgstr ""
+msgstr "Он решительно кивает. \"Да-да, спрашивай! Задавай вопросы!\""
 
 #: 18747
 msgid "\"Tell me where the man named Pharod is.\""
-msgstr ""
+msgstr "\"Скажи мне, где находится человек по имени Фарод\"."
 
 #: 18748
 msgid ""
 "\"Ey...\" He looks uncomfortable. \"That's dangerous chant, Pharod is. A "
 "little jink goes a long way... ey?\""
 msgstr ""
+"\"Эй... - он выглядит стесненным. - Слухи про Фарода - опасные слухи. Как "
+"насчет пары звенелок... а?\""
 
 #: 18749
 msgid "\"You seem to forget your circumstances. Tell me... now.\""
 msgstr ""
+"\"Ты, похоже, забыл, в каком положении находишься. Рассказывай... сейчас же"
+"\"."
 
 #: 18750
 msgid "Give him three coppers."
-msgstr ""
+msgstr "Дать ему три медяка."
 
 #: 18751
 msgid ""
@@ -624,14 +705,18 @@ msgid ""
 "somewheres he comes and goes through. Gots to be a body 'round here who "
 "knows where the hole is... but it ain't me.\""
 msgstr ""
+"\"Э... ну, я знаю, что его малина не здесь, наверху... но она поблизости, по "
+"соседству, просто запрятана. Он то тут, то там, без конца шныряет... должно "
+"быть, есть место, через которое он ходит туда-сюда. В округе найдется кто-"
+"нибудь, кто знает, где эта дыра... только не я\"."
 
 #: 18752
 msgid "Truth: \"I think you're lying. Spill the chant, or I'll kill you.\""
-msgstr ""
+msgstr "Правда: \"Мне кажется, ты лжешь. Колись, не то я тебя прикончу\"."
 
 #: 18753
 msgid "Bluff: \"I think you're lying. Spill the chant, or I'll kill you.\""
-msgstr ""
+msgstr "Блеф: \"Мне кажется, ты лжешь. Колись, не то я тебя прикончу\"."
 
 #: 18754
 msgid ""
@@ -640,28 +725,35 @@ msgid ""
 "that's where that ol' serpent is holed up. Don't know how ta get past the "
 "gate, though.\""
 msgstr ""
+"\"Эй... - он облизывает губы и оглядывается по сторонам. - Сейчас, сейчас... "
+"эй... есть тут проход, усек? Погляди в северо-западном углу площади... бьюсь "
+"об заклад, там-то и поселился старый гад. Только как пройти через проход - "
+"без понятия\"."
 
 #: 18755
 msgid "\"Now give me everything you've got.\""
-msgstr ""
+msgstr "\"Отдай мне все, что у тебя есть\"."
 
 #: 18756 18758
 msgid "\"Get out of here... and never let me see you again.\""
-msgstr ""
+msgstr "\"Убирайся отсюда... и больше мне не попадайся\"."
 
 #: 18757
 msgid ""
 "He nods. Fear and loathing in his eyes, Yellow-Fingers passes you a few "
 "handfuls of copper."
 msgstr ""
+"Он кивает. Со страхом и ненавистью в глазах Желтопалый протягивает тебе "
+"несколько горстей медяков."
 
 #: 18759
 msgid "He frowns, and squints at you like you're addled. \"Ey? What?\""
 msgstr ""
+"Он хмурится и смотрит на тебя искоса, как будто ты - бестолочь. \"А? Чего?\""
 
 #: 18760 18761
 msgid "\"Why are you robbing me? I'll give you what you need.\""
-msgstr ""
+msgstr "\"Зачем тебе грабить меня? Я дам тебе все, что тебе нужно\"."
 
 #: 18764
 msgid "\"Forget it. Farewell.\""
@@ -669,7 +761,7 @@ msgstr "\"Забудь. Прощай\"."
 
 #: 18765
 msgid "\"You were robbing me. Leave, and don't let me see you again.\""
-msgstr ""
+msgstr "\"Ты хотел меня ограбить. Уходи и больше мне не попадайся\"."
 
 #: 18766 18772
 msgid ""
@@ -677,24 +769,27 @@ msgid ""
 "nearly starving, so I am... life on the streets of the Hive is none too "
 "pretty.\""
 msgstr ""
+"Желтопалый смотрит на тебя недоверчиво. \"Мне бы не помешала куча звенелок. "
+"Я весь изголодался... жизнь на улицах Улья не очень-то балует\"."
 
 #: 18768
-#, fuzzy
 msgid "Give him ten coppers."
-msgstr "Дать десять медяков."
+msgstr "Дать ему десять медяков."
 
 #: 18771
 msgid "\"I take it back. Leave, and don't let me see you again.\""
-msgstr ""
+msgstr "\"Беру свои слова обратно. Уходи и больше мне не попадайся\"."
 
 #: 18773
 msgid ""
 "\"Ey... thank ye kindly. Generous of you. May the Lady's shadow pass ye by.\""
 msgstr ""
+"\"Эй... спасибо тебе большое. Так щедро с твоей стороны. Пусть тень Леди "
+"обходит тебя стороной\"."
 
 #: 18774
 msgid "\"Just don't try and rob me again. Farewell.\""
-msgstr ""
+msgstr "\"Просто больше не пытайся меня ограбить. Прощай\"."
 
 #: 18775
 msgid ""
@@ -702,20 +797,25 @@ msgid ""
 "you to lift him off the ground a ways and shake him. \"Gaaah! I'll gives the "
 "chant, I will! Just let me down!\""
 msgstr ""
+"Твои руки выстреливают и хватают его за грязную одежду. Он худощав и "
+"достаточно легок, чтобы ты оторвал его от земли и немного потряс. \"А-а-а! Я "
+"все расскажу, правда! Опусти меня!\""
 
 #: 18776
 msgid "Toss him down in a heap."
-msgstr ""
+msgstr "Бросить его на кучу."
 
 #: 18777
 msgid "Set him down, but don't let go."
-msgstr ""
+msgstr "Опустить его, но не выпустить из рук."
 
 #: 18778
 msgid ""
 "You send him hurtling backwards, but as he crashes into the ground he comes "
 "out of the tumble into a blind sprint!"
 msgstr ""
+"Ты с силой швыряешь его, но, только упав на землю, он перекатывается и "
+"бросается наутек куда глаза глядят!"
 
 #: 18780
 msgid ""
@@ -723,6 +823,9 @@ msgid ""
 "you drop him, and in the half-second it takes you to recover he's already "
 "off and running."
 msgstr ""
+"Как только ты опускаешь Желтопалого, он ловко пинает тебя по голени. Ты "
+"бросаешь его, и за полсекунды, необходимых тебе, чтобы опомниться, его уже и "
+"след простыл."
 
 #: 18782
 msgid ""
@@ -731,10 +834,15 @@ msgid ""
 "the quickness of it all, there was a certain familiarity to it, and you're "
 "certain you could do the same with a bit of practice."
 msgstr ""
+"Ты внимательно наблюдаешь за тем, как проворные пальцы Желтопалого "
+"проскальзывают тебе в кошелек... и выскальзывают оттуда, вероятно, захватив "
+"несколько монет. Несмотря на всю быстроту происходящего, есть в этом что-то "
+"тебе знакомое, и ты уверен, что смог бы повторить это, немного "
+"потренировавшись."
 
 #: 18787
 msgid "\"I ken see ye were lookin' at me... whatta want? Eh?\""
-msgstr ""
+msgstr "\"Я заприметил, что ты на меня таращишься... че надо? А?\""
 
 #: 18789 18790 18793 18794
 msgid "\"Nothing. Farewell.\""
@@ -745,6 +853,8 @@ msgid ""
 "\"Ey, now. Simmer down, tail slip.\" He turns to you. \"I ken see ye were "
 "lookin' at me... whatta want? Eh?\""
 msgstr ""
+"\"Эй-эй. Остынь, хвостатая потаскушка, - он оборачивается к тебе. - Я "
+"заприметил, что ты на меня таращишься... че надо? А?\""
 
 #: 18795
 msgid ""
@@ -752,18 +862,22 @@ msgid ""
 "Morte. \"Ey! Th'skull. Where ye get the skull, ey? Me skull, it is! Give it "
 "backta me.\""
 msgstr ""
+"\"Эй-эй. Остынь, хвостатая потаскушка, - он оборачивается к тебе, и тут "
+"замечает Морта. - Эй! Тот череп. Откуда он у тебя, а? Он мой! Верни его мне"
+"\"."
 
 #: 54287
 msgid "Yellow-Fingers scampers off, mumbling sourly all the while."
-msgstr ""
+msgstr "Желтопалый уносится прочь, не переставая что-то угрюмо бормотать."
 
 #: 54786
 msgid ""
 "As you watch Yellow-Fingers hurriedly scamper off, you're struck with the "
 "feeling that you won't be seeing him again anytime soon."
 msgstr ""
+"Наблюдая за тем, как Желтопалый в спешке уходит, ты ловишь себя на мысли, "
+"что в ближайшем будущем ты его уже не увидишь."
 
 #: 66861
-#, fuzzy
 msgid "Ignore it and leave."
 msgstr "Не обращать на него внимания и уйти."
