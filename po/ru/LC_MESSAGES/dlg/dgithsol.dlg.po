@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dgithsol.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-10-17 05:10+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-09-02 21:13+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,6 +20,10 @@ msgid ""
 "with elaborate enamel. He eyes you suspiciously as you approach, placing his "
 "hand upon his sword hilt. He says nothing."
 msgstr ""
+"У этого мужчины бледно-желтая кожа и остроконечные уши. Его глаза - словно "
+"черные камушки. Он носит гибкую кольчугу, покрытую изысканной эмалью. Когда "
+"ты подходишь, он смотрит на тебя с подозрением, положив руку на эфес своего "
+"меча. Он молчит."
 
 #: 2918
 msgid "\"Greetings, sword-ringer.\""
@@ -27,26 +31,27 @@ msgstr "\"Приветствую, звенящий мечом\"."
 
 #: 44575
 msgid "\"Greetings, honored githyanki.\""
-msgstr ""
+msgstr "\"Приветствую, почтенный гитьянки\"."
 
 #: 44576
 msgid "\"I would like to ask you a few questions...\""
-msgstr ""
+msgstr "\"Я хотел бы задать тебе несколько вопросов...\""
 
 #: 44578
 msgid "\"I'm sorry, I seem to have the wrong person. Farewell.\""
-msgstr ""
+msgstr "\"Извини, я, кажется, обознался. Прощай\"."
 
 #: 44581
 msgid ""
 "\"I do not speak to one who is not of the People. Speak to Yi'minn there if "
 "you wish to converse with us.\" He keeps his eyes on you."
 msgstr ""
+"\"Я не разговариваю с теми, кто не из Народа. Поговори с Йиминн, если хочешь "
+"пообщаться с нами\". Он не сводит с тебя глаз."
 
 #: 44582
-#, fuzzy
 msgid "\"I just had a few questions...\""
-msgstr "\"Всего лишь несколько вопросов...\""
+msgstr "\"У меня всего лишь несколько вопросов...\""
 
 #: 44584 44682 44684
 msgid "\"Farewell, then.\""
@@ -57,14 +62,16 @@ msgid ""
 "In a flash, his sword is in his hands. \"Address me in the manner of the "
 "githzerai dogs, will you? Apologize or I'll run you through.\""
 msgstr ""
+"В мгновение ока в его руках появляется меч. \"Обращаешься ко мне, как к "
+"гитцерайскому псу? Извинись, не то я проткну тебя\"."
 
 #: 44587
 msgid "\"Apologize? To you? I don't think so.\""
-msgstr ""
+msgstr "\"Извиняться? Перед тобой? Я так не думаю\"."
 
 #: 44589
 msgid "\"My apologies. I thought you were a githzerai.\""
-msgstr ""
+msgstr "\"Прошу прощения. Я подумал, что ты гитцерай\"."
 
 #: 44591
 msgid "\"You have my apologies.\""
@@ -73,12 +80,11 @@ msgstr "\"Приношу свои извинения\"."
 #: 44592
 msgid ""
 "He inclines his head, but his hand moves no further from his sword-hilt."
-msgstr ""
+msgstr "Он склоняет голову, но не убирает руки с рукоятки меча."
 
 #: 44593
-#, fuzzy
 msgid "\"I had a few questions for you...\""
-msgstr "\"У меня есть вопросы к тебе\"."
+msgstr "\"У меня есть к тебе несколько вопросов...\""
 
 #: 44595 44679
 msgid "\"Farewell.\""
@@ -86,7 +92,7 @@ msgstr "\"Прощай\"."
 
 #: 44597
 msgid "With a hiss of indrawn breath, he attacks!"
-msgstr ""
+msgstr "Сдавлено шипя, он кидается в атаку!"
 
 #: 44599 44687
 msgid "Fight."
@@ -101,31 +107,36 @@ msgid ""
 "\"I do not answer questions. I am a githyanki knight. My words are my "
 "actions. Talk to Yi'minn or talk not to the githyanki.\""
 msgstr ""
+"\"Я не отвечаю на вопросы. Я рыцарь-гитьянки. Мои слова - это мои поступки. "
+"Поговори с Йиминном, или вообще не разговаривай с гитьянки\"."
 
 #: 44604
 msgid "\"Yi'minn? I'll do that. Where do I find him?\""
-msgstr ""
+msgstr "\"Йиминн? Ладно. Где мне его найти?\""
 
 #: 44678
 msgid ""
 "\"Oh, you're a githyanki? I thought I smelled the stench of illithid about "
 "you. Or perhaps it's your weak blood.\""
 msgstr ""
+"\"О, так ты гитьянки? Мне показалось, что я учуял на тебе вонь иллитидов. "
+"Или, может, это все твоя слабая кровь\"."
 
 #: 44680
 msgid "\"Test my patience no further. Go. Now.\""
-msgstr ""
+msgstr "\"Больше не испытывай мое терпение. Уходи. Сейчас же\"."
 
 #: 44681
-#, fuzzy
 msgid "\"I just had some questions...\""
-msgstr "\"У меня есть некоторые вопросы\"."
+msgstr "\"У меня всего лишь несколько вопросов...\""
 
 #: 44683
 msgid ""
 "He looks at you evenly. \"Look for him yourself. Go now. Cease this testing "
 "of my patience.\""
 msgstr ""
+"Он смотрит на тебя беспристрастно. \"Поищи его сам. А теперь уходи. Прекрати "
+"испытывать мое терпение\"."
 
 #: 44685
 msgid ""
@@ -134,16 +145,21 @@ msgid ""
 "with elaborate enamel. When his eyes alight upon Dak'kon, his blade springs "
 "into his hands. \"Githzerai dog! Come and taste my silver!\"  "
 msgstr ""
+"У этого мужчины бледно-желтая кожа и остроконечные уши. Его глаза - словно "
+"черные камушки. Он носит гибкую кольчугу, покрытую изысканной эмалью. Когда "
+"его глаза останавливаются на Дакконе, в его руках появляется клинок. "
+"\"Гитцерайский пес! Подойди и отведай моего серебра!\""
 
 #: 44686
 msgid ""
 "\"You would stand between us, human? Then you shall die too.\" He hurls "
 "himself at you."
 msgstr ""
+"\"Ты встал между нами, человек? Тогда ты тоже умрешь\". Он кидается на тебя."
 
 #: 44689
 msgid "The two gith hurl themselves at each other."
-msgstr ""
+msgstr "Оба гита кидаются друг на друга."
 
 #: 44690
 msgid "Attack the githyanki."
