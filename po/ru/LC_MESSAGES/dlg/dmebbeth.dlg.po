@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmebbeth.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-05-28 23:11+0600\n"
+"PO-Revision-Date: 2012-10-01 21:23+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -555,15 +555,19 @@ msgid ""
 "thingee, all glowing and sparkling with magicks, eh? If so, ye might never "
 "see it again.\""
 msgstr ""
+"Меббет думает. \"Нет, не видала. Если бы он был на площади, в чем я очень "
+"сомневаюсь, а книгами тут народ не очень помышляет, то, скорее всего, его уже "
+"либо продали, либо украли. А что, в нем что-то важное для тебя? Всякие "
+"сверкающие и искрящиеся магические штучки, а? Если так, то скорее всего, "
+"больше ты его не увидишь\"."
 
 #: 23260
-#, fuzzy
 msgid "\"Maybe not. I had some other questions...\""
-msgstr "\"Нет, нет... У меня есть некоторые вопросы...\""
+msgstr "\"Может быть. У меня были еще вопросы...\""
 
 #: 23261
 msgid "\"I'm beginning to think I'll never see it again, either. Farewell.\""
-msgstr ""
+msgstr "\"Я тоже начинаю думать, что больше не увижу его. Прощай\"."
 
 #: 23262
 msgid ""
@@ -983,16 +987,15 @@ msgstr ""
 
 #: 23419
 msgid "\"I want to learn about magic. Could you teach me?\""
-msgstr ""
+msgstr "\"Я хочу изучать магию. Ты можешь меня обучить?\""
 
 #: 23420 23432 23450
 msgid "\"No matter. I had some other questions...\""
 msgstr "\"Неважно. У меня есть другие вопросы...\""
 
 #: 23421
-#, fuzzy
 msgid "\"Never mind. I must take my leave. Farewell.\""
-msgstr "\"Тогда неважно. Я должен идти. Прощай.\""
+msgstr "\"Неважно. Мне нужно идти. Прощай\"."
 
 #: 23422
 msgid ""
@@ -1001,21 +1004,25 @@ msgid ""
 "that'd spill the dark of it... ye'd be wastin' yer time with ol' Mebbeth, so "
 "ye would.\""
 msgstr ""
+"Меббет хохочет. \"Ха! Тут тебе не Фестхолл, я не преподавательница и не "
+"учительница! Всяко в округе есть посвященные в эти тайны, ты только время зря "
+"потеряешь со старой Меббет\"."
 
 #: 23423
 msgid "\"I don't agree. I think you'd have a lot to teach.\""
-msgstr ""
+msgstr "\"Не соглашусь. Мне кажется, что у тебя можно многому научиться\"."
 
 #: 23424
-#, fuzzy
 msgid "\"No matter, then. I had some other questions...\""
-msgstr "\"Неважно. У меня есть другие вопросы...\""
+msgstr "\"Тогда неважно. У меня есть другие вопросы...\""
 
 #: 23426
 msgid ""
 "Mebbeth looks at you intently. \"Oh, aye? *Why* do ye want to learn such "
 "things?\""
 msgstr ""
+"Меббет пристально смотрит на тебя. \"Вот как? *Почему* ты хочешь изучать "
+"подобные штуки?\""
 
 #: 23427
 msgid "Truth: \"Because I just want to know.\""
@@ -1023,11 +1030,11 @@ msgstr "Правда: \"Потому что я просто хочу знать\
 
 #: 23428
 msgid "Truth: \"Because I may need it to solve the mystery of who I am.\""
-msgstr ""
+msgstr "Правда: \"Потому что я хочу узнать, кто я такой\"."
 
 #: 23429
 msgid "Truth: \"Because I need power.\""
-msgstr ""
+msgstr "Правда: \"Потому что мне нужна сила\"."
 
 #: 23430
 msgid ""
@@ -1041,12 +1048,11 @@ msgstr ""
 
 #: 23431
 msgid "\"My reasons are my own.\""
-msgstr ""
+msgstr "\"Это мое личное дело\"."
 
 #: 23433
-#, fuzzy
 msgid "\"Never mind... I must take my leave. Farewell.\""
-msgstr "\"Тогда неважно. Я должен идти. Прощай.\""
+msgstr "\"Неважно... Мне нужно идти. Прощай\"."
 
 #: 23435 23439
 msgid "\"I understand. Will you teach me?\""
@@ -2560,3 +2566,4 @@ msgstr ""
 #: 66279
 msgid "\"Thanks again...\""
 msgstr ""
+
