@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dvoorsha.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-15 03:10+0500\n"
+"PO-Revision-Date: 2012-10-01 22:12+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,13 +11,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 57956
 msgid ""
 "You see a middle aged man in shoddy clothes. He frowns at your approach and "
 "looks about warily."
 msgstr ""
+"Перед тобой мужчина средних лет в дешевой одежде. При твоем приближении он "
+"обеспокоенно хмурится."
 
 #: 57957
 msgid "\"Greetings.\""
@@ -30,7 +33,7 @@ msgstr "Игнорировать его."
 #: 57961
 msgid ""
 "His frown deepens as he examines you. \"Uh... hello. What do you want?\""
-msgstr ""
+msgstr "Изучая тебя, он хмурится еще сильнее. \"Э... привет. Чего тебе надо?\""
 
 #: 57963
 msgid "\"I have some questions...\""
@@ -41,9 +44,8 @@ msgid "\"Never mind. I must be going, farewell.\""
 msgstr "\"Неважно. Я должен идти. Прощай\"."
 
 #: 57966
-#, fuzzy
 msgid "\"Like what?\""
-msgstr "\"Где, например?\""
+msgstr "\"Например?\""
 
 #: 57967
 msgid "\"Who are you?\""
@@ -59,13 +61,15 @@ msgstr "\"Что ты можешь рассказать об этом месте
 
 #: 57970
 msgid "\"I'm looking for a deva. I've heard he's in Curst.\""
-msgstr ""
+msgstr "\"Я ищу одного дэва. Я слышал, что он в Проклятом\"."
 
 #: 57971
 msgid ""
 "He hesitates before answering. \"Names Voorsha.\" He doesn't elaborate on "
 "his answer."
 msgstr ""
+"Поколебавшись, он отвечает \"Зовут Вурша\". Похоже, в подробности вдаваться "
+"он не собирается."
 
 #: 57972 57976 57979 57983 57987 57991 58005 58015 58028 58065 58068 58078
 msgid "\"I have some more questions...\""
@@ -81,49 +85,56 @@ msgid ""
 "He stares at you blankly then shrugs. \"I'm a... trader. This is my storage "
 "area.\""
 msgstr ""
+"Недоумевающе он смотрит на тебя, пожимая плечами. \"Я... э-э-э... торговец. "
+"Здесь мой склад\"."
 
 #: 57975
-#, fuzzy
 msgid "\"What do you store here?\""
-msgstr "\"Чем ты здесь занимаешься?\""
+msgstr "\"Что ты здесь хранишь?\""
 
 #: 57977
 msgid "He frowns. \"I don't see that that's any concern of yours.\""
-msgstr ""
+msgstr "Он хмурится. \"Не понимаю, почему это должно тебя касаться\"."
 
 #: 57978
 msgid "\"I'm just curious...\""
-msgstr ""
+msgstr "\"Мне просто любопытно...\""
 
 #: 57981
 msgid ""
 "He shrugs. \"Well...\" He gestures vaguely. \"Ale, mead, and... other goods."
 "\" He looks somewhat nervous."
 msgstr ""
+"Он пожимает плечами. \"Что ж... - он делает неопределенный жест рукой. - Эль, "
+"медовуха и... э-э-э... другие товары\". Кажется, он чем-то обеспокоен."
 
 #: 57982
 msgid "\"What are you so nervous about?\""
-msgstr ""
+msgstr "\"Чем ты так обеспокоен?\""
 
 #: 57985
 msgid ""
 "He begins to fidget. \"Nothing...\" He gives you a defiant look. \"Can we "
 "change the subject?\""
 msgstr ""
+"Он начинает суетиться. \"Ничем... - он дерзко смотрит на тебя. - Может сменим "
+"тему?\""
 
 #: 57986
 msgid "\"No, I think you're up to something and I want to know what.\""
-msgstr ""
+msgstr "\"Нет, мне кажется, что ты что-то скрываешь, и я хочу знать - что\"."
 
 #: 57989
 msgid ""
 "He glares at you then sighs. \"I'm... bringing the stuff in through... "
 "alternate channels. The guards don't know...\""
 msgstr ""
+"Он смотрит на тебя, потом вздыхает. \"Я... э-э-э... поставляю товары из... "
+"э-э-э... альтернативных источников. О которых не знает стража...\""
 
 #: 57990
 msgid "\"You're a smuggler.\""
-msgstr ""
+msgstr "\"Ты контрабандист\"."
 
 #: 57993
 msgid ""
@@ -131,10 +142,13 @@ msgid ""
 "\" He gives you a crafty look. \"Say... how'd you like to help me out... for "
 "a piece of the business?\""
 msgstr ""
+"Он хмурится. \"Торговец запрещенными товарами. Звучит лучше, чем "
+"контрабандист, не находишь? - он лукаво смотрит на тебя. - Кстати... Ты не "
+"помог бы мне... э-э-э... с кое-каким дельцем?\""
 
 #: 57995
 msgid "\"What kind of help?\""
-msgstr ""
+msgstr "\"Какая требуется помощь?\""
 
 #: 57999
 msgid ""
@@ -142,26 +156,29 @@ msgid ""
 "kill me and that makes it hard to get my stuff out. I need someone to take "
 "care of it.\""
 msgstr ""
+"Он немного размышляет. \"Тут неподалеку живет гехрелет. Пытался прикончить "
+"меня, а это существенно затрудняет поставки моего товара. Мне нужен кто-то, "
+"кто сможет позаботится об этом\"."
 
 #: 58002 58023
-#, fuzzy
 msgid "\"What's a gehreleth?\""
-msgstr "\"Кто такие Сборщики?\""
+msgstr "\"Кто такой гехрелет?\""
 
 #: 58003 58011
-#, fuzzy
 msgid "\"Why don't you deal with it yourself?\""
-msgstr "\"А почему вы не заберете его сами?\""
+msgstr "\"А почему ты не разберешься с ним сам?\""
 
 #: 58004 58013 58026
 msgid "\"What do I get if I take care of it for you?\""
-msgstr ""
+msgstr "\"А что я получу в обмен за труды?\""
 
 #: 58008
 msgid ""
 "He shrugs. \"It's just some dumb creature intent on eating everything it "
 "sees...\" He looks at you anxiously."
 msgstr ""
+"Он пожимает плечами. \"Это просто тупая тварь, которая пытается сожрать все, "
+"что увидит...\" Он беспокойно на тебя смотрит."
 
 #: 58020
 msgid ""
@@ -169,6 +186,9 @@ msgid ""
 "\"Anyone who can survive what you obviously have should be able to deal with "
 "it.\""
 msgstr ""
+"\"Я не воин, в прямой схватке он меня запросто прикончит, - он пробегается "
+"взглядом по твоим шрамам. - Если ты смог выжить после таких ран, то с ним ты "
+"запросто совладаешь\"."
 
 #: 58036
 msgid ""
@@ -176,30 +196,30 @@ msgid ""
 "everything by myself. We'll split the profits down the middle. What do you "
 "say?\""
 msgstr ""
+"Он улыбается. \"Я могу взять тебя в партнеры. Дела идут в гору, и я один уже "
+"не могу всех обеспечить. Мы разделим прибыль пополам. Что скажешь?\""
 
 #: 58039
 msgid "\"Sure, why not.\""
-msgstr ""
+msgstr "\"Конечно, почему бы и нет\"."
 
 #: 58041
-#, fuzzy
 msgid "\"I don't think so.\""
-msgstr "\"Нет, не думаю\"."
+msgstr "\"Нет, что-то не хочется\"."
 
 #: 58047
-#, fuzzy
 msgid "\"I'll think about it. I have some other questions...\""
-msgstr "\"Я подумаю над этим. У меня есть еще вопросы...\""
+msgstr "\"Я подумаю над этим. У меня есть другие вопросы...\""
 
 #: 58053
 msgid ""
 "His smile broadens. \"Great. Take care of the gehreleth and get back to me.\""
 msgstr ""
+"Он широко улыбается. \"Отлично. Разберись с гехрелетом и возвращайся назад\"."
 
 #: 58056
-#, fuzzy
 msgid "\"All right. I have some other questions...\""
-msgstr "\"Хорошо. У меня есть другие вопросы...\""
+msgstr "\"Хорошо. У меня есть другие вопросы\"."
 
 #: 58060
 msgid "\"I must be going, farewell...\""
@@ -210,21 +230,24 @@ msgid ""
 "He frowns. \"All right, but if you change your mind my offer still stands. "
 "I'm out of business if I can't get that gehreleth taken care of.\""
 msgstr ""
+"Он хмурится. \"Хорошо, но если передумаешь, предложение будет в силе. Я "
+"вылечу в трубу, если не разберусь с этим гехрелетом\"."
 
 #: 58067
 msgid ""
 "He glances about. \"Nothing to tell really.\" He shrugs. \"Look around for "
 "yourself."
 msgstr ""
+"Он озирается по сторонам. \"Да в общем-то ничего особенного, - пожимает он "
+"плечами. - Лучше сам осмотрись\"."
 
 #: 58070
 msgid "He frowns. \" A deva... I've heard rumors...\" He pauses."
-msgstr ""
+msgstr "Он хмурится. \"Дэва...  Что-то я об этом слышал...\" Он умолкает."
 
 #: 58071
-#, fuzzy
 msgid "\"What rumors?\""
-msgstr "\"Каким символом?\""
+msgstr "\"Что именно?\""
 
 #: 58072
 msgid ""
@@ -232,6 +255,9 @@ msgid ""
 "the prison. Word is they broke into an unknown chamber by accident...\" He "
 "turns back to you. \"Found *something* or *someone* there, imprisoned.\""
 msgstr ""
+"Пожимая плечами, он отводит взгляд. \"Кто-то внизу решил расширить тюрьму. "
+"Говорят, что при раскопках случайно наткнулись на неизвестную комнату... - он "
+"смотрит на тебя. - Нашли там *что-то* или *кого-то*, запертого\"."
 
 #: 58073
 msgid "\"Go on.\""
@@ -243,10 +269,13 @@ msgid ""
 "others say it was a tanar'ri.\" He shrugs. \"Don't care myself. Whatever it "
 "is, I intend to stay away from it.\""
 msgstr ""
+"\"Одни говорят, что нашли дэва, другие говорят - что баатузу, а третьи - что "
+"танарри, - пожимает он плечами. - Мне все равно. Кто бы там ни был, лучше от "
+"него держаться подальше\"."
 
 #: 58075
 msgid "\"Where is this chamber?\""
-msgstr ""
+msgstr "\"Где находится эта комната?\""
 
 #: 58076
 msgid "\"I see. I have some more questions...\""
@@ -257,25 +286,28 @@ msgid ""
 "\"I have no idea. Keep poking around down here and you're likely to find "
 "it... not that that would be a good thing, mind you.\""
 msgstr ""
+"\"Не знаю. Поспрашивай кого-нибудь там внизу и, скорее всего, ты найдешь "
+"ее... Только как бы это потом тебе боком не вышло\"."
 
 #: 58080
 msgid ""
 "You see Voorsha, the bootlegger. He glances about nervously at your "
 "approach. \"Hello... again. What can I do for you?\""
 msgstr ""
+"Перед тобой Вурша, торговец запрещенными товарами. Он нервно наблюдает за "
+"твоим приближением. \"Привет... э-э-э... еще раз. Чем могу быть полезен?\""
 
 #: 58082
-#, fuzzy
 msgid "\"You mentioned needing some help. What do you need?\""
-msgstr "\"Ты не можешь никуда уйти? Что ты имеешь в виду?\""
+msgstr "\"Ты говорил, что тебе нужна помощь. Что тебе нужно?\""
 
 #: 58083
 msgid "\"You asked me to take care of some gehreleth for you.\""
-msgstr ""
+msgstr "\"Ты просил меня разобраться с гехрелетом\"."
 
 #: 58084
 msgid "\"I've killed that gehreleth for you."
-msgstr ""
+msgstr "\"Я убил гехрелета\"."
 
 #: 58085
 msgid "\"Nothing, farewell.\""
@@ -283,35 +315,39 @@ msgstr "\"Ничего, прощай\"."
 
 #: 58086
 msgid "He stares at you for a moment. \"Yes. Will you do it?\""
-msgstr ""
+msgstr "Пару секунд он пялится на тебя. \"Да. Ты сделаешь это?\""
 
 #: 58087
 msgid "\"What do I get if I do?\""
-msgstr ""
+msgstr "\"Что я получу, если я это сделаю?\""
 
 #: 58088
 msgid ""
 "He looks surprised but quickly recovers. He glances at you to see if you "
 "noticed. \"Uh... that's great. Good job.\""
 msgstr ""
+"Похоже, он удивлен, но пытается не подать виду. Пытаясь понять, заметил ли ты "
+"это, он смотрит на тебя. \"Э-э-э... отлично. Хорошая работа\"."
 
 #: 58089
 msgid "\"You said you'd make me your partner. I'm ready to collect.\""
-msgstr ""
+msgstr "\"Ты говорил, что сделаешь меня своим партнером. Пора делиться\"."
 
 #: 58090
 msgid ""
 "He nods. \"Yes... I did say that.\" He stares at you for a moment then "
 "begins to fidget. "
 msgstr ""
+"Он кивает. \"Да... Я говорил такое\". Он смотрит на тебя, после чего начинает "
+"беспокойно вертеться."
 
 #: 58091
 msgid "\"So we're partners now. Right?\""
-msgstr ""
+msgstr "\"Теперь мы партнеры. Верно?\""
 
 #: 58092
 msgid "\"You didn't think I could kill the gehreleth, did you?\""
-msgstr ""
+msgstr "\"Ты ведь не ожидал, что я смогу убить гехрелета, так ведь?\""
 
 #: 58093
 msgid ""
@@ -320,6 +356,11 @@ msgid ""
 "gehreleth would deal with you and save me the trouble. Now I guess I have to "
 "take care of you myself.\" He suddenly draws a weapon and attacks."
 msgstr ""
+"Он смотрит на еще дольше, после чего вздыхает. \"Нет, я так не думаю... - он "
+"еще раз вздыхает. - Похоже, ты превзошел мои ожидания... Я надеялся, что "
+"гехрелет разберется с тобой и избавит меня от неприятностей. Теперь, похоже, "
+"мне придется взяться за дело самому\". Он неожиданно хватается за оружие и "
+"бросается в атаку."
 
 #: 58094 58097
 msgid "Defend yourself."
@@ -332,6 +373,10 @@ msgid ""
 "with you and save me the trouble. Now I guess I have to take care of you "
 "myself.\" He suddenly draws a weapon and attacks."
 msgstr ""
+"Он смотрит на еще дольше, после чего вздыхает. \"Нет, не ожидал... Похоже, ты "
+"превзошел мои ожидания... Я надеялся, что гехрелет разберется с тобой и "
+"избавит меня от неприятностей. Теперь, похоже, мне придется взяться за дело "
+"самому\". Он неожиданно хватается за оружие и бросается в атаку."
 
 #: 68252
 msgid "\"I must be going now. Farewell.\""
@@ -341,7 +386,9 @@ msgstr "\"Я должен идти. Прощай\"."
 msgid ""
 "\"I've already dealt with the gehreleth, it's dead. So, are we partners now?"
 msgstr ""
+"\"Я уже разобрался с гехрелетом, он мертв. Теперь мы партнеры, верно?\""
 
 #: 68273
 msgid "\"I must be going now, farewell.\""
 msgstr "\"Я должен идти, прощай\"."
+
