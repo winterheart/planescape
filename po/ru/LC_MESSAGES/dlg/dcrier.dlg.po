@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-09-04 17:03+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-10-07 22:00+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.3\n"
 
 #: 26006
 msgid ""
@@ -20,25 +20,30 @@ msgid ""
 "body makes it nearly impossible to see the man beneath. He is chanting and "
 "rolling his head back and forth -- it looks like some sort of ritual."
 msgstr ""
+"Потоки слез прорыли борозды на покрытом пылью лице этого человека. С виду он "
+"то ли монах, то ли какой-то праведник, однако грязь, покрывающая его тело, "
+"практически не оставляет возможности определить, кто он такой. Он напевает и "
+"качает головой взад-вперед - что-то вроде ритуала."
 
 #: 26007
 msgid "\"Greetings.\""
 msgstr "\"Приветствую\"."
 
 #: 26008
-#, fuzzy
 msgid "Leave the holy man alone."
-msgstr "Оставить женщину в покое."
+msgstr "Оставить праведника в покое."
 
 #: 26523
 msgid ""
 "You see the Crier of Es-Annon. He still emits choked sobs as he chants the "
 "dead city's name, and tears roll down his cheeks."
 msgstr ""
+"Перед тобой плакальщик Эс-Аннона. Он все еще издает сдавленные всхлипы, "
+"напевая имя мертвого города, и слезы катятся по его щекам."
 
 #: 26524
 msgid "\"I must ask: Why do you mourn a city?\""
-msgstr ""
+msgstr "\"Я должен спросит, почему ты оплакиваешь город?\""
 
 #: 26525
 msgid ""
@@ -47,21 +52,27 @@ msgid ""
 "friend. Soon, I will go in search of my brothers and tell them our mourning "
 "is done.\""
 msgstr ""
+"Перед тобой плакальщик Эс-Аннона. Он выглядит расслабленным; в его взгляде "
+"спокойствие, которого не было, когда ты впервые с ним заговорил. \"Спасибо "
+"тебе, друг мой. Вскоре я отправлюсь на поиски своих братьев и передам им, "
+"что наша скорбь завершилась\"."
 
 #: 26526
 msgid "\"I have not yet found a tombstone on which to carve Es-Annon's name.\""
 msgstr ""
+"\"Я еще не нашел могильную плиту, на которой можно высечь имя Эс-Аннона\"."
 
 #: 26527
 msgid ""
 "\"I have seen to it that Es-Annon's name has been remembered. It lies carved "
 "upon the black stone monument outside of the Mortuary.\""
 msgstr ""
+"\"Я позаботился о том, чтобы имя Эс-Аннона не было забыто. Его высекли на "
+"черном каменном монументе возле Морга\"."
 
 #: 26528
-#, fuzzy
 msgid "Leave the Crier alone."
-msgstr "Оставить фигуру в покое."
+msgstr "Оставить плакальщика в покое."
 
 #: 26529
 msgid ""
@@ -69,6 +80,8 @@ msgid ""
 "the only ones who can bear the burden. You need not search any more, "
 "friend...\""
 msgstr ""
+"Плакальщик качает головой. \"Этого я и опасался. Плакальщики Эс-Аннона - "
+"единственные, кому по силам эта ноша. Тебе больше не нужно искать, друг...\""
 
 #: 26530
 msgid ""
@@ -76,16 +89,21 @@ msgid ""
 "I returned and told the Crier, and his stream of tears ended. He seems at "
 "peace now, and he was grateful for my efforts."
 msgstr ""
+"Я позаботился о том, чтобы имя Эс-Аннона высекли на мемориале Тленных. Я "
+"вернулся и рассказал это плакальщику, и поток его слез иссяк. Похоже, он "
+"обрел мир и благодарен мне за старания."
 
 #: 26531
 msgid "\"Very well. I wish you good fortune on your journey. Farewell.\""
-msgstr ""
+msgstr "\"Хорошо. Желаю тебе удачи в твоих странствиях. Счастливо\"."
 
 #: 26532
 msgid ""
 "\"No. I'll continue to look for a tombstone, and I'll return when Es-Annon's "
 "name is upon it.\""
 msgstr ""
+"\"Нет. Я продолжу поиск могильной плиты, и вернусь, когда имя Эс-Аннона "
+"будет на ней\"."
 
 #: 26533
 msgid ""
@@ -93,10 +111,13 @@ msgid ""
 "eyes. He opens his parched mouth to speak, but all he can manage is a "
 "withered croak. "
 msgstr ""
+"Человек прекращает свое безумное бормотание и смотрит на тебя глазами, "
+"полными слез. Он раскрывает свои потрескавшиеся губы, чтобы заговорить, "
+"однако ему удается только выдавить сухой хрип."
 
 #: 26534
 msgid "\"What's wrong? Why are you crying?\""
-msgstr ""
+msgstr "\"В чем дело? Почему ты плачешь?\""
 
 #: 26535
 msgid "\"Sorry to disturb you. Farewell.\""
@@ -108,16 +129,21 @@ msgid ""
 "water for days. As you watch, a tear trickles down his face. \"I... am a "
 "Crier of Es-Annon.\""
 msgstr ""
+"\"Я...\" Голос у него настолько хриплый, что кажется, будто он уже много "
+"дней обходится без воды. При этом по его лицу стекает слеза. \"Я... "
+"плакальщик Эс-Аннона\"."
 
 #: 26537
 msgid "\"Es-Annon? Who is that?\""
-msgstr ""
+msgstr "\"Эс-Аннона? Кто это?\""
 
 #: 26539
 msgid ""
 "I agreed to go find a tombstone on which to carve the name of Es-Annon for "
 "the Crier."
 msgstr ""
+"Я согласился помочь плакальщику и найти могильную плиту, чтобы высечь на ней "
+"имя Эс-Аннона."
 
 #: 26540
 msgid ""
@@ -126,6 +152,10 @@ msgid ""
 "remaining survivors) now travel the Planes, crying of the city to all who "
 "would listen. It is their wish that Es-Annon be remembered. "
 msgstr ""
+"На улицах Улья я встретил \"плакальщика Эс-Аннона\". Согласно его словам, Эс-"
+"Аннон - город, который давным-давно был разрушен, и теперь он (а также "
+"другие выжившие) путешествует по планам, оплакивая город перед любым, кто "
+"готов слушать. Они хотят, чтобы имя Эс-Аннона не было забыто."
 
 #: 26541
 msgid ""
@@ -133,28 +163,32 @@ msgid ""
 "rasping laugh; it sounds brutal and defeated. \"Es-Annon... it is not a man, "
 "but a city!\""
 msgstr ""
+"\"К... *кто* Эс-Аннон?!\" Он запрокидывает голову и издает резкий смех, "
+"грубый и отчаянный. \"Эс-Аннон... это не человек, а город!\""
 
 #: 26542
 msgid "\"Why do you cry for a city?\""
-msgstr ""
+msgstr "\"Почему ты оплакиваешь город?\""
 
 #: 26543
 msgid "\"I fear I have upset you. Farewell.\""
-msgstr ""
+msgstr "\"Боюсь, я тебя расстроил. Прощай\"."
 
 #: 26544
 msgid ""
 "\"We cry its name because Es-Annon must not be forgotten. All the Criers of "
 "Es-Annon carry this burden.\""
 msgstr ""
+"\"Мы оплакиваем его имя, потому что Эс-Аннон не должен быть забыт. Все "
+"плакальщики Эс-Аннона разделяют это бремя\"."
 
 #: 26545
 msgid "\"You mourn a *city?* Why do you do such a thing?\""
-msgstr ""
+msgstr "\"Ты скорбишь по *городу*? Зачем тебе это?\""
 
 #: 26546
 msgid "\"I see; I will leave you to your thoughts. Farewell.\""
-msgstr ""
+msgstr "\"Ясно; предоставлю тебя твоим мыслям. Прощай\"."
 
 #: 26547
 msgid ""
@@ -164,26 +198,34 @@ msgid ""
 "remembered across the Planes. Many Criers of Es-Annon have died for the sake "
 "of remembering... many...\""
 msgstr ""
+"\"Потому что имя - это все, что от него осталось. Его залитые светом улицы, "
+"его величественные спиральные парки... когда он был опустошен и превратился "
+"в воспоминания, только шесть десятков его жителей остались в живых. Наш долг "
+"- позаботиться о том, чтобы его имя помнили на планах. Многие плакальщики Эс-"
+"Аннона умерли во имя памяти... многие...\""
 
 #: 26549
 msgid "\"If it places you and the others at risk, why don't you stop?\""
-msgstr ""
+msgstr "\"Если это подвергает вас риску, почему бы вам не остановиться?\""
 
 #: 26550 26553 26557 26563 26569
-#, fuzzy
 msgid "\"I mourn the loss of your city and your citizens. Farewell.\""
-msgstr "\"Думаю, я не смогу помочь тебе в решении проблем. Прощай\"."
+msgstr "\"Я скорблю по утрате твоего города и его жителей. Прощай\"."
 
 #: 26551
+#, fuzzy
 msgid ""
 "\"The tears I shed, the dust that cloaks me... these things are as nothing "
 "compared to what awaits should I give up my sacred burden. We MUST see to it "
 "that its name is remembered. We are living memorials to its passage.\""
 msgstr ""
+"\"Пролитые мною слезы, покрывающая меня пыль... все это - ничто, по "
+"сравнению с тем, что ждет нас, если я откажусь от своей священной миссии. Мы "
+"ДОЛЖНЫ заботиться о том, чтобы его имя помнили. Мы - его живые мемориалы\"."
 
 #: 26552
 msgid "\"If that's so, then what happens if you all die?\""
-msgstr ""
+msgstr "\"Тогда что будет, если все вы умрете?\""
 
 #: 26555
 msgid ""
@@ -192,24 +234,31 @@ msgid ""
 "mourn it forever... even now, the dust clings to our robes, the spit dries "
 "in our mouths, our bodies wither and die.\""
 msgstr ""
+"Новая слеза вытекает из глаза плакальщика. Даже его покрытое слоем грязи "
+"лицо не может скрыть его отчаянья. \"НЕ ЗНАЮ. Мы, плакальщики Эс-Аннона, не "
+"можем скорбеть вечно... даже сейчас пыль цепляется за нашу одежду, слюна "
+"высыхает в наших ртах, наши тела чахнут и умирают\"."
 
 #: 26556
 msgid "\"Is there any way I could help you?\""
-msgstr ""
+msgstr "\"Я могу тебе чем-то помочь?\""
 
 #: 26558
 msgid ""
 "\"You are kind to ask...\" The Crier shakes his head. \"Unless you can "
 "immortalize Es-Annon, there is no help to be had.\""
 msgstr ""
+"\"Спасибо, что спросил... - плакальщик качает головой. - Если ты не можешь "
+"увековечить Эс-Аннон, ты ничем нам не поможешь\"."
 
 #: 26560
 msgid "\"Does it have to be you that cries Es-Annon's name?\""
-msgstr ""
+msgstr "\"Почему именно ты должен оплакивать имя Эс-Аннона?\""
 
 #: 26561 26562
 msgid "\"Must it be immortalized by a man? Would a tombstone serve?\""
 msgstr ""
+"\"Зачем его увековечивать человеку? Может, сгодится и могильная плита?\""
 
 #: 26564
 msgid ""
@@ -218,22 +267,30 @@ msgid ""
 "down his cheek. \"There is nothing to be done. When the Criers of Es-Annon "
 "die, so dies Es-Annon.\""
 msgstr ""
+"\"Разве это важно? Другой может оплакивать имя, но потом он тоже умрет\". В "
+"уголке его глаза постепенно появляется слеза, которая затем скатывается по "
+"его щеке. \"Тут ничего не поделаешь. Когда умрут плакальщики, умрет и Эс-"
+"Аннон\"."
 
 #: 26565
 msgid ""
 "\"And perhaps that is as it should be. If the city is gone, as you say, then "
 "it was meant to be forgotten.\""
 msgstr ""
+"\"Возможно, так и должно быть. Раз, по твоим словам, города не стало, то ему "
+"суждено кануть в забытие\"."
 
 #: 26567
 msgid ""
 "\"It sounds as if the act of remembering Es-Annon places what remains of its "
 "people at risk. Is it worth so much?\""
 msgstr ""
+"\"Похоже на то, что напоминание об Эс-Анноне подвергает опасности оставшихся "
+"его жителей. Разве оно того стоит?\""
 
 #: 26568
 msgid "\"What about a tombstone?\""
-msgstr ""
+msgstr "\"Как насчет могильной плиты?\""
 
 #: 26570
 msgid ""
@@ -241,6 +298,9 @@ msgid ""
 "You saw naught its beauty! Naught of its splendor! Would you discard such a "
 "memory, such a perfect memory, if you possessed it?\""
 msgstr ""
+"Корка грязи на его лице трескается; он сердито ворчит: \"Ты ничего не "
+"знаешь! Ты не видел его красоту! Его величие! Скажи, ты бы отбросил такие "
+"воспоминания, столь великолепные, если бы они у тебя были?\""
 
 #: 26571 26573 26574
 msgid ""
@@ -248,6 +308,8 @@ msgid ""
 "to you, Crier of Es-Annon... if you carry the city to your grave, who have "
 "you served?\""
 msgstr ""
+"\"Вещам суждено умирать. Им суждено быть забытыми. Мой тебе совет, "
+"плакальщик Эс-Аннона... ну кому ты послужишь, унеся город с собой в могилу?\""
 
 #: 26575 26576 26577
 msgid ""
@@ -255,14 +317,17 @@ msgid ""
 "that memory in jeopardy. It would be better if you spent the rest of your "
 "days remembering Es-Annon with your brothers.\""
 msgstr ""
+"\"Я бы не позволил таким воспоминаниям умереть, подвергая риску последних "
+"его хранителей. Было бы лучше, если бы ты потратил остаток своих дней, "
+"вспоминая об Эс-Анноне вместе со своими братьями\"."
 
 #: 26578
 msgid "\"What about a tombstone then?\""
-msgstr ""
+msgstr "\"Тогда как насчет могильной плиты?\""
 
 #: 26579
 msgid "\"Never mind, then. I will leave you to your thoughts. Farewell.\""
-msgstr ""
+msgstr "\"В таком случае, забудь. Предоставлю тебя твоим мыслям. Прощай\"."
 
 #: 26580
 msgid ""
@@ -270,10 +335,13 @@ msgid ""
 "corner of his eye. After a moment, he speaks, and his voice is like gravel, "
 "thick with emotion. \"There... is truth in what you say.\" "
 msgstr ""
+"Плакальщик умолкает, и ты наблюдаешь, как в уголке его глаза появляется "
+"одинокая слеза. Мгновение спустя он продолжает; его полный переживаний голос "
+"звучит как гравий. \"В твоих словах... есть доля правды\" ."
 
 #: 26581
 msgid "\"It is a difficult truth, both to hear and to accept.\""
-msgstr ""
+msgstr "\"Это тяжелая правда - и для понимания, и для принятия\"."
 
 #: 26582
 msgid ""
@@ -281,10 +349,13 @@ msgid ""
 "you're not certain it was there. \"Nonetheless, I shall accept it. And I "
 "shall see to it my brothers accept it as well.\""
 msgstr ""
+"Слезы в уголках его глаз внезапно исчезают. Все происходит так быстро, что "
+"ты уже неуверен, была ли она там. \"Как бы там ни было, я приму это. И "
+"позабочусь о том, чтобы мои братья тоже это приняли\"."
 
 #: 26583 26584
 msgid "\"Very well. Farewell, then.\""
-msgstr "\"Очень хорошо. Тогда прощай\"."
+msgstr "\"Хорошо. Тогда прощай\"."
 
 #: 26585
 msgid ""
@@ -293,6 +364,9 @@ msgid ""
 "memory of something that would be forgotten in any event. He agreed, and he "
 "will soon go to tell his brothers."
 msgstr ""
+"Я убедил плакальщика Эс-Аннона бросить свое паломничество. Для него более "
+"нет нужды скитаться по планам в попытке продлить память того, что в любом "
+"случае будет забыто. Он согласился, и вскоре передаст это своим братьям."
 
 #: 26586
 msgid ""
@@ -301,57 +375,71 @@ msgid ""
 "at risk by traveling the Planes. He agreed, and he will soon go to tell his "
 "brothers."
 msgstr ""
+"Я убедил плакальщика Эс-Аннона бросить свое паломничество. Я убедил его, что "
+"он и остальные плакальщики не должны подвергать риску память об Эс-Анноне, "
+"путешествуя по планам. Он согласился, и вскоре передаст это своим братьям."
 
 #: 26587
 msgid "The Crier blinks. \"Tomb... stone?\""
-msgstr ""
+msgstr "Плакальщик моргает. \"Могильная... плита?\""
 
 #: 26588
 msgid ""
 "\"It's a stone that records a man's name, his life, and a eulogy. If it "
 "serves a man, could it not also serve a city that has died?\""
 msgstr ""
+"\"Это камень, на котором записано имя человека, его жизнь и хвалебные слова "
+"о нем. Если он подходит человеку, может, он подойдет и умершему городу?\""
 
 #: 26589 26592 26595 26599
-#, fuzzy
 msgid "\"It is no matter. Forget I spoke. Farewell.\""
-msgstr "\"Не имеет значения. Сожалею о твоей потере. Прощай\"."
+msgstr "\"Это не имеет значения. Забудь мои слова. Прощай\"."
 
 #: 26590
 msgid "\"Stones may do such things?\""
-msgstr ""
+msgstr "\"Камни способны на такое?\""
 
 #: 26591
 msgid ""
 "\"Yes. And their lifetime is much longer than a man's. If its name was "
 "carved on stone, would Es-Annon's memory be served?\""
 msgstr ""
+"\"Да. И живут они подольше людей. Если высечь имя Эс-Аннона на камне, будет "
+"ли этого достаточно для его памяти?\""
 
 #: 26593
 msgid "The man pauses. \"Would others see this name?\""
-msgstr ""
+msgstr "Он делает паузу. \"Увидят ли другие это имя?\""
 
 #: 26594
 msgid "\"Yes. It would be there for all to see, long after you have died.\""
 msgstr ""
+"\"Да. Оно будет на виду у всех, и останется там еще надолго после твоей "
+"смерти\"."
 
 #: 26596
 msgid ""
 "The man nods. \"If such a thing were possible...\" He turns to you. \"Where "
 "would one find such a stone?\""
 msgstr ""
+"Человек кивает. \"Если такое возможно... - он обращается к тебе. - Где найти "
+"такой камень?\""
 
 #: 26597
 msgid ""
 "\"I could go look for one. If I find one, I could see to it that Es-Annon's "
 "name is carved upon it.\""
 msgstr ""
+"\"Я мог бы разыскать его. Если найду - позабочусь о том, чтоб на нем высекли "
+"имя Эс-Аннона\"."
 
 #: 26598
 msgid ""
 "\"In exchange for some coppers, I could go seek a tombstone and have Es-"
 "Annon's name carved upon it.\""
 msgstr ""
+"\"За несколько медяков я мог бы подыскать могильную плиту и высечь на ней "
+"имя Эс-Аннона\"."
 
 #: 26600
 msgid ""
@@ -359,10 +447,13 @@ msgid ""
 "would be setting all the Criers of Es-Annon free. But a score of us "
 "remain... the burden of remembering would be over after so MANY years...\""
 msgstr ""
+"\"Ты... ты... сделаешь это? Я... - его глаза вновь увлажняются. - Ты "
+"освободишь всех плакальщиков Эс-Аннона. Нас осталось всего лишь несколько "
+"десятков... бремя памяти будет сброшено после СТОЛЬКИХ лет...\""
 
 #: 26601
 msgid "\"I would do so. I will return when the name is carved.\""
-msgstr ""
+msgstr "\"Я сделаю это. Я вернусь, как только имя будет высечено\"."
 
 #: 26602
 msgid ""
@@ -371,6 +462,10 @@ msgid ""
 "remain... the burden of remembering would be over after so MANY years... and "
 "all you would ask is some copper in return?\""
 msgstr ""
+"\"Ты... ты... сделаешь это? Я... - его глаза вновь увлажняются. - Ты "
+"освободишь всех плакальщиков Эс-Аннона. Нас осталось всего лишь несколько "
+"десятков... бремя памяти будет сброшено после СТОЛЬКИХ лет... и все, что ты "
+"просишь, - немного медяков?\""
 
 #: 26603
 msgid "\"Yes.\""
@@ -380,6 +475,8 @@ msgstr "\"Да\"."
 msgid ""
 "\"Never mind, I'll do it for free. I will return when the name is carved.\""
 msgstr ""
+"\"Забудь, я сделаю это за бесплатно. Я вернусь, как только имя будет высечено"
+"\"."
 
 #: 26605
 msgid ""
@@ -387,24 +484,32 @@ msgid ""
 "five copper coins, which he counts off to you. \"That is all I have. I hope "
 "it is enough.\""
 msgstr ""
+"\"Тогда ты их получишь\". Плакальщик вынимает из одежды пять медных монет, "
+"которые отсчитывает тебе. \"Это все, что у меня есть. Надеюсь, этого хватит"
+"\"."
 
 #: 26606
 msgid ""
 "\"It'll have to do. All right, I'll return when I have placed Es-Annon's "
 "name upon stone.\""
 msgstr ""
+"\"Должно хватить. Ладно, я вернусь, как только помещу имя Эс-Аннона на камень"
+"\"."
 
 #: 26607
 msgid ""
 "\"The copper is all I wished for - there will be no tombstone for Es-Annon. "
 "Farewell.\""
 msgstr ""
+"\"Мне нужна была только медь. Не видать тебе плиты для Эс-Аннона. Прощай\"."
 
 #: 26608
 msgid ""
 "In exchange for a small sum of copper, I agreed to go find a tombstone on "
 "which to carve the name of Es-Annon for the Crier. "
 msgstr ""
+"В обмен на небольшую сумму денег я согласился разыскать для плакальщика "
+"могильную плиту и высечь на ней имя Эс-Аннона."
 
 #: 26609
 msgid ""
@@ -413,6 +518,11 @@ msgid ""
 "remaining coins, I laughed at his foolishness and told him I would go on no "
 "such fool's errand. He should know better than to trust anyone in the Hive."
 msgstr ""
+"За пару медяков я согласился разыскать для плакальщика могильную плиту и "
+"высечь на ней имя Эс-Аннона... но как только этот болван отдал свои "
+"последние монеты, я рассмеялся и сказал ему, что не стану выполнять такие "
+"дурацкие поручения. Ему следовало знать, что не стоит доверять каждому в "
+"Улье."
 
 #: 26611
 msgid ""
@@ -421,18 +531,26 @@ msgid ""
 "served. I will tell my fellow Criers of the stone you have described. You "
 "have my gratitude.\""
 msgstr ""
+"Внезапно слышится шелест ветра, и его глаза высыхают. Одна из слез, текшая "
+"по его щеке, попросту исчезает. \"В таком случае, служба Эс-Аннону "
+"закончена. Я расскажу своим братьям-плакальщикам о камне, который ты описал. "
+"Прими мою благодарность\"."
 
 #: 26612
 msgid ""
 "\"Um... it did cost me some copper to see that the name of the city was "
 "carved on the stone. Do you think you could spare some to repay me?\""
 msgstr ""
+"\"Э... чтобы высечь имя города на камне, мне пришлось потратить немного "
+"меди. Ну как, не возместишь мне затраты?\""
 
 #: 26613
 msgid ""
 "\"It was nothing. Farewell... I hope you and your brothers spend the rest of "
 "your days peacefully.\""
 msgstr ""
+"\"Пожалуйста. Прощай... Надеюсь, что вы со своими братьями проведете остаток "
+"дней в мире\"."
 
 #: 26615
 msgid ""
@@ -440,12 +558,14 @@ msgid ""
 "five coppers and hands them to you. \"Take this hand-in-hand with my "
 "gratitude.\" "
 msgstr ""
+"Он кивает и сует руку в одежды. \"Все, что у меня есть, - твое\". Он "
+"отсчитывает пять медяков и протягивает тебе. \"Прими их вместе с моей "
+"благодарностью\" ."
 
 #: 26616
 msgid "\"It was nothing... literally, it seems. Farewell.\""
-msgstr ""
+msgstr "\"Не за что... в прямом смысле. Прощай\"."
 
 #: 26617
-#, fuzzy
 msgid "\"You're welcome. Farewell.\""
-msgstr "\"Нет. Прощай\"."
+msgstr "\"Не за что. Прощай\"."
