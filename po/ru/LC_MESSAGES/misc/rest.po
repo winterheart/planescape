@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2012-08-03 20:54+0600\n"
+"PO-Revision-Date: 2012-10-02 17:58+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -94,7 +94,7 @@ msgstr "\"Приветствую.\""
 
 #: 311 1173
 msgid "Greater Gehreleth"
-msgstr ""
+msgstr "Огромный гехрелет"
 
 #: 320
 msgid "Leave him in peace."
@@ -1738,9 +1738,8 @@ msgid "Backstab Damage"
 msgstr "Урон от удара в спину"
 
 #: 4220
-#, fuzzy
 msgid "Proficiencies"
-msgstr "Специализация оружия"
+msgstr "Специализации"
 
 #: 4221
 msgid "Saving Throws"
@@ -2716,7 +2715,7 @@ msgstr "\"Теперь ты на территории Заточек, пень.\
 
 #: 10572
 msgid "\"Let's see here... no, nothin'.\""
-msgstr ""
+msgstr "\"Посмотрим-ка здесь... Ничего\"."
 
 #: 10573
 msgid "\"Blast! Empty again!\""
@@ -2724,7 +2723,7 @@ msgstr "\"Черт! Снова провал!\""
 
 #: 10574
 msgid "\"Nothin'! Where are ya?!\""
-msgstr ""
+msgstr "\"Ничего! Да где же вы?!\""
 
 #: 11557
 msgid "\"Who are the patrons of this tavern?\""
@@ -2753,7 +2752,7 @@ msgstr "Атаковать его, пока он отходит."
 
 #: 12468
 msgid "*Sniff* - *Sniff* \"Hmph! Nothin'!\""
-msgstr ""
+msgstr "*Нюхает* \"Хм! Ничего!\""
 
 #: 13100 64218
 msgid "(auto link)"
@@ -2787,23 +2786,23 @@ msgstr ""
 
 #: 14818
 msgid "\"Ya little bastards! Can't hide from Ratbone forever!\"\n"
-msgstr ""
+msgstr "\"Мелкие гаденыши! Вам не спрятаться от Крыса!\"\n"
 
 #: 14819
 msgid "\"Argh! Where are ya?\""
-msgstr ""
+msgstr "\"Ах! Где вы?\""
 
 #: 14820
 msgid "\"Another empty trap...\""
-msgstr ""
+msgstr "\"Еще одна пустая ловушка...\""
 
 #: 14821
 msgid "\"Hmm...\" *Sniff* \"Damn. Nothin' again!\""
-msgstr ""
+msgstr "\"Хмм... - *нюхает*. - Черт. Опять ничего!\""
 
 #: 14822
 msgid "\"Damned rats! Ta Baator with ya!\""
-msgstr ""
+msgstr "\"Чертовы крысы! Чтоб вам в Бааторе гореть!\""
 
 #: 15113
 msgid ""
@@ -3962,7 +3961,7 @@ msgstr ""
 
 #: 22123
 msgid "Foundry Armoury"
-msgstr ""
+msgstr "Арсенал Литейной"
 
 #: 22124
 msgid "\"Great... I'll go look for one, then I'll be back.\""
@@ -4301,7 +4300,7 @@ msgstr "Портной."
 
 #: 25630
 msgid "The Brothel of Slating Intellectual Lusts."
-msgstr ""
+msgstr "Бордель утоления интеллектуальной страсти."
 
 #: 25631
 msgid "To UnderSigil."
@@ -6350,14 +6349,22 @@ msgid ""
 "Motto: Truth chaos is. By randomness embracing the of the multiverse, "
 "secrets its one learns."
 msgstr ""
+"Фракция: Хаоситеки (\"Хаоситы\")\n"
+"\n"
+"Девиз: Правда хаос это. В беспорядочном воздействии на мультивселенную лежит "
+"секрет ее познания."
 
 #: 34591
+#, fuzzy
 msgid ""
 "Factol of Xaositects (\"Chaosmen\")\n"
 "\n"
 "Motto?! FACTOL of the Chaosmen R U current-lee! Xaos iz truth. Randomly M-"
 "bracing multiverse, learns one secrets its?"
 msgstr ""
+"Фрактол Хаоситеков (\"Хаоситов\")\n"
+"\n"
+"Девиз?! ФРАКТОЛ Хаоситов сейчас ТЫ! Хаос в истине. "
 
 #: 34592
 msgid "The game cannot be saved in this area."
@@ -9128,6 +9135,11 @@ msgid ""
 "Yves nods at you, smiling. \"I know not the meaning of this tale, but "
 "perhaps it will be of some use to you, in the future.\"\n"
 msgstr ""
+"\"Ведь, говорят, раскаяние способно изменить сущность человека, хотя, "
+"наверное, только Серые сестры знают это наверняка\".\n"
+"\n"
+"Ив кивает тебе, улыбаясь. \"Я не знаю смысла этой истории, но, возможно, она "
+"тебе еще пригодится в будущем\".\n"
 
 #: 39732
 msgid ""
@@ -9517,7 +9529,7 @@ msgstr ""
 
 #: 44294
 msgid "Find and return Uhir's 'lucky knife.'"
-msgstr ""
+msgstr "Найти и вернуть \"счастливый нож\" Юхира."
 
 #: 44295
 msgid ""
@@ -9525,10 +9537,13 @@ msgid ""
 "beneath Sigil -- he stabbed a ghoul in the eyes with it and fled. If I "
 "happen across it I just might bring it back to him."
 msgstr ""
+"Сборщик по имени Юхир сказал, что потерял свой \"счастливый нож\" внизу, в "
+"катакомбах по Сигилом: он всадил его в "
+"глаз упырю и убежал. Если он мне попадется, я мог бы вернуть его Юхиру."
 
 #: 44296
 msgid "I found and returned Uhir's 'lucky knife.'"
-msgstr ""
+msgstr "Я нашел и вернул \"счастливый нож\" Юхиру."
 
 #: 44297
 msgid "Seek out and slay any cranium rats in the Dead Nations."
@@ -9679,23 +9694,23 @@ msgstr ""
 
 #: 45078
 msgid "I'm another character of Jason's."
-msgstr ""
+msgstr "Я еще один персонаж Джейсона."
 
 #: 45079
 msgid "Oh really?"
-msgstr ""
+msgstr "Что, правда?"
 
 #: 45080 45082 45084 45086
 msgid "I'm one of Jason's character's."
-msgstr ""
+msgstr "Я один из персонажей Джейсона."
 
 #: 45081
 msgid "You said that already."
-msgstr ""
+msgstr "Ты уже это говорил."
 
 #: 45087
 msgid "If you say so."
-msgstr ""
+msgstr "Как скажешь."
 
 #: 45119
 msgid "Drinks"
@@ -9727,7 +9742,7 @@ msgstr ""
 
 #: 45308
 msgid "Peasant"
-msgstr ""
+msgstr "Крестьянин"
 
 #: 45313
 msgid "Noble"
@@ -10509,7 +10524,7 @@ msgstr "\"Нет. Вообще-то, я хотел бы задать тебе н
 
 #: 51054
 msgid "Silent King's Throne"
-msgstr ""
+msgstr "Трон Безмолвного Короля"
 
 #: 51286
 msgid "\"Nothing, farewell.\""
@@ -12624,17 +12639,19 @@ msgstr ""
 
 #: 60621
 msgid "Sabotage the Godsmen's machine for Bedai-Lihn."
-msgstr ""
+msgstr "Саботировать машину Боголюдей для Дебай-Линн."
 
 #: 60622
 msgid ""
 "Bedai-Lihn, one of the engineers at the Foundry, has asked me to destroy the "
 "Godsmen's machine."
 msgstr ""
+"Бедай-Линн, одна из инженеров Литейной, попросила меня разрушить машину "
+"Боголюдей."
 
 #: 60623
 msgid "I have destroyed the machine."
-msgstr ""
+msgstr "Я разрушил машину."
 
 #: 60624
 msgid ""
@@ -12746,7 +12763,7 @@ msgstr ""
 
 #: 60715
 msgid "Find a skull of great value."
-msgstr ""
+msgstr "Найти череп большой ценности."
 
 #: 60716
 msgid ""
@@ -13117,7 +13134,7 @@ msgstr "Дом в Улье."
 
 #: 61276
 msgid "Painted Door. "
-msgstr ""
+msgstr "Нарисованная дверь."
 
 #: 61277
 msgid "Ku'atraa's Warehouse "
@@ -13818,7 +13835,7 @@ msgstr ""
 
 #: 65021
 msgid "Fortress Door"
-msgstr ""
+msgstr "Врата Крепости"
 
 #: 65022
 msgid "Fortress of Regrets"
@@ -14063,7 +14080,7 @@ msgstr ""
 
 #: 66921
 msgid "Coaxmetal"
-msgstr ""
+msgstr "Убежденный Металл"
 
 #: 66958
 msgid "Rod"

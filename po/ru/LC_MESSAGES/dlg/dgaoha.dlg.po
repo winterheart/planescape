@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dgaoha.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:16+0600\n"
+"PO-Revision-Date: 2012-10-17 20:00+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 34023 9357
 msgid "\"Greetings...\""
@@ -27,21 +28,21 @@ msgid ""
 "His voice is low and raspy: \"Gaoha greets you, as well... you have come to "
 "play a game, yes?\""
 msgstr ""
+"Он зловеще улыбается акульим оскалом. Его глаза похожи на сияющие черные "
+"светила. Он говорит тихим и скрипучим голосом: \"Гаоха тоже приветствует "
+"тебя... Пришел сыграть в игру, да?\""
 
 #: 34026 34030 60437
-#, fuzzy
 msgid "\"No, but I had some questions...\""
-msgstr "\"Нет, у меня есть некоторые вопросы...\""
+msgstr "\"Нет, но у меня есть некоторые вопросы...\""
 
 #: 34027 34031 60438 60439
-#, fuzzy
 msgid "\"Yes, I'll play.\""
-msgstr "\"Я заплачу\"."
+msgstr "\"Да, я сыграю\"."
 
 #: 34028 34032 60440
-#, fuzzy
 msgid "\"No... farewell.\""
-msgstr "\"Нет. Прощай\"."
+msgstr "\"Нет... Прощай\"."
 
 #: 34029
 msgid ""
@@ -50,6 +51,11 @@ msgid ""
 "moment before the tattooed githzerai's gaze returns to you. His voice is low "
 "and raspy: \"Gaoha greets you. You have... come to play a game? Yes?\""
 msgstr ""
+"Едва он собирается что-то сказать, как его глаза - сияющие и черные, словно "
+"черный янтарь - останавливаются на Дакконе. С секунду они молча смотрят друг "
+"на друга, после чего гитцерай с татуировками возвращается к тебе. Он говорит "
+"тихим и скрипучим голосом: \"Гаоха тоже приветствует тебя... Пришел сыграть в "
+"игру, да?\""
 
 #: 34033
 msgid ""
@@ -58,11 +64,14 @@ msgid ""
 "coin won or lost, yes?\" He shakes the bone dice in his palm. \"You... have "
 "no interest in these things?\""
 msgstr ""
+"Улыбка тут же пропадает с лица Гаохи. Он качает головой. \"Вопросы не "
+"интересны мне. Только игра... бросок кости, сверкание монеты выигранной или "
+"проигранной, да? - он подбрасывает игральную кость на ладони. - \"Ты... не "
+"интересуешься такими вещами?\""
 
 #: 34034 34035
-#, fuzzy
 msgid "\"All right... I'll play.\""
-msgstr "\"Хорошо. Прощай\"."
+msgstr "\"Хорошо... Я сыграю\"."
 
 #: 34036
 msgid "\"No. Farewell.\""
@@ -75,11 +84,14 @@ msgid ""
 "places it at his own feet, then holds up two dice between his thumb and "
 "index finger. \"The dice... we both roll one, yes?\""
 msgstr ""
+"Гаоха вытаскивает из своего жакета монету. \"Эта монета? Твоя монета, - он "
+"кладет ее у твоих ног, после чего достает другую. - Эта монета? Гаохи\". Он "
+"кладет ее у своих ног, после берет большим и указательным пальцами две "
+"игральные кости. \"Кости... мы вдвоем кидаем по одной, да?\""
 
 #: 34038
-#, fuzzy
 msgid "\"Go on...\""
-msgstr "\"Нет! Нет!..\""
+msgstr "\"Продолжай...\""
 
 #: 34039
 msgid ""
@@ -88,6 +100,10 @@ msgid ""
 "the coppers back into his tunic. \"Mine. Neither rolls higher? The coin "
 "stays for another roll. So: How much coin will lie at your feet?\""
 msgstr ""
+"\"Ты кидаешь больше, обе монеты... - он подхватывает монеты с земли и "
+"протягивает их тебе. - твои. Гаоха кидает больше? - он быстро прячет медяки "
+"назад в куртку. - Мои. Никто не кинул больше? Монеты лежат для другого "
+"броска. Итак - сколько монет будет лежать у твоих ног?\""
 
 #: 34040 60404 60423 60424
 msgid "\"One copper common.\""
@@ -115,7 +131,7 @@ msgstr "\"Сто медяков\"."
 
 #: 60415
 msgid "\"None; I don't wish to play right now. Farewell.\""
-msgstr ""
+msgstr "\"Нисколько. Сейчас я не хочу играть. Прощай\"."
 
 #: 60416
 msgid ""
@@ -123,15 +139,17 @@ msgid ""
 "tucking them into his tunic. He seems to hesitate for a moment, then speaks. "
 "\"Again, yes?\""
 msgstr ""
+"Вы бросаете кости, и Гаоха выкидывает больше очков. Он подхватывает твои "
+"монеты и прячет их в куртке. Немного поколебавшись, он спрашивает: \"Еще, "
+"да?\""
 
 #: 60417 60445
-#, fuzzy
 msgid "\"Wait - is something wrong?\""
-msgstr "\"Мне нужно выпить\"."
+msgstr "\"Постой, что-то не так?\""
 
 #: 60418
 msgid "\"Yes, again.\""
-msgstr ""
+msgstr "\"Да, еще раз\"."
 
 #: 60419
 msgid "\"No thanks. Farewell.\""
@@ -146,6 +164,12 @@ msgid ""
 "you make your own, perhaps. I do not know.\" He places his dice back into "
 "his tunic. \"We might play later, perhaps, but no more this moment.\""
 msgstr ""
+"Гаоха внимательно смотрит на тебя, затем кивает. \"Никогда я не потакал "
+"глупости Хашмы - никогда я не *жульничал*, человек. Но я вижу удачу, читаю "
+"ее, *знаю* ее на лице человека. Но ты... в тебе я вижу ничего. Я *знаю* "
+"ничего. У тебя... нет удачи? Нет случая, удачного или неудачного? А может "
+"быть, ты сам по себе. Я не знаю\". Он прячет игральные кости в жакет. \"Мы "
+"можем играть позже, возможно, но не сейчас\"."
 
 #: 60421
 msgid "\"All right... farewell.\""
@@ -153,18 +177,19 @@ msgstr "\"Ладно... Прощай\"."
 
 #: 60422
 msgid "\"And how much coin will lie at your feet?\""
-msgstr ""
+msgstr "\"И сколько монет будет лежать у твоих ног?\""
 
 #: 60435
-#, fuzzy
 msgid "\"Actually, none. Farewell.\""
-msgstr "\"На самом деле - ничего. Прощай\"."
+msgstr "\"Вообще-то - нисколько. Прощай\"."
 
 #: 60436
 msgid ""
 "Gaoha flashes you his disturbing, sharp-toothed grin and rattles a pair of "
 "bone dice in hands. \"You have returned to play a game, yes?\""
 msgstr ""
+"Гаоха, поигрывая игральными костями в руках, озаряет тебя своей зловещей "
+"острозубой ухмылкой. \"Вернулся сыграть в игру, да?\""
 
 #: 60441
 msgid ""
@@ -172,11 +197,13 @@ msgid ""
 "frowning at them for a moment before hiding them away in his tunic. \"It is "
 "enough, for now. But perhaps we shall play again later, you and I.\""
 msgstr ""
+"Вы бросаете кости, и Гаоха выкидывает больше очков. Он подхватывает твои "
+"монеты, но, перед тем, как спрятать их в куртке, он хмуро смотрит на них. "
+"\"На этот раз хватит. Но мы можем играть позже, возможно, ты и я\"."
 
 #: 60442
-#, fuzzy
 msgid "\"Why? What's wrong?\""
-msgstr "\"Что теперь?\""
+msgstr "\"Почему? Что-то не так?\""
 
 #: 60443 60446
 msgid "\"All right. Farewell.\""
@@ -188,12 +215,18 @@ msgid ""
 "them away. Gaoha nods, frowning. \"It is enough, for now. But perhaps we "
 "shall play again later, you and I.\""
 msgstr ""
+"Вы бросаете кости, и ты выкидываешь больше очков. Ты забираешь монеты. Гаоха "
+"хмуро кивает. "
+"\"На этот раз хватит. Но мы можем играть позже, возможно, ты и я\"."
 
 #: 60447
 msgid ""
 "Gaoha flashes you his disturbing, sharp-toothed grin. \"Eager to play you "
 "are, yes? But you return too soon. Return later, and we might play again.\""
 msgstr ""
+"Гаоха озаряет тебя своей зловещей острозубой ухмылкой. \"Не терпится сыграть "
+"тебе, да? Но ты вернулся слишком рано. Вернись позже, и мы сможем играть еще "
+"раз\"."
 
 #: 60448
 msgid "\"Farewell, then.\""
@@ -206,3 +239,9 @@ msgid ""
 "teeth are filed to points. He sees you and waves you over, rattling his dice "
 "in his hand."
 msgstr ""
+"Перед тобой худощавый желтокожий человекоподобный незнакомец, полностью "
+"покрытый татуировками. Его брови подчеркнуты угольно-черными линиями, а зубы "
+"заточены под клыки. Завидев тебя, он призывно машет тебе, поигрывая "
+"игральными костями в руке."
+
+
