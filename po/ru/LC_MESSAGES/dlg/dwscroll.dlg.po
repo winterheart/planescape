@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dwscroll.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-20 01:55+0600\n"
+"PO-Revision-Date: 2012-10-17 20:50+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,18 +11,21 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 62359
 msgid ""
 "The scroll is filled with flowing, cryptic runes that you can make neither "
 "heads nor tails of. Perhaps a mage could decipher the meaning behind them."
 msgstr ""
+"Свиток исписан текущими загадочными рунами, у которых ты не можешь найти ни "
+"начала, ни конца. Возможно, какой-нибудь маг сможет разгадать содержащийся в "
+"них смысл."
 
 #: 62360 62362 62364 62372 62380
-#, fuzzy
 msgid "Put the scroll away."
-msgstr "Выбросить записку."
+msgstr "Отложить свиток."
 
 #: 62361
 msgid ""
@@ -31,6 +34,9 @@ msgid ""
 "Unfortunately the concepts portrayed in the scroll are beyond your current "
 "intellect. "
 msgstr ""
+"Свиток исписан текущими магическими рунами. Ты пробегаешься глазами по их "
+"светящимся очертаниям, и твой разум наполняется чувством срочности и власти. "
+"К несчастью, смысл свитка слишком сложен для твоего интеллекта."
 
 #: 62363
 msgid ""
@@ -39,6 +45,10 @@ msgid ""
 "within your mind you see that this is a 'Wish' scroll... Unfortunately, you "
 "have not acquired the experience to use it."
 msgstr ""
+"Свиток исписан текущими магическими рунами. Ты пробегаешься глазами по их "
+"светящимся очертаниям, и твой разум наполняется чувством срочности и власти. "
+"Совершенно очевидно, что это свиток \"Желание\"... К сожалению, ты "
+"недостаточно опытен, чтобы воспользоваться им."
 
 #: 62365
 msgid ""
@@ -47,31 +57,35 @@ msgid ""
 "within your mind you see that this is a 'Wish' scroll... What do you wish "
 "for?"
 msgstr ""
+"Свиток исписан текущими магическими рунами. Ты пробегаешься глазами по их "
+"светящимся очертаниям, и твой разум наполняется чувством срочности и власти. "
+"Совершенно очевидно, что это свиток \"Желание\"... Чего ты желаешь?"
 
 #: 62366
 msgid "\"I wish for an increase in my attributes...\""
-msgstr ""
+msgstr "\"Я желаю улучшить свои атрибуты...\""
 
 #: 62367
 msgid "\"I wish for an item of power in my possession...\""
-msgstr ""
+msgstr "\"Я желаю владеть могущественным предметом...\""
 
 #: 62368
 msgid "\"I wish for wealth so that I may afford my dreams...\""
-msgstr ""
+msgstr "\"Я желаю сказочного богатства...\""
 
 #: 62369
 msgid "\"I wish for knowledge and experience, for therein lies true power...\""
-msgstr ""
+msgstr "\"Я желаю знаний и опыта, в которых лежит истинное могущество...\""
 
 #: 62370
 msgid "\"I wish for my companions and myself to be at full health...\""
-msgstr ""
+msgstr "\"Я желаю видеть себя и своих спутников в полном здравии...\""
 
 #: 62371
 msgid ""
 "\"I wish for more arcane knowledge and the power that it brings with it...\""
 msgstr ""
+"\"Я желаю тайных знаний и могущества, которые они принесут с собой...\""
 
 #: 62373
 msgid ""
@@ -79,6 +93,9 @@ msgid ""
 "image of yourself, an image that you can mold to your desire... What "
 "attribute would you raise?"
 msgstr ""
+"Руны начинают светиться и пульсировать. В твоем разуме появляется твой образ, "
+"образ, который ты можешь менять по своему желанию... Какой атрибут ты хочешь "
+"увеличить?"
 
 #: 62374
 msgid "Strength."
@@ -111,6 +128,9 @@ msgid ""
 "match the mental image you created. The scroll is consumed in a blaze of "
 "energy."
 msgstr ""
+"Внутренним взором ты видишь себя таким, какой ты есть, и таким, каким ты "
+"хочешь стать. Сила свитка наполняет тебя, и действительность меняется под тот "
+"образ, что ты создал. Свиток исчезает в пламени энергии."
 
 #: 62382 62384 62386 62388 62390 62392
 msgid "Done."
@@ -123,6 +143,10 @@ msgid ""
 "the scroll flows through your being and reality bends to match the mental "
 "image you created. The scroll is consumed in a blaze of energy."
 msgstr ""
+"Внутренним взором ты видишь свою руку, плотно сжатую в кулак. Сила в руке "
+"приобретает форму предмета, который делает тебя лучше чем прежде. ила свитка "
+"наполняет тебя, и действительность меняется под тот образ, что ты создал. "
+"Свиток исчезает в пламени энергии."
 
 #: 62385
 msgid ""
@@ -131,6 +155,9 @@ msgid ""
 "and reality bends to match the mental image you created. The scroll is "
 "consumed in a blaze of energy."
 msgstr ""
+"Внутренним взором ты видишь себя богатым, и сказочные сокровища лежат у твоих "
+"ног. Сила свитка наполняет тебя, и действительность меняется под тот образ, "
+"что ты создал. Свиток исчезает в пламени энергии."
 
 #: 62387
 msgid ""
@@ -139,6 +166,10 @@ msgid ""
 "The power of the scroll flows through your being and reality bends to match "
 "the mental image you created. The scroll is consumed in a blaze of energy."
 msgstr ""
+"Внутренним взором ты видишь себя, переживающим много событий. Образы "
+"ускользают нераспознанными, но ты всегда извлекаешь из них какой-нибудь опыт. "
+"Сила свитка наполняет тебя, и действительность меняется под тот образ, что ты "
+"создал. Свиток исчезает в пламени энергии."
 
 #: 62389
 msgid ""
@@ -148,6 +179,10 @@ msgid ""
 "reality bends to match the mental image you created. The scroll is consumed "
 "in a blaze of energy."
 msgstr ""
+"Внутренним взором ты видишь себя и своих спутников страдающими от множества "
+"ран. Неожиданно раны зарастают и жизнь возвращается к вам. Сила свитка "
+"наполняет тебя, и действительность меняется под тот образ, что ты создал. "
+"Свиток исчезает в пламени энергии."
 
 #: 62391
 msgid ""
@@ -157,3 +192,8 @@ msgid ""
 "to match the mental image you created. The scroll is consumed in a blaze of "
 "energy."
 msgstr ""
+"Внутренним взором ты видишь себя в древней, заполненной знаниями библиотеке "
+"архимага. Ты хватаешь сразу  несколько свитков с ближайшей полки. Сила свитка "
+"наполняет тебя, и действительность меняется под тот образ, что ты создал. "
+"Свиток исчезает в пламени энергии."
+
