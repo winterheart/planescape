@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: djujog.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-15 02:30+0500\n"
+"PO-Revision-Date: 2012-10-17 21:20+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 53212
 msgid ""
@@ -19,11 +20,13 @@ msgid ""
 "him. He glares at you through the slits of his helm as you interrupt him. "
 "\"What d'ya want, piker? An' make it quick, afore we get ta workin' 'ere.\""
 msgstr ""
+"Этот огромный караульный сыплет распоряжениями гражданам, собравшимся вокруг "
+"него. Он смотрит на тебя сквозь прорези своего шлема. \"Чего тебе, зануда? "
+"Давай быстрей, у нас тут полно дел\"."
 
 #: 53213
-#, fuzzy
 msgid "\"What's going on here?\""
-msgstr "\"А что опасного в округе?\""
+msgstr "\"Что здесь происходит?\""
 
 #: 53214
 msgid "\"Never mind. Farewell.\""
@@ -35,6 +38,9 @@ msgid ""
 "in on the action, or not? 'Cause this ain't gonna be some sorry-arse, "
 "disorderly mess... we're doin' it *right,* an' I'm givin' the orders.\""
 msgstr ""
+"\"А на что это похоже, бедолага?! Мы собираемся разграбить этот склад. Ты с "
+"нами или нет? Потому что это будет не беспорядочная жалкая свалка... Мы будем "
+"делать все *по правилам* согласно моим приказам\"."
 
 #: 53216 53217 53218 53224 53225 53226 53230 53231 53232
 msgid ""
@@ -42,6 +48,9 @@ msgid ""
 "Outlands. Once Curst is wholly overrun with monsters, how long do you think "
 "you'll live to enjoy the spoils of your looting?\""
 msgstr ""
+"\"Если мы остынем, то это поможет городу соскользнуть обратно во Внешние "
+"земли. Как ты думаешь, если Проклятый будет кишеть монстрами, как долго вы "
+"будет наслаждаться разграблением?\""
 
 #: 53219 53220 53693 53694
 msgid ""
@@ -49,21 +58,25 @@ msgid ""
 "help defend the walls -- instead of looting -- so that the town can slide "
 "back onto the Outlands.\""
 msgstr ""
+"\"То, что вы делаете, только усугубляет проблемы. Возьми этих людей и помоги "
+"защищать стены, а не занимайся мародерством, - и город сможет соскользнуть "
+"обратно во Внешние земли\"."
 
 #: 53221 53227
 msgid "\"Hold it: there won't be any looting while I'm around.\""
-msgstr ""
+msgstr "\"Стойте. Пока я здесь, не будет никаких мародерств\"."
 
 #: 53222
-#, fuzzy
 msgid "\"I've got other things to do. Farewell.\""
-msgstr "\"У меня нет времени на это. Прощай\"."
+msgstr "\"У меня есть другие дела. Прощай\"."
 
 #: 53223
 msgid ""
 "The guardsman lifts the visor of his helm so that he may spit at your feet. "
 "\"Hah! Out of my face, sod; we've lootin' to do.\""
 msgstr ""
+"Караульный приподнимает шлем и плюет тебе под ноги. \"Ха! Прочь с глаз моих, "
+"бедолага, настало время грабежей\"."
 
 #: 53228
 msgid "\"Farewell, then.\""
@@ -75,6 +88,9 @@ msgid ""
 "* eh? Well, then...\" He hefts his massive weapon. \"We'll just have ta "
 "remedy that, then.\""
 msgstr ""
+"Ты чувствуешь его усмешку даже сквозь маску шлема. \"Значит, *не будет*, да? "
+"Тогда, - он поднимает свое тяжелое оружие, - мы сейчас живо от этого "
+"излечим\"."
 
 #: 53233
 msgid "Defend yourself."
@@ -88,6 +104,11 @@ msgid ""
 "Move!\" He turns to you again. \"And as fer *you:* ye've a better brain on "
 "yer shoulders than it looks. Good man.\""
 msgstr ""
+"\"Но... А, черт, ты прав\". Он кричит мародерам, собравшимся вокруг него. "
+"\"Хорошо! Вы все его слышали, за дело! Если город соскользнет назад, кто "
+"проболтается об этом - тот покойник! А теперь пошли! Двигай! - он "
+"поворачивается к тебе. - А что касается *тебя*, добрячок. Мозги у тебя варят "
+"лучше, чем это может показаться\"."
 
 #: 53235
 msgid "\"Thanks. Farewell.\""
@@ -98,3 +119,6 @@ msgid ""
 "I was able to get a pack of citizens -- led by a guardsman, of all people -- "
 "to halt their looting and help in the defense of the town."
 msgstr ""
+"Я убедил группу граждан, возглавляемую караульным, прекратить мародерства и "
+"помочь в защите города."
+
