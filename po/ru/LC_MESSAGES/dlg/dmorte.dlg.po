@@ -3,17 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmorte.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-09-30 21:40+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-10-28 00:36+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.4\n"
-"X-Poedit-Language: Russian\n"
-"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Language: ru\n"
 
@@ -848,7 +846,7 @@ msgstr "\"Очень хорошо\"."
 
 #: 12861
 msgid "\"No, I've heard enough. Farewell, rat-catcher.\""
-msgstr "\"Нет,я выслушал достаточно. Прощай, ловец крыс\"."
+msgstr "\"Нет, я выслушал достаточно. Прощай, ловец крыс\"."
 
 #: 12863
 msgid "\"Never mind. Let's go... farewell, rat-catcher.\""
@@ -950,34 +948,39 @@ msgstr "\"Похоже на то. Пойдем отсюда\"."
 
 #: 15339
 msgid "\"Tear that candied fop in two, boss! Show him how it's done!\""
-msgstr ""
+msgstr "\"Порви этого лощеного щеголя, босс! Покажи ему, как это делается!\""
 
 #: 15340
-#, fuzzy
 msgid "\"Yeah, answer the questions!\""
-msgstr "\"А, не важно. Ответь мне на пару вопросов\"."
+msgstr "\"Да, отвечай на вопросы!\""
 
 #: 15341
 msgid ""
 "\"I'll put ten copper on the big, scarred guy!\" Morte floats close and "
 "whispers: \"Eh, that's you, chief. Don't let us down, here.\""
 msgstr ""
+"\"Ставлю десять медяков на того здоровенного парня в шрамах!\" Морт "
+"подлетает поближе и шепчет: \"То есть, на тебя, шеф. Не подведи нас\"."
 
 #: 15342
 msgid "\"All right, chief: you've got him this time! Fight dirty!\""
-msgstr ""
+msgstr "\"Ладно, шеф, на этот раз ты его достал! Дерись грязно!\""
 
 #: 15343
 msgid ""
 "\"That's right, you pompous, perfumed, candied-arse elitist... you heard him!"
 "\""
 msgstr ""
+"\"Это уж точно, ты, высокомерный надушенный буржуй с сахарной задницей... ты "
+"его слышал!\""
 
 #: 15344
 msgid ""
 "\"Who am *I?* Hah! I could've been your father but that monkey beat me up "
 "the stairs!\""
 msgstr ""
+"\"Кто *я* такой? Ха! Я мог бы стать твоим отцом, но та обезьяна спустила "
+"меня с лестницы!\""
 
 #: 15345
 msgid ""
@@ -986,52 +989,59 @@ msgid ""
 "Pack up your frilly brassiere and go hide beneath your mother's filthy "
 "skirt, where you belong! And tell her I said hello while you're at it!\""
 msgstr ""
+"\"Что-то не так, принцесса? Разучилась говорить? Лучше подбери свою упавшую "
+"челюсть, пока что-нибудь в горло не залетело! Все верно, ты меня слышала! "
+"Забирай свой лифчик с рюшечками и прячься под юбку к мамке! И передай ей от "
+"меня привет!\""
 
 #: 15346
 msgid "\"Huh? Oh... sorry, chief. This kind of guy just gets to me...\""
-msgstr ""
+msgstr "\"А? О... прости, шеф. Просто такие, как он, выводят меня из себя...\""
 
 #: 15347
 msgid "\"Why, if I didn't know any better, I'd say-\""
-msgstr ""
+msgstr "\"А что, если б я не знал, я бы сказал...\""
 
 #: 15348
 msgid "\"What? I'm just a mimir, chief! I can't 'duel!'\""
-msgstr ""
+msgstr "\"Что? Шеф, я всего лишь мимир! Я не умею 'драться'!\""
 
 #: 15349
 msgid ""
 "\"It's, uh... sort of a talking encyclopedia. I don't like to talk about it; "
 "sort of embarrassing, really.\""
 msgstr ""
+"\"Это, э... что-то вроде говорящей энциклопедии. Мне не нравится об этом "
+"говорить. Мне типа неловко, правда\"."
 
 #: 15350
 msgid ""
 "\"Come on, chief... you going to let him get away with that? Let's go "
 "trounce that prissy rake! I'll go for his eyes while you lay into him!\""
 msgstr ""
+"\"Брось, шеф... ты же не собираешься спустить ему это с рук? Давай-ка "
+"выпорем этого жеманного шалопая! Я займусь его глазами, пока ты будешь выколачивать "
+"из него дурь!\""
 
 #: 15490
-#, fuzzy
 msgid "\"Morte, be quiet.\""
-msgstr "\"Тихо! Черт, женщина, молчи!\""
+msgstr "\"Морт, молчи\"."
 
 #: 15491 15493
-#, fuzzy
 msgid "Let Morte continue."
-msgstr "Слушать ее тираду дальше."
+msgstr "Позволить Морту продолжить."
 
 #: 15492
 msgid "\"Morte: shut up, *now.*\""
-msgstr ""
+msgstr "\"Морт, *сейчас же* заткнись\"."
 
 #: 15494
 msgid "\"You're right... let's get him.\""
-msgstr ""
+msgstr "\"Ты прав... давай с ним разберемся\"."
 
 #: 15495
 msgid "\"Now's not the time, Morte. Let's go.\""
-msgstr ""
+msgstr "\"Не в этот раз, Морт. Пошли\"."
 
 #: 16613
 msgid "\"Huh? Oh, yeah, chief, sure -- whatever you say.\""
@@ -2783,7 +2793,7 @@ msgid ""
 msgstr ""
 "\"Клянусь шипастыми сиськами Леди, вот это...\"\n"
 "\n"
-"Внезапно все стихает. Остатки твоих чувств меркнут и покидают тебя."
+"Внезапно все стихает. Остатки твоих чувств меркнут и покидают тебя.\n"
 
 #: 31567
 msgid "Die horribly, a victim of Gangroighydon's Awful Curse."
@@ -8478,4 +8488,3 @@ msgid ""
 "\" Pauses for a moment. \"Say, I *have* to ask: are you one of those "
 "Sensates into self-mutilation or did somebody give you those scars?\" "
 msgstr ""
-
