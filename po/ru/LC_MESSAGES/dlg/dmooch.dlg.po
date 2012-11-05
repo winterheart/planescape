@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmooch.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-10-13 18:49+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2012-11-05 15:03+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Lokalize 1.4\n"
+"Language: ru\n"
 
 #: 10577
 msgid "\"Just making sure. Get moving.\""
@@ -153,15 +154,14 @@ msgstr ""
 "взял?\""
 
 #: 10624
-#, fuzzy
 msgid ""
 "\"Because you don't act like a Dustie, and you're not offering contracts. In "
 "fact, you're taking money in instead of giving it out for that corpse labor "
 "they do at the Mortuary.\""
 msgstr ""
 "\"Потому что ты ведешь себя не как Мертвяки, и, к тому же, не предлагаешь "
-"контракты. На деле ты собираешь деньги вместо того, чтобы давать их за тела "
-"рабочих, которые работают в Морге\"."
+"контракты. На деле ты берешь деньги вместо того, чтобы давать их за тела, "
+"которые работают в Морге\"."
 
 #: 10625
 msgid "\"Because I'm a Dustman myself.\""
@@ -194,8 +194,8 @@ msgstr ""
 "Она издает испуганный писк и начинает сбивчиво объясняться: \"Нет, нет, нет-"
 "нет-нет. Я не Тленная. Я просто нашла эту робу на улице, а на хорошую одежду "
 "денег не было, и еще я слышала, что здесь где-то был вор в одежде Тленного, "
-"но ты сможешь найти его где-то в юго-западной части Улья. Я видела его, но "
-"прячусь от него. Пожалуйста, не делай мне больно\"."
+"но ты сможешь найти его где-то в юго-западной части Улья. Я видела его, а он "
+"меня не заметил. Пожалуйста, не делай мне больно\"."
 
 #: 10631
 msgid "\"Give me some money and I'll let you go.\""
@@ -230,12 +230,12 @@ msgid ""
 "\"I don't think so. I'm not a charity. Can you think of another way to pay "
 "him?\""
 msgstr ""
-"\"Мне так не кажется. Я тебе не благотворительная организация. Есть еще "
+"\"Мне так не кажется. Я благотворительностью не занимаюсь. Есть еще "
 "идеи, как тебе с ним расплатиться?\""
 
 #: 10637
 msgid "\"Spare a few coins for a drink, cutter?\""
-msgstr "\"Подкинь пару монеток на выпивку, а, рубака?\""
+msgstr "\"Подкинь немного монеток на выпивку, а, рубака?\""
 
 #: 10638
 msgid "\"Very well. Here are five coins.\""
@@ -527,3 +527,4 @@ msgstr "\"Прощай\"."
 #: 3078
 msgid "\"I'm going, I'm going! You don't have to pester me!\""
 msgstr "\"Да иду я, иду! Хватит мне докучать!\""
+
