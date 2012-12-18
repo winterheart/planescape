@@ -3,26 +3,27 @@ msgid ""
 msgstr ""
 "Project-Id-Version: despec.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 22:07+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-12-19 01:10+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: 53634
 msgid ""
 "This person seems annoyed that you're distracting them from the sentencing "
 "and execution that's about to take place. \"Aye?\""
 msgstr ""
+"Похоже, этого человека раздражает, что ты отвлекаешь его от казни, которая "
+"вот-вот начнется. \"Да?\""
 
 #: 57408
-#, fuzzy
 msgid "\"What's going on here?\""
-msgstr "\"А что опасного в округе?\""
+msgstr "\"Что здесь происходит?\""
 
 #: 57409
 msgid "\"Nothing. Farewell.\""
@@ -33,10 +34,12 @@ msgid ""
 "\"A great, nasty, bloody execution, if we have it *our* way.\" They grin and "
 "waggle their eyebrows."
 msgstr ""
+"\"Большая грязная кровавая казнь - если все будет по-*нашему*\". Он "
+"ухмыляется и водит бровями."
 
 #: 57411
 msgid "\"What's the accused done?\""
-msgstr ""
+msgstr "\"Что совершил обвиняемый?\""
 
 #: 57412
 msgid "\"I see. Farewell.\""
@@ -48,21 +51,25 @@ msgid ""
 "we're going to see any blood spilt!\" They rub their hands together with "
 "anticipation."
 msgstr ""
+"Он пожимает плечами. \"Какая разница? Виновен-виновен-виновен, правильно? "
+"Только так мы увидим, как прольется кровь!\" Он потирает ладони в "
+"предвкушении."
 
 #: 57414
 msgid "\"You're sentencing a man to death for *fun?*\""
-msgstr ""
+msgstr "\"Ты приговариваеь человека к смерти ради *забавы*?\""
 
 #: 57415
-#, fuzzy
 msgid "\"Right. Farewell.\""
-msgstr "\"Я постараюсь. Прощай\"."
+msgstr "\"Ладно. Прощай\"."
 
 #: 57416
 msgid ""
 "They roll their eyes. \"I don't sentence *anyone,* berk -- that's the "
 "judge's task. You've a problem with it, you speak to him. Now leave me be.\""
 msgstr ""
+"Он закатывает глаза. \"*Никого* я не приговариваю, пень: это работа судьи. "
+"Если у тебя с этим проблемы - с ним и говори. А теперь оставь меня\"."
 
 #: 57417 57419
 msgid "Leave."
@@ -73,3 +80,6 @@ msgid ""
 "This person gives you only a moment's bothered glance. \"Just leave me "
 "alone, will you? I won't answer your questions, so just go away.\""
 msgstr ""
+"Этот человек удостаивает тебя лишь секундным раздраженным взглядом. \"Просто "
+"оставь меня в покое, ладно? Я не стану отвечать на твои вопросы, так что "
+"уходи\"."
