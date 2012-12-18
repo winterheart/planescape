@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dvhail.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-08-03 20:29+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-12-19 01:30+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Poedit 1.5.4\n"
 "Language: ru\n"
 
 #: 16635 2848 33999 34004
@@ -2008,12 +2008,17 @@ msgstr ""
 msgid "\"Yes. Let's go.\""
 msgstr ""
 
+# Ему - правосудию?
 #: 57391
 msgid ""
 "Vhailor suddenly steps forward, eyes blazing. \"This is *not* Justice, but a "
 "mere, childish *mockery* of it. There shall be *no* execution, "
 "'magistrate'... unless your actions force me to serve Her myself.\""
 msgstr ""
+"Внезапно вперед выступает Вейлор. Его взгляд пылает. \"Это *не* "
+"Справедливость, а всего лишь детская *насмешка* над ней. Казни *не будет*, "
+"'магистрат'... если только твои действия не принудят меня послужить Ему "
+"собственноручно\"."
 
 #: 57392
 msgid ""
@@ -2022,14 +2027,18 @@ msgid ""
 "for you, be the journey one thousand, thousand leagues. Strive to keep "
 "Justice in your heart, and you shall be safe. Farewell.\""
 msgstr ""
+"\"В дальнейшем тебе стоит вести себя более подобающим образом, магистрат. Не "
+"позволь иным слухам достигнуть моих ушей... иначе я *вернусь* за тобой, "
+"пусть мне придется пройти даже тысячу лиг. Стремись сохранять Справедливость "
+"в своем сердце - и будешь в безопасности. Прощай\"."
 
 #: 57393
 msgid "\"Thanks, Vhailor. Farewell, magistrate.\""
-msgstr ""
+msgstr "\"Спасибо, Вейлор. Прощай, магистрат\"."
 
 #: 63704
 msgid "\"Justice is *not* blind. *I* am her eyes.\""
-msgstr "\"Правосудие *не* слепо. *Я* - ее глаза\"."
+msgstr "\"Правосудие *не* слепо. *Я* - его глаза\"."
 
 #: 68222
 msgid ""

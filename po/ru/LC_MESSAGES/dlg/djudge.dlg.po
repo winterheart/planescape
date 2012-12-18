@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: djudge.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:09+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2012-12-19 01:14+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: 54119
 msgid ""
@@ -21,6 +21,12 @@ msgid ""
 "powerful magistrate here, and would hate for you share this man's...\" He "
 "indicates the official about to be executed. \"... rather *sorry* fate.\""
 msgstr ""
+"Этот человечек со скорбным лицом поднимает бровь, когда ты подходишь. "
+"Говорит он тоном зажиревшего надменного аристократа. \"Прошу заметить, "
+"уважаемый, что ты прерываешь официальный процесс, так что подбирай слова: я "
+"здесь влиятельный магистрат, и будет жаль, если ты разделишь, - он указывает "
+"на чиновника, которого собираются казнить, - довольно *незавидную* судьбу "
+"этого человека\"."
 
 #: 54120 54121 54122
 msgid ""
@@ -28,6 +34,9 @@ msgid ""
 "Carceri in the first place. Put an end to this madness so we can get the "
 "Curst back where it belongs... before we're *all* killed.\""
 msgstr ""
+"\"Если ты его казнишь, это только прибавит хаоса, который и сбросил этот "
+"город в Карцери. Мы должны положить конец этому безумию, чтобы вернуть "
+"Проклятий на прежнее место... пока нас *всех* не убили\"."
 
 #: 54123 54124
 msgid ""
@@ -35,10 +44,13 @@ msgid ""
 "Carceri... and it's what we need to stop in order to get the gate-town back "
 "on the Outlands.\""
 msgstr ""
+"\"Ты не можешь казнить этого человека. Это *неправильно*. Из-за подобных "
+"вещей Проклятый и сполз в Карцери... мы должны это прекратить, чтобы вернуть "
+"привратный город во Внешние земли\"."
 
 #: 54125
 msgid "\"An 'official process?' Doubtful. You won't execute this man.\""
-msgstr ""
+msgstr "\"'Официальный процесс'? Сомневаюсь. Ты не казнишь этого человека\"."
 
 #: 54126 57363
 msgid "\"Never mind, then. Farewell.\""
@@ -50,6 +62,9 @@ msgid ""
 "place yourself in the righteous path of justice? And just *how* do you "
 "intend to stop the execution, sirrah?\""
 msgstr ""
+"\"О? - он опускает одну кустистую бровь, поднимая другую. - Значит, ты решил "
+"встать по пути правосудия? И *как* же ты собираешься остановить казнь, "
+"уважаемый?\""
 
 #: 54128 57330 57333 57379 57380 57381
 msgid ""
@@ -58,6 +73,10 @@ msgid ""
 "an end to this madness so we can get the Curst back where it belongs... "
 "before we're *all* killed.\""
 msgstr ""
+"\"Этот человек - всего лишь козел отпущения. Если ты его казнишь, это только "
+"прибавит хаоса, который и сбросил этот город в Карцери. Мы должны положить "
+"конец этому безумию, чтобы вернуть Проклятий на прежнее место... пока нас "
+"*всех* не убили\"."
 
 #: 57336 57339 57382 57383
 msgid ""
@@ -65,14 +84,17 @@ msgid ""
 "sort of thing's why Curst slid into Carceri... and it's what we need to stop "
 "in order to get the gate-town back on the Outlands.\""
 msgstr ""
+"\"Ты не можешь казнить этого человека - он всего лишь козел отпущения. Это "
+"*неправильно*. Из-за подобных вещей Проклятый и сполз в Карцери... мы должны "
+"это прекратить, чтобы вернуть привратный город во Внешние земли\"."
 
 #: 57341
 msgid "\"By killing the executioner... and you, if need be.\""
-msgstr ""
+msgstr "\"Убив палача... и тебя, если понадобится\"."
 
 #: 57343
 msgid "\"Forget it; I don't. Farewell.\""
-msgstr ""
+msgstr "\"Забудь, я не собираюсь этого делать. Прощай\"."
 
 #: 57345
 msgid ""
@@ -80,32 +102,37 @@ msgid ""
 "hasty in our judgements, Mercykiller. Guards! Free this man!\" He smiles "
 "meekly at Vhailor. \"Thank you for your most timely aid, sir.\""
 msgstr ""
+"Кровь отливает от лица судьи. \"В-в-возможно, м-мы немножко поторопились с "
+"приговором. Стража! Освободить этого человека! - он кротко усмехается "
+"Вейлору. - Благодарю за своевременную помощь, сэр\"."
 
 #: 57347
 msgid ""
 "Both the judge's eyebrows shoot up. \"Wha-? You *dare?!* Guards! Capture "
 "this man - or kill him, if need be!\""
 msgstr ""
+"Брови судьи взлетают вверх. \"Что?.. Да как ты *смеешь*?! Стража! Взять его "
+"- живым или мертвым!\""
 
 #: 57348
-#, fuzzy
 msgid "Attack the judge."
-msgstr "Атаковать демонов."
+msgstr "Напасть на судью."
 
 #: 57350
-#, fuzzy
 msgid "Attack the guards."
-msgstr "Атаковать демонов."
+msgstr "Напасть на стражников."
 
 #: 57352
 msgid "Attack the executioner."
-msgstr ""
+msgstr "Напасть на палача."
 
 #: 57353
 msgid ""
 "\"*Wrong?* You quickly forget that I am a magistrate, sirrah. I, myself, "
 "decide what is right and wrong in this town!\""
 msgstr ""
+"\"*Неправильно*? Ты быстро забыл, что я здесь магистрат, уважаемый. Я сам "
+"решаю, что правильно, а что нет в этом городе!\""
 
 #: 57354 57357 57359
 msgid ""
@@ -113,10 +140,13 @@ msgid ""
 "into Carceri in the first place. We have to put an end to this madness so we "
 "can get the Curst back where it belongs... before we're *all* killed.\""
 msgstr ""
+"\"Но если ты его казнишь, это только прибавит хаоса, который и сбросил этот "
+"город в Карцери. Мы должны положить конец этому безумию, чтобы вернуть "
+"Проклятий на прежнее место... пока нас *всех* не убили\"."
 
 #: 57361
 msgid "\"Be that as it may, you won't execute this man.\""
-msgstr ""
+msgstr "\"Как бы там ни было, ты не можешь казнить этого человека\"."
 
 #: 57364
 msgid ""
@@ -126,6 +156,11 @@ msgid ""
 "is well appreciated, by this town as well as the accused. There shall be no "
 "more hasty executions. Guards! Release the man.\""
 msgstr ""
+"Судья хмурит свои густые брови, образуя густую белую букву V над глазами. Он "
+"смотрит на тебя, потом на служащего, потом снова на тебя. \"Твои слова "
+"мудры, и в то же время разумны, сэр... и я благодарю тебя за своевременную "
+"помощь. И город, и осужденный будут тебе весьма признательны. Больше не "
+"будет поспешных разбирательств. Стража! Освободить его\"."
 
 #: 57365
 msgid "\"Thanks. Farewell.\""
@@ -133,11 +168,13 @@ msgstr "\"Спасибо. Прощай\"."
 
 #: 57378
 msgid "\"Again? And just what is it now, sirrah?\""
-msgstr ""
+msgstr "\"Опять? И что же на этот раз, уважаемый?\""
 
 #: 57384
 msgid "\"I can't let this happen... you won't execute this man.\""
 msgstr ""
+"\"Я не могу позволить этому случиться... ты не станешь казнить этого человека"
+"\"."
 
 #: 57385
 msgid "\"Nothing. Farewell.\""
@@ -148,6 +185,9 @@ msgid ""
 "This sour-faced little man raises an eyebrow as you approach. \"You can do "
 "little here, sirrah, save annoy me... I would suggest that you leave.\""
 msgstr ""
+"Этот человечек со скорбным лицом поднимает бровь, когда ты подходишь. "
+"\"Здесь тебе делать нечего, уважаемый, и не надоедай мне... Советую тебе "
+"удалиться\"."
 
 #: 57387 57390
 msgid "Leave."
@@ -158,3 +198,5 @@ msgid ""
 "\"Again?\" The judge gives an exasperated sigh. \"You can do little here, "
 "sirrah, save annoy me... I would suggest that you leave.\""
 msgstr ""
+"\"Опять? - судья издает раздраженный вздох. - Здесь тебе делать нечего, "
+"уважаемый, и не надоедай мне... Советую тебе удалиться\"."
