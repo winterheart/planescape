@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmorte.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-11-05 14:31+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2013-01-04 23:54+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Language: ru\n"
 
@@ -2711,9 +2711,8 @@ msgid "\"I have questions about this place.\""
 msgstr "\"Что *это* за место?\""
 
 #: 28980
-#, fuzzy
 msgid "\"What do you know of Ravel Puzzlewell?\""
-msgstr "\"Ты знаешь что-нибудь обо мне?\""
+msgstr "\"What do you know of Ravel Puzzlewell?\""
 
 #: 28981
 msgid "\"I'll take you up on that later. Farewell.\""
@@ -5016,6 +5015,7 @@ msgstr ""
 #: 52571
 msgid "\"It swallowed him, but I don't know if he came out of *that* end.\""
 msgstr ""
+"\"Она-то его проглотила, но я не уверен, из *того* ли конца он вышел\"."
 
 #: 52572
 msgid ""
@@ -5023,10 +5023,13 @@ msgid ""
 "caused more harm than good. I would take it back now - you have had it "
 "overlong, I think.\""
 msgstr ""
+"\"Довольно... Послушай, Равель. Ты забрала мою смертность, и зла это "
+"причинило больше, чем добра. Я хочу вернуть ее обратно: похоже, она у тебя "
+"залежалась\"."
 
 #: 52573
 msgid "\"I think I know who should be in a cage...\""
-msgstr ""
+msgstr "\"Мне кажется, я знаю, кому следует сидеть в клетке...\""
 
 #: 52574
 msgid ""
@@ -5034,11 +5037,13 @@ msgid ""
 "mazes and meet one of the evilest creatures ever to set foot in Sigil, so I "
 "said 'sure! Why n-?'"
 msgstr ""
+"\"Ну, я не нашел ничего ЛУЧШЕГО, чем согласиться идти в один из лабиринтов "
+"Леди и встретиться с одним из злейших созданий, когда-либо ступавших на "
+"землю Сигила, так что я сказал 'Конечно! Почему бы...\""
 
 #: 52575
-#, fuzzy
 msgid "\"Morte, be quiet. Ravel, I...\""
-msgstr "\"Тихо! Черт, женщина, молчи!\""
+msgstr "\"Морт, умолкни. Равель, я...\""
 
 #: 52576
 msgid ""
@@ -5048,10 +5053,15 @@ msgid ""
 "Obviously the fact SHE has skin has done wonders for HER looks! Does she "
 "think I *like* being NAKED all the time? And *another* thing-\" "
 msgstr ""
+"\"'Умолкни'?! - Морт клацает зубами. - Черта с два! Мне кажется, что мы уже "
+"достаточно наслушались, как эта старая карга трещит своей костяной коробкой, "
+"но теперь она уже перегибает палку, говоря, что у меня нет кожи! Ну и ЧТО?! "
+"Очевидно, тот факт, что у НЕЕ есть кожа, просто творит чудеса с ЕЕ видом! "
+"Она что, думает, мне *нравится* все время быть ГОЛЫМ? И *еще*...\" "
 
 #: 52577 52578 52579
 msgid "\"Morte! Cut it out! Ravel, look --\""
-msgstr ""
+msgstr "\"Морт! Хватит! Равель, послушай...\""
 
 #: 52644
 msgid "\"Freaky. So where are we technically standing right now?\""
