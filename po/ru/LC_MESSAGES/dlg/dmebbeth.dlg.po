@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmebbeth.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-10-01 21:23+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2013-01-04 21:05+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Poedit 1.5.4\n"
 "Language: ru\n"
 
 #: 1801
@@ -432,9 +432,8 @@ msgid "\"I'm missing a journal. Do you know where one could be found?\""
 msgstr "\"Я потерял дневник. Не знаешь, где его можно найти?\""
 
 #: 23227
-#, fuzzy
 msgid "\"Have you ever heard of someone named 'Ravel,' Mebbeth?\""
-msgstr "\"Слышала ли ты когда-нибудь о ком-нибудь по имени 'Равель', Меббет?\""
+msgstr "\"Слышала ли ты когда-нибудь о ком-нибудь по имени Равель, Меббет?\""
 
 #: 23228 23627 23638
 msgid "\"I could use some healing...\""
@@ -647,7 +646,6 @@ msgid "\"I don't need to know that badly. Farewell.\""
 msgstr "\"Я не настолько сильно хочу это знать. Прощай\"."
 
 #: 23278
-#, fuzzy
 msgid ""
 "Mebbeth suggested I go speak to one of the sages in the Civic Festhall in "
 "the Clerk's Ward about how I might go about finding the entrance to Ravel's "
@@ -1064,6 +1062,10 @@ msgid ""
 "not rely on it ta solve all o' yer problems.\" She sighs. \"Child, it's most "
 "like only going to add another chip to yer pile o' questions...\""
 msgstr ""
+"Мгновение спустя, Меббет кивает. \"Искусство может помочь, а может и не "
+"помочь, и ты не должен полагаться на него в решении своих проблем, - она "
+"вздыхает. - Сынок, скорее всего от этого твоя кипа вопросов только "
+"разрастется...\""
 
 #: 23442
 msgid ""
@@ -1072,6 +1074,10 @@ msgid ""
 "things that'll be on it, too. There'll always be someone better, and they'll "
 "learn *ye* if ye crave too much.\""
 msgstr ""
+"\"Пф! Дурное желание, ведь лестница к Искусству всегда будет напоминать "
+"тебе, что над тобой высится еще одна ступенька, а на ней - куча людей и "
+"вещей. Всегда будет кто-то лучший, и он научит *тебя*, если ты будешь хотеть "
+"достаточно сильно\"."
 
 #: 23443
 msgid "\"I understand. Will you teach me anyway?\""
@@ -1083,6 +1089,9 @@ msgid ""
 "own. I won't teach one who hides hisself from the teacher... only evil comes "
 "from such a path.\""
 msgstr ""
+"\"Вот как? Коли это твое личное дело, тогда мои *знания* тебя тоже не "
+"касаются. Я не стану учить того, кто скрывает себя от учителя... это есть "
+"корень зла\"."
 
 #: 23447
 msgid ""
