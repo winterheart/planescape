@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: dburgher.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:30+0500\n"
+"PO-Revision-Date: 2013-02-02 22:10+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.5\n"
+"Language: ru\n"
 
 #: 57017
 msgid ""
@@ -20,26 +21,30 @@ msgid ""
 "you. \"Not going to help me, are you? That's what brought us here in the "
 "first place...\" He laughs weakly."
 msgstr ""
+"Ты видишь старого гитцерая, застрявшего под колесами фургона, который, должно "
+"быть, упал на него во время беспорядков. Сплюнув сгусток крови, он скалится "
+"тебе. \"Ты ведь не собираешься мне помогать, верно? Именно поэтому мы все "
+"сюда попали...\" Он обессиленно смеется."
 
 #: 57018 57019 57025 57026 57066 57067 57073 57074
 msgid "\"Who are you?\""
 msgstr "\"Кто ты?\""
 
 #: 57020 57021 57027 57028 57068 57069 57075 57076
-#, fuzzy
 msgid "\"Relax. I'll pull you out.\""
-msgstr "\"Конечно. Я сделаю это\"."
+msgstr "\"Расслабься. Я вытащу тебя\"."
 
 #: 57022 57023 57029 57030 57070 57071 57077 57078
-#, fuzzy
 msgid "\"No, I'm not.\""
-msgstr "\"Нет, не нужна\"."
+msgstr "\"Нет, даже не собираюсь\"."
 
 #: 57024
 msgid ""
 "The githzerai coughs again. \"Have you come to mock me again? I'll not give "
 "you the satisfaction.\""
 msgstr ""
+"Гитцерай снова кашляет. \"Опять пришел издеваться надо мной? Я не доставлю "
+"тебе такого удовольствия\". "
 
 #: 57031 57079
 msgid ""
@@ -48,58 +53,61 @@ msgid ""
 "Tovus Giljaf. I used to be the Burgher of this town... until the accursed "
 "deva broke free.\""
 msgstr ""
+"\"Да, убери клинок, зертов пес. Я плюю на твои учения. Носи свои оковы "
+"дальше, - гитцерай поворачивает голову к тебе. - Я - Товус Гильяф, был "
+"бургером этого города... пока проклятый дэва не вырвался на свободу\"."
 
 #: 57032 57041 57059 57063 57080 57088 57106 57110
-#, fuzzy
 msgid "\"What can you tell me of the deva?\""
-msgstr "\"Что ты можешь сказать о ней?\""
+msgstr "\"Что ты можешь сказать о дэва?\""
 
 #: 57033 57042 57081 57089
-#, fuzzy
 msgid "\"You were the Burgher?\""
-msgstr "\"Что это за ключи?\""
+msgstr "\"Ты был бургером?\""
 
 #: 57034 57043 57082 57090
 msgid "\"I can't say I think much of your town.\""
-msgstr ""
+msgstr "\"Не могу сказать о твоем городе ничего хорошего\"."
 
 #: 57035 57044 57083 57091
-#, fuzzy
 msgid "\"Let me get you out of there.\""
-msgstr "\"А теперь проваливай отсюда\"."
+msgstr "\"Выпусти меня отсюда\"."
 
 #: 57036 57045 57084 57092
-#, fuzzy
 msgid "\"In that case, I'll leave you to die. Farewell.\""
-msgstr "\"Тогда пойду, посмотрю. Прощай\"."
+msgstr "\"В таком случае, я оставлю тебя умирать. Прощай\"."
 
 #: 57038 57085
 msgid ""
 "\"Yes, kill me, zerth dog. Do as your master orders.\" The old githzerai "
 "cackles bloodily until Dak'kon slashes his throat."
 msgstr ""
+"\"Да, убей меня, зертов пес. Делай, как тебе велит твой хозяин\". Старый "
+"гитцерай хохочет, пока Даккон не перерезает ему горло."
 
 #: 57039 57086
-#, fuzzy
 msgid "\"Well struck, Dak'kon.\""
-msgstr "\"Прощай, Дхолл\"."
+msgstr "\"Хороший удар, Даккон\"."
 
 #: 57040 57087
 msgid ""
 "\"I am Tovus Giljaf. I used to be the Burgher of this town... until the "
 "accursed deva broke free.\""
 msgstr ""
+"\"Я - Товус Гильяф, был бургером этого города... пока проклятый дэва не "
+"вырвался на свободу\"."
 
 #: 57046 57093
 msgid ""
 "His thin mouth compresses further still. \"Then lift, damn you, and be done."
 "\""
 msgstr ""
+"Его рот сжимается в тонкую линию. \"Тогда подними его, черт тебя побери, и "
+"дело с концом\"."
 
 #: 57047 57094
-#, fuzzy
 msgid "\"Let's do it.\""
-msgstr "\"Сначала попробуй\"."
+msgstr "\"Тогда к делу\"."
 
 #: 57048 57095
 msgid "\"Forget it. Maybe I'll come back later.\""
@@ -110,11 +118,12 @@ msgid ""
 "\"Then I curse you, scarred man, and wish all the plagues of pestilence upon "
 "you.\" He spits a bloody wad at you and misses."
 msgstr ""
+"\"Будь ты проклят, человек со шрамами, пусть все чумные болезни будут на "
+"тебе\". Он плюет в тебя кровавым сгустком, но промахивается."
 
 #: 57050 57097
-#, fuzzy
 msgid "\"So long.\""
-msgstr "\"Продолжай\"."
+msgstr "\"Пока\"."
 
 #: 57051
 msgid ""
@@ -124,6 +133,11 @@ msgid ""
 "not perish.\" He gives you a crooked smile. \"I do not envy you the conflict "
 "with the deva. He is a fearsome opponent. Here. Take this. It may aid you.\""
 msgstr ""
+"Ты наваливаешься всем своим весом на повозку, поднимая ее достаточно высоко, "
+"чтобы он выполз из-под нее.\n"
+"\"Спасибо человек. Мне пора на стены, нужно помочь стражникам. Мой город не "
+"должен пасть, - он криво улыбается тебе. - Не завидую я тебе с этим дэва. Он "
+"грозный противник. Возьми, это поможет тебе\"."
 
 #: 57052 57099 57126
 msgid "\"Farewell.\""
@@ -136,26 +150,31 @@ msgid ""
 "blazing, and my beautiful, beautiful home... slid.\" He looks at you "
 "intently. \"I would have my revenge. Free me, yes?\""
 msgstr ""
+"\"Мы захватили его... о, как давно это было... много лет назад. Я думал, что "
+"мы его надежно спрятали от всех ищеек и предателей. И вот вдруг он в огне "
+"выскакивает из-под земли, а мой дом, милый дом... соскальзывает, - он "
+"пристально смотрит на тебя. - Я хочу отомстить. Ты ведь освободишь меня, да?\""
 
 #: 57054 57058 57062 57101 57105 57109
-#, fuzzy
 msgid "\"All right. Get ready.\""
-msgstr "\"Хорошо. Прощай\"."
+msgstr "\"Хорошо. Приготовься\"."
 
 #: 57055 57102
 msgid "\"You were the Burgher of this town?\""
-msgstr ""
+msgstr "\"Ты был бургером этого города?\""
 
 #: 57056 57060 57064 57103 57107 57111
-#, fuzzy
 msgid "\"No, I don't think so.\""
-msgstr "\"Нет, не думаю\"."
+msgstr "\"Нет, я так не думаю\"."
 
 #: 57057 57104
 msgid ""
 "\"My compatriots... and I... we were using this city as a base to return "
 "ourselves to power... but that is another story for another day. Free me!\""
 msgstr ""
+"\"Мои соотечественники... и я... использовали этот город в качестве базы для "
+"возвращения нашей былой власти... но это другая история для другого раза. "
+"Освободи меня!\""
 
 #: 57061 57108
 msgid ""
@@ -164,6 +183,10 @@ msgid ""
 "and I shall aid you in your revenge on him. My guards can hold off the "
 "monsters for a time.\""
 msgstr ""
+"\"И я тоже... Но он - мой, и видеть то, что вытворяет с ним этот дешевый, "
+"самодовольный дэва... это выше моих сил, - он откашливается. - Освободи меня, "
+"и я помогу тебе отомстить ему. Мои стражники смогут на время сдержать этих "
+"монстров\"."
 
 #: 57065
 msgid ""
@@ -172,12 +195,18 @@ msgid ""
 "you. \"Not going to help me, are you? That's what brought us here in the "
 "first place...\" He laughs weakly."
 msgstr ""
+"Ты видишь старого гитцерая, застрявшего под колесами фургона, который, должно "
+"быть, упал на него во время беспорядков. Сплюнув сгусток крови, он скалится "
+"тебе. \"Ты ведь не собираешься мне помогать, верно? Именно поэтому мы все "
+"сюда попали...\" Он обессиленно смеется."
 
 #: 57072
 msgid ""
 "The githzerai coughs bloodily again. \"Have you come to mock me again? I'll "
 "not give you the satisfaction.\""
 msgstr ""
+"Гитцерай снова кашляет кровью. \"Опять пришел издеваться надо мной? Я не "
+"доставлю тебе такого удовольствия\". "
 
 #: 57098
 msgid ""
@@ -188,21 +217,28 @@ msgid ""
 "He gives you a crooked smile. \"I do not envy you the deva. He is a fearsome "
 "opponent. Take this. It may aid you.\""
 msgstr ""
+"Ты наваливаешься всем своим весом на повозку, поднимая ее достаточно высоко, "
+"чтобы он выполз из-под нее. Ты слышишь полный боли вскрик, донесшийся с "
+"другой стороны повозки. \"Спасибо... человек. Мне пора на стены, нужно помочь "
+"стражникам. Мой город не должен пасть, - он криво улыбается тебе. - Не "
+"завидую я тебе с этим дэва. Он грозный противник. Возьми, это поможет тебе\"."
 
 #: 57112
 msgid ""
 "As you prepare to lift, you hear a cry of agony from the other side of the "
 "cart..."
 msgstr ""
+"Ты готов поднять повозку, как слышишь полный боли крик с другой стороны..."
 
 #: 57113
 msgid ""
 "\"You're crushing me, fool! You can't lift this cart without crushing one of "
 "us, and I can make it worth your while to crush him instead!\""
 msgstr ""
+"\"Ты давишь на меня, идиот! Ты не сможешь поднять эту повозку, не раздавив "
+"одного из нас! Я больше пригожусь, если ты раздавишь его вместо меня!\""
 
 #: 57114
-#, fuzzy
 msgid "\"How so?\""
 msgstr "\"Каким образом?\""
 
@@ -211,6 +247,8 @@ msgid ""
 "\"In that case, I should help him. You seem to be part of the evil that's "
 "keeping this town nailed in Carceri.\""
 msgstr ""
+"\"В таком случае, мне следует помочь ему. Похоже, ты - часть того зла, что "
+"удерживает этот город в Карцери\"."
 
 #: 57116 57122
 msgid ""
@@ -222,7 +260,7 @@ msgstr ""
 
 #: 57117
 msgid "\"I'll be back later, then, when I figure this out.\""
-msgstr ""
+msgstr "\"Тогда я вернусь позже, когда пойму, как решить эту проблему\"."
 
 #: 57118
 msgid ""
@@ -230,25 +268,33 @@ msgid ""
 "the tide of monsters that stands between you and the deva... free me, and "
 "your tasks shall be easier. Free him, and you gain nothing.\""
 msgstr ""
+"\"Я все еще командую стражей Проклятого... Я могу воодушевить их, помочь, "
+"замедлить орды монстров, что стоят между тобой и дэва... Освободи меня, и "
+"твоя задача облегчится во много раз. Освободишь его, и ты не получишь "
+"ничего\"."
 
 #: 57119
 msgid ""
 "\"That... is the deva. This little thief here is nothing to you when "
 "compared to the deva. Free me!\""
 msgstr ""
+"\"Это... это все дэва. Этот мелкий воришка по сравнению дэва - ничто. "
+"Освободи меня!\""
 
 #: 57120
 msgid "Lift the cart onto Berrog: \"All right.\""
-msgstr ""
+msgstr "Поднять телегу на Беррога: \"Хорошо\"."
 
 #: 57121
 msgid ""
 "Prepare to lift the cart off Berrog. \"I think I'll just free him instead.\""
 msgstr ""
+"Приготовиться сдвинуть повозку с Беррога. \"Думаю, что лучше вместо этого я "
+"освобожу его\"."
 
 #: 57123
 msgid "\"I'll be back later when I can do something about this.\""
-msgstr ""
+msgstr "\"Я вернусь позже, как только решу, что с этим делать\"."
 
 #: 57124
 msgid ""
@@ -256,6 +302,9 @@ msgid ""
 "effort, manage to lift the cart in such a way that both of those trapped "
 "underneath it can wriggle out."
 msgstr ""
+"Ты со своими компаньонами собираетесь вокруг повозки и, приложив общие "
+"усилия, поднимаете ее таким образом, что оба застрявших смогли выбраться "
+"из-под ее."
 
 #: 57125
 msgid ""
@@ -263,8 +312,13 @@ msgid ""
 "not perish.\" He gives you a crooked smile. \"I do not envy you the conflict "
 "with the deva. He is a fearsome opponent. Here. Take this. It may help.\""
 msgstr ""
+"\"Спасибо... человек. Мне пора на стены, нужно помочь стражникам. Мой город "
+"не должен пасть, - он криво улыбается тебе. - Не завидую я тебе с этим дэва. "
+"Он грозный противник. Возьми, это поможет тебе\"."
 
 #: 57127
 msgid ""
 "\"It's... the Burgher, you little fool.\" He turns his attention to you."
 msgstr ""
+"\"Его называют... бургером, маленький идиот\". Он поворачивается к тебе."
+
