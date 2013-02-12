@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: danizius.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:50+0500\n"
+"PO-Revision-Date: 2013-02-12 22:22+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,13 +11,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.5\n"
+"Language: ru\n"
 
 #: 59314
 msgid ""
 "The githyanki glares bitterly at you, and says nothing. When you try to "
 "speak to him, he spits on the ground and turns from you."
 msgstr ""
+"Гитьянки, не произнося ни слова, с горечью смотрит на тебя. Когда ты "
+"пытаешься заговорить с ним, он сплевывает на землю и отворачивается."
 
 #: 59317 59448 59486
 msgid "\"Farewell, then.\""
@@ -29,11 +32,13 @@ msgid ""
 "deliberately. You can practically smell his rage. As you approach he looks "
 "up at you. \"What do you want?\" he snarls."
 msgstr ""
+"Перед тобой гитьянки с болезненно-желтым оттенком кожи, худым лицом и "
+"решительным взглядом. Ты физически ощущаешь его ярость. Взглянув на тебя, он "
+"злобно рычит: \"Чего надо?\""
 
 #: 59323 59335 59346 59423 59444 59533 59606
-#, fuzzy
 msgid "\"A friend told me you were in need of help.\""
-msgstr "\"Похоже, тебе нужно измениться\"."
+msgstr "\"Один друг сказал мне, что тебе нужна помощь\"."
 
 #: 59327 59537 59609
 msgid "\"Who are you?\""
@@ -44,14 +49,12 @@ msgid "\"What can you tell me of Curst?\""
 msgstr "\"Что ты можешь сказать о Проклятом?\""
 
 #: 59329 59542 59611
-#, fuzzy
 msgid "\"Have you heard anything of a deva here?\""
-msgstr "\"Тебе не встречался где-нибудь поблизости дневник?\""
+msgstr "\"Ты что-нибудь слышал о дэва неподалеку?\""
 
 #: 59331 59544 59612
-#, fuzzy
 msgid "\"Nothing. Forget it.\""
-msgstr "\"Забудь\"."
+msgstr "\"Ничего. Забудь\"."
 
 #: 59334
 msgid ""
@@ -59,15 +62,17 @@ msgid ""
 "town leaders, and I have earned that honor.\" He looks closely at you. \"You "
 "do not belong here. What do you want?\""
 msgstr ""
+"\"Я - Анизиус, а ты должен обращаться ко мне как 'ваша честь'. Я один из "
+"лидеров этого города, поэтому заслуживаю уважения, - он присматривается к "
+"тебе. - Ты не здешний. Чего тебе нужно?\""
 
 #: 59338 59354
-#, fuzzy
 msgid "\"I seek a deva.\""
-msgstr "\"Понятно. Спасибо\"."
+msgstr "\"Я ищу дэва\"."
 
 #: 59339
 msgid "\"I'm looking for something I lost.\""
-msgstr ""
+msgstr "\"Я кое-что потерял и теперь ищу это\"."
 
 #: 59341 59553
 msgid "\"Nothing. Farewell.\""
@@ -77,18 +82,18 @@ msgstr "\"Ничего. Прощай\"."
 msgid ""
 "He scoffs. \"Ask someone who has time. I have matters of state on my mind.\""
 msgstr ""
+"Он презрительно усмехается. \"Спроси у кого-нибудь, у кого есть время. У меня "
+"дела чрезвычайной важности\"."
 
 #: 59350 59436
-#, fuzzy
 msgid "\"Matters of state?\""
-msgstr "\"Для меня это важно\"."
+msgstr "\"Чрезвычайной важности?\""
 
 #: 59352
 msgid "\"Who are you, anyway?\""
 msgstr "\"Так кто ты на самом деле?\""
 
 #: 59356
-#, fuzzy
 msgid "\"I will. Farewell.\""
 msgstr "\"Хорошо. Прощай\"."
 
@@ -97,50 +102,58 @@ msgid ""
 "His eyes narrow. \"A deva? What would you do with a deva, and why are you "
 "seeking one in Curst?\""
 msgstr ""
+"Его глаза сужаются. \"Дэва? Что ты будешь делать с дэва, и почему ты ищешь "
+"его в Проклятом?\""
 
 #: 59410
 msgid "\"I believe it has the secret of my mortality.\""
-msgstr ""
+msgstr "\"Я считаю, он владеет тайной моей смертности\"."
 
 #: 59411
 msgid "\"I had heard one was here. Do you know anything of it?\""
 msgstr ""
+"\"Я слышал, что один из них находится здесь. Ты что-нибудь знаешь об этом?\""
 
 #: 59413
 msgid "\"Forget it. A friend told me you were in need of help.\""
-msgstr ""
+msgstr "\"Забудь. Один друг сказал мне, что тебе нужна помощь\"."
 
 #: 59415
 msgid "\"Forget it. I've got to go. Farewell.\""
-msgstr ""
+msgstr "\"Забудь. Мне нужно идти. Прощай\"."
 
 #: 59417
 msgid "\"What might that be? Perhaps as a town leader, I can help you.\""
-msgstr ""
+msgstr "\"И что же это? Я, как городской лидер, могу тебе помочь в этом\"."
 
 #: 59418
 msgid ""
 "\"As a town leader, you might be needing *me*. A friend told me you were in "
 "need of help.\""
 msgstr ""
+"\"Как городской лидер, ты можешь нуждаться во *мне*. Один друг сказал мне, "
+"что тебе нужна помощь\"."
 
 #: 59419
 msgid "\"I have lost my mortality. I need to find it.\""
-msgstr ""
+msgstr "\"Я потерял свою смертность. Мне нужно найти ее\"."
 
 #: 59420
 msgid "\"Nothing of import. I can find it myself.\""
-msgstr ""
+msgstr "\"Ничего важного. Я смогу найти это сам\"."
 
 #: 59421
 msgid "\"Nothing of import. Farewell.\""
-msgstr ""
+msgstr "\"Ничего важного. Прощай\"."
 
 #: 59422
 msgid ""
 "He eyes you carefully, seeming to weigh you in his mind, and judges you: "
 "\"Nothing to which you might contribute. Now step aside. I must consider.\""
 msgstr ""
+"Он внимательно смотрит на тебя, оценивающе обводя тебя взглядом: \"Ничего, в "
+"чем ты можешь посодействовать. А теперь в сторону. Мне нужно кое-что "
+"обдумать\"."
 
 #: 59424
 msgid "\"All right. Farewell.\""
@@ -151,6 +164,8 @@ msgid ""
 "He looks at you as if you've gone over the edge of insanity. \"You're badly "
 "in need of help. Good day.\" He turns stiffly away from you."
 msgstr ""
+"Он смотрит на тебя так, словно ты исчез за границей безумия. \"Тебе срочно "
+"нужна помощь. Хорошего дня\". Он высокомерно отворачивается от тебя."
 
 #: 59431 59592 59599
 msgid "\"Farewell.\""
@@ -161,6 +176,8 @@ msgid ""
 "\"Not that I can think of.\" He continues to eye you. \"If you'll excuse me, "
 "I have matters of state to attend to.\""
 msgstr ""
+"\"Не думаю, что это так, - он продолжает смотреть на тебя. - Прошу прощения, "
+"но меня ждут дела чрезвычайной важности\"."
 
 #: 59438
 msgid "\"Understood. Farewell.\""
@@ -171,6 +188,8 @@ msgid ""
 "\"Then why did you interrupt my thought? I should have you clapped in irons! "
 "Go!\" He turns away from you."
 msgstr ""
+"\"Тогда зачем ты прервал мои мысли? Тебя в кандалы заковать мало! Прочь!\" Он "
+"отворачивается от тебя."
 
 #: 59451
 msgid ""
@@ -178,28 +197,35 @@ msgid ""
 "locked away beneath Curst. Guards!\" Guards materialize around you, and you "
 "are struck a sharp blow to the back of your head. Everything goes black..."
 msgstr ""
+"\"Отлично. Ты сможешь найти то, что ищешь, глубоко под Проклятым. Стража!\" "
+"Вокруг тебя материализуются стражники. Внезапно что-то увесистое бьет тебя по "
+"затылку. Ты проваливаешься в темноту..."
 
 #: 59454
 msgid "\"Curses...\""
-msgstr ""
+msgstr "\"Проклятье...\""
 
 #: 59460
 msgid "His intensity doubles. \"What have you heard?\""
-msgstr ""
+msgstr "Он напрягается еще сильнее. \"И что же тебе сказали?\""
 
 #: 59462
 msgid "\"Simply that you were having difficulties with a political enemy.\""
 msgstr ""
+"\"То, что у тебя есть некоторые затруднения с политическими оппонентами\"."
 
 #: 59464
 msgid ""
 "His eyes widen for just a fraction of a second, and narrow again. \"I see. "
 "And are you going to help me?\""
 msgstr ""
+"Его глаза немного расширяются всего на долю секунды, после чего снова "
+"превращаются в две узкие щелочки. \"Понятно. А ты, стало быть, собираешься "
+"помочь мне?\""
 
 #: 59468
 msgid "\"It depends on what you need from me.\""
-msgstr ""
+msgstr "\"А это зависит от того, что тебе нужно от меня\"."
 
 #: 59471
 msgid "\"Yes.\""
@@ -213,16 +239,17 @@ msgstr "\"Нет\"."
 msgid ""
 "\"Then you are no use to me. Begone!\" He dismisses you with a flick of his "
 "wrist and ignores you."
-msgstr ""
+msgstr "\"Тогда ты для меня бесполезен. Сгинь!\" Он отмахивается от тебя."
 
 #: 59490
 msgid ""
 "\"It is of a delicate nature. A rival requires education. You won't need to "
 "kill her, if this makes you squeamish.\""
 msgstr ""
+"\"Это очень деликатное дело. Соперницу следует кое-чему научить. Ее вовсе не "
+"обязательно убивать, если ты очень щепетилен по такому поводу\"."
 
 #: 59493
-#, fuzzy
 msgid "\"I'll do it, then.\""
 msgstr "\"Тогда я это сделаю\"."
 
@@ -239,6 +266,12 @@ msgid ""
 "you shall be well rewarded. You can find her - if you desire - near the "
 "Administration building.\""
 msgstr ""
+"\"Вот, что ты должен сделать: Женщина по имени Сиабха... она оказывает "
+"слишком сильное влияние на главного бургера, отодвигая меня от кандидатов на "
+"бургера этого города. Я хочу дискредитировать ее. Все, что тебе нужно "
+"сделать, - сказать капитану стражи, что она попыталась нанять тебя для "
+"нападения на меня. Ты будешь за это вознагражден. Если ты берешься за это, то "
+"ее можно найти неподалеку от Административного здания\"."
 
 #: 59502
 msgid "\"I'll be back.\""
@@ -250,11 +283,14 @@ msgid ""
 "political enemy of his by lying to the captain of the guard. Her name is "
 "Siabha, and she can be found near the Administration Building in Inner Curst."
 msgstr ""
+"Анизиус, представитель власти Проклятого, желает дискредитировать с моей "
+"помощью своего политического оппонента. Для этого я должен солгать капитану "
+"стражи. Ее зовут Сиабха, ее можно найти неподалеку от Административного "
+"здания во Внутреннем Проклятом."
 
 #: 59516
-#, fuzzy
 msgid "\"I had a few questions for you...\""
-msgstr "\"У меня есть вопросы к тебе\"."
+msgstr "\"У меня есть несколько вопросов к тебе...\""
 
 #: 59519
 msgid ""
@@ -262,88 +298,95 @@ msgid ""
 "people. I have risen above the petty feud between our two races. For this "
 "they exiled me - but in my heart, I have bested them. Can you say the same?\""
 msgstr ""
+"Глаза гитьянки сужаются. \"Я сумел отринуть ненависть к твоему народу. Я стал "
+"выше той мелочной вражды между нашими расам. За это меня изгнали, но если "
+"честно, мне от этого даже лучше. Сможешь ли ты сказать то же самое?\""
 
 #: 59526
 msgid "\"All right, you two... cut it out. I had some questions.\""
-msgstr ""
+msgstr "\"Ладно, вы двое... Давайте покороче. У меня есть некоторые вопросы\"."
 
 #: 59527
 msgid "\"Forget this. We're leaving.\""
-msgstr ""
+msgstr "\"Забудь об этом. Мы уходим\"."
 
 #: 59530
-#, fuzzy
 msgid "\"What are they?\""
-msgstr "\"Чем они являются?\""
+msgstr "\"В чем они заключаются?\""
 
 #: 59547
-#, fuzzy
 msgid "\"What do you want, dog?\""
-msgstr "\"Почему ты хочешь умереть?\""
+msgstr "\"Чего надо, пес?\""
 
 #: 59549
 msgid "\"I've changed my mind. I'll help. What do you need?\""
-msgstr ""
+msgstr "\"Я передумал Я помогу тебе. Что тебе нужно?\""
 
 #: 59558
 msgid "\"Well? What of your progress?\""
-msgstr ""
+msgstr "\"Ну? Как продвигается дело?\""
 
 #: 59560
 msgid "\"Your rival has offered to pay me a large sum to double-cross you.\""
 msgstr ""
+"\"Твоя соперница предложила мне двойную сумму за то, чтобы я встал на ее "
+"сторону\"."
 
 #: 59562
 msgid ""
 "\"I spoke with the guard captain, and he said he'd send a detachment to "
 "escort her to the prison.\""
 msgstr ""
+"\"Я поговорил с капитаном стражи, и он сказал, что он отправит отряд, который "
+"отконвоирует ее в тюрьму\"."
 
 #: 59568
-#, fuzzy
 msgid "\"I'm working on it. I had some questions...\""
-msgstr "\"Ясно. У меня есть другие вопросы для тебя...\""
+msgstr "\"Я работаю над этим. У меня есть несколько вопросов...\""
 
 #: 59574
-#, fuzzy
 msgid "\"I'm working on it. I'll be back.\""
-msgstr "\"Забудь. Я вернусь\"."
+msgstr "\"Я работаю над этим. Я вернусь\"."
 
 #: 59578
 msgid ""
 "An'Izius paid me handsomely for turning Siabha over to the guards of Curst - "
 "more than enough to justify such a small lie."
 msgstr ""
+"Анизиус щедро заплатил за то, чтобы я передал Сиабху в руки стражи Проклятого "
+"- более чем достаточно за такую маленькую ложь."
 
 #: 59582
 msgid "\"What? I'll double it myself!\""
-msgstr ""
+msgstr "\"Что? Я заплачу вдвое больше!\""
 
 #: 59585
-#, fuzzy
 msgid "\"You've got a deal.\""
-msgstr "\"По рукам. Прощай\"."
+msgstr "\"По рукам\"."
 
 #: 59588
-#, fuzzy
 msgid "\"We'll see. Farewell.\""
-msgstr "\"Понятно... Прощай\"."
+msgstr "\"Посмотрим. Прощай\"."
 
 #: 59590
 msgid ""
 "\"Then I owe you this.\" He hands you a heavy pouch of coins. \"Now begone."
 "\" "
 msgstr ""
+"\"Я в долгу у тебя, - он протягивает тебя тяжелый кошель с монетами. - А "
+"теперь исчезни\"."
 
 #: 59595
 msgid "\"Then go! Go! Or I shall have you flayed!\""
-msgstr ""
+msgstr "\"Иди же! Прочь! С тебя шкуру содрать надо!\""
 
 #: 59601
 msgid ""
 "\"We have nothing more to say to each other. Our work together has finished. "
 "No suspicions must be raised. Leave me.\""
 msgstr ""
+"\"Нам не о чем больше разговаривать. Наше общее дело закончено. Нельзя "
+"вызывать никаких подозрений. Оставь меня в покое\"."
 
 #: 59603
 msgid "\"Very well. Farewell.\""
@@ -351,13 +394,16 @@ msgstr "\"Отлично. Прощай\"."
 
 #: 59605
 msgid "\"Why do you trouble me so?\""
-msgstr ""
+msgstr "\"Почему ты так мне досаждаешь?\""
 
 #: 66922
 msgid ""
 "The official looks utterly desperate. \"Please, stranger! You must help me! "
 "Convince the judge that my alleged crimes are no crimes at all!\""
 msgstr ""
+"Служащий выглядит крайне отчаянным. \"Пожалуйста, незнакомец! Ты должен "
+"помочь мне! Убеди судью, что мои так называемые преступления вовсе не "
+"являются преступлениями!\""
 
 #: 66923
 msgid "\"I'll try...\""
@@ -365,4 +411,5 @@ msgstr "\"Я постараюсь...\""
 
 #: 66924
 msgid "\"We'll see about that...\""
-msgstr ""
+msgstr "\"Это мы еще посмотрим...\""
+
