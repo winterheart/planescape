@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddakkon.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-01-04 23:26+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2013-02-02 21:48+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Language: ru\n"
 
 #: 14980
@@ -2540,27 +2540,26 @@ msgid ""
 "\"He is a true traitor to the githzerai. He has cursed our people.\" Dak'kon "
 "draws his blade. \"That is reason enough for him to die.\""
 msgstr ""
+"\"Он истинный предатель гитцераев. Он был проклят нашим народом, - Даккон "
+"достает свой клинок. - Этой причины достаточно, чтобы он умер\"."
 
 #: 57129 57135
-#, fuzzy
 msgid "\"Put the blade away, Dak'kon.\""
-msgstr "Отложить шкатулку."
+msgstr "\"Убери клинок, Даккон\"."
 
 #: 57130 57136
-#, fuzzy
 msgid "\"Then kill him.\""
-msgstr "\"Убить его?\""
+msgstr "\"Тогда убей его\"."
 
 #: 57131 57137
 msgid "\"You cannot trust this one. Let him perish here, under the cart.\""
-msgstr ""
+msgstr "\"Ему нельзя верить. Оставим его здесь умирать, под повозкой\"."
 
 #: 57132 57138
 msgid "\"No, Dak'kon, we're pulling him out.\""
-msgstr ""
+msgstr "\"Нет, Даккон, мы вытащим его\"."
 
 #: 57133 57139
-#, fuzzy
 msgid "\"All right. Let's go.\""
 msgstr "\"Ладно. Идем\"."
 
@@ -5635,3 +5634,4 @@ msgstr "\"Видишь? Теперь ты опустишь свой клинок
 #: 9021
 msgid "\"What did he say?\""
 msgstr "\"Что он сказал?\""
+
