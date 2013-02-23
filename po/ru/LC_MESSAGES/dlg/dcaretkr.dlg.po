@@ -3,21 +3,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dcaretkr.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:28+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2013-02-23 23:08+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: 3196
 msgid ""
 "A scruffy old man who reeks of garbage hails you. \"Stranger! Bide a moment! "
 "I must tell you what has happened to this place!\""
 msgstr ""
+"Тебя окликает грязный, воняющий отбросами старик: \"Приятель! Задержись на "
+"минутку! Я должен рассказать тебе, что здесь произошло!\""
 
 #: 3197 60286 60292 60311
 msgid "\"Who are you?\""
@@ -25,11 +27,11 @@ msgstr "\"Кто ты?\""
 
 #: 60250 60256
 msgid "\"What happened?\""
-msgstr "\"Что произошло?\""
+msgstr "\"А что произошло?\""
 
 #: 60251
 msgid "\"No. Get out of my way.\""
-msgstr ""
+msgstr "\"Нет. Прочь с дороги\"."
 
 #: 60252
 msgid ""
@@ -39,10 +41,14 @@ msgid ""
 "town to recant its treachery and deceit. The stronger the belief of the town "
 "in forgiveness, the weaker the deva.\""
 msgstr ""
+"\"Приятель, ты вернулся в город в бедствии. Дэва торжествующе парит над его "
+"обломками, направляя нас к нашей гибели. Есть только один путь назад - "
+"свергнуть дэва и сделать так, чтобы город отрекся от своего вероломства и "
+"обмана. Чем сильнее вера города в прощение, тем слабее дэва\"."
 
 #: 60253
 msgid "\"Trias did all this?\""
-msgstr ""
+msgstr "\"Все это - дело рук Триаса?\""
 
 #: 60254
 msgid ""
@@ -52,6 +58,10 @@ msgid ""
 "hold of evil and chaos on this town - to convince the townsfolk to look to "
 "their better natures. "
 msgstr ""
+"Смотритель Кайс рассказал мне, что Триас поднялся из своей темницы и осудил "
+"город, из-за чего тот начал сползать в Карцери. Еще смотритель сказал, что "
+"лучший способ сразиться с Триасом - это ослабить хватку зла и хаоса в "
+"городе, убедив горожан вспомнить свои хорошие стороны."
 
 #: 60255
 msgid ""
@@ -59,10 +69,12 @@ msgid ""
 "gentility and kindness, and they refused, and this is where it has gotten "
 "them.\""
 msgstr ""
+"\"Я Кайс, смотритель городской свалки. Я пытался научить их хорошим манерам "
+"и доброте, но они отказались, и вот к чему это привело\"."
 
 #: 60257
 msgid "\"Get out of my way. I have business to attend to.\""
-msgstr ""
+msgstr "\"Прочь с дороги. Я занят\"."
 
 #: 60258
 msgid ""
@@ -72,11 +84,15 @@ msgid ""
 "you require resting, seek the old barracks or the distillery. Now take this, "
 "for it can aid you.\" He turns and flees into the chaos behind him."
 msgstr ""
+"\"Путник, тебе грозит беда! Город будет уничтожен, если не победить дэва! "
+"Если не вернуть город во Внешние земли, все пропало! Мы попадем в Карцери, "
+"откуда даже титаны неспособны сбежать! Если понадобится отдых - разыщи "
+"старые бараки или винокурню. А теперь возьми это - оно тебе пригодится\". Он "
+"разворачивается и исчезает в хаосе."
 
 #: 60259
-#, fuzzy
 msgid "\"That was odd.\""
-msgstr "\"Так это был ты?\""
+msgstr "\"Странно\"."
 
 #: 60260
 msgid ""
@@ -88,6 +104,13 @@ msgid ""
 "have work to attend to.  Should you require resting, seek the old barracks "
 "or the distillery. Now take this. It will aid you.\""
 msgstr ""
+"\"Дэва возник из-под земли и осудил беззаконие, поглотившее город. Когда "
+"здания вокруг начали рушиться, возникла паника. Затем мы начали двигаться. "
+"Есть только один способ бороться с Триасом - это ослабить его добрыми "
+"поступками, уводя горожан с пути зла и хаоса на путь добра. В ином случае, "
+"он точно победит, - он оглядывается. - Мне будет чем заняться. Если "
+"понадобится отдых - разыщи старые бараки или винокурню. А пока возьми это - "
+"тебе пригодится\"."
 
 #: 60261
 msgid "\"Good luck. Farewell.\""
@@ -95,31 +118,27 @@ msgstr "\"Удачи. Прощай\"."
 
 #: 60262
 msgid "\"You have my gratitude, stranger. What can I do for you?\""
-msgstr ""
+msgstr "\"Ты заслужил мою благодарность, приятель. Чем я могу тебе помочь?\""
 
 #: 60263 60274 60279
-#, fuzzy
 msgid "\"I require healing.\""
-msgstr "\"На, держи\"."
+msgstr "\"Мне необходимо лечение\"."
 
 #: 60264 60275 60280
-#, fuzzy
 msgid "\"What were those thugs after?\""
-msgstr "\"О чем это ты толкуешь?\""
+msgstr "\"За чем пришли те бандиты?\""
 
 #: 60265 60281
 msgid "\"Tell me of yourself.\""
 msgstr "\"Расскажи мне о себе\"."
 
 #: 60266 60270 60276
-#, fuzzy
 msgid "\"Tell me of Curst.\""
-msgstr "\"Доложи свою задачу\"."
+msgstr "\"Расскажи мне о Проклятом\"."
 
 #: 60267 60272
-#, fuzzy
 msgid "\"Tell me of this dump.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне об этой свалке\"."
 
 #: 60268
 msgid ""
@@ -128,14 +147,18 @@ msgid ""
 "are those of my faith, which sustains me in a town of deceit. I have tried "
 "to pass my wealth along but so few here wish to share it with me.\""
 msgstr ""
+"\"Этого я не знаю. Ходят слухи, что я сижу на горе золота, что я немеренно "
+"богат. Вот уж неправда: единственное мое богатство - это моя вера, которая "
+"поддерживает меня в этом лживом городе. Я пытался поделиться своим "
+"богатством, но мало кто хочет разделить его со мной\"."
 
 #: 60269
 msgid "\"Right. Tell me of yourself.\""
-msgstr ""
+msgstr "\"Ладно. Расскажи о себе\"."
 
 #: 60271
 msgid "\"I require some healing.\""
-msgstr ""
+msgstr "\"Мне бы подлечиться\"."
 
 #: 60273 60297
 msgid ""
@@ -143,11 +166,13 @@ msgid ""
 "metaphor I have seen a fair number of souls float this way as well. I am the "
 "voice that urges them to goodness - and I fear they ignore me.\""
 msgstr ""
+"\"Я Кайс, смотритель городской свалки. Я слежу за мусором, и, в переносном "
+"смысле, повидал немало душ, попавших сюда. Я - голос, побуждающий на добрые "
+"поступки, однако боюсь, что меня игнорируют\"."
 
 #: 60277 60282 60290 60296 60315
-#, fuzzy
 msgid "\"Tell me about this dump.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне об этой свалке\"."
 
 #: 60278 60303
 msgid ""
@@ -156,6 +181,10 @@ msgid ""
 "civility, but the venom scars those who breathe it in. This is a poisonous "
 "town, filled with poisonous people.\""
 msgstr ""
+"\"Этот город на грани катастрофы. Здесь творится все мыслимое зло, и все не "
+"такое, каким оно кажется. Все скрыто под видимостью любезностью, но яд "
+"отравляет тех, кто его вдыхает. Это ядовитый город, наполненный ядовитыми "
+"людьми\"."
 
 #: 60283
 msgid ""
@@ -163,6 +192,10 @@ msgid ""
 "in Curst. \"I owe you much. Should you ever require healing, come seek me. I "
 "will provide what assistance I can. Excuse me. I must go sit down.\""
 msgstr ""
+"\"Ты спас мне жизнь\". Похоже, Кайс отчасти изумлен тем, что это произошло в "
+"Проклятом. \"Я многим тебе обязан. Если тебе когда-нибудь понадобится "
+"лечение - найди меня. Я помогу всем, чем только смогу. Извини, я должен "
+"присесть\"."
 
 #: 60284
 msgid "\"Sure. Farewell.\""
@@ -176,6 +209,11 @@ msgid ""
 "\"Come to see Kyse? Heard stories of wisdom and righteousness? Examples to "
 "be set and lived by?\""
 msgstr ""
+"Перед тобой грязный старик, от которого несет отбросами. Почему-то он "
+"кажется более живым, по сравнению с другими жителями города, каким-то более "
+"энергичным, как будто он пришел сюда недавно. Когда ты подходишь, он смотрит "
+"на тебя и распрямляет спину. \"Пришел к Кайсу? Небось, наслушался сказок о "
+"моей мудрости и праведности? О моей примерной жизни?\""
 
 #: 60287 60293 60312
 msgid "\"What is this place?\""
@@ -187,18 +225,19 @@ msgstr "\"Что ты можешь сказать о Проклятом?\""
 
 #: 60289 60295 60314
 msgid "\"I heard that you're having trouble with a group of thugs.\""
-msgstr ""
+msgstr "\"Я слышал, у тебя есть проблемы с кучкой головорезов\"."
 
 #: 60291
 msgid ""
 "\"Have you come for enlightenment? Wisdom? For... oh, it's you.\" He seems "
 "vaguely disappointed."
 msgstr ""
+"\"Ты пришел за просвещением? За мудрым советом? За... а, это ты\". Кажется, "
+"он отчасти разочарован."
 
 #: 60298 60301 60304
-#, fuzzy
 msgid "\"I see. I had a few more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно. У меня еще несколько вопросов...\""
 
 #: 60299 60302 60305 60308 68149 68152
 msgid "\"Farewell.\""
@@ -210,6 +249,9 @@ msgid ""
 "through it. I keep it from spilling into the city, and in turn they bring me "
 "more.\""
 msgstr ""
+"\"Это городская свалка. Я присматриваю за ней, охочусь на вредителей, "
+"которые здесь рыщут. Не даю мусору разойтись по городу, а взамен мне "
+"приносят еще\"."
 
 #: 60306
 msgid ""
@@ -219,6 +261,11 @@ msgid ""
 "convince him of this. Please. He stands in Inner Curst, on the southern "
 "side, near the wagons.\""
 msgstr ""
+"\"Это все Вернет, главарь вшей, коллекционер грехов. Он говорит, что у меня "
+"есть монеты, и что я должен отдать их ему, но все мое богатство - в моем "
+"сердце и моей вере. Я говорил ему это. Боюсь, он не поверил. Пойди и "
+"переубеди его. Пожалуйста. Он находится в южной части Внутреннего "
+"Проклятого, возле повозок\"."
 
 #: 60307
 msgid "\"Sure. I had a few more questions...\""
@@ -231,11 +278,14 @@ msgid ""
 "to believe him. He says Wernet is in Inner Curst, on the southern side, near "
 "some wagons."
 msgstr ""
+"Кайс, смотритель свалки, попросил меня поговорить с головорезом по имени "
+"Вернет и убедить его, что у старика нет ничего ценного. Хотелось бы мне в "
+"это верить. Он говорит, что Вернет в южной части Внутреннего Проклятого, "
+"возле каких-то повозок."
 
 #: 60310
-#, fuzzy
 msgid "\"What do you need?\""
-msgstr "\"Что тебе надо?\""
+msgstr "\"Что тебе нужно?\""
 
 #: 68144
 msgid ""
@@ -246,11 +296,16 @@ msgid ""
 "rubble would collapse behind me. When I'm ready to die, I shall slide down "
 "there and let the monsters feast on my bones.\""
 msgstr ""
+"Он по-заговорчески наклоняется к тебе. \"У меня тут есть секретный проход "
+"под землю. Это тайное место, о котором почти никому неизвестно. Это ход в "
+"городские подземелья... - он делает паузу. - Но я им ни разу не пользовался. "
+"Если мне придется туда идти, я, пожалуй, не смогу вернуться назад. Спуск "
+"скользкий, и камни могут обвалиться за моей спиной. Когда я буду готов к "
+"смерти, я скачусь туда и позволю чудовищам попировать моими косточками\"."
 
 #: 68145
-#, fuzzy
 msgid "\"I had a few more questions...\""
-msgstr "\"Спасибо. У меня несколько вопросов...\""
+msgstr "\"У меня еще несколько вопросов...\""
 
 #: 68146 68151 68153
 msgid "\"I see. Farewell.\""
@@ -262,6 +317,9 @@ msgid ""
 "of Curst. He also says that once I pass that way, there's a good chance I "
 "would never be able to return the way I came. I'll keep this in mind."
 msgstr ""
+"Смотритель свалки рассказал мне о секретном проходе в подземелья Сигила. Еще "
+"он добавил, что когда я пройду через него, вполне вероятно, что я никогда не "
+"смогу вернуться тем же путем. Надо это запомнить."
 
 #: 68148 68154
 msgid "\"Nothing. Farewell.\""
