@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: dgib.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-09-04 18:05+0600\n"
+"PO-Revision-Date: 2013-03-20 23:25+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,13 +11,16 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.5\n"
+"Language: ru\n"
 
 #: 58400
 msgid ""
 "You see an older man wearing shoddy clothes. He watches your approach with a "
 "bored expression."
 msgstr ""
+"Перед тобой старик, одетый в дрянную одежду. Он следит за твоим приближением "
+"скучающим взглядом."
 
 #: 58402
 msgid "\"Greetings.\""
@@ -32,6 +35,8 @@ msgid ""
 "He continues to gaze at you with a bored look. Finally he nods. \"Hello, "
 "cutter. Why are you rattling your bone box at me?\""
 msgstr ""
+"Он продолжает смотреть на тебя скучающим взглядом. В конце концов он кивает. "
+"\"Привет, рубака. Почему ты трясешь черепушкой со мной?\""
 
 #: 58407 58437 58442 58447 58460 58467 58471 58477 58484 58490
 msgid "\"I have some questions...\""
@@ -39,7 +44,7 @@ msgstr "\"У меня есть некоторые вопросы...\" "
 
 #: 58412
 msgid "\"No reason, farewell.\""
-msgstr ""
+msgstr "\"Просто так. Прощай\"."
 
 #: 58414
 msgid ""
@@ -47,27 +52,34 @@ msgid ""
 "stealing what ain't rightfully mine, not for answering damn fool questions..."
 "\" He glares at you. \"Go away.\""
 msgstr ""
+"Медленно кивая, он отводит взгляд. \"Ну... Я в этой навозной яме оказался "
+"из-за воровства чужого, а не за отвечание на тупые вопросы... - он смотрит на "
+"тебя. - Валяй отсюда\"."
 
 #: 58416
 msgid ""
 "\"Life here must be hard. It would be even harder for you as a cripple.\""
 msgstr ""
+"\"Должно быть, здешняя жизнь тяжела. Но она может стать еще тяжелее, если ты "
+"- калека\"."
 
 #: 58417
 msgid "\"I guess I'll be going then. Farewell.\""
-msgstr ""
+msgstr "\"Похоже, мне пора идти. Прощай\"."
 
 #: 58419
 msgid ""
 "He frowns as he considers your words. You see his eyes travel along several "
 "of your scars and then meet your gaze. \"You threatening me, berk?\""
 msgstr ""
+"Он хмуро обдумывает твои слова. Ты видишь, как он пробегает взглядом по твоим "
+"шрамам, после чего смотрит тебе в глаза. \"Ты мне угрожаешь, пень?\""
 
 #: 58421
 msgid ""
 "\"Yes. Answer some questions or I'll start removing parts of you a piece at "
 "a time.\""
-msgstr ""
+msgstr "\"Да. Ответь на мои вопросы, или я начну отрывать от тебя куски\"."
 
 #: 58422
 msgid "\"No, farewell.\""
@@ -75,7 +87,7 @@ msgstr "\"Нет, прощай\"."
 
 #: 58424
 msgid "He nods slowly. \"What questions?\""
-msgstr ""
+msgstr "Он медленно кивает. \"Что за вопросы?\""
 
 #: 58426
 msgid "\"Who are you?\""
@@ -86,9 +98,8 @@ msgid "\"What can you tell me about this place?\""
 msgstr "\"Что ты можешь рассказать об этом месте?\""
 
 #: 58430
-#, fuzzy
 msgid "\"I'm looking for a deva, I understand he's here.\""
-msgstr "\"Я рад, что мы поняли друг друга\"."
+msgstr "\"Я ищу одного дэва. Насколько я знаю, он здесь\"."
 
 #: 58432 58438 58444 58452 58462 58468 58473 58479 58485 58492
 msgid "\"Farewell.\""
@@ -96,12 +107,11 @@ msgstr "\"Прощай\"."
 
 #: 58433
 msgid "He hesitates. \"Gib... the name's Gib.\""
-msgstr ""
+msgstr "Он колеблется. \"Гиб... зовут Гиб\"."
 
 #: 58435
-#, fuzzy
 msgid "\"Why are you here?\""
-msgstr "\"Кого ты хочешь увидеть?\""
+msgstr "\"Как ты сюда попал?\""
 
 #: 58440
 msgid ""
@@ -109,15 +119,17 @@ msgid ""
 "caught.\" He smiles. \"If you're going to force me to answer questions the "
 "least you can do is make them somewhat intelligent.\""
 msgstr ""
+"\"Ты меня не слушал? Я же сказал, что был вором. А здесь я потому что "
+"попался, - улыбается он. - Если ты хочешь заставить отвечать на вопросы, то "
+"хоть задавай по крайней мере поумнее\"."
 
 #: 58441
 msgid "\"Smarting off to me isn't all that brilliant either...\""
-msgstr ""
+msgstr "\"Выпендриваться передо мной - тоже не блестящая идея...\""
 
 #: 58446
-#, fuzzy
 msgid "He shrugs."
-msgstr "Головорез из Улья"
+msgstr "Он пожимает плечами."
 
 #: 58449
 msgid "\"Never mind, farewell.\""
@@ -131,26 +143,30 @@ msgid ""
 "are. The inner ring is for the more dangerous criminals, murderers, "
 "conspirators, enemies of the government, and such.\""
 msgstr ""
+"\"Тюрьма разделена на три кольца - внешнее, центральное и внутреннее. Внешнее "
+"кольцо - для мелких преступников, типа воришек. Центральное кольцо - для "
+"более матерых уголовников, типа разбойников. Внутреннее кольцо - для самых "
+"опасных отморозков, типа убийц, заговорщиков и врагов правительства\"."
 
 #: 58451
-#, fuzzy
 msgid "\"I see. I have some questions...\""
-msgstr "\"Понятно. У меня были вопросы...\""
+msgstr "\"Понятно. У меня еще есть вопросы...\""
 
 #: 58454
 msgid ""
 "He gives you a concerned look. \"That deva... yes, he's down here. You might "
 "want to reconsider finding him though.\""
 msgstr ""
+"Он озабоченно смотрит на тебя. \"Этот дэва... да, он здесь, внизу. Вот только "
+"не стоит тебе искать его\"."
 
 #: 58456
 msgid "\"Because of the plague?\""
-msgstr ""
+msgstr "\"Из-за чумы?\""
 
 #: 58458
-#, fuzzy
 msgid "\"Why is that?\""
-msgstr "\"Что-что?\""
+msgstr "\"Почему?\""
 
 #: 58464
 msgid ""
@@ -158,16 +174,20 @@ msgid ""
 "hard, most who got it ended up in the dead-book.\" He frowns at you. "
 "\"Anyone who knows you've been to see him won't go near you...\""
 msgstr ""
+"Он кивает. \"Так ты знаешь... да, из-за чумы. Она крепко за нас взялась, "
+"очень много кого в книгу мертвых записали, - он хмурится. - Если кто узнает, "
+"что ты пришел увидеть его, с тобой рядом не захочет оказаться...\""
 
 #: 58466
-#, fuzzy
 msgid "\"Where is he?\""
-msgstr "\"Где она?\""
+msgstr "\"Где он?\""
 
 #: 58470
 msgid ""
 "\"Off that way...\" He gestures vaguely. \"You'll run into him eventually.\""
 msgstr ""
+"\"Вон там... - он неопределенно взмахивает рукой. - Ты все равно рано или "
+"поздно на него наткнешься\"."
 
 #: 58474
 msgid ""
@@ -175,10 +195,13 @@ msgid ""
 "reaction then shrugs. \"I don't know that he is, myself, but the plague did "
 "start right when he showed up.\""
 msgstr ""
+"\"Поговаривают, что он переносчик чумы, - не дождавшись от тебя реакции, он "
+"пожимает плечами. - Не знаю, так ли это, но чума началась сразу же после "
+"того, как он объявился\"."
 
 #: 58476
 msgid "\"Tell me about this plague.\""
-msgstr ""
+msgstr "\"Расскажи мне о чуме\"."
 
 #: 58481
 msgid ""
@@ -186,6 +209,9 @@ msgid ""
 "frowns at you. \"Anyone who knows you've been to see the deva won't go near "
 "you...\""
 msgstr ""
+"\"Она крепко за нас взялась, очень много кого в книгу мертвых записали, - он "
+"хмурится. - Если кто узнает, что ты пришел увидеть дэва, с тобой рядом не "
+"захочет оказаться...\""
 
 #: 58483
 msgid "\"Where can I find him?\""
@@ -195,3 +221,6 @@ msgstr "\"Где я могу найти его?\""
 msgid ""
 "You see Gib, the thief. He frowns at your approach. \"Back again... great.\""
 msgstr ""
+"Перед тобой вор Гиб. Он хмурится при твоем приближении. \"Снова вернулся... "
+"Отлично\"."
+
