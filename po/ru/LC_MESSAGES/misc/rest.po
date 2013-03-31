@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2012-10-02 17:58+0600\n"
+"PO-Revision-Date: 2013-03-20 23:33+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Lokalize 1.5\n"
 "Language: ru\n"
 
 #: 30 1773
@@ -1782,7 +1782,6 @@ msgid "Damage"
 msgstr "Урон"
 
 #: 4231
-#, fuzzy
 msgid "Open Doors"
 msgstr "Открывание дверей"
 
@@ -2164,7 +2163,7 @@ msgstr ""
 
 #: 6323
 msgid "Back to the Lower Ward."
-msgstr ""
+msgstr "Назад в Нижний район."
 
 #: 6475
 msgid "Kel'lera bows."
@@ -2191,7 +2190,7 @@ msgstr "\"А хочешь?\""
 
 #: 7094
 msgid "\"Hey, Morte. Come here for a minute.\""
-msgstr ""
+msgstr "\"Эй, Морт. Подойди-ка сюда на минутку\"."
 
 #: 7171
 msgid ""
@@ -10372,23 +10371,23 @@ msgstr "Меч Винн"
 
 #: 50453
 msgid "Yelaan"
-msgstr ""
+msgstr "Елаан"
 
 #: 50455
 msgid "Gib"
-msgstr ""
+msgstr "Гиб"
 
 #: 50457
 msgid "An'izius\n"
-msgstr ""
+msgstr "Анизиус\n"
 
 #: 50458
 msgid "Siabha"
-msgstr ""
+msgstr "Сиабха"
 
 #: 50460
 msgid "An'Izius"
-msgstr ""
+msgstr "Анизиус"
 
 #: 50461
 msgid "Quicksave Succeeded"
@@ -10424,7 +10423,7 @@ msgstr "Инвентарь полон"
 
 #: 50548
 msgid "Fin Andlye's Notes"
-msgstr ""
+msgstr "Заметки Фина Эндли"
 
 #: 50569
 msgid "Cannot move item"
@@ -10436,7 +10435,7 @@ msgstr "Клинок Бессмертного"
 
 #: 50784
 msgid "\"Some more wine, if you would...\""
-msgstr ""
+msgstr "\"Еще вина, если не возражаешь...\""
 
 #: 50811
 msgid "Box"
@@ -10896,6 +10895,9 @@ msgid ""
 "\n"
 "This spell heals 1 to 8 hit points."
 msgstr ""
+"Исцеление легких ран\n"
+"\n"
+"Это заклинание излечивает от 1 до 8 очков жизни."
 
 #: 52586
 msgid "\"Dead Dabus\""
@@ -10911,6 +10913,9 @@ msgid ""
 "\n"
 "This spell heals 2 to 11 hit points."
 msgstr ""
+"Исцеление средних ран\n"
+"\n"
+"Это заклинание излечивает от 2 до 11 очков жизни."
 
 #: 52727
 msgid ""
@@ -10925,6 +10930,9 @@ msgid ""
 "\n"
 "This spell heals 3 to 17 hit points."
 msgstr ""
+"Исцеление серьезных ран\n"
+"\n"
+"Это заклинание излечивает от 3 до 17 очков жизни."
 
 #: 52729
 msgid ""
@@ -10932,6 +10940,9 @@ msgid ""
 "\n"
 "This spell heals 6 to 27 hit points."
 msgstr ""
+"Исцеление критических ран\n"
+"\n"
+"Это заклинание излечивает от 6 до 27 очков жизни."
 
 #: 52730
 msgid ""
@@ -10988,15 +10999,15 @@ msgstr "\"Прощай, Хамрис.\""
 
 #: 52775
 msgid "This is a test node."
-msgstr ""
+msgstr "Этот тестовое сообщение."
 
 #: 52776
 msgid "This is actually reply 1"
-msgstr ""
+msgstr "Это ответ 1"
 
 #: 52777
 msgid "This is node 2, linked from node 1"
-msgstr ""
+msgstr "Это сообщение 2, связанное из сообщения 1"
 
 #: 52819
 msgid ""
@@ -11009,6 +11020,13 @@ msgid ""
 "The sword looks several millennia old. A faint hum can be felt within it, "
 "and the vibration becomes stronger when it touches human flesh.\n"
 msgstr ""
+"Этот тяжелый клинок на ощупь теплый, а на его поверхности выгравированы "
+"языки пламени. Сложность гравировки поражает; она сделана так, что кажется, "
+"будто меч пылает металлическим пламенем... кому-то понадобилось несколько "
+"столетий, чтобы создать такую резьбу.\n"
+"\n"
+"Мечу на вид несколько тысячелетий. От него исходит легкий гул, который "
+"усиливается, когда он соприкасается с человеческой плотью.\n"
 
 #: 52827
 msgid ""
@@ -11281,7 +11299,7 @@ msgstr ""
 
 #: 56496
 msgid "Find a way to erase Merriman's memory."
-msgstr ""
+msgstr "Найти способ стереть память Весельчаку."
 
 #: 56497
 msgid ""
@@ -11302,11 +11320,11 @@ msgstr ""
 
 #: 56499
 msgid "Return to Dolora the 'keys to her heart.'"
-msgstr ""
+msgstr "Вернуть Долоре \"ключи от ее сердца\"."
 
 #: 56500
 msgid "Help Ecco regain the ability to speak."
-msgstr ""
+msgstr "Помочь Экко вернуть возможность разговаривать."
 
 #: 56501
 msgid ""
@@ -11970,7 +11988,7 @@ msgstr "Невозможно удалить дневник"
 
 #: 59153
 msgid "Cannot remove default bolts"
-msgstr ""
+msgstr "Невозможно удалить стрелы по умолчанию"
 
 #: 59154
 msgid "Cannot remove eye"
@@ -12062,7 +12080,7 @@ msgstr "Зубы удалены"
 
 #: 59790
 msgid "Mausoleum Inner Chamber."
-msgstr ""
+msgstr "Внутренние покои Мавзолея."
 
 #: 59791
 msgid "Back to the Mausoleum."
@@ -12106,7 +12124,7 @@ msgstr "К юго-западной части Улья."
 
 #: 59802
 msgid "Painted Door to Tenement of Thugs."
-msgstr ""
+msgstr "Нарисованная дверь к Пристанищу Головорезов."
 
 #: 59803
 msgid "Smoldering Corpse Bar."
@@ -12427,7 +12445,7 @@ msgstr ""
 msgid ""
 "I found Soego in the catacombs of the Dead Nations, and returned to Emoric "
 "to tell him of it."
-msgstr ""
+msgstr "Я нашел Соэго в катакомбах Мертвых Народов, о чем сообщил Эморику."
 
 #: 59887
 msgid "Remove Reekwind's \"curse of stench.\""
@@ -12547,15 +12565,16 @@ msgstr "На теле Мантуока я обнаружил странную к
 
 #: 60567
 msgid "Sell a companion into slavery."
-msgstr ""
+msgstr "Продать спутника в рабство."
 
 #: 60568
 msgid "Kill a companion for an additional power."
-msgstr ""
+msgstr "Убить спутника ради дополнительной силы."
 
 #: 60569
 msgid "Warn the githzerai about the githyanki raid on their fortress."
 msgstr ""
+"Предупредить гитцераев о готовящемся нападении гитьянки на их крепость."
 
 #: 60570
 msgid "Take a handbill to Scofflaw Penn at Print Shop to be printed."
@@ -12979,7 +12998,7 @@ msgstr ""
 
 #: 60793
 msgid "Kill the gehreleth for Voorsha."
-msgstr ""
+msgstr "Убить гехрелета для Вурши."
 
 #: 60794
 msgid ""
@@ -13009,7 +13028,7 @@ msgstr ""
 
 #: 60798
 msgid "Return Mertwyn's head to his body."
-msgstr ""
+msgstr "Вернуть голову Мертвина его телу."
 
 #: 60799
 msgid ""
@@ -13019,7 +13038,7 @@ msgstr ""
 
 #: 60800
 msgid "Speak to the ten students in the Brothel."
-msgstr ""
+msgstr "Переговорить с десятью студентами в Борделе."
 
 #: 60801
 msgid ""
@@ -13369,7 +13388,7 @@ msgstr "Склад."
 
 #: 62404
 msgid "To Outer Curst."
-msgstr ""
+msgstr "Во Внешний Проклятый."
 
 #: 62405
 msgid "The Dump."
@@ -13381,7 +13400,7 @@ msgstr "Зернохранилище."
 
 #: 62408
 msgid "To Inner Curst."
-msgstr ""
+msgstr "Во Внутренний Проклятый."
 
 #: 62411
 msgid "Examine the sphere."
@@ -13484,7 +13503,7 @@ msgstr "Орудие Механуса"
 
 #: 63692
 msgid "Mertwyn's Head"
-msgstr ""
+msgstr "Голова Мертвина"
 
 #: 64011
 msgid "Fjhull Battle Cry 2"
@@ -13895,7 +13914,7 @@ msgstr ""
 
 #: 66292
 msgid "Strength decreased permanently"
-msgstr ""
+msgstr "Уменьшилась Сила"
 
 #: 66310
 msgid "Glyve, the face in stone."
@@ -14179,6 +14198,9 @@ msgid ""
 "Giltspur the auctioneer has asked me to deliver a message to Keldor of "
 "Durian at the Great Foundry, in exchange for one hundred coins."
 msgstr ""
+"Аукционист Гилтспур попросил меня доставить послание Кельдору Дурианскому из "
+"Великой Литейной в "
+"обмен на сотню монет."
 
 #: 67295
 msgid "A location vital to your quest has been cut off to you."
@@ -14186,7 +14208,7 @@ msgstr ""
 
 #: 67593
 msgid "\"PLEASE DO NOT ATTACK THE HEAD!\""
-msgstr "\"ПОЖАЛУЙСТА, НЕ БЕЙ В ГОЛОВУ!\""
+msgstr "\"ПОЖАЛУЙСТА, НЕ БЕЙ ПО ГОЛОВЕ!\""
 
 #: 67733
 msgid ""
@@ -14198,18 +14220,25 @@ msgid ""
 "if common Hivers don't seem to have anything of value, I could always stop "
 "by a shop and pick and choose from the inventory... "
 msgstr ""
+"Анна рассказала мне кое-что о карманном воровстве. Она сказала, что некоторых "
+"людей обокрасть сложнее, чем других. Обычные жители города - это одно дело, а "
+"вот воровство у торговцев или стражников - совершенно другое. Анна сказала, "
+"что обчистить карманы у кучи народа, может набраться кругленькая сумма. Еще "
+"она сказала, что также можно воровать и в магазинах, так что, если у обычных "
+"жителей Улья не найдется ничего ценного, всегда можно заглянуть в "
+"какой-нибудь магазинчик выбрать что-нибудь подходящее из товаров..."
 
 #: 67792
 msgid "Back to the Dead Nations."
-msgstr ""
+msgstr "Назад к Мертвым Народам."
 
 #: 67793
 msgid "The throne of the Silent King."
-msgstr ""
+msgstr "Трон Безмолвного Короля."
 
 #: 67812
 msgid "I exposed Soego as a cranium rat spy to Hargrimm."
-msgstr ""
+msgstr "Я выдал Харгримму то, что Соэго является шпионом черепных крыс."
 
 #: 67813
 msgid "Give Hargrimm a reason to remove Soego from the Dead Nations."
@@ -14221,7 +14250,7 @@ msgstr ""
 
 #: 67894
 msgid "Finam the Linguist's Home."
-msgstr ""
+msgstr "Дом лингвиста Финама."
 
 #: 67900
 msgid "The Barracks"
@@ -14229,7 +14258,7 @@ msgstr "Бараки"
 
 #: 67901
 msgid "The Distiller"
-msgstr ""
+msgstr "Винокур"
 
 #: 67902
 msgid "Curst Administration "
@@ -14241,7 +14270,7 @@ msgstr "Врата в Карцери"
 
 #: 67904
 msgid "The Blacksmith "
-msgstr ""
+msgstr "Кузница"
 
 #: 67995
 msgid ""

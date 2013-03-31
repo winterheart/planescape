@@ -1,20 +1,22 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2010-03-10 22:49+0200\n"
-"Last-Translator: tob1az <tob1az@email.ru>\n"
+"PO-Revision-Date: 2013-03-03 21:12+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
+"Language: ru\n"
 
 #: 4825 9216
 msgid "Pole Arm"
-msgstr "Поллэкс"
+msgstr "Полэкс"
 
 #: 6159
 msgid ""
@@ -27,12 +29,13 @@ msgid ""
 "\n"
 "A generic pole arm for character models so armed to be equipped with."
 msgstr ""
-"ПОЛЛЭКС\n"
+"ПОЛЭКС\n"
 "Урон: 1-10 рубящий\n"
 "Вес: 15\n"
 "Скорость: 9\n"
 "Специализация: клинковые\n"
 "Используется только бойцами\n"
 "\n"
-"Характерный поллэкс для персонажей с соответствующим снаряжением."
+"Характерный полэкс для персонажей с соответствующим снаряжением."
+
 
