@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dz613.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-03-08 19:58+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2013-03-24 20:22+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: 6540
 msgid ""
@@ -19,9 +19,9 @@ msgid ""
 "an inch of shredded, leathery skin separates the \"1\" and the \"3.\" "
 "Looking closely, you can barely make out a \"2\" carved there."
 msgstr ""
-"Номер \"613\" был глубоко врезан в лоб этого мертвого работяги, но в коже "
-"между \"1\" и \"3\" виден большой пробел шириной с палец. Приглядевшись, ты "
-"понимаешь, на этом месте вырезана цифра \"2\"."
+"На лбу этого мертвого работяги при помощи глубоких порезов нанесены цифры "
+"\"613\", но на коже между \"1\" и \"3\" виден большой пробел шириной с "
+"палец. Приглядевшись, ты с трудом различаешь вырезанную \"2\"."
 
 #: 6541
 msgid "The corpse continues to stare at you."
@@ -32,7 +32,8 @@ msgid ""
 "The corpse makes no reply. It looks like it is too far gone to answer any of "
 "your questions."
 msgstr ""
-"Труп не шевелится. Кажется, он далек от того, чтобы отвечать на твои вопросы."
+"Труп не реагирует. Кажется, он слишком далек от того, чтобы отвечать на твои "
+"вопросы."
 
 #: 6543 6544
 msgid "\"So... seen anything interesting going on?\""
@@ -44,11 +45,11 @@ msgstr "\"Знаешь, мне известно, что ты не зомби. Т
 
 #: 6546
 msgid "Use your Stories-Bones-Tell ability on the corpse."
-msgstr "Использовать на скелете свою способность \"История костей\"."
+msgstr "Использовать на трупе свою способность \"История костей\"."
 
 #: 6547
 msgid "\"It was great talking to you. Farewell.\""
-msgstr "\"Было приятно поболтать с тобой. Прощай\"."
+msgstr "\"Было приятно с тобой поболтать. Прощай\"."
 
 #: 6548 6549 6550
 msgid "Leave the corpse in peace."
