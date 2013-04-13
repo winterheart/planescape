@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dvhail.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-01-03 22:15+0600\n"
+"PO-Revision-Date: 2013-04-13 21:20+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -114,20 +114,19 @@ msgstr ""
 
 #: 34000 34001
 msgid "\"Vhailor, I need your aid. Will you travel with me?\""
-msgstr ""
+msgstr "\"Вейлор, мне нужна твоя помощь. Ты пойдешь со мной?\""
 
 #: 34002
 msgid "*I WILL.*"
-msgstr ""
+msgstr "*Я ПОЙДУ*"
 
 #: 34003
-#, fuzzy
 msgid "\"Let's go, then.\""
-msgstr "\"Вперед\"."
+msgstr "\"Тогда вперед\"."
 
 #: 34005
 msgid "\"I wanted to ask you some questions, Vhailor...\""
-msgstr ""
+msgstr "\"Я хотел задать тебе несколько вопросов, Вейлор...\""
 
 #: 54088
 msgid ""
@@ -144,7 +143,7 @@ msgstr ""
 "топор, через него начинает течь чистая *энергия*... его преданность, его "
 "невероятная убежденность превращает его буквально в физическое воплощение "
 "правосудия. *Сама СУДЬБА поставила меня так близко к тебе, ПРЕСТУПНИК. "
-"Должно свершиться ПРАВОСУДИЕ. Ты ПАДЕШЬ под моим клинком, бессмертный, даже "
+"Да свершится ПРАВОСУДИЕ. Ты ПАДЕШЬ под моим клинком, бессмертный, даже "
 "если мне придется стоять над твоими сопротивляющимися останками целую "
 "ВЕЧНОСТЬ*."
 
@@ -253,9 +252,8 @@ msgid ""
 msgstr ""
 
 #: 56055 56061 56068 56074 56609
-#, fuzzy
 msgid "\"Vhailor...?\""
-msgstr "\"Вейлор\"."
+msgstr "\"Вейлор?..\""
 
 #: 56056 56069 56075 56082 56088
 msgid "Examine the armor. "
@@ -301,9 +299,8 @@ msgid ""
 msgstr ""
 
 #: 56071
-#, fuzzy
 msgid "Take the axe."
-msgstr "Взять страницу."
+msgstr "Взять топор."
 
 #: 56073
 msgid ""
@@ -395,7 +392,7 @@ msgstr ""
 #: 56099 56100 56101 56102
 #, fuzzy
 msgid "*\"What* are you?\""
-msgstr "\"Кто ты такой?\""
+msgstr "\"Что ты такое?\""
 
 #: 56103 56104 56105 56106
 msgid "*I am a MERCYKILLER.* "
@@ -426,14 +423,16 @@ msgid ""
 "*Mercykillers serve JUSTICE. Justice PURGES evil. When ALL have been "
 "cleansed, the multiverse achieves PERFECTION.*"
 msgstr ""
+"*Убийцы милосердия служат СПРАВЕДЛИВОСТИ. Справедливость ОЧИЩАЕТ зло. Когда "
+"ВСЕ будет очищено, мультивселенная достигнет СОВЕРШЕНСТВА.*"
 
 #: 56115
 msgid "\"Why are you called 'Mercykillers?'\""
-msgstr ""
+msgstr "\"Почему вас зовут 'убийцами милосердия'?\""
 
 #: 56116
 msgid "\"How do you serve justice?\""
-msgstr ""
+msgstr "\"Как вы служите справедливости?\""
 
 #: 56117
 #, fuzzy
@@ -454,11 +453,11 @@ msgstr "\"Неважно. У меня есть другие вопросы...\""
 
 #: 56120
 msgid "*ASK. I shall ANSWER.*"
-msgstr ""
+msgstr "*СПРАШИВАЙ. Я ОТВЕЧУ.*"
 
 #: 56121
 msgid "\"What are Mercykillers?\""
-msgstr ""
+msgstr "\"Кто такие убийцы милосердия?\""
 
 #: 56122
 msgid "\"You say you serve justice, Vhailor. How?\""
@@ -473,9 +472,8 @@ msgid "\"How long were you imprisoned beneath Curst?\""
 msgstr ""
 
 #: 56125
-#, fuzzy
 msgid "\"How did you die?\""
-msgstr "\"О чем это ты?\""
+msgstr "\"Как ты умер?\""
 
 #: 56126
 msgid "\"You say you can see the hearts of others, Vhailor. How?\""
@@ -507,29 +505,38 @@ msgid ""
 "ONE is innocent. Mercykillers slay mercy and its WHORES wherever their "
 "plague has carried them.*"
 msgstr ""
+"*Милосердие - это спасение для СЛАБЫХ. Милосердие - это СЛАБОСТЬ. Милосердие "
+"- это СМЕРТЬ. НИКТО не чист. Убийцы милосердия убивают милосердие и его "
+"ПРИСЛУЖНИКОВ всюду, где они разносят свою чуму.*"
 
 #: 56136
 msgid ""
 "Truth: \"I see I have found one who believes as *I* do. Mercy subverts "
 "justice. Mercy *is* weakness.\""
 msgstr ""
+"Правда: \"Вижу, что я нашел *единоверца*. Милосердие извращает "
+"справедливость. Милосердие - *это* слабость\"."
 
 #: 56137
 msgid ""
 "Lie: \"I see I have found one who believes as *I* do. Mercy subverts "
 "justice. Mercy *is* weakness.\""
 msgstr ""
+"Ложь: \"Вижу, что я нашел *единоверца*. Милосердие извращает справедливость. "
+"Милосердие - *это* слабость\"."
 
 #: 56138
 msgid ""
 "Truth: \"I disagree. Mercy is strength - and there are times when even "
 "justice can be unjust, especially when carried to the extreme.\""
 msgstr ""
+"Правда: \"Я не согласен. Милосердие - это сила. Случается, когда даже "
+"справедливость может быть несправедливой, особенно когда применяется сверх "
+"меры\"."
 
 #: 56139 56143
-#, fuzzy
 msgid "\"I see. I had other questions for you...\""
-msgstr "\"Понятно. У меня есть другой вопрос к тебе...\""
+msgstr "\"Понятно. У меня есть другие вопросы к тебе...\""
 
 #: 56140 56144 56150 56155 56160 56165 56170 56175 56180 56186 56197 56202
 #: 56207 56213 56224 56232 56237 56242 56247 56286 56292 56297 56303 56307
@@ -698,7 +705,7 @@ msgstr ""
 #: 56199
 #, fuzzy
 msgid "*YES.*"
-msgstr "\"Да...\""
+msgstr "\"Да.\""
 
 #: 56200
 msgid ""
@@ -805,8 +812,9 @@ msgid "\"Vhailor? Do you recall how they imprisoned you?\""
 msgstr ""
 
 #: 56249
+#, fuzzy
 msgid "*I do not KNOW.*"
-msgstr ""
+msgstr "\"Я не знаю\"."
 
 #: 56252
 msgid "\"Never mind then, Vhailor. Let's continue on.\""
@@ -842,7 +850,7 @@ msgstr ""
 
 #: 56262 56283 56327 56330
 msgid "Vhailor's ember eyes fall upon you. There is a heavy silence."
-msgstr ""
+msgstr "Мерцающие глаза Вейлора смотрят на тебя в тяжелой тишине."
 
 #: 56263
 msgid ""
@@ -893,9 +901,8 @@ msgid "You gaze at Vhailor's eyes, the twin fires suddenly FLARE..."
 msgstr ""
 
 #: 56272 56273 56274
-#, fuzzy
 msgid "\"Wh...\""
-msgstr "\"Я...\""
+msgstr "\"Чт...\""
 
 #: 56275
 msgid ""
@@ -1055,41 +1062,49 @@ msgid ""
 "*I will JOIN you. We shall seek JUSTICE together. Where MERCY hides, we "
 "shall SLAY it.*"
 msgstr ""
+"*Я ПРИСОЕДИНЮСЬ к тебе. Мы будем искать СПРАВЕДЛИВОСТЬ вместе. Где бы ни "
+"пряталось МИЛОСЕРДИЕ, мы УБЬЕМ его.*"
 
 #: 56329 56332
-#, fuzzy
 msgid "\"Very well.\""
-msgstr "\"Ух, прощай...\""
+msgstr "\"Очень хорошо\"."
 
 #: 56331
 msgid ""
 "*I will JOIN you. Your WILL is an INCONSTANT thing, but I shall TEACH you of "
 "JUSTICE. I shall TEACH you of the SLAYING of MERCY.*"
 msgstr ""
+"*Я ПРИСОЕДИНЮСЬ к тебе. Твоя ВОЛЯ непостоянна, но я ОБУЧУ тебя "
+"СПРАВЕДЛИВОСТИ. Я ОБУЧУ тебя УБИЙСТВУ МИЛОСЕРДИЯ.*"
 
 #: 56333
 msgid "*Does your heart seek JUSTICE? Or is your JOURNEY without PURPOSE?*"
-msgstr ""
+msgstr "*Жаждет ли твое сердце СПРАВЕДЛИВОСТИ? Или твой ПУТЬ не имеет ЦЕЛИ?*"
 
 #: 56334 56335
 msgid "Truth: \"I seek justice, Vhailor. Will you join me?\""
-msgstr ""
+msgstr "Правда: \"Я ищу справедливость, Вейлор. Ты присоединишься ко мне?\""
 
 #: 56336 56337
 msgid "Lie: \"I seek justice, Vhailor. Will you join me?\""
-msgstr ""
+msgstr "Ложь: \"Я ищу справедливость, Вейлор. Ты присоединишься ко мне?\""
 
 #: 56338
 msgid ""
 "*JUSTICE uses Mercykillers as her EYES. JUSTICE uses Mercykillers to "
 "dispense her WILL. When SENTENCE is passed, she LENDS us her STRENGTH.*"
 msgstr ""
+"*СПРАВЕДЛИВОСТЬ использует убийц милосердия вместо ГЛАЗ. СПРАВЕДЛИВОСТЬ "
+"использует убийц милосердия для осуществления свой ВОЛИ. Когда ПРИГОВОР "
+"оглашен, она дарит нам свою СИЛУ.*"
 
 #: 56339 56340
 msgid ""
 "\"I seek knowledge of myself, Vhailor, and if there is justice in the "
 "knowing of it, then I shall find that as well.\""
 msgstr ""
+"\"Я ищу знания о себе, Вейлор, и если в этих знаниях заключается "
+"справедливость, я разыщу и ее\"."
 
 #: 56341
 msgid "*The STRENGTH of JUSTICE depends on the harm the INJUSTICE has caused.*"
@@ -1103,7 +1118,7 @@ msgstr ""
 
 #: 56343 56347 56358
 msgid "\"And how do you know *when* to dispense justice?\""
-msgstr ""
+msgstr "\"А как ты узнаешь, *когда* следует осуществить справедливость?\""
 
 #: 56348
 msgid "\"Strength? How?\""
@@ -1155,75 +1170,75 @@ msgid ""
 "of WEAKNESS, the FRAILTIES, the wounds of MERCY upon the HEART. In SEEING, I "
 "KNOW the guilty. I KNOW their FEAR.*"
 msgstr ""
+"*СПРАВЕДЛИВОСТЬ видит моими глазами. ГЛАЗА УБИЙЦЫ МИЛОСЕРДИЯ могут видеть "
+"ТРЕЩИНЫ СЛАБОСТИ, НЕДОСТАТКИ, раны МИЛОСЕРДИЯ в СЕРДЦАХ. СМОТРЯ, я ЗНАЮ их "
+"вину. Я ЗНАЮ их страх.*"
 
 #: 56363
 msgid "\"What do you see when you look at another?\""
-msgstr ""
+msgstr "\"Что ты видишь, когда смотришь на других?\""
 
 #: 56364
 msgid "\"When you said justice lends you its 'strength,' what did you mean?\""
 msgstr ""
+"\"Когда ты сказал, что справедливость дарит вам свою 'силу', что ты имел в "
+"виду?\""
 
 #: 56368
 msgid ""
 "*All I see is JUDGED. I may look at the heart and mind of another and KNOW "
 "them. The eye of JUSTICE sees through ME.*"
 msgstr ""
+"*Все, что я вижу, имеет ПРИГОВОР. Я могу видеть сердце и разум других и ЗНАТЬ "
+"их. Взгляд СПРАВЕДЛИВОСТИ смотрит сквозь МЕНЯ.*"
 
 #: 56369 56383
-#, fuzzy
 msgid "\"What do you see when you look at Morte?\""
-msgstr "\"Что есть в вашем хранилище?\""
+msgstr "\"Что ты видишь, когда ты смотришь на Морта?\""
 
 #: 56370 56384
-#, fuzzy
 msgid "\"What do you see when you look at Annah?\""
-msgstr "\"Что ты знаешь об этом месте?\""
+msgstr "\"Что ты видишь, когда ты смотришь на Анну?\""
 
 #: 56371 56385
-#, fuzzy
 msgid "\"What do you see when you look at Dak'kon?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Что ты видишь, когда ты смотришь на Даккона?\""
 
 #: 56372 56373 56386 56387
-#, fuzzy
 msgid "\"What do you see when you look at Fall-From-Grace?\""
-msgstr "\"Что ты знаешь об этом месте?\""
+msgstr "\"Что ты видишь, когда ты смотришь на Падшую Грацию?\""
 
 #: 56374 56388
-#, fuzzy
 msgid "\"What do you see when you look at Nordom?\""
-msgstr "\"Что есть в вашем хранилище?\""
+msgstr "\"Что ты видишь, когда ты смотришь на Нордома?\""
 
 #: 56375 56389
-#, fuzzy
 msgid "\"What do you see when you look at Ignus?\""
-msgstr "\"Что есть в вашем хранилище?\""
+msgstr "\"Что ты видишь, когда ты смотришь на Игнуса?\""
 
 #: 56376 56377 56390 56391
-#, fuzzy
 msgid "\"What do you see when you look at yourself?\""
-msgstr "\"Что есть в вашем хранилище?\""
+msgstr "\"Что ты видишь, когда ты смотришь на себя?\""
 
 #: 56378 56392
-#, fuzzy
 msgid "\"What do you see when you look at me?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Что ты видишь, когда ты смотришь на меня?\""
 
 #: 56382
 msgid "*ASK.*"
-msgstr ""
+msgstr "*СПРАШИВАЙ.*"
 
 #: 56396
 msgid ""
 "*The skull knows MUCH. Yet it knows NOTHING of justice. Many with hearts "
 "like the skull's now lie within PRISONS and GRAVES.*"
 msgstr ""
+"\"Череп знает МНОГОЕ. Только он не знает НИЧЕГО о справедливости. Многие с "
+"сердцами, похожими на его сердце, теперь находятся ТЮРЬМАХ и МОГИЛАХ.*"
 
 #: 56397 56402 56473
-#, fuzzy
 msgid "\"Let me ask you about someone else...\""
-msgstr "\"Позволь мне спросить кое о чем еще...\""
+msgstr "\"Позволь мне спросить кое о ком другом...\""
 
 #: 56401
 msgid ""
@@ -1231,104 +1246,125 @@ msgid ""
 "loyalty to JUSTICE. She understands JUSTICE, but she IGNORES it.* Vhailor's "
 "eyes flare to torches. *She will not IGNORE ME.*"
 msgstr ""
+"*Тифлинг ИСПОРЧЕН Нижними планами. В ее крови нет МЕСТА для верности "
+"СПРАВЕДЛИВОСТИ. Она понимает СПРАВЕДЛИВОСТЬ, но ИГНОРИРУЕТ ее.* Глаза Вейлора "
+"вспыхивают. *Но МЕНЯ она не будет ИГНОРИРОВАТЬ.*"
 
 #: 56406
 msgid ""
 "Vhailor's eyes flare. *Tiefling, ANSWER me: Have you ever committed an "
 "INJUSTICE?*"
 msgstr ""
+"Глаза Вейлора горят. *Тифлинг, ОТВЕЧАЙ: Совершала ли ты когда-нибудь "
+"НЕСПРАВЕДЛИВОСТЬ?*"
 
 #: 56407
 msgid "*JUSTICE gives me the RIGHT.*"
-msgstr ""
+msgstr "*СПРАВЕДЛИВОСТЬ дарует мне такое ПРАВО*."
 
 #: 56408
 msgid "*Mercykillers ARE justice. Our actions are ABOVE question, TIEFLING.*"
 msgstr ""
+"*Убийцы милосердия - ЭТО справедливость. Наши действия ВНЕ обсуждения, "
+"ТИФЛИНГ.*"
 
 #: 56410
 msgid ""
 "*For the LAST time, tiefling, have you ever committed an injustice? REFUSAL "
 "to answer is an admission of GUILT.*"
 msgstr ""
+"*ПОСЛЕДНИЙ раз спрашиваю, тифлинг, совершала ли ты когда-нибудь "
+"несправедливость? ОТКАЗ отвечать приравнен к признанию ВИНЫ.*"
 
 #: 56411
 msgid "\"Vhailor, stop this. Now. I won't have you questioning her.\""
-msgstr ""
+msgstr "\"Вейлор, прекрати. Немедленно. Я не разрешал тебе допрашивать ее\"."
 
 #: 56412 56413
-#, fuzzy
 msgid "Wait and see what Annah says."
-msgstr "Смотреть, чем это закончится."
+msgstr "Подождать ответа Анны."
 
 #: 56414
 msgid "*You have REFUSED to answer to JUSTICE. I will PUNISH you.*"
 msgstr ""
+"*Ты ОТКАЗАЛАСЬ отвечать перед СПРАВЕДЛИВОСТЬЮ. Теперь ты будешь НАКАЗАНА*."
 
 #: 56415 56424
 msgid "\"No, Vhailor, you won't. You have no right.\""
-msgstr ""
+msgstr "\"Нет, Вейлор. У тебя нет права\"."
 
 #: 56416
-#, fuzzy
 msgid "Wait, see what happens."
-msgstr "Смотреть, чем это закончится."
+msgstr "Посмотреть, что произойдет."
 
 #: 56418
 msgid "*JUSTICE gives me the RIGHT. Guilt CLOAKS her like a second skin.*"
 msgstr ""
+"*СПРАВЕДЛИВОСТЬ дарует мне такое ПРАВО*. Вина ПОКРЫВАЕТ ее, словно вторая "
+"кожа*."
 
 #: 56419
 msgid "\"I told you to stop, Vhailor, and I meant it.\""
-msgstr ""
+msgstr "\"Я сказал тебе остановиться, Вейлор, я серьезно\"."
 
 #: 56421
 msgid "*She has committed INJUSTICES. I will PUNISH her.*"
-msgstr ""
+msgstr "*Она совершала НЕСПРАВЕДЛИВОСТЬ. За это я ее НАКАЖУ*."
 
 #: 56423
 msgid ""
 "*All that stand in the PATH of JUSTICE shall be SENTENCED. You have EARNED "
 "your fate, SUCCUBUS.* "
 msgstr ""
+"*Все, что стоит на ПУТИ СПРАВЕДЛИВОСТИ, подлежит ОСУЖДЕНИЮ. Ты ЗАСЛУЖИЛА свою "
+"судьбу, СУККУБ*."
 
 #: 56425
-#, fuzzy
 msgid "Wait and see what happens."
-msgstr "Смотреть, чем это закончится."
+msgstr "Посмотреть, что произойдет."
 
 #: 56426
 msgid ""
 "*So the whore that is MERCY shows itself. WEAKNESS has poisoned your heart.*"
 msgstr ""
+"*Вот и шлюха по имени МИЛОСЕРДИЕ себя показала. СЛАБОСТЬ отравила твое "
+"сердце*."
 
 #: 56427
 msgid ""
 "\"It is not mercy. It is my *order.* Do you want to test my weakness, "
 "Vhailor?\""
 msgstr ""
+"\"Это не милосердие. Это мой *приказ*. Или ты хочешь проверить меня на "
+"слабость, Вейлор?\""
 
 #: 56428
 msgid ""
 "\"Mercy is not weakness, Vhailor. You will leave her be, or you will answer "
 "to me.\""
 msgstr ""
+"\"Милосердие - это не слабость, Вейлор. Оставь ее в покое, или ответишь за "
+"это передо мной\"."
 
 #: 56429
 msgid ""
 "\"Has it? Then judge me, Vhailor - if you find me wanting, then pass "
 "sentence on *me.*\""
 msgstr ""
+"\"Разве? Так осуди меня, Вейлор. Если ты найдешь во мне, что ищешь, то вынеси "
+"*мне* свой приговор\"."
 
 #: 56430
 msgid ""
 "*All that stand in the PATH of JUSTICE shall be SENTENCED.* Vhailor's eyes "
 "flare, and he raises his axe. *You have EARNED your fate.* "
 msgstr ""
+"*Все, что стоит на ПУТИ СПРАВЕДЛИВОСТИ, подлежит ОСУЖДЕНИЮ.* С горящими "
+"глазами Вейлор заносит топор. *Ты ЗАСЛУЖИЛ свою судьбу*."
 
 #: 56431
 msgid "\"Prepare to die a second death, Vhailor...\""
-msgstr ""
+msgstr "\"Приготовься встретить свою вторую смерть, Вейлор...\""
 
 #: 56432
 msgid ""
@@ -1545,7 +1581,7 @@ msgstr ""
 #: 56565
 #, fuzzy
 msgid "\"Vhailor...\""
-msgstr "\"Вейлор\"."
+msgstr "\"Вейлор?..\""
 
 #: 56566
 msgid ""
@@ -1594,6 +1630,8 @@ msgid ""
 "*WHO ARE YOU TO QUESTION A SERVANT OF JUSTICE? YOU ARE NOTHING. YOU ARE A "
 "SHELL. I WILL NOW SEARCH YOUR HEART. WE SHALL SEE IF YOU ARE FOUND WANTING.*"
 msgstr ""
+"*КТО ТЫ ТАКОЙ, ЧТОБЫ ОБСУЖДАТЬ СЛУГУ СПРАВЕДЛИВОСТИ? ТЫ НИЧТО, ТЫ ВСЕГО ЛИШЬ "
+"ОБОЛОЧКА. А ТЕПЕРЬ Я ВЗГЛЯНУ В ТВОЕ СЕРДЦЕ. ОБНАРУЖИМ ЛИ МЫ В НЕМ ЖЕЛАЕМОЕ?*"
 
 #: 56582
 msgid "\"But...\""
@@ -1606,14 +1644,18 @@ msgid ""
 "wash of dizziness and a sense of *drowning.* As his eyes burn into you, you "
 "feel a memory stir..."
 msgstr ""
+"Под горящим взглядом Вейлора ты чувствуешь, как разрывается твоя кожа, "
+"плавится и кусками отваливается прочь - но боли нет, только головокружение и "
+"чувство *погружения*. Пока его глаза впиваются в тебя, ты чувствуешь прилив "
+"воспоминаний..."
 
 #: 56584
 msgid "Succumb to the memory."
-msgstr ""
+msgstr "Уступить наплыву воспоминаний."
 
 #: 56585 56588 56591 56594 56597 56600 56603
 msgid "Shake off the memory, try and remain in the present."
-msgstr ""
+msgstr "Встряхнуться, попытаться остаться в сознании."
 
 #: 56586
 msgid ""
@@ -1623,12 +1665,18 @@ msgid ""
 "fires as he regards you. The armor is gleaming, and his face is locked in "
 "fury. He has *come* for you."
 msgstr ""
+"Горящие красные глаза ярко вспыхивают, почти ослепляя. Неожиданно ты "
+"ПРЕДСТАЕШЬ перед Вейлором, но там, где раньше была пустота, теперь *плоть*: "
+"чернокожий мужчина со шрамами смотрит на тебя пылающим взглядом из-под своего "
+"шлема. Его доспехи сияют, его лицо сковала ярость. Он *пришел* за тобой."
 
 #: 56587
 msgid ""
 "Echo: \"You have found me, Vhailor. You have traveled a long way... I "
 "imagine it was not easy finding me.\""
 msgstr ""
+"Эхо: \"Ты нашел меня, Вейлор. Ты прошел долгий путь... Наверное, найти меня "
+"было непросто\"."
 
 #: 56589
 msgid ""
@@ -1639,10 +1687,17 @@ msgid ""
 "will see you brought before the Sigilian courts and punished. If you deny "
 "it, then SAY it, and I shall judge you.\""
 msgstr ""
+"\"Справедливость привела меня к тебе. Там, где ты проходил, ты оставлял след "
+"СТРАДАНИЙ, - голос мужчины грохочет, но без эха, совсем так, как призрачный "
+"голос Вейлора, просто злоба и ярость, плоть и кровь... Он опасен, не имеет "
+"призрачной силы, он всего лишь один из людей, которых ты легко убивал. \"Я "
+"прослежу за тем, чтобы ты предстал перед судом Сигила и понес справедливое "
+"наказание. Если ты отказываешься принять это, СКАЖИ, и я сам совершу над "
+"тобой суд\"."
 
 #: 56590
 msgid "Echo: \"I deny it. Judge me... then I shall judge you.\""
-msgstr ""
+msgstr "Эхо: \"Я отказываюсь. Суди меня... А затем я совершу суд над тобой\"."
 
 #: 56592
 msgid ""
@@ -1753,9 +1808,8 @@ msgid "*You shall be JUDGED.*"
 msgstr ""
 
 #: 56611 56612
-#, fuzzy
 msgid "\"Very well...\""
-msgstr "\"Очень хорошо. Хорошего дня\"."
+msgstr "\"Очень хорошо...\""
 
 #: 56614
 msgid ""
@@ -1776,14 +1830,12 @@ msgid "Lie: \"No.\""
 msgstr "Ложь: \"Нет\"."
 
 #: 56620 56643
-#, fuzzy
 msgid "Truth: \"No.\""
-msgstr "Правда: \"Да не очень-то\"."
+msgstr "Правда: \"Нет\"."
 
 #: 56621 56644
-#, fuzzy
 msgid "Truth: \"Yes.\""
-msgstr "Правда: \"Много\"."
+msgstr "Правда: \"Да\"."
 
 #: 56622
 msgid ""
@@ -2049,7 +2101,7 @@ msgstr ""
 #: 68223
 #, fuzzy
 msgid "\"Vhailor?\""
-msgstr "\"Вейлор\"."
+msgstr "\"Вейлор?..\""
 
 #: 68225
 msgid "*I have AWAKENED.*"
@@ -2161,4 +2213,5 @@ msgstr ""
 msgid ""
 "\"Keep up the pressure, Vhailor. Don't give him a chance to concentrate.\""
 msgstr ""
+
 
