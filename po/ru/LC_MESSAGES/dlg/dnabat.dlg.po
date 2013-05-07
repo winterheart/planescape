@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dnabat.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-05-25 19:21+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2013-05-05 20:25+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.4\n"
+"X-Generator: Poedit 1.5.5\n"
 "Language: ru\n"
 
 #: 47847
@@ -21,6 +21,10 @@ msgid ""
 "is rumored to be a wealthy man... and the rumors say he's about to be hit "
 "for this wealth."
 msgstr ""
+"Набат из таверны \"Ворота предателей\" рассказал, что мне нужно сделать для "
+"третьей части ключа. Возле ворот во Внешние земли живет смотритель, который, "
+"по слухам, богатый человек... и еще говорят, что его собираются убрать из-за "
+"его богатства."
 
 #: 49302
 msgid ""
@@ -29,9 +33,12 @@ msgid ""
 "- and yet his face is creased with smile lines. His voice is friendly and "
 "lackadaisical as he greets you. \"Hi.\""
 msgstr ""
+"Перед тобой человек с ангельским лицом. Его глаза прищурены, почти закрыты, "
+"как будто он не желает видеть ужасы этого мира, или не хочет, чтобы мир "
+"увидел ужасы в нем. Тем не менее, его лицо покрыто морщинками улыбки. Его "
+"приветствие звучит лениво и дружественно: \"Привет\"."
 
 #: 49303
-#, fuzzy
 msgid "\"I had some questions for you...\""
 msgstr "\"У меня есть вопросы к тебе...\""
 
@@ -41,7 +48,7 @@ msgstr "\"Здравствуй и прощай\"."
 
 #: 49305
 msgid "\"What'd you want to know?\""
-msgstr "\"Что ты хочешь знать?\"\""
+msgstr "\"Что ты хочешь знать?\""
 
 #: 49306 49315 49319
 msgid "\"What can you tell me about this place?\""
@@ -67,6 +74,11 @@ msgid ""
 "about *him* that maybe I'll tell you sometime; and Dona Quisho, whose story "
 "I don't know... yet.\""
 msgstr ""
+"\"О таверне \"Ворота предателей\", что ли? Ей заправляет Гниющий Копчик. В "
+"нее часто заглядывают те, кого ты здесь видишь: Маркез, бывший член "
+"Гармониума, Китла, когда-то здесь работала, Даллан, бывший почти-кто-угодно "
+"(и у меня даже найдется пару баек о *нем*, которыми я как-нибудь с тобой "
+"поделюсь), и Дона Куишо, чьей истории я не знаю... пока\"."
 
 #: 49313 49366 49372 67170
 msgid "\"Thanks. Farewell.\""
@@ -78,21 +90,25 @@ msgid ""
 "houses. I'm retired for now. Maybe I'll give you a story later. Maybe. You "
 "want anything else?"
 msgstr ""
+"\"Я? Я Набат. В былом - рассказчик, теперь скатившийся до продажи баек в "
+"пивных. Я уже не при делах. Может, позже я тебе что-то да расскажу. "
+"Возможно. Тебе еще что-нибудь нужно?\""
 
 #: 49318
 msgid ""
 "His face crinkles in a smile. \"What makes you think I'd know anything about "
 "that? Seriously... what did you want to know?\""
 msgstr ""
+"Его лицо сморщивается от улыбки. \"С чего ты взял, что я что-нибудь об этом "
+"знаю? А теперь серьезно: что ты хотел узнать?\""
 
 #: 49322
 msgid "Nabat gives you a smile. \"Whaddya want now?\""
-msgstr ""
+msgstr "Набат улыбается тебе. \"Чего на этот раз?\""
 
 #: 49323
-#, fuzzy
 msgid "\"I just wanted some questions answered...\""
-msgstr "\"У меня есть некоторые вопросы\"."
+msgstr "\"Просто хотел задать пару вопросов...\""
 
 #: 49324 67173
 msgid "\"Nothing. Farewell.\""
@@ -106,15 +122,19 @@ msgid ""
 "lackadaisical as he greets you. \"Hi. I hear you're looking for a certain "
 "Key.\""
 msgstr ""
+"Перед тобой человек с ангельским лицом. Его глаза прищурены, почти закрыты, "
+"как будто он не желает видеть ужасы этого мира, или не хочет, чтобы мир "
+"увидел ужасы в нем. Тем не менее, его лицо покрыто морщинками улыбки. Его "
+"приветствие звучит лениво и дружественно: \"Привет. Слыхал, что ты ищешь "
+"один ключ\"."
 
 #: 49326
 msgid "\"I am.\""
-msgstr ""
+msgstr "\"Да\"."
 
 #: 49327 49331
-#, fuzzy
 msgid "\"Yes, but not right now. I had some questions for you...\""
-msgstr "\"Пока нет. У меня несколько вопросов к тебе...\""
+msgstr "\"Да, но об этом потом. У меня несколько вопросов к тебе...\""
 
 #: 49328 49332
 msgid "\"Not right now. Farewell.\""
@@ -122,7 +142,7 @@ msgstr "\"Не сейчас. Прощай\"."
 
 #: 49329
 msgid "\"So... you're back. You want to get the third part of the Key?\""
-msgstr ""
+msgstr "\"Итак... ты вернулся. Ты хочешь получить третью часть ключа?\""
 
 #: 49330
 msgid "\"Yes.\""
@@ -137,11 +157,15 @@ msgid ""
 "and I'll give you the Key. And if you're interested, I can show you some "
 "tricks of stealth.\""
 msgstr ""
+"\"Смотритель городской свалки, зовут Кайс. По слухам, у него куча золота под "
+"полом, и банда головорезов собирается его обчистить. Я заинтересован в том, "
+"чтобы не допустить этого. Иди и поговори с Кайсом - пусть тебе расскажет. "
+"Сделай это, и я отдам тебе ключ. И если тебе интересно, могу показать пару "
+"приемов скрытности\"."
 
 #: 49334
-#, fuzzy
 msgid "\"All right. I had some questions first.\""
-msgstr "\"Хорошо. У меня есть другие вопросы...\""
+msgstr "\"Хорошо. Но сперва меня есть другие вопросы\"."
 
 #: 49335 49345 49347 49369
 msgid "\"All right. Farewell.\""
@@ -153,6 +177,9 @@ msgid ""
 "not? I've got a Key, you've got questions, and you'll get answers when it's "
 "finished. You don't have much time.\""
 msgstr ""
+"\"У тебя вопросы? Отлично. Проблема в том, собираешься ли ты это делать? У "
+"меня есть ключ, у тебя - вопросы, и ты получишь на них ответы, как только "
+"все сделаешь. У тебя мало времени\"."
 
 #: 49337 49341
 msgid "\"All right. What do I have to do?\""
@@ -160,7 +187,7 @@ msgstr "\"Ладно. Что мне нужно сделать?\""
 
 #: 49338
 msgid "\"Why is this so important to you?\""
-msgstr ""
+msgstr "\"Почему это для тебя так важно?\""
 
 #: 49339
 msgid "\"Whatever. Farewell.\""
@@ -174,6 +201,10 @@ msgid ""
 "You're getting what you want - the Key - and I'm getting something out of "
 "this for myself.\""
 msgstr ""
+"\"Разве это важно? Может, он мой дед. А может, я хочу отомстить тем, кто "
+"собирается на него напасть. Или же мне самому нужны те деньги. Разве важен "
+"мотив? Ты получишь то, что тебе нужно - ключ, - а я получу то, что нужно мне"
+"\"."
 
 #: 49342
 msgid "\"All right, then. Farewell.\""
@@ -185,11 +216,13 @@ msgid ""
 "\"My sources tell me that you still haven't finished the job I've set to "
 "you. Get it done, and you'll get the third part of the Key.\""
 msgstr ""
+"У тебя такое впечатление, что эти прищуренные глаза тебя оценивают. \"Мои "
+"источники сообщают мне, что ты еще не выполнил работу, которую я тебе "
+"поручил. Разберись с ней - и получишь третью часть ключа\"."
 
 #: 49344
-#, fuzzy
 msgid "\"Will you just answer some questions for me?\""
-msgstr "\"Ответь мне на другие вопросы\"."
+msgstr "\"Ответишь на пару вопросов?\""
 
 #: 49346
 msgid ""
@@ -199,6 +232,11 @@ msgid ""
 "to know about the deva? Finish the job and you're one step closer to finding "
 "him. Now go finish and we can all rest happy.\""
 msgstr ""
+"Он вздыхает. \"Что ты хочешь знать? Хочешь узнать обо мне? Я Набат. Хочешь "
+"узнать о Проклятом? Поспрашивай тех, кому до него есть дело. Хочешь узнать "
+"об этой таверне? В ней полно людей, которых предали. Хочешь узнать о дэва? "
+"Выполни работу - и будешь на шаг ближе к тому, чтобы найти его. А теперь "
+"закончи с этим, и все будут счастливы\"."
 
 #: 49348
 msgid ""
@@ -210,30 +248,40 @@ msgid ""
 "Dallan. He's the one with the young female friend over there. Or I could "
 "train you with some thieving tricks...\""
 msgstr ""
+"Когда ты входишь, Набат дарит тебе широкую улыбку. \"Я слышал, что у тебя "
+"все получилось. А значит, ты получишь третью часть ключа\". Его глаза на миг "
+"вспыхивают, и звучит строка стиха: \"'...и их удел...'\" Затем его взгляд "
+"становится обычным, и он пожимает плечами. \"Боюсь, это не то чтобы строфа "
+"стиха... но и этого вполне хватит. Спасибо за помощь. Следующая часть ключа "
+"у Даллана. Он вон там, с молоденькой подружкой. Еще я мог бы обучить тебя "
+"воровским штучкам...\""
 
 #: 49349
 msgid "\"Will you answer a few questions for me now?\""
-msgstr ""
+msgstr "\"Теперь ответишь мне на пару вопросов?\""
 
 #: 49350
 msgid "\"Train me in the arts of stealth.\""
-msgstr ""
+msgstr "\"Обучи меня искусству скрытности\"."
 
 #: 49351
 msgid ""
 "Nabat gave me the third portion of the Key: \"...their portion set...\". Now "
 "I'm to talk to Dallan. He's the one with the young girlfriend."
 msgstr ""
+"Набат дал мне третью часть ключа: \"...и их удел...\" Теперь поговорю с "
+"Далланом. Это тот, что с молоденькой подружкой."
 
 #: 49352
 msgid "\"Why not? I'm feeling expansive now.\""
-msgstr ""
+msgstr "\"Почему бы и нет? Сейчас я как раз в настроении\"."
 
 #: 49353
 msgid ""
 "\"Why did you want me to save the old man? Isn't this supposed to be a town "
 "of betrayal?\""
 msgstr ""
+"\"Почему ты хотел, чтоб я спас старика? Разве это не город предателей?\""
 
 #: 49354
 msgid "\"Tell me about yourself.\""
@@ -241,7 +289,7 @@ msgstr "\"Расскажи мне о себе\"."
 
 #: 49355
 msgid "\"Tell me a story.\""
-msgstr ""
+msgstr "\"Расскажи мне байку\"."
 
 #: 49356
 msgid "\"Tell me about this place.\""
@@ -249,19 +297,19 @@ msgstr "\"Расскажи мне об этом месте\"."
 
 #: 49357
 msgid "\"Can you train me in the arts of stealth?\""
-msgstr ""
+msgstr "\"Можешь обучить меня искусству скрытности?\""
 
 #: 49358
 msgid "\"You again, eh? What do you want now?\""
-msgstr ""
+msgstr "\"А, снова ты? Чего тебе на этот раз?\""
 
 #: 49359
 msgid "\"The answers to a few questions...\""
-msgstr ""
+msgstr "\"Хочу задать пару вопросов...\""
 
 #: 49360
 msgid "\"I want you to train me in the arts of stealth.\""
-msgstr ""
+msgstr "\"Я хотел бы обучиться у тебя искусству скрытности\"."
 
 #: 49361
 msgid ""
@@ -270,16 +318,18 @@ msgid ""
 "that they'd fall for it, and either someone'd take them out, or they'd leave "
 "evidence that'd bring the guards down on them. Either way, I win.\""
 msgstr ""
+"\"Раньше они были моей бандой. Потом меня выгнали за то, что брал их деньги, "
+"даже несмотря на то, что меня подставили. Это я распустил слухи о Кайсе: я "
+"знал, что они на это клюнут, и либо кто-нибудь с ними разберется, либо они "
+"оставят улики, что приведет к ним стражу. Я выигрываю в любом случае\"."
 
 #: 49362
-#, fuzzy
 msgid "\"I see... I had a few more questions...\""
-msgstr "\"Понятно. У меня были еще вопросы...\""
+msgstr "\"Понятно... У меня еще вопросы...\""
 
 #: 49363
-#, fuzzy
 msgid "\"Lovely. Farewell.\""
-msgstr "\"Весело. Прощай\"."
+msgstr "\"Чудно. Прощай\"."
 
 #: 49364
 msgid ""
@@ -287,10 +337,14 @@ msgid ""
 "see what I could find, to see if there were any people worth telling stories "
 "to. Fell in with a bad crowd, and the rest, well, the rest is history.\""
 msgstr ""
+"\"Зовут меня Набатом. Просто Набат. Я не так давно прибыл сюда из Аутоматы, "
+"чтоб проверить, что тут можно найти, есть ли тут хоть кто-нибудь, достойный "
+"моих баек. Связался с плохой компанией, ну а остальное, остальное - уже "
+"история\"."
 
 #: 49365
 msgid "\"How very deep a history that is. I had a few more questions...\""
-msgstr ""
+msgstr "\"Надо же, какая история. У меня еще несколько вопросов...\""
 
 #: 49367
 msgid ""
@@ -298,11 +352,14 @@ msgid ""
 "you might say.\" He smiles evilly. \"Maybe when I'm done I'll let you see "
 "it, but not until then. I like the work to be finished before it's seen.\""
 msgstr ""
+"\"Сейчас я работаю над рассказом про месть. На меня только что нахлынуло "
+"вдохновение, если можно так выразиться, - он улыбается порочной улыбкой. - "
+"Возможно, когда я его закончу, я его тебе покажу, но не раньше. Мне не "
+"нравится показывать незавершенные работы\"."
 
 #: 49368
-#, fuzzy
 msgid "\"All right, then. Answer a few more questions...\""
-msgstr "\"Хорошо. Тогда у меня есть несколько вопросов...\""
+msgstr "\"Ну ладно. Тогда у меня еще несколько вопросов...\""
 
 #: 49370
 msgid ""
@@ -311,10 +368,15 @@ msgid ""
 "worst parts of human nature. It ain't pretty. I hope you were asking about "
 "Curst metaphysically, because I'm *not* a guide.\""
 msgstr ""
+"\"Фактически это то, что ты видишь перед собой, за исключением тех частей, "
+"которые для тебя невидны. Этот город полон предателей, политики и интриг. "
+"Это родина одной из самых худших сторон человеческой натуры. Не лучшее "
+"место. Я надеюсь, ты спрашивал о Проклятом в метафизическом смысле, потому "
+"что я *не гид*\"."
 
 #: 49371
 msgid "\"Fair enough. I had a few more questions...\""
-msgstr ""
+msgstr "\"Согласен. У меня пара вопросов...\""
 
 #: 67171
 msgid ""
@@ -322,20 +384,25 @@ msgid ""
 "lifted purses for a living, crept along dark hallways with nary a sound? Or "
 "am I going to have to train you from scratch?\""
 msgstr ""
+"\"Тебе приходилось заниматься темными делами? Тебе приходилось снимать "
+"кошельки ради выживания, красться в темных переулках без единого шороха? Или "
+"мне придется учить тебя с нуля?\""
 
 #: 67172
 msgid "\"Forget it. Farewell.\""
-msgstr "\"Забудь. Прощай\"."
+msgstr "\"Забудь об этом. Прощай\"."
 
 #: 67174
 msgid ""
 "\"Are you sure you want to make the change? You can't fight and thieve at "
 "the same time, you know.\""
 msgstr ""
+"\"Ты уверен, что хочешь все поменять? Ведь ты не сможешь одновременно "
+"воевать и воровать\"."
 
 #: 67175
 msgid "\"All right. Don't want to forget the basics, eh?\""
-msgstr ""
+msgstr "\"Ладно. Значит, не хочешь забывать основы?\""
 
 #: 67176
 msgid ""
@@ -343,6 +410,9 @@ msgid ""
 "we'll see just how nimble you can be. Balance this dagger on the tip of your "
 "finger.\" He tosses you a knife."
 msgstr ""
+"\"Значит, не размениваешься по мелочам? Хорошо. Начнем. Сперва поглядим, "
+"насколько ты шустрый. Удержи этот кинжал на кончике пальца\". Он бросает "
+"тебе нож."
 
 #: 67177
 msgid ""
@@ -350,6 +420,9 @@ msgid ""
 "it spinning. Nabat's jaw drops. \"All right. You're obviously quick enough. "
 "Are you sure you want to train?\""
 msgstr ""
+"Ты ловишь нож на кончик пальца и ловким движением заставляешь его вертеться "
+"вокруг своей оси. У Набата отпадает челюсть. \"Ладно. Ты шустрый, спору нет. "
+"Уверен, что тебе нужны тренировки?\""
 
 #: 67178
 msgid ""
@@ -357,6 +430,8 @@ msgid ""
 "atop the tip of your index finger. \"Good enough. Are you sure you want to "
 "train?\""
 msgstr ""
+"Ты ловишь кинжал за рукоятку и быстро ставишь его на кончик своего "
+"указательного пальца. \"Годится. Уверен, что тебе нужны тренировки?\""
 
 #: 67179
 msgid ""
@@ -365,6 +440,10 @@ msgid ""
 "You've obviously not got the reflexes to be a knight of the post. You want "
 "anything else?\""
 msgstr ""
+"Ты пытаешься словить кинжал, но рукоятка отскакивает от твоих рук, и ты "
+"чудом не протыкаешь себя, пытаясь подхватить его. \"Извини, приятель. Тебе "
+"определенно не хватает проворности, чтобы стать рыцарем кинжала. Тебе еще "
+"что-нибудь нужно?\""
 
 #: 67180
 msgid ""
@@ -372,6 +451,9 @@ msgid ""
 "concealment, picking locks, finding traps and removing them, and finding an "
 "enemy's vulnerabilities.\""
 msgstr ""
+"\"Ну ладно. Первым делом, тебе придется освоить основы: скрытность, "
+"маскировка, взлом замков, поиск и обезвреживание ловушек, и нахождение "
+"уязвимых мест врага\"."
 
 #: 67181
 msgid ""
@@ -380,6 +462,10 @@ msgid ""
 "so forth. Just keep in mind that you can't do it when someone's staring at "
 "you.\""
 msgstr ""
+"\"Один из важнейших трюков, которые ты можешь изучить, - это бесшумное "
+"передвижение. Оно позволяет тебе прокрадываться мимо стражи, заходить врагу "
+"за спину, избегать обнаружения и так далее. Просто запомни, что у тебя "
+"ничего не получится, если кто-то будет на тебя смотреть\"."
 
 #: 67182
 msgid ""
@@ -389,6 +475,11 @@ msgid ""
 "get into their goods, so you'll want to check the locks for traps. I'll get "
 "into that in a minute.\""
 msgstr ""
+"\"Хорошо. Замки. Замки тебе не друзья. Тебе нужно быть знакомым с "
+"устройством этих штук, если ты собираешься куда-нибудь попасть. И все же "
+"какие-нибудь ублюдки могут подкинуть тебе небольшой сюрприз, пока ты будешь "
+"пытаться добраться до их вещей, так что тебе понадобится проверять замки на "
+"ловушки. Я дойду до этого через минуту\"."
 
 #: 67183
 msgid ""
@@ -397,6 +488,10 @@ msgid ""
 "sometimes it's to get a little item you've had your eye on. But you better "
 "be ready to fight or flee if they notice you.\""
 msgstr ""
+"\"Итак, еще тебе понадобится умение сунуть руку куда-нибудь так, чтобы никто "
+"этого не заметил. Временами для того, чтобы облегчить чей-то кошелек, "
+"временами для того, чтобы умыкнуть вещичку, на которую ты положил глаз. Но "
+"будь готов бежать или драться, если тебя вдруг заметят\"."
 
 #: 67184
 msgid ""
@@ -405,6 +500,9 @@ msgid ""
 "being guarded - approach it slowly and look carefully. It won't be "
 "immediately apparent, so take your time.\""
 msgstr ""
+"\"Помнишь, я упоминал о ловушках? Они могут стать тебе злейшими врагами. "
+"Если что-нибудь охраняется - или, что еще хуже, *не* охраняется, - подходи "
+"медленно и внимательно смотри. Их сразу не увидишь, так что не торопись\"."
 
 #: 67185
 msgid ""
@@ -413,6 +511,10 @@ msgid ""
 "go off right in your face. You take your chances when you're fooling with "
 "strange magic or machines.\""
 msgstr ""
+"\"А если уж найдешь ловушку, можешь либо обойти ее, либо попытаться "
+"обезвредить. Если попытаешься обезвредить, есть вероятность, что она "
+"взорвется тебе прямо в лицо. Ты всегда рискуешь, пытаясь обойти необычную "
+"магию или механизмы\"."
 
 #: 67186
 msgid ""
@@ -422,6 +524,11 @@ msgid ""
 "serious, serious damage. Once you attack, obviously they're going to know "
 "you're there, so pick your target carefully.\""
 msgstr ""
+"\"А вот и награда: удар в спину! С такими, как у тебя, руками ты можешь "
+"здорово навредить. Просто подбираешься кому-нибудь за спину, неспеша "
+"целишься и затем бьешь. Сделай все правильно, и нанесеш очень серьезный "
+"урон. После удара тебя, само собой, обнаружат, так что выбирай свою цель "
+"осторожно\"."
 
 #: 67187
 msgid ""
@@ -430,12 +537,19 @@ msgid ""
 "you want...\"\n"
 "Your training as a thief begins."
 msgstr ""
+"\"Первое, что ты должен усвоить, - никогда не нужно спешить. Когда "
+"торопишься - делаешь ошибки, а ошибки ведут к проблемам. Проблемы тебе нужны "
+"в последнюю очередь...\"\n"
+"Твое обучение воровству началось."
 
 #: 67188
 msgid ""
 "After some time, he pauses. \"Enough. You're a fast learner. This is as far "
 "as I'll take you. You've got to do the rest on your own.\""
 msgstr ""
+"Через некоторое время он останавливается. \"Достаточно. Ты быстро "
+"схватываешь. Это самое большее, что я могу для тебя сделать. Дальше уж ты сам"
+"\"."
 
 #: 67189
 msgid ""
@@ -445,6 +559,11 @@ msgid ""
 "come to realize that you *have* done this before... that at one time you "
 "possessed all these skills, and the training has reawakened them."
 msgstr ""
+"Через некоторое время он останавливается. \"Достаточно. Ты быстро "
+"схватываешь. Это самое большее, что я могу для тебя сделать. Дальше уж ты "
+"сам... такое впечатление, что ты уже этим занимался\". Когда он произносит "
+"это, ты вдруг осознаешь, что *делал* это раньше... что когда-то ты уже "
+"владел всеми этими навыками, и тренировка их пробудила."
 
 #: 67190
 msgid ""
@@ -458,63 +577,63 @@ msgstr ""
 
 #: 67191
 msgid "\"I've done it before.\""
-msgstr ""
+msgstr "\"Мне приходилось этим заниматься\"."
 
 #: 67192
 msgid "\"I'm afraid you'll have to start from the beginning.\""
-msgstr ""
+msgstr "\"Боюсь, тебе придется начать сначала\"."
 
 #: 67193
 msgid "\"You know, forget it. Farewell.\""
-msgstr ""
+msgstr "\"Знаешь что: забудь об этом. Прощай\"."
 
 #: 67196
 msgid ""
 "\"I know. I no longer wish to be a fighter. Let's get some of that rust out "
 "of my repertoire of tricks.\""
 msgstr ""
+"\"Я знаю. Я больше не хочу быть воином. Давай-ка стряхнем пыль с моего "
+"набора трюков\"."
 
 #: 67197
 msgid ""
 "\"I know. I no longer wish to be a mage. Let's get some of that rust out of "
 "my repertoire of tricks.\""
 msgstr ""
+"\"Я знаю. Я больше не хочу быть магом. Давай-ка стряхнем пыль с моего набора "
+"трюков\"."
 
 #: 67198
-#, fuzzy
 msgid "\"No, I guess I don't. Farewell.\""
-msgstr "\"Нет, думаю, нет. Прощай\"."
+msgstr "\"Пожалуй, нет. Прощай\"."
 
 #: 67199
 msgid "\"No, I don't. I had a few more questions...\""
-msgstr ""
+msgstr "\"Нет. У меня несколько вопросов...\""
 
 #: 67200
-#, fuzzy
 msgid "\"No, I don't. Farewell.\""
-msgstr "\"Нет, нету. Прощай\"."
+msgstr "\"Нет. Прощай\"."
 
 #: 67201
 msgid "Catch it lightly on the tip of your finger."
-msgstr ""
+msgstr "Ловко поймать его на кончик пальца."
 
 #: 67202
 msgid "Catch it by the hilt, and then set it on the tip of your finger."
-msgstr ""
+msgstr "Словить его за рукоять, а потом поставить на кончик пальца."
 
 #: 67203
 msgid "Try to catch it."
-msgstr ""
+msgstr "Попытаться словить его."
 
 #: 67224 67227
-#, fuzzy
 msgid "\"Yes. Teach me.\""
-msgstr "\"Спасибо...\""
+msgstr "\"Да. Научи меня\"."
 
 #: 67225 67228
-#, fuzzy
 msgid "\"No. Forget it. Answer a few questions for me...\""
-msgstr "\"Забудь. Лучше ответь на пару вопросов\"."
+msgstr "\"Нет, забудь. Лучше ответь на пару вопросов...\""
 
 #: 67226 67229 67231
 msgid "\"No. Forget it. Farewell.\""
@@ -529,13 +648,12 @@ msgid "\"Go on...\""
 msgstr "\"Продолжай...\""
 
 #: 67233 67236 67240 67241 67242 67243
-#, fuzzy
 msgid "\"I think I understand the basics. Let's get to training.\""
-msgstr "\"Я понимаю. В таком случае, прощай\"."
+msgstr "\"Мне кажется, основы я понимаю. Приступим к тренировкам\"."
 
 #: 67244
 msgid "\"All right. Let's get to training.\""
-msgstr ""
+msgstr "\"Ладно. Приступим к тренировкам\"."
 
 #: 67245 67246 67247
 msgid "Learn all you can."
@@ -546,6 +664,8 @@ msgid ""
 "I trained to become a thief under a man named Nabat, a tutor in the "
 "Traitor's Gate tavern in Curst. "
 msgstr ""
+"Я выучился на вора у человека по имени Набат, наставника в таверне \"Ворота "
+"предателей\" в Проклятом."
 
 #: 67249
 msgid "\"My thanks. Farewell.\""
@@ -553,7 +673,7 @@ msgstr "\"Спасибо. Прощай\"."
 
 #: 67250
 msgid "\"Perhaps I have done this before. My thanks, and farewell.\""
-msgstr ""
+msgstr "\"Возможно, я делал это раньше. Благодарю и прощай\"."
 
 #: 67251
 msgid "Leave."
