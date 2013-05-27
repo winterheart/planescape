@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcgbody.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 02:26+0500\n"
+"PO-Revision-Date: 2013-05-27 23:46+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 1.5\n"
+"Language: ru\n"
 
 #: 39483
 msgid ""
@@ -19,6 +20,9 @@ msgid ""
 "evil and was sucked through the gate into Carceri. They tell me my destiny "
 "lies on the other side of the gate."
 msgstr ""
+"Головы на вратах в Карцери сказали мне, что город потерян во зле и его "
+"засосало сквозь врата в Карцери. Они сказали, по ту сторону врат находится "
+"моя судьба."
 
 #: 47032
 msgid ""
@@ -26,6 +30,9 @@ msgid ""
 "chanting words back and forth between themselves to form coherent sentences. "
 "\"Gone, gone. Lost to the betrayer, lost to the light.\""
 msgstr ""
+"При твоем приближении гниющие головы на вратах начинают говорить, по очереди "
+"произнося слова и складывая из них осмысленные предложения. \"Пропал, пропал. "
+"Потерян предателем, потерян светом\"."
 
 #: 47033
 msgid "\"What happened to the town?\""
@@ -33,12 +40,11 @@ msgstr "\"А что случилось с городом?\""
 
 #: 47034 47039 47060 47065 47070 47077 47083 47091
 msgid "\"What happened to you?\""
-msgstr "\"Что случилось с тобой?\""
+msgstr "\"Что случилось с вами?\""
 
 #: 47035
-#, fuzzy
 msgid "\"Thanks for the update. Farewell.\""
-msgstr "\"Спасибо за внимание. Прощай\"."
+msgstr "\"Спасибо за новость. Прощайте\"."
 
 #: 47036
 msgid ""
@@ -46,108 +52,119 @@ msgid ""
 "The town, gone, lost to its own hatred. Through the gate, into the Red "
 "Prison, the prison plane... Carceri.\""
 msgstr ""
+"\"Унесено ветром, смыто волной зла. Сквозь врата, пропал, пропал. Город "
+"пропал, утонул в своей ненависти. Сквозь врата, в Красную тюрьму, тюремный "
+"план... в Карцери\"."
 
 #: 47037
 msgid "\"Carceri? Tell me about Carceri.\""
-msgstr "\"Карцери? Расскажи мне о Карцери\"."
+msgstr "\"Карцери? Расскажите мне о Карцери\"."
 
 #: 47038 47090
-#, fuzzy
 msgid "\"Can't you speak normally?\""
-msgstr "\"О чем ты говоришь?\""
+msgstr "\"Вы можете говорить нормально?\""
 
 #: 47040 47092
-#, fuzzy
 msgid "\"Do you have any idea how to get there or get it back here?\""
-msgstr ""
-"\"У тебя есть какие-нибудь заклинания или предметы, которые могут помочь мне?"
-"\""
+msgstr "\"Есть идеи, как попасть туда или вернуть его сюда?\""
 
 #: 47041 47093
-#, fuzzy
 msgid "\"I have no time for this. Farewell.\""
-msgstr "\"У меня нет времени на это. Прощай\"."
+msgstr "\"У меня нет времени на это. Прощайте\"."
 
 #: 47042 47085
 msgid ""
 "\"Betrayed, despised, framed... punished, executed, made an example of. Hung "
 "here by enemies. Lost, lost, lost.\""
 msgstr ""
+"\"Преданы, презрены, подставлены... наказаны, казнены, оставлены в назидание. "
+"Подвешены здесь врагами. Пропали, пропали, пропали\"."
 
 #: 47043 47044
 msgid ""
 "\"Is it just me, or are there far too many talking, disembodied heads around "
 "these days?\""
 msgstr ""
+"\"Мне кажется, или в последнее время развелось слишком много говорящих голов "
+"без тела?\""
 
 #: 47045
 msgid "\"Where is everyone?\""
-msgstr ""
+msgstr "\"Куда все подевались?\""
 
 #: 47046
 msgid ""
 "The heads pause. They look at each other for a moment, and then look back at "
 "you. They hang shamefully from the gate."
 msgstr ""
+"Головы умолкают. Переглянувшись между собой, они снова поворачиваются к тебе, "
+"постыдно свисая с врат."
 
 #: 47047
 msgid "\"All right. What happened to Curst?\""
-msgstr ""
+msgstr "\"Ну хорошо. Что случилось с Проклятым?\""
 
 #: 47048
 msgid "\"All right. Farewell.\""
-msgstr "\"Ладно. Прощай\"."
+msgstr "\"Ладно. Прощайте\"."
 
 #: 47049
 msgid ""
 "\"Through the gate, into the prison... no return from the prison, no return. "
 "Go through the gate, go through the gate... your destiny awaits you there.\""
 msgstr ""
+"\"Через врата, в тюрьму... нет возврата из тюрьмы, нет. Иди через врата, "
+"через врата... Там тебя ждет твоя судьба\"."
 
 #: 47050
-#, fuzzy
 msgid "\"What do you know about my destiny?\""
-msgstr "\"Ты знаешь что-нибудь обо мне?\""
+msgstr "\"Что вы знаете о моей судьбе?\""
 
 #: 47051 47078
 msgid "\"Thanks. Farewell.\""
-msgstr "\"Спасибо. Прощай\"."
+msgstr "\"Спасибо. Прощайте\"."
 
 #: 47052
 msgid ""
 "\"The deva awaits you.\" The heads fall silent, and do not react to further "
 "questions."
 msgstr ""
+"\"Дэва ждет тебя\". Головы умолкают и больше не реагируют ни на какие "
+"расспросы."
 
 #: 47053
 msgid "\"Farewell, then.\""
-msgstr "\"Тогда прощай\". "
+msgstr "\"Тогда прощайте\"."
 
 #: 47054
 msgid ""
 "\"Beyond the veil all is... shadowed, illuminated. Nothing translates. "
 "Nothing easy. No.\""
 msgstr ""
+"\"Под вуалью все... затенено, освещено. Ничего не переводится. Ничего не "
+"просто. Нет\"."
 
 #: 47055
 msgid "\"All right, then, what happened to you?\""
-msgstr ""
+msgstr "\"Ну хорошо, а что случилось с вами?\""
 
 #: 47056
 msgid ""
 "\"Do you have any idea how to get to the city, or to bring the city back "
 "here?\""
-msgstr ""
+msgstr "\"Есть идеи, как попасть в город или вернуть город сюда?\""
 
 #: 47057
 msgid "\"All right, then. Farewell.\""
-msgstr "\"Тогда ладно. Прощай\"."
+msgstr "\"Тогда ладно. Прощайте\"."
 
 #: 47058
 msgid ""
 "The heads are silent at first, but then slowly build from a small whisper of "
 "sound into a full-fledged conversation."
 msgstr ""
+"Поначалу головы молчат, но затем начинают перешептываться, а затем и общаться "
+"в полный голос."
 
 #: 47059
 msgid "\"What happened to Curst?\""
@@ -155,7 +172,7 @@ msgstr "\"Что случилось с Проклятым?\""
 
 #: 47061
 msgid "\"Forget it. Farewell.\""
-msgstr "\"Забудь. Прощай\"."
+msgstr "\"Забудьте. Прощайте\"."
 
 #: 47062
 msgid ""
@@ -164,31 +181,32 @@ msgid ""
 "river. \"To Carceri... to the prison plane... to the land of the betrayed "
 "and the betrayers, traitors and victims. This gate... is closed... for now.\""
 msgstr ""
+"Когда ты подходишь к вратам, гниющие головы, украшающие обвитую "
+"остролистником арку, начинают с тобой говорить, перебивая друг друга. \"К "
+"Карцери... тюремный план... землю преданных и предателей, обманщиков и жертв. "
+"Эти врата... закрыты... пока\"."
 
 #: 47063 47068
-#, fuzzy
 msgid "\"When will it be open again?\""
-msgstr "\"Когда ты освободишь Игнуса?\""
+msgstr "\"Когда снова они откроются?\""
 
 #: 47064 47069 47076 47087
-#, fuzzy
 msgid "\"What can you tell me about Carceri?\""
-msgstr "\"Что ты можешь сказать о ней?\""
+msgstr "\"Что вы можете рассказать о Карцери?\""
 
 #: 47066 47072
-#, fuzzy
 msgid "\"Thanks. Farewell, then.\""
-msgstr "\"Спасибо, Гвоздинка. Прощай\"."
+msgstr "\"Спасибо. Прощайте\"."
 
 #: 47067
 msgid "\"The gate... still closed. No passage.\""
-msgstr ""
+msgstr "\"Врата... все еще закрыты. Нет пути\"."
 
 #: 47075
 msgid ""
 "\"When the plague of illness passes. When the sickness has died. When the "
 "death has gone.\""
-msgstr ""
+msgstr "\"Когда пройдет чумной мор. Когда умрет болезнь. Когда уйдет смерть\"."
 
 #: 47080
 msgid ""
@@ -196,15 +214,17 @@ msgid ""
 "strung out like malign pearls in the skies... the Red Prison, doom of titans "
 "and gods alike.\""
 msgstr ""
+"\"Тюремный план... зло, хаос... Миры внутри миров, сферы внутри сфер, "
+"подвешенные словно жемчужины в небесах.. Красная тюрьма, погибель богов и "
+"титанов\"."
 
 #: 47082 47086
-#, fuzzy
 msgid "\"When will the gate be open?\""
-msgstr "\"Когда ты освободишь Игнуса?\""
+msgstr "\"Когда ворота откроются?\""
 
 #: 47084 47088
 msgid "\"Farewell.\""
-msgstr "\"Прощай\"."
+msgstr "\"Прощайте\"."
 
 #: 47089
 msgid ""
@@ -212,3 +232,8 @@ msgid ""
 "orbs, strung out like malign pearls in the skies.... the Red Prison, doom of "
 "titans and gods alike.\""
 msgstr ""
+"\"Тюремный план... зло, хаос... Миры внутри миров, сферы внутри сфер, "
+"подвешенные словно жемчужины в небесах.. Красная тюрьма, погибель богов и "
+"титанов\"."
+
+
