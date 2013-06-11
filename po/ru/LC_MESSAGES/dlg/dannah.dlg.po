@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: 2009-05-24 14:44+0600\n"
-"PO-Revision-Date: 2013-04-13 20:29+0600\n"
+"PO-Revision-Date: 2013-06-03 01:39+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -3731,6 +3731,8 @@ msgstr "\"Захлопни свое рыло, и я перестану им ра
 #: 61764
 msgid "\"Oh, aye... up yer bone-box to rip out yer brains.\""
 msgstr ""
+"\"О да... как раз, чтобы достать до твоей костяной коробки и выпотрошить "
+"мозги\"."
 
 #: 61765
 msgid "\"Accent? What are yeh on about?\""
@@ -3774,20 +3776,25 @@ msgstr ""
 msgid ""
 "\"Latch yer bone box, skull! Don't be taking her name in vain like that!\""
 msgstr ""
+"\"Зашнуруй костяную коробку, череп! Не смешивай ее имя с такими пошлостями!\""
 
 #: 61772
 msgid ""
 "\"Are you trying ta get us all carved ta pieces?! Don't yeh be tempting fate "
 "like that, skull!\""
 msgstr ""
+"\"Ты хочешь, чтобы нас порвало на куски?! Не испытывай судьбу таким способом, "
+"череп!\""
 
 #: 61773
 msgid "\"Oh, if I were you, I'd learn to latch yer bone box.\""
 msgstr ""
+"\"О, а я бы на твоем месте научилась бы как следует шнуровать свою костяную "
+"коробку\"."
 
 #: 61774
 msgid "\"I'd stop now, if I were you.\""
-msgstr ""
+msgstr "\"На твоем месте я бы уже остановилась\"."
 
 #: 61775
 msgid ""
@@ -3795,14 +3802,18 @@ msgid ""
 "of these days... aye, and that'll be the least of yer worries after I'm "
 "through with yeh.\""
 msgstr ""
+"\"Знаешь что, череп? Наступит время, и ты будешь зубоскалить на кончике "
+"копья... и это только самое лучшее, что будет с тобой после меня\"."
 
 #: 61776
 msgid "\"Serves yeh right, skull. Yeh sure irritate the rest of us enough.\""
-msgstr ""
+msgstr "\"Так тебе и надо, череп. Ты уже и так всем нам надоел\"."
 
+# Funny, funny things!
+# Автор этой цитаты - Seumas MacManus, ирландский писатель
 #: 61777
 msgid "\"Many a man's tongue's broke his nose, skull.\""
-msgstr ""
+msgstr "\"Язык многим стоил разбитого носа, череп\"."
 
 #: 61778
 msgid ""
@@ -3810,6 +3821,9 @@ msgid ""
 "'Ee has the mark of doom upon him, and I'll not sway him from his path. "
 "D'yeh hear me, skull?\""
 msgstr ""
+"\"Я *никогда* не скажу, что я чувствую. И ты не трепайся ему насчет этого. Он "
+"печать рока над ним, и я не собираюсь отвлекать его от своего путь. Ты слышал "
+"меня, череп?\""
 
 #: 61779
 msgid "\"It lets my skin breath, yeh eejit.\""
@@ -3821,7 +3835,7 @@ msgstr "\"Сейчас я дам тебе к чему приложиться, и
 
 #: 63485
 msgid "TBD"
-msgstr ""
+msgstr "TBD"
 
 #: 63693
 msgid "\"No, it's fer scratchin' me back, yeh soddin' box!\""
@@ -6341,48 +6355,55 @@ msgid ""
 "\"I found my mortality, Annah - and it turns out it doesn't like me much. I "
 "need your help.\""
 msgstr ""
+"\"Я нашел свою смертность, Анна. И оказалось, что я ей не очень нравлюсь. Мне "
+"нужна твоя помощь\"."
 
 #: 68186
 msgid ""
 "Annah eyes take on a steely glint, then she nods. \"I'm gonna stand by yeh.\""
 msgstr ""
+"В глазах Анны сверкает стальная вспышка. Она кивает: \"Я буду с тобой\"."
 
 #: 68187 68205 68206 68207 68208 68241 68411 68431 68432 68443
-#, fuzzy
 msgid "\"Let's do it, then...\""
-msgstr "\"Тогда я сделаю это\"."
+msgstr "\"Тогда за дело...\""
 
 #: 68258
 msgid ""
 "Annah frowns, then shakes her head. \"Nay, not now - there's enemies about, "
 "there is!\""
-msgstr ""
+msgstr "Анна хмуро качает головой. \"Нет, не сейчас - тут полно врагов!\""
 
 #: 68259
 msgid "\"Never mind, then...\""
 msgstr "\"Тогда неважно...\""
 
 #: 68326
-#, fuzzy
 msgid "ANNAH. ARE YOU ALL RIGHT?"
-msgstr "\"Прошу прощения... с тобой все в порядке?\""
+msgstr "\"АННА. С ТОБОЙ ВСЕ В ПОРЯДКЕ?\""
 
 #: 68327
 msgid ""
 "Annah's eyes widen as she hears your voice. \"Wh - what *happened* ta yeh? "
 "Yer voice - it's like echoes, it is.\""
 msgstr ""
+"Анна слушает тебя с широко раскрытыми глазами. \"Чт... что с тобой "
+"*случилось*? Твой голос - словно эхо\"."
 
 #: 68328
 msgid ""
 "I HAVE CHANGED. I AM SOMETHING ELSE NOW, AND I CANNOT REMAIN HERE MUCH "
 "LONGER. I WILL RETURN YOU TO SIGIL, IF YOU WISH IT."
 msgstr ""
+"Я ИЗМЕНИЛСЯ. ТЕПЕРЬ Я КОЕ-ЧТО ИНОЕ, И Я НЕ МОГУ ЗДЕСЬ БОЛЬШЕ ОСТАВАТЬСЯ. ЕСЛИ "
+"ХОЧЕШЬ, Я ВЕРНУ ТЕБЯ В СИГИЛ."
 
 #: 68329
 msgid ""
 "\"Wh-\" Annah opens her mouth, then pauses. \"Wh -- Where are *yeh* goin'?\""
 msgstr ""
+"\"Куда... - Анна раскрывает рот от изумления. - \"Куда... Куда *ты* "
+"собираешься*?\""
 
 #: 68330
 msgid ""
@@ -6390,30 +6411,37 @@ msgid ""
 "THESE CRIMES CARRY A... PRICE. THERE IS A PLACE RESERVED FOR ONES SUCH AS I "
 "ON THE LOWER PLANES. IT IS... PUNISHMENT OF A SORT."
 msgstr ""
+"МНОГО ПРЕСТУПЛЕНИЙ БЫЛО СВЕРШЕНО С ТЕХ ПОР, КАК МОЯ СМЕРТНОСТЬ И Я БЫЛИ "
+"РАЗДЕЛЕНЫ. У ЭТИХ ПРЕСТУПЛЕНИЙ ЕСТЬ... ЦЕНА. ДЛЯ ТАКИХ КАК Я, ЕСТЬ ОДНО МЕСТО "
+"В НИЖНИХ ПЛАНАХ. ЭТО... ЧТО-ТО ТИПА НАКАЗАНИЯ."
 
 #: 68331
 msgid "\"But I... I don't *want* yeh ta go.\""
-msgstr ""
+msgstr "\"Но я... я *не хочу*, чтобы ты ушел\"."
 
 #: 68332
 msgid ""
 "I WILL NOT FORGET HOW MUCH YOU WERE WILLING TO SACRIFICE FOR ME, ANNAH. "
 msgstr ""
+"Я НИКОГДА НЕ ЗАБУДУ, КАК СИЛЬНО ТЫ ХОТЕЛА ПОЖЕРТВОВАТЬ СОБОЙ РАДИ МЕНЯ, АННА."
 
 #: 68333
 msgid ""
 "Annah nods. She looks like she is about to say something else, but then "
 "falls silent - but the unspoken thought remains in her mind, lingering. "
 msgstr ""
+"Анна кивает. Кажется, она хочет что-то сказать, но не произносит ничего. "
+"Невысказанные слова мучительно роются в ее мыслях."
 
 #: 68334 68335 68336 68337 68338 68339 68493 68494 68495
 msgid "I DO NOT NEED YOUR WORDS TO KNOW YOUR HEART, ANNAH. FAREWELL."
-msgstr ""
+msgstr "НЕ НУЖНО СЛОВ, ЧТОБЫ ПОНЯТЬ, ЧТО У ТЕБЯ НА СЕРДЦЕ, АННА. ПРОЩАЙ."
 
 #: 68410
 msgid ""
 "Annah eyes have a steely glint, then she nods. \"I'm gonna stand by yeh.\""
 msgstr ""
+"В глазах Анны сверкает стальная вспышка. Она кивает: \"Я буду с тобой\"."
 
 #: 7185
 msgid ""
@@ -6705,4 +6733,5 @@ msgstr "Встряхнуть его, чтобы привлечь внимани�
 #: 9837 9842
 msgid "Leave him be."
 msgstr "Оставить его в покое."
+
 
