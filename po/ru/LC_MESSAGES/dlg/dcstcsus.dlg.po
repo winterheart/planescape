@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dcstcsus.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-02-23 01:43+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2013-06-11 22:52+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: 9977
 msgid ""
@@ -19,6 +19,8 @@ msgid ""
 "him and tries to steer away from you. You deftly alter your course to "
 "intercept him."
 msgstr ""
+"Перед тобой бедно одетый старик. Он замечает, что ты на него смотришь, и "
+"пытается улизнуть от тебя. Ты ловко сворачиваешь и перехватываешь его."
 
 #: 9978
 msgid "\"Greetings.\""
@@ -36,15 +38,18 @@ msgid ""
 "got nothin' ya want! I ain't done nothin' to ya neither! Leave me be... "
 "please!\""
 msgstr ""
+"Он как будто собирается сбежать, но потом бросает эту идею. Его взгляд "
+"мечется по сторонам и не может сфокусироваться на тебе. Однако у тебя "
+"складывается впечатление, что он готов сбежать, не раздумывая. \"У меня "
+"ничего нет! Я тебе ничего не сделал! Отпусти меня... пожалуйста!\""
 
 #: 9981
-#, fuzzy
 msgid "\"Calm down. I just want to ask you some questions. All right?\""
-msgstr "\"Убери это... Я просто хочу задать тебе пару вопросов\"."
+msgstr "\"Успокойся. Я просто хочу задать тебе пару вопросов. Хорошо?\""
 
 #: 9982
 msgid "\"Sorry to have bothered you. Go on your way.\""
-msgstr ""
+msgstr "\"Извини, что побеспокоил. Иди своей дорогой\"."
 
 #: 9983
 msgid ""
@@ -52,16 +57,21 @@ msgid ""
 "look of worry deepens. \"I... I'd help you if I could. I swear it, but I "
 "know nothin'... nothin' I swear! Please leave me be.\""
 msgstr ""
+"Его взгляд, наконец, фокусируется на тебе. Когда он оглядывает тебя сверху "
+"донизу, беспокойство в его глазах усиливается. \"Я... Я бы помог, если мог, "
+"клянусь. Но я ничего не знаю... ничего, клянусь! Пожалуйста, отпусти меня\"."
 
 #: 9984
 msgid ""
 "\"How do you know you can't help me if you won't even listen to the question "
 "first?\""
 msgstr ""
+"\"Откуда ты знаешь, что не можешь мне помочь, ведь ты даже не услышал вопрос?"
+"\""
 
 #: 9985
 msgid "\"Fine. Go.\""
-msgstr ""
+msgstr "\"Ладно. Иди\"."
 
 #: 9986
 msgid ""
@@ -72,32 +82,46 @@ msgid ""
 "know I can't help ya. Please! Leave me be!\" You think he may begin to cry "
 "at any moment, he looks so distressed."
 msgstr ""
+"Его взгляд начинает метаться, как будто он ждет нападения с любой стороны. "
+"Он начинает заламывать руки и нерво поглядывать на тебя, потом его внимание "
+"снова переключается на окружающие его улицы. \"Э-э... Мне не нужны "
+"неприятности, понимаешь? Так что я взял за правило ничего не знать, понятно? "
+"Потому-то я и знаю, что ничем не могу тебе помочь. Пожалуйста! Отпусти меня!"
+"\" Тебе кажется, что он расплачется в любую минуту - такой у него "
+"расстроенный вид."
 
 #: 9987
 msgid "\"Fine. Sorry to have bothered you.\""
-msgstr ""
+msgstr "\"Ладно. Извини, что потревожил\"."
 
 #: 9988
 msgid ""
 "\"Hmph. Know nothing my arse. I need some answers and you're elected to give "
 "them. Your other option is that I bust your face.\""
 msgstr ""
+"\"Пф. Да мне наплевать, что ты ничего не знаешь. Мне нужны ответы, и я "
+"выбрал тебя, чтобы получить их. Иначе я дам тебе в рожу\"."
 
 #: 9989
 msgid ""
 "\"Look, I'm sorry to have caused you such distress. Is there something I "
 "could help you with? You seem troubled.\""
 msgstr ""
+"\"Слушай, мне жаль, что я так тебя расстроил. Я могу тебе чем-то помочь? "
+"Похоже, ты в беде\"."
 
 #: 9990
 msgid ""
 "A look of relief momentarily flashes across his face as he backs away from "
 "you. His eyes dart warily about until finally he turns and flees."
 msgstr ""
+"Он начинает пятиться, и на мгновение на его лице появляется выражение "
+"облегчения. Он беспокойно оглядывается, потом, наконец, поворачивается и "
+"убегает."
 
 #: 9991 9993
 msgid "\"I think I'm beginning to understand the meaning of 'barmy.'\""
-msgstr ""
+msgstr "\"Кажется, я начинаю понимать значение слова 'чокнутый'\"."
 
 #: 9992
 msgid ""
@@ -105,6 +129,9 @@ msgid ""
 "face in his hands and sinks to the ground sobbing. You don't think you're "
 "going to learn anything from him."
 msgstr ""
+"Его глаза метаются из стороны в сторону, и вдруг он начинает хныкать. Он "
+"закрывает лицо руками и, плача, опускается на землю. Непохоже, что ты от "
+"него чего-нибудь добьешься."
 
 #: 9994
 msgid ""
@@ -112,10 +139,14 @@ msgid ""
 "you. His eyes dart warily about and then focus on you. \"You... you'd be "
 "willing to help me out? Me, a stranger? What's the catch, berk!\""
 msgstr ""
+"Он начинает пятиться, и на мгновение на его лице появляется выражение "
+"облегчения. Его глаза беспокойно бегают, потом фокусируются на тебе. \"Ты... "
+"ты хочешь мне помочь? Мне, незнакомцу? В чем подвох, пень?!\""
 
 #: 9995
 msgid "\"Yes, I'd help you. No strings attached. Just tell me what you need.\""
 msgstr ""
+"\"Да, я хочу тебе помочь. Никаких подвохов. Просто скажи, что тебе нужно\"."
 
 #: 9996
 msgid ""
@@ -124,6 +155,10 @@ msgid ""
 "ya. No other here would offer help to the likes of me. I... I don't think "
 "there is any help for me. Not ever... I thank ya... I must go.\""
 msgstr ""
+"Он осторожно осматривает тебя с ног до головы, потом оглядывается. Его "
+"затравленный взгляд на миг пропадает, когда он снова поворачивается к тебе. "
+"\"Благодарю тебя. Никто бы не предложил помощь такому как я. Я... Я не "
+"думаю, что от меня будет толк... Благодарю тебя... Мне нужно идти\"."
 
 #: 9997
 msgid "\"I understand. Farewell.\""
