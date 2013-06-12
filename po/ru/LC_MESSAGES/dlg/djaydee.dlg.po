@@ -3,21 +3,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: djaydee.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:08+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2013-06-12 21:01+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: 58535
 msgid ""
 "You see a warehouse worker. He seems quite intent on his work and doesn't "
 "notice your approach."
 msgstr ""
+"Перед тобой складской рабочий. Похоже, он полностью сосредоточен на своей "
+"работе и не заметил твоего приближения."
 
 #: 58537
 msgid "\"Greetings.\""
@@ -30,27 +32,27 @@ msgstr "Игнорировать его."
 #: 58542
 msgid ""
 "He pauses at what he is doing and turns to face you. \"May I help you?\""
-msgstr ""
+msgstr "Он прерывает работу и поворачивается к тебе. \"Чем могу помочь?\""
 
 #: 58543
 msgid "\"I have some questions...\""
-msgstr "\"У меня есть некоторые вопросы...\" "
+msgstr "\"У меня есть вопросы...\" "
 
 #: 58547
-#, fuzzy
 msgid "\"No, not really. Farewell.\""
-msgstr "\"На самом деле - ничего. Прощай\"."
+msgstr "\"Пожалуй, ничем. Прощай\"."
 
 #: 58549
 msgid ""
 "He frowns. \"I have a lot of work to do and I don't have time for questions. "
 "Sorry.\" He starts to turn away."
 msgstr ""
+"Он хмурится. \"У меня еще полно работы и нет времени на вопросы. Извини\". "
+"Он начинает отворачиваться."
 
 #: 58551
-#, fuzzy
 msgid "\"Just a quick question...\""
-msgstr "\"Всего лишь несколько вопросов...\""
+msgstr "\"Только один небольшой вопрос...\""
 
 #: 58553
 msgid "\"Farewell then.\""
@@ -61,11 +63,12 @@ msgid ""
 "He sighs as he turns to face you. \"A quick question... do you know how many "
 "times a day I hear that?\" He glares at you."
 msgstr ""
+"Он вздыхает, поворачиваясь к тебе. \"Небольшой вопрос... Знаешь, сколько раз "
+"в день я это слышу?\" Он пристально смотрит на тебя."
 
 #: 58556
-#, fuzzy
 msgid "\"Uh... no.\""
-msgstr "\"Эээ... нет\"."
+msgstr "\"Э-э... нет\"."
 
 #: 58557 58562 58566 58571 58576 58579
 msgid "\"Farewell.\""
@@ -78,10 +81,15 @@ msgid ""
 "wait to ask his damn fool question another time it's always just a *quick* "
 "question!\" He glares at you angrily. \"And you know what?\""
 msgstr ""
+"\"Что ж, тогда я скажу: слишком много! Каждый раз, когда какой-нибудь чертов "
+"пень знает, что будет досаждать мне, как весь Баатор, потому что он видит, "
+"что я занят, но ему не в моготу подождать со своим чертовым дурацким "
+"вопросом до следующего раза, он говорит 'один *небольшой* вопрос'! - он "
+"сердито смотрит на тебя. - И знаешь, что оказывается?\""
 
 #: 58560
 msgid "\"Uh... no. What?\""
-msgstr ""
+msgstr "\"Э-э... нет. Что?\""
 
 #: 58563
 msgid ""
@@ -90,10 +98,14 @@ msgid ""
 "sodding essay in order to get a proper answer. But! He tells you it's going "
 "to be quick! You know why?\""
 msgstr ""
+"Он повышает голос и начинает махать руками. \"Что он врет! Он знает, что "
+"вопрос не будет *небольшим*! Он знает, что понадобится целый чертов доклад, "
+"чтобы дать правильный ответ. Но! Он говорить, что вопрос будет небольшим! "
+"Знаешь, почему?\""
 
 #: 58564
 msgid "\"Uh... no. Why?\""
-msgstr ""
+msgstr "\"Э-э... нет. Почему?\""
 
 #: 58567
 msgid ""
@@ -102,14 +114,18 @@ msgid ""
 "was a quick question so it doesn't matter that it takes half an hour out of "
 "your time to answer! You're STUPID and won't notice!\""
 msgstr ""
+"\"Потому что он думает, что ты - ИДИОТ! Он считает, что ты не заметишь, как "
+"много времени займет ответ на его вопрос. О нет! Он сказал, что вопрос будет "
+"небольшим, и не важно, что ответ займет у тебя полчаса! Ты ИДИОТ и не "
+"заметишь!\""
 
 #: 58568
 msgid "\"Maybe I should come back later...\""
-msgstr ""
+msgstr "\"Может, я подойду позже...\""
 
 #: 58569
 msgid "\"I'm sorry for the interruption, I can see you're busy...\""
-msgstr ""
+msgstr "\"Извини, что прерываю. Я вижу, что ты занят...\""
 
 #: 58572
 msgid ""
@@ -117,15 +133,16 @@ msgid ""
 "your sodding question, take an hour out of my busy day, and be done with it."
 "\" He glares at you."
 msgstr ""
+"\"Зачем? Ты и так меня прервал и сбил с мысли! Задавай свой чертов вопрос, "
+"забери у меня час рабочего времени, и покончим с этим\". Он смотрит на тебя."
 
 #: 58573
-#, fuzzy
 msgid "\"I'm looking for a deva. I've been told he's in Curst.\""
-msgstr "\"Я ищу дневник\"."
+msgstr "\"Я разыскиваю дэва. Мне сказали, что он в Проклятом\"."
 
 #: 58574
 msgid "\"I think I'll be going. Farewell.\""
-msgstr ""
+msgstr "\"Пожалуй, мне пора. Прощай\"."
 
 #: 58575
 msgid ""
@@ -133,6 +150,9 @@ msgid ""
 "that's the case, you need to go to the administration building in the town "
 "square and ask about him. Now leave me be...\" He turns away from you."
 msgstr ""
+"\"Ага, я тоже такое слышал. Слухи говорят, что он в тюрьме. Если это правда, "
+"тебе необходимо зайти в здание администрации на городской площади и "
+"расспросить о нем. А теперь оставь меня...\" Он отворачивается от тебя."
 
 #: 58577
 msgid ""
@@ -141,10 +161,15 @@ msgid ""
 "that's the best part of having the sodding schedule! Every day something's "
 "added to it or taken off so that something else can be added.\""
 msgstr ""
+"Он прерывается, чтобы бросить на тебя пристальный взгляд. \"Занят? Ты видел "
+"мой график? Пень, да ты понятия не имеешь, что такое 'занят', - он фыркает. "
+"И эта чертова штука тоже меняется - в этом вся прелесть работать по "
+"чертовому графику! Каждый день в него что-нибудь добавляют или убирают, "
+"чтобы добавить еще что-нибудь\"."
 
 #: 58578
 msgid "\"I see. I think I should go now...\""
-msgstr ""
+msgstr "\"Понятно. Думаю, мне уже пора...\""
 
 #: 58580
 msgid ""
@@ -152,7 +177,10 @@ msgid ""
 "he notices you approach. \"Oh, it's you again. Let me guess, you have a "
 "*quick* question for me.\""
 msgstr ""
+"Перед тобой сердитый складской рабочий. Похоже, он полностью сосредоточен на "
+"своей работе и не заметил твоего приближения. \"О, снова ты. Дай, угадаю: у "
+"тебя ко мне *небольшой* вопрос\"."
 
 #: 58581
 msgid "\"No, I think I'll be leaving. Farewell.\""
-msgstr ""
+msgstr "\"Нет, пожалуй, мне уже пора. Прощай\"."
