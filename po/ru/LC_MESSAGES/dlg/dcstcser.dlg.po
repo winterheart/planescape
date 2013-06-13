@@ -1,18 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcstcser.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-08-03 20:37+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2013-06-13 22:36+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.4\n"
-"Language: ru\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: 10000
 msgid "Leave him in peace."
@@ -23,10 +22,12 @@ msgid ""
 "He does not meet your gaze but instead focuses on the ground at your feet. "
 "\"Good day to you, cutter. How may I help you?\""
 msgstr ""
+"Он избегает твоего взгляда, вместо этого потупившись в землю у твоих ног. "
+"\"Добрый день, рубака. Чем могу помочь?\""
 
 #: 10002
 msgid "\"You could look at me when I talk to you.\""
-msgstr ""
+msgstr "\"Для начала мог бы смотреть на меня, когда мы разговариваем\"."
 
 #: 10003
 msgid "\"I have some questions for you.\""
@@ -41,20 +42,23 @@ msgid ""
 "He glances up at you momentarily and then returns his gaze to your feet. "
 "\"It is not my place as a servant to meet your gaze, cutter.\""
 msgstr ""
+"Он бросает на тебя взгляд и тут же опускает его к твоим ногам. \"Мне, как "
+"слуге, не положено смотреть тебе в глаза, рубака\"."
 
 #: 10006
 msgid "\"Good. You know your place and should maintain it.\""
-msgstr ""
+msgstr "\"Хорошо. Знай свое место и не забывай его\"."
 
 #: 10007
 msgid ""
 "\"Well, you're not my servant so I would have you look at me as an equal.\""
 msgstr ""
+"\"Ну, мне ты не слуга, так что я хочу, чтобы ты смотрел на меня, как на "
+"равного\"."
 
 #: 10008
-#, fuzzy
 msgid "\"Whatever. I have some questions for you.\""
-msgstr "\"А, не важно. Ответь мне на пару вопросов\"."
+msgstr "\"Как угодно. У меня к тебе вопросы\"."
 
 #: 10009
 msgid "\"Never mind. Farewell.\""
@@ -62,26 +66,25 @@ msgstr "\"Неважно. Прощай\"."
 
 #: 10010
 msgid "He nods his head but keeps his eyes averted. \"Yes, cutter.\""
-msgstr ""
+msgstr "Он кивает, но не поднимает взгляд. \"Да, рубака\"."
 
 #: 10011
 msgid ""
 "\"I'm looking for a deva. I've been told he's in Curst. Have you seen him?\""
 msgstr ""
+"\"Я разыскиваю дэва. Мне сказали, что он в Проклятом. Ты его не видел?\""
 
 #: 10012
 msgid "\"Tell me about Curst.\""
-msgstr "\"Расскажи мне о Проклятом.\""
+msgstr "\"Расскажи мне о Проклятом\"."
 
 #: 10013
-#, fuzzy
 msgid "\"What's the latest news?\""
-msgstr "\"А в чем проблема?\""
+msgstr "\"Какие последние новости?\""
 
 #: 10014
-#, fuzzy
 msgid "\"Who's in charge around here?\""
-msgstr "\"А что опасного в округе?\""
+msgstr "\"Кто здесь главный?\""
 
 #: 10016
 msgid ""
@@ -90,15 +93,18 @@ msgid ""
 "at the administration office in the town square. They would know of such a "
 "visitor.\""
 msgstr ""
+"\"Я не знаю ни о каком дэва. Даже не могу представить, чтобы он и близко "
+"подошел к Проклятому, не говоря уже о том, чтобы зайти в город, - он "
+"прерывается, чтобы поразмыслить. - На твоем месте я бы спросил в здании "
+"администрации на городской площади. Они должны знать о подобных гостях\"."
 
 #: 10017
 msgid "\"My thanks. Some more questions, though.\""
-msgstr ""
+msgstr "\"Благодарю. Еще несколько вопросов\"."
 
 #: 10018 10023
-#, fuzzy
 msgid "\"You've been very helpful. Farewell.\""
-msgstr "\"По рукам. Прощай\"."
+msgstr "\"Ты мне очень помог. Прощай\"."
 
 #: 10019
 msgid ""
@@ -108,10 +114,15 @@ msgid ""
 "is open any longer, however. Something to do with preventing the spread of "
 "the plague... \""
 msgstr ""
+"\"Тут почти не о чем рассказывать, рубака. Проклятый - привратный город на "
+"краю Внешних земель. В нем находятся врата в Карцери; они на городской "
+"площади... - он нахмуривает лоб, призадумавшись. - Однако не думаю, что "
+"врата все еще открыты. Это связано с предотвращением распространения чумы... "
+"\""
 
 #: 10020
 msgid "\"Plague?\""
-msgstr "\"Чума?\""
+msgstr "\"Чумы?\""
 
 #: 10021
 msgid ""
@@ -119,25 +130,29 @@ msgid ""
 "but you need not concern yourself. The afflicted areas of the city have been "
 "sealed off and everything is under control.\""
 msgstr ""
+"Тон твоего голоса заставляет его поспешно объясниться. \"Да, рубака, но тебе "
+"не стоит беспокоиться. Зараженные районы города запечатаны и все находится "
+"под контролем\"."
 
 #: 10022
-#, fuzzy
 msgid "\"Uh... Fine. Let me ask you something else, then.\""
-msgstr "\"Понятно. Позволь мне спросить кое о чем еще...\""
+msgstr "\"Э-э... Ладно. Позволь мне спросить кое о чем еще...\""
 
 #: 10024
 msgid ""
 "\"News... Well, I hear there is to be an execution some time soon... other "
 "than that, I can't think of anything, cutter.\""
 msgstr ""
+"\"Новости... Ну, я слышал, что в скором времени будет проведена казнь... "
+"кроме этого, больше ничего не могу вспомнить, рубака\"."
 
 #: 10025
 msgid "\"Who's being executed and for what reason?\""
-msgstr ""
+msgstr "\"Кого и за что будут казнить?\""
 
 #: 10026
 msgid "\"All right. I need to ask you something else.\""
-msgstr ""
+msgstr "\"Хорошо. Мне нужно спросить тебя еще кое о чем\"."
 
 #: 10027
 msgid "\"I see. Thanks for the information. Farewell.\""
@@ -148,11 +163,12 @@ msgid ""
 "He shrugs his shoulders. \"I don't know, cutter. It isn't you or I... so "
 "does it really matter?\""
 msgstr ""
+"Он пожимает плечами. \"Не знаю, рубака. Не нас с тобой... так что какая "
+"разница?\""
 
 #: 10029
-#, fuzzy
 msgid "\"... I guess not. Let me ask you something else.\""
-msgstr "\"Понятно. Позволь мне спросить кое о чем еще...\""
+msgstr "\"Пожалуй, никакой. Позволь мне спросить кое о чем еще...\""
 
 #: 10030
 msgid "\"I see. I must be going now. Farewell.\""
@@ -163,14 +179,16 @@ msgid ""
 "\"That would be Burgher Tovus Giljaf. He can be found at the administration "
 "office in the town square.\""
 msgstr ""
+"\"Бургомистр Товус Гильяф. Его можно найти в здании администрации на "
+"городской площади\"."
 
 #: 10032
 msgid "\"I see. What can you tell me about Tovus?\""
-msgstr ""
+msgstr "\"Понятно. Что ты можешь рассказать мне про Товуса?\""
 
 #: 10033
 msgid "\"Many thanks. I need to ask you something else.\""
-msgstr ""
+msgstr "\"Большое спасибо. Я хочу спросить тебя кое о чем еще\"."
 
 #: 10034
 msgid ""
@@ -178,10 +196,13 @@ msgid ""
 "\"Nothing, cutter. Nothing at all. If you have questions about his lordship "
 "you should take them to him.\" He lowers his gaze."
 msgstr ""
+"В первый раз он поднимает голову и встречается с тобой взглядом. \"Ничего, "
+"рубака. Абсолютно ничего. Если у тебя есть вопросы насчет его лордства, тебе "
+"нужно задать их ему самому\". Он опускает взгляд."
 
 #: 10035
 msgid "\"All right, I just might do that. Let me ask you another question.\""
-msgstr ""
+msgstr "\"Ладно, наверно, так и сделаю. Позволь задать тебе еще один вопрос\"."
 
 #: 10036
 msgid "\"I see. Well, I have to go now. Farewell.\""
@@ -192,6 +213,8 @@ msgid ""
 "You see a weary-looking, middle-aged man. When he notices your attention he "
 "gives you a slight bow."
 msgstr ""
+"Перед тобой усталый с виду мужчина средних лет. Заметив твое внимание к "
+"нему, он делает легкий поклон."
 
 #: 9999
 msgid "\"Greetings.\""
