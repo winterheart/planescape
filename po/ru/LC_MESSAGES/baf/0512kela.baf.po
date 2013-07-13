@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-09-06 01:58 +0600\n"
-"PO-Revision-Date: 2013-03-20 21:46+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2013-07-09 23:59+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.7\n"
 "Language: ru\n"
 
 #: 16960
@@ -20,7 +20,7 @@ msgstr "\"Да, госпожа Келлера\"."
 
 #: 16961
 msgid "\"That part may be coming loose, please check into it.\""
-msgstr "\"Эта деталь может быть не затянута, проверь ее\"."
+msgstr "\"Эта деталь может отвалиться, проверь ее\"."
 
 #: 16962
 msgid "\"It's going well.\""
@@ -32,7 +32,7 @@ msgstr "\"Как идет работа?\""
 
 #: 16964
 msgid "\"Hmmmm.  This just might do it.\""
-msgstr "\"Хммм. Возможно, так будет лучше\"."
+msgstr "\"Хм-м. Возможно, так будет лучше\"."
 
 #: 16965
 msgid "\"Try using this tool instead.\""
@@ -52,11 +52,11 @@ msgstr "\"Продолжай в том же духе\"."
 
 #: 16978
 msgid "\"Yes, mistress.\""
-msgstr "\"Да, госпожа.\""
+msgstr "\"Да, госпожа\"."
 
 #: 16979
 msgid "\"Keep at it.\""
-msgstr "\"Продолжай.\""
+msgstr "\"Продолжай\"."
 
 #: 16980
 msgid "::Yawn:: \" Yea, I've been trying to solve the problem with the part.\""
@@ -85,5 +85,3 @@ msgstr "\"ЭТА ДЕТАЛЬ СЮДА НЕ ПОДХОДИТ!!!\""
 #: 17018
 msgid "\"Huh?\""
 msgstr "\"А?\""
-
-
