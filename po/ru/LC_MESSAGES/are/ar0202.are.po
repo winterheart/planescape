@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ar0202.are\n"
 "POT-Creation-Date: 2009-05-25 03:20 +0600\n"
-"PO-Revision-Date: 2009-05-27 03:38+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2013-07-27 16:43+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: 0
 msgid ""
@@ -19,7 +19,7 @@ msgid ""
 "only sadness in it. She closes her eyes, and with an ethereal whisper, she "
 "fades."
 msgstr ""
-"\"Я буду ждать тебя в залах смерти, моя Любовь.\" Дейонарра улыбается, но в "
+"\"Я буду ждать тебя в залах смерти, любовь моя\". Дейонарра улыбается, но в "
 "улыбке нет ничего, кроме печали. Закрыв глаза, она исчезает с беззвучным "
 "вздохом."
 
@@ -32,7 +32,7 @@ msgid ""
 "This gate looks sealed shut. There is no lock or other means of opening it."
 msgstr ""
 "Похоже, эти врата запечатаны. На них нет ни замка, ни чего-либо, что может "
-"открыть их."
+"их открыть."
 
 #: 5045
 msgid "Looks like someone is in the middle of dissecting this corpse."
@@ -53,7 +53,7 @@ msgid ""
 "instruments, stained vials and bloody sheets."
 msgstr ""
 "Этот стол покрыт мотками ниток, обрывками одежды, ржавыми инструментами, "
-"грязными пузырьками и окровавленными бумагами."
+"грязными пузырьками и окровавленными простынями."
 
 #: 5051
 msgid ""
@@ -61,8 +61,8 @@ msgid ""
 "of the table has peeled the skin off the forehead to give direct access to "
 "the skull."
 msgstr ""
-"Это тело выглядит так, как будто кто-то вывернул его содержимое наизнанку. "
-"Машина у головы сняла кожу со лба, раскрывая прямой доступ к черепу."
+"Это тело выглядит так, словно кто-то вывернул его содержимое наизнанку. "
+"Машина у головы сняла кожу со лба, открыв прямой доступ к черепу."
 
 #: 5054
 msgid ""
@@ -80,11 +80,11 @@ msgstr "Похоже на огромную дробилку. Из-под нее 
 
 #: 5056
 msgid "This body is completely covered by a rough dark cloth."
-msgstr "Это тело полностью накрыто темно-красным полотном."
+msgstr "Это тело полностью накрыто грубым темным полотном."
 
 #: 5057
 msgid "This corpse has been completely wrapped in bandages, like a mummy."
-msgstr "Это тело, как мумия, целиком обмотано бинтами."
+msgstr "Это тело полностью замотали бинтами, как мумию."
 
 #: 5059
 msgid "This slab is covered with dried blood and other remains."
@@ -95,15 +95,15 @@ msgid ""
 "This device looks like some sort of sewing machine... arms with hooks, "
 "tubes, and metallic thread hang from it."
 msgstr ""
-"Это устройство похоже на своеобразную швейную машину... с нее свисают руки с "
-"крючками, трубками и металлическими иглами."
+"Это устройство похоже на своеобразную швейную машину... с нее свисают рычаги "
+"с крючками, трубками и металлическими иглами."
 
 #: 5064
 msgid ""
 "A system of rails is running through the whole room. It looks like the slabs "
 "in the room can be moved around on these rails."
 msgstr ""
-"Система рельсов покрывает всю комнату. Похоже, плиты в комнате можно "
+"Через всю комнату проходит система рельсов. Похоже, плиты в комнате можно "
 "передвигать по этим рельсам."
 
 #: 5065
@@ -112,8 +112,8 @@ msgid ""
 "through the tubes into a strange machine. The machine is making clicking "
 "noises, like an insect."
 msgstr ""
-"Этот гниющий труп истыкан трубками. Через эти трубки течет желтая жидкость в "
-"странную машину. Машина издает щелкающие звуки, прямо как насекомое."
+"Этот гниющий труп истыкан трубками. Через трубки желтая жидкость течет в "
+"странную машину. Машина щелкает, прямо как насекомое."
 
 #: 5066
 msgid ""
@@ -138,7 +138,7 @@ msgid ""
 "without tearing it."
 msgstr ""
 "Это выпотрошенное тело является наглядным свидетельством того, насколько "
-"далеко можно вытягивать внутренности без нарушения целостности тела."
+"далеко можно вытягивать внутренности, не разорвав их."
 
 #: 5084
 msgid ""
@@ -168,7 +168,7 @@ msgid ""
 "The bandages covering this body are soaked with blood. Even though this "
 "corpse looks several days dead, blood still trickles from its wounds."
 msgstr ""
-"Бинты, скрывающие это тело, насквозь пропитаны кровью. Не смотря на то, что "
+"Бинты, скрывающие это тело, насквозь пропитаны кровью. Несмотря на то, что "
 "труп мертв уже несколько дней, кровь все еще сочится из его ран."
 
 #: 882
@@ -195,4 +195,3 @@ msgstr ""
 "Из этого этого мертвенно-бледного тела была выкачана вся кровь и заменена на "
 "бальзамирующую жидкость. Из грудной клетки трупа истончается тошнотворный "
 "запах."
-
