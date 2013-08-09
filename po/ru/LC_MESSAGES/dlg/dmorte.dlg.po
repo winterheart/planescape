@@ -3,27 +3,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dmorte.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-06-19 23:29+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2013-08-10 01:37+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "Language: ru\n"
 
 #: 1000 1105
-#, fuzzy
 msgid "\"Sensates?\""
 msgstr "\"Чувствующих?\""
 
 #: 1001 1027 1106
-#, fuzzy
 msgid "\"Scars?\""
-msgstr "\"Сэр?\""
+msgstr "\"Шрамы?\""
 
 #: 1002 1011 1020 1081 1085 1086 1087 1090 1096 1099 1103 1108 1112 1116 1122
 #: 1127 1132 1136 1137 1138 1141 1142 1143 1144 1145 1146 1148 1149 1150 1153
@@ -33,7 +31,7 @@ msgstr "Не обращать внимания на Морта и изучить
 
 #: 1003
 msgid "\"Yeah, 'an I asked you second. What's your name?\""
-msgstr "\"Ага, а я спросил тебя вторым. Как твое имя?\""
+msgstr "\"Ага, а я спросил тебя вторым. Как тебя звать?\""
 
 #: 1004 1009 992
 msgid "\"I... don't know.\""
@@ -44,9 +42,8 @@ msgid "\"I don't know... I can't remember.\""
 msgstr "\"Я не знаю... Не могу вспомнить\"."
 
 #: 1006 1077 1120
-#, fuzzy
 msgid "\"Do you know how I can get out of here?\""
-msgstr "\"Ты можешь мне сказать, как мне выбраться отсюда?\""
+msgstr "\"Ты знаешь, как мне отсюда выбраться?\""
 
 #: 1007
 msgid "\"You first, skull.\""
@@ -58,6 +55,9 @@ msgid ""
 "nice guy here... me, I'm Morte. Morte Rictusgrin. Now what name is "
 "unfortunate enough to have you as its owner?\""
 msgstr ""
+"\"Да ты натянут как струна. Ладно, ладно... Пускай *я* буде хорошим "
+"парнем... я, Морт. Морт Зубоскал. Итак, какому имени не посчастливилось "
+"иметь такого владельца как ты?\""
 
 #: 1010
 msgid "\"I don't know... I can't seem to remember anything.\""
@@ -73,8 +73,10 @@ msgstr ""
 
 #: 1013
 msgid "\"'The Mortuary?' Am I dead?\""
-msgstr "\"'Морг?' Я умер?\""
+msgstr "\"'Морг'? Я умер?\""
 
+# berg=burg?
+# два морга в одном предложении!
 #: 1014
 msgid ""
 "\"Well, now I don't know about that... but the Mortuary's the closest thing "
@@ -83,6 +85,11 @@ msgid ""
 "life as a slave. Not the best spot on the Planes to be. If I was you, I'd "
 "dig up the nearest exit and give this place the laugh.\""
 msgstr ""
+"\"Ну, насчет этого не знаю... Но Морг - самое подходящее место для "
+"покойников, которое только можно найти в этом городишке. Всякие пни тащат "
+"сюда мертвецов, хоронят их, сжигают, а если тебе *конкретно* повезло, тебя "
+"возвращают к жизни в качестве раба. Не лучшее место на Планах. На твоем "
+"месте я бы разыскал ближайший выход и помахал этому месту ручкой\"."
 
 #: 1015 1095 1125 1130
 msgid "\"How do I get out of here?\""
@@ -90,20 +97,20 @@ msgstr "\"Как мне выбраться отсюда?\""
 
 #: 1016
 msgid "\"I'm sorry... the 'Mortuary?' What is this place?\""
-msgstr "\"Извини... 'Морг'? Что это за место?\""
+msgstr "\"Прошу прощения... 'Морг'? Что это за место?\""
 
 #: 1017
 msgid "\"Back from the dead as a slave?\""
-msgstr ""
+msgstr "\"Возвращают к жизни в качестве раба?\""
 
+# while=why?
 #: 1018
-#, fuzzy
 msgid "\"While I can still walk?\""
-msgstr "\"'Пока я еще могу'?\""
+msgstr "\"Но почему я тогда могу ходить?\""
 
 #: 1019
 msgid "\"You say people haul dead bodies here? Is that how I got here?\""
-msgstr ""
+msgstr "\"Говоришь, люди тащат сюда мертвецов? Это так я сюда попал?\""
 
 #: 1021
 msgid ""
@@ -113,6 +120,11 @@ msgid ""
 "nods. \"Not bad thinking for a recently dead guy... good to see your brain-"
 "box is still in one piece.\""
 msgstr ""
+"Пауза. \"Ага, наверно. Может, какой-нибудь бездельник спутал тебя со "
+"жмуриком и подкинул тебя сюда. То, как ты строишь из себя трупака, и *меня* "
+"бы одурачило... может, тебе лучше найти того пня, который притащил тебя "
+"сюда, и его расспросить, а? - Морт кивает. - Неплохо соображаешь, как для "
+"недавнего мертвеца... рад видеть, что твоя черепушка все еще на месте\"."
 
 #: 1022
 msgid ""
@@ -120,9 +132,9 @@ msgid ""
 "formaldehyde and stitching your limbs back when they fall off, it's paradise."
 "\""
 msgstr ""
-"\"Да, это очаровательная жизнь... если не считать постоянного использования "
-"формальдегида и пришивания вываливающихся частей тела, то это можно считать "
-"раем\"."
+"\"Да, это очаровательная жизнь... если не учитывать, что тебя без конца "
+"натирают формальдегида и пришиваю тебе отвалившиеся конечности, это можно "
+"считать раем\"."
 
 # не используется
 #: 1023
@@ -139,6 +151,9 @@ msgid ""
 "odds. You look like you're about to settle your drinking tab, if you catch "
 "my meaning.\""
 msgstr ""
+"\"Шеф, зрелище того, как ты сползаешь с плиты, было жуть как странно. Ты "
+"выглядишь так, будто тебе уже пора просить счет за выпивку, если ты понял, о "
+"чем я\"."
 
 #: 1025
 msgid ""
@@ -146,6 +161,10 @@ msgid ""
 "group of bashers who're all about experiencing all the planes have to offer, "
 "right, including... well, forget it for now. What about those scars?\""
 msgstr ""
+"\"Не знаешь, кто такие чувствующие? О, *ты* что, рассчитываешь на особе "
+"отношение! Ну, они - кучка рубак, которые хотят перепробовать все, что могут "
+"предоставить им планы, включая... что ж, пока о них забудем. Что насчет этих "
+"шрамов?\""
 
 #: 1026
 msgid ""
@@ -153,6 +172,9 @@ msgid ""
 "all over... even on your back, 'cept...\" Pauses. \"Say, you got a whole "
 "tattoo gallery on your back, berk. Spells out something...\""
 msgstr ""
+"\"Это как будто какой-нибудь рубака решил разрисовать тебя ножом. Ты весь в "
+"шрамах... даже на спине, не считая... - делает паузу. - Скажем так: пень, у "
+"тебя на спине целая галерея наколок. Тут что-то написано...\""
 
 #: 1028 1102 41856 65560 65598 65602 65606 65648 65715 65720 65724 65728 65811
 msgid "\"Never mind. I had some other questions...\""
@@ -172,7 +194,7 @@ msgid ""
 "for jink. Not a great way to make ends meet, but when yer living in the "
 "chamber pot of the Planes, yer options are pretty narrow.\""
 msgstr ""
-"\"Некоторые люди в этом городишке собирают мертвецов с улиц и продают их "
+"\"Некоторые люди в этом городишке собирают жмуриков с улиц и продают их "
 "здесь за звенелки. Не очень-то хороший способ сводить концы с концами, но "
 "если ты живешь отстойнике всех Планов, то выбор у тебя не так уж велик\"."
 
@@ -188,7 +210,7 @@ msgstr "\"Неважно. Послушай, у меня есть другие в
 msgid ""
 "\"Eh... money. Jink is money. Didn't they have that where you came from?\""
 msgstr ""
-"\"Эээ... деньги. Звенелки - это деньги. Там, откуда ты, что, их нету?\""
+"\"Э-э... деньги. Звенелки - это деньги. Разве там, откуда ты, их нету?\""
 
 #: 1035
 msgid "\"I don't remember where I'm from.\""
@@ -206,12 +228,19 @@ msgid ""
 "they usually got fill out all sorts of legal paperwork before they can pull "
 "someone outta the dead-book.\""
 msgstr ""
+"Он умолкает. \"Не знаю. Ты *болтаешь* со мной... Здешние ходячие мертвецы "
+"обычно так не делают. Как мне кажется, мертвяки допустили ошибку и ты не был "
+"мертвым. Ты случайно не помнишь, чтобы подписывал какой-то контракт? То "
+"есть, обычно они заполняют кучу документов, прежде чем вытащить кого-нибудь "
+"из книги мертвых\"."
 
 #: 1038
 msgid ""
 "\"Uh... contract? No, I don't remember signing one. I... don't remember much "
 "of anything.\""
 msgstr ""
+"\"Э... контракт? Нет, не помню, чтобы подписывал контракт. Я... почти ничего "
+"не помню\"."
 
 #: 1039
 msgid "\"Dead book?\""
@@ -219,14 +248,14 @@ msgstr "\"Книга мертвых?\""
 
 #: 1040
 msgid "\"Legal?\""
-msgstr ""
+msgstr "\"Документов?\""
 
 #: 1042
 msgid ""
 "\"Yeah, the 'dead-book.' You know? Uh, maybe you don't. Look, forget the "
 "'dead-book.' You're alive, so you ain't in it.\""
 msgstr ""
-"\"Ну да, 'книга мертвых'. Знаешь про такую? А, может и не знаешь. Слушай, "
+"\"Ну да, 'книга мертвых'. Знаешь про такую? А может и не знаешь. Слушай, "
 "забудь про 'книгу мертвых'. Ты живой, значит, тебя в ней нет\"."
 
 #: 1043
@@ -235,6 +264,8 @@ msgid ""
 "you can't even empty your bladder without filling out one contract or "
 "another.\""
 msgstr ""
+"\"Ага, от этого так и хочется ломать кирпичи? Сигил вращается благодаря "
+"законам, и нельзя даже облегчиться, не подписав пару контрактов\"."
 
 #: 1044
 msgid ""
@@ -242,6 +273,9 @@ msgid ""
 "where you came from? Somewhere, a nation of Clueless is missing their king. "
 "Did you bite your thumb at a god or were you always this ignorant?\""
 msgstr ""
+"\"Во имя богов и их матерей, ты что, *вообще* не в курсе? Ты хоть "
+"представляешь, откуда ты? Наверно, у народа бестолочей пропал их царь. Ты "
+"что, показал какому-нибудь богу кукиш, или всегда был таким недалеким?\""
 
 #: 1045
 msgid ""
@@ -249,6 +283,9 @@ msgid ""
 "though. While you was lying there, I never saw your chest move, your eyes "
 "blink... nothing. Were you drinking? Is that what happened?\""
 msgstr ""
+"\"Шеф, я без зеленого понятия. А вот ты точно набил руку, изображая из себя "
+"мертвеца. Пока ты здесь лежал, я не заметил, чтобы ты моргал или дышал... "
+"ничего. Ты что, напился? Что произошло?\""
 
 #: 1046
 msgid ""
@@ -258,10 +295,14 @@ msgid ""
 "playing dead, you'll go to the crematorium anyway. A modron's choice, eh? "
 "What to do?\""
 msgstr ""
+"\"Что ж, вот *это* хороший вопрос. Для тебя, шеф, часы снова начали тикать. "
+"Тебя найдут тленные и попытаются исправить 'проблему' с твоим воскрешением, "
+"засунув тебя в крематорий. Если и дальше будешь изображать труп, ты так или "
+"иначе попадешь в крематорий. Значит, выбор, как у модрона? Что делать?\""
 
 #: 1047
 msgid "\"Dustmen?\""
-msgstr "\"Тленных?\""
+msgstr "\"Тленные?\""
 
 #: 1048
 msgid "\"I'll... escape.\""
@@ -269,27 +310,27 @@ msgstr "\"Я... сбегу\"."
 
 #: 1049
 msgid "\"I'll explain the situation to these... Dustmen.\""
-msgstr "\"Я все объясню этим... Тленным\"."
+msgstr "\"Я все объясню этим... тленным\"."
 
 #: 1050
-#, fuzzy
 msgid "\"What should I do?\""
-msgstr "\"Что за вопросы у тебя?\""
+msgstr "\"Что мне делать?\""
 
 #: 1051
 msgid "\"Why don't you tell me? Sounds like you have an answer already.\""
-msgstr ""
+msgstr "\"Почему бы тебе не сказать? Похоже, у тебя уже заготовлен ответ\"."
 
 #: 1052
 msgid ""
 "\"Oh, *good* idea, chief! Why didn't *I* think of that? How you gonna "
 "escape, huh? I'll give you a clue: It involves a little cooperation.\""
 msgstr ""
+"\"О, *отличная* идея, шеф! Почему *я* до этого не додумался? И как же ты "
+"сбежишь? Даю подсказку: нужно небольшое сотрудничество\"."
 
 #: 1053
-#, fuzzy
 msgid "\"I'm interested. Keep talking.\""
-msgstr "\"Продолжим\"."
+msgstr "\"Ты меня заинтересовал. Продолжай\"."
 
 #: 1055
 msgid ""
@@ -297,19 +338,21 @@ msgid ""
 "can afford to wait. The only danger *I'm* in is dying of boredom. We could "
 "lend each other a hand.\""
 msgstr ""
+"\"Как мне кажется, тебе явно нужно отсюда выбираться. Что до меня, то я могу "
+"позволить себе подождать. Единственное, то угрожает *мне*, - это смерть от "
+"скуки. Мы могли бы протянуть друг другу руку помощи\"."
 
 #: 1057
 msgid "\"It's a deal.\""
 msgstr "\"По рукам\"."
 
 #: 1058
-#, fuzzy
 msgid "\"Keep talking...\""
-msgstr "Говорящий череп"
+msgstr "\"Прожолжай...\""
 
 #: 1059
 msgid "\"You don't have any hands. What could *you* do to help me?\""
-msgstr ""
+msgstr "\"У тебя нет рук. Как *ты* можешь мне помочь?\""
 
 #: 1061
 msgid ""
@@ -319,12 +362,19 @@ msgid ""
 "how to get you out of this dive. We cooperate, and we both come out a *head."
 "* Deal, berk?\""
 msgstr ""
+"\"Может, ты таки и не считаешь, но я мог бы помочь выбраться тебе, а ты - "
+"мне. У меня нет рук, так что я в слегка затруднительном положении. У тебя "
+"недостача в черепушке, а вот у меня много опыта и знаний, как вывести тебя "
+"из этой хибары. Будем сотрудничать - оба выберемся *наружу*. По рукам, пень?"
+"\""
 
 #: 1062
 msgid ""
 "\"Deal. I have a bad feeling that fate has destined we travel together, "
 "Morte.\""
 msgstr ""
+"\"По рукам. У меня есть дурное предчувствие, что нам судьбой предрешено "
+"путешествовать вместе, Морт\"."
 
 #: 1064
 msgid ""
@@ -334,14 +384,20 @@ msgid ""
 "They'll look at you for a few seconds, call the guards and pop you in your "
 "own private kiln.\""
 msgstr ""
+"\"О, *отличная* мысль, шеф! Почему *я* до этого не додумался? - его тон "
+"становится насмешливым. - 'Кстати, сэр Тленный, я тут умер и очнулся на "
+"плите в вашем маленьком Морге. Вы мне не поможете?' Они тебе 'помогут', куда "
+"уж там. Поразглядывают тебя пару секунд, потом позовут стражу и закинут тебя "
+"в твои личную топку\"."
 
 #: 1065
 msgid "\"That sounds a little extreme... why would they do that?\""
-msgstr ""
+msgstr "\"Звучит, как какие-то крайности... Зачем им это делать?\""
 
 #: 1066
 msgid "\"Well, their guards better be pretty damn tough to take me down.\""
 msgstr ""
+"\"Что ж, стража у них должна быть чертовски крутой, чтобы взять меня\"."
 
 #: 1068
 msgid ""
@@ -351,11 +407,14 @@ msgid ""
 "from the dead is bad enough as far as the caretakers around here are "
 "concerned. Don't be an idiot.\""
 msgstr ""
+"\"Просто поверь мне... Неважно, насколько крутым ты себя считаешь и что ты "
+"им скажешь, - они тебя схватят. Ты не настолько силен, чтобы пробиться через "
+"стены гробницы или пережить жар стихийного плана огня. Пробуждение из "
+"мертвых - не лучшая затея, пока вокруг столько стражи. Не будь идиотом\"."
 
 #: 1069
-#, fuzzy
 msgid "\"So your plan is...?\""
-msgstr "\"Каковы твои обязанности?\""
+msgstr "\"И каков твой план?..\""
 
 #: 1071
 msgid ""
@@ -365,6 +424,11 @@ msgid ""
 "tell fate to wrap itself in razorvine; there's *always* another option that "
 "fate never lets on.\" "
 msgstr ""
+"\"Судьба может присесть на алебарду - мне-то какое дело. Слушай, шеф. Обрати "
+"внимание на то, как часто слова 'плохой' и 'судьба' встречаются в одном и "
+"том же предложении, и тебе откроется одна из тайн жизни. Лучше всего сказать "
+"судьбе завернуться в остролистник: *всегда* есть другой вариант, который "
+"судьба не показывает\". "
 
 #: 1072
 msgid ""
@@ -372,14 +436,17 @@ msgid ""
 "outta here are locked, so we'll need the key. Chances are, one of the "
 "walking corpses in this room has it.\""
 msgstr ""
+"\"Ну хорошо... а теперь вперед, сваливаем отсюда. Двери выхода заперты, так "
+"что нам понадобится ключ. Есть шанс, что он у одного из ходячих трупов в "
+"этой комнате\"."
 
 #: 1073
 msgid "\"I'll keep that in mind.\""
-msgstr "\"Я запомню это\"."
+msgstr "\"Буду иметь в виду\"."
 
 #: 1074
 msgid "\"Enough talk already. What's your big plan?\""
-msgstr ""
+msgstr "\"Хватит болтовни. Так какой у тебя план?\""
 
 #: 1075 1092 18807 987
 msgid "\"Who are you?\""
@@ -404,30 +471,35 @@ msgid ""
 "'the Dustmen' and pretend they're a faction, but they're just a addled bunch "
 "of ghoulish death-worshippers. Steer clear of them.\""
 msgstr ""
+"\"Мертвяки? Они смотрят за этим местом. Ты их не пропустишь... Они питают "
+"особую тягу к черному цвету и окоченевшему выражению лица. Они зовут себя "
+"'тленными' и притворяются фракцией, но они - всего лишь кучка свихнувшихся "
+"упырей, поклоняющихся смерти. Держись от них подальше\"."
 
 #: 1083
 msgid "\"So how do I get out of here?\""
 msgstr "\"И как мне выбраться отсюда?\""
 
 #: 1088
-#, fuzzy
 msgid "\"What does it say?\""
-msgstr "\"Интересно. А что это означает?\""
+msgstr "\"Что там написано?\""
 
 #: 1091
-#, fuzzy
 msgid "\"Yeah? Like *what* questions?\""
-msgstr "\"Что за вопросы у тебя?\""
+msgstr "\"Да? И *какие* же вопросы?\""
 
 #: 1097 1139
 msgid "\"I don't know... I can't remember anything.\""
 msgstr "\"Я не знаю... Я ничего не могу вспомнить\"."
 
+# planescape version of bullshit
 #: 1100
 msgid ""
 "\"You don't remember *anything?* C'mon, that's a load of tanar'ri dung. You "
 "serious?\""
 msgstr ""
+"\"Ты что *ничего* не помнишь? Брось, да это же куча танарьего дерьма. Ты "
+"серьезно?\""
 
 #: 1101
 msgid "\"Yes.\""
@@ -441,19 +513,24 @@ msgid ""
 "anybody or mix it up with the law... say, speaking of which, are you one of "
 "those Sensates into self-mutilation or did somebody give you those scars?\" "
 msgstr ""
+"\"Во имя всех богов и их матерей... Э-э, шеф, скорее всего, твои "
+"воспоминания просто погрузились глубоко в твою черепушку. Если повезет, они "
+"скоро всплывут, поверь мне. Должно быть, нелегкая у тебя ночка выдалась. "
+"Надеюсь, ты никого не покалечил и не повздорил со стражей... Кстати говоря, "
+"ты случайно не один из тех чувствующих, которые занимаются "
+"членовредительством, или это кто-то другой подарил тебе эти шрамы?\" "
 
 #: 1109 1113
-#, fuzzy
 msgid "\"Am I supposed to be here? Am I dead?\""
-msgstr "\"И что мне теперь делать с ней?\""
+msgstr "\"Разве я должен здесь быть? Я мертв?\""
 
 #: 1110
 msgid "\"How *do* I look? How badly scarred am I?\""
-msgstr ""
+msgstr "\"*Как* я выгляжу? Насколько плохи мои шрамы?\""
 
 #: 1114
 msgid "\"How do I look? Am I badly scarred?\""
-msgstr ""
+msgstr "\"Как я выгляжу? Насколько плохи мои шрамы?\""
 
 #: 1117
 msgid ""
@@ -470,7 +547,7 @@ msgid ""
 "happens to you, or WHERE you came from or you'll find yourself on a short "
 "trip to the crematorium.\""
 msgstr ""
-"\"Похоже на указания...\" Морт прочищает горло. \"Посмотрим... начинается "
+"\"Похоже на указания... Морт прочищает горло. - Посмотрим... начинается "
 "с...\n"
 "\n"
 "ЗАМЕТКА: \"Я знаю, что ты чувствуешь себя так, как будто ты выпил несколько "
@@ -479,7 +556,7 @@ msgstr ""
 "дополнить оставшуюся часть истории, если его уже не записали в книгу "
 "мертвых.\n"
 "\n"
-"Не потеряй эту часть тела ИЛИ дневник или мы снова окажемся в Стиксе, "
+"Не потеряй этот клочок кожи ИЛИ дневник, иначе мы снова окажемся в Стиксе, "
 "понятно? И поверь мне, что бы ты не делал, НЕ ГОВОРИ никому, КТО ты, ЧТО "
 "случилось с тобой или ОТКУДА ты пришел, иначе ты окажешься на полпути в "
 "крематорий\"."
@@ -492,77 +569,82 @@ msgstr ""
 
 #: 1119
 msgid "\"Did you see a journal with me when I was lying here?\""
-msgstr ""
+msgstr "\"Ты не видел при мне дневника, когда я там лежал?\""
 
 #: 1123
 msgid ""
 "\"No... you were stripped to the skins when you arrived here. 'Sides, looks "
 "like you got enough of a journal written on your body.\""
 msgstr ""
-"\"Нет... ты был обобран догола, когда тебя доставили сюда. Хотя, с другой "
-"стороны, похоже, что достаточно того дневника, что выбит у тебя на теле\"."
+"\"Нет... тебя обобрали догола, когда доставили сюда. Хотя, с другой стороны, "
+"похоже, что достаточно того дневника, что выбит у тебя на теле\"."
 
 #: 1124
 msgid "\"Do you know someone named Pharod?\""
 msgstr "\"Ты знаешь кого-нибудь по имени Фарод?\""
 
 #: 1128
-#, fuzzy
 msgid ""
 "\"Nobody I know. Then again, I don't know many people. Still, some berk's "
 "got to know where to find this guy... once we get out of here, that is.\""
 msgstr ""
-"\"Нет, такого не знаю... хотя, я вообще знаю не так уж и много людей. Во "
-"общем, КТО-НИБУДЬ да знает, как добраться до этого Фарода... ух, как только "
-"мы выберемся отсюда, конечно\"."
+"\"Нет, такого не знаю. С другой стороны, я вообще мало кого знаю. В общем, "
+"кто-нибудь да знает, как добраться до этого Фарода... то есть, как только мы "
+"выберемся отсюда\"."
 
 #: 1129
 msgid "\"Did I have a journal with me when I was lying here?\""
-msgstr ""
+msgstr "\"При мне не было дневника, когда я там лежал?\""
 
 #: 1133
 msgid "\"Could it be that I am dead? And that's why I'm here?\""
-msgstr ""
+msgstr "\"Может, я умер? И поэтому я здесь?\""
 
 #: 1134
-#, fuzzy
 msgid "\"How bad do I look?\""
-msgstr "\"Послушай, *сделай* это. Я предупреждаю тебя\"."
+msgstr "\"Насколько плохо я выгляжу?\""
 
 #: 1147
 msgid ""
 "\"No thanks. Talking to you is painful enough. I'll look for a way out on my "
 "own.\""
 msgstr ""
+"\"Нет уж, спасибо. От твоей трескотни голова раскалывается. Я сам найду выход"
+"\"."
 
 #: 1151
 msgid "\"What was that legal... contract... stuff you mentioned?\""
-msgstr ""
+msgstr "\"Что это за документ... контракт... о котором ты говорил?\""
 
 #: 1154
-#, fuzzy
 msgid "\"What was that you were saying about the 'dead book?'\""
-msgstr "\"Что такое то, что ты назвал божественным алфавитом?\""
+msgstr "\"Что ты там говорил насчет 'книги мертвых'?\""
 
 #: 11946
 msgid "Morte floats over. \"What's the chant, chief?\""
-msgstr ""
+msgstr "Морт подлетает. \"О чем речь, шеф?\""
 
 #: 11947
 msgid ""
 "Morte glances at your palm. \"Yechhhh.\" He seems morbidly fascinated. "
 "\"Ugly little berks, aren't they?\""
 msgstr ""
+"Морт глядит на твою ладонь. \"Ух-х-х\". Кажется, его покоробило. \"Вот уж "
+"мелкие уродцы, а?\""
 
 #: 11948
 msgid "\"Bar that.\" Morte shudders. \"Would you want those things in *you?*\""
 msgstr ""
+"\"Задвинся, - Морт вздрагивает. - А ты бы хотел, чтобы они оказались в "
+"*тебе*?\""
 
 #: 11949
 msgid ""
 "\"Those little pikers better not come anywhere near me, or I'll...\" Morte "
 "pauses. \"You know, I have no idea how to threaten teeth.\""
 msgstr ""
+"\"Лучше этим мелким засранцам не приближаться ко мне, иначе я... - Морт "
+"умолкает. - Знаешь, я понятия не имею, чем угрожать зубам\"."
 
 #: 11950
 msgid ""
@@ -571,12 +653,18 @@ msgid ""
 "of your hand and swarm onto his jaw. Morte howls as Ingress' teeth promptly "
 "rip out his old teeth and then jump into the exposed cavities."
 msgstr ""
+"Схватка длится не долго. Ты ловишь Морта в захват - единственное движение, "
+"которое ты можешь сделать - и, пока он, кусаясь, пытается освободиться, зубы "
+"спрыгивают с твоей руки и налетают на его челюсть. Морт воет, а зубы Ингресс "
+"быстро выкорчевывают его старые зубы и прыгают в открывшиеся полости."
 
 #: 11951
 msgid ""
 "Morte continues howling. The teeth settle in, adjusting themselves and "
 "planting their roots with a horrid drilling noise."
 msgstr ""
+"Морт продолжает выть. Зубы начинают обустраиваться и пускать корни с жутким "
+"хрустом."
 
 #: 11952
 msgid ""
@@ -585,16 +673,21 @@ msgid ""
 "before the upper and lower teeth lock together and prevent him from opening "
 "his mouth."
 msgstr ""
+"Кажется, Морт тебя не слышит... Он продолжает выть, затем вдруг начинает "
+"клацать зубами. Ему удается трижды сильно клацнуть, прежде чем верхние зубы "
+"сцепляются с нижними и не дают ему открыть рот."
 
 #: 11953
 msgid "Morte mumbles something at you, his eyes wide."
-msgstr ""
+msgstr "Морт что-то тебе бормочет, его глаза широко раскрыты."
 
 #: 11954
 msgid ""
 "The teeth suddenly unlock, and Morte takes a deep breath. \"I will *kill* "
 "you for this,\" he says. \"That was a dirty thing to do.\""
 msgstr ""
+"Внезапно зубы расцепляются, и Морт делает глубокий вздох. \"Я *убью* тебя за "
+"это, - говорит он. - Это было нечестно\"."
 
 #: 11955
 msgid ""
@@ -602,18 +695,25 @@ msgid ""
 "the teeth extend into fangs. \"Ooooooh! They change!\" They shrink down to "
 "normal, then fangs again, then normal... \"I think I'm going to like these.\""
 msgstr ""
+"Морт пробует двигать челюстью. \"Странно. Но неплохо, - внезапно зубы "
+"превращаются в клыки. - О-о-о! Они меняются!\" Они превращаются в нормальные "
+"зубы, потом в клики, потом обратно... \"Думаю, они мне понравятся\"."
 
 #: 11956
 msgid ""
 "\"Oh, I'll still get you for this,\" Morte replies. He grins, his teeth "
 "turning into fangs again. \"Just you wait.\""
 msgstr ""
+"\"О, я все еще зол на тебя\", - отвечает Морт. Он ухмыляется, его зубы снова "
+"превращаются в клыки. \"Погоди мне\"."
 
 #: 11957
 msgid ""
 "\"What's wrong?\" Morte floats in closer and glances at your palm. \"Hey... "
 "they look like they're planning something, don't they?\""
 msgstr ""
+"\"Что там?\" Морт подлетает ближе и смотрит тебе на ладонь. \"Эй... Кажется, "
+"они что-то замышляют, так ведь?\""
 
 #: 11958
 msgid ""
@@ -622,17 +722,22 @@ msgid ""
 "Morte's jaw. Morte howls as Ingress' teeth promptly rip out his old teeth "
 "and then jump into the exposed cavities."
 msgstr ""
+"То, что происходит дальше, трудно описать... и больно смотреть. Не успеваешь "
+"ты закрыть ладонь, как зубы спрыгивают с твоей руки и налетают на его "
+"челюсть. Морт воет, а зубы Ингресс быстро выкорчевывают его старые зубы и "
+"прыгают в открывшиеся полости."
 
 #: 11959
 msgid ""
 "They teeth suddenly unlock, and Morte takes a deep breath. \"I will *kill* "
 "you for this! You planned that! I know it!\""
 msgstr ""
+"Внезапно зубы расцепляются, и Морт делает глубокий вздох. \"Я *убью* тебя за "
+"это! Ты все спланировал! Я знаю!\""
 
 #: 11974
-#, fuzzy
 msgid "\"You see these teeth?\""
-msgstr "\"Ты сказал, что у этих дверей есть 'ключи'...\""
+msgstr "\"Видишь эти зубы?\""
 
 #: 11975
 msgid "\"Nothing, never mind.\""
@@ -643,10 +748,12 @@ msgid ""
 "\"Come on, Morte, they seem to like you. Look at the way they're staring at "
 "you.\""
 msgstr ""
+"\"Ладно тебе, Морт, кажется, ты им нравишься. Посмотри, как они на тебя "
+"смотрят\"."
 
 #: 11977 11980
 msgid "Grab Morte, shove the teeth in his mouth."
-msgstr ""
+msgstr "Схватить Морта, сунуть зубы ему в рот."
 
 #: 11978 11981
 msgid "\"Never mind, then.\""
@@ -658,52 +765,47 @@ msgstr "Осмотреть зубы."
 
 #: 11982
 msgid "\"There, Morte. That wasn't so bad, was it?\""
-msgstr ""
+msgstr "\"Ну вот, Морт. Ведь было не так плохо?\""
 
 #: 11983
-#, fuzzy
 msgid "\"Morte? You okay?\""
-msgstr "\"С тобой все в порядке?\""
+msgstr "\"Морт? С тобой все в порядке?\""
 
 #: 11984 43908 43914
 msgid "\"Wow.\""
 msgstr "\"Ух ты\"."
 
 #: 11985
-#, fuzzy
 msgid "\"So... you like them?\""
-msgstr "\"Спасибо. Пойду, поищу их\"."
+msgstr "\"Значит... они тебе нравятся?\""
 
 #: 11986
-#, fuzzy
 msgid "\"Morte, are you okay?\""
-msgstr "\"А ты не *лжешь* мне, Морт?\""
+msgstr "\"Морт, ты в порядке?\""
 
 #: 11987
-#, fuzzy
 msgid "\"How do they feel?\""
-msgstr "\"А почему они оплакивают живых?\""
+msgstr "\"Как они тебе?\""
 
 #: 11988
 msgid "\"I'm sorry, Morte. I didn't mean you any harm.\""
-msgstr ""
+msgstr "\"Извини, Морт. Я не желал тебе зла\"."
 
 #: 11989
-#, fuzzy
 msgid "\"See? Wasn't I right?\""
-msgstr "\"Ну хорошо, хорошо... Я ухожу\"."
+msgstr "\"Вот видишь? Разве я не был прав?\""
 
 #: 11990
 msgid "\"Uh... revenge never helped anyone, Morte... uh, let's go.\""
-msgstr ""
+msgstr "\"Э... месть еще никому не помогала, Морт... Э, пошли\"."
 
 #: 11991
 msgid "\"You'll thank me later. You'll see.\""
-msgstr ""
+msgstr "\"Поблагодаришь меня позже. Вот увидишь\"."
 
 #: 11992
 msgid "\"They sure do, don't th --\""
-msgstr ""
+msgstr "\"Точно замышляют, так...\""
 
 #: 11993
 msgid "\"Morte!\""
@@ -714,6 +816,7 @@ msgid ""
 "\"Look, I didn't mean that to happen... I even warned you. Uh... how do they "
 "feel?\""
 msgstr ""
+"\"Слушай, я этого не хотел... Я даже предупредил тебя. Э... как они тебе?\""
 
 #: 12389
 msgid ""
@@ -770,7 +873,7 @@ msgstr "\"Умолкни, ноющий череп! А ты, козлик, сдо
 
 #: 12555
 msgid "\"Oh, no... it was *you*, and you'll regret it...\""
-msgstr "Э, нет... это все *ты*, и ты об этом пожалеешь...\""
+msgstr "\"Э, нет... это все *ты*, и ты об этом пожалеешь...\""
 
 #: 12556
 msgid "\"Forget it, then. Farewell.\""
@@ -846,11 +949,11 @@ msgstr "\"Очень хорошо\"."
 
 #: 12861
 msgid "\"No, I've heard enough. Farewell, rat-catcher.\""
-msgstr "\"Нет, я выслушал достаточно. Прощай, ловец крыс\"."
+msgstr "\"Нет, я выслушал достаточно. Прощай, крысолов\"."
 
 #: 12863
 msgid "\"Never mind. Let's go... farewell, rat-catcher.\""
-msgstr ""
+msgstr "\"Неважно. Пошли... Прощай, крысолов\"."
 
 #: 12864
 msgid "\"You seem friendly enough, though, rat-catcher...\""
@@ -892,7 +995,7 @@ msgid ""
 msgstr ""
 "\"Они типа 'фракция', у которой нет никаких правил... кроме того, чтобы не "
 "держать у себя в голове одну мысль слишком долго. Иногда их еще называют "
-"хаоситами. Полагаю, нет нужды объяснять - почему\"."
+"хаоситами. Полагаю, нет нужды объяснять почему\"."
 
 #: 13750 13830
 msgid ""
@@ -900,7 +1003,7 @@ msgid ""
 "crazy or chaotic enough, I suppose. I don't think they have any "
 "recruiters... though you really can't say anything about them for sure.\""
 msgstr ""
-"\"Они просто привлекают новых людей словно мух... наверное, тех, кто и так "
+"\"Они просто привлекают новых людей, словно мух... наверное, тех, кто и так "
 "уже достаточно спятил или хаотичен. Не думаю, что у них есть для этого "
 "вербовщики... хотя наверняка на их счет ничего нельзя сказать\"."
 
@@ -1052,8 +1155,8 @@ msgid ""
 "Morte looks at you for a while, silently, then nods. \"Yeah, I can. If it's "
 "that important to you, I'll do it.\""
 msgstr ""
-"Морт немного смотрит на тебя в тишине, а затем кивает. \"Да, я смогу. Если "
-"это очень важно для тебя, я сделаю это\"."
+"Морт некоторое время молча на тебя смотрит, а затем кивает. \"Да, я смогу. "
+"Если это настолько важно для тебя, я сделаю это\"."
 
 #: 16615
 msgid ""
@@ -1061,7 +1164,7 @@ msgid ""
 "from a stone thing, chief -- these little guys just don't work that way.\""
 msgstr ""
 "\"Знаешь, я *вообще* не представляю, что из этого может получиться. Этот "
-"знаток сделан из камня, шеф. Эти малютки в этом не очень разбираются\"."
+"знаток сделан из камня, шеф. Эти малютки просто не справятся с ним\"."
 
 #: 16616
 msgid ""
@@ -1166,7 +1269,7 @@ msgid ""
 "fifteen-foot hot coal jump, too!\""
 msgstr ""
 "\"Почему бы и нет, босс? Будет весело пнуть его, если будет поганое "
-"настроение, верно? Хмм... Ладно, по крайней мере, я могу пнуть от твоего "
+"настроение, верно? Хм-м... Ладно, по крайней мере, я могу пнуть от твоего "
 "имени. А еще хочется взглянуть на пятидесятифутовый прыжок от уголька!\""
 
 #: 17583
@@ -1196,27 +1299,30 @@ msgstr ""
 msgid "\"Never mind, merchant; I don't have the coin for one. Farewell.\""
 msgstr "\"Неважно, торговец, мне все равно не хватает монет. Прощай\"."
 
+# set your flags [on fire] = сжег свой дом
 #: 17833
 msgid ""
 "\"I'm sure you have a thousand clever things to say, Morte, but I need you "
 "to shut up, set your flags, and join me NOW.\""
 msgstr ""
+"\"Морт, я уверен, что у тебя найдется еще тысяча умных мыслей, но мне нужно, "
+"чтобы ты заткнулся, закончил свои дела и присоединился ко мне НЕМЕДЛЕННО\"."
 
 #: 1818
 msgid ""
 "\"What good fortune! We probably lost what we're looking for back at your "
 "kip, miss.\""
 msgstr ""
-"\"Вот это удача! Кажется, мы потеряли то, что можно найти в твоем скромном "
-"убежище, красавица\"."
+"\"Вот это удача! Кажется, то, что мы ищем, мы в твоем скромном убежище, "
+"красавица\"."
 
 #: 1819
 msgid "\"Maybe you can help me find what I'm missing, miss.\""
-msgstr "\"Может быть ты мне поможешь найти то, что я потерял, красавица\"."
+msgstr "\"Может, ты поможешь мне найти то, что я потерял, красавица\"."
 
 #: 1820
 msgid "\"Actually, I'm missing a journal.\""
-msgstr "\"На самом деле я потерял дневник\"."
+msgstr "\"На самом деле, я потерял дневник\"."
 
 #: 1821
 msgid "\"I'm not missing anything, but I did have some questions...\""
@@ -1231,12 +1337,12 @@ msgid ""
 "\"Chief, can you sport me some jink... it's... eh... been a long time, it "
 "has.\""
 msgstr ""
-"\"Шеф, ты не можешь одолжить мне немного звенелок... эээ... у меня этого "
+"\"Шеф, ты не можешь одолжить мне немного звенелок... э-э... у меня этого так "
 "давно не было\"."
 
 #: 1845
 msgid "\"Uh... well, I suppose it can't *hurt*...\""
-msgstr "\"Ух... надеюсь, это не будет *больно*...\""
+msgstr "\"Э... полагаю, это никому *не повредит*...\""
 
 #: 1846
 msgid "\"I'm not even going to ask how you intend to accomplish this.\""
@@ -1244,7 +1350,7 @@ msgstr "\"Я даже не хочу спрашивать, как ты намер
 
 #: 1847
 msgid "\"Look... we really have to leave, Morte. Farewell, miss.\""
-msgstr "\"Послушай, Морт... на самом деле нужно идти. Прощай, красавица\"."
+msgstr "\"Послушай, Морт... вообще-то, нам нужно идти. Прощай, красавица\"."
 
 #: 18801
 msgid "Morte turns to the Hiver. \"Pike off.\""
@@ -1409,37 +1515,44 @@ msgid ""
 "\"Wow, chief... what a beauty, eh? Not everywhere you can meet a sweet "
 "little chit like that, ya know.\""
 msgstr ""
+"\"Ух ты, шеф... ну что за красотка? Мало где встретишь такую милашку, как "
+"эта, знаешь ли\"."
 
 #: 19552
 msgid ""
 "Morte's eyes roll in his skull. \"Huh! One day, you'll see what I mean.\""
-msgstr ""
+msgstr "Морт закатывает глаза. \"Ха! Однажды ты поймешь, о чем я говорю\"."
 
 #: 19553
 msgid ""
 "\"Yeah, see, that's what I'm... hey!\" Morte spins to face you. \"Are you "
 "getting sarcastic on me?\""
 msgstr ""
+"\"Ага, видишь ли, это я... эй! - Морт поворачивается к тебе. - Ты что, "
+"издеваешься надо мной?\""
 
 #: 19666
 msgid ""
 "\"I find little attractive about rotting corpses, Morte, female or no.\""
 msgstr ""
+"\"Гниющие трупы не выглядят для меня привлекательными, Морт. Даже женские "
+"трупы\"."
 
 #: 19667
 msgid ""
 " \"Well, perhaps if you can get past the entire 'stench-ridden, maggot-"
 "laden, rotting carcass' thing...\""
 msgstr ""
+" \"Ну, наверно, если не обращать внимания на 'вонючее разлагающееся мясо в "
+"трупных червях', то...\""
 
 #: 19668 19669 19670 19671
-#, fuzzy
 msgid "Ignore him, greet the zombie."
-msgstr "Не обращать внимания на Морта и изучить комнату."
+msgstr "Не обращать на него внимания, поздороваться с зомби."
 
 #: 19681 19702
 msgid "\"Eh... don't know if you want to be talking to that... thing.\""
-msgstr ""
+msgstr "\"Э... даже не знаю, захочешь ли ты говорить с этой... тварью\"."
 
 #: 19682 19703
 msgid ""
@@ -1447,11 +1560,13 @@ msgid ""
 "this is what they've become. Pretty nasty stuff, chief... they're little "
 "more than animals, really. *Dangerous* animals.\""
 msgstr ""
+"\"Когда-то они были людьми... Они, или их предки, ели трупы, и вот во что "
+"они превратились. Довольно таки мерзкая вещь, шеф... На самом деле, они "
+"больше похожи на животных. *Опасных* животных\"."
 
 #: 19691 19714
-#, fuzzy
 msgid "\"Why not, Morte?\""
-msgstr "\"Где я, Морт?\""
+msgstr "\"Почему нет, Морт?\""
 
 #: 19692 19694 19715 19717 41867 41868 41871 41872 65572 65576 65580 65584
 #: 65588 65592 65691 65695 65698 65702 65706 65716 65721 65828 65832 65841
@@ -1459,27 +1574,28 @@ msgid "\"All right, then. Let's go.\""
 msgstr "\"Ладно. Идем\"."
 
 #: 19693 19716
-#, fuzzy
 msgid "Ignore Morte, greet the ghoul."
-msgstr "Не обращать внимания на Морта и изучить комнату."
+msgstr "Не обращать внимания на Морта, поздороваться с упырем."
 
 #: 19695
 msgid "\"I'll talk to him just the same.\""
-msgstr ""
+msgstr "\"Я все равно с ним поговорю\"."
 
 #: 19704
 msgid "\"It's not quite the same thing, chief...\""
-msgstr ""
+msgstr "\"Это не то же самое, шеф...\""
 
 #: 19713
 msgid ""
 "\"I'm surprised Morte... it's undead, it's female. That's all it usually "
 "takes, for you.\""
 msgstr ""
+"\"Морт, ты меня удивляешь... Это нежить женского пола. Обычно этого для тебя "
+"достаточно\"."
 
 #: 19718
 msgid "\"I'll talk to her just the same.\""
-msgstr ""
+msgstr "\"Я все равно с ней поговорю\"."
 
 #: 2000
 msgid "\"She means money.\""
@@ -1566,7 +1682,8 @@ msgid ""
 "off!\""
 msgstr ""
 "\"Что же ты не *пытаешься* расколоть мою челюсть? Только и дело, что слышу "
-"пустую болтовню от всяких отбросов Улья! Давай, попробуй! За ляжки покусаю!\""
+"пустую болтовню от всяких отбросов Улья! Давай, попробуй! Я тебе ноги откушу!"
+"\""
 
 #: 2075
 msgid "\"Enough! We're leaving.\""
@@ -1611,8 +1728,8 @@ msgid ""
 "Lady'll get... upset.\""
 msgstr ""
 "\"Говорят, что они слуги Леди Боли. Они парят вокруг, ломая, чиня и латая "
-"Сигил по ее капризу. Они еще хуже летающих трупов\". Морт вздыхает. \"Не "
-"нужно их трогать, или Леди... рассердится\"."
+"Сигил по ее капризу. Они хуже трупных мух, - Морт вздыхает. - Не нужно их "
+"трогать, или Леди... рассердится\"."
 
 #: 21605 50326 6771
 msgid ""
@@ -1623,11 +1740,11 @@ msgid ""
 "need to know is that you don't want to make her angry. If you see her, my "
 "advice: run.\""
 msgstr ""
-"\"Она заправляет городом. Ты узнаешь ее, когда увидешь: у нее вокруг лица "
-"клинки, размером она с гиганта и парит она над землей, совсем как эти парни"
-"\". Морт кивает на дабуса, смотрящего на вас обоих. \"Про нее никто почти "
-"ничего не знает... она не очень говорлива. Все, что тебе следует знать - не "
-"зли ее. Если ты увидешь ее, мой тебе совет - тикай\"."
+"\"Она заправляет городом. Ты узнаешь ее, когда увидишь: у нее вокруг лица "
+"клинки, она ростом с гиганта и парит над землей, совсем как эти парни\". "
+"Морт кивает на дабуса, смотрящего на вас обоих. \"Про нее никто почти ничего "
+"не знает... она не очень говорлива. Все, что тебе следует знать: не зли ее. "
+"Если увидишь ее, мой тебе совет - тикай\"."
 
 #: 21606
 msgid ""
@@ -1648,7 +1765,7 @@ msgid ""
 msgstr ""
 "Морт усмехается. \"Да я скорее пройду через кишки танарри, чем разгадаю, что "
 "эти козлиные морды пытаются сказать. Нужен переводчик? Поищи коренного "
-"Сигильца\"."
+"сигильца\"."
 
 #: 21608
 msgid ""
@@ -1659,7 +1776,7 @@ msgid ""
 msgstr ""
 "Морт усмехается. \"Да я скорее пройду через кишки танарри, чем разгадаю, что "
 "эти летающие козлиные морды пытаются сказать. Нужен переводчик? Попроси нашу "
-"маленькую бесовку\". Он кивает на Анну. \"Она из Улья\"."
+"маленькую бесовку, - он кивает на Анну. - Она из Улья\"."
 
 #: 21609
 msgid ""
@@ -1669,8 +1786,8 @@ msgid ""
 "to translate.\""
 msgstr ""
 "Морт усмехается. \"Да я скорее пройду через кишки танарри, чем разгадаю, что "
-"эти летающие козлиные морды пытаются сказать. Нужен переводчик?\" Он кивает "
-"на Даккона. \"Попроси праведного-и-вдвое-молчаливого-чем-ты перевести\"."
+"эти летающие козлиные морды пытаются сказать. Нужен переводчик? - он кивает "
+"на Даккона. - Попроси нашего ханжу-молчуна перевести\"."
 
 #: 21610 50272 6800
 msgid ""
@@ -1681,7 +1798,7 @@ msgid ""
 msgstr ""
 "Морт усмехается. \"Да я скорее пройду через кишки танарри, чем разгадаю, что "
 "эти летающие козлиные морды пытаются сказать. Нужен переводчик? Попроси "
-"танарри\". Он кивает на Падшую Грацию. \"Наверное, она все время общалась с "
+"танарри, - он кивает на Падшую Грацию. - Наверное, она все время общалась с "
 "этими парнями\"."
 
 #: 22061
@@ -1855,7 +1972,7 @@ msgid ""
 "\"Uh... hold a moment. You said dabus float, right? This one's walking on "
 "the ground.\""
 msgstr ""
-"\"Эээ... постой-ка. Ты сказал, что дабусы парят, верно? А этот ходит по земле"
+"\"Э-э... постой-ка. Ты сказал, что дабусы парят, верно? А этот ходит по земле"
 "\"."
 
 #: 24703
@@ -1879,10 +1996,12 @@ msgid ""
 "\"I'm sure you have a thousand clever things to say, Morte, but I need you "
 "to shut the hell up and join me NOW.\""
 msgstr ""
+"\"Морт, я уверен, что у тебя найдется еще тысяча умных мыслей, но мне нужно, "
+"чтобы ты заткнулся и присоединился ко мне НЕМЕДЛЕННО\"."
 
 #: 24906
 msgid "\"Uh... who am I? How about *you* start? Who're you?\""
-msgstr "\"Ух... кто я? А как насчет *тебя* для начала? Кто ты?\""
+msgstr "\"Э... кто я? А как насчет *тебя* для начала? Кто ты?\""
 
 #: 24907 24912 24915
 msgid "\"I... don't know. I can't remember.\""
@@ -1897,9 +2016,9 @@ msgid ""
 "\"You can't remember your *name?* Heh. Well, next time you spend a night on "
 "the town, go easy on the bub. Name's Morte. I'm trapped in here, too.\""
 msgstr ""
-"\"Ты не можешь вспомнить свое *имя*? Хех. Что ж, в следующий раз, когда "
-"будешь кутить в ночи в городе, выбирай выпивку полегче. Зовут Мортом. Я тоже "
-"заперт здесь\"."
+"\"Ты не можешь вспомнить свое *имя*? Хе. Что ж, в следующий раз, когда "
+"будешь кутить ночью в городе, не налегай на выпивку. Зовут Мортом. Я тоже "
+"здесь заперт\"."
 
 #: 24910
 msgid "\"Trapped?\""
@@ -1918,7 +2037,7 @@ msgid ""
 "\"Tchhhh... you're tighter than a wet rope. All right, *I'll* be the nice "
 "guy here. Name's Morte. Who're you?\""
 msgstr ""
-"\"Пффф... ты хуже измочаленной веревки. Ну хорошо, пусть *я* буду хорошим "
+"\"Пф-ф... да ты натянут как струна. Ну хорошо, пусть *я* буду хорошим "
 "парнем. Зовут Мортом. А кто ты?\""
 
 #: 24916
@@ -1927,8 +2046,8 @@ msgid ""
 "I've tried all the doors, and this room is locked tighter than a chastity "
 "belt.\""
 msgstr ""
-"\"Ага, и пока ты еще не разомнул свои ноги, вот тебе новость: я перепробовал "
-"все двери, и эта комната заперта крепче пояса целомудрия\"."
+"\"Ага, и поскольку ты еще не успел размять ноги, вот тебе новость: я "
+"перепробовал все двери, и эта комната заперта крепче пояса целомудрия\"."
 
 #: 24917
 msgid "\"We're locked in... where? What is this place?\""
@@ -1944,7 +2063,7 @@ msgstr ""
 
 #: 24919
 msgid "\"'The Mortuary?' What... am I dead?\""
-msgstr "\"'Морг?' Постой... я умер?\""
+msgstr "\"Морг? Постой... я умер?\""
 
 #: 24920
 msgid ""
@@ -1952,7 +2071,7 @@ msgid ""
 "some berk painted you with a knife. All the more reason to give this place "
 "the laugh before whoever carved you up comes back to finish the job.\""
 msgstr ""
-"\"Да не очень-то, как я погляжу. Хотя шрамы на тебе... похоже, какой-то пень "
+"\"Не похоже. Хотя на тебе куча шрамов... выглядит так, словно какой-то пень "
 "изрисовал тебя всего ножом. Еще одна причина свалить отсюда побыстрее, пока "
 "тот, кто не изрезал тебя, не вернулся назад и не завершил свою работу\"."
 
@@ -1965,8 +2084,8 @@ msgid ""
 "\"Well, all the doors are locked, so we'll need the key. Chances are, one of "
 "the walking corpses in this room have it.\""
 msgstr ""
-"\"Ну, если все двери заперты, значит нам понадобится ключ. Есть шанс, что он "
-"есть у одного из ходячих трупов в этой комнате\"."
+"\"Ну, если все двери заперты, значит, нам понадобится ключ. Есть шанс, что "
+"он есть у одного из ходячих трупов в этой комнате\"."
 
 #: 24924
 msgid ""
@@ -1975,7 +2094,7 @@ msgid ""
 "first.\""
 msgstr ""
 "\"Ага, хранители Морга используют мертвые тела в качестве дешевой рабочей "
-"силы. Трупы тупы как пробка, они безвредны и не будут атаковать до тех пор, "
+"силы. Трупы тупые как пробка, они безвредны и не будут атаковать до тех пор, "
 "пока ты не нападешь первым\"."
 
 #: 24925
@@ -2002,7 +2121,7 @@ msgstr ""
 
 #: 24928
 msgid "\"Well, all right... I'll take one of them down and get the key.\""
-msgstr "\"Ну хорошо... Я уроню одного из них и заберу ключ\"."
+msgstr "\"Ну хорошо... Я собью одного из них и заберу ключ\"."
 
 #: 24929
 msgid ""
@@ -2033,9 +2152,9 @@ msgid ""
 "run to. If you are in danger of dying, use running to keep your distance "
 "from the zombies while you recover."
 msgstr ""
-"\"И последнее: эти трупы медлительны, но их удар - все равно, что поцелуй "
-"тарана.  Если они начнут доставать тебя, помни, что ты можешь БЕГАТЬ, а они "
-"- нет. Используй это, чтобы держаться на дистанции, если тебе нужно "
+"\"И последнее: эти трупы медлительны, но их удар - все равно что поцелуй "
+"тарана. Если они начнут доставать тебя, помни, что ты можешь БЕГАТЬ, а они - "
+"нет. Используй это, чтобы держаться на дистанции, если тебе нужно "
 "восстановиться\".\n"
 "\n"
 "ПРИМЕЧАНИЕ: Чтобы БЕГАТЬ, удерживай клавишу CTRL и щелкай левой кнопкой по "
@@ -2057,6 +2176,13 @@ msgid ""
 "the key. He suggested I hunt around the shelves of the room for a scalpel, "
 "then go plunge it into one the corpses until it \"dies.\""
 msgstr ""
+"Я начал записывать происходящее со мной, чтобы прочистить голову, в надежде "
+"на то, что я смогу разобраться в том, что происходит. Я очнулся в месте под "
+"названием \"Морг\"... действительно похоже на морг. Я не знаю, кто я, что я "
+"здесь делаю и как я сюда попал. Первый, на кого я наткнулся, очнувшись, был "
+"тараторящий череп по имени Морт. Он сказал, что мы заперты и что у одного из "
+"ковыляющих по комнате трупов должен быть ключ. Он предложил мне поискать на "
+"полках скальпель, а потом тыкать им в мертвецов, пока те не \"умрут\"."
 
 #: 25962 27912
 msgid ""
@@ -2107,12 +2233,12 @@ msgid ""
 "others, that's all. More... uh... 'self-aware,' is the term.\""
 msgstr ""
 "Морт перебивает ее: \"Понимаешь, шеф, есть много признаков *качественного* "
-"мимира. Некоторые - например, я - намного лучше других. Более... ээээ... "
+"мимира. Некоторые - например, я - намного лучше других. Более... э-э... "
 "'самосознательные', говоря научным языком\"."
 
 #: 25971 27920
 msgid "\"Hmm.\""
-msgstr "\"Хмм\"."
+msgstr "\"Хм-м\"."
 
 #: 25973 27922
 msgid "\"Hey! I'm just trying to have some fun here, chief!\""
@@ -2176,11 +2302,11 @@ msgid ""
 "you're standing around goin' 'huh?' 'Whatzz goin' on?' 'Where's my muh-muh-"
 "memories?'\" "
 msgstr ""
-"\"Да, да, да, как пожелаешь. Если бы ты был настолько долго мертв, как я, ты "
-"бы улавливал сигналы. Они могут быть для тебя слишком ТОНКИМИ, чтобы их "
-"уловить. Лучше бы я проводил СВОЮ ночь с сочной свежеумершей крошкой, пока "
-"ты бы в это время бегал вокруг с воплями 'Эээ?' 'Что здеся творится?' 'Куда "
-"пропала па-па-память?'\" "
+"\"Да-да-да, как пожелаешь. Если бы ты был настолько долго мертв, как я, ты "
+"бы улавливал сигналы. Для тебя они, наверно, слишком ТОНКИЕ, чтобы их "
+"уловить, но именно поэтому я буду проводить ночи напролет с сочной "
+"свежеумершей крошкой, а ты будешь бегать вокруг с воплями 'А?' 'Чего здесь "
+"творится?' 'Куда пропала моя па-па-память?'\" "
 
 #: 2611 34994 35026 35058 35090 35122 35154 35186 35218 35250 35282
 msgid ""
@@ -2191,8 +2317,8 @@ msgid ""
 msgstr ""
 "\"Тобой? Ага, конечно! Уж поверь мне, крошкам из могил нет дела до "
 "'мускулатуры', 'у меня великолепное тело' и 'я весь в шрамах и круто "
-"выгляжу'. Им нужны парни с ДУШОЙ. Типа меня, шеф. А трупов типа ТЕБЯ повсюду "
-"навалом как грязи\"."
+"выгляжу'. Им нужны парни с ДУШОЙ. Типа меня, шеф. А трупов вроде ТЕБЯ "
+"повсюду навалом, как грязи\"."
 
 #: 2709
 msgid "\"What? What is it? Is this chit bothering you?\""
@@ -2212,9 +2338,9 @@ msgid ""
 "more corpses in the dead book than necessary... especially the femmes. Plus, "
 "killing them might draw the caretakers here.\""
 msgstr ""
-"\"Тсссс... Небольшой совет, шеф: теперь я бы вел себя потише - не нужно "
-"больше вносить трупов в книгу мертвых без необходимости... особенно женских. "
-"К тому же, их убийство может заинтересовать здешних смотрителей\"."
+"\"Небольшой совет, шеф: теперь я бы вел себя потише. Не нужно больше "
+"вписывать трупы в книгу мертвых без необходимости... особенно женские. К "
+"тому же, их убийство может заинтересовать здешних смотрителей\"."
 
 #: 27286 41877
 msgid ""
@@ -2223,10 +2349,10 @@ msgid ""
 "of ghoulish death-worshippers; they believe everybody should die... sooner "
 "better than later.\""
 msgstr ""
-"\"Они зовут себя 'тленными'. Ты их не пропустишь: они одержимы черным и у "
-"них трупное окоченение на лице. Это кучка воняющих трупами мерзких "
-"смертопоклонников. Они верят в то, что все должны умереть... и лучше раньше, "
-"чем позже\"."
+"\"Они зовут себя 'тленными'. Ты их не пропустишь: они питают особую тягу к "
+"черному цвету и окоченевшему выражению лица. Они - всего лишь кучка "
+"свихнувшихся упырей, поклоняющихся смерти. Они верят в то, что все должны "
+"умереть... и лучше раньше, чем позже\"."
 
 #: 27287 41882
 msgid ""
@@ -2235,15 +2361,15 @@ msgid ""
 "the dead book than out of it?\""
 msgstr ""
 "\"Ты что, вообще ничего не слушал?! Я сказал, что мертвяки верят в то, что "
-"ВСЕ умрут, и лучше раньше, чем позже. Думаешь, что трупы, которых ты видел, "
-"счастливее в книге мертвых, чем вне ее?\""
+"ВСЕ должны умереть, и лучше раньше, чем позже. Думаешь, что трупы, которых "
+"ты видел, счастливее в книге мертвых, чем вне ее?\""
 
 #: 27288
 msgid ""
 "\"Death visits the Planes every day, chief. These lummoxes are all that's "
 "left of the poor sods who sold their bodies to the caretakers after death.\""
 msgstr ""
-"\"Смерть посещает Планы каждый день, шеф. Эти увальни - все что осталось от "
+"\"Смерть посещает Планы каждый день, шеф. Эти увальни - все, что осталось от "
 "тех бедолаг, кто продал свои тела смотрителям\"."
 
 #: 27289 41894
@@ -2253,7 +2379,7 @@ msgid ""
 "hacking them up for keys, no lopping their limbs off, things like that.\""
 msgstr ""
 "\"Чт... ты *серьезно*? Послушай, шеф, у этих мертвых крошек есть последняя "
-"возможность познакомиться с такими грубыми громилами как мы. Нам следует "
+"возможность познакомиться с такими крутыми громилами как мы. Нам следует "
 "быть более *деликатными*... не ломать их ради ключей, не отрывать им "
 "конечности, ничего такого\"."
 
@@ -2268,8 +2394,8 @@ msgid ""
 "*all* died at least once: we'll have something to talk about. They'll "
 "appreciate men with our kind of death experience.\""
 msgstr ""
-"\"Шеф, для нас до этих цыпочек - открытая дорога. Мы *все* мертвы, по "
-"крайней мере один раз: у нас есть общая тема для разговоров. Они "
+"\"Шеф, для нас до этих ковыляющих цыпочек - открытая дорога. Мы *все* по "
+"крайней мере один раз умирали: у нас есть общая тема для разговоров. Они "
 "предрасположены к мужчинам с нашим опытом смерти\"."
 
 #: 27292 41907
@@ -2280,9 +2406,9 @@ msgid ""
 "anticipation. \"'Course, the caretakers would have to part with them first, "
 "and that's not likely...\""
 msgstr ""
-"\"Ну... хорошо, *ты*, может быть, и не мертвый, но *я* - да. И как я уже "
+"\"Ну... хорошо, *ты*, может быть, и не мертвый, а вот *я* - да. И как я уже "
 "говорил, я не против разделить гроб с какой-нибудь из здешних красивеньких "
-"жилистых кадаврих\". Морт начинает в предвкушении щелкать зубами. \"Конечно "
+"жилистых покойниц\". Морт начинает в предвкушении щелкать зубами. \"Конечно "
 "же, у здешних смотрителей есть приоритет, так что им это навряд ли "
 "понравится...\""
 
@@ -2309,8 +2435,8 @@ msgid ""
 "stuff down - whenever you come across something that might be important, jot "
 "it down so you don't forget.\""
 msgstr ""
-"\"Во-вторых, если ты хоть *наполовину* забывчив от того, каким кажешься, то "
-"начни записывать свои мысли - как только ты встретишь то, что *может* быть "
+"\"Во-вторых, если ты хоть *наполовину* такой забывчивый, каким кажешься, то "
+"начни записывать свои мысли: как только ты встретишь то, что *может* быть "
 "важным, запиши это, чтобы не забыть\"."
 
 #: 27295
@@ -2322,12 +2448,19 @@ msgid ""
 "hand corner of the world screen, or select the journal button on the quick "
 "menu.\n"
 msgstr ""
+"\"Да, как в дневнике. Если начнешь забывать важные вещи, вроде того, где ты "
+"находишься, открой его и освежи свою память. Понятно?\"\n"
+"\n"
+"ПРИМЕЧАНИЕ: Для доступа к дневнику нажми кнопку дневника в нижнем правом "
+"углу экрана или выбери дневник в быстром меню.\n"
 
 #: 27296
 msgid ""
 "\"There should be a scalpel on one of the shelves around here. I'd find it "
 "before locking horns with any of the corpses around here.\""
 msgstr ""
+"\"На одной из тех полок должен быть скальпель. Я бы на твоем месте нашел его "
+"до того, как начал бодаться с местными трупаками\"."
 
 #: 27297
 msgid ""
@@ -2335,7 +2468,8 @@ msgid ""
 "worry, I'll stay back and provide valuable tactical advice.\""
 msgstr ""
 "\"Отлично, ты нашел скальпель! А теперь пора разделаться с этими трупами... "
-"и не бойся, я буду позади тебя давать ценные тактические советы\"."
+"и не бойся, я буду держаться у тебя за спиной и давать ценные тактические "
+"советы\"."
 
 #: 27298
 msgid "\"I WILL be helping you. Good advice is hard to come by.\""
@@ -2343,7 +2477,7 @@ msgstr "\"Я ПОМОГУ тебе. Хороший совет всегда хо�
 
 #: 27299
 msgid "\"Me? I'm a romantic, not a soldier. I'd just get in the way.\""
-msgstr "\"Я? Я романтик, а не солдат. У меня другая судьба\"."
+msgstr "\"Я? Я романтик, а не солдат. Я только под ногами буду путаться\"."
 
 #: 27300
 msgid ""
@@ -2352,10 +2486,10 @@ msgid ""
 "NOTE: If you wish Morte to help you attack, simply make sure the both of you "
 "are selected when you attack the corpse. Morte will join in the attack.\n"
 msgstr ""
-"\"Ээ... без проблем. Я помогу тебе\".\n"
+"\"Э... без проблем. Я помогу тебе\".\n"
 "\n"
 "ПРИМЕЧАНИЕ: Если ты хочешь, чтобы Морт помог тебе атаковать, просто "
-"удостоверься, что до нападения на труп выбрал обоих персонажей. Морт "
+"удостоверься, что до нападения на труп выбраны оба персонажи. Морт "
 "присоединится к атаке.\n"
 
 #: 27301
@@ -2365,7 +2499,7 @@ msgid ""
 "out of here.\""
 msgstr ""
 "\"Отлично, похоже, ты позаботился о правильном трупе. Теперь надо найти "
-"ключ. Он должен быть на его теле. Как только ты его найдешь, мы сможем  "
+"ключ. Он должен быть на его теле. Как только мы его получим, мы сможем "
 "выбраться отсюда\"."
 
 #: 27302
@@ -2378,7 +2512,7 @@ msgstr ""
 #: 27303
 msgid ""
 "\"I don't think you mentioned it before... *who* are these caretakers?\""
-msgstr "\"Кажется, ты не говорил еще об этом... *кто* такие эти смотрители?\""
+msgstr "\"Кажется, ты еще не говорил об этом... *кто* такие эти смотрители?\""
 
 #: 27304 41844
 msgid "\"The corpses here... where did they all come from?\""
@@ -2404,7 +2538,7 @@ msgstr "\"Эти трупы, которых я видел здесь... отку
 msgid ""
 "\"Before you said something about making sure I didn't kill any *female* "
 "corpses. Why?\""
-msgstr "\"До этого ты говорил, чтобы я не убивал *женских* трупов. Почему?\""
+msgstr "\"До этого ты говорил, чтобы я не убивал *женские* трупы. Почему?\""
 
 #: 27310
 msgid "\"All right... I'll...try to remember that.\""
@@ -2412,7 +2546,7 @@ msgstr "\"Ладно... Я... попробую это запомнить\"."
 
 #: 27311
 msgid "\"Enlighten me... *who* are these caretakers?\""
-msgstr "\"Просвяти меня... *кто* такие эти смотрители?\""
+msgstr "\"Просвети меня... *кто* такие эти смотрители?\""
 
 #: 27313
 msgid "\"All right... I'll... try to remember that.\"\n"
@@ -2451,9 +2585,8 @@ msgid "\"All right...if I have any questions, I'll ask you.\""
 msgstr "\"Хорошо... если у меня возникнут вопросы, я спрошу у тебя\"."
 
 #: 27322
-#, fuzzy
 msgid "\"Like in a journal?\""
-msgstr "\"Я пришел сюда в поисках дневника\"."
+msgstr "\"Как в дневнике?\""
 
 #: 27323 41837
 msgid "\"All right... I got it. Let's go.\""
@@ -2465,7 +2598,7 @@ msgstr "\"Ладно... Я поищу\"."
 
 #: 27325
 msgid "\"Maybe you could *help* me, Morte.\""
-msgstr "\"А может ты *поможешь* мне, Морт?\""
+msgstr "\"А, может, ты мне *поможешь*, Морт?\""
 
 #: 27326 27332
 msgid "\"All right.\""
@@ -2477,7 +2610,7 @@ msgstr "\"Я имел ввиду помощь в атаке *трупов*\"."
 
 #: 27328 27330
 msgid "\"All right, then.\""
-msgstr "\"Ну хорошо тогда\"."
+msgstr "\"Ну ладно\"."
 
 #: 27329
 msgid ""
@@ -2489,7 +2622,7 @@ msgstr ""
 
 #: 27331
 msgid "\"I'm glad we understand each other. Now let's do it.\""
-msgstr ""
+msgstr "\"Рад, что мы друг друга понимаем. За дело\"."
 
 #: 27333
 msgid "\"I'll try all the doors, then.\""
@@ -2497,7 +2630,7 @@ msgstr "\"Тогда я перепробую все двери\"."
 
 #: 2782 50320
 msgid "\"Oh, for the Powers' sake! Piking dabus.\""
-msgstr "\"Ох, Силы небесные! Чертов дабус\"."
+msgstr "\"Ох, во имя Сил! Чертов дабус\"."
 
 #: 27911
 msgid "Morte hisses into your ear: \"Lawyer.\""
@@ -2536,13 +2669,12 @@ msgid "Throw the eighty copper coins at Malmaner."
 msgstr "Бросить Малманеру восемьдесят медных монет."
 
 #: 28630
-#, fuzzy
 msgid "\"Sounds dull.\""
-msgstr "Звучит превосходно."
+msgstr "\"Скукота\"."
 
 #: 28631 62890
 msgid "\"She's a tanar'ri... a succubus, chief.\""
-msgstr ""
+msgstr "\"Шеф, она - танарри... суккуб\"."
 
 #: 28632
 msgid ""
@@ -2550,18 +2682,23 @@ msgid ""
 "succubus coming with us... the Powers know *you're* about as fun as passing "
 "a caltrop through your bowels.\""
 msgstr ""
+"\"Задвинься, бесовка! - Морт клацает зубами. - Я ЗА то, чтобы суккуб пошла с "
+"нами... Видят Силы, от *тебя* веселья, как от колючки в кишках\"."
 
 #: 28633
 msgid ""
 "\"Hey, wait just a minute! *I'm* the one well-versed in the Planes! That's "
 "my job, chief!\""
 msgstr ""
+"\"Эй, минутку! Это *я* лучше всех разбираюсь в Планах! Это моя работа, шеф!\""
 
 #: 28634
 msgid ""
 "\"Having two people knowledgeable about the Planes in our band seems pretty "
 "smart to me. Besides, I said, 'pleasant,' too, Morte.\""
 msgstr ""
+"\"Двое сведущих в Плана людей в нашей команде - довольно неплохо, как по "
+"мне. Кроме того, еще я сказал 'приятно', Морт\"."
 
 #: 28635
 msgid ""
@@ -2569,12 +2706,18 @@ msgid ""
 "show a little skin, and you'll sign her right up!\" Morte falls silent. "
 "\"Not that I mind that really, I just thought I'd mention it.\""
 msgstr ""
+"\"Пожалуй, только для глаз! Мне почему-то КАЖЕТСЯ, что стоит какой-нибудь "
+"цыпочке чуть-чуть оголиться, как ты уже принимаешь ее в команду! - Морт "
+"умолкает. - Не то чтобы я против. Просто подумал, что стоит об этом сказать"
+"\"."
 
 #: 28636
 msgid ""
 "\"Noted, Morte. Look... Lady Grace, excuse me if I'm being too forward, but "
 "would you care to travel with us?\""
 msgstr ""
+"\"Заметано, Морт. Послушайте... Леди Грация, может, я слишком забегаю "
+"вперед, но вы не против отправиться с нами в путешествие?\""
 
 #: 28637
 msgid ""
@@ -2583,6 +2726,10 @@ msgid ""
 "think it would be an EXCELLENT idea if you came on board. We have plenty of "
 "room for a succubus. PLENTY of room.\""
 msgstr ""
+"\"Мой товарищ в шрамах хотел сказать: с нами ДВУМЯ... Кстати, я Морт. Прошу "
+"простить моего товарища за то, что он не соизволил представить нас друг "
+"другу... Мне кажется, ваше присоединение к нам - ОТЛИЧНАЯ идея. У нас много "
+"места для суккуба. МНОГО места\"."
 
 #: 28738
 msgid ""
@@ -2591,8 +2738,8 @@ msgid ""
 "and everything.\""
 msgstr ""
 "\"Спасибо, шеф. Не могу выразить свою радость тем, что я снова с тобой\". "
-"Его голос истекает сарказмом. А еще я научился новому приемчику, пока был там"
-"\"."
+"Его голос истекает сарказмом. \"А еще я научился новому приемчику, пока был "
+"там\"."
 
 #: 28739
 msgid ""
@@ -2616,6 +2763,8 @@ msgid ""
 "boss... those guys really had their heads together. They taught me something "
 "sharp.\""
 msgstr ""
+"\"Спасибо, босс. Давай убираться отсюда! - Морт делает паузу. - А, кстати, "
+"босс... Эти ребята действительно соображают. Я научился у них паре острот\"."
 
 #: 28743
 msgid "\"Yeah. Right. It's a real pleasure to have you back.\""
@@ -2650,39 +2799,47 @@ msgid ""
 "\"Uh... chief? You've seen statues before, right? Know that they don't talk "
 "or anything?\""
 msgstr ""
+"\"Э... шеф? Ты ведь раньше видел статуи? Ты ведь знаешь, что они не "
+"разговаривают?\""
 
 #: 28963
 msgid "\"Well... uh... hmm. Got me there, boss.\""
-msgstr ""
+msgstr "\"Ну... э... м-м. Тут ты прав, босс\"."
 
 #: 28964
 msgid "\"Maybe it's a little too anatomically correct, chief?\""
-msgstr ""
+msgstr "\"Шеф, может, она слишком анатомически правильная?\""
 
 #: 28965
 msgid "\"Sure, boss. I knew that.\""
-msgstr ""
+msgstr "\"Конечно, босс. Я это знал\"."
 
 #: 28966
 msgid ""
 "Morte rolls his eyes and makes a gagging noise. \"Powers, no, not another "
 "berk that talks... like... this!\""
 msgstr ""
+"Морт закатывает глаза и издает бульканье. \"О Силы, нет, только не еще один "
+"пень, говорящий... вот... так!\""
 
 #: 28967
 msgid ""
 "\"Consider this, Morte: you're a floating, talking skull who's denying the "
 "possibility of a living statue.\""
 msgstr ""
+"\"Подумай, Морт: ты - летающий и говорящий череп, который отрицает "
+"существование живых статуй\"."
 
 #: 28968 28971 28975
 msgid ""
 "\"I met a mage named Salabesh who spoke of a stone man, here. Are you he?\""
 msgstr ""
+"\"Я встретил здесь мага по имени Салабеш, который говорил о каменном "
+"человеке. Это ты?\""
 
 #: 28969
 msgid "\"Perhaps, Morte. I'll just touch him...\""
-msgstr ""
+msgstr "\"Может быть. Я просто к нему прикоснусь...\""
 
 #: 28970 28973 28977 3482 3484 7485
 msgid "Leave."
@@ -2690,26 +2847,23 @@ msgstr "Уйти."
 
 #: 28972
 msgid "\"That I do, Morte. I'll just touch him...\""
-msgstr ""
+msgstr "\"Конечно, Морт. Я просто к нему прикоснусь...\""
 
 #: 28974
 msgid "\"It was a rhetorical question, Morte.\""
-msgstr ""
+msgstr "\"Это был риторический вопрос, Морт\""
 
 #: 28976
-#, fuzzy
 msgid "Strike the statue."
-msgstr "Каменная Статуя"
+msgstr "Ударить статую."
 
 #: 28978
-#, fuzzy
 msgid "\"I have questions about you\"..."
-msgstr "\"Что за вопросы у тебя?\""
+msgstr "\"У меня есть к тебе вопросы...\""
 
 #: 28979
-#, fuzzy
 msgid "\"I have questions about this place.\""
-msgstr "\"Что *это* за место?\""
+msgstr "\"У меня есть вопросы об этом месте\"."
 
 #: 28980
 msgid "\"What do you know of Ravel Puzzlewell?\""
@@ -2807,7 +2961,7 @@ msgid ""
 "lips.\" He waggles eyebrows in anticipation."
 msgstr ""
 "\"'Тайнах'?! Секундочку! Мы же не собираемся *слушать* этого пустомелю? Да "
-"ладно... пойдем лучше найдем парочку цыпочек чувствующих, которые еще ни "
+"ладно... пойдем лучше найдем парочку цыпочек-чувствующих, которые еще ни "
 "разу не пробовали пламенной страсти от прикосновения губ черепа\". Он в "
 "предвкушении водит бровями."
 
@@ -3004,7 +3158,7 @@ msgid ""
 "*all* know Morte's right on the ball with this one. But oh, no, proud little "
 "Desert Princess, cut down in public, humiliat-\""
 msgstr ""
-"Морт поворачивается к тебе. \"Видишь, шеф, я *знаю* как это все обычно "
+"Морт поворачивается к тебе. \"Видишь, шеф, я *знаю*, как это все обычно "
 "случается. *Всем* известно, что Морт прав в данном вопросе. О нет, только не "
 "это, бедная маленькая Пустынная принцесса, оскорбленная, униженн...\""
 
@@ -3101,8 +3255,8 @@ msgid ""
 "to give you one LAST chance. You sure you don't want my sage advice and "
 "quick wit?\""
 msgstr ""
-"\"Хмммф. Ну хорошо, не знаю, как долго я смогу здесь быть, так что я даю "
-"тебе ПОСЛЕДНИЙ шанс. Ты уверен, что не хочешь моего мудрого совета и быстрой "
+"\"Пф-ф. Ну хорошо, не знаю, как долго я смогу здесь быть, так что я даю тебе "
+"ПОСЛЕДНИЙ шанс. Ты уверен, что не хочешь моего мудрого совета и быстрой "
 "остроты?\""
 
 #: 33962
@@ -3111,11 +3265,11 @@ msgstr "\"Морт, у тебя НЕТ ни того, ни другого\"."
 
 #: 33963 33966
 msgid "\"All right, I changed my mind. Come on, let's go.\""
-msgstr "\"Ладно. Изменил свое решение. Давай, идем\"."
+msgstr "\"Ладно. Я передумал. Давай, идем\"."
 
 #: 33964
 msgid "\"Not at the moment, Morte. Maybe later.\""
-msgstr "\"Не сейчас, Морт. Может быть потом\"."
+msgstr "\"Не сейчас, Морт. Может быть, потом\"."
 
 #: 33965
 msgid ""
@@ -3138,8 +3292,8 @@ msgid ""
 "\"Well, I'm not going to wait FOREVER, so you better come back as soon as "
 "you change your mind.\""
 msgstr ""
-"\"Ну хорошо, я не собираюсь ждать тебя ВЕЧНО, так что тебе лучше поскорее "
-"вернуться изменить свое решение\"."
+"\"Ну хорошо, я не собираюсь ждать тебя ВЕЧНО, так что тебе лучше вернуться, "
+"как только ты передумаешь\"."
 
 #: 33969
 msgid "\"I will. Farewell, Morte.\""
@@ -3175,7 +3329,7 @@ msgid ""
 "usually 'cause some ancestor of theirs shared knickers with one demon or "
 "another. Makes some of 'em addled in the head... and addled-looking, too.\""
 msgstr ""
-"\"Эээ... она из тифлингов, шеф. В их жилах течет лихая кровь демонов. Кто-то "
+"\"Э... она из тифлингов, шеф. В их жилах течет лихая кровь демонов. Кто-то "
 "из предков спутался с каким-то демоном. Из-за этого некоторые из них немного "
 "тронутые... и обычно выглядят они соответствующе\"."
 
@@ -3186,7 +3340,7 @@ msgid ""
 "demon or another. Makes some of 'em addled in the head... and usually addled-"
 "looking, too.\""
 msgstr ""
-"\"Эээ... она из тифлингов, шеф. В их жилах течет лихая кровь демонов. Кто-то "
+"\"Э... она из тифлингов, шеф. В их жилах течет лихая кровь демонов. Кто-то "
 "из предков спутался с каким-то демоном. Из-за этого некоторые из них немного "
 "тронутые... и обычно выглядят они соответствующе\"."
 
@@ -3224,17 +3378,17 @@ msgid ""
 "you're standing around goin' 'huh?' 'Whatzz goin' on?' 'Where's my muh-muh-"
 "memories?'\" "
 msgstr ""
-"\"Да, да, да, как пожелаешь. Если бы ты был настолько долго мертв, как я, ты "
-"бы улавливал сигналы. Они могут быть для тебя слишком ТОНКИМИ, чтобы их "
-"уловить. Лучше бы я проводил СВОЮ ночь с сочной свежеумершей крошкой, пока "
-"ты бы в это время бегал вокруг с воплями 'Эээ?' 'Что здеся творится?' 'Куда "
-"пропала па-па-память?'\" "
+"\"Да-да-да, как пожелаешь. Если бы ты был настолько долго мертв, как я, ты "
+"бы улавливал сигналы. Для тебя они, наверно, слишком ТОНКИЕ, чтобы их "
+"уловить, но именно поэтому я буду проводить ночи напролет с сочной "
+"свежеумершей крошкой, а ты будешь бегать вокруг с воплями 'А?' 'Чего здесь "
+"творится?' 'Куда пропала моя па-па-память?'\" "
 
 #: 35310 35387 35464 35541 3974 6610
 msgid ""
 "\"Hmmmm. Wonder if this graybeard would mind if *I* borrowed his body...\""
 msgstr ""
-"\"Хммм. Интересно, что подумают этот седобородый, если *я* возьму взаймы его "
+"\"Хм-м. Интересно, что подумает этот седобородый, если *я* возьму взаймы его "
 "тело...\""
 
 #: 35311 35388 35465 35542 3975
@@ -3272,7 +3426,7 @@ msgid ""
 "\"Oh, you're a sackfull of laughs.\" Morte glares at you. \"Besides, YOU'RE "
 "one to talk, berk. Mirrors beg for mercy when you're around.\""
 msgstr ""
-"\"Ох, да ты просто кладезь хохм\". Морт свирепо смотрит на тебя. \"Да и "
+"\"Ох, да ты просто кладезь хохм, - Морт свирепо смотрит на тебя. - Да и "
 "вообще. НА СЕБЯ посмотри. Зеркала молят о пощаде, когда ты проходишь мимо них"
 "\"."
 
@@ -3302,8 +3456,8 @@ msgid ""
 "let you rot... some more, that is.\""
 msgstr ""
 "\"Да будет тебе известно, что помощь тебе в побеге из препараторской только "
-"что добавлена в растущий список моих сожалений\". Морт снова фыркает. \"Надо "
-"было оставить тебя там гнить... подольше, так то\"."
+"что добавлена в растущий список моих сожалений, - Морт снова фыркает. - Надо "
+"было оставить тебя там гнить... подольше, то есть\"."
 
 #: 35321 35398 35475 35552 3991
 msgid "\"Glad you feel that way. Let's go.\""
@@ -3415,14 +3569,14 @@ msgid ""
 "family with them either. They'd sooner torch or bury you than bend an ear. "
 "Don't be barmy; let's just get out of here.\""
 msgstr ""
-"\"Если ты собираешься трясти черепушкой с мертвяками, то пожалуйста без меня. "
-"Я с ними не в лучших отношениях... и тебе не стоит с ними родниться. Они "
-"скорее спалят тебя или заживо зароют, чем будут слушать. Не валяй дурака, "
-"давай выбираться отсюда\"."
+"\"Если ты собираешься трясти черепушкой с мертвяками, то, пожалуйста, без "
+"меня. Я с ними не в лучших отношениях... и тебе не стоит с ними родниться. "
+"Они скорее спалят тебя или заживо зароют, чем будут слушать. Не валяй "
+"дурака, давай выбираться отсюда\"."
 
 #: 3874 4142 5033
 msgid "\"Thanks for the advice, but I'm *still* going to talk to this guy.\""
-msgstr "\"Спасибо за совет, но *все еще* хочу поговорить с этим парнем\"."
+msgstr "\"Спасибо за совет, но я *все еще* хочу поговорить с этим парнем\"."
 
 #: 3875 4143 4343 5034
 msgid "\"Agreed, let's move on.\""
@@ -3476,9 +3630,8 @@ msgid ""
 "believe everything tends to happen in three, and they attach great meaning "
 "to the number."
 msgstr ""
-"Морт что-то сказал про какое-то 'Правило Трех'.  По-видимому, некоторые "
-"верят в то, что все на свете происходит по три, придавая глубокий смысл "
-"числам."
+"Морт что-то сказал про какое-то 'правило трех'. По-видимому, некоторые верят "
+"в то, что все на свете происходит по три, придавая глубокий смысл числам."
 
 #: 39490
 msgid ""
@@ -3512,7 +3665,7 @@ msgstr ""
 "Мой предыдущий дневник пропал, так что я завел новый. Я очнулся в месте под "
 "названием \"Морг\". Я не знаю, кто я, что я здесь делаю и даже как я сюда "
 "попал. Единственного, кого я здесь пока встретил, - говорящий без умолку "
-"череп Морт... Когда он осматривал мои раны, он нашел 'указания', "
+"череп по имени Морт... Когда он осматривал мои раны, он нашел 'указания', "
 "вытатуированные на моей спине:\n"
 "\n"
 "\"Я знаю, что ты чувствуешь себя так, как будто ты выпил несколько бочонков "
@@ -3520,22 +3673,20 @@ msgstr ""
 "ДНЕВНИК, который прольет свет на это темное дело. ФАРОД сможет дополнить "
 "оставшуюся часть истории, если его уже не записали в книгу мертвых\".\n"
 "\n"
-"\"Не потеряй дневник или мы вновь окажемся в Стиксе. И что бы ты ни делал, "
-"НЕ ГОВОРИ никому КТО ты и ЧТО с тобой произошло, иначе тебя живо отправят в "
-"крематорий. Делай так, как я сказал: ПРОЧТИ дневник, а затем НАЙДИ Фарода"
-"\".\n"
+"\"Не потеряй дневник, иначе мы вновь окажемся в Стиксе. И что бы ты ни "
+"делал, НЕ ГОВОРИ никому КТО ты и ЧТО с тобой произошло, иначе тебя живо "
+"отправят в крематорий. Делай так, как я сказал: ПРОЧТИ дневник, а затем "
+"НАЙДИ Фарода\".\n"
 "\n"
 "Мог ли сам себе оставить это сообщение? Судя по всему, мне придется найти "
-"этого 'Фарода' И свой дневник. "
+"этого 'Фарода' И свой дневник."
 
 # Морт, как всегда, в своем репертуаре. Игра слов:
 # - Greetings. I am Yves, the Tale-Chaser.
 # - What a coincidence! I, too, chase tails.
-#
 #: 39564
-#, fuzzy
 msgid "\"What a coincidence! I, too, chase tails.\""
-msgstr "\"Какое совпадение! Я тоже охочусь - только за задницами\"."
+msgstr "\"Какое совпадение! Я тоже охочусь - только за цыпочками\"."
 
 #: 39565
 msgid "\"Me? Why do *I* have to tell a story?\""
@@ -3695,8 +3846,8 @@ msgid ""
 "that is.\""
 msgstr ""
 "\"Помощь тебе в побеге из препараторской только что теперь добавлена в мой "
-"растущий список сожалений\". Морт снова фыркает. \"Надо было оставить тебя "
-"там гнить... подольше, так то\"."
+"растущий список сожалений, - Морт снова фыркает. - Надо было оставить тебя "
+"там гнить... подольше, то есть\"."
 
 #: 40068
 msgid ""
@@ -3804,7 +3955,7 @@ msgid ""
 "you...\""
 msgstr ""
 "\"А какого тогда Баатора ты СПРАШИВАЕШЬ меня? Практикуешься в навыках "
-"жестокости?\" Морт негодующе раскачивается. \"И это после всего, что я "
+"жестокости? - Морт негодующе раскачивается. - И это после всего, что я "
 "сделал для тебя...\""
 
 #: 4022
@@ -3815,13 +3966,13 @@ msgid ""
 "skeleton's body.\""
 msgstr ""
 "Морт уставился на тебя. \"Мы что теперь, ЖЕНАТЫ? Что это за бред -  'я не "
-"хочу причинить тебе вред'?\" Морт выразительно на тебя смотрит. \"Если ты ПО-"
+"хочу причинить тебе вред'? - Морт выразительно на тебя смотрит. - Если ты ПО-"
 "НАСТОЯЩЕМУ обо мне заботишься, то найди способ закрепить мою голову на теле "
 "гигантского скелета\"."
 
 #: 40222
 msgid "\"Oooh, no... you've *got* to tell us, now.\""
-msgstr "Ооо, нет... ты просто *обязан* нам сейчас же все рассказать\"."
+msgstr "\"Ооо, нет... ты просто *обязан* нам сейчас же все рассказать\"."
 
 #: 40223
 msgid "\"Yes... please, sir: do tell.\""
@@ -4054,7 +4205,7 @@ msgid ""
 msgstr ""
 "\"Послушай, шеф. Очевидно, ты еще не отошел от свидания со смертью, поэтому "
 "у меня два небольших совета для тебя. Во-первых, если у тебя возникают "
-"вопросы, *спроси* сначала меня, хорошо?\"\n"
+"вопросы, *спроси* меня, хорошо?\"\n"
 "\n"
 "ПРИМЕЧАНИЕ: Чтобы поговорить с членом команды, выбери пункт 'поговорить' из "
 "быстрого меню, а затем кликни по тому члену команды, с которым хочешь "
@@ -4071,7 +4222,7 @@ msgid ""
 "jot it down so you don't forget.\""
 msgstr ""
 "\"Во-вторых, если ты хоть *наполовину* забывчив от того, каким кажешься, то "
-"начни записывать свои мысли - как только ты встретишь то, что *может* быть "
+"начни записывать свои мысли: как только ты встретишь то, что *может* быть "
 "важным, запиши это, чтобы не забыть\"."
 
 #: 41833
@@ -4086,12 +4237,12 @@ msgid ""
 "\"Start a new one, then, chief. No loss. There's plenty of parchment and ink "
 "around here to last you.\""
 msgstr ""
-"\"Тогда заведи новый, шеф. Без проблем. Вокруг для тебя полным-полно "
+"\"Тогда заведи себе новый, шеф. Без проблем. Вокруг для тебя полным-полно "
 "пергамента и чернил\"."
 
 #: 41835
 msgid "\"Hmmmm. All right. It couldn't hurt... I'll make a new one, then.\""
-msgstr "\"Хммм. Ну хорошо. хуже ведь не будет... Я заведу новый\"."
+msgstr "\"Хм-м. Ну хорошо. Хуже от этого не будет... Заведу себе новый\"."
 
 #: 41836
 msgid ""
@@ -4103,7 +4254,7 @@ msgid ""
 "hand corner of the world screen, or select the journal button on the quick "
 "menu. Your journal will automatically be updated throughout the game."
 msgstr ""
-"\"Записывай в него каждый свой шаг. Если ты начнешь забывать важные вещи... "
+"\"Записывай в него каждый свой шаг. Если начнешь забывать важные вещи... "
 "например, кто ты... или, что еще важнее, кто *я*... то воспользуйся им, "
 "чтобы освежить свою память\".\n"
 "\n"
@@ -4117,11 +4268,11 @@ msgstr "\"Можешь еще раз прочитать, что у меня вы
 
 #: 41841
 msgid "\"What is this place again?\""
-msgstr "\"Еще рвз, что это за место?\""
+msgstr "\"Еще раз, что это за место?\""
 
 #: 41842
 msgid "\"This place is huge... who takes care of it?\""
-msgstr "\"Это место огромно... кто присматривает за ним?\""
+msgstr "\"Это место такое огромное... Кто за ним присматривает?\""
 
 #: 41843
 msgid "\"Who are the caretakers of this place again?\""
@@ -4135,7 +4286,7 @@ msgstr "\"Как мне использовать эти бинты?\""
 msgid ""
 "\"Nothing at the moment, Morte. Just checking to see if you were still with "
 "me.\""
-msgstr "\"На этот раз ничего, Морт. Просто проверяю, что ты еще со мной\"."
+msgstr "\"Пока ничего, Морт. Просто проверяю, что ты еще со мной\"."
 
 #: 41849
 msgid "\"Aw, *c'mon,* chief. Don't tell me you forgot already.\""
@@ -4164,17 +4315,17 @@ msgid ""
 "some light on the dark of the matter. PHAROD can fill you in on the rest of "
 "the chant, if he's not in the dead-book already.'"
 msgstr ""
-"\"Готов поспорить, что услышу ЭТО много раз\". Морт прочищает горло. "
-"\"Посмотрим...\n"
+"\"Готов поспорить, что услышу ЭТО много раз, - Морт прочищает горло. - "
+"Посмотрим...\n"
 "\n"
 "'Я знаю, что ты чувствуешь себя так, как будто ты выпил несколько бочонков "
 "помоев из Стикса, но тебе надо СОСРЕДОТОЧИТЬСЯ. Среди твоих вещей есть "
 "ДНЕВНИК, который прольет свет на это темное дело. ФАРОД сможет дополнить "
-"оставшуюся часть истории, если его уже не записали в книгу мертвых.'"
+"оставшуюся часть истории, если его уже не записали в книгу мертвых'."
 
 #: 41855 65558
 msgid "\"Pharod... hmmm. Keep going.\""
-msgstr "\"Фарод... хммм. Продолжай\"."
+msgstr "\"Фарод... хм-м. Продолжай\"."
 
 #: 41857 41858 41862 41863 65561 65568
 msgid "\"Forget it. I've heard enough. Let's go.\""
@@ -4190,16 +4341,16 @@ msgid ""
 "a quick pilgrimage to the crematorium. Do what I tell you: READ the journal, "
 "then FIND Pharod.'"
 msgstr ""
-"\"Сейчас, сейчас, погоди\". Морт умолкает. \"Хорошо, вот последний кусок..."
-"\"\n"
+"\"Сейчас, сейчас, погоди, - Морт на миг умолкает. - Хорошо, вот последний "
+"кусок...\"\n"
 "\n"
-"'Не потеряй дневник или мы вновь окажемся в Стиксе. И что бы ты ни делал, НЕ "
-"ГОВОРИ никому КТО ты и ЧТО с тобой произошло, иначе тебя живо отправят в "
-"крематорий. Делай так, как я сказал: ПРОЧТИ дневник, а затем НАЙДИ Фарода.'"
+"'Не потеряй дневник, иначе мы вновь окажемся в Стиксе. И что бы ты ни делал, "
+"НЕ ГОВОРИ никому, КТО ты и ЧТО с тобой произошло, иначе тебя живо отправят в "
+"крематорий. Делай так, как я сказал: ПРОЧТИ дневник, а затем НАЙДИ Фарода'."
 
 #: 41860 65565
 msgid "\"And there wasn't a journal with me when I woke up?\""
-msgstr "\"Когда я очнулся, со мной не было рядом дневника?\""
+msgstr "\"Когда я очнулся, рядом со мной не было дневника?\""
 
 #: 41861 65567 65807
 msgid "\"All right, then. I had some other questions...\""
@@ -4219,19 +4370,19 @@ msgstr "\"Ты уверен, что не знаешь никого по имен
 
 #: 41866 65687 65690 65694
 msgid "\"True enough. I had some other questions...\""
-msgstr "\"Достаточно. У меня есть другие вопросы...\""
+msgstr "\"И то правда. У меня есть другие вопросы...\""
 
 #: 41869
 msgid ""
 "\"Nope. Still, some berk's got to know where to find him. Let's ask "
 "around... AFTER we get out of here.\""
 msgstr ""
-"\"Неа. Во общем, какой-нибудь пень знает, как добраться до него. Надо "
+"\"Неа. В общем, какой-нибудь пень да знает, как добраться до него. Надо "
 "поспрашивать в округе... ПОСЛЕ того, как мы выберемся отсюда\"."
 
 #: 41870 65697
 msgid "\"Before we go, I had some other questions...\""
-msgstr "\"Перед тем, как мы пойдем у меня были еще вопросы...\""
+msgstr "\"Перед тем как мы пойдем, у меня есть еще вопросы...\""
 
 #: 41874 41879 41883 41887 41891
 msgid "\"Got it. I had some other questions for you...\""
@@ -4254,12 +4405,12 @@ msgid ""
 "quick item slots on the inventory screen, select the \"use\" button from the "
 "quick menu on the world screen., then click on your target."
 msgstr ""
-"\"Нууу... просто *используй* их. Останавливает кровотечение, вот и все\".\n"
+"\"Нууу... просто *используй* их. Останавливает кровотечение и все такое\".\n"
 "\n"
 "ПРИМЕЧЕНИЕ: Чтобы воспользоваться бинтами, щелкни по ним правой кнопкой в "
 "окне инвентаря. Чтобы использовать их на другом персонаже, помести их в один "
 "из быстрых ячеек, затем выбери кнопку \"использовать\" в быстром меню, а "
-"затем свою мишень."
+"затем - свою мишень."
 
 #: 41888 41889
 msgid "\"Thanks. I think I can handle it.\""
@@ -4270,7 +4421,7 @@ msgid ""
 "\"Death visits the Planes every day, chief. These shamblers are all that's "
 "left of the poor sods who sold their bodies to the caretakers after death.\""
 msgstr ""
-"\"Смерть посещает Планы каждый день, шеф. Эти увальни - все что осталось от "
+"\"Смерть посещает Планы каждый день, шеф. Эти увальни - все, что осталось от "
 "тех бедолаг, кто продал свои тела смотрителям\"."
 
 #: 41895
@@ -4279,11 +4430,11 @@ msgstr "\"Последняя возможность? Погоди... о *чем*
 
 #: 41896 41901 41905
 msgid "\"Never mind. I had some other questions for you...\""
-msgstr "\"Неважно. У меня были еще вопросы к тебе...\""
+msgstr "\"Неважно. У меня к тебе еще вопросы...\""
 
 #: 41900
 msgid "\"You *can't* be serious.\""
-msgstr "\"Ты *это* не серьезно\"."
+msgstr "\"Ты это *несерьезно*\"."
 
 #: 41902 41906 41909
 msgid "\"I've heard enough. Let's go.\""
@@ -4295,11 +4446,11 @@ msgstr "\"Постой... разве ты не говорил до этого, �
 
 #: 41908
 msgid "\"I had some other questions for you, Morte...\""
-msgstr "\"У меня есть другие вопросы для тебя, Морт...\""
+msgstr "\"У меня есть другие вопросы к тебе, Морт...\""
 
 #: 41910
 msgid "\"Powers above. That's one HELL of a book.\""
-msgstr "\"О силы верхние. Это одна из этих ЧЕРТОВЫХ книг\"."
+msgstr "\"Силы небесные. Это одна из этих ЧЕРТОВЫХ книг\"."
 
 #: 41911 7055
 msgid "\"What is it?\""
@@ -4322,16 +4473,16 @@ msgid ""
 "\"Eh... well... I *guess.* To find out, you'd need to rattle your bone-box "
 "with that floating Dustie over there. I'm not sure that's a good idea.\""
 msgstr ""
-"\"Эээ... ну... *Возможно*. Чтобы это определить, нужно потрясти черепушкой "
-"вон стем парящим мертвяком. Вот только я не уверен, что это хорошая идея\"."
+"\"Э... ну... *Возможно*. Чтобы определить это, нужно потрясти черепушкой вон "
+"с тем парящим мертвяком. Вот только я не уверен, что это хорошая идея\"."
 
 #: 41916
 msgid "\"Well, I need answers. I'm going to go speak with him.\" "
-msgstr "\"Мне нужны ответы. Я хочу поговорить с ним\"."
+msgstr "\"Мне нужны ответы. Я поговорю с ним\"."
 
 #: 41919
 msgid "Morte whispers: \"Somewhere, an asylum is one barmy short.\""
-msgstr ""
+msgstr "Морт шепчет: \"В каком-то дурдоме недостает постояльца\"."
 
 #: 41920
 msgid "\"I had some questions, Jumble...\""
@@ -4348,11 +4499,11 @@ msgstr "\"А теперь я ухожу, Джамбл. Прощай\"."
 #: 41923
 msgid ""
 "\"Uh oh... looks like you just got a curse thrown down on you, chief...\""
-msgstr ""
+msgstr "\"Ого... шеф, похоже, что в тебя только что бросили проклятье...\""
 
 #: 41924
 msgid "\"What have you done to me, Jumble?\""
-msgstr ""
+msgstr "\"Что ты со мной сделал Джамбл?\""
 
 #: 41925
 msgid "\"Jumble... please, undo whatever you've done.\""
@@ -4365,9 +4516,8 @@ msgstr ""
 "пожалеешь\"."
 
 #: 41927
-#, fuzzy
 msgid "\"Let's just go, Morte.\""
-msgstr "\"Как знаешь, Морт. Идем\"."
+msgstr "\"Пошли уже, Морт\"."
 
 #: 42929
 msgid ""
@@ -4422,6 +4572,15 @@ msgid ""
 "broke with each itself soon as it broke with the mind-suckers. Now tell me "
 "religion and ideology won't bring the Planes crashing down.\""
 msgstr ""
+"\"Именно поэтому гиты и не должны размножаться. Они без конца твердят о чем-"
+"то, или о вере во что-то, или там 'где бы найти мозгососа или там гитьянки и "
+"убить их' и так далее и тому подобное. Я даже не уверен, что им доставляет "
+"удовольствие тыкать друг в друга мечом. Они сходят с ума и теряют голову, "
+"или наоборот - все время остаются такими прямыми и сосредоточенными, что "
+"забывают о чувстве юмора. Они болтают про концентрацию, единый разум и "
+"взаимное доверие, и при этом упоминают, что их раса раскололась вскоре после "
+"того, как они покончили с мозгососами. Теперь не говори мне, что религия и "
+"идеология не разрушит Планы\"."
 
 #: 43909 43917
 msgid ""
@@ -4483,7 +4642,7 @@ msgstr ""
 
 #: 44677
 msgid "Morte rolls his eyes. \"Fools rush in...\""
-msgstr ""
+msgstr "Морт закатывает глаза. \"Нашествие дураков...\""
 
 #: 44944
 msgid "\"I looooove the Festhall.\""
@@ -4508,7 +4667,7 @@ msgid ""
 "of-Three.\""
 msgstr ""
 "\"Ха. Кажется, кто-то забыл приказать этому бедолаге прекратить следовать "
-"Правилу Трех\"."
+"правилу трех\"."
 
 #: 45089 54250 54252
 msgid "\"What do you mean?\""
@@ -4533,12 +4692,11 @@ msgstr "\"А кто отдает им приказы?\""
 #: 45093
 msgid ""
 "\"You said something about the 'Rule-of-Three.' What did you mean by that?\""
-msgstr "\"Ты что-то сказал про 'Правило Трех'. Что ты имел ввиду?\""
+msgstr "\"Ты что-то сказал про 'правило трех'. Что ты имел ввиду?\""
 
 #: 45094 45101 45105
-#, fuzzy
 msgid "\"All right. Come on, let's keep moving.\""
-msgstr "\"Ладно. Идем\"."
+msgstr "\"Ладно. Давай двигаться дальше\"."
 
 #: 45095
 msgid ""
@@ -4546,7 +4704,7 @@ msgid ""
 "things tending to happen in threes... or everything's composed of three "
 "parts... or there's always three choices, and so on and so forth.\""
 msgstr ""
-"\"Эээ? Ну, Правило Трех - это один из пресловутых законов Планов, согласно "
+"\"А? Ну, правило трех - это один из пресловутых законов Планов, согласно "
 "которому все на свете случается по трое... или состоит из трех частей... или "
 "что всегда есть выбор из трех вариантов, ну и так далее\"."
 
@@ -4573,9 +4731,8 @@ msgstr ""
 "потом забыл его остановить. А кто отдает трупам приказы?\""
 
 #: 45100 45104
-#, fuzzy
 msgid "\"Understood. I wanted to examine this zombie a bit more...\""
-msgstr "\"Хорошая мысль. У меня еще есть некоторые вопросы...\""
+msgstr "\"Понятно. Я хочу еще намного осмотреть этого зомби...\""
 
 #: 45102
 msgid ""
@@ -4589,11 +4746,11 @@ msgstr ""
 
 #: 45103
 msgid "\"I see. What was that you said before... about the 'Rule-of-Three?'\""
-msgstr "\"Понятно. А что ты там говорил до этого... про 'Правило Трех'?\""
+msgstr "\"Понятно. А что ты там говорил до этого... про 'правило трех'?\""
 
 #: 45540
 msgid "\"Uh... chief... you might not w-\""
-msgstr "\"Ух... шеф... осторож...\""
+msgstr "\"Э... шеф... осторож...\""
 
 #: 45709
 msgid "\"Ooh, an auction! Maybe we can sell Annah here.\""
@@ -4636,7 +4793,7 @@ msgid ""
 "Morte breaks in, whispering. \"By the Powers... this berk's an *Anarchist.* "
 "Posing as a zombie's got to be a first for those addled sods.\""
 msgstr ""
-"Морт шепотом вклинивается в разговор. \"О Силы... этот пень - *Анархист*. "
+"Морт шепотом вклинивается в разговор. \"О Силы... этот пень - *анархист*. "
 "Строить из себя зомби - это первое, что может взбрести в их пустые головы\"."
 
 #: 4676 4693
@@ -4651,37 +4808,42 @@ msgid ""
 "chains of government. Tear down the old, establish a new order with no order "
 "at all.\""
 msgstr ""
-"\"Анархисты... это такая фракция...\" Похоже, Морт теряется в своих "
-"оскорблениях, пытаясь подобрать подходящее, но затем замечает, что зомби "
-"смотрит на вас обоих, внимательно слушая. \"...они, эээ, хотят *освободить* "
-"всех от оков правительств. Свергнуть старый порядок, чтобы установить новый "
-"- без никаких порядков\"."
+"\"Анархисты... это такая фракция...\" Похоже, Морт еле сдерживает поток "
+"оскорблений, но затем замечает, что зомби смотрит на вас обоих, внимательно "
+"слушая. \"...они, э, хотят *освободить* всех от оков правительства. "
+"Свергнуть старый порядок, чтобы установить новый - без никаких порядков\"."
 
 #: 4678 4695
 msgid ""
 "Truth: \"That seems like a noble pursuit. Order could use a good tearing "
 "down every once in a while.\""
 msgstr ""
+"Правда: \"Похоже на благородное стремление. Порядку время от времени не "
+"помешает хорошая встряска\"."
 
 #: 4679
 msgid ""
 "Lie: \"That seems like a noble pursuit. Any Anarchist dedicated to such a "
 "lofty goal is *definitely* a friend of mine.\""
 msgstr ""
+"Ложь: \"Похоже на благородное стремление. Любой анархист, посвятивший себя "
+"столь высокой цели, *определенно* является мне другом\"."
 
 #: 4680 4696
 msgid "\"That seems pretty... contradictory.\""
-msgstr ""
+msgstr "\"Это все довольно... противоречиво\"."
 
 #: 4681 4697
 msgid "\"That has to be one of the most stupid things I've ever heard.\""
-msgstr ""
+msgstr "\"Это одна из самых идиотских вещей, которую я когда-либо слышал\"."
 
 #: 4682 4699
 msgid ""
 "Truth: \"That doesn't seem constructive to anyone. Some order, some law is "
 "always necessary for progress to be made.\""
 msgstr ""
+"Правда: \"Непохоже, что это всем кажется созиданием. Для прогресса всегда "
+"нужны какой-никакой порядок и закон\"."
 
 #: 4683
 msgid ""
@@ -4701,14 +4863,14 @@ msgstr "\"Я смущаю ТЕБЯ?\""
 msgid ""
 "\"I just wanted to know what this... corpse... was talking about. All right?"
 "\""
-msgstr "\"Я просто хотел узнать, о чем этот... труп... толкует. Ясно?\""
+msgstr "\"Я просто хотел узнать, о чем этот... труп... говорит. Ясно?\""
 
 #: 4686
 msgid ""
 "\"It's not my fault that no one in this crazy... \"barmy\"... place speaks "
 "like a normal person... or LOOKS like one.\""
 msgstr ""
-"\"Не моя вина, что никто в этом сумасшедшем... 'спятившем'... месте не "
+"\"Не моя вина, что никто в этом сумасшедшем... 'чокнутом'... месте не "
 "говорит нормально... или хотя бы не ВЫГЛЯДИТ как он\"."
 
 #: 4687
@@ -4725,13 +4887,13 @@ msgid ""
 "go around telling everybody the TRUTH all the time. We can't have every cony-"
 "catcher we meet taking us for marks, right?\""
 msgstr ""
-"Морт вздыхает. \"Слушай, шеф... это тупая шутка. Ты не сможешь разгуливать и "
-"говорить направо и налево одну только ПРАВДУ каждому встречному. Мы не "
-"должны указывать на себя разводилам кроликов, ясно?\""
+"Морт вздыхает. \"Слушай, шеф... ты должен понимать свою ситуацию. Ты не "
+"сможешь разгуливать, рассказывая всем одну только ПРАВДУ. Мы не должны "
+"делать из себя цели для каждого ловца кроликов, ясно?\""
 
 #: 4689
 msgid "\"Cony-Catcher?\" \"Marks?\" \"What th - oh, never mind.\""
-msgstr "\"'Разводилы кроликов'? 'Указывать'? Что это... а, неважно\"."
+msgstr "\"Ловца кроликов? Цели? Что это... а, неважно\"."
 
 #: 4691
 msgid ""
@@ -4743,8 +4905,8 @@ msgid ""
 "\"Hold on...\" Morte sounds surprised. \"This berk must be an *Anarchist.* "
 "Heh. Posing as a zombie's got to be a first for those addled sods.\""
 msgstr ""
-"\"Погоди...\" Морт удивлен. Да этот пень - *Анархист*. Ха. Строить из себя "
-"зомби - это первое, что может взбрести в их пустые головы\"."
+"\"Погоди... - говорит Морт удивленно. - Да этот пень - *анархист*. Ха. "
+"Строить из себя зомби - это первое, что может взбрести в их пустые головы\"."
 
 #: 4694
 msgid ""
@@ -4755,12 +4917,12 @@ msgid ""
 "establishment is burned to the ground. They want to establish a new order -- "
 "no order at all.\""
 msgstr ""
-"\"Анархисты... это фракция, которая тратит свое время на слежку за властными "
-"личностями и поиски способов низвергнуть все, от чего несет порядком или "
-"контролем\". Морт фыркает. \"Анархисты считают, что каждый пень любого Плана "
-"должен быть свободен и счастлив искать свою собственную 'правду', как только "
-"правительство будет похоронено в земле. Они хотят основать новый порядок, в "
-"котором не будет никакого порядка\"."
+"\"Анархисты - это фракция, которая тратит свое время на слежку за "
+"представителями власти и на поиски способов низвергнуть все, от чего несет "
+"порядком или контролем, - Морт фыркает. - Анархисты считают, что каждый пень "
+"на Планах должен быть свободен и счастлив искать свою собственную 'правду', "
+"как только правительство будет сожжено дотла. Они хотят основать новый "
+"порядок, в котором не будет никакого порядка\"."
 
 #: 4698
 msgid "\"Whatever.\""
@@ -4774,22 +4936,23 @@ msgid ""
 "so many deaders that the Dusties think he's been putting Hivers in the dead-"
 "book before their hour's up... y'know, killing people.\""
 msgstr ""
-"\"Он сказал, что этот Фарод продал очень много мертвецов... трупов... "
-"Тленным. Ну, сборщики занимаются этим - находят тела мертвых и продают их "
+"\"Он говорит, что этот Фарод продал очень много жмуриков... трупов... "
+"тленным. Ну, сборщики занимаются этим - находят тела мертвых и продают их "
 "тленным. Похоже, этот Фарод запродал так много жмуриков, что мертвяки начали "
 "подозревать, что он записывает жителей Улья в книгу мертвых раньше "
 "положенного срока... ну, ты понял, просто убивает их\"."
 
 #: 4701 4704
-#, fuzzy
 msgid "\"I see. There was something else I wanted to know...\""
-msgstr "\"А теперь... Есть кое-что, о чем я хочу узнать...\""
+msgstr "\"Понятно. Я хотел бы знать кое-что еще...\""
 
 #: 4702
 msgid ""
 "\"This Pharod sounds like a saint. I may have some questions later. Don't go "
 "anywhere.\""
 msgstr ""
+"\"Кажется, этот Фарод вроде как святой. Возможно, позже у меня будут другие "
+"вопросы. Никуда не уходи\"."
 
 #: 4703
 msgid "\"He wants to know if somebody robbed you. Probably what happened.\""
@@ -4802,6 +4965,8 @@ msgid ""
 "\"Yeah, I'm looking forward to finding this thief. Look, I may have some "
 "questions later. Don't go anywhere.\""
 msgstr ""
+"\"Да, я жду не дождусь поймать этого вора. Слушай, возможно, позже у меня "
+"будут другие вопросы. Никуда не уходи\"."
 
 #: 4706
 msgid "\"Yeah, *they're* the stupid ones all right.\""
@@ -4841,11 +5006,11 @@ msgstr "\"На этом разговор окончен\"."
 
 #: 49443
 msgid "\"Ooh, a githyanki. I'll bet Dak'kon will be *so* pleased to help.\""
-msgstr ""
+msgstr "\"Оо, гитьянки. Могу поспорит, Даккон будет *так* рад помочь\"."
 
 #: 49444
 msgid "\"Thanks for your valuable input, Morte. Let's go.\""
-msgstr ""
+msgstr "\"Спасибо за ценное замечание, Морт. Идем\"."
 
 #: 50162 6786
 msgid "\"Oh, they *have* names. I'm sure of it.\""
@@ -4860,9 +5025,8 @@ msgid "\"Stow it, Morte - can you ask him some other questions, Annah?\""
 msgstr "\"Хватит, Морт. Анна, ты можешь задать ему другие вопросы?\""
 
 #: 50166 6957
-#, fuzzy
 msgid "\"Forget it. Let's just go.\""
-msgstr "\"Тогда забудь. Уходим\"."
+msgstr "\"Забудь. Уходим отсюда\"."
 
 #: 50263 6784
 msgid ""
@@ -4872,7 +5036,7 @@ msgid ""
 msgstr ""
 "Морт усмехается. \"Да я скорее пройду через кишки танарри, чем разгадаю, что "
 "эти козлиные морды пытаются сказать. Нужен переводчик? Поищи коренного "
-"Сигильца\"."
+"сигильца\"."
 
 #: 50266 6794
 msgid ""
@@ -4883,7 +5047,7 @@ msgid ""
 msgstr ""
 "Морт усмехается. \"Да я скорее пройду через кишки танарри, чем разгадаю, что "
 "эти летающие козлиные морды пытаются сказать. Нужен переводчик? Попроси нашу "
-"маленькую бесовку\". Он кивает на Анну. \"Она из Улья\"."
+"маленькую бесовку, - он кивает на Анну. - Она из Улья\"."
 
 #: 50269 6797
 msgid ""
@@ -4893,8 +5057,8 @@ msgid ""
 "here to translate.\""
 msgstr ""
 "Морт усмехается. \"Да я скорее пройду через кишки танарри, чем разгадаю, что "
-"эти летающие козлиные морды пытаются сказать. Нужен переводчик?\" Он кивает "
-"на Даккона. \"Попроси праведного-и-вдвое-молчаливого-чем-ты перевести\"."
+"эти летающие козлиные морды пытаются сказать. Нужен переводчик? - он кивает "
+"на Даккона. - Попроси нашего ханжу-молчуна перевести\"."
 
 #: 5041
 msgid "\"What are you *doing?!* If you're gonna kill him, do it!\""
@@ -4918,7 +5082,7 @@ msgstr "Показать ему Кодекс."
 
 #: 50414
 msgid "\"WHAT?! You've got to be kidding me, right? C'mon, lemme see it!\""
-msgstr "\"ЧТО? Наверно, ты это шутишь? Брось, дай посмотреть!\""
+msgstr "\"ЧТО? Наверно, ты шутишь? Брось, дай посмотреть!\""
 
 #: 50416
 msgid "\"No, Morte. Just forget you saw it.\""
@@ -4948,6 +5112,8 @@ msgid ""
 "\"At least he *can* walk.\" Morte snorts. \"Floating around loses its thrill "
 "as soon as you want to kick somebody.\" "
 msgstr ""
+"\"По крайней мере он *ходить* умеет, - Морт фыркает. - Радость о полета "
+"пропадает в тот момент, когда мне хочется кого-то пнуть\". "
 
 #: 5049
 msgid "\"Whoa, chief! What are you doing?!\""
@@ -4973,7 +5139,7 @@ msgid ""
 "\"And we *especially* shouldn't be swapping the chant with sick Dusties. "
 "C'mon, let's leave. The quicker we give this place the laugh, the bet --\""
 msgstr ""
-"\"А мы *тем более* не должны болтать с помешанными мертвяками. Давай, пошли "
+"\"И мы *тем более* не должны болтать с больными мертвяками. Давай, пошли "
 "отсюда. Чем быстрее мы свалим отсюда, тем лучш...\""
 
 #: 50697
@@ -5052,7 +5218,7 @@ msgid ""
 "Obviously the fact SHE has skin has done wonders for HER looks! Does she "
 "think I *like* being NAKED all the time? And *another* thing-\" "
 msgstr ""
-"\"'Умолкни'?! - Морт клацает зубами. - Черта с два! Мне кажется, что мы уже "
+"\"Умолкни?! - Морт клацает зубами. - Черта с два! Мне кажется, что мы уже "
 "достаточно наслушались, как эта старая карга трещит своей костяной коробкой, "
 "но теперь она уже перегибает палку, говоря, что у меня нет кожи! Ну и ЧТО?! "
 "Очевидно, тот факт, что у НЕЕ есть кожа, просто творит чудеса с ЕЕ видом! "
@@ -5217,7 +5383,7 @@ msgstr ""
 "случается, когда ты умираешь. Ты... забываешь. Я, пожалуй, не был образцовым "
 "членом общества при жизни... но, черт, есть ли такие вообще? - Морт снова "
 "вздыхает. - Ну, с этим я ничего не могу поделать. Нет ничего хуже, чем все "
-"время быть честным. Ладно, слушай, шеф, если так куча голов меня увидит, она "
+"время быть честным. Ладно, слушай, шеф, если та куча голов меня увидит, она "
 "захочет меня вернуть, *еще как* захочет. Ты не должен этого допустить!\""
 
 #: 53796 53802
@@ -5247,7 +5413,7 @@ msgstr ""
 "\"Как бы там ни было, я, пожалуй, не был образцовым членом общества при "
 "жизни... но, черт, есть ли такие вообще? - Морт снова вздыхает. - Ну, с этим "
 "я ничего не могу поделать. Нет ничего хуже, чем все время быть честным. "
-"Ладно, слушай, шеф, если так куча голов меня увидит, она захочет меня "
+"Ладно, слушай, шеф, если та куча голов меня увидит, она захочет меня "
 "вернуть, *еще как* захочет. Ты не должен этого допустить!\""
 
 #: 53806
@@ -5450,7 +5616,7 @@ msgid ""
 "Whatever?! Huh?! Huh?! NOT FHJULL FAT-ARSE, THAT'S FOR DAMNED SURE!\""
 msgstr ""
 "\"Чего? Ты что, *спятил*? Ты продаешь *меня*, а не того *ДЕМОНА*?! Он помог "
-"тебе только потому, что он проклят, вынужден к этому! А как же *я*? Кто "
+"тебе только потому, что он проклят, принужден к этому! А как же *я*? Кто "
 "вытащил тебя из Морга, дружище? Кто будет стоять... э, парить... возле тебя, "
 "когда ты встретишь то, что ждет тебя в той Крепости Чего-то-там?! А? А? НЕ "
 "ФЬЮЛ ТОЛСТОЗАДЫЙ, ЭТО УЖ ТОЧНО!\""
@@ -5476,8 +5642,8 @@ msgid ""
 msgstr ""
 "\"Почему бы и нет, шеф? - качает головой Морт. - То есть, мы уже были во "
 "ВСЕХ ужасных планах мультивселенной, которые только можно вообразить. Так "
-"почему бы не сделать еще один шаг в сторону обрыва?\" Он шумно вздыхает. "
-"\"ТЫ готов? Потому что если ты не готов...\""
+"почему бы не сделать еще один шаг в сторону обрыва? - он шумно вздыхает. - "
+"ТЫ готов? Потому что если ты не готов...\""
 
 #: 54156
 msgid "\"Can you tell me again what you know of what's beyond the portal?\""
@@ -5487,11 +5653,11 @@ msgstr "\"Можешь рассказать еще раз, что ждет на�
 msgid ""
 "\"I'm ready, Morte. There's nothing more I can do to prepare myself; are you "
 "with me?\""
-msgstr "\"Я готов Морт. Больше ничего не сделать. Ты со мной?\""
+msgstr "\"Я готов, Морт. Больше ничего не сделать. Ты со мной?\""
 
 #: 54158
 msgid "\"Maybe you're right... let me prepare some more first.\""
-msgstr "\"Возможно ты прав... Дай мне подготовиться поосновательней\"."
+msgstr "\"Возможно, ты прав... Дай мне подготовиться поосновательней\"."
 
 #: 54159
 msgid ""
@@ -5513,7 +5679,7 @@ msgid ""
 "the portal again, then gives a rattling sigh. \"Look, I'm not going to say "
 "*too* much here, but uh... well, there's something I need to tell you...\""
 msgstr ""
-"\"Э-э-э... - Морт колеблется, переводя взгляд с портала на тебя и снова на "
+"\"Э-э-э...\" Морт колеблется, переводя взгляд с портала на тебя и снова на "
 "портал. Он шумно вздыхает. \"Слушай, я не собираюсь говорить *очень* много, "
 "но, э-э-э... в общем, мне нужно кое-что сказать тебе...\""
 
@@ -5544,7 +5710,7 @@ msgid ""
 "going to say *too* much here, but uh... well, there's something I need to "
 "tell you...\""
 msgstr ""
-"\"Э-э-э... шеф? - Морт колеблется, переводя взгляд с портала на тебя и снова "
+"\"Э-э-э... шеф?\" Морт колеблется, переводя взгляд с портала на тебя и снова "
 "на портал. Он шумно вздыхает. \"Слушай, я не собираюсь говорить *очень* "
 "много, но, э-э-э... в общем, мне нужно кое-что сказать тебе...\""
 
@@ -5566,8 +5732,9 @@ msgid ""
 "we've been to this 'Fortress of Regrets' before... though, we... I... didn't "
 "know it then.\""
 msgstr ""
-"\"Это... э-э-э, это не в ПЕРВЫЙ раз, когда проходили через это... понимаешь, "
-"мы уже были в этой 'Крепости Сожалений'... хотя мы... я... не знал об этом\"."
+"\"Это... э-э-э, это не в ПЕРВЫЙ раз, когда мы проходили через это... "
+"понимаешь, мы уже были в этой Крепости Сожалений... хотя мы... я... не знал "
+"об этом\"."
 
 #: 54176
 msgid "\"You didn't *know?* How is that possible?\""
@@ -5634,7 +5801,7 @@ msgid ""
 msgstr ""
 "Морт явно встревожен. \"Нет! Нет! Мы... Я... никогда НЕ ЗНАЛ ничего из "
 "этого! А ты был не из самых общительных вояк на планах! Тот... тот *другой* "
-"ты хранил КУЧУ секретов при себе, и мы даже не знали, ЗАЧЕМ  нам нужно "
+"ты хранил КУЧУ секретов при себе, и мы даже не знали, ЗАЧЕМ нам нужно "
 "попасть в этом место или даже ЧТО из себя оно представляет! Я только знаю, "
 "что случилось, когда мы ПОПАЛИ туда...\""
 
@@ -5649,7 +5816,7 @@ msgid ""
 msgstr ""
 "\"Ну, мы попали туда - в эту КРЕПОСТЬ, но мы даже не успели встать на ноги, "
 "как нас РАЗДЕЛИЛИ, и нам пришлось сражаться за собственные жизни... Так что "
-"*первая* вещь, которую я хочу сказать тебе - если ты решил пойти туда, есть "
+"*первая* вещь, которую я хочу сказать тебе: если ты решил пойти туда, есть "
 "большая вероятность, что всякий, кто вступит в этот портал, окажется *очень* "
 "далеко от других. Мысль в том, что тебе могут понадобиться твои спутники...\""
 
@@ -5666,7 +5833,7 @@ msgid ""
 "portal is going to end up somewhere *far* away from everybody else. Thing "
 "is, even split up, we may be your only hope...\""
 msgstr ""
-"\"Ну, мы попали туда - в эту КРЕПОСТЬ, но мы даже не успели встать на ноги, "
+"\"Ну, мы попали туда... в эту КРЕПОСТЬ, но мы даже не успели встать на ноги, "
 "как нас РАЗДЕЛИЛИ, и нам пришлось сражаться за собственные жизни... - он "
 "содрогается. - Так что *первая* вещь, которую я хочу сказать тебе - если ты "
 "решил пойти туда, есть большая вероятность, что всякий, кто вступит в этот "
@@ -5699,9 +5866,9 @@ msgid ""
 "and shadows - everywhere, shadows. You go there, and... you better be "
 "prepared.\""
 msgstr ""
-"\"Эта 'Крепость Сожалений'... она тянется на многие ЛИГИ, шеф. Она "
-"называется Крепостью, но она очень похоже на ПЛАН. Одни только камни, тьма и "
-"тени - тени повсюду. Если ты пойдешь туда... тебе лучше быть готовым\"."
+"\"Эта Крепость Сожалений... она тянется на многие ЛИГИ, шеф. Она называется "
+"Крепостью, но она очень похожа на ПЛАН. Одни только камни, тьма и тени - "
+"тени повсюду. Если ты пойдешь туда... тебе лучше быть готовым\"."
 
 #: 54212 54216
 msgid "\"What happened when we first went there?\""
@@ -5714,9 +5881,9 @@ msgid ""
 "and shadows - everywhere, shadows. We go there, and... we better be prepared."
 "\""
 msgstr ""
-"\"Эта 'Крепость Сожалений'... она тянется на многие ЛИГИ, шеф. Она "
-"называется Крепостью, но она очень похоже на ПЛАН. Одни только камни, тьма и "
-"тени - тени повсюду. Если мы пойдем туда... нам лучше быть готовыми\"."
+"\"Эта Крепость Сожалений... она тянется на многие ЛИГИ, шеф. Она называется "
+"Крепостью, но она очень похожа на ПЛАН. Одни только камни, тьма и тени - "
+"тени повсюду. Если мы пойдем туда... нам лучше быть готовыми\"."
 
 #: 54219
 msgid ""
@@ -5752,9 +5919,9 @@ msgid ""
 msgstr ""
 "Морт умолкает на некоторое время. \"Нет... Там были и другие. Там были... "
 "Даккон, эта чувствующая цыпочка, Дейонарра, слепой лучник, который почти все "
-"время пьян до беспамятства, ты и я... Было такое ощущение, что мы прыгнули в "
-"ад и тут же вернулись. Очевидно, тебе, мне и Даккону это удалось, а те двоим "
-"- нет. Даже не знаю, что случилось с ними\"."
+"время был пьян до беспамятства, ты и я... Было такое ощущение, что мы "
+"прыгнули в ад и тут же вернулись. Очевидно, тебе, мне и Даккону это удалось, "
+"а те двоим - нет. Даже не знаю, что случилось с ними\"."
 
 #: 54230
 msgid ""
@@ -5782,9 +5949,9 @@ msgid ""
 msgstr ""
 "Морт умолкает на некоторое время. \"Нет... Там были и другие. Там были... "
 "старый гит, Даккон, эта чувствующая цыпочка, Дейонарра, слепой лучник, "
-"который почти все время пьян до беспамятства, ты и я... Было такое ощущение, "
-"что мы прыгнули в ад и тут же вернулись. Очевидно, тебе, мне и Даккону это "
-"удалось, а те двоим - нет. Даже не знаю, что случилось с ними\"."
+"который почти все время был пьян до беспамятства, ты и я... Было такое "
+"ощущение, что мы прыгнули в ад и тут же вернулись. Очевидно, тебе, мне и "
+"Даккону это удалось, а те двоим - нет. Даже не знаю, что случилось с ними\"."
 
 #: 54235
 msgid "\"You say Deionarra and this archer never returned from the Fortress?\""
@@ -5812,10 +5979,10 @@ msgid ""
 "somewhere in that Fortress is something more powerful than *any* of us. "
 "There's nothing more to say...\""
 msgstr ""
-"\"Больше ничего не могу сказать, шеф. Кроме того, что мы были вынуждены "
-"разделиться сразу после прибытия, что это место ОГРОМНО, что оно кишит "
-"тенями... и что где-то в Крепости есть нечто гораздо могущественнее *любого* "
-"из нас. Больше мне нечего сказать...\""
+"\"Больше ничего, шеф. Кроме того, что мы были вынуждены разделиться сразу "
+"после прибытия, что это место ОГРОМНО, что оно кишит тенями... и что где-то "
+"в Крепости есть нечто гораздо могущественнее *любого* из нас. Больше мне "
+"нечего сказать...\""
 
 #: 54244
 msgid ""
@@ -5852,9 +6019,8 @@ msgid "\"But that's not all you want to say, is it?\""
 msgstr "\"Но это не все, что ты хочешь сказать, верно?\""
 
 #: 54265 54270
-#, fuzzy
 msgid "\"Is that it?\""
-msgstr "\"Морт, правда, что...\""
+msgstr "\"Это все?\""
 
 #: 54268
 msgid ""
@@ -5862,6 +6028,9 @@ msgid ""
 "spirit than he ever did. The other YOU, he... he was detached from "
 "everything. So... I just want you to keep that in mind.\""
 msgstr ""
+"\"Я только хотел сказать, что несмотря на твое упрямство, ТЫ сильнее духом, "
+"чем он когда либо был. Другой ТЫ, он... он был отделен от других. Так что... "
+"я просто хочу, чтобы ты об этом знал\"."
 
 #: 54273
 msgid ""
@@ -5890,8 +6059,8 @@ msgstr ""
 "\"Нет... - Морт качает головой. - Не в этом дело, шеф. Не всегда важно, кто "
 "умнее, или могущественнее, или сильнее... Иногда все сводится к тому, кто ты "
 "и чего ты хочешь *на самом деле*. То есть, когда-то ты хотел стать "
-"бессмертным, но чего ты хотел *на самом деле*? Чтобы точно быть уверенным на "
-"этот раз, вот что я хочу сказать\"."
+"бессмертным, но чего ты хотел *на самом деле*? Просто на этот раз будь "
+"уверен в том, чего ты хочешь - вот что я хочу сказать\"."
 
 #: 54278
 msgid ""
@@ -5905,13 +6074,14 @@ msgstr ""
 
 #: 54279
 msgid "\"Understood. If you've said your peace, let's go. You ready?\""
-msgstr ""
+msgstr "\"Понятно. Если ты высказался - пошли. Ты готов?\""
 
 #: 54280 54833 54836 54839
 msgid ""
 "\"Understood; thanks for the advice, Morte. I'm going to head through the "
 "portal now.\""
 msgstr ""
+"\"Понятно. Спасибо за совет, Морт. Теперь я собираюсь пройти через портал\"."
 
 #: 54281
 msgid ""
@@ -5952,6 +6122,10 @@ msgid ""
 "been suffering all this time. Maybe when you end up settling things... maybe "
 "*we'll* know a bit of peace, too. Maybe.\""
 msgstr ""
+"\"То, что Равель сказала там, в лабиринте... она сказала, что ты "
+"притягиваешь страдающих людей как магнит, - Морт качает головой. - Может, "
+"это потому что *ты* страдал все это время. Возможно, когда ты со всем "
+"разберешься... может, тогда и *мы* обретем чуточку покоя. Возможно\"."
 
 #: 54832 54835 54838
 msgid "\"Maybe so. Then... are you with me, Morte?\""
@@ -5965,6 +6139,11 @@ msgid ""
 "time. Maybe when you end up settling things... maybe *we'll* know a bit of "
 "peace, too. Maybe.\""
 msgstr ""
+"\"То, что Равель сказала там, в лабиринте, и то, что Фелл сказал о том "
+"символе Мучения? Они сказали, что ты страдающих людей как магнит, - Морт "
+"качает головой. - Может, это потому что *ты* страдал все это время. "
+"Возможно, когда ты со всем разберешься... может, тогда и *мы* обретем "
+"чуточку покоя. Возможно\"."
 
 #: 54837
 msgid ""
@@ -5974,35 +6153,46 @@ msgid ""
 "you end up settling things... maybe *we'll* know a bit of peace, too. Maybe."
 "\""
 msgstr ""
+"\"Я знал тебя, шеф, уже долгое время, и есть в тебе *кое-что*: ты "
+"притягиваешь страдающих людей как магнит, - Морт качает головой. - Может, "
+"это потому что *ты* страдал все это время. Возможно, когда ты со всем "
+"разберешься... может, тогда и *мы* обретем чуточку покоя. Возможно\"."
 
 #: 54840
-#, fuzzy
 msgid "Morte falls silent."
-msgstr "\"Где я, Морт?\""
+msgstr "Морт умолкает."
 
 #: 54841
 msgid ""
 "\"The skull was me.\" Morte says quietly. \"The woman was some chit named "
 "Deionarra; I never knew the archer...\""
 msgstr ""
+"\"Черепом был я, - тихо произносит Морт. - Женщиной была одна цыпочка по "
+"имени Дейонарра. Лучника я не знал...\""
 
 #: 54842
 msgid ""
 "\"Yeah...\" Morte rattles, as if shivering. \"Chief, at this Fortress - "
 "there's shadows *everywhere*...\""
 msgstr ""
+"\"Ага... - Морт трясется, почти что трепещет. - Шеф, в этой крепости - там "
+"*повсюду* тени...\""
 
 #: 54843
 msgid ""
 "\"They spoke to me like the Pillar of Skulls...\" Morte's voice drops. "
 "\"They *knew*...\""
 msgstr ""
+"\"Они говорили со мной, как Колонна Черепов... - Морт понижает тон. - Они "
+"*знали*...\""
 
 #: 54844
 msgid ""
 "\"All right; look, you two: I need to know all you can tell me about this "
 "Fortress...\""
 msgstr ""
+"\"Ладно. Слушайте, вы двое: мне нужно знать все, что вы можете рассказать "
+"мне об этой крепости...\""
 
 #: 54845
 msgid ""
@@ -6010,6 +6200,9 @@ msgid ""
 "as we arrive, it's a HUGE place, and it's crawling with shadows... and "
 "somewhere in that Fortress is something more powerful than *any* of us.\""
 msgstr ""
+"\"Больше ничего, шеф. Кроме того, что мы были вынуждены разделиться сразу "
+"после прибытия, что это место ОГРОМНО, что оно кишит тенями... и что где-то "
+"в крепости есть нечто гораздо могущественнее *любого* из нас\"."
 
 #: 54846
 msgid ""
@@ -6018,14 +6211,20 @@ msgid ""
 "crawling with shadows... and somewhere in that Fortress is something more "
 "powerful than anything you've encountered.\""
 msgstr ""
+"\"Больше ничего, шеф. Кроме того, что те, кто попадают туда, вынуждены "
+"разделиться сразу после прибытия, что это место ОГРОМНО, что оно кишит "
+"тенями... и что где-то в крепости есть нечто гораздо могущественнее *любого* "
+"из нас\"."
 
 #: 55832
 msgid "\"Chief, we're looking at trouble here - this modron's gone rogue.\""
 msgstr ""
+"\"Шеф, перед нами потенциальный источник неприятностей: этот модрон стал "
+"бродягой\"."
 
 #: 55833
 msgid "\"Rogue?\""
-msgstr ""
+msgstr "\"Бродягой?\""
 
 #: 55834
 msgid ""
@@ -6033,11 +6232,13 @@ msgid ""
 "happens... well, I guess the *best* explanation is that rogue modrons are "
 "kind of like... backwards modrons.\""
 msgstr ""
+"\"Да, видишь ли, иногда модроны становятся немного хаотичными, и когда это "
+"случается... что ж, полагаю, *лучше* всего объяснить это так: модроны-"
+"бродяги - это вроде как ... модроны наоборот\"."
 
 #: 55836
-#, fuzzy
 msgid "\"So this is a... backwards modron?\""
-msgstr "\"Думаю, да. Это оно?\""
+msgstr "\"Так значит, это... модрон наоборот?\""
 
 #: 55837
 msgid ""
@@ -6045,28 +6246,29 @@ msgid ""
 "might prove more worthwhile than rattling our bone-boxes with this stupid "
 "polygon.\""
 msgstr ""
+"\"Шеф, может, это и кажется весельем, но выбивание барного стула из-под зада "
+"баатезу может оказаться куда более полезным занятием, по сравнению с "
+"трещанием черепушками с этим дурацким полигоном\"."
 
 #: 55839
 msgid "\"Do *you* know what gear spirits are, Morte?\""
-msgstr ""
+msgstr "\"Морт, *ты* знаешь, что такое духи механизмов?\""
 
 #: 55841
 msgid "\"Chief, I have no idea what this cube is rattling on about.\""
-msgstr ""
+msgstr "\"Шеф, я понятия не имею, о чем трещит этот куб\"."
 
 #: 55842
 msgid "\"I thought you were the *expert* on the Planes.\""
-msgstr ""
+msgstr "\"А я-то думал, что ты - *эксперт* по Планам\"."
 
 #: 55843 55846
-#, fuzzy
 msgid "\"All right then. Nordom, I had some other questions for you...\""
-msgstr "\"Ну хорошо, у меня есть другие вопросы к тебе...\""
+msgstr "\"Ну хорошо. Нордом, у меня есть к тебе другие вопросы...\""
 
 #: 55844 55847
-#, fuzzy
 msgid "\"Forget it, then. Let's move on.\""
-msgstr "\"Тогда забудь. Уходим\"."
+msgstr "\"Тогда забудь об этом. Пошли дальше\"."
 
 #: 55845
 msgid ""
@@ -6076,6 +6278,11 @@ msgid ""
 "thing to one you're going to find, and three, treat me with some respect. "
 "Why? See the second reason.\""
 msgstr ""
+"\"Чт... Я знаю побольше *твоего*, шатающийся и ни черта не помнящий хрипун! "
+"Кстати, вот тебе еще три сведенья, чтобы тарахтели в твоей пустой черепушке: "
+"во-первых, НЕ СУЩЕСТВУЕТ экспертов по Планам; во-вторых, я - лучшее из того, "
+"что ты можешь найти; и, в-третьих, проявляй ко мне хоть немного уважения. "
+"Зачем? Смотри пункт второй\"."
 
 #: 55848
 msgid ""
@@ -6084,6 +6291,10 @@ msgid ""
 "of Mechanus. Too many laws, too annoying. A place you wouldn't even want to "
 "think about, let alone visit.\""
 msgstr ""
+"\"Механус? Скучний во всех смыслах этого слова, шеф. Представь себе план, "
+"наполненный модронами и большими вертящимися шестернями - вот и весь "
+"великий, огромный и СКУЧНЫЙ план Механус. Слишком много законов, слишком "
+"нудно. О таком месте ты даже и думать не захочешь, не то чтобы посетить\"."
 
 #: 55849 55857
 #, fuzzy
@@ -6101,6 +6312,11 @@ msgid ""
 "visited...\" Morte rolls his eyes. \"But I have a feeling even *that* would "
 "lose its charm after a while.\""
 msgstr ""
+"\"Прошу ПРОЩЕНИЯ, мисс Жрица Благочестивости, но Механус - САМОЕ скучное "
+"место в мультивселенной... Единственное интересное событие, которое могло бы "
+"там произойти, - это если бы *ты* туда пришла... - Морт закатывает глаза. - "
+"Но у меня есть подозрение, что даже *это* утратило бы свое очарование через "
+"какое-то время\"."
 
 #: 55860
 msgid ""
@@ -6110,15 +6326,19 @@ msgid ""
 "modron goes a little nutty, he kind of cuts that connection, but he keeps a "
 "bit of the energy.\""
 msgstr ""
+"\"Все модроны - части этой 'совокупности', шеф, все равно что огромное "
+"хранилище энергии... Когда один из них умирает, энергия, достаточная для "
+"создания модрона, возвращается в хранилище, и создается новый модрон. Дело "
+"вот в чем... когда модроны сходят с ума, они типа обрывают эту связь, при "
+"этом оставляя у себя немного энергии\"."
 
 #: 55862
 msgid "\"So... Nordom, this Mechanus is a source of energy?\""
-msgstr ""
+msgstr "\"Итак... Нордом, этот Механус - источник энергии?\""
 
 #: 55864
-#, fuzzy
 msgid "\"I see. Nordom, I had some other questions for you...\""
-msgstr "\"Спасибо. У меня были еще вопросы к тебе...\""
+msgstr "\"Ясно. Нордом, у меня есть к тебе другие вопросы...\""
 
 #: 55865 55879 55895 55900
 msgid "\"That's all I wanted to know. Let's move on.\""
@@ -6129,6 +6349,8 @@ msgid ""
 "Morte glares at Fall-From-Grace. \"Do you *mind?* I had the answer covered, "
 "thank you. *I'm* the font of information here, NOT you, all right?\""
 msgstr ""
+"Морт уставился на Падшую Грацию. \"*Не возражаешь*? Спасибо, я уже раскрыл "
+"вопрос. Здесь *я* источник информации, НЕ ты, понятно?\""
 
 #: 55870
 msgid ""
@@ -6137,6 +6359,9 @@ msgid ""
 "respect, huh? That's pretty shallow, chief, pretty shallow! Why, I ought to -"
 "\""
 msgstr ""
+"\"О, *понятно*! Может, если бы я был суккубом, ты бы больше ко мне "
+"прислушивался, правда? Может, если бы я время от времени обнажал ножку, ты "
+"бы меня больше уважал, да? Это очень низко, шеф, очень низко! А что, мне...\""
 
 #: 55871
 msgid "NULL NODE"
@@ -6148,6 +6373,9 @@ msgid ""
 "What the succubus said? She's right. I'm easier to understand, more 'wise to "
 "the chant,' know what I'm saying? So you need me around, see?\""
 msgstr ""
+"\"Вот как?! Я?! Ну... Да, ты слышал... да-а, ты это слышал, шеф? То, что "
+"сказала суккуб? Она права. Меня легче понять, я 'умею подбирать слова'. "
+"Знаешь, что я скажу? Я тебе нужен, понимаешь?\""
 
 #: 55875
 msgid ""
@@ -6155,35 +6383,37 @@ msgid ""
 "this Source, but he's cut off from it. And when a modron dies, they're re-"
 "absorbed. Will Nordom be?\""
 msgstr ""
+"\"Ладно, тогда у меня другой вопрос: вы оба говорите, что Нордом - часть "
+"этого Источника, но он от него отрезан. И что когда модрон умирает, он "
+"возвращается туда. С Нордомом будет так же?\""
 
 #: 55876
 msgid ""
 "\"I never said otherwise, Morte. So... Nordom, this source of energy you "
 "mentioned... it's from Mechanus?\""
 msgstr ""
+"\"Я и не отрицаю, Морт. Итак... Нордом, этот источник энергии, о котором ты "
+"упоминал... он на Механусе?\""
 
 #: 55877 55894 55898
-#, fuzzy
 msgid "\"All right. Nordom, I had some other questions for you...\""
-msgstr "\"Ну хорошо, у меня есть другие вопросы к тебе...\""
+msgstr "\"Ну хорошо. Нордом, у меня есть другие вопросы к тебе...\""
 
 #: 55882
-#, fuzzy
 msgid "Morte nods. "
-msgstr "Она кивает. "
+msgstr "Морт кивает. "
 
 #: 55884
 msgid "\"And if he dies, another Nordom is created.\" "
-msgstr ""
+msgstr "\"И если он умирает, создается еше один Нордом\". "
 
 #: 55886
 msgid "\"Eh... no.\""
-msgstr "\"Эээ... нет\"."
+msgstr "\"Э... нет\"."
 
 #: 55887
-#, fuzzy
 msgid "\"What happens?\""
-msgstr "\"Звенелки? Какие еще 'звенелки'?\""
+msgstr "\"Тогда что?\""
 
 #: 55890
 msgid ""
@@ -6191,10 +6421,13 @@ msgid ""
 "but it won't be Nordom, because he's not *really* a modron anymore; he's got "
 "too much of the Planes in him. They'll make a non-Nordom replacement.\""
 msgstr ""
+"\"Ну, они заберут его энергию, шеф, и создадут еще одного модрона, но это "
+"будет уже не Нордом, потому что он теперь *не совсем* модрон: в нем слишком "
+"много от Планов. Они сделают замену на не-Нордома\"."
 
 #: 55892
 msgid "\"So... in turning rogue, he's become... mortal?\""
-msgstr ""
+msgstr "\"Значит... став бродягой, он превратился... в смертного?\""
 
 #: 55897
 msgid ""
@@ -6203,29 +6436,35 @@ msgid ""
 "he died, another modron would pop up just like him. But since he became "
 "'backwards' - well, that part's going to be lost when he dies.\""
 msgstr ""
+"Морт на миг умолкает. \"Ну... да, можно сказать и так. То есть, если бы он "
+"не сделался бродягой, с ним бы все было в порядке... Если бы он умер, "
+"появился бы еще один модрон - точная его копия. Но поскольку он "
+"'обратился'... ну, это потеряется, когда он умрет\"."
 
 #: 55901
+#, fuzzy
 msgid ""
 "\"Aighhhh! For the sake of the Powers and my sanity, cut it out! He's going "
 "to snap a crank if you keep asking him that over and over!\""
 msgstr ""
+"\"Аййй! Во имя Сил, пожалей мою голову и прекрати это! Он сломает ручку, "
+"если ты продолжишь спрашивать его об этом без конца!\""
 
 #: 55902
 msgid "\"That was kind of the *idea,* Morte.\""
-msgstr ""
+msgstr "\"А что, это *идея*, Морт\"."
 
 #: 55905
 msgid "\"Well, I wanted to know the answer, and I was getting it from him.\""
-msgstr ""
+msgstr "\"Ну, я хотел услышать от него ответ, и я добивался этого от него\""
 
 #: 55906 55912 55917 55926
 msgid "\"Never mind. I had some other questions for Nordom...\""
 msgstr "\"Неважно. У меня были еще вопросы к Нордому...\""
 
 #: 55907 55913 55918 55928 55937
-#, fuzzy
 msgid "\"Forget it. Let's move on.\""
-msgstr "\"Я в порядке. Идем\"."
+msgstr "\"Забудь об этом. Идем\"."
 
 #: 55909
 msgid ""
@@ -6233,11 +6472,13 @@ msgid ""
 "continue. Of course...\" Morte *clicks* his teeth, imitating Nordom. \"If "
 "you want to know about modrons, you should ask ME.\""
 msgstr ""
+"\"О, - Морт 'ухмыляется'. - Мог бы сказать хоть ЧТО-ТО. Пожалуйста, "
+"продолжай. Я не против...\" Морт щелкает зубами, изображая Нордома. - Если "
+"хочешь что-нибудь знать о модронах - спроси МЕНЯ\"."
 
 #: 55910 55915
-#, fuzzy
 msgid "\"All right, Morte... what can you tell me about modrons?\""
-msgstr "\"Что ты можешь рассказать об этой таверне?\""
+msgstr "\"Ладно, Морт... Что ты можешь рассказать мне о модронах?\""
 
 #: 55914
 msgid ""
@@ -6246,6 +6487,10 @@ msgid ""
 "confuse the cube, all right? At least, not while he's armed. You want to "
 "know about modrons, ask me, not him.\""
 msgstr ""
+"\"Слушай, шеф, ОБЫЧНЫЕ модроны с трудом понимают что-либо, что не касается "
+"их базовых задач, и этот тупой полигон только что попал на Планы. Не "
+"запутывай куб, хорошо? По крайней мере, пока он вооружен. Если хочешь узнать "
+"что-то про модронов, спрашивай меня, а не его\"."
 
 #: 55921
 msgid ""
@@ -6254,15 +6499,19 @@ msgid ""
 "and they'd like the REST of the multiverse to be, too. That's why they're "
 "such pests.\""
 msgstr ""
+"\"Шеф, все выглядит так: модроны - это дурацкие геометрические фигуры, "
+"которые бряцают по своему родному плану, Механусу. Они все такие аккуратные, "
+"упорядоченные, и хотят, чтобы и ОСТАЛЬНАЯ мультивселенная была такой же. Вот "
+"почему они такие надоедливые\"."
 
 #: 55923
 msgid "\"What's wrong with trying to make the multiverse more orderly?\""
 msgstr ""
+"\"Что плохого в том, чтобы попытаться навести порядок в мультивселенной?\""
 
 #: 55925
-#, fuzzy
 msgid "\"What's Mechanus?\""
-msgstr "\"Звенелки? Какие еще 'звенелки'?\""
+msgstr "\"Что еще за Механус?\""
 
 #: 55930
 msgid ""
@@ -6271,28 +6520,34 @@ msgid ""
 "the time... catalogue this, put *this* in order, put *that* in order, make "
 "that law, and so on and so forth.\""
 msgstr ""
+"\"Это план, откуда происходят все эти механические дармоеды. Спроси его о "
+"нем, увидишь, что он скажет. Там они садятся в кружок и без конца все "
+"раскладывают по полочкам... Создать перечень, положить на место *то*, "
+"положить на место *это*, придумать закон, и так далее и тому подобное\"."
 
 #: 55931
 msgid ""
 "Truth: \"That seems like a noble goal. What's wrong with trying to make the "
 "multiverse more orderly?\""
 msgstr ""
+"Правда: \"Похоже, это благородное стремление. Что плохого в том, чтобы "
+"попытаться навести порядок в мультивселенной?\""
 
 #: 55935
-#, fuzzy
 msgid "\"You don't sound like that thrills you much.\""
-msgstr "\"Ты так говоришь, как будто не очень веришь в это\"."
+msgstr "\"Кажется, тебе это не кажется захватывающим\"."
 
 #: 55936
-#, fuzzy
 msgid "\"I had some other questions for Nordom...\""
-msgstr "\"У меня были еще вопросы к тебе\"."
+msgstr "\"У меня есть вопросы к Нордому...\""
 
 #: 55938
 msgid ""
 "Morte glances at Nordom, who is holding up his left crossbow to the side of "
 "his head, as if listening to it. "
 msgstr ""
+"Морт глядит на Нордома, который держит свой левый арбалет у виска, словно "
+"слушая его."
 
 #: 55940
 msgid ""
@@ -6300,22 +6555,27 @@ msgid ""
 "*modron* sees things, it wouldn't be much of a life... at least a life I'd "
 "want to live. They just want to make everything *structured.* Yechhhh.\""
 msgstr ""
+"\"Потому что, шеф, хаос тоже должен иметь место. Если бы все было так, как "
+"это видят *модроны*, это не было бы похоже на жизнь.. по крайней мере, на "
+"жизнь, которой я хочу жить. Они только и хотят, чтобы все *структурировать*. "
+"Ух-х\"."
 
 #: 55941
 msgid ""
 "Truth: \"I agree; chaos has it's place... too much law, and we'd all "
 "stagnate. Look, I had some other questions for Nordom...\""
 msgstr ""
+"Правда: \"Согласен. Должно быть место и для хаоса... если будет чересчур "
+"много законов, мы все застрянем. Слушай, у меня есть другие вопросы к "
+"Нордому...\""
 
 #: 55942
-#, fuzzy
 msgid "\"I see. Look, I had some other questions for Nordom...\""
-msgstr "\"Понятно. Слушай, у меня есть некоторые вопросы...\""
+msgstr "\"Понятно. Слушай, у меня есть другие вопросы к Нордому...\""
 
 #: 55944
-#, fuzzy
 msgid "\"All right then. Let's move on.\""
-msgstr "\"Хорошо. Давай тогда искать его\"."
+msgstr "\"Тогда ладно. Давай двигаться дальше\"."
 
 #: 56029
 msgid "\"I *like* the way she smells. It's pretty.\""
@@ -6374,23 +6634,23 @@ msgstr "\"Шеф, ты как, вернулся? Кажется, ты прост
 
 #: 6072
 msgid "\"Eh? Spirit?\""
-msgstr "\"Эээ? Дух?\""
+msgstr "\"Э? Дух?\""
 
 #: 6073
 msgid ""
 "\"You were rattling your bone-box with some woman? Where?\" Morte looks "
 "around, excited. \"What did she look like?\""
 msgstr ""
-"\"Ты тряс своей черепушкой с какой-то женщиной? Где?\" Морт недоуменно "
-"оглядывается. \"А как она выглядела?\""
+"\"Ты тряс своей черепушкой с какой-то женщиной? Где? - Морт недоуменно "
+"оглядывается. - А как она выглядела?\""
 
 #: 6074
 msgid ""
 "\"Eh... no, you just kind of drifted out for a bit there, just stood there, "
 "statue-like. I was a little worried you'd gone addled on me again.\""
 msgstr ""
-"\"Эээ... нет, просто ты выпал ненадолго отсюда и стоял как вкопанный. Я уж "
-"стал бояться, что ты снова начнешь тухнуть\"."
+"\"Э... нет, просто ты выпал ненадолго отсюда и стоял как вкопанный. Я уж "
+"стал бояться, что ты снова свихнешься и набросишься на меня\"."
 
 #: 6075
 msgid "\"No, I'm fine. Do you know who that spirit was?\""
@@ -6413,25 +6673,30 @@ msgid "\"No, I'm fine... I think. Let's move on.\""
 msgstr "\"Нет, я в порядке... кажется. Идем\"."
 
 #: 60950
+#, fuzzy
 msgid ""
 "\"Hey, being dead's not so bad. Look on the bright side... at least you "
 "don't have to talk with those ridiculous squiggles anymore.\""
 msgstr ""
+"\"Эй, быть мертвым не так уж плохо. Посмотри на это с другой стороны: по "
+"крайней мере, тебе больше не придется разговаривать с этими дурацкими "
+"закорючками\"."
 
 #: 61111
 msgid "\"Quiet, Morte. I'll handle this. Could you tell me what happened?\""
 msgstr ""
+"\"Молчи, Морт. Я с этим разберусь. Ты не мог бы сказать, что случилось?\""
 
 #: 61112
 msgid "\"Forget it. I'll leave you in peace.\""
-msgstr ""
+msgstr "\"Забудь. Я оставлю тебя здесь\"."
 
 #: 61408
 msgid ""
 "\"Eh... say there, chief... what do you say? How about spotting old Morte a "
 "bit of jink? It's been more a while, you know...\""
 msgstr ""
-"\"Эээ... шеф... что скажешь? Как насчет того, чтобы одолжить старому Морту "
+"\"Э... шеф... что скажешь? Как насчет того, чтобы одолжить старому Морту "
 "немного звенелок? Знаешь, а то иногда не хватает...\""
 
 #: 61409
@@ -6443,12 +6708,12 @@ msgid ""
 "Morte seems only dimly aware of your presence, and alternates between "
 "giggling to himself and sighing pleasantly."
 msgstr ""
-"Похоже, Морт, то глупо хихикая, то томно вздыхая, только сейчас заметил твое "
-"присутствие."
+"Похоже, Морт лишь смутно осознает твое присутствие: он то глупо хихикает, то "
+"томно вздыхает."
 
 #: 61411
 msgid "\"Sure, why not. Miss?\""
-msgstr "\"Конечно, почему бы и нет. Леди?\""
+msgstr "\"Конечно, почему бы и нет. Мисс?\""
 
 #: 61412
 msgid "\"Sorry, Morte; not enough funds. Let's go.\""
@@ -6456,7 +6721,7 @@ msgstr "\"Извини, Морт, наличность закончилась. �
 
 #: 61413
 msgid "\"We've really got to leave, Morte. Farewell, miss.\""
-msgstr "\"Морт, на самом деле нужно идти. Прощай, леди\"."
+msgstr "\"Морт, нам правда нужно идти. Прощай, красавица\"."
 
 #: 61414
 msgid "Wait for him to return."
@@ -6464,7 +6729,7 @@ msgstr "Подождать, пока он не вернется."
 
 #: 61415
 msgid "\"All right... I guess things went well, then. Farewell, miss.\""
-msgstr "\"Хорошо... Думаю, что все прошло хорошо. Прощай, леди\"."
+msgstr "\"Хорошо... Думаю, что все прошло хорошо. Прощай, красавица\"."
 
 #: 61481
 msgid "\"Me? I'm the head of Vecna.\""
@@ -6509,28 +6774,24 @@ msgid ""
 "\"Reminds me of a job I once had.\" He seems embarrassed. \"Well, I mean... "
 "without the arms.\" "
 msgstr ""
-"\"Это напоминает мне работу, которая у меня однажды была\". Он смущается. "
-"\"Ну, только... без маханий рук\". "
+"\"Это напоминает мне одну мою работенку\". Кажется, он смущен. \"Ну, "
+"только... без махания руками\". "
 
 #: 6325 6326
-#, fuzzy
 msgid "Examine the corpse."
-msgstr "Снова осмотреть труп. "
+msgstr "Осмотреть труп. "
 
 #: 6327
-#, fuzzy
 msgid "\"Hmmm. I wonder if this would work with the other notices...\""
-msgstr "\"Хммм. Думаю, я смогу найти применение этой руке...\""
+msgstr "\"Хм-м. Интересно, это сработает с другими записками?..\""
 
 #: 6328
-#, fuzzy
 msgid "\"Hmmmm. I wonder if this would work with the other notices...\""
-msgstr "\"Хммм. Думаю, я смогу найти применение этой руке...\""
+msgstr "\"Хм-м. Интересно, это сработает с другими записками?..\""
 
 #: 6329
-#, fuzzy
 msgid "Examine the other notices."
-msgstr "Игнорировать объявления, осмотреть надписи."
+msgstr "Осмотреть другие записки."
 
 #: 6330
 msgid "Use yourStories-Bones-Tell Power on the corpse."
@@ -6542,8 +6803,7 @@ msgstr "Оставить труп в покое."
 
 #: 63454
 msgid "\"I can't stand anywhere. It's this uh, legs thing, you know.\""
-msgstr ""
-"\"Я не могу никуда отходить. Видишь ли, это можно делать только ногами\"."
+msgstr "\"Я не могу нигде стоять. Видишь ли, это можно делать только ногами\"."
 
 #: 63455
 msgid "\"I thought you were good looking, but I was mistaken.\""
@@ -6555,7 +6815,7 @@ msgstr "\"Я перестал дышать с тех пор, как увидел
 
 #: 63457
 msgid "\"I have a NAME, you know.\""
-msgstr "\"Знааешь, у меня есть ИМЯ\"."
+msgstr "\"Знаешь, у меня ведь есть ИМЯ\"."
 
 #: 63458
 msgid ""
@@ -6660,7 +6920,7 @@ msgstr "\"Ох, *заткнись*\"."
 
 #: 63681
 msgid "\"Oh, go bother someone else, you idiot counting box.\""
-msgstr "\"Ох, иди беспокой кого-нибудь еще, счетчик идиотов\"."
+msgstr "\"Ох, иди беспокой кого-нибудь еще, дурацкая счетная машинка\"."
 
 #: 63682
 msgid ""
@@ -6674,7 +6934,7 @@ msgstr "\"Если ты не заткнешь свою пасть, я тебе �
 
 #: 63684
 msgid "\"Go kiss a bear trap.\""
-msgstr "\"Иди поцелуй задницу\"."
+msgstr "\"Иди поцелуй медведя в задницу\"."
 
 #: 63685
 msgid "\"Trust me. Annah could use a kiss.\""
@@ -6693,8 +6953,8 @@ msgid ""
 "\"It's purely voluntary on their part, you idiot. Uh... not that I would "
 "know.\""
 msgstr ""
-"\"Это чисто добровольное действие с их стороны, идиот. Ух... или я не все "
-"знаю\"."
+"\"Это чисто добровольное действие с их стороны, идиот. Э... или я не все знаю"
+"\"."
 
 #: 63858
 msgid "\"Trust me, you've never met him.\""
@@ -6706,14 +6966,13 @@ msgid ""
 "faction that's out to get authority figures and tear down anything that "
 "smells even remotely like 'establishment.' "
 msgstr ""
-"Недавно я повстречал замаскировавшегося под зомби мужчину из Анархистов, "
+"Недавно я повстречал замаскировавшегося под зомби мужчину из анархистов, "
 "фракции, которая отрицает авторитеты и низвергает все, что хоть издали "
 "напоминает \"устоявшийся институт\". "
 
 #: 64534 64535
-#, fuzzy
 msgid "\"Pretty barmy, I suppose...\""
-msgstr "\"Звучит очень запутанно\"."
+msgstr "\"Бред, как по мне...\""
 
 #: 64990
 msgid ""
@@ -6735,7 +6994,7 @@ msgid ""
 "at all the traffic that's gone through! Maybe one of the low-lives around "
 "here will know...\""
 msgstr ""
-"\"Без понятия, шеф. Но это должен быть распространенный ключ: гляди сколько "
+"\"Без понятия, шеф. Но это должен быть распространенный ключ: гляди, сколько "
 "народу через него ходит! Может, кто из местных бандюков подскажет...\""
 
 #: 64993
@@ -6787,7 +7046,7 @@ msgstr "\"Ты говорил, что ты - мимир, верно, Морт?\"
 
 #: 65546 66352
 msgid "\"Tell me again how you ended up on the Pillar of Skulls.\""
-msgstr "\"Расскажи мне еще раз, как ты оказался в Колонне черепов\"."
+msgstr "\"Расскажи мне еще раз, как ты оказался в Колонне Черепов\"."
 
 #: 65547 66353
 msgid ""
@@ -6801,9 +7060,8 @@ msgid "\"What do you know about the Blood War?\""
 msgstr "\"Что ты знаешь о Кровавой войне?\""
 
 #: 65549 66355
-#, fuzzy
 msgid "\"What do you know about the night hag Ravel?\""
-msgstr "\"Ты знаешь что-нибудь о нем?\""
+msgstr "\"Что тебе известно про ночную ведьму Равель?\""
 
 #: 65550 66356
 msgid "\"How did you die, Morte?\""
@@ -6816,7 +7074,7 @@ msgstr "\"Ничего, Морт. Просто проверяю, что ты в�
 #: 65552
 msgid "\"Aw, *c'mon,* chief. Don't tell me you forgot again.\""
 msgstr ""
-"\"Эй, шеф, *да ладно* тебе. Только не говори, что ты все забыл опять\"."
+"\"Эй, шеф, *да ладно* тебе. Только не говори, что ты снова все забыл\"."
 
 #: 65554
 msgid ""
@@ -6837,7 +7095,7 @@ msgstr "\"О чем это ты, шеф? Здесь больше ничего н
 #: 65564
 msgid ""
 "\"And of course, that little bit at the end about not trusting skulls.\""
-msgstr "\"И конечно же, в самом конце небольшая приписка не верить черепам\"."
+msgstr "\"И конечно же, в самом конце небольшая приписка: не верить черепам\"."
 
 #: 65566
 msgid "\"Go on. What does it say after that?\""
@@ -6855,8 +7113,7 @@ msgid ""
 msgstr ""
 "Я напрямую спросил Морта насчет дополнительной строки на моей спине, которую "
 "он \"забыл\" мне прочитать. Он заявил, что это не имеет никакого смысла, "
-"поэтому он и не прочел. Я уверен, что он лжет, но пока мне непонятно - "
-"почему. "
+"поэтому он и не прочел. Я уверен, что он лжет, но пока мне непонятно почему. "
 
 #: 65574
 msgid "\"What do you think that part means? Do you think it refers to *you?*\""
@@ -6903,16 +7160,16 @@ msgid ""
 "know what *else* you've neglected to mention since we've been traveling "
 "together.\""
 msgstr ""
-"\"*Пока еще*. Мне не нравится тот факт, что утаил эту строку от меня, я "
-"хотел бы узнать, может быть ты *еще* чем-нибудь пренебрег с тех пор, как мы "
-"путешествуем вместе\"."
+"\"*Пока*. Мне не нравится тот факт, что ты утаил эту строку от меня. Я хотел "
+"бы знать: может, ты *еще* чего-то недосказал с тех пор, как мы путешествуем "
+"вместе\"."
 
 #: 65589
 msgid ""
 "\"Nothing! I've told you everything... well, ALMOST everything, but nothing, "
 "you know, *dangerous.*\" "
 msgstr ""
-"\"Больше ничем! Я говорил тебе обо всем... ну, ПОЧТИ обо всем, кроме "
+"\"Больше ничего! Я говорил тебе обо всем... ну, ПОЧТИ обо всем, кроме "
 "*опасного*, ну ты понимаешь\". "
 
 #: 65590
@@ -6943,9 +7200,9 @@ msgid ""
 msgstr ""
 "\"Сигил - это кольцеобразный город, который торчит на самой верхушке "
 "бесконечно высокого тонкого шпиля, который, как некоторые заявляют, "
-"находится в самом центре Планов... конечно же заявления о том, *как* он "
-"может быть на верхушке бесконечного тонкого шпиля, и каким образом город "
-"может *быть* в центре Планов, порождают массу вопросов\"."
+"находится в самом центре Планов... Конечно, заявления о том, *как* он может "
+"быть на верхушке бесконечного тонкого шпиля, и каким образом город может "
+"*быть* в центре Планов, порождают массу вопросов\"."
 
 #: 65597 65622
 msgid "\"Anything else?\""
@@ -6962,7 +7219,7 @@ msgid ""
 "frame, barrel hoop, book shelf, or open window might be a portal under the "
 "right conditions. It all depends on if you have the key to open it.\""
 msgstr ""
-"\"Сигил называется 'Городом Дверей', главным образом, из-за того здесь "
+"\"Сигил называется 'Городом Дверей', главным образом из-за того, что здесь "
 "расположена КУЧА дверей, ведущих в него и из него - простая арка, дверной "
 "проем, обруч от бочки, книжная полка или открытое окно может стать порталом "
 "в определенных обстоятельствах. Все зависит от того, есть ли у тебя ключи, "
@@ -6999,8 +7256,8 @@ msgid ""
 "\"Anywhere, chief. Literally. Any place you can think of, there's a portal "
 "there. That's why Sigil's so popular across the Planes.\""
 msgstr ""
-"\"Да где угодно, шеф. Буквально. До любого места, которое ты можешь себе "
-"вообразить, есть свой портал. Вот почему Сигил так популярен на Планах\"."
+"\"Да где угодно, шеф. Буквально. В любое место, которое ты можешь себе "
+"вообразить, есть портал. Вот почему Сигил так популярен на Планах\"."
 
 #: 65609 65635 65701 65705 65827 65835 65840 65842
 msgid "\"I see. I had some other questions...\""
@@ -7016,7 +7273,7 @@ msgstr ""
 
 #: 65612
 msgid "\"Oh, *that's* good to hear.\""
-msgstr "\"Ох, *очень* приятно это слышать\"."
+msgstr "\"О-о, *очень* приятно это слышать\"."
 
 #: 65613
 msgid ""
@@ -7038,12 +7295,12 @@ msgid ""
 msgstr ""
 "\"Нет, серьезно, шеф. Я очень хорошо навострился в словоблудии. Я вообще "
 "могу любому скрутить уши в трубочку, если ты хочешь знать. Я знаю выпады, "
-"дразнилки - все, что может ввернуть оба уха поглубже в голову любого "
-"слушателя\"."
+"дразнилки - все, что может ввернуть оба уха поглубже в голову любому "
+"слушателю\"."
 
 #: 65617
 msgid "\"Uh... how's *that* useful?\""
-msgstr "\"Ух... как *это* может быть полезным?\""
+msgstr "\"Э... Чем *это* может быть полезно?\""
 
 #: 65620
 msgid ""
@@ -7063,7 +7320,7 @@ msgstr "\"А как это действует?\""
 
 #: 65624 65629
 msgid "\"Hmmm. That might prove useful. Let's go.\""
-msgstr "\"Хммм. Это может пригодиться. Идем\"."
+msgstr "\"Хм-м. Это может пригодиться. Идем\"."
 
 #: 65625
 msgid ""
@@ -7078,16 +7335,16 @@ msgid ""
 "that the more insults Morte hears from people I meet, the better this "
 "ability becomes. "
 msgstr ""
-"Морт сказал мне, что у него есть особенный \"талант\" выводить из себя людей "
-"под названием \"Поток Проклятий\". Очевидно, во время своей жизни и смерти "
-"он выучил столько оскорблений, что теперь знает, как провоцировать людей на "
-"нападение. В приступе злости их легко ударить, а им - труднее, кроме того, "
-"они забывают обо всем, кроме того, чтобы догнать Морта и надавать ему "
-"тумаков. Похоже, это очень пригодится, если я повстречаю какого-нибудь "
-"чародея. Фактически этот талант не является магией, поэтому он может "
-"подействовать на любую тварь, которая зачитывает заклинания. Думаю, чем "
-"больше проклятий услышит Морт от людей, которых я встречу, тем лучше будет "
-"становиться эта возможность. "
+"Морт сказал мне, что у него есть особенный \"талант\" выводить из себя "
+"людей, который называется \"Поток Проклятий\". Очевидно, во время своей "
+"жизни и смерти он выучил столько оскорблений, что теперь знает, как "
+"провоцировать людей на нападение. В приступе злости их легко ударить, а им - "
+"труднее ударить тебя. Кроме того, они забывают обо всем, кроме того, чтобы "
+"догнать Морта и надавать ему тумаков. Похоже, это очень пригодится, если я "
+"повстречаю какого-нибудь чародея. Фактически этот талант не является магией, "
+"поэтому он может подействовать на любую тварь, которая зачитывает "
+"заклинания. Думаю, чем больше проклятий услышит Морт от людей, которых я "
+"встречу, тем лучше будет становиться эта возможность. "
 
 #: 65626
 msgid ""
@@ -7100,15 +7357,15 @@ msgid ""
 "combat. Note that the more insults Morte hears, the better his Litany of "
 "Curses becomes. The Litany of Curses is VERY effective against mages."
 msgstr ""
-"\"Ну,  я могу извергать проклятия на любого до тех пор, пока они в припадке "
-"безумства не начнут гоняться за мной повсюду\".\n"
+"\"Ну, я могу извергать проклятия на любого до тех пор, пока они в припадке "
+"безумства не начнут гоняться за мной\".\n"
 "\n"
 "ПРИМЕЧАНИЕ: У Морта есть способность под названием 'Поток Проклятий'. Этот "
 "навык не магический; если жертва не сможет противостоять ему, то она получит "
-"штраф к своему Классу Брони и атакам и ничего не будет делать, кроме как "
-"бросаться на Морта в рукопашной. Помни, что чем больше Морт услышит "
-"оскорблений, тем лучше будет становиться Поток Проклятий. Поток Проклятий "
-"ОЧЕНЬ эффективен против магов."
+"штраф к своему Классу Брони и атакам, и ничего не будет делать, кроме как "
+"бросаться на Морта в рукопашную. Помни, что чем больше Морт услышит "
+"оскорблений, тем лучше будет становиться Поток Проклятий. Он ОЧЕНЬ "
+"эффективен против магов."
 
 #: 65627
 msgid "\"Can you do anything else?\""
@@ -7121,7 +7378,7 @@ msgid ""
 "by the way - they said if I needed any help, I could just call on them.\""
 msgstr ""
 "\"Ну, пока я пылился на полке у Лотара в ожидании того, когда ты меня не "
-"выкупишь - спасибо за бесцельно проведенное время там - я завел там "
+"выкупишь - спасибо за бесцельно проведенное там время, - я завел там "
 "несколько друзей, и они сказали, что если мне понадобится помощь, то я могу "
 "их позвать\"."
 
@@ -7144,13 +7401,13 @@ msgid ""
 "Morte's level, and the power can only be used a limited number of times per "
 "day."
 msgstr ""
-"\"Ну, по моему свисту они появляются просто из ниоткуда. Они - так еще кучка "
-"драчунов - кусаются как *змеи*\".\n"
+"\"Ну, по моему свисту они появляются просто из ниоткуда. Они - та еще кучка "
+"драчунов: кусаются как *змеи*\".\n"
 "\n"
-"ПРИМЕЧАНИЕ: Морт (теперь) получил особую возможность \"Толпа Черепов\". "
+"ПРИМЕЧАНИЕ: Морт (теперь) обладает особой способностью \"Толпа Черепов\". "
 "Воспользовавшись ею, он может призвать толпу черепов из ниоткуда, которые "
-"будут кусать противника несколько раз. Сила и урон черепов зависит от уровня "
-"Морта. Эту возможность можно использовать только несколько раз в день."
+"покусают противника. Сила и урон черепов зависит от уровня Морта. Эту "
+"возможность можно использовать только несколько раз в день."
 
 #: 65637
 msgid ""
@@ -7160,11 +7417,11 @@ msgid ""
 "opponent Morte chooses, biting them, then running off. The damage they do "
 "depends on Morte's level of experience.  "
 msgstr ""
-"Морт сказал мне, что, пока они был на полке Лотара, у него новая возможность "
-"под названием \"Толпа Черепов\". Очевидно, он может несколько раз в день "
-"призывать некоторых друзей, с которыми познакомился у Лотара. Они будут "
-"атаковать выбранного Мортом противника, кусая его, а затем убегая прочь. "
-"Наносимый ими урон зависит от уровня опыта Морта.  "
+"Морт сказал мне, что пока они был на полке Лотара, у него появилась новая "
+"способность под названием \"Толпа Черепов\". Похоже, он может несколько раз "
+"в день призывать некоторых друзей, с которыми познакомился у Лотара. Они "
+"будут атаковать выбранного Мортом противника, кусая его, а затем убегая "
+"прочь. Наносимый ими урон зависит от уровня опытности Морта.  "
 
 #: 65638
 msgid "\"Well, here's how *I* see things...\""
@@ -7172,18 +7429,17 @@ msgstr "\"Ну, вот как *я* все себе представляю...\""
 
 #: 65649
 msgid "\"On second thought, forget it. Let's go.\""
-msgstr ""
+msgstr "\"Если подумать, забудь об этом. Пошли\"."
 
 #: 65650
 msgid ""
 "\"The way I see it, it's your show here, chief. There's not much I can say "
 "now that could help.\""
-msgstr ""
+msgstr "\"Как по мне, это твое шоу, шеф. Тут я мало что могу подсказать\"."
 
 #: 65651
-#, fuzzy
 msgid "\"*That's* a big change. I had some other questions...\""
-msgstr "\"Это проблема. Слушай, у меня еще есть вопросы...\""
+msgstr "\"Это что-то *новое*. У меня есть другие вопросы...\""
 
 #: 65652 65658 65661 65664 65668 65672 65677 65685
 msgid "\"All right. Let's move on, then.\""
@@ -7197,9 +7453,9 @@ msgid ""
 "here HAS to know where he is.\""
 msgstr ""
 "\"Я считаю, что ты должен попробовать и отыскать этого 'Фарода', где бы ни "
-"находилась его берлога. Если бы он не знал, что с тобой могло случиться, то "
-"у тебя не было бы этих указаний на спине. Один из местных ОБЯЗАТЕЛЬНО должен "
-"знать, где он находится\"."
+"находилась его берлога. У тебя не было бы этих указаний на спине, если бы у "
+"него не было сведений о том, что с тобой стряслось. Один из местных "
+"ОБЯЗАТЕЛЬНО должен знать, где он находится\"."
 
 #: 65654 65657 65660 65663 65667 65671 65681
 msgid "\"Good point. I had some other questions...\""
@@ -7214,12 +7470,16 @@ msgid ""
 "\"I say we try and nick this 'bronze sphere' as soon as possible and get it "
 "back to ol' stutter-crutch.\""
 msgstr ""
+"\"Скажем, мы могли бы попробовать найти поскорее этот 'бронзовый шар' и "
+"принести его старому костылю\"."
 
 #: 65659
 msgid ""
 "\"I say we go find out where your corpse ended up. Maybe we can find out how "
 "you got penned in the dead book.\""
 msgstr ""
+"\"Скажем, мы могли бы выяснить, где нашли твой труп. Возможно, мы смогли бы "
+"узнать, кто записал тебя в книгу мертвых\"."
 
 #: 65662
 msgid ""
@@ -7227,6 +7487,9 @@ msgid ""
 "this way. There has to be some canny bashers in one of the Wards who knows "
 "something more about you.\""
 msgstr ""
+"\"Скажем, мы могли бы разыскать тех, кто что-нибудь о тебе знает... и как ты "
+"стал таким. В районах должны найтись толковые рубаки, которым известно что-"
+"нибудь интересное о тебе\"."
 
 #: 65665
 msgid ""
@@ -7235,16 +7498,21 @@ msgid ""
 "sages and some of the sensory stones might be able to tell us something, "
 "though.\""
 msgstr ""
+"\"Похоже, нам нужно выяснить больше про эту ночную ведьму, Равель. И должен "
+"тебе признаться, шеф: я *не горю* желанием это делать. Однако мудрецы "
+"Фестхолла или какие-нибудь камни переживаний могут нам что-то подсказать\"."
 
 #: 65666
 msgid "\"Festhall? Sensory stones?\""
-msgstr ""
+msgstr "\"Фестхолл? Камни переживаний?\""
 
 #: 65669
 msgid ""
 "Morte suggested I check out the Civic Festhall in the Clerk's Ward to try "
 "and find out more about the night hag, Ravel. "
 msgstr ""
+"Морт посоветовал мне заглянуть в Городской Фестхолл в Чиновничьем районе и "
+"попробовать разузнать побольше о ночной ведьме Равель."
 
 #: 65670
 msgid ""
@@ -7254,16 +7522,24 @@ msgid ""
 "and they have plenty of sages, lecturers, and trainers that might be able to "
 "tumble us onto the dark of what's up with Ravel.\""
 msgstr ""
+"\"Извини, шеф, я все забываю, что у тебя знания, как у зеленого первичника. "
+"Слушай, Фестхолл - это главная берлога фракции чувствующих в Чиновничьем "
+"районе. Там есть библиотеки камней переживаний, а еще куча мудрецов, "
+"лекторов и наставников, которые могли бы пролить свет на то, что случилось с "
+"Равель\"."
 
 #: 65673
 msgid ""
 "\"Well, Ravel got mazed. Still, there's probably SOME key and SOME portal "
 "that could take us there, if you still want to go.\""
 msgstr ""
+"\"Ну, Равель попала в лабиринт. И все же возможно есть КАКОЙ-НИБУДЬ ключ и "
+"КАКОЙ-НИБУДЬ портал, которые могли бы нас туда доставить, если ты все еще "
+"этого хочешь\"."
 
 #: 65674
 msgid "\"Do you know what the key to her maze could be?\""
-msgstr ""
+msgstr "\"Ты не знаешь, чем может быть ключ к ее лабиринту?\""
 
 #: 65675 65680
 msgid "\"Do you know where I can find a portal to her maze?\""
@@ -7277,6 +7553,10 @@ msgid ""
 "prostitutes... it sure would beat all this running around and talking to "
 "people. "
 msgstr ""
+"Морт подкинул мысль, что кто-нибудь в Чиновничьем районе может знать, где "
+"достать кусочек Равель. Если мы никого не найдем, можно проверить Фестхолл и "
+"тамошние камни переживаний. Если и *там* ничего не выйдет, всегда можно "
+"наведаться к проституткам... Вот уж предстоит набегаться и наговориться."
 
 #: 65679
 msgid ""
@@ -7287,11 +7567,16 @@ msgid ""
 "we could check the sensory stones in the Festhall - maybe one of those "
 "stones could tell us something of use.\""
 msgstr ""
+"\"Без понятия. Я имею в виду 'кусочек Равель'. Это может быть что угодно, "
+"начиная от одно из ее высушенных бородавок до ее поделок и ее слюней. "
+"Слишком туманно. И все же могу поспорить, что КТО-НИБУДЬ в Чиновничьем "
+"районе должен знать, где достать кусок этой чокнутой ведьмы. Если нет, мы "
+"можем проверить камни переживаний в Фестхолле: возможно, одна из этих глыб "
+"подскажет нам что-нибудь полезное\"."
 
 #: 65682
-#, fuzzy
 msgid "\"All right. Let's keep looking, then.\""
-msgstr "\"Хорошо. Давай тогда искать его\"."
+msgstr "\"Ладно. Продолжим поиски\"."
 
 #: 65683
 msgid ""
@@ -7302,35 +7587,36 @@ msgid ""
 msgstr ""
 "\"Хоть убей, не знаю, шеф. В Сигиле полно порталов. Я бы начал с Фестхолла - "
 "сомневаюсь, что он там, но тамошние камни переживаний могут кое-что "
-"рассказать об этом. А если не получится, можно все забыть про это и заставить "
-"кого-нибудь СДЕЛАТЬ нам портал\"."
+"рассказать об этом. А если не получится, можно все забыть про это и "
+"заставить кого-нибудь СДЕЛАТЬ нам портал\"."
 
 #: 65684
 msgid "\"Very well. I had some other questions...\""
-msgstr "\"Очень хорошо. У меня есть другие вопросы...\""
+msgstr "\"Хорошо. У меня есть другие вопросы...\""
 
 #: 65686
 msgid ""
 "\"I say we find what we need, and get the hells outta here, chief. This "
 "place is giving me the shivers, and I don't even have skin. All right?\""
 msgstr ""
+"\"Скажем, мы могли бы найти то, что нам нужно, и к чертям сваливать отсюда, "
+"шеф. От этого места у меня мурашки, хоть у меня и нет кожи. Хорошо?\""
 
 #: 65688
-#, fuzzy
 msgid "\"All right, then. Let's move on.\""
-msgstr "\"Хорошо. Давай тогда искать его\"."
+msgstr "\"Ну хорошо. Продолжим путь\"."
 
 #: 65689
 msgid ""
 "\"You got me, chief. This is all your show - I'm just following you around.\""
-msgstr ""
+msgstr "\"Ты меня понял, шеф. Это целиком твое шоу, я просто буду рядом\"."
 
 #: 65696
 msgid ""
 "\"Nope. Still, some berk's got to know where to find him. Let's ask some of "
 "the locals.\""
 msgstr ""
-"\"Неа. Во общем, какой-нибудь пень знает, как добраться до него. Надо "
+"\"Неа. Во общем, какой-нибудь пень должен знать, как добраться до него. Надо "
 "поспрашивать местных\"."
 
 #: 65699
@@ -7338,20 +7624,20 @@ msgid ""
 "\"Yeah... a mimir's a floating encyclopedia. You put information in, you get "
 "information out.\""
 msgstr ""
-"\"Ага... мимир - это летающая энциклопедия. Запихиваешь информацию в него, "
-"получаешь информацию от него обратно\"."
+"\"Ага... мимир - это летающая энциклопедия. Запихиваешь в него информацию и "
+"получаешь обратно\"."
 
 #: 65700
 msgid "\"But aren't mimirs made of a silvery metal?\""
-msgstr "\"Но разве мимиры сделаны не из серебра?\""
+msgstr "\"Но разве мимиры не сделаны из серебристого металла?\""
 
 #: 65703
 msgid ""
 "\"So? Maybe some are, but *I'm* not. And there's stranger things on the "
 "Planes than that, chief.\""
 msgstr ""
-"\"Ну и что? Может быть некоторые - да, но *я* - нет. И это одна из самых "
-"странных вещей в Планах, шеф\"."
+"\"Ну и что? Может быть, некоторые - да, но *я* - нет. И это не самая "
+"странная штука на Планах, шеф\"."
 
 #: 65704
 msgid "\"I don't think you're a mimir, Morte. What are you?\""
@@ -7360,7 +7646,7 @@ msgstr "\"Не думаю, что ты - мимир, Морт. Что ты та�
 #: 65707
 msgid ""
 "\"What's with the interrogation? What do *you* know about mimirs, anyway?\""
-msgstr "\"Это что, допрос? А что *ты* вообще знаешь о мимирах?\""
+msgstr "\"Это что, допрос? Да что *ты* вообще знаешь о мимирах?\""
 
 #: 65708
 msgid "\"I know enough to think you're lying to me.\""
@@ -7372,14 +7658,13 @@ msgid ""
 "missing line from my back saying not to trust you, then this. What am I "
 "supposed to think?\""
 msgstr ""
-"\"Я знаю достаточно, чтобы считать, что ты лжешь мне. Сначала это та забытая "
-"строчка на моей спине, гласящая не верить тебе, теперь это. И что я должен "
+"\"Я знаю достаточно, чтобы считать, что ты лжешь мне. Сначала та забытая "
+"строчка на моей спине, говорящая не верить тебе, теперь это. И что я должен "
 "думать?\""
 
 #: 65710
-#, fuzzy
 msgid "\"Nothing, I suppose. I had some other questions...\""
-msgstr "\"Думаю, да. У меня есть другие вопросы...\""
+msgstr "\"Пожалуй, ничего. У меня есть другие вопросы...\""
 
 #: 65711
 msgid "\"Never mind, then. Let's go.\""
@@ -7391,17 +7676,17 @@ msgid ""
 "anything to pen on him. I'm going to need to catch him in a lie in order to "
 "get the truth out of him, I think. "
 msgstr ""
-"Я прямо спросил Морта о его заявлении, что он - мимир, но не сумел его "
-"загнать в угол. Думаю, мне нужно его подловить на лжи, чтобы вывести его на "
-"чистую воду. "
+"Я прямо спросил Морта о его заявлении, что он - мимир, но не сумел загнать "
+"его в угол. Думаю, мне нужно его подловить на лжи, чтобы вывести на чистую "
+"воду. "
 
 #: 65713
 msgid ""
 "\"Okay, I'm *not* a mimir, but I know a lot of stuff, so I *might* as well "
 "be one.\""
 msgstr ""
-"\"Ну хорошо, я *не* мимир, но я знаю столько всего, что *вполне* мог бы быть "
-"им\"."
+"\"Ну хорошо, я *не* мимир, но я знаю столько всего, что *вполне* мог бы им "
+"быть\"."
 
 #: 65714
 msgid "\"What *are* you then?\""
@@ -7424,9 +7709,8 @@ msgid "\"Because I've *been* there, Morte. I walked on Avernus.\""
 msgstr "\"А я *был* там, Морт. Я бродил по Авернусу\"."
 
 #: 65725 65729
-#, fuzzy
 msgid "\"Forget it. Let's go.\""
-msgstr "\"Тогда забудь. Уходим\"."
+msgstr "\"Забудь об этом. Идем\"."
 
 #: 65726
 msgid ""
@@ -7434,8 +7718,8 @@ msgid ""
 "been talking about me with that tanar'ri, haven't you?! What does she know?!"
 "\""
 msgstr ""
-"\"А откуда ТЕБЕ знать, как пахнет Баатор?! Если только... Эй, ты разговаривал "
-"обо мне с этой танарри, разве не так?! Что она-то знает?!\""
+"\"А откуда ТЕБЕ знать, как пахнет Баатор?! Если только... Эй, ты "
+"разговаривал обо мне с этой танарри, разве не так?! Что она-то знает?!\""
 
 #: 65727
 msgid ""
@@ -7458,8 +7742,8 @@ msgid ""
 "\"I was in the hells for a while. Kind of a long while. The stench kind of "
 "grows on you.\""
 msgstr ""
-"\"Я был тамошних преисподних. Довольно долго был. А эта вонь въедается в тебя"
-"\"."
+"\"Я был в тамошних преисподних. Довольно долго был. А эта вонь въедается в "
+"тебя\"."
 
 #: 65733
 msgid "\"You were in the hells? What were you DOING there?\""
@@ -7471,7 +7755,7 @@ msgid ""
 "it's called the Pillar of Skulls, but it's more like the pillar of heads.\""
 msgstr ""
 "\"Знаешь, на Авернусе, первом слое Баатор, есть *колонна*. Она называется "
-"Колонна Черепов, но лучше ее звать, скорее, колонной голов."
+"Колонна Черепов, но лучше ее называть колонной голов\"."
 
 # I don't get it :(
 #: 65735
@@ -7485,7 +7769,7 @@ msgstr ""
 "\"Если верить некоторым громилам, она *предположительно* была сделана из "
 "голов пней, по большей части мудрецов и ученых, которые использовали свои "
 "знания обо всяком, что они знали при жизни, чтобы немного приврать... "
-"настолько, что этим им удавалось причинить вред или даже, эээ, убить кого-"
+"настолько, что этим им удавалось причинить вред или даже, э, убить кого-"
 "нибудь. Так вот, когда я *умер*, я очутился там. Весело, правда?\""
 
 #: 65736
@@ -7496,10 +7780,10 @@ msgid ""
 "I'm thinking that when I bent the truth once or twice, I may have led to "
 "someone getting penned in the dead-book sooner than they should have.\""
 msgstr ""
-"\"Эээ...\" Морт на секунду умолкает. \"Да, ты прав, в этом нет ничего "
+"\"Э... - Морт на секунду умолкает. - Да, ты прав, в этом нет ничего "
 "веселого. Понимаешь, я знал кучу вещей, пока был жив. И может быть, когда я "
-"знал что-то, то не всегда говорил об этом правду. Я думал, что раз я смогу "
-"исказить правду пару раз, то смогу прописать кое-кого в книгу мертвых раньше "
+"знал что-то, то не всегда говорил об этом правду. Мне кажется, я, возможно, "
+"исказить правду пару раз и этим прописать кое-кого в книгу мертвых раньше "
 "срока\"."
 
 #: 65737
@@ -7527,6 +7811,11 @@ msgid ""
 "what happened - I don't even remember being human, or what my life was even "
 "like before I woke up on the Pillar.\""
 msgstr ""
+"Морт задерживает на тебе взгляд. \"Да. Не знаю, *откуда* мне это известно, "
+"шеф, но мне так кажется. Я думаю, что это из-за тебя меня туда послали. Это "
+"стало последней каплей. Дело в том, что я не помню, что случилось: я даже не "
+"помню, каким был человеком, или какой была моя жизнь до того, как я очнулся "
+"в Колонне\"."
 
 #: 65742 65746
 msgid "\"Why did you forget?\""
@@ -7538,10 +7827,10 @@ msgid ""
 "Thing is, I can't remember what happened - I don't even remember being "
 "human, or what I was even like before I woke up on the Pillar.\""
 msgstr ""
-"\"Не могу сказать, как я об этом узнал, но я думаю, что это был *ты*. По "
-"крайней мере однажды. Дело в том, что не могу вспомнить, что произошло. Я "
-"даже не могу вспомнить себя человеком, или кем я там был до того, как "
-"пробудился в Колонне\"."
+"\"Не знаю, *откуда* мне это известно, шеф, но мне так кажется, это был *ты*. "
+"По крайней мере однажды. Дело в том, что я не помню, что произошло. я даже "
+"не помню, каким был человеком, или какой была моя жизнь до того, как я "
+"очнулся в Колонне\"."
 
 #: 65749
 msgid ""
@@ -7551,9 +7840,9 @@ msgid ""
 "that I can't help it. Nothing's worse than being *honest* all the time.\""
 msgstr ""
 "\"Обычно так происходит, когда ты умираешь. Уверен, что тебе это знакомо. Ты "
-"просто... забываешь. Думаю, я был не очень уважаемым членом общества при "
-"жизни... но черт возьми, а кто был? Морт вздыхает. \"В этом я не помощник. "
-"Нет ничего хуже, чем быть *честным* все время\"."
+"просто... забываешь. Думаю, я был не самым уважаемым членом общества при "
+"жизни... но черт возьми, а кто был? - Морт вздыхает. - С этим я ничего не "
+"могу поделать. Нет ничего хуже, чем быть *честным* все время\"."
 
 #: 65750
 msgid ""
@@ -7576,9 +7865,9 @@ msgid ""
 "penned in the dead-book, it was my turn to pay the ferryman.\""
 msgstr ""
 "\"Да... ты прав. *Снова*\". Морт щелкает зубами. Это напоминает "
-"похрустывание пальцами. \"Думаю, все эти добро, зло, ложь и обман еще на "
-"тебе отыграются. И когда меня прописали в книгу мертвых, оказалось, что "
-"теперь моя очередь платить перевозчику\"."
+"похрустывание пальцами. \"Думаю, все добро, зло, ложь и обман возвращается к "
+"нам. И когда меня прописали в книгу мертвых, настал мой черед платить "
+"перевозчику\"."
 
 #: 65753
 msgid "\"So how did you escape the Pillar?\""
@@ -7620,7 +7909,7 @@ msgstr "Эхо: \"Ты. Череп. Говори\"."
 
 #: 65763 65766 65769 65772
 msgid "Shake off the memory."
-msgstr "Встряхнуть свою память."
+msgstr "Стряхнуть с себя воспоминание."
 
 #: 65764
 msgid ""
@@ -7631,12 +7920,12 @@ msgid ""
 "all their knowing... just please, I *beg* you, free me. Let me *help* you. "
 "I'll tell you anything, *everything.*\""
 msgstr ""
-"Ревущие голоса утихают, ты смотришь на маленький череп, на его треснувшие "
-"черты в адском свете. Он поднимает глаза на тебя. По его лицу течет кровь и "
-"гной, его зубы стучат словно от холода. \"Я... я с-с-смогу п-п-помочь тебе. "
-"Я з-з-знаю, что т-т-тебе надо... все эти головы... их знания... п-п-прошу "
-"тебя, *умоляю*, освободи меня. Позволь мне *помочь* тебе. Я расскажу тебе о "
-"чем угодно, обо *всем*\"."
+"Ревущие голоса утихают, ты смотришь на маленький череп, на его трещины в "
+"адском свете. Он смотрит на тебя. По его лицу течет кровь и гной, его зубы "
+"стучат словно от холода. \"Я... я с-с-смогу п-п-помочь тебе. Я з-з-знаю, что "
+"т-т-тебе надо... все эти головы... их знания... п-п-прошу тебя, *умоляю*, "
+"освободи меня. Позволь мне *помочь* тебе. Я расскажу тебе о чем угодно, обо "
+"*всем*\"."
 
 #: 65765
 msgid ""
@@ -7644,7 +7933,7 @@ msgid ""
 "Days, or here you will remain.\""
 msgstr ""
 "Эхо: \"*Так* ли это? ПОКЛЯНИСЬ в этом, череп. ПОКЛЯНИСЬ, что ты будешь "
-"служить мне до конца моих дней, или ты останешься здесь\"."
+"служить мне до конца моих дней, иначе ты останешься здесь\"."
 
 #: 65767
 msgid ""
@@ -7652,7 +7941,7 @@ msgid ""
 "Morte sickeningly swallows, his pride almost a tangible thing. \"I... *beg* "
 "you. Let me *help* you. Please.\""
 msgstr ""
-"\"Клянусь. Клянусь... только *пожалуйста*, освободи меня... Я...\" Ты "
+"\"Клянусь. Клянусь... только, *пожалуйста*, освободи меня... Я...\" Ты "
 "видишь, как Морт тошнотворно глотает, его гордость становится осязаемой. "
 "\"Я... *умоляю* тебя. Позволь мне *помочь* тебе. Пожалуйста\"."
 
@@ -7670,14 +7959,14 @@ msgid ""
 "an old scab..."
 msgstr ""
 "Твое зрение смещается, как будто ты движешься. Какофония криков и рева "
-"начинается снова, кошмарные вопли, рычания, выпады и оскорбления... ты "
-"чувствуешь, как твои руки погружаются в грязную трясину колонны кусающих "
-"клыков и челюстей. Твои руки окружают небольшой череп и вырывают его из "
-"колонны как гнилой зуб..."
+"начинается снова, кошмарные вопли, рычание, выпады и оскорбления... ты "
+"чувствуешь, как твои руки погружаются в грязную трясину колонны, состоящую "
+"из кусающих клыков и челюстей. Твои руки хватают небольшой череп и вырывают "
+"его из колонны как гнилой зуб..."
 
 #: 65771
 msgid "Echo: \"It is DONE.\""
-msgstr "Эхо: \"Это СДЕЛАНО\"."
+msgstr "Эхо: \"ГОТОВО\"."
 
 #: 65773
 msgid ""
@@ -7687,9 +7976,9 @@ msgid ""
 "pathetic."
 msgstr ""
 "Ты смотришь вниз, на кровавый череп в своих израненных руках. Его глаза "
-"покрыты гноем колонны, зубы стучат, еще и еще раз. Это напоминает тебе крик "
-"новорожденного, беспомощного, и, в глазах человека, которым ты когда-то был, "
-"трогательного."
+"покрыты гноем колонны, зубы стучат, снова и снова. Он напоминает тебе "
+"визжащего новорожденного, беспомощного и - в глазах человека, которым ты "
+"когда-то был, - жалкого."
 
 #: 65774 65775
 msgid ""
@@ -7706,14 +7995,13 @@ msgid ""
 "ever since.\""
 msgstr ""
 "Видение расплывается, пелена уходит прочь, а Морт все еще продолжает без "
-"умолку болтать. \"Мы поговорили между собой некоторое время, согласовывая "
-"обязательства сделки. Думаю, мы произвели на друг друга хорошее впечатление, "
-"так что ты предложил мне выйти из Колонны, и с тех пор я рад находится рядом "
-"с тобой\"."
+"умолку болтать. \"Мы поговорили некоторое время, согласовывая обязательства "
+"сделки. Думаю, мы произвели друг на друга хорошее впечатление, так что ты "
+"предложил мне выйти из Колонны, и с тех пор я рад находится рядом с тобой\"."
 
 #: 65777
 msgid "\"Uh... what happened then?\""
-msgstr "\"Ух... И что случилось потом?\""
+msgstr "\"Э... И что случилось потом?\""
 
 #: 65780
 msgid ""
@@ -7722,7 +8010,7 @@ msgid ""
 "you were pretty understanding about it...\""
 msgstr ""
 "\"Я не знаю. Как только я выбрался, я потерял почти все знания Колонны. То "
-"есть я хочу сказать, откуда мне было знать, я ведь ни разу не был вне этой "
+"есть, я хочу сказать, откуда мне было знать, я ведь ни разу не был вне этой "
 "чертовой штуки... но ты отнесся к этому с большим пониманием...\""
 
 #: 65781
@@ -7736,18 +8024,18 @@ msgid ""
 "pain, screaming for someone to stop, to stop *killing* him... and your hand, "
 "lashing out, again and again and..."
 msgstr ""
-"Твое зрение снова затуманивается, ты чувствуешь головокружение, кишки "
-"завязываются в узел. Ты слышишь треск кости и крик Морта - крик боли, "
-"отчаяния, помощи прекратить, прекратить *убивать* его... а твоя рука все "
-"била и била, била и била..."
+"Твое зрение снова затуманивается, голова идет кругом, кишки завязывает в "
+"узел. Ты слышишь треск костей и крики Морта: он воет от боли, просит кого-то "
+"прекратить, прекратить *убивать* его... а твоя рука продолжает бить, снова и "
+"снова..."
 
 #: 65785
 msgid ""
 "Echo: \"DAMN you, skull, you LIED to me. I'll THRUST YOU BACK IN THAT "
 "DAMNABLE PILLAR AND LEAVE YOU TO *DIE* THERE.\""
 msgstr ""
-"Эхо: \"Будь ты ПРОКЛЯТ, чертов череп, ты ОБМАНУЛ меня. Я БРОШУ ТЕБЯ НАЗАД В "
-"ЭТУ ЧЕРТОВУ КОЛОННУ И ОСТАВЛЮ ТЕБЯ ТАМ *ПОДЫХАТЬ*\"."
+"Эхо: \"Будь ты ПРОКЛЯТ, череп, ты ОБМАНУЛ меня. Я БРОШУ ТЕБЯ НАЗАД В ЭТУ "
+"ЧЕРТОВУ КОЛОННУ И ОСТАВЛЮ ТЕБЯ ТАМ *ПОДЫХАТЬ*\"."
 
 #: 65788
 msgid ""
@@ -7755,9 +8043,8 @@ msgid ""
 "wall, and the skittering of teeth knocked free. You can hear Morte, mewling "
 "like a beaten dog for you to st-"
 msgstr ""
-"Послышался звук, с которым ударяется кость о что-то металлическое - пол или "
-"стену. Брызнули вылетевшие зубы. Ты слышишь Морта, скулящего как побитый "
-"пес, молящего тебя..."
+"Слышится звук удара кости о что-то металлическое, пол или стену. Разлетаются "
+"выбитые зубы. Ты слышишь Морта, скулящего как побитый пес, молящего тебя..."
 
 #: 65789
 msgid ""
@@ -7773,22 +8060,21 @@ msgid ""
 "rhythm. \"So, you realized I still had my uses, so I took up with you and "
 "I've been with you ever since.\""
 msgstr ""
-"Видение снова отступает, превращая вопль Морта в размеренный ритм болтовни. "
-"\"И ты понял, что я все еще полезен для тебя, поэтому я до сих пор следую за "
-"тобой по пятам\"."
+"Видение снова отступает, превращая вопль Морта в размеренный ритм его "
+"болтовни. \"И ты понял, что я все еще полезен для тебя, поэтому я до сих пор "
+"следую за тобой по пятам\"."
 
 #: 65793
 msgid ""
 "\"Morte, what did I want from the Pillar? And how long was it that I freed "
 "you?\""
 msgstr ""
-"\"Морт, а что я хотел от Колонны? И как давно прошло времени, как я тебя "
-"освободил?\""
+"\"Морт, а что я хотел от Колонны? И сколько прошло времени с тех пор, как я "
+"тебя освободил?\""
 
 #: 65794
-#, fuzzy
 msgid "\"Uh... forget it, Morte. I had some other questions...\""
-msgstr "\"Забудь об этом... У меня есть некоторые вопросы...\""
+msgstr "\"Э, забудь об этом, Морт... У меня есть другие вопросы...\""
 
 #: 65796
 msgid ""
@@ -7797,10 +8083,10 @@ msgid ""
 "but...\" Morte sighs. \"It's not easy. And as for what you wanted at the "
 "Pillar, I don't know - once you pried me off, I couldn't remember.\""
 msgstr ""
-"Морт задумывается. \"Ну достаточно давно, я не знаю точно, шеф. Несколько "
-"веков, наверное. Я всегда делал все, что мог, чтобы помочь тебе, но...\" "
-"Морт вздыхает. \"Это не так просто. Я не знаю, что тебе было нужно от "
-"Колонны - как только ты меня вырвал из нее, я все забыл\"."
+"Морт задумывается. \"Ну, достаточно давно, я не знаю точно, шеф. Несколько "
+"веков, наверное. Я всегда делал все, что мог, чтобы помочь тебе, но... - "
+"Морт вздыхает. - Это не так просто. Я не знаю, что тебе было нужно от "
+"Колонны: как только ты меня вырвал из нее, я все забыл\"."
 
 #: 65797
 msgid "\"Morte, why didn't you SAY something when we were at the Mortuary?\" "
@@ -7816,8 +8102,8 @@ msgid ""
 "pauses. \"Well, most of them. Heh-heh. There was this one chit on Arborea "
 "who --\""
 msgstr ""
-"\"Ну да, шеф. Я же обещал. Морт всегда держит свои обещания\". Он делает "
-"паузу. \"Ну, почти всегда. Хе-хе. Была одна крошка с Арбореи, которая...\""
+"\"Ну да, шеф. Я же обещал. Морт всегда держит свои обещания, - он делает "
+"паузу. - Ну, почти всегда. Хе-хе. Была одна крошка с Арбореи, которая...\""
 
 #: 65805
 msgid ""
@@ -7836,8 +8122,8 @@ msgid ""
 "\"Chief, I said it's because I promised, all right?\" He looks irritated. "
 "\"What else could it be?\""
 msgstr ""
-"\"Шеф, я же сказал, потому что я обещал, верно?\" Он выглядит раздраженным. "
-"\"Что может быть еще?\""
+"\"Шеф, я же сказал: потому что я обещал, верно?- он выглядит раздраженным. - "
+"Что может быть еще?\""
 
 #: 65810
 msgid "\"I don't know. You didn't need to stick around after I freed you.\""
@@ -7856,7 +8142,7 @@ msgid ""
 "time."
 msgstr ""
 "\"Конечно нет, шеф, но я...\" Внезапно его голос струной режет тебя. Ты "
-"знаешь *почему* он по-прежнему остается рядом с тобой, все это время."
+"знаешь, *почему* он по-прежнему остается рядом с тобой, все это время."
 
 #: 65814
 msgid ""
@@ -7888,8 +8174,8 @@ msgid ""
 "at you, y'know?\""
 msgstr ""
 "Глядя на тебя, Морт на секунду умолкает. \"Может быть. И знаешь, что самое "
-"смешное? Во-первых, я не знал, что такое чувствовать - когда что-то тебя "
-"поглощает, понимаешь?\""
+"смешное? Сперва я не знал, что это было за чувство: это как будто тебя что-"
+"то медленно поглощает, понимаешь?\""
 
 #: 65818
 msgid ""
@@ -7903,9 +8189,9 @@ msgstr ""
 "\"Я имею в виду, сначала я думал, что это побочный эффект того, что "
 "'связывает' меня с тобой... но спустя несколько сотен лет, я понял, что это "
 "нечто *большее*... более глубокое. Я просто почувствовал, что каким-то "
-"образом *связан* с тобой. Возможно, это все твои муки, шеф... твое мучение. "
-"Я не знаю. Возможно, я чувствую... не знаю, что я *ответственен* за то, что "
-"я сделал. Что, если я сделал то, что привело тебя к такому состоянию?\""
+"образом *связан* с тобой. Возможно, это все твои стадания, шеф... твои муки. "
+"Я не знаю. Возможно, я чувствую... ну, не знаю... что я *ответственный* за "
+"то, что я сделал. Что, если это из-за меня ты стал таким?\""
 
 #: 65820
 msgid ""
@@ -7916,9 +8202,9 @@ msgid ""
 "all I know.\""
 msgstr ""
 "\"Дело в том, что я, кем бы я ни был прежде, не *видел* всех последствий "
-"всей этой лжи и обмана, которую создал. А когда я в Колонне впервые увидел "
-"тебя, я почему-то *знал*, что я тебя однажды предал. Однажды... давным-давно"
-"\". Морт вздыхает. \"И это все, что я знаю\"."
+"своей лжи и обмана. А когда я в Колонне впервые увидел тебя, я почему-то "
+"*знал*, что я тебя однажды предал. Однажды... давным-давно, - Морт вздыхает. "
+"- И это все, что я знаю\"."
 
 #: 65821
 msgid "\"I see. Thanks for coming clean, Morte.\""
@@ -7959,6 +8245,10 @@ msgid ""
 "eyes. \"Still, anyone addled enough to lock blades with the Lady of Pain "
 "isn't someone we really want to find.\""
 msgstr ""
+"\"Ну, она - ночная ведьма. И она определенно чокнутая настолько, что из всех "
+"людей бессмертным сделала ТЕБЯ. То есть, она могла бы выбрать меня, - Морт "
+"закатывает глаза. - Тем не менее, вряд ли мы хотим найти того, кто настолько "
+"чокнутый, чтобы скрестить клинки с Леди Боли\"."
 
 #: 65829
 msgid ""
@@ -7978,10 +8268,9 @@ msgid ""
 msgstr ""
 "\"Понимаешь, шеф, это война между двумя ужасными расами - демонами и "
 "дьяволами. Когда-то они не подозревали о существовании друг друга. Дьяволы "
-"были злыми, но представляли 'упорядоченный' вид зла. Демоны тоже были злыми, "
-"но при этом не особенно напрягались по этому поводу - они были более "
-"импульсивными, хаотичными, неорганизованными. Дьяволов можно сравнить с "
-"политиками, а демонов - с убийцами\"."
+"злые, только это 'упорядоченный' вид зла. Демоны тоже злые, но в этом плане "
+"они более свободны: более импульсивные, хаотичные, неорганизованные. "
+"Дьяволов можно сравнить с политиками, а демонов - с убийцами\"."
 
 #: 65834
 msgid ""
@@ -7991,7 +8280,7 @@ msgid ""
 "don't run all over the Planes.\""
 msgstr ""
 "\"И вот однажды они встретились. Они посмотрели друг на друга, и каждой из "
-"рас не понравилось, как другая творит зло. И с тех пор они воюют. Это один "
+"рас не понравилось, как другая трактует зло. И с тех пор они воюют. Это один "
 "сплошной ночной кошмар. Но покуда обе эти расы заняты друг другом, они не "
 "разбегаются по всем Планам\"."
 
@@ -8002,7 +8291,7 @@ msgid ""
 "life as a floating skull. I mean, it could have been worse.\""
 msgstr ""
 "\"Без понятия, шеф. Я уже забыл, как я умер. Не могу сказать, что я сильно "
-"осуждаю себя за это - по крайней мере, меня хоть что-то ждало после моей "
+"осуждаю себя за это. По крайней мере, меня хоть что-то ждало после моей "
 "смерти, даже если это оказалась жизнь в качестве летающего черепа. Ведь все "
 "могло оказаться гораздо хуже\"."
 
@@ -8012,8 +8301,8 @@ msgid ""
 "\"But don't think I MISS it, because I'm happy just the way I am, and I "
 "don't need your half-wit judgments or snide remarks, all right?\""
 msgstr ""
-"\"Эх... Я не знаю, ясно? Оно просто пропало\". Морт выразительно смотрит на "
-"тебя. \"Вот только не думай, что я СКУЧАЮ по нему, я рад тому, что я есть, и "
+"\"Эх... Я не знаю, ясно? Оно просто пропало - Морт выразительно смотрит на "
+"тебя. - Вот только не думай, что я СКУЧАЮ по нему, я рад тому, что я есть, и "
 "мне не нужны твои тупые подколки или фальшивые сочувствия, понятно?\""
 
 #: 65839
@@ -8022,15 +8311,15 @@ msgstr "\"А что случилось с твоим телом?\""
 
 #: 65843
 msgid "\"Whatever - let's go. Come on, shake a leg.\""
-msgstr "\"Как бы то ни было - идем. Давай, шевели ногами\"."
+msgstr "\"Как бы то ни было, идем. Давай, шевели ногами\"."
 
 #: 65844
 msgid ""
 "Morte glares at you. \"I'm not convinced you aren't some sort of walking "
 "curse that's destined to follow me around.\""
 msgstr ""
-"Морт сверкает на тебя гневным взглядом. \"Я не уверен, что ты не являешься "
-"ходячим проклятием, которое всюду меня преследует\"."
+"Морт сверкает на тебя гневным взглядом. \"Я уже почти верю, что ты - какое-"
+"то ходячее проклятие, обреченное следовать за мной по пятам\"."
 
 #: 65845
 msgid "\"Look who's talking. Let's go.\""
@@ -8042,10 +8331,9 @@ msgstr "\"Не очень-то\"."
 
 #: 6611
 msgid "\"Would you cut that out? His arms are gonna snap off.\""
-msgstr ""
+msgstr "\"Ты ее отрежешь? Его рука вот-вот отпадет\"."
 
 #: 6661
-#, fuzzy
 msgid "\"'Graybeard?'\""
 msgstr "\"Седобородый?\""
 
@@ -8079,8 +8367,8 @@ msgid ""
 "anything to spoil the mood, chief. I'll just float here and watch. Don't "
 "mind me - just sitting here, floating and watching, that's me.\""
 msgstr ""
-"\"Я просто хочу вставить свое замечание и заявить, что не собираюсь ничего "
-"говорить, дабы не испортить никому настроения, шеф. Просто полетаю тут и "
+"\"Шеф, я хотел бы просто вставить свое замечание и заявить, что не собираюсь "
+"ничего говорить, дабы не испортить никому настроения. Просто полетаю тут и "
 "понаблюдаю. Не обращайте на меня внимания\"."
 
 #: 67600
@@ -8089,9 +8377,9 @@ msgid ""
 "separate the two of you!\" Morte *hmmphs.* \"Or at least allow me to cut in."
 "\""
 msgstr ""
-"\"Может быть вы двое уже закончите с этим, а то мне придется позвать дабуса, "
-"что вас отцепить друг от дружки! - Морт *фыркает*. - Или хотя бы дайте "
-"поучаствовать\"."
+"\"Может быть, вы двое уже закончите с этим, а то мне придется позвать "
+"дабуса, что вас отцепить друг от дружки! - Морт *фыркает*. - Или хотя бы "
+"дайте поучаствовать\"."
 
 #: 67862
 msgid ""
@@ -8109,8 +8397,8 @@ msgid ""
 "As you reach out, Morte suddenly speaks. \"Whoa, whoa, whoa! Hold up, chief. "
 "Uh... there's a few things I need to tell you.\""
 msgstr ""
-"Едва ты притрагиваешься, как Морт начинает говорить. \"Эй-эй-эй! Погоди, шеф. "
-"Э-э-э... мне тебе нужно кое-что тебе сказать\"."
+"Едва ты собираешься прикоснуться к Морту, как вдруг он произносит: \"Эй-эй-"
+"эй! Погоди, шеф. Э-э-э... мне тебе нужно кое-что тебе сказать\"."
 
 #: 68172
 msgid ""
@@ -8118,9 +8406,9 @@ msgid ""
 "it really well. I've been kind of listening to your whole conversation. Use "
 "that power you got on someone else - I don't need it.\""
 msgstr ""
-"\"Ну да. Если бы ты был мертв столько, сколько был мертв я, ты бы тоже хорошо "
-"ее симулировал. Я типа подслушал твой разговор. Используй свою силу на "
-"ком-нибудь другом - мне она без надобности\"."
+"\"Ну да. Если бы ты был мертвым столько, сколько я, ты бы тоже хорошо "
+"симулировал смерть. Я типа подслушал твой разговор. Используй свою силу на "
+"ком-нибудь другом: мне она без надобности\"."
 
 #: 68173
 msgid ""
@@ -8128,14 +8416,14 @@ msgid ""
 "need someone to remember for you. Plus, you know how worthless I am in a "
 "fight - well, when I'm not taunting some mage or another...\""
 msgstr ""
-"\"Ну, *да*, шеф. Ведь ты бы все равно не умер. Я имею в виду, если бы ты пал, "
-"тебе бы понадобился кто-то, кто бы запомнил тебя таким. К тому же, ты ведь "
-"знаешь какой я бесполезный в бою, если только не оскорбляю какого-нибудь мага "
-"или типа того...\""
+"\"Ну, *да*, шеф. Ведь ты бы все равно не умер. Я имею в виду, если бы ты "
+"пал, тебе бы понадобился кто-то, кто бы запомнил все. К тому же, ты ведь "
+"знаешь, какой я бесполезный в бою, если только не оскорбляю какого-нибудь "
+"мага или типа того...\""
 
 #: 68174
 msgid "You reach out with your power again..."
-msgstr "Ты снова касаешься своей силой..."
+msgstr "Ты снова используешь свою силу..."
 
 #: 68175
 msgid "Resurrect Annah."
@@ -8143,12 +8431,12 @@ msgstr "Возродить Анну."
 
 #: 68176
 msgid "\"Morte...?! You're not dead!\""
-msgstr "\"Морт?!.. Ты не мертв!\""
+msgstr "\"Морт?!.. Ты не мертвый!\""
 
 #: 68177
 msgid "\"So you were going to *lie* there while I got my ass handed to me?\""
 msgstr ""
-"\"Так ты просто *валялся* тут без дела, пока я надирал сам себе задницу?\""
+"\"Ты что, собирался *валялся* тут без дела, пока мне надирают задницу?\""
 
 #: 68178 68189 68190 68191 68192 68193 68194 68239 68438 68439 68446 68503
 msgid ""
@@ -8184,9 +8472,9 @@ msgid ""
 "\"Eh... hold up, chief. You don't need to resurrect me; I was uh, just kind "
 "of lying here, you know, listening to you two.\""
 msgstr ""
-"Едва ты притрагиваешься своей силой, как Морт взлетает в воздух. \"Э-э-э... "
-"Погоди, шеф. Тебе не нужно возрождать меня. Я, понимаешь, э-э-э, типа просто "
-"лежал тут, слушал вас двоих\"."
+"Едва ты собираешься прикоснуться к Морту, как вдруг он взлетает в воздух. "
+"\"Э-э-э... Погоди, шеф. Тебе не нужно возрождать меня. Я, понимаешь, э-э-э, "
+"типа просто лежал тут, слушал вас двоих\"."
 
 #: 68311
 msgid "YOU WERE FEIGNING DEATH."
@@ -8212,17 +8500,17 @@ msgid ""
 "\"Wh --? Return me? What about *you?* Come on, chief, I may be a *coward,* "
 "but there's no way I'm leaving you in this place.\""
 msgstr ""
-"\"Чт?.. Вернуть меня? А как же *ты*? Хватит, шеф, я, может быть, и *трус*, но "
-"я ни за что не брошу тебя в этом месте\"."
+"\"Чт?.. Вернуть меня? А как же *ты*? Хватит, шеф, может я и *трус*, но я ни "
+"за что не брошу тебя в этом месте\"."
 
 #: 68315
 msgid ""
 "MANY ARE THE CRIMES THAT WERE COMMITTED WHEN MY MORTALITY AND I WERE SPLIT. "
 "THESE CRIMES CARRY A... PRICE. YOU MAY NOT GO WHERE I WILL SOON BE. "
 msgstr ""
-"МНОГО ПРЕСТУПЛЕНИЙ БЫЛО СВЕРШЕНО С ТЕХ ПОР, КАК МОЯ СМЕРТНОСТЬ И Я БЫЛИ "
-"РАЗДЕЛЕНЫ. У ЭТИХ ПРЕСТУПЛЕНИЙ ЕСТЬ... ЦЕНА. ТЫ МОЖЕШЬ НЕ ЗАХОТЕТЬ ПОЙТИ "
-"ТУДА, ГДЕ Я СКОРО ОКАЖУСЬ."
+"МНОГО ПРЕСТУПЛЕНИЙ БЫЛО СОВЕРШЕНО С ТЕХ ПОР, КАК МОЯ СМЕРТНОСТЬ И Я БЫЛИ "
+"РАЗДЕЛЕНЫ. ЗА ЭТИ ПРЕСТУПЛЕНИЯ ПРИДЕТСЯ... ЗАПЛАТИТЬ. НАВЕРНО, ТЫ НЕ "
+"ЗАХОЧЕШЬ ПОЙТИ ТУДА, ГДЕ Я СКОРО ОКАЖУСЬ."
 
 #: 68316
 msgid ""
@@ -8230,7 +8518,7 @@ msgid ""
 "we've been through wors-\""
 msgstr ""
 "\"Я *могу* пойти куда угодно, шеф, если ты этого захочешь. Мы ведь бывали в "
-"местах и поху...\""
+"местах и похуж...\""
 
 #: 68317
 msgid ""
@@ -8245,8 +8533,8 @@ msgid ""
 "Morte stares at you for a moment, then sighs. \"Not to get all misty-eyed, "
 "but, uh, it's been a pleasure, chief.\""
 msgstr ""
-"Морт молча смотрит на тебя, затем вздыхает. \"Не все так было радужно, но все "
-"же для меня это было удовольствием, шеф\"."
+"Морт молча смотрит на тебя, затем вздыхает. \"Не то чтобы я сильно "
+"растрогался, и все же мне, э-э, было приятно с тобой путешествовать, шеф\"."
 
 #: 68319 68320 68321 68322 68323 68324 68325 68490 68491 68492
 msgid "FAREWELL, MORTE."
@@ -8266,8 +8554,8 @@ msgid ""
 "teeth chatter, as if anticipation. \"She was looking for some lucky cutter "
 "to thaw her coffin.\""
 msgstr ""
-"\"Ты *видел*, как эта красотка меня осматривала?\" Зубы Морта стучат в "
-"предвкушении. \"Она ищет счастливого рубаку, который согреет ей ее "
+"\"Ты *видел*, как эта мертвая красотка меня осматривала? - зубы Морта стучат "
+"в предвкушении. - Она ищет какого-то счастливчика-рубаку, который согреет ее "
 "уютненький гробик\"."
 
 #: 7042
@@ -8281,7 +8569,7 @@ msgstr ""
 "внимания к себе... просто мне больше нравится, когда за мной видят нечто "
 "большее, чем просто череп, понимаешь? У меня есть чувства, которые "
 "доминируют над моими животными инстинктами. Я хочу уважения, а не просто "
-"ночного летания вокруг мавзолея\"."
+"ночного летания по мавзолею\"."
 
 #: 7043
 msgid ""
@@ -8301,7 +8589,7 @@ msgid ""
 "Fine, be that way, then. I don't have a heart, but I *do* have a soul.\""
 msgstr ""
 "\"Тебе наплевать на мою жизнь, мои мечты и чаяния?! Отлично, ну и пусть. У "
-"меня нет сердца, зато у меня *есть* душа\"."
+"меня нет сердца, зато у меня есть *душа*\"."
 
 #: 7046
 msgid ""
@@ -8309,10 +8597,13 @@ msgid ""
 "voice rises to new heights of smugness. \"When it comes to the annals of "
 "love, I wrote 'em all.\""
 msgstr ""
+"\"Будь у тебя хоть половина того здравого смысла, с которым ты умер, ты бы "
+"понял, - голос Морта становится жутко самодовольным. - Что касается "
+"летописей любви, отмечу, что все они были написаны мной\"."
 
 #: 7056
 msgid "\"*Please* don't start this again.\""
-msgstr "\"*Пожалуйста*, только не опять\"."
+msgstr "\"*Пожалуйста*, только не начинай\"."
 
 #: 7058
 msgid "\"What, that blank-eyed beyond-the-grave stare?\""
@@ -8326,20 +8617,18 @@ msgstr "\"Продолжай в том же духе, и *я* отправлю �
 msgid ""
 "\"Morte, you *are* a skull. Nobody can help but see you as a skull. Accept "
 "it.\""
-msgstr ""
-"\"Морт, *ты* - череп. Никто уже не поможет, но посмотри на себя как на "
-"череп. Смирись с этим\"."
+msgstr "\"Морт, *ты* - череп. Для всех ты только череп. Смирись с этим\"."
 
 #: 7061
 msgid "\"I understand. Now let's get out of here, all right?\""
-msgstr "\"Я понимаю. А теперь идем отсюда, хорошо?\""
+msgstr "\"Понимаю. А теперь идем отсюда, хорошо?\""
 
 #: 7062
 msgid ""
 "\"You are perhaps the *last* person I would ever take romantic advice from.\""
 msgstr ""
-"\"Ты, наверное, *последний* из всех, от кого я мог бы ожидать совет по "
-"романтике\"."
+"\"Ты, наверное, *последний* из всех, от кого я хотел бы слушать советы по "
+"части романтики\"."
 
 #: 7064
 msgid "\"Actually, you *don't* have one of those.\""
@@ -8357,7 +8646,7 @@ msgid ""
 "never be able to get all that whitewash off the bones.\""
 msgstr ""
 "Морт изучает скелет, но затем качает головой. \"Не... Этот слишком чистый... "
-"на нем почти не осталось мяса. К тому же, я никогда не смогу вычистить кости "
+"на нем почти не осталось мяса. К тому же, я никогда не смогу очистить кости "
 "от этой побелки\"."
 
 #: 7076
@@ -8440,8 +8729,8 @@ msgid ""
 "\"Oh, nothing... life is the best teacher, you know.\" He nods at the "
 "creature. \"Go ahead.\""
 msgstr ""
-"\"А, нет, ничего... жизнь - лучшший учитель, знаешь ли\". Он кивает на "
-"существо. \"Давай, продолжай\"."
+"\"А, нет, ничего... жизнь - лучший учитель, знаешь ли, - он кивает на "
+"существо. - Давай, продолжай\"."
 
 #: 7808
 msgid "\"I will.\""
@@ -8449,7 +8738,7 @@ msgstr "\"Я так и сделаю\"."
 
 #: 7809
 msgid "\"All right, never mind. Let's go.\""
-msgstr "\"Ладно, не важно. Идем\"."
+msgstr "\"Ладно, неважно. Идем\"."
 
 #: 9029 9030
 msgid "\"Gith?\""
@@ -8471,19 +8760,20 @@ msgid ""
 "Dusties? I thought you was a deader for sure.\""
 msgstr ""
 "\"Эй, шеф. Ты в порядке? Изображаешь из себя труп или пытаешься обмануть "
-"мертвяков? Я думал, что ты дал дуба\"."
+"мертвяков? Я уж думал, что ты дал дуба\"."
 
 #: 9860
 msgid "\"C'mon, chief... you'll kill the sod before you manage to wake him!\""
 msgstr ""
+"\"Брось, шеф... ты убьешь бедолагу, прежде чем тебе удастся его разбудить!\""
 
 #: 988
 msgid ""
 "Take a deep breath, shake your head and ignore the skull that is talking to "
 "you."
 msgstr ""
-"Вдохнуть поглубже, встряхнуть пару раз головой и не обращать внимания на "
-"говорящий с тобой череп."
+"Вдохнуть поглубже, встряхнуть головой и не обращать внимания на говорящий с "
+"тобой череп."
 
 #: 989
 msgid "Ignore the talking skull and explore the room."
@@ -8493,7 +8783,7 @@ msgstr "Не обращать внимания на говорящий чере�
 msgid ""
 "\"Me?\" The skull seems indignant. \"How about *you* start, scabbie? Who are "
 "you?\""
-msgstr ""
+msgstr "\"Я? - возмущается череп. - Может, *ты* начнешь, паршивец? Кто ты?\""
 
 #: 991 994
 msgid "Ignore the skull and explore the room."
@@ -8509,7 +8799,7 @@ msgstr "\"Я не знаю... Не могу вспомнить\"."
 
 #: 996
 msgid "\"Oh, so *now* you want to talk to Morte again, huh?\""
-msgstr ""
+msgstr "\"О, значит, *теперь* тебе снова захотелось поговорить с Мортом, а?\""
 
 #: 997
 msgid ""
@@ -8517,6 +8807,9 @@ msgid ""
 "berk.' Well, that's okay... pretend you're a clueless. See if I give a fig. "
 "I'm Morte. Hail, well met and all that wash.\""
 msgstr ""
+"\"Ты не знаешь, кто ты такой, а? *Мог* бы просто сказать: 'забей, пень'. Что "
+"ж, ладно... бестолочью притворяешься. Проверяешь, есть ли мне до этого дело. "
+"Я Морт. Приветствую, добро пожаловать и далее по списку\"."
 
 #: 998
 msgid "\"Where am I, Morte?\""
@@ -8529,5 +8822,8 @@ msgid ""
 "\" Pauses for a moment. \"Say, I *have* to ask: are you one of those "
 "Sensates into self-mutilation or did somebody give you those scars?\" "
 msgstr ""
-
-
+"\"Ты *не помнишь*? Нелегкая выдалась у тебя ночка. Надеюсь, никого не "
+"покалечил... Меня зовут Морт. Приветствую, добро пожаловать и далее по "
+"списку, - делает паузу. - Слушай, я просто *обязан* спросить: ты случайно не "
+"один из тех чувствующих, которые занимаются членовредительством, или это кто-"
+"то другой подарил тебе эти шрамы?\" "
