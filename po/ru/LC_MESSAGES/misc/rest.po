@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2013-03-20 23:33+0600\n"
+"PO-Revision-Date: 2013-09-08 02:03+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -83,14 +83,12 @@ msgstr ""
 "крепко зашиты. От тела исходит легкий запах формальдегида.]"
 
 #: 296
-#, fuzzy
 msgid "Greetings. "
-msgstr "\"Приветствую.\""
+msgstr "Приветствую."
 
 #: 301 308
-#, fuzzy
 msgid "Greetings."
-msgstr "\"Приветствую.\""
+msgstr "Приветствую."
 
 #: 311 1173
 msgid "Greater Gehreleth"
@@ -290,11 +288,11 @@ msgstr ""
 
 #: 1928
 msgid "But your mother doesn't charge. Why do you?"
-msgstr ""
+msgstr "А твоя мамаша платы не просила. С чего бы тебе просить?"
 
 #: 1952
 msgid "Except your reflection?"
-msgstr ""
+msgstr "Не считая своего отражения?"
 
 #: 2152
 msgid "I do not know where it is."
@@ -402,7 +400,7 @@ msgstr "TEST just a bug fix"
 
 #: 2808
 msgid "Virago"
-msgstr ""
+msgstr "Вираго"
 
 #: 2811
 msgid "Well, thanks for the heads up."
@@ -544,7 +542,6 @@ msgid "I don't want to hear it."
 msgstr ""
 
 #: 3236
-#, fuzzy
 msgid "Sensate"
 msgstr "Чувствующий"
 
@@ -593,9 +590,8 @@ msgid "Breastplate 4"
 msgstr "Нагрудник 4"
 
 #: 3411
-#, fuzzy
 msgid "I said, Greetings."
-msgstr "\"Я сказал, 'приветствую'\"."
+msgstr "Я сказал, 'приветствую'\"."
 
 #: 3455
 msgid "Wait a minute. I need an embalming key. Do you have one?"
@@ -1462,23 +1458,23 @@ msgstr ""
 
 #: 3739
 msgid "This the first node."
-msgstr ""
+msgstr "Это первый узел."
 
 #: 3740
 msgid "Gosh, the first node. What can you tell me about this node?"
-msgstr ""
+msgstr "Боже, первый узел. Что ты можешь сказать об этому узле?"
 
 #: 3741
 msgid "Like I give a shit about this node."
-msgstr ""
+msgstr "Да срать я хотел на этот узел."
 
 #: 3742
 msgid "The first node is a very exciting node, often the first in a dialogue."
-msgstr ""
+msgstr "Первый узел очень захватывает, особенно в диалоге."
 
 #: 3743
 msgid "How rude you are!"
-msgstr ""
+msgstr "Какой ты грубый!"
 
 #: 3761
 msgid "Your Dexterity is below average."
@@ -1980,14 +1976,12 @@ msgid "This item has not been identified."
 msgstr "Этот предмет не опознан."
 
 #: 4330
-#, fuzzy
 msgid "I'm... new here. I'm... trying to learn the routine."
-msgstr "\"Я... недавно здесь. Я... пытаюсь изучить порядки.\""
+msgstr "Я... недавно здесь. Я... пытаюсь изучить порядки."
 
 #: 4488
-#, fuzzy
 msgid "Portals?"
-msgstr "\"Порталы?\""
+msgstr "Порталы?"
 
 #: 4529
 msgid "Do you know someone named Pharod?"
@@ -2256,7 +2250,7 @@ msgstr "Запугивание"
 
 #: 8620
 msgid "Seizure"
-msgstr ""
+msgstr "Захват"
 
 #: 8622
 msgid "Stinging Touch"
@@ -2296,7 +2290,7 @@ msgstr ""
 
 #: 8652
 msgid "Improved Vampiric Touch"
-msgstr ""
+msgstr "Улучшенное вампирическое касание"
 
 #: 8656
 msgid "Fear Aura"
@@ -2816,6 +2810,9 @@ msgid ""
 "He nods. \"Oh, aye... I'm no great judge, ya see, but he seems right deadly, "
 "he does. I wouldn't fight him, if that's what ye're thinkin'...\""
 msgstr ""
+"Он кивает. \"О, да... Я не могу судить об этом, как вы понимаете, но он "
+"определенно смертельный противник. Я бы с ним не стал сражаться, если вы об "
+"этом подумали...\""
 
 #: 16959
 msgid "\"You look a little tired.\""
@@ -2837,10 +2834,12 @@ msgstr ""
 #: 17091
 msgid "I agreed to track down the 'false Dustman' and... deal with him."
 msgstr ""
+"Я согласился выследить вора, маскирующегося под тленного... и разобраться с "
+"ним."
 
 #: 17109
 msgid "This door leads to the storeroom."
-msgstr ""
+msgstr "Эта дверь ведет в кладовую."
 
 #: 17162
 msgid ""
@@ -2850,26 +2849,31 @@ msgid ""
 "SetGlobal(\"FedEx\", \"Global\", 10)\n"
 "SetGlobal(\"Aoskar\", \"AR3006D\", 1)"
 msgstr ""
+"This should lead to Node 3. ACTION VARIABLES were removed from this "
+"responce. The variable was entered as an Area when it was a Global in the "
+"DB.\n"
+"SetGlobal(\"FedEx\", \"Global\", 10)\n"
+"SetGlobal(\"Aoskar\", \"AR3006D\", 1)"
 
 #: 17163
 msgid "This should lead to Node 3."
-msgstr ""
+msgstr "This should lead to Node 3."
 
 #: 17164
 msgid "This should end the dialog."
-msgstr ""
+msgstr "Это должно быть концом диалога."
 
 #: 17165
 msgid "No Morte? End the dialog, then."
-msgstr ""
+msgstr "Нет Морта. Тогда конец диалога."
 
 #: 17166
 msgid "Please?"
-msgstr ""
+msgstr "Пожалуйста?"
 
 #: 17167
 msgid "End the dialog."
-msgstr ""
+msgstr "Конец диалога."
 
 #: 17216
 msgid ""
@@ -2963,7 +2967,7 @@ msgstr ""
 
 #: 17733
 msgid "This blue-lit niche repels you."
-msgstr ""
+msgstr "Эта ниша, освещенная синим светом, отпугивает тебя."
 
 #: 17771
 msgid "This appears to be a dead body."
@@ -3139,7 +3143,7 @@ msgstr "СОЗДАНИЕ ПЕРСОНАЖА"
 
 #: 19234
 msgid "Marta the Seamstress"
-msgstr ""
+msgstr "Марта-швея"
 
 #: 19238
 msgid "Old Mebbeth"
@@ -3356,15 +3360,15 @@ msgstr "Обнаружена ловушка"
 
 #: 19290
 msgid "Hide Failed"
-msgstr ""
+msgstr "Спрятаться не удалось"
 
 #: 19291
 msgid "Hide Succeeded"
-msgstr ""
+msgstr "Удалось спрятаться"
 
 #: 19292
 msgid "Leaving Shadows"
-msgstr ""
+msgstr "Выход из теней"
 
 #: 19293
 msgid "High Encumbrance: Movement Slowed"
@@ -3859,7 +3863,7 @@ msgstr "Дом Охо"
 
 #: 22085
 msgid "Seamstress' House"
-msgstr ""
+msgstr "Дом швеи"
 
 #: 22086
 msgid "Trash Warrens"
@@ -3867,7 +3871,7 @@ msgstr "Мусорные районы"
 
 #: 22088
 msgid "Pharod's Court"
-msgstr ""
+msgstr "Двор Фарода"
 
 #: 22089
 msgid "Mortuary - 1st Floor"
@@ -3915,7 +3919,7 @@ msgstr "Тату-салон Фелла"
 
 #: 22104
 msgid "Inside the Siege Tower"
-msgstr ""
+msgstr "Внутри Осадной башни"
 
 #: 22110
 msgid "Foundry"
@@ -3948,7 +3952,7 @@ msgstr "Кости ночи"
 # Печатный дом, типография
 #: 22119
 msgid "Printing Shop"
-msgstr ""
+msgstr "Типография"
 
 #: 22121
 msgid "Warehouse"
@@ -4020,7 +4024,7 @@ msgstr "Зернохранилище"
 
 #: 22146
 msgid "Curst Underground"
-msgstr ""
+msgstr "Подземелья Проклятого"
 
 #: 22150
 msgid "Curst Administration"
@@ -4028,7 +4032,7 @@ msgstr "Администрация Проклятого"
 
 #: 22151
 msgid "Curst Warehouse"
-msgstr ""
+msgstr "Склад Проклятого"
 
 #: 22152 65016
 msgid "Baator"
@@ -4040,7 +4044,7 @@ msgstr "Колонна черепов"
 
 #: 22156
 msgid "House of Fjhull"
-msgstr ""
+msgstr "Дом Фьюла"
 
 #: 22159
 msgid "Fortress Interior"
@@ -4064,7 +4068,7 @@ msgstr ""
 
 #: 22164
 msgid "Nordom's Room"
-msgstr ""
+msgstr "Комната Нордома"
 
 #: 22165
 msgid "Modron Foyer"
@@ -4076,7 +4080,7 @@ msgstr "Логово волшебника"
 
 #: 22168
 msgid "Weeping Stone"
-msgstr ""
+msgstr "Плачущий камень"
 
 #: 22169
 msgid "Shattered Crypt"
@@ -4116,7 +4120,7 @@ msgstr "Коллектив черепных крыс"
 
 #: 22178
 msgid "Drowned Nations"
-msgstr ""
+msgstr "Затопленные Народы"
 
 #: 22182
 msgid "Catacombs"
@@ -4187,7 +4191,7 @@ msgstr ""
 
 #: 24999
 msgid "Gaerien"
-msgstr ""
+msgstr "Гаэриен"
 
 #: 25602
 msgid "Trapdoor leading down into the Buried Village."
@@ -4199,7 +4203,7 @@ msgstr ""
 
 #: 25604
 msgid "Marta the Seamstress' home."
-msgstr ""
+msgstr "Дом Марты-швеи."
 
 #: 25605
 msgid "Gateway to the Weeping Stone catacombs."
@@ -4211,7 +4215,7 @@ msgstr ""
 
 #: 25607
 msgid "Entrance to Pharod's Court."
-msgstr ""
+msgstr "Вход во двор Фарода."
 
 #: 25608
 msgid "Portal to Pharod's Vault."
@@ -4255,11 +4259,11 @@ msgstr ""
 
 #: 25618
 msgid "To the Drowned Nations catacombs."
-msgstr ""
+msgstr "В катакомбы Затопленных Народов."
 
 #: 25619
 msgid "Stale Mary's chambers."
-msgstr ""
+msgstr "Покои Тухлой Мери."
 
 #: 25620
 msgid "A shadowy alcove."
@@ -4311,7 +4315,7 @@ msgstr "Дом адвоката."
 
 #: 25635
 msgid "Art and Curio Galleria."
-msgstr ""
+msgstr "Художественная галерея."
 
 #: 25636
 msgid "The Curiosity Shoppe."
@@ -4351,6 +4355,8 @@ msgid ""
 "You shall not leave.\" He raises his hands and electricity dances between "
 "his fingers. "
 msgstr ""
+"\"Значит, ты действительно не знаешь? Ясно, что ты зашел сюда по ошибке. Ты "
+"не уйдешь отсюда\". Он поднимает руки, между его пальцами играют искры."
 
 #: 25725
 msgid "The Western Lecture Hall."
@@ -4374,7 +4380,7 @@ msgstr ""
 
 #: 25730
 msgid "Back to the Clerk's Ward."
-msgstr ""
+msgstr "Назад в Чиновничий район."
 
 #: 25731
 msgid "A dressing area."
@@ -4537,7 +4543,7 @@ msgstr "ЗАКРЫТЬ"
 
 #: 28291
 msgid "\"Oh. I see. Can I ask you some other questions?\""
-msgstr ""
+msgstr "\"О, понятно. Могу ли я задать тебе другие вопросы?\""
 
 #: 28638 48876
 msgid "Return to Game"
@@ -4799,7 +4805,7 @@ msgstr "Хаоситеки"
 
 #: 30702
 msgid "Alu-fiend"
-msgstr ""
+msgstr "Алу-демон"
 
 #: 30896
 msgid "Software Mirroring"
@@ -8511,6 +8517,8 @@ msgid ""
 "This screen contains options to control the automatic pausing of the game "
 "timer. Move your mouse over a control to see a description of what it does."
 msgstr ""
+"В этом окне содержатся параметры, управляющие автоматической паузой игрового "
+"таймера. Наведи мышью над параметром для описания."
 
 #: 37688
 msgid ""
@@ -9464,7 +9472,7 @@ msgstr "\"Наверно, она хочет внести немного разн
 
 #: 44284
 msgid "Find the angel Ravel spoke of."
-msgstr ""
+msgstr "Найти ангела, о котором говорила Равель."
 
 #: 44285
 msgid ""
@@ -9482,6 +9490,10 @@ msgid ""
 "cutthroats and back stabbers. Not that that's any different from any of the "
 "OTHER places I've been to."
 msgstr ""
+"Я нашел Триаса, ангела, о котором упоминала Равель, заключенного в "
+"Проклятом. Просто удивительно, как горожане обращаются с ангелом... это "
+"воистину город головорезов и предателей. Хотя не то чтобы он отличался от "
+"ДРУГИХ мест, в которых я побывал."
 
 #: 44287
 msgid "Kill the wererat in Phineas' basement."
@@ -9515,6 +9527,10 @@ msgid ""
 "in the Hive, that she was fair-skinned with black hair, and always wore "
 "blue. I've agreed to help him."
 msgstr ""
+"Сборщик по имени Нодд попросил меня разыскать его сестру, Амариссу, и "
+"поговорить с ней. Он описал ее как привлекательную девушку, живущую где-то в "
+"Улье, с нежной кожей, черными волосами и всегда одевающуюся в синее. Я "
+"согласился помочь ему."
 
 #: 44292
 msgid "I found Nodd's sister, Amarysse, and told him where she was."
@@ -9525,6 +9541,9 @@ msgid ""
 "I found Nodd's sister, Amarysse, and told him where she was. However, I lied "
 "about his sister being a foul whore, and he went mad and attacked me."
 msgstr ""
+"Я нашел сестру Нодда, Амариссу, и сообщил ему, где она находится. Однако я "
+"солгал ему, сказав что его сестра - грязная шлюха, отчего он сорвался и напал "
+"на меня."
 
 #: 44294
 msgid "Find and return Uhir's 'lucky knife.'"
@@ -9629,13 +9648,12 @@ msgid "Gather"
 msgstr ""
 
 #: 44960
-#, fuzzy
 msgid "4 and 2"
-msgstr "и"
+msgstr "4 и 2"
 
 #: 44961
 msgid "3 by 2"
-msgstr ""
+msgstr "3 за 2"
 
 #: 44962
 msgid "Protect"
@@ -9880,7 +9898,7 @@ msgstr "\"А что? Что-то не так?\""
 
 #: 48152
 msgid "2 by 3"
-msgstr ""
+msgstr "2 за 3"
 
 #: 48153
 msgid ""
@@ -9936,7 +9954,7 @@ msgstr "Запечатанный свиток"
 
 #: 48287
 msgid "Codex of the Inconceivable"
-msgstr ""
+msgstr "Кодекс необъяснимого"
 
 #: 48288
 msgid "Monster Jug"
@@ -9975,6 +9993,16 @@ msgid ""
 "\n"
 "DESCRIPTION:"
 msgstr ""
+"ПРИМЕР СВИТКА\n"
+"Позволяет наложить \"Пример.\"\n"
+"Позволяет скопировать \"Пример\" в книгу заклинаний.\n"
+"Эффект:\n"
+"Дистанция:\n"
+"Длительность:\n"
+"Вес: 0\n"
+"Используется только магами.\n"
+"\n"
+"ОПИСАНИЕ:"
 
 #: 48394
 msgid "Pause/Unpause Game"
@@ -10227,7 +10255,7 @@ msgstr ""
 
 #: 49220 49223 67823 67825
 msgid "\"Teach me something about weapons first.\""
-msgstr ""
+msgstr "\"Сначала научи меня какому-нибудь оружию\"."
 
 #: 49225 67820
 msgid "\"Teach me something about weapons.\""
@@ -10235,7 +10263,7 @@ msgstr "\"Научи меня какому-нибудь оружию\"."
 
 #: 49227
 msgid "\"You change your mind, or do you have some idiotic questions for me?\""
-msgstr ""
+msgstr "\"Ты передумал, или у тебя опять какие-то идиотские вопросы ко мне?\""
 
 #: 49475
 msgid "\"I had some questions for you...\""
@@ -10243,7 +10271,7 @@ msgstr "\"У меня есть вопросы к тебе...\""
 
 #: 49476
 msgid "\"I won't do it.\""
-msgstr ""
+msgstr "\"Я не буду делать этого\"."
 
 #: 49477
 msgid "\"Will do. Farewell.\""
@@ -10255,7 +10283,7 @@ msgstr ""
 
 #: 49528
 msgid "Metal Slab"
-msgstr ""
+msgstr "Металлическая плита"
 
 #: 49529
 msgid "Dark Birds of Ocanthus"
@@ -10297,7 +10325,7 @@ msgstr "Бараки"
 
 #: 50032
 msgid "Distillery"
-msgstr ""
+msgstr "Винокурня"
 
 #: 50034
 msgid "The Dream World"
@@ -10305,7 +10333,7 @@ msgstr ""
 
 #: 50037
 msgid "Ravel's Black-Barbed Garden. "
-msgstr ""
+msgstr "Сад с черными шипами Равель."
 
 #: 50081
 msgid "You cannot afford all of the selected items."
@@ -10356,6 +10384,7 @@ msgstr "\"Неважно, прощай.\""
 #: 50449
 msgid "This character's intelligence is too low to copy this spell."
 msgstr ""
+"Интеллект данного персонажа слишком низок, чтобы скопировать это заклинание."
 
 #: 50450
 msgid "Are you sure you want to remove this spell from your memorized spells?"
@@ -10443,7 +10472,7 @@ msgstr "Шкатулка"
 
 #: 50813
 msgid "Archway"
-msgstr ""
+msgstr "Арка"
 
 #: 50814
 msgid "Diseased Heart"
@@ -10842,7 +10871,7 @@ msgstr "InParty(\"Annah\")"
 
 #: 51463
 msgid "Ravel's Secret Garden. "
-msgstr ""
+msgstr "Тайный сад Равель."
 
 #: 51464
 msgid "To Ragpicker's Square."
@@ -10850,7 +10879,7 @@ msgstr "На площадь Старьевщиков."
 
 #: 51465
 msgid "Entrance to the Black-Barbed Maze. "
-msgstr ""
+msgstr "Вход в лабиринт с черными шипами."
 
 #: 52393
 msgid ""
@@ -10923,6 +10952,9 @@ msgid ""
 "\n"
 "This spell allows a cursed item to be successfully unequiped."
 msgstr ""
+"Удаление проклятия.\n"
+"\n"
+"Это заклинание позволяет снять проклятый предмет."
 
 #: 52728
 msgid ""
@@ -10950,6 +10982,9 @@ msgid ""
 "\n"
 "This spell restores life back to any slain individual chosen. "
 msgstr ""
+"Поднять мертвеца\n"
+"\n"
+"Это заклинание возвращает к жизни выбранного убитого индивидуума."
 
 #: 52731
 msgid ""
@@ -10991,7 +11026,7 @@ msgstr ""
 
 #: 52754 53775
 msgid "Crazy Curst Citizen"
-msgstr ""
+msgstr "Сумасшедший гражданин Проклятого"
 
 #: 52765
 msgid "\"Farewell, Hamrys.\""
@@ -11064,12 +11099,11 @@ msgstr "\"На помощь!\""
 
 #: 52979
 msgid "Chad"
-msgstr ""
+msgstr "Чед"
 
 #: 52981
-#, fuzzy
 msgid "\"Dead Body\""
-msgstr "Мертвое тело"
+msgstr "\"Мертвое тело\""
 
 #: 52997
 msgid "Berrog"
@@ -11077,11 +11111,11 @@ msgstr "Беррог"
 
 #: 53001
 msgid "Slaver"
-msgstr ""
+msgstr "Работорговец"
 
 #: 53002
 msgid "\"Pentagram\""
-msgstr ""
+msgstr "\"Пентаграмма\""
 
 #: 53003
 msgid "\"Gate Heads\""
@@ -11271,19 +11305,19 @@ msgstr ""
 
 #: 56490
 msgid "Obtain a second costume for Malmaner."
-msgstr ""
+msgstr "Я достать второй костюм для Малманера."
 
 #: 56491
 msgid "I've agreed to go fetch another costume for Malmaner."
-msgstr ""
+msgstr "Я согласился достать другой костюм для Малманера."
 
 #: 56492
 msgid "I finally got Malmaner a Godsman costume."
-msgstr ""
+msgstr "Я наконец-то получил для Малманера костюм богочеловека."
 
 #: 56493
 msgid "Split Pestle and Kilnn."
-msgstr ""
+msgstr "Разделить Пестика и Килна."
 
 #: 56494
 msgid ""
@@ -11331,6 +11365,8 @@ msgid ""
 "I have agreed to help Ecco, one of the prostitutes in the Brothel of Slating "
 "Intellectual Lusts, regain her ability to speak."
 msgstr ""
+"Я согласился помочь Экко, одной из проституток Борделя утоления "
+"интеллектуальной страсти, вернуть ее способность говорить."
 
 #: 56502
 msgid ""
@@ -11340,7 +11376,7 @@ msgstr ""
 
 #: 56503
 msgid "Prove to Kesai-Serris that she's Ravel's daughter."
-msgstr ""
+msgstr "Доказать Кесай-Серри, что она - дочь Равель."
 
 #: 56613
 msgid "'Spice up' Juliette's love life."
@@ -11360,7 +11396,7 @@ msgstr ""
 
 #: 56684
 msgid "Find and return Vivian's 'personal scent.'"
-msgstr ""
+msgstr "Найти и вернуть Вивьен ее \"личный аромат\"."
 
 #: 56685
 msgid ""
@@ -11378,7 +11414,7 @@ msgstr "Я вернул Вивьен ее личный аромат."
 
 #: 56687
 msgid "Find and return Marissa's Crimson Veil."
-msgstr ""
+msgstr "Найти и вернуть Мариссе ее малиновую вуаль."
 
 #: 56697 61282
 msgid "Ingress' Teeth"
@@ -11768,7 +11804,7 @@ msgstr ""
 
 #: 58081
 msgid "\"You mentioned needing some help. What do you need?\""
-msgstr ""
+msgstr "\"Ты говорил, что тебе нужна помощь. Что тебе нужно?\""
 
 #: 58938
 msgid "Cannot remove default weapon"
@@ -11807,7 +11843,7 @@ msgstr ""
 
 #: 59110
 msgid "Get bronze sphere for Pharod."
-msgstr ""
+msgstr "Найти бронзовую сферу для Фарода."
 
 #: 59111
 msgid ""
@@ -12156,7 +12192,7 @@ msgstr "Лестница вниз."
 
 #: 59812
 msgid "Alley of Sighs."
-msgstr ""
+msgstr "Улица Вздохов."
 
 #: 59813 61970
 msgid "To the Upper Ward."
@@ -12168,7 +12204,7 @@ msgstr "Точка прибытия."
 
 #: 59815
 msgid "Crystal."
-msgstr ""
+msgstr "Кристалл."
 
 #: 59820
 msgid ""
@@ -12449,7 +12485,7 @@ msgstr "Я нашел Соэго в катакомбах Мертвых Наро
 
 #: 59887
 msgid "Remove Reekwind's \"curse of stench.\""
-msgstr ""
+msgstr "Снять с Вонючки \"заклинание зловония\"."
 
 #: 59888
 msgid ""
@@ -12514,7 +12550,7 @@ msgstr ""
 
 #: 60317
 msgid "Find the portal key to Ravel's maze."
-msgstr ""
+msgstr "Найти портальный ключ к лабиринту Равель."
 
 #: 60322
 msgid "Return to Curst and speak to Trias."
@@ -12530,7 +12566,7 @@ msgstr ""
 
 #: 60324
 msgid "I returned to Curst and spoke to Trias of the Fortress of Regrets."
-msgstr ""
+msgstr "Я вернулся в Проклятый и переговорил с Триасом о Крепости сожалений."
 
 #: 60560
 msgid ""
@@ -12557,7 +12593,7 @@ msgstr ""
 
 #: 60565
 msgid "Examine the Pestilential Tome."
-msgstr ""
+msgstr "Изучить Пагубный том."
 
 #: 60566
 msgid "I have found a strange book on Mantuok's body. It can speak!"
@@ -12756,7 +12792,7 @@ msgstr ""
 
 #: 60704
 msgid "I have accused both Thildon and Saros of the murder of the smith."
-msgstr ""
+msgstr "Я обвинил и Тильдона, и Сароса в убийстве кузнеца."
 
 #: 60705
 msgid "Prevent Sandoz from killing himself."
@@ -12764,7 +12800,7 @@ msgstr "Предотвратить самоубийство Сандоза."
 
 #: 60706
 msgid "I have accused Thildon of the murder of the smith."
-msgstr ""
+msgstr "Я обвинил Тильдона в убийстве кузнеца."
 
 #: 60712
 msgid "I failed. Perhaps I should have been a little kinder."
@@ -13248,7 +13284,7 @@ msgstr "Разрушенный собор"
 
 #: 61621
 msgid "The Print Shop."
-msgstr ""
+msgstr "Типография."
 
 #: 61622
 msgid "The Warehouse"
@@ -13553,6 +13589,9 @@ msgid ""
 "the thief who disguised himself as a Dustman. I went back and told Emoric "
 "what I had done and continued with my Dustman initiation."
 msgstr ""
+"Я поговорил с Норочжем и сделал то, о чем он попросил - решил проблему с "
+"вором, который наряжался под тленного. Теперь я должен вернуться к Эморику, "
+"все рассказать и продолжить свое посвящение в тленные."
 
 #: 64153
 msgid "Find and return Finam's research journal."
@@ -13680,7 +13719,7 @@ msgstr ""
 
 #: 64630
 msgid "Quint's House."
-msgstr ""
+msgstr "Дом Квинта."
 
 #: 64631
 msgid "The Siege Tower"
@@ -13802,7 +13841,7 @@ msgstr "Гнев Леди"
 
 #: 65007
 msgid "Meteor Storm"
-msgstr ""
+msgstr "Метеорный шторм"
 
 #: 65008
 msgid "Rune of Torment"
@@ -13898,7 +13937,7 @@ msgstr ""
 
 #: 65535
 msgid "Ironwork"
-msgstr ""
+msgstr "Железное изделие"
 
 #: 66281
 msgid "Great Foundry Gate Guard"
@@ -13925,9 +13964,8 @@ msgid "Catacombs below Bones of the Night"
 msgstr ""
 
 #: 66360
-#, fuzzy
 msgid "\"Not yet. Farewell.\""
-msgstr "\"Еще нет. Прощай.\""
+msgstr "\"Еще нет. Прощай\"."
 
 #: 66376
 msgid "\"When's this worthless shift over?\""
@@ -13979,7 +14017,7 @@ msgstr ""
 
 #: 66756
 msgid "Quint's Shop."
-msgstr ""
+msgstr "Магазин Квинта."
 
 #: 66800
 msgid "\"Look here! See these fine servants! Take one home!\"\n"
@@ -14280,9 +14318,8 @@ msgid ""
 msgstr ""
 
 #: 67996
-#, fuzzy
 msgid "\"Fine, then.\""
-msgstr "\"Вот и отлично.\""
+msgstr "\"Вот и отлично\"."
 
 #: 68026
 msgid ""
