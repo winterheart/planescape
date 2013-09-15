@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: thkgrd2.cre\n"
 "POT-Creation-Date: 2009-05-25 03:20 +0600\n"
-"PO-Revision-Date: 2011-03-13 23:14+0500\n"
+"PO-Revision-Date: 2013-09-10 21:16+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
 "10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.5\n"
 "Language: ru\n"
 
 #: 0
@@ -42,4 +42,5 @@ msgstr "E_Thokala Death"
 
 #: 53000
 msgid "Thokola Guard"
-msgstr ""
+msgstr "Токола-стражник"
+
