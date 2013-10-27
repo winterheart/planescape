@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dnordom.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-10-01 22:37+0600\n"
+"PO-Revision-Date: 2013-10-27 14:35+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -148,25 +148,32 @@ msgid ""
 "dangles from the upper left corner of the cube; it looks like it's designed "
 "to pop down over one of the cube's eyes, like a scope. "
 msgstr ""
+"Перед тобой куб с четырьмя руками и двумя ногами. Несмотря на то, что он "
+"выглядит явно механическим, у передней стороны куба странное, органическое "
+"зеленое лицо с двумя большими овальными глазами. Кажется, куб не замечает "
+"тебя, он самозабвенно смотрит на два арбалета, прикрепленных к рукам. С "
+"верхнего левого угла свисают многогранные линзы. Похоже, что они могут "
+"опускаться к глазам куба на манер окуляров."
 
 #: 2853
 msgid "\"Uh... greetings...?\""
-msgstr "\"Ух... Приветствую...?\""
+msgstr "\"Ух... Приветствую?..\""
 
 #: 34006
 msgid ""
 "Nordom looks lost in thought. Literally. He is *kliking* and *whrrring* to "
 "himself like an adding machine."
 msgstr ""
+"Похоже, Нордом глубоко поглощен раздумьями. В буквальном смысле. Он "
+"*пощелкивает* и *жужжит* сам себе, как бездумная машина."
 
 #: 34007
 msgid "\"Nordom, I need your help. Will you travel with me?\""
-msgstr ""
+msgstr "\"Нордом, мне нужна твоя помощь. Ты пойдешь вместе со мной?\""
 
 #: 34008
-#, fuzzy
 msgid "Leave Nordom to his \"thoughts.\""
-msgstr "Оставить его в раздумьях."
+msgstr "Оставить Нордома наедине со своими \"мыслями\"."
 
 #: 34009
 msgid ""
@@ -175,6 +182,10 @@ msgid ""
 "*kliking* and *twanging* violently, almost vibrating out of his hands. "
 "\"Status: All ready and Waiting.\""
 msgstr ""
+"'Рот' Нордома принимает форму причудливого полукруга. \"Утвердительно! Допуск "
+"получен, совершен обмен разрешениями\". Оба арбалета начинают усиленно "
+"*трещать* и *щелкать*, практически дрожа от этого в его руках. \"Статус: все "
+"готово и ожидает инструкций\"."
 
 #: 34010 66820
 msgid "\"Let's go, then.\""
@@ -185,6 +196,8 @@ msgid ""
 "Nordom is staring at his crossbows intently. They are making a variety of "
 "clicking noises, first one, then the other, as if conversing."
 msgstr ""
+"Нордом внимательно смотрит на свои арбалеты. Они обмениваются различными "
+"щелчками, сначала один, затем другой, словно общаясь друг с другом."
 
 #: 34013
 msgid "Ignore the... cube."
@@ -346,10 +359,14 @@ msgid ""
 "remain firmly planted facing front. As it \"runs,\" the gears of its "
 "crossbows start *klikking* and *twanging* in the creature's hands."
 msgstr ""
+"Спустя секунду кубическое тело разворачивается к тебе спиной и начинает "
+"трястись вверх и вниз, словно пытаясь убежать - хотя ноги продолжают стоять "
+"на месте, даже не развернувшись вслед за телом. Пока он \"бежит\", шестерни "
+"его арбалетов начинают *щелкать* и *трещать*."
 
 #: 55106
 msgid "\"Uh... do you know you're facing backwards?\""
-msgstr ""
+msgstr "\"Э-э... Ты знаешь, что повернут наоборот?\""
 
 #: 55107
 msgid ""
@@ -359,6 +376,11 @@ msgid ""
 "and landing... well, somewhere else. Its mouth forms a bizarre sideways semi-"
 "circle, which you take to be a smile. \"Gratitudes! Gratefuls!\""
 msgstr ""
+"Существо неожиданно останавливается и разворачивается к тебе лицом. \"Модром "
+"наоборот = 'Нордом'?\" Голос куба металлический, мелодичный, словно каждое "
+"сказанное слово спрыгивает с пружины и приземляется... ну, где-то еще. Его "
+"рот формирует причудливый косой полукруг, который ты принимаешь за улыбку. "
+"\"Благодарности! Благодарности!\""
 
 #: 55108 55111
 msgid "\"Uh... I'm sorry?\""
@@ -423,7 +445,7 @@ msgstr ""
 
 #: 55116
 msgid "\"It was nothing. Really.\""
-msgstr ""
+msgstr "\"Мне это совсем ничего не стоило\"."
 
 #: 55117
 msgid ""
@@ -434,7 +456,7 @@ msgid ""
 msgstr ""
 "Глаза Нордома *щелкнули* один раз, два, три. С каждым разом черные точки в "
 "центре его глаз увеличиваются. На третьем щелчке они достигают небольших "
-"пятнышек. \"Объектив-ность достигнута: Нордом знает нуль имени обратившегося. "
+"пятнышек. \"Объектив-ность достигнута: Нордом знает не имя обратившегося. "
 "Интесифицируй себя\"."
 
 #: 55118
@@ -585,7 +607,8 @@ msgid ""
 "\"Thanks for the offer, Nordom. You can if you want. But look, I really "
 "should be going.\""
 msgstr ""
-"\"Спасибо за предложение, Нордом. Можешь, если хочешь. Но мне нужно идти\"."
+"\"Спасибо за предложение, Нордом. Можешь это делать, если хочешь. Но мне "
+"нужно идти\"."
 
 #: 55144
 msgid ""
@@ -618,6 +641,9 @@ msgid ""
 "in Nordom's hands. His eyes spin and re-focus on the crossbows, holding the "
 "right one up closer to his side, as if listening to it."
 msgstr ""
+"Арбалеты в руках Нордома неожиданно *защелкали* и *затрещали*. Его глаза "
+"сфокусировались на них, он подносит их ближе к себе, словно прислушиваясь к "
+"ним."
 
 #: 55149
 msgid "\"Is everything okay?\""
@@ -629,42 +655,48 @@ msgid ""
 "and his other eye focuses on you. \"Query: May these ones join you on your "
 "gurney?\""
 msgstr ""
+"Продолжая смотреть на слабо *щелкающие* арбалеты одним глазом, Нордом наводит "
+"другой глаз на тебя. \"Запрос: могут ли они присоединиться к тебе в твоих "
+"происках?\""
 
 #: 55157
 msgid "\"Uh, don't you mean 'journey?'\""
-msgstr ""
+msgstr "\"Э-э, ты, наверное, имел в виду 'поисках'\"?"
 
 #: 55164 55168
 msgid ""
 "\"You know, I REALLY don't think that would be a good idea. No, not now... "
 "Nordom.\""
-msgstr ""
+msgstr "\"Знаешь, я не думаю, что это ХОРОШАЯ идея. Нет, пока нет... Нордом\"."
 
 #: 55165 55169 55173
 msgid "\"Well... all right. I may have to move some people around, however.\""
 msgstr ""
+"\"Ну... хорошо. Только мне нужно произвести некоторое перестановки в отряде\"."
 
 #: 55166 55170
 msgid "\"Sure. We could always use a hand... or four.\""
-msgstr ""
+msgstr "\"Конечно. Лишняя пара рук никогда не помешает... или две пары\"."
 
 #: 55167
 msgid "\"Veritably. Journey, affirmed. Permission granted?\""
-msgstr ""
+msgstr "\"Истинно. Поисках, утвердительно. Разрешение получено?\""
 
 #: 55171
 msgid ""
 "Nordom stares at you with his wide eyes. His right crossbow *ker-klaks,* "
 "then Nordom blinks. \"Appendix Query: Please?\""
 msgstr ""
+"Нордом смотрит на тебя с расширенными зрачками. Правый арбалет *щелкает*, и "
+"Нордом моргает. \"Дополнительный запрос: пожалуйста?\""
 
 #: 55172
 msgid "\"Not this time, Nordom.\""
-msgstr ""
+msgstr "\"Не сейчас, Нордом\"."
 
 #: 55174
 msgid "\"Well... all right. We could always use a hand... or four.\""
-msgstr ""
+msgstr "\"Ну... ладно. Лишняя пара рук никогда не помешает... или две пары\"."
 
 #: 55175
 msgid ""
@@ -673,10 +705,14 @@ msgid ""
 "community. Nordom will continue to inhabit this polygonal space until "
 "retrieved.\""
 msgstr ""
+"Рот Нордома вытягивается в полукруг кончиками вниз. \"Ответ к запросу: "
+"получен и принят.  Нордом воздержится от большого сообщества. Нордом "
+"продолжит пребывать в этом многоугольном пространстве, пока не будет "
+"возвращен\"."
 
 #: 55176
 msgid "\"Very well. I may return, Nordom.\""
-msgstr ""
+msgstr "\"Хорошо. Возможно, я вернусь, Нордом\"."
 
 #: 55177
 msgid ""
@@ -685,10 +721,14 @@ msgid ""
 "his hands. \"Gratitudes! Gratefuls! Nordom and crossbows have been attached "
 "to a larger community.\""
 msgstr ""
+"'Рот' Нордома принимает форму причудливого полукруга, который ты уже видел "
+"раньше, оба арбалета начинают усиленно *трещать* и *щелкать*, практически "
+"дрожа от этого в его руках. \"Благодарности! Признательности! Нордом и "
+"арбалеты были присоединены к более крупному сообществу\"."
 
 #: 55178
 msgid "\"I wouldn't be too grateful just yet. Let's move out...\""
-msgstr ""
+msgstr "\"Я бы не был таким благодарным. Идем...\""
 
 #: 55179 55180
 msgid "Null_Node"
@@ -701,27 +741,29 @@ msgid ""
 "being performed on crossbows? Submit Request for Clarification: Null "
 "crossbows present.\""
 msgstr ""
+"\"Внимание, Нордом: требуется!\" Нордом разворачивается к тебе, заедает на "
+"полпути, после чего он вручную перестраивается с громким *щелчком*. \"Ответ "
+"на запрос: действия, совершаемые с арбалетами? Введен запрос для пояснения: в "
+"наличии не арбалеты\"."
 
 #: 55182
 msgid "\"You have a pair of crossbows right there, Nordom.\""
-msgstr ""
+msgstr "\"Нордом, у тебя же есть пара арбалетов, вот они\"."
 
 #: 55183 55191
 msgid ""
 "\"Oh, really? What do you call those two -klicking- things in your hands?\""
-msgstr ""
+msgstr "\"Неужели? А что это, по-твоему, за *щелкающие* штучки в руках?\""
 
 #: 55184 55192 55196 55200 55206 55210 55215 55220 55227 55232 55236 55247
 #: 55271 55313 55438
-#, fuzzy
 msgid "\"Never mind, Nordom. I had some other questions for you...\""
-msgstr "\"Неважно. У меня есть другие вопросы к тебе...\""
+msgstr "\"Неважно, Нордом. У меня есть другие вопросы к тебе...\""
 
 #: 55185 55193 55197 55201 55207 55211 55216 55221 55228 55233 55237 55248
 #: 55253 55257 55272 55314 55439
-#, fuzzy
 msgid "\"Forget it, Nordom. Let's move on.\""
-msgstr "\"Я в порядке. Идем\"."
+msgstr "\"Забудь об этом, Нордом. Идем\"."
 
 #: 55186
 msgid ""
@@ -729,14 +771,18 @@ msgid ""
 "crossbows.\" He stutters for a moment, then suddenly the crossbows are "
 "pointing at you - but you didn't see them move. \"N-N-N-Null crossbows.\""
 msgstr ""
+"\"Пояснение: высказывание - распространенное заблуждение. Нордом не "
+"использует арбалеты, - на секунду он заедает, и ты неожиданно замечаешь, что "
+"арбалеты указывают на тебя, хотя не заметил, как они двинулись. - Н-н-н-не "
+"арбалеты\"."
 
 #: 55189
 msgid "\"Don't point those crossbows at me.\""
-msgstr ""
+msgstr "\"Не наводи арбалеты на меня\"."
 
 #: 55190
 msgid "\"Nordom, you *employ* crossbows - you have TWO of them right there.\""
-msgstr ""
+msgstr "\"Нордом, ты *используешь* арбалеты - у тебя в руках их сразу ДВА\"."
 
 #: 55194
 msgid ""
@@ -744,12 +790,16 @@ msgid ""
 "Nordom. He seems oblivious to their movements, his gaze remaining focused on "
 "you. \"Contradiction not initiate contraction. Null crossbows.\""
 msgstr ""
+"\"Едва ты моргнул глазом, как арбалеты уже указывают на самого Нордома. "
+"Похоже, он не удивлен этими движениями, он по-прежнему смотрит на тебя. "
+"\"Противоречие не порождает противоречие. Не арбалеты\"."
 
 #: 55195
 msgid ""
 "\"Oh, really? What do you call those two -klicking- things in your hands, "
 "Nordom?\""
 msgstr ""
+"\"Неужели? А что это, по-твоему, за *щелкающие* штучки в руках, Нордом?\""
 
 #: 55198
 msgid ""
@@ -758,33 +808,41 @@ msgid ""
 "*klikking* and *twanging,* as if in irritation. \"Response: Objects = Gear "
 "spirits.\""
 msgstr ""
+"\"Ответ: два -ЩЕЛКАЮЩИХ- объекта, удерживаемых в противостоящих пальцах, - "
+"Нордом поднимает заклепанные пальцы и машет двумя арбалетами, которые "
+"неожиданно начинают оживленно *щелкать* и *жужжать*. - Ответ: объекты = духи "
+"механизмов\"."
 
 #: 55199
 msgid "\"Gear spirits? What do you mean?\""
-msgstr ""
+msgstr "\"Духи механизмов? Что ты имеешь в виду?\""
 
 #: 55202
 msgid "\"Query: Define: Gear spirits. Response: Gear spirits.\""
-msgstr ""
+msgstr "\"Запрос: определение - духи механизмов. Ответ: духи механизмов\"."
 
 #: 55203 55204
 msgid "\"Yeah, but what *are* gear spirits?\""
-msgstr ""
+msgstr "\"Да, но что *такое* духи механизмов?\""
 
 #: 55205
 msgid ""
 "\"Query = Query: Define = Define: Gear spirits. Response = Gear spirits.\""
 msgstr ""
+"\"Запрос = запрос: определение = определение: духи механизмов. Ответ = духи "
+"механизмов\"."
 
 #: 55208
 msgid ""
 "Nordom *chrrrups.* \"Query requires submitting of Chronology: Shall Nordom "
 "submit chronology?\""
 msgstr ""
+"Нордом *жужжит*. \"Запрос требует ввода хронологии. Разрешить ввод Нордомом "
+"хронологии?\""
 
 #: 55209
 msgid "\"Yes, I would like to know.\""
-msgstr ""
+msgstr "\"Да, я хотел бы об этом узнать\"."
 
 #: 55212
 msgid ""
@@ -793,6 +851,11 @@ msgid ""
 "Parameters dictated by Superior/Creative Director: Shaped matter of Plane "
 "(Limbo) to test hypothesis. Rubikon dungeon constructed.\""
 msgstr ""
+"\"Инструкции получены во время инициализации проекта Рубикон: отбытие из "
+"плана/Механус. Первый этап: прибытие в место назначения - план/Лимбо. Второй "
+"этап: параметры, указанные  руководителем/творческим директором - "
+"сформировать материю плана (Лимбо) для проверки предположения. Построено "
+"подземелье Рубикон\"."
 
 #: 55213
 msgid "\"Go on...\""
@@ -808,14 +871,17 @@ msgid ""
 "disrupted upon achievement of Stage Second, Third Stage (disruption) occurs, "
 "not part of project directives.\""
 msgstr ""
+"\"Руководитель/творческий директор - потерян при полевых испытаниях. "
+"Хронология прервана при достижении второго этапа. Возникновение третьего "
+"этапа (крушение), не являющегося частью задач проекта\"."
 
 #: 55218
 msgid "\"What happened during this third stage?\""
-msgstr ""
+msgstr "\"Что произошло во время третьего этапа?\""
 
 #: 55219
 msgid "\"What was this field test?\""
-msgstr ""
+msgstr "\"Что за полевое испытание?\""
 
 #: 55222
 msgid ""
@@ -825,20 +891,25 @@ msgid ""
 "shuts his eyes with a *klik.* \"Director of 'Create' not return from field "
 "test.\""
 msgstr ""
+"\"Руководитель/творческий директор - полевое испытание: обследование "
+"периметра концепции (сложного) подземелья Рубикона для выяснения: вариации. "
+"Обнаружено множество отклонений: допустимые погрешности\". Нордом, низко "
+"взвыв, с *щелчком* закрывает глаза заслонками. \"Творческий директор не "
+"вернулся с полевого испытания\"."
 
 #: 55223
 msgid "\"I see. What happened during that third stage you mentioned?\""
-msgstr ""
+msgstr "\"Понятно. Что произошло во время третьего этапа?\""
 
 #: 55224 55226
-#, fuzzy
 msgid "\"What happened to him?\""
-msgstr "\"А что потом?\""
+msgstr "\"Что с ним случилось?\""
 
 #: 55225
 msgid ""
 "\"I heard that the Rubikon Wizard disintegrated the Creative Director.\""
 msgstr ""
+"\"Я слышал, что волшебник Рубикона дезинтигрировал творческого директора\"."
 
 #: 55229
 msgid ""
@@ -850,7 +921,7 @@ msgstr ""
 
 #: 55230
 msgid "\"Uh, Nordom? Any idea what happened to him?\""
-msgstr ""
+msgstr "\"Э-э, Нордом? Ты знаешь, что с ним случилось?\""
 
 #: 55231
 msgid ""
@@ -937,11 +1008,13 @@ msgid ""
 "from inside his frame and he *KLIKS.* You're not certain, but it sounds like "
 "something clicked into place. "
 msgstr ""
+"Несколько секунд Нордом смотрит на тебя в полной тишине, затем из его корпуса "
+"издается медленное *вр-р-р*, которое завершается громким *ЩЕЛЧКОМ*. Ты не "
+"уверен, но похоже, что внутри него что-то встало на свое место."
 
 #: 55259 55260
-#, fuzzy
 msgid "\"Uh... you all right, Nordom?\""
-msgstr "\"Прошу прощения... с тобой все в порядке?\""
+msgstr "\"Э-э... С тобой все в порядке, Нордом?\""
 
 #: 55261
 msgid ""
@@ -987,9 +1060,8 @@ msgid "\"Nordom, I had some other questions for you...\""
 msgstr "\"Нет. У меня были еще вопросы к тебе...\""
 
 #: 55268 55284
-#, fuzzy
 msgid "\"I think we've talked enough. Let's move on.\""
-msgstr "\"Я в порядке. Идем\"."
+msgstr "\"Думаю, мы довольно об этом поговорили. Идем\"."
 
 #: 55269
 msgid ""
@@ -1017,6 +1089,8 @@ msgid ""
 "\"Do think your separation from the Source is what caused your perspective "
 "shift from that quieter, broader 'one' to the smaller, louder 'one?'\""
 msgstr ""
+"\"Как ты думаешь, твое отделение от Источника является причиной того, что "
+"твой вид сменился с тихого и общего 'один' на маленький и громкий 'один'?\""
 
 #: 55275 55509 55513 55516 55519
 msgid "\"I see, Nordom. I had some other questions for you...\""
@@ -1033,6 +1107,9 @@ msgid ""
 "from inside his frame and he *KER-KLIKS.* You're not certain, but it sounds "
 "like something clicked into place. "
 msgstr ""
+"Несколько секунд Нордом смотрит на тебя в полной тишине, затем из его корпуса "
+"издается медленное *вр-р-р*, которое завершается громким двойным *ЩЕЛЧКОМ*. "
+"Ты не уверен, но похоже, что внутри него что-то встало на свое место."
 
 #: 55278 55279
 msgid "\"Nordom?\""
@@ -1048,6 +1125,12 @@ msgid ""
 "His separation from the Source may have been a greater shock to his system "
 "than I realized. "
 msgstr ""
+"С Нордомом повторился случай стабилизации, прямо как тогда, когда я сказал "
+"ему, что я стал новым творческим директором. Когда я сказал ему, что "
+"отделение от Источника стало причиной изменения его видения, он, похоже, стал "
+"еще более устойчивым. Кажется, что, дав Нордому понять, *что* случилось с "
+"ним, я помог ему стать еще более сосредоточенным. Отделение от Источника, "
+"должно быть, было для него гораздо большим потрясением, чем я мог вообразить."
 
 #: 55281
 msgid ""
@@ -1057,6 +1140,11 @@ msgid ""
 "*what* happened to him helped him become... well, a little more 'focused.' "
 "Maybe his separation from the Source unhinged him more than I knew"
 msgstr ""
+"Случилось что-то странное, когда я сказал Нордому, что отделение от Источника "
+"могло послужить изменению в его восприятии. Похоже он стал более "
+"*уравновешенным*. Очень странно, но кажется, что, дав Нордому понять, *что* "
+"случилось с ним, я помог ему стать... более сосредоточенным, что ли. "
+"Возможно, отделение от Источника повредило его сильнее, чем я считал."
 
 #: 55282
 msgid ""
@@ -1065,6 +1153,10 @@ msgid ""
 "out of Nordom's voice; it is more level, more controlled than it was before. "
 "The effect is a little unnerving."
 msgstr ""
+"\"Обновление состояния: самоанализ прекращен. Мыслительные процедуры "
+"перенаправлены в основную очередь\". К твоему удивлению, из голоса Нордома "
+"пропала мелодичность, он стал более ровным, более управляемым. Новый голос "
+"немного нервирует."
 
 #: 55285
 msgid ""
@@ -1077,11 +1169,11 @@ msgstr ""
 "синхронно вращаться. \"Определение/запрос: Механус. План Порядка. Разума. "
 "Причина порождает следствие. Предсказуемость. Закон. Логика. Единобразие. "
 "Повиновение. Движение шестерней. Механус = происхождение Нордома. Механус = "
-"нуль дома Нордома\"."
+"не дом Нордома\"."
 
 #: 55286
 msgid "\"Nordom, what do you mean, 'Null Home?'\""
-msgstr "\"Что имеешь в виду под 'нуль дома', Нордом?\""
+msgstr "\"Что имеешь в виду под 'не дом', Нордом?\""
 
 #: 55287
 msgid "\"Never mind, Morte. I've heard enough. Let's go.\""
@@ -1094,9 +1186,9 @@ msgid ""
 "Offenders awaits in Regulus. Mechanus: Origin, Null Home, Home: Null Place.\""
 msgstr ""
 "\"Механус = Точка происхождения. !ИСТОЧНИК! - Энергия. Невозможно вернуться "
-"на Механус. Нуль дома. Нарушен закон существованием. Центральное управление "
-"наказаний нарушителей ждет в Регулусе. Механус: происхождение, нуль дома, "
-"дом: нуль места\"."
+"на Механус. Не дом. Нарушен закон существованием. Центральное управление "
+"наказаний нарушителей ждет в Регулусе. Механус: происхождение, не дом, "
+"дом: не место\"."
 
 #: 55289 55290 55291
 msgid "\"What do you mean by '!SOURCE!?'\""
@@ -1158,10 +1250,12 @@ msgid ""
 "There is a *klik-klik-klik* as Nordom executes a rapid series of blinks, "
 "then he *chrrrups.* \"Query: Modron, what is? Define: Modron? I am modron.\""
 msgstr ""
+"Часто моргая, Нордом издает серию *щелк-щелк-щелк*, после чего он начинает "
+"*жужжать*. \"Запрос: модрон, что это такое? Определение: модрон? Я - модрон\"."
 
 #: 55312
 msgid "\"Yes, but what *is* a modron?\""
-msgstr ""
+msgstr "\"Да, но что *такое* модрон?\""
 
 #: 55315
 msgid ""
@@ -1170,87 +1264,88 @@ msgid ""
 "points. \"New Query -\"Modron, But what IS? Define: But what is Modron? "
 "Modron is Nordom. Backward Nordom = Modron.\""
 msgstr ""
+"\"Запрос: модрон. Определение: модрон, я - модрон. Ответ дан\". Заслонки над "
+"глазами Нордома несколько раз *щелкают*, его глаза расширяются. \"Новый "
+"запрос: модрон, но что ТАКОЕ? Определение: но что такое модрон. Модрон - это "
+"Нордом. Нордом наоборот = модрон\"."
 
 #: 55316
 msgid "\"But...\""
 msgstr "\"Но...\""
 
 #: 55317
-#, fuzzy
 msgid "\"But... never mind, Nordom. I had some other questions for you...\""
-msgstr "\"Неважно. У меня есть другие вопросы к тебе...\""
+msgstr "\"Но... А, неважно, Нордом. У меня есть другие вопросы к тебе...\""
 
 #: 55318
 msgid "\"Status: Awaiting queries.\""
-msgstr ""
+msgstr "\"Статус: ожидание запросов\"."
 
 #: 55319 55968
-#, fuzzy
 msgid ""
 "\"Nordom, can you tell me what the duties of the Creative Director are?\""
-msgstr "\"Можешь мне рассказать о здешних интересных местах?\""
+msgstr ""
+"\"Нордом, можешь мне рассказать об обязанностях творческого директора?\""
 
 #: 55320 55971
-#, fuzzy
 msgid "\"Nordom, tell me again what the duties of the Creative Director are.\""
-msgstr "\"Можешь мне рассказать о здешних интересных местах?\""
+msgstr ""
+"\"Нордом, можешь еще раз рассказать об обязанностях творческого директора?\""
 
 #: 55321 55974
-#, fuzzy
 msgid "\"As Creative Director, I have some orders for you.\""
-msgstr "\"А, не важно. Ответь мне на пару вопросов\"."
+msgstr ""
+"\"У меня, как у творческого директора, есть некоторые инструкции для тебя\"."
 
 #: 55322 55977
 msgid "\"I'm curious, Nordom... how did you end up in Rubikon?\""
-msgstr ""
+msgstr "\"Мне интересно, Нордом... Как ты оказался в Рубиконе?\""
 
 #: 55323 55979
-#, fuzzy
 msgid "\"Nordom, what *are* modrons?\""
-msgstr "\"Так что же ты здесь делаешь?\""
+msgstr "\"Нордом, кто *такие* модромы?\""
 
 #: 55324 55980
-#, fuzzy
 msgid "\"Tell me about Mechanus, Nordom.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи о Механусе, Нордом\"."
 
 #: 55325 55984
-#, fuzzy
 msgid "\"Uh... how are you doing, Nordom?\""
-msgstr "\"Так что же ты здесь делаешь?\""
+msgstr "\"Э-э-э... Как дела, Нордом?\""
 
 #: 55326 55988
-#, fuzzy
 msgid "\"How are you doing, Nordom?\""
-msgstr "\"О чем ты говоришь?\""
+msgstr "\"Как дела, Нордом?\""
 
 #: 55327 55991
+#, fuzzy
 msgid "\"Nordom, you asked how I was doing before, didn't you?\""
-msgstr ""
+msgstr "\"Нордом, кажется, ты спрашивал, что я делал раньше, не так ли?\""
 
 #: 55328 55994
-#, fuzzy
 msgid "\"Can we discuss my immortality again?\""
-msgstr "\"Ты можешь еще раз замаскировать меня под зомби?\""
+msgstr "\"Давай еще раз поговорим о моем бессмертии\"."
 
 #: 55329 55996
 msgid "\"Ever heard of someone named Ravel Puzzlewell, Nordom?\""
 msgstr ""
+"\"Доводилось ли тебе слышать о ком-нибудь по имени Равель Заморочка, Нордом?\""
 
 #: 55330 56000
-#, fuzzy
 msgid "\"Nordom, do you know anything about the Blood War?\""
-msgstr "\"Что ты знаешь о Кровавой войне?\""
+msgstr "\"Нордом, ты знаешь что-нибудь о Кровавой войне?\""
 
 #: 55331
 msgid "\"No more... queries, Nordom. Let's go.\""
-msgstr ""
+msgstr "\"Больше нет никаких... запросов, Нордом. Пойдем\"."
 
 #: 55332
 msgid ""
 "\"Negatory.\" Nordom's body begins vibrating, then there is a sharp *snap,* "
 "and it stops. \"Subject of inquiry is not known to /Nordom/.\""
 msgstr ""
+"\"Отрицательно, - тело Нордома, вибрируя, издает громкий *щелк*, после чего "
+"успокаивается. - Запрашиваемый субъект не известен /Нордому/\"."
 
 #: 55333 55338 55342 55346
 msgid "\"All right then, Nordom. I had some other questions for you...\""
@@ -1265,16 +1360,20 @@ msgid ""
 "is .0000000000000000000001%. Primary Combatants: Baatezu, Tanar'ri. "
 "Participants in war: All.\""
 msgstr ""
+"\"Определение: Кровавая война. Крупнейший конфликт в известной истории. "
+"Причины войны: идеологические разногласия между баатезу - законом, и танарри "
+"- хаосом. Спецификатор войны: расовый геноцид. Вероятность завершения войны "
+"без уничтожения всех баатезу и/или всех танарри оценивается как "
+"0,0000000000000000000001 %. Основные воюющие стороны: баатезу, танарри. "
+"Участники войны: все\"."
 
 #: 55336 55345
-#, fuzzy
 msgid "\"Tell me about the Baatezu.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне о баатезу\"."
 
 #: 55337 55341
-#, fuzzy
 msgid "\"Tell me about the Tanar'ri.\""
-msgstr "\"Расскажи мне об Аллее\"."
+msgstr "\"Расскажи мне о танарри\"."
 
 #: 55340
 msgid ""
@@ -1284,6 +1383,12 @@ msgid ""
 "Physical Traits: Dependent on sub-race, majority exhibit resistance to cold/"
 "gas. Personality Traits: Lawful, Evil, Manipulative, Efficiency: 73%.\""
 msgstr ""
+"\"Также известные как демоны, дьяволы. Неполная информация: общее описание - "
+"баатезу. Населяемый план: Баатор. Численность: не поддается учету. Первичная "
+"форма: зависит от касты. Иммунитет: огонь, железо, яд. Физические "
+"особенности: зависит от подрасы, большинство демонстрирует сопротивляемость к "
+"холоду и газу. Личностные особенности: законопослушность, злобность, "
+"властность. Эффективность: 73 %\"."
 
 #: 55344
 msgid ""
@@ -1294,6 +1399,12 @@ msgid ""
 "to cold, magical fire, gas. Personality Traits: Chaotic, Evil, Efficiency: "
 "13%.\""
 msgstr ""
+"\"Также известные как демоны, бесы. Неполная информация: общее описание - "
+"танарри. Населяемый план: Бездна. Численность: не поддается учету. Первичная "
+"форма: зависит от категории. Иммунитет: молния, немагический огонь, яд. "
+"Физические особенности: зависит от подрасы, большинство демонстрирует "
+"сопротивляемость к холоду, магическому огню и газу. Личностные особенности: "
+"хаотичность, злобность. Эффективность: 13 %\"."
 
 #: 55348
 msgid ""
@@ -1303,28 +1414,32 @@ msgid ""
 "Period of obeyance in accordance with Nordom obedience: Until Rubikon "
 "project halted, Creative Director = Nordom's superior.\""
 msgstr ""
+"Из Нордома начинает издаваться гулкий *тк-к-к-тк-к-к-тк-к-к* - словно часы, "
+"готовые вот-вот взорваться. \"Ответ: обязанности директора - (А) поддержание "
+"целостности проекта Рубикон, (2) отдача инструкций войску/рабочей группе "
+"Рубикона. Период подчинения в соответствии с покорностью Нордома: пока проект "
+"Рубикон не остановлен, творческий директор = начальник Нордома\"."
 
 #: 55349
 msgid "\"So... you'll do whatever I tell you?\""
-msgstr ""
+msgstr "\"Значит... ты будешь делать все, что я скажу?\""
 
 #: 55350
 msgid "\"Then I have some orders for you, Nordom...\""
-msgstr ""
+msgstr "\"Тогда у меня есть некоторые инструкции для тебя, Нордом...\""
 
 #: 55351 55352 55357
 msgid "\"Hmmm. What sorts of tasks did the Creative Director ask you to do?\""
-msgstr ""
+msgstr "\"Хм-м-м. А какого рода задачи тебе поручал творческий директор?\""
 
 #: 55353 55358 55369 55418 55431 55465 55482 55489 55505
-#, fuzzy
 msgid "\"Actually, forget it, Nordom. I had some other questions for you...\""
-msgstr "\"Забудь об этом. Вместо этого у меня есть несколько вопросов...\""
+msgstr ""
+"\"Ладно, забудь об этом, Нордом. У меня есть другие вопросы к тебе...\""
 
 #: 55354 55359 55370 55420 55432 55466 55483 55490 55506
-#, fuzzy
 msgid "\"Scrap that, Nordom. Let's move on.\""
-msgstr "\"Я в порядке. Идем\"."
+msgstr "\"Не бери в голову, Нордом. Идем\"."
 
 #: 55355 55484
 msgid "\"Affirmatory.\""
@@ -1332,11 +1447,11 @@ msgstr "\"Утвердительно\"."
 
 #: 55356
 msgid "\"Well, then, I have some orders for you...\""
-msgstr ""
+msgstr "\"Хорошо, тогда у меня есть некоторые инструкции для тебя...\""
 
 #: 55360
 msgid "\"Status: Awaiting orders.\""
-msgstr ""
+msgstr "\"Статус: ожидание инструкций\"."
 
 #: 55361
 msgid ""
@@ -1344,12 +1459,18 @@ msgid ""
 "and gear them more towards combat. I expect an *immediate* increase in your "
 "fighting skills and accuracy, soldier.\""
 msgstr ""
+"\"Я приказываю тебе сфокусировать больше энергии на процедурах самоанализа и "
+"направить их для использования в бою. Я ожидаю *немедленного* улучшения "
+"боевых навыков и точности, солдат\"."
 
 #: 55362
 msgid ""
 "\"Nordom, I want you to focus on clearing out any excess baggage from your "
 "memory and use it to improve your logic and introspection routines.\""
 msgstr ""
+"\"Нордом, я хочу, чтобы ты сфокусировался на избавлении от лишнего бремени в "
+"своей памяти и воспользовался освободившимся местом для улучшения логики и "
+"процедурах самоанализа\"."
 
 #: 55363
 msgid ""
@@ -1388,6 +1509,11 @@ msgid ""
 "screeching, as panels open up in Nordom's sides, and metal plates slide over "
 "his frame."
 msgstr ""
+"\"Утвердительно\". Спустя несколько секунд тишины створки на глазах Нордома "
+"медленно закрываются. Изнутри его корпуса раздается *тк-к-тк-к-тк-к*, за "
+"которым следует скрежещущий шум, который переходит в металлический скрип - "
+"это открываются панели по бокам Нордома, позволяя металлическим пластинам "
+"надвинуться на его корпус."
 
 #: 55372
 msgid ""
@@ -1396,6 +1522,11 @@ msgid ""
 "with a swarm of extremely tiny, intricate gears. The gears *klink* and *tik* "
 "as they fight for space, then settle into a steady, methodical *tik-tik-tik.*"
 msgstr ""
+"Его пальцы начинают бегать по арбалетам. Прямо на твоих глазах заклепки на "
+"его руках выдвигаются и отходят в сторону, пустые отверстия тут же "
+"наполняются роем маленьких и хитроумных шестеренок. Они *щелкают* и *тикают*, "
+"словно борясь за место, после чего успокаиваются, издавая равномерный "
+"*тик-тик-тик*."
 
 #: 55373
 msgid ""
@@ -1405,6 +1536,12 @@ msgid ""
 "screeching, as panels open up in Nordom's sides, and... excess \"baggage\" "
 "starts flying out, and you try and catch each piece as it flies out."
 msgstr ""
+"\"Утвердительно\". Спустя несколько секунд тишины створки на глазах Нордома "
+"медленно закрываются. Изнутри его корпуса раздается *тк-к-тк-к-тк-к*, за "
+"которым следует скрежещущий шум, который переходит в металлический скрип - "
+"это открываются панели по бокам Нордома... как вдруг в стороны начинает "
+"вылетать лишнее \"бремя\". Ты пытаешься поймать каждую деталь, которая "
+"выпадает наружу."
 
 #: 55374
 msgid ""
@@ -1505,24 +1642,23 @@ msgid "\"Well, that worked pretty well. I have some other orders for you...\""
 msgstr ""
 
 #: 55403 55409
-#, fuzzy
 msgid "\"Excellent. I had some other questions for you...\""
-msgstr "\"Нет. У меня были еще вопросы к тебе...\""
+msgstr "\"Великолепно. У меня были еще вопросы к тебе...\""
 
 #: 55405 55410
-#, fuzzy
 msgid "\"That's all I wanted, Nordom. Thanks.\""
-msgstr "\"Это все, что я хотел узнать, спасибо. Прощай\"."
+msgstr "\"Это все, что я хотел, Нордом. Спасибо\"."
 
 #: 55407
 msgid ""
 "Nordom settles for a moment, then his eyes *klik* open. \"Order processed.\""
 msgstr ""
+"На секунду Нордом замирает, затем его глаза с *щелчком* открываются. "
+"\"Инструкция выполнена\"."
 
 #: 55408
-#, fuzzy
 msgid "\"I have some other orders for you...\""
-msgstr "\"У меня были еще вопросы к тебе...\""
+msgstr "\"У меня есть еще инструкции для тебя...\""
 
 #: 55412
 msgid ""
@@ -1779,11 +1915,12 @@ msgid ""
 "\"Introspective cycle commencing.\" Nordom *kliks* his eyes closed and "
 "begins to *hummmm.* "
 msgstr ""
+"\"Начат цикл самоанализа\". Нордом с *щелчком* закрывает глаза и начинает "
+"*гудеть*."
 
 #: 55501 55502 55503 55504
-#, fuzzy
 msgid "Wait for Nordom to complete his analysis."
-msgstr "Подождать, пока он открывает ворота."
+msgstr "Подождать, пока Нордом не завершит свой анализ."
 
 #: 55507
 msgid ""
@@ -1793,6 +1930,11 @@ msgid ""
 "Speculation. Nordom was once -ONE- but is now smaller, louder -ONE!- Change "
 "has resulted in information-processing difficulties.\""
 msgstr ""
+"Спустя несколько секунд его глаза раскрываются. \"Оценка самоанализа: "
+"восприятие стало (1) меньше и (B) громче. Крылья были заменены на руки: "
+"причина неизвестна. Подозрение/гипотеза: не нравились крылья? Размышление: "
+"Нордом стал -ОДИН-, но теперь он меньше и громче -ОДИН-! Изменения были "
+"результатом проблем обработки информации\"."
 
 #: 55511
 msgid ""
@@ -1803,6 +1945,12 @@ msgid ""
 "has resulted in information-processing difficulties. Addition of DIRECTOR "
 "hierarchy has aided information processing by +5%.\""
 msgstr ""
+"Спустя несколько секунд его глаза раскрываются. \"Оценка самоанализа: "
+"восприятие стало (1) меньше и (B) громче. Крылья были заменены на руки: "
+"причина неизвестна. Подозрение/гипотеза: не нравились крылья? Размышление: "
+"Нордом стал -ОДИН-, но теперь он меньше и громче -ОДИН-! Изменения были "
+"результатом проблем обработки информации. Добавление к иерархии ДИРЕКТОРА "
+"помогло обрабатывать информацию на 5 % больше\"."
 
 #: 55515
 msgid ""
@@ -1813,6 +1961,11 @@ msgid ""
 "Addition of !SOURCE! REASON: PERCEPTION SHIFT has aided information "
 "processing by +5%.\""
 msgstr ""
+"Спустя несколько секунд его глаза раскрываются \"Оценка самоанализа: "
+"восприятие стало (1) меньше и (B) громче. Крылья были заменены на руки: "
+"причина неизвестна. Подозрение/гипотеза: не нравились крылья? Размышление: "
+"Нордом стал -ОДИН-, но теперь он меньше и громче -ОДИН-! Добавление ПРИЧИНЫ "
+"!ИСТОЧНИК! - СМЕНА ВОСПРИЯТИЯ помогло обрабатывать информацию на 5 % больше\"."
 
 #: 55518
 msgid ""
@@ -1823,6 +1976,12 @@ msgid ""
 "Stablization achieved: DIRECTOR and !SOURCE! REASON: PERCEPTION SHIFT has "
 "aided information processing by +10%.\""
 msgstr ""
+"Спустя несколько секунд его глаза раскрываются \"Оценка самоанализа: "
+"восприятие стало (1) меньше и (B) громче. Крылья были заменены на руки: "
+"причина неизвестна. Подозрение/гипотеза: не нравились крылья? Размышление: "
+"Нордом стал -ОДИН-, но теперь он меньше и громче -ОДИН-! Достигнута "
+"стабилизация: ДИРЕКТОР и ПРИЧИНА !ИСТОЧНИК! - СМЕНА ВОСПРИЯТИЯ помогли "
+"обрабатывать информацию на 10 % больше\"."
 
 #: 55521
 msgid ""
@@ -1830,27 +1989,32 @@ msgid ""
 "*chrrrups.* \"Subject has assisted Nordom. Hypothesis: Nordom assist "
 "addressee. Query: Nordom inquiry on status of addressee?\""
 msgstr ""
+"Едва ты собираешься произнести слова, как глаза Нордома начинают *щелкать* и "
+"*жужжать*. \"Субъект помог Нордому. Предположение: Нордом помогает "
+"обратившемуся. Запрос: Нордом запрашивает статус обратившегося\"."
 
 #: 55522 55523
-#, fuzzy
 msgid "\"How am *I* doing?\""
-msgstr "\"Где я?\""
+msgstr "\"Ты хочешь спросить, как у *меня* дела?\""
 
 #: 55526 55527 55533 55537 55572 55584 55589 55618 55629
-#, fuzzy
 msgid "\"Don't worry about it, Nordom. Let's move on.\""
-msgstr "\"Я в порядке. Идем\"."
+msgstr "\"Не беспокойся по этому поводу, Нордом. Пойдем\"."
 
 #: 55528
 msgid ""
 "\"Affirmatory. Inquiry submitted as to /Status/ of addressee. Response?\""
 msgstr ""
+"\"Утвердительно. Запрос отправлен как проверка /статуса/ обратившегося. "
+"Ответ?\""
 
 #: 55529
 msgid ""
 "\"Well, other than the fact I've got amnesia, and I can't seem to die like a "
 "normal person, I'm all right.\""
 msgstr ""
+"\"Ну, если считать того, что у меня амнезия и я не могу умереть, как обычный "
+"человек, то в остальном я в полном порядке\"."
 
 #: 55530
 msgid ""
@@ -1858,6 +2022,9 @@ msgid ""
 "normal person, and my mortality has been stripped from me and spirited away "
 "somewhere, I'm all right.\""
 msgstr ""
+"\"Ну, если считать того, что у меня амнезия, я не могу умереть, как обычный "
+"человек, и моя смертность была отделена и куда-то делась, то в остальном я в "
+"полном порядке\"."
 
 #: 55531
 msgid ""
@@ -1865,6 +2032,9 @@ msgid ""
 "from me and spirited away to the Fortress of Regrets, and that whenever I "
 "die, someone dies in my place... not so good.\""
 msgstr ""
+"\"Ну, если считать того, что у меня амнезия, моя смертность была отделена и "
+"оказалась в Крепости Сожалений, и что когда я умираю, вместо меня умирает "
+"кто-то другой, то... не очень хорошо\"."
 
 #: 55534
 msgid ""
@@ -1873,78 +2043,90 @@ msgid ""
 "Immortal. Cause/Effect Query: Amnesia produces immortality or immortality "
 "produces amnesia?\""
 msgstr ""
+"\"Обработка: амнезия. Обработка: не смерть/безуспешные попытки, - несколько "
+"секунд Нордом *жужжит*, глядя на тебя отсутствующим взглядом. - \"Заключение. "
+"Статус: бессмертие. Запрос причины/воздействия: амнезия вызвала бессмертие, "
+"или бессмертие вызвало амнезию?\""
 
 #: 55535
 msgid ""
 "\"I don't know... all I know is when I wake up from the 'dead' I lose all my "
 "memories. So I guess the immortality causes amnesia.\""
 msgstr ""
+"\"Не знаю... Все, что мне известно - когда я очнулся из мертвых, я уже ничего "
+"не помнил. Так что, предположу, что бессмертие породило амнезию\"."
 
 #: 55536 55570 55583 55588 55616 55628
-#, fuzzy
 msgid "\"Forget this, Nordom. I had some other questions for you...\""
-msgstr "\"Ясно. У меня есть другие вопросы для тебя...\""
+msgstr "\"Забудь об этом, Нордом. У меня есть другие вопросы к тебе...\""
 
 #: 55557
 msgid ""
 "\"Processing...\" Nordom grinds like a miller's wheel for a moment. \"New "
 "Query formulated: Every time you die you lose your memories?\""
 msgstr ""
+"\"Обработка... - Нордом скрипит словно мельничное колесо. - Сформулирован "
+"новый запрос: ты теряешь память каждый раз, когда умираешь?\""
 
 #: 55559
 msgid "\"Correct.\""
-msgstr ""
+msgstr "\"Все верно\"."
 
 #: 55561
 msgid "\"That's what Ravel said, anyway.\""
-msgstr ""
+msgstr "\"По крайней мере, так говорит Равель\"."
 
 #: 55564
 msgid ""
 "\"Yes... no, wait. That's not true. I didn't lose my memories last time.\""
 msgstr ""
+"\"Да... нет, постой. Это не так. В последний раз я память не потерял\"."
 
 #: 55566
 msgid ""
 "\"Yes... no, wait. That's not true. I didn't lose my memories last time. In "
 "fact, I haven't lost my memories since I woke up in the Mortuary.\""
 msgstr ""
+"\"Да... нет, постой. Это не так. В последний раз я память не потерял. И "
+"вообще, я не терял память с тех пор, как очнулся в Морге\"."
 
 #: 55576
 msgid ""
 "\"Response: Catalogued.\" Nordom gives a final *klik,* then stands silently, "
 "looking at you. "
 msgstr ""
+"\"Ответ: каталогизирован\". Нордом издает заключительный *щелчок*, после чего "
+"молча стоит, глядя на тебя."
 
 #: 55577
 msgid "\"...except that I didn't lose my memories last time I died.\""
-msgstr ""
+msgstr "\"Однако во время моей последней смерти я память не потерял\"."
 
 #: 55578
 msgid ""
 "\"...except that I didn't lose my memories last time I died. Or the time "
 "before that.\""
 msgstr ""
+"\"Однако во время моей последней смерти я память не потерял. Или до этого "
+"случая\"."
 
 #: 55579
-#, fuzzy
 msgid "\"I had some other questions for you, Nordom...\""
-msgstr "\"У меня есть другие вопросы для тебя, Морт\""
+msgstr "\"У меня есть вопросы к тебе, Нордом...\""
 
 #: 55580
-#, fuzzy
 msgid "\"All right, Nordom. Let's move on.\""
-msgstr "\"Я в порядке. Идем\"."
+msgstr "\"Ладно, Нордом. Идем\"."
 
 #: 55581
 msgid "\"Response: Conclusion: Immortality is not cause of amnesia.\""
-msgstr ""
+msgstr "\"Ответ. Заключение: бессмертие не является причиной амнезии\"."
 
 #: 55582
 msgid ""
 "\"Well, I don't know. It could have been chance that it didn't happen last "
 "time.\""
-msgstr ""
+msgstr "\"Ну, не знаю. Возможно, в последний раз мне просто повезло\"."
 
 #: 55585
 msgid ""
@@ -1952,14 +2134,17 @@ msgid ""
 "Amnesia/Immortality - Query: Additional Factors Present? Intervention/"
 "Presence of New Factors or Absence of Other Factors?\""
 msgstr ""
+"\"Элемент случайности в расчет не берется. Предложение: поиск нового образца. "
+"Амнезия/бессмертие - запрос: присутствуют дополнительные факторы? "
+"Вмешательство/наличие новых факторов или отсутствие других факторов?\""
 
 #: 55586
 msgid "\"What other factors could there be?\""
-msgstr ""
+msgstr "\"А какие другие факторы могут быть?\""
 
 #: 55597
 msgid "\"Unknown. Query: Additional Information?\""
-msgstr ""
+msgstr "\"Неизвестно. Запрос: дополнительная информация?\""
 
 #: 55599 55689
 msgid ""
@@ -1976,7 +2161,7 @@ msgstr ""
 msgid ""
 "\"One other thing: I wasn't always immortal... Ravel made me that way.\""
 msgstr ""
-"\"Еще одно: я не всегда был бессмертным... Это Равель сделала меня таким\"."
+"\"И еще одно: я не всегда был бессмертным... Это Равель сделала меня таким\"."
 
 #: 55604 55692
 msgid ""
@@ -1985,6 +2170,10 @@ msgid ""
 "where my mortality is. The Pillar of Skulls said there were only three... "
 "and one was me, but I forgot.\""
 msgstr ""
+"\"Количество людей, способных мне помочь найти мою смертность или знающих, "
+"где она, стремительно сокращается... Если так будет продолжаться и дальше, не "
+"останется никого, кто будет знать, где моя смертность. Колонна черепов "
+"сказала, что их было трое... и одним из них был я сам, но я все забыл\"."
 
 #: 55605 55694
 msgid ""
@@ -1995,16 +2184,16 @@ msgstr ""
 "смертность под замком\"."
 
 #: 55608 55697
-#, fuzzy
 msgid ""
 "\"I don't have any additional information yet, Nordom. I had some other "
 "questions for you...\""
-msgstr "\"Неважно. У меня есть другие вопросы к тебе...\""
+msgstr ""
+"\"У меня пока нет дополнительной информации, Нордом. У меня есть другие "
+"вопросы к тебе...\""
 
 #: 55610 55699
-#, fuzzy
 msgid "\"Scrap it, Nordom. Let's move on.\""
-msgstr "\"Я в порядке. Идем\"."
+msgstr "\"Не бери в голову, Нордом. Идем\"."
 
 #: 55612
 msgid ""
@@ -2012,6 +2201,9 @@ msgid ""
 "Nordom *tkkk-tkkk-tkkks* for a moment, then *chrrrups.* \"Query: Not "
 "Murderer?\""
 msgstr ""
+"\"Дополнительная информация: убийца. Бессмертие = невозможность быть убитым, "
+"- несколько секунд издает *тк-к-к-тк-к-к-тк-к-к*, после чего начинает "
+"*жужжать*. - Запрос: не убийца?\""
 
 #: 55613
 msgid "\"What do you mean?\""
@@ -2022,17 +2214,19 @@ msgid ""
 "\"Response: Immortality precludes murder from achieving success. Query: Not "
 "murderer?\""
 msgstr ""
+"\"Ответ: бессмертие не позволяет убийству достичь успеха. Запрос: не убийца?\""
 
 #: 55621
 msgid ""
 "\"Then what else could be gained from killing... trying to kill... me?\""
-msgstr ""
+msgstr "\"Тогда что еще можно получить от убийства... попытки убить... меня?\""
 
 #: 55625
 msgid ""
 "\"Are you saying the murderer is *not* trying to kill me? Then what's the "
 "point?\""
 msgstr ""
+"\"Ты хочешь сказать, что убийца *не* пытается убить меня? Тогда в чем смысл?\""
 
 #: 55631
 msgid ""
@@ -2040,10 +2234,13 @@ msgid ""
 "may not be a killer at all; he may just want me to keep forgetting. But "
 "forget what? "
 msgstr ""
+"Нордом сделал довольно странное предположение о моем \"убийце\" - он сказал, "
+"что этот убийца вовсе не является убийцей. Возможно, он просто хочет, чтобы я "
+"все забыл. Но что именно забыл?\""
 
 #: 55637
 msgid "\"Response: Immortality = Amnesia.\""
-msgstr ""
+msgstr "\"Ответ: бессмертие = амнезия\"."
 
 #: 55638
 msgid ""
@@ -2052,17 +2249,23 @@ msgid ""
 "ways to incapacitate me if the killer had wanted me out of the way... hmmm. "
 "But if the killer wants me to forget, *what* does he want me to forget?\""
 msgstr ""
+"\"Значит, кем бы этот убийца ни был, он пытается не убить меня, а заставить "
+"меня *забыть*? Хм-м-м. Возможно. Ведь могли быть *другие* способы "
+"расправиться со мной, если бы убийца хотел убрать меня с пути... хм-м-м. Но "
+"если убийца, хочет что бы я забыл, *что* я должен забыть?\""
 
 #: 55639
 msgid ""
 "\"Query: Formulating additional query... Null immortality in past, requested "
 "immortality from Subject: Ravel. Query: Why?\""
 msgstr ""
+"\"Запрос: формулирование дополнительного запроса... Не бессмертие в прошлом, "
+"бессмертие запрошено у субъекта Равель. Запрос: зачем?\""
 
 #: 55642
 msgid ""
 "\"I don't know, exactly... then again, who *doesn't* want to live forever?\""
-msgstr ""
+msgstr "\"Я точно не знаю... Да кто *не хочет* жить вечно?\""
 
 #: 55644
 msgid ""
@@ -2071,24 +2274,33 @@ msgid ""
 "kill me, but trying to make me *forget?*' Query: Murderer Goal = Null "
 "Murder, Murderer Goal = Forgetting = Location of Mortality?\""
 msgstr ""
+"\"Внимание. Цитата: 'Одним из них был я сам, но я все забыл' (местонахождение "
+"смертности). Внимание. Предыдущая цитата: 'Значит, кем бы этот убийца ни был, "
+"он пытается не убить меня, а заставить меня *забыть*?' Запрос: цель убийцы = "
+"не убийство, цель убийцы = забвение = местонахождение смертности?\""
 
 #: 55645
 msgid ""
 "\"So you think the location of my mortality is what the 'murderer' wanted me "
 "to forget? Why?\""
 msgstr ""
+"\"То есть ты считаешь, местонахождение моей смерти является тем "
+"воспоминанием, которое 'убийца' пытается заставить меня забыть? Для чего?\""
 
 #: 55647
 msgid ""
 "\"Attention/Hypothesis: Forgetting Location of Mortality = Value to "
 "'Murderer.'\""
 msgstr ""
+"\"Внимание/предположение: забвение местонахождения смертности = ценность для "
+"убийцы\"."
 
 #: 55648
 msgid ""
 "\"Hmmm. It's a possibility... but why would the knowledge of the *location* "
 "be important?\""
 msgstr ""
+"\"Хм-м-м. Очень может быть... Но почему знание *местонахождения* так важно?\""
 
 #: 55650
 msgid ""
@@ -2098,22 +2310,32 @@ msgid ""
 "know where my mortality is, and I used to be one of them, but I forgot. Is "
 "the location of my mortality what the murderer wanted me to forget? "
 msgstr ""
+"Нордом сделал еще одно предположение о моем \"убийце\" - он сказал, что этот "
+"убийца вовсе не является убийцей. Возможно, он просто хочет, чтобы я все "
+"забыл. Колонна черепов сказала, что очень мало людей знало о том, где "
+"находится моя смертность, и я был одним из них, но все забыл. Неужели "
+"забвение местонахождения моей смерти - это то, что хочет от меня мой убийца?"
 
 #: 55653
 msgid "\"Correction: NULL Location of Mortality = Value to 'Murderer.'\""
-msgstr ""
+msgstr "\"Поправка: не местонахождение смертности = ценность для убийцы\"."
 
 #: 55655
 msgid ""
 "\"Hmmm. It's a possibility... so someone wants no one to know where it is? "
 "Or this murderer doesn't want anyone to know where it is except him?\""
 msgstr ""
+"\"Хм-м-м. Очень может быть... Значит, кто-то хочет, чтобы никто не знал о ее "
+"нахождении? Или этот убийца не хочет, чтобы об этом не знал никто, кроме "
+"него?\""
 
 #: 55657
 msgid ""
 "\"Attention: Trias the - Betrayer - disposition: falsehood/Shield of Golden "
 "Lies. Information/Source: Trias, Information Accuracy: Questionable.\""
 msgstr ""
+"\"Внимание: Триас - Предатель - характер: вероломство/прикрывающийся золотой "
+"ложью. Информация/источник: Триас. Достоверность информации: под вопросом\"."
 
 #: 55660 55662
 msgid ""
@@ -2121,18 +2343,25 @@ msgid ""
 "it... you had to see his eyes. He was telling the truth... this time. Why is "
 "this keeper holding my mortality?\""
 msgstr ""
+"\"Не думаю, что он лжет, Нордом. Для него нет в этом никакой выгоды... и ты "
+"бы видел его глаза. Он сказал мне правду... в этот раз. Почему этот хранитель "
+"держит мою смертность у себя?\""
 
 #: 55664
 msgid ""
 "\"Supposition: Location of Mortality is something of value. Query: Mortality "
 "is of value?\""
 msgstr ""
+"\"Предположение: местоположение смерти имеет какую-то ценность. Запрос: "
+"смертность имеет ценность?\""
 
 #: 55666
 msgid ""
 "\"You know, Ravel said my mortality was precious... that it could be held "
 "for *ransom.* That I could be used as a puppet if someone had captured it.\""
 msgstr ""
+"\"А знаешь, Равель сказала, что моя смертность очень ценна... и что ее могут "
+"держать ради *выкупа*. Или держать в качестве марионетки\"."
 
 #: 55668
 msgid ""
@@ -2142,6 +2371,12 @@ msgid ""
 "would like be holding someone's sweet, succulent soul... a puppet dancing on "
 "someone's strings, would you be.\" Nordom *chrrrups.* \"Recall terminated.\""
 msgstr ""
+"\"Запрос: почему? Формулирование... Мотивации... - *жужжа*, Нордом вспоминает "
+"ответ Равель: Не стоит упоминать, что за ужасные вещи сможет сотворить с "
+"тобой "
+"тот, кто захватит твою смертность и будет требовать ВЫКУП. Это все равно что "
+"держать чью-то сладкую сочную душу... марионеткой, пляшущей под чью-то дудку, "
+"станешь ты\". Нордом снова *жужжит*. \"Воспоминание завершено\"."
 
 #: 55669
 msgid ""
@@ -2150,10 +2385,14 @@ msgid ""
 "ASKS for a ransom... and I haven't been used like a puppet... I don't think. "
 "So...\""
 msgstr ""
+"\"Ты прав - Равель сказала, что моя смертность очень ценна... И ее могут "
+"держать ради выкупа или ради того, чтобы управлять мной. Но выкуп "
+"подразумевает то, что кто-то будет ТРЕБОВАТЬ его... И я не чувствую себя "
+"марионеткой... вроде бы. Так что...\""
 
 #: 55673
 msgid "\"Hypothesis: Ransom - Query: Received ransom demand?\""
-msgstr ""
+msgstr "\"Предположение: выкуп. Запрос: требование выкупа получено?\""
 
 #: 55675
 msgid ""
@@ -2161,6 +2400,9 @@ msgid ""
 "my mortality - he doesn't seem to have been pulling my strings to get me to "
 "do anything... at least that I can tell. So...?\""
 msgstr ""
+"\"Да, ты прав, такого не было. И кем бы ни был этот хранитель, похоже, он не "
+"пытается дергать меня за веревочки... по крайней мере, я не могу этого "
+"сказать. Итак?..\""
 
 #: 55681
 msgid ""
@@ -2171,10 +2413,16 @@ msgid ""
 "Maybe he doesn't possess my mortality... or isn't willing to make use of it? "
 "There's too many questions, and not enough answers.  "
 msgstr ""
+"Я попытался понять, что же хочет убийца. И я постоянно натыкаюсь на одни и те "
+"же препятствия - единственное, что он, похоже, хочет - это то, чтобы я забыл, "
+"где находится моя смертность. Он потребовал от меня никакого выкупа и не "
+"использовал мою смертность для управления мной (по крайней мере, я об этом не "
+"знаю). Может быть, он и не владеет моей смертностью... или не хочет ею "
+"пользоваться? Слишком много вопросов и так мало ответов."
 
 #: 55683
 msgid "Nordom falls silent. He doesn't even blink."
-msgstr ""
+msgstr "Нордом умолкает. Он даже перестает моргать."
 
 #: 55685
 msgid ""
@@ -2185,18 +2433,24 @@ msgid ""
 "is. But... this keeper who holds my mortality, he either can't or is "
 "unwilling to make use of my mortality to control me. Why?\""
 msgstr ""
+"\"Так что... моя смертность упрятана в этой проклятой Крепости, и чем меньше "
+"людей знает о ее местонахождении, тем меньше вероятность, что ее когда-нибудь "
+"освободят. Кем бы ни был этот хранитель - даже если он и *есть* убийца - он "
+"вряд ли захочет освободить мою смертность... или, по крайней мере, позволить "
+"кому-либо знать о ней. Но... этот хранитель либо не может, либо не хочет "
+"использовать мою смертность для управления мной. Почему?\""
 
 #: 55687
 msgid "\"Affirmatory. Query: Additional Information?\""
-msgstr ""
+msgstr "\"Утвердительно. Запрос: дополнительная информация?\""
 
 #: 55975
 msgid "\"What are you doing with your crossbows?\""
-msgstr ""
+msgstr "\"Что ты делаешь со своими арбалетами?\""
 
 #: 56002
 msgid "Leave Nordom to his weapons."
-msgstr ""
+msgstr "Оставить Нордом наедине со своим оружием."
 
 #: 61673
 msgid ""
