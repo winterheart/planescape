@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2013-09-08 02:03+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2013-11-03 18:39+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.7\n"
 "Language: ru\n"
 
 #: 30 1773
@@ -148,11 +148,11 @@ msgstr ""
 
 #: 551
 msgid "\"Clock\""
-msgstr ""
+msgstr "\"Часы\""
 
 #: 575
 msgid "\"Dream Builder\""
-msgstr ""
+msgstr "\"Построитель снов\""
 
 #: 728
 msgid "Annah"
@@ -184,7 +184,7 @@ msgstr "А?"
 
 #: 1353 66811
 msgid "Tiefling Thug"
-msgstr ""
+msgstr "Тифлинг-головорез"
 
 #: 1400
 msgid "Front Gate"
@@ -233,7 +233,7 @@ msgstr "Тифлинг"
 
 #: 1768 1771
 msgid "Greater Shadow"
-msgstr ""
+msgstr "Большая Тень"
 
 #: 1798
 msgid ""
@@ -247,11 +247,11 @@ msgstr ""
 
 #: 1799
 msgid "Who are you? What are you doing on our territory?"
-msgstr ""
+msgstr "Кто ты? Что ты делаешь в этом месте?"
 
 #: 1806
 msgid "All right then. I'll come back later."
-msgstr ""
+msgstr "Ну ладно. Я вернусь попозже."
 
 #: 1807
 msgid "Back to the Buried Village."
@@ -259,7 +259,7 @@ msgstr "Назад в Похороненную деревню."
 
 #: 1808
 msgid "Doorway to Ragpicker's Square."
-msgstr ""
+msgstr "Проход на площадь Старьевщиков"
 
 #: 1899 19360
 msgid "NEW LIFE"
@@ -272,6 +272,9 @@ msgid ""
 "vultures, and they are often used as socuts for the tanar'ri forces in the "
 "Blood War. "
 msgstr ""
+"Изучение пера показывает, что оно принадлежало вроку, одной из многих рас "
+"танарри, которыми наполнена Бездна. Вроки напоминают огромных стервятников; "
+"они часто использовались как разведчики войск танарри в Кровавой войне."
 
 #: 1903
 msgid ""
@@ -415,45 +418,55 @@ msgid ""
 "Me Ojo. Me retarded pershun who talk to brain ratz in walls. Me no have full "
 "dialogue tree yet."
 msgstr ""
+"Я Охо. Я умственно-отсталый, болтающий с черепными крысками в стене. У меня "
+"пока нет всего диалога."
 
 #: 2828
 msgid ""
 "Me Ojo. Me stupid pershun in Buried Village who talk to brain ratz in wallz. "
 "Me no have finished dialogue tree yet."
 msgstr ""
+"Я Охо. Я умственно-отсталый из Погребенной деревни, болтающий с черепными "
+"крысками в стене. Мой диалог еще не готов."
 
 #: 2885
 msgid ""
 "I am a merchant. I'm not exactly sure WHERE I am in the game, but I'm sure "
 "I'll find out."
 msgstr ""
+"Я торговец. Я не уверен, ГДЕ я буду в игре, но уверен, что скоро выясню."
 
 #: 2886
 msgid "Can't wait to see your inventory, either. Later."
-msgstr ""
+msgstr "Не могу дождаться, чтобы увидеть твои товары. Пока."
 
 #: 2920
 msgid ""
 "Sounds great, but I don't think Dak'kon is even implemented yet. Farewell."
-msgstr ""
+msgstr "Звучит неплохо, но Даккон, кажется, еще даже не реализован. Пока."
 
 #: 2953
 msgid ""
 "I am a wererat, the speaker and emissary of the cranium rat collective known "
 "as Many-As-One."
 msgstr ""
+"Я крысооборотень, агент, говорящий от имени коллектива черепокрыс, "
+"известного под именем Многоединый."
 
 #: 2954
 msgid ""
 "Pleasure to meet you, lycanthrope. I'm sure we'll be crossing words and "
 "swords soon enough."
 msgstr ""
+"Рад встрече с тобой, крысооборотень. Уверен, что мы уже скоро скрестим наши "
+"мечи и слова."
 
 #: 2975
 msgid ""
 "Oh, uh... what's a rock gensai? You know what, forget it. I don't want to "
 "know."
 msgstr ""
+"Ого... Что за каменный генсаи? А знаешь что - забудь. Даже знать не хочу."
 
 #: 2990
 msgid ""
@@ -491,6 +504,13 @@ msgid ""
 "A generic small sword for models so armed (e.g., Upper Class Townie, Male) "
 "to be equipped with."
 msgstr ""
+"МАЛЫЙ МЕЧ\n"
+"Урон: 1-6\n"
+"Вес: 3\n"
+"Скорость: 3\n"
+"\n"
+"Типичный малый меч моделей, вооруженных им (к примеру, горожан из высшего "
+"сословия)."
 
 #: 3064
 msgid ""
@@ -505,23 +525,33 @@ msgid ""
 "ring's bands have dug into the lifeless finger itself and refuse to release "
 "it."
 msgstr ""
+"КОСТЯНОЙ ПАЛЕЦ\n"
+"Вес: 0\n"
+"\n"
+"Это полностью разложившийся, практически без плоти, костяной палец "
+"человекоподобного существа размером примерно с тебя. На пальце надето какое-"
+"то необычное кольцо. Это замысловатый предмет, украшенный десятками "
+"крошечных декоративных выступов и ободков. Оно, как ни странно, намертво "
+"приросло к пальцу, и теперь его не снимешь, сколько бы усилий не "
+"прилагалось... почти как если бы зубчатые кромки кольца впились в "
+"безжизненный палец и отказывались его отпускать."
 
 #: 3065
 msgid "This is a necklace of hollowed, pointed teeth."
-msgstr ""
+msgstr "Это ожерелье из вычищенных острых зубов."
 
 #: 3066 3744 17026
 msgid ""
 "\"This is one of Fell's studios, is it not? I have long wanted to meet him.\""
-msgstr ""
+msgstr "\"Это ведь одна из студий Фелла? Давно хотел с ним познакомиться\"."
 
 #: 3079
 msgid "You seem like a real loser. I can't wait to kill you."
-msgstr ""
+msgstr "Ты видишь настоящего неудачника. Жду не дождусь убить тебя."
 
 #: 3104 3144
 msgid "Moderate Threat Construct"
-msgstr ""
+msgstr "Концепция средней опасности"
 
 #: 3121
 msgid "Adahn"
@@ -529,17 +559,19 @@ msgstr "Адан"
 
 #: 3148
 msgid "Clerk"
-msgstr ""
+msgstr "Служащий"
 
 #: 3198
 msgid ""
 "I am one of the bodies hanging on Curst's gate. There are several of us for "
 "one dialogue. We tell you stuff that you don't want to hear."
 msgstr ""
+"Я - одно из тел, висящих на воротах Проклятого. У нас нескольких один "
+"диалог. Мы рассказываем тебе то, что ты не хочешь слышать."
 
 #: 3199
 msgid "I don't want to hear it."
-msgstr ""
+msgstr "Даже слышать не хочу."
 
 #: 3236
 msgid "Sensate"
@@ -551,7 +583,7 @@ msgstr "Алхимик"
 
 #: 3270
 msgid "Curator"
-msgstr ""
+msgstr "Наставник"
 
 #: 3280 37854
 msgid "Statue"
@@ -567,11 +599,11 @@ msgstr "Червь"
 
 #: 3339
 msgid "I am one of Mantuok's followers. Chitter-chitter."
-msgstr ""
+msgstr "Я один из последователей Мантуока. Пик-пик."
 
 #: 3340
 msgid "Chitter-chitter, indeed."
-msgstr ""
+msgstr "Ага, пик-пик."
 
 #: 3358
 msgid "Giant Skeleton"
@@ -591,7 +623,7 @@ msgstr "Нагрудник 4"
 
 #: 3411
 msgid "I said, Greetings."
-msgstr "Я сказал, 'приветствую'\"."
+msgstr "Я сказал, 'приветствую'."
 
 #: 3455
 msgid "Wait a minute. I need an embalming key. Do you have one?"
@@ -612,11 +644,12 @@ msgstr ""
 
 #: 3513
 msgid "A receipt stamped with a symbol of a sword radiating a sunburst. "
-msgstr ""
+msgstr "Квитанция со штампом в виде меча, излучающего солнечные лучи."
 
 #: 3522
 msgid "The Henkelmonster is a tall German creature with long. flowing hair."
 msgstr ""
+"Хенкельмонстр - высокое существо из Германии с длинными свисающими волосами."
 
 #: 3523
 msgid ""
@@ -626,6 +659,10 @@ msgid ""
 "heritage. Though they are generally paragons of virtue, one shouldn't trust "
 "them without reserve."
 msgstr ""
+"Аазимары, противоположность тифлингов, - это дети небожителей, обитателей "
+"Верхних планов, и смертных. Они несут в себе искру доброты, и все же "
+"некоторые из них идут наперекор своему наследию. Хотя обычно они - образцы "
+"добродетелей, им не следует просто так доверять."
 
 #: 3524
 msgid ""
@@ -635,6 +672,11 @@ msgid ""
 "hiding from mortal and immortal alike. He has knowledge and items that may "
 "prove useful."
 msgstr ""
+"Раздвоенный Язык - жертва Триаса, которого он называет \"Предателем\". Он "
+"подписал с дэва контракт, который обязует его заниматься "
+"благотворительностью до смерти Триаса. Он живет в костях Уль-Гориса во "
+"Внешних землях, прячась там от смертных и бессмертных. Он обладает знаниями "
+"и предметами, которые могут оказаться полезными."
 
 #: 3525
 msgid ""
@@ -763,6 +805,9 @@ msgid ""
 "are following your movements. The skull seems to be trying to get your "
 "attention."
 msgstr ""
+"В отличие от других черепов в этой комнате, этот, похоже, живой и осознает "
+"окружающее. Глаза у этого черепа все еще свежи и влажны, и они следуют за "
+"твоими движениями. Кажется, череп пытается привлечь твое внимание."
 
 #: 3532
 msgid ""
@@ -780,6 +825,18 @@ msgid ""
 "Skeletons suffer less damage from any slashing or piercing weapons. Crushing "
 "weapons, such as clubs and hammers, inflict normal damage."
 msgstr ""
+"Эти скелеты сделаны из костей гигантов. С помощю некромантии в них вдохнули "
+"подобие жизни. Хотя на них нет мускулов и жил, их суставы скреплены "
+"железными болтами, а кости усилены кожаными полосками и шнурами, надетыми "
+"под броней. Размеры этих скелетов дают неверное представление об их огромной "
+"скорости и мастерстве владения огромными мечами.\n"
+"\n"
+"Архаичная броня и оружие этих скелетов, похожде, не пострадали от времени, и "
+"их клинки остры как бритвы. Возможно, их броню каждый день чистит кто-то из "
+"рабочих Морга.\n"
+"\n"
+"Рубящее и колющее оружие наносит скелетам меньший урон. Дробящее оружие, "
+"вроде булав и молотов, наносит обычный урон."
 
 #: 3533
 msgid ""
@@ -845,7 +902,6 @@ msgid "Zombie Female Damage 2"
 msgstr "Zombie Female Damage 2"
 
 #: 3582
-#, fuzzy
 msgid ""
 "Fell is a fallen dabus, a former servant of the Lady of Pain and one of the "
 "few remaining priests of the dead god of portals, Aoskar. He has achieved "
@@ -854,7 +910,10 @@ msgid ""
 "them on your skin, and allow you to draw strength from them."
 msgstr ""
 "Фелл - павший дабус, бывший слуга Леди Боли и один из оставшихся в живых "
-"жрецов мертвого бога порталов, Аоскара."
+"жрецов мертвого бога порталов, Аоскара. Он получил некоторую известность как "
+"мастер татуировок, каким-то образом вдыхающий жизнь в свои картины. Просто "
+"вернись в Феллу с рассказами о своих подвигах, и он сможет изобразить их на "
+"твоей коже, что позволит тебе черпать из них силу."
 
 #: 3583
 msgid ""
@@ -863,6 +922,10 @@ msgid ""
 "tempt a man of any species, any age. She is the proprietress of the Brothel "
 "for Slaking Intellectual Lusts."
 msgstr ""
+"Падшая Грация - суккуб, одна из танарри, существ, буквально созданных из "
+"чистого хаоса и зла. Ее тело и разум - прекрасный образец для соблазна "
+"мужчин всех видов и возрастов. Она - владелица Борделя утоления "
+"интеллектуальных страстей."
 
 #: 3584
 msgid ""
@@ -1237,7 +1300,7 @@ msgstr ""
 
 #: 3625
 msgid "Iron Golem's Description."
-msgstr ""
+msgstr "Описание Железного Голема."
 
 #: 3626
 msgid ""
@@ -1332,7 +1395,7 @@ msgstr ""
 
 #: 3635
 msgid "Transcendent One Description."
-msgstr ""
+msgstr "Описание Запредельного."
 
 #: 3636
 msgid ""
@@ -8596,8 +8659,8 @@ msgid ""
 msgstr ""
 "Он смотрит на тебя еще несколько секунд, потом его руки начинают бешено "
 "трястись. Он раскрывает рот, чтобы что-то сказать, но слова застревают в "
-"глотке. Выпучив глаза от удивления, он хватается за сердце и "
-"беззвучно оседает на землю."
+"глотке. Выпучив глаза от удивления, он хватается за сердце и беззвучно "
+"оседает на землю."
 
 #: 37808
 msgid "Sensory Stone"
@@ -9542,8 +9605,8 @@ msgid ""
 "about his sister being a foul whore, and he went mad and attacked me."
 msgstr ""
 "Я нашел сестру Нодда, Амариссу, и сообщил ему, где она находится. Однако я "
-"солгал ему, сказав что его сестра - грязная шлюха, отчего он сорвался и напал "
-"на меня."
+"солгал ему, сказав что его сестра - грязная шлюха, отчего он сорвался и "
+"напал на меня."
 
 #: 44294
 msgid "Find and return Uhir's 'lucky knife.'"
@@ -9556,8 +9619,8 @@ msgid ""
 "happen across it I just might bring it back to him."
 msgstr ""
 "Сборщик по имени Юхир сказал, что потерял свой \"счастливый нож\" внизу, в "
-"катакомбах по Сигилом: он всадил его в "
-"глаз упырю и убежал. Если он мне попадется, я мог бы вернуть его Юхиру."
+"катакомбах по Сигилом: он всадил его в глаз упырю и убежал. Если он мне "
+"попадется, я мог бы вернуть его Юхиру."
 
 #: 44296
 msgid "I found and returned Uhir's 'lucky knife.'"
@@ -10244,9 +10307,10 @@ msgid ""
 "this for Marquez; in return, he'll give me the first part of the key I need "
 "to get to where the imprisoned deva is."
 msgstr ""
-"Я согласился найти работорговцев за городскими бараками, спасти дочь Гниющего "
-"Копчика и убить их по поручению Маркеса. В обмен он даст мне первую часть "
-"ключа, который мне понадобится для того, чтобы попасть к заключенному дэва."
+"Я согласился найти работорговцев за городскими бараками, спасти дочь "
+"Гниющего Копчика и убить их по поручению Маркеса. В обмен он даст мне первую "
+"часть ключа, который мне понадобится для того, чтобы попасть к заключенному "
+"дэва."
 
 #: 49155
 msgid ""
@@ -14237,8 +14301,7 @@ msgid ""
 "Durian at the Great Foundry, in exchange for one hundred coins."
 msgstr ""
 "Аукционист Гилтспур попросил меня доставить послание Кельдору Дурианскому из "
-"Великой Литейной в "
-"обмен на сотню монет."
+"Великой Литейной в обмен на сотню монет."
 
 #: 67295
 msgid "A location vital to your quest has been cut off to you."
@@ -14258,13 +14321,14 @@ msgid ""
 "if common Hivers don't seem to have anything of value, I could always stop "
 "by a shop and pick and choose from the inventory... "
 msgstr ""
-"Анна рассказала мне кое-что о карманном воровстве. Она сказала, что некоторых "
-"людей обокрасть сложнее, чем других. Обычные жители города - это одно дело, а "
-"вот воровство у торговцев или стражников - совершенно другое. Анна сказала, "
-"что обчистить карманы у кучи народа, может набраться кругленькая сумма. Еще "
-"она сказала, что также можно воровать и в магазинах, так что, если у обычных "
-"жителей Улья не найдется ничего ценного, всегда можно заглянуть в "
-"какой-нибудь магазинчик выбрать что-нибудь подходящее из товаров..."
+"Анна рассказала мне кое-что о карманном воровстве. Она сказала, что "
+"некоторых людей обокрасть сложнее, чем других. Обычные жители города - это "
+"одно дело, а вот воровство у торговцев или стражников - совершенно другое. "
+"Анна сказала, что обчистить карманы у кучи народа, может набраться "
+"кругленькая сумма. Еще она сказала, что также можно воровать и в магазинах, "
+"так что, если у обычных жителей Улья не найдется ничего ценного, всегда "
+"можно заглянуть в какой-нибудь магазинчик выбрать что-нибудь подходящее из "
+"товаров..."
 
 #: 67792
 msgid "Back to the Dead Nations."
