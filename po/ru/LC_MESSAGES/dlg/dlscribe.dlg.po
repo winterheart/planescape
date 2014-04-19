@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: dlscribe.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-04-19 23:19+0600\n"
+"PO-Revision-Date: 2014-02-19 20:39+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Lokalize 1.5\n"
+"Language: ru\n"
 
 #: 51723
 msgid ""
@@ -19,27 +20,30 @@ msgid ""
 "moment, I thought you one of my employer's men when you walked in. Was I "
 "ever relieved to see you were not!\""
 msgstr ""
+"Мужчина, застенчиво улыбаясь, кивает тебе. \"Когда ты подходил, на мгновение "
+"я подумал, что ты один из людей моего работодателя. Какое же облегчение, что "
+"это не так!\""
 
 #: 51724
 msgid "\"Why? Why are you here?\""
-msgstr ""
+msgstr "\"Почему? Почему ты здесь находишься?\""
 
 #: 51725
 msgid "\"That's good. Farewell.\""
-msgstr ""
+msgstr "\"Это хорошо. Прощай\"."
 
 #: 51726
 msgid "The man nods guiltily. \"Yes, yes, I am still here.\" He shrugs."
 msgstr ""
+"Мужчина виновато кивает. \"Да-да, я все еще здесь\", - пожимает он плечами."
 
 #: 51727
-#, fuzzy
 msgid "\"Why?\""
-msgstr "\"Почему я?\""
+msgstr "\"Почему?\""
 
 #: 51728
 msgid "\"Yes, I noticed that. Farewell.\""
-msgstr ""
+msgstr "\"Да, я это заметил. Прощай\"."
 
 #: 51729
 msgid ""
@@ -49,7 +53,12 @@ msgid ""
 "intend to lounge about for a bit longer before returning to my cramped "
 "little desk.\""
 msgstr ""
+"\"Я больше не мог работать в седьмом зале записей, так что я улизнул. Но если "
+"бы я просто пошел домой, мой работодатель послал бы ко мне посыльного, "
+"этого... этого деспота! Поэтому я решил спрятаться здесь и побездельничать "
+"еще немного перед тем, как вернутся за свой тесный столик\"."
 
 #: 51730
 msgid "\"Farewell, then.\""
 msgstr "\"Тогда прощай\". "
+
