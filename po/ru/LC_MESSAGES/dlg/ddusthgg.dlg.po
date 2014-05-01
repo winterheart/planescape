@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ddusthgg.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2009-06-28 20:56+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2014-04-29 23:24+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: 66588
 msgid ""
@@ -19,9 +19,9 @@ msgid ""
 "to someone named 'Emoric' at the Gathering Dust Bar, a bar to the south and "
 "to the west of the Mortuary Front Gate. "
 msgstr ""
-"Один из тленных сказал мне, что если я разыскиваю Фарода, то мне следует "
-"поговорить с некоим \"Эмориком\" в Баре собирателей пыли, заведении к юго-"
-"западу от Главных ворот Морга. "
+"Один из тленных сказал мне, что если я разыскиваю Фарода, мне следует "
+"поговорить с неким Эмориком в Баре собирателей пыли, который находится к юго-"
+"западу от главных ворот Морга. "
 
 #: 66596
 msgid ""
@@ -29,13 +29,13 @@ msgid ""
 "staring off across the city rooftops with a distant expression. As you "
 "approach, he turns to face you. \"Yes?\""
 msgstr ""
-"Ты видишь тленного с бледным лицом, охраняющего главные ворота; он смотрит "
-"вдаль поверх крыш домов города. При твоем приближении он поворачивает лицо к "
+"Перед тобой тленный с бледным лицом, охраняющий главные ворота; он смотрит "
+"вдаль поверх крыш домов города. При твоем приближении он поворачивается к "
 "тебе. \"Да?\""
 
 #: 66597
 msgid "\"I had some questions...\""
-msgstr "\"У меня есть некоторые вопросы...\" "
+msgstr "\"У меня есть пара вопросов...\" "
 
 #: 66598
 msgid "\"Nothing, never mind. Farewell.\""
@@ -51,7 +51,7 @@ msgstr "\"Я хотел бы войти в Морг\"."
 
 #: 66601
 msgid "\"I am a Dustman Initiate; I'd like to enter the Mortuary.\""
-msgstr "\"Я - Посвященный тленный; я хотел бы попасть в Морг\"."
+msgstr "\"Я посвященный тленный; я хотел бы попасть в Морг\"."
 
 #: 66602
 msgid ""
@@ -61,7 +61,7 @@ msgstr "\"Я ищу кое-кого по имени Фарод. Ты не зна
 
 #: 66603
 msgid "\"I'm looking for a lost journal. Have you seen one?\""
-msgstr "\"Я ищу потерявшийся дневник. Тебе такой не попадался?\""
+msgstr "\"Я ищу потерявшийся дневник. Тебе он не попадался?\""
 
 #: 66604
 msgid "\"Never mind. I will take my leave. Farewell.\""
@@ -76,8 +76,8 @@ msgid ""
 "\"I am here to pay my respects to Deionarra, the woman in the northwest "
 "memorial hall.\""
 msgstr ""
-"\"Мне нужно проститься с Дейонаррой, женщиной в северо-западном мемориальном "
-"зале\"."
+"\"Мне нужно навестить Дейонарру, женщину в северо-западном мемориальном зале"
+"\"."
 
 #: 66607
 msgid "\"I am here to see Dhall.\""
@@ -88,8 +88,8 @@ msgid ""
 "\"I am here for a wake; I was hoping one of the Dustmen inside might know "
 "where in the Mortuary it is being held.\""
 msgstr ""
-"\"Я здесь чтобы справить поминки; я думал, что один из тленных внутри может "
-"знать, где в Морге они проводятся\"."
+"\"Я здесь, чтобы справить поминки; я надеялся, что один из тленных внутри "
+"может знать, где в Морге они проводятся\"."
 
 #: 66609
 msgid "\"I don't have any business, I just need to get inside.\""
@@ -97,7 +97,7 @@ msgstr "\"У меня нет никаких дел, мне просто нужн
 
 #: 66610
 msgid "\"Actually, I just had some questions...\""
-msgstr "\"Вообще-то, у меня просто несколько вопросов...\""
+msgstr "\"На самом деле, у меня есть пара вопросов...\""
 
 #: 66611
 msgid "\"Never mind. I will take my leave.\""
@@ -129,9 +129,9 @@ msgid ""
 "wish to know more of him, I am told that Initiate Emoric in the Gathering "
 "Dust Bar also seeks him. It may be that he can help you.\""
 msgstr ""
-"\"Фарод - это сборщик\". На мгновение мужчина тебя изучает. \"Если хочешь "
-"знать о нем больше, то Посвященный Эморик из Бара Собирателей Пыли тоже ищет "
-"его. Возможно, он поможет тебе\"."
+"\"Фарод - сборщик, - мгновение мужчина тебя рассматривает. - Если хочешь "
+"знать о нем больше, то посвященный Эморик из Бара собирателей пыли тоже его "
+"ищет. Возможно, он сможет тебе помочь\"."
 
 #: 66618
 msgid "\"Where is the Gathering Dust bar?\""
@@ -142,31 +142,32 @@ msgid ""
 "\"I'm familiar with the bar you speak of. Before heading there, I had some "
 "other questions for you...\""
 msgstr ""
-"\"Мне знаком тот бар, о котором ты говоришь. Перед тем, как я пойду туда, я "
-"хотел бы задать другие вопросы...\""
+"\"Мне знаком бар, о котором ты говоришь. Перед тем как я пойду туда, я хотел "
+"бы задать другие вопросы...\""
 
 #: 66620
 msgid ""
 "\"The Gathering Dust Bar? That's to the southwest of here, right? I'll head "
 "there, then.\""
 msgstr ""
-"\"Бар собирателей пыли? Он на юго-западе отсюда, верно? Тогда я схожу туда\"."
+"\"Бар собирателей пыли? Он на юго-западе отсюда, верно? Тогда я туда схожу\"."
 
 #: 66621
 msgid ""
 "\"As one leaves the Mortuary Front Gate, head south and west. It lies past "
 "the memorial.\""
 msgstr ""
-"\"Как только выйдешь из Главных ворот Морга, сразу поверни на юго-запад. Он "
+"\"Как только выйдешь из главных ворот Морга, сразу поверни на юго-запад. Он "
 "расположен за мемориалом\"."
 
 #: 66622
 msgid "\"All right. I had some other questions before I go...\""
-msgstr "\"Отлично. Перед тем, как уйти, я хотел бы задать другие вопросы...\""
+msgstr ""
+"\"Отлично. Перед тем как уйти, я хотел бы задать еще пару вопросов...\""
 
 #: 66623
 msgid "\"Very well. I will seek it out, then.\""
-msgstr "\"Очень хорошо. Тогда пойду его искать\"."
+msgstr "\"Хорошо. Тогда пойду его искать\"."
 
 #: 66624
 msgid "He shakes his head. \"No.\""
