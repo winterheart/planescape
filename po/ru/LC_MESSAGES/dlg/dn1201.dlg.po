@@ -3,18 +3,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-01-23 00:31+0500\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2014-05-10 15:22+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Poedit-Language: Russian\n"
-"X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Poedit 1.6.5\n"
+"Language: ru_RU\n"
 
 #: 44993
 msgid ""
@@ -24,27 +23,26 @@ msgid ""
 "corner - one mark on the upper right, two marks on the lower right, three "
 "marks on the lower left, and no marks on the upper left. "
 msgstr ""
-"На этой воняющей записке изображена странная диаграмма, описываемая строками "
-"ниже. Похоже на инструкцию, которая описывает порядок сгибания углов записки "
-"к центру. На каждом из углов есть также серия странных отметок - одна "
-"отметка на верхнем правом, две - на нижнем правом, три - на нижнем левом и "
-"ни одной на верхнем левом."
+"На этой вонючей записке под текстом изображена странная диаграмма. Кажется, "
+"она указывает, что тебе следует загнуть уголки записки к центру. На каждом "
+"из уголков есть ряд странных отметок: одна отметка в верхнем правом, две - в "
+"нижнем правом, три - в нижнем левом и ни одной в верхнем левом."
 
 #: 44994 45000
 msgid "Fold the upper right into the center. "
-msgstr "Согнуть верхний правый угол к центру. "
+msgstr "Загнуть верхний правый уголок. "
 
 #: 44995 45001 45002
 msgid "Fold the lower right into the center. "
-msgstr "Согнуть нижний правый угол к центру. "
+msgstr "Загнуть нижний правый уголок. "
 
 #: 44996 45003
 msgid "Fold the lower left into the center. "
-msgstr "Согнуть нижний левый угол к центру. "
+msgstr "Загнуть нижний левый уголок. "
 
 #: 44997 45004 45005
 msgid "Fold the upper left into the center. "
-msgstr "Согнуть верхний левый угол к центру. "
+msgstr "Загнуть верхний левый уголок. "
 
 #: 44998
 msgid "Leave the note alone. "
@@ -52,40 +50,39 @@ msgstr "Оставить записку в покое. "
 
 #: 44999
 msgid "You fold the corner inwards so its point touches the center. "
-msgstr "Ты сгибаешь угол внутрь так, что теперь он касается центра. "
+msgstr "Ты загибаешь уголок таким образом, чтобы он касался центра. "
 
 #: 45006
 msgid "Unfold the note, start again."
-msgstr "Разогнуть записку, начать сначала."
+msgstr "Разложить записку, начать заново."
 
 #: 45008 45018
 msgid "Unfold the note and leave it alone. "
-msgstr "Разогнуть записку, оставить ее в покое."
+msgstr "Разложить записку, оставить ее в покое."
 
 #: 45015
 msgid ""
 "As you fold the upper left inward to the center, you watch as the upper "
 "right unfolds by itself, resuming its normal position. "
 msgstr ""
-"Как только ты сгибаешь верхний левый угол к центру, ты видишь, что верхний "
-"правый угол разгибается сам по себе, возвращаясь в прежнее положение. "
+"Как только ты загибаешь верхний левый уголок, ты видишь, что верхний правый "
+"уголок разгибается сам по себе, возвращаясь в прежнее положение. "
 
 #: 45016
 msgid "Fold the upper right back into the center. "
-msgstr "Снова согнуть правый верхний угол к центру. "
+msgstr "Снова загнуть правый верхний уголок. "
 
 #: 45017
 msgid "Fold the lower left corner inwards. "
-msgstr "Согнуть нижний правый угол к центру. "
+msgstr "Загнуть нижний правый уголок. "
 
 #: 45019
 msgid ""
 "As you fold the lower left corner inwards, it stays for a moment, then the "
 "other two corners unfold outwards. Nothing happens. "
 msgstr ""
-"Как только ты сгибаешь нижний левый угол внутрь, на мгновенье он остается в "
-"таком положении, но затем другие углы разгибаются наружу Ничего не "
-"происходит. "
+"Как только ты загибаешь нижний левый уголок, на мгновение он остается в "
+"таком положении, но затем другие уголки разгибаются. Ничего не происходит. "
 
 #: 45020
 msgid "Examine the note again."
@@ -102,14 +99,14 @@ msgid ""
 "a moment, and the corners of the paper raise up, turning the note into a "
 "small four-sided paper pyramid. "
 msgstr ""
-"Как только ты снова сгибаешь верхний правый угол к центру, нижний левый угол "
-"повторяет действие, пока все углы не стали касаться центра. Через мгновение "
-"углы бумаги поднимаются, превращая записку в небольшую четырехугольную "
-"бумажную пирамидку. "
+"Как только ты снова загибаешь верхний правый уголок, нижний левый уголок "
+"повторяет то же действие. Теперь все уголки касаются центра. Какое-то время "
+"ты наблюдаешь за тем, как уголки бумаги поднимаются, превращая записку в "
+"небольшую четырехугольную бумажную пирамидку. "
 
 #: 45023
 msgid "Open the sides of the pyramid. "
-msgstr "Раскрыть стороны пирамидки. "
+msgstr "Разогнуть пирамидку. "
 
 #: 45024
 msgid ""
@@ -117,7 +114,7 @@ msgid ""
 "Inside is a small triangle-shaped earring. It catches the light and gleams "
 "brightly. "
 msgstr ""
-"Ты разгибаешь стороны пирамидки, и бумага превращается в пыль. Внутри "
+"Ты отгибаешь стороны пирамидки, и бумага превращается в пыль. Внутри "
 "находится треугольная серьга. Она блестит и играет на свету. "
 
 #: 45025
