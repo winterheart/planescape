@@ -5228,7 +5228,7 @@ msgid "Receiving Room. "
 msgstr ""
 
 #: 32837
-msgid "Embalming Room."
+msgid "Northeast Preparation Room. "
 msgstr ""
 
 #: 32839
@@ -9384,14 +9384,6 @@ msgstr ""
 msgid "Level"
 msgstr ""
 
-#: 48157
-msgid "Subject now conversing with human female."
-msgstr ""
-
-#: 48158
-msgid "Subject now playing a game with human female."
-msgstr ""
-
 #: 48216
 msgid ""
 "Store Item Script\n"
@@ -10056,42 +10048,24 @@ msgstr ""
 msgid "Global(\"Specialist\", \"GLOBAL\", 5)"
 msgstr ""
 
-#: 51355 51396
-msgid "!Global(\"Specialist\",\"GLOBAL\",0)\n"
-"!Global(\"Specialist\",\"GLOBAL\",1)\n"
-"!Global(\"Specialist\",\"GLOBAL\",3)\n"
-"!Global(\"Specialist\",\"GLOBAL\",4)\n"
-"!Global(\"Specialist\",\"GLOBAL\",6)\n"
-"!Global(\"Specialist\",\"GLOBAL\",7)\n"
-"!Global(\"Specialist\",\"GLOBAL\",9)"
+#: 51355
+msgid "Global(\"Specialist\", \"GLOBAL\", 2)"
 msgstr ""
 
 #: 51356
 msgid "Global(\"Specialist\", \"GLOBAL\", 6)"
 msgstr ""
 
-#: 51357 51395
-msgid "!Global(\"Specialist\",\"GLOBAL\",0)\n"
-"!Global(\"Specialist\",\"GLOBAL\",1)\n"
-"!Global(\"Specialist\",\"GLOBAL\",2)\n"
-"!Global(\"Specialist\",\"GLOBAL\",4)\n"
-"!Global(\"Specialist\",\"GLOBAL\",5)\n"
-"!Global(\"Specialist\",\"GLOBAL\",7)\n"
-"!Global(\"Specialist\",\"GLOBAL\",8)"
+#: 51357
+msgid "Global(\"Specialist\", \"GLOBAL\", 3)"
 msgstr ""
 
 #: 51358
 msgid "Global(\"Specialist\", \"GLOBAL\", 4)"
 msgstr ""
 
-#: 51359 51402
-msgid "!Global(\"Specialist\",\"GLOBAL\",0)\n"
-"!Global(\"Specialist\",\"GLOBAL\",2)\n"
-"!Global(\"Specialist\",\"GLOBAL\",3)\n"
-"!Global(\"Specialist\",\"GLOBAL\",5)\n"
-"!Global(\"Specialist\",\"GLOBAL\",6)\n"
-"!Global(\"Specialist\",\"GLOBAL\",8)\n"
-"!Global(\"Specialist\",\"GLOBAL\",9)"
+#: 51359
+msgid "Global(\"Specialist\", \"GLOBAL\", 1)"
 msgstr ""
 
 #: 51360
@@ -10230,7 +10204,7 @@ msgid "Global(\"Trist_Quest\", \"GLOBAL\", 4)"
 msgstr ""
 
 #: 51389
-msgid "GlobalGT(\"Karina_Friend\",\"GLOBAL\",2)"
+msgid "Global(\"Karina_Friend\", \"GLOBAL\", 3)"
 msgstr ""
 
 #: 51393
@@ -10243,6 +10217,18 @@ msgstr ""
 msgid ""
 "Class(Myself, MAGE)\n"
 "Global(\"Specialist\", \"GLOBAL\", 6)"
+msgstr ""
+
+#: 51395
+msgid ""
+"Class(Myself, MAGE)\n"
+"Global(\"Specialist\", \"GLOBAL\", 3)"
+msgstr ""
+
+#: 51396
+msgid ""
+"Class(Myself, THIEF)\n"
+"Global(\"Specialist\", \"GLOBAL\", 2)"
 msgstr ""
 
 #: 51397
@@ -10267,6 +10253,12 @@ msgstr ""
 
 #: 51401
 msgid "InParty(\"Grace\")"
+msgstr ""
+
+#: 51402
+msgid ""
+"Class(Myself, FIGHTER)\n"
+"Global(\"Specialist\", \"GLOBAL\", 1)"
 msgstr ""
 
 #: 51403
@@ -13596,396 +13588,4 @@ msgstr ""
 
 #: 68506
 msgid "\"I... think I do. Farewell, Nemelle.\""
-msgstr ""
-
-#: 106497
-msgid ""
-"The woman nods and runs away hurriedly.  You don't expect to see her again."
-msgstr ""
-
-#: 106498
-msgid ""
-"This is a placeholder to prevent a string with a sound file from becoming "
-"strref 106498, which causes problems."
-msgstr ""
-
-#: 106499
-msgid "\"So what are you, Morte? You've never said.\""
-msgstr ""
-
-#: 106500
-msgid "Infiltrate the Dustmen for the Anarchists: \"Yes.\""
-msgstr ""
-
-#: 106501
-msgid ""
-"Infiltrate the Sensates for the Anarchists: \"I'm ready. I want to become a "
-"Sensate.\""
-msgstr ""
-
-#: 106502
-msgid ""
-"Infiltrate the Sensates for the Anarchists: \"I'm ready to join the Society "
-"of Sensation. I feel no more loyalty towards the Godsmen.\""
-msgstr ""
-
-#: 106503
-msgid ""
-"Infiltrate the Sensates for the Anarchists: \"I'm ready to join the Society "
-"of Sensation. I feel no more loyalty towards the Dustmen.\""
-msgstr ""
-
-#: 106504
-msgid ""
-"Infiltrate the Sensates for the Anarchists: \"I'm ready to join the Society "
-"of Sensation. I feel no more loyalty towards the Xaositects.\""
-msgstr ""
-
-#: 106505
-msgid ""
-"Infiltrate the Chaosmen for the Anarchists: \"So, what's the next step?\""
-msgstr ""
-
-#: 106506
-msgid ""
-"Infiltrate the Chaosmen for the Anarchists: \"Join ready the Xaositects am "
-"I. Loyalty none faction old I have Godsmen.\""
-msgstr ""
-
-#: 106507
-msgid ""
-"Infiltrate the Chaosmen for the Anarchists: \"Join ready the Xaositects am "
-"I. Loyalty none faction old I have Dustmen.\""
-msgstr ""
-
-#: 106508
-msgid ""
-"Infiltrate the Chaosmen for the Anarchists: \"Join ready the Xaositects am "
-"I. Loyalty none faction old I have Sensates.\""
-msgstr ""
-
-#: 106509
-msgid ""
-"Infiltrate the Dustmen for the Anarchists: \"If that is what must be, that "
-"is what must be. My mind must be true to itself, not to another. As of this "
-"moment, I forsake the beliefs of the Godsmen.\""
-msgstr ""
-
-#: 106510
-msgid ""
-"Infiltrate the Dustmen for the Anarchists: \"If that is what must be, that "
-"is what must be. My mind must be true to itself, not to another. As of this "
-"moment, I forsake the... uh, 'beliefs' of the Chaosmen.\""
-msgstr ""
-
-#: 106511
-msgid ""
-"Infiltrate the Dustmen for the Anarchists: \"If that is what must be, that "
-"is what must be. My mind must be true to itself, not to another. As of this "
-"moment, I forsake the beliefs of the Sensates.\""
-msgstr ""
-
-#: 106512
-msgid "\"Damnit, Vhailor, do you realize what you've done?!\""
-msgstr ""
-
-#: 106513
-msgid ""
-"Vhailor turns from Trias's corpse to face you squarely. *You are MERCIFUL "
-"and WEAK. STEEL your HEART before the disease SPREADS.*"
-msgstr ""
-
-#: 106514
-msgid "ARE THEY DEAD? YES. UNLIKE YOU THEY HAVE BUT ONE LIFE."
-msgstr ""
-
-#: 106515
-msgid "THEY WASTED IT FOR YOUR SAKE."
-msgstr ""
-
-#: 106516
-msgid "I WILL TAKE YOUR MEASURE SHORTLY."
-msgstr ""
-
-#: 106517
-msgid ""
-"NO. THAT IS NO LONGER POSSIBLE. I HAVE ENDED THE LIVES OF ALL THAT HAVE "
-"GUIDED YOU TO THIS PLACE. THE NIGHT HAG THAT CURSED US. THE ANGEL THAT "
-"SHIELDS ITSELF WITH GOLDEN LIES. SOON THE FIEND THAT AIDED YOU WILL DIE AS "
-"WELL. YOU LED ME TO ALL OF THEM. YOU HAVE ALLOWED ME TO HIDE MY PRESENCE "
-"FOREVER."
-msgstr ""
-
-#: 106518
-msgid ""
-"NO. THAT IS NO LONGER POSSIBLE. I HAVE ENDED THE LIVES OF ALL THAT HAVE "
-"GUIDED YOU TO THIS PLACE. YOU LED ME TO ALL OF THEM. YOU HAVE ALLOWED ME TO "
-"HIDE MY PRESENCE FOREVER."
-msgstr ""
-
-#: 106519
-msgid ""
-"NO. THAT IS NO LONGER POSSIBLE. YOU LED ME TO ALL THAT HAVE GUIDED YOU TO "
-"THIS PLACE. I WILL END THEIR LIVES. YOU HAVE ALLOWED ME TO HIDE MY PRESENCE "
-"FOREVER."
-msgstr ""
-
-#: 106520
-msgid ""
-"THERE IS NO ONE LEFT IN ALL OF EXISTENCE WHO CAN TELL YOU HOW TO REACH ME. "
-"THIS SHALL BE THE LAST TIME YOU TRESPASS IN THESE HALLS."
-msgstr ""
-
-#: 106521
-msgid "THE HALLS OF THIS FORTRESS SHALL BE SILENT AGAIN."
-msgstr ""
-
-#: 106522
-msgid "YOU WILL TROUBLE ME NO MORE."
-msgstr ""
-
-#: 106523
-msgid ""
-"\"I had thought that dying at his hand would fulfill the requirements the "
-"past put forth.\""
-msgstr ""
-
-#: 106524
-msgid ""
-"\"Powerful, this incarnation is. And kill me he could have, but for a few "
-"tricks I possess. Fortunate was I.\""
-msgstr ""
-
-#: 106525
-msgid ""
-"\"I am NOT afraid, not of the likes of you, ragged thing. Weak Ravel may be, "
-"but a few tricks has Ravel learned over the years, and I have KNOWN that you "
-"would come.\""
-msgstr ""
-
-#: 106526
-msgid ""
-"YOU CANNOT HAVE THOUGHT THAT ONE WOULD HAVE A CHANCE. YOU WERE INDULGENT TO "
-"LET HIM THINK HE WAS SUCCESSFUL."
-msgstr ""
-
-#: 106527
-msgid ""
-"FORTUNE ABANDONED YOU THE MOMENT I FOUND YOU. HAS YOUR LIFE PREPARED YOU FOR "
-"WHAT IS TO COME, HAG?"
-msgstr ""
-
-#: 106528
-msgid "NO LONGER SHALL YOU TROUBLE EXISTENCE WITH YOUR PRESENCE, WITCH."
-msgstr ""
-
-#: 106529
-msgid "ARISE, IGNUS. I HAVE NEED OF YOU."
-msgstr ""
-
-#: 106530
-msgid "THERE ARE CREATURES THAT MUST DIE."
-msgstr ""
-
-#: 106531
-msgid "AH... THE SORCERER."
-msgstr ""
-
-#: 106532
-msgid "I HAVE NEED OF YOU."
-msgstr ""
-
-#: 106533
-msgid "\"Great power isss here.\""
-msgstr ""
-
-#: 106534
-msgid "\"AAAAAAH HAHAHAHA!!\""
-msgstr ""
-
-#: 106535
-msgid "ARISE, VHAILOR. I HAVE NEED OF YOU."
-msgstr ""
-
-#: 106536
-msgid "A GREAT INJUSTICE HAS BEEN DONE."
-msgstr ""
-
-#: 106537
-msgid "\"It is difficult to separate shadow from the darkness here.\""
-msgstr ""
-
-#: 106538
-msgid "\"This is not a place meant for the living.\""
-msgstr ""
-
-#: 106539
-msgid "\"You have done enough harm.\""
-msgstr ""
-
-#: 106540
-msgid "\"Prepare yourself.\""
-msgstr ""
-
-#: 106541
-msgid "AH... THE TANAR'RI."
-msgstr ""
-
-#: 106542
-msgid "YOU ARE NOTHING."
-msgstr ""
-
-#: 106543
-msgid "I CAN FORGE PLANES WITH MY POWER. I CAN UNMAKE YOU."
-msgstr ""
-
-#: 106544
-msgid "\"Shadows.\""
-msgstr ""
-
-#: 106545
-msgid "\"I may be bested in battle but I shall never be defeated.\""
-msgstr ""
-
-#: 106546
-msgid "\"I have been here before. This time I shall never leave.\""
-msgstr ""
-
-#: 106547
-msgid "AH... THE GITHZERAI. I REMEMBER HIM WELL."
-msgstr ""
-
-#: 106548
-msgid "SUBMIT."
-msgstr ""
-
-#: 106549
-msgid "YOU CANNOT HOPE TO DEFEAT ME."
-msgstr ""
-
-#: 106550
-msgid "SO BE IT."
-msgstr ""
-
-#: 106551
-msgid ""
-"Annah breathes on her palms and rubs them together. \"So c-c-cold here.\""
-msgstr ""
-
-#: 106552
-msgid "\"He matters more ta me... than my life.\""
-msgstr ""
-
-#: 106553
-msgid "AH... THE FIENDLING GIRL."
-msgstr ""
-
-#: 106554
-msgid "THEN... DIE."
-msgstr ""
-
-#: 106555
-msgid "\"Processing.\""
-msgstr ""
-
-#: 106556
-msgid "\"Plane: Negative Material. Location: Fortress of Regrets.\""
-msgstr ""
-
-#: 106557
-msgid "\"Sense of closure: Imminent.\""
-msgstr ""
-
-#: 106558
-msgid "\"You wish harm upon one who has aided Nordom at cost to his selves.\""
-msgstr ""
-
-#: 106559
-msgid "\"Nordom will attempt to stop you.\""
-msgstr ""
-
-#: 106560
-msgid "\"Prospect of success: Slight.\""
-msgstr ""
-
-#: 106561
-msgid "\"You intend to harm him. Nordom will stop you.\""
-msgstr ""
-
-#: 106562
-msgid "AH... THE ROGUE CONSTRUCT."
-msgstr ""
-
-#: 106563
-msgid "YOU HAVE OVERSTEPPED YOURSELF."
-msgstr ""
-
-#: 106564
-msgid ""
-"THE BODY IS A SHELL. INTENSE PRESSURE MAY FRACTURE IT. SHALL I CONTINUE?"
-msgstr ""
-
-#: 106565
-msgid "\"I... forgive all you have done.\""
-msgstr ""
-
-#: 106566
-msgid "\"I shall wait for you in death's halls, my Love.\""
-msgstr ""
-
-#: 106567
-msgid ""
-"\"Oh, Mistress High-'n-Mighty'll be joinin' us? I donnae we need her fer.\""
-msgstr ""
-
-#: 106568
-msgid ""
-"\"I wish she would fall from a great height. I might even bump 'er off "
-"myself.\""
-msgstr ""
-
-#: 106569
-msgid "\"You couldn't *possibly* understand.\""
-msgstr ""
-
-#: 106571
-msgid "\"Are ye daft? We'll draw the Lady's gaze if we stay here, we will!\""
-msgstr ""
-
-#: 106572
-msgid ""
-"\"Chief, *what* are we doing in here? Let's say we just give this place the "
-"laugh, all right?\""
-msgstr ""
-
-#: 106573
-msgid "\"Feh! Can it be? Yes! I am freed, freed!\""
-msgstr ""
-
-#: 106574
-msgid "\"Something familiar about that one.\""
-msgstr ""
-
-#: 106575
-msgid "\"Feh! No matter.\""
-msgstr ""
-
-#: 106576
-msgid "\"Off with ya. Dead I am.\""
-msgstr ""
-
-#: 106577
-msgid "THEN DEATH'S KINGDOM HAS SEALED ITS GATES TO US BOTH. ARISE, CRONE."
-msgstr ""
-
-#: 106578
-msgid ""
-"\"Shh shh shh! Away with ya! I'm dead, and no traffic with the living may I "
-"have!\""
-msgstr ""
-
-#: 106579
-msgid ""
-"I CARE LITTLE FOR HOW YOU DIE. BUT I WARN YOU FOR THE LAST TIME: ARISE OR I "
-"SHALL SLAY YOU WHERE YOU LIE."
 msgstr ""

@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2014-06-14 16:17+0200\n"
+"PO-Revision-Date: 2014-05-10 14:48+0200\n"
 "Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -543,7 +543,7 @@ msgstr ""
 msgid "This is a necklace of hollowed, pointed teeth."
 msgstr "Это ожерелье из вычищенных острых зубов."
 
-#: 3066 3744 17026 106570
+#: 3066 3744 17026
 msgid ""
 "\"This is one of Fell's studios, is it not? I have long wanted to meet him.\""
 msgstr "\"Это ведь одна из студий Фелла? Давно хотел с ним познакомиться\"."
@@ -6113,8 +6113,8 @@ msgid "Receiving Room. "
 msgstr "Приемная. "
 
 #: 32837
-msgid "Embalming Room."
-msgstr "Бальзамационная."
+msgid "Northeast Preparation Room. "
+msgstr "Северо-восточная препараторская. "
 
 #: 32839
 msgid "Southeast Preparation Room. "
@@ -6436,8 +6436,8 @@ msgid ""
 "Your Charisma surpasses that of mortal men. Your presence is such that many "
 "would lay down their lives for you."
 msgstr ""
-"Твое Обаяние намного выше, чему у любого смертного. Одного твоего "
-"присутствия достаточно, что многие сложили свои жизни ради тебя."
+"Твое Обаяние намного выше, чему у любого смертного. Одного твоего присутствия"
+" достаточно, что многие сложили свои жизни ради тебя."
 
 #: 33933
 msgid ""
@@ -9676,10 +9676,10 @@ msgstr ""
 "Хватит расспросов. Теперь я ТЕ кое-что скажу, так вот. \n"
 "\n"
 "Видала я, как ты действуешь, и неплохо бы тебе услыхать пару вещей, прежде "
-"чем мы станем путешествовать вместе... Первое: кончай трясти черепушкой и "
-"пялится на каждого встречного. Так и на проблемы нарваться можно. И не "
-"упоминай попусту ничьи имена, а то еще привлечешь дурной глаз, и очень "
-"скоро, так вот. \n"
+"чем мы станем путешествовать вместе... Первое: кончай трясти черепушкой "
+"и пялится на каждого встречного. Так и на проблемы нарваться "
+"можно. И не упоминай попусту ничьи имена, а то еще привлечешь дурной глаз, и "
+"очень скоро, так вот. \n"
 "\n"
 "И последнее. Не думай, что можешь вести себя со мной, как с булыжником, не "
 "стоит. Если начнешь так делать - достану эти клинки и порежу тебя, так "
@@ -10856,14 +10856,6 @@ msgstr "Ты был выведен из строя и больше не може
 msgid "Level"
 msgstr "Уровень"
 
-#: 48157
-msgid "Subject now conversing with human female."
-msgstr "Субъект общается с самкой человека."
-
-#: 48158
-msgid "Subject now playing a game with human female."
-msgstr "Субъект играет с самкой человека."
-
 #: 48216
 msgid ""
 "Store Item Script\n"
@@ -11622,67 +11614,25 @@ msgstr "GlobalGT(\"Join_Anarchists\", \"GLOBAL\", 0)"
 msgid "Global(\"Specialist\", \"GLOBAL\", 5)"
 msgstr "Global(\"Specialist\", \"GLOBAL\", 5)"
 
-#: 51355 51396
-msgid ""
-"!Global(\"Specialist\",\"GLOBAL\",0)\n"
-"!Global(\"Specialist\",\"GLOBAL\",1)\n"
-"!Global(\"Specialist\",\"GLOBAL\",3)\n"
-"!Global(\"Specialist\",\"GLOBAL\",4)\n"
-"!Global(\"Specialist\",\"GLOBAL\",6)\n"
-"!Global(\"Specialist\",\"GLOBAL\",7)\n"
-"!Global(\"Specialist\",\"GLOBAL\",9)"
-msgstr ""
-"!Global(\"Specialist\",\"GLOBAL\",0)\n"
-"!Global(\"Specialist\",\"GLOBAL\",1)\n"
-"!Global(\"Specialist\",\"GLOBAL\",3)\n"
-"!Global(\"Specialist\",\"GLOBAL\",4)\n"
-"!Global(\"Specialist\",\"GLOBAL\",6)\n"
-"!Global(\"Specialist\",\"GLOBAL\",7)\n"
-"!Global(\"Specialist\",\"GLOBAL\",9)"
+#: 51355
+msgid "Global(\"Specialist\", \"GLOBAL\", 2)"
+msgstr "Global(\"Specialist\", \"GLOBAL\", 2)"
 
 #: 51356
 msgid "Global(\"Specialist\", \"GLOBAL\", 6)"
 msgstr "Global(\"Specialist\", \"GLOBAL\", 6)"
 
-#: 51357 51395
-msgid ""
-"!Global(\"Specialist\",\"GLOBAL\",0)\n"
-"!Global(\"Specialist\",\"GLOBAL\",1)\n"
-"!Global(\"Specialist\",\"GLOBAL\",2)\n"
-"!Global(\"Specialist\",\"GLOBAL\",4)\n"
-"!Global(\"Specialist\",\"GLOBAL\",5)\n"
-"!Global(\"Specialist\",\"GLOBAL\",7)\n"
-"!Global(\"Specialist\",\"GLOBAL\",8)"
-msgstr ""
-"!Global(\"Specialist\",\"GLOBAL\",0)\n"
-"!Global(\"Specialist\",\"GLOBAL\",1)\n"
-"!Global(\"Specialist\",\"GLOBAL\",2)\n"
-"!Global(\"Specialist\",\"GLOBAL\",4)\n"
-"!Global(\"Specialist\",\"GLOBAL\",5)\n"
-"!Global(\"Specialist\",\"GLOBAL\",7)\n"
-"!Global(\"Specialist\",\"GLOBAL\",8)"
+#: 51357
+msgid "Global(\"Specialist\", \"GLOBAL\", 3)"
+msgstr "Global(\"Specialist\", \"GLOBAL\", 3)"
 
 #: 51358
 msgid "Global(\"Specialist\", \"GLOBAL\", 4)"
 msgstr "Global(\"Specialist\", \"GLOBAL\", 4)"
 
-#: 51359 51402
-msgid ""
-"!Global(\"Specialist\",\"GLOBAL\",0)\n"
-"!Global(\"Specialist\",\"GLOBAL\",2)\n"
-"!Global(\"Specialist\",\"GLOBAL\",3)\n"
-"!Global(\"Specialist\",\"GLOBAL\",5)\n"
-"!Global(\"Specialist\",\"GLOBAL\",6)\n"
-"!Global(\"Specialist\",\"GLOBAL\",8)\n"
-"!Global(\"Specialist\",\"GLOBAL\",9)"
-msgstr ""
-"!Global(\"Specialist\",\"GLOBAL\",0)\n"
-"!Global(\"Specialist\",\"GLOBAL\",2)\n"
-"!Global(\"Specialist\",\"GLOBAL\",3)\n"
-"!Global(\"Specialist\",\"GLOBAL\",5)\n"
-"!Global(\"Specialist\",\"GLOBAL\",6)\n"
-"!Global(\"Specialist\",\"GLOBAL\",8)\n"
-"!Global(\"Specialist\",\"GLOBAL\",9)"
+#: 51359
+msgid "Global(\"Specialist\", \"GLOBAL\", 1)"
+msgstr "Global(\"Specialist\", \"GLOBAL\", 1)"
 
 #: 51360
 msgid ""
@@ -11839,8 +11789,8 @@ msgid "Global(\"Trist_Quest\", \"GLOBAL\", 4)"
 msgstr "Global(\"Trist_Quest\", \"GLOBAL\", 4)"
 
 #: 51389
-msgid "GlobalGT(\"Karina_Friend\",\"GLOBAL\",2)"
-msgstr "GlobalGT(\"Karina_Friend\",\"GLOBAL\",2)"
+msgid "Global(\"Karina_Friend\", \"GLOBAL\", 3)"
+msgstr "Global(\"Karina_Friend\", \"GLOBAL\", 3)"
 
 #: 51393
 msgid ""
@@ -11857,6 +11807,22 @@ msgid ""
 msgstr ""
 "Class(Myself, MAGE)\n"
 "Global(\"Specialist\", \"GLOBAL\", 6)"
+
+#: 51395
+msgid ""
+"Class(Myself, MAGE)\n"
+"Global(\"Specialist\", \"GLOBAL\", 3)"
+msgstr ""
+"Class(Myself, MAGE)\n"
+"Global(\"Specialist\", \"GLOBAL\", 3)"
+
+#: 51396
+msgid ""
+"Class(Myself, THIEF)\n"
+"Global(\"Specialist\", \"GLOBAL\", 2)"
+msgstr ""
+"Class(Myself, THIEF)\n"
+"Global(\"Specialist\", \"GLOBAL\", 2)"
 
 #: 51397
 msgid "InParty(\"Nordom\")"
@@ -11885,6 +11851,14 @@ msgstr ""
 #: 51401
 msgid "InParty(\"Grace\")"
 msgstr "InParty(\"Grace\")"
+
+#: 51402
+msgid ""
+"Class(Myself, FIGHTER)\n"
+"Global(\"Specialist\", \"GLOBAL\", 1)"
+msgstr ""
+"Class(Myself, FIGHTER)\n"
+"Global(\"Specialist\", \"GLOBAL\", 1)"
 
 #: 51403
 msgid "InParty(\"Ignus\")"
@@ -15893,456 +15867,6 @@ msgstr "\"МЫ СДАЕМСЯ, ДВУНОГИЙ. МЫ СДАЕМСЯ. МЫ ТЕ�
 #: 68506
 msgid "\"I... think I do. Farewell, Nemelle.\""
 msgstr "\"Думаю... да. Прощай, Немель\"."
-
-#: 106497
-msgid ""
-"The woman nods and runs away hurriedly.  You don't expect to see her again."
-msgstr "Женщина кивает и быстро убегает. Вряд ли ты ее еще увидишь."
-
-#: 106498
-msgid ""
-"This is a placeholder to prevent a string with a sound file from becoming "
-"strref 106498, which causes problems."
-msgstr ""
-"This is a placeholder to prevent a string with a sound file from becoming "
-"strref 106498, which causes problems."
-
-#: 106499
-msgid "\"So what are you, Morte? You've never said.\""
-msgstr "\"Так кто же ты, Морт? Ты никогда об этом не говорил\"."
-
-#: 106500
-msgid "Infiltrate the Dustmen for the Anarchists: \"Yes.\""
-msgstr "Проникнуть в ряды тленных для анархистов: \"Да\"."
-
-#: 106501
-msgid ""
-"Infiltrate the Sensates for the Anarchists: \"I'm ready. I want to become a "
-"Sensate.\""
-msgstr ""
-"Проникнуть в ряды чувствующих для анархистов: \"Я готов. Я хочу стать "
-"чувствующим\"."
-
-#: 106502
-msgid ""
-"Infiltrate the Sensates for the Anarchists: \"I'm ready to join the Society "
-"of Sensation. I feel no more loyalty towards the Godsmen.\""
-msgstr ""
-"Проникнуть в ряды чувствующих для анархистов: \"Я готов вступить в Общество "
-"Восприятия. Я больше не предан боголюдям\"."
-
-#: 106503
-msgid ""
-"Infiltrate the Sensates for the Anarchists: \"I'm ready to join the Society "
-"of Sensation. I feel no more loyalty towards the Dustmen.\""
-msgstr ""
-"Проникнуть в ряды чувствующих для анархистов: \"Я готов вступить в Общество "
-"Восприятия. Я больше не предан тленным\"."
-
-#: 106504
-msgid ""
-"Infiltrate the Sensates for the Anarchists: \"I'm ready to join the Society "
-"of Sensation. I feel no more loyalty towards the Xaositects.\""
-msgstr ""
-"Проникнуть в ряды чувствующих для анархистов: \"Я готов вступить в Общество "
-"Восприятия. Я больше не предан хаоситекам\"."
-
-#: 106505
-msgid ""
-"Infiltrate the Chaosmen for the Anarchists: \"So, what's the next step?\""
-msgstr "Проникнуть в ряды хаоситов для анархистов: \"Ну, и что дальше?\""
-
-#: 106506
-msgid ""
-"Infiltrate the Chaosmen for the Anarchists: \"Join ready the Xaositects am "
-"I. Loyalty none faction old I have Godsmen.\""
-msgstr ""
-"Проникнуть в ряды хаоситов для анархистов: \"Примкнуть готов к хаоситекам я. "
-"Не предан больше фракции старой я боголюдей\"."
-
-#: 106507
-msgid ""
-"Infiltrate the Chaosmen for the Anarchists: \"Join ready the Xaositects am "
-"I. Loyalty none faction old I have Dustmen.\""
-msgstr ""
-"Проникнуть в ряды хаоситов для анархистов: \"Примкнуть готов к хаоситекам я. "
-"Не предан больше фракции старой я тленных\"."
-
-#: 106508
-msgid ""
-"Infiltrate the Chaosmen for the Anarchists: \"Join ready the Xaositects am "
-"I. Loyalty none faction old I have Sensates.\""
-msgstr ""
-"Проникнуть в ряды хаоситов для анархистов: \"Примкнуть готов к хаоситекам я. "
-"Не предан больше фракции старой я чувствующих\"."
-
-#: 106509
-msgid ""
-"Infiltrate the Dustmen for the Anarchists: \"If that is what must be, that "
-"is what must be. My mind must be true to itself, not to another. As of this "
-"moment, I forsake the beliefs of the Godsmen.\""
-msgstr ""
-"Проникнуть в ряды тленных для анархистов: \"Будь что будет. Мой разум должен "
-"быть верен только себе, и никому другому. Отныне я отказываюсь от убеждений "
-"боголюдей\"."
-
-#: 106510
-msgid ""
-"Infiltrate the Dustmen for the Anarchists: \"If that is what must be, that "
-"is what must be. My mind must be true to itself, not to another. As of this "
-"moment, I forsake the... uh, 'beliefs' of the Chaosmen.\""
-msgstr ""
-"Проникнуть в ряды тленных для анархистов: \"Будь что будет. Мой разум должен "
-"быть верен только себе, и никому другому. Отныне я отказываюсь от.. э, "
-"'убеждений' хаоситов\"."
-
-#: 106511
-msgid ""
-"Infiltrate the Dustmen for the Anarchists: \"If that is what must be, that "
-"is what must be. My mind must be true to itself, not to another. As of this "
-"moment, I forsake the beliefs of the Sensates.\""
-msgstr ""
-"Проникнуть в ряды тленных для анархистов: \"Будь что будет. Мой разум должен "
-"быть верен только себе, и никому другому. Отныне я отказываюсь от убеждений "
-"чувствующих\"."
-
-#: 106512
-msgid "\"Damnit, Vhailor, do you realize what you've done?!\""
-msgstr "\"Проклятье, Вейлор, ты хоть представляешь, что ты наделал?!\""
-
-#: 106513
-msgid ""
-"Vhailor turns from Trias's corpse to face you squarely. *You are MERCIFUL "
-"and WEAK. STEEL your HEART before the disease SPREADS.*"
-msgstr ""
-"Вейлор отворачивается от трупа Триаса и смотрит тебе в лицо. *Ты МИЛОСЕРДЕН "
-"и СЛАБ. ЗАКАЛИ свое СЕРДЦЕ, прежде чем болезнь не РАСПРОСТРАНИЛАСЬ*."
-
-#: 106514
-msgid "ARE THEY DEAD? YES. UNLIKE YOU THEY HAVE BUT ONE LIFE."
-msgstr "МЕРТВЫ ЛИ ОНИ? ДА. В ОТЛИЧИЕ ОТ ТЕБЯ, У НИХ ТОЛЬКО ОДНА ЖИЗНЬ."
-
-#: 106515
-msgid "THEY WASTED IT FOR YOUR SAKE."
-msgstr "ОНИ ПОТРАТИЛИ ЕЕ ВПУСТУЮ РАДИ ТЕБЯ."
-
-#: 106516
-msgid "I WILL TAKE YOUR MEASURE SHORTLY."
-msgstr "ВСКОРЕ Я РАЗБЕРУСЬ С ТОБОЙ."
-
-#: 106517
-msgid ""
-"NO. THAT IS NO LONGER POSSIBLE. I HAVE ENDED THE LIVES OF ALL THAT HAVE "
-"GUIDED YOU TO THIS PLACE. THE NIGHT HAG THAT CURSED US. THE ANGEL THAT "
-"SHIELDS ITSELF WITH GOLDEN LIES. SOON THE FIEND THAT AIDED YOU WILL DIE AS "
-"WELL. YOU LED ME TO ALL OF THEM. YOU HAVE ALLOWED ME TO HIDE MY PRESENCE "
-"FOREVER."
-msgstr ""
-"НЕТ. ЭТО УЖЕ НЕВОЗМОЖНО. Я ПРЕРВАЛ ЖИЗНИ ВСЕХ, КТО ВЕЛ ТЕБЯ В ЭТО МЕСТО. "
-"НОЧНОЙ ВЕДЬМЫ, КОТОРАЯ ПРОКЛЯЛА НАС. АНГЕЛА, ЗАЩИЩАВШЕГО СЕБЯ ЗОЛОТОЙ ЛОЖЬЮ. "
-"ВСКОРЕ НЕЧИСТЫЙ, КОТОРЫЙ ПОМОГ ТЕБЕ, ТОЖЕ УМРЕТ. ТЫ ПРИВЕЛ КО МНЕ ВСЕХ ИХ. "
-"ТЫ ПОЗВОЛИЛ МНЕ СКРЫТЬ МОЕ СУЩЕСТВОВАНИЕ НАВЕКИ."
-
-#: 106518
-msgid ""
-"NO. THAT IS NO LONGER POSSIBLE. I HAVE ENDED THE LIVES OF ALL THAT HAVE "
-"GUIDED YOU TO THIS PLACE. YOU LED ME TO ALL OF THEM. YOU HAVE ALLOWED ME TO "
-"HIDE MY PRESENCE FOREVER."
-msgstr ""
-"НЕТ. ЭТО УЖЕ НЕВОЗМОЖНО. Я ПРЕРВАЛ ЖИЗНИ ВСЕХ, КТО ВЕЛ ТЕБЯ В ЭТО МЕСТО. ТЫ "
-"ПРИВЕЛ КО МНЕ ВСЕХ ИХ. ТЫ ПОЗВОЛИЛ МНЕ СКРЫТЬ МОЕ СУЩЕСТВОВАНИЕ НАВЕКИ."
-
-#: 106519
-msgid ""
-"NO. THAT IS NO LONGER POSSIBLE. YOU LED ME TO ALL THAT HAVE GUIDED YOU TO "
-"THIS PLACE. I WILL END THEIR LIVES. YOU HAVE ALLOWED ME TO HIDE MY PRESENCE "
-"FOREVER."
-msgstr ""
-"НЕТ. ЭТО УЖЕ НЕВОЗМОЖНО. ТЫ ПРИВЕЛ МЕНЯ КО ВСЕМ, КТО ВЕЛ ТЕБЯ В ЭТО МЕСТО. Я "
-"ПРЕРВУ ИХ ЖИЗНИ. ТЫ ПОЗВОЛИЛ МНЕ СКРЫТЬ МОЕ СУЩЕСТВОВАНИЕ НАВЕКИ."
-
-#: 106520
-msgid ""
-"THERE IS NO ONE LEFT IN ALL OF EXISTENCE WHO CAN TELL YOU HOW TO REACH ME. "
-"THIS SHALL BE THE LAST TIME YOU TRESPASS IN THESE HALLS."
-msgstr ""
-"В МИРЕ НЕ ОСТАЛОСЬ НИКОГО, КТО МОЖЕТ СКАЗАТЬ ТЕБЕ, КАК ДО МЕНЯ ДОБРАТЬСЯ. ТЫ "
-"В ПОСЛЕДНИЙ РАЗ ПОСЯГАЕШЬ НА ЭТИ ЗАЛ."
-
-#: 106521
-msgid "THE HALLS OF THIS FORTRESS SHALL BE SILENT AGAIN."
-msgstr "ЗАЛЫ ЭТОЙ КРЕПОСТИ ВНОВЬ ОБРЕТУТ ТИШИНУ."
-
-#: 106522
-msgid "YOU WILL TROUBLE ME NO MORE."
-msgstr "ТЫ БОЛЬШЕ МЕНЯ НЕ ПОБЕСПОКОИШЬ."
-
-#: 106523
-msgid ""
-"\"I had thought that dying at his hand would fulfill the requirements the "
-"past put forth.\""
-msgstr ""
-"\"Я думала, что смерть от его руки удовлетворит требованиям, которые "
-"поставило прошлое\"."
-
-#: 106524
-msgid ""
-"\"Powerful, this incarnation is. And kill me he could have, but for a few "
-"tricks I possess. Fortunate was I.\""
-msgstr ""
-"\"Могущественное воплощение. И он мог бы меня убить, если бы не пара моих "
-"трюков. Повезло мне\"."
-
-#: 106525
-msgid ""
-"\"I am NOT afraid, not of the likes of you, ragged thing. Weak Ravel may be, "
-"but a few tricks has Ravel learned over the years, and I have KNOWN that you "
-"would come.\""
-msgstr ""
-"\"Я НЕ БОЮСЬ, только не таких как ты, потрепанная вещица. Может, Равель и "
-"слабая, но за свои годы научилась паре трюков. И я ЗНАЛА, что ты придешь\"."
-
-#: 106526
-msgid ""
-"YOU CANNOT HAVE THOUGHT THAT ONE WOULD HAVE A CHANCE. YOU WERE INDULGENT TO "
-"LET HIM THINK HE WAS SUCCESSFUL."
-msgstr ""
-"ТЫ ВРЯД ЛИ СЧИТАЛА, ЧТО У НЕГО ЕСТЬ ШАНС. ТЫ ПРОЯВИЛА СНИСХОДИТЕЛЬНОСТЬ, "
-"ПОЗВОЛИВ ЕМУ ДУМАТЬ, ЧТО ОН ПОБЕДИЛ."
-
-#: 106527
-msgid ""
-"FORTUNE ABANDONED YOU THE MOMENT I FOUND YOU. HAS YOUR LIFE PREPARED YOU FOR "
-"WHAT IS TO COME, HAG?"
-msgstr ""
-"УДАЧА ТЕБЯ ПОКИНУЛА В ТОТ МИГ, КОГДА Я ТЕБЯ НАШЕЛ. ПРИГОТОВИЛА ЛИ ТЕБЯ ЖИЗНЬ "
-"К ТОМУ, ЧТО ПРОИЗОЙДЕТ, СТАРУХА?"
-
-#: 106528
-msgid "NO LONGER SHALL YOU TROUBLE EXISTENCE WITH YOUR PRESENCE, WITCH."
-msgstr "ТЫ БОЛЬШЕ НЕ ПОТРЕВОЖИШЬ МИРОЗДАНИЕ СВОИМ ПРИСУТСТВИЕМ, ВЕДЬМА."
-
-#: 106529
-msgid "ARISE, IGNUS. I HAVE NEED OF YOU."
-msgstr "ВСТАНЬ, ИГНУС. ТЫ МНЕ НУЖЕН."
-
-#: 106530
-msgid "THERE ARE CREATURES THAT MUST DIE."
-msgstr "КОЕ-КТО ДОЛЖЕН УМЕРЕТЬ."
-
-#: 106531
-msgid "AH... THE SORCERER."
-msgstr "А... КОЛДУН."
-
-#: 106532
-msgid "I HAVE NEED OF YOU."
-msgstr "ТЫ МНЕ НУЖЕН."
-
-#: 106533
-msgid "\"Great power isss here.\""
-msgstr "\"Тут есссть великая сссила\"."
-
-#: 106534
-msgid "\"AAAAAAH HAHAHAHA!!\""
-msgstr "\"А-А-А ХА-ХА-ХА-ХА!!\""
-
-#: 106535
-msgid "ARISE, VHAILOR. I HAVE NEED OF YOU."
-msgstr "ВСТАНЬ, ВЕЙЛОР. ТЫ МНЕ НУЖЕН."
-
-#: 106536
-msgid "A GREAT INJUSTICE HAS BEEN DONE."
-msgstr "СОВЕРШЕНА ВЕЛИКАЯ НЕСПРАВЕДЛИВОСТЬ."
-
-#: 106537
-msgid "\"It is difficult to separate shadow from the darkness here.\""
-msgstr "\"Здесь сложно отличить тени от темноты\"."
-
-#: 106538
-msgid "\"This is not a place meant for the living.\""
-msgstr "\"Это место не годится для живых\"."
-
-#: 106539
-msgid "\"You have done enough harm.\""
-msgstr "\"Ты причинил достаточно боли\"."
-
-#: 106540
-msgid "\"Prepare yourself.\""
-msgstr "\"Готовься\"."
-
-#: 106541
-msgid "AH... THE TANAR'RI."
-msgstr "А... ТАНАРРИ."
-
-#: 106542
-msgid "YOU ARE NOTHING."
-msgstr "ТЫ - НИЧТО."
-
-#: 106543
-msgid "I CAN FORGE PLANES WITH MY POWER. I CAN UNMAKE YOU."
-msgstr "СВОЕЙ СИЛОЙ Я МОГУ КОВАТЬ ПЛАНЫ. Я МОГУ УНИЧТОЖИТЬ ТЕБЯ."
-
-#: 106544
-msgid "\"Shadows.\""
-msgstr "\"Тени\"."
-
-#: 106545
-msgid "\"I may be bested in battle but I shall never be defeated.\""
-msgstr "\"Меня можно одолеть в битве, но я никогда не буду побежден\"."
-
-#: 106546
-msgid "\"I have been here before. This time I shall never leave.\""
-msgstr "\"Я уже бывал здесь. В этот раз мне не выбраться\"."
-
-#: 106547
-msgid "AH... THE GITHZERAI. I REMEMBER HIM WELL."
-msgstr "А... ГИТЦЕРАЙ. Я ХОРОШО ЕГО ПОМНЮ."
-
-#: 106548
-msgid "SUBMIT."
-msgstr "ПОДЧИНИСЬ."
-
-#: 106549
-msgid "YOU CANNOT HOPE TO DEFEAT ME."
-msgstr "НЕ НАДЕЙСЯ ПОБЕДИТЬ МЕНЯ."
-
-#: 106550
-msgid "SO BE IT."
-msgstr "ТАК ТОМУ И БЫТЬ."
-
-#: 106551
-msgid ""
-"Annah breathes on her palms and rubs them together. \"So c-c-cold here.\""
-msgstr ""
-"Анна дышит на ладони и трет их друг о друга. \"Здесь так х-х-холодно\"."
-
-#: 106552
-msgid "\"He matters more ta me... than my life.\""
-msgstr "\"Он для меня важнее... моей жизни\"."
-
-#: 106553
-msgid "AH... THE FIENDLING GIRL."
-msgstr "А... ДЕВЧОНКА-ПОЛУНЕЧИСТЬ."
-
-#: 106554
-msgid "THEN... DIE."
-msgstr "ТОГДА... УМРИ."
-
-#: 106555
-msgid "\"Processing.\""
-msgstr "\"Обработка\"."
-
-#: 106556
-msgid "\"Plane: Negative Material. Location: Fortress of Regrets.\""
-msgstr "\"План: Негативный материальный. Место: Крепость сожалений\"."
-
-#: 106557
-msgid "\"Sense of closure: Imminent.\""
-msgstr "\"Облегчение: неизбезно\"."
-
-#: 106558
-msgid "\"You wish harm upon one who has aided Nordom at cost to his selves.\""
-msgstr "\"Ты хочешь навредить тому, кто помогал Нордому ценой своих жизней\"."
-
-#: 106559
-msgid "\"Nordom will attempt to stop you.\""
-msgstr "\"Нордом попытается остановить тебя\"."
-
-#: 106560
-msgid "\"Prospect of success: Slight.\""
-msgstr "\"Шансы на успех: незначительные\"."
-
-#: 106561
-msgid "\"You intend to harm him. Nordom will stop you.\""
-msgstr "\"Ты намереваешься причинить ему зло. Нордом остановит тебя\"."
-
-#: 106562
-msgid "AH... THE ROGUE CONSTRUCT."
-msgstr "А... КОНСТРУКТ-БРОДЯГА."
-
-#: 106563
-msgid "YOU HAVE OVERSTEPPED YOURSELF."
-msgstr "ТЫ ПЕРЕСТУПИЛ ЧЕРЕЗ САМОГО СЕБЯ."
-
-#: 106564
-msgid ""
-"THE BODY IS A SHELL. INTENSE PRESSURE MAY FRACTURE IT. SHALL I CONTINUE?"
-msgstr "ТЕЛО - ОБОЛОЧКА. СИЛЬНОЕ ДАВЛЕНИЕ МОЖЕТ РАСКОЛОТЬ ЕЕ. МНЕ ПРОДОЛЖИТЬ?"
-
-#: 106565
-msgid "\"I... forgive all you have done.\""
-msgstr "\"Я... прощаю тебе все, что ты сделал\"."
-
-#: 106566
-msgid "\"I shall wait for you in death's halls, my Love.\""
-msgstr "\"Я буду ждать тебя в залах смерти, любовь моя\"."
-
-#: 106567
-msgid ""
-"\"Oh, Mistress High-'n-Mighty'll be joinin' us? I donnae we need her fer.\""
-msgstr ""
-"\"О, к нам присоединится госпожа Благородная-и-Могущественная? Я вот только "
-"не врублюсь, зачем она нам\"."
-
-#: 106568
-msgid ""
-"\"I wish she would fall from a great height. I might even bump 'er off "
-"myself.\""
-msgstr ""
-"\"Хотела бы я, чтоб она шмякнулась с большой высоты. Я могла бы даже сама ее "
-"столкнуть\"."
-
-#: 106569
-msgid "\"You couldn't *possibly* understand.\""
-msgstr "\"Ты *вряд ли* поймешь\"."
-
-#: 106571
-msgid "\"Are ye daft? We'll draw the Lady's gaze if we stay here, we will!\""
-msgstr "\"Ты че, сбрендил? Если зайдем сюда - навлечем на себя взгляд Леди!\""
-
-#: 106572
-msgid ""
-"\"Chief, *what* are we doing in here? Let's say we just give this place the "
-"laugh, all right?\""
-msgstr ""
-"\"Шеф, да *что* мы здесь делаем? Давай просто помашем этому месту ручкой, "
-"ладно?\""
-
-#: 106573
-msgid "\"Feh! Can it be? Yes! I am freed, freed!\""
-msgstr "\"Фе! Возможно ли это? Да! Я свободен, свободен!\""
-
-#: 106574
-msgid "\"Something familiar about that one.\""
-msgstr "\"В этом есть что-то знакомое\"."
-
-#: 106575
-msgid "\"Feh! No matter.\""
-msgstr "\"Фе! Неважно\"."
-
-#: 106576
-msgid "\"Off with ya. Dead I am.\""
-msgstr "\"Сгинь. Я умерла\"."
-
-#: 106577
-msgid "THEN DEATH'S KINGDOM HAS SEALED ITS GATES TO US BOTH. ARISE, CRONE."
-msgstr ""
-"ТОГДА ЦАРСТВО МЕРТВЫХ ЗАКРЫЛО СВОИ ВРАТА ДЛЯ НАС ОБОИХ. ВСТАНЬ, СТАРУХА."
-
-#: 106578
-msgid ""
-"\"Shh shh shh! Away with ya! I'm dead, and no traffic with the living may I "
-"have!\""
-msgstr ""
-"\"Тсс, тсс, тсс! Иди прочь! Я мертва, и с живыми у меня не может быть дел!\""
-
-#: 106579
-msgid ""
-"I CARE LITTLE FOR HOW YOU DIE. BUT I WARN YOU FOR THE LAST TIME: ARISE OR I "
-"SHALL SLAY YOU WHERE YOU LIE."
-msgstr ""
-"МЕНЯ НЕ ВОЛНУЕТ, КАК ТЫ УМРЕШЬ. НО ПРЕДУПРЕЖДАЮ ТЕБЯ В ПОСЛЕДНИЙ РАЗ: "
-"ВСТАНЬ, ИЛИ Я УБЬЮ ТЕБЯ НА МЕСТЕ."
 
 #~ msgid "::Skritch Skritch::"
 #~ msgstr "::Скрип Скрип::"
