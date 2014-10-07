@@ -26,8 +26,13 @@ my $text = read_file($config{tra});
 
 # Цикл, который выцеживает сообщения по-отдельности
 # Ключевой момент - поиск ленивый (.*?)
-while ($text =~ m/\@(\d+)\s*\=\s*~(.*?)~(.*?)\n/sg) {
-	my ($position, $entry, $ending) = ($1, $2, $3);
+# Четыре группы захвата
+# 1. номер записи
+# 2. кавычка (~ или ")
+# 3. Содержимое - запись
+# 4. Остаток (ссылка на звуковой файл)
+while ($text =~ m/@(.+?)\s*=\s*(["~])(?:\2|(.*?))\2(.*?)\n/sg) {
+	my ($position, $entry, $ending) = ($1, $3, $4);
 	# Есть 'плохой' элемент - '\', меняем на экранирование
 	$entry =~ s/\\/\\\\/g;
 	# убираем CR-символы
@@ -64,10 +69,13 @@ foreach my $file (@files) {
 		unless (($string eq "") || $item->fuzzy() || $item->obsolete()) {
 			my $test = $item -> reference();
 			my @referencies = split(/[ |\n]/, $item->reference());
-			foreach my $reference (@referencies) {				
-				$hash{$reference}[0] = $string;
-				# Делаем зарубку по адресу strref
-				$translated{$reference} = 1;
+			foreach my $reference (@referencies) {
+				# Если строка есть в исходном TRA
+				if ($hash{$reference}) {
+					$hash{$reference}[0] = $string;
+					# Делаем зарубку по адресу strref
+					$translated{$reference} = 1;
+				}
 			}
 		}
 	} 
