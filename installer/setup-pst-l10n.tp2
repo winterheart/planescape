@@ -1,0 +1,21 @@
+BACKUP ~pst-l10n/backup~
+AUTHOR ~azamat.hackimov@gmail.com~
+VERSION ~v1.00_rc3~
+
+//NO_LOG_RECORD
+LANGUAGE
+	~Russian~	~russian~	~pst-l10n/tra/russian/pst-l10n.tra~
+
+BEGIN @1000
+
+// MOD: Copying fonts for Russian localization
+// CREDIT: Fargus Team
+COPY	~pst-l10n/copy/exofont.bam~ ~override~
+	~pst-l10n/copy/fontdlg.bam~ ~override~
+	~pst-l10n/copy/sysfont.bam~ ~override~
+	~pst-l10n/copy/trmtfont.bam~ ~override~
+
+
+STRING_SET_RANGE #0 #106496 USING ~pst-l10n/tra/russian/0-106496.tra~
+
+INCLUDE ~pst-l10n/tph/EngineFixes.tph~
