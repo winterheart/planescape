@@ -7,7 +7,6 @@ use Getopt::Long;
 
 use strict;
 use warnings;
-use encoding 'utf8';
 
 my %config;
 GetOptions(\%config,
@@ -97,6 +96,6 @@ foreach my $item (sort {$a<=>$b} keys %hash) {
 }
 
 
-open(TEXT,">:utf8", "$config{output}") || die "$!";
+open(TEXT,">", "$config{output}") || die "$!";
 print TEXT $output;
 close(TEXT);
