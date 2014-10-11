@@ -3,7 +3,7 @@
 ITP='po/script/Infinity Text Parser/InfinityPacker.pl'
 IN_TRA="po/trans/0-106496.tra"
 OUT_TRA="installer/pst-l10n/tra/russian/0-106496.tra"
-PO_FILES="po/ru/LC_MESSAGES/"
+PO_FILES="po/ru/"
 VERSION="1.00-rc3"
 
 echo "==== Making 0-106496.tra ===="
