@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 0.3\n"
 
 #: 3099
@@ -71,8 +71,7 @@ msgstr "Fall-from-Grace Location, Baator (Hell) 1"
 
 #: 46840
 msgid "Fall-from-Grace Location, Negative Material Plane (The Underworld) 3"
-msgstr ""
-"Fall-from-Grace Location, Negative Material Plane (The Underworld) 3"
+msgstr "Fall-from-Grace Location, Negative Material Plane (The Underworld) 3"
 
 #: 46841
 msgid "Fall-from-Grace Location, Cube (Bizarre, clockwork dungeon) 1"
@@ -149,4 +148,3 @@ msgstr "Fall-from-Grace Spell-Casting 4"
 #: 46859
 msgid "Fall-from-Grace Spell-Casting 7"
 msgstr "Fall-from-Grace Spell-Casting 7"
-
