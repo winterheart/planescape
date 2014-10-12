@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: planescape\n"
 "POT-Creation-Date: 2014-06-15 23:50 +0600\n"
-"PO-Revision-Date: 2014-10-12 02:42+0600\n"
+"PO-Revision-Date: 2014-10-12 12:00+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
@@ -34,12 +34,16 @@ msgid ""
 "What should be done with all components that are NOT YET installed?\n"
 "[I]nstall them, [S]kip them, [A]sk about each one? "
 msgstr ""
+"Что делать с компонентами, которые ЕЩЕ не были установлены?\n"
+"[I]Установить их, [S]Пропустить их, [A]Спрашивать каждый раз? "
 
 #: -1003
 msgid ""
 "What should be done with all components that are ALREADY installed?\n"
 "[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
 msgstr ""
+"Что делать с компонентами, которые УЖЕ были установлены?\n"
+"[I]Установить их, [S]Пропустить их, [A]Спрашивать каждый раз? "
 
 #: -1004
 msgid "PLEASE email the file"
@@ -47,27 +51,31 @@ msgstr "ПОЖАЛУЙСТА, отправьте по электронной п�
 
 #: -1005
 msgid "to"
-msgstr ""
+msgstr " "
 
 #: -1006
 msgid "Install ["
-msgstr ""
+msgstr "Установить ["
 
 #: -1007
 msgid ""
 "]?\n"
 "[R]e-Install, [N]o Change or [U]ninstall or [Q]uit? "
 msgstr ""
+"]?\n"
+"[R]Переустановить, [N]Не менять, [U]Удалить или [Q]Выйти? "
 
 #: -1008
 msgid ""
 "]?\n"
 "[I]nstall, or [N]ot Install or [Q]uit? "
 msgstr ""
+"]?\n"
+"[I]Установить, [N]Не устанавливать или [Q]Выйти? "
 
 #: -1009
 msgid "Enter part of a module name: "
-msgstr ""
+msgstr "Введите часть имени модуля: "
 
 #: -1010
 msgid "Re-Installing ["
@@ -135,7 +143,7 @@ msgstr "Просмотр README"
 
 #: -2001
 msgid "Would you like to view the Readme? [Y]es or [N]o:"
-msgstr ""
+msgstr "Показать Readme? [Y]Да или [N]Нет:"
 
 #: 00001
 msgid "PS:T Ultimate WeiDU Fixpack, by Qwinn"
@@ -143,7 +151,7 @@ msgstr "PS:T Ultimate WeiDU Fixpack, by Qwinn"
 
 #: 00002
 msgid "Dialogue Spelling/Grammar Corrections (English Only)"
-msgstr ""
+msgstr "Исправление грамматических ошибок диалогов (только для английского)"
 
 #: 00003
 msgid "Skipped because Language selected was not English"
@@ -1862,4 +1870,5 @@ msgstr ""
 "Клинок означает для Даккона какую-то религиозную ценность. Он обернул "
 "рукоятку клинка несколькими кусочками пергамента. Похоже, это молитвы, "
 "посвященные Зертимону.\n"
+
 
