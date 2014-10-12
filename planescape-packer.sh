@@ -13,5 +13,6 @@ echo "==== Recoding 0-106496.tra ===="
 recode utf8..windows-1251 ${OUT_TRA}
 
 echo "==== Compressing archive ===="
+cat readme.md | Markdown.pl > installer/pst-l10n/readme.html
 cd installer
 zip -9 -r ~/pst-l10n-${VERSION}.zip .
