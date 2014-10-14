@@ -1,0 +1,935 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+
+      #maindiv p {
+        font-size: 100%;
+        font-style: normal;
+        line-height: 150%;
+        padding: 0px;
+        margin: 10px auto;
+        width: 90%;
+        display: block;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+        margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+        list-style-type: square;
+        line-height: 150%;
+      }
+
+      #maindiv ol li {
+        line-height: 150%;
+      }
+
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        font-style: italic;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - Planescape: Torment Ultimate WeiDU Fixpack</title>
+  </head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>Planescape: Torment Ultimate WeiDU Fixpack</h1>
+        <strong>A Spellhold Studios mod for Planescape: Torment</strong>
+        <hr />
+        <p class="about">
+          Author:  Qwinn (Paul Escalona)<p>
+        <p class="about"> 
+          Engine Fixes by:  scient (Brendan Casey)
+        </p>
+        <p class="about">
+          <a href="http://spellholdstudios.net/ie/pst-fixpack">Mod Website</a> &#8226;
+          <a href="http://www.shsforums.net/index.php?showforum=552">Mod Forum</a> &#8226;
+          Version: 4.00
+        </p>
+        <hr />
+        <p class="menu">
+          <a href="#intro">Introduction</a> &middot;
+          <a href="#installation">Installation</a> &middot;
+          <a href="#fixes">Documented Fixes</a> &middot;
+          <a href="#faq">FAQ</a> &middot;
+          <a href="#credits">Credits</a> &middot;
+          <a href="#version">Version History</a>
+        </p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+        <h2>Introduction</h2>
+          <p>This mod is a comprehensive WeiDU Fixpack for Black Isle's classic Planescape: Torment CRPG.</p>
+
+          <p>This mod, created by Paul Escalona (aka Qwinn), compiles the fixes created by numerous modders over the years and repackages them in the more compatible WeiDU format, along with a good number of additional fixes.</p>
+
+          <p>The main advantage of the WeiDU format is that, by selectively editing existing files rather than overwriting them, it makes WeiDU mods fully compatible with any other existing and future WeiDU mods for PS:T.  Non-WeiDU mods can generally be assumed to be incompatible with most other modifications.</p>
+
+          <p>In addition to a number of original fixes by Qwinn, the fixes from three separate non-WeiDU mods have been integrated in this mod, and the original authors deserve full credit for their work.  Those mods are:</p><br />
+
+<ul>
+<li><strong>"Platter's Fixpack 1.37"</strong>, with Platter as the main author but with several other contributors also involved.  The Fixpack Beta 1.38 fixes are included as well, also by Platter.</li>
+<li><strong>"Restoration Pack"</strong>, author Cilantro aka Kung Fu Man</li>
+<li><strong>"SKARDAVNELNATE'S All-Inclusive Fixpack"</strong>, author SKARDAVNELNATE.  The most recent version of this mod, which is still being maintained, that was consulted during the writing of my mod was AIP version 20080429.</li>
+</ul>
+
+          <p>Platter's Fixpack was exclusively bug fixes, and all the bugs fixed in that mod have also been fixed in the PS:T WeiDU Fixpack.</p>
+          <p>Restoration Pack and SKARDAVNELNATE's AIP included more complicated work that amounts to restorations or "Unfinished Business", and these are included in a separate mod entitled <a href="http://www.spellholdstudios.net/ie/pst-ub">PS:T Unfinished Business</a>.</p>
+
+          <p>Note that while this mod contains only bugfixes, many fixes do result in restored content not available in the "vanilla" or original game.</p>
+
+          <p>You should seriously consider also installing the <a href="http://www.spellholdstudios.net/ie/pst-ub">PS:T Unfinished Business</a> and <a href="http://www.spellholdstudios.net/ie/pst-qtweaks">Qwinn's PS:T Tweak Pack</a> afterwards as well, as they were developed in conjunction with this mod. In particular, the Tweak Pack contains a Banter Accelerator which will allow you to have even a remote chance of seeing all the banters available in game.  I would include it in this Fixpack as the rate you get them normally is so slow (I saw less than 12 out of the total 78 available during my test run) that I'm tempted to consider it broken, except that due to a game-engine limitation I cannot make the banters appear based on the passage of real-time, as was intended. I can only do it based on the passage of game-time. To avoid controversy over whether that can properly be considered a fix, I'm putting it in the Tweak Pack, but I do indeed consider it a fix as well. Together, I hope they provide a much richer experience while playing PS:T.</p>
+
+          <p><strong>Notes for Version 2.0:</strong><p>
+
+          <p>Version 1.01 of the Fixpack was all packaged as a single component. All versions since have 3 components total. Component #1 is the core Fixpack. Component #2 is just the english language spelling and grammar fixes that were already present in version 1.01 split out so that they don't interfere with foreign language installs - it is not available if you chose any language other than english during installation.<p>
+
+          <p>Component #3 was new to Fixpack Version 2.0: Subtitled Cutscenes. This component takes all the places in the game where dialogue was communicated only via sound/voice, and converts them to full dialogues. This makes it possible to translate that dialogue into languages other than english or german, which are the only languages that the sound files were translated into. Most of this voice-only dialogue comes in the most important, plot-critical cutscenes of the game - such as a lot of the ending - which must've been very frustrating for players playing with translations. This component is also great for the hearing impaired, or people who just prefer to play with the volume low, or whatever. I personally don't need it, but I actually prefer it and play with it anyway. Recommended even for english/german players. Never miss out on a plot-critical dialogue again!<p>
+
+           <address>
+            <span class="footer">PS:T Fixpack &gt; Introduction</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+          <h2>Installation</h2>
+
+          <p>The PS:T Ultimate WeiDU Fixpack was created and tested on a clean install of the 4-CD version of Planescape: Torment with the Official PS:T Patch 1.1 applied.<p>
+
+          <p>It is strongly suggested that, due to the great number of changes this mod makes to all areas of the game, that other than the official patch and any language pack you may wish to install, this mod be installed first.  Here is the proper installation order for the official patch, this mod, any language packs and any other mods you may wish to install to your game:</p> <br />
+
+          <ol>
+          <li>Install Planescape: Torment.</li>
+          <li><strong>IF YOU INSTALLED THE 4-CD VERSION OF THE GAME:</strong>  You must now install the <a href="http://www.sorcerers.net/Games/Torment/index_misc.php">Official PS:T Patch 1.1 available at Sorcerer's Place</a> after installing the four CD's, but before installing anything else.  This is not necessary if you installed the 2-CD version of the game, it is already prepatched to version 1.1.</li>
+          <li><strong>IF YOU ARE PLAYING IN A DIFFERENT LANGUAGE:</strong>  You should install your language pack (e.g. german, spanish) at this time, before installing the PS:T Ultimate WeiDU Fixpack.</p>
+          <li>The PS:T Ultimate WeiDU Fixpack (this mod).  See installation instructions below.</li>
+          <li>Any other mods.  WeiDU mods should be compatible.  Non-WeiDU mods may or may not be compatible - install at your own risk.</li> </ol>
+
+          <p><strong>To install the PS:T Ultimate WeiDU Fixpack</strong>, simply extract pstfixpack.rar into the main directory of your Planescape: Torment game (probably C:\Program Files\Black Isle\Torment).  Click Setup-PST-Fix.exe and follow the prompts.</p>
+
+          <p><strong>To uninstall</strong>, simply click Setup-PST-Fix.exe once more and follow the prompts.</p>
+
+           <address>
+            <span class="footer">PS:T Fixpack &gt; Installation</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== D O C U M E N T E D  F I X E S ================== -->
+        <a name="fixes" id="fixes"></a>
+        <div class="content">
+          <h2>Documented Fixes</h2>
+
+          <h3>(POSSIBLE MINOR SPOILERS)</h3>
+          <br />
+
+          </p>
+
+          <p>Here is a partial list of the more significant items and conversations that this mod restores, along with the author that deserves credit for finding and originally fixing the bug.  If the author is not listed as Platter, Restoration Pack, SKARDAVNELNATE or myself (Qwinn), then the author's work was packaged with Platter's Fixpack.</p>
+          <p>Version 1.0-1.01</p> <br />
+          <ol>
+<li>The "Tattoo of Grosuk's Demise" may become available during the game now. (Platter)</li>
+<li>You can now ask Grace about Vhailor when asking about your companions. (Platter)</li>
+<li>You can now have Nordom make Winged Bolts. (Platter and Restoration Pack)</li>
+<li>Your own use of the Ice Knife spell would permanently decrease the THACO of your characters until they were killed and resurrected.  The spell will now only affect your enemies.  (Ash McGowen)</li>
+<li>The Justifier's dialogue will now work correctly and has many more options. (Restoration Pack)</li>
+<li>You can now possibly recruit Sere to join the Anarchists after you do. (Platter)</li>
+<li>Many broken conversation paths with Nordom fixed.  Be sure to ask him about your immortality repeatedly.  (Platter)</li>
+<li>Expect several stat checks in conversations that did not function previously.  In particular, stat checks that did not work in the vanilla game now do so in the dialogues of Mochai, Barkis, Barr, Mantuok, Radine, Shaddeus, Raimon, Quint, Bedai, and Thildon.  (Platter)</li>
+<li>Stat check for Nordom's stat upgrade now corrected.  Be aware, you must have EXTREMELY HIGH (as in maxed) charisma in order to get him the best upgrade now.  (Platter)</li>
+<li>Quest solutions opened up in Sandoz's dialogue if you have greater than 14 INT that would only work if you had exactly 14 INT.  (Platter)</li>
+<li>Can now figure out that Yi'minn's offer to help is a trap with greater than 14 INT, rather than needing exactly 14 INT. (Platter)</li>
+<li>The Negative Token will now work on the skeleton-shadows in Ravel's Maze.  (Ash McGowen)</li>
+<li>Can now get Marissa to stone your LimLim, which can be useful and potentially open up new avenues elsewhere. (Platter)</li>
+<li>Lowden's corpse now much more accessible, was almost impossible to click on in the vanilla game (SKARDAVNELNATE)</li>
+<li>The Hermit in Curst Underground will now give you the scroll of Guardian Mantle he was meant to when you asked him about the deva (although he only hints about it in dialogue)  (SKARDAVNELNATE)</li>
+<li>Several new dialogue branches in the Death Lecturer's dialogue regarding "petitioners" that were orphaned by a bug have been restored.  (SKARDAVNELNATE)</li>
+<li>Sacrificing Annah in the Fortress will now "count".  (SKARDAVNELNATE)</li>
+<li>A great many repetitive journal entries in Able Ponder-Thought's dialogue removed. (SKARDAVNELNATE)</li>
+<li>If Many-As-One agreed to let you leave, his hordes would still attack you.  They will now let you leave peacefully.  Beware ever returning though.  (SKARDAVNELNATE)</li>
+<li>You will have more control over when you leave Carceri now. (SKARDAVNELNATE)</li>
+<li>Many creatures would fail to recognize you as a Chaosman if you became the Factol.  They will now. (SKARDAVNELNATE)</li>
+<li>To avoid the many bugs reported in these situations, party members you are forcibly separated from at certain points in the game will now automatically rejoin you when it is appropriate to do so.  (SKARDAVNELNATE)</li>
+<li>A few sounds that couldn't be heard because their filenames were set incorrectly can now be heard.  This includes neck-cracking and the mortuary bell (Restoration Pack) and several others (SKARDAVNELNATE)</li>
+<li>Lenny will no longer train you as if you've never been a thief when you've already had that training. You may still want him to ask him to train you though. (SKARDAVNELNATE & Qwinn)</li>
+<li>If TNO or Annah received boosts to their thieving skills in dialogue that put the skill above 127, this would break that character's skill permanently. The character will no longer receive that boost in such situations. (SKARDAVNELNATE & Qwinn)</li>
+<li>Totally redid sound settings for EAX.  You shouldn't need to struggle to hear party member comments with Creative EAX environmental sounds turned on now.  (Platter's Fixpack helped by fixing the volume settings, but problems remained, Qwinn redid all settings)</li>
+<li>Thousands of non-trivial spelling, grammar and punctuation errors in dialogues throughout the game fixed. Yes.  Really.  Thousands.  Srsly.  (Qwinn)</li>
+<li>You can now get your reward from Mar for having Aola deal with the Moridor's Box demon even if you left the Hive before cashing in that reward.  Note that Aola still must have done his thing -before- you leave the Hive in order to be able to claim Mar's reward later. (Qwinn - Fixpack Beta 1.38 tried to fix this and didn't do it well)</li>
+<li>Hezobol will now behave correctly when you attempt to stop his slavery in an ineloquent fashion.  You must now be somewhat eloquent to resolve the issue peacefully and get the reward. (Qwinn)</li>
+<li>Many, many creatures that would fail to either give or take your money when they were supposed to will now do so correctly. (Qwinn)</li>
+<li>Many (but not all, exceptions are deliberate) quest-givers that give monetary rewards for completing their quests will now drop that coin if they are killed before their quest is completed.  This can change the optimal course of action in places where decisions need to be made, with the rewards for the various options in the Alley of Dangerous Angles now being much more balanced as a significant example. (Qwinn)</li>
+<li>Can now bring up the matter of burning Iannis's legacy to the Paranoid Incarnation after having confessed the act to Iannis. (Qwinn)</li>
+<li>The Godsmen won't get angry and stop talking to you for no good reason anymore (Platter) (This was later replaced by the Foundry fix listed below as requested by Colin McComb, original programmer of the Foundry)</li>
+<li>Many, many bugs in Yellow-Finger's dialog when Morte is present fixed. (Qwinn)</li>
+<li>Could only tell Able Ponder-Thought you were a Godsman if you barely knew anything about them. (Qwinn)</li>
+<li>The method of finding out that you can ask Able Ponder-Thought about other factions makes sense now, and navigating the various options once you're doing so is streamlined and consistent with other dialogues. (Qwinn)</li>
+<li>A bug prevented a conversation path with TO if you had the Blade of Immortals.  This conversation path is now fixed and available. (Qwinn)</li>
+<li>The thief trainer in Ragpicker's Square, originally named Ratbone, is now named Carver. (Qwinn - this is to remove redundancy with a different, unimplemented Ratbone found in the game files, and that is restored in the Unfinished Business Restored Pendant of Yemeth Quest component)</li>
+<li>Several fixes in conversation with the Githzerai Townsperson in the Hive.  Specifically, you can now remember to ask Dak'kon what the phrase Ach'ali Drowning means, and not greeting the Gith Townsperson in the Gith language when you know it won't make you unable to understand the rest of the conversation. (Qwinn)</li>
+<li>Githzerai Tattoo may now become available. (Restoration Pack first made it possible to get this, but it virtually required metagaming knowledge to do so, it is now a bit easier to get, and several bugs in the process have been fixed by Qwinn)</li>
+<li>If you told TO how you escaped the crystal, he wouldn't remember it.  Now he will. (Qwinn)</li>
+<li>Craddock no longer pays you twice for delivering his message or otherwise working for him. (Qwinn)</li>
+<li>Jarym no longer inexplicably steals a Cockroach Charm from you (if you have one) when you complete his quest. (Qwinn)</li>
+<li>Talking to the Drunk Harlot for the first time with Annah in your party no longer inevitably results in the Drunk Harlot attempting to get the entire area to aggro on you. (Qwinn)</li>
+<li>Several fixes to casting speed spells and descriptions. (Restoration Pack did this incorrectly, IMO, current implementation is by Qwinn)</li>
+<li>Morte's walkthrough in the Mortuary can now be resumed if you drop Morte from your party and pick him back up, until you leave the Mortuary altogether. (Qwinn)</li>
+<li>If you let the various pickpockets go and told them never to return, they will now never again be there when you return to the area afterwards, as was intended. In that circumstance, the pickpockets will no longer remain in the area forever, forever hostile, forever fleeing from you, and forever interfering with your attempts to save your game in those areas. (Qwinn)</li>
+<li>The Crier of Es-Annon will actually Cry for Es-Annon now (via floating text), rather than wander around silently. (Qwinn)</li>
+<li>Any progress in getting Xander the parts for the Dreambuilder would prevent you from telling Yves the story of the Dreambuilder. Can now tell her the story anytime after you learn of it. (Qwinn)</li>
+<li>Fixed unwarranted familiarity with Ilquix's other identity. (Qwinn)</li>
+<li>Ilquix's race corrected. Nearby creatures will now react appropriately. (Qwinn)</li>
+<li>Fixed duplicating Matter-Of-Course bug. (Qwinn - Actually, I made him and Diligence never appear at all in Version 1.0. Oops. This was fixed in all later versions.)</li>
+<li>The Gauntlets of Teeth could be gotten in an inconsistent fashion earlier in the game and for much less effort than their power seems to warrant, and you could not obtain both them and the Teeth of the Fiend in a single game.  All these oddities are explainable by one missing character in an action in Marta's dialogue when you lie to her.  Fixing it, and moving the Gauntlets to Lothar's store, where they are appropriate to his theme and by which point in the game they are no longer clearly overpowered. (Qwinn)</li>
+<li>You can now ask Fell for more information about the tattoos on your body when Dak'kon is translating.  (Qwinn)</li>
+<li>A systemic bug resulted in many characters, who were supposed to say from five to twelve different things in floating text above their heads, never actually saying more than three or rarely four of them.  All those dozens of floating text lines that were never seen before will now appear in game. In particular, look for many characters saying many more new things in this manner in the Buried Village, the Alley of Dangerous Angles, and in the Brothel, as well as Drusilla and Giltspur. (Qwinn)</li>
+<li>Relating to the same bug - all of the patrons in the Brothel now have the potential to stop and talk to any of the girls ocassionally as was intended, rather than this only working for one or two of them (you can't eavesdrop though).  Seriously, just watching everyone in the Brothel interact with one another is really cool now, a lot of work went into making it complex and interesting, which can now be appreciated. (Qwinn)</li>
+<li>Your Festhall Door Key now opens just your door, not every last single door in the Festhall. You (or Annah) can still pick the locks. (Qwinn)</li>
+<li>Iannis had worse amnesia problems than Nameless One.  I've cured him of quite a bit of it, as much as possible with the dialogue available to me. (Qwinn)</li>
+<li>Yvana will no longer communicate with and patch things up with her daughter instantly, without ever leaving dialogue with you.  Her daughter will let you know they've patched things up if you ask her, and you can then ask Yvana about it afterwards. (Qwinn - Actually, the fix didn't work in version 1, I fixed it properly in later versions.)</li>
+<li>Sandoz's guards would converse with each other in floating text - until Sandoz's door opened, after which one of them would go mostly silent and the other would hold both sides of the conversations with himself.  This is fixed. (Qwinn)</li>
+<li>Kel'lera in the back room of the Great Foundry just stands there - the laziest supervisor ever. And her workers never need more nails or tools. She and her workers actually have some of the most complex scripting I've seen in any IE game, but the area file that triggers and controls it all was missing.  I managed to reconstruct what it must have looked like, and fixed a few bugs. Make sure to check this area out. (Qwinn)</li>
+<li>You weren't supposed to be able to mediate the conflict between the Brothers Malako until Kitla gave you the quest to do so. Now you can't. This prevents several related bugs and exploits. (Qwinn)</li>
+<li>Kester's experience award for the quest was wildly inconsistent with Kitla's and Crumplepunch's. (Qwinn)</li>
+<li>Several people in Curst-Carceri would forget ever having met you before, and you them. Kyse the Caretaker, the Hermit, Berrog (if you talk to him first) and Ebb Creakknees will remember prior meetings now. (Qwinn)</li>
+<li>Could repeatedly get Kiri's quest-starting dialogue, potentially reversing her quest to a previous state. (Qwinn)</li>
+<li>You can now report Roberta to the guards or the captain any time before it's actually too late to do so. Also, a single conversation path where you told the Guard Captain about the plot didn't actually result in her being arrested or the quest closed. (Qwinn)</li>
+<li>Depending on what combination of NPC's you had in your group, you could wind up never getting Trias's introductory dialogue and voicing, nor the journal entry describing your meeting.  This is fixed. (Qwinn)</li>
+<li>Among other smaller bugs fixed in his dialogue, Trias no longer fails to notice Grace if Dak'kon is nearby when you first meet him. This prevented an interesting exchange if she was in the group when you first spoke to him. Note that Trias will now have consistently different dialogue depending on whether Grace is nearby or not, as was intended. Also note that he may open up on some matters just by sending her out of the room and then talking to him again - she need not be disbanded from the party. (Qwinn)</li>
+<li>Fhjull will now recognize and comment when you've taken all his spells, as was intended. (Qwinn)</li>
+<li>Experience rewards for rescuing Berrog and/or Tovus were badly bugged.  It is now consistent, appropriate to the choices made and is not randomly dependent on who you speak to first or which of several identical conversation paths you choose. (Qwinn)</li>
+<li>If you had An'Izius arrested (likely), and you entered the Curst Underground prison area more than once (likely), the Executions in Carceri later on would break. Both executions would happen concurrently (which rendered them nonsensical) and both would begin the moment you entered the area rather than when you got within range to see them. Fixed. (Qwinn)</li>
+<li>Tattoo of the Source experience bonus didn't work. Fixed. (Qwinn)</li>
+</ol> <br />
+<p>Version 2.0:</p> <br />
+<ol>
+<li>Added multiple language support. Separated Spelling/Grammar/Punctuation fixes into a separate component.  This component will only be available for installation if you selected English at the beginning of the installation procedure. (Qwinn)</li>
+<li>Added "Subtitled Cutscenes" component. See Introduction section for details.</li>
+<li>SPANISH TRANSLATION, provided by Ghildrean. Subtitled Cutscenes component translated by Palafoxx.</li>
+<li>ITALIAN TRANSLATION, provided by Yakkuz.</li>
+<li>GERMAN TRANSLATION, developed cooperatively by Arkain, Avantenor, Doctor Who, Homisite and Zenju.
+<li>Duplicate conversation option in Mebbeth's dialogue fixed. (Platter)</li>
+<li>Portal Lens and the Modron Engineer will teleport you to Ragpicker's Square, as the description says, rather than the Flophouse area. (SKARDAVNELNATE)</li>
+<li>Additional fixes to calm Warrens after striking deals with Many-As-One. Also, during the MAO fight, individual rats should be much less likely to break morale and flee until MAO himself gives up. (Qwinn)</li>
+<li>Annah's Chained-Teeth-Earrings inventory graphics looked like a normal set of lockpicks.  Credit to Miloch at SHS for creating brand new (and really nice looking) BAMs to make them match the item description. (Miloch, Qwinn)
+<li>A question led to the wrong response in Githzerai Townsperson's dialogue. (Qwinn)</li>
+<li>Journal entry fixes in Ei-Vene and Mebbeth's dialogues. (Qwinn)</li>
+<li>Cutscenes with Ravel will no longer take place at the edge of the screen. (Qwinn)</li>
+<li>Grace would disappear from her Fortress cutscene before it was actually over. (Qwinn)</li>
+<li>There were supposed to be serious negative consequences to lying to Sarossa in the Foundry. You would even be told that she did something to you, but nothing actually happened, and if you talked to her again she'd have forgotten all about it. In Fixpack version 2.0 forward, her curses will work, and you will have the opportunity to apologize (or lie again) in subsequent conversations. (V3.0 EDIT: This did not work correctly in v2.0. Now fixed in v3.0) (Qwinn)</li>
+<li>Area script for Sandoz's room set variables as if you had just entered the Drowned Nations. (Qwinn)</li>
+<li>Fixed broken floating text for Starved Dogs Barking thugs, Drunken Harlot, Jhelai, and a wandering unnamed drunk, all in the area outside the Smoldering Corpse bar.  They should no longer get permanently lost or stuck at the edge of the screen, either. (Qwinn)</li>
+<li>Tattoo of the Joining would become unavailable after Karina thanked you for your efforts. (Qwinn)</li>
+<li>Fruit merchant in the Hive market was a bit too cowardly. He would run away from any enemy of yours on the screen, potentially becoming inaccessible and thus breaking Mebbeth's quest. (Qwinn)</li>
+<li>Fixed Ingress's dialogue, where on subsequent conversations with her you could reverse the state of her quest, even so far as to remove it from your log without failing or completing it. (Qwinn)</li>
+<li>Nameless Ones with 10 or more fighter levels could have difficulty using the portals to the masoleum and to exit the mortuary.  (Qwinn)</li>
+<li>Erratic siege tower portal behavior fixed. (Qwinn)</li>
+<li>"Floating text fixes" from version 1.0 applied to TO's combat taunts. This more than triples the number of combat taunts you will get in battle with TO. (Qwinn)</li>
+<li>Dodecahedron will no longer cause the game to hang for players below 16 INT. (Qwinn)</li>
+<li>Giltspur will no longer give you his first quest if you've already made it impossible to complete. (Qwinn)</li>
+<li>Experience loop in Splinter's dialogue when infiltrating the Sensates for the Anarchists has been fixed.(Qwinn)</li>
+<li>Fixed two conversation paths in Crumplepunch's dialogue. One path asking him about his brother would cause his store to open. Also, asking him about the deva, then asking him about his brother would abruptly terminate the conversation. (Qwinn)</li>
+<li>The Clan Dlan Fixes. Clan Dlan originally packaged some dialogue fixes along with their spanish translation that are actually applicable in any language. With their kind permission, I went through the files, and derived 16 new dialogue fixes from them. Most notable among them are 3 lines restored to Morte and Grace's conversation about how boring Mechanus is (currently it incorrectly transitions into their conversation about the Source), and 3 lines restored to Morte's conversation with Female Cafe Patron in the Clerk's Ward about mimirs. Also, evil TNO's get a bad journal entry relating to Coaxmetal fixed, and Miccah gets a restored line in her arguments with her husband Brokah. (Clan Dlan)</li>
+<li>Many more typo/grammatical fixes for the english version. (Qwinn)</li>
+<p>Thanks to Per Jorner for his excellent bug list that alerted me to the following bugs (more Per bugs fixed in version 3.0)</p>
+<li>Telling TO that you will use his true name to unmake him will no longer set off a long pre-fight cutscene before rolling the ending movies. (Qwinn)</li>
+<li>Bestiary entry for Midwife restored. (Qwinn)</li>
+<li>The Remove Curse spell - both priest and mage - will now ignore magic resistance. Vhailor would always resist this spell previously. (Qwinn)</li>
+<li>Victims of the spell Mechanus Cannon no longer get a saving throw for half damage. Enjoy the added challenge to one particular fight. (Qwinn)</li>
+<li>Mercykillers and Matter-Of-Course will now respond appropriately when other Mercykillers or Diligence are made hostile via dialogue. (Qwinn)</li>
+<li>You must actually use the Dreambuilder before you can tell Kesai-Serrai about it now. Prior to this fix, you could tell her details about the dream as soon as you were given the quest to build the Dreambuilder. (Qwinn)</li>
+<li>The flags set in meeting between Nordom and the Wizard Construct were reversed. Nordom will now remember meeting him, and not act as if he met him when he didn't. (Qwinn)</li>
+    </ol>
+<p>Version 3.0:</p> <br />
+<ol>
+<p>Engine Fixes! Courtesy of the Binary Executable Guru, Brendan Casey, aka "scient". Many thanks to scient for some groundbreaking fixes that were previously thought impossible. Qwinn identified most of the bugs, developed the method to WeiDUize the engine fixes and did some testing, but scient gets all credit for the amazing work in actually working with assembler code to develop the fixes.</p>
+<li>Consistent HP:  As per the game manual, TNO now always gains hit points as a fighter (1-10hp per level till level 9, 3hp per level thereafter) when leveling his highest level class, and no longer gains 1hp when leveling any of his other classes. (scient)</p>
+<li>Class Based THACO:  As per the game manual, TNO loses all of his class abilities when he switches to another class. He no longer keeps his fighter THACO when operating as a mage or thief. (scient)</li>
+<li>Morale Fixes! This major set of fixes correct the previous behavior where party NPC's morale would reset every 8 game hours, among other issues. The following three fixes are a result:</li>
+<li>Dak'kon's Zerth Blade was supposed to transform when gaining certain fighter levels depending on Dak'kon's morale. This usually wouldn't work due to the morale reset. Now it will! You can now see Dak'kon's Streaming Blade or Kinstealer, depending on how you treat him.  (scient)</li>
+<li>TNO and his fellow PC's are no longer immune to fear spells. This makes several fights with mages that were trivially easy no longer so. Beware! (scient)</li>
+<li>Fear spells will no longer effectively just paralyze opponents, which made those spells far far more powerful than they should be. Opponents struck by fear will now run 80% of the time, panic (paralyze) 10% of the time, and go berserk 10% of the time, the same as if their morale had broken naturally. (scient)</li>
+<li>Weapons fix:  Switching weapons would not always update combat statistics such as THACO and number of attacks, especially when equipping non magical weapons. (scient)</li>
+<li>Expanded journal! The diary portion of your journal could only hold about 128 entries, with older entries disappearing as new ones beyond that limit were added. The diary can now hold all entries until the end of the game. (scient)</li>
+<li>Several methods of healing would previously not heal bonus hit points gained from items. This included being healed in dialogues (Mebbeth, Curst Hermit) and TNO's hit points when resurrecting. All hit points will now be healed. (scient)</li>
+<li>Usable Only By Xaositect flag now functions as it should. Currently, this only applies to the Rat Charm restored in Unfinished Business. (scient)</li>
+<li>Portals fix: several portals in the game would stop functioning correctly after TNO changed class/faction/alignment. They will now work properly. (scient)</li>
+<li>Items with faction and alignment restrictions will now automatically de-equip when you change faction or alignment, in the same way items with class restrictions automatically de-equip when you change class. (scient)</li>
+<li>If a character with more than 12 spell slots in a level added or removed an item that gave additional spells, all memorized spells would be wiped and would have to be rememorized. Fixed. (scient)</li>
+<li>Receiving a stat bonus during a dialogue would deactivate item bonuses until the end of the conversation, which could make the player fail stat checks that they should have passed. This was fixed with workarounds in previous versions of the Fixpack, but it is now fixed in the engine. Previous workarounds have been rolled back and removed from the previous version fix list. (scient)</li>
+<li>Equipping the prybar will now grant a 10% bonus to attempts to bash open locked containers, as its description implies. See the non-engine Locks fixes described below. (scient)</li>
+<li>Pickpocketfailed() function fixed. See the non-engine Eli Havelock fix below. (scient)</li>
+<li>The one secret door in the game is no longer automatically discovered. See non-engine Tenement of Thugs fixes below. (scient)</li>
+<p>Version 3.0 Non-engine fixes:.</p>
+<li>AI Fix: Selected creatures in game will now move as quickly as they can (i.e. run) when attacking or being attacked. This raises their minimum intelligence to that of vertebrates. No more casually walking through Baator with 20 ravening demons behind you unable to catch up. This mostly affects creatures only in the later stages of the game.  (Qwinn)</li>
+<li>Tenement of Thugs fixes:  This entire area is designed to be a Thieves' Playground, but instead it was a boring interruption to the game. There were 3 reasons for this. The 1st reason is that there's a secret door near the area exit that lets you run right through the place with zero challenge that was only supposed to be available to Xaositects. That is now fixed by scient in the engine (and Xaositects can still use it if they talk to the right person). The 2nd reason is that all the thugs were set to be initially hostile, which made them unable to be pickpocketed. There was tons of scripting to make them aggro when they saw you, but none of it mattered because they were hostile to begin with. Making them neutral to start with reactivated all their excellent aggro scripting, and made them able to be pickpocketed, which was supposed to be the only way for non-Xaositects to get through the Tenement without combat. The 3rd reason was that the thugs couldn't run (see AI fix above) to block your path to the escape should you attempt to do so without stealth, and they are now capable of doing so. When you see how it all works out and see how carefully the creatures are placed to make it fun for thieves in there, you'll see what I mean. Oh, and as a bonus, the hostility fix means it's now possible to save your game in the area without having to kill almost everyone in it.  (Qwinn)</li>
+<li>Lock Fixes: The thief Open Lock ability was effectively broken. Most locks in games were set to trivial values, easily bashed by a mage with 9 strength, and all but 2 were easily openable by Annah's starting skill or TNO as a level 4 thief. I reviewed all locks one by one and assigned reasonable values that will require some attention to TNO or Annah's lockpick skills (or the Knock spell, no longer useless) in order to open successfully. Do note that there is a small random component to picking/bashing attempts, so trying more than once may achieve unexpected success. Also note the related change to the prybar in the engine fixes section. (Qwinn)</li>
+<li>Attempting to pick Eli Havelock's pockets at a certain time may produce unexpected results, as was intended. See related engine fix. (Qwinn)</li>
+<li>Dak'kon's Streaming and Kinstealer Zerth Blades have been adjusted to progress as one would expect from the item's descriptions (previously, upgrading to his best weapon was a bad thing). See related engine fix. (Qwinn)</li>
+<li>All of the secondary bestiary entries that were originally restored in Kung Fu Man's Restoration Pack are now restored in this Fixpack except for the Alu-Fiend entry. This restores expanded entries for Annah, Dak'kon, Dhall, Dustmen (both male and female), Grace, Ignus, Lothar, Nordom, Trias and Vhailor. (Restoration Pack)  (V4.0: now separated into its own Unfinished Business component)</li>
+<li>Fixes to the Foundry Alarm system. This fix was requested by Colin McComb, the original Black Isle designer of the Foundry. Angering the Foundry citizens will no longer necessarily cut off all Foundry quests. If you mildly anger them, do what they tell you - leave the Foundry and return to calm them down. If you -really- anger them (hostile), run away and stay away for a couple of days to calm them down. If you angered them -and- murdered a Godsman in cold blood, don't expect forgiveness, ever. (Qwinn)</li>
+<li>Further fixes to Sarossa's Curses dialogue. Fixes in Fixpack 2.0 were insufficient to get it working properly. Her curses should now work. (Qwinn)</li>
+<li>In Curst Underground, two black abishai near Tek'elach have the same dialogue they have in the Hive. They were supposed to be red abishai, and their dialogue was supposed to regard Tek'elach. Also, incorrectly sharing one script made them stand on top of one another. One of them is now moved back to where he was supposed to be. (Qwinn)</li>
+<li>Mochai now has some copper on her. It is no longer pointless to handle Barkis's quest by being exceptionally evil, though be aware that the two evil options draw from the same pool of copper. (Qwinn)</li>
+<li>Emoric and Phineas T. Lort were supposed to restart dialogue when you rested via their dialogue options. Now they will. Mebbeth has a similar and more extensive waking dialogue, this is restored in Unfinished Business Restored Mebbeth component. (Qwinn)</li>
+<li>Restored TNO "Gained an Ability" sound when learning Stories Bones Tell and Sensory Touch. (Qwinn)</li>
+<li>When reporting Soego's location to Emoric, the check to see if Soego was dead was done incorrectly - it checked if the Mortuary Soego was dead instead of the Dead Nations Soego. (Qwinn)</li>
+<li>In Ravel's dialogue, you could remember Ravel's question before she asked it with an easy stat check - however, the cutscene that then played was always that of your not remembering, even if you did. The cutscene you get will now be consistent with the outcome of the stat check and what the dialogue says is supposed to happen. This restores a previously unused soundfile for the Nameless One. (Qwinn)</li>
+<li>It is now possible to tell the Dabus in the Alley of Lingering Sighs about his brethren before you talk to the Alley itself. (Qwinn)</li>
+<li>More Warrens of Thought aggro fixes. Talking to Many As One -should- reset area aggro as it indicates in dialogue under all circumstances now. Also, if you are freed by the prison guards, they will no longer incorrectly attack you as soon as you walk through the door they just opened for you. (Qwinn)</li>
+<li>Black abishai in the Lower Ward will no longer disappear and be replaced by a zombie when talking to them with Annah or Morte in your party. (Qwinn)</li>
+<li>Similarly, you can no longer get a dialogue zombie when talking to Iron Nalls with Annah in the party but not close enough to engage in dialogue. (Qwinn)</li>
+<li>Curst thugs that allow you to ask "one and only one question" before "turning and walking away" will now actually turn and walk away, instead of repeatedly allowing you to ask "one and only one question" over and over. (Qwinn)</li>
+<li>The creature file of the two patrolling Harmonium Guards in the Lower Ward were horribly bugged - they were actually selectable and controllable as party members, they had trivial (level 0) stats, and their aggro behavior was wildly erratic. They are now normal NPC's, and their stats match that of other Harmonium Guards. (Qwinn)</li>
+<li>Several NPC's in the Lower Ward had incomplete triggers regarding when you could ask them about Lothar.  (Qwinn)</li>
+<li>Lower Ward Gith Fixes:  the various Lower Ward githzerai dialogues were quite bugged, mostly because you could ask the githzerai about githyanki before you actually met any githyanki. Innocently walking up to the githyanki with Dak'kon in your party no longer means certain disaster. Dak'kon will now warn you not to speak to the githyanki with him nearby, and you will have one chance to get away without combat. (Qwinn)</li>
+<li>If you didn't warn Thorp, and didn't collect your reward from Xanthia right away, there was a 15 second window before she'd leave the area where her dialogue would say she's given you a reward, but you wouldn't actually get it. Fixed. (Qwinn)</li>
+<li>Thugs in the Alley of Dangerous Angles that incorrectly congregate near the center of the area will now go back to their starting positions after you complete their leader's quest. (Qwinn)</li>
+<li>Restoration Pack's change to Adahn's name rolled back to the original 'Adahn the Imagined'. I can't see a reason for that change other than possibly an aesthetic preference which I don't agree with. (Qwinn)</li>
+<li>In the Foundry, Keldor will now say "Saros, good to see you!", rather than Saros saying it to himself, in floating text. (Qwinn)</li>
+<li>Modrons, constructs, Ravel, Trias and TO are now immune to fear effects, based on racial/boss immunities. (Qwinn)</li>
+<li>All infinite-money exploits in stores have been eliminated. You can no longer buy something back from a merchant for less than what you sold it to them for. Affected stores are Brokah and Miccah's, Crumplepunch's, and Conall's.  Also, the two faction vaults that would buy your goods (Emoric and Conall) will no longer do so, thus preventing quests getting broken by selling them quest items, then leaving the faction.  (Qwinn)</li>
+<li>Thanks to SKARDAVNELNATE for spotting an error in previous Fixpack versions that incorrectly changed Conflagration's and Power Word: Blind's casting speeds. They are now 9 and 1, respectively. (Qwinn)</li>
+<li>Major fixes to Agril's dialogue. You will no longer get his "Free me" dialogue when meeting him again in Curst in Carceri, which could lead to getting his reward twice. (Qwinn)</li>
+<li>Additional dialogue fix to Morte's interjections when talking to Aethelgrin and Tegar'in. (Qwinn)</li>
+<li>You could "give" Giltspur's handbill to Scofflaw Penn even if you didn't actually have it in your possession. (Qwinn)</li>
+<li>Snitching the Anarchists out to the Harmonium did not carry any of the obvious consequences. Now it does, with both factions. (Qwinn)</li>
+<li>Bedai Lihn will no longer make inexplicable allusions to things you can't know about yet in your first conversation with her, essentially giving away her secrets in your first conversation long before she's supposed to. (Qwinn)</li>
+<li>Additional minor dialogue fixes for Asonje, the Anarchist skull, several generic Lower Ward citizens, female Giltspur's auction watcher, one Harmonium slave auction guard, one open-air-market worker, Bedai Lihn, Foundry guards, Saros, Kii'na, Kester, Tainted Barse and others.</li>
+<li>Fixed a sound looping error caused if the first new entry added to the vanilla dialogue file had a sound file attached. Generally only happened if Subtitled Cutscenes was the first mod applied after the Fixpack. (Qwinn)</li>
+<li>More duplicate journal entries removed, MANY more misspellings and bad punctuation fixed in the english version, yadda yadda. (Qwinn)</li>
+<p>Thanks to Per Jorner for his excellent bug list that alerted me to the following bugs (these are above and beyond the 7 he alerted me to that were fixed in Fixpack 2.0):</p>
+<li>Festhall aggro fixes. NPC's in the Festhall would react very strangely depending on who you attacked. Sometimes they wouldn't react at all, or even realize dead people were in fact dead. This has been thoroughly analyzed and fixed. As one consequence, being cursed by one inhabitant is a lot less likely to become uncurable. More details in the forums. (Qwinn)</li>
+<li>When Diligence fixes your reputation, currently hostile guards would remain hostile. Permanent guards will now go neutral, and summoned guards will leave the area. (Qwinn)</li>
+<li>You now need to be more lawful in order to get Vhailor's better strength boosts. It is now possible to get his +1 bonus. (Qwinn)</li>
+<li>Grace's experience rewards when answering her questions about her tenth student are now consistent across all dialogue paths. (Qwinn)</li>
+<li>You could renounce the Dustmen and still keep the Dead Truce. Fixed. (Qwinn)</li>
+<li>You used to be able to turn all black-barbed seeds you got from Ravel into wands. Now you can only make three wands, one per twig plot, as was intended. This is important, as there is a use for an unchanged seed later in the game. (Qwinn)</li>
+<li>Weight fixes: Many items had incorrect weights. These are fixed to match the item descriptions. Affected items: Cheese, Crimson Veil, 4 out of 5 versions of the Entropic Blade (this included 2 changes to weapon speed as well), Mortuary Front Door Key, Gehraise's Ring, Mirror of Imaging, Rod of Modron Might, and Tarnished Silver Bracelet. (Qwinn)</li>
+<li>Ignus's experience rewards for discussing Reekwind's story were inconsistent, some dialogue paths giving 10k xp, others giving 6k xp. Standardized at 8k xp for all paths. (Qwinn)</li>
+<li>Two conversation paths in Iannis's dialogue would give double xp for claiming Deionarra's legacy. Fixed. (Qwinn)</li>
+<li>Giving Conall the Anarchist password before giving it to Leena would cut off Leena's quest. Fixed. (Qwinn)</li>
+<li>If you managed to anger a joinable PC enough to attack you, and then you die or leave the area, when you return they would still be hostile (red circle) but wouldn't attack. This is fixed. (Qwinn)</li>
+</ol>
+<p>Version 3.01:  Very minor update</p> <br />
+<ol>
+<li>Quick update to all 3 mods to make the files extract properly to the directory they are in, rather than to a subdirectory.</li>
+<li>Dustman bestiary entries corrected.</li>
+<li>Respawn point in Tenement of Thugs moved to a safer location.</li>
+</ol>
+</ol>
+<p>Version 3.02:  Very minor update</p> <br />
+<ol>
+<li>Makes sure Morte's dialogue file is correctly set when you are reunited with him after a forced separation.</li>
+</ol>
+</ol>
+<p>Version 4.00:</p> <br />
+<ol><p>More Engine Fixes!  Again, all courtesy of Brendan Casey, aka "scient".</p>
+<li>Per 2nd edition D&D rules, constitution bonus to hit points should only apply when gaining a full hit die. (scient)</li>
+<li>When pressing "Level Up" once to gain multiple levels, if any of those levels was a "new" level, you gained a full hit die for old levels too. (scient)</li>
+<li>At very high constitution scores, a character should get a Minimum Roll when rolling hit dice for a new level. An engine bug made it possible to get a roll lower than this value. (scient)</li>
+<li>Per its spell description and 2nd edition rules, Dak'kon's Power of One spell should be subject to race and class restrictions (normally 18 for non fighters, 18/00 for fighters). The Improved Strength spell is still capable of bypassing these restrictions. (scient)</li>
+<li>A method of granting an attack damage bonus used by a few items (Glass Eye, Tattoo of Bloodletting, Tattoo of the Deceiver...) did not stack with itself. (scient)</li>
+<li>One of Nordom's "Removed From Party" sounds restored. (Qwinn - yes really!  I did an engine tweak all by meself!  Woohoo!)</li>
+<li>Fix to prevent Lore from ever possibly rolling below 0. (scient)</li>
+<li>A bug prevented PC's from having their death variables set after the first time they were resurrected. (scient)</li>
+<li>Creatures spawned via INI files would never have their death variables set, nor could they result in alignment hits. Now they do and can. (scient)</li>
+<li>Having the numerical strref's from the dialog.tlk file display for every dialog line in-game, popular with BG2 modders, can now be made to work in PS:T via the proper setting in the torment.ini file.</li>
+<li>The bug where item dialogues would interfere with cutscene dialogues has finally been fixed for good. Thank you, scient, thank you thank you thank you.</li>
+<li>Luck fixes:  once you equipped an item that gave a Luck bonus, you'd never gain luck from any other source again. Also, the wisdom bonuses to luck were not always applying, depending on how wisdom was raised (at levelup was fine, in dialogue or items was not). All sources of luck now stack properly</li>
+<li>Memory increased in parsing of VAR.VAR file, effectively removing the hard limit to the number of global variables that could be added by mods.</li>
+<p>Version 4.0 Non-engine fixes: (all by Qwinn)</p>
+<li>Based on player input, the change to the damage of Dak'kon's Streaming Blade has been reverted. The AC changes still apply.</li>
+<li>When Annah, Grace, Ignus and Nordom died while in your party, you took chaotic and evil alignment hits and your "murder" count went up. You could even potentially get mazed if Annah or Grace died enough times by your side. Fixed.</li>
+<li>Anarchist Faction overhaul: Removed several exploits that permitted joining all factions at once, even as a non-anarchist. As an Anarchist you can now infiltrate only one faction at a time.</li>
+<li>Per an old forum post by Chris Avellone, Nordom's alignment should be Lawful Neutral.</li>
+<li>Many creatures that should logically have affected your alignment (usually negatively) when you killed them did not do so. Examples: everyone in the SW Hive, everyone in Clerk's Ward (except the bartenders, who did give hits), everyone in Foundry, etc.) Effort was taken to only fix the most uncontroversial and obvious omissions.</li>
+<li>You will no longer suffer alignment hits and become a "murderer" when some Carceri citizens are murdered by other creatures.</li>
+<li>If you tried to sell Annah to Vrischika, Vrischika and Standish would attack you due to a bug in the scripting. Fixed.</li>
+<li>Seeing Blackrose in the Alley of Dangerous Angles will no longer create a bestiary entry for Curst Townie, Male.</li>
+<li>Xanthia, Vrischika and various female Sensates that use the Female Aasimar sprite will no longer generate a bestiary entry for an Aasimar.</li>
+<li>Killing Vorten will no longer add the quest to do so to your accepted quest list even if you've never been given the quest.</li>
+<li>Vorten quest will now close after you report the plot.</li>
+<li>The dagger Porphyras Blade was missing the "Enchantment +3" attribute cited in its description. Many creatures are immune to weapons below a certain enchantment level.</li>
+<li>Berrog and Torvus in Carceri can no longer become bugged using fear spells.</li>
+<li>Trias can no longer be pickpocketed for his sword.</li>
+<li>Agril and Tek in Carceri had dialogue that couldn't be seen because they were both hostile. Now, when one dies, the other will go neutral and can be talked to, at least briefly.</li>
+<li>Two voiced lines by Fhjull as you left his house were spoken in reverse order. They are fixed and make sense now.</li>
+<li>Removed obnoxious casty sounds when Morte uses Litany of Curses, which made it very hard to actually hear the curses. Casty sounds are inappropriate anyway, as it is a non-magical ability.</li>
+<li>One of the voiced lines when attempting to remove Annah's vest, silent due to a bug, has been restored.</li>
+<li>FFG "Target immune to weapon" sound inappropriate ("There is nothing I can do."), a more appropriate sound is available ("I cannot wound it.")</li>
+<li>One of Morte's taunts is inaudible, another isn't a taunt. Replacing them with more appropriate available taunts that were previously unavailable.</li>
+<li>On map of Mortuary 2nd floor, "Embalming Room" is mislabelled "Northeast Preparation Room". Fixed.</li>
+<li>FFG and Vhailor both had sounds they were supposed to sometimes play when they died, but they didn't work. Now they do.</li>
+<li>The exit cutscene that was supposed to play after purchasing something from Vlask was always aborting. Fixed.</li>
+<li>Githzerai Townsperson walking script in one of the Hive areas was bugged. Fixed.</li>
+<li>A prostitute and a bar patron that weren't appearing in the Clerk's Ward due to a bug are restored. Also, two bar patrons south of Aelwyn were incorrectly duplicated.</li>
+<li>A customer and bartender on the east side of the Clerk's Ward had floating text lines that weren't working, and were reversed. Fixed.</li>
+<li>Several fixes to quest entries closing prematurely or inappropriately: when gaining evidence against Pikit, when looking for a handkerchief, and when looking for permission to grant someone access to a sensory stone.</li>
+<li>Killing Trash Warrens thugs could incorrectly let TNO claim he'd killed the thugs related to Porphyron's quest.</li>
+<li>Ebb Creakknees will no longer keep respawning in the Carceri warehouse after he leaves.</li>
+<li>Non-functional check in Splinter's dialogue for Death Advocate's status fixed.</li>
+<li>Curst guards and other NPC's will no longer aggro based on your defending Jasilya, which they definitely explicitly were not meant to.</li>
+<li>A Collector in Ragpicker Square did not have his walking script attached correctly.</li>
+<li>Talking animations synchronized with floating text for the two johns of a prostitute in NW section of the Hive. Also, they will now defend the harlot if she is attacked as was intended.</li>
+<li>A walking creature in Curst North area is restored.</li>
+<li>Being a Dustman reduces the number of shadows you encounter in the Fortress. But this also works if you're an anarchist who infiltrated them. Changing it to be based on the Dead Truce.</li>
+<li>Killing Dhall and Baen the Sender decremented rather than incremented your MURDER count.</li>
+<li>Corrected insanely low stats for several NPC's and creatures. See documentation in QwinnFix.tph for specifics. Most notably, larval worms and trelons are no longer marked as level 1 and thus can no longer be insta-killed via the Cloudkill spell. Other improved CRE's include Mantuok, Qui-Sai, sohmiens, and warehouse anarchists.</li>
+<li>Backing out of taking the Godsman oath, then talking to Keldor again, it was possible to become a Godsman without taking the oath or passing the appropriate checks against belonging to another faction.</li>
+<li>Fixed dialogue error asking Nordom about Mechanus when Morte is not around.</li>
+<li>Bug in Raimon's dialogue fixed.</li>
+<li>Duplicated response in Vivian's dialogue if you were evil to her fixed.</li>
+<li>If Dak'kon tells you he'll talk to you later about something after he translates for you in a conversation with Fell, you will now always have the option to ask him to do so.</li>
+<li>The Puzzled Skeleton in the Dead Nations will no longer stop talking to you if you deal with Adozyel harshly during the Restored Pendant of Yemeth quest (bug due to a recycled variable).</li>
+<li>Weapon workers in Foundry would think Bedai was arrested for murder which actually isn't possible.</li>
+<li>Several deaths via dialogue (Jolmi, Yi'minn, Death's Advocate) weren't incrementing your total death count, which does have an impact on the endgame.</li>
+<li>Removed several XP exploits via restarting dialogue with Ravel prior to her attack.</li>
+<li>A number of fixed to Barkis's dialogue, including a bug that could prevent gaining some insight into TNO's resistance to poisons.</li>
+<li>If you make Nordom or Ignus hostile via dialogue, they will now be removed from the party. Not removing them was causing several severe bugs.</li>
+<li>A variable related to restarting dialogue with Fhjull wasn't being set. This effectively restores an unused sound file, too.</li>
+<li>When Vlask sold you a second bead, you weren't actually getting it.</li>
+<li>Bad state weight made it so you never got to see Drusilla's opening "obsessed" dialogue state.</li>
+<li>Zombie 1201 in the Mortuary had a clearly inappropriate chaotic alignment hit. Removed.</li>
+<li>If you have either Annah or FFG in your party when you sleep with a Hive harlot, they will react, but neither reacts if you have them both. Now Annah's reaction will override FFG's, just as happens in Ucho's dialogue in the Clerk's Ward.</li>
+<li>If you killed Mar after getting his axe via dialogue, you'd get a second axe. Fixed.</li>
+<li>Fixes to Kuu-Yin's dialogue, specifically moved a journal entry, and fixed bug where he'd say he was exiting the area but didn't.</li>
+<li>Noroch wasn't giving the copper and bandage rewards indicated by the text if you took care of the pickpocket before being given the quest.</li>
+<li>Morale hits for having Dak'kon kill Ana'zi painfully were inconsistent.</li>
+<li>FFG's first line in her first banter with Morte was inappropriate and used a second time elsewhere, whereas a more appropriate line never used at all. Replaced. This restores an unused sound file.</li>
+<li>Duplicate XP reward in Soego's dialogue removed.</li>
+<li>Intelligence check when claiming to be Adahn in Dustman dialogue fixed.</li>
+<li>Female dustmen lacked the Adahn and chaotic alignment hits that are present in the otherwise identical male dustman dialogue.</li>
+<li>Blackrose will now leave the area when he's supposed to.</li>
+<li>The number of times you can resurrect in the Fortress was being added to, rather than subtracted from, whenever a companion died. This has been confirmed as a bug and is fixed.</li>
+<li>Scofflaw Penn would kick you out, and you'd get a journal entry that the door was locked, but it would remain open until you entered again.</li>
+<li>Missing line in Vhailor's altercation with Grace and Annah restored.</li>
+<li>Removed infinite morale loop in Kesai's dialogue.</li>
+<li>Fixed several journal entry issues in Aelwyn's dialogue.</li>
+<li>Talking to weapons workers, you get a reply option about Kellera talking to Dak'kon after you already have, which comes across as extremely odd. Fixed.</li>
+<li>One specific dialogue path among many identical ones in Sere's dialogue was failing to open up a dialogue option with Hamrys as was intended.</li>
+<li>Talking to Jasilya could unnecessarily set a variable that would badly screw up Tainted Barse and Marquez's quest states.</li>
+<li>Floating rhebuses over dabus's heads synchronized with dialogue cues as much as possible.</li>
+<li>The Red Abishai wouldn't actually aggro if you attacked them via dialogue until you landed a hit. Fixed.</li>
+<li>Female zombie 1148 now has her proper walking script attached.</li>
+<li>If you make the Mortuary hostile, leaving and reentering is supposed to turn off the alarm and make all denizens non-hostile. Due to a script error, though, some select denizens on the first and third floor (including Xachariah) were staying hostile. Fixed.</li>
+<li>If you make the Lim Lim run away via dialogue, you can now go back to the merchant and demand compensation. Everything was there except the variable set when the Lim Lim runs away.</li>
+<li>The Rubikon Wizard's dialogue would reset to the beginning each time you reset the maze. This would reset variables that would allow you to get Nordom's bonus repeatedly. This is due to the same issue that made Curst Citizens forget that they'd met you before. You will now only get Rubikon's full dialogue the first time you meet him.</li>
+<li>Loop in Soego's dialog that could yield infinite Adahn and Chaotic points removed.</li>
+<li>Restored Bestiary Entries, which was implemented in version 3.0 of the Fixpack, is now its own component in UB. Originally restored by Restoration Pack.</li>
+<li>Lore bonus for 15 INT/WIS fixed (was 5, should be 3)</li>
+<li>Thieving penalties for low DEX would disappear if DEX was brought below 9. (Could happen via Chromatic Orb, Jester's Axe, Sarossa's curses.) Fixed.</li>
+<li>The Party Separation fix (where party would reassemble automatically after forced separations) could allow you to reacquire Morte prematurely.  Fixed.</li>
+<li>Exploit that allowed you to reacquire a slave sold to Vrischika fixed.</li>
+<li>Exploit that allowed you to reacquire Morte from the Pillar painlessly fixed.</li>
+<li>Damage bonus for 4 weapon proficiencies fixed (was +5, should be +4)</li>
+<li>Missing reference to Sigil in Dhall's dialogue added, to resolve your inexplicably being able to ask him about it.</li>
+<li>Discrepancies between male and female Dustmen and Dustmen Mourner dialogues resolved. The female dialogues clearly didn't get some late development fixes that the male versions did.</li>
+<li>Rarely, defending yourself from 3 thugs in the Buried village would cause Bish and his thugs in the Trash Warrens to aggro. Fixed.</li>
+<li>Thief-specific tattoos (Cutpurse, Shattered Lock, Shadows) can now be invoked from the inventory screen, not just as Quick Items.</li>
+<li>Talking to all of the brothel patrons, as well as Kesai, you could say "I've talked to nine prostitutes" without ever talking to Dolora.</li>
+<li>Talking to Luis, you could say "I've talked to nine prostitutes" without ever talking to Vivian.</li>
+<li>Pestle Kiln's stringhead greeting as you enter his shop will no longer be instantly overwritten by his twitching.</li>
+<li>A bug in Dimtree's dialogue permanently closed off his quest if you aborted your first conversation with him early.</li>
+<li>Several fixes to Reekwind's dialogue. Completing his quest will now allow you to ask Ignus about one of his stories, as was intended.</li>
+<li>Once Ignus is freed, you can no longer ask patrons of the Smoldering Corpse Bar, "Who is that corpse over there by the doorway?"</li>
+<li>The graphics for the large gears on the northeast wall of the Foundry will no longer disappear leaving gaping black holes in the wall.</li>
+<li>Nordom can now register as having witnessed your confrontation with the Rubikon Wizard.</li>
+<li>Keldor will now face his audience again instead of staying stuck in whatever direction he faced in dialogue with you.</li>
+<li>Sight issues (where it was obnoxiously difficult to see the gear-doors) in the Rubikon maze have been significantly improved.</li>
+<li>Being able to ask Diligence for help when the Harmonium is after you is no longer predicated on one of a handful of arbitrary citizens in the Clerk's Ward being killed.</li>
+<li>At the pillar, the class specialization checks for mage and thief were reversed, so that thieves would use "the Art" to achieve their goal and vice versa.</li>
+<li>The insane glut of wandering Buried Villagers has been reduced to a rational level. It was previously among the most highly populated areas in the game.</li>
+<li>A *lot* of fixes to Ash Mantle's dialogue. His behavior and reactions are now consistent across all identical dialogue states.</li>
+<li>Dialogue bug when first talking to Gris with Annah in the party fixed.</li>
+<li>Mochai will now return to her spot against the wall after approaching the party, if you don't immediately complete the quest that involves her.</li>
+<li>You can now buy Mochai a drink the first time you meet her, not just on subsequent visits.</li>
+<li>Morte interjection when talking to Ebb Creakknees (post-Curst) never appeared due to a bug, it is now restored.</li>
+<li>Morte's interjections when talking to Aethelgrin and Tegar'in will make sense now, as will the devils' replies after the interjections. (This fix was supposed to be in v3.0, and documented as such, but got left out somehow)</li>
+<li>The "fix" to the Ice Knife permanent THACO debuff from Platter's Fixpack has been deprecated. The cure was a bit worse than the disease, as it made you permanently immune to receiving THACO bonuses from items and weapons. If your THACO is permanently debuffed by the Ice Knife spell, the effect can only be removed by dying and being resurrected. A real engine fix for this bug (by scient, in the engine) is expected in future versions.</li>
+</ol>
+
+
+
+         <br /><br />
+          <h3(END POSSIBLE MINOR SPOILERS)</h3>
+
+          <p>Please note that the version 1.01 list is not a complete list of all the bugs that were fixed by the original release of the WeiDU PS:T Fixpack. It is intended as a guide for experienced players to find the more significant content they did not have access to in the original game. The lists for version 2.0 forward are a complete list of changes from previous versions.<p>
+
+          <p>Every last bug however small that is fixed by this mod is well documented in the comments within the .d and .tph files contained in the /dlg and /tph directories of the mod.  A more readable list of all the bugs may, or may not, become available in future versions.</p>
+
+          <p>Not all fixes are listed in this readme, but rest assured, there are literally hundreds of fixes to bugs in items, journal entries, dialogues, alignment hits, quest rewards, creatures, sounds, scripts and so forth.  If anyone becomes aware of a fix that they believe should be listed in this readme, just let me know at the <a href="http://www.shsforums.net/index.php?showforum=552">forum for this mod</a> and I'll be sure to add it.</p>
+
+           <address>
+            <span class="footer">PS:T Fixpack &gt; Introduction</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+
+        <!-- ================== F A Q ================== -->
+        <a name="faq" id="faq"></a>
+        <div class="content">
+          <h2>Frequently Asked Questions</h2>
+
+          <p><strong>Q: I found a typo/grammatical error in an in-game dialogue!  This is an outrage!  Who is responsible for this travesty?</strong><br />A: Qwinn (that's me) is responsible for all typo/grammar corrections in this mod - of which there are literally several thousand.  I took the vanilla dialog.tlk, ran it through a spellchecker and grammar checker, and did about seven line-by-line eyeball passes of the roughly 65,000-line dialog file, then ran a full test playthrough and fixed as many additional typos and errors as I could still find, rather than work from any versions of the dialog file created by any of the other mods.  So if you still find typos, it's my fault, but do please let me know at the <a href="http://www.shsforums.net/index.php?showforum=552">Mod Forum</a> so I can fix them too!</p>
+
+          <p><strong>Q: What is this "Platter's Fixpack 1.37" you speak of?</strong><br />A: Platter's Fixpack is a non-WeiDU Fixpack produced by a talented group of modders several years ago.  It has also not been maintained since August 23, 2004, and my attempts to contact Platter or the other authors - with the exception of SKARDAVNELNATE, see below - have failed.  The mod and it's Readme that lists the contents of Platter's Fixpack 1.37 is still available online <a href="http://www.sorcerers.net/Games/Torment/Platter/index.php">here</a>. The listing of the bugs fixed is quite detailed and comprehensive, and all those bugs are also fixed in this mod.</p>
+
+          <p><strong>Q: What about the new bugs fixed by "Platter's Fixpack 1.37b Beta" available at <a href="http://www.sorcerers.net/Games/Torment/index_mods.php">Sorcerer's Place</a>?</strong><br />A: Due to the beta nature of the mod, some fixes were not correctly implemented. I implemented SKARDAVNELNATE's version of the Hargrimm bug fix, and the fix to the Mar's Ornate Box Quest Bug didn't work properly (hey, it <em>was</em> a beta fix), but I do fix it properly myself.  I am uncomfortable with the fix to Ingress' Teeth +3, as it changes a file field from a valid to an invalid value, and hope to address it properly in a future version of this mod. As for the fix to the Optix Lens, I could not find any difference between the Fixpack Beta version of the file and the original, nor could I locate any relevant bugs on my own.</p>
+
+          <p><strong>Q: Do you intentionally do anything differently from Platter's Fixpack 1.37?</strong><br />A: Not much, really.  Again, POSSIBLE MINOR SPOILER WARNING:
+
+<ol>
+<li>EAX Sound Fixes - Platter helped the situation somewhat by fixing the EAX volume settings, but you could still encounter wildly different volume levels for party member's comments when EAX environmental sounds were turned on.  I adjusted all the other settings, and volume levels should remain consistent now.  At least, these settings work much much better on my system.  As with any hardware-dependent fix, feedback on this would be much appreciated.</li>
+<li>The fix to the Yellow-Fingers/Sharegrave conversation bug was incomplete, I complete it.</li>
+<li>The fix to Thildon's dialogue causing the Foundry to go hostile for no good reason was replaced by the Foundry Alarm Fixes listed under the changelog for Version 3.0 of the Fixpack.</li>
+<li>The restored Rat Charm has been moved to the Unfinished Business Restored Items component.</li>
+<li>Annah's audio and floating text comments in the Hive Mortuary area, before you can recruit her, may behave slightly differently.</li>
+<li>The Ice Knife fix has been deprecated as of v4.0, as it only replaced the permanent +2 THACO debuff with permanent immunity to weapon THACO bonuses. A real fix for this bug will come out in future versions. In the meantime, if your TNO or party members get permanently debuffed THACO, it is due to this spell and the fix is to kill the character and resurrect them.</li>
+<li>I use Restoration Pack's version of the Justifier dialogue, mostly because Restoration Pack created proper new variables dedicated to the task whereas Platter's Fixpack avoided doing so and thus had to reuse inappropriate unused existing variables.  (There were good reasons for the way Fixpack did it at the time, for the record.)</li>
+<li>I fix the GivePartyGold/CreatePartyGold bugs in a very different way - I actually give the creatures the amount of copper they needed to make the original GivePartyGold work properly, rather than make them create new copper magically.  This has some significant implications - see the "What bugs are fixed in this mod that weren't fixed anywhere else until recently?" FAQ section for details.</li>
+<li>I fix the Hezobol "double alignment hit" bug in a different way - I think the double hit was just a symptom of a problem with the conversation paths.  As a result, you can no longer convince the slaver to stop being a slaver by being an ineloquent clod - you have to actually pass one of several (easy) stat checks to end the encounter non-violently and get the experience reward.</li>
+</ol>
+
+          <p><strong>Q: Are you just ripping off Platter's and the other modder's hard work and taking credit for it for yourself?</strong><br />A: I don't think that would be a fair view. I am indeed extending to them great and repeated credit for their work, right in this Readme as well as in the .tph and .d files that do the actual modding work.  But, our methods (non-WeiDU vs. WeiDU) of applying these fixes are completely different.  With the exception of 3 .BAM files (item graphic icons) and a couple of very short script snippets, everything in this mod required original work, and the main use I got out of referring to Platter's mod was to find out what the bugs were, not in actually fixing them (although just that in and of itself is deserving of a great deal of credit which I happily extend).</p>
+
+          <p><strong>Q: I am Platter or one of the other modders who worked on the Fixpack, and I hate what you've done here. You are stealing our work. I despise you with the white hot passion of a thousand burning suns.  May I have your lawyer's phone number?</strong><br />A: Yikes. How about sending me an email first, since I <em>did</em> try to send you one before starting this. As for the lawyer thing - have you lost a source of legal income because of what I've done here? If so, please -do- sue me so I can find out how, I'd love to find a legal way to make a dime off all this myself. Being only lightly employed sucks.</p>
+
+          <p><strong>Q: I am Platter or one of the other modders who worked on the Fixpack, and I think what you've done here is great, thanks for all the credit and for respecting our work enough to keep it alive!</strong><br />A: Hey, no problem at all, drop me a note anyway, you guys did some serious quality work and documented what you did amazingly well, thanks for that, seriously, it helped a lot.</p>
+
+          <p><strong>Q: What is this "Restoration Pack" you speak of?</strong><br />A: Therein lies an interesting story, actually, though I can't personally vouch for any of it. Apparently, Restoration Pack was once a full-blown project called Planescape: Vengeance, made up of several different modders, who were attempting to create a Total Conversion mod using the PS:T engine. The project apparently died a sudden death as the result of a hard drive failure that destroyed most of the work, and the Restoration Pack was an attempt to salvage as much good stuff from that project as possible. It is still available at the <a href="http://www.sorcerers.net/Games/Torment/index_mods.php">Sorcerer's Place</a>.</p>
+
+          <p><strong>Q: Who is "Cilantro"?</strong><br />A: Cilantro was the username of the author responsible for producing the Restoration Pack at the time of its creation. He now goes by the username Kung Fu Man, and has recently dropped by the SHS forums and kindly lent his approval, advice and skillset in further improving these mods, for which I am additionally grateful and I hope he drops by more in the future.</a>.
+
+          <p><strong>Q: Do you intentionally do anything differently from Restoration Pack?</strong><br />A: A great deal. In fact, I probably use less than 50% of the stuff I found in it. Almost certainly due to it's odd origins, a lot of what it contains isn't complete, some changes are trivial, and some of the advertised changes weren't ever actually implemented. There were some gems though, and whatever I felt was of high quality is implemented in this mod.<p>
+
+          <p>The list of differences is extensive, and a very complete list along with an explanation of why the differences were left out can be found in the file \PS:T-Fix\tph\RestoFix.tph that comes with this mod.  Here's a partial list of stuff that players familiar with it might expect that <em>didn't</em> get implemented from the Restoration Pack, either here or in <a href="http://www.spellholdstudios.net/ie/pst-ub">PS:T Unfinished Business</a>:</p>
+<ol>
+<li>The memory of Xander's grandfather and him becoming the only source of the Pacify spell.</li>
+<li>The restored items Blood Fly (Troll), Lockpicks, and the Spell Keys.</li>
+<li>The non-cranium Rat resource.</li>
+<li>Selling skulls to Lothar (which I'm told didn't work properly anyway)</li>
+<li>The changes to Asleep/Frozen animations.</li>
+<li>"More correct bestiary picture for Deionarra" (quoted from Sorcerer's Place)</li>
+<li>Spell casting speed fixes - in most cases, I judged that it was the descriptions that were wrong, not the spells (exception - Power Word: Kill, which was fixed correctly and implemented).  I do many other, different fixes to actual casting speeds and descriptions in my own fix section.</li>
+</ol>
+
+          <p>Here's a partial list of good fixes from the Restoration Pack that <em>did</em> make it into this Fixpack.</p>
+<ol>
+<li>The Justifier Dialog.</li>
+<li>Several sounds restored that were prevented due to bugs:  Neck cracking, Mortuary Alarm sounds, some on-death comments by Morte</li>
+<li>The Githzerai Tattoo is available, but in this mod it is actually a bit easier to get, and it was implemented in a significantly different way.</li>
+<li>Several minor dialogue restorations</li>
+</ol>
+
+          <p>And here's a partial list of good stuff that made it into <a href="http://www.spellholdstudios.net/ie/pst-ub">PS:T Unfinished Business</a>.</p>
+<ol>
+<li>Restored Able Ponder-Thought's Research, although it's been completely rewritten from scratch by Qwinn.</li>
+<li>A restored voiced comment by Grace about Fell when entering the Hive area containing his parlor, in Restored Party Comments and Banters.</li>
+<li>Restored Sword of Wh'ynn, in the UB "Restored Item Cheats (Not Recommended)" component.</li>
+<li>Restored Tome o' Cheats, in the UB "Restored Item Cheats (Not Recommended)" component.  Note that <a href="http://www.spellholdstudios.net/ie/pst-qtweaks">Qwinn's PS:T Tweak Pack</a> has a version of the Tome o' Cheats that you can start the game with - in the UB version you have to buy it from Vrischika's shelves as was originally "intended" (it's quite expensive too).</li>
+<li>Restored Eye of Vecna, Fiend's Teeth, Devil's Due and the Chaos Feather, in the UB "Restored Items" component.</li>
+<li>"Morte's Original Intro", in the UB "Restored More Morte Mortuary Moments" component, also rewritten.</li>
+<li>Restored Bestiary Entries, after a brief appearance in Fixpack v3.0, have now been moved to their own UB component as of version 4.0.</li>
+</ol>
+
+          <p>Again, if you want more details about why some things made it and some didn't, please consult PS:T-Fix\tph\RestoFix.tph.</p>
+
+          <p><strong>Q: What is this "SKARDAVNELNATE'S All Inclusive Fixpack" you speak of?</strong><br />A: This is a non-WeiDU compilation of fixes and restorations, authored by SKARDAVNELNATE, that is overlaid on top of Platter's Fixpack and Restoration Pack.  It fixes at least as many additional bugs as the first two mods do, the most significant of which are listed and credited to him in the Introduction section of this Readme, and also restores several major quests which I WeiDUize and include in my PS:T Unfinished Business.  The AIP is still being maintained by SKARDAVNELNATE and the latest version (20080429) released is available as of the writing of this Readme <a href="http://www.mediafire.com/?m0spxujmgzd">here</a>.</p>
+
+          <p><strong>Q: Are you just ripping off SKARDAVNELNATE's work and taking credit for it for yourself?</strong><br />A: Absolutely not. SKARDAVNELNATE gave me permission before this project started to consult his work in the development of this mod, only asking for credit where it is due, which is happily and deservedly given. We are working cooperatively in keeping each other appraised of bugs we discover and sharing opinions on how best to implement fixes.</p>
+
+          <p><strong>Q: What does "SKARDAVNELNATE" mean, anyway?</strong><br />A: I have no idea. You'll have to ask him. Of course, I shouldn't talk, as I can't provide any good reason for why I go by the moniker Qwinn, except that when I sign up for online stuff it's almost never already taken, it's a nice easy single syllable, and mighty eskimos might have something to do with it, but not necessarily.</p>
+
+          <p><strong>Q: Do you intentionally do anything differently from SKARDAVNELNATE'S All Inclusive Fixpack, as far as the content for the Fixpack goes?</strong><br />A: Very little to speak of, actually. When I've found any bugs in his work, I've told him about it and he's probably already fixed it in his mod too. I've generally agreed with his methods and decisions when it comes to bug fixes. There must be some things. Um. Oh yeah. In my mod, the Sensates will still charge a handful of copper to access the Sensory Stones even after you've gotten "access to privileges only available to Sensates" from Splinter, in his mod they won't. And he fixes bugs where questgivers didn't give their gold rewards by creating it on the spot when the quest reward is due, whereas I actually give them the gold they needed so that they also drop it if they die. There's probably others, but nothing else major is coming to mind as of this writing. There are more differences in implementation in the stuff that went into Unfinished Business, and those differences will be listed in the UB Readme, but as far as the Fixpack goes, we're generally on the same wavelength.  And as I have said, we are keeping each other appraised of bugs we find, and several of the bugs I alerted him to during my work on this mod have already been fixed in his version AIP 20080429.</p>
+
+          <p><strong>Q: Is this Readme ever going to end?</strong><br />A: God, I hope so, as painful as this may be for you to read, imagine trying to WRITE this thing in one sitting.  At least the UB and Tweak Pack Readmes should be a whole lot shorter.</p>
+
+          <p><strong>Q: I found a bug that was fixed in one of the three mods you've referenced, and it isn't fixed in your Fixpack, and you didn't mention it in the last few FAQ questions.  What's with that?</strong><br />A: That would be disturbing, because I am under the apparently mistaken and probably overly confident impression that I got them all.  Please please post the details at the <a href="http://www.shsforums.net/index.php?showforum=552">Mod Forum</a>, as I intend to maintain and update these mods regularly as need arises.</p>
+
+          <p><strong>Q: I disagree that Bugfix X in this mod is really a bug, it sounds more like restored unfinished content that should've gone into Unfinished Business, or even totally new content that should be in the Tweak Pack or another mod.</strong><br />A: First, I -am- really genuinely very interested in that opinion, and would be happy to consider your arguments for moving the content from one mod to another, so please do feel free to start a topic with your argument for why over at the forums I've linked to a million times already.  I enjoy hashing out questions like that.  But second, let me explain the philosophy I've employed in developing these three mods on determining what goes into which mod, and where to draw the many many lines.</p>
+
+          <p>The enabling of dialogues, dialog states, sound fixes and stuff like that could arguably be considered "restorations", and I would probably agree with you that that's what they technically are, but I am nevertheless putting them in the Fixpack.  I'm talking mainly about stuff that seems left out for no good reason, like a cutscene where a line that's right in the middle of the rest of the cutscene's dialog lines in the game files was for no apparent reason not included in the actual cutscene script... yes, you could call that a restoration, but in most cases it's impossible to tell why they aren't in the game, and in those cases I usually default to considering it a bug. If there's any reason at all to believe it was deliberately not implemented, then I put it in UB or elsewhere.  I do apply common sense and reason to such judgments, of course, and not every dropped line I can find in the dialog file is forced into the game (Restoration Pack seemed to try to do that, actually, and I didn't implement a lot of them)... but that's my general philosophy.</p>
+
+          <p>The more tweaking and twitching I have to do to get it to function properly, the more likely it is that I moved it to UB.  I hope you'll agree with the decisions I made in that respect, and if you think something here really belongs there, or something there really belongs here, or whatever, please do feel free to bring it up in the forums.</p>
+
+          <p><strong>Q: What bugs are fixed in this mod that weren't fixed anywhere else until recently?</strong><br />A: I list most of them in the latter part of the long list in the Introduction section.  Take a good read through.  Anything with just my name after it has probably never been fixed elsewhere.</p>
+
+          <p>One change is particularly significant though, and merits some small discussion:  This fixpack considers the situation where a questgiver who can give you a 1000 copper quest reward "from a pouch at his belt" can be killed immediately prior to doing it and not have a single copper on him - to be a bug. As part of this project, I went through and judged every quest on a case-by-case basis, and if the questgiver should've had the money on them when they give you your reward, then you will find the money on their corpse if you kill them before they give you the reward.  (If they did give you the reward, they won't have the money anymore, so don't try doing their quest and -then- killing them to get it again, it won't work.  Psycho.).<p>
+
+          <p>In most cases, this change won't make much of a difference to any but the most psychopathic of players who like to go around killing questgivers. There are exceptions, though. For example, there was always a very obvious "best" option to take when deciding who of the three main actors in the Alley of Dangerous Angles to side with.  That is no longer the case, because since the actor with the largest monetary reward quest will now drop it if you side against them, siding -with- them is no longer the obviously most profitable path to take.  They may still be the best actor to side with, but it's now not so obvious, and it is a lot more balanced, which I as the author consider to be a very good thing.</p>
+
+          <p><strong>Q: Can I PLEASE stop reading this never ending Readme and just install and go play this supposedly bug-free game now?</strong><br />A: Pfffft - you should've done that back up in the Introduction when I told you to!  You didn't need to read any of this FAQ, although I'm glad you did so I could extend credit where it was due.  Now go play!  And hopefully enjoy your best Planescape Torment experience yet. :)</p>
+
+
+          <address>
+            <span class="footer">PS:T Fixpack &gt; FAQ</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== C r e d i t s ================== -->
+        <a name="credits" id="credits"></a>
+        <div class="content">
+          <h2>Credits</h2>
+
+<p>Much of these credits were already extended in the Introduction and FAQ, but here we go again:</p>
+
+<p>Unfortunately, <strong>Platter</strong>, most of his co-authors and <strong>Cilantro</strong> have all but disappeared from the internet since their work, and my attempts to contact them have failed, but they still deserve great credit for the effort and quality of their work which has been reimplemented here.  Co-authors that contributed to Platter's Fixpack were Platter (obviously), Christopher Nice, Ash McGowen, Chaos Incarnate, Joshua Haber, SKARDAVNELNATE, and Barren.</p>
+
+<p><strong>SKARDAVNELNATE</strong> willingly consented to allow me to refer to his tremendous non-WeiDU All Inclusive Fixpack for this mod (and, it should be noted, his original work addressed more bugs than the other authors) and was helpful in answering my many questions, and for that he deserves great credit for the (hopeful) success of this mod and has my gratitude as well.</p>
+
+<p><strong>Qwinn</strong> - that would be me - did all the WeiDUization work which required manually reimplementing every mod by all the other authors.  That means if there's problems in this Fixpack that were fixed in their work, it's almost certainly all my fault, don't blame them.  Also blame me if you found any typos or grammar errors in the dialogs.  I also did all the testing, at least for Version 1.0.  And certainly blame me for any fix that I'm taking credit for, if the fix didn't work or broke something else. So yeah, blame me for everything that goes wrong.  But DO let me know about it at the forums, linked at the top of this readme.  The end goal is to have -no- bugs left.</p>
+
+<p>Credit also goes to to <strong>Vaxquis</strong>, whom I was put into contact with in the last few days of coding this mod, who has tweaked his own game in the past and who pointed me toward a couple of bugs I was unaware of and helpfully suggested ways to fix them.</p>
+
+<p>Many thanks also go to the various modders over at the Gibberlings 3 forums who patiently answered many of my dumber questions as I learned how to mod, particularly <strong>Miloch, Isaya, devsin and Nythrun</strong> who pointed me in the right direction at a couple of tricky points, and to the various players who encouraged me to keep up the project over at G3 as well (particularly, but definitely not limited to, <strong>Icendoan, Daulmakan, and Bearwere)</strong>. I'd also like to extend credit to Spellhold Studios, and <strong>K'aeloree</strong> and <strong>SConrad</strong> in particular, for graciously permitting me to host all three mods here and to grant them a prominent position on the main forum page. Finally, thanks to <strong>thebigg</strong> over at the Pocket Plane Group for hearing out and implementing my wish list for additional features to include in WeiDU 207 that made my job easier.</p>
+
+<p>Version 2.0:<p>
+
+<p>As noted in the bug list, the folks over at <strong>Clan Dlan</strong> had 16 bug fixes packaged with their spanish translation that they have kindly allowed me to reimplement here. Many thanks go out to them, particularly <strong>Immortality, Ghildrean</strong> (who did the spanish translation of these mods) and <strong>Palafoxx</strong>. Those bug fixes are implemented as of version 2.00 of this Fixpack.</p>
+
+<p>Thanks to the many kind players who lent their hard work to translating these mods. <strong>Ghildrean</strong> provided the Spanish translation (except for the Subtitled Cutscenes component, translated by <strong>Palafoxx</strong>). <strong>Yakkuz</strong> provided the Italian translation (except for the Subtitled Cutscenes component, translated by <strong>Dufroise</strong> and <strong>Nore</strong>--and thanks to <strong>Immortality</strong> of Clan Dlan for organizing that part). The German translation was produced by cooperation between (in alphabetical order) <strong>Arkain, Avantenor, Doctor Who, HomiSite, and Zenju</strong>, with HomiSite and Zenju leading the project. Zenju, incidentally, also did the most recent revisions for the german translation of the game, and as such I am especially grateful for his help. HomiSite translated the Subtitled Cutscenes component for German, and Arkain helped double check the undubbed files.</p>
+
+<p><strong>Per Jorner</strong>, who normally hangs out at the No Mutants Allowed Fallout boards, long ago created a bug list for all IE games which I found useful in fixing 7 significant bugs for version 2.00.  Expect even more bugs from that list to be fixed in future versions (though the biggest have been dealt with, and the remainder shouldn't restore lost content).</p>
+
+<p>Additional thanks to <strong>Miloch</strong> for providing new appropriate graphics for Annah's earrings, and for being generally helpful when I've asked him to check on things in the 2CD version.</p>
+
+<p>Version 3.0:</p>
+
+<p>Many thanks to <strong>Chris Avellone</strong>, lead designer of Planescape:Torment, and <strong>Colin McComb</strong>, original designer of the Foundry among other areas, not only for making this classic and wonderful game to begin with, but also for their guidance and kind encouragement on some critical matters. Here's truly hoping they'll like what we've done here.</p>
+
+<p>Obviously, Brendan Casey, aka <strong>scient</strong> gets tremendous thanks and credit for supplying a great number of fixes to engine bugs that were previously considered unfixable. Version 3.0 wouldn't be nearly as cool without his amazing work. Cheers to scient!</p>
+
+<p>Also, thanks again to Per Jorner for his buglist which led to another round of fixes included in version 3.0, and to SKARDAVNELNATE who pointed out a few minor errors in my reimplementation of Platter's Fixpack fixes.</p>
+
+<p>Version 4.0:</p>
+
+<p>Many more thanks to scient for a great many more excellent engine fixes.</p>
+
+<p>Also thanks to <strong>yarpen</strong> and <strong>W. Irving</strong> for providing a Polish translation for the mods.</p>
+
+<p>I hope you enjoy your best Planescape: Torment experience yet!  As fickle as memories can be (as TNO could well assert), may the memory of this, the best CRPG ever written, never die.</p>
+
+
+          <hr class="floatfix" /><!-- Don't remove the <hr /> unless you have text following the last "t2" in this <div>! -->
+          <address>
+            <span class="footer">PS:T Fixpack &gt; Credits</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+        <!-- ================== V e r s i o n   H i s t o r y ================== -->
+        <a name="version" id="version"></a>
+        <div class="content">
+          <h2>Version history</h2>
+          <h6>04 June 2008 - Version 1.0</h6>
+          <ul>
+            <li>Initial Release</li>
+          </ul>
+          <h6>06 June 2008 - Version 1.01</h6>
+          <ul>
+            <li>Fixes a problem pertinent only to the 2CD version.</li>
+          </ul>
+          <h6>19 August 2008 - Version 2.0</h6>
+          <ul>
+            <li>About 40 new fixes.  Added Spanish, German and Italian translations.</li>
+          </ul>
+          <h6>20 December 2008 - Version 3.0</h6>
+          <ul>
+            <li>About 17 engine fixes by scient, and about 50 non-engine related fixes by Qwinn.</li>
+          </ul>
+          <h6>25 December 2008 - Version 3.01</h6>
+          <ul>
+            <li>Minor update.</li>
+          </ul>
+          <h6>1 January 2009 - Version 3.02</h6>
+          <ul>
+            <li>Minor update.</li>
+          </ul>
+          <h6>15 January 2010 - Version 4.0</h6>
+          <ul>
+            <li>Massive update, a dozen new engine fixes and over 100 non-engine bugs fixed.</li>
+          </ul>
+
+          <address>
+            <span class="footer">PS:T Fixpack &gt; Version History</span> &#8226;<a href="#top">BACK TO TOP</a>
+          </address>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1980 @@
+
+INCLUDE ~PST-Fix/utils/Q_EnginePatcher.tph~
+
+
+// Determine if 2CD version or 4CD version
+
+// 2CD Torment.exe Version 1.1 - 5,718,077
+// 4CD Torment.exe Version 1.0 - 5,697,597
+// 4CD Torment.exe Version 1.1 - 5,713,981
+
+
+
+COPY ~Torment.exe~ ~Torment.exe~
+  PATCH_PRINT ~Torment.exe file is %SOURCE_SIZE% bytes in size.~
+
+  SET Q_VER = 0
+  SET Q_POLISH = 0
+  PATCH_IF %SOURCE_SIZE% = 5697597
+  BEGIN
+     INNER_ACTION BEGIN FAIL ~Game version identified as 4CD v1.0. Please apply official PS:T patch 1.1 and rerun setup.~ END
+  END
+  ELSE
+  PATCH_IF %SOURCE_SIZE% = 5713981
+  BEGIN
+     SET Q_VER = 4
+     READ_BYTE 0x3A0FC "Q_Polish_1"
+     READ_BYTE 0x3A0FD "Q_Polish_2"
+     READ_BYTE 0x3A0FE "Q_Polish_3"
+     PATCH_IF "Q_Polish_1" = 0xB0 AND "Q_Polish_2" = 0x01 AND "Q_Polish_3" = 0xC3
+     BEGIN
+        SET Q_POLISH = 1
+        PATCH_PRINT ~Game version identified as 4CD v1.1, Polish Version. Proceeding with installation.~
+     END
+     ELSE
+     BEGIN
+        PATCH_PRINT ~Game version identified as 4CD v1.1. Proceeding with installation.~
+     END
+  END
+  ELSE
+  PATCH_IF %SOURCE_SIZE% = 5718077
+  BEGIN
+     SET Q_VER = 2
+     PATCH_PRINT ~Game version identified as 2CD v1.1. Proceeding with installation.~
+  END
+  ELSE
+  BEGIN
+     INNER_ACTION BEGIN FAIL ~Unknown version of game. Please seek assistance at the forums for this mod at Spellhold Studios.~ END
+  END
+
+  SET Q_Loop = 0
+
+  // CD-Check Patch:  This does not change the CD-check, it merely makes it more efficient to make room for new functions.
+  // Per scient, this patch accomplished the same thing with 70% less bytes, opening up 546 bytes for reuse.
+
+  // 1. revised cd check -> reduced to 30% of original size + won't interfer with majority of existing no cd patchers
+  // offset: 0003A0FC
+  // replace 2cd: 55 53 56 57 8B EC 83 EC 58 FF 15 8C C2 8D 00 8B 3D 30 C6 8D 00 33 D2 89 45 E0 88 55 EC C7 45 E4 01 00 00 00 33 F6 38 55 EC 0F 85 85 00 00 00 8B 45 E4 01 45 E4 85 45 E0 74 6E 0F BE 86 D2 A1 43 00 50 8D 45 E8 68 BA A1 43 00 50 FF D7 8D 45 E8 50 FF 15 90 C2 8D 00 83 F8 05 75 4C 33 D2 52 52 52 52 52 52 8D 45 E8 52 50 FF 15 98 C2 8D 00 85 C0 74 35 33 DB 43 80 7D EC 00 75 2C 8D 45 E8 53 50 8D 45 C8 68 BF A1 43 00 50 FF D7 83 C4 10 8D 45 C8 50 FF 15 A0 C2 8D 00 83 F8 FF 74 04 C6 45 EC FF 43 83 FB 06 7C CE 33 D2 46 83 FE 1A 0F 8C 72 FF FF FF 8A 45 EC 8B E5 5F 5E 5B 5D C3 25 63 3A 5C 00 25 73 63 64 25 64 5C 67 65 6E 6D 6F 76 41 2E 62 69 66 00 41 42 43 44 45 46 47 48 49 4A 4B 4C 4D 4E 4F 50 51 52 53 54 55 56 57 58 59 5A 00 90
+  // replace 4cd: 55 53 56 57 8B EC 83 EC 58 FF 15 88 B2 8D 00 8B 3D 2C B6 8D 00 33 D2 89 45 E0 88 55 EC C7 45 E4 01 00 00 00 33 F6 38 55 EC 0F 85 85 00 00 00 8B 45 E4 01 45 E4 85 45 E0 74 6E 0F BE 86 D2 A1 43 00 50 8D 45 E8 68 BA A1 43 00 50 FF D7 8D 45 E8 50 FF 15 8C B2 8D 00 83 F8 05 75 4C 33 D2 52 52 52 52 52 52 8D 45 E8 52 50 FF 15 94 B2 8D 00 85 C0 74 35 33 DB 43 80 7D EC 00 75 2C 8D 45 E8 53 50 8D 45 C8 68 BF A1 43 00 50 FF D7 83 C4 10 8D 45 C8 50 FF 15 9C B2 8D 00 83 F8 FF 74 04 C6 45 EC FF 43 83 FB 06 7C CE 33 D2 46 83 FE 1A 0F 8C 72 FF FF FF 8A 45 EC 8B E5 5F 5E 5B 5D C3 25 63 3A 5C 00 25 73 63 64 25 64 5C 67 65 6E 6D 6F 76 41 2E 62 69 66 00 41 42 43 44 45 46 47 48 49 4A 4B 4C 4D 4E 4F 50 51 52 53 54 55 56 57 58 59 5A 00 90
+
+  PATCH_IF Q_POLISH = 0
+  BEGIN
+    PATCH_PRINT ~Creating engine space for new functions.~
+    SET searchlength = 0
+    SET replacelength = 242
+
+    SPRINT replacepattern ~12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012~
+    PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~55 53 56 57 8B EC 83 EC 58 FF 15 8C C2 8D 00 8B 3D 30 C6 8D 00 33 D2 89 45 E0 88 55 EC C7 45 E4 01 00 00 00 33 F6 38 55 EC 0F 85 85 00 00 00 8B 45 E4 01 45 E4 85 45 E0 74 6E 0F BE 86 D2 A1 43 00 50 8D 45 E8 68 BA A1 43 00 50 FF D7 8D 45 E8 50 FF 15 90 C2 8D 00 83 F8 05 75 4C 33 D2 52 52 52 52 52 52 8D 45 E8 52 50 FF 15 98 C2 8D 00 85 C0 74 35 33 DB 43 80 7D EC 00 75 2C 8D 45 E8 53 50 8D 45 C8 68 BF A1 43 00 50 FF D7 83 C4 10 8D 45 C8 50 FF 15 A0 C2 8D 00 83 F8 FF 74 04 C6 45 EC FF 43 83 FB 06 7C CE 33 D2 46 83 FE 1A 0F 8C 72 FF FF FF 8A 45 EC 8B E5 5F 5E 5B 5D C3 25 63 3A 5C 00 25 73 63 64 25 64 5C 67 65 6E 6D 6F 76 41 2E 62 69 66 00 41 42 43 44 45 46 47 48 49 4A 4B 4C 4D 4E 4F 50 51 52 53 54 55 56 57 58 59 5A 00 90~ END
+                  ELSE BEGIN SPRINT replacebytes ~55 53 56 57 8B EC 83 EC 58 FF 15 88 B2 8D 00 8B 3D 2C B6 8D 00 33 D2 89 45 E0 88 55 EC C7 45 E4 01 00 00 00 33 F6 38 55 EC 0F 85 85 00 00 00 8B 45 E4 01 45 E4 85 45 E0 74 6E 0F BE 86 D2 A1 43 00 50 8D 45 E8 68 BA A1 43 00 50 FF D7 8D 45 E8 50 FF 15 8C B2 8D 00 83 F8 05 75 4C 33 D2 52 52 52 52 52 52 8D 45 E8 52 50 FF 15 94 B2 8D 00 85 C0 74 35 33 DB 43 80 7D EC 00 75 2C 8D 45 E8 53 50 8D 45 C8 68 BF A1 43 00 50 FF D7 83 C4 10 8D 45 C8 50 FF 15 9C B2 8D 00 83 F8 FF 74 04 C6 45 EC FF 43 83 FB 06 7C CE 33 D2 46 83 FE 1A 0F 8C 72 FF FF FF 8A 45 EC 8B E5 5F 5E 5B 5D C3 25 63 3A 5C 00 25 73 63 64 25 64 5C 67 65 6E 6D 6F 76 41 2E 62 69 66 00 41 42 43 44 45 46 47 48 49 4A 4B 4C 4D 4E 4F 50 51 52 53 54 55 56 57 58 59 5A 00 90~ END
+    LAUNCH_PATCH_MACRO Q_Pattern_Maker
+    WRITE_EVALUATED_ASCII 0x3A0FC "%replacepattern%" (%replacelength%)
+    PATCH_PRINT ~Engine Patched at Offset: 0x3A0FC~
+
+
+    // When waiting for PST cd to be put in, patches cd/dvd drive letter display to 'drive' (default if it can't find one) -> makes more space for patch data
+    // offset: 0003A4E4
+    // replace 2cd: 55 8B EC 6A FF 68 CA E2 8A 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 20 C7 45 DC 00 00 00 00 A1 30 CE 96 00 89 45 F0 68 84 F9 96 00 8D 4D F0 E8 04 24 46 00 8D 45 F0 50 8B 4D 08 E8 E4 1F 46 00 8B 4D DC 83 C9 01 89 4D DC C6 45 FC 00 8D 4D F0 E8 5A 22 46 00 8B 45 08 8B 4D F4 64 89 0D 00 00 00 00 8B E5 5D C2 04 00
+    // replace 4cd: 55 8B EC 6A FF 68 1A D7 8A 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 20 C7 45 DC 00 00 00 00 A1 D8 BC 96 00 89 45 F0 68 34 E8 96 00 8D 4D F0 E8 79 18 46 00 8D 45 F0 50 8B 4D 08 E8 59 14 46 00 8B 4D DC 83 C9 01 89 4D DC C6 45 FC 00 8D 4D F0 E8 CF 16 46 00 8B 45 08 8B 4D F4 64 89 0D 00 00 00 00 8B E5 5D C2 04 00
+
+    PATCH_PRINT ~Creating more engine space for new functions.~
+    SET searchlength = 0
+    SET replacelength = 107
+    SPRINT replacepattern ~12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567~
+    PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~55 8B EC 6A FF 68 CA E2 8A 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 20 C7 45 DC 00 00 00 00 A1 30 CE 96 00 89 45 F0 68 84 F9 96 00 8D 4D F0 E8 04 24 46 00 8D 45 F0 50 8B 4D 08 E8 E4 1F 46 00 8B 4D DC 83 C9 01 89 4D DC C6 45 FC 00 8D 4D F0 E8 5A 22 46 00 8B 45 08 8B 4D F4 64 89 0D 00 00 00 00 8B E5 5D C2 04 00~ END
+                  ELSE BEGIN SPRINT replacebytes ~55 8B EC 6A FF 68 1A D7 8A 00 64 A1 00 00 00 00 50 64 89 25 00 00 00 00 83 EC 20 C7 45 DC 00 00 00 00 A1 D8 BC 96 00 89 45 F0 68 34 E8 96 00 8D 4D F0 E8 79 18 46 00 8D 45 F0 50 8B 4D 08 E8 59 14 46 00 8B 4D DC 83 C9 01 89 4D DC C6 45 FC 00 8D 4D F0 E8 CF 16 46 00 8B 45 08 8B 4D F4 64 89 0D 00 00 00 00 8B E5 5D C2 04 00~ END
+    LAUNCH_PATCH_MACRO Q_Pattern_Maker
+    WRITE_EVALUATED_ASCII 0x3A4E4 "%replacepattern%" (%replacelength%)
+    PATCH_PRINT ~Engine Patched at Offset: 0x3A4E4~
+
+
+    // change function call location above
+    // offset 2cd: 0026F486
+    // replace 2cd: 5A B0
+    // offset 4cd: 0026F646
+    // replace 4cd: 9A AE
+
+    SPRINT "Q_Patch_Name" ~Change function call locations for above CD check functions.~
+    SET searchlength = 0
+    SET replacelength = 2
+    SPRINT replacepattern ~12~
+    PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes   ~5A B0~ END
+                  ELSE BEGIN SPRINT replacebytes   ~9A AE~ END
+    LAUNCH_PATCH_MACRO Q_Pattern_Maker
+    PATCH_IF Q_VER = 2
+    BEGIN  
+      WRITE_EVALUATED_ASCII 0x26F486 "%replacepattern%" (%replacelength%)
+      PATCH_PRINT ~Engine Patched at Offset: 0x26F486~
+    END
+    ELSE
+    BEGIN
+      WRITE_EVALUATED_ASCII 0x26F646 "%replacepattern%" (%replacelength%)
+      PATCH_PRINT ~Engine Patched at Offset: 0x26F646~
+    END
+  END
+
+  // Obtain "Strref On" value (0 or 1) when parsing Torment.ini and toggle display of strref id's for all strings in game (defaults to 0 if not set)
+  // offset: 00038B8A
+  // replace 2cd: 83 F8 00 72 05 83 F8 64 76 07 C7 41 20 50 00 00 00 68 84 48 93 00 6A 50 68 F0 35 93 00 68 00 36 93 00 FF 15 B0 C2 8D 00 8B 4D FC 89 41 24 83 F8 00 72 05 83 F8 64 76 07 C7 41 24 50 00 00 00 68 84 48 93 00 6A 50 68 10 36 93 00 68 1C 36 93 00 FF 15 B0 C2 8D 00 8B 4D FC 89 41 1C 83 F8 00 72 05 83 F8 64 76 07 C7 41 1C 50 00 00 00 68 84 48 93 00 6A 00 68 15 8C 43 00 68 1C 36 93 00 FF 15 B0 C2 8D 00 A2 D9 2B 97 00 EB 11 53 74 72 72 65 66 20 4F 6E 00 90 90 90 90 90 90 90
+  // replace 4cd: 83 F8 00 72 05 83 F8 64 76 07 C7 41 20 50 00 00 00 68 88 38 93 00 6A 50 68 F0 25 93 00 68 1C 26 93 00 FF 15 AC B2 8D 00 8B 4D FC 89 41 24 83 F8 00 72 05 83 F8 64 76 07 C7 41 24 50 00 00 00 68 88 38 93 00 6A 50 68 10 26 93 00 68 1C 26 93 00 FF 15 AC B2 8D 00 8B 4D FC 89 41 1C 83 F8 00 72 05 83 F8 64 76 07 C7 41 1C 50 00 00 00 68 88 38 93 00 6A 00 68 15 8C 43 00 68 1C 26 93 00 FF 15 AC B2 8D 00 A2 89 1A 97 00 EB 11 53 74 72 72 65 66 20 4F 6E 00 90 90 90 90 90 90 90
+
+  PATCH_PRINT ~Enable displaying of STRREFs in game via setting in Torment.ini.~
+  SET searchlength = 0
+  SET replacelength = 156
+  SPRINT replacepattern ~123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~83 F8 00 72 05 83 F8 64 76 07 C7 41 20 50 00 00 00 68 84 48 93 00 6A 50 68 F0 35 93 00 68 00 36 93 00 FF 15 B0 C2 8D 00 8B 4D FC 89 41 24 83 F8 00 72 05 83 F8 64 76 07 C7 41 24 50 00 00 00 68 84 48 93 00 6A 50 68 10 36 93 00 68 1C 36 93 00 FF 15 B0 C2 8D 00 8B 4D FC 89 41 1C 83 F8 00 72 05 83 F8 64 76 07 C7 41 1C 50 00 00 00 68 84 48 93 00 6A 00 68 15 8C 43 00 68 1C 36 93 00 FF 15 B0 C2 8D 00 A2 D9 2B 97 00 EB 11 53 74 72 72 65 66 20 4F 6E 00 90 90 90 90 90 90 90~ END
+                ELSE BEGIN SPRINT replacebytes ~83 F8 00 72 05 83 F8 64 76 07 C7 41 20 50 00 00 00 68 88 38 93 00 6A 50 68 F0 25 93 00 68 1C 26 93 00 FF 15 AC B2 8D 00 8B 4D FC 89 41 24 83 F8 00 72 05 83 F8 64 76 07 C7 41 24 50 00 00 00 68 88 38 93 00 6A 50 68 10 26 93 00 68 1C 26 93 00 FF 15 AC B2 8D 00 8B 4D FC 89 41 1C 83 F8 00 72 05 83 F8 64 76 07 C7 41 1C 50 00 00 00 68 88 38 93 00 6A 00 68 15 8C 43 00 68 1C 26 93 00 FF 15 AC B2 8D 00 A2 89 1A 97 00 EB 11 53 74 72 72 65 66 20 4F 6E 00 90 90 90 90 90 90 90~ END
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  WRITE_EVALUATED_ASCII 0x38B8A "%replacepattern%" (%replacelength%)
+  PATCH_PRINT ~Engine Patched at Offset: 0x38B8A~
+
+
+  SPRINT "Q_Patch_Name" ~1. Fix Item "Usable Only By Xaositect" Flag.~
+
+// search:  08 85 C0 74 1E
+// replace: 08 85 C0 75 1E
+
+  SET Q_Starting_Offset = 0x1C0290
+  SET Q_Replace_Offset  = 3
+
+  SET searchlength = 5
+  SPRINT searchpattern  ~12345~
+  SPRINT searchbytes    ~08 85 C0 74 1E~
+
+  SET replacelength = 1
+  SPRINT replacepattern ~1~
+  SPRINT replacebytes   ~75~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+  SPRINT "Q_Patch_Name" ~2. Fix FullHeal Ignoring HP Granted By Items~
+
+// search:  8B 85 2C F3 FF FF 66 8B 48 1E
+// replace: 66 8B 8A 98 07 00 00 90 90 90
+
+  SET Q_Starting_Offset = 0x51D00
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 10
+  SPRINT searchpattern  ~1234567890~
+  SPRINT searchbytes    ~8B 85 2C F3 FF FF 66 8B 48 1E~
+
+  SET replacelength = 10
+  SPRINT replacepattern ~1234567890~
+  SPRINT replacebytes   ~66 8B 8A 98 07 00 00 90 90 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+  SPRINT "Q_Patch_Name" ~3. Fix FullHealEx Ignoring HP Granted By Items~
+
+// search:  8B 8D 28 F3 FF FF 66 8B 51 1E
+// replace: 66 8B 90 98 07 00 00 90 90 90
+
+  SET Q_Starting_Offset = 0x51D00
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 10
+  SPRINT searchpattern  ~1234567890~
+  SPRINT searchbytes    ~8B 8D 28 F3 FF FF 66 8B 51 1E~
+
+  SET replacelength = 10
+  SPRINT replacepattern ~1234567890~
+  SPRINT replacebytes   ~66 8B 90 98 07 00 00 90 90 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+// MORALE FIXES
+
+// populating max morale (MM) on area load for (N)PC's if it hasn't already been set
+// offset:  0003A1ED
+// replace: 36 80 7E 6C 00 75 0B 36 8A 8E 37 02 00 00 36 88 4E 6C B9 C2 00 00 00 C3
+
+  PATCH_PRINT ~4a. Morale: New Function: Populating Maximum Morale.~
+  SET searchlength = 0
+  SET replacelength = 24
+  SPRINT replacepattern ~123456789012345678901234~
+  SPRINT replacebytes   ~36 80 7E 6C 00 75 0B 36 8A 8E 37 02 00 00 36 88 4E 6C B9 C2 00 00 00 C3~
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  WRITE_EVALUATED_ASCII 0x3A1ED "%replacepattern%" (%replacelength%)
+  PATCH_PRINT ~Engine Patched at Offset: 0x3A1ED~
+
+
+  SPRINT "Q_Patch_Name" ~4b. Morale: Create call to populate MM code on area load.~
+
+// search:      B9 C2 00 00 00 F3 A5 6A
+// replace 2cd: E8 BF 97 CE FF F3 A5 6A
+// replace 4cd: E8 FF 95 CE FF F3 A5 6A
+
+  SET Q_Starting_Offset = 0x350A00
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 8
+  SPRINT searchpattern  ~12345678~
+  SPRINT searchbytes    ~B9 C2 00 00 00 F3 A5 6A~
+
+  SET replacelength = 8
+  SPRINT replacepattern ~12345678~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~E8 BF 97 CE FF F3 A5 6A~ END
+                ELSE BEGIN SPRINT replacebytes ~E8 FF 95 CE FF F3 A5 6A~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+// updating current morale (CM) after MM has been modified by game effects (script functions, items, etc)
+// offset: 0003A205
+// replace: 8B 45 08 36 8A 88 5C 05 00 00 36 88 88 27 07 00 00 B8 01 00 00 00 C3
+
+  PATCH_PRINT ~4c. Morale:  New Function: Updating Current Morale from ACTION functions.~
+  SET searchlength = 0
+  SET replacelength = 23
+  SPRINT replacepattern ~12345678901234567890123~
+  SPRINT replacebytes   ~8B 45 08 36 8A 88 5C 05 00 00 36 88 88 27 07 00 00 B8 01 00 00 00 C3~
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  WRITE_EVALUATED_ASCII 0x3A205 "%replacepattern%" (%replacelength%)
+  PATCH_PRINT ~Engine Patched at Offset: 0x3A205~
+
+
+// revising morale game effects function (inc/dec, set, ?) to use MM and resolve sign roll over
+
+  SPRINT "Q_Patch_Name" ~4d. Morale: Make functions use Maximum Morale + roll over fixes.  Patch 1.~
+
+// search:  81 C2 27 07 00 00 89 55 F4
+// replace: ?? ?? 5C 05 ?? ?? ?? ?? ??
+
+  SET Q_Starting_Offset = 0xB9D00
+  SET Q_Replace_Offset  = 2
+
+  SET searchlength = 9
+  SPRINT searchpattern  ~123456789~
+  SPRINT searchbytes    ~81 C2 27 07 00 00 89 55 F4~
+
+  SET replacelength = 2
+  SPRINT replacepattern ~12~
+  SPRINT replacebytes   ~5C 05~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~4d. Morale: Make functions use Maximum Morale + roll over fixes.  Patch 2.~
+
+// search:  33 D2 8A 91 27 07 00 00 83 FA 14 7E 0A 8B 45 08 C6 80 27 07 00 00 14 8B 4D 08 33 D2 8A 91 27 07 00 00 85 D2 7D 0A 8B 45 08 C6 80 27 07
+// replace: 0F BE 91 5C 05 00 00 90 83 FA 14 7E 0A 8B 45 08 C6 80 5C 05 00 00 14 8B 4D 08 0F BE 91 5C 05 00 00 90 85 D2 7D 0A 8B 45 08 C6 80 5C 05
+
+  SET Q_Starting_Offset = 0xB9D00
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 45
+  SPRINT searchpattern  ~123456789012345678901234567890123456789012345~
+  SPRINT searchbytes    ~33 D2 8A 91 27 07 00 00 83 FA 14 7E 0A 8B 45 08 C6 80 27 07 00 00 14 8B 4D 08 33 D2 8A 91 27 07 00 00 85 D2 7D 0A 8B 45 08 C6 80 27 07~
+
+  SET replacelength = 45
+  SPRINT replacepattern ~123456789012345678901234567890123456789012345~
+  SPRINT replacebytes   ~0F BE 91 5C 05 00 00 90 83 FA 14 7E 0A 8B 45 08 C6 80 5C 05 00 00 14 8B 4D 08 0F BE 91 5C 05 00 00 90 85 D2 7D 0A 8B 45 08 C6 80 5C 05~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~4d. Morale: Make functions use Maximum Morale + roll over fixes.  Patch 3.~
+
+// search:  27 07 00 00 8B 55 08 33 C0 8A 82 27 07 00 00 83 F8 14 7E 0A 8B 4D 08 C6 81 27 07 00 00 14 8B 55 08 33 C0 8A 82 27 07 00 00 85 C0 7D 0A 8B 4D 08 C6 81 27 07
+// replace: 5C 05 00 00 8B 55 08 0F BE 82 5C 05 00 00 90 83 F8 14 7E 0A 8B 4D 08 C6 81 5C 05 00 00 14 8B 55 08 0F BE 82 5C 05 00 00 90 85 C0 7D 0A 8B 4D 08 C6 81 5C 05
+
+  SET Q_Starting_Offset = 0xB9E00
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 52
+  SPRINT searchpattern  ~1234567890123456789012345678901234567890123456789012~
+  SPRINT searchbytes    ~27 07 00 00 8B 55 08 33 C0 8A 82 27 07 00 00 83 F8 14 7E 0A 8B 4D 08 C6 81 27 07 00 00 14 8B 55 08 33 C0 8A 82 27 07 00 00 85 C0 7D 0A 8B 4D 08 C6 81 27 07~
+
+  SET replacelength = 52
+  SPRINT replacepattern ~1234567890123456789012345678901234567890123456789012~
+  SPRINT replacebytes   ~5C 05 00 00 8B 55 08 0F BE 82 5C 05 00 00 90 83 F8 14 7E 0A 8B 4D 08 C6 81 5C 05 00 00 14 8B 55 08 0F BE 82 5C 05 00 00 90 85 C0 7D 0A 8B 4D 08 C6 81 5C 05~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+  SPRINT "Q_Patch_Name" ~4d. Morale: Make functions use Maximum Morale + roll over fixes.  Patch 4.~
+
+// search:  33 C9 8A 88 27 07 00 00 8B C1
+// replace: 0F BE 88 5C 05 00 00 90 8B C1
+
+  SET Q_Starting_Offset = 0xB9E60
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 10
+  SPRINT searchpattern  ~1234567890~
+  SPRINT searchbytes    ~33 C9 8A 88 27 07 00 00 8B C1~
+
+  SET replacelength = 8
+  SPRINT replacepattern ~12345678~
+  SPRINT replacebytes   ~0F BE 88 5C 05 00 00 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+  SPRINT "Q_Patch_Name" ~4d. Morale: Make functions use Maximum Morale + roll over fixes.  Patch 5.~
+
+// search:  27 07 00 00 8B 45 08 33 C9 8A 88 27 07 00 00 83 F9 14 7E 0A 8B 55 08 C6 82 27 07 00 00 14 8B 45 08 33 C9 8A 88 27 07 00 00 85 C9 7D 0A 8B 55 08 C6 82 27 07
+// replace: 5C 05 00 00 8B 45 08 0F BE 88 5C 05 00 00 90 83 F9 14 7E 0A 8B 55 08 C6 82 5C 05 00 00 14 8B 45 08 0F BE 88 5C 05 00 00 90 85 C9 7D 0A 8B 55 08 C6 82 5C 05
+
+  SET Q_Starting_Offset = 0xB9E80
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 52
+  SPRINT searchpattern  ~1234567890123456789012345678901234567890123456789012~
+  SPRINT searchbytes    ~27 07 00 00 8B 45 08 33 C9 8A 88 27 07 00 00 83 F9 14 7E 0A 8B 55 08 C6 82 27 07 00 00 14 8B 45 08 33 C9 8A 88 27 07 00 00 85 C9 7D 0A 8B 55 08 C6 82 27 07~
+
+  SET replacelength = 52
+  SPRINT replacepattern ~1234567890123456789012345678901234567890123456789012~
+  SPRINT replacebytes   ~5C 05 00 00 8B 45 08 0F BE 88 5C 05 00 00 90 83 F9 14 7E 0A 8B 55 08 C6 82 5C 05 00 00 14 8B 45 08 0F BE 88 5C 05 00 00 90 85 C9 7D 0A 8B 55 08 C6 82 5C 05~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~4d. Morale: Make functions use Maximum Morale + roll over fixes.  Patch 6.~
+
+// search:      68 F6 19 00 00 E8 ?? ?? 36 00 83 C4 0C B8 01 00 00 00
+// replace 2cd: 68 F6 19 00 00 E8 ?? ?? 36 00 83 C4 0C E8 12 03 F8 FF
+// replace 4cd: 68 F6 19 00 00 E8 ?? ?? 36 00 83 C4 0C E8 D2 02 F8 FF
+
+  SET Q_Starting_Offset = 0xB9D00
+  SET Q_Replace_Offset  = 0xD
+
+  SET searchlength = 6
+  SPRINT searchpattern  ~123456~
+  SPRINT searchbytes    ~68 F6 19 00 00 E8~
+
+  SET replacelength = 5
+  SPRINT replacepattern ~12345~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~E8 12 03 F8 FF~ END
+                ELSE BEGIN SPRINT replacebytes ~E8 D2 02 F8 FF~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~4e. Morale: Make NPC death reset use Maximum Morale.~
+
+// search:  8A 0D ?? ?? 8F 00 88 88 27 07 00 00
+// replace: ?? 88 5C 05 00 ?? ?? ?? ?? ?? ?? ??
+
+  SET Q_Starting_Offset = 0xB7140
+  SET Q_Replace_Offset  = 0 - 3
+
+  SET searchlength = 8
+  SPRINT searchpattern  ~12345678~
+  SPRINT searchbytes    ~8F 00 88 88 27 07 00 00~
+
+  SET replacelength = 4
+  SPRINT replacepattern ~1234~
+  SPRINT replacebytes   ~88 5C 05 00~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~4f. Morale: NPC combat roll over below 0 fixes. Patch 1 (x4).~
+
+// search:  33 C0 8A 82 27 07 00 00 83 F8 14 7D 16
+// replace: 0F BE 82 27 07 00 ?? 90 ?? ?? ?? ?? ??
+// 4 places
+
+  SET Q_Starting_Offset = 0x3690C0
+  SET Q_Replace_Offset  = 0
+  SET Q_Loop            = 4
+
+  SET searchlength = 13
+  SPRINT searchpattern  ~1234567890123~
+  SPRINT searchbytes    ~33 C0 8A 82 27 07 00 00 83 F8 14 7D 16~
+
+  SET replacelength = 8
+  SPRINT replacepattern ~12345678~
+  SPRINT replacebytes   ~0F BE 82 27 07 00 00 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~4f. Morale: NPC combat roll over below 0 fixes. Patch 2 (x4).~
+
+// search:  33 C0 8A 82 27 07 00 00 85 C0 7E 16
+// replace: 0F BE 82 27 07 00 ?? 90 ?? ?? ?? ??
+// 4 places
+
+  SET Q_Starting_Offset = 0x369100
+  SET Q_Replace_Offset  = 0
+  SET Q_Loop            = 4
+
+  SET searchlength = 12
+  SPRINT searchpattern  ~123456789012~
+  SPRINT searchbytes    ~33 C0 8A 82 27 07 00 00 85 C0 7E 16~
+
+  SET replacelength = 8
+  SPRINT replacepattern ~12345678~
+  SPRINT replacebytes   ~0F BE 82 27 07 00 00 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+
+  SPRINT "Q_Patch_Name" ~4f. Morale: NPC combat roll over below 0 fixes. Patch 3 (x3).~
+
+// search:  33 C9 8A 88 27 07 00 00 83 F9 14 7D 16
+// replace: 0F BE 88 27 07 00 ?? 90 ?? ?? ?? ?? ??
+// 3 places
+
+  SET Q_Starting_Offset = 0x3691C0
+  SET Q_Replace_Offset  = 0
+  SET Q_Loop            = 2
+
+  SET searchlength = 13
+  SPRINT searchpattern  ~1234567890123~
+  SPRINT searchbytes    ~33 C9 8A 88 27 07 00 00 83 F9 14 7D 16~
+
+  SET replacelength = 8
+  SPRINT replacepattern ~12345678~
+  SPRINT replacebytes   ~0F BE 88 27 07 00 00 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~4f. Morale: NPC combat roll over below 0 fixes. Patch 3 (x3).~
+
+// Split this out from the previous patch because the 3rd instance is much further in file and causes significant delay
+// search:  33 C9 8A 88 27 07 00 00 83 F9 14 7D 16
+// replace: 0F BE 88 27 07 00 ?? 90 ?? ?? ?? ?? ??
+// 3 places
+
+  SET Q_Starting_Offset = 0x372F30
+  SET Q_Replace_Offset  = 0
+  SET Q_Loop            = 0
+
+  SET searchlength = 13
+  SPRINT searchpattern  ~1234567890123~
+  SPRINT searchbytes    ~33 C9 8A 88 27 07 00 00 83 F9 14 7D 16~
+
+  SET replacelength = 8
+  SPRINT replacepattern ~12345678~
+  SPRINT replacebytes   ~0F BE 88 27 07 00 00 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+  SPRINT "Q_Patch_Name" ~4f. Morale: NPC combat roll over below 0 fixes. Patch 4 (x3).~
+
+// search:  33 C9 8A 88 27 07 00 00 85 C9 7E 16
+// replace: 0F BE 88 27 07 00 ?? 90 ?? ?? ?? ??
+// 3 places
+
+  SET Q_Starting_Offset = 0x369200
+  SET Q_Replace_Offset  = 0
+  SET Q_Loop            = 2
+
+  SET searchlength = 12
+  SPRINT searchpattern  ~123456789012~
+  SPRINT searchbytes    ~33 C9 8A 88 27 07 00 00 85 C9 7E 16~
+
+  SET replacelength = 8
+  SPRINT replacepattern ~12345678~
+  SPRINT replacebytes   ~0F BE 88 27 07 00 00 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~4f. Morale: NPC combat roll over below 0 fixes. Patch 4 (x3).~
+
+// Split this out from the previous patch because the 3rd instance is much further in file and causes significant delay
+// search:  33 C9 8A 88 27 07 00 00 85 C9 7E 16
+// replace: 0F BE 88 27 07 00 ?? 90 ?? ?? ?? ??
+// 3 places
+
+  SET Q_Starting_Offset = 0x372F70
+  SET Q_Replace_Offset  = 0
+  SET Q_Loop            = 0
+
+  SET searchlength = 12
+  SPRINT searchpattern  ~123456789012~
+  SPRINT searchbytes    ~33 C9 8A 88 27 07 00 00 85 C9 7E 16~
+
+  SET replacelength = 8
+  SPRINT replacepattern ~12345678~
+  SPRINT replacebytes   ~0F BE 88 27 07 00 00 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~4f. Morale: NPC combat roll over below 0 fixes. Patch 5.~
+
+// search:  33 D2 8A 91 27 07 00 00 83 FA 14 7D 16
+// replace: 0F BE 91 27 07 00 ?? 90 ?? ?? ?? ?? ??
+
+  SET Q_Starting_Offset = 0x369280
+  SET Q_Replace_Offset  = 0
+  SET Q_Loop            = 0
+
+  SET searchlength = 13
+  SPRINT searchpattern  ~1234567890123~
+  SPRINT searchbytes    ~33 D2 8A 91 27 07 00 00 83 FA 14 7D 16~
+
+  SET replacelength = 8
+  SPRINT replacepattern ~12345678~
+  SPRINT replacebytes   ~0F BE 91 27 07 00 00 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~4f. Morale: NPC combat roll over below 0 fixes. Patch 6.~
+
+// search:  33 D2 8A 91 27 07 00 00 85 D2 7E 16
+// replace: 0F BE 91 27 07 00 00 90 85 D2 7E 16
+
+  SET Q_Starting_Offset = 0x3692C0
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 12
+  SPRINT searchpattern  ~123456789012~
+  SPRINT searchbytes    ~33 D2 8A 91 27 07 00 00 85 D2 7E 16~
+
+  SET replacelength = 8
+  SPRINT replacepattern ~12345678~
+  SPRINT replacebytes   ~0F BE 91 27 07 00 00 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~4g. Morale: Make function that resets morale every 8 hours use Maximum Morale.~
+
+// rewrite of portion of function that resets morale to 10 after 8 game hours or resting -> now reset to MM
+// search:  8B 85 58 FC FF FF 83 B8 CA 0C 00 00 00
+// replace: 8B 8D 58 FC FF FF 83 B9 CA 0C 00 00 00 0F 84 00 01 00 00 8B 8D 58 FC FF FF 8A 51 20 88 95 98 FD FF FF 8B 85 98 FD FF FF 25 FF 00 00 00 83 F8 02 0F 84 DD 00 00 00 81 C1 94 04 00 00 51 E8 8B 55 08 00 83 C4 04 8B 8D 58 FC FF FF 83 F8 FF 0F 85 BF 00 00 00 8B D1 8B 45 08 D1 E8 8B 8A CA 0C 00 00 6B C9 0F 33 D2 F7 F1 89 45 D4 8B 95 58 FC FF FF 0F BE 82 27 07 00 00 0F BE 8A 5C 05 00 00 3B C1 7E 25 2B C1 25 FF 00 00 00 3B 45 D4 77 08 88 8A 27 07 00 00 EB 0F 8A 82 27 07 00 00 2A 45 D4 88 82 27 07 00 00 EB 77 3B C1 7D 73 2B C8 81 E1 FF 00 00 00 3B 4D D4 77 0E 8A 8A 5C 05 00 00 88 8A 27 07 00 00 EB 0F 8A 82 27 07 00 00 02 45 D4 88 82 27 07 00 00 EB 47 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 8A 91 5C 05 00 00 88 91 27 07 00 00
+
+  SET Q_Starting_Offset = 0x337800
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 13
+  SPRINT searchpattern  ~1234567890123~
+  SPRINT searchbytes    ~8B 85 58 FC FF FF 83 B8 CA 0C 00 00 00~
+
+  SET replacelength = 287
+  SPRINT replacepattern ~12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567~
+  SPRINT replacebytes   ~8B 8D 58 FC FF FF 83 B9 CA 0C 00 00 00 0F 84 00 01 00 00 8B 8D 58 FC FF FF 8A 51 20 88 95 98 FD FF FF 8B 85 98 FD FF FF 25 FF 00 00 00 83 F8 02 0F 84 DD 00 00 00 81 C1 94 04 00 00 51 E8 8B 55 08 00 83 C4 04 8B 8D 58 FC FF FF 83 F8 FF 0F 85 BF 00 00 00 8B D1 8B 45 08 D1 E8 8B 8A CA 0C 00 00 6B C9 0F 33 D2 F7 F1 89 45 D4 8B 95 58 FC FF FF 0F BE 82 27 07 00 00 0F BE 8A 5C 05 00 00 3B C1 7E 25 2B C1 25 FF 00 00 00 3B 45 D4 77 08 88 8A 27 07 00 00 EB 0F 8A 82 27 07 00 00 2A 45 D4 88 82 27 07 00 00 EB 77 3B C1 7D 73 2B C8 81 E1 FF 00 00 00 3B 4D D4 77 0E 8A 8A 5C 05 00 00 88 8A 27 07 00 00 EB 0F 8A 82 27 07 00 00 02 45 D4 88 82 27 07 00 00 EB 47 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 8A 91 5C 05 00 00 88 91 27 07 00 00~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+  SPRINT "Q_Patch_Name" ~4h. Morale: NPC CM handling. Also handles break and recovery.~
+
+// rewrite of continous (N)PC CM handling -> also handles breaking of morale and recovery
+// search:  8B 45 F8 33 C9 8A 88 27 07 00 00 83 F9 14
+// replace: 8B 55 F8 0F BE 8A 27 07 00 00 83 F9 14 7E 07 C6 82 27 07 00 00 14 85 C9 7D 07 C6 82 27 07 00 00 00 0F B6 42 20 83 F8 02 74 7D 8B 4D F8 81 C1 94 04 00 00 51 E8 39 A5 05 00 83 F8 FF 75 5A 8B 55 F8 83 BA CA 0C 00 00 00 75 0E 8A 82 5C 05 00 00 88 82 27 07 00 00 EB 5C 8B 8A CA 0C 00 00 6B C9 0F 8B 82 96 03 00 00 33 D2 F7 F1 85 D2 75 45 8B 55 F8 8A 8A 27 07 00 00 3A 8A 5C 05 00 00 7E 0B 80 E9 01 88 8A 27 07 00 00 EB 29 7D 27 80 C1 01 88 8A 27 07 00 00 EB 1C 8B 55 F8 8A 82 5C 05 00 00 88 82 27 07 00 00 81 C2 C6 0C 00 00 83 3A 14 74 15 EB 29 8B 4D F8 E8 BB 31 00 00 85 C0 75 07 B8 01 00 00 00 EB 1B 8B 55 F8 0F BE 8A 27 07 00 00 3B 8A C6 0C 00 00 77 04 33 C0 EB 05 B8 01 00 00 00 8B E5 5D C3
+
+  SET Q_Starting_Offset = 0x362930
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 14
+  SPRINT searchpattern  ~12345678901234~
+  SPRINT searchbytes    ~8B 45 F8 33 C9 8A 88 27 07 00 00 83 F9 14~
+
+  SET replacelength = 230
+  SPRINT replacepattern ~12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890~
+  SPRINT replacebytes   ~8B 55 F8 0F BE 8A 27 07 00 00 83 F9 14 7E 07 C6 82 27 07 00 00 14 85 C9 7D 07 C6 82 27 07 00 00 00 0F B6 42 20 83 F8 02 74 7D 8B 4D F8 81 C1 94 04 00 00 51 E8 39 A5 05 00 83 F8 FF 75 5A 8B 55 F8 83 BA CA 0C 00 00 00 75 0E 8A 82 5C 05 00 00 88 82 27 07 00 00 EB 5C 8B 8A CA 0C 00 00 6B C9 0F 8B 82 96 03 00 00 33 D2 F7 F1 85 D2 75 45 8B 55 F8 8A 8A 27 07 00 00 3A 8A 5C 05 00 00 7E 0B 80 E9 01 88 8A 27 07 00 00 EB 29 7D 27 80 C1 01 88 8A 27 07 00 00 EB 1C 8B 55 F8 8A 82 5C 05 00 00 88 82 27 07 00 00 81 C2 C6 0C 00 00 83 3A 14 74 15 EB 29 8B 4D F8 E8 BB 31 00 00 85 C0 75 07 B8 01 00 00 00 EB 1B 8B 55 F8 0F BE 8A 27 07 00 00 3B 8A C6 0C 00 00 77 04 33 C0 EB 05 B8 01 00 00 00 8B E5 5D C3~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+// 5. Adds a check to SetGlobal() so if faction globals change (JOIN_FACTION_ID) it will now remove any items that become unequippable (red) with
+// new faction.  Also, adds a check into alignment function to do the same if alignment changes.  Emulating how SetNamelessClass() uses function.
+// offset: 0003A21C
+// replace 2cd: 8B 55 D8 89 51 28 33 F6 FF 75 E8 B8 60 52 94 00 03 C6 50 FF 15 F8 C2 8D 00 74 0A 83 C6 10 83 FE 50 75 E5 EB 10 A1 6C F9 96 00 8B 88 16 35 00 00 E8 BA 95 1B 00 C3
+// replace 4cd: 8B 55 D8 89 51 28 33 F6 FF 75 E8 B8 64 42 94 00 03 C6 50 FF 15 F4 B2 8D 00 74 0A 83 C6 10 83 FE 50 75 E5 EB 10 A1 1C E8 96 00 8B 88 16 35 00 00 E8 7A 97 1B 00 C3
+
+  PATCH_PRINT ~5a. New Function: Item Usability Check (faction/alignment).~
+  SET searchlength = 0
+  SET replacelength = 54
+  SPRINT replacepattern ~123456789012345678901234567890123456789012345678901234~
+
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~8B 55 D8 89 51 28 33 F6 FF 75 E8 B8 60 52 94 00 03 C6 50 FF 15 F8 C2 8D 00 74 0A 83 C6 10 83 FE 50 75 E5 EB 10 A1 6C F9 96 00 8B 88 16 35 00 00 E8 BA 95 1B 00 C3~ END
+                ELSE BEGIN SPRINT replacebytes ~8B 55 D8 89 51 28 33 F6 FF 75 E8 B8 64 42 94 00 03 C6 50 FF 15 F4 B2 8D 00 74 0A 83 C6 10 83 FE 50 75 E5 EB 10 A1 1C E8 96 00 8B 88 16 35 00 00 E8 7A 97 1B 00 C3~ END
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  WRITE_EVALUATED_ASCII 0x3A21C "%replacepattern%" (%replacelength%)
+  PATCH_PRINT ~Engine Patched at Offset: 0x3A21C~
+
+
+  SPRINT "Q_Patch_Name" ~5b. Add call to SetGlobal Join_Faction to check item usability.~
+
+// adds call to above function into SetGlobal
+// search:      8B 55 D8 89 51 28
+// replace 2cd: E8 8C 59 FD FF 90
+// replace 4cd: E8 4C 59 FD FF 90
+
+  SET Q_Starting_Offset = 0x64880
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 6
+  SPRINT searchpattern  ~123456~
+  SPRINT searchbytes    ~8B 55 D8 89 51 28~
+
+  SET replacelength = 6
+  SPRINT replacepattern ~123456~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~E8 8C 59 FD FF 90~ END
+                ELSE BEGIN SPRINT replacebytes ~E8 4C 59 FD FF 90~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~5c. Usability check when alignment changes~
+
+// add call directly to item check function when alignment changes skipping faction id compare (optimizing code to fit call in)
+// search:      8B 45 EC 89 45 D4 8B 4D D4 51
+// replace 2cd: 8B 45 EC 50 E8 05 03 0C 00 83 C4 04 6A FF 8A 15 97 3C 8E 00 52 8B 45 F4 50 8B 0D 5C 1A 97 00 E8 6B 8B DC FF 88 45 F8 E8 29 E0 C5 FF 90
+// replace 4cd: 8B 45 EC 50 E8 BA F5 0B 00 83 C4 04 6A FF 8A 15 87 2C 8E 00 52 8B 45 F4 50 8B 0D 0C 09 97 00 E8 EB 89 DC FF 88 45 F8 E8 69 DE C5 FF 90
+
+  SET Q_Starting_Offset = 0x3DC1E0
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 10
+  SPRINT searchpattern  ~1234567890~
+  SPRINT searchbytes    ~8B 45 EC 89 45 D4 8B 4D D4 51~
+
+  SET replacelength = 45
+  SPRINT replacepattern ~123456789012345678901234567890123456789012345~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~8B 45 EC 50 E8 05 03 0C 00 83 C4 04 6A FF 8A 15 97 3C 8E 00 52 8B 45 F4 50 8B 0D 5C 1A 97 00 E8 6B 8B DC FF 88 45 F8 E8 29 E0 C5 FF 90~ END
+                ELSE BEGIN SPRINT replacebytes ~8B 45 EC 50 E8 BA F5 0B 00 83 C4 04 6A FF 8A 15 87 2C 8E 00 52 8B 45 F4 50 8B 0D 0C 09 97 00 E8 EB 89 DC FF 88 45 F8 E8 69 DE C5 FF 90~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+// 6. Fixed PermanentStatChange() to include item/stat bonuses by emulating functions used when an item is added/removed from paperdoll.
+//    Vanilla used a call that would reset stats to base value without any bonuses which could lead to incorrect dialog checks.
+
+  SPRINT "Q_Patch_Name" ~6. PermaStatChange item/spell bonus update fix.~
+
+// search:      81 C1 B8 09 00 00 51 8B 55 08 81 C2 D0
+// replace 2cd: E8 66 EF 31 00 8B 4D 08 E8 05 44 30 00 EB 19 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90
+// replace 4cd: E8 E6 F0 31 00 8B 4D 08 E8 85 45 30 00 EB 19 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90
+
+  SET Q_Starting_Offset = 0x05D0F0
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 13
+  SPRINT searchpattern  ~1234567890123~
+  SPRINT searchbytes    ~81 C1 B8 09 00 00 51 8B 55 08 81 C2 D0~
+
+  SET replacelength = 40
+  SPRINT replacepattern ~1234567890123456789012345678901234567890~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~E8 66 EF 31 00 8B 4D 08 E8 05 44 30 00 EB 19 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90~ END
+                ELSE BEGIN SPRINT replacebytes ~E8 E6 F0 31 00 8B 4D 08 E8 85 45 30 00 EB 19 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90~ END
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+  SPRINT "Q_Patch_Name" ~7. Fix to Portals Malfunctioning after TNO Class/Faction Change~
+
+// 7. When a trigger is activated, patch adds a check to see if TNO caused the trigger and if trigger is set for TNO.  If so then skip over a number
+// of unnecessary checks.  This resolves issue where checks could cause trigger to fail for TNO even though they shouldn't if TNO
+// class/faction/alignment changed after loading area.  This fixes the 'portal' bug and maybe others.
+
+// offset: 0000F3B1
+// replace 2cd: 8B 55 E4 8B 02 50 E8 F2 DA 3A 00 83 C4 04 83 F8 00 75 17 8B 55 08 8B 02 50 E8 DF DA 3A 00 83 C4 04 83 F8 00 0F 84 DE 01 00 00 8B 55 08 0F B6 42 0B 85 C0 74 0F 8B 4D E4 0F B6 51 0B 3B D0 74 04 32 C0 EB 4C 8B 55 08 0F B6 42 0C 85 C0 74 0F 8B 4D E4 0F B6 51 0C 3B D0 74 04 32 C0 EB 32 8B 55 08 0F B6 42 05 85 C0 74 0F 8B 4D E4 0F B6 51 05 3B D0 74 04 32 C0 EB 18 8B 55 08 0F B6 42 06 85 C0 74 19 8B 4D E4 0F B6 51 06 3B D0 74 0E 32 C0 E9 03 02 00 00 90 90 90 90 90 90 90
+// replace 4cd: 8B 55 E4 8B 02 50 E8 B2 DC 3A 00 83 C4 04 83 F8 00 75 17 8B 55 08 8B 02 50 E8 9F DC 3A 00 83 C4 04 83 F8 00 0F 84 DE 01 00 00 8B 55 08 0F B6 42 0B 85 C0 74 0F 8B 4D E4 0F B6 51 0B 3B D0 74 04 32 C0 EB 4C 8B 55 08 0F B6 42 0C 85 C0 74 0F 8B 4D E4 0F B6 51 0C 3B D0 74 04 32 C0 EB 32 8B 55 08 0F B6 42 05 85 C0 74 0F 8B 4D E4 0F B6 51 05 3B D0 74 04 32 C0 EB 18 8B 55 08 0F B6 42 06 85 C0 74 19 8B 4D E4 0F B6 51 06 3B D0 74 0E 32 C0 E9 03 02 00 00 90 90 90 90 90 90 90
+
+  SET Q_Starting_Offset = 0xF3B1
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 0
+  SPRINT searchpattern  ~~
+  SPRINT searchbytes    ~~
+
+  SET replacelength = 156
+  SPRINT replacepattern ~123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~8B 55 E4 8B 02 50 E8 F2 DA 3A 00 83 C4 04 83 F8 00 75 17 8B 55 08 8B 02 50 E8 DF DA 3A 00 83 C4 04 83 F8 00 0F 84 DE 01 00 00 8B 55 08 0F B6 42 0B 85 C0 74 0F 8B 4D E4 0F B6 51 0B 3B D0 74 04 32 C0 EB 4C 8B 55 08 0F B6 42 0C 85 C0 74 0F 8B 4D E4 0F B6 51 0C 3B D0 74 04 32 C0 EB 32 8B 55 08 0F B6 42 05 85 C0 74 0F 8B 4D E4 0F B6 51 05 3B D0 74 04 32 C0 EB 18 8B 55 08 0F B6 42 06 85 C0 74 19 8B 4D E4 0F B6 51 06 3B D0 74 0E 32 C0 E9 03 02 00 00 90 90 90 90 90 90 90~ END
+                ELSE BEGIN SPRINT replacebytes ~8B 55 E4 8B 02 50 E8 B2 DC 3A 00 83 C4 04 83 F8 00 75 17 8B 55 08 8B 02 50 E8 9F DC 3A 00 83 C4 04 83 F8 00 0F 84 DE 01 00 00 8B 55 08 0F B6 42 0B 85 C0 74 0F 8B 4D E4 0F B6 51 0B 3B D0 74 04 32 C0 EB 4C 8B 55 08 0F B6 42 0C 85 C0 74 0F 8B 4D E4 0F B6 51 0C 3B D0 74 04 32 C0 EB 32 8B 55 08 0F B6 42 05 85 C0 74 0F 8B 4D E4 0F B6 51 05 3B D0 74 04 32 C0 EB 18 8B 55 08 0F B6 42 06 85 C0 74 19 8B 4D E4 0F B6 51 06 3B D0 74 0E 32 C0 E9 03 02 00 00 90 90 90 90 90 90 90~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+  SPRINT "Q_Patch_Name" ~8a. Patching PickPockets() fail to use trigger id PickPocketFailed(0x5D)~
+
+// 8. Fixes PickPockets() failure to send PickPocketFailed trigger id.  Added checks into script parsing function so failed PP attempt when
+// NPC doesn't use PickPocketFailed to translate into AttackedBy.  This is was how the original code was setup.  This fix allows for dialog
+// options by Eli Havelock when you try to pickpocket him.  Also, possibility of using PickPocketFailed in the future as long as it is put
+// above AttackedBy in BCS.
+
+// patching PickPockets() on failure to use trigger id of 0x5D
+// search:  6A 00 8B 85 40 FD FF FF 83 C0 1C 50 6A 02
+// replace: 6A 00 8B 85 40 FD FF FF 83 C0 1C 50 6A 5D
+
+  SET Q_Starting_Offset = 0x3A9DB0
+  SET Q_Replace_Offset  = 0xD
+
+  SET searchlength = 14
+  SPRINT searchpattern  ~12345678901234~
+  SPRINT searchbytes    ~6A 00 8B 85 40 FD FF FF 83 C0 1C 50 6A 02~
+
+  SET replacelength = 1
+  SPRINT replacepattern ~1~
+  SPRINT replacebytes ~5D~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+  SPRINT "Q_Patch_Name" ~8b. Add in checks for trigger check id of 0x02 and current id of 0x5D~
+
+// add in checks for trigger check id of 0x02 and current id of 0x5D -> pickpock failed w/o PickPocketFailed trigger
+// offset:  0x34225
+// replace: 0F BF 08 8B 55 EC 0F BF 02 83 F8 5D 75 05 83 F9 02 74 04 3B C1 75 49 8B 55 08 8B 42 02 8B 4D EC 8B 51 02 3B D0 90 90
+
+  SET Q_Starting_Offset = 0x34225
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 0
+  SPRINT searchpattern  ~~
+  SPRINT searchbytes    ~~
+
+  SET replacelength = 39
+  SPRINT replacepattern ~123456789012345678901234567890123456789~
+  SPRINT replacebytes ~0F BF 08 8B 55 EC 0F BF 02 83 F8 5D 75 05 83 F9 02 74 04 3B C1 75 49 8B 55 08 8B 42 02 8B 4D EC 8B 51 02 3B D0 90 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+// 9. Add bash bonus to Prybar as implied by item description (+10 to bash skill)
+
+  SPRINT "Q_Patch_Name" ~9a. Function to check currently equipped weapon to PRYBAR item ID.~
+
+// retrieve currently equipped weapon and check if it is PRYBAR
+// offset: 0003A2C2
+// replace 2cd:  66 89 95 74 FF FF FF 8B 85 20 FD FF FF 0F B6 88 74 0C 00 00 83 F9 2B 7C 25 83 F9 2E 7F 20 8B 94 88 B8 0B 00 00 83 C2 0C 52 68 01 A3 43 00 FF 15 14 C2 8D 00 75 08 66 83 85 74 FF FF FF 0A C3 50 52 59 42 41 52 00
+// replace 4cd:  66 89 95 74 FF FF FF 8B 85 20 FD FF FF 0F B6 88 74 0C 00 00 83 F9 2B 7C 25 83 F9 2E 7F 20 8B 94 88 B8 0B 00 00 83 C2 0C 52 68 01 A3 43 00 FF 15 C8 B2 8D 00 75 08 66 83 85 74 FF FF FF 0A C3 50 52 59 42 41 52 00
+
+  SET Q_Starting_Offset = 0x3A2C2
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 0
+  SPRINT searchpattern  ~~
+  SPRINT searchbytes    ~~
+
+  SET replacelength = 70
+  SPRINT replacepattern ~1234567890123456789012345678901234567890123456789012345678901234567890~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~66 89 95 74 FF FF FF 8B 85 20 FD FF FF 0F B6 88 74 0C 00 00 83 F9 2B 7C 25 83 F9 2E 7F 20 8B 94 88 B8 0B 00 00 83 C2 0C 52 68 01 A3 43 00 FF 15 14 C2 8D 00 75 08 66 83 85 74 FF FF FF 0A C3 50 52 59 42 41 52 00~ END
+                ELSE BEGIN SPRINT replacebytes ~66 89 95 74 FF FF FF 8B 85 20 FD FF FF 0F B6 88 74 0C 00 00 83 F9 2B 7C 25 83 F9 2E 7F 20 8B 94 88 B8 0B 00 00 83 C2 0C 52 68 01 A3 43 00 FF 15 C8 B2 8D 00 75 08 66 83 85 74 FF FF FF 0A C3 50 52 59 42 41 52 00~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~9b.  Add PRYBAR check call to BashDoor()~
+
+// adds call to above check inside BashDoor()
+// search:      66 89 95 74 FF FF FF 6A 00
+// replace 2cd: E8 30 A2 C8 FF 90 90 6A 00
+// replace 4cd: E8 70 A0 C8 FF 90 90 6A 00
+
+  SET Q_Starting_Offset = 0x3B0000
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 9
+  SPRINT searchpattern  ~123456789~
+  SPRINT searchbytes    ~66 89 95 74 FF FF FF 6A 00~
+
+  SET replacelength = 7
+  SPRINT replacepattern ~1234567~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~E8 30 A2 C8 FF 90 90~ END
+                ELSE BEGIN SPRINT replacebytes ~E8 70 A0 C8 FF 90 90~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+  SPRINT "Q_Patch_Name" ~10. Expand max number of journal entries.~
+
+// 11. Increasing the max amount of components (strref?) which can be displayed at the same time in all UI controls from 256 to 1280
+// (values mostly set at startup).  The original intent of this fix was to expand the amount of entires displayed in journal control
+// GUIJRNL which was limited to 128 (128 entries + 128 spaces = 256 components).
+
+// search:  66 C7 82 38 0A 00 00 00 01
+// replace: 66 C7 82 38 0A 00 00 00 05
+
+  SET Q_Starting_Offset = 0x100890
+  SET Q_Replace_Offset  = 8
+
+  SET searchlength = 9
+  SPRINT searchpattern  ~123456789~
+  SPRINT searchbytes    ~66 C7 82 38 0A 00 00 00 01~
+
+  SET replacelength = 1
+  SPRINT replacepattern ~1~
+  SPRINT replacebytes   ~05~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+// 12. Fixes the toggle for assigning flee mode state for Horror / Ignus' Terror.  Now both spells act as if morale was broken normally
+// through combat with probability of "Run" set to 80%, "Panic" set to 10% and "Berserk" set to 10%.  Before fix both spells would always
+// set NPC's state to "Panic" where they would stand in place causing them to be overpowered.  Also see morale fixes where (NPC'ed) PC's
+// are handled so horror/terror can land without causing problems.
+
+
+  SPRINT "Q_Patch_Name" ~11a. Fixes flee state for Horror/Ignus' Terror. Spells work like morale break now.~
+
+// function to handle toggle whether or not to set flee mode state -> prevents state from getting assigned a second time if spell is cast more than once
+// search:  75 46 8B 45 08
+// replace: 75 33 8B 45 08 C6 80 28 07 00 00 14 8B 55 08 81 C2 08 05 00 00 89 55 F8 8B 45 F8 8B 08 83 C9 04 8B 55 F8 89 0A 8B 4D FC B8 01 00 00 00 89 41 48 89 41 44 EB 2F 8B 55 08 C7 82 C6 0C 00 00 14 00 00 00 8B 4D 08 81 C1 84 0C 00 00 89 4D F4 8B 55 F4 8B 02 0C 04 8B 4D F4 89 01 8B 55 FC C7 42 44 00 00 00 00 8B 45 08 05 4A 50 00 00 83 38 00 75 08 C7 00 02 00 00 00 EB 0B 83 38 02 75 06 C7 00 00 00 00 00
+
+  SET Q_Starting_Offset = 0xB9F00
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 5
+  SPRINT searchpattern  ~12345~
+  SPRINT searchbytes    ~75 46 8B 45 08~
+
+  SET replacelength = 132
+  SPRINT replacepattern ~123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012~
+  SPRINT replacebytes   ~75 33 8B 45 08 C6 80 28 07 00 00 14 8B 55 08 81 C2 08 05 00 00 89 55 F8 8B 45 F8 8B 08 83 C9 04 8B 55 F8 89 0A 8B 4D FC B8 01 00 00 00 89 41 48 89 41 44 EB 2F 8B 55 08 C7 82 C6 0C 00 00 14 00 00 00 8B 4D 08 81 C1 84 0C 00 00 89 4D F4 8B 55 F4 8B 02 0C 04 8B 4D F4 89 01 8B 55 FC C7 42 44 00 00 00 00 8B 45 08 05 4A 50 00 00 83 38 00 75 08 C7 00 02 00 00 00 EB 0B 83 38 02 75 06 C7 00 00 00 00 00~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+  SPRINT "Q_Patch_Name" ~11b. Removes a redundant check that prevents PC's from having flee state set.~
+
+// search:  0F 84 10 02 00 00
+// replace: 90 90 90 90 90 90
+
+  SET Q_Starting_Offset = 0x36EE00
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 6
+  SPRINT searchpattern  ~123456~
+  SPRINT searchbytes    ~0F 84 10 02 00 00~
+
+  SET replacelength = 6
+  SPRINT replacepattern ~123456~
+  SPRINT replacebytes   ~90 90 90 90 90 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+// 13. Revised a check for how many spells to unmemorise when an item with spell bonuses is removed.  In vanilla game, if you had
+// over 12 spell slots prior to taking off the item it would wipe all the spells for that level.
+
+  SPRINT "Q_Patch_Name" ~12a. Patching check for mage bonus spell item removal.~
+
+// patching mage bonus spell check on item removal
+// search:  8B 95 E4 FD FF FF C1 E2 04 33 C0 66 8B 84 15 22 FF FF FF 8B 8D
+// replace: 8B 95 24 F7 FF FF 8B 85 E4 FD FF FF 6B C0 1C 8B 8C 10 AC 0A 00 00 8B 85 E4 FD FF FF C1 E0 04 0F B7 B4 10 F0 0D 00 00 33 D2 3B CE 7E 04 2B CE 8B D1 E9 83 00 00 00 90
+
+  SET Q_Starting_Offset = 0x373200
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 21
+  SPRINT searchpattern  ~123456789012345678901~
+  SPRINT searchbytes    ~8B 95 E4 FD FF FF C1 E2 04 33 C0 66 8B 84 15 22 FF FF FF 8B 8D~
+
+  SET replacelength = 55
+  SPRINT replacepattern ~1234567890123456789012345678901234567890123456789012345~
+  SPRINT replacebytes   ~8B 95 24 F7 FF FF 8B 85 E4 FD FF FF 6B C0 1C 8B 8C 10 AC 0A 00 00 8B 85 E4 FD FF FF C1 E0 04 0F B7 B4 10 F0 0D 00 00 33 D2 3B CE 7E 04 2B CE 8B D1 E9 83 00 00 00 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~12b. Patching check for cleric bonus spell item removal.~
+
+// patching priest bonus spell check on item removal
+// search:  8B 85 E4 FD FF FF C1 E0 04 33 C9 66 8B 8C 05 EE FD FF FF 8B 95 E4 FD FF FF
+// replace: 8B 95 24 F7 FF FF 8B 85 E4 FD FF FF 6B C0 1C 8B 8C 10 04 0A 00 00 8B 85 E4 FD FF FF C1 E0 04 0F B7 B4 10 80 0E 00 00 33 C0 3B CE 7E 04 2B CE 8B C1 E9 83 00 00 00 90
+
+  SET Q_Starting_Offset = 0x373300
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 25
+  SPRINT searchpattern  ~1234567890123456789012345~
+  SPRINT searchbytes    ~8B 85 E4 FD FF FF C1 E0 04 33 C9 66 8B 8C 05 EE FD FF FF 8B 95 E4 FD FF FF~
+
+  SET replacelength = 55
+  SPRINT replacepattern ~1234567890123456789012345678901234567890123456789012345~
+  SPRINT replacebytes   ~8B 95 24 F7 FF FF 8B 85 E4 FD FF FF 6B C0 1C 8B 8C 10 04 0A 00 00 8B 85 E4 FD FF FF C1 E0 04 0F B7 B4 10 80 0E 00 00 33 C0 3B CE 7E 04 2B CE 8B C1 E9 83 00 00 00 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+
+  SPRINT "Q_Patch_Name" ~13a. TNO doesn't recover bonus HP on death. Deactivating original heal.~
+
+// Setting toggle to disable healing 1st call of general healing/revive function (pre item bonus update)
+// search:  C7 41 0C 01 00 01 00
+// replace: C7 41 0C 0A 00 01 00
+
+  SET Q_Starting_Offset = 0x3DDBE0
+  SET Q_Replace_Offset  = 3
+
+  SET searchlength = 7
+  SPRINT searchpattern  ~1234567~
+  SPRINT searchbytes    ~C7 41 0C 01 00 01 00~
+
+  SET replacelength = 1
+  SPRINT replacepattern ~1~
+  SPRINT replacebytes   ~0A~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~13b. TNO specific revive check inside general healing function.~
+
+// Doing TNO revive specific checks (0x0A/0x0B) inside general healing function
+// Search:      89 95 48 FF FF FF 83 BD 48 FF FF FF 04 0F 87 12 01 00 00 8B 85 48 FF FF FF
+// Replace:     83 FA 0A 75 02 EB F1 83 FA 0B 75 06 33 D2 89 55 E4 42 83 FA 04 77 62 8B C2
+
+  SET Q_Starting_Offset = 0xB8450
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 25
+  SPRINT searchpattern  ~1234567890123456789012345~
+  SPRINT searchbytes    ~89 95 48 FF FF FF 83 BD 48 FF FF FF 04 0F 87 12 01 00 00 8B 85 48 FF FF FF~
+
+  SET replacelength = 25
+  SPRINT replacepattern ~1234567890123456789012345~
+  SPRINT replacebytes   ~83 FA 0A 75 02 EB F1 83 FA 0B 75 06 33 D2 89 55 E4 42 83 FA 04 77 62 8B C2~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~13c. New call to healing/revive function after item bonus update.~
+
+// Calling general healing/revive function for 2nd time to actually heal (post item bonus update)
+// search:      83 7D BC 00 74 14 8B 4D B4 51 8B 4D BC
+// replace 2cd: E8 F9 C2 C5 FF 90 90 83 F9 00 74 0E 52
+// Replace 4cd: E8 39 C1 C5 FF 90 90 83 F9 00 74 0E 52
+
+  SET Q_Starting_Offset = 0x3DE060
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 13
+  SPRINT searchpattern  ~1234567890123~
+  SPRINT searchbytes    ~83 7D BC 00 74 14 8B 4D B4 51 8B 4D BC~
+
+  SET replacelength = 13
+  SPRINT replacepattern ~1234567890123~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~E8 F9 C2 C5 FF 90 90 83 F9 00 74 0E 52~ END
+                ELSE BEGIN SPRINT replacebytes ~E8 39 C1 C5 FF 90 90 83 F9 00 74 0E 52~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+// Injected code that handles calling healing function 2nd time
+// Offset: 0003A369
+// Replace: 8B 55 E8 B8 FF FF 00 00 89 42 08 C7 42 0C 0B 00 00 00 8B 45 B4 50 8B 4D E8 8B 11 FF 52 08 8B 4D BC 8B 55 B4 C3
+
+  PATCH_PRINT ~13d. Injected code that handles calling healing function 2nd time.~
+  SET searchlength = 0
+  SET replacelength = 37
+  SPRINT replacepattern ~1234567890123456789012345678901234567~
+  SPRINT replacebytes ~8B 55 E8 B8 FF FF 00 00 89 42 08 C7 42 0C 0B 00 00 00 8B 45 B4 50 8B 4D E8 8B 11 FF 52 08 8B 4D BC 8B 55 B4 C3~
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  WRITE_EVALUATED_ASCII 0x3A369 "%replacepattern%" (%replacelength%)
+  PATCH_PRINT ~Engine Patched at Offset: 0x3A369~
+
+
+  SPRINT "Q_Patch_Name" ~14a. Tiresias/secret door check.~
+
+// 14. Add a check for secret doors to see if it is "ar403d22" and if so check if "KNOW_TIRESIAS" global has been set to 2.  If so, only then display the secret door otherwise hide it.  This resolves continuity with "Tenement of Thugs" secret door quest.
+
+// checking door id and retriving global
+// offset: 0003A308
+// replace 2cd:  51 68 3B A3 43 00 FF 15 14 C2 8D 00 75 22 68 44 A3 43 00 8D 4D E0 E8 E1 24 46 00 6A 00 50 68 18 FF 96 00 8B 85 00 F9 FF FF E8 8D 9B 02 00 EB 02 33 C0 C3 61 72 34 30 33 64 32 32 00 4B 4E 4F 57 5F 54 49 52 45 53 49 41 53 00
+// replace 4cd:  51 68 3B A3 43 00 FF 15 C8 B2 8D 00 75 22 68 44 A3 43 00 8D 4D E0 E8 56 19 46 00 6A 00 50 68 C8 ED 96 00 8B 85 00 F9 FF FF E8 CD 9B 02 00 EB 02 33 C0 C3 61 72 34 30 33 64 32 32 00 4B 4E 4F 57 5F 54 49 52 45 53 49 41 53 00
+
+  SET Q_Starting_Offset = 0x3A308
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 0
+  SPRINT searchpattern  ~~
+  SPRINT searchbytes    ~~
+
+  SET replacelength = 74
+  SPRINT replacepattern ~12345678901234567890123456789012345678901234567890123456789012345678901234~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~51 68 3B A3 43 00 FF 15 14 C2 8D 00 75 22 68 44 A3 43 00 8D 4D E0 E8 E1 24 46 00 6A 00 50 68 18 FF 96 00 8B 85 00 F9 FF FF E8 8D 9B 02 00 EB 02 33 C0 C3 61 72 34 30 33 64 32 32 00 4B 4E 4F 57 5F 54 49 52 45 53 49 41 53 00~ END
+                ELSE BEGIN SPRINT replacebytes ~51 68 3B A3 43 00 FF 15 C8 B2 8D 00 75 22 68 44 A3 43 00 8D 4D E0 E8 56 19 46 00 6A 00 50 68 C8 ED 96 00 8B 85 00 F9 FF FF E8 CD 9B 02 00 EB 02 33 C0 C3 61 72 34 30 33 64 32 32 00 4B 4E 4F 57 5F 54 49 52 45 53 49 41 53 00~ END
+
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~14b. Tiresias/secret door check.~
+
+
+// injecting above function into door flags check function right before secret door handling
+// search:      8B 55 D0 8B 82 FE 04 00 00 89 85 00
+// replace 2cd: 8B 81 FE 04 00 00 25 80 00 00 00 85 C0 0F 84 29 01 00 00 81 C1 94 04 00 00 E8 EB 5D CC FF 85 C0 74 0D 36 8B 50 28 83 FA 02 0F 85 0D 01 00 00 8B 55 D0 8B 8A FE 04 00 00
+// replace 4cd: 8B 81 FE 04 00 00 25 80 00 00 00 85 C0 0F 84 29 01 00 00 81 C1 94 04 00 00 E8 2B 5C CC FF 85 C0 74 0D 36 8B 50 28 83 FA 02 0F 85 0D 01 00 00 8B 55 D0 8B 8A FE 04 00 00
+
+  SET Q_Starting_Offset = 0x3744F0
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 12
+  SPRINT searchpattern  ~123456789012~
+  SPRINT searchbytes    ~8B 55 D0 8B 82 FE 04 00 00 89 85 00~
+
+  SET replacelength = 56
+  SPRINT replacepattern ~12345678901234567890123456789012345678901234567890123456~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~8B 81 FE 04 00 00 25 80 00 00 00 85 C0 0F 84 29 01 00 00 81 C1 94 04 00 00 E8 EB 5D CC FF 85 C0 74 0D 36 8B 50 28 83 FA 02 0F 85 0D 01 00 00 8B 55 D0 8B 8A FE 04 00 00~ END
+                ELSE BEGIN SPRINT replacebytes ~8B 81 FE 04 00 00 25 80 00 00 00 85 C0 0F 84 29 01 00 00 81 C1 94 04 00 00 E8 2B 5C CC FF 85 C0 74 0D 36 8B 50 28 83 FA 02 0F 85 0D 01 00 00 8B 55 D0 8B 8A FE 04 00 00~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+// 17. Calling stat/skill refresh like PermaStatChange fix for weapon slot manipulation or IncrementProficiency(). This resolves certain stats such as damage, # of attacks and "to hit" not updating.
+
+
+  SPRINT "Q_Patch_Name" ~15a. Switching weapons not always updating combat statistics.~
+
+// adding refresh to stat/skill on IncrementProficiency()
+// search: 89 8D D8 EC FF FF 8B 95 B8 F9 FF FF
+// replace 2cd: 52 51 8B 8D B4 F9 FF FF E8 98 55 36 00 8B 4D D0 E8 A9 EA 32 00 8B 4D D0 E8 48 3F 31 00 90 90
+// replace 4cd: 52 51 8B 8D B4 F9 FF FF E8 18 57 36 00 8B 4D D0 E8 29 EC 32 00 8B 4D D0 E8 C8 40 31 00 90 90
+
+  SET Q_Starting_Offset = 0x4D5A0
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 12
+  SPRINT searchpattern  ~123456789012~
+  SPRINT searchbytes ~89 8D D8 EC FF FF 8B 95 B8 F9 FF FF~
+
+  SET replacelength = 31
+  SPRINT replacepattern ~1234567890123456789012345678901~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~52 51 8B 8D B4 F9 FF FF E8 98 55 36 00 8B 4D D0 E8 A9 EA 32 00 8B 4D D0 E8 48 3F 31 00 90 90~ END
+                ELSE BEGIN SPRINT replacebytes ~52 51 8B 8D B4 F9 FF FF E8 18 57 36 00 8B 4D D0 E8 29 EC 32 00 8B 4D D0 E8 C8 40 31 00 90 90~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~15b. Switching weapons not always updating combat statistics.~
+
+// adding call at end of paperdoll equip/unequip to refresh stat/skill
+// search:      C7 45 CC 01 00 00 00 C7 45 C4 01 00 00 00
+// replace 2cd: 33 C9 41 89 4D CC 89 4D C4 E8 6F EF E0 FF
+// replace 4cd: 33 C9 41 89 4D CC 89 4D C4 E8 AF ED E0 FF
+
+  SET Q_Starting_Offset = 0x22B3D0
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 14
+  SPRINT searchpattern  ~12345678901234~
+  SPRINT searchbytes ~C7 45 CC 01 00 00 00 C7 45 C4 01 00 00 00~
+
+  SET replacelength = 14
+  SPRINT replacepattern ~12345678901234~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~33 C9 41 89 4D CC 89 4D C4 E8 6F EF E0 FF~ END
+                ELSE BEGIN SPRINT replacebytes ~33 C9 41 89 4D CC 89 4D C4 E8 AF ED E0 FF~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~15c. Switching weapons not always updating combat statistics.~
+
+// refresh function for paperdoll manipulation
+// offset: 0003A352
+// replace 2cd: 8B 8D 34 FF FF FF E8 08 1D 34 00 8B 8D 34 FF FF FF E8 A4 71 32 00 C3
+// replace 4cd: 8B 8D 34 FF FF FF E8 C8 1E 34 00 8B 8D 34 FF FF FF E8 64 73 32 00 C3
+
+  SET Q_Starting_Offset = 0x3A352
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 0
+  SPRINT searchpattern  ~~
+  SPRINT searchbytes ~~
+
+  SET replacelength = 23
+  SPRINT replacepattern ~12345678901234567890123~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~8B 8D 34 FF FF FF E8 08 1D 34 00 8B 8D 34 FF FF FF E8 A4 71 32 00 C3~ END
+                ELSE BEGIN SPRINT replacebytes ~8B 8D 34 FF FF FF E8 C8 1E 34 00 8B 8D 34 FF FF FF E8 64 73 32 00 C3~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+  SPRINT "Q_Patch_Name" ~16a. Fixes to TNO hp progression on level up.~
+
+// Rewrite of TNO hp progression on level up from scratch -> mainly resolves hp being assigned for previous levels in other classes, leveling up multiple levels split between new/old, etc
+// search:      8B 45 0C 33 C9 8A 48 2C 8B 55 0C 33 C0 8A 42 2D 3B C8 7E 0B 8B 4D 0C 8A 51 2C 88 55 B4 EB 09
+// replace 2cd: 8A 55 D4 52 8A 45 E0 50 8B 4D 10 E8 E2 2A EC FF 8B 4D 0C 3A 41 2B 7E 0A 3A 41 2C 7E 05 3A 41 2D 7F 07 33 C0 E9 B1 00 00 00 88 45 B4 8A 55 D4 52 8A 45 E0 50 8B 4D 0C E8 B6 2A EC FF 8B 4D 0C 3A 41 2B 7D 03 8A 41 2B 3A 41 2C 7D 03 8A 41 2C 3A 41 2D 7D 03 8A 41 2D 88 45 B3 8A 55 B4 2A D0 88 55 B2 3C 09 7E 09 0F B6 55 B2 6B C2 03 EB B5 C7 45 AD 00 00 00 00 80 7D B4 09 7E 11 0F B6 45 B4 2C 09 2A D0 88 55 B2 6B C0 03 01 45 AD 8D 55 D0 52 8D 45 E4 50 8A 4D 14 51 8A 55 E0 52 8B 4D BC E8 BA F8 FF FF 8B 45 D0 88 45 B1 C6 45 AC 00 EB 04 80 45 AC 01 8A 55 AC 3A 55 B2 73 1A 6A 01 6A 0B E8 1E D3 29 00 83 C4 08 38 45 B1 7E 04 0F B6 45 B1 01 45 AD EB DA 8B 45 AD 89 45 E8 E9 0F 02 00 00 90 90 90 90 90 90 90
+// replace 4cd: 8A 55 D4 52 8A 45 E0 50 8B 4D 10 E8 E2 2A EC FF 8B 4D 0C 3A 41 2B 7E 0A 3A 41 2C 7E 05 3A 41 2D 7F 07 33 C0 E9 B1 00 00 00 88 45 B4 8A 55 D4 52 8A 45 E0 50 8B 4D 0C E8 B6 2A EC FF 8B 4D 0C 3A 41 2B 7D 03 8A 41 2B 3A 41 2C 7D 03 8A 41 2C 3A 41 2D 7D 03 8A 41 2D 88 45 B3 8A 55 B4 2A D0 88 55 B2 3C 09 7E 09 0F B6 55 B2 6B C2 03 EB B5 C7 45 AD 00 00 00 00 80 7D B4 09 7E 11 0F B6 45 B4 2C 09 2A D0 88 55 B2 6B C0 03 01 45 AD 8D 55 D0 52 8D 45 E4 50 8A 4D 14 51 8A 55 E0 52 8B 4D BC E8 BA F8 FF FF 8B 45 D0 88 45 B1 C6 45 AC 00 EB 04 80 45 AC 01 8A 55 AC 3A 55 B2 73 1A 6A 01 6A 0B E8 7E C6 29 00 83 C4 08 38 45 B1 7E 04 0F B6 45 B1 01 45 AD EB DA 8B 45 AD 89 45 E8 E9 0F 02 00 00 90 90 90 90 90 90 90
+
+  SET Q_Starting_Offset = 0x183900
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 31
+  SPRINT searchpattern  ~1234567890123456789012345678901~
+  SPRINT searchbytes ~8B 45 0C 33 C9 8A 48 2C 8B 55 0C 33 C0 8A 42 2D 3B C8 7E 0B 8B 4D 0C 8A 51 2C 88 55 B4 EB 09~
+
+  SET replacelength = 233
+  SPRINT replacepattern ~12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123~
+
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~8A 55 D4 52 8A 45 E0 50 8B 4D 10 E8 E2 2A EC FF 8B 4D 0C 3A 41 2B 7E 0A 3A 41 2C 7E 05 3A 41 2D 7F 07 33 C0 E9 B1 00 00 00 88 45 B4 8A 55 D4 52 8A 45 E0 50 8B 4D 0C E8 B6 2A EC FF 8B 4D 0C 3A 41 2B 7D 03 8A 41 2B 3A 41 2C 7D 03 8A 41 2C 3A 41 2D 7D 03 8A 41 2D 88 45 B3 8A 55 B4 2A D0 88 55 B2 3C 09 7E 09 0F B6 55 B2 6B C2 03 EB B5 C7 45 AD 00 00 00 00 80 7D B4 09 7E 11 0F B6 45 B4 2C 09 2A D0 88 55 B2 6B C0 03 01 45 AD 8D 55 D0 52 8D 45 E4 50 8A 4D 14 51 8A 55 E0 52 8B 4D BC E8 BA F8 FF FF 8B 45 D0 88 45 B1 C6 45 AC 00 EB 04 80 45 AC 01 8A 55 AC 3A 55 B2 73 1A 6A 01 6A 0B E8 1E D3 29 00 83 C4 08 38 45 B1 7E 04 0F B6 45 B1 01 45 AD EB DA 8B 45 AD 89 45 E8 E9 0F 02 00 00 90 90 90 90 90 90 90~ END
+                ELSE BEGIN SPRINT replacebytes ~8A 55 D4 52 8A 45 E0 50 8B 4D 10 E8 E2 2A EC FF 8B 4D 0C 3A 41 2B 7E 0A 3A 41 2C 7E 05 3A 41 2D 7F 07 33 C0 E9 B1 00 00 00 88 45 B4 8A 55 D4 52 8A 45 E0 50 8B 4D 0C E8 B6 2A EC FF 8B 4D 0C 3A 41 2B 7D 03 8A 41 2B 3A 41 2C 7D 03 8A 41 2C 3A 41 2D 7D 03 8A 41 2D 88 45 B3 8A 55 B4 2A D0 88 55 B2 3C 09 7E 09 0F B6 55 B2 6B C2 03 EB B5 C7 45 AD 00 00 00 00 80 7D B4 09 7E 11 0F B6 45 B4 2C 09 2A D0 88 55 B2 6B C0 03 01 45 AD 8D 55 D0 52 8D 45 E4 50 8A 4D 14 51 8A 55 E0 52 8B 4D BC E8 BA F8 FF FF 8B 45 D0 88 45 B1 C6 45 AC 00 EB 04 80 45 AC 01 8A 55 AC 3A 55 B2 73 1A 6A 01 6A 0B E8 7E C6 29 00 83 C4 08 38 45 B1 7E 04 0F B6 45 B1 01 45 AD EB DA 8B 45 AD 89 45 E8 E9 0F 02 00 00 90 90 90 90 90 90 90~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~16b. Skip 1hp on levelup if function returns 0, TNO ONLY.~
+
+// Checking if PC is TNO and if so skip assigning +1 hp if return from hp gen funct is 0.  Similar to previous fix which prevented +1 hp from previous levels but updated to be TNO ONLY.
+// search:  83 BD 08 FD FF FF 01 7E 0E 8B 95 08 FD FF FF 89 95 B4 FB FF FF EB 0A C7 85 B4 FB FF FF 01 00 00 00 8B 85 B4 FB FF FF 89 85 08 FD FF FF
+// replace: 8B 45 08 05 94 04 00 00 50 E8 79 5A 1D 00 83 C4 04 83 F8 00 74 17 83 BD 08 FD FF FF 01 7D 0A C7 85 08 FD FF FF 01 00 00 00 90 90 90 90
+
+  SET Q_Starting_Offset = 0x1E7420
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 45
+  SPRINT searchpattern  ~123456789012345678901234567890123456789012345~
+  SPRINT searchbytes  ~83 BD 08 FD FF FF 01 7E 0E 8B 95 08 FD FF FF 89 95 B4 FB FF FF EB 0A C7 85 B4 FB FF FF 01 00 00 00 8B 85 B4 FB FF FF 89 85 08 FD FF FF~
+
+  SET replacelength = 45
+  SPRINT replacepattern ~123456789012345678901234567890123456789012345~
+  SPRINT replacebytes ~8B 45 08 05 94 04 00 00 50 E8 79 5A 1D 00 83 C4 04 83 F8 00 74 17 83 BD 08 FD FF FF 01 7D 0A C7 85 08 FD FF FF 01 00 00 00 90 90 90 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~16c. Fixes bugged MIN_ROLL reroll.~
+
+// Fixing a check against MIN_ROLL during non-TNO PC's random hp generation on level up (2da HPWAR, etc). In vanilla game it was possible for PC to gain less than MIN_ROLL.
+// search:  7E 08 8B 45 14 89 45 EC
+// replace: 7E 03 8B 55 14 89 55 EC
+
+  SET Q_Starting_Offset = 0x182FE0
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 8
+  SPRINT searchpattern  ~12345678~
+  SPRINT searchbytes  ~7E 08 8B 45 14 89 45 EC~
+
+  SET replacelength = 8
+  SPRINT replacepattern ~12345678~
+  SPRINT replacebytes ~7E 03 8B 55 14 89 55 EC~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+
+  SPRINT "Q_Patch_Name" ~17a. Class-Based THACO update~
+// On level up, accessing lookup table for THAC0 and updating value based on class/level (injected code).
+// Also, refreshing stats/skills so they update properly when class changes (backstab).
+// offset: 0003A272
+// replace 2cd: 8B 8D 44 FF FF FF 51 81 C1 84 0C 00 00 51 8B 4C 24 04 81 C1 40 26 00 00 51 A1 6C F9 96 00 8B 88 06 35 00 00 E8 F9 9B 14 00 8B 0C 24 81 C1 F0 04 00 00 88 41 4A 8B 0C 24 E8 B6 1D 34 00 8B 0C 24 E8 55 72 32 00 66 8B 85 30 FF FF FF 83 C4 04 C3
+// replace 4cd: 8B 8D 44 FF FF FF 51 81 C1 84 0C 00 00 51 8B 4C 24 04 81 C1 40 26 00 00 51 A1 1C E8 96 00 8B 88 06 35 00 00 E8 39 9C 14 00 8B 0C 24 81 C1 F0 04 00 00 88 41 4A 8B 0C 24 E8 76 1F 34 00 8B 0C 24 E8 15 74 32 00 66 8B 85 30 FF FF FF 83 C4 04 C3
+
+  SET Q_Starting_Offset = 0x3A272
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 0
+  SPRINT searchpattern  ~~
+  SPRINT searchbytes ~~
+
+  SET replacelength = 80
+  SPRINT replacepattern ~12345678901234567890123456789012345678901234567890123456789012345678901234567890~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~8B 8D 44 FF FF FF 51 81 C1 84 0C 00 00 51 8B 4C 24 04 81 C1 40 26 00 00 51 A1 6C F9 96 00 8B 88 06 35 00 00 E8 F9 9B 14 00 8B 0C 24 81 C1 F0 04 00 00 88 41 4A 8B 0C 24 E8 B6 1D 34 00 8B 0C 24 E8 55 72 32 00 66 8B 85 30 FF FF FF 83 C4 04 C3~ END
+                ELSE BEGIN SPRINT replacebytes ~8B 8D 44 FF FF FF 51 81 C1 84 0C 00 00 51 8B 4C 24 04 81 C1 40 26 00 00 51 A1 1C E8 96 00 8B 88 06 35 00 00 E8 39 9C 14 00 8B 0C 24 81 C1 F0 04 00 00 88 41 4A 8B 0C 24 E8 76 1F 34 00 8B 0C 24 E8 15 74 32 00 66 8B 85 30 FF FF FF 83 C4 04 C3~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~17b. Class-Based THACO update~
+
+// calling above code from SetNamelessClass()
+// search:      66 8B 85 30 FF FF FF 8B 4D F4
+// replace 2cd: E8 3F B1 FC FF 90 90 8B 4D F4
+// replace 4cd: E8 FF B0 FC FF 90 90 8B 4D F4
+
+  SET Q_Starting_Offset = 0x6F120
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 10
+  SPRINT searchpattern  ~1234567890~
+  SPRINT searchbytes ~66 8B 85 30 FF FF FF 8B 4D F4~
+
+  SET replacelength = 10
+  SPRINT replacepattern ~1234567890~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~E8 3F B1 FC FF 90 90 8B 4D F4~ END
+                ELSE BEGIN SPRINT replacebytes ~E8 FF B0 FC FF 90 90 8B 4D F4~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~17c. Class-Based THACO update~
+
+// Disable the TNO specific path inside THAC0 lookup which was cnp of "FIGHTER_MAGE_THIEF".  Instead use generic single class lookup (mage, fighter, or thief) which resolves incorrect base THAC0 for TNO.
+// search:  8B 4D 0C 83 B9 8A 00 00 00 01 0F 85 A1
+// replace: E9 AC 00 00 00 90 90 90 90 90 0F 85 A1
+
+  SET Q_Starting_Offset = 0x183F20
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 13
+  SPRINT searchpattern  ~1234567890123~
+  SPRINT searchbytes ~8B 4D 0C 83 B9 8A 00 00 00 01 0F 85 A1~
+
+  SET replacelength = 13
+  SPRINT replacepattern ~1234567890123~
+  SPRINT replacebytes ~E9 AC 00 00 00 90 90 90 90 90 0F 85 A1~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~18a. Fix Power Of One spell to obey mage class restrictions.~
+
+// Setting "Power of One" cap to 18 for non-fighter classes and 18/00 for fighters to bring it inline with AD&D rules~
+// mage
+// search:  83 78 04 14 7F 0E 8B 4D E4 8B 51 04 89 95 64 FF FF FF EB 0A C7 85 64 FF FF FF 14
+// replace: 83 78 04 12 7F 0E 8B 4D E4 8B 51 04 89 95 64 FF FF FF EB 0A C7 85 64 FF FF FF 12
+
+  SET Q_Starting_Offset = 0x2B4000
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 27
+  SPRINT searchpattern  ~123456789012345678901234567~
+  SPRINT searchbytes  ~83 78 04 14 7F 0E 8B 4D E4 8B 51 04 89 95 64 FF FF FF EB 0A C7 85 64 FF FF FF 14~
+
+  SET replacelength = 27
+  SPRINT replacepattern ~123456789012345678901234567~
+  SPRINT replacebytes ~83 78 04 12 7F 0E 8B 4D E4 8B 51 04 89 95 64 FF FF FF EB 0A C7 85 64 FF FF FF 12~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~18b. Fix Power Of One spell to obey cleric class restrictions.~
+
+// cleric
+// search:  83 7A 04 14 7F 0E 8B 45 E4 8B 48 04 89 8D 5C FF FF FF EB 0A C7 85 5C FF FF FF 14
+// replace: 83 7A 04 12 7F 0E 8B 45 E4 8B 48 04 89 8D 5C FF FF FF EB 0A C7 85 5C FF FF FF 12
+
+  SET Q_Starting_Offset = 0x2B4090
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 27
+  SPRINT searchpattern  ~123456789012345678901234567~
+  SPRINT searchbytes  ~83 7A 04 14 7F 0E 8B 45 E4 8B 48 04 89 8D 5C FF FF FF EB 0A C7 85 5C FF FF FF 14~
+
+  SET replacelength = 27
+  SPRINT replacepattern ~123456789012345678901234567~
+  SPRINT replacebytes ~83 7A 04 12 7F 0E 8B 45 E4 8B 48 04 89 8D 5C FF FF FF EB 0A C7 85 5C FF FF FF 12~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~18c. Fix Power Of One spell to obey thief class restrictions.~
+
+// thief
+// search:  83 7A 04 14 7F 0E 8B 45 E4 8B 48 04 89 8D 54 FF FF FF EB 0A C7 85 54 FF FF FF 14
+// replace: 83 7A 04 12 7F 0E 8B 45 E4 8B 48 04 89 8D 54 FF FF FF EB 0A C7 85 54 FF FF FF 12
+  SET Q_Starting_Offset = 0x2B4100
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 27
+  SPRINT searchpattern  ~123456789012345678901234567~
+  SPRINT searchbytes  ~83 7A 04 14 7F 0E 8B 45 E4 8B 48 04 89 8D 54 FF FF FF EB 0A C7 85 54 FF FF FF 14~
+
+  SET replacelength = 27
+  SPRINT replacepattern ~123456789012345678901234567~
+  SPRINT replacebytes ~83 7A 04 12 7F 0E 8B 45 E4 8B 48 04 89 8D 54 FF FF FF EB 0A C7 85 54 FF FF FF 12~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+  SPRINT "Q_Patch_Name" ~18d. Fix Power Of One spell to obey fighter class restrictions.~
+
+// all others -> fighters / MC
+// search:  79 05 48 83 C8 F8 40 83 C0 02
+// replace: 83 C0 02 8B 55 EC 8A 8A 20 07 00 00 88 4D D0 B2 17 2A D1 3A C2 7E 02 8A C2 89 45 CC 89 45 C8
+
+  SET Q_Starting_Offset = 0x2B4160
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 10
+  SPRINT searchpattern  ~1234567890~
+  SPRINT searchbytes  ~79 05 48 83 C8 F8 40 83 C0 02~
+
+  SET replacelength = 31
+  SPRINT replacepattern ~1234567890123456789012345678901~
+  SPRINT replacebytes ~83 C0 02 8B 55 EC 8A 8A 20 07 00 00 88 4D D0 B2 17 2A D1 3A C2 7E 02 8A C2 89 45 CC 89 45 C8~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~19a. Luck Fixes - fix item luck bonuses that weren't working at all.~
+
+// Fixed luck modification code so item bonuses are not set to zero and luck bonuses stack (spell/item). Vanilla code was most likely a botched attempt to prevent "Luck" spell from stacking if cast more than once. Fixed version does this as well, it just doesn't break everything else.
+
+// at start of code, checking if effect "target" value is set to 2 (preset target -> spell) -> if so check if luck spell has already been cast and if so exit function
+// search:  8B 88 84 0C 00 00 81 E1 00 00 00 04 85 C9 74 14 8B 55 F4 C7 42 44 01 00 00 00 B8 01 00 00 00
+// replace: 80 79 06 02 75 1E 8B 88 84 0C 00 00 81 E1 00 00 00 04 85 C9 74 0E 33 C0 40 8B 55 F4 89 42 44
+
+  SET Q_Starting_Offset = 0xB9900
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 31
+  SPRINT searchpattern  ~1234567890123456789012345678901~
+  SPRINT searchbytes  ~8B 88 84 0C 00 00 81 E1 00 00 00 04 85 C9 74 14 8B 55 F4 C7 42 44 01 00 00 00 B8 01 00 00 00~
+
+  SET replacelength = 31
+  SPRINT replacepattern ~1234567890123456789012345678901~
+  SPRINT replacebytes ~80 79 06 02 75 1E 8B 88 84 0C 00 00 81 E1 00 00 00 04 85 C9 74 0E 33 C0 40 8B 55 F4 89 42 44~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~19b. Luck Fixes - fix item luck bonuses that weren't working at all.~
+// check if effect "value" value is equal to zero, only then roll dice (random component -> spell).  Fixes item bonuses getting set to zero. Lower bound of die when casting the spell "Luck" would use incorrect value if "Luck" spell had just worn off on target.  If total luck is less than zero, set to zero for die roll.
+// search:       C7 45 FC 00 00 00 00 8B 4D F4 C7 41 08 00 00 00 00 C6 45 F8 00
+// replace 2cd:  83 78 08 00 75 56 C6 45 F8 00 8B 55 08 0F BE 82 AD 0C 00 00 36 0F BE 8A A9 11 00 00 03 C1 83 F8 00 7D 02 33 C0 89 45 FC EB 04 80 45 F8 01 0F B6 45 F8 8B 4D F4 3B 41 20 73 22 FF 75 FC 8B 4D F4 8B 51 24 52 E8 13 74 36 00 83 C4 08 8B 4D F4 8B 51 08 8D 44 02 01 89 41 08 EB CF 90
+// replace 4cd:  83 78 08 00 75 56 C6 45 F8 00 8B 55 08 0F BE 82 AD 0C 00 00 36 0F BE 8A A9 11 00 00 03 C1 83 F8 00 7D 02 33 C0 89 45 FC EB 04 80 45 F8 01 0F B6 45 F8 8B 4D F4 3B 41 20 73 22 FF 75 FC 8B 4D F4 8B 51 24 52 E8 73 67 36 00 83 C4 08 8B 4D F4 8B 51 08 8D 44 02 01 89 41 08 EB CF 90
+
+  SET Q_Starting_Offset = 0xB9900
+  SET Q_Replace_Offset  = 0
+
+
+  SET searchlength = 21
+  SPRINT searchpattern  ~123456789012345678901~
+  SPRINT searchbytes  ~C7 45 FC 00 00 00 00 8B 4D F4 C7 41 08 00 00 00 00 C6 45 F8 00~
+
+  SET replacelength = 92
+  SPRINT replacepattern ~12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~83 78 08 00 75 56 C6 45 F8 00 8B 55 08 0F BE 82 AD 0C 00 00 36 0F BE 8A A9 11 00 00 03 C1 83 F8 00 7D 02 33 C0 89 45 FC EB 04 80 45 F8 01 0F B6 45 F8 8B 4D F4 3B 41 20 73 22 FF 75 FC 8B 4D F4 8B 51 24 52 E8 13 74 36 00 83 C4 08 8B 4D F4 8B 51 08 8D 44 02 01 89 41 08 EB CF 90~ END
+                ELSE BEGIN SPRINT replacebytes ~83 78 08 00 75 56 C6 45 F8 00 8B 55 08 0F BE 82 AD 0C 00 00 36 0F BE 8A A9 11 00 00 03 C1 83 F8 00 7D 02 33 C0 89 45 FC EB 04 80 45 F8 01 0F B6 45 F8 8B 4D F4 3B 41 20 73 22 FF 75 FC 8B 4D F4 8B 51 24 52 E8 73 67 36 00 83 C4 08 8B 4D F4 8B 51 08 8D 44 02 01 89 41 08 EB CF 90~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~19c. Luck Fixes - Make sure spell doesn't stack with itself.~
+
+// modifier type increment -> check if effect "target" value is set to 2 and if so set variable that spell has been cast
+// search:  8B 4D 08 81 C1 84 0C 00 00 89 4D E0 8B 55 E0 8B 02 0D 00 00 00 04 8B 4D E0
+// replace: 8B 4D F4 80 79 06 02 75 12 8B 4D 08 81 C1 84 0C 00 00 8B 01 0D 00 00 00 04
+
+  SET Q_Starting_Offset = 0xB9A00
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 25
+  SPRINT searchpattern  ~1234567890123456789012345~
+  SPRINT searchbytes  ~8B 4D 08 81 C1 84 0C 00 00 89 4D E0 8B 55 E0 8B 02 0D 00 00 00 04 8B 4D E0~
+
+  SET replacelength = 25
+  SPRINT replacepattern ~1234567890123456789012345~
+  SPRINT replacebytes ~8B 4D F4 80 79 06 02 75 12 8B 4D 08 81 C1 84 0C 00 00 8B 01 0D 00 00 00 04~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~19d. Luck Fixes - Make sure spell doesn't stack with itself.~
+// modifier type set -> check if effect "target" value is set to 2 and if so set variable that spell has been cast
+// search:  8B 45 08 05 84 0C 00 00 89 45 D0 8B 4D D0 8B 11 81 CA 00 00 00 04 8B 45 D0 89 10
+// replace: 8B 4D F4 80 79 06 02 75 12 8B 4D 08 81 C1 84 0C 00 00 8B 01 0D 00 00 00 04 89 01
+
+  SET Q_Starting_Offset = 0xB9B90
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 27
+  SPRINT searchpattern  ~123456789012345678901234567~
+  SPRINT searchbytes  ~8B 45 08 05 84 0C 00 00 89 45 D0 8B 4D D0 8B 11 81 CA 00 00 00 04 8B 45 D0 89 10~
+
+  SET replacelength = 27
+  SPRINT replacepattern ~123456789012345678901234567~
+  SPRINT replacebytes ~8B 4D F4 80 79 06 02 75 12 8B 4D 08 81 C1 84 0C 00 00 8B 01 0D 00 00 00 04 89 01~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  PATCH_PRINT ~19e. Luck Fixes - Function to make sure all WIS changes adjust luck properly.~
+// create function to handle luck based on permanent WIS changes -> vanilla code only handled it on level up (wis: 15, 18, 25)
+// offset: 0x0003A38E
+// replace: 3C 0F 74 08 3C 12 74 04 3C 19 75 0E 2B 44 24 04 83 F8 00 7E 03 36 FE 01 EB 18 3C 0E 74 08 3C 11 74 04 3C 18 75 0C 2B 44 24 04 83 F8 00 7D 03 36 FE 09 C3
+  SET searchlength = 0
+  SET replacelength = 51
+  SPRINT replacepattern ~123456789012345678901234567890123456789012345678901~
+  SPRINT replacebytes ~3C 0F 74 08 3C 12 74 04 3C 19 75 0E 2B 44 24 04 83 F8 00 7E 03 36 FE 01 EB 18 3C 0E 74 08 3C 11 74 04 3C 18 75 0C 2B 44 24 04 83 F8 00 7D 03 36 FE 09 C3~
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  WRITE_EVALUATED_ASCII 0x3A38E "%replacepattern%" (%replacelength%)
+  PATCH_PRINT ~Engine Patched at Offset: 0x3A38E~
+
+
+  SPRINT "Q_Patch_Name" ~19f. Luck Fixes - Call above function when using GORDKNOT.~
+// add call to function above on perma WIS changes from items (GORDKNOT)
+// search:      81 C2 23 07 00 00 89 95 40 FF FF FF
+// replace 2cd: 81 C2 23 07 00 00 8B 8D 48 FF FF FF 0F B6 02 50 02 41 08 88 02 8B 4D 08 0F B6 81 23 07 00 00 83 F8 19 7E 07 C6 81 23 07 00 00 19 83 F8 01 7D 07 C6 81 23 07 00 00 01 0F B6 81 23 07 00 00 8B 4D 08 81 C1 55 05 00 00 E8 C3 C2 F7 FF EB 0B 90 90 90 90 90 90 90 90 90 90 90
+// replace 4cd: 81 C2 23 07 00 00 8B 8D 48 FF FF FF 0F B6 02 50 02 41 08 88 02 8B 4D 08 0F B6 81 23 07 00 00 83 F8 19 7E 07 C6 81 23 07 00 00 19 83 F8 01 7D 07 C6 81 23 07 00 00 01 0F B6 81 23 07 00 00 8B 4D 08 81 C1 55 05 00 00 E8 83 C2 F7 FF EB 0B 90 90 90 90 90 90 90 90 90 90 90
+  SET Q_Starting_Offset = 0xBE070
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 12
+  SPRINT searchpattern  ~123456789012~
+  SPRINT searchbytes  ~81 C2 23 07 00 00 89 95 40 FF FF FF~
+
+  SET replacelength = 89
+  SPRINT replacepattern ~12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~81 C2 23 07 00 00 8B 8D 48 FF FF FF 0F B6 02 50 02 41 08 88 02 8B 4D 08 0F B6 81 23 07 00 00 83 F8 19 7E 07 C6 81 23 07 00 00 19 83 F8 01 7D 07 C6 81 23 07 00 00 01 0F B6 81 23 07 00 00 8B 4D 08 81 C1 55 05 00 00 E8 C3 C2 F7 FF EB 0B 90 90 90 90 90 90 90 90 90 90 90~ END
+                ELSE BEGIN SPRINT replacebytes ~81 C2 23 07 00 00 8B 8D 48 FF FF FF 0F B6 02 50 02 41 08 88 02 8B 4D 08 0F B6 81 23 07 00 00 83 F8 19 7E 07 C6 81 23 07 00 00 19 83 F8 01 7D 07 C6 81 23 07 00 00 01 0F B6 81 23 07 00 00 8B 4D 08 81 C1 55 05 00 00 E8 83 C2 F7 FF EB 0B 90 90 90 90 90 90 90 90 90 90 90~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~19g. Luck Fixes - Call above function on WIS PermaStatChange.~
+// add call to function above on WIS PermaStatChange()
+// search:  05 33 02 00 00 89 85 FC FB FF FF 8B 8D FC FB FF FF 33 D2 8A 11 89 95 04 FC FF FF
+// replace: 05 33 02 00 00 89 85 FC FB FF FF 33 D2 8A 10 89 95 04 FC FF FF 52 90 90 90 90 90
+
+  SET Q_Starting_Offset = 0x5C400
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 27
+  SPRINT searchpattern  ~123456789012345678901234567~
+  SPRINT searchbytes  ~05 33 02 00 00 89 85 FC FB FF FF 8B 8D FC FB FF FF 33 D2 8A 11 89 95 04 FC FF FF~
+
+  SET replacelength = 27
+  SPRINT replacepattern ~123456789012345678901234567~
+  SPRINT replacebytes ~05 33 02 00 00 89 85 FC FB FF FF 33 D2 8A 10 89 95 04 FC FF FF 52 90 90 90 90 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~19h. Luck Fixes - Call above function on WIS PermaStatChange.~
+// search:      89 85 04 FC FF FF 8B 8D FC FB FF FF 8A 95 04 FC FF FF 88 11
+// replace 2cd: 8B 8D FC FB FF FF 88 01 8B 4D EC 83 C1 65 E8 C4 DE FD FF 90
+// replace 4cd: 8B 8D FC FB FF FF 88 01 8B 4D EC 83 C1 65 E8 84 DE FD FF 90
+
+  SET Q_Starting_Offset = 0x5C4A0
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 20
+  SPRINT searchpattern  ~12345678901234567890~
+  SPRINT searchbytes  ~89 85 04 FC FF FF 8B 8D FC FB FF FF 8A 95 04 FC FF FF 88 11~
+
+  SET replacelength = 20
+  SPRINT replacepattern ~12345678901234567890~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~8B 8D FC FB FF FF 88 01 8B 4D EC 83 C1 65 E8 C4 DE FD FF 90~ END
+                ELSE BEGIN SPRINT replacebytes ~8B 8D FC FB FF FF 88 01 8B 4D EC 83 C1 65 E8 84 DE FD FF 90~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~20. "Attack Damage Bonus" overwriting instead of stacking.~
+
+// 25. Fix to "Attack damage bonus (73)" item effect (Glass Eye, Tattoo of Bloodletting, Tattoo of the Deceiver, ...)
+// so bonuses will now stack (cumulative). In vanilla game, it would only give bonus of last item added to paperdoll.
+// So if you had "Tattoo of the Deceiver" equipped (+3) then added "Tattoo of Bloodletting" (+1) into another tattoo slot,
+// the damage value would have been set to +1 when it should be +4. And vise versa if you had "Tattoo of Bloodletting" equipped
+// and then added "Tattoo of the Deceiver" the final value would be +3 instead of +4.
+
+// search:  88 90 D1 0C 00 00
+// replace: 00 90 D1 0C 00 00
+
+  SET Q_Starting_Offset = 0xC15C0
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 6
+  SPRINT searchpattern  ~123456~
+  SPRINT searchbytes  ~88 90 D1 0C 00 00~
+
+  SET replacelength = 1
+  SPRINT replacepattern ~1~
+  SPRINT replacebytes ~00~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+
+
+  SPRINT "Q_Patch_Name" ~21. Fix To Hit and Damage displays - ability and proficiency bonuses only.~
+
+// Revision to "To Hit" and "Damage" profile values to only be based on PC's stats. In the vanilla game, even though they're suppose
+// to be abilities (stat based), they included some THAC0 bonuses from items. Not only was this incorrect, the item bonuses weren't
+// even consistent with certain bonuses not getting included.  If PC is using a ranged weapon "to hit" will use DEXMOD rather than
+// STRMOD. Also, "to hit" includes class penalty for using a weapon without proficiency points.
+
+// search:       8E 00 89 8D 68 FD FF FF
+// replace 2cd:  8B 8D 1C FF FF FF 0F B6 91 74 0C 00 00 8B 84 91 B8 0B 00 00 89 85 5C FD FF FF 50 E8 A3 61 19 00 89 85 50 FD FF FF 8B 8D 1C FF FF FF 0F B7 91 76 0C 00 00 52 8B 8D 5C FD FF FF E8 DC E0 F1 FF 0F B7 08 89 8D 58 FD FF FF 50 8B 8D 1C FF FF FF E8 91 E0 16 00 83 F8 00 74 1A 50 8B 8D 1C FF FF FF E8 5E 61 19 00 3B 85 50 FD FF FF 7E 06 89 85 50 FD FF FF C7 85 4C FD FF FF 00 00 00 00 8D 85 4C FD FF FF 50 8B 4D C0 81 C1 78 0B 00 00 E8 23 44 E1 FF 8B 08 8D 45 C4 50 68 44 04 96 00 51 E8 28 6B 29 00 83 C4 0C 8B 8D 20 FF FF FF 8B 85 58 FD FF FF 83 F8 02 75 46 C7 85 AC FD FF FF 01 00 00 00 0F BE 51 33 89 95 B0 FD FF FF 8D 95 AC FD FF FF 52 8B 4D C0 81 C1 18 08 00 00 E8 D5 43 E1 FF 8D 55 A8 52 68 F4 6A 94 00 8B 08 51 E8 DA 6A 29 00 83 C4 0C C7 45 B4 00 00 00 00 EB 74 33 C0 89 85 FC FD FF FF 89 85 F4 FD FF FF 0F BE 41 2F 89 85 00 FE FF FF 0F BE 41 30 89 85 F8 FD FF FF 8D 85 FC FD FF FF 50 8B 4D C0 81 C1 44 06 00 00 E8 81 43 E1 FF 8D 55 A8 52 68 F4 6A 94 00 8B 08 51 E8 86 6A 29 00 83 C4 0C 8D 85 F4 FD FF FF 50 8B 4D C0 81 C1 68 06 00 00 E8 58 43 E1 FF 8D 55 B4 52 68 F8 6A 94 00 8B 08 51 E8 5D 6A 29 00 83 C4 0C 8B 45 A8 03 45 B4 03 45 C4 8B 95 50 FD FF FF 83 FA 00 75 16 8B 4D 90 8A 51 07 80 FA 02 75 03 83 E8 02 80 FA 04 75 03 83 E8 03 68 85 10 00 00 50 8B 85 0C FF FF FF 50 8B 8D D0 FC FF FF E8 E0 63 FF FF B8 01 00 00 00 89 85 EC FD FF FF 89 85 E4 FD FF FF 8B 8D 20 FF FF FF 0F BE 41 2F 89 85 F0 FD FF FF 0F BE 41 30 89 85 E8 FD FF FF 8D 85 EC FD FF FF 50 8B 4D C0 81 C1 44 06 00 00 E8 C2 42 E1 FF 8D 55 A8 52 68 F4 6A 94 00 8B 08 51 E8 C7 69 29 00 83 C4 0C 8D 85 E4 FD FF FF 50 8B 4D C0 81 C1 68 06 00 00 E8 99 42 E1 FF 8D 55 B4 52 68 F8 6A 94 00 8B 08 51 E8 9E 69 29 00 83 C4 0C C7 85 4C FD FF FF 01 00 00 00 8D 85 4C FD FF FF 50 8B 4D C0 81 C1 78 0B 00 00 E8 66 42 E1 FF 8B 08 8D 45 C4 50 68 44 04 96 00 51 E8 6B 69 29 00 83 C4 0C 68 86 10 00 00 8B 4D A8 03 4D B4 03 4D C4 51 8B 8D 0C FF FF FF 51 8B 8D D0 FC FF FF E8 0F 63 FF FF EB 19 4D 6F 72 61 6C 65 3A 20 25 64 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 C7 85 DC FD FF FF 02 00 00 00 8B 85 20 FF FF FF 0F BE 48 2F 89 8D E0 FD FF FF
+// replace 4cd:  8B 8D 1C FF FF FF 0F B6 91 74 0C 00 00 8B 84 91 B8 0B 00 00 89 85 5C FD FF FF 50 E8 A3 61 19 00 89 85 50 FD FF FF 8B 8D 1C FF FF FF 0F B7 91 76 0C 00 00 52 8B 8D 5C FD FF FF E8 5C DF F1 FF 0F B7 08 89 8D 58 FD FF FF 50 8B 8D 1C FF FF FF E8 91 E0 16 00 83 F8 00 74 1A 50 8B 8D 1C FF FF FF E8 5E 61 19 00 3B 85 50 FD FF FF 7E 06 89 85 50 FD FF FF C7 85 4C FD FF FF 00 00 00 00 8D 85 4C FD FF FF 50 8B 4D C0 81 C1 78 0B 00 00 E8 63 42 E1 FF 8B 08 8D 45 C4 50 68 48 F4 95 00 51 E8 94 5D 29 00 83 C4 0C 8B 8D 20 FF FF FF 8B 85 58 FD FF FF 83 F8 02 75 46 C7 85 AC FD FF FF 01 00 00 00 0F BE 51 33 89 95 B0 FD FF FF 8D 95 AC FD FF FF 52 8B 4D C0 81 C1 18 08 00 00 E8 15 42 E1 FF 8D 55 A8 52 68 F8 5A 94 00 8B 08 51 E8 46 5D 29 00 83 C4 0C C7 45 B4 00 00 00 00 EB 74 33 C0 89 85 FC FD FF FF 89 85 F4 FD FF FF 0F BE 41 2F 89 85 00 FE FF FF 0F BE 41 30 89 85 F8 FD FF FF 8D 85 FC FD FF FF 50 8B 4D C0 81 C1 44 06 00 00 E8 C1 41 E1 FF 8D 55 A8 52 68 F8 5A 94 00 8B 08 51 E8 F2 5C 29 00 83 C4 0C 8D 85 F4 FD FF FF 50 8B 4D C0 81 C1 68 06 00 00 E8 98 41 E1 FF 8D 55 B4 52 68 F8 5A 94 00 8B 08 51 E8 C9 5C 29 00 83 C4 0C 8B 45 A8 03 45 B4 03 45 C4 8B 95 50 FD FF FF 83 FA 00 75 16 8B 4D 90 8A 51 07 80 FA 02 75 03 83 E8 02 80 FA 04 75 03 83 E8 03 68 85 10 00 00 50 8B 85 0C FF FF FF 50 8B 8D D0 FC FF FF E8 E0 63 FF FF B8 01 00 00 00 89 85 EC FD FF FF 89 85 E4 FD FF FF 8B 8D 20 FF FF FF 0F BE 41 2F 89 85 F0 FD FF FF 0F BE 41 30 89 85 E8 FD FF FF 8D 85 EC FD FF FF 50 8B 4D C0 81 C1 44 06 00 00 E8 02 41 E1 FF 8D 55 A8 52 68 F8 5A 94 00 8B 08 51 E8 33 5C 29 00 83 C4 0C 8D 85 E4 FD FF FF 50 8B 4D C0 81 C1 68 06 00 00 E8 D9 40 E1 FF 8D 55 B4 52 68 F8 5A 94 00 8B 08 51 E8 0A 5C 29 00 83 C4 0C C7 85 4C FD FF FF 01 00 00 00 8D 85 4C FD FF FF 50 8B 4D C0 81 C1 78 0B 00 00 E8 A6 40 E1 FF 8B 08 8D 45 C4 50 68 48 F4 95 00 51 E8 D7 5B 29 00 83 C4 0C 68 86 10 00 00 8B 4D A8 03 4D B4 03 4D C4 51 8B 8D 0C FF FF FF 51 8B 8D D0 FC FF FF E8 0F 63 FF FF EB 19 4D 6F 72 61 6C 65 3A 20 25 64 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 C7 85 DC FD FF FF 02 00 00 00 8B 85 20 FF FF FF 0F BE 48 2F 89 8D E0 FD FF FF
+
+  SET Q_Starting_Offset = 0x1EEB00
+  SET Q_Replace_Offset  = 0 - 5
+
+  SET searchlength = 8
+  SPRINT searchpattern  ~12345678~
+  SPRINT searchbytes  ~8E 00 89 8D 68 FD FF FF~
+
+  SET replacelength = 697
+  SPRINT replacepattern ~1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~8B 8D 1C FF FF FF 0F B6 91 74 0C 00 00 8B 84 91 B8 0B 00 00 89 85 5C FD FF FF 50 E8 A3 61 19 00 89 85 50 FD FF FF 8B 8D 1C FF FF FF 0F B7 91 76 0C 00 00 52 8B 8D 5C FD FF FF E8 DC E0 F1 FF 0F B7 08 89 8D 58 FD FF FF 50 8B 8D 1C FF FF FF E8 91 E0 16 00 83 F8 00 74 1A 50 8B 8D 1C FF FF FF E8 5E 61 19 00 3B 85 50 FD FF FF 7E 06 89 85 50 FD FF FF C7 85 4C FD FF FF 00 00 00 00 8D 85 4C FD FF FF 50 8B 4D C0 81 C1 78 0B 00 00 E8 23 44 E1 FF 8B 08 8D 45 C4 50 68 44 04 96 00 51 E8 28 6B 29 00 83 C4 0C 8B 8D 20 FF FF FF 8B 85 58 FD FF FF 83 F8 02 75 46 C7 85 AC FD FF FF 01 00 00 00 0F BE 51 33 89 95 B0 FD FF FF 8D 95 AC FD FF FF 52 8B 4D C0 81 C1 18 08 00 00 E8 D5 43 E1 FF 8D 55 A8 52 68 F4 6A 94 00 8B 08 51 E8 DA 6A 29 00 83 C4 0C C7 45 B4 00 00 00 00 EB 74 33 C0 89 85 FC FD FF FF 89 85 F4 FD FF FF 0F BE 41 2F 89 85 00 FE FF FF 0F BE 41 30 89 85 F8 FD FF FF 8D 85 FC FD FF FF 50 8B 4D C0 81 C1 44 06 00 00 E8 81 43 E1 FF 8D 55 A8 52 68 F4 6A 94 00 8B 08 51 E8 86 6A 29 00 83 C4 0C 8D 85 F4 FD FF FF 50 8B 4D C0 81 C1 68 06 00 00 E8 58 43 E1 FF 8D 55 B4 52 68 F8 6A 94 00 8B 08 51 E8 5D 6A 29 00 83 C4 0C 8B 45 A8 03 45 B4 03 45 C4 8B 95 50 FD FF FF 83 FA 00 75 16 8B 4D 90 8A 51 07 80 FA 02 75 03 83 E8 02 80 FA 04 75 03 83 E8 03 68 85 10 00 00 50 8B 85 0C FF FF FF 50 8B 8D D0 FC FF FF E8 E0 63 FF FF B8 01 00 00 00 89 85 EC FD FF FF 89 85 E4 FD FF FF 8B 8D 20 FF FF FF 0F BE 41 2F 89 85 F0 FD FF FF 0F BE 41 30 89 85 E8 FD FF FF 8D 85 EC FD FF FF 50 8B 4D C0 81 C1 44 06 00 00 E8 C2 42 E1 FF 8D 55 A8 52 68 F4 6A 94 00 8B 08 51 E8 C7 69 29 00 83 C4 0C 8D 85 E4 FD FF FF 50 8B 4D C0 81 C1 68 06 00 00 E8 99 42 E1 FF 8D 55 B4 52 68 F8 6A 94 00 8B 08 51 E8 9E 69 29 00 83 C4 0C C7 85 4C FD FF FF 01 00 00 00 8D 85 4C FD FF FF 50 8B 4D C0 81 C1 78 0B 00 00 E8 66 42 E1 FF 8B 08 8D 45 C4 50 68 44 04 96 00 51 E8 6B 69 29 00 83 C4 0C 68 86 10 00 00 8B 4D A8 03 4D B4 03 4D C4 51 8B 8D 0C FF FF FF 51 8B 8D D0 FC FF FF E8 0F 63 FF FF EB 19 4D 6F 72 61 6C 65 3A 20 25 64 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 C7 85 DC FD FF FF 02 00 00 00 8B 85 20 FF FF FF 0F BE 48 2F 89 8D E0 FD FF FF~ END
+                ELSE BEGIN SPRINT replacebytes ~8B 8D 1C FF FF FF 0F B6 91 74 0C 00 00 8B 84 91 B8 0B 00 00 89 85 5C FD FF FF 50 E8 A3 61 19 00 89 85 50 FD FF FF 8B 8D 1C FF FF FF 0F B7 91 76 0C 00 00 52 8B 8D 5C FD FF FF E8 5C DF F1 FF 0F B7 08 89 8D 58 FD FF FF 50 8B 8D 1C FF FF FF E8 91 E0 16 00 83 F8 00 74 1A 50 8B 8D 1C FF FF FF E8 5E 61 19 00 3B 85 50 FD FF FF 7E 06 89 85 50 FD FF FF C7 85 4C FD FF FF 00 00 00 00 8D 85 4C FD FF FF 50 8B 4D C0 81 C1 78 0B 00 00 E8 63 42 E1 FF 8B 08 8D 45 C4 50 68 48 F4 95 00 51 E8 94 5D 29 00 83 C4 0C 8B 8D 20 FF FF FF 8B 85 58 FD FF FF 83 F8 02 75 46 C7 85 AC FD FF FF 01 00 00 00 0F BE 51 33 89 95 B0 FD FF FF 8D 95 AC FD FF FF 52 8B 4D C0 81 C1 18 08 00 00 E8 15 42 E1 FF 8D 55 A8 52 68 F8 5A 94 00 8B 08 51 E8 46 5D 29 00 83 C4 0C C7 45 B4 00 00 00 00 EB 74 33 C0 89 85 FC FD FF FF 89 85 F4 FD FF FF 0F BE 41 2F 89 85 00 FE FF FF 0F BE 41 30 89 85 F8 FD FF FF 8D 85 FC FD FF FF 50 8B 4D C0 81 C1 44 06 00 00 E8 C1 41 E1 FF 8D 55 A8 52 68 F8 5A 94 00 8B 08 51 E8 F2 5C 29 00 83 C4 0C 8D 85 F4 FD FF FF 50 8B 4D C0 81 C1 68 06 00 00 E8 98 41 E1 FF 8D 55 B4 52 68 F8 5A 94 00 8B 08 51 E8 C9 5C 29 00 83 C4 0C 8B 45 A8 03 45 B4 03 45 C4 8B 95 50 FD FF FF 83 FA 00 75 16 8B 4D 90 8A 51 07 80 FA 02 75 03 83 E8 02 80 FA 04 75 03 83 E8 03 68 85 10 00 00 50 8B 85 0C FF FF FF 50 8B 8D D0 FC FF FF E8 E0 63 FF FF B8 01 00 00 00 89 85 EC FD FF FF 89 85 E4 FD FF FF 8B 8D 20 FF FF FF 0F BE 41 2F 89 85 F0 FD FF FF 0F BE 41 30 89 85 E8 FD FF FF 8D 85 EC FD FF FF 50 8B 4D C0 81 C1 44 06 00 00 E8 02 41 E1 FF 8D 55 A8 52 68 F8 5A 94 00 8B 08 51 E8 33 5C 29 00 83 C4 0C 8D 85 E4 FD FF FF 50 8B 4D C0 81 C1 68 06 00 00 E8 D9 40 E1 FF 8D 55 B4 52 68 F8 5A 94 00 8B 08 51 E8 0A 5C 29 00 83 C4 0C C7 85 4C FD FF FF 01 00 00 00 8D 85 4C FD FF FF 50 8B 4D C0 81 C1 78 0B 00 00 E8 A6 40 E1 FF 8B 08 8D 45 C4 50 68 48 F4 95 00 51 E8 D7 5B 29 00 83 C4 0C 68 86 10 00 00 8B 4D A8 03 4D B4 03 4D C4 51 8B 8D 0C FF FF FF 51 8B 8D D0 FC FF FF E8 0F 63 FF FF EB 19 4D 6F 72 61 6C 65 3A 20 25 64 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 C7 85 DC FD FF FF 02 00 00 00 8B 85 20 FF FF FF 0F BE 48 2F 89 8D E0 FD FF FF~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~21. Fix to one of Nordom's "Removed from Party" sounds.~
+
+// Replace reference to sound file "MOR180" with "NOR180"
+// search:    4D 4F 52 31 38 30
+// replace:   4E 4F 52 31 38 30
+
+  SET Q_Starting_Offset = 0x561700
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 6
+  SPRINT searchpattern  ~123456~
+  SPRINT searchbytes  ~4D 4F 52 31 38 30~
+
+  SET replacelength = 6
+  SPRINT replacepattern ~123456~
+  SPRINT replacebytes ~4E 4F 52 31 38 30~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~22a. Constitution HP Bonus Fix (no bonus after level 9/10).~
+
+// CON bonus fix
+// search:  25 FF 00 00 00 89 45 F8 8B 4D D0
+// replace: E8 EB FD FF FF 89 45 F8 8B 4D D0
+
+  SET Q_Starting_Offset = 0x1837B0
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 11
+  SPRINT searchpattern  ~12345678901~
+  SPRINT searchbytes  ~25 FF 00 00 00 89 45 F8 8B 4D D0~
+
+  SET replacelength = 5
+  SPRINT replacepattern ~12345~
+  SPRINT replacebytes ~E8 EB FD FF FF~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~22b. Constitution HP Bonus Fix (no bonus after level 9/10).~
+// CON bonus fix
+//  search: 8B 55 0C 33 C0 8A 42 2C
+// replace: 8B 4D 0C 0F B6 41 2C 0F B6 51 2D 3B C2 7E 05 88 45 C0 EB 03 88 55 C0 0F B6 45 C0 0F B6 51 2B 3B D0 7E 03 88 55 C0 0F B6 45 C0 83 F8 09 7E 04 C6 45 C0 09 EB 40 25 FF 00 00 00 8B 4D CC 36 8A 54 29 EC 80 FA 01 74 05 80 FA 04 75 08 3C 0A 7E 02 B0 0A EB 10 80 FA 02 74 05 80 FA 03 75 06 3C 09 7E 02 B0 09 C3 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90
+
+  SET Q_Starting_Offset = 0x183570
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 8
+  SPRINT searchpattern  ~12345678~
+  SPRINT searchbytes  ~8B 55 0C 33 C0 8A 42 2C~
+
+  SET replacelength = 117
+  SPRINT replacepattern ~123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567~
+  SPRINT replacebytes ~8B 4D 0C 0F B6 41 2C 0F B6 51 2D 3B C2 7E 05 88 45 C0 EB 03 88 55 C0 0F B6 45 C0 0F B6 51 2B 3B D0 7E 03 88 55 C0 0F B6 45 C0 83 F8 09 7E 04 C6 45 C0 09 EB 40 25 FF 00 00 00 8B 4D CC 36 8A 54 29 EC 80 FA 01 74 05 80 FA 04 75 08 3C 0A 7E 02 B0 0A EB 10 80 FA 02 74 05 80 FA 03 75 06 3C 09 7E 02 B0 09 C3 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~23a. Lore Fix to prevent rollover below 0 error.~
+
+// 28.  Fix to lore so item effects are correctly added into final value when below zero (LENS10).  Removing bounds check for items and letting it be handled in final sum of lore from items, levels, and INT.
+// search:  7D 09 8B 55 FC C6 42 22
+// replace: EB 09 8B 55 FC C6 42 22
+
+  SET Q_Starting_Offset = 0x448B0
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 8
+  SPRINT searchpattern  ~12345678~
+  SPRINT searchbytes  ~7D 09 8B 55 FC C6 42 22~
+
+  SET replacelength = 1
+  SPRINT replacepattern ~1~
+  SPRINT replacebytes ~EB~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+
+  SPRINT "Q_Patch_Name" ~23b. Lore Fix to prevent rollover below 0 error.~
+
+// search:  76 0C C7 85 38
+// replace: EB 0C C7 85 38
+
+  SET Q_Starting_Offset = 0x45450
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 5
+  SPRINT searchpattern  ~12345~
+  SPRINT searchbytes  ~76 0C C7 85 38~
+
+  SET replacelength = 1
+  SPRINT replacepattern ~1~
+  SPRINT replacebytes ~EB~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~24. Skip updating death global variables for PC's when in party.~
+
+// 29. Add a check to skip setting certain death global variables (GOOD, LAW, MURDER, LADY, KILL_, etc) if current CRE is a PC.
+// PC's killed while they are a NPC will still set variables. This fixes bug with Hailcin'n argo.
+// search:       8B 45 E8 8B 08 83 E1 20 85 C9
+// replace 2cd:  8B 95 D0 FE FF FF 80 7A 20 02 0F 84 4E 06 00 00 8B 45 E8 8B 08 83 E1 20 85 C9 0F 84 E7 00 00 00 FF 45 F0 6A 20 83 E8 24 50 8D 4D D8 E8 25 02 13 00 90 90
+// replace 4cd:  8B 95 D0 FE FF FF 80 7A 20 02 0F 84 4E 06 00 00 8B 45 E8 8B 08 83 E1 20 85 C9 0F 84 E7 00 00 00 FF 45 F0 6A 20 83 E8 24 50 8D 4D D8 E8 95 F4 12 00 90 90
+
+  SET Q_Starting_Offset = 0x368440
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 10
+  SPRINT searchpattern  ~1234567890~
+  SPRINT searchbytes  ~8B 45 E8 8B 08 83 E1 20 85 C9~
+
+  SET replacelength = 51
+  SPRINT replacepattern ~123456789012345678901234567890123456789012345678901~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~8B 95 D0 FE FF FF 80 7A 20 02 0F 84 4E 06 00 00 8B 45 E8 8B 08 83 E1 20 85 C9 0F 84 E7 00 00 00 FF 45 F0 6A 20 83 E8 24 50 8D 4D D8 E8 25 02 13 00 90 90~ END
+                ELSE BEGIN SPRINT replacebytes ~8B 95 D0 FE FF FF 80 7A 20 02 0F 84 4E 06 00 00 8B 45 E8 8B 08 83 E1 20 85 C9 0F 84 E7 00 00 00 FF 45 F0 6A 20 83 E8 24 50 8D 4D D8 E8 95 F4 12 00 90 90~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~25. Bug prevented PC Death variables being set properly after first rez.~
+
+// 31. Reset bit 16 at CRE offset 0x2E0 (in memory) when Raise Dead is cast on a PC. This bit gets set to TRUE on NPC death to
+// prevent death globals from being modified a second time. This bit not getting reset prevented PC_DEAD KAPUTZ variable from
+// correctly being set after the first time PC dies and brought back to life.
+// search:  8B 55 08 81 C2 08 05 00 00 89 95 B0 FE FF FF
+// replace: 8B 4D 08 81 C1 C8 07 00 00 8B 01 25 00 00 00 40 85 C0 75 06 81 30 00 00 00 40 8B 45 08 05 08 05 00 00 8B 08 80 E5 F7 89 08 05 7C 07 00 00 8B 08 80 E5 F7 89 08 EB 0C 90 90 90 90 90 90 90 90 90 90 90 90
+  SET Q_Starting_Offset = 0xBB190
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 15
+  SPRINT searchpattern  ~123456789012345~
+  SPRINT searchbytes  ~8B 55 08 81 C2 08 05 00 00 89 95 B0 FE FF FF~
+
+  SET replacelength = 67
+  SPRINT replacepattern ~1234567890123456789012345678901234567890123456789012345678901234567~
+  SPRINT replacebytes ~8B 4D 08 81 C1 C8 07 00 00 8B 01 25 00 00 00 40 85 C0 75 06 81 30 00 00 00 40 8B 45 08 05 08 05 00 00 8B 08 80 E5 F7 89 08 05 7C 07 00 00 8B 08 80 E5 F7 89 08 EB 0C 90 90 90 90 90 90 90 90 90 90 90 90~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~26. Allows INI-spawned creatures to set death variables when killed. Patch 1.~
+
+// search:  25 4F FE FF FF
+// replace: 25 7F FE FF FF
+
+  SET Q_Starting_Offset = 0x3EE000
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 5
+  SPRINT searchpattern  ~12345~
+  SPRINT searchbytes  ~25 4F FE FF FF~
+
+  SET replacelength = 5
+  SPRINT replacepattern ~12345~
+  SPRINT replacebytes ~25 7F FE FF FF~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+  SPRINT "Q_Patch_Name" ~26. Allows INI-spawned creatures to set death variables when killed. Patch 2.~
+
+// search:  81 E1 4F FE FF FF
+// replace: 81 E1 7F FE FF FF
+
+  SET Q_Starting_Offset = 0x3EDED0
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 6
+  SPRINT searchpattern  ~123456~
+  SPRINT searchbytes  ~81 E1 4F FE FF FF~
+
+  SET replacelength = 6
+  SPRINT replacepattern ~123456~
+  SPRINT replacebytes ~81 E1 7F FE FF FF~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~27a. Increase memory allocated to parsing VAR.VAR when starting new game.~
+
+// Double memory allocation on startup for LOCALS, GLOBALS, and KAPUTZ's to give each an effect cap of ~4100 per group.
+// search: C6 45 FC 1B 68 00 08 00 00
+// replace: C6 45 FC 1B 68 00 10 00 00
+
+  SET Q_Starting_Offset = 0x1A8500
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 9
+  SPRINT searchpattern  ~123456789~
+  SPRINT searchbytes  ~C6 45 FC 1B 68 00 08 00 00~
+
+  SET replacelength = 9
+  SPRINT replacepattern ~123456789~
+  SPRINT replacebytes ~C6 45 FC 1B 68 00 10 00 00~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+  SPRINT "Q_Patch_Name" ~27b. Increase memory allocated to parsing VAR.VAR when starting new game.~
+
+// search C6 45 FC 1C 68 00 08 00 00
+// replace: C6 45 FC 1C 68 00 10 00 00
+
+  SET Q_Starting_Offset = 0x1A8500
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 9
+  SPRINT searchpattern  ~123456789~
+  SPRINT searchbytes  ~C6 45 FC 1C 68 00 08 00 00~
+
+  SET replacelength = 9
+  SPRINT replacepattern ~123456789~
+  SPRINT replacebytes ~C6 45 FC 1C 68 00 10 00 00~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+  SPRINT "Q_Patch_Name" ~27c. Increase memory allocated to parsing VAR.VAR when starting new game.~
+
+// search: C6 45 FC 1D 68 00 08 00 00
+// replace: C6 45 FC 1D 68 00 10 00 00
+
+  SET Q_Starting_Offset = 0x1A8500
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 9
+  SPRINT searchpattern  ~123456789~
+  SPRINT searchbytes  ~C6 45 FC 1D 68 00 08 00 00~
+
+  SET replacelength = 9
+  SPRINT replacepattern ~123456789~
+  SPRINT replacebytes ~C6 45 FC 1D 68 00 10 00 00~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+
+  SPRINT "Q_Patch_Name" ~28a. Fix to item dialogues interfering with cutscene dialogues.~
+
+// offset 2cd: 0036C3E1
+// replace 2cd: E8 6C DE CC FF 90
+// offset 4cd: 0036C5A1
+// replace 4cd: E8 AC DC CC FF 90
+
+  PATCH_PRINT ~%Q_Patch_Name%~
+  SET searchlength = 0
+  SET replacelength = 6
+  SPRINT replacepattern ~123456~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~E8 6C DE CC FF 90~ END
+                ELSE BEGIN SPRINT replacebytes ~E8 AC DC CC FF 90~ END
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  PATCH_IF Q_VER = 2
+  BEGIN
+    WRITE_EVALUATED_ASCII 0x36C3E1 "%replacepattern%" (%replacelength%)
+    PATCH_PRINT ~Engine Patched at Offset: 0x36C3E1~
+  END
+  ELSE
+  BEGIN
+    WRITE_EVALUATED_ASCII 0x36C5A1 "%replacepattern%" (%replacelength%)
+    PATCH_PRINT ~Engine Patched at Offset: 0x36C5A1~
+  END
+
+
+  SPRINT "Q_Patch_Name" ~28b. Fix to item dialogues interfering with cutscene dialogues.~
+
+// resetting engine variable regarding current type of dialog to zero (type:CRE?) rather than last used dialog
+// offset: 0003A252
+// replace 2cd: 8B 0D 6C F9 96 00 8B 89 42 35 00 00 33 D2 89 91 44 10 00 00 8A 15 DB F5 8D 00 C3 90 90 90 90 90
+// replace 4cd: 8B 15 1C E8 96 00 8B 89 42 35 00 00 33 D2 89 91 44 10 00 00 8A 15 CB E5 8D 00 C3 90 90 90 90 90
+
+  PATCH_PRINT ~%Q_Patch_Name%~
+  SET searchlength = 0
+  SET replacelength = 32
+  SPRINT replacepattern ~12345678901234567890123456789012~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~8B 0D 6C F9 96 00 8B 89 42 35 00 00 33 D2 89 91 44 10 00 00 8A 15 DB F5 8D 00 C3 90 90 90 90 90~ END
+                ELSE BEGIN SPRINT replacebytes ~8B 0D 1C E8 96 00 8B 89 42 35 00 00 33 D2 89 91 44 10 00 00 8A 15 CB E5 8D 00 C3 90 90 90 90 90~ END
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  WRITE_EVALUATED_ASCII 0x3A252 "%replacepattern%" (%replacelength%)
+  PATCH_PRINT ~Engine Patched at Offset: 0x3A252~
+
+
+  SPRINT "Q_Patch_Name" ~29a. EscapeAreaRunning ()~
+
+// search: 89 95 84 FC FF FF 81 BD 84 FC FF FF 2F 01 00 00
+// replace 2cd: 81 FA 39 01 00 00 75 09 B8 39 00 00 00 EB 15 90 90 81 FA 2F 01 00 00 0F 87 67 29 00 00 0F B6 82 B6 D2 76 00
+// replace 4cd: 81 FA 39 01 00 00 75 09 B8 39 00 00 00 EB 15 90 90 81 FA 2F 01 00 00 0F 87 67 29 00 00 0F B6 82 76 D4 76 00
+
+  SET Q_Starting_Offset = 0x368440
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 16
+  SPRINT searchpattern  ~1234567890123456~
+  SPRINT searchbytes  ~89 95 84 FC FF FF 81 BD 84 FC FF FF 2F 01 00 00~
+
+  SET replacelength = 36
+  SPRINT replacepattern ~123456789012345678901234567890123456~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~81 FA 39 01 00 00 75 09 B8 39 00 00 00 EB 15 90 90 81 FA 2F 01 00 00 0F 87 67 29 00 00 0F B6 82 B6 D2 76 00~ END
+                ELSE BEGIN SPRINT replacebytes ~81 FA 39 01 00 00 75 09 B8 39 00 00 00 EB 15 90 90 81 FA 2F 01 00 00 0F 87 67 29 00 00 0F B6 82 76 D4 76 00~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+  SPRINT "Q_Patch_Name" ~29b. EscapeAreaRunning ()~
+
+// search:      E9 5F 0B 00 00 8B 8D 88 FC FF FF
+// replace 2cd: E9 5F 0B 00 00 E8 90 DE CC FF 90
+// replace 4cd: E9 5F 0B 00 00 E8 D0 DC CC FF 90
+
+  SET Q_Starting_Offset = 0x36C520
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 11
+  SPRINT searchpattern  ~12345678901~
+  SPRINT searchbytes  ~E9 5F 0B 00 00 8B 8D 88 FC FF FF~
+
+  SET replacelength = 11
+  SPRINT replacepattern ~12345678901~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~E9 5F 0B 00 00 E8 90 DE CC FF 90~ END
+                ELSE BEGIN SPRINT replacebytes ~E9 5F 0B 00 00 E8 D0 DC CC FF 90~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+  SPRINT "Q_Patch_Name" ~29c. EscapeAreaRunning ()~
+
+// offset: 0003A3C1
+// replace: 8B 8D 88 FC FF FF 81 FA 39 01 00 00 75 18 8B 89 EE 1B 00 00 6A 01 6A 01 8B 11 FF 92 CC 00 00 00 8B 8D 88 FC FF FF C3
+
+  SET Q_Starting_Offset = 0x3A3C1
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 0
+  SPRINT searchpattern  ~~
+  SPRINT searchbytes    ~~
+
+  SET replacelength = 39
+  SPRINT replacepattern ~123456789012345678901234567890123456789~
+  SPRINT replacebytes ~8B 8D 88 FC FF FF 81 FA 39 01 00 00 75 18 8B 89 EE 1B 00 00 6A 01 6A 01 8B 11 FF 92 CC 00 00 00 8B 8D 88 FC FF FF C3~
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+  
+  SPRINT "Q_Patch_Name" ~30. Fix Ice Knife THAC0 debuff timer~
+
+// search: 6A 81 6A 00 8D 55 FC
+// replace 2cd: 8B 0D 6C F9 96 00 8B 91 06 35 00 00 8B 8A A4 0E 00 00 8B 55 BC 0F BF 82 2A 03 00 00 6B C0 2D 03 C8 8B 55 BC 89 8A 06 03 00 00 6A 81 6A 00 8D 55 FC 52 8B 45 F4 50 8B 4D EC 51 8B 4D BC E8 1F 5B EC FF 85 C0 74 49 68 00 10 00 00 6A 01 6A 03 6A 01 8B 4D BC 8B 81 4E 01 00 00 50 8B 91 4A 01 00 00 52 8B 81 46 01 00 00 50 E8 87 8F FE FF 8B 4D BC 8B 11 FF 92 98 00 00 00 6A 3C 8B 4D BC E8 3F 01 00 00 C7 45 F0 01 00 00 00 E9 8D 00 00 00 0F B7 0D 4A 00 8E 00 8B 55 BC 8B 82 9C 00 00 00 D3 F8 6B C0 18 8B 4D BC 8B 91 B0 00 00 00 03 D0 89 91 B0 00 00 00 0F B7 0D 4A 00 8E 00 8B 55 BC 8B 82 A0 00 00 00 D3 F8 6B C0 18 8B 4D BC 8B 91 B4 00 00 00 03 D0 89 91 B4 00 00 00 C7 81 10 02 00 00 00 00 00 00 C6 81 52 01 00 00 00 C7 41 6E FF FF FF FF EB 27 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+// replace 4cd: 8B 0D 1C E8 96 00 8B 91 06 35 00 00 8B 8A A4 0E 00 00 8B 55 BC 0F BF 82 2A 03 00 00 6B C0 2D 03 C8 8B 55 BC 89 8A 06 03 00 00 6A 81 6A 00 8D 55 FC 52 8B 45 F4 50 8B 4D EC 51 8B 4D BC E8 9F 59 EC FF 85 C0 74 49 68 00 10 00 00 6A 01 6A 03 6A 01 8B 4D BC 8B 81 4E 01 00 00 50 8B 91 4A 01 00 00 52 8B 81 46 01 00 00 50 E8 87 8F FE FF 8B 4D BC 8B 11 FF 92 98 00 00 00 6A 3C 8B 4D BC E8 3F 01 00 00 C7 45 F0 01 00 00 00 E9 8D 00 00 00 0F B7 0D 3A F0 8D 00 8B 55 BC 8B 82 9C 00 00 00 D3 F8 6B C0 18 8B 4D BC 8B 91 B0 00 00 00 03 D0 89 91 B0 00 00 00 0F B7 0D 3A F0 8D 00 8B 55 BC 8B 82 A0 00 00 00 D3 F8 6B C0 18 8B 4D BC 8B 91 B4 00 00 00 03 D0 89 91 B4 00 00 00 C7 81 10 02 00 00 00 00 00 00 C6 81 52 01 00 00 00 C7 41 6E FF FF FF FF EB 27 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+
+  SET Q_Starting_Offset = 0x2B2000
+  SET Q_Replace_Offset  = 0
+
+  SET searchlength = 7
+  SPRINT searchpattern  ~1234567~
+  SPRINT searchbytes  ~6A 81 6A 00 8D 55 FC~
+
+  SET replacelength = 284
+  SPRINT replacepattern ~12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~8B 0D 6C F9 96 00 8B 91 06 35 00 00 8B 8A A4 0E 00 00 8B 55 BC 0F BF 82 2A 03 00 00 6B C0 2D 03 C8 8B 55 BC 89 8A 06 03 00 00 6A 81 6A 00 8D 55 FC 52 8B 45 F4 50 8B 4D EC 51 8B 4D BC E8 1F 5B EC FF 85 C0 74 49 68 00 10 00 00 6A 01 6A 03 6A 01 8B 4D BC 8B 81 4E 01 00 00 50 8B 91 4A 01 00 00 52 8B 81 46 01 00 00 50 E8 87 8F FE FF 8B 4D BC 8B 11 FF 92 98 00 00 00 6A 3C 8B 4D BC E8 3F 01 00 00 C7 45 F0 01 00 00 00 E9 8D 00 00 00 0F B7 0D 4A 00 8E 00 8B 55 BC 8B 82 9C 00 00 00 D3 F8 6B C0 18 8B 4D BC 8B 91 B0 00 00 00 03 D0 89 91 B0 00 00 00 0F B7 0D 4A 00 8E 00 8B 55 BC 8B 82 A0 00 00 00 D3 F8 6B C0 18 8B 4D BC 8B 91 B4 00 00 00 03 D0 89 91 B4 00 00 00 C7 81 10 02 00 00 00 00 00 00 C6 81 52 01 00 00 00 C7 41 6E FF FF FF FF EB 27 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00~ END
+                ELSE BEGIN SPRINT replacebytes ~8B 0D 1C E8 96 00 8B 91 06 35 00 00 8B 8A A4 0E 00 00 8B 55 BC 0F BF 82 2A 03 00 00 6B C0 2D 03 C8 8B 55 BC 89 8A 06 03 00 00 6A 81 6A 00 8D 55 FC 52 8B 45 F4 50 8B 4D EC 51 8B 4D BC E8 9F 59 EC FF 85 C0 74 49 68 00 10 00 00 6A 01 6A 03 6A 01 8B 4D BC 8B 81 4E 01 00 00 50 8B 91 4A 01 00 00 52 8B 81 46 01 00 00 50 E8 87 8F FE FF 8B 4D BC 8B 11 FF 92 98 00 00 00 6A 3C 8B 4D BC E8 3F 01 00 00 C7 45 F0 01 00 00 00 E9 8D 00 00 00 0F B7 0D 3A F0 8D 00 8B 55 BC 8B 82 9C 00 00 00 D3 F8 6B C0 18 8B 4D BC 8B 91 B0 00 00 00 03 D0 89 91 B0 00 00 00 0F B7 0D 3A F0 8D 00 8B 55 BC 8B 82 A0 00 00 00 D3 F8 6B C0 18 8B 4D BC 8B 91 B4 00 00 00 03 D0 89 91 B4 00 00 00 C7 81 10 02 00 00 00 00 00 00 C6 81 52 01 00 00 00 C7 41 6E FF FF FF FF EB 27 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+
+  SPRINT "Q_Patch_Name" ~31. Fix crash on exit for Win7/Vista.~
+
+// search: 89 8D 2C FF FF FF 8B 85 2C FF FF FF C7 00
+// replace 2cd: 89 8D 2C FF FF FF C7 01 04 CC 8D 00 C7 81 D6 35 00 00 00 00 00 00 90 90 90
+// replace 4cd: 89 8D 2C FF FF FF C7 01 F4 BB 8D 00 C7 81 D6 35 00 00 00 00 00 00 90 90 90
+
+  SET Q_Starting_Offset = 0x36095
+  SET Q_Replace_Offset  = 6
+
+  SET searchlength = 14
+  SPRINT searchpattern  ~12345678901234~
+  SPRINT searchbytes  ~89 8D 2C FF FF FF 8B 85 2C FF FF FF C7 00~
+
+  SET replacelength = 19
+  SPRINT replacepattern ~1234567890123456789~
+  PATCH_IF Q_VER = 2 BEGIN SPRINT replacebytes ~C7 01 04 CC 8D 00 C7 81 D6 35 00 00 00 00 00 00 90 90 90~ END
+                ELSE BEGIN SPRINT replacebytes ~C7 01 F4 BB 8D 00 C7 81 D6 35 00 00 00 00 00 00 90 90 90~ END
+
+  LAUNCH_PATCH_MACRO Q_Pattern_Maker
+  LAUNCH_PATCH_MACRO Q_Engine_Patcher
+  
+BUT_ONLY_IF_IT_CHANGES
+
+APPEND ~ACTION.IDS~ ~313 EscapeAreaRunning()~ KEEP_CRLF

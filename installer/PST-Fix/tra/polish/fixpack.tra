@@ -1,0 +1,543 @@
+@-1000= "%TP2_FILE_NAME% mod ma"
+@-1001= "opcjonalnych komponentow\nZeby zaoszczedzic na czasie, mozesz zdecydowac co zrobic z nimi wszystkimi teraz, zamiast\nbyc pytanym o kazdy z osobna.\n"
+@-1002= "Co zrobic z komponentami, ktore NIE SA jeszcze zainstalowane?\n[I]nstaluj, [S]Pomin, [A]Pytaj o kazdy? "
+@-1003= "Co zrobic z komponentami ktore SA juz zainstalowane?\n[R]einstaluj, [U]sun, [S]Pomin, [A]Pytaj o kazdy? "
+@-1004= "PROSZE, wyslij plik emailem"
+@-1005= "do"
+@-1006= "Instaluj ["
+@-1007= "]?
+[R]einstaluj, [N]ie instaluj, [U]sun lub [Q]Zakoncz? "
+@-1008= "]?
+[I]nstaluj, [N]ie instaluj lub [Q]Zakoncz? "
+@-1009= "Podaj nazwe modulu: "
+@-1010= "Reinstalacja ["
+@-1011= "]"
+@-1012= "Reinstalacja z uzyciem jezyka"
+@-1013= "Usuwanie starej instalacji ["
+@-1014= "]  ..."
+@-1015= "Pomyslnie usunieto stara wersje"
+@-1016= "Instalacja"
+@-1017= "BLAD podczas instalacji ["
+@-1018= "], przywracanie poprzedniego stanu"
+@-1019= "POMYSLNIE ZAINSTALOWANO"
+@-1020= "Pomijanie "
+@-1021= "Usuwanie ["
+@-1022= "] (komponent #"
+@-1023= ")"
+@-1024= "POMYSLNIE USUNIETO ["
+@-2000= "Dokumentacja"
+@-2001= "Polska wersja pliku readme nie jest jeszcze dostêpna. Wyœwietliæ wersjê angielsk¹? [Y]Tak, [N]ie:"
+@00001 = ~PS:T Ultimate WeiDU Fixpack, by Qwinn~ []
+@00002 = ~Poprawki jezykowe (tylko dla wersji angielskojezycznej)~ []
+@00003 = ~Pominieto z powodu niewlasciwej wersji jezykowej~
+@00004 = ~Napisy w animacjach~
+@00005 = ~Napisy w animacjach wymagaja PS:T Ultimate WeiDU Fixpack.~
+@00100 = ~Kobieta potakuje i poœpiesznie ucieka. Nie spodziewasz siê, ¿ebyœ j¹ jeszcze kiedykolwiek ujrza³.~ []
+@00101 = ~"So what are you, Morte? You've never said."~ [FFG121]
+@00102 = ~Infiltrate the Sensates for the Anarchists: "I'm ready. I want to become a Sensate."~
+@00103 = ~Infiltrate the Sensates for the Anarchists: "I'm ready to join the Society of Sensation. I feel no more loyalty towards the Godsmen."~
+@00104 = ~Infiltrate the Sensates for the Anarchists: "I'm ready to join the Society of Sensation. I feel no more loyalty towards the Dustmen."~
+@00105 = ~Infiltrate the Sensates for the Anarchists: "I'm ready to join the Society of Sensation. I feel no more loyalty towards the Xaositects."~
+@00106 = ~Infiltrate the Dustmen for the Anarchists: "If that is what must be, that is what must be. My mind must be true to itself, not to another. As of this moment, I forsake the beliefs of the Godsmen."~
+@00107 = ~Infiltrate the Dustmen for the Anarchists: "If that is what must be, that is what must be. My mind must be true to itself, not to another. As of this moment, I forsake the... uh, 'beliefs' of the Chaosmen."~
+@00108 = ~Infiltrate the Dustmen for the Anarchists: "If that is what must be, that is what must be. My mind must be true to itself, not to another. As of this moment, I forsake the beliefs of the Sensates."~
+@00109 = ~Infiltrate the Chaosmen for the Anarchists: "So, what's the next step?"~
+@00110 = ~Infiltrate the Chaosmen for the Anarchists: "Join ready the Xaositects am I. Loyalty none faction old I have Godsmen."~
+@00111 = ~Infiltrate the Chaosmen for the Anarchists: "Join ready the Xaositects am I. Loyalty none faction old I have Dustmen."~
+@00112 = ~Infiltrate the Chaosmen for the Anarchists: "Join ready the Xaositects am I. Loyalty none faction old I have Sensates."~
+@00113 = ~"Damnit, Vhailor, do you realize what you've done?!"~
+@00114 = ~Vhailor turns from Trias's corpse to face you squarely. *You are MERCIFUL and WEAK. STEEL your HEART before the disease SPREADS.*~ [VHA013]
+@00115 = ~Infiltrate the Dustmen for the Anarchists: "Tak."~
+@00498 = ~PIEKIELNA KULA
+Zasiêg: 15 metrów
+Czas dzia³ania: Specjalny
+Szybkoœæ: 2
+Obszar dzia³ania: 1 istota
+Rzut obronny: Neguje
+
+Aby os³abiæ i zatrzymaæ wrogów przywo³uje siê ognisto-czerwon¹ kulê.
+
+Rzucaj¹cy przyzywa wielk¹, magiczn¹ Kulê Ognistej Czerwieni, któr¹ mo¿na cisn¹æ w przeciwnika za pomoc¹ zwyk³ego rzutu na atak. Rzucaj¹cy otrzymuje modyfikator +3 do tego ataku. Kula zadaje 1-6 punktów obra¿eñ i sprawia, ¿e Si³a i Zrêcznoœæ przeciwnika bêdzie obni¿ona o -1 przez 10 sekund.~ []
+@00950 = ~"This is where the dead of Sigil are brought to be interred or cremated. It is our responsibility as Dustmen to care for the dead, those who have left this shadow of life and walk the path to True Death." Dhall's voice drops in concern. "Your wounds must have exacted a heavy toll if you do not recognize this place. It is almost your home."~ []
+@10605 = ~Moze Przeszkadzac jej mozesz wiec trucizna jej pic.: "Co jest z.e tam?"~
+@26067 = ~ENTROPIC BLADE
+Damage: 3-23 Piercing
+Enchanted: +2
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape.
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+@30022 = ~ZERTHOWE OSTRZE DAK'KONA ("ZMIENNE OSTRZE")
+Obra¿enia: 2-9, sieczne
+Umagicznienie: +1
+Specjalne w³aœciwoœci:
+   +2 do klasy pancerza
+   Umo¿liwia zapamiêtanie 2 dodatkowych czarów z 1 poziomu maga
+TraK0: +1
+Szybkoœæ: 7
+Waga: 5
+Bieg³oœæ: Bronie sieczne
+Mo¿e byæ u¿ywane jedynie przez Dak'kona
+
+W Limbo, ojczystej sferze githzerai, materia sta³a nale¿y do rzadkoœci. Samo Limbo stworzone jest z masy p³ynnych ¿ywio³ów i jedynie si³¹ woli mo¿na ukszta³towaæ je w formê sta³¹.
+
+Substancja o nazwie "karach" jest materia³em, który mo¿na formowaæ za pomoc¹ myœli. Ostrze Dak'kona stworzono w³aœnie z takiego materia³u. Dak'kon utrzymuje sta³oœæ broni jedynie poprzez skupienie swego umys³u. Kiedy jest on skupiony, wolny od w¹tpliwoœci i oddany jednemu celowi, ostrze odpowiednio reaguje, stanowi¹c odbicie myœli swego w³aœciciela.
+
+Jeœli tak jest, to umys³ Dak'kona jest w tej chwili czysty, poniewa¿ ostrze lœni srebrem. Wydaje siê, ¿e broñ jest d³u¿sza, a jej powierzchnia straci³a dziwny blask, który mia³a przedtem.
+
+Ostrze wydaje siê mieæ dla Dak'kona wyj¹tkowe znaczenie religijne. Wzd³u¿ rêkojeœci miecza  zwyk³ zawijaæ on karty pergaminu, zapewne pe³ne œwiêtych nauk Zerthimona.~
+@32837 = ~Embalming Room.~
+@37091 = ~Target is immune to weapon [Fall-From-Grace]~ [FFG173E]
+@48157 = ~"Obiekt konwersuje z cz³owiekiem p³ci ¿eñskiej."~ []
+@48158 = ~"Obiekt rozgrywa grê z cz³owiekiem p³ci ¿eñskiej."~ []
+@48854 = ~ZWÓJ M£OTA DUCHOWEGO
+Umo¿liwia rzucenie zaklêcia "M³ot duchowy"
+Poziom: 2 / Kap³an
+Zasiêg: 10 metrów / poziom
+Czas dzia³ania: Ró¿ny (patrz ni¿ej)
+Czas rzucania: 2
+Obszar dzia³ania: 1 cel
+Rzut obronny: 1/2
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Kap³anów
+
+Zaklêcie to przywo³uje m³ot z³o¿ony z energii duchowej, który uderzy w twoich nieprzyjació³.
+
+Osoba, która rzuci³a czar, wybiera cel w zasiêgu jego dzia³ania. M³ot zadaje 4-10 obra¿eñ obuchowych na ka¿de trzy poziomy rzucaj¹cego, dzia³aj¹c jak broñ +1 (+1 do trafienia i obra¿eñ). Za ka¿de szeœæ poziomów rzucaj¹cego otrzymuje kolejne +1, do maksymalnie +3.~ []
+@48964 = ~ZWÓJ MODLITWY
+Umo¿liwia rzucenie zaklêcia "Modlitwa"
+Poziom: 3 / Kap³an
+Zasiêg: 0 (wyœrodkowany na osobie rzucaj¹cej czar)
+Czas dzia³ania: 5 sekund na poziom
+Szybkoœæ: 3
+Obszar dzia³ania: Promieñ 20 metrów
+Rzut obronny: Brak
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Kap³anów
+
+Czar ten wspiera sojuszników a szkodzi wrogom.
+
+Zaklêcie "Modlitwa" daje modyfikator +1 dla rzutów na atak, obra¿enia oraz rzutów obronnych, w odniesieniu do wszystkich "przyjacielskich" istot. Analogicznie,  wszystkie "wrogie" istoty otrzymuj¹ modyfikator ujemny o wartoœci -1 dla rzutów na atak, obra¿enia oraz rzutów obronnych. Czar trwa 5 sekund na poziom, w promieniu 20 metrów.~ []
+@48966 = ~ZWÓJ ROZMOWY Z UMAR£YM
+Umo¿liwia rzucenie zaklêcia "Rozmowa z umar³ym"
+Poziom: 3 / Kap³an
+Zasiêg: 15 metrów
+Czas dzia³ania: Specjalny
+Szybkoœæ: 3
+Obszar dzia³ania: 1 istota (nieumar³a)
+Rzut obronny: Brak
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Kap³anów
+
+Czar ten pozwala na porozumiewanie siê ze zmar³ymi.
+
+Czar ten umo¿liwia Bezimiennemu przeprowadzenie rozmowy ze znajduj¹c¹ siê w pobli¿u martw¹ osob¹.~ []
+@49059 = ~ZWÓJ LECZENIA KRYTYCZNYCH RAN
+Umo¿liwia rzucenie zaklêcia "Leczenie krytycznych ran"
+Poziom: 5 / Kap³an
+Zasiêg: 0
+Czas dzia³ania: Trwa³y / Natychmiastowy
+Szybkoœæ: 8
+Obszar dzia³ania: 1 istota
+Rzut obronny: Brak
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Kap³anów
+
+Czar ten leczy wszelkie krytyczne obra¿enia u istoty, na któr¹ zosta³ rzucony. 
+
+Czar ten przywraca 27 punktów ¿ycia. Odzyskane punkty ¿ycia nie mog¹ przekroczyæ ich maksymalnej liczby.~ []
+@49073 = ~ZWÓJ IDENTYFIKACJI
+Umo¿liwia rzucenie zaklêcia "Identyfikacja"
+Umo¿liwia przepisanie zaklêcia "Identyfikacja" do Ksiêgi czarów
+Poziom: 1 / Czarodziej
+Zasiêg: 1 obiekt
+Czas dzia³ania: Natychmiastowy
+Szybkoœæ: 0
+Obszar dzia³ania: Do u¿ytku tylko wewn¹trz ekwipunku
+Rzut obronny: Brak
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Magów
+
+Czar ten ods³ania sekrety zaczarowanego przedmiotu, pozwalaj¹c poznaæ jego  wszystkie w³aœciwoœci.~ []
+@49093 = ~ZWÓJ POCA£UNKU WÊ¯A
+Umo¿liwia rzucenie zaklêcia "Poca³unek wê¿a"
+Umo¿liwia przepisanie zaklêcia "Poca³unek wê¿a" do Ksiêgi czarów
+Poziom: 2 / Czarodziej
+Zasiêg: 50 metrów
+Czas dzia³ania: 5 sekund na ka¿de 3 poziomy
+Szybkoœæ: 2
+Obszar dzia³ania: 1 istota
+Rzut obronny: Brak
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Magów.
+
+Mówi siê, ¿e poca³unek wê¿a potrafi oparzyæ nawet najbardziej przera¿aj¹cego z biesów. Czar ten wytwarza truj¹cy pocisk, który uderza we wroga i zalewa go ¿r¹cym, zielonym kwasem. Je¿eli osoba rzucaj¹ca ma odpowiednie zdolnoœci, to mo¿e sprawiæ, ¿e zaklêcie bêdzie twa³o przez d³u¿szy czas, w¿eraj¹c siê w skórê przeciwnika.
+
+Osoba rzucaj¹c czar wybiera dowolny cel znajduj¹cy siê w odleg³oœci maksymalnie 50 metrów, a "Poca³unek Wê¿a" zada od 2 do 8 punktów ¿r¹cych obra¿eñ. Co ka¿de trzy poziomy maga, dzia³anie kwasu bêdzie utrzymywa³o siê o 5 sekund d³u¿ej, powoduj¹c kolejne 2-8 punktów ¿r¹cych obra¿eñ.~ []
+@49127 = ~ZWÓJ OTWARCIA
+Umo¿liwia rzucenie zaklêcia "Otwarcie"
+Umo¿liwia przepisanie zaklêcia "Otwarcie" do Ksiêgi czarów
+Poziom: 2 / Czarodziej
+Zasiêg: 60 metrów
+Czas dzia³ania: Specjalne
+Szybkoœæ: 2
+Obszar dzia³ania: 3 metry kwadratowe na poziom
+Rzut obronny: Brak
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Magów
+
+Inkantacja ta sprawi, ¿e wszystko co jest zamkniête i niedostêpne, otworzy siê przed tob¹.
+
+Zaklêcie to otwiera wszystkie zamkniête na klucz drzwi, komody, skrzynie i kajdany, ale nie dzia³a na zakratowane bramy i tym podobne. Ponadto nie mo¿na nim obj¹æ wiêcej ni¿ 2 obiekty na raz.~ []
+@49259 = ~ZWÓJ DUPLIKACJI ENOLLA EVY
+Umo¿liwia rzucenie zaklêcia "Duplikacja Enolla Evy"
+Umo¿liwia przepisanie zaklêcia "Duplikacja Enolla Evy" do Ksiêgi czarów
+Poziom: 5 / Czarodziej
+Zasiêg: 17 metrów
+Czas dzia³ania: 60 sekund
+Szybkoœæ: 5
+Obszar dzia³ania: Jedna istota
+Rzut obronny: Brak
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Magów
+
+Czar ten jest w³aœciwie skomplikowanym matematycznym równaniem, odkrytym przypadkowo przez modrona Enolla Evê w trakcie obliczania czynnika wielokrotnoœci przy ró¿nych linearnych formu³ach algebraicznych. Wyniki tego równania s¹ mia¿d¿¹ce: dowodzi ono, ¿e wszystkie dzia³ania mog¹ zostaæ zdublowane b¹dŸ skopiowane. St¹d p³ynie wniosek, ¿e w trakcie wszelkich konfrontacji, wszystkie ataki fizyczne i magiczne s¹ pozornie podwojone, a przez to powoduj¹ dwa razy wiêksze obra¿enia.
+
+Zaklêcie ogarnia pojedynczy cel. Nie przewiduje siê rzutu obronnego. Z chwil¹ rzucenia czaru, wszystkie kolejne ataki (fizyczne b¹dŸ magiczne) zostan¹ natychmiast zdublowane. Na przyk³ad, po zaatakowaniu broni¹, dzia³anie to bêdzie natychmiast zdublowane - to samo dotyczy zaklêæ (np. przy rzucaniu Magicznych Pocisków w œlad za "zwyk³ym" pociskiem pojawia siê za chwilê drugi zdublowany pocisk). Czar ten trwa oko³o 2 minut od chwili rzucenia.~ []
+@49265 = ~ZWÓJ POW£OKI ANTYMAGII
+Umo¿liwia rzucenie zaklêcia "Pow³oka antymagii"
+Umo¿liwia przepisanie zaklêcia "Pow³oka antymagii" do Ksiêgi czarów
+Poziom: 6 / Czarodziej
+Zasiêg: 0
+Czas dzia³ania: 5 minut
+Szybkoœæ: 6
+Obszar dzia³ania: obszar o œrednicy 30 cm na poziom
+Rzut obronny: Brak
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Magów
+
+W paradoksalny sposób czar ten likwiduje wszelkie przejawy magii na obszarze swego dzia³ania. 
+
+Zaklêcie otacza czarodzieja magiczn¹ pow³ok¹, która skutecznie dezaktywuje wszelk¹ magiê i efekty czarów (³¹cznie z magicznymi przedmiotami). Tak wiêc blokuje ona dzia³anie magii, ale z drugiej strony uniemo¿liwia tak¿e korzystanie z niej przez czarodzieja! Odnosi siê to równie¿ do rozmaitych ataków specjalnych takich jak zioniêcia, atak spojrzeniem czy g³osem. Czar trwa przez 5 minut a magiczna kula zajmuje obszar o œrednicy 30 centymetrów na ka¿dy poziom czarodzieja.~ []
+@49267 = ~ZWÓJ KLOSZA NIEWRA¯LIWOŒCI
+Umo¿liwia rzucenie zaklêcia "Klosz niewra¿liwoœci"
+Umo¿liwia przepisanie zaklêcia "Klosz niewra¿liwoœci" do Ksiêgi czarów
+Poziom: 6 / Czarodziej
+Zasiêg: 0
+Czas dzia³ania: 5 sekund na poziom
+Szybkoœæ: 6
+Obszar dzia³ania: Promieñ 1,5 metra
+Rzut obronny: Brak
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Magów
+
+Podobnie jak pokrewny czar, 'Pow³oka antymagii', zaklêcie to zabezpiecza pewien obszar przed okreœlonym rodzajem magii. Jednak¿e w odró¿nieniu od swego krewniaka, czar ten pozwala na korzystanie z magii wewn¹trz kuli. 
+
+Czar ten tworzy nieruchom¹ magiczn¹ kulê, która powstrzymuje wszystkie czary z poziomów 1-4 (nawet zaklêcia obszarowe). Czary z poziomu 5 wzwy¿ nie s¹ zatrzymywane. Ale w odró¿nieniu od Pow³oki Antymagii postaæ w kloszu mo¿na rzucaæ zaklêcia poza jego obrêb. Zaklêcie utrzymuje siê przez 5 sekund na poziom maga.~ []
+@49287 = ~ ZWÓJ S£OWA MOCY, OŒLEPIENIE
+Umo¿liwia rzucenie zaklêcia "S³owo mocy, Oœlepienie"
+Umo¿liwia przepisanie zaklêcia "S³owo mocy, Oœlepienie" do Ksiêgi czarów
+Poziom: 8 / Czarodziej
+Zasiêg: 5 metrów na poziom
+Czas dzia³ania: Specjalny
+Szybkoœæ: 1
+Obszar dzia³ania: Promieñ 5 metrów
+Rzut obronny: Brak
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Magów
+
+Zmys³ wzroku zostanie odebrany i nadejdzie ciemnoœæ.
+ 
+Czar ten oœlepia istoty posiadaj¹ce ³¹cznie do 100 punktów ¿ycia, znajduj¹ce siê w promieniu 5 metrów na poziom miotacza, licz¹c od wyznaczonego celu. Oœlepiaj¹ca moc roztacza siê od centrum czaru, ogarniaj¹c najpierw istoty o najni¿szej liczbie punktów ¿ycia. Istoty posiadaj¹ce wiêcej ni¿ 100 punktów ¿ycia pozostaj¹ nietkniête. Czas dzia³ania czaru zale¿y od iloœci punktów ¿ycia jego ofiar: Je¿eli zaklêcie ogarnie 25 lub mniej punktów ¿ycia, to œlepota bêdzie utrzymywa³a siê przez okres 160-400 sekund. Je¿eli zaklêcie ogarnie 26-50 punktów ¿ycia, œlepota bêdzie siê utrzymywa³a przez okres 80-200 sekund. Wreszcie, je¿eli zaklêcie ogarnie 51-100 punktów ¿ycia, œlepota bêdzie siê utrzymywa³a przez okres 16-40 sekund. Nie mo¿e zaistnieæ sytuacja wyst¹pienia u œlepoty czêœciowej. Je¿eli czar nie ogarn¹³ wszystkich punktów ¿ycia jakiejœ istoty, to po prostu nie zostanie ona oœlepiona.~ []
+@49289 = ~ZWÓJ DZIA£A MECHANUSA
+Umo¿liwia rzucenie zaklêcia "Dzia³o Mechanusa"
+Umo¿liwia przepisanie zaklêcia "Dzia³o Mechanusa" do Ksiêgi czarów
+Poziom: 8 / Czarodziej
+Zasiêg: 17 metrów
+Czas dzia³ania: Natychmiastowy
+Szybkoœæ: 8
+Obszar dzia³ania: 1 istota
+Rzut obronny: Brak
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Magów
+
+Wszystko to co nielogiczne, zostanie poddane dzia³aniu prawdziwej, logicznej sprawiedliwoœci, w formie czystej energii wys³anej z Mechanusa.
+
+Zaklêcie to przywo³uje ostateczn¹ formu³ê 'równoœci' z Primusa: potê¿ny podmuch energii, pochodz¹cy z samego serca Mechanusa, który za pomoc¹ portalu uderza w cel wyznaczony przez maga. W odleg³oœci 3 metrów od celu pojawia siê tymczasowy portal, z którego materializuje siê Logiczna Sprawiedliwoœæ Mechanusa, zadaj¹c 30-90 punktów obra¿eñ, bez mo¿liwoœci zastosowania rzutu obronnego.~
+@49632 = ~Kosa~ []
+@50894 = ~ZERTHOWE OSTRZE DAK'KONA ("ZMIENNE OSTRZE")
+Obra¿enia: 3-12, sieczne
+Umagicznienie: +2
+Specjalne w³aœciwoœci:
+   +4 do klasy pancerza
+   Umo¿liwia zapamiêtanie dwukrotnej liczby czarów z 1 poziomu maga
+   Umo¿liwia zapamiêtanie 1 dodatkowego czaru z 2 poziomu maga
+TraK0: +2
+Szybkoœæ: 6
+Waga: 5
+Bieg³oœæ: Bronie sieczne
+Mo¿e byæ u¿ywane jedynie przez Dak'kona
+
+W Limbo, ojczystej sferze githzerai, materia sta³a nale¿y do rzadkoœci. Samo Limbo stworzone jest z masy p³ynnych ¿ywio³ów i jedynie si³¹ woli mo¿na ukszta³towaæ je w formê sta³¹.
+
+Substancja o nazwie "karach" jest materia³em, który mo¿na formowaæ za pomoc¹ myœli. Ostrze Dak'kona stworzono w³aœnie z takiego materia³u. Dak'kon utrzymuje sta³oœæ broni jedynie poprzez skupienie swego umys³u. Kiedy jest on skupiony, wolny od w¹tpliwoœci i oddany jednemu celowi, ostrze odpowiednio reaguje, stanowi¹c odbicie myœli swego w³aœciciela.
+
+Jeœli tak jest, to umys³ Dak'kona jest w tej chwili czysty, poniewa¿ ostrze lœni srebrem. Wydaje siê, ¿e broñ jest d³u¿sza, a jej powierzchnia straci³a dziwny blask, który mia³a przedtem. Klinga sta³a siê prawie tak cienka jak papier i pomimo kruchego wygl¹du, mog³aby chyba z ³atwoœci¹ przeci¹æ kolczugê.
+
+Ostrze wydaje siê mieæ dla Dak'kona wyj¹tkowe znaczenie religijne. Wzd³u¿ rêkojeœci miecza zwyk³ zawijaæ on karty pergaminu, zapewne pe³ne œwiêtych nauk Zerthimona.~ []
+@50929 = ~ ZERTHOWE OSTRZE DAK'KONA ("£AÑCUCHOWE OSTRZE")
+Obra¿enia: 3-12, sieczne
+Umagicznienie: +2
+Specjalne w³aœciwoœci:
+   +2 do klasy pancerza
+   Umo¿liwia zapamiêtanie 2 dodatkowych czarów z 1 poziomu maga
+   Umo¿liwia zapamiêtanie 1 dodatkowego czaru z 2 poziomu maga
+TraK0: +2
+Szybkoœæ: 6
+Waga: 5
+Bieg³oœæ: Bronie sieczne
+Mo¿e byæ u¿ywany jedynie przez Dak'kona
+
+W Limbo, ojczystej sferze githzerai, materia sta³a nale¿y do rzadkoœci. Samo Limbo stworzone jest z masy p³ynnych ¿ywio³ów i jedynie si³¹ woli mo¿na ukszta³towaæ je w formê sta³¹.
+
+Substancja o nazwie "karach" jest materia³em, który mo¿na formowaæ za pomoc¹ myœli. Ostrze Dak'kona stworzono w³aœnie z takiego materia³u. Dak'kon utrzymuje sta³oœæ broni jedynie poprzez skupienie swego umys³u. Mo¿e zmieniaæ jej kszta³t w zale¿noœci od swych umiejêtnoœci, odpowiednio dostosowuj¹c jej d³ugoœæ i ostroœæ. Przypuszczalnie wraz z wzrostem doœwiadczenia, bêdzie móg³ formowaæ j¹ na nowe sposoby.
+
+Nie wiadomo czy wszyscy zerthowie githzerai nosz¹ tak¹ broñ. Z pewnoœci¹ broñ, której integralnoœæ zale¿y od sta³oœci umys³u jej posiadacza jest zastrze¿ona tylko dla tych, którzy nauczyli siê perfekcyjnie panowaæ nad swoim umys³em i cia³em.
+
+Ostrze wydaje siê mieæ dla Dak'kona wyj¹tkowe znaczenie religijne. Wzd³u¿ rêkojeœci miecza zwyk³ zawijaæ on karty pergaminu, zapewne pe³ne œwiêtych nauk Zerthimona.~ []
+@50987 = ~IDENTYFIKACJA
+Zasiêg: 1 obiekt
+Czas dzia³ania: Natychmiastowy
+Szybkoœæ: 0
+Obszar dzia³ania: Do u¿ytku tylko wewn¹trz ekwipunku
+Rzut obronny: Brak
+
+Czar ten ods³ania sekrety zaczarowanego przedmiotu, pozwalaj¹c poznaæ jego  wszystkie w³aœciwoœci.~ []
+@51023 = ~ OTWARCIE
+Zasiêg: 60 metrów
+Czas dzia³ania: Specjalne
+Szybkoœæ: 2
+Obszar dzia³ania: 3 metry kwadratowe na poziom
+Rzut obronny: Brak
+
+Inkantacja ta sprawi, ¿e wszystko co jest zamkniête i niedostêpne, otworzy siê przed tob¹.
+
+Zaklêcie to otwiera wszystkie zamkniête na klucz drzwi, komody, skrzynie i kajdany, ale nie dzia³a na zakratowane bramy i tym podobne. Ponadto nie mo¿na nim obj¹æ wiêcej ni¿ 2 obiekty na raz.~ []
+@51073 = ~DUPLIKACJA ENOLLA EVY
+Zasiêg: 17 metrów
+Czas dzia³ania: 60 sekund
+Szybkoœæ: 5
+Obszar dzia³ania: Jedna istota
+Rzut obronny: Brak
+
+Czar ten jest w³aœciwie skomplikowanym matematycznym równaniem, odkrytym przypadkowo przez modrona Enolla Evê w trakcie obliczania czynnika wielokrotnoœci przy ró¿nych linearnych formu³ach algebraicznych. Wyniki tego równania s¹ mia¿d¿¹ce: dowodzi ono, ¿e wszystkie dzia³ania mog¹ zostaæ zdublowane b¹dŸ skopiowane. St¹d p³ynie wniosek, ¿e w trakcie wszelkich konfrontacji, wszystkie ataki fizyczne i magiczne s¹ pozornie podwojone, a przez to powoduj¹ dwa razy wiêksze obra¿enia.
+
+Zaklêcie ogarnia pojedynczy cel. Nie przewiduje siê rzutu obronnego. Z chwil¹ rzucenia czaru, wszystkie kolejne ataki (fizyczne b¹dŸ magiczne) zostan¹ natychmiast zdublowane. Na przyk³ad, po zaatakowaniu broni¹, dzia³anie to bêdzie natychmiast zdublowane - to samo dotyczy zaklêæ (np. przy rzucaniu Magicznych Pocisków w œlad za "zwyk³ym" pociskiem pojawia siê za chwilê drugi zdublowany pocisk). Czar ten trwa oko³o 2 minut od chwili rzucenia.~ []
+@51076 = ~ POW£OKA ANTYMAGII
+Zasiêg: 0
+Czas dzia³ania: 5 minut
+Szybkoœæ: 6
+Obszar dzia³ania: obszar o œrednicy 30 cm na poziom
+Rzut obronny: Brak
+
+W paradoksalny sposób czar ten likwiduje wszelkie przejawy magii na obszarze swego dzia³ania. 
+
+Zaklêcie otacza czarodzieja magiczn¹ pow³ok¹, która skutecznie dezaktywuje wszelk¹ magiê i efekty czarów (³¹cznie z magicznymi przedmiotami). Tak wiêc blokuje ona dzia³anie magii, ale z drugiej strony uniemo¿liwia tak¿e korzystanie z niej przez czarodzieja! Odnosi siê to równie¿ do rozmaitych ataków specjalnych takich jak zioniêcia, atak spojrzeniem czy g³osem. Czar trwa przez 5 minut a magiczna kula zajmuje obszar o œrednicy 30 centymetrów na ka¿dy poziom czarodzieja.~ []
+@51077 = ~KLOSZ NIEWRA¯LIWOŒCI
+Zasiêg: 0
+Czas dzia³ania: 5 sekund na poziom
+Szybkoœæ: 6
+Obszar dzia³ania: obszar w promieniu 1,5 metra
+Rzut obronny: Brak
+
+Podobnie jak pokrewny czar, 'Pow³oka antymagii', zaklêcie to zabezpiecza pewien obszar przed okreœlonym rodzajem magii. Jednak¿e w odró¿nieniu od swego krewniaka, czar ten pozwala na korzystanie z magii wewn¹trz kuli. 
+
+Czar ten tworzy nieruchom¹ magiczn¹ kulê, która powstrzymuje wszystkie czary z poziomów 1-4 (nawet zaklêcia obszarowe). Czary z poziomu 5 wzwy¿ nie s¹ zatrzymywane. Ale w odró¿nieniu od Pow³oki Antymagii postaæ w kloszu mo¿na rzucaæ zaklêcia poza jego obrêb. Zaklêcie utrzymuje siê przez 5 sekund na poziom maga.~ []
+@51087 = ~S£OWO MOCY, OŒLEPIENIE
+Zasiêg: 5 metrów na poziom
+Czas dzia³ania: Specjalny
+Szybkoœæ: 1
+Obszar dzia³ania: Promieñ 5 metrów
+Rzut obronny: Brak
+
+Zmys³ wzroku zostanie odebrany i nadejdzie ciemnoœæ.
+ 
+Czar ten oœlepia istoty posiadaj¹ce ³¹cznie do 100 punktów ¿ycia, znajduj¹ce siê w promieniu 5 metrów na poziom miotacza, licz¹c od wyznaczonego celu. Oœlepiaj¹ca moc roztacza siê od centrum czaru, ogarniaj¹c najpierw istoty o najni¿szej liczbie punktów ¿ycia. Istoty posiadaj¹ce wiêcej ni¿ 100 punktów ¿ycia pozostaj¹ nietkniête. Czas dzia³ania czaru zale¿y od iloœci punktów ¿ycia jego ofiar: Je¿eli zaklêcie ogarnie 25 lub mniej punktów ¿ycia, to œlepota bêdzie utrzymywa³a siê przez okres 160-400 sekund. Je¿eli zaklêcie ogarnie 26-50 punktów ¿ycia, œlepota bêdzie siê utrzymywa³a przez okres 80-200 sekund. Wreszcie, je¿eli zaklêcie ogarnie 51-100 punktów ¿ycia, œlepota bêdzie siê utrzymywa³a przez okres 16-40 sekund. Nie mo¿e zaistnieæ sytuacja wyst¹pienia u œlepoty czêœciowej. Je¿eli czar nie ogarn¹³ wszystkich punktów ¿ycia jakiejœ istoty, to po prostu nie zostanie ona oœlepiona.~ []
+@51088 = ~ DZIA£O MECHANUSA
+Zasiêg: 15 metrów
+Czas dzia³ania: Natychmiastowy
+Szybkoœæ: 8
+Obszar dzia³ania: 1 istota
+Rzut obronny: Brak
+
+Wszystko to co nielogiczne, zostanie poddane dzia³aniu prawdziwej, logicznej sprawiedliwoœci, w formie czystej energii wys³anej z Mechanusa.
+
+Zaklêcie to przywo³uje ostateczn¹ formu³ê 'równoœci' z Primusa: potê¿ny podmuch energii, pochodz¹cy z samego serca Mechanusa, który za pomoc¹ portalu uderza w cel wyznaczony przez maga. W odleg³oœci 3 metrów od celu pojawia siê tymczasowy portal, z którego materializuje siê Logiczna Sprawiedliwoœæ Mechanusa, zadaj¹c 30-90 punktów obra¿eñ, bez mo¿liwoœci zastosowania rzutu obronnego.~
+@51328 = ~M£OT DUCHOWY
+Zasiêg: 10 metrów / poziom
+Czas dzia³ania: Ró¿ny (patrz ni¿ej)
+Czas rzucania: 2
+Obszar dzia³ania: 1 cel
+Rzut obronny: 1/2
+
+Zaklêcie to przywo³uje m³ot z³o¿ony z energii duchowej, który uderzy w twoich nieprzyjació³.
+
+Osoba, która rzuci³a czar, wybiera cel w zasiêgu jego dzia³ania. M³ot zadaje 4-10 obra¿eñ obuchowych na ka¿de trzy poziomy rzucaj¹cego, dzia³aj¹c jak broñ +1 (+1 do trafienia i obra¿eñ). Za ka¿de szeœæ poziomów rzucaj¹cego otrzymuje kolejne +1, do maksymalnie +3.~ []
+@51331 = ~MODLITWA
+Zasiêg: 0
+Czas dzia³ania: 5 sekund na poziom
+Szybkoœæ: 3
+Obszar dzia³ania: Promieñ 20 metrów
+Rzut obronny: Brak
+
+Czar ten wspiera sojuszników a szkodzi wrogom.
+
+Zaklêcie "Modlitwa" daje modyfikator +1 dla rzutów na atak, obra¿enia oraz rzutów obronnych, w odniesieniu do wszystkich "przyjacielskich" istot. Analogicznie,  wszystkie "wrogie" istoty otrzymuj¹ modyfikator ujemny o wartoœci -1 dla rzutów na atak, obra¿enia oraz rzutów obronnych. Czar trwa 5 sekund na poziom, w promieniu 20 metrów.~ []
+@51332 = ~ ROZMOWA Z UMAR£YM
+Zasiêg: 15 metrów
+Czas dzia³ania: Specjalny
+Szybkoœæ: 3
+Obszar dzia³ania: 1 istota (nieumar³a)
+Rzut obronny: Brak
+Waga: 0
+Mo¿e byæ u¿ywany jedynie przez Kap³anów
+
+Czar ten pozwala na porozumiewanie siê ze zmar³ymi.
+
+Czar ten umo¿liwia Bezimiennemu przeprowadzenie rozmowy ze znajduj¹c¹ siê w pobli¿u martw¹ osob¹.~ []
+@51335 = ~LECZENIE KRYTYCZNYCH RAN
+Zasiêg: 0
+Czas dzia³ania: Trwa³y / Natychmiastowy
+Szybkoœæ: 5
+Obszar dzia³ania: 1 istota
+Rzut obronny: Brak
+
+Czar ten leczy wszelkie krytyczne obra¿enia u istoty, na któr¹ zosta³ rzucony. 
+
+Czar ten przywraca 27 punktów ¿ycia. Odzyskane punkty ¿ycia nie mog¹ przekroczyæ ich maksymalnej liczby.~ []
+@51392 = ~POCA£UNEK WÊ¯A
+Zasiêg: 50 metrów
+Czas dzia³ania: 5 sekund na ka¿de 3 poziomy
+Szybkoœæ: 2
+Obszar dzia³ania: 1 istota
+Rzut obronny: Brak
+
+Mówi siê, ¿e poca³unek wê¿a potrafi oparzyæ nawet najbardziej przera¿aj¹cego z biesów. Czar ten wytwarza truj¹cy pocisk, który uderza we wroga i zalewa go ¿r¹cym, zielonym kwasem. Je¿eli osoba rzucaj¹ca ma odpowiednie zdolnoœci, to mo¿e sprawiæ, ¿e zaklêcie bêdzie twa³o przez d³u¿szy czas, w¿eraj¹c siê w skórê przeciwnika.
+
+Osoba rzucaj¹c czar wybiera dowolny cel znajduj¹cy siê w odleg³oœci maksymalnie 50 metrów, a "Poca³unek Wê¿a" zada od 2 do 8 punktów ¿r¹cych obra¿eñ. Co ka¿de trzy poziomy maga, dzia³anie kwasu bêdzie utrzymywa³o siê o 5 sekund d³u¿ej, powoduj¹c kolejne 2-8 punktów ¿r¹cych obra¿eñ.~ []
+@52798 = ~D£OÑ IGNUSA
+Umo¿liwia przepisanie zaklêcia "Piekielna kula" do Ksiêgi czarów
+Zasiêg: 15 metrów
+Czas dzia³ania: Specjalny
+Szybkoœæ: 2
+Obszar dzia³ania: 1 istota
+Rzut obronny: Neguje
+Waga: 1
+Mo¿e byæ u¿ywana jedynie przez Bezimiennego
+Mo¿e byæ u¿ywana jedynie przez Magów
+
+To twoja zwêglona d³oñ; zosta³a odciêta na wysokoœci nadgarstka, a otaczaj¹ce niegdyœ koœæ cia³o wypali³o siê do cna. Pomimo braku miêœni i skóry, d³oñ jest tak spieczona, ¿e koœci siê nie rozpadaj¹. Ból wynikaj¹cy z utraty d³oni by³ prawie nie do zniesienia, a na nadgarstku i przedramieniu pozosta³y ci czarne blizny. Co gorsza, zauwa¿asz, ¿e twoje cia³o leczy ranê powoli i opornie... gdyby Ignus zaatakowa³ ciê w szale, to móg³by wykrzesaæ z siebie tyle ognia, ¿e póŸniejsze dojœcie do siebie by³oby raczej trudne... mo¿e nawet móg³by ciê zniszczyæ? Ta myœl wcale ciê nie zachwyca.
+
+Ignus zasugerowa³, ¿e zwêglona resztka d³oni w jakiœ sposób zachowa³a u³amek jego piekielnej mocy... która teraz przesz³a na ciebie. Aby j¹ wykorzystaæ, musisz odci¹æ sobie jeszcze raz d³oñ, przystawiæ do rany ten zwêglony szkielet, a potem poczekaæ, a¿ cia³o siê zagoi. Kiedy tak siê stanie, pozosta³oœci mocy Ignusa, jakie tkwi¹ w zwêglonych koœciach 'rozpal¹' w tobie cz¹stkê jego wiedzy i potêgi.~ []
+@57317 = ~Widzisz starego pustelnika z podziemi. Na twój widok wyrzuca z siebie: "Kyse dozorca powiedzia³ mi, ¿e przyjdziesz. Dobrze siê spisa³eœ... Chaos w mieœcie powoli ustêpuje, a plan devy nie dzia³a zbyt dobrze. IdŸ i dokoñcz to, co zacz¹³eœ."~ []
+@59082 = ~Kiri~ []
+@59821 = ~ENTROPIC BLADE
+Damage: 3-23 Crushing
+Enchanted: +2
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Fists
+Usable only by Fighters and Thieves
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape.
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+@59822 = ~ENTROPIC BLADE
+Damage: 3-23 Crushing
+Enchanted: +2
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Hammers
+Usable only by Fighters
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape.
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+@59823 = ~ENTROPIC BLADE
+Damage: 3-23 Crushing
+Enchanted: +2
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Clubs
+Usable only by Fighters
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape.
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+@61680 = ~ENTROPIC BLADE
+Damage: 3-23 Slashing
+Enchanted: +2
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Axes
+Usable only by Fighters
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape.
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+@61796 = ~Cannot remove armor~ [ANA369C]
+@62305 = ~Morte Taunts 7~ [MRT459A]
+@62321 = ~Morte Taunts 23~ [MRT322AL]
+@66374 = ~ ZERTHOWE OSTRZE DAK'KONA ("ZMIENNE OSTRZE")
+Obra¿enia: 5-20, sieczne
+Umagicznienie: +3
+Specjalne w³aœciwoœci:
+ +6 do klasy pancerza
+ Umo¿liwia zapamiêtanie dwukrotnej liczby czarów z 1 poziomu maga
+ Umo¿liwia zapamiêtanie dwukrotnej liczby czarów z 2 poziomu maga
+ Umo¿liwia zapamiêtanie 1 dodatkowego czaru z 3 poziomu maga
+TraK0: +3
+Szybkoœæ: 6
+Waga: 5
+Bieg³oœæ: Bronie sieczne
+Mo¿e byæ u¿ywany jedynie przez Dak'kona
+
+W Limbo, ojczystej sferze githzerai, materia sta³a nale¿y do rzadkoœci. Samo Limbo stworzone jest z masy p³ynnych ¿ywio³ów i jedynie si³¹ woli mo¿na ukszta³towaæ je w formê sta³¹.
+
+"Karach" to substancja, która mo¿e byæ kszta³towana si³¹ woli. Miecz Dak'kona jest w³aœnie stworzony z tej substancji; jedynie dyscyplina umys³owa i koncentracja Dak'kona utrzymuje integralnoœæ broni. Kiedy jest on skupiony, wolny od w¹tpliwoœci i oddany jednemu celowi, ostrze odpowiednio reaguje, stanowi¹c odbicie myœli swego w³aœciciela.
+
+Je¿eli duch i koncentracja u¿ytkownika zaczynaj¹ wiotczeæ i s³abn¹æ, zmiany umys³u w³aœciciela miecza uwidoczniaj¹ siê w kszta³cie i integralnoœci samej broni.
+
+Je¿eli wiêc tak siê dzieje, to umys³ Dak'kona musi byæ w istocie niezwykle czysty, bo jego broñ przybra³a blask olœniewaj¹cego srebra. Masz wra¿enie, ¿e od czasu, kiedy ogl¹da³eœ go ostatnim razem, miecz znacznie wyd³u¿y³ siê i zatraci³ swój dawny, osobliwy pob³ysk. Jego krawêdzie maj¹ gruboœæ najcieñszego arkusza pergaminu, ale chocia¿ taki wygl¹d powinien budziæ lekcewa¿enie, czujesz, ¿e jedno drgniêcie tego ostrza rozp³ata³oby najgrubszy pancerz.
+
+Ostrze wydaje siê mieæ dla Dak'kona wyj¹tkowe znaczenie religijne. Wzd³u¿ rêkojeœci miecza zwyk³ zawijaæ on karty pergaminu, zapewne pe³ne œwiêtych nauk Zerthimona.~ []
+@66375 = ~ZERTHOWE OSTRZE DAK'KONA ("£AÑCUCHOWE OSTRZE")
+Obra¿enia: 5-20, sieczne
+Umagicznienie: +3
+Specjalne w³aœciwoœci:
+   +3 do klasy pancerza
+   Umo¿liwia zapamiêtanie dwukrotnej liczby czarów z 1 poziomu maga
+   Umo¿liwia zapamiêtanie dwukrotnej liczby czarów z 2 poziomu maga
+TraK0: +3
+Szybkoœæ: 6
+Waga: 5
+Bieg³oœæ: Bronie sieczne
+Mo¿e byæ u¿ywany jedynie przez Dak'kona
+
+W Limbo, ojczystej sferze githzerai, materia sta³a nale¿y do rzadkoœci. Samo Limbo stworzone jest z masy p³ynnych ¿ywio³ów i jedynie si³¹ woli mo¿na ukszta³towaæ je w formê sta³¹.
+
+Substancja o nazwie "karach" jest materia³em, który mo¿na formowaæ za pomoc¹ myœli. Ostrze Dak'kona stworzono w³aœnie z takiego materia³u. Dak'kon utrzymuje sta³oœæ broni jedynie poprzez skupienie swego umys³u. Mo¿e zmieniaæ jej kszta³t w zale¿noœci od swych umiejêtnoœci, odpowiednio dostosowuj¹c jej d³ugoœæ i ostroœæ. Przypuszczalnie wraz z wzrostem doœwiadczenia, bêdzie móg³ formowaæ j¹ na nowe sposoby.
+
+Nie wiadomo czy wszyscy zerthowie githzerai nosz¹ tak¹ broñ. Z pewnoœci¹ broñ, której integralnoœæ zale¿y od sta³oœci umys³u jej posiadacza jest zastrze¿ona tylko dla tych, którzy nauczyli siê perfekcyjnie panowaæ nad swoim umys³em i cia³em.
+
+Ostrze wydaje siê mieæ dla Dak'kona wyj¹tkowe znaczenie religijne. Wzd³u¿ rêkojeœci miecza zwyk³ zawijaæ on karty pergaminu, zapewne pe³ne œwiêtych nauk Zerthimona.~ []
+@106498 = ~This is a placeholder to prevent a string with a sound file from becoming strref 106498, which causes problems.~ []

@@ -1,0 +1,539 @@
+@-1000= "The %TP2_FILE_NAME% mod has"
+@-1001= "distinct optional components.\nTo save time, you can choose what to do with them at a high level rather\nthan being asked about each one.\n"
+@-1002= "What should be done with all components that are NOT YET installed?\n[I]nstall them, [S]kip them, [A]sk about each one? "
+@-1003= "What should be done with all components that are ALREADY installed?\n[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
+@-1004= "PLEASE email the file"
+@-1005= "to"
+@-1006= "Install ["
+@-1007= "]?
+[R]e-Install, [N]o Change or [U]ninstall or [Q]uit? "
+@-1008= "]?
+[I]nstall, or [N]ot Install or [Q]uit? "
+@-1009= "Enter part of a module name: "
+@-1010= "Re-Installing ["
+@-1011= "] component "
+@-1012= "Re-Installing Using Language"
+@-1013= "Removing old installation of ["
+@-1014= "] first ..."
+@-1015= "SUCCESSFULLY REMOVED OLD"
+@-1016= "Installing"
+@-1017= "ERROR Installing ["
+@-1018= "], rolling back to previous state"
+@-1019= "SUCCESSFULLY INSTALLED"
+@-1020= "Skipping "
+@-1021= "Removing ["
+@-1022= "] (component #"
+@-1023= ")"
+@-1024= "SUCCESSFULLY REMOVED ["
+@-2000= "Readme Viewer"
+@-2001= "Would you like to view the Readme? [Y]es or [N]o:"
+@00001 = ~PS:T Ultimate WeiDU Fixpack, by Qwinn~ []
+@00002 = ~Dialogue Spelling/Grammar Corrections (English Only)~ []
+@00003 = ~Skipped because Language selected was not English~
+@00004 = ~Subtitled Cutscenes~
+@00005 = ~Subtitled Cutscenes requires the PS:T Ultimate WeiDU Fixpack.~
+@00100 = ~The woman nods and runs away hurriedly.  You don't expect to see her again.~ []
+@00101 = ~"So what are you, Morte? You've never said."~ [FFG121]
+@00102 = ~Infiltrate the Sensates for the Anarchists: "I'm ready. I want to become a Sensate."~
+@00103 = ~Infiltrate the Sensates for the Anarchists: "I'm ready to join the Society of Sensation. I feel no more loyalty towards the Godsmen."~
+@00104 = ~Infiltrate the Sensates for the Anarchists: "I'm ready to join the Society of Sensation. I feel no more loyalty towards the Dustmen."~
+@00105 = ~Infiltrate the Sensates for the Anarchists: "I'm ready to join the Society of Sensation. I feel no more loyalty towards the Xaositects."~
+@00106 = ~Infiltrate the Dustmen for the Anarchists: "If that is what must be, that is what must be. My mind must be true to itself, not to another. As of this moment, I forsake the beliefs of the Godsmen."~
+@00107 = ~Infiltrate the Dustmen for the Anarchists: "If that is what must be, that is what must be. My mind must be true to itself, not to another. As of this moment, I forsake the... uh, 'beliefs' of the Chaosmen."~
+@00108 = ~Infiltrate the Dustmen for the Anarchists: "If that is what must be, that is what must be. My mind must be true to itself, not to another. As of this moment, I forsake the beliefs of the Sensates."~
+@00109 = ~Infiltrate the Chaosmen for the Anarchists: "So, what's the next step?"~
+@00110 = ~Infiltrate the Chaosmen for the Anarchists: "Join ready the Xaositects am I. Loyalty none faction old I have Godsmen."~
+@00111 = ~Infiltrate the Chaosmen for the Anarchists: "Join ready the Xaositects am I. Loyalty none faction old I have Dustmen."~
+@00112 = ~Infiltrate the Chaosmen for the Anarchists: "Join ready the Xaositects am I. Loyalty none faction old I have Sensates."~
+@00113 = ~"Damnit, Vhailor, do you realize what you've done?!"~
+@00114 = ~Vhailor turns from Trias's corpse to face you squarely. *You are MERCIFUL and WEAK. STEEL your HEART before the disease SPREADS.*~ [VHA013]
+@00115 = ~Infiltrate the Dustmen for the Anarchists: "Yes."~
+@00498 = ~INFERNAL ORB
+Range: 50 feet
+Duration: Special
+Speed: 2
+Area of Effect: 1 creature
+Saving Throw: Neg.
+
+A sphere of Fiery Red is called upon to weaken and slow the enemy.
+
+The caster summons a large, magical Orb of Fire Red Color, which can then be hurled at a target using the caster's normal Attack roll. The caster gains a +3 To Hit bonus to his attack roll. The orb does 1-6 points of damage, and afflicts a -1 penalty to the enemy's Strength and Dexterity for 10 seconds.~ []
+@00950 = ~"This is where the dead of Sigil are brought to be interred or cremated. It is our responsibility as Dustmen to care for the dead, those who have left this shadow of life and walk the path to True Death." Dhall's voice drops in concern. "Your wounds must have exacted a heavy toll if you do not recognize this place. It is almost your home."~ []
+@10605 = ~Distract her so you can poison her drink: "What's that over there?"~
+@26067 = ~ENTROPIC BLADE
+Damage: 3-23 Piercing
+Enchanted: +2
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Edged
+Not usable by Priests
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape.
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+@30022 = ~DAK'KON'S ZERTH BLADE ("STREAMING BLADE")
+Damage: 2-9 Slashing
+Enchanted: +1
+Special:
+   +2 to Armor Class
+   Memorize 2 Additional 1st Level Spells
+THAC0: +1
+Speed: 7
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter.
+
+A substance called "karach" is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. When the user's spirit is focused, his mind clear of doubts and devoted to a single purpose, the blade itself will react, mirroring the wielder's thoughts.
+
+If so, Dak'kon's mind must be clear, indeed, for his blade has become a brilliant silver. It seems as if the blade has become longer than when you first saw it, and there is no trace of the strange shimmering surface it once had. The edge of the blade tapers almost to a paper-thin line - despite its flimsy appearance, it looks like it could cut through chain armor with ease.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~
+@32837 = ~Embalming Room.~
+@37091 = ~Target is immune to weapon [Fall-From-Grace]~ [FFG173E]
+@48157 = ~"Subject now conversing with human female."~ []
+@48158 = ~"Subject now playing a game with human female."~ []
+@48854 = ~SCROLL OF SPIRITUAL HAMMER
+Allows user to cast "Spiritual Hammer"
+Level: 2 / Priest
+Range: 30 feet per level
+Duration: Variable (see below)
+Speed: 2
+Area of Effect: 1 Target
+Saving Throw: 1/2
+Weight: 0
+Usable only by Priests
+
+This spell summons a hammer of spiritual energy to smite your foes.
+
+When cast, the caster chooses a target within range. The hammer causes 4-10 points of bludgeoning damage, for every three levels that the caster has, acting as a +1 weapon (+1 to hit and +1 damage), gaining an additional +1 for every six levels of the caster, to a maximum of +3.~ []
+@48964 = ~SCROLL OF PRAYER
+Allows user to cast "Prayer"
+Level: 3 / Priest
+Range: 0 (centered on caster)
+Duration: 5 seconds per level
+Speed: 3
+Area of Effect: 60 feet radius
+Saving Throw: None
+Weight: 0
+Usable only by Priests
+
+This spell aids allies and harms your foes.
+
+This spell grants a bonus of + 1 to attack, damage, and saving throws to all who are "Friendly" to the priest. Those who are "Hostile" to the caster suffer -1 to attack, damage, and saving throws. It lasts 5 seconds / level in a 60 foot radius.~ []
+@48966 = ~SCROLL OF SPEAK WITH DEAD
+Allows user to cast "Speak with Dead"
+Level: 3 / Priest
+Range: 50
+Duration: Special
+Speed: 3
+Area of Effect: 1 creature (undead)
+Saving Throw: None
+Weight: 0
+Usable only by Priests
+
+To commune with spirits passed away.
+
+This spell allows the Nameless One to initiate a dialogue with a dead body within speaking range.~ []
+@49059 = ~SCROLL OF CURE CRITICAL WOUNDS
+Allows user to cast "Cure Critical Wounds"
+Level: 5 / Priest
+Range: 0
+Duration: Permanent / Instant
+Speed: 5
+Area of Effect: 1 creature
+Saving Throw: None
+Weight: 0
+Usable only by Priests
+
+This spell heals any critical wounds a target may have gained.
+
+Restores 27 hit points to the target creature. The creature's restored hit points cannot exceed its maximum hit points.~ []
+@49073 = ~SCROLL OF IDENTIFY
+Allows user to cast "Identify"
+Allows user to copy "Identify" into Spell Book
+Level: 1 / Wizard
+Range: 1 Item
+Duration: Instant
+Speed: 0
+Area of Effect: Inventory usage only
+Saving Throw: None
+Weight: 0
+Usable only by Mages
+
+This spell reveals the mysteries of an enchanted object, allowing you to know its exact abilities.~ []
+@49093 = ~SCROLL OF ADDER'S KISS
+Allows user to cast "Adder's Kiss"
+Allows user to copy "Adder's Kiss" into Spell Book
+Level: 2 / Wizard
+Range: 150 feet
+Duration: 5 seconds per 3 levels
+Speed: 2
+Area of Effect: 1 creature
+Saving Throw: None
+Weight: 0
+Usable only by Mages
+
+It is said an adder's kiss can scald even the most fearsome of fiends. This spell calls forth an acidic bolt to shower an opponent with its vile green acid. If the caster is skilled enough, the adder's kiss lingers after the initial strike, continuing to sink into an opponent's skin with its acidic teeth.
+
+When cast, the caster chooses any target within 150 ft. and the Adder's Kiss will strike for 2-8 hit points of acid damage. For every three levels of the caster, the acid lasts 5 seconds longer, inflicting another 2-8 points of acid damage / 5 second segments.~ []
+@49127 = ~SCROLL OF KNOCK
+Allows user to cast "Knock"
+Allows user to copy "Knock" into Spell Book
+Level: 2 / Wizard
+Range: 180 feet
+Duration: Special
+Speed: 2
+Area of Effect: 10 sq. feet per level
+Saving Throw: None
+Weight: 0
+Usable only by Mages
+
+The inaccessible, the locked, can be freed and within one's grasp with this incantation.
+
+With Knock, all locked doors, chests, boxes, or shackles shall be unlocked, but it doesn't affect barred gates and the like. In addition, it can only affect up to 2 impediments per spell.~ []
+@49259 = ~SCROLL OF ENOLL EVA'S DUPLICATION
+Allows user to cast "Enoll Eva's Duplication"
+Allows user to copy "Enoll Eva's Duplication" into Spell Book 
+Level: 5 / Wizard
+Range: 50 feet
+Duration: 60 seconds
+Speed: 5
+Area of Effect: One Creature
+Saving Throw: None
+Weight: 0
+Usable only by Mages
+
+This 'spell' is actually a complex mathematical equation accidentally discovered by the modron, Enoll Eva, while calculating the multiplication factor on various linear algebraic formulas. The results are devastating: This equation allows all subsequent actions to be doubled or duplicated. Hence it was found that during confrontations, all physical or magical attacks were seemingly doubled - dealing twice the amount of damage.
+
+This spell affects a single target. No Saving Throw required. When cast, all subsequent attacks (physical or magical) will be duplicated once: For example, after attacking once with a weapon, the attack will be immediately duplicated - same for spells (cast a Magic Missile, and immediately afterwards, another Magic Missile spell will launch). This spell will last for approximately 2 minutes after casting.~ []
+@49265 = ~SCROLL OF ANTIMAGIC SHELL
+Allows user to cast "Antimagic Shell"
+Allows user to copy "Antimagic Shell" into Spell Book
+Level: 6 / Wizard
+Range: 0
+Duration: 5 minutes
+Speed: 6
+Area of Effect: 1 foot per level diameter
+Saving Throw: None
+Weight: 0
+Usable only by Mages
+
+In an ironic twist, all magic in its area of effect shall be undone, with this spell. 
+
+This spell surrounds the caster with a 'shell of magic' that effectively negates all magic and magical spell effects (including magic items) within its area of effect. Thus, it blocks out magic, yet it also stops all usage within the shell as well! This also includes various special attacks such as breath, gaze or voice attacks. The spell lasts for 5 minutes, and its area of effect is 1 foot per level of the caster.~ []
+@49267 = ~SCROLL OF GLOBE OF INVULNERABILITY
+Allows user to cast "Globe of Invulnerability"
+Allows user to copy "Globe of Invulnerability" into Spell Book 
+Level: 6 / Wizard
+Range: 0
+Duration: 5 seconds per level
+Speed: 6
+Area of Effect: 5 feet radius
+Saving Throw: None
+Weight: 0
+Usable only by Mages
+
+Similar to its sister spell, Antimagic Shell, this enchantment restricts certain magic from entering its confines. Yet unlike its sibling, this spell allows magic to flow outward from within. 
+
+This spell creates an immobile sphere of magic that prevents any 1st - 4th level spell effects from penetrating (even area effect spells). Spells of 5th level or higher are not affected by the Globe, but unlike Antimagic Shell, any type of spell can be cast out of the sphere. The Globe lasts for 5 seconds per level of the caster.~ []
+@49287 = ~SCROLL OF POWER WORD, BLIND
+Allows user to cast "Power Word, Blind"
+Allows user to copy "Power Word, Blind" into Spell Book
+Level: 8 / Wizard
+Range: 15 feet per level
+Duration: Special
+Speed: 1
+Area of Effect: 15 feet radius
+Saving Throw: None
+Weight: 0
+Usable only by Mages
+
+The power of sight shall be removed, and darkness shall enter.
+
+This spell blinds up to 100 hit points of creatures within a 15 ft. radius / level of the caster from the specified target point. The blindness spreads outwards from the center, affecting creatures with the lowest HP totals first. Those with more than 100 HP are not affected. The spell effect's duration depends on the number of HP affected: If 25 or fewer HP are affected, then the blindness lasts for 160-400 seconds. If 26-50 HP are affected, the blindness lasts for 80-200 seconds. If 51-100 HP are affected, the blindness lasts for 16-40 seconds. An individual creature can't be partially affected: Unless all of its HP are affected, it is not blind.~ []
+@49289 = ~SCROLL OF MECHANUS' CANNON
+Allows user to cast "Mechanus' Cannon"
+Allows user to copy "Mechanus' Cannon" into Spell Book
+Level: 8 / Wizard
+Range: 50 feet
+Duration: Instant
+Speed: 8
+Area of Effect: 1 creature
+Saving Throw: None
+Weight: 0
+Usable only by Mages
+
+The true, logical justice of Primus shall be delivered unto the illogical, as pure energy descends from Mechanus.
+
+This spell summons the ultimate form of 'equalization' from Primus: A huge energy blast that comes from the very heart of Mechanus and fires toward the target specified by the caster, via a portal. A temporary portal will appear 10 ft. from the target and Mechanus' Logical Justice will be handed down, inflicting 30-90 pts. of damage, with no saving throw.~
+@49632 = ~Carver~ []
+@50894 = ~DAK'KON'S ZERTH BLADE ("STREAMING BLADE")
+Damage: 3-12 Slashing
+Enchanted: +2
+Special:
+   +4 to Armor Class
+   Doubles all 1st Level Mage Spells
+   Memorize 1 Additional 2nd Level Mage Spell
+THAC0: +2
+Speed: 6
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter.
+
+A substance called "karach" is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. When the user's spirit is focused, his mind clear of doubts and devoted to a single purpose, the blade itself will react, mirroring the wielder's thoughts.
+
+If so, Dak'kon's mind must be clear, indeed, for his blade has become a brilliant silver. It seems as if the blade has become longer than when you first saw it, and there is no trace of the strange shimmering surface it once had. The edge of the blade tapers almost to a paper-thin line - despite its flimsy appearance, it looks like it could cut through chain armor with ease.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ []
+@50929 = ~DAK'KON'S ZERTH BLADE ("CHAINED BLADE")
+Damage: 3-12 Slashing
+Enchanted: +2
+Special:
+   +2 to Armor Class
+   Memorize 2 Additional 1st Level Mage Spells
+   Memorize 1 Additional 2nd Level Mage Spell
+THAC0: +2
+Speed: 6
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter.
+
+A substance called "karach" is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. He can shape it slightly depending on his skill, adjusting its length and the sharpness of the edge. Presumably as he gains levels, he may be able to manipulate the blade in new ways.
+
+It is not known whether all githzerai zerth carry such weapons. Certainly a weapon that depends on the integrity of the wielder would be entrusted only to those who had learned to discipline themselves.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ []
+@50987 = ~IDENTIFY
+Range: 1 Item
+Duration: Instant
+Speed: 0
+Area of Effect: Inventory usage only
+Saving Throw: None
+
+This spell reveals the mysteries of an enchanted object, allowing you to know its exact abilities.~ []
+@51023 = ~KNOCK
+Range: 180 feet
+Duration: Special
+Speed: 2
+Area of Effect: 10 sq. feet per level
+Saving Throw: None
+
+The inaccessible, the locked, can be freed and within one's grasp with this incantation.
+
+With Knock, all locked doors, chests, boxes, or shackles shall be unlocked, but it doesn't affect barred gates and the like. In addition, it can only affect up to 2 impediments per spell. ~ []
+@51073 = ~ENOLL EVA'S DUPLICATION
+Range: 50 feet
+Duration: 60 seconds
+Speed: 5
+Area of Effect: One Creature
+Saving Throw: None
+
+This 'spell' is actually a complex mathematical equation accidentally discovered by the modron, Enoll Eva, while calculating the multiplication factor on various linear algebraic formulas. The results are devastating: This equation allows all subsequent actions to be doubled or duplicated. Hence it was found that during confrontations, all physical or magical attacks were seemingly doubled - dealing twice the amount of damage.
+
+This spell affects a single target. No Saving Throw required. When cast, all subsequent attacks (physical or magical) will be duplicated once: For example, after attacking once with a weapon, the attack will be immediately duplicated - same for spells (cast a Magic Missile, and immediately afterwards, another Magic Missile spell will launch). This spell will last for approximately 2 minutes after casting.~ []
+@51076 = ~ANTIMAGIC SHELL
+Range: 0
+Duration: 5 minutes
+Speed: 6
+Area of Effect: 1 foot per level diameter
+Saving Throw: None
+
+In an ironic twist, all magic in its area of effect shall be undone, with this spell. 
+
+This spell surrounds the caster with a 'shell of magic' that effectively negates all magic and magical spell effects (including magic items) within its area of effect. Thus, it blocks out magic, yet it also stops all usage within the shell as well! This also includes various special attacks such as breath, gaze or voice attacks. The spell lasts for 5 minutes, and its area of effect is 1 foot per level of the caster.~ []
+@51077 = ~GLOBE OF INVULNERABILITY
+Range: 0
+Duration: 5 seconds per level
+Speed: 6
+Area of Effect: 5 feet radius
+Saving Throw: None
+
+Similar to its sister spell, Antimagic Shell, this enchantment restricts certain magic from entering its confines. Yet unlike its sibling, this spell allows magic to flow outward from within. 
+
+This spell creates an immobile sphere of magic that prevents any 1st - 4th level spell effects from penetrating (even area effect spells). Spells of 5th level or higher are not affected by the Globe, but unlike Antimagic Shell, any type of spell can be cast out of the sphere. The Globe lasts for 5 seconds per level of the caster.~ []
+@51087 = ~POWER WORD, BLIND
+Range: 15 feet per level
+Duration: Special
+Speed: 1
+Area of Effect: 15 feet radius
+Saving Throw: None
+
+The power of sight shall be removed, and darkness shall enter.
+
+This spell blinds up to 100 hit points of creatures within a 15 ft. radius / level of the caster from the specified target point. The blindness spreads outwards from the center, affecting creatures with the lowest HP totals first. Those with more than 100 HP are not affected. The spell effect's duration depends on the number of HP affected: If 25 or fewer HP are affected, then the blindness lasts for 160-400 seconds. If 26-50 HP are affected, the blindness lasts for 80-200 seconds. If 51-100 HP are affected, the blindness lasts for 16-40 seconds. An individual creature can't be partially affected: Unless all of its HP are affected, it is not blind.~ []
+@51088 = ~MECHANUS' CANNON
+Range: 50 feet
+Duration: Instant
+Speed: 8
+Area of Effect: 1 creature
+Saving Throw: None
+
+The true, logical justice of Primus shall be delivered unto the illogical, as pure energy descends from Mechanus.
+
+This spell summons the ultimate form of 'equalization' from Primus: A huge energy blast that comes from the very heart of Mechanus and fires toward the target specified by the caster, via a portal. A temporary portal will appear 10 ft. from the target and Mechanus' Logical Justice will be handed down, inflicting 30-90 pts. of damage, with no saving throw.~
+@51328 = ~SPIRITUAL HAMMER
+Range: 30 feet per level
+Duration: Variable (see below)
+Speed: 2
+Area of Effect: 1 Target
+Saving Throw: 1/2
+
+This spell summons a hammer of spiritual energy to smite your foes.
+
+When cast, the caster chooses a target within range. The hammer causes 4-10 points of bludgeoning damage, for every three levels that the caster has, acting as a +1 weapon (+1 to hit and +1 damage), gaining an additional +1 for every six levels of the caster, to a maximum of +3.~ []
+@51331 = ~PRAYER
+Range: 0 (centered on caster)
+Duration: 5 seconds per level
+Speed: 3
+Area of Effect: 60 feet radius
+Saving Throw: None
+
+This spell aids allies and harms your foes.
+
+This spell grants a bonus of + 1 to attack, damage, and saving throws to all who are "Friendly" to the priest. Those who are "Hostile" to the caster suffer -1 to attack, damage, and saving throws. It lasts 5 seconds / level in a 60 foot radius.~ []
+@51332 = ~SPEAK WITH DEAD 
+Range: 50 feet
+Duration: Special
+Speed: 3
+Area of Effect: 1 creature (undead)
+Saving Throw: None
+
+To commune with spirits passed away.
+
+This spell allows the Nameless One to initiate a dialogue with a dead body within speaking range.~ []
+@51335 = ~CURE CRITICAL WOUNDS
+Range: 0
+Duration: Permanent / Instant
+Speed: 5
+Area of Effect: 1 creature
+Saving Throw: None
+
+This spell heals any critical wounds a target may have gained.
+
+Restores 27 hit points to the target creature. The creature's restored hit points cannot exceed its maximum hit points.~ []
+@51392 = ~ADDER'S KISS
+Range: 150 feet
+Duration: 5 seconds per 3 levels
+Speed: 2
+Area of Effect: 1 creature
+Saving Throw: None
+
+It is said an adder's kiss can scald even the most fearsome of fiends. This spell calls forth an acidic bolt to shower an opponent with its vile green acid. If the caster is skilled enough, the adder's kiss lingers after the initial strike, continuing to sink into an opponent's skin with its acidic teeth.
+
+When cast, the caster chooses any target within 150 ft. and the Adder's Kiss will strike for 2-8 hit points of acid damage. For every three levels of the caster, the acid lasts 5 seconds longer, inflicting another 2-8 points of acid damage / 5 second segments.~ []
+@52798 = ~IGNUS' HAND
+Allows user to copy "Infernal Orb" into Spell Book
+Range: 50 feet
+Duration: Special
+Speed: 2
+Area of Effect: 1 creature
+Saving Throw: Neg.
+Weight: 1
+Usable only by Nameless One
+Usable only by Mages
+
+This is your charred hand; it has been severed at the wrist, and the flesh that once surrounded the bone has been scoured clean, leaving only the stark white bones behind. Despite the lack of muscle and skin, however, the bones of the hand have been fused together so that the bones do not fall apart. The pain of having the hand separated from you was almost more than you could bear, and it left lingering, blackened, scars on your wrists and arm. To make matters worse, you notice that your flesh has healed slowly and poorly from the wound... if Ignus were to attack you with a rage, he might be able to muster enough heat and flames that recovering would be difficult... perhaps even destroy you? The thought doesn't please you.
+
+Ignus has hinted that this charred remain of your hand somehow holds a fraction of his infernal power... now passed on to you. To invoke its power, you must slice off your hand again, place the skeletal hand there, then let the flesh heal over it. When this occurs, the traces of Ignus that remain upon the charred bones will 'kindle' a portion of Ignus' knowledge within you.~ []
+@57317 = ~You see the old hermit from the underground. When he spies you, he blurts out, "Kyse the caretaker told me you'd be along. You've done a fine job of weakenin' him... the town's chaos is subsidin' and his plan ain't workin' so well. Head up and finish the job."~ []
+@59082 = ~Kiri~ []
+@59821 = ~ENTROPIC BLADE
+Damage: 3-23 Crushing
+Enchanted: +2
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Fists
+Usable only by Fighters and Thieves
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape.
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+@59822 = ~ENTROPIC BLADE
+Damage: 3-23 Crushing
+Enchanted: +2
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Hammers
+Usable only by Fighters
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape.
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+@59823 = ~ENTROPIC BLADE
+Damage: 3-23 Crushing
+Enchanted: +2
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Clubs
+Usable only by Fighters
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape.
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+@61680 = ~ENTROPIC BLADE
+Damage: 3-23 Slashing
+Enchanted: +2
+THAC0: +3
+Speed: 1
+Weight: 1
+Proficiency: Axes
+Usable only by Fighters
+
+This strange item was in your possession after you gave the Modron Cube to the iron golem in the Siege Tower. It looks to be a small dagger, but its surface twists and bends as you watch, as if struggling to break free from its shape.
+
+It looks to be made of iron, silver, and any of a number of different metals. Sometimes they blend together, other times, they submerge into the core of the blade, only to resurface again minutes later.~
+@61796 = ~Cannot remove armor~ [ANA369C]
+@62305 = ~Morte Taunts 7~ [MRT459A]
+@62321 = ~Morte Taunts 23~ [MRT322AL]
+@66374 = ~DAK'KON'S ZERTH BLADE ("STREAMING BLADE")
+Damage: 5-20 Slashing
+Enchanted: +3
+Special:
+   +6 to Armor Class
+   Doubles all 1st Level Mage Spells
+   Doubles all 2nd Level Mage Spells
+   Memorize 1 Additional 3rd Level Mage Spell
+THAC0: +3
+Speed: 6
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter.
+
+A substance called "karach" is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. When the user's spirit is focused, his mind clear of doubts and devoted to a single purpose, the blade itself will react, mirroring the wielder's thoughts.
+
+If so, Dak'kon's mind must be clear, indeed, for his blade has become a brilliant silver. It seems as if the blade has become longer than when you first saw it, and there is no trace of the strange shimmering surface it once had. The edge of the blade tapers almost to a paper-thin line - despite its flimsy appearance, it looks like it could cut through chain armor with ease.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ []
+@66375 = ~DAK'KON'S ZERTH BLADE ("CHAINED BLADE")
+Damage: 5-20 Slashing
+Enchanted: +3
+Special:
+   +3 to Armor Class
+   Doubles All 1st Level Mage Spells
+   Doubles All 2nd Level Mage Spells
+THAC0: +3
+Speed: 6
+Weight: 5
+Proficiency: Edged
+Usable only by Dak'kon
+
+On the githzerai's home plane of Limbo, solid matter is something of a rarity. Limbo itself is a soupy mass of elements, and only through force of will can the githzerai shape these elements into stable matter.
+
+A substance called "karach" is a material that can be shaped with the mind. Dak'kon's blade is composed of this substance; through mental discipline alone, Dak'kon maintains the integrity of the blade. He can shape it slightly depending on his skill, adjusting its length and the sharpness of the edge. Presumably as he gains levels, he may be able to manipulate the blade in new ways.
+
+It is not known whether all githzerai zerth carry such weapons. Certainly a weapon that depends on the integrity of the wielder would be entrusted only to those who had learned to discipline themselves.
+
+This blade appears to have special religious significance for Dak'kon. Dak'kon has wound a series of parchments around the hilt of the blade. These appear to be mantras dedicated to Zerthimon.~ []
+@106498 = ~This is a placeholder to prevent a string with a sound file from becoming strref 106498, which causes problems.~ []

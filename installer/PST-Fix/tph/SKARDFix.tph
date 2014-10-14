@@ -1,0 +1,1376 @@
+COMPILE ~PST-Fix/dlg/SkardFix.d~
+INCLUDE ~PST-Fix/utils/Q_AREMacros.tph~
+
+// Acid Spell sound file issue - the spell SPWI1701.SPL tries to use ACIDS05.WAV, but the
+// resource is actually named ACID05.WAV.
+COPY_EXISTING ~ACID05.WAV~ ~override/ACIDS05.WAV~
+
+// Fix Blade of Immortals and Modron's Cube to be "usable" items, not items you can talk to
+COPY_EXISTING ~BLADEIM.ITM~ ~override~
+              ~CUBE.ITM~    ~override~
+  WRITE_BYTE 0x19 28
+ BUT_ONLY_IF_IT_CHANGES
+COPY_EXISTING ~CUBE.ITM~    ~override~
+  WRITE_BYTE 0x19 8
+ BUT_ONLY_IF_IT_CHANGES
+ 
+// Ratcharm fixes moved to Unfinished Business Restored Items Component
+
+// Fix missing AR0302.ARE link to it's script that sets "Visited" flag, which Many-Of-One checks
+COPY_EXISTING ~AR0302.ARE~ ~override~
+  WRITE_ASCII 0x94 ~AR0302~ #8
+ BUT_ONLY_IF_IT_CHANGES
+
+// Container in AR0701.ARE (Curst) has one silver earring... and one silver ring... and then
+// 11,865 additional silver rings.  This is an issue when G3's Tweak Pack is installed.
+// This is only an issue when items are somehow made stackable.  I'm dealing with the issue globally
+// in Qwinn's PS:T Tweak Pack.
+
+// From Longlist: "AR0705.ARE - Pentagram should have Cursor frame number 46."
+COPY_EXISTING ~AR0705.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  WRITE_LONG "Q_Off_Trigg" + ("Q_Siz_Trigg" * 3) + 0x34 46
+ BUT_ONLY_IF_IT_CHANGES
+
+// From Longlist:
+// AR1404.ARE
+// Made Lowden more accessible by excluding his area from the larger trigger.
+// Trigger Point 5
+// Vertex 0 X: 467, Y: 688 <- Keep
+// Vertex 1 X: 778, Y: 604 <- Keep
+// Vertex 2 X: 970, Y: 929 <- Splice
+// Vertex 3 X: 943, Y: 929 <- From Trigger Point 6
+// Vertex 4 X: 911, Y: 959 <- From Trigger Point 6
+// Vertex 5 X: 916, Y: 981 <- From Trigger Point 6
+// Vertex 6 X: 934, Y: 983 <- From Trigger Point 6
+// Vertex 7 X: 938, Y: 974 <- From Trigger Point 6
+// Vertex 8 X: 928, Y: 974 <- From Trigger Point 6
+// Vertex 9 X: 938, Y: 957 <- From Trigger Point 6
+// Vertex 10 X: 954, Y: 956 <- From Trigger Point 6
+// Vertex 11 X: 950, Y: 946 <- From Trigger Point 6
+// Vertex 12 X: 940, Y: 946 <- From Trigger Point 6
+// Vertex 13 X: 943, Y: 929 <- Same as Vertex 3
+// Vertex 14 X: 970, Y: 929 <- Same as Vertex 2
+// Vertex 15 X: 1102, Y: 1153 <- Moved down
+// Vertex 16 X: 810, Y: 1251 <- Moved down
+// Vertex 17 X: 705, Y: 1206 <- Moved down
+// Vertex 18 X: 739, Y: 1143 <- Moved down
+
+COPY_EXISTING ~AR1404.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  LAUNCH_PATCH_MACRO ~Q_AREVertex_InitVars~
+  SET "QV_Type" = 1 // Trigger
+  SET "QV_Offset" = "Q_Off_Trigg" + ("Q_Siz_Trigg" * 4)
+  SET "QV_VCount" = 19
+  LAUNCH_PATCH_MACRO ~Q_AREVertex_Process~
+
+WRITE_SHORT ("QV_NewVertexOffset" + 0)   467
+WRITE_SHORT ("QV_NewVertexOffset" + 2)   688
+WRITE_SHORT ("QV_NewVertexOffset" + 4)   778
+WRITE_SHORT ("QV_NewVertexOffset" + 6)   604
+WRITE_SHORT ("QV_NewVertexOffset" + 8)   970
+WRITE_SHORT ("QV_NewVertexOffset" + 10)  929
+WRITE_SHORT ("QV_NewVertexOffset" + 12)  943
+WRITE_SHORT ("QV_NewVertexOffset" + 14)  929
+WRITE_SHORT ("QV_NewVertexOffset" + 16)  911
+WRITE_SHORT ("QV_NewVertexOffset" + 18)  959
+WRITE_SHORT ("QV_NewVertexOffset" + 20)  916
+WRITE_SHORT ("QV_NewVertexOffset" + 22)  981
+WRITE_SHORT ("QV_NewVertexOffset" + 24)  934
+WRITE_SHORT ("QV_NewVertexOffset" + 26)  983
+WRITE_SHORT ("QV_NewVertexOffset" + 28)  938
+WRITE_SHORT ("QV_NewVertexOffset" + 30)  974
+WRITE_SHORT ("QV_NewVertexOffset" + 32)  928
+WRITE_SHORT ("QV_NewVertexOffset" + 34)  974
+WRITE_SHORT ("QV_NewVertexOffset" + 36)  938
+WRITE_SHORT ("QV_NewVertexOffset" + 38)  957
+WRITE_SHORT ("QV_NewVertexOffset" + 40)  954
+WRITE_SHORT ("QV_NewVertexOffset" + 42)  956
+WRITE_SHORT ("QV_NewVertexOffset" + 44)  950
+WRITE_SHORT ("QV_NewVertexOffset" + 46)  946
+WRITE_SHORT ("QV_NewVertexOffset" + 48)  940
+WRITE_SHORT ("QV_NewVertexOffset" + 50)  946
+WRITE_SHORT ("QV_NewVertexOffset" + 52)  943
+WRITE_SHORT ("QV_NewVertexOffset" + 54)  929
+WRITE_SHORT ("QV_NewVertexOffset" + 56)  970
+WRITE_SHORT ("QV_NewVertexOffset" + 58)  929
+WRITE_SHORT ("QV_NewVertexOffset" + 60)  1102
+WRITE_SHORT ("QV_NewVertexOffset" + 62)  1153
+WRITE_SHORT ("QV_NewVertexOffset" + 64)  810
+WRITE_SHORT ("QV_NewVertexOffset" + 66)  1251
+WRITE_SHORT ("QV_NewVertexOffset" + 68)  705
+WRITE_SHORT ("QV_NewVertexOffset" + 70)  1206
+WRITE_SHORT ("QV_NewVertexOffset" + 72)  739
+WRITE_SHORT ("QV_NewVertexOffset" + 74)  1143
+ BUT_ONLY_IF_IT_CHANGES
+
+// If you're going to destroy keys, unlock the doors
+// Add SetDoorLocked commands to 0403DOOR.BCS and 0403DOR2.BCS
+COPY_EXISTING ~0403DOOR.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~DestroyPartyItem("KeySybil",TRUE)~
+~DestroyPartyItem("KeySybil",TRUE)
+SetDoorLocked("AR403D15",FALSE)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0403DOR2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~DestroyPartyItem("Keystrrm",TRUE)~
+~DestroyPartyItem("Keystrrm",TRUE)
+SetDoorLocked("AR403D20",FALSE)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Silly Roberta can walk off the map completely and disappear from the game.
+// Change RandomWalk() to MovePoint([2050.1191]) in her script
+COPY_EXISTING ~0700RBRT.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~RandomWalk()~ ~MoveToPoint([2050.1191])~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// LongList: "1201TRAP.BCS - This might help avoid a game crash. Add Wait(1) as line 5
+COPY_EXISTING ~1201TRAP.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~ReallyForceSpellLevel(~
+~Wait(1)
+ ReallyForceSpellLevel(~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Putting Undead Hostile When Hargrimm Heals fix in Fixpack Beta section of PFixpack.tph,
+// per SKARD's suggestion
+
+// Longlist:  "AR1201.BCS   The portal reopens while already open."
+// Add !BitCheck("1201_Status","AR1201",BIT2) as line 90
+// Add SetBit("1201_Status","AR1201",BIT2) as line 93"
+// Qwinn:  Typo corrected, one of the lines was changed to 1201_Satus instead
+// of 1201_Status
+COPY_EXISTING ~AR1201.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~Global("Machine","GLOBAL",4)~
+~Global("Machine","GLOBAL",4)
+!BitCheck("1201_Status","AR1201",BIT2)~
+    REPLACE_TEXTUALLY
+~ActivatePortal~
+~BitSet("1201_Status","AR1201",BIT2)
+ActivatePortal~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// AR1400.BCS
+// Longlist:  Add as line 90
+// IF
+//  Global("1400_Area_A","GLOBAL",1)
+//  !Exists([0.0.0.0.0.0.PERSON_1][0.0.10000.10000])
+// THEN
+//  RESPONSE #100
+//   SetGlobal("1400_Area_A","GLOBAL",0)
+// END
+// Qwinn:  Per Skard, this prevents a rat from always respawning.
+COPY_EXISTING ~AR1400.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~IF
+  Global("1400_Area_B","GLOBAL",1)~
+~IF
+  Global("1400_Area_A","GLOBAL",1)
+  !Exists([0.0.0.0.0.0.PERSON_1][0.0.10000.10000])
+ THEN
+  RESPONSE #100
+   SetGlobal("1400_Area_A","GLOBAL",0)
+ END
+
+ IF
+  Global("1400_Area_B","GLOBAL",1)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// LongList:  "AR202D1.BCS - Door destroys key and gets locked open.
+// Add SetDoorLocked("AR202D1",FALSE) as line 5
+COPY_EXISTING ~AR202D1.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~DestroyPartyItem("KeyPr",TRUE)~
+~DestroyPartyItem("KeyPr",TRUE)
+SetDoorLocked("AR202D1",FALSE)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// HERMIT.CRE
+// The Hermit in Curst Underground is supposed to give you Guardian Mantle when you ask about the
+// Deva, but he doesn't have it on him.
+//Add Item
+//Item 2
+//Item SPWI704.ITM
+//Quantity/Charges 1 1
+//Quick item 1 2
+COPY_EXISTING ~HERMIT.CRE~ ~override~
+  READ_LONG 0x360 "ItemOffset"
+  READ_LONG 0x364 "NumItems"
+  INSERT_BYTES "ItemOffset" + ("NumItems" * 0x14) 0x14
+  WRITE_ASCII  ("ItemOffset" + ("NumItems" * 0x14)) ~SPWI704~ #8
+  WRITE_LONG   ("ItemOffset" + ("NumItems" * 0x14) + 0xa)  1
+  WRITE_LONG 0x364 "NumItems" + 1
+  READ_LONG  0x35c "ItemSlotsOffset"
+  WRITE_LONG 0x35c "ItemSlotsOffset" + 0x14
+  WRITE_SHORT ("ItemSlotsOffset" + 0x14 + 0x28) "NumItems" //Quick Item Slot 1
+ BUT_ONLY_IF_IT_CHANGES
+
+// Longlist:  "BVGER   Read errors in Near Infinity."
+// Qwinn:  Files don't seem to be used, but the overwrites are definitely better than the originals
+// and it gets rid of errors in the NI checker
+COPY_EXISTING ~BURIEDF.CRE~ ~override/FBVGER.CRE~
+              ~BURIEDM.CRE~ ~override/MBVGER.CRE~
+
+
+//========================== Many As One Lets You Leave =============================
+
+// From Skard's Readme: "The rats and Wererats attack after Many-As-One lets you leave.
+// It seems you should be able to leave unharassed and get attacked if you come back.
+// Many-As-One sets this variable to 2 when it becomes hostile but the others still
+// attack on 1."
+// Qwinn:  I concur with the reasoning for the change and kudos to Skard for an elegant
+// implementation that was easy to fix with WeiDU.
+// See SkardFix.dlg for the dialogue changes for this fix
+COPY_EXISTING ~1600T1AT.BCS~ ~override~
+              ~1600T1WK.BCS~ ~override~
+              ~1600T2AT.BCS~ ~override~
+              ~1600T2WK.BCS~ ~override~
+              ~1600T3AT.BCS~ ~override~
+              ~1600T3WK.BCS~ ~override~
+              ~1600T4AT.BCS~ ~override~
+              ~1600T4WK.BCS~ ~override~
+              ~1600T5AT.BCS~ ~override~
+              ~1600T5WK.BCS~ ~override~
+              ~1600T6AT.BCS~ ~override~
+              ~1600T6WK.BCS~ ~override~
+              ~1600T7AT.BCS~ ~override~
+              ~1600T7WK.BCS~ ~override~
+              ~1600T8AT.BCS~ ~override~
+              ~1600WR08.BCS~ ~override~
+              ~1600WR09.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Global("MAO_Warn","GLOBAL",1)~ ~GlobalGT("MAO_Warn","GLOBAL",1)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+<<<<<<<< .../inlinedfile/maowarn.baf
+IF
+  Global("MAO_Warn","GLOBAL",1)
+THEN
+  RESPONSE #100
+     SetGlobal("MAO_Warn","GLOBAL",2)
+END
+>>>>>>>>
+EXTEND_BOTTOM ~AR1400.BCS~ ~.../inlinedfile/maowarn.baf~
+EXTEND_BOTTOM ~AR1700.BCS~ ~.../inlinedfile/maowarn.baf~
+
+//====================================================================================
+
+//====================================================================================
+// Mortuary_Walkthrough
+// As you start to make your way through the mortuary, Morte now comments on the giant book Dhall
+// writes in if he was with you when you entered the second room. If he wasn't with you the original
+// dialog for Morte entering the third room is preserved.
+//
+// Moved to Unfinished Business "Restored More Morte Mortuary Moments" Component
+
+//=====================================================================================
+
+// Nadilin
+// If you kill Nadilin he drops all the receipts he has. When the area loads he respawns
+// creating an additional receipt for "The Justifier".
+
+// Not bothering with most of the changes done here.  Just adding Nadalin as an actor, this
+// should remove the respawn issues, which is what indirectly caused all the other problems.
+
+COPY_EXISTING ~AR0502.INI~ ~override~
+  REPLACE_TEXTUALLY ~,clerk~ ~~
+  REPLACE_TEXTUALLY ~\[clerk\]~ ~~
+  REPLACE_TEXTUALLY ~spec              = \[0.0.0.0.0.0.108\]~ ~~
+  REPLACE_TEXTUALLY ~cre_file          = GFClerk~ ~~
+  REPLACE_TEXTUALLY ~ai_specifics      = 108~ ~~
+  REPLACE_TEXTUALLY ~script_default    = 0502gfcl~ ~~
+  REPLACE_TEXTUALLY ~spawn_point       = \[2910.2623:6\]~ ~~
+ BUT_ONLY_IF_IT_CHANGES
+
+ COPY_EXISTING ~AR0502.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  LAUNCH_PATCH_MACRO ~Q_AREAdd_InitVars~
+  SET "Q_New_Actor" = 1
+  LAUNCH_PATCH_MACRO ~Q_AREAdd_Process~
+
+WRITE_ASCII ("Q_NewOffset_Actor" + ("Q_Siz_Actor" * 0))           ~Nadilin~       #32 // Name
+WRITE_ASCII ("Q_NewOffset_Actor" + ("Q_Siz_Actor" * 0)) + 0x80    ~GFCLERK~       #8  // CRE
+WRITE_ASCII ("Q_NewOffset_Actor" + ("Q_Siz_Actor" * 0)) + 0x48    ~GFCLERK~       #8  // DLG
+WRITE_ASCII ("Q_NewOffset_Actor" + ("Q_Siz_Actor" * 0)) + 0x70    ~0502gfcl~      #8  // Default Script
+WRITE_LONG  ("Q_NewOffset_Actor" + ("Q_Siz_Actor" * 0)) + 0x38    0xffffffff          // Unknown
+WRITE_SHORT ("Q_NewOffset_Actor" + ("Q_Siz_Actor" * 0)) + 0x20    2910                // Pos X
+WRITE_SHORT ("Q_NewOffset_Actor" + ("Q_Siz_Actor" * 0)) + 0x22    2623                // Pos Y
+WRITE_SHORT ("Q_NewOffset_Actor" + ("Q_Siz_Actor" * 0)) + 0x24    2910                // Des X
+WRITE_SHORT ("Q_NewOffset_Actor" + ("Q_Siz_Actor" * 0)) + 0x26    2623                // Des Y
+WRITE_SHORT ("Q_NewOffset_Actor" + ("Q_Siz_Actor" * 0)) + 0x34    6                   // Orientation
+WRITE_LONG  ("Q_NewOffset_Actor" + ("Q_Siz_Actor" * 0)) + 0x40    0x00ffffff          // Present
+WRITE_SHORT ("Q_NewOffset_Actor" + ("Q_Siz_Actor" * 0)) + 0x28    1                   // Visible
+  BUT_ONLY_IF_IT_CHANGES
+
+// ==============================================================================
+// Red Thugs
+// If you fight a Thug near the Red Thugs outside Smoldering Corpse they turn hostile
+// and you can't get the experience for tricking them in the Porphiron quest.
+
+// 0400THG6.BCS
+// 0400THG7.BCS
+// 0400THG9.BCS
+// SetTeam(Myself,THUGS) -> SetTeam(Myself,THUG)
+// Help([0.0.THUGS]) -> Help([0.0.THUG])
+// Version 4.1:  This actually creates a problem where they share the same team as the
+// Trash Warrens thugs.  They have their correct team set up in their CRE's, though:
+// THUGP.  Fixing.
+COPY_EXISTING ~0400THG6.BCS~ ~override~
+              ~0400THG7.BCS~ ~override~
+              ~0400THG9.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~THUGS~ ~THUGP~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// ================================================================================
+// Stale Mary's Skull
+// If the Ghouls are attacking, Stale Mary doesn't drop a Skull.
+
+// Export 1500DBZ.BCS
+// Rename 1500SM.BCS
+// Place in override folder
+// 1500SM.BCS Add
+// IF
+// 	Die()
+// THEN
+//	RESPONSE #100
+//		CreateItem("SkullSM",0,0,0)
+//		DropInventory()
+//		EnablePortalTravel("DN_Portal",0)
+//		ActivatePortalCursor("DN_Portal",0)
+// END
+//
+// 1500MARY.BCS
+// Line 50 ChangeAIScript("1500dbz",DEFAULT) -> ChangeAIScript("1500SM",DEFAULt)
+// 1500MARY.BCS
+// If Stale Mary hands you her skull it's created in your inventory and another is dropped on the
+// ground.  Add AttackedBy([ANYONE],DEFAULT) as line 22
+
+// Qwinn:  It's not 1500DBZ.BCS, it's 1500BDZ.BCS
+
+/* Version 4.1:  Prior fix activating "GiveItemCreate("Skull_MA") line in DSTALEMA is what was causing the problem, deactivate that altogether
+// and none of this is necessary.  Thanks to devSin for spotting that.
+
+COPY_EXISTING ~1500BDZ.BCS~ ~override/1500SM.BCS~
+<<<<<<<< .../inlinedfile/addskull.baf
+IF
+  Die()
+THEN
+  RESPONSE #100
+    CreateItem("SkullSM",0,0,0) // Stale Mary's Skull
+    DropInventory()
+    EnablePortalTravel("DN_Portal",0)
+    ActivatePortalCursor("DN_Portal",0)
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~1500SM.BCS~ ~.../inlinedfile/addskull.baf~
+
+COPY_EXISTING ~1500MARY.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~ChangeAIScript("1500bdz",DEFAULT)~ ~ChangeAIScript("1500SM",DEFAULT)~
+    REPLACE_TEXTUALLY
+~IF
+  Die()
+THEN~
+~IF
+  Die()
+  AttackedBy([ANYONE],DEFAULT)
+THEN~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+*/
+
+// ================================================================================
+
+// Pickpocket tattoo stat boost fix
+// Stolen Stat Boost
+// If using a tattoo to boost Dexterity it's no longer included in the stat check after
+// observing a thief's technique.
+
+// DHARLOTD.DLG -> EAX Silence
+// Qwinn - Fixed elsewhere where this issue is fixed for all files
+
+// HARLOTD.CRE - // Script name HarlotD
+
+COPY_EXISTING ~HARLOTD.CRE~ ~override~
+  WRITE_ASCII 0x324 ~HarlotD~ #16
+ BUT_ONLY_IF_IT_CHANGES
+
+// YELLOW.CRE - // Script name Yellow-Fingers
+COPY_EXISTING ~YELLOW.CRE~ ~override~
+  WRITE_ASCII 0x324 ~Yellow-Fingers~ #16
+ BUT_ONLY_IF_IT_CHANGES
+
+/* VERSION 3.0 - this bug is now fixed in the engine, work around rolled back as
+   it is no longer necessary.
+
+// New Script - INTERUPT.BCS
+<<<<<<<< .../inlinedfile/INTERUPT.BAF
+IF
+  Global("Current_Area","GLOBAL",100)
+THEN
+  RESPONSE #100
+    CutSceneId("Fleece")
+    Dialogue([PC])
+END
+
+IF
+  Global("Current_Area","GLOBAL",101)
+THEN
+  RESPONSE #100
+    CutSceneId("Yellow-Fingers")
+    Dialogue([PC])
+END
+
+IF
+  Global("Current_Area","GLOBAL",300)
+THEN
+  RESPONSE #100
+    CutSceneId("Ashman")
+    Dialogue([PC])
+END
+
+IF
+  Global("Current_Area","GLOBAL",400)
+THEN
+  RESPONSE #100
+    CutSceneId("HarlotD")
+    Dialogue([PC])
+END
+>>>>>>>>
+COMPILE ~.../inlinedfile/INTERUPT.BAF~
+
+
+// Qwinn - Remainder of fixes in Skardfix.d
+*/
+
+// ===================================================================================
+// Trias Portal
+// More control over when you leave Carceri.
+
+// AR0901SR.BMP changed with IETME and Windows Paint
+
+// Export 0901PORT.BCS   // Rename 0901PRTL.BCS // Place in override
+
+// 0901PORT.BCS // Remove lines 9-49
+// 0901PRTL.BCS // Remove lines 1-8
+
+// DLTCEP Edit Areas Load external area AR0901.ARE
+// Regions // 11. Psuedo-Portal Trigger // Copy region Add region Paste region Edit Polygon
+// 2nd Psuedo-Portal Trigger // Script 0901PRTL.BCS
+// 3456, 3621
+// 3495, 3578
+// 3544, 3582
+// 3566, 3621
+// 3538, 3668
+// 3479, 3673
+
+// Entrances // 6. 0901Portal // 3507, 3629
+
+// AR0901.BCS
+// Add at line 77
+// CloseDoor("ar901d18")
+// SetDoorLocked("ar901d18",TRUE)
+// Deactivate("to0901a")
+COPY ~PST-Fix/copy/AR0901SR.BMP~ ~override~
+
+COPY_EXISTING ~0901PORT.BCS~ ~override/0901PRTL.BCS~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~IF
+  HarmlessEntered("Nordom")
+THEN
+  RESPONSE #100
+    VerbalConstant("Nordom",NORDOM_PORTAL)
+    Continue()
+END~ ~~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+<<<<<<<< .../inlinedfile/0901PORT.BAF
+IF
+  HarmlessEntered("Nordom")
+THEN
+  RESPONSE #100
+    VerbalConstant("Nordom",NORDOM_PORTAL)
+    Continue()
+END
+>>>>>>>>
+COMPILE ~.../inlinedfile/0901PORT.BAF~
+
+COPY_EXISTING ~AR0901.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~GlobalSet("Portal_Active","AR0901",1)~
+~GlobalSet("Portal_Active","AR0901",1)
+    CloseDoor("ar901d18")
+    SetDoorLocked("ar901d18",TRUE)
+    Deactivate("to0901a")
+~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR0901.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  WRITE_SHORT "Q_Off_Entra" + ("Q_Siz_Entra" * 5) + 0x20 3507
+  WRITE_SHORT "Q_Off_Entra" + ("Q_Siz_Entra" * 5) + 0x22 3629
+  LAUNCH_PATCH_MACRO ~Q_AREAdd_InitVars~
+  SET "Q_New_Trigg" = 1
+  SET "Q_New_Vertx" = 6
+  LAUNCH_PATCH_MACRO ~Q_AREAdd_Process~
+
+WRITE_ASCII "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0)         ~2nd Psuedo-Portal Trigger~  #32 // Name
+WRITE_SHORT "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x20  0                   // Proximity Trigger
+WRITE_SHORT "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x22  3456                // Left
+WRITE_SHORT "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x24  3578                // Top
+WRITE_SHORT "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x26  3566                // Right
+WRITE_SHORT "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x28  3673                // Bottom
+WRITE_SHORT "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x2a  6                   // Num of Vertexes
+WRITE_LONG  "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x2c  "Q_Num_Vertx" - 6   // First Vertex Index
+WRITE_LONG  "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x34  0                   // Cursor Frame
+WRITE_ASCII "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x38  ~~               #8 // Destination Area
+WRITE_ASCII "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x40  ~~              #32 // Entrance name
+WRITE_LONG  "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x60  0x00000200          // Reset Trap Flag
+WRITE_SHORT "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x70  2216                // Trap Loc X
+WRITE_SHORT "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x72  2587                // Trap Loc Y
+WRITE_ASCII "Q_NewOffset_Trigg" + ("Q_Siz_Trigg" * 0) + 0x7c  ~0901PRTL~      #32 // Script Name (BCS)
+
+WRITE_SHORT "Q_NewOffset_Vertx" + 0   3456
+WRITE_SHORT "Q_NewOffset_Vertx" + 2   3621
+WRITE_SHORT "Q_NewOffset_Vertx" + 4   3495
+WRITE_SHORT "Q_NewOffset_Vertx" + 6   3578
+WRITE_SHORT "Q_NewOffset_Vertx" + 8   3544
+WRITE_SHORT "Q_NewOffset_Vertx" + 10  3582
+WRITE_SHORT "Q_NewOffset_Vertx" + 12  3566
+WRITE_SHORT "Q_NewOffset_Vertx" + 14  3621
+WRITE_SHORT "Q_NewOffset_Vertx" + 16  3538
+WRITE_SHORT "Q_NewOffset_Vertx" + 18  3668
+WRITE_SHORT "Q_NewOffset_Vertx" + 20  3479
+WRITE_SHORT "Q_NewOffset_Vertx" + 22  3673
+ BUT_ONLY_IF_IT_CHANGES
+
+// ===================================================================================
+// Party Separations
+// When returning from getting Mazed, from the Player's Tomb, or from the Dream Builder reuniting
+// with your party is now done automatically.
+// Areas effected: Hive Mortuary, Hive Flophouse, Hive Smouldering Corpse, Hive Market Place,
+// Alley of Dangerous Angles, LowerWard, Clerk's Ward, Drowned Nations, and Great Foundry.
+
+// Longlist provided two new Scripts :  RETURN.BCS and RETNOANN.BCS
+
+// Qwinn - I'm doing this in a different way, as I'm not comfortable resetting the CurrentArea
+// global before the script was originally meant to.  Added variable Party_Rejoin to make
+// sure the scripts don't run twice (in the .tp2).  Also added "Continue()" to all the blocks.
+
+// New Scripts - RETURN.BCS and RETNOANN.BCS
+
+// VERSION 4.0:  This was interfering with the Morte kidnapping quest, so I had to redo it.
+
+/*
+<<<<<<<< .../inlinedfile/RETURN.BAF
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Morte")
+    JoinParty()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Dakkon")
+    JoinParty()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Annah")
+    JoinParty()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Grace")
+    JoinParty()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Nordom")
+    JoinParty()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Ignus")
+    JoinParty()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Vhail")
+    JoinParty()
+END
+>>>>>>>>
+COMPILE ~.../inlinedfile/RETURN.BAF~
+
+
+<<<<<<<< .../inlinedfile/RETNOANN.BAF
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Morte")
+    JoinParty()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Dakkon")
+    JoinParty()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Grace")
+    JoinParty()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Nordom")
+    JoinParty()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Ignus")
+    JoinParty()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Vhail")
+    JoinParty()
+END
+>>>>>>>>
+COMPILE ~.../inlinedfile/RETNOANN.BAF~
+
+// Area 1900 - Returning from the Lady's Maze to various city areas
+// Area 3017 to 0502 - Returning from the Pillar of Skulls (Dream Machine) to Foundry
+// Area 1800 to 1700 - Returning from the Tomb to the Drowned Nations
+
+<<<<<<<< .../inlinedfile/rejoin0.baf
+IF
+   Global("Current_Area","GLOBAL",%FROMAREA%)
+   Global("Party_Rejoin","GLOBAL",0)
+THEN
+   RESPONSE #100
+      SetGlobal("Party_Rejoin","GLOBAL",1)
+      StartCutScene("RETURN")
+      Continue()
+END
+>>>>>>>>
+// EXTEND_TOP ~AR0100.BCS~ ~.../inlinedfile/rejoin0.baf~ SET "FROMAREA" = 1900 EVALUATE_BUFFER
+// EXTEND_TOP ~AR0101.BCS~ ~.../inlinedfile/rejoin0.baf~ SET "FROMAREA" = 1900 EVALUATE_BUFFER
+// EXTEND_TOP ~AR0300.BCS~ ~.../inlinedfile/rejoin0.baf~ SET "FROMAREA" = 1900 EVALUATE_BUFFER
+// EXTEND_TOP ~AR0301.BCS~ ~.../inlinedfile/rejoin0.baf~ SET "FROMAREA" = 1900 EVALUATE_BUFFER
+// EXTEND_TOP ~AR0400.BCS~ ~.../inlinedfile/rejoin0.baf~ SET "FROMAREA" = 1900 EVALUATE_BUFFER
+// EXTEND_TOP ~AR0500.BCS~ ~.../inlinedfile/rejoin0.baf~ SET "FROMAREA" = 1900 EVALUATE_BUFFER
+EXTEND_TOP ~AR0600.BCS~ ~.../inlinedfile/rejoin0.baf~ SET "FROMAREA" = 1900 EVALUATE_BUFFER
+EXTEND_TOP ~AR0502.BCS~ ~.../inlinedfile/rejoin0.baf~ SET "FROMAREA" = 3017 EVALUATE_BUFFER
+EXTEND_TOP ~AR1700.BCS~ ~.../inlinedfile/rejoin0.baf~ SET "FROMAREA" = 1800 EVALUATE_BUFFER
+
+// AR0200 has to be handled differently because otherwise you can get Annah to "rejoin" before
+// you can actually recruit her.
+
+<<<<<<<< .../inlinedfile/rejoin1.baf
+IF
+   Global("Annah","GLOBAL",0)
+   Global("Current_Area","GLOBAL",%FROMAREA%)
+   Global("Party_Rejoin","GLOBAL",0)
+THEN
+   RESPONSE #100
+      SetGlobal("Party_Rejoin","GLOBAL",1)
+      StartCutScene("RETNOANN")
+      Continue()
+END
+
+IF
+   GlobalGT("Annah","GLOBAL",0)
+   Global("Current_Area","GLOBAL",%FROMAREA%)
+   Global("Party_Rejoin","GLOBAL",0)
+THEN
+   RESPONSE #100
+      SetGlobal("Party_Rejoin","GLOBAL",1)
+      StartCutScene("RETURN")
+      Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR0200.BCS~ ~.../inlinedfile/rejoin1.baf~ SET "FROMAREA" = 1900 EVALUATE_BUFFER
+
+
+// This turns the flag back off in all affected files.
+
+<<<<<<<< .../inlinedfile/rejoin2.baf
+IF
+   Global("Party_Rejoin","GLOBAL",1)
+THEN
+   RESPONSE #100
+      SetGlobal("Party_Rejoin","GLOBAL",0)
+      Continue()
+END
+>>>>>>>>
+EXTEND_BOTTOM ~AR0100.BCS~ ~.../inlinedfile/rejoin2.baf~
+EXTEND_BOTTOM ~AR0101.BCS~ ~.../inlinedfile/rejoin2.baf~
+EXTEND_BOTTOM ~AR0200.BCS~ ~.../inlinedfile/rejoin2.baf~
+EXTEND_BOTTOM ~AR0300.BCS~ ~.../inlinedfile/rejoin2.baf~
+EXTEND_BOTTOM ~AR0301.BCS~ ~.../inlinedfile/rejoin2.baf~
+EXTEND_BOTTOM ~AR0400.BCS~ ~.../inlinedfile/rejoin2.baf~
+EXTEND_BOTTOM ~AR0500.BCS~ ~.../inlinedfile/rejoin2.baf~
+EXTEND_BOTTOM ~AR0600.BCS~ ~.../inlinedfile/rejoin2.baf~
+EXTEND_BOTTOM ~AR0502.BCS~ ~.../inlinedfile/rejoin2.baf~
+EXTEND_BOTTOM ~AR1700.BCS~ ~.../inlinedfile/rejoin2.baf~
+*/
+
+
+<<<<<<<< .../inlinedfile/rejointomb.baf
+IF
+  Global("Current_Area","GLOBAL",1800)
+  !Dead("Annah")
+  !InParty("Annah")
+  GlobalGT("Annah","GLOBAL",0)
+  !Allegiance("Annah",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Annah",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",1800)
+  !Dead("Dakkon")
+  !InParty("Dakkon")
+  GlobalGT("Dakkon","GLOBAL",0)
+  !Global("Sold_Dakkon","GLOBAL",2)
+  !Allegiance("Dakkon",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Dakkon",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",1800)
+  !Dead("Morte")
+  !InParty("Morte")
+  GlobalGT("Morte","GLOBAL",0)
+  !Global("Morte_Stolen","GLOBAL",1)
+  !Global("Morte_Stolen","GLOBAL",2)
+  !Global("Sold_Morte","GLOBAL",2)
+  !Allegiance("Morte",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Morte",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",1800)
+  !Dead("Ignus")
+  !InParty("Ignus")
+  GlobalGT("Ignus","GLOBAL",1)
+  !Allegiance("Ignus",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Ignus",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",1800)
+  !Dead("Vhail")
+  !InParty("Vhail")
+  GlobalGT("Vhailor_Join","GLOBAL",0)
+  !Allegiance("Vhail",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Vhail",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",1800)
+  !Dead("Nordom")
+  GlobalGT("Nordom","GLOBAL",0)
+  !Global("Sold_Nordom","GLOBAL",2)
+  !Allegiance("Nordom",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Nordom",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",1800)
+  !Dead("Grace")
+  GlobalGT("Grace","GLOBAL",1)
+  !Allegiance("Grace",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Grace",JoinPartyEx(TRUE))
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR1700.BCS~ ~.../inlinedfile/rejointomb.baf~
+
+
+<<<<<<<< .../inlinedfile/rejoindream.baf
+IF
+  Global("Current_Area","GLOBAL",3017)
+  !Dead("Annah")
+  !InParty("Annah")
+  GlobalGT("Annah","GLOBAL",0)
+  !Allegiance("Annah",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Annah",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",3017)
+  !Dead("Dakkon")
+  !InParty("Dakkon")
+  GlobalGT("Dakkon","GLOBAL",0)
+  !Global("Sold_Dakkon","GLOBAL",2)
+  !Allegiance("Dakkon",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Dakkon",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",3017)
+  !Dead("Morte")
+  !InParty("Morte")
+  GlobalGT("Morte","GLOBAL",0)
+  !Global("Morte_Stolen","GLOBAL",1)
+  !Global("Morte_Stolen","GLOBAL",2)
+  !Global("Sold_Morte","GLOBAL",2)
+  !Allegiance("Morte",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Morte",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",3017)
+  !Dead("Ignus")
+  !InParty("Ignus")
+  GlobalGT("Ignus","GLOBAL",1)
+  !Allegiance("Ignus",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Ignus",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",3017)
+  !Dead("Vhail")
+  !InParty("Vhail")
+  GlobalGT("Vhailor_Join","GLOBAL",0)
+  !Allegiance("Vhail",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Vhail",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",3017)
+  !Dead("Nordom")
+  GlobalGT("Nordom","GLOBAL",0)
+  !Global("Sold_Nordom","GLOBAL",2)
+  !Allegiance("Nordom",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Nordom",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",3017)
+  !Dead("Grace")
+  GlobalGT("Grace","GLOBAL",1)
+  !Allegiance("Grace",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Grace",JoinPartyEx(TRUE))
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR0502.BCS~ ~.../inlinedfile/rejoindream.baf~
+
+
+<<<<<<<< .../inlinedfile/rejoinmaze.baf
+IF
+  Global("Current_Area","GLOBAL",1900)
+  !Dead("Annah")
+  !InParty("Annah")
+  GlobalGT("Annah","GLOBAL",0)
+  !Allegiance("Annah",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Annah",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",1900)
+  !Dead("Dakkon")
+  !InParty("Dakkon")
+  GlobalGT("Dakkon","GLOBAL",0)
+  !Global("Sold_Dakkon","GLOBAL",2)
+  !Allegiance("Dakkon",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Dakkon",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",1900)
+  !Dead("Morte")
+  !InParty("Morte")
+  GlobalGT("Morte","GLOBAL",0)
+  !Global("Morte_Stolen","GLOBAL",1)
+  !Global("Morte_Stolen","GLOBAL",2)
+  !Global("Sold_Morte","GLOBAL",2)
+  !Allegiance("Morte",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Morte",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",1900)
+  !Dead("Ignus")
+  !InParty("Ignus")
+  GlobalGT("Ignus","GLOBAL",1)
+  !Allegiance("Ignus",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Ignus",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",1900)
+  !Dead("Vhail")
+  !InParty("Vhail")
+  GlobalGT("Vhailor_Join","GLOBAL",0)
+  !Allegiance("Vhail",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Vhail",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",1900)
+  !Dead("Nordom")
+  GlobalGT("Nordom","GLOBAL",0)
+  !Global("Sold_Nordom","GLOBAL",2)
+  !Allegiance("Nordom",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Nordom",JoinPartyEx(TRUE))
+    Continue()
+END
+
+IF
+  Global("Current_Area","GLOBAL",1900)
+  !Dead("Grace")
+  GlobalGT("Grace","GLOBAL",1)
+  !Allegiance("Grace",ENEMY)
+THEN
+  RESPONSE #100
+    ActionOverride("Grace",JoinPartyEx(TRUE))
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR0100.BCS~ ~.../inlinedfile/rejoinmaze.baf~
+EXTEND_TOP ~AR0101.BCS~ ~.../inlinedfile/rejoinmaze.baf~
+EXTEND_TOP ~AR0200.BCS~ ~.../inlinedfile/rejoinmaze.baf~
+EXTEND_TOP ~AR0300.BCS~ ~.../inlinedfile/rejoinmaze.baf~
+EXTEND_TOP ~AR0301.BCS~ ~.../inlinedfile/rejoinmaze.baf~
+EXTEND_TOP ~AR0400.BCS~ ~.../inlinedfile/rejoinmaze.baf~
+EXTEND_TOP ~AR0500.BCS~ ~.../inlinedfile/rejoinmaze.baf~
+EXTEND_TOP ~AR0600.BCS~ ~.../inlinedfile/rejoinmaze.baf~
+
+
+
+
+//==========================================================================================
+
+// Kiri
+// Kiri is hard to identify and often gets hidden among the Tricha around the gate to Carceri. Her name // appears as Curst Citizen.
+
+// Export CRSTFEM.CRE
+// Rename KIRI.CRE
+// Place in override folder
+
+// Dialog.tlk
+// StrRef: 278
+// Blank -> Kiri
+
+// KIRI.CRE
+// Name Curst Citizen -> Kiri StrRef: 278
+// Apparent Name Curst Citizen -> Kiri StrRef: 278
+// Dialog DC_GENER.DLG -> DKIRI.DLG
+
+// AR0701.ARE
+// Actor 9
+// Name Female Curst Townpe -> Kiri
+// Default Script 0701TOWN.BCS -> None.
+// Character CRSTFEM.CRE -> KIRI.CRE
+
+// Qwinn - 278 is actually used in the original dialogue file.  I'm adding it at 59082,
+// which is a previously blank entry right in the middle of her dialogue.
+
+STRING_SET 59082 @59082  // ~Kiri~
+
+COPY_EXISTING ~CRSTFEM.CRE~ ~override/KIRI.CRE~
+  WRITE_LONG 0x8 59082
+  WRITE_LONG 0xc 59082
+  WRITE_ASCII 0x370 ~DKIRI~ #8
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR0701.ARE~ ~override~
+  LAUNCH_PATCH_MACRO Q_ARE_InitVars
+  WRITE_ASCII ("Q_Off_Actor" + ("Q_Siz_Actor" * 8)) ~Kiri~ #32
+  WRITE_ASCII ("Q_Off_Actor" + ("Q_Siz_Actor" * 8)) + 0x70 ~~ #8
+  WRITE_ASCII ("Q_Off_Actor" + ("Q_Siz_Actor" * 8)) + 0x80 ~KIRI~ #8
+ BUT_ONLY_IF_IT_CHANGES
+
+// ================================================================================
+
+// EAX Silence
+// Some sounds can't be heard with Creative EAX disabled. Or even when it is on.
+// Marked (r) are also addressed in the Restoration
+
+// Qwinn - Those originally marked (r) are listed under Restoration Pack - RestoFix.tph
+
+// Mortuary bell (r)
+// Export AM_BELL.WAV
+// Rename AMB_M01.WAV
+// Place in override folder
+
+// Neck snapping (r)
+// Export SPE_03B.WAV
+// Rename SPE_11.WAV
+// Place in override folder
+
+// 0502GEAR.BCS
+// Line 5 PlaySound("ar_0502_a") -> PlaySoundNotRanged("ar_0502a")
+/* Version 4.1:  devSin pointed out that this script isn't used.
+COPY_EXISTING ~0502GEAR.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+     REPLACE_TEXTUALLY ~PlaySound("ar_0502_a")~ ~PlaySoundNotRanged("ar_0502a")~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+*/
+
+// AR0201.BCS (r)
+// Line 94 PlaySound("MB_M01") -> PlaySoundNotRanged("AMB_M01")
+
+// Text Search > BCS > PlaySound(
+/// Specified results
+// PlaySound -> PlaySoundNotRanged
+
+// 0201CUT1.BCS	Soego unlocks door
+// 0405CS10.BCS	Alley face appears
+// 0405CUT5.BCS	Alley face appears
+// 0405CUT6.BCS	Alley face appears
+// 1101CUT5.BCS	Fhjull's parting comment
+// 1800PTK2.BCS	Teleporting in player's tomb
+// 1800PTK3.BCS	Teleporting in player's tomb
+// 1800PTN1.BCS	Teleporting in player's tomb
+// 1800PTN2.BCS	Teleporting in player's tomb
+// 1800PTN3.BCS	Teleporting in player's tomb
+// AR0101.BCS	Stinger sound
+// AR0205.BCS	Morte's Gathering Dust comment
+// AR0403.BCS	Ambient
+// AR0508.BCS	Stinger sound
+// AR0800.BCS	Stinger sound
+// AR1200.BCS	Stinger sound
+COPY_EXISTING ~0201CUT1.BCS~ ~override~
+              ~0405CS10.BCS~ ~override~
+              ~0405CUT5.BCS~ ~override~
+              ~0405CUT6.BCS~ ~override~
+              ~1101CUT5.BCS~ ~override~
+              ~1800PTK2.BCS~ ~override~
+              ~1800PTK3.BCS~ ~override~
+              ~1800PTN1.BCS~ ~override~
+              ~1800PTN2.BCS~ ~override~
+              ~1800PTN3.BCS~ ~override~
+              ~AR0101.BCS~   ~override~
+              ~AR0205.BCS~   ~override~
+              ~AR0403.BCS~   ~override~
+              ~AR0508.BCS~   ~override~
+              ~AR0800.BCS~   ~override~
+              ~AR1200.BCS~   ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~PlaySound(~ ~PlaySoundNotRanged(~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// ====================================================================================
+
+// Just doing these to clean up errors in the NI error checkers.  Probably don't accomplish anything.
+// This adds death variables to a few creature files.
+
+COPY_EXISTING ~ATHUG.CRE~ ~override~
+  WRITE_ASCII 0x324 ~Athug~ #16
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~BYRON.CRE~ ~override~
+  WRITE_ASCII 0x324 ~Byron~ #16
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~DN_MERCH.CRE~ ~override~
+  WRITE_ASCII 0x324 ~DNMerch~ #16
+ BUT_ONLY_IF_IT_CHANGES
+
+// Version 4.1:  These are removed as too dangerous, since engine can only associate one script name to one creature.
+/*
+COPY_EXISTING ~GATHUG.CRE~ ~override~
+              ~GATHUG02.CRE~ ~override~
+              ~GATHUG03.CRE~ ~override~
+              ~GATHUG04.CRE~ ~override~
+              ~GATHUG05.CRE~ ~override~
+              ~GATHUG06.CRE~ ~override~
+              ~GATHUG07.CRE~ ~override~
+              ~GATHUG08.CRE~ ~override~
+              ~GATHUG09.CRE~ ~override~
+              ~GATHUG10.CRE~ ~override~
+   WRITE_ASCII 0x324 ~RAngel~ #16
+ BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~GHM1.CRE~ ~override~
+              ~GHM2.CRE~ ~override~
+              ~GHM3.CRE~ ~override~
+              ~HLCM1.CRE~ ~override~
+              ~HLCM2.CRE~ ~override~
+  WRITE_ASCII 0x324 ~GhiveM~ #16
+ BUT_ONLY_IF_IT_CHANGES
+*/
+
+COPY_EXISTING ~JUMBLE.CRE~ ~override~
+  WRITE_ASCII 0x324 ~Jumble~ #16
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~KNFGHL.CRE~ ~override~
+  WRITE_ASCII 0x324 ~KnfGhl~ #16
+ BUT_ONLY_IF_IT_CHANGES
+
+/* Version 4.1:  These CREs aren't actually used, they are created by INI with different CRE's and assigned scriptnames there.
+COPY_EXISTING ~RAIMON.CRE~ ~override~
+  WRITE_ASCII 0x324 ~Raimon~ #16
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~SHAD.CRE~ ~override~
+  WRITE_ASCII 0x324 ~Shad~ #16
+ BUT_ONLY_IF_IT_CHANGES
+*/
+
+COPY_EXISTING ~0000VARG.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~1401vini~ ~1401varg~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~A1500.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Hagrim~ ~Hargri~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0605VIV1.BCS~ ~override~
+              ~0605VIV2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~0605viv3~ ~0605viv4~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~1201CL14.BCS~ ~override~
+              ~1201CL24.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Ign051B~ ~Ign052B~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~1204TRNN.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Tra001b~ ~Tra001a~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~1204TRNG.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Tra021~ ~Tra021a~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Overwrite useless FORGE.DLG file that just produces errors in NI
+COPY ~PST-Fix/copy/FORGE.DLG~ ~override~
+
+// ------------------------------
+// Specialist Item Availability
+// Some store items require that you specialize in a class. If not bought, the level 7 items are
+// removed when you reach level 12. If you double specialize a new item replaces it. If you
+// specialized in one class then another there's no item. Here the single specialization items are
+// available on single and double. Plus if you were one class at level 7 and another at level 12 the
+// single item for your level 12 class will become available. However, in that case the item for your
+// level 7 class will still be removed.
+
+// Qwinn - I had to think long and hard on whether this was a tweak or fix.  In the end I went with
+// fix.  It simply doesn't make sense that you lose access to your class level 7 item when you take
+// level 12 in the same class, and thus I consider that a bug.  The part about getting access to a
+// level 7 item when you split specialize at level 12 isn't clearly a bug, but it makes enough sense
+// (and split-specialization players get enough disadvantages) that I'm willing to let it piggy back
+// with the rest of the bug fix.  If you feel this is not justified, feel free to give me arguments
+// otherwise at the forums for the website where you got this mod (Spellhold Studios)
+
+// Brimstone Hammer
+// StrRef: 51402
+// Global("Specialist","GLOBAL",1) -> !Global("Specialist","GLOBAL",0) !Global("Specialist","GLOBAL",2)
+// !Global("Specialist","GLOBAL",3) !Global("Specialist","GLOBAL",5) !Global("Specialist","GLOBAL",6)
+// !Global("Specialist","GLOBAL",8) !Global("Specialist","GLOBAL",9)
+STRING_SET 51402
+~!Global("Specialist","GLOBAL",0)
+!Global("Specialist","GLOBAL",2)
+!Global("Specialist","GLOBAL",3)
+!Global("Specialist","GLOBAL",5)
+!Global("Specialist","GLOBAL",6)
+!Global("Specialist","GLOBAL",8)
+!Global("Specialist","GLOBAL",9)~
+
+// Backbiter
+// StrRef: 51396
+// !Global("Specialist","GLOBAL",0) !Global("Specialist","GLOBAL",1)
+// !Global("Specialist","GLOBAL",3) !Global("Specialist","GLOBAL",4) !Global("Specialist","GLOBAL",6)
+// !Global("Specialist","GLOBAL",7) !Global("Specialist","GLOBAL",9)
+STRING_SET 51396
+~!Global("Specialist","GLOBAL",0)
+!Global("Specialist","GLOBAL",1)
+!Global("Specialist","GLOBAL",3)
+!Global("Specialist","GLOBAL",4)
+!Global("Specialist","GLOBAL",6)
+!Global("Specialist","GLOBAL",7)
+!Global("Specialist","GLOBAL",9)~
+
+// Runeblade
+// StrRef: 51395
+// Global("Specialist","GLOBAL",3) -> !Global("Specialist","GLOBAL",0) !Global("Specialist","GLOBAL",1)
+// !Global("Specialist","GLOBAL",2) !Global("Specialist","GLOBAL",4) !Global("Specialist","GLOBAL",5)
+// !Global("Specialist","GLOBAL",7) !Global("Specialist","GLOBAL",8)
+STRING_SET 51395
+~!Global("Specialist","GLOBAL",0)
+!Global("Specialist","GLOBAL",1)
+!Global("Specialist","GLOBAL",2)
+!Global("Specialist","GLOBAL",4)
+!Global("Specialist","GLOBAL",5)
+!Global("Specialist","GLOBAL",7)
+!Global("Specialist","GLOBAL",8)~
+
+// Tattoo of the Warrior
+// StrRef: 51359
+// Global("Specialist","GLOBAL",1) -> !Global("Specialist","GLOBAL",0) !Global("Specialist","GLOBAL",2)
+// !Global("Specialist","GLOBAL",3) !Global("Specialist","GLOBAL",5) !Global("Specialist","GLOBAL",6)
+// !Global("Specialist","GLOBAL",8) !Global("Specialist","GLOBAL",9)
+STRING_SET 51359
+~!Global("Specialist","GLOBAL",0)
+!Global("Specialist","GLOBAL",2)
+!Global("Specialist","GLOBAL",3)
+!Global("Specialist","GLOBAL",5)
+!Global("Specialist","GLOBAL",6)
+!Global("Specialist","GLOBAL",8)
+!Global("Specialist","GLOBAL",9)~
+
+// Tattoo of the Thief
+// StrRef: 51355
+STRING_SET 51355
+~!Global("Specialist","GLOBAL",0)
+!Global("Specialist","GLOBAL",1)
+!Global("Specialist","GLOBAL",3)
+!Global("Specialist","GLOBAL",4)
+!Global("Specialist","GLOBAL",6)
+!Global("Specialist","GLOBAL",7)
+!Global("Specialist","GLOBAL",9)~
+
+// Tattoo of the Art
+// StrRef: 51357
+// Global("Specialist","GLOBAL",3) -> !Global("Specialist","GLOBAL",0) !Global("Specialist","GLOBAL",1)
+// !Global("Specialist","GLOBAL",2) !Global("Specialist","GLOBAL",4) !Global("Specialist","GLOBAL",5)
+// !Global("Specialist","GLOBAL",7) !Global("Specialist","GLOBAL",8)
+STRING_SET 51357
+~!Global("Specialist","GLOBAL",0)
+!Global("Specialist","GLOBAL",1)
+!Global("Specialist","GLOBAL",2)
+!Global("Specialist","GLOBAL",4)
+!Global("Specialist","GLOBAL",5)
+!Global("Specialist","GLOBAL",7)
+!Global("Specialist","GLOBAL",8)~
+
+// =================================================================================
+

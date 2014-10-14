@@ -1,0 +1,642 @@
+// ======================= BEGIN Q_ARE_InitVars Macro Definition =========================
+
+DEFINE_PATCH_MACRO ~Q_ARE_InitVars~ BEGIN
+
+PATCH_IF (GAME_IS ~PST~) BEGIN //only pst games
+SET Q_Game = 1
+END
+PATCH_IF (GAME_IS ~soa tob bgt tutu tutu_totsc~) BEGIN //all bg2 engine games
+SET Q_Game = 2
+END
+PATCH_IF !(GAME_IS ~PST soa tob bgt tutu tutu_totsc IWD2~) BEGIN //any other ie game but pst, bg2 variants and iwd2
+SET Q_Game = 3
+END
+
+// WEIDU AREA MAPPING TOOL #1, by Qwinn
+
+// This macro initializes variables to be used by the other WAMT macros.  They are also highly useful
+// for the coder him/herself to use, and even if none of the other macros are installed or used,
+// inserting the include in order to use this macro can save a lot of referring back and forth
+// to NI and IESDP.
+
+// OVERVIEW/TUTORIAL ON THE AREA FILE
+
+// An Area file is comprised of 1 main section and 15 subsections. The main section contains
+// basic information about the area, and also stores information about each of the 15 subsections.
+// Each of the subsections can hold a varying number of records, and thus the main section stores
+// offsets and counts which are used to map the rest of file.
+//
+// The 15 subsections are referred to in these tools with the following 5 letter codes:
+//
+// "Actor"  =  Actors
+// "Trigg"  =  Info Triggers
+// "Spawn"  =  Spawn Points
+// "Entra"  =  Entrances
+// "Conta"  =  Containers
+// "Items"  =  Items
+// "Ambie"  =  Ambients
+// "Varia"  =  Variables - not used in PS:T
+// "Doors"  =  Doors
+// "Tiled"  =  Tiled Objects - not used in PS:T
+// "Vertx"  =  Vertexes
+// "Explo"  =  Explored Bitmap - not used in PS:T.  no count, offset only
+// "Anima"  =  Animations
+// "Songs"  =  Songs - no count, offset only
+// "RestS"  =  Rest Spawns - no count, offset only
+// "MapNo"  =  Map Notes - not used in PS:T
+// "ProTr"  =  Projectile Traps - BG2 only
+
+// This macro sets up variables pointing to all the useful information about each subsection.
+// To use those variables, use these variable names, replacing the XXXXX with the code above
+// for the section you want to work with:
+
+// SHORT DESCRIPTION OF STATIC VARIABLES:
+
+// Q_Siz_XXXXX = Size of the description of XXXXX in any area file.  Constant.
+// Q_Num_XXXXX = Count of XXXXX records in current area file.  Varies.
+// Q_SoL_XXXXX = Whether the Q_Num_XXXXX field is a Short or Long.  2 = short, 4 = long.   Needed for the WRITE.
+// Q_OoN_XXXXX = Offset where value in Q_Num_XXXXX is stored in any area file.  Constant.
+// Q_Off_XXXXX = Offset where records of type XXXXX start in current area file.  Varies.
+// Q_OoO_XXXXX = Offset of the offset - where value in Q_Off_XXXXX is stored in any area file.  Constant.
+
+// LONG DESCRIPTION OF STATIC VARIABLES:
+
+// Q_Siz_XXXXX = the size, in bytes, of one instance of section XXXXX in any area file.
+// For example, Q_Siz_Items has the value 0x14, which is hexidecimal for 20 bytes, the
+// size of one Item record.  I got these values from referring to both Near Infinity and
+// IESDP.  These values are constant for any area file.
+
+// Q_Num_XXXXX = the count of how many XXXXX records are in this area.  For example, Q_Num_Doors
+// is the number of Doors set up in this area.  These values depend on the .ARE you're editing.
+
+// Q_SoL_XXXXX = whether the Count field of a given section is a short or long.  It varies.  Unfortunately.
+// 2 = short, 4 = long.
+
+// Q_OoN_XXXXX = the offset where the previous value, Q_Num_XXXXX, is stored in the main section
+// of any area file. (OoN = Offset Of Number).  For example, if you do READ_SHORT "Q_OoN_Conta"
+// "NumOfContainers", your NumOfContainers variable will get the same value as Q_Num_Conta.  Why
+// store the offsets if I already have the values stored in variables?   So I know where to
+// write back to when I need to at the end of my editing.  These values are the same for any
+// area file.
+
+// Q_Off_XXXXX = the offset, from the beginning of the file, where records of the subsection in
+// question start being stored in this particular area file.  These values depend on the area
+// you're editing.
+
+// Q_OoO_XXXXX = the offset where the previous value, Q_Off_XXXXX, is stored in the main section
+// of any area file. (OoO = Offset Of Offset).  For example, if you do READ_LONG "Q_OoO_Conta"
+// "FirstContainerDescriptionInTheFileStartsHere", that variable will get the same value as
+// Q_OffConta.  Why store the offsets of the offset?  Because I may have to write to that offset,
+// as adding to sections earlier in the file will require a change to the position/offset of
+// subsections deeper into the file.  These values are constant for any area file.
+
+// If you want instructions on how to use the tool to have it remap an area file for you,
+// see the other macro sections.
+
+// ============================== STATIC VARIABLES  ===========================
+
+// Size of one instance of each type of record
+
+SET "Q_Siz_Actor" = 0x110  // Size of Actor Section
+SET "Q_Siz_Trigg" = 0xc4   // Size of Trigger Section
+SET "Q_Siz_Spawn" = 0xc8   // Size of Spawn Points Section
+SET "Q_Siz_Entra" = 0x68   // Size of Entrances Section
+SET "Q_Siz_Conta" = 0xc0   // Size of Containers Section
+SET "Q_Siz_Items" = 0x14   // Size of Items Section
+SET "Q_Siz_Ambie" = 0xd4   // Size of Ambients Section
+SET "Q_Siz_Varia" = 0x54   // Size of Variables Section - not used in PS:T
+SET "Q_Siz_Doors" = 0xc8   // Size of Doors Section
+SET "Q_Siz_Tiled" = 0x6c   // Size of Tiled Objects Section 0 - not used in PS:T
+SET "Q_Siz_Vertx" = 0x4	// Size of Vertexes Section - size of one set of X, Y coordinates
+SET "Q_Siz_Explo" = 0x0	// Size of Explored Bitmap Section - not applicable
+SET "Q_Siz_Anima" = 0x4c   // Size of Animations Section
+SET "Q_Siz_Songs" = 0x90   // Size of Songs Section
+SET "Q_Siz_RestS" = 0xe4   // Size of Rest Spawn Section
+SET "Q_Siz_MapNo" = 0x34  // Size of Map Notes Section - not used in PS:T
+SET "Q_Siz_ProTr" = 0x1A  // Size of Projectile Traps Section - only used in BG2?
+
+// Sets the offsets where count of each type of record is stored in any area file
+
+SET "Q_OoN_Actor" = 0x58 // Offset of Number Of Actors
+SET "Q_OoN_Trigg" = 0x5a // Offset of Number Of Trigger
+SET "Q_OoN_Spawn" = 0x64 // Offset of Number Of Spawn Points
+SET "Q_OoN_Entra" = 0x6c // Offset of Number Of Entrances
+SET "Q_OoN_Conta" = 0x74 // Offset of Number Of Containers
+SET "Q_OoN_Items" = 0x76 // Offset of Number Of Items
+SET "Q_OoN_Ambie" = 0x82 // Offset of Number Of Ambients
+SET "Q_OoN_Varia" = 0x8c // Offset of Number Of Variables
+SET "Q_OoN_Doors" = 0xa4 // Offset of Number Of Doors
+SET "Q_OoN_Tiled" = 0xb4 // Offset of Number Of Tiled Objects
+SET "Q_OoN_Vertx" = 0x80 // Offset of Number Of Vertexes
+SET "Q_OoN_Explo" = 0x0 // Offset of Number Of Explored Bitmap - not applicable
+SET "Q_OoN_Anima" = 0xac // Offset of Number Of Animations
+SET "Q_OoN_Songs" = 0x0 // Offset of Number Of Songs - not applicable
+SET "Q_OoN_RestS" = 0x0 // Offset of Number Of Rest Spawn - not applicable
+PATCH_IF "Q_Game" = 1 THEN BEGIN SET "Q_OoN_MapNo" = 0xcc // Offset of Number of Map Notes in PS:T
+	          END ELSE BEGIN SET "Q_OoN_MapNo" = 0xc8 // Offset of Number of Map Notes in all other IE games
+END
+PATCH_IF "Q_Game" = 2 THEN BEGIN SET "Q_OoN_ProTr" = 0xd0  // Offset of Number of Projectile Traps in BG2
+	          END ELSE BEGIN SET "Q_OoN_ProTr" = 0	  //  Not Applicable
+END
+
+// Using those offsets, load the actual count of each type
+// of record from the area file currently loaded.
+
+READ_SHORT "Q_OoN_Actor" "Q_Num_Actor"  // Number of Actors
+READ_SHORT "Q_OoN_Trigg" "Q_Num_Trigg"  // Number of Triggers
+READ_LONG  "Q_OoN_Spawn" "Q_Num_Spawn"  // Number of Spawn Points
+READ_LONG  "Q_OoN_Entra" "Q_Num_Entra"  // Number of Entrances
+READ_SHORT "Q_OoN_Conta" "Q_Num_Conta"  // Number of Containers
+READ_SHORT "Q_OoN_Items" "Q_Num_Items"  // Number of Items
+READ_SHORT "Q_OoN_Ambie" "Q_Num_Ambie"  // Number of Ambients
+READ_LONG  "Q_OoN_Varia" "Q_Num_Varia"  // Number of Variables
+READ_LONG  "Q_OoN_Doors" "Q_Num_Doors"  // Number of Doors
+READ_LONG  "Q_OoN_Tiled" "Q_Num_Tiled"  // Number of Tiled Objects
+READ_SHORT "Q_OoN_Vertx" "Q_Num_Vertx"  // Number of Vertexes
+SET "Q_Num_Explo" = 1  // Only 1 Explored Bitmap section per area.  This isn't really needed.
+READ_LONG  "Q_OoN_Anima" "Q_Num_Anima"  // Number of Animations
+SET "Q_Num_Songs" = 1  // Only 1 song section per area.  This isn't really needed.
+SET "Q_Num_RestS" = 1 // Only 1 rest section per area.  This isn't really needed.
+READ_LONG  "Q_OoN_MapNo" "Q_Num_MapNo"  // Number of Mapnotes
+PATCH_IF "Q_Game" = 2 THEN BEGIN READ_LONG "Q_OoN_ProTr" "Q_Num_ProTr"  // Number of Projectile Traps in BG2
+	          END ELSE BEGIN SET "Q_Num_ProTr" = 0	  //  Not Applicable
+END
+
+
+// Whether the "Number of" field is a long or a short field.  Long = 4, Short = 2
+SET "Q_SoL_Actor" = 2
+SET "Q_SoL_Trigg" = 2
+SET "Q_SoL_Spawn" = 4
+SET "Q_SoL_Entra" = 4
+SET "Q_SoL_Conta" = 2
+SET "Q_SoL_Items" = 2
+SET "Q_SoL_Ambie" = 2
+SET "Q_SoL_Varia" = 4
+SET "Q_SoL_Doors" = 4
+SET "Q_SoL_Tiled" = 4
+SET "Q_SoL_Vertx" = 2
+SET "Q_SoL_Explo" = 0	// Not applicable
+SET "Q_SoL_Anima" = 4
+SET "Q_SoL_Songs" = 0   //  Not applicable
+SET "Q_SoL_RestS" = 0   // Not applicable
+SET "Q_SoL_MapNo" = 4
+SET "Q_SoL_ProTr" = 4
+
+// The offsets at which each subsection's offset in any .ARE file is stored
+
+SET "Q_OoO_Actor" = 0x54 // Offset of Actors Offset
+SET "Q_OoO_Trigg" = 0x5c // Offset of Trigger Offset
+SET "Q_OoO_Spawn" = 0x60 // Offset of Spawn Points Offset
+SET "Q_OoO_Entra" = 0x68 // Offset of Entrances Offset
+SET "Q_OoO_Conta" = 0x70 // Offset of Containers Offset
+SET "Q_OoO_Items" = 0x78 // Offset of Items Offset
+SET "Q_OoO_Ambie" = 0x84 // Offset of Ambients Offset
+SET "Q_OoO_Varia" = 0x88 // Offset of Variables Offset
+SET "Q_OoO_Doors" = 0xa8 // Offset of Doors Offset
+SET "Q_OoO_Tiled" = 0xb8 // Offset of Tiled Objects Offset
+SET "Q_OoO_Vertx" = 0x7c // Offset of Vertexes Offset
+SET "Q_OoO_Explo" = 0xa0 // Offset of Explored Bitmap Offset
+SET "Q_OoO_Anima" = 0xb0 // Offset of Animations Offset
+SET "Q_OoO_Songs" = 0xbc // Offset of Songs Offset
+SET "Q_OoO_RestS" = 0xc0 // Offset of Rest Spawn Offset
+PATCH_IF "Q_Game" = 1 THEN BEGIN SET "Q_OoO_MapNo" = 0xc8 // Offset of Map Notes Offset in PS:T
+                  END ELSE BEGIN SET "Q_OoO_MapNo" = 0xc4 // Offset of Map Notes Offset in all other IE games
+END
+PATCH_IF "Q_Game" = 2 THEN BEGIN SET "Q_OoO_ProTr" = 0xcc  // Offset of Projectile Traps section in BG2
+		  END ELSE BEGIN SET "Q_OoO_ProTr" = 0 //  Not Applicable
+END
+
+// Using those offsets, load the actual offsets as they exist in this specific area file
+
+READ_LONG "Q_OoO_Actor" "Q_Off_Actor"  // Actors Offset
+READ_LONG "Q_OoO_Trigg" "Q_Off_Trigg"  // Trigger Offset
+READ_LONG "Q_OoO_Spawn" "Q_Off_Spawn"  // Spawn Points Offset
+READ_LONG "Q_OoO_Entra" "Q_Off_Entra"  // Entrances Offset
+READ_LONG "Q_OoO_Conta" "Q_Off_Conta"  // Containers Offset
+READ_LONG "Q_OoO_Items" "Q_Off_Items"  // Items Offset
+READ_LONG "Q_OoO_Ambie" "Q_Off_Ambie"  // Ambients Offset
+READ_LONG "Q_OoO_Varia" "Q_Off_Varia"  // Variables Offset
+READ_LONG "Q_OoO_Doors" "Q_Off_Doors"  // Doors Offset
+READ_LONG "Q_OoO_Tiled" "Q_Off_Tiled"  // Tiled Objects Offset
+READ_LONG "Q_OoO_Vertx" "Q_Off_Vertx"  // Vertexes Offset
+READ_LONG "Q_OoO_Explo" "Q_Off_Explo"  // Explored Bitmap Offset
+READ_LONG "Q_OoO_Anima" "Q_Off_Anima"  // Animations Offset
+READ_LONG "Q_OoO_Songs" "Q_Off_Songs"  // Songs Offset
+READ_LONG "Q_OoO_RestS" "Q_Off_RestS"  // Rest Spawn Offset
+READ_LONG "Q_OoO_MapNo" "Q_Off_MapNo" // Map Notes Offset
+PATCH_IF "Q_Game" = 2 THEN BEGIN READ_LONG "Q_OoO_ProTr" "Q_Off_ProTr" // Projectile Trap Offset in BG2
+		  END ELSE BEGIN SET "Q_Off_ProTr" = 0 //  Not Applicable.  Value of 0 will keep it from ever updating in inner S2 loop of Process macro.
+END
+
+END
+
+
+// ======================= END OF Q_ARE_InitVars Macro Definition =========================
+
+
+// ====================== BEGIN Q_AREAdd_InitVars Macro Definition ========================
+
+DEFINE_PATCH_MACRO ~Q_AREAdd_InitVars~
+BEGIN
+
+// Use this macro in conjunction with macro ~Q_AREAdd_Process~ if you are adding entirely
+// new records to any of the subsections.  This macro will reset all of the offsets, indexes
+// and counts in your .ARE record to match your additions with very little work on your
+// part, as well as supply you with variables storing the offsets where you should start
+// writing your new records.
+
+// Best of all, it does so in a dynamic manner which should not interfere with any other
+// mods that come before or after yours, always assuming they take similar care to be
+// compatible with other mods, of course.
+
+// Do NOT use this macro if you need to modify the vertexes in an existing trigger, door
+// or container, or adding items to an existing container.  You CAN use it to add room for
+// both new triggers/doors/containers and the new vertexes that go along with them.
+
+// Another two macros, named Q_AREVertex_InitVars and Q_AREVertex_Process will be provided
+// in the case that you need to modify the vertexes in an existing door/trigger/container.
+// Another two macros, Q_AREItem_InitVars and Q_AREItem_Process will be provided if you need
+// to add items to an existing container.
+
+// INSTRUCTIONS FOR USE:
+
+// All you need to do is include these macro definitions somewhere in your .tp2 (near the top,
+// preferably.)  Then when ready to use them, use your COPY or COPY_EXISTING statement to grab the
+// .ARE file you're working with, run -this- macro, like this:
+
+// LAUNCH_PATCH_MACRO ~Q_AREAdd_InitVars~
+
+// ... then set your Q_New_XXXXX variables... what do you set your Q_NewXXXXX variable to?
+// Just how many records of each type you want to add.  Say you need to add 3 actors,
+// 2 containers (each containing 5 vertexes and 2 items), and two triggers (each containing
+// 10 vertexes).  Here's all you need to do:
+
+// SET Q_NewActor = 3
+// SET Q_NewConta = 2
+// SET Q_NewItems = 4
+// SET Q_NewVertx = 30
+
+// ... and then run the Q_AREAdd_Process macro, like this:
+
+// LAUNCH_PATCH_MACRO ~Q_AREAdd_Process~
+
+// That macro will insert bytes into each subsection in the file to accomodate the new records
+// you want to add, and all offsets and counts will be updated for you.
+
+
+// So, putting it all together, and assuming you included this file somewhere in your tp2,
+// the whole process for prepping your file for the addition of 3 actors,
+// 2 containers (each containing 5 vertexes and 2 items), and two triggers (each containing
+// 10 vertexes), is this:
+
+// LAUNCH_PATCH_MACRO ~Q_AREAdd_InitVars~
+// SET Q_NewActor = 3
+// SET Q_NewConta = 2
+// SET Q_NewItems = 4
+// SET Q_NewVertx = 30
+// LAUNCH_PATCH_MACRO ~Q_AREAdd_Process~
+
+
+// That's it.  The right amount of bytes needed to write in your actors, containers,
+// items and vertexes is now available in the file, with all the various offsets
+// and counts updated to match.
+
+// But how do you know where to actually write your records?  You can find the offset
+// at which the new space was inserted at the variables Q_NewOffset_XXXXX, which the
+// tool has filled in for you.
+
+// It is recommended that you immediately start writing to the fields you want to write
+// to.  In this example, you would start writing your new actors at Q_NewOffset_Actor,
+// your new containers at Q_NewOffset_Conta, your new items at Q_NewOffset_Items
+// and your new vertexes at Q_NewOffset_Vertx.
+
+// If you plan to use this or any of the other macros included with the WAMT tool more,
+// than once in your tp2, you should always rerun the _InitVars macro associated with
+// the _Process macro you intend to use to clear any old values.  That's why I recommend
+// immediately doing your writes, so that you don't forget and rerun this tool somewhere
+// else, does wiping out all your NewOffset values telling you where you can write your
+// new subsections.
+
+// This macro will initialize all of the Q_New_XXXXX variables and the output variables
+// (i.e. Q_NewOffset_XXXXX).
+
+SET "Q_New_Actor" = 0 // Number of New Actors
+SET "Q_New_Trigg" = 0 // Number of New Triggers
+SET "Q_New_Spawn" = 0 // Number of New Spawn Points
+SET "Q_New_Entra" = 0 // Number of New Entrances
+SET "Q_New_Conta" = 0 // Number of New Containers
+SET "Q_New_Items" = 0 // Number of New Items
+SET "Q_New_Ambie" = 0 // Number of New Ambients
+SET "Q_New_Varia" = 0 // Number of New Variables
+SET "Q_New_Doors" = 0 // Number of New Doors
+SET "Q_New_Tiled" = 0 // Number of New Tiled Objects
+SET "Q_New_Vertx" = 0 // Number of New Vertexes
+SET "Q_New_Anima" = 0 // Number of New Animations
+SET "Q_New_MapNo" = 0 // Number of Map Notes
+SET "Q_New_ProTr" = 0 // Number of Projectile Traps
+
+
+// Initializing the variables that return the offset where the new areas have been created
+
+SET "Q_NewOffset_Actor" = 0 // Begin writing your new actors here.
+SET "Q_NewOffset_Trigg" = 0 // Begin writing your new triggers here.
+SET "Q_NewOffset_Spawn" = 0 // Etc.
+SET "Q_NewOffset_Entra" = 0
+SET "Q_NewOffset_Conta" = 0
+SET "Q_NewOffset_Items" = 0
+SET "Q_NewOffset_Ambie" = 0
+SET "Q_NewOffset_Varia" = 0
+SET "Q_NewOffset_Doors" = 0
+SET "Q_NewOffset_Tiled" = 0
+SET "Q_NewOffset_Vertx" = 0
+SET "Q_NewOffset_Anima" = 0
+SET "Q_NewOffset_MapNo" = 0
+SET "Q_NewOffset_ProTr" = 0
+
+SET "Q_NewOffset_Explo" = 0  // These 3 cannot have new records created, but need variables to compile
+SET "Q_NewOffset_Songs" = 0
+SET "Q_NewOffset_RestS" = 0
+
+
+SET "Q_ManualInsert" = 0  // If you want to handle the INSERT_BYTES (or DELETE_BYTES, potentially)
+						  // by yourself, set this flag to 1
+
+END
+
+// ====================== END Q_AREAdd_InitVars Macro Definition ========================
+
+
+// ===================== BEGIN Q_AREAdd_Process Macro Definition ========================
+
+DEFINE_PATCH_MACRO ~Q_AREAdd_Process~
+BEGIN
+
+// DO NOT use this macro without first running Q_AREAdd_InitVars.
+// Documentation for the use of this macro is contained within that macro definition.
+
+PATCH_FOR_EACH "S1" IN
+  ~Actor~ ~Trigg~ ~Spawn~ ~Entra~ ~Conta~ ~Items~ ~Ambie~ ~Varia~ ~Doors~
+  ~Tiled~ ~Vertx~ ~Anima~ ~MapNo~ ~ProTr~
+BEGIN
+  SET "Q_NewSect" = $Q_New("%S1%") // How many new sections user has asked for
+  PATCH_IF !("Q_NewSect" = 0) THEN
+  BEGIN
+	// WRITE_ASCII 0x33c ~%S1%~ #32 // DEBUG
+	SET "Q_OoNSect" = $Q_OoN("%S1%") // Offset where count of each section is stored
+	SET "Q_NumSect" = $Q_Num("%S1%") // Original count for that section
+	SET "Q_SoLSect" = $Q_SoL("%S1%")  // Whether original count is stored as long or short
+	SET "Q_OoOSect1" = $Q_OoO("%S1%") // Offset of offset for the section
+	SET "Q_Offset1" = $Q_Off("%S1%") // Offset of the section being added to
+	SET "Q_SizSect" = $Q_Siz("%S1%") // The size of one new section
+
+	PATCH_FOR_EACH "S2" IN
+	  ~Actor~ ~Trigg~ ~Spawn~ ~Entra~ ~Conta~ ~Items~ ~Ambie~ ~Varia~ ~Doors~
+	  ~Tiled~ ~Vertx~ ~Explo~ ~Anima~ ~Songs~ ~RestS~ ~MapNo~ ~ProTr~
+	BEGIN
+	  // WRITE_ASCII 0x33c ~%S1% %S2%~ #32 // DEBUG
+	  SET "Q_Offset2" = $Q_Off("%S2%") // Offset of each other section
+	  SET "Q_OoOSect2" = $Q_OoO("%S2%") // Offset of that offset
+	  SET "Q_OldInsert" = $Q_NewOffset("%S2%") // Previous insert offsets need to be updated too
+	  PATCH_IF ("Q_Offset2" >= "Q_Offset1") AND NOT ("%S1%" STRING_EQUAL "%S2%") THEN
+	  BEGIN
+		WRITE_LONG "Q_OoOSect2" ("Q_Offset2" + ("Q_NewSect" * "Q_SizSect"))
+	  END
+	  PATCH_IF ("Q_OldInsert" >= "Q_Offset1") AND NOT ("%S1%" STRING_EQUAL "%S2%") THEN
+	  BEGIN
+		SET $Q_NewOffset("%S2%") = $Q_NewOffset("%S2%") + ("Q_NewSect" * "Q_SizSect")
+	  END
+	END
+	SET $Q_NewOffset("%S1%") = "Q_Offset1" + ("Q_NumSect" * "Q_SizSect")
+	SET "Q_InsertOffset" = $Q_NewOffset("%S1%")
+	PATCH_IF "Q_ManualInsert" = 0 THEN
+	BEGIN
+	  INSERT_BYTES "Q_InsertOffset" ("Q_NewSect" * "Q_SizSect")
+	END
+        PATCH_IF "Q_SoLSect" = 2 THEN BEGIN WRITE_SHORT "Q_OoNSect" ("Q_NumSect" + "Q_NewSect") END
+                                 ELSE BEGIN WRITE_LONG  "Q_OoNSect" ("Q_NumSect" + "Q_NewSect") END
+	LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~  // Reset all our variables to their new values
+  END
+END
+
+END
+
+// ====================== END Q_AREAdd_Process Macro Definition ========================
+
+
+
+
+// ==================== BEGIN Q_AREVertex_InitVars Macro Definition ====================
+
+DEFINE_PATCH_MACRO ~Q_AREVertex_InitVars~
+BEGIN
+
+// This macro initializes some constant variables for use by the Q_AREVertex_Process macro,
+// and also the variables that the user will set to make the macro work.
+
+// First, the variables the tool will use.  This basically sets the variables defining
+// the "First Vertex Index" and count fields within doors, trigger and containers in much
+// the same way the Q_AREInitVars does it for the offsets in the main section of the .ARE
+// file.  These offsets are from the beginning of a door/trigger/container definition, btw,
+// not the beginning of the .ARE file.  You can ignore this part.  Instructions continue below.
+
+// The key to the fields in this file, by the way, are:
+
+// "Trigg"  - Vertex list for triggers
+// "Conta"  - Vertex list for containers
+// "DoorO"  - Vertex list for door in Open position
+// "DoorC"  - Vertex list for door in Closed position
+// "DoorOI" - Vertex list for door in Open, Impeded position
+// "DoorCI" - Vertex list for door in Closed, Impeded position
+
+// Note:  The IESDP and Near Infinity disagree on these offsets.  IESDP has definite errors
+// in theirs though, so I'm going with the values in NI.  If someone finds out NI is wrong
+// too, please let me know.
+
+SET "QV_OffFVI_Trigg"  = 0x2c
+SET "QV_OffFVI_Conta"  = 0x50
+SET "QV_OffFVI_DoorO"  = 0x2c
+SET "QV_OffFVI_DoorC"  = 0x34
+SET "QV_OffFVI_DoorOI" = 0x50
+SET "QV_OffFVI_DoorCI" = 0x48
+
+SET "QV_OffNumV_Trigg"  = 0x2a
+SET "QV_OffNumV_Conta"  = 0x54
+SET "QV_OffNumV_DoorO"  = 0x30
+SET "QV_OffNumV_DoorC"  = 0x32
+SET "QV_OffNumV_DoorOI" = 0x4e
+SET "QV_OffNumV_DoorCI" = 0x4c
+
+// INSTRUCTIONS FOR USE:
+
+// To remap the vertexes of an existing trigger, door or container, you must supply 3
+// different values - the type of record you're changing, the offset to the definition of that
+// record, and the new number of vertexes attached to that record.
+
+// The three variables the user must fill in are:
+// QV_Offset -  The offset of the Item, Door or Container definition whose vertexes are being remapped
+// QV_Count  -  The new number of vertexes attached to this item, door or container
+// QV_Type   -  This must be an integer value from 1 to 6:
+
+// 1 - Trigger
+// 2 - Container
+// 3 - Door, Open
+// 4 - Door, Closed
+// 5 - Door, Open Impeded
+// 6 - Door, Closed Impeded
+
+// Initializing those variables now:
+
+SET "QV_Type" = 0
+SET "QV_Offset" = 0
+SET "QV_VCount" = 0
+
+// COMPATIBILITY NOTE:  I strongly suggest NOT hardcoding the value of QV_Offset.  Doing so will
+// likely make your mod incompatible with other mods.  If you want to modify the vertexes of the
+// third trigger in your area, set the value of QV_Offset dynamically like this:
+// "QV_Offset" = "Q_Off_Trigg" + ("Q_Siz_Trigg" * 2)
+
+// You should have run the macro Q_ARE_InitVars prior to even thinking about using these macros
+// anyway, so those two Q_ variables will already be filled in for you at this point.
+
+// Also be aware that, when I say "third trigger", I don't mean the third trigger listed in NI,
+// which lists them alphabetically by assigned name.  I mean the third one sequentially in the
+// file.  Look at the starting offset of each trigger to get the actual order they are sequenced
+// in in the file.
+
+// Here's an example of how to use this macro.  Say you want to change the "Open" vertex of
+// the fifth door in your file.  It originally had 6 vertexes, and your new map has 9 vertexes.
+
+// INCLUDE Q_AREMacros.tph
+
+// ...
+
+// COPY_EXISTING ~AR0400.ARE~ ~override~
+// LAUNCH_PATCH_MACRO Q_ARE_InitVars
+// LAUNCH_PATCH_MACRO Q_AREVertex_InitVars  // this macro
+// SET "QV_Type" = ~DoorO~
+// SET "QV_Offset" = "Q_Off_Doors + (Q_Siz_Doors * 4)
+// SET "QV_VCount = 9
+// LAUNCH_PATCH_MACRO Q_AREVertex_Process
+
+// That code will first delete the bytes where the vertexes for that door record are mapped, and then
+// reinsert bytes to the size you need.  Thus, expect 0's in all the vertexes, you'll need to remap
+// them all (which, when it comes to vertex mapping, generally needs to be done anyway).  It will
+// also update all the "First Vertex Index" fields in -all- items, doors and containers that need it
+// to match their new positions within the vertex pool.
+
+// That's it.  Oh, and you'd get the offset at which you can start writing your new vertexes
+// in the variable QV_NewVertexOffset.  Start writing your new vertexes there.  Don't worry
+// about pointing your Door file's First Vertex Index to them, that's already done for you.
+
+SET "QV_NewVertexOffset" = 0
+
+END
+
+// ==================== END Q_AREVertex_InitVars Macro Definition ====================
+
+// ==================== BEGIN Q_AREVertex_Process Macro Definition ====================
+
+DEFINE_PATCH_MACRO ~Q_AREVertex_Process~
+BEGIN
+
+// DO NOT use this macro without first running Q_AREVertex_InitVars.
+// Documentation for the use of this macro is contained within that macro definition.
+
+
+PATCH_IF "QV_Type" > 0 AND "QV_Type" < 7 THEN
+BEGIN
+  PATCH_IF "QV_Type" = 1 THEN
+  BEGIN
+	 SET "QV_OffFVI"  = "QV_OffFVI_Trigg"
+	 SET "QV_OffNumV" = "QV_OffNumV_Trigg"
+  END
+  PATCH_IF "QV_Type" = 2 THEN
+  BEGIN
+	 SET "QV_OffFVI"  = "QV_OffFVI_Conta"
+	 SET "QV_OffNumV" = "QV_OffNumV_Conta"
+  END
+  PATCH_IF "QV_Type" = 3 THEN
+  BEGIN
+	 SET "QV_OffFVI"  = "QV_OffFVI_DoorO"
+	 SET "QV_OffNumV" = "QV_OffNumV_DoorO"
+  END
+  PATCH_IF "QV_Type" = 4 THEN
+  BEGIN
+	 SET "QV_OffFVI"  = "QV_OffFVI_DoorC"
+	 SET "QV_OffNumV" = "QV_OffNumV_DoorC"
+  END
+  PATCH_IF "QV_Type" = 5 THEN
+  BEGIN
+	 SET "QV_OffFVI"  = "QV_OffFVI_DoorOI"
+	 SET "QV_OffNumV" = "QV_OffNumV_DoorOI"
+  END
+  PATCH_IF "QV_Type" = 6 THEN
+  BEGIN
+	 SET "QV_OffFVI"  = "QV_OffFVI_DoorCI"
+	 SET "QV_OffNumV" = "QV_OffNumV_DoorCI"
+  END
+
+  READ_LONG ("QV_Offset" + "QV_OffFVI")  "QV_OldFVI"
+  READ_SHORT ("QV_Offset" + "QV_OffNumV") "QV_OldCount"
+  SET "QV_Delta" = "QV_VCount" - "QV_OldCount"
+
+  FOR ("i2" = 1; "i2" <= "Q_Num_Trigg"; "i2" += 1)
+  BEGIN
+	READ_LONG ("Q_Off_Trigg" + ("Q_Siz_Trigg" * ("i2" - 1)) + "QV_OffFVI_Trigg") "QV_EachFVI"
+	PATCH_IF "QV_EachFVI" > "QV_OldFVI" THEN
+	BEGIN
+	  WRITE_LONG ("Q_Off_Trigg" + ("Q_Siz_Trigg" * ("i2" - 1)) + "QV_OffFVI_Trigg")
+				  "QV_EachFVI" + "QV_Delta"
+	END
+  END
+
+  FOR ("i2" = 1; "i2" <= "Q_Num_Conta"; "i2" += 1)
+  BEGIN
+	READ_LONG ("Q_Off_Conta" + ("Q_Siz_Conta" * ("i2" - 1)) + "QV_OffFVI_Conta") "QV_EachFVI"
+	PATCH_IF "QV_EachFVI" > "QV_OldFVI" THEN
+	BEGIN
+	  WRITE_LONG ("Q_Off_Conta" + ("Q_Siz_Conta" * ("i2" - 1)) + "QV_OffFVI_Conta")
+				  "QV_EachFVI" + "QV_Delta"
+	END
+  END
+  FOR ("i2" = 1; "i2" <= "Q_Num_Doors"; "i2" += 1)
+  BEGIN
+	READ_LONG ("Q_Off_Doors" + ("Q_Siz_Doors" * ("i2" - 1)) + "QV_OffFVI_DoorO") "QV_EachFVI"
+	PATCH_IF "Q_EachFVI" > "QV_OldFVI" THEN
+	BEGIN
+	  WRITE_LONG ("Q_Off_Doors" + ("Q_Siz_Doors" * ("i2" - 1)) + "QV_OffFVI_DoorO")
+				  "QV_EachFVI" + "QV_Delta"
+	END
+	READ_LONG ("Q_Off_Doors" + ("Q_Siz_Doors" * ("i2" - 1)) + "QV_OffFVI_DoorC") "QV_EachFVI"
+	PATCH_IF "Q_EachFVI" > "QV_OldFVI" THEN
+	BEGIN
+	  WRITE_LONG ("Q_Off_Doors" + ("Q_Siz_Doors" * ("i2" - 1)) + "QV_OffFVI_DoorC")
+				  "QV_EachFVI" + "QV_Delta"
+	END
+	READ_LONG ("Q_Off_Doors" + ("Q_Siz_Doors" * ("i2" - 1)) + "QV_OffFVI_DoorOI") "QV_EachFVI"
+	PATCH_IF "Q_EachFVI" > "QV_OldFVI" THEN
+	BEGIN
+	  WRITE_LONG ("Q_Off_Doors" + ("Q_Siz_Doors" * ("i2" - 1)) + "QV_OffFVI_DoorOI")
+				  "QV_EachFVI" + "QV_Delta"
+	END
+	READ_LONG ("Q_Off_Doors" + ("Q_Siz_Doors" * ("i2" - 1)) + "QV_OffFVI_DoorOC") "QV_EachFVI"
+	PATCH_IF "Q_EachFVI" > "QV_OldFVI" THEN
+	BEGIN
+	  WRITE_LONG ("Q_Off_Doors" + ("Q_Siz_Doors" * ("i2" - 1)) + "QV_OffFVI_DoorOC")
+				  "QV_EachFVI" + "QV_Delta"
+	END
+  END
+  WRITE_SHORT ("QV_Offset" + "QV_OffNumV") "QV_VCount"
+  WRITE_SHORT "Q_OoN_Vertx" ("Q_Num_Vertx" + "QV_Delta")
+  DELETE_BYTES ("Q_Off_Vertx" + ("QV_OldFVI" * "Q_Siz_Vertx"))
+			   ("QV_OldCount" * "Q_Siz_Vertx")
+  INSERT_BYTES ("Q_Off_Vertx" + ("QV_OldFVI" * "Q_Siz_Vertx"))
+			   ("QV_VCount" * "Q_Siz_Vertx")
+  SET "QV_NewVertexOffset" = ("Q_Off_Vertx" + ("QV_OldFVI" * "Q_Siz_Vertx"))
+  LAUNCH_PATCH_MACRO ~Q_AREAdd_InitVars~
+  SET "Q_ManualInsert" = 1
+  SET "Q_New_Vertx" = "QV_Delta"
+  LAUNCH_PATCH_MACRO ~Q_AREAdd_Process~
+END
+
+END

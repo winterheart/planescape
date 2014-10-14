@@ -1,0 +1,540 @@
+@-1000 = ~Il mod %TP2_FILE_NAME ha~
+@-1001 = ~diversi componenti opzionali. \nPer risparmiare tempo, puoi scegliere cosa fare per l'insieme dei componenti\npiuttosto che decidere per ognuno singolarmente.\n~
+@-1002 = ~Cosa desideri fare con tutti i componenti che NON SONO ANCORA stati installati?\n[I]nstallali, [S]Tralasciali, [A]Chiedi per ognuno?~ 
+@-1003 = ~Cosa desideri fare con tutti i componenti che SONO GIA' stati installati?\n[R]e-installali, [U]Disinstallali, [S]Tralasciali, [A]Chiedi per ognuno?~
+@-1004 = ~PER FAVORE spedisci via email il file~ 
+@-1005 = ~a~
+@-1006 = ~Installa [~
+@-1007 = ~]?
+[R]e-Installa, [N]essun Cambiamento o [U]Disinstalla o [Q]Esci? ~ 
+@-1008 = ~]?
+[I]nstalla, o [N]on Installare o [Q]Esci?~
+@-1009 = ~Inserisci una parte del nome del modulo:~ 
+@-1010 = ~Re-Installazione in corso [~
+@-1011 = ~] componente ~
+@-1012 = ~Re-Installazione usando Lingua~ 
+@-1013 = ~Rimozione vecchia installazione di [~
+@-1014 = ~] primo ...~ 
+@-1015 = ~RIMOZIONE AVVENUTA CON SUCCESSO~
+@-1016 = ~Installazione in corso~
+@-1017 = ~ERRORE di Installazione [~
+@-1018 = ~], ripristino stato precedente~ 
+@-1019 = ~INSTALLAZIONE AVVENUTA CON SUCCESSO~
+@-1020 = ~Tralasciato ~ 
+@-1021 = ~Rimozione in corso [~ 
+@-1022 = ~] (componente #~
+@-1023 = ~)~ 
+@-1024 = ~RIMOZIONE AVVENUTA CON SUCCESSO [~
+@-2000 = ~Visualizzatore del file Leggimi~
+@-2001 = ~Vorresti vedere il file Leggimi (Tradotto da Yakkuz)? [Y]Si o [N]No:~
+@1     = ~PS:T Ultimate WeiDU Fixpack, by Qwinn~ []
+@2     = ~Correzioni di Spelling/Grammatica (Solo per la versione Inglese)~ []
+@3     = ~Tralasciato poiche' la Lingua selezionata non e l'Inglese~
+@4     = ~Sottotitoli per gli Intermezzi~
+@5     = ~I Sottotitoli per gli Intermezzi richiedono il PS:T Ultimate WeiDU Fixpack.~
+@100   = ~La donna fa un cenno con il capo e corre via frettolosamente. Non credi la rivedrai piu'.~ []
+@00101 = ~"Dimmi, cosa sei, Morte? Non me l'hai mai detto."~ [FFG121]
+@00102 = ~Infiltrati nei Sensates per conto degli Anarchici: "Sono pronto. Voglio diventare un Sensate."~
+@00103 = ~Infiltrarti nei Sensates per conto degli Anarchici: "Sono pronto per unirmi alla Society of Sensation. Non provo più alcuna lealtà nei confronti dei Godsmen."~
+@00104 = ~Infiltrarti nei Sensates per conto degli Anarchici: "Sono pronto per unirmi alla Society of Sensation. Non provo più alcuna lealtà nei confronti dei Dustmen."~
+@00105 = ~Infiltrarti nei Sensates per conto degli Anarchici: "Sono pronto per unirmi alla Society of Sensation. Non provo più alcuna lealtà nei confronti dei Xaositects."~
+@00106 = ~Infiltrarti nei Dustmen per conto degli Anarchici: "Se così deve essere, così sia. La mia mente deve essere coerente con se stessa, e null'altro. Da questo momento, io abbandono il credo dei Godsmen."~
+@00107 = ~Infiltrarti nei Dustmen per conto degli Anarchici: "Se così dev'essere, allora così sia. La mia mente deve essere coerente con se stessa, e null'altro. Da questo momento, io abbandono il... uh, 'credo' dei Chaosmen."~
+@00108 = ~Infiltrarti nei Dustmen per conto degli Anarchici: "Se così dev'essere, allora così sia. La mia mente deve essere coerente con se stessa, e null'altro. Da questo momento, io abbandono il credo dei Sensates."~
+@00109 = ~Infiltrarti tra i Chaosmen per conto degli Anarchici: "Dunque... qual è il prossimo passo?"~
+@00110 = ~Infiltrarti tra i Chaosmen per conto degli Anarchici: "A unirmi pronto ai Xaositects sono. Fedeltà nessuna alla vecchia fazione io ho dei Godsmen."~
+@00111 = ~Infiltrarti tra i Chaosmen per conto degli Anarchici: "A unirmi pronto ai Xaositects sono. Fedeltà nessuna alla vecchia fazione io ho dei Dustmen."~
+@00112 = ~Infiltrarti tra i Chaosmen per conto degli Anarchici: "A unirmi pronto ai Xaositects sono. Fedeltà nessuna alla vecchia fazione io ho dei Sensates."~
+@00113 = ~"Dannazione, Vhailor, ti rendi conto di cos'hai fatto?!"~
+@00114 = ~Vhailor si volta dal corpo di Trias per guardarti diritto negli occhi. *Tu sei MISERICORDIOSO e DEBOLE. FORTIFICA il tuo CUORE prima che il male si DIFFONDA.*~ [VHA013]
+@00115 = ~Infiltrarti nei Dustmen per conto degli Anarchici: "Si."~
+@00498 = ~GLOBO INFERNALE
+Raggio: 50 piedi
+Durata: Speciale
+Velocità: 2
+Area di Effetto: 1 creatura
+Tiro Salvezza: Neg.
+
+Una sfera color rosso acceso che serve a rallentare ed indebolire il nemico.
+
+L'utilizzatore evoca un grande Globo magico di color rosso fuoco, che puo' poi essere diretto su un bersaglio come un attacco normale. L'utilizzatore guadagna un bonus +3 sul suo tiro per colpire. Il globo produce 1-6 punti di danno e infligge una penalita' -1 alla forza e alla destrezza del nemico per 10 secondi.~
+@00950 = ~"Qui e' dove i morti di Sigil vengono portati per essere cremati o sepolti. E' nostra responsabilita', come Dustmen, occuparci dei morti, coloro che hanno abbandonato quest'ombra di vita e percorrono il cammino della Vera Morte." La voce di Dhall si affievolisce dalla preoccupazione. "Le tue ferite devono averti richiesto un grave tributo se non riconosci questo posto. E' praticamente la tua casa."~
+@10605 = ~Distraila così puoi avvelenare la sua bevanda: "Cos'è quella cosa laggiù?"~
+@26067 = ~LAMA ENTROPICA
+Danno: 3-23 Penetrante
+Incantato: +2
+THAC0: +3
+Velocità: 1
+Peso: 1
+Abilità: Lame
+Non utilizzabile dai Chierici
+
+Questo strano oggetto è entrato in tuo possesso dopo che hai consegnato il Cubo di Modron al golem di ferro nella Torre d'Assedio. Sembra un pugnale alquanto piccolo, ma la sua superficie si muove e si piega sotto il suo sguardo, come se stesse tentando disperatamente di erompere dalla propria forma prestabilita.
+
+Sembra forgiata di ferro, argento, e molti altri metalli insieme. A volte ti sembra di vederli mescolarsi, altre volte le loro venature si immergono nel cuore della lama per riemergere qualche minuto più tardi.~
+@30022 = ~LAMA ZERTH DI DAK'KON ("LAMA FLUIDA")
+Danno: 2-9 da Taglio
+Incantato: +1
+Speciale:
+   +2 alla Classe Armatura
+   Memorizza 2 incantesimi di 1° livello addizionali
+THAC0: +1
+Velocità: 7
+Peso: 5
+Abilità: Lame
+Utilizzabile solo da Dak'kon
+
+Nel piano natale dei githzerai, il Limbo, le materie solide sono estremamente rare. Il Limbo stesso è una densa massa di elementi, e solo attraverso la forza di volontà i githzerai possono plasmare questi elementi in materia stabile.
+
+Una sostanza chiamata "karach" è un materiale che può essere plasmato con la mente. La lama di Dak'kon è fatta di questa sostanza; Solo attraverso la sua disciplina mentale Dak'kon mantiene l'integrità della lama. Quando lo spirito dell'utilizzatore è concentrato, la sua mente è libera da dubbi e devota ad una singola causa, la lama stessa reagisce, rispecchiando i pensieri del portatore.
+
+Se è così, la mente di Dak'kon deve essere cristallina, invero, in quanto la sua lama è diventata di argento brillante. Sembra che la lama si sia allungata dalla prima volta che l'hai vista, e non c'è più traccia della strana superficie scintillante che aveva un tempo. Il filo della lama si assottiglia in un linea fine quasi quanto un foglio di carta - contrariamente al suo fragile aspetto, sembra in grado di tagliare una cotta di maglia con facilità.
+
+Questa lama sembra avere uno speciale significato religioso per Dak'kon. Dak'kon ha arrotolato una serie di pergamene attorno all'elsa della spada. Sembrano essere dei mantra dedicati a Zerthimon.~
+@32837 = ~Stanza delle Imbalsamazioni.~
+@37091 = ~Il bersaglio e' immune all'arma [Fall-From-Grace]~ [FFG173E]
+@48157 = ~"Il Soggetto sta conversando con donna umana"~ []
+@48158 = ~"Il Soggetto sta giocando con donna umana"~ []
+@48854 = ~PERGAMENA DI MARTELLO SPIRITUALE
+Consente di lanciare "Martello spirituale"
+Livello: 2 / Livello del chierico
+Raggio: 30 piedi per livello
+Durata: Variabile (vedi descrizione)
+Velocità: 2
+Area d'effetto: 1 bersaglio
+Tiro salvezza: 1/2
+Peso: 0
+Utilizzabile solo dai chierici
+
+Questo incantesimo invoca un martello d'energia spirituale con cui battere i tuoi nemici.
+
+Quando lanciato, il lanciatore sceglie un bersaglio all'interno del raggio d'azione. Il martello provoca 4-10 punti di danno da intimidazione ogni 3 livelli del lanciatore, comportandosi come un'arma +1 (bonus di +1 sia nel tiro per colpire che nel danno), ottenendo un ulteriore bonus di +1 ogni 6 livelli del lanciatore, fino ad un massimo di +3 per un lanciatore di XII livello.~
+@48964 = ~PERGAMENA DI PREGHIERA
+Consente di lanciare "LITANIA"
+Livello: 3 / Chierico
+Raggio: 0 (centrato sul lanciatore)
+Durata: 5 sec. per livello
+Velocità: 3
+Area d'effetto: raggio di 60 piedi
+Tiro salvezza: Nessuno
+Peso: 0
+Utilizzabile solo dai chierici
+
+Questa magia cura i tuoi compagni e danneggia i tuoi nemici.
+
+Questo incantesimo garantisce un bonus di +1 ad attacco, danno e tiri salvezza per tutte le creature "amiche" del sacerdote. Chi invece risultasse "ostile" al lanciatore, subiscce una penalità di -1 in attacco, danno e tiri salvezza. Il tutto dura per 5 sec. / livello, in un raggio di 60 piedi.~ []
+@48966 = ~PERGAMENA DI PARLA COI MORTI
+Consente di lanciare "Parla coi morti"
+Livello: 3 / Chierico
+Raggio: 50
+Durata: Speciale
+Velocità: 3
+Area d'effetto: 1 creatura (non-morto)
+Tiro salvezza: Nessuno
+Peso: 0
+Utilizzabile solo dai chierici
+
+Consente di comunicare con gli spiriti passati all'altro mondo.
+
+Questa magia consente a Nameless One d'iniziare un dialogo con un corpo deceduto nel suo raggio di parola.~
+@49059 = ~PERGAMENA DI CURA FERITE GRAVI
+Consente di lanciare "Cura ferite gravi"
+Livello: 5 / Chierico
+Raggio: 0
+Durata: Permanente / Istantanea
+Velocità: 5
+Area d'effetto: Creatura toccata
+Tiro salvezza: Nessuno
+Peso: 0
+Utilizzabile solo dai chierici
+
+Questo incantesimo cura le ferite dell'obiettivo, anche se gravi.
+
+Ristora a chi la riceve 27 punti ferita. I punti ferita ristorati non possono eccedere il livello massimo dei punti ferita della creatura.~ []
+@49073 = ~PERGAMENA DI IDENTIFICAZIONE
+Consente di lanciare "Identificazione"
+Consente di copiare "Identificazione" nel libro degli incantesimi
+Livello: 1 / Mago
+Raggio: 1 oggetto
+Durata: Istantanea
+Velocità: 0
+Area d'effetto: Oggetti nell'inventario
+Tiro salvezza: Nessuno
+Peso: 0
+Utilizzabile solo dai maghi
+
+Questa magia rivela i misteri celati negli oggetti incantati, permettendoti di conoscere le loro proprietà con esattezza.~ []
+@49093 = ~PERGAMENA DI MORSO DI VIPERA
+Consente di lanciare "Morso di vipera"
+Consente di copiare "Morso di vipera" nel libro degli incantesimi
+Livello: 2 / Mago
+Raggio: 150 piedi
+Durata: 5 sec. ogni 3 livelli
+Velocità: 2
+Area d'effetto: 1 creatura
+Tiro salvezza: Nessuno
+Peso: 0
+Utilizzabile solo dai maghi
+
+Si dice che un morso di vipera posso bruciare anche il più terribile dei demoni. Questo incantesimo scaglia un dardo che riversa il suo orribile acido verde sull'avversario. Se il lanciatore è sufficientemente abile, gli effetti del morso di vipera si protraggono ben oltre la ferita iniziale, dato che il dardo continua a penetrare nella pelle dell'avversario come se fosse un dente avvelenato.
+
+Il lanciatore può scegliere un bersaglio qualunque in un'area di 150 piedi, ed a quel punto il Morso di Vipera provocherà 2-8 punti di danno da acido alla vittima. Ogni 3 livelli del lanciatore, gli effetti dell'acido si protrarranno per altri 5 secondi, infliggendo così altri 2-8 punti di danni ogni 5 secondi.~
+@49127 = ~PERGAMENA DELLO SCASSINATORE
+Consente di lanciare "Scassinare"
+Consente di copiare "Scassinare" nel libro degli incantesimi
+Livello: 2 / Mago
+Raggio: 180 piedi
+Durata: Speciale
+Velocità: 2
+Area d'effetto: 10 piedi quadrati per livello
+Tiro salvezza: Nessuno
+Peso: 0
+Utilizzabile solo dai maghi
+
+Ciò che è inaccessibile, bloccato, può essere svincolato e reso accessibile con questo incantesimo.
+
+Grazie a questo incantesimo, tutte le porte, le ceste, gli scrigni o le catene bloccate possono essere aperte, ma non agisce su cancelli sprangati o simili. Inoltre può avere effetto solo su 2 oggetti per incantesimo.~
+@49259 = ~PERGAMENA DELLA DUPLICAZIONE DI ENOLL EVA
+Consente di lanciare "Duplicazione di Enoll Eva"
+Consente di copiare "Duplicazione di Enoll Eva" nel libro degli incantesimi 
+Livello: 5 / Mago
+Raggio: 50 piedi
+Durata: 60 sec.
+Velocità: 5
+Area d'effetto: Una creatura
+Tiro salvezza: Nessuno
+Peso: 0
+Utilizzabile solo dai maghi
+
+Questo "incantesimo" è in realta' una complessa equazione matematica, scoperta per caso dal modron, Enoll Eva, mentre calcolava il fattore di moltiplicazione di alcune funzioni lineari algebriche. Il risultato è devastante: tale equazione consente di moltiplicare ogni azione compiuta dopo la sua formulazione. Si scopri' dunque che tutti gli attacchi fisici o magici portati a segno in un combattimento erano come raddoppiati - infliggendo il doppio del danno.
+
+Questa incantesimo, che non richiede alcun tiro salvezza, ha effetto solo su un singolo bersaglio. Una volta lanciato, qualunque attacco successivo (sia esso fisico o magico), verrà duplicato una volta. Per esempio, dopo aver attaccato un nemico con un'arma, l'attacco sara' immediatamente duplicato - lo stesso vale per gli incantesimi (lancia un Missile Magico, ed un'altro Missile Magico sara' subito lanciato nuovamente. L'incantesimo dura circa 2 minuti.~ []
+@49265 = ~PERGAMENA DELLO SCHERMO ANTIMAGIA
+Consente di lanciare "Schermo antimagia"
+Consente di copiare "Schermo antimagia" nel libro degli incantesimi
+Livello: 6 / Mago
+Raggio: 0
+Durata: 5 minuti
+Velocità: 6
+Area d'effetto: 1 piede di diametro per livello del lanciatore
+Tiro salvezza: Nessuno
+Peso: 0
+Utilizzabile solo dai maghi
+
+Come in un perverso paradosso, tutti gli incantesimi lanciati nell'area d'effetto di questa magia falliranno.
+
+Questo incantesimo avvolge il lanciatore con uno 'schermo di magia' che annulla qualunque magia ed effetto magico (e compresi quelli degli oggetti magici) nel suo raggio d'azione. Quindi scherma dalla magia esteriore, ma ne impedisce pure l'utilizzo all'interno dello schermo! Questo include gli incantesimi dello stesso lanciatore, gli oggetti magici e taluni attacchi speciali, come gli attacchi legati al soffio, allo sguardo o alla voce. L'incantesimo dura 5 minuti, e la sua area d'effetto e' un cerchio di 1 piede di diametro per livello del lanciatore.~ []
+@49267 = ~PERGAMENA DEL GLOBO DELL'INVULNERABILITÀ
+Consente di lanciare "Globo dell'invulnerabilità"
+Consente di copiare "Globo dell'invulnerabilità" nel libro degli incantesimi
+Livello: 6 / Mago
+Raggio: 0
+Durata: 5 sec. per livello
+Velocità: 6
+Area d'effetto: Cerchio con 5 piedi di raggio
+Tiro salvezza: Nessuno
+Peso: 0
+Utilizzabile solo dai maghi
+
+Simile ad un incantesimo analogo, lo Scudo Antimagia, questo incantamento impedisce a certi incantesimi di penetrare il suo perimetro. A differenza del suo 'fratello', però, il Globo dell'invulnerabilità permette alla magia di defluire verso l'esterno.
+
+Questo incantesimo crea una sfera statica di magia che blocca gli effetti di incantesimi dal I al IV livello, compresi quelli ad area di effetto. Gli incantesimi di livello 5 o superiore non sono invece bloccato dal globo. A differenza dello Scudo antimagia, è possibile lanciare qualunque incantesimo verso l'esterno del globo. Il Globo dura 5 sec. per ogni livello del lanciatore.~ []
+@49287 = ~PERGAMENA DELLA PAROLA DEL POTERE: CECITÀ
+Consente di lanciare "Parola del potere: Cecità"
+Consente di copiare "Parola del potere: Cecità" nel libro degli incantesimi
+Livello: 8 / Mago
+Raggio: 15 piedi per livello
+Durata: Speciale
+Velocità: 1
+Area d'effetto: Area di 15 piedi
+Tiro salvezza: Nessuno
+Peso: 0
+Utilizzabile solo dai maghi
+
+La facolta' della vista sara' rimossa, permettendo così l'ingresso delle tenebre.
+
+Questo incantesimo acceca le creature con non più di 100 punti ferita, in un'area di 15 piedi / livello del lanciatore. La cecità si estende a partire dal punto indicato dal lanciatore, colpendo per prime le creature con meno punti ferita totali. Non ha effetto su quelle con oltre 100 punti ferita. La durata della magia dipende dalla quantità di punti ferita: con 25 o meno dura 160-400 secondi, con 26-50 dura 80-200 secondi, mentre con 51-100 dura 16-40 secondi. Una singola creatura non può subire l'effetto solo parzialmente: se i suoi punti ferita non sono tutti colpiti, allora non sara' accecata.~
+@49289 = ~PERGAMENA DEL CANNONE DI MECHANUS
+Consente di lanciare "Cannone di Mechanus"
+Consente di copiare "Cannone di Mechanus" nel libro degli incantesimi
+Livello: 8 / Mago
+Raggio: 50 piedi
+Durata: Istantanea
+Velocità: 8
+Area d'effetto: 1 creatura
+Tiro salvezza: Nessuno
+Peso: 0
+Utilizzabile solo dai maghi
+
+La vera giustizia di Primus, la logica, può colpire l'illogicità sotto forma di pura energia, direttamente da Mechanus.
+
+Questo incantesimo richiama la massima espressione del concetto di "pareggiamento" da Primus: attraverso un portale apparirà un enorme torrente d'energia proveniente dal cuore di Mechanus che incendierà uno specifico bersaglio. Un portale provvisorio apparirà a 10 piedi dallo sventurato, riversandogli addosso la logica di Mechanus ed infliggendo 30-90 punti di danno, senza possibilità d'effettuare alcun tiro salvezza.~
+@49632 = ~Incisore~ []
+@50894 = ~LAMA ZERTH DI DAK'KON ("LAMA FLUIDA")
+Danno: 3-12 Taglio
+Incantato: +2
+Speciale:
+   +4 alla Classe Armatura
+   Duplica tutti gli incantesimi da mago di I livello
+   Memorizza 1 incantesimo da mago addizionale di II livello
+THAC0: +2
+Velocità: 6
+Peso: 5
+Abilità: Lame
+Utilizzabile solo da Dak'kon
+
+Nel piano natale dei githzerai, il Limbo, le materie solide sono estremamente rare. Il Limbo stesso è una densa massa di elementi, e solo attraverso la forza di volontà i githzerai possono plasmare questi elementi in materia stabile.
+
+Una sostanza chiamata "karach" è un materiale che può essere plasmato con la mente. La lama di Dak'kon è fatta di questa sostanza; Solo attraverso la sua disciplina mentale Dak'kon mantiene l'integrità della lama. Quando lo spirito dell'utilizzatore è concentrato, la sua mente è libera da dubbi e devota ad una singola causa, la lama stessa reagisce, rispecchiando i pensieri del portatore.
+
+Se è così, la mente di Dak'kon deve essere cristallina, invero, in quanto la sua lama è diventata di argento brillante. Sembra che la lama si sia allungata dalla prima volta che l'hai vista, e non c'è più traccia della strana superficie scintillante che aveva un tempo. Il filo della lama si assottiglia in un linea fine quasi quanto un foglio di carta - contrariamente al suo fragile aspetto, sembra in grado di tagliare una cotta di maglia con facilità.
+
+Questa lama sembra avere uno speciale significato religioso per Dak'kon. Dak'kon ha arrotolato una serie di pergamene attorno all'elsa della spada. Sembrano essere dei mantra dedicati a Zerthimon.~ []
+@50929 = ~LAMA ZERTH DI DAK'KON ("LAMA INCATENATA")
+Danno: 3-12 Taglio
+Bonus: +2
+Speciale:
+   +2 alla Classe Armatura
+   Memorizza 2 incantesimi aggiuntivi di I livello da mago
+   Memorizza 1 incantesimo aggiuntivo di II livello da mago
+THAC0: +2
+Velocità: 6
+Peso: 5
+Abilità: Lame
+Utilizzabile solo dai Dak'kon
+
+Nel piano natale dei githzerai, il Limbo, le materie solide sono estremamente rare. Il Limbo stesso è una densa massa di elementi, e solo attraverso la forza di volontà i githzerai possono plasmare questi elementi in materia stabile.
+
+Una sostanza chiamata "karach" è un materiale che può essere plasmato con la mente. La lama di Dak'kon è fatta di questa sostanza; Solo attraverso la sua disciplina mentale Dak'kon mantiene l'integrità della lama. Quando lo spirito dell'utilizzatore è concentrato, la sua mente è libera da dubbi e devota ad una singola causa, la lama stessa reagisce, rispecchiando i pensieri del portatore.
+
+Se è così, la mente di Dak'kon deve essere cristallina, invero, in quanto la sua lama è diventata di argento brillante. Sembra che la lama si sia allungata dalla prima volta che l'hai vista, e non c'è più traccia della strana superficie scintillante che aveva un tempo. Il filo della lama si assottiglia in un linea fine quasi quanto un foglio di carta - contrariamente al suo fragile aspetto, sembra in grado di tagliare una cotta di maglia con facilità.
+
+Questa lama sembra avere uno speciale significato religioso per Dak'kon. Dak'kon ha arrotolato una serie di pergamene attorno all'elsa della spada. Sembrano essere dei mantra dedicati a Zerthimon.~ []
+@50987 = ~IDENTIFICAZIONE
+Raggio: 1 oggetto
+Durata: Istantanea
+Velocità: 0
+Area d'effetto: Oggetti nell'inventario
+Tiro salvezza: Nessuno
+
+Questa magia rivela i misteri celati negli oggetti incantati, permettendoti di conoscere le loro proprietà con esattezza.~ []
+@51023 = ~COLPO
+Raggio: 180 piedi
+Durata: Speciale
+Velocità: 2
+Area d'Effetto: 10 piedi quadrati per livello
+Tiri Salvezza: Niente
+
+Ciò che è inaccessibile, bloccato, può essere svincolato e reso accessibile con questo incantesimo.
+
+Grazie a questo incantesimo, tutte le porte, le ceste, gli scrigni o le catene bloccate possono essere aperte, ma non agisce su cancelli sprangati o simili. Inoltre può avere effetto solo su 2 oggetti per incantesimo.~ []
+@51073 = ~DUPLICAZIONE DI ENOLL EVA
+Raggio: 50 piedi
+Durata: 60 secondi
+Velocità: 5
+Area d'Effetto: Un bersaglio
+Tiri Salvezza: Negato
+
+Questo "incantesimo" è in realta' una complessa equazione matematica, scoperta per caso dal modron, Enoll Eva, mentre calcolava il fattore di moltiplicazione di alcune funzioni lineari algebriche. Il risultato è devastante: tale equazione consente di moltiplicare ogni azione compiuta dopo la sua formulazione. Si scopri' dunque che tutti gli attacchi fisici o magici portati a segno in un combattimento erano come raddoppiati - infliggendo il doppio del danno.
+
+Questa incantesimo, che non richiede alcun tiro salvezza, ha effetto solo su un singolo bersaglio. Una volta lanciato, qualunque attacco successivo (sia esso fisico o magico), verrà duplicato una volta. Per esempio, dopo aver attaccato un nemico con un'arma, l'attacco sara' immediatamente duplicato - lo stesso vale per gli incantesimi (lancia un Missile Magico, ed un'altro Missile Magico sara' subito lanciato nuovamente. L'incantesimo dura circa 2 minuti.~ []
+@51076 = ~SCHERMO ANTI-MAGIA
+Raggio: 0
+Durata: 5 minuti
+Velocità: 6
+Area d'Effetto: 1 piede di diametro per livello
+Tiri Salvezza: Nessuno
+
+Come in un perverso paradosso, tutti gli incantesimi lanciati nell'area d'effetto di questa magia falliranno.
+
+Questo incantesimo avvolge il lanciatore con uno 'schermo di magia' che annulla qualunque magia ed effetto magico (e compresi quelli degli oggetti magici) nel suo raggio d'azione. Quindi scherma dalla magia esteriore, ma ne impedisce pure l'utilizzo all'interno dello schermo! Questo include gli incantesimi dello stesso lanciatore, gli oggetti magici e taluni attacchi speciali, come gli attacchi legati al soffio, allo sguardo o alla voce. L'incantesimo dura 5 minuti, e la sua area d'effetto e' un cerchio di 1 piede di diametro per livello del lanciatore.~ []
+@51077 = ~GLOBO DI INVULNERABILITÀ
+Raggio: 0
+Durata: 5 secondi per livello
+Velocità: 6
+Area d'Effetto: 5 piedi di raggio
+Tiri Salvezza: Nessuno
+
+Simile ad un incantesimo analogo, lo Scudo Antimagia, questo incantamento impedisce a certi incantesimi di penetrare il suo perimetro. A differenza del suo 'fratello', però, il Globo dell'invulnerabilità permette alla magia di defluire verso l'esterno.
+
+Questo incantesimo crea una sfera statica di magia che blocca gli effetti di incantesimi dal I al IV livello, compresi quelli ad area di effetto. Gli incantesimi di livello 5 o superiore non sono invece bloccato dal globo. A differenza dello Scudo antimagia, è possibile lanciare qualunque incantesimo verso l'esterno del globo. Il Globo dura 5 sec. per ogni livello del lanciatore.~ []
+@51087 = ~PAROLA DEL POTERE, CECITÀ
+Raggio: 15 piedi per livello
+Durata: Speciale
+Velocità: 1
+Area d'Effetto: 15 piedi di raggio
+Tiri Salvezza: Nessuno
+
+La facolta' della vista sara' rimossa, permettendo così l'ingresso delle tenebre.
+
+Questo incantesimo acceca le creature con non più di 100 punti ferita, in un'area di 15 piedi / livello del lanciatore. La cecità si estende a partire dal punto indicato dal lanciatore, colpendo per prime le creature con meno punti ferita totali. Non ha effetto su quelle con oltre 100 punti ferita. La durata della magia dipende dalla quantità di punti ferita: con 25 o meno dura 160-400 secondi, con 26-50 dura 80-200 secondi, mentre con 51-100 dura 16-40 secondi. Una singola creatura non può subire l'effetto solo parzialmente: se i suoi punti ferita non sono tutti colpiti, allora non sara' accecata.~ []
+@51088 = ~CANNONE DI MECHANUS
+Raggio: 50 piedi
+Durata: Istantanea
+Velocità: 8
+Area d'Effetto: 1 creatura
+Tiri Salvezza: Nessuno
+
+La vera giustizia di Primus, la logica, può colpire l'illogicità sotto forma di pura energia, direttamente da Mechanus.
+
+Questo incantesimo richiama la massima espressione del concetto di "pareggiamento" da Primus: attraverso un portale apparirà un enorme torrente d'energia proveniente dal cuore di Mechanus che incendierà uno specifico bersaglio. Un portale provvisorio apparirà a 10 piedi dallo sventurato, riversandogli addosso la logica di Mechanus ed infliggendo 30-90 punti di danno, senza possibilità d'effettuare alcun tiro salvezza.~
+@51328 = ~MARTELLO SPIRITUALE
+Raggio: 30 piedi per livello
+Durata: Variabile (vedi sotto)
+Velocità: 2
+Area d'Effetto: 1 Bersaglio
+Tiri Salvezza: 1/2
+
+Questo incantesimo invoca un martello d'energia spirituale con cui battere i tuoi nemici.
+
+Quando lanciato, il lanciatore sceglie un bersaglio all'interno del raggio d'azione. Il martello provoca 4-10 punti di danno da intimidazione ogni 3 livelli del lanciatore, comportandosi come un'arma +1 (bonus di +1 sia nel tiro per colpire che nel danno), ottenendo un ulteriore bonus di +1 ogni 6 livelli del lanciatore, fino ad un massimo di +3 per un lanciatore di XII livello.~ []
+@51331 = ~LITANIA
+Raggio: 0 (centrato sul lanciatore)
+Durata: 5 secondi per livello
+Velocità: 3
+Area d'Effetto: 60 piedi di raggio
+Tiri Salvezza: Nessuno
+
+Questa magia cura i tuoi compagni e danneggia i tuoi nemici.
+
+Questo incantesimo garantisce un bonus di +1 ad attacco, danno e tiri salvezza per tutte le creature "amiche" del sacerdote. Chi invece risultasse "ostile" al lanciatore, subiscce una penalità di -1 in attacco, danno e tiri salvezza. Il tutto dura per 5 sec. / livello, in un raggio di 60 piedi.~ []
+@51332 = ~PARLARE CON I MORTI
+Raggio: 50 piedi
+Durata: Speciale
+Velocità: 3
+Area d'Effetto: 1 creatura (non morta)
+Tiri Salvezza: Nessuno
+
+Consente di comunicare con gli spiriti passati all'altro mondo.
+
+Questa magia consente a Nameless One d'iniziare un dialogo con un corpo deceduto nel suo raggio di parola.~ []
+@51335 = ~CURA FERITE CRITICHE
+Raggio: 0
+Durata: Permanente / Istantanea
+Velocità: 5
+Area d'Effetto: 1 creatura
+Tiri Salvezza: Nessuno
+
+Questa magia rimargina tutte le ferite critiche di un bersasglio.
+
+Cura 27 punti ferita ad una creatura bersaglio. I punti ferita così guadagnati non possono sorpassare il massimo della creatura.~ []
+@51392 = ~BACIO DEL SERPENTE
+Raggio: 150 piedi
+Durata: 5 secondi per 3 livelli
+Velocità: 2
+Area d'Effetto: 1 creatura
+Tiri Salvezza: Nessuno
+
+Si dice che un morso di vipera posso bruciare anche il più terribile dei demoni. Questo incantesimo scaglia un dardo che riversa il suo orribile acido verde sull'avversario. Se il lanciatore è sufficientemente abile, gli effetti del morso di vipera si protraggono ben oltre la ferita iniziale, dato che il dardo continua a penetrare nella pelle dell'avversario come se fosse un dente avvelenato.
+
+Il lanciatore può scegliere un bersaglio qualunque in un'area di 150 piedi, ed a quel punto il Morso di Vipera provocherà 2-8 punti di danno da acido alla vittima. Ogni 3 livelli del lanciatore, gli effetti dell'acido si protrarranno per altri 5 secondi, infliggendo così altri 2-8 punti di danni ogni 5 secondi.~ []
+@52798 = ~MANO DI IGNUS
+Permette utente di copiare "Globo Infernale" nel Libro degli Incantesimi
+Serie: 50 piedi
+Durata: Speciale
+Velocità: 2
+Area di Effetto: 1 creatura
+Getto che salva: Neg.
+Peso: 1
+Utilizzabile solamente da Nameless One
+Utilizzabile solamente dai Maghi
+
+Questa è la tua mano carbonizzata; è stato troncata all'altezza del polso e la carne che una volta circondava l'osso è stata totalmente ripulita, lasciando solamente il nudo osso bianco. Nonostante la mancanza di muscoli e pelle, le ossa della mano sono state comunque fuse assieme, così da non sparpagliarsi. Il dolore provocato dall'avere la mano troncata dal corpo e' stato quasi superiore a quanto potessi sopportare, ed ha lasciato cicatrici durature ed annerite sul polso e sul braccio. Peggio ancora, noti che la tua carne si e' rimarginata lentamente, ed in modo piuttosto sommario... se Ignus dovesse attaccarti con violenza, sarebbe probabilmente in grado d'evocare una quantità di calore e fiamme tali da renderti difficile ogni guarigione... forse anche in grado di distruggerti? L'idea non ti ispira per nulla.
+
+Secondo Ignus, questi resti carbonizzati della tua mano hanno trattenuto una frazione del suo potere infernale... ora trasferito a te. Per evocarne il potere devi staccarti nuovamente la mano, rimettere la mano scheletrica al suo posto e lasciare che la carne ricresca sopra. Una volta questo avvenuto, le tracce di Ignus rimaste sulle ossa carbonizzate 'accenderanno' in te una piccola parte della sua conoscenza.~ []
+@57317 = ~Vedi il vecchio eremita del sotterraneo, sporco, debole nel fisico e dall'aria ombrosa. Ti osserva, quindi si lascia scappare: "Kyse il becchino mi ha detto che saresti arrivato. Hai fatto un ottimo lavoro nell'indebolirlo... il caos cittadino è in diminuzione ed il suo piano non funziona piu' cosi' bene. Prosegui e finisci il lavoro."~ []
+@59082 = ~Kiri~ []
+@59821 = ~LAMA ENTROPICA
+Danno: 3-23 Schiacciamento
+Incantata: +2
+THAC0: +3
+Velocità: 1
+Peso: 1
+Abilità: Pugni
+Utilizzabile solo da Guerrieri e Ladri
+
+Questo strano oggetto è entrato in tuo possesso dopo che hai consegnato il Cubo di Modron al golem di ferro nella Torre d'Assedio. Sembra un pugnale alquanto piccolo, ma la sua superficie si muove e si piega sotto il suo sguardo, come se stesse tentando disperatamente di erompere dalla propria forma prestabilita.
+
+Sembra forgiata di ferro, argento, e molti altri metalli insieme. A volte ti sembra di vederli mescolarsi, altre volte le loro venature si immergono nel cuore della lama per riemergere qualche minuto più tardi.~
+@59822 = ~LAMA ENTROPICA
+Danno: 3-23 Schiacciamento
+Incantata: +2
+THAC0: +3
+Velocità: 1
+Peso: 1
+Abilità: Martelli
+Utilizzabile solo da Guerrieri
+
+Questo strano oggetto è entrato in tuo possesso dopo che hai consegnato il Cubo di Modron al golem di ferro nella Torre d'Assedio. Sembra un pugnale alquanto piccolo, ma la sua superficie si muove e si piega sotto il suo sguardo, come se stesse tentando disperatamente di erompere dalla propria forma prestabilita.
+
+Sembra forgiata di ferro, argento, e molti altri metalli insieme. A volte ti sembra di vederli mescolarsi, altre volte le loro venature si immergono nel cuore della lama per riemergere qualche minuto più tardi.~
+@59823 = ~LAMA ENTROPICA
+Danno: 3-23 Schiacciamento
+Incantata: +2
+THAC0: +3
+Velocità: 1
+Peso: 1
+Abilità: Mazze
+Utilizzabile solo da Guerrieri
+
+Questo strano oggetto è entrato in tuo possesso dopo che hai consegnato il Cubo di Modron al golem di ferro nella Torre d'Assedio. Sembra un pugnale alquanto piccolo, ma la sua superficie si muove e si piega sotto il suo sguardo, come se stesse tentando disperatamente di erompere dalla propria forma prestabilita.
+
+Sembra forgiata di ferro, argento, e molti altri metalli insieme. A volte ti sembra di vederli mescolarsi, altre volte le loro venature si immergono nel cuore della lama per riemergere qualche minuto più tardi.~
+@61680 = ~LAMA ENTROPICA
+Danno: 3-23 Taglio
+Incantata: +2
+THAC0: +3
+Velocità: 1
+Peso: 1
+Abilità: Asce
+Utilizzabile solo da Guerrieri
+
+Questo strano oggetto è entrato in tuo possesso dopo che hai consegnato il Cubo di Modron al golem di ferro nella Torre d'Assedio. Sembra un pugnale alquanto piccolo, ma la sua superficie si muove e si piega sotto il suo sguardo, come se stesse tentando disperatamente di erompere dalla propria forma prestabilita.
+
+Sembra forgiata di ferro, argento, e molti altri metalli insieme. A volte ti sembra di vederli mescolarsi, altre volte le loro venature si immergono nel cuore della lama per riemergere qualche minuto più tardi.~
+@61796 = ~Non può togliersi l'armatura~ [ANA369C]
+@62305 = ~Morte Taunts 7~ [MRT459A]
+@62321 = ~Morte Taunts 23~ [MRT322AL]
+@66374 = ~LAMA ZERTH DI DAK'KON ("LAMA FLUIDA")
+Danno: 5-20 Taglio
+Incantato: +3
+Speciale:
+   +6 alla Classe Armatura
+   Raddoppia gli incantesimi di livello 1
+   Raddoppia gli incantesimi di livello 2
+   Memorizzi 1 incantesimo extra di livello 3
+THAC0: +3
+Velocità: 6
+Peso: 5
+Abilità: Lame
+Utilizzabile solo da Dak'kon
+
+Nel piano natale dei githzerai, il Limbo, le materie solide sono estremamente rare. Il Limbo stesso è una densa massa di elementi, e solo attraverso la forza di volontà i githzerai possono plasmare questi elementi in materia stabile.
+
+Una sostanza chiamata "karach" è un materiale che può essere plasmato con la mente. La lama di Dak'kon è fatta di questa sostanza; Solo attraverso la sua disciplina mentale Dak'kon mantiene l'integrità della lama. Quando lo spirito dell'utilizzatore è concentrato, la sua mente è libera da dubbi e devota ad una singola causa, la lama stessa reagisce, rispecchiando i pensieri del portatore.
+
+Se è così, la mente di Dak'kon deve essere cristallina, invero, in quanto la sua lama è diventata di argento brillante. Sembra che la lama si sia allungata dalla prima volta che l'hai vista, e non c'è più traccia della strana superficie scintillante che aveva un tempo. Il filo della lama si assottiglia in un linea fine quasi quanto un foglio di carta - contrariamente al suo fragile aspetto, sembra in grado di tagliare una cotta di maglia con facilità.
+
+Questa lama sembra avere uno speciale significato religioso per Dak'kon. Dak'kon ha arrotolato una serie di pergamene attorno all'elsa della spada. Sembrano essere dei mantra dedicati a Zerthimon.~ []
+@66375 = ~LAMA ZERTH DI DAK'KON ("LAMA INCATENATA")
+Danno: 5-20 Taglio
+Incantato: +3
+Speciale:
+   +3 alla Classe Armatura
+ Raddoppia gli incantesimi di livello 1
+ Raddoppia gli incantesimi di livello 2
+THAC0: +3
+Velocità: 6
+Peso: 5
+Abilità: Lame
+Utilizzabile solo da Dak'kon
+
+Nel piano natale dei githzerai, il Limbo, le materie solide sono estremamente rare. Il Limbo stesso è una densa massa di elementi, e solo attraverso la forza di volontà i githzerai possono plasmare questi elementi in materia stabile.
+
+Una sostanza chiamata "karach" è un materiale che può essere plasmato con la mente. La lama di Dak'kon è fatta di questa sostanza; Solo attraverso la sua disciplina mentale Dak'kon mantiene l'integrità della lama. Quando lo spirito dell'utilizzatore è concentrato, la sua mente è libera da dubbi e devota ad una singola causa, la lama stessa reagisce, rispecchiando i pensieri del portatore.
+
+Se è così, la mente di Dak'kon deve essere cristallina, invero, in quanto la sua lama è diventata di argento brillante. Sembra che la lama si sia allungata dalla prima volta che l'hai vista, e non c'è più traccia della strana superficie scintillante che aveva un tempo. Il filo della lama si assottiglia in un linea fine quasi quanto un foglio di carta - contrariamente al suo fragile aspetto, sembra in grado di tagliare una cotta di maglia con facilità.
+
+Questa lama sembra avere uno speciale significato religioso per Dak'kon. Dak'kon ha arrotolato una serie di pergamene attorno all'elsa della spada. Sembrano essere dei mantra dedicati a Zerthimon.~ []
+@106498 = ~This is a placeholder to prevent a string with a sound file from becoming strref 106498, which causes problems.~ []
+

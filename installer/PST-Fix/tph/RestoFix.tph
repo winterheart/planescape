@@ -1,0 +1,516 @@
+//===============================================================================
+// Qwinn's Ultimate WEIDU Planescape: Torment Fixpack
+//===============================================================================
+
+//===============================================================================
+// Planescape: Vengeance Restoration Pack section (non-dialogue fixes only)
+//===============================================================================
+
+// ==================== WHAT WON'T GET IMPLEMENTED AT ALL =======================
+
+// A brief history is in order here.  Apparently, Restoration Pack was originally
+// a project named PlaneScape: Vengeance, which was going to be a Total Conversion
+// project for PS:T.  The project died an abrupt death due to a hard drive crash
+// which destroyed most of the work.  Restoration Pack was, apparently, an attempt
+// to salvage what could be saved from that event.  Therefore, while it does
+// contain some very good stuff, there's also a lot of half-baked and difficult to
+// justify stuff.  In the end, I probably implemented less than half of what it
+// contains, with a couple of things moved to Unfinished Business.
+
+// Here is a list of files changed by Restoration Pack that I do -not- implement,
+// either in Fixpack or in UB, along with why.  In the next section, I list what
+// did or may get implemented in other mods.  Finally, I list what does get
+// implemented in this Fixpack, along with the WeiDU code to actually implement them.
+
+// FILE: VAR.VAR
+// From their documentation, Restoration Pack added the following variables:
+// "Added variable GLOBAL: 2Devils"
+// "Added variable GLOBAL: Ratbone"
+// "Added variable GLOBAL: RB_Name"
+// "Added variable GLOBAL: RB_Quest"
+// "Added variable GLOBAL: RC_Expln"
+// "Added variable GLOBAL: RC_Pendant"
+// "Added variable GLOBAL: RChaser"
+// "Added variable GLOBAL: RChaser2"
+// All of these are involved in the unimplemented Pendant of Yemeth quest.  None
+// of these are necessary even to restore that quest (which is actually restored in
+// version 1 of PST: Unfinished Business).  The vanilla game files use -local-
+// versions of these variables, not global ones.  VAR.VAR contains all the local
+// variables used already.
+// Other variables added by Restoration Pack are implemented in Setup-PST-Fix.tp2.
+
+
+// FILES:
+// WMPANN.BAM, WMPDKK.BAM, WMPFFG.BAM, WMPIGY.BAM, WMPMRT.BAM, WMPNAM1.BAM,
+// WMPNDM.BAM, WMPVHA.BAM, STATE.IDS, SPWI502.SPL, SPWI101.SPL, several dialog.tlk changes
+// RP switches the Asleep/Helpless conditions throughout the game files, all based on one
+// bug report - the Blacksphere spell, often cast by Ravel on the party, makes all the
+// characters look like they're asleep (with ZZZZZ's floating around their heads) but
+// the portraits are that of being frozen in ice.  Restoration Pack changes all these
+// files in order to make the characters look like they're asleep in the portrait as well.
+//
+// However, the description of the spell doesn't say a thing about putting the targets
+// to sleep.  It says they are "trapped in a sphere of force".  I suspect the designers
+// did it the way they did because they felt  "asleep" graphics and "frozen" portraits was
+// the best combination to match that description, not having "paralyzed" portraits
+// available.  I'm going to leave it as vanilla.  If complaints about the inconsistency
+// are again registered, I'll probably just have Blacksphere do both the frozen sprites
+// and portraits animations.  It may not match the spell description, but it's closer
+// than the "Asleep" stuff IMO, and at least it'd be consistent.
+
+
+// FILES:  II481.BAM, BLOODFLY.ITM, BLOODFL2.ITM, CRSTG2.STO
+// These files all create a Blood Fly (Troll) item, and change the original Blood Fly to
+// Blood Fly (Abishai), all based on an unused description in the Dialog.Tlk file which
+// doesn't cite any different effects from the Abishai version.
+// The new Troll fly is given better abilities than the Abishai blood fly, and is then only
+// put into the game in a single store late in the game.  Perhaps this was done with the total
+// conversion in mind, but it doesn't seem supportable as a Fix or worth doing for UB IMO.
+
+
+// FILES:  CANDRIA.CRE, DEBB.DLG
+// These restore two "spell keys" to the game.  The spell key descriptions imply that they
+// stop a chance of spells going awry when in specific Planes.  This chance of
+// spell failure was never implemented in the game, and as such, the spell keys are useless.
+// Not implementing here or in UB.
+
+
+// FILE:  0510VALT.BCS
+// Platter's Fixpack fixes this script to restore the clearly intended response the Head makes
+// when you attack it once, and that fix is implemented.  This makes the Head in the Vault nuke
+// you with several spells if you attack it more than twice, all based on the unused dialog
+// string "PLEASE DON'T ATTACK THE HEAD!".  I don't consider that to be justified as a fix or as
+// UB.  The Platter's Fixpack change, plus Restoration Pack's further state-weighing fix to
+// DVAULT9.DLG, are sufficient.  Not implementing the rest of this anywhere.
+
+
+// FILE:  JRDEIKN.BMP:
+// This has been called "More Correct Deionarra appearance" (see Sorcerer's Place link for the
+// Restoration Pack mod).  "Alternate" is what it's called in the readme, and this is more
+// accurate.  It's very nice artwork, and much more pleasing than the original Deionarra bestiary
+// entry picture, but it's not really in the PS:T style.  Perhaps as a Tweak, though without
+// knowing the artist so I can extend proper credit, I'm a bit hesitant to do so.
+
+
+// FILES:  AALEK.CRE, ACTOR1.CRE, YVANA.CRE, ZERB.CRE
+// Totally trivial item restorations.  There are many dozens of .CRE files where items assigned to
+// creatures were not actually put into an inventory slot and thus don't show up.  In many cases,
+// they don't seem realistic - a copper, silver and gold bracelet on the same person?  3 earrings?
+// Thus a sweep of putting -all- "lost" items into inventory doesn't seem advisable.
+// Why these 4 were singled out to put the items into their inventory, I'm not sure, but I note
+// their positions near the beginning and end of the alphabet.  *shrug*  Not worth cluttering the
+// override folder for, IMO.  I'll do this where the "lost" items actually matter.
+
+
+// FILES:  ANNAH.CRE, ANNAHEG.CRE, LOCKPICK.ITM, ANNAHEAR.ITM
+// All to create the item "Lockpick" based on an unused dialog.tlk description.  It is then only
+// made available in game in one place - Sybil's corpse, and most people wouldn't kill Sybil.
+// Cute but trivial in this game, IMO.  Probably intended for the Total Conversion.
+
+
+// FILES:  RESDATA.INI, KILLSTAT.IDS, ANIMATE.IDS, VRSCHKA.CRE
+// Alu-Fiend stuff.  There's one Alu-Fiend in game - Vrischika.  This attempts to give her a proper
+// beastiary entry, animation, etc., except it really doesn't.  The beastiary picture for Alu-Fiend
+// assigned by Resto Pack is just a Clerk's Ward female townsperson.  Other changes don't do much.
+// I -strongly- suspect that a lot more was going to be implemented to make these changes worthwhile,
+// including new animations, but it never happened following PS:V's demise.  Therefore not putting
+// any of it in, especially since it mucks about with .IDS files which I'd prefer to avoid unless
+// clearly necessary.
+
+
+// FILES:  VAXIS.CRE, XACH.CRE
+// Vaxis and Xachariah are both originally just named "Zombie Worker" in the mortuary.  RP renames
+// them, making it very obvious they are very different from other zombies when in fact the
+// player shouldn't know that until that information is somehow revealed.  Thus, not implementing.
+// Also fixes some of Vaxis's stats, but they would make no difference in game I can
+// think of, so not bothering.  If ever a legit reason to tinker with his .CRE comes up, I'll do
+// it then.
+
+
+// FILE:  DN_MERCH.CRE
+// Gives Gaerien (Skeleton Merchant in Dead Nations) his name, but since he never actually mentions
+// his name in his dialogue, I don't see why the player should know it.  Not implementing.  Also
+// makes trivial fixes to his stats, not worth tinkering for.  Same as VAXIS.CRE - if there's ever
+// a good reason to tinker with the .CRE, I'll do it then.
+
+
+// FILE:  CRSTG2.ST0
+// Documentation claims "Item quantities fixed" in this Curst merchant's store.   No,
+// they weren't.  RestoPack changed # in stock from 1 to 5 in a few items, but the
+// infinite supply flag was still checked so it didn't matter.  Don't really see a
+// reason to believe it was broken and needed fixing in the first place.
+
+
+// FILES:  MOURN3.CRE, MOURN4.CRE, DMOURN3.DLG, DMOURN4.DLG
+// Creates two new Dustmen Mourners, and then gives them the exact same dialogs as
+// the first two mourners.  Seems mostly pointless.  Not implementing.
+
+
+// FILES:  RATN.CRE
+// A rat.  Just of the normal non-cranium variety.  Not implemented anywhere in game.
+// Must've been for the TC.
+
+
+// FILE:  POET.CRE
+// Here's what the Documentation says:
+// "Apparent name changed to original "Elderly Poet"
+// "Character type changed to Merchants, like the original
+// "Colors changed to match original
+// "Weapon changed to SMALLSWD.ITM"
+// Not sure what "the original" refers to here.  Patch 1.1 didn't change him.
+// Changes seem trivial.  He's a very very minor character anyway.
+
+
+// FILE:  DKRYS.DLG
+// Documentation:  "Added dummied (yet ubiquitous) 'Leave' reply"
+// It adds one instance, and that to a reply that already has a "Thanks, Farewell." option.
+// Redundant and trivial.
+
+
+// FILE:  DTRANS.DLG:
+// Documentation:  "Orphaned State #97 Restored"
+// This state describes the Blade of Immortals changing and turning into some greater weapon.
+// The next state then does a check PartyHasItem("BladeIm2"), which doesn't actually exist.
+// I presume this is what the blade would have turned into, but it was pulled, and therefore
+// the restored state doesn't make much sense.  The line checking against BladeIm2 -can- be
+// corrected to BladeIm, though, and still have everything make sense, and I do just that
+// in QwinnFix.tph.  That has the effect of restoring a couple of cool lost states also.
+
+
+// FILE:  DHARGRI.DLG:
+// Documentation:  "Added TNO's thought text concerning the Dead Nations prisoner cutscene dialog"
+// It may be in the dialog file (STRREF 19245), but it's totally different from the normal PS:T
+// style - there's no other "thought text" in the first person like it in the game, which is
+// probably why it was pulled. I found it pretty jarring and out of place.  Something like
+// STRREF 4855 -would- be appropriate, and the "thought text" could easily be rephrased to
+// make it match that style, but then it wouldn't be just a fix or restoration anymore,
+// it'd be a (rather trivial) mod.  Not implementing.
+
+
+// FILES:  DDEATHON.DLG, DPOST.DLG, DZM1041.DLG
+// These are all concerning the half-baked "XiXi" quest in the game files.  There -is- some material
+// there that could prove the basis for an interesting UB quest mod, but not as much as there is
+// for every other mod that's made it into UB so far.  Not enough is restored by this to qualify
+// as an actual quest (actually having a XiXi you can talk to might help with that), it just kinda
+// hangs there.  Would love to see it used someday to make a good mod though, especially if someone
+// can find more material concerning XiXi hidden away in the game files that I haven't found.
+
+// FILES: GRACE.CRE, ANNAH.CRE, 0404FELL.BCS
+// As far as I can tell, all these changes did was enable EAX sound effects for these comments.
+// Perhaps this was done because party member volume levels were so inconsistent between EAX and
+// non-EAX.  As I redid REVERB.2DA and that shouldn't be a problem anymore, this shouldn't
+// be necessary anymore either.  Fell's Tattoo Parlor shouldn't really make party member's voices
+// reverberate anyway.
+
+// FILES:  NORDBOLT.ITM, NORDXBOW.ITM
+// Set lore necessary to ID to 60 (so that you can actually see unidentified description)
+// Problem is, there is -no- way to identify objects that can't be removed from Nordom's inventory.
+
+// FILE:  NORDXBOW.ITM:
+// Fixed 'Who can use' flags
+// That part is fixed by Platter's Fixpack and is credited there
+
+
+// FILES:  XANDER.DLG, PACSCRLL.ITM
+// The removal of the dummying condition that restored being able to get the memory about Xander's
+// grandfather's and the Pacify spell.  That turns it into an infinite xp and scroll generator.
+// It also makes the only way to get the pacify spell being an idiot who insanely (regardless of
+// alignment) claims not to care about the dreambuilder - yah, right.
+// Lousy idea intentionally disabled by designers for good reason, IMO.  Won't be implementing.
+
+
+// FILE:  ADAHN.CRE
+// Initially included this but rolled it back in Fixpack 3.0.  The only visible effect I can see is
+// changing Adhan's name from "Adahn the Imagined" to simply "Adahn". I can't find a reason for
+// this having been done other than an aesthetic preference I don't share.
+
+
+// ======================== WHAT IS OR MAY BE IMPLEMENTED ELSEWHERE  ==========================
+
+// FILE: DMARISSA.DLG
+// Fixed Gold Bracelet Reward Orphaned State Restored Bugs fixed by Platter
+// FILE: DNORDOM.DLG
+// Restored Bolt7 crossbow bolt option
+// Fixed link for Bolt6 crossbow bolt option
+// All these fixes already taken care of in Platter's Fixpack.  See PFixpack.d.
+
+// FILES:  EYEVECNA.ITM, VRIS.STO
+// Restores the Eye of Vecna to Vrischika's store inventory.  Implemented in PST:
+// Unfinished Business, Restored Items component.  You should install that too!  :)
+
+// FILES: DSWORDOW.DLG, DVRISCH.DLG, ACTION.IDS
+// Sword of Wh'ynn.  Implemented in Unfinished Business:  Restored Item Cheats component
+// (separate from the Restored Items component)
+
+// FILE: DCHEATS.DLG, DVRISCH.DLG
+// Documentation claims "Some cheats restored to file".  This is false.  DCHEATS.DLG isn't
+// included in the Restoration Pack at all.  With Restoration Pack installed, you can
+// buy the book from Vrischika, but it doesn't do anything.  There is a Platter's version
+// of it, but I'm not using that either.  My own version of it (I hate cheating, but it
+// really is useful for modding and testing) is also in the Restored Item Cheats component
+// of Unfinished Business, and in the PST: Tweak Pack as well (the difference is, the
+// Tweak Pack puts it in your starting inventory, the UB version you have to wait to get
+// it in Vrischika's store as was "intended").
+
+// FILES:
+// LOTHAR.STO, SKULL.ITM, SKULLAC.ITM, SKULLHA.ITM, SKULLMA.ITM, SKULLSK.ITM, SKULLSM.ITM,
+// SKULLSO.ITM, SKULLW.ITM
+// Makes Lothar able to buy skulls from you.  Not implemented anywhere yet, but will
+// possibly eventually be implemented in Qwinn's PST Tweakpack.  Possibly.  Much more likely
+// to happen if anyone were to actually ask for it.
+
+// FILES:
+// DMORTE.DLG, DMORTE1.DLG, DMORTE2.DLG, DZM569.DLG, DZM782.DLG, DZM825.DLG
+// "Morte's Original Intro".  Added in Unfinished Business's "Restored More Morte Mortuary
+// Moments" mod.  Handled in an entirely different way though, I don't touch half of those
+// files, you -can- see the vanilla game version if you really want to if you have my
+// version installed, and I get rid of the inconsistent "scars on your back" description,
+// among other changes.
+
+// FILES:
+// DABLE.DLG
+// Implemented in Unfinished Business.  Totally redesigned and rewritten by Qwinn.
+// Didn't need to create the TimerResearch variables, either in Fixpack or UB.
+
+// FILE:
+// AR0400.BCS
+// Restores Grace comment about Fell when first entering Smoldering Corpse bar area with her
+// Moved to Unfinished Business Restored Sounds component
+
+// =================== WHAT GOT IMPLEMENTED IN FIXPACK (MEANING, RIGHT HERE) ==================
+
+// All code re: Restoration Pack dialog fixes is in this file:
+
+COMPILE ~PST-Fix/dlg/RestoFix.d~
+
+// The remainder of this file contains all the non-dialogue fixes.
+
+
+// -DEATH.2DA:
+// Restored death comment from Morte to Dakkon (MRT182.WAV) - this is moved to UB RS&B component
+// Fixed death comment from Morte to TNO (MRT177A.WAV)
+//  I tried SET_2DA_ENTRY, but it didn't work, replaces the right values but messes up the columns
+//  Here's what I tried:
+//  SET_2DA_ENTRY 6 1 8 ~MRT175,MRT176,MRT177A,MRT178,MRT179,MRT180~
+//  SET_2DA_ENTRY 6 3 8 ~MRT182,MRT183~
+COPY_EXISTING ~DEATH.2DA~ ~override~
+   REPLACE_TEXTUALLY ~MRT177,MRT178,MRT179,MRT180 ~ ~MRT177A,MRT178,MRT179,MRT180~
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// AMB_M01.WAV:
+// Restored alarm sound for Mortuary. Referenced in Dustmen dialog files and was meant to be
+// referenced in scripts
+COPY_EXISTING ~AM_BELL.WAV~ ~override/AMB_M01.WAV~
+
+
+// -AR0201.BCS
+// Restored Alarm Block
+// -AR0202.BCS
+// Restored Alarm Block
+// -AR0203.BCS:
+// Restored Alarm Block
+COPY_EXISTING ~AR0201.BCS~ ~override~
+              ~AR0203.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~PlaySound("MB_M01")~ ~PlaySoundNotRanged("AMB_M01")~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+<<<<<<<< .../inlinedfile/mortalarm.baf
+IF
+  Global("Mortuary_Alert","GLOBAL",1)
+  !TimerActive(2)
+THEN
+  RESPONSE #100
+    StartTimer(2,7)
+    PlaySoundNotRanged("AMB_M01")
+END
+>>>>>>>>
+EXTEND_BOTTOM ~AR0202.BCS~ ~.../inlinedfile/mortalarm.baf~
+
+
+// SPE_11.WAV:
+// Neck cracking sound restored to game. Referenced very often
+COPY_EXISTING ~SPE_03B.WAV~ ~override/SPE_11.WAV~
+
+
+// 1500CS6.BCS
+// Line in dialogue file wasn't actually uttered in Soego/Hargrimm cutscene
+COPY_EXISTING ~1500CS6.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~FloatMessage("Soego2",63964)~
+~FloatMessage("Hargrim",19337) // "Ghouls... see that this man never leaves. Allow him to speak with no one. Bring him food and water as necessary."
+ Wait(4)
+ FloatMessage("Soego2",63964)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// 0402PTN2.BCS
+// Floating text comment in Smoldering Corpse wasn't included in script.
+// Qwinn:  ... and you'd never see it anyway with this fix, as the total weight block was too high to see
+// anything beyond the fifth block.  I vary the weights so you can see the later responses.
+// See QwinnFix.tph, and moving this there so this fix definitely happens before the other (in case
+// these components are ever reversed in order or made optional for whatever reason).
+
+
+// Justifier Fixes
+// This makes the Justifier mace work as intended.
+// Also requires adding the variables Current_Lower_Planes, Justifier and
+// Justifier_Lower_Planes to the VAR.VAR file, done in tp2.
+// Note that my script changes are different from that done in Restoration Pack,
+// but should yield the same or better behavior.
+COPY ~PST-Fix/copy/DJUSTFER.DLG~ ~override~
+
+<<<<<<<< .../inlinedfile/lplanes0.baf
+IF
+  Global("Current_Lower_Planes","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("Current_Lower_Planes","GLOBAL",0)
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR0200.BCS~ ~.../inlinedfile/lplanes0.baf~
+EXTEND_TOP ~AR0800.BCS~ ~.../inlinedfile/lplanes0.baf~
+EXTEND_TOP ~AR1100.BCS~ ~.../inlinedfile/lplanes0.baf~
+
+<<<<<<<< .../inlinedfile/lplanes1.baf
+IF
+  Global("Current_Lower_Planes","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Current_Lower_Planes","GLOBAL",1)
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR0900.BCS~ ~.../inlinedfile/lplanes1.baf~
+EXTEND_TOP ~AR0901.BCS~ ~.../inlinedfile/lplanes1.baf~
+EXTEND_TOP ~AR0902.BCS~ ~.../inlinedfile/lplanes1.baf~
+EXTEND_TOP ~AR0903.BCS~ ~.../inlinedfile/lplanes1.baf~
+EXTEND_TOP ~AR0904.BCS~ ~.../inlinedfile/lplanes1.baf~
+EXTEND_TOP ~AR1000.BCS~ ~.../inlinedfile/lplanes1.baf~
+EXTEND_TOP ~AR1001.BCS~ ~.../inlinedfile/lplanes1.baf~
+
+
+// NTOKEN.ITM
+// Documentation:  "Changed Identified Name string reference for NTOKEN to #4830"
+// This refers to the Negative Token.  This change didn't change it's identified name, it
+// changed it's unidentified name to "Flat, Black Token".  Lore required to identify is 0,
+// so this is a very trivial change, but might as well.
+COPY_EXISTING ~NTOKEN.ITM~ ~override~
+  WRITE_LONG 0x8 4830
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// -SMALLSWD.ITM:
+// Description text applied
+COPY_EXISTING ~SMALLSWD.ITM~ ~override~
+  WRITE_LONG 0x50 3063
+  WRITE_LONG 0x54 3063
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// -SPWI219.SPL
+// Casting Sound corrected to STREN03.WAV
+COPY_EXISTING ~SPWI219.SPL~ ~override~
+  READ_LONG 0x6a "EffectOffset"
+  WRITE_ASCII "EffectOffset" + 0x14 ~STREN03~ #8
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Restoration Pack makes several changes to casting speeds that I disagree with.  In almost all
+// cases, a spell's casting speed -should- equal it's level (the only Mage exceptions are Identify and
+// the Power Word spells).  Resto Pack changes the actual speed (which was equal to the level) to match
+// what it says in the description (which wasn't).  I believe it was the descriptions that were
+// wrong, and am correcting them instead.  The only change of RP I'm keeping is the fix to the
+// speed of Power Word, Kill, changing speed from 9 to 1.  Other changes to casting speeds based
+// on this logic, and a list of the description strrefs I change, are in QwinnFix.tph.
+
+// -SPWI909.SPL
+// Casting speed corrected (from 9 to 1, per description)
+COPY_EXISTING ~SPWI909.SPL~ ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_LONG "AbilityOffset" + (0x28 * 0) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 1) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 2) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 3) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 4) + 0x12 1
+ BUT_ONLY_IF_IT_CHANGES
+
+// This replaces a bad entry in the dialogue file, in order to give gaining Deionarra's ability it's due
+// celebration.
+// STRING_SET 17162 @17162
+// Moving this to QwinnFix.d in Version 3.0, no longer using changed string, using existing 37078, and
+// applying it to gaining Stories-Bones-Tell and Sensory Touch as well.
+// Actually moving it to UB RS&B component in v4.0.
+
+
+
+// Version 3.0
+// ========================================== BEASTIARY RESTORATIONS ================================================
+
+// For Version 3.01, added desc2 entry to Dustman Male and Female.
+// Moved to UB "Restored Bestiary Entries" component in UB 4.0
+
+/*
+COPY_EXISTING ~beast.ini~ ~beast.ini~
+  REPLACE_TEXTUALLY
+~desc0=3598~
+~desc0=3598
+desc1=64131
+global=Annah~
+  REPLACE_TEXTUALLY
+~desc0=3586~
+~desc0=3586
+desc1=64143
+desc2=64143
+global=Dakkon~
+  REPLACE_TEXTUALLY
+~desc0=3534~
+~desc0=3534
+desc1=3528
+global=Dhall~
+  REPLACE_TEXTUALLY
+~desc0=3533~
+~desc0=3533
+desc1=3527
+desc2=3527
+global=Know_Dustmen~
+  REPLACE_TEXTUALLY
+~desc0=3583~
+~desc0=3583
+desc1=3583
+desc2=64144
+global=Grace~
+  REPLACE_TEXTUALLY
+~desc0=3613~
+~desc0=3613
+desc1=64196
+desc2=64196
+global=Ignus~
+  REPLACE_TEXTUALLY
+~desc0=3608~
+~desc0=3608
+desc1=64197
+global=Know_Ravel~
+  REPLACE_TEXTUALLY
+~desc0=3605~
+~desc0=3605
+desc1=64198
+desc2=64200
+global=Nordom~
+  REPLACE_TEXTUALLY
+~desc0=3633~
+~desc0=3633
+desc1=64207
+global=Talk_To_Betrayer~
+  REPLACE_TEXTUALLY
+~desc0=3629~
+~desc0=3629
+desc1=64199
+global=Vhailor~
+ BUT_ONLY_IF_IT_CHANGES
+*/

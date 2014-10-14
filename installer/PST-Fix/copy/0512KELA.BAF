@@ -1,0 +1,138 @@
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetGlobal("Foundry_Kellera","AR0512",1)
+END
+
+IF
+  NearLocation([0.0.0.0.0.0.FWORKER_1],[621.947],0)
+THEN
+  RESPONSE #100
+    FloatMessage(Myself,16963) // "Progress report?"
+END
+
+IF
+  Global("Foundry_Kellera","AR0512",1)
+  NearLocation([0.0.0.0.0.0.FWORKER_1][10000.10000.0.-1],[621.947],0)
+THEN
+  RESPONSE #100
+    ForceAIScript("0512face",[0.0.0.0.0.0.FWORKER_1][10000.10000.0.-1],DEFAULT)
+    FloatMessage(Myself,16963) // "Progress report?"
+    Wait(3)
+    FloatMessage([0.0.0.0.0.0.FWORKER_1][10000.10000.0.-1],16962) // "It's going well."
+    Wait(3)
+    ForceAIScript("0512fac2",[0.0.0.0.0.0.FWORKER_1][10000.10000.0.-1],DEFAULT)
+    ChangeAIScript("0512klwk",DEFAULT)
+END
+
+IF
+  Global("Foundry_Kellera","AR0512",2)
+  NearLocation([0.0.0.0.0.0.FWORKER_2][10000.10000.0.-1],[638.801],0)
+THEN
+  RESPONSE #100
+    ForceAIScript("0512face",[0.0.0.0.0.0.FWORKER_2][10000.10000.0.-1],DEFAULT)
+    FloatMessage(Myself,16986) // "WHAT DO YOU THINK YOU'RE DOING?"
+    Wait(3)
+    FloatMessage([0.0.0.0.0.0.FWORKER_2][10000.10000.0.-1],17018) // "Huh?"
+    Wait(3)
+    FloatMessage(Myself,17017) // "THAT PART DOESN'T GO THERE!!!"
+    Wait(3)
+    FloatMessage([0.0.0.0.0.0.FWORKER_2][10000.10000.0.-1],17016) // "Are you sure?"
+    Wait(3)
+    FloatMessage(Myself,17015) // "AM I SURE?  YES!"
+    Wait(3)
+    FloatMessage([0.0.0.0.0.0.FWORKER_2][10000.10000.0.-1],17014) // "I'm sorry mistress!!!  I'll get it now."
+    ForceAIScript("0512ft2c",[0.0.0.0.0.0.FWORKER_2][10000.10000.0.-1],DEFAULT)
+    ChangeAIScript("",DEFAULT)
+END
+
+IF
+  Global("Foundry_Kellera","AR0512",3)
+  NearLocation([0.0.0.0.0.0.FWORKER_3][10000.10000.0.-1],[782.722],0)
+THEN
+  RESPONSE #100
+    ForceAIScript("0512face",[0.0.0.0.0.0.FWORKER_3][10000.10000.0.-1],DEFAULT)
+    FloatMessage(Myself,16961) // "That part may be coming loose, please check into it."
+    Wait(3)
+    FloatMessage([0.0.0.0.0.0.FWORKER_3][10000.10000.0.-1],16960) // "Yes, mistress Kel'lera."
+    Wait(3)
+    ForceAIScript("0512fac2",[0.0.0.0.0.0.FWORKER_3][10000.10000.0.-1],DEFAULT)
+    ChangeAIScript("0512klwk",DEFAULT)
+END
+
+IF
+  Global("Foundry_Kellera","AR0512",4)
+  NearLocation([0.0.0.0.0.0.FWORKER_4][10000.10000.0.-1],[853.933],0)
+THEN
+  RESPONSE #100
+    ForceAIScript("0512face",[0.0.0.0.0.0.FWORKER_4][10000.10000.0.-1],DEFAULT)
+    FloatMessage(Myself,16969) // "Keep up the good work."
+    Wait(3)
+    FloatMessage([0.0.0.0.0.0.FWORKER_4][10000.10000.0.-1],16968) // "Thank you mistress Kel'lera."
+    Wait(3)
+    ForceAIScript("0512fac2",[0.0.0.0.0.0.FWORKER_4][10000.10000.0.-1],DEFAULT)
+    ChangeAIScript("0512klwk",DEFAULT)
+END
+
+IF
+  Global("Foundry_Kellera","AR0512",5)
+  NearLocation([0.0.0.0.0.0.FWORKER_5][10000.10000.0.-1],[910.633],0)
+THEN
+  RESPONSE #100
+    ForceAIScript("0512face",[0.0.0.0.0.0.FWORKER_5][10000.10000.0.-1],DEFAULT)
+    FloatMessage(Myself,16962) // "It's going well."
+    Wait(3)
+    FloatMessage([0.0.0.0.0.0.FWORKER_5][10000.10000.0.-1],16966) // "You're right.  Thanks."
+    Wait(3)
+    ForceAIScript("0512fac2",[0.0.0.0.0.0.FWORKER_5][10000.10000.0.-1],DEFAULT)
+    ChangeAIScript("0512klwk",DEFAULT)
+END
+
+IF
+  Global("Foundry_Kellera","AR0512",6)
+  NearLocation([0.0.0.0.0.0.FWORKER_6][10000.10000.0.-1],[1019.604],0)
+THEN
+  RESPONSE #100
+    ForceAIScript("0512face",[0.0.0.0.0.0.FWORKER_6][10000.10000.0.-1],DEFAULT)
+    FloatMessage(Myself,16965) // "Try using this tool instead."
+    Wait(3)
+    FloatMessage([0.0.0.0.0.0.FWORKER_6][10000.10000.0.-1],16964) // "Hmmmm.  This just might do it."
+    Wait(3)
+    ForceAIScript("0512fac2",[0.0.0.0.0.0.FWORKER_6][10000.10000.0.-1],DEFAULT)
+    ChangeAIScript("0512klwk",DEFAULT)
+END
+
+IF
+  Global("Foundry_Kellera","AR0512",7)
+  NearLocation([0.0.0.0.0.0.FWORKER_7][10000.10000.0.-1],[1014.694],0)
+THEN
+  RESPONSE #100
+    ForceAIScript("0512face",[0.0.0.0.0.0.FWORKER_7][10000.10000.0.-1],DEFAULT)
+    FloatMessage(Myself,16961) // "That part may be coming loose, please check into it."
+    Wait(3)
+    FloatMessage([0.0.0.0.0.0.FWORKER_7][10000.10000.0.-1],16960) // "Yes, mistress Kel'lera."
+    Wait(3)
+    ForceAIScript("0512fac2",[0.0.0.0.0.0.FWORKER_7][10000.10000.0.-1],DEFAULT)
+    ChangeAIScript("0512klwk",DEFAULT)
+END
+
+IF
+  Global("Foundry_Kellera","AR0512",8)
+  NearLocation([0.0.0.0.0.0.FWORKER_8][10000.10000.0.-1],[937.770],0)
+THEN
+  RESPONSE #100
+    ForceAIScript("0512face",[0.0.0.0.0.0.FWORKER_8][10000.10000.0.-1],DEFAULT)
+    FloatMessage(Myself,16969) // "Keep up the good work."
+    Wait(3)
+    FloatMessage([0.0.0.0.0.0.FWORKER_8][10000.10000.0.-1],16980) // ::Yawn:: " Yea, I've been trying to solve the problem with the part."
+    Wait(3)
+    FloatMessage(Myself,16979) // "Keep at it."
+    Wait(3)
+    FloatMessage([0.0.0.0.0.0.FWORKER_8][10000.10000.0.-1],16978) // "Yes, mistress."
+    Wait(3)
+    ForceAIScript("0512fac2",[0.0.0.0.0.0.FWORKER_8][10000.10000.0.-1],DEFAULT)
+    ChangeAIScript("0512klwk",DEFAULT)
+END
+
+

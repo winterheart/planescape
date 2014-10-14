@@ -1,0 +1,125 @@
+IF
+  Global("Foundry_Kellera","AR0512",0)
+  !Global("Current_Area","GLOBAL",512)
+THEN
+  RESPONSE #100
+    ActionOverride("kellera",JumpToPoint([662.982]))
+    SetGlobal("Foundry_Kellera","AR0512",1)
+    ActionOverride("kellera",ChangeAIScript("0512kela",DEFAULT))
+END
+
+IF
+  !Global("Current_Area","GLOBAL",512)
+THEN
+  RESPONSE #100
+    SetGlobal("Current_Area","GLOBAL",512)
+END
+
+IF
+  Global("AR0512_Visited","GLOBAL",0)
+THEN
+  RESPONSE #100
+     SetGlobal("AR0512_Visited","GLOBAL",1)
+END
+
+IF
+   Global("Foundry_Area_Return","AR0512",0)
+THEN
+  RESPONSE #20
+    SetGlobal("Foundry_Area_Return","AR0512",1)
+  RESPONSE #20
+    SetGlobal("Foundry_Area_Return","AR0512",2)
+  RESPONSE #20
+    SetGlobal("Foundry_Area_Return","AR0512",3)
+  RESPONSE #20
+    SetGlobal("Foundry_Area_Return","AR0512",4)
+  RESPONSE #20
+    SetGlobal("Foundry_Area_Return","AR0512",5)
+  RESPONSE #20
+    SetGlobal("Foundry_Area_Return","AR0512",6)
+  RESPONSE #20
+    SetGlobal("Foundry_Area_Return","AR0512",7)
+  RESPONSE #20
+    SetGlobal("Foundry_Area_Return","AR0512",8)
+END
+
+IF
+  Global("Foundry_Area_Return","AR0512",1)
+  !Global("Foundry_Kellera","AR0512",1)
+THEN
+  RESPONSE #100
+    SetGlobal("Foundry_Area_Return","AR0512",10)
+    ForceAIScript("0512ftk1",[0.0.0.0.0.0.FWORKER_1],DEFAULT)
+END
+
+IF
+  Global("Foundry_Area_Return","AR0512",2)
+  !Global("Foundry_Kellera","AR0512",2)
+THEN
+  RESPONSE #100
+    SetGlobal("Foundry_Area_Return","AR0512",10)
+    ForceAIScript("0512ftk2",[0.0.0.0.0.0.FWORKER_2],DEFAULT)
+END
+
+IF
+  Global("Foundry_Area_Return","AR0512",3)
+  !Global("Foundry_Kellera","AR0512",3)
+THEN
+  RESPONSE #100
+    SetGlobal("Foundry_Area_Return","AR0512",10)
+    ForceAIScript("0512ftk3",[0.0.0.0.0.0.FWORKER_3],DEFAULT)
+END
+
+IF
+  Global("Foundry_Area_Return","AR0512",4)
+  !Global("Foundry_Kellera","AR0512",4)
+THEN
+  RESPONSE #100
+    SetGlobal("Foundry_Area_Return","AR0512",10)
+    ForceAIScript("0512ftk4",[0.0.0.0.0.0.FWORKER_4],DEFAULT)
+END
+
+IF
+  Global("Foundry_Area_Return","AR0512",5)
+  !Global("Foundry_Kellera","AR0512",5)
+THEN
+  RESPONSE #100
+    SetGlobal("Foundry_Area_Return","AR0512",10)
+    ForceAIScript("0512ftk5",[0.0.0.0.0.0.FWORKER_5],DEFAULT)
+END
+
+IF
+  Global("Foundry_Area_Return","AR0512",6)
+  !Global("Foundry_Kellera","AR0512",6)
+THEN
+  RESPONSE #100
+    SetGlobal("Foundry_Area_Return","AR0512",10)
+    ForceAIScript("0512ftk6",[0.0.0.0.0.0.FWORKER_6],DEFAULT)
+END
+
+IF
+  Global("Foundry_Area_Return","AR0512",7)
+  !Global("Foundry_Kellera","AR0512",7)
+THEN
+  RESPONSE #100
+    SetGlobal("Foundry_Area_Return","AR0512",10)
+    ForceAIScript("0512ftk7",[0.0.0.0.0.0.FWORKER_7],DEFAULT)
+END
+
+IF
+  Global("Foundry_Area_Return","AR0512",8)
+  !Global("Foundry_Kellera","AR0512",8)
+THEN
+  RESPONSE #100
+    SetGlobal("Foundry_Area_Return","AR0512",10)
+    ForceAIScript("0512ftk8",[0.0.0.0.0.0.FWORKER_8],DEFAULT)
+END
+
+IF
+  Global("Foundry_Area_Return","AR0512",10)
+THEN
+  RESPONSE #100
+    WaitRandom(5,30)
+    SetGlobal("Foundry_Area_Return","AR0512",0)
+END
+

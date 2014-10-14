@@ -1,0 +1,91 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    SetGlobal("Foundry_GR_Status","AR0511",7)
+END
+
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    ChangeSpecifics(Myself,PERSON_1)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    Attack(NearestEnemyOf(Myself))
+END
+
+IF
+  Help([ANYONE])
+  !Help([PC])
+THEN
+  RESPONSE #0
+    Enemy()
+    Attack(LastAttackerOf(LastHelp))
+END
+
+IF
+  AttackedBy([PC],DEFAULT)
+THEN
+  RESPONSE #100
+    Enemy()
+    IncrementGlobal("Lady","GLOBAL",1)
+    Help()
+END
+
+IF
+  !NearLocation(Myself,[556.438],0)
+THEN
+  RESPONSE #100
+    MoveToPoint([556.438])
+    Face(10)
+END
+
+IF
+  Global("Foundry_GR_Status","AR0511",2)
+THEN
+  RESPONSE #100
+    FloatMessage(Myself,25977) // "I know. I wonder what he's doing?"
+    SetGlobal("Foundry_GR_Status","AR0511",0)
+END
+IF
+  Global("Foundry_GR_Status","AR0511",3)
+THEN
+  RESPONSE #100
+    FloatMessage(Myself,25976) // "Have you been in the armory lately?"
+    SetGlobal("Foundry_GR_Status","AR0511",0)
+END
+IF
+  Global("Foundry_GR_Status","AR0511",4)
+THEN
+  RESPONSE #100
+    FloatMessage(Myself,25985) // "Don't let the factor see you doing it."
+    SetGlobal("Foundry_GR_Status","AR0511",0)
+END
+IF
+  Global("Foundry_GR_Status","AR0511",5)
+THEN
+  RESPONSE #100
+    FloatMessage(Myself,25986) // "Sandoz seemed very preoccupied when he arrived."
+    SetGlobal("Foundry_GR_Status","AR0511",0)
+END
+
+IF
+  !Dead("Sandoz")
+  Global("Foundry_GR_Status","AR0511",1)
+THEN
+  RESPONSE #100
+    WaitRandom(3,15)
+    FloatMessage(Myself,26362) // "We need more guards protecting the foundry."
+    SetGlobal("Foundry_GR_Status","AR0511",0)
+  RESPONSE #100
+    WaitRandom(3,15)
+    FloatMessage(Myself,26361) // "I guard, therefore, I am."
+    SetGlobal("Foundry_GR_Status","AR0511",0)
+END
+
+

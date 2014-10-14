@@ -1,0 +1,5101 @@
+
+COMPILE ~PST-Fix/dlg/QwinnFix.d~ USING ~PST-Fix/tra/%LANGUAGE%/fixpack.tra~
+
+// Restoration Pack added this floating text line to Drusilla's script, and should get credit for
+// finding it, even if it never did actually appear in the game until I did the Floating Text fixes below.
+// Moved it here to ensure it always runs before the Floating Text fixes.
+COPY_EXISTING ~0402PTN2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~FloatMessage(Myself,9507)~
+~FloatMessage(Myself,9507)
+    Wait(5)                                                                                                         
+  RESPONSE #100
+    FaceObject([PC])
+    FloatMessage(Myself,9508) // "It's a little dead here tonight... not as dead as the Mortuary, though."~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Make Entropic Blade a "Use" item, not a "Talk To" item
+COPY_EXISTING ~EAXE.ITM~  ~override~
+              ~EDAG.ITM~  ~override~
+              ~EFIST.ITM~ ~override~
+              ~EHAM.ITM~  ~override~
+              ~EMACE.ITM~ ~override~
+  WRITE_BYTE 0x19 31
+ BUT_ONLY_IF_IT_CHANGES
+ 
+
+// Your key in the Festhall should open your door, not every single last door in the place.
+// Let's give thieves -something- to break into.  Sheesh.
+COPY_EXISTING ~AR0602.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  FOR ("i" = 0; "i" < "Q_Num_Doors"; "i" += 1)
+  BEGIN
+    READ_ASCII "Q_Off_Doors" + ("Q_Siz_Doors" * i) "DoorName" (8)
+    PATCH_IF ~%DoorName%~ STRING_EQUAL ~ar0602d4~ THEN
+      BEGIN END
+      ELSE
+      BEGIN WRITE_ASCII "Q_Off_Doors" + ("Q_Siz_Doors" * i) + 0x78 ~~ #8 END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// Finam's house (oddly out of sequence as far as area numbers, it should be in the 600's) has
+// a Curst area script assigned to it.  It really doesn't need one at all.
+COPY_EXISTING ~AR0706B.ARE~ ~override~
+  WRITE_ASCII 0x94 ~~ #8
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// The Lim-Lim's and Tricha's in Curst behave oddly.  Almost as if most of them are trying to get
+// to the same location.  They seem to rely on a saved location.  Let's try adding an actual save
+// when they're created.
+<<<<<<<< .../inlinedfile/curstanimals.baf
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    SavePlace()
+END
+>>>>>>>>
+EXTEND_TOP ~0700ANAM.BCS~ ~.../inlinedfile/curstanimals.baf~
+EXTEND_TOP ~0701ANAM.BCS~ ~.../inlinedfile/curstanimals.baf~
+
+// Curst Hermit's "We've met before and you've weakened the deva" strref in the dialog file is identical
+// to the "We -haven't- met before and you've weakened the deva" strref.  Fixing it to be consistent.
+STRING_SET 57317 @57317
+
+// Carceri gehreleth pathing has same issue as floating texts... only first few points ever work.
+COPY_EXISTING ~0900GNR1.BCS~ ~override~
+              ~0900GNR2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~RESPONSE #100~ ~RESPONSE #20~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// If you arrested Anizius in Curst, and if you ever left AR0702 (Curst Underground) - say, to the hermit's area
+// so you could get healed or rest, then came back, execution in Carceri later on would break. This is because
+// Spawn_Anizius variable would reset to 1 in AR0702.BCS and stay there, making him spawn in AR0900 long before
+// he was supposed to. The fix is in the Curst underground script.
+// VERSION 4.1:  devsin correctly pointed out that this causes the quest to drop off the completed quest list,
+// so creating a new variable for Curst Anizius to spawn on.
+/*
+<<<<<<<< .../inlinedfile/stopprisonerrespawn.baf
+IF
+  GlobalGT("C_Off","GLOBAL",5)
+  GlobalLT("C_Off","GLOBAL",9)
+THEN
+  RESPONSE #100
+    SetGlobal("C_Off","GLOBAL",9)
+    Continue()
+END
+>>>>>>>>
+EXTEND_BOTTOM ~AR0702.BCS~ ~.../inlinedfile/stopprisonerrespawn.baf~
+*/
+COPY_EXISTING ~0900ANIZ.BCS~ ~override~
+              ~0900TRG2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~"Spawn_Anizius"~ ~"Spawn_Carceri_Anizius"~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR0900.INI~ ~override~
+   REPLACE_TEXTUALLY ~Spawn_Anizius~ ~Spawn_Carceri_Anizius~
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Tattoo of the Source (Godsmen Tattoo) couldn't be used to grant the experience bonus it was supposed to due
+// to missing Conversable flag.
+// Actually, it could be from quick slots, but there's no good reason to handle this one differently from all the
+// other XP granting tattoos that don't cast spells.
+COPY_EXISTING ~TTSOURCE.ITM~ ~override~
+  WRITE_BYTE 0x19 8
+ BUT_ONLY_IF_IT_CHANGES
+
+// Ilquix's race was wrong.  Set to Human instead of Glabrezu. Aethelgrin and Telgar'in's scripts both depend
+// on his race being right.
+COPY_EXISTING ~ILQUIX.CRE~ ~override~
+  WRITE_BYTE 0x311 31
+  WRITE_BYTE 0x316 31
+ BUT_ONLY_IF_IT_CHANGES
+
+// Ilquix won't just ignore devils forever if he isn't in range to see their initial Help() now.  He might
+// wait to finish his drink first before getting involved though. (Believe it or not, that last part seems
+// to be intended.  Hey, he is tanar'ri.)
+<<<<<<<< .../inlinedfile/hiilquix.baf
+IF
+  See("Ilquix")
+  Global("SC_Ilquix_Form","AR0402",0)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    Help()
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~0402ATHL.BCS~ ~.../inlinedfile/hiilquix.baf~
+EXTEND_TOP ~0402TEGR.BCS~ ~.../inlinedfile/hiilquix.baf~
+
+// Ilquix's script needs work, but can't recompile it from the original, as WeiDU can't translate the ANIMATE.IDS
+// entry for Glabrezu in the Polymorph statements
+COMPILE ~PST-Fix/copy/0402ILQX.BAF~
+
+// Tegar'in gets very confused on who to attack when Ilquix goes demon.
+COPY_EXISTING ~0402TEGR.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Attack(LastTrigger)~ ~RunningAttack([0.0.0.0.GLABREZU])~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Curst/Carceri Lynch Mob Scripting Bugs:
+// Lynch happens much too fast, and it's far too easy for the really really horrible pathing in
+// the area to make you unable to reach the right "angry citizen" in time (especially if you talked
+// to the bureaucrat first, or patrolling mobs get in the way, or the mage hits you and the AI sends
+// you impossibly after him)
+// VERSION 4.1:  devsin correctly pointed out the original has Wait(3), not Wait(2)
+COPY_EXISTING ~0900MOB.BCS~ ~override~
+ DECOMPILE_BCS_TO_BAF
+// REPLACE_TEXTUALLY ~Wait(2)~ ~Wait(4)~
+   REPLACE_TEXTUALLY ~Wait(3)~ ~Wait(4)~
+ COMPILE_BAF_TO_BCS
+BUT_ONLY_IF_IT_CHANGES
+
+// Area 0511 (Sandoz's room in Foundry)'s script has settings of Drowned Nations script
+COPY_EXISTING ~AR0511.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~1400~ ~0511~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+
+// =============================================================================================
+// Nemelle can go back to her starting position after she's been led to Aelwynn.  She's meant to stay
+// with her.  She usually stays put, and I can't reproduce what sends her back.
+// Of note - the "MoveToPoint" description in IESDP claims that it updates the destination of the
+// actor in the ARE file.  I checked a save where she's in the process of moving there, as well as
+// after she's arrived and the SavePlace() runs, and this does not appear to be the case.
+// I can't find anything that does change the destination fields.
+// SavePlace() DOES have an effect though.  If you add this bit of script without the SavePlace(),
+// then she'll jump to that point, start walking back toward her starting position, teleport
+// back, start walking again... the SavePlace() stops it.  So it's saving her location somewhere,
+// not that I can see in a save game though.  It's just that there's some way, some how, that her
+// saved place can get set to her starting location again.
+// Anyways.  This fixes it for sure.
+<<<<<<<< .../inlinedfile/sendnemelleback.baf
+IF
+  !NearLocation(Myself,[3570.2450],0)
+THEN
+  RESPONSE #100
+    JumpToPoint([3570.2450])
+    SavePlace()
+END
+>>>>>>>>
+EXTEND_TOP ~0600NEM2.BCS~ ~.../inlinedfile/sendnemelleback.baf~
+
+// =============================================================================================
+// Crier of Es-Annon floating text wouldn't actually appear.
+COPY_EXISTING ~0300CRIE.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY EXACT_MATCH
+~IF
+  !NearLocation(Myself,[688.1894],9)
+THEN
+  RESPONSE #100
+    MoveToPoint([688.1894])
+END
+
+IF
+  GlobalLT("Crier","GLOBAL",2)
+  TimerExpired(1)
+THEN
+  RESPONSE #100
+    Face(-1)
+    WaitRandom(3,5)
+    PlaySequence(ANIM_TALK1)
+    FloatMessage(Myself,26621)
+    Wait(3)
+    StartTimer(1,6)
+  RESPONSE #100
+    Face(-1)
+    WaitRandom(3,5)
+    PlaySequence(ANIM_TALK1)
+    FloatMessage(Myself,26619)
+    Wait(3)
+    StartTimer(1,7)
+  RESPONSE #100
+    Face(-1)
+    WaitRandom(3,5)
+    PlaySequence(ANIM_TALK1)
+    FloatMessage(Myself,26620)
+    Wait(3)
+    StartTimer(1,8)
+  RESPONSE #100
+    Face(-1)
+    WaitRandom(3,5)
+    PlaySequence(ANIM_TALK1)
+    FloatMessage(Myself,26621)
+    Wait(3)
+    StartTimer(1,9)
+  RESPONSE #100
+    Face(-1)
+    WaitRandom(3,5)
+    PlaySequence(ANIM_TALK1)
+    FloatMessage(Myself,26619)
+    Wait(3)
+    StartTimer(1,10)
+  RESPONSE #100
+    Face(-1)
+    WaitRandom(3,5)
+    PlaySequence(ANIM_TALK1)
+    FloatMessage(Myself,26620)
+    Wait(3)
+    StartTimer(1,11)
+  RESPONSE #100
+    Face(-1)
+    WaitRandom(3,5)
+    PlaySequence(ANIM_TALK1)
+    FloatMessage(Myself,26621)
+    Wait(3)
+    StartTimer(1,12)
+END~
+~IF
+  GlobalLT("Crier","GLOBAL",2)
+THEN
+  RESPONSE #33
+    Wait(6)
+    Face(-1)
+    PlaySequence(ANIM_TALK1)
+    FloatMessage(Myself,26621)
+    Continue()
+  RESPONSE #33
+    Wait(6)
+    Face(-1)
+    PlaySequence(ANIM_TALK1)
+    FloatMessage(Myself,26619)
+    Continue()
+  RESPONSE #33
+    Wait(6)
+    Face(-1)
+    PlaySequence(ANIM_TALK1)
+    FloatMessage(Myself,26620)
+    Continue()
+END
+
+IF
+  !NearLocation(Myself,[688.1894],9)
+THEN
+  RESPONSE #100
+    MoveToPoint([688.1894])
+END
+~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// =================================================================================================
+// Duplicate Matter-of-Course bug.
+
+// You'd sometimes get a duplicate Matter-Of-Course in the Clerk's Ward following Diligence around.
+// Version 3.0:  Oops, previous efforts were causing them to not show at all.  This bit, I think,
+// is sufficient to fix the problem.
+// Version 4.1:  devsin correctly pointed out I was using the wrong script name for Matter Of Course.
+COPY_EXISTING ~AR0600.BCS~ ~override~
+ DECOMPILE_BCS_TO_BAF
+// REPLACE_TEXTUALLY ~!Dead("Dilignc")~ ~!Dead("Dilignc") !Exists("Dilignc") !Exists("HBDYGrd")~
+   REPLACE_TEXTUALLY ~!Dead("Dilignc")~ ~!Dead("Dilignc") !Exists("Dilignc") !Exists("Matter_Of_Course")~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// ================================================================================================
+
+// The GivePartyGold/CreatePartyGold fixes
+
+// This set of fixes may be slightly controversial.  Here is my explanation of what I'm doing and
+// why I'm doing it.
+
+// Many of these fixes are undeniably bugs.  In many cases the game uses GivePartyGold but never gave
+// the creature any gold to give to you, and you got nothing.  In other cases, a creature would take
+// money from you, then use CreatePartyGold() when you demanded it back - which means you could then
+// kill him and get it back a second time.  In other cases, the creature goes elsewhere to get your
+// money, with a fadeaway and everything, but does GivePartyGold (and doesn't have it).
+
+// When a creature uses GivePartyGold() to give you a quest reward, and doesn't have the money,
+// there's no way to judge what the designer's intent was, and there are a lot of cases of that.
+// Did they mean to use CreatePartyGold, or did they just forget to give the creature the copper?
+// Fixpack and SKARDAVNELNATE both went with CreatePartyGold, but I decided it made more sense
+// to give the creatures the money and leave the GivePartyGold as is.  After all, if you kill
+// the questgiver, why -shouldn't- he have the money on his body?
+
+// So, those are all clearly bugs, and my method of fixing them is at least as valid as fixing them
+// with CreatePartyGold, as other fixpacks do.  The question becomes, do I extend this logic to
+// existing creatures that use CreatePartyGold, and thus their quest reward is given and isn't
+// really broken, and change them to give them copper and use GivePartyGold?  After
+// discussing this in the G3 forums and a lot of thought, my answer is yes.
+
+// The short justification is this:  If someone were to submit this bug report:  "If you don't
+// interfere with Xanthia, she gives you 500 copper from "a pouch at her side", but if you kill
+// her instead, she drops no coins at all.  This seems like a bug." I can think of no good
+// counterargument.  So I'm fixing those as well, on a case by case basis, where it seems appropriate
+
+// Oh, for the record, this gold is not pickpocketable.
+
+
+COPY_EXISTING ~AMARYSSE.CRE~ ~override~
+  WRITE_LONG 0x1c 100
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~ANIZIUS.CRE~ ~override~
+  WRITE_LONG 0x1c 3000
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AWAIT.CRE~ ~override~
+  WRITE_LONG 0x1c 50
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~BAEN.CRE~ ~override~
+  WRITE_LONG 0x1c 45
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~COPPER.CRE~ ~override~
+  WRITE_LONG 0x1c 100
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~CRADDO.CRE~ ~override~
+  WRITE_LONG 0x1c 40
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~CRIER.CRE~ ~override~
+  WRITE_LONG 0x1c 5
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~ECCO.CRE~ ~override~
+  WRITE_LONG 0x1c 1499
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~EMORIC.CRE~ ~override~
+  WRITE_LONG 0x1c 103   // 50 in given rewards, plus had 53 prior to this fix.  He really "creates" his 300 reward.
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~FLEECE.CRE~ ~override~
+  WRITE_LONG 0x1c 25
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~GHYSIS.CRE~ ~override~
+  WRITE_LONG 0x1c 200
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~GILTSP.CRE~ ~override~
+  WRITE_LONG 0x1c 425
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~HARLOTD.CRE~ ~override~
+  WRITE_LONG 0x1c 38
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~JARYM.CRE~ ~override~
+  WRITE_LONG 0x1c 200
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~JOLMI.CRE~ ~override~
+  WRITE_LONG 0x1c 2009 // 2000 in reward, plus had 9 before fix
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~KESTER.CRE~ ~override~
+  WRITE_LONG 0x1c 1020 // 1000 in reward, plus had 20 before fix
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~KRYSTALL.CRE~ ~override~
+  WRITE_LONG 0x1c 1000
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~MALMNR.CRE~ ~override~
+  WRITE_LONG 0x1c 160
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~MAR.CRE~ ~override~
+  WRITE_LONG 0x1c 500
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~MERTWYN.CRE~ ~override~
+  WRITE_LONG 0x1c 200
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~MOCHAI.CRE~ ~override~
+  WRITE_LONG 0x1c 83
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~MORTAI.CRE~ ~override~
+  WRITE_LONG 0x1c 100
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~NOROCHJ.CRE~ ~override~
+  WRITE_LONG 0x1c 600
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~PHINEAS.CRE~ ~override~
+  WRITE_LONG 0x1c 200
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~QUINT.CRE~ ~override~
+  WRITE_LONG 0x1c 250
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~ROBERTA.CRE~ ~override~
+  WRITE_LONG 0x1c 500
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~THUGP1.CRE~ ~override~
+  WRITE_LONG 0x1c 10
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~QUISHO.CRE~ ~override~
+  WRITE_LONG 0x1c 1500
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~SHARE.CRE~ ~override~
+  WRITE_LONG 0x1c 300
+ BUT_ONLY_IF_IT_CHANGES
+
+// Oops - this was set to 300 erroneously until v4.0 of the Fixpack
+COPY_EXISTING ~SIABHA.CRE~ ~override~
+  WRITE_LONG 0x1c 3000
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~UHIR.CRE~ ~override~
+  WRITE_LONG 0x1c 13
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~WANGYAR.CRE~ ~override~
+  WRITE_LONG 0x1c 11
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~XANTHIA.CRE~ ~override~
+  WRITE_LONG 0x1c 500
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~YELLOW.CRE~ ~override~
+  WRITE_LONG 0x1c 37
+ BUT_ONLY_IF_IT_CHANGES
+
+// =================================== MARTA'S TEETH FIX ==========================================
+
+// If you lie to Marta, she will give you the contents of her store for free.  If you don't, you become
+// more lawful and good and you can still buy them from her.  The problem is, you don't get the same items
+// available each way.  If you lie, you get the Gauntlets of Teeth (TEETH.ITM) and if you don't lie, you
+// can buy the Teeth of the Viper (VTEETH.ITM).  The items thus become mutually exclusive - you can only
+// get one or the other.
+
+// I believe this was a bug for the following reasons:
+// 1. The similarity in the item names (TEETH.ITM vs. VTEETH.ITM) makes it easy to see how it happened.
+// 2. The fact that the gloves are considerably more powerful than anything else TNO has available at this
+//    point in the game.
+// 3. The fact that they become mutually exclusive.  This game doesn't make the player do that kind of
+//    trade off without obvious reason or warning anywhere else.
+// 4. The fact that Marta is explicitly pulling "stitchies and teethies" from the corpses she's working on, not
+//    "stitchies and teethies and cursed gloves which, once activated in combat, just happen to grow teethies
+//    along the bone exteriors".
+
+// Therefore, I'm fixing Marta so that she'll give you the Teeth of the Viper if you lie to her.  Unfortunately,
+// this means the gloves will never appear in game.  I'm loathe to move this to Unfinished Business because
+// it's -not- a restoration, they -were- available in the game that shipped.  I'm making a judgment call and
+// making them available in Lothar's store, which I think is a very appropriate place to find them.
+
+COPY_EXISTING ~LOTHAR.STO~ ~override~
+  READ_LONG 0x34 "SaleItemsOffset"
+  READ_LONG 0x38 "NumItemsForSale"
+  READ_LONG 0x2c "PurchasedItemsOffset"
+  READ_LONG 0x4c "DrinksOffset"
+  READ_LONG 0x70 "CuresOffset"
+  PATCH_IF "PurchasedItemsOffset" > "SaleItemsOffset" THEN
+    BEGIN WRITE_LONG 0x2c "PurchasedItemsOffset" + 0x58 END
+  PATCH_IF "DrinksOffset" > "SaleItemsOffset" THEN
+    BEGIN WRITE_LONG 0x4c "DrinksOffset" + 0x58 END
+  PATCH_IF "CuresOffset" > "SaleItemsOffset" THEN
+    BEGIN WRITE_LONG 0x70 "CuresOffset" + 0x58 END
+  INSERT_BYTES "SaleItemsOffset" + (0x58 * "NumItemsForSale") 0x58
+  WRITE_ASCII  "SaleItemsOffset" + (0x58 * "NumItemsForSale") ~TEETH~ #8
+  WRITE_SHORT  "SaleItemsOffset" + (0x58 * "NumItemsForSale") + 0xa  1
+  WRITE_LONG   "SaleItemsOffset" + (0x58 * "NumItemsForSale") + 0x14 1
+  WRITE_LONG 0x38 "NumItemsForSale" + 1
+ BUT_ONLY_IF_IT_CHANGES
+
+// ================================================================================================
+
+// Fix to help prevent Mortuary Walkthrough from breaking prior to leaving the Mortuary.  Explanation follows.
+
+// Official Patch 1.1 readme says this:
+
+// "*Possible Spoiler - Bringing Morte to the Fortress after keeping him out of your party for most of the
+// game should now allow the endgame movie to play properly."
+
+// This bug was caused because some of the late game interjections with Morte pick their starting dialog line
+// based on the value of the walkthrough counters (this is how they avoid popping up his game-opening dialog
+// late in the game when he's no longer in your party).  You could actually experience the bug having
+// Morte with you most of the game, as long as you didn't advance the Walkthrough (basically just complete
+// Mortuary and open all the doors without him, and then pick him up and leave without ever walking through
+// the north door, where the first walkthrough interjection and counter increment is supposed to happen.
+
+// Patch 1.1 fixed it by making it so the moment you walked through the north door alone, without Morte,
+// the walkthrough counter got incremented the same as if you had Morte with you.  Therefore, the walkthrough
+// wouldn't play if you took him through that door afterwards.  That was not how it was intended -
+// without patch 1.1 installed, you can go through the door by yourself, go back, get Morte, cross
+// the door again and you -do- get the walkthrough interjection.
+
+// Patch 1.1 added 0202cut5.BCS (which wasn't in the unpatched game) and 0202trg1.bcs (which adds a call
+// to that new 0202cut5) in order to increment the counter even if you didn't have Morte with you.  A more
+// logical way to do this would seem to be to increment that counter when the player first enters the Hive,
+// as -that- is the point where Morte would no longer want or need to offer the player his Mortuary walkthrough.
+
+<<<<<<<< .../inlinedfile/mortewalkthrough.baf
+IF
+  GlobalLT("Mortuary_Walkthrough","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetGlobal("Mortuary_Walkthrough","GLOBAL",4)
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR0200.BCS~ ~.../inlinedfile/mortewalkthrough.baf~
+
+COPY ~PST-Fix/copy/0202TRG1.BCS~ ~override~  // This just puts the pre-patch 1.1 version back into play
+
+
+
+ //== ======================= RENAMING A RATBONE TO CARVER FIX ================================
+
+// Renaming the character named "Ratbone" in the vanilla game to "Carver", in order to avoid any
+// possible conflicts with the other Ratbone in the vanilla game files that is restored in the
+// Unfinished Business Restored Pendant of Yemeth quest.  Doing it in the Fixpack because it
+// requires a large number of changes to the dialog.tlk file which Fixpack does anyway, and because
+// it'll help avoid confusion in any future bug reports for either mod regarding either character.
+
+STRING_SET 49632 @49632 // ~Carver~
+
+COPY_EXISTING ~DR_BONE.DLG~ ~override/DCARVER.DLG~
+  REPLACE_TEXTUALLY ~DR_BONE~ ~DCARVER~
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~RATBONE.CRE~ ~override/CARVER.CRE~
+  WRITE_LONG  0x8   49632
+  WRITE_ASCII 0x324 ~Carver~ #16
+  WRITE_ASCII 0x370 ~DCARVER~ #8
+
+COPY_EXISTING ~RATBONE.CRE~ ~override~
+  WRITE_ASCII 0x268 ~RATBONE~ #8
+  WRITE_ASCII 0x370 ~DRATBONE~ #8
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR0101.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  WRITE_ASCII ("Q_Off_Actor" + ("Q_Siz_Actor" * 3)) ~Carver~ #32
+  WRITE_ASCII ("Q_Off_Actor" + ("Q_Siz_Actor" * 3)) + 0x80    ~CARVER~        #8  // CRE
+  WRITE_ASCII ("Q_Off_Actor" + ("Q_Siz_Actor" * 3)) + 0x48    ~DCARVER~       #8  // DLG
+ BUT_ONLY_IF_IT_CHANGES
+
+// ================================ CASTING SPEED FIXES =================================
+
+// Restoration Pack made several changes to casting speeds that I disagree with.  In almost all
+// cases, a spell's casting speed -should- equal it's level (the only exceptions for Mage spells
+// are Identify, Power Word, Blind and Power Word, Kill).
+// Resto Pack changes the actual speed (which was equal to the level) to match what it says in
+// the description (which wasn't).  I believe it was the descriptions that were wrong, and am
+// correcting them instead.
+
+// I give Resto Pack credit for the fix to Power Word Kill's casting speed (from 9 to 1), and
+// it is in RestoFix.tph
+
+// The spells RestoPack "fixed", where I change the description of the spell and the scroll
+// instead, are:
+
+STRING_SET 50987 @50987 // casting speed 1 to 0 (Identify) - SPWI105
+STRING_SET 49073 @49073 // casting speed 1 to 0 (Identify) - SCROLL
+STRING_SET 51392 @51392 // casting speed 6 to 2 (Adder's Kiss) - SWPI201
+STRING_SET 49093 @49093 // casting speed 6 to 2 (Adder's Kiss) - SCROLL
+STRING_SET 51023 @51023 // casting speed 1 to 2 (Knock) - SPWI215
+STRING_SET 49127 @49127 // casting speed 1 to 2 (Knock) - SCROLL
+STRING_SET 00498 @00498 // casting speed 1 to 2 (Infernal Orb) - SPWI218
+STRING_SET 52798 @52798 // casting speed 1 to 2 (Infernal Orb) - SCROLL
+STRING_SET 51073 @51073 // casting speed 4 to 5 (Enoll Eva's Duplication) - SPWI504
+STRING_SET 49259 @49259 // casting speed 4 to 5 (Enoll Eva's Duplication) - SCROLL
+STRING_SET 51076 @51076 // casting speed 1 to 6 (Antimagic Shell) - SPWI601
+STRING_SET 49265 @49265 // casting speed 1 to 6 (Antimagic Shell) - SCROLL
+STRING_SET 51077 @51077 // casting speed 3 to 6 (Globe of Invulnerability) - SPWI602
+STRING_SET 49267 @49267 // casting speed 3 to 6 (Globe of Invulnerability) - SCROLL
+
+// Using the same logic, the following three spells need to have their actual speeds fixed.  In
+// the first two cases they are being made to match their original description text, so no changes
+// necessary there.  In the case of Power Word, Blind, both the casting speed and descriptions
+// needed to be changed.
+
+// SPWI409, level 4 Remove Curse, changing speed 3 to 4
+COPY_EXISTING ~SPWI409.SPL~ ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_LONG "AbilityOffset" + 0x12 4
+ BUT_ONLY_IF_IT_CHANGES
+
+/* Version 4.1:  Reversing this.  devSin argued successfully that TO is the only one with access to this, and it is plausible they didn't
+// want it to be interruptible, considering all the graphics.  No point changing description to match, as it can't be seen in game.
+// SPWI902, level 9 Conflagration, changing speed 0 to 9
+COPY_EXISTING ~SPWI902.SPL~ ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_LONG "AbilityOffset" + (0x28 * 0) + 0x12 9
+  WRITE_LONG "AbilityOffset" + (0x28 * 1) + 0x12 9
+  WRITE_LONG "AbilityOffset" + (0x28 * 2) + 0x12 9
+  WRITE_LONG "AbilityOffset" + (0x28 * 3) + 0x12 9
+  WRITE_LONG "AbilityOffset" + (0x28 * 4) + 0x12 9
+  WRITE_LONG "AbilityOffset" + (0x28 * 5) + 0x12 9
+  WRITE_LONG "AbilityOffset" + (0x28 * 6) + 0x12 9
+  WRITE_LONG "AbilityOffset" + (0x28 * 7) + 0x12 9
+ BUT_ONLY_IF_IT_CHANGES
+*/
+
+// Version 3.0:  This block was addressed to Conflagration instead of PW:B - thanks to SKARDAVNELNATE
+// for noticing.
+// SPWI805, level 8 Power Word, Blind, changing speed 8 to 1
+COPY_EXISTING ~SPWI805.SPL~ ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_LONG "AbilityOffset" + (0x28 * 0) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 1) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 2) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 3) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 4) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 5) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 6) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 7) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 8) + 0x12 1
+  WRITE_LONG "AbilityOffset" + (0x28 * 9) + 0x12 1
+ BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET 51087 @51087 // casting speed 8 to 1 (Power Word, Blind) - SPWI805
+STRING_SET 49287 @49287 // casting speed 8 to 1 (Power Word, Blind) - SCROLL
+
+// I also made a few corrections to Priest casting speeds, mostly in the descriptions.
+// Their spells follow the same rule:  casting speed = level of spell.  The only
+// exception among Priest spells is Aid, a level 2 spell with a casting speed of 1.
+
+STRING_SET 51328 @51328 // casting speed 1 to 2 (Spiritual Hammer) - SPPR204
+STRING_SET 48854 @48854 // casting speed 1 to 2 (Spiritual Hammer) - SCROLL
+STRING_SET 51331 @51331 // casting speed 1 to 3 (Prayer) - SPPR303
+STRING_SET 48964 @48964 // casting speed 1 to 3 (Prayer) - SCROLL
+STRING_SET 51332 @51332 // casting speed 1 to 3 (Speak With Dead) - SPPR304
+STRING_SET 48966 @48966 // casting speed 1 to 3 (Speak With Dead) - SCROLL
+STRING_SET 51335 @51335 // casting speed 8 to 5 (Cure Critical Wounds) - SPPR501
+STRING_SET 49059 @49059 // casting speed 8 to 5 (Cure Critical Wounds) - SCROLL
+
+// Finally, the priest spell was pointing at the Wizard description of the Remove Curse spell,
+// with the wrong casting speed.  Changing the priest spell to a different description (already
+// in the dialogue file) with the correct casting speed (it's 3 for priests, 4 for wizards).
+
+COPY_EXISTING ~SPPR307.SPL~ ~override~
+  WRITE_LONG 0x50 51333
+ BUT_ONLY_IF_IT_CHANGES
+
+// ============================= PICKPOCKETS NEVER LEAVE ===============================
+
+// The various pickpockets, when told to leave town, set a variable to be removed from the
+// area/game the next time you enter it, but it never actually happens.  If they for whatever
+// reason didn't finish their EscapeArea() before you left the area, when you came back they'd
+// still be there forever, forever hostile, forever fleeing, interfering with saving your game.
+
+// Drunk Harlot needs a script name for removal to work.
+COPY_EXISTING ~HARLOTD.CRE~ ~override~
+  WRITE_ASCII 0x324 ~HarlotD~ #16
+ BUT_ONLY_IF_IT_CHANGES
+
+<<<<<<<< .../inlinedfile/REMOVEPP.BAF
+IF
+  Exists("%PPNAME%")
+  !Global("Current_Area","GLOBAL",%AREA%)
+  Global("Remove_%PPVAR%","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ActionOverride("%PPNAME%",DestroySelf())
+    Continue()
+END
+>>>>>>>>
+
+EXTEND_TOP ~AR0100.BCS~ ~.../inlinedfile/REMOVEPP.BAF~
+   SPRINT "PPNAME" ~Fleece~  SPRINT "PPVAR" ~Fleece~ SET "AREA" = 100       EVALUATE_BUFFER
+EXTEND_TOP ~AR0300.BCS~ ~.../inlinedfile/REMOVEPP.BAF~
+   SPRINT "PPNAME" ~Ashman~  SPRINT "PPVAR" ~Ash~ SET "AREA" = 300          EVALUATE_BUFFER
+EXTEND_TOP ~AR0400.BCS~ ~.../inlinedfile/REMOVEPP.BAF~
+   SPRINT "PPNAME" ~HarlotD~ SPRINT "PPVAR" ~Drunk_Harlot~ SET "AREA" = 400 EVALUATE_BUFFER
+
+
+// ================================ FLOATING TEXT FIXES  ===================================
+
+// A number of different "RESPONSE #100"s in a single script block supposedly have an
+// equal chance of happening, but that is not the case.  The total weight matters.  If you
+// have six blocks of 100 weight each, you will very rarely see the fourth block and I, at
+// least, never saw the fifth or sixth blocks when I tested it.
+// The following scripts have their weights lowered so that you actually have a decent chance
+// of seeing the later responses.
+
+COPY_EXISTING ~0109COLL.BCS~ ~override~
+              ~0109GBUM.BCS~ ~override~
+              ~0301DAP1.BCS~ ~override~
+              ~0301DAP2.BCS~ ~override~
+              ~0301RAP1.BCS~ ~override~
+              ~0512GRD1.BCS~ ~override~
+              ~0512GRD2.BCS~ ~override~
+              ~0512GRD3.BCS~ ~override~
+              ~0512GRD4.BCS~ ~override~
+              ~0600SARH.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY
+~RESPONSE #100
+    FloatMessage~
+~RESPONSE #20
+    FloatMessage~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0200ANNA.BCS~  ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY
+~RESPONSE #100
+    KillFloat~
+~RESPONSE #33
+    KillFloat~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~0400MAE.BCS~  ~override~
+              ~0400TAR.BCS~  ~override~
+              ~0500GILT.BCS~ ~override~
+              ~0511ING1.BCS~ ~override~
+              ~0600MIW1.BCS~ ~override~
+              ~0600MIW2.BCS~ ~override~
+              ~0600MIW3.BCS~ ~override~
+              ~0600SALA.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY
+~RESPONSE #100
+    Wait~
+~RESPONSE #20
+    Wait~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0504ALEK.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY
+~RESPONSE #100
+    PlaySequence~
+~RESPONSE #25
+    PlaySequence~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0504CIND.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY
+~RESPONSE #100
+    ReturnToSavedPlace~
+~RESPONSE #25
+    ReturnToSavedPlace~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING
+              ~0402PTN2.BCS~ ~override~
+              ~0601MIT1.BCS~ ~override~
+              ~0601MIT2.BCS~ ~override~
+              ~0601MIT3.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY
+~RESPONSE #100
+    Face~
+~RESPONSE #25
+    Face~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// This is the brothel section.  In addition to unlocking some floating text lines, it also reactivates the
+// SendTrigger responses that make the patrons talk to the ladies and vice versa.  Additional fixes to make
+// that work smoothly in next section.
+
+COPY_EXISTING ~0605DOL1.BCS~ ~override~
+              ~0605DOL2.BCS~ ~override~
+              ~0605ECC1.BCS~ ~override~
+              ~0605ECC2.BCS~ ~override~
+              ~0605FFG.BCS~  ~override~
+              ~0605JUL1.BCS~ ~override~
+              ~0605KES1.BCS~ ~override~
+              ~0605KES2.BCS~ ~override~
+              ~0605KIM1.BCS~ ~override~
+              ~0605NEN1.BCS~ ~override~
+              ~0605NEN2.BCS~ ~override~
+              ~0605VIV1.BCS~ ~override~
+              ~0605VIV2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~Wait(5)~ ~~
+   REPLACE_TEXTUALLY
+~RESPONSE #100
+    FloatMessage~
+~RESPONSE #20
+    Wait(5)
+    FloatMessage~
+   REPLACE_TEXTUALLY
+~RESPONSE #100
+    Face~
+~RESPONSE #30
+    Wait(5)
+    Face~
+   REPLACE_TEXTUALLY
+~RESPONSE #500
+    SendTrigger~
+~RESPONSE #100
+    SendTrigger~
+   REPLACE_TEXTUALLY
+~RESPONSE #1000
+    Continue~
+~RESPONSE #200
+    Wait(5)
+    Continue~
+   REPLACE_TEXTUALLY
+~RESPONSE #1300
+    Continue~
+~RESPONSE #250
+    Wait(5)
+    Continue~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Buried Village - Collector and thugs' text usually overwrite one another... moving collector's stopping
+// point a little so that doesn't happen.
+
+COPY_EXISTING ~0109COLL.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~1905.1211~ ~1972.1275~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Fine tuning of the gambling thugs in the Buried Village's script to make it more random and to give enough
+// time to read the longer ones.
+COPY_EXISTING ~0109THG1.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH
+ ~RESPONSE #100
+    FloatMessage(Myself,27426)
+    Wait(2)
+    KillFloatMessage(Myself)
+    FloatMessage([0.0.0.0.0.0.THUG_2],27425)
+    Wait(2)
+    KillFloatMessage([0.0.0.0.0.0.THUG_2])
+    FloatMessage([0.0.0.0.0.0.THUG_3],27437)
+    Wait(3)
+    GlobalSet("Thug2_Move","AR0109",1)
+    GlobalSet("Thug3_Move","AR0109",1)
+    GlobalSet("Thug1_Move","AR0109",1)
+  RESPONSE #100
+    FloatMessage(Myself,27427)
+    Wait(2)
+    KillFloatMessage(Myself)
+    FloatMessage([0.0.0.0.0.0.THUG_2],27448)
+    Wait(2)
+    KillFloatMessage([0.0.0.0.0.0.THUG_2])
+    FloatMessage([0.0.0.0.0.0.THUG_3],27437)
+    Wait(3)
+    GlobalSet("Thug2_Move","AR0109",1)
+    GlobalSet("Thug3_Move","AR0109",1)
+    GlobalSet("Thug1_Move","AR0109",1)
+  RESPONSE #100
+    FloatMessage(Myself,27429)
+    Wait(2)
+    KillFloatMessage(Myself)
+    FloatMessage([0.0.0.0.0.0.THUG_2],27611)
+    Wait(2)
+    KillFloatMessage([0.0.0.0.0.0.THUG_2])
+    FloatMessage([0.0.0.0.0.0.THUG_3],27437)
+    Wait(3)
+    GlobalSet("Thug2_Move","AR0109",1)
+    GlobalSet("Thug3_Move","AR0109",1)
+    GlobalSet("Thug1_Move","AR0109",1)
+  RESPONSE #100
+    FloatMessage(Myself,27442)
+    Wait(2)
+    KillFloatMessage(Myself)
+    FloatMessage([0.0.0.0.0.0.THUG_2],27430)
+    Wait(2)
+    KillFloatMessage([0.0.0.0.0.0.THUG_2])
+    FloatMessage([0.0.0.0.0.0.THUG_3],27446)
+    Wait(2)
+    KillFloatMessage([0.0.0.0.0.0.THUG_3])
+    FloatMessage(Myself,27449)
+    Wait(3)
+    GlobalSet("Thug2_Move","AR0109",1)
+    GlobalSet("Thug3_Move","AR0109",1)
+    GlobalSet("Thug1_Move","AR0109",1)
+  RESPONSE #100
+    FloatMessage(Myself,27424)
+    Wait(2)
+    KillFloatMessage(Myself)
+    FloatMessage([0.0.0.0.0.0.THUG_2],27618)
+    Wait(2)
+    KillFloatMessage([0.0.0.0.0.0.THUG_2])
+    FloatMessage([0.0.0.0.0.0.THUG_3],27437)
+    Wait(3)
+    GlobalSet("Thug2_Move","AR0109",1)
+    GlobalSet("Thug3_Move","AR0109",1)
+    GlobalSet("Thug1_Move","AR0109",1)~
+
+ ~RESPONSE #20
+    FloatMessage(Myself,27426) // "Still have enough copper on ya?"
+    Wait(3)
+    KillFloatMessage(Myself)
+    FloatMessage([0.0.0.0.0.0.THUG_2],27425) // "I have enough jink to take all of yours!"
+    Wait(3)
+    KillFloatMessage([0.0.0.0.0.0.THUG_2])
+    FloatMessage([0.0.0.0.0.0.THUG_3],27437) // "Shut yer traps and roll the bleedin' dice!"
+    Wait(3)
+    SetGlobal("Thug2_Move","AR0109",1)
+    SetGlobal("Thug3_Move","AR0109",1)
+    SetGlobal("Thug1_Move","AR0109",1)
+  RESPONSE #25
+    FloatMessage(Myself,27427) // "An unbelievable roll!  I think our friend might have something else involved here..."
+    Wait(5)
+    KillFloatMessage(Myself)
+    FloatMessage([0.0.0.0.0.0.THUG_2],27448) // "Are you inferring that I cheat?  You're just jealous because of your continued bad luck!"
+    Wait(6)
+    KillFloatMessage([0.0.0.0.0.0.THUG_2])
+    FloatMessage([0.0.0.0.0.0.THUG_3],27437) // "Shut yer traps and roll the bleedin' dice!"
+    Wait(3)
+    SetGlobal("Thug2_Move","AR0109",1)
+    SetGlobal("Thug3_Move","AR0109",1)
+    SetGlobal("Thug1_Move","AR0109",1)
+  RESPONSE #25
+    FloatMessage(Myself,27429) // "See?  Now THAT'S a roll my friend!"
+    Wait(3)
+    KillFloatMessage(Myself)
+    FloatMessage([0.0.0.0.0.0.THUG_2],27611) // "Oh come on now!  I could have rolled that nine times in my sleep!"
+    Wait(5)
+    KillFloatMessage([0.0.0.0.0.0.THUG_2])
+    FloatMessage([0.0.0.0.0.0.THUG_3],27437) // "Shut yer traps and roll the bleedin' dice!"
+    Wait(3)
+    SetGlobal("Thug2_Move","AR0109",1)
+    SetGlobal("Thug3_Move","AR0109",1)
+    SetGlobal("Thug1_Move","AR0109",1)
+  RESPONSE #25
+    FloatMessage(Myself,27442) // "Amazing."
+    Wait(2)
+    KillFloatMessage(Myself)
+    FloatMessage([0.0.0.0.0.0.THUG_2],27430) // "What incredible luck!"
+    Wait(2)
+    KillFloatMessage([0.0.0.0.0.0.THUG_2])
+    FloatMessage([0.0.0.0.0.0.THUG_3],27446) // "Luck is merely ONE of my skills!"
+    Wait(3)
+    KillFloatMessage([0.0.0.0.0.0.THUG_3])
+    FloatMessage(Myself,27449) // "Will ya just roll the damn dice?!"
+    Wait(3)
+    SetGlobal("Thug2_Move","AR0109",1)
+    SetGlobal("Thug3_Move","AR0109",1)
+    SetGlobal("Thug1_Move","AR0109",1)
+  RESPONSE #25
+    FloatMessage(Myself,27424) // "Ummm...I...well...errr double or nothing!"
+    Wait(3)
+    KillFloatMessage(Myself)
+    FloatMessage([0.0.0.0.0.0.THUG_2],27618) // "Well now!  Are you sure that YOU have enough copper?  Hahaha!"
+    Wait(5)
+    KillFloatMessage([0.0.0.0.0.0.THUG_2])
+    FloatMessage([0.0.0.0.0.0.THUG_3],27437) // "Shut yer traps and roll the bleedin' dice!"
+    Wait(3)
+    SetGlobal("Thug2_Move","AR0109",1)
+    SetGlobal("Thug3_Move","AR0109",1)
+    SetGlobal("Thug1_Move","AR0109",1)~
+   COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Barr's last line in Guard_Conversation calls the other guard a coward for no apparent reason,
+// and it's actually a line used by a ghoul in a different script.  Think it got tacked on only
+// for the laugh, but there's a better option.
+COPY_EXISTING ~0109BARR.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~FloatMessage(Myself,25840)~ ~FloatMessage(Myself,48069)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Make Giltspur's floating text go off a bit faster, now that it's got so many more options, to
+// better reflect the in-game description of his manner.
+COPY_EXISTING ~0500GILT.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~WaitRandom(5,10)~ ~WaitRandom(4,6)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Actor spectator conversations overwrite one another.
+COPY_EXISTING ~0600POW1.BCS~ ~override~
+              ~0600POET.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~Wait(3)~ ~Wait(6)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Able and the guy he's talking to's floating text overwrite one another
+COPY_EXISTING ~0600ABLP.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY
+~WaitRandom(5,10)~
+~Wait(6)
+ FloatMessage([0.0.0.0.0.0.95],28845) // *Sigh*
+ WaitRandom(15,20)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0600PAT7.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~True()~ ~False()~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Jugog speaks way too fast.
+COPY_EXISTING ~0900JJOG.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY
+~IF
+  True()
+THEN
+  RESPONSE #100~
+~IF
+  True()
+THEN
+  RESPONSE #100
+    Wait(15)~
+   REPLACE_TEXTUALLY ~Wait(2)~ ~Wait(4)~
+   REPLACE_TEXTUALLY ~Wait(30)~ ~~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// ========================= GREAT FOUNDRY FLOATING TEXT FIXES ===================================
+
+// Foundry workers missing their SRC for random comments.  All their comments are right there
+// in the dialog file though, right next to their supervisor and Thildon's.
+COPY_EXISTING ~0502THIL.SRC~ ~override/0502WORK.SRC~
+  WRITE_LONG 0x4  44973
+  WRITE_LONG 0xc  44974
+  WRITE_LONG 0x14 44975
+  WRITE_LONG 0x1c 44976
+  WRITE_LONG 0x24 44977
+ BUT_ONLY_IF_IT_CHANGES
+
+// Sandoz's guard's conversations work great... until the door opens, after which Guard 1 holds both
+// sides of the conversation with himself.
+// Tricky one.  What's causing it is the door - it blocks sight between the two, which is apparently
+// necessary for the tranferred FloatMessage to work.  It blocks SendTriggers too.  I have
+// to handle it with the local variable they were using to communicate other things.
+COMPILE ~PST-Fix/copy/0511ING1.BAF~
+        ~PST-Fix/copy/0511ING2.BAF~
+
+// ====================== GREAT FOUNDRY MACHINE ROOM SCRIPT FIXES =================================
+
+// Kel'lera and her workers have awesome scripts that were just never activated due to a missing area file.
+// I reconstructed it.  A few tweaks and bugfixes were needed to make it all work smoothly too.
+
+COMPILE ~PST-Fix/copy/AR0512.BAF~
+
+COPY_EXISTING ~0512KELA.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   // Unnecessary and made the NearLocation statements not work.
+   REPLACE_TEXTUALLY EXACT_MATCH ~[10000.10000.0.-1]~ ~~
+   // Give the NearLocation check a -little- leeway for being blocked from getting back to their exact
+   // spot.  No reason not to.
+   REPLACE_TEXTUALLY ~,0)~ ~,3)~
+   // Added pauses to prevent floattext overwriting itself, and corrected a couple of strrefs.
+   REPLACE_TEXTUALLY ~FloatMessage(Myself,16962)~ ~FloatMessage(Myself,16967) Wait(2)~
+   REPLACE_TEXTUALLY ~FloatMessage(Myself,16961)~ ~FloatMessage(Myself,16961) Wait(2)~
+   REPLACE_TEXTUALLY EXACT_MATCH
+   ~ForceAIScript("0512face",[0.0.0.0.0.0.FWORKER_8],DEFAULT)
+    FloatMessage(Myself,16969)~
+   ~ForceAIScript("0512face",[0.0.0.0.0.0.FWORKER_8],DEFAULT)
+    FloatMessage(Myself,16959)~
+   REPLACE_TEXTUALLY
+   ~Wait(3)
+    FloatMessage(Myself,16979)~
+   ~Wait(5)
+    FloatMessage(Myself,16979)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0512KLWK.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   // FWORKER_7 could get stuck trying to get back to his spot if he was away when Kel'lera came to talk
+   // to him.  Moving her wait point slightly to get out of his way.
+   REPLACE_TEXTUALLY EXACT_MATCH ~MoveToPoint([1026.681])~ ~MoveToPoint([1056.700])~
+   // At each corner of the room Kel'lera would say "Sensates?" (strref 1000).  Picked more appropriate
+   // lines for her from the dialog lines available in this room.
+   REPLACE_TEXTUALLY EXACT_MATCH
+   ~MoveToPoint([443.838])
+    Face(12)
+    FloatMessage(Myself,1000)~
+   ~MoveToPoint([443.838])
+    Face(12)
+    FloatMessage(Myself,16969)~
+   REPLACE_TEXTUALLY EXACT_MATCH
+   ~MoveToPoint([1136.684])
+    Face(4)
+    FloatMessage(Myself,1000)~
+   ~MoveToPoint([1136.684])
+    Face(4)
+    FloatMessage(Myself,16962)~
+   REPLACE_TEXTUALLY ~Myself,1000~ ~Myself,16979~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Clearly erroneus strref reference corrected to be consistent with the other 7 scripts.
+COPY_EXISTING ~0512FTK3.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~16973~ ~16975~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// FWORKER_4 faces the wrong way after getting back to his spot
+COPY_EXISTING ~0512FTK4.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~MoveToPoint([853.933])~ ~MoveToPoint([853.933]) Face(6)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Missing Continue() in this cript would cause him to walk back and forth forever
+COPY_EXISTING ~0512FTK7.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~MoveToPoint([549.705])~ ~MoveToPoint([549.705]) Continue()~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// ================================ BROTHEL SCRIPT FIXES ====================================
+// Fixing the floating text of the brothel girls also reactivates the scripts written to
+// actually chat with the patrons.  It's very cool and well developed, but as everything else
+// it needs a few tweaks to work best (now that it works at all).
+
+// Vivian specifically is missing a script where she talks to the patrons.  She just wanders off, leaving
+// the patrons talking to themselves.  Nenny's scripts are a good model of how hers should work.
+COPY_EXISTING ~0605NEN3.BCS~ ~override/0605VIV3.BCS~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~nen~ ~viv~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0605VIV1.BCS~ ~override~
+              ~0605VIV2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~viv4~ ~viv3~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixes to some of Dolora's and the modron's scripts, attempting to get the Modrons to be more accurate in
+// describing what she's doing.  It's not perfect, but it's better than how it was in the unmodded game:
+// they would often start claiming she was conversing/playing with patron 5 when she wasn't.  It still happens
+// but not as often, and they'll say those lines when she chats with any patron now, not just patron 5.
+
+STRING_SET 48157 @48157 // ~"Subject now conversing with human female."~
+STRING_SET 48158 @48158 // ~"Subject now playing a game with human female."~
+
+COPY_EXISTING ~0605DOL1.BCS~ ~override~
+              ~0605DOL2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+   ~SendTrigger("BPatron6",6)
+    SendTrigger("BPatron7",6)
+    SendTrigger("BPatron8",6)~ ~~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0605DOL3.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+   ~FaceObject("BPatron1")~
+   ~FaceObject("BPatron1")
+    SendTrigger("BPatron6",6)
+    SendTrigger("BPatron7",6)
+    SendTrigger("BPatron8",6)~
+    REPLACE_TEXTUALLY // Patron 2 is female, so send different trigger
+   ~FaceObject("BPatron2")~
+   ~FaceObject("BPatron2")
+    SendTrigger("BPatron6",7)
+    SendTrigger("BPatron7",7)
+    SendTrigger("BPatron8",7)~
+    REPLACE_TEXTUALLY
+   ~FaceObject("BPatron3")~
+   ~FaceObject("BPatron3")
+    SendTrigger("BPatron6",6)
+    SendTrigger("BPatron7",6)
+    SendTrigger("BPatron8",6)~
+    REPLACE_TEXTUALLY
+   ~FaceObject("BPatron5")~
+   ~FaceObject("BPatron5")
+    SendTrigger("BPatron6",6)
+    SendTrigger("BPatron7",6)
+    SendTrigger("BPatron8",6)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0605DOL4.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+   ~!TimerActive(6)~
+   ~!TimerActive(6)
+    !TimerActive(7)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COMPILE ~PST-Fix/copy/0605PAT6.BAF~
+
+
+// Fix to various tattoos where the Identified name isn't filled in.
+// Probably no effect in game, but makes FELL.STO a lot easier to review in Near Infinity
+/*
+COPY_EXISTING ~TTACCURA.ITM~ ~override~
+              ~TTANARCH.ITM~ ~override~
+              ~TTAVERN.ITM~  ~override~
+              ~TTBLOODL.ITM~ ~override~
+              ~TTBONESI.ITM~ ~override~
+              ~TTCUTPUR.ITM~ ~override~
+              ~TTDECEIV.ITM~ ~override~
+              ~TTDV.ITM~     ~override~
+              ~TTRESDED.ITM~ ~override~
+              ~TTRZANG.ITM~  ~override~
+              ~TTSENS1.ITM~  ~override~
+              ~TTSENS2.ITM~  ~override~
+              ~TTSHADOW.ITM~ ~override~
+              ~TTSHATLO.ITM~ ~override~
+              ~TTSOURCE.ITM~ ~override~
+              ~TTTENSHA.ITM~ ~override~
+              ~TTTW.ITM~     ~override~
+              ~TTUCIRC.ITM~  ~override~
+  READ_LONG  0x8 "GeneralName"
+  WRITE_LONG 0xc "GeneralName"
+ BUT_ONLY_IF_IT_CHANGES
+*/
+
+// ========================================== VERSION 2.0 =================================================
+
+// Miloch of SHS provided a beautiful new BAM to replace the old BAM for Annah's Chained Teeth Earrings,
+// which looked like a normal set of lockpicks.
+COPY ~PST-Fix/copy/II108.BAM~ ~override~
+
+/* Fixed in engine in version 3.0, commented out
+
+// Ravel's dialogue suffers from the same problem as the pickpockets in terms of deactivating item boosts
+// after a permanent stat change, so that future stat checks don't count those item boosts.
+// Remainder of changes in QwinnFix.d
+
+<<<<<<<< .../inlinedfile/ADDINTERUPT.baf
+IF
+  Global("Current_Area","GLOBAL",610)
+THEN
+  RESPONSE #100
+    CutSceneId("Ravel")
+    Dialogue([PC])
+END
+>>>>>>>>
+EXTEND_BOTTOM ~INTERUPT.BCS~ ~.../inlinedfile/ADDINTERUPT.baf~
+*/
+
+
+// Cutscenes with Ravel aren't necessarily centered on screen
+COPY_EXISTING ~0610CUT4.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~CutSceneId("Ravel")~ ~CutSceneId("Ravel")MoveViewObject("Ravel",VERY_FAST)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Siege tower portal is klunky, repeatedly asks the question, never shuts down unless you piss off Coaxmetal
+// Required adding local AR0500 variable "Siege_Tower_Portal", done in Setup-PST-Fix.tp2.
+// Also requires change to DSTTRANS.DLG, see QwinnFix.d
+COPY_EXISTING ~0500TRG1.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH
+     ~HarmlessEntered([PC])~
+     ~HarmlessEntered(Protagonist) Global("Siege_Tower_Portal","AR0500",0)~
+   REPLACE_TEXTUALLY EXACT_MATCH ~[PC]~ ~Protagonist~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+<<<<<<<< .../inlinedfile/closesiegeportal.baf
+IF
+  Global("Siege_Tower_Portal","AR0500",1)
+  !NearLocation(Protagonist,[3604.1524],20)
+THEN
+  RESPONSE #100
+    SetGlobal("Siege_Tower_Portal","AR0500",0)
+    ActivatePortalCursor("to0501",0)
+    EnablePortalTravel("to0501",0)
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR0500.BCS~ ~.../inlinedfile/closesiegeportal.baf~
+
+// When Many as One yields during combat, the Warrens stay hostile. This should calm them. Also prevent rats from breaking morale until MAO gives up.
+// MAO_Yielded variabled added in version 3.0, see more changes below.
+COPY_EXISTING ~AR1601.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY
+    ~BitSet("1601_Status","AR1601",BIT8)~
+    ~BitSet("1601_Status","AR1601",BIT8) SetGlobal("Mao_Warn","GLOBAL",0)SetGlobal("1601_Respawn","GLOBAL",0)SetGlobal("MAO_Yielded","GLOBAL",1)Wait(5)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+<<<<<<<< .../inlinedfile/ratsrunaway.baf
+IF
+  MoraleLT(Myself,20)
+THEN
+  RESPONSE #100
+    MoraleSet(Myself,20)
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~1601RAT.BCS~ ~.../inlinedfile/ratsrunaway.baf~
+
+// Set Tattoo of the Joining to be available when you've talked to Karina after getting them together
+STRING_SET 51389 ~GlobalGT("Karina_Friend","GLOBAL",2)~
+
+// Fruit merchant in Hive market area was a bit TOO cowardly.  He'd run from you if you had any enemy,
+// even if there was no fighting (example - can make Gith townsperson go red without a fight).
+// He would then never return to his original spot or move again.  This could break Mebbeth's quest if
+// he wound up stuck somewhere you couldn't see or reach.
+COPY_EXISTING ~0300MER6.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~Allegiance([ANYONE],ENEMY)~ ~Allegiance(Myself,ENEMY)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Took the "Ratbone" to "Carver" rename out of dialogfixes.tph (mostly), doing it with tools provided by thebigg
+// in WeiDU 208
+// Note that ALTER_TLK cannot change strings that have already been STRING_SET within the current installation.
+// This means that the changes in dialogfixes.tph that reference Ratbone's name won't be changed by this.
+// Therefore, dialogfixes.tph still needs to use the name Carver for those lines that are modified for other
+// reasons such as spelling and typos.  It still reduces the number of lines that need modifying directly from
+// something like 30 to something like 3.
+ACTION_IF ~%LANGUAGE%~ STRING_EQUAL ~english~ THEN
+  BEGIN ALTER_TLK_RANGE 49647 49737 BEGIN REPLACE_TEXTUALLY ~Ratbone~ ~Carver~ END END
+ACTION_IF ~%LANGUAGE%~ STRING_EQUAL ~german~ THEN
+  BEGIN ALTER_TLK_RANGE 49647 49737 BEGIN REPLACE_TEXTUALLY ~Rattenknochen~ ~Schnitzer~ END END
+ACTION_IF ~%LANGUAGE%~ STRING_EQUAL ~spanish~ THEN
+  BEGIN ALTER_TLK_RANGE 49647 49737 BEGIN REPLACE_TEXTUALLY ~Raborrata~ ~Tallista~ END END
+ACTION_IF ~%LANGUAGE%~ STRING_EQUAL ~italian~ THEN
+  BEGIN ALTER_TLK_RANGE 49647 49737 BEGIN REPLACE_TEXTUALLY ~Ratbone~ ~Incisore~ END END
+ACTION_IF ~%LANGUAGE%~ STRING_EQUAL ~polish~ THEN
+  BEGIN ALTER_TLK_RANGE 49647 49737 BEGIN REPLACE_TEXTUALLY ~Ratbone~ ~Kosa~ END END
+ACTION_IF ~%LANGUAGE%~ STRING_EQUAL ~french~ THEN
+  BEGIN ALTER_TLK_RANGE 49647 49737 BEGIN REPLACE_TEXTUALLY ~Ratos~ ~Carver~ END END
+
+// Grace's body disappears before the cutscene in the Fortress is over
+COPY_EXISTING ~1201CSGA.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~CutSceneId("GraceF")~ ~CutSceneId("GraceF")Wait(5)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Remove Curse should bypass magic resistance. Vhailor can now remove cursed items.
+COPY_EXISTING ~SPPR307.SPL~ ~override~
+              ~SPWI409.SPL~ ~override~
+  WRITE_BYTE 0xa7 0
+ BUT_ONLY_IF_IT_CHANGES
+
+// The beastiary entry in RESDATA.INI for "Midwife" was tied only to the unused "Midwife" sprite, rather than the
+// one that actually got used - "Midwife [False Colored]".  Adding the entry to the sprite that actually got used.
+COPY_EXISTING ~RESDATA.INI~ ~override~
+  INNER_PATCH ~12~ BEGIN
+    WRITE_BYTE 0 0x0d
+    WRITE_BYTE 1 0x0a
+    READ_ASCII 0 mnl (1)
+    READ_ASCII 1 lnl (1)
+    READ_ASCII 0 wnl (2)
+  END
+  REPLACE_TEXTUALLY ~%mnl%~ ~~
+  REPLACE_TEXTUALLY EXACT_MATCH
+  ~runscale=15.0%lnl%armor=0%lnl%%lnl%[89]~
+  ~runscale=15.0%lnl%bestiary=75%lnl%armor=0%lnl%%lnl%[89]~
+ BUT_ONLY_IF_IT_CHANGES
+
+// Mechanus Cannon spell description says both that it does and does not have a saving throw.  In actuality, it
+// does, and this makes it inferior in every respect to other spells of it's level (such as Meteor Storm Bombardment, which
+// does more damage in a large area of effect, whereas the Cannon has only one target).  Making it have no saving throw,
+// so there's a reason to actually ever use it (actually, even without a saving throw it's still not that great).
+// Changing the "Saving Throw: 1/2" in the description via Fixpack.tra, strrefs 49289 and 51088.
+STRING_SET 49289 @49289
+STRING_SET 51088 @51088
+COPY_EXISTING ~SPWI807.SPL~ ~override~
+  WRITE_LONG 0xee 0
+ BUT_ONLY_IF_IT_CHANGES
+
+// Tons of Transcendent One's combat taunts weren't playing, for the same "RESPONSE" reason as the floating text fixes
+COPY_EXISTING ~1204TRNN.BCS~ ~override~
+              ~1204TRNG.BCS~ ~override~
+   DECOMPILE_BCS_TO_BAF
+     REPLACE_TEXTUALLY ~RESPONSE #100~ ~RESPONSE #20~
+   COMPILE_BAF_TO_BCS
+  BUT_ONLY_IF_IT_CHANGES
+
+
+
+// ================================= FLOATING TEXT FIXES TO AR0400 ====================================
+
+// Starved Dogs Barking Thugs in area outside Smoldering Corpse Bar were supposed to howl occasionally.
+// Jhelai was supposed to mutter drunkenly.  The Drunken Harlot, too.  And a wandering drunk.
+COPY_EXISTING ~0400DOG1.BCS~ ~override~
+              ~0400DOG2.BCS~ ~override~
+              ~0400DOG3.BCS~ ~override~
+              ~0400D1.BCS~   ~override~
+              ~0400D2.BCS~   ~override~
+              ~0400DHAR.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~TimerExpired(1)~ ~!TimerActive(1)~
+   REPLACE_TEXTUALLY ~RESPONSE #25~ ~RESPONSE #25 StartRandomTimer(1,15,20) SetInternal(Myself,INTERNAL_0,1)~
+   REPLACE_TEXTUALLY ~FloatMessage~ ~SetInternal(Myself,INTERNAL_0,0) FloatMessage~
+   REPLACE_TEXTUALLY ~True()~ ~Internal(Myself,INTERNAL_0,0)~
+   REPLACE_TEXTUALLY ~MoveToPoint~ ~SetInternal(Myself,INTERNAL_0,1) StartTimer(1,20) MoveToPoint~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Making sure Jhelai doesn't mutter drunkenly after he sobers up (after quest).
+COPY_EXISTING ~0400D1.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~!TimerActive(1)~ ~!TimerActive(1) GlobalLT("Craddock_Quest","GLOBAL",3)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+<<<<<<<< .../inlinedfile/jhelaisober.baf
+IF
+  !TimerActive(1)
+  GlobalGT("Craddock_Quest","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetInternal(Myself,INTERNAL_0,0)
+END
+>>>>>>>>
+EXTEND_BOTTOM ~0400D1.BCS~ ~.../inlinedfile/jhelaisober.baf~
+
+// Wandering drunk outside smoldering corpse would often get stuck on west side of map
+COPY_EXISTING ~0400D2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~,142)~ ~,50)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Starved Dogs thugs' scripts return them to points far from their starting points, spreading them all over the place.
+// This made the fight trivial, as they couldn't help each other.
+// All other scripts' return points are equal to their starting points.
+// This makes them much less likely to get stuck/lost too, which happened often.
+COPY_EXISTING ~0400DOG1.BCS~ ~override~
+              ~0400DOG2.BCS~ ~override~
+              ~0400DOG3.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~[3813.1715]~ ~[3583.763]~
+   REPLACE_TEXTUALLY EXACT_MATCH ~[4008.1756]~ ~[3544.795]~
+   REPLACE_TEXTUALLY EXACT_MATCH ~[3827.1842]~ ~[3582.800]~
+   REPLACE_TEXTUALLY EXACT_MATCH ~,161)~ ~,88)~
+   REPLACE_TEXTUALLY EXACT_MATCH ~,216)~ ~,88)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// =================================================== VERSION 3.0 =====================================================================
+
+// ================================================= LOWER WARD FIXES ==================================================================
+
+// Both patrolling Harmonium Guards in Lower Ward are set to Inanimate rather than Neutral. This makes them controllable as PC's and.
+// messes up their AI and aggro responses.  Their stats are abysmal also.  Essentially their creature files are undefined.
+// Copying normal Harmonium guard over their creature files, changing what's necessary.
+
+COPY_EXISTING ~HGUARD.CRE~ ~override/MHGUARD.CRE~
+  WRITE_ASCII 0x370 ~DMHGUARD~ (8)
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~HGUARD.CRE~ ~override/FHGUARD.CRE~
+  WRITE_BYTE  0x237 2  // Female
+  WRITE_BYTE  0x319 2  // Female
+  WRITE_ASCII 0x370 ~DFHGUARD~ (8)
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// The same patrolling guards don't aggro unless you attack them directly. They should respond to cries for help.
+COPY_EXISTING ~0500MHGD.BCS~ ~override~
+              ~0500FHGD.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY
+~IF
+  True()~
+~IF
+  Help([ANYONE])
+  !Help([PC])
+THEN
+  RESPONSE #100
+    Enemy()
+    RunningAttack(NearestEnemyOf(LastHelp))
+END
+
+IF
+  !Allegiance(Myself,ENEMY)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Giltspur's customers not responding to attacks. Give them a team.
+<<<<<<<< .../inlinedfile/SetGiltspurTeam.BAF
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetTeam(Myself,TEAM_1)
+END
+>>>>>>>>
+EXTEND_TOP ~0500GILT.BCS~ ~.../inlinedfile/SetGiltspurTeam.BAF~
+EXTEND_TOP ~0500GCUS.BCS~ ~.../inlinedfile/SetGiltspurTeam.BAF~
+
+COPY_EXISTING ~0500GCUS.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~Help("Giltspur")~ ~Help([0.0.TEAM_1])~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// If you waited a bit before collecting Xanthia's reward, and then tried to, the dialogue would say she's giving you the reward but
+// you wouldn't actually get it, because her script was already queued to make her leave the area.
+COPY_EXISTING ~0500XANT.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH
+~IF
+  Internal(Myself,INTERNAL_0,1)
+THEN
+  RESPONSE #100
+    Wait(15)
+    EscapeArea()
+END~
+~IF
+  Internal(Myself,INTERNAL_0,1)
+THEN
+  RESPONSE #100
+    Wait(15)
+    SetInternal(Myself,INTERNAL_0,2)
+END
+
+IF
+  Internal(Myself,INTERNAL_0,2)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// ============================================ IMMUNITY TO FEAR ===================================================
+
+// Definitely constructs and modrons.  Also Ravel, Trias, and Fiend FMB.  Vhailor doesn't need it, he's undead.
+
+// Use an existing item as template to make an invisible one that prevents Horror from working.
+// Also change morale breaking point to 0
+COPY_EXISTING ~IMHOLDCR.ITM~ ~override/IMFEAR.ITM~
+  WRITE_LONG 0xa2 24
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~CBOSS.CRE~    ~override~
+              ~CHIGH.CRE~    ~override~
+              ~CLOW.CRE~     ~override~
+              ~CMED.CRE~     ~override~
+              ~CMOD.CRE~     ~override~
+              ~CSUM.CRE~     ~override~
+              ~BPATRON6.CRE~ ~override~
+              ~BPATRON7.CRE~ ~override~
+              ~BPATRON8.CRE~ ~override~
+              ~BROCUS6.CRE~  ~override~
+              ~MODENG.CRE~   ~override~
+              ~MODMAZ.CRE~   ~override~
+              ~MODMDO.CRE~   ~override~
+              ~MODRON.CRE~   ~override~
+              ~MODENG.CRE~   ~override~
+              ~NORDOM.CRE~   ~override~
+              ~RAVEL.CRE~    ~override~
+              ~TRIAS.CRE~    ~override~
+              ~TRIASA.CRE~   ~override~
+              ~TRIASB.CRE~   ~override~
+              ~TRIASC.CRE~   ~override~
+              ~TRANS.CRE~    ~override~
+              ~TRANS2.CRE~   ~override~
+              ~TRANS3.CRE~   ~override~
+              ~TRANS4.CRE~   ~override~
+              ~TRANS5.CRE~   ~override~
+              ~TRANSCUT.CRE~ ~override~
+              ~TRANSF.CRE~   ~override~
+   WRITE_BYTE 0x240 0  // Morale Breaking Point
+   READ_LONG 0x35c "OffSlots"
+   READ_LONG 0x360 "OffItems"
+   READ_LONG 0x364 "NumItems"
+   WRITE_LONG 0x35c "OffSlots" + 0x14
+   INSERT_BYTES ("OffItems" + (0x14 * "NumItems")) 0x14
+   WRITE_ASCII ("OffItems" + (0x14 * "NumItems")) ~IMFEAR~ (8)
+   WRITE_SHORT ("OffSlots" + 0x14) + 0xc "NumItems"
+   WRITE_LONG 0x364 "NumItems" + 1
+ BUT_ONLY_IF_IT_CHANGES
+
+// ============================================= INFINITE MONEY EXPLOITS ====================================================
+
+// Originally 110/90
+COPY_EXISTING ~BROKAH.STO~ ~override~
+  WRITE_LONG 0x14 120
+  WRITE_LONG 0x18 90
+ BUT_ONLY_IF_IT_CHANGES
+
+// Originally 100/100
+COPY_EXISTING ~CRUMPLE2.STO~ ~override~
+  WRITE_LONG 0x14 115
+  WRITE_LONG 0x18 85
+ BUT_ONLY_IF_IT_CHANGES
+
+// Set all faction vaults to no buy.  Keldor was 100/no buy, Splinter was 90/no buy, Emoric was 120/80, and Conall was 100/80.
+// That made Conall exploitable.  Doing Emoric too to be consistent, and so that you can't sell him quest items and then
+// leave the faction, breaking the quests.
+// They -should- probably all be standardized to 100 sell markup too (why would Emoric be the greediest faction leader by far?),
+// but can't really justify that as a "fix".
+COPY_EXISTING ~CONALL.STO~ ~override~
+  WRITE_BYTE 0x10 5
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~EMORIC.STO~ ~override~
+  WRITE_BYTE 0x10 37
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// ================================== CLEAR 7th PROFICIENCY FIELD FOR USE AS CURRENT MORALE ============================================
+
+// A few odd creatures had a value of 1 in the unused 7th proficiency field, which interferes with scient's morale fixes.  Clearing 'em.
+
+COPY_EXISTING ~SCFPAT.CRE~   ~override~ // (Drusilla)
+              ~SCFPAT2.CRE~  ~override~ // (Smoldering Corpse Patron)
+              ~SCMKRS.CRE~   ~override~ // (Mercykiller)
+              ~SCMPAT.CRE~   ~override~ // (Smoldering Corpse Patron)
+              ~SCMPAT2.CRE~  ~override~ // (Smoldering Corpse Patron)
+              ~SDSENTRY.CRE~ ~override~ // (Starving Dog Sentry)
+  WRITE_BYTE 0x74 0
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// ============================================= NPC'S AGGRO ON PARTY FIX ==============================================================
+
+// If Vhailor aggroes on you in dialogue, and you die or leave the area, and return, he just stands there and doesn't attack again.
+// Same goes for Ignus and other PC's, tho Vhailor is the worst (and he can aggro on Grace or Annah instead of you, also.
+// Assigning these scripts to all PC's that can leave party and aggro on you or other NPC's in QwinnFix.d.
+
+<<<<<<<< .../inlinedfile/MDKTNO.BAF
+IF
+  See("Nameless")
+THEN
+  RESPONSE #100
+    RunningAttack("Nameless")
+END
+>>>>>>>>
+COMPILE ~.../inlinedfile/MDKTNO.BAF~
+
+<<<<<<<< .../inlinedfile/MDKAnnah.BAF
+IF
+  See("Annah")
+THEN
+  RESPONSE #100
+    RunningAttack("Annah")
+END
+>>>>>>>>
+COMPILE ~.../inlinedfile/MDKAnnah.BAF~
+
+<<<<<<<< .../inlinedfile/MDKGrace.BAF
+IF
+  See("Grace")
+THEN
+  RESPONSE #100
+    RunningAttack("Grace")
+END
+>>>>>>>>
+COMPILE ~.../inlinedfile/MDKGrace.BAF~
+
+// ========================== DAK'KON's ZERTH BLADE FIXES ===========================
+
+// Fixes to Dak'kon's blade progression, which actually matters now due to engine fixes
+// to morale.
+
+/* Original, unmodded progression
+
+Low level:
+
+Low morale (Kinstealer): 3-10 damage, no AC bonus, one 1st level spell
+Mid morale (Chained):    2-9  damage, +1 AC bonus, one 1st level spell
+High morale (Streaming): 2-9  damage, +1 AC bonus, two 1st level spells
+
+Mid level:
+
+Low morale (Kinstealer): 4-16 damage, +1 AC bonus, one 1st level spell
+Mid morale (Chained):    3-12 damage, +4 AC bonus, two 1st level spells, one 2nd level spell
+High morale (Streaming): 3-12 damage, +2 AC bonus, double 1st level spell, one 2nd level spell
+
+High level:
+
+Low morale (Kinstealer): 6-24 damage, +2 AC bonus, double 1st level spells
+Mid morale (Chained):    5-20 damage, +6 AC bonus, double 1st and 2nd level spells
+High morale (Streaming): 5-20 damage, +3 AC bonus, double 1st and 2nd spells, one 3rd level spell
+
+*/
+
+/* New progression
+
+Low level:
+
+Low morale (Kinstealer): 3-10 damage, no AC bonus, one 1st level spell
+Mid morale (Chained):    2-9  damage, +1 AC bonus, one 1st level spell
+High morale (Streaming): 3-10 damage, +2 AC bonus, two 1st level spells
+
+Mid level:
+
+Low morale (Kinstealer): 4-16 damage, +1 AC bonus, one 1st level spell
+Mid morale (Chained):    3-12 damage, +2 AC bonus, two 1st level spells, one 2nd level spell
+High morale (Streaming): 4-16 damage, +4 AC bonus, double 1st level spell, one 2nd level spell
+
+High level:
+
+Low morale (Kinstealer): 6-24 damage, +2 AC bonus, double 1st level spells
+Mid morale (Chained):    5-20 damage, +3 AC bonus, double 1st and 2nd level spells
+High morale (Streaming): 6-24 damage, +6 AC bonus, double 1st and 2nd spells, one 3rd level spell
+
+*/
+
+// Version 4.0, lowering high morale blades back down to original damage.
+
+COPY_EXISTING ~NKARACH2.ITM~ ~override~
+    WRITE_SHORT 0xD6 2   // AC Bonus
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~GKARACH.ITM~ ~override~
+    WRITE_SHORT 0xD6 2   // AC Bonus
+//    WRITE_SHORT 0xB0 8   // Damage - Dice Size
+//    WRITE_SHORT 0xB2 1   // Damage - # Dice
+//    WRITE_SHORT 0xB4 2   // Damage - Bonus damage
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~GKARACH2.ITM~ ~override~
+    WRITE_SHORT 0xD6 4   // AC Bonus
+//    WRITE_SHORT 0xB0 4   // Damage - Dice Size
+//    WRITE_SHORT 0xB2 4   // Damage - # Dice
+//    WRITE_SHORT 0xB4 0   // Damage - Bonus damage
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~NKARACH3.ITM~ ~override~
+    WRITE_SHORT 0xD6 3   // AC Bonus
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~GKARACH3.ITM~ ~override~
+    WRITE_SHORT 0xD6 6   // AC Bonus
+//    WRITE_SHORT 0xB0 10  // Damage - Dice Size
+//    WRITE_SHORT 0xB2 2   // Damage - # Dice
+//    WRITE_SHORT 0xB4 4   // Damage - Bonus damage
+ BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET 30022 @30022
+STRING_SET 50894 @50894
+STRING_SET 50929 @50929
+STRING_SET 66374 @66374
+STRING_SET 66375 @66375
+
+// ======================================= PICKPOCKETING ELI HAVELOCK FIXES =====================================
+
+<<<<<<<< .../inlinedfile/pocket.baf
+IF
+  PickPocketFailed(Protagonist)
+THEN
+  RESPONSE #100
+    SetGlobal("CW_PP_Eli","GLOBAL",1)
+    Dialogue("Nameless")
+END
+>>>>>>>>
+EXTEND_TOP_REGEXP ~0601ELI[0-6].BCS~ ~.../inlinedfile/pocket.baf~
+
+
+COPY_EXISTING ~0600ELIH.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~PickPocketFailed([PC])~ ~PickPocketFailed(Protagonist)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+ 
+
+// ============================================ FOUNDRY FIXES ======================================================
+// Per the Foundry's original designer, the Alarm1 and Alarm2 settings were meant to reset if you left and came back
+// (Alarm1) or after a period of time (Alarm2).  Implementing this, but adding a variable to track if you've actually
+// killed a Godsman.  If you have, Alarm2 won't reset.
+
+
+<<<<<<<< .../inlinedfile/TurnOffAlarms502.BAF
+IF
+  Global("Current_Area","GLOBAL",500)
+  Global("Alarm1","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("Alarm1","GLOBAL",0)
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR0502.BCS~ ~.../inlinedfile/TurnOffAlarms502.BAF~
+
+
+<<<<<<<< .../inlinedfile/TurnOffAlarms500.BAF
+IF
+  !Global("Current_Area","GLOBAL",500)
+  !Global("Current_Area","GLOBAL",502)
+  Global("Alarm2","GLOBAL",1)
+  GlobalTimerExpired("Alarm2_Timer","GLOBAL")
+  GlobalLT("Killed_Godsman","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("Alarm2","GLOBAL",0)
+END
+
+IF
+  Global("Alarm2","GLOBAL",1)
+  GlobalGT("Killed_Godsman","GLOBAL",0)
+  Global("Join_Godsmen","GLOBAL",6)
+THEN
+  RESPONSE #100
+    SetGlobal("Join_Godsmen","GLOBAL",7)
+END
+>>>>>>>>
+EXTEND_TOP ~AR0500.BCS~ ~.../inlinedfile/TurnOffAlarms500.BAF~
+
+// Don't make Harmonium Guards aggro if Godsmen guards are mad, since Godsmen can de-aggro and Harmonium Guards don't.
+// Reasonable to believe Harmonium would let Godsmen deal with their own problems.
+COPY_EXISTING ~0500MHGD.BCS~ ~override~
+              ~0500FHGD.BCS~ ~override~
+              ~0500VRTN.BCS~ ~override~
+              ~0500SGRD.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~Help([ANYONE])~ ~Help([ANYONE])!Help([0.0.FOUNDRY_GUARD])~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+
+<<<<<<<< .../inlinedfile/StartAlarm2Timer.BAF
+IF
+  Global("Alarm2","GLOBAL",1)
+  !GlobalTimerNotExpired("Alarm2_Timer","GLOBAL")
+THEN
+  RESPONSE #100
+    SetGlobalTimer("Alarm2_Timer","GLOBAL",14400)
+END
+>>>>>>>>
+EXTEND_BOTTOM ~AR0500.BCS~ ~.../inlinedfile/StartAlarm2Timer.BAF~
+EXTEND_BOTTOM ~AR0502.BCS~ ~.../inlinedfile/StartAlarm2Timer.BAF~
+EXTEND_BOTTOM ~AR0503.BCS~ ~.../inlinedfile/StartAlarm2Timer.BAF~
+EXTEND_BOTTOM ~AR0511.BCS~ ~.../inlinedfile/StartAlarm2Timer.BAF~
+EXTEND_BOTTOM ~AR0512.BCS~ ~.../inlinedfile/StartAlarm2Timer.BAF~
+
+
+<<<<<<<< .../inlinedfile/DeathAlarm.BAF
+IF
+  Global("Alarm2","GLOBAL",0)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    ChangeEnemyAlly(Myself,NEUTRAL)
+END
+
+IF
+  Die()
+THEN
+  RESPONSE #100
+    SetGlobal("Alarm2","GLOBAL",1)
+    SetGlobalTimer("Alarm2_Timer","GLOBAL",14400)
+    IncrementGlobal("Killed_Godsman","GLOBAL",1)
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~0500GGRD.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0502GENA.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0502GFCL.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0502GUAA.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0503BEDI.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0503GGRD.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0503KELD.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0503ROSA.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0503SARS.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0503SMTH.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0503WORK.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0503XAND.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0511ING1.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0511ING2.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+EXTEND_TOP ~0512GRD1.BCS~ ~.../inlinedfile/DeathAlarm.BAF~  // See below for why not doing other 3 guard scripts
+EXTEND_TOP ~0512WKAT.BCS~ ~.../inlinedfile/DeathAlarm.BAF~
+
+COPY_EXISTING ~0500GGRD.BCS~ ~override~
+              ~0502GENA.BCS~ ~override~
+              ~0502GFCL.BCS~ ~override~
+              ~0502GUAA.BCS~ ~override~
+              ~0503BEDI.BCS~ ~override~
+              ~0503GGRD.BCS~ ~override~
+              ~0503KELD.BCS~ ~override~
+              ~0503ROSA.BCS~ ~override~
+              ~0503SARS.BCS~ ~override~
+              ~0503SMTH.BCS~ ~override~
+              ~0503WORK.BCS~ ~override~
+              ~0503XAND.BCS~ ~override~
+              ~0511ING1.BCS~ ~override~
+              ~0511ING2.BCS~ ~override~
+              ~0512GRD1.BCS~ ~override~ // Ditto
+              ~0512WKAT.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH
+~IF
+  AttackedBy([PC],DEFAULT)
+THEN
+  RESPONSE #100~
+~IF
+  AttackedBy([PC],DEFAULT)
+THEN
+  RESPONSE #100
+    SetGlobal("Alarm2","GLOBAL",1)
+    SetGlobalTimer("Alarm2_Timer","GLOBAL",14400)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Foundry Smith script doesn't return them to saved place for some reason
+COPY_EXISTING ~0503SMTH.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY
+~True()
+  False()~
+~!NearSavedLocation(0)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Noted that the guards in the machine room have very similar, slightly different scripts, but one is best. Copying
+// that over all others. Major difference is to tell them to return to saved place if they move, missing in others.
+COPY_EXISTING ~0512GRD1.BCS~ ~override/0512GRD2.BCS~
+COPY_EXISTING ~0512GRD1.BCS~ ~override/0512GRD3.BCS~
+COPY_EXISTING ~0512GRD1.BCS~ ~override/0512GRD4.BCS~
+
+// Turn off floating messages if hostile
+COPY_EXISTING_REGEXP GLOB ~0502WOR.*.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~True()~ ~Allegiance(Myself,NEUTRAL)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0503KELD.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~True()~ ~Global("Alarm2","GLOBAL",0)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0502THIL.BCS~ ~override~
+              ~0502GFSU.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~Range~ ~Allegiance(Myself,NEUTRAL)Range~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Not really related, but - Keldor will now say "Saros, good to see you!" when Saros approaches him, rather than Saros saying it to himself.
+COPY_EXISTING ~0503SARS.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~FloatMessage(Myself~ ~FloatMessage("Keldor"~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+ 
+
+// =========================================== FESTHALL TEAM FIXES ==================================================
+// Named creatures in Area 0601 (main Festhall) aren't assigned to the teams they protect, which leads to very screwy behavior.
+
+// Death's Advocate - TEAM_6 - 30
+COPY_EXISTING ~DADVOC.CRE~ ~override~
+  WRITE_BYTE 0x312 30
+ BUT_ONLY_IF_IT_CHANGES
+
+// Ghysis the Crooked - TEAM_4 - 29
+COPY_EXISTING ~GHYSIS.CRE~ ~override~
+  WRITE_BYTE 0x312 29
+ BUT_ONLY_IF_IT_CHANGES
+
+// Jolmi - TEAM_1 - 26
+COPY_EXISTING ~JOLMI.CRE~ ~override~
+  WRITE_BYTE 0x312 26
+ BUT_ONLY_IF_IT_CHANGES
+
+// Three Planes Aligned - TEAM_5 - 45
+COPY_EXISTING ~3PLANES.CRE~ ~override~
+  WRITE_BYTE 0x312 45
+ BUT_ONLY_IF_IT_CHANGES
+
+// Qui-Sai - TEAM_2 - 27
+// Version 4.1:  devsin correctly pointed out I was using the wrong script name, was "QUISAI.CRE", needs to be "QUISAIF.CRE".
+COPY_EXISTING ~QUISAIF.CRE~ ~override~
+  WRITE_BYTE 0x312 35
+ BUT_ONLY_IF_IT_CHANGES
+
+// Mertwyn the Headless - TEAM_1 - 26
+COPY_EXISTING ~MERTWYN.CRE~ ~override~
+  WRITE_BYTE 0x312 26
+ BUT_ONLY_IF_IT_CHANGES
+
+// Montague - TIEFLING_COUPLE... this makes Splinter react to your attacking him. Montague himself protects Teams 1, 2 and 4,
+// all the rooms he patrols through.
+COPY_EXISTING ~MONTAGU.CRE~ ~override~
+  WRITE_BYTE 0x312 34
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Taking Jumble Murdersense's scripting to defend every Sensate in the hall out.  He's not even a Sensate, he's a Xaositect.
+// No one else protects him.  He's a bastard to begin with.  And it breaks his quests.
+COPY_EXISTING ~0601JUMB.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH
+~IF
+  Help([0.SENSATE])
+  InternalGT(Myself,INTERNAL_0,8)
+THEN
+  RESPONSE #100
+    Enemy()
+    Help()
+    RunAwayFrom(NearestEnemyOf(LastHelp),50)
+END~ ~~
+   REPLACE_TEXTUALLY EXACT_MATCH
+~IF
+  Help([0.SENSATE])
+  Internal(Myself,INTERNAL_0,0)
+THEN
+  RESPONSE #100
+    Enemy()
+    Help()
+    FaceObject(NearestEnemyOf(LastHelp))
+    SetInternal(Myself,INTERNAL_0,1)
+END~ ~~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Lady Thorncombe's main script has her defending all Sensates, instead of mages-in-training as her other 5 scripts do.
+COPY_EXISTING ~0601LADY.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~[0.SENSATE]~ ~[0.0.TEAM_9]~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Set the three instructors to their new teams when they resume their instructor duties.
+COPY_EXISTING ~0601CS1.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~ForceAIScript("","QuiSai",DEFAULT)~ ~SetTeam(Myself,TEAM_7)ForceAIScript("","QuiSai",DEFAULT)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+ 
+// Leaving the faction or snitching had no effect on the Anarchist cell, which makes no sense.
+// Also, area script was unattached.
+COPY_EXISTING ~AR0510.ARE~ ~override~
+  WRITE_ASCII 0x94 ~AR0510~ (8)
+ BUT_ONLY_IF_IT_CHANGES
+
+<<<<<<<< .../inlinedfile/AnarchLeave.BAF
+IF
+  Global("Know_Anarchists","GLOBAL",2)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+
+IF
+  Global("Join_Anarchists","GLOBAL",2)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+>>>>>>>>
+EXTEND_TOP ~0510ANAR.BCS~ ~.../inlinedfile/AnarchLeave.BAF~
+
+
+<<<<<<<< .../inlinedfile/SetEliTeam.BAF
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetTeam(Myself,TEAM_8)
+END
+>>>>>>>>
+EXTEND_TOP ~0601ELI0.BCS~ ~.../inlinedfile/SetEliTeam.BAF~
+
+<<<<<<<< .../inlinedfile/SetThornTeam.BAF
+IF
+  OnCreation()
+THEN
+  RESPONSE #100
+    SetTeam(Myself,TEAM_9)
+END
+>>>>>>>>
+EXTEND_TOP ~0601LADY.BCS~ ~.../inlinedfile/SetThornTeam.BAF~
+
+// ================================== RAVEL "What can change..." CUTSCENE FIX =======================================
+
+// When talking with Ravel, at one point she brings up her question - "What can change the nature of a man?" It is exceedingly clear
+// from the dialogue that depending on stat checks (either INT or WIS greater than 15 will do) you can remember the question prior to
+// her asking it, and the dialogue explicitly says you're supposed to beat her to it. However, the same cutscene script plays whether
+// you pass the stat check or not, and in it, Ravel asks the question, then you reply in a tone as if you never heard it before. There
+// -is- an unimplemented sound file available that asks the same question -without- that tone, and from the numbering sequence clearly
+// was meant to be the file that played if you did pass the stat check (which I suspect nearly everyone does).
+
+<<<<<<<< .../inlinedfile/0610CUTC.BAF
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Ravel")
+    SetInternal(Myself,INTERNAL_0,1)
+    ApplySpell("Nameless",SPECIAL_TINT_SCREEN)
+    Wait(5)
+    PlaySoundNotRanged("RAV079B")
+    Wait(5)
+    SetAnimState(Myself,ANIM_MIMESTANDFIDGET1)
+    Dialogue([PC])
+    SetInternal(Myself,INTERNAL_0,0)
+    EndCutSceneMode()
+END
+
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("Nameless")
+    Wait(1)
+    PlaySoundNotRanged("NAM210B")
+    PlaySequence(ANIM_TALK)
+END
+>>>>>>>>
+COMPILE ~.../inlinedfile/0610CUTC.BAF~ ~override~
+
+
+
+// ========================================= DILIGENCE HARMONIUM FIX ================================================
+// Diligence is supposed to call the guards off you, but it only partially works, not affecting currently hostile guards.
+
+<<<<<<<< .../inlinedfile/MKLeave.BAF
+IF
+  Global("MK_Counter","GLOBAL",-5)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    ChangeEnemyAlly(Myself,NEUTRAL)
+    EscapeArea()
+END
+>>>>>>>>
+EXTEND_TOP ~0600HSRG.BCS~ ~.../inlinedfile/MKLeave.BAF~
+EXTEND_TOP ~0600HGRD.BCS~ ~.../inlinedfile/MKLeave.BAF~
+
+<<<<<<<< .../inlinedfile/GoNeutral.BAF
+IF
+  Global("MK_Counter","GLOBAL",-5)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    ChangeEnemyAlly(Myself,NEUTRAL)
+END
+>>>>>>>>
+EXTEND_TOP_REGEXP ~0600HRG[1-2].BCS~ ~.../inlinedfile/GoNeutral.BAF~
+EXTEND_TOP_REGEXP ~0600HRP[1-6].BCS~ ~.../inlinedfile/GoNeutral.BAF~
+
+/*  Holding off on this pending further review
+
+// When in trouble due to an attack, shouldn't have to additionally go up and insult a commoner in dialogue to get Diligence to help you
+// This actually technically gets you in more trouble for attacking people.
+COPY_EXISTING ~0600JOLM.BCS~ ~override~
+              ~0600MALM.BCS~ ~override~
+              ~0600MIME.BCS~ ~override~
+              ~0600POET.BCS~ ~override~
+              ~0600RATT.BCS~ ~override~
+              ~0600SALA.BCS~ ~override~
+              ~0600TIPA.BCS~ ~override~
+              ~0601DADV.BCS~ ~override~
+              ~0601GHYS.BCS~ ~override~
+              ~0601JOLM.BCS~ ~override~
+              ~0601JUMB.BCS~ ~override~
+              ~0601LADY.BCS~ ~override~
+              ~0601MERR.BCS~ ~override~
+              ~0601MERT.BCS~ ~override~
+              ~0601MONT.BCS~ ~override~
+              ~0601QSAI.BCS~ ~override~
+              ~0601SPLI.BCS~ ~override~
+              ~0601TPA.BCS~  ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~GlobalSet("Call_MK","GLOBAL",1)~ ~SetGlobal("Call_MK","GLOBAL",1)IncrementGlobal("MK_Counter","GLOBAL",1)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING_REGEXP ~0600MER[1-2].BCS~ ~override~
+                     ~0600MIW[1-3].BCS~ ~override~
+                     ~0600PA1[0-1].BCS~ ~override~
+                     ~0600PAT[1-7].BCS~ ~override~
+                     ~0600POW[1-3].BCS~ ~override~
+                     ~0600SEN[1-6].BCS~ ~override~
+                     ~0600UCH[1-5].BCS~ ~override~
+                     ~0601ELI[0-6].BCS~ ~override~
+                     ~0601LT[1-4].BCS~  ~override~
+                     ~0601MIT[1-3].BCS~ ~override~
+                     ~0601MM[1-7].BCS~  ~override~
+                     ~0601MW[1-5].BCS~  ~override~
+                     ~0601QS[0-6].BCS~  ~override~
+                     ~0601SN[1-6]A.BCS~ ~override~
+                     ~0601THF[1-9].BCS~ ~override~
+                     ~0601THF[A-C].BCS~ ~override~
+                     ~0601WIT[1-6].BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~GlobalSet("Call_MK","GLOBAL",1)~ ~SetGlobal("Call_MK","GLOBAL",1)IncrementGlobal("MK_Counter","GLOBAL",1)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+ 
+*/
+
+
+// =============================================== WEIGHT FIXES =====================================================
+// Fixes to items where the weight specified in the item's description differed from the actual weight.  Fixes were
+// made to the actual weight.
+
+// Cheese.  Description Weight: 0.  Actual Weight: 1.
+COPY_EXISTING ~CHEESE.ITM~ ~override~
+  WRITE_LONG 0x4C 0
+ BUT_ONLY_IF_IT_CHANGES
+
+// Crimson Veil.  Description Weight: 0.  Actual Weight: 1.
+COPY_EXISTING ~CVEIL.ITM~ ~override~
+  WRITE_LONG 0x4C 0
+ BUT_ONLY_IF_IT_CHANGES
+
+/* Version 4.1:  Retracting all these changes.  Going with changing description rather than item. 
+// Redoing it all way below in the devSin items section.
+
+// Entropic Blade - Axe version.  Description - Weight: 7 Speed: 7.  Actual - Weight: 1 Speed: 1.
+COPY_EXISTING ~EAXE.ITM~ ~override~
+  WRITE_LONG 0x4C 7
+  WRITE_SHORT 0xAC 7
+ BUT_ONLY_IF_IT_CHANGES
+
+// Entropic Blade - Dagger version.  Has two descriptions.  Setting both to the Weight: 1 Speed: 1 description, which matches the actual stats.
+// Oops, did this wrong, fixed in version 4.0
+COPY_EXISTING ~EDAG.ITM~ ~override~
+  WRITE_LONG 0x54 26067
+ BUT_ONLY_IF_IT_CHANGES
+
+// Entropic Blade - Fist version.  Description - Weight: 2 Speed: 1.  Actual - Weight: 1 Speed: 1.
+COPY_EXISTING ~EFIST.ITM~ ~override~
+  WRITE_LONG 0x4C 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Entropic Blade - Mace version.  Description - Weight: 12 Speed: 7.  Actual - Weight: 1 Speed: 1.
+COPY_EXISTING ~EMACE.ITM~ ~override~
+  WRITE_LONG 0x4C 12
+  WRITE_SHORT 0xAC 7
+ BUT_ONLY_IF_IT_CHANGES
+*/
+
+// Mortuary Front Door Key.  Description - Weight: 0.  Actual - Weight: 1.
+COPY_EXISTING ~KEYMO.ITM~ ~override~
+  WRITE_LONG 0x4C 0
+ BUT_ONLY_IF_IT_CHANGES
+
+// Gehraise's Ring.  Description - Weight: 0.  Actual - Weight: 1.
+COPY_EXISTING ~RING01.ITM~ ~override~
+  WRITE_LONG 0x4C 0
+ BUT_ONLY_IF_IT_CHANGES
+
+// Mirror of Imaging.  Description Weight: 2.  Actual Weight: 1.
+COPY_EXISTING ~MIRIMAG.ITM~ ~override~
+  WRITE_LONG 0x4C 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Rod of Modron Might.  Description Weight: 5.  Actual Weight: 0.
+COPY_EXISTING ~MODMITE.ITM~ ~override~
+  WRITE_LONG 0x4C 5
+ BUT_ONLY_IF_IT_CHANGES
+
+// Rat Charm.  Description Weight: 0.  Actual Weight:  1.
+COPY_EXISTING ~RATCHARM.ITM~ ~override~
+  WRITE_BYTE 0x4c 0
+ BUT_ONLY_IF_IT_CHANGES
+
+// Tarnished Silver Bracelet.  Description Weight: 1.  Actual Weight: 0.
+COPY_EXISTING ~TSILBRA.ITM~ ~override~
+  WRITE_LONG 0x4C 1
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// ========================================== The Locks Difficulty Fixes =============================================
+
+// House in Curst.  Chest contains very valuable Axe of the Jester and Magic Punch Daggers, was difficulty 5.
+COPY_EXISTING ~AR0104C.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (0 * "Q_Siz_Conta") + 0x26) 75
+ BUT_ONLY_IF_IT_CHANGES
+
+// 2rd floor Mortuary - orig difficulty 5 - making it 50% openable by TNO, 100% openable by Morte
+// This is the cabinet containing the Scale of Souls.
+COPY_EXISTING ~AR0202.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (21 * "Q_Siz_Conta") + 0x26) 14
+ BUT_ONLY_IF_IT_CHANGES
+
+// 3rd floor Mortuary - both orig difficulty 5.  The 20 difficulty one will require a 9 strength character to use prybar.
+COPY_EXISTING ~AR0203.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (1 * "Q_Siz_Conta") + 0x26) 17
+  WRITE_SHORT ("Q_Off_Conta" + (11 * "Q_Siz_Conta") + 0x26) 22
+ BUT_ONLY_IF_IT_CHANGES
+
+// Hive market area.  Container contains crap.  Just enough difficulty to qualify as "locked".
+COPY_EXISTING ~AR0300.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (0 * "Q_Siz_Conta") + 0x26) 17
+ BUT_ONLY_IF_IT_CHANGES
+
+// Phineas Lort's place.  Container contains crap.  Just enough difficulty to qualify as "locked".
+COPY_EXISTING ~AR0302.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (1 * "Q_Siz_Conta") + 0x26) 19
+ BUT_ONLY_IF_IT_CHANGES
+
+// Room behind Lort's.  Contains minor loot (Recall charm, 2 bandages, needle).  Easy lock.
+COPY_EXISTING ~AR0303.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (0 * "Q_Siz_Conta") + 0x26) 24
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Crate in Tenement of Thugs. Container openable with key. Original difficulty 5.
+// Also, the Secret Door in Tenement of Thugs makes the entire Tenement utterly trivial.  Trapping and Locking it.
+COPY_EXISTING ~AR0403.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (14 * "Q_Siz_Conta") + 0x26) 75
+  READ_LONG 0xa8 "Q_Off_Doors"
+  SET "Q_Siz_Doors" = 0xc8
+  WRITE_SHORT ("Q_Off_Doors" + (19 * "Q_Siz_Doors") + 0x8c) 70
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Crate in Lower Ward market. Minor loot. Original difficulty 7.
+COPY_EXISTING ~AR0504.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (0 * "Q_Siz_Conta") + 0x26) 45
+ BUT_ONLY_IF_IT_CHANGES
+
+// Crate in Brokah and Miccah's house. Minor loot. Original difficulty 7.
+COPY_EXISTING ~AR0505.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (0 * "Q_Siz_Conta") + 0x26) 20
+ BUT_ONLY_IF_IT_CHANGES
+
+// Lothar's place.  No or crap loot.  Original difficulty 5 or 6.  Give decent locks so PickLockFailed() in the trap script can possibly work.
+// It was supposed to make Lothar mad if you picklock him and fail.  Incomplete though, doesn't work.
+COPY_EXISTING ~AR0508.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (0 * "Q_Siz_Conta") + 0x26) 50
+  WRITE_SHORT ("Q_Off_Conta" + (1 * "Q_Siz_Conta") + 0x26) 50
+  WRITE_SHORT ("Q_Off_Conta" + (2 * "Q_Siz_Conta") + 0x26) 50
+  WRITE_SHORT ("Q_Off_Conta" + (3 * "Q_Siz_Conta") + 0x26) 50
+ BUT_ONLY_IF_IT_CHANGES
+
+// Festhall, Sleeping area.
+COPY_EXISTING ~AR0602.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (1 * "Q_Siz_Conta") + 0x26) 60
+  WRITE_SHORT ("Q_Off_Conta" + (2 * "Q_Siz_Conta") + 0x26) 65
+  WRITE_SHORT ("Q_Off_Conta" + (6 * "Q_Siz_Conta") + 0x26) 55
+  WRITE_SHORT ("Q_Off_Conta" + (14 * "Q_Siz_Conta") + 0x26) 65
+  READ_LONG 0xa8 "Q_Off_Doors"
+  SET "Q_Siz_Doors" = 0xc8
+  WRITE_SHORT ("Q_Off_Doors" + (1 * "Q_Siz_Doors") + 0x8c) 60
+  WRITE_SHORT ("Q_Off_Doors" + (2 * "Q_Siz_Doors") + 0x8c) 60
+  WRITE_SHORT ("Q_Off_Doors" + (4 * "Q_Siz_Doors") + 0x8c) 65
+ BUT_ONLY_IF_IT_CHANGES
+
+// Brothel.  All difficulties are original difficulty * 10, except 4th one that was set to 10, made that one 80
+COPY_EXISTING ~AR0605.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (0 * "Q_Siz_Conta") + 0x26) 50
+  WRITE_SHORT ("Q_Off_Conta" + (1 * "Q_Siz_Conta") + 0x26) 70
+  WRITE_SHORT ("Q_Off_Conta" + (3 * "Q_Siz_Conta") + 0x26) 50
+  WRITE_SHORT ("Q_Off_Conta" + (4 * "Q_Siz_Conta") + 0x26) 80
+  WRITE_SHORT ("Q_Off_Conta" + (11 * "Q_Siz_Conta") + 0x26) 40
+  WRITE_SHORT ("Q_Off_Conta" + (12 * "Q_Siz_Conta") + 0x26) 30
+  WRITE_SHORT ("Q_Off_Conta" + (14 * "Q_Siz_Conta") + 0x26) 20
+  WRITE_SHORT ("Q_Off_Conta" + (16 * "Q_Siz_Conta") + 0x26) 50
+  WRITE_SHORT ("Q_Off_Conta" + (18 * "Q_Siz_Conta") + 0x26) 20
+  WRITE_SHORT ("Q_Off_Conta" + (19 * "Q_Siz_Conta") + 0x26) 30
+  WRITE_SHORT ("Q_Off_Conta" + (22 * "Q_Siz_Conta") + 0x26) 20
+ BUT_ONLY_IF_IT_CHANGES
+
+// Curst Inner Area
+COPY_EXISTING ~AR0701.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (1 * "Q_Siz_Conta") + 0x26) 65
+  WRITE_SHORT ("Q_Off_Conta" + (2 * "Q_Siz_Conta") + 0x26) 65
+  WRITE_LONG  ("Q_Off_Conta" + (4 * "Q_Siz_Conta") + 0x28) 0x0001   // Flag wasn't set, leaving diff at 25
+  WRITE_SHORT ("Q_Off_Conta" + (5 * "Q_Siz_Conta") + 0x26) 75
+  WRITE_LONG  ("Q_Off_Conta" + (6 * "Q_Siz_Conta") + 0x28) 0x0001   // Flag wasn't set, leaving diff at 25
+ BUT_ONLY_IF_IT_CHANGES
+
+// Curst house.  Lots of gold stuff.  Original difficulty 40.
+COPY_EXISTING ~AR0703.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (2 * "Q_Siz_Conta") + 0x26) 75
+ BUT_ONLY_IF_IT_CHANGES
+
+// Curst Bar
+COPY_EXISTING ~AR0704.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (1 * "Q_Siz_Conta") + 0x26) 70
+  READ_LONG 0xa8 "Q_Off_Doors"
+  SET "Q_Siz_Doors" = 0xc8
+  WRITE_SHORT ("Q_Off_Doors" + (1 * "Q_Siz_Doors") + 0x8c) 60
+  WRITE_SHORT ("Q_Off_Doors" + (4 * "Q_Siz_Doors") + 0x8c) 65
+ BUT_ONLY_IF_IT_CHANGES
+
+// Finam's House.  Gold Bracelet.
+COPY_EXISTING ~AR0706B.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (1 * "Q_Siz_Conta") + 0x26) 70
+ BUT_ONLY_IF_IT_CHANGES
+
+// Curst Gone.
+COPY_EXISTING ~AR0800.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (0 * "Q_Siz_Conta") + 0x26) 70
+  WRITE_SHORT ("Q_Off_Conta" + (1 * "Q_Siz_Conta") + 0x26) 60
+  WRITE_SHORT ("Q_Off_Conta" + (3 * "Q_Siz_Conta") + 0x26) 12
+ BUT_ONLY_IF_IT_CHANGES
+
+// Curst in Carceri, Outer
+COPY_EXISTING ~AR0900.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (0 * "Q_Siz_Conta") + 0x26) 70
+  WRITE_SHORT ("Q_Off_Conta" + (3 * "Q_Siz_Conta") + 0x26) 80
+  WRITE_SHORT ("Q_Off_Conta" + (4 * "Q_Siz_Conta") + 0x26) 70
+ BUT_ONLY_IF_IT_CHANGES
+
+// Curst in Carceri, Outer
+COPY_EXISTING ~AR0901.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (1 * "Q_Siz_Conta") + 0x26) 80
+  WRITE_SHORT ("Q_Off_Conta" + (2 * "Q_Siz_Conta") + 0x26) 90
+  WRITE_SHORT ("Q_Off_Conta" + (4 * "Q_Siz_Conta") + 0x26) 70
+  WRITE_SHORT ("Q_Off_Conta" + (11 * "Q_Siz_Conta") + 0x26) 95
+ BUT_ONLY_IF_IT_CHANGES
+
+// TNO's Tomb off Drowned Nations.  Original 12.  A strength 9 mage without knock here -can- bash it open, but it'll probably take a few tries.
+COPY_EXISTING ~AR1402.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (0 * "Q_Siz_Conta") + 0x26) 17
+ BUT_ONLY_IF_IT_CHANGES
+
+// Dead Nations - Leaving it mostly as is, only bumping up the one really rich crate (500 copper).
+COPY_EXISTING ~AR1500.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (1 * "Q_Siz_Conta") + 0x26) 30
+ BUT_ONLY_IF_IT_CHANGES
+
+// Warrens of Thought jail cell
+COPY_EXISTING ~AR1600.ARE~ ~override~
+  READ_LONG 0xa8 "Q_Off_Doors"
+  SET "Q_Siz_Doors" = 0xc8
+  WRITE_SHORT ("Q_Off_Doors" + (9 * "Q_Siz_Doors") + 0x8c) 60
+ BUT_ONLY_IF_IT_CHANGES
+
+// Drowned Nations
+COPY_EXISTING ~AR1700.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (4 * "Q_Siz_Conta") + 0x26) 50
+  WRITE_SHORT ("Q_Off_Conta" + (5 * "Q_Siz_Conta") + 0x26) 50
+  WRITE_SHORT ("Q_Off_Conta" + (14 * "Q_Siz_Conta") + 0x26) 30
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR3010A.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (0 * "Q_Siz_Conta") + 0x28) 0x0001
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR3011A.ARE~ ~override~
+  READ_LONG 0x70 "Q_Off_Conta"
+  SET "Q_Siz_Conta" = 0xC0
+  WRITE_SHORT ("Q_Off_Conta" + (0 * "Q_Siz_Conta") + 0x26) 60
+ BUT_ONLY_IF_IT_CHANGES
+
+// ===================================================== DIALOGUE UPON WAKING ====================================================
+
+// See QwinnFix.d for remainder of fix
+
+<<<<<<<< inlinedfile/wakingdialogue.baf
+IF
+  Internal(Myself,INTERNAL_9,1)
+THEN
+  RESPONSE #100
+    Dialogue(Protagonist)
+END
+>>>>>>>>
+EXTEND_TOP ~0205EMOR.BCS~ ~inlinedfile/wakingdialogue.baf~
+EXTEND_TOP ~0302PHIN.BCS~ ~inlinedfile/wakingdialogue.baf~
+
+// ======================================================== TENEMENT AGGRO =======================================================
+
+COPY_EXISTING ~SDMAGE.CRE~ ~override~
+              ~SDVET.CRE~ ~override~
+              ~SDTHUG1.CRE~ ~override~
+              ~SDTHUG2.CRE~ ~override~
+              ~SDTHUG3.CRE~ ~override~
+              ~SDSENTRY.CRE~ ~override~
+              ~PTHUG1.CRE~ ~override~
+              ~PTHUG2.CRE~ ~override~
+  WRITE_BYTE 0x314 128
+ BUT_ONLY_IF_IT_CHANGES
+
+// ==================================== ALLEY OF DANGEROUS ANGLES - RESET IF QUEST COMPLETE ======================================
+
+COPY_EXISTING_REGEXP GLOB ~0301DA.*.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~Global("Paid_DAS","AR0301",1)~ ~GlobalGT("Paid_DAS","AR0301",0)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING_REGEXP GLOB ~0301RA.*.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~Global("Paid_RA","AR0301",1)~ ~GlobalGT("Paid_RA","AR0301",0)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// ============================================ ABISHAI IN LOWER WARD DISAPPEARING ================================================
+// Talking to Abisha with Annah or Morte in party could lead to Abishai disappearing and being replaced by a zombie.
+// Seems to be completing it's script as soon as dialogue switches off of it, which includes a DestroySelf() at the end.
+
+COPY_EXISTING_REGEXP GLOB ~0500RAL.*.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~DestroySelf()~ ~~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+<<<<<<<< .../inlinedfile/0500RAL1fix.BAF
+IF
+  NearLocation(Myself,[2040.2294],5)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+>>>>>>>>
+EXTEND_TOP ~0500RAL1.BCS~ ~.../inlinedfile/0500RAL1fix.BAF~
+
+<<<<<<<< .../inlinedfile/0500RAL2fix.BAF
+IF
+  NearLocation(Myself,[148.1918],5)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+>>>>>>>>
+EXTEND_TOP ~0500RAL2.BCS~ ~.../inlinedfile/0500RAL2fix.BAF~
+
+<<<<<<<< .../inlinedfile/0500RAL3fix.BAF
+IF
+  NearLocation(Myself,[190.1736],5)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+>>>>>>>>
+EXTEND_TOP ~0500RAL3.BCS~ ~.../inlinedfile/0500RAL3fix.BAF~
+
+<<<<<<<< .../inlinedfile/0500RAL4fix.BAF
+IF
+  NearLocation(Myself,[2844.1222],5)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+>>>>>>>>
+EXTEND_TOP ~0500RAL4.BCS~ ~.../inlinedfile/0500RAL4fix.BAF~
+
+<<<<<<<< .../inlinedfile/0500RAL5fix.BAF
+IF
+  NearLocation(Myself,[166.1848],5)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
+>>>>>>>>
+EXTEND_TOP ~0500RAL5.BCS~ ~.../inlinedfile/0500RAL5fix.BAF~
+
+// ======================== WARRENS OF THOUGHT - GIVE RAIMON AND SHADDEUS THEIR EXISTING DE-AGGRO SCRIPT =========================
+<<<<<<<< .../inlinedfile/AssignRaatScript.BAF
+IF
+  GlobalGT("Zap","GLOBAL",1)
+THEN
+  RESPONSE #100
+    ChangeAIScript("1600RAAT",DEFAULT)
+END
+>>>>>>>>
+EXTEND_TOP ~1600WR08.BCS~ ~.../inlinedfile/AssignRaatScript.BAF~
+EXTEND_TOP ~1600WR09.BCS~ ~.../inlinedfile/AssignRaatScript.BAF~
+
+// ======================================== RESTORE TEK'ELACH's RED ABISHAI GUARDS ==============================================
+
+COPY_EXISTING ~AR0708.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 20) + 0x48 ~DABISHAI~ #8
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 20) ~Red Abishai~ #32
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 20) + 0x80 ~ABISHAR~ #8
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 21) ~Red Abishai~ #32
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 21) + 0x48 ~DABISHAI~ #8
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 21) + 0x70 ~0708ABA2~ #8
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 21) + 0x80 ~ABISHAR~ #8
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0708ABAS.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~ABISHAI_BLACK~ ~ABISHAI_RED~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Both abishai share one script which contains the same starting location.  Second abishai needs script that returns him to his
+// own starting location.
+COPY_EXISTING ~0708ABAS.BCS~ ~override/0708ABA2.BCS~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~[2567.836]~ ~[3217.1392]~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// ============================================ MORE WARRENS OF THOUGHT FIXES ===================================================
+
+
+
+<<<<<<<< .../inlinedfile/deaggrovars.baf
+IF
+  Global("MAO_Yielded","GLOBAL",1)
+  Global("1600_PC_Enemy","AR1600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("1600_PC_Enemy","AR1600",0)
+END
+
+IF
+  Global("MAO_Warn","GLOBAL",1)
+  Global("1600_PC_Enemy","AR1600",1)
+THEN
+  RESPONSE #100
+    SetGlobal("1600_PC_Enemy","AR1600",0)
+END
+
+IF
+  GlobalGT("MAO_Warn","GLOBAL",1)
+  Allegiance(Myself,NEUTRAL)
+THEN
+  RESPONSE #100
+    SetGlobal("1600_PC_Enemy","AR1600",1)
+END
+>>>>>>>>
+EXTEND_TOP ~AR1600.BCS~ ~.../inlinedfile/deaggrovars.baf~
+
+<<<<<<<< .../inlinedfile/deaggro1600.baf
+IF
+  AttackedBy([PC],Default)
+  Allegiance(Myself,NEUTRAL)
+  Global("MAO_Warn","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Enemy()
+    SetGlobal("1600_PC_Enemy","AR1600",1)
+    SetGlobal("MAO_Yielded","GLOBAL",0)
+    SetGlobal("MAO_Warn","GLOBAL",2)
+END
+
+IF
+  AttackedBy([PC],Default)
+  Allegiance(Myself,NEUTRAL)
+  Global("MAO_Yielded","GLOBAL",1)
+THEN
+  RESPONSE #100
+    Enemy()
+    SetGlobal("1600_PC_Enemy","AR1600",1)
+    SetGlobal("MAO_Yielded","GLOBAL",0)
+    SetGlobal("MAO_Warn","GLOBAL",3)
+END
+
+IF
+  Global("1600_PC_Enemy","AR1600",0)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    ChangeEnemyAlly(Myself,NEUTRAL)
+END
+
+IF
+  Global("MAO_Warn","GLOBAL",1)
+  Allegiance(Myself,ENEMY)
+THEN
+  RESPONSE #100
+    ChangeEnemyAlly(Myself,NEUTRAL)
+END
+>>>>>>>>
+EXTEND_TOP_REGEXP ~1600T[1-8]AT.BCS~ ~.../inlinedfile/deaggro1600.baf~
+EXTEND_TOP_REGEXP ~1600T[1-7]WK.BCS~ ~.../inlinedfile/deaggro1600.baf~
+EXTEND_TOP ~1600WR08.BCS~ ~.../inlinedfile/deaggro1600.baf~
+EXTEND_TOP ~1600WR09.BCS~ ~.../inlinedfile/deaggro1600.baf~
+
+// ========================================= AGRIL AND TEK'ELACH IN CURST IN CARCERI ===============================================
+
+// These are hostile from entering the zone.  But they both have dialogue specifically for the area. This will make you able to
+// see it. Now, when one dies, the other goes neutral and can be talked to.
+
+<<<<<<<< .../inlinedfile/agrilneutral.baf
+IF
+  Die()
+THEN
+  RESPONSE #100
+    ChangeEnemyAlly("Agril",NEUTRAL)
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~0900TEK.BCS~ ~.../inlinedfile/agrilneutral.baf~
+
+<<<<<<<< .../inlinedfile/tekneutral.baf
+IF
+  Die()
+THEN
+  RESPONSE #100
+    ChangeEnemyAlly("Tek",NEUTRAL)
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~0900AGRL.BCS~ ~.../inlinedfile/tekneutral.baf~
+
+
+// ================================================ RUNNING ATTACK FIXES ===========================================================
+
+// AI Fix:  Every creature on Earth and in every game in the universe move as quickly as they can when attacking/being attacked.
+// Not here. Almost all creatures with few exceptions casually saunter to the attack.  This fixes that problem selectively.
+
+COPY_EXISTING ~0209SKLD.BCS~ ~override~ // Masoleum - Strahan's Skeletons
+              ~0209SKEL.BCS~ ~override~
+              ~1300CONS.BCS~ ~override~ // Modron constructs
+              ~2000CATI.BCS~ ~override~ // UnderSigil
+              ~1100ANIM.BCS~ ~override~ // Fiends outside Fhjull's house
+              ~1100GRG0.BCS~ ~override~
+              ~1100GRG4.BCS~ ~override~
+              ~1100GRK0.BCS~ ~override~
+              ~1101ATTA.BCS~ ~override~ // Fhjull's house
+              ~1101CUT3.BCS~ ~override~
+              ~1101CUT4.BCS~ ~override~
+              ~1101FHJU.BCS~ ~override~
+              ~1000FNDS.BCS~ ~override~ // Fiends between Fhjull and Pillar
+              ~1000LEMD.BCS~ ~override~
+              ~1000ABD2.BCS~ ~override~
+              ~1000ABID.BCS~ ~override~
+              ~1000CORB.BCS~ ~override~
+              ~1000CORC.BCS~ ~override~
+              ~1000CUT3.BCS~ ~override~
+              ~0000BXD2.BCS~ ~override~ // Fiend from Moridor's Box
+              ~0702CASS.BCS~ ~override~ // 0702 - Curst Underground Prison Area
+              ~0702GAR2.BCS~ ~override~
+              ~0702GAR3.BCS~ ~override~
+              ~0702GARD.BCS~ ~override~
+              ~0702PRSN.BCS~ ~override~
+              ~0702TOWN.BCS~ ~override~
+              ~0702TRIA.BCS~ ~override~
+              ~0708ABAS.BCS~ ~override~ // 0708 - Curst Underground Hermit Area
+              ~0708CAMP.BCS~ ~override~
+              ~0708CORN.BCS~ ~override~
+              ~0708GHRI.BCS~ ~override~
+              ~0708LEMU.BCS~ ~override~
+              ~0708NUPP.BCS~ ~override~
+              ~0708TRE0.BCS~ ~override~
+              ~0708TRE1.BCS~ ~override~
+              ~0708TRE2.BCS~ ~override~
+              ~0403BLND.BCS~ ~override~ // Tenement of Thugs
+              ~0403DRNK.BCS~ ~override~
+              ~0403GANG.BCS~ ~override~
+              ~0403GDUL.BCS~ ~override~
+              ~0403GGNG.BCS~ ~override~
+              ~0403GNGB.BCS~ ~override~
+              ~0403HIVR.BCS~ ~override~
+              ~0403MAGE.BCS~ ~override~
+              ~0403PAIN.BCS~ ~override~
+              ~0403PROP.BCS~ ~override~
+              ~0403SENT.BCS~ ~override~
+              ~0403THG1.BCS~ ~override~
+              ~0403THG2.BCS~ ~override~
+              ~0900AVNG.BCS~ ~override~ // Curst in Carceri
+              ~0900BRBG.BCS~ ~override~
+              ~0900CTKR.BCS~ ~override~
+              ~0900GNR1.BCS~ ~override~
+              ~0900GNR2.BCS~ ~override~
+              ~0900GRDG.BCS~ ~override~
+              ~0900HRMT.BCS~ ~override~
+              ~0900HRS1.BCS~ ~override~
+              ~0900HRS2.BCS~ ~override~
+              ~0900HRS3.BCS~ ~override~
+              ~0900JJOG.BCS~ ~override~
+              ~0900LOOT.BCS~ ~override~
+              ~0900MOB.BCS~  ~override~
+              ~0900SLV0.BCS~ ~override~
+              ~0900TEM1.BCS~ ~override~
+              ~0900TEM2.BCS~ ~override~
+              ~0900TEM3.BCS~ ~override~
+              ~0900TEM4.BCS~ ~override~
+              ~0900TGRD.BCS~ ~override~
+              ~0900THGB.BCS~ ~override~
+              ~0901GEH6.BCS~ ~override~
+              ~0901GEHR.BCS~ ~override~
+              ~0901GRDS.BCS~ ~override~
+              ~0901LOOT.BCS~ ~override~
+              ~0902ANA0.BCS~ ~override~
+              ~0902ANA1.BCS~ ~override~
+              ~0902ANA2.BCS~ ~override~
+              ~0902ANA5.BCS~ ~override~
+              ~0902ANA6.BCS~ ~override~
+              ~0902EBBB.BCS~ ~override~
+              ~0903THG.BCS~  ~override~
+              ~0904GUY.BCS~  ~override~
+              ~3015GRD1.BCS~ ~override~
+              ~3015GRD2.BCS~ ~override~
+              ~3015SOHM.BCS~ ~override~
+              ~1201SHAD.BCS~ ~override~  // Fortress of Regrets - Shadows
+              ~1201SHA2.BCS~ ~override~
+              ~1202VHAI.BCS~ ~override~  // Fortress of Regrets - Vhailor
+              ~1203INC.BCS~  ~override~  // Fortress of Regrets - Incarnations
+              ~1203INC1.BCS~ ~override~
+              ~1203INC2.BCS~ ~override~
+              ~1203INC3.BCS~ ~override~
+              ~0700ATTA.BCS~ ~override~ // Curst Guards - Added v4
+              ~0701ATTA.BCS~ ~override~
+              ~0701HGRD.BCS~ ~override~ // Harmonium Slavers in Curst - Added v4
+              ~0000HGRD.BCS~ ~override~ // Harmonium Guards in Clerk's Ward - Added v4
+              ~0000HSRG.BCS~ ~override~
+
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~ Attack(~ ~RunningAttack(~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// ===================================================== VERSION 3.01 =========================================================
+
+// Moving respawn point in Tenement of Thugs, to prevent being locked in forever upon death
+COPY_EXISTING ~AR0403.INI~ ~override~
+  REPLACE_TEXTUALLY ~2200.2700~ ~1284.903~
+ BUT_ONLY_IF_IT_CHANGES
+
+// ===================================================== VERSION 3.02 =========================================================
+
+
+// Just in case, make Morte's dialogue file reset to DMORTE when rescuing him from Lothar.
+COPY_EXISTING ~0500MRTE.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~ JoinParty~ ~SetDialog("DMORTE")JoinParty~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// ===================================================== VERSION 4.0 ==========================================================
+
+// Create new sprite entries for the Curst Townie Male and Female Aasimar sprite so that Blackrose and female sensates, Vrischika and Xanthia can
+// use them without creating incorrect bestiary entries.
+// Version 4.1:  Need to do this for Lower Ward market shoppers and anarchists as well.
+
+COPY_EXISTING ~RESDATA.INI~ ~override~
+  INNER_PATCH ~12~ BEGIN
+    WRITE_BYTE 0 0x0d
+    WRITE_BYTE 1 0x0a
+    READ_ASCII 0 mnl (1)
+    READ_ASCII 1 lnl (1)
+    READ_ASCII 0 wnl (2)
+  END
+  REPLACE_TEXTUALLY ~%mnl%~ ~~
+  REPLACE_TEXTUALLY EXACT_MATCH
+  ~[558]~
+  ~[99]  // (cl 3) Townie, LC Male 2%lnl%hitsound=malet01,malet02,malet03%lnl%hitframe=0%lnl%dfbsound=maletD01,maletD02,maletD03%lnl%dfbframe=0%lnl%At1Sound=swi_02,swi_02a,swi_02b%lnl%At1frame=5%lnl%At2Sound=swi_01c,swi_01d,swi_01%lnl%At2frame=5%lnl%attack1=dat1ctm%lnl%attack2=dat2ctm%lnl%stance2stand=dc2sctm%lnl%diebackward=ddfbctm%lnl%gethit=dhitctm%lnl%run=drunctm%lnl%spell1=dsp1ctm%lnl%spell2=dsp1ctm%lnl%stand2stance=ds2cctm%lnl%standfidget1=dsf1ctm%lnl%stance=dstcctm%lnl%stand=dstdctm%lnl%talk1=dtk1ctm%lnl%walk=dwlkctm%lnl%walkscale=3.8%lnl%runscale=14.0%lnl%armor=0%lnl%%lnl%[100] // (cl 4)  Townie, UC Female 2%lnl%hitsound=aasif01,aasif02,aasif03%lnl%hitframe=0%lnl%dfbsound=aasifd01,assifd02,aasifd03%lnl%dfbframe=0%lnl%At1Sound=swi_01a,swi_01,swi_01d%lnl%At1frame=5%lnl%At2Sound=swi_01a,swi_01b,swi_01c%lnl%At2frame=5%lnl%attack1=dat1aaf%lnl%attack2=dat2aaf%lnl%stance2stand=dc2saaf%lnl%diebackward=ddfbaaf%lnl%gethit=dhitaaf%lnl%run=drunaaf%lnl%spell1=dsp1aaf%lnl%spell2=dsp1aaf%lnl%stand2stance=ds2caaf%lnl%standfidget1=dsf1aaf%lnl%stance=dstcaaf%lnl%stand=dstdaaf%lnl%talk1=dtk1aaf%lnl%walk=dwlkaaf%lnl%walkscale=6.0%lnl%runscale=15.0%lnl%bestiary=80%lnl%armor=0%lnl%%lnl%[102]  // Townie, LC Female 2%lnl%hitsound=femt01,femt02,femt03%lnl%hitframe=0%lnl%dfbsound=femtD01,femtD02,femtD03%lnl%dfbframe=0%lnl%At1Sound=swi_01,swi_01b,swi_01d%lnl%At1frame=5%lnl%At2Sound=swi_01a,swi_01c,swi_01%lnl%At2frame=5%lnl%attack1=dat1ctf%lnl%attack2=dat2ctf%lnl%stance2stand=dc2sctf%lnl%diebackward=ddfbctf%lnl%gethit=dhitctf%lnl%run=drunctf%lnl%spell1=dsp1ctf%lnl%spell2=dsp1ctf%lnl%stand2stance=ds2cctf%lnl%standfidget1=dsf1ctf%lnl%stance=dstcctf%lnl%stand=dstdctf%lnl%talk1=dtk1ctf%lnl%walk=dwlkctf%lnl%walkscale=6.0%lnl%runscale=15.0%lnl%armor=0%lnl%%lnl%[558]~
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~ANIMATE.IDS~ ~override~
+  REPLACE_TEXTUALLY EXACT_MATCH ~Vhailor Still~
+~Vhailor Still
+0x6063 (cl 3) Townie, LC Male 2
+0x6064 (cl 4) Townie, UC Female 2
+0x6066 (cl 4) Townie, LC Female 2~
+  REPLACE_TEXTUALLY ~126~ ~128~
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~BLACKR.CRE~   ~override~
+              ~ANARCHY2.CRE~ ~override~
+  WRITE_SHORT 0x28 24675
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~BPATRON2.CRE~ ~override~
+              ~FSTCLRK.CRE~  ~override~
+              ~SENSAF1.CRE~  ~override~
+              ~SENSF2.CRE~   ~override~
+              ~SENSF3.CRE~   ~override~
+              ~VRSCHKA.CRE~  ~override~
+              ~XANTHIA.CRE~  ~override~
+  WRITE_SHORT 0x28 24676
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~ANARCHY1.CRE~ ~override~
+              ~MCFEM5.CRE~   ~override~
+              ~MCFEM6.CRE~   ~override~
+              ~MCFEM7.CRE~   ~override~
+              ~MCFEM8.CRE~   ~override~
+  WRITE_SHORT 0x28 24678
+ BUT_ONLY_IF_IT_CHANGES
+
+// If you tried to sell Annah to Vrischika, this would cause Vrischika and Standish to aggro
+COPY_EXISTING ~0609PAT1.BCS~ ~override~
+              ~0609STND.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~Help([ANYONE])~ ~Help([ANYONE])!Help([PC])~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// "Kill Officer Vorten" quest being added to journal when you kill him even if you were never given the quest. Also, Vorten quest needs to close
+// after you tell Corvus of the plot.
+COPY_EXISTING ~0500VRTN.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~GlobalSet("Kill_Vorten","GLOBAL",2)~ ~Continue()~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~quests.ini~ ~quests.ini~
+  INNER_PATCH ~12~ BEGIN
+    WRITE_BYTE 0 0x0d
+    WRITE_BYTE 1 0x0a
+    READ_ASCII 0 mnl (1)
+    READ_ASCII 1 lnl (1)
+    READ_ASCII 0 wnl (2)
+  END
+  REPLACE_TEXTUALLY EXACT_MATCH
+  ~[84]%wnl%title=60576%wnl%descAssigned=39497%wnl%descCompleted=39496%wnl%assignedChecks=2%wnl%aVar1=Kill_Vorten%wnl%aValue1=0%wnl%aCondition1=GT%wnl%aVar2=Kill_Vorten%wnl%aValue2=3%wnl%aCondition2=LT%wnl%completeChecks=1%wnl%cVar1=Kill_Vorten%wnl%cValue1=3%wnl%cCondition1=EQ%wnl%~
+  ~[84]%wnl%title=60576%wnl%descAssigned=39497%wnl%descCompleted=39496%wnl%descCompletedB=66535%wnl%descCompletedC=66536%wnl%descCompletedD=66537%wnl%assignedChecks=1%wnl%aVar1=Kill_Vorten%wnl%aValue1=1%wnl%aCondition1=EQ%wnl%possibleEndings=4%wnl%completeChecks=1%wnl%cVar1=Kill_Vorten%wnl%cValue1=3%wnl%cCondition1=EQ%wnl%completeChecksB=1%wnl%cVarB1=Kill_Vorten%wnl%cValueB1=4%wnl%cConditionB1=EQ%wnl%completeChecksC=1%wnl%cVarC1=Kill_Vorten%wnl%cValueC1=5%wnl%cConditionC1=EQ%wnl%completeChecksD=1%wnl%cVarD1=Kill_Vorten%wnl%cValueD1=6%wnl%cConditionD1=EQ%wnl%~
+ BUT_ONLY_IF_IT_CHANGES
+
+// Porphatys Blade is missing its Enchantment +3
+COPY_EXISTING ~PDAG.ITM~ ~override~
+  WRITE_LONG 0x60 3
+ BUT_ONLY_IF_IT_CHANGES
+
+// Per Chris Avellone, Nordom should be Lawful Neutral
+COPY_EXISTING ~NORDOM.CRE~   ~override~
+              ~NORDOMEG.CRE~ ~override~
+              ~NORDOMF.CRE~  ~override~
+  WRITE_BYTE 0x31F 18
+ BUT_ONLY_IF_IT_CHANGES
+
+ // Adding "Immune to Litany of Curses" item to Berrog and Torvus in Curst in Carceri, so that you can't make them come out from under the cart.
+ // Also adding "Immune to Fear" item for same reason.
+COPY_EXISTING ~BERROG.CRE~    ~override~
+              ~BURGHER.CRE~   ~override~
+   WRITE_BYTE 0x240 0  // Morale Breaking Point
+   READ_LONG 0x35c "OffSlots"
+   READ_LONG 0x360 "OffItems"
+   READ_LONG 0x364 "NumItems"
+   WRITE_LONG 0x35c "OffSlots" + 0x28
+   INSERT_BYTES ("OffItems" + (0x14 * "NumItems")) 0x28
+   WRITE_ASCII ("OffItems" + (0x14 * "NumItems")) ~IMFEAR~ (8)
+   WRITE_ASCII ("OffItems" + (0x14 * ("NumItems" + 1))) ~NO_CURSE~ (8)
+   WRITE_SHORT ("OffSlots" + 0x28) + 0xc "NumItems"
+   WRITE_SHORT ("OffSlots" + 0x28) + 0xa ("NumItems" + 1)
+   WRITE_LONG 0x364 "NumItems" + 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Making it so you can't pickpocket Trias for Celestial Fire anymore
+COPY_EXISTING ~TRIASA.CRE~  ~override~
+              ~TRIASB.CRE~  ~override~
+              ~TRIASC.CRE~  ~override~
+   READ_LONG 0x35c "OffSlots"
+   WRITE_SHORT ("OffSlots" + 0x28) (0 - 1)
+ BUT_ONLY_IF_IT_CHANGES
+
+<<<<<<<< .../inlinedfile/DropSword.BAF
+IF
+  Die()
+THEN
+  RESPONSE #100
+    CreateItem("Celesti2",0,0,0) // "Celestial Fire"
+    DropInventory()
+END
+>>>>>>>>
+EXTEND_TOP ~0901TRIA.BCS~ ~.../inlinedfile/DropSword.BAF~
+
+// Two lines Fhjull says when you leave his house for last time are reversed.
+COPY_EXISTING ~1101CUT5.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+   ~PlaySoundNotRanged("FFT063")
+    Wait(2)
+    PlaySoundNotRanged("FFT062")
+    Wait(4)~
+   ~PlaySoundNotRanged("FFT062")
+    Wait(4)
+    PlaySoundNotRanged("FFT063")
+    Wait(2)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Removes obnoxious casty sounds and effects from Litany of Curses that make it hard to hear Morte's curses
+// Shouldn't have them anyway, LoC is non-magical
+COPY_EXISTING ~SPIN101.SPL~ ~override~
+  WRITE_BYTE 0x22 0x2D
+ BUT_ONLY_IF_IT_CHANGES
+
+// One of Annah's strings when you try to take her vest was calling the wrong sound file.
+STRING_SET 61796 @61796
+
+// FFG "Immune to weapon" sound inappropriate ("There is nothing I can do."), more appropriate sound available ("I cannot wound it.").
+STRING_SET 37091 @37091
+
+// One of Morte's taunts is inaudible, another isn't a taunt.  Replacing them with more appropriate available sounds.
+STRING_SET 62305 @62305
+STRING_SET 62321 @62321
+
+// On map of Mortuary 2nd floor, "Embalming Room" is mislabelled "Northeast Preparation Room".
+STRING_SET 32837 @32837
+
+// Way too many rail characters in Buried Village
+COPY_EXISTING ~AR0109.INI~ ~override~
+  REPLACE_TEXTUALLY ~spec_qty        = 5~ ~spec_qty = 1~
+ BUT_ONLY_IF_IT_CHANGES
+
+// Move self-referencing 2DA entries up to TNO's row, because dead PC's can't speak their lines.
+COPY_EXISTING ~DEATH.2DA~ ~override~
+  REPLACE_TEXTUALLY ~FFG045~ ~0     ~
+  REPLACE_TEXTUALLY ~VHA040~ ~0     ~
+  SET_2DA_ENTRY 1 4 6 ~FFG045~
+  REPLACE_TEXTUALLY ~FFG045     ~ ~FFG045~
+  SET_2DA_ENTRY 1 8 6 ~VHA040~
+ BUT_ONLY_IF_IT_CHANGES
+
+// Vlask exit cutscene is aborting
+COPY_EXISTING ~3006CUT1.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~EndCutSceneMode()~ ~~
+   REPLACE_TEXTUALLY EXACT_MATCH ~Dialogue([PC])~ ~StartDialog("DVLASK","Vlask")~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Githzerai Townsperson walking script has an error.
+COPY_EXISTING ~0300GT2B.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~0300gt2b~ ~0300gt2a~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Getting evidence against Pikit closes the evidence quest too soon
+COPY_EXISTING ~quests.ini~ ~quests.ini~
+  INNER_PATCH ~12~ BEGIN
+    WRITE_BYTE 0 0x0d
+    WRITE_BYTE 1 0x0a
+    READ_ASCII 0 wnl (2)
+  END
+  REPLACE_TEXTUALLY EXACT_MATCH
+  ~[7]%wnl%title=3838%wnl%descAssigned=3840%wnl%descCompleted=3842%wnl%assignedChecks=1%wnl%aVar1=Evidence_Papers%wnl%aValue1=3%wnl%aCondition1=EQ%wnl%completeChecks=1%wnl%cVar1=Evidence_Papers%wnl%cValue1=4%wnl%cCondition1=EQ%wnl%~
+  ~[7]%wnl%title=3838%wnl%descAssigned=36022%wnl%descCompleted=3842%wnl%assignedChecks=2%wnl%aVar1=Evidence_Papers%wnl%aValue1=2%wnl%aCondition1=GT%wnl%aVar2=Evidence_Papers%wnl%aValue2=5%wnl%aCondition2=LT%wnl%completeChecks=1%wnl%cVar1=Evidence_Papers%wnl%cValue1=5%wnl%cCondition1=EQ%wnl%~
+ BUT_ONLY_IF_IT_CHANGES
+
+// If you left Kesai to get a handkerchief for her blood, her quest was dropping off the journal until you returned to her.
+COPY_EXISTING ~quests.ini~ ~quests.ini~
+  INNER_PATCH ~12~ BEGIN
+    WRITE_BYTE 0 0x0d
+    WRITE_BYTE 1 0x0a
+    READ_ASCII 0 wnl (2)
+  END
+  REPLACE_TEXTUALLY EXACT_MATCH
+  ~assignedChecks=1%wnl%aVar1=Know_Ravel_Key%wnl%aValue1=1%wnl%aCondition1=EQ~
+  ~assignedChecks=2%wnl%aVar1=Know_Ravel_Key%wnl%aValue1=0%wnl%aCondition1=GT%wnl%aVar2=Know_Ravel_Key%wnl%aValue2=3%wnl%aCondition2=LT~
+ BUT_ONLY_IF_IT_CHANGES
+
+// Iannis permission to use sensory stone quest drops out after you get permission but before returning to Iannis
+COPY_EXISTING ~quests.ini~ ~quests.ini~
+  INNER_PATCH ~12~ BEGIN
+    WRITE_BYTE 0 0x0d
+    WRITE_BYTE 1 0x0a
+    READ_ASCII 0 wnl (2)
+  END
+  REPLACE_TEXTUALLY EXACT_MATCH
+  ~assignedChecks=1%wnl%aVar1=Iannis_Sensory_Quest%wnl%aValue1=1%wnl%aCondition1=EQ~
+  ~assignedChecks=2%wnl%aVar1=Iannis_Sensory_Quest%wnl%aValue1=0%wnl%aCondition1=GT%wnl%aVar2=Iannis_Sensory_Quest%wnl%aValue2=3%wnl%aCondition2=LT~
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// A prostitute and patron weren't appearing in game due to a missing comma in Clerk's Ward .INI file
+// Also, two cafe patrons just south of Aelwyn bar are duplicated.
+COPY_EXISTING ~AR0600.INI~ ~override~
+  REPLACE_TEXTUALLY ~ucho5patron1~ ~ucho5,patron1~
+  REPLACE_TEXTUALLY ~thug3,patron5,patron6,~ ~thug3,~
+ BUT_ONLY_IF_IT_CHANGES
+
+// Customer and bartender in east Clerk's Ward had a couple scripted floating text lines that weren't working
+// The lines are also reversed.
+COPY_EXISTING ~0600PAT6.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~!Exists~ ~Exists~
+    REPLACE_TEXTUALLY EXACT_MATCH ~FloatMessage(Myself,50874)~ ~Face(1)~
+    REPLACE_TEXTUALLY EXACT_MATCH ~FloatMessage([0.0.0.0.0.0.MERCHANT_1][0.0.10000.10000],50738)~ ~FloatMessage(Myself,50874)~
+    REPLACE_TEXTUALLY EXACT_MATCH ~Face(1)~ ~FloatMessage([0.0.0.0.0.0.MERCHANT_1][0.0.10000.10000],50738)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+ 
+// Because the thugs that stole Porphiron's necklace shares a script name with half the thugs in the Trash Warrens, you can get Porphiron's quest,
+// go kill Trash Warrens Thugs, and then come back to Porphiron and say "I killed 'em, here's your necklace" without actually ever talking to the
+// thugs that actually took the necklace.  Original script name they all shared with THUGP1.CRE was ThugP1.
+COPY_EXISTING_REGEXP GLOB ~BISH.CRE~     ~override~
+                          ~TWTHUG.*.CRE~ ~override~
+  WRITE_ASCII 0x324 ~None~
+ BUT_ONLY_IF_IT_CHANGES
+
+// Death's Advocate needs his script name for Splinter's dialogue
+// Version 4.1:  devsin correctly pointed out this needs to go on DADVOC.CRE, not DEATHAD.CRE
+// COPY_EXISTING ~DEATHAD.CRE~ ~override~
+COPY_EXISTING ~DADVOC.CRE~ ~override~
+  WRITE_ASCII 0x324 ~DeathAd~
+ BUT_ONLY_IF_IT_CHANGES
+
+// Make Ebb stop respawning in Carceri Warehouse when he leaves.
+// version4.1:  Should do this in dialogue instead.
+/*
+COPY_EXISTING ~0902EBBB.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~EscapeArea()~ ~SetGlobal("Spawn_Ebb","GLOBAL",0)EscapeAreaRunning()~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+*/
+
+<<<<<<<< .../inlinedfile/DespawnEbb.baf
+IF
+  Global("No_Anarchy","AR0902",1)
+  !Global("Current_Area","GLOBAL",902)
+THEN
+  RESPONSE #100
+   Deactivate("Ebb")
+   Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR0902.BCS~ ~.../inlinedfile/DespawnEbb.baf~
+
+// Make Ebb spawn again when you get back to Hive, if he's not dead, in the bar.
+<<<<<<<< .../inlinedfile/RespawnEbb.baf
+IF
+  !Dead("Ebb")
+  Global("Spawn_Ebb","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Spawn_Ebb","GLOBAL",1)
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR0400.BCS~ ~.../inlinedfile/RespawnEbb.baf~
+
+// Curst guards and others aggro based on Jasilya fight, which they definitely weren't meant to.  This is because Help("Jasilya") always fails.
+// Setting her Specifics to DAMSEL_IN_DISTRESS, and identifying her as the one crying Help() based on that.
+COPY_EXISTING ~JASILYA.CRE~ ~override~
+  WRITE_BYTE 0x318 189
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0701ATTA.BCS~ ~override~
+              ~0701HGRD.BCS~ ~override~
+              ~0701MERC.BCS~ ~override~
+              ~0701OFF1.BCS~ ~override~
+              ~0701OFF2.BCS~ ~override~
+              ~0701RUN.BCS~  ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Help("Jasilya")~ ~Help([0.0.0.0.0.0.189])~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Collector's script was misnamed
+COPY_EXISTING ~AR0100.INI~ ~override~
+  REPLACE_TEXTUALLY ~0100cl2~ ~0100cl2a~
+ BUT_ONLY_IF_IT_CHANGES
+
+// Paranoid Incarnation uses nonfunctional Help("Scriptname") scripting.  Switch to Team check.
+COPY_EXISTING ~1203INC1.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~OnCreation()
+THEN
+  RESPONSE #100~
+~OnCreation()
+THEN
+  RESPONSE #100
+    SetTeam(Myself,26)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~1203INC2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~OnCreation()
+THEN
+  RESPONSE #100~
+~OnCreation()
+THEN
+  RESPONSE #100
+    SetTeam(Myself,27)~
+    REPLACE_TEXTUALLY ~Help("Incar1")~ ~Help([0.0.26])~
+    REPLACE_TEXTUALLY ~Help("Incar3")~ ~Help([0.0.28])~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~1203INC3.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~OnCreation()
+THEN
+  RESPONSE #100~
+~OnCreation()
+THEN
+  RESPONSE #100
+    SetTeam(Myself,28)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Fixing Help("Harlot5") in the scripts of her two johns.
+COPY_EXISTING ~0100CL3.BCS~ ~override~
+              ~0100CL4.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Help("Harlot5")~ ~Help([0.0.0.0.0.0.115])~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Synchronize the Harlot5 Johns' floating text with their talking animations.
+COPY_EXISTING ~0100CL3.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~FloatMessage(Myself,8184)~ ~~
+    REPLACE_TEXTUALLY
+~IF
+  Global("Harlot_5_Busy","AR0100",0)
+THEN
+  RESPONSE #100~
+~IF
+  Global("Harlot_5_Busy","AR0100",0)
+THEN
+  RESPONSE #100
+    FloatMessage(Myself,8184)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0100CL4.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~FloatMessage(Myself,8183)~ ~~
+    REPLACE_TEXTUALLY
+~IF
+  Global("Harlot_5_Busy","AR0100",0)
+THEN
+  RESPONSE #100~
+~IF
+  Global("Harlot_5_Busy","AR0100",0)
+THEN
+  RESPONSE #100
+    FloatMessage(Myself,8183)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Rail critter in AR0701 was missing
+COPY_EXISTING ~AR0701.INI~ ~override~
+  REPLACE_TEXTUALLY ~rail3,rail4~ ~rail3,rail4,rail5~
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Being a Dustman reduces the number of shadows you encounter in the Fortress.  But this also works if you're an anarchist who infiltrated
+// them.  Changing it to be based on the Dead Truce.
+COPY_EXISTING ~AR1201.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~!Global("Join_Dustmen","GLOBAL",1)~ ~Global("Dead_Truce","GLOBAL",0)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+
+// Avenger_Teambg provided a report that these INI files have duplicate headers, fixing 'em.
+COPY_EXISTING ~AR1600.INI~ ~override~
+  INNER_PATCH ~12~ BEGIN
+    WRITE_BYTE 0 0x0d
+    WRITE_BYTE 1 0x0a
+    READ_ASCII 0 wnl (2)
+  END
+  REPLACE_TEXTUALLY EXACT_MATCH ~FALSE%wnl%[team_1_rat_13]%wnl%~ ~FALSE%wnl%~
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Fleeing critter help
+<<<<<<<< .../inlinedfile/fleelimlim.baf
+IF
+  Internal(Myself,INTERNAL_1,1)
+THEN
+  RESPONSE #100
+    SetInternal(Myself,INTERNAL_1,0)
+    StartTimer(1,120)
+    Continue()
+END
+
+IF
+  TimerActive(1)
+  Range(Protagonist,50)
+THEN
+  RESPONSE #100
+    RunAwayFrom(Protagonist,TEN_AI_SECONDS)
+    Continue()
+END
+
+IF
+  !TimerActive(1)
+  !NearSavedLocation(10)
+THEN
+  RESPONSE #100
+    ReturnToSavedPlace()
+END
+>>>>>>>>
+EXTEND_TOP ~0300MER5.BCS~ ~.../inlinedfile/fleelimlim.baf~
+
+COPY_EXISTING ~0300MER5.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~True()~ ~!TimerActive(1)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Attaching unused zombie walking script to the female zombie it was clearly intended for (#1148).
+COPY_EXISTING ~AR0203.INI~ ~override~
+  INNER_PATCH ~12~ BEGIN
+    WRITE_BYTE 0 0x0d
+    WRITE_BYTE 1 0x0a
+    READ_ASCII 0 wnl (2)
+  END
+  REPLACE_TEXTUALLY EXACT_MATCH ~ai_specifics      = 103%wnl%script_default    = 0203wdef~ ~ai_specifics      = 103%wnl%script_default    = 0203fz1~
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fix to default zombie and dustmen script on first and third floor of mortuary that checked wrong variable to turn off the alarm.
+COPY_EXISTING ~0201WDEF.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Global("Mortuary_Alert","GLOBAL",2)~ ~Global("Mortuary_Alert_1","GLOBAL",1)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~0203DDEF.BCS~ ~override~
+              ~0203WDEF.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Global("Mortuary_Alert","GLOBAL",2)~ ~Global("Mortuary_Alert_3","GLOBAL",1)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Killing Abishai would anger Harmonium guards in Lower Ward
+/* Deactivating, it -may- have been intentional
+COPY_EXISTING ~0500GRAL.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Die()~ ~Die()!Race(Myself,ABISHAI_BLACK)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+*/
+
+// Grosuk script never gets to his turning around scripting
+COPY_EXISTING ~0500GROS.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~ReturnToSavedPlace()~ ~ReturnToSavedPlace()Continue()~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// PC's sold to Vrischika would reappear on reload, Deactivate doesn't get saved
+// Implementing same logic that keeps Morte from reappearing in Lower Ward during his kidnapping
+<<<<<<<< .../inlinedfile/DeactivateSlaves.baf
+IF
+  Global("Sell_Morte","GLOBAL",2)
+THEN
+  RESPONSE #100
+    Deactivate("Morte")
+    Continue()
+END
+
+IF
+  Global("Sell_Dakkon","GLOBAL",2)
+THEN
+  RESPONSE #100
+    Deactivate("Dakkon")
+    Continue()
+END
+
+IF
+  Global("Sell_Nordom","GLOBAL",2)
+THEN
+  RESPONSE #100
+    Deactivate("Nordom")
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR0609.BCS~ ~.../inlinedfile/DeactivateSlaves.baf~
+
+// Morte would reactivate if you reloaded the game in the pillar area, even if he was still in the pillar.
+<<<<<<<< .../inlinedfile/DeactivatePillarMorte.baf
+IF
+  Global("Pillar","GLOBAL",3)
+THEN
+  RESPONSE #100
+    Deactivate("Morte")
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR1001.BCS~ ~.../inlinedfile/DeactivatePillarMorte.baf~
+
+// SKILLDEX.2DA fix - thief penalties for low DEX would disappear if DEX fell below 9 (possible via Chromatic Orb, Jester's Axe, Sarossa's Curses)
+COPY_EXISTING ~skilldex.2da~ ~override~
+  REPLACE_TEXTUALLY ~9           -15             -10             -10             -20~
+~1           -15             -10             -10             -20
+2           -15             -10             -10             -20
+3           -15             -10             -10             -20
+4           -15             -10             -10             -20
+5           -15             -10             -10             -20
+6           -15             -10             -10             -20
+7           -15             -10             -10             -20
+8           -15             -10             -10             -20
+9           -15             -10             -10             -20~
+ BUT_ONLY_IF_IT_CHANGES
+
+// LOREBON.2DA - fixing error at 15 INT/WIS so that it matches proper 2nd edition values, also the value in the PS:T manual
+COPY_EXISTING ~lorebon.2da~ ~override~
+  REPLACE_TEXTUALLY ~15      5~ ~15      3~
+ BUT_ONLY_IF_IT_CHANGES
+
+// Damage bonus at 4 proficiency points was set too high, should be 4, not 5.
+COPY_EXISTING ~wspecial.2da~ ~override~
+  REPLACE_TEXTUALLY ~4   3     5~ ~4   3     4~
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fix to Dhall's dialogue to actually mention Sigil before you can ask about it.
+STRING_SET 950 @950
+
+// Bish would aggro because Buried_Attack was incorrectly set to 1 fighting the hostile thugs in the Buried Village. See trigger is flaky.
+COPY_EXISTING ~0109GTHG.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY EXACT_MATCH ~AttackedBy([PC],DEFAULT)~ ~AttackedBy([PC],DEFAULT)Internal(Myself,INTERNAL_0,0)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Tweaking Pestle-Kiln's script so his twitching doesn't instantly erase his greeting when you enter the apothecary.
+COPY_EXISTING ~0612PEKN.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~IF
+  !TimerActive(1)~
+~IF
+  !TimerActive(1)
+  Internal(Myself,INTERNAL_0,0)
+THEN
+  RESPONSE #100
+    SetInternal(Myself,INTERNAL_0,1)
+    StartRandomTimer(1,5,10)
+END
+
+IF
+  !TimerActive(1)
+  Internal(Myself,INTERNAL_0,1)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixes Foundry gears disappearing bug.  It's treated as an actor, and it had -10 current hit points, so it was dying.
+// Version 4.1:  devsin sez, it's not the HP, it just needs the Permanent Corpse flag set to on.  Makes sense.
+COPY_EXISTING ~FOUNGEAR.CRE~ ~override~
+  READ_BYTE 0x10 "Flags"
+  WRITE_BYTE 0x10 "Flags" + 4
+ BUT_ONLY_IF_IT_CHANGES
+
+// Keldor should turn to face his audience again after talking to you.
+COPY_EXISTING ~0503KELD.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~RESPONSE #100
+    Wait(10)~
+~RESPONSE #100
+    Face(2)
+    Wait(10)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Explore Maze areas to help with obnoxious sight issues on the doors
+<<<<<<<< .../inlinedfile/ExploreRubikon.baf
+IF
+  True()
+THEN
+  RESPONSE #100
+    Explore()
+END
+>>>>>>>>
+EXTEND_BOTTOM ~AR1300.BCS~ ~.../inlinedfile/ExploreRubikon.baf~
+
+// Thief tattoos could not be invoked from inventory due to missing conversable flag.
+// Version 4.1: devsin correctly argued that this shouldn't be the case for the ones that cast spells
+COPY_EXISTING ~TTCUTPUR.ITM~ ~override~
+//            ~TTSHATLO.ITM~ ~override~
+//            ~TTSHADOW.ITM~ ~override~
+  WRITE_BYTE 0x19 8
+ BUT_ONLY_IF_IT_CHANGES
+
+// Looks like Moridor's Demon was supposed to teleport to party on first sight. Instead, it makes him saunter slowly, removing line so he'll RunningAttack.
+/*
+COPY_EXISTING ~0000BXD2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY EXACT_MATCH ~MoveToObjectEx~ ~RunningAttack~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+*/
+
+// Variable purge - removing unused "Trias_Curse" variable set from script.
+COPY_EXISTING ~0901TRIA.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~SetGlobal("Trias_Curse","GLOBAL",1)~ ~~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Mochai should walk back to her spot after moving to the player
+COPY_EXISTING ~0402MOCI.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~IF
+  See~
+~IF
+  Global("Mooch","GLOBAL",1)
+  WasInDialog()
+THEN
+  RESPONSE #100
+    ReturnToSavedPlace()
+END
+
+IF
+  See~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+
+/*
+// Try replacing spawn_select
+COPY_EXISTING ~AR1600.INI~ ~override~
+  REPLACE_TEXTUALLY EXACT_MATCH ~spawn_select~ ~point_select~
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR0203.INI~ ~override~
+  REPLACE_TEXTUALLY EXACT_MATCH ~[repetitive~ ~[repetitive]~
+ BUT_ONLY_IF_IT_CHANGES
+*/
+
+
+/* TEST
+COPY_EXISTING ~GITH.CRE~ ~override~
+  WRITE_BYTE 0x2b8 0xff
+  WRITE_BYTE 0x2b9 0xff
+  WRITE_BYTE 0x2ba 1
+  WRITE_BYTE 0x2bb 1
+  READ_BYTE 0x2e1 "AttributeFlags"
+  WRITE_BYTE 0x2e1 "AttributeFlags" + 60
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fix Character Types - many Curst Townies set as type "Godsman", which pollutes Kill_Godsman variable.
+// Created Kill variables "Curst_Guard", "Curst_Anarchist" and "Curst_Thug".
+COPY_EXISTING ~CHEKKA.CRE~   ~override~ // Godsman
+              ~CRSTCAPT.CRE~ ~override~ // Godsman
+              ~CRSTGRD.CRE~  ~override~ // Godsman
+              ~GIB.CRE~      ~override~ // Godsman
+  WRITE_ASCII 0x2bc ~curst_guard~ (32)
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING_REGEXP GLOB ~CRSTTHG.*.CRE~ ~override~ // Godsman
+                          ~CRSTLOT.*.CRE~ ~override~ // Godsman
+                          ~CRSTCOS.*.CRE~ ~override~ // thug
+                          ~CANLEAD.CRE~   ~override~ // thug
+  WRITE_ASCII 0x2bc ~curst_thug~ (32)
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING_REGEXP GLOB ~DILLON.CRE~ ~override~ // Godsman
+  WRITE_ASCII 0x2bc ~godsman~ (32)
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING_REGEXP GLOB ~ANIZIUS.CRE~   ~override~ // Dude
+                          ~BARSE.CRE~     ~override~ // Dude
+                          ~BERROG.CRE~    ~override~ // Dude
+                          ~BOOTLEG.CRE~   ~override~ // Godsman
+                          ~BURGHER.CRE~   ~override~ // Dude
+                          ~CRSGIRL.CRE~   ~override~ // townsperson
+                          ~CRSSMTH.CRE~   ~override~ // Godsman
+                          ~CRSTMRCH.CRE~  ~override~ // Godsman
+                          ~CRSTMRC2.CRE~  ~override~ // Godsman
+                          ~CRSTW.*.CRE~   ~override~ // Godsman
+                          ~CRSTANC.*.CRE~ ~override~ // Dude
+                          ~CARETKR.CRE~   ~override~ // townsperson
+                          ~DALLAN.CRE~    ~override~ // Dude
+  WRITE_ASCII 0x2bc ~curst_townsperson~ (32)
+ BUT_ONLY_IF_IT_CHANGES
+
+// Standardizing "hive_townsperson" as actual Hive residents, including buried village, "townsperson" as Lower/Clerk
+COPY_EXISTING_REGEXP GLOB ~ADAHN.CRE~   ~override~ // Hive_Townspeople (variable doesn't exist)
+                          ~ALAIS.CRE~   ~override~ // Townsperson
+                          ~BURT.CRE~    ~override~ // abishai_black (he's actually dead)
+                          ~CANDRIA.CRE~ ~override~ // thug
+                          ~CARVER.CRE~  ~override~ // townsperson
+                          ~RATBONE.CRE~ ~override~ // townsperson
+                          ~CRADDO.CRE~  ~override~ // thug
+                          ~DAMSEL.CRE~  ~override~ // Damsel in Distress
+  WRITE_ASCII 0x2bc ~hive_townsperson~ (32)
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING_REGEXP GLOB ~ANARCHY*.*.CRE~ ~override~ // Dude
+                          ~MCFEM.*.CRE~    ~override~ // curst_townsperson (these are Lower Ward female shoppers)
+                          ~BOOTSHNR.CRE~   ~override~ // Hive_Townsperson
+                          ~BPATRON2.CRE~   ~override~ // Aasimar (this is the female brothel patron)
+                          ~BYRON.CRE~      ~override~ // Dude
+                          ~DEATHAD.CRE~    ~override~ // dustman (this is Death's Advocate, sensate)
+                          ~DERAN.CRE~      ~override~ // Dude
+                          ~DOLORA.CRE~     ~override~ // Dolora
+  WRITE_ASCII 0x2bc ~townsperson~ (32)
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING_REGEXP GLOB ~BATHUG*.*.CRE~ ~override~ // Collector (these are the Darkalley Shivs)
+  WRITE_ASCII 0x2bc ~thug~ (32)
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING_REGEXP GLOB ~CHOSMAG.*.CRE~ ~override~ // Strahan (these are crazy mages in Carceri)
+  WRITE_ASCII 0x2bc ~wizard~ (32)
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING_REGEXP GLOB ~CMERCH.*.CRE~ ~override~ // Dude (Curst merchants)
+  WRITE_ASCII 0x2bc ~merchants~ (32)
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Script Name Fixes
+*/
+
+
+// ================================================== ON-DEATH ALIGNMENT HIT FIXES =================================================
+
+// Removing nonsensical or redundant scripted alignment hits
+COPY_EXISTING_REGEXP GLOB ~0200BAEN.BCS~ ~override~ // Redundant in original
+                          ~0500GILT.BCS~ ~override~ // Redundant in original
+                          ~0504.*.BCS~   ~override~ // All 21 files redundant with original except for Karina, Lazlo, which are set below
+                          ~0607IANN.BCS~ ~override~ // Redundant with change below
+                          ~0611GONC.BCS~ ~override~
+                          ~0612.*.BCS~   ~override~
+                          ~0706BFIN.BCS~ ~override~ // Redundant with change below
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~IncrementGlobal("Murder","GLOBAL",1)~ ~~
+    REPLACE_TEXTUALLY ~IncrementGlobal("Good","GLOBAL",-1)~ ~~
+    REPLACE_TEXTUALLY ~IncrementGlobal("Law","GLOBAL",-1)~ ~~
+    REPLACE_TEXTUALLY ~IncrementGlobal("Lady","GLOBAL",1)~ ~~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Demons killing Curst in Carceri townies was decrementing LAW, GOOD and incrementing MURDER for TNO, which they clearly shouldn't be.
+// Also taking hits away from Adyzoel, he's too belligerent.
+COPY_EXISTING ~ADYZOEL.CRE~  ~override~
+              ~WEAKCST1.CRE~ ~override~
+              ~WEAKCST2.CRE~ ~override~
+              ~WEAKCST3.CRE~ ~override~
+              ~WEAKCST4.CRE~ ~override~
+              ~WEAKCST5.CRE~ ~override~
+              ~WEAKCST6.CRE~ ~override~
+              ~WEAKCST7.CRE~ ~override~
+              ~WEAKCST8.CRE~ ~override~
+              ~WEAKCST9.CRE~ ~override~
+  WRITE_BYTE 0x2e1 0
+ BUT_ONLY_IF_IT_CHANGES
+
+// Dhall and Baen the Sender decrement rather than increment MURDER count when they die.
+COPY_EXISTING ~DHALL.CRE~ ~override~
+              ~BAEN.CRE~  ~override~
+  WRITE_BYTE 0x2bb 1
+ BUT_ONLY_IF_IT_CHANGES
+
+// Jolmi has Law increment set but Law flag off.  All other flags and increments are positive.  No perceptible reason for discrepancy.
+// Setting Law Flag on.
+COPY_EXISTING ~JOLMI.CRE~ ~override~
+  READ_BYTE 0x2e1 "AttributeFlags"
+  WRITE_BYTE 0x2e1 "AttributeFlags" + 8
+ BUT_ONLY_IF_IT_CHANGES
+
+// Dabus need GOOD, LAW and MURDER flags turned on, increments already set.  This is based on one in pregnant alley that has all the hits.
+COPY_EXISTING ~DABUS.CRE~ ~override~
+  READ_BYTE 0x2e1 "AttributeFlags"
+  WRITE_BYTE 0x2e1 "AttributeFlags" + 44
+ BUT_ONLY_IF_IT_CHANGES
+
+// Before setting flags on HGUARD.CRE, make a copy for use by evil Harmonium in Curst
+// Then change Curst area to use new Curst Harmonium Guard CRE.
+COPY_EXISTING ~HGUARD.CRE~ ~override/CRSTHARM.CRE~
+COPY_EXISTING ~AR0701.ARE~ ~override~
+  READ_LONG 0x54 "ActorOffset"
+  FOR ("i" = 3; "i" <= 7; "i" += 1)
+  BEGIN
+    WRITE_ASCII ("ActorOffset" + ("i" * 0x110) + 0x80) ~CRSTHARM~ (8)
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// Add to script of guards in Curst, since we can't add it to the CRE
+<<<<<<<< .../inlinedfile/CurstHits.BAF
+IF
+  Die()
+THEN
+  RESPONSE #100
+    IncrementGlobal("Good","GLOBAL",-1)
+    IncrementGlobal("Law","GLOBAL",-1)
+    IncrementGlobal("Murder","GLOBAL",1)
+END
+>>>>>>>>
+EXTEND_TOP ~0700GUAR.BCS~ ~.../inlinedfile/CurstHits.BAF~
+EXTEND_TOP ~0701GUAR.BCS~ ~.../inlinedfile/CurstHits.BAF~
+
+
+// Alignment flags correction based on Increment (0x2b8) fields positive but 0x2e1 flags turned off.
+// This represents almost all of the Clerk's Ward and adjacent buildings
+COPY_EXISTING ~ABLE.CRE~     ~override~
+              ~ACTOR1.CRE~   ~override~
+              ~ACTOR2.CRE~   ~override~
+//            ~ANAMOLI.CRE~  ~override~ // Hostile
+//            ~ANNAHF.CRE~   ~override~ // Shouldn't suffer hits for TO killing her
+              ~ARTIST.CRE~   ~override~
+//            ~BINIAN.CRE~   ~override~ // Restored Curst Prisoner. All others have 2/3/5 turned on. Turning them all off in UB CurstPrisoners.tph.
+//            ~BVCOLL.CRE~   ~override~ // Mostly used in Trash Warrens
+//            ~BVTIEFF.CRE~  ~override~ // Should split, Trash Warrens shouldn't have hits, BV arguably should, no hits for now
+//            ~BVTIEFM.CRE~  ~override~ // Should split, Trash Warrens shouldn't have hits, BV arguably should, no hits for now
+//            ~BVTIEFM2.CRE~ ~override~ // Trash Warren only, no hit.
+//            ~CHOSMAG3.CRE~ ~override~ // Crazy mages in Carceri:  +1 good only
+//            ~CHOSMAGE.CRE~ ~override~
+//            ~CHOSMAG2.CRE~ ~override~
+              ~CLERK1.CRE~   ~override~
+              ~CLERK2.CRE~   ~override~
+//            ~CRSTANC1.CRE~ ~override~ // Carceri Anarchists.  Potentially hostile.
+//            ~CRSTANC2.CRE~ ~override~
+//            ~CRSTANC3.CRE~ ~override~
+//            ~CRSTANC4.CRE~ ~override~
+//            ~CRSTANC5.CRE~ ~override~
+//            ~CRSTANC6.CRE~ ~override~
+//            ~CRSTLOT1.CRE~ ~override~ // Carceri Looters.  Hostile.
+//            ~CRSTLOT2.CRE~ ~override~
+//            ~CRSTLOT3.CRE~ ~override~
+              ~CWACTF1.CRE~  ~override~
+              ~CWACTF2.CRE~  ~override~
+              ~CWACTM1.CRE~  ~override~
+              ~CWACTM2.CRE~  ~override~
+              ~CWCAFEF1.CRE~ ~override~
+              ~CWCAFEF2.CRE~ ~override~
+              ~CWCAFEM1.CRE~ ~override~
+              ~CWCAFEM2.CRE~ ~override~
+              ~CWMIMEF1.CRE~ ~override~
+              ~CWMIMEF2.CRE~ ~override~
+              ~CWMIMEM1.CRE~ ~override~
+              ~CWPOETF1.CRE~ ~override~
+              ~CWPOETM1.CRE~ ~override~
+              ~CWPOETM2.CRE~ ~override~
+              ~CWRUSHB1.CRE~ ~override~
+              ~CWRUSHB2.CRE~ ~override~
+              ~CWRUSHF1.CRE~ ~override~
+              ~CWRUSHF2.CRE~ ~override~
+              ~CWRUSHM1.CRE~ ~override~
+              ~CWRUSHM2.CRE~ ~override~
+              ~CWTIPSY.CRE~  ~override~
+              ~DADVOC.CRE~   ~override~
+              ~DILIGNC.CRE~  ~override~
+              ~ELI.CRE~      ~override~
+              ~ELOBRND.CRE~  ~override~
+              ~FHGUARD.CRE~  ~override~
+              ~FSTCLRK.CRE~  ~override~
+//            ~GANGER.CRE~   ~override~ // Hostile.
+//            ~GANGLDR.CRE~  ~override~ // Hostile.
+              ~GHYSIS.CRE~   ~override~
+              ~GNCLVS.CRE~   ~override~
+//            ~GRACEF.CRE~   ~override~ // Shouldn't get hit for TO killing Grace
+              ~HBDYGRD.CRE~  ~override~
+              ~HGUARD.CRE~   ~override~
+              ~JUMBLE.CRE~   ~override~
+              ~KILN.CRE~     ~override~
+              ~LZSCRIBE.CRE~ ~override~
+              ~MAGEF1.CRE~   ~override~
+              ~MAGEF2.CRE~   ~override~
+              ~MAGEF3.CRE~   ~override~
+              ~MAGEM1.CRE~   ~override~
+              ~MAGEM2.CRE~   ~override~
+              ~MAGEM3.CRE~   ~override~
+              ~MAGEM4.CRE~   ~override~
+              ~MAGEM5.CRE~   ~override~
+              ~MAGEM6.CRE~   ~override~
+              ~MAGEM7.CRE~   ~override~
+              ~MALMNR.CRE~   ~override~
+//            ~MARQUEZ.CRE~  ~override~ // Curst bar. Activated with Curst group below.
+              ~MERIMAN.CRE~  ~override~
+              ~MERTWYN.CRE~  ~override~
+              ~MHGUARD.CRE~  ~override~
+              ~MIME.CRE~     ~override~
+//            ~MONTAG.CRE~   ~override~ // Unused
+              ~MSGR.CRE~     ~override~
+              ~NEML.CRE~     ~override~
+//            ~NORDOMF.CRE~  ~override~ // Shouldn't get hit for TO killing Nordom
+              ~PATROL.CRE~   ~override~
+              ~PATRON1.CRE~  ~override~
+              ~PATRON2.CRE~  ~override~
+              ~PATRON3.CRE~  ~override~
+              ~PATRON4.CRE~  ~override~
+              ~PATRON5.CRE~  ~override~
+              ~PATRON6.CRE~  ~override~
+              ~PATRON7.CRE~  ~override~
+              ~PESTLE.CRE~   ~override~
+              ~PK.CRE~       ~override~
+//            ~PODGE.CRE~    ~override~ // Unused
+              ~POET.CRE~     ~override~
+              ~QUELL.CRE~    ~override~
+              ~SALABSH.CRE~  ~override~
+              ~SARGE.CRE~    ~override~
+//            ~SARHAVA.CRE~  ~override~ // Hostile.
+              ~SENSAF1.CRE~  ~override~
+              ~SENSF1.CRE~   ~override~
+              ~SENSF2.CRE~   ~override~
+              ~SENSF3.CRE~   ~override~
+              ~SENSF4.CRE~   ~override~
+              ~SENSM1.CRE~   ~override~
+              ~SENSM2.CRE~   ~override~
+              ~SENSM3.CRE~   ~override~
+              ~SENSM4.CRE~   ~override~
+              ~SENSM5.CRE~   ~override~
+//            ~SERVANT.CRE~  ~override~ // Unused
+              ~SPLINTER.CRE~ ~override~
+              ~THIEF1.CRE~   ~override~
+              ~THIEF10.CRE~  ~override~
+              ~THIEF11.CRE~  ~override~
+              ~THIEF12.CRE~  ~override~
+              ~THIEF2.CRE~   ~override~
+              ~THIEF3.CRE~   ~override~
+              ~THIEF4.CRE~   ~override~
+              ~THIEF5.CRE~   ~override~
+              ~THIEF6.CRE~   ~override~
+              ~THIEF7.CRE~   ~override~
+              ~THIEF8.CRE~   ~override~
+              ~THIEF9.CRE~   ~override~
+              ~THRNCMB.CRE~  ~override~
+//            ~TOADY1.CRE~   ~override~ // Sarhava's crew. Hostile.
+//            ~TOADY2.CRE~   ~override~
+              ~UCHO1.CRE~    ~override~
+              ~UCHO2.CRE~    ~override~
+              ~UCHO3.CRE~    ~override~
+              ~UDESIRE.CRE~  ~override~
+              ~VORTEN.CRE~   ~override~
+              ~VRSCHKA.CRE~  ~override~
+              ~WARR1.CRE~    ~override~
+              ~WARR10.CRE~   ~override~
+              ~WARR11.CRE~   ~override~
+              ~WARR2.CRE~    ~override~
+              ~WARR3.CRE~    ~override~
+              ~WARR4.CRE~    ~override~
+              ~WARR6.CRE~    ~override~
+              ~WARR7.CRE~    ~override~
+              ~WARR8.CRE~    ~override~
+              ~WARR9.CRE~    ~override~
+//            ~WERNET.CRE~   ~override~ // Curst.  Hostile thug.
+              ~YVANA.CRE~    ~override~
+  READ_BYTE 0x2e1 "Original"
+  WRITE_BYTE 0x2e1 "Original" + 60
+ BUT_ONLY_IF_IT_CHANGES
+
+// Mimicking alignment hits that should occur when blowing up Foundry machine... if we do this via actual game deaths of Kellera and
+// the 8 weapon workers and 4 guards, it would set off alarms and stuff.  Checking Kel'lera's status as a rough check to make sure
+// player didn't wipe out everyone in the weapon room earlier, so that we don't hit alignments twice.
+// This should activate as soon as you are teleported after doing the sabotage. Doing it -after- teleport so that stuff that de-equips
+// from possible alignment change can't fall to the ground in the "old" AR0512 and become lost forever.
+<<<<<<<< .../inlinedfile/AlignWeapon.BAF
+IF
+  Global("Sabotage","GLOBAL",5)
+  Global("Sabotage_Align","GLOBAL",0)
+  !Dead("Kellera")
+THEN
+  RESPONSE #100
+    IncrementGlobal("Good","GLOBAL",-13)
+    IncrementGlobal("Law","GLOBAL",-13)
+    IncrementGlobal("Murder","GLOBAL",13)
+    IncrementGlobal("Lady","GLOBAL",13)
+    SetGlobal("Sabotage_Align","GLOBAL",1)
+    Continue()
+END
+>>>>>>>>
+EXTEND_TOP ~AR0502.BCS~ ~.../inlinedfile/AlignWeapon.BAF~
+
+// This is just correcting insane situations where killing is obviously murder
+// Sigil group - includes Lady
+COPY_EXISTING ~ALAIS.CRE~    ~override~
+              ~BARIA.CRE~    ~override~
+              ~BARKING.CRE~  ~override~
+              ~BOOTSHNR.CRE~ ~override~
+              ~BVGUARD1.CRE~ ~override~
+              ~BVGUARD2.CRE~ ~override~
+              ~BVGUARD3.CRE~ ~override~
+              ~BVGUARD4.CRE~ ~override~
+              ~BVGUARD5.CRE~ ~override~
+              ~CANDRIA.CRE~  ~override~
+              ~CRADDO.CRE~   ~override~
+              ~CREED.CRE~    ~override~
+              ~CRIER.CRE~    ~override~
+              ~CUSHF.CRE~    ~override~
+              ~CUSHF2.CRE~   ~override~
+              ~CUSHF3.CRE~   ~override~
+              ~CUSHF4.CRE~   ~override~
+              ~CUSHF5.CRE~   ~override~
+              ~CUSHM.CRE~    ~override~
+              ~CUSHM2.CRE~   ~override~
+              ~CUSHM3.CRE~   ~override~
+              ~CUSHM4.CRE~   ~override~
+              ~DAKKON.CRE~   ~override~
+              ~DEATHAD.CRE~  ~override~
+              ~DEATHON.CRE~  ~override~
+              ~DILLON.CRE~   ~override~
+              ~DOLORA.CRE~   ~override~
+              ~DRUNK.CRE~    ~override~
+              ~DRUNKZ.CRE~   ~override~
+              ~DRUNKZ2.CRE~  ~override~
+              ~EBB.CRE~      ~override~
+              ~ECCO.CRE~     ~override~
+              ~ELYCE.CRE~    ~override~
+              ~GAMLIN.CRE~   ~override~
+              ~GAOHA.CRE~    ~override~
+              ~GFCLERK.CRE~  ~override~
+              ~GFGUARD.CRE~  ~override~
+              ~GFSUPE.CRE~   ~override~
+              ~GFWRK.CRE~    ~override~
+              ~GFWRK2.CRE~   ~override~
+              ~GFWRK3.CRE~   ~override~
+              ~GFWRK4.CRE~   ~override~
+              ~GFWRK5.CRE~   ~override~
+              ~GFWRK6.CRE~   ~override~
+              ~GFWRK7.CRE~   ~override~
+              ~GFWRK8.CRE~   ~override~
+              ~GITH.CRE~     ~override~
+              ~GODSMAN.CRE~  ~override~
+              ~GODSMAN2.CRE~ ~override~
+              ~GODSMAN3.CRE~ ~override~
+              ~GODSMAN4.CRE~ ~override~
+              ~GODSMAN5.CRE~ ~override~
+              ~GODSMAN6.CRE~ ~override~
+              ~GODSMAN7.CRE~ ~override~
+              ~GODSMAN8.CRE~ ~override~
+              ~HAMRYS.CRE~   ~override~
+              ~HAODA.CRE~    ~override~
+              ~HIVEF1.CRE~   ~override~
+              ~HIVEF1B.CRE~  ~override~
+              ~HIVEH1C.CRE~  ~override~
+              ~HIVEH1D.CRE~  ~override~
+              ~HIVEH1E.CRE~  ~override~
+              ~HIVEH1F.CRE~  ~override~
+              ~HIVEH1G.CRE~  ~override~
+              ~HIVEH1H.CRE~  ~override~
+              ~HIVEH2.CRE~   ~override~
+              ~HIVEVAG1.CRE~ ~override~
+              ~HIVEVAG2.CRE~ ~override~
+              ~HIVEVAG3.CRE~ ~override~
+              ~HIVEVAG4.CRE~ ~override~
+              ~HIVEVAG5.CRE~ ~override~
+              ~HIVEVAG6.CRE~ ~override~
+              ~HIVEW1.CRE~   ~override~
+              ~HIVEW2.CRE~   ~override~
+              ~HIVEW3.CRE~   ~override~
+              ~HIVEW4.CRE~   ~override~
+              ~HIVEW5.CRE~   ~override~
+              ~IANNIS.CRE~   ~override~
+              ~INGRESS.CRE~  ~override~
+              ~IRONNA.CRE~   ~override~
+              ~JARYM.CRE~    ~override~
+              ~JHELAI.CRE~   ~override~
+              ~JOHN.CRE~     ~override~
+              ~JOHN2.CRE~    ~override~
+              ~JOHN3.CRE~    ~override~
+              ~JOHN4.CRE~    ~override~
+              ~JOHN5.CRE~    ~override~
+              ~JOHN6.CRE~    ~override~
+              ~KELDOR.CRE~   ~override~
+              ~KELLERA.CRE~  ~override~
+              ~KESAI.CRE~    ~override~
+              ~KIINA.CRE~    ~override~
+              ~KIMASXI.CRE~  ~override~
+              ~LABOR.CRE~    ~override~
+              ~LABOR2.CRE~   ~override~
+              ~LABOR3.CRE~   ~override~
+              ~LABOR4.CRE~   ~override~
+              ~LABOR5.CRE~   ~override~
+              ~LAZLO.CRE~    ~override~
+              ~LENNY.CRE~    ~override~
+              ~LISTENF.CRE~  ~override~
+              ~LISTENM.CRE~  ~override~
+              ~LWCUSF.CRE~   ~override~
+              ~LWCUSF2.CRE~  ~override~
+              ~LWCUSF3.CRE~  ~override~
+              ~LWCUSM.CRE~   ~override~
+              ~LWCUSM2.CRE~  ~override~
+              ~LWCUSM3.CRE~  ~override~
+              ~MARISSA.CRE~  ~override~
+              ~MARTA.CRE~    ~override~
+              ~MEBBETH.CRE~  ~override~
+              ~MEIRAM.CRE~   ~override~
+              ~MERCHF.CRE~   ~override~
+              ~MERCHM.CRE~   ~override~
+              ~MERCHM2.CRE~  ~override~
+              ~MERCHMO.CRE~  ~override~
+              ~MERCHMO2.CRE~ ~override~
+              ~MFTREE.CRE~   ~override~
+              ~MHULT.CRE~    ~override~
+              ~MICCAH.CRE~   ~override~
+              ~MMOURN.CRE~   ~override~
+              ~MONTAGU.CRE~  ~override~
+              ~MORTAI.CRE~   ~override~
+              ~MORTE.CRE~    ~override~
+              ~MOURN1.CRE~   ~override~
+              ~MOURN2.CRE~   ~override~
+              ~MOURN3.CRE~   ~override~
+              ~MOURN4.CRE~   ~override~
+              ~NENNY.CRE~    ~override~
+              ~NODD.CRE~     ~override~
+              ~O.CRE~        ~override~
+              ~PORPHIR.CRE~  ~override~
+              ~POX.CRE~      ~override~
+              ~PROPHY.CRE~   ~override~
+              ~QUENTIN.CRE~  ~override~
+              ~QUINT.CRE~    ~override~
+              ~QUISHO.CRE~   ~override~
+              ~RADINE.CRE~   ~override~
+              ~REEK.CRE~     ~override~
+              ~SADJULI.CRE~  ~override~
+              ~SAROSSA.CRE~  ~override~
+              ~SCFPAT.CRE~   ~override~
+              ~SCFPAT2.CRE~  ~override~
+              ~SCMPAT.CRE~   ~override~
+              ~SCMPAT2.CRE~  ~override~
+              ~SEVTAI.CRE~   ~override~
+              ~SMITH.CRE~    ~override~
+              ~SMITH2.CRE~   ~override~
+              ~SMITH3.CRE~   ~override~
+              ~SMITH4.CRE~   ~override~
+              ~SMITH5.CRE~   ~override~
+              ~SMITH6.CRE~   ~override~
+              ~TOUTHVA.CRE~  ~override~
+              ~TOUTHVB.CRE~  ~override~
+              ~TOUTHVC.CRE~  ~override~
+              ~TOUTHVD.CRE~  ~override~
+              ~VIVIAN.CRE~   ~override~
+              ~WORKER.CRE~   ~override~
+              ~WORKER2.CRE~   ~override~
+              ~WORKER3.CRE~   ~override~
+              ~WORKER4.CRE~   ~override~
+              ~WORKER5.CRE~   ~override~
+              ~WORKER6.CRE~   ~override~
+              ~WORKER7.CRE~   ~override~
+              ~WORKER8.CRE~   ~override~
+              ~XANDER.CRE~   ~override~
+              ~XANTHIA.CRE~  ~override~
+              ~YVES.CRE~     ~override~
+  WRITE_BYTE 0x2b8 0xff
+  WRITE_BYTE 0x2b9 0xff
+  WRITE_BYTE 0x2ba 1
+  WRITE_BYTE 0x2bb 1
+  READ_BYTE 0x2e1 "AttributeFlags"
+  WRITE_BYTE 0x2e1 "AttributeFlags" + 60
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// First, we need to prep by splitting reused CRE's between ones that need hits and ones that don't.
+// Make Carceri version of regular Curst critters, since we don't want Carceri critters to get hits, too much death there.
+COPY_EXISTING ~CRSTMAL.CRE~  ~override/CARCMAL.CRE~
+COPY_EXISTING ~CRSTMAL2.CRE~ ~override/CARCMAL2.CRE~
+COPY_EXISTING ~CRSTMAL3.CRE~ ~override/CARCMAL3.CRE~
+COPY_EXISTING ~CRSTMAL4.CRE~ ~override/CARCMAL4.CRE~
+COPY_EXISTING ~CRSTMAL5.CRE~ ~override/CARCMAL5.CRE~
+COPY_EXISTING ~CRSTMAL6.CRE~ ~override/CARCMAL6.CRE~
+COPY_EXISTING ~CRSTFEM.CRE~  ~override/CARCFEM.CRE~
+COPY_EXISTING ~CRSTFEM2.CRE~ ~override/CARCFEM2.CRE~
+COPY_EXISTING ~CRSTFEM3.CRE~ ~override/CARCFEM3.CRE~
+COPY_EXISTING ~CRSTFEM4.CRE~ ~override/CARCFEM4.CRE~
+COPY_EXISTING ~CRSTFEM5.CRE~ ~override/CARCFEM5.CRE~
+COPY_EXISTING ~CRSTMRCH.CRE~ ~override/CARCMRCH.CRE~
+COPY_EXISTING ~CRSTMRC2.CRE~ ~override/CARCMRC2.CRE~
+
+// Turn hits off for CARCHMRCH and CARCMRC2.
+COPY_EXISTING ~CARCMRCH.CRE~ ~override~
+              ~CARCMRC2.CRE~ ~override~
+  WRITE_BYTE 0x2e1 0
+ BUT_ONLY_IF_IT_CHANGES
+
+// Change areas where they're hostile or can be killed to use new versions that won't be updated to give alignment hits.
+COPY_EXISTING ~AR0702.ARE~ ~override~
+  READ_LONG 0x54 "ActorOffset"
+  FOR ("i" = 20; "i" <= 38; "i" += 1)
+  BEGIN
+    WRITE_ASCII ("ActorOffset" + ("i" * 0x110) + 0x80) ~CARC~ (4)
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR0707.ARE~ ~override~
+  READ_LONG 0x54 "ActorOffset"
+  FOR ("i" = 0; "i" <= 2; "i" += 1)
+  BEGIN
+    WRITE_ASCII ("ActorOffset" + ("i" * 0x110) + 0x80) ~CARC~ (4)
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~AR0900.ARE~ ~override~
+  READ_LONG 0x54 "ActorOffset"
+  FOR ("i" = 21; "i" <= 32; "i" += 1)
+  BEGIN
+    WRITE_ASCII ("ActorOffset" + ("i" * 0x110) + 0x80) ~CARC~ (4)
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// Curst group - no lady hit. We'll put Fell here too.  And Modrons in the cube (this is based on Nordom and brothel modrons getting hits).
+COPY_EXISTING ~BERROG.CRE~   ~override~
+              ~CRSSMTH.CRE~  ~override~
+              ~CRSTCAPT.CRE~ ~override~
+              ~CRSTMAL.CRE~  ~override~
+              ~CRSTMAL2.CRE~ ~override~
+              ~CRSTMAL3.CRE~ ~override~
+              ~CRSTMAL4.CRE~ ~override~
+              ~CRSTMAL5.CRE~ ~override~
+              ~CRSTMAL6.CRE~ ~override~
+              ~CRSTFEM.CRE~  ~override~
+              ~CRSTFEM2.CRE~ ~override~
+              ~CRSTFEM3.CRE~ ~override~
+              ~CRSTFEM4.CRE~ ~override~
+              ~CRSTFEM5.CRE~ ~override~
+              ~DALLAN.CRE~   ~override~
+              ~DGFRIEND.CRE~ ~override~
+              ~FELL.CRE~     ~override~
+              ~KITLA.CRE~    ~override~
+              ~MARQUEZ.CRE~  ~override~
+              ~MODENG.CRE~   ~override~
+              ~MODMAZ.CRE~   ~override~
+              ~MODMDO.CRE~   ~override~
+              ~MODRON.CRE~   ~override~
+              ~NABAT.CRE~    ~override~
+  WRITE_BYTE 0x2b8 0xff
+  WRITE_BYTE 0x2b9 0xff
+  WRITE_BYTE 0x2bb 1
+  READ_BYTE 0x2e1 "AttributeFlags"
+  WRITE_BYTE 0x2e1 "AttributeFlags" + 44
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// ============================================== Insane Stat Corrections ==================================================
+// Normal abashi have 3 proficiency points in slashing weapons, but named ones don't.
+// Glabrezu, Ghoul queen, Bariaur and Blackrose should have at least as many too.
+COPY_EXISTING ~ACASTE.CRE~   ~override~
+              ~AETHEL.CRE~   ~override~
+              ~AGRIL.CRE~    ~override~
+              ~BARIA.CRE~    ~override~
+              ~BARIH.CRE~    ~override~
+              ~BLACKR.CRE~   ~override~
+              ~BOXDMN2.CRE~  ~override~
+              ~GEHERL.CRE~   ~override~
+              ~GROSUK.CRE~   ~override~
+              ~GLABREZ.CRE~  ~override~
+              ~GLABREZX.CRE~ ~override~
+  WRITE_BYTE 0x6e 3
+  WRITE_BYTE 0x6f 3
+  WRITE_BYTE 0x70 3
+  WRITE_BYTE 0x71 3
+  WRITE_BYTE 0x72 3
+ BUT_ONLY_IF_IT_CHANGES
+
+// Practical Incarnation certainly deserves 5 proficiency in his wimpy club, he was a high level fighter
+COPY_EXISTING ~INCAR1.CRE~   ~override~
+  WRITE_BYTE 0x72 5
+ BUT_ONLY_IF_IT_CHANGES
+
+// Many creatures with tons of hit points are Level 1, making them absurdly susceptible to Cloudkill
+COPY_EXISTING ~TRIAS.CRE~   ~override~
+  WRITE_BYTE 0x234 18
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~WORM.CRE~   ~override~
+              ~TRELON.CRE~ ~override~
+  WRITE_BYTE 0x234 10
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~ACASTE.CRE~ ~override~
+              ~ADABUS.CRE~ ~override~
+  WRITE_BYTE 0x234 5
+ BUT_ONLY_IF_IT_CHANGES
+
+// Otis, one of the Anarchists, is supposed to be built like a brick wall, but he's pathetically weak
+COPY_EXISTING ~ANARCHY3.CRE~ ~override~
+  WRITE_LONG  0x14 300    // XP Value
+  WRITE_LONG  0x18 20000  // XP
+  WRITE_SHORT 0x24 50  // Current HP
+  WRITE_SHORT 0x26 50  // Max HP
+  WRITE_SHORT 0x46 3   // Natural AC
+  WRITE_SHORT 0x48 3   // Effective AC
+  WRITE_BYTE  0x52 14  // THACO
+  WRITE_BYTE  0x53 3   // # of attacks
+  WRITE_BYTE  0x6f 2   // Edged Proficiency
+  WRITE_BYTE 0x234 5   // Level
+  WRITE_BYTE 0x238 18  // Strength
+  WRITE_BYTE 0x239 99  // Exceptional Strength
+  WRITE_BYTE 0x23d 16  // Constitution
+  WRITE_BYTE 0x317 2   // Class (Fighter)
+ BUT_ONLY_IF_IT_CHANGES
+
+// Qui-Sai, as a stone genasi fighter trainer, deserved better strength, and some proficiency points
+COPY_EXISTING ~QUISAI.CRE~  ~override~
+              ~QUISAIF.CRE~ ~override~
+  WRITE_BYTE 0x238 18  // Strength
+  WRITE_BYTE 0x239 60  // Exceptional Strength
+  WRITE_BYTE  0x6f 4   // Edged Proficiency
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Other two anarchists have weapons suggesting their level should be 4-6, not 1
+// Leena
+COPY_EXISTING ~ANARCHY1.CRE~ ~override~
+  WRITE_LONG  0x14  200    // XP Value
+  WRITE_LONG  0x18  20000  // XP
+  WRITE_SHORT 0x24  36     // Current HP
+  WRITE_SHORT 0x26  36     // Max HP
+  WRITE_SHORT 0x46  5      // Natural AC
+  WRITE_SHORT 0x48  5      // Effective AC
+  WRITE_BYTE  0x52  17     // THACO
+  WRITE_BYTE  0x53  2      // # of attacks
+  WRITE_BYTE  0x6f  2      // Edged Proficiency
+  WRITE_BYTE  0x234 6      // Level
+ BUT_ONLY_IF_IT_CHANGES
+
+// Conall
+COPY_EXISTING ~ANARCHY2.CRE~ ~override~
+  WRITE_LONG  0x14  200    // XP Value
+  WRITE_LONG  0x18  20000  // XP
+  WRITE_SHORT 0x24  32     // Current HP
+  WRITE_SHORT 0x26  32     // Max HP
+  WRITE_SHORT 0x46  5      // Natural AC
+  WRITE_SHORT 0x48  5      // Effective AC
+  WRITE_BYTE  0x52  17     // THACO
+  WRITE_BYTE  0x53  2      // # of attacks
+  WRITE_BYTE  0x6f  2      // Edged Proficiency
+  WRITE_BYTE  0x234 6      // Level
+ BUT_ONLY_IF_IT_CHANGES
+
+// Mantuok is much higher level than common wererats, with hugely better stats, but has same HP and some other stats
+COPY_EXISTING ~MANTUOK.CRE~ ~override~
+  WRITE_SHORT 0x24  84     // Current HP
+  WRITE_SHORT 0x26  84     // Max HP
+  WRITE_BYTE  0x52  13     // THACO
+  WRITE_BYTE  0x53  2      // # of attacks
+  WRITE_BYTE  0x6f  2      // Edged Proficiency
+ BUT_ONLY_IF_IT_CHANGES
+
+// Sohmiens are terribly weak.  Making their stats match that of summoned sohmien (which were actually worth less xp, good evidence it was a mistake.
+COPY_EXISTING ~HORSE.CRE~ ~override~
+  WRITE_LONG  0x14 900 // XP Value
+  WRITE_LONG  0x18 3   // XP
+  WRITE_BYTE 0x234 3   // Level
+  WRITE_SHORT 0x24 40  // Current HP
+  WRITE_SHORT 0x26 40  // Max HP
+  WRITE_SHORT 0x46 6   // Natural AC
+  WRITE_SHORT 0x48 6   // Effective AC
+  WRITE_BYTE  0x52 17  // THACO
+  WRITE_BYTE  0x53 1   // # of attacks
+  WRITE_BYTE  0x6f 2   // Edged Proficiency
+  WRITE_BYTE 0x234 3   // Level
+  WRITE_BYTE 0x238 16  // Strength
+  WRITE_BYTE 0x23d 16  // Constitution
+ BUT_ONLY_IF_IT_CHANGES
+
+// ===================================================== VERSION 4.1 ====================================================
+// Shortly after version 4.1, devSin dumped an -awesome- bug list on my forums. The following are all fixes based on his bug report.
+
+// ================================================== devSin Area Fixes =================================================
+
+// Rest Permission Fixes
+COPY_EXISTING ~AR0103C.ARE~ ~override~
+              ~AR0903.ARE~ ~override~
+  WRITE_BYTE 0x14 2
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR0107.ARE~ ~override~
+  WRITE_BYTE 0x14 6
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~AR13WZ.ARE~ ~override~
+  WRITE_BYTE 0x14 4
+ BUT_ONLY_IF_IT_CHANGES
+
+// AR1303 and AR13WZ need Rubikon area type
+COPY_EXISTING ~AR1303.ARE~ ~override~
+              ~AR13WZ.ARE~ ~override~
+  WRITE_BYTE 0x48 64
+ BUT_ONLY_IF_IT_CHANGES
+
+// Tapestry in Mortuary 1st floor has wrong info string
+COPY_EXISTING ~AR0201.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  FOR ("i" = 0; "i" < "Q_Num_Trigg"; "i" += 1)
+  BEGIN
+    READ_ASCII "Q_Off_Trigg" + ("Q_Siz_Trigg" * i) "TriggerName" (7)
+    PATCH_IF ~%TriggerName%~ STRING_EQUAL ~Drape 3~ THEN
+      BEGIN WRITE_LONG "Q_Off_Trigg" + ("Q_Siz_Trigg" * i) + 0x64 5184 END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// Trap3 in TNO's Tomb should have difficulty 100 like all the other traps. Original difficulty 0.
+// Also, trap 3 and trap 6 should have Trap Resets flag turned on like very other trap.
+COPY_EXISTING ~AR1800.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  FOR ("i" = 0; "i" < "Q_Num_Trigg"; "i" += 1)
+  BEGIN
+    READ_ASCII "Q_Off_Trigg" + ("Q_Siz_Trigg" * i) "TriggerName" (5)
+    PATCH_IF ~%TriggerName%~ STRING_EQUAL ~Trap3~ THEN
+    BEGIN
+      WRITE_SHORT "Q_Off_Trigg" + ("Q_Siz_Trigg" * i) + 0x6a 100
+      WRITE_BYTE  "Q_Off_Trigg" + ("Q_Siz_Trigg" * i) + 0x60 10
+    END
+    PATCH_IF ~%TriggerName%~ STRING_EQUAL ~Trap6~ THEN
+    BEGIN
+      WRITE_BYTE  "Q_Off_Trigg" + ("Q_Siz_Trigg" * i) + 0x60 10
+    END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+ 
+// A number of traps have the "Is Trap Detected?" flag already on in the base area file, this should only be on in save games.
+COPY_EXISTING ~AR0108.ARE~ ~override~
+              ~AR0403.ARE~ ~override~
+              ~AR0605.ARE~ ~override~
+              ~AR0702.ARE~ ~override~
+              ~AR0708.ARE~ ~override~
+              ~AR0901.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  FOR ("i" = 0; "i" < "Q_Num_Conta"; "i" += 1)
+  BEGIN
+    READ_SHORT "Q_Off_Conta" + ("Q_Siz_Conta" * i) + 0x32 "TrapDetected"
+    PATCH_IF "TrapDetected" > 0 THEN BEGIN WRITE_SHORT "Q_Off_Conta" + ("Q_Siz_Conta" * i) + 0x32 0 END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// Trap on chest and dresser in AR0304 shouldn't be detectable, it's not a player trap
+COPY_EXISTING ~AR0304.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  FOR ("i" = 0; "i" < "Q_Num_Conta"; "i" += 1)
+  BEGIN
+    WRITE_SHORT "Q_Off_Conta" + ("Q_Siz_Conta" * i) + 0x2C 100
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// Seven info points in game are missing an info point cursor. Interesting ones are the Curst Gate, the Mortuary Furnace and the Godsman Weapon nozzle.
+COPY_EXISTING ~AR0202.ARE~ ~override~
+              ~AR0203.ARE~ ~override~
+              ~AR0512.ARE~ ~override~
+              ~AR0601.ARE~ ~override~
+              ~AR0700.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  FOR ("i" = 0; "i" < "Q_Num_Trigg"; "i" += 1)
+  BEGIN
+    READ_SHORT "Q_Off_Trigg" + ("Q_Siz_Trigg" * i) + 0x20 "Info_Point"
+    READ_SHORT "Q_Off_Trigg" + ("Q_Siz_Trigg" * i) + 0x34 "Cursor"
+    PATCH_IF "Info_Point" = 1 AND "Cursor" = 0 THEN BEGIN WRITE_SHORT "Q_Off_Trigg" + ("Q_Siz_Trigg" * i) + 0x34 22 END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// Finam's house has battle music for Curst instead of Sigil
+COPY_EXISTING ~AR0706B.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  WRITE_SHORT "Q_Off_Songs" + 0xC 27
+ BUT_ONLY_IF_IT_CHANGES
+
+// AR3004A shouldn't be incrementing Rat Warren variable... no other group of rats outside of Warrens of Thought (like the catacombs and trash warrens,
+// much closer to Warrens) does so.
+COPY_EXISTING ~AR3004A.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  WRITE_ASCII 0x94 "" (8)
+ BUT_ONLY_IF_IT_CHANGES
+
+// Most of the modron maze areas had their music and battle music fields set incorrectly.
+COPY_EXISTING_REGEXP ~AR13...ARE~ ~override~
+  READ_ASCII 0x8 "WEDCheck1" (4)
+  READ_ASCII 0x8 "WEDCheck2" (6)
+  PATCH_IF NOT ~%SOURCE_FILE%~ STRING_EQUAL ~AR13FD.ARE~ THEN // Nordom's area gets his theme music
+  BEGIN
+    READ_LONG 0xbc "SongsOffset"
+    WRITE_LONG "SongsOffset" 22
+    WRITE_LONG "SongsOffset" + 0x4 22
+    WRITE_LONG "SongsOffset" + 0xc 30
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+
+
+// ==================================================== devSin Creature Fixes =================================================
+
+// Kiln and Pestle need script names and kaputz variables for AR0612.BCS. Visible effect is Pestle gets his "Welcome to my shop"
+// greeting when you first enter his shop fixed.
+COPY_EXISTING ~PESTLE.CRE~ ~override~
+  WRITE_ASCII 0x324 ~Pestle~ (6)
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~KILN.CRE~ ~override~
+  WRITE_ASCII 0x324 ~Kiln~ (4)
+ BUT_ONLY_IF_IT_CHANGES
+
+// A number of creatures have inappropriate battle cries and death cries of abishai (Miccah's was a ghoul).
+COPY_EXISTING ~BARIA.CRE~   ~override~
+              ~BARIH.CRE~   ~override~
+              ~BEDAI.CRE~   ~override~
+              ~HBDYGRD.CRE~ ~override~
+              ~KELDOR.CRE~  ~override~
+              ~MICCAH.CRE~  ~override~
+              ~QUISAIF.CRE~ ~override~
+              ~SAROSSA.CRE~ ~override~
+              ~XANDER.CRE~  ~override~
+  WRITE_LONG 0xC8 (0 - 1)
+  WRITE_LONG 0xCC (0 - 1)
+  WRITE_LONG 0xF0 (0 - 1)
+ BUT_ONLY_IF_IT_CHANGES
+
+// A number of creatures did not have their weapons equipped
+COPY_EXISTING ~AGRIL.CRE~    ~override~
+              ~ANIZIUS.CRE~  ~override~
+              ~BARSE.CRE~    ~override~
+              ~BERROG.CRE~   ~override~
+              ~BPATRON1.CRE~ ~override~
+              ~BPATRON2.CRE~ ~override~
+              ~BPATRON3.CRE~ ~override~
+              ~BPATRON4.CRE~ ~override~
+              ~BPATRON5.CRE~ ~override~
+              ~BPATRON9.CRE~ ~override~
+              ~CMERCH1.CRE~  ~override~
+              ~DGFRIEND.CRE~ ~override~
+              ~DOLORA.CRE~   ~override~
+              ~ECCO.CRE~     ~override~
+              ~HARSLAV.CRE~  ~override~ // Pretty sure this one is unused, but what the hell.
+              ~HEZOBOL.CRE~  ~override~
+              ~INCAR1.CRE~   ~override~
+              ~INCAR2.CRE~   ~override~
+              ~INCAR3.CRE~   ~override~
+              ~JASILYA.CRE~  ~override~
+              ~KITLA.CRE~    ~override~
+              ~MANTUOK.CRE~  ~override~
+              ~NABAT.CRE~    ~override~
+              ~QUISHO.CRE~   ~override~
+              ~SHERYL.CRE~   ~override~
+              ~SIABHA.CRE~   ~override~
+              ~SKATCH.CRE~   ~override~
+              ~THKSLAV.CRE~  ~override~
+              ~THKSLAV2.CRE~ ~override~
+              ~THKSLAV3.CRE~ ~override~
+              ~THOKOLA.CRE~  ~override~
+              ~THORP.CRE~    ~override~
+              ~TRIASA.CRE~   ~override~
+              ~TRIASB.CRE~   ~override~
+              ~TRIASC.CRE~   ~override~
+              ~ULTHERA.CRE~  ~override~
+              ~ZERB.CRE~     ~override~
+  SET "WeaponSlotOffset" = %SOURCE_SIZE% - 4
+  WRITE_SHORT "WeaponSlotOffset" 0
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~GORT.CRE~     ~override~
+              ~SENSF2.CRE~   ~override~
+  SET "WeaponSlotOffset" = %SOURCE_SIZE% - 4
+  WRITE_SHORT "WeaponSlotOffset" 1
+ BUT_ONLY_IF_IT_CHANGES
+
+// ==================================================== devSin Item Fixes =================================================
+
+// These items had their ability location set up as "Weapon Slots". This causes them to not display properly if you put them in the "Select Item"
+// Quick Slots menu.
+COPY_EXISTING ~ADRING.ITM~ ~override~
+              ~TAIL.ITM~   ~override~
+              ~TTCHR2.ITM~ ~override~
+              ~TTDEX1.ITM~ ~override~
+              ~TTDV.ITM~   ~override~
+              ~TTINT1.ITM~ ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_SHORT "AbilityOffset" + 0x2 3
+ BUT_ONLY_IF_IT_CHANGES
+
+// Blind Terror - as per description, speed should be 5 and bonus acid damage should be 2d4 not 1d8
+COPY_EXISTING ~AMACE.ITM~ ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_SHORT "AbilityOffset" + 0x12 5
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_LONG  "EffectsOffset" + (0x30 * 2) + 0x1c 2
+  WRITE_LONG  "EffectsOffset" + (0x30 * 2) + 0x20 4
+ BUT_ONLY_IF_IT_CHANGES
+
+// You could save against the casting of the Anarchist Earrning blindness spell, in addition to the spell itself
+COPY_EXISTING ~ANEAR2.ITM~ ~override~
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_LONG "EffectsOffset" + 0x24 0
+ BUT_ONLY_IF_IT_CHANGES
+
+// THACO bonus effect on Jagged Bolts has wrong timing mode
+COPY_EXISTING ~BOLT08.ITM~ ~override~
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_BYTE "EffectsOffset" + 0xc 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Celestial Fire Axe and Celestial Fire Club should have speed factor 3 as per description, was 0
+COPY_EXISTING ~CFAXE.ITM~  ~override~
+              ~CFCLUB.ITM~ ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_SHORT "AbilityOffset" + 0x12 3
+ BUT_ONLY_IF_IT_CHANGES
+
+// Merchant price of Celestial Fire Hammer should be 10000 like all the other versions, not 1000
+COPY_EXISTING ~CFHAMMER.ITM~ ~override~
+  WRITE_LONG 0x34 10000
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// Entropic Blade revisited.  All changes to stats in previous versions undone. Vanilla stats taking
+// precedence over description in most cases.
+
+// Dagger version should be piercing, not slashing, just like Celestial Fire dagger version.
+COPY_EXISTING ~EDAG.ITM~ ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_SHORT "AbilityOffset" + 0x1c 1
+ BUT_ONLY_IF_IT_CHANGES
+
+// Correcting descriptions to match actual vanilla stats.
+STRING_SET 26035 @26067
+STRING_SET 26067 @26067
+STRING_SET 59821 @59821
+STRING_SET 59822 @59822
+STRING_SET 59823 @59823
+STRING_SET 61680 @61680
+
+// FangMirr.ITM - play sound effect shouldn't be resistable.
+COPY_EXISTING ~FANGMIRR.ITM~ ~override~
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_BYTE  "EffectsOffset" + 0x30 + 0xD 0
+ BUT_ONLY_IF_IT_CHANGES
+
+// Green Steel Dagger should have speed factor 1 as per description, was 0
+COPY_EXISTING ~GSDAGGER.ITM~  ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_SHORT "AbilityOffset" + 0x12 1
+ BUT_ONLY_IF_IT_CHANGES
+
+// Description says damage of Karlaac's Knife should be 1-3, not 1-4
+COPY_EXISTING ~KKNIFE.ITM~  ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_SHORT "AbilityOffset" + 0x16 3
+ BUT_ONLY_IF_IT_CHANGES
+
+// Low level Ingress's Teeth Piercing version actually does crushing.
+COPY_EXISTING ~M1PTEETH.ITM~ ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_SHORT "AbilityOffset" + 0x1c 1
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_SHORT  "EffectsOffset" + 0x30 + 0xa 16
+ BUT_ONLY_IF_IT_CHANGES
+
+// Annah can only use punch daggers - restrict OgrGaunt.itm, Rending.itm, UhrKnf.itm
+COPY_EXISTING ~OGRGAUNT.ITM~ ~override~
+              ~RENDING.ITM~  ~override~
+              ~UHRKNF.ITM~   ~override~
+  READ_BYTE 0x21 "Usability"
+  WRITE_BYTE 0x21 "Usability" + 16
+ BUT_ONLY_IF_IT_CHANGES
+
+// Per devSin:  - Plus1Im.itm, Plus2Im.itm, Plus3Im.itm, Plus6Im.itm - the immunity effect should be Mode 2 (no practical effect, but the engine
+// will attach a new "Immunity to weapons" effect to creatures with these items equipped every time effects are applied, meaning they all walk
+// around with tons of duplicate effects after surviving through several game saves)
+COPY_EXISTING ~PLUS1IM.ITM~ ~override~
+              ~PLUS2IM.ITM~ ~override~
+              ~PLUS3IM.ITM~ ~override~
+              ~PLUS4IM.ITM~ ~override~
+              ~PLUS5IM.ITM~ ~override~
+              ~PLUS6IM.ITM~ ~override~
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_BYTE  "EffectsOffset" + 0xC 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Vhailor shouldn't be able to use spiked gauntlets
+COPY_EXISTING ~SPKGAUNT.ITM~ ~override~
+  READ_BYTE 0x20 "Usability"
+  WRITE_BYTE 0x20 "Usability" + 128
+ BUT_ONLY_IF_IT_CHANGES
+
+// Priest scroll Speak with Dead should have a range of 50 feet
+COPY_EXISTING ~SPPR304.ITM~ ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_SHORT "AbilityOffset" + 0xE 50
+ BUT_ONLY_IF_IT_CHANGES
+
+// Scroll of Minor Embalming should be targetable rather than self-only
+COPY_EXISTING ~SPWI103.ITM~ ~override~
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_BYTE  "EffectsOffset" + 0x2 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Widowmaker was missing its +2 damage.
+COPY_EXISTING ~WIDMKR.ITM~ ~override~
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_BYTE  "EffectsOffset" + (0x30 * 2) + 0x4 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// ==================================================== devSin spell fixes =====================================================
+// Removing excessive casty sound and swirly effects from Skull Mob and Grace's Kiss, just like we did for Litany of Curses in 4.0.
+COPY_EXISTING ~SPIN102.SPL~ ~override~
+              ~SPIN107.SPL~ ~override~
+  WRITE_BYTE 0x22 0x2D
+ BUT_ONLY_IF_IT_CHANGES
+
+// devSin:  - SpWi219.spl - since the global sound is corrected in the fixpack, the duplicate casting sound at 0x10 should be nulled
+// (otherwise, it's "can I get an encore? wot!"
+COPY_EXISTING ~SPWI219.SPL~ ~override~
+  WRITE_ASCII 0x10 "" (8)
+ BUT_ONLY_IF_IT_CHANGES
+
+// The following spell casting effects can be resisted by the caster. Setting them to Bypass Resistance.
+// This section sets ALL effects on a spell to No Dispel/Bypass Resistance
+COPY_EXISTING ~SPPR105.SPL~ ~override~ // Halo of Lesser Revelation. It's an AOE, so graphics shouldn't be resistable. Effect is handled in engine.
+              ~SPPR307.SPL~ ~override~ // Remove Curse Priest version (because it's beneficial)
+              ~SPWI215.SPL~ ~override~ // Knock. Locks can't have resist, and creatures are unaffected but display "Resisted" message if they pass check.
+              ~SPWI409.SPL~ ~override~ // Remove Curse Mage Version (because it's beneficial)
+              ~SPWI504.SPL~ ~override~ // Enoll Eva's Duplication (because it's beneficial)
+  READ_LONG 0x64 "AbilitiesOffset"
+  READ_SHORT 0x68 "NumAbilities"
+  READ_LONG 0x6a "EffectsOffset"
+  READ_SHORT 0x70 "NumEffects"
+  SET "SizEffects" = 0x30
+  SET "SizAbility" = 0x28
+  FOR ("i" = 0; "i" < "NumAbilities"; "i" += 1)
+  BEGIN
+    READ_SHORT "AbilitiesOffset" + ("SizAbility" * i) + 0x1E "MoreEffects"
+    SET "NumEffects" = "NumEffects" + "MoreEffects"
+  END
+  FOR ("i" = 0; "i" < "NumEffects"; "i" += 1)
+  BEGIN
+    WRITE_BYTE "EffectsOffset" + ("SizEffects" * i) + 0xD 0
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// This section sets all "Self" effects on a spell to No Dispel/Bypass Resistance
+// This prevents resisting the graphic on caster, while still allowing target graphics to be resisted if the main effect was also
+COPY_EXISTING ~SPWI108.SPL~ ~override~ // Pacify.
+              ~SPWI207.SPL~ ~override~ // Ice Knife
+              ~SPWI305.SPL~ ~override~ // Elysium's Tears
+              ~SPWI405.SPL~ ~override~ // Force Missile
+  READ_LONG 0x64 "AbilitiesOffset"
+  READ_SHORT 0x68 "NumAbilities"
+  READ_LONG 0x6a "EffectsOffset"
+  READ_SHORT 0x70 "NumEffects"
+  SET "SizEffects" = 0x30
+  SET "SizAbility" = 0x28
+  FOR ("i" = 0; "i" < "NumAbilities"; "i" += 1)
+  BEGIN
+    READ_SHORT "AbilitiesOffset" + ("SizAbility" * i) + 0x1E "MoreEffects"
+    SET "NumEffects" = "NumEffects" + "MoreEffects"
+  END
+  FOR ("i" = 0; "i" < "NumEffects"; "i" += 1)
+  BEGIN
+    READ_BYTE "EffectsOffset" + ("SizEffects" * i) + 0x2 "Target"
+    PATCH_IF "Target" = 1 THEN BEGIN  WRITE_BYTE "EffectsOffset" + ("SizEffects" * i) + 0xD 0 END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// This section sets all PlayBam/PlaySound/ShakeEffect/ effects on a spell to No Dispel/Bypass Resistance
+COPY_EXISTING ~SPWI310.SPL~ ~override~ // Ax of Torment, can't resist axe graphics so shouldn't resist the final piece of it.
+              ~SPWI705.SPL~ ~override~ // Stygian Ice Storm - spell stops action with ton of visuals, this supporting feedback shouldn't get blocked when the paralyze or damage are resisted)
+  READ_LONG 0x64 "AbilitiesOffset"
+  READ_SHORT 0x68 "NumAbilities"
+  READ_LONG 0x6a "EffectsOffset"
+  READ_SHORT 0x70 "NumEffects"
+  SET "SizEffects" = 0x30
+  SET "SizAbility" = 0x28
+  FOR ("i" = 0; "i" < "NumAbilities"; "i" += 1)
+  BEGIN
+    READ_SHORT "AbilitiesOffset" + ("SizAbility" * i) + 0x1E "MoreEffects"
+    SET "NumEffects" = "NumEffects" + "MoreEffects"
+  END
+  FOR ("i" = 0; "i" < "NumEffects"; "i" += 1)
+  BEGIN
+    READ_BYTE "EffectsOffset" + ("SizEffects" * i) "Type"
+    PATCH_IF "Type" = 187 OR "Type" = 189 OR "Type" = 191 OR "Type" = 193 OR "Type" = 174 THEN  // Play Bam, Play Sound, Shake Screen,
+    BEGIN
+       WRITE_BYTE "EffectsOffset" + ("SizEffects" * i) + 0xD 0
+    END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// This section sets all "Shake Screen" effects to be resistable.
+// devSin:  SPWI107.spl - the Shake Screen effects at the four highest levels shouldn't bypass resistance (wow, look at the screen tremble;
+// terrible, terrible damage... oh, wait: Spell Failed: Magic Resistance)
+COPY_EXISTING ~SPWI107.SPL~ ~override~ // Magic Missile
+  READ_LONG 0x64 "AbilitiesOffset"
+  READ_SHORT 0x68 "NumAbilities"
+  READ_LONG 0x6a "EffectsOffset"
+  READ_SHORT 0x70 "NumEffects"
+  SET "SizEffects" = 0x30
+  SET "SizAbility" = 0x28
+  FOR ("i" = 0; "i" < "NumAbilities"; "i" += 1)
+  BEGIN
+    READ_SHORT "AbilitiesOffset" + ("SizAbility" * i) + 0x1E "MoreEffects"
+    SET "NumEffects" = "NumEffects" + "MoreEffects"
+  END
+  FOR ("i" = 0; "i" < "NumEffects"; "i" += 1)
+  BEGIN
+    READ_SHORT "EffectsOffset" + ("SizEffects" * i) "Type"
+    PATCH_IF "Type" = 193 THEN BEGIN  WRITE_BYTE "EffectsOffset" + ("SizEffects" * i) + 0xD 1 END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// This sets all PlaySound and Playbam effects to have the same Save chance and resistability as the actual spell effect.
+// IMPORTANT:  don't change global effects, they run on a different save/resist roll, and kick up their own save message.
+COPY_EXISTING ~SPWI115.SPL~ ~override~ // Blindness
+              ~SPWI120.SPL~ ~override~ // Vilquar's Eye
+              ~SPWI308.SPL~ ~override~ // Tasha's Unbearable Derisive Laughter
+  READ_LONG 0x64 "AbilitiesOffset"
+  READ_SHORT 0x68 "NumAbilities"
+  READ_LONG 0x6a "EffectsOffset"
+  READ_SHORT 0x70 "NumGlobalEffects"
+  SET "SizEffects" = 0x30
+  SET "SizAbility" = 0x28
+  SET "NumEffects" = 0
+  FOR ("i" = 0; "i" < "NumAbilities"; "i" += 1)
+  BEGIN
+    READ_SHORT "AbilitiesOffset" + ("SizAbility" * i) + 0x1E "MoreEffects"
+    SET "NumEffects" = "NumEffects" + "MoreEffects"
+  END
+  SET "EffectsOffset" = "EffectsOffset" + ("NumGlobalEffects" * "SizEffects")
+  FOR ("i" = 0; "i" < "NumEffects"; "i" += 1)
+  BEGIN
+    READ_SHORT "EffectsOffset" + ("SizEffects" * i) "Type"
+    PATCH_IF "Type" = 187 OR "Type" = 189 OR "Type" = 174 THEN  // Play Bam, Play Sound
+    BEGIN
+      WRITE_BYTE "EffectsOffset" + ("SizEffects" * i) + 0x24 1 // All graphic and sound effects should be susceptible to same save as main effect
+      WRITE_BYTE "EffectsOffset" + ("SizEffects" * i) + 0xD 1  // Same resistability as main effect
+    END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// Same as above, but doesn't affect saves, just sets PlayBam/PlaySound/ShakeScreen to be resistable
+COPY_EXISTING ~SPPR103.SPL~ ~override~ // Curse
+              ~SPWI502.SPL~ ~override~ // Cone of Cold
+              ~SPWI202.SPL~ ~override~ // Black Barbed Curse
+  READ_LONG 0x64 "AbilitiesOffset"
+  READ_SHORT 0x68 "NumAbilities"
+  READ_LONG 0x6a "EffectsOffset"
+  READ_SHORT 0x70 "NumGlobalEffects"
+  SET "SizEffects" = 0x30
+  SET "SizAbility" = 0x28
+  SET "NumEffects" = 0
+  FOR ("i" = 0; "i" < "NumAbilities"; "i" += 1)
+  BEGIN
+    READ_SHORT "AbilitiesOffset" + ("SizAbility" * i) + 0x1E "MoreEffects"
+    SET "NumEffects" = "NumEffects" + "MoreEffects"
+  END
+  SET "EffectsOffset" = "EffectsOffset" + ("NumGlobalEffects" * "SizEffects")
+  FOR ("i" = 0; "i" < "NumEffects"; "i" += 1)
+  BEGIN
+    READ_SHORT "EffectsOffset" + ("SizEffects" * i) "Type"
+    PATCH_IF "Type" = 187 OR "Type" = 189 OR "Type" = 174 THEN  // Play Bam, Play Sound
+    BEGIN
+       WRITE_BYTE "EffectsOffset" + ("SizEffects" * i) + 0xD 1
+    END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// =============================================== devSin RESDATA Fixes ================================================
+COPY_EXISTING ~RESDATA.INI~ ~override~
+  INNER_PATCH ~12~ BEGIN
+    WRITE_BYTE 0 0x0d
+    WRITE_BYTE 1 0x0a
+    READ_ASCII 0 mnl (1)
+    READ_ASCII 1 lnl (1)
+    READ_ASCII 0 wnl (2)
+  END
+  REPLACE_TEXTUALLY ~%mnl%~ ~~
+  REPLACE_TEXTUALLY EXACT_MATCH ~hitframe-0~ ~hitframe=0~
+  REPLACE_TEXTUALLY EXACT_MATCH ~hitframe0~  ~hitframe=0~
+  REPLACE_TEXTUALLY EXACT_MATCH ~hitsound=ana141a,ana141b~ ~hitsound=ana141b~
+  REPLACE_TEXTUALLY EXACT_MATCH ~dfbsound=ana138c,ana138d~ ~dfbsound=ana138f~
+  REPLACE_TEXTUALLY EXACT_MATCH ~dfbsound=DAK016a,DAK016b,DAK016c~ ~dfbsound=dak016a~
+  REPLACE_TEXTUALLY EXACT_MATCH ~At2Sound=god_03~ ~At2Sound=god03~
+  REPLACE_TEXTUALLY EXACT_MATCH ~At1Sound=swi_005,swi_05a,swi_05b~ ~At1Sound=swi_05,swi_05a,swi_05b~
+  REPLACE_TEXTUALLY EXACT_MATCH ~dfbsound=death07~ ~dfbsound=thugld01,thugld02,thugld03~
+  REPLACE_TEXTUALLY EXACT_MATCH ~dfbsound=aasifd01,assifd02,aasifd03~ ~dfbsound=aasifd01,aasifd02,aasifd03~
+// Not giving twitching sound to Black Abishai, it's REALLY annoying in Smoldering Corpse Bar.
+//  REPLACE_TEXTUALLY EXACT_MATCH ~attack1=cat1abs~ ~sf1sound=abish10%lnl%attack1=cat1abs~
+  REPLACE_TEXTUALLY EXACT_MATCH ~attack1=cat1gab~ ~sf1sound=abish10%lnl%attack1=cat1gab~
+  REPLACE_TEXTUALLY EXACT_MATCH ~attack1=cat1rab~ ~sf1sound=abish10%lnl%attack1=cat1rab~
+ BUT_ONLY_IF_IT_CHANGES
+
+// =================================================devSin STORE FIXES ===================================================
+// Conall most likely wasn't supposed to have an infinite number of Stinger Earrings for sale.
+COPY_EXISTING ~CONALL.STO~ ~override~
+  READ_LONG 0x34 "ItemSaleOffset"
+  READ_LONG 0x38 "NumItemSale"
+  SET "SizItemSale" = 0x58
+  FOR ("i" = 0; "i" < "NumItemSale"; "i" += 1)
+  BEGIN
+    READ_ASCII "ItemSaleOffset" + ("SizItemSale" * i) "Item" (8)
+    PATCH_IF ~%Item%~ STRING_EQUAL ~STINGEAR~ THEN
+    BEGIN
+      WRITE_LONG "ItemSaleOffset" + ("SizItemSale" * i) + 0x18 0
+      WRITE_BYTE "ItemSaleOffset" + ("SizItemSale" * i) + 0x10 1
+    END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// The Bone Daggers Emoric sells should be identified.
+COPY_EXISTING ~EMORIC.STO~ ~override~
+  READ_LONG 0x34 "ItemSaleOffset"
+  READ_LONG 0x38 "NumItemSale"
+  SET "SizItemSale" = 0x58
+  FOR ("i" = 0; "i" < "NumItemSale"; "i" += 1)
+  BEGIN
+    READ_ASCII "ItemSaleOffset" + ("SizItemSale" * i) "Item" (4)
+    PATCH_IF ~%Item%~ STRING_EQUAL ~DAG1~ THEN
+    BEGIN
+      WRITE_BYTE "ItemSaleOffset" + ("SizItemSale" * i) + 0x10 1
+    END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// Splinter should offer the priest version of Remove Curse, because the mage version doesn't have an entry in SPELLDESC.2DA
+COPY_EXISTING ~SPLINTER.STO~ ~override~
+  READ_LONG 0x70 "CureOffset"
+  READ_LONG 0x74 "NumCures"
+  SET "SizCure" = 0xC
+  FOR ("i" = 0; "i" < "NumCures"; "i" += 1)
+  BEGIN
+    READ_ASCII "CureOffset" + ("SizCure" * i) "CureName" (7)
+    PATCH_IF ~%CureName%~ STRING_EQUAL ~SPWI409~ THEN
+    BEGIN
+      WRITE_ASCII "CureOffset" + ("SizCure" * i) ~SPPR307~ (8)
+    END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// Some of Vrischika's items that have infinite stock simply don't make sense. Others of her items *should* be infinite, there's plenty
+// of vendors who have infinite stock.
+COPY_EXISTING ~VRIS.STO~ ~override~
+  READ_LONG 0x34 "ItemSaleOffset"
+  READ_LONG 0x38 "NumItemSale"
+  SET "SizItemSale" = 0x58
+  FOR ("i" = 0; "i" < "NumItemSale"; "i" += 1)
+  BEGIN
+    READ_ASCII "ItemSaleOffset" + ("SizItemSale" * i) "Item" (5)
+    PATCH_IF ~%Item%~ STRING_EQUAL ~FDTEE~ OR ~%Item%~ STRING_EQUAL ~LENS0~ OR
+             ~%Item%~ STRING_EQUAL ~THIEF~ OR ~%Item%~ STRING_EQUAL ~EYEGL~ THEN
+    BEGIN
+      WRITE_LONG "ItemSaleOffset" + ("SizItemSale" * i) + 0x18 0
+    END
+    PATCH_IF ~%Item%~ STRING_EQUAL ~TBCHR~ OR ~%Item%~ STRING_EQUAL ~KNOTC~ OR ~%Item%~ STRING_EQUAL ~HEARC~
+    BEGIN
+      WRITE_LONG "ItemSaleOffset" + ("SizItemSale" * i) + 0x18 1
+    END
+  END
+ BUT_ONLY_IF_IT_CHANGES
+
+// ================================================ devSin Script fixes ==============================================
+// If you attacked Aelwyn, she was setting Nemelle's variable instead of her own, so when she initiated dialogue
+// you got her normal dialog state instead of her "Holy Wrath" state.
+COPY_EXISTING ~0600AEL2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~SetGlobal("Attack_Nemelle","AR0600",1)~ ~SetGlobal("Attack_Aelwyn","AR0600",1)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// ================================================ other devSin fixes ===============================================
+
+// Thugs in Trash Warrens have all of their dialogues set as the same as the thug who stole Porphiron's necklace.
+// Using this opportunity to restore previously unused thug dialogues.
+// The pair of thugs near Anamoli are supposed to both leave in certain cases, but the EscapeArea() action doesn't seem to work
+// to the next to last speaker, so creating a variable and script to make it work right.  Probably why they weren't used.
+
+<<<<<<<< .../inlinedfile/0108TESC.BAF
+IF
+  Global("Thug_Escape","GLOBAL",1)
+THEN
+  RESPONSE #100
+    EscapeArea()
+END
+
+IF
+  Global("Thug_Escape","GLOBAL",2)
+THEN
+  RESPONSE #100
+    EscapeAreaRunning()
+END
+>>>>>>>>
+COMPILE ~.../inlinedfile/0108TESC.BAF~ ~override~
+
+COPY_EXISTING ~AR0108.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 13) + 0x48 ~DTHUGT1~  (8)
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 13) + 0x78 ~0108TESC~ (8)
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 14) + 0x48 ~DTHUGT2~  (8)
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 14) + 0x78 ~0108TESC~ (8)
+
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 15) + 0x48 ~DTHUGS1~ (8)
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 44) + 0x48 ~DTHUGB1~ (8)
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 45) + 0x48 ~DTHUGB2~ (8)
+  WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 46) + 0x48 ~DTHUGB3~ (8)
+  FOR ("i" = 17; "i" < 34; "i" += 1)
+  BEGIN
+    WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * i) + 0x48 ~DTHUGS1~ (8)
+  END
+ BUT_ONLY_IF_IT_CHANGES
+ 
+
+// ================================================ done devSin buglist ==============================================
+
+// Other equip weapon fixes
+// These have item in inventory, and weapon slot selected, but weapon slot didn't point to weapon
+COPY_EXISTING_REGEXP ~CRSTANC..CRE~ ~override~
+                     ~JUDGE.CRE~    ~override~
+                     ~MERIMAN.CRE~  ~override~
+                     ~ROYALGD.CRE~  ~override~
+  READ_LONG  0x35C "ItemSlotsOffset"
+  WRITE_SHORT "ItemSlotsOffset" + 0x12 0
+ BUT_ONLY_IF_IT_CHANGES
+ 
+// Dallan should equip his ax.  He's a bard, though, technically "thief".  Changing his class to fighter to avoid problems with class restrictions.
+COPY_EXISTING ~DALLAN.CRE~ ~override~
+  WRITE_BYTE 0x317 2 // Fighter
+  WRITE_SHORT (%SOURCE_SIZE% - 4) 0
+  READ_LONG  0x35C "ItemSlotsOffset"
+  WRITE_SHORT "ItemSlotsOffset" + 0x12 0
+ BUT_ONLY_IF_IT_CHANGES
+
+// Cassius should use the weapon he actually has proficiency in.
+COPY_EXISTING ~CASSIUS.CRE~ ~override~
+  WRITE_SHORT (%SOURCE_SIZE% - 4) 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Giving Summoned Constructs a weapon equivalent to the Medium Threat Constructs they in all other ways resemble.
+COPY_EXISTING ~CSUM.CRE~ ~override~
+  READ_LONG 0x364 "NumItems"
+  READ_LONG 0x360 "ItemsOffset"
+  READ_LONG 0x35C "ItemSlotsOffset"
+  WRITE_SHORT (%SOURCE_SIZE% - 4) 0
+  WRITE_SHORT "ItemSlotsOffset" + 0x12 "NumItems"
+  INSERT_BYTES "ItemsOffset" + ("NumItems" * 0x14) 0x14
+  WRITE_ASCII "ItemsOffset" + ("NumItems" * 0x14) ~ISWD1D12~ (8)
+  WRITE_LONG 0x35C "ItemSlotsOffset" + 0x14
+  WRITE_LONG 0x364 "NumItems" + 1
+ BUT_ONLY_IF_IT_CHANGES
+
+
+
+// =============================================== Running Escape Fixes ==============================================
+COPY_EXISTING_REGEXP ~0100GH..BCS~  ~override~
+                     ~0100GH10.BCS~ ~override~
+                     ~0100POR1.BCS~ ~override~
+                     ~0100TOUT.BCS~ ~override~
+                     ~0200BAEN.BCS~ ~override~
+                     ~0200GH..BCS~  ~override~
+                     ~0200GH10.BCS~ ~override~
+                     ~0200GH11.BCS~ ~override~
+                     ~0200SEV.BCS~  ~override~
+                     ~0200TOUT.BCS~ ~override~
+                     ~0300ASH.BCS~  ~override~
+                     ~0300CRIE.BCS~ ~override~
+                     ~0300GH..BCS~  ~override~
+                     ~0300GH10.BCS~ ~override~
+                     ~0300GH11.BCS~ ~override~
+                     ~0300TOUT.BCS~ ~override~
+                     ~0400CT2B.BCS~ ~override~
+                     ~0400ELY.BCS~  ~override~
+                     ~0400GH..BCS~  ~override~
+                     ~0400MAE.BCS~  ~override~
+                     ~0400TAR.BCS~  ~override~
+                     ~0400TOUT.BCS~ ~override~
+                     ~0902ANA..BCS~ ~override~
+                     ~0902EBBB.BCS~ ~override~
+                     ~1101ATTA.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY ~EscapeArea()~ ~EscapeAreaRunning()~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+
+COPY_EXISTING ~0100FLEE.BCS~ ~override~
+              ~0300ASH.BCS~  ~override~
+              ~0400DHAR.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY EXACT_MATCH ~RunAwayFrom([PC],FOUR_AI_SECONDS)~ ~~
+   REPLACE_TEXTUALLY EXACT_MATCH ~RunAwayFrom([PC],50)~ ~EscapeAreaRunning()~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// ================================================= done RunningEscape fixes ===============================================
+
+
+
+// Thanks to nevill for pointing these out to me
+
+// Several female shoppers in Lower Ward Market were, according to the ARE file, supposed to look like Sigilian women rather than
+// Curst women.  For some reason, CRE is overriding ARE.  Setting CRE to what the ARE file says, although using the updated animation
+// rather than the "metallic" one.
+COPY_EXISTING ~MCFEM.CRE~    ~override~
+              ~MCFEM2.CRE~   ~override~
+              ~MCFEM3.CRE~   ~override~
+              ~MCFEM4.CRE~   ~override~
+  WRITE_SHORT 0x28 24637
+ BUT_ONLY_IF_IT_CHANGES
+
+
+// See QwinnFix.d for remainder of fix, this changes 6 lines in Mochai's dialogue from ~Poison her drink with the embalming fluid.~ to
+// ~Distract her so you can poison her drink: "What's that over there?"~
+STRING_SET 10605 @10605
+STRING_SET 10606 @10605
+STRING_SET 10618 @10605
+STRING_SET 10619 @10605
+STRING_SET 10642 @10605
+STRING_SET 10643 @10605
+
+
+
+
+
+
+/* Fixes not going in v4.0
+// Exceptional Strength Tweaks:  Tweaking the existing CREs with exceptional strength slightly to fit the new tree
+COPY_EXISTING ~BOOTLEG.CRE~  ~override~
+              ~BOXDMN1.CRE~  ~override~
+              ~CAMP.CRE~     ~override~
+              ~CRSTHARM.CRE~ ~override~
+              ~DRIXEL.CRE~   ~override~
+              ~FHGUARD.CRE~  ~override~
+              ~GREEN.CRE~    ~override~
+              ~HGUARD.CRE~   ~override~
+              ~KORUR.CRE~    ~override~
+              ~MHGUARD.CRE~  ~override~
+              ~RAUK.CRE~     ~override~
+  WRITE_BYTE 0x239 30
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~CHEKKA.CRE~   ~override~
+              ~VHAIL.CRE~    ~override~
+              ~VHAILEG.CRE~  ~override~
+  WRITE_BYTE 0x239 60
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~BLACKR.CRE~  ~override~
+              ~MARQUEZ.CRE~ ~override~
+  WRITE_BYTE 0x239 99
+ BUT_ONLY_IF_IT_CHANGES
+*/

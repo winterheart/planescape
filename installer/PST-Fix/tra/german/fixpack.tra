@@ -1,0 +1,524 @@
+@-1000 = ~Die Mod %TP2_FILE_NAME% hat~
+@-1001 = ~verschiedene optionale Komponenten.\nUm Zeit zu sparen, kannst Du allgemein auswaehlen, was mit diesen geschehen soll, anstatt\nzu jeder einzeln gefragt zu werden.\n~
+@-1002 = ~Was soll mit den Komponenten geschehen, die NOCH NICHT installiert sind?\n[I]Installieren, [S]ueberspringen, [A]einzeln nachfragen?~
+@-1003 = ~Was soll mit den Komponenten geschehen, die BEREITS installiert sind?\n[R]Erneut installieren, [U]deinstallieren, [S]ueberspringen, [A]einzeln nachfragen?~
+@-1004 = ~BITTE maile die Datei~
+@-1005 = ~an~
+@-1006 = ~Installiere [~
+@-1007 = ~?
+[R]Neu installieren, [N]keine Aenderung, [U]deinstallieren oder [Q]abbrechen?~
+@-1008 = ~]?
+[I]Installieren, [N]nicht installieren oder [Q]abbrechen? ~
+@-1009 = ~Gib einen Teil des Modulnamens ein:~
+@-1010 = ~Installiere Komponente [~
+@-1011 = ~] neu~
+@-1012 = ~Installiere neu mit Sprache~
+@-1013 = ~Entferne alte Installation von [~
+@-1014 = ~] zuerst...~
+@-1015 = ~ALTE VERSION ERFOLGREICH ENTFERNT~
+@-1016 = ~Installiere~
+@-1017 = ~FEHLER beim Installieren von [~
+@-1018 = ~], stelle vorherigen Zustand wieder her~
+@-1019 = ~INSTALLATION ERFOLGREICH~
+@-1020 = ~Ueberspringe~
+@-1021 = ~Entferne [~
+@-1022 = ~] (Komponente #~
+@-1023 = ")"
+@-1024 = ~ERFOLGREICH ENTFERNT [~
+@-2000 = ~LiesMich-Betrachter~
+@-2001 = ~Eine deutsche Uebersetzung der LiesMich ist noch nicht verfuegbar. Moechtest du stattdessen die englische LiesMich lesen? [Y]Ja, [N]nein:~
+@1     = ~PS:T Ultimate WeiDU Fixpack, von Qwinn~
+@2     = ~Rechtschreibkorrekturen (nur fuer englische Spielversion)~
+@3     = ~Uebersprungen, weil gewaehlte Sprache nicht Englisch war~
+@4     = ~Untertitelte Zwischensequenzen~
+@5     = ~Untertitelte Zwischensequenzen benoetigen das PS:T Ultimate WeiDU Fixpack.~
+@100   = ~Die Frau nickt und rennt eilig fort. Du erwartest nicht, sie wiederzusehen.~
+@00101 = ~"Also, was bist du, Morte? Du hast es nie erzählt."~ [FFG121]
+@00102 = ~Sinnsaten für Anarchisten unterwandern: "Ich bin bereit. Ich möchte Sinnsate werden."~
+@00103 = ~Sinnsaten für Anarchisten unterwandern: "Ich bin bereit, Mitglied der Gesellschaft der Empfindung zu werden. Ich fühle mich den Göttermenschen nicht mehr verpflichtet."~
+@00104 = ~Sinnsaten für Anarchisten unterwandern: "Ich bin bereit, Mitglied der Gesellschaft der Empfindung zu werden. Ich fühle mich den Staubmenschen nicht mehr verpflichtet."~
+@00105 = ~Sinnsaten für Anarchisten unterwandern: "Ich bin bereit, Mitglied der Gesellschaft der Empfindung zu werden. Ich fühle mich den Xaositekten nicht mehr verpflichtet."~
+@00106 = ~Staubmenschen für Anarchisten unterwandern: "Was sein muß, muß sein. Mein Geist muß sich selbst und keinem anderen treu sein. Von diesem Moment an entsage ich dem Glauben der Göttermenschen."~
+@00107 = ~Staubmenschen für Anarchisten unterwandern: "Was sein muß, muß sein. Mein Geist muß sich selbst und keinem anderen treu sein. Von diesem Moment an entsage ich dem... äh, 'Glauben' der Chaoten."~
+@00108 = ~Staubmenschen für Anarchisten unterwandern: "Was sein muß, muß sein. Mein Geist muß sich selbst und keinem anderen treu sein. Von diesem Moment an entsage ich dem Glauben der Sinnsaten."~
+@00109 = ~Xaositekten für Anarchisten unterwandern: "So... was ist der nächste Schritt?"~
+@00110 = ~Xaositekten für Anarchisten unterwandern: "Glied mit den Xaositekten ich will sein. Loyalität kein Bund alt habe ich Göttermenschen."~
+@00111 = ~Xaositekten für Anarchisten unterwandern: "Glied mit den Xaositekten ich will sein. Loyalität kein Bund alt habe ich Staubmenschen."~
+@00112 = ~Xaositekten für Anarchisten unterwandern: "Glied mit den Xaositekten ich will sein. Loyalität kein Bund alt habe ich Sinnsaten."~
+@00113 = ~"Verdammt, Vhailor, ist dir klar, was du getan hast?!"~
+@00114 = ~Vhailor dreht sich von Trias' Leiche weg, um dich direkt anzublicken. *Du bist BARMHERZIG und SCHWACH. STÄHLE dein Herz, bevor sich diese Krankheit AUSBREITET.*~ [VHA013]
+@00115 = ~Staubmenschen für Anarchisten unterwandern: "Ja."~
+@498   = ~HÖLLENKUGEL
+Reichweite: 15 m
+Wirkungsdauer: Speziell
+Initiative: 2
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Negativ
+
+Eine feurig rote Kugel wird angerufen, um den Feind zu schwächen und zu verlangsamen.
+
+Der Anwender ruft eine große magische Kugel von feuerroter Farbe an, die mit dem normalen Angriffswurf des Anwenders auf das Ziel geschleudert werden kann. Der Anwender gewinnt einen Trefferbonus von +3 zu seinem Angriffswurf hinzu. Die Kugel fügt einen Schaden von 1-6 Schadenspunkten sowie der Stärke und Geschicklichkeit des Feindes 10 Sekunden lang einen Nachteil von -1 zu.~
+@00950 = ~"Hierher werden die Toten von Sigil gebracht, um bestattet oder verbrannt zu werden. Es ist unsere Verantwortung als Staubmenschen, uns um die Toten zu kümmern, jene, die den Schatten des Lebens verlassen haben und auf dem Pfad zum Wahren Tod wandern." Dhalls Stimme senkt sich besorgt. "Deine Wunden müssen einen hohen Tribut gefordert haben, wenn du diesen Ort nicht wiedererkennst. Er ist beinahe dein Zuhause."~
+@10605 = ~Lenk sie ab, um ihren Drink vergiften zu können: "Was ist denn das dahinten?"~
+@26067 = ~ENTROPISCHE KLINGE
+Schaden: 3-23 durch Spitze
+Verzaubert: +2
+ETW0: +3
+Initiative: 1
+Gewicht: 1
+Waffenfertigkeit: Klingen
+Kann nicht von Priestern verwendet werden
+
+Dieser seltsame Gegenstand ist in deinen Besitz gelangt, nachdem du dem Eisengolem im Belagerungsturm den Modron-Würfel gegeben hattest. Er sieht wie ein kleiner Dolch aus. Beim näheren Hinsehen bemerkst du jedoch, daß sich seine Oberfläche krümmt und windet, als ob sie sich aus dieser Form zu befreien versuche.
+
+Er sieht so aus, als sei er aus Eisen, Silber und noch ein paar anderen unterschiedlichen Metallen hergestellt. Manchmal verschmelzen sie miteinander, und dann wieder verschwinden sie in das Herz der Klinge, nur, um Minuten später wieder an die Oberfläche zu kommen.~
+@30022 = ~DAK'KONS ZERTH-KLINGE ("FLIESSENDE KLINGE")
+Schaden: 2-9 durch Klinge
+Verzaubert: +1
+Besonderheit:
+   +2 auf Rüstungsklasse
+   2 zusätzliche Magierzauber des 1. Grades können sich eingeprägt werden
+ETW0: +1
+Initiative: 7
+Gewicht: 5
+Waffenfertigkeit: Klingen
+Kann nur von Dak'kon verwendet werden
+
+Auf der Heimatebene der Githzerai, Limbus, sind Feststoffe eine Rarität. Limbus selbst ist eine suppige Masse von Elementen, und nur durch Willenskraft können die Githzerai diese Elemente in die Form fester Stoffe bringen.
+
+Eine Substanz namens "Karach" ist ein Material, das durch den Willen geformt werden kann. Dak'kons Klinge besteht aus dieser Substanz. Allein durch die Beherrschung seines Willens hält Dak'kon die Klinge zusammen. Wenn der Geist des Trägers konzentriert ist, seine Gedanken frei von Zweifeln und einem einzigen Zweck zugewandt sind, reagiert die Klinge selbst und spiegelt so die Gedanken des Trägers wider.
+
+Wenn dies der Fall ist, müssen Dak'kons Gedanken wirklich klar sein, denn seine Klinge ist leuchtend silberfarben geworden. Es scheint, als sei die Klinge länger als zu dem Zeitpunkt, als du sie zuerst gesehen hast, und sie hat keine Spur mehr von dem seltsamen Schimmern auf der Oberfläche. Die Klingenschneide verjüngt sich zu einer beinahe papierdünnen Linie - trotz ihres zerbrechlichen Aussehens sieht sie so aus, als könne sie mit Leichtigkeit durch eine Kettenrüstung schneiden.
+
+Diese Klinge scheint eine besondere religiöse Bedeutung für Dak'kon zu haben. Dak'kon hat eine Reihe von Pergamenten um den Griff der Klinge gewickelt. Dies scheinen Mantras zu sein, die Zerthimon gewidmet sind.~
+@32837 = ~Balsamierungsraum.~
+@37091 = ~Ziel ist gegen Waffe immun [Grace, die Gefallene]~ [FFG173E]
+@48157 = ~"Subjekt unterhält sich mit weiblichem Menschen."~
+@48158 = ~"Subjekt spielt mit weiblichem Menschen."~
+@48854 = ~SCHRIFTROLLE: "SPIRITUELLER HAMMER"
+Ermöglicht es, den Zauber "Spiritueller Hammer" anzuwenden
+Stufe: 2 / Priester
+Reichweite: 10 m pro Stufe
+Wirkungsdauer: unterschiedlich (siehe unten)
+Initiative: 2
+Wirkungsbereich: 1 Ziel
+Rettungswurf: 1/2
+Gewicht: 0
+Kann nur von Priestern verwendet werden
+
+Dieser Zauber beschwört einen Hammer spiritueller Energie herauf, mit dem du gegen deine Widersacher vorgehen kannst.
+
+Beim Hervorrufen wählt der Anwender ein Ziel in Reichweite. Der Hammer verursacht 4-10 Schadenspunkte durch Wucht für jeweils drei Stufen des Zauberers. Er dient als +1 Waffe (+1 auf Trefferpunkte und +1 auf Schadenspunkte) und gewinnt für jeweils sechs Stufen des Anwenders zusätzlich +1 hinzu, bis zu einem Maximum von +3.~
+@48964 = ~SCHRIFTROLLE: "GEBET"
+Ermöglicht es, den Zauber "Gebet" anzuwenden
+Stufe: 3 / Priester
+Reichweite: 0 (auf Anwender zentriert)
+Wirkungsdauer: 5 Sekunden pro Stufe
+Initiative: 3
+Wirkungsbereich: Umkreis von 18 m
+Rettungswurf: Keiner
+Gewicht: 0
+Kann nur von Priestern verwendet werden
+
+Dieser Zauber hilft Verbündeten und schadet deinen Feinden.
+
+Dieser Zauber bewirkt einen Bonus von +1 auf Angriffs-, Treffer- und Rettungswürfe für alle "Freunde" des Priesters. "Feinde" hingegen erleiden -1 auf Angriffs-, Treffer- und Rettungswürfe. Er dauert 5 Sekunden/Stufe in einem Umkreis von 18 m an.~
+@48966 = ~SCHRIFTROLLE: "MIT TOTEN SPRECHEN"
+Ermöglicht es, den Zauber "Mit Toten sprechen" anzuwenden
+Stufe: 3 / Priester
+Reichweite: 50
+Wirkungsdauer: Speziell
+Initiative: 3
+Wirkungsbereich: 1 Wesen (untot)
+Rettungswurf: Keiner
+Gewicht: 0
+Kann nur von Priestern verwendet werden
+
+Zur Kommunikation mit den Geistern Verstorbener.
+
+Dieser Zauber ermöglicht es dem Namenlosen, einen Dialog mit einem Toten innerhalb der Sprechweite zu beginnen.~
+@49059 = ~SCHRIFTROLLE: "KRITISCHE WUNDEN HEILEN"
+Ermöglicht es, den Zauber "Kritische Wunden heilen" anzuwenden
+Stufe: 5 / Priester
+Reichweite: 0
+Wirkungsdauer: Dauerhaft / Sofort
+Initiative: 5
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Keiner
+Gewicht: 0
+Kann nur von Priestern verwendet werden
+
+Dieser Zauber heilt alle kritischen Wunden, die einer Zielperson zugefügt wurden.
+
+Stellt 3-24 + 3 Trefferpunkte des  Zielwesens wieder her. Die wiederhergestellten können die maximale Anzahl an Trefferpunkten des Wesens nicht übersteigen.~
+@49073 = ~SCHRIFTROLLE: "IDENTIFIZIEREN"
+Ermöglicht es, den Zauber "Identifizieren" anzuwenden
+Stufe: 1 / Zauberer
+Reichweite: 1 Gegenstand
+Wirkungsdauer: Sofort
+Initiative: 0
+Wirkungsbereich: Nur im Inventar
+Rettungswurf: Keiner
+Gewicht: 0
+Kann nur von Magiern verwendet werden
+
+Dieser Zauber enthüllt die Geheimnisse eines verzauberten Objektes und erlaubt so seine genauen Eigenschaften zu erkennen.~
+@49093 = ~SCHRIFTROLLE: "NATTERNKUSS"
+Ermöglicht es dem Anwender, den Zauber "Natternkuß" anzuwenden
+Stufe: 2 / Zauberer
+Reichweite: 50 m
+Wirkungsdauer: 5 Sekunden pro 3 Stufen
+Initiative: 2
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Keiner
+Gewicht: 0
+Kann nur von Magiern verwendet werden
+
+Es heißt, ein Natternkuß könnte selbst das furchterregendste Scheusal zu Tode ätzen. Dieser Zauber beschwört einen Säureblitz, der einen Gegner mit seiner giftig-grünen Säure überschüttet. Ist der Anwender geübt genug, verweilt der Natternkuß nach dem anfänglichen Angriff noch ein wenig und senkt sich mit seinen säurehaltigen Zähnen in die Haut des Gegners.
+
+Der Zauber bewirkt bei dem Zielobjekt, das in einer Entfernung von max. 50 m ausgewählt wurde, 2-8 Schadenspunkte durch Säure. Pro 3 Stufen des Anwenders wird die Dauer der Säureeinwirkung um 5 Sekunden verlängert und bewirkt so weitere 2-8 Schadenspunkte durch Säure / 5 zweite Segmente.~
+@49127 = ~SCHRIFTROLLE: "KLOPFEN"
+Ermöglicht es dem Anwender, den Zauber "Klopfen" anzuwenden
+Stufe: 2 / Zauberer
+Reichweite: 55 m
+Wirkungsdauer: Speziell
+Initiative: 1
+Wirkungsbereich: 1 m2 pro Stufe
+Rettungswurf: Keiner
+Gewicht: 0
+Kann nur von Magiern verwendet werden
+
+Das Unzugängliche, das Verschlossene kann mit diesem Zauber befreit und in Reichweite gebracht werden.
+
+Mit dem Zauber "Klopfen" können alle verschlossenen Türen, Truhen, Kisten oder Handschellen geöffnet werden. Verriegelte Tore oder Ähnliches können damit jedoch nicht geöffnet werden. Zudem kann ein Zauber nur auf max. 2 Hindernisse angewendet werden.~
+@49259 = ~SCHRIFTROLLE: "ENOLL EVAS VERDOPPELUNG"
+Ermöglicht es dem Anwender, den Zauber "Enoll Evas Verdoppelung" anzuwenden
+Stufe: 5 / Zauberer
+Reichweite: 15 m
+Wirkungsdauer: 60 Sekunden
+Initiative: 5
+Wirkungsbereich: Ein Zielobjekt
+Rettungswurf: Keiner
+Gewicht: 0
+Kann nur von Magiern verwendet werden
+
+Dieser 'Zauber' ist in Wirklichkeit eine komplizierte mathematische Gleichung, die zufällig vom Modron Enoll Eva bei seinen Berechnungen zum Vervielfältigungsfaktor verschiedener algebraischer Formeln entdeckt wurde. Die Ergebnisse sind zerstörerisch: Mit dieser Gleichung können alle nachfolgenden Aktionen verdoppelt oder dupliziert werden. Bei Konfrontationen erscheinen also sämtliche körperlichen oder magischen Angriffe verdoppelt - mit der zweifachen Schadensmenge.
+
+Dieser Zauber betrifft nur ein einzelnes Ziel. Es wird kein Rettungswurf benötigt. Wird er ausgesprochen, werden alle folgenden Angriffe (körperliche oder magische) einmal dupliziert: Hat man beispielsweise einen Gegner mit einer Waffe angegriffen, wird der Angriff sofort dupliziert. Dasselbe gilt für Zauber - nach dem Abfeuern eines Magischen Geschosses wird sofort ein weiteres Geschoß abgefeuert. Diese Wirkung dieses Zaubers hält ungefähr 2 Minuten an.~
+@49265 = ~SCHRIFTROLLE: "ANTIMAGISCHE SCHUTZHÜLLE"
+Ermöglicht es dem Anwender, den Zauber "Antimagische Schutzhülle" anzuwenden
+Stufe: 6 / Zauberer
+Reichweite: 0
+Wirkungsdauer: 5 Minuten
+Initiative: 6
+Wirkungsbereich: 30 cm Durchmesser pro Stufe
+Rettungswurf: Keiner
+Gewicht: 0
+Kann nur von Magiern verwendet werden
+
+Als Ironie des Schicksals wird sämtliche Magie in seinem Wirkungsbereich mit diesem Zauber rückgängig gemacht.
+
+Dieser Zauber umgibt den Anwender mit einer 'Hülle der Magie', die wirkungsvoll jegliche Magie und alle magischen Zaubereffekte (einschließlich magischer Gegenstände) ausschaltet. Sie sperrt nicht nur alle Magie aus, sondern verhindert außerdem jegliche Verwendung von Zaubereffekten in der Hülle selbst! Dies gilt auch für verschiedene spezielle Angriffe wie Odem-, Blick- und Stimmangriffe. Dieser Zauber hält 5 Minuten an, und der Wirkungsbereich der Kugel beträgt 30 cm pro Stufe des Anwenders.~
+@49267 = ~SCHRIFTROLLE: "KUGEL DER UNVERWUNDBARKEIT"
+Ermöglicht es dem Anwender, den Zauber "Kugel der Unverwundbarkeit" anzuwenden
+Stufe: 6 / Zauberer
+Reichweite: 0
+Wirkungsdauer: 5 Sekunden pro Stufe
+Geschwindigkeit: 3
+Wirkungsbereich: Umkreis von 1,5 m
+Rettungswurf: Keiner
+Gewicht: 0
+Kann nur von Magiern verwendet werden
+
+Ähnlich wie ihr Pendant, die Antimagische Schutzhülle, hindert diese Verzauberung bestimmte Zauber daran, in den Wirkungsbereich der Kugel einzutreten. Im Gegensatz zu seiner magischen Schwester läßt dieser Zauber jedoch Magie heraus und nach außen fließen.
+
+Dieser Zauber erzeugt eine unbewegliche Sphäre der Magie, die sämtlichen Zaubereffekten des 1.-4. Grades den Zutritt verweigert (selbst Gebietswirkungszaubern). Zauber des 5. Grades oder höher sind von der Kugel nicht betroffen. Im Gegensatz zur Antimagischen Schutzhülle kann jedoch jeder Zaubertyp aus der Kugel heraus angewendet werden. Die Kugel hält 5 Sekunden pro Stufe des Anwenders an.~
+@49287 = ~WORT DER MACHT: BLINDHEIT
+Ermöglicht es, den Zauber "Wort der Macht: Blindheit" anzuwenden
+Reichweite: 5 m pro Stufe
+Wirkungsdauer: Speziell
+Initiative: 1
+Wirkungsbereich: Umkreis von 5 m
+Rettungswurf: Keiner
+
+Die Macht des Sehens wird genommen, und Finsternis hält Einzug.
+
+Dieser Zauber blendet bis zu 100 Trefferpunkte von Wesen in einem Radius von 5 m / Stufe des Anwenders vom ausgewählten Zielpunkt. Die Blindheit breitet sich vom Mittelpunkt aus und betrifft zunächst die Wesen mit den niedrigsten maximalen Lebenspunken. Wesen mit mehr als 100 Lebenspunkten sind nicht betroffen. Die Wirkungsdauer des Zaubers hängt von der Anzahl der betroffenen Lebenspunkte ab: Wenn 25 oder weniger Lebenspunkte betroffen sind, dauert die Blindheit 160-400 Sekunden an. Wenn 26-50 Lebenspunkte betroffen sind, dauert die Blindheit 80-200 Sekunden an. Wenn 51-100 Lebenspunkte betroffen sind, dauert die Blindheit 16-40 Sekunden an. Ein Einzelwesen kann nicht teilweise betroffen sein: Wenn nicht alle seiner Lebenspunkte betroffen sind, wird es nicht geblendet.~
+@49632 = ~Schnitzer~
+@50894 = ~DAK'KONS ZERTH-KLINGE ("FLIESSENDE KLINGE")
+Schaden: 3-12 durch Klinge
+Verzaubert: +2
+Besonderheit:
+   +4 auf Rüstungsklasse
+   Verdoppelt alle Magierzauber des 1. Grades
+   1 zusätzlicher Magierzauber des 2. Grades kann sich eingeprägt werden
+ETW0: +2
+Initiative: 6
+Gewicht: 5
+Waffenfertigkeit: Klingen
+Kann nur von Dak'kon verwendet werden
+
+Auf der Heimatebene der Githzerai, Limbus, sind Feststoffe eine Rarität. Limbus selbst ist eine suppige Masse von Elementen, und nur durch Willenskraft können die Githzerai diese Elemente in die Form fester Stoffe bringen.
+
+Eine Substanz namens "Karach" ist ein Material, das durch den Willen geformt werden kann. Dak'kons Klinge besteht aus dieser Substanz. Allein durch die Beherrschung seines Willens hält Dak'kon die Klinge zusammen. Wenn der Geist des Trägers konzentriert ist, seine Gedanken frei von Zweifeln und einem einzigen Zweck zugewandt sind, reagiert die Klinge selbst und spiegelt so die Gedanken des Trägers wider.
+
+Wenn dies der Fall ist, müssen Dak'kons Gedanken wirklich klar sein, denn seine Klinge ist leuchtend silberfarben geworden. Es scheint, als sei die Klinge länger als zu dem Zeitpunkt, als du sie zuerst gesehen hast, und sie hat keine Spur mehr von dem seltsamen Schimmern auf der Oberfläche. Die Klingenschneide verjüngt sich zu einer beinahe papierdünnen Linie - trotz ihres zerbrechlichen Aussehens sieht sie so aus, als könne sie mit Leichtigkeit durch eine Kettenrüstung schneiden.
+
+Diese Klinge scheint eine besondere religiöse Bedeutung für Dak'kon zu haben. Dak'kon hat eine Reihe von Pergamenten um den Griff der Klinge gewickelt. Dies scheinen Mantras zu sein, die Zerthimon gewidmet sind.~
+@50929 = ~DAK'KONS ZERTH-KLINGE ("KETTENKLINGE")
+Schaden: 3-12 durch Klinge
+Verzaubert: +2
+Besonderheit:
+   +2 auf Rüstungsklasse
+   2 zusätzliche Magierzauber des 1. Grades können sich eingeprägt werden
+   1 zusätzlicher Magierzauber des 2. Grades kann sich eingeprägt werden
+ETW0: +2
+Initiative: 6
+Gewicht: 5
+Waffenfertigkeit: Klingen
+Kann nur von Dak'kon verwendet werden
+
+Auf der Heimatebene der Githzerai, Limbus, sind Feststoffe eine Rarität. Limbus selbst ist eine suppige Masse von Elementen, und nur durch Willenskraft können die Githzerai diese Elemente in die Form fester Stoffe bringen.
+
+Eine Substanz namens "Karach" ist ein Material, das durch den Willen geformt werden kann. Dak'kons Klinge besteht aus dieser Substanz. Allein durch einen disziplinierten Willen hält Dak'kon die Klinge zusammen. Er kann sie je nach seinen Fähigkeiten leicht unterschiedlich formen und ihre Länge und Schärfe anpassen. Es ist anzunehmen, daß er die Klinge auf noch weitere Arten manipulieren kann, wenn er Stufen hinzugewinnt.
+
+Es ist nicht bekannt, ob alle Githzerai-Zerths solche Waffen tragen. Sicher würde eine Waffe, die von der Integrität des Trägers abhängt, nur denen anvertraut, die gelernt haben, sich selbst zu beherrschen.
+
+Diese Klinge scheint eine besondere religiöse Bedeutung für Dak'kon zu haben. Dak'kon hat eine Reihe von Pergamenten um den Griff der Klinge gewickelt. Dies scheinen Mantras zu sein, die Zerthimon gewidmet sind.~
+@50987 = ~SCHRIFTROLLE: "IDENTIFIZIEREN"
+Ermöglicht es, den Zauber "Identifizieren" anzuwenden
+Stufe: 1 / Zauberer
+Reichweite: 1 Gegenstand
+Wirkungsdauer: Sofort
+Initiative: 0
+Wirkungsbereich: Nur im Inventar
+Rettungswurf: Keiner
+Gewicht: 0
+Kann nur von Magiern verwendet werden
+
+Dieser Zauber enthüllt die Geheimnisse eines verzauberten Objektes und erlaubt so seine genauen Eigenschaften zu erkennen.~
+@51023 = ~KLOPFEN
+Ermöglicht es, den Zauber "Klopfen" anzuwenden
+Reichweite: 55 m
+Wirkungsdauer: Speziell
+Initiative: 2
+Wirkungsbereich: 1Quadratmeter pro Stufe
+Rettungswurf: Keiner
+
+Das Unzugängliche, das Verschlossene kann mit diesem Zauber befreit und in Reichweite gebracht werden.
+
+Mit dem Zauber "Klopfen" können alle verschlossenen Türen, Truhen, Kisten oder Handschellen geöffnet werden. Verriegelte Tore oder Ähnliches können damit jedoch nicht geöffnet werden. Zudem kann ein Zauber nur auf maximal 2 Hindernisse angewendet werden.~
+@51073 = ~ENOLL EVAS VERDOPPELUNG
+Ermöglicht es, den Zauber "Enoll Evas Verdoppelung" anzuwenden
+Reichweite: 15 m
+Wirkungsdauer: 60 Sekunden
+Initiative: 5
+Wirkungsbereich: Ein Zielobjekt
+Rettungswurf: Keiner
+
+Dieser 'Zauber' ist in Wirklichkeit eine komplizierte mathematische Gleichung, die zufällig vom Modron Enoll Eva bei seinen Berechnungen zum Vervielfältigungsfaktor verschiedener algebraischer Formeln entdeckt wurde. Die Ergebnisse sind zerstörerisch: Mit dieser Gleichung können alle nachfolgenden Aktionen verdoppelt oder vervielfältigt werden. Bei Konfrontationen erscheinen also sämtliche körperlichen oder magischen Angriffe verdoppelt - mit der zweifachen Schadensmenge.
+
+Dieser Zauber betrifft nur ein einzelnes Ziel. Es wird kein Rettungswurf benötigt. Wird er ausgesprochen, werden alle folgenden Angriffe (körperliche oder magische) einmal dupliziert: Hat man beispielsweise einen Gegner mit einer Waffe angegriffen, wird der Angriff sofort dupliziert. Dasselbe gilt für Zauber - nach dem Abfeuern eines Magischen Geschosses wird sofort ein weiteres Geschoß abgefeuert. Diese Wirkung dieses Zaubers hält ungefähr 2 Minuten an.~
+@51076 = ~ANTIMAGISCHE SCHUTZHÜLLE
+Ermöglicht es, den Zauber "Antimagische Schutzhülle" anzuwenden
+Reichweite: 0
+Wirkungsdauer: 5 Minuten
+Initiative: 6
+Wirkungsbereich: 30 cm Durchmesser pro Stufe 
+Rettungswurf: Keiner
+
+Als Ironie des Schicksals wird sämtliche Magie in seinem Wirkungsbereich mit diesem Zauber rückgängig gemacht.
+
+Dieser Zauber umgibt den Anwender mit einer 'Hülle der Magie', die wirkungsvoll jegliche Magie und alle magischen Zaubereffekte (einschließlich magischer Gegenstände) ausschaltet. Sie sperrt nicht nur alle Magie aus, sondern verhindert außerdem jegliche Verwendung von Zaubereffekten in der Hülle selbst! Dies gilt auch für verschiedene spezielle Angriffe wie Odem-, Blick- und Stimmangriffe. Dieser Zauber hält 5 Minuten an, und der Wirkungsbereich der Kugel beträgt 30 cm pro Stufe des Anwenders.~
+@51077 = ~KUGEL DER UNVERWUNDBARKEIT
+Ermöglicht es, den Zauber "Kugel der Unverwundbarkeit" anzuwenden
+Reichweite: 0
+Wirkungsdauer: 5 Sekunden pro Stufe 
+Initiative: 6
+Wirkungsbereich: Umkreis von 1,5 m
+Rettungswurf: Keiner
+
+Ähnlich wie ihr Gegenstück, die Antimagische Schutzhülle, hindert diese Verzauberung bestimmte Zauber daran, in den Wirkungsbereich der Kugel einzutreten. Im Gegensatz zu seiner magischen Schwester läßt dieser Zauber jedoch Magie aus sich heraus nach außen fließen.
+
+Dieser Zauber erzeugt eine unbewegliche Sphäre der Magie, die sämtlichen Zaubereffekten des 1.-4. Grades den Zutritt verweigert (selbst Gebietswirkungszaubern). Zauber des 5. Grades oder höher sind von der Kugel nicht betroffen. Im Gegensatz zur Antimagischen Schutzhülle kann jedoch jeder Zaubertyp aus der Kugel heraus angewendet werden. Die Kugel hält 5 Sekunden pro Stufe des Anwenders an.~
+@51087 = ~WORT DER MACHT: BLINDHEIT
+Ermöglicht es, den Zauber "Wort der Macht: Blindheit" anzuwenden
+Reichweite: 5 m pro Stufe
+Wirkungsdauer: Speziell
+Initiative: 1
+Wirkungsbereich: Umkreis von 5 m
+Rettungswurf: Keiner
+
+Die Macht des Sehens wird genommen, und Finsternis hält Einzug.
+
+Dieser Zauber blendet bis zu 100 Trefferpunkte von Wesen in einem Radius von 5 m / Stufe des Anwenders vom ausgewählten Zielpunkt. Die Blindheit breitet sich vom Mittelpunkt aus und betrifft zunächst die Wesen mit den niedrigsten maximalen Lebenspunken. Wesen mit mehr als 100 Lebenspunkten sind nicht betroffen. Die Wirkungsdauer des Zaubers hängt von der Anzahl der betroffenen Lebenspunkte ab: Wenn 25 oder weniger Lebenspunkte betroffen sind, dauert die Blindheit 160-400 Sekunden an. Wenn 26-50 Lebenspunkte betroffen sind, dauert die Blindheit 80-200 Sekunden an. Wenn 51-100 Lebenspunkte betroffen sind, dauert die Blindheit 16-40 Sekunden an. Ein Einzelwesen kann nicht teilweise betroffen sein: Wenn nicht alle seiner Lebenspunkte betroffen sind, wird es nicht geblendet.~
+@51328 = ~SCHRIFTROLLE: "SPIRITUELLER HAMMER"
+Ermöglicht es, den Zauber "Spiritueller Hammer" anzuwenden
+Stufe: 2 / Priester
+Reichweite: 10 m pro Stufe
+Wirkungsdauer: unterschiedlich (siehe unten)
+Initiative: 2
+Wirkungsbereich: 1 Ziel
+Rettungswurf: 1/2
+Gewicht: 0
+Kann nur von Priestern verwendet werden
+
+Dieser Zauber beschwört einen Hammer spiritueller Energie herauf, mit dem du gegen deine Widersacher vorgehen kannst.
+
+Beim Hervorrufen wählt der Anwender ein Ziel in Reichweite. Der Hammer verursacht 4-10 Schadenspunkte durch Wucht für jeweils drei Stufen des Zauberers. Er dient als +1 Waffe (+1 auf Trefferpunkte und +1 auf Schadenspunkte) und gewinnt für jeweils sechs Stufen des Anwenders zusätzlich +1 hinzu, bis zu einem Maximum von +3.~
+@51331 = ~SCHRIFTROLLE: "GEBET"
+Ermöglicht es, den Zauber "Gebet" anzuwenden
+Stufe: 3 / Priester
+Reichweite: 0 (auf Anwender zentriert)
+Wirkungsdauer: 5 Sekunden pro Stufe
+Initiative: 3
+Wirkungsbereich: Umkreis von 18 m
+Rettungswurf: Keiner
+Gewicht: 0
+Kann nur von Priestern verwendet werden
+
+Dieser Zauber hilft Verbündeten und schadet deinen Feinden.
+
+Dieser Zauber bewirkt einen Bonus von +1 auf Angriffs-, Treffer- und Rettungswürfe für alle "Freunde" des Priesters. "Feinde" hingegen erleiden -1 auf Angriffs-, Treffer- und Rettungswürfe. Er dauert 5 Sekunden/Stufe in einem Umkreis von 18 m an.~
+@51332 = ~MIT TOTEN SPRECHEN
+Ermöglicht es, den Zauber "Mit Toten sprechen" anzuwenden
+Reichweite: 15 m
+Wirkungsdauer: Speziell
+Initiative: 3
+Wirkungsbereich: 1 Wesen (untot)
+Rettungswurf: Keiner
+
+Zur Kommunikation mit den Geistern Verstorbener
+
+Dieser Zauber ermöglicht es dem Namenlosen, einen Dialog mit einem Toten innerhalb der Sprechweite zu beginnen.~
+@51335 = ~KRITISCHE WUNDEN HEILEN
+Ermöglicht es, den Zauber "Kritische Wunden heilen" anzuwenden
+Reichweite: 0
+Wirkungsdauer: Dauerhaft / Sofort
+Initiative: 5
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Keiner
+
+Dieser Zauber heilt alle kritischen Wunden, die einer Zielperson zugefügt wurden.
+
+Stellt 3-24 + 3 Trefferpunkte für das Zielwesen wieder her. Die wiederhergestellten Trefferpunkte des Wesens können die maximale Anzahl an Trefferpunkten nicht übersteigen.~
+@51392 = ~NATTERNKUSS
+Ermöglicht es, den Zauber "Natternkuss" anzuwenden
+Reichweite: 45 m
+Wirkungsdauer: 5 Sekunden pro 3 Stufen
+Initiative: 2
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Keiner
+
+Es heißt, ein Natternkuß könnte selbst das furchterregendste Scheusal zu Tode ätzen. Dieser Zauber beschwört einen Säureblitz, der einen Gegner mit seiner giftig-grünen Säure überschüttet. Ist der Anwender geübt genug, verweilt der Natternkuß nach dem anfänglichen Angriff noch ein wenig und senkt sich mit seinen säurehaltigen Zähnen in die Haut des Gegners.
+
+Der Zauber bewirkt bei dem Zielobjekt, das in einer Entfernung von max. 45 m ausgewählt wurde, 2-8 Schadenspunkte durch Säure. Pro drei Stufen des Anwenders wird die Dauer der Säureeinwirkung um 5 Sekunden verlängert und bewirkt so weitere 2-8 Schadenspunkte durch Säure in Segmenten zu je 5 Sekunden.~
+@52798 = ~IGNUS' HAND
+Ermöglicht es, den Zauber "Höllenkugel" zu sprechen
+Reichweite: 15 m
+Wirkungsdauer: Speziell
+Initiative: 2
+Wirkungsbereich: 1 Wesen
+Rettungswurf: Negativ
+Gewicht: 1
+Kann nur vom Namenlosen verwendet werden
+Kann nur von Magiern verwendet werden
+
+Dies ist deine verkohlte Hand. Sie wurde am Handgelenk abgetrennt. Das Fleisch, das einst die Knochen umschlossen hat, ist verbrannt und hat die schneeweißen Knochen freigelegt. Trotz des Fehlens von Muskeln und Haut fällt die Hand nicht auseinander, als seien die Knochen zusammengeschweißt. Der Schmerz, den du aushalten mußtest, als die Hand abgetrennt wurde, war kaum zu ertragen. Du hast geschwärzte Narben an deinem Handgelenk davongetragen. Und was noch schlimmer ist: Du bemerkst, daß die Wunden nur langsam und schlecht verheilt sind... Wenn Ignus seinen gesamten Zorn zusammennehmen und dich angreifen würde, könnte er durchaus in der Lage sein, genügend Hitze und Feuer heraufzubeschwören, um dich schwer zu verletzen... oder gar zu töten. Der Gedanke daran gefällt dir gar nicht.
+
+Ignus hat angedeutet, daß diese verkohlten Überreste deiner Hand in irgendeiner Weise einen kleinen Bruchteil seiner höllischen Macht enthalten... der nun auf dich übergegangen sei. Um die Macht heraufzubeschwören, mußt du dir die Hand noch einmal abschneiden, die Skeletthand aufsetzen und sie wieder anwachsen lassen. Wenn die Wunden verheilt sind, werden die Überreste von Ignus, die den verkohlten Knochen noch innewohnen, einen kleinen Funken von Ignus' Wissen in dir "entfachen".~
+@57317 = ~Du siehst den alten Eremiten aus dem Untergrund. Als er dich erblickt, brüllt er los: "Kyse, der Verwalter, hat mir gesagt, daß du kommen würdest. Du hast den Deva ziemlich geschwächt... Das Chaos in der Stadt ist zurückgegangen und sein Plan geht nicht auf. Mach weiter und bring' die Sache zu Ende."~
+@59082 = ~Kiri~
+@59821 = ~ENTROPISCHE KLINGE
+Schaden: 3-23 durch Wucht
+Verzaubert: +2
+ETW0: +3
+Initiative: 1
+Gewicht: 1
+Waffenfertigkeit: Fäuste
+Kann nur von Kämpfern und Dieben verwendet werden
+
+Dieser seltsame Gegenstand ist in deinen Besitz gelangt, nachdem du dem Eisengolem im Belagerungsturm den Modron-Würfel gegeben hattest. Er sieht wie ein kleiner Dolch aus. Beim näheren Hinsehen bemerkst du jedoch, daß sich seine Oberfläche krümmt und windet, als ob sie sich aus dieser Form zu befreien suche.
+
+Er sieht so aus, als sei er aus Eisen, Silber und noch ein paar anderen unterschiedlichen Metallen hergestellt. Manchmal verschmelzen sie miteinander, und dann wieder verschwinden sie in das Herz der Klinge, nur, um Minuten später wieder an die Oberfläche zu kommen.~
+@59822 = ~ENTROPISCHE KLINGE
+Schaden: 3-23 durch Wucht
+Verzaubert: +2
+ETW0: +3
+Initiative: 1
+Gewicht: 1
+Waffenfertigkeit: Hämmer
+Kann nur von Kämpfern verwendet werden
+
+Dieser seltsame Gegenstand ist in deinen Besitz gelangt, nachdem du dem Eisengolem im Belagerungsturm den Modron-Würfel gegeben hattest. Er sieht wie ein kleiner Dolch aus. Beim näheren Hinsehen bemerkst du jedoch, daß sich seine Oberfläche krümmt und windet, als ob sie sich aus dieser Form zu befreien suche.
+
+Er sieht so aus, als sei er aus Eisen, Silber und noch ein paar anderen unterschiedlichen Metallen hergestellt. Manchmal verschmelzen sie miteinander, und dann wieder verschwinden sie in das Herz der Klinge, nur, um Minuten später wieder an die Oberfläche zu kommen.~
+@59823 = ~ENTROPISCHE KLINGE
+Schaden: 3-23 durch Wucht
+Verzaubert: +2
+ETW0: +3
+Initiative: 1
+Gewicht: 1
+Waffenfertigkeit: Keulen
+Kann nur von Kämpfern verwendet werden
+
+Dieser seltsame Gegenstand ist in deinen Besitz gelangt, nachdem du dem Eisengolem im Belagerungsturm den Modron-Würfel gegeben hattest. Er sieht wie ein kleiner Dolch aus. Beim näheren Hinsehen bemerkst du jedoch, daß sich seine Oberfläche krümmt und windet, als ob sie sich aus dieser Form zu befreien suche.
+
+Er sieht so aus, als sei er aus Eisen, Silber und noch ein paar anderen unterschiedlichen Metallen hergestellt. Manchmal verschmelzen sie miteinander, und dann wieder verschwinden sie in das Herz der Klinge, nur, um Minuten später wieder an die Oberfläche zu kommen.~
+@61680 = ~ENTROPISCHE KLINGE
+Schaden: 3-23 durch Klinge
+Verzaubert: +2
+ETW0: +3
+Initiative: 1
+Gewicht: 1
+Waffenfertigkeit: Äxte
+Kann nur von Kämpfern verwendet werden
+
+Dieser seltsame Gegenstand ist in deinen Besitz gelangt, nachdem du dem Eisengolem im Belagerungsturm den Modron-Würfel gegeben hattest. Er sieht wie ein kleiner Dolch aus. Beim näheren Hinsehen bemerkst du jedoch, daß sich seine Oberfläche krümmt und windet, als ob sie sich aus dieser Form zu befreien versuche.
+
+Er sieht so aus, als sei er aus Eisen, Silber und noch ein paar anderen unterschiedlichen Metallen hergestellt. Manchmal verschmelzen sie miteinander, und dann wieder verschwinden sie in das Herz der Klinge, nur, um Minuten später wieder an die Oberfläche zu kommen.~
+@61796 = ~Rüstung kann nicht entfernt werden.~ [ANA369C]
+@62305 = ~Morte Taunts 7~ [MRT459A]
+@62321 = ~Morte Taunts 23~ [MRT322AL]
+@66374 = ~DAK'KONS ZERTH-KLINGE ("FLIESSENDE KLINGE")
+Schaden: 5-20 durch Klinge
+Verzaubert: +3
+Besonderheit:
+   +6 auf Rüstungsklasse
+   Verdoppelt alle Magierzauber des 1. Grades
+   Verdoppelt alle Magierzauber des 2. Grades
+   1 zusätzlicher Magierzauber des 3. Grades kann sich eingeprägt werden
+ETW0: +3
+Initiative: 6
+Gewicht: 5
+Waffenfertigkeit: Klingen
+Kann nur von Dak'kon verwendet werden
+
+Auf der Heimatebene der Githzerai, Limbus, sind Feststoffe eine Rarität. Limbus selbst ist eine suppige Masse von Elementen, und nur durch Willenskraft können die Githzerai diese Elemente in die Form fester Stoffe bringen.
+
+Eine Substanz namens "Karach" ist ein Material, das durch den Willen geformt werden kann. Dak'kons Klinge besteht aus dieser Substanz. Allein durch die Beherrschung seines Willens hält Dak'kon die Klinge zusammen. Wenn der Geist des Trägers konzentriert ist, seine Gedanken frei von Zweifeln und einem einzigen Zweck zugewandt sind, reagiert die Klinge selbst und spiegelt so die Gedanken des Trägers wider.
+
+Wenn dies der Fall ist, müssen Dak'kons Gedanken wirklich klar sein, denn seine Klinge ist leuchtend silberfarben geworden. Es scheint, als sei die Klinge länger als zu dem Zeitpunkt, als du sie zuerst gesehen hast, und sie hat keine Spur mehr von dem seltsamen Schimmern auf der Oberfläche. Die Klingenschneide verjüngt sich zu einer beinahe papierdünnen Linie - trotz ihres zerbrechlichen Aussehens sieht sie so aus, als könne sie mit Leichtigkeit durch eine Kettenrüstung schneiden.
+
+Diese Klinge scheint eine besondere religiöse Bedeutung für Dak'kon zu haben. Dak'kon hat eine Reihe von Pergamenten um den Griff der Klinge gewickelt. Dies scheinen Mantras zu sein, die Zerthimon gewidmet sind.~
+@66375 = ~DAK'KONS ZERTH-KLINGE ("KETTENKLINGE")
+Schaden: 5-20 durch Klinge
+Verzaubert: +3
+Besonderheit:
+   +3 auf Rüstungsklasse
+   Verdoppelt alle Magierzauber des 1. Grades
+   Verdoppelt alle Magierzauber des 2. Grades
+ETW0: +3
+Initiative: 6
+Gewicht: 5
+Waffenfertigkeit: Klingen
+Kann nur von Dak'kon verwendet werden
+
+Auf der Heimatebene der Githzerai, Limbus, sind Feststoffe eine Rarität. Limbus selbst ist eine suppige Masse von Elementen, und nur durch Willenskraft können die Githzerai diese Elemente in die Form fester Stoffe bringen.
+
+Eine Substanz namens "Karach" ist ein Material, das durch den Willen geformt werden kann. Dak'kons Klinge besteht aus dieser Substanz. Allein durch einen disziplinierten Willen hält Dak'kon die Klinge zusammen. Er kann sie je nach seinen Fähigkeiten leicht unterschiedlich formen und ihre Länge und Schärfe anpassen. Es ist anzunehmen, daß er die Klinge auf noch weitere Arten manipulieren kann, wenn er Stufen hinzugewinnt.
+
+Es ist nicht bekannt, ob alle Githzerai-Zerths solche Waffen tragen. Sicher würde eine Waffe, die von der Integrität des Trägers abhängt, nur denen anvertraut, die gelernt haben, sich selbst zu beherrschen.
+
+Diese Klinge scheint eine besondere religiöse Bedeutung für Dak'kon zu haben. Dak'kon hat eine Reihe von Pergamenten um den Griff der Klinge gewickelt. Dies scheinen Mantras zu sein, die Zerthimon gewidmet sind.~
+@106498 = ~This is a placeholder to prevent a string with a sound file from becoming strref 106498, which causes problems.~ []

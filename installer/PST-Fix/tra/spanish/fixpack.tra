@@ -1,0 +1,539 @@
+@-1000= "El mod %TP2_FILE_NAME% tiene"
+@-1001= "distintos componentes opcionales.\nPara ahorrar tiempo, puedes elegir que hacer ahora a nivel general con ellos\nen lugar de ir uno por uno.\n"
+@-1002= "Que quieres hacer con todos los componentes que TODAVIA NO estan instalados?\n[I]Instalarlos, [S]Saltarlos, [A]Preguntar uno por uno? "
+@-1003= "Que quieres hacer con todos los componentes que YA ESTAN instalados?\n[R]Reinstalarlos, [U]Desinstalarlos, [S]Saltarlos, [A]Preguntar uno por uno? "
+@-1004= "POR FAVOR enviar el archivo"
+@-1005= "a"
+@-1006= "Instalar ["
+@-1007= "]?
+[R]Reinstalar, [N]Sin cambios o [U]Desinstalar o [Q]Salir? "
+@-1008= "]?
+[I]Instalar, o [N]No instalar o [Q]Salir? "
+@-1009= "Introduce parte de un nombre de modulo: "
+@-1010= "Reinstalando componente ["
+@-1011= "] "
+@-1012= "Reinstalando usando idioma"
+@-1013= "Eliminando la vieja instalacion de ["
+@-1014= "] primero..."
+@-1015= "ANTIGUO ELIMINADO CON EXITO"
+@-1016= "Instalando"
+@-1017= "ERROR instalando ["
+@-1018= "], volviendo al estado anterior"
+@-1019= "INSTALADO CON EXITO"
+@-1020= "Saltando "
+@-1021= "Eliminando ["
+@-1022= "] (componente #"
+@-1023= ")"
+@-1024= "ELIMINADO CON EXITO ["
+@-2000= "Visor de leeme"
+@-2001= "Te gustaria ver el leeme (traducido al espaniol por Ghildrean)? [Y]Si, [N]No:"
+@00001 = ~PS:T Ultimate WeiDU Fixpack, por Qwinn~
+@00002 = ~Correciones de escritura/gramatica/pronunciacion/puntuacion en dialogos (Solo ingles)~
+@00003 = ~Saltado debido a que el idioma seleccionado no era Ingles~
+@00004 = ~Escenas subtituladas~
+@00005 = ~Escenas subtituladas requiere PS:T Ultimate WeiDU Fixpack.~
+@00100 = ~La mujer asiente y se marcha apresuradamente. No esperas verla de nuevo.~
+@00101 = ~"¿Qué eres entonces, Morte? Nunca lo has dicho."~ [FFG121]
+@00102 = ~Infiltrarse entre los Sensibles para los Anarquistas: "Estoy listo. Quiero convertirme en un Sensible."~
+@00103 = ~Infiltrarse entre los Sensibles para los Anarquistas: "Estoy listo para unirme a la Sociedad de los Sentidos. Ya no siento lealtad hacia los Divinos."~
+@00104 = ~Infiltrarse entre los Sensibles para los Anarquistas: "Estoy listo para unirme a la Sociedad de los Sentidos. Ya no siento lealtad hacia los Hombres de la Ceniza."~
+@00105 = ~Infiltrarse entre los Sensibles para los Anarquistas: "Estoy listo para unirme a la Sociedad de los Sentidos. Ya no siento lealtad hacia los Xaositectos."~
+@00106 = ~Infiltrarse entre los Hombres de la Ceniza para los Anarquistas: "Si así es como debe ser, que así sea. Mi mente debe ser fiel a sí misma, no a otro. Y, desde este momento, reniego de las creencias de los Divinos."~
+@00107 = ~Infiltrarse entre los Hombres de la Ceniza para los Anarquistas: "Si así es como debe ser, que así sea. Mi mente debe ser fiel a sí misma, no a otro. Y, desde este momento, reniego de las... eh, 'creencias' de los Caóticos."~
+@00108 = ~Infiltrarse entre los Hombres de la Ceniza para los Anarquistas: "Si así es como debe ser, que así sea. Mi mente debe ser fiel a sí misma, no a otro. Y, desde este momento, reniego de las creencias de los Sensibles."~
+@00109 = ~Infiltrarse entre los Caóticos para los Anarquistas: "Entonces... ¿cuál es el siguiente paso?"~
+@00110 = ~Infiltrarse entre los Caóticos para los Anarquistas: "Unirme a los Xaositectos preparado para estoy. Lealtad ninguna facción anterior yo tengo Divinos."~
+@00111 = ~Infiltrarse entre los Caóticos para los Anarquistas: "Unirme a los Xaositectos preparado para estoy. Lealtad ninguna facción anterior yo tengo Hombres de la Ceniza."~
+@00112 = ~Infiltrarse entre los Caóticos para los Anarquistas: "Unirme a los Xaositectos preparado para estoy. Lealtad ninguna facción anterior yo tengo Sensibles."~
+@00113 = ~"¡Maldita sea, Vhailor, ¿te das cuenta de lo que has hecho?!"~
+@00114 = ~Vhailor se aparte del cadáver de Trias para mirarte directamente. *Eres COMPASIVO y DÉBIL. ENDURECE tu CORAZÓN antes de que la enfermedad SE EXTIENDA.*~ [VHA013]
+@00115 = ~Infiltrarse entre los Hombres de la Ceniza para los Anarquistas: "Si."~
+@00498 = ~ORBE INFERNAL
+Alcance: 15 metros
+Duración: Especial
+Velocidad: 2
+Área de Efecto: 1 criatura
+Tiro de Salvación: Niega el efecto
+
+Una esfera de Rojo Ardiente es invocada para debilitar y ralentizar al enemigo.
+
+El lanzador invoca un gran Orbe Mágico de Color Rojo Ardiente, que puede lanzarse después contra un objetivo usando la tirada de Ataque normal del lanzador. El lanzador obtiene una bonificación de +3 a Golpear en su tirada de ataque. El orbe ocasiona de 1 a 6 puntos de daño, e inflige una penalización de -1 a la Fuerza y la Destreza del enemigo durante 10 segundos.~
+@00950 = ~"Es aquí donde los muertos de Sigil son traídos para ser enterrados o incinerados. Es nuestra responsabilidad como Hombres de la Ceniza el cuidar de los muertos, de aquellos que han dejado esta sombra de vida y caminan por el sendero de la Muerte Verdadera." La voz de Dhall desciende con preocupación. "Tus heridas deben haber exigido un pesado peaje si no reconoces este lugar. Es prácticamente tu hogar."~
+@10605 = ~Distraerla para que puedas envenenar su bebida: "¿Qué es aquello de allí?"~
+@26067 = ~HOJA ENTRÓPICA
+Daño: 3-23 Perforante
+Encantamiento: +2
+GAC0: +3
+Velocidad: 1
+Peso: 1
+Competencia: Con Filo
+No utilizable por los Sacerdotes
+
+Este extraño objeto llegó a tus manos tras darle el Cubo Modrón al gólem de hierro de la Torre de Asedio. Su aspecto es el de una pequeña daga, pero su superficie se retuerce y se pliega mientras la observas, como si forcejeara por liberarse de su forma.
+
+Parece estar hecha de hierro, plata, y otros metales diferentes. En ocasiones se mezclan entre ellos, y en otras se sumergen hacia el núcleo de la hoja, para resurgir unos minutos más tarde.~
+@30022 = ~ESPADA ZERTH DE DAK'KON ("HOJA FLUYENTE")
+Daño: 2-9 Cortante
+Encantamiento: +1
+Especial:
+   +2 a la Clase de Armadura
+   Memoriza 2 Conjuros Adicionales de Nivel 1 de Mago
+GAC0: +1
+Velocidad: 7
+Peso: 5
+Competencia: Con Filo
+Sólo la puede usar Dak'kon
+
+En el Limbo, plano natal de los Githzerai, la materia sólida es una rareza. El Limbo en sí mismo es una espesa masa de elementos, y sólo a través de la fuerza o la voluntad pueden los Githzerai dar forma a estos elementos creando materia estable.
+
+Una sustancia llamada "karach" es un material al que se le puede dar forma con la mente. La espada de Dak'kon está compuesta de esta sustancia; Dak'kon mantiene la integridad de la espada únicamente a través de la disciplina mental. Cuando el espíritu del usuario está concentrado, su mente libre de dudas, y dedicado a un único propósito, la espada reaccionará por sí misma, reflejando los pensamientos de su portador.
+
+Si eso es así, la mente de Dak'kon debe estar ciertamente libre de dudas, porque su espada se ha vuelto de un brillante color plateado. Parece como si su hoja fuese más larga que cuando la viste por primera vez, y no hay rastro del extraño resplandor trémulo que una vez tuvo su superficie. El filo de la espada se ahusa casi como una fina lámina de papel. A pesar de su frágil apariencia, parece como si pudiese cortar una cota de mallas con facilidad.
+
+Esta espada parece tener un especial significado religioso para Dak'kon. Éste ha envuelto la empuñadura de la espada con una serie de pergaminos. Parecen ser plegarias consagradas a Zerthimón.~
+@32837 = ~Sala de Embalsamamiento. ~
+@37091 = ~El objetivo es inmune al arma [Caída-de-la-Virtud]~ [FFG173E]
+@48157 = ~"El sujeto ahora está conversando con una mujer humana."~
+@48158 = ~"El sujeto ahora está jugando con una mujer humana."~
+@48854 = ~PERGAMINO DE MARTILLO ESPIRITUAL
+Permite al usuario lanzar "Martillo Espiritual"
+Nivel: 2 / Sacerdote
+Alcance: 9 metros por nivel
+Duración: Variable (ver abajo)
+Velocidad: 2
+Área de efecto: 1 Objetivo
+Tiro de Salvación: 1/2 efecto
+Peso: 0
+Sólo lo pueden usar los Sacerdotes
+
+Este conjuro convoca un martillo de energía espiritual para golpear a los enemigos.
+
+Cuando se lanza, el lanzador elige un objetivo dentro de su radio de acción. El martillo ocasiona 4-10 puntos de daño contundente, por cada tres niveles del lanzador, actuando como un arma +1 (+1 a golpear y +1 al daño), ganando un +1 adicional por cada seis niveles del lanzador, hasta un máximo de +3.~
+@48964 = ~PERGAMINO DE PLEGARIA
+Permite al usuario lanzar "Plegaria"
+Nivel: 3 / Sacerdote
+Alcance: 0 (centrado en el lanzador)
+Duración: 5 segundos por nivel
+Velocidad: 3
+Área de efecto: Radio de 18 metros
+Tiro de Salvación: Ninguno
+Peso: 0
+Sólo lo pueden usar los Sacerdotes
+
+Este pergamino ayuda a los aliados y castiga a los enemigos.
+
+Este conjuro proporciona un bonificador de + 1 a golpear, al daño, y a los tiros de salvación a aquellos que sean "Amigos" del sacerdote. Los que son "Hostiles" al lanzador sufren -1 a golpear, al daño, y a los tiros de salvación. Su duración es de 5 segundos / nivel en un radio de 18 metros.~
+@48966 = ~PERGAMINO DE HABLAR CON LOS MUERTOS
+Permite al usuario lanzar "Hablar con los Muertos"
+Nivel: 3 / Sacerdote
+Alcance: 15
+Duración: Especial
+Velocidad: 3
+Área de efecto: 1 criatura (muerto viviente)
+Tiro de Salvación: Ninguno
+Peso: 0
+Sólo lo pueden usar los Sacerdotes
+
+Para comunicarse con espíritus que han dejado este mundo.
+
+Este conjuro permite al Sin Nombre iniciar una charla con un cuerpo muerto que se encuentre dentro de su rango para hablar.~
+@49059 = ~PERGAMINO DE CURAR HERIDAS CRÍTICAS
+Permite al usuario lanzar "Curar Heridas Críticas"
+Nivel: 5 / Sacerdote
+Alcance: 0
+Duración: Permanente / Instantánea
+Velocidad: 5
+Área de efecto: 1 criatura
+Tiro de Salvación: Ninguno
+Peso: 0
+Sólo lo pueden usar los Sacerdotes
+
+Este conjuro sana cualquier herida crítica que tenga el objetivo.
+
+Restaura 27 puntos de golpe a la víctima. Los puntos restaurados a la criatura no pueden exceder su máximo de puntos de golpe.~
+@49073 = ~PERGAMINO DE IDENTIFICAR
+Permite al usuario lanzar "Identificar"
+Permite al usuario copiar "Identificar" en el Libro de Conjuros
+Nivel: 1 / Mago
+Alcance: 1 Objeto
+Duración: Instantáneo
+Velocidad: 0
+Área de Efecto: Sólo se usa dentro del inventario
+Tiro de Salvación: Ninguno
+Peso: 0
+Sólo lo pueden usar los Magos
+
+Este conjuro revela los misterios de un objeto encantado, permitiéndote conocer con exactitud sus capacidades.~
+@49093 = ~PERGAMINO DE BESO DE VÍBORA
+Permite al usuario lanzar "Beso de Víbora"
+Permite al usuario copiar "Beso de Víbora" en el Libro de Conjuros
+Nivel: 2 / Mago
+Alcance: 45 metros
+Duración: 5 segundos cada 3 niveles
+Velocidad: 2
+Área de Efecto: 1 criatura
+Tiro de Salvación: Ninguno
+Peso: 0
+Sólo lo pueden usar los Magos
+
+Se dice que un beso de víbora puede escaldar incluso al más horrendo de los infernales. Este conjuro hace surgir un virote ácido que baña al oponente con su vil ácido verde. Si el lanzador es suficientemente habilidoso, el beso de víbora perdura tras el impacto inicial, y sigue penetrando en la piel del oponente con su ácida mordedura.
+
+Cuando se invoca, el lanzador selecciona un objetivo cualquiera que esté a menos de 50 metros como máximo y el beso de víbora impactará causando 2-8 puntos de daño por ácido. Por cada tres niveles del lanzador, él ácido permanece 5 segundos más, infligiendo otros 2-8 puntos de daño por ácido / segmentos de 5 segundos.~
+@49127 = ~PERGAMINO DE APERTURA
+Permite al usuario lanzar "Apertura"
+Permite al usuario copiar "Apertura" en el Libro de Conjuros
+Nivel: 2 / Mago
+Alcance: 54 metros
+Duración: Especial
+Velocidad: 2
+Área de Efecto: 3 mts. cuadrados por nivel
+Tiro de Salvación: Ninguno
+Peso: 0
+Sólo lo pueden usar los Magos
+
+Lo encerrado, lo inaccesible, puede ser liberado y puesto a nuestro alcance con este encantamiento.
+
+Con Apertura, toda puerta, cofre, caja o grillete que esté cerrado podrá ser abierto, esto no afecta a puertas atascadas o similares. Además, sólo afecta a 2 impedimentos por conjuro.~
+@49259 = ~PERGAMINO DE DUPLICACIÓN DE ENOLL EVA
+Permite al usuario lanzar "Duplicación de Enoll Eva"
+Permite al usuario copiar "Duplicación de Enoll Eva" en el Libro de Conjuros
+Nivel: 5 / Mago
+Alcance: 15 metros
+Duración: 60 segundos
+Velocidad: 5
+Área de Efecto: Uno
+Tiro de Salvación: Ninguno
+Peso: 0
+Sólo lo pueden usar los Magos
+
+Éste 'conjuro' es en realidad una ecuación matemática compleja descubierta accidentalmente por el modrón, Enoll Eva, mientras calculaba el factor de multiplicación en varias fórmulas lineales algebraicas. Los resultados son devastadores: esta ecuación permite que todas las acciones posteriores sean dobladas ó duplicadas. Por lo tanto se apreció que durante los enfrentamientos, todos los ataques mágicos o físicos fueron aparentemente doblados, haciendo el doble de daño.
+
+Este conjuro afecta a un sólo objetivo. No se requiere tiro de salvación. Cuando es lanzado, todos los ataques posteriores (físicos o mágicos) serán duplicados una vez: Por ejemplo, después de atacar una vez con un arma, el ataque será inmediatamente duplicado, lo mismo para los conjuros (se lanza un proyectil mágico, e inmediatamente después, otro proyectil mágico será lanzado). Este conjuro durará 2 minutos aproximadamente después de ser lanzado.~
+@49265 = ~PERGAMINO DE CAPARAZÓN ANTIMAGIA
+Permite al usuario lanzar "Caparazón Antimagia"
+Permite al usuario copiar "Caparazón Antimagia" en el Libro de Conjuros
+Nivel: 6 / Mago
+Alcance: 0
+Duración: 5 minutos
+Velocidad: 6
+Área de Efecto: diámetro de 30 centímetros por nivel
+Tiro de Salvación: Ninguno
+Peso: 0
+Sólo lo pueden usar los Magos
+
+Con este conjuro, en un giro irónico, se deshará toda la magia dentro del área de efecto.
+
+Este conjuro rodea al lanzador con un 'caparazón de magia' que niega con efectividad todos los efectos de magia y conjuros mágicos (incluyendo objetos mágicos) dentro del área de efecto. De ese modo, bloquea la magia, ¡aunque también impide su uso dentro del caparazón! También incluye varios ataques especiales como los ataques de aliento, mirada o voz. El conjuro dura 5 minutos, y el globo de efecto es de 30 centímetros por nivel del invocador.~
+@49267 = ~PERGAMINO DE GLOBO DE INVUNERABILIDAD
+Permite al usuario lanzar "Globo de Invulnerabilidad"
+Permite al usuario copiar "Globo de Invulnerabilidad" en el Libro de Conjuros
+Nivel: 6 / Mago
+Alcance: 0
+Duración: 5 segundos por nivel
+Velocidad: 6
+Área de Efecto: radio de 1,5 metros
+Tiro de Salvación: Ninguno
+Peso: 0
+Sólo lo pueden usar los Magos
+
+Similar a su conjuro hermano, Caparazón Antimagia, este encantamiento restringe que cierta magia entre en sus confines. A diferencia de su hermano, este conjuro permite a la magia fluir de dentro hacia fuera.
+
+Este conjuro crea una esfera inmóvil de magia que impide que penetren los efectos de cualquier conjuro de 1er a 4º nivel (incluso los efectos de conjuros de área). Los conjuros de 5º nivel o más, no son afectados por el globo. Pero a diferencia del caparazón antimagia, cualquier tipo de conjuro puede ser lanzado desde la esfera. El globo dura 5 segundos por nivel del invocador.~
+@49287 = ~PERGAMINO DE PALABRA DE PODER, CEGAR
+Permite al usuario lanzar "Palabra de Poder, Cegar"
+Permite al usuario copiar "Palabra de Poder, Cegar" en el Libro de Conjuros
+Nivel: 8 / Mago
+Alcance: 5 metros por nivel
+Duración: Especial
+Velocidad: 1
+Área de Efecto: Radio de 5 metros
+Tiro de Salvación: Ninguno
+Peso: 0
+Sólo lo pueden usar los Magos
+
+El poder de la vista será quitado, y entrará la oscuridad.
+
+Este conjuro ciega hasta 100 ptos. de golpe de criaturas dentro de un radio de 5 metros / nivel del invocador desde el punto especificado. La ceguera avanza desde el centro, afectando a las criaturas con menos PG primero. Aquellos con más de 100 PG no serán afectados. La duración de los efectos del conjuro dependen del número de PG afectados: si son menos de 25 PG, entonces la ceguera dura de 160-400 segundos. Si son de 26-50 PG, la ceguera dura de 80-200 segundos. Si es de 51-100 PG, la ceguera dura de 16-40 segundos. Una sola criatura no puede ser parcialmente afectada: A menos de todos sus PG sean afectados, no estará ciega.~
+@49289 = ~PERGAMINO DE CAÑÓN DE MECHANUS
+Permite al usuario lanzar "Cañón de Mechanus"
+Permite al usuario copiar "Cañón de Mechanus" en el Libro de Conjuros
+Nivel: 8 / Mago
+Alcance: 15 metros
+Duración: Instantáneo
+Velocidad: 8
+Área de Efecto: 1 criatura
+Tiro de Salvación: Ninguno
+Peso: 0
+Sólo lo pueden usar los Magos
+
+La auténtica justicia lógica de Primus será enviada a lo ilógico, y como energía pura desciende de Mechanus.
+
+Este conjuro invoca la última forma de 'ecualización' de Primus: un gran chorro de energía que viene del corazón de Mechanus y se dispara al objetivo especificado por el invocador, a través de un portal. Un portal temporal aparecerá a 3 mts. del objetivo y la Justicia Lógica de Mechanus bajará, infligiendo de 30-90 ptos. de daño, sin tiro de salvación.~
+@49632 = ~Tallista~
+@50894 = ~ESPADA ZERTH DE DAK'KON ("HOJA FLUYENTE")
+Daño: 3-12 Cortante
+Encantada: +2
+Especial:
+   +4 a la Clase de Armadura
+   Duplica todos los Conjuros de Nivel 1 de Mago
+   Memoriza 1 Conjuro Adicional de Nivel 2 de Mago
+GAC0: +2
+Velocidad: 6
+Peso: 5
+Competencia: Con Filo
+Sólo la puede usar Dak'kon
+
+En el Limbo, plano natal de los Githzerai, la materia sólida es una rareza. El Limbo en sí mismo es una espesa masa de elementos, y sólo a través de la fuerza o la voluntad pueden los Githzerai dar forma a estos elementos creando materia estable.
+
+Una sustancia llamada "karach" es un material al que se le puede dar forma con la mente. La espada de Dak'kon está compuesta de esta sustancia; Dak'kon mantiene la integridad de la espada únicamente a través de la disciplina mental. Cuando el espíritu del usuario está concentrado, su mente libre de dudas, y dedicado a un único propósito, la espada reaccionará por sí misma, reflejando los pensamientos de su portador.
+
+Si eso es así, la mente de Dak'kon debe estar ciertamente libre de dudas, porque su espada se ha vuelto de un brillante color plateado. Parece como si su hoja fuese más larga que cuando la viste por primera vez, y no hay rastro del extraño resplandor trémulo que una vez tuvo su superficie. El filo de la espada se ahusa casi como una fina lámina de papel. A pesar de su frágil apariencia, parece como si pudiese cortar una cota de mallas con facilidad.
+
+Esta espada parece tener un especial significado religioso para Dak'kon. Éste ha envuelto la empuñadura de la espada con una serie de pergaminos. Parecen ser plegarias consagradas a Zerthimón.~
+@50929 = ~ESPADA ZERTH DE DAK'KON ("ESPADA ESLABONADA")
+Daño: 3-12 Cortante
+Encantamiento: +2
+Especial:
+   +2 a la Clase de Armadura
+   Memoriza 2 Conjuros Adicionales de Nivel 1 de Mago
+   Memoriza 1 Conjuro Adicional de Nivel 2 de Mago
+GAC0: +2
+Velocidad: 6
+Peso: 5
+Competencia: Con Filo
+Sólo la puede usar Dak'kon
+
+En el Limbo, plano natal de los Githzerai, la materia sólida es una rareza. El Limbo en sí mismo es una espesa masa de elementos, y sólo a través de la fuerza o la voluntad pueden los Githzerai dar forma a estos elementos creando materia estable.
+
+Una sustancia llamada "karach" es un material al que se le puede dar forma con la mente. La espada de Dak'kon está compuesta de esta sustancia; Dak'kon mantiene la integridad de la espada únicamente a través de la disciplina mental. Él puede variar levemente su forma dependiendo de su habilidad, ajustando su longitud y el filo de su hoja. Probablemente según vaya ganando niveles, será capaz de manipular la espada de nuevas maneras.
+
+No se sabe si todos los zerth Githzerai llevan tales armas. Ciertamente, un arma que depende de la integridad de su portador debería confiarse sólo a aquellos que han llegado a dominar la auto-disciplina.
+
+Esta espada parece tener un especial significado religioso para Dak'kon. Éste ha envuelto la empuñadura de la espada con una serie de pergaminos. Parecen ser plegarias consagradas a Zerthimón.~
+@50987 = ~IDENTIFICAR
+Alcance: 1 Objeto
+Duración: Instantáneo
+Velocidad: 0
+Área de Efecto: Sólo se usa dentro del Inventario
+Tiro de Salvación: Ninguno
+
+Este conjuro revela los misterios de un objeto encantado, permitiéndote conocer con exactitud sus capacidades.~
+@51023 = ~APERTURA
+Alcance: 50 metros
+Duración: Especial
+Velocidad: 2
+Área de Efecto: 1 metro cuadrado por nivel
+Tiro de Salvación: Ninguno
+
+Lo inaccesible, lo cerrado, puede ser liberado y puesto a nuestro alcance con este encantamiento.
+
+Con Apertura, todos los cofres, cajas, puertas o grilletes cerrados serán abiertos, aunque no afecta a puertas atrancadas y cosas así. Además, sólo puede afectar a 2 cerrojos por conjuro.~
+@51073 = ~DUPLICACIÓN DE ENOLL EVA
+Alcance: 15 metros
+Duración: 60 segundos
+Velocidad: 5
+Área de Efecto: Uno mismo
+Tiro de Salvación: Ninguno
+
+Este 'conjuro' es en realidad una compleja ecuación matemática descubierta accidentalmente por el modrón, Enoll Eva, cuando calculaba el factor de multiplicación de varias fórmulas algebraicas lineales. Los resultados son devastadores: Esta ecuación permite que las acciones subsiguientes sean dobladas o duplicadas. Por consiguiente, se encontró con que durante las confrontaciones, todos los ataques físicos o mágicos aparentemente se doblaban, causando el doble de daño.
+
+Este conjuro afecta a un único objetivo. No se requiere un tiro de salvación. Cuando se lanza, todos los ataques subsiguientes (físicos o mágicos) serán duplicados una vez: Por ejemplo, tras atacar una vez con un arma, el ataque será duplicado inmediatamente. Lo mismo sucede con los conjuros (lanza un Misil mágico e inmediatamente después, otro misil mágico surgirá de tus manos). Este conjuro dura aproximadamente 2 minutos tras ser lanzado.~
+@51076 = ~CAPARAZÓN ANTIMAGIA
+Alcance: 0
+Duración: 5 minutos
+Velocidad: 6
+Área de Efecto: 0,30 m de diámetro por nivel
+Tiro de Salvación: Ninguno
+
+En un irónico lance, con este conjuro se erradicará toda la magia en su área efectiva.
+
+Este conjuro rodea al lanzador con un 'caparazón mágico' que anula eficazmente toda magia y todo efecto mágico (objetos mágicos incluidos) dentro de su área de efecto. De ese modo, se bloquea la magia, ¡aunque también se impide el uso de la magia dentro del caparazón! Esto también incluye a diversos ataques especiales como los ataques por aliento, mirada o voz. El conjuro dura 5 minutos y el área de efecto de la esfera es de un tercio de metro por nivel del lanzador.~
+@51077 = ~GLOBO DE INVULNERABILIDAD
+Alcance: 0
+Duración: 5 segundos por nivel
+Velocidad: 6
+Área de Efecto: Radio de 1,5 metros
+Tiro de Salvación: Ninguno
+
+Similar a su conjuro gemelo, Caparazón antimagia, este encantamiento restringe la entrada de cierta magia en sus confines. Pero a diferencia de su conjuro fraterno, este conjuro permite que la magia fluya del interior al exterior.
+
+Este conjuro crea una esfera inmóvil de magia que evita que cualquier conjuro de 1º - 4º nivel la penetre (incluso conjuros de área). Los conjuros de 5º nivel o superior no se ven afectados por el globo. Pero a diferencia del caparazón antimagia, cualquier conjuro puede ser lanzado fuera de la esfera. El globo dura 5 segundos por nivel del lanzador.~
+@51087 = ~PALABRA DE PODER, CEGAR
+Alcance: 4,5 metros por nivel
+Duración: Especial
+Velocidad: 1
+Área de Efecto: Radio de 4,5 metros
+Tiro de Salvación: Ninguno
+
+La capacidad de ver será arrebatada y vendrá la oscuridad.
+
+Este conjuro produce ceguera en criaturas de hasta 100 puntos de golpe dentro de un radio de 4.5 metros / nivel del lanzador desde el punto específico en donde se sitúa el objetivo especificado. La ceguera se propaga excéntricamente, afectando primero a las criaturas con menos puntos de golpe. Aquéllas con más de 100 puntos de golpe no se ven afectadas. La duración de los efectos del conjuro depende del número de puntos de golpe afectados: Si tienen 25 o menos puntos de golpe, la ceguera dura 160-400 segundos. Si tienen entre 26-50 puntos de golpe, la ceguera dura entre 80-200 segundos. Si tienen entre 51-100 puntos de golpe, la ceguera dura entre 16-40 segundos. Una criatura individual no puede ser afectada parcialmente: A menos que se vean afectados todos sus puntos de golpe, no quedará cegada.~
+@51088 = ~CAÑÓN DE MECHANUS
+Alcance: 15 metros
+Duración: Instantáneo
+Velocidad: 8
+Área de Efecto: 1 criatura
+Tiro de Salvación: Ninguno
+
+La justicia lógica y verdadera de Primus se lanzará sobre los ilógicos, cuando la pura energía descienda desde Mechanus.
+
+Este conjuro invoca la forma definitiva de 'ecualización' de Primus: Una descomunal explosión de energía que proviene del mismísimo núcleo de Mechanus y se dispara contra el objetivo seleccionado por el lanzador, mediante un portal. Un portal temporal aparecerá a 3 metros del objetivo y la Justicia Lógica de Mechanus se transmitirá, infligiendo 30-90 puntos de daño, sin tiro de salvación.~
+@51328 = ~MARTILLO ESPIRITUAL
+Alcance: 10 metros por nivel
+Duración: Variable (ver abajo)
+Velocidad: 2
+Área de Efecto: 1 objetivo
+Tiro de Salvación: 1/2 efecto (Reduce el daño a la mitad)
+
+Este conjuro convoca un martillo de energía espiritual para golpear a tus enemigos.
+
+Cuando se lanza, el lanzador elige un objetivo dentro de su radio de acción. El martillo ocasiona 4-10 puntos de daño contundente, por cada tres niveles del lanzador, actuando como un arma +1 (+1 a golpear y +1 al daño), ganando un +1 adicional por cada seis niveles del lanzador, hasta un máximo de +3.~
+@51331 = ~PLEGARIA
+Alcance: 0 (centrado en El lanzador)
+Duración: 5 segundos por nivel
+Velocidad: 3
+Área de Efecto: Radio de 20 metros
+Tiro de Salvación: Ninguno
+
+Este conjuro ayuda a tus aliados y perjudica a tus oponentes.
+
+Este conjuro concede un bonificador + 1 al ataque, daño y a los tiros de salvación a todos los que sean "Amistosos" para el sacerdote. Aquellos que sean "Hostiles" al lanzador sufren -1 en ataque, daño y a los tiros de salvación. Su efecto dura 5 segundos / nivel en un radio de 20 metros.~
+@51332 = ~HABLAR CON LOS MUERTOS
+Alcance: 15 metros
+Duración: Especial
+Velocidad: 3
+Área de Efecto: 1 criatura (muerto viviente)
+Tiro de Salvación: Ninguno
+
+Para comunicarse con los espíritus del más allá.
+
+Este conjuro permite al Sin Nombre iniciar un diálogo con un cuerpo sin vida dentro del alcance del habla.~
+@51335 = ~CURAR HERIDAS CRÍTICAS
+Alcance: 0
+Duración: Permanente / Instantánea
+Velocidad: 5
+Área de Efecto: 1 criatura
+Tiro de Salvación: Ninguno
+
+Este conjuro sana cualquier herida crítica que pueda haber recibido un objetivo.
+
+Restaura 27 puntos de golpe a la criatura seleccionada. Los puntos de golpe restaurados de la criatura no pueden exceder su máximo de puntos de golpe.~
+@51392 = ~BESO DE VÍBORA
+Alcance: 50 metros
+Duración: 5 segundos cada 3 niveles
+Velocidad: 2
+Área de Efecto: 1 criatura
+Tiro de Salvación: Ninguno
+
+Se dice que un beso de víbora puede escaldar incluso al más horrendo de los infernales. Este conjuro hace surgir un virote ácido que baña al oponente con su repugnante ácido verde. Si el lanzador es lo suficientemente habilidoso, el beso de víbora perdura tras el impacto inicial, y sigue penetrando en la piel del oponente con su ácida mordedura.
+
+Cuando se invoca, el lanzador selecciona una víctima cualquiera que esté a menos de 50 metros como máximo y el beso de víbora impactará causando 2-8 puntos de daño por ácido. Por cada tres niveles del lanzador, él ácido permanece 5 segundos más, infligiendo otros 2-8 puntos de daño por ácido / segmentos de 5 segundos.~
+@52798 = ~MANO DE IGNUS
+Permite al usuario copiar "Orbe Infernal" en el Libro de Conjuros
+Alcance: 4,5 metros
+Duración: Especial
+Velocidad: 2
+Área de efecto: 1 criatura
+Tiro de Salvación: Niega el efecto
+Peso: 1
+Sólo lo puede usar el Sin Nombre
+Sólo lo pueden usar los Magos
+
+Ésta es tu mano carbonizada; ha sido cercenada a la altura de la muñeca, y la carne que una vez rodeó al hueso ha sido eliminada limpiamente, dejando sólo los huesos desnudos en su lugar. A pesar de la falta de músculo y de piel, sin embargo, los huesos de la mano se han fusionado impidiendo que se caigan. El dolor de tener la mano separada de ti fue casi más de lo que pudiste soportar, y dejó profundas y ennegrecidas cicatrices en tus muñecas y en tu brazo. Para empeorar las cosas, te percatas de que tu cicatrización ha sido lenta y escasa alrededor de la herida... si Ignus fuera a atacarte con furia, podría ser capaz de reunir tantas llamas y calor que recuperarse de él, sería difícil... ¿podría incluso destruirte, tal vez? Esa idea no te agrada.
+
+Ignus ha insinuado que este resto carbonizado de tu mano mantiene de alguna forma una parte de su poder infernal... ahora transmitido a ti. Para invocar su poder, debes cortarte otra vez la mano, colocar la mano esquelética en su lugar, y permitir que la carne se cicatrice sobre ella. Cuando esto ocurra, los rastros de Ignus que quedan entre los huesos chamuscados 'encenderán' una parte del saber de Ignus en tu interior.~
+@57317 = ~Ves a un viejo ermitaño del subterráneo. Cuando te ve, exclama, "Kyse, el vigilante, me dijo quistarías por aquí. Has hecho un buen trabajo debilitándole... el caos qu'asola esta ciudad está remitiendo, y su plan no'stá funcionando tan bien. Ve arriba y acaba'l trabajo".~
+@59082 = ~Kiri~
+@59821 = ~HOJA ENTRÓPICA
+Daño: 3-23 Contundente
+Encantamiento: +2
+GAC0: +3
+Velocidad: 1
+Peso: 1
+Competencia: Puños
+Sólo la pueden usar los Guerreros y Ladrones
+
+Este extraño objeto llegó a tus manos tras darle el Cubo Modrón al gólem de hierro de la Torre de Asedio. Su aspecto es el de una pequeña daga, pero su superficie se retuerce y se pliega mientras la observas, como si forcejeara por liberarse de su forma.
+
+Parece estar hecha de hierro, plata, y otros metales diferentes. En ocasiones se mezclan entre ellos, y en otras se sumergen hacia el núcleo de la hoja, para resurgir unos minutos más tarde.~
+@59822 = ~HOJA ENTRÓPICA
+Daño: 3-23 Contundente
+Encantamiento: +2
+GAC0: +3
+Velocidad: 1
+Peso: 1
+Competencia: Martillos
+Sólo la pueden usar los Guerreros
+
+Este extraño objeto llegó a tus manos tras darle el Cubo Modrón al gólem de hierro de la Torre de Asedio. Su aspecto es el de una pequeña daga, pero su superficie se retuerce y se pliega mientras la observas, como si forcejeara por liberarse de su forma.
+
+Parece estar hecha de hierro, plata, y otros metales diferentes. En ocasiones se mezclan entre ellos, y en otras se sumergen hacia el núcleo de la hoja, para resurgir unos minutos más tarde.~
+@59823 = ~HOJA ENTRÓPICA
+Daño: 3-23 Contundente
+Encantamiento: +2
+GAC0: +3
+Velocidad: 1
+Peso: 1
+Competencia: Clavas
+Sólo la pueden usar los Guerreros
+
+Este extraño objeto llegó a tus manos tras darle el Cubo Modrón al gólem de hierro de la Torre de Asedio. Su aspecto es el de una pequeña daga, pero su superficie se retuerce y se pliega mientras la observas, como si forcejeara por liberarse de su forma.
+
+Parece estar hecha de hierro, plata, y otros metales diferentes. En ocasiones se mezclan entre ellos, y en otras se sumergen hacia el núcleo de la hoja, para resurgir unos minutos más tarde.~
+@61680 = ~HOJA ENTRÓPICA
+Daño: 3-23 Cortante
+Encantamiento: +2
+GAC0: +3
+Velocidad: 1
+Peso: 1
+Competencia: Hachas
+Sólo la pueden usar los Guerreros
+
+Este extraño objeto llegó a tus manos tras darle el Cubo Modrón al gólem de hierro de la Torre de Asedio. Su aspecto es el de una pequeña daga, pero su superficie se retuerce y se pliega mientras la observas, como si forcejeara por liberarse de su forma.
+
+Parece estar hecha de hierro, plata, y otros metales diferentes. En ocasiones se mezclan entre ellos, y en otras se sumergen hacia el núcleo de la hoja, para resurgir unos minutos más tarde.~
+@61796 = ~No se puede quitar la armadura~ [ANA369C]
+@62305 = ~Morte Taunts 7~ [MRT459A]
+@62321 = ~Morte Taunts 23~ [MRT322AL]
+@66374 = ~ESPADA ZERTH DE DAK'KON ("HOJA FLUYENTE")
+Daño: 5-20 Cortante
+Encantamiento: +3
+Especial:
+   +6 a la Clase de Armadura
+   Dobla todos los Conjuros de Nivel 1 de Mago
+   Dobla todos los Conjuros de Nivel 2 de Mago
+   Memoriza 1 Conjuro Adicional de Nivel 3 de Mago
+GAC0: +3
+Velocidad: 6
+Peso: 5
+Competencia: Con Filo
+Sólo la puede usar Dak'kon
+
+En el Limbo, plano natal de los Githzerai, la materia sólida es una rareza. El Limbo en sí mismo es una espesa masa de elementos, y sólo a través de la fuerza o la voluntad pueden los Githzerai dar forma a estos elementos creando materia estable.
+
+Una sustancia llamada "karach" es un material al que se le puede dar forma con la mente. La espada de Dak'kon está compuesta de esta sustancia; Dak'kon mantiene la integridad de la espada únicamente a través de la disciplina mental. Cuando el espíritu del usuario está concentrado, su mente libre de dudas, y dedicado a un único propósito, la espada reaccionará por sí misma, reflejando los pensamientos de su portador.
+
+Si eso es así, la mente de Dak'kon debe estar ciertamente libre de dudas, porque su espada se ha vuelto de un brillante color plateado. Parece como si su hoja fuese más larga que cuando la viste por primera vez, y no hay rastro del extraño resplandor trémulo que una vez tuvo su superficie. El filo de la espada se adelgaza hasta casi alcanzar el espesor de una fina lámina de papel; a pesar de su frágil apariencia, parece que es capaz de cortar una cota de mallas fácilmente.
+
+Esta espada parece tener un especial significado religioso para Dak'kon. Éste ha envuelto la empuñadura de la espada con una serie de pergaminos. Parecen ser plegarias consagradas a Zerthimón.~
+@66375 = ~ESPADA ZERTH DE DAK'KON ("ESPADA ESLABONADA")
+Daño: 5-20 Cortante
+Encantamiento: +3
+Especial:
+   +3 a la Clase de Armadura
+   Dobla Todos los Conjuros de Nivel 1 de Mago
+   Dobla Todos los Conjuros de Nivel 2 de Mago
+GAC0: +3
+Velocidad: 6
+Peso: 5
+Competencia: Con Filo
+Sólo la puede usar Dak'kon
+
+En el Limbo, plano natal de los Githzerai, la materia sólida es una rareza. El Limbo en sí mismo es una espesa masa de elementos, y sólo a través de la fuerza o la voluntad pueden los Githzerai dar forma a estos elementos creando materia estable.
+
+Una sustancia llamada "karach" es un material al que se le puede dar forma con la mente. La espada de Dak'kon está compuesta de esta sustancia; Dak'kon mantiene la integridad de la espada únicamente a través de la disciplina mental. Él puede variar levemente su forma dependiendo de su habilidad, ajustando su longitud y el filo de su hoja. Probablemente según vaya ganando niveles, será capaz de manipular la espada de nuevas maneras.
+
+No se sabe si todos los zerth Githzerai llevan tales armas. Ciertamente, un arma que depende de la integridad de su portador debería confiarse tan sólo a aquellos que han llegado a dominar la auto-disciplina.
+
+Esta espada parece tener un especial significado religioso para Dak'kon. Éste ha envuelto la empuñadura de la espada con una serie de pergaminos. Parecen ser plegarias consagradas a Zerthimón.~
+@106498 = ~This is a placeholder to prevent a string with a sound file from becoming strref 106498, which causes problems.~ []

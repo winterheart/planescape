@@ -1,0 +1,514 @@
+//===============================================================================
+// Qwinn's Ultimate WEIDU Planescape: Torment Fixpack
+//===============================================================================
+
+
+// All dialog fixes for bugs fixed in Platter's Fixpack 1.37 are at the following file:
+
+COMPILE ~PST-Fix/dlg/PFixpack.d~
+
+// The remainder of -this- include file fixes non-dialogue issues.
+
+
+//===============================================================================
+// Platter's Fixpack 1.37 Section (non-dialogue fixes only)
+//===============================================================================
+
+
+
+// FILE FORMAT:
+// For each fix, I list:
+
+// 1.  The bug as described in the Readme for Platter's Fixpack 1.37.   As of this writing (05/09/2008)
+// that Readme can be found online at:  http://planescape.outshine.com/.  Much credit goes to the
+// Platter's Fixpack team for compiling such useful and well organized documentation of their work,
+// and of course for the work itself.
+
+// 2.  CREDIT = the coder who originally dealt with the bug.  All fixes in this file were originally
+// referenced in Platter's Fixpack 1.37 Readme, but that Fixpack had many authors, and I extend the
+// credit to whichever author Platter's readme did.  Note that the credit goes to that author for
+// originally documenting and fixing the bug via Near Infinity or some other tool, but all WeiDU work
+// and almost all code written in this file was written solely by Qwinn.  If I ever directly implement
+// their scripting, I give extra credit when the bug is listed.  FULL credit to the original authors
+// goes to BAM (graphic) files, as I did no work on them.
+
+// 3.  Qwinn's Notes.  Not all fixes include this, because quite often the fix was pretty straightforward.
+// If I have any comments about the fix, I include it here.  Find all that noteworthy stuff by just
+// searching for Qwinn right after this paragraph.
+
+// 4.  WeiDU code fixing the bug.
+
+
+
+
+// Fixpack: "The Alley of Lingering Sighs was supposed to open up once you reached the Lower
+// Ward, so you could go directly from the Alley to the Lower Ward if you ever went back there."
+// CREDIT:  Platter, Ash McGowen - extra credit, as their script is used here
+COPY_EXISTING ~AR0405.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~IF
+  Vacant()
+  Global("Pregnant_Quest","GLOBAL",4)
+THEN
+  RESPONSE #100
+    GlobalSet("Alley_Door","AR0405",1)
+    GlobalSet("Pregnant_Quest","GLOBAL",5)
+END
+
+IF
+  Global("Alley_Door","AR0405",1)
+THEN
+  RESPONSE #100
+    OpenDoor("AR0405D1")
+    GlobalSet("Alley_Door","AR0405",0)
+END~ ~~
+
+    REPLACE_TEXTUALLY
+      ~GlobalSet("Pregnant_Quest","GLOBAL",4)~
+      ~OpenDoor("AR0405D1")~
+
+    REPLACE_TEXTUALLY
+~IF
+  Global("Pregnant_Quest","GLOBAL",3)~
+~IF
+  Global("Pregnant_Quest","GLOBAL",3)
+ !GlobalGT("AR0500_Visited","GLOBAL",0)~
+
+  COMPILE_BAF_TO_BCS
+  BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "If you had any Magic Resistance while copying the Circles of Zerthimon to your spell
+// book the copying would have a chance to fail equal to your Magic Resistance percentage."
+// CREDIT:  Ash McGowen
+COPY_EXISTING ~CIRCLE03.ITM~ ~override~
+              ~CIRCLE04.ITM~ ~override~
+              ~CIRCLE05.ITM~ ~override~
+              ~CIRCLE06.ITM~ ~override~
+              ~CIRCLE07.ITM~ ~override~
+              ~CIRCLE08.ITM~ ~override~
+   READ_LONG 0x6a "EffectsOffset"
+   WRITE_BYTE ("EffectsOffset" + 0xd) 0
+  BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "You couldn't initiate dialog with half of the shoppers in the Lower Ward Marketplace."
+// CREDIT:  Platter
+COPY_EXISTING ~AR0504.INI~ ~override~
+   REPLACE_TEXTUALLY ~dmcf1~ ~dmcf1HLP~
+   REPLACE_TEXTUALLY ~dmcf2~ ~dmcf2NUE~
+   REPLACE_TEXTUALLY ~dmcf3~ ~dmcf3ANG~
+   REPLACE_TEXTUALLY ~dmcf4~ ~dmcf4CLU~
+   REPLACE_TEXTUALLY ~dmcm1~ ~dmcm1HLP~
+   REPLACE_TEXTUALLY ~dmcm2~ ~dmcm2NUE~
+   REPLACE_TEXTUALLY ~dmcm3~ ~dmcm3ANG~
+   REPLACE_TEXTUALLY ~dmcm4~ ~dmcm4CLU~
+  BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "Mortai Gravesend had Emoric's script assigned to him, so the floating text that would
+// occasionally appear above him was wrong."
+// CREDIT:  Platter
+COPY_EXISTING ~AR0205.ARE~ ~override~
+   LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+   WRITE_ASCII "Q_Off_Actor" + ("Q_Siz_Actor" * 4) + 0x58 ~0205MTAI~ #8
+  BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack:  "Vrischika's combat script would be halted if Standish was killed before she could cast
+// Improved Strength on him."
+// CREDIT:  Ash McGowen.
+COPY_EXISTING ~0609VRIS.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+   REPLACE_TEXTUALLY
+~Internal(Myself,INTERNAL_1,2)~
+~Internal(Myself,INTERNAL_1,2)
+  Dead("Standish")  // Standish
+THEN
+  RESPONSE #100
+    IncInternal(Myself,INTERNAL_1,1)
+END
+
+IF
+  Internal(Myself,INTERNAL_1,2)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "The "Blade of the Immortal" was supposed to be Enchanted: +1, but it was not Enchanted at all."
+// CREDIT:  Ash McGowen
+COPY_EXISTING ~BLADEIM.ITM~ ~override~
+  WRITE_BYTE 0x60 1
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "Changed the To Hit bonus given by "Ravel's Fingernail" from +1 to +2, to match its description."
+// CREDIT:  Platter
+COPY_EXISTING ~FINGNAIL.ITM~ ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_BYTE "AbilityOffset" + 0x14 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "The "Teeth of the Fire Drake" didn't do any Fire Damage as its description claimed."
+// CREDIT:  Platter
+COPY_EXISTING ~FDTEETH.ITM~ ~override~
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_BYTE ("EffectsOffset" + (0x30 * 2) + 0x2) 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "Changed the AC bonus given by "Mark of the Savant" from +3 to +2, to match its description."
+// CREDIT:  Platter
+COPY_EXISTING ~SAVANT.ITM~ ~override~
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_BYTE "EffectsOffset" + 0x4 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "Changed the Strength bonus given by "Heaven and Earth" from +3 to +2, to match its description."
+// CREDIT:  Platter
+COPY_EXISTING ~HEAVEN.ITM~ ~override~
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_BYTE "EffectsOffset" + 0x4 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "The "Kaleidoscopic Eye" didn't give an extra +1 Save vs. Spells bonus."
+// CREDIT:  Platter
+COPY_EXISTING ~EYEKAL.ITM~ ~override~
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_BYTE ("EffectsOffset" + (0x30 * 4) + 0x4) 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "The "Dustman Earring's" Cold and Magical Cold Resistance bonuses did not work."
+// CREDIT:  Ash McGowen
+COPY_EXISTING ~DUSTEAR.ITM~ ~override~
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_BYTE ("EffectsOffset" + (0x30 * 2) + 0xc) 2
+  WRITE_BYTE ("EffectsOffset" + (0x30 * 3) + 0xc) 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "Minor bug where the Guard in the Curst Barracks wouldn't finish his joke about
+// "the monkey, the squirrel and the pouch of magic beans.""
+// CREDIT:  Ash McGowen.  Restoration Pack also fixed.
+COPY_EXISTING ~3001GRD5.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~PlaySequence(ANIM_ATTACK)
+    FloatMessage(Myself,54036)~
+~PlaySequence(ANIM_ATTACK)
+    FloatMessage(Myself,54035)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "When the skeleton-like Shadows in Ravel's Maze attacked it would drain their own
+// strength instead of their target's strength."
+// CREDIT:  Platter
+COPY_EXISTING ~SHADOW2.ITM~ ~override~
+  READ_LONG 0x6a "EffectsOffset"
+  WRITE_BYTE ("EffectsOffset" + 0x2) 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "The comments Annah and Grace make when you first enter Fell's Tattoo Parlor with
+// them no longer happen if they are dead."
+// CREDIT:  Ash McGowen.  Restoration Pack also fixed it, for the record.
+// REMOVED in v4.0.  Turns out this is unnecessary.  The bug could happen in version 1.0, which
+// only used the Exists() trigger.  The 1.1 patch replaced it with InParty(), which is sufficient
+// to properly detect if the PC in that circumstance is dead, making the !Dead check redundant.
+/*
+COPY_EXISTING ~0404FELL.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~InParty("Grace")~  ~InParty("Grace") !Dead("Grace")~
+    REPLACE_TEXTUALLY ~InParty("Annah")~  ~InParty("Annah") !Dead("Annah")~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+*/
+
+
+// Fixpack: "The "Ice Knife" spell caused a permanent decrease in To Hit when a party
+// member was hit by it which lasted until the character was killed and resurrected. This
+// fix prevents the To Hit effect of "Ice Knife" from working on your party at all."
+// CREDIT:  Ash McGowen
+// Qwinn:  I do outright copies of -very- few files in the Fixpack.  This happens to be 2 of
+// them.  Ash McGowen deserves full credit here, this is a straight copy.
+// VERSION 4.0:  Removed.  This caused a much bigger problem - these versions applied an
+// "Immunity to Effect" as part of the spell that made the target immune to "Base THACO Bonus".
+// Unfortunately, most magical weapons in the game apply their bonus using the same effect,
+// so these versions made you unable to get any benefit from THACO boosting weapons until you
+// were killed or resurrected. 
+// COPY ~PST-Fix/copy/SPWI207.ITM~ ~override~
+//      ~PST-Fix/copy/SPWI207.SPL~ ~override~
+
+// Fixpack: "Nordom's Crossbows were red like items are when you cannot use them."
+// CREDIT:  Ash McGowen:
+COPY_EXISTING ~NORDXBOW.ITM~ ~override~
+  WRITE_BYTE 0x1e 0
+  WRITE_BYTE 0x1f 0
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "Changed the name of the Shadows in the Fortress from "Greater Shadow" to "True
+// Shadow" like they are in the Bestiary."
+// CREDIT:  Platter
+COPY_EXISTING ~SHADOW3.CRE~  ~override~
+              ~FORTSHAD.CRE~ ~override~
+  WRITE_LONG 0x8 32486
+  WRITE_LONG 0xc 32486
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack:  "Fixed an error in The Apothecary and Vrischika's Curiosity Shop that may
+// be related to those areas crashing more often than others."
+// CREDIT:  Platter
+// QWINN:  Have to copy these outright, as the 2 CD version does not allow them to be edited.
+// COPY_EXISTING ~AR0609.WED~ ~override~
+//              ~AR0612.WED~ ~override~
+//  WRITE_SHORT 0x22 13
+// BUT_ONLY_IF_IT_CHANGES
+// VERSION 2.00:  Added text to not copy them if they already exist in the override directory,
+// for compatibility with Widescreen mod.
+ACTION_IF NOT FILE_EXISTS ~override/AR0609.WED~ THEN
+  BEGIN COPY ~PST-Fix/copy/AR0609.WED~ ~override~ END
+ACTION_IF NOT FILE_EXISTS ~override/AR0612.WED~ THEN
+  BEGIN COPY ~PST-Fix/copy/AR0612.WED~ ~override~ END
+
+// Fixpack:  "A few of the thugs outside the Mortuary area had a piece of the Dabus' script
+// in theirs, causing the Lady to get angry if you fought them as though you'd attacked a Dabus."
+// CREDIT:  Platter
+COPY_EXISTING ~0200THG1.BCS~ ~override~
+              ~0200THG2.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~GlobalSet("Enemy_Dabus","GLOBAL",1)~ ~~
+    REPLACE_TEXTUALLY ~IncrementGlobal("Lady","GLOBAL",5)~ ~~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "Annah in the Hive outside the Mortuary at the beginning of the game would say
+// things to any party member who walked by that were meant to be said only to the Nameless One."
+// CREDIT: Chaos Incarnate
+// Qwinn:  Implementing the bit in that description, but not including the stealth changes to the
+// timers that were made, I had bad results with them.
+// Fixpack 3.0 : SKARDAVNELNATE pointed out I missed changing the FaceObject to Nameless.  Added
+// EXACT_MATCH also to eliminate the need for the escape slashes.
+COPY_EXISTING ~0200ANNA.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY EXACT_MATCH
+~IF
+  See([PC])
+THEN
+  RESPONSE #100
+    FaceObject([PC])~
+~IF
+  See("Nameless")
+THEN
+  RESPONSE #100
+    FaceObject("Nameless")~
+   REPLACE_TEXTUALLY EXACT_MATCH
+~IF
+  See([PC])
+  Range([PC],30)
+THEN~
+~IF
+  See("Nameless")
+  Range("Nameless",30)
+THEN~
+  REPLACE_TEXTUALLY
+~True()~
+~!See("Nameless")~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack:  "The arrows on the Rotating Right-Click Menu were misplaced by one pixel."
+// CREDIT:  Platter - extra credit as I am simply copying the .BAM files, I did no work on them.
+COPY ~PST-Fix/copy/AMSCRLL.BAM~ ~override~
+     ~PST-Fix/copy/AMSCRLR.BAM~ ~override~
+
+// Fixpack:  "If you attacked Aethelgrin or Tegar'in in the Smoldering Corpse Bar the other
+// would just stand there and remain neutral because a bug in their scripts would prevent them
+// from defending each other."
+// CREDIT:  Platter
+COPY_EXISTING ~0402ATHL.BCS~ ~override~
+              ~0402TEGR.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Allegiance(LastAttackerOf(LastHelp),PC)~ ~~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "If you attacked the "Vault of the Ninth World" head it would initiate dialog with
+// you but it would just say its normal greeting. It should have been a special dialog that
+// said "Pardon me. Please do not attack the head."
+// CREDIT:  Platter
+// Qwinn:  This fixes the bug partially, Restoration Pack finishes off the fix
+COPY_EXISTING ~0510VALT.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~Internal(Myself,INTERNAL_0,0)~ ~Global("Vault_Attack","GLOBAL",0)~
+    REPLACE_TEXTUALLY ~SetInternal(Myself,INTERNAL_0,1)~ ~SetGlobal("Vault_Attack","GLOBAL",1)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack:  The item "Adder's Tear" had its 'drop sound' - the sound when you pick it up and
+// drop it in the inventory screen - typed incorrectly and thus it didn't play."
+// CREDIT:  Platter
+COPY_EXISTING ~ADDRTEAR.ITM~ ~override~
+  WRITE_ASCII 0x10 ~Z_GEN2B~ #8
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack:  "One of the "multi-faceted globes" in the Fortress would say Deionarra's line"
+// "I shall wait for you in death's halls, my Love." including the sound, if you clicked on it."
+// CREDIT:  Platter
+COPY_EXISTING ~AR1201.ARE~ ~override~
+  LAUNCH_PATCH_MACRO ~Q_ARE_InitVars~
+  WRITE_LONG ("Q_Off_Trigg" + ("Q_Siz_Trigg" * 12) + 0x64) 49583
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack:  "One of the versions of Adahn's Ring had the wrong graphic if you put it in a
+// Quick Item slot and looked at it in the Rotating Right-Click Menu."
+// CREDIT:  Platter
+COPY_EXISTING ~ADRING.ITM~ ~override~
+  READ_LONG 0x64 "AbilityOffset"
+  WRITE_ASCII "AbilityOffset" + 0x4 ~II141~ #8
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack:  "A patron of the Smoldering Corpse would look at Ignus' grill and say "That looks
+// like it really hurts." even if Ignus was no longer there."
+// CREDIT:  Platter
+COPY_EXISTING ~0402PTN1.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~!Global("Ignus","GLOBAL",1)~
+~!Dead("Ignus")
+Global("Ignus","GLOBAL",0)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack:  "Some of the Hive Thugs' scripts were not being assigned properly."
+// CREDIT:  Platter
+COPY_EXISTING ~0000NT.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~IF
+  Global("Current_Area","GLOBAL",300)
+THEN
+  RESPONSE #100
+    ChangeAIScript("0400nt",GENERAL)
+END~
+~IF
+  Global("Current_Area","GLOBAL",400)
+THEN
+  RESPONSE #100
+    ChangeAIScript("0400nt",GENERAL)
+END~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "You could still get into the Siege Tower if you had already given Coaxmetal
+// the Cube or had been banned for not giving it to him."
+// CREDIT:  Platter - extra credit as the small script appended here was untouched by me
+<<<<<<<< .../inlinedfile/coaxport.baf
+IF
+  Global("Coaxmetal","GLOBAL",5)
+THEN
+  RESPONSE #100
+    ActivatePortalCursor("to0501",0)
+    EnablePortalTravel("to0501",0)
+    Continue()
+END
+>>>>>>>>
+EXTEND_BOTTOM ~0500TRG1.BCS~ ~.../inlinedfile/coaxport.baf~
+
+// Fixpack: "The Hammer would cause a slight trail when moving it in the inventory screen."
+// CREDIT:  Platter - extra credit as I am simply copying the .BAM file, I did no work on it.
+COPY ~PST-Fix/copy/II091.BAM~ ~override~
+
+// Fixpack:  "The game would sometimes freeze when you decided to become the Silent King."
+// CREDIT:  Platter
+
+COPY_EXISTING ~1501ATTA.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~IF
+  Global("Took_Throne","GLOBAL",1)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END~ ~~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~1501HARG.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~IF
+  Global("Took_Throne","GLOBAL",1)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END~ ~~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~1501CS1.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~("Hargrim",\[ANYONE\],DEFAULT)~ ~("","Hargrim",DEFAULT)~
+    REPLACE_TEXTUALLY ~("StaleMa",\[ANYONE\],DEFAULT)~ ~("","StaleMa",DEFAULT)~
+// SKARDAVNELNATE pointed out I missed the following replace, added in version 3.0
+    REPLACE_TEXTUALLY EXACT_MATCH ~MoveViewPoint([1040.965],VERY_FAST)~ ~MoveViewPoint([1040.858],VERY_FAST)~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~1501CS4.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY ~EnableSpriteDither()~ ~~
+    REPLACE_TEXTUALLY ~EnableFogDither()~ ~~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// FixPack: "The Negative Token wouldn't work on the skeleton-like Shadows in Ravel's Maze."
+// CREDIT:  Ash McGowen
+COPY_EXISTING ~NTOKEN.ITM~ ~override~
+  WRITE_SHORT 0x104 2
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack: "Turning on "Creative EAX" in "Audio Options" would cause party members' voices
+// to be lowered/muted."
+// CREDIT: Platter.  Full credit as I am just copying the 2DA file
+// EDIT 08/27/08:  The above documentation for this fix was obsolete before even version 1.0 came out, I
+// just forgot to update it.  Platter's fix, which just adjusted the volume settings in the 2DA file,
+// was definitely a good step, but still insufficient to solve the sound problems I was experiencing.
+// I actually wound up tweaking all of the parameters, so my version is substantially different.
+COPY ~PST-Fix/copy/REVERB.2DA~ ~override~
+
+// See PFixpack.d for info on the Overchatty Morte sound fix.  I'm implementing the fix that will
+// prevent the bug (via DLG fixes), but not the fix removing it if it's already happened
+// (because that fix is to eliminate the sound file altogether, which makes for an
+// excessively quiet Morte, and it should rarely be an issue with Ultimate Fixpack installs).
+
+//================================ FIXPACK BETA 1.38 ==========================================
+
+// Fixpack Beta Readme:  1501HARG.BCS (Hargrimm & The Silent King) - Repairs the Silent King
+// bug in Fix Pack 1.37, which can cause Hargrimm and the Skeleton Guards to turn hostile even
+// after Hargrimm has agreed to let you leave in peace.
+// CREDIT:  SKARDAVNELNATE for the ultimate correct fix to this bug
+COPY_EXISTING ~1501HARG.BCS~ ~override~
+  DECOMPILE_BCS_TO_BAF
+    REPLACE_TEXTUALLY
+~GlobalSet("1501_Undead_Alert","GLOBAL",1)
+    Spell(Myself,CLERIC_CURE~
+~SetGlobal("1501_Undead_Alert","GLOBAL",0)
+    Spell(Myself,CLERIC_CURE~
+  COMPILE_BAF_TO_BCS
+ BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack Beta Readme:  AR0500.BCS (Lower Ward) - Repairs the Mar's Ornate Box Quest bug:
+// if you enter the Lower Ward after you have already gotten rid of the cursed box but not
+// yet gotten back to Mar, then the only dialog choice you have is to tell him that you
+// have been outside the Hive with the box he gave you.
+// Qwinn:  I fixed this in a different way, by just tweaking Mar's dialogue, see QwinnFix.d
+// for details.
+
+// Fixpack Beta Readme:  M3CTEETH.ITM, M3PTEETH.ITM (Ingress' Teeth +3) - Repairs an
+// incorrect parameter, which prevents Ingress's Teeth +3 from paralyzing enemies with
+// crushing or piercing attack.
+// Qwinn:  The change is almost unnoticable, to the second effect of the first item ability,
+// changing a 255 to a 0.  I'm not sure about this change, as it sets it to an "Unknown value",
+// and the original value seems more logical - 255 Enemy.  Disabling for now, will see if
+// I can duplicate the issue of effect not working
+// COPY_EXISTING ~M3CTEETH.ITM~ ~override~
+//               ~M3PTEETH.ITM~ ~override~
+//   READ_LONG 0x6a "EffectOffset"
+//   WRITE_LONG ("EffectOffset" + (2 * 0x30) + 0x4) 0x0
+//  BUT_ONLY_IF_IT_CHANGES
+
+// Fixpack Beta Readme:  LENS11.ITM (Optix) - Repairs Nordom's Optix lens and allows the use
+// of its "Knock" ability.
+// Qwinn:  Cannot find any difference in NI between the original and the fixpack beta version

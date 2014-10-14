@@ -1,0 +1,575 @@
+@-1000= "Le mod %TP2_FILE_NAME% contient"
+@-1001= "composants optionnels distincts.
+Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
+au niveau general plutot que de repondre aux questions pour chacun.
+"
+@-1002= "Que faut-il faire de tous les composants qui NE sont PAS ENCORE installes ?
+Les [I]nstaller, les [S]auter, dem[A]nder pour chacun ? "
+@-1003= "Que faut-il faire de tous les composants qui sont DEJA installes ?
+Les [R]einstaller, les s[U]pprimer, les [S]auter, dem[A]nder pour chacun ? "
+
+@-1004= "S'IL VOUS PLAIT, envoyez par e-mail le fichier"
+@-1005= "a"
+
+@-1006= "Installer le composant ["
+@-1007= "] ?
+[R]einstaller, co[N]server, s[U]pprimer ou [Q]uitter ? "
+@-1008= "] ?
+[I]nstaller, [N]e pas installer ou [Q]uitter ? "
+
+@-1009= "Entrez une partie du nom du module : "
+
+@-1010= "Reinstallation du composant ["
+@-1011= "] "
+@-1012= "Reinstallation dans la langue"
+
+@-1013= "Suppression de l'ancienne installation de ["
+@-1014= "] au prealable..."
+@-1015= "SUPPRESSION REUSSIE DE L'ANCIEN"
+
+@-1016= "Installation en cours"
+@-1017= "ERREUR pendant l'installation de ["
+@-1018= "], retour a l'etat anterieur"
+@-1019= "INSTALLATION REUSSIE"
+@-1020= "Saute"
+@-1021= "Suppression de ["
+@-1022= "] (composant #"
+@-1023= ")"
+@-1024= "SUPPRESSION REUSSIE DE ["
+
+@-1025= "] ?
+[R]einstaller, co[N]server, s[U]pprimer, [Q]uitter ou choisir un parmi :"
+@-1026= "] ?
+[N]e pas installer, [Q]uitter ou choisir un parmi :"
+@-1027= " (installe actuellement)"
+
+@-1028= "Souhaitez-vous afficher les composants de ["
+@-1029= "] ?
+[Y]Oui, [N]on ? "
+
+@-1030= "] ?
+choisir un parmi :"
+@-1031= "] ?
+[R]einstaller, co[N]server, [Q]uitter ou choisir un parmi :"
+@-1032= "INSTALLATION ECHOUEE A CAUSE D'ERREURS"
+@-1033= "INSTALLATION AVEC DES ALERTES"
+@-1034= "Souhaitez-vous afficher les instructions (ReadMe) ? [Y]Oui [N]on"
+@-1035= "Dans la langue"
+
+@-1036= "Saute le GROUPE ["
+@-1037= "] pour cause d'absence des pre-requis."
+
+@-1038= "dem[A]nder pour chaque composant, tout [S]auter, ou choisir une selection pre-definie :"
+@-1039= "dem[A]nder pour chaque composant, [R]einstaller la configuration courante, tout s[U]pprimer, tout [S]auter, ou choisir une selection pre-definie :" 
+@-2000= "Visualiser le fichier Lisez-moi"
+@-2001= "Voulez-vous consulter le fichier Lisez-moi ? [Y] Oui ou [N]on :"
+@00001 = ~PS:T Ultimate WeiDU Fixpack, par Qwinn~ []
+@00002 = ~Corrections des dialogues, de l'orthographe et de la grammaire (anglais seulement)~ []
+@00003 = ~Composant passe car la langue choisie n'est pas l'anglais~
+@00004 = ~Sous-titres des cinematiques~
+@00005 = ~Le composant Sous-titres des cinematiques a besoin du PS:T Ultimate WeiDU Fixpack.~
+@00100 = ~La femme hoche la tête et s'enfuit précipitamment. Tu ne t'attends pas à la revoir.~ []
+@00101 = ~"Au fait, qu'est-ce que tu es, Morte ? Tu n'en as jamais parlé."~ [FFG121]
+@00102 = ~Infiltre les Sensats pour les Anarchistes : "Je suis prêt. Je veux devenir un Sensat."~
+@00103 = ~Infiltre les Sensats pour les Anarchistes : "Je suis prêt à rejoindre la Société des Sensations. Je ne ressens plus aucune loyauté envers les Hommes-Dieux."~
+@00104 = ~Infiltre les Sensats pour les Anarchistes : "Je suis prêt à rejoindre la Société des Sensations. Je ne ressens plus aucune loyauté envers les Hommes-Poussière."~
+@00105 = ~Infiltre les Sensats pour les Anarchistes : "Je suis prêt à rejoindre la Société des Sensations. Je ne ressens plus aucune loyauté envers les Xaositectes."~
+@00106 = ~Infiltre les Hommes-Poussière pour les Anarchistes : "S'il faut qu'il en soit ainsi, qu'il en soit ainsi. Mon esprit doit être en accord avec lui-même, pas avec celui d'un autre. A partir de maintenant, je renonce aux croyances des Hommes-Dieux."~
+@00107 = ~Infiltre les Hommes-Poussière pour les Anarchistes : "S'il faut qu'il en soit ainsi, qu'il en soit ainsi. Mon esprit doit être en accord avec lui-même, pas avec celui d'un autre. A partir de maintenant, je renonce aux... euh, 'croyances' des Chaoteux."~
+@00108 = ~Infiltre les Hommes-Poussière pour les Anarchistes : "S'il faut qu'il en soit ainsi, qu'il en soit ainsi. Mon esprit doit être en accord avec lui-même, pas avec celui d'un autre. A partir de maintenant, je renonce aux croyances des Sensats."~
+@00109 = ~Infiltre les Chaoteux pour les Anarchistes : "Alors... c'est quoi la prochaine étape ?"~
+@00110 = ~Infiltre les Chaoteux pour les Anarchistes : "Moi d'accord pour rejoindre les Xaositectes. Aucune loyauté envers ancienne faction des Hommes-Dieux moi avoir."~
+@00111 = ~Infiltre les Chaoteux pour les Anarchistes : "Moi d'accord pour rejoindre les Xaositectes. Aucune loyauté envers ancienne faction des Hommes-Poussière moi avoir."~
+@00112 = ~Infiltre les Chaoteux pour les Anarchistes : "Moi d'accord pour rejoindre les Xaositectes. Aucune loyauté envers ancienne faction des Sensats moi avoir."~
+@00113 = ~"Bon sang, Vhailor, tu réalises ce que tu as fait ?!"~
+@00114 = ~Vhailor se détourne du corps de Trias pour te faire face. *Tu es MISERICORDIEUX et FAIBLE. DURCIS ton coeur avant que la maladie ne s’étende*.~ [VHA013]
+@00115 = ~Infiltre les Hommes-Poussière pour les Anarchistes : "Oui."~
+@00498 = ~ORBE INFERNAL
+Portée : 15 mètres
+Durée : Spéciale
+Vitesse : 2
+Zone d'effet : 1 créature
+Jet de sauvegarde : annulé.
+
+Cette sphère de feu rouge affaiblit et ralentit l'ennemi.
+
+Le Mage fait apparaître un orbe de couleur rouge feu, qu'il peut ensuite lancer sur la cible de son choix (en utilisant son TAC0 normal, à +3 pour toucher). L'orbe inflige 1-6 points de dégâts et la victime perd 1 point de Force et de Dextérité pendant 10 secondes.~ []
+@00950 = ~"C'est ici que l'on apporte les morts qui doivent être enterrés ou incinérés. Il est de notre devoir, en tant qu'Hommes-Poussière, de nous occuper des morts, ceux qui ont quitté cette ombre de vie et pris le chemin de la Vraie Mort." Dhall baisse le ton ; il se fait du souci pour toi. "Tes blessures t'ont fait payer un lourd tribut si tu ne reconnais pas ce lieu. C'est presque chez toi."~ []
+@10605 = ~Distrais-la pour empoisonner son verre : "Hé, qu'est-ce que c'est, là-bas ?"~
+@26067 = ~LAME D'ENTROPIE
+Dégâts : 3-23 Perforants
+Enchanté : +2
+TAC0 : +3
+Vitesse : 1
+Poids : 1
+Compétence : Armes tranchantes
+Non utilisable par les Prêtres
+
+Cet étrange objet se trouvait en ta possession après que tu eus donné le cube modrone au golem de fer dans la Tour de Siège. On dirait une petite dague, mais elle ne cesse de se tortiller sous tes yeux, comme si elle tentait d'échapper à la forme qu'on lui a donnée.
+
+Elle semble constituée de fer, d'argent, et de nombreux autres métaux encore. Parfois, ils fusionnent tous mais, à d'autres moments, certains semblent disparaître à l'intérieur de la lame pour mieux ressurgir quelques instants plus tard.~
+@30022 = ~LAME ZERTH DE DAK'KON ("LAME RUISSELANTE")
+Dégâts : 2-9 Tranchants
+Enchanté : +1
+Spécial :
+   +2 à la Classe d'armure
+   Permet de mémoriser 2 sorts supplémentaires de niveau 1
+TAC0 : +1
+Vitesse : 7
+Poids : 5
+Compétence : Armes tranchantes
+Utilisable uniquement par Dak'kon
+
+Dans les Limbes, plan natal des githzeraïs, la matière solide est une chose rare. Les Limbes elles-mêmes sont une soupe élémentaire que les githzeraïs réussissent à stabiliser par la seule force de leur volonté.
+
+La substance dénommée "karach" peut être façonnée par l'esprit. La lame de Dak'kon est composée de cette substance ; par sa seule force mentale, Dak'kon maintient la forme de la lame. Tant qu'il est concentré et que le doute n'a pas prise sur son esprit, l'épée se transforme en conséquence, reproduisant l'état d'esprit de son maître.
+
+Dans ce cas, Dak'kon doit avoir l'esprit extrêmement clair, car son épée semble désormais en argent massif. Elle est plus longue que tout à l'heure, et l'aspect trouble de sa surface a totalement disparu. Elle est d'une finesse inouïe mais, bien que d'aspect fragile, il ne fait aucun doute qu'elle peut transpercer n'importe quelle armure avec une aisance déconcertante.
+
+Cette lame semble avoir une signification religieuse particulière pour Dak'kon. Il a enroulé une série de parchemins autour du manche de la lame. Ce sont des mantras dédiés à Zerthimon.~
+@32837 = ~Salle d'embaumement.~
+@37091 = ~Cible immunisée contre cette arme [Grace]~ [FFG173E]
+@48157 = ~"Sujet en grande conversation avec humain de sexe féminin."~ []
+@48158 = ~"Sujet en train de jouer avec humain de sexe féminin."~ []
+@48854 = ~PARCHEMIN DE MARTEAU SPIRITUEL
+Permet de jeter "Marteau spirituel"
+Niveau : 2 / Prêtre
+Portée : 10 mètres par niveau
+Durée : Variable (voir ci-dessous)
+Vitesse : 2
+Zone d'effet : 1 cible
+Jet de sauvegarde : 1/2
+Poids : 0
+Utilisable uniquement par les Prêtres
+
+Ce sort fait apparaître un marteau mystique te permettant de frapper tes adversaires.
+
+Une fois l'incantation achevée, choisis ta cible. Le marteau inflige 4-10 points de dégâts de type écrasant à chaque coup. Il est considéré comme une arme +1 (+1 au jet d'attaque, +1 aux dégâts) et son bonus augmente d'un point tous tes six niveaux, jusqu'à un maximum de +3.~ []
+@48964 = ~PARCHEMIN DE PRIERE
+Permet de jeter "Prière"
+Niveau : 3 / Prêtre
+Portée : 0 (centrée sur le jeteur de sorts)
+Durée : 5 secondes par niveau
+Vitesse : 3
+Zone d'effet : 20 mètres de rayon
+Jet de sauvegarde : Aucun
+Poids : 0
+Utilisable uniquement par les Prêtres
+
+Ce sort aide tes alliés et handicape tes adversaires.
+
+Prière confère un bonus de +1 aux jets d'attaque, de dégâts et de sauvegarde de tous ceux qui se montrent "Amicaux" avec le personnage. A l'inverse, ceux qui se montrent "Hostiles" envers lui subissent un malus de -1. Le sort dure 5 secondes par niveau et affecte toutes les créatures situées dans un rayon de 20 mètres.~ []
+@48966 = ~PARCHEMIN DE COMMUNICATION AVEC LES MORTS
+Permet de jeter "Communication avec les morts"
+Niveau : 3 / Prêtre
+Portée : 15 mètres
+Durée : Spéciale
+Vitesse : 3
+Zone d'effet : 1 créature (morte)
+Jet de sauvegarde : Aucun
+Poids : 0
+Utilisable uniquement par les Prêtres
+
+Sert à communiquer avec l'esprit des morts.
+
+Ce sort permet à Sans-nom de dialoguer avec n'importe quel mort suffisamment proche de lui.~ []
+@49059 = ~PARCHEMIN DE SOINS DES BLESSURES CRITIQUES
+Permet de jeter "Soins des blessures critiques"
+Niveau : 5 / Prêtre
+Portée : 0
+Durée : Permanente/instantanée
+Vitesse : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde : Aucun
+Poids : 0
+Utilisable uniquement par les Prêtres
+
+Ce sort permet de refermer une plaie béante.
+
+Le sujet récupère 27 points de vie, sans que cela lui permette de dépasser son maximum.~ []
+@49073 = ~PARCHEMIN D'IDENTIFICATION
+Permet de jeter "Identification"
+Permet de copier "Identification" dans son livre de sorts
+Niveau : 1 / Mage
+Portée : 1 objet
+Durée : Instantanée
+Vitesse : 0
+Zone d'effet : Objets de l'inventaire uniquement
+Jet de sauvegarde : Aucun
+Poids : 0
+Utilisable uniquement par les Mages
+
+Ce sort révèle les mystères des objets enchantés, ce qui te permet de connaître leurs pouvoirs exacts.~ []
+@49093 = ~PARCHEMIN DE BAISER DE LA VIPERE
+Permet de jeter "Baiser de la vipère"
+Permet de copier "Baiser de la vipère" dans son livre de sorts
+Niveau : 2 / Mage
+Portée : 50 mètres
+Durée : 5 secondes tous les 3 niveaux
+Vitesse : 2
+Zone d'effet : 1 créature
+Jet de sauvegarde : Aucun
+Poids : 0
+Utilisable uniquement par les Mages
+
+On dit que le baiser de la vipère peut brûler même les plus terribles fiélons. Ce sort fait apparaître un projectile d'acide verdâtre rongeant les chairs de la cible. Si le Mage est suffisamment talentueux, le baiser se prolonge au-delà de l'impact initial et continue de brûler la victime.
+
+Il suffit de choisir une cible distante de moins de 50 mètres pour que le baiser de la vipère la touche et lui inflige 2-8 points de dégâts. L'acide persiste pendant 5 secondes tous les 3 niveaux du mage ; il inflige 2-8 points de dégâts supplémentaires toutes les 5 secondes.~ []
+@49127 = ~PARCHEMIN D'OUVERTURE
+Permet de jeter "Ouverture"
+Permet de copier "Ouverture" dans son livre de sorts
+Niveau : 2 / Mage
+Portée : 60 mètres
+Durée : Spéciale
+Vitesse : 2
+Zone d'effet : Carré de 3 mètres de côté par niveau
+Jet de sauvegarde : Aucun
+Poids : 0
+Utilisable uniquement par les Mages
+
+Tout ce qui est inaccessible ou enfermé peut être libéré ou atteint grâce à cette incantation.
+
+Comme son nom l'indique, Ouverture ouvre tout ce qui a une serrure (portes, coffres, menottes, etc.). Par contre, le sort reste sans effet contre une porte fermée par une barre. Enfin, il ne peut ouvrir que deux serrures ou loquets se trouvant dans la zone d'effet.~ []
+@49259 = ~PARCHEMIN DE DUPLICATION D'ENOLL EVA
+Permet de jeter "Duplication d'Enoll Eva"
+Permet de copier "Duplication d'Enoll Eva" dans son livre de sorts
+Niveau : 5 / Mage
+Portée : 15 mètres
+Durée : 60 secondes
+Vitesse : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde : Aucun
+Poids : 0
+Utilisable uniquement par les Mages
+
+Ce sort est en réalité une complexe équation mathématique découverte accidentellement par un modrone, Enoll Eva, qui cherchait à calculer le facteur de multiplication de diverses formules algébriques. Cette équation au résultat stupéfiant permet de doubler ou de reproduire parfaitement n'importe quelle action. Au combat, il est ainsi possible de doubler les effets des attaques physiques et magiques... et donc les dégâts qui en découlent.
+
+Le sort affecte un seul et unique sujet, lequel n'a pas besoin de jouer de jet de sauvegarde. Par la suite, toutes ses attaques (physiques ou magiques) sont automatiquement reproduites. Ainsi, s'il utilise une arme, chacun de ses coups s'abat en fait deux fois, et il en va de même des sorts (qu'il jette Projectile magique, et un second apparaît juste derrière le premier). Les effets de ce sort perdurent pendant 2 minutes environ.~ []
+@49265 = ~PARCHEMIN DE COQUILLE ANTIMAGIQUE
+Permet de jeter "Coquille antimagique"
+Permet de copier "Coquille antimagique" dans son livre de sorts
+Niveau : 6 / Mage
+Portée : 0
+Durée : 5 minutes
+Vitesse : 6
+Zone d'effet : Sphère dont le diamètre est égal à 30 cm/niveau
+Jet de sauvegarde : Aucun
+Poids : 0
+Utilisable uniquement par les Mages
+
+Ironie suprême, cet enchantement permet de contrer toute magie.
+
+Ce sort enveloppe le personnage d'une "coquille" qui annule tout effet magique (objets magiques compris). La magie n'a plus du tout court à l'intérieur de la zone d'effet, et il est impossible de jeter le moindre sort ! Coquille antimagique vient également à bout d'attaques spéciales telles que les souffles, les regards, les cris, etc. Le sort persiste pendant 5 minutes et la zone d'effet est de 30 cm par niveau du personnage.~ []
+@49267 = ~PARCHEMIN DE GLOBE D'INVULNERABILITE
+Permet de jeter "Globe d'invulnérabilité"
+Permet de copier "Globe d'invulnérabilité" dans son livre de sorts
+Niveau : 6 / Mage
+Portée : 0
+Durée : 5 secondes par niveau
+Vitesse : 6
+Zone d'effet : 1,50 mètre de rayon
+Jet de sauvegarde : Aucun
+Poids : 0
+Utilisable uniquement par les Mages
+
+Tout comme Coquille antimagique, cet enchantement limite la magie pénétrant dans la zone d'effet. Par contre, le personnage peut se servir de ses sorts sans la moindre difficulté.
+
+Ce sort crée une sphère immobile à l'intérieur de laquelle les sorts de niveau 1 à 4 sont incapables de pénétrer (cela vaut également pour les sorts de zone). Les sorts de niveau 5 ou plus ne sont pas affectés. Contrairement à Coquille antimagique, Globe d'invulnérabilité n'empêche nullement de jeter des sorts depuis l'intérieur de la sphère. Ce sort persiste pendant 5 secondes par niveau.~ []
+@49287 = ~PARCHEMIN DE MOT DE POUVOIR AVEUGLANT
+Permet de jeter "Mot de pouvoir aveuglant"
+Permet de copier "Mot de pouvoir aveuglant" dans son livre de sorts
+Niveau : 8 / Mage
+Portée : 5 mètres par niveau
+Durée : Spéciale
+Vitesse : 1
+Zone d'effet : 5 mètres de rayon
+Jet de sauvegarde : Aucun
+Poids : 0
+Utilisable uniquement par les Mages
+
+Les facultés visuelles disparaîtront pour être remplacées par une nuit sans fin.
+
+Ce sort aveugle jusqu'à 100 points de vie de créatures contenues dans une zone de 5 mètres de rayon autour du point choisi par le Mage. L'enchantement commence à opérer au centre de ce cercle et touche d'abord les créatures ayant le moins de points de vie. Au-delà de 100 points de vie, il n'affecte plus personne. La durée de la cécité dépend du nombre de points de vie affectés : à 25 ou moins, elle est permanente (mais peut être soignée) ; de 26-50, elle dure de 160-400 secondes ; enfin, de 51-100, elle cesse au bout de 16-40 secondes. Une créature ne peut être affectée partiellement ; soit elle l'est totalement (si tous ses points de vie sont "couverts" par le total restant), soit elle ne l'est pas du tout.~ []
+@49289 = ~PARCHEMIN DE CANON DE MECHANUS
+Permet de jeter "Canon de Méchanus"
+Permet de copier "Canon de Méchanus" dans son livre de sorts
+Niveau : 8 / Mage
+Portée : 15 mètres
+Durée : Instantanée
+Vitesse : 8
+Zone d'effet : 1 créature
+Jet de sauvegarde : Aucun
+Poids : 0
+Utilisable uniquement par les Mages
+
+La justice logique de Primus frappera les illogismes sous la forme d'une énergie pure descendant de Méchanus.
+
+Ce sort invoque le "jugement" ultime de Primus : une violente décharge d'énergie issue du coeur de Méchanus et allant frapper, par le biais d'un portail, la cible désignée par le Mage. Un portail temporaire se forme à moins de 3 mètres de la victime et la Justice Logique de Méchanus inflige 30-90 points de dégâts à cette dernière (pas de jet de sauvegarde).~
+@49632 = ~Carver~ []
+@50894 = ~LAME ZERTH DE DAK'KON ("LAME RUISSELANTE")
+Dégâts : 3-12 Tranchants
+Enchanté : +2
+Spécial : 
+   +4 à la Classe d'armure
+   Double le nombre de sorts de niveau 1
+   Permet de mémoriser 1 sort de mage supplémentaire de niveau 2
+TAC0 : +2   
+Vitesse : 6
+Poids : 5
+Compétence : Armes tranchantes
+Utilisable uniquement par Dak'kon
+
+Dans les Limbes, plan natal des githzeraïs, la matière solide est une chose rare. Les Limbes elles-mêmes sont une soupe élémentaire que les githzeraïs réussissent à stabiliser par la seule force de leur volonté. 
+
+La substance dénommée "karach" peut être façonnée par l'esprit. La lame de Dak'kon est composée de cette substance ; par sa seule force mentale, Dak'kon maintient la forme de la lame. Tant qu'il est concentré et que le doute n'a pas prise sur son esprit, l'épée se transforme en conséquence, reproduisant l'état d'esprit de son maître.
+
+Dans ce cas, Dak'kon doit avoir l'esprit extrêmement clair, car son épée semble désormais en argent massif. Elle est plus longue que tout à l'heure, et l'aspect trouble de sa surface a totalement disparu. Elle est d'une finesse inouïe mais, bien que d'aspect fragile, il ne fait aucun doute qu'elle peut transpercer n'importe quelle armure avec une aisance déconcertante.
+
+Cette lame semble avoir une signification religieuse particulière pour Dak'kon. Il a enroulé une série de parchemins autour du manche de la lame. Ce sont des mantras dédiés à Zerthimon.~ []
+@50929 = ~LAME ZERTH DE DAK'KON ("LAME ENCHAINEE")
+Dégâts : 3-12 Tranchants
+Enchanté : +2
+Spécial :
+   +2 à la Classe d'armure
+   Permet de mémoriser 2 sorts de Mage supplémentaires de niveau 1
+   Permet de mémoriser 1 sort de mage supplémentaire de niveau 2
+TAC0 : +2
+Vitesse : 6
+Poids : 5
+Compétence : Armes tranchantes
+Utilisable uniquement par Dak'kon
+
+Dans les Limbes, plan natal des githzeraïs, la matière solide est une chose rare. Les Limbes elles-mêmes sont une soupe élémentaire que les githzeraïs réussissent à stabiliser par la seule force de leur volonté. 
+
+La substance dénommée "karach" peut être façonnée par l'esprit. La lame de Dak'kon est composée de cette substance ; par sa seule force mentale, Dak'kon maintient la forme de la lame. Il peut la transformer légèrement, et modifier ainsi sa longueur ou son tranchant. S'il monte de niveau, il pourra vraisemblablement apporter de nouvelles modifications à son arme. 
+
+On ignore si tous les zerth githzeraïs utilisent de telles armes. Il paraît évident qu'une arme qui dépend de la volonté de son utilisateur ne peut être confiée qu'à ceux qui ont appris à se maîtriser.
+
+Cette lame semble avoir une signification religieuse particulière pour Dak'kon. Il a enroulé une série de parchemins autour du manche. Ce sont des mantras dédiés à Zerthimon.~ []
+@50987 = ~IDENTIFICATION
+Portée : 1 objet
+Durée : Instantanée
+Vitesse : 0
+Zone d'effet : Objets de l'inventaire uniquement
+Jet de sauvegarde : Aucun
+
+Ce sort révèle les mystères des objets enchantés, ce qui te permet de connaître leurs pouvoirs exacts.~ []
+@51023 = ~OUVERTURE
+Portée : 60 mètres
+Durée : Spéciale
+Vitesse : 2
+Zone d'effet : Carré de 3 mètres de côté par niveau
+Jet de sauvegarde : Aucun
+
+Tout ce qui est inaccessible ou enfermé peut être libéré ou atteint grâce à cette incantation.
+
+Comme son nom l'indique, Ouverture ouvre tout ce qui a une serrure (portes, coffres, menottes, etc.). Par contre, le sort reste sans effet contre une porte fermée par une barre. Enfin, il ne peut ouvrir que deux serrures ou loquets se trouvant dans la zone d'effet.~ []
+@51073 = ~DUPLICATION D'ENOLL EVA
+Portée : 15 mètres
+Durée : 60 secondes
+Vitesse : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde : Aucun
+
+Ce sort est en réalité une complexe équation mathématique découverte accidentellement par un modrone, Enoll Eva, qui cherchait à calculer le facteur de multiplication de diverses formules algébriques. Cette équation au résultat stupéfiant permet de doubler ou de reproduire parfaitement n'importe quelle action. Au combat, il est ainsi possible de doubler les effets des attaques physiques et magiques... et donc les dégâts qui en découlent.
+
+Le sort affecte un seul et unique sujet, lequel n'a pas besoin de jouer de jet de sauvegarde. Par la suite, toutes ses attaques (physiques ou magiques) sont automatiquement reproduites. Ainsi, s'il utilise une arme, chacun de ses coups s'abat en fait deux fois, et il en va de même des sorts (qu'il jette Projectile magique, et un second apparaît juste derrière le premier). Les effets de ce sort perdurent pendant 2 minutes environ.~ []
+@51076 = ~COQUILLE ANTIMAGIQUE
+Portée : 0
+Durée : 5 minutes
+Vitesse : 6
+Zone d'effet : Sphère dont le diamètre est égal à 30 cm/niveau
+Jet de sauvegarde : Aucun
+
+Ironie suprême, cet enchantement permet de contrer toute magie.
+
+Ce sort enveloppe le personnage d'une "coquille" qui annule tout effet magique (objets magiques compris). La magie n'a plus du tout court à l'intérieur de la zone d'effet, et il est impossible de jeter le moindre sort ! Coquille antimagique vient également à bout d'attaques spéciales telles que les souffles, les regards, les cris, etc. Le sort persiste pendant 5 minutes et la coquille a un rayon de 30 cm par niveau du personnage.~ []
+@51077 = ~GLOBE D'INVULNERABILITE
+Portée : 0
+Durée : 5 secondes par niveau
+Vitesse : 6
+Zone d'effet : 1,50 mètre de rayon
+Jet de sauvegarde : Aucun
+
+Tout comme Coquille antimagique, cet enchantement limite la magie pénétrant dans la zone d'effet. Par contre, le personnage peut se servir de ses sorts sans la moindre difficulté.
+
+Ce sort crée une sphère immobile à l'intérieur de laquelle les sorts de niveau 1 à 4 sont incapables de pénétrer (cela vaut également pour les sorts de zone). Les sorts de niveau 5 ou plus ne sont pas affectés. Contrairement à Coquille antimagique, Globe d'invulnérabilité n'empêche nullement de jeter des sorts depuis l'intérieur de la sphère. Ce sort persiste pendant 5 secondes par niveau.~ []
+@51087 = ~MOT DE POUVOIR AVEUGLANT
+Portée : 5 mètres par niveau
+Durée : Spéciale
+Vitesse : 1
+Zone d'effet : 5 mètres de rayon
+Jet de sauvegarde : Aucun
+
+Les facultés visuelles disparaîtront pour être remplacées par une nuit sans fin.
+
+Ce sort aveugle jusqu'à 100 points de vie de créatures contenues dans une zone de 5 mètres de rayon autour du point choisi par le Mage. L'enchantement commence à opérer au centre de ce cercle et touche d'abord les créatures ayant le moins de points de vie. Au-delà de 100 points de vie, il n'affecte plus personne. La durée de la cécité dépend du nombre de points de vie affectés : à 25 ou moins, elle est permanente (mais peut être soignée) ; de 26-50, elle dure de 160-400 secondes ; enfin, de 51-100, elle cesse au bout de 16-40 secondes. Une créature ne peut être affectée partiellement ; soit elle l'est totalement (si tous ses points de vie sont "couverts" par le total restant), soit elle ne l'est pas du tout.~ []
+@51088 = ~CANON DE MECHANUS
+Portée : 15 mètres
+Durée : Instantanée
+Vitesse : 8
+Zone d'effet : 1 créature
+Jet de sauvegarde : Aucun
+
+La justice logique de Primus frappera les illogismes sous la forme d'une énergie pure descendant de Méchanus.
+
+Ce sort invoque le "jugement" ultime de Primus : une violente décharge d'énergie issue du coeur de Méchanus et allant frapper, par le biais d'un portail, la cible désignée par le Mage. Un portail temporaire se forme à moins de 3 mètres de la victime et la Justice Logique de Méchanus inflige 30-90 points de dégâts à cette dernière (pas de jet de sauvegarde).~
+@51328 = ~MARTEAU SPIRITUEL
+Portée : 10 mètres par niveau
+Durée : Variable (voir ci-dessous)
+Vitesse : 2
+Zone d'effet : 1 cible
+Jet de sauvegarde : 1/2
+
+Ce sort fait apparaître un marteau mystique te permettant de frapper tes adversaires.
+
+Une fois l'incantation achevée, choisis ta cible. Le marteau inflige 4-10 points de dégâts de type écrasant à chaque coup. Il est considéré comme une arme +1 (+1 au jet d'attaque, +1 aux dégâts) et son bonus augmente d'un point tous tes six niveaux, jusqu'à un maximum de +3.~ []
+@51331 = ~PRIERE
+Portée : 0 (centrée sur le jeteur de sorts)
+Durée : 5 secondes par niveau
+Vitesse : 3
+Zone d'effet : 20 mètres de rayon
+Jet de sauvegarde : Aucun
+
+Ce sort aide tes alliés et handicape tes adversaires.
+
+Prière confère un bonus de +1 aux jets d'attaque, de dégâts et de sauvegarde de tous ceux qui se montrent "Amicaux" avec le personnage. A l'inverse, ceux qui se montrent "Hostiles" envers lui subissent un malus de -1. Le sort dure 5 secondes par niveau et affecte toutes les créatures situées dans un rayon de 20 mètres.~ []
+@51332 = ~COMMUNICATION AVEC LES MORTS
+Portée : 15 mètres
+Durée : Spéciale
+Vitesse : 3
+Zone d'effet : 1 créature (morte)
+Jet de sauvegarde : Aucun
+
+Sert à communiquer avec l'esprit des morts.
+
+Ce sort permet à Sans-nom de dialoguer avec n'importe quel mort suffisamment proche de lui.~ []
+@51335 = ~SOINS DES BLESSURES CRITIQUES
+Portée : 0
+Durée : Permanente/instantanée
+Vitesse : 5
+Zone d'effet : 1 créature
+Jet de sauvegarde : Aucun
+
+Ce sort permet de refermer une plaie béante.
+
+Le sujet récupère 27 points de vie, sans que cela lui permette de dépasser son maximum.~ []
+@51392 = ~BAISER DE LA VIPERE
+Portée : 50 mètres
+Durée : 5 secondes tous les 3 niveaux
+Vitesse : 2
+Zone d'effet : 1 créature
+Jet de sauvegarde : Aucun
+
+On dit que le baiser de la vipère peut brûler même les plus terribles fiélons. Ce sort fait apparaître un projectile d'acide verdâtre rongeant les chairs de la cible. Si le Mage est suffisamment talentueux, le baiser se prolonge au-delà de l'impact initial et continue de brûler la victime.
+
+Il suffit de choisir une cible distante de moins de 50 mètres pour que le baiser de la vipère la touche et lui inflige 2-8 points de dégâts. L'acide persiste pendant 5 secondes tous les 3 niveaux du mage ; il inflige 2-8 points de dégâts supplémentaires toutes les 5 secondes.~ []
+@52798 = ~MAIN D'IGNUS
+Permet de copier "Orbe infernal" dans son livre de sorts
+Portée : 15 mètres
+Durée : Spéciale
+Vitesse : 2
+Zone d'effet : 1 créature
+Jet de sauvegarde : annulé.
+Poids : 1
+Utilisable uniquement par Sans-nom
+Utilisable uniquement par les Mages
+
+Cette main calcinée est la tienne. Elle a été tranchée au niveau du poignet et la chair qui la recouvrait a totalement disparu, laissant les os on ne peut plus visibles. Ces derniers tiennent toutefois les uns aux autres, et ce malgré l'absence de chair et de muscles. La douleur que tu as ressentie au moment où l'on te tranchait la main a été presque insoutenable, et cela a laissé de longues cicatrices noires sur ton poignet et ton avant-bras. Pour ne rien arranger, la plaie s'est mal refermée. Si jamais Ignus se mettait en colère et t'attaquait une nouvelle fois, il pourrait peut-être invoquer une chaleur telle que tu ne récupérerais jamais de tes blessures. Peut-être même serait-il capable de te détruire. Cette idée ne te fait guère plaisir.
+
+Ignus t'a fait comprendre que ta main calcinée contient désormais une partie de son pouvoir infernal, pouvoir qui t'a été transmis, à toi aussi. Pour l'invoquer, tu dois te trancher une nouvelle fois la main puis placer la main squelettique contre ton moignon et attendre que la plaie se referme. Une fois cela fait, la portion d'Ignus qui habite encore ces os te transmettra une partie de son savoir magique.~ []
+@57317 = ~Tu aperçois le vieil ermite des souterrains. Lorsqu'il t'aperçoit, il s'écrie, "Kyse le gardien m'a dit qu'tu viendrais. Tu l'as bien affaibli... le chaos a été réduit en ville et les plans du deva vont pas fort. Va finir l'boulot, maintenant."~ []
+@59082 = ~Kiri~ []
+@59821 = ~LAME D'ENTROPIE
+Dégâts : 3-23 Contondants
+Enchanté : +2
+TAC0 : +3
+Vitesse : 1
+Poids : 1
+Compétence : Poings
+Utilisables uniquement par les Guerriers et les Voleurs
+
+Cet étrange objet se trouvait en ta possession après que tu eus donné le cube modrone au golem de fer dans la Tour de Siège. On dirait une petite dague, mais elle ne cesse de se tortiller sous tes yeux, comme si elle tentait d'échapper à la forme qu'on lui a donnée.
+
+Elle semble constituée de fer, d'argent, et de nombreux autres métaux encore. Parfois, ils fusionnent tous mais, à d'autres moments, certains semblent disparaître à l'intérieur de la lame pour mieux ressurgir quelques instants plus tard.~
+@59822 = ~LAME D'ENTROPIE
+Dégâts : 3-23 Contondants
+Enchanté : +2
+TAC0 : +3
+Vitesse : 1
+Poids : 1
+Compétence : Marteau
+Utilisable uniquement par les Guerriers
+
+Cet étrange objet se trouvait en ta possession après que tu eus donné le cube modrone au golem de fer dans la Tour de Siège. On dirait une petite dague, mais elle ne cesse de se tortiller sous tes yeux, comme si elle tentait d'échapper à la forme qu'on lui a donnée.
+
+Elle semble constituée de fer, d'argent, et de nombreux autres métaux encore. Parfois, ils fusionnent tous mais, à d'autres moments, certains semblent disparaître à l'intérieur de la lame pour mieux ressurgir quelques instants plus tard.~
+@59823 = ~LAME D'ENTROPIE
+Dégâts : 3-23 Contondants
+Enchanté : +2
+TAC0 : +3
+Vitesse : 1
+Poids : 1
+Compétence : Gourdin
+Utilisable uniquement par les Guerriers
+
+Cet étrange objet se trouvait en ta possession après que tu eus donné le cube modrone au golem de fer dans la Tour de Siège. On dirait une petite dague, mais elle ne cesse de se tortiller sous tes yeux, comme si elle tentait d'échapper à la forme qu'on lui a donnée.
+
+Elle semble constituée de fer, d'argent, et de nombreux autres métaux encore. Parfois, ils fusionnent tous mais, à d'autres moments, certains semblent disparaître à l'intérieur de la lame pour mieux ressurgir quelques instants plus tard.~
+@61680 = ~LAME D'ENTROPIE
+Dégâts : 3-23 Tranchants
+Enchanté : +2
+TAC0 : +3
+Vitesse : 1
+Poids : 1
+Compétence : Hache
+Utilisable uniquement par les Guerriers
+
+Cet étrange objet se trouvait en ta possession après que tu eus donné le cube modrone au golem de fer dans la Tour de Siège. On dirait une petite dague, mais elle ne cesse de se tortiller sous tes yeux, comme si elle tentait d'échapper à la forme qu'on lui a donnée.
+
+Elle semble constituée de fer, d'argent, et de nombreux autres métaux encore. Parfois, ils fusionnent tous mais, à d'autres moments, certains semblent disparaître à l'intérieur de la lame pour mieux ressurgir quelques instants plus tard.~
+@61796 = ~Impossible de retirer l'armure~ [ANA369C]
+@62305 = ~Morte, injures 7~ [MRT459A]
+@62321 = ~Morte, injures 23~ [MRT322AL]
+@66374 = ~LAME ZERTH DE DAK'KON ("LAME RUISSELANTE")
+Dégâts : 5-20 Tranchants
+Enchantée : +3
+Spécial : 
+   +6 à la Classe d'armure
+   Double le nombre de sorts de niveau 1
+   Double le nombre de sorts de niveau 2
+   Permet de mémoriser 1 sort de Mage supplémentaire de niveau 3
+TAC0 : +3   
+Vitesse : 6
+Poids : 5
+Compétence : Armes tranchantes
+Utilisable uniquement par Dak'kon
+
+Dans les Limbes, plan natal des githzeraïs, la matière solide est une chose rare. Les Limbes elles-mêmes sont une soupe élémentaire que les githzeraïs réussissent à stabiliser par la seule force de leur volonté. 
+
+La substance dénommée "karach" peut être façonnée par l'esprit. La lame de Dak'kon est composée de cette substance ; par sa seule force mentale, Dak'kon maintient la forme de la lame. Tant qu'il est concentré et que le doute n'a pas prise sur son esprit, l'épée se transforme en conséquence, reproduisant l'état d'esprit de son maître.
+
+Dans ce cas, Dak'kon doit avoir l'esprit extrêmement clair, car son épée semble désormais en argent massif. Elle est plus longue que tout à l'heure, et l'aspect trouble de sa surface a totalement disparu. Elle est d'une finesse inouïe mais, bien que d'aspect fragile, il ne fait aucun doute qu'elle peut transpercer n'importe quelle armure avec une aisance déconcertante.
+
+Cette lame semble avoir une signification religieuse particulière pour Dak'kon. Il a enroulé une série de parchemins autour du manche de la lame. Ce sont des mantras dédiés à Zerthimon.~ []
+@66375 = ~LAME ZERTH DE DAK'KON ("LAME ENCHAINEE")
+Dégâts : 5-20 Tranchants
+Enchantée : +3
+Spécial :
+   +3 à la Classe d'armure
+   Double tous les sorts de Mage de niveau 1
+   Double tous les sorts de Mage de niveau 2
+TAC0 : +3
+Vitesse : 6
+Poids : 5
+Compétence : Armes tranchantes
+Utilisable uniquement par Dak'kon
+
+Dans les Limbes, plan natal des githzeraïs, la matière solide est une chose rare. Les Limbes elles-mêmes sont une soupe élémentaire que les githzeraïs réussissent à stabiliser par la seule force de leur volonté. 
+
+La substance dénommée "karach" peut être façonnée par l'esprit. La lame de Dak'kon est composée de cette substance ; par sa seule force mentale, Dak'kon maintient la forme de la lame. Il peut la transformer légèrement, et modifier ainsi sa longueur ou son tranchant. S'il monte de niveau, il pourra vraisemblablement apporter de nouvelles modifications à son arme. 
+
+On ignore si tous les zerth githzeraïs utilisent de telles armes. Il paraît évident qu'une arme qui dépend de la volonté de son utilisateur ne peut être confiée qu'à ceux qui ont appris à se maîtriser.
+
+Cette lame semble avoir une signification religieuse particulière pour Dak'kon. Il a enroulé une série de parchemins autour du manche. Ce sont des mantras dédiés à Zerthimon.~ []
+@106498 = ~This is a placeholder to prevent a string with a sound file from becoming strref 106498, which causes problems.~ []

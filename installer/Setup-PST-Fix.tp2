@@ -1,0 +1,435 @@
+
+// ================================================================================================
+//                        PLANESCAPE: TORMENT ULTIMATE WEIDU FIXPACK
+//                                BY QWINN (Paul Escalona)
+// ================================================================================================
+// Last Modification Date:  June 15, 2012 - v4.13
+// ================================================================================================
+
+
+BACKUP ~PST-Fix/backup~
+AUTHOR ~pescalona@verizon.net~
+// MODDER
+VERSION ~v4.13~
+
+LANGUAGE
+  ~English~  ~english~             ~PST-Fix/tra/english/fixpack.tra~
+                                   ~PST-Fix/tra/english/fixpack.tra~
+                                   ~PST-Fix/tra/english/subtitles.tra~
+LANGUAGE
+  ~German~   ~german~              ~PST-Fix/tra/english/fixpack.tra~
+                                   ~PST-Fix/tra/german/fixpack.tra~
+                                   ~PST-Fix/tra/german/subtitles.tra~
+LANGUAGE
+  ~Spanish~  ~spanish~             ~PST-Fix/tra/english/fixpack.tra~
+                                   ~PST-Fix/tra/spanish/fixpack.tra~
+                                   ~PST-Fix/tra/spanish/subtitles.tra~
+LANGUAGE
+  ~Italian~  ~italian~             ~PST-Fix/tra/english/fixpack.tra~
+                                   ~PST-Fix/tra/italian/fixpack.tra~
+                                   ~PST-Fix/tra/italian/subtitles.tra~
+LANGUAGE
+  ~Polish~   ~polish~              ~PST-Fix/tra/english/fixpack.tra~
+                                   ~PST-Fix/tra/polish/fixpack.tra~
+                                   ~PST-Fix/tra/polish/subtitles.tra~
+LANGUAGE
+  ~Russian~  ~russian~             ~PST-Fix/tra/english/fixpack.tra~
+                                   ~PST-Fix/tra/russian/fixpack.tra~
+                                   ~PST-Fix/tra/russian/subtitles.tra~
+LANGUAGE
+  ~French~  ~french~               ~PST-Fix/tra/english/fixpack.tra~
+                                   ~PST-Fix/tra/french/fixpack.tra~
+                                   ~PST-Fix/tra/french/subtitles.tra~
+
+
+BEGIN @-2000
+INSTALL_BY_DEFAULT
+NO_LOG_RECORD
+DESIGNATED 100
+
+PRINT @-2001
+ACTION_READLN ~view_readme~
+
+OUTER_WHILE NOT(~%view_readme%~ STRING_EQUAL ~Y~) AND
+            NOT(~%view_readme%~ STRING_EQUAL ~y~) AND
+            NOT(~%view_readme%~ STRING_EQUAL ~N~) AND
+            NOT(~%view_readme%~ STRING_EQUAL ~n~) BEGIN
+ PRINT @-2001
+ ACTION_READLN ~view_readme~
+END
+
+ACTION_IF (~%view_readme%~ STRING_EQUAL ~Y~ OR ~%view_readme%~ STRING_EQUAL ~y~) THEN
+BEGIN
+  ACTION_IF ~%LANGUAGE%~ STRING_EQUAL ~english~ THEN
+    BEGIN  AT_INTERACTIVE_NOW ~VIEW PST-Fix/PSTFixpack_Readme.html~ END
+  ACTION_IF ~%LANGUAGE%~ STRING_EQUAL ~spanish~ THEN
+    BEGIN  AT_INTERACTIVE_NOW ~VIEW PST-Fix/PSTFixpack_Leeme.html~ END
+  ACTION_IF ~%LANGUAGE%~ STRING_EQUAL ~italian~ THEN
+    BEGIN  AT_INTERACTIVE_NOW ~VIEW PST-Fix/PSTFixpack_Leggermi.html~ END
+  ACTION_IF ~%LANGUAGE%~ STRING_EQUAL ~german~  THEN
+    BEGIN  AT_INTERACTIVE_NOW ~VIEW PST-Fix/PSTFixpack_LiesMich.html~ END
+  ACTION_IF ~%LANGUAGE%~ STRING_EQUAL ~polish~  THEN
+    BEGIN  AT_INTERACTIVE_NOW ~VIEW PST-Fix/PSTFixpack_Dokumentacja.html~ END
+  ACTION_IF ~%LANGUAGE%~ STRING_EQUAL ~french~  THEN
+    BEGIN  AT_INTERACTIVE_NOW ~VIEW PST-Fix/PSTFixpack_LisezMoi.html~ END
+END
+
+BEGIN @1 // ~PS:T Ultimate Weidu Fixpack, by Qwinn~
+DESIGNATED 0
+
+// This file does nothing, it just allows other mods to detect this component
+COPY_EXISTING ~SCALPEL.itm~ ~override/Q!FIXPAK.xxx~
+
+// ====================================== MACRO includes ========================================
+
+// I use these macros throughout the Fixpack.  They are all written by me (Qwinn).
+// As of Version 1, they currently include tools for editing .ARE files and the VAR.VAR file.
+
+INCLUDE ~PST-Fix/utils/Q_VARMacros.tph~
+INCLUDE ~PST-Fix/utils/Q_AREMacros.tph~
+
+// ==================================== VAR.VAR MAINTENANCE =====================================
+
+// This section adds variables needed for various fixes.  Doing them all in one place to make
+// proper uninstalls more likely to go smoothly.
+
+// To make Justifier's dialogue work correctly, from Restoration Pack, see RestoFix.tph
+
+// GLOBAL Current_Lower_Planes
+// GLOBAL Justifier
+// GLOBAL Justifier_Lower_Planes
+
+// To have a clean way to make sure SKARDAVNELNATE's Party Separation scripts only run once,
+// rather than resetting Current_Area too early.  See SKARDFix.tph
+
+// GLOBAL Party_Rejoin
+
+// Tons of fixes needed to Burt, Lowden and Gris's dialogues.  Require several new variables.  See QwinnFix.d.
+
+// GLOBAL Know_Burt
+// GLOBAL Know_Lowden
+// GLOBAL Know_Gris_Dead
+// GLOBAL Know_BLG_Grouped
+// GLOBAL Lawful_Gris_2
+
+// To remember that you told Iannis that Deionarra's spirit was in the mortuary.  QwinnFix.d
+
+// GLOBAL Iannis_Know_Spirit
+
+// For Curst-Carceri actors who forget they've met you before
+
+// GLOBAL Know_Berrog
+// GLOBAL Know_Caretaker
+// GLOBAL Know_Ebb
+// GLOBAL Know_Hermit
+// GLOBAL Know_Kyse
+// GLOBAL Know_Tek  (Added in version 4.0)
+
+// To prevent an experience loop available if you were infiltrating the Sensates for the Anarchists
+// GLOBAL Infiltrated_Sensates
+
+// Need a variable to track if you've ever talked to Ilquix as a demon before, so you can see that introductory text.
+// AR0402 Ilquix_TalkedToAsDemon
+
+// Need a variable to properly open and close the Siege Tower Portal.  Initializing to 1, open, so that it'll be
+// shut down properly if player had already permanently opened it.
+// AR0500 Siege_Tower_Portal
+
+// Foundry Fixes require Killed_Godsman and Alarm2_Timer.
+
+// Aggro fixes for Warrens of Thought required MAO_Yielded
+
+// G_Suspect_T (Thildon) and G_Suspect_S (Saros) allow the restoration of a couple of minor not-enough-evidence responses in Keldor's dialogue
+// during the Murder Investigation.
+
+// Evil_PuzSkel added so that the Puzzled Skeleton no longer reuses the Evil_Adozyel_1 variable from the Pendant of Yemeth quest
+
+COPY_EXISTING ~VAR.VAR~ ~VAR.TMP~
+  SET Q_FileSize = %SOURCE_SIZE%
+
+
+  // Version 4.0:  Purge unused variables as I find them.  These are documented on the forums in the sticky thread 'Variable Deletion'.
+  PATCH_FOR_EACH "S1" IN
+// Duplicated in vanilla VAR.VAR, removing one instance of each
+    ~Annah_Accuse                    ~
+    ~Chad_Talked                     ~
+    ~Chaotic_Fhjull_1                ~
+    ~Chaotic_Penn_1                  ~
+    ~Evil_Bedai_1                    ~
+    ~Evil_Bedai_2                    ~
+    ~Evil_Bedai_3                    ~
+    ~Evil_Bedai_4                    ~
+    ~Evil_Bedai_5                    ~
+    ~Evil_Thorp_1                    ~
+    ~Good_Bedai_1                    ~
+    ~Good_Bedai_2                    ~
+    ~Good_Bedai_3                    ~
+    ~Good_Bedai_4                    ~
+    ~Good_Thorp_1                    ~
+    ~Good_Yellow_2                   ~
+    ~Know_Director_Truth             ~
+    ~Know_Ojo                        ~
+    ~Nature                          ~
+    ~Lawful_Bedai_1                  ~
+    ~Lawful_Bedai_2                  ~
+// Neither read nor written
+    ~Alley_Puzzle2_SC                ~
+    ~Ambush                          ~
+    ~Anarchist_Recruitment           ~
+    ~Arbwarning                      ~
+    ~Chapel                          ~
+    ~Complete_Alley                  ~
+    ~Dhall_Styx                      ~
+    ~Eli_Location                    ~
+    ~Lady_Location                   ~
+    ~Pox_To_Mortuary                 ~
+    ~QuiSai_Location                 ~
+    ~Smoldering_Corpse               ~
+    ~Superghoul                      ~
+    ~Undead_Pissed_A                 ~
+    ~Undead_Pissed_B                 ~
+    ~Undead_Pissed_C                 ~
+// Written but never read, writes deleted in QwinnFix.d
+    ~Absorb_Practical_Incarnation    ~
+    ~Absorb_Paranoid_Incarnation     ~
+    ~Absorb_Good_Incarnation         ~
+    ~Alley_Puzzle1_SC                ~
+    ~Await_Life_Answer               ~
+    ~Await_Death_Answer              ~
+    ~Curst_Loot                      ~
+    ~Doubtful_Answer                 ~
+    ~Know_Iannis_Loss                ~
+    ~Red_Shroud                      ~
+    ~Surrendered                     ~
+    ~Trias_Cause                     ~
+    ~Trias_Curse                     ~
+    ~Warning_Dhall                   ~
+// Read but never written, reads dealt with in QwinnFix.d
+    ~Feign_Death                     ~
+    ~Token                           ~
+// Read and written but totally useless, again, see QwinnFix.d
+    ~Alley                           ~
+  BEGIN
+    SPRINT "Q_DelVarType"  ~GLOBAL  ~
+    SPRINT "Q_DelVarName"  ~%S1%~
+    LAUNCH_PATCH_MACRO Q_VarVar_DeleteRecord
+  END
+
+
+  SPRINT "Q_NewVarType"  ~AR0700  ~
+  SPRINT "Q_NewVarName"  ~Roberta                         ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+
+  SPRINT "Q_NewVarType"  ~AR0702  ~
+  SPRINT "Q_NewVarName"  ~Despawn_Prisoners               ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+
+  SPRINT "Q_NewVarType"  ~AR0402  ~
+  SPRINT "Q_NewVarName"  ~Ilquix_TalkedToAsDemon          ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+
+  SPRINT "Q_NewVarType"  ~AR1500  ~
+  SPRINT "Q_NewVarName"  ~Evil_PuzSkel                    ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+
+  SPRINT "Q_NewVarType"  ~AR0512  ~
+  SPRINT "Q_NewVarName"  ~Kellera_Met_Dakkon              ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+
+  SPRINT "Q_NewVarType"  ~AR0607  ~
+  SPRINT "Q_NewVarName"  ~Iannis_Know_Spirit              ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+
+  SPRINT "Q_NewVarType"  ~AR0503  ~
+  SPRINT "Q_NewVarName"  ~Sarossa_Saros_Anger             ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+
+  SPRINT "Q_NewVarType"  ~AR0201  ~
+  SPRINT "Q_NewVarName"  ~Soego_Adahn                     ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+
+
+  PATCH_FOR_EACH "S1" IN
+    ~Siege_Tower_Portal              ~
+    ~Know_Yiminn                     ~
+    ~Dakkon_Know_Kiina               ~
+    ~Dakkon_Kiina_Morale             ~
+  BEGIN
+    SPRINT "Q_NewVarType"  ~AR0500  ~
+    SPRINT "Q_NewVarName"  ~%S1%~
+    SET    Q_NewVarValue = 0
+    LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+  END
+
+  PATCH_FOR_EACH "S1" IN
+    ~Current_Lower_Planes            ~
+    ~Justifier                       ~
+    ~Justifier_Lower_Planes          ~
+    ~Party_Rejoin                    ~
+    ~Know_Lowden                     ~
+    ~Know_Burt                       ~
+    ~Know_Gris_Dead                  ~
+    ~Know_BLG_Grouped                ~
+    ~Lawful_Gris_2                   ~
+    ~Know_Berrog                     ~
+    ~Know_Caretaker                  ~
+    ~Know_Ebb                        ~
+    ~Know_Hermit                     ~
+    ~Know_Kyse                       ~
+    ~Know_Tek                        ~
+    ~Subtitles                       ~
+    ~Killed_Godsman                  ~
+    ~Alarm2_Timer                    ~
+    ~MAO_Yielded                     ~
+    ~G_Suspect_T                     ~
+    ~G_Suspect_S                     ~
+    ~Met_Githyanki                   ~
+    ~Kesai_Eyes_Flirt                ~
+    ~Sabotage_Align                  ~
+    ~Know_Rubikon                    ~
+    ~Finger                          ~
+    ~Spawn_Carceri_Anizius           ~
+    ~Choke_Memory                    ~
+    ~Thug_Escape                     ~
+    ~Banter_Timer                    ~  // Tweak Pack - Banter Accelerator
+    ~Banter_Attempt                  ~
+    ~Able_Timer_Language             ~  // UB - Able Ponderthought Research
+    ~Able_Timer_Ravel                ~
+    ~Able_Timer_Incarnations         ~
+    ~Kiina_Return                    ~  // UB - Lower Ward Encounters
+    ~Spawn_Carl                      ~  // UB - Carl Parfidor
+    ~Grace_Hive_Comment              ~  // UB - Sounds and Banters
+    ~Morte_Zombie_Flirt              ~
+    ~Kesai_Timer                     ~  // UB - Expanded Deionarra's Truth Mod
+    ~Kesai_Dream_Quest               ~
+    ~Kesai_Attracted                 ~
+    ~Ravel_Kesai_Regret              ~
+    ~Dream2_Sequence                 ~
+    ~Dream_Death_Count               ~
+    ~Dream_Victory                   ~
+    ~Dream_Exit                      ~
+    ~Dream_Kill_Count                ~
+    ~Dream_Pen_Used                  ~
+    ~Met_TO                          ~  // UB - Restored Bestiary Entries
+  BEGIN
+    SPRINT "Q_NewVarType"  ~GLOBAL  ~
+    SPRINT "Q_NewVarName"  ~%S1%~
+    SET    "Q_NewVarValue" = 0
+    LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+  END
+
+  // Tweak Pack - Banter Accelerator
+  SPRINT "Q_NewVarType"  ~GLOBAL  ~
+  SPRINT "Q_NewVarName"  ~CombatScriptsActive             ~
+  SET    "Q_NewVarValue" = 1
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+
+  // UB - Candlestick Quest
+  SPRINT "Q_NewVarType"  ~AR0109  ~
+  SPRINT "Q_NewVarName"  ~Candle1_Portal_Open             ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+  SPRINT "Q_NewVarType"  ~AR0207  ~
+  SPRINT "Q_NewVarName"  ~Candle2_Portal_Open             ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+
+  // UB - Sounds and Banters
+  SPRINT "Q_NewVarType"  ~AR0400  ~
+  SPRINT "Q_NewVarName"  ~Grace_Fell_Comment              ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+  SPRINT "Q_NewVarType"  ~AR0600  ~
+  SPRINT "Q_NewVarName"  ~Morte_Clerks_Comment            ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+  SPRINT "Q_NewVarType"  ~AR0600  ~
+  SPRINT "Q_NewVarName"  ~Grace_Clerks_Comment            ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+  SPRINT "Q_NewVarType"  ~AR0601  ~
+  SPRINT "Q_NewVarName"  ~Grace_Festhall_Comment          ~
+  SET    Q_NewVarValue = 0
+  LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+
+  PATCH_FOR_EACH "S1" IN
+    ~Kill_Curst_Guard                ~
+    ~Kill_Curst_Thug                 ~
+    ~Kill_Curst_Prisoner             ~
+    ~Bish_DEAD                       ~
+    ~Byron_DEAD                      ~
+    ~Pestle_DEAD                     ~
+    ~Kiln_DEAD                       ~
+  BEGIN
+    SPRINT "Q_NewVarType"  ~KAPUTZ  ~
+    SPRINT "Q_NewVarName"  ~%S1%~
+    SET    "Q_NewVarValue" = 0
+    LAUNCH_PATCH_MACRO Q_VarVar_AddNewRecord
+  END
+
+
+ BUT_ONLY_IF_IT_CHANGES
+COPY ~VAR.TMP~ ~VAR.VAR~
+
+// ======================================= IDS FIXES ===========================================
+
+// Fixing them here so that all future fixes take these changes into account.
+// Removing the "Bones" modifier from PermanentStatChange and Damage in the ACTION.IDS and
+// INSTANT.IDS.  
+
+COPY_EXISTING ACTION.IDS ~override~
+  REPLACE_TEXTUALLY EXACT_MATCH ~*Bones~ ~*~
+ BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING INSTANT.IDS ~override~
+  REPLACE_TEXTUALLY EXACT_MATCH ~*Bones~ ~*~
+  REPLACE_TEXTUALLY ~267~ ~266 FloatRebus(O:Target*)
+267~
+ BUT_ONLY_IF_IT_CHANGES
+
+CLEAR_IDS_MAP
+
+
+// ===================================== ENGINE FIXES ============================================
+
+// Huge credit to Scient for providing the patch information
+
+INCLUDE ~PST-Fix/tph/EngineFixes.tph~
+
+// ====================== PLATTER'S FIXPACK 1.37 AND 1.38-BETA INCLUDE =========================
+
+INCLUDE ~PST-Fix/tph/PFixpack.tph~
+
+// ========== THE SKARDAVNELNATE's ALL INCLUSIVE PACK 20080408 (FIXES ONLY) INCLUDE ============
+
+INCLUDE ~PST-Fix/tph/SkardFix.tph~
+
+// ========================== RESTORATION PACK INCLUDE (FIXES ONLY) ============================
+
+INCLUDE ~PST-Fix/tph/RestoFix.tph~
+
+// ============================= QWINN'S ORIGINAL FIXES INCLUDE ================================
+
+INCLUDE ~PST-Fix/tph/QwinnFix.tph~
+
+
+BEGIN @2 // ~Dialogue Spelling/Grammar Corrections (English Only)~
+DESIGNATED 1
+REQUIRE_PREDICATE ~%LANGUAGE%~ STRING_EQUAL ~english~ @3
+COPY_EXISTING ~SCALPEL.itm~ ~override/Q!DIALOG.xxx~
+INCLUDE ~PST-Fix/tph/dialogfixes.tph~
+
+BEGIN @4 // ~Subtitled Cutscenes~
+REQUIRE_COMPONENT "Setup-PST-Fix.tp2" 0 @5 // ~Subtitled Cutscenes requires the PS:T Ultimate WeiDU Fixpack.~
+DESIGNATED 4
+COPY_EXISTING ~SCALPEL.itm~ ~override/Q!DIALOG.xxx~
+COMPILE ~PST-Fix/dlg/subtitles.d~ USING ~PST-Fix/tra/%LANGUAGE%/subtitles.tra~
+INCLUDE ~PST-Fix/tph/subtitles.tph~

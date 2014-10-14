@@ -1,0 +1,91 @@
+IF
+  Die()
+THEN
+  RESPONSE #100
+    SetGlobal("Foundry_GR_Status","AR0511",7)
+END
+
+IF
+  See(NearestEnemyOf(Myself))
+THEN
+  RESPONSE #100
+    Attack(NearestEnemyOf(Myself))
+END
+
+IF
+  Help([ANYONE])
+  !Help([PC])
+THEN
+  RESPONSE #0
+    Enemy()
+    Attack(LastAttackerOf(LastHelp))
+END
+
+IF
+  AttackedBy([PC],DEFAULT)
+THEN
+  RESPONSE #100
+    Enemy()
+    IncrementGlobal("Lady","GLOBAL",1)
+    Help()
+END
+
+IF
+  WasInDialog()
+THEN
+  RESPONSE #100
+    SetGlobal("0511_Talked_Guards","AR0511",1)
+END
+
+IF
+  See([PC])
+  Global("G_Test3","GLOBAL",1)
+  Global("0511_Talked_Guards","AR0511",0)
+THEN
+  RESPONSE #100
+    Dialogue([PC])
+END
+
+IF
+  !NearLocation(Myself,[679.506],0)
+THEN
+  RESPONSE #100
+    MoveToPoint([679.506])
+    Face(10)
+END
+
+IF
+  !Dead("Sandoz")
+  Global("Foundry_GR_Status","AR0511",0)
+THEN
+  RESPONSE #25
+    SetGlobal("Foundry_GR_Status","AR0511",1)
+    WaitRandom(3,15)
+    FloatMessage(Myself,25981) // "I can't wait until my shift is done."
+  RESPONSE #25
+    SetGlobal("Foundry_GR_Status","AR0511",1)
+    WaitRandom(3,15)
+    FloatMessage(Myself,25979) // "Heard it's going to rain tonight."
+  RESPONSE #20
+    WaitRandom(5,7)
+    FloatMessage(Myself,25978) // "He's been in there for a long time!"
+    Wait(3)
+    SetGlobal("Foundry_GR_Status","AR0511",2)
+  RESPONSE #20
+    WaitRandom(5,7)
+    SetGlobal("Foundry_GR_Status","AR0511",3)
+    Wait(5)
+    FloatMessage(Myself,25983) // "No, but I've heard they're working on a machine in there."
+  RESPONSE #20
+    WaitRandom(5,7)
+    FloatMessage(Myself,25984) // ::Yawn:: " Maybe I should take a nap."
+    Wait(3)
+    SetGlobal("Foundry_GR_Status","AR0511",4)
+  RESPONSE #20
+    WaitRandom(5,7)
+    SetGlobal("Foundry_GR_Status","AR0511",5)
+    Wait(5)
+    FloatMessage(Myself,25982) // "I wonder what he's worried about?"
+END
+
+

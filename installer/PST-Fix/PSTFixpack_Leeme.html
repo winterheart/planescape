@@ -1,0 +1,600 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <style type="text/css">
+    /*<![CDATA[*/
+    <!-- 
+      body {
+        margin: 0;
+        padding: 0;
+        cursor: default;
+        text-align: center;
+        color: #000;
+        background: #e3e3db url('http://spellholdstudios.net/images/sh_bg_main.jpg');
+      }
+
+      #wrap {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 88%;
+        font-family: Verdana, Tahoma, Arial, sans-serif;
+        font-size: 12px;
+        color: #333;
+      }
+
+      #header {
+        text-align: center;
+        background: #e5e5e5;
+        border: 1px solid #781808;
+        border-top: 5px solid #781808;
+        border-bottom: 5px solid #781808;
+        padding: 5px 0 13px 0;
+      }
+      
+      #header .about {
+        margin: 7px 0 0 0;
+        padding: 0;
+        font-style: italic;
+        color: #555;
+      }
+      
+      #header .menu {
+        font-weight: bold;
+        margin: 0;
+        color: #999;
+      }
+      
+      #header .menu a:link,
+      #header .menu a:visited {
+        color: #333;
+      }
+
+      #maindiv {
+        margin: 0 auto;
+        margin-top: -20px;
+        width: 80%;
+      }
+
+      #maindiv .content {
+        counter-increment: kman;
+        counter-reset: h2;
+        background-color: #e8e8e6;
+        padding: 0 0 25px 0;
+        margin: 50px auto;
+        border-width: 1px 1px 4px 10px;
+        border-style: solid;
+        border-color: #781808;
+        position: relative;
+        display: block;
+      }
+      
+      #maindiv .content::before {
+        content: counter(kman, lower-roman);
+        font-size: 100%;
+        font-weight: bold;
+        text-align: center;
+        color: #eee;
+        background-color: #781808;
+        width: 35px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+      }
+      
+      h2 {
+        display: block;
+        font-family: Verdana, Trebuchet MS, Arial, serif;
+        text-align: left;
+        text-indent: 30px;
+        padding: 0px;
+        margin: 20px 0 0 0;
+        border-bottom: dotted 2px #d0d0d0;
+        border-top: dotted 2px #d0d0d0;
+        background: #deded9;
+        font-size: 160%;
+      }
+
+      h2::first-letter {
+        color: #781808;
+        background-color: transparent;
+      }
+
+      #maindiv p {
+        font-size: 100%;
+        font-style: normal;
+        line-height: 150%;
+        padding: 0px;
+        margin: 10px auto;
+        width: 90%;
+        display: block;
+        text-align: justify;
+      }
+      
+      #maindiv address a:link,
+      #maindiv address a:visited {
+        font-weight: bold;
+        text-decoration: underline;
+        background-color: transparent;
+        color: #eaeaea !important;
+        padding-right: 5px;
+        padding-left: 6px;
+      }
+
+      #maindiv address a:focus,
+      #maindiv address a:hover {
+        text-decoration: none;
+        color: #F1F1F1;
+        border: 0;
+      }
+
+      #maindiv address a:active {
+        color: #fff;
+        text-decoration: line-through;
+        border: none;
+      }
+      
+      #maindiv address {
+        font-size: 95%;
+        font-style: normal;
+        font-weight: bold;
+        text-decoration: none;
+        color: #BBB;
+        background-color: #781808;
+        padding: 3px 0px 0px;
+        margin: 0px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        display: block;
+        text-align: right;
+      }
+      
+      #maindiv .important {
+        font-size: 95%;
+        font-family: Verdana;
+        text-align: left;
+        background-color: #F1F1F1;
+        border-top: solid 1px #aaa;
+        border-bottom: solid 1px #aaa;
+        border-left: solid 6px #aaa;
+        border-right: solid 6px #aaa;
+        padding: 10px;
+        margin: 20px auto;
+        width: 80%;
+        line-height: 160%;
+      }
+      
+      #maindiv .important::before {
+        display: none;
+      }
+      
+      #maindiv .important p {
+        font-size: 100%;
+        text-indent: 0px;
+        margin: 5px 0 10px 0;
+      }
+      
+      #maindiv ul {
+        margin: -10px 0 0 30px;
+        *margin-left: 65px;
+      }
+      
+      #maindiv ol {
+        margin: -10px 0 0 35px;
+        *margin-left: 70px;
+      }
+      
+      #maindiv .important ul {
+        margin: -10px 0 0 15px;
+      }
+
+      #maindiv .important ol {
+        margin: -10px 0 0 20px;
+      }
+      
+      #maindiv ul li {
+        list-style-type: square;
+        line-height: 150%;
+        text-align: justify;
+	margin-right: 5%;
+      }
+
+      #maindiv ol li {
+        line-height: 150%;
+        text-align: justify;
+	margin-right: 5%;
+      }
+
+      .t1 {
+        font-weight: bold;
+        width: 26%;
+        text-align: right;
+        clear: right;
+        float: left;
+        *float: none;
+        *margin-left: 65px;
+        line-height: 22px;
+      }
+      
+      .t2 {
+        text-align: left;
+        width: 73%;
+        float: right;
+        *float: none;
+        line-height: 22px;
+      }
+      
+      hr {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        height: 1px;
+        border: 0;
+        color: #aaa;
+        background-color: #aaa;
+      }
+      
+      hr.floatfix {
+        clear: both;
+        color: #e8e8e6;
+        background-color: #e8e8e6;
+        *margin: 0;
+        *padding: 0;
+      }
+
+      h1 {
+        font-size: 225%;
+        color: #444;
+        padding: 5px 0 5px 0;
+        margin: 0;
+        width: 100%;
+      }
+
+      h3,
+      h4,
+      h5 {
+        margin: 10px 40px 10px 40px;
+        padding: 0;
+      }
+      
+      h3 {
+        font-size: 125%;
+        font-style: italic;
+      }
+      
+      h4 {
+        font-size: 125%;
+      }
+      
+      h5 {
+        font-size: 100%;
+      }
+      
+      h6 {
+        width: 100%;
+        margin: 10px 0 15px 0;
+        background-color: #ECECEC;
+        text-align: left;
+        text-indent: 30px;
+        font-size: 100%;
+        font-style: italic;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        border-bottom: solid 1px #bbb;
+        border-top: solid 1px #bbb;
+      }
+
+      a:link,
+      a:visited {
+        color: #781808;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #222;
+        border-bottom: 1px solid black;
+      }
+
+    -->
+    /*]]>*/
+    </style>
+    <title>SPELLHOLD STUDIOS - Planescape: Torment Ultimate WeiDU Fixpack</title>
+  </head>
+  <body>
+    <a name="top" id="top"></a>
+    <div id="wrap">
+      <div id="header">
+        <h1>Planescape: Torment Ultimate WeiDU Fixpack</h1>
+        <strong>Un mod de Spellhold Studios para Planescape: Torment</strong>
+        <hr />
+        <p class="about">
+          Autor:  Qwinn (Paul Escalona)
+        <p class="about">
+          Arreglos del motor por:  scient (Brendan Casey)
+        </p>
+        <p class="about">
+          <a href="http://spellholdstudios.net/ie/pst-fixpack">Página web del mod</a> &#8226;
+          <a href="http://www.shsforums.net/index.php?showforum=552">Foro del mod</a> &#8226;
+          Versión: 4.00
+        </p>
+        <hr />
+        <p class="menu">
+          <a href="#intro">Introducción</a> &middot;
+          <a href="#installation">Instalación</a> &middot;
+          <a href="#fixes">Arreglos documentados</a> &middot;
+          <a href="#faq">FAQ</a> &middot;
+          <a href="#credits">Créditos</a> &middot;
+          <a href="#version">Historial de versiones</a>
+        </p>
+      </div>
+      <div id="maindiv">
+
+        <!-- ================== I n t r o d u c t i o n ================== -->
+        <a name="intro" id="intro"></a>
+        <div class="content">
+        <h2>Introducción</h2>
+          <p>Este mod es un exhausto paquete de arreglos en WeiDU Fixpack para el clásico de Black Isle, Planescape: Torment CRPG.</p>
+
+          <p>Este mod, creada por Paul Escalona (a.k.a. Qwinn), recopila los arreglos creados por numerosos modders a lo largo de los años y los empaqueta en un formato WeiDU más compatible, junto con un buen número de arreglos adicionales.</p>
+
+          <p>La principal ventaja del formato WeiDU es que, editando selectivamente los archivos existentes en lugar de sobreescribirlos, hace que los mods en WeiDU totalmente compatibles con cualquier otro mod WeiDU existente o futura para PS:T. Los mods no WeiDU normalmente pueden asumirse como incompatibles con muchas de las otras modificaciones.</p>
+
+          <p>Además de un número de arreglos originales de Qwinn, los arreglos de tres mods no WeiDU separados han sido integrados en este mod, y sus autores originales se merecen un gran honor por su trabajo. Esos mods son:</p><br />
+
+<ul>
+<li><strong>"Platter's Fixpack 1.37"</strong>, con Platter como el principal autor pero junto con otros contribuyentes también involucrados. Los arreglos del Fixpack Beta 1.38 están incluidos también, también por Platter.</li>
+<li><strong>"Restoration Pack"</strong>, autor Cilantro</li>
+<li><strong>"SKARDAVNELNATE'S All-Inclusive Fixpack"</strong>, autor SKARDAVNELNATE. La versión más reciente de este mod, que sigue teniendo soporte, que consulté durante la creación de mi mod era la versión IAP 20080429.</li>
+</ul>
+
+          <p>Platter's Fixpack fue exclusivamente arreglos de errores, y todos los arreglos de errores de ese mod también han sido arreglados en el PS:T WeiDU Fixpack.</p>
+          <p>Restoration Pack y SKARDAVNELNATE, siendo IAP, incluyen un trabajo más complicado que aglutinan las restauraciones o "Trabajos Inacabados", y han sido incluidos en un mod aparte llamado <a href="http://www.spellholdstudios.net/ie/pst-ub">PS:T Unfinished Business</a>.</p>
+
+          <p>Nótese que mientras este mod contiene exclusivamente arreglos de errores, muchos de estos arreglos dan como resultado contenidos restaurados del juego "regular" u original.</p>
+
+          <p>Deberías considerar seriamente instalar también tanto el <a href="http://www.spellholdstudios.net/ie/pst-ub">PS:T Unfinished Business</a> como el <a href="http://www.spellholdstudios.net/ie/pst-qtweaks">Qwinn's PS:T Tweak Pack</a>, ya que fueron desarrollados en conjunto con este mod. En particular, el Tweak Pack contiene un Acelerador de Banters que te permitirán tener una posibilidad aunque remota de ver todas los banters disponibles en el juego. Lo incluiría en este Fixpack, ya que la velocidad a la que aparecen es, por lo general, muy baja (he visto menos de 12 de los 78 disponibles durante mi partida de prueba); tanto como para considerarlo roto, excepto que, debido a una limitación del motor del juego, no puedo hacer que aparezcan los banters en función del tiempo real, como se pretendía. Solo puedo hacer que aparezcan en función del tiempo del juego. Para evitar la controversia sobre si debería ser considerado arreglo o no, lo pongo en el Tweak Pack, pero por mi parte lo considero también un arreglo. Juntos, espero que proporcionen una experiencia mucho más rica mientras juegas a PS:T.</p>
+          
+          <p><strong>Notas de la versión 2.0:</strong><p>
+          
+          <p>La versión 1.01 del Fixpack estaba comprimida como un único conjunto. La version 2.00 tiene 3 partes en total. La parte #1 es el núcleo del Fixpack. La parte #2 sólo son las correcciones de gramática y ortografía en inglés que ya estaban separadas en la versión 1.01 para que así no interfirieran con las instalaciones en otras lenguas; no está disponible si eliges cualquier otro lenguaje que no sea el inglés durante la instalación.<p>
+
+          <p>La parte #3 es completamente nueva para la versión 2.00 del Fixpack: Escenas Cinemáticas Subtituladas. Esta parte, recoge todas aquellas escenas del juego en las que el diálogo solamente se comunicaba por voz o sonido y lo convierte en diálogo escrito. Esto permite que sea posible traducir ese diálogo a otras lenguas distintas del inglés o del alemán, que son las únicas lenguas a las que se tradujeron las voces. La mayoría de estos diálogos sólo sonoros llegaban en las más importantes y críticas escenas cinemáticas de toda la trama del juego, como buena parte de las escenas finales, lo que debió ser muy frustrante para los jugadores que jugaban con traducciones. Esta parte también es importante para los que tienen deficiencias auditivas o para la gente que prefiere jugar con el volumen bajo, etc. Yo personalmente no la necesito, pero de todas formas prefiero disponer de ella. Recomendada incouso para jugadores ingleses o alemanes. ¡Nunca volverás a perderte un diálogo!<p>
+
+           <address>
+            <span class="footer">PS:T Fixpack &gt; Introducción</span> &#8226;<a href="#top">VOLVER AL PRINCIPIO</a>
+          </address>
+        </div>
+
+        <!-- ================== I n s t a l l a t i o n ================== -->
+        <a name="installation" id="installation"></a>
+        <div class="content">
+          <h2>Instalación</h2>
+
+          <p>PS:T Ultimate WeiDU Fixpack fue creado y probado en una instalación limpia de la versión de 4 CDs de Planescape: Torment con el Parche Oficial PS:T 1.1 aplicado.<p>
+
+          <p>Se recomienda encarecidamente, debido al gran número de cambios que este mod realiza a todas las zonas del juego, si quieres instalar otro mod distinto al parche oficial y cualquier paquete de idiomas que quieras instalar, este mod sea instalado primero. Aquí se muestra un orden de instalación correcto para el parche oficial, este mod, cualquier paquete de idiomas y cualquier otro mod que quieras instalar en tu partida:</p> <br />
+
+          <ol>
+          <li>Instalar Planescape: Torment.</li>
+          <li>Realizar una instalación completa del juego copiando las carpetas cd2, cd3 y cd4 a la carpeta donde hayas instalado el juego. En la versión de 4 CDs cada carpeta corresponde a un CD, mientras que para la versión de 2 CDs, esas carpetas se encuentran en el CD2. Una vez copiados, editar el archivo "torment.ini" de forma que el apartado [ALIAS] muestre lo siguiente (el directorio de instalación mostrado es el de una instalación por defecto):
+          <p>CD2=C:\Archivos de programa\Black Isle\Torment\cd2</p>
+          <p>CD3=C:\Archivos de programa\Black Isle\Torment\cd3</p>
+          <p>CD4=C:\Archivos de programa\Black Isle\Torment\cd4</p></li>
+          <li><strong>SI HAS INSTALADO LA VERSIÓN DE 4 CDS DEL JUEGO:</strong> Debes instalar ahora el <a href="http://www.sorcerers.net/Games/Torment/index_misc.php">Parche Oficial PS:T 1.1 disponible en Sorcerer's Place</a> tras realizar la instalación completa de los CDs, pero antes de instalar cualquier otra cosa. Esto no es necesario si instalaste la versión de 2 CDs del juego, ya que ya viene aplicado el parche a la versión 1.1.</li>
+          <li><strong>Tu paquete de idiomas.</strong></p>
+          <p><a href="http://academia.clandlan.net/?page=academia/view&id=49&title=Traduccion_de_Planescape_Torment">La traducción al Español de Clan Dlan está disponible aquí.</a></p>
+          <li><strong>El PS:T Ultimate WeiDU Fixpack (este mod).</strong> Mira las instrucciones de instalación más abajo.</li>
+          <li>Cualquier otro mod. Los mods en WeiDU deberían ser compatibles. Los mods no WeiDU pueden o no ser compatibles; instálalos bajo tu propio riesgo.</li> </ol>
+
+          <p><strong>Para instalar PS:T Ultimate WeiDU Fixpack</strong>, simplemente extrae el pstfixpack.rar en tu directorio principal de Planescape: Torment (probablemente C:\Archivos de programa\Black Isle\Torment). Pulsa sobre Setup-PST-Fix.exe y sigue las instrucciones que se muestran.</p>
+
+          <p><strong>Para desinstalar</strong>, simplemente pulsa sobre Setup-PST-Fix.exe una vez más y sigue las instrucciones que se muestran.</p>
+
+           <address>
+            <span class="footer">PS:T Fixpack &gt; Instalación</span> &#8226;<a href="#top">VOLVER AL PRINCIPIO</a>
+          </address>
+        </div>
+
+        <!-- ================== D O C U M E N T E D  F I X E S ================== -->
+        <a name="fixes" id="fixes"></a>
+        <div class="content">
+          <h2>Arreglos documentados</h2>
+
+          <h3>(POSIBLES SPOILERS MENORES)</h3>
+          <br />
+
+          </p>
+
+          <p>Aquí hay una lista parcial de los objetos y conversaciones más significativos que este mod restaura, junto con los autores que merecen una mención por encontrarlos y arreglar originalmente el error. Si el autor no está mencionado como Platter, Restoration Pack, SKARDAVNELNATE o yo mismo (Qwinn), entonces el trabajo del aturo fue empaquetado con el Platter's Fixpack.</p>
+          <p>Versión 1.00-1.01</p> <br />
+          <ol>
+<li>El "Tatuaje del Fallecimiento de Grosuk" debería estar disponible ahora durante el juego. (Platter)</li>
+<li>Ahora puedes preguntarle a Virtud acerca de Vhailor cuando le preguntes acerca de tus compañeros. (Platter)</li>
+<li>Ahora Nordom puede hacer Virotes Alados. (Platter y Restoration Pack)</li>
+<li>Ahora es posible reclutar a Sere para que se una a los Anarquistas después de ti. (Platter)</li>
+<li>Muchos hilos de conversación con Nordom arreglados. Aseguraos de preguntarle repetidamente acerca de tu inmortalidad. (Platter)</li>
+<li>Las comprobaciones de características para la mejora de características de Nordom ahora es correcta. Tened en cuenta, que ahora debes tener un Carisma EXTREMADAMENTE ELEVADO (casi al máximo) para poder conseguir su mejor actualización.  (Platter)</li>
+<li>El Emblema Negativo ahora funcionará con los esqueletos sombríos en el Laberinto de Ravel. (Ash McGowen)</li>
+<li>Ahora puedes conseguir que Marissa petrifique tu Lim-Lim, que podrá ser de utilidad y abrirte potencialmente nuevas avenidas por otros lugares. (Platter)</li>
+<li>El cadáver de Lowden es ahora mucho más accesible, puesto que era casi imposible pulsar sobre él en el juego normal. (SKARDAVNELNATE)</li>
+<li>El Ermitaño en Curst Subterráneo te dará ahora el pergamino del Manto Guardián tal como se suponía cuando le preguntabas acerca de la deva (aunque únicamente daba pistas en su diálogo)  (SKARDAVNELNATE)</li>
+<li>Ahora tendrás más control cuando abandones Carceri. (SKARDAVNELNATE)</li>
+<li>Muchas criaturas podían fallan al reconocerte como un Caótico si pertences al Factol. Ahora te reconocerán. (SKARDAVNELNATE)</li>
+<li>Para evitar muchos de los errores informados en estas situaciones, los miembros del grupo que forzosamente se separan en cierto punto del juego ahora se unirán automáticamente cuando sea el momento apropiado para ello.  (SKARDAVNELNATE)</li>
+<li>Lenny no volverá a entrenarte como si nunca hubieras sido un ladrón cuando ya habías tenido ese entrenamiento. Aun así puedes seguir preguntándole para que te entrene. (SKARDAVNELNATE & Qwinn)</li>
+<li>Hezobol ahora se comportará correctamente cuando intentes parar su esclavitud de una manera no elocuente. Ahora debes ser de alguna manera elocuente para resolver este conflicto pacíficamente y obtener la recompensa. (Qwinn)</li>
+<li>Muchas, muchísimas criatuas que fallaban al darte o coger tu dinero cuando se suponía que debían hacerlo funciona ahora correctamente. (Qwinn)</li>
+<li>Muchos (pero no todas, las excepciones son deliberadas) dadores de misión que dan recompensas monetarias por completar sus búsquedas soltarán esas monedas como si hubieran sido asesinadas antes de que su búsqueda fuese completada. Esto puede cambiar el curso óptimo de acción de lugares donde se deben tomar decisiones, con las recompensas de varias opciones en el Callejón de los Ángulos Peligrosos como un ejemplo significativo. (Qwinn)</li>
+<li>Ahora puedes mencionar el asunto del legado ardiente de Iannis a la Encarnación Paranoica tras haber confesado el acto a Iannis. (Qwinn)</li>
+<li>Ahora solo puedes decirle a Capaz de Ponderar Pensamientos que eras un Divino si apenas sabes algo de ellos. (Qwinn)</li>
+<li>Un error impedía una rama de conversación con El Transcendente si tenías la Hoja del Inmortal. Esta rama de conversación ahora está arreglada y disponible. (Qwinn)</li>
+<li>El entrenador ladrón en la Plaza de los Traperos, originalmente llamado Raborrata, ahora se llama Tallador. (Qwinn - esto es para eliminar redundancias con un diferente y sin implementar Raborrata encontrado entre los archivos del juego, y que es restaurado en el componente del Unfinished Business "Restaurar Búsqueda del Pnediente de Yemeth")</li>
+<li>El Tatuaje Githzerai debería estar ahora disponible. (Restoration Pack hizo primero esto posible, pero virtualmente requería metajuego para hacerlo, así que ahora es más fácil conseguirla, y bastantes arreglos se han solucionado durante el proceso gracias a Qwinn)</li>
+<li>Si le dices a El Transcendente que escapaste del cristal, no lo recuerda. Ahora lo hará. (Qwinn)</li>
+<li>Numerosos arreglos a la velocidad de lanzamiento de conjuros y sus descripciones. (Restoration Pack hacía esto incorrectamente, así que en mi opinión, la implementación actual es de Qwinn)</li>
+<li>Las interjecciones de Morte cuando habla con Aethelgrin y Tegar'in tendrán sentido ahora, al igual que las respuestas de los diablos tras las interjecciones. (Qwinn)</li>
+<li>Cualquier progreso al darle a Xander las partes del Hacedor de Sueños impedía que le contaras a Yves la historia del Hacedor de Sueños. Ahora puedes contarle la historia en cualquier momento en el que lo aprendas. (Qwinn)</li>
+<li>Raza de Ilquix corregida. Las criaturas cercanas reaccionarán ahora correctamente. (Qwinn)</li>
+<li>Los Guanteletes de Dientes podían conseguirse en un ámbito inconsistente al principio del juego y con mucho menos esfuerzo del que su poder parece conceder, y no se pueden obtener tanto esos como los Dientes del Infernal en una misma partida. Todas estas rarezas están explicadas por un simple caracter perdido en una acció del diálogo de Marta cuando le mientes. Al arreglarlo, y moviendo los Guanteletes al inventario de Lothar, donde son apropiados por su contexto y por el punto del juego en el que está, ya no serán algo sobrepotenciado. (Qwinn)</li>
+<li>Un error sistémico causaba que muchos personajes, quienes se suponían que debían decir desde cinco a veinte cosas diferentes en un texto flotante sobre sus cabezas, nunca dijeran más que tres o raramente cuatro de ellas. Todas esas docenas de textos flotantes que nunca se mostraron ahora aparecerán en el juego. En particular, buscad a muchos personajes para ver los nuevos elementos de este asunto en el Pueblo Enterrado y el Callejón de los Ángulos Peligrosos, además de Drusilla y Giltspur. (Qwinn)</li>
+<li>Relacionado con el mismo error; todos los clientes en el Burdel tienen ahora el potencial de detener y hablar con cualquier de las chicas ocasionalmente tal y como estaba intencionado, en lugar de trabajar únicamente con una o dos de ellas (aunque no puedes escuchar a escondidas). Ahora en serio, simplemente mirar a todo el mundo en el Burdel interactuar con otro es realmente increíble ahora, y con el montón de trabajo hecho para hacerlo complejo e interesante, ahora podrá ser apreciado. (Qwinn)</li>
+<li>Iannis tenía peores problemas de amnesia que El Sin Nombre. Lo he curado un poco, lo suficiente para que el diálogo esté disponible. (Qwinn)</li>
+<li>Yvana ya no se comunicará y parcheará cosas con su hija instantáneamente, sin ni siquiera dialogar contigo. Su hija te permitirá saber que han parcheado cosas si le preguntas, y puedes preguntarle a Yvana acerca de eso después. (Qwinn)</li>
+<li>Kel'lera en la habitación trasera de la Gran Fundición simplemente se queda de pie ahí; la supervisora más floja que hay. Y sus trabajadores nunca necesitan más clavos y herramientas. Ella y sus trabajadores tienen uno de los scripts más complejos que haya visto en un juego de IE, pero el archivo de la zona que activa y controla todo eso no existe. He hecho lo posible para reconstruir lo que debería ser realmente, y corregido algunos errores. Aseguraos de comprobar esta zona. (Qwinn)</li>
+<li>Se supone que no deberías ser capaz de mediar en el conflicto entre los Hermanos Malako hasta que Kitla te dé la misión para ello. Ahora no puedes hacerlo. Esto impedirá varios errores relacionados y aprovecharse de ello. (Qwinn)</li>
+<li>La recompensa de experiencia de Kester por la búsqueda es completamente inconsistente con la de Kitla y la de Puñoaplastador. (Qwinn)</li>
+<li>Ahora puedes informar de Roberta a los guardias o al capitán en cualquier momento antes de que sea demasiado tarde para hacerlo. Además, una simple rama de conversación en la que le hablas al Capitán de la Guardia sobre la trama no daba como resultado en ella siendo arrestada o la búsqueda termianda. (Qwinn)</li>
+<li>Dependiendo de la combinación de NPCs que tuvieras en tu grupo, podía ocurrir que nunca obtuvieras el diálogo introductorio de Trias con audio, además de la entrada de diario describiendo vuestro encuentro. Esto está arreglado. (Qwinn)</li>
+<li>Entre los arreglos menores de errores en su diálogo, Trias no volverá a fallar en percibir a Virtud si Dak'kon está cerca la primera vez que te encuentras con él. Esto impedía un intercambio interesante si ella estaba en el grupo la primera vez que hablabas con él. Nótese que Trias tendrá ahora un diálogo consistentemente diferente dependiendo de si Virtud está cerca o no, tal y como se tenía pensado. Y también que podría abrirse algunos asuntos simplemente enviándola fuera de la habitación y volviendo a hablar con él de nuevo; no es necesario echarla del grupo. (Qwinn)</li>
+<li>Las recompensas de experiencia al rescatar a Berrog y/o Tovus tenían errores graves. Ahora son consistentes, y apropiadas para las elecciones hechas y no aleatorias dependiendo de a quién hablaras primero o si seguías las numerosas e idénticas ramas de conversación en ambos. (Qwinn)</li>
+<li>Si tenías a An'Izius arrestado (probablemente), y entras en la zona de la prisión de Curst Subterráneo más de una vez (probablemente), las Ejecuciones en Carceri posteriores fallarían. Ambas ejecuciones podían ocurrir al mismo tiempo (lo que las hacía sin sentido) y ambas podían comenzar en el momento en el que entraras en la zona en lugar de cuando estuvieras al alcance visual para verlas. Arreglado. (Qwinn)</li>
+<li>El bonificador de experiencia del Tatuaje de la Fuente no funcionaba. Arreglado. (Qwinn)</li>
+</ol> <br />
+<p>Versión 2.00:</p> <br />
+<ol>
+<li>Añadido soporte de múltiples idiomas. Separado arreglos de Pronunciación/Gramaticales/Puntuación en un componente aparte. Este componente sólo estará disponible para instalar si seleccionas Inglés al principio del proceso de instalación. (Qwinn)</li>
+<li>TRADUCCIÓN ESPAÑOLA, proporcionada por Ghildrean.</li>
+<li>TRADUCCIÓN ITALIANA, proporcionada por Yakkuz.</li>
+<li>TRADUCCIÓN ALEMANA, desarrollada en conjunto por Zenju, Homisite, Doctor Who, Arkain, y Avantenor.
+<li>LA TRADUCCIÓN DE ESTE LÉEME, proporcionada por Ghildrean :)</li>
+<li>Los gráficos de inventario de los Pendientes de Dientes Entrelazados de Annah parecían un conjunto normal de ganzúas. Créditos a Miloch en SHS por crear unos nuevos (y especialmente buenos) BAMs para hacer que concuerden con la descripción del objeto. (Miloch, Qwinn)
+<li>Se supone que deberia haber serias consecuencias negativas al mentir a Sarossa en la Fundición. Podías incluso decir que ella te hizo algo, pero no ocurrir nada, y si le hablabas de nuevo lo había olvidado todo. En la versión 2.00 y en adelante del Fixpack, sus maldiciones funcionarán, y tendrás la oportunidad de disculparte (o mentirle de nuevo) en la subsiguiente conversación. (Qwinn)</li>
+<li>Arreglados textos flotantes no funcionales de los matones Ladradores de los Perros Hambrientos, Ramera Borracha, Jhelai, y un borracho errante sin nombre, todos en la zona exterior del bar del Cadáver Humeante. Ya no estarán desaparecidos para siempre. (Qwinn)</li>
+<li>El Tatuaje de la Unión no podía conseguirse después de que Karina te lo agradeciera por tus esfuerzos. (Qwinn)</li>
+<li>El comportamiento errático del asedio al portal de la torre arreglado. (Qwinn)</li>
+<li>Giltspur no volverá a darte su primera misión si ya la habías hecho imposible de completar. (Qwinn)</li>
+<li>El bucle de experiencia en el diálogo de Esquirla tras infiltrarte en los Sensibles para los Anarquistas ha sido arreglado.(Qwinn)</li>
+<li>Arreglados dos ramas de conversación en el diálogo de Puñoaplastador. La rama de preguntarle acerca de su hermano hacía que su tienda se abriera. Además, preguntarle acerca de la deva, y luego preguntarle acerca de su hermano terminaba abruptamente con la conversación. (Qwinn)</li>
+<li>Decirle a El Transcendente que usarás su nombre verdadero para deshacerle no volverá a ejecutar una escena de pre-combate antes de ejecutar las películas finales. (Qwinn)</li>
+<li>Entrada del bestiario para Comadrona restaurado. (Qwinn)</li>
+<li>El conjuro de Quitar Maldición - tanto de sacerdote como de mago - ignorará ahora la resistencia mágica. Vhailor resistía siempre el conjuro anteriormente. (Qwinn)</li>
+<li>Ahora debes usar el Hacedor de Sueños antes de poder contárselo a Kesai-Serris. Antes de este arreglo, podías contarle los detalles acerca del sueño en el mismo momento en que obtuvieras la misión de construir el Hacedor de Sueños. (Qwinn)</li>
+<li>Las víctimas del conjuro Cañón de Mechanus no volverán a realizar una salvación para la mitad de daño. Disfrutad del reto añadido a un combate en particular. (Qwinn)</li>
+<li>Arreglos de Clan Dlan. Clan Dlan empaquetó originalmente algunos arreglos de diálogos junto con su traducción española que ahora están disponibles para todos los idiomas. Con su amable permiso, he comprobado esos archivos y recogido 16 nuevos arreglos de diálogos gracias a ellos. Los más notables son 3 líneas restauradas de la conversación entre Morte y Virtud sobre lo aburrido que es Mechanus (que actualmente mantenía una transición inconsistente hacia su conversación sobre la Fuente), y 3 líneas restauradas de la conversación de Morte con la Cliente del Café en el Barrio de los Escribanos acerca de los mimirs. Además, los ESN malignos que obtenían una entrada de diario relacionada con Adulametales está arreglada, y Miccah obtiene una línea restaurada en su discusión con su marido Brokah. (Clan Dlan)</li>
+    </ol>
+         <br /><br />
+          <h3>(FIN DE POSIBLES SPOILERS MENORES)</h3>
+
+          <p>Por favor nótese que ni la lista de la versión 1.01 ni la de la versión 2.0 son listas completas de todos los arreglos de errores del WeiDU PS:T Fixpack. Además, no incluyen los arreglos de versiones posteriores. Se pretende como una guía de jugadores para encontrar los contenidos más significativos a los que no tuvieron acceso en el juego original, y alertarlos de algunos de los cambios más significativos.<p>
+
+          <p>Cada error, por mínimo que sea, que esté arreglado por este mod está bien documentado en los archivos .d y .tph encontrados en los directorios de /dlg y /tph del mod. Una lista más legible de todos los errores podría, o tal vez no, estar disponible en futuras versiones.</p>
+
+          <p>No todos los arreglos están mencionados en este léeme, pero tranquilos, porque hay literalmente cientos de arreglos para errores en objetos, entradas de diario, diálogos, medidores de alineamiento, recompensas de búsquedas, criaturas, sonidos, scripts y muchas más cosas. Si alguien cree que algún arreglo debería estar mencionado en la lista de este léeme, simplemente házmelo saber en el <a href="http://www.shsforums.net/index.php?showforum=552">foro de este mod</a> y estad seguros de que lo añadiré.</p>
+
+           <address>
+            <span class="footer">PS:T Fixpack &gt; Arreglos documentados</span> &#8226;<a href="#top">VOLVER AL PRINCIPIO</a>
+          </address>
+        </div>
+
+
+        <!-- ================== F A Q ================== -->
+        <a name="faq" id="faq"></a>
+        <div class="content">
+          <h2>Cuestiones Frecuentemente Preguntadas</h2>
+
+          <p><strong>C: Esto no tiene mucho de FAQ.</strong><br />El FAQ en inglés es monstruoso. No soy tan malo como para pedir a vuestro desinteresado traductor que traduzca todo eso, particularmente debido a que muchas de las cosas están relacionadas con los orígenes de este mod, y los extensos créditos redundantes del trabajo que fueron consultados durante su creación, etc. Cualquiera que merezca una mención estará en la sección de Créditos, más abajo.</p>
+
+
+          <address>
+            <span class="footer">PS:T Fixpack &gt; FAQ</span> &#8226;<a href="#top">VOLVER AL PRINCIPIO</a>
+          </address>
+        </div>
+
+        <!-- ================== C r e d i t s ================== -->
+        <a name="credits" id="credits"></a>
+        <div class="content">
+          <h2>Créditos</h2>
+
+<p>Gran parte de estos créditos ya estaban extendidos en la Introducción y en el FAQ, pero aquí vamos otra vez:</p>
+
+<p>Desafortunadamente, <strong>Platter</strong>, muchos de sus coautores y <strong>Cilantro</strong> han desaparecido de internet en lo referente a su trabajo, y mis intentos de contactar con ellos han fallado, pero siguen mereciendo acreditarles por su esfuerzo y calidad por sus trabajos, los cuales han sido reimplementados aquí. Los coautores que contribuyeron al Platter's Fixpack fueron Platter (obviamente), Christopher Nice, Ash McGowen, Chaos Incarnate, Joshua Haber, SKARDAVNELNATE, y Barren.</p>
+
+<p><strong>SKARDAVNELNATE</strong> con gusto consintió el permitirme hacer referencia a su tremendo All Inclusive Fixpack no WeiDU para este mod (y, como se notará, su trabajo original indicaba más errores que cualquier otro autor) y fue muy amable al responder a muchas de las preguntas, y por ello merece un gran honor por los (espero) éxitos de este mod además de toda mi gratitud.</p>
+
+<p><strong>Qwinn</strong> - que ese soy yo- hizo todo el trabajo de WeiDUficar todo lo necesario manualmente reimplementando todos los mods de los demás autores. Eso significa que si hay algún problema en este Fixpack con algo que fue arreglado con su trabajo, es casi seguro que es culpa mía, así que no los insultéis. Insultadme también si encontráis algún error gramatical o de escritura en los diálogos. También hice todas las pruebas, al menos para la Versión 1.00. E insultadme además por cualquier error por el que me dé créditos, si el arreglo no funciona o rompe algo más. Así que desde luego, insultadme por cualquier cosa que vaya mal. Pero HÁZMELO saber en el foro, enlazado al principio de este léeme. El objetivo ginal es que -no- queden errores.</p>
+
+<p>Créditos también para <b>Vaxquis</b>, con quien me puse en contacto en los últimos días de codificar este mod, quien ha editado su propio juego en el pasado y quien me dirigió hacia algunos errores que ignoré y que amablemente me sugirió las formas de arreglarlos.</p>
+
+<p>Muchas gracias a varios de los modders del foro de Gibberlings 3 quienes pacientemente respondieron a muchas de mis tontas preguntas a medida que aprendía a hacer mods, particularmente a <strong>Miloch, Isaya, devsin y Nythrun</strong>, quienes me indicaron la dirección correcta en muchos de los puntos conflictivos, y a varios jugadores que me alentaron a mantener el proyecto en G3 también (particularmente, pero sin embargo no limitado a, <strong>Icendoan, Daulmakan, y Bearwere)</strong>. También quiero extender mi agradecimiento a Spellhold Studios, y a <strong>K'aeloree</strong> y <strong>SConrad</strong> en particular, por gentilmente permitirme alojar los tres mods aquí y garantizarme una destacada posición en su página principal del foro. Finalmente, gracias a <strong>thebigg</strong> en Pocket Plane Group por escucharme e implementar mi lista de sugerencias de características adicionales para incluir en WeiDU 207 que hagan mi trabajo más fácil.</p>
+
+<p>Versión 2.0:<p>
+
+<p>Como ya se ha mencionado en la lista de errores, la gente de <strong>Clan Dlan</strong> había empaquetado 16 arreglos de errores junto con su traducción al español, quienes han sido muy amables al permitirme reincorporarlos aquí. Muchas gracias a ellos, particularmente a <strong>Immortality, Ghildrean</strong> (quien además hizo la traducción española de estos mods) y <strong>Palafoxx</strong>. Estos arreglos de errores están implementados en la versión 2.00 de este Fixpack.</p>
+
+<p>Gracias a todos los jugadores que han trabajado duro en la traducción de estos mods. <strong>Ghildrean</strong> creó la traducción al castellano (excepto el componente de Escenas Subtituladas, traducido por <strong>Palafoxx</strong>). <strong>Yakkuz</strong> creó la traducción al italiano (excepto las Escenas Subtituladas, traducidas por <strong>Dufroise</strong> y <strong>Nore</strong>, y gracias a <strong>Immortality</strong> de Clan Dlan por organizarlo). La traducción al alemán fue creada en cooperación entre (por órden alfabético) <strong>Arkain, Avantenor, Doctor Who, HomiSite, y Zenju</strong>, siendo HomiSite y Zenju los líderes del proyecto. Zenju, incidentalmente, hizo también las revisiones de la traducción al alemán del juego, y por ello le doy las gracias. HomiSite tradujo el componente de Escenas Subtituladas al alemán, y Arkain ayudó a comprobar los archivos sin subtítulos.</p>
+
+<p>Este léeme fue traducido amablemente por <strong>Ghildrean</strong>.<p>
+
+<p><strong>Per Jorner</strong>, quien normalmente pasa su tiempo por la página de Fallout No Mutants Allowed, hace tiempo creó una lista de errores de todos los juegos con IE que encontré útil para arreglar 7 errores significativos para la versión 2.00. Esperad incluso más errores de esa lista arreglados para futuras versiones (aunque los más gordos ya han sido corregidos, y los restantes no deberían restaurar contenidos perdidos).</p>
+
+<p>Agradecimientos adicionales para <strong>Miloch</strong> por proveerme los nuevos gráficos apropiados para los pendientes de Annah, y por ser normalmente amable cuando le pido que compruebe cosas en la versión de 2 CDs.</p>
+
+<p>Versión 3.0:</p>
+
+<p>Muchas gracias a <strong>Chris Avellone</strong>, diseñador jefe de Planescape:Torment, y a <strong>Colin McComb</strong>, diseñador original de la Fundición, entre otras zonas, no solo por hacer este clásico y maravilloso juego, sino también por sus consejos y sus amables ánimos en algunos asuntos importantes. Espero de corazón que les guste lo que estamos haciendo aquí.</p>
+
+<p>Obviamente, Brendan Casey, aka <strong>scient</strong>, recibe una gran cantidad de agradecimientos y créditos por aportar un gran número de arreglos a los errores del motor que previamente consideraba insolucionables. La versión 3.0 no sería tan estupenda sin su increible trabajo. ¡Un aplauso para scient!</p>
+
+<p>También, agradecer de nuevo a Per Jorner por su lista de errores que me condujo a otra ronda de arreglos incluidos en la versión 3.0, y a SKARDAVNELNATE por indicarme algunos errores menores en mi reimplementación de los arreglos del Platter's Fixpack.</p>
+
+<p>Versión 4.0:</p>
+
+<p>Muchísimos más agradecimientos a scient por los muchísimos y estupendos arreglos del motor.</p>
+
+<p>También agradecer a <strong>yarpen</strong> y a <strong>W. Irving</strong> por proporcionarme una traducción al polaco de los mods.</p>
+
+<p>¡Espero que disfrutes de la mejor experiencia de Planescape: Torment! Con lo inconstante que la memoria puede ser (tal y como ESN puede asegurar), que la memoria de esto, el mejor CRPG jamás escrito, nunca muera.</p>
+
+
+          <hr class="floatfix" /><!-- Don't remove the <hr /> unless you have text following the last "t2" in this <div>! -->
+          <address>
+            <span class="footer">PS:T Fixpack &gt; Créditos</span> &#8226;<a href="#top">VOLVER AL PRINCIPIO</a>
+          </address>
+        </div>
+
+        <!-- ================== V e r s i o n   H i s t o r y ================== -->
+        <a name="version" id="version"></a>
+        <div class="content">
+          <h2>Historial de versiones</h2>
+          <h6>04 de junio de 2008 - Versión 1.00</h6>
+          <ul>
+            <li>Inicio de la publicación</li>
+          </ul>
+          <h6>06 de junio de 2008 - Versión 1.01</h6>
+          <ul>
+            <li>Solucionado un problema pertinente solo a la versión de 2 CDs.</li>
+          </ul>
+          <h6>17 de agosto de 2008 - Versión 2.00</h6>
+          <ul>
+            <li>Cerca de 40 nuevos arreglos. Añadidas las traducciones al Español, Alemán e Italiano.</li>
+          </ul>
+          <h6>20 de diciembre de 2008 - Versión 3.0</h6>
+          <ul>
+            <li>Cerca de 17 arreglos del motor por scient, y alrededor de 50 arreglos no relacionados con el motor por Qwinn.</li>
+          </ul>
+          <h6>25 de diciembre de 2008 - Versión 3.01</h6>
+          <ul>
+            <li>Actualización menor.</li>
+          </ul>
+          <h6>01 de enero de 2009 - Versión 3.02</h6>
+          <ul>
+            <li>Actualización menor.</li>
+          </ul>
+          <h6>15 de enero de 2010 - Versión 4.0</h6>
+          <ul>
+            <li>Actualización masiva, una docena de arreglos del motor y cerca de 100 errores no relacionados con el motor arreglados.</li>
+          </ul>
+
+          <address>
+            <span class="footer">PS:T Fixpack &gt; Historial de versiones</span> &#8226;<a href="#top">VOLVER AL PRINCIPIO</a>
+          </address>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
