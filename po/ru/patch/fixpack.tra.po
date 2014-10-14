@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: planescape\n"
 "POT-Creation-Date: 2014-06-15 23:50 +0600\n"
-"PO-Revision-Date: 2014-10-12 12:00+0600\n"
+"PO-Revision-Date: 2014-10-14 22:02+0600\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: -1000
 msgid "The %TP2_FILE_NAME% mod has"
-msgstr "Мод %TP2_FILE_NAME% содержит"
+msgstr "The %TP2_FILE_NAME% mod has"
 
 #: -1001
 msgid ""
@@ -25,37 +25,37 @@ msgid ""
 "To save time, you can choose what to do with them at a high level rather\n"
 "than being asked about each one.\n"
 msgstr ""
-"отдельные необязательные компоненты.\n"
-"Чтобы сэкономить время, вы можете указать для них действия по умолчанию\n"
-"вместо того, чтобы отвечать на каждый запрос по отдельности.\n"
+"distinct optional components.\n"
+"To save time, you can choose what to do with them at a high level rather\n"
+"than being asked about each one.\n"
 
 #: -1002
 msgid ""
 "What should be done with all components that are NOT YET installed?\n"
 "[I]nstall them, [S]kip them, [A]sk about each one? "
 msgstr ""
-"Что делать с компонентами, которые ЕЩЕ не были установлены?\n"
-"[I]Установить их, [S]Пропустить их, [A]Спрашивать каждый раз? "
+"What should be done with all components that are NOT YET installed?\n"
+"[I]nstall them, [S]kip them, [A]sk about each one? "
 
 #: -1003
 msgid ""
 "What should be done with all components that are ALREADY installed?\n"
 "[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
 msgstr ""
-"Что делать с компонентами, которые УЖЕ были установлены?\n"
-"[I]Установить их, [S]Пропустить их, [A]Спрашивать каждый раз? "
+"What should be done with all components that are ALREADY installed?\n"
+"[R]e-install them, [U]ninstall them, [S]kip them, [A]sk about each one? "
 
 #: -1004
 msgid "PLEASE email the file"
-msgstr "ПОЖАЛУЙСТА, отправьте по электронной почте файл"
+msgstr "PLEASE email the file"
 
 #: -1005
 msgid "to"
-msgstr " "
+msgstr "to"
 
 #: -1006
 msgid "Install ["
-msgstr "Установить ["
+msgstr "Install ["
 
 #: -1007
 msgid ""
@@ -63,7 +63,7 @@ msgid ""
 "[R]e-Install, [N]o Change or [U]ninstall or [Q]uit? "
 msgstr ""
 "]?\n"
-"[R]Переустановить, [N]Не менять, [U]Удалить или [Q]Выйти? "
+"[R]e-Install, [N]o Change or [U]ninstall or [Q]uit? "
 
 #: -1008
 msgid ""
@@ -71,63 +71,63 @@ msgid ""
 "[I]nstall, or [N]ot Install or [Q]uit? "
 msgstr ""
 "]?\n"
-"[I]Установить, [N]Не устанавливать или [Q]Выйти? "
+"[I]nstall, or [N]ot Install or [Q]uit? "
 
 #: -1009
 msgid "Enter part of a module name: "
-msgstr "Введите часть имени модуля: "
+msgstr "Enter part of a module name: "
 
 #: -1010
 msgid "Re-Installing ["
-msgstr "Переустановка ["
+msgstr "Re-Installing ["
 
 #: -1011
 msgid "] component "
-msgstr "] компонента"
+msgstr "] component "
 
 #: -1012
 msgid "Re-Installing Using Language"
-msgstr "Переустановка для языка"
+msgstr "Re-Installing Using Language"
 
 #: -1013
 msgid "Removing old installation of ["
-msgstr "Удаление старой установки ["
+msgstr "Removing old installation of ["
 
 #: -1014
 msgid "] first ..."
-msgstr "]..."
+msgstr "] first ..."
 
 #: -1015
 msgid "SUCCESSFULLY REMOVED OLD"
-msgstr "УСПЕШНО УДАЛЕН СТАРЫЙ"
+msgstr "SUCCESSFULLY REMOVED OLD"
 
 #: -1016
 msgid "Installing"
-msgstr "Установка"
+msgstr "Installing"
 
 #: -1017
 msgid "ERROR Installing ["
-msgstr "ОШИБКА установки ["
+msgstr "ERROR Installing ["
 
 #: -1018
 msgid "], rolling back to previous state"
-msgstr "], откат к предыдущему состоянию"
+msgstr "], rolling back to previous state"
 
 #: -1019
 msgid "SUCCESSFULLY INSTALLED"
-msgstr "УСПЕШНО УСТАНОВЛЕН"
+msgstr "SUCCESSFULLY INSTALLED"
 
 #: -1020
 msgid "Skipping "
-msgstr "Пропуск"
+msgstr "Skipping "
 
 #: -1021
 msgid "Removing ["
-msgstr "Удаление ["
+msgstr "Removing ["
 
 #: -1022
 msgid "] (component #"
-msgstr "] (компонент #"
+msgstr "] (component #"
 
 #: -1023
 msgid ")"
@@ -135,15 +135,15 @@ msgstr ")"
 
 #: -1024
 msgid "SUCCESSFULLY REMOVED ["
-msgstr "УСПЕШНО УДАЛЕН ["
+msgstr "SUCCESSFULLY REMOVED ["
 
 #: -2000
 msgid "Readme Viewer"
-msgstr "Просмотр README"
+msgstr "Readme Viewer"
 
 #: -2001
 msgid "Would you like to view the Readme? [Y]es or [N]o:"
-msgstr "Показать Readme? [Y]Да или [N]Нет:"
+msgstr "Would you like to view the Readme? [Y]es or [N]o:"
 
 #: 00001
 msgid "PS:T Ultimate WeiDU Fixpack, by Qwinn"
@@ -151,19 +151,19 @@ msgstr "PS:T Ultimate WeiDU Fixpack, by Qwinn"
 
 #: 00002
 msgid "Dialogue Spelling/Grammar Corrections (English Only)"
-msgstr "Исправление грамматических ошибок диалогов (только для английского)"
+msgstr "Dialogue Spelling/Grammar Corrections (English Only)"
 
 #: 00003
 msgid "Skipped because Language selected was not English"
-msgstr "Пропущено, так как выбранный язык не является английским"
+msgstr "Skipped because Language selected was not English"
 
 #: 00004
 msgid "Subtitled Cutscenes"
-msgstr "Кат-сцены с субтитрами"
+msgstr "Subtitled Cutscenes"
 
 #: 00005
 msgid "Subtitled Cutscenes requires the PS:T Ultimate WeiDU Fixpack."
-msgstr "Для кат-сцен с субтитрами необходим PS:T Ultimate WeiDU Fixpack."
+msgstr "Subtitled Cutscenes requires the PS:T Ultimate WeiDU Fixpack."
 
 #: 00100
 msgid ""
@@ -222,7 +222,7 @@ msgid ""
 "moment, I forsake the... uh, 'beliefs' of the Chaosmen.\""
 msgstr ""
 "Проникнуть в фракцию тленных для анархистов: «Будь что будет Мой разум "
-"должен быть верен себе, а не другому Отныне я отказываюсь от убеждений моей "
+"должен быть верен себе, а не другому. Отныне я отказываюсь от убеждений моей "
 "старой фракции боголюдей»."
 
 #: 00108
@@ -232,7 +232,7 @@ msgid ""
 "moment, I forsake the beliefs of the Sensates.\""
 msgstr ""
 "Проникнуть в фракцию тленных для анархистов: «Будь что будет Мой разум "
-"должен быть верен себе, а не другому Отныне я отказываюсь от убеждений моей "
+"должен быть верен себе, а не другому. Отныне я отказываюсь от убеждений моей "
 "старой фракции чувствующих»."
 
 #: 00109
@@ -253,7 +253,7 @@ msgid ""
 "Infiltrate the Chaosmen for the Anarchists: \"Join ready the Xaositects am "
 "I. Loyalty none faction old I have Dustmen.\""
 msgstr ""
-"Проникнуть в ряды хаоситов для анархистов: «Примкнуть готов к хаоситекам я "
+"Проникнуть в ряды хаоситов для анархистов: «Примкнуть готов к хаоситекам я. "
 "Не предан больше фракции старой тленных я»."
 
 #: 00112
