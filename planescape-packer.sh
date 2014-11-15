@@ -19,6 +19,6 @@ recode utf8..windows-1251 installer/PST-Fix/tra/russian/fixpack.tra
 recode utf8..windows-1251 installer/PST-Fix/tra/russian/subtitles.tra
 
 echo "==== Compressing archive ===="
-cat readme.md | Markdown.pl > installer/pst-l10n/readme.html
+cat readme.md | Markdown.pl > installer/readme.html
 cd installer
 zip -9 -r ~/pst-l10n-${VERSION_PSTL10N}_pst-fix-${VERSION_QWINN}.zip .
