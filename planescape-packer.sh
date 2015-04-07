@@ -4,7 +4,7 @@ ITP='po/script/Infinity Text Parser/InfinityPacker.pl'
 IN_TRA="po/trans/0-106496.tra"
 OUT_TRA="installer/pst-l10n/tra/russian/0-106496.tra"
 PO_FILES="po/ru/"
-VERSION_PSTL10N="1.00-rc3"
+VERSION_PSTL10N="1.00-rc4"
 VERSION_QWINN="4.13"
 
 echo "==== Making *.tra ===="
