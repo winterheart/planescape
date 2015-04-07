@@ -7,36 +7,24 @@ INCLUDE ~pst-l10n/utils/Q_EnginePatcher.tph~
 // 2CD Torment.exe Version 1.1 - 5,718,077
 // 4CD Torment.exe Version 1.0 - 5,697,597
 // 4CD Torment.exe Version 1.1 - 5,713,981
-
+// GOG Torment.exe Version 1.1 - 5,713,981
 
 
 COPY ~Torment.exe~ ~Torment.exe~
   PATCH_PRINT ~Torment.exe file is %SOURCE_SIZE% bytes in size.~
 
   SET Q_VER = 0
-//  SET Q_POLISH = 0
   PATCH_IF %SOURCE_SIZE% = 5697597
   BEGIN
      INNER_ACTION BEGIN FAIL ~Game version identified as 4CD v1.0. Please apply official PS:T patch 1.1 and rerun setup.~ END
   END
   ELSE
-/*  PATCH_IF %SOURCE_SIZE% = 5713981
+  PATCH_IF %SOURCE_SIZE% = 5713981
   BEGIN
      SET Q_VER = 4
-     READ_BYTE 0x3A0FC "Q_Polish_1"
-     READ_BYTE 0x3A0FD "Q_Polish_2"
-     READ_BYTE 0x3A0FE "Q_Polish_3"
-     PATCH_IF "Q_Polish_1" = 0xB0 AND "Q_Polish_2" = 0x01 AND "Q_Polish_3" = 0xC3
-     BEGIN
-        SET Q_POLISH = 1
-        PATCH_PRINT ~Game version identified as 4CD v1.1, Polish Version. Proceeding with installation.~
-     END
-     ELSE
-     BEGIN
-        PATCH_PRINT ~Game version identified as 4CD v1.1. Proceeding with installation.~
-     END
+     PATCH_PRINT ~Game version identified as 4CD v1.1 or GOG v1.1. Proceeding with installation.~
   END
-  ELSE */
+  ELSE
   PATCH_IF %SOURCE_SIZE% = 5718077
   BEGIN
      SET Q_VER = 2
@@ -49,33 +37,22 @@ COPY ~Torment.exe~ ~Torment.exe~
 
   SET Q_Loop = 0
 
-  SPRINT "Q_Patch_Name" ~1a. Replace address to 'NOTE:' statement~
+  SPRINT "Q_Patch_Name" ~1a. Add localized 'NOTE:' statement~
 
-// replace address to NOTE: statement
-// offset:  0x1025DF
-// replace: 68 F0 FF 96 00
-
-  SET Q_Starting_Offset = 0x1025df
-  SET Q_Replace_Offset  = 0
-
-  SET searchlength = 0
-  SPRINT searchpattern  ~~
-  SPRINT searchbytes    ~~
-
-  SET replacelength = 5
-  SPRINT replacepattern ~12345~
-  SPRINT replacebytes ~68 F0 FF 96 00~
-
-  LAUNCH_PATCH_MACRO Q_Pattern_Maker
-  LAUNCH_PATCH_MACRO Q_Engine_Patcher
-
-  SPRINT "Q_Patch_Name" ~1b. Add localized 'NOTE:' statement~
-
-// add localized 'NOTE:' statement to the end of DATA block
-//  offset:   0x56FFF0
+//  Replace 'NOTE:' statement with localized one
+//  offset:   2CD: 0x53B428, 4CD: 0x53A42C
 //  replace:  CF D0 C8 CC C5 D7 C0 CD C8 C5 3A
 
-  SET Q_Starting_Offset = 0x56FFF0
+  PATCH_IF Q_VER = 2
+  BEGIN
+    SET Q_Starting_Offset = 0x53B428
+  END
+  ELSE
+  BEGIN
+    SET Q_Starting_Offset = 0x53A42C
+    // FIXME
+  END
+
   SET Q_Replace_Offset  = 0
 
   SET searchlength = 0
@@ -88,5 +65,5 @@ COPY ~Torment.exe~ ~Torment.exe~
 
   LAUNCH_PATCH_MACRO Q_Pattern_Maker
   LAUNCH_PATCH_MACRO Q_Engine_Patcher
-  
+
 BUT_ONLY_IF_IT_CHANGES
