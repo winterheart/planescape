@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ar0202.are\n"
 "POT-Creation-Date: 2009-05-25 03:20 +0600\n"
-"PO-Revision-Date: 2013-07-27 16:43+0200\n"
+"PO-Revision-Date: 2015-10-10 14:26+0300\n"
 "Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.8.5\n"
+"Language: ru\n"
 
 #: 0
 msgid ""
@@ -61,30 +62,29 @@ msgid ""
 "of the table has peeled the skin off the forehead to give direct access to "
 "the skull."
 msgstr ""
-"Это тело выглядит так, словно кто-то вывернул его содержимое наизнанку. "
-"Машина у головы сняла кожу со лба, открыв прямой доступ к черепу."
+"Это тело выглядит так, словно кто-то вывернул его наизнанку. Машина в конце "
+"стола сняла кожу со лба, открыв прямой доступ к черепу."
 
 #: 5054
 msgid ""
 "Like the other corpses in this room, this one is covered in blood and "
 "completely gutted."
 msgstr ""
-"Как и все тела в этой комнате, это тело покрыто кровью и полностью "
-"выпотрошено."
+"Как и все тела в этой комнате, это покрыто кровью и полностью выпотрошено."
 
 #: 5055
 msgid ""
 "This looks like a giant grinder. Fresh blood is trickling out from "
 "underneath it."
-msgstr "Похоже на огромную дробилку. Из-под нее стекает свежая кровь."
+msgstr "Похоже на огромную дробилку. Из-под нее вытекает свежая кровь."
 
 #: 5056
 msgid "This body is completely covered by a rough dark cloth."
-msgstr "Это тело полностью накрыто грубым темным полотном."
+msgstr "Это тело накрыто грубым темным полотном."
 
 #: 5057
 msgid "This corpse has been completely wrapped in bandages, like a mummy."
-msgstr "Это тело полностью замотали бинтами, как мумию."
+msgstr "Это тело замотали бинтами, как мумию."
 
 #: 5059
 msgid "This slab is covered with dried blood and other remains."
@@ -103,7 +103,7 @@ msgid ""
 "A system of rails is running through the whole room. It looks like the slabs "
 "in the room can be moved around on these rails."
 msgstr ""
-"Через всю комнату проходит система рельсов. Похоже, плиты в комнате можно "
+"Через всю комнату проходит система рельсов. Похоже, что плиты в ней можно "
 "передвигать по этим рельсам."
 
 #: 5065
@@ -112,15 +112,15 @@ msgid ""
 "through the tubes into a strange machine. The machine is making clicking "
 "noises, like an insect."
 msgstr ""
-"Этот гниющий труп истыкан трубками. Через трубки желтая жидкость течет в "
-"странную машину. Машина щелкает, прямо как насекомое."
+"Этот гниющий труп истыкан трубками. Через них желтая жидкость течет в "
+"странную машину, которая щелкает, прямо как насекомое."
 
 #: 5066
 msgid ""
 "Someone has inserted a tube into this corpse's leg. The tube is attached to "
 "a strange clicking machine next to the slab."
 msgstr ""
-"Кто-то воткнул трубку в ногу этого трупа. Трубка подключена к странной "
+"Кто-то воткнул трубку в ногу этого трупа. Она подключена к странной "
 "щелкающей машине, стоящей рядом с плитой."
 
 #: 5067
@@ -184,7 +184,7 @@ msgid ""
 "Judging from the stench, the entrails of these disemboweled corpses are "
 "dumped here."
 msgstr ""
-"Судя исходящему зловонью, все внутренности из этих выпотрошенных трупов "
+"Судя по исходящему зловонью, все внутренности этих выпотрошенных трупов "
 "свалены здесь."
 
 #: 952
@@ -192,6 +192,5 @@ msgid ""
 "This chalk-white body has been drained of blood and treated with embalming "
 "fluid. A neatly-stitched seam runs down the corpse's chest."
 msgstr ""
-"Из этого этого мертвенно-бледного тела была выкачана вся кровь и заменена на "
-"бальзамирующую жидкость. Из грудной клетки трупа истончается тошнотворный "
-"запах."
+"Из этого мертвенно-бледного тела выкачали всю кровь и заменили ее на "
+"бальзамирующую жидкость. Грудная клетка трупа истончает тошнотворный запах."
