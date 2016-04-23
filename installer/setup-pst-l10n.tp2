@@ -1,6 +1,6 @@
 BACKUP ~pst-l10n/backup~
 AUTHOR ~azamat.hackimov@gmail.com~
-VERSION ~v1.00-rc4~
+VERSION ~v1.00-rc5~
 // NO_LOG_RECORD
 
 LANGUAGE
@@ -19,6 +19,12 @@ COPY	~pst-l10n/copy/EXOFONT.BAM~ ~override~
 // CREDIT: pst-l10n team
 COPY	~pst-l10n/copy/ASMOS.MOS~ ~override~
 	~pst-l10n/copy/CGMOSM.MOS~ ~override~
+	~pst-l10n/copy/GUILOAD.CHU~ ~override~
+	~pst-l10n/copy/GUISAVE.CHU~ ~override~
+	~pst-l10n/copy/IDQUIT.BAM~ ~override~
+	~pst-l10n/copy/SAVELOAD.BAM~ ~override~
+	~pst-l10n/copy/SPLOAD.BAM~ ~override~
+	~pst-l10n/copy/SPNEWGM.BAM~ ~override~
 	~pst-l10n/copy/STMOS.MOS~ ~override~
 
 STRING_SET_RANGE #0 #106496 USING ~pst-l10n/tra/russian/0-106496.tra~
