@@ -12,7 +12,7 @@ use POSIX qw/strftime/;
 
 use strict;
 use warnings;
-use encoding 'utf8';
+use utf8;
 
 my %config;
 
@@ -54,14 +54,14 @@ while ($text =~ m/@(.+?)\s*=\s*(["~])(?:\2|(.*?))\2(.*?)\n/sg) {
 }
 
 $pot[0] = new Locale::PO(-fuzzy=>'1', -msgid=>'', -msgstr=>
-	"Project-Id-Version: PACKAGE VERSION\\n" .
-	"POT-Creation-Date: $date\\n" .
-	"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\\n" .
-	"Last-Translator: FULL NAME <EMAIL\@ADDRESS>\\n" .
-	"Language-Team: LANGUAGE <LL\@li.org>\\n" .
-	"MIME-Version: 1.0\\n" .
-	"Content-Type: text/plain; charset=CHARSET\\n" .
-	"Content-Transfer-Encoding: ENCODING\\n");
+	"Project-Id-Version: PACKAGE VERSION\n" .
+	"POT-Creation-Date: $date\n" .
+	"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n" .
+	"Last-Translator: FULL NAME <EMAIL\@ADDRESS>\n" .
+	"Language-Team: LANGUAGE <LL\@li.org>\n" .
+	"MIME-Version: 1.0\n" .
+	"Content-Type: text/plain; charset=CHARSET\n" .
+	"Content-Transfer-Encoding: ENCODING\n");
 
 foreach my $position (sort keys %hash) {
 	push(@pot, new Locale::PO(-msgid=>$hash{$position}, -msgstr=>"", -reference=>"$position"));
