@@ -4,7 +4,9 @@ VERSION ~v1.00-rc5~
 // NO_LOG_RECORD
 
 LANGUAGE
-	~Russian~	~russian~	~pst-l10n/tra/russian/pst-l10n.tra~
+	~Russian~	~russian~
+		~pst-l10n/tra/russian/pst-l10n.tra~
+		~pst-l10n/tra/russian/names.tra~
 
 BEGIN @1000
 
@@ -28,6 +30,10 @@ COPY	~pst-l10n/copy/ASMOS.MOS~ ~override~
 	~pst-l10n/copy/STMOS.MOS~ ~override~
 
 STRING_SET_RANGE #0 #106496 USING ~pst-l10n/tra/russian/0-106496.tra~
+
+// MOD: Female Names
+// CREDIT: pst-l10n team
+INCLUDE ~pst-l10n/tph/Names.tph~
 
 // MOD: Small changes to Torment.exe
 // CREDIT: pst-l10n team
