@@ -6,7 +6,7 @@ OUT_TRA="installer/pst-l10n/tra/russian/0-106496.tra"
 PO_FILES="po/ru/"
 PO_NAMES="po/names/"
 
-VERSION_PSTL10N="1.00-rc5"
+VERSION_PSTL10N="1.01"
 VERSION_QWINN="4.13"
 
 echo "==== Making *.tra ===="
