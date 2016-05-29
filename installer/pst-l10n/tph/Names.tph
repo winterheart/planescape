@@ -1,0 +1,198 @@
+// Copy female Dustman
+COPY_EXISTING	~0203FD1.CRE~  ~override~
+		~0203FD2.CRE~  ~override~
+		~DUSTFB.CRE~   ~override~
+		~DUSTFB2.CRE~  ~override~
+		~DUSTFB3.CRE~  ~override~
+		~DUSTFBAR.CRE~ ~override~
+		~DUSTFBR2.CRE~ ~override~
+		~DUSTFBR3.CRE~ ~override~
+		~DUSTFM.CRE~   ~override~
+		~DUSTFM2.CRE~  ~override~
+		~MOURN2.CRE~   ~override~
+		~MOURN4.CRE~   ~override~
+	SAY NAME1 @255
+	SAY NAME2 @256
+
+// Copy female Brothel Patron
+COPY_EXISTING	~BPATRON2.CRE~ ~override~
+		~BROCUS2.CRE~  ~override~
+	SAY NAME1 @3088
+	SAY NAME2 @3048
+
+// Copy female Buried Villager
+COPY_EXISTING	~BURIEDF.CRE~   ~override~
+		~BURIEDF1.CRE~  ~override~
+		~BURIEDF2.CRE~  ~override~
+		~BURIEDF3.CRE~  ~override~
+		~BURIEDF4.CRE~  ~override~
+		~BURIEDF5.CRE~  ~override~
+		~BURIEDF6.CRE~  ~override~
+		~BURIEDF7.CRE~  ~override~
+		~BVTIEFF.CRE~   ~override~
+	SAY NAME1 @19316
+	SAY NAME2 @13347
+
+// Copy female Curst Anarchist
+COPY_EXISTING	~CFANARCH.CRE~  ~override~
+	SAY NAME1 @3085
+	SAY NAME2 @3046
+
+// Copy female Curst Citizen
+COPY_EXISTING	~CRSGIRL.CRE~  ~override~
+	SAY NAME1 @67998
+	SAY NAME2 @67997
+
+// Copy female Anarchist
+COPY_EXISTING	~CRSTANC4.CRE~ ~override~
+		~CRSTANC5.CRE~ ~override~
+		~CRSTANC6.CRE~ ~override~
+	SAY NAME1 @51056
+	SAY NAME2 @67997
+
+// Copy female Warehouse Worker
+COPY_EXISTING	~CRSTWKF2.CRE~ ~override~
+		~CRSTWKF3.CRE~ ~override~
+		~CRSTWRKF.CRE~ ~override~
+	SAY NAME1 @3084
+	SAY NAME2 @3044
+
+// Copy female Hive Dweller
+COPY_EXISTING	~CUSHF.CRE~    ~override~
+		~CUSHF2.CRE~   ~override~
+		~CUSHF3.CRE~   ~override~
+		~CUSHF4.CRE~   ~override~
+		~CUSHF5.CRE~   ~override~
+		~GHF1.CRE~     ~override~
+		~GHF2.CRE~     ~override~
+		~GHF3.CRE~     ~override~
+		~HAODA.CRE~    ~override~
+		~HIVEVAG4.CRE~ ~override~
+		~HIVEVAG5.CRE~ ~override~
+		~HIVEVAG6.CRE~ ~override~
+		~HIVEW1.CRE~   ~override~
+		~HIVEW2.CRE~   ~override~
+		~HIVEW3.CRE~   ~override~
+		~HIVEW4.CRE~   ~override~
+		~HIVEW5.CRE~   ~override~
+		~LISTENF.CRE~  ~override~
+	SAY NAME1 @2342
+	SAY NAME2 @1750
+
+// Copy female CLerk's Ward Citizen
+COPY_EXISTING	~CWACTF1.CRE~  ~override~
+		~CWACTF2.CRE~  ~override~
+		~CWFEM.CRE~    ~override~
+		~CWMIMEF1.CRE~ ~override~
+		~CWMIMEF2.CRE~ ~override~
+		~CWPOETF1.CRE~ ~override~
+	SAY NAME1 @3108
+	SAY NAME2 @3153
+
+// Copy female Cafe Patron
+COPY_EXISTING	~CWCAFEF1.CRE~ ~override~
+		~CWCAFEF2.CRE~ ~override~
+	SAY NAME1 @29361
+	SAY NAME2 @3153
+
+// Copy female Lower Ward Townsperson
+COPY_EXISTING	~LWCUSF.CRE~   ~override~
+		~LWCUSF2.CRE~  ~override~
+		~LWCUSF3.CRE~  ~override~
+		~LWFEM.CRE~    ~override~
+		~LWFEM2.CRE~   ~override~
+		~LWFEM3.CRE~   ~override~
+		~LWTIEFF.CRE~  ~override~
+		~LWTIEFF2.CRE~ ~override~
+		~LWTIEFF3.CRE~ ~override~
+	SAY NAME1 @2870
+	SAY NAME2 @2858
+
+// Copy female Mage-in-Training
+COPY_EXISTING	~MAGEF1.CRE~   ~override~
+		~MAGEF2.CRE~   ~override~
+	SAY NAME1 @29694
+	SAY NAME2 @29696
+
+// Copy female Hive Merchant
+COPY_EXISTING	~MERCHF.CRE~   ~override~
+		~MERCHFO.CRE~  ~override~
+	SAY NAME1 @9378
+	SAY NAME2 @9048
+
+// Copy female Old Hive Dweller
+COPY_EXISTING	~MMOURN.CRE~   ~override~
+	SAY NAME1 @3353
+	SAY NAME2 @1750
+
+// Copy female Sensate
+COPY_EXISTING	~PATRON3.CRE~  ~override~
+		~PATRON6.CRE~  ~override~
+		~PATRON7.CRE~  ~override~
+		~SENSAF1.CRE~  ~override~
+		~SENSF1.CRE~   ~override~
+		~SENSF2.CRE~   ~override~
+		~SENSF3.CRE~   ~override~
+		~SENSF4.CRE~   ~override~
+	SAY NAME1 @3250
+	SAY NAME2 @3229
+
+// Copy female Smoldering Corpse Patron
+COPY_EXISTING	~SCFPAT.CRE~   ~override~
+		~SCFPAT2.CRE~  ~override~
+	SAY NAME1 @9044
+	SAY NAME2 @3306
+
+// Copy female Thief-in-Training
+COPY_EXISTING	~THIEF3.CRE~   ~override~
+		~THIEF4.CRE~   ~override~
+		~THIEF5.CRE~   ~override~
+		~THIEF6.CRE~   ~override~
+		~THIEF7.CRE~   ~override~
+		~THIEF8.CRE~   ~override~
+		~THIEF9.CRE~   ~override~
+		~THIEF10.CRE~  ~override~
+	SAY NAME1 @29697
+	SAY NAME2 @29698
+
+// Copy female Collector
+COPY_EXISTING	~VILF1.CRE~    ~override~
+		~VILF2.CRE~    ~override~
+	SAY NAME1 @2628
+	SAY NAME2 @2804
+
+// Copy female Warrior-in-Training
+COPY_EXISTING	~WARR4.CRE~    ~override~
+	SAY NAME1 @29699
+	SAY NAME2 @29700
+
+// Copy female Zombie Worker
+COPY_EXISTING	~ZF1072.CRE~   ~override~
+		~ZF1096.CRE~   ~override~
+		~ZF114.CRE~    ~override~
+		~ZF1148.CRE~   ~override~
+		~ZF444.CRE~    ~override~
+		~ZF594.CRE~    ~override~
+		~ZF626.CRE~    ~override~
+		~ZF679.CRE~    ~override~
+		~ZF832.CRE~    ~override~
+		~ZF891.CRE~    ~override~
+		~ZF916.CRE~    ~override~
+		~ZFWEAK.CRE~   ~override~
+		~ZOMBIEF.CRE~  ~override~
+		~ZOMBIEF2.CRE~ ~override~
+		~ZOMBIEF3.CRE~ ~override~
+		~ZOMFBAR1.CRE~ ~override~
+		~ZOMFBAR2.CRE~ ~override~
+		~ZOMFBAR3.CRE~ ~override~
+	SAY NAME1 @259
+	SAY NAME2 @260
+
+// Copy female Sensate Artist
+COPY_EXISTING	~ARTIST.CRE~   ~override~
+	SAY NAME2 @3229
+
+// Copy female Ultera (Buried Villager)
+COPY_EXISTING	~ULTHERA.CRE~  ~override~
+	SAY NAME2 @13347
+

@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: dscpat3.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-02-05 03:32+0600\n"
+"PO-Revision-Date: 2016-03-26 19:25+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 1.5\n"
 "Language: ru\n"
 
 #: 10900
@@ -207,7 +207,7 @@ msgid ""
 msgstr ""
 "«Сборщик? Это не те ли ужасные охотники до трупов? Я не общаюсь с подобными "
 "типами. Да и вообще это не мой район. Так что нет, я никогда о нем не "
-"слышал?»"
+"слышал»."
 
 #: 10935
 msgid "\"What IS your Ward?\""
@@ -246,3 +246,4 @@ msgstr "«Район Леди, значит? Хорошо. Ответь на д�
 #: 10940
 msgid "\"Very well. Farewell.\""
 msgstr "«Отлично. Прощай»."
+

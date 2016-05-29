@@ -1,10 +1,12 @@
 BACKUP ~pst-l10n/backup~
 AUTHOR ~azamat.hackimov@gmail.com~
-VERSION ~v1.00-rc4~
+VERSION ~v1.01~
 // NO_LOG_RECORD
 
 LANGUAGE
-	~Russian~	~russian~	~pst-l10n/tra/russian/pst-l10n.tra~
+	~Russian~	~russian~
+		~pst-l10n/tra/russian/pst-l10n.tra~
+		~pst-l10n/tra/russian/names.tra~
 
 BEGIN @1000
 
@@ -19,9 +21,19 @@ COPY	~pst-l10n/copy/EXOFONT.BAM~ ~override~
 // CREDIT: pst-l10n team
 COPY	~pst-l10n/copy/ASMOS.MOS~ ~override~
 	~pst-l10n/copy/CGMOSM.MOS~ ~override~
+	~pst-l10n/copy/GUILOAD.CHU~ ~override~
+	~pst-l10n/copy/GUISAVE.CHU~ ~override~
+	~pst-l10n/copy/IDQUIT.BAM~ ~override~
+	~pst-l10n/copy/SAVELOAD.BAM~ ~override~
+	~pst-l10n/copy/SPLOAD.BAM~ ~override~
+	~pst-l10n/copy/SPNEWGM.BAM~ ~override~
 	~pst-l10n/copy/STMOS.MOS~ ~override~
 
 STRING_SET_RANGE #0 #106496 USING ~pst-l10n/tra/russian/0-106496.tra~
+
+// MOD: Female Names
+// CREDIT: pst-l10n team
+INCLUDE ~pst-l10n/tph/Names.tph~
 
 // MOD: Small changes to Torment.exe
 // CREDIT: pst-l10n team
