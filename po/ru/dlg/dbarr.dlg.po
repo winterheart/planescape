@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dbarr.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-01-03 12:27+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2016-06-08 23:23+0300\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Poedit 1.8.8\n"
 "Language: ru\n"
 
 #: 19865
@@ -194,15 +194,15 @@ msgstr "Дать сто монет: «На, держи. Тут все»."
 
 #: 19922 19945
 msgid "Give ninety coins: \"Here you go. You'll find it's all there.\""
-msgstr "Дать девяносто монет: «На, держи. Тут все»."
+msgstr "Дать девяносто монет: «На, держи. Тут все». "
 
 #: 19925
 msgid ""
 "He hefts it, coins spilling through his fingers, and says, \"Feels like "
 "enough.\" He opens the gate."
 msgstr ""
-"Он прикидывает монеты на весу, попутно рассыпая часть: «Кажется, тут все». "
-"Он открывает ворота."
+"Он взвешивает монеты в руке, просыпая их между пальцами, и говорит: "
+"«Кажется, тут все». Он открывает ворота."
 
 #: 19926
 msgid "\"Farewell, for now.\""
@@ -213,7 +213,7 @@ msgid ""
 "\"That's too bad. I'll see you when you do. You ain't getting through 'til "
 "then, though.\" He turns away."
 msgstr ""
-"«Очень плохо. Приходи, когда наберется. Иначе ты не пройдешь». Он "
+"«Очень жаль. Приходи, когда наберется. А пока и не пытайся пройти». Он "
 "отворачивается от тебя."
 
 #: 19928
@@ -237,8 +237,8 @@ msgid ""
 "You deftly pin his arm back against the gate and wrench it. The guard "
 "screams in agony as his arm creaks in its socket."
 msgstr ""
-"Ты ловко хватаешь его за руку и с хрустом выворачиваешь ее из сустава. "
-"Стражник кричит от мучительной боли."
+"Ты ловко прижимаешь его руку к воротам и с хрустом выворачиваешь ее из "
+"сустава. Стражник кричит от мучительной боли."
 
 #: 19948 19951
 msgid "\"Let me in or I'll break it off!\""
@@ -259,8 +259,8 @@ msgid ""
 "it around. He gasps in pain."
 msgstr ""
 "Когда он тянется за монетами, ты хватаешь его за руку. Он пытается "
-"высвободиться из твоей хватки, но тебе в конце концов удается пригвоздить "
-"руку к воротами и вывернуть ее. Он стонет от боли."
+"высвободиться из твоей хватки, но тебе в конце концов удается прижать руку к "
+"воротами и вывернуть ее. Он стонет от боли."
 
 #: 19953
 msgid ""
@@ -275,7 +275,7 @@ msgid ""
 "\"You ever cross me again, and they'll be picking your limbs out of three "
 "different crypts. Understood? Good.\""
 msgstr ""
-"«Еще раз мне попадешься, и твои части найдут в трех разных склепах. Уяснил? "
+"«Еще раз мне попадешься - и твои части найдут в трех разных склепах. Уяснил? "
 "Хорошо»."
 
 #: 19955
@@ -291,7 +291,7 @@ msgid ""
 "through here, berk. And no funny business, either!\""
 msgstr ""
 "Стражник грозно смотрит на тебя. «Чтобы попасть сюда, нужно заплатить "
-"двести. И никакого торга!»"
+"двести. И не жульничать!»"
 
 #: 19957
 msgid "\"I don't have that much.\""
@@ -325,19 +325,20 @@ msgstr "«У меня будет более чем достаточно»."
 
 #: 19963
 msgid "The guard straightens slightly. \"You got the money to pay the toll?\""
-msgstr "Стражник слегка выпрямляется. «Нашел деньги на сбор?»"
+msgstr ""
+"Стражник слегка выпрямляется. «Нашел деньги, чтоб заплатить за проход?»"
 
 #: 19964
 msgid "\"Lots of folks don't. But there is.\""
-msgstr "«Да куча народу не знает. Но это так»."
+msgstr "«Много народу не знает. Но это так»."
 
 #: 19965
 msgid "\"Toll? How much?\""
-msgstr "«Сбор? Сколько?»"
+msgstr "«Заплатить? Сколько?»"
 
 #: 19966
 msgid "\"I didn't know there was a toll.\""
-msgstr "«Не знал, что тут нужно платить сбор»."
+msgstr "«Не знал, что тут нужно платить за проход»."
 
 #: 19967
 msgid "\"No. Farewell.\""
@@ -391,7 +392,7 @@ msgstr "«Откроешь мне ворота еще раз?»"
 
 #: 19984 19993
 msgid "\"What can you tell me of the area beyond?\""
-msgstr "«Что ты можешь сказать о месте по ту сторону?»"
+msgstr "«Что ты можешь рассказать про место за воротами?»"
 
 #: 19985 19994
 msgid "\"I'd like to go down there.\""
@@ -440,7 +441,7 @@ msgstr "«Почему их называют Катакомбами плачущ
 
 #: 20002
 msgid "\"Can you give me any specifics?\""
-msgstr "«А что-нибудь определенное ты можешь мне сказать?»"
+msgstr "«А что-нибудь определенное ты можешь сказать?»"
 
 #: 20003
 msgid "\"Thanks. I had some other questions...\""
@@ -460,7 +461,7 @@ msgstr ""
 
 #: 20006
 msgid "\"Got it. Can you answer some more questions for me?\""
-msgstr "«Понятно. Можешь ли ты ответить еще на несколько вопросов?»"
+msgstr "«Понятно. Ответишь еще на пару вопросов?»"
 
 #: 20008
 msgid ""
@@ -470,8 +471,8 @@ msgid ""
 "in the dead book.\""
 msgstr ""
 "«Нет. Я там был всего пару раз... Туда за телами другие спускаются. Грис вот "
-"добра приносил больше всех. Похоже, он нарвался там на что-то, и теперь "
-"вписан в книгу мертвых»."
+"добра приносил больше всех. Похоже, он нарвался там на что-то, и теперь его "
+"вписали в книгу мертвых»."
 
 #: 20009
 msgid "\"Gris?\""

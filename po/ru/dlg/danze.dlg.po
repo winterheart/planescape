@@ -3,22 +3,22 @@ msgid ""
 msgstr ""
 "Project-Id-Version: danze.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-01-06 01:06+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2016-05-31 23:43+0300\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Poedit 1.8.7\n"
+"Language: ru\n"
 
 #: 33883
 msgid ""
 "You see an older, stern looking man. His face is a mixture of wrinkles and "
 "frown lines."
-msgstr ""
-"Ты видишь угрюмого старика. Его лицо - сплошная смесь из складок и морщин."
+msgstr "Перед тобой угрюмый старик. Его лицо - сплетение складок и морщин."
 
 #: 33884
 msgid "\"Greetings.\""
@@ -26,7 +26,7 @@ msgstr "«Приветствую»."
 
 #: 33885
 msgid "Ignore the man."
-msgstr "Не обращать внимания на мужчину."
+msgstr "Не обращать на него внимания."
 
 #: 33886
 msgid ""
@@ -61,8 +61,7 @@ msgid ""
 "\"I had a skull and it's been stolen from me. Do you know anyone who would "
 "do such a thing?\""
 msgstr ""
-"«У меня был череп, который украли. Ты не знаешь кого-нибудь, кто бы мог это "
-"сделать?»"
+"«У меня украли череп. Ты не знаешь кого-нибудь, кто бы мог это сделать?»"
 
 #: 33892
 msgid "\"What's that furnace used for?\""
@@ -92,19 +91,19 @@ msgstr ""
 
 #: 33897 33905
 msgid "\"Where can I find him?\""
-msgstr "«Где я могу найти его?»"
+msgstr "«Где мне найти его?»"
 
 #: 33898 33901
 msgid "\"What can you tell me about him?\""
-msgstr "«Что ты можешь рассказать о нем?»"
+msgstr "«Что ты можешь о нем рассказать?»"
 
 #: 33900
 msgid ""
 "He shrugs. \"I dunno. Cutter like that can set his kip where 'e pleases. No "
 "berks gonna deny 'em, that's fer certain.\""
 msgstr ""
-"Он пожимает плечами. «А хрен его знает. Такой рубака творит, что хочет. Пней "
-"с ним поспорить не найдется, это точно»."
+"Он пожимает плечами. «А хрен его знает. Такой рубака селится, где захочет. "
+"Ни один пень с ним спорить не станет, это уж точно»."
 
 #: 33902 33906 33914
 msgid "\"I see. I have some other questions...\""
@@ -122,8 +121,8 @@ msgid ""
 "He tries to look concerned but fails miserably. \"Sorry ta hear that, "
 "cutter. If'n ye think it were stolen, ye should tell the Harmonium.\""
 msgstr ""
-"Он пытается выглядеть обеспокоенным, но проваливается с треском. «Печально "
-"слышать, рубака. Раз думаешь украли, жалуйся в Гармониум»."
+"Он пытается изобразить интерес, но проваливается с треском. «Печально это "
+"слышать, рубака. Раз думаешь, что украли - жалуйся в Гармониум»."
 
 #: 33909
 msgid "\"The Harmonium?\""
@@ -150,8 +149,8 @@ msgid ""
 "He starts to say something, then stops to think. After a moment he chuckles. "
 "\"Nay, cutter. I'd be guessin' not. Ne'er mind.\""
 msgstr ""
-"Он начинает было говорить, но задумывается. И через мгновение хмыкает. «Не, "
-"рубака. Не думаю. Забудь»."
+"Он начинает было говорить, но задумывается. Мгновение спустя, он начинает "
+"тихо посмеиваться. «Не, рубака. Не думаю. Забудь»."
 
 #: 33917
 msgid ""
@@ -179,7 +178,7 @@ msgid ""
 msgstr ""
 "Он смотрит на печь и переходит на шепот. «Печь ни для чего, кроме как учить "
 "моего лентяя ответственности. Он вечно болтает и треплется, и все такое. "
-"Думает, он ученый, а настоящей работы даже и не нюхнул. Если вопросы "
+"Думает, он ученый, а настоящей работы даже и не нюхал. Если вопросы "
 "серьезные... ну, спроси лучше его, а не меня»."
 
 #: 33922
@@ -195,7 +194,7 @@ msgid ""
 "Anze gives you his usual toothless grin. \"Welcome back, cutter. Whatcha be "
 "needin' this day?\""
 msgstr ""
-"Анце дарит тебе свою неизменную беззубую усмешку. «Снова добро пожаловать, "
+"Анце дарит тебе свою неизменную беззубую усмешку. «И снова добро пожаловать, "
 "рубака. Чего надобно сегодня?»"
 
 #: 34245
@@ -210,7 +209,9 @@ msgstr "«Ничего. Прощай»."
 msgid ""
 "\"I be mournin' for the loss of me boy, Lazlo. I'll not open shop fer... I "
 "dunno how long...\""
-msgstr "«Я грущу по пацану, Лазло. Магазин не открою до... не знаю когда...»"
+msgstr ""
+"«Я грущу по своему пацану, по Лазло. Магазин не открою до... не знаю "
+"когда...»"
 
 #: 34249
 msgid "Leave."
