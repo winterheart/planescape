@@ -26,8 +26,8 @@ sub open($) {
 	open(ITM,"<", $self->{FILENAME}) or die "Couldn't open $self->{FILENAME}: $!\n";
     my $buffer;
     read(ITM, $buffer, 8);
-    if ($buffer ne 'ITM V1.1') {
-    	die "$self->{FILENAME} is not ITM-file version 1.1\n";
+    if (($buffer ne 'ITM V1.1') and ($buffer ne 'ITM V1  ')) {
+	die "$self->{FILENAME} is not ITM-file version 1.*\n";
     }	
 }
 
