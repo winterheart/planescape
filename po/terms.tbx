@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE martif PUBLIC 'ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN' 'TBXcdv04.dtd'>
-<martif type="TBX" xml:lang="en">
+<martif xml:lang="en" type="TBX">
     <martifHeader>
         <fileDesc>
             <titleStmt>
@@ -3886,12 +3886,11 @@
                     </ntig>
                 </langSet>
                 <langSet xml:lang="ru">
-                    <ntig>
-                        <termGrp>
-                            <term>заколдованный</term>
-                        </termGrp>
-                    </ntig>
-                </langSet>
+                    
+                <tig>
+            <term>магический урон</term>
+          </tig>
+        </langSet>
             </termEntry>
             <termEntry id="azamat_h._hackimov-217">
                 <descrip type="subjectField">персонажи</descrip>
