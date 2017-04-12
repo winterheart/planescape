@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-04-12 06:20 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-04-12 07:14+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 50429 64980
 msgid ""
@@ -19,14 +21,19 @@ msgid ""
 "bite you. You've been told there's some sort of monster trapped inside of it "
 "- but peering into the jug's mouth reveals nothing but inky blackness."
 msgstr ""
+"Это обыкновенный тяжелый металлический кувшин с пробкой на шарнире. Несмотря "
+"на вполне обычный внешний вид, тебе совершенно не хочется прикасаться к этой "
+"вещи, как будто она может тебя укусить. Тебе сказали, что внутри кувшина "
+"заточен какой-то монстр, однако в горлышке кувшина видна только чернильная "
+"темнота."
 
 #: 50432 64981
 msgid "Upend the jug, see if anything comes out."
-msgstr ""
+msgstr "Перевернуть кувшин: вдруг что-нибудь выпадет."
 
 #: 50433 64982
 msgid "Put the jug away."
-msgstr ""
+msgstr "Спрятать кувшин."
 
 #: 50434
 msgid ""
@@ -35,17 +42,25 @@ msgid ""
 "filth on the ground. As the jug begins to dissolve in your hands, the pool "
 "begins to writhe, throb, and rise to form a tall, hideous creature..."
 msgstr ""
+"Сперва ничего не происходит... затем ужасная черная жидкость начинает "
+"пузыриться, вытекая из горлышка кувшина и образуя на земле лужу дымящейся "
+"маслянистой мерзости. Кувшин начинает растворяться у тебя в руках, а лужа - "
+"волноваться и вздыматься, образуя высокое отвратительное существо..."
 
 #: 50435
+#, fuzzy
 msgid "\"What the...?\""
-msgstr ""
+msgstr "«Что за?..»"
 
 #: 64983
 msgid ""
 "A black, viscous liquid pours from the jug's mouth and forms a slimy pool of "
 "muck on the ground. Besides the mess, nothing else happens."
 msgstr ""
+"Из горлышка кувшина вытекает ужасная черная жидкость и образует на земле "
+"вязкую лужу дерьма. Не считая этого, ничего другого не происходит."
 
 #: 64984
 msgid "Throw the empty jug away."
-msgstr ""
+msgstr "Выкинуть пустой кувшин."
+

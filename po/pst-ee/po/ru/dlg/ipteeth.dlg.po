@@ -1,69 +1,78 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-04-12 06:20 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-04-12 07:13+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 66829 66831 66833 66835
 msgid "\"I want you to do piercing damage.\""
-msgstr ""
+msgstr "«Я хочу, чтобы вы наносили колющий урон»."
 
 #: 66830 66832 66834 66836
 msgid "\"I want you to do crushing damage.\""
-msgstr ""
+msgstr "«Я хочу, чтобы вы наносили дробящий урон»."
 
 #: 66837 66838
 msgid "\"I want you to become a magical weapon.\""
-msgstr ""
+msgstr "«Я хочу чтобы вы стали магическим оружием»."
 
 #: 66839 66840
 msgid "\"I want you to become a more powerful magic weapon.\""
-msgstr ""
+msgstr "«Я хочу чтобы вы стали более сильным магическим оружием»."
 
 #: 66841 66842
+#, fuzzy
 msgid "\"I want you to become the best magical weapon you can.\""
-msgstr ""
+msgstr "«Я хочу, чтобы вы стали лучшим магическим оружием»."
 
 #: 66845
 msgid "The teeth elongate into sharp fangs."
-msgstr ""
+msgstr "Зубы вытягиваются в острые клики."
 
 #: 66846
 msgid "The teeth shorten and become blunt."
-msgstr ""
+msgstr "Зубы укорачиваются и становятся притупленными."
 
 #: 66847
 msgid ""
 "The teeth rattle about wildly then suddenly settle down. After a brief "
 "moment they begin to emit a soft magical glow."
 msgstr ""
+"Зубы беспорядочно трещат, затем неожиданно утихают. Спустя секунду они "
+"начинают излучать мягкое магическое свечение."
 
 #: 66848 66849 66851 66852 66854 66855 66858 66859
 msgid "Done."
-msgstr ""
+msgstr "Готово."
 
 #: 66850
 msgid ""
 "The teeth rattle for a brief moment and then their magical glow deepens."
 msgstr ""
+"Зубы беспорядочно трещат, затем спустя секунду начинают излучать магическое "
+"свечение сильнее."
 
 #: 66853
 msgid ""
 "The teeth begin to hum but the sound quickly subsides. They begin to glow "
 "with power."
 msgstr ""
+"Зубы начинают жужжать, однако затем звук быстро утихает. Они начинают "
+"светиться в полную силу."
 
 #: 66856
 msgid "Ignore the teeth."
-msgstr ""
+msgstr "Не обращать внимания на зубы."
 
 #: 7093
 msgid ""
@@ -71,3 +80,7 @@ msgid ""
 "bugs... You get the feeling that they are looking at you expectantly, "
 "awaiting some command."
 msgstr ""
+"Ты осматриваешь зубы Ингресс. Ты не можешь избавится от ощущения сходства с "
+"жучками из слоновой кости... Ты чувствуешь, что они внимательно смотрят на "
+"тебя, ожидая твою команду."
+

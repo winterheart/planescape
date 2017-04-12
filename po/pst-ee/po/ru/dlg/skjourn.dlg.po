@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "POT-Creation-Date: 2017-04-12 06:20 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2017-04-12 07:14+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 60402 61224
 msgid ""
@@ -20,26 +22,30 @@ msgid ""
 "makeshift book. It looks like the outer sheets of skin form a cover for the "
 "other skin sheets locked inside the bone frame. "
 msgstr ""
+"Это смахивает на какой-то дневник. Куски человеческой кожи пришиты к "
+"костяной раме. Довольно странно, но на месте швов куски кожи заживлены, "
+"образуя основу для самодельной книги. Похоже, что внешние куски являются "
+"обложкой для других, скрытых внутри костяной рамы."
 
 #: 60403 61197 61202
 msgid "Examine the exterior."
-msgstr ""
+msgstr "Осмотреть обложку."
 
 #: 61187 61192 61203
 msgid "Examine the skin."
-msgstr ""
+msgstr "Осмотреть кожу."
 
 #: 61188 61193 61198
 msgid "Examine the frame."
-msgstr ""
+msgstr "Осмотреть раму."
 
 #: 61189 61194 61199 61204
 msgid "Unlock the bone frame. "
-msgstr ""
+msgstr "Раскрыть костяную раму."
 
 #: 61190 61195 61200 61205 61226
 msgid "Leave the strange journal alone."
-msgstr ""
+msgstr "Оставить странный дневник в покое."
 
 #: 61191
 msgid ""
@@ -48,6 +54,10 @@ msgid ""
 "writing, but they seem to be written upside down, right to left, and at odd "
 "angles that make your eyes hurt. "
 msgstr ""
+"Кожаные куски обложки расписаны кровавыми символами, но их невозможно "
+"распознать. Они явно подчинены какому-то правилу, однако написаны сверху "
+"вниз, справа налево и под таким диким наклоном, что у тебя начинают болеть "
+"глаза."
 
 #: 61196
 msgid ""
@@ -55,6 +65,9 @@ msgid ""
 "reminds you of a zombie's hide, and the pages feel more like cured leather "
 "than skin."
 msgstr ""
+"Кожа такая же бледная, как и твоя. Покрытая рубцами серая поверхность "
+"напоминает тебе зомби, страницы больше похожи на выдубленную шкуру, чем на "
+"кожу."
 
 #: 61201
 msgid ""
@@ -63,6 +76,10 @@ msgid ""
 "snap neatly together. It looks like the bones can be unhooked from each "
 "other, allowing the book to be opened and read. "
 msgstr ""
+"Несмотря на неразборчивое письмо, ты признаешь, что конструкция костяной "
+"рамы довольно замысловата. Кости вырезаны таким образом, что могут аккуратно "
+"сцепляться воедино. Похоже, кости можно отцепить друг от друга и открыть тем "
+"самым книгу для чтения."
 
 #: 61206
 msgid ""
@@ -71,14 +88,17 @@ msgid ""
 "symbols as were on the exterior cover, and they don't seem to make any "
 "sense. "
 msgstr ""
+"Ты размыкаешь костяную раму, которая раскрывается с четким щелчком. Ты "
+"открываешь книгу, изучая страницы... они заполнены такими же странными "
+"символами, как и обложка. Похоже, в них нет никакого смысла."
 
 #: 61207
 msgid "Try and puzzle out the symbols."
-msgstr ""
+msgstr "Попробовать разобраться в символах."
 
 #: 61208 61211
 msgid "Re-hook the bone frame and leave the journal alone."
-msgstr ""
+msgstr "Сцепить обратно костяную раму и оставить дневник в покое."
 
 #: 61209
 msgid ""
@@ -86,10 +106,12 @@ msgid ""
 "see. The angles and the pictures displayed seem to be completely arbitrary, "
 "but you can't be absolutely sure."
 msgstr ""
+"Символы не поддаются никакой системе - по крайней мере, ты ее не замечаешь. "
+"Начертания и наклон совершенно произвольны, но ты в этом не уверен полностью."
 
 #: 61210
 msgid "Try and puzzle out the symbols again."
-msgstr ""
+msgstr "Попробовать разобраться в символах еще раз."
 
 #: 61212
 msgid ""
@@ -99,10 +121,14 @@ msgid ""
 "deceive anyone looking to read the real contents, which are hidden somewhere "
 "else in the journal frame. "
 msgstr ""
+"Ты заново сцепляешь костяную раму, но неожиданно тебя поражает странная "
+"мысль: содержимое страниц *не должно* было быть осмысленным. Ты... кем бы ты "
+"ни был раньше... написал эти символы для того, чтобы обмануть того, кто "
+"искал бы истинный смысл дневника, где-то в нем скрытый."
 
 #: 61213
 msgid "Examine the bone frame."
-msgstr ""
+msgstr "Осмотреть костяную раму."
 
 #: 61214
 msgid ""
@@ -111,10 +137,14 @@ msgid ""
 "and twist off the top of the bone, revealing a hollow space. Inside the "
 "space is a small, rolled-up scrap of skin. "
 msgstr ""
+"Ты осматриваешь кромку рамы и замечаешь, что вокруг конца одной из костей "
+"есть трещина толщиной с волос. Ты зажимаешь рукой кромку и поворачиваешь "
+"верхушку кости, внутри которой оказывается скрытая полость. Внутри нее ты "
+"обнаруживаешь небольшой скрученный обрывок кожи."
 
 #: 61215
 msgid "Pull out the skin, read it."
-msgstr ""
+msgstr "Вытащить кожу, прочитать содержимое."
 
 #: 61216
 msgid ""
@@ -122,6 +152,9 @@ msgid ""
 "over it, again and again, until it is almost illegible. Nonetheless, you can "
 "make out some of the words and some of the symbols..."
 msgstr ""
+"Обрывок испещрен текстом; похоже, кто-то переписывал его помногу раз до "
+"состояния полной неразборчивости. Тем не менее, у тебя получается разобрать "
+"некоторые слова и символы..."
 
 #: 61217
 msgid ""
@@ -129,6 +162,9 @@ msgid ""
 "too MANY strangle and kill and stop the BREATH in their throats... there's a "
 "WAY OUT I KNOW it then I'll give the BLADed one the laugh...\""
 msgstr ""
+"«В ЗАПАДне ЗапАдне ВОЛЯ ЛЕДИ УВЕРнуться от ее взгляда... слишком МНОГО Я "
+"УБИЛ, слишком МНОГО задушил и убил и останавливал ДЫХАНИЕ в их глотках... "
+"здесь  есть ВЫХОД Я ЗНАЮ это а потом я помашу ручкой даме в ЛЕЗВИях...»"
 
 #: 61218
 msgid ""
@@ -136,6 +172,9 @@ msgid ""
 "can't just keep GOING through them one at a time, maybe - maybe I should go "
 "through one, THEN walk back to the same portal without...\""
 msgstr ""
+"«...в ОДНОЙ из АРОК есть выход Наружу, ОДНА из них выпустит, в ОДНОЙ есть "
+"выход наружу, нельзя просто ХОДИТЬ через них, наверное... наверное я должен "
+"пройти через один, а ЗАТЕМ вернуться назад в тот же портал без...»"
 
 #: 61219
 msgid ""
@@ -143,10 +182,13 @@ msgid ""
 "a feeling that was the last entry... either the incarnation died in the maze "
 "or escaped somehow."
 msgstr ""
+"Запись оканчивается неразборчивыми каракулями. Почему-то ты чувствуешь, что "
+"это последняя запись... либо воплощение умерло в лабиринте, либо каким-то "
+"образом ему удалось выбраться."
 
 #: 61220 61221
 msgid "Hook the pages back together and put the journal away."
-msgstr ""
+msgstr "Сцепить назад костяную раму и отложить дневник."
 
 #: 61223
 msgid ""
@@ -154,7 +196,11 @@ msgid ""
 "of skin that had some insane ramblings on it. Whoever I was when I wrote "
 "this, I was definitely a few stones short of a portal. "
 msgstr ""
+"В лабиринтах Леди я обнаружил один из своих дневников. Он велся на небольшом "
+"кусочке кожи и напоминает бред умалишенного. В каком состоянии я бы ни был, "
+"я определенно был в двух шагах от портала."
 
 #: 61225
 msgid "Un-hook the bone frame and read the scrap of skin inside..."
-msgstr ""
+msgstr "Раскрыть костяную раму и прочитать обрывок кожи..."
+
