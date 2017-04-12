@@ -81,7 +81,7 @@ foreach $file (@files) {
 			if ($string ne "") {
 				$string =~ s/\\/\\\\/g;
 				$string =~ s/\r//g;
-				$string =~ s/\n/\\n/g;
+#				$string =~ s/\n/\\n/g;
 				# Странно, но ноль не может подставляться. Bug.
 				if ($i != 0) {
 					push(@po, new Locale::PO(-msgid=>"$string", -msgstr=>"", -reference=>"$i"));
@@ -124,7 +124,7 @@ foreach my $i (@rest) {
 	if ($string ne "") {
 		$string =~ s/\\/\\\\/g;
 		$string =~ s/\r//g;
-		$string =~ s/\n/\\n/g;
+#		$string =~ s/\n/\\n/g;
 		push(@po, new Locale::PO(-msgid=>"$string", -msgstr=>"", -reference=>"$i"));
 	}
 }
