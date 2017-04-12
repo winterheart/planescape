@@ -1,6 +1,8 @@
+LANG = ru
+
 POT_FILES := $(subst pot/,, $(wildcard pot/*/*.pot))
 PO_FILES := $(POT_FILES:.pot=.po)
-
+OLD_FILES := $(wildcard $(LANG)/*/*.po~)
 
 MSGINIT=/usr/bin/msginit --no-translator
 MSGMERGE=/usr/bin/msgmerge --update
@@ -19,3 +21,6 @@ $(LANG)/%.po: pot/%.pot
 po: $(addprefix $(LANG)/, $(POT_FILES:.pot=.po))
 
 all: po
+
+clean:
+	@rm $(OLD_FILES)
