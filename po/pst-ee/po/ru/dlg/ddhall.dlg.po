@@ -1,40 +1,42 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: ddhall.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-10 14:36+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: 1301
 msgid "\"Only surface wounds? What do you mean?\""
-msgstr ""
+msgstr "«Всего лишь поверхностные раны? Что ты имеешь в виду?»"
 
 #: 1302 1305 5739 5743 6035 6048 6055 6059 879 887 893 899 903 905 911 928 932
 msgid "\"Tell me more about the Mortuary.\""
-msgstr ""
+msgstr "«Расскажи мне побольше о Морге»."
 
 #: 1303 925
 msgid "\"Very well. I had some other questions...\""
-msgstr ""
+msgstr "«Хорошо. У меня есть другие вопросы...»"
 
 #: 1304
 msgid "\"So be it. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Пусть будет так. Прощай, Дхолл»."
 
 #: 1327
 msgid "\"Who *are* you?\""
-msgstr ""
+msgstr "«*Кто* ты?»"
 
 #: 13288
 msgid "\"Perhaps not. Farewell.\""
-msgstr ""
+msgstr "«Возможно, нет. Прощай»."
 
 #: 39459
 msgid ""
@@ -43,20 +45,31 @@ msgid ""
 "I was hoping to get some answers, but this place seems to breed more and "
 "more questions. "
 msgstr ""
+"В Морге я встретил больного писаря по имени Дхолл... он знал, что я потерял "
+"свою память, прежде чем я заговорил с ним. Были ли мы знакомы до того, как я "
+"потерял память? Я надеюсь получить несколько ответов, но это место порождает "
+"все больше и больше вопросов. "
 
 #: 39460
+#, fuzzy
 msgid ""
 "I asked Dhall if he knew me, and he responded that he knew little about me - "
 "and even less about the companions that had traveled with me in the past. "
 "Apparently, their bodies lie in the Mortuary... perhaps seeing them will "
 "cause my memories to resurface. "
 msgstr ""
+"Я спросил Дхолла, знает ли он меня, и он ответил, что знает обо мне очень "
+"мало, и еще меньше - о моих спутниках, сопровождавших меня в прошлом. "
+"Вероятно, их тела находятся здесь, в Морге... возможно, увидев их, я смогу "
+"что-нибудь вспомнить. "
 
 #: 39461
 msgid ""
 "Dhall told me that one of the women who journeyed with me is interred in the "
 "memorial hall on the first floor of the Mortuary. "
 msgstr ""
+"Дхолл сказал мне, что в мемориальном зале на первом этаже Морга погребена "
+"женщина, которая сопровождала меня. "
 
 #: 39462
 msgid ""
@@ -65,12 +78,17 @@ msgid ""
 "the receiving room, he is one of the only ones who sees my body when it "
 "arrives here. "
 msgstr ""
+"Дхолл сказал мне, что это благодаря ему мои визиты в Морг остаются в тайне "
+"от остальных тленных. До тех пор, пока он остается писарем в приемной, он "
+"будет единственным, кто видит мое тело, прибывающее сюда. "
 
 #: 39463
 msgid ""
 "Apparently, Pharod delivered my body here in a cart, along with a heap of "
 "other corpses. Was I actually *dead* when he did this? "
 msgstr ""
+"По всей видимости, мое тело доставил сюда на повозке Фарод вместе с кучей "
+"других трупов. Был ли я действительно *мертв*, когда он это делал? "
 
 #: 39464
 msgid ""
@@ -80,19 +98,31 @@ msgid ""
 "dead, so he can keep his opinions to himself. Dhall suggested I ask some of "
 "the people in the Hive where I can find Pharod. "
 msgstr ""
+"Дхолл сказал мне, что Фарода можно найти за пределами Морга, в месте под "
+"названием «Улей». Он не хочет, чтобы я охотился за Фародом, но ведь это не "
+"он потерял память и восстал из мертвых, так что он может оставить свое "
+"мнение при себе. Дхолл посоветовал мне узнать местонахождение Фарода у кого-"
+"нибудь в Улье. "
 
 #: 39468
+#, fuzzy
 msgid ""
 "I told that scribe, Dhall, about Vaxis and his disguise. Dhall should be "
 "sending the rest of the Dustmen out to round up Vaxis shortly."
 msgstr ""
+"Я рассказал писарю Дхоллу о Ваксисе и его маскировке. Дхолл должен послать "
+"других тленных схватить Ваксиса. "
 
 #: 39469
+#, fuzzy
 msgid ""
 "I promised Vaxis I wouldn't betray him to the Dustmen, but so what? I told "
 "that scribe, Dhall, about him and his disguise. Dhall should be sending the "
 "rest of the Dustmen out to round up Vaxis shortly."
 msgstr ""
+"Да, я обещал Ваксису, что не выдам его тленным, ну и что? Я рассказал писарю "
+"Дхоллу о Ваксисе и его маскировке. Дхолл должен послать других тленных "
+"схватить Ваксиса.  "
 
 #: 39470
 msgid ""
@@ -102,54 +132,59 @@ msgid ""
 "damage may be much greater than amnesia. The thought makes me uneasy - I "
 "wouldn't mind hearing some *good* news every once in a while. "
 msgstr ""
+"Дхолл предположил, что раны, полученные мною, незначительны по сравнению с "
+"теми, что нанесены моему разуму... Он также предположил, что эти раны стали "
+"причиной моей потери памяти, и что увечья разума не ограничились амнезией. "
+"Эта мысль мне неприятна: неплохо бы слышать побольше *хороших* новостей "
+"время от времени. "
 
 #: 40005
 msgid "\"I may return. Farewell.\""
-msgstr ""
+msgstr "«Я еще вернусь. Прощай»."
 
 #: 41564
 msgid "\"Then perhaps we will meet again, Dhall.\""
-msgstr ""
+msgstr "«Тогда, возможно, мы еще встретимся, Дхолл»."
 
 #: 41663
 msgid "\"Nothing... farewell, Dhall.\""
-msgstr ""
+msgstr "«Ничего... прощай, Дхолл»."
 
 #: 5058 835 839
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 5060
 msgid "Leave the elderly scribe in peace."
-msgstr ""
+msgstr "Оставить старого писаря в покое."
 
 #: 5062
 msgid "\"Do you know me?\""
-msgstr ""
+msgstr "«Ты знаешь меня?»"
 
 #: 5063
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 5069
 msgid "\"Do you know who I am?\""
-msgstr ""
+msgstr "«Ты знаешь, кто я?»"
 
 #: 5070
 msgid "\"Where is her body?\""
-msgstr ""
+msgstr "«Где ее тело?»"
 
 #: 5071
 msgid "\"I know nothing about her.\""
-msgstr ""
+msgstr "«Я ничего о ней не знаю»."
 
 #: 5072
 msgid "\"She claims to know me, but I can't recall her.\""
-msgstr ""
+msgstr "«Она узнала меня, но я не смог ее вспомнить»."
 
 #: 5073 5074 5078 5079
 msgid "\"You said there were others. Who else is here?\""
-msgstr ""
+msgstr "«Ты говорил, что здесь есть другие. Кто они?»"
 
 #: 5075
 msgid ""
@@ -157,28 +192,31 @@ msgid ""
 "there... her name should be on one of the memorial plaques. Mayhap that will "
 "revive your memory.\""
 msgstr ""
+"«В северо-западном мемориальном зале, этажом ниже. Проверь гробы... ее имя "
+"должно быть на одной из мемориальных табличек. Возможно, это оживит твои "
+"воспоминания»."
 
 #: 5076
 msgid "\"I don't know. I don't recall ever traveling with a woman.\""
-msgstr ""
+msgstr "«Я не знаю. Не припомню, чтобы даже путешествовал вместе с женщиной»."
 
 #: 5077
 msgid "\"Well, she claims to know me, but I can't recall her.\""
-msgstr ""
+msgstr "«Да, она утверждает, что знает меня, но я не могу ее вспомнить»."
 
 #: 5080
 msgid "Dhall makes no response to this. He simply stares at you in silence."
-msgstr ""
+msgstr "Дхолл не отвечает. Он просто молчаливо смотрит на тебя."
 
 #: 5081
 msgid "\"Where can I find her?\""
-msgstr ""
+msgstr "«Где я могу найти ее?»"
 
 #: 5082 5083
 msgid ""
 "\"Before, you said there were others interred here who journeyed with me. "
 "Where are they?\""
-msgstr ""
+msgstr "«Ты говорил, что здесь похоронены и другие мои спутники. Где они?»"
 
 #: 5728
 msgid ""
@@ -186,6 +224,9 @@ msgid ""
 "slightly, but the movement suddenly sends him into a bout of coughing. \"I..."
 "\" He pauses for a moment, catches his breath. \"I... am Dhall.\""
 msgstr ""
+"«Как всегда, вопрос. И как всегда, неправильный». Он делает легкий поклон, "
+"но движение вызывает у него неожиданный приступ кашля. «Я...» Он умолкает на "
+"минуту, переводя дыхание. «Я... Дхолл»."
 
 #: 5730
 msgid ""
@@ -193,14 +234,17 @@ msgid ""
 "in this matter.\" He picks up his quill again. \"When you wish to speak "
 "further, I will be here.\""
 msgstr ""
+"«Хорошо, Неугомонный, - Дхолл кивает. - Но, боюсь, в данном вопросе время "
+"тебе не враг, - он снова берется за перо. - Когда ты снова захочешь "
+"поговорить, я буду здесь»."
 
 #: 5731
 msgid "\"Perhaps you can answer some questions for me, Dhall...\""
-msgstr ""
+msgstr "«Возможно, ты ответишь на некоторые из моих вопросов, Дхолл...»"
 
 #: 5732
 msgid "\"I don't have time for this. Farewell.\""
-msgstr ""
+msgstr "«У меня нет времени на это. Прощай»."
 
 #: 5733
 msgid ""
@@ -209,6 +253,10 @@ msgid ""
 "reborn into this 'life,' forever suffering, never knowing the purity of True "
 "Death.\""
 msgstr ""
+"Дхолл качает головой. «Страсти - тяжелый груз. Многих они приковали к этой "
+"тени жизни. Цепляясь за эмоции, ты будешь без конца возрождаться в этой "
+"'жизни', в постоянных муках, так никогда и не познав чистоты Истинной "
+"Смерти»."
 
 #: 5734
 msgid ""
@@ -218,23 +266,28 @@ msgid ""
 "shells of ours, past the Eternal Boundary, lies the peace that all souls "
 "seek.\""
 msgstr ""
+"«Убей в себе страсти. Отбрось нужду в переживаниях. Когда ты будешь "
+"действительно очищен, кольцо возрождений прервется, и ты обретешь покой». "
+"Дхолл делает вздох... как будто смерть клокочет в его глотке. «За нашими "
+"бренными телами, за Границей Вечности, находится покой, к которому стремится "
+"каждая душа»."
 
 #: 5735 5746 5749 5751 6041 6056 6060 865 888 894 907 913 919 922 937 944 976
 msgid "\"I had some other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 5736 971 975
 msgid "\"Tell me some more about the Mortuary.\""
-msgstr ""
+msgstr "«Расскажи мне еще о Морге»."
 
 #: 5737 5740 5744 5754 876 904 933 949 965 969 972
 msgid "\"I see. I had some other questions...\""
-msgstr ""
+msgstr "«Понятно. У меня еще вопросы...» "
 
 #: 5738 5741 5745 5747 5750 5752 5753 5758 6029 6057 6061 6062 866 889 923 960
 #: 977
 msgid "\"Farewell, Dhall.\""
-msgstr ""
+msgstr "«Прощай, Дхолл»."
 
 #: 5742
 msgid ""
@@ -243,143 +296,154 @@ msgid ""
 "surface...\" Dhall coughs again. \"...but that is something that only you "
 "would know for certain.\""
 msgstr ""
+"«Я говорю о ранах разума. Ты ведь многое забыл, не так ли? Возможно, "
+"настоящие раны гораздо глубже, чем эти шрамы, украшающие твое тело, - Дхолл "
+"снова кашляет, - но только ты можешь знать это точно»."
 
 #: 5748
 msgid "\"What do you do here?\""
-msgstr ""
+msgstr "«Чем ты здесь занимаешься?»"
 
 #: 5755
 msgid "\"I have a feeling our paths will cross. Farewell, Dhall.\""
-msgstr ""
+msgstr "«У меня такое чувство, что наши пути еще пересекутся. Прощай, Дхолл»."
 
 #: 5756
 msgid "\"I can speak with you no longer. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Я не могу больше с тобой говорить. Прощай, Дхолл»."
 
 #: 5757 836
 msgid "\"Thank you. I had some other questions...\""
-msgstr ""
+msgstr "«Спасибо. У меня есть другие вопросы...»"
 
 #: 6026
 msgid "\"Maybe I should speak to Pharod. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Возможно, мне стоит поговорить с Фародом. Прощай, Дхолл»."
 
 #: 6027
 msgid "\"Then I shall seek him out. Farewell, Dhall.\""
-msgstr ""
+msgstr "«В таком случае, я должен разыскать его. Прощай, Дхолл»."
 
 #: 6028
 msgid "\"Encouraging. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Звучит ободряюще. Прощай, Дхолл»."
 
 #: 6030
 msgid "\"I will go there and ask around then. Farewell.\""
-msgstr ""
+msgstr "«Тогда я пойду и поспрашиваю тамошних жителей. Прощай»."
 
 #: 6031
 msgid "\"I will go seek out this Pharod then. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Тогда пойду и разыщу этого Фарода. Прощай, Дхолл»."
 
 #: 6032
 msgid "\"Perhaps you can explain why the Dustmen want me dead.\""
-msgstr ""
+msgstr "«Может, ты мне объяснишь, почему тленные хотят моей смерти?»"
 
 #: 6033 953 958 974 985
 msgid "\"True Death?\""
-msgstr ""
+msgstr "«Истинной Смерти?»"
 
 #: 6034
 msgid "\"Shadow that is this life?\""
-msgstr ""
+msgstr "«Иллюзорность этой жизни?»"
 
 #: 6036 6069
 msgid "\"I had some other questions for you...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы к тебе...»"
 
 #: 6037 6070
 msgid "\"Farewell, then.\""
-msgstr ""
+msgstr "«Тогда прощай». "
 
 #: 6038 6039
 msgid "\"I've heard enough. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Я выслушал достаточно. Прощай, Дхолл»."
 
 #: 6040
 msgid "\"Very well. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Отлично. Прощай, Дхолл»."
 
 #: 6042
 msgid "\"It seems I owe you a favor. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Кажется, я обязан тебе. Прощай, Дхолл»."
 
 #: 6043
 msgid "\"Sounds like oblivion. Why would anyone want that?\""
-msgstr ""
+msgstr "«Похоже на забвение. И зачем кому-то это нужно?»"
 
 #: 6044
 msgid "\"Oh. Can you tell me more about the Mortuary?\""
-msgstr ""
+msgstr "«Ого. Расскажи мне побольше о Морге»."
 
 #: 6045 6049
 msgid "\"I... see. I had some other questions.\""
-msgstr ""
+msgstr "«Понятно... У меня есть другие вопросы»."
 
 #: 6046 6050
 msgid "\"I must take my leave. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай, Дхолл»."
 
 #: 6047 883 951
 msgid "\"Shadow of life?\""
-msgstr ""
+msgstr "«Тень жизни?»"
 
 #: 6051
 msgid ""
 "\"I think your fatalism has gotten the better of you. Those elements are "
 "part of life, but not the whole of it.\""
 msgstr ""
+"«Мне кажется, твой фатализм превзошел тебя самого. Жизнь состоит из этих "
+"элементов, но не только из них»."
 
 #: 6052
 msgid "\"Cage us? How?\""
-msgstr ""
+msgstr "«Заперты? Каким образом?»"
 
 #: 6053
 msgid ""
 "\"Enough of your philosophy. What does all this talk have to do with me "
 "waking up here?\""
 msgstr ""
+"«Довольно этой философии. Как все это относится к тому, что я оказался "
+"здесь?»"
 
 #: 6054
 msgid ""
 "\"I... see. How does one escape the cycle of rebirth and achieve this... "
 "True Death?\""
 msgstr ""
+"«Понимаю... Как же выбраться из этого кольца возрождений и достигнуть "
+"этой... Истинной Смерти?»"
 
 #: 6058 935
 msgid "\"The Eternal Boundary?\""
-msgstr ""
+msgstr "«Границу Вечности?»"
 
 #: 6063
 msgid "\"Mayhap. I had some other questions for you...\""
-msgstr ""
+msgstr "«Возможно. У меня есть другие вопросы к тебе...»"
 
 #: 6064 6068
 msgid ""
 "\"I will go to the memorial hall below and see if I can find her body.\""
-msgstr ""
+msgstr "«Пойду вниз, в мемориальный зал. Может быть, я найду ее тело»."
 
 #: 6065
 msgid "\"You sound ill. Are you not well?\""
-msgstr ""
+msgstr "«Твой кашель ужасен. Ты хорошо себя чувствуешь?»"
 
 #: 6066 874
 msgid "\"I see. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Понятно. Прощай, Дхолл»."
 
 #: 6067
 msgid ""
 "\"Mayhap I will go find her. I had some other questions for you before I "
 "go...\""
 msgstr ""
+"«Возможно, мне стоит найти ее. Перед уходом у меня есть к тебе другие "
+"вопросы...»"
 
 #: 822
 msgid ""
@@ -387,6 +451,9 @@ msgid ""
 "After a moment or two, the coughing spell dies down, and the scribe's "
 "breathing resumes its ragged wheeze."
 msgstr ""
+"Прежде чем Морт успевает завершить свои разглагольствования, писарь начинает "
+"безудержно кашлять. Спустя минуту или две кашель прекращается, и дыхание "
+"писаря вновь становится неровным хрипом."
 
 #: 826
 msgid ""
@@ -394,10 +461,14 @@ msgid ""
 "of years hangs heavy upon me, Restless One.\" He places down his quill. \"..."
 "but I do not yet count deafness among my ailments.\""
 msgstr ""
+"Прежде чем Морт успевает закончить, взгляд серых глаз писаря падает на тебя. "
+"«Бремя прожитых лет лежит на мне тяжелым грузом, Неугомонный, - он "
+"откладывает перо, - но глухотой я еще не страдаю»."
 
 #: 827 845
+#, fuzzy
 msgid "\"'Restless One'? Do you know me?\""
-msgstr ""
+msgstr "«Неугомонный? Ты меня знаешь?»"
 
 #: 829
 msgid ""
@@ -406,14 +477,17 @@ msgid ""
 "he is about to start coughing again, then catches his breath. \"Am I "
 "mistaken?\""
 msgstr ""
+"«Тебе знакома женщина, чьи останки погребены внизу, в мемориальном зале? Я "
+"думаю, что в прошлом она путешествовала вместе с тобой...» Дхолл начинает "
+"кашлять, но ему удается перевести дыхание. «Я ошибаюсь?»"
 
 #: 830 831
 msgid "\"Yes. It's a good disguise.\""
-msgstr ""
+msgstr "«Да. Он очень хорошо замаскировался»."
 
 #: 832
 msgid "Dhall stares at you. \"Are you certain?\""
-msgstr ""
+msgstr "Дхолл пристально смотрит на тебя. «Ты уверен?»"
 
 #: 833
 msgid ""
@@ -421,16 +495,19 @@ msgid ""
 "he catches his breath enough to speak. \"I... shall inform the guards at "
 "once.\""
 msgstr ""
+"«Я...» У Дхолла начинается очередной приступ кашля. Спустя минуту или две "
+"его дыхание становится достаточно спокойным, чтобы он смог продолжить. «Я... "
+"незамедлительно предупрежу стражу»."
 
 #: 834
 msgid ""
 "\"No, on second thought, perhaps I imagined it. Look, I had some other "
 "questions...\""
-msgstr ""
+msgstr "«Нет, пожалуй, мне просто показалось. У меня есть другие вопросы...»"
 
 #: 837
 msgid "\"Excellent. Farewell.\""
-msgstr ""
+msgstr "«Отлично. Прощай»."
 
 #: 838
 msgid ""
@@ -440,6 +517,11 @@ msgid ""
 "His breathing is ragged and irregular, but even his occasional coughing does "
 "not slow the scratching of his quill pen."
 msgstr ""
+"Этот писарь выглядит очень старым... его кожа морщиниста и имеет желтый "
+"оттенок, как у старого пергамента. Темно-серые глаза глубоко посажены на его "
+"угловатом лице, длинная белая борода ниспадает на его одежды, подобно "
+"водопаду. Его дыхание неровно и прерывисто, но даже периодический кашель не "
+"может замедлить движение его пера."
 
 #: 840
 msgid ""
@@ -448,6 +530,9 @@ msgid ""
 "known yourself.\" He is silent for a moment. \"For you have forgotten, have "
 "you not?\""
 msgstr ""
+"«Знаю ли я тебя? Я... - в голосе писца звучит горечь. - Я *никогда* не знал "
+"тебя, Неугомонный. Не больше, чем ты знал о себе сам». Он умолкает на "
+"секунду. «Ты ведь все забыл, не так ли?»"
 
 #: 841
 msgid ""
@@ -456,18 +541,25 @@ msgid ""
 "\" He coughs slightly, then draws a ragged breath. \"This is no way for you "
 "to enter the next life.\""
 msgstr ""
+"Его серые глаза сверкают, когда он отрывает свой взгляд от книги. "
+"«Подозреваю, что это ты в ответе за нападения в Морге. Это...» Они тихо "
+"кашляет, затем тяжело хрипит. «Это не позволит тебе обрести следующую жизнь»."
 
 #: 842
 msgid ""
 "\"I was just defending myself. I had some questions for you before I make "
 "myself scarce...\""
 msgstr ""
+"«Я всего лишь защищался. У меня есть несколько вопросов перед тем, как я "
+"удалюсь...»"
 
 #: 843
 msgid ""
 "\"Sharing a little death with you corpse-worshippers isn't much of a crime "
 "as far as I'm concerned. Now I had some questions for you...\""
 msgstr ""
+"«Как по мне, дарить смерть вам, трупопоклонникам, - не такое уж и не "
+"преступление. А теперь у меня есть вопросы к тебе...»"
 
 #: 844
 msgid ""
@@ -477,10 +569,15 @@ msgid ""
 "your sleep and returned to your dream.\" He continues more respectfully. "
 "\"Well met... again, Restless One.\""
 msgstr ""
+"Писарь прекращает вести записи в стоящую перед ним книгу и оглядывается. Его "
+"глаза похожи на два гвоздя, забитые в его череп. «Итак...» Его голос "
+"уставший, как будто он повторял это уже много раз. «Ты пробудился ото сна и "
+"вернулся в свои грезы». Он продолжает более уважительным голосом. «Приятно "
+"встретиться... снова, Неугомонный»."
 
 #: 846 855 864
 msgid "\"How did I get here?\""
-msgstr ""
+msgstr "«Как я попал сюда?»"
 
 #: 847
 msgid ""
@@ -488,34 +585,46 @@ msgid ""
 "illusion of this life. We await the next life, and help others on their "
 "journey.\""
 msgstr ""
+"«Мы - тленные, фракция, собравшая всех тех, кто понял иллюзорность этой "
+"жизни. Мы ждем следующей жизни и помогаем другим в их путешествии»."
 
 #: 848
 msgid ""
 "\"True Death is non-existence. A state devoid of reason, of sensation, of "
 "passion.\" Dhall coughs, then gives a ragged breath. \"A state of purity.\""
 msgstr ""
+"«Истинная Смерть - это небытие. Состояние, свободное от мыслей, чувств, "
+"страстей». Дхолл кашляет, затем восстанавливает неровное дыхание. «Состояние "
+"чистоты»."
 
 #: 849
 msgid ""
 "\"Is it worse than remaining in this shadow of what life once was? I think "
 "not.\""
 msgstr ""
+"«По-твоему, лучше оставаться в тени того, что раньше называлось жизнью? Я "
+"так не думаю»."
 
 #: 850
 msgid ""
 "\"A journal? If it was of any value, then it is likely it lies in Pharod's "
 "hands.\""
 msgstr ""
+"«Дневник? Если он представляет хоть какую-то ценность, то он наверняка в "
+"руках Фарода»."
 
 #: 851
 msgid ""
 "\"You must understand. Your existence is a blasphemy to them. Many of our "
 "faction would order you cremated... if they were aware of your affliction.\""
 msgstr ""
+"«Ты должен понять. Твое существование для них - богохульство. Многие из "
+"нашей фракции распорядились бы тебя кремировать... если бы узнали о твоем "
+"несчастье»."
 
 #: 852
 msgid "\"Very well. What did you wish to know?\""
-msgstr ""
+msgstr "«Хорошо. Что ты хочешь узнать?»"
 
 #: 853
 msgid ""
@@ -524,20 +633,27 @@ msgid ""
 "There is only sorrow here. Misery. Torment. These are not the elements that "
 "make up 'life.' They are part of the cage that traps us in this shadow.\""
 msgstr ""
+"«А что заставляет тебя думать, что эта жизнь *настоящая*? Прислушайся к "
+"себе. Разве ты не чувствуешь какую-то опустошенность? - Дхолл качает "
+"головой. - Это чистилище. Здесь только горе. Несчастье. Страдание. Они не "
+"являются элементами 'жизни'. Они - часть клетки, в которой мы заперты в этой "
+"тени»."
 
 #: 854
 msgid ""
 "\"Did you know there's someone disguised as a zombie in the eastern chambers?"
 "\""
 msgstr ""
+"«Ты знал, что в восточной комнате находится кто-то, замаскированный под "
+"зомби?»"
 
 #: 857
 msgid "\"What is this place?\""
-msgstr ""
+msgstr "«Что это за место?»"
 
 #: 858
 msgid "\"Can you tell me how to get out of here?\""
-msgstr ""
+msgstr "«Не подскажешь, как мне выбраться отсюда?»"
 
 #: 859
 msgid ""
@@ -546,22 +662,26 @@ msgid ""
 "himself and his breathing resumes its ragged wheeze. \"...this is the "
 "waiting room for those about to depart the shadow of this life.\""
 msgstr ""
+"«Ты находишься в Морге, Неугомонный. Ты снова... пришел...» Не успев "
+"закончить, Дхолл заходится в приступе кашля. Спустя некоторое время он берет "
+"себя в руки, и его дыхание снова становится неровным хрипом. «...это зал "
+"ожидания для тех, кто собирается покинуть тень этой жизни»."
 
 #: 860 880
 msgid "\"*Restless One?*\""
-msgstr ""
+msgstr "«*Неугомонный*?»"
 
 #: 861
 msgid "\"Tell me about the Mortuary.\""
-msgstr ""
+msgstr "«Расскажи мне о Морге»."
 
 #: 862 984
 msgid "\"Shadow of this life?\""
-msgstr ""
+msgstr "«Тень этой жизни?»"
 
 #: 863
 msgid "\"Again...? I've been here more than once?\""
-msgstr ""
+msgstr "«Снова?.. Я был здесь раньше?»"
 
 #: 867
 msgid ""
@@ -571,6 +691,11 @@ msgid ""
 "Dhall coughs, the sound rattling in his throat. \"It is the way of all "
 "things flesh and bone.\""
 msgstr ""
+"Когда ты собираешься уйти, Дхолл произносит: «Знай: я не завидую тебе, "
+"Неугомонный. Твои возрождения - проклятье, которого я бы не смог вынести. Ты "
+"должен смириться с этим. Когда-нибудь твой путь вернет тебя сюда...» Дхолл "
+"кашляет, из его горла доносятся хрипы. «Это путь всех существ из плоти и "
+"костей»."
 
 #: 868
 msgid ""
@@ -579,24 +704,28 @@ msgid ""
 "gestures around you. \"All dead come here. Some must have traveled with you "
 "once.\""
 msgstr ""
+"«Несомненно, они здесь, но я не знаю ни их имен, ни где они лежат. Ты прошел "
+"путь, по которому ходят многие, но немногие выживают, - Дхолл обводит вокруг "
+"тебя рукой. - Все умершие прибывают сюда. Кое-кто из них, должно быть, "
+"путешествовал с тобой»."
 
 #: 870
 msgid "\"Where is this woman you mentioned?\""
-msgstr ""
+msgstr "«Где та женщина, которую ты упомянул?»"
 
 #: 871
 msgid "\"I find no fault with your reasoning. I had some other questions...\""
-msgstr ""
+msgstr "«Я не вижу изъяна в твоих рассуждениях. У меня еще вопросы...»"
 
 #: 872
 msgid ""
 "\"I will look for them, then. Mayhap they can spark my memory. Farewell.\""
-msgstr ""
+msgstr "«Тогда я поищу их. Возможно, они смогут возродить мою память. Прощай»."
 
 #: 873
 msgid ""
 "\"I am not certain that she has reached the True Death. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Не уверен, что она достигла Истинной Смерти. Прощай, Дхолл»."
 
 #: 875
 msgid ""
@@ -605,10 +734,14 @@ msgid ""
 "continues. \"...one of the guides by the front gate has a key to it, but it "
 "is unlikely he will open it for you unless you are extremely persuasive.\""
 msgstr ""
+"«Хм-м... Главные ворота - самый очевидный выход, но они не выпустят никого, "
+"кроме тленных... - Дхолл заходится в кашле, затем продолжает. - У одного из "
+"проводников у главных ворот есть ключ к ним, но он вряд ли откроет их для "
+"тебя, разве что ты будешь весьма убедительным»."
 
 #: 877
 msgid "\"Farewell then, Dhall.\""
-msgstr ""
+msgstr "«Тогда прощай, Дхолл»."
 
 #: 878
 msgid ""
@@ -617,10 +750,13 @@ msgid ""
 "had sustained.\" He sighs. \"When will you give up your passions and leave "
 "this shadow of life?\""
 msgstr ""
+"«Да, *снова*. Ты попадал сюда много раз, Неугомонный. Я надеялся, что этот "
+"раз будет последним, учитывая полученные тобой раны, - он вздыхает. - Когда "
+"же ты откажешься от своих страстей и покинешь эту тень жизни?»"
 
 #: 881 956
 msgid "\"Wounds?\""
-msgstr ""
+msgstr "«Ранен?»"
 
 #: 884
 msgid ""
@@ -631,6 +767,12 @@ msgid ""
 "Save yourself time and speak with me now so that we do not have to resume "
 "this conversation again when your memories are lost to you again.\""
 msgstr ""
+"«Ты будешь делать то же, что и раньше, Неугомонный. Разыщешь того любителя "
+"звенелок, того плешивого идиота, Червеволосого, и вернешь свое имущество. "
+"После продолжишь свои бессмысленные поиски, пытаясь выполнить бессмысленные "
+"задания, собирая бессмысленные предметы. Затем ты падешь и вернешься назад к "
+"нам. Сэкономь время и поговори с мной сейчас, чтобы нам не пришлось вновь "
+"заводить этот разговор, когда твои воспоминания снова покинут тебя»."
 
 #: 885
 msgid ""
@@ -639,10 +781,14 @@ msgid ""
 "royalty based on the number of loyal subjects that lay stinking and "
 "festering upon the cart that carried you.\""
 msgstr ""
+"Дхолл презрительно фыркает, как будто его воротит от воспоминания об этом. "
+"«К Моргу тебя доставила твоя ветхая карета, Неугомонный. Увидев ее, ты мог "
+"бы возомнить себя аристократом, учитывая количеств подданных, лежащих в ней "
+"зловонной разлагающейся кучей»."
 
 #: 886
 msgid "\"I arrived here on a cart?\""
-msgstr ""
+msgstr "«Я приехал сюда на повозке?»"
 
 #: 890
 msgid ""
@@ -652,14 +798,18 @@ msgid ""
 "'seneschal' Pharod was, as always, pleased to accept a few moldy coppers to "
 "dump the lot of you at the Mortuary gate.\""
 msgstr ""
+"«Да... твое тело лежало где-то посреди горы трупов». Дхолл снова заходится в "
+"приступе кашля, который ему удается побороть только несколько минут спустя. "
+"«Твоим 'сенешалем', как всегда, был Фарод, который был рад доставить твое "
+"тело к вратам Морга за несколько медяков»."
 
 #: 891
 msgid "\"Who is this Pharod?\""
-msgstr ""
+msgstr "«Кто этот Фарод?»"
 
 #: 892 898 910
 msgid "\"Doesn't sound like you like Pharod much.\""
-msgstr ""
+msgstr "«Похоже, тебе не очень-то нравится Фарод»."
 
 #: 895
 msgid ""
@@ -668,10 +818,14 @@ msgid ""
 "those that have walked the path of True Death and bring them to us so that "
 "they may be interred properly.\""
 msgstr ""
+"«Он... сборщик мертвых». Дхолл переводит дыхание, затем продолжает: «У нас в "
+"городе есть такие люди, которые собирают тела тех, кто вступил на путь "
+"Истинной Смерти, и приносят их нам для подобающего погребения»."
 
 #: 897
+#, fuzzy
 msgid "\"Where can I find this 'Pharod'?\""
-msgstr ""
+msgstr "«Где я могу найти этого Фарода?»"
 
 #: 900
 msgid ""
@@ -679,6 +833,8 @@ msgid ""
 "chance of Pharod finding you and bringing you to us again before you find "
 "whatever ooze puddle he wallows in this time.\" "
 msgstr ""
+"«Если все пойдет своим чередом, Неугомонный, то скорее Фарод найдет тебя и "
+"притащит нам сюда, чем ты найдешь ту лужу грязи, в которой он барахтается». "
 
 #: 901
 msgid ""
@@ -687,14 +843,18 @@ msgid ""
 "you none the wiser and Pharod a few coppers richer. Accept death, Restless "
 "One. Do not perpetuate your circle of misery.\""
 msgstr ""
+"Голос Дхолла начинает звучать предостерегающе. «Не ищи Фарода, Неугомонный. "
+"Я уверен, что ты попросту пройдешь еще один полный круг, и не станешь от "
+"этого мудрее, зато обогатишь Фарода на несколько медяков. Прими смерть, "
+"Неугомонный. Не повторяй свой круг страданий»."
 
 #: 902
 msgid "\"Nevertheless, I must find him.\""
-msgstr ""
+msgstr "«Тем не менее, я должен его найти»."
 
 #: 906
 msgid "\"I *have* to find him. Do you know where he is?\""
-msgstr ""
+msgstr "«Мне *нужно* найти его. Ты не знаешь, где он может быть?»"
 
 #: 908
 msgid ""
@@ -703,43 +863,59 @@ msgid ""
 "moment, but I imagine that he can be found somewhere beyond the Mortuary "
 "gates, in the Hive. Perhaps someone there will know where you can find him.\""
 msgstr ""
+"Дхолл умолкает на минуту. Когда же он начинает говорить, то становится ясно, "
+"что он делает это с явной неохотой. «Я не знаю, в каком притоне находится "
+"логово Фарода в данный момент, но могу предположить, что оно где-то за "
+"воротами Морга, в Улье. Возможно, кто-то из местных знает, где его найти»."
 
 #: 909
 msgid "\"Can you tell me more about the Mortuary?\""
-msgstr ""
+msgstr "«Расскажи мне побольше о Морге»."
 
 #: 914
+#, fuzzy
 msgid ""
 "\"I know scant little of you, Restless One. I know little more of those that "
 "have journeyed with you and who now lie in our keeping.\" Dhall sighs. \"I "
 "ask that you no longer ask others to join with you, Restless One - where you "
 "walk, so walks misery. Let your burden be your own.\""
 msgstr ""
+"«О тебе, Неугомонный, я знаю совсем немного. О твоих спутниках, лежащих "
+"теперь под нашим присмотром, я знаю ненамного больше, - Дхолл вздыхает. - "
+"Прошу тебя, Неугомонный, больше не проси никого идти с тобой: за тобой "
+"остается только несчастье. Не разделяй свою ношу с другими»."
 
 #: 915
+#, fuzzy
 msgid ""
 "Dhall sighs. \"It is said there are souls who can never attain the True "
 "Death. Death has forsaken them, and their names shall never be penned in the "
 "dead-book. To awake from death as you have done... suggests you are one of "
 "these souls. Your existence is unacceptable to our faction.\""
 msgstr ""
+"Дхолл вздыхает. «Говорят, что есть души, которые не могут достичь Истинной "
+"Смерти. Смерть отказалась от них, и их имена никогда не попадут в Книгу "
+"Мертвых. Подняться из мертвых, как это сделал ты... Это наводит на мысль, "
+"что ты - одна из таких душ. Само твое существование неприемлемо для нашей "
+"фракции»."
 
 #: 917
+#, fuzzy
 msgid ""
 "\"'Unacceptable'? That doesn't sound like it leaves me in a good position.\""
-msgstr ""
+msgstr "«Неприемлемо? Похоже, мое положение оставляет желать лучшего»."
 
 #: 918
 msgid "\"I see. Tell me more about the Mortuary.\""
-msgstr ""
+msgstr "«Ясно. Расскажи мне побольше о Морге»."
 
 #: 920
 msgid "\"I think I've heard enough. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Думаю, я услышал достаточно. Прощай, Дхолл»."
 
 #: 921
 msgid "\"There are others who have journeyed with me? And they are here?\""
-msgstr ""
+msgstr "«Меня кто-то сопровождал в пути? Они здесь?»"
 
 #: 924
 msgid ""
@@ -749,10 +925,15 @@ msgid ""
 "effort. \"As long as I remain at my post, I will protect your right to "
 "search for your own truth.\""
 msgstr ""
+"«Потому что заставлять тебя принимать нашу веру несправедливо. Ты должен "
+"оставить тень этой жизни по своей воле, а не по нашей». Дхолл, кажется, "
+"готов разразиться очередным приступом кашля, но с некоторыми усилиями ему "
+"удается сдержаться. «И покуда я не покину свою должность, я буду защищать "
+"твое право искать свою правду»."
 
 #: 927
 msgid "\"What is your post?\""
-msgstr ""
+msgstr "«Каковы твои обязанности?»"
 
 #: 929
 msgid ""
@@ -761,6 +942,10 @@ msgid ""
 "see the faces of those that lie upon our slabs. The dark of your existence "
 "lies safe with me.\""
 msgstr ""
+"«Я - единственный, кто регистрирует тела, поступающие в наши залы, "
+"Неугомонный». Дхолл начинает кашлять, затем успокаивается. «Только я вижу "
+"лица тех, кто лежит на наших плитах. Тайна твоего существования со мной в "
+"безопасности»."
 
 #: 930
 msgid ""
@@ -768,12 +953,16 @@ msgid ""
 "Dhall coughs again, then takes a deep breath. \"As long as the stream of "
 "corpses flows through the Mortuary, I shall remain at my post.\""
 msgstr ""
+"«Я - писарь. Я веду учет всех тел, которые поступают в Морг». Дхолл снова "
+"кашляет, затем глубоко вздыхает. «И пока поток трупов идет через Морг, я "
+"буду при своей должности»."
 
 #: 931
 msgid ""
 "\"You say that I have been here more than once. How is it that the Dustmen "
 "do not recognize me?\""
 msgstr ""
+"«Ты сказал, что я был здесь много раз. Почему же тленные не узнают меня?»"
 
 #: 934
 msgid ""
@@ -782,16 +971,22 @@ msgid ""
 "tire of this mortal sphere...\" Dhall gives a ragged sigh. \"The planes hold "
 "no more wonders for one such as I.\""
 msgstr ""
+"«Я уже близок к Истинной Смерти, Неугомонный. Уже скоро я пересеку Границу "
+"Вечности и обрету покой, который давно искал. Я устал от этой смертной "
+"сферы... - Дхолл тяжело вздыхает. - Для такого, как я, на планах больше нет "
+"чудес»."
 
 #: 936
 msgid "\"Are you certain? There might be some way I could help you.\""
-msgstr ""
+msgstr "«Ты уверен? Должен же быть способ помочь тебе»."
 
 #: 938
 msgid ""
 "\"I do not wish to live forever nor live again, Restless One. I could not "
 "bear it.\""
 msgstr ""
+"«Я не желаю жить вечно или возрождаться, Неугомонный. Я не смогу этого "
+"вынести»."
 
 #: 939
 msgid ""
@@ -799,14 +994,18 @@ msgid ""
 "upon you, Restless One? She has reached the True Death and passed well "
 "beyond your reach.\""
 msgstr ""
+"«Она *разговаривала* с тобой? - Дхолл переходит на шепот. - Ты случаем не "
+"*бредишь*, Неугомонный? Она достигла Истинной Смерти и ушла туда, куда тебе "
+"не добраться»."
 
 #: 940
 msgid ""
 "\"You're a Dustman. But you don't seem to be in favor of killing me. Why not?"
 "\""
-msgstr ""
+msgstr "«Ты - тленный, и все же не пытаешься убить меня. Почему?»"
 
 #: 941
+#, fuzzy
 msgid ""
 "Dhall pauses, considering. \"Most likely. Are you missing anything... "
 "especially anything of value?\" His voice dips as he frowns. \"Not that "
@@ -814,14 +1013,18 @@ msgid ""
 "your body, and sometimes even that's not enough to give his greedy mind "
 "pause.\""
 msgstr ""
+"Дхолл умолкает в раздумье. «Скорее всего. Ты что-то потерял... что-то "
+"особенно ценное? - он хмурится, понижая тон. - Вряд ли Фарод будет делать "
+"исключения для чего либо, кроме вживленных в плоть вещей, но порой даже "
+"этого недостаточно, чтобы остановить его жадность»."
 
 #: 942
 msgid "\"I am missing a journal.\""
-msgstr ""
+msgstr "«Я потерял дневник»."
 
 #: 943
 msgid "\"Hmmm. Do you know where I can find Pharod?\""
-msgstr ""
+msgstr "«Хм-м. Ты не знаешь, где мне найти Фарода?»"
 
 #: 945
 msgid ""
@@ -829,18 +1032,21 @@ msgid ""
 "ill omen, Restless One. I pray you dreamed the conversation... yet I fear "
 "you did not.\""
 msgstr ""
+"Дхолл описывает пальцем полукруг в воздухе перед собой. «Это дурное "
+"знамение, Неугомонный. Я молюсь о том, чтобы это оказалось твоим сном... и "
+"все же боюсь, это не так»."
 
 #: 946
 msgid "\"Perhaps I imagined it. I had some other questions.\""
-msgstr ""
+msgstr "«Возможно, мне показалось. У меня еще вопросы»."
 
 #: 947
 msgid "\"Perhaps we will speak more of it later. Farewell, Dhall.\""
-msgstr ""
+msgstr "«Возможно, мы поговорим об этом позже. Прощай, Дхолл»."
 
 #: 948
 msgid "\"Where can I find this Pharod?\""
-msgstr ""
+msgstr "«Где мне найти этого Фарода?»"
 
 #: 950
 msgid ""
@@ -850,26 +1056,37 @@ msgid ""
 "concern. \"Your wounds must have exacted a heavy toll if you do not "
 "recognize this place. It is almost your home.\""
 msgstr ""
+"«Это место, куда мертвых доставляют для погребения или кремации. Забота об "
+"умерших, покинувших эту тень жизни и ступивших на путь Истинной Смерти, "
+"входит в обязанности тленных, - Дхолл от волнения понижает тон. - Должно "
+"быть, ты был тяжело ранен, раз не узнаешь это место. Это практически твой "
+"дом»."
 
 #: 954
 msgid "\"Dustmen?\""
-msgstr ""
+msgstr "«Тленных?»"
 
 #: 955
 msgid "\"Sigil?\""
-msgstr ""
+msgstr "«Сигил?»"
 
 #: 957
+#, fuzzy
 msgid ""
 "\"Yes, a shadow. You see, Restless One, this life... it is not real. Your "
 "life, my life, they are shadows, flickerings of what life once was. This "
 "'life' is where we end up *after* we die. And here we remain... trapped. "
 "Caged. Until we can achieve the True Death.\""
 msgstr ""
+"«Да, тень. Видишь ли, Неугомонный, эта жизнь... она не настоящая. Наши с "
+"тобой жизни - всего лишь тени, жалкое подобие от того, что было однажды "
+"жизнью. Эта 'жизнь' - то, куда мы попадаем *после* того, как умираем. А "
+"здесь мы... в западне. В клетке. До тех пор, пока не достигнем Истинной "
+"Смерти»."
 
 #: 959
 msgid "\"What makes you think this life isn't real?\""
-msgstr ""
+msgstr "«Почему ты решил, что эта жизнь ненастоящая?»"
 
 #: 961
 msgid ""
@@ -878,6 +1095,10 @@ msgid ""
 "of them have healed already.\" Dhall coughs violently for a moment, then "
 "steadies himself. \"But those are only the surface wounds.\""
 msgstr ""
+"«Да, раны, украшающие твое тело... Получи их более слабый человек, он бы уже "
+"был на пути к Истинной Смерти, а у тебя некоторые из них уже зажили, - Дхолл "
+"надрывно кашляет, затем успокаивается. - Но это всего лишь поверхностные "
+"раны»."
 
 #: 962
 msgid ""
@@ -886,14 +1107,19 @@ msgid ""
 "a badge of honor and takes liberties with the possessions of the dead. He is "
 "a knight of the post, cross-trading filth of the lowest sort.\""
 msgstr ""
+"«Есть люди, которых я уважаю, Неугомонный, - Дхолл успокаивает свое неровное "
+"дыхание. - Фарод не входит в их число. Он носит свою дурную репутацию как "
+"знак гордости и свободно распоряжается имуществом умерших. Он рыцарь легкой "
+"наживы, подлая мразь самого низкого пошиба»."
 
 #: 963
+#, fuzzy
 msgid "\"'Knight of the post'?\""
-msgstr ""
+msgstr "«Рыцарь легкой наживы?»"
 
 #: 964 968
 msgid "\"Do you know where I can find Pharod?\""
-msgstr ""
+msgstr "«Ты не знаешь, где я могу найти Фарода?»"
 
 #: 966
 msgid ""
@@ -902,14 +1128,17 @@ msgid ""
 "possessed in life. Pharod takes whatever he may pry from their stiffening "
 "fingers.\""
 msgstr ""
+"«Рыцарь легкой наживы, - Дхолл кашляет, - вор. Все, кого Фарод приносит к "
+"нашим стенам, лишены всего имущества, которым они обладали при жизни. Фарод "
+"присваивает себе все, что ему удается вырвать из их окоченевших пальцев»."
 
 #: 967
 msgid "\"Did this Pharod take anything from *me?*\""
-msgstr ""
+msgstr "«Мог ли Фарод взять что-нибудь у *меня*?»"
 
 #: 970
 msgid "\"Sigil is our fair city, Restless One.\""
-msgstr ""
+msgstr "«Сигил - это наш прекрасный город, Неугомонный»."
 
 #: 973
 msgid ""
@@ -917,6 +1146,10 @@ msgid ""
 "\"Something keeps you here, does it not? Something that must be resolved, "
 "some passion that must be quenched before you can reach the True Death?\""
 msgstr ""
+"«Неугомонный - имя не хуже других... - Дхолл переводит дыхание. - Ведь что-"
+"то держит тебя здесь, не так ли? Какое-то незаконченное дело, какая-то "
+"страсть, которая должна быть подавлена, прежде чем ты сможешь достигнуть "
+"Истинной Смерти?»"
 
 #: 978
 msgid ""
@@ -925,23 +1158,34 @@ msgid ""
 "it subsides, and he returns to his raspy breathing. \"... greetings again, "
 "Restless One.\""
 msgstr ""
+"Дхолл мельком смотрит на тебя. «Итак. Ты вернулся...» Дхолл начинает хрипло "
+"дышать, затем у него начинается удушливый кашель. Спустя минуту кашель "
+"прекращается, и он, хрипло дыша, продолжает: «...приветствую тебя снова, "
+"Неугомонный»."
 
 #: 979
 msgid "\"I had some more questions for you, Dhall.\""
-msgstr ""
+msgstr "«У меня к тебе другие вопросы, Дхолл»."
 
 #: 980
+#, fuzzy
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 981
 msgid "\"She spoke to me, Dhall. Her spirit resides here.\""
-msgstr ""
+msgstr "«Она разговаривала со мной, Дхолл. Ее душа находится здесь»."
 
 #: 982
 msgid "\"Perhaps I imagined it, then. I had some other questions...\""
-msgstr ""
+msgstr "«Возможно, я это выдумал. У меня есть другие вопросы...»"
 
 #: 983
 msgid "\"The boundary between the shadow of this life and the True Death.\""
-msgstr ""
+msgstr "«Границу между владениями тени этой жизни и Истинной Смерти»."
+
+#~ msgid "\"I had some other questions..."
+#~ msgstr "«У меня есть другие вопросы...»"
+
+#~ msgid "\"Farewell, Dhall. \""
+#~ msgstr "«Прощай, Дхолл»."

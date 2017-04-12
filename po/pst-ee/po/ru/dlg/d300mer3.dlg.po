@@ -1,48 +1,60 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: d300mer3.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2015-10-31 17:40+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: 17155
 msgid ""
 "This seedy-looking fellow is quick to spot you looking at him. \"'Ey, basha, "
 "get over 'ere! Come see wot I gots for ya!\" He winks and waves you over."
 msgstr ""
+"Этот потрепанный приятель быстро замечает обращенный на него взгляд. «Эй, "
+"вояка, ходь сюда! Глянь, чо у меня для тебя есть!» Он призывно машет тебе "
+"руками."
 
 #: 17156
 msgid ""
 "The man's beady little eyes gleam like tiny black gems when he spots you. "
 "\"'Ey, dere; back for more? C'mon over, see wot I gots for ya dis time!\""
 msgstr ""
+"Его глаза-бусинки сверкают словно маленькие черные самоцветы. «Эй, там. Чо, "
+"за добавкой вернулся? Ходь сюда, глянь, чо есть для тебя на этот раз!»"
 
 #: 17157 17473
+#, fuzzy
 msgid ""
 "The man breaks in even before you can finish your sentence. \"Ya won't "
 "believe da deals I gots for ya today! Ye're a smart basha ta come ta me, ya "
 "are; I won't cheat ya like dese pikin' bobbers.\" He motions to where the "
 "other merchants stand."
 msgstr ""
+"Человек моментально перебивает тебя, не дав закончить речь. «Не поверишь, чо "
+"я для тебя припас! Такой вумный вояка обязательно пришел бы ко мне. Уж я-то "
+"не буду тебе фуфло впаривать, как эти чертовы кидалы». Он кивает на "
+"остальных торговцев."
 
 #: 17158 17192
 msgid "\"What do you have to offer me?\""
-msgstr ""
+msgstr "«Что ты можешь мне предложить?»"
 
 #: 17159 17203
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть пара вопросов...» "
 
 #: 17160 17204
 msgid "\"I was just passing by. Farewell.\""
-msgstr ""
+msgstr "«Я просто проходил мимо. Прощай»."
 
 #: 17168 17474
 msgid ""
@@ -50,6 +62,9 @@ msgid ""
 "stuff I gots here! Just look at it all! An' can ya believe dese prices? Ye'd "
 "be practically *stealin'* from me, ya would!\""
 msgstr ""
+"Он кивает, однако очевидно, что он не слушает. «Да-да, это просто потрясные "
+"вещи! Только глянь на них! А цены-то какие - не поверишь! Ты все равно что "
+"*грабишь* меня!»"
 
 #: 17169
 msgid ""
@@ -58,41 +73,49 @@ msgid ""
 "All ya gotta know is dat I gots a little a' everyting! Well, except dose Lim-"
 "Lim tings... but who da Baator needs one a' dose? Ha! Eh? Ha ha ha!\""
 msgstr ""
+"«Конечно, есть! 'Как это он торгует по таким сумасбродным ценам'? Или "
+"'Откудова у него берутся такие первоклассные товары'? Вояка, будь спок! Все, "
+"что тебе надо знать - у меня есть все понемногу! Ну, кроме этих лим-лимов... "
+"да только кому они, во имя Баатора, вообще сдались? Ха! А? Ха-ха-ха!»"
 
 #: 17175
+#, fuzzy
 msgid ""
 "He calls to your back: \"Wait, basha, where ya goin'? Don't ya wanna see all "
 "da great deals? Get back here! Ya don't know what ye're missin', ya don't!\""
 msgstr ""
+"Он взывает к твоей спине: «Стой, вояка, куда же ты? Разве не хочешь "
+"поглядеть на отличнейшие товары? Вернись! Ты даже не знаешь, что теряешь!»"
 
 #: 17208 17212 17475 17477
 msgid "\"All right, what do you have to offer me?\""
-msgstr ""
+msgstr "«Хорошо, что ты можешь мне предложить?»"
 
 #: 17209
+#, fuzzy
 msgid "\"Actually, I had some questions...\""
-msgstr ""
+msgstr "«Вообще-то, у меня несколько вопросов...»"
 
 #: 17211 17476
 msgid "\"I'm leaving. Farewell.\""
-msgstr ""
+msgstr "«Я ухожу. Прощай»."
 
 #: 17214
 msgid "\"Listen to me: I - HAVE - QUESTIONS.\""
-msgstr ""
+msgstr "«Послушай: У - МЕНЯ - ЕСТЬ - ВОПРОСЫ»."
 
 #: 17219 17225 17478
 msgid "Turn and walk away."
-msgstr ""
+msgstr "Развернуться и уйти прочь."
 
 #: 17224
 msgid "\"Fine, fine... what do you have to offer me?\""
-msgstr ""
+msgstr "«Хорошо, хорошо... Что ты можешь мне предложить?»"
 
 #: 17226
 msgid "\"Very well. What do you have to offer?\""
-msgstr ""
+msgstr "«Хорошо. Что ты можешь предложить?»"
 
 #: 17227
 msgid "Just keep on walking."
-msgstr ""
+msgstr "Просто идти дальше."

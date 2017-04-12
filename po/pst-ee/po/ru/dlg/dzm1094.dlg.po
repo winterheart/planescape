@@ -1,32 +1,34 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dzm1094.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-04-13 16:07+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 20061
 msgid "\"Back again, hmm?\" He smiles broadly."
-msgstr ""
+msgstr "«Снова вернулся, а?» Он широко улыбается."
 
 #: 20062
 msgid "\"Oh, you... again.\" He frowns, looking away."
-msgstr ""
+msgstr "«А, это ты... снова». Он хмурится, глядя в сторону."
 
 #: 20063 20065
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 20064 20066
 msgid "\"I was only passing by. Farewell.\""
-msgstr ""
+msgstr "«Я просто проходил мимо. Прощай»."
 
 #: 6562
 msgid ""
@@ -36,12 +38,18 @@ msgid ""
 "sunken features and lifeless, milky eyes, it is clear this was once a "
 "handsome young man."
 msgstr ""
+"У этого ходячего трупа на лбу вырезан номер «1094». Его губы крепко сшиты, "
+"от него исходит сильный химический запах свежего формальдегида, окружающего "
+"его в виде облака. Несмотря на мертвенно-бледное лицо и впалые безжизненные "
+"молочно-белые глаза, совершенно очевидно, что раньше это был красивый "
+"молодой человек."
 
 #: 6563
 msgid "The corpse continues to stare at you."
-msgstr ""
+msgstr "Труп продолжает пялиться на тебя."
 
 #: 6564
+#, fuzzy
 msgid ""
 "The corpse shudders for a moment, then stills, the spirit flowing into its "
 "abandoned mortal shell once more. Within seconds, a semblance of life seems "
@@ -49,30 +57,35 @@ msgid ""
 "curious puzzlement upon its face. The entire body now seems surrounded by a "
 "soft, golden aura."
 msgstr ""
+"Тело на миг вздрагивает, затем замирает: душа еще раз вселяется в когда-то "
+"покинутую оболочку. В считанные секунды в глазах зомби появляется некое "
+"подобие жизни, и он начинает оглядываться по сторонам с любопытно-"
+"озадаченным выражением лица. Все тело теперь окружено мягким золотым "
+"свечением."
 
 #: 6565 6566
 msgid "\"So... seen anything interesting going on?\""
-msgstr ""
+msgstr "«Итак... что тут у нас интересного?»"
 
 #: 6567
 msgid "\"I know you're not a zombie, you know. You're not fooling anyone.\""
-msgstr ""
+msgstr "«Знаешь, мне известно, что ты не зомби. Тебе никого не одурачить»."
 
 #: 6568
 msgid "Use your Stories-Bones-Tell ability on the corpse."
-msgstr ""
+msgstr "Использовать на трупе свою способность «История костей»."
 
 #: 6569
 msgid "\"It was great talking to you. Farewell.\""
-msgstr ""
+msgstr "«Было приятно с тобой поболтать. Прощай»."
 
 #: 6570 6571
 msgid "Leave the corpse in peace."
-msgstr ""
+msgstr "Оставить труп в покое."
 
 #: 6572
 msgid "\"I would ask you a question...\""
-msgstr ""
+msgstr "«Я хотел бы задать тебе вопрос...»"
 
 #: 9224
 msgid ""
@@ -82,6 +95,11 @@ msgid ""
 "shrugs, and nods an informal greeting. \"Where... where am I? Such an odd "
 "place. Do I know you?\" He coughs gently, rubbing at his stiffened throat."
 msgstr ""
+"Внезапно дух обращает на тебя внимание. Он сверкает обезоруживающе-"
+"дружелюбной улыбкой, разрывая при этом все швы на рту. Удивившись, он "
+"касается руками своих губ, затем пожимает плечами и приветственно кивает. "
+"«Где... где я? Какое странное место. Я тебя знаю?» Он осторожно кашляет, "
+"потирая окоченевшую глотку."
 
 #: 9225
 msgid ""
@@ -89,14 +107,17 @@ msgid ""
 "a moment, the broken stitches hanging in tatters from his gray and withered "
 "lips. \"Very well, ask what you will.\" He looks away, apparently bored."
 msgstr ""
+"Дружелюбность духа моментально испаряется. Он хмурится, разорванные швы "
+"лохмотьями свешиваются с его серых иссохших губ. «Хорошо, спрашивай, что "
+"хотел». Он отстраняет взгляд: ему явно скучно."
 
 #: 9226
 msgid "\"My name was Asonje. May I leave?\""
-msgstr ""
+msgstr "«Меня зовут Асонж. Я могу уйти?»"
 
 #: 9227
 msgid "\"I cannot remember. Anything else?\""
-msgstr ""
+msgstr "«Не могу вспомнить. Что-нибудь еще?»"
 
 #: 9228
 msgid ""
@@ -105,6 +126,9 @@ msgid ""
 "ghost-light in his eyes flashing angrily. \"Do you need anything more from "
 "me?\""
 msgstr ""
+"Дух пожимает плечами и смотрит вверх. «Точно не скажу. Да и какая вообще "
+"разница?» Он печально сжимает свои губы и бросает на тебя тяжелый взгляд; "
+"призрачные искорки в его глазах сверкают гневом. «Что-нибудь еще?»"
 
 #: 9229
 msgid ""
@@ -112,28 +136,39 @@ msgid ""
 "recollection. \"Even now I long to return to my home there, away from your "
 "selfish, inconsiderate, and rather boring prying. Am I free to return?\""
 msgstr ""
+"«Мой дух на Арборее... - он на минуту умолкает, теряясь в теплых "
+"воспоминаниях. - В данный момент я жажду вернуться домой, подальше от твоего "
+"эгоистичного, самовольного и довольно скучного любопытства. Могу ли я "
+"вернуться?»"
 
 #: 9230
 msgid ""
 "The spirit gives you an exasperated look. \"Nothing, of course!\" He shakes "
 "his head, annoyed, the broken stitches swaying with his movement."
 msgstr ""
+"Дух окидывает тебя раздраженным взглядом. «Нет, конечно же!» Он "
+"раздосадовано мотает головой, от этого движения разорванные швы качаются "
+"туда-сюда."
 
 #: 9231
 msgid "\"No.\" The spirit seems to be paying little attention to you."
-msgstr ""
+msgstr "«Нет». Похоже, ты мало его интересуешь."
 
 #: 9232
 msgid ""
 "The spirit sighs loudly, filling the air with smell of formaldehyde from the "
 "corpse's lungs. \"Yes, yes... ask away.\""
 msgstr ""
+"Дух шумно вздыхает, наполняя воздух запахом формальдегида из легких трупа. "
+"«Да-да... спрашивай»."
 
 #: 9233
 msgid ""
 "\"Your guess is as good as mine, Homely One. I would take my leave now, "
 "should you permit.\""
 msgstr ""
+"«Тебе, дорогой мой приятель, остается только предполагать, как и мне. Мне "
+"уже пора, если ты не против»."
 
 #: 9234
 msgid ""
@@ -142,17 +177,25 @@ msgid ""
 "you intently. He seems to regard discerning your identity as some sort of "
 "amusing game."
 msgstr ""
+"Он немного обдумывает это, затем начинает хохотать. «Да! Это все объясняет, "
+"не так ли? Постой, я знаю тебя?» Он склоняет голову набок, внимательно "
+"смотря на тебя. Похоже, для него опознание твоей личности - своего рода "
+"увлекательная игра."
 
 #: 9235
+#, fuzzy
 msgid ""
 "The spirit shrugs and smiles, chuckling softly. \"Perhaps you're right! What "
 "is it you wished to ask me?\" He begins absent-mindedly pulling the "
 "remaining stitches from his lips and dropping them to the floor, one by one."
 msgstr ""
+"Дух пожимает плечами и улыбается, слегка посмеиваясь. «Возможно, ты прав! "
+"Что ты хочешь узнать от меня?» Он начинает рассеянно вытягивать остатки швов "
+"из своих губ и бросать их на пол, один за одним. "
 
 #: 9236
 msgid "\"My name was Asonje. Might I know yours?\""
-msgstr ""
+msgstr "«Меня зовут Асонж. А как тебя?»"
 
 #: 9237
 msgid ""
@@ -160,6 +203,9 @@ msgid ""
 "good deal of travelling in my life, and called many places home. Now all "
 "Arborea is mine to explore...\" The spirit seems well pleased."
 msgstr ""
+"«Я отовсюду! По правде говоря, я не знаю, откуда я родом. В жизни я много "
+"путешествовал, и могу назвать своим домом многие места. Сейчас передо мной "
+"Арборея...» Дух выглядит довольным."
 
 #: 9238
 msgid ""
@@ -168,16 +214,26 @@ msgid ""
 "\"No matter!\" His cheery grin returns, somehow bright despite being "
 "plastered across a corpse's withered face."
 msgstr ""
+"Улыбка духа угасает, и он на мгновенье выглядит озадаченным. «Странно... Я "
+"не знаю! Я точно не знаю, как умер, правда, - он пожимает плечами. - "
+"Неважно!» Его радостная улыбка возвращается, сверкая даже несмотря на то, "
+"что она находится на высохшем лице трупа."
 
 #: 9239
+#, fuzzy
 msgid ""
 "\"Arborea! A more wondrous place I could not ask for. Nowhere in my mortal "
 "life did I find a place of such great passion... such splendour...\" He "
 "pauses for a while, lost in pleasant recollection. \"The beauty of the land, "
 "the people - magnificent. I tell you truly, I miss it even now!\""
 msgstr ""
+"«В Арборее! О более удивительном месте я и не мечтал. Нигде в моей смертной "
+"жизни я встречал места, столь чувственного... столь величественного... - он "
+"умолкает, теряясь в приятных воспоминаниях. - Прекрасные земли, прекрасный "
+"народ. Если честно, я уже скучаю по ней!»"
 
 #: 9240
+#, fuzzy
 msgid ""
 "\"Not so much. I signed a contract with a Dustman on a whim... she had "
 "pointed out the dreadful place to me, once, told me my corpse would be "
@@ -186,31 +242,47 @@ msgid ""
 "spend it on some women and wine!\" He chuckles at the idea, the ghost-lights "
 "in his eyes flashing merrily."
 msgstr ""
+"«Не так уж и много. Я подписал контракт с тленной, подчинившись внезапному "
+"порыву... Она показала мне какое-то ужасное место, и сказала, что мое тело "
+"будет поднято и использовано в качестве работника. Я подумал: ведь оно мне "
+"не понадобится, когда я перейду в следующую жизнь, так почему бы и нет? "
+"Можно перехватить немного серебра и потратить его на женщин и вино!» Он "
+"тихонько смеется от этой мысли, в его глазах сверкают веселые призрачные "
+"искорки."
 
 #: 9241
 msgid ""
 "The spirit thinks for a moment. \"No, I am afraid I have not heard of this "
 "man. A friend of yours?\""
 msgstr ""
+"Дух на минуту задумывается. «Нет, боюсь, что не слышал об этом человеке. Он "
+"твой друг?»"
 
 #: 9242
 msgid ""
 "He looks surprised. \"How odd! A shame, truly. I must have *something* to "
 "call you, no?\" The spirit looks at you expectantly."
 msgstr ""
+"Он выглядит удивленным. «Как странно! Мне очень жаль. Я ведь должен тебя "
+"*как-то* называть, верно?» Дух выжидающе смотрит на тебя."
 
 #: 9243
+#, fuzzy
 msgid ""
 "\"Certainly. Ask away!\" He smiles pleasantly, awaiting your query with "
 "interest. The last of the stitches now gone, his grin is not quite so eerie "
 "to look upon."
 msgstr ""
+"«Конечно. Спрашивай!» Он довольно улыбается, с интересом ожидая твоего "
+"вопроса. Последний шов был убран, и теперь его улыбка не такая зловещая."
 
 #: 9244
 msgid ""
 "The spirit, sensing your frustration, laughs goodheartedly. \"Poor sod! Then "
 "Adahn it is, friend. Now, did you have a question for me?\""
 msgstr ""
+"Дух, чувствуя твои колебания, начинает хохотать. «Вот ведь бедолага! Ну "
+"пусть будет Адан, приятель. Так какие у тебя вопросы?»"
 
 #: 9245
 msgid ""
@@ -220,140 +292,147 @@ msgid ""
 "It can be a dangerous as well as wondrous place. But that's what makes it "
 "all so exciting, no?\""
 msgstr ""
+"«О Сигиле, что ли? - увидев твой кивок, труп растягивает улыбку до ушей. - "
+"О, я не собираюсь портить тебе впечатление! Иди и разведай его сам! "
+"Затеряйся в его улочках, тавернах, среди людей... но будь внимателен! Это "
+"место не только удивительно, но и опасно. Но ведь это и делает все таким "
+"захватывающим, не так ли?»"
 
 #: 9246
 msgid "Leave the spirit."
-msgstr ""
+msgstr "Оставить духа."
 
 #: 9247
 msgid "\"You are here to answer *my* questions, spirit.\""
-msgstr ""
+msgstr "«Ты здесь, чтобы отвечать на *мои* вопросы, дух»."
 
 #: 9248
 msgid "\"You... your remains, at least... are in a mortuary.\""
-msgstr ""
+msgstr "«Ты... по крайней мере твои останки... находятся в морге»."
 
 #: 9249 9280
 msgid "\"No, I doubt you know me. Now, I had a question for you...\""
-msgstr ""
+msgstr "«Нет, сомневаюсь, что мы знакомы. У меня вопрос к тебе...»"
 
 #: 9250 9281
 msgid "\"It is doubtful. Farewell.\""
-msgstr ""
+msgstr "«Вряд ли. Прощай»."
 
 #: 9251 9271 9282 9286 9306 9307
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Так кто ты?»"
 
 #: 9252 9272 9287 9308
 msgid "\"Where are you from?\""
-msgstr ""
+msgstr "«Откуда ты?»"
 
 #: 9253 9273 9288 9309
 msgid "\"How did you end up here? As a zombie, I mean?\""
-msgstr ""
+msgstr "«Как ты попал сюда? То есть, как стал зомби?»"
 
 #: 9254 9274 9310 9317
 msgid "\"Where are you... where your spirit resides... now?\""
-msgstr ""
+msgstr "«Где ты... где находится твой дух... сейчас?»"
 
 #: 9255 9275 9311 9318
 msgid "\"What do you know of this place?\""
-msgstr ""
+msgstr "«Что ты знаешь об этом месте?»"
 
 #: 9256 9276 9312 9319
 msgid "\"Do you know someone named Pharod?\""
-msgstr ""
+msgstr "«Ты знаешь кого-нибудь по имени Фарод?»"
 
 #: 9257 9277 9320 9321
 msgid "\"Nothing, never mind.\""
-msgstr ""
+msgstr "«Ничего, неважно»."
 
 #: 9258 9264 9278
 msgid "\"No, I had another question...\""
-msgstr ""
+msgstr "«Нет, у меня есть другие вопросы...»"
 
 #: 9259 9261 9263 9268 9270 9279 9285 9293 9295 9297 9300
 msgid "\"That is all I wished to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 9260 9262
 msgid "\"Yes, I had another question...\""
-msgstr ""
+msgstr "«Да, еще один вопрос...»"
 
 #: 9265
 msgid "\"Yes, go. Farewell.\""
-msgstr ""
+msgstr "«Да. Прощай»."
 
 #: 9266
 msgid ""
 "\"Then how did your corpse come to be here, working these bleak halls?\""
-msgstr ""
+msgstr "«Тогда как же твое тело попало сюда на работу в эти унылые залы?»"
 
 #: 9267 9284 9294
 msgid "\"I had another question...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 9269
 msgid "\"Then I had another question...\""
-msgstr ""
+msgstr "«Тогда у меня есть другой вопрос...»"
 
 #: 9283
 msgid "\"My name was Asonje.\""
-msgstr ""
+msgstr "«Меня зовут Асонж»."
 
 #: 9289
 msgid "\"I... I do not know.\""
-msgstr ""
+msgstr "«Я... не знаю»."
 
 #: 9290
 msgid "\"I shall tell you another time. I had a question...\""
-msgstr ""
+msgstr "«Я скажу тебе в другой раз. У меня есть вопрос...»"
 
 #: 9291
 msgid "\"Another time, perhaps. Farewell.\""
-msgstr ""
+msgstr "«Может быть в другой раз. Прощай»."
 
 #: 9292 9296 9299
 msgid "\"I see. I had another question...\""
-msgstr ""
+msgstr "«Понятно. У меня есть другой вопрос...»"
 
 #: 9298
 msgid "\"Do you know anything of the city around the Mortuary?\""
-msgstr ""
+msgstr "«Ты что-нибудь знаешь о городе, окружающем Морг?»"
 
 #: 9301
 msgid "\"Perhaps. I had another question...\""
-msgstr ""
+msgstr "«Возможно. У меня есть другой вопрос...»"
 
 #: 9302
 msgid "\"I do not know. Farewell.\""
-msgstr ""
+msgstr "«Не знаю. Прощай»."
 
 #: 9303
+#, fuzzy
 msgid "\"I am sure you can come up with something. I had a question...\""
-msgstr ""
+msgstr "«Можешь называть меня, как хочешь. У меня есть вопрос...»"
 
 #: 9304
+#, fuzzy
 msgid "Make a name up: \"I do not know... 'Adahn'?\""
-msgstr ""
+msgstr "Придумать имя: «Ну, не знаю... 'Адан'?»"
 
 #: 9305
 msgid "\"No, it is not important. Farewell.\""
-msgstr ""
+msgstr "«Нет, это неважно. Прощай»."
 
 #: 9313
 msgid "\"Yes, I did...\""
-msgstr ""
+msgstr "«Да, есть...»"
 
 #: 9314
 msgid "\"No, I did not. Farewell.\""
-msgstr ""
+msgstr "«Нет, нету. Прощай»."
 
 #: 9315
 msgid "\"I... suppose so. I have another question...\""
-msgstr ""
+msgstr "«Да... наверное. У меня есть другой вопрос...»"
 
 #: 9316
 msgid "\"Perhaps. Farewell.\""
-msgstr ""
+msgstr "«Возможно. Прощай»."

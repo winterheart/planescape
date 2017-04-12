@@ -1,28 +1,31 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dpost.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-11-17 01:27+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: 46493
 msgid "Examine the Want Ad."
-msgstr ""
+msgstr "Осмотреть объявление о приеме на работу."
 
 #: 46496 46504 46509 6251 6256 6272 6281 6287 6295 6303 6309 6315 6320
+#, fuzzy
 msgid "Use your Stories-Bones-Tell power on the corpse."
-msgstr ""
+msgstr "Использовать на трупе свою способность «История костей»."
 
 #: 46497 46505 6237 6243 6248 6253 6257 6273 6282 6288 6296 6321
 msgid "Leave the corpse in peace."
-msgstr ""
+msgstr "Оставить труп в покое."
 
 #: 46498
 msgid ""
@@ -31,10 +34,15 @@ msgid ""
 "successful completion of said task. Interested parties inquire with Initiate "
 "Norochj, Gathering Dust Bar.\""
 msgstr ""
+"«ТРЕБУЕТСЯ: Крепкий человек, желающий расследовать дело безотлагательной "
+"важности для тленных. При успешном выполнении запрошенного задания будет "
+"выплачена соразмерная компенсация. Заинтересованным просьба встретиться с "
+"посвященным Норочжем в Баре собирателей пыли»."
 
 #: 46499
+#, fuzzy
 msgid "\"'Gathering Dust Bar'?\""
-msgstr ""
+msgstr "«Бар собирателей пыли?»"
 
 #: 46500
 msgid ""
@@ -42,23 +50,25 @@ msgid ""
 "building before you. A moment later, the arm falls back to its side with a "
 "THUMP."
 msgstr ""
+"Зомби немедленно поднимает левую руку и указывает на здание перед тобой. "
+"Спустя мгновенье рука падает назад с сочным шлепком."
 
 #: 46501 46502 46506 46507 6231 6233 6238 6239 6245 6246 6259 6260 6269 6270
 #: 6278 6279 6284 6285 6292 6293 6298 6299 6306 6307 6312 6313 6318
 msgid "Examine the corpse."
-msgstr ""
+msgstr "Осмотреть труп. "
 
 #: 46503 6280 6286 6294
 msgid "Examine the other notices..."
-msgstr ""
+msgstr "Осмотреть другие объявления..."
 
 #: 46508 6271 6302 6308 6314 6319
 msgid "Examine the other notices."
-msgstr ""
+msgstr "Осмотреть другие объявления."
 
 #: 46510 6304 6310
 msgid "\"Uh... Thanks.\""
-msgstr ""
+msgstr "«Э... Спасибо»."
 
 #: 6229
 msgid ""
@@ -69,32 +79,40 @@ msgid ""
 "graffiti has been carved into its body, and several notices have been nailed "
 "into its chest, back, and head."
 msgstr ""
+"Этот грязный труп имеет жалкий вид; его плечи сильно опущены, одна нога "
+"сломана и вывернута в другую сторону. С ног до головы он покрыт какими-то "
+"пятнами... судя по запаху и виду, эти пятна от тухлых фруктов и птичьего "
+"помета. Вдобавок к этому, все тело покрыто надписями, а к груди, спине и "
+"голове прибито несколько объявлений."
 
 #: 6230
 msgid "\"I thought *I* was in bad shape. Don't all those nails hurt?\""
 msgstr ""
+"«А я-то думал, что это у *меня* жалкий вид. Тебе от гвоздей не больно?»"
 
 #: 6232
 msgid "The corpse makes no response."
-msgstr ""
+msgstr "Труп не отвечает."
 
 #: 6234 6240 6247 6250 6255
 msgid "Examine the graffiti and notices."
-msgstr ""
+msgstr "Осмотреть рисунки и объявления."
 
 #: 6235 6241
 msgid "Use your Stories-Bones-Tell ability on the corpse."
-msgstr ""
+msgstr "Использовать на трупе свою способность «История костей»."
 
 #: 6236 6242
 msgid "\"It was great talking to you. Farewell.\""
-msgstr ""
+msgstr "«Было приятно поболтать с тобой. Прощай»."
 
 #: 6244
 msgid ""
 "This corpse makes no reply. It looks like it is too far gone to answer any "
 "of your questions."
 msgstr ""
+"Труп не реагирует. Кажется, он слишком далек от того, чтобы отвечать на твои "
+"вопросы."
 
 #: 6249
 msgid ""
@@ -105,10 +123,15 @@ msgid ""
 "lodged in them. One wicked-looking cobblestone is still embedded in the side "
 "of its head. "
 msgstr ""
+"Несмотря на множество швов, сгнившая кожа трупа отвалилась в нескольких "
+"местах, демонстрируя протяженные участки мускулов и костей. Кажется, что на "
+"этом зомби упражнялись в меткости метания снарядов... пятна фруктов и грязи "
+"повсюду, в некоторых местах из кожи до сих пор торчат камни и осколки "
+"стекла. А из головы торчит внушительных размеров булыжник. "
 
 #: 6252
 msgid "Pry out the cobblestone."
-msgstr ""
+msgstr "Вытащить булыжник."
 
 #: 6254
 msgid ""
@@ -118,6 +141,11 @@ msgid ""
 "aside, some of the tears in the skin still have rocks and bits of glass "
 "lodged in them. "
 msgstr ""
+"Несмотря на множество швов, сгнившая кожа трупа отвалилась в нескольких "
+"местах, демонстрируя протяженные участки мускулов и костей. Кажется, что на "
+"этом зомби упражнялись в меткости метания снарядов... пятна фруктов и грязи "
+"повсюду, в некоторых местах из кожи до сих пор торчат камни и осколки "
+"стекла. "
 
 #: 6258
 msgid ""
@@ -127,22 +155,27 @@ msgid ""
 "fare for a restaurant, one on his chest looks like an official notice, and "
 "another appears to be some sort of want ad."
 msgstr ""
+"Множество листовок было попросту смыто дождем, но некоторые из них все еще "
+"можно прочесть. Одна из них, приколотая к спине, озаглавлена «Управление по "
+"борьбе с вредителями и заболеваниями»; та, что прибита ко лбу, похожа на "
+"меню ресторана; другая, на теле, - на официальное объявление, а еще одна "
+"похожа на объявление о приеме на работу."
 
 #: 6261
 msgid "Ignore the notices, examine the graffiti."
-msgstr ""
+msgstr "Игнорировать объявления, осмотреть надписи."
 
 #: 6262
 msgid "Look at the post for 'Office of Vermin and Disease Control.'"
-msgstr ""
+msgstr "Прочитать плакат «Управление по борьбе с вредителями и заболеваниями»."
 
 #: 6263
 msgid "Examine the Bill of Fare."
-msgstr ""
+msgstr "Осмотреть меню."
 
 #: 6264
 msgid "Examine the Official Notice."
-msgstr ""
+msgstr "Осмотреть Официальное объявление."
 
 #: 6267
 msgid ""
@@ -154,21 +187,34 @@ msgid ""
 "Gate, in lower Hive. Ask for Official Inspecter-in-Charge, the RESPECTED "
 "PHINEAS T. LORT, XXXIX.\""
 msgstr ""
+"«К гражданам Улья, жилающим плодотворно сатрудничать с УВАЖАИМЫМ и "
+"БЛАГАРОДНЕШИМ Правительством Сигила: праследуйте низамдлительно в Управление "
+"по барьбе с вредителями и балезнями, штобы памочь в барьбе с черипокрысами. "
+"АХОТНИКАМ - НАГРАДА! Медяк за каждый принесеный хвост крысы (Хвост должин "
+"быть настаящим и крысиным. Кашачие, сабачие или бесовские хвосты не "
+"пренимаются). Управление находется в нижнем Улье, к ЮГОВОСТОКУ от ворот "
+"Морга. Спрашевать Афициального Испалнительного, Инспектора УВАЖАИМОГО "
+"ФИНЕАСА Т. ЛОРТА XXXIX»."
 
 #: 6268
+#, fuzzy
 msgid "\"'Office of Vermin and Disease Control'?\""
-msgstr ""
+msgstr "«Управление по борьбе с вредителями и заболеваниями?»"
 
 #: 6274
+#, fuzzy
 msgid ""
 "Someone has posted a bill of fare for the \"Gathering Dust Bar,\" but the "
 "bill of fare cannot be read, as the words \"SMOLDERING CORPSE BAR\" have "
 "been scrawled in charcoal over the bill."
 msgstr ""
+"Кто-то приколол меню «Бара собирателей пыли», но его невозможно прочитать, "
+"так как слова «БАР ТЛЕЮЩИЙ ТРУП», написанные углем, покрывают всю листовку.  "
 
 #: 6275 6276 6277
+#, fuzzy
 msgid "\"'Smoldering Corpse Bar'?\""
-msgstr ""
+msgstr "«Бар Тлеющий труп?»"
 
 #: 6283
 msgid ""
@@ -179,38 +225,51 @@ msgid ""
 "Answerable for the Vandalism of Said Servant.\" - By Order of The Hall of "
 "Speakers -"
 msgstr ""
+"«ПУБЛИЧНОЕ ОБЪЯВЛЕНИЕ: По приказу Законодательного Совета и с согласия "
+"граждан Сигила, да будет известно, что осквернение Зарегистрированного "
+"Служителя тленных, будь то расписывание, физический ущерб или прикрепление "
+"объявлений, будет рассматриваться как ПРЕСТУПЛЕНИЕ, и преступник будет "
+"отвечать за вандализм оного Служителя». - По Приказу Зала Спикеров -"
 
 #: 6289
+#, fuzzy
 msgid ""
 "The graffiti runs from obscenities about the Dustmen to slogans glorifying "
 "what appear to be local gangs. One piece of graffiti catches your eye... "
 "someone has carved the name \"Pharod\" on the corpse's left arm, then "
 "slashed an \"X\" across it."
 msgstr ""
+"Все тело покрыто непристойными надписями, которые оскорбляют тленных и "
+"прославляют местные банды. Одна из надписей привлекает твое внимание... кто-"
+"то вырезал имя «Фарод» на левой руке, а затем перечеркнул его крестом.  "
 
 #: 6290 6291
 msgid "\"Pharod?\""
-msgstr ""
+msgstr "«Фарод?»"
 
 #: 6297
 msgid ""
 "The zombie immediately jerks its left arm upwards and points far to the "
 "south. A moment later, the arm falls back to its side with a THUMP."
 msgstr ""
+"Зомби немедленно поднимает левую руку и указывает далеко на юг. Спустя "
+"мгновенье рука падает назад с сочным шлепком."
 
 #: 6300
 msgid "\"Hmmm. I wonder if this would work with the other notices...\""
-msgstr ""
+msgstr "«Хм-м. Интересно, сработает ли это с другими объявлениями...»"
 
 #: 6301
 msgid "\"Hmmmm. I wonder if this would work with the other notices...\""
-msgstr ""
+msgstr "«Хм-м. Интересно, сработает ли это с другими объявлениями...»"
 
 #: 6305
 msgid ""
 "The zombie immediately jerks its left arm upwards and points far to the "
 "southwest. A moment later, the arm falls back to its side with a THUMP."
 msgstr ""
+"Зомби немедленно поднимает левую руку и указывает далеко на юго-запад. "
+"Спустя мгновенье рука падает назад с сочным шлепком."
 
 #: 6311
 msgid ""
@@ -218,10 +277,12 @@ msgid ""
 "west... and downwards. A moment later, the arm falls back to its side with a "
 "THUMP."
 msgstr ""
+"Зомби немедленно поднимает левую руку и указывает далеко на запад... и вниз. "
+"Спустя мгновенье рука падает назад с сочным шлепком."
 
 #: 6316
 msgid "\"Uh... thanks.\""
-msgstr ""
+msgstr "«Э... Спасибо»."
 
 #: 6317
 msgid ""
@@ -229,12 +290,17 @@ msgid ""
 "Traces of brain matter and rotting flesh slowly drip from it... it looks "
 "like whatever was in its head turned to ooze long ago. "
 msgstr ""
+"Ты хватаешь булыжник за край и вытягиваешь его из головы трупа. Остатки "
+"мозга и сгнившей плоти медленно вытекают из головы... кажется, что все, что "
+"было в ней, превратилось в липкую слизь много лет назад. "
 
 #: 6322
 msgid ""
 "The zombie immediately jerks its left arm upwards and points far to the "
 "southeast. A moment later, the arm falls back to its side with a THUMP."
 msgstr ""
+"Зомби немедленно поднимает левую руку и указывает далеко на юго-восток. "
+"Спустя мгновенье рука падает назад с сочным шлепком."
 
 #: 66757
 msgid ""
@@ -242,19 +308,26 @@ msgid ""
 "might be found... he pointed several blocks to the west of the Mortuary and, "
 "oddly enough, downwards. Is Pharod buried underground somewhere? "
 msgstr ""
+"Произнеся имя Фарода, я спросил у «Указателя», где можно его найти... Он "
+"указал на несколько кварталов к западу от Морга и, что очень странно, вниз. "
+"Неужели Фарод похоронен где-то в земле? "
 
 #: 9749
 msgid ""
 "The zombie stands motionless. You notice a clear spot on its shoulder where "
 "you could carve her name."
 msgstr ""
+"Зомби неподвижно стоит. Ты замечаешь чистое место на плече, где ты можешь "
+"вырезать ее имя."
 
 #: 9750
 msgid ""
 "The zombie immediately jerks its arm (to point at wherever the hell Xixi "
 "will be)."
 msgstr ""
+"Зомби немедленно поднимает руку (чтобы указать, где эта чертова Сиси может "
+"быть)."
 
 #: 9751
 msgid "The zombie remains motionless. "
-msgstr ""
+msgstr "Зомби остается неподвижным. "

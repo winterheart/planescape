@@ -1,164 +1,177 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dxach.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-09 21:22+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: 1354
 msgid "\"I know you're not a zombie, you know. You're not fooling anyone.\""
-msgstr ""
+msgstr "«Знаешь, мне известно, что ты не зомби. Тебе никого не одурачить»."
 
 #: 1355
 msgid "Use your Stories-Bones-Tell ability on the corpse."
-msgstr ""
+msgstr "Использовать на трупе свою способность «История костей»."
 
 #: 1357
 msgid "\"It was great talking to you. Farewell.\""
-msgstr ""
+msgstr "«Было приятно поболтать с тобой. Прощай»."
 
 #: 1358
 msgid "Leave the corpse in peace."
-msgstr ""
+msgstr "Оставить труп в покое."
 
 #: 1364 1365 1368 1369 1377 1391 592 641 648 652 691 696
 msgid "\"I must leave. Farewell, Xachariah.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай, Захария»."
 
 #: 1366 669
 msgid "\"Looks like it. I must go now. Farewell, Xachariah.\""
-msgstr ""
+msgstr "«Очень похоже. Я должен идти. Прощай, Захария»."
 
 #: 1367 660
 msgid "\"I can't now, I must leave. Farewell, Xachariah.\""
-msgstr ""
+msgstr "«Сейчас я не могу, я должен идти. Прощай, Захария»."
 
 #: 1370 628
 msgid "\"Thanks for the information. Farewell, Xachariah.\""
-msgstr ""
+msgstr " «Спасибо за информацию. Прощай, Захария»."
 
 #: 1371 1372 1373 611 619 624
 msgid "\"I've heard enough. Farewell, Xachariah.\""
-msgstr ""
+msgstr "«Я выслушал достаточно. Прощай, Захария»."
 
 #: 1374 607
 msgid "\"Maybe I better find out. Farewell, Xachariah.\""
-msgstr ""
+msgstr "«Возможно, мне это удастся. Прощай, Захария»."
 
 #: 1375 604 63628 63629
 msgid "\"Hmmm. Interesting. Thank you, Xachariah.\""
-msgstr ""
+msgstr "«Хм-м-м. Интересно. Спасибо, Захария»."
 
 #: 1376 599
 msgid "\"I have to go. Farewell, Xachariah.\""
-msgstr ""
+msgstr "«Это хорошо. Прощай, Захария»."
 
 #: 1378 587
 msgid "\"Nothing... I have to leave. Farewell, Xachariah.\""
-msgstr ""
+msgstr "«Ничего... Мне нужно идти. Прощай, Захария»."
 
 #: 1379 579
 msgid "\"I see... I have to go now. Farewell, Xachariah.\""
-msgstr ""
+msgstr "«Понятно... Я должен идти. Прощай, Захария»."
 
 #: 1380 1381 1392 527 571 574
 msgid "\"I must leave. Farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай»."
 
 #: 1382 1383 1385 553 560 565
 msgid "\"I have to go. Farewell.\""
-msgstr ""
+msgstr "«Мне нужно идти. Прощай»."
 
 #: 1384 556
 msgid ""
 "\"I see. I wonder if it *was* necessary. Dhall and I should discuss this... "
 "farewell.\""
 msgstr ""
+"«Понятно. Интересно, *почему* это было необходимо. Надо поговорить об этом с "
+"Дхоллом... Прощай»."
 
 #: 1386 549
 msgid "\"I'll go look for this zombie. Farewell.\""
-msgstr ""
+msgstr "«Пойду-ка, поищу этого зомби. Прощай»."
 
 #: 1387 1388 1389 537 544 546
 msgid "\"I have no more time to speak with you. Farewell.\""
-msgstr ""
+msgstr "«У меня больше нет времени на разговоры. Прощай»."
 
 #: 1390 545
 msgid "\"I've heard enough. Farewell.\""
-msgstr ""
+msgstr "«Я выслушал достаточно. Прощай»."
 
 #: 1393 688
 msgid "\"I have no more time to talk, Xachariah. Farewell.\""
-msgstr ""
+msgstr "«У меня больше нет времени на разговоры, Захария. Прощай»."
 
 #: 1394 518
 msgid "\"I can't speak long. I must leave. Farewell.\""
-msgstr ""
+msgstr "«Я не могу долго говорить, мне нужно идти. Прощай»."
 
 #: 500
+#, fuzzy
 msgid ""
 "You see a male corpse with the number \"331\" chiseled into his skull. His "
 "eyes and lips are stitched closed, and there is a gaping hole torn in his "
 "throat. He smells *foul.*"
 msgstr ""
+"Перед тобой труп мужчины с выбитым на черепе номером «331». Его веки и губы "
+"крепко зашиты, в горле зияет огромная дыра. От него *отвратительно* пахнет."
 
 #: 501
 msgid "The corpse stares ahead silently with its sightless eyes."
-msgstr ""
+msgstr "Труп беззвучно смотрит вперед своими невидящими глазами."
 
 #: 502 503
 msgid "\"So... seen anything interesting going on?\""
-msgstr ""
+msgstr "«Итак... что тут у нас интересного?»"
 
 #: 504
 msgid ""
 "\"Wh-wh...\" The zombie is awkwardly getting his voice back, and he sounds "
 "alarmed. \"Who's there?! Answer me!\""
 msgstr ""
+"«Кх-кх... - зомби неуклюже подает голос, полный тревоги. - Кто здесь!? "
+"Отвечай!»"
 
 #: 505
 msgid "\"Farewell, then.\""
-msgstr ""
+msgstr "«Тогда прощай». "
 
 #: 506 521 631 634
 msgid "\"Xachariah?\""
-msgstr ""
+msgstr "«Захария?»"
 
 #: 507
 msgid "\"Can you not see me?\""
-msgstr ""
+msgstr "«Ты меня не видишь?»"
 
 #: 508 510 63307 63308
 msgid "Improvise: \"It is I. Do you not recognize my voice?\""
-msgstr ""
+msgstr "Импровизация: «Это я. Ты не узнаешь мой голос?»"
 
 #: 509
 msgid ""
 "\"Blind I am, in death as I was in life... now answer me. Who are you?\""
 msgstr ""
+"«Я слеп, слеп в смерти, как был слеп при жизни... а теперь отвечай - кто ты?»"
 
 #: 511 515 519
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 512
 msgid ""
 "\"Wha... you!\" The zombie seems shocked, but gladdened. \"By the Lady's "
 "Gaze...\" His tone takes on a sense of wonder. \"Aren't you *dead,* cutter?\""
 msgstr ""
+"«Что... ты! - зомби потрясен, но при этом обрадован. - О взор Леди... - в "
+"его голосе звучит удивление. - Разве ты не *мертв*, рубака?»"
 
 #: 513
 msgid "\"In the Mortuary, cutter. Did you not know that?\""
-msgstr ""
+msgstr "«Это Морг, рубака. Ты, что, этого не знаешь?»"
 
 #: 514
+#, fuzzy
 msgid ""
 "\"So, it's hard to peel away this filthy shroudskin an' see ol' Xachariah "
 "the Fool beneath? It is I, cutter. Blessed be the powers, I thought never to "
@@ -166,38 +179,43 @@ msgid ""
 "you been making poor choices again?\" Xachariah wheezes from his throat "
 "hole. \"Be you dead, too?\""
 msgstr ""
+"«Что, трудновато под этой вонючей шкурой узнать старого дурака Захарию? Это "
+"я, рубака. Слава Силам, а я-то думал, что больше никогда тебя не встречу... "
+"но и ты тоже изменился, если уши меня не подводят... снова сделал "
+"неправильный выбор? - из дыры в горле Захарии со свистом выходит воздух. - "
+"Ты ведь тоже мертв?»"
 
 #: 516 686 689
 msgid "\"What are you doing here?\""
-msgstr ""
+msgstr "«Что ты здесь делаешь?»"
 
 #: 517 687
 msgid "\"What is this place?\""
-msgstr ""
+msgstr "«Что это за место?»"
 
 #: 520 522
 msgid "\"You shall have no answers this day, corpse. Farewell.\""
-msgstr ""
+msgstr "«Сегодня ты не получишь ответов, труп. Прощай»."
 
 #: 523 637
 msgid "\"What led you to this state?\""
-msgstr ""
+msgstr "«Как ты оказался в таком состоянии?»"
 
 #: 524 638
 msgid "\"What can you tell me about the Mortuary?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать о Морге?»"
 
 #: 525 639
 msgid "\"What can you tell me about my previous life?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать о моей предыдущей жизни?»"
 
 #: 526 640
 msgid "\"What can you tell me about my previous companions?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать о моих предыдущих спутниках?»"
 
 #: 528
 msgid "\"Aye?\""
-msgstr ""
+msgstr "«Ага?»"
 
 #: 529
 msgid ""
@@ -207,20 +225,26 @@ msgid ""
 "my body off to the Dusties. Fate decided ta kick me when I was down, and I "
 "died shortly afterward.\""
 msgstr ""
+"Он пристыженно умолкает. «Следуя за тобой нелегкой дорогой, рубака, я видел "
+"много ужасных вещей. Я начал пить и от выпивки стал полоумным. Однажды я, в "
+"стельку пьяный, продал свое тело трухлявым. Судьба решила дать мне пинка под "
+"зад, и вскоре после этого я умер»."
 
 #: 531 559 570 578 603 614 623 627 63627 646 651 655 697
 msgid "\"I had some other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 533
 msgid ""
 "\"A place of the dead run by the Dead... there's some things not right here, "
 "though...\""
 msgstr ""
+"«Место для мертвых, которое управляется Смертью... но некоторые вещи здесь "
+"не на своем месте...»"
 
 #: 534
 msgid "\"Like what?\""
-msgstr ""
+msgstr "«Что, например?»"
 
 #: 535
 msgid ""
@@ -228,22 +252,24 @@ msgid ""
 "zombie, but isn't. I don't care much for knowing the reason why, but it's a "
 "strange thing.\""
 msgstr ""
+"«Скажу тебе по секрету: здесь есть зомби, который пытается быть как зомби, "
+"но это не так. Мне все равно, зачем он это делает, но это довольно странно»."
 
 #: 536
 msgid "\"I had some other questions for you...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы к тебе...»"
 
 #: 538 63234
 msgid "\"Anything else?\""
-msgstr ""
+msgstr "«Что-нибудь еще?»"
 
 #: 539
 msgid "\"Which zombie is it?\""
-msgstr ""
+msgstr "«Это который зомби?»"
 
 #: 540 552
 msgid "\"Interesting. I had some other questions...\""
-msgstr ""
+msgstr "«Интересно. У меня есть другие вопросы...»"
 
 #: 541
 msgid ""
@@ -251,14 +277,17 @@ msgid ""
 "room... Dhall. He's saved you from cremation a score of times. You're lucky "
 "to have a friend in that one.\""
 msgstr ""
+"«Еще кое-что: тот старый гитцерай... который работает в препараторской... "
+"Дхолл. Он спасал тебя от кремации много-много раз. Тебе повезло, что у тебя "
+"есть такой друг»."
 
 #: 542
 msgid "\"What did Dhall do to save me, exactly?\""
-msgstr ""
+msgstr "«А что именно делал Дхолл, чтобы спасти меня?»"
 
 #: 543
 msgid "\"I know. I had some other questions...\""
-msgstr ""
+msgstr "«Я знаю. У меня есть другие вопросы...»"
 
 #: 547
 msgid ""
@@ -266,30 +295,37 @@ msgid ""
 "Here's how you'll know him, cutter: his voice is wrong for a zombie... he "
 "doesn't respond the same way as the others.\""
 msgstr ""
+"«Даже если бы мои глаза видели, их номера для меня ничего не значат. Но "
+"узнать можно вот как, рубака: его голос звучит неправильно, не как у "
+"зомби... он отвечает не так, как все остальные»."
 
 #: 548
 msgid "\"Anything else strange about the Mortuary you've noticed?\""
-msgstr ""
+msgstr "«Что еще странного в Морге ты заметил?»"
 
 #: 550
 msgid ""
 "\"He just postponed your cremation until you popped up off the slab. Not "
 "certain why, really.\""
 msgstr ""
+"«Он просто откладывал твою кремацию до тех пор, пока ты не очухивался и не "
+"слезал с плиты. Вот только непонятно, почему»."
 
 #: 554
 msgid "\"Hmmm. Interesting. I had some other questions...\""
-msgstr ""
+msgstr "«Хм-м-м. Интересно. У меня есть другие вопросы...»"
 
 #: 555
 msgid ""
 "\"He thought it necessary to prevent... to... I... I can't quite remember "
 "why it was necessary.\""
 msgstr ""
+"«Он считал, что это необходимо предотвратить... ради... ради... я не помню "
+"точно, почему это было необходимо»."
 
 #: 557
 msgid "\"Hmmm. Suspicious... I had some other questions...\""
-msgstr ""
+msgstr "«Хм-м-м. Странно... У меня есть несколько вопросов...»"
 
 #: 558
 msgid ""
@@ -299,41 +335,56 @@ msgid ""
 "stuff. When I was sodding drunk, I signed my body off to the Dusties. Fate "
 "decided ta kick me when I was down, and I died shortly afterward.\""
 msgstr ""
+"Он пристыженно умолкает. «Когда мы разошлись путями, рубака, жить мне "
+"оставалось недолго. Следуя за тобой нелегкой дорогой, рубака, я видел много "
+"ужасных вещей. Я начал пить и стал от выпивки полоумным. Однажды я, в "
+"стельку пьяный, продал свое тело трухлявым. Судьба решила дать мне пинка под "
+"зад, и вскоре после этого я умер»."
 
 #: 561
 msgid "\"Why? Have you forgotten yourself?\""
-msgstr ""
+msgstr "«Зачем? Ты забыл, кто ты?»"
 
 #: 562
 msgid "\"In a manner of speaking... yes.\""
-msgstr ""
+msgstr "«Образно выражаясь... да»."
 
 #: 563
 msgid ""
 "\"No... I just wanted to see if you were really who you said you were.\""
-msgstr ""
+msgstr "«Нет... Просто я хочу узнать, был ли ты тем, за кого себя выдаешь»."
 
 #: 564 573 598 618
 msgid "\"Never mind. I had some other questions...\""
-msgstr ""
+msgstr "«Неважно. У меня есть другие вопросы...»"
 
 #: 566
+#, fuzzy
 msgid ""
 "\"Well... you were a strange one, always suspicious and watching for "
 "something... reckon somebody like you had got enough enemies in yer "
 "lifetimes. And there was no denying that anybody who messed with you ended "
 "up in the black chapters of the dead-book.\""
 msgstr ""
+"«Ну... ты всегда был странным типом, вечно подозрительным и следящим за чем-"
+"то... Наверное, у такого, как ты, при жизни было много врагов. И любой, кто "
+"переходил тебе дорогу, без исключений попадал в черные главы книги мертвых»."
 
 #: 567
+#, fuzzy
 msgid ""
 "\"You could be damnably ruthless, too... like when you made me sign that "
 "contract, or abandoned that one mewling chit on Avernus. We had a balor of a "
 "time, as well. None of us ever even entertained the notion to jump ship on "
 "your watch, son.\""
 msgstr ""
+"«А еще ты мог быть чертовски жестоким... например, заставил меня подписать "
+"тот контракт, или оставил ту вечно хныкающую крошку на Авернусе. Временами "
+"ты был похуже балора. Никто даже и думать не мог от том, чтобы сбежать от "
+"тебя, сынок»."
 
 #: 568
+#, fuzzy
 msgid ""
 "\"At your core, you looked at what happened to you like taking territory in "
 "a war; everything was like a battle to you, and you were the most ruthless "
@@ -344,22 +395,31 @@ msgid ""
 "we were only human. Now I guess we're all in the dead-book... or in and out "
 "of it, so to speak.\""
 msgstr ""
+"«Ты был все равно что военачальник, который захватывал на войне территории; "
+"для тебя все было битвой, ты был самой безжалостной сволочью из всех, что я "
+"встречал. Для решения проблемы шло все без исключения. Рыдания и мольбы "
+"бедной Дейонарры не останавливали тебя, гит предостерегал тебя насчет твоих "
+"действий, а бедный Захария только и пытался держаться на ногах, пока мы "
+"бродили по планам. Ты был настолько крут, что казался бессмертным, но ведь "
+"мы были простыми людьми. Теперь мы все, наверное, в книге мертвых... или, "
+"так сказать, в ней и вне ее». "
 
 #: 569
 msgid "\"Anything else? Any specifics...\""
-msgstr ""
+msgstr "«Что-нибудь еще? Что-нибудь особенное...»"
 
 #: 572
 msgid "\"I... see. What else? Anything you could tell me would help.\""
-msgstr ""
+msgstr "«Ясно... Что-нибудь еще? Это может мне очень помочь»."
 
 #: 576
 msgid "\"Deionarra?\""
-msgstr ""
+msgstr "«Дейонарра?»"
 
 #: 577
+#, fuzzy
 msgid "\"The 'gith'? Who do you mean?\""
-msgstr ""
+msgstr "«'Гит'? Кого ты имеешь в виду?»"
 
 #: 580
 msgid ""
@@ -368,14 +428,17 @@ msgid ""
 "carving that trek through Avernus and we ran across that crew of abishai in "
 "that maggot-ridden pit?\""
 msgstr ""
+"«Ну что я могу сказать, чтобы доказать свою правоту... не все можно "
+"вспомнить... Как насчет этого: помнишь, как мы проделывали путь сквозь "
+"Авернус и наткнулись на кучку абишаев в личиночной яме?»"
 
 #: 581
 msgid "Lie: \"Yes.\""
-msgstr ""
+msgstr "Ложь: «Да»."
 
 #: 582
 msgid "\"No.\""
-msgstr ""
+msgstr "«Нет»."
 
 #: 583
 msgid ""
@@ -383,61 +446,78 @@ msgid ""
 "don't. Who are you, cutter, and what do you expect to find fishing in the "
 "memories of dead men?\""
 msgstr ""
+"«Что ж, я рад, что хоть кто-то из нас двоих помнит об этом, потому что я, "
+"клянусь балором, не помню. Кто ты такой, рубака, и что ты надеешься выловить "
+"в обрывках воспоминаний мертвецов?»"
 
 #: 584
 msgid ""
 "\"I expect to find myself. I truly have forgotten who I am, Xachariah, and I "
 "believe you did know me. What can you tell me of my previous life?\""
 msgstr ""
+"«Я надеюсь найти себя. На самом деле, я забыл, кто я, Захария, и думаю, что "
+"ты знаешь меня. Что ты можешь рассказать о моей предыдущей жизни?»"
 
 #: 586
 msgid "\"Forget it. I had some questions.\""
-msgstr ""
+msgstr "«Забудь об этом. У меня есть несколько вопросов...»"
 
 #: 588
+#, fuzzy
 msgid ""
 "\"Hmmm. Well maybe that event didn't happen the way I 'member then. How's "
 "this: 'member when Deionarra nearly got herself penned in the dead-book "
 "trying to stop you from entering Curst?\""
 msgstr ""
+"«Хм-м-м. Что ж, такого события и я не припомню. А как насчет этого: помнишь, "
+"как Дейонарра прописала себя в книгу мертвых, пытаясь не пустить тебя в "
+"Проклятый?»"
 
 #: 589
+#, fuzzy
 msgid ""
 "\"A motley crew we were... a half-dead man who couldn't get himself penned "
 "in the dead-book if he tried - so ugly all the powers of death wouldn't take "
 "'em - a wailing advocate's daughter, a gith exile, a bobbing jackal-tongued "
 "skull, and a half-sodden blind archer like myself.\""
 msgstr ""
+"«Мы были пестрой компанией... Полумертвый парень, который не может прописать "
+"себя в книгу мертвых, как бы он ни старался. Да еще и такой страшный, что "
+"никто из Сил смерти не решается его забрать. Причитающая дочка адвоката, гит-"
+"изгой, болтающий без передыху череп с подвешенным языком и полоумный слепой "
+"лучник, то есть я»."
 
 #: 590
 msgid ""
 "\"No, not really... but that's fine; I believe you did know me. So can you "
 "tell me of my previous life?\""
 msgstr ""
+"«Нет, не помню... ну да ничего. Кажется, что ты меня знаешь. Что ты можешь "
+"рассказать о моей предыдущей жизни?»"
 
 #: 591
 msgid "\"Never mind... I had some other questions.\""
-msgstr ""
+msgstr "«Неважно... У меня есть другие вопросы»."
 
 #: 593
 msgid "\"Gith?\""
-msgstr ""
+msgstr "«Гит?»"
 
 #: 594
 msgid "\"Wailing advocate's daughter?\""
-msgstr ""
+msgstr "«'Причитающая дочка адвоката'?»"
 
 #: 595
 msgid "\"A floating skull?\""
-msgstr ""
+msgstr "«Летающий череп?»"
 
 #: 596
 msgid "\"You were a blind archer?\""
-msgstr ""
+msgstr "«Ты был слепым лучником?»"
 
 #: 597
 msgid "\"Do you know what happened to my journal?\""
-msgstr ""
+msgstr "«Ты не знаешь, что случилось с моим дневником?»"
 
 #: 600
 msgid ""
@@ -447,25 +527,33 @@ msgid ""
 "illithids. Everything else is just lower down the slope, and he didn't give "
 "a damn about any of us other than you.\""
 msgstr ""
+"«Мрачноватый гит... молчаливый и недружелюбный, как все они. Никогда не "
+"доверял этим гитам. Понимаешь, рубака, эти тощие гиты думают только о двух "
+"вещах: как бы не попасть в рабство и как убить кальмароголовых иллитидов. "
+"Все остальное не имеет большого значения, и этот чертов ублюдок ни с кем, "
+"кроме тебя, не общался»."
 
 #: 601
 msgid "\"Why was that?\""
-msgstr ""
+msgstr "«Почему так?»"
 
 #: 602 610 622 63626
 msgid "\"About some of my other companions...\""
-msgstr ""
+msgstr "«Насчет некоторых моих спутников...»"
 
 #: 605
 msgid ""
 "\"One of the darks I never did bring to light, cutter. Perhaps you tell me?\""
 msgstr ""
+"«Это одна из тех тайн, прояснить которые мне никогда не удавалось. Может, ты "
+"мне скажешь?»"
 
 #: 606
 msgid "\"I don't know myself. I had some other questions...\""
-msgstr ""
+msgstr "«Я и сам не знаю. У меня есть другие вопросы...»"
 
 #: 608
+#, fuzzy
 msgid ""
 "\"That feisty chit-who-would-be-a-soldier swore she'd follow you to Baator "
 "and back, and by the powers, she was so addled by the thought of you without "
@@ -475,38 +563,48 @@ msgid ""
 "blood a-boil. She was some rich scut from the Clerk's Ward, and you needed "
 "something from her, and the only price was that she came with you.\""
 msgstr ""
+"«Вздорная крошка, возомнившая себя солдатом. Поклялась, что пойдет за тобой "
+"до Баатора и обратно. Силы всемогущие, да она была просто одержима мыслями о "
+"тебе, больше ни о чем и не думала. Меня или гита вообще не замечала. Она "
+"была просто без ума тебя - сбрендила, это уж точно. Не понимаю, что женщины "
+"находят в твоей покромсанной мордашке, но это заставляет их кровь кипеть от "
+"страсти. Она была богатенькой из Чиновничьего района, а тебе от нее что-то "
+"было нужно, и только из-за этого ты взял ее с собой»."
 
 #: 609
 msgid "\"What did I want from her?\""
-msgstr ""
+msgstr "«Что мне было нужно от нее?»"
 
 #: 612
 msgid "\"Aye, which one?\""
-msgstr ""
+msgstr "«Которого из них?»"
 
 #: 613
 msgid "\"The gith.\""
-msgstr ""
+msgstr "«Гит»."
 
 #: 615
 msgid "\"The 'wailing advocate's daughter.'\""
-msgstr ""
+msgstr "«'Причитающая дочка адвоката'»."
 
 #: 616
 msgid "\"The floating skull.\""
-msgstr ""
+msgstr "«Летающий череп»."
 
 #: 617
 msgid "\"You... you were a... blind archer?\""
-msgstr ""
+msgstr "«Ты... ты был... слепым лучником?»"
 
 #: 620
 msgid ""
 "\"That filthy-talking skull was hankering for a bruising, so it was! Always "
 "smarting off, it was, and making fun of my condition!\""
 msgstr ""
+"«Этот сквернослов просто напрашивался на тумаки, это уж точно! Вечно строил "
+"из себя умника и насмехался надо мной!»"
 
 #: 625
+#, fuzzy
 msgid ""
 "\"That scrapbook that you'd stitched together outta yer own flesh and had "
 "more pages than I had years in my life?! Good fortune indeed if you've lost "
@@ -519,44 +617,57 @@ msgid ""
 "it, cutter, it was in your possession. If you don't carry it, I don't know "
 "where on the planes it could be.\""
 msgstr ""
+"«Это та самодельная книжица, которую ты сшил из собственной кожи, и в "
+"которой страниц больше, чем моих прожитых лет?! Какое счастье, что ты ее "
+"потерял! Вечно в нее что-то корябал. От нее тянуло страхом. Как будто ты "
+"боялся, что ее кто-то свистнет... Ты писал в нее до тех пор, пока пальцы не "
+"истирал в кровь, а я уже начинал подумывать, что ты пытался выдуть "
+"содержимое своей черепушки через перо. Иногда мы днями ждали, пока ты "
+"пишешь. Ненавижу эту адскую книгу. Она словно присосалась к тебе, нехорошо "
+"это было. В последний раз, когда я ее видел, рубака, она была у тебя. Если "
+"она не у тебя, то я не знаю, где теперь она может быть на планах»."
 
 #: 626
 msgid "\"About those companions of mine...\""
-msgstr ""
+msgstr "«Насчет моих спутников...»"
 
 #: 629
 msgid ""
 "\"It sounds familiar... but if you are who I think you are, then... who...\" "
 "The zombie becomes silent for a moment. \"Who am I?\""
 msgstr ""
+"«Звучит знакомо... но если ты тот, о ком я думаю, тогда... кто... - зомби на "
+"секунду умолкает. - Кто я?»"
 
 #: 630
 msgid ""
 "\"I...\" The zombie becomes silent. \"...my name... has fled me. I... can no "
 "longer remember who I am.\""
 msgstr ""
+"«Я... - зомби замолкает. - Имя... я его не помню. Я... не могу вспомнить, "
+"кто я такой»."
 
 #: 632
 msgid ""
 "\"Your name is not known to me. I may return if I can find it. Farewell.\""
-msgstr ""
+msgstr "«Твое имя мне не известно. Я вернусь, если узнаю его. Прощай»."
 
 #: 633 698
 msgid "\"Farewell then, Xachariah.\""
-msgstr ""
+msgstr "«Тогда прощай, Захария»."
 
 #: 63484
 msgid "\"I wanted to retrieve that object now, Xachariah...\""
-msgstr ""
+msgstr "«Я хочу забрать ту вещь, Захария...»"
 
 #: 635
 msgid ""
 "\"I do not know your name. I may return when I have found it. Farewell.\""
-msgstr ""
+msgstr "«Я не знаю твоего имени. Я вернусь, если узнаю его. Прощай»."
 
 #: 636
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 63625
 msgid ""
@@ -565,6 +676,10 @@ msgid ""
 "hearts of my foes - *your* foes - and my arrows always struck true. Ah, "
 "those were some times...\""
 msgstr ""
+"«Это был я. Ты в самом деле все забыл? Люди видят не только глазами, "
+"рубака... некоторые видят гораздо лучше других. Я чувствовал сердца своих "
+"врагов - *твоих* врагов, и мои стрелы разили без промаха. Да, вот были "
+"времена...»"
 
 #: 642
 msgid ""
@@ -573,6 +688,10 @@ msgid ""
 "inside me, it never came out when I was alive. Caused my blood to run cold, "
 "it did, that thing sitting like a lump of lead in my chest.\""
 msgstr ""
+"«Каждый раз, когда ты бросал нас, рубака, ты что-нибудь оставлял... Даккона "
+"ты оставил без хозяина, черепа - без друга. А я? Ты запихнул что-то внутрь "
+"меня, и при моей жизни оно никогда не выходило наружу. Из-за этого моя кровь "
+"остыла. Оно сидит в моей груди словно осколок»."
 
 #: 643
 msgid ""
@@ -580,6 +699,9 @@ msgid ""
 "already dying when you put it in me, so I wasn't too concerned about it at "
 "the time.\""
 msgstr ""
+"«Я... я не знаю. Но оно каким-то образом изменило меня. Изнутри. Я был уже "
+"при смерти, когда ты засунул его в меня, так что мне было как-то не до "
+"этого»."
 
 #: 644
 msgid ""
@@ -587,79 +709,91 @@ msgid ""
 "scalpel and some directions from me, you won't be able to get it out. You "
 "got a scalpel?\""
 msgstr ""
+"«Оно надежно спрятано, но я представляю, где оно находится. Без скальпеля и "
+"кое-каких моих указаний ты не сможешь его достать. У тебя есть скальпель?»"
 
 #: 645 672
 msgid "\"What is it?\""
-msgstr ""
+msgstr "«И что это?»"
 
 #: 647
 msgid "\"Yes.\""
-msgstr ""
+msgstr "«Да»."
 
 #: 649
 msgid "\"Can I have it back?\""
-msgstr ""
+msgstr "«Могу я получить его обратно?»"
 
 #: 650
 msgid "\"About my other companions...\""
-msgstr ""
+msgstr "«Насчет моих спутников...»"
 
 #: 653
 msgid "\"No... but I ought to be able to just tear the stitches.\""
-msgstr ""
+msgstr "«Нет... но я смогу просто разорвать стежки руками»."
 
 #: 654
 msgid ""
 "\"Well, return when you can snag one, and we can see about prying that "
 "pretty outta there.\""
 msgstr ""
+"«Ну тогда возвращайся, как найдешь его, и тогда мы попробуем вытащить эту "
+"штуковину наружу»."
 
 #: 656
 msgid "\"I'll go look for one. Farewell, Xachariah.\""
-msgstr ""
+msgstr "«Пойду-ка, поищу его. Прощай»."
 
 #: 657
 msgid ""
 "\"Then open me up half a hand's width below the sternum, and feel around for "
 "it.\""
-msgstr ""
+msgstr "«Тогда вскрой меня на ладонь ниже грудины и пошарься внутри»."
 
 #: 658
 msgid "Do it."
-msgstr ""
+msgstr "Сделать это."
 
 #: 659
 msgid ""
 "\"Never mind, Xachariah... I had some questions to ask you, instead...\""
-msgstr ""
+msgstr "«Неважно, Захария... Лучше я задам тебе несколько вопросов...»"
 
 #: 661
 msgid ""
 "\"A little more to the left... a little more...\" Your hand closes on an "
 "object."
-msgstr ""
+msgstr "«Чуть левее... еще чуть-чуть...» Твоя рука на нащупывает предмет."
 
 #: 662
+#, fuzzy
 msgid ""
 "You pull out a zombie liver. \"By the Lady's gaze! Apologies, cutter... I "
 "thought them Dustmen took all those organs outta us before pulling us out of "
 "the dead-book. Give it another go. Maybe it's to the right.\""
 msgstr ""
+"Ты вытаскиваешь печень зомби. «Взгляд Леди! Извини, рубака... Я думал, что "
+"тленные, перед тем как выписать нас из Книги Мертвых, вынимают все органы. "
+"Попробуй еще раз. Может быть, оно справа»."
 
 #: 663 666
 msgid "Pull it out."
-msgstr ""
+msgstr "Вытащить его."
 
 #: 664
 msgid "Do it again."
-msgstr ""
+msgstr "Попробовать еще раз."
 
 #: 665
+#, fuzzy
 msgid ""
 "\"There ya go... now go a little to the right and back... a little more...\" "
 "You feel something hard and cold, slightly larger than you expected. \"I "
 "think that's it. Pull it out.\""
 msgstr ""
+"«Вот так... теперь чуть правее и глубже... еще чуть-чуть...» Ты чувствуешь "
+"что-то твердое и холодное, по размерам чуть больше ожидаемого. «Кажется, это "
+"оно. Вытаскивай»."
 
 #: 667
 msgid ""
@@ -667,20 +801,26 @@ msgid ""
 "its size. \"That's it all right. Huh. Bigger than I thought it'd be. Is "
 "that... what is that? Looks like... a heart.\""
 msgstr ""
+"Ты вытаскиваешь почерневший предмет размером с кулак, слишком тяжелый для "
+"своих размеров. «Вот и все. Ха, я и не думал, что оно такое большое. Это... "
+"а что это? Похоже... на сердце»."
 
 #: 668
 msgid "\"I think so, yes. Thanks, Xachariah. I had some other questions...\""
-msgstr ""
+msgstr "«Да, похоже. Спасибо, Захария. У меня есть вопросы к тебе...»"
 
 #: 670
 msgid "\"Before you go: I need you to do me a slight favor, cutter.\""
 msgstr ""
+"«Перед тем как ты уйдешь, сделай для меня небольшое одолжение, рубака»."
 
 #: 671 676
 msgid ""
 "\"I already have enough favors and quests to last me... I have to go, "
 "Xachariah. Farewell.\""
 msgstr ""
+"«В последнее время я сделал уже достаточно одолжений и услуг... Мне нужно "
+"идти, Захария. Прощай»."
 
 #: 673
 msgid ""
@@ -689,12 +829,17 @@ msgid ""
 "hadn't been so sodden with bub, I never woulda done it. I regret it, and I "
 "was hoping you could set it aright.\""
 msgstr ""
+"Он пристыженно умолкает. «Я совершил много ошибок, ужасных ошибок, если "
+"начистоту. Но самая ужасная из них - я подписал с тленными контракт. Не будь "
+"я тогда мертвецки пьян, я бы никогда такого не сделал. Я очень сожалею о ней "
+"и надеюсь, что ты сможешь разрешить ее правильно»."
 
 #: 675
 msgid "\"How?\""
-msgstr ""
+msgstr "«Как?»"
 
 #: 677
+#, fuzzy
 msgid ""
 "\"Way I reckon, this body's gonna last a long time... and every day's too "
 "long to me. Couldja maybe gut me again, cutter... for old time's sake? The "
@@ -702,6 +847,11 @@ msgid ""
 "whitefaces is a mighty cold one. Can you see fit to put me back in the dead-"
 "book where I belong?\""
 msgstr ""
+"«По моим прикидкам, это тело продержится еще долго... каждый день для меня "
+"слишком мучителен. Может, ты прирежешь меня, рубака... по старой дружбе? "
+"Одна только мысль о том, что я еще много лет буду торчать в Морге с этими "
+"бледнолицыми, леденит мою душу. Ты не мог бы прописать меня обратно в Книгу "
+"Мертвых, где мне и следует быть?»"
 
 #: 678
 msgid ""
@@ -709,40 +859,46 @@ msgid ""
 "faint hiss from the body, and you see the chest heave once, then with a "
 "faint rattle, the corpse goes silent."
 msgstr ""
+"Ты вспарываешь ему кишки, и Захария тяжело падает на пол. Тело издает слабый "
+"выдох, грудная клетка в последний раз опадает, после чего от него не слышно "
+"ни звука."
 
 #: 679
 msgid "\"If that is your wish...\""
-msgstr ""
+msgstr "«Если ты так хочешь...»"
 
 #: 680
 msgid "\"Xachariah, I won't kill you. Again. Farewell.\""
-msgstr ""
+msgstr "«Захария, я не хочу убивать тебя. Еще раз. Прощай»."
 
 #: 681
 msgid "\"Rest in peace, Xachariah.\""
-msgstr ""
+msgstr "«Покойся с миром, Захария»."
 
 #: 682
 msgid "\"Aye, well, never you mind then. No more use am I to you, I suppose.\""
 msgstr ""
+"«Ладно, тогда не бери в голову. Полагаю, теперь я для тебя бесполезен»."
 
 #: 683
 msgid ""
 "\"Well, cutter, I suppose being dead's not something one would doubt, though "
 "how can you talk to me? Your voice is as clear as a knife...\""
 msgstr ""
+"«Что ж, рубака, полагаю, что в факте смерти трудно сомневаться, но как ты "
+"тогда со мной разговариваешь? Твой голос так отчетлив...»"
 
 #: 684
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 685
 msgid "\"It's a long tale... but no, I'm not dead.\""
-msgstr ""
+msgstr "«Это долгая история... но нет, я не мертв»."
 
 #: 690 695
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 692
 msgid ""
@@ -750,13 +906,19 @@ msgid ""
 "pass beyond the Eternal Boundary and have a Plane to call my home, but much "
 "of my soul was squandered, and now I am here.\""
 msgstr ""
+"«Я теперь уборщик в самом безжизненном месте на свете. Я бы мог пересечь "
+"Границу Вечности и найти свой родной план, но я промотал всю свою душу, так "
+"что теперь я нахожусь здесь»."
 
 #: 693
 msgid "\"What's it like being a zombie?\""
-msgstr ""
+msgstr "«Каково это - быть зомби?»"
 
 #: 694
+#, fuzzy
 msgid ""
 "\"It's honest work...\" The stitching comes undone from Xachariah's mouth "
 "and his lips peel back in what might be a smile. \"...I care little for it.\""
 msgstr ""
+"«Это очень почетная обязанность... - стежки вокруг рта Захарии уже ослабли "
+"настолько, что он смог растянуться в улыбке. - Меня это мало волнует»."

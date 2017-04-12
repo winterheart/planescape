@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dghirst.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-05-27 22:01+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 58302
 msgid ""
@@ -18,14 +20,17 @@ msgid ""
 "Several fangs protrude from its oversize mouth and its fingers end in long "
 "claws. It gazes at you steadily as you approach."
 msgstr ""
+"Перед тобой высокое худощавое существо с длинными руками и вытянутой "
+"головой. Из его огромного рта торчат несколько клыков, его пальцы "
+"заканчиваются длинными когтями. Пока ты подходишь, оно не сводит с тебя глаз."
 
 #: 58304
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 58305
 msgid "Ignore the creature."
-msgstr ""
+msgstr "Не обращать внимания на существо."
 
 #: 58308
 msgid ""
@@ -33,89 +38,101 @@ msgid ""
 "hand and pinches you. It licks its lips. \"Ye're a little tough, but may be "
 "tasty none the less.\""
 msgstr ""
+"Существо наклоняется и принюхивается к тебе, потом, облизываясь, щипает тебя "
+"своей когтистой рукой. «Немного жестковат, но все равно должен быть вкусным»."
 
 #: 58312
+#, fuzzy
 msgid "\"I have some questions.\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 58313 58322 58338 58343
 msgid "\"I must be going now, farewell.\""
-msgstr ""
+msgstr "«Мне уже пора, прощай»."
 
 #: 58314
 msgid ""
 "It gives you a toothy grin. \"Conversation before dining is fine. What do ye "
 "want to know?\""
 msgstr ""
+"Оно выдает клыкастую улыбку. «Разговоры перед ужином - это хорошо. Что ты "
+"хочешь знать?»"
 
 #: 58315
 msgid "\"You're going to eat me?\""
-msgstr ""
+msgstr "«Ты собираешься меня съесть?»"
 
 #: 58316
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 58317
 msgid "\"What are you?\""
-msgstr ""
+msgstr "«Что ты такое?»"
 
 #: 58318
 msgid "\"What are you doing here?\""
-msgstr ""
+msgstr "«Что ты здесь делаешь?»"
 
 #: 58319
 msgid "\"What can you tell me about Carceri?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать о Карцери?»"
 
 #: 58320
 msgid "\"What can you tell me about these catacombs?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать об этих катакомбах?»"
 
 #: 58321
+#, fuzzy
 msgid "\"There's a bootlegger down here who wants you dead.\""
-msgstr ""
+msgstr "«Тут есть один контрабандист, желающий твоей смерти»."
 
 #: 58323
 msgid ""
 "Its smile grows even larger. \"Aye, as soon as ye finish with ye damn fool "
 "questions.\""
 msgstr ""
+"Его улыбка расширяется. «Ага, как только ты закончишь со своими дурацкими "
+"вопросами»."
 
 #: 58324
 msgid "\"You can try, but you'll die from a bellyache as I gut you.\""
 msgstr ""
+"«Можешь попробовать, но тогда ты сдохнешь от боли в животе, когда я выпущу "
+"тебе кишки»."
 
 #: 58325
 msgid "\"I mean you no harm.\""
-msgstr ""
+msgstr "«Я не желаю тебе зла»."
 
 #: 58326 58332 58347 58351 58354 58357 58361 58364 58370 58373 58376
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 58327
 msgid ""
 "It shrugs and raises its arms in resignation. \"I'll take that chance.\""
-msgstr ""
+msgstr "Оно пожимает плечами и покорно поднимает руки. «Я попробую»."
 
 #: 58328 58334 58346 58350 58356 58360 58363 58372 58375
 msgid "\"I have some more questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 58329
 msgid "Attack the creature."
-msgstr ""
+msgstr "Напасть на существо."
 
 #: 58330
 msgid ""
 "It shrugs and raises its arms in resignation. \"Pity, that. I intend to kill "
 "ye.\""
 msgstr ""
+"Оно пожимает плечами и покорно поднимает руки. «Жаль. Я собирался тебя "
+"прикончить»."
 
 #: 58331
 msgid "\"Why?\""
-msgstr ""
+msgstr "«Зачем?»"
 
 #: 58333
 msgid ""
@@ -123,61 +140,74 @@ msgid ""
 "the wrong time.\" It pauses. \"Or the right place at the right time.\" It "
 "grins. \"Depends on how ye look at it.\""
 msgstr ""
+"Оно снова пожимает плечами. «Просто так... ты оказался не в том месте и не в "
+"то время, - оно делает паузу. - Или как раз в том месте и в то время, - оно "
+"ухмыляется. - Зависит от того, с какой стороны посмотреть»."
 
 #: 58335
 msgid "\"I'm hard to kill, but you can try if you want.\""
-msgstr ""
+msgstr "«Меня нелегко убить, но ты можешь попробовать, если хочешь»."
 
 #: 58336
 msgid ""
 "It picks its nose and stares at you. \"Ghrist...\" It continues to stare at "
 "you and explore its nasal cavity."
 msgstr ""
+"Оно глядит на тебя, ковыряясь в носу. «Грист...» Оно продолжает пялиться на "
+"тебя, изучая свои носовые полости."
 
 #: 58337 58342
 msgid "\"I have some other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 58339
 msgid ""
 "It lifts one arm and scratches the armpit lazily. \"Gehreleth... Farastu.\""
-msgstr ""
+msgstr "Оно поднимает руку и лениво чешет подмышку. «Гехрелет... Фарасту»."
 
 #: 58340
 msgid "\"What's a gehreleth?\""
-msgstr ""
+msgstr "«Что такое гехрелет?»"
 
 #: 58341
 msgid "\"What's a farastu?\""
-msgstr ""
+msgstr "«Что такое фарасту?»"
 
 #: 58344
+#, fuzzy
 msgid ""
 "It yawns and a wave of fetid breath washes over you. \"Lookin' for deva. "
 "Good eating. Suck the marrow from his bones.\""
 msgstr ""
+"Оно зевает; тебя окатывает волной зловонного дыхания. «Ищу дэва. Хорошая "
+"еда. Высосу мозг из его косточек»."
 
 #: 58345
 msgid "\"You want to eat Trias?\""
-msgstr ""
+msgstr "«Ты хочешь съесть Триаса?»"
 
 #: 58348
+#, fuzzy
 msgid "It gives you a bored look. \"No, deva. I don't care about any Trias.\""
 msgstr ""
+"Оно смотрит на тебя скучающим взглядом. «Нет, я дэва ищу. Мне нет дела до "
+"всяких там триасов»."
 
 #: 58349
 msgid "\"Trias is the name of the deva.\""
-msgstr ""
+msgstr "«Триас - это имя дэва»."
 
 #: 58352
 msgid ""
 "It shrugs and reaches around to scratch its backside. \"Trias, shmias. "
 "Whatever ye call it, it's lunch meat to me.\""
 msgstr ""
+"Оно пожимает плечами и заводит руку за спину, чтобы почесаться. «Триас-"
+"шмиас. Как не назови - все равно это мой обед»."
 
 #: 58353
 msgid "\"I see. I have some more questions...\""
-msgstr ""
+msgstr "«Понятно. У меня есть другие вопросы...»"
 
 #: 58355
 msgid ""
@@ -185,6 +215,8 @@ msgid ""
 "a claw. It slurs its speech as it answers you. \"Home. My home, not yer's. "
 "Ye're not welcome in Carceri.\""
 msgstr ""
+"Оно раскрывает пасть и начинает что-то выколупывать когтем из зубов. Его "
+"речь становится невнятной: «Дом. Мой, а не твой. Тебе не место в Карцери»."
 
 #: 58358
 msgid ""
@@ -192,10 +224,14 @@ msgid ""
 "day. He got away. Tried to catch him, but he has his place trapped.\" It "
 "shrugs. \"I'm patient. One day he'll make a mistake.\""
 msgstr ""
+"Оно смотрит на тебя пустым взглядом, затем кивает. «Я знаю... Однажды уже "
+"пытался его съесть. Он сбежал. Пытался его словить, но он расставил ловушки "
+"в своей дыре, - оно пожимает плечами. - Я терпеливый. Когда-нибудь он "
+"ошибется»."
 
 #: 58359
 msgid "\"He sent me to kill you.\""
-msgstr ""
+msgstr "«Он послал меня убить тебя»."
 
 #: 58362
 msgid ""
@@ -203,39 +239,56 @@ msgid ""
 "hand dry as it answers you. \"Oh... just one more reason to kill him then... "
 "and ye.\""
 msgstr ""
+"Оно высмаркивается в руку и отбрасывает сопли в сторону. Отвечая тебе, оно "
+"вытирает руку. «А... тогда у меня еще один повод убить его... и тебя в "
+"придачу»."
 
 #: 58365
 msgid ""
 "It gives you a broad grin. \"Good. Tired of questions, time to eat.\" It "
 "leaps to the attack."
 msgstr ""
+"Он широко улыбается тебе. «Славно. Надоели твои вопросы, пора обедать». Оно "
+"кидается в атаку."
 
 #: 58366
 msgid "Defend yourself."
-msgstr ""
+msgstr "Защищаться."
 
 #: 58367
 msgid ""
 "It belches and a noxious odor fills the air. It lazily points a finger at "
 "itself. \"I am a gehreleth. My station is farastu.\" "
 msgstr ""
+"Оно делает отрыжку, наполняя воздух ядовитыми испарениями, потом лениво "
+"указывает на себя. «Я - гехрелет. Мой статус - фарасту». "
 
 #: 58368
 msgid "\"What other stations are there?\""
-msgstr ""
+msgstr "«Какие еще есть статусы?»"
 
 #: 58369
 msgid "\"I have some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 58371
 msgid ""
 "It examines its claws leisurely then shrugs. \"No need for ye to know since "
 "I'm the last gehreleth ye'll ever see.\""
 msgstr ""
+"Оно лениво рассматривает когти, затем пожимает плечами. «Тебе нет нужды это "
+"знать, потому что я - последний гехрелет, которого ты увидишь»."
 
 #: 58374
 msgid ""
 "It looks around for a moment then shrugs. \"Nothing. Wandered in looking for "
 "deva.\""
 msgstr ""
+"Оно оглядывается по сторонам, затем пожимает плечами. «Ничего. Бродил тут, "
+"дэва искал»."
+
+#~ msgid "\"I have some questions \""
+#~ msgstr "«У меня есть вопросы...» "
+
+#~ msgid "\"I must be going now, farewell."
+#~ msgstr "«Мне пора, прощай»."

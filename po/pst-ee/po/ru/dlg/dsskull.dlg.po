@@ -1,22 +1,26 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dsskull.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-11-17 01:40+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: 31348
 msgid ""
 "Ocean-before-the-Storm, the Sensate skull in Lothar's library of skulls, "
 "told me a tale of Ravel Puzzlewell and the night hag's infamous scheme."
 msgstr ""
+"Океан-перед-бурей, череп чувствующей из коллекции Лотара, рассказал мне "
+"историю о Равель Заморочке и печально известном замысле этой ночной ведьмы."
 
 #: 31579
 msgid ""
@@ -24,56 +28,61 @@ msgid ""
 "disturb my rest? There has been so much happening of late, and while I "
 "welcome the sensation, I must confess to desiring the sense of quiet.\""
 msgstr ""
+"Череп вяло вздыхает и произносит знойным голосом: «Зачем тревожишь мой "
+"покой? Столько всего случилось в последнее время, и хоть я рада "
+"переживаниям, должна признаться, что жажду чувства покоя»."
 
 #: 31581 31598 31605 31613 31670
 msgid "\"Tell me about yourself.\""
-msgstr ""
+msgstr "«Расскажи мне о себе»."
 
 #: 31582 31606 31614 31619 31625 31671
 msgid "\"What are you doing here?\""
-msgstr ""
+msgstr "«Что ты здесь делаешь?»"
 
 #: 31583 31589 31599 31615 31620 31626 31637 31646 31672
 msgid "\"What can you tell me about Lothar?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать о Лотаре?»"
 
 #: 31584 31600 31607 31621 31627 31673
 msgid "\"What about all these other skulls on the shelf?\""
-msgstr ""
+msgstr "«Как насчет всех этих черепов на полке?»"
 
 #: 31585 31609
 msgid "\"Get back to it then. Farewell.\""
-msgstr ""
+msgstr "«Тогда можешь отдыхать дальше. Прощай»."
 
 #: 31586
 msgid ""
 "\"I am... I was... Ocean-before-the-Storm, a Sensate. Now, alas, I am merely "
 "decoration.\""
 msgstr ""
+"«Я... была... Океаном-перед-бурей, чувствующей. Увы, теперь я всего лишь "
+"украшение»."
 
 #: 31587
 msgid "\"A Sensate? What's that?\""
-msgstr ""
+msgstr "«Чувствующей? Что это?»"
 
 #: 31588
 msgid "\"That must be rough... not too much sensation here, eh?\""
-msgstr ""
+msgstr "«Тяжело тебе, наверно... здесь немного переживаний, да?»"
 
 #: 31590
 msgid "\"What brought you here?\""
-msgstr ""
+msgstr "«Что ты здесь делаешь?»"
 
 #: 31591
 msgid "\"What do you know about these other skulls?\""
-msgstr ""
+msgstr "«Что ты знаешь о других черепах?»"
 
 #: 31592 31601 31608 31622 31628 31674
 msgid "\"What can you tell me about all these other skulls on the shelf?\""
-msgstr ""
+msgstr "«Что ты можешь сказать обо всех этих черепах на полке?»"
 
 #: 31593
 msgid "\"I see. I'll leave you to it. Farewell.\""
-msgstr ""
+msgstr "«Ясно. Предоставлю тебя этому занятию. Прощай»."
 
 #: 31594
 msgid ""
@@ -81,18 +90,21 @@ msgid ""
 "takes it into his head that I need brushing. I answer questions for Lothar, "
 "and... that is the extent of this miserable existence.\""
 msgstr ""
+"«Ну, я лежу на полке, собираю пыль, пока кому-нибудь из крысиных слуг Лотара "
+"не приходит в голову протереть меня. Отвечаю на вопросы Лотара и... в этом, "
+"собственно, и весь смысл моего ничтожного существования»."
 
 #: 31595 31596
 msgid "\"No, I meant, 'How did you get here?'\""
-msgstr ""
+msgstr "«Нет, я имел в виду, 'как ты сюда попала'?»"
 
 #: 31597
 msgid "\"What sort of questions?\""
-msgstr ""
+msgstr "«Какие-такие вопросы?»"
 
 #: 31602 31640
 msgid "\"Then I won't disturb you. Farewell.\""
-msgstr ""
+msgstr "«Тогда не буду тебя беспокоить. Прощай»."
 
 #: 31603
 msgid ""
@@ -100,10 +112,13 @@ msgid ""
 "these other skulls not to inform on me should I say something out of line, I "
 "simply won't say anything. Before you ask, yes, I'm that scared of him.\""
 msgstr ""
+"«Ничего из того, что он сам не захочет тебе рассказать. Поскольку я "
+"подозреваю, что другие черепа могут донести на меня, если я скажу чего "
+"лишнего, я просто промолчу. И пока ты не спросил, да, я настолько боюсь его»."
 
 #: 31604
 msgid "\"What can he possibly do to you?\""
-msgstr ""
+msgstr "«Что он может тебе сделать?»"
 
 #: 31610
 msgid ""
@@ -111,22 +126,28 @@ msgid ""
 "Grimscalp the anarchist, Stern the old wizardly assassin. I don't know what "
 "Stern does, but he's basically evil.\""
 msgstr ""
+"«О, они не более чем развлечение от скуки. Тут есть крысооборотень "
+"Гоатскомб, анархист Гримскальп, старый маг и наемный убийца Штерн. Не знаю, "
+"чем он там занимался, но по своей сути он злой»."
 
 #: 31611
 msgid ""
 "\"Pragmatist? Is that why stabbing something in the back so often seems to "
 "be the answer you present to problems?\""
 msgstr ""
+"«Прагматик? Значит, из-за этого удар в спину кажется тебе решением всех "
+"проблем?»"
 
 #: 31612
 msgid ""
 "Ocean-before-the-Storm turns her attention back to you. \"You see? Basically "
 "evil.\""
 msgstr ""
+"Океан-перед-бурей переключается на тебя. «Вот видишь? Злой по своей сути»."
 
 #: 31616
 msgid "\"Yes, I see. Farewell.\""
-msgstr ""
+msgstr "«Да, я понимаю. Прощай»."
 
 #: 31617
 msgid ""
@@ -137,14 +158,19 @@ msgid ""
 "believe I've reached the quota on sitting on a dusty shelf - my boredom "
 "threshold is low.\""
 msgstr ""
+"«Чувствующий - это член Общества Восприятия, одной из фракций Сигила, "
+"расположившейся в Городском Фестхолле в Чиновничьем районе. Она утверждает, "
+"что вселенную можно понять и управлять ею только с помощью чувств, и поэтому "
+"мы должны собрать как можно больше разных переживаний. Мне кажется, что я "
+"уже достигла предела в сидении на пыльной полке: у меня низкий порог скуки»."
 
 #: 31618
 msgid "\"Can I do anything for you?\""
-msgstr ""
+msgstr "«Могу я что-нибудь для тебя сделать?»"
 
 #: 31623
 msgid "\"Sorry to hear that. Farewell.\""
-msgstr ""
+msgstr "«Жаль это слышать. Прощай»."
 
 #: 31624
 msgid ""
@@ -152,71 +178,83 @@ msgid ""
 "shattered. Next thing I knew, I was back on the shelf and we were all glued "
 "here. When Lothar tires of me, he'll dispose of me.\""
 msgstr ""
+"«Нет, но спасибо, что спросил. Однажды я столкнула себя с полки и разбилась. "
+"Следующее, что помню - это что я снова на полке, и нас всех поприклеивали. "
+"Когда Лотар от меня устанет, он от меня избавится»."
 
 #: 31629
 msgid "\"Good luck, then. Farewell.\""
-msgstr ""
+msgstr "«Тогда удачи. Прощай»."
 
+# Rub it in - идиома, типа "а еще ты тут надоедаешь/плешь проедаешь/на мозги капаешь".
 #: 31630
 msgid ""
 "The skull stares at you. \"That's right. Rub it in.\" It pauses a little "
 "longer. \"Go away.\""
 msgstr ""
+"Череп смотрит на тебя. «Точно. А тут еще ты трешься, - он делает более "
+"длинную паузу. - Уходи»."
 
 #: 31631
 msgid "\"Hey, now, I was just kidding...\""
-msgstr ""
+msgstr "«Ладно тебе, я просто пошутил...»"
 
 #: 31632
 msgid "\"All right. Farewell.\""
-msgstr ""
+msgstr "«Ладно. Прощай»."
 
 #: 31633
 msgid ""
 "\"It's a long story, and I'm not supposed to say anything to you about it "
 "until you've completed a task for Lothar.\""
 msgstr ""
+"«Это долгая история, и я не собираюсь ничего тебе рассказывать до тех пор, "
+"пока ты не выполнишь задание Лотара»."
 
 #: 31634
 msgid "\"What could he possibly do to you?\""
-msgstr ""
+msgstr "«Что он может тебе сделать?»"
 
 #: 31635
 msgid "\"You can tell me.\""
-msgstr ""
+msgstr "«Можешь мне рассказать»."
 
 #: 31636 31645
 msgid "\"Tell me about yourself, then.\""
-msgstr ""
+msgstr "«Тогда расскажи мне о себе»."
 
 #: 31638 31639
 msgid ""
 "\"All right, then. What can you tell me about all these other skulls on the "
 "shelf?\""
-msgstr ""
+msgstr "«Ну ладно. Что ты можешь рассказать обо всех этих черепах на полке?»"
 
 #: 31641
 msgid ""
 "\"It's a long story that has to do with Ravel Puzzlewell, the night hag. "
 "Would you like to hear the whole story?\""
 msgstr ""
+"«Это долгая история, связанная с Равель Заморочкой, ночной ведьмой. Хочешь "
+"услышать ее полностью?»"
 
 #: 31642
 msgid "\"Yes.\""
-msgstr ""
+msgstr "«Да»."
 
 #: 31643
 msgid "\"Not particularly.\""
-msgstr ""
+msgstr "«Не очень»."
 
 #: 31644
 msgid ""
 "If skulls could shrug, this one would: \"Nothing I haven't told you before.\""
 msgstr ""
+"Если бы череп мог, он бы пожал плечами. «Ничего, кроме того, что я тебе уже "
+"рассказала»."
 
 #: 31647
 msgid "\"Very well. Farewell.\""
-msgstr ""
+msgstr "«Отлично. Прощай»."
 
 #: 31649
 msgid ""
@@ -226,14 +264,19 @@ msgid ""
 "I do not care to duplicate.\" It pauses. \"This interview is at an end. "
 "Farewell.\""
 msgstr ""
+"Череп смотрит на тебя, и у тебя складывается впечатление, что он дрожит. "
+"«Даже без нервных окончаний можно испытать немало боли. Не всякая боль "
+"физическая, и не все эмоции рождаются в голове. К ним относятся ощущения, "
+"которые я бы не пожелала пережить заново, - она умолкает. - На этом разговор "
+"окончен. Прощай»."
 
 #: 31650
 msgid "\"Answer a few more questions for me...\""
-msgstr ""
+msgstr "«Ответь еще на пару вопросов...»"
 
 #: 31660 31663 31668
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 31661
 msgid ""
@@ -243,34 +286,39 @@ msgid ""
 "more than you know. If you don't have anything else to ask me, then I "
 "believe I'll resume my quiet. Farewell.\""
 msgstr ""
+"«О, про разные вещи... переживания, которые я испытывала, политику "
+"чувствующих - к несчастью, эти знания уже устарели! Впечатления о людях, "
+"бывающих здесь, и еще много чего. Вопросы разные, и это я ценю больше, чем "
+"ты себе представляешь. Если тебе больше нечего у меня спросить, тогда, "
+"полагаю, я вернусь к покою. Прощай»."
 
 #: 31662
 msgid "\"No, wait, a few more questions...\""
-msgstr ""
+msgstr "«Нет, погоди, еще пара вопросов...»"
 
 #: 31664
 msgid "The skull stares blankly and says nothing."
-msgstr ""
+msgstr "Череп смотрит на тебя без выражения и молчит."
 
 #: 31665
 msgid "\"Very well then. Farewell.\""
-msgstr ""
+msgstr "«Ну и ладно. Прощай»."
 
 #: 31666
 msgid "\"Then I shall return to my quiet. Farewell.\""
-msgstr ""
+msgstr "«Тогда я вернусь к покою. Прощай»."
 
 #: 31667
 msgid "\"No, wait, answer some more questions...\""
-msgstr ""
+msgstr "«Нет, погоди, ответь еще на несколько вопросов...»"
 
 #: 31669
 msgid "\"Shall I get no rest from you?\""
-msgstr ""
+msgstr "«Не будет от тебя покоя...»"
 
 #: 31675
 msgid "\"I suppose you may. Farewell.\""
-msgstr ""
+msgstr "«Думаю, это можно устроить. Прощай»."
 
 #: 31676
 msgid ""
@@ -282,14 +330,21 @@ msgid ""
 "found difficulties that required outside answers. I heard that she was there "
 "to unlock the secrets of Sigil itself.\""
 msgstr ""
+"«Хорошо. Я работала в Городском Фестхолле, штаб-квартире чувствующих, в "
+"сенсориумах. Равель Заморочка, будь проклята ее черная душа, приходила туда "
+"за ответами на попадавшиеся ей загадки. Она была мастером по части "
+"разгадывания загадок, которые ставили в тупик наши лучшие умы, а ее "
+"заставляли лишь ненадолго задуматься. И тут она столкнулась с трудностями, "
+"которые требовали ответов извне. Я слышала, будто она пришла, чтобы раскрыть "
+"тайны самого Сигила»."
 
 #: 31677
 msgid "\"Go on.\""
-msgstr ""
+msgstr "«Продолжай»."
 
 #: 31678
 msgid "\"I tire of this already. Farewell.\""
-msgstr ""
+msgstr "«Мне это уже надоело. Прощай»."
 
 #: 31679
 msgid ""
@@ -299,14 +354,19 @@ msgid ""
 "to ask her what she was about, and whether she could teach me what she knew."
 "\" "
 msgstr ""
+"«Она была ужасно уродлива, и не беспокоилась о том, чтобы скрыть свою "
+"внешность - я слышала, что она так и делает, вернее, ДЕЛАЛА время от "
+"времени. И эта дьявольская внешность отпугивала многих потенциальных членов "
+"фракции. Тем не менее, мне нужно было спросить у нее, что она задумала, и "
+"может ли она научить меня тому, что знает» ."
 
 #: 31680
 msgid "\"That sounds like it could have been a mistake.\""
-msgstr ""
+msgstr "«Звучит так, будто это оказалось ошибкой»."
 
 #: 31681
 msgid "\"I think I get the picture. Farewell.\""
-msgstr ""
+msgstr "«Думаю, я получил представление. Прощай»."
 
 #: 31682
 msgid ""
@@ -319,14 +379,22 @@ msgid ""
 "that all should know that the mystery that had baffled them for so long was "
 "unraveled by Ravel.\""
 msgstr ""
+"«Так оно и оказалось. Поскольку она жила загадками и обменивалась ими, она "
+"предложила мне сделку. Если она ответит на мой вопрос, я должна буду "
+"согласиться ответить на один из ее вопросов. Если я ошибусь, моя жизнь "
+"перейдет в ее руки. Я согласилась. Она рассказала мне, что собирается "
+"раскрыть загадку Клетки, чтобы открыть ее для всех желающих: сил, нечисти, "
+"небожителей, модронов и слаади, не говоря уж о внутрипланарных существах. "
+"Самым важным для нее было то, что все должны узнать, что загадку, столько "
+"времени ставящую всех в тупик, распутала Равель»."
 
 #: 31683
 msgid "\"What happened next?\""
-msgstr ""
+msgstr "«Что произошло дальше?»"
 
 #: 31684
 msgid "\"I see. Farewell.\""
-msgstr ""
+msgstr "«Понятно. Прощай»."
 
 #: 31685
 msgid ""
@@ -336,29 +404,44 @@ msgid ""
 "to kill me, and they complied. None even suggested that I relish the new "
 "experience, so horrible was it. And... here I am. Now I must rest.\""
 msgstr ""
+"«Она задала свой вопрос. Я не смогла на него ответить, хотя она и уверяла "
+"меня, что ответ так же очевиден, как и нос на ее лице. Когда на следующее "
+"утро мои товарищи-чувствующие зашли в сенсориум, они застали меня кричащей. "
+"Я умоляла убить себя, и они выполнили мою просьбу. Никому и в голову ни "
+"пришло, что я наслаждалась своим новым переживанием: настолько ужасным оно "
+"было. И... вот я здесь. Теперь мне нужно отдохнуть»."
 
 #: 31686
 msgid "\"What was the question?\""
-msgstr ""
+msgstr "«Что это был за вопрос?»"
 
 #: 31687 31690
 msgid "\"Answer just a few more questions for me?\""
-msgstr ""
+msgstr "«Ответишь еще на парочку вопросов?»"
 
 #: 31688
 msgid "\"Very well. My thanks for the story. Farewell.\""
-msgstr ""
+msgstr "«Хорошо. Спасибо за рассказ. Прощай»."
 
 #: 31689
+#, fuzzy
 msgid ""
 "\"It was: How does one change the nature of a man? I thought hard on her "
 "answer, and said, 'With love.' She said all people love themselves too much "
 "to be changed by something as simple as love. And then she... she... I must "
-"rest now.\"\\n\\nIn the back of your mind, you seem to see a hook-nosed "
-"figure with ebon skin asking you a similar question... but you cannot "
-"remember your answer."
+"rest now.\"\n"
+"\n"
+"In the back of your mind, you seem to see a hook-nosed figure with ebon skin "
+"asking you a similar question... but you cannot remember your answer."
 msgstr ""
+"«Он был таким: что может изменить сущность человека? Я хорошо обдумала его и "
+"ответила: любовь. Она сказала, что люди слишком себялюбивы, чтобы их могла "
+"изменить такая простая вещь, как любовь. И она... она... Мне нужно "
+"отдохнуть».\n"
+"В глубине твоего разума всплывает образ крючконосой старухи с черной, как "
+"смоль, кожей, задающая тебе похожий вопрос... но ты не в силах вспомнить, "
+"что ты ответил.\n"
 
 #: 31691
 msgid "\"You have my sympathy. Farewell.\""
-msgstr ""
+msgstr "«Сочувствую. Прощай»."

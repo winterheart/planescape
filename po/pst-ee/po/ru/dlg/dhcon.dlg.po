@@ -1,73 +1,84 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dhcon.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-06-05 22:15+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: 60814 60833 60853
 msgid ""
 "You see a mechanical man with volcanic red skin along one arm. It watches "
 "your approach with a wary eye."
 msgstr ""
+"Перед тобой механический человек с насыщенно-красной кожей на одной из рук. "
+"Он пристально следит за твоим приближением."
 
 #: 60815 60834 60854
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 60816 60835 60855
 msgid "Ignore the creature."
-msgstr ""
+msgstr "Не обращать внимания на существо."
 
 #: 60817
 msgid ""
 "It cocks its head to one side and gives you a questioning look. \"Greetings, "
 "intruder.\" "
 msgstr ""
+"Оно наклоняет голову набок и вопросительно на тебя смотрит. «Приветствую, "
+"незванный гость»."
 
 #: 60818
 msgid "\"What makes you think I'm an intruder?\""
-msgstr ""
+msgstr "«Почему ты думаешь, что я - незванный гость?»"
 
 #: 60819 60838 60858
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 60820 60839 60859
 msgid "\"What are you?\""
-msgstr ""
+msgstr "«Что ты такое?»"
 
 #: 60821 60840 60860
 msgid "\"What are you doing?\""
-msgstr ""
+msgstr "«Что ты делаешь?»"
 
 #: 60822 60841 60861
 msgid "\"I must be going. Farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай»."
 
 #: 60823
 msgid ""
 "It gives you a wicked smile. \"Because you are not one of us. Therefore, you "
 "are an intruder. As an intruder, you must die.\" It leaps to the attack."
 msgstr ""
+"Оно злобно усмехается. «Потому что ты не один из нас. Следовательно, ты - "
+"нарушитель. А нарушители должны умереть». Оно бросается в атаку."
 
 #: 60824 60826 60828 60830 60832 60843 60846 60848 60850 60852 60863 60865
 #: 60867 60869 60871
 msgid "Defend yourself."
-msgstr ""
+msgstr "Защищаться."
 
 #: 60825
+#, fuzzy
 msgid ""
 "\"I have no identity, only a purpose. My purpose is to kill you.\" It leaps "
 "to the attack."
 msgstr ""
+"«У меня нет личности, у меня только назначение. Мое назначение - убить "
+"тебя». Оно бросается в атаку."
 
 #: 60827
 msgid ""
@@ -75,6 +86,9 @@ msgid ""
 "superior intelligence, and competent weapon skills. As a bonus, I have been "
 "imbued with a bad attitude.\" It leaps to the attack."
 msgstr ""
+"«Я тяжелое боевое средство. Мои характеристики: боевые способности выше "
+"среднего, улучшенный интеллект, превосходные навыки владения оружием. Плюс к "
+"этому, меня наделили дурным нравом». Оно бросается в атаку."
 
 #: 60829
 msgid ""
@@ -82,22 +96,29 @@ msgid ""
 "compiled this information, I will use it to inflict some serious pain upon "
 "you.\" It leaps to the attack."
 msgstr ""
+"«Я отмечаю расположение твоих жизненно важных органов. Теперь, когда я "
+"собрал эту информацию, я воспользуюсь ею для того, чтобы причинить тебе "
+"серьезную боль». Оно кидается в атаку."
 
 #: 60831
 msgid ""
 "It smiles at you evilly. \"Yes, you will be going, intruder. Only it will be "
 "feet first after I slay you!\" It leaps to the attack."
 msgstr ""
+"Оно зловеще улыбается. «Да, нарушитель, ты уйдешь. Но только вперед ногами, "
+"потому что я убью тебя!» Оно бросается в атаку."
 
 #: 60836
 msgid ""
 "It cocks its head to one side and gives you a questioning look. \"Why do you "
 "persist in questioning us? I do not understand.\""
 msgstr ""
+"Оно склоняет голову набок и вопросительно на тебя смотрит. «Почему ты все "
+"время задаешь нам вопросы? Я не понимаю»."
 
 #: 60837
 msgid "\"There is always the chance that I might learn something.\""
-msgstr ""
+msgstr "«Всегда есть вероятность узнать что-то новое»."
 
 #: 60842
 msgid ""
@@ -105,18 +126,24 @@ msgid ""
 "its head in agreement. \"Yes... I suppose that's true... Let me teach you "
 "about pain.\" It leaps to the attack."
 msgstr ""
+"В раздумье оно отводит от тебя взгляд. Вернувшись снова назад, оно кивает "
+"тебе в знак согласия. «Да... Пожалуй, это так... Позволь мне научить тебя "
+"боли». Оно бросается в атаку."
 
 #: 60845
 msgid ""
 "\"I am a servant of the Evil Wizard and He commands your death.\" It leaps "
 "to the attack."
 msgstr ""
+"«Я слуга Злого Мага, и он приказывает убить тебя». Оно кидается в атаку."
 
 #: 60847
 msgid ""
 "\"I am the one who will finally bring you to your knees, intruder!\" It "
 "leaps to the attack."
 msgstr ""
+"«Я тот, кто наконец поставит тебя на колени, нарушитель!» Оно бросается в "
+"атаку."
 
 #: 60849
 msgid ""
@@ -124,37 +151,48 @@ msgid ""
 "you...\" It pauses for a moment. \"Done, now comes the slaying.\" It leaps "
 "to the attack."
 msgstr ""
+"«Я предупреждаю Злого Мага о твоем местонахождении в лабиринте, после чего "
+"убиваю тебя... - оно делает небольшую паузу. - Готово. Теперь пора убивать». "
+"Оно кидается в атаку."
 
 #: 60851
 msgid ""
 "\"Leaving? So soon? Let me help you on your way!\" It leaps to the attack."
 msgstr ""
+"«Идти? Так скоро? Позволь мне показать тебе дорогу!» Оно бросается в атаку."
 
 #: 60856
 msgid ""
 "It cocks its head to one side and gives you a questioning look. \"Your "
 "tenacity is impressive, intruder, but foolish none the less.\" "
 msgstr ""
+"Оно склоняет голову набок и вопросительно на тебя смотрит «Твоя "
+"настойчивость весьма впечатляет, незванный гость, но тебе никого не "
+"обмануть»."
 
 #: 60857
 msgid "\"Why do we have to fight? It seems so pointless.\""
-msgstr ""
+msgstr "«Зачем нам драться? Это же так бессмысленно»."
 
 #: 60862
 msgid ""
 "It stares at you a while before answering. \"It only seems pointless, "
 "intruder. There is meaning behind our madness...\" It leaps to the attack."
 msgstr ""
+"Перед тем как ответить, оно некоторое время смотрит на тебя. «Это только "
+"выглядит бессмысленным, вторженец. За нашим безумием скрывается смысл...» "
+"Оно кидается в атаку."
 
 #: 60864
 msgid ""
 "\"As an individual, nobody. As a part of the whole, everybody.\" It leaps to "
 "the attack."
 msgstr ""
+"«Как личность - никто. Как часть единого целого - все». Оно кидается в атаку."
 
 #: 60866
 msgid "\"A means to an end, intruder.\" It leaps to the attack."
-msgstr ""
+msgstr "«Средство для достижения цели, нарушитель». Оно кидается в атаку."
 
 #: 60868
 msgid ""
@@ -162,7 +200,9 @@ msgid ""
 "to the Evil Wizard. From you, we learn. Because of you, we will better "
 "ourselves.\" It leaps to the attack."
 msgstr ""
+"«Я сообщаю Злому Магу о каждом твоем успехе, каждой неудаче, каждом шаге. Мы "
+"изучаем тебе. Наблюдая за тобой, мы совершенствуемся». Оно бросается в атаку."
 
 #: 60870
 msgid "\"Yes... Until we meet again, intruder.\" It leaps to the attack."
-msgstr ""
+msgstr "«Да... Пока мы снова не встретимся, нарушитель». Оно кидается в атаку."

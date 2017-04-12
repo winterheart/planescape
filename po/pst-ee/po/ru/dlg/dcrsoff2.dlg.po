@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dcrsoff2.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-06-01 19:24+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: 3176
 msgid ""
@@ -19,6 +21,10 @@ msgid ""
 "your bleached bones on the shore, that they might be whittled into flutes "
 "for an army of dung-eaters!\""
 msgstr ""
+"Сиабха плюет тебе под ноги. «Плешивый пес! Да как смеешь говорить со мной "
+"после того, как из-за твоих лживых слов меня сюда упекли! Предатель! Чтоб "
+"тебя Стикс засосал и выкинул на берег только бледные кости, и пусть из них "
+"выточат флейты для армий дерьмоедов!»"
 
 #: 3178
 msgid ""
@@ -26,77 +32,95 @@ msgid ""
 "for you is obvious as she speaks to you. \"I am a busy woman. Do not detain "
 "me long.\""
 msgstr ""
+"Лицо этой женщины с орлиным профилем имеет надменный вид. В разговоре с "
+"тобой она буквально излучает презрение. «У меня полно дел. Не задерживай "
+"меня»."
 
 #: 3180 60226
 msgid "\"I just had a few questions...\""
-msgstr ""
+msgstr "«У меня всего лишь несколько вопросов...»"
 
 #: 60214 60227
 msgid "\"I just had a few questions about Curst.\""
-msgstr ""
+msgstr "«У меня всего лишь несколько вопросов о Проклятом»."
 
 #: 60215 60228
+#, fuzzy
 msgid "\"I spoke with An'izius. He had an interesting proposition.\""
-msgstr ""
+msgstr "«Я переговорил с Анизиусом. Он сделал мне интересное предложение»."
 
 #: 60216 60229
 msgid "\"Forget it, then. Farewell.\""
-msgstr ""
+msgstr "«Тогда забудь об этом. Прощай»."
 
 #: 60217
+#, fuzzy
 msgid "\"Well?\""
-msgstr ""
+msgstr "«И?»"
 
 #: 60218
 msgid "\"He's offered to pay me a large sum to double-cross you.\""
-msgstr ""
+msgstr "«Он предложил мне большую сумму за то, чтобы я встал на его сторону»."
 
 #: 60219
+#, fuzzy
 msgid ""
 "\"I spoke with the guard captain, and he said he'd send a detachment to "
 "escort An'izius to the prison.\""
 msgstr ""
+"«Я поговорил с капитаном стражи, и он сказал, что отправит отряд, который "
+"отконвоирует Анизиуса в тюрьму»."
 
 #: 60220
 msgid "\"I'm working on it. I had some questions...\""
-msgstr ""
+msgstr "«Я работаю над этим. У меня есть несколько вопросов...»"
 
 #: 60221
 msgid "\"I'm working on it. I'll be back.\""
-msgstr ""
+msgstr "«Я работаю над этим. Я вернусь»."
 
 #: 60222
+#, fuzzy
 msgid ""
 "I reported my success in turning An'izius over to the guards of Curst. "
 "Siabha was delighted, and paid me handsomely for this minor bit of treachery."
 msgstr ""
+"Я сообщил об успешной передаче Анизиуса в руки стражи Проклятого. Довольная "
+"Сиабха щедро заплатила мне за это мелкое предательство."
 
 #: 60223
 msgid ""
 "\"Our dealings are done. Begone or I shall have the guards remove you.\""
 msgstr ""
+"«Между нами больше нет никаких дел. Сгинь, или я попрошу стражу удалить "
+"тебя»."
 
 #: 60224
 msgid "\"Very well.\""
-msgstr ""
+msgstr "«Хорошо»."
 
 #: 60225
 msgid "\"Back so soon? I have no time for your questions, scarred man.\""
 msgstr ""
+"«Так быстро вернулся? У меня времени на твои вопросы, человек со шрамами»."
 
 #: 60230
 msgid "\"I am not a common tout for your pleasure and whim. Leave.\""
 msgstr ""
+"«Я здесь не осведомителем стою ради твоих удовольствий и прихотей. Уходи»."
 
 #: 60231 60234
+#, fuzzy
 msgid ""
 "\"Then you might be interested in knowing that I spoke to An'izius. He had "
 "something interesting to say.\""
 msgstr ""
+"«Тогда, возможно, ты заинтересуешься тем, о чем я говорил с Анизиусом. Кое-"
+"чем очень интересным»."
 
 #: 60232 60245
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 60233
 msgid ""
@@ -104,10 +128,13 @@ msgid ""
 "such a fine specimen, but I'm afraid duty calls. You do understand, don't "
 "you? Of course you do.\""
 msgstr ""
+"Она оценивающе смотрит на тебя. «Я бы с удовольствием осталась поболтать со "
+"столь утонченным типом, как ты, но, боюсь, мои дела не терпят отлагательств. "
+"Ты ведь это понимаешь? Конечно же, понимаешь»."
 
 #: 60235
 msgid "\"Farewell, then.\""
-msgstr ""
+msgstr "«Тогда прощай». "
 
 #: 60236
 msgid ""
@@ -115,30 +142,37 @@ msgid ""
 "take to reverse his latest trick? How about if I double whatever he's paying "
 "you?\""
 msgstr ""
+"«Он снова замышляет клевету обо мне, ведь так? А что, если ответить ему тем "
+"же приемом? Я дам тебе вдвое больше того, что он предложил»."
 
 #: 60237
 msgid "\"All right. You've got a deal.\""
-msgstr ""
+msgstr "«Хорошо. Договорились»."
 
 #: 60238
 msgid "\"He sent his regards. That's all.\""
-msgstr ""
+msgstr "«Он просто просил передать тебе поклон. Вот и все»."
 
 #: 60239
 msgid ""
 "\"Then go do whatever it was he asked you to do to me - but switch our "
 "roles, hm? I'll see you're rewarded handsomely.\""
 msgstr ""
+"«Тогда сделай то, о чем он попросил тебя насчет меня, но только поменяй наши "
+"роли местами. За это я щедро награжу тебя»."
 
 #: 60240
 msgid "\"I'll be back, then.\""
-msgstr ""
+msgstr "«Тогда я скоро вернусь»."
 
 #: 60241
+#, fuzzy
 msgid ""
 "Siabha, the other official in Curst, has offered me double what An'izius "
 "offered in order to double cross him. I'll think about it."
 msgstr ""
+"Сиабха, другой чиновник Проклятого, удвоила предложение Анизиуса в обмен на "
+"его предательство. Стоит об этом подумать."
 
 #: 60242
 msgid ""
@@ -147,10 +181,13 @@ msgid ""
 "own decision. But remember... I may be able to offer you a little something "
 "more.\""
 msgstr ""
+"«Ха! Довольно! Я обещала удвоить его посулы, но я не буду больше увеличивать "
+"эту сумму, - она соблазнительно улыбается. - Тебе придется принять "
+"собственное решение. Но помни... Я могу предложить тебе кое-что большее»."
 
 #: 60243
 msgid "\"Very well. Farewell.\""
-msgstr ""
+msgstr "«Отлично. Прощай»."
 
 #: 60244
 msgid ""
@@ -158,6 +195,9 @@ msgid ""
 "spoke of this matter.\" She tips a wink. \"You have my gratitude... for "
 "whatever that's worth. Farewell, stranger.\""
 msgstr ""
+"Она передает тебе тяжелый кошель с монетами. «Тогда возьми это и исчезни. "
+"Запомни, мы никогда не говорили об этом, - она подмигивает. - Я тебе очень "
+"признательна... чего бы это тебе не стоило. Прощай, незнакомец»."
 
 #: 60246
 msgid ""
@@ -165,20 +205,26 @@ msgid ""
 "Thanks ever so much.\" She gives you a smile of brightest white, and turns "
 "away."
 msgstr ""
+"«Я на самом деле очень занята. Может быть, ты пока закончишь то маленькое "
+"поручение? Большое спасибо». Она дарит тебе ослепительно-белую улыбку и "
+"отворачивается."
 
 #: 60247
 msgid "\"I'll be back, then...\""
-msgstr ""
+msgstr "«Тогда я вернусь позже...»"
 
 #: 60248
 msgid ""
 "She sneers. \"Yes, I'm certain that's all it was. Remember... whatever he "
 "offered, I will double. Think on that, stranger.\""
 msgstr ""
+"Она презрительно усмехается. «Ну конечно, это все именно так и выглядит. "
+"Помни... сколько бы он ни предложил, я заплачу вдвое больше. Подумай над "
+"этим, незнакомец»."
 
 #: 60249
 msgid "\"I will. Farewell.\""
-msgstr ""
+msgstr "«Я так и сделаю. Прощай»."
 
 #: 66785
 msgid ""
@@ -187,28 +233,35 @@ msgid ""
 "think I had something to do with it, just because I signed execution orders! "
 "I meant no harm! I was just doing my job! Please help me!\""
 msgstr ""
+"Этот мужчина, одетый в пышный наряд чиновника Проклятого, сильно напуган. "
+"«Они хотят меня убить! Я просто выполнял свою работу, когда город съехал! А "
+"они решили, что я в этом виноват, только лишь потому, что я подписывал "
+"приказы на казни! Я не желал никому зла! Я просто делал свою работу! "
+"Пожалуйста, помоги мне!»"
 
 #: 66792
 msgid "\"I'll do what I can. Wish me luck.\""
-msgstr ""
+msgstr "«Я сделаю все, что в моих силах. Пожелай мне удачи»."
 
 #: 66793
 msgid "\"You've earned your fate.\""
-msgstr ""
+msgstr "«Ты заслужил свою судьбу»."
 
 #: 66794
 msgid "\"Then I hope the gehreleths slaughter all of you! You bastard!\""
-msgstr ""
+msgstr "«Надеюсь, что гехрелеты перебьют вас всех, ублюдок!»"
 
 #: 66795
 msgid "\"Die well.\""
-msgstr ""
+msgstr "«Приятной смерти»."
 
 #: 68274
+#, fuzzy
 msgid ""
 "Siabha made her final offer to me in her game of betrayals with An'izius."
 msgstr ""
+"Сиабха сделала мне последнее предложение в предательской игре с Анизиусом."
 
 #: 68278
 msgid "\"Farewell, Siabha.\""
-msgstr ""
+msgstr "«Прощай, Сиабха»."

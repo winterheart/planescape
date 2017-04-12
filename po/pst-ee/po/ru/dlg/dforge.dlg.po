@@ -1,42 +1,47 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dforge.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-08 20:16+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 5086
 msgid "You prepare to lift the hammer again..."
-msgstr ""
+msgstr "Ты готовишься снова поднять молот..."
 
 #: 5087
+#, fuzzy
 msgid "\"...what now?\""
-msgstr ""
+msgstr "«... и что теперь?»"
 
 #: 5088 5331
 msgid "You step up to the forge. The heat is incredible. What do you do?"
-msgstr ""
+msgstr "Ты подходишь к кузнице. Жара просто невероятная. Что ты будешь делать?"
 
 #: 5089 5090 5091 5094 5332 5333 5334
 msgid "Use the forge."
-msgstr ""
+msgstr "Поработать в кузнице."
 
 #: 5092 5095 5335
 msgid "Step back."
-msgstr ""
+msgstr "Отступить назад."
 
 #: 5093
 msgid ""
 "The heat of the flame is too hot, even for your flame-toughened skin. You "
 "begin to take damage from the fire."
 msgstr ""
+"Жар от пламени слишком силен, даже для твоей закаленной шкуры. Ты начинаешь "
+"получать урон от огня."
 
 #: 5096
 msgid ""
@@ -44,57 +49,62 @@ msgid ""
 "protection, you are able to withstand it without any damage. Would you like "
 "to work the forge?"
 msgstr ""
+"Пламя излучает нестерпимый жар, но благодаря защите ты способен выдержать "
+"его без какого-либо урона. Ты хочешь поработать в кузнице?"
 
 #: 5097 5164 5165 5166 5170 5171 5172 5176 5177 5178 5282 5283 5284 5288 5289
 #: 5290 5294 5295 5296
 msgid "Yes."
-msgstr ""
+msgstr "Да."
 
 #: 5098
 msgid "No."
-msgstr ""
+msgstr "Нет."
 
 #: 5099
 msgid "Again, the flame sears your skin. What would you like to do first?"
 msgstr ""
+"И снова пламя обжигает твою кожу. Что ты хочешь сделать в первую очередь?"
 
 #: 5100 5114 5239 5255
 msgid "Ready the tongs."
-msgstr ""
+msgstr "Приготовить клещи."
 
 #: 5101 5108 5115 5122 5240 5250 5256 5262
 msgid "Hammer on the anvil."
-msgstr ""
+msgstr "Ударить по наковальне молотом."
 
 #: 5102 5116 5241 5257
 msgid "Pick up the ore."
-msgstr ""
+msgstr "Взять руду."
 
 #: 5103 5117 5242 5258
 msgid "Pick up the ore with the tongs and hold it in the flame of the forge."
-msgstr ""
+msgstr "Взять руду клещами и подержать ее в пламени горна."
 
 #: 5104 5110 5118 5124 5243 5252 5259 5264
 msgid "Place the ore on the anvil and hammer away."
-msgstr ""
+msgstr "Положить руду на наковальню и ударить по ней молотом."
 
 #: 5105 5111 5119 5126 5153 5244 5253 5260 5267 5273
 msgid "Step back from the forge."
-msgstr ""
+msgstr "Отступить назад от кузницы."
 
 #: 5106 5112 5120 5146 5151
 msgid "Die. The heat is too much."
-msgstr ""
+msgstr "Умереть. Слишком здесь жарко."
 
 #: 5107
 msgid ""
 "You hold the tongs in a firm grip as the heat of the forge blisters your "
 "skin. What would you like to do now?"
 msgstr ""
+"Ты держишь клещи твердой хваткой, жар горна покрывает твою кожу волдырями. "
+"Что ты хочешь сделать?"
 
 #: 5109 5251
 msgid "Pick up the ore with the tongs and hold it in the flames."
-msgstr ""
+msgstr "Взять руду клещами и подержать в огне."
 
 #: 5113
 msgid ""
@@ -102,6 +112,8 @@ msgid ""
 "metal to the uncaring heavens, and the heat of the forge continues to burn "
 "you. What now?"
 msgstr ""
+"Ты пару секунд колотишь по пустой наковальне, посылая звон металла о металл "
+"безразличным небесам, пока жар горна продолжает обжигать тебя. Что теперь?"
 
 #: 5121
 msgid ""
@@ -109,252 +121,299 @@ msgid ""
 "the forge almost seems strong enough to melt the iron - it's certainly doing "
 "some painful things to your skin. Now what? "
 msgstr ""
+"Ты берешь кусок руды голыми руками. Там, где ты стоишь, жар от горна кажется "
+"настолько сильным, чтобы может расплавить железо: твоя кожа просто изнывает "
+"от боли. Что теперь?"
 
 #: 5123 5263
+#, fuzzy
 msgid "Hold the ore in the flame of the forge with the tongs."
-msgstr ""
+msgstr "Держать руду в пламени горна клещами."
 
 #: 5125 5265 5266
 msgid "Hold the ore in the fire with my bare hands."
-msgstr ""
+msgstr "Держать руду в огне голыми руками."
 
 #: 5147
 msgid ""
 "The ore softens rapidly, soon becoming soft enough to work. Your skin is "
 "swarming with heat blisters."
 msgstr ""
+"Руда быстро размягчается, становясь пригодной для работы. Твоя кожа "
+"покрывается волдырями."
 
 #: 5148 5269
 msgid "Place the softened ore on the forge and work it into shape."
-msgstr ""
+msgstr "Положить размягченную руду в горн и придать ей форму."
 
 #: 5149 5270
 msgid "My hammer! I forgot to get a hammer to work this stuff! I'll be back!"
-msgstr ""
+msgstr "Мой молот! Я забыл взять молот, чтобы обработать эту штуку! Я вернусь!"
 
 #: 5150 5271
 msgid "Step away from the forge."
-msgstr ""
+msgstr "Отойти от кузницы."
 
 #: 5152
+#, fuzzy
 msgid ""
 "You place the cold ore on the anvil and smash at it with the hammer. You "
 "reduce it to smaller, unusable chunks. The flames from the nearby forge "
 "conduct a symphony of pain across your skin."
 msgstr ""
+"Ты помещаешь холодную руду на наковальню и ударяешь по ней от всей души "
+"молотом, разбивая ее на бесполезные мелкие кусочки. Пламя горна играет "
+"симфонию боли на твоей коже."
 
 #: 5154
 msgid "Die. The heat is overwhelming."
-msgstr ""
+msgstr "Смерть. Жара просто сокрушительна."
 
 #: 5155 5274
+#, fuzzy
 msgid ""
 "The pain from the flame is astonishing. The ore softens like clay within "
 "your grasp, and the scent of burning flesh fills the air. The iron fuses to "
 "your hand and you pass out from the pain."
 msgstr ""
+"Боль от пламени просто изумительна. Руда в твоей руке становится мягкой как "
+"глина, воздух заполняется запахом горелой плоти. Железо вкипает в твою "
+"ладонь, и ты теряешь сознание от боли."
 
 #: 5156
 msgid "Done."
-msgstr ""
+msgstr "Готово."
 
 #: 5157 5275
 msgid "What would you like to forge?"
-msgstr ""
+msgstr "Что ты хочешь выковать?"
 
 #: 5158 5277
 msgid "Something small and dangerous: A stiletto!"
-msgstr ""
+msgstr "Что-нибудь маленькое и опасное - стилет!"
 
 #: 5159 5278
 msgid "A two-handed hammer."
-msgstr ""
+msgstr "Двуручный молот."
 
 #: 5160 5279
 msgid "A battle axe."
-msgstr ""
+msgstr "Боевой топор."
 
 #: 5162
 msgid "Nothing. The heat is overwhelming."
-msgstr ""
+msgstr "Ничего. Жара невыносима для тебя."
 
 #: 5163
 msgid ""
 "A stiletto... a quick, easy weapon - and one that will get you away from "
 "this inferno of pain much sooner. Are you sure you want a stiletto?"
 msgstr ""
+"Стилет... быстрое, простое в обращении оружие, и, к тому же, так ты быстрее "
+"вырвешься из этих адских мук. Ты действительно хочешь стилет?"
 
 #: 5167 5173 5179 5285 5291 5297
 msgid "No. I'd rather make something else."
-msgstr ""
+msgstr "Нет. Лучше я сделаю что-нибудь другое."
 
 #: 5168 5174 5180 5286 5292 5298
 msgid "No. I'm done with the forge for now."
-msgstr ""
+msgstr "Нет. С кузницей я закончил."
 
 #: 5169
 msgid ""
 "A hammer - a fast piece of work, and one that will allow you escape the "
 "foundry's flames quickly. Are you sure you want a hammer?"
 msgstr ""
+"Молот: его легко сделать, и ты сможешь быстро уйти от огня литейной. Ты "
+"действительно хочешь молот?"
 
 #: 5175
 msgid ""
 "An axe will take a while - and all the while, the flames will consume your "
 "flesh. Are you sure?"
 msgstr ""
+"Работа над боевым топором потребует времени, и пока ты будешь над ним "
+"работать, пламя выжжет твою плоть. Ты уверен?"
 
 #: 5188
 msgid "NULL MODE"
-msgstr ""
+msgstr "NULL MODE"
 
 #: 5189 5302
 msgid ""
 "You look critically at your work - this is not a well-made weapon, but at "
 "least you've made something. "
 msgstr ""
+"Ты критически рассматриваешь свою работу - это, конечно, не лучшее оружие, "
+"но, по крайней мере, у тебя хоть что-то вышло."
 
 #: 5194 5303
 msgid "This will have to do for my test."
-msgstr ""
+msgstr "Это сгодится для моего испытания."
 
 #: 5195 5304
 msgid "I suppose it's functional..."
-msgstr ""
+msgstr "Полагаю, оно сгодится для боя..."
 
 #: 5196
 msgid ""
 "Small consolation. The heat is overwhelming. At least this Godsman test is "
 "done."
 msgstr ""
+"Небольшое утешение. Жара просто убивает тебя. Но, по крайней мере, испытание "
+"богочеловека пройдено."
 
 #: 5197
 msgid "Small consolation. The heat is overwhelming."
-msgstr ""
+msgstr "Небольшое утешение. Жара убивает тебя."
 
 #: 5198 5305
 msgid ""
 "You've created a stiletto. You step away from the flames to admire your work."
 msgstr ""
+"Ты создал стилет. Ты отходишь от кузницы, чтобы полюбоваться своей работой."
 
 #: 5199 5306
 msgid "It's a stiletto. Good enough for the test."
-msgstr ""
+msgstr "Это стилет. Вполне достаточно для испытания."
 
 #: 5200 5307
 msgid "It's a stiletto. How nice... and very functional-seeming, too."
-msgstr ""
+msgstr "Это стилет. Вышло неплохо... и с виду он вполне годен для боя."
 
 #: 5201
 msgid ""
 "The heat is too overwhelming. The test is complete, but a price has to be "
 "paid."
 msgstr ""
+"Жара просто невыносима. Испытание пройдено, но за это придется поплатиться."
 
 #: 5202
 msgid "The heat is too overwhelming. A price must be paid."
-msgstr ""
+msgstr "Жара просто невыносима. За это придется поплатиться."
 
 #: 5203 5308
 msgid ""
 "Now that is a nice piece of work! Your stiletto is not only functional, it's "
 "perfectly balanced and deadly-looking. Nice work."
 msgstr ""
+"У тебя вышло очень даже неплохо! Твой стилет не только годен для боя, но и "
+"отлично сбалансирован, да и выглядит устрашающе. Отличная работа."
 
 #: 5204 5309
 msgid ""
 "This thing will serve me well. Keldor will certainly be impressed by this! "
 "Time to get out of the flames."
 msgstr ""
+"Эта вещь хорошо мне послужит. Без сомнений, Кельдор будет впечатлен! Самое "
+"время убираться из этого пламени."
 
 #: 5205 5310
 msgid ""
 "This will serve me well in my upcoming trials. Now to get out of the flames."
 msgstr ""
+"Это отлично мне послужит в предстоящих испытаниях. Пора убираться из этого "
+"пламени."
 
 #: 5206
 msgid "The heat is too overwhelming. "
-msgstr ""
+msgstr "Жара просто невыносима."
 
 #: 5207
 msgid "The heat is too overpowering. Can't move... can't breathe..."
-msgstr ""
+msgstr "Жара просто невыносима. Я не могу двигаться... не могу дышать..."
 
 #: 5208
 msgid ""
 "The hammer you've shaped looks approximately like you just found a block of "
 "iron. It should work, barely."
 msgstr ""
+"Выкованный тобой молот выглядит почти так же, как и та болванка, которую ты "
+"нашел. По крайней мере, должно сработать."
 
 #: 5209 5313
 msgid "Good enough for me. Back to show it to Keldor."
-msgstr ""
+msgstr "Для меня этого вполне достаточно. Пойду, покажу Кельдору."
 
 #: 5210 5312
 msgid ""
 "All that trouble for a hunk of metal? Powers above! I'll just get out of "
 "here."
-msgstr ""
+msgstr "Столько хлопот из-за куска металла? Силы небесные! Пойду-ка я отсюда."
 
 #: 5211
 msgid "The heat proves to be overwhelming. At least the test is complete."
 msgstr ""
+"Жара оказалась слишком сильной. Но, по крайней мере, испытание пройдено."
 
 #: 5212
 msgid "The heat proves to be overwhelming."
-msgstr ""
+msgstr "Жара оказалась слишком сильной."
 
 #: 5213 5314
 msgid ""
 "Look! It's a sledgehammer... and it looks about like any other sledgehammer "
 "you've ever seen."
 msgstr ""
+"Поглядите-ка! Это же кувалда... выглядит не лучше и не хуже других кувалд."
 
 #: 5214 5315
 msgid "Great. That's good enough for Keldor. I'm done with the forge for now."
 msgstr ""
+"Отлично. Этого вполне достаточно для Кельдора. С кузницей я пока закончил."
 
 #: 5215 5316
 msgid ""
 "That's good enough for me. Time to crack some heads open. I'm done with the "
 "forge for now."
 msgstr ""
+"Этого для меня вполне достаточно. Пора проломить кое-кому череп. С кузницей "
+"я пока закончил."
 
 #: 5216
 msgid ""
 "The foundry's heat and power is overwhelming. With the creation of the "
 "hammer, though, at least the test is over."
 msgstr ""
+"Жара и мощь литейной слишком сильны. Тем не менее, ты создал молот и, как "
+"минимум, прошел испытание."
 
 #: 5217
 msgid "The foundry's heat and power is overwhelming."
-msgstr ""
+msgstr "Жара и мощь литейной слишком сильны."
 
 #: 5218 5317
 msgid ""
 "Now this is a nice sledgehammer... well-shaped, well-balanced, and perfectly "
 "suited to your hands."
 msgstr ""
+"Вот так отличная кувалда... удобной формы, хорошо сбалансированная, и "
+"отлично ложится в твои руки."
 
 #: 5219 5318
 msgid ""
 "Good. I'll just show this to Keldor... and maybe I'll keep this hammer to "
 "crack some heads."
 msgstr ""
+"Хорошо. Я просто покажу ее Кельдору... и, возможно, позже проломлю ей пару "
+"черепов."
 
 #: 5220 5319
 msgid "Good. This should come in handy."
-msgstr ""
+msgstr "Хорошо. Это может пригодиться."
 
 #: 5221
 msgid ""
 "The foundry's sheer power is overwhelming. At least the Godsman test is "
 "over, and passed with flying colors."
 msgstr ""
+"Силы литейной неодолимы. Но, по крайней мере, испытание богочеловека "
+"пройдено, и пройдено блестяще."
 
 #: 5222
 msgid "The foundry's sheer power is overpowering."
-msgstr ""
+msgstr "Силы литейной неодолимы."
 
 #: 5223 5320
 msgid ""
@@ -362,96 +421,118 @@ msgid ""
 "does have sharp edges, so it's probably best to call it an axe and have done "
 "with it."
 msgstr ""
+"И это - топор? Больше похоже на молот, и все же у него острые кромки, так "
+"что, наверно, лучше назвать его топором и закончить с этим."
 
 #: 5224 5321
 msgid "Hm. Well, it satisfies Keldor's requirements."
-msgstr ""
+msgstr "Хм. Что ж, это удовлетворяет требованиям Кельдора."
 
 #: 5225 5322
 msgid "Hm. Maybe I can sell it for scrap."
-msgstr ""
+msgstr "Хм. Может, получится продать его на лом."
 
 #: 5226
 msgid ""
 "The heat and force of the foundry's inferno proves to be unstoppable. At "
 "least the test is complete."
 msgstr ""
+"Жара и мощь пекла литейной оказались невыносимыми. Но, по крайней мере, "
+"испытание пройдено."
 
 #: 5227
 msgid "The heat and force of the foundry's inferno proves to be unstoppable."
-msgstr ""
+msgstr "Жара и мощь пекла литейной оказались невыносимыми."
 
 #: 5228 5323
+#, fuzzy
 msgid ""
 "This is a competent piece of work. It won't win you any awards, but it's "
 "functional and deadly."
 msgstr ""
+"Это полноценное изделие. С ним ты не выиграешь никаких наград, однако оно "
+"годно для боя и смертоносно."
 
 #: 5229 5324
 msgid "Good enough. Keldor will admire it, I'm sure."
-msgstr ""
+msgstr "Вполне неплохо. Уверен, Кельдор это оценит."
 
 #: 5230 5325
 msgid ""
 "Competent will be good enough - competence still slices through skin and "
 "shatters bones."
 msgstr ""
+"И этого будет вполне достаточно: даже ним можно рассекать плоть и разбивать "
+"кости."
 
 #: 5231
 msgid ""
 "The foundry's choking black smoke and raging heat is too much. At least the "
 "test is complete."
 msgstr ""
+"Удушающий черный дым литейной и неистовая жара слишком сильны. Но, по "
+"крайней мере, испытание пройдено."
 
 #: 5232
 msgid "The foundry's choking black smoke and raging heat is too much."
-msgstr ""
+msgstr "Удушающий черный дым литейной и неистовая жара слишком сильны."
 
 #: 5233 5326
 msgid ""
 "With a little decoration, this axe could fit the hands of the finest "
 "warriors. It's that good."
 msgstr ""
+"Еще немного отделки, и этот топор будет достоин руки лучшего воина - "
+"настолько он хорош."
 
 #: 5234 5327
 msgid ""
 "I always knew I had it in me. Now to show Keldor... and maybe try this "
 "weapon out."
 msgstr ""
+"Я всегда знал, что во мне это есть. Пойду, покажу Кельдору... и, возможно, "
+"испытаю это оружие."
 
 #: 5235 5328
 msgid ""
 "This axe and I are going to see a lot of good times together. I can just "
 "feel it."
-msgstr ""
+msgstr "Мы с этим топором еще много чего повидаем. Я так и чувствую это."
 
 #: 5236
 msgid ""
 "It's a fine piece of work. Unfortunately, the heat of the foundry has proven "
 "too strong to withstand for any longer."
 msgstr ""
+"Отличная работа. К сожалению, жара литейной оказалась слишком сильной, чтобы "
+"терпеть дальше."
 
 #: 5237
 msgid ""
 "Unfortunately, the heat of the foundry has proven too strong to withstand "
 "for any longer."
 msgstr ""
+"К сожалению, жара литейной оказалась слишком сильной, чтобы терпеть дальше."
 
 #: 5238
 msgid "What would you like to do first?"
-msgstr ""
+msgstr "Что ты хочешь сделать в первую очередь?"
 
 #: 5249
 msgid ""
 "You hold the tongs in a firm grip as the sweat pours from you. What would "
 "you like to do now?"
 msgstr ""
+"Ты держишь клещи твердой хваткой, пот течет по тебе ручьями. Что ты намерен "
+"делать?"
 
 #: 5254
 msgid ""
 "You pound the empty anvil for a few moments, sending the ringing of metal on "
 "metal to the uncaring heavens. Hot, hard work - sweaty, too. What now?"
 msgstr ""
+"Ты пару секунд колотишь по пустой наковальне, посылая звон металла о металл "
+"безразличным небесам. Жаркая, тяжелая и душная работа. Что теперь?"
 
 #: 5261
 msgid ""
@@ -459,57 +540,81 @@ msgid ""
 "the forge almost seems strong enough to melt the iron - it's practically "
 "searing your skin. Good thing you're protected against the flames. Now what? "
 msgstr ""
+"Ты держишь в руках кусок руды. В месте, где ты стоишь, жар от горна "
+"настолько силен, что почти плавит железо: он практически обжигает тебе кожу. "
+"Хорошо, что ты защищен от пламени. Что теперь?"
 
 #: 5268
 msgid ""
 "The ore softens rapidly, soon becoming soft enough to work. Your hands grow "
 "slick with sweat."
 msgstr ""
+"Руда быстро размягчается, вскоре став достаточно податливой для обработки. "
+"Твои руки становятся скользкими от пота."
 
 #: 5272
+#, fuzzy
 msgid ""
 "You place the cold ore on the anvil and smash at it with the hammer. You "
 "reduce it to smaller, unusable chunks. The flames from the nearby forge "
 "rage, sending the stink of burning metal to the skies."
 msgstr ""
+"Ты помещаешь холодную руду на наковальню и ударяешь по ней от всей души "
+"молотом, разбивая ее на бесполезные мелкие кусочки. Пламя горна "
+"неистовствует, поднимая до небес вонь горящего метала."
 
 #: 5276
 msgid "Pass out."
-msgstr ""
+msgstr "Потерять сознание."
 
 #: 5281
 msgid ""
 "A stiletto... a quick, easy weapon - and one that will get you away from "
 "this inferno much sooner. Are you sure you want a stiletto?"
 msgstr ""
+"Стилет... быстрое, простое в обращении оружие, и, к тому же, так ты быстрее "
+"вырвешься из этих адских мук. Ты действительно хочешь стилет?"
 
 #: 5287
 msgid ""
 "A hammer - a fast piece of work, and one that will allow you get out of this "
 "sweatbox quickly. Are you sure you want a hammer?"
 msgstr ""
+"Молот. Сделать его легко, и ты сможешь быстро уйти из этого карцера. Ты "
+"действительно хочешь молот?"
 
 #: 5293
+#, fuzzy
 msgid ""
 "An axe will take some time - you're going to be damn uncomfortable for a "
 "while, but at least you're not burning to death. Are you sure you want an "
 "axe?"
 msgstr ""
+"Топор займет некоторое время, на протяжении которого тебе придется ох как "
+"несладко, но, как минимум, ты не сгоришь насмерть. Ты уверен, что хочешь "
+"сделать топор?"
 
 #: 5311
 msgid ""
 "The hammer you've shaped looks approximately like you just found a block of "
 "iron. It should work... barely."
 msgstr ""
+"Выкованный тобой молот выглядит почти также, как и та болванка, которую ты "
+"нашел. По крайней мере... должно сработать."
 
 #: 5329
+#, fuzzy
 msgid ""
 "Your innate fire resistance allows you hold the ore in the flame until it "
 "softens and runs between your fingers. The other smiths in the foundry watch "
 "you in awe as the molten ore drips through your fingers. Unfortunately, your "
 "ore is all gone now."
 msgstr ""
+"Твоя врожденная устойчивость к огню позволяет тебе держать руду в огне до "
+"тех пор, пока она не начинает плавиться и течь сквозь пальцы. Другие кузнецы "
+"в литейной с трепетом наблюдают, как расплавленная руда капает с твоих "
+"пальцев. К сожалению, руды больше нет."
 
 #: 5330
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."

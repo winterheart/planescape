@@ -1,18 +1,21 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dpillar.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-10-12 01:56+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 51733
+#, fuzzy
 msgid ""
 "The sight of this thing - this horrible, towering, pulsating *thing* - fills "
 "you with nausea, unfounded loathing, and a faint sense of familiarity. The "
@@ -22,14 +25,21 @@ msgid ""
 "stack from somewhere within its foul core, while others sink back into the "
 "grisly pillar."
 msgstr ""
+"Вид этой штуки - этой высоченной ужасной пульсирующей *штуки* - наполняет "
+"тебя тошнотой, необоснованной ненавистью и слабым ощущением чего-то "
+"знакомого. Бесчисленные разлагающиеся головы, образующие громадную гору, без "
+"конца снуют, пульсируют, попеременно спорят, рыдают, болтают, "
+"перекрикиваются и перешептываются друг с другом. Одни головы постоянно "
+"всплывают на поверхность откуда-то из ее грязного нутра, другие - "
+"погружаются вглубь ужасающей колонны."
 
 #: 51734 53326 53576 53577 53578 53581
 msgid "Get the Pillar's attention."
-msgstr ""
+msgstr "Привлечь внимание Колонны."
 
 #: 53327 53579 53582
 msgid "Leave the Pillar before you're noticed."
-msgstr ""
+msgstr "Покинуть Колонну, прежде чем тебя заметят."
 
 #: 53328
 msgid ""
@@ -38,15 +48,19 @@ msgid ""
 "surface slowly turn to face you in unison. They regard you silently, their "
 "breath fetid and moist upon you."
 msgstr ""
+"Ты делаешь еще один осторожный шаг к колонне, и внезапно все разговоры "
+"*смолкают*. Десятки голов, образующих поверхность колонны, медленно и в "
+"унисон поворачиваются к тебе. Они молча глядят на тебя, зловонно и влажно "
+"дыша."
 
 #: 53329 53330 53331 53332 53333 53588 53589 53590 53591 53592 53608 53609
 #: 53610 53611 53612
 msgid "\"I had some questions, Pillar...\""
-msgstr ""
+msgstr "«Колонна, у меня есть вопросы...»"
 
 #: 53334 53593 68082
 msgid "\"I was merely passing by. Farewell.\""
-msgstr ""
+msgstr "«Я просто проходил мимо. Прощайте»."
 
 #: 53335
 msgid ""
@@ -55,21 +69,29 @@ msgid ""
 "and putrid corruption stream from their mouths. \"THE SMELL, 'TIS STRONG. IT "
 "SHALL CROSS THE PLANES, SOON, AND BEL WILL COME.\""
 msgstr ""
+"Все головы колонны говорят одновременно, образуя голос этой штуки - жуткое "
+"бормотание, сопровождаемое зловонными обжигающими испарениями и гнилостным "
+"запахом разложения из их ртов. «ЗАПАХ СИЛЕН. ВСКОРЕ ОН ПЕРЕСЕЧЕТ ПЛАНЫ, И "
+"ПРИДЕТ БЕЛ»."
 
 #: 53336 53337
 msgid "\"The... smell? What do you mean?\""
-msgstr ""
+msgstr "«Запах?.. О чем это вы?»"
 
 #: 53338
+#, fuzzy
 msgid ""
 "The heads' eyes turn wetly in their sockets to stare at Fall-from-Grace. "
 "\"THE SMELL... HER MUSK... THE TANAR'RI *MUSK.* THE BITTERSWEET SCENT "
 "*CARRIES,* AND WILL ATTRACT BAATEZU, SOON. THEIR LORD, BEL, WILL BE ANGRY.\""
 msgstr ""
+"Глаза голов увлажняются в глазницах, глядя на Падшую Грацию. «ЗАПАХ... ЕЕ "
+"АМБРЕ... *АМБРЕ* ТАНАРРИ. ГОРЬКО-СЛАДКИЙ ЗАПАХ *РАСХОДИТСЯ*, И СКОРО "
+"ПРИВЛЕЧЕТ БААТЕЗУ. ИХ ПОВЕЛИТЕЛЬ, БЕЛ, БУДЕТ ЗОЛ»."
 
 #: 53339 53340 53342 53343
 msgid "\"I see...\""
-msgstr ""
+msgstr "«Понятно...»"
 
 #: 53341
 msgid ""
@@ -78,6 +100,9 @@ msgid ""
 "*CARRIES,* AND WILL ATTRACT BAATEZU, SOON. THEIR LORD, BEL, WILL BE *ANGRY.*"
 "\""
 msgstr ""
+"Глаза голов увлажняются в глазницах, глядя на Анну. «ЗАПАХ... ЕЕ АМБРЕ... "
+"*АМБРЕ* ПОРОЖДЕНИЯ ТАНАРРИ. ГОРЬКО-СЛАДКИЙ ЗАПАХ *РАСХОДИТСЯ*, И СКОРО "
+"ПРИВЛЕЧЕТ БААТЕЗУ. ИХ ПОВЕЛИТЕЛЬ, БЕЛ, БУДЕТ *ЗОЛ*»."
 
 #: 53344
 msgid ""
@@ -85,14 +110,18 @@ msgid ""
 "\"IF HAVE YOU *QUESTIONS* FOR US, YOU HAD BEST BE *QUICK.*\" A few of the "
 "heads squint and gurgle softly; you think they might be laughing at you."
 msgstr ""
+"Головы вновь обращают на тебя взгляд, хотя некоторые из них все еще шумно "
+"сопят. «ЕСЛИ ЕСТЬ У ТЕБЯ *ВОПРОСЫ*, ТЕБЕ СЛЕДУЕТ *ПОТОРОПИТЬСЯ*». Некоторые "
+"из голов косятся на тебя и издают тихие булькающие звуки; тебе кажется, что "
+"они, должно быть, посмеиваются над тобой."
 
 #: 53345
 msgid "\"As I said before, then: I had-\""
-msgstr ""
+msgstr "«Тогда, как я уже говорил, у меня есть...»"
 
 #: 53346 68075
 msgid "\"As I said before, then: I had some questions...\""
-msgstr ""
+msgstr "«Тогда, как я уже говорил, у меня есть вопросы...»"
 
 #: 53347
 msgid ""
@@ -101,6 +130,10 @@ msgid ""
 "off, you recognize it as Pharod's. It spits out a mouthful of bloody cysts "
 "and croaks: \"Annah, me darling child! Is that you?\""
 msgstr ""
+"Не успеваешь ты закончить, как часть колонны вздрагивает, и на поверхность "
+"просачивается еще одна голова. Как только она освобождается от зловонной "
+"слизи, ты узнаешь в ней Фарода. Он выплевывает комок кровавых личинок и "
+"хрипит: «Анна, моя дорогуша! Это ты?»"
 
 #: 53348
 msgid ""
@@ -112,24 +145,34 @@ msgid ""
 "even as it speaks, Pharod's mewling head begins to sink back into the "
 "Pillar's core..."
 msgstr ""
+"Пока Фарод говорит, остальные головы в основном сохраняют молчание... только "
+"некоторые что-то тихо шепчут, бросая злобные косые взгляды на Анну и голову "
+"ее приемного отца. «Моя дорогая девочка, я ошибался насчет шара. Его было "
+"недостаточно, о нет. Вот, погляди, где я закончил... умоляю тебя, прекрасная "
+"Анна! Спаси своего бедного отца! Спаси меня! Пожалуйста, спаси меня! Спаси "
+"м...» Произнося эти слова, голова Фарода начинает погружаться назад вглубь "
+"колонны..."
 
 #: 53352
 msgid ""
 "\"ENOUGH,\" bellow the pillar's stinking heads. \"WE TIRE OF YOUR "
 "INSIGNIFICANT PRATTLE, AND WOULD KNOW YOUR BUSINESS WITH US.\""
 msgstr ""
+"«ДОВОЛЬНО, - вопят зловонные головы колонны. - МЫ УСТАЛИ ОТ ТВОЕЙ ПУСТОЙ "
+"БОЛТОВНИ, И ЕЩЕ РАЗБЕРЕМСЯ С ТОБОЙ»."
 
 #: 53353
 msgid "\"Questions. I had questions...\""
-msgstr ""
+msgstr "«Вопросы. У меня есть вопросы...»"
 
 #: 53354 53365 53366 53376 53377 53389 53390 53400 53401 53412 53413 53419
 #: 53420 53425 53426 53430 53431 53434 53435 53443 53444 53538 53539 53543
 #: 53544 53548 53549
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 53355
+#, fuzzy
 msgid ""
 "You take another cautious step towards the pillar, and all their "
 "conversation abruptly *stops.* The dozens of heads that lines the pillar's "
@@ -137,6 +180,10 @@ msgid ""
 "breath fetid and moist upon you... until they notice Morte cowering behind "
 "you."
 msgstr ""
+"Ты делаешь еще один осторожный шаг к колонне, и внезапно все разговоры "
+"*смолкают*. Десятки голов, образующих поверхность колонны, медленно и в "
+"унисон поворачиваются к тебе. Они молча глядят на тебя, зловонно и влажно "
+"дыша... пока не замечают Морта, прячущегося за твоей спиной."
 
 #: 53356
 msgid ""
@@ -147,10 +194,15 @@ msgid ""
 "\"...skull, skull, skull...\" gleefully, licking their lips, their eyes "
 "fixated upon Morte."
 msgstr ""
+"Все голова колонны говорят одновременно, образуя голос этой штуки - жуткое "
+"бормотание, сопровождаемое зловонными обжигающими испарениями и гнилостным "
+"запахом разложения из их ртов. «СНОВА *ТЫ*... СКОЛЬКО ЛЕТ, СКОЛЬКО ЗИМ». "
+"Множество голов начинает тараторить и пускать слюну, радостно повторяя "
+"«череп-череп-череп» и облизывая губы. Их глаза прикованы к Морту."
 
 #: 53357
 msgid "\"What do you mean?\""
-msgstr ""
+msgstr "«О чем это вы?»"
 
 #: 53358
 msgid ""
@@ -160,6 +212,11 @@ msgid ""
 "Pillar's core, gnashing their broken teeth and wailing: \"Yes, come back! "
 "Come back to us, skull! Skull...\""
 msgstr ""
+"«МОЛЧАТЬ! МЫ ГОВОРИМ НЕ С ТОБОЙ, А С ЧЕРЕПОМ. С ВОЗВРАЩЕНИЕМ, МАЛЫШ. ТЫ, "
+"НАКОНЕЦ, РЕШИЛ ВЕРНУТЬСЯ В БРАТСТВО, ПРИНЯТЬ СВОЮ КОНЕЧНУЮ СУДЬБУ, ЧТОБЫ "
+"СНОВА ИСПОЛНЯТЬ СВОЙ СВЯЩЕННЫЙ ДОЛГ?» Несколько голов вырываются из нутра "
+"колонны, скрипя поломанными зубами и вопя: «Да, возвращайся! Вернись к нам, "
+"череп! Череп...»"
 
 #: 53359
 msgid ""
@@ -168,36 +225,41 @@ msgid ""
 "THEN, AND BE PREPARED TO HEAR OUR DEMANDS - YOU SHALL RENDER UNTO US A "
 "SERVICE FOR YOUR ANSWER.\""
 msgstr ""
+"Головы лениво двигаются по поверхности колонны, кивая и что-то бормоча, "
+"затем произносят жутким голосом: «ТОГДА ЗАДАВАЙ СВОЙ ВОПРОС, И БУДЬ ГОТОВ "
+"ВЫСЛУШАТЬ НАШИ ТРЕБОВАНИЯ: ЗА ОТВЕТ ТЫ ОКАЖЕШЬ НАМ УСЛУГУ»."
 
 #: 53360
 msgid "\"What are you?\""
-msgstr ""
+msgstr "«Что вы такое?»"
 
 #: 53361
 msgid "\"How do I reach the Fortress of Regrets?\""
-msgstr ""
+msgstr "«Как мне добраться до Крепости сожалений?»"
 
 #: 53362
 msgid "\"Who am I?\""
-msgstr ""
+msgstr "«Кто я?»"
 
 #: 53363
 msgid "\"Who is my killer?\""
-msgstr ""
+msgstr "«Кто мой убийца?»"
 
 #: 53364
 msgid "\"How might I leave this place?\""
-msgstr ""
+msgstr "«Как мне покинуть это место?»"
 
 #: 53367 53382
 msgid ""
 "The heads gurgle and croak their reply through rotted lips: \"WE WOULD "
 "ANSWER THAT QUESTION FOR A SERVICE...\""
 msgstr ""
+"Хриплым булькающим голосом они произносят сквозь разложившиеся губы: «МЫ "
+"ОТВЕТИМ НА ЭТОТ ВОПРОС ЗА УСЛУГУ...»"
 
 #: 53368 53369 53370 53371 53372 53373 53374 53375
 msgid "\"Very well; what's your demand?\""
-msgstr ""
+msgstr "«Хорошо. Чего вам надо?»"
 
 #: 53378
 msgid ""
@@ -206,24 +268,31 @@ msgid ""
 "\"And to call *all* of us liars is-\" before being sucked back into the "
 "pillar's sickly heart."
 msgstr ""
+"Головы вклиниваются в разговор, крича в один голос: «МОЛЧАТЬ! ТЫ УНИЖАЕШЬ "
+"НАШ БЛАГОРОДНЫЙ СТАТУС СТОЛЬ БЕСПЕЧНЫМИ РАЗГОВОРАМИ!» Особенно "
+"отвратительная голова выкрикивает: «А называть нас *всех* лжецами...», потом "
+"ее затягивает в нездоровое чрево колонны."
 
 #: 53379 53461 53505 53511 53516 53521 53532 53551 53555
 msgid "\"I had another question...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 53380 53381
 msgid "\"I'll leave, then. Farewell.\""
-msgstr ""
+msgstr "«Тогда я ухожу. Прощайте»."
 
 #: 53383 53384 53385 53386 53387 53388
 msgid "\"What's your demand, Pillar?\""
-msgstr ""
+msgstr "«Колонна, каковы ваши требования?»"
 
 #: 53391
 msgid ""
 "The pillar's head all turn to leer at Morte. \"THE SKULL... WE DEMAND THE "
 "SKULL AS TRIBUTE. RETURN HIM TO US, AND YOU SHALL HAVE YOUR ANSWER.\""
 msgstr ""
+"Все головы колонны поворачиваются и с вожделением смотрят на Морта. "
+"«ЧЕРЕП... МЫ ТРЕБУЕМ ЧЕРЕП В КАЧЕСТВЕ НАГРАДЫ. ВЕРНИ ЕГО НАМ, И ПОЛУЧИШЬ "
+"ОТВЕТ»."
 
 #: 53392
 msgid ""
@@ -232,16 +301,21 @@ msgid ""
 "LONG HAS HE CHEATED HIS FATE; HE IS *OURS.* WERE YOU TO RETURN HIM, WE WOULD "
 "BE MOST WELL-DISPOSED TOWARD SUCH A GIFT... WE WISH TO SAVOR HIS SCREAMS...\""
 msgstr ""
+"«ПРЕКРАТИ СВОИ НЕМОЩНЫЕ ПРОТЕСТЫ! РЕШЕНИЕ НЕ ЗА ТОБОЙ! - многочисленные "
+"головы колонны медленно поворачиваются к тебе. - ОН ОБМАНЫВАЛ СВОЮ СУДЬБУ "
+"СЛИШКОМ ДОЛГО. ОН *НАШ*. ВЕРНИ ЕГО НАМ, И МЫ БУДЕМ ОЧЕНЬ ПРИЗНАТЕЛЬНЫ ТАКОМУ "
+"ПОДАРКУ... МЫ ХОТИМ НАСЛАДИТЬСЯ ЕГО КРИКАМИ...»"
 
 #: 53393 53394
 msgid "\"All right... you may have him.\""
-msgstr ""
+msgstr "«Ну хорошо... забирайте его»."
 
 #: 53395 53396 53397 53398 53399
 msgid "\"A gift? What *other* gifts would you accept?\""
-msgstr ""
+msgstr "«Подарок? А какие *еще* подарки вы примете?»"
 
 #: 53402
+#, fuzzy
 msgid ""
 "\"YESSSSS...\" The stack of heads begins to writhe and boil, heads thrusting "
 "to the surface to howl and babble before sinking back down. They drool and "
@@ -250,6 +324,12 @@ msgid ""
 "his teeth out, spit them into his brain pan and shake him like a babe's "
 "rattle!\" And another: \"Oo! Oo! I'll eat his eyes out!\""
 msgstr ""
+"«ДА-А-А...» Груда голов начинает сжиматься и кипеть, головы протискиваются "
+"на поверхность, воют и тараторят, потом погружаются вглубь. Истекая слюной, "
+"одна из них бормочет: «Не могу дождаться, чтобы насладиться его воплями!» "
+"Другая кричит: «К черту крики! *Пытки* - вот что в самый раз для такого "
+"надоедливого как он! Я выдерну его зубы, выплюну их ему в черепушку и буду "
+"трясти им как погремушкой!» Третья: «О! О! Я выем ему глаза!»"
 
 #: 53403
 msgid ""
@@ -259,18 +339,24 @@ msgid ""
 "The stench of the pillar's hot breath surrounds you as it awaits your "
 "reply..."
 msgstr ""
+"Колонна наклоняется к тебе, головы прищурено смотрят на тебя. «ТЫ ОБЛАДАЕШЬ "
+"*ЗНАНИЕМ*, КОТОРОЕ МЫ ХОТИМ ПОЛУЧИТЬ. ГДЕ НАХОДИТСЯ ФЬЮЛ РАЗДВОЕННЫЙ ЯЗЫК? "
+"СКАЖИ НАМ, И МЫ ОТВЕТИМ НА ТВОЙ ВОПРОС». Вонь горячего дыхания колонны "
+"окутывает тебя, пока они ждут твоего ответа..."
 
 #: 53404 53405 53437 53438
 msgid ""
 "\"In the Outlands, where Ul-Goris, father of all goristro was laid low in "
 "the Crater War. Fhjull lives within its skeleton.\""
 msgstr ""
+"«Во Внешних землях, где в Кратерной Войне пал Уль-Горис, отец всех гористро. "
+"Фьюл живет в его скелете»."
 
 #: 53406
 msgid ""
 "Lie: \"He is... hidden somewhere, in the Outlands. Beneath a large mountain."
 "\""
-msgstr ""
+msgstr "Ложь: «Он... прячется где-то во Внешних землях. Под большой горой»."
 
 #: 53407
 msgid ""
@@ -278,28 +364,36 @@ msgid ""
 "sorcerer's devising. He appears only occasionally within Sigil, and it's "
 "there that I met him.\""
 msgstr ""
+"Ложь: «Фьюл хорошо спрятался в полуплане, созданном давно умершим колдуном. "
+"Он время от времени появляется в Сигиле - там я его и встретил»."
 
 #: 53408 53409 53410 53411 53439 53440 53441 53442
 msgid "\"I won't say. What *other* gifts would you accept?\""
-msgstr ""
+msgstr "«Я не скажу. Какие *еще* подарки вы примете?»"
 
 #: 53414
+#, fuzzy
 msgid ""
 "The pillar's heads - save for the hissing of foul vapors issuing from rents "
 "in its rancid surface - remain silent for a time. Finally, it answers: "
 "\"THERE IS AN OBJECT IN YOUR POSSESSION THAT WE WISH FOR OURSELVES. THE "
 "MODRON CUBE: GIVE IT TO US, AND WE SHALL ANSWER YOUR QUESTION.\""
 msgstr ""
+"Головы колонны некоторое время сохраняют тишину, если не учитывать шипение "
+"от зловонных испарений, источаемых дырами в мерзкой поверхности колонны. "
+"Наконец, они отвечают: «МЫ ХОТИМ СЕБЕ ПРЕДМЕТ, НАХОДЯЩИЙСЯ В ТВОЕМ "
+"РАСПОРЯЖЕНИИ. КУБ-МОДРОН - ОТДАЙ ЕГО НАМ, И МЫ ОТВЕТИМ НА ТВОЙ ВОПРОС»."
 
 #: 53415
 msgid "\"Here... take it.\""
-msgstr ""
+msgstr "«Вот... держите»."
 
 #: 53416 53417 53418 53423 53424 53429
 msgid "\"I can't do that. What *other* gifts would you accept?\""
-msgstr ""
+msgstr "«Я не могу этого сделать. Какие *еще* подарки вы примете?»"
 
 #: 53421
+#, fuzzy
 msgid ""
 "The pillar's heads frown, their eyes flickering this way and that. Suddenly, "
 "they all come to rest on Fall-from-Grace. \"SHE WILL DO... YES. THE "
@@ -308,10 +402,15 @@ msgid ""
 "heads begin to moan with longing, calling to Grace: \"Yes, tanar'ri, sweet "
 "succubus, wicked thing, surrender yourself to us...\""
 msgstr ""
+"Головы колонны хмурятся, их глаз бегают туда-сюда. Внезапно все они "
+"останавливаются на Падшей Грации. «ОНА ПОДОЙДЕТ... ДА. ТАНАРРИ. ОТДАЙ НАМ "
+"ЕЕ... МЫ СЪЕДИМ ЕЕ ЗАЖИВО, ИСКУПАЕМСЯ В ЕЕ СЛАДКОЙ КРОВИ... А ПОТОМ ОТВЕТИМ "
+"НА ТВОЙ ВОПРОС». Несколько голов начинают страстно стонать, обращаясь к "
+"Грации: «Да, танарри, сладкий суккуб, нечисть, сдайся нам...»"
 
 #: 53422 53428
 msgid "\"Very well. You may have her.\""
-msgstr ""
+msgstr "«Хорошо. Забирайте ее»."
 
 #: 53427
 msgid ""
@@ -321,6 +420,10 @@ msgid ""
 "SHALL TEAR HER APART WITHIN US, REVEL IN THE BASKING OF HER SWEET, FIERY "
 "BLOOD... THEN, WE SHALL ANSWER YOUR QUESTION.\""
 msgstr ""
+"Из колонны доносится низкий рокот. На ее вздымающуюся поверхность пролазят "
+"новые головы, расчленяя тебя своими алыми глазами. Наконец их взгляд находит "
+"Анну. «БЕСОВСКОЕ ОТРОДЬЕ! ДА, ОТДАЙ НАМ ЭТУ ДЕВЧОНКУ-ТИФЛИНГА... МЫ РАЗОРВЕМ "
+"ЕЕ, ПОПИРУЕМ ЕЕ СЛАДКОЙ ОГНЕННОЙ КРОВЬЮ... А ПОТОМ ОТВЕТИМ НА ТВОЙ ВОПРОС»."
 
 #: 53432
 msgid ""
@@ -331,10 +434,15 @@ msgid ""
 "together, drooling and smacking their split, pus-covered lips in "
 "anticipation..."
 msgstr ""
+"Рты голов колонны расплываются в порочной нездоровой улыбке. Они "
+"посмеиваются над тобой и бормочут. «У ТЕБЯ *НИЧЕГО* ДЛЯ НАС НЕТ... КРОМЕ "
+"ТЕБЯ САМОГО. ПОДОЙДИ, БЕССМЕРТНЫЙ... ПОДАРИ НАМ ВКУС ТВОЕЙ БЕССМЕРТНОЙ "
+"КРОВИ. А ПОТОМ МЫ ОТВЕТИМ НА ТВОЙ ВОПРОС». Головы клацают зубами, источая "
+"слюну и облизывая свои потрескавшиеся гноящиеся губы в предвкушении..."
 
 #: 53433
 msgid "\"Very well. I agree to your demands.\""
-msgstr ""
+msgstr "«Хорошо. Я согласен на ваши требования»."
 
 #: 53436
 msgid ""
@@ -343,6 +451,9 @@ msgid ""
 "IS - *FHJULL?* TELL US, AND WE SHALL FORGIVE YOUR DECEIT AND ANSWER YOUR "
 "QUESTION.\""
 msgstr ""
+"Колонна Черепов отступает, каждая ее голова презрительно смотрит на тебя. "
+"Они выплевывают: «ДАЖЕ НЕ ДУМАЙ ЛГАТЬ НАМ, ГЛУПЕЦ. СКАЖИ НАМ, ГДЕ - "
+"НАХОДИТСЯ - *ФЬЮЛ*, И МЫ ПРОСТИМ ТЕБЕ ОБМАН И ОТВЕТИМ НА ТВОЙ ВОПРОС»."
 
 #: 53445
 msgid ""
@@ -351,20 +462,26 @@ msgid ""
 "cube is gone - somehow, you know - forever. The heads gurgle happily, "
 "shifting slowly across the pillar's face."
 msgstr ""
+"Ты бросаешь куб Колонне Черепов. Раскрывается огромная зловонная дыра и "
+"поглощает его. Через миг дыра пропадает, а с ней и куб, и непонятно откуда "
+"ты знаешь, что пропал он навсегда. Головы радостно бормочут, медленно "
+"двигаясь по поверхности колонны."
 
 #: 53446
 msgid ""
 "\"APPROACH US, THEN... YES, COME CLOSER...\" The heads seem to draw back "
 "within the Pillar as you approach it..."
 msgstr ""
+"«ТОГДА ПОДОЙДИ К НАМ... ДА, БЛИЖЕ...» Когда ты подходишь, головы колонны, "
+"казалось бы, отдаляются назад..."
 
 #: 53447
 msgid "Step closer."
-msgstr ""
+msgstr "Подойти ближе."
 
 #: 53448 53449
 msgid "\"I've reconsidered, actually. Farewell.\""
-msgstr ""
+msgstr "«Вообще-то, я передумал. Прощайте»."
 
 #: 53450
 msgid ""
@@ -374,10 +491,15 @@ msgid ""
 "rotten, worm-infested meat. As the rancid darkness envelopes you, the "
 "pillar's heads begin to consume you alive..."
 msgstr ""
+"Хотя ты подошел всего на один шаг, внезапно ты обнаруживаешь, что находишься "
+"гораздо ближе к колышущейся поверхности колонны, чем тебе казалось. Прежде "
+"чем ты успеваешь отреагировать, она наваливается на тебя волной сломанных "
+"костей и разлагающегося, зараженного червями мяса. Погрузив тебя в "
+"отвратительную темноту, головы колонны начинают есть тебя живьем..."
 
 #: 53451
 msgid "Fall into darkness..."
-msgstr ""
+msgstr "Пасть во тьму..."
 
 #: 53452
 msgid ""
@@ -386,16 +508,22 @@ msgid ""
 "your body is somehow *weaker* for whatever ordeal it just suffered through. "
 "The grotesque heads leer down at you, grinning and smacking their lips..."
 msgstr ""
+"Ты оказываешься стоящим перед Колонной Черепов, изнывая от боли, не понимая, "
+"что, собственно, произошло. Вот в чем ты уверен, так это в том, что твое "
+"тело каким-то образом *ослабло* из-за того, что с ним только что случилось. "
+"Гротескные головы косятся на тебя, ухмыляясь и причмокивая..."
 
 #: 53453
 msgid ""
 "The pillar savors your gift for a time, its heads cooing and whispering to "
 "one another."
 msgstr ""
+"Колонна некоторое время смакует твоим подарком, ее головы бормочут и "
+"перешептываются."
 
 #: 53454 53455 53456 53457 53569 53570 53571 53572
 msgid "\"And my answer...?\""
-msgstr ""
+msgstr "«И каков ответ?..»"
 
 #: 53458
 msgid ""
@@ -403,6 +531,9 @@ msgid ""
 "led others to their deaths. It can answer many questions, but expects much "
 "in terms of payment for its knowledge"
 msgstr ""
+"Колонна Черепов сказала мне, что она состоит из голов тех, чья ложь повлекла "
+"за собой чью-то смерть. Они могут ответить на многие вопросы, но ждут оплаты "
+"за свои знания."
 
 #: 53459
 msgid ""
@@ -410,6 +541,9 @@ msgid ""
 "to the Fortress of Regrets. Seems appropriate. It did not, however, know the "
 "way to the portal. "
 msgstr ""
+"Колонна Черепов сказала мне, что ключом к порталу, ведущему в Крепость "
+"сожалений, является сожаление. Кажется логичным. Однако она не знала пути к "
+"порталу. "
 
 #: 53460
 msgid ""
@@ -419,11 +553,17 @@ msgid ""
 "heads mutter and nod to one another in affirmation, then turn back to you. "
 "\"WE KNOW MUCH... BUT ASK MUCH OF THOSE WHO WOULD QUESTION US.\""
 msgstr ""
+"«МЫ ТЕ, КТО В ТЕЧЕНИЕ СВОЕЙ СМЕРТНОЙ ЖИЗНИ, УЖЕ ДАВНО ЗАБЫТОЙ, ДАЛ СОВЕТ, "
+"ПОВЛЕКШИЙ ЗА СОБОЙ ЧЬЮ-ТО СМЕРТЬ. КОЕ-КТО НАЗЫВАЕТ НАС 'ЛЖЕЦАМИ', ХОТЯ ЧТО "
+"ТАКОЕ 'ПРАВДА', ЕСЛИ НЕ ЕЩЕ ОДНО НАЗВАНИЕ ЛЖИ? ПРАВДОЙ ТАК ЧАСТО ПОКРЫВАЮТ "
+"ОБМАН... - головы бормочут и кивают друг другу в знак одобрения, затем "
+"поворачиваются к тебе. - МЫ МНОГОЕ ЗНАЕМ... НО И МНОГОЕ ПРОСИМ У ТЕХ, КТО "
+"СПРАШИВАЕТ НАС»."
 
 #: 53462 53463 53506 53507 53512 53513 53517 53518 53522 53523 53533 53534
 #: 53552 53553 53556 53557
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Прощайте»."
 
 #: 53464
 msgid ""
@@ -432,20 +572,26 @@ msgid ""
 "ITS KEY: 'REGRET.'\" Many of the pillar's heads begin to weep and moan: "
 "\"Yes, regret! Regret!\""
 msgstr ""
+"«КЛЮЧ У ТЕБЯ УЖЕ ЕСТЬ, И ТЕБЕ НУЖНО ТОЛЬКО МЕСТОНАХОЖДЕНИЕ ПОРТАЛА, ВЕДУЩЕГО "
+"ТУДА. МЫ НЕ ЗНАЕМ, ГДЕ НАХОДИТСЯ ПОРТАЛ, НО МОЖЕМ СКАЗАТЬ, КАКОЙ К НЕМУ КЛЮЧ "
+"- СОЖАЛЕНИЕ». Многие головы колонны начинают рыдать и стонать: «Да, "
+"сожаление! Сожаление!»"
 
 #: 53465
 msgid "\"Regret?\""
-msgstr ""
+msgstr "«Сожаление?»"
 
 #: 53469
 msgid ""
 "\"YES... YOU MUST HAVE EXPERIENCED REGRET TO BREACH THE FORTRESS. WRITE IT "
 "UPON A PIECE OF YOUR FLESH AND YOUR PASSAGE THROUGH THE PORTAL IS ASSURED.\""
 msgstr ""
+"«ДА... ЧТОБЫ ПРОНИКНУТЬ В КРЕПОСТЬ, ТЫ ДОЛЖЕН ОЩУТИТЬ РАСКАЯНИЕ. НАПИШИ ЕГО "
+"НА КЛОЧКЕ СВОЕЙ КОЖИ, И ТВОЙ ПРОХОД В ПОРТАЛ ОБЕСПЕЧЕН»."
 
 #: 53470
 msgid "\"And the portal... you say you *don't* know where it is?\""
-msgstr ""
+msgstr "«А портал... вы говорите, что *не знаете*, где он?»"
 
 #: 53473
 msgid ""
@@ -453,10 +599,12 @@ msgid ""
 "HAVE FORGOTTEN, NOW. THE SECOND LIES BEYOND THE PORTAL, AND SHALL NOT "
 "EMERGE. THE THIRD...\""
 msgstr ""
+"«ДА... ТОЛЬКО ТРОЕ ЗНАЛИ ДОРОГУ. ПЕРВЫМ БЫЛ ТЫ... НО ТЫ УЖЕ ВСЕ ЗАБЫЛ. "
+"ВТОРОЙ НАХОДИТСЯ ЗА ПОРТАЛОМ, И НЕ ПОКАЖЕТСЯ. ТРЕТИЙ...»"
 
 #: 53474
 msgid "\"The third...?\""
-msgstr ""
+msgstr "«Третий?..»"
 
 #: 53478
 msgid ""
@@ -465,12 +613,17 @@ msgid ""
 "SHIELD IS ONE FORGED FROM THE COLD METALS OF LIES AND DECEPTION, A THING YOU "
 "CANNOT HOPE TO BREAK WITH MERE WORDS. YOU MUST DO BATTLE WITH THEM.\""
 msgstr ""
+"«...С ТРЕТЬИМ ТЫ УЖЕ ВСТРЕЧАЛСЯ. ВСЕ ОНИ ЗНАЮТ О ТВОЕМ СОСТОЯНИИ, О КРЕПОСТИ "
+"И О ТОМ, ЧТО ТЕБЕ НУЖНО ТУДА ПОПАСТЬ... НО ОНИ ТЕБЕ НЕ ПОМОГУТ. ИХ ЩИТ "
+"ВЫКОВАН ИЗ ХОЛОДНОГО МЕТАЛЛА ЛЖИ И ОБМАНА, КОТОРЫЙ ТЕБЕ БЕЗНАДЕЖНО ПЫТАТЬСЯ "
+"ПРОБИТЬ ОДНИМИ СЛОВАМИ. ТЫ ДОЛЖЕН С НИМИ СРАЗИТЬСЯ»."
 
 #: 53479
 msgid "\"Who is it?\""
-msgstr ""
+msgstr "«Кто они?»"
 
 #: 53483
+#, fuzzy
 msgid ""
 "The heads remain silent for a time, giving you naught but smug smiles. "
 "Finally, it speaks: \"YOU HAVE *MET* THE LIAR - AND NOT FOR THE FIRST TIME. "
@@ -478,40 +631,52 @@ msgid ""
 "IMMORTALS...\" Some of the decomposing heads roll their eyes and snicker at "
 "you."
 msgstr ""
+"Некоторое время головы сохраняют молчание, только самодовольно улыбаясь "
+"тебе. Наконец, они произносят: «ТЫ *ВСТРЕЧАЛСЯ* С ЛЖЕЦОМ - И УЖЕ НЕ В ПЕРВЫЙ "
+"РАЗ. ЛЖЕЦ ЗНАЕТ... НО НЕ СКАЖЕТ ТЕБЕ. *МЕЛКОЕ* ПРЕДАТЕЛЬСТВО ОДНОГО "
+"БЕССМЕРТНОГО ДРУГИМ...» Некоторые из разлагающихся голов закатывают глаза и "
+"посмеиваются над тобой."
 
 #: 53484 53493
 msgid "\"Fhjull Forked-Tongue?\""
-msgstr ""
+msgstr "«Фьюл Раздвоенный Язык?»"
 
 #: 53485 53494
 msgid "\"Lothar?\""
-msgstr ""
+msgstr "«Лотар?»"
 
 #: 53486 53495
 msgid "\"Ravel?\""
-msgstr ""
+msgstr "«Равель?»"
 
 #: 53487 53496
 msgid "\"Trias?\""
-msgstr ""
+msgstr "«Триас?»"
 
 #: 53491
+#, fuzzy
 msgid ""
 "The Pillar of Skulls told me that Trias - who it called \"Trias the Betrayer"
 "\" - would know where the portal to the Fortress of Regrets was."
 msgstr ""
+"Колонна Черепов сказала мне, что Триас, которого они назвали «Триасом-"
+"Предателем», знает, где находится портал в Крепость сожалений."
 
 #: 53492
 msgid ""
 "The heads chortle with sickly glee. \"NOT THAT ONE, TO BE SURE. GUESS "
 "AGAIN...\""
 msgstr ""
+"Головы хихикают в нездоровом ликовании. «КОНЕЧНО, НЕТ. ПОПРОБУЙ ЕЩЕ РАЗ...»"
 
 #: 53500
+#, fuzzy
 msgid ""
 "The Pillar of Skulls told me that Trias - who it called 'Trias the Betrayer' "
 "- would know where the portal to the Fortress of Regrets was."
 msgstr ""
+"Колонна Черепов сказала мне, что Триас, которого они назвали «Триасом-"
+"Предателем», знает, где находится портал в Крепость сожалений."
 
 #: 53501
 msgid ""
@@ -520,33 +685,42 @@ msgid ""
 "forth as it laughs at your distress. A few of the heads chant mockingly: "
 "\"Betrayer... Betrayer... Trias, the Betrayer...\""
 msgstr ""
+"«О, ДА... ХОТЯ НАМ ИЗВЕСТНО ЕГО *ПОЛНОЕ* ИМЯ - ТРИАС-ПРЕДАТЕЛЬ!» Колонна "
+"радостно покачивается, груда разлагающихся голов сотрясается от смеха, "
+"потешаясь над твоим горем. Несколько голов насмешливо скандируют: "
+"«Предатель... Предатель... Триас-Предатель...»"
 
 #: 53502
 msgid "\"But... he said he didn't know...\""
-msgstr ""
+msgstr "«Но... он говорил, что не знает...»"
 
 #: 53503 53509 53520
 msgid "\"Why would he lie to me?\""
-msgstr ""
+msgstr "«Зачем ему обманывать меня?»"
 
 #: 53504 53510 53515
 msgid "\"How did he come to know of this?\""
-msgstr ""
+msgstr "«Откуда он об этом узнал?»"
 
 #: 53508
+#, fuzzy
 msgid ""
 "\"HE *LIED* TO YOU.\" Some of the heads squint, gurgling and chortling "
 "softly - laughing at you. \"BEWARE WORDS SOAKED IN HONEY; THEY ATTRACT ALL "
 "MANNER OF WASPS.\""
 msgstr ""
+"«ОН *СОЛГАЛ* ТЕБЕ». Некоторые из голов украдкой смотрят на тебя, тихонько "
+"посмеиваясь. «ОСТЕРЕГАЙСЯ СЛОВ, ПРОПИТАННЫХ МЕДОМ: ОНИ ПРИВЛЕКАЮТ ОС ВСЕХ "
+"ВОЗМОЖНЫХ ВИДОВ»."
 
 #: 53514
 msgid ""
 "\"THE ANSWER IS NOT OURS TO GIVE. YOU MUST SEEK HIM OUT YOURSELF, AND ASK "
 "HIM.\""
-msgstr ""
+msgstr "«НЕ НАМ ОТВЕЧАТЬ НА ЭТОТ ВОПРОС. ТЫ ДОЛЖЕН САМ НАЙТИ ЕГО И СПРОСИТЬ»."
 
 #: 53519
+#, fuzzy
 msgid ""
 "\"TRIAS EXCHANGED WORDS WITH YOU ONCE, LONG AGO, WHEN YOU KNEW THE WAY. YOU "
 "SPOKE YOUR HEART, AND TRIAS - IN THE WAY OF ALL GREAT BETRAYERS - LISTENED "
@@ -554,27 +728,43 @@ msgid ""
 "*MEANING.* MEANING AND DEATH IS WHAT YOU SEEK... TWO SEPARATE THINGS THEY "
 "ARE FOR A NORMAL MAN. BUT FOR YOU... ONE AND THE SAME.\""
 msgstr ""
+"«КОГДА-ТО ОЧЕНЬ ДАВНО, КОГДА ТЫ ЕЩЕ ЗНАЛ ПУТЬ, ТРИАС РАЗГОВАРИВАЛ С ТОБОЙ. "
+"ТЫ ВЫСКАЗАЛ ТО, ЧТО БЫЛО У ТЕБЯ НА СЕРДЦЕ, А ТРИАС, КАК И ВСЕ ВЕЛИКИЕ "
+"ПРЕДАТЕЛИ, СЛУШАЛ ВНИМАТЕЛЬНО, ЧТОБЫ ЗАВОЕВАТЬ ТВОЕ ДОВЕРИЕ. РАЗГОВОР БЫЛ "
+"НЕДОЛГИМ, НО НАПОЛНЕННЫМ *СМЫСЛОМ*. СМЫСЛ И СМЕРТЬ - ВОТ ЧЕГО ТЫ ИЩЕШЬ... "
+"ДВЕ ОТДЕЛЬНЫЕ ВЕЩИ, КАКИМИ ОНИ ЯВЛЯЮТСЯ ДЛЯ ОБЫЧНОГО ЧЕЛОВЕКА. НО ДЛЯ ТЕБЯ "
+"ОНИ... ОДНО И ТО ЖЕ»."
 
 #: 53524
+#, fuzzy
 msgid ""
 "\"NOT *WHO* - WHAT. YOU HAVE BEEN DIVIDED. YOU ARE ONE OF MANY MEN - ONE IN "
 "MANY MEN. EACH ONE - WHETHER GOOD OR EVIL - A MONSTER, WHO CASTS A SHADOW "
 "UPON EXISTENCE.\""
 msgstr ""
+"«НЕ *КТО* - ЧТО. ТЫ БЫЛ РАЗДЕЛЕН. ТЫ - ОДИН ИЗ МНОГИХ, ОДИН ВО МНОГИХ. "
+"КАЖДЫЙ ИЗ НИХ, НЕВАЖНО, ДОБРЫЙ ОН ИЛИ ЗЛОЙ, ЯВЛЯЕТСЯ МОНСТРОМ, ОТБРАСЫВАЮЩИЙ "
+"ТЕНЬ НА МИРОЗДАНИЕ»."
 
 #: 53525 53526
 msgid "\"A... shadow upon existence?\""
-msgstr ""
+msgstr "«Э... тень на мироздание?»"
 
 #: 53527
+#, fuzzy
 msgid ""
 "The Pillar of Skulls told me that I cast 'shadows on existence' - that each "
 "time I die, another dies in my stead. Those who die in such a manner then "
 "become creatures of shadow, and apparently gather and wait for me at the "
 "Fortress of Regrets."
 msgstr ""
+"Колонна Черепов сказала, что я отбрасываю 'тень на мироздание': каждый раз, "
+"когда я умираю, вместо меня умирает кто-нибудь другой. Умершие таким образом "
+"становятся созданиями теней, и, по всей видимости, собираются и ждут меня в "
+"Крепости сожалений."
 
 #: 53528
+#, fuzzy
 msgid ""
 "\"OH, YES.\" The pillar's heads narrow their eyes and smile grotesquely. "
 "\"EACH TIME YOU DIE, 'IMMORTAL,' YOU CAST A SHADOW... EACH TIME YOU DIE, "
@@ -586,10 +776,19 @@ msgid ""
 "turn to see Vhailor staring at you, his eyes burning brighter than you've "
 "ever seen them..."
 msgstr ""
+"«О, ДА, - головы колонны прищуриваются и гротескно ухмыляются. - КАЖДЫЙ РАЗ, "
+"КОГДА ТЫ, 'БЕССМЕРТНЫЙ', УМИРАЕШЬ, ТЫ ОТБРАСЫВАЕШЬ ТЕНЬ... КАЖДЫЙ РАЗ, КОГДА "
+"ТЫ УМИРАЕШЬ, ВМЕСТО ТЕБЯ УМИРАЕТ КТО-ТО *ДРУГОЙ*. ЭТИ ТЕНИ... ОНИ СОБИРАЮТСЯ "
+"В КРЕПОСТИ СОЖАЛЕНИЙ И С НЕТЕРПЕНИЕМ ЖДУТ ТЕБЯ ТАМ. СКОЛЬКО РАЗ ТЫ *УМИРАЛ*, "
+"БЕЗЫМЯННЫЙ? СКОЛЬКО СОТЕН... ТЫСЯЧ... УМЕРЛО ИЗ-ЗА *ТЕБЯ*?» Колонна "
+"содрогается в злобном ликовании; головы строят гримасы и насмешливо хихикают "
+"над тобой. Внезапно волосы на твоей шее встают дыбом... ты поворачиваешься и "
+"видишь Вейлора, пристально смотрящего на тебя. Его глаза горят ярче, чем "
+"когда-либо..."
 
 #: 53529
 msgid "\"Vhailor...?\""
-msgstr ""
+msgstr "«Вейлор?..»"
 
 #: 53530
 msgid ""
@@ -601,24 +800,33 @@ msgid ""
 "\" The pillar trembles with wicked glee; its heads pull faces and gurgle "
 "mockingly at you."
 msgstr ""
+"«О, ДА, - головы колонны прищуриваются и гротескно улыбаются. - КАЖДЫЙ РАЗ, "
+"КОГДА ТЫ, 'БЕССМЕРТНЫЙ', УМИРАЕШЬ, ТЫ ОТБРАСЫВАЕШЬ ТЕНЬ... КАЖДЫЙ РАЗ, КОГДА "
+"ТЫ УМИРАЕШЬ, ВМЕСТО ТЕБЯ УМИРАЕТ КТО-ТО *ДРУГОЙ*. ЭТИ ТЕНИ... ОНИ СОБИРАЮТСЯ "
+"В КРЕПОСТИ СОЖАЛЕНИЙ И С НЕТЕРПЕНИЕМ ЖДУТ ТЕБЯ ТАМ. СКОЛЬКО РАЗ ТЫ *УМИРАЛ*, "
+"БЕЗЫМЯННЫЙ? СКОЛЬКО СОТЕН... ТЫСЯЧ... УМЕРЛО ИЗ-ЗА *ТЕБЯ*?» Колонна "
+"сотрясается в злобном ликовании; головы строят гримасы и насмешливо хихикают "
+"над тобой."
 
 #: 53531
 msgid "\"Is that all you have to say, Pillar?\""
-msgstr ""
+msgstr "«Это все, что ты можешь сказать, Колонна?»"
 
 #: 53535
 msgid ""
 "The heads abruptly cease their laughter. \"NO. YOU BEAR MANY NAMES; EACH HAS "
 "LEFT THEIR SCARS ON YOUR FLESH:\""
 msgstr ""
+"Головы резко прерывают свой смех. «НЕТ. ТЫ НОСИШЬ МНОЖЕСТВО ИМЕН. КАЖДОЕ ИЗ "
+"НИХ ОСТАВИЛО НА ТЕБЕ ШРАМ:»"
 
 #: 53536 53546
 msgid "\"Go on...\""
-msgstr ""
+msgstr "«Продолжайте...»"
 
 #: 53537 53542 53547
 msgid "\"Wait... I had another question...\""
-msgstr ""
+msgstr "«Погодите... У меня есть другой вопрос...»"
 
 #: 53540
 msgid ""
@@ -627,10 +835,13 @@ msgid ""
 "WHOM LIFE HOLDS PRISONER... THE BRINGER OF SHADOWS... THE WOUNDED ONE... "
 "MISERY-BRINGER... YEMETH...\""
 msgstr ""
+"«ПОТЕРЯННЫЙ... БЕССМЕРТНЫЙ... КОНЕЦ ВОПЛОЩЕНИЙ... ЧЕЛОВЕК ТЫСЯЧИ СМЕРТЕЙ... "
+"ОБРЕЧЕННЫЙ ЖИТЬ... НЕУГОМОННЫЙ... ОДИН ИЗ МНОГИХ... ПЛЕННИК ЖИЗНИ... "
+"ПРИНОСЯЩИЙ ТЕНИ... УВЕЧНЫЙ... ПРИНОСЯЩИЙ БЕДЫ... ЙЕМЕТ...»"
 
 #: 53541
 msgid "Keep listening."
-msgstr ""
+msgstr "Продолжать слушать."
 
 #: 53545
 msgid ""
@@ -639,6 +850,10 @@ msgid ""
 "YOUR LIFE SHALL BE YOURS ONCE MORE. THERE WILL BE A PRICE. THIS PRICE WILL "
 "BUY YOU A CHANCE. WITHOUT THE CHANCE, YOU ARE DOOMED...\""
 msgstr ""
+"«ТЫ СЛОВНО ТРЕСНУТОЕ ПОСЕРЕБРЕННОЕ СТЕКЛО... РАЗБИТОЕ, РАЗЛЕТЕВШЕЕСЯ "
+"ОСКОЛКАМИ ПО ИСТОРИИ. ВАЖЕН ЛИШЬ ОДИН ОСКОЛОК. ВЕРНИ ЕГО, И ТВОЯ ЖИЗНЬ СНОВА "
+"СТАНЕТ ТВОЕЙ. НО ЭТОМУ ЕСТЬ ЦЕНА. ЗАПЛАТИВ ЕЕ, ТЫ КУПИШЬ СЕБЕ ШАНС. БЕЗ НЕГО "
+"ТЫ ОБРЕЧЕН...»"
 
 #: 53550
 msgid ""
@@ -646,8 +861,12 @@ msgid ""
 "MORTALITY HAS BEEN STRIPPED FROM YOU... LOST. IT EXISTS, BUT YOU MUST FIND "
 "IT BEFORE YOUR MIND IS LOST TO YOU AS WELL.\""
 msgstr ""
+"«ТЫ ПОТЕРЯЛ ТО, ЧТО НИКОГДА НЕ СЛЕДОВАЛО ОТДЕЛЯТЬ ОТ ЧЕЛОВЕКА. У ТЕБЯ "
+"ОТОБРАЛИ ТВОЮ СМЕРТНОСТЬ... ОНА ПРОПАЛА. ОНА ВСЕ ЕЩЕ СУЩЕСТВУЕТ, НО ТЫ "
+"ДОЛЖЕН НАЙТИ ЕЕ, ПРЕЖДЕ ЧЕМ ПОТЕРЯЕШЬ РАЗУМ»."
 
 #: 53554
+#, fuzzy
 msgid ""
 "\"LEAVE THIS PLACE, AND STRIKE OUT DIRECTLY WESTWARDS ALONG THE BOULDERS "
 "THAT LINE THE BLASTED VALE. YOU SHALL EVENTUALLY REACH THE VALE'S FAR EDGE; "
@@ -656,6 +875,12 @@ msgid ""
 "AROUND THE PORTAL. PLACE A SHARD OF IT IN YOUR MOUTH AND BITE DOWN SO THAT "
 "IT CUTS YOUR TONGUE; THIS SHALL MAKE YOUR KEY.\""
 msgstr ""
+"«ПОКИНЬ ЭТО МЕСТО И НАПРАВЬСЯ ПРЯМО НА ЗАПАД, ВДОЛЬ ВАЛУНОВ, ОКРУЖАЮЩИХ "
+"ПРОКЛЯТУЮ ДОЛИНУ. В КОНЦЕ КОНЦОВ, ТЫ ДОСТИГНЕШЬ ДАЛЬНЕГО КОНЦА ДОЛИНЫ; ТАМ "
+"НАЙДИ ПРОСТРАНСТВО МЕЖДУ КАМНЯМИ, ОБРАЗУЮЩЕЕ ПОРТАЛ. ЕГО КЛЮЧ - ОБСИДИАН, "
+"НЕДАВНО ОБОЖЖЕННЫЙ ПЛАМЕНЕМ АВЕРНУСА: ЕГО ПРЕДОСТАТОЧНО ВОКРУГ ПОРТАЛА. "
+"ПОЛОЖИ ОСКОЛОК В РОТ И УКУСИ ЕГО ТАК, ЧТОБЫ ОН ПОРЕЗАЛ ТЕБЕ ЯЗЫК - ЭТО И "
+"БУДЕТ КЛЮЧ»."
 
 #: 53558
 msgid ""
@@ -665,14 +890,18 @@ msgid ""
 "CONTAINED SUCH KNOWLEDGE HAVE BEEN DESTROYED - REMOVED FROM US. WE CANNOT "
 "ANSWER YOU THIS QUESTION.\""
 msgstr ""
+"Колонна остается странно безмолвной. Некоторые из ее голов попросту смотрят "
+"в сторону, другие вздрагивают с выражением боли. Внезапно они собираются и "
+"отвечают: «МЫ... НЕ ЗНАЕМ. ГОЛОВЫ, В КОТОРЫХ СОДЕРЖАЛОСЬ ЭТО ЗНАНИЕ, БЫЛИ "
+"УНИЧТОЖЕНЫ, ЗАБРАНЫ У НАС. МЫ НЕ МОЖЕМ ОТВЕТИТЬ НА ТВОЙ ВОПРОС»."
 
 #: 53559
 msgid "\"In that case, I had another question...\""
-msgstr ""
+msgstr "«В таком случае, у меня есть другой вопрос...»"
 
 #: 53560 53561
 msgid "\"Farewell, then.\""
-msgstr ""
+msgstr "«Тогда прощайте». "
 
 #: 53562
 msgid ""
@@ -683,14 +912,20 @@ msgid ""
 "back... it doesn't hurt, Skull... 'tis great fun to be without a body, "
 "living in a pillar of rot with one thousand other, lying heads...\""
 msgstr ""
+"Колонна прерывает твой уход неожиданным требованием: «ПОСТОЙ. ОТДАЙ НАМ "
+"ЧЕРЕП. МЫ *НЕ ПОЗВОЛИМ* ЕМУ УЙТИ. ОН *НАШ*. ОН *НЕ ПОКИНЕТ* АВЕРНУС». Головы "
+"начинают подтрунивать над Мортом: «Да, череп, не стесняйся... возвращайся, "
+"череп... здесь так удобно... давай, возвращайся... это не больно, череп... "
+"это же так весело: быть без тела, жить в гниющей колонне с тысячью других "
+"лжецов...»"
 
 #: 53563
 msgid "Grab Morte, thrust him into the Pillar of Skulls."
-msgstr ""
+msgstr "Схватить Морта и швырнут его в Колонну Черепов."
 
 #: 53564
 msgid "\"Forget it, Pillar. Farewell.\""
-msgstr ""
+msgstr "«Забудьте об этом. Прощайте»."
 
 #: 53566
 msgid ""
@@ -698,10 +933,12 @@ msgid ""
 "The very ground beneath you shakes as the thundering cacophony threatens to "
 "deafen you..."
 msgstr ""
+"Взбешенные головы колонны начинают выть и вопить на все планы. Сама земля "
+"под тобой сотрясается, а громоподобная какофония грозится оглушить тебя..."
 
 #: 53567
 msgid "Leave... quickly."
-msgstr ""
+msgstr "Уйти... и побыстрее."
 
 #: 53568
 msgid ""
@@ -713,18 +950,28 @@ msgid ""
 "swear I'll never lie ag-!\" ...and just as quickly as he arose, he is pulled "
 "back beneath the pillar's surface."
 msgstr ""
+"Головы колонны хихикают и бормочут с нечестивым ликованием, пока кричащий "
+"Морт погружается внутрь той штуки, несомненно, испытывая бесконечные "
+"страдания от «рук» других отрубленных голов. Когда суматоха подходит к "
+"концу, головы начинают перешептываться друг с другом. Вдруг Морт вырывается "
+"на поверхность, вопя: «А-а-ай! Вытащи меня! Пожалуйста! Пожалуйста! Клянусь, "
+"никогда больше не буду вр...» И так же быстро, как и появился, он исчезает, "
+"затянутый под поверхность колонны."
 
 #: 53573
 msgid "\"Farewell, Pillar.\""
-msgstr ""
+msgstr "«Прощай, Колонна»."
 
 #: 53574
 msgid ""
 "I thrust Morte back into the Pillar of Skulls... needless to say, he wasn't "
 "pleased."
 msgstr ""
+"Я швырнул Морта в Колонну Черепов... понятное дело, он не был в восторге от "
+"этого."
 
 #: 53575 53580
+#, fuzzy
 msgid ""
 "Once more you stand before the Pillar of Skulls. The innumerable rotting "
 "heads which make up the vast pile seems to constantly shift and throb, "
@@ -732,8 +979,14 @@ msgid ""
 "another. Heads constantly bubble to the surface of the stack from somewhere "
 "within its foul core, while others sink back into the grisly pillar."
 msgstr ""
+"И вновь ты стоишь перед Колонной Черепов. Бесчисленные разлагающиеся головы, "
+"образующие громадную гору, без конца снуют, пульсируют и попеременно спорят, "
+"рыдают, болтают, перекрикиваются и перешептываются друг с другом. Одни "
+"головы постоянно всплывают на поверхность откуда-то из ее грязного нутра, "
+"другие - погружаются вглубь ужасающей колонны."
 
 #: 53583
+#, fuzzy
 msgid ""
 "You take another cautious step towards the pillar, and all their "
 "conversation abruptly *stops.* The dozens of heads that lines the pillar's "
@@ -741,18 +994,23 @@ msgid ""
 "with a horrid scream, Morte bursts howling to the surface: \"Gaaaah! Chief! "
 "Get me out! Please! Please!\""
 msgstr ""
+"Ты делаешь еще один осторожный шаг к колонне, и внезапно все разговоры "
+"*смолкают*. Десятки голов, образующих поверхность колонны, медленно и в "
+"унисон поворачиваются к тебе. Они молча глядят на тебя. С ужасным криком на "
+"поверхность вырывается Морт: «А-а-а! Шеф! Вытащи меня! Пожалуйста! "
+"Пожалуйста!»"
 
 #: 53584
 msgid "Ignore Morte, wait for him to sink again."
-msgstr ""
+msgstr "Не обращать внимание на Морта, подождать, пока он снова утонет."
 
 #: 53585
 msgid "Try and pull Morte out."
-msgstr ""
+msgstr "Попробовать вытащить Морта."
 
 #: 53586
 msgid "Turn away and leave."
-msgstr ""
+msgstr "Отвернуться и уйти."
 
 #: 53587
 msgid ""
@@ -761,6 +1019,10 @@ msgid ""
 "out, please, I swear I'll never lie ag-!\" ...and just as quickly as he "
 "arose, he is pulled back beneath the pillar's surface."
 msgstr ""
+"Морт, рыдая сквозь кровь и зловонную слизь, покрывающую его, молит об "
+"освобождении: «Шеф, прошу, умоляю тебя! Ты должен меня отсюда вытащить, "
+"пожалуйста, клянусь, никогда больше не буду вр...» И так же быстро, как и "
+"появился, он исчезает, затянутый под поверхность колонны."
 
 #: 53594
 msgid ""
@@ -769,24 +1031,32 @@ msgid ""
 "HIM AGAIN!\" The heads begin to lash out at you, biting at your hands and "
 "wrists with cruel, jagged teeth..."
 msgstr ""
+"Твои руки выстреливают и хватают Морта, прежде чем его затянет вглубь "
+"колонны. Головы в ярости вопят: «НЕТ! НЕТ! ПРЕКРАТИ! ТЫ НЕ ПОЛУЧИШЬ ЕГО "
+"НАЗАД!» Головы набрасываются на тебя, кусая твои ладони и запястья "
+"беспощадными зазубренными зубами..."
 
 #: 53595 53598 53599
 msgid "Keep fighting, tear Morte free of the pillar."
-msgstr ""
+msgstr "Продолжить борьбу, вырвать Морта из колонны."
 
 #: 53596
 msgid "Use your mastery of the Art to channel raw power into freeing Morte. "
 msgstr ""
+"Использовать свои познания в Искусстве, чтобы направить чистую энергию на "
+"освобождение Морта."
 
 #: 53597
 msgid ""
 "Pull back as if you would relent, feint in one direction, and then wrench "
 "Morte free before the Pillar knows what's hit it."
 msgstr ""
+"Отойти, как будто ты сдался, сделать ложный выпад, а затем выдернуть Морта, "
+"пока колонна не поняла, что к чему."
 
 #: 53600
 msgid "Give up, let Morte sink."
-msgstr ""
+msgstr "Сдаться, позволить Морту утонуть."
 
 #: 53601
 msgid ""
@@ -797,10 +1067,16 @@ msgid ""
 "however, leaves you drained, exhausted... somehow, you know you're now "
 "weaker than before."
 msgstr ""
+"Колонна Черепов затевает нешуточную битву, и все же ты показываешь себя "
+"умелым воином, слишком могучим, чтобы одержать над тобой верх. Отбиваясь от "
+"атак голов, ты бьешь и пинаешь их, бодаешь их головой, даже кусаешь их, до "
+"тех пор пока тебе не удается освободить Морта, вырвав его со звуком "
+"разрываемой плоти. Тем не менее, битва оставила тебя изнуренным и "
+"истощенным... каким-то образом ты чувствуешь, что ослаб."
 
 #: 53602 53604 53606
 msgid "\"See, Morte? Nothing... to worry... about...\""
-msgstr ""
+msgstr "«Видишь, Морт? Не о чем... было... беспокоиться...»"
 
 #: 53603
 msgid ""
@@ -810,6 +1086,11 @@ msgid ""
 "free. The battle, however, leaves you drained, exhausted... somehow, you "
 "know you're now weaker than before."
 msgstr ""
+"Колонна Черепов затевает нешуточную битву, и все же твои магические "
+"способности слишком высоки, чтобы одержать над тобой верх. Ты направляешь "
+"сквозь свои руки и колонну чистую несфокусированную ману, колотя ее до тех "
+"пор, пока тебе не удается освободить Морта. Тем не менее, битва оставила "
+"тебя изнуренным и истощенным... каким-то образом ты чувствуешь, что ослаб."
 
 #: 53605
 msgid ""
@@ -821,6 +1102,13 @@ msgid ""
 "bite, however, leaves you drained, exhausted... somehow, you know you're now "
 "weaker than before."
 msgstr ""
+"Видя, что колонна собирается развязать нешуточную битву, ты притворяешься, "
+"что отступил. Как только Морт начинает тонут, а колонна - говорить, ты "
+"делаешь прыжок вперед и хватаешь Морта. Прежде чем ты успеваешь вынуть "
+"Морта, одной голове удается сильно укусить тебя за предплечье... ты сбиваешь "
+"ее, ударив большим пальцем в глаз, и, наконец, вытягиваешь своего старого "
+"товарища. Тем не менее, жуткий укус головы оставил тебя изнуренным и "
+"истощенным... каким-то образом ты чувствуешь, что ослаб."
 
 #: 53607
 msgid ""
@@ -830,10 +1118,15 @@ msgid ""
 "pillar's heads tore away chunks of flesh with every bite. Even now they leer "
 "and laugh at you, licking your blood off their rotten lips."
 msgstr ""
+"Колонна Черепов, не желая уступать тебе Морта, затевает нешуточную битву. В "
+"результате, ты сдаешься. Пока Морт, крича, погружается вглубь, ты "
+"отступаешь, с руками, покрытыми кровоточащими ранами в местах, где головы "
+"колонны оторвали куски плоти. Даже теперь они косятся на тебя и смеются, "
+"слизывая твою кровь со своих сгнивших губ."
 
 #: 53613
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 53614
 msgid ""
@@ -844,10 +1137,15 @@ msgid ""
 "collapse and begin to die, they leer and laugh at you, licking your blood "
 "off their rotten lips..."
 msgstr ""
+"Колонна Черепов, не желая уступать тебе Морта, затевает нешуточную битву. В "
+"результате, ты сдаешься. Пока Морт, крича, погружается в ее поверхность, ты "
+"отступаешь, с руками, покрытыми кровоточащими ранами в местах, где головы "
+"колонны оторвали куски плоти. Даже когда ты падаешь и умираешь, они косятся "
+"на тебя и смеются, слизывая твою кровь со своих сгнивших губ..."
 
 #: 53615
 msgid "Die."
-msgstr ""
+msgstr "Умереть."
 
 #: 53616
 msgid ""
@@ -856,11 +1154,21 @@ msgid ""
 "REVEL IN YOUR VICTORY, 'IMMORTAL.' WE SHALL HAVE HIM AGAIN, ONE WAY OR "
 "ANOTHER.\""
 msgstr ""
+"Головы колонны скрежещут зубами и плюются в тебя желчью, неистово вопя: «ОН "
+"НАШ! НАШ! НАШ!» Внезапно они обрывают себя. «ХОРОШО. НАСЛАЖДАЙСЯ СВОЕЙ "
+"ПОБЕДОЙ, 'БЕССМЕРТНЫЙ'. МЫ ВСЕ РАВНО ЕГО ПОЛУЧИМ, ТАК ИЛИ ИНАЧЕ»."
 
 #: 53617 53618 53619 53620 53621
 msgid "\"Right. I had some questions, Pillar...\""
-msgstr ""
+msgstr "«Хорошо. Колонна, у меня есть несколько вопросов...»"
 
 #: 53622
 msgid "\"Sure, sure. Farewell.\""
-msgstr ""
+msgstr "«Конечно, конечно. Прощайте»."
+
+#~ msgid ""
+#~ "The Pillar of Skulls told me that Trias -- who it called 'Trias the "
+#~ "Betrayer' -- would know where the portal to the Fortress of Regrets was"
+#~ msgstr ""
+#~ "Колонна Черепов сказала мне, что Триас, которого они назвали «Триасом-"
+#~ "Предателем», знает, где находится портал в Крепость сожалений."

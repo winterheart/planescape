@@ -1,44 +1,50 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dcstcrog.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-06-15 00:59+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: 10037
 msgid ""
 "You see a roguish-looking man. As you watch him, you begin to think he could "
 "be keeping an eye on a nearby building."
 msgstr ""
+"Перед тобой мужчина жуликоватого вида. Наблюдая за ним, ты приходишь к "
+"выводу, что он присматривается к дому неподалеку."
 
 #: 10038
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 10039
 msgid "Leave him be."
-msgstr ""
+msgstr "Оставить его в покое."
 
 #: 10040
 msgid ""
 "He seems friendly enough as he returns your greeting. \"Good day to you as "
 "well.\" He turns and starts to walk away from you."
 msgstr ""
+"Он кажется довольно дружелюбным, отвечая на твое приветствие. «И тебе "
+"доброго дня». Он разворачивается и начинает удаляться."
 
 #: 10041
 msgid "\"Just a moment, please. I wanted to ask you a question.\""
-msgstr ""
+msgstr "«Погоди минутку. Я хотел задать тебе вопрос»."
 
 #: 10042
 msgid "Let him leave."
-msgstr ""
+msgstr "Пусть уходит."
 
 #: 10043
 msgid ""
@@ -46,18 +52,22 @@ msgid ""
 "you?\" You notice his arms hang a bit unnaturally at his side. To your "
 "practiced eye, it looks like he's ready to draw a concealed weapon."
 msgstr ""
+"Он останавливается и поворачивается к тебе с приветливой улыбкой. «Конечно, "
+"чем могу помочь?» Ты замечаешь, что его руки сложены по бокам в немного "
+"неестественном положении. Наметанным взглядом ты определяешь, что он вроде "
+"как готов выхватить спрятанное оружие."
 
 #: 10044
 msgid "\"Were you just watching that building there?\""
-msgstr ""
+msgstr "«Ты только что разглядывал то здание?»"
 
 #: 10045
 msgid "\"I'm looking for a deva. I've been told he's in Curst.\""
-msgstr ""
+msgstr "«Я ищу одного дэва. Мне сказали, что он в Проклятом»."
 
 #: 10046
 msgid "\"Never mind.\""
-msgstr ""
+msgstr "«Неважно»."
 
 #: 10047
 msgid ""
@@ -65,24 +75,29 @@ msgid ""
 "Why? Is there something of interest going on there?\" He turns and begins to "
 "examine the building you indicated."
 msgstr ""
+"Он глядит на тебя с некоторым удивлением. «Ну, вообще-то нет. А что? Там "
+"есть что-нибудь интересное?» Он поворачивается и начинает осматривать "
+"указанное тобой здание."
 
 #: 10048
 msgid "\"Come on. I'm no fool. You're casing the joint!\""
-msgstr ""
+msgstr "«Брось, я ведь не дурак. Ты разведываешь место перед ограблением!»"
 
 #: 10049
 msgid "\"Oh really.\""
-msgstr ""
+msgstr "«Да ну?»"
 
 #: 10050
 msgid ""
 "\"Never mind, my mistake. I do have a question for you though. I'm looking "
 "for a deva that may be in town.\""
 msgstr ""
+"«Неважно, я ошибся. Тем не менее, у меня к тебе вопрос. Я разыскиваю дэва, "
+"который может быть в городе»."
 
 #: 10051
 msgid "\"Sorry, my mistake. I've got to go.\""
-msgstr ""
+msgstr "«Извини, я ошибся. Мне пора»."
 
 #: 10052
 msgid ""
@@ -91,25 +106,33 @@ msgid ""
 "the glint of coins in his sleeve. \"I assure you that you are mistaken, "
 "friend. I'm just enjoying a walk on this fine day.\""
 msgstr ""
+"Он смотрит на тебя и, похоже, оценивая, чего ты стоишь. Затем он делает "
+"ловкое движение руками и глядит на тебя невинным взглядом. Взглянув вниз, ты "
+"замечаешь блеск монет в его рукаве. «Уверяю тебя, приятель, ты ошибся. Я "
+"всего лишь наслаждаюсь прогулкой в этот чудный день»."
 
 #: 10053
 msgid "\"Yes, I'm sure you're right. My apologies... friend.\""
-msgstr ""
+msgstr "«Да, уверен, что так оно и есть. Извини... приятель»."
 
 #: 10054
 msgid "\"No, I'm almost positive that's what you were doing.\""
-msgstr ""
+msgstr "«Нет, я почти уверен, что ты делал кое-то другое»."
 
 #: 10055
+#, fuzzy
 msgid ""
 "He steps forward and give you a friendly pat on the back. As he does, you "
 "feel the weight of your purse increase. \"Then I bid you farewell, friend. "
 "Until next we meet.\""
 msgstr ""
+"Он делает шаг вперед и по-дружески хлопает тебя по спине. При этом ты "
+"ощущаешь, как твой кошелек тяжелеет. «Тогда до свиданья, приятель. До новых "
+"встреч»."
 
 #: 10056 10061
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 10057
 msgid ""
@@ -117,31 +140,43 @@ msgid ""
 "otherwise. Know, however, that I shall go no further in my efforts to sway "
 "you.\" Another deft move and you see the glint of coin in both his sleeves."
 msgstr ""
+"Он мрачно смотрит на тебя. «Тогда мне придется... удвоить усилия, убеждая "
+"тебя в обратном. Однако имей в виду, что я больше не буду стараться "
+"переубедить тебя». Еще одно ловкое движение - и ты видишь блеск монет в "
+"обоих его рукавах."
 
 #: 10058
 msgid "\"Why, yes. I'm sure that you were just enjoying a walk as you said.\""
 msgstr ""
+"«Пожалуй, да. Я уверен, что ты просто наслаждался прогулкой, как ты и "
+"сказал»."
 
 #: 10059
 msgid "\"No, I know what I saw.\""
-msgstr ""
+msgstr "«Нет, я знаю, что видел»."
 
 #: 10060
+#, fuzzy
 msgid ""
 "He steps forward and gives you a friendly pat on the back. As he does, you "
 "feel the weight of your purse increase. \"Then I bid you farewell, friend. "
 "Until next we meet.\""
 msgstr ""
+"Он делает шаг вперед и по-дружески хлопает тебя по спине. При этом ты "
+"ощущаешь, как твой кошелек тяжелеет. «Тогда до свиданья, приятель. До новых "
+"встреч»."
 
 #: 10062
 msgid ""
 "He frowns at you and makes a gesture with both arms. The glint of gold is "
 "replaced by the glint of steel. \"I'm sorry we couldn't come to terms.\""
 msgstr ""
+"Он неодобрительно смотрит на тебя и делает движение руками. Блеск золота "
+"становится блеском стали. «Мне жаль, что мы так и не договорились»."
 
 #: 10063 10077
 msgid "\"Not as sorry as you'll be.\""
-msgstr ""
+msgstr "«Вот сейчас ты действительно пожалеешь»."
 
 #: 10064
 msgid ""
@@ -150,24 +185,30 @@ msgid ""
 "were the case you should inquire at the Traitor's Gate Inn. I understand "
 "they broker information such as you seek.\""
 msgstr ""
+"Он с удивлением смотрит на тебя. «Правда?.. Я нахожу это довольно "
+"замечательным фактом. Это место не из тех, в которых можно встретить дэва. "
+"Но если это так, тебе следует осведомиться в таверне 'Ворота предателей'. "
+"Насколько я понимаю, там торгуют подобными сведениями»."
 
 #: 10065
 msgid "\"Thanks, I'll do that.\""
-msgstr ""
+msgstr "«Спасибо, так и сделаю»."
 
 #: 10066
 msgid "\"Where can I find this place?\""
-msgstr ""
+msgstr "«Где можно найти это место?»"
 
 #: 10067
 msgid ""
 "\"Sorry friend, I haven't been there myself so I don't rightly know. But "
 "you're in the right area. Just look around.\""
 msgstr ""
+"«Извини, приятель, я там не бывал, так что точно не скажу. Однако ты в "
+"нужном районе. Просто осмотрись вокруг»."
 
 #: 10068
 msgid "\"My thanks and farewell.\""
-msgstr ""
+msgstr "«Спасибо и прощай»."
 
 #: 10069
 msgid ""
@@ -175,10 +216,13 @@ msgid ""
 "my old friend. Come to pay me a visit again? I appreciate the courtesy but I "
 "am trying to work here, you know.\""
 msgstr ""
+"Жулик выглядит слегка встревоженным, встретив тебя снова. «О, не мой ли это "
+"старый приятель? Пришел навестить меня снова? Ценю твою учтивость, но, "
+"знаешь ли, я тут пытаюсь работать»."
 
 #: 10070
 msgid "\"I'm here for money, not conversation.\""
-msgstr ""
+msgstr "«Я здесь за деньгами, а не болтовней»."
 
 #: 10071
 msgid ""
@@ -186,23 +230,26 @@ msgid ""
 "found me out and, as one professional to another, I paid you to let me be. "
 "Let's leave it at that and stay friends.\""
 msgstr ""
+"Он мрачно смотрит на тебя; его тон становится крайне серьезным. «Послушай, "
+"дружище. Ты меня поймал и, как профессионал профессионалу, я заплатил тебе, "
+"чтобы ты меня оставил. Давай закончим на этом и останемся друзьями»."
 
 #: 10072
 msgid "\"I'm looking for a deva. I've heard there's one here in Curst.\""
-msgstr ""
+msgstr "«Я разыскиваю дэва. Я слышал, что он где-то в Проклятом»."
 
 #: 10073
 msgid "\"Sorry to bother you, just thought I'd say hello.\""
-msgstr ""
+msgstr "«Извини за беспокойство, просто хотел подойти-поздороваться»."
 
 #: 10074
 msgid "\"All right. I'll be leaving then.\""
-msgstr ""
+msgstr "«Ладно. Тогда мне пора»."
 
 #: 10075
 msgid "\"I don't think so. Hand over some gold or I take you down.\""
-msgstr ""
+msgstr "«Я так не думаю. Подкинь-ка золотишка, или я тебя уложу»."
 
 #: 10076
 msgid "\"I'm sorry we couldn't come to terms.\""
-msgstr ""
+msgstr "«Мне жаль, что мы так и не договорились»."

@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dzf916.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-03-23 22:22+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: 24719
 msgid ""
@@ -18,37 +20,44 @@ msgid ""
 "carved into her forehead, and her lips have been stitched closed. The faint "
 "smell of formaldehyde emanates from her body."
 msgstr ""
+"Труп женщины смотрит на тебя пустым взглядом. На ее лбу вырезан номер «916»; "
+"ее губы крепко зашиты. От тела исходит легкий запах формальдегида."
 
 #: 24720 24737
 msgid "\"So... doing anything later?\""
-msgstr ""
+msgstr "«Итак... чем занимаешься вечером?»"
 
 #: 24721
 msgid "The corpse continues to stare at you."
-msgstr ""
+msgstr "Труп продолжает пялиться на тебя."
 
 #: 24722 24735 24736 24741 24742 24743
 msgid "\"Farewell then.\""
-msgstr ""
+msgstr "«Тогда прощай». "
 
 #: 24738
 msgid "\"I know you're not a zombie, you know. You're not fooling anyone.\""
-msgstr ""
+msgstr "«Знаешь, мне известно, что ты не зомби. Тебе никого не одурачить»."
 
 #: 24739
 msgid "Use your Stories-Bones-Tell ability on the corpse."
-msgstr ""
+msgstr "Использовать на трупе свою способность «История костей»."
 
 #: 24740 24750
 msgid ""
 "This corpse makes no reply. It looks like it is too far gone to answer any "
 "of your questions."
 msgstr ""
+"Труп не реагирует. Кажется, он слишком далек от того, чтобы отвечать на твои "
+"вопросы."
 
 #: 24744 24746 24748
 msgid "\"It was great talking to you. Farewell.\""
-msgstr ""
+msgstr "«Было приятно с тобой поболтать. Прощай»."
 
 #: 24745 24747 24749
 msgid "Leave the corpse in peace."
-msgstr ""
+msgstr "Оставить труп в покое."
+
+#~ msgid "It was great talking to you. Farewell."
+#~ msgstr "«Было приятно с тобой поболтать. Прощай»."

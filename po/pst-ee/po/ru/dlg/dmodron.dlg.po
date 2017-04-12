@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dmodron.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2012-04-25 23:01+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.4\n"
 
 #: 2980 44768 44822
 msgid ""
@@ -18,72 +20,79 @@ msgid ""
 "its sides. On the front of the cube is an animated face. As you approach, "
 "the creature focuses its eyes upon you."
 msgstr ""
+"Перед тобой куб с парой рук, ног и парой небольших крылышек по бокам. "
+"Спереди у куба есть лицо, которое при твоем приближении фокусирует на тебе "
+"взгляд."
 
 #: 2981 44769 44823
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 44710 44770 44824
 msgid "Ignore the creature."
-msgstr ""
+msgstr "Не обращать внимания на существо."
 
 #: 44711 44771
 msgid "\"Greetings.\" The creature speaks with a monotone, sexless voice."
-msgstr ""
+msgstr "«Приветствуем». У существа монотонный, бесполый голос."
 
 #: 44712 44722 44726 44730 44734 44739 44743 44747 44751 44755 44758 44762
 #: 44766 44772 44783 44787 44790 44794 44797 44802 44806 44810 44813 44817
 #: 44820 44826
 msgid "\"I have some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 44713 44719 44773 44780 44827 44830 44832
 msgid "\"Never mind, I must be going. Farewell.\""
-msgstr ""
+msgstr "«Неважно, я должен идти. Прощай»."
 
 #: 44714 44774
 msgid "The creature continues to look at you blankly. \"State your question.\""
-msgstr ""
+msgstr "Существо смотрит на тебя пустым взглядом. «Сформулируй свой вопрос»."
 
 #: 44715 44775
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 44716 44776
 msgid "\"What are you?\""
-msgstr ""
+msgstr "«Что ты такое?»"
 
 #: 44717 44777 44778
 msgid "\"What is this place?\""
-msgstr ""
+msgstr "«Что это за место?»"
 
 #: 44718 44779
 msgid "\"What are you doing here?\""
-msgstr ""
+msgstr "«Что ты здесь делаешь?»"
 
 #: 44720
 msgid "\"We are modron.\""
-msgstr ""
+msgstr "«Мы - модрон»."
 
 #: 44721
 msgid "\"Your name is Modron?\""
-msgstr ""
+msgstr "«Тебя зовут Модрон?»"
 
 #: 44723 44727 44731 44735 44740 44744 44748 44752 44756 44759 44763 44767
 msgid "\"I must be going now. Farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай»."
 
 #: 44724
 msgid ""
 "\"We are modron. We do not have a name. We are modron. All that you see here "
 "are modron. We are one.\""
 msgstr ""
+"«Мы - модрон. У нас нет имен. Мы - модрон. Все, что ты видишь здесь, - "
+"модрон. Мы - одно целое»."
 
 #: 44725
 msgid ""
 "\"All right. You are all modrons, but what is *this* modron's name? The one "
 "I am talking to.\""
 msgstr ""
+"«Ну хорошо. Вы все - модрон, но какое имя у *этого* модрона? С которым я "
+"разговариваю»."
 
 #: 44728
 msgid ""
@@ -92,10 +101,14 @@ msgid ""
 "away from you and the knocking sound fades. \"We are modron. We have no "
 "identity other than the whole that is modron. We have no name.\""
 msgstr ""
+"Модрон начинает издавать щелкающие звуки. Со страдальческим выражением на "
+"лице он продолжает смотреть на тебя. «Мы... Я...» Он отводит от тебя взгляд, "
+"и щелчки затихают. «Мы - модрон. Наша единственная личность - модрон - "
+"единое целое. У нас нет имен»."
 
 #: 44729
 msgid "\"Then how do you tell one modron from another?\""
-msgstr ""
+msgstr "«Тогда как вы отличаете модронов друг от друга?»"
 
 #: 44732
 msgid ""
@@ -103,46 +116,50 @@ msgid ""
 "modron. We are a part of the whole. Just as you recognize the hand that is "
 "part of the arm, we recognize each part of the whole.\""
 msgstr ""
+"Анализируя твой вопрос, модрон на некоторое время умолкает. «Мы знаем. Мы - "
+"модрон. Мы - часть целого. Как ты осознаешь ладонь частью руки, так и мы "
+"осознаем каждую часть единого целого»."
 
 #: 44733
 msgid "\"I see. I have some questions...\""
-msgstr ""
+msgstr "«Понятно. У меня еще есть вопросы...»"
 
 #: 44736
 msgid "\"We are modron, we are quadrone.\""
-msgstr ""
+msgstr "«Мы - модрон, мы - квадрон»."
 
 #: 44737
 msgid "\"What is a modron?\""
-msgstr ""
+msgstr "«Что такое модрон?»"
 
 #: 44738
 msgid "\"What is a quadrone?\""
-msgstr ""
+msgstr "«Что такое квадрон?»"
 
 #: 44741
 msgid "\"We are modron. Our race is identified as such.\""
-msgstr ""
+msgstr "«Мы - модрон. Так идентифицируется наша раса»."
 
 #: 44742
 msgid "\"Then what is a quadrone?\""
-msgstr ""
+msgstr "«А что такое квадрон?»"
 
 #: 44745
 msgid "\"Within our race, we are identified as type quadrone.\""
-msgstr ""
+msgstr "«Внутри нашей расы мы идентифицируемся как тип квадрон»."
 
 #: 44746
 msgid "\"Then what is a modron?\""
-msgstr ""
+msgstr "«А что такое модрон?»"
 
 #: 44749
 msgid "\"Rubikon dungeon construct.\""
-msgstr ""
+msgstr "«Подземелье Рубикон»."
 
 #: 44750
+#, fuzzy
 msgid "\"What exactly is that?\""
-msgstr ""
+msgstr "«А что это на самом деле?»"
 
 #: 44753
 msgid ""
@@ -150,136 +167,155 @@ msgid ""
 "are modron. We are part of the whole... We... Information not available. "
 "Address your query to the engineer.\""
 msgstr ""
+"Хмурясь, модрон оглядывает комнату. «Мы должны знать... Мы - модрон. Мы - "
+"часть единого целого... Мы... Информация недоступна. Передайте свой запрос "
+"конструктору»."
 
 #: 44754
 msgid "\"Where do I find the engineer?\""
-msgstr ""
+msgstr "«Где я могу найти конструктора?»"
 
 #: 44757
 msgid ""
 "The modron glances about. \"We do not know. Information not available... We "
 "are confused...\""
 msgstr ""
+"Модрон оглядывается по сторонам. «Мы не знаем. Информация недоступна... Мы "
+"находимся в тупиковой ситуации...»"
 
 #: 44760
 msgid "\"Awaiting instructions.\""
-msgstr ""
+msgstr "«Ожидаем инструкции»."
 
 #: 44761
 msgid "\"Instructions for what?\""
-msgstr ""
+msgstr "«Инструкции чего?»"
 
 #: 44764
 msgid ""
 "The modron gives you a blank look. \"Instructions for what tasks need to be "
 "performed.\""
 msgstr ""
+"Модрон одаривает тебя пустым взглядом. «Инструкции по поводу того, какие "
+"задачи необходимо выполнить»."
 
 #: 44765
 msgid "\"What tasks? Just what is it that you do here?\""
-msgstr ""
+msgstr "«Что за задачи? Что вы здесь вообще делаете?»"
 
 #: 44781
 msgid ""
 "The creature gazes at you for some time before answering. \"Uncertain... "
 "Confusion exists...\" "
 msgstr ""
+"Прежде чем ответить, существо некоторое время внимательно на тебя смотрит. "
+"«Неизвестно... Существует затруднение...»"
 
 #: 44782
 msgid "\"What do you mean? Don't you know who you are?\""
-msgstr ""
+msgstr "«То есть? Ты не знаешь, кто ты такой?»"
 
 #: 44784 44788 44791 44795 44798 44803 44807 44811 44814 44818 44821
 msgid "\"I must be going, farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай»."
 
 #: 44785
 msgid "\"No... Uncertainty exists... at times.\" "
-msgstr ""
+msgstr "«Нет... Неизвестность существует... временами»."
 
 #: 44786
 msgid "\"I don't remember who I am either.\""
-msgstr ""
+msgstr "«Я тоже не могу вспомнить, кто я такой»."
 
 #: 44789
 msgid ""
 "\"I sympathize with you...\" It reaches out and touches your shoulder "
 "gently. After a moment it takes the hand away."
 msgstr ""
+"«Я сочувствую тебе...» Он легко касается твоего плеча. Спустя мгновение он "
+"убирает руку."
 
 #: 44792
 msgid ""
 "\"Our race is known as modron. We are from the plane of law, Mechanus.\""
-msgstr ""
+msgstr "«Наша раса известна как модрон. Мы с плана порядка, Механуса»."
 
 #: 44793
 msgid "\"What can you tell me about Mechanus?\""
-msgstr ""
+msgstr "«Что вы можете рассказать о Механусе?»"
 
 #: 44796
 msgid ""
 "\"A place of laws... many laws. Very structured...\" Its voice fades to "
 "silence."
 msgstr ""
+"«Место порядков... множества порядков. Хорошо структурированное...» Его "
+"голос затихает."
 
 #: 44799
 msgid ""
 "It glances about. \"A dungeon simulator. Doesn't work though. It broke.\" It "
 "sighs."
 msgstr ""
+"Он озирается по сторонам. «Имитатор подземелья. Только нерабочий. Он "
+"сломался», - со вздохом произносит он."
 
 #: 44800
 msgid "\"What happened?\""
-msgstr ""
+msgstr "«Что произошло?»"
 
 #: 44801 44805
 msgid "\"What's a dungeon simulator?\""
-msgstr ""
+msgstr "«Что за имитатор подземелий?»"
 
 #: 44804
 msgid "\"Uncertain. It stopped working.\""
-msgstr ""
+msgstr "«Неизвестно. Она перестала работать»."
 
 #: 44808
 msgid ""
 "The modron glares at you then sighs. \"It simulates dungeons. What do you "
 "think a dungeon simulator would do?\""
 msgstr ""
+"Тяжело вздохнув, модрон смотрит на тебя. «Он имитирует подземелья. А ты как "
+"думаешь, что еще могут делать имитаторы подземелий?»"
 
 #: 44809
 msgid "\"How did it break?\""
-msgstr ""
+msgstr "«Как он сломался?»"
 
 #: 44812
 msgid "It frowns at you. \"You should know, you fixed it.\""
-msgstr ""
+msgstr "Он хмуро смотрит на тебя. «Ты должен знать - ты исправил его»."
 
 #: 44815
 msgid ""
 "It pauses. \"Contemplating... Thinking... Answering your queries...\" It "
 "frowns at you."
 msgstr ""
+"«Ожидаю... Думаю... Отвечаю на твои запросы...». Он бросает на тебя хмурый "
+"взгляд."
 
 #: 44816
 msgid "\"What are you thinking about?\""
-msgstr ""
+msgstr "«О чем ты думаешь?»"
 
 #: 44819
 msgid "\"Life's many mysteries...\" It falls silent."
-msgstr ""
+msgstr "«О множестве загадок бытия...»"
 
 #: 44825
 msgid "It stares at you blankly."
-msgstr ""
+msgstr "Он молча смотрит на тебя."
 
 #: 44828
 msgid "Its gaze never falters as it continues to stare at you."
-msgstr ""
+msgstr "Он продолжает неотрывно пялиться на тебя."
 
 #: 44829
 msgid "\"Can you answer some questions?\""
-msgstr ""
+msgstr "«Ты бы не мог ответить на несколько вопросов?»"
 
 #: 44831
 msgid "Emotionless eyes blink at you as it continues to stare."
-msgstr ""
+msgstr "Безучастные глаза продолжают смотреть на тебя."

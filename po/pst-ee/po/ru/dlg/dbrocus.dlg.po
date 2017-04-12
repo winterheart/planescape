@@ -1,98 +1,111 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2016.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dbrocus.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2016-12-02 21:37+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 2887
 msgid ""
 "This kindly looking older man turns as you approach and nods politely. "
 "\"Greetings... something I might help you with?\""
 msgstr ""
+"Когда ты подходишь, этот добродушный пожилой мужчина оборачивается и вежливо "
+"кивает. «Приветствую... могу ли я чем-то помочь?»"
 
 #: 2888 39383
 msgid "\"Yes, I had some questions...\""
-msgstr ""
+msgstr "«Да, у меня есть несколько вопросов...»"
 
 #: 39381 39384
 msgid "\"No, just passing by. Farewell.\""
-msgstr ""
+msgstr "«Нет, просто проходил мимо. Прощай»."
 
 #: 39382
 msgid ""
 "The old man turns and smiles. \"Greetings, again. Something I might do for "
 "you?\""
 msgstr ""
+"Старик оборачивается и улыбается. «И вновь приветствую. Могу ли я чем-то "
+"помочь?»"
 
 #: 39385
 msgid "\"Certainly; go ahead, young man.\""
-msgstr ""
+msgstr "«Разумеется, молодой человек»."
 
 #: 39386
 msgid "\"What are you doing here?\""
-msgstr ""
+msgstr "«Что ты здесь делаешь?»"
 
 #: 39387
 msgid "\"What can you tell me about this place?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать об этом месте?»"
 
 #: 39388 68124
 msgid "\"What can you tell me about the silent prostitute?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать о молчаливой куртизанке?»"
 
 #: 39389
 msgid "\"I heard that Kesai-Serris is Ravel's daughter. Is that true?\""
-msgstr ""
+msgstr "«Я слышал, что Кесай-Серри - дочь Равель. Это правда?»"
 
 #: 39390
+#, fuzzy
 msgid "\"I'm trying to find Vivian's scent... do you know where it might be?\""
-msgstr ""
+msgstr "«Я пытаюсь найти аромат Вивьен... не знаешь, где он может быть?»"
 
 #: 39391
+#, fuzzy
 msgid ""
 "\"I'm trying to find Marissa's Crimson Veil... do you know where it might be?"
 "\""
 msgstr ""
+"«Я пытаюсь найти малиновую вуаль Мариссы... не знаешь, где она может быть?»"
 
 #: 39392
 msgid "\"Do you know anything about Ravel Puzzlewell?\""
-msgstr ""
+msgstr "«Ты что-нибудь знаешь о Равель Заморочке?»"
 
 #: 39393
 msgid ""
 "\"I've spoken to nine prostitutes altogether... do you know who or where the "
 "tenth student is?\""
 msgstr ""
+"«Я переговорил со всеми девятью куртизанками... ты не знаешь, кто десятая "
+"или где она находится?»"
 
 #: 39394
 msgid "\"Never mind, actually. Farewell.\""
-msgstr ""
+msgstr "«На самом деле, неважно. Прощай»."
 
 #: 39395
 msgid ""
 "The old man chuckles pleasantly. \"What most men do here, young fellow... "
 "chatting with the fair ladies of the Brothel.\""
 msgstr ""
+"Старик весело посмеивается. «То же, что и большинство мужчин, молодой "
+"человек... болтаю с прекрасными дамами из Борделя»."
 
 #: 39396
 msgid "\"Any one of them in particular you'd recommend?\""
-msgstr ""
+msgstr "«И какую из них ты мог бы порекомендовать в частности?»"
 
 #: 39397 39403 39406 39409 39412 39415 39418 39421
 msgid "\"I had another question...\""
-msgstr ""
+msgstr "«У меня другой вопрос...»"
 
 #: 39398 39404 39407 39410 39413 39416 39419 39422
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 39399
 msgid ""
@@ -101,16 +114,21 @@ msgid ""
 "certain of what sort of conversation you would find enjoyable, perhaps I "
 "would be more qualified to make a suggestion.\""
 msgstr ""
+"Он поглаживает бороду, погрузившись в мысли. «Ну, скажем... нет, сдаюсь. Я "
+"не знаю точно, зачем вы здесь, молодой человек. Знай я наверняка, какого "
+"рода беседа пришлась бы вам по душе, тогда, пожалуй, я бы нашел, кого вам "
+"порекомендовать»."
 
 #: 39400
 msgid "\"That's all right. I had another question...\""
-msgstr ""
+msgstr "«Ничего страшного. У меня есть другой вопрос...»"
 
 #: 39401
 msgid "\"I suppose I'd best go talk to them myself, then. Farewell.\""
-msgstr ""
+msgstr "«Тогда полагаю, что мне лучше пойти поговорить с ними самому. Прощай»."
 
 #: 39402
+#, fuzzy
 msgid ""
 "The old man smiles; his eyes twinkle. \"I can tell you that it is a most "
 "*wondrous* establishment! The ladies here are oh-so-enchanting... even that "
@@ -119,6 +137,12 @@ msgid ""
 "may share with you much greater insights into the place than I have to offer."
 "\""
 msgstr ""
+"Старик улыбается; в его глазах появляется блеск. «Скажу вам вот что: это "
+"самое что ни на есть *удивительное* заведение! Дамы здесь такие лапочки... "
+"даже эта Кимаскси со своим прелестным язычком - в своем собственном, особом "
+"стиле. Молодой человек, будьте любезны, расспросите о Борделе Падшую "
+"Грацию... будучи его хозяйкой, она может поделиться с вами подробнейшими "
+"сведениями о месте, которое я так возношу»."
 
 #: 39405
 msgid ""
@@ -127,6 +151,10 @@ msgid ""
 "something *about* her.\" He sighs happily. \"I'm unsure of *why* she won't "
 "speak, however.\""
 msgstr ""
+"«Ах, да... должно быть, сие прекрасное создание - Экко. Очаровательная "
+"девчушка... с ней так легко общаться. И заметьте, не столько потому, что она "
+"молчит, - просто есть в ней что-то *эдакое*, - он вздыхает со счастливым "
+"видом. - Вот только я не знаю, *почему* она не разговаривает»."
 
 #: 39408
 msgid ""
@@ -134,6 +162,9 @@ msgid ""
 "How alarming! No, I had heard no such thing. Quite a rumor, though, true or "
 "no.\""
 msgstr ""
+"«Равель? - старик поднимает бровь. - Равель Заморочка, ночная ведьма? Как "
+"волнующе! Нет, ничего о ней не слышал. Одни лишь слухи, не знаю, правдивые "
+"или нет»."
 
 #: 39411
 msgid ""
@@ -142,6 +173,9 @@ msgid ""
 "taps his nose. \"Sad, I know, but we all age. I am told Vivian always gives "
 "off the most beautiful fragrance...\""
 msgstr ""
+"«Нет. И даже будь он у меня под носом - я бы и то не заметил... Видите ли, у "
+"меня почти нет обоняния, - он похлопывает по носу. - Печально, знаю, но ведь "
+"все мы стареем. Я слышал, у Вивьен всегда был прекраснейший из ароматов...»"
 
 #: 39414
 msgid ""
@@ -149,6 +183,8 @@ msgid ""
 "have I seen Marissa outside the Brothel, wearing her veil... but I do not "
 "know where it is, now.\""
 msgstr ""
+"Он качает головой. «Я знаю, о какой вуали вы говорите... пару раз я видел "
+"Мариссу за пределами Борделя с вуалью... но где она сейчас - не знаю»."
 
 #: 39417
 msgid ""
@@ -156,6 +192,9 @@ msgid ""
 "is a night hag, but one especially evil, and that she was banished from "
 "Sigil long, long ago.\""
 msgstr ""
+"«Мне почти ничего неизвестно, если не считать легенд, которые слышал почти "
+"каждый ребенок: что она - ночная ведьма, только особо злая, и что ее давным-"
+"давно изгнали из Сигила»."
 
 #: 39420
 msgid ""
@@ -163,3 +202,6 @@ msgid ""
 "student, my young friend, I would be most eager to meet her! But as far as I "
 "know, there is none.\""
 msgstr ""
+"Старик хмурится и чешет бороду. «Если десятая ученица *существует*, мой юный "
+"друг, я бы очень хотел с ней познакомиться! Но насколько мне известно, такой "
+"нет»."

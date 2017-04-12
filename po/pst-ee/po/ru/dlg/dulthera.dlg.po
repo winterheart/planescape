@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dulthera.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-01 22:29+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: 64787
 msgid ""
@@ -19,14 +21,18 @@ msgid ""
 "approach she gives you a toothless smile. \"Come to see Ulthera have ye? "
 "What can she do for ye?\""
 msgstr ""
+"Ты видишь грузную пожилую женщину, одетую в тряпье. Похоже, она бесцельно "
+"гуляет по улицам, что-то бормоча себе под нос. Заметив тебя, она одаривает "
+"тебя беззубой улыбкой. «Что, пришел повидать Ультеру? Чем она может быть "
+"полезна?»"
 
 #: 64788
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 64789
 msgid "Ignore her."
-msgstr ""
+msgstr "Игнорировать ее."
 
 #: 64790
 msgid ""
@@ -34,64 +40,75 @@ msgid ""
 "broadens. \"Rarely does one such a ye come to visit Ulthera. What ye be "
 "needing?\""
 msgstr ""
+"«Аха, аха. И тебе привет...» Она небрежно осматривает тебя, ее улыбка "
+"становится еще шире. «Нечасто же Ультеру навещают такие как ты. Чего тебе "
+"нужно?»"
 
 #: 64791 64835 64839 64843 64870
 msgid "\"I have some questions...\""
-msgstr ""
+msgstr "«У меня есть пара вопросов...» "
 
 #: 64792 64871
 msgid "\"Nothing, farewell.\""
-msgstr ""
+msgstr "«Ничего, прощай»."
 
 #: 64793
 msgid "\"Aye, ask ye then.\""
-msgstr ""
+msgstr "«Аха, ну так задавай»."
 
 #: 64794
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 64795
 msgid "\"What are you doing here?\""
-msgstr ""
+msgstr "«Что ты здесь делаешь?»"
 
 #: 64796
 msgid "\"What can you tell me about this place?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать об этом месте?»"
 
 #: 64797
 msgid "\"I wanted to ask you about Sheryl's father, Arkin.\""
-msgstr ""
+msgstr "«Я хотел спросить тебя насчет отца Шерил, Аркина»."
 
 #: 64798
 msgid "\"Nothing, I must be going. Farewell.\""
-msgstr ""
+msgstr "«Ладно, я должен идти. Прощай»."
 
 #: 64799
+#, fuzzy
 msgid ""
 "\"Did ye not hear me? Have scars grown o'er ye ears an' made ye deaf?\" She "
 "cocks her head to one side and begins to examine your ears. \"Bah! No "
 "matter. Ulthera be who I am. Ulthera the witch I be called.\""
 msgstr ""
+"«Ты меня не слышишь? Что, уши шрамами заросли и ты оглох?» Она склоняет "
+"голову набок и начинает осматривать твои уши. «Ба! Ладно, неважно. Ультера - "
+"вот я кто. Ведьма Ультера - так зовусь»."
 
 #: 64800
 msgid "\"Are you a witch?\""
-msgstr ""
+msgstr "«Ты ведьма?»"
 
 #: 64801 64804 64809 64818 64821 64830 64933
 msgid "\"I have some more questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 64802 64805 64810 64819 64822 64831 64934
 msgid "\"I must be going now, farewell.\""
-msgstr ""
+msgstr "«Я должен идти, прощай»."
 
 #: 64803
+#, fuzzy
 msgid ""
 "She lets loose a cackling laugh that hurts your ears. \"Course not, ye berk. "
 "Folks don't understand Ulthera. Think she's crazy, strange... a witch. "
 "That's all.\""
 msgstr ""
+"От ее неудержимо громкого хохота у тебя закладывает уши. «Конечно, нет, пень "
+"ты эдакий. Люди не понимают Ультеру. Думают, она чокнутая, странная... "
+"короче, ведьма. Вот как»."
 
 #: 64806
 msgid ""
@@ -99,28 +116,33 @@ msgid ""
 "wrinkles. \"She divines things lost. Folks come to her and ask her "
 "questions. She finds the things they ask her about.\""
 msgstr ""
+"«Что делает Ультера... - она хмурится, отчего лицо покрывается сетью морщин. "
+"- Она предсказывает, где искать утерянное. Люди приходят к ней и задают "
+"вопросы. А она находит вещи, о которых они просили»."
 
 #: 64807
 msgid "\"I've lost my memories, can you find them for me?\""
-msgstr ""
+msgstr "«Я потерял свои воспоминания, ты можешь их разыскать?»"
 
 #: 64808
 msgid "\"I've lost my name, can you find it for me?\""
-msgstr ""
+msgstr "«Я потерял свое имя, ты можешь найти его?»"
 
 #: 64811 64823
 msgid ""
 "She frowns at you for a moment and then holds out her withered hand. \"Ye "
 "hand, give it to Ulthera.\""
 msgstr ""
+"Она хмуро смотрит на тебя, затем протягивает морщинистую ладонь. «Руку. Дай-"
+"ка ее Ультере»."
 
 #: 64812 64824
 msgid "Take her hand."
-msgstr ""
+msgstr "Протянуть ей руку."
 
 #: 64813 64826
 msgid "Refuse."
-msgstr ""
+msgstr "Отказаться."
 
 #: 64814 64825
 msgid ""
@@ -130,36 +152,55 @@ msgid ""
 "you fight back, trying to push the intruder from your being. You hear a gasp "
 "from Ulthera as she releases your hand."
 msgstr ""
+"Ты берешь Ультеру за руку. Некоторое время ничего не происходит. Внезапно ты "
+"чувствуешь в своем разуме чье-то присутствие, прощупывающее твои самые "
+"сокровенные мысли. Ощущение очень странное и немного пугающее. Инстинктивно "
+"ты пытаешься выдворить непрошеного гостя из своего сознания. Ты слышишь хрип "
+"Ультеры, отпускающей твою руку."
 
 #: 64815 64827
 msgid "\"Well?\""
-msgstr ""
+msgstr "«Ну как?»"
 
 #: 64816
+#, fuzzy
 msgid ""
 "\"Aye, a strange one ye be...\" She shakes her head sadly. \"Ulthera doesn't "
 "know... Ye memories feel more hidden than lost... Or mayhap possessed by "
 "another... A great gulf Ulthera senses...\" She sighs. \"Ulthera cannot help "
 "ye... Ye are beyond her simple means.\""
 msgstr ""
+"«Аха, ты какой-то странный... - она горестно качает головой. - Ультера не "
+"знает... Твои воспоминания скорее скрыты, чем потеряны... Или, быть может, "
+"принадлежат другому... Ультера чувствует глубокую пропасть... - она "
+"вздыхает. - Ультера не может тебе помочь... Ты не под силу ее простым "
+"средствам»."
 
 #: 64817 64829
 msgid ""
 "\"I don't understand what you were just talking about. What do you mean?\""
-msgstr ""
+msgstr "«Я не понял, о чем ты только что сказала. Что ты имеешь ввиду?»"
 
 #: 64820
+#, fuzzy
 msgid ""
 "She snorts and shakes her head. \"Ulthera understands less than ye do... "
 "Forgive an old woman. Ulthera cannot help ye.\""
 msgstr ""
+"Она фыркает и качает головой. «Ультера понимает еще меньше тебя... Прости "
+"старуху. Ультера не сможет тебе помочь»."
 
 #: 64828
+#, fuzzy
 msgid ""
 "\"Aye, a strange one ye be...\" She shakes her head sadly. \"Ulthera doesn't "
 "know... Ye name not be lost, but given up freely... Nameless ye are, and "
 "nameless ye shall stay. A choice ye made... Ulthera cannot help ye.\""
 msgstr ""
+"«Аха, ты какой-то странный... - она горестно качает головой. - Ультера не "
+"знает... Твое имя не потеряно - от него отказались по собственной воле... Ты "
+"Безымянный, и должен остаться безымянным. Это твой выбор... Ультера не может "
+"тебе помочь»."
 
 #: 64832
 msgid ""
@@ -167,18 +208,20 @@ msgid ""
 "it be called... Sigil lies above, the catacombs below... Nothing more does "
 "Ulthera know...\""
 msgstr ""
+"Она с улыбкой озирается. «Это владения Фарода. Зовутся Погребенной деревней. "
+"Сигил - наверху, катакомбы - внизу... Больше Ультера ничего не знает...»"
 
 #: 64833
 msgid "\"I'm looking for Pharod, where can I find him?\""
-msgstr ""
+msgstr "«Я ищу Фарода, где его найти?»"
 
 #: 64834
 msgid "\"Tell me about the catacombs.\""
-msgstr ""
+msgstr "«Расскажи мне о катакомбах»."
 
 #: 64836 64840 64844 64848 64852 64856
 msgid "\"I must be going, farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай»."
 
 #: 64837
 msgid ""
@@ -186,10 +229,13 @@ msgid ""
 "Guards Pharod has, so guards ye should seek. If ye find guards, Pharod is "
 "sure to be near...\""
 msgstr ""
+"«На север и на восток - туда тебе надо. Ультера точно не знает. У Фарода "
+"есть стражники, их-то и ищи. Найдешь стражников - значит, и Фарод где-то "
+"неподалеку...»"
 
 #: 64838
 msgid "\"You mentioned catacombs, what can you tell me about them?\""
-msgstr ""
+msgstr "«Ты упомянула про катакомбы, что ты можешь о них рассказать?»"
 
 #: 64841
 msgid ""
@@ -198,10 +244,14 @@ msgid ""
 "take if ye go there.\" She points vaguely. \"South and east, there ye need "
 "to go if ye seek Weeping Stone...\""
 msgstr ""
+"Она выглядит обеспокоенной. «Это склепы умерших, Плачущим камнем они "
+"зовутся. Там мертвым не спится, все по залам ходят... Берегись, если туда "
+"попадешь, - она неопределенно указывает рукой. - На юг и на восток - туда "
+"тебе надо, если ищешь Плачущий камень...»"
 
 #: 64842
 msgid "\"You mentioned Pharod, where can I find him?\""
-msgstr ""
+msgstr "«Ты упомянула про Фарода, где мне найти его?»"
 
 #: 64845
 msgid ""
@@ -209,25 +259,33 @@ msgid ""
 "rather than asking a question. She glares at you a moment before continuing. "
 "\"What ye want to know about Arkin?\""
 msgstr ""
+"«Ба! Так это потаскушка Шерил тебя прислала!» Она произносит это скорее "
+"утвердительно, чем вопросительно. Она свирепо смотрит на тебя перед тем, как "
+"продолжить. «Чего ты хочешь узнать об Аркине?»"
 
 #: 64846
 msgid "\"Sheryl says he's missing. She's worried about him.\""
-msgstr ""
+msgstr "«Шерил сказала, что он пропал. Она беспокоиться за него»."
 
 #: 64847 64851 64855
 msgid "\"Never mind, I have some questions...\""
-msgstr ""
+msgstr "«Неважно. У меня есть вопросы...»"
 
 #: 64849
+#, fuzzy
 msgid ""
 "She nods her head slowly. \"Aye, missing he be. An' that foolish wench came "
 "an' asked Ulthera... No! Accused Ulthera! Accused her of wrongdoing... Bah! "
 "Ulthera is insulted!\""
 msgstr ""
+"Она медленно кивает. «Аха, пропал он. А эта чокнутая потаскушка пришла к "
+"Ультере спросить... Нет! Обвинить Ультеру! Обвинить ее в злодействе... Ба! "
+"Ультеру обидели!»"
 
 #: 64850
 msgid "\"Surely you can forgive a child worried over a missing father.\""
 msgstr ""
+"«Ты вполне могла бы простить дитя, которое тревожится за пропавшего отца»."
 
 #: 64853
 msgid ""
@@ -235,22 +293,29 @@ msgid ""
 "aye... Ulthera can forgive, for worry can make one so young forget her "
 "manners... How can Ulthera help ye?\""
 msgstr ""
+"Ультера яростно смотрит на тебя, но затем ее злость угасает, и она кивает. "
+"«Аха, аха... Ультера может простить тревогу, которая заставила девчонку "
+"позабыть о манерах... Чем Ультера может быть полезна?»"
 
 #: 64854
 msgid ""
 "\"Arkin was looking for portal keys. I understand he came to you for help?\""
-msgstr ""
+msgstr "«Аркин искал ключи к порталам. Он ведь приходил к тебе за помощью?»"
 
 #: 64857
+#, fuzzy
 msgid ""
 "\"Aye.\" She nods. \"Arkin came to Ulthera an' asked her to divine what the "
 "keys may be... Lost keys, aye, lost to time, lost to man... Find them "
 "Ulthera did... Gave them to Arkin she did. Arkin has the keys.\""
 msgstr ""
+"«Аха, - она кивает. - Аркин приходил к Ультере и просил ее погадать, чем "
+"могут быть ключи... Потерянные ключи, аха, потерянные временем, потерянные "
+"людьми... Ультера нашла их... дала Аркину. У Аркина были ключи»."
 
 #: 64858
 msgid "\"What are they?\""
-msgstr ""
+msgstr "«Чем они являются?»"
 
 #: 64859
 msgid ""
@@ -259,10 +324,14 @@ msgid ""
 "crosses her wrinkled features. \"Here ye be, the key of entry...\" She hands "
 "you a candlestick."
 msgstr ""
+"«А... Были они у Ультеры... ключи. Они простые». Она начинает бормотать и "
+"рыться в карманах. Через некоторое время ее морщинистое лицо озаряет "
+"веселье. «Вот он, ключ для входа...» Она протягивает тебе подсвечник."
 
 #: 64860
+#, fuzzy
 msgid "\"...and the exit key, what is it?\""
-msgstr ""
+msgstr "«А ключ для выхода, какой он?»"
 
 #: 64861
 msgid ""
@@ -270,10 +339,13 @@ msgid ""
 "key... an empty purse! Aye, ye must leave the tomb with an empty purse...\" "
 "Ulthera hands you an empty purse."
 msgstr ""
+"Она дико хохочет над какой-то известной лишь ей шуткой. «Аха, а ключ для "
+"выхода... пустой кошелек! Аха, ты должен уйти из гробницы с пустым "
+"кошельком...» Ультера протягивает тебе пустой кошелек."
 
 #: 64862
 msgid "\"Now all I need is the location of the portal. Where is it?\""
-msgstr ""
+msgstr "«Теперь мне нужно найти портал. Где он находится?»"
 
 #: 64863
 msgid ""
@@ -281,10 +353,13 @@ msgid ""
 "knew, not Ulthera.\" Ulthera gives you a solemn look and lowers her voice. "
 "\"Find she can, aye, but ye must bring Ulthera something...\""
 msgstr ""
+"Она снова хохочет, пожимая плечами. «Ультера не знает... он потерян. Аркин "
+"знал, но не Ультера, - Ультера серьезно смотрит на тебя и понижает голос. - "
+"Она может его найти, но ты взамен должен кое-что принести Ультере...»"
 
 #: 64864
 msgid "\"What is it that you need?\""
-msgstr ""
+msgstr "«И что тебе нужно?»"
 
 #: 64865
 msgid ""
@@ -292,35 +367,46 @@ msgid ""
 "sympathetic it must be... Bring Ulthera a human leg bone. Find the portal "
 "she will. Now go!\""
 msgstr ""
+"Она поглаживает подбородок костистым пальцем. «Хм-м. Ты хочешь найти "
+"гробницу... должно быть что-то похожее... Принеси Ультере кость из "
+"человеческой ноги. Тогда она найдет портал. А теперь иди!»"
 
 #: 64866 64873 64877
 msgid "\"Very well, Ulthera. I'll bring you a human leg bone. Farewell.\""
-msgstr ""
+msgstr "«Хорошо, Ультера. Я принесу тебе кость из человеческой ноги. Прощай»."
 
 #: 64867 64874 64878
+#, fuzzy
 msgid "\"Forget it. I don't want to do this. Farewell.\""
-msgstr ""
+msgstr "«Забудь. Я не собираюсь этого делать. Прощай»."
 
 #: 64868
+#, fuzzy
 msgid "\"Hmm. I need to think about this. Farewell.\""
-msgstr ""
+msgstr "«Хм-м. Мне нужно подумать над этим. Прощай»."
 
 #: 64869 64885
 msgid ""
 "You see Ulthera, the diviner. She waves a gnarled hand at your approach. "
 "\"Aye, back again are ye. What ye be wanting?\""
 msgstr ""
+"Перед тобой гадалка Ультера. Она машет тебе шишковатой рукой. «Аха, "
+"вернулся, значит. Чего хочешь?»"
 
 #: 64872
+#, fuzzy
 msgid ""
 "You see Ulthera, the diviner. She waves a gnarled hand at your approach. "
 "\"Aye, back again are ye. Thinking ye were. Find Ulthera a human leg bone "
 "an' she will find ye the portal. What say ye?\""
 msgstr ""
+"Перед тобой гадалка Ультера. Она машет тебе шишковатой рукой. «Аха, "
+"вернулся, значит. Решил подумать. Найди Ультере кость из человеческой ноги, "
+"и она найдет тебе портал. Что скажешь?»"
 
 #: 64875 64879
 msgid "\"I'll consider it. Farewell.\""
-msgstr ""
+msgstr "«Я еще подумаю. Прощай»."
 
 #: 64876
 msgid ""
@@ -328,23 +414,31 @@ msgid ""
 "\"Aye, back again are ye. Refused to help ye did. Find Ulthera a human leg "
 "bone an she will find ye the portal. What say ye?\""
 msgstr ""
+"Перед тобой гадалка Ультера. Она машет тебе шишковатой рукой. «Аха, "
+"вернулся, значит. Отказался от помощи. Найди Ультере кость из человеческой "
+"ноги, и она найдет тебе портал. Что скажешь?»"
 
 #: 64880
+#, fuzzy
 msgid ""
 "You see Ulthera, the diviner. She waves a gnarled hand at your approach. "
 "\"Aye, back again are ye. Agreed to help ye did. Find Ulthera a human leg "
 "bone an' she will find ye the portal. Where be the bone?\""
 msgstr ""
+"Перед тобой гадалка Ультера. Она машет тебе шишковатой рукой. «Аха, "
+"вернулся, значит. Согласился на помощь. Найди Ультере кость из человеческой "
+"ноги, и она найдет тебе портал. Что скажешь?»"
 
 #: 64881
 msgid "\"I don't have it yet. I'm still looking. Farewell.\""
-msgstr ""
+msgstr "«У меня ее еще нет. Продолжаю искать. Прощай»."
 
 #: 64882
 msgid "\"Here it is, now tell me where the portal is.\""
-msgstr ""
+msgstr "«Вот она. А теперь скажи, где находится портал»."
 
 #: 64883
+#, fuzzy
 msgid ""
 "Ulthera glances about cautiously and then takes the bone from you. She "
 "clutches it close to her chest and begins to chant while swaying to and "
@@ -353,21 +447,29 @@ msgid ""
 "bone. \"Aye, north an' west it be, near the entrance to the town... Ulthera "
 "found it for ye, now go!\""
 msgstr ""
+"Ультера внимательно осматривает кость, затем берет ее у тебя. Она прижимает "
+"ее поближе к телу и, покачиваясь, начинает петь. Ее голос становится все "
+"тревожней и тише, пока ты практически не перестаешь ее слышать. Наконец, она "
+"с хрипом указывает костью в северо-западном направлении. «Аха, на север и на "
+"запад, неподалеку от входа... Ультера нашла его. А теперь иди!»"
 
 #: 64884
 msgid "\"Thank you, Ulthera. Farewell.\""
-msgstr ""
+msgstr "«Спасибо, Ультера. Прощай»."
 
 #: 64886
 msgid "\"Nothing, actually. Farewell.\""
-msgstr ""
+msgstr "«На самом деле - ничего. Прощай»."
 
 #: 64932
+#, fuzzy
 msgid ""
 "Ulthera frowns at you and then puts her hands on her hips. \"Fearing an old "
 "woman? Fearing mayhap Ulthera will bite ye? Never ye mind then. What else ye "
 "be wanting?\""
 msgstr ""
+"Ультера хмуро смотрит на тебя, держа руки на поясе. «Боишься старую женщину? "
+"Боишься, что Ультера тебя укусит? Ну, тогда забудь. Чего еще тебе нужно?»"
 
 #: 64936
 msgid ""
@@ -376,6 +478,10 @@ msgid ""
 "could be found to the northwest, near the entry to the buried village. I "
 "hope she is right."
 msgstr ""
+"Я нашел Ультере кость ноги и попросил ее найти место, где находится портал "
+"Аркина. Немного попев, она сказала, что портал может находиться на северо-"
+"западе, неподалеку от входа в Погребенную деревню. Надеюсь, она окажется "
+"права."
 
 #: 64937
 msgid ""
@@ -385,3 +491,8 @@ msgid ""
 "portal. She has asked me to find a human leg bone. She claims she can use "
 "the bone to find the portal. I have agreed to do this."
 msgstr ""
+"Ведьма Ультера дала мне ключи к порталу, который Аркин, отец Шерил, хотел "
+"исследовать. Ключом для входа является подсвечник, а ключом для выхода - "
+"пустой кошелек. К сожалению, Ультера не знает, где находится портал. Она "
+"попросила меня найти кость из человеческой ноги. Она сказала, что может "
+"найти портал с помощью кости. Я согласился найти эту кость."

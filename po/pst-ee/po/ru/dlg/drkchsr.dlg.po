@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: drkchsr.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-11-17 01:35+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: 15496
 msgid ""
@@ -18,6 +20,9 @@ msgid ""
 "notice he never seems to stray far from a young nobleman nearby. He sees you "
 "looking at him, and begins to move off hurriedly."
 msgstr ""
+"Этот грязный мужчина в мантии с опаской оглядывается по сторонами. Ты "
+"замечаешь, что он ни на шаг не отходит от молодого аристократа. Он замечает "
+"твой взгляд и пытается поспешно скрыться. "
 
 #: 15497
 msgid ""
@@ -25,40 +30,50 @@ msgid ""
 "with weeping sores; fat, black flies flit lazily about his head. \"Don't "
 "hurt me, m'lord... I don't know nothin', I don't got nothin'!\""
 msgstr ""
+"Он поворачивается к тебе с широко раскрытыми от ужаса глазами. Ты замечаешь, "
+"что его лицо покрыто гноящимися язвами, а над головой лениво кружатся жирные "
+"черные мухи. «Не делайте мне больно, господин... Я ничего не знаю, у меня "
+"ничего нет!»"
 
 #: 15498
 msgid ""
 "He steps back a ways, stumbling, and sputters out: \"But... but I told ya, "
 "m'lord... I don't know nothin'! I don't!\""
 msgstr ""
+"Он отступает назад, спотыкаясь и несвязно бормоча: «Но... но я же говорю, "
+"господин... Я ничего не знаю! Ничего!»"
 
 #: 15499
 msgid ""
 "\"Aye... I'll... I'll talk to ya, m'lord...\" He wrings his hands together "
 "nervously, stopping only to ward off any flies that land on his facial sores."
 msgstr ""
+"«Да... Я... я все скажу, господин...» Он потирает руки, останавливаясь "
+"только на то, чтобы отогнать садящихся на язвы мух."
 
 #: 15500
 msgid "He nods fearfully. \"Anythin', m'lord... just ask...\""
-msgstr ""
+msgstr "Он со страхом кивает. «Все что угодно, господин... Спрашивайте...»"
 
 #: 15501
 msgid ""
 "\"Nothin' like that, m'lord, nothin'. I swear it!\" He proffers his empty "
 "hands for inspection."
 msgstr ""
+"«Ничего похожего, господин, ничего. Честное слово!» В доказательство он "
+"протягивает пустые руки для осмотра."
 
 #: 15502
 msgid "He shakes his head. \"Nay, don't know him, m'lord.\""
-msgstr ""
+msgstr "Он качает головой. «Нет, я не знаю его, господин»."
 
 #: 15503
 msgid "\"Eh? Oh! I run on me own, m'lord, I do. No friends, no partners...\""
-msgstr ""
+msgstr "«А? А! Я сам по себе, господин. Ни друзей, ни партнеров...»"
 
 #: 15504
 msgid "\"Me? Malric, m'lord. But, er... but I'm called Rake-Chaser.\""
-msgstr ""
+msgstr "«Я? Малрик, господин. Но, э-э-э... меня все зовут Охотником на повес»."
 
 #: 15505
 msgid ""
@@ -66,6 +81,9 @@ msgid ""
 "standing nearby, who spots him and frowns contemptuously before looking away "
 "again. \"Clean up his messes, if ya know what I mean. The bodies.\""
 msgstr ""
+"«А? Э-э-э... Я следую за этим знатоком, - он кивает на молодого стоящего "
+"рядом аристократа, который, заметив его, презрительно хмурится и "
+"отворачивается. - «Прибираю за ним, если вы понимаете, о чем я. Тела»."
 
 #: 15506
 msgid ""
@@ -73,13 +91,20 @@ msgid ""
 "know. I sell what they got on 'em, too, if they died alone. Without friends."
 "\""
 msgstr ""
+"«Я, э-э-э, продаю жмуриков в Морге тленным. За звенелки. Еще я продаю то, "
+"что у них было, если они умерли одни. Без друзей»."
 
 #: 15507
+#, fuzzy
 msgid ""
 "\"Who, him? I dunno, m'lord. Wandered in one day, started pickin' fights... "
 "'duels,' he calls 'em. I don't speak to him, ya see... just drag off the "
 "deaders. Maybe you could go, eh, ask him...\""
 msgstr ""
+"«Который, этот? Не знаю, господин. Увидел однажды, как он затеял драку... "
+"'дуэль', как он говорит. Я ведь не могу с ним разговаривать, как вы "
+"понимаете... Просто утаскиваю жмуриков. Может быть, вы сможете спросить "
+"его...»"
 
 #: 15509
 msgid ""
@@ -89,6 +114,11 @@ msgid ""
 "off a cloud of annoyed flies. \"Snick! Snack! Snicker-snak! An' like that, "
 "ye're dead!\" He nods."
 msgstr ""
+"«Э-э-э... Изогнутым мечом, мой господин. Довольно причудливая штука, а он "
+"делает с ней довольно причудливые приемы. Он быстр, двигается словно "
+"танцует, - он прыгает вперед, пытаясь изобразить стойку фехтовальщика. Туча "
+"надоедливых мух тут же взлетает ввысь. - «Вжик! Вжик! Вжик-вжик! И вы уже "
+"мертвые!» Он кивает."
 
 #: 15510
 msgid ""
@@ -97,6 +127,11 @@ msgid ""
 "he'll kill ya if ye're not good enough, ya know. If ya want, I can give the "
 "Dustman yer last wishes. In case ya, er... lose.\""
 msgstr ""
+"Неожиданно он принимает обеспокоенный вид. «Э-э-э, нет! Я не хотел этого "
+"сказать, господин! Я ни разу вас не видел в бою. Может быть вы и сильнее. "
+"Попробуйте, испытайте его. Только он вас убьет, если вы недостаточно хороши, "
+"как вы понимаете. Если хотите, я могу передать тленным вашу последнюю волю. "
+"В случае вашего, э-э-э, поражения»."
 
 #: 15511
 msgid ""
@@ -104,253 +139,274 @@ msgid ""
 "it is... bleak slums from one end to the other. Couldn't tell ya more than "
 "that, really.\""
 msgstr ""
+"«Об Улье, господин? - в раздумье он чешет голову сквозь капюшон. - Это то, "
+"что и есть... Унылые трущобы от начала до конца. Больше к этому ничего не "
+"прибавить»."
 
 #: 15512
 msgid ""
 "The man seems startled at your approach, but a look of recognition soon "
 "creeps over his sore-ridden features. \"Greetings, m'lord.\""
 msgstr ""
+"При твоем приближении мужчина пугается, но постепенно на его покрытом язвами "
+"лице проступает выражение узнавания. «Приветствую вас, господин»."
 
 #: 15513
 msgid ""
 "This filthy, robed man is meandering about, glancing around warily. He sees "
 "you looking at him, and begins to move off hurriedly."
 msgstr ""
+"Этот грязный мужчина в мантии с опаской оглядывается по сторонами. Он "
+"замечает твой взгляд и пытается поспешно скрыться."
 
 #: 15514
 msgid ""
 "The man suddenly flees in a flurry of corpse-flies and dirty, brown robes!"
 msgstr ""
+"Неожиданно мужчина срывается с места, оставляя после себя только облако "
+"трупных мух!"
 
 #: 15515
 msgid ""
 "The man sees your approach, and his sore-ridden face becomes wrought with "
 "worry. He begins to back away from you."
 msgstr ""
+"При твоем приближении на язвенном лице мужчина появляется обеспокоенность. "
+"Он начинает пятится от тебя прочь."
 
 #: 15516
 msgid "\"Eh? What do ya mean, m'lord?\" He seems genuinely confused."
-msgstr ""
+msgstr "«А? О чем вы говорите, господин?» Похоже, он неподдельно смущен."
 
 #: 15517
+#, fuzzy
 msgid ""
 "\"I... I don't know what ye're gettin' at, m'lord... I surely don't! Have ya "
 "mistaken me for someone else, mayhap?\""
 msgstr ""
+"«Я... Я не понимаю, что вы хотите, господин... В самом деле не понимаю! "
+"Должно быть, вы спутали меня с кем-то другим?»"
 
 #: 15518
 msgid ""
 "Horror creeps over the man's sore-ridden features as you approach him; the "
 "man yelps and begins to back away."
 msgstr ""
+"При твоем приближении на язвенном лице мужчины проступает ужас. Он "
+"вскрикивает и пытается скрыться."
 
 #: 15519
 msgid "He stares at you in what can only be mute horror."
-msgstr ""
+msgstr "Он пялится на тебя в безмолвном ужасе."
 
 #: 15520 15583
 msgid "\"Greetings...\""
-msgstr ""
+msgstr "«Приветствую...»"
 
 #: 15521 15584 15591
 msgid "Leave him in peace."
-msgstr ""
+msgstr "Оставить его в покое."
 
 #: 15522 15526 15530 15537 15579 15586
 msgid "\"Don't bother with the facade. I know what you are, fiend.\""
-msgstr ""
+msgstr "«Хватит кривляться. Я знаю кто ты, нечисть»."
 
 #: 15523 15527 15531 15538 15589
 msgid "\"I've heard you're more than you appear to be.\""
-msgstr ""
+msgstr "«Говорят, ты на самом деле нечто большее, чем это может показаться»."
 
 #: 15524
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 15525 15546 15599
 msgid "\"Farewell, then.\""
-msgstr ""
+msgstr "«Тогда прощай». "
 
 #: 15528
 msgid "\"We'll see about that. Will you speak?\""
-msgstr ""
+msgstr "«Сейчас мы это выясним. Не так ли?»"
 
 #: 15529
 msgid "\"Fine, then, go. Farewell.\""
-msgstr ""
+msgstr "«Ну и хорошо. Прощай»."
 
 #: 15532 15539
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 15533 15540
 msgid "\"What are you doing here?\""
-msgstr ""
+msgstr "«Что ты здесь делаешь?»"
 
 #: 15534 15541
 msgid "\"Tell me about this area.\""
-msgstr ""
+msgstr "«Расскажи мне об этом месте»."
 
 #: 15535 15542
 msgid "\"I'm looking for someone named Pharod.\""
-msgstr ""
+msgstr "«Я ищу кое-кого по имени Фарод»."
 
 #: 15536 15543
 msgid "\"I'm looking for a journal I lost. Seen one?\""
-msgstr ""
+msgstr "«Я ищу потерянный дневник. Не находил ничего такого?»"
 
 #: 15544
 msgid "\"Nothing, never mind. Farewell.\""
-msgstr ""
+msgstr "«Ничего, неважно. Прощай»."
 
 #: 15545 15553 15557 15564 15569 15572 15577
 msgid "\"I had other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 15547
 msgid "\"Are you sure? I understand he's a Collector.\""
-msgstr ""
+msgstr "«Ты уверен? Насколько я знаю, он сборщик»."
 
 #: 15548
 msgid "\"I have some other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 15549 15551
 msgid "\"Never mind, then. Farewell.\""
-msgstr ""
+msgstr "«Тогда неважно. Прощай»."
 
 #: 15550
 msgid "\"I see. I had other questions...\""
-msgstr ""
+msgstr "«Понятно. У меня есть другие вопросы...»"
 
 #: 15552
 msgid "\"Why's that?\""
-msgstr ""
+msgstr "«Отчего так?»"
 
 #: 15554 15561 15570 15578
 msgid "\"That's all I wanted to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 15555
 msgid "\"Why do you do that?\""
-msgstr ""
+msgstr "«Зачем ты это делаешь?»"
 
 #: 15556
 msgid "\"Who is he?\""
-msgstr ""
+msgstr "«Кто он такой?»"
 
 #: 15558 15573
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 15559
 msgid "\"Who is the noble?\""
-msgstr ""
+msgstr "«Кто этот аристократ?»"
 
 #: 15560
 msgid "\"I had other questions.\""
-msgstr ""
+msgstr "«У меня есть другие вопросы»."
 
 #: 15562
 msgid "\"He's a good fighter, then?\""
-msgstr ""
+msgstr "«Так значит, он хороший боец?»"
 
 #: 15563
 msgid "\"Why do you drag the bodies off?\""
-msgstr ""
+msgstr "«Зачем ты утаскиваешь тела?»"
 
 #: 15565
 msgid "\"Perhaps I will. Farewell.\""
-msgstr ""
+msgstr "«Возможно, я так и сделаю. Прощай»."
 
 #: 15566
 msgid ""
 "He nods. \"Oh, aye... I'm no great judge, ya see, but he seems right deadly, "
 "he does. I wouldn't fight him, if that's what ye're thinkin'...\""
 msgstr ""
+"Он кивает. «О, да... Я не могу судить об этом, как вы понимаете, но он "
+"определенно смертельный противник. Я бы с ним не стал сражаться, если вы об "
+"этом подумали...»"
 
 #: 15567 15571
 msgid "\"You think he's better than me?\""
-msgstr ""
+msgstr "«Ты считаешь, что он лучше меня?»"
 
 #: 15568 15574
 msgid "\"How's he fight? With a sword? Magic?\""
-msgstr ""
+msgstr "«И чем он сражается? Мечом? Магией?»"
 
 #: 15575
 msgid "\"Don't worry yourself with that. I had other questions...\""
-msgstr ""
+msgstr "«Не беспокойся насчет этого. У меня есть другие вопросы...»"
 
 #: 15576
 msgid "\"No thanks. Farewell.\""
-msgstr ""
+msgstr "«Нет, спасибо. Прощай»."
 
 #: 15580
 msgid ""
 "\"Greetings, 'Rake-Chaser.' I've heard you're more than you appear to be.\""
 msgstr ""
+"«Привет, 'Охотник на повес'. Говорят, ты на самом деле нечто большее, чем "
+"это может показаться»."
 
 #: 15581
 msgid "\"Greetings, Rake-Chaser. I had some questions...\""
-msgstr ""
+msgstr "«Здравствуй, Охотник на повес. У меня есть несколько вопросов...»"
 
 #: 15582
 msgid "\"Greetings, and farewell.\""
-msgstr ""
+msgstr "«Здравствуй и прощай»."
 
 #: 15585
 msgid "\"Damn...\""
-msgstr ""
+msgstr "«Черт...»"
 
 #: 15590
 msgid "\"I had some more questions...\""
-msgstr ""
+msgstr "«У меня есть еще несколько вопросов...»"
 
 #: 15592
 msgid "\"Why don't you tell me, 'Rake-Chaser.'\""
-msgstr ""
+msgstr "«Почему бы тебе все не рассказать, Охотник на повес?»"
 
 #: 15593
 msgid "\"You know what I mean. Who are you, really?\""
-msgstr ""
+msgstr "«Ты знаешь, что я имею в виду. Кто ты на самом деле?»"
 
 #: 15594
 msgid "\"Forget it. I had some other questions...\""
-msgstr ""
+msgstr "«Забудь об этом. У меня есть несколько вопросов...»"
 
 #: 15595
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 15596
 msgid "\"Fine. I had other questions, then...\""
-msgstr ""
+msgstr "«Хорошо. Тогда у меня другие вопросы...»"
 
 #: 15597
 msgid "Truth: \"Talk, or I'll beat the answer out of you, wretch!\""
-msgstr ""
+msgstr "Правда: «Говори, или я выбью из тебя ответ, негодяй!»"
 
 #: 15598
 msgid "Bluff: \"Talk, or I'll beat the answer out of you, wretch!\""
-msgstr ""
+msgstr "Блеф: «Говори, или я выбью из тебя ответ, негодяй!»"
 
 #: 15600
 msgid "\"Wait, I had some questions...\""
-msgstr ""
+msgstr "«Постой, у меня есть несколько вопросов...»"
 
 #: 15601
 msgid "Let him go."
-msgstr ""
+msgstr "Позволить ему уйти."
 
 #: 15602
 msgid "\"Well?\""
-msgstr ""
+msgstr "«Ну?»"
 
 #: 15603
 msgid "\"Don't be frightened, I'm not here to harm you.\""
-msgstr ""
+msgstr "«Не бойся, я здесь не для того, чтобы причинить тебе вред»."
 
 #: 15604
 msgid "\"As I thought. Farewell.\""
-msgstr ""
+msgstr "«Я так и думал. Прощай»."

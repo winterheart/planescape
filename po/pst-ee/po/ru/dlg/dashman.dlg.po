@@ -1,43 +1,47 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dashman.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2016-07-10 17:41+0300\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: 12067
 msgid "\"Give me everything you have, thief, and I'll let you go.\""
-msgstr ""
+msgstr "«Отдай мне все, что у тебя есть, ворюга, и я тебя отпущу»."
 
 #: 12068
 msgid ""
 "\"Guards? Go ahead and call them. I'm sure there's *plenty* around here.\""
-msgstr ""
+msgstr "«Стражу? Ага, давай, зови. Уверен, что здесь их - *как грязи*»."
 
 #: 12069 2728 2737 2747 2756
 msgid "Attack him."
-msgstr ""
+msgstr "Атаковать его."
 
 #: 12070
 msgid "Let him go."
-msgstr ""
+msgstr "Позволить ему уйти."
 
 #: 12071 12072
 msgid "\"Dammit...\""
-msgstr ""
+msgstr "«Проклятье...»"
 
 #: 12073
 msgid ""
 "\"I was warned someone like you was dressing up as a Dustman and picking "
 "pockets.\""
 msgstr ""
+"«Меня предупредили, что кто-то вроде тебя под видом тленного обчищает "
+"карманы»."
 
 #: 12074
 msgid ""
@@ -45,258 +49,294 @@ msgid ""
 "some research before trying to run a con on someone smarter than you. Now I "
 "had some questions for you...\""
 msgstr ""
+"«Тебя выдало совершенное незнание основ философии тленных. Тебе следовало бы "
+"побольше изучить ее перед тем, как разводить кого-то умнее тебя. А теперь у "
+"меня есть к тебе вопросы...»"
 
 #: 12075
 msgid ""
 "\"Your skill in picking pockets needs work. Now, I had some questions for "
 "you...\""
 msgstr ""
+"«Тебе бы поработать над своими воровскими навыками. А теперь у меня есть к "
+"тебе несколько вопросов...»"
 
 #: 12076
 msgid "\"I'll let you figure it out. Now, I had some questions for you...\""
 msgstr ""
+"«Попробуй сам догадаться. А теперь у меня есть к тебе несколько вопросов...»"
 
 #: 12077
 msgid "\"You won't live long enough to find out. Prepare to die.\""
-msgstr ""
+msgstr "«Ты не доживешь до того, чтобы выяснить это. Готовься к смерти»."
 
 #: 12078
 msgid "\"What are you doing in that Dustman get-up?\""
-msgstr ""
+msgstr "«Что ты делаешь в этом наряде тленного?»"
 
 #: 12079
 msgid "\"I'm looking for someone named 'Pharod.' You know him?\""
-msgstr ""
+msgstr "«Я ищу кое-кого по имени Фарод. Знаешь такого?»"
 
 #: 12080
 msgid "\"I'm looking for a journal.\""
-msgstr ""
+msgstr "«Я ищу дневник»."
 
 #: 12081
 msgid "Truth: \"Give me everything you have, or I'll kill you.\""
-msgstr ""
+msgstr "Правда: «Отдай мне все, что у тебя есть, или я убью тебя»."
 
 #: 12082
 msgid "Bluff: \"Give me everything you have, or I'll kill you.\""
-msgstr ""
+msgstr "Блеф: «Отдай мне все, что у тебя есть, или я убью тебя»."
 
 #: 12083
 msgid "Truth: \"Now... give me *everything* you have, or I'll kill you.\""
 msgstr ""
+"Правда: «А теперь... отдай мне *все*, что у тебя есть, или я убью тебя»."
 
 #: 12084
 msgid "Bluff: \"Now... give me *everything* you have, or I'll kill you.\""
-msgstr ""
+msgstr "Блеф: «А теперь... отдай мне *все*, что у тебя есть, или я убью тебя»."
 
 #: 12085
 msgid ""
 "\"My question is how many seconds it'll take for me to kill you... prepare "
 "to die.\""
 msgstr ""
+"«Мой вопрос: сколько секунд мне понадобится, чтобы убить тебя... приготовься "
+"умереть»."
 
 #: 12086 12099 12104 12109 12114 12132 12136
 msgid "\"Get out of here. I see you around again, I'll gut you.\""
-msgstr ""
+msgstr "«Проваливай отсюда. Еще раз увижу - прирежу»."
 
 #: 12087 12100 12105 12110 12115 12133 12137
 msgid ""
 "\"Now leave. I don't want to ever even *hear* of you pulling this little con "
 "anywhere in Sigil again. Understand?\""
 msgstr ""
+"«А теперь уходи. И больше даже и *не вздумай* проворачивать свои аферы с кем-"
+"нибудь в Сигиле. Все понятно?»"
 
 #: 12088
 msgid "\"Interesting. I had some other questions...\""
-msgstr ""
+msgstr "«Интересно. У меня есть другие вопросы...»"
 
 #: 12089 12108
 msgid "\"That's all I wanted to know. Prepare to die.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Приготовься к смерти»."
 
 #: 12090
+#, fuzzy
 msgid ""
 "\"I see. Look, Ash-Mantle, here's how it's going to be - I don't want to "
 "ever see you around again, or I'll gut you. Now get.\""
 msgstr ""
+"«Понятно. Значит, так, Осыпанный-Пеплом: больше здесь не появляйся. Если "
+"увижу - прирежу. А теперь проваливай»."
 
 #: 12091
 msgid ""
 "\"Yeah, pretty smart. Look, I don't want to ever see you pulling this little "
 "con anywhere in Sigil again. Understand?\""
 msgstr ""
+"«Ага, очень умно. Значит так, больше даже и *не вздумай* проворачивать свои "
+"аферы с кем-нибудь в Сигиле. Все понятно?»"
 
 #: 12092
 msgid ""
 "Bluff: \"Now you're not just playing dumb, you're *being* dumb. Give me what "
 "you have, or the Collectors will be scraping a new body off the street.\""
 msgstr ""
+"Блеф: «Теперь ты уже не косишь под дурачка - ты и *есть* дурак. Давай все, "
+"что у тебя есть, или сборщики найдут новое тело на улице»."
 
 #: 12093
 msgid ""
 "Truth: \"Now you're not just playing dumb, you're *being* dumb. Give me what "
 "you have, or the Collectors will be scraping a new body off the street.\""
 msgstr ""
+"Правда: «Теперь ты уже не косишь под дурачка - ты и *есть* дурак. Давай все, "
+"что у тебя есть, или сборщики найдут новое тело на улице»."
 
 #: 12094 12103 12127
 msgid "\"Wrong answer. Prepare to die.\""
-msgstr ""
+msgstr "«Неправильный ответ. Готовься к смерти»."
 
 #: 12095 12102
 msgid "\"Oh, yeah? Well, let me shake you down and see if that's true.\""
 msgstr ""
+"«Что, правда? Тогда давай-ка тебя немного потрясем и посмотрим, так ли это»."
 
 #: 12096
 msgid ""
 "\"That it? You better have something else for me, Ash-Mantle, or you and "
 "death are going to be close friends in a moment.\""
 msgstr ""
+"«И это все? Лучше тебе иметь что-нибудь получше для меня, Осыпанный-Пеплом, "
+"иначе вмиг подружишься со своей смертью»."
 
 #: 12097 12101
 msgid "\"All right then. Now I had some questions for you...\""
-msgstr ""
+msgstr "«Вот и хорошо. А теперь у меня есть к тебе вопросы...»"
 
 #: 12098
 msgid "\"That's all I wanted. Prepare to die.\""
-msgstr ""
+msgstr "«Это все, что я хотел. Готовься к смерти»."
 
 #: 12106
 msgid "\"All right then...\""
-msgstr ""
+msgstr "«Ну хорошо...»"
 
 #: 12107
 msgid "\"All right then, I have some other questions for you...\""
-msgstr ""
+msgstr "«Ну хорошо, у меня есть другие вопросы...»"
 
 #: 12111
 msgid "\"Who is he?\""
-msgstr ""
+msgstr "«Кто он такой?»"
 
 #: 12112
 msgid "\"Never mind. I had some other questions...\""
-msgstr ""
+msgstr "«Неважно. У меня есть другие вопросы...»"
 
 #: 12113
 msgid "\"Forget it. Prepare to die.\""
-msgstr ""
+msgstr "«Забудь. Готовься к смерти»."
 
 #: 12116
 msgid "\"No.\""
-msgstr ""
+msgstr "«Нет»."
 
 #: 12117
 msgid ""
 "Vow: \"You have my word that I will let you go... if you answer my question."
 "\""
 msgstr ""
+"Клятва: «Даю слово, что я отпущу тебя... если ты ответишь на мой вопрос»."
 
 #: 12118
 msgid "Truth: \"Yes.\""
-msgstr ""
+msgstr "Правда: «Да»."
 
 #: 12119
 msgid "Lie: \"Yes.\""
-msgstr ""
+msgstr "Ложь: «Да»."
 
 #: 12120 12125
 msgid "Truth: \"I'll let you *live* if you tell me.\""
-msgstr ""
+msgstr "Правда: «Я оставлю тебя *в живых*, если ты скажешь»."
 
 #: 12121 12126
 msgid "Bluff: \"I'll let you *live* if you tell me.\""
-msgstr ""
+msgstr "Блеф: «Я оставлю тебя *в живых*, если ты скажешь»."
 
 #: 12122
 msgid ""
 "Vow: \"Very well. You have my word that I will let you go... if you answer "
 "my question.\""
 msgstr ""
+"Клятва: «Хорошо. Даю слово, что я отпущу тебя... если ты ответишь на мой "
+"вопрос»."
 
 #: 12123
 msgid "Truth: \"Okay, I'll let you go.\""
-msgstr ""
+msgstr "Правда: «Хорошо, я отпущу тебя»."
 
 #: 12124
 msgid "Lie: \"Okay, I'll let you go.\""
-msgstr ""
+msgstr "Ложь: «Хорошо, я отпущу тебя»."
 
 #: 12128
 msgid "\"Where can I find him?\""
-msgstr ""
+msgstr "«Где я могу найти его?»"
 
 #: 12129 12130
 msgid "\"No. I had some other questions for you...\""
-msgstr ""
+msgstr "«Нет. У меня есть другие вопросы к тебе...»"
 
 #: 12131
 msgid "\"That was all I needed to know. Prepare to die.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Готовься к смерти»."
 
 #: 12134
 msgid "\"And *you* said you were a Dustman. Now for my questions...\""
-msgstr ""
+msgstr "«А *ты* говорил, что ты - тленный. А теперь насчет моих вопросов...»"
 
 #: 12135
 msgid ""
 "\"Yes, I said a lot of things, and now I am tired of speaking to you. "
 "Prepare to die.\""
 msgstr ""
+"«Да, я много чего говорил, и теперь мне надоело с тобой разговаривать. "
+"Готовься к смерти»."
 
 #: 12138 12139 2180 2182
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 12140
 msgid "Pass him by."
-msgstr ""
+msgstr "Пройти мимо."
 
 #: 12141 12150 2184 2195
 msgid ""
 "\"You know, there's been talk that there's a pickpocket masquerading as a "
 "Dustman around here. Maybe you know him?\""
 msgstr ""
+"«Знаешь, тут ходят слухи о карманном воре, который наряжается как тленный. "
+"Ты случайно его не знаешь?»"
 
 #: 12142 12153 2187
 msgid ""
 "\"Oh, the Dustman bar? It's by the Mortuary. Orient yourself by the Mortuary "
 "front gate, then walk directly southwest. You can't miss it.\""
 msgstr ""
+"«А, бар тленных? Он рядом с Моргом. Иди от главных ворот Морга строго на юго-"
+"запад. Ты его не пропустишь»."
 
 #: 12143 12154 2188 2197
 msgid "\"I've heard of it. I'd be willing to help you... for a price.\""
-msgstr ""
+msgstr "«Я слыхал о нем. Я помогу тебе... в обмен на награду»."
 
 #: 12144 12155 2198 61400
 msgid ""
 "\"I've heard of it. I'd be willing to help you... if you'll answer some "
 "questions for me.\""
-msgstr ""
+msgstr "«Я слыхал о нем. Я помогу тебе... если ты ответишь на мои вопросы»."
 
 #: 12145 12156 2189 2199
 msgid ""
 "Lie: \"Er... yeah, I've heard of it. I'd be willing to help you... for a "
 "price.\""
 msgstr ""
+"Ложь: «Э-э-э... ага, я слыхал о нем. Я помогу тебе... в обмен на награду»."
 
 #: 12146 12157 2190 2200
 msgid ""
 "Lie: \"Er... yeah, I've heard of it. I'd be willing to help you... if you'll "
 "answer some questions for me.\""
 msgstr ""
+"Ложь: «Э-э-э... ага, я слыхал о нем. Я помогу тебе... если ты ответишь на "
+"мои вопросы»."
 
 #: 12147 12148 12158 12159 2193 2194 2203 2204
+#, fuzzy
 msgid "\"I can't help you. Farewell.\""
-msgstr ""
+msgstr "«Я не могу помочь тебе. Прощай»."
 
 #: 12149
 msgid "\"I suggest you make haste.\""
-msgstr ""
+msgstr "«Советую тебе поторопиться»."
 
 #: 12151 2185
 msgid "\"'Sect'? Don't you mean 'faction'?\""
-msgstr ""
+msgstr "«Секты? Ты, наверное, имел в виду фракции?»"
 
 #: 12152 2186
 msgid "\"'Sect'? You're a Dustman: Don't you mean 'faction'?\""
-msgstr ""
+msgstr "«Секты? Ты ведь тленный. Наверное, ты имел в виду фракции?»"
 
 #: 2133
 msgid ""
@@ -305,6 +345,10 @@ msgid ""
 "confused and is glancing about. When he spots you, he raises his hand to "
 "attract your attention."
 msgstr ""
+"Перед тобой бледный мужчина в длинной черной мантии. Он выглядит почти так "
+"же, как те люди в Морге, но в отличие от них он кажется смущенным и пялится "
+"по сторонам. Едва завидев тебя, он поднимает руку, чтобы привлечь твое "
+"внимание."
 
 #: 2134
 msgid ""
@@ -313,6 +357,9 @@ msgid ""
 "about, as if looking for something. When he spots you, he raises his hand to "
 "attract your attention."
 msgstr ""
+"Перед тобой бледный мужчина в длинной черной мантии. В отличии от тленных из "
+"Морга, он кажется смущенным и пялится по сторонам, как будто что-то ищет. "
+"Едва завидев тебя, он поднимает руку, чтобы привлечь твое внимание."
 
 #: 2135
 msgid ""
@@ -322,6 +369,12 @@ msgid ""
 "area very well, and I'm looking for a certain establishment, a bar, that "
 "those of my sect frequent. Do you know of such a place?\""
 msgstr ""
+"Кажется, мужчина испытывает явное облегчение, когда ты начинаешь "
+"разговаривать с ним. Он делает небольшой поклон. «Спасибо, что не прошел "
+"мимо, странник. Я - Осыпанный-Пеплом, один из членов секты тленных. Я буду "
+"очень признателен, если ты мне поможешь... Я не очень хорошо знаю это место, "
+"но ищу некое заведение, бар, в котором часто бывают члены моей секты. Ты не "
+"знаешь, где он находится?»"
 
 #: 2136
 msgid ""
@@ -329,46 +382,58 @@ msgid ""
 "they are much the same thing, really... do you happen to know of this bar "
 "that my faction frequents?\""
 msgstr ""
+"Тленный кивает. «Ну да, *фракция*, я имел в виду фракцию... секта, фракция - "
+"на самом деле это одно и то же... так ты случайно не знаешь бар, где часто "
+"бывают члены моей фракции?»"
 
 #: 2137
 msgid ""
 "He sighs and holds up his hands. \"I regret to say that I have no jink to "
 "spare.\""
 msgstr ""
+"Он вздыхает и поднимает руки. «Мне жаль это признавать, но у меня нет "
+"звенелок»."
 
 #: 2138
 msgid "The Dustman nods and gives a final bow. \"Thank you for your time.\""
 msgstr ""
+"Тленный кивает и отвешивает финальный поклон. «Спасибо за уделенное время»."
 
 #: 2139
 msgid ""
 "The Dustman smiles. \"Thank you very much, traveler. I appreciate your "
 "kindness. The people of the Hive are... rarely helpful in such matters.\""
 msgstr ""
+"Тленный улыбается. «Большое тебе спасибо, странник. Я благодарю тебя за "
+"помощь. Люди в Улье... очень редко помогают в подобных случаях»."
 
 #: 2140
 msgid ""
 "He nods. \"Your request is reasonable. Tell me where I might find the "
 "Gathering Dust bar, and I will be happy to answer any of your questions.\""
 msgstr ""
+"Он кивает. «Твою просьбу можно понять. Скажи мне, где мне найти Бар "
+"собирателей пыли, и я буду рад ответить на любой твой вопрос»."
 
 #: 2141
 msgid "\"What questions do you have?\""
-msgstr ""
+msgstr "«Что у тебя за вопросы?»"
 
 #: 2142
 msgid "\"I'm sorry, but that name is not known to me.\""
-msgstr ""
+msgstr "«Прошу прощения, но это имя мне неизвестно»."
 
 #: 2143
 msgid "\"I do not know where you might find such a thing. I mourn its loss.\""
-msgstr ""
+msgstr "«Не знаю, где ты можешь найти такую вещь. Скорблю по его утрате»."
 
 #: 2144
 msgid ""
 "The man shrugs slightly. \"I am not without sympathy for your loss. There "
 "are many things of value in one's life.\""
 msgstr ""
+"Мужчина слегка пожимает плечами. «Я сочувствую твоей потере. В жизни каждого "
+"есть много ценных вещей»."
 
 #: 2145
 msgid ""
@@ -376,15 +441,20 @@ msgid ""
 "government office to the southwest...\" He thinks for a moment. \"The Vermin "
 "Control Office, I think.\""
 msgstr ""
+"«Это место... ну, это северо-западный рынок, если я не ошибаюсь. На юго-"
+"западе есть какое-то правительственный учреждение... - он ненадолго "
+"задумывается. - Кажется, Управление по борьбе с вредителями»."
 
 #: 2146
 msgid ""
 "He shrugs. \"The Hive is a large place. I know some areas, but not others.\""
 msgstr ""
+"Он пожимает плечами. «Улей - очень большое место. Какие-то места я знаю, "
+"какие-то - нет»."
 
 #: 2147
 msgid "The man blinks. \"Well... I am not a common Dustman.\""
-msgstr ""
+msgstr "Мужчина моргает. «Ну... На самом деле, я нетипичный тленный»."
 
 #: 2148
 msgid ""
@@ -393,29 +463,41 @@ msgid ""
 "our passions before the next life. We sift through the dust of our past "
 "lives for meaning before the next.\""
 msgstr ""
+"Он умолкает на некоторое время... затем кивает. «С удовольствием. Мы... "
+"Тленные... рассматриваем эту жизнь как возможность испытать свои чувства "
+"перед следующей. Мы просеиваем тлен наших прошлых жизней в поисках "
+"следующих»."
 
 #: 2149
 msgid ""
 "The man nods, a little uncomfortably. \"Why, I am Ash-Mantle, one of the "
 "ninth circle.\""
 msgstr ""
+"Мужчина кивает, чувствуя себя немного неуютно. «Ну, я - Осыпанный-Пеплом, "
+"член Девятого Круга»."
 
 #: 2150
 msgid ""
 "He suddenly tenses up. \"I don't have time to debate the practices and "
 "rankings of the Dustman sect with you. So if you'll excuse me...\""
 msgstr ""
+"Он неожиданно напрягается. «У меня нет времени на обсуждение обычаев и "
+"иерархии секты тленных. Так что прошу прощения...»"
 
 #: 2151
 msgid ""
 "The man looks at you innocently, but you see him tense up. \"I'm sorry?\""
 msgstr ""
+"Мужчина смотрит на тебя невинным взглядом, но ты видишь, что он напряжен. "
+"«Прошу прощения?»"
 
 #: 2153
 msgid ""
 "He nods. \"Agreed. We'll never cross paths again. I'll find another peel... "
 "er, job, elsewhere.\""
 msgstr ""
+"Он кивает. «Хорошо. Наши пути больше не пересекутся. Найду себе другую "
+"аферу... э-э-э, работу, где-нибудь еще»."
 
 #: 2154
 msgid ""
@@ -423,12 +505,18 @@ msgid ""
 "is amiss. Suspicious, you glance at Ash-Mantle again, just in time to see "
 "him tucking something into his sleeves... it looks like something of yours."
 msgstr ""
+"Ты уже готов идти прочь, как вдруг у тебя появляется чувство, что чего-то не "
+"хватает. Ты недоверчиво оглядываешься на Осыпанного-Пеплом, едва успевшего "
+"спрятать что-то в рукав... кажется, это что-то принадлежало тебе."
 
 #: 2155
 msgid ""
 "You would have missed it if you were not suspicious already, but during one "
 "of his low bows, you see Ash-Mantle's hand dart out to your purse."
 msgstr ""
+"Ты бы ничего и не заметил, если бы не был настороже. Ты видишь, как во время "
+"одного из своих низких поклонов Посыпанный-Пеплом незаметно запускает руку в "
+"твой кошелек."
 
 #: 2156
 msgid ""
@@ -436,6 +524,9 @@ msgid ""
 "pickpocket, but during one of his low bows, you see Ash-Mantle's hand dart "
 "out to your purse."
 msgstr ""
+"Ты бы ничего и не заметил, если бы не был предупрежден о тленном-карманнике. "
+"Ты видишь, как во время одного из своих низких поклонов Посыпанный-Пеплом "
+"незаметно запускает руку в твой кошелек."
 
 #: 2157
 msgid ""
@@ -444,6 +535,10 @@ msgid ""
 "notice Ash-Mantle removing his hand from it. He doesn't seem to know you saw "
 "him, however."
 msgstr ""
+"Возможно, только благодаря собственным навыкам воровства ты не теряешь "
+"бдительности. Перед уходом ты инстинктивно бросаешь взгляд на свой "
+"кошелек... и видишь, как Осыпанный-Пеплом вытаскивает из него свою руку. "
+"Однако он, кажется, не знает, что ты его подловил."
 
 #: 2158
 msgid ""
@@ -454,6 +549,13 @@ msgid ""
 "pocketing attempts. You make a mental note of his technique... just as he "
 "makes another attempt to reach into your purse."
 msgstr ""
+"Под предлогом предоставления дополнительной информации о нужных направлениях "
+"по местам Улья ты вовлекаешь Осыпанного-Пеплом в непринужденный разговор, "
+"при этом украдкой следя за его движениями. Похоже, Осыпанный-Пеплом "
+"полностью уверился, что его маскировка под тленного сведет на нет "
+"подозрительность жертвы, и что частые поклоны прикроют его попытки залезть в "
+"карман. Ты мысленно отмечаешь его технику... вплоть до того момента, когда "
+"он в очередной раз пытается добраться до твоего кошелька."
 
 #: 2159
 msgid ""
@@ -461,6 +563,10 @@ msgid ""
 "his Dustman facade crumple, and he snarls as he tries to tear away from your "
 "grip. \"Unhand me, dog, or I'll call the guards!\""
 msgstr ""
+"Твоя рука молниеносно выстреливает и хватает его запястье мертвой хваткой. "
+"Ты отмечаешь, что он уже не пытается строить из себя тленного, и, рыча, "
+"пытается вырваться из твоей руки. «Отпусти меня, псина, не то я позову "
+"стражу!»"
 
 #: 2160
 msgid ""
@@ -468,31 +574,38 @@ msgid ""
 "grabbing his wrist. You see his Dustman facade crumple, and with a "
 "frightened look, he runs off!"
 msgstr ""
+"Твоя рука молниеносно выстреливает, но тут Осыпанный-Пеплом внезапно "
+"отступает, и ты не дотягиваешься до его запястья. Ты наблюдаешь, как он "
+"сбрасывает свою маскировку и с ошалелым видом бросается наутек!"
 
 #: 2161
 msgid "Ash-mantle suddenly takes off running!"
-msgstr ""
+msgstr "Осыпанный-Пеплом внезапно бросается наутек!"
 
 #: 2162
 msgid ""
 "\"Pah.\" He looks more irritated than anything else. \"What gave me away?\""
-msgstr ""
+msgstr "«Тьфу». Он выглядит более чем расстроенным. «Что меня выдало?»"
 
 #: 2163
 msgid "\"What's your questions then?\""
-msgstr ""
+msgstr "«Ну и что у тебя за вопросы?»"
 
 #: 2164
 msgid ""
 "He shrugs. \"Nobody suspects a Dustman.\" He gives a hollow chuckle. \"Can "
 "make a nice bit of jink before anyone catches on to the peel.\""
 msgstr ""
+"Он пожимает плечами. «Никто не заподозрит тленного, - он глупо смеется. - "
+"Можно наварить неплохой куш, пока кто-нибудь не поймает на афере»."
 
 #: 2165
 msgid ""
 "The man's eyes narrow. \"I have nothing on me. You were my first mark of the "
 "day.\""
 msgstr ""
+"Глаза мужчины сужаются. «У меня ничего нет. Ты - моя первая жертва за "
+"сегодня»."
 
 #: 2166
 msgid ""
@@ -501,34 +614,42 @@ msgid ""
 "the robe and pulls forth a small bit of copper stashed there. He hands it "
 "over. You don't think you would have found it if he hadn't revealed it."
 msgstr ""
+"Он ворчит, пытаясь оценить шансы разобраться с тобой, но затем, трезво "
+"оценив обстановку, касается внутренней прокладки своей мантии. Резко дергая "
+"рукой, он разрывает мантию и вытаскивает оттуда небольшую кучку медяков. Ты "
+"бы ни за что не нашел их, если бы он сам не показал."
 
 #: 2167
 msgid "He bares his teeth. \"I have nothing else.\""
-msgstr ""
+msgstr "Он скалит зубами. «У меня больше ничего нет»."
 
 #: 2168
 msgid ""
 "As you are about to search him, a dagger suddenly slides from his sleeve "
 "into his free hand. With a snarl, he attacks you!"
 msgstr ""
+"Ты пытаешься обыскать его, но внезапно из его рукава появляется кинжал. "
+"Рыча, он нападает на тебя!"
 
 #: 2169
 msgid ""
 "The man frowns. \"So? You think I seen something like that? I only deal in "
 "jink, berk.\""
 msgstr ""
+"Мужчина хмурится. «И? Ты думаешь, я обращаю внимание на такие вещи? Я "
+"работаю только со звенелками, пень»."
 
 #: 2170
 msgid "\"What about him?\""
-msgstr ""
+msgstr "«А что с ним?»"
 
 #: 2171
 msgid "\"Will you let me go if I tell you?\""
-msgstr ""
+msgstr "«А ты меня отпустишь, если скажу?»"
 
 #: 2172
 msgid "He spits on the ground. \"Then I have little ta say on the matter.\""
-msgstr ""
+msgstr "Он сплевывает на землю. «Тогда мне нечего сказать по этому поводу»."
 
 #: 2173
 msgid ""
@@ -536,6 +657,9 @@ msgid ""
 "they've got a tidy operation all set up. Don't know much else about it. I'd "
 "be careful if I was tangling with him.\""
 msgstr ""
+"«Фарод - босс сборщиков. Под его властью много мальчиков на побегушках, и "
+"поговаривают, что у него все схвачено. Больше об этом я ничего не знаю. Я бы "
+"был настороже, если бы имел с ним дело»."
 
 #: 2174
 msgid ""
@@ -545,50 +669,65 @@ msgid ""
 "trash mountains somewhere, maybe buried beneath 'em. Who knows? Now, you "
 "gonna let me go?\""
 msgstr ""
+"«Его берлога находится на площади Старьевщиков... это такая большая куча "
+"тряпок и всякого мусора к северо-западу отсюда. Иди через северные ворота до "
+"тех пор, пока не уткнешься в нее. Говорят, что Фарод прячется под какой-то "
+"мусорной кучей, может, даже похоронен под ней. Кто знает? Теперь ты меня "
+"отпустишь?»"
 
 #: 2175
 msgid "He looks furious. \"You *said* you'd let me go.\""
-msgstr ""
+msgstr "Он выглядит разозленным. «Ты *говорил*, что отпустишь меня»."
 
 #: 2176
+#, fuzzy
 msgid ""
 "You see Ash-Mantle again... he still looks lost and is mumbling as he looks "
 "at the buildings."
 msgstr ""
+"Ты снова видишь Осыпанного-Пеплом... он все еще выглядит потерянным и что-то "
+"бормочет, пялясь на здания."
 
 #: 2177
 msgid ""
 "\"I'm afraid I've forgotten your directions, sir. Could I prevail upon you "
 "to direct me again?\""
 msgstr ""
+"«Боюсь, что я забыл направление, сэр. Могу ли я еще раз услышать, как мне "
+"попасть в назначенное место?»"
 
 #: 2178
 msgid "\"I'm leaving! Now let me be!\""
-msgstr ""
+msgstr "«Я ухожу! Оставь меня в покое!»"
 
 #: 2179
 msgid ""
 "\"I know you were not able to help me before, sir. Perhaps this time you "
 "might know where this bar my sect frequents is?\""
 msgstr ""
+"«Я помню, что раньше вы не смогли помочь мне, сэр. Возможно, в этот раз вы "
+"сможете подсказать, где находится бар, в котором часто бывают члены моей "
+"секты?»"
 
 #: 2181 2183
 msgid "Ignore the man."
-msgstr ""
+msgstr "Не обращать на него внимания."
 
 #: 2191 2201
 msgid "\"No, I'm sorry, I don't know where that is.\""
-msgstr ""
+msgstr "«Нет, извини, я не знаю, где это находится»."
 
 #: 2192 2202
 msgid "Lie: \"No, I'm sorry, I don't know where that is.\""
-msgstr ""
+msgstr "Ложь: «Нет, извини, я не знаю, где это находится»."
 
 #: 2196 2622
 msgid ""
 "\"The bar you want is by the Mortuary. Orient yourself by the Mortuary front "
 "gate, then walk directly southwest. You can't miss it.\""
 msgstr ""
+"«Бар, который ты ищешь, рядом с Моргом. Иди от главных ворот Морга строго на "
+"юго-запад. Ты его не пропустишь»."
 
 #: 2205
 msgid ""
@@ -596,179 +735,190 @@ msgid ""
 "yourself by the Mortuary front gate, then walk directly southwest. You can't "
 "miss it.\""
 msgstr ""
+"«Тогда забудь об этом. Бар, который ты ищешь, рядом с Моргом. Иди от главных "
+"ворот Морга строго на юго-запад. Ты его не пропустишь»."
 
 #: 2206
 msgid "\"How about you answer some questions for me, and we'll call it even.\""
-msgstr ""
+msgstr "«Давай так: ты ответишь на несколько моих вопросов - и мы в расчете»."
 
 #: 2613
 msgid "\"Then I can't help you. Farewell.\""
-msgstr ""
+msgstr "«Тогда я ничем не могу тебе помочь. Прощай»."
 
 #: 2614 2615 2616 2618
 msgid "\"Certainly. Farewell.\""
-msgstr ""
+msgstr "«Не за что. Прощай»."
 
 #: 2617
 msgid "\"Certainly... Farewell.\""
-msgstr ""
+msgstr "«Не за что... Прощай»."
 
 #: 2620
 msgid "\"Tell me about it. Say, can I ask you some questions?\""
-msgstr ""
+msgstr "«И не говори. Скажи, ты можешь ответить на пару моих вопросов?»"
 
 #: 2621 2657
 msgid "\"Not a problem. Farewell, Ash-Mantle.\""
-msgstr ""
+msgstr "«Без проблем. Прощай, Осыпанный-Пеплом»."
 
 #: 2649
 msgid ""
 "Lie: \"Yeah, center yourself on the Mortuary, then walk... three blocks "
 "west, I believe... and it's the first alleyway on the right.\""
 msgstr ""
+"Ложь: «Ага, встань напротив Морга, а потом иди... три квартала на запад, "
+"кажется... а потом сверни в первый переулок направо»."
 
 #: 2650
 msgid ""
 "\"Actually, I can't seem to recall where it is right now. I'll return if I "
 "remember. Farewell.\""
 msgstr ""
+"«На самом деле, я не могу вспомнить, где он находится. Я вернусь, если "
+"вспомню. Прощай»."
 
 #: 2651
 msgid "\"I'm looking for a man named Pharod. Do you know of him?\""
-msgstr ""
+msgstr "«Я ищу кое-кого по имени Фарод. Знаешь такого?»"
 
 #: 2652
 msgid ""
 "\"I'm looking for a missing journal. Do you know where I might find one?\""
-msgstr ""
+msgstr "«Я ищу потерянный дневник. Ты не знаешь, где я могу его найти?»"
 
 #: 2653
 msgid "\"Can you tell me a little about the area?\""
-msgstr ""
+msgstr "«Расскажи мне немного об этом месте»."
 
 #: 2654
 msgid "\"Can you tell me a little about the Dustmen?\""
-msgstr ""
+msgstr "«Расскажи мне немного о тленных»."
 
 #: 2655
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 2656
 msgid "\"Very well. I had some other questions...\""
-msgstr ""
+msgstr "«Хорошо. У меня есть другие вопросы...»"
 
 #: 2658
 msgid "\"Really? I thought Dustmen didn't value possessions.\""
-msgstr ""
+msgstr "«Правда? А я думал, что тленные не ценят имущество»."
 
 #: 2659
 msgid "\"I had some other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 2660
 msgid "\"Thanks for the concern. Farewell.\""
-msgstr ""
+msgstr "«Спасибо за внимание. Прощай»."
 
 #: 2662
 msgid "\"You have... *unusual* views for a Dustman.\""
-msgstr ""
+msgstr "«Для тленного у тебя... *необычная* точка зрения»."
 
 #: 2663 2668 2671 2680 2684
 msgid "\"I see. I had some other questions...\""
-msgstr ""
+msgstr "«Понятно. У меня еще вопросы...» "
 
 #: 2664 2669 2672 2681 2685
 msgid "\"Thanks for the information. Farewell.\""
-msgstr ""
+msgstr " «Спасибо за информацию. Прощай»."
 
 #: 2665
 msgid "\"I thought you didn't know the area very well.\""
-msgstr ""
+msgstr "«А я думал, что ты не очень знаком с этим местом»."
 
 #: 2666 2667
 msgid "\"You seem to know *this* area very well.\""
-msgstr ""
+msgstr "«Похоже, ты знаешь *это* место очень хорошо»."
 
 #: 2670
 msgid ""
 "\"It seems odd that a Dustman wouldn't know where the Gathering Dust bar is "
 "- it's right next to the Mortuary.\""
 msgstr ""
+"«Очень странно, что тленный не знает о Баре собирателей пыли - ведь он прямо "
+"перед Моргом»."
 
 #: 2673
 msgid "\"I'm gathering that. Who are you?\""
-msgstr ""
+msgstr "«Я это уже понял. Кто ты?»"
 
 #: 2682
 msgid "\"Uh... that is an *unusual* view for a Dustman.\""
-msgstr ""
+msgstr "«Э-э... для тленного это довольно-таки *необычная* точка зрения»."
 
 #: 2683
 msgid "\"That's no Dustman cant I've ever heard. Who are you?\""
-msgstr ""
+msgstr "«Такого я никогда не слышал ни от одного тленного. Кто ты?»"
 
 #: 2686
 msgid "\"Ninth Circle? There is no such thing.\""
-msgstr ""
+msgstr "«Девятый Круг? Такого не существует»."
 
 #: 2687
 msgid "\"I... see. I had some other questions...\" "
-msgstr ""
+msgstr "«Понятно... У меня еще вопросы...» "
 
 #: 2688
 msgid "\"Very well, then. Farewell.\""
-msgstr ""
+msgstr "«Отлично. Прощай»."
 
 #: 2689 2690 2693 2694 2699 2700 2730 2731 2739 2740 2749 2750 2761 2762
 msgid "Grab his hand."
-msgstr ""
+msgstr "Схватить его за руку."
 
 #: 2691
 msgid "\"Who are you really?\""
-msgstr ""
+msgstr "«Так кто ты на самом деле?»"
 
 #: 2692
+#, fuzzy
 msgid "\"Never mind then. Sorry to give offense.\""
-msgstr ""
+msgstr "«Тогда ничего. Извини, если обидел»."
 
 #: 2695
 msgid "\"You're no Dustman. You're a pickpocket.\""
-msgstr ""
+msgstr "«Ты не тленный. Ты карманник»."
 
 #: 2696
 msgid "\"I'm sorry, too. Prepare to die.\""
-msgstr ""
+msgstr "«Я тоже прошу прощения. Приготовься к смерти»."
 
 #: 2697
 msgid "\"Nothing, never mind. Farewell.\""
-msgstr ""
+msgstr "«Ничего, неважно. Прощай»."
 
 #: 2698
 msgid "\"Very well. Now go.\""
-msgstr ""
+msgstr "«Хорошо. А теперь проваливай»."
 
 #: 2723 2732 2741 2751 2777
 msgid "\"Hey! What do you think you're doing?!\""
-msgstr ""
+msgstr "«Эй! Ты что творишь?!»"
 
 #: 2724 2726 2727 2752 2754 2755
 msgid ""
 "Bait Ash-Mantle into pick pocketing you again, and observe his technique."
 msgstr ""
+"Спровоцировать Осыпанного-Пеплом на воровство и проследить за его техникой."
 
 #: 2729 2738 2748 2760 2779
 msgid "Ignore the incident, leave."
-msgstr ""
+msgstr "Не обращать внимания на инцидент и уйти."
 
 #: 2733 2735 2736 2742 2744 2746
 msgid "Allow Ash-Mantle to pick your pocket, and observe his technique."
 msgstr ""
+"Позволить Осыпанному-Пеплом залезть в карман и проследить за его техникой."
 
 #: 2778
 msgid "Attack him. "
-msgstr ""
+msgstr "Атаковать его."
 
 #: 2780
 msgid "\"*After* you answer some questions, 'Dustman.'\""
-msgstr ""
+msgstr "«*После* того, как ты ответишь на несколько вопросов, 'тленный'»."

@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2012, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dmengine.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-08 23:31+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 48686
 msgid ""
@@ -18,78 +20,84 @@ msgid ""
 "its sides. On the front of the cube is an animated face. As you approach, "
 "the creature focuses its eyes upon you."
 msgstr ""
+"Перед тобой куб с парой рук, ног и парой небольших крылышек по бокам. "
+"Спереди куба есть лицо, которое при твоем приближении фокусирует на тебе "
+"глаза."
 
 #: 48687
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 48688
 msgid "Ignore the creature."
-msgstr ""
+msgstr "Не обращать внимания на существо."
 
 #: 48689
 msgid "\"Greetings.\" The creature speaks with a monotone, sexless voice."
-msgstr ""
+msgstr "«Приветствуем». У существа монотонный и бесполый голос."
 
 #: 48690 48702 48706 48715 48719 48723 48727 48732 48738 48750 48754 48758
 #: 48762 48766 48771 48775 48780 48914 48922 48926 48931
 msgid "\"I have some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 48691 48915
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 48692
 msgid "The creature continues to look at you blankly. \"State your question.\""
-msgstr ""
+msgstr "Существо смотрит на тебя пустым взглядом. «Сформулируй свой вопрос»."
 
 #: 48693
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 48694
 msgid "\"What are you?\""
-msgstr ""
+msgstr "«Что ты такое?»"
 
 #: 48695
 msgid "\"What is this place?\""
-msgstr ""
+msgstr "«Что это за место?»"
 
 #: 48696
+#, fuzzy
 msgid "\"What exactly is Rubikon capable of?\""
-msgstr ""
+msgstr "«На что именно способен Рубикон?»"
 
 #: 48697
 msgid "\"I want to create a dungeon to explore.\""
-msgstr ""
+msgstr "«Я хочу создать подземелье для исследований»."
 
 #: 48698
 msgid "\"I want to use the portal lens to travel somewhere.\""
-msgstr ""
+msgstr "«Я хочу воспользоваться портальными линзами для путешествия»."
 
 #: 48700
 msgid "\"We are modron.\""
-msgstr ""
+msgstr "«Мы - модрон»."
 
 #: 48701
 msgid "\"Your name is Modron?\""
-msgstr ""
+msgstr "«Твое имя Модрон?»"
 
 #: 48703 48707 48711 48716 48720 48724 48728 48733 48739 48751 48755 48759
 #: 48763 48767 48772 48776 48781 48918 48923 48927 48932
 msgid "\"I must be going now. Farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай»."
 
 #: 48704
 msgid ""
 "\"We are modron. We do not have a name. We are modron. All that you see here "
 "are modron. We are one.\""
 msgstr ""
+"«Мы - модрон. Мы не имеем имен. Мы - модрон. Все, что ты видишь здесь, - "
+"модрон. Мы - одно»."
 
 #: 48705
 msgid "\"If you don't have names, how do you tell one modron from another?\""
-msgstr ""
+msgstr "«Но если у вас нет имен, как вы отличаете друг друга?»"
 
 #: 48708
 msgid ""
@@ -97,50 +105,54 @@ msgid ""
 "modron. We are a part of the whole. Just as you recognize the hand that is "
 "part of the arm, we recognize each part of the whole.\""
 msgstr ""
+"Анализируя твой вопрос, модрон на некоторое время умолкает. «Мы знаем. Мы - "
+"модрон. Мы - часть целого. Как ты сознаешь ладонь частью руки, так и мы "
+"сознаем каждую часть целого»."
 
 #: 48709
 msgid "\"What about you, the individual...\""
-msgstr ""
+msgstr "«А что насчет тебя как личности...»"
 
 #: 48710 48917
 msgid "\"That's interesting. I have some questions...\""
-msgstr ""
+msgstr "«Очень интересно. У меня есть другие вопросы...»"
 
 #: 48712
 msgid "\"We are modron, we are quadrone.\""
-msgstr ""
+msgstr "«Мы - модрон, мы - квадрон»."
 
 #: 48713
 msgid "\"What is a modron?\""
-msgstr ""
+msgstr "«Что такое модрон?»"
 
 #: 48714
 msgid "\"What is a quadrone?\""
-msgstr ""
+msgstr "«Что такое квадрон?»"
 
 #: 48717
 msgid "\"We are modron. Our race is identified as such.\""
-msgstr ""
+msgstr "«Мы - модрон. Наша раса идентифицируется так»."
 
 #: 48718
 msgid "\"Then what is a quadrone?\""
-msgstr ""
+msgstr "«А что такое квадрон?»"
 
 #: 48721
 msgid "\"Within our race, we are identified as type quadrone.\""
-msgstr ""
+msgstr "«Внутри нашей расы мы идентифицируемся как тип квадрон»."
 
 #: 48722
 msgid "\"Then what is a modron?\""
-msgstr ""
+msgstr "«А что такое модрон?»"
 
 #: 48725
 msgid "\"This is the Rubikon Dungeon Construct Project.\""
-msgstr ""
+msgstr "«Это проект Подземелья Рубикон»."
 
 #: 48726
+#, fuzzy
 msgid "\"What exactly is that?\""
-msgstr ""
+msgstr "«А что это на самом деле?»"
 
 #: 48729
 msgid ""
@@ -149,14 +161,18 @@ msgid ""
 "surrounding the environment commonly construed as a dungeon and to attempt "
 "to explain the aberrations that tend to occur in such environments.\""
 msgstr ""
+"Модрон издает жужжание, пока отвечает тебе. «Рубикон: задачи проекта - "
+"определить движущие силы, как социальные, так и асоциальные, окружающие "
+"среду, собранную в виде подземелья, и попытаться объяснить аберрации, "
+"которые возникают в подобных средах». "
 
 #: 48730
 msgid "\"How do you intend to do that?\""
-msgstr ""
+msgstr "«И как вы собираетесь это сделать?»"
 
 #: 48731
 msgid "\"What aberrations are you talking about?\""
-msgstr ""
+msgstr "«О каких еще аберрациях ты говоришь?»"
 
 #: 48734
 msgid ""
@@ -167,18 +183,24 @@ msgid ""
 "difficulty level chosen. After creation the dungeon can be fully explored.\" "
 "The modron begins to emit a low hum."
 msgstr ""
+"«Рубикон способен сформировать серию комнат, соединенных определенным "
+"способом, который обычно именуется *подземельем*. Каждое подземелье может "
+"иметь три уровня сложности: простой, нормальный и сложный. Подземелье "
+"заполняется монстрами, ловушками и сокровищами согласно выбранному уровню "
+"сложности. После создания подземелье можно полностью исследовать», - модрон "
+"начинает низко гудеть."
 
 #: 48735
 msgid "\"What is that humming sound?\""
-msgstr ""
+msgstr "«Что это за жужжание?»"
 
 #: 48736 48929
 msgid "\"You said something about aberrations?\""
-msgstr ""
+msgstr "«Ты что-то сказал про аберрации?»"
 
 #: 48737 48748 48930
 msgid "\"Interesting. I'd like to try out one of these dungeons.\""
-msgstr ""
+msgstr "«Интересно. Я хотел бы попробовать одно из этих подземелий»."
 
 #: 48740
 msgid ""
@@ -187,20 +209,26 @@ msgid ""
 "there in the first place? What are the dynamics of a workable dungeon? We do "
 "not understand...\" It pauses. \"I... do not...\""
 msgstr ""
+"«Запросы, на которые необходимо ответить: Что привлекает людей в подземелья? "
+"Почему люди так часто стараются проникнуть в них, если подобные места "
+"содержат опасность? Почему именно подземелья? Каковы движущие силы реального "
+"подземелья? Мы... - он делает паузу. - Я не понимаю»."
 
 #: 48749
 msgid "\"You started to say *I* instead of *we*...\""
-msgstr ""
+msgstr "«Ты начал говорить *я* вместо *мы*...»"
 
 #: 48752
 msgid ""
 "There is a significant pause before the modron answers you. \"Request "
 "denied... Project halted due to... accident.\""
 msgstr ""
+"Перед ответом нависает долгое молчание. «Запрос отклонен... Проект "
+"приостановлен из-за... происшествия»."
 
 #: 48753
 msgid "\"What accident?\""
-msgstr ""
+msgstr "«Какого происшествия?»"
 
 #: 48756
 msgid ""
@@ -209,10 +237,14 @@ msgid ""
 "causing contact with home plane of Mechanus to be severed, cause uncertain. "
 "Reset of dungeon necessary.\""
 msgstr ""
+"«Сооружение подземелья стало нестабильной, вызвав неопределенность. "
+"Активированные предохранители предотвращения коллапса подземелья вызвали "
+"неопределенность. Портальные линзы дали сбой, вызвав разрыв связи с домашним "
+"планом Механусом, вызвав неопределенность. Требуется сброс подземелья»."
 
 #: 48757
 msgid "\"Then why don't you reset it?\""
-msgstr ""
+msgstr "«Так почему бы не сбросить его?»"
 
 #: 48760
 msgid ""
@@ -220,24 +252,33 @@ msgid ""
 "disintegrated. Portal lens has malfunctioned and contact with Mechanus "
 "severed. Cannot acquire replacement director from Mechanus.\""
 msgstr ""
+"«Сброс может быть инициализирован только директором проекта. Директор "
+"проекта дезинтегрирован. Портальные линзы дали сбой, и контакт с Механусом "
+"был прерван. Невозможно получить нового руководителя с Механуса»."
 
 #: 48761
 msgid ""
 "\"Let me get this straight. You can't reset without a director, but you "
 "can't get a director without resetting?\""
 msgstr ""
+"«Давай начистоту. Вы не можете сделать сброс без директора, но директора вы "
+"не сможете достать, не сделав сброс?»"
 
 #: 48764
 msgid ""
 "The modron looks worried and begins to fidget. \"Assessment correct. Project "
 "halted.\""
 msgstr ""
+"Модрон начинает обеспокоенно вертеться. «Суждение верно. Проект "
+"приостановлен»."
 
 #: 48765
 msgid ""
 "\"Look, I'm an adventurer and I've been through some dungeons in my day. Why "
 "not let me be your director?\""
 msgstr ""
+"«Слушай, я ведь приключенец, и бывал в подобных подземельях. Почему бы мне "
+"не стать вашим директором?»"
 
 #: 48768
 msgid ""
@@ -245,10 +286,12 @@ msgid ""
 "subsides. \"Assistance welcome. You are now project director. Advise on next "
 "task.\""
 msgstr ""
+"Неожиданно комната наполняется гулом, который также неожиданно исчезает. "
+"«Содействие принято. Теперь ты директор проекта. Сообщи следующую задачу»."
 
 #: 48769
 msgid "\"Reset the dungeon.\""
-msgstr ""
+msgstr "«Сбросить подземелье»."
 
 #: 48770
 msgid ""
@@ -259,6 +302,12 @@ msgid ""
 "explode. Suddenly the room goes quiet. \"Reset complete. Dungeon construct "
 "status: Easy. Awaiting further instructions, Director.\""
 msgstr ""
+"«Инициализация сброса...» Комната заполнена низким бренчанием, которое не "
+"столько слышится, сколько осязается. «Снос существующего подземелья...» Сила "
+"звука повышается, начинает вибрировать пол. «Инициализация нового "
+"подземелья...» Звук достигает такой громкости, что тебе кажется, что голова "
+"вот-вот взорвется. Неожиданно все стихает. «Сброс завершен. Статус "
+"сооружения подземелья: простой. Ожидаем следующие инструкции, директор»."
 
 #: 48773
 msgid ""
@@ -270,10 +319,17 @@ msgid ""
 "The modron pauses. \"Alternate capabilities are available via the portal "
 "lens.\""
 msgstr ""
+"«Рубикон способен сформировать серию комнат, соединенных определенным "
+"способом, который обычно именуется *подземельем*. Каждое подземелье может "
+"иметь три уровня сложности: простой, нормальный и сложный. Подземелье "
+"заполняется монстрами, ловушками и сокровищами согласно выбранному уровню "
+"сложности. После создания подземелье можно полностью исследовать, - модрон "
+"делает паузу. - Альтернативные возможности доступны с помощью портальных "
+"линз»."
 
 #: 48774
 msgid "\"What alternate capabilities?\""
-msgstr ""
+msgstr "«Что еще за альтернативные возможности?»"
 
 #: 48777
 msgid ""
@@ -282,58 +338,68 @@ msgid ""
 "This allows use of the portal from within Rubikon without traveling to the "
 "portal location.\""
 msgstr ""
+"«Рубикон может принять форму врат в другие локации, временно присоединившись "
+"к заранее известным порталам. Данный эффект известен под названием "
+"*портальных линз*. Благодаря этому возможно использовать портал из Рубикона, "
+"не путешествуя при этом к местоположению самого портала»."
 
 #: 48778
+#, fuzzy
 msgid "\"So, if I know of a portal I can go to its destination from here?\""
 msgstr ""
+"«Значит, если мне известен портал, я смогу попасть в его место назначения "
+"прямо отсюда?»"
 
 #: 48779
 msgid "\"Correct, director.\""
-msgstr ""
+msgstr "«Верно, директор»."
 
 #: 48782
 msgid "\"Select a difficulty level.\""
-msgstr ""
+msgstr "«Выбери уровень сложности»."
 
 #: 48783
 msgid "\"It's set for easy already, so just create a new dungeon.\""
 msgstr ""
+"«Он уже установлен на простом, так что просто создайте новое подземелье»."
 
 #: 48784
 msgid "\"It's set for easy now, change it to normal.\""
-msgstr ""
+msgstr "«Он выставлен на простом, измени его на нормальный»."
 
 #: 48785
 msgid "\"It's set for easy now, change it to hard.\""
-msgstr ""
+msgstr "«Он выставлен на простом, измени его на сложный»."
 
 #: 48786
 msgid "\"It's set for normal already, so just create a new dungeon.\""
 msgstr ""
+"«Он уже установлен на нормальном, так что просто создайте новое подземелье»."
 
 #: 48787
 msgid "\"It's set for normal, change it to easy.\""
-msgstr ""
+msgstr "«Он выставлен на нормальном, измени его на простой»."
 
 #: 48788
 msgid "\"It's set for normal, change it to hard.\""
-msgstr ""
+msgstr "«Он выставлен на нормальном, измени его на сложный»."
 
 #: 48789
 msgid "\"It's set for hard already, so just create a new dungeon.\""
 msgstr ""
+"«Он уже установлен на сложном, так что просто создайте новое подземелье»."
 
 #: 48790
 msgid "\"It's set for hard, change it to normal.\""
-msgstr ""
+msgstr "«Он выставлен на сложном, измени его на нормальный»."
 
 #: 48791
 msgid "\"It's set for hard, change it to easy.\""
-msgstr ""
+msgstr "«Он выставлен на сложном, измени его на простой»."
 
 #: 48792
 msgid "\"Never mind, leave it as is.\""
-msgstr ""
+msgstr "«Неважно, оставьте его как есть»."
 
 #: 48793
 msgid ""
@@ -341,59 +407,63 @@ msgid ""
 "\"Initializing new dungeon...\" The floor begins to vibrate and then all is "
 "quiet. \"Dungeon created. Awaiting further instructions, Director.\""
 msgstr ""
+"«Снос существующего подземелья...» Комната наполняется низким бренчанием. "
+"«Инициализация нового подземелья...» Пол начинает вибрировать, после чего "
+"все стихает. «Подземелье создано. Ожидаем следующие инструкции, директор»."
 
 #: 48794
 msgid "\"That is all for now. Farewell.\""
-msgstr ""
+msgstr "«Пока все. Прощай»."
 
 #: 48795
 msgid ""
 "\"Leaving current settings intact. Awaiting further instructions, Director.\""
-msgstr ""
+msgstr "«Настройки не изменены. Ожидаем следующие инструкции, директор»."
 
 #: 48796
 msgid "\"That's all for now. Farewell.\""
-msgstr ""
+msgstr "«Пока что все. Прощай»."
 
 #: 48797
 msgid "\"State your destination, Director.\""
-msgstr ""
+msgstr "«Сформулируй свое направление, директор»."
 
 #: 48905
+#, fuzzy
 msgid "\"The Hive, near the Flophouse.\""
-msgstr ""
+msgstr "«Улей, рядом с Моргом»."
 
 #: 48906
 msgid "\"The Hive, near the Mortuary.\""
-msgstr ""
+msgstr "«Улей, рядом с Моргом»."
 
 #: 48907
 msgid "\"The Hive, near the marketplace.\""
-msgstr ""
+msgstr "«Улей, рядом с рынком»."
 
 #: 48908
 msgid "\"The Hive, near the Smoldering Corpse bar.\""
-msgstr ""
+msgstr "«Улей, рядом с баром Тлеющий труп»."
 
 #: 48909
 msgid "\"Lower Ward.\""
-msgstr ""
+msgstr "«Нижний район»."
 
 #: 48910
 msgid "\"Clerk's Ward.\""
-msgstr ""
+msgstr "«Чиновничий район»."
 
 #: 48911
 msgid "\"Weeping Stone Catacombs.\""
-msgstr ""
+msgstr "«Катакомбы плачущих камней»."
 
 #: 48912
 msgid "\"Never mind. That's all for now. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Пока что все. Прощай»."
 
 #: 48913
 msgid "You see the modron engineer. \"Greetings.\""
-msgstr ""
+msgstr "Перед тобой модрон-инженер. «Приветствуем»."
 
 #: 48916
 msgid ""
@@ -401,20 +471,27 @@ msgid ""
 "sound fills the room but quickly passes. \"We are modron. We are part of the "
 "whole. The whole is modron. There is no other.\""
 msgstr ""
+"«Я... - модрон смущенно умолкает. Комнату наполняет усиленное жужжание, "
+"которое быстро стихает. - Мы - модрон. Мы - часть целого. Целое - это "
+"модрон. Больше ничего»."
 
 #: 48919
 msgid ""
 "The modron gives you a concerned look then glances about the room. \"You are "
 "in error. We are modron. We are the whole... We will not discuss this.\""
 msgstr ""
+"Модрон обеспокоенно смотрит на тебя, затем оглядывает комнату. «Ты "
+"ошибаешься. Мы - модрон. Мы - единое... Мы не хотим обсуждать это»."
 
 #: 48920 48925
 msgid "\"All right. I'd like to try out one of these dungeons you mentioned.\""
 msgstr ""
+"«Хорошо. Я бы хотел попробовать одно из тех подземелий, о которых ты "
+"говорил»."
 
 #: 48921
 msgid "\"I know what I heard. You started to say *I* and...\""
-msgstr ""
+msgstr "«Я знаю, что я слышал. Ты начал говорить *я*, а потом...»"
 
 #: 48924
 msgid ""
@@ -422,39 +499,49 @@ msgid ""
 "answers you. \"No. We are modron. We are a part of the whole. We will not "
 "discuss this further.\" An angry buzzing fills the room then subsides."
 msgstr ""
+"Модрон хмуро смотрит на тебя. В его голосе угадывается нотка ярости. «Нет. "
+"Мы - модрон. Мы - часть единого. Мы не хотим обсуждать это больше». Комнату "
+"наполняет сердитое жужжание, которое затем стихает."
 
 #: 48928
+#, fuzzy
 msgid ""
 "\"Rubikon is a worthy accomplishment and...\" It pauses for a moment. \"I... "
 "We... are content.\""
 msgstr ""
+"«Рубикон является великолепным достижением и... - он умолкает на секунду. - "
+"Я... Мы... его содержимое»."
 
 #: 54222
 msgid "\"How do I get out of here?\""
-msgstr ""
+msgstr "«Как мне выбраться отсюда?»"
 
 #: 66393
 msgid ""
 "\"Are there any dangers associated with Rubikon that I should be aware of?\""
 msgstr ""
+"«Есть ли какие-нибудь опасности, связанные с Рубиконом, о которых я должен "
+"знать?»"
 
 #: 66394
 msgid ""
 "The modron hesitates before answering. \"Exit unavailable, project halted..."
 "\" The room is filled with a confused buzzing sound that suddenly stops."
 msgstr ""
+"Модрон мешкает с ответом. «Выход недоступен, проект приостановлен...» "
+"Комната наполняется смущенным жужжанием, которое неожиданное стихает."
 
 #: 66395
 msgid "\"What project? What are you talking about?\""
-msgstr ""
+msgstr "«Что за проект? О чем это ты говоришь?»"
 
 #: 66396 68069
 msgid "\"I see. I have some more questions...\""
-msgstr ""
+msgstr "«Понятно. У меня есть еще вопросы...»"
 
 #: 66397 68063
 msgid "\"I must be going now, farewell.\""
-msgstr ""
+msgstr "«Я должен идти, прощай»."
 
 #: 68064
 msgid ""
@@ -462,11 +549,15 @@ msgid ""
 "maze. If the maze were to be reset, or a new difficulty setting chosen, "
 "anyone left in the maze would be killed.\""
 msgstr ""
+"«Да, директор. Не разделяйтесь со своими компаньонами в лабиринтах. Если "
+"лабиринт будет сброшен или выбран новый уровень сложности, любой, кто "
+"останется в лабиринте, будет уничтожен»."
 
 #: 68065
 msgid ""
 "\"I see... I will not reform my party while in the maze. Anything else?\""
 msgstr ""
+"«Понятно... Лучше не стоит менять свою группу в лабиринте. Что-нибудь еще?»"
 
 #: 68066
 msgid ""
@@ -474,19 +565,23 @@ msgid ""
 "were to be reset, or a new difficulty setting chosen, any items left in the "
 "maze would be destroyed.\""
 msgstr ""
+"«Да, директор. Не оставляйте никаких предметов или экипировки в лабиринтах. "
+"Если лабиринт будет сброшен или выбран новый уровень сложности, любой "
+"предмет, что останется в лабиринте, будет уничтожен»."
 
 #: 68067
 msgid ""
 "\"I see... I will not drop anything important in the maze. Anything else?\""
 msgstr ""
+"«Понятно... Лучше не оставлять ничего важного в лабиринте. Что-нибудь еще?»"
 
 #: 68068
 msgid "He pauses to think a moment. \"No, Director.\""
-msgstr ""
+msgstr "На минуту он умолкает. «Нет, директор»."
 
 #: 68070
 msgid "\"Very well, farewell.\""
-msgstr ""
+msgstr "«Хорошо, прощай»."
 
 #: 68071
 msgid ""
@@ -494,6 +589,9 @@ msgid ""
 "reset or the difficulty level changed, anyone left in the maze would be "
 "killed."
 msgstr ""
+"В лабиринте модронов нельзя менять свою группу. Если лабиринт будет сброшен "
+"или изменится уровень сложности, любой, кто останется в лабиринте, будет "
+"уничтожен."
 
 #: 68072
 msgid ""
@@ -501,3 +599,12 @@ msgid ""
 "were ever reset or the difficulty level changed, anything left in the maze "
 "would be destroyed."
 msgstr ""
+"В лабиринте модронов нельзя оставлять важные предметы. Если лабиринт будет "
+"сброшен или изменен уровень сложности, любой предмет, что останется в "
+"лабиринте, будет уничтожен."
+
+#~ msgid "\"The Hive, near Ragpicker's Square.\""
+#~ msgstr "«Улей, рядом с площадью Старьевщиков»."
+
+#~ msgid "\"I have some questions..."
+#~ msgstr "«У меня есть несколько вопросов...» "

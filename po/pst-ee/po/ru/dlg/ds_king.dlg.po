@@ -1,49 +1,62 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: ds_king.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-09 00:13+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 51339
+#, fuzzy
 msgid ""
 "This withering corpse - impressive in its engraved parade-armor despite its "
 "coating of dust and cobwebs - is apparently the mighty Silent King. The lord "
 "and master of the Dead Nations appears to be little more than a desiccated "
 "shell."
 msgstr ""
+"Этот иссушенный труп выглядит впечатляюще в своих гравированных парадных "
+"доспехах, несмотря на покрывающую их пыль и паутину. Очевидно, это и есть "
+"могучий Безмолвный Король. Владыка и повелитель Мертвых Народов оказался "
+"всего лишь высушенной оболочкой."
 
 #: 51340 51425 51426
 msgid "Take his skull."
-msgstr ""
+msgstr "Забрать его череп."
 
 #: 51427
+#, fuzzy
 msgid ""
 "You twist and yank at the Silent King's head to no avail... it simply won't "
 "budge. Finally, you resort to bracing your foot against one of the throne's "
 "arms for leverage and tearing the skull off with a sharp *crack.*"
 msgstr ""
+"Ты крутишь и дергаешь голову Безмолвного Короля, но бесполезно... она даже "
+"не двигается. Наконец, ты упираешься ногой в подлокотник трона и отрываешь "
+"череп с резким хрустом."
 
 #: 51428 51431 51435 65525 65529 65531 65532
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 51429
 msgid ""
 "Tearing off the Silent King's head will doubtlessly anger the throne room's "
 "current occupants... you're going to have to deal with them, first."
 msgstr ""
+"Отрывание головы Безмолвного Короля, безусловно, разозлит обитателей "
+"тронного зала... сперва тебе придется разобраться с ними."
 
 #: 51430 65530
 msgid "Attempt to take his skull just the same."
-msgstr ""
+msgstr "Еще раз попробовать забрать череп."
 
 #: 51432
 msgid ""
@@ -53,10 +66,15 @@ msgid ""
 "everyone present. They turn to see you ripping off the head of their beloved "
 "lord and rush to attack..."
 msgstr ""
+"Ты пытаешься бесшумно вытянуть голову Безмолвного Короля, но она не "
+"двигается. Наконец, ты упираешься ногой в подлокотник трона и отрываешь "
+"череп с резким хрустом, чем привлекаешь внимание окружающих. Они "
+"оборачиваются и видят тебя с оторванной головой их любимого владыки, и "
+"кидаются в атаку..."
 
 #: 51433
 msgid "Defend yourself."
-msgstr ""
+msgstr "Защищаться."
 
 #: 51434
 msgid ""
@@ -64,6 +82,8 @@ msgid ""
 "desiccated shell - and a headless one at that, seeing as how you've ripped "
 "his skull off."
 msgstr ""
+"Владыка и повелитель Мертвых Народов оказался всего лишь высушенной "
+"оболочкой, к тому же, еще и безголовой, так как ты оторвал ему череп."
 
 #: 65524
 msgid ""
@@ -71,6 +91,9 @@ msgid ""
 "desiccated shell. His head sits a bit crooked on his shoulders from when you "
 "swapped his skull out for another."
 msgstr ""
+"Владыка и повелитель Мертвых Народов оказался всего лишь высушенной "
+"оболочкой. Его голова сидит на плечах немного криво с тех пор, как ты "
+"подменил его череп другим."
 
 #: 65526
 msgid ""
@@ -80,10 +103,15 @@ msgid ""
 "swap it out with the skull beneath the Silent King's helm before anyone sees "
 "you..."
 msgstr ""
+"Отрывание головы Безмолвного Короля, безусловно, разозлит обитателей "
+"тронного зала... сперва тебе придется разобраться с ними. Однако, если бы у "
+"тебя был какой-нибудь другой, обычный череп, твои руки могли бы достаточно "
+"быстро подменить им череп под шлемом Безмолвного Короля, пока никто тебя не "
+"заметил..."
 
 #: 65527
 msgid "Swap the skull out with the one you've got."
-msgstr ""
+msgstr "Заменить череп на имеющийся у тебя."
 
 #: 65528
 msgid ""
@@ -92,3 +120,6 @@ msgid ""
 "head with the other skull you held. With the helmet back on, no one will "
 "ever be the wiser..."
 msgstr ""
+"Убедившись, что на тебя не смотрят, ты поднимаешь шлем Безмолвного Короля, "
+"суешь его череп в свой инвентарь и заменяешь отсутствующую голову другим "
+"имеющимся у тебя черепом. С надетым шлемом никто даже не догадается..."

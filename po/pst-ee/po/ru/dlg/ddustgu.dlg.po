@@ -1,64 +1,78 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: ddustgu.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-08 20:03+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 1407
 msgid ""
 "The Dustman frowns as you pass, then addresses you. \"You there - state your "
 "business.\""
 msgstr ""
+"Тленный хмурится, когда ты проходишь мимо, затем обращается к тебе. «Эй, ты. "
+"Что ты здесь делаешь?»"
 
 #: 1408 4168 66698
 msgid ""
 "\"My only business is that I am bound for the exit. I mean to cause no "
 "trouble.\""
-msgstr ""
+msgstr "«Я направляюсь к выходу, только и всего. Я не хочу создавать проблем»."
 
 #: 1409 4163 66693
 msgid ""
 "\"I seem to have gotten turned around in these halls. Are there any guides "
 "around who can direct visitors?\""
 msgstr ""
+"«Кажется, я заблудился в этих залах. Здесь есть проводники, которые могут "
+"подсказать дорогу посетителям?»"
 
 #: 1410 4164 4179
 msgid "\"I... seem to be lost.\""
-msgstr ""
+msgstr "«Я... кажется, потерялся». "
 
 #: 1411 4165 66695
 msgid ""
 "\"My business is my own. You would do well to mind your OWN affairs, Dustman."
 "\""
 msgstr ""
+"«Это мое личное дело. А тебе бы не мешало заниматься СВОИМИ делами, тленный»."
 
 #: 1412 1413 4166 4167 66696 66697
 msgid "Lean in as if to whisper something to him, then snap his neck."
 msgstr ""
+"Наклониться вперед, будто собираясь прошептать ему что-то, а затем свернуть "
+"ему шею."
 
 #: 1414
 msgid ""
 "The Dustman frowns. He seems skeptical. \"There are guides that can direct "
 "you in the antechamber. Do not wander the Mortuary unescorted.\""
 msgstr ""
+"Тленный хмурится. Кажется, он скептически настроен. «В вестибюле есть "
+"проводники, которые могут направить тебя. В Морге нельзя ходить без "
+"сопровождения»."
 
 #: 1415
 msgid "\"Thank you for your assistance. I will go speak to the guide.\""
-msgstr ""
+msgstr "«Спасибо за помощь. Пойду поговорю с проводником»."
 
 #: 1416
 msgid ""
 "\"I'll wander wherever I want to... you would do well to mind your own "
 "affairs, Dustman.\""
 msgstr ""
+"«Я буду ходить там, где мне вздумается... а тебе бы не мешало думать о своих "
+"обязанностях, тленный»."
 
 #: 1417
 msgid ""
@@ -66,40 +80,51 @@ msgid ""
 "hand falls to the dagger by his side. \"Wait here while I summon the other "
 "guards to direct you out.\" He looks as if he is about to call out. "
 msgstr ""
+"«Похоже, ты действительно потерялся». Глаза тленного сужаются в узкие щели, "
+"его рука тянется к кинжалу на боку. «Подожди, пока я не позову охрану, "
+"которые выведут тебя». Кажется, он готов позвать на помощь. "
 
 #: 1418 2536 4151 4152 4172 4173
 msgid "Snap his neck before he can call out."
-msgstr ""
+msgstr "Свернуть ему шею до того, как он сможет позвать на помощь."
 
 #: 385
 msgid ""
 "You see a stern-looking man in black robes. He is staring at you "
 "suspiciously."
 msgstr ""
+"Ты видишь строгого мужчину в черной мантии. Он недоверчиво смотрит на тебя."
 
 #: 386
 msgid ""
 "The Dustman frowns as you pass... it looks like he is about to call out to "
 "you, then stops himself. Your bearing may have made him hold his tongue."
 msgstr ""
+"Тленный хмурится, когда ты проходишь мимо... кажется, он собирается "
+"окрикнуть тебя, но передумывает. Должно быть, твое поведение заставило его "
+"придержать свой язык."
 
 #: 387
 msgid "Continue on by."
-msgstr ""
+msgstr "Пройти мимо."
 
 #: 388 389 390 4119 4170 4176
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 4120
 msgid "Act as if you belong here, ignoring him and passing on by."
 msgstr ""
+"Сделать вид, будто ты здесь «свой», и пройти мимо, не обращая на него "
+"внимания."
 
 #: 4121
 msgid ""
 "The Dustman's eyes narrow to slits, and his hand falls to the dagger by his "
 "side. He looks as if he is about to summon the other guards. "
 msgstr ""
+"Глаза тленного превращаются в узкие щелочки, его рука тянется к кинжалу на "
+"боку. Похоже, он готов позвать других стражников. "
 
 #: 4122
 msgid ""
@@ -107,16 +132,23 @@ msgid ""
 "comes within arm's reach, your hands clamp onto his temples, and you twist "
 "his head sharply to the left. "
 msgstr ""
+"Ты наклоняешься, чтобы «шепнуть» ему что-то на ухо, и тленный тоже "
+"наклоняется. Как только он оказывается на расстоянии вытянутой руки, ты "
+"хватаешь его за виски и резко сворачиваешь голову влево."
 
 #: 4123
 msgid ""
 "Before the Dustman can utter another word, your hands clamp onto his "
 "temples, and you twist his head sharply to the left. "
 msgstr ""
+"Тленный не успевает и слова вымолвить, как твои руки хватают его голову за "
+"виски и резко сворачивают ее влево. "
 
 #: 4124
 msgid "There is a *crack,* and the Dustman falls limp in your arms. "
 msgstr ""
+"В шее раздается характерный хруст, и тело тленного безвольно падает в твои "
+"объятия."
 
 #: 4125
 msgid ""
@@ -124,6 +156,9 @@ msgid ""
 "times before... with this thought comes the stirring of a memory, but it is "
 "not strong enough to surface."
 msgstr ""
+"К своему удивлению, это действие происходит практически инстинктивно, будто "
+"ты проделывал это уже много раз... с этой мыслью всплывает воспоминание, но "
+"оно недостаточно сильно для того, чтобы за него зацепиться."
 
 #: 4126
 msgid ""
@@ -131,135 +166,156 @@ msgid ""
 "a step back, he claps his hands together sharply three times. In response, a "
 "great iron bell starts tolling throughout the Mortuary."
 msgstr ""
+"Ты недостаточно быстр, и тленный уворачивается от твоего выпада. Отступив на "
+"шаг, он быстро хлопает в ладони три раза. В ответ во всем Морге раздается "
+"звон огромного железного колокола."
 
 #: 4127
 msgid ""
 "The Dustman claps his hands together sharply three times. In response, an "
 "iron bell starts tolling throughout the Mortuary."
 msgstr ""
+"Тленный быстро хлопает в ладони три раза. В ответ во всем Морге раздается "
+"звон железного колокола."
 
 #: 4128
 msgid "The Dustman frowns as you address him. \"What is your business here?\""
-msgstr ""
+msgstr "Тленный хмурится, когда ты обращаешься к нему. «Что ты здесь делаешь?»"
 
 #: 4129
 msgid ""
 "You see a stern-looking man in black robes. He is looking straight ahead. He "
 "doesn't even seem to be aware of you."
 msgstr ""
+"Перед тобой строгий мужчина в черной мантии. Он смотрит прямо вперед. "
+"Похоже, он даже не заметил тебя."
 
 #: 4130
 msgid ""
 "The Dustman guard jumps in surprise as you address him, then takes a step "
 "back. \"You are no zombie... who are you... and how did you get in here?\" "
 msgstr ""
+"Когда ты обращаешься к стражнику тленных, он аж подскакивает от "
+"неожиданности, затем отступает на шаг. «Ты не зомби... кто ты... и как ты "
+"сюда попал?» "
 
 #: 4131
 msgid "You see a stern-looking man in black robes. As he sees you, he nods."
-msgstr ""
+msgstr "Перед тобой строгий мужчина в черной мантии. Завидев тебя, он кивает."
 
 #: 4132
 msgid "\"Greetings, fellow initiate.\""
-msgstr ""
+msgstr "«Приветствую, посвященный»."
 
 #: 4133
 msgid ""
 "\"There are guides in the antechamber. They should be able to direct you, "
 "initiate.\""
 msgstr ""
+"«В вестибюле есть проводники. Они могут помочь тебе сориентироваться, "
+"посвященный»."
 
 #: 4146
 msgid "Try to ignore him, pass on by."
-msgstr ""
+msgstr "Попробовать не обращать на него внимания, пройти мимо."
 
 #: 4147 4169 66699
 msgid "\"Nothing. I was lost, but I am heading for the exit now.\""
-msgstr ""
+msgstr "«Ничего. Я потерялся, но теперь направляюсь к выходу»."
 
 #: 4148 4153
 msgid "\"Call your friends, Dustie... I look forward to meeting them.\""
-msgstr ""
+msgstr "«Зови своих друзей, трухлячок... Я их с радостью встречу»."
 
 #: 4149 4154 4175
 msgid "Run for it."
-msgstr ""
+msgstr "Убежать."
 
 #: 4150 4155
 msgid "Wait."
-msgstr ""
+msgstr "Подождать."
 
 #: 4156 4157
 msgid "\"Can't have you alerting your friends...\""
-msgstr ""
+msgstr "«Нельзя дать тебе предупредить своих друзей...»"
 
 #: 4158 4159
 msgid "\"Better you than me, Dustie.\""
-msgstr ""
+msgstr "«Лучше ты, чем я, трухлявый». "
 
 #: 4160
 msgid "Tuck the body into the shadows, then continue on."
-msgstr ""
+msgstr "Затащить тело в тень и уйти."
 
 #: 4161 4162
 msgid "\"I hope you've made peace with your gods, Dustman...\""
-msgstr ""
+msgstr "«Надеюсь, ты поладишь со своими богами, тленный...»"
 
 #: 4171
 msgid "Shamble by."
-msgstr ""
+msgstr "Проковылять мимо."
 
 #: 4174
 msgid ""
 "\"I can explain... you see, it all started when I woke up from the dead on "
 "one of your slabs... there was this talking skull, and...\""
 msgstr ""
+"«Я все могу объяснить... видишь ли, все началось с того, что я пробудился из "
+"мертвых на одной из ваших плит... там был говорящий череп, и...»"
 
 #: 4177
 msgid "Return the nod, continue walking."
-msgstr ""
+msgstr "Кивнуть в ответ, идти дальше."
 
 #: 4178
 msgid "\"Perhaps you can help me. I seem to be lost. Can you direct me?\""
 msgstr ""
+"«Возможно, ты сможешь мне помочь. Кажется, я потерялся. Ты можешь показать "
+"мне дорогу?»"
 
 #: 4180
 msgid "\"Carry on, fellow initiate.\""
-msgstr ""
+msgstr "«Так держать, посвященный»."
 
 #: 4181
 msgid "\"Thank you. I will seek them out.\""
-msgstr ""
+msgstr "«Спасибо. Пойду, поищу их»."
 
 #: 61284
 msgid "You tuck the limp body into the shadows."
-msgstr ""
+msgstr "Ты затаскиваешь обмякшее тело в тень."
 
 #: 61285
 msgid "Continue on."
-msgstr ""
+msgstr "Продолжить."
 
 #: 66691
 msgid ""
 "You see a stern-looking man in black robes. He is glaring at you "
 "suspiciously. \"You - state your business.\""
 msgstr ""
+"Перед тобой строгий мужчина в черной мантии. Он недоверчиво смотрит на тебя. "
+"«Ты... что ты здесь делаешь?»"
 
 #: 66692
 msgid ""
 "\"I am a new Initiate of the Dustmen faction. I am just touring the Mortuary."
 "\""
-msgstr ""
+msgstr "«Я недавно посвящен во фракцию тленных. Просто осматриваю Морг»."
 
 #: 66694
 msgid "\"I... seem to be lost.\" "
-msgstr ""
+msgstr "«Я... кажется, потерялся». "
 
 #: 66700
 msgid ""
 "The guard stares at you for a moment, then nods. \"Take care you do not "
 "disturb anyone's duties while you are here.\""
 msgstr ""
+"Стражник какое-то время пристально на тебя смотрит, затем кивает. "
+"«Позаботься о том, чтобы никого не отвлекать от своих обязанностей, пока ты "
+"здесь»."
 
 #: 66701
 msgid "\"Very well. I will take my leave, now.\""
-msgstr ""
+msgstr "«Хорошо. Я уже ухожу»."

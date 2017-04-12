@@ -1,20 +1,22 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dignus.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-03-07 22:08+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.4\n"
 
 #: 16198 16215
 msgid "\"Greetings...?\""
-msgstr ""
+msgstr "«Приветствую...»"
 
 #: 16199
 msgid ""
@@ -24,15 +26,21 @@ msgid ""
 "emanates from the creature. As you watch, flecks of ash drift from the "
 "writhing corpse and float slowly to the ceiling."
 msgstr ""
+"Жар вокруг этого... существа... просто невероятный. К твоему удивлению, "
+"железная решетка, над которой оно парит, вся закоптилась и прогнулась от "
+"жары. Сперва ты решил, что жар исходит от решетки... но теперь ты понимаешь, "
+"что его излучает само существо. Ты наблюдаешь, как с корчащегося тела "
+"срываются хлопья пепла и медленно взмывают к потолку."
 
 #: 16200
 msgid "Examine the smoldering corpse."
-msgstr ""
+msgstr "Осмотреть тлеющий труп."
 
 #: 16201 16213 16216
+#, fuzzy
 msgid ""
 "\"Hmmm. I wonder if this Decanter of Endless Water will do something...?\""
-msgstr ""
+msgstr "«Хм-м. Интересно, поможет ли тут Графин бесконечной воды?..»"
 
 #: 16202
 msgid ""
@@ -42,6 +50,10 @@ msgid ""
 "challenge, the decanter seems to *lunge* forward, falling onto the grill and "
 "shattering! "
 msgstr ""
+"Ты наклоняешь графин над решеткой и начинаешь лить. Из него вытекает тонкая "
+"струйка голубой как лед воды и касается пламени решетки, вызвав резкое "
+"шипение и столб пара... Как бы в ответ на этот вызов графин *бросается* "
+"вперед, падает на решетку и разбивается!"
 
 #: 16203
 msgid ""
@@ -51,6 +63,10 @@ msgid ""
 "burning, people screaming, their screams being cut short by the roar of "
 "flame and melting flesh... "
 msgstr ""
+"Из решетки вырываются шипящие облака пара и яростный треск, который "
+"укутывает тебя и вынуждает прикрыть уши и отвернуться... Слышится крик, "
+"хихиканье, ужасный шум сотен горящих домов, кричащих людей; их крики "
+"перекрываются ревом пламени и горящей плоти..."
 
 #: 16204
 msgid ""
@@ -59,8 +75,13 @@ msgid ""
 "bleeding from the sound! You draw your hands back, and see them covered with "
 "chunks of melted flesh filled with bloody swirls..."
 msgstr ""
+"Закрыв уши руками, чтобы оградиться от звука, ты чувствуешь на ладонях что-"
+"то липкое, вроде плавленного сыра или свечного воска... Твои уши кровоточат "
+"от звука! Ты отводишь руки и видишь, что они покрыты кусочками оплавленной "
+"плоти и сгустками крови..."
 
 #: 16205
+#, fuzzy
 msgid ""
 "You are about to run from the bar, anything to get away from the sound, when "
 "suddenly all falls silent, except for a jagged crackling coming from the "
@@ -69,6 +90,12 @@ msgid ""
 "trailing from its body, floating over the bar's floor. It is staring at you, "
 "its eyes flickering like two torches..."
 msgstr ""
+"Ты уже собираешься бежать из бара, лишь бы убраться от этого звука, как "
+"вдруг все умолкает; остается только неровное потрескивание, исходящее от "
+"решетки. Ты оборачиваешься: на решетке лежит Графин бесконечной воды. От "
+"него остались только осколки и пар. Над ним нависает существо; языки пламени "
+"все еще укутывают его тело. Оно пристально смотрит на тебя, его глаза "
+"мерцают как два факела..."
 
 #: 16206
 msgid ""
@@ -78,8 +105,14 @@ msgid ""
 "its mouth and drift into the air. You can barely stand to look at the thing "
 "- the blazing radiance surrounding it is terrible to behold."
 msgstr ""
+"По лицу существа проходит трещина, от его челюсти отделяется обугленная "
+"плоть, давая ему возможность говорить. *»Да-а-а...»* Его голос с треском, "
+"горением, ревом вырывается из груди. С каждым словом из его рта вылетают "
+"хлопья пепла и золы и кружат в воздухе. Тебе едва удается смотреть на это "
+"существо: трудно выдержать сияние, окружающее его."
 
 #: 16207
+#, fuzzy
 msgid ""
 "*\"Yesssss...\"* The creature floats towards you, the air bending from the "
 "thermals surrounding it. *\"Long have I ssslept... dreamssss of flamesss..."
@@ -87,90 +120,112 @@ msgid ""
 "flame streams from behind his blackened teeth. *\"I am yourssss... till "
 "death comessss for ussss both...\"*"
 msgstr ""
+"*»Да-а-а...»* Существо подлетает к тебе, воздух дрожит от окружающего его "
+"жара. *»Долго я ссспал... сссны про огонь...»* Будто вторя ему, в его глотке "
+"вспыхивает огонь, из-за почерневших зубов вырывается язык пламени. *»Я "
+"твой... пока ссссмерть не придет к нам обоим...»*  "
 
 #: 16208
 msgid ""
 "As you approach it, the creature hisses, the air bending from the thermals "
 "surrounding it. *\"Long have I ssslept... dreamssss of flamesss...\"*"
 msgstr ""
+"Когда ты подходишь, существо шипит, воздух дрожит от жара вокруг него. "
+"*»Долго я ссспал... сссны об огне...»*"
 
 #: 16209
+#, fuzzy
 msgid ""
 "As if in response, flames curl around Ignus' throat, and a tongue of flame "
 "streams from behind his blackened teeth. *\"I am yourssss... till death "
 "comessss for ussss both...\"*"
 msgstr ""
+"Будто вторя ему, в его глотке вспыхивает огонь, из почерневших зубов "
+"вырывается язык пламени. *»Я твой... пока ссссмерть не придет к нам "
+"обоим...»*  "
 
 #: 16210 16214 16217
 msgid "Leave the thing alone."
-msgstr ""
+msgstr "Оставить существо в покое."
 
 #: 16212
 msgid "Examine the creature."
-msgstr ""
+msgstr "Осмотреть существо."
 
 #: 16218
+#, fuzzy
 msgid "\"By the hells...?!\""
-msgstr ""
+msgstr "«Какого черта?..»"
 
 #: 16219
 msgid "Cover your ears, block out the sound."
-msgstr ""
+msgstr "Прикрыть уши, чтобы избавиться от звука."
 
 #: 16220
 msgid "Try and get out of the bar."
-msgstr ""
+msgstr "Попытаться убраться из бара."
 
 #: 16221
 msgid "\"I *know* you...\""
-msgstr ""
+msgstr "«Я *знаю* тебя...»"
 
 #: 16222
 msgid "\"Ignus...\""
-msgstr ""
+msgstr "«Игнус...»"
 
 #: 16223
 msgid "\"Greetings, Ignus... will you travel with me?\""
-msgstr ""
+msgstr "«Здравствуй, Игнус... Ты пойдешь со мной?»"
 
 #: 16624
 msgid "Ignus slowly turns to meet your gaze. *\"Yesss?\"*"
 msgstr ""
+"Игнус медленно поворачивается, чтобы встретиться с тобой взглядом. «*Да-а-"
+"а*?»"
 
 #: 16625
 msgid ""
 "Ignus turns to the trees, the air around him becoming uncomfortably hot in "
 "seconds. *\"Yesss... burnnnn...\"*"
 msgstr ""
+"Игнус поворачивается к деревьям, воздух вокруг него становиться невыносимо "
+"жарким. «*Да-а-а... ссссжечь...*»"
 
 #: 16626
 msgid ""
 "Ignus laughs horribly; gouts of flame erupt from his throat. *\"You ssstand "
 "between me and thing that burnsss? Youuu, tooo, will burnnnn...\"*"
 msgstr ""
+"Игнус ужасающе хохочет, из его глотки вырываются брызги пламени. «*Ты "
+"вссстал между мной и тем, что горит? Гори-и-и тогда и ты-ы...*»"
 
 #: 16922
 msgid "\"Never mind; it was a bad idea. I had some questions, Mourns...\""
 msgstr ""
+"«Неважно, это была плохая идея. У меня есть несколько вопросов, Скорбящий...»"
 
 #: 16923
 msgid ""
 "\"See these trees, Ignus? Do you think you could find it in your heart to "
 "*care* for them?\""
 msgstr ""
+"«Видишь эти деревья, Игнус? Как ты думаешь, ты сможешь от всего сердца "
+"*позаботиться* о них?»"
 
 #: 16924
+#, fuzzy
 msgid ""
 "\"Nothing; I don't know what I was thinking. Farewell, Mourns-for-Trees.\""
 msgstr ""
+"«Ничего. Не знаю, о чем я только думал. Прощай, Скорбящий-по-деревьям»."
 
 #: 16925
 msgid "\"Ignus, wait...\""
-msgstr ""
+msgstr "«Игнус, стой...»"
 
 #: 16926
 msgid "Let him do as he pleases."
-msgstr ""
+msgstr "Позволить ему делать то, что он хочет."
 
 #: 2846
 msgid ""
@@ -180,14 +235,24 @@ msgid ""
 "creature's body, and the flames lick at the few remaining pockets of flesh, "
 "causing them to bubble and run like wax down the creature's skeletal frame. "
 msgstr ""
+"Это потрескивающее и пышущее жаром существо медленно корчится над железной "
+"решеткой на полу бара. Должно быть, когда-то это был человек, но теперь его "
+"кожа обуглена до неузнаваемости. Потоки огня образуют кольцо вокруг его "
+"тела, языки пламени лижут остатки плоти, отчего те пузырятся и стекают как "
+"воск по скелету существа."
 
 #: 2847
+#, fuzzy
 msgid ""
 "The thing makes no response. It writhes slowly within the flames - it lives, "
 "but it does not seem *aware* of anything other than the fire that surrounds "
 "it. Its skin is flame, its heart is flame, and you know, within some "
 "shadowed corner of your memory, that this thing is *dangerous.*"
 msgstr ""
+"Существо не реагирует. Оно медленно корчится в пламени: оно живое, но, "
+"похоже, *не замечает* ничего, кроме окружающего его пламени. Его кожа - "
+"огонь, его сердце - пламя. Из какого-то темного уголка твоей памяти к тебе "
+"приходит осознание того, что это создание *опасно*."
 
 #: 33991
 msgid ""
@@ -195,118 +260,137 @@ msgid ""
 "surrounding him. *\"Assss I remained here... thoughtssss filled with "
 "flamesss...\"*"
 msgstr ""
+"Когда ты подходишь, Игнус шипит, воздух дрожит от окружающего его жара. "
+"*»Пока-а-а я ждал здессссь... мыссссли наполнялисссссь огнем...»*"
 
 #: 33992 61828 61829 61830 61831 61832 61833 61836 61837 61838 61839 61840
 #: 61841 61855 61856 61857 61858 61859
 msgid "\"Ignus, I need your help.\""
-msgstr ""
+msgstr "«Игнус, мне нужна твоя помощь»."
 
 #: 33994
+#, fuzzy
 msgid "*\"I am yourssss... till death comessss for ussss both...\"*"
-msgstr ""
+msgstr "*»Я твой... пока ссссмерть не придет к нам обоим...»*  "
 
 #: 33995
 msgid "\"Very well. Let's go.\""
-msgstr ""
+msgstr "«Хорошо. Уходим»."
 
 #: 33996
 msgid ""
 "Flames curl around Ignus' throat, and a tongue of flame streams from behind "
 "his blackened teeth. *\"Yessssss...?\"*"
 msgstr ""
+"В его глотке вспыхивает огонь, из почерневших зубов вырывается язык пламени. "
+"*»Да-а-а-а?..«*"
 
 #: 33997 57609 57637
 msgid "\"Ignus, what happened to you to make you this way?\""
-msgstr ""
+msgstr "«Игнус, из-за чего ты стал таким?»"
 
 #: 48406 52782
 msgid "\"We shall see...\""
-msgstr ""
+msgstr "«Посмотрим...»"
 
 #: 52561
+#, fuzzy
 msgid "*\"Burnnnnn...\"*"
-msgstr ""
+msgstr "«*Гори-и-и-и....*»"
 
 #: 52562 52563 52564 52565
 msgid "\"And what other torments do your eyes see, Ravel?\""
-msgstr ""
+msgstr "«Какие еще мучения видят твои глаз, Равель?»"
 
 #: 52566
 msgid "*\"Burrnnnn...\"*"
-msgstr ""
+msgstr "«*Гори-и-и-и....*»"
 
 #: 52567 52568 52569 52570
 msgid "\"Ravel, you've made your point. Now enough of t-\""
-msgstr ""
+msgstr "«Равель, ты уже высказалась. А теперь хватит о м...»"
 
 #: 52781
 msgid "\"Keep your dreams close, Ignus... farewell.\""
-msgstr ""
+msgstr "«Держи свои сны при себе, Игнус... Прощай»."
 
 #: 54145
+#, fuzzy
 msgid "*\"I am yourssss... till death comessss for ussss BOTH...\"*"
-msgstr ""
+msgstr "«*Я твой... Пока ссссмерть не придет к нам ОБОИМ...*»"
 
 #: 54146
+#, fuzzy
 msgid "\"I... see. Fall-from-Grace?\""
-msgstr ""
+msgstr "«Понятно... Падшая Грация?»"
 
 #: 54147
 msgid "\"I... see. Annah?\""
-msgstr ""
+msgstr "«Понятно... Анна?»"
 
 #: 54148 54149
 msgid "\"I... see. Dak'kon?\""
-msgstr ""
+msgstr "«Понятно... Даккон?»"
 
 #: 54150 54151
 msgid "\"I... see. Morte?\""
-msgstr ""
+msgstr "«Понятно... Морт?»"
 
 #: 54152 54153 54154
 msgid ""
 "\"All right then... let's see what's on the other side of this portal.\""
 msgstr ""
+"«Хорошо... А теперь посмотрим, что же находится по ту сторону портала»."
 
 #: 57439 57610 57639
 msgid "\"Ignus... is it true you burned down the Alley of Dangerous Angles?\""
-msgstr ""
+msgstr "«Игнус... это правда, что ты сжег переулок Опасных углов?»"
 
 #: 57440 57612 57641
 msgid "\"What were you doing in the Smoldering Corpse Bar?\""
-msgstr ""
+msgstr "«Что ты делал в баре Тлеющий труп?»"
 
 #: 57441 57613 57643
 msgid ""
 "\"Ignus, I spoke with a storyteller in the Hive, and he mentioned that "
 "someone *taught* you these things... who?\""
 msgstr ""
+"«Игнус, в Улье я разговаривал с рассказчиком, и он упомянул, что кто-то "
+"*обучил* тебя этим вещам... кто это был?»"
 
 #: 57442 57616 57645
 msgid "\"Ignus, are you SURE your teacher was me?\""
-msgstr ""
+msgstr "«Игнус, ты УВЕРЕН, что я был твоим учителем?»"
 
 #: 57443 57619 57648
 msgid ""
 "\"Ignus, your mastery of the Art... can you teach me any of your powers?\""
 msgstr ""
+"«Игнус, твое владение Искусством... Ты можешь обучить меня чему-нибудь из "
+"него?»"
 
 #: 57444 57445 57624 57628 57650 57654
 msgid ""
 "\"Ignus, your mastery of the Art... I am willing to suffer to learn more.\""
 msgstr ""
+"«Игнус, твое владение Искусством... Я готов страдать, чтобы продолжить "
+"обучение»."
 
 #: 57446 57630 57656
 msgid ""
 "\"Ignus, about your teaching, about the torments I subjected you to... I'm "
 "sorry.\""
 msgstr ""
+"«Игнус, насчет твоего обучения и страданий, которые я тебе причинил... Я "
+"сожалею»."
 
 #: 57447
 msgid ""
 "\"Nothing, Ignus. I was just checking to see if you were still with us... so "
 "to speak.\""
 msgstr ""
+"«Ничего, Игнус. Просто проверял, что ты все еще с нами... если можно так "
+"сказать»."
 
 #: 57448
 msgid ""
@@ -314,20 +398,26 @@ msgid ""
 "air, and his jaw tears open, fiery trails spilling forth like a nest of "
 "snakes. *\"NO MORE TALK AND QUESSSSTIONSSS! Ssssilence...!\"* "
 msgstr ""
+"*»ШШШШШШ!»* У тебя чуть сердце из груди не выпрыгивает, когда Игнус "
+"подлетает на несколько футов в воздух. Его челюсти раскрываются, и из них "
+"вырываются огненные языки, похожие на клубок змей. *»ХВАТИТ БОЛТОВНИ И "
+"ВОПРОССССОВ! Молчи-и-и...!»* "
 
 #: 57449 57450 57451 57452
 msgid "\"But I wish to speak of flames, Ignus, and of burning...\""
-msgstr ""
+msgstr "«Но я хочу поговорить об огне и горении...»"
 
 #: 57453
 msgid ""
 "\"You WILL answer my questions, Ignus. I set you free, and I may send you "
 "back to your hell again.\""
 msgstr ""
+"«Ты ОТВЕТИШЬ на мои вопросы. Я тебя освободил, и я могу упечь тебя обратно в "
+"твой ад»."
 
 #: 57454
 msgid "\"Never mind, then...\""
-msgstr ""
+msgstr "«Тогда неважно...»"
 
 #: 57580
 msgid ""
@@ -336,16 +426,23 @@ msgid ""
 "you to *asssshessss* Ignussss can... for now, Ignusssss followsssss... but "
 "threatsssss... threatsss ANGER Ignusssss...\"* "
 msgstr ""
+"*»Думаешь, ТЫ сссможешь сссковать Игнусссса?..«* Пламя пляшет вокруг Игнуса "
+"как плащ, затем раздувается, будто стремясь приласкать тебя. *»УБИТЬ тебя, "
+"превратить тебя в *пепел* может Игнуссссс... покамессст Игнусссс будет "
+"сссследовать за тобой... но угрозы... угрозы СССЕРДЯТ Игнусссса...»* "
 
 #: 57581
 msgid ""
 "\"Actually, Ignus, you couldn't stop me - you could burn me, but I'd keep "
 "coming at you until you were kindling. So *enough* with the threats...\""
 msgstr ""
+"«На самом деле, ты не сможешь остановить меня, Игнус: ты можешь сжечь меня, "
+"но я буду продолжать настигать тебя, пока ты не погаснешь. Так что "
+"*покончим* с угрозами...»"
 
 #: 57582 57586
 msgid "\"So *you* say... we'll speak later, Ignus.\""
-msgstr ""
+msgstr "«Это *ты* так думаешь... мы еще поговорим, Игнус»."
 
 #: 57583
 msgid ""
@@ -353,14 +450,17 @@ msgid ""
 "studying you, then hisses. *\"FLAMESSSSS will burnnnn the immmortality from "
 "you... you are NOT sssafe from my flamesssss...\"*"
 msgstr ""
+"Слышится треск, Игнус слегка наклоняет голову вбок, как бы изучая тебя, "
+"затем шипит. *»ПЛАМЯ выжжет из тебя бессссссмертие... Ты УЯЗВИМ перед моим "
+"огнем...»*"
 
 #: 57584
 msgid "\"Maybe you don't understand what immortality MEANS, Ignus...\""
-msgstr ""
+msgstr "«Может, ты не понимаешь, что ОЗНАЧАЕТ бессмертие, Игнус...»"
 
 #: 57585
 msgid "\"How did you know I was immortal?\""
-msgstr ""
+msgstr "«Откуда ты узнал, что я бессмертный?»"
 
 #: 57587
 msgid ""
@@ -369,10 +469,15 @@ msgid ""
 "HEAT pours from him, so powerful you are forced to shield your eyes - there "
 "is a great ROARING, as the air flees past you being drawn into Ignus. "
 msgstr ""
+"*»Ты *НЕ* бессссмертный... Игнусссс может тебя УБИТЬ... развеять твой прах "
+"по ветру...»* Ты наблюдаешь, как он широко разводит руки, и из него льется "
+"ЖАР, настолько мощный, что ты вынужден прикрыть глаза. Слышится мощный РЕВ: "
+"воздух обтекает тебя сзади, притянутый Игнусом. "
 
 #: 57588
+#, fuzzy
 msgid "\"Ignus! Stop th-\""
-msgstr ""
+msgstr "«Игнус! Прекрати уг...»"
 
 #: 57589
 msgid ""
@@ -382,10 +487,14 @@ msgid ""
 "and over the pain, you can hear Ignus cackling... cackling, crackling "
 "laughter... "
 msgstr ""
+"Пока ты пытаешься крикнуть Игнусу остановиться, волна тепла оборачивается "
+"вспять, и ожигающая *жара* омывает тебя. Ты чувствуешь, как твоя плоть "
+"начинает тлеть, и чувствуешь БОЛЬ... ты стискиваешь зубы и сквозь боль "
+"слышишь хихиканье Игнуса... кудахтающий трескучий смех..."
 
 #: 57590
 msgid "\"Ignus!\""
-msgstr ""
+msgstr "«Игнус!»"
 
 #: 57591
 msgid ""
@@ -393,12 +502,17 @@ msgid ""
 "tantrum, but there's something about that elemental power he commands; I "
 "think he has the power to kill me... permanently. "
 msgstr ""
+"Пока я разговаривал с Игнусом, он чуть не спятил до конца... Я пережил его "
+"приступ гнева. Есть что-то такое в той стихии, которой он управляет, что "
+"наводит меня на мысль, что ему под силу убить меня... навсегда."
 
 #: 57592
 msgid ""
 "Ignus claims I am his master, the one who taught him the Art. He says it's "
 "the only reason he obeys me..."
 msgstr ""
+"Игнус утверждает, что я - его учитель, который обучил его Искусству. Он "
+"говорит, что это единственная причина, по которой он мне подчиняется..."
 
 #: 57603
 msgid ""
@@ -409,16 +523,23 @@ msgid ""
 "to destroy you - if his flames were to kill you, there would be nothing left "
 "of your body."
 msgstr ""
+"Когда ты снова выкрикиваешь его имя, жара спадает. Пощупав лицо руками, ты "
+"замечаешь, что кожа обуглилась в местах, где Игнус ее опалил... а сам он "
+"жадно наблюдает за тобой. Ты понимаешь, лучше, чем когда-либо, что кем бы "
+"*ни был* Игнус, чем бы ни была та сила, которая овладела им, она способна "
+"уничтожить тебя: если бы его пламя убило тебя, от тебя бы ничего не осталось."
 
 #: 57605
 msgid ""
 "\"I have had ENOUGH of you, Ignus... perhaps you can kill me, perhaps not - "
 "I'm willing to put it to the test.\""
 msgstr ""
+"«С меня ХВАТИТ, Игнус... Может, ты и способен меня убить, а может, и нет. "
+"Хочу это проверить»."
 
 #: 57607
 msgid "\"Very well, Ignus. We shall speak later then, you and I...\""
-msgstr ""
+msgstr "«Хорошо, Игнус. Мы с тобой еще поговорим об этом позже...»"
 
 #: 57608
 msgid ""
@@ -427,22 +548,28 @@ msgid ""
 "around him rising, as if in interest. *\"Sssss'peak... Ignusss will "
 "lisssten...\"*"
 msgstr ""
+"Твои слова подобны маслу... Ты наблюдаешь, как они заполняют глаза Игнуса, "
+"разжигая в них костры. *»Пламя?»* Игнус медленно опускается, жар вокруг него "
+"возрастает, как будто от любопытства. *»Рассссказывай... Игнуссс "
+"высссслушшает...»*"
 
 #: 57633
 msgid "\"We'll discuss flames later, Ignus, not now.\""
-msgstr ""
+msgstr "«Мы позже обсудим пламя, Игнус, - не сейчас»."
 
 #: 57636
 msgid ""
 "*\"Flamessss...?\"* Ignus' voice crackles, as if in interest. *"
 "\"Sssss'peak... Ignusss will lisssten...\"*"
 msgstr ""
+"*»Пламя?»* Голос Игнуса потрескивает, будто от любопытства. "
+"*»Рассссказывай... Игнуссс высссслушает...»*"
 
 #: 57658
 msgid ""
 "\"I have no further questions... let your dreams be filled with flames, "
 "Ignus...\""
-msgstr ""
+msgstr "«У меня больше нет вопросов... Да наполнятся огнем твои сны, Игнус...»"
 
 #: 57659
 msgid ""
@@ -450,14 +577,17 @@ msgid ""
 "from the sheer amount of heat. *\"SPEAK OF FLAMESSSSS! SSS'PEAK OF THE "
 "BURNING!\"* "
 msgstr ""
+"*»НЕТ! ГОВОРИ-И-И!»* - воет Игнус, воздух вокруг тебя снова *дрожит* от "
+"значительного количества тепла. *»РАСССКАЖИ О ПЛАМЕНИ! РАССССКАЖИ О "
+"ГОРЕНИИ!»* "
 
 #: 57660
 msgid "\"Uh... very well. I had these questions... about flames...\""
-msgstr ""
+msgstr "«Э... ладно. У меня тут вопросы... насчет огня...»"
 
 #: 57661
 msgid "\"No, Ignus... we'll speak some other time! Not now!\""
-msgstr ""
+msgstr "«Нет, Игнус... мы поговорим в другой раз! Не сейчас!»"
 
 #: 57662 57663
 msgid ""
@@ -465,6 +595,9 @@ msgid ""
 "edges of the timbers, blackening the wood beneath, watching the heat peel "
 "the paint from the walls, thatch crackling, the smell of burning straw...\""
 msgstr ""
+"«Игнус... Ты когда-нибудь *чувствовал*, как горит дом? Языки пламени лижут "
+"края балок, обугливая древесину, а жар на глазах отслаивает краску от стен, "
+"солома трещит, слышен запах ее горения...»"
 
 #: 57664
 msgid ""
@@ -473,22 +606,30 @@ msgid ""
 "PLACE. He raises his hands, flames crackling along the edges, growing to "
 "become great, flaming whips. *\"You sssshalll BURNNNN!\"*"
 msgstr ""
+"Игнус взвывает - ужасный *пронзительный* вой, - и вдруг его охватывает "
+"огненно-красное свечение. А его глаза... его глаза - словно окна в какое-то "
+"другое МЕСТО. Он поднимает руки, вдоль которых потрескивают языки пламени, "
+"превращающиеся в огромные огненные хлысты. *»Ты ССССГОРИШЬ!»*"
 
 #: 57665
 msgid "\"Ignus, you *asked* for this...\""
-msgstr ""
+msgstr "«Игнус, ты сам *напросился*...»"
 
 #: 57666
+#, fuzzy
 msgid ""
 "As you speak, the crackling of the flames around Ignus' frame ebbs, as if "
 "the flames themselves are listening to your words... when you finish, Ignus "
 "hisses softly, and the flames in his eyes have dimmed, as if he is lost in a "
 "memory. *\"Yessssss...\"*"
 msgstr ""
+"Когда ты произносишь это, треск пламени вокруг тела Игнуса спадает, как "
+"будто сам огонь слушается тебя... Когда ты заканчиваешь, Игнус тихонько "
+"шипит, и огонь в его глазах угасает, как будто он задумался. *»Да-а-а....»*"
 
 #: 57667
 msgid "\"We'll speak later then, Ignus... stay calm in the meantime.\""
-msgstr ""
+msgstr "«Тогда поговорим об этом позже, Игнус... а пока успокойся»."
 
 #: 57668
 msgid ""
@@ -496,23 +637,27 @@ msgid ""
 "runs in a steaming trickle down his jaw. *\"Thissss way... Ignussss "
 "alwayssss wasss...\"*"
 msgstr ""
+"*»Таким...»* Небольшой волдырь на щеке Игнуса *лопается* и дымящейся "
+"струйкой стекает по его челюсти. *»Таким... Игнусссс был всссегда...»*"
 
 #: 57669
 msgid ""
 "\"But... you look human. Or at least, you look like you were human once.\""
 msgstr ""
+"«Но... ты похож на человека. Или, по крайней мере, ты выглядишь так, будто "
+"когда-то был человеком»."
 
 #: 57670 57679 57685 57690 57710 57718 57727
 msgid "\"I wish to speak more of burning and flames...\""
-msgstr ""
+msgstr "«Я хочу поговорить еще об огне и горении...»"
 
 #: 57671 57680 57686 57691
 msgid "\"I had some other questions for you...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы к тебе...»"
 
 #: 57672 57681 57688 57693
 msgid "\"I see. You and I may speak more... later.\""
-msgstr ""
+msgstr "«Понятно. Поговорим еще... попозже»."
 
 #: 57673
 msgid ""
@@ -521,30 +666,39 @@ msgid ""
 "his body and distorting the air around him. *\"Ssssstill Ignusss... "
 "alwayssss Ignusss...\"*"
 msgstr ""
+"Игнус поворачивается, опустив голову на грудь, его тело медленно вращается "
+"над землей... Создается впечатление огненного вихря; потоки тепла от его "
+"тела растворяются в окружающем воздухе. *»Всссе еще Игнуссс... всссегда "
+"Игнуссс...»*"
 
 #: 57674
 msgid "\"I wish to speak more of burn-\""
-msgstr ""
+msgstr "«Я хочу поговорить еще об ог...»"
 
 #: 57675
 msgid "\"Never mind, then. I had some other quest-\""
-msgstr ""
+msgstr "«Ладно, неважно. У меня есть другие вопр...»"
 
 #: 57676
 msgid "\"I see. Well, that's enough f-\""
-msgstr ""
+msgstr "«Понятно. Что ж, пока хватит об э...»"
 
 #: 57677
+#, fuzzy
 msgid ""
 "As you open your mouth to speak, Ignus suddenly whirls on you - you are "
 "forced to choke back your words as the heat from his frame floods over you. *"
 "\"Ignussss might YOU be... sss'PARKssss in bodiesss, alwayssss sssseeeking "
 "to rise...\"*"
 msgstr ""
+"Только ты раскрываешь рот, как Игнус вдруг налетает на тебя... ты вынужден "
+"проглотить слова: жар его пламени накрывает тебя волной. *»Игнуссссом мог бы "
+"ссстать ТЫ... исссскры в телах, всссегда готовые проклюнутьсссся...»*"
 
 #: 57678
+#, fuzzy
 msgid "\"'Sparks in bodies'? What do you mean?\""
-msgstr ""
+msgstr "«Искры в телах? Что ты имеешь в виду?»"
 
 #: 57682
 msgid ""
@@ -553,24 +707,33 @@ msgid ""
 "to be KINDLED with flamessss to become Ignusssss... sssso might YOU have "
 "been... Ignussss...\"*"
 msgstr ""
+"*»ВСССЕ горит... внутри...»* Игнус откидывает голову назад и широко разводит "
+"руки, по ним пробегают завихрения огня и жара. *»Нужно лишь РАЗЖЕЧЬ огонь, "
+"чтобы ссстать Игнуссссом... и ТЫ мог бы ссстать... Игнусссом...»*"
 
 #: 57683
 msgid ""
 "\"Actually, if you end up trying to kindle the flames within people, you "
 "usually end up killing them.\""
 msgstr ""
+"«Вообще-то, когда ты пытаешься разжечь в людях огонь, обычно это "
+"заканчивается их смертью»."
 
 #: 57684
 msgid ""
 "\"So... you're saying everyone has the potential to become like you, with "
 "the right... spark?\""
 msgstr ""
+"«То есть... ты говоришь, что у каждого есть возможность стать таким, как ты, "
+"при наличии правильной... искры?»"
 
 #: 57689
 msgid ""
 "*\"Yessssss...\"* Ignus 'grins,' cocking his head to one side, ashes falling "
 "from his skull and being swept up in the flaming wreath that surrounds him. "
 msgstr ""
+"*»Да-а-а...»* - «ухмыляется» Игнус, склонив голову набок, пепел сыпется с "
+"его черепа и сметается огненным венком, которые его окружает."
 
 #: 57694
 msgid ""
@@ -578,18 +741,21 @@ msgid ""
 "re-melting into charred, sneering red-and-black pieces. *\"Yessss... a dream "
 "sssshall Ignussss ssshare...\"*"
 msgstr ""
+"Лицо Игнуса перекашивается, плоть у кончиков его рта трескается, потом "
+"превращается в насмешливые обугленные красно-черные кусочки. *»Да-а-а... "
+"ссссон покажет Игнуссс...»*"
 
 #: 57696
 msgid "\"Maybe later. For now I wish to speak more of burn-\""
-msgstr ""
+msgstr "«Может, позже. А пока я хотел бы поговорить больше о гор...»"
 
 #: 57697
 msgid "\"Uh... not right now. I had some other quest-\""
-msgstr ""
+msgstr "«Э-э... не сейчас. У меня тут другие вопр...»"
 
 #: 57698
 msgid "\"I've heard enough. We'll sp-\""
-msgstr ""
+msgstr "«Я услышал достаточно. Погов...»"
 
 #: 57700
 msgid ""
@@ -599,14 +765,18 @@ msgid ""
 "flamessss, and the buildingssss were as flamessssss... screamssss as the "
 "dwellerssss became TORCHESSssss...\"*"
 msgstr ""
+"Из Игнуса вырывается поток огня, и ты отступаешь на шаг; воздух *колышется* "
+"от жары. *»Ночью улицы... так холодны... Игнуссс СЖИГАЛ дома с жильцами... "
+"всссе БЕЖАЛИ от Игнуссса, огонь, дома как огонь... вопли - жильцы "
+"ссстановилисссь ФАКЕЛАМИ...»*"
 
 #: 57701
 msgid "\"I've heard enough, Ign-\""
-msgstr ""
+msgstr "«Я услышал достаточно, Игн...»"
 
 #: 57703 57707
 msgid "Listen quietly, wait for his ranting to die."
-msgstr ""
+msgstr "Молча слушать, ожидая, пока не утихнет его бормотание."
 
 #: 57704
 msgid ""
@@ -614,10 +784,12 @@ msgid ""
 "redsss and orangessss and blackssss, the flamessss sssspreading, "
 "caresssing... sssuch LIGHTSSSS...\"*"
 msgstr ""
+"*»Дома - ССССКЕЛЕТЫ... угловатые, тела - ссскелеты... красссные, оранжевые и "
+"черные; огонь расссходитьсся, лассскает... ссстолько СССВЕТА...»*"
 
 #: 57706
 msgid "\"Ignus, I've heard ENOUGH -\""
-msgstr ""
+msgstr "«Игнус, я услышал ДОСТАТОЧНО...»"
 
 #: 57709
 msgid ""
@@ -625,14 +797,17 @@ msgid ""
 "somewhat. He seems to be lost in thought - perhaps lost in memory. *"
 "\"Ssss... and Ignussss wassss pleasssed...\"*"
 msgstr ""
+"*»Ссс...»* Ярость Игнуса спадает, ореол огня вокруг него немного ослабевает. "
+"Похоже, он задумался, быть может, погряз в воспоминаниях. *»Сссс... Игнусссс "
+"был доволен...»*"
 
 #: 57712
 msgid "\"I have other questions for you, Ignus...\""
-msgstr ""
+msgstr "«У меня к тебе есть другие вопросы, Игнус...»"
 
 #: 57713
 msgid "\"I see. We shall speak later, you and I...\""
-msgstr ""
+msgstr "«Понятно. Мы с тобой еще поговорим об этом...»"
 
 #: 57714
 msgid ""
@@ -641,18 +816,21 @@ msgid ""
 "at the edges of his jaw. *\"Ignusss... once... knew NOTHING of flamessss..."
 "\"*"
 msgstr ""
+"На мгновение тебе кажется, что Игнус тебя не расслышал, но вдруг огонь в его "
+"глазах немного меркнет и он издает тихое шипение; зола и пепел танцуют по "
+"краям его челюсти. *»Игнуссс... когда-то... НИЧЕГО не знал об огне...»*"
 
 #: 57717 57726
 msgid "\"Yes?\""
-msgstr ""
+msgstr "«Да?»"
 
 #: 57719 57729
 msgid "\"Never mind. I had some other questions...\""
-msgstr ""
+msgstr "«Неважно. У меня есть другие вопросы...»"
 
 #: 57723 57730
 msgid "\"Never mind, Ignus. We'll speak again some other time.\""
-msgstr ""
+msgstr "«Неважно, Игнус. Как-нибудь еще поговорим»."
 
 #: 57725
 msgid ""
@@ -662,6 +840,10 @@ msgid ""
 "\"The firessss grew... Ignussss ssset firessss in their streetssss... and "
 "lit the firessss of anger in their heartssss...\"* "
 msgstr ""
+"*»Когда-то... Игнусссс НИЧЕГО не знал об огне... он зажигал маленькие огни, "
+"огоньки, вccспышки... часccтички пламени...»* Игнус снова шипит, пепел и "
+"угольки слетают с остатков его рта. *»Огонь росссс... Игнусссс поджигал "
+"улицы... и разжигал пламя злобы в сссердцах...»* "
 
 #: 57733
 msgid ""
@@ -669,6 +851,9 @@ msgid ""
 "else, as if re-living a memory through his words... against your will, you "
 "stop and listen."
 msgstr ""
+"Похоже, Игнус не слышит тебя... Он будто попал в другое место, оживив "
+"воспоминания своими словами... Против своей воли ты умолкаешь и "
+"вслушиваешься."
 
 #: 57734
 msgid ""
@@ -679,6 +864,12 @@ msgid ""
 "onessss... they sssentenced Ignusssss to BURNNNN, made Ignussss a TORCH, a "
 "sssspitting FLAME, burning, burning... It wassss JUSSSTICE, they sssaid...\"*"
 msgstr ""
+"*»Они пыталисссь наказать Игнусссса, мошкара из Улья. Они хотели ССССЖЕЧЬ "
+"Игнусссса посссле того, как Игнусссс поджег их улицы... ученички магов, "
+"захудалые волшебники, рунные заклинатели... исссскорки магии заявилисссь, "
+"чтобы ПОКАРАТЬ Игнусссса за то, что обидел их близких... они приговорили "
+"Игнуссса ГОРЕТЬ, сссделали из Игнусссса ФАКЕЛ, шипящее ПЛАМЯ, огонь, "
+"огонь... Это ПРАВОССССУДИЕ, говорили они...»*"
 
 #: 57736
 msgid ""
@@ -689,8 +880,14 @@ msgid ""
 "TALLOW acrossss my bonessss... and for the firssst time... Ignussss issss "
 "PLEASSSSED...\"*"
 msgstr ""
+"*»Правоссссудие...»* Ты завороженно наблюдаешь, как Игнус снова начинает "
+"медленно вращаться, как раньше, над решеткой в Тлеющем трупе. *»Но это был "
+"не приговор... огня и боли так много, что боли НЕТ... Есссть ССССВЕТ и "
+"ТЕПЛО, и плоть ссстекает как ВОСССК по моим коссстям... и впервые... "
+"Игнусссс был ДОВОЛЕН...»*"
 
 #: 57738
+#, fuzzy
 msgid ""
 "Ignus stops his rotation, and his gaze falls upon you. As it does, the fires "
 "in his eyes flare, and a charred grin splits his features, the flesh "
@@ -700,18 +897,24 @@ msgid ""
 "planessss burnnnn and all life is torchesss, then Ignusss ssshall at "
 "lassst... be at peace...\"*"
 msgstr ""
+"Игнус перестает вращаться, его взгляд падает на тебя. При этом огни в его "
+"глазах вспыхивают, лицо расплывается в опаленной улыбке, кожа трещит и "
+"лопается, плавясь и стекая по лицу. У него лицо всех преисподней, огненное "
+"лицо; его следующие слова звучат как смертный приговор, не только для тебя, "
+"но и для всех остальных. *»Когда Планы загорятссся и вссссе ссстанут "
+"факелами, Игнусссс, наконец... обретет мир...»*"
 
 #: 57739 57745 57755 57764 57771 57780 57821 57826 57833 57869 57879 57889
 msgid "\"I wished to speak more of flames and burning, Ignus...\""
-msgstr ""
+msgstr "«Я хотел бы поговорить еще об огне и горении, Игнус...»"
 
 #: 57740 57747 57757 57765 57773 57781 57822 57827 57834 57860 57870 57890
 msgid "\"I... see. I had some other questions...\""
-msgstr ""
+msgstr "«Понятно... У меня есть другие вопросы...» "
 
 #: 57741
 msgid "Leave Ignus to his thoughts of flames..."
-msgstr ""
+msgstr "Предоставить Игнуса его мыслям об огне..."
 
 #: 57743
 msgid ""
@@ -719,16 +922,20 @@ msgid ""
 "Ignus' mouth, in a horrid semblance of laughter. *\"You have ALWAYSSSS "
 "taught Ignussss... Ignusss MASSSS'TER, you *were.*\"*"
 msgstr ""
+"*»Как учить и учитьссся, знаешь ты...»* Изо рта у Игнуса вылетают сгустки "
+"пламени - ужасное подобие смеха. *»Ты ВССССЕГДА учил Игнусссса... УЧИТЕЛЕМ "
+"Игнуссса ты *был*»*."
 
 #: 57744
 msgid "\"Me? Are you *sure*...?\""
-msgstr ""
+msgstr "«Я? Ты *уверен*?..»"
 
 #: 57748
 msgid "\"Never mind, Ignus... we'll speak again later.\""
-msgstr ""
+msgstr "«Неважно, Игнус... поговорим об этом позже»."
 
 #: 57751
+#, fuzzy
 msgid ""
 "Ignus' voice *drops,* and the crackling of the flames dies. *\"Yessss... it "
 "issss the only reasssson... Ignussss... OBEYSSS you...\"* Flames rise around "
@@ -736,39 +943,52 @@ msgid ""
 "wordsssss to ME... to your sssstudent IGNUSSSS... Ignusss hassss NOT "
 "forgotten... Masssster...\"*"
 msgstr ""
+"Игнус *понижает* тон, треск пламени стихает. *»Да-а-а... это единсссственная "
+"причина, почему... Игнуссссс... ПОДЧИНЯЕТСССЯ тебе... - огонь вокруг него "
+"поднимается трескучей спиралью. - Пока СССМЕРТЬ не придет к нам обоим... "
+"сказал ты МНЕ... сссвоему ученику Игнуссссу... Игнусссс НЕ ЗАБЫЛ... "
+"Учитель...»*"
 
 #: 57753
+#, fuzzy
 msgid ""
 "\"Ignus... it must have been long ago when you learned the Art... are you "
 "absolutely sure it was me?\""
 msgstr ""
+"«Игнус... Должно быть, прошло немало времени с тех пор, как ты изучал "
+"Искусство... Ты точно уверен, что это был я?»"
 
 #: 57754
 msgid ""
 "\"Ignus, if I was your 'Master'... can you remember anything about me?\""
 msgstr ""
+"«Игнус, раз я был твоим 'учителем'... ты можешь что-нибудь вспомнить обо "
+"мне?»"
 
 #: 57759 57775 57782
 msgid "\"Never mind, Ignus... we will speak again later.\""
-msgstr ""
+msgstr "«Неважно, Игнус... поговорим об этом позже»."
 
 #: 57760
+#, fuzzy
 msgid ""
 "*\"Yesss...\"* Ignus cackles. *\"Yessssss... the face hassss changed... but "
 "many lesssonssss you taught Ignussss...\"*"
 msgstr ""
+"*»Да-а-а.... - Игнус хихикает. - Да-а-а-а... Лицо изменилосссссь... но много "
+"уроков ты преподал Игнуссссу...»*"
 
 #: 57761
 msgid "\"If my face has changed, how do you know?\""
-msgstr ""
+msgstr "«Раз мое лицо изменилось, как ты меня узнал?»"
 
 #: 57763 57769
 msgid "\"Ignus... this is important. Can you remember anything about me?\""
-msgstr ""
+msgstr "«Игнус... это важно. Ты можешь что-нибудь вспомнить обо мне?»"
 
 #: 57766
 msgid "\"Never mind, Ignus... we will speak more of this later.\""
-msgstr ""
+msgstr "«Неважно, Игнус... мы еще поговорим об этом позже»."
 
 #: 57768
 msgid ""
@@ -776,20 +996,26 @@ msgid ""
 "the SSSSAME... no matter what the sssskin... ssskin can bleed... ssskin can "
 "burn... but the INNER flame remainssssss...\"* "
 msgstr ""
+"*»Во вссссем ессссть... крохотные огоньки... ИССССКРЫ, огонь - одно и ТО "
+"ЖЕ... неважно, что за кожа у тебя... кожа может лишитьсссся крови... кожа "
+"может ссссгореть... но ВНУТРЕННИЙ огонь осссстанется...»* "
 
 #: 57776
 msgid ""
 "Ignus hisses... and for a moment, his *features* flicker - at first, you "
 "think it's the flames, but it's not... it's the flickering of *memory*..."
 msgstr ""
+"Игнус шипит... на какое-то мгновение в его *лице* что-то показывается. "
+"Сперва тебе кажется, что это огонь, но это не он... Это тень "
+"*воспоминания*..."
 
 #: 57777
 msgid "Surrender to the memory."
-msgstr ""
+msgstr "Предаться воспоминанию."
 
 #: 57778 57785 57788 57791 57794 57797 57800 57803 57806 57809 57812 57817
 msgid "Shake off the memory."
-msgstr ""
+msgstr "Стряхнуть воспоминание."
 
 #: 57779
 msgid ""
@@ -798,6 +1024,9 @@ msgid ""
 "smeared across his face... *\"Masssster... Ignusssss hasss NOT forgotten "
 "your teachingsss...\"*"
 msgstr ""
+"Твой взор проясняется; воспоминание уносится прочь как дым. Игнус завис над "
+"тобой, его голова склонена набок, лицо перекошено в безумной почерневшей "
+"ухмылке... *»Учитель... Игнусссс НЕ ЗАБЫЛ твои учения...»*"
 
 #: 57783
 msgid ""
@@ -808,10 +1037,16 @@ msgid ""
 "spits embers onto the stone floor, motes rising from the fireplace. Faintly, "
 "from the darkness behind you, you can hear the rasp of someone breathing."
 msgstr ""
+"Треск пламени Игнуса стихает, уменьшаясь, в то время как обгоревшие кости "
+"Игнуса скрючиваются и замирают, превратившись в стопку поленьев в огромном "
+"железном камине... Ты глядишь в огонь, ярко пылающий в сводчатом помещении. "
+"Пламя трещит и выплевывает угольки на каменный пол; над камином витают "
+"пылинки. Из темноты за твоей спиной до тебя доносится тихое скрипучее "
+"дыхание. "
 
 #: 57784
 msgid "Memory: \"I can *hear* you... step into the light.\""
-msgstr ""
+msgstr "Воспоминание: «Я тебя *слышу*... Выйди на свет»."
 
 #: 57786
 msgid ""
@@ -820,33 +1055,45 @@ msgid ""
 "nervous - you can hear his muscles shaking, his voice trembling - just "
 "enough to increase your irritation. \"Forgive my intrusion, master. I-\""
 msgstr ""
+"Слышится шарканье сандалий, и к камину подходит хилый юноша. Его большие "
+"черные глаза ловят отражения огня. Он взволнован: ты слышишь, как он "
+"трясется, и голос у него дрожит. Это лишь усиливает твое раздражение. "
+"«Простите мне мое вторжение, учитель. Я...»"
 
 #: 57787
 msgid ""
 "Memory: \"You have *already* intruded, supplicant. You did so with "
 "intention. I will hear it now, then you will leave me to my thoughts.\""
 msgstr ""
+"Воспоминание: «Ты *уже* вторгся, проситель. И не просто так. Я выслушаю "
+"тебя, а затем ты предоставишь меня моим размышлениям»."
 
 #: 57789
+#, fuzzy
 msgid ""
 "The boy takes a deep breath, and glances at the fire. \"Master, I... dreamed "
 "of flames again, last night... they felt real, and you said that we were to "
 "come to you if-\""
 msgstr ""
+"Мальчишка делает глубокий вздох и бросает взгляд на пламя. «Учитель, мне... "
+"вчера снова снился огонь... он был как настоящий, а вы велели прийти, "
+"если...»"
 
 #: 57790
 msgid "Memory: \"It was a *dream,* nothing more. Now leave.\" "
-msgstr ""
+msgstr "Воспоминание: «Это был всего лишь *сон*. А теперь ступай». "
 
 #: 57792
 msgid ""
 "The boy does not move - his brows draw together, and slowly, he displays his "
 "hands. The flesh around the fingers... blackened, burned. "
 msgstr ""
+"Мальчишка не сходит с места. С хмурым выражением лица он медленно показывает "
+"свои руки. Кожа на пальцах... почернела, обгорела."
 
 #: 57793
 msgid "Memory: \"How did your hands come to be burned, supplicant?\" "
-msgstr ""
+msgstr "Воспоминание: «Как ты обжег себе руки, проситель?» "
 
 #: 57795
 msgid ""
@@ -857,18 +1104,27 @@ msgid ""
 "when I awoke, my hands... they were burned, as if I had held a flame within "
 "my hands.\""
 msgstr ""
+"«Я проснулся и мои руки были как пепел». Мальчишка встречается с тобой "
+"взглядом. Он все еще слабо дрожит, но рвение в его голосе начинает тебя "
+"злить. «Мне снилось, что я парил над землей; небо и земля были в огне. Сам "
+"мир был таким ярким, что было... больно на него смотреть, учитель. А когда я "
+"проснулся, мои руки... они были обожжены, как будто я держал в руках огонь»."
 
 #: 57796
 msgid ""
 "Memory: \"You lie, supplicant. You have come to me with a story, and now you "
 "are in danger of *angering* me.\" "
 msgstr ""
+"Воспоминание: «Ты лжешь, проситель. Ты пришел ко мне с выдумкой и теперь "
+"рискуешь *разозлить* меня». "
 
 #: 57798
 msgid ""
 "\"No, master...\" The boy's face glistens with a sweaty sheen of fear. \"No, "
 "upon my life, I do not!\""
 msgstr ""
+"«Нет, учитель...» Лицо мальчишки блестит от пота - блеск страха. «Нет, "
+"честное слово, это не так!»"
 
 #: 57799
 msgid ""
@@ -876,6 +1132,9 @@ msgid ""
 "within one of the pyres in the Vault of Currents. Now you come to me and "
 "tell me a dream burned you. I tire of your lies.\""
 msgstr ""
+"Воспоминание: «Ты обжегся свечой. Или сунул руку в один из погребальных "
+"костров в Склепе источников. А теперь пришел ко мне и рассказываешь, что "
+"тебя обжег сон. Я устал от твоего вранья»."
 
 #: 57801
 msgid ""
@@ -885,10 +1144,15 @@ msgid ""
 "to *repeat* them to you and tell you they are *true.*\" He holds up his "
 "hands. \"Look, master...\""
 msgstr ""
+"Мальчишка умолкает и, к твоему удивлению, его лицо перекашивает от гнева. "
+"«Нет, я не вру. Это *сон* меня обжег, учитель. Вы же сами говорили, что так "
+"может случиться, если мы почувствуем проблески силы. Это были *ваши* слова, "
+"и я пришел *повторить* их вам и сказать, что это *правда*, - он поднимает "
+"руки. - Поглядите, учитель...»"
 
 #: 57802
 msgid "Memory: Grab his hands."
-msgstr ""
+msgstr "Воспоминание: Схватить его за руки."
 
 #: 57804
 msgid ""
@@ -897,10 +1161,15 @@ msgid ""
 "vault. With a snarl, you hurl him to the ground in front of the fireplace, "
 "and there is a sharp *crack* as his knees strike the flagstones."
 msgstr ""
+"Прежде чем мальчишка успел среагировать, твоя рука, огромная в сравнении, "
+"выстреливает и хватает его опаленные руки; паренек вскрикивает, вызывая эхо "
+"в помещении. Усмехаясь, ты швыряешь его на пол перед камином. Его колени с "
+"резким треском ударяются о плиты."
 
 #: 57805
 msgid "Memory: \"Look into those flames, supplicant! Raise your head, look!\" "
 msgstr ""
+"Воспоминание: «Посмотри на это пламя, проситель! Подними голову, взгляни!» "
 
 #: 57807
 msgid ""
@@ -908,6 +1177,9 @@ msgid ""
 "his eyes as he raises his head to look into the fireplace. The flames cast "
 "his face in a red, gaunt glow..."
 msgstr ""
+"Мальчишка вздрагивает от боли в коленях... Ты видишь, что его глаза "
+"заволокли слезы, когда он поднимает голову, чтобы посмотреть в камин. Пламя "
+"бросает на его лицо мрачные красные отблески..."
 
 #: 57808
 msgid ""
@@ -915,6 +1187,9 @@ msgid ""
 "flames what stirs your heart? Know that flames can burn, and if you would "
 "learn their power, you must suffer their touch.\""
 msgstr ""
+"Воспоминание: «Ты *это* хочешь взять, проситель? Твое сердце трепещет от "
+"вида пламени? Знай: пламя может ожечь. Изучая его силу, тебе придется "
+"страдать от его прикосновения»."
 
 #: 57810
 msgid ""
@@ -922,12 +1197,18 @@ msgid ""
 "have dried in the heat, and the shaking is gone. The flames are his focus. "
 "He is not LISTENING to you, and you feel fury washing over you."
 msgstr ""
+"Мальчик молчит, глядя в пламя. Он словно заворожен. Его слезы высохли в "
+"тепле, он больше не дрожит. Он сосредоточился на огне. Он НЕ СЛУШАЕТ тебя, и "
+"ты чувствуешь, как тебя захлестывает ярость."
 
 #: 57811
 msgid ""
 "Memory: \"If that is what consumes you, enough for you to *intrude* upon my "
 "meditations, then I shall teach you of the shaping of flames, supplicant.\" "
 msgstr ""
+"Воспоминание: «Если то, что тебя гложет, стало для тебя достаточной "
+"причиной, чтобы *прервать* мою медитацию, то я обучу тебя владению огнем, "
+"проситель». "
 
 #: 57814
 msgid ""
@@ -936,6 +1217,9 @@ msgid ""
 "a crackling, a hissing of burning flesh, and his *screams* - such terrible, "
 "yet -"
 msgstr ""
+"Ты кидаешься и хватаешь мальчишку за запястье. Он воет, а ты подтаскиваешь "
+"его к камину, затем суешь его руки в угли. Слышен треск, шипение горящей "
+"плоти и его *крики*, такие ужасные, и все же..."
 
 #: 57815 57816
 msgid ""
@@ -943,6 +1227,9 @@ msgid ""
 "to be burned by the power of that which you wield. Know its torment, and you "
 "shall know how to use it against your enemies.\""
 msgstr ""
+"Воспоминание: «Чтобы научиться, тебе придется *страдать*, проситель. Тебе "
+"придется позволить силе, которой ты обладаешь, обжечь тебя. Познай ее пытки "
+"- и ты поймешь, как обращать ее против твоих врагов»."
 
 #: 57818
 msgid ""
@@ -950,6 +1237,9 @@ msgid ""
 "Apparently... at some point in the past... *I* was the one who taught Ignus "
 "the ways of the Art, though I think Ignus learned the wrong lessons from me. "
 msgstr ""
+"У меня было четкое воспоминание, в котором я видел встречу Игнуса с его "
+"«учителем». Похоже, что... когда-то в прошлом... *я* был тем, что обучил его "
+"Искусству, хотя мне кажется, что Игнус научился от меня не тому, чему надо."
 
 #: 57819
 msgid ""
@@ -958,14 +1248,18 @@ msgid ""
 "like laughter, and a stream of embers spits forth. *\"Ssssuffer... learn..."
 "\"*"
 msgstr ""
+"*»Сссс... Игнусссс когда-то *много* знал... но не теперь... Игнусссс "
+"горит... в ссстраданиях, Игнусссс учитсссся...»* Из его рта вырывается "
+"небольшая вспышка огня и поток угольков - нечто вроде смеха. *»Сссстрадай... "
+"учиссссь...»*"
 
 #: 57820
 msgid "\"I am willing to suffer for such knowledge...\""
-msgstr ""
+msgstr "«Я готов страдать за эти знания...»"
 
 #: 57823 57828 57835
 msgid "\"Maybe some other time, Ignus... we may speak again later.\""
-msgstr ""
+msgstr "«Может, в другой раз, Игнус... Мы можем поговорить об этом позже»."
 
 #: 57824
 msgid ""
@@ -974,10 +1268,13 @@ msgid ""
 "the knowledge Ignus has to teach may permanently scar you... but you don't "
 "know *how* you know this."
 msgstr ""
+"Не успев сказать эти слова, ты ощущаешь покалывание в затылке... и вдруг "
+"тебя осеняет, что знания, которые может дать Игнус, могут навсегда ранить "
+"тебя... но ты не знаешь, *откуда* тебе это известно."
 
 #: 57825
 msgid "Repeat: \"I am willing to suffer for such knowledge...\""
-msgstr ""
+msgstr "Повторить: «Я готов страдать за эти знания...»"
 
 #: 57829
 msgid ""
@@ -986,14 +1283,19 @@ msgid ""
 "sssself are burnnned away... sssss... Ignusss... Ignusss may ssstill teach "
 "*MUCH.*\"*"
 msgstr ""
+"*»Сссстрадать...?»* В уголках рта Игнуса ярко сверкают языки пламени, "
+"пробегая вверх по расплавленным остатка его лица. *»Жечь? Чассстички тебя "
+"сссгорели... ссссс... Игнуссс... Игнуссс вссссе же может *КОЕ-ЧЕМУ* "
+"научить»*."
 
 #: 57830
 msgid "\"I wish to learn, Ignus... can you teach me some of the Art?\""
-msgstr ""
+msgstr "«Я хочу учиться, Игнус... Ты можешь обучить меня Искусству?»"
 
 #: 57831 57832
 msgid "\"I wish to learn, Ignus... can you teach me some more of the Art?\""
 msgstr ""
+"«Я хочу учиться, Игнус... Ты можешь продолжить обучать меня Искусству?»"
 
 #: 57836
 msgid ""
@@ -1002,6 +1304,10 @@ msgid ""
 "greedy *hssssss,* he BURNS it, and through the searing pain, you close your "
 "eyes and SCREAM..."
 msgstr ""
+"*»Там, где когда-то горело пламя, можно разжечь его сссснова...»* Прежде чем "
+"ты успеваешь отреагировать, Игнус выбрасывает свою когтистую руку и хватает "
+"тебя за палец. С жадным *хссссс* он СЖИГАЕТ его, и ты, охваченный жгучей "
+"болью, закрываешь глаза и КРИЧИШЬ..."
 
 #: 57837
 msgid ""
@@ -1011,10 +1317,15 @@ msgid ""
 "drifting from his mouth, and he flicks the charred remains of your finger "
 "back to you."
 msgstr ""
+"Ты с усилием открываешь глаза и видишь обожженную массу, оставшуюся от твоей "
+"руки там, где Игнус коснулся ее... Он безразлично парит вверху, бережно "
+"удерживая твой палец, затем *отламывает* кончик, оставив лишь основание. Он "
+"*шипит*, из его рта вылетают угольки и пепел, затем бросает тебе обугленные "
+"остатки твоего пальца. "
 
 #: 57838
 msgid "\"Erhkk... what... did... you... do...?\""
-msgstr ""
+msgstr "«Эрххх... что... ты... наделал?..»"
 
 #: 57839
 msgid ""
@@ -1025,28 +1336,37 @@ msgid ""
 "increased. Despite the ordeal, my finger seems to be growing back, so it "
 "shouldn't impair my fighting or spell-casting abilities."
 msgstr ""
+"Игнус «обучил» меня кое-чему из Искусства, отломав мне палец, спалив его до "
+"кости, а затем вернув его мне... Кажется, он думает, что я знаю, что с ним "
+"делать. Пройдя через испытание, я, кажется, получил какой-то невосполнимый "
+"урон своему здоровью, однако мое сопротивление огню увеличилось. Несмотря на "
+"муки, похоже, что мой палец снова отрастает, так что это не должно сказаться "
+"на моих бойцовских или чародейских способностях."
 
 #: 57840 57851
 msgid ""
 "*\"Teachingsssss...\"* Ignus cackles, the sound now strangely painful to "
 "your ears. *\"To learn, one must ssssufffer.\"*"
 msgstr ""
+"*»Обучение...»* - хихикает Игнус. Теперь этот звук почему-то отдается болью "
+"в твоих ушах. *»Чтобы учитьсссся, придетсссся сссстрадать»*."
 
 #: 57841 57852
 msgid "\"I... wish... to learn... more...\""
-msgstr ""
+msgstr "«Я... хочу... продолжить... обучение...»"
 
 #: 57842 57853
 msgid "\"I... wished... to speak more... of flames and burning, Ignus...\""
 msgstr ""
+"«Я... хотел бы... поговорить еще... немного о пламени и горении, Игнус...»"
 
 #: 57843 57854
 msgid "\"I... see. I... had some... other questions...\""
-msgstr ""
+msgstr "«Понятно... У меня... есть... другие вопросы...»"
 
 #: 57844 57855
 msgid "\"Enough... Ignus... we will speak again later.\""
-msgstr ""
+msgstr "«Хватит... Игнус... мы еще поговорим позже»."
 
 #: 57845
 msgid ""
@@ -1054,6 +1374,9 @@ msgid ""
 "your left hand, and with a mad cackle, and with a greedy *hssssss,* he BURNS "
 "it, and through the searing pain, you close your eyes and SCREAM..."
 msgstr ""
+"*»Да-а-а-а...»* Прежде чем ты успеваешь отреагировать, Игнус выбрасывает "
+"свою когтистую клешню и хватает тебя за левую руку. С жадным *хссссс* он "
+"СЖИГАЕТ ее, и ты, охваченный жгучей болью, закрываешь глаза и КРИЧИШЬ..."
 
 #: 57846
 msgid ""
@@ -1063,10 +1386,15 @@ msgid ""
 "devoted to your severed hand, which he is holding, admiring it like a "
 "trophy. "
 msgstr ""
+"Ты с усилием открываешь глаза и видишь обожженную массу, оставшуюся от твоей "
+"руки там, где Игнус коснулся ее... осталась только подергивающаяся "
+"обугленная *культя*, из которой фонтаном бьет кровь. Похоже, что Игнус слеп "
+"к твоей боли: его внимание приковано к твоей оторванной руке, которую он "
+"держит, любуясь ею как трофеем."
 
 #: 57847
 msgid "\"Ig... nus... give... me... BACK... my hand...\""
-msgstr ""
+msgstr "«Иг... нус... ВЕРНИ... мне... мою... руку...»"
 
 #: 57848
 msgid ""
@@ -1077,10 +1405,16 @@ msgid ""
 "remaining hand. You notice the flesh of your severed hand is re-knitting "
 "itself, slowly, painfully... it looks like it's regrowing. "
 msgstr ""
+"Игнус не обращает на тебя внимания. Ты видишь, как пламя его рук окружает "
+"твою оторванную руку, подобно ореолу, медленно, подобно скульптору, выжигая "
+"всю оставшуюся плоть, покуда не остается лишь оплавленная кость. Он издает "
+"долгое низкое шипение, затем швыряет тебе свое «творение». Тебе удается "
+"поймать его оставшейся рукой. Ты замечаешь, что плоть твоей оторванной руки "
+"восстанавливается, медленно и болезненно... кажется, она отрастает заново."
 
 #: 57849
 msgid "\"What did... you do...\""
-msgstr ""
+msgstr "«Что ты... наделал...»"
 
 #: 57850
 msgid ""
@@ -1091,6 +1425,12 @@ msgid ""
 "Despite the ordeal, my hand seems to be growing back, so it shouldn't impair "
 "my fighting or spell-casting abilities."
 msgstr ""
+"Игнус «обучил» меня кое-чему из Искусства, спалив и оторвав мою руку: он "
+"выжег на ней плоть, затем вернул ее мне... Кажется, он думает, что я знаю, "
+"что с ней делать. Пройдя через испытание, я, кажется, получил какой-то "
+"невосполнимый урон своему здоровью, однако мое сопротивление огню "
+"увеличилось. Несмотря на муки, похоже, что моя рука отрастает обратно, так "
+"что это не должно сказаться на моих бойцовских или чародейских способностях."
 
 #: 57856
 msgid ""
@@ -1098,24 +1438,30 @@ msgid ""
 "trail as he rises. *\"No more! Piecesssss of sssself are burnnned away... "
 "sssss... Ignusss... yet no more of ssssharing will Ignusss teach...\"*"
 msgstr ""
+"*»Сссс... - Игнус подбрасывает себя в воздух, оставляя за собой шипящий "
+"огненный след. - Хватит! Кусочки сссожжены... ссссс... Игнуссс... Игуссссу "
+"больше нечему тебя обучить»*."
 
 #: 57857
 msgid "\"You need pieces of me in order to teach me? What about my eyeball?\""
-msgstr ""
+msgstr "«Чтобы обучить меня, тебе нужна моя часть? Как насчет моего глаза?»"
 
 #: 57858
 msgid ""
 "\"You need pieces of me in order to teach me? What about this strip of my "
 "intestines?\""
 msgstr ""
+"«Чтобы обучить меня, тебе нужна моя часть? Как насчет этого мотка моих "
+"кишок?»"
 
 #: 57859
 msgid "\"Very well. I wished to speak more of flames and burning, Ignus...\""
 msgstr ""
+"«Хорошо. Я хотел бы поговорить еще немного об огне и горении, Игнус...»"
 
 #: 57861 57886
 msgid "\"Never mind then, Ignus... we will speak again later.\""
-msgstr ""
+msgstr "«Тогда забудь об этом, Игнус... Мы еще поговорим позже»."
 
 #: 57862
 msgid ""
@@ -1125,6 +1471,12 @@ msgid ""
 "stream of flames into your socket. They seem to eat into your skull ... the "
 "hiss of burning flesh fills your nostrils and smoke clouds your vision... "
 msgstr ""
+"Игнус снова выбрасывает руку, его палец подобен копью... но он попадает не в "
+"тот глаз, который ты можешь вынимать. Вместо этого он протыкает ДРУГОЙ "
+"глаз... На миг ты не чувствуешь боли, только удивление. затем ты начинаешь "
+"*кричать*, когда Игнус выпускает в твою глазницу поток пламени. Оно, "
+"казалось бы, вгрызается в твой череп... шипение горящей плоти заполняет твои "
+"ноздри, дым заволакивает твой взор..."
 
 #: 57863
 msgid ""
@@ -1134,6 +1486,11 @@ msgid ""
 "untouched by the heat. As you watch, his hands cover the eye, and you feel a "
 "second burning pain in your eye socket..."
 msgstr ""
+"Ты с трудом открываешь глаза и сквозь кровавую пелену - ОДНИМ открытым "
+"глазом - едва различаешь, как Игнус, зависнув перед тобой в воздухе, держит "
+"в сложенных ковшом ладонях небольшой огненный шарик, твой глаз: кажется, он "
+"не пострадал от жары. Пока ты смотришь, его руки закрывают глаз, и ты вновь "
+"ощущаешь жгучую боль в глазнице..."
 
 #: 57864
 msgid ""
@@ -1143,10 +1500,15 @@ msgid ""
 "cackles, and with a breath of flame, the eyeball rises from his grasp and "
 "drifts over to you, like a flake of ash in the air. "
 msgstr ""
+"И вдруг, даже сквозь жгучую боль, ты снова начинаешь видеть четко... Игнус "
+"открывает ладонь, и в ней ты находишь то, что осталось от твоего глаза, "
+"теперь едва напоминающее его... тем не менее... твой глаз все еще в "
+"глазнице. Он хихикает, и от огненного выдоха глаз слетает с его ладони и "
+"подлетает к тебе, подобно хлопьям пепла в воздухе."
 
 #: 57865
 msgid "Take the eyeball... your eyeball..."
-msgstr ""
+msgstr "Взять глаз... твой глаз..."
 
 #: 57866
 msgid ""
@@ -1157,6 +1519,12 @@ msgid ""
 "would use some DAMN SCROLLS instead of these ordeals... at least I can still "
 "see through my eye. "
 msgstr ""
+"Игнус «обучил» меня кое-чему из Искусства, опалив мой глаз, а затем вернув "
+"его мне... Похоже, он думает, что я знаю, что с ним делать. Пройдя через "
+"испытание, я, кажется, получил какой-то невосполнимый урон своему здоровью, "
+"однако мое сопротивление огню увеличилось. Временами мне хочется, чтобы "
+"Игнус пользовался ЧЕРТОВЫМИ СВИТКАМИ вместо своих пыток... По крайней мере, "
+"я все еще вижу своим глазом."
 
 #: 57867
 msgid ""
@@ -1165,15 +1533,20 @@ msgid ""
 "circle around behind him, then flare into torches in his hands. *\"More "
 "sufferingssss...\"*"
 msgstr ""
+"Крохотные язычки пламени вьются в разрушенных глазницах Игнуса, двигаясь "
+"вверх через его обугленный череп. *»Больше обучения...»* Два языка пламени "
+"обвивают его, затем вспыхивают факелами в его руках. *»Больше "
+"сссстраданий...»*"
 
 #: 57868 57888
 msgid ""
 "\"I am willing to suffer for more knowledge... can you teach me any more?\""
 msgstr ""
+"«Я готов страдать за новые знание... Ты можешь научить меня чему-нибудь еще?»"
 
 #: 57871
 msgid "\"Thanks, Ignus... I think. We will speak again later.\""
-msgstr ""
+msgstr "«Пожалуй... спасибо, Игнус. Мы еще поговорим позже»."
 
 #: 57872
 msgid ""
@@ -1183,6 +1556,10 @@ msgid ""
 "steam as he holds them, turning black... and you feel a slow, burning pain "
 "in your abdomen..."
 msgstr ""
+"Ты показываешь свои внутренности; Игнус запрокидывает голову, потом вдруг "
+"падает и выхватывает их у тебя из рук. Он натягивает их между руками как "
+"веревку и шипит себе под нос... ты видишь, как кишки начинают испарятся в "
+"его руках, чернея... и чувствуешь глухую жгучую боль в животе..."
 
 #: 57873
 msgid ""
@@ -1193,6 +1570,11 @@ msgid ""
 "strip of intestines, slowly blackening them, until it looks like a long "
 "string of charred meat..."
 msgstr ""
+"Игнус разматывает внутренности, пядь за пядью, и каждый моток, падая с его "
+"рук, начинает вращаться вокруг него по спирали, медленно извиваясь. Каждый "
+"моток зажаривается в его пламени: огонь будто облизывает внутренности в "
+"каком-то танце, медленно покрывая копотью их до тех пор, пока они не "
+"становятся похожими на длинную ленту обугленного мяса..."
 
 #: 57874
 msgid ""
@@ -1202,10 +1584,15 @@ msgid ""
 "out, and they fall into Ignus' hands. He gives a *hssssss* and throws them "
 "to you. *\"MUCH powersssss in an im'mortalsssss organsss...\"*"
 msgstr ""
+"При виде собственных горящих внутренностей ты вздрагиваешь, но это ничто в "
+"сравнении с болью, которую ты испытывал, когда Игнус сжигал другие части "
+"твоего тела. Ты наблюдаешь, как твои горящие кишки вьются в пламени Игнуса, "
+"но тут они гаснут и падают Игнусу в руки. Он издает шипение и бросает их "
+"тебе. *»МНОГО ссссилы в органах бессссссмертного...»*"
 
 #: 57875
 msgid "Take the charred intestines..."
-msgstr ""
+msgstr "Взять опаленные внутренности..."
 
 #: 57876
 msgid ""
@@ -1214,6 +1601,10 @@ msgid ""
 "with it. Unlike the other ordeals, I don't seem to have suffered when Ignus "
 "'treated' my intestines with his flames."
 msgstr ""
+"Игнус «обучил» меня кое-чему из Искусства, опалив мои внутренности и вернув "
+"их мне... Похоже, он думает, что я знаю, что с ними делать. В отличие от "
+"других пыток, я, кажется, не пострадал, когда Игнус «обрабатывал» мои "
+"внутренности огнем."
 
 #: 57877
 msgid ""
@@ -1221,20 +1612,26 @@ msgid ""
 "above the ground; he may have heard you, but you don't know if the words "
 "*meant* anything to him..."
 msgstr ""
+"*»Пламя... без... мучений...»* Игнус медленно поворачивается, вращаясь над "
+"землей; может, он тебя и услышал, но ты не уверен, *значат* ли что-нибудь "
+"для него твои слова..."
 
 #: 57878
 msgid "\"Are you sure, supplicant?\""
-msgstr ""
+msgstr "«Ты уверен, проситель?»"
 
 #: 57880
 msgid "\"At least I tried... I had some other questions for you, Ignus...\""
 msgstr ""
+"«По крайней мере, я попытался... Игнус, у меня есть к тебе другие вопросы...»"
 
 #: 57881
 msgid ""
 "\"Well, for what it's worth, Ignus, I'm sorry you ended up like this... "
 "we'll speak again later.\""
 msgstr ""
+"«Что ж, не знаю, насколько это важно для тебя, Игнус, но мне жаль, что ты "
+"закончил вот так... поговорим об этом позже»."
 
 #: 57882
 msgid ""
@@ -1244,21 +1641,26 @@ msgid ""
 "\"Sssssssupplicant NO MORE isssss Ignussssss...! Ssssspeak ssssuch again, "
 "and Ignusssss will BURNNN you!\"*"
 msgstr ""
+"Игнус внезапно останавливается и бросается на тебя, из его груди и черепа со "
+"страшным треском рождается *новое* пламя... словно из скрытой полости в теле "
+"Игнуса вдруг вырвался клубок огненных змей. *»БОЛЬШЕ не проссситель "
+"Игнусссс!.. Еще раз так сссскажешь - Игнусссс тебя СССОЖЖЕТ!»*"
 
 #: 57883
 msgid ""
 "\"Try it, *supplicant.* It seems I will have to remind you of your station..."
 "\""
-msgstr ""
+msgstr "«Попробуй, *проситель*. Похоже, придется напомнить тебе твое место...»"
 
 #: 57884
 msgid ""
 "\"Never mind, then. I wished to speak more of flames and burning, Ignus...\""
-msgstr ""
+msgstr "«Тогда неважно. Я хотел бы поговорить еще об огне и горении...»"
 
 #: 57885
+#, fuzzy
 msgid "\"Understood... I had some other questions...\""
-msgstr ""
+msgstr "«Понятно... У меня есть другие вопросы...»"
 
 #: 57887
 msgid ""
@@ -1266,10 +1668,13 @@ msgid ""
 "rope. Ignus hovers above you, tiny motes of ash drifting from his burning, "
 "emaciated frame."
 msgstr ""
+"Ты держишь в руке свои обожженные внутренности; они похожи на почерневшую "
+"веревку. Игнус парит над тобой, с его горящего истощенного торса слетают "
+"крохотные частички пепла."
 
 #: 57891
 msgid "\"Thank you, Ignus... we will speak again later.\""
-msgstr ""
+msgstr "«Спасибо, Игнус... поговорим об этом позже»."
 
 #: 61827
 msgid ""
@@ -1277,76 +1682,97 @@ msgid ""
 "His charred lips peel back, and he speaks, his voice crackling. \"I... wait."
 "\""
 msgstr ""
+"Пламя обвивает горло Игнуса и танцует по краям его черепа. Его опаленные "
+"губы размыкаются и он произносит потрескивающим голосом: «Я... жду»."
 
 #: 61834 61842 61860
 msgid "\"Uh... I see. Farewell, then.\""
-msgstr ""
+msgstr "«Э-э... Ясно. Тогда прощай»."
 
 #: 61835
+#, fuzzy
 msgid ""
 "Ignus gives a lingering, crackling hiss as you approach. \"I wait to walk "
 "the path of flamesssss.\""
 msgstr ""
+"Когда ты подходишь, Игнус издает протяжное трескучее шипение.«Я жду, чтобы "
+"всссстать на путь огня»."
 
 #: 61843
 msgid ""
 "There is the crackle and pop of melting flesh, then Ignus gives a long, low "
 "hiss. \"Asss you wisssh.\""
 msgstr ""
+"Слышен треск и хлопки плавящейся плоти, после чего Игнус издает протяжное "
+"низкое шипение. «Как ссскажешь»."
 
 #: 61844 61846 61848 61850 61852
 msgid "\"Let's go.\""
-msgstr ""
+msgstr "«Вперед»."
 
 #: 61845
 msgid ""
 "Ignus' teeth clack together, a stream of embers pouring from his mouth. "
 "\"Firessss shall sweep through the streetsssss.\""
 msgstr ""
+"Игнус клацает зубами, из его рта вырывается поток угольков. «Пламя "
+"пронессссется по улицам»."
 
 #: 61847
 msgid ""
 "Motes of ash drift from Ignus' mouth as he nods his head. \"Ignus obeyssss..."
 "\""
 msgstr ""
+"Частички пепла слетают со рта Игнуса, когда тот кивает. «Игнус "
+"слушаетсссся...»"
 
 #: 61849
 msgid ""
 "Ignus' voice is low, and the flames around his ruined features dim as he "
 "speaks. \"I will walk the path of flamessss with you.\""
 msgstr ""
+"Игнус говорит тихо, при этом огоньки вокруг его разрушенного лица угасают. "
+"«Я пойду путем пламени сссс тобой»."
 
 #: 61851
 msgid ""
 "A tongue of flame darts from Ignus' mouth, like that of a serpent, then "
 "dissipates into hissing smoke, leaving only tiny motes of ash. \"Yessssss.\""
 msgstr ""
+"Изо рта Игнуса вырывается язык пламени, прямо как у змеи, и превращается в "
+"шипящий дым, от которого остаются лишь крохотные хлопья пепла. «Да-а-а»."
 
 #: 68216
 msgid ""
 "Ignus stirs, the air around him flickering slightly, almost enough to bring "
 "him to life."
 msgstr ""
+"Игнус шевелится, воздух вокруг него вздрагивает - как раз настолько, чтобы "
+"вернуть его к жизни."
 
 #: 68217
+#, fuzzy
 msgid ""
 "There is a rush of flames and heat, and Ignus soars into the air, the air "
 "*bending* from the thermals streaming from his body. He turns to you, his "
 "eyes like portals to the hells. *\"I am yours... till death comes for us "
 "both.\"*"
 msgstr ""
+"Поднимается пламя и жар. Игнус воспаряет в воздух, который *дрожит* от "
+"исходящей от него теплоты. Он поворачивается к тебе; его глаза подобны "
+"порталам в ад. *»Я твой... покуда смерть не придет к нам обоим»*."
 
 #: 68218
 msgid "\"Arise, Ignus. I have need of you.\""
-msgstr ""
+msgstr "«Встань, Игнус. Ты мне нужен»."
 
 #: 68219 68220 68221 68243 68441
 msgid "\"It may be this day, Ignus...\""
-msgstr ""
+msgstr "«Возможно, этот день настал, Игнус...»"
 
 #: 68387
 msgid "ARISE, IGNUS. "
-msgstr ""
+msgstr "ВСТАНЬ, ИГНУС."
 
 #: 68388
 msgid ""
@@ -1356,18 +1782,25 @@ msgid ""
 "there is no menace in it, only a wariness, a caution you haven't heard "
 "before."
 msgstr ""
+"Поднимается пламя и жар. Игнус воспаряет в воздух, который *дрожит* от "
+"исходящей от него теплоты. Он поворачивается к тебе; его глаза подобны "
+"порталам в ад. Он издает тихое протяжное шипение... но в нем нет угрозы, "
+"лишь осторожность, которой ты раньше не замечал."
 
 #: 68389
 msgid ""
 "I WILL NOT REMAIN HERE MUCH LONGER, IGNUS. I WILL RETURN YOU TO SIGIL, IF "
 "YOU WISH."
-msgstr ""
+msgstr "Я СКОРО ПОКИНУ ЭТО МЕСТО, ИГНУС. Я ВЕРНУ ТЕБЯ В СИГИЛ, ЕСЛИ ХОЧЕШЬ."
 
 #: 68390
+#, fuzzy
 msgid ""
 "Ignus stares at you; his expression is unreadable past the ruins of his face "
 "- and suddenly, you know what Ignus desires."
 msgstr ""
+"Игнус пристально смотрит на тебя. Из-за повреждений невозможно прочесть "
+"выражение его лица... И вдруг ты осознаешь, чего жаждет Игнус."
 
 #: 68391 68422
 msgid ""
@@ -1375,6 +1808,9 @@ msgid ""
 "UPON SKIES OF FLAMES, AND ALL CREATURES SHALL KNOW YOUR HEART. IN PERPETUAL "
 "FLAMES SHALL YOU DWELL, AS YOU WERE MEANT."
 msgstr ""
+"Я ПОШЛЮ ТЕБЯ НА СТИХИЙНЫЙ ПЛАН ОГНЯ, ИГНУС. ТАМ ТЫ БУДЕШЬ ПАРИТЬ В ОГНЕННЫХ "
+"НЕБЕСАХ, И ВСЕ СОЗДАНИЯ ПОЗНАЮТ ТВОЕ СЕРДЦЕ. В ВЕЧНОМ ПЛАМЕНИ ТЫ БУДЕШЬ "
+"ЖИТЬ, КАК И БЫЛО ПРЕДРЕШЕНО."
 
 #: 68392
 msgid ""
@@ -1383,34 +1819,49 @@ msgid ""
 "different incarnation. \"Master, forgive me... I have betrayed your teaching."
 "\""
 msgstr ""
+"Игнус какое-то время молча парит, и когда он начинает говорить, его голос "
+"звучит... по-другому, как у ребенка, ученика, того, которого ты помнишь с "
+"давних времен, в другом своем воплощении. «Учитель, прости... Я предал твое "
+"учение»."
 
 #: 68393
 msgid ""
 "ONCE I TAUGHT YOU SUFFERING, IGNUS, AND THE BETRAYAL WAS MINE. NOW, I WILL "
 "SEND YOU TO A PLACE OF PEACE WHERE YOUR HEART MAY BE FREE."
 msgstr ""
+"КОГДА-ТО Я ОБУЧИЛ ТЕБЯ СТРАДАНИЮ, ИГНУС. ЭТО Я ТЕБЯ ПРЕДАЛ. ТЕПЕРЬ Я ПОШЛЮ "
+"ТЕБЯ В МИРНОЕ МЕСТО, ГДЕ ТВОЕ СЕРДЦЕ СМОЖЕТ СТАТЬ СВОБОДНЫМ."
 
 #: 68394
 msgid "THERE WERE MANY BETRAYALS, IGNUS. I FORGIVE YOU."
-msgstr ""
+msgstr "БЫЛО МНОГО ПРЕДАТЕЛЬСТВ, ИГНУС. Я ПРОЩАЮ ТЕБЯ."
 
 #: 68395
 msgid ""
 "Ignus says nothing to this, merely bows. The flames crackle around his form; "
 "wisps of ash swirl around him, like tiny leaves."
 msgstr ""
+"Игнус не отвечает, лишь кивает. Пламя вокруг него трещит. Клочки пепла "
+"вьются вокруг него, как крохотные листья."
 
 #: 68396 68397 68467
 msgid "FAREWELL, IGNUS."
-msgstr ""
+msgstr "ПРОЩАЙ, ИГНУС."
 
 #: 68418
+#, fuzzy
 msgid ""
 "Ignus is like a raging inferno, streams of flames rolling off his body like "
 "waves in some fiery ocean. *\"Burnnnnn...\"*"
 msgstr ""
+"Игнус похож на бушующий пожар, потоки пламени скатываются с его тела подобно "
+"волнам какого-то огненного океана. *»Гори-и-и-и....»*"
 
 #: 68419
+#, fuzzy
 msgid ""
 "\"Keep up the pressure, Ignus - don't give him a chance to concentrate.\""
-msgstr ""
+msgstr "«Продолжай натиск, Игнус, не давай ему шанса сосредоточиться»."
+
+#~ msgid "\"Greetings... ?\""
+#~ msgstr "«Приветствую...»"

@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dcrscapt.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-02-13 00:13+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 60328
 msgid ""
@@ -20,14 +22,19 @@ msgid ""
 "or wipe out some of these gehreleths! Don't waste my time!\" He turns back "
 "to his men."
 msgstr ""
+"Перед тобой озабоченного вида мужчина в впечатляющих доспехах. Он отдает "
+"приказы другим стражникам для обеспечения обороны города. «Нет времени на "
+"разговоры! - кричит он. - Если считаешь себя полезным, избавься от этого "
+"проклятого дэва или уничтожь парочку гехрелетов! Не трать мое время "
+"понапрасну!» Он поворачивается к своим людям."
 
 #: 60329
 msgid "\"What's going on?\""
-msgstr ""
+msgstr "«В чем дело?»"
 
 #: 60330 60356
 msgid "\"All right. Farewell.\""
-msgstr ""
+msgstr "«Ладно. Прощай»."
 
 #: 60331
 msgid ""
@@ -37,20 +44,27 @@ msgid ""
 "We're in the middle of a crisis, berk, so get out of my way!\" He shoves "
 "rudely past you and refuses to answer any more of your questions."
 msgstr ""
+"«В чем дело? Откуда ты взялся? Этот пустоголовый дэва вырвался из-под земли "
+"и утащил нас в Карцери, вот в чем дело! А теперь мы сражаемся с гехрелетами, "
+"которые решили нами перекусить на обед. Мы посреди огромной проблемы, пень, "
+"так что не путайся под ногами!» Он грубо отталкивает тебя и отказывается "
+"отвечать на какие-либо вопросы."
 
 #: 60332 60376
 msgid "\"Farewell, then.\""
-msgstr ""
+msgstr "«Тогда прощай». "
 
 #: 60333
 msgid ""
 "\"Berk, you're getting in my way... clean up some of the deva's mess if you "
 "want to do something for this city! But STOP BOTHERING ME!\""
 msgstr ""
+"«Пень, не стой меня на пути... приберись за этим дэва, если хочешь хоть как-"
+"то помочь этому городу! Только ПЕРЕСТАНЬ НАДОЕДАТЬ МНЕ!»"
 
 #: 60334
 msgid "\"All right, all right...\""
-msgstr ""
+msgstr "«Хорошо, хорошо...»"
 
 #: 60335
 msgid ""
@@ -58,46 +72,53 @@ msgid ""
 "guard - but he seems even more authoritative. He turns a contemptuous eye to "
 "you. \"What do you want?\""
 msgstr ""
+"Перед тобой бодрый военный человек, одетый в форму стражника Проклятого - "
+"только этот выглядит более авторитетным. Он презрительно окидывает тебя "
+"взором. «Чего тебе?»"
 
 #: 60336 60346
 msgid "\"What can you tell me about this place?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать об этом месте?»"
 
 #: 60337 60347
 msgid "\"I'd like to see the person in charge.\""
-msgstr ""
+msgstr "«Я бы хотел увидеть главного»."
 
 #: 60338 60348 60358
 msgid ""
 "\"A woman named Lady Roberta is involved in plans to kill her husband, Carl. "
 "I think he's one of the Burgher's assistants.\""
 msgstr ""
+"«Женщина по имени Роберта собирается убить своего мужа Карла. Кажется, он "
+"еще является помощником бюргера»."
 
 #: 60340 60349 60359
 msgid "\"I wanted to turn myself in for the murder of Carl Parfidor.\""
-msgstr ""
+msgstr "«Я пришел сознаться в убийстве Карла Парфидора»."
 
 #: 60341 60350 60360
 msgid ""
 "\"One of the officials of this town has asked me to murder another one of "
 "them. I thought I had better warn you.\""
 msgstr ""
+"«Один из служащих города попросил меня убить другого. Я решил, что лучше "
+"предупредить вас»."
 
 #: 60342 60351 60361
 msgid "\"I want you to arrest me.\""
-msgstr ""
+msgstr "«Я хочу, чтобы ты арестовал меня»."
 
 #: 60343 60352 60362
 msgid "\"I'm looking for a deva.\""
-msgstr ""
+msgstr "«Я ищу дэва»."
 
 #: 60344 60353 60363
 msgid "\"Nothing. Farewell.\""
-msgstr ""
+msgstr "«Ничего. Прощай»."
 
 #: 60345
 msgid "\"What?\""
-msgstr ""
+msgstr "«Что?»"
 
 #: 60354
 msgid ""
@@ -107,71 +128,84 @@ msgid ""
 "town of deceits and vengeance dreamed of? Look around, berk, and figure the "
 "place out for yourself.\""
 msgstr ""
+"«Это Проклятый. Что ты хочешь узнать? Что это город, кишащий "
+"предательствами, управляемый психами, что интриг тут будет побольше, чем в "
+"Карцери - гехрелетов, что своей собственной семье можно доверять не больше, "
+"чем любому проходимцу? Что это город, полный мечтами об обмане и мести? "
+"Оглянись по сторонам, пень, и разберись в этом месте сам»."
 
 #: 60355
 msgid "\"All right. Then answer some other questions for me...\""
-msgstr ""
+msgstr "«Ладно, тогда ответь еще на пару вопросов...»"
 
 #: 60357
 msgid "\"The person in charge? Whatever for?\""
-msgstr ""
+msgstr "«Главного? Для чего?»"
 
 #: 60364
 msgid ""
 "\"She is, is she? We'll take care of that, my friend. You have the thanks of "
 "the citizens of Curst.\""
 msgstr ""
+"«Что, правда? Мы позаботимся об этом, приятель. От имени граждан Проклятого "
+"прими мою благодарность»."
 
 #: 60365
 msgid "\"Great. I had a few questions...\""
-msgstr ""
+msgstr "«Отлично. У меня есть несколько вопросов...»"
 
 #: 60366
 msgid "\"Great. Farewell.\""
-msgstr ""
+msgstr "«Отлично. Прощай»."
 
 #: 60367
 msgid ""
 "\"Really. Do tell. Come to think of it, tell it to the cell you're going to "
 "be in. Are you going to cooperate?\""
 msgstr ""
+"«Ну да, без дураков. Ну давай. Пойдем, подумаешь над этим в своей камере. "
+"Сотрудничать будешь?»"
 
 #: 60368
 msgid "\"I'll come quietly.\""
-msgstr ""
+msgstr "«Я пойду сам»."
 
 #: 60369
 msgid "\"Are you kidding? No way.\""
-msgstr ""
+msgstr "«Ты шутишь? Ни за что»."
 
 #: 60370
 msgid ""
 "His eyes sharpen behind his helm. \"Give me the name. Who's planning what?\""
-msgstr ""
+msgstr "Его глаза вспыхивают под шлемом. «Сообщи мне имя. Кто это замыслил?»"
 
 #: 60371 60395
 msgid "\"Siabha is planning to murder An'izius.\""
-msgstr ""
+msgstr "«Сиабха планирует убить Анизиуса»."
 
 #: 60372 60396
 msgid ""
 "\"An'izius asked me to frame Siabha, who asked me to do the same to "
 "An'izius. They're both corrupt.\""
 msgstr ""
+"«Анизиус попросил меня подставить Сиабху, которая просила о том же самом. "
+"Они оба замешаны»."
 
 #: 60373 60397
 msgid "\"An'izius is trying to murder Siabha.\""
-msgstr ""
+msgstr "«Анизиус пытается убить Сиабху»."
 
 #: 60374
 msgid "\"Forget I said anything.\""
-msgstr ""
+msgstr "«Забудь, что я сказал»."
 
 #: 60375
 msgid ""
 "\"For what crime? Go on. Get out of here. I'm a busy man.\" He surveys the "
 "surrounding area, pointedly ignoring you."
 msgstr ""
+"«И за какое преступление? Давай, проваливай отсюда. Я занятой человек». Он "
+"осматривает окружающее пространство, подчеркнуто игнорируя тебя."
 
 #: 60377
 msgid ""
@@ -180,14 +214,18 @@ msgid ""
 "long time. He'd have gone to ground from all the treachery and evil in the "
 "air.\" He laughs."
 msgstr ""
+"Он наклонят голову к тебе. «И зачем тебе может понадобиться искать дэва? "
+"Насколько я знаю, в Проклятом не было дэва очень, очень давно. От всех этих "
+"предательств и вероломства, что витают в воздухе, он бы сразу под землю "
+"провалился», - хохочет он."
 
 #: 60378
 msgid "\"All right, then. Answer a few more questions...\""
-msgstr ""
+msgstr "«Хорошо. Ответь на несколько вопросов...»"
 
 #: 60379
 msgid "\"All right, then. Farewell.\""
-msgstr ""
+msgstr "«Тогда ладно. Прощай»."
 
 #: 60380
 msgid ""
@@ -195,27 +233,36 @@ msgid ""
 "time now. I have a special punishment for her. I'll send a detachment. My "
 "thanks, stranger.\""
 msgstr ""
+"Его глаза сужаются. «Давно я хотел засадить ее в камеру. У меня даже "
+"специальное наказание для нее заготовлено. Я отправлю отряд. Спасибо, "
+"незнакомец»."
 
 #: 60381 60384 60391
 msgid "\"Think nothing of it. I have more questions...\""
-msgstr ""
+msgstr "«Не стоит. У меня есть другие вопросы...»"
 
 #: 60382 60385 60392
 msgid "\"Sure. Farewell.\""
-msgstr ""
+msgstr "«Конечно. Прощай»."
 
 #: 60383
 msgid ""
 "\"Both of them, eh? Good. This should solidify my control in this city. "
 "They'll be gone before you know it. My thanks, stranger.\""
 msgstr ""
+"«Оба, значит? Хорошо. Это укрепит мою власть в городе. Они исчезнут до того, "
+"как ты об этом узнаешь. Спасибо, незнакомец»."
 
 #: 60386
+#, fuzzy
 msgid ""
 "I informed the captain of the Curst guards that both Siabha and An'izius "
 "were trying to implicate each other in fabricated crimes. He was delighted "
 "to hear it. I hope I've done the right thing..."
 msgstr ""
+"Я сообщил капитану стражников Проклятого, что и Сиабха, и Анизиус пытались "
+"сфабриковать друг против друга обвинение. Он с радостью воспринял это "
+"сообщение. Надеюсь, я поступил правильно..."
 
 #: 60390
 msgid ""
@@ -223,27 +270,39 @@ msgid ""
 "to our prisoners. I'll send a detachment for him. You've got my thanks, "
 "stranger.\""
 msgstr ""
+"«Наконец-то этот выродок-гитьянки попался. Он будет хорошим дополнением к "
+"нашим заключенным. Я отправлю отряд за ним. Спасибо тебе, незнакомец»."
 
 #: 60394
 msgid ""
 "He glares at you. \"I won't forget it. You'll either give me the "
 "information, or I'll wring it from your scarred neck.\""
 msgstr ""
+"Он смотрит на тебя. «Я собираюсь этого забывать. Или ты мне выдашь "
+"информацию, или я вырву ее из твоей шрамной глотки»."
 
 #: 60398
 msgid "\"You'll have to force it from me.\""
-msgstr ""
+msgstr "«Тогда тебе придется приложить для этого усилия»."
 
 #: 68276
+#, fuzzy
 msgid ""
 "I informed the captain of the Curst guards that Siabha was trying to murder "
 "An'izius. He was delighted to hear it, and vowed to arrest her. I hope I've "
 "done the right thing..."
 msgstr ""
+"Я сообщил капитану стражников Проклятого, что Сиабха пытается убить "
+"Анизиуса. Он с радостью воспринял это сообщение и пообещал арестовать ее. "
+"Надеюсь, я поступил правильно..."
 
 #: 68277
+#, fuzzy
 msgid ""
 "I informed the captain of the Curst guards that An'izius was trying to "
 "murder Siabha. He was delighted to hear it, and vowed to arrest the "
 "githyanki. I hope I've done the right thing..."
 msgstr ""
+"Я сообщил капитану стражников Проклятого, что Анизиус пытается убить Сиабху. "
+"Он с радостью воспринял это сообщение и пообещал арестовать гитьянки. "
+"Надеюсь, я поступил правильно..."

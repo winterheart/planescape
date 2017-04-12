@@ -1,56 +1,69 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dzomcitm.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2011-12-25 22:07+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: 19349
 msgid ""
 "This rotting, male corpse at first seems completely unaware of you. As you "
 "approach, however, it turns and nods slowly, as if greeting you."
 msgstr ""
+"Этот разлагающийся труп мужчины сперва совершенно тебя не замечает. Однако "
+"при твоем приближении он поворачивается и медленно кивает, как бы "
+"приветствуя тебя."
 
 #: 19350
 msgid ""
 "The zombie moans softly in reply: \"Ggnhuuu... fnnnnuuugh...\" With each "
 "exhalation, the stench of rotting meat fills the air."
 msgstr ""
+"Зомби тихо стонет в ответ: «Пыыы... выыы...» С каждым его выдохом воздух "
+"наполняется запахом разложения."
 
 #: 19351
 msgid ""
 "\"Stuuuhhh... mmmaaa-uuhrrr.\" The zombie makes a series of unintelligible "
 "moans... you can't make out anything he's saying."
 msgstr ""
+"«Тууу... ммммееее-ииии». Зомби издает нечленораздельные стоны... ты не "
+"можешь разобрать ничего из того, что он сказала."
 
 #: 19352
 msgid ""
 "The zombie moans softly in reply. Only your skills in conversing with the "
 "dead allow you to understand it: \"Greeeet-ings.\""
 msgstr ""
+"Зомби тихо стонет в ответ. Толька твое умение разговаривать с мертвыми "
+"позволяет тебе понять, что он говорит: «Приии-вет»."
 
 #: 19353
 msgid ""
 "The corpse stands there a moment, shifting his weight from one foot to the "
 "other, before replying. \"Quest-shun?\""
-msgstr ""
+msgstr "Труп переминается с ноги на ногу, потом отвечает: «Воп-рос?»"
 
 #: 19357
 msgid "The corpse's head nods sleepily. \"Quest... shuns.\""
-msgstr ""
+msgstr "Труп сонно кивает. «Воп... росы»."
 
 #: 19358
 msgid ""
 "There is a long pause. \"Uuuuhhh?\" The zombie shrugs, one of his shoulders "
 "not quite rising as high as the other. \"Assssk Mmmary, Ssstale Mssaaaary.\""
 msgstr ""
+"Следует долгая пауза. «Ууууу? - зомби пожимает плечами, одно из которых "
+"поднимается выше другого. - Ссспроси Мммери, Тухххлую Мммери»."
 
 #: 19359
 msgid ""
@@ -58,12 +71,16 @@ msgid ""
 "what might be construed as a smile. \"Lllaaand of the Sssilent Kiiing, "
 "Deeead Nay-shhhuns.\""
 msgstr ""
+"«Доммма. Ууу ммменя дома, - остатки мышц его лица натягивают рот, что можно "
+"расценить как улыбку. - Ссстрана Безмммолвного Кооороля, Мммертвые Наароды»."
 
 #: 19375
 msgid ""
 "The zombie stares at you for a moment. \"Mmmy duuu-ty. Mmmy laaabor, fffor "
 "the SSSilent King. I ssserve mmmy hhhooome welll.\""
 msgstr ""
+"Зомби пару секунд пялится на тебя. «Выыыполняю сссвои оообязанности. Дееелаю "
+"раааботу для Беезмолвного Кооороля. Ссслужу хорошоооо»."
 
 #: 19377
 msgid ""
@@ -71,21 +88,27 @@ msgid ""
 "pointing off to the east. \"Rrratsss.\" His arm swings ponderously around to "
 "point at you. \"Llliving.\""
 msgstr ""
+"«Мммного ктоо. Мыыы, ссскелеты, ууупыри, - его рука медленно поднимается и "
+"указывает на восток. - крррысы, - его рука делает тяжелый взмах, указывая на "
+"тебя. - Жииивые»."
 
 #: 19380
 msgid ""
 "\"Mmmany. Wwweee, bonesss, ghooouls.\" His arm slowly raises, pointing off "
 "to the east. \"Rrratsss.\""
 msgstr ""
+"«Мммного ктоо. Мыыы, ссскелеты, ууупыри, - его рука медленно указывает на "
+"восток. - крррысы»."
 
 #: 19382
+#, fuzzy
 msgid ""
 "The corpse's head rocks back and forth, back and forth. \"Sssoooegoooo...\""
-msgstr ""
+msgstr "Труп качает головой вперед-назад. «Сссооооэгооо...»"
 
 #: 19383
 msgid "\"Duuuhst-mmman. Assssk Mmmary, Ssstale Mmmaaaary.\""
-msgstr ""
+msgstr "«Тсссленный. Ссспроси Мммери, Тухххлую Мммери»."
 
 #: 19384
 msgid ""
@@ -95,16 +118,22 @@ msgid ""
 "\"Sssloooow. Hhhehhh...\" The corpse makes a disturbing gurgling noise which "
 "somehow reminds you of chuckling. \"Llled by Ssstale Mmmary...\""
 msgstr ""
+"Зомби кладет свои гниющие руки на грудь, изуродованную разложением. "
+"«Сссильные! - он показывает рукой себе на ноги, потом на висок. - "
+"Мееедленные. Хххе... - труп издает тревожное бульканье, которое почему-то "
+"напоминает тебе хихиканье. - Глаавная уу нааас - Тууухлая Мммери...»"
 
 #: 19385
 msgid "\"Whhooo? Booones? Ghooouls?\""
-msgstr ""
+msgstr "«Ооо ком? Коостях? Ууупырях?»"
 
 #: 19386
 msgid ""
 "\"Booones!\" He sounds somehow admiring. \"Lllead usss, guiiide usss. "
 "Togeeether we buillld the Deeead Nay-shhhuns.\""
 msgstr ""
+"«Кооости! - его голос почему-то звучит восхищенно. - Уууправлят нааами, "
+"наааправляют наас. Вмееесте мыы ссстроим Мееертвые Наароды»."
 
 #: 19387
 msgid ""
@@ -112,6 +141,9 @@ msgid ""
 "ssspeaks to Ssstale Mmmary. Mmmary ssspeaks to usss, givesss us our lllabor."
 "\" He nods."
 msgstr ""
+"«Хххаргриммм ууправляет кооостями. Гооворит ссс Беезмолвным Кооролем, "
+"пооотом ссс Тууухлой Мммери. Мммери гоооворит сс наами, даает нааам "
+"рааботу». Он кивает."
 
 #: 19388
 msgid ""
@@ -120,10 +152,14 @@ msgid ""
 "black, gummy fluid runs down the brownish-yellow teeth. \"Eatsss the dead... "
 "eatsss... baaad. Afraaaid, nnnow, of the ghooouls. Theeey stay awaaay.\""
 msgstr ""
+"И снова он медленно поднимает руку и махает ею на восток. «Крыыысы...» "
+"Влажные ошметки его верхней губы вытягиваются в ухмылку; по коричневато-"
+"желтым зубам стекает вязкая черная жидкость. «Еееедять мееертых... ееедят... "
+"плооохие. Теееперь боооятся ууупырей. Сссторонятся нааас»."
 
 #: 19389
 msgid "\"Uuuhn... asssk Mmmary. Ssstaaale Mmmary.\""
-msgstr ""
+msgstr "«Ууу... ссспроси Мммери. Тууухлую Мммери»."
 
 #: 19390
 msgid ""
@@ -132,6 +168,10 @@ msgid ""
 "keeepsss them frommm eeeating the dead, hhhere. Ghooouls ssserve to pro-tect "
 "usss, guarrrd thessse halllsss.\""
 msgstr ""
+"Зомби указывает на свой живот, в котором через прогнившие дыры видны "
+"внутренние органы. «Веечно голооодые. Здееесь закооон Бееезмолвного Кооороля "
+"нее даееет им ееесть мееертвых. Ууупыри зааащищают нас, ооохраняюють ээти "
+"зааали»."
 
 #: 19391
 msgid ""
@@ -139,156 +179,164 @@ msgid ""
 "liiiving, from abooove. They cooome to sssteal the dead, dissstuuurb themmm."
 "\""
 msgstr ""
+"«Ооот крыыс. Иии, - он поднимает руку и указывает наверх, - жииивых, ссс "
+"повееерхности. Оони прииходят, чтообы треевожить мееертвых, краасть их»."
 
 #: 19392
 msgid ""
 "\"Ssshhhee leeeads usss. Wwwaaatches uuusss. Passes to usss the wwwooord of "
 "the Sssilent King.\""
 msgstr ""
+"«Ооона ууправляет наами. Ссследит за наами. Пееередает нааам ссслово "
+"Беезмолвного Кооороля»."
 
 #: 19393
 msgid "\"Lllooord of the Deeead Nay-shhhuns. Asssk Mmmary. Ssstaaale Mmmary.\""
-msgstr ""
+msgstr "«Поовелитель Меертвых Нааародов. Ссспроси Мммери. Тууухлую Мммери»."
 
 #: 19394
 msgid ""
 "The corpse stands motionless, staring at you. At last, he speaks. \"Nnno. "
 "Asssk Mmmary. Ssstaaale Mmmary.\""
 msgstr ""
+"Труп стоит неподвижно, уставившись на тебя. Наконец он отвечает: «Нннет. "
+"Ссспроси Мммери. Тууухлую Мммери»."
 
 #: 19395
 msgid ""
 "As the zombie faces you, a glint of recognition seems to flash in its dead "
 "eyes. \"Uuuhhhn.\""
 msgstr ""
+"Когда зомби замечает тебя, в его мертвых глазах появляется проблеск "
+"узнавания. «Ууууу»."
 
 #: 19396
 msgid "The corpse shakes its head. \"Asssk Mmmary. Ssstaaale Mmmary.\""
-msgstr ""
+msgstr "Труп качает головой. «Ссспроси Мммери. Тухххлую Мммери»."
 
 #: 19397 19398 19507 19508
 msgid "\"Greetings...\""
-msgstr ""
+msgstr "«Приветствую...»"
 
 #: 19399 19509
 msgid "Leave the zombie alone."
-msgstr ""
+msgstr "Оставить зомби в покое."
 
 #: 19400 19403
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 19401 19404
 msgid "\"I must take my leave, now. Farewell.\""
-msgstr ""
+msgstr "«Я уже должен идти. Прощай»."
 
 #: 19402
 msgid "\"I can't understand you. Farewell.\""
-msgstr ""
+msgstr "«Я не понимаю тебя. Прощай»."
 
 #: 19405 19417
 msgid "\"Why have I been made a prisoner?\""
-msgstr ""
+msgstr "«Почему я здесь пленник?»"
 
 #: 19407 19418
 msgid "\"Where am I?\""
-msgstr ""
+msgstr "«Где я?»"
 
 #: 19408 19419
 msgid "\"What are you doing here?\""
-msgstr ""
+msgstr "«Чем ты здесь занимаешься?»"
 
 #: 19410 19420 19421 19523
 msgid "\"Who inhabits this place?\""
-msgstr ""
+msgstr "«Кто здесь живет?»"
 
 #: 19411 19422
 msgid "\"Let me ask you about someone in particular...\""
-msgstr ""
+msgstr "«Позволь мне спросить о кое-ком в частности...»"
 
 #: 19413 19423
 msgid "\"Have you seen a small, bronze sphere anywhere here?\""
-msgstr ""
+msgstr "«Тебе не попадался где-нибудь поблизости маленький бронзовый шар?»"
 
 #: 19415 19424 19465
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 19425 19450 19455 19472 19483
 msgid "\"Tell me about... Stale Mary.\""
-msgstr ""
+msgstr "«Расскажи мне о... Тухлой Мери»."
 
 #: 19426 19429 19432 19438 19443 19448 19453 19458 19469 19475 19481 19486
 #: 19492 19496 19499 19502 19505 19511
 msgid "\"I had some other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 19427 19430 19433 19439 19444 19449 19454 19459 19470 19476 19482 19487
 #: 19493 19497 19500 19503 19506 19512
 msgid "\"That is all I wished to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 19428 19431 19471 19488 19498
 msgid "\"Tell me about the Silent King.\""
-msgstr ""
+msgstr "«Расскажи мне о Безмолвном Короле»."
 
 #: 19434
 msgid "\"Are more of the living here, besides myself?\""
-msgstr ""
+msgstr "«Здесь есть другие живые, кроме меня?»"
 
 #: 19435 19440
 msgid "\"Tell me about your own kind.\""
-msgstr ""
+msgstr "«Расскажи мне о таких как ты»."
 
 #: 19436 19441
 msgid "\"Tell me about the other undead.\""
-msgstr ""
+msgstr "«Расскажи мне о другой нежити»."
 
 #: 19437 19442
 msgid "\"Tell me about the rats.\""
-msgstr ""
+msgstr "«Расскажи мне о крысах»."
 
 #: 19445
 msgid "\"Who is Soego?\""
-msgstr ""
+msgstr "«Кто такой Соэго?»"
 
 #: 19446 19447 19451 19452 19456 19457 19467 19468 19473 19474 19479 19480
 #: 19484 19485 19490 19491 19494 19495
 msgid "\"Who else inhabits this place?\""
-msgstr ""
+msgstr "«Кто еще здесь живет?»"
 
 #: 19460
 msgid "\"Bones... skeletons?\""
-msgstr ""
+msgstr "«Кости... Скелеты?»"
 
 #: 19461
 msgid "\"The ghouls.\""
-msgstr ""
+msgstr "«Упыри»."
 
 #: 19462 19463
 msgid "\"Never mind. Who else inhabits this place?\""
-msgstr ""
+msgstr "«Неважно. Кто еще здесь живет?»"
 
 #: 19464
 msgid "\"Never mind. I had some other questions...\""
-msgstr ""
+msgstr "«Неважно. У меня есть другие вопросы...»"
 
 #: 19466
 msgid "\"The skeletons lead you?\""
-msgstr ""
+msgstr "«Скелеты руководят вами?»"
 
 #: 19477
 msgid "\"The rats eat the corpses here?\""
-msgstr ""
+msgstr "«Крысы едят здесь трупы?»"
 
 #: 19478
 msgid "\"You have a truce with the rats?\""
-msgstr ""
+msgstr "«У вас перемирие с крысами?»"
 
 #: 19489
 msgid "\"Who do they guard these halls from?\""
-msgstr ""
+msgstr "«От кого они охраняют эти залы?»"
 
 #: 19501 19504 19510
 msgid "\"Tell me about Stale Mary.\""
-msgstr ""
+msgstr "«Расскажи мне о Тухлой Мери»."

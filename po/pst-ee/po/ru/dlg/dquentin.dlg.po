@@ -1,16 +1,19 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: planescape l10n\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-05 00:34+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: 7410
 msgid ""
@@ -19,67 +22,85 @@ msgid ""
 "was pressing upon them. He wears an impatient look as he stares at the black "
 "monolith in front of him."
 msgstr ""
+"Перед тобой мужчина средних лет. Он достаточно крепок, с толстой бычьей "
+"шеей, но его плечи ссутулены, как будто на них давит огромный вес. Он в "
+"нетерпении смотрит на черный монолит, стоящий перед ним."
 
 #: 7411
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 7412
 msgid "Leave the man alone."
-msgstr ""
+msgstr "Оставить мужчину в покое."
 
 #: 7413
 msgid ""
 "The man throws you a glance. \"There's room, cutter. No need to ask my leave "
 "to stand here.\""
 msgstr ""
+"Мужчина бросает на тебя взгляд. «Тут полно места, рубака. Не нужно "
+"спрашивать моего разрешения, чтобы остаться здесь»."
 
 #: 7414
 msgid "\"Actually, I wanted to know what this monolith was.\""
-msgstr ""
+msgstr "«На самом деле, я хотел узнать, что из себя представляет монолит»."
 
 #: 7415
 msgid "\"Very well. Sorry to disturb you.\""
-msgstr ""
+msgstr "«Хорошо, прошу прощения, что побеспокоил»."
 
 #: 7416
+#, fuzzy
 msgid ""
 "\"It's a tombstone for the planes.\" He scoffs. \"Graveyards of names are "
 "scratched on that rock. Can only hope my name's the one that'll split this "
 "stone in 'twain.\" He points at the base of the monolith. \"'Quentin,' right "
 "there, hammered in just hard enough to send the damned thing crashing down.\""
 msgstr ""
+"«Это надгробие Планов, - он ухмыляется. - Целые кладбища имен нацарапаны на "
+"этом камне. Надеюсь, что мое имя расколет этот камень надвое, - он указывает "
+"на основание монолита. - 'Квентин', его выбьют прямо здесь, и его хватит для "
+"того, чтобы эта проклятая вещь свалилась на землю»."
 
 #: 7417
+#, fuzzy
 msgid "\"'Tombstone for the planes'?\""
-msgstr ""
+msgstr "«Надгробие Планов?»"
 
 #: 7418 7421 7424 7428 7431
 msgid "\"I see. Farewell.\""
-msgstr ""
+msgstr "«Понятно. Прощай»."
 
 #: 7419
+#, fuzzy
 msgid ""
 "\"Aye.\" Quentin smiles ruefully. \"The Dusties scratch the names of the "
 "dead on this monument here...\" He gestures around him. \"And on the walls "
 "of this place. Not enough space by my reckoning, but no matter... they do "
 "their best. Can barely read half the names.\""
 msgstr ""
+"«Ага, - Квентин грустно улыбается. - Трухлявые высекают имена мертвых на "
+"этом монументе... - он обводит жестом вокруг. - И на этих стенах. Места "
+"недостаточно, как видишь, но это неважно... они делают, что могут. Половину "
+"имен вообще не разобрать»."
 
 #: 7420 7453
 msgid "\"What are you doing here?\""
-msgstr ""
+msgstr "«Что ты здесь делаешь?»"
 
 #: 7422
 msgid ""
 "\"Reading the new arrivals. Try and find a new one every day, try and "
 "remember if I knew 'em, nothing more.\""
 msgstr ""
+"«Читаю новые имена. Нахожу их каждый день, пытаюсь вспомнить, знал ли я их, "
+"вот и все»."
 
 #: 7423
 msgid ""
 "\"The Dustmen record the names of all that have died on this monument?\""
-msgstr ""
+msgstr "«Тленные записывают имена всех тех, кто умер, на этот монумент?»"
 
 #: 7425
 msgid ""
@@ -87,10 +108,13 @@ msgid ""
 "place, too.\" Quentin scoffs. \"I don't know why they take the trouble to "
 "take a counting of the dead... the Dusties have more care for the living.\""
 msgstr ""
+"«Ага, они выбивают их на этом камне... и на стенах тоже, - Квентин "
+"ухмыляется. - Не понимаю, почему они возятся со всем этим подсчетом "
+"мертвых... Трухлявых ведь больше беспокоят живые»."
 
 #: 7426 7427
 msgid "\"The living?\""
-msgstr ""
+msgstr "«Живые?»"
 
 #: 7429
 msgid ""
@@ -99,10 +123,13 @@ msgid ""
 "get a word in them edgewise without 'em asking to mourn some poor *living* "
 "berk for ye.\""
 msgstr ""
+"«Ага... видел тех тленных плакальщиков, которые приходят сюда? Они ведь не "
+"мертвых оплакивают, они оплакивают живых. Ты от них и слова не дождешься, "
+"если только не попросишь их оплакать какого-нибудь несчастного *живого* пня»."
 
 #: 7430
 msgid "\"Why do they mourn the living?\""
-msgstr ""
+msgstr "«А почему они оплакивают живых?»"
 
 #: 7432
 msgid ""
@@ -111,48 +138,60 @@ msgid ""
 "living in this pit.\" He nods at the monument. \"Every name on there is "
 "blest in my book, it is.\""
 msgstr ""
+"«Хороший вопрос, рубака, - он пожимает плечами. - Спроси-ка лучше у них. По "
+"мне, так причин жалеть мертвых в три раза больше, чем любого бедолагу, "
+"живущего в этой яме, - он кивает на монумент. - Каждое имя на нем "
+"благословлено в моей книге»."
 
 #: 7433
 msgid "\"Ever know anybody who came back after their name was put on there?\""
 msgstr ""
+"«А ты не слышал о ком-нибудь, кто вернулся назад после того, как его имя "
+"было высечено здесь?»"
 
 #: 7434 7455
 msgid ""
 "\"Can you tell me who that crazy Dustman is on the other side of the "
 "monolith?\""
 msgstr ""
+"«Что ты можешь сказать об этом сумасшедшем тленном с другой стороны "
+"монолита?»"
 
 #: 7435
 msgid "\"I see. Thanks for speaking with me. Farewell.\""
-msgstr ""
+msgstr "«Понятно. Спасибо за разговор. Прощай»."
 
 #: 7436
 msgid ""
 "You see Quentin. He's still studying the rock, as if he could topple it with "
 "his gaze."
 msgstr ""
+"Ты видишь Квентина. Он все еще изучает камень, как будто пытаясь взглядом "
+"свалить его."
 
 #: 7437
 msgid "\"Greetings, Quentin.\""
-msgstr ""
+msgstr "«Приветствую тебя, Квентин»."
 
 #: 7438
 msgid "Leave him alone."
-msgstr ""
+msgstr "Оставить его в покое."
 
 #: 7439
 msgid ""
 "\"Eh?\" Quentin throws you a glance, then nods. \"Well met again, cutter. "
 "You come to claim a slice of this rock fer yer name?\""
 msgstr ""
+"«А?» Квентин поворачивается к тебе, а затем кивает. «А, приятно встретиться "
+"снова, рубака. Пришел занять местечко на камне для своего имени?»"
 
 #: 7440
 msgid "\"Not yet. I had some questions for you...\""
-msgstr ""
+msgstr "«Пока нет. У меня есть вопросы к тебе...»"
 
 #: 7441
 msgid "\"No, just passing through. Farewell, Quentin.\""
-msgstr ""
+msgstr "«Нет, просто проходил мимо. Прощай, Квентин»."
 
 #: 7442
 msgid ""
@@ -160,14 +199,17 @@ msgid ""
 "barmy's 'Death-of-Names.'\" Quentin scoffs. \"Though 'Death-of-Sense' might "
 "fit him better.\" "
 msgstr ""
+"Квентин глупо улыбается. «Не самая здравомыслящая птичка в этом курятнике, "
+"правда? Этого полоумного зовут Смерть-имен, - Квентин ухмыляется. - Хотя "
+"'Смерть-ума' ему подошло бы куда больше». "
 
 #: 7443
 msgid "\"What does he do here?\""
-msgstr ""
+msgstr "«А что он делает здесь?»"
 
 #: 7444 7447 7450 7456
 msgid "\"I see. Thanks.\""
-msgstr ""
+msgstr "«Понятно. Спасибо»."
 
 #: 7445
 msgid ""
@@ -176,31 +218,42 @@ msgid ""
 "be sure, but he's helped me a few times.\" He shrugs. \"He's also got the "
 "duty of carvin' new names in when their owners pass on.\""
 msgstr ""
+"«Он хранитель этого мемориала. Знает, где написано каждое из имен, и, если "
+"нужно, может указать, где оно. Конечно, он немного тронутый, но пару раз он "
+"мне помогал, - он пожимает плечами. - А еще он высекает новые имена, когда "
+"их владельцы покидают этот мир»."
 
 #: 7446
 msgid "\"I had some other questions for you...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы к тебе...»"
 
 #: 7448
+#, fuzzy
 msgid ""
 "\"You mean come back from death?\" Quentin shakes his head. \"Not a one, "
 "cutter. Everything that lives dies, and that's the way of things.\" He "
 "shrugs. \"Still, considering the planes go on forever n' all, I suppose "
 "anythin's possible.\""
 msgstr ""
+"«Ты имеешь в виду, возвращаются из смерти? - Квентин мотает головой. - Ни "
+"одного, рубака. Любой живущий умирает - такова природа вещей, - он пожимает "
+"плечами. - По крайней мере, на Планах всегда так было, но можно "
+"предположить, что возможно и такое»."
 
 #: 7449
 msgid "\"I suppose so. Say, I had some other questions for you...\""
-msgstr ""
+msgstr "«Пожалуй, это так. Слушай, у меня есть к тебе другие вопросы...»"
 
 #: 7451
 msgid "\"No harm in asking, cutter.\""
-msgstr ""
+msgstr "«От вопросов нет вреда, рубака»."
 
 #: 7452
 msgid "\"Can you tell me what this monument is again?\""
-msgstr ""
+msgstr "«Можешь еще раз сказать, что это за монумент?»"
 
 #: 7454
 msgid "\"Ever know anybody who came back after their name was carved here?\""
 msgstr ""
+"«А ты не слышал о ком-нибудь, кто вернулся назад после того, как его имя "
+"было высечено здесь?»"

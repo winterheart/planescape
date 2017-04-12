@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: ar0203.are\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2015-10-10 14:52+0300\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: 0
 msgid "<NO TEXT>"
@@ -22,35 +24,51 @@ msgid ""
 "Walking even a few steps past the archway would certainly cause your hair "
 "and flesh to burst into flame."
 msgstr ""
+"Воздух, гулко выходящий из этой колоссальной печи, нестерпимо горяч. Еще "
+"несколько шагов в сторону арки - и твои волосы и кожа загорятся."
 
 #: 5143
+#, fuzzy
 msgid ""
 "Some of these cups are filled with a dry, chalky substance. Others contain "
 "some unidentifiable oily fluids."
 msgstr ""
+"Некоторые из этих чаш наполнены сухой, похожей на известь субстанцией. В "
+"других содержатся какие-то неизвестные маслянистые жидкости."
 
 #: 5144
 msgid "This shelf contains nothing but a few sheets of plain cloth."
-msgstr ""
+msgstr "На этой полке нет ничего, кроме нескольких кусков простого сукна."
 
 #: 5145
 msgid "This mummified corpse looks like it's bound for the crematorium."
-msgstr ""
+msgstr "Похоже, это мумифицированное тело доставлено для кремации."
 
 #: 5245
 msgid ""
 "This storage closet contains bottles, bandages, and torn strips of cloth."
-msgstr ""
+msgstr "В этом шкафу хранятся бутылки, бинты и изорванные полоски ткани."
 
 #: 5246
 msgid "Vials, bottles and other stuff is lying on top of this wooden chest."
 msgstr ""
+"На крышке этого деревянного ящика стоят пузырьки, бутылки и прочие вещи."
 
 #: 5247
 msgid "Old parchments and bandages are neatly placed on this table."
-msgstr ""
+msgstr "На этом столе аккуратно разложены старые пергаменты и бинты."
 
 #: 5248
 msgid ""
 "This shelf contains clay jars, parchment, pieces of cloth and other utensils."
 msgstr ""
+"На этой полке есть глиняные кувшины, пергамент, куски ткани и прочая утварь."
+
+#~ msgid ""
+#~ "\"I shall wait for you in death's halls, my Love.\" She smiles, but there "
+#~ "is only sadness in it. She closes her eyes, and with an ethereal whisper, "
+#~ "she fades."
+#~ msgstr ""
+#~ "«Я буду ждать тебя в залах смерти, любовь моя». Дейонарра улыбается, но в "
+#~ "улыбке нет ничего, кроме печали. Закрыв глаза, она исчезает с беззвучным "
+#~ "вздохом."

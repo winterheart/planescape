@@ -1,79 +1,90 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dcstthg2.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-02-25 23:13+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: 9902
 msgid ""
 "You see a man dressed in armor with a sword slung at his side. He watches "
 "you warily as you approach."
 msgstr ""
+"Перед тобой человек, облаченный в броню, с подвешенным сбоку мечом. Он с "
+"беспокойством наблюдает за твоим приближением."
 
 #: 9903
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 9904
 msgid "Leave him in peace."
-msgstr ""
+msgstr "Оставить его в покое."
 
 #: 9905
 msgid ""
 "He nods to you, then quickly glances about. \"And to you. What do you want?\""
 msgstr ""
+"Он кивает тебе, затем быстро оглядывается по сторонам. «И я тебя тоже. Чего "
+"ты хочешь?»"
 
 #: 9906
 msgid "\"I wanted to ask you some questions.\""
-msgstr ""
+msgstr "«Я хотел задать тебе пару вопросов»."
 
 #: 9907 9911
 msgid "\"Never mind.\""
-msgstr ""
+msgstr "«Неважно»."
 
 #: 9908
 msgid ""
 "\"I'm new to Curst, so I doubt I can answer your questions. I'll try though."
 "\""
 msgstr ""
+"«Я в Проклятом недавно, так что сомневаюсь, что смогу ответить на них. И все "
+"же попробую»."
 
 #: 9909
 msgid "\"Have you heard of a deva who may be in town?\""
-msgstr ""
+msgstr "«Ты слышал про дэва, который, возможно, находится в городе?»"
 
 #: 9910
 msgid "\"If I may ask, why are you in Curst?\""
-msgstr ""
+msgstr "«Могу ли я спросить, что ты делаешь в Проклятом?»"
 
 #: 9912
 msgid ""
 "He looks at you in surprise. \"A deva. No, I can't say that I have. Why "
 "would a deva be here? That makes little sense, if any.\""
 msgstr ""
+"Он с удивлением смотрит на тебя. «Дэва? Нет, не скажу, чтобы слышал. Да и "
+"что здесь делать дэва? В этом нет смысла»."
 
 #: 9913
+#, fuzzy
 msgid "\"Yes, well... Why are you in Curst?\""
-msgstr ""
+msgstr "«В общем, да... Что ты делаешь в Проклятом?"
 
 #: 9914
 msgid "\"I have no idea. I must be going.\""
-msgstr ""
+msgstr "«Понятия не имею. Мне нужно идти»."
 
 #: 9915
 msgid "\"Well, good luck to you. Farewell.\""
-msgstr ""
+msgstr "«Что ж, удачи тебе. Прощай»."
 
 #: 9916
 msgid "\"And to you.\""
-msgstr ""
+msgstr "«И тебе тоже»."
 
 #: 9917
 msgid ""
@@ -81,18 +92,21 @@ msgid ""
 "I came to sign up. Most of the damn city's sealed off because of the plague, "
 "though. I can't get to where I need to go.\""
 msgstr ""
+"«По профессии я наемник. Мне сказали, что в Проклятом можно найти работу - "
+"вот я и пришел. Но из-за чумы большая часть чертового города запечатана. Я "
+"не могу попасть туда, куда направлялся»."
 
 #: 9918
 msgid "\"What do you know of this plague?\""
-msgstr ""
+msgstr "«Что ты знаешь об этой чуме?»"
 
 #: 9919 9922
 msgid "\"Where do you need to go?\""
-msgstr ""
+msgstr "«Куда тебе нужно попасть?»"
 
 #: 9920
 msgid "\"I see. I must bid you farewell.\""
-msgstr ""
+msgstr "«Понятно. Нам пора прощаться»."
 
 #: 9921
 msgid ""
@@ -100,17 +114,23 @@ msgid ""
 "but was quickly controlled by sealing off the infected areas of the city.\" "
 "He sighs. \"Damned inconvenient. I can't meet my contact now.\""
 msgstr ""
+"Он пожимает плечами. «В сущности - ничего. Мне сказали, что она началась "
+"внезапно, но ее быстро взяли под контроль, запечатав зараженные районы "
+"города, - он вздыхает. - Чертовски неудобно. Теперь я не могу попасть на "
+"встречу»."
 
 #: 9923
 msgid "\"I thank you. I must go now.\""
-msgstr ""
+msgstr "«Благодарю. Мне нужно идти»."
 
 #: 9924
 msgid ""
 "\"The Quartered Man. It's a gathering spot for mercenaries, but you can't "
 "get to that part of the city now.\""
 msgstr ""
+"«В Четвертованный. Это место сбора наемников, но теперь в эту часть города "
+"не добраться»."
 
 #: 9925
 msgid "\"I see. I must take my leave now.\""
-msgstr ""
+msgstr "«Понятно. Мне уже нужно идти»."

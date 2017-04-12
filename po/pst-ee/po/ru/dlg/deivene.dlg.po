@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: deivene.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-01-01 18:44+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #: 3404
 msgid ""
@@ -18,14 +20,17 @@ msgid ""
 "cheeks and neck makes her appear as if she is starving. She seems intent on "
 "dissecting the corpse in front of her, prodding the chest with a finger."
 msgstr ""
+"Перед тобой хрупкая девушка с бледным лицом. Из-за впалой кожи на щеках и "
+"шее кажется, будто она голодает. Судя по всему, она увлечена обследованием "
+"тела, лежащим перед ней, тыкая по телу пальцем."
 
 #: 3406
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 3407 3416 3419
 msgid "Leave her alone."
-msgstr ""
+msgstr "Оставить ее в покое."
 
 #: 3410
 msgid ""
@@ -34,22 +39,26 @@ msgid ""
 "talons. They are darting in and out of the corpse's chest cavity like "
 "knives, removing organs."
 msgstr ""
+"Женщина не отвечает... похоже, она слишком увлечена трупом, лежащим перед "
+"ней. Следя за ее работой, ты случайно обращаешь внимание на ее руки... ее "
+"пальцы похожи на когти. Она с легкостью погружает их, словно ножи, в грудь "
+"трупа, доставая органы."
 
 #: 3412 3413
 msgid "\"I said, Greetings.\""
-msgstr ""
+msgstr "«Приветствую, говорю»."
 
 #: 3414 3415 3427 3428 3494 3495
 msgid "\"What's wrong with your hands?\""
-msgstr ""
+msgstr "«Что с твоими руками?»"
 
 #: 3417 3420 3472
 msgid "The woman makes no response."
-msgstr ""
+msgstr "Женщина не отвечает."
 
 #: 3418
 msgid "Tap the woman, get her attention."
-msgstr ""
+msgstr "Прикоснуться к женщине, привлечь ее внимание."
 
 #: 3421
 msgid ""
@@ -57,44 +66,61 @@ msgid ""
 "yellow, with small orange dots for pupils. As she sees you, her expression "
 "changes from surprise to irritation, and she frowns at you."
 msgstr ""
+"Женщина вздрагивает и круто разворачивается к тебе... у нее тусклые желтые "
+"глаза с маленькими оранжевыми точками вместо зрачков. При виде тебя ее "
+"удивление сменяется раздраженностью, она хмуро смотрит на тебя."
 
 #: 3422
 msgid "\"Uh... greetings.\""
-msgstr ""
+msgstr "«Э... Приветствую»."
 
 #: 3423
+#, fuzzy
 msgid ""
 "She doesn't seem to have heard you. She leans forward, squinting, as if she "
 "can't quite make you out... whatever is wrong with her eyes must make her "
 "terribly near-sighted. \"You -\" She clacks her taloned fingers together, "
 "then makes a strange motion with her hands. \"Find THREAD and EM-balming "
-"juice, bring HERE, to Ei-Vene. Go - Go - Go.\" \\n\\n^NNOTE: You have been "
-"assigned a quest. Quests are displayed in your diary and in the \"Quests\" "
-"portion of your journal. To see all the quests you've been assigned (and "
-"their status), simply select \"quests\" from the journal menu.^-"
+"juice, bring HERE, to Ei-Vene. Go - Go - Go.\" \n"
+"\n"
+"^NNOTE: You have been assigned a quest. Quests are displayed in your diary "
+"and in the \"Quests\" portion of your journal. To see all the quests you've "
+"been assigned (and their status), simply select \"quests\" from the journal "
+"menu.^-"
 msgstr ""
+"Кажется, она тебя даже не слышала. Щурясь, она наклоняется вперед, как будто "
+"не может разглядеть тебя... что бы ни случилось с ее глазами, но ее вид с "
+"близкого расстояния вселяет страх. «Ты». Она соединяет когти вместе, затем "
+"делает странное движение рукой. «Найди НИТКУ и БАЛЬЗАМ, принеси СЮДА, к Эи-"
+"Вейн. Пшел - пшел - пшел».\n"
+"\n"
+"ПРИМЕЧАНИЕ: Только что ты получил задание. Задания отображаются в твоем "
+"дневнике в разделе «Задания». Чтобы увидеть все задания, полученные тобой (а "
+"также их статус), просто выбери «Задания» из меню дневника."
 
 #: 3424 3469
 msgid "Give her the thread and embalming fluid."
-msgstr ""
+msgstr "Дать ей нитку и банку с бальзамирующей жидкостью."
 
 #: 3425 3426
 msgid "\"I had some questions first...\""
-msgstr ""
+msgstr "«Сперва ответь на пару вопросов...»"
 
 #: 3429 3432 3435 3496 3499 4201 4350 4352 4356 4357 4358 63483
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 3430 3486 3498
 msgid ""
 "She turns away... she makes no sign that she heard you. Her hearing must be "
 "as poor as her eyesight."
 msgstr ""
+"Она отворачивается... непохоже, чтобы она тебя услышала. Должно быть, ее "
+"слух не лучше зрения."
 
 #: 3431
 msgid "Tap her on the shoulder, get her attention."
-msgstr ""
+msgstr "Коснуться ее плеча, привлечь ее внимание."
 
 #: 3433
 msgid ""
@@ -102,18 +128,21 @@ msgid ""
 "it around one of her talons, then begins sewing up the corpse's chest. She "
 "then takes the embalming fluid, and begins to apply a layer to the corpse."
 msgstr ""
+"Не теряя ни минуты, Эи-Вейн выхватывает нитку из твоих рук и цепляет на один "
+"из своих когтей, а затем начинает зашивать трупу грудь. Затем она берет "
+"бальзамирующую жидкость и начинает намазывать ею мертвеца."
 
 #: 3434 3437 3447
 msgid "Wait."
-msgstr ""
+msgstr "Подождать."
 
 #: 3436
 msgid "As you are about to leave, Ei-Vene speaks: \"Stay. You - next.\""
-msgstr ""
+msgstr "Едва ты собираешься уйти, Эи-Вейн говорит: «Стой. Ты следующий»."
 
 #: 3438
 msgid "Leave. Quickly."
-msgstr ""
+msgstr "Уйти. Быстро."
 
 #: 3439
 msgid ""
@@ -121,18 +150,21 @@ msgid ""
 "you. To your surprise, she extends her hand and drags her talons along your "
 "arms and chest."
 msgstr ""
+"Спустя несколько минут она заканчивает. Щелкнув когтями, она поворачивается "
+"к тебе. К твоему удивлению, она протягивает руку и проводит когтями по твоим "
+"рукам и груди."
 
 #: 3440 3441
 msgid "\"Uh, it's not that I'm not flattered, but...\""
-msgstr ""
+msgstr "«Э, не то, чтобы я не польщен, но...»"
 
 #: 3442 3443
 msgid "Keep playing zombie."
-msgstr ""
+msgstr "Продолжать строить из себя зомби."
 
 #: 3444 3450
 msgid "Push her away, leave."
-msgstr ""
+msgstr "Оттолкнуть ее, уйти."
 
 #: 3445
 msgid ""
@@ -140,6 +172,9 @@ msgid ""
 "a step back, then before you can react, she claps her hands three times. In "
 "response, the tolling of a huge bell echoes throughout the Mortuary. "
 msgstr ""
+"Она потрясена тем, что ты ее оттолкнул. «Зомфи? Ты не зомфи!» Она отступает "
+"на шаг, и ты не успеваешь среагировать, как она трижды хлопает в ладони. В "
+"ответ повсюду Морге раздается звон огромного колокола. "
 
 #: 3446
 msgid ""
@@ -150,6 +185,12 @@ msgid ""
 "\" She sniffs, then pokes one of your scars. \"This one bad shape, many "
 "scars, no preserfs.\""
 msgstr ""
+"Когда она касается твоих рук и тела, ты вдруг понимаешь, что она изучает "
+"твои шрамы. Она отводит свои когти, дважды ими щелкает, затем наклоняется "
+"вперед и осматривает татуировки на теле. «Хм-м. Кто это так тебя изрисовал? "
+"Никакого уважения к зомфи. Зомфи - не картина». Она принюхивается, затем "
+"похлопывает по твоим шрамам. «Этот в плохой форме, много шрамов, не "
+"законсервирован»."
 
 #: 3448
 msgid ""
@@ -158,30 +199,45 @@ msgid ""
 "barely more than a pin-prick, but it looks like she's about to start "
 "stitching you up."
 msgstr ""
+"Неожиданно ее когти зацепляют нитку, которую ты принес, а другой рукой она "
+"молниеносно пронзает твою кожу в месте шрама. Не больнее, чем укол булавки. "
+"Кажется, она собирается тебя заштопать."
 
 #: 3449 3452 3453
 msgid "Let her work."
-msgstr ""
+msgstr "Позволить ей работать."
 
 #: 3451
 msgid ""
 "The sensation is curiously painless as Ei-Vene begins to stitch up your "
-"scars. \\n\\nWhen she is done, she sniffs you, frowns, then stabs her "
-"fingers into the embalming fluid. Within minutes, she has dabbed your body "
-"with the fluid... and strangely enough, it makes you feel *better.*"
+"scars. \n"
+"\n"
+"When she is done, she sniffs you, frowns, then stabs her fingers into the "
+"embalming fluid. Within minutes, she has dabbed your body with the fluid... "
+"and strangely enough, it makes you feel *better.*"
 msgstr ""
+"Эи-Вейн начинает зашивать твои шрамы; ощущения при этом на удивление "
+"безболезненны.\n"
+"\n"
+"Закончив, она обнюхивает тебя, хмурится, затем окунает пальцы в "
+"бальзамирующую жидкость. В течении нескольких минут она наносит жидкость на "
+"твое тело... довольно странно, но ты чувствуешь себя *лучше*."
 
 #: 3454
 msgid ""
 "Ei-Vene puts the last touches on your body, gives you another sniff, nods, "
 "then makes a shooing motion with her talons. \"Done. Go - go.\""
 msgstr ""
+"Эи-Вейн в последний раз прикасается к твоему телу, еще раз фыркает, кивает, "
+"а затем отмахивается своими когтями. «Готово. Пшел-пшел»."
 
 #: 3456 3457 3470 3497 3501 3502
 msgid ""
 "\"Wait a minute.\" (You make the motion of a key turning with your hand.) "
 "\"I need an embalming key. Do you have one?\""
 msgstr ""
+"«Минуточку». Жестом ты показываешь, как открываешь что-то ключом. «Мне нужен "
+"ключ от бальзамационной. У тебя он есть?»"
 
 #: 3458
 msgid ""
@@ -189,20 +245,24 @@ msgid ""
 "The rhythm of the talons reminds you of something, but you can't quite "
 "recall what."
 msgstr ""
+"Перед тобой Эи-Вейн. Она все еще потрошит труп своими когтями. Ритм движений "
+"когтей что-то тебе напоминает, но ты не можешь вспомнить что."
 
 #: 3459
 msgid "Watch her, study the motions of her hands."
-msgstr ""
+msgstr "Наблюдать за ней, изучая движения ее рук."
 
 #: 3463 4351 4354 4355 63481 63482
 msgid "Tap her, get her attention."
-msgstr ""
+msgstr "Коснуться ее плеча, привлечь ее внимание."
 
 #: 3464
 msgid ""
 "As you study the motion of Ei-Vene's hands, you feel a prickling along your "
 "scalp, and then suddenly, you find your vision swimming, blurring, until..."
 msgstr ""
+"Наблюдая за движением рук Эи-Вейн, ты чувствуешь покалывание в голове. "
+"Внезапно у тебя в глазах все начинает размываться и плыть..."
 
 #: 3468
 msgid ""
@@ -211,21 +271,30 @@ msgid ""
 "fingers. \"Find thread and embalming fluid, bring here, to Ei-Vene. Go - Go "
 "- Go.\" "
 msgstr ""
+"Заметив тебя, она поворачивается, а затем хмурится. «Тупые зомфи». Она "
+"нетерпеливо щелкает когтистыми пальцами, а затем делает движение рукой, как "
+"будто что-то зашивает. «Найди нитку и бальзам, принеси сюда, к Эи-Вейн. Пшел-"
+"пшел-пшел». "
 
 #: 3471
+#, fuzzy
 msgid ""
 "She leans forward, looks at your hand motions, then sniffs. Her hand darts "
 "into her robe, then emerges, a key hanging from her wickedly sharp index "
 "finger. She flicks it into your hand. \"Bring back when done. Go - go.\""
 msgstr ""
+"Она наклоняется вперед, присматриваясь к твоему жесту, затем фыркает. Ее "
+"рука скрывается в одежде, затем появляется вместе с ключом, висящим на ее "
+"угрожающе-остром когте. Она кладет его тебе на ладонь. «Принеси потом "
+"обратно. Пшел-пшел»."
 
 #: 3485
 msgid "She turns away... she makes no sign that she heard you. "
-msgstr ""
+msgstr "Она отворачивается... непохоже, чтобы она тебя услышала. "
 
 #: 3491
 msgid "\"All right then...\""
-msgstr ""
+msgstr "«Ну хорошо...»"
 
 #: 3493
 msgid ""
@@ -233,6 +302,9 @@ msgid ""
 "fingers together impatiently, then makes a stitching motion with her "
 "fingers. \"You done. All stich up. Go - Go - Go.\" "
 msgstr ""
+"Заметив тебя, она поворачивается, а затем хмурится. «Тупые зомфи». Она "
+"нетерпеливо щелкает когтистыми пальцами, а затем делает движение рукой, как "
+"будто что-то зашивает. «Ты готов. Все зашито. Пшел-пшел-пшел». "
 
 #: 37701
 msgid ""
@@ -243,6 +315,12 @@ msgid ""
 "the table in front of her. It turns out I'd already found both, so I gave "
 "them to her. "
 msgstr ""
+"В Морге я повстречался с тленной-бальзамировщицей по имени Эи-Вейн. Мало "
+"того, что она бледная как смерть и с когтями на руках, так она еще и "
+"близорукая и глухая, и спутала меня с зомби. Она приказала мне найти ей "
+"банку с бальзамирующей жидкостью и иголку с ниткой, предположительно для "
+"того, чтобы зашить тело, лежащее на столе перед ней. Оба предмета у меня уже "
+"были, так что я сразу же дал их ей. "
 
 #: 37702
 msgid ""
@@ -253,6 +331,12 @@ msgid ""
 "the table in front of her. There must be some around the Mortuary somewhere, "
 "perhaps in one of the adjoining rooms. "
 msgstr ""
+"В Морге я повстречался с тленной-бальзамировщицей по имени Эи-Вейн. Мало "
+"того, что она бледная как смерть и с когтями на руках, так она еще и "
+"близорукая и глухая, и спутала меня с зомби. Она приказала мне найти ей "
+"банку с бальзамирующей жидкостью и иголку с ниткой, предположительно для "
+"того, чтобы зашить тело, лежащее на столе перед ней. Они должны быть где-то "
+"в Морге, возможно в одной из соседних комнат. "
 
 #: 38199
 msgid ""
@@ -260,16 +344,21 @@ msgid ""
 "my scars and applied the embalming fluid on my body. Strangely enough, it "
 "made me feel... healthier."
 msgstr ""
+"После того, как я принес Эи-Вейн бальзамирующую жидкость и нитку, она зашила "
+"мои шрамы и нанесла бальзамирующую жидкость на мое тело. Довольно странно, "
+"но я чувствую себя... здоровее."
 
 #: 38202
 msgid ""
 "I delivered the embalming fluid and thread to Ei-Vene. She didn't seem "
 "terribly grateful. "
 msgstr ""
+"Я принес Эи-Вейн бальзамирующую жидкость и нитку. Не могу сказать, что она "
+"ужасно обрадовалась этому. "
 
 #: 38203
 msgid "I convinced Ei-Vene to give me the embalming key. "
-msgstr ""
+msgstr "Я убедил Эи-Вейн дать мне ключ от бальзамационной. "
 
 #: 38205
 msgid ""
@@ -286,17 +375,30 @@ msgid ""
 "into her robe, rummages around for a moment, then she shrugs. \"No key.\" "
 "She makes a shooing motion. \"Go - go - go.\""
 msgstr ""
+"Она наклоняется вперед, присматриваясь к твоему жесту, затем фыркает. Ее "
+"рука скрывается в одежде, что-то ищет, затем она пожимает плечами. «Ключа "
+"нет». Она делает отгоняющее движение. «Пшел-пшел-пшел»."
 
 #: 4353
+#, fuzzy
 msgid ""
 "You watch her for a while, and the rhythm of her hands causes two memories "
 "to surface - one of you playing some sort of stringed instrument, perhaps a "
 "harp. The other memory is that of stealing a purse... to your surprise, this "
-"last memory gives you a sudden temptation to pick Ei-Vene's pocket. \\n"
-"\\n^NNOTE: You have regained a memory. Memories can give you additional "
+"last memory gives you a sudden temptation to pick Ei-Vene's pocket. \n"
+"\n"
+"^NNOTE: You have regained a memory. Memories can give you additional "
 "experience points, skills, and may even lead to you gaining more memories "
 "later on.^-"
 msgstr ""
+"Некоторое время ты наблюдаешь за ней; под ритм движения ее рук в твоей "
+"памяти всплывает два эпизода. В одном из них ты играешь на каком-то струнном "
+"инструменте, похожим на арфу. В другом кто-то ворует чей-то кошелек... к "
+"твоему удивлению, это воспоминание внезапно толкает тебя на осмотр карманов "
+"Эи-Вейн.\n"
+"\n"
+"ПРИМЕЧАНИЕ: К тебе вернулась память. Эти вспышки дадут тебе дополнительный "
+"опыт, навыки и позже даже могут привести к тому, что ты вспомнишь еще больше."
 
 #: 61612
 msgid ""
@@ -308,6 +410,12 @@ msgid ""
 "itself crossed its arms as well... it had the number \"42\" written on its "
 "scalp. "
 msgstr ""
+"Наблюдая за тем, как Эи-Вейн зашивает своими когтями тело умершего, я что-то "
+"вспомнил... Очень давно я делал точно такое же действие над телом, однако "
+"при этом я ничего не вынимал, а наоборот, что-то положил *внутрь* тела. "
+"Такое чувство, что я положил что-то, что смогу позже забрать. В воспоминании "
+"я скрестил свои руки на груди, и труп повторил мои движения... на его черепе "
+"был написан номер «42». "
 
 #: 63477
 msgid ""
@@ -317,18 +425,34 @@ msgid ""
 "chest. You have placed something inside, something that may prove useful if "
 "you come this way again..."
 msgstr ""
+"...ты стоишь перед свежеубитым телом; предсмертная судорога оставила "
+"издевательскую улыбку на его лице. К черепу пришит номер '42'. Ты только что "
+"зашил тело зомби, лежащего на плите. Ты кое-что оставил внутри, что-то, что "
+"может пригодиться в случае, если ты снова вернешься сюда..."
 
 #: 63478 63479
 msgid "Echo: \"Keep these things safe and wait for my return.\""
-msgstr ""
+msgstr "Эхо: «Храни это, пока я не вернусь»."
 
 #: 63480
+#, fuzzy
 msgid ""
 "The memory of your voice is an echo, strange and hollow to your ears. You "
 "cross your arms in front of your chest, and to your surprise, the corpse "
 "does, too. After a moment, its hands fall back to its sides, and as it does, "
 "the vision fades... until you are watching Ei-Vene's hands make their "
-"stitching motions once more.\\n\\n^NNOTE: You have regained a memory. "
-"Memories can give you additional experience points, skills, and may even "
-"lead to you gaining something else of value later on.^-"
+"stitching motions once more.\n"
+"\n"
+"^NNOTE: You have regained a memory. Memories can give you additional "
+"experience points, skills, and may even lead to you gaining something else "
+"of value later on.^-"
 msgstr ""
+"В памяти эхом отозвался твой голос, странный и пустой. Ты скрещиваешь руки "
+"перед собой, и, к твоему удивлению, труп повторяет твое движение. Секунду "
+"спустя его руки падают по швам и видение меркнет... ты снова наблюдаешь, как "
+"руки Эи-Вейн зашивают тело.\n"
+"\n"
+"ПРИМЕЧАНИЕ: К тебе вернулась память. Эти вспышки дадут тебе дополнительный "
+"опыт, навыки и позже даже могут привести к тому, что ты вспомнишь еще "
+"больше.\n"
+"\n"

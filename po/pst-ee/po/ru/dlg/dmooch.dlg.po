@@ -1,20 +1,22 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dmooch.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-08 23:36+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 10577
 msgid "\"Just making sure. Get moving.\""
-msgstr ""
+msgstr "«Просто проверяю. Давай двигай»."
 
 #: 10578
 msgid ""
@@ -24,114 +26,131 @@ msgid ""
 "the Dustmen leads you to believe that she's just too lively to be a real "
 "member of the faction."
 msgstr ""
+"Перед тобой женщина в мантии тленной, держащая в правой руке полупустой "
+"стакан. Когда ты проходишь мимо, она подзывает тебя к себе. «Эм, ты. Иди "
+"сюда...» Ты замечаешь, что с ней что-то не так... основываясь на наблюдениях "
+"за тленными, ты делаешь вывод, что для члена этой фракции она слишком живо "
+"выглядит."
 
 #: 10579 10583
 msgid "Approach her."
-msgstr ""
+msgstr "Подойти к ней."
 
 #: 10580 10581 10584 10585
 msgid "Leave her alone."
-msgstr ""
+msgstr "Оставить ее в покое."
 
 #: 10582
 msgid ""
 "You see a female Dustman. As you near her, she calls out to you. \"Um, you. "
 "Over here...\""
 msgstr ""
+"Перед тобой тленная. Когда ты проходишь мимо, она подзывает тебя к себе. "
+"«Эм, ты. Иди сюда...»"
 
 #: 10586
 msgid "\"Umm... what d'you want?\""
-msgstr ""
+msgstr "«Эм... чего тебе?»"
 
 #: 10587 10596 10600 10613
 msgid "\"Barkis says it's time for you to settle your tab. Pay up.\""
-msgstr ""
+msgstr "«Баркис говорит, что пора бы уже тебе возвратить должок. Расплатись»."
 
 #: 10588 10595 10599 10612
 msgid "\"You're not really a Dustman, are you?\""
-msgstr ""
+msgstr "«Ты ведь ненастоящая тленная?»"
 
 #: 10589 10620
 msgid "\"I want more money to keep your Dustman charade a secret.\""
 msgstr ""
+"«Мне нужны еще деньги, а не то я испорчу твой маскарад с переодеванием в "
+"тленных»."
 
 #: 10590 10621
 msgid "\"I want even more money to keep your Dustman charade a secret.\""
 msgstr ""
+"«Мне нужно больше денег, а не то я испорчу твой маскарад с переодеванием в "
+"тленных»."
 
 #: 10591
 msgid "\"I want the answers to some questions.\""
-msgstr ""
+msgstr "«Мне нужны ответы на несколько вопросов»."
 
 #: 10592
 msgid "\"Nothing.\""
-msgstr ""
+msgstr "«Ничего»."
 
 #: 10593
 msgid ""
 "\"Too good to hang out with, um, the likes of a Dustman, aye? Buy me a drink "
 "and I'll leave you 'lone.\""
 msgstr ""
+"«Что, больно уж хорош, чтобы, эм, тусоваться с тленными, а? Купи мне "
+"выпивку, и я отстану»."
 
 #: 10594
 msgid "\"Very well. Here are five coins. Now leave me alone.\""
-msgstr ""
+msgstr "«Без проблем. Вот пять монет. Только оставь меня в покое»."
 
 #: 10597
 msgid "\"I don't think so. Good day.\""
-msgstr ""
+msgstr "«Я так не думаю. Хорошего дня»."
 
 #: 10598
 msgid "\"Hey, cutter... buy a lady a drink?\""
-msgstr ""
+msgstr "«Эй, рубака... купишь девушке выпивку?»"
 
 #: 10601 10614
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 10602 10615
 msgid "\"What is this place?\""
-msgstr ""
+msgstr "«Что это за место?»"
 
 #: 10603 10616
 msgid "\"Tell me about the other patrons here.\""
-msgstr ""
+msgstr "«Расскажи о других здешних посетителях»."
 
 #: 10604 10617
 msgid "\"Who's the burning corpse?\""
-msgstr ""
+msgstr "«Кто этот горящий труп?»"
 
 #: 10605 10606 10618 10619 10642 10643 10655
 msgid "Poison her drink with the embalming fluid."
-msgstr ""
+msgstr "Отравить ей выпивку бальзамирующей жидкостью."
 
 #: 10607 10622
 msgid "\"Nothing. Farewell.\""
-msgstr ""
+msgstr "«Ничего. Прощай»."
 
 #: 10608
 msgid ""
 "\"My thanks, cutter... may you find the True Death.\" She pockets your money "
 "and looks nervously off toward the front of the bar."
 msgstr ""
+"«Спасибо, рубака... да пребудет с тобой Истинная Смерть». Она прячет твои "
+"деньги в карман и нервно поглядывает в сторону выхода."
 
 #: 10609
 msgid "\"Give me some answers for my jink now.\""
-msgstr ""
+msgstr "«Ответь мне на пару вопросов за мои звенелки»."
 
 #: 10610
 msgid "\"Good day.\""
-msgstr ""
+msgstr "«Всего хорошего»."
 
 #: 10611
 msgid "\"What, um, do you want to know?\""
-msgstr ""
+msgstr "«Что, эм, ты хочешь знать?»"
 
 #: 10623
 msgid ""
 "She looks around nervously, and seems to sober right up. \"Why, um, why do "
 "you say that?\""
 msgstr ""
+"Моментально протрезвев, она нервно озирается. «С чего, эм, с чего ты это "
+"взял?»"
 
 #: 10624
 msgid ""
@@ -139,24 +158,29 @@ msgid ""
 "fact, you're taking money in instead of giving it out for that corpse labor "
 "they do at the Mortuary.\""
 msgstr ""
+"«Потому что ты ведешь себя не как трухлявые, и, к тому же, не предлагаешь "
+"контракты. На деле ты берешь деньги вместо того, чтобы давать их за тела, "
+"которые работают в Морге»."
 
 #: 10625
 msgid "\"Because I'm a Dustman myself.\""
-msgstr ""
+msgstr "«Потому что я сам - тленный»."
 
 #: 10626
 msgid ""
 "She jumps a little, and her nervous tension becomes full-fledged anxiety. "
 "\"What are you going to do?\""
 msgstr ""
+"Она тихонько подпрыгивает - нервная обеспокоенность сменяется настоящей "
+"тревогой. «И что ты собираешься делать?»"
 
 #: 10627 10628
 msgid "\"Ask you to go pay up. Now.\""
-msgstr ""
+msgstr "«Подойди и расплатись. Сейчас же»."
 
 #: 10629
 msgid "\"Nothing, yet. Answer some questions for me.\""
-msgstr ""
+msgstr "«Пока ничего. Ответь мне на пару вопросов»."
 
 #: 10630
 msgid ""
@@ -166,103 +190,120 @@ msgid ""
 "around, but you could probably find him somewhere else in the southwest part "
 "of the Hive. I saw him, but I hid from him. Please don't hurt me.\""
 msgstr ""
+"Она издает испуганный писк и начинает сбивчиво объясняться: «Нет, нет, нет-"
+"нет-нет. Я не тленная. Я просто нашла эту мантию на улице, а на хорошую "
+"одежду денег не было, и еще я слышала, что здесь где-то был вор в одежде "
+"тленного, но ты сможешь найти его где-то в юго-западной части Улья. Я видела "
+"его, а он меня не заметил. Пожалуйста, не делай мне больно»."
 
 #: 10631
 msgid "\"Give me some money and I'll let you go.\""
-msgstr ""
+msgstr "«Дай мне денег, и я тебя отпущу»."
 
 #: 10632
 msgid ""
 "\"I'm not planning on it. You ought to know that you're not pulling it off "
 "too well. Now answer some questions.\""
 msgstr ""
+"«Я не собираюсь этого делать. Просто знай, что играешь ты неубедительно. А "
+"теперь ответь на мои вопросы»."
 
 #: 10633
 msgid "\"I won't. Yet. Farewell.\""
-msgstr ""
+msgstr "«Не буду. Пока что. Прощай»."
 
 #: 10634
 msgid ""
 "\"Umm... I can't afford it. Can you spot me just ten percent? I'll, um, give "
 "it to him and he knows I'll pay the rest.\""
 msgstr ""
+"«Эм-м... Я не могу себе этого позволить. Может, одолжишь мне десять "
+"процентов? Я, эм, отдам их ему и он поймет, что я верну остальное»."
 
 #: 10635 10682
 msgid "\"How much do you need?\""
-msgstr ""
+msgstr "«Сколько тебе нужно?»"
 
 #: 10636 10683
 msgid ""
 "\"I don't think so. I'm not a charity. Can you think of another way to pay "
 "him?\""
 msgstr ""
+"«Мне так не кажется. Я благотворительностью не занимаюсь. Есть еще идеи, как "
+"тебе с ним расплатиться?»"
 
 #: 10637
 msgid "\"Spare a few coins for a drink, cutter?\""
-msgstr ""
+msgstr "«Подкинь немного монеток на выпивку, а, рубака?»"
 
 #: 10638
 msgid "\"Very well. Here are five coins.\""
-msgstr ""
+msgstr "«Ладно. Держи пять монет»."
 
 #: 10639
 msgid "\"No. Answer some questions for me, instead.\""
-msgstr ""
+msgstr "«Нет. Лучше ответь мне на пару вопросов»."
 
 #: 10640 10669
 msgid "\"No. Farewell.\""
-msgstr ""
+msgstr "«Нет. Прощай»."
 
 #: 10641
 msgid ""
 "\"Um, I think I need about a hundred coins to get started on that debt.\""
-msgstr ""
+msgstr "«Эм, думаю, мне понадобится сто монет на первый взнос»."
 
 #: 10644
 msgid "\"I'll lend you the money. Here. Take it and pay up. Now.\""
-msgstr ""
+msgstr "«Я одолжу тебе деньги. Вот. Возьми их и расплатись. Сейчас же»."
 
 #: 10645
 msgid "\"Can you think of another solution?\""
-msgstr ""
+msgstr "«Может, есть другое решение?»"
 
 #: 10646
 msgid ""
 "\"Another way to pay? Ha.\" She smiles sadly. \"You could always, um, kill "
 "me.\""
 msgstr ""
+"«Другой способ расплатиться? Ха, - она печально улыбается. - Ты всегда, эм, "
+"можешь убить меня»."
 
 #: 10647
 msgid "Distract her: \"I could, but... what's that over there?\""
-msgstr ""
+msgstr "Отвлечь ее: «Конечно, могу, но... эй, что это там?»"
 
 #: 10648
 msgid "\"I could, but I'd rather find another solution.\""
-msgstr ""
+msgstr "«Конечно, могу, но я хотел бы найти другое решение»."
 
 #: 10649
 msgid "\"I'll just lend you that money. Now go pay up.\""
-msgstr ""
+msgstr "«Я просто одолжу тебе эти деньги. А теперь иди и расплатись»."
 
 #: 10650
 msgid ""
 "Lie: \"I'd lend you the money, but I don't have it. Answer some other "
 "questions, will you?\""
 msgstr ""
+"Ложь: «Я б одолжил тебе денег, но у меня их нет. Ответь, пожалуйста, на пару "
+"вопросов»."
 
 #: 10651
 msgid ""
 "Truth: \"I'd lend you the money, but I don't have it. Answer some other "
 "questions, will you?\""
 msgstr ""
+"Правда: «Я б одолжил тебе денег, но у меня их нет. Ответь, пожалуйста, на "
+"пару вопросов»."
 
 #: 10652
 msgid "\"I'll be back with some money.\""
-msgstr ""
+msgstr "«Я вернусь с деньгами»."
 
 #: 10653
 msgid "\"I'll be back later.\""
-msgstr ""
+msgstr "«Я вернусь»."
 
 #: 10654
 msgid ""
@@ -270,14 +311,16 @@ msgid ""
 "and pauses for a moment as she focuses her drink-addled eyes. \"I don't see "
 "anything.\""
 msgstr ""
+"«Где?» Она озирается, чтобы поглядеть, куда ты указываешь, и с минуту "
+"всматривается в ту сторону замутненным выпивкой взглядом. «Я ничего не вижу»."
 
 #: 10656
 msgid "\"Never mind. Answer some questions for me, will you?\""
-msgstr ""
+msgstr "«Неважно. Можешь ответить на мои вопросы?»"
 
 #: 10657
 msgid "\"It must have been nothing. Forget it. Farewell.\""
-msgstr ""
+msgstr "«Должно быть, там ничего не было. Забудь об этом. Прощай»."
 
 #: 10658
 msgid ""
@@ -287,99 +330,117 @@ msgid ""
 "swallow. \"Um, what was it? What was I s'posed to see?\" Suddenly, she "
 "begins choking."
 msgstr ""
+"В тот момент, когда она оглядывается, ты быстро вливаешь бальзамирующую "
+"жидкость в ее полупустой стакан. Жидкость моментально начинает вонять, но, "
+"кажется, она ничего не заметила. Она оборачивается назад и одним глотком "
+"осушает стакан с отравленной выпивкой. «Эм, что там было? Чего я должна была "
+"увидеть?» Внезапно она начинается задыхаться."
 
 #: 10659
 msgid "\"Your death. Farewell, Mochai.\""
-msgstr ""
+msgstr "«Свою смерть. Прощай, Мочай»."
 
 #: 10660
 msgid ""
 "\"Um... what are you doing?\" She sees you readying your bottle of embalming "
 "fluid, and watches you suspiciously."
 msgstr ""
+"«Эм... что ты делаешь?» Она подозрительно смотрит на тебя с бутылкой "
+"бальзамирующей жидкости наготове."
 
 #: 10661 10662 10663
 msgid "\"Just putting my bottle on the table. I brought my own drink.\""
-msgstr ""
+msgstr "«Просто ставлю бутылку на стол. Купил себе выпивки»."
 
 #: 10664
 msgid ""
 "\"Relax the peery attitude. I'm digging through my stuff and reminding "
 "myself what I'm carrying.\""
 msgstr ""
+"«Да расслабься ты. Я просто роюсь в своих вещах, чтобы вспомнить, что я с "
+"собой ношу»."
 
 #: 10665
 msgid "\"Nothing that concerns you.\""
-msgstr ""
+msgstr "«Это тебя не касается»."
 
 #: 10666
 msgid "\"Nothing. I have an engagement elsewhere. Farewell.\""
-msgstr ""
+msgstr "«Ничего. У меня встреча в другом месте. Прощай»."
 
 #: 10667
 msgid ""
 "She looks at you for a moment longer, swaying where she stands, and then "
 "says, \"Um, all right. Did you want something else?\""
 msgstr ""
+"Она еще пару мгновений смотрит на тебя, пошатываясь, затем говорит: «Эм, "
+"ладно. Ты еще чего-то хотел?»"
 
 #: 10668
 msgid "\"Yes. Some answers.\""
-msgstr ""
+msgstr "«Да. Несколько ответов»."
 
 #: 10670
 msgid "\"I can give you fifty coins. Please... don't tell anyone.\""
-msgstr ""
+msgstr "«Могу дать тебе пятьдесят монет. Пожалуйста... никому не говори»."
 
 #: 10671
 msgid "\"We'll see. Now answer some other questions for me.\""
-msgstr ""
+msgstr "«Посмотрим. А теперь ответь мне еще на несколько вопросов»."
 
 #: 10672
 msgid "\"Fifty? I want more.\""
-msgstr ""
+msgstr "«Пятьдесят? Мне нужно больше»."
 
 #: 10673
 msgid "\"We'll see. Farewell.\""
-msgstr ""
+msgstr "«Посмотрим. Прощай»."
 
 #: 10674
 msgid ""
 "\"Um, you want more? I can't, um, I can't afford as much as last time. I "
 "can, um, give you twenty-five coins, though.\""
 msgstr ""
+"«Эм, тебе нужно еще? Я не могу, эм, не могу предложить тебе столько же, "
+"сколько и в прошлый раз. Могу только дать, эм, двадцать пять монет»."
 
 #: 10675
 msgid "\"I want more.\""
-msgstr ""
+msgstr "«Мне нужно еще»."
 
 #: 10676
 msgid ""
 "\"This will do... for now. Answer some more questions in the meantime.\""
-msgstr ""
+msgstr "«Этого хватит... пока. Тем временем, ответь еще на пару вопросов»."
 
 #: 10677
 msgid "\"This will have to do... for now. I'll be back.\""
-msgstr ""
+msgstr "«Этого должно хватить... пока. Я вернусь»."
 
 #: 10678
+#, fuzzy
 msgid ""
 "\"Well, um, that's too bad. Because, um, I can't give you any more. I just "
 "don't have, um, any money.\""
 msgstr ""
+"«Ну что ж, эм, очень жаль. Потому что я, эм, больше ничего не могу тебе "
+"дать. У меня, эм, просто-напросто нет больше денег»."
 
 #: 10679
 msgid "\"That's too bad. Answer some questions for me.\""
-msgstr ""
+msgstr "«Очень жаль. Ответь мне на пару вопросов»."
 
 #: 10680
 msgid "\"That's too bad. We'll see what comes of this. Farewell.\""
-msgstr ""
+msgstr "«Очень жаль. Посмотрим, что из этого выйдет. Прощай»."
 
 #: 10681
 msgid ""
 "She looks at you bitterly. \"I can't. Some, um, berk took all my money. I'd "
 "need a loan or, um, something to pay him off now.\""
 msgstr ""
+"Она глядит на тебя с горечью. «Я не могу. Один, эм, пень обобрал меня до "
+"нитки. Мне нужно занять денег или, эм, еще как-то расплатиться с ним»."
 
 #: 10684
 msgid ""
@@ -388,68 +449,78 @@ msgid ""
 "no chance, and begins to walk glumly toward the bar. \"Um, my thanks, I "
 "suppose.\""
 msgstr ""
+"Она кладет твои звенелки в карман, бросает короткий взгляд на дверь, как бы "
+"взвешивая шансы на побег, тяжело вздыхает, осознав, что шансов никаких, и "
+"угрюмо направляется к барной стойке. «Эм, ну типа прими мою благодарность»."
 
 #: 10685
 msgid ""
 "\"Don't mention it. And don't even think about heading for the door until "
 "you've paid up.\""
-msgstr ""
+msgstr "«Не стоит. Да, и не думай улизнуть через дверь, пока не расплатишься»."
 
 #: 10686
 msgid ""
 "\"Me? I'm Mochai. I just like to, um, drink here, and, umm...\" She loses "
 "her train of thought momentarily. \"I'm just a person, you know?\""
 msgstr ""
+"«Я? Я - Мочай. Мне просто нравится, эм, напиваться здесь и, эмм... - она "
+"моментально теряет цепь своих рассуждений. - Я просто кое-кто, понимаешь?»"
 
 #: 10687
 msgid "\"I see. Answer something else for me, then.\""
-msgstr ""
+msgstr "«Понятно. Ответь на другие вопросы»."
 
 #: 10688
 msgid "\"I see. Farewell, then, Mochai.\""
-msgstr ""
+msgstr "«Понятно. Ну, тогда прощай, Мочай»."
 
 #: 10689
 msgid ""
 "\"Smold'rin' Corpse Tavern. Can't ya read? You, um, more bubbed than I am?\""
 msgstr ""
+"«Таверна 'Тлеющий труп'. Читать не умеешь? Что, эм, нажрался побольше моего?»"
 
 #: 10690
 msgid "\"Forget it. Tell me something else.\""
-msgstr ""
+msgstr "«Забудь. Расскажи еще кое о чем»."
 
 #: 10691
 msgid "\"Forget it. Farewell.\""
-msgstr ""
+msgstr "«Забудь об этом. Прощай»."
 
 #: 10692
 msgid ""
 "\"Dunno. They're just, um, people. I don't deal much with people. 'Less "
 "they're buying me a drink...\" She looks at you hopefully."
 msgstr ""
+"«Не знаю. Они - просто, эм, люди. Я с людьми не очень-то много дел имею. "
+"Если только они мне выпивку не покупают...» Она с надеждой глядит на тебя."
 
 #: 10693
 msgid "\"I see. Give me some other answers.\""
-msgstr ""
+msgstr "«Ясно. Дай-ка мне еще пару ответов»."
 
 #: 10694
 msgid "\"I can see why. Farewell.\""
-msgstr ""
+msgstr "«Понятно, почему. Прощай»."
 
 #: 10695
 msgid ""
 "\"He's, um, not a corpse. He's, um, some crazy wizard. Ask around. They'll "
 "tell you the story.\""
 msgstr ""
+"«Он, эм, не труп. Он, эм, какой-то чокнутый колдун. Поспрашивай. Тебе "
+"расскажут его историю»."
 
 #: 10696
 msgid "\"Very well. Then answer some other questions.\""
-msgstr ""
+msgstr "«Хорошо. Тогда ответь на другие вопросы»."
 
 #: 10697
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 3078
 msgid "\"I'm going, I'm going! You don't have to pester me!\""
-msgstr ""
+msgstr "«Да иду я, иду! Хватит мне докучать!»"

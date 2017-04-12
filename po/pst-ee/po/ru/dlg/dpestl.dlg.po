@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dpestl.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-08 23:54+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 42050
 msgid ""
@@ -18,22 +20,25 @@ msgid ""
 "and constant, subtle mutations. \"Greetings again, sir, and well met. And "
 "what is it I, Pestle, can do for ye?\""
 msgstr ""
+"Этот человек очень напоминает Пестика Килна, только без двигающейся кожи и "
+"постоянных мелких мутаций. «Еще раз здравствуй, добро пожаловать. Чем я, "
+"Пестик, могу помочь тебе?»"
 
 #: 42051 42071
 msgid "\"I was hoping to get some healing concoctions.\""
-msgstr ""
+msgstr "«Я надеялся получить немного лечебных смесей...»"
 
 #: 42052 42072
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 42053 42073
 msgid "\"I wanted to buy something...\""
-msgstr ""
+msgstr "«Я хотел бы кое-что купить...»"
 
 #: 42054 42074
 msgid "\"Just passing by, actually. Farewell, Pestle.\""
-msgstr ""
+msgstr "«Вообще-то, я просто проходил мимо. Прощай, Пестик»."
 
 #: 42055
 msgid ""
@@ -43,63 +48,83 @@ msgid ""
 "thread from an aasimon's robe, or the blood of a regenerating creature, such "
 "as a troll or...\""
 msgstr ""
+"«Да, конечно. Твое вознаграждение, да? Так, посмотрим... Я, конечно же, "
+"сделаю их для тебя бесплатно... но мне нужны соответствующие ингредиенты. Хм-"
+"м-м... сердце они, или гематитовый порошок, или волос дэва, или нитка из "
+"одежды аасимона, или кровь самовосстанавливающегося существа, такого как "
+"тролль, или...»"
 
 #: 42056
 msgid "\"Actually, my wounds heal *very* quickly.\""
-msgstr ""
+msgstr "«Вообще-то, мои раны заживают *очень* быстро»."
 
 #: 42057
 msgid ""
 "Pestle raises an eyebrow. \"Do they, now? Well, then, your own blood just "
 "might do. Here... give me a sample, if you would.\""
 msgstr ""
+"Пестик поднимает бровь. «Вот как? Ну, тогда твоя кровь вполне подойдет. "
+"Вот... дай мне немного, если ты не против»."
 
 #: 42058
 msgid "Give him a bit of your blood."
-msgstr ""
+msgstr "Дать ему немного своей крови."
 
 #: 42059
+#, fuzzy
 msgid ""
 "After drawing a small quantity of your blood and retreating to the back of "
 "the store, Pestle returns with a number of what appear to be hardened drops "
 "of blood. \"Placed upon one's tongue, these Clot Charms will heal existing "
 "wounds and aid in the prevention of new ones, for a time.\""
 msgstr ""
+"Взяв небольшое количество твоей крови, Пестик удаляется в заднюю часть лавки "
+"и возвращается с несколькими предметами, похожими на свернувшиеся капли "
+"крови. «Если положить этот амулет из запекшейся крови на язык, он залечивает "
+"имеющиеся раны и некоторое время помогает уберечься от новых»."
 
 #: 42060
 msgid "\"Thanks, Pestle. I had some questions...\""
-msgstr ""
+msgstr "«Спасибо, Пестик. У меня есть другие вопросы...»"
 
 #: 42061
 msgid "\"My thanks. I wanted to buy something, now...\""
-msgstr ""
+msgstr "«Благодарю. Теперь я хотел бы кое-что купить...»"
 
 #: 42062
 msgid "\"Farewell, Pestle, and thanks.\""
-msgstr ""
+msgstr "«Прощай, Пестик, и спасибо»."
 
 #: 42063
+#, fuzzy
 msgid ""
 "\"My humblest apologies, sir, but I only speak of the store. Besides, I "
 "rarely leave the place, ye see? Ye'd be better off finding another to answer "
 "yer questions.\""
 msgstr ""
+"«Мои глубочайшие извинения, сэр, но я разговариваю только по поводу моей "
+"лавки. Кроме того, я редко выхожу наружу, понимаешь? Тебе лучше поискать "
+"кого-нибудь другого для ответов на твои вопросы»."
 
 #: 42064
 msgid ""
 "\"The old engineer in the Foundry tells me I need to get a sample of my "
 "blood and skin for his machine to work. I need you to do that for me.\""
 msgstr ""
+"«Старый инженер в Литейной сказал, что мне нужно достать образец своей крови "
+"и кожи, чтобы его машина заработала. Мне нужно, чтобы ты мне в этом помог»."
 
 #: 42065
 msgid "\"I wanted to buy something, then...\""
-msgstr ""
+msgstr "«Тогда я хотел бы кое-что купить...»"
 
 #: 42066
+#, fuzzy
 msgid "\"In that case, farewell.\""
-msgstr ""
+msgstr "«В таком случае, прощай»."
 
 #: 42067
+#, fuzzy
 msgid ""
 "\"A scraping? Very well.\" He takes up a razor blade and a wide-mouthed "
 "bottle. Pestle then removes a small section of skin from your forearm, "
@@ -107,17 +132,24 @@ msgid ""
 "then places some gauze over your wound and hands you the bottle. \"Ye need "
 "anything more, sir?\""
 msgstr ""
+"«Соскоб? Хорошо». Пестик достает лезвие бритвы и пузырек с широким "
+"горлышком. Затем он соскабливает с твоей руки небольшой кусочек кожи и "
+"кладет его в пузырек вместе с небольшим количеством твоей крови. Потом он "
+"кладет на твою рану кусочек марли и дает тебе пузырек. «Еще что-нибудь "
+"нужно, сэр?»"
 
 #: 42068
 msgid "\"Yes... I wanted to purchase something.\""
-msgstr ""
+msgstr "«Да... я хотел бы кое-что купить»."
 
 #: 42069
 msgid "\"No, that's all. Thanks, and farewell.\""
-msgstr ""
+msgstr "«Нет, это все. Спасибо и прощай»."
 
 #: 42070
 msgid ""
 "You see Pestle, the alchemist. \"Greetings again, sir, and well met. And "
 "what is it I can do for ye?\""
 msgstr ""
+"Ты видишь Пестика, алхимика. «Еще раз здравствуй, добро пожаловать. Чем могу "
+"я тебе помочь?»"

@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dsostone.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2012-04-25 23:10+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.4\n"
 
 #: 64887
 msgid ""
@@ -19,28 +21,38 @@ msgid ""
 "series of strange runes and markings cover the stone, and it feels strangely "
 "familiar somehow."
 msgstr ""
+"Этот темный камень покрыт пылью, как будто он лежит здесь уже многие годы; "
+"он кажется куском, отколовшимся от одной из статуй. Его покрывает ряд "
+"странных рун и знаков. Почему-то он кажется тебе странно знакомым."
 
 #: 64888
 msgid "Examine the stone..."
-msgstr ""
+msgstr "Осмотреть камень..."
 
 #: 64889
 msgid "Put the stone away."
-msgstr ""
+msgstr "Отложить камень."
 
 #: 64890
 msgid ""
 "As you touch the stone, a mouth appears on the side, and begins speaking, in "
 "your voice; it echoes, as if speaking within a great chamber."
 msgstr ""
+"Как только ты касаешься камня, на нем появляется рот, который начинает "
+"говорить твоим голосом; слышится эхо, как будто говорящий находится в "
+"большом помещении."
 
 #: 64891
 msgid ""
 "\"Dak'kon, Morte, Xachariah, Deionarra - it is I. I have placed a minor "
 "messaging enchantment on this stone; listen to it fully, then do as I say.\""
 msgstr ""
+"«Даккон, Морт, Захария, Дейонарра - это я. Я наложил на этот камень "
+"небольшое заклинание-сообщение; прослушайте его до конца, и сделайте так, "
+"как я скажу»."
 
 #: 64892
+#, fuzzy
 msgid ""
 "The voice takes a breath; it sounds irritated: \"I don't know how we got "
 "separated, but I think the portal that brought us here divided us. It's only "
@@ -48,6 +60,12 @@ msgid ""
 "you. Based on my divinations, this Fortress is the size of several cities - "
 "the less you move around, the easier it is for me to find you.\""
 msgstr ""
+"Голос переводит дыхание; он звучит раздраженно: «Не знаю, каким образом мы "
+"разделись, но мне кажется, что это все из-за портала, который перенес нас "
+"сюда. Это всего лишь небольшое затруднение; когда найдете этот камень, "
+"оставайтесь возле него, пока я не присоединюсь к вам. Интуиция подсказывает "
+"мне, что эта Крепость размером с несколько городов - чем меньше вы ходите, "
+"тем легче мне найти вас»."
 
 #: 64893
 msgid ""
@@ -58,6 +76,12 @@ msgid ""
 "the other shadows we encountered before; I think the energies of the Plane "
 "feed them somehow, make them stronger.\""
 msgstr ""
+"Голос снова переводит дух, потом становится более отстраненным, будто "
+"говорящий что-то осматривает и говорит об этом: «Я пробрался через первый "
+"зал. Это место *напичкано* тенями, их слишком много, чтобы сражаться. Если "
+"наткнетесь на них - бегите, прежде чем они накинуться на вас: они намного "
+"сильнее теней, попадавшихся нам раньше. Думаю, энергия плана как-то "
+"подпитывает их, делает сильнее»."
 
 #: 64894
 msgid ""
@@ -68,8 +92,15 @@ msgid ""
 "it opened a portal out.\" The voice pauses, as if something just occurred to "
 "the speaker. "
 msgstr ""
+"Голос еще раз переводит дыхание: «В помещениях есть несколько огромных "
+"военных реликтов. Они перемещали меня с места на место. Мне удалось заманить "
+"тени к каждой из машин, а потом переместиться, прежде чем они набросятся на "
+"меня. Это дало мне немного времени для побега. Как только я обошел четыре "
+"реликта, они открыли портал». Голос останавливается, будто с говорящим что-"
+"то случилось."
 
 #: 64895
+#, fuzzy
 msgid ""
 "\"It strikes me now that the vault I came from might be some strange sort of "
 "gatehouse - the relics seem to seal it off from both the inside *and* the "
@@ -78,6 +109,12 @@ msgid ""
 "so they wouldn't be able to use the machines to escape the vault. Hmmm. I'll "
 "have to think about that some more...\""
 msgstr ""
+"«Теперь до меня дошло, что зал, откуда я пришел, может быть странным "
+"подобием сторожевого поста: похоже, что реликты запирали его и изнутри, *и* "
+"снаружи Крепости. Кто бы ее ни построил, ему хочется держать теней под "
+"стражей, чтобы те не разбежались: они бестелесны, так что не могут "
+"воспользоваться машинами, чтобы сбежать. Хм-м. Мне нужно подумать над этим "
+"еще немного...»"
 
 #: 64896
 msgid ""
@@ -87,6 +124,10 @@ msgid ""
 "look like me - and they look *old,* too, like they've been here for some "
 "time.\""
 msgstr ""
+"«Неважно. Я в комнате с огромным кристаллом, и собираюсь рассмотреть его в "
+"деталях, прежде чем пойду дальше, - голос умолкает, будто говорящий "
+"оглядывается. - В комнате пять статуй, похожих на меня, и еще они кажутся "
+"*очень* старыми, будто стоят здесь уже немало времени»."
 
 #: 64897
 msgid ""
@@ -97,6 +138,12 @@ msgid ""
 "crystal's a trap, so *don't* touch it until we're together again - I *mean* "
 "it, Morte.\""
 msgstr ""
+"«Что касается кристалла... не похоже, чтобы он принадлежал Крепости. Его "
+"размер и форма напоминают мне кое-что, о чем я читал в летописях - нечто "
+"вроде пространственной тюрьмы, заключающей в себе душу. Не думаю, что портал "
+"из главного зала телепортировал меня сюда случайно: мне кажется, что "
+"кристалл - это ловушка, так что *не трогайте* его, пока мы не встретимся. Я "
+"*серьезно*, Морт»."
 
 #: 64898
 msgid ""
@@ -106,19 +153,24 @@ msgid ""
 "don't know how long it's going to take for us to find our enemy and get out, "
 "and we may need those supplies later. I'll see you all soon.\""
 msgstr ""
+"«Сейчас я попытаюсь найти вас всех. Если найдете этот камень, *не сходите* с "
+"места, иначе я никогда вас не найду. Я оставил вам немного припасов у "
+"подножья одной из статуй. Не тратьте их попусту: я не знаю, сколько еще "
+"понадобится времени, чтобы найти нашего врага и выбраться отсюда. Эти запасы "
+"могут понадобиться нам позже. Скоро увидимся»."
 
 #: 64899 64901 64903 64905 64907 64909 64911 64913
 msgid "Let the stone fall silent."
-msgstr ""
+msgstr "Позволить камню утихнуть."
 
 #: 64900 64902 64904 64906 64908 64910 64912
 msgid "Continue listening."
-msgstr ""
+msgstr "Продолжать слушать."
 
 #: 64914
 msgid "Listen..."
-msgstr ""
+msgstr "Слушать..."
 
 #: 64915
 msgid "Release the stone, let it fall silent."
-msgstr ""
+msgstr "Отпустить камень, дать ему утихнуть."

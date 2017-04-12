@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dsalabsh.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-09 00:14+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 48444
 msgid ""
@@ -19,14 +21,18 @@ msgid ""
 "Salabesh the Onyx, future mage-tutor for the Civic Festhall. You've business "
 "with me, I take it...?\""
 msgstr ""
+"Это высокий худощавый мужчина, одетый в грубую малиновую мантию, с резкими "
+"продолговатыми чертами лица. Когда ты подходишь, он церемонно кланяется. «Я "
+"Салабеш, также нередко называемый Ониксом, будущий наставник магов в "
+"Городском Фестхолле. У тебя ко мне дело, я правильно понимаю?..»"
 
 #: 48445
 msgid "\"No... just some questions...\""
-msgstr ""
+msgstr "«Нет... только несколько вопросов...»"
 
 #: 48446
 msgid "\"No, I don't. Farewell.\""
-msgstr ""
+msgstr "«Нет. Прощай»."
 
 #: 48447
 msgid ""
@@ -34,32 +40,38 @@ msgid ""
 "common folk could answer such questions, and I'd just as soon direct you to "
 "one of them.\""
 msgstr ""
+"«Хм-м, о чем? Надеюсь, не о районе и тому подобных вещах... на такие вопросы "
+"тебе могут ответить немало других людей, а я лучше направлю тебя к кому-"
+"нибудь из них»."
 
 #: 48448 48454
+#, fuzzy
 msgid "\"Why are you called 'the Onyx'?\""
-msgstr ""
+msgstr "«Почему тебя называют 'Ониксом'?»"
 
 #: 48449 48455
+#, fuzzy
 msgid "\"What did you mean by 'future mage-tutor of the Festhall'?\""
-msgstr ""
+msgstr "«Что ты имел в виду под 'будущим наставником магов в Фестхолле'?»"
 
 #: 48450 48456
 msgid ""
 "\"You're a Master of Curses? Perhaps you could - *hiccup!* - help me...\""
-msgstr ""
+msgstr "«Ты Мастер проклятий? Может быть, ты мог бы - *ик!* - помочь мне...»"
 
 #: 48451 48457
 msgid "\"Are you the mage that cursed the performer down the street?\""
-msgstr ""
+msgstr "«Ты тот маг, который проклял актера вниз по улице?»"
 
 #: 48452 48458
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 48453
 msgid "Salabesh smirks. \"I am not surprised.\""
-msgstr ""
+msgstr "Салабеш самодовольно ухмыляется. «Я не удивлен»."
 
+# перевод про сердце - скорее литературный, чтобы отобразить ту же игру слов, что и в оригинале
 #: 48459
 msgid ""
 "\"A long tale, which I'll shorten to save my breath. In my youth, I was once "
@@ -71,14 +83,22 @@ msgid ""
 "now... far less prone to laying curses and the like. I'm not certain if I "
 "deserve the name any longer.\""
 msgstr ""
+"«Это длинная история, которую я сокращу, чтобы не тратить время попусту. "
+"Раньше, в дни моей молодости, меня звали Золотым Салабешем, потому что "
+"поговаривали, у меня золотое сердце... холодное, жесткое и трусливо-желтое. "
+"Итак, я проклял глупца, который придумал *это*, да так, что он мог говорить "
+"только задом и испражняться через рот. Скоро мне придумали новое прозвище "
+"'Оникс' - по той же причине, что и 'Золотой', хотя, по правде говоря, оно не "
+"такое меткое. Как бы там ни было, теперь я гораздо добрее... и намного реже "
+"насылаю разного рода проклятия. Не уверен, заслуживаю ли я еще это прозвище»."
 
 #: 48460 48490 48494 48498 66238 66243 66245 67853
 msgid "\"I had another question...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 48461 48491 48495 48499 66239 66244 66246 67854 67857
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 48462
 msgid ""
@@ -86,14 +106,17 @@ msgid ""
 "sighs, shaking his head. \"Well... *perhaps* I could. What troubles you, "
 "then?\""
 msgstr ""
+"«Помочь тебе? - Салабеш насмешливо ухмыляется. - Сомневаюсь». Не успеваешь "
+"ты ответить, как он вздыхает и качает головой. «Что ж... *возможно*, я "
+"помогу. Так что же тебя беспокоит?»"
 
 #: 48463
 msgid "\"Jumble Murdersense cursed me.\""
-msgstr ""
+msgstr "«Джамбл Смыслогуб проклял меня»."
 
 #: 48464
 msgid "\"Never mind, actually. Farewell.\""
-msgstr ""
+msgstr "«А вообще, не обращай внимания. Счастливо»."
 
 #: 48465
 msgid ""
@@ -104,18 +127,26 @@ msgid ""
 "on an item or somesuch, you know, that you could remove with simple "
 "magicks... *he'll* have to remove it, and willingly.\""
 msgstr ""
+"«Джамбл Смыслогуб? Ха! Этот бормочущий идиот еще *ни разу* не смог одержать "
+"надо мной верх! Ух, ну и битвы же у нас были... - Салабеш нахмуривается. - "
+"Но теперь для меня все это в прошлом. Понимаешь, это больше не по мне. Я "
+"действительно не знаю, как тебе помочь... к тому же, это *его* проклятье. Не "
+"из тех, которые можно встретить на предметах и тому подобных вещах, ну ты "
+"понимаешь, которые можно развеять простой магией... снять его должен *он*, и "
+"по доброй воле»."
 
 #: 48466
 msgid "\"Well, could you teach me a curse, then, that I could use on him?\""
 msgstr ""
+"«Ну, тогда ты мог бы научить меня проклятию, чтобы я смог его проклясть?»"
 
 #: 48467 48472 67856
 msgid "\"I had another question, then...\""
-msgstr ""
+msgstr "«Тогда у меня еще вопросы...»"
 
 #: 48468 48473
 msgid "\"In that case, farewell.\""
-msgstr ""
+msgstr "«В таком случае, прощай»."
 
 #: 48469
 msgid ""
@@ -123,16 +154,22 @@ msgid ""
 "know. And besides, even a single curse would take one a long, long while to "
 "learn - more time than I'd care to spend on it.\""
 msgstr ""
+"«Хм-м. Ну... обычно я такого не делаю. Держу свои проклятья при себе, ну ты "
+"понимаешь. Да и потом, чтобы выучить даже одно-единственное проклятие, "
+"понадобится очень много времени - больше, чем я могу позволить себе "
+"потратить»."
 
 #: 48470
 msgid "\"I could pay you for your trouble...\""
-msgstr ""
+msgstr "«Я мог бы заплатить тебе за беспокойство...»"
 
 #: 48471 48475
 msgid ""
 "\"Perhaps you're just worried your curses aren't good enough to best him, "
 "anymore...\""
 msgstr ""
+"«Наверное, ты просто боишься, что твои проклятья уже не настолько хороши, "
+"чтобы переплюнуть его...»"
 
 #: 48474
 msgid ""
@@ -140,14 +177,17 @@ msgid ""
 "your eyes. \"Now kindly drop the subject, sirrah, before you begin to annoy "
 "me.\""
 msgstr ""
+"«Нет, нет... Я просто не хочу это делать, - Салабеш смотрит тебе прямо в "
+"глаза. - А теперь, любезный, будь добр, заканчивай с этой темой, пока ты не "
+"начал раздражать меня»."
 
 #: 48476
 msgid "\"All right. I had another question...\""
-msgstr ""
+msgstr "«Хорошо. У меня есть другой вопрос...»"
 
 #: 48477
 msgid "\"It's dropped, Salabesh. Farewell.\""
-msgstr ""
+msgstr "«У меня все, Салабеш. Прощай»."
 
 #: 48478
 msgid ""
@@ -156,22 +196,26 @@ msgid ""
 "other! Why, I could give you but a single phrase that would render that "
 "nincompoop's cursing wholly impotent!\""
 msgstr ""
+"«*Что*?! Что за нелепость... так, слушай сюда, первобытный мешок со шрамами: "
+"Салабеш Оникс - *МАСТЕР* проклятий, другого такого нету! Да я могу сказать "
+"тебе одну единственную фразу, от которой все проклятия того простофили "
+"станут совершенно бесполезными!»"
 
 #: 48479
 msgid "\"Teach it to me, then...\""
-msgstr ""
+msgstr "«Тогда научи меня...»"
 
 #: 48480
 msgid "Purse your lips, look skeptical."
-msgstr ""
+msgstr "Скривиться, посмотреть скептически."
 
 #: 48481
 msgid "\"I'm sure you could. I had another question...\""
-msgstr ""
+msgstr "«Уверен, так оно и есть. У меня есть еще один вопрос...»"
 
 #: 48484
 msgid "\"All right, all right... farewell.\""
-msgstr ""
+msgstr "«Ну хорошо, хорошо... прощай»."
 
 #: 48485
 msgid ""
@@ -180,16 +224,22 @@ msgid ""
 "use against Jumble. \"There! See what *that* does to him, and tell me "
 "Salabesh the Onyx isn't *the* Master of Curses, then!\""
 msgstr ""
+"«Ну все! Ты *вынуждаешь* меня делать это! - Салабеш произносит несколько "
+"невероятных слов... слов силы, которые ты запоминаешь, чтобы позже "
+"использовать против Джамбла. - Ну вот! Посмотри, что *это* сделает с ним, и "
+"потом попробуй сказать, что Салабеш Оникс - *не* Мастер проклятий!»"
 
 #: 48486
 msgid "\"Thanks, Salabesh; I'll do that. Farewell.\""
-msgstr ""
+msgstr "«Спасибо, Салабеш; так и сделаю. Прощай»."
 
 #: 48487
 msgid ""
 "I learned a short curse from Salabesh the Onyx, which I should be able to "
 "use against Jumble Murdersense."
 msgstr ""
+"Я научился у Салабеша Оникса короткому проклятью, которое могу применить "
+"против Джамбла Смыслогуба."
 
 #: 48488
 msgid ""
@@ -200,10 +250,16 @@ msgid ""
 "curse is harmless. Improves his sorry little act, if anything - he'll be "
 "fine.\""
 msgstr ""
+"«А... - Салабеш прищуривает глаза, его рот искривляется. - *Он*. Да, я его "
+"проклял, и он более чем заслуживал этого! Насмехаться над проходящим мимо "
+"магом... что за дурак мог до такого додуматься? Да он просто *напрашивался*! "
+"В конце концов, я же Салабеш Оникс, Мастер проклятий. Но ты не волнуйся... "
+"проклятие безвредно. И даже улучшает его никудышную игру, во всяком случае, "
+"он не пропадет»."
 
 #: 48489 66237
 msgid "\"Master of Curses? Perhaps you could - *hiccup!* - help me, then...\""
-msgstr ""
+msgstr "«Мастер проклятий? Тогда, может, ты бы мог - *ик!* - помочь мне...»"
 
 #: 48492
 msgid ""
@@ -212,12 +268,18 @@ msgid ""
 "tutor, but the title's currently in the possession of the Lady Thorncombe. "
 "If only I could somehow prove that I'd be a superior tutor...\""
 msgstr ""
+"«Это престижная должность - быть официальным наставником в одном из "
+"тренировочных залов Фестхолла. Когда-нибудь я займу должность наставника, но "
+"в текущий момент ее занимает леди Торнкомб. Если бы мне как-то удалось "
+"доказать, что я буду лучшим наставником...»"
 
 #: 48493
 msgid ""
 "\"You could always bring up the fact that she's addicted to sensory stones. "
 "She doesn't seem to want to teach anymore...\""
 msgstr ""
+"«Ты можешь обратить внимание на тот факт, что она одержима камнями "
+"переживаний. Похоже, она больше не хочет преподавать...»"
 
 #: 48496
 msgid ""
@@ -227,27 +289,39 @@ msgid ""
 "Thorncombe of his intentions to give her a final chance to sort out her "
 "priorities."
 msgstr ""
+"Я рассказал Салабешу, что леди Торнкомб проводит все свое время в сенсориуме "
+"и больше не желает преподавать. Он пожелал занять ее место, но я не уверен "
+"насчет того, насколько хороший учитель из него получится. Пожалуй, мне лучше "
+"сообщить леди Торнкомб о его намерениях, чтобы дать ей последний шанс "
+"сделать выбор."
 
 #: 48497
+#, fuzzy
 msgid ""
 "Salabesh's tight lips curl into a nasty smile. \"*Is* she, now? And she no "
 "longer cares to teach? Excellent...\" He rubs his hands together eagerly. "
 "\"I'll request to be made the new mage's tutor shortly, then.\""
 msgstr ""
+"Салабеш искривляет губы в зловещей улыбке. «Значит, *вот* как? И ее больше "
+"не заботит учеба? Превосходно... - он потирает руки, словно типичный злодей, "
+"задумавший подлость. - Тогда я немедленно потребую, чтобы меня назначили "
+"новым учителем магов»."
 
 #: 48500
 msgid ""
 "You see Salabesh the Onyx. He makes a brief but graceful half-bow. \"Hmm. "
 "Again you stand before me...\""
 msgstr ""
+"Ты видишь Салабеша Оникса. Он делает короткий, но изящный полупоклон. «Хм-м. "
+"Вновь ты стоишь передо мной...»"
 
 #: 48501
 msgid "\"Yes. I had some questions...\""
-msgstr ""
+msgstr "«Да. У меня есть несколько вопросов...»"
 
 #: 48502
 msgid "\"I was just passing by. Farewell.\""
-msgstr ""
+msgstr "«Я просто проходил. Прощай»."
 
 #: 66221
 msgid ""
@@ -255,13 +329,19 @@ msgid ""
 "vying for the prestigious position of 'mage-tutor of the Festhall,' but "
 "needs a way to prove that he'd be a better tutor than the current one."
 msgstr ""
+"Я встретил мужчину по имени Салабеш возле Городского Фестхолла. Он заявил, "
+"что претендует на престижную должность «наставника магов в Фестхолле», но "
+"ему нужно как-то доказать, что он лучше текущего наставника."
 
 #: 66236
+#, fuzzy
 msgid ""
 "\"Oh, yes... you heard right.\" Salabesh sighs happily and chuckles to "
 "himself. \"That sort of thing is why I'm known as the Master of Curses, you "
 "know.\""
 msgstr ""
+"«О, да... ты правильно услышал, - Салабеш вздыхает и тихонько смеется. - "
+"Поэтому-то меня и называют Мастером проклятий, ну ты понимаешь»."
 
 #: 66240
 msgid ""
@@ -269,10 +349,13 @@ msgid ""
 "Murdersense cursed that man, if I recall correctly. Why? Seeking to get his "
 "curse undone? Good luck... only Jumble can do that, you know.\""
 msgstr ""
+"«Вонючка?.. Хмм, - внезапно Салабеш поднимает бровь. - А, да... Если мне не "
+"изменяет память, его проклял Джамбл Смыслогуб. А что? Ищешь, как бы снять с "
+"него проклятье? Удачи... только Джамбл может это сделать, ну ты понимаешь»."
 
 #: 66241
 msgid "\"Where would I find this Jumble Murdersense?\""
-msgstr ""
+msgstr "«Где мне найти Джамбла Смыслогуба?»"
 
 #: 66242
 msgid ""
@@ -280,10 +363,13 @@ msgid ""
 "leering smile. Never speaks, so you'll be hard pressed to get anything out "
 "of him.\""
 msgstr ""
+"«Полагаю, в Городском Фестхолле. Невысокий толстяк с лукавой улыбкой. "
+"Никогда не разговаривает, так что трудно будет выудить из него хоть что-"
+"нибудь»."
 
 #: 66247 66249
 msgid "\"Do you know of a cursed man called Reekwind?\""
-msgstr ""
+msgstr "«Ты знаешь проклятого человека по имени Вонючка?»"
 
 #: 66248
 msgid ""
@@ -291,10 +377,13 @@ msgid ""
 "man I met in the Hive - what he is, and that I could find him in the Civic "
 "Festhall."
 msgstr ""
+"Мне сказали, что это Джамбл Смыслогуб сделал Вонючку (одолеваемого зловонием "
+"проклятого человека, которого я встретил в Улье) таким, каким он есть, и что "
+"я могу найти его в Городском Фестхолле."
 
 #: 66250
 msgid "\"You cursed him so that *what?*\""
-msgstr ""
+msgstr "«Он *что*?»"
 
 #: 67852
 msgid ""
@@ -303,6 +392,10 @@ msgid ""
 "before making my request. Besides, I am certain that 'Lady' Thorncombe won't "
 "come skipping out of the sensorium anytime soon...\" He chuckles evilly."
 msgstr ""
+"Салабеш мрачнеет. «Нет... Недавно я разозлил главу совета магов, и мне "
+"кажется, что необходимо выждать момент перед тем, как подавать прошение. Да "
+"и все равно, я уверен, что 'леди' Торнкомб еще долго не покинет "
+"сенсориум...». Он злобно посмеивается."
 
 #: 67855
 msgid ""
@@ -311,13 +404,19 @@ msgid ""
 "is lost. I do not wish to speak of it any longer!\" Salabesh continues to "
 "mumble foul curses beneath his breath."
 msgstr ""
+"«Пф! Эта праздная легкомысленная девчонка... Торнкомб наконец-то соизволила "
+"покинуть сенсориумы и вернуться к учебе, так что я упустил свой шанс. Я "
+"больше не хочу об этом говорить!» Салабеш продолжает тихо сыпать проклятьями "
+"себе под нос."
 
 #: 67858 67860
 msgid ""
 "\"Have you put in your request to be made mage-tutor of the Festhall, yet?\""
-msgstr ""
+msgstr "«Ты еще не подавал запрос на место наставника магов в Фестхолле?»"
 
 #: 67859 67861
 msgid ""
 "\"So... whatever happened to your becoming mage-tutor of the Festhall?\""
 msgstr ""
+"«Так... как там на счет твоего намерения стать наставником магов в "
+"Фестхолле?»"

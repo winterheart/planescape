@@ -1,30 +1,37 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: planescape l10n\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2009-06-14 03:28+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Lokalize 0.3\n"
 
 #: 34081
 msgid ""
 "A sense of great loss hangs over this elderly woman like a dark cloak. As "
 "you watch her, a long, sad sigh escapes her lips."
 msgstr ""
+"Чувство великих потерь, как темный капюшон, покрывает эту старушку. Взглянув "
+"на нее, ты слышишь долгий горестный вздох, вылетевший из ее губ."
 
 #: 34082
 msgid "\"Greetings...\""
-msgstr ""
+msgstr "«Приветствую...»"
 
 #: 34083
 msgid "Leave the woman be."
-msgstr ""
+msgstr "Оставить женщину в покое."
 
 #: 34084
 msgid ""
@@ -32,32 +39,35 @@ msgid ""
 "clearly. \"Forgive me, young cutter, but I'm an old woman and don't see so "
 "well... do I know ye?\""
 msgstr ""
+"Она смотрит на твое лицо, косящие мрачные глаза уставились на тебя ясным "
+"взглядом. «Прости меня, молодой рубака, но я уже пожилая женщина и не очень "
+"хорошо вижу... я тебя знаю?»"
 
 #: 34085
 msgid "\"No.\""
-msgstr ""
+msgstr "«Нет»."
 
 #: 34086
 msgid "\"Perhaps, but I don't know you.\""
-msgstr ""
+msgstr "«Может быть, но я не знаю»."
 
 #: 34087
 msgid "\"We've run across one another before, that's all.\""
-msgstr ""
+msgstr "«Один раз наши пути пересеклись, вот и все»."
 
 #: 34088
 msgid ""
 "She mulls your answer over for a moment, nodding. \"What was it ye wanted, "
 "then?\""
-msgstr ""
+msgstr "Твой ответ немного напугал ее. «И что тогда тебе надо?»"
 
 #: 34089
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 34090
 msgid "\"Nothing, actually. Farewell.\""
-msgstr ""
+msgstr "«Ничего. Прощай»."
 
 #: 34091
 msgid ""
@@ -65,18 +75,20 @@ msgid ""
 "aren't ye? Name, job, and all that rot, eh? Well I won't have it! Off with "
 "ye!\""
 msgstr ""
+"«Вопросы?» Она застывает в ужасе. «О нет... ты ведь 'приключенец', не так "
+"ли? Имя, работа и прочее гнилье, да? Нафига мне это надо? Пошел прочь!»"
 
 #: 34092
 msgid "\"I'm not an adventurer.\""
-msgstr ""
+msgstr "«Я не приключенец»."
 
 #: 34093
 msgid "\"No, I'm not... not really, at least...\""
-msgstr ""
+msgstr "«Нет, я не... на самом деле, по крайней мере...»"
 
 #: 34094
 msgid "\"Farewell, then.\""
-msgstr ""
+msgstr "«Тогда прощай». "
 
 #: 34095
 msgid ""
@@ -87,16 +99,23 @@ msgid ""
 "seems to be working herself into a fit; her face has become flushed and "
 "flecks of spittle fly from her lips as she howls at you."
 msgstr ""
+"«Задвинься!» Женщина тычет в тебя пальцем. «Я следила за тленными, когда те "
+"записали имя моего мужа, проклятая его душонка, моих сына и обеих дочек, "
+"'прилюченцы' до мозга костей, теперь все они в Мемориале! Когда-то я *тоже* "
+"неплохо махала мечом, так что я знаю, как они выглядят!» Кажется, женщина "
+"приходит в форму; ее щеки зарумянились, она прямо-таки брызжет слюной, крича "
+"на тебя."
 
 #: 34096
 msgid "Let her continue her tirade."
-msgstr ""
+msgstr "Слушать ее тираду дальше."
 
 #: 34097 34099 34101
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 34098
+#, fuzzy
 msgid ""
 "\"I'll bet ye've got all *sorts* o' barmy questions!\" She mimics your "
 "heroic stance: \"Greetin's, I have some questions... can ye tell me about "
@@ -108,9 +127,22 @@ msgid ""
 "ought ta kick ye in the shins fer even pesterin' a poor ol' woman about it "
 "all! Now go away an' leaves me in peace!\""
 msgstr ""
+"«Могу поспорить, что у тебя припасено *куча*» всяких тупых вопросов!» Она "
+"пародирует твою героическую позу: «Привет, у меня есть вопросы к тебе... ты "
+"не можешь рассказать об этом месте? Кто такая Леди Боли? Я ищу магический "
+"Железный Пояс Хвастуна, не видел такого? Не знаешь, где может находиться "
+"портал на 2817-й План Бездны? Не знаешь, где Святой Увечащий и "
+"Возвращающийся Огненный Разящий Холодом Гронков Молот, Стреляющий-Молниями-"
+"Из-Твоей-Задницы?» Она сплевывает. «Довольно этого дерьма! Чтоб ты в Книге "
+"Мертвых оказался! Я должна пнуть тебя в зад уже только за то, что ты "
+"осмелился спросить бедную женщину об этом всем! А теперь проваливай и оставь "
+"меня в покое!»"
 
 #: 34100
 msgid ""
 "As the old woman squints at your face, her expression becomes sour. \"Nay, "
 "nay, nay! Not ye again! I won't have another word with ye, so git! *GIT!*\""
 msgstr ""
+"Как только женщина смотрит на тебя, ее выражение лица становится кислым. "
+"«Нет, нет, нет! Только не ты опять! Я не хочу с тобой разговаривать, так что "
+"исчезни! *ИСЧЕЗНИ*!»"

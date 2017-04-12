@@ -1,120 +1,137 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dmw1.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2012-03-24 16:06+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 47907
 msgid ""
 "You see a sturdy young man. He seems to be moving the contents of crates to "
 "various stalls in the market. He nods at your approach. \"Good day, cutter.\""
 msgstr ""
+"Перед тобой крепкий парень. Похоже, он распределяет содержимое ящиков по "
+"прилавкам на рынке. Он кивает, когда ты подходишь. «Добрый день, рубака»."
 
 #: 47908
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 47909
 msgid "Ignore him."
-msgstr ""
+msgstr "Игнорировать его."
 
 #: 47910
 msgid "He nods again. \"What can I help you with?\""
-msgstr ""
+msgstr "Он снова кивает. «Чем я могу тебе помочь?»"
 
 #: 47911 47951
 msgid "\"I have some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...»"
 
 #: 47912
 msgid "\"Nothing. Farewell.\""
-msgstr ""
+msgstr "«Ничего. Прощай»."
 
 #: 47913
 msgid "\"Very well.\" He awaits your questions."
-msgstr ""
+msgstr "«Хорошо». Он ждет твоих вопросов."
 
 #: 47914
 msgid "\"I'm looking for someone named Lothar, or the Master of the Bones...\""
-msgstr ""
+msgstr "«Я ищу кое-кого по имени Лотар, он же Повелитель Костей...»"
 
 #: 47915
 msgid ""
 "He shakes his head. \"The Master of the Bones... does not like visitors, "
 "cutter. You may be looking for him, but you *don't* want to find him.\""
 msgstr ""
+"Он качает головой. «Повелитель Костей... не любит гостей, рубака. Можешь его "
+"искать, но тебе не *захочется* его найти»."
 
 #: 47916
 msgid ""
 "\"I had a skull and it's been stolen from me. Do you know anyone who would "
 "do such a thing?\""
 msgstr ""
+"«У меня был череп, который украли. Ты не знаешь кого-нибудь, кто бы мог это "
+"сделать?»"
 
 #: 47917
 msgid "\"Where can I buy some weapons?\""
-msgstr ""
+msgstr "«Где мне купить оружие?»"
 
 #: 47918
 msgid "\"Where can I buy some magic?\""
-msgstr ""
+msgstr "«Где мне купить что-нибудь магическое?»"
 
 #: 47919
 msgid "\"What can you tell me about this ward?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать об этом районе?»"
 
 #: 47920
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 47921
+#, fuzzy
 msgid ""
 "He stares at you for a moment then drops his gaze to your many scars. He "
 "shrugs his shoulders as he looks you in the eyes. \"Leave the market, head "
 "south, then a little east. The ruined house. May the powers protect you, "
 "cutter.\" He turns away and returns to his work."
 msgstr ""
+"Он некоторое время пристально смотрит на тебя, потом его взгляд "
+"останавливается на твоих шрамах. Он пожимает плечами, смотря тебе в глаза. "
+"«Выйди из рынка, следуй на юг, потом немного на восток. Там будет "
+"разрушенный дом. Да хранят тебя Силы, рубака». Он отворачивается и "
+"возвращается к своим делам."
 
 #: 47922
 msgid "\"Thank you. Farewell.\""
-msgstr ""
+msgstr "«Спасибо. Прощай»."
 
 #: 47927
 msgid ""
 "He frowns and looks you up and down. \"Well... was there anything special "
 "about this skull?\""
 msgstr ""
+"Он хмурится и осматривает тебя сверху донизу. «Что ж... в этом черепе было "
+"что-нибудь особенное?»"
 
 #: 47928
 msgid "\"No.\""
-msgstr ""
+msgstr "«Нет»."
 
 #: 47929
 msgid "\"Yes. It talked.\""
-msgstr ""
+msgstr "«Да. Он говорящий»."
 
 #: 47930
 msgid "He shrugs. \"Can't see why anyone would want it then.\""
 msgstr ""
+"Он пожимает плечами. «Тогда не вижу, зачем он мог кому-то понадобиться»."
 
 #: 47931
 msgid "\"Yes, I do...\""
-msgstr ""
+msgstr "«Да...»"
 
 #: 47932
 msgid "\"All right. Let me as you something else...\""
-msgstr ""
+msgstr "«Ладно. Позволь мне спросить кое о чем еще...»"
 
 #: 47933 47939 47943 47946 47949
 msgid "\"I must be going now. Farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай»."
 
 #: 47934
 msgid ""
@@ -122,29 +139,32 @@ msgid ""
 "Which means it could have attracted the attention of Lothar, the Master of "
 "the Bones.\""
 msgstr ""
+"Он бросает на тебя взгляд. «Я бы сказал, что его можно считать особенным. "
+"Что означает, что он мог привлечь внимание Лотара, Повелителя Костей»."
 
 #: 47935
 msgid "\"Where do I find this Lothar?\""
-msgstr ""
+msgstr "«Где мне найти этого Лотара?»"
 
 #: 47937
 msgid ""
 "\"You should talk to Anze; he's usually at the counter over by the furnace.\""
-msgstr ""
+msgstr "«Тебе следует поговорить с Анце. Обычно он у прилавка возле печки»."
 
 #: 47938 47942 47945
 msgid "\"I have some more questions...\""
-msgstr ""
+msgstr "«У меня есть еще вопросы...»"
 
 #: 47941
 msgid "\"What if it could talk?\""
-msgstr ""
+msgstr "«Что, если он умеет говорить?»"
 
 #: 47944
 msgid ""
 "\"You need to talk to Aalek, he's usually at the far counter over by the "
 "furnace.\""
 msgstr ""
+"«Тебе нужно поговорит с Аалеком, он обычно у дальнего прилавка возле печки»."
 
 #: 47947
 msgid ""
@@ -152,17 +172,20 @@ msgid ""
 "of worse as well.\" He shrugs again. \"As for details, go talk to Anze's "
 "boy, Lazlo. He's usually over by the furnace. Lad loves to talk.\""
 msgstr ""
+"Он вздыхает. «Это мой дом... Думаю, есть места и получше, но есть и похуже, "
+"- он снова пожимает плечами. - Если нужны подробности, подойди к парню Анце, "
+"Лазло. Он обычно возле печки. Парнишка - любитель поболтать»."
 
 #: 47948
 msgid "\"I have some other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 47950
 msgid ""
 "The workman looks up at you and smiles. \"Hello again. What can I do for you?"
 "\""
-msgstr ""
+msgstr "Рабочий поднимает на тебя взгляд. «Здравствуй. Чем могу помочь?»"
 
 #: 47952
 msgid "\"Nothing, farewell.\""
-msgstr ""
+msgstr "«Ничем, прощай»."

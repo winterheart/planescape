@@ -1,30 +1,34 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dfleece.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-08 00:21+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 1754
 msgid ""
 "You see a man who is looking around at the buildings with some confusion. He "
 "looks lost and is mumbling to himself."
 msgstr ""
+"Перед тобой человек, который смущенно оглядывается на окружающие его здание. "
+"У него потерянный вид. Он что-то бормочет себе под нос."
 
 #: 1755 7692
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 1756
 msgid "Pass on by."
-msgstr ""
+msgstr "Пройти мимо."
 
 #: 1757
 msgid ""
@@ -35,24 +39,30 @@ msgid ""
 "unwilling to extend aid to a visitor...\" He looks at you hopefully. \"Could "
 "I prevail upon you to help me, perchance?\""
 msgstr ""
+"Человек облегченно вздыхает. «*Наконец-то*! Я взываю к вашей "
+"снисходительности, уважаемый господин. Кажется, я заблудился в этом "
+"лабиринте улиц... - он неловко хихикает. - Боюсь, что эта часть города, - он "
+"окидывает взглядом улицу, - мне не знакома. Здешние жители, похоже, не "
+"желают помогать гостям... - он с надеждой смотрит на тебя. - Быть может, я "
+"смог бы убедить вас помочь мне?»"
 
 #: 1758
 msgid "\"Depends on the kind of help you need.\""
-msgstr ""
+msgstr "«В зависимости от того, какая помощь тебе нужна»."
 
 #: 1759
 msgid "\"Certainly. Where are you trying to go?\""
-msgstr ""
+msgstr "«Конечно. Куда ты хочешь попасть?»"
 
 #: 1760
 msgid ""
 "\"You're on your own. If I were you, I'd get out of this area as soon as you "
 "can.\""
-msgstr ""
+msgstr "«Выкручивайся сам. На твоем месте я бы побыстрее выбирался бы отсюда»."
 
 #: 1761
 msgid "\"I don't have the time to help you right now... farewell.\""
-msgstr ""
+msgstr "«Сейчас у меня нет времени, чтобы помогать тебе... Прощай»."
 
 #: 1762
 msgid ""
@@ -60,18 +70,21 @@ msgid ""
 "house close to the Mortuary, but the street layout seems to have changed "
 "since my last visit... do you know of the house of which I speak?\""
 msgstr ""
+"«Я ищу дом моей тети Маргариты. Она говорила, что живет рядом с Моргом, но с "
+"тех пор, когда я был здесь в последний раз, планировка улиц поменялась... Вы "
+"не знаете, где находится этот дом?»"
 
 #: 1763
 msgid "Lie: \"I do. I can direct you there... for a price.\""
-msgstr ""
+msgstr "Ложь: «Да. Я могу показать дорогу... за деньги»."
 
 #: 1764
 msgid "Truth: \"I'm afraid that I have never heard of such a place.\""
-msgstr ""
+msgstr "Правда: «Боюсь, что никогда не слышал об этом месте»."
 
 #: 1765
 msgid "\"I cannot help you. Farewell.\""
-msgstr ""
+msgstr "«Я не могу помочь тебе. Прощай»."
 
 #: 1766
 msgid ""
@@ -79,23 +92,30 @@ msgid ""
 "Mortuary.\" His eyes narrow, as if studying you. \"Do you know exactly where "
 "her home is?\""
 msgstr ""
+"«Ах, это справедливо. Ее дом находится рядом с Моргом, - его глаза сужаются, "
+"пристально изучая тебя. - Вам точно известно, где находится ее дом?»"
 
 #: 2246
 msgid ""
 "Lie: \"She is south and east of the Mortuary, near one of the mausoleums.\""
 msgstr ""
+"Ложь: «Она живет к юго-востоку от Морга, неподалеку от одного из мавзолеев»."
 
 #: 2247
+#, fuzzy
 msgid ""
 "\"I'm sorry, did you say 'Aunt Marguerite'? I misunderstood you, and was "
 "thinking of someone else.\""
 msgstr ""
+"«Прошу прощения, ты сказал 'тетя Маргарита'? Я тебя неправильно понял и "
+"подумал о другой»."
 
 #: 2248
 msgid ""
 "\"Oh, wait. I thought you were asking about one of the brothels around here. "
 "Never mind.\""
 msgstr ""
+"«Ой, подожди. Я думал, что ты спрашивал о ближайших борделях. Неважно»."
 
 #: 2249
 msgid ""
@@ -104,52 +124,68 @@ msgid ""
 "back to you. \"I shall see if someone else knows. I thank you for your time, "
 "good sir.\""
 msgstr ""
+"Человек трясет головой. «О, нет-нет... она не *настолько* близка к нему. "
+"Возможно, вы подумали о ком-то другом». Человек оглядывается, затем снова "
+"обращается к тебе. «Я поищу еще кого-нибудь, кто может знать. Благодарю за "
+"уделенное время, уважаемый господин»."
 
 #: 2250 2251 2252 2253 2254 2256 2257 2258 2259 2260 2262 2263 2264 2265 2266
 #: 2269 2270 2271 2272 2273 2542 7614 7615 7616 7617
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 2255
+#, fuzzy
 msgid ""
 "The man frowns in disappointment. \"Ah, I suppose it would have been too "
 "much good fortune to hope that you would know of such a place.\" He nods "
 "slightly in thanks. \"Well, I thank you for your time, good sir; it is most "
 "welcome on these streets.\""
 msgstr ""
+"Человек разочарованно хмурится. «Ах, было бы слишком большой удачей "
+"надеяться на то, что вам известно это место, - он слегка кивает в знак "
+"благодарности. - Что ж, благодарю вас за уделенное время, уважаемый "
+"господин, вы были самым приветливым на этих улицах»."
 
 #: 2261
 msgid ""
 "\"An easy mistake, I'm sure, good sir. I thank you for your time, then.\""
 msgstr ""
+"«Несложно было ошибиться, господин. Тем не менее, благодарю за уделенное "
+"время»."
 
 #: 2267
 msgid ""
 "The man blinks in surprise. \"Eh... nay, nay.\" He smiles uneasily. \"My "
 "aunt does not engage in those sort of pursuits.\""
 msgstr ""
+"Мужчина моргает от неожиданности. «Э-э, нет-нет, - он натянуто улыбается. - "
+"Моя тетя не вовлечена в подобные занятия»."
 
 #: 2268
 msgid "\"That's not what *I* hear.\""
-msgstr ""
+msgstr "«Это не то, что *я* слышал»."
 
 #: 2274
 msgid "The man seems confused. \"I... will take my leave of you, good sir.\""
 msgstr ""
+"Мужчина выглядит смущенным. «Я... лучше покину вас, уважаемый господин»."
 
 #: 2275
 msgid "\"Say hello to your Aunt for me. Tell her I'll come back soon.\""
-msgstr ""
+msgstr "«Передавай от меня привет своей тете. Скажи ей, что я скоро вернусь»."
 
 #: 2540
 msgid "Let him go... this time."
-msgstr ""
+msgstr "Отпустить его... на этот раз."
 
 #: 2541
 msgid ""
 "The man frowns in disappointment. \"Ah... well, I thank you for your time, "
 "sir; good day.\""
 msgstr ""
+"Мужчина разочарованно хмурится. «Ах... ну что ж, благодарю вас за уделенное "
+"время, господин. Хорошего дня»."
 
 #: 7618
 msgid ""
@@ -158,67 +194,77 @@ msgid ""
 "withdrawing his hand from your purse... you can't be sure, but you think he "
 "might have taken something from you."
 msgstr ""
+"Ты уже почти готов идти прочь, когда неожиданно чувствуешь, что чего-то не "
+"хватает. Ты с подозрением оглядываешься на человека, как раз в то время, "
+"когда он засовывает руку в твой кошелек... ты не уверен, но тебе кажется, "
+"что он мог что-то забрать у тебя."
 
 #: 7619 7620 7642 7643 7652 7653
 msgid "Grab his hand."
-msgstr ""
+msgstr "Схватить его за руку."
 
 #: 7621 7644 7654
 msgid "\"Hey! What do you think you're doing?!\""
-msgstr ""
+msgstr "«Эй! Ты что творишь?!»"
 
 #: 7622 7624 7625 7645 7647 7648
 msgid "Bait the man into pick pocketing you again, and observe his technique."
-msgstr ""
+msgstr "Спровоцировать мужчину на воровство и проследить за его техникой."
 
 #: 7626 7631 7638 7669 7678 7689
 msgid "Attack him."
-msgstr ""
+msgstr "Атаковать его."
 
 #: 7627 7650 7656
 msgid "Ignore the incident, leave."
-msgstr ""
+msgstr "Не обращать внимания на инцидент и уйти."
 
 #: 7628
 msgid ""
 "Your hand snaps out and wraps around his wrist in a crushing grip. The man "
 "gives a yelp, and desperately tries to yank it free."
 msgstr ""
+"Твоя рука молниеносно выскакивает вперед и хватает его запястье в мертвой "
+"хватке. Мужчина вскрикивает, отчаянно пытаясь вырвать руку."
 
 #: 7629
 msgid "Quietly: \"Stop struggling, or I'll keep your hand.\""
-msgstr ""
+msgstr "Тихо: «Хватит вырываться, или я вырву тебе руку»."
 
 #: 7630
 msgid "\"Stop struggling, dammit!\""
-msgstr ""
+msgstr "«Хватит вырываться, черт возьми!»"
 
 #: 7632 7640
 msgid "Let him go."
-msgstr ""
+msgstr "Позволить ему уйти."
 
 #: 7633
 msgid ""
 "You are not fast enough; he yanks his hand back before you can grab it. With "
 "a yelp, he bolts, running down the street."
 msgstr ""
+"Ты недостаточно быстр. Он вырывает свою руку до того, как ты успеваешь ее "
+"схватить. С криком он бросается наутек вниз по улице."
 
 #: 7634 7636
 msgid "\"All right then...\""
-msgstr ""
+msgstr "«Ну хорошо...»"
 
 #: 7635
 msgid "The man jumps in surprise, then starts running."
-msgstr ""
+msgstr "От неожиданности мужчина подпрыгивает, а затем начинает убегать."
 
 #: 7637
+#, fuzzy
 msgid ""
 "He continues to struggle in your grip. It's getting difficult to hold him."
 msgstr ""
+"Он продолжает вырываться из твоей хватки. Становится трудно его удерживать.  "
 
 #: 7639
 msgid "Punch him with your free hand, get his attention."
-msgstr ""
+msgstr "Ударить его свободной рукой, привлечь его внимание."
 
 #: 7641
 msgid ""
@@ -227,10 +273,14 @@ msgid ""
 "notice the man removing his hand from it. He doesn't seem to know you saw "
 "him, however."
 msgstr ""
+"Наверно, только благодаря собственным навыкам в воровстве ты не теряешь "
+"бдительности. Перед уходом ты инстинктивно бросаешь взгляд на свой "
+"кошелек... и видишь, как мужчина вытаскивает из него свою руку. Хотя сам он "
+"не знает, что ты его подловил."
 
 #: 7649 7655
 msgid "Attack him. "
-msgstr ""
+msgstr "Атаковать его."
 
 #: 7651
 msgid ""
@@ -242,20 +292,30 @@ msgid ""
 "items into his (conveniently long) sleeves. You make a mental note of his "
 "technique... just as he makes another grab for your purse."
 msgstr ""
+"Ты вовлекаешь мужчину в непринужденный разговор, при этом украдкой следя за "
+"его движениями. Похоже, мужчина понадеялся на две вещи: во-первых, роль "
+"представительного гражданина может снизить внимательность жертвы, и во-"
+"вторых, спрашивая у жертвы дорогу, можно ее отвлечь... когда жертва "
+"поворачивается, чтобы указать на улицу или ориентир, мужчина снимает сливки "
+"с кошелька цели и прячет предметы в своих (подходяще длинных) рукавах. Ты "
+"мысленно отмечаешь его технику... в то время как он в очередной раз "
+"запускает руку в твой кошелек."
 
 #: 7657
 msgid ""
 "There must be *something* in your tone, because he stops struggling "
 "instantly. He seems to wilt beneath your gaze. "
 msgstr ""
+"Должно быть, он *что-то* услышал в твоем тоне - он моментально перестает "
+"выкручиваться. Под твоим взглядом он сникает. "
 
 #: 7658
 msgid "\"Return what you stole from me. Now.\""
-msgstr ""
+msgstr "«Верни мне все, что ты украла у меня. Сейчас же»."
 
 #: 7659 7666 7671 7675 7679 7690 7700
 msgid "Let him go, then leave."
-msgstr ""
+msgstr "Позволить ему уйти, уйти самому."
 
 #: 7660
 msgid ""
@@ -263,56 +323,61 @@ msgid ""
 "far more than he stole from you... the total must come to a few dozen copper "
 "commons."
 msgstr ""
+"Он кивает и начинает опустошать свои карманы. Он отдает тебе пригоршню "
+"монет, намного большую, чем украл у тебя... должно быть, в ней около "
+"несколько дюжин медяков."
 
 #: 7661
 msgid "\"No, you keep the rest... I only want what you stole from me.\""
-msgstr ""
+msgstr "«Нет, оставь себе лишнее... Мне нужно только то, что ты украл у меня»."
 
 #: 7662 7668
 msgid "\"We're even. Now, I never want to see you again. Understand?\""
-msgstr ""
+msgstr "«Довольно. И чтобы я тебя никогда больше не видел. Понятно?»"
 
 #: 7663
 msgid "Bluff: \"Give me everything else you have, and I won't kill you.\""
-msgstr ""
+msgstr "Блеф: «Отдай мне все, что у тебя есть, и я не убью тебя»."
 
 #: 7664
 msgid "Truth: \"Give me everything else you have, and I won't kill you.\""
-msgstr ""
+msgstr "Правда: «Отдай мне все, что у тебя есть, и я не убью тебя»."
 
 #: 7665
 msgid "Nod your thanks, then attack him."
-msgstr ""
+msgstr "Кивнуть в знак благодарности, а затем напасть на него."
 
 #: 7667
 msgid ""
 "He looks at you in surprise, as if you are tricking him. Then he shrugs, and "
 "he puts the excess back into his pockets."
 msgstr ""
+"Он удивленно смотрит на тебя, пытаясь разгадать подвох. Затем он пожимает "
+"плечами и рассовывает все лишнее назад в карманы."
 
 #: 7670
 msgid "\"Eh...\" He swallows. \"Cutter, that's it. Nothing more.\""
-msgstr ""
+msgstr "«Э-э... - он сглатывает. - Рубака, это все. Больше ничего нет»."
 
 #: 7672
 msgid "\"I meant *everything,* so give me *everything.*\""
-msgstr ""
+msgstr "«Я же сказал - *все*, так что отдай мне *все*»."
 
 #: 7673 7698
 msgid "\"Fine. I never want to see you again. Understand?\""
-msgstr ""
+msgstr "«Отлично. Я не хочу тебя больше видеть. Понятно?»"
 
 #: 7674 7699
 msgid "\"Then your life's run out. Prepare to die.\""
-msgstr ""
+msgstr "«Тогда твоя жизнь подходит к концу. Готовься к смерти»."
 
 #: 7676
 msgid "He nods. "
-msgstr ""
+msgstr "Он кивает. "
 
 #: 7677 7688
 msgid "Punch him, make sure he understands."
-msgstr ""
+msgstr "Ударить его, чтобы он понял окончательно."
 
 #: 7680
 msgid ""
@@ -320,10 +385,13 @@ msgid ""
 "cobblestones. Cupping his jaw with his hand, he groans and staggers to his "
 "feet. It looks like you knocked some of his teeth out."
 msgstr ""
+"Твой удар ломает его челюсть и отбрасывает его на булыжники. Держась рукой "
+"за челюсть и постанывая, он поднимается на ноги. Кажется, ты ему выбил "
+"несколько зубов."
 
 #: 7681
 msgid "\"Now get out of here.\""
-msgstr ""
+msgstr "«А теперь проваливай отсюда»."
 
 #: 7682
 msgid ""
@@ -331,38 +399,44 @@ msgid ""
 "unsteady now, he turns around to look at you, holding the side of his face "
 "with his free hand. "
 msgstr ""
+"Левым боковым ты отвешиваешь ему по шее, и он снова вскрикивает. Немного "
+"успокоившись и держась за лицо свободной рукой, он поворачивается к тебе. "
 
 #: 7683
 msgid "\"Have I got your attention?\""
-msgstr ""
+msgstr "«Ты меня внимательно слушаешь?»"
 
 #: 7684
 msgid "He nods, dumbly."
-msgstr ""
+msgstr "Он молча кивает."
 
 #: 7685
 msgid "\"Give me back everything you stole from me.\""
-msgstr ""
+msgstr "«Верни мне все, что ты украл у меня»."
 
 #: 7686
 msgid ""
 "\"I don't care that you stole from me... as long as I never see you again. "
 "Ever. Understand?\""
 msgstr ""
+"«Меня не волнует то, что ты украл у меня... пока я тебя не увижу еще раз. "
+"Уяснил?»"
 
 #: 7687
 msgid "He nods again."
-msgstr ""
+msgstr "Он снова кивает."
 
 #: 7691
 msgid ""
 "You see the same man as before... he still looks lost and is mumbling as he "
 "looks at the buildings."
 msgstr ""
+"Ты снова видишь того же самого человека... он все еще выглядит потерянным и "
+"что-то бормочет, пялясь на здания."
 
 #: 7693
 msgid "Pass him by."
-msgstr ""
+msgstr "Пройти мимо."
 
 #: 7694
 msgid ""
@@ -370,15 +444,19 @@ msgid ""
 "\" He looks hopeful. \"I don't suppose I could I prevail upon you to direct "
 "me?\""
 msgstr ""
+"Когда ты начинаешь с ним говорить, он от неожиданности подпрыгивает. Он явно "
+"нервничает. «Э-э... приятно снова встретиться, господин, - он преисполнен "
+"надежды. - Могу ли я надеяться на то, что смогу убедить вас показать мне "
+"дорогу?»"
 
 #: 7695
 msgid "\"Direct you where again?\""
-msgstr ""
+msgstr "«Еще раз, а куда тебе нужно?»"
 
 #: 7696
 msgid "\"No, not today.\""
-msgstr ""
+msgstr "«Нет, не сегодня»."
 
 #: 7697
 msgid "\"I mean it! I don't have anything more!\""
-msgstr ""
+msgstr "«Я же сказал! У меня ничего больше нет!»"

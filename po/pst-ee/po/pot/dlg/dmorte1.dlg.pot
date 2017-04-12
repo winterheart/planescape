@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,11 +102,12 @@ msgstr ""
 #: 39813
 msgid ""
 "\"Heh! Looks like you come with directions...\" Morte clears his throat. "
-"\"Let's see... it starts with...\"\\n\\n\"'I know you feel like you've been "
-"drinking a few kegs of Styx wash, but you need to CENTER yourself. Among "
-"your possessions is a JOURNAL that'll shed some light on the dark of the "
-"matter. PHAROD can fill you in on the rest of the chant, if he's not in the "
-"dead-book already.'\""
+"\"Let's see... it starts with...\"\n"
+"\n"
+"\"'I know you feel like you've been drinking a few kegs of Styx wash, but "
+"you need to CENTER yourself. Among your possessions is a JOURNAL that'll "
+"shed some light on the dark of the matter. PHAROD can fill you in on the "
+"rest of the chant, if he's not in the dead-book already.'\""
 msgstr ""
 
 #: 39814
@@ -116,10 +117,12 @@ msgstr ""
 #: 39815
 msgid ""
 "\"Yeah, there's a bit more...\" Morte pauses. \"Let's see... it goes on..."
-"\"\\n\\n'Don't lose the journal or we'll be up the Styx again. And whatever "
-"you do, DO NOT tell anyone WHO you are or WHAT happens to you, or they'll "
-"put you on a quick pilgrimage to the crematorium. Do what I tell you: READ "
-"the journal, then FIND Pharod.'"
+"\"\n"
+"\n"
+"'Don't lose the journal or we'll be up the Styx again. And whatever you do, "
+"DO NOT tell anyone WHO you are or WHAT happens to you, or they'll put you on "
+"a quick pilgrimage to the crematorium. Do what I tell you: READ the journal, "
+"then FIND Pharod.'"
 msgstr ""
 
 #: 39816
@@ -189,8 +192,10 @@ msgstr ""
 #: 39828
 msgid ""
 "\"Well, before you do that, arm yourself first. I think there's a scalpel on "
-"one of the shelves around here.\"\\n\\n^NNOTE: Search the shelves in the "
-"room for a weapon to attack the zombies with. <SEARCH_WEAPON>^-"
+"one of the shelves around here.\"\n"
+"\n"
+"^NNOTE: Search the shelves in the room for a weapon to attack the zombies "
+"with. <SEARCH_WEAPON>^-"
 msgstr ""
 
 #: 39829
@@ -202,9 +207,10 @@ msgid ""
 "\"One last thing: Those corpses are as slow as molasses, but getting punched "
 "by one of them is like being kissed by a battering ram. If they start "
 "getting an edge on you, remember you can RUN, and they can't. Use it to keep "
-"some distance if you need to recover.\"\\n\\n^NNOTE: <RUNAWAY> If you are in "
-"danger of dying, use running to keep your distance from the zombies while "
-"you recover.^-"
+"some distance if you need to recover.\"\n"
+"\n"
+"^NNOTE: <RUNAWAY> If you are in danger of dying, use running to keep your "
+"distance from the zombies while you recover.^-"
 msgstr ""
 
 #: 39831
@@ -214,9 +220,10 @@ msgstr ""
 #: 39832
 msgid ""
 "\"There should be a scalpel on one of the shelves around here. I'd find it "
-"before locking horns with any of the corpses around here.\"\\n\\n^NNOTE: "
-"Search the shelves in the room for a weapon to attack the zombies with. "
-"<SEARCH_WEAPON>^-"
+"before locking horns with any of the corpses around here.\"\n"
+"\n"
+"^NNOTE: Search the shelves in the room for a weapon to attack the zombies "
+"with. <SEARCH_WEAPON>^-"
 msgstr ""
 
 #: 39833
@@ -261,9 +268,10 @@ msgstr ""
 
 #: 39843
 msgid ""
-"\"Eh... all right. I'll help you.\"\\n\\n^NNOTE: If you wish Morte to help "
-"you attack, simply make sure the both of you are selected when you attack "
-"the corpse. Morte will join in the attack.^-"
+"\"Eh... all right. I'll help you.\"\n"
+"\n"
+"^NNOTE: If you wish Morte to help you attack, simply make sure the both of "
+"you are selected when you attack the corpse. Morte will join in the attack.^-"
 msgstr ""
 
 #: 39844
@@ -272,8 +280,9 @@ msgstr ""
 
 #: 39845
 msgid ""
-"\"Time to introduce these corpses to the second death, then...\"\\n"
-"\\n^NNOTE: <ATTACKNOTE>^-"
+"\"Time to introduce these corpses to the second death, then...\"\n"
+"\n"
+"^NNOTE: <ATTACKNOTE>^-"
 msgstr ""
 
 #: 39846
@@ -284,7 +293,9 @@ msgstr ""
 msgid ""
 "\"All right, you took care of the right corpse, looks like. Now you gotta "
 "find the key. It should have been on its body. Once we have it, we can get "
-"out of here.\"\\n\\n^NNOTE: <DEADPILE>^-"
+"out of here.\"\n"
+"\n"
+"^NNOTE: <DEADPILE>^-"
 msgstr ""
 
 #: 39849

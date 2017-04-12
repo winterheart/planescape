@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dneml.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-10-12 01:59+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 35996
 msgid ""
@@ -19,16 +21,21 @@ msgid ""
 "woman's ears, though partially covered by her long hair, can be seen to come "
 "to sharp points."
 msgstr ""
+"Эта высокая стройная женщина, потягивающая вино из маленькой керамической "
+"чаши, похоже, кого-то ищет. Черты ее лица изящны и экзотичны, а ее уши, хотя "
+"и частично прикрытые волосами, заметно заострены на концах."
 
 #: 35998 43924 43925
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 39490
 msgid ""
 "I told Nemelle her friend, Aelwyn, was looking for her. She rewarded me with "
 "a magical kiss, which increased my maximum hit points by three."
 msgstr ""
+"Я сказал Немель, что ее ищет ее подруга, Эльвин. Она вознаградила меня "
+"волшебным поцелуем, который увеличил мой максимум очков жизни на три."
 
 #: 39491
 msgid ""
@@ -36,12 +43,18 @@ msgid ""
 "Nemelle. I understand Aelwyn to be a tall, beautiful woman with golden eyes "
 "and crimson hair."
 msgstr ""
+"Я встретил загадочную женщину, Немель, которой предложила мне разыскать "
+"некую Эльвин. Насколько я понял, Эльвин - это высокая красивая женщина с "
+"золотистыми глазами и красными волосами."
 
+# Jason Nedlin??
 #: 39492
 msgid ""
 "A mysterious woman named Nemelle gave me the command word for the magical "
 "decanter I had found: 'Nildennosaj.'"
 msgstr ""
+"Загадочная женщина по имени Немель сообщила мне волшебное слово к найденному "
+"мной волшебному графину: «Нильденосадж»."
 
 #: 39493
 msgid ""
@@ -49,16 +62,22 @@ msgid ""
 "out, I already knew where this woman, Aelwyn, was. Nemelle rewarded me with "
 "a magical kiss, which increased my maximum hit points by three."
 msgstr ""
+"Я встретил загадочную женщину, Немель, которая предложила разыскать некую "
+"Эльвин. Как оказалось, я уже знал, где находится Эльвин. Немель вознаградила "
+"меня волшебным поцелуем, который увеличил мой максимум очков жизни на три."
 
 #: 39494
 msgid ""
 "I told Nemelle I found her friend, Aelwyn, for her. She rewarded me with a "
 "magical kiss, which increased my maximum hit points by three."
 msgstr ""
+"Я сказал Немель, что нашел ее подругу, Эльвин, как она и просила. Она "
+"вознаградила меня волшебным поцелуем, который увеличил мой максимум очков "
+"жизни на три."
 
 #: 43926
 msgid "Leave the woman be."
-msgstr ""
+msgstr "Оставить женщину в покое."
 
 #: 43927 43933 43934
 msgid ""
@@ -68,67 +87,85 @@ msgid ""
 "as if they were unwilling to relinquish the exquisite sound. \"Nemelle "
 "turned to face the scarred, dour stranger. She asked what he wished of her.\""
 msgstr ""
+"Женщина поворачивается к тебе, ее фиолетовые глаза сверкают, как безупречные "
+"аметисты. Ее речь словно музыка; когда она говорит, тебе слышится слабый "
+"мелодичный перезвон сотен крохотных хрустальных колокольчиков. Каждое ее "
+"слово задерживается в твоих ушах, как будто они не хотят отпускать столь "
+"изысканные звуки. «Немель повернулась к суровому незнакомцу, покрытому "
+"шрамами. Она спросила, чего он от нее хочет»."
 
 #: 43928
 msgid ""
 "\"You're Nemelle? I was told you know the command word for this decanter.\""
 msgstr ""
+"«Ты Немель? Мне сказали, что ты знаешь волшебное слово к этому графину»."
 
 #: 43929
 msgid "\"Nemelle? Your friend, Aelwyn, is looking for you.\""
-msgstr ""
+msgstr "«Немель? Твоя подруга Эльвин ищет тебя»."
 
 #: 43930 43976
 msgid "\"Are you looking for someone?\""
-msgstr ""
+msgstr "«Ты кого-то ищешь?»"
 
 #: 43931 43977
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...»"
 
 #: 43932 43978
 msgid "\"Nothing, actually. Farewell.\""
-msgstr ""
+msgstr "«На самом деле, ничего. Прощай»."
 
 #: 43935
+#, fuzzy
 msgid ""
 "The woman makes no move to touch or examine the decanter, but only speaks. "
 "\"Nemelle took it from the stranger, turning it in her hands. Had she seen "
 "its like before, she thought? Perhaps... yes, she remembered now. She "
 "returned the decanter, whispering into his ear as she did so...\""
 msgstr ""
+"Женщина не делает ни единого движения, чтобы прикоснуться к графину или "
+"осмотреть его - она лишь произносит: «Немель взяла его у незнакомца, "
+"повертела его в руках. Она подумала: видела ли она нечто подобное раньше? "
+"Возможно... да, теперь она вспомнила. Она вернула графин, прошептав ему кое-"
+"что на ухо...»"
 
 #: 43936
 msgid "\"Uh...\""
-msgstr ""
+msgstr "«Э...»"
 
 #: 43937
+#, fuzzy
 msgid ""
 "You realize you know the word, now - 'Nildenosaj' - though you're certain "
 "the woman never whispered to you, but merely said she did. She blinks at "
 "you. \"Would the stranger leave her, now, satisfied with what she had told "
 "him?\""
 msgstr ""
+"Ты понимаешь, что теперь тебе известно это слово - «Нильденосадж», - хотя ты "
+"уверен в том, что эта женщина ничего тебе не шептала, а лишь сказала, что "
+"сделала это. Она смотрит на тебя выжидающе. «Оставит ли теперь ее "
+"незнакомец, удовлетворенный тем, что она ему сказала?»"
 
 #: 43938
 msgid "\"Not yet. I found Aelwyn.\""
-msgstr ""
+msgstr "«Пока нет. Я нашел Эльвин»."
 
 #: 43939
 msgid "\"Not yet. Your friend, Aelwyn, is looking for you.\""
-msgstr ""
+msgstr "«Пока нет. Тебя ищет твоя подруга, Эльвин»."
 
 #: 43940
 msgid "\"Not just yet. Are you looking for someone?\""
-msgstr ""
+msgstr "«Пока еще нет. Ты кого-то ищешь?»"
 
 #: 43941
 msgid "\"No... I had some questions.\""
-msgstr ""
+msgstr "«Нет... У меня есть несколько вопросов»."
 
 #: 43942
 msgid "\"Yes, I will. Farewell.\""
-msgstr ""
+msgstr "«Да. Прощай»."
 
 #: 43943
 msgid ""
@@ -136,29 +173,34 @@ msgid ""
 "her, clinging to you like sweet-smelling warmth. \"Nemelle was overjoyed to "
 "hear of her friend. Was Aelwyn close by?\""
 msgstr ""
+"Губы Немель образуют безупречную улыбку; от нее исходит заразительное "
+"счастье, обволакивая тебя, как благоухающее тепло. «Немель была очень рада "
+"услышать о своей подруге. Эльвин где-то поблизости?»"
 
 #: 43944
 msgid "\"She's at another cafe east of here, across this part of the Ward.\""
-msgstr ""
+msgstr "«Она возле другого кафе на восток отсюда, за этой частью района»."
 
 #: 43945
 msgid ""
 "\"Nemelle thanked the man for his wondrous news. Soon, she would go to visit "
 "her oldest friend, Aelwyn. Now, though, she would reward the stranger...\""
 msgstr ""
+"«Немель поблагодарила человека за чудесные новости. Скоро она навестит свою "
+"старую подругу, Эльвин. А теперь она отблагодарит незнакомца...»"
 
 #: 43946
 msgid "\"No, that's all right... I need no reward.\""
-msgstr ""
+msgstr "«Нет, все нормально... Мне не нужно награды»."
 
 #: 43947
 msgid "Wait for her to reward you."
-msgstr ""
+msgstr "Подождать, пока она отблагодарит тебя."
 
 #: 43948
 msgid ""
 "Nemelle touches her index finger to her lips, making a faint hushing noise."
-msgstr ""
+msgstr "Немель прикладывает указательный палец к губам, издавая тихое «ш-ш-ш»."
 
 #: 43949
 msgid ""
@@ -166,10 +208,13 @@ msgid ""
 "kissing the pale, leathery skin of his cheek. Life would flow into him, "
 "invigorating him... this, then, was to be his reward.\""
 msgstr ""
+"«Она подойдет к незнакомцу поближе, положит руку ему на грудь и поцелует "
+"бледную грубую кожу его щеки. В него вольется жизнь, сделав его сильнее... и "
+"это будет ему наградой»."
 
 #: 43950
 msgid "Wait."
-msgstr ""
+msgstr "Подождать."
 
 #: 43951
 msgid ""
@@ -177,46 +222,58 @@ msgid ""
 "The feeling spreads across the whole of your body, and you begin to feel "
 "stronger, more animated."
 msgstr ""
+"Внезапно у тебя появляется слабое щекочущее чувство на щеке и груди. Оно "
+"разносится по всему телу, и ты начинаешь чувствовать себя более сильным и "
+"живым."
 
 #: 43952
 msgid "\"Thanks. I had some questions.\""
-msgstr ""
+msgstr "«Спасибо. У меня есть другие вопросы»."
 
 #: 43953
 msgid "\"My thanks, Nemelle. Farewell.\""
-msgstr ""
+msgstr "«Спасибо, Немель. Прощай»."
 
 #: 43954
 msgid ""
 "\"Nemelle listened to the stranger's questions, but could answer none. He "
 "would have to seek his answers elsewhere.\""
 msgstr ""
+"«Немель выслушала вопросы незнакомца, но не смогла ответить на них. Ему "
+"придется поискать ответы в другом месте»."
 
 #: 43955
 msgid "\"But... I haven't even asked...\""
-msgstr ""
+msgstr "«Но... Я даже не спросил...»"
 
 #: 43956 43959 43961
 msgid "\"Farewell, then.\""
-msgstr ""
+msgstr "«Тогда прощай»."
 
 #: 43957
+#, fuzzy
 msgid ""
 "Nemelle smiles at you, slowly shaking her head, your face reflected in her "
 "shimmering eyes. \"Frustrated, confused, he at last gave up. It was clear "
 "this woman possessed no more knowledge that was of use to him - or if she "
 "did, she could not be persuaded to share it.\""
 msgstr ""
+"Немель улыбается тебе, медленно качая головой; твое лицо отражается в ее "
+"мерцающих глазах. «Раздраженный и сбитый с толку, он, наконец, сдался. Было "
+"ясно, что эта женщина не знала ничего, что могло бы ему пригодились... а "
+"даже если и знала, он бы не смог убедить ее поделится с ним»."
 
 #: 43958
 msgid "\"What? No... just let me ask you something...\""
-msgstr ""
+msgstr "«Что? Нет... позволь только кое-что у тебя спросить...»"
 
 #: 43960
 msgid ""
 "You open your mouth, but no words come out. Try as you might, you cannot "
 "question her. Nemelle shakes her head sadly."
 msgstr ""
+"Ты открываешь рот, но не можешь вымолвить и слова. Как бы ты не старался, ты "
+"не можешь задать ей вопрос. Немель грустно качает головой."
 
 #: 43962
 msgid ""
@@ -225,20 +282,26 @@ msgid ""
 "around her grows chill with her sadness. \"How long must she search this "
 "vast, foreign city before she finds her dearest friend?\""
 msgstr ""
+"«'Где же она может быть?' - думала Немель. Ее спутница, Эльвин, должна была "
+"встретиться с ней здесь пару дней назад, - женщина печально вздыхает; воздух "
+"вокруг нее становится прохладным от ее грусти. - Сколько еще ей скитаться по "
+"этому огромному незнакомому городу, пока она не найдет свою лучшую подругу?»"
 
 #: 43963
 msgid "\"I could help you find your friend. What does she look like?\""
-msgstr ""
+msgstr "«Я бы мог помочь тебе найти твою подругу. Как она выглядит?»"
 
 #: 43964
+#, fuzzy
 msgid "\"I could find her for you - for a price, of course.\""
-msgstr ""
+msgstr "«Я бы мог найти ее для тебя... конечно, не бесплатно»."
 
 #: 43965
 msgid "\"I hope you find her. Farewell.\""
-msgstr ""
+msgstr "«Надеюсь, ты ее найдешь. Счастливо»."
 
 #: 43966
+#, fuzzy
 msgid ""
 "Nemelle clasps her hands together and bows her head to you. \"She would be "
 "so pleased to hear news of her friend! She told the kind stranger what "
@@ -246,14 +309,19 @@ msgid ""
 "An image forms in your mind - a woman who resembles Nemelle, but with golden "
 "eyes and hair of fiery crimson."
 msgstr ""
+"Немель всплескивает руками и кивает тебе. «Она была бы так рада услышать "
+"новости про ее подругу! Она рассказала доброму незнакомцу, как выглядит "
+"Эльвин, чтобы он узнал ее, если встретит». В твоей голове появляется образ: "
+"женщина, похожая на Немель, но с золотистыми глазами и ярко-красными "
+"волосами."
 
 #: 43967
 msgid "\"I've actually met that woman.\""
-msgstr ""
+msgstr "«Вообще-то, я встречал эту женщину»."
 
 #: 43968
 msgid "\"I'll return if I find her. Farewell.\""
-msgstr ""
+msgstr "«Я вернусь, если разыщу ее. Прощай»."
 
 #: 43969
 msgid ""
@@ -261,14 +329,17 @@ msgid ""
 "would, the she had nothing to give. Whatever the man's price, she could not "
 "meet it.\""
 msgstr ""
+"Немель говорит медленно, опустив взгляд: «Она знала, и незнакомец тоже "
+"вскоре узнает, что у нее ничего нет. Она не сможет ничего ему дать, чего бы "
+"он не потребовал»."
 
 #: 43970
 msgid "\"I'll do it as a favor, then.\""
-msgstr ""
+msgstr "«Тогда я сделаю это в качестве одолжения»."
 
 #: 43971 43972
 msgid "\"Forget it, then. Farewell.\""
-msgstr ""
+msgstr "«Тогда забудь об этом. Прощай»."
 
 #: 43973
 msgid ""
@@ -276,14 +347,18 @@ msgid ""
 "first time you saw her. \"Again she met the stranger. 'Why,' she wondered, "
 "'could he have come to me once more?'\""
 msgstr ""
+"Женщина приветствует тебя, улыбаясь. Ее красота завораживает тебя не меньше, "
+"чем в первый раз. «И вновь она встретила незнакомца. 'Зачем, - подумала она, "
+"- ему приходить ко мне снова?'»"
 
 #: 43974
 msgid "\"Nemelle... I was told you know the command word for this decanter.\""
 msgstr ""
+"«Немель... Мне сказали, что ты знаешь волшебное слово к этому графину»."
 
 #: 43975
 msgid "\"Your friend, Aelwyn, is looking for you.\""
-msgstr ""
+msgstr "«Тебя ищет твоя подруга, Эльвин»."
 
 #: 43979
 msgid ""
@@ -291,30 +366,39 @@ msgid ""
 "first time you saw her. \"Nemelle held her breath as the stranger approached "
 "her. 'Had he found Aelwyn?' she wondered.\""
 msgstr ""
+"Женщина приветствует тебя, улыбаясь. Ее красота завораживает тебя не меньше, "
+"чем в первый раз. «Немель затаила дыхание, когда незнакомец приблизился к "
+"ней. 'Нашел ли он Эльвин?' - подумала она»."
 
 #: 43980
 msgid "\"I was told you know the command word for this decanter.\""
-msgstr ""
+msgstr "«Мне сказали, что ты знаешь волшебное слово к этому графину»."
 
 #: 43981
 msgid "\"I found Aelwyn. She was looking for you, too.\""
-msgstr ""
+msgstr "«Я нашел Эльвин. Она тоже тебя ищет»."
 
 #: 43982
 msgid "\"I haven't found her. I had some questions...\""
-msgstr ""
+msgstr "«Я не нашел ее. У меня есть кое-какие вопросы...»"
 
 #: 43983
 msgid "\"No, I was just passing by. Farewell.\""
-msgstr ""
+msgstr "«Нет, я просто проходил мимо. Прощай»."
 
 #: 43984
+#, fuzzy
 msgid ""
 "Nemelle clasps her hands together and bows her head. When she finally looks "
 "up and smiles at you, a wave of pleasure washes over your body - the effect "
 "is almost dizzying. \"Nemelle thanked the stranger once more; she only hoped "
 "he knew how happy she felt to be reunited with Aelwyn.\""
 msgstr ""
+"Немель всплескивает руками и кивает тебе. Когда она, наконец, обращает на "
+"тебя взгляд, улыбаясь, тебя омывает волной удовольствия - эффект просто "
+"головокружительный. «Немель еще раз поблагодарила незнакомца. Она лишь "
+"надеялась, что он понимает, как она счастлива снова оказаться вместе с "
+"Эльвин»."
 
 #: 43986
 msgid ""
@@ -324,14 +408,19 @@ msgid ""
 "narrowed her eyes at him. '...and like a dog, you shall die!'\" She then "
 "regards you coolly, sipping from her cup of wine."
 msgstr ""
+"Женщина фыркает, ее глаза сверкают, словно пылающие точки чистой ненависти. "
+"Она говорит, словно читая из книги: «'Ты глупец, - воскликнула она. - Как ты "
+"посмел напасть на дочь Асахарма! Ты пес, - она посмотрела на него прищурено, "
+"- и умрешь как собака!'» Затем она бросает на тебя холодный взгляд, отпивая "
+"вино из чаши."
 
 #: 43987
 msgid "\"Huh...?\""
-msgstr ""
+msgstr "«А?..»"
 
 #: 43988
 msgid "Ignore her, press your attack."
-msgstr ""
+msgstr "Проигнорировать ее, продолжить атаку."
 
 #: 43989
 msgid ""
@@ -340,21 +429,27 @@ msgid ""
 "collapse to the street, quivering, the last shreds of life fading from your "
 "body..."
 msgstr ""
+"Ты падаешь на землю, воя в агонии... твои внутренности словно превратились в "
+"кашу; ты начинаешь выплевывать большие сгустки темной дымящейся крови. В "
+"конце концов, ты оседаешь на мостовую, подергиваясь; твое тело покидают "
+"остатки жизни..."
 
 #: 43990
 msgid "Fall into darkness..."
-msgstr ""
+msgstr "Пасть во тьму..."
 
 #: 67830 67835
 msgid "\"Fine. But... are you looking for someone?\""
-msgstr ""
+msgstr "«Отлично. Но... ты кого-то ищешь?»"
 
 #: 68508
 msgid ""
 "\"Not... a problem. I... I was told you know the command word for this "
 "decanter.\""
 msgstr ""
+"«Нет... проблем. Мне... мне сказали, что ты знаешь волшебное слово к этому "
+"графину»."
 
 #: 68510
 msgid "\"I... think I do. Farewell, Nemelle.\""
-msgstr ""
+msgstr "«Думаю... да. Прощай, Немель»."

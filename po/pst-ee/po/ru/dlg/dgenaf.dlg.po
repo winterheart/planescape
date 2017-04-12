@@ -1,106 +1,118 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dgenaf.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2012-02-03 00:20+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: 63508
 msgid ""
 "You see a bored looking woman. She glances at you as you approach and frowns."
 msgstr ""
+"Ты видишь скучающую женщину. Увидев, как ты приближаешься, она хмурится."
 
 #: 63509 63520 63548
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 63510 63521 63549
 msgid "Ignore her."
-msgstr ""
+msgstr "Игнорировать ее."
 
 #: 63511
 msgid ""
 "She sighs and glances around then turns her attention to you. \"Greetings... "
 "What do you want?\""
 msgstr ""
+"Со вздохом оглянувшись вокруг, она поворачивается к тебе. «Приветствую... "
+"Что тебе нужно?»"
 
 #: 63512 63523 63551
 msgid "\"I have some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 63513
 msgid "\"Nothing, never mind.\""
-msgstr ""
+msgstr "«Ничего, неважно»."
 
 #: 63514
 msgid ""
 "Her frown deepens. \"Questions... Bar that, berk. I'm busy and don't have "
 "time for questions.\" "
 msgstr ""
+"Она хмурится еще сильнее. «Вопросы... Задвинь их подальше, пень. Я слишком "
+"занята, у меня нет времени на какие-то там вопросы»."
 
 #: 63515
 msgid "\"It will take just a moment of your time...\""
-msgstr ""
+msgstr "«Это займет совсем немного твоего времени...»"
 
 #: 63516
 msgid "\"Farewell then.\""
-msgstr ""
+msgstr "«Тогда прощай». "
 
 #: 63517
 msgid ""
 "\"I don't have a moment to give you.\" She begins to look around the area. "
 "\"Pike off or I'll call a guard.\""
 msgstr ""
+"«На тебя у меня нет и секунды, - она оглядывается по сторонам, выискивая "
+"кого-то. - Отвали, или позову стражу»."
 
 #: 63518 63562
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 63519
 msgid ""
 "You see a woman. She appears quite excited. She glances at you as you "
 "approach and smiles."
 msgstr ""
+"Ты видишь деятельную женщину. Увидев, как ты приближаешься, она улыбается."
 
 #: 63522
 msgid "\"Yes. Greetings and all that... You want something?\""
-msgstr ""
+msgstr "«Да-да, и тебе тоже привет... Ты что-то хочешь?»"
 
 #: 63524
 msgid "\"No, never mind. Farewell.\""
-msgstr ""
+msgstr "«Нет, неважно. Прощай»."
 
 #: 63525
 msgid ""
 "She frowns and sighs. \"Please be quick. I don't want to miss anything.\""
 msgstr ""
+"Нахмурившись, она вздыхает. «Только, пожалуйста, побыстрее. Не хочу ничего "
+"пропустить»."
 
 #: 63526
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 63527
 msgid "\"What are you doing?\""
-msgstr ""
+msgstr "«Что ты делаешь?»"
 
 #: 63528
 msgid "\"What can you tell me about this ward?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать об этом районе?»"
 
 #: 63529
 msgid "\"Is there anything of interest in this ward?\""
-msgstr ""
+msgstr "«Есть ли что интересное в этом районе?»"
 
 #: 63530 63533 63536 63540 63543
 msgid "\"I must be going, farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай»."
 
 #: 63531
 msgid ""
@@ -108,10 +120,12 @@ msgid ""
 "on some stuff. I don't see that you need to know my name.\" She gives you an "
 "impatient look."
 msgstr ""
+"«Что? Зачем тебе это знать? Я всего лишь пытаюсь кое-что выторговать. Не "
+"понимаю, зачем тебе мое имя». Она раздраженно смотрит на тебя."
 
 #: 63532 63535
 msgid "\"Very well. I have some questions...\""
-msgstr ""
+msgstr "«Хорошо. У меня были вопросы...»"
 
 #: 63534
 msgid ""
@@ -119,31 +133,38 @@ msgid ""
 "get to the point of all this questioning, I'd be able to get back to my "
 "business.\""
 msgstr ""
+"«Я пытаюсь выторговать кое-какие предметы, которые продает аукционист... "
+"Если суть ответа тебе ясна, я бы хотела вернуться к своему делу»."
 
 #: 63537
+#, fuzzy
 msgid ""
 "\"It's a wondrous place actually. Just look around! You've got the peddlers, "
 "the markets, the auctions...\" She seems at a loss for words. \"Lots of "
 "stuff here...\""
 msgstr ""
+"«Это потрясающее место. Ты только оглянись вокруг! Все эти торговцы, рынки, "
+"аукционы... - кажется, она очарована словами. - Тут много всего всякого...»"
 
 #: 63538
 msgid "\"What can I buy here?\""
-msgstr ""
+msgstr "«Что здесь можно купить?»"
 
 #: 63539
 msgid "\"I see. I have some more questions...\""
-msgstr ""
+msgstr "«Понятно. У меня есть еще вопросы...»"
 
 #: 63541
 msgid ""
 "She smiles. \"Well... just about anything... except more of my time. Are you "
 "through with your questions?\""
 msgstr ""
+"Она улыбается. «Ну... Все, что угодно... Почти... Кроме моего времени. Ты "
+"закончил со своими вопросами?»"
 
 #: 63542
 msgid "\"Not quite. I have some more questions...\""
-msgstr ""
+msgstr "«Не совсем. У меня есть другие вопросы...»"
 
 #: 63544
 msgid ""
@@ -151,57 +172,66 @@ msgid ""
 "things for granted.\" She shrugs. \"Just look around, I'm sure you'll find "
 "something of interest to you.\""
 msgstr ""
+"Она хмурится. «Не знаю... Я прожила здесь всю свою жизнь, и для меня это как "
+"данность, - она пожимает плечами. - Просто гуляй вокруг, уверена, ты найдешь "
+"для себя что-нибудь интересное»."
 
 #: 63545
 msgid "\"I will. I have some more questions...\""
-msgstr ""
+msgstr "«Я так и сделаю. У меня есть другие вопросы...»"
 
 #: 63546
 msgid "\"Thank you, farewell.\""
-msgstr ""
+msgstr "«Спасибо, прощай»."
 
 #: 63547
 msgid ""
 "You see a stern looking woman. She glances at you as you approach and then "
 "makes an effort to avoid you."
 msgstr ""
+"Ты видишь суровую женщину. Увидев, как ты приближаешься, она пытается не "
+"обращать на тебя внимания."
 
 #: 63550
 msgid "She looks at you apprehensively. \"Uh... Hello.\" She looks annoyed."
 msgstr ""
+"Она опасливо на тебя смотрит. «О... Привет», - раздраженно произносит она."
 
 #: 63552 63555 63560
 msgid "\"Very well, farewell.\""
-msgstr ""
+msgstr "«Хорошо, прощай»."
 
 #: 63553
 msgid "\"I don't want to be bothered by you. Go away.\" She frowns."
-msgstr ""
+msgstr "«Не надоедай мне. Уходи». Она хмурится."
 
 #: 63554
 msgid "\"It will only take a moment of your time.\""
-msgstr ""
+msgstr "«Это не займет много твоего времени»."
 
 #: 63556
 msgid ""
 "Her frown deepens. \"No. I don't want to be bothered by you! Go away! Get "
 "the message berk?\""
 msgstr ""
+"Она хмурится еще сильнее. «Нет. Не приставай ко мне! Прочь! Понял, пень?»"
 
 #: 63557
 msgid "\"No, I don't.\""
-msgstr ""
+msgstr "«Нет, не понял»."
 
 #: 63558
 msgid "\"No, farewell.\""
-msgstr ""
+msgstr "«Нет, прощай»."
 
 #: 63559
 msgid "She gives you a disgusted look, snorts, and then turns away."
-msgstr ""
+msgstr "С отвращением фыркнув на тебя, она отворачивается."
 
 #: 63561
 msgid ""
 "You see the auctioneer customer. She waves you off as you attempt to talk to "
 "her again."
 msgstr ""
+"Ты видишь участницу аукциона. Она отмахивается от твоей попытки снова "
+"заговорить с ней."

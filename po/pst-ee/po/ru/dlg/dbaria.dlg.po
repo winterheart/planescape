@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2016-06-06 23:22+0300\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: 12341
 msgid ""
@@ -19,16 +21,24 @@ msgid ""
 "horns. Intricate designs are shaved into his dirty pelt, and a massive, four-"
 "flanged pole-arm hangs from his belt-harness. He doesn't seem to notice you."
 msgstr ""
+"Туловище этого существа - смесь человека и барана. Его голова также сочетает "
+"в себе человечьи и бараньи черты: у него широкий плоский нос, козлиные уши и "
+"закрученные рога. На его грязной шерсти выстрижены замысловатые узоры, а с "
+"его пояса-сбруи свисает огромная алебарда с четырьмя лезвиями. Похоже, он "
+"тебя не замечает."
 
+# русский акцент в оригинале))
 #: 12342
 msgid "\"Ve meet again, vanderer. Zhere is somezhing you vanted from me?\""
-msgstr ""
+msgstr "«Мы снова встрэтилис, странник. Ты чэго-то от мэня хотель?»"
 
 #: 12383
 msgid ""
 "\"You! I had said nevah, *nevah* cross my pass again! Steel yourself, two-"
 "legs...\""
 msgstr ""
+"«Ты! Я же сказаль тэбэ никохда, *никохда* мнэ болше нэ попадаца на путы! Кх "
+"оружию, двухногий...»"
 
 #: 12384
 msgid ""
@@ -36,16 +46,22 @@ msgid ""
 "you. His voice is deep and rumbling, not quite human, and heavily accented. "
 "\"Vhat do you vant, two-legs...\" His hand is close to his pole-arm."
 msgstr ""
+"Он поворачивается к тебе с пугающей скоростью, его темные глаза с "
+"подозрением смотрят на тебя. Голос у него низкий и рокочущий, не совсем "
+"похожий на человеческий, с сильным акцентом. «Чего тэбэ, двухногий?..» Его "
+"рука тянется к алебарде."
 
 #: 12385
 msgid ""
 "He seems to calm down; his hand drops away from his weapon. He still keeps a "
 "certain distance from you, however..."
 msgstr ""
+"Кажется, он успокоился: его рука удаляется от оружия. Однако он все еще "
+"держится от тебя на некотором расстоянии..."
 
 #: 12386
 msgid "\"Vhat do you vish to ask me?\""
-msgstr ""
+msgstr "«Што ты хочешь знат от мэня?»"
 
 #: 12387
 msgid ""
@@ -54,6 +70,10 @@ msgid ""
 "iron-shoed hooves strike bright sparks on the street as he shifts his weight "
 "back and forth."
 msgstr ""
+"В мгновение ока он выхватывает алебарду из сбруи и заносит ее для удара. "
+"«Прэждэ чем мы скрэстим рога, я хотель бы знат, почэму ты нападаешь на мэня, "
+"двухногий». Он высекает подковами яркие искры из брусчатки, перенося свой "
+"вес то на передние, то на задние ноги."
 
 #: 12388
 msgid ""
@@ -61,24 +81,35 @@ msgid ""
 "perhaps ve shouldn't be so eager to spill our blood. Vhat did you vant from "
 "me?\""
 msgstr ""
+"Он немного опускает алебарду и издает облегченный вздох. «Тогда харашо, "
+"пожалюй, нам нэ нужно так спешит проливат друг другу кров. Што ты от мэня "
+"хотель?»"
 
 #: 12390
+#, fuzzy
 msgid ""
 "\"VHAT? No, two-legs, it vas *you* who approached *me.* I von't deny you a "
 "fight if zhat is vhat you vant, but zhere vill be no honor lost should you "
 "back down now...\""
 msgstr ""
+"«ШТО? Нэт, двухногий, это *ты* ко *мнэ* подошоль. Я нэ откажу тэбэ в драке, "
+"эсли ты этого хочешь, но ты нэ потэряешь чэсти, отступив сэчас...»"
 
 #: 12391
+#, fuzzy
 msgid ""
 "\"VHAT?\" He seems incredulous at your accusation. \"No, two-legs, it vas "
 "*you* who approached *me.* I von't deny you a fight if zhat is vhat you "
 "vant, but zhere vill be no honor lost should you back down now...\""
 msgstr ""
+"«ШТО? - твое обвинение кажется ему немыслимым. - Нэт, двухногий, это *ты* ко "
+"*мнэ* подошоль. Я нэ откажу тэбэ в драке, эсли ты этого хочешь, но ты нэ "
+"потэряешь чэсти, отступив сэчас...»"
 
+# двухногий - не ошибка
 #: 12392
 msgid "\"Ah, you again, two-legs. Vhat now?\""
-msgstr ""
+msgstr "«А, снова ты, двухногий. Што тэпэр?»"
 
 #: 12393
 msgid ""
@@ -86,25 +117,36 @@ msgid ""
 "survive zhis battle, you'd best *never* cross my pass again!\" His hooves "
 "paw the cobbles as he prepares to charge."
 msgstr ""
+"«Харашо, ты, жующая говно, покхромсаная обэзяна с бусами на башкхе! Эсли "
+"выживешь в бою, тэбэ лютше *никохда* болше не попадаца мне на путы!» Он "
+"цокает копытами по мостовой, готовясь к атаке."
 
 #: 12394
 msgid ""
 "He is silent for a moment, as if waiting for something more from you. "
 "\"Ah... vhat about zha city?\""
 msgstr ""
+"Он некоторое время молчит, как бы ожидая от тебя чего-то еще. «А... што с "
+"городом?»"
 
 #: 12395
 msgid ""
 "\"Vhy, it is a crossroads, two-legs. Zurely you know zhat all pass run "
 "through Zigil?\""
 msgstr ""
+"«Ну, это пэрэкросток, двухногий. Тэбэ вэд дольжно быт извэстно, што всэ путы "
+"прокходят чэрэз Сигиль?»"
 
 #: 12452
+#, fuzzy
 msgid ""
 "\"Vhere? Hmm...\" He looks up thoughtfully, tugging at his goat-beard. \"..."
 "it is in zha Outlands - zha center of zha planes. But zince you can reach it "
 "from just about anywhere, Zigil's in more places zhan just zhat. You zee?\""
 msgstr ""
+"«Гдэ? М-м... - он задумчиво смотрит вверх, пощипывая бородку, - во Внэшных "
+"зэмлях, цэнтрэ планов. Но поскоку можьно добратса суда отовсуду, Сигиль "
+"накходится в больче чем одном мэстэ. Понимаишь?»"
 
 #: 12453
 msgid ""
@@ -113,63 +155,86 @@ msgid ""
 "visiting bariaur, two-legs.\" He shrugs. \"I have business here, zhough, and "
 "zo here I am.\""
 msgstr ""
+"На миг он кажется грустным. «Это мэсто... бэдное и грязное... тут полно "
+"нэдружелюбных, иногда и отчаянных людэй. Нэ лючее место для гостюющего "
+"бариавра, двухногий, - он пожимает плечами. - Но у мэня здэс дэла, и поэтому "
+"я здэс»."
 
 #: 12454
+#, fuzzy
 msgid ""
 "The bariaur shakes his head, laughing. \"No, no, two-legs... no bariaur "
 "could live like zhis.\""
 msgstr ""
+"Бариавр, смеясь, качает головой. «Нэт-нэт, двухногий... бариавры здэс жит нэ "
+"могут»."
 
 #: 12455
+#, fuzzy
 msgid ""
 "\"Anozher time, two-legs. If ve ever meet in a... happier place, I shall "
 "tell you all about it.\""
 msgstr ""
+"«В другой раз, двухногий. Эсли встрэтимся... в боле вэсэлом мэстэ, я всо "
+"тэбэ расскажу»."
 
 #: 12456
 msgid ""
 "\"From zha Plains of Ysgard, two-legs. Zhey are my home.\" He smiles in fond "
 "recollection, as if warmed by the memory."
 msgstr ""
+"«С равнын Аскхарда, двухногий. Там мой дом». Он улыбается в раздумии, как бы "
+"согретый теплыми воспоминаниями."
 
 #: 12457
 msgid ""
 "He looks at you curiously. \"Vhat it is you vish to know about zhem, exactly?"
 "\""
 msgstr ""
+"Он с любопытством глядит на тебя. «Што конкрэтно ты хочешь знат о них?»"
 
 #: 12458
 msgid ""
 "\"I don't zhink zhere's anyzhing to enjoy here, two-legs. Perhaps you should "
 "look elsewhere, in anozher vord.\""
 msgstr ""
+"«Нэ думаю, что здэс найдэтся что-нибуд харошее, двухногий. Может, тэбэ стоит "
+"заглянут в кхакой-нибуд другой район»."
 
 #: 12459
 msgid ""
 "He frowns. \"I doubt zhere's any honest work around here... zha only zhing "
 "in ample supply in zha Hive is trouble.\""
 msgstr ""
+"Он хмурится. «Сомнэваюс, што здэс найдэтса кхакая-нибуд чэстная работа... "
+"вот чего в Уле много, так это нэприятностэй»."
 
 #: 12460
 msgid ""
 "\"I know few people here, two-legs... zhis 'Pharod' is not vun of zhem. A "
 "friend of yours?\""
 msgstr ""
+"«Я здэс мало кхого знаю, двухногий... и этого 'Фарода' срэды них нэт. Твой "
+"приятэль?»"
 
 #: 12461
 msgid "He simply shakes his head. \"No, two-legs - nozhing like zhat.\""
-msgstr ""
+msgstr "Он качает головой. «Нэт, двухногий, нычего такого»."
 
 #: 12462
+#, fuzzy
 msgid ""
 "\"Zha Lady?\" He looks around, as if to see if anyone's overheard. \"I only "
 "know zhat she rules zhis place - all of Zigil - and zhat zha locals feel it "
 "bad luck to speak of her.\""
 msgstr ""
+"«Лэди? - он оглядывается, как бы проверяя, чтобы никто не подслушал. - Я "
+"только знаю, што она правит этим мэстом, всэм Сигилем, и што мэстные считают "
+"дурным знаком говорит о нэй»."
 
 #: 12463
 msgid "He looks slightly annoyed. \"Yah, zhat's vhat I said. 'Pass.'\""
-msgstr ""
+msgstr "Он выглядит немного раздраженным. «Да, я такх и сказаль. 'Путы'»."
 
 #: 12464
 msgid ""
@@ -177,6 +242,9 @@ msgid ""
 "zhaid vhat I zhaid. Perhaps *you* zhould try speaking *my* language, two-"
 "legs...\""
 msgstr ""
+"Его темные глаза прищуриваются, в них появляется подозрительность и "
+"недовольство. «Я сказаль то, што сказаль. Может, люче *тэбэ* попробоват "
+"говорит на *моем* языкэ, двухногий...»"
 
 #: 12465
 msgid ""
@@ -184,309 +252,324 @@ msgid ""
 "cross my... PASS... again, pig-dog, or I vill kill you.\" He turns away from "
 "you."
 msgstr ""
+"Фыкрая от отвращения, он тянется к оружию... затем берет себя в руки. "
+"«Больше никохда нэ попадайся мнэ на... ПУТЫ... сутший кабан, нэ то я тэбя "
+"убью». Он отворачивается от тебя."
 
 #: 12469
 msgid "\"Greetings...\""
-msgstr ""
+msgstr "«Приветствую...»"
 
 #: 12470
 msgid "Leave him alone."
-msgstr ""
+msgstr "Оставить его в покое."
 
 #: 12471 12497
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...»"
 
 #: 12472
 msgid "\"No, never mind. Farewell.\""
-msgstr ""
+msgstr "«Нет, неважно. Прощай»."
 
 #: 12473
 msgid "\"But...\""
-msgstr ""
+msgstr "«Но...»"
 
 #: 12474 12499
 msgid "Defend yourself."
-msgstr ""
+msgstr "Защищаться."
 
 #: 12475
 msgid "\"Only to speak with you. I had some questions...\""
-msgstr ""
+msgstr "«Только поговорить с тобой. У меня есть несколько вопросов...»"
 
 #: 12476
 msgid "\"If you're looking for a fight, then you've found it...\""
-msgstr ""
+msgstr "«Если ты нарываешься на драку - ты ее получишь...»"
 
 #: 12477
+#, fuzzy
 msgid "\"Nothing, never mind. Farewell.\""
-msgstr ""
+msgstr "«Ничего, неважно. Прощай»."
 
 #: 12478
 msgid "\"Why were you so wary of me?\""
-msgstr ""
+msgstr "«Почему ты относишься ко мне с таким подозрением?»"
 
 #: 12479
 msgid "\"Tell me about this city.\""
-msgstr ""
+msgstr "«Расскажи мне об этом городе»."
 
 #: 12480
 msgid "\"Tell me about the slums around us.\""
-msgstr ""
+msgstr "«Расскажи мне про эти трущобы»."
 
 #: 12481
 msgid "\"Can you tell me about the Lady of Pain?\""
-msgstr ""
+msgstr "«Что ты можешь сказать о Леди Боли?»"
 
 #: 12482 12529
 msgid "\"Do you know someone named Pharod?\""
-msgstr ""
+msgstr "«Ты знаешь кого-нибудь по имени Фарод?»"
 
 #: 12483 12530
 msgid ""
 "\"I'm missing a journal. Have you seen one, or do you know where I might "
 "find one?\""
 msgstr ""
+"«Я потерял дневник. Тебе ничего такого не попадалось? Или, может, ты знаешь, "
+"где его можно найти?»"
 
 #: 12484
 msgid "\"Nothing, actually. Farewell.\""
-msgstr ""
+msgstr "«На самом деле, ничего. Прощай»."
 
 #: 12485
 msgid "\"I did not mean to...\""
-msgstr ""
+msgstr "«Я не хотел...»"
 
 #: 12486 12487
+#, fuzzy
 msgid "\"Me? It's *you* who threatened *me.*\""
-msgstr ""
+msgstr "«Я? Это *ты* угрожал *мне*»."
 
 #: 12488
 msgid "\"You insulted me, you four-legged, goat-arsed fool!\""
-msgstr ""
+msgstr "«Ты оскорбил меня, четвероногий козлозадый дурак!»"
 
 #: 12489
 msgid "\"Because I *feel* like it...\""
-msgstr ""
+msgstr "«Потому что мне так *нравится*...»"
 
 #: 12490
 msgid "Turn and walk away."
-msgstr ""
+msgstr "Отвернуться и уйти прочь."
 
 #: 12491 12500
 msgid "Run away."
-msgstr ""
+msgstr "Убежать."
 
 #: 12492
 msgid "\"I had wanted to ask some questions...\""
-msgstr ""
+msgstr "«Я бы хотел задать несколько вопросов...»"
 
 #: 12493
 msgid "\"I changed my mind. I'd rather spill your blood...\""
-msgstr ""
+msgstr "«Я передумал. Лучше я пущу тебе кровь...»"
 
 #: 12494
 msgid "\"Very well... I had only wanted to ask a question...\""
-msgstr ""
+msgstr "«Хорошо... Я всего лишь хотел задать вопрос...»"
 
 #: 12495
+#, fuzzy
 msgid "\"Oh, no... it was *you,* and you'll regret it!\""
-msgstr ""
+msgstr "«Э, нет... это все *ты*, и ты об этом пожалеешь!»"
 
 #: 12496
 msgid "\"Forget it, then. Farewell.\""
-msgstr ""
+msgstr "«Тогда забудь об этом. Прощай»."
 
 #: 12498
 msgid "\"Nothing... farewell.\""
-msgstr ""
+msgstr "«Ничего... Прощай»."
 
 #: 12501
 msgid "\"What is this place?\""
-msgstr ""
+msgstr "«Что это за место?»"
 
 #: 12502
 msgid "\"Where is it, exactly?\""
-msgstr ""
+msgstr "«Где именно он находится?»"
 
 #: 12503
 msgid "\"Never mind. Let me ask you something else.\""
-msgstr ""
+msgstr "«Не обращай внимания. Позволь мне спросить кое о чем еще»."
 
 #: 12504
 msgid "\"Forget I asked; it's nothing. Farewell.\""
-msgstr ""
+msgstr "«Забудь, что я спрашивал, это неважно. Прощай»."
 
 #: 12505
+#, fuzzy
 msgid "\"'Pass'...? Do you mean 'paths'?\""
-msgstr ""
+msgstr "«'Путы'?.. Ты хотел сказать 'пути'?»"
 
 #: 12506
 msgid "\"Yes, I see... where is Sigil, exactly?\""
-msgstr ""
+msgstr "«Ага, понятно... а где именно находится Сигил?»"
 
 #: 12507
 msgid "\"Let me ask you about something else.\""
-msgstr ""
+msgstr "«Позволь мне спросить еще кое о чем»."
 
 #: 12508
 msgid "\"That's all I needed to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 12509
 msgid "\"I think so, yes. What *is* this place, though?\""
-msgstr ""
+msgstr "«Думаю, да. И все же, *что* это за место?»"
 
 #: 12510
 msgid "\"I do. Let me ask you about something else.\""
-msgstr ""
+msgstr "«Да. Позволь спросить тебя кое о чем еще»."
 
 #: 12511
 msgid "\"Yes, I do. That's all I needed; farewell.\""
-msgstr ""
+msgstr "«Да. Это все, что было мне нужно. Прощай»."
 
 #: 12512
 msgid "\"Visiting? You do not live here?\""
-msgstr ""
+msgstr "«Гостящего? Ты здесь не живешь?»"
 
 #: 12513
 msgid "\"Business? What are you here for?\""
-msgstr ""
+msgstr "«Дела? Зачем ты здесь?»"
 
 #: 12514 12518
 msgid "\"I see. I have another question for you.\""
-msgstr ""
+msgstr "«Понятно. У меня к тебе еще один вопрос»."
 
 #: 12515 12519
 msgid "\"I'll let you return to your business, then; farewell.\""
-msgstr ""
+msgstr "«Тогда позволю тебе вернуться к твоим делам. Прощай»."
 
 #: 12516
 msgid "\"Where are you from?\""
-msgstr ""
+msgstr "«Откуда ты?»"
 
 #: 12517 12523
 msgid "\"What sort of business were you here for?\""
-msgstr ""
+msgstr "«Что за дела у тебя здесь?»"
 
 #: 12520
 msgid "\"You had said you were visiting; you don't live here?\""
-msgstr ""
+msgstr "«Ты упоминал, что гостишь здесь. Ты здесь не живешь?»"
 
 #: 12521
 msgid "\"Let me ask you about something else, then...\""
-msgstr ""
+msgstr "«Тогда позволь мне спросить кое о чем еще...»"
 
 #: 12522
 msgid "\"Until another time, then. Farewell.\""
-msgstr ""
+msgstr "«Тогда до следующего раза. Прощай»."
 
 #: 12524
 msgid "\"I have another question for you...\""
-msgstr ""
+msgstr "«У меня к тебе еще один вопрос...»"
 
 #: 12525
 msgid "\"That is all I needed to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 12526 12527
 msgid "\"I am looking for a place to enjoy myself.\""
-msgstr ""
+msgstr "«Я ищу местечко, где можно было бы развлечься»."
 
 #: 12528
 msgid "\"I am looking for work.\""
-msgstr ""
+msgstr "«Я ищу работу»."
 
 #: 12531
 msgid "\"Nothing, actually. I had some other questions...\""
-msgstr ""
+msgstr "«Вообще-то, ничего. У меня есть другие вопросы...»"
 
 #: 12532
 msgid "\"Nothing, come to think of it. Farewell.\""
-msgstr ""
+msgstr "«Если подумать, то ничего. Прощай»."
 
 #: 12533
 msgid "\"What if I were looking for work?\""
-msgstr ""
+msgstr "«Что, если я ищу работу?»"
 
 #: 12534
 msgid "\"I had some other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 12535 12536
 msgid "\"What about someplace to enjoy myself?\""
-msgstr ""
+msgstr "«Как насчет места, где можно было бы развлечься?»"
 
 #: 12537
 msgid "\"I don't know, really. Let me ask you something else...\""
-msgstr ""
+msgstr "«По правде говоря, я даже не знаю. Позволь спросить еще кое о чем...»"
 
 #: 12538
 msgid "\"Perhaps; I'm not sure, myself. Farewell.\""
-msgstr ""
+msgstr "«Возможно, я не уверен. Прощай»."
 
 #: 12539
 msgid "\"Hmm. I have another question...\""
-msgstr ""
+msgstr "«Хм. У меня еще один вопрос...»"
 
 #: 12540
 msgid "\"All right. Farewell, then.\""
-msgstr ""
+msgstr "«Хорошо, тогда прощай»."
 
 #: 12541
 msgid "\"I see. Answer me something else...\""
-msgstr ""
+msgstr "«Ясно. Скажи мне еще кое-что...»"
 
 #: 12542
 msgid "\"Thank you. That is all I needed to know for now; farewell.\""
-msgstr ""
+msgstr "«Спасибо. Это все, что я хотел знать. Прощай»."
 
 #: 12543
 msgid "\"No... you did it again. 'Paths,' not 'pass.'\""
-msgstr ""
+msgstr "«Нет... ты снова ошибся. 'Пути', а не 'путы'»."
 
 #: 12544
 msgid "\"I understand. Where is Sigil, exactly?\""
-msgstr ""
+msgstr "«Понятно. А где именно находится Сигил?»"
 
 #: 12545
 msgid "\"I see. Let me ask you about something else.\""
-msgstr ""
+msgstr "«Ясно. Позволь мне спросить кое о чем еще...»"
 
 #: 12546
 msgid "\"All right. That's all I needed to know; farewell.\""
-msgstr ""
+msgstr "«Хорошо. Это все, что я хотел узнать. Прощай»."
 
 #: 12547
 msgid "\"Oh, I can; watch: Yah, yah, yah! Bork, bork, bork!\""
-msgstr ""
+msgstr "«О, не вопрос: Иа-иа-иа! Бее-бе-бе!»"
 
 #: 12548
 msgid "\"You are right; I apologize. Let me ask you something.\""
-msgstr ""
+msgstr "«Ты прав, я извиняюсь. Позволь задать тебе вопрос»."
 
 #: 12549
 msgid "\"Whatever you say, four-legs. Farewell.\""
-msgstr ""
+msgstr "«Как скажешь, четвероногий. Прощай»."
 
 #: 12550
 msgid "\"You're right; I apologize. Farewell.\""
-msgstr ""
+msgstr "«Ты прав, прошу прощения. Счастливо»."
 
 #: 12551
 msgid "Let him stomp off."
-msgstr ""
+msgstr "Пусть уходит."
 
 #: 12552
 msgid "Attack him as he leaves."
-msgstr ""
+msgstr "Атаковать его, пока он отходит."
 
 #: 12557
 msgid "\"Perhaps you can answer me with something else, then...\""
-msgstr ""
+msgstr "«Тогда, может, ты скажешь мне еще кое-что...»"
 
 #: 12558
 msgid "\"You may be right. Farewell.\""
-msgstr ""
+msgstr "«Может, ты и прав. Прощай»."
 
 #: 12559
 msgid "\"Another ward, you say? Perhaps. Farewell.\""
-msgstr ""
+msgstr "«Говоришь, другой район? Возможно. Прощай»."
+
+#~ msgid "\"I had a some questions...\""
+#~ msgstr "«У меня есть несколько вопросов...»"
+
+#~ msgid "\"What are sort of business were you here for?\""
+#~ msgstr "«По каком делу ты сюда прибыл?»"

@@ -1,91 +1,104 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dcstthg3.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-03-03 23:30+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 9852
 msgid ""
 "You see a rough-looking man with weathered skin. He looks rather sullen and "
 "does not notice your approach."
 msgstr ""
+"Перед тобой грубоватый мужик в потертой коже. Вид у него довольно угрюмый; "
+"он не замечает твоего приближения."
 
 #: 9853
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 9854
 msgid "Ignore him."
-msgstr ""
+msgstr "Игнорировать его."
 
 #: 9857
 msgid ""
 "He jumps at the sound of your voice and quickly turns to face you. His face "
 "is flushed and his breath comes quickly."
 msgstr ""
+"Он подпрыгивает от звука твоего голоса и быстро поворачивается к тебе. Его "
+"лицо побагровело, дыхание участилось."
 
 #: 9859
 msgid "\"We're a bit on the nervous side aren't we?\""
-msgstr ""
+msgstr "«Что, немного занервничали, да?»"
 
 #: 9861
 msgid ""
 "\"My apologies for surprising you. I wanted to ask you some questions.\""
-msgstr ""
+msgstr "«Извини, что напугал. Я хотел задать тебе пару вопросов»."
 
 #: 9862
 msgid "\"Sorry to have bothered you. Farewell.\""
-msgstr ""
+msgstr "«Извини, что побеспокоил тебя. Прощай»."
 
 #: 9863
+#, fuzzy
 msgid ""
 "He gives you an angry scowl and draws a dagger from behind his back. \"Pike "
 "it, berk! Take a walk or it's the dead-book for ya.\""
 msgstr ""
+"Он бросает на тебя сердитый взгляд и достает из-за спины кинжал. «Отвали, "
+"пень! Гуляй отсюда, не то попадешь в книгу мертвых»."
 
 #: 9865
 msgid "\"Calm down. I just need to ask you something.\""
-msgstr ""
+msgstr "«Успокойся. Мне просто нужно кое-что спросить»."
 
 #: 9868 9873
 msgid "\"Put the blade away or I'll take it from you and kill you with it.\""
-msgstr ""
+msgstr "«Убери свой клинок, не то я им же тебя и убью»."
 
 #: 9870
 msgid "\"As you wish. Farewell.\""
-msgstr ""
+msgstr "«Как пожелаешь. Прощай»."
 
 #: 9872
 msgid ""
 "He adopts a defensive stance and threatens you with his blade. \"I've no "
 "answers for ya. I've nothing to say to ya. Back off!\""
 msgstr ""
+"Он принимает защитную стойку, угрожая тебе клинком. «У меня нет для тебя "
+"ответов. Мне нечего сказать. Отвали!»"
 
 #: 9874
 msgid "\"Very well. Farewell.\""
-msgstr ""
+msgstr "«Отлично. Прощай»."
 
 #: 9875
 msgid ""
 "He laughs at you and gestures with his blade. \"Come to me then. I'll gut ya "
 "and laugh at ya the whole time it takes ya to die!\""
 msgstr ""
+"Он смеется над тобой, размахивая клинком. «Тогда подходи. Я выпущу тебе "
+"кишки и буду смеяться, пока ты будешь умирать!»"
 
 #: 9876
 msgid "Attack him."
-msgstr ""
+msgstr "Атаковать его."
 
 #: 9878
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 9880
 msgid ""
@@ -93,61 +106,76 @@ msgid ""
 "seems to have taken him by surprise. \"My, uh... My mind was elsewhere, "
 "cutter. What ya want?\" He eyes you warily."
 msgstr ""
+"У тебя такое впечатление, будто он не знает, что тебе ответить. Похоже, твои "
+"слова привели его в замешательство. «Я, э... Я немного задумался, рубака. "
+"Чего ты хочешь?» Он беспокойно глядит на тебя."
 
 #: 9883
 msgid "\"Just some questions answered. All right?\""
-msgstr ""
+msgstr "«Только несколько ответов. Хорошо?»"
 
 #: 9884
 msgid "\"Nothing actually. Farewell.\""
-msgstr ""
+msgstr "«На самом деле - ничего. Прощай»."
 
 #: 9885
+#, fuzzy
 msgid ""
 "He stares at you for a moment then glances nervously about. \"One question, "
 "then ye're outta here. I ain't got the time or the desire.\""
 msgstr ""
+"Он пристально смотрит на тебя, потом нервно оглядывается. «Один вопрос, а "
+"потом ты свалишь. У меня нет ни времени, ни желания»."
 
 #: 9886
 msgid "\"I'm looking for a deva. I understand he's in Curst.\""
-msgstr ""
+msgstr "«Я разыскиваю дэва. Насколько я понимаю, он в Проклятом»."
 
 #: 9887
 msgid "\"Who's in charge around here?\""
-msgstr ""
+msgstr "«Кто здесь главный?»"
 
 #: 9888
 msgid "\"What's the local news?\""
-msgstr ""
+msgstr "«Какие местные новости?»"
 
 #: 9889
 msgid "\"What are you doing?\""
-msgstr ""
+msgstr "«Чем ты занимаешься?»"
 
 #: 9890
 msgid "\"If you needed some questions answered reliably who would you go to?\""
 msgstr ""
+"«Если бы тебе нужно было бы получить толковые ответы на кое-какие вопросы, к "
+"кому бы ты обратился?»"
 
 #: 9891
 msgid "\"Never mind. Good day.\""
-msgstr ""
+msgstr "«Неважно. Всего хорошего»."
 
 #: 9892
+#, fuzzy
 msgid ""
 "He gives you a quizzical look. \"Yeah, sure. One of them 'holier than thou' "
 "sods is walking the streets of Curst. Ye're barmy, cutter. I gave ya yer "
 "answer, now git.\" He turns and walks away."
 msgstr ""
+"Он непонимающе смотрит на тебя. «Ага, точно. Чтоб один из этих самодовольных "
+"бедолаг бродил по улицам Проклятого? Да ты чокнутый, рубака. Я дал тебе "
+"ответ, теперь проваливай». Он отворачивается и уходит."
 
 #: 9893 9895 9897 9899 9901
+#, fuzzy
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 9894
 msgid ""
 "\"Tovus Giljaf. He's in the admin office in the town square. I gave ya yer "
 "answer, now git.\" He turns and walks away."
 msgstr ""
+"«Товус Гильяф. Он в административном здании на городской площади. Я дал тебе "
+"ответ, теперь проваливай». Он отворачивается и уходит."
 
 #: 9896
 msgid ""
@@ -155,14 +183,21 @@ msgid ""
 "the Traitor's Gate. It's a local swill hole down that away.\" He gestures "
 "vaguely. \"I gave ya yer answer, now git.\" He turns and walks away."
 msgstr ""
+"Он на миг задумывается. «Не знаю... Я слухов не собираю, рубака. Иди к "
+"'Воротам предателей'. Это такая местная помойная яма неподалеку, - он вяло "
+"указывает направление. - Я дал тебе ответ, теперь проваливай». Он "
+"отворачивается и уходит."
 
 #: 9898
 msgid ""
 "He laughs at you. \"That ain't something that you need to know, berk. I gave "
 "ya yer answer, now git.\" He turns and walks away."
 msgstr ""
+"Он смеется над тобой. «Этого тебе, пень, знать не нужно. Я дал тебе ответ, "
+"теперь проваливай». Он отворачивается и уходит."
 
 #: 9900
+#, fuzzy
 msgid ""
 "He laughs and smiles at you. \"That's a good question. Ye're a smart cutter "
 "after all.\" He pauses to think then looks at you carefully. \"If I were "
@@ -170,3 +205,8 @@ msgid ""
 "too hard to find. If ye're nice to her she'll help ya. I gave ya yer answer, "
 "now git.\" He turns and walks away."
 msgstr ""
+"Он смеется, улыбаясь тебе. «Хороший вопрос. А все-таки ты толковый рубака, - "
+"он на миг задумывается, потом внимательно на тебя смотрит. - На твоем месте "
+"я бы поговорил с Шар. Она где-то поблизости, бродит по улицам, так что найти "
+"ее будет нетрудно. Если будешь с ней вежлив, она тебе поможет. Я дал тебе "
+"ответ, теперь проваливай». Он отворачивается и уходит."

@@ -1,72 +1,78 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: ddustfb.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-04-29 23:30+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: 2305
 msgid ""
 "You see a somber, pale-faced woman in black robes. She is staring into the "
 "distance and doesn't appear to notice you."
 msgstr ""
+"Перед тобой мрачная бледная женщина в черной мантии. Она смотрит в никуда и "
+"не замечает твоего присутствия."
 
 #: 2306 2313
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 2307 2314
 msgid "Leave her in peace."
-msgstr ""
+msgstr "Оставить ее в покое."
 
 #: 2308
 msgid ""
 "You see a somber, pale-faced Dustwoman in black robes. She is staring into "
 "the distance and doesn't appear to notice you."
 msgstr ""
+"Перед тобой мрачная бледная тленная в черной мантии. Она смотрит в никуда и "
+"не замечает твоего присутствия."
 
 #: 2309
 msgid "She turns slowly to face you. \"Yes?\""
-msgstr ""
+msgstr "Она медленно поворачивает к тебе лицо. «Да?»"
 
 #: 2310
 msgid "She folds her arms into her robes and waits."
-msgstr ""
+msgstr "Она прячет свои руки в одеждах и ждет."
 
 #: 2311 2312
 msgid "She shakes her head."
-msgstr ""
+msgstr "Она мотает головой."
 
 #: 2315
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 2316 2319
 msgid "\"Nothing, never mind.\""
-msgstr ""
+msgstr "«Ничего, неважно»."
 
 #: 2317
 msgid "\"Do you know someone named Pharod?\""
-msgstr ""
+msgstr "«Ты знаешь кого-нибудь по имени Фарод?»"
 
 #: 2318 2320
 msgid "\"I'm looking for a lost journal. Have you seen one?\""
-msgstr ""
+msgstr "«Я ищу потерявшийся дневник. Тебе он не попадался?»"
 
 #: 2321 2323
 msgid "\"Thanks anyway. Farewell.\""
-msgstr ""
+msgstr "«Все равно спасибо. Прощай»."
 
 #: 2322
 msgid "\"Do you know where I can find someone named Pharod?\""
-msgstr ""
+msgstr "«Ты не знаешь, где я могу найти человека по имени Фарод?»"
 
 #: 66588
 msgid ""
@@ -74,6 +80,9 @@ msgid ""
 "to someone named 'Emoric' at the Gathering Dust Bar, a bar to the south and "
 "to the west of the Mortuary Front Gate. "
 msgstr ""
+"Один из тленных сказал мне, что если я разыскиваю Фарода, то мне следует "
+"поговорить с неким Эмориком в Баре собирателей пыли, заведении к юго-западу "
+"от главных ворот Морга. "
 
 #: 66589
 msgid ""
@@ -81,33 +90,41 @@ msgid ""
 "would wish to know more of him, I am told that Initiate Emoric in the "
 "Gathering Dust Bar also seeks him. It may be that he can help you.\""
 msgstr ""
+"«Фарод - сборщик, - мгновение женщина рассматривает тебя. - Если хочешь "
+"знать о нем больше, посвященный Эморик из Бара собирателей пыли тоже его "
+"ищет. Возможно, он тебе поможет»."
 
 #: 66590
 msgid ""
 "\"As one leaves the Mortuary Front Gate, head south and west. It lies past "
 "the memorial.\""
 msgstr ""
+"«Как только выйдешь из главных ворот Морга, сразу поверни на юго-запад. Он "
+"расположен за мемориалом»."
 
 #: 66591
 msgid "\"Where is the Gathering Dust bar?\""
-msgstr ""
+msgstr "«Где находится Бар собирателей пыли?»"
 
 #: 66592
 msgid ""
 "\"I'm familiar with the bar you speak of. Before heading there, I had some "
 "other questions for you...\""
 msgstr ""
+"«Мне знаком бар, о котором ты говоришь. Перед тем как я пойду туда, я хотел "
+"бы задать еще пару вопросов...»"
 
 #: 66593
 msgid ""
 "\"The Gathering Dust Bar? That's to the southwest of here, right? I'll head "
 "there, then.\""
 msgstr ""
+"«Бар собирателей пыли? Он на юго-западе отсюда, верно? Тогда я схожу туда»."
 
 #: 66594
 msgid "\"All right. I had some other questions before I go...\""
-msgstr ""
+msgstr "«Отлично. Перед тем как уйти, я хотел бы задать другие вопросы...»"
 
 #: 66595
 msgid "\"Very well. I will seek it out, then.\""
-msgstr ""
+msgstr "«Хорошо. Тогда пойду его искать»."

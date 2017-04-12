@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: deldan.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2011-12-26 16:28+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: 57545
 msgid ""
@@ -18,14 +20,17 @@ msgid ""
 "they are not the rags worn by the other prisoners. You notice books and "
 "scrolls surround him. He arches his eyebrow at your approach."
 msgstr ""
+"Перед тобой старик с редкими седыми волосами. Его одежда, хоть и не новая, "
+"но еще не превратилась в тряпье, как у остальных заключенных. Вокруг него "
+"лежат книги и свитки. При твоем приближении он выгибает бровь дугой."
 
 #: 57546
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 57547
 msgid "Ignore him."
-msgstr ""
+msgstr "Игнорировать его."
 
 #: 57548
 msgid ""
@@ -33,58 +38,66 @@ msgid ""
 "look to be a mess, young man...\" He continues to examine you then shrugs. "
 "\"What is it that you want of me?\""
 msgstr ""
+"Осматривая тебя с ног до головы, он улыбается. «Итак... Что это тут у нас? "
+"Похоже, ты попадал в переплет, молодой человек... - осмотрев тебя, он "
+"пожимает плечами. - Что тебе нужно от меня?»"
 
 #: 57549 57558 57562 57565 57569 57572 57576 57578
 msgid "\"I have some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 57550
 msgid "\"Nothing, farewell.\""
-msgstr ""
+msgstr "«Ничего, прощай»."
 
 #: 57551
 msgid "\"I may be able to help you. Ask your questions.\" He smiles."
 msgstr ""
+"«Возможно, я смогу тебе помочь с этим. Задавай свои вопросы», - улыбается он."
 
 #: 57552
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 57553
 msgid "\"What can you tell me about this place?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать об этом месте?»"
 
 #: 57554
 msgid "\"I've been told there is a deva down here. Know anything about that?\""
 msgstr ""
+"«Мне говорили, что здесь внизу находится дэва. Что-нибудь знаешь об этом?»"
 
 #: 57555
 msgid "\"I must be going, farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай»."
 
 #: 57556
 msgid ""
 "\"I am Eldan. A man of little importance who has fallen on some bad times..."
 "\""
-msgstr ""
+msgstr "«Я - Элдан. Маленький человек, у которого настали черные времена...»"
 
 #: 57557
 msgid "\"Why are you here?\""
-msgstr ""
+msgstr "«Как ты сюда попал?»"
 
 #: 57559 57563 57566 57570 57573 57577
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 57560
 msgid ""
 "He frowns. \"My employer no longer had need of my services. Rather than "
 "terminate my employment, and my life, he saw fit to have me interred here.\""
 msgstr ""
+"Он хмурится. «Мой работодатель больше не нуждается в моих услугах. Но вместо "
+"того, чтобы окончить мою службу и мою жизнь, он счел необходимым поместить "
+"меня сюда»."
 
 #: 57561
 msgid "\"Why would he do that?\""
-msgstr ""
+msgstr "«Почему он так сделал?»"
 
 #: 57564
 msgid ""
@@ -93,6 +106,10 @@ msgid ""
 "who would learn his secrets.\" He sighs. \"I suppose it is preferable to "
 "death, but not by much.\""
 msgstr ""
+"«Он был вовлечен сомнительные деловые махинации, а я вел его записи. Он "
+"поместил меня сюда, чтобы держать свои секреты в безопасности... и держать "
+"меня подальше от тех, кто хотел бы их узнать, - вздыхает он. Думаю, это "
+"предпочтительнее смерти, но иногда я в этом сомневаюсь»."
 
 #: 57567
 msgid ""
@@ -100,27 +117,35 @@ msgid ""
 "been in this cell since my arrival and see little need to explore what is "
 "obviously a dangerous place.\""
 msgstr ""
+"Он пожимает плечами. «Все, что я знаю об этом месте - это тот факт, что оно "
+"является тюрьмой. Я нахожусь в этой камере с тех пор, как прибыл сюда, и не "
+"вижу никакой необходимости исследовать это очевидно опасное место»."
 
 #: 57568
 msgid "\"You never leave your cell?\""
-msgstr ""
+msgstr "«Ты никогда не покидал свою камеру?»"
 
 #: 57571
 msgid "\"No...\" He looks away."
-msgstr ""
+msgstr "«Нет...» Его взгляд отрешен."
 
 #: 57574
+#, fuzzy
 msgid ""
 "He frowns and gives you a questioning look. \"A deva? I cannot imagine "
 "that... why would a deva be down here?\" He shrugs. "
 msgstr ""
+"Хмурясь, он в вопросительно смотрит на тебя. «Дэва? Даже не могу себе этого "
+"представить... почему дэва может находиться здесь внизу?»"
 
 #: 57575
 msgid ""
 "You see Eldan. He smiles at your approach. \"Again you grace me with your "
 "presence. Why?\""
 msgstr ""
+"Ты видишь Элдана. При твоем приближении он улыбается. «И снова я имею честь "
+"тебя видеть. Почему?»"
 
 #: 57579
 msgid "\"Never mind, farewell.\""
-msgstr ""
+msgstr "«Неважно, прощай»."

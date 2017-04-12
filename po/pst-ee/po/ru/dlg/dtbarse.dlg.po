@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dtbarse.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-10-12 02:14+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 47843
 msgid ""
@@ -20,6 +22,10 @@ msgid ""
 "they just took his sword and used it to power the cells of the prisoners "
 "down there."
 msgstr ""
+"Гниющий Копчик, владелец таверны «Ворота предателей», сообщил мне, что отцы "
+"города при расширении тюрьмы обнаружили в подземелье заключенного в каменный "
+"пузырь дэва. Они его, естественно, не освободили, только забрали у него меч "
+"и им наводили порядок в камерах заключенных."
 
 #: 48096
 msgid ""
@@ -27,26 +33,29 @@ msgid ""
 "eyes are red-rimmed. He straightens as he sees you. \"Welcome to the "
 "Traitor's Gate. I'm Tainted Barse, the innkeep.\""
 msgstr ""
+"Перед тобой мрачный худощавый мужчина. Его лицо выветрено и покрыто "
+"морщинами, с покрасневшими глазами. Завидев тебя, он выпрямляется. «Добро "
+"пожаловать в Ворота предателей. Я - Гниющий Копчик, хозяин таверны»."
 
 #: 48097
 msgid "\"What's wrong?\""
-msgstr ""
+msgstr "«Что-то не так?»"
 
 #: 48098
 msgid "\"What kind of a name is that?\""
-msgstr ""
+msgstr "«Что это за имя такое?»"
 
 #: 48101 48118 48134 48191 48195 48200
 msgid "\"What are you selling here?\""
-msgstr ""
+msgstr "«Чем торгуешь?»"
 
 #: 48107 48119
 msgid "\"I need a place to stay.\""
-msgstr ""
+msgstr "«Мне нужно место для отдыха»."
 
 #: 48108 48120
 msgid "\"Good for you. Farewell.\""
-msgstr ""
+msgstr "«Рад за тебя. Прощай»."
 
 #: 48109
 msgid ""
@@ -56,22 +65,26 @@ msgid ""
 "more closely. \"You're the fellow asking about the deva, ain't you? Tell you "
 "what. You help me out, I'll help you.\""
 msgstr ""
+"«Наверно, то, что мою дочь выкрали работорговцы, и теперь это место закроют "
+"за долги, и мне придется его уступить одному из уродов-богачей из первого "
+"круга». Он присматривается к тебе тщательнее. «Ты ведь тот парень, который "
+"вынюхивает насчет дэва, так? Вот что. Ты поможешь мне - я помогу тебе»."
 
 #: 48110 48133 48145
 msgid "\"What do you know about the deva?\""
-msgstr ""
+msgstr "«Что ты знаешь о дэва?»"
 
 #: 48111
 msgid "\"What do I have to do?\""
-msgstr ""
+msgstr "«Что мне нужно сделать?»"
 
 #: 48112
 msgid "\"Let's talk about this later. Right now I have more questions...\""
-msgstr ""
+msgstr "«Поговорим об этом позднее. Сейчас у меня есть другие вопросы...»"
 
 #: 48113
 msgid "\"Let me think about it. I'll get back to you. Farewell.\""
-msgstr ""
+msgstr "«Дай подумать над этим. Я к тебе еще вернусь. Прощай»."
 
 #: 48114
 msgid ""
@@ -79,14 +92,18 @@ msgid ""
 "because of some former friends spreading baseless chant.\" He looks *very* "
 "angry. \"What the hell do you want, anyway? You an adventurer or something?\""
 msgstr ""
+"Он смотрит на тебя. «Копчиком меня назвали при рождении, пень. А Гниющего я "
+"получил из-за того, что кое-кто из моих бывших друзей распускал про меня "
+"всякие вздорные слухи». Похоже, он *очень* зол. «Что тебе нужно, черт тебя "
+"побери? Ты приключенец или типа того?»"
 
 #: 48116
 msgid "\"Why? What's wrong?\""
-msgstr ""
+msgstr "«А что? Что-то не так?»"
 
 #: 48117
 msgid "\"I wanted to ask some questions...\""
-msgstr ""
+msgstr "«Я хотел бы задать пару вопросов...»"
 
 #: 48125
 msgid ""
@@ -95,34 +112,42 @@ msgid ""
 "apart from being arrested or trying to bribe your way in - which wouldn't "
 "work anyway.\""
 msgstr ""
+"Он хитро улыбается. «Ты ведь ищешь его, верно? Могу тебе сообщить, что он "
+"спрятан глубоко под тюрьмой. Еще могу рассказать, как туда попасть, исключая "
+"варианты быть арестованным или подкупить кого-нибудь - они все равно не "
+"сработают»."
 
 #: 48127
 msgid "\"What do I have to do for this?\""
-msgstr ""
+msgstr "«Что мне нужно для этого сделать?»"
 
 #: 48128
 msgid "\"Whaddya want to know?\""
-msgstr ""
+msgstr "«Чего ты хочешь узнать?»"
 
 #: 48129 48130
 msgid "\"What's with the town being so abandoned?\""
-msgstr ""
+msgstr "«Почему город выглядит таким покинутым?»"
 
 #: 48131
 msgid "\"What can you tell me about this place?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать об этом месте?»"
 
 #: 48132
+#, fuzzy
 msgid ""
 "\"So you said you needed something taken care of. What do you want me to do?"
 "\""
 msgstr ""
+"«Ты что-то говорил насчет того, что тебе нужна помощь. Что ты хочешь, чтобы "
+"я сделал?»"
 
 #: 48135
 msgid "\"Nothing, I guess. Farewell.\""
-msgstr ""
+msgstr "«Пожалуй, ничего. Прощай»."
 
 #: 48136
+#, fuzzy
 msgid ""
 "\"Go over there and talk to Marquez. He's the ex-Harmonium fellow. He knows "
 "about these slavers - and he holds the first part of the key that'll put you "
@@ -131,18 +156,23 @@ msgid ""
 "and it unlocks knowledge in my mind. Till then, though, it stays secret. You "
 "got to satisfy the keyholders.\""
 msgstr ""
+"«Иди, поговори с Маркесом. Он бывший член Гармониума. Он знает тех "
+"работорговцев, и у него есть первая часть ключа, который откроет тебе дорогу "
+"к дэва. Всего частей пять, но этот ключ - ненастоящая вещь. Когда соберешь "
+"их всех, скажи мне - и ты получишь мои знания. А пока это останется тайной. "
+"Тебе придется выполнить просьбы всех держателей ключа»."
 
 #: 48137
 msgid "\"Let me think about it. I had some more questions.\""
-msgstr ""
+msgstr "«Дай подумать над этим. У меня есть другие вопросы»."
 
 #: 48138
 msgid "\"I won't do it.\""
-msgstr ""
+msgstr "«Я не буду этого делать»."
 
 #: 48139
 msgid "\"I'll do it."
-msgstr ""
+msgstr "«Я сделаю это»."
 
 #: 48140
 msgid ""
@@ -152,14 +182,19 @@ msgid ""
 "have her to help me, and I have information that could be very valuable to "
 "you. You scratch my back, I'll scratch yours, see?\""
 msgstr ""
+"«Послушай... Черт побери! Ненавижу просить у незнакомцев, но мне кажется, "
+"что я смогу помочь тебе, если ты поможешь мне». Он спешно продолжает: «Мою "
+"дочь похитили, ее собираются продать, а без ее помощи я потеряю это место. У "
+"меня есть информация, которая может тебе весьма пригодиться. Ты почешешь мне "
+"спинку, я почешу тебе, понимаешь?»"
 
 #: 48141
 msgid "\"What do you need?\""
-msgstr ""
+msgstr "«Что тебе нужно?»"
 
 #: 48142
 msgid "\"Forget it. I'm busy right now.\""
-msgstr ""
+msgstr "«Забудь. Сейчас я очень занят»."
 
 #: 48143
 msgid ""
@@ -171,28 +206,37 @@ msgid ""
 "they can make a profit off its discovery and cross their 'friends'... and "
 "then the plague hits.\""
 msgstr ""
+"«Ха. Как всегда, проблем в изобилии. Во-первых, для расширения тюрьмы роют "
+"норы, и вот в одной из них находят этого дэва, заключенного в огромный "
+"обсидиановый пузырь и прикованного к полу. Они забрали его меч для того, "
+"чтобы держать преступников в своих клетках. И теперь обсуждают, что делать с "
+"этим небожителем, все волосы на себе изорвали, пытаясь понять, какую можно "
+"пользу получить из этой находки и навариться на 'дружках'... а тут еще чума "
+"вспыхнула»."
 
 #: 48144
 msgid "\"Plague?\""
-msgstr ""
+msgstr "«Чума?»"
 
 #: 48146
 msgid "\"Why was the deva imprisoned?\""
-msgstr ""
+msgstr "«Почему дэва заточили?»"
 
 #: 48147
 msgid "\"I had a few other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 48148 48159 48163 48164 48177 48178 48181 48182
 msgid "\"Thanks. Farewell.\""
-msgstr ""
+msgstr "«Спасибо. Прощай»."
 
 #: 48160
 msgid ""
 "Tainted Barse told me that Curst has been paralyzed by a plague, not too "
 "long after the city officials opened the prison of the deva."
 msgstr ""
+"Гниющий Копчик сказал мне, что Проклятый был поражен чумой незадолго после "
+"того, как официальные лица открыли тюрьму с дэва."
 
 #: 48161
 msgid ""
@@ -203,40 +247,49 @@ msgid ""
 "people, because you don't know the politics. And I guarantee you'll be "
 "sucked in.\""
 msgstr ""
+"«Рассадник слухов и кривотолков, вот что это за место. Никто никому не "
+"верит. Никто не сделает другому одолжения, если только не будет уверен, что "
+"тот останется у него в долгу. Все ненавидят друг друга и пытаются облапошить "
+"других. Например, такого как ты... Ты - готовая жертва, потому что не знаешь "
+"правил. Зуб даю, что тебя кинут»."
 
 #: 48162 48176
 msgid "\"I had a few more questions...\""
-msgstr ""
+msgstr "«У меня есть еще несколько вопросов...»"
 
 #: 48165
 msgid "\"You won't do me a favor, I won't do you none. Get out of my place.\""
 msgstr ""
+"«Не будешь мне помогать - от меня тоже ничего не дождешься. Вон из моего "
+"заведения»."
 
 #: 48166
 msgid "\"No. What are you selling here?\""
-msgstr ""
+msgstr "«Нет. Чем ты здесь торгуешь??»"
 
 #: 48167
 msgid "\"No. I need a place to stay.\""
-msgstr ""
+msgstr "«Нет. Мне нужно место для отдыха»."
 
 #: 48168
 msgid "\"I've changed my mind. I'll help you out.\""
-msgstr ""
+msgstr "«Я передумал. Я помогу тебе»."
 
 #: 48169
 msgid "\"I'm leaving, then. Farewell.\""
-msgstr ""
+msgstr "«Тогда я ухожу. Прощай»."
 
 #: 48170
 msgid ""
 "\"Marquez'll tell you what you have to do, and when you've finished, he'll "
 "steer you to the next person who has a key.\""
 msgstr ""
+"«Маркес скажет тебе, что нужно делать, а когда закончишь с этим делом, он "
+"укажет тебе на другого владельца ключа»."
 
 #: 48171
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 48172
 msgid ""
@@ -244,14 +297,17 @@ msgid ""
 "anywhere in this town. You'll rot here, berk. I ain't kidding you. You'll "
 "never get out.\""
 msgstr ""
+"«Только если ты меня убьешь - но тогда все дороги в этом городе для тебя "
+"закрыты. Ты сгниешь тут заживо, пень. Я не шучу. Ты не сможешь отсюда "
+"выбраться»."
 
 #: 48173
 msgid "Kill him anyway."
-msgstr ""
+msgstr "Все равно убить его."
 
 #: 48174
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 48175
 msgid ""
@@ -261,6 +317,11 @@ msgid ""
 "jail on the slightest pretext these days. I don't know how you got in to "
 "town, but you ain't getting out unless you find a portal.\""
 msgstr ""
+"«Все верно. Что-то косит народ наповал. Делает людей озлобленными и "
+"раздражительными, но слишком слабыми, чтобы что-нибудь с этим сделать. "
+"Стража перекрыла части города и теперь сидит как на иголках. Они могут "
+"упрятать тебя в тюрьму по любому предлогу. Не знаю, как ты сумел попасть в "
+"город, но выбраться из него ты сможешь только через портал»."
 
 #: 48179
 msgid ""
@@ -269,10 +330,14 @@ msgid ""
 "got down there. I wish I was powerful enough to trap a deva. That'd be some "
 "power worth havin'.\""
 msgstr ""
+"Он пристально смотрит на тебя, пытаясь выяснить, не шутишь ли ты с ним. «Я "
+"ведь сказал, что они нашли его зарытым в землю, ведь так? Это значит, что я "
+"понятия не имею, как он там внизу оказался. Жаль, что у меня нет власти "
+"сажать дэва в клетки. Это было бы как нельзя кстати»."
 
 #: 48180
 msgid "\"All right, then, answer some other questions for me.\""
-msgstr ""
+msgstr "«Ладно, тогда ответь еще на пару вопросов»."
 
 #: 48183
 msgid ""
@@ -280,68 +345,80 @@ msgid ""
 "\"Have you found out anything about my daughter? I'm very worried about her. "
 "Please tell Marquez if you hear anything.\""
 msgstr ""
+"С едва скрываемым беспокойством в глазах он задает вопрос: «Накопал что-"
+"нибудь насчет моей дочери? Я очень за нее беспокоюсь. Пожалуйста, сообщи "
+"Маркесу, если что услышишь»."
 
 #: 48184
 msgid "\"I'm not going to be looking for her.\""
-msgstr ""
+msgstr "«Я не собираюсь ее искать»."
 
 #: 48185
 msgid "\"Not yet. I had some questions.\""
-msgstr ""
+msgstr "«Пока нет. У меня есть несколько вопросов»."
 
 #: 48186
 msgid "\"Not yet. What are you selling here?\""
-msgstr ""
+msgstr "«Пока нет. Чем ты здесь торгуешь?»"
 
 #: 48187
 msgid "\"Not yet. I needed a place to stay.\""
-msgstr ""
+msgstr "«Пока нет. Мне нужно место для отдыха»."
 
 #: 48188
 msgid ""
 "\"Yes. She should be returning here shortly. I'll go tell Marquez. Farewell."
 "\""
-msgstr ""
+msgstr "«Да. Она скоро придет сюда. Пойду, переговорю с Маркесом. Прощай»."
 
 #: 48189
 msgid "His grief looks fresh in his eyes. \"What d'ye want, cutter?\""
-msgstr ""
+msgstr "В его глазах видна горечь утраты. «Чего тебе надо, рубака?»"
 
 #: 48190 48199
 msgid "\"What's the deal with this key, anyway?\""
-msgstr ""
+msgstr "«А что вообще такого в этом ключе?»"
 
 #: 48192 48196 48201
 msgid "\"I needed a place to stay.\""
-msgstr ""
+msgstr "«Мне нужно место для отдыха»."
 
 #: 48193 48202
 msgid "\"Nothing. Farewell.\""
-msgstr ""
+msgstr "«Ничего. Прощай»."
 
 #: 48194
+#, fuzzy
 msgid ""
 "\"It's a key - but it ain't a physical key, if you know what I'm sayin'. "
 "When you've got the keys together, you come tell me - and it unlocks "
 "knowledge in my mind. Till then, though, it stays secret. You got to satisfy "
 "the keyholders. That all you wanted?\" "
 msgstr ""
+"«Это ключ, но он неосязаем, если ты понимаешь, о чем я. Когда ты соберешь "
+"все его части, скажи мне, он откроет в моем разуме нужные знания. А до тех "
+"пор они останутся в тайне. Тебе нужно выполнить просьбы владельцев ключей. "
+"Это все, что ты хотел?»"
 
 #: 48197
 msgid "\"Yes. Farewell.\""
-msgstr ""
+msgstr "«Да. Прощай»."
 
 #: 48198
 msgid ""
 "\"You makin' any progress on that key? You look a little anxious to get "
 "movin' on this. You'll get it, sure.\""
 msgstr ""
+"«Как продвигаются дела с ключом? Похоже, ты очень хочешь заполучить его. "
+"Уверен, ты его получишь»."
 
 #: 48203
 msgid ""
 "\"You got one more thing to do. See that drunk bastard Chek'ka Plute? Go "
 "kill him.\" He raises his voice. \"Hey, Chek'ka! Here comes your death!\""
 msgstr ""
+"«Нужно сделать еще одно дельце. Видишь вон ту пьяную сволочь Чек-ка Плута? "
+"Убей его». Он повышает голос: «Эй, Чек-ка! Твоя смерть пришла!»"
 
 #: 48204
 msgid ""
@@ -349,51 +426,60 @@ msgid ""
 "you ready to go? There's no coming back - the door'll be locked, barred, and "
 "magically protected once you pass through. You want to do this?\""
 msgstr ""
+"«Теперь, когда ты убил того пьяницу, ворота можно отпереть. Ты готов? Как "
+"только ты войдешь, назад пути не будет: дверь будет закрыта, "
+"забаррикадирована и магически защищена»."
 
 #: 48205 48212
 msgid "\"I'm ready now.\""
-msgstr ""
+msgstr "«Я готов»."
 
 #: 48206 48213
 msgid "\"I'd like to rest in the inn first.\""
-msgstr ""
+msgstr "«Сперва я бы хотел отдохнуть в трактире»."
 
 #: 48207
 msgid "\"I'd like to take a look at what you're selling first.\" "
-msgstr ""
+msgstr "«Сначала я бы хотел взглянуть на твои товары»."
 
 #: 48208 48215
 msgid "\"Not yet.\""
-msgstr ""
+msgstr "«Еще нет»."
 
 #: 48209
 msgid "\"Then you just come back and let me know when you're ready.\""
-msgstr ""
+msgstr "«Тогда возвращайся, когда будешь готов»."
 
 #: 48210
 msgid "\"Will do. Farewell.\""
-msgstr ""
+msgstr "«Я так и сделаю. Прощай»."
 
 #: 48211
 msgid ""
 "\"Are you ready to go? There's no coming back - the door'll be locked, "
 "barred, and magically protected once you pass through. You want to do this?\""
 msgstr ""
+"«Ты готов? Как только ты войдешь, назад пути не будет: дверь будет закрыта, "
+"забаррикадирована и магически защищена»."
 
 #: 48214
 msgid "\"I'd like to take a look at what you're selling first.\""
-msgstr ""
+msgstr "«Сначала я бы хотел взглянуть на твои товары»."
 
 #: 66863
 msgid "\"She died as I tried to rescue her. I'll go tell Marquez.\""
 msgstr ""
+"«Она погибла, когда я попытался спасти ее. Пойду, переговорю с Маркесом»."
 
 #: 66864
 msgid "\"Not yet. Farewell.\""
-msgstr ""
+msgstr "«Еще нет. Прощай»."
 
 #: 68074
 msgid ""
 "Tainted Barse asked me to rescue his daughter from slavers. He told me to "
 "talk to Marquez, the Harmonium officer in his tavern."
 msgstr ""
+"Гниющий Копчик попросил меня спасти его дочь от работорговцев. Он сказал, "
+"чтобы я переговорил с Маркесом, офицером Гармониума, который находится в его "
+"таверне."

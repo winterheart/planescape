@@ -1,24 +1,31 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2011-07-14 22:30+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 34193
+#, fuzzy
 msgid ""
 "This painting, an abstract work of greens and purples, writhes and ripples "
 "as it's watched. Closer examination reveals that the actual painted image is "
 "changing, rather than the canvas itself. A placard states 'Moment's Glance "
 "from the Walls of Moch'chma.'"
 msgstr ""
+"Эта картина, абстрактная работа в зеленых и пурпурных тонах, скручивается и "
+"рябит перед глазами. Если присмотреться повнимательнее, оказывается, что "
+"меняется скорее не само полотно, а рисунок на нем. Табличка гласит: "
+"«Минутный взгляд со стен Моччмы»."
 
 #: 42719
 msgid ""
@@ -26,11 +33,13 @@ msgid ""
 "that the canvas is physically moving, but that the painted image itself is "
 "changing."
 msgstr ""
+"Ты кладешь руку на холст... как ты и подозревал, он физически неподвижен: "
+"меняется само изображение на нем."
 
 #: 42720
 msgid "Touch the painting."
-msgstr ""
+msgstr "Прикоснуться к картине."
 
 #: 42721 42722
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."

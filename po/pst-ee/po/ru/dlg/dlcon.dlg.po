@@ -1,66 +1,73 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dlcon.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-06-05 22:08+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: 60952 60979 61004
 msgid ""
 "You see a mechanical man with pale green skin. Although it is obviously a "
 "construct, it does have an animated face, which is scowling at you."
 msgstr ""
+"Перед тобой механический человек с бледно-зеленой кожей. Хотя очевидно, что "
+"это конструкт, у него подвижное лицо, которое в данный момент угрюмо смотрит "
+"на тебя."
 
 #: 60953 60980 61005
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 60954 60981 61006
 msgid "Ignore the creature."
-msgstr ""
+msgstr "Не обращать внимания на существо."
 
 #: 60955
 msgid ""
 "\"Grrrr.\" The creature growls at you and then pauses, weighing your "
 "reaction."
-msgstr ""
+msgstr "«Гр-р-р», - рычит на тебя существо и умолкает, оценивая твою реакцию."
 
 #: 60956
 msgid "\"Am I supposed to be frightened by that?\""
-msgstr ""
+msgstr "«Я должен быть напуган этим?»"
 
 #: 60957 60984 61009
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 60958 60985 61010
 msgid "\"What are you?\""
-msgstr ""
+msgstr "«Что ты такое?»"
 
 #: 60959 60986 61011
 msgid "\"What are you doing?\""
-msgstr ""
+msgstr "«Что ты делаешь?»"
 
 #: 60960 60963 60988 61012
 msgid "\"I don't have time for this, farewell.\""
-msgstr ""
+msgstr "«У меня нет времени на это. Прощай»."
 
 #: 60961
 msgid ""
 "It looks confused. \"Grrrr?\" It makes a feeble threatening gesture toward "
 "you."
 msgstr ""
+"Оно смущается. «Гр-р-р?» - оно неуверенно делает угрожающий жест в твою "
+"сторону."
 
 #: 60962
 msgid "\"I asked you if I'm supposed to be frightened by that.\""
-msgstr ""
+msgstr "«Я спросил тебя, следует ли мне от этого пугаться»."
 
 #: 60965
 msgid ""
@@ -70,11 +77,15 @@ msgid ""
 "will give me the advantage in the fight that follows.\" It leaps to the "
 "attack."
 msgstr ""
+"Оно молча стоит, обдумывая твой вопрос. «Да. Звук *гр-р-р* означает угрозу. "
+"Я добавил соответствующий жест для придания веса этой угрозе. Страх является "
+"ожидаемой реакцией, которая даст мне преимущество в предстоящей битве». Оно "
+"бросается в атаку."
 
 #: 60966 60971 60973 60976 60978 60990 60995 60997 60999 61001 61003 61014
 #: 61019 61021 61023 61025
 msgid "Defend yourself."
-msgstr ""
+msgstr "Защищаться."
 
 #: 60967
 msgid ""
@@ -82,20 +93,24 @@ msgid ""
 "staring at you with its head cocked to one side, unsure of what to do. \"I "
 "am a monster. Now we do battle?\""
 msgstr ""
+"Твой вопрос полностью сбивает существо с толку. Склонив голову набок, оно "
+"смотрит на тебя, не зная, что делать дальше. «Я - монстр. Сразимся?»"
 
 #: 60968
 msgid "\"You've got to be kidding...\""
-msgstr ""
+msgstr "«Ты, наверно, шутишь...»"
 
 #: 60969 60993 61017
 msgid "Attack the creature."
-msgstr ""
+msgstr "Атаковать существо."
 
 #: 60970
 msgid ""
 "It continues to stare at you for a moment. \"No... Grrrr.\" It leaps to the "
 "attack."
 msgstr ""
+"Существо все еще неуверенно смотрит на тебя. «Нет... Гр-р-р». Оно бросается "
+"в атаку."
 
 #: 60972
 msgid ""
@@ -103,6 +118,9 @@ msgid ""
 "low intelligence, and a feeble weapon that I can use with little skill.\" It "
 "leaps to the attack."
 msgstr ""
+"«Я - легкий боевой конструкт. Мои текущие характеристики: слабые боевые "
+"способности, низкий интеллект, слабое оружие и плохое владение им». Оно "
+"бросается в атаку."
 
 #: 60975
 msgid ""
@@ -112,6 +130,11 @@ msgid ""
 "as follows: *Grrrr* sound, threatening gesture, and battle.\" It leaps to "
 "the attack."
 msgstr ""
+"Оно стоит, склонив голову набок и не зная, что делать. «Я - житель "
+"подземелья. Ты вторгся в мое личное пространство и теперь должен ответить за "
+"последствия. Поэтому я инициирую соответствующую атакующую "
+"последовательность, состоящую из звука *гр-р-р*, угрожающего жеста и битвы». "
+"Оно бросается в атаку."
 
 #: 60977
 msgid ""
@@ -119,20 +142,22 @@ msgid ""
 "driven before me. Hear the lamentations of the women. I am victorious.\" It "
 "leaps to the attack."
 msgstr ""
+"Существо вскидывает свое оружие. «Узрите моего врага, гонимого мной. "
+"Услышьте стенания женщин. Победа будет за мной». Оно бросается в атаку."
 
 #: 60982
 msgid ""
 "\"Die in the name of the Evil Wizard!\" The creature brandishes a weapon at "
 "you."
-msgstr ""
+msgstr "«Умри во имя Злого Мага!» Существо поднимает на тебя оружие."
 
 #: 60983
 msgid "\"What evil wizard are you talking about?\""
-msgstr ""
+msgstr "«О каком еще злом маге ты говоришь?»"
 
 #: 60987
 msgid "\"Am I supposed to be frightened by all of this?\""
-msgstr ""
+msgstr "«Я должен быть напуган всем этим?»"
 
 #: 60989
 msgid ""
@@ -141,16 +166,22 @@ msgid ""
 "Construct to *hard* difficulty level. Boy, will you be in trouble then. "
 "Meanwhile, Die in the name of the Evil Wizard!\" It leaps to the attack."
 msgstr ""
+"Существо перестает размахивать своим оружием и задумчиво умолкает. «Э-э-э... "
+"Его не существует до тех пор, пока ты не установишь Подземелье Рубикон на "
+"*сложный* уровень. О, тогда у тебя точно будут неприятности. А пока - умри "
+"во имя Злого Мага!» Оно бросается в атаку."
 
 #: 60991
 msgid ""
 "\"I am just another faceless minion of evil who you must either destroy or "
 "be destroyed by!\""
 msgstr ""
+"«Я всего лишь один из безликих приспешников зла, который либо уничтожит "
+"тебя, либо будет уничтожен!»"
 
 #: 60992
 msgid "\"This is a joke, right?\""
-msgstr ""
+msgstr "«Это ведь шутка, да?»"
 
 #: 60994
 msgid ""
@@ -158,12 +189,17 @@ msgid ""
 "into one that it feels to be appropriate. \"You mock me! Die, putrid "
 "offspring of a humanoid female!\" It leaps to the attack."
 msgstr ""
+"На лице существа сменяется несколько гримас, пока оно не принимает "
+"наилучший, по его мнению, облик. «Ты издеваешься надо мной! Умри, гнилостный "
+"отпрыск самки гуманоида!» Оно бросается в атаку."
 
 #: 60996
 msgid ""
 "\"I am a light combat construct programmed to kill all intruders who dare to "
 "challenge Rubikon!\" It leaps to the attack."
 msgstr ""
+"«Я - легкий боевой конструкт, запрограммированный убивать всех непрошенных "
+"гостей, посмевших вторгнуться в Рубикон!» Оно бросается в атаку."
 
 #: 60998
 msgid ""
@@ -171,6 +207,9 @@ msgid ""
 "Dungeon Construct. Now I am going to become hostile and either kill you or "
 "die by your hand!\" It leaps to the attack."
 msgstr ""
+"«Я следую сценарию, прикрепленному к типу моей модели Подземельем Рубикон. "
+"Теперь я собираюсь стать враждебным и либо убить тебя, либо погибнуть от "
+"твоей руки!» Оно бросается в атаку."
 
 #: 61000
 msgid ""
@@ -180,6 +219,10 @@ msgid ""
 "he finally defeats the evil one due to an act of total stupidity.\" It leaps "
 "to the attack."
 msgstr ""
+"Существо перестает размахивать оружием и умолкает на некоторое время. «Да... "
+"Упоминание злодея всегда привносит страх в сердца масс, давая герою причину "
+"пройти полных опасностей путь, в конце которого он повергнет злодея "
+"благодаря какому-то глупому проступку». Оно бросается в атаку."
 
 #: 61002
 msgid ""
@@ -187,6 +230,9 @@ msgid ""
 "before me in all my might and splendor. Beg not for mercy, worm. For I have "
 "none to give!\" It leaps to the attack."
 msgstr ""
+"Существо сотрясает своим оружием. «Узрите же этого жалкого червя, "
+"съежившегося пред лицом моего величия и великолепия. Не надейся на пощаду, "
+"червяк. Ее от меня ты не получишь!» Оно бросается в атаку."
 
 #: 61007
 msgid ""
@@ -194,10 +240,14 @@ msgid ""
 "terror. \"Eeeek! It is the hero, sent here no doubt, to slay the evil one. "
 "Woe to me, the hapless construct on duty at the time of his arrival!\""
 msgstr ""
+"Существо неожиданно сводит с тебя свой хмурый взгляд и начинает изображать "
+"притворный страх. «А-а-а! Это тот герой, что был послан сюда сокрушить "
+"злодея. О горе мне, несчастному конструкту, которому не посчастливилось "
+"встретиться с ним!»"
 
 #: 61008
 msgid "\"What are you going on about?\""
-msgstr ""
+msgstr "«Чего это ты делаешь?»"
 
 #: 61013
 msgid ""
@@ -206,26 +256,34 @@ msgid ""
 "cooperate? Where were we...\" It pauses to think for a moment. \"Oh, I "
 "remember, I was about to trounce you.\" It leaps to the attack."
 msgstr ""
+"Существо строго смотрит на тебя, уперев руки в бока. «Сюжет, болван, "
+"придерживайся сюжета. Как мне играть свою часть, если ты не собираешься мне "
+"помогать? Так, на чем мы остановились... - оно на секунду задумывается. - Ах "
+"да, вспомнил: я собирался побить тебя». Оно бросается в атаку."
 
 #: 61015
 msgid ""
 "The creature pauses to think for a moment then gives an exaggerated shrug of "
 "its shoulders. \"Your hapless victim?\" It readies itself for an attack."
 msgstr ""
+"Существо некоторое время думает, после чего подчеркнуто пожимает плечами. "
+"«Твоя несчастная жертва?» Оно готово броситься в атаку."
 
 #: 61016
 msgid "\"This can't be happening, can it?\""
-msgstr ""
+msgstr "«Этого не может быть, так ведь?»"
 
 #: 61018
 msgid "\"Ah! But it is! Have at ye, knave!\" It leaps to the attack."
-msgstr ""
+msgstr "«А! Но это случилось! Держись, подлец!» Оно бросается в атаку."
 
 #: 61020
 msgid ""
 "\"I am the dungeon inhabitant that is going to attempt to kick your arse!\" "
 "It leaps to the attack."
 msgstr ""
+"«Я житель подземелья, который собирается надрать тебе задницу!» Оно "
+"бросается в атаку."
 
 #: 61022
 msgid ""
@@ -234,10 +292,26 @@ msgid ""
 "then straightens and begins to call out in a frightened voice. \"To arms, "
 "fellow constructs, we must strike down the hero!\" It leaps to the attack."
 msgstr ""
+"Существо наклоняется ближе и шепчет тебе. «В данный момент я выполняю "
+"сценарий напуганного прихвостня, который впервые видит героя, - оно "
+"выпрямляется и начинает кричать напуганным голосом. - К оружию, конструкты, "
+"мы должны победить героя!» Оно бросается в атаку."
 
 #: 61024
+#, fuzzy
 msgid ""
 "The creature gives you a dark but gloating look. \"Nay, snake. You cannot "
 "flee the terror that stands before you. When one transgresses as you have, "
 "one must pay the price.\" It leaps to the attack."
 msgstr ""
+"Лицо существа мрачнеет и становится злорадным. «Нет, змей. Ты не можешь "
+"сбежать от ужаса, который стоит перед тобой. Когда все заходит слишком "
+"далеко, кто-то должен заплатить сполна». Оно бросается в атаку."
+
+#~ msgid ""
+#~ "You see a mechanical man with pale green skin. Although it is obviously a "
+#~ "construct, it does have an animated face, which is scowling at you.  "
+#~ msgstr ""
+#~ "Перед тобой механический человек с бледно-зеленой кожей. Хотя очевидно, "
+#~ "что это конструкт, у него подвижное лицо, которое в данный момент угрюмо "
+#~ "смотрит на тебя."

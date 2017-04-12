@@ -1,100 +1,106 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: droberta.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2012-04-25 01:44+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.4\n"
 
 #: 4773
 msgid "\"No, that's it. So long.\""
-msgstr ""
+msgstr "«Нет, это все. До встречи»."
 
 #: 58513
 msgid ""
 "You see a well-dressed, middle-aged woman. She has a scowl on her face and "
 "appears to be looking for someone or something."
 msgstr ""
+"Ты видишь хорошо одетую женщину средних лет с рассерженным лицом. Похоже она "
+"ищет кого-то или что-то."
 
 #: 58514
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 58515
 msgid "Ignore her."
-msgstr ""
+msgstr "Игнорировать ее."
 
 #: 58516
 msgid ""
 "She stops and stares at you for a moment before answering. \"Who are you and "
 "what do you want of me?\""
 msgstr ""
+"Она останавливается и пристально смотрит на тебя. «Кто вы такой и что вам "
+"нужно от меня?»"
 
 #: 58517
 msgid "Lie: \"I'm Adahn and I have some questions...\""
-msgstr ""
+msgstr "Ложь: «Меня зовут Адан, и у меня есть несколько вопросов...»"
 
 #: 58518
 msgid "\"I don't remember my name.\""
-msgstr ""
+msgstr "«Я не помню своего имени»."
 
 #: 58519 58522 58622 58626
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 58520
 msgid "She offers you her hand. \"Good day to you, cutter. I am Roberta.\""
-msgstr ""
+msgstr "Она протягивает тебе руку. «Добрый день, рубака. Меня зовут Роберта»."
 
 #: 58521
 msgid "Taking her hand and bowing: \"Well met, Lady Roberta.\""
-msgstr ""
+msgstr "Поцеловать ее руку и поклониться: «Рад встрече, госпожа Роберта»."
 
 #: 58523
 msgid "\"I believe you had some questions for me?\""
-msgstr ""
+msgstr "«Полагаю, у вас есть ко мне какие-то вопросы?»"
 
 #: 58524
 msgid "\"Yes, Lady.\""
-msgstr ""
+msgstr "«Да, госпожа»."
 
 #: 58525
 msgid "\"Never mind, Lady. Farewell.\""
-msgstr ""
+msgstr "«Не имеет значения, госпожа. Прощайте»."
 
 #: 58526
 msgid "\"I am at your service. Please ask them.\""
-msgstr ""
+msgstr "«Я к вашим услугам. Спрашивайте»."
 
 #: 58527
 msgid "\"I'm looking for a deva. I've been told he's in Curst.\""
-msgstr ""
+msgstr "«Я ищу одного дэва. Мне сказали, что он в Проклятом»."
 
 #: 58528
 msgid "\"You seem upset. Is something amiss?\""
-msgstr ""
+msgstr "«Похоже, вы вне себя. Что-то не так?»"
 
 #: 58529
 msgid "\"Anything of interest happening here?\""
-msgstr ""
+msgstr "«Здесь происходит что-нибудь достойное внимания?»"
 
 #: 58530
 msgid "\"Can you tell me about Curst?\""
-msgstr ""
+msgstr "«Что вы можете рассказать о Проклятом?»"
 
 #: 58531
 msgid "\"Who's in charge here?\""
-msgstr ""
+msgstr "«Кто здесь всем управляет?»"
 
 #: 58532
 msgid "\"I must take my leave. Farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощайте»."
 
 #: 58533
 msgid ""
@@ -102,14 +108,17 @@ msgid ""
 "unable to help you. I do not know the whereabouts of such a creature. You "
 "should inquire at the administration office in the town square.\""
 msgstr ""
+"Она задумывается. «До меня тоже доходили эти слухи. К сожалению, в этом я не "
+"смогу вам помочь. Я не знаю, где может находиться подобное существо. Вам "
+"следует справиться в административном здании на городской площади»."
 
 #: 58534 58598 58601
 msgid "\"I see. I have some other questions...\""
-msgstr ""
+msgstr "«Понятно. У меня есть другие вопросы...»"
 
 #: 58536 58599 58602
 msgid "\"I thank you. Farewell.\""
-msgstr ""
+msgstr "«Спасибо вам. Прощайте»."
 
 #: 58538
 msgid ""
@@ -118,18 +127,23 @@ msgid ""
 "whereabouts and I am beginning to think that he...\" She pauses for a "
 "moment. \"I am beginning to think he is with another woman. A harlot.\""
 msgstr ""
+"Она хмурится. «Да... Мой муж, Карл Парфидор, вопреки его словам, находится "
+"не там, где он должен был быть. И это случается уже не в первый раз, когда "
+"он лжет мне о своем местонахождении. Я начинаю думать, что он... - она "
+"делает небольшую паузу. - Я начинаю думать, что он сейчас с другой женщиной. "
+"С проституткой»."
 
 #: 58539
 msgid "\"Why would you think that?\""
-msgstr ""
+msgstr "«Почему вы так думаете?»"
 
 #: 58541 58548 58558 58583 58595
 msgid "\"I have some other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 58544 58550 58561 58584
 msgid "\"I must be going, farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощайте»."
 
 #: 58545
 msgid ""
@@ -137,10 +151,14 @@ msgid ""
 "type of woman, and I've heard rumors...\" She looks angry. \"If I find the "
 "rumors to be true then I have a surprise for him.\""
 msgstr ""
+"Она вздыхает. «До того, как мы поженились, он был популярен среди дам, "
+"особенно среди этого типа женщин, кроме того, до меня доходили слухи... - "
+"она выглядит рассерженной. - Если я узнаю, что эти слухи являются правдой, я "
+"приготовлю сюрприз для него»."
 
 #: 58546
 msgid "\"A surprise?\""
-msgstr ""
+msgstr "«Сюрприз?»"
 
 #: 58552
 msgid ""
@@ -149,16 +167,23 @@ msgid ""
 "smile. \"I think finding this protruding from his back would constitute a "
 "surprise. Do you not agree?\" She puts the blade away."
 msgstr ""
+"«Да». Она задирает юбку, демонстрируя свое бедро. Ты видишь кинжал в "
+"привязанных к ее ноге ножнах. Со зловещей улыбкой она достает клинок. "
+"«Думаю, что эта вещь, торчащая из его спины, вполне пойдет в качестве "
+"сюрприза, вы не находите?» Она опускает кинжал."
 
 #: 58555
 msgid "\"So, you intend to kill him?\""
-msgstr ""
+msgstr "«Так вы хотите убить его?»"
 
 #: 58565
 msgid ""
 "A woman named Roberta Parfidor wants her husband, Carl, dead. It seems he "
 "has a taste for other women and Roberta doesn't like it. Interesting."
 msgstr ""
+"Женщина по имени Роберта Парфидор, хочет убить своего мужа Карла. Очень "
+"похоже, что в этом замешаны другие женщины, и Роберте это не нравится. "
+"Интересно."
 
 #: 58570
 msgid ""
@@ -168,12 +193,20 @@ msgid ""
 "such a blow.\" She looks away for a moment. \"Only one of his *women* "
 "could...\" "
 msgstr ""
+"Улыбка медленно сходит с ее лица, когда осознает свои слова. В конце концов, "
+"она со вздохом вкладывает кинжал назад в ножны. «Если бы я только могла... "
+"но нет, не надо быть такой наивной. Карл и я больше... не близки. Я не смогу "
+"оказаться настолько близко, чтобы преподнести подобный подарок». Она отводит "
+"взгляд. «Вот если только одна из его *женщин* согласилась...»"
 
 #: 58582 58624
 msgid ""
 "\"I know a harlot named Kiri who needs money. Maybe she could get close "
 "enough to do the deed...\""
 msgstr ""
+"«Я знаю одну проститутку по имени Кири, которой очень нужны деньги. "
+"Возможно, она сможет оказаться достаточно близко, чтобы выполнить это "
+"дело...»"
 
 #: 58585
 msgid ""
@@ -182,28 +215,33 @@ msgid ""
 "employment? I'll pay you five hundred coin apiece upon completion of the "
 "deed.\""
 msgstr ""
+"Она секунду смотрит на тебя. «Понимаю...» Оглядевшись, она наклоняется ближе "
+"и шепчет: «Не могли бы вы найти к ней подход и предложить ей... работу? Я "
+"заплачу пять сотен монет каждому сразу же после выполнения дела»."
 
 #: 58586
 msgid "\"That's not a lot of jink.\""
-msgstr ""
+msgstr "«Это не такая уж большая сумма денег»."
 
 #: 58587
 msgid "\"I don't think so. Farewell.\""
-msgstr ""
+msgstr "«Я так не думаю. Прощайте»."
 
 #: 58588 58593 58629
 msgid "\"I can use the jink. I'll talk to Kiri.\""
-msgstr ""
+msgstr "«Я согласен. Нужно переговорить с Кири»."
 
 #: 58589
 msgid "I refused to help Roberta Parfidor kill her husband, Carl."
-msgstr ""
+msgstr "Я отказался помочь Роберте Парфидор убить ее мужа Карла."
 
 #: 58590
 msgid ""
 "I agreed to help Roberta Parfidor kill her husband, Carl. I need to talk to "
 "the harlot, Kiri, and see if she will take the job."
 msgstr ""
+"Я согласился помочь Роберте Парфидор убить ее мужа, Карла. Теперь мне нужно "
+"переговорить с проституткой Кири и убедиться, что она возьмется за работу."
 
 #: 58591
 msgid ""
@@ -211,10 +249,13 @@ msgid ""
 "The two of you can be five hundred coins richer... or not. The choice is "
 "yours.\""
 msgstr ""
+"Она хмурится. «Хмм. Возможно, это и так, однако я заплачу именно такую "
+"сумму. Каждый из вас двоих сможет стать на пятьсот монет богаче... а может "
+"не стать. Выбор за вами»."
 
 #: 58592
 msgid "\"I'll pass. Farewell.\""
-msgstr ""
+msgstr "«Я - пас. Прощайте»."
 
 #: 58594
 msgid ""
@@ -222,10 +263,13 @@ msgid ""
 "convenience but do not dawdle. Upon completion, you may contact me and I "
 "will see to your payment.\""
 msgstr ""
+"Она улыбается. «Великолепно. Если она согласится, пусть выполнит работу по "
+"своему усмотрению, но пусть не затягивает с ним. По выполнению вы сможете "
+"встретиться со мной, и я выплачу вашу награду»."
 
 #: 58596 58606 58609
 msgid "\"I must be going now. Farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощайте»."
 
 #: 58597
 msgid ""
@@ -233,6 +277,9 @@ msgid ""
 "disappeared. The daughter of some barkeep. I know nothing of the details. "
 "Other than that, I can think of nothing out of the ordinary.\""
 msgstr ""
+"Она немного задумывается. «Я слышала, что пропала одна девушка, дочь какого-"
+"то хозяина таверны. Однако подробностей не знаю. Кроме этого, кажется, "
+"больше ничего необычного не происходит»."
 
 #: 58600
 msgid ""
@@ -240,20 +287,25 @@ msgid ""
 "excrement that fills it.\" She shrugs. \"Nothing more need be said on this "
 "subject.\""
 msgstr ""
+"Улыбнувшись тебе, она смеется. «Проклятый - это навозная куча, и мы - "
+"экскременты, которые наполняют ее, - она пожимает плечами. - Не будем больше "
+"об этом»."
 
 #: 58603
 msgid ""
 "\"Tovus Giljaf. He can be found at the administration office in the town "
 "square.\""
 msgstr ""
+"«Товус Гильяф. Его можно найти в административном здании на городской "
+"площади»."
 
 #: 58604
 msgid "\"What can you tell me about Tovus?\""
-msgstr ""
+msgstr "«Что вы можете сказать о Товусе?»"
 
 #: 58605 58608 58621
 msgid "\"I have some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 58607
 msgid ""
@@ -261,16 +313,20 @@ msgid ""
 "know little about him, other than the fact that he is a githzerai and a "
 "wizard.\""
 msgstr ""
+"«Товус - довольно... эксцентричная личность, - она задумывается, - Я мало "
+"знаю о нем, кроме того, что он гитцерай и волшебник»."
 
 #: 58610
 msgid ""
 "She looks at you with mild surprise. \"Really. Are you, by chance, a "
 "petitioner? I understand that they often lose their memories.\""
 msgstr ""
+"Она снисходительно и удивленно смотрит на тебя. «Неужели? Быть может, вы - "
+"проситель? Насколько я знаю, они часто теряют свои воспоминания»."
 
 #: 58611
 msgid "\"What's a petitioner?\""
-msgstr ""
+msgstr "«Кто такой проситель?»"
 
 #: 58612
 msgid ""
@@ -279,10 +335,13 @@ msgid ""
 "beliefs in life. They usually have no knowledge of their previous existence. "
 "Perhaps this is the case with you.\""
 msgstr ""
+"Она задумывается. «Просители... это умершие, чьи тела появляются на плане, "
+"наиболее соответствующем их убеждениям при жизни. Обычно они ничего не знают "
+"о своем прошлом существовании. Возможно, это случилось и с вами»."
 
 #: 58613
 msgid "\"Possibly... This rebirth. How many times can this happen?\""
-msgstr ""
+msgstr "«Возможно... Это возрождение. Сколько раз такое может случаться?»"
 
 #: 58614
 msgid ""
@@ -291,32 +350,38 @@ msgid ""
 "itself. Unless, of course, you have traveled to another plane. If that is "
 "the case then upon death you obtain oblivion.\" "
 msgstr ""
+"«Ну... Я не специалист в подобных делах, но мне кажется, что такое может "
+"случиться только один раз. После смерти дух возвращается на свой план. Если "
+"только, конечно же, вы не путешествовали на другой план. В этом случае после "
+"смерти вы будете преданы забвению»."
 
 #: 58615
 msgid "\"I see. In any case, I have no name to give you.\""
-msgstr ""
+msgstr "«Понимаю. В любом случае, я не могу назвать вам своего имени»."
 
 #: 58616
 msgid "\"I thank you. I must take my leave of you now. Farewell.\""
-msgstr ""
+msgstr "«Спасибо вам. Вынужден покинуть вас, я должен идти. Прощайте»."
 
 #: 58617
 msgid ""
 "You see Roberta. She smiles at your approach. \"Good day to you, cutter. How "
 "may I serve you?\""
 msgstr ""
+"Перед тобой Роберта. Она улыбается тебе. «Добрый день, рубака. Чем могу вам "
+"полезна?»"
 
 #: 58618 58619 58620
 msgid "\"Do you still want your husband... dealt with?\""
-msgstr ""
+msgstr "«Вы все еще хотите, чтобы с вашим мужем... разобрались?»"
 
 #: 58623
 msgid "She smiles at you. \"Yes, I certainly do. Why do you ask?\""
-msgstr ""
+msgstr "Она улыбается тебе. «Да, хочу. А почему вы спрашиваете?»"
 
 #: 58625
 msgid "\"Just curious. I have some other questions...\""
-msgstr ""
+msgstr "«Просто любопытно. У меня есть еще вопросы...»"
 
 #: 58627
 msgid ""
@@ -324,20 +389,25 @@ msgid ""
 "five hundred coin apiece for you and your accomplice. Does this mean you "
 "have reconsidered my offer?\""
 msgstr ""
+"Она хмурится. «Да, хочу. Но ведь вы отказались от моего предложения в пять "
+"сотен монет для вас и вашей сообщницы. Означает ли это, что вы передумали?»"
 
 #: 58628
+#, fuzzy
 msgid "\"No, not really. Farewell.\""
-msgstr ""
+msgstr "«Нет, не передумал. Прощайте»."
 
 #: 58637
 msgid ""
 "She frowns at you. \"Yes, I certainly do. You accepted the contract already, "
 "has the deed been done?\""
 msgstr ""
+"Она хмурится. «Да, хочу. Вы уже приняли условия контракта, дело уже "
+"выполнено?»"
 
 #: 58638
 msgid "\"No, not yet. I'm working on it. Farewell.\""
-msgstr ""
+msgstr "«Нет, еще нет. Я работаю над этим. Прощайте»."
 
 #: 58639
 msgid ""
@@ -345,10 +415,13 @@ msgid ""
 "examining her surroundings carefully. \"Hello. I can only assume that you've "
 "come for your money?\" She smiles at you."
 msgstr ""
+"Перед тобой Роберта. Она выглядит особенно счастливой. Она внимательно "
+"оглядывается по сторонам. «Здравствуйте. Наверное, вы пришли за своими "
+"деньгами?» Она улыбается тебе."
 
 #: 58640
 msgid "\"Yes, the job you hired me to do has been completed.\""
-msgstr ""
+msgstr "«Да, работа, на которую вы меня наняли, выполнена»."
 
 #: 58641
 msgid ""
@@ -357,19 +430,26 @@ msgid ""
 "friend did a... *thorough* job on Carl. My compliments to the both of you.\" "
 "She hands you a heavy purse. \"Here is your share; I've paid Kiri already.\""
 msgstr ""
+"Перед тем, как ответить, она снова оглядывается. «Хорошо. Вот обещанные вам "
+"деньги». Ее лицо приняло озабоченный вид. «Э-э-э... ваша подруга выполнила "
+"работу с Карлом... весьма *основательно*. Мои комплименты вам обоим». Она "
+"передает тебе тяжелый кошель. «Вот ваша награда. Кири я уже заплатила»."
 
 #: 58642
 msgid "\"Thank you. It's been a pleasure doing business with you.\""
-msgstr ""
+msgstr "«Спасибо. Было очень приятно иметь с вами дело»."
 
 #: 58643
 msgid "You see Roberta. \"Hello again, cutter. Can I help you?\""
 msgstr ""
+"Перед тобой Роберта. «И снова здравствуйте, рубака. Я чем-нибудь могу помочь "
+"вам?»"
 
 #: 58644 58659
 msgid ""
 "\"Yes, I would like to see Tovus Giljaf. Do you think you could arrange it?\""
 msgstr ""
+"«Да, я бы хотел увидеться с Товусом Гильяфом. Вы сможете устроить встречу?»"
 
 #: 58645
 msgid ""
@@ -377,14 +457,17 @@ msgid ""
 "You maggot infested dung heap! Look what has become of me because of you!\" "
 "Her face is so red you think she may burst."
 msgstr ""
+"Перед тобой Роберта. Когда она замечает тебя, она выходит из себя. «Ты! "
+"Личинка навозная! Смотри, что случилось со мной из-за тебя!» Ее лицо "
+"настолько раскраснелось, что готово вот-вот взорваться."
 
 #: 58646
 msgid "\"Because of me? I'm not the one who plotted the death of my spouse.\""
-msgstr ""
+msgstr "«Из-за меня? Это же не я задумал смерть своего супруга»."
 
 #: 58647 58650 58653
 msgid "\"I must be going now, farewell.\""
-msgstr ""
+msgstr "«Я должен идти, прощайте»."
 
 #: 58648
 msgid ""
@@ -392,30 +475,35 @@ msgid ""
 "betrayed my trust! Carl gloated over your treachery before he sent me here! "
 "You spawn of a harlot!\""
 msgstr ""
+"Она буквально плюется в тебя словами. «Ты предал меня! Карл злорадствовал по "
+"поводу твоего подлого предательства перед тем, как отправить меня сюда! "
+"Шлюший выкидыш!»"
 
 #: 58649
 msgid "\"Speaking of harlots, did Kiri make it down here as well?\""
-msgstr ""
+msgstr "«Кстати, о проститутках. Кири ведь тоже здесь?»"
 
 #: 58651
 msgid ""
 "She screams at you. \"Arrrrrrhhh! You know the answer, lover of goats! You "
 "wish to torture me more with this play of innocence!\" "
 msgstr ""
+"Она срывается на крик. «А-а-а! Ты уже знаешь ответ, козлоеб! Зачем еще "
+"мучить меня, изображая саму невинность!»"
 
 #: 58652
 msgid "\"Pretend I don't and tell me what happened to her.\""
-msgstr ""
+msgstr "«Я не притворяюсь. Скажи, что стало с ней»."
 
 #: 58654
 msgid ""
 "\"The treacherous wench. She set herself up as Carl's mistress and avoided "
 "prison!\""
-msgstr ""
+msgstr "«Коварная шлюха. Она стала дамой Карла и избежала тюрьмы!»"
 
 #: 58655
 msgid "\"Smart girl... Well, I must be going now. Farewell.\""
-msgstr ""
+msgstr "«Умная девочка... Что ж, мне пора идти. Прощай»."
 
 #: 58656
 msgid ""
@@ -423,26 +511,36 @@ msgid ""
 "this. I will not be in this pit forever, and I will not forget you or the "
 "harlot!\""
 msgstr ""
+"Она смотрит на тебя полным ненависти взглядом. «Да... уходи, но знай. Я не "
+"буду в этой дыре вечно, и я не забуду ни тебя, ни проститутку!»"
 
 #: 58657
 msgid "Ignore her and leave."
-msgstr ""
+msgstr "Игнорировать ее и уйти."
 
 #: 58658
 msgid ""
 "She gives you a slight bow. \"Is there anything else I can do for you?\""
-msgstr ""
+msgstr "Она отмеряет тебе легкий поклон. «Я могу вам чем-нибудь еще полезной?»"
 
 #: 58660
 msgid "\"No, I don't think so. Farewell.\""
-msgstr ""
+msgstr "«Нет, не думаю. Прощайте»."
 
 #: 58661
 msgid ""
 "She smiles at you. \"Tovus... I'm sorry, cutter. He's very busy these days "
 "and I've not been able to contact him myself.\""
 msgstr ""
+"Она улыбается. «Товус... Прошу прощения, рубака. Последнее время он очень "
+"занят, и даже я лично не могу увидеться с ним»."
 
 #: 58662
 msgid "\"Thank you. Farewell.\""
-msgstr ""
+msgstr "«Спасибо. Прощайте»."
+
+#~ msgid "\"I have some other quesitons...\""
+#~ msgstr "«У меня есть другие вопросы...»"
+
+#~ msgid "\"Do you still want your husband... dealt with?"
+#~ msgstr "«Вы все еще хотите, чтобы с вашим мужем... разобрались?»"

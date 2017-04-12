@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dscpat4.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2012-02-05 04:21+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: 10941
 msgid ""
@@ -20,49 +22,56 @@ msgid ""
 "believe her senses. When she focuses on you, she speaks sharply, but not "
 "angrily. \"Do you need something?\""
 msgstr ""
+"Перед тобой женщина с отрешенным лицом. Он не очень молода, но и не очень "
+"стара. Кажется, на ее лице можно прочесть легкое недоверие. Это выражение "
+"говорит о том, что она не верит своим чувствам. Обратив на тебя внимание, "
+"она резко, но не грубо спрашивает: «Тебе что-то нужно?»"
 
 #: 10942 10974
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 10943 10975
 msgid "\"I'm looking for a journal.\""
-msgstr ""
+msgstr "«Я ищу дневник»."
 
 #: 10944 10976
 msgid ""
 "\"I'm looking for a Collector by the name of Pharod. Have you seen or heard "
 "of him?\""
 msgstr ""
+"«Я ищу сборщика по имени Фарод. Ты видела его или, может быть, слышала о "
+"нем?»"
 
 #: 10945 10977
 msgid "\"What can you tell me about this place?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать об этом месте?»"
 
 #: 10946 10978
 msgid "\"Who is that burning by the entryway?\""
-msgstr ""
+msgstr "«Кто это горит у входа?»"
 
 #: 10947 10979
 msgid "\"What was that you and your friend were saying about Sigil?\""
-msgstr ""
+msgstr "«Что ты со своим другом говорили о Сигиле?»"
 
 #: 10948 10980
 msgid "\"Nothing. Good day.\""
-msgstr ""
+msgstr "«Ничего. Хорошего дня»."
 
 #: 10949
 msgid "\"Do you need something?\""
-msgstr ""
+msgstr "«Тебе что-то нужно?»"
 
 #: 10950
 msgid "\"The answers to some questions.\""
-msgstr ""
+msgstr "«Ответь на несколько вопросов»."
 
 #: 10951
 msgid "\"No. Farewell.\""
-msgstr ""
+msgstr "«Нет. Прощай»."
 
+# Мде. Киарус Языкастая. Ничего на ум лучше не приходит. wh
 #: 10952
 msgid ""
 "\"I'm Kiarus. Kiarus Thorntongue. I'm here with my cousin, because my uncle "
@@ -70,24 +79,29 @@ msgid ""
 "competent on my own. He may be right. I don't know this city or this plane "
 "very well. I'm not from here. I'm from the Prime.\""
 msgstr ""
+"«Я Киарус. Киарус Языкастая. Я здесь со своим кузеном, потому что мой дядя "
+"не хочет, чтобы я ходила по Улью одна. Похоже, он считает, что я не смогу "
+"постоять за себя. Возможно, он прав. Я не очень хорошо знаю этот город или "
+"план. Я не здешняя. Я с Первичного»."
 
 #: 10953
 msgid "\"The Prime? What's that?\""
-msgstr ""
+msgstr "«Первичного? Что это значит?»"
 
 #: 10954
 msgid "\"You're from the Prime?\""
-msgstr ""
+msgstr "«Ты с Первичного?»"
 
 #: 10955
 msgid "\"Well, you still might be able to answer my questions.\""
-msgstr ""
+msgstr "«Ну что же, может ты все-таки сможешь ответить на мои вопросы»."
 
 #: 10956
 msgid "\"Then you probably can't answer my questions. Farewell.\""
-msgstr ""
+msgstr "«Тогда, скорее всего, ты не сможешь ответить на мои вопросы. Прощай»."
 
 #: 10957
+#, fuzzy
 msgid ""
 "\"Sorry. I'm new in town, and I can assure you I haven't seen anything that "
 "I'd recognize as a journal - though I am told that something that appears to "
@@ -95,14 +109,19 @@ msgid ""
 "still trying to get my head around the philosophy here. It's a little "
 "overwhelming, but they say if you stick with it, it becomes much easier.\""
 msgstr ""
+"«Извини, я недавно в городе. Могу тебя заверить, что я не встречала ничего, "
+"что можно принять за дневник - хотя мне сказали, что кто-то может быть "
+"дневником для другого существа. Я все еще пытаюсь совладать со здешней "
+"философией. Она немного тяжела для восприятия, но мне сказали, что если ее "
+"усвоить, все станет намного проще»."
 
 #: 10958
 msgid "\"That's a relief. I'd like to get some answers from you.\""
-msgstr ""
+msgstr "«Какое облегчение. Я бы хотел задать еще пару вопросов»."
 
 #: 10959
 msgid "\"I certainly hope so. Farewell.\""
-msgstr ""
+msgstr "«Очень надеюсь на это. Прощай»."
 
 #: 10960
 msgid ""
@@ -111,46 +130,58 @@ msgid ""
 "with cream to create an entirely unappetizing new flavor. Of course, being "
 "from the Prime, my perceptions might be jaundiced.\""
 msgstr ""
+"«Это, насколько я знаю, таверна 'Тлеющий труп', названная так в честь того "
+"несчастного у входа. По моему мнению, это что-то типа тематического бара, "
+"где пена смешивается с кремом, создавая новый, совершенно неаппетитный вкус. "
+"Конечно же, мое мнение, существа с Первичного, может быть предубежденным»."
 
 #: 10961
 msgid "\"You're from the Prime? What does that mean?\""
-msgstr ""
+msgstr "«Ты с Первичного? Что это значит?»"
 
 #: 10962
 msgid "\"You're from the Prime? What are you doing here?\""
-msgstr ""
+msgstr "«Ты с Первичного? А что ты тут делаешь?»"
 
 #: 10963
 msgid ""
 "\"That's possible. Things are not always as they seem here. Can you answer "
 "some questions for me?\""
 msgstr ""
+"«Возможно. Некоторые вещи кажутся не тем, чем они на самом деле являются. "
+"Ответишь еще на парочку вопросов?»"
 
 #: 10964
 msgid "\"That's possible. Farewell.\""
-msgstr ""
+msgstr "«Возможно. Прощай»."
 
 #: 10965
+#, fuzzy
 msgid ""
 "\"That is Ignus. He attempted to burn down a portion of the city some time "
 "back - centuries? - and was punished by being turned into a living flame. A "
 "nasty fate, but fitting for a known pyromaniac and arsonist. From what I "
 "have read, it'd be best to leave him well alone.\""
 msgstr ""
+"«Это Игнус. Когда-то давно - лет сто назад? - он попытался сжечь часть "
+"города, и за это был наказан. Он стал живым факелом. Ужасная судьба, но она "
+"очень подходит для такого пироманьяка и поджигателя. Насколько мне известно, "
+"лучше держать его таким»."
 
 #: 10966
 msgid "\"How do you know so much about the place? Aren't you a prime?\""
-msgstr ""
+msgstr "«Откуда ты так много знаешь об этом месте? Разве ты не первичница?»"
 
 #: 10967
 msgid "\"I'd like to ask you more questions.\""
-msgstr ""
+msgstr "«Я хотел бы задать тебе еще пару вопросов»."
 
 #: 10968
 msgid "\"Thank you. Good day.\""
-msgstr ""
+msgstr "«Спасибо. Хорошего дня»."
 
 #: 10969
+#, fuzzy
 msgid ""
 "\"He's not my friend, he's my cousin. He was just telling me that this isn't "
 "the center of the multiverse, despite it being located smack in the middle "
@@ -160,24 +191,33 @@ msgid ""
 "of power that accumulates here. There is no place like this in the cosmos, "
 "and he's telling me it's nothing special? Ha!\""
 msgstr ""
+"«Он мне не друг, это мой кузен. Он сказал, что это не центр мультивселенной, "
+"несмотря на то, что оно расположено прямо посреди Внешних земель; несмотря "
+"на то, что оно является точкой назначения со всех порталов всего космоса - и "
+"при этом второго такого места нет; несмотря на то, что все боги желают "
+"завладеть им; несмотря на то, что здесь сосредоточение всевозможных сил. Во "
+"вселенной больше нет такого места нет, а он заявляет, что в нем нет ничего "
+"особого? Ха!»"
 
 #: 10970
 msgid ""
 "\"That's an interesting perspective. Perhaps you both have elements of truth?"
 "\""
-msgstr ""
+msgstr "«Очень интересная точка зрения. Возможно, вы оба правы по-своему?»"
 
 #: 10971
 msgid "\"Be that as it may, I'd like to ask more questions.\""
 msgstr ""
+"«Может быть, это так, а может и нет, но мне хотелось задать еще несколько "
+"вопросов»."
 
 #: 10972
 msgid "\"Interesting. I must go now. Farewell.\""
-msgstr ""
+msgstr "«Очень интересно. Мне нужно идти. Прощай»."
 
 #: 10973
 msgid "\"Ask away. I'll answer if I can.\""
-msgstr ""
+msgstr "«Задавай. Отвечу, если смогу»."
 
 #: 10981
 msgid ""
@@ -185,16 +225,21 @@ msgid ""
 "me. Either the place is important, or it is not. Paradox may fuel the "
 "planes, but there must be sense to it somehow.\""
 msgstr ""
+"«Возможно, ты прав, но я нахожу, что подобная относительность выше моего "
+"понимания. Либо это место особенное, либо нет. Может быть, планы и держатся "
+"на парадоксах, но в этом должен быть хоть какой-то здравый смысл»."
 
 #: 10982
 msgid ""
 "\"Not necessarily... but I haven't time to argue this right now. Instead, "
 "I'd like to ask more questions.\""
 msgstr ""
+"«Не обязательно... Но в данный момент у меня нет времени спорить об этом. "
+"Вместо этого я хотел бы задать еще несколько вопросов»."
 
 #: 10983
 msgid "\"I hope so. I need answers. Farewell.\""
-msgstr ""
+msgstr "«Я тоже на это надеюсь. Мне нужны ответы. Прощай»."
 
 #: 10984
 msgid ""
@@ -203,14 +248,19 @@ msgid ""
 "Stars, moons, and so forth? Belief and reality? I sure hope you know what "
 "the Prime is, because it's an essential part of planar knowledge.\""
 msgstr ""
+"Она поднимает голову и недоуменно на тебя смотрит. «Первичный материальный "
+"план? Место, где рождаются убеждения, формирующие Внешние планы? Мир? "
+"Звезды, луны и все такое прочее? Убеждения и реальность? Уверена, что ты "
+"знаешь, что такое Первичный, потому как это неотъемлемая часть планарных "
+"знаний»."
 
 #: 10985
 msgid "\"I knew that. I had other questions.\""
-msgstr ""
+msgstr "«Я знал это. У меня есть другие вопросы»."
 
 #: 10986
 msgid "\"Oh. Well, then. Farewell.\""
-msgstr ""
+msgstr "«О. Ну да. Прощай»."
 
 #: 10987
 msgid ""
@@ -220,21 +270,28 @@ msgid ""
 "desire. I think I might so desire. I am fascinated and repelled. But then, I "
 "suppose that's the nature of the planes, isn't it?\""
 msgstr ""
+"«Путешествую. Расширяю кругозор. Первичный - неплохое место для жизни, но он "
+"слишком... реальный, что ли. Мой дядя дает всем племянниками и племянницам "
+"пожить несколько лет на планах и разрешает остаться, если мы захотим. Я "
+"очарована и шокирована. Но, наверное, в этом и есть вся соль планов, верно?»"
 
 #: 10988
 msgid ""
 "\"As I understand it, yes. Do you have enough knowledge to give me some "
 "answers?\""
 msgstr ""
+"«Насколько я понимаю, да. Тебе хватит знаний, чтобы ответить на некоторые "
+"вопросы?»"
 
 #: 10989
 msgid "\"Yes, it is. Farewell, and good luck.\""
-msgstr ""
+msgstr "«Да, это так. Удачи. Прощай»."
 
 #: 10990
 msgid "\"Yes. Farewell.\""
-msgstr ""
+msgstr "«Да. Прощай»."
 
+# Cielan - возможно опечатка? Кузен, который стоит рядом, представляется как Cilaen Irontoes.
 #: 10991
 msgid ""
 "\"The uncle Cielan and I share is a wizard who makes his home here. He "
@@ -244,14 +301,20 @@ msgid ""
 "my cousin who's lived here his entire life.\" She gestures disparagingly at "
 "the man nearby."
 msgstr ""
+"«Наш с Силаеном дядя - волшебник, который живет здесь. Он периодически "
+"приводит своих родственников на планы, чтобы показать им все красоты и ужасы "
+"мультивселенной. Я хотела быть готовой к путешествию, так что я хорошенько "
+"подготовилась. Возможно, об этом городе я даже знаю больше, чем мой кузен, "
+"который живет тут всю свою жизнь». Она пренебрежительно указывает на "
+"стоящего рядом мужчину."
 
 #: 10992
 msgid "\"That's quite an uncle. Can I ask some other questions?\""
-msgstr ""
+msgstr "«Какой хороший дядя. Могу ли я задать еще несколько вопросов?»"
 
 #: 10993
 msgid "\"That's quite a gift. Farewell.\""
-msgstr ""
+msgstr "«Это просто подарок какой-то. Прощай»."
 
 #: 10994
 msgid ""
@@ -259,20 +322,23 @@ msgid ""
 "thinking. \"Is that one of those haulers of the dead? The poor folk who "
 "collect the Hive's innumerable victims for money?\""
 msgstr ""
+"«Сборщика? Не думаю, что знакома с этим понятием... - она немного "
+"задумывается. - Это не те охотники на трупов? Бедные люди, которые за деньги "
+"собирают бесчисленных жертв Улья?»"
 
 #: 10995
 msgid "\"Yes.\""
-msgstr ""
+msgstr "«Да»."
 
 #: 10996
 msgid ""
 "\"It's apparent you don't know the man, so answer some other questions for "
 "me.\""
-msgstr ""
+msgstr "«Видимо, ты не знаешь его, так что лучше ответь на другие вопросы»."
 
 #: 10997
 msgid "\"Forget it. Farewell.\""
-msgstr ""
+msgstr "«Забудь. Прощай»."
 
 #: 10998
 msgid ""
@@ -281,12 +347,16 @@ msgid ""
 "violence. Your best bet might be to concentrate your search away from the "
 "house of the dead.\""
 msgstr ""
+"«Насколько я понимаю, их больше всего в наиболее отдаленных от Морга районах "
+"Улья, где жизнь бьет ключом и много насилия. Тебе лучше сконцентрировать "
+"свои поиски подальше от дома мертвых»."
 
 #: 10999
 msgid ""
 "\"I might just do that, but first I'd like to ask another question of you.\""
 msgstr ""
+"«Возможно, я так и сделаю, но сначала я бы хотел задать тебе другой вопрос»."
 
 #: 11000
 msgid "\"That's a good suggestion. Thank you, and farewell.\""
-msgstr ""
+msgstr "«Хороший совет. Спасибо и прощай»."

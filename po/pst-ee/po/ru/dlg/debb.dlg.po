@@ -1,20 +1,22 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2011, 2014, 2016.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: debb.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2016-07-15 00:26+0300\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: 11001
 msgid "Refuse to shake."
-msgstr ""
+msgstr "Не подать руки."
 
 #: 11002
 msgid ""
@@ -22,14 +24,17 @@ msgid ""
 "jesting, lad. Hope no hard feelings; can I buy you a tankard or two of "
 "something to smooth any ruffled feathers?\" "
 msgstr ""
+"Рукопожатие у него крепкое. «А теперь я предлагаю свои извинения за "
+"недостойное подтрунивание, парень. Надеюсь, не обижаешься; могу ли я купить "
+"тебе кружку-другую чего-нибудь, чтобы пригладить взъерошенные перышки?»"
 
 #: 11003 11006
 msgid "\"Why not?\""
-msgstr ""
+msgstr "«Почему бы и нет?»"
 
 #: 11004 11007
 msgid "\"No.\""
-msgstr ""
+msgstr "«Нет»."
 
 #: 11005
 msgid ""
@@ -37,6 +42,10 @@ msgid ""
 "apologies for the unfair jesting, lad. Hope no hard feelings; can I buy you "
 "a tankard or two of something to smooth any ruffled feathers?\""
 msgstr ""
+"Он убирает руку. «Справедливо, вполне справедливо. Прямо здесь и сейчас "
+"предлагаю свои извинения за недостойное подтрунивание, парень. Надеюсь, не "
+"обижаешься; могу я купить тебе кружку-другую чего-нибудь чтобы пригладить "
+"взъерошенные перышки?»"
 
 #: 11008
 msgid ""
@@ -46,20 +55,28 @@ msgid ""
 "tankard, puffs on his pipe, and says, \"What can ol' Ebb do for you on this "
 "fine Sigil day?\""
 msgstr ""
+"«Так держать, парень! Обожди здесь». Он встает на ноги и направляется к "
+"бару. Через мгновение он возвращается назад с парой кружек. «Это тебе, "
+"парень. Выпьем!» Сделав большой глоток из своей кружки и затянувшись своей "
+"трубкой, он произносит: «Что старина Эбб может сделать для тебя в этот "
+"чудесный сигильский денек?»"
 
 #: 11009 11012
 msgid "\"I had some questions about this place.\""
-msgstr ""
+msgstr "«У меня есть вопросы об это месте»."
 
 #: 11010 11013 11109 11136 11666
 msgid "\"Nothing. Farewell.\""
-msgstr ""
+msgstr "«Ничего. Прощай»."
 
 #: 11011
 msgid ""
 "\"Fair enough, lad, fair enough.\" He puffs on his pipe, pauses a moment or "
 "two, and says, \"So, what can ol' Ebb do for you on this fine Sigil day?\""
 msgstr ""
+"«Вполне справедливо, парень, вполне справедливо». Он пыхтит своей трубкой, "
+"выдерживая паузу, и произносит: «Что старина Эбб может сделать для тебя в "
+"этот чудесный сигильский денек?»"
 
 #: 11014
 msgid ""
@@ -68,26 +85,30 @@ msgid ""
 "be a seasoned native!\" Ebb chuckles, then takes another drink. \"So what "
 "can I help you with, lad? You need to know the lay of the land?\" Ebb winks."
 msgstr ""
+"«Ну, это я уловил, едва взглянув на тебя. В смысле, не похож ты на местного, "
+"парень... на вид ты совсем из другого теста, никак не бывалый или абориген! "
+"- Эбб издает смешок, и делает очередной глоток. - Итак, чем я могу тебе "
+"помочь, парень? Тебе нужно узнать, что за расклад?» Эбб подмигивает."
 
 #: 11015 11099 56856 56866
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 11016
 msgid "\"What are you doing?\""
-msgstr ""
+msgstr "«Что ты делаешь?»"
 
 #: 11017 11100
 msgid "\"What is this place?\""
-msgstr ""
+msgstr "«Что это за место?»"
 
 #: 11018
 msgid "\"Yes. Tell me how this city and its environs work.\""
-msgstr ""
+msgstr "«Да. Расскажи мне, как все устроено в Сигиле и округе»."
 
 #: 11019 11047
 msgid "\"No. Farewell.\""
-msgstr ""
+msgstr "«Нет. Прощай»."
 
 #: 11020
 msgid ""
@@ -96,22 +117,26 @@ msgid ""
 "two or three decades!\" He chuckles. \"Now, lad, who be you and what trouble "
 "might you be in?\""
 msgstr ""
+"«Эбб Коленоскрип, Третья ступень Гармониума, ныне в отставке и являюсь "
+"голосистым осведомителем, поскольку последние два или три десятка лет мне "
+"уже не так просто передвигать ногами! - он посмеивается. - Итак, парень, кто "
+"ты и в какие неприятности попал?»"
 
 #: 11021
 msgid "\"Third Measure of the Harmonium?\""
-msgstr ""
+msgstr "«Третья степень Гармониума?»"
 
 #: 11022
 msgid "\"What's a tout?\""
-msgstr ""
+msgstr "«Что за осведомитель?»"
 
 #: 11023
 msgid "\"What makes you think I'm in trouble?\""
-msgstr ""
+msgstr "«С чего ты взял, что я попал в неприятности?»"
 
 #: 11024
 msgid "\"Forget it. Farewell.\""
-msgstr ""
+msgstr "«Забудь об этом. Прощай»."
 
 #: 11025
 msgid ""
@@ -123,30 +148,37 @@ msgid ""
 "where I can. An' you look like someone who might need a hand... are you in "
 "some kind of trouble, lad?\""
 msgstr ""
+"Эбб гордо выпускает дым, его лицо обретает суровые черты. «Да, Третья "
+"ступень Гармониума... - он слегка расслабляется. - Хотя я уже много лет не "
+"совершал служебный обход. Скрипеть пером - не совсем моя стезя после всех "
+"тех потасовок и заварушек, в которых я побывал, поэтому я провожу свое время "
+"здесь, в Улье, и помогаю понемногу где могу. Вот ты похож на того, кому "
+"следует подсобить... попал в неприятности, парень?»"
 
 #: 11026
 msgid "\"What fights and skirmishes have you been in?\""
-msgstr ""
+msgstr "«В каких заварушках и потасовках ты побывал?»"
 
 #: 11027
 msgid "\"A few troubles.\""
-msgstr ""
+msgstr "«Есть пара проблем»."
 
 #: 11028 11065
 msgid ""
 "\"A few troubles: I woke up in the Mortuary and seem to have forgotten who I "
 "am.\""
-msgstr ""
+msgstr "«Есть пара проблем: я проснулся в Морге и, похоже, забыл кто я такой»."
 
 #: 11029
 msgid "\"None of your business, really. I had some other questions...\""
-msgstr ""
+msgstr "«Вообще-то это не твое дело. У меня есть несколько вопросов...»"
 
 #: 11030
 msgid "\"Not as far as you're concerned. Farewell.\""
-msgstr ""
+msgstr "«Все не так плохо, как ты думаешь. Прощай»."
 
 #: 11031
+#, fuzzy
 msgid ""
 "Ebb rolls his eyes. \"More than I can remember, lad! Well... *almost* more "
 "than I can remember, leastwhys. I did an all too-long tour in the Blood War, "
@@ -158,19 +190,29 @@ msgid ""
 "the most dangerous of them all!\" He laughs loudly. The mention of the Blood "
 "War feels like a cold dagger slipping into your heart."
 msgstr ""
+"Эбб закатывает глаза. «В стольких, что я уже и не припомню их все, парень! "
+"Ну... по крайней мере, *близко* к тому, чтобы всех их и не помнить. Меня "
+"слишком надолго занесло на Кровавую войну, а также на ту дьявольски "
+"запутанную Войну Лжи на Террасе, слишком много лет я провел на войне Черных "
+"Веков... - Эбб начинает загибать пальцы, беззвучно подсчитывая. - Так, потом "
+"была еще Трехплановая война, и еще много других; я даже немного поучаствовал "
+"в Освободительной Войне Гармониума. О, а под конец я также был в Городском "
+"Дозоре Сигила... можно сказать, что это было самым опасным из всего, что я "
+"пережил!» Он громко смеется. Упоминание Кровавой войны вызывает у тебя "
+"ощущение холодного стального кинжала, вонзающегося в сердце."
 
 #: 11032
 msgid "\"Tell me more of the Blood War.\""
-msgstr ""
+msgstr "«Расскажи мне еще о Кровавой войне»."
 
 #: 11033 11037 11043 11063 11074 11079 11083 11087 11091 11120 11127 11142
 #: 11148 11154 11158 11163 11167 11173 11178 11184 11188 11193 11196
 msgid "\"I had some other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 11034
 msgid "\"Thanks, Ebb. Farewell.\""
-msgstr ""
+msgstr "«Спасибо, Эбб. Прощай»."
 
 #: 11035
 msgid ""
@@ -180,15 +222,20 @@ msgid ""
 "war that creation sparked, and they've been digging into each other ever "
 "since.\""
 msgstr ""
+"Эбб вздыхает, не замечая твоего волнения. «Да... Кровавая война - самый "
+"опасный семейный раздор по эту сторону от первичного начала. Разъяренная "
+"толпа нечисти с одной стороны, банда воинствующей нечисти с другой. Это "
+"война, зажженная искрой сотворения, и с тех пор они непрерывно рвут друг "
+"другу глотки»."
 
 #: 11036
 msgid "\"Two sets of fiends warring against each other, eh?\""
-msgstr ""
+msgstr "«Значит, было два вида нечисти, сражающихся друг с другом?»"
 
 #: 11038 11044 11124 11128 11143 11149 11155 11159 11164 11168 11174 11179
 #: 11185 11189 11194 56850
 msgid "\"Thanks. Farewell.\""
-msgstr ""
+msgstr "«Спасибо. Прощай»."
 
 #: 11039
 msgid ""
@@ -197,14 +244,18 @@ msgid ""
 "The whole mess spills out into other planes from time to time, and it's made "
 "the multiverse a less-pleasant place to live.\""
 msgstr ""
+"«Так точно. Танарри, яростные убийцы, которые заботятся только о себе, и "
+"военная машина баатезу, во имя закона и порядка по их инфернальным правилам. "
+"Весь кавардак время от времени выплескивается на прилегающие планы, и это "
+"делает мультивселенную значительно менее приятным местом для жизни»."
 
 #: 11040 11060 11116
 msgid "\"I see. I had some other questions...\""
-msgstr ""
+msgstr "«Понятно. У меня есть другие вопросы...» "
 
 #: 11041
 msgid "\"I see. Farewell, Ebb.\""
-msgstr ""
+msgstr "«Понятно. Прощай, Эбб»."
 
 #: 11042
 msgid ""
@@ -213,6 +264,9 @@ msgid ""
 "mean to press the point, no... that'll get you in more trouble around here "
 "than anything else.\""
 msgstr ""
+"«О, в общем, надеюсь, это не так серьезно, а пока... я подожду, пока ты сам "
+"не решишь, что готов об этом поговорить. Не хочу на тебя давить, нет... "
+"иначе это тебе доставит еще больше хлопот, чем все остальное»."
 
 #: 11045
 msgid ""
@@ -225,12 +279,22 @@ msgid ""
 "disrespect... they have all the perceptions and friendliness of a gravestone "
 "sometimes, eh? Can't say I couldn't see them screwing that up, no, lad.\""
 msgstr ""
+"«А? - Эбб моргает, а затем хмурится. - Что ты сказал, парень? Проснулся в "
+"Морге... - Эбб внимательно тебя изучает. - О, может быть, они по ошибке "
+"приняли тебя за мертвеца из-за всех этих шрамов? - Эбб посмеивается. - Не "
+"скажу, что я бы оказался умнее... - Он пыхтит трубкой. - Эти трухлявые... - "
+"Он прерывает себя. - Я хочу сказать, эти *тленные*... Трухлявые - слишком "
+"грубый термин, чтобы обращаться к этим бледнолицым парням, и я не хочу "
+"высказать излишнего неуважения... так вот, у них иногда проницательность и "
+"дружелюбие могильных камней, не так ли? Не могу сказать, чтобы они ошибались "
+"так сильно, нет, парень»."
 
 #: 11046
 msgid "\"That's what I've heard. I had some other questions...\""
-msgstr ""
+msgstr "«Именно я это и слышал. У меня есть несколько вопросов...»"
 
 #: 11048
+#, fuzzy
 msgid ""
 "\"Well, now, it's a good thing you asked that, because now you've told me "
 "that you're green and a tout about's the best person a Clueless could have "
@@ -241,28 +305,41 @@ msgid ""
 "account of my age, so mostly I suggest directions and places you might want "
 "to see in your travels in our fair city. Don't cost you a cent.\""
 msgstr ""
+"«Ну, это хорошо, что ты спросил, поскольку теперь понятно, что ты совсем "
+"зелен, и осведомитель - это лучший человек, на которого пустоголовый может "
+"наткнуться на улицах Сигила, то я как раз тот, кто тебе нужен, - он "
+"прикладывается к кружке. - Осведомители - это дружелюбные городские гиды, "
+"которые покажут что и где, дадут небольшую экскурсию по городу... гид, да, "
+"гид - это наилучшее их определение. Только я не часто встаю с этого стула по "
+"причине возраста, поэтому я просто предлагаю указания, и места, которые ты, "
+"возможно, захочешь посетить, путешествуя по нашему старому доброму городу. И "
+"даже медяка не возьму»."
 
 #: 11049
 msgid "\"Why is it free?\""
-msgstr ""
+msgstr "«Почему бесплатно?»"
 
 #: 11050 11052
 msgid "\"How old are you?\""
-msgstr ""
+msgstr "«Насколько ты стар?»"
 
 #: 11051
+#, fuzzy
 msgid ""
 "\"A tout who can't move can't command much of a price, lad. By the powers, "
 "'twould be unfair ta charge for just a bag of words!\""
 msgstr ""
+"«Осведомитель, который не может двигаться, не может и устанавливать тарифов, "
+"парень. Великие Силы, было бы нечестно взимать плату всего лишь за набор "
+"слов!»"
 
 #: 11053
 msgid "\"Then I had some other questions...\""
-msgstr ""
+msgstr "«Тогда у меня есть несколько вопросов...»"
 
 #: 11054
 msgid "\"True enough. Farewell.\""
-msgstr ""
+msgstr "«Верно. Прощай»."
 
 #: 11055
 msgid ""
@@ -270,18 +347,21 @@ msgid ""
 "his pipe. \"Let's just say my best years are behind me, and there's only a "
 "few irons that keep this heart beating.\""
 msgstr ""
+"«Достаточно стар, чтобы мудрить, парень, и слишком стар, чтобы особо "
+"расхаживать! - он пыхтит трубкой. - Скажем так, мои лучшие годы позади, и "
+"осталось всего несколько железок, заставляющих это сердце продолжать биться»."
 
 #: 11056
 msgid "\"What irons?\""
-msgstr ""
+msgstr "«Каких железок?»"
 
 #: 11057
 msgid "\"Fair enough. I had some other questions...\""
-msgstr ""
+msgstr "«Вполне справедливо. У меня есть несколько вопросов...»"
 
 #: 11058
 msgid "\"Fair enough. Farewell.\""
-msgstr ""
+msgstr "«Вполне справедливо. Прощай»."
 
 #: 11059
 msgid ""
@@ -290,10 +370,13 @@ msgid ""
 "hopefully he'll shrive me of some of my private sins so I can go on and step "
 "off this plane for good.\""
 msgstr ""
+"«Ладно, парень, менять тему не буду: надеюсь, что когда-нибудь святой братец "
+"окажется тут, в баре 'Тлеющий труп', и, возможно, он отпустит мне некоторые "
+"личные грехи, чтобы я мог покинуть этот план навеки»."
 
 #: 11061 11117 11121
 msgid "\"I see. Farewell.\""
-msgstr ""
+msgstr "«Понятно. Прощай»."
 
 #: 11062
 msgid ""
@@ -304,16 +387,23 @@ msgid ""
 "what's dogging your heels to be causing such trouble? Mayhap I can help you, "
 "eh?\""
 msgstr ""
+"«Парень, ни у кого не бывает столько шрамов, как у тебя, без каких-либо "
+"проблем, как от остальных, так и от самого себя! - Эбб смотрит на тебя с "
+"притворным упреком. - Ты за кого принимаешь старину Эбба? За слепого?! Ха! "
+"Слушай, я, может, уже слегка и поистрепался по углам, но глаза и мозги у "
+"меня на месте! Итак, что за беды гложут тебя, доставляя столько "
+"неприятностей? Может, я смогу тебе помочь, а?»"
 
 #: 11064
 msgid "\"A few troubles. That's all.\""
-msgstr ""
+msgstr "«Пара неприятностей, не более того»."
 
 #: 11066
 msgid "\"Probably not. Farewell.\""
-msgstr ""
+msgstr "«Пожалуй, нет. Прощай»."
 
 #: 11067
+#, fuzzy
 msgid ""
 "\"'What am I doing?' Peculiar question, lad. What does it look like I'm "
 "doing... I'm whittling away my time among pleasant surroundings, nursing a "
@@ -321,36 +411,43 @@ msgid ""
 "perfect way to spend one's day, I think! Eh? Eh?\" Ebb claps you on the "
 "shoulder and laughs."
 msgstr ""
+"«Что я делаю? Занятный вопрос, парень. И на что же похоже то, что я делаю... "
+"Я убиваю время в приятном окружении, нянчась с кружкой эля, заготовив "
+"мешочек милого табачка, и с интересной компанией. По мне, так это прекрасный "
+"способ проводить день! А? А?» Эбб, смеясь, хлопает тебя по плечу."
 
 #: 11068
 msgid "\"'Eh', indeed. I had some other questions...\""
-msgstr ""
+msgstr "«Верно. У меня есть несколько вопросов...»"
 
 #: 11069
 msgid "\"Sure. Farewell.\""
-msgstr ""
+msgstr "«Конечно. Прощай»."
 
 #: 11070
+#, fuzzy
 msgid ""
 "\"Ye're in the Smoldering Corpse Bar, lad. Not a pretty place as some, but "
 "it's got its own homespun kind of charm.\""
 msgstr ""
+"«Ты в баре 'Тлеющий труп', парень. Он не так красив, как остальные места, но "
+"есть в нем свое домашнее очарование»."
 
 #: 11071 11085
 msgid "\"Tell me about the patrons here.\""
-msgstr ""
+msgstr "«Расскажи мне о здешних посетителях»."
 
 #: 11072 11077 11086
 msgid "\"Who's the smoldering corpse there?\""
-msgstr ""
+msgstr "«Что это там за коптящийся труп?»"
 
 #: 11073 11078
 msgid "\"What's good to drink here?\""
-msgstr ""
+msgstr "«Что хорошего тут можно выпить?»"
 
 #: 11075 11080 11088 11200
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 11076
 msgid ""
@@ -362,8 +459,16 @@ msgid ""
 "meaning. If you're wanting information on the planes, talk to Candrian "
 "Illborne over there - he knows more'n most I know.\""
 msgstr ""
+"«Ну, есть тут некий О, который утверждает, что он буква, а не человек; "
+"несколько убийц милосердия, ждущих появления преступника; пара абишаев в "
+"отгуле с Кровавой войны; гитцерай, наблюдающий за тобой издалека - не "
+"слишком необычно, я тебе доложу, они те еще рубаки; и Алаис там внизу, "
+"пустоголовый, чересчур задирающий нос, если ты понимаешь, о чем я. Если же "
+"тебе нужна информация о планах, поговори с Кандрианом Низкородным - он знает "
+"чуть ли не больше чем я»."
 
 #: 11081
+#, fuzzy
 msgid ""
 "\"Him? Oh, no corpse, lad - no deader him. Near as we can tell, ol' Ignus is "
 "still alive inside that little roastspit. Near as we can figure, anyway.\" "
@@ -371,10 +476,15 @@ msgid ""
 "me on the pipe to make sure it don't worm its way into my nose it does.\" He "
 "chuckles."
 msgstr ""
+"«Этот? О, ну это не труп, парень - не мертвец он. Насколько мы можем судить, "
+"старина Игнус все еще жив на своей жаровне. По крайней мере, нам так "
+"кажется, - Эбб морщит нос. - Кстати, иногда он может чертовски ужасно "
+"вонять. Поэтому я не выпускаю изо рта трубку, чтобы его вонь не попала мне в "
+"нос». Он смеется."
 
 #: 11082
 msgid "\"How did he get there?\""
-msgstr ""
+msgstr "«Как он туда попал?»"
 
 #: 11084
 msgid ""
@@ -385,6 +495,12 @@ msgid ""
 "and some alcohol, and you can breathe a little fire when you need to. "
 "Leastways, that's how it feels.\""
 msgstr ""
+"«Ну, некоторые говорят, что у меня бааторское отношение к выпивке, однако "
+"есть напитки, к которому я неравнодушен, а есть некоторые урожаи, до "
+"которого мне дела нет. Вообще, одна из моих любимых штучек - это арборейские "
+"огненные семена... ты их полощешь во рту, добавляя воздуха, слюны и "
+"алкоголя, и можешь дыхнуть огнем, если захочешь. По крайней мере, ощущения "
+"именно такие»."
 
 #: 11089
 msgid ""
@@ -395,16 +511,23 @@ msgid ""
 "\"...well, he liked ta burn things, and he started torching places and "
 "people, and generally making a bunch of trouble.\""
 msgstr ""
+"Эбб затягивается трубкой, будто обдумывая свою реплику. «Ну, парень, у "
+"Игнуса были некоторые проблемы, и довольно некислые способности к магии, что "
+"редко можно назвать хорошим сочетанием, если ты понимаешь, о чем я. Он "
+"любил... - Эбб пыхтит трубкой, и из нее струится дым. - Ну, любил горящие "
+"вещи, вот и начал сжигать места и людей, в общем и целом, создавая кучу "
+"неприятностей»."
 
 #: 11090
 msgid "\"And?\""
-msgstr ""
+msgstr "«И?»"
 
 #: 11092
 msgid "\"Too bad. Farewell.\""
-msgstr ""
+msgstr "«Очень жаль. Прощай»."
 
 #: 11093
+#, fuzzy
 msgid ""
 "\"Well, now most of this was going on in the Hive, and I'll be the first to "
 "admit that the Hive is not the first place the Harmonium goes to keep "
@@ -416,84 +539,105 @@ msgid ""
 "Ebb gestures with his pipe at the figure. \"So now he sits there and burns. "
 "He's still alive, which I don't think they counted on.\""
 msgstr ""
+"«Ну, большая часть этого происходила в Улье, и я буду первым, кто признает, "
+"что Улей - далеко не то место, куда в первую очередь направился Гармониум, "
+"чтобы поддерживать законы Сигила... - лицо Эбба приобретает несколько "
+"стыдливое выражение. - Наш просчет, поскольку это именно то место, где наше "
+"присутствие наиболее необходимо. Итак, по настоянию Леди образовалось "
+"некоторое уличное правосудие из сообщества волшебников... кучка гадалок на "
+"чайных листах, магов-самоучек и повитух собралась вместе и смогла сплести "
+"заклинание, ставшее в некотором роде поэтическим правосудием, - Эбб "
+"указывает трубкой на фигуру. - Так что теперь он сидит здесь и горит. Он все "
+"еще жив, хотя не думаю, чтобы они это предусмотрели»."
 
 #: 11094
 msgid "\"Hm. I had some other questions...\""
-msgstr ""
+msgstr "«Хм. У меня есть несколько вопросов...»"
 
 #: 11095
 msgid "\"Interesting. Farewell.\""
-msgstr ""
+msgstr "«Интересно. Прощай»."
 
 #: 11096
 msgid "\"Aye, lad? What do you want to know?\""
-msgstr ""
+msgstr "«Да, парень? Что ты хочешь узнать?»"
 
 #: 11097
 msgid "\"Do you know someone named Pharod?\""
-msgstr ""
+msgstr "«Ты знаешь кого-нибудь по имени Фарод?»"
 
 #: 11098
 msgid "\"I am missing a journal.\""
-msgstr ""
+msgstr "«Я потерял дневник»."
 
 #: 11101
 msgid "\"Tell me of Sigil and its environs.\""
-msgstr ""
+msgstr "«Расскажи мне о Сигиле и его округе»."
 
 #: 11102
 msgid "\"What other places can you recommend?\""
-msgstr ""
+msgstr "«Какие еще места ты можешь порекомендовать?»"
 
 #: 11103
 msgid "\"Nothing, I suppose. Farewell.\""
-msgstr ""
+msgstr "«Думаю, ничего. Прощай»."
 
 #: 11104
 msgid ""
 "\"Pharod?\" Ebb frowns, takes the pipe from his mouth. \"Now, lad, what you "
 "be wanting with a berk like Pharod?\""
 msgstr ""
+"«Фарод? - Эбб хмурится, достав трубку изо рта. - Ну, парень, что же тебе "
+"нужно от такого пня как Фарод?»"
 
 #: 11105
 msgid "\"I think I used to know him.\""
-msgstr ""
+msgstr "«Мне кажется, что я его знал»."
 
 #: 11106
 msgid "\"I think he stole some of my belongings.\""
-msgstr ""
+msgstr "«Мне кажется, что он украл что-то у меня»."
 
 #: 11107
 msgid "\"None of your business. What do you know of him?\""
-msgstr ""
+msgstr "«Не твое дело. Что ты о нем знаешь?»"
 
 #: 11108
 msgid "\"Nothing. I had some other questions...\""
-msgstr ""
+msgstr "«Ничего. У меня есть другие вопросы...»"
 
 #: 11110
 msgid ""
 "\"Aye, well the more's your misfortune, then. Mayhap forgetting some things "
 "is better for you, then.\" Ebb puffs heavily on his pipe."
 msgstr ""
+"«Ага, тогда по большей части тебе не повезло. Возможно, кое-что забыть для "
+"тебя и к лучшему». Эбб обильно пыхтит трубкой."
 
 #: 11111
 msgid "\"What do you know of him?\""
-msgstr ""
+msgstr "«Что ты знаешь о нем?»"
 
+# Fated, пока неустоявшийся перевод
 #: 11112
+#, fuzzy
 msgid ""
 "\"Oh, no doubt, lad, no doubt.\" Ebb grumbles, chewing on his pipe. \"You "
 "have to chain up everything around that grasping little spider. He should "
 "have been one of the Fated the way anything not chained down slips into his "
 "parlor. Don't give him a yard or he'll take a league, eh?\""
 msgstr ""
+"«О, не сомневаюсь, парень, не сомневаюсь, - бурчит Эбб, пожевывая трубку. - "
+"Тебе нужно этого алчного паучару загнать в угол. Должно быть, он был одним "
+"из Обреченных, если до сих пор этого никому не удалось. Не давай ему спуску, "
+"иначе он тебя обжучит, ага?»"
 
 #: 11113
 msgid "\"What do you know about him?\""
-msgstr ""
+msgstr "«Что ты знаешь о нем?»"
 
 #: 11114
+#, fuzzy
 msgid ""
 "\"Well, now I don't know everything there is to know about ol' Pharod, but I "
 "know some of the dark surrounding him. If you're determined to track down "
@@ -503,10 +647,16 @@ msgid ""
 "bunch of Collectors and gangs together and started what one could almost "
 "consider a collecting faction... be that as it may be...\""
 msgstr ""
+"«Ну, я не все знаю о Фароде, но знаю, что его окружает темнота. Если ты "
+"решил выследить этого паучару и пригвоздить его к стене, тогда, наверное, "
+"тебе можно передать слухи, чтобы ты знал, с кем имеешь дело, - он на "
+"мгновение замолкает, чтобы набить трубку. - Фарод не так давно окопался на "
+"площади Старьевщиков, собрал свору сборщиков и бандитов, и основал то, что "
+"многие называют фракцией сборщиков... этим они и занимаются...»"
 
 #: 11115
 msgid "\"Where can I find him?\""
-msgstr ""
+msgstr "«Где я могу найти его?»"
 
 #: 11118
 msgid ""
@@ -520,6 +670,13 @@ msgid ""
 "locals. Try and be careful about it, since there's plenty in the Square that "
 "would make a gut-harp outta you as soon as look atcha.\""
 msgstr ""
+"«Ну, парень, если ты ищешь Фарода, что, я тебе доложу, само по себе весьма "
+"глупо, то ты сбился с пути. Тебе следует найти площадь Старьевщиков. "
+"Говорят, что Фарод устроился где-то там. Даже я, старик, не раз обошедший "
+"кольцо, не знаю, где именно. Думаю, Фарод хочет оставаться в тени. Если ты "
+"решился найти его, отправляйся на площадь Старьевщиков и попробуй узнать от "
+"местных, где скрывается Фарод. Однако будь осторожен: на площади полно тех, "
+"кто выпотрошит тебя, как только увидит»."
 
 #: 11122
 msgid "NULL NODE"
@@ -527,7 +684,7 @@ msgstr ""
 
 #: 11123
 msgid "\"Very well. I had some other questions...\""
-msgstr ""
+msgstr "«Хорошо. У меня есть другие вопросы...»"
 
 #: 11125
 msgid ""
@@ -541,12 +698,22 @@ msgid ""
 "larder, if you ask me. A dead man is usually in no position to keep his "
 "possessions when the Collectors tumble cross his body.\""
 msgstr ""
+"«Потерял дневник? Был ли он больше чем просто набор страниц со словами? Если "
+"нет, не представляю себе знатока, который обременял бы себя буквами, если "
+"они только не особо горячи и пикантны. Тут мало кого интересует учеба и "
+"книги. Даже не знаю, где тебе такую вещь искать... - Эбб пыхтит трубкой, а "
+"потом щелкает пальцами. - Но знаешь что, парень, если Фарод был тем, кто "
+"соскреб тебя с улиц Сигила, возможно, он сможет пролить свет на то, где твои "
+"вещи... и, скорее всего, они в его кладовой, если тебя интересует мое "
+"мнение. Мертвец не сможет оставить свои вещи себе, когда сборщики наткнутся "
+"на его тело»."
 
 #: 11126
 msgid "\"Tell me about Pharod.\""
-msgstr ""
+msgstr "«Расскажи мне о Фароде»."
 
 #: 11129
+#, fuzzy
 msgid ""
 "Ebb laughs loudly. \"You don't think small, do ye? If you want to know "
 "what's outside the city, go talk to Candrian Illborne over there - he's the "
@@ -554,36 +721,42 @@ msgid ""
 "Lady, the dabus, keys and portals, the way we keep track of time, the way "
 "the city's laid out... What was it y'wanted to know?\""
 msgstr ""
+"Эбб громко смеется. «На мелочи не размениваешься, да? Если хочешь знать, что "
+"за городом, иди и поговори с Кандрианом Низкородным, он местный "
+"путешественник. Что же до остального, ну... Могу рассказать о Леди, дабусах, "
+"ключах и порталах, как тут следят за временем, как устроен город... Что ты "
+"хочешь узнать?»"
 
 #: 11130 11660
 msgid "\"Actually, just answer some other questions...\""
-msgstr ""
+msgstr "«Просто ответь на другие вопросы...»"
 
 #: 11131 11161 11661
 msgid "\"Tell me of the Lady.\""
-msgstr ""
+msgstr "«Расскажи мне о Леди»."
 
 #: 11132 11662
 msgid "\"Tell me of the dabus.\""
-msgstr ""
+msgstr "«Расскажи мне о дабусах»."
 
 #: 11133 11663
 msgid "\"Tell me of Sigil's time.\""
-msgstr ""
+msgstr "«Расскажи мне о времени Сигила»."
 
 #: 11134 11664
 msgid "\"Tell me of the city's layout.\""
-msgstr ""
+msgstr "«Расскажи мне о городских района»."
 
 #: 11135 11665
 msgid "\"Tell me of keys and portals.\""
-msgstr ""
+msgstr "«Расскажи мне о ключах и порталах»."
 
 #: 11137
 msgid "\"What else did you want to know of the Cage?\""
-msgstr ""
+msgstr "«Что еще ты хотел узнать о Клетке?»"
 
 #: 11138
+#, fuzzy
 msgid ""
 "\"Well, now, not many know much about her, lad, and I'm figuring even those "
 "that know more than a little don't know too much more. She's a mystery, she "
@@ -592,18 +765,23 @@ msgid ""
 "herself and Sigil pretty tight. None's been able to penetrate it, and if "
 "they have, they've been mazed.\""
 msgstr ""
+"«Немногие знают о ней что-либо, парень, и думаю, что те, кто знают хоть что-"
+"то, большего не узнают. Она - загадка, и коль уж встретишься с ней... Да "
+"уберегут меня Силы... она безмолвна и смертоносна. Она не зла, насколько я "
+"могу судить, но секреты, свои и Сигила, хранит ревностно. Никто не смог их "
+"раскрыть, а если и были такие, то закончили свои дни в лабиринте»."
 
 #: 11139 11171 11181
 msgid "\"Go on.\""
-msgstr ""
+msgstr "«Продолжай»."
 
 #: 11140
 msgid "\"Mazed? What do you mean?\""
-msgstr ""
+msgstr "«В лабиринте? Что ты имеешь в виду?»"
 
 #: 11141 11147 11153 11157 11162 11166 11172 11177 11183 11187 11192
 msgid "\"I had some other questions about Sigil.\""
-msgstr ""
+msgstr "«У меня есть другие вопросы о Сигиле»."
 
 #: 11144
 msgid ""
@@ -614,26 +792,37 @@ msgid ""
 "will come for you, but if she comes, you'll be dead as soon as her shadow "
 "falls on you.\""
 msgstr ""
+"«Скорее всего, ты ее никогда не встретишь, если не сделаешь что-то совсем "
+"плохое... Причинить боль множеству людей, убивать дабусов, оспаривать ее "
+"правление или поклоняться ей... Как мы поняли, она ненавидит это, а также "
+"когда мешают работе дабусов (поскольку это фактически работа Леди)... Если "
+"повезет, за тобой придут лишь убийцы милосердия, но если придет она, ты "
+"умрешь, как только ее тень падет на тебя»."
 
 #: 11145 11151
 msgid "\"What did you mean when you said 'mazed'?\""
-msgstr ""
+msgstr "«Что ты имеешь в виду - «в лабиринте»?»"
 
 #: 11146
 msgid "\"Please continue.\""
-msgstr ""
+msgstr "«Пожалуйста, продолжай»."
 
 #: 11150
+#, fuzzy
 msgid ""
 "\"Now, the Lady can do almost anything in Sigil, lad, near as we can figure. "
 "Make it bigger or smaller, make new portals, seal off old ones, make sure "
 "the Blood War don't break out in the streets, keep folks from teleporting "
 "into the city, keeping the powers out.\""
 msgstr ""
+"«Ну, насколько мы можем судить, парень, Леди в Сигиле может почти все. "
+"Увеличивать или уменьшать его, создавать новые порталы, закрывать старые, не "
+"допускать того, чтобы Кровавая война не ворвалась на улицы, не давать кому-"
+"то телепортироваться в город, удерживать Силы за его пределами»."
 
 #: 11152
 msgid "\"Who are the powers?\""
-msgstr ""
+msgstr "«Кто эти силы?»"
 
 #: 11156
 msgid ""
@@ -649,6 +838,16 @@ msgid ""
 "each one... a portal the Lady places there. You just have ta figure out "
 "where it is and how to use it.\""
 msgstr ""
+"«Так точно. Иногда знатоки переносятся в место, где они вреда нанести не "
+"могут. Понимаешь, Леди берет кусочек Сигила и делает из него небольшой "
+"пространственный карман, лабиринт. Она помещает туда тех, кто перечит ее "
+"воле, и оставляет их там гнить, - Эбб пышет трубкой. - Вот еще что... от "
+"лабиринта не отделаешься, если Леди положит на тебя глаз. Она так или иначе "
+"до тебя доберется, как бы ты не увиливал. Ты будешь идти по переулку, или "
+"шагнешь в портал, или свернешь с улицы, по которой шел много раз до этого, и "
+"вдруг окажешься в месте, которого не узнаешь. Но лабиринты не защищены от "
+"побега. Из них всегда есть выход... портал, который Леди там оставляет. "
+"Нужно только разгадать, где он и как его использовать»."
 
 #: 11160
 msgid ""
@@ -660,8 +859,15 @@ msgid ""
 "neutral-faring bunch, and you don't want to interfere with one or kill one, "
 "or you'll bring the Lady's wrath down on you right quick.\""
 msgstr ""
+"«А, эти смешные парящие существа, говорящие символами? - Эбб смеется. - Тот "
+"еще шедевр, да? Дабусы вроде как рабочие и дворники Леди, делающие именно "
+"то, чего она хочет, следят, чтобы Сигил не развалился, латают стены, сносят "
+"старые здания, строят новые, устанавливают одни порталы, закрывают другие, и "
+"тому подобное. Они довольно безобидны, но лучше им не мешать и не убивать "
+"их, иначе можно быстро навлечешь на себя гнев Леди»."
 
 #: 11165
+#, fuzzy
 msgid ""
 "\"The way we measure time in Sigil's by the brightness of the sky. See, we "
 "haven't got a sun and moon like most worlds - we just got this everlasting "
@@ -670,8 +876,15 @@ msgid ""
 "based on the peak and anti-peak of the brightness. So when someone says "
 "something about 'five hours past peak,' that's what they mean.\""
 msgstr ""
+"«Время мы измеряем в Сигиле по яркости неба. Видишь ли, солнца и лун, как в "
+"большинстве миров, у нас нет - есть только бесконечное марево, которое то "
+"светлеет, то темнеет по регулярному циклу. То, что многие называют полночью, "
+"мы зовем антипиком. То, что называют полднем, мы зовем пиком. Видишь ли, все "
+"это основано на пике и антипике яркости. Поэтому, когда кто-то говорит что-"
+"то типа 'пять часов после пика', именно это они и имеют в виду»."
 
 #: 11169
+#, fuzzy
 msgid ""
 "\"Whew. Let me wet my tongue.\" He takes a pull from his tankard. \"The city "
 "floats above an infinitely tall spire - the Spire. It lies on its side like "
@@ -681,10 +894,16 @@ msgid ""
 "rest of the city's grandeur!\" He laughs. \"Factions - philosophical clubs, "
 "or gangs if you prefer - divide up the running of the city between 'em.\""
 msgstr ""
+"«Фух. Дай горло промочить, - он отпивает из кружки. - Город плавает над "
+"бесконечным тонким Шпилем. Город обвивает его как обод колеса, только без "
+"спиц, соединяющих его со Шпилем. Разделен он на шесть районов, у каждого "
+"своя функция. Сейчас ты в Улье. Думаю назначение Улья - быть трущобами по "
+"отношению к великолепию самого города! - он смеется. - Фракции - философские "
+"клубы или банды, как хочешь - делят управление города между собой»."
 
 #: 11170
 msgid "\"Were you in a faction?\""
-msgstr ""
+msgstr "«Ты был во фракции?»"
 
 #: 11175
 msgid ""
@@ -694,12 +913,17 @@ msgid ""
 "another. Now, that's just the quick version, lad; you'll have to experience "
 "the place for yourself.\""
 msgstr ""
+"«Город называют перекрестком планов, и Городом Дверей, а также Клеткой. Тут "
+"есть порталы всякие разные, как говорят, и все виды бестий приходят сюда "
+"торговать, искать пристанище, или чтобы перепрыгнуть в другое место. Ну, это "
+"если вкратце, парень; место нужно будет самостоятельно освоить»."
 
 #: 11176
 msgid "\"You mentioned something about portals?\""
-msgstr ""
+msgstr "«Ты что-то говорил про порталы?»"
 
 #: 11180
+#, fuzzy
 msgid ""
 "\"Sigil's called the City of Doors for a reason, lad... there's portals "
 "everywhere. Portals are... well, like doors that lead across the multiverse, "
@@ -708,8 +932,16 @@ msgid ""
 "scaffolding, a wardrobe... each could be a portal, waiting for just the "
 "right key to open it and take you someplace in the multiverse. Now, keys...\""
 msgstr ""
+"«Сигил называют Городом Дверей не просто так, парень... тут кругом порталы. "
+"Порталы это... ну, они как двери через мультивселенную, только на двери они "
+"не похожи... Они могут представлять собой любое ограниченное пространство... "
+"оконная или дверная рама, котловина, картинная рама, днище бочка, "
+"пространству между лесами, шкаф... все это может быть порталом, ждущим "
+"только правильного ключа, который сможет его открыть, и перенести тебя куда-"
+"то в мультивселенной. Что же до ключей...»"
 
 #: 11182
+#, fuzzy
 msgid ""
 "\"Aye, each portal has a key you need to open it. Now, while portals can be "
 "any bounded space, keys have more variety... They can be anything from a "
@@ -724,8 +956,21 @@ msgid ""
 "nor should you be wandering Sigil after dark, neither. You'd do best to "
 "stick to the main ways, in open peak and watch yourself.\""
 msgstr ""
+"«Ага, к каждому порталу нужен ключ, чтобы его открыть. Если порталом может "
+"быть любое ограниченное пространство, то ключи могут быть намного "
+"разнообразнее... Ими может быть все что угодно: коротенькая мелодия, которую "
+"нужно напеть у портала, танец джиги, определенное настроение, кусочек того "
+"места, куда хочешь направиться, удерживаемый в руке... и все такое прочее. В "
+"молодости я однажды убедил девушку, что поцелуй с мужчиной в определенном "
+"месте может открыть портал в Аркадию. Оказалось, я был прав, и мы не раз там "
+"бывали. Пожалуй, множество порталов так никогда и не найдут. Остальные можно "
+"открыть, узнав о них у людей, и добыв нужный ключ. Найти портал - сложнее "
+"всего. Но я тебя предупреждаю, парень. Прыгать по порталам от скуки такому "
+"как ты не стоит... как не стоит и шататься по Сигилу в темноте. Лучше бы "
+"тебе держаться главных улиц, не бродить в антипик  и следить за собой»."
 
 #: 11186
+#, fuzzy
 msgid ""
 "Ebb raises his hand as if to stop you and laughs slightly. \"Oh, now, hold "
 "on, lad - I'm no has-been faction member... they say, and they're right, "
@@ -735,8 +980,16 @@ msgid ""
 "keeping the city down to a low roar. We try and keep the peace, lad, and "
 "mosttimes, we do a decent job.\""
 msgstr ""
+"Эбб поднимает руку, будто останавливая тебя, и слегка усмехается. «О, погоди-"
+"ка, парень - я не какой-то там бывший член фракции... как говорят некоторые "
+"- и они правы - коль стал одним из Гармониума - ты на всю жизнь в "
+"Гармониуме. Мы - те самые знатоки, кто пытается защитить Сигил от "
+"неприятностей. На шпиле не кататься, морды друг другу особо усердно не "
+"начищать и по округе не шуметь. Стараемся поддерживать мир, парень, и "
+"большую часть времени отлично справляемся со своей работой»."
 
 #: 11190
+#, fuzzy
 msgid ""
 "\"It's another way of saying gods, lad. And there's a great horde of them "
 "across the planes.\" Ebb takes a puff from his pipe. \"They can't come to "
@@ -744,12 +997,17 @@ msgid ""
 "spilled the chant to yet. Be that as it may, it's kept Sigil from being "
 "seized by outside interests.\""
 msgstr ""
+"«Это всего лишь одно из названий Богов, парень. А их тьма-тьмущая разбросана "
+"по планам, - Эбб затягивается трубкой. - Хотя они и не могут прийти в "
+"Сигил... Леди нашла способ, которым делиться не стала, как держать их на "
+"расстоянии. Так она удерживает Сигил от захвата внешними интересами»."
 
 #: 11191
 msgid "\"What was that you said about being mazed?\""
-msgstr ""
+msgstr "«Что ты там говорил о заключении в лабиринт?»"
 
 #: 11195
+#, fuzzy
 msgid ""
 "\"Well...\" Ebb puffs on his pipe and studies you. \"This is perhaps the "
 "best kip you could have wandered into from the start... judging by your "
@@ -759,22 +1017,31 @@ msgid ""
 "long ago, and ever since, a bunch of bad bloods have set up their kip in "
 "that stretch of desert.\""
 msgstr ""
+"Ну... - пыхтя трубкой, Эбб изучает тебя. - Пожалуй, это лучшая берлога, в "
+"которую ты мог забрести для начала... судя по твоим татуировкам, ты "
+"неравнодушен к украшению своего тела, а в таком случае тут неподалеку есть "
+"тату-салон, буквально в двух шагах. И держись подальше от переулка Опасных "
+"углов... Не так давно Игнус сжег это место, и с тех пор свора отморозков "
+"обосновалась на пепелище»."
 
 #: 11197
 msgid "\"Thanks. Farewell, Ebb.\""
-msgstr ""
+msgstr "«Спасибо. Прощай, Эбб»."
 
 #: 11198
 msgid ""
 "\"Back for more, eh?\" Ebb leans back in his chair. \"Good t'see ye again, "
 "lad.\""
 msgstr ""
+"«Вернулся за добавкой, да? - Эбб потягивается в своем кресле. - Приятно "
+"снова тебя видеть, парень»."
 
 #: 11199
 msgid "\"Greetings, Ebb. I had some questions...\""
-msgstr ""
+msgstr "«Приветствую, Эбб. У меня есть вопросы...»"
 
 #: 3011
+#, fuzzy
 msgid ""
 "You see a slightly stooped old man with a full grey beard and a lion's mane "
 "of grey hair. He wears a couple of shoulder guards as armor, and he keeps a "
@@ -786,36 +1053,48 @@ msgid ""
 "\"Oh, I'm just jesting with ye, lad, no offense meant and I hope no offense "
 "taken. I'm Ebb.\" He extends his hand."
 msgstr ""
+"Ты видишь слегка сутулого старика с густой серой бородой и львиной гривой "
+"седых волос. Он носит пару наплечников от доспехов и держит шлем на руках. "
+"Он курит трубку и носит мешочек с табаком на поясе. На вид он довольно "
+"силен, однако немного страдает излишним весом и одышкой. «Ты только посмотри "
+"на себя, парень! Никогда еще не видел ни у кого столько шрамов - будто на "
+"тебе плащ из них! Ты где был - отсыпался в зернодробилке?! - он смеется. - "
+"О, я просто подтруниваю, парень, без обид. Я надеюсь, ты не обижаешься. Я - "
+"Эбб». Он протягивает руку."
 
 #: 3012
 msgid "\"Greetings, Ebb.\""
-msgstr ""
+msgstr "«Приветствую, Эбб»."
 
 #: 56844 56847
 msgid "Ebb nods to you. \"Nice work in Curst, friend.\""
-msgstr ""
+msgstr "Эбб кивает тебе. «Отличная работа в Проклятом, друг»."
 
 #: 56845
 msgid "\"Thanks, Ebb. Couldn't have done it without your help. Farewell.\""
-msgstr ""
+msgstr "«Спасибо, Эбб. Без твоей помощи я бы не справился. Прощай»."
 
 #: 56846
 msgid "\"Thanks, Ebb. Tough trip, though. Farewell.\""
-msgstr ""
+msgstr "«Спасибо, Эбб. Хотя поездка была трудной. Прощай»."
 
 #: 56848
 msgid ""
 "Ebb nods to you. \"Nice work back there, friend.\" He turns back to his "
 "drink."
 msgstr ""
+"Эбб кивает тебе. «Хорошая была работа, друг». Он возвращается к своей "
+"выпивке."
 
 #: 56849
 msgid "Ebb tips you a wink as you come back in, and turns back to his drink."
 msgstr ""
+"Когда ты снова подходишь, Эбб подмигивает тебе и возвращается к своей "
+"выпивке."
 
 #: 56851
 msgid "\"Good to see you again, too.\""
-msgstr ""
+msgstr "«Я тоже рад снова видеть тебя»."
 
 #: 56852
 msgid ""
@@ -827,30 +1106,39 @@ msgid ""
 "group gathered here. \"Greetings, cutter, and maybe you'd better explain "
 "what you're doing in here.\""
 msgstr ""
+"Ты видишь слегка сутулого старика с густой серой бородой и львиной гривой "
+"седых волос. Он носит пару наплечников от доспехов и держит шлем в руке в "
+"руке. Он курит трубку, мешочек с табаком к которой висит на поясе. На вид он "
+"довольно силен, однако немного страдает излишним весом и одышкой. Похоже, "
+"что он лидер группы, собравшейся здесь. «Приветствую тебя, рубака. Думаю, "
+"тебе лучше объяснить, что ты здесь делаешь»."
 
 #: 56853 56859
 msgid "\"I was just checking out what's in here.\""
-msgstr ""
+msgstr "«Я просто хотел узнать, что тут внутри»."
 
 #: 56854 56860
 msgid "\"What are *you* doing in here?\""
-msgstr ""
+msgstr "«Что *ты* здесь делаешь?»"
 
 #: 56855 56861 56865
 msgid ""
 "\"There's a lot of chaos going around in this town, and I'm seeking allies "
 "in stamping it out.\""
 msgstr ""
+"«В этом городе много хаоса, и я ищу союзников, чтобы его выбить его прочь»."
 
 #: 56857 56862
 msgid "\"I was just leaving...\""
-msgstr ""
+msgstr "«Я как раз уходил...»"
 
 #: 56858
 msgid ""
 "You see Ebb Creakknees. A halo of smoke wreathes his smile as he says, "
 "\"Well met by chaos, traveler. What brings you to these parts?\""
 msgstr ""
+"Ты видишь Эбба Коленоскрипа. Дымный ореол обволакивает его улыбку, когда он "
+"произносит: «Добро пожаловать в хаос, путник. Что привело тебя в эти места?»"
 
 #: 56863
 msgid ""
@@ -862,22 +1150,30 @@ msgid ""
 "group gathered here. \"Well met, comrade. We meet under the sign of Anarchy."
 "\""
 msgstr ""
+"Ты видишь слегка сутулого старика с густой серой бородой и львиной гривой "
+"седых волос. Он носит пару наплечников от доспехов и держит шлем в руке. Он "
+"курит трубку, мешочек с табаком к которой висит на поясе. На вид он довольно "
+"силен, однако немного страдает излишним весом и одышкой. Похоже, что он "
+"лидер группы, собравшейся здесь. «Здравствуй, товарищ. Мы снова встретились, "
+"теперь под знаком Анархии»."
 
 #: 56864
 msgid "\"What are you doing in here?\""
-msgstr ""
+msgstr "«Что ты здесь делаешь?»"
 
 #: 56867
 msgid "\"Well met!\" Ebb laughs. \"We meet again, under the sign of Anarchy!\""
 msgstr ""
+"«Какая встреча! - Эбб смеется. - Мы снова встретились, теперь под знаком "
+"Анархии!»"
 
 #: 56868
 msgid "\"What brings *you* here? And why are you talking about anarchy?\""
-msgstr ""
+msgstr "«Что *тебя* привело сюда? И почему ты говоришь об анархии?»"
 
 #: 56869
 msgid "\"I need some help, Ebb.\""
-msgstr ""
+msgstr "«Мне нужна помощь, Эбб»."
 
 #: 56870
 msgid ""
@@ -888,34 +1184,42 @@ msgid ""
 "have some sort of breathing trouble. He appears to be the leader of the "
 "group gathered here. He motions you toward him."
 msgstr ""
+"Ты видишь слегка сутулого старика с густой серой бородой и львиной гривой "
+"седых волос. Он носит пару наплечников от доспехов и держит шлем в руке. Он "
+"курит трубку, мешочек с табаком к которой висит на поясе. На вид он довольно "
+"силен, однако немного страдает излишним весом и одышкой. Похоже, что он "
+"лидер группы, собравшейся здесь. Он призывно машет тебе."
 
 #: 56871
 msgid "Move toward him."
-msgstr ""
+msgstr "Подойти к нему."
 
 #: 56872
 msgid "Refuse."
-msgstr ""
+msgstr "Отказаться."
 
 #: 56873
 msgid ""
 "Ebb tips you a wink, and motions you closer. \"Cutter, you've traveled a "
 "long and hard path, but I'm here to ease it. Are you with me?\""
 msgstr ""
+"Эбб подмигивает тебе и пододвигается ближе. «Рубака, ты прошел долгий и "
+"тяжелый путь, но я здесь, чтобы облегчить его. Ты со мной?»"
 
 #: 56874
 msgid ""
 "\"What are you doing in the company of Anarchists, Ebb? I thought you were "
 "Harmonium.\""
 msgstr ""
+"«Что ты делаешь в компании анархистов, Эбб? Я думал, ты из Гармониума»."
 
 #: 56875
 msgid "\"Tell me.\""
-msgstr ""
+msgstr "«Скажи мне»."
 
 #: 56876
 msgid "\"No. Go pike yourself.\""
-msgstr ""
+msgstr "«Нет. Сам забейся»."
 
 #: 56877
 msgid ""
@@ -924,24 +1228,30 @@ msgid ""
 "think it's best to make sure its pieces are swept away and the people "
 "introduced to a new freedom. We're a dangerous bunch, you see.\""
 msgstr ""
+"Он кланяется так низко, насколько это возможно с его брюшком. «Как видишь... "
+"склад, полный коварных интриганов. Поскольку старые порядки разваливаются на "
+"куски, мы думаем, как бы смести их, и дать людям новую свободу. Как видишь "
+"ли, мы опасные типы»."
 
 #: 56878
 msgid ""
 "\"The people won't have much freedom when they're killed by the monsters "
 "that are ravaging the city.\""
 msgstr ""
+"«У людей не станет больше свободы от того, что их сожрут монстры, "
+"опустошающие город»."
 
 #: 56879
 msgid "\"Are you sure that now is the best time to do that?\""
-msgstr ""
+msgstr "«Ты уверен, что сейчас самое время для этого?»"
 
 #: 56880
 msgid "\"Not as dangerous as I am. Let me show you.\" Attack them."
-msgstr ""
+msgstr "«Вы не так опасны, как я. Давайте покажу». Атаковать их."
 
 #: 56881
 msgid "\"We'll have no more chaos in this town.\""
-msgstr ""
+msgstr "«Больше хаоса в этом городе не будет»."
 
 #: 56882
 msgid ""
@@ -950,14 +1260,18 @@ msgid ""
 "in charge of this little band of adventurers - only for command purposes, of "
 "course!\""
 msgstr ""
+"«Ну что же, мы планируем и строим интриги, мой друг. Поскольку городской "
+"порядок близок к падению, мы в... уникальном... положении, позволяющем "
+"сделать так, что нас услышат. Я во главе этой небольшой команды искателей "
+"приключений - конечно же, исключительно в целях управления!»"
 
 #: 56884
 msgid "\"What exactly are you scheming?\""
-msgstr ""
+msgstr "«Что именно вы планируете?»"
 
 #: 56885 56899
 msgid "\"What do you mean?\""
-msgstr ""
+msgstr "«О чем это ты?»"
 
 #: 56886
 msgid ""
@@ -965,6 +1279,9 @@ msgid ""
 "overthrow the old order, to ensure that the old schemes do not rise again. "
 "It's our job, after all...\""
 msgstr ""
+"«Ты ищешь союзников в борьбе с хаосом? А мы вот хотим хаос усилить, сбросить "
+"старый порядок, чтобы гарантировать, что старая система не вернется. В конце "
+"концов, это наша работа...»"
 
 #: 56887
 msgid ""
@@ -972,16 +1289,20 @@ msgid ""
 "We destroy so that others may rebuild. There'll be nothing left of Curst if "
 "this keeps up.\""
 msgstr ""
+"«Может это и наша работа, но мы не поддерживаем разрушение ради разрушения. "
+"Мы рушим, чтобы другие могли перестроить. От Проклятого не останется ничего, "
+"если это будет продолжаться»."
 
 #: 56888
 msgid ""
 "\"Why would you want to increase the chaos? The town's already in Carceri, "
 "and now the citizens are being devoured.\""
 msgstr ""
+"«Почему ты хочешь усилить хаос? Город уже в Карцери, а граждан жрут заживо»."
 
 #: 56889
 msgid "\"Then it's my job to stop you. Prepare to die.\""
-msgstr ""
+msgstr "«В таком случае моя задача остановить вас. Приготовьтесь к смерти»."
 
 #: 56890
 msgid ""
@@ -990,36 +1311,41 @@ msgid ""
 "to whip them into shape and set the town up for stripping itself of the old "
 "order.\""
 msgstr ""
+"«Друг мой, я - Эбб Коленоскрип, бывшая Третья степень Гармониума, а ныне "
+"действующий лидер этой ячейки Революционной лиги. Я здесь, чтобы придать им "
+"форму и заставить город сбросить с себя старый порядок»."
 
 #: 56891
 msgid "\"The old order's pretty well stripped away.\""
-msgstr ""
+msgstr "«От старого порядка и духу не осталось»."
 
 #: 56893
 msgid "\"You're Anarchists? Then you must be stopped.\""
-msgstr ""
+msgstr "«Вы анархисты? Тогда вас нужно остановить»."
 
 #: 56896
 msgid "\"And what are you going to do with the town?\""
-msgstr ""
+msgstr "«И что вы собираетесь сделать с городом?»"
 
 #: 56897
 msgid "\"In that case, I'll just be leaving.\""
-msgstr ""
+msgstr "«В таком случае я просто ухожу»."
 
 #: 56898
 msgid ""
 "\"Leaving? Ah, but my friend, you can't. You see, we can't allow you to "
 "leave here now that you've seen our faces.\""
 msgstr ""
+"«Уходишь? Ах, мой друг, но ты не можешь этого сделать. Видишь ли, мы не "
+"можем позволить тебе уйти сейчас, когда ты видел наши лица»."
 
 #: 56900
 msgid "\"I'd like to see you try to stop me.\""
-msgstr ""
+msgstr "«Хотел бы я посмотреть на то, как вы попытаетесь меня остановить»."
 
 #: 56901
 msgid "His self-assured exterior slips for a moment. \"What do you mean?\""
-msgstr ""
+msgstr "Его самоуверенный вид тут же исчезает. «Что ты имеешь в виду?»"
 
 #: 56902 56909
 msgid ""
@@ -1027,6 +1353,9 @@ msgid ""
 "government, evil has come to Curst and is currently destroying what's left "
 "of the city.\""
 msgstr ""
+"«Я имею в виду то, что пока вы тут плели интриги по свержению городского "
+"правительства, зло пришло в Проклятый и сейчас разрушает то, что осталось от "
+"города»."
 
 #: 56903
 msgid ""
@@ -1034,6 +1363,9 @@ msgid ""
 "all dead! Here. Take this.\" He turns to his brethren. \"We must go, or all "
 "our work will be for naught! Come on!\" He races for the door."
 msgstr ""
+"«Но... нужно же что-то сделать! Все наши усилия пропадут впустую, если все "
+"они умрут! Вот. Возьми это. - он поворачивается к собратьям. - Мы должны "
+"идти, иначе наш труд будет напрасен! Вперед!» Он бежит к двери."
 
 #: 56905
 msgid ""
@@ -1041,38 +1373,45 @@ msgid ""
 "they'll crush the power structures that've repressed them and make something "
 "new, something beautiful. We're going to help them.\""
 msgstr ""
+"«Когда люди увидят, что их предводители подвели их, появится неплохой шанс, "
+"что они сломят органы власти, подавлявшие их, и создадут что-то новое, что-"
+"то прекрасное. И мы им поможем»."
 
 #: 56906
 msgid "\"Oh, so you're going to help fight the fiends, then?\""
-msgstr ""
+msgstr "«О, так ты собираешься помочь сражению с нечистыми?»"
 
 #: 56907
 msgid "\"How are you going to make something beautiful from this?\""
-msgstr ""
+msgstr "«Как ты собираешься создать что-то прекрасное из этого?»"
 
 #: 56908
 msgid "\"What do you mean, exactly?\""
-msgstr ""
+msgstr "«Что именно ты имеешь в виду?»"
 
 #: 56910
 msgid "\"The timing seems a little awkward.\""
-msgstr ""
+msgstr "«Похоже, сейчас не самое подходящее время»."
 
 #: 56911
 msgid ""
 "\"Friend, chaos is the redeeming feature of this town. With the slide into "
 "Carceri, it's apparent it's one of the town's most basically held beliefs.\""
 msgstr ""
+"«Друг, хаос есть неизгладимая черта этого города. Поскольку он съезжает в "
+"Карцери, похоже, что это - одно из самых общепринятых убеждений города»."
 
 #: 56912
 msgid ""
 "\"Yes, and evil seems to be a part of it too. We need to get the town out of "
 "here before we're all dead.\""
 msgstr ""
+"«Да, и похоже, что зло тоже его часть. Нужно вырвать город отсюда, пока мы "
+"все не погибли»."
 
 #: 56913
 msgid "\"Then you support what's happening here?\""
-msgstr ""
+msgstr "«То есть ты поддерживаешь то, что здесь происходит?»"
 
 #: 56914
 msgid ""
@@ -1080,16 +1419,21 @@ msgid ""
 "ensure that this town doesn't retain the corruption of the past "
 "administration.\" He waves his hands at his co-conspirators. \"Take them.\""
 msgstr ""
+"«Друг, мне не доставляет это удовольствия... но я должен. Нужно убедиться, "
+"что город не унаследует коррупцию бывшего правительства, - он подает "
+"заговорщикам сигнал рукой. - Взять их»."
 
 #: 56915
 msgid ""
 "\"Why are you doing this? Can't you see the town is falling apart? I don't "
 "mean that in a good way, either.\""
 msgstr ""
+"«Почему ты это делаешь? Ты что, не видишь, что город разваливается? И я не "
+"думаю, что это хорошо»."
 
 #: 56916 56932
 msgid "Fight."
-msgstr ""
+msgstr "Сражаться."
 
 #: 56917
 msgid ""
@@ -1097,27 +1441,31 @@ msgid ""
 "this city, like rot from an apple, something new can rise from its "
 "destruction. Consider it a wildfire in the city's administration. Heh heh.\""
 msgstr ""
+"Он нетерпеливо вздыхает. «Суть в том, что когда коррупция будет вырезана из "
+"города, как гниль из яблока, кое-что новое сможет взойти на его руинах. "
+"Можешь считать это пожаром в управлении города. Хе-хе»."
 
 #: 56918
 msgid "\"The wildfire is certainly spreading.\""
-msgstr ""
+msgstr "«Пожар определенно разгорается»."
 
 #: 56919
 msgid "\"So you support what's happening here?\""
-msgstr ""
+msgstr "«Так ты поддерживаешь то, что здесь происходит?»"
 
 #: 56920
 msgid "\"Indubitably, friend. Indubitably.\""
-msgstr ""
+msgstr "«Без сомнений, друг. Без сомнений»."
 
 #: 56921
 msgid "\"Then we have nothing more to say to each other. Farewell.\""
-msgstr ""
+msgstr "«Тогда нам больше нечего друг другу сказать. Прощай»."
 
 #: 56922
 msgid ""
 "\"Then I'll have to kill you in order to return Curst to its natural place.\""
 msgstr ""
+"«Тогда мне придется тебя убить, чтобы вернуть Проклятый на свое место»."
 
 #: 56923
 msgid ""
@@ -1126,14 +1474,17 @@ msgid ""
 "infiltrated them for the Harmonium, and I'm betraying them from the inside. "
 "We need to get this town back to the Outlands. Are you with me?\""
 msgstr ""
+"Он наклоняется вперед и шепчет тебе на ухо. «Я знаю, кто ты в Революционной "
+"лиге. Я знаю, что ты шпион. Я втерся к ним в доверие ради Гармониума, и "
+"предаю их изнутри. Нужно вернуть этот город Внешним землям. Ты со мной?»"
 
 #: 56924
 msgid "\"Yes.\""
-msgstr ""
+msgstr "«Да»."
 
 #: 56925
 msgid "\"Not on your life.\""
-msgstr ""
+msgstr "«Не в этой жизни»."
 
 #: 56926
 msgid ""
@@ -1141,6 +1492,9 @@ msgid ""
 "paces, eh? Tell me the town's being overrun by fiends. But do it loudly, so "
 "they can hear it.\""
 msgstr ""
+"«Тогда делай как я скажу. Мы скажем, куда этим ублюдкам-анархистам топать, "
+"верно? Скажи мне, что город захвачен нечистью. Только говори громко, чтобы "
+"они могли услышать»."
 
 #: 56928
 msgid ""
@@ -1149,6 +1503,10 @@ msgid ""
 "people of the city. If you truly wish to win their hearts, showing you care "
 "about them would be a good start. Go save them.\""
 msgstr ""
+"«Хорошо, - ты повышаешь голос. - Город захвачен нечистью, пока вы тут сидите "
+"и строите планы по улучшению жизни обитателей города. Если действительно "
+"хотите завоевать их сердца, демонстрация вашей заботы о них станет хорошим "
+"началом. Идите и спасите их»."
 
 #: 56929
 msgid ""
@@ -1158,10 +1516,15 @@ msgid ""
 "turns to his brethren. \"We must go, or all our work will be for naught! "
 "Come on!\" He races for the door."
 msgstr ""
+"Эбб подмигивает тебе, незаметно засовывая свиток в руку, а затем слегка "
+"отступает, чтобы анархисты могли видеть его лицо. «Но... нужно же что-то "
+"сделать! Все наши усилия пропадут впустую, если все они умрут! - он "
+"поворачивается к собратьям. - Мы должны идти, иначе наш труд напрасен! "
+"Вперед!» Он бежит к двери."
 
 #: 56930 61567
 msgid "\"Good luck...\""
-msgstr ""
+msgstr "«Удачи...»"
 
 #: 56931
 msgid ""
@@ -1169,8 +1532,12 @@ msgid ""
 "part of the problem.\" He turns toward his compatriots. \"He'll betray us if "
 "given half a chance. Take him.\""
 msgstr ""
+"«Тогда ты не оставляешь мне выбора. Если ты не часть решения, то ты часть "
+"проблемы, - он поворачивается к соратникам. - Он предаст нас при первой же "
+"возможности. Взять его»."
 
 #: 56933
+#, fuzzy
 msgid ""
 "He leans in even closer, the stink from his smoking pipe overpowering, and "
 "whispers, \"I'm undercover. Triple agent. Harmonium agent, infiltrating the "
@@ -1178,11 +1545,21 @@ msgid ""
 "even more deviously than these berks to get in... and I'm still not sure if "
 "my cover's blown or not. So... are you going to help me help you?\""
 msgstr ""
+"Он наклоняется еще ближе, аромат его трубки перебивает все запахи; он "
+"шепчет, «Я под прикрытием. Тройной агент. Агент Гармониума, внедренный к "
+"анархистам, притворяющийся двойным агентом Гармониума. Нужно мыслить еще "
+"более коварно, чем эти пни, чтобы попасть внутрь... и я до сих пор не знаю, "
+"близок ли я к провалу или нет. Итак... ты мне собираешься помочь мне помочь "
+"тебе?»"
 
 #: 56934
 msgid "\"What do I have to do?\""
-msgstr ""
+msgstr "«Что мне нужно сделать?»"
 
 #: 56935
 msgid "\"I can't do that.\""
-msgstr ""
+msgstr "«Я не могу этого сделать»."
+
+# funny funny things :)
+#~ msgid "NULL MODE - NOTIFY COLIN IF YOU HIT"
+#~ msgstr "NULL MODE - СКАЖИТЕ COLIN ЕСЛИ НАТКНЕТЕСЬ"

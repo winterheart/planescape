@@ -1,50 +1,56 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: planescape l10n\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-06 00:22+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: 48979
 msgid "You see a plain looking woman who has an irritated look about her."
-msgstr ""
+msgstr "Ты видишь просто одетую женщину, у которой рассерженный вид."
 
 #: 48980
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 48981
 msgid "Leave the woman alone."
-msgstr ""
+msgstr "Оставить женщину в покое."
 
 #: 48982
 msgid "\"Maybe you don't remember too good. I said I want to be alone.\""
 msgstr ""
+"«Кажется, ты не понимаешь с первого раза. Я же сказала, я хочу остаться "
+"одна»."
 
 #: 48983
 msgid "\"Hmm, I see your mood hasn't changed.\""
-msgstr ""
+msgstr "«Хм-м, кажется, твое настроение не изменилось»."
 
 #: 48984 48987 48989
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 48985
 msgid ""
 "\"Isn't there anywhere in this town where I can be by myself for a while?\""
-msgstr ""
+msgstr "«Неужели во всем городе нет места, где я могу уединиться?»"
 
 #: 48986
 msgid "\"Why do you want to be alone?\""
-msgstr ""
+msgstr "«Почему ты хочешь уединиться?»"
 
 #: 48988
+#, fuzzy
 msgid "\"'Alone' means 'without you.' Leave me alone.\""
-msgstr ""
+msgstr "«'Уединиться' означает 'без тебя'. Оставь меня в покое»."

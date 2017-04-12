@@ -1,124 +1,144 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dlwgf.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2012-04-11 21:55+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.4\n"
 
 #: 65087
 msgid ""
 "You see a young woman with pale yellow skin. As you approach her you notice "
 "that she has small pustules scattered along the exposed areas of her skin. "
 msgstr ""
+"Перед тобой девушка с бледно-желтой кожей. Подойдя, ты замечаешь, что "
+"открытые участки ее тела покрыты мелкой сыпью."
 
 #: 65088 65099 65127
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 65089 65100 65128
 msgid "Ignore her."
-msgstr ""
+msgstr "Игнорировать ее."
 
 #: 65090
 msgid ""
 "She quickly glances at you and then frowns. \"Greetings, cutter. What do you "
 "want?\""
 msgstr ""
+"Она окидывает тебя быстрым взглядом и хмурится. «Приветствую, рубака. Чего "
+"надо?»"
 
 #: 65091 65102 65130 65137
 msgid "\"I have some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 65092
 msgid "\"Nothing, never mind.\""
-msgstr ""
+msgstr "«Ничего, неважно»."
 
 #: 65093
 msgid ""
 "Her frown deepens. \"I'm sorry, but I'm pretty busy right now. I don't have "
 "the time to talk to you...\" She starts to turn away. "
 msgstr ""
+"Ее лицо становится еще более угрюмым. «Извини, но я сейчас довольно занята. "
+"У меня нет времени на разговоры...» Она начинает отворачиваться. "
 
 #: 65094
 msgid "\"It will take just a moment of your time...\""
-msgstr ""
+msgstr "«Это займет совсем немного твоего времени...»"
 
 #: 65095
 msgid "\"Farewell then.\""
-msgstr ""
+msgstr "«Тогда прощай». "
 
 #: 65096
 msgid ""
 "\"I don't have a moment to give you. Please ask someone else...\" She starts "
 "to turn away."
 msgstr ""
+"«У меня не найдется для тебя даже минуты. Пожалуйста, спроси кого-нибудь "
+"другого...» Она начинает отворачиваться."
 
 #: 65097
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 65098
 msgid ""
 "You see a woman with pale yellow skin and a persistent cough. She glances at "
 "you as you approach."
 msgstr ""
+"Перед тобой женщина с бледно-желтой кожей, одолеваемая постоянным кашлем. "
+"Она бросает на тебя взгляд, когда ты подходишь."
 
 #: 65101
+#, fuzzy
 msgid ""
 "She smiles at you and tries to answer you but her cough is interfering. "
 "\"Yes...\" She has a coughing fit. \"Hello, cutter... You want something?\""
 msgstr ""
+"Она улыбается тебе и пытается ответить, но ей мешает кашель. «Да... - она "
+"заходится в приступе кашля. - Привет, рубака... Чего-то хочешь?»"
 
 #: 65103
 msgid "\"No, never mind. Farewell.\""
-msgstr ""
+msgstr "«Нет, не бери в голову. Прощай»."
 
 #: 65104
 msgid "\"Glad to help, but please be quick.\""
-msgstr ""
+msgstr "«Рада буду помочь, но, пожалуйста, поторопись»."
 
 #: 65105
 msgid "\"Are you alright?\""
-msgstr ""
+msgstr "«Ты в порядке?»"
 
 #: 65106
 msgid "\"Why do you have yellow skin?\""
-msgstr ""
+msgstr "«От чего твоя кожа желтая?»"
 
 #: 65107 65133
 msgid "\"Can you tell me about this ward?\""
-msgstr ""
+msgstr "«Что ты можешь сказать об этом районе?»"
 
 #: 65108
 msgid "\"I'm missing a skull. I'm trying to find who took him.\""
-msgstr ""
+msgstr "«У меня пропал череп. Я пытаюсь найти того, кто его забрал»."
 
 #: 65109 65112 65115 65119 65122 65138
 msgid "\"I must be going, farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай»."
 
 #: 65110
 msgid "She smiles. \"Yes. Thank you for asking. It'll pass.\""
-msgstr ""
+msgstr "Она улыбается. «Да. Спасибо за заботу. Это пройдет»."
 
 #: 65111 65114
 msgid "\"Very well. I have some questions...\""
-msgstr ""
+msgstr "«Ладно. У меня еще вопросы...»"
 
 #: 65113
+#, fuzzy
 msgid ""
 "\"Well...\" She looks embarrassed. \"It's the air in this ward. It's not of "
 "the best quality and it causes some problems for most folks. It's all the "
 "smoke and what not from the Foundry...\" She begins to cough again and "
 "motions for you to hurry with your questions."
 msgstr ""
+"«Ну... - она выглядит смущенной. - Это все воздух этого района. Он не "
+"лучшего качества, и от него у многих бывают проблемы. Это все из-за дыма и "
+"прочего от литейной...» Она снова начинает кашлять, жестом поторапливая тебя "
+"с вопросами."
 
 #: 65116
 msgid ""
@@ -126,18 +146,22 @@ msgid ""
 "and...\" Another coughing fit hits her. \"...things of that nature...\" She "
 "grows silent and clutches her chest."
 msgstr ""
+"«Э, ну... - она кашляет. - Тут много лавок, рынков, уличных торговцев и... - "
+"она заходится в очередном приступе кашля, - и тому подобного». Она умолкает, "
+"схватившись за грудь."
 
 #: 65117
 msgid "\"Are you sure you're alright?\""
-msgstr ""
+msgstr "«Ты точно в порядке?»"
 
 #: 65118 65121 65124
 msgid "\"I see. I have some more questions...\""
-msgstr ""
+msgstr "«Понятно. У меня еще вопросы...»"
 
 #: 65120
+#, fuzzy
 msgid "She smiles. \"Absolutely...\" She begins patting herself on the chest."
-msgstr ""
+msgstr "Она улыбается. «Абсолютно...» Она похлопывает себя по груди."
 
 #: 65123
 msgid ""
@@ -145,16 +169,21 @@ msgid ""
 "thing...\" She looks like she is about to have another coughing fit but it "
 "passes. \"I really can't think of who you should ask about it either.\""
 msgstr ""
+"Она хмурится, раздумывая. «Нет... Даже не представляю, кому бы такое "
+"понадобилось...» Кажется, будто у нее вот-вот начнется новый приступ кашля, "
+"но потом все проходит. «Не знаю даже, кого тебе следует об этом спросить»."
 
 #: 65125 65142
 msgid "\"Thank you, farewell.\""
-msgstr ""
+msgstr "«Спасибо, прощай»."
 
 #: 65126
 msgid ""
 "You see a middle-aged woman with yellow skin. She glances at you as you "
 "approach and tries to wave you away."
 msgstr ""
+"Перед тобой женщина средних лет с желтой кожей. Когда ты подходишь, она "
+"мельком смотрит на тебя и пытается жестом показать, чтобы ты не подходил."
 
 #: 65129
 msgid ""
@@ -162,28 +191,34 @@ msgid ""
 "look about, searching the shadows for anyone that may be hidden there. \"You "
 "want something?\""
 msgstr ""
+"Она трусливо поглядывает на тебя. «Э... Привет... Рубака». Она начинает "
+"оглядываться, высматривая в тенях тех, кто может там прятаться. «Ты чего-то "
+"хочешь?»"
 
 #: 65131
 msgid "\"Very well, farewell.\""
-msgstr ""
+msgstr "«Хорошо, прощай»."
 
 #: 65132
 msgid "\"Like what?\""
-msgstr ""
+msgstr "«Например?»"
 
 #: 65134
 msgid "\"Someone stole a skull that I had. I'm trying to find it.\""
-msgstr ""
+msgstr "«Кто-то украл у меня череп. Я пытаюсь его найти»."
 
 #: 65135
 msgid "\"Never mind, farewell.\""
-msgstr ""
+msgstr "«Неважно, прощай»."
 
 #: 65136
+#, fuzzy
 msgid ""
 "\"This here's the Lower Ward, home of the common folk like myself. Not much "
 "else to know about, just look around and discover it for yourself.\""
 msgstr ""
+"«Это Нижний район, дом простого народа вроде меня. Больше о нем сказать "
+"нечего, просто осмотрись, и сам все поймешь»."
 
 #: 65139
 msgid ""
@@ -192,23 +227,31 @@ msgid ""
 "of the dead, or some such thing in this ward. He collects skulls for some "
 "reason I can't fathom...\""
 msgstr ""
+"Она хмуро глядит на тебя, потом делает любопытный жест напротив сердца. «Я "
+"слышала байки... - она делает паузу. - Поговаривают, что на районе есть то "
+"ли некромант, то ли жрец смерти, то ли еще кто. Он собирает черепа по "
+"непонятным мне причинам...»"
 
 #: 65140
 msgid "\"Do you know where I can find him?\""
-msgstr ""
+msgstr "«Ты знаешь, где его можно найти?»"
 
 #: 65141
 msgid ""
 "She shakes her head slowly. \"Stories, cutter. That's all it is... No such "
 "thing exists in this ward. It's just stories...\""
 msgstr ""
+"Она медленно качает головой. «Это байки, рубака. Не более того... Такого нет "
+"в этом районе. Это всего лишь байки...»"
 
 #: 65143
 msgid ""
 "As you approach this woman you realize that you have spoken with her once "
 "before. \"Hello again, cutter. You want something?\""
 msgstr ""
+"Подойдя к этой женщине, ты осознаешь, что уже разговаривал с ней раньше. "
+"«Привет, рубака. Чего-то хочешь?»"
 
 #: 65144
 msgid "\"No, farewell.\""
-msgstr ""
+msgstr "«Нет, прощай»."

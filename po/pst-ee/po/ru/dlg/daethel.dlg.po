@@ -1,22 +1,25 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: daethel.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2016-03-12 02:08+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: 12343 12345 12348 12350 12352 14756 3059
 msgid "\"Farewell, then.\""
-msgstr ""
+msgstr "«Тогда прощай». "
 
 #: 12344
+#, fuzzy
 msgid ""
 "You see a scaled fiend who looks very similar to the one standing next to "
 "him - in addition to the pierced left ears, both are black-hued and "
@@ -25,6 +28,12 @@ msgid ""
 "rasps, hissing, \"Take the Abyssal vermin away and we'll talk. Till then, we "
 "say nothing.\" It spits again for good measure."
 msgstr ""
+"Перед тобой чешуйчатый нечистый, очень похожий на своего собрата, стоящего "
+"рядом: у обоих проколото левое ухо, оба - черные ящеры со сложенными сзади "
+"перепончатыми крыльями. Только у этого не хватает зуба с правой стороны. "
+"Заметив Падшую Грацию рядом с тобой, он скрежещет зубами, шипя: «Убери этого "
+"червя с Бездны, тогда и поговорим. Иначе мы ничего не скажем». Он смачно "
+"сплевывает."
 
 #: 12346
 msgid ""
@@ -34,27 +43,44 @@ msgid ""
 "tooth on its right side. \"Ah, Tegar'in,\" it says, \"our old friend has "
 "returned to pay us a visit.\""
 msgstr ""
+"Перед тобой чешуйчатый нечистый, очень похожий на своего собрата, стоящего "
+"рядом: у обоих проколото левое ухо, оба - черные ящеры со сложенными сзади "
+"перепончатыми крыльями. Только у этого не хватает зуба с правой стороны. «А, "
+"Тегарин, - говорит он, - наш старый приятель вернулся, чтобы нанести нам "
+"визит»."
 
 #: 12347
+#, fuzzy
 msgid ""
 "The abishai rears back as you approach. \"Take the little chaos rats,\" "
 "indicating Fall-from-Grace and Annah, \"away from us and we shall bargain. "
 "Until then, we'll have no words with you.\""
 msgstr ""
+"Абишай пятится при твоем приближении. «Убери своих хаотических крыс от нас, "
+"- он указывает на Падшую Грацию и Анну, - тогда и поговорим. А до тех пор "
+"нам не о чем говорить»."
 
 #: 12349
+#, fuzzy
 msgid ""
 "The abishai rears back as you approach. \"Take the little chaos rat,\" "
 "indicating Annah, \"away from us and we shall bargain. Until then, we'll "
 "have no words with you.\""
 msgstr ""
+"Абишай пятится при твоем приближении. «Убери свою хаотическую крысу от нас, "
+"- он указывает на Анну, - тогда и поговорим. А до тех пор нам не о чем "
+"говорить»."
 
 #: 12351
+#, fuzzy
 msgid ""
 "The abishai rears back as you approach. \"Take the little chaos rat,\" "
 "indicating Fall-from-Grace, \"away from us and we shall bargain. Until then, "
 "we'll have no words with you.\""
 msgstr ""
+"Абишай пятится при твоем приближении. «Убери свою хаотическую крысу от нас, "
+"- он указывает на Падшую Грацию, - тогда и поговорим. А до тех пор нам не о "
+"чем говорить»."
 
 #: 12353
 msgid ""
@@ -62,52 +88,56 @@ msgid ""
 "vapors coiling from the corner of its mouth. \"Have your memories returned "
 "to you, old friend?\""
 msgstr ""
+"«Вернулся, транжира?» Нечистый улыбается тебе, шипя и изрыгая тошнотворные "
+"испарения из уголков рта. «К тебе уже вернулась память, старый приятель?»"
 
 #: 12354
 msgid "\"What do you mean?\""
-msgstr ""
+msgstr "«О чем это ты?»"
 
 #: 12355
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 12356
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 12357
 msgid ""
 "\"Some questions? Perhaps we have answers. We are certainly eager to aid "
 "you, old friend.\""
 msgstr ""
+"«Еще вопросы? Возможно, у нас есть ответы. Мы определенно стремимся помочь "
+"тебе, старый приятель»."
 
 #: 12358 12370
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто вы?»"
 
 #: 12359 12371
 msgid "\"What are you doing?\""
-msgstr ""
+msgstr "«Чем вы занимаетесь?»"
 
 #: 12360 12372
 msgid "\"What is this place?\""
-msgstr ""
+msgstr "«Что это за место?»"
 
 #: 12361 12373
 msgid "\"Tell me about fiends.\""
-msgstr ""
+msgstr "«Расскажите мне о нечисти»."
 
 #: 12362 12374
 msgid "\"Do you know a Collector named Pharod?\""
-msgstr ""
+msgstr "«Вы знаете сборщика по имени Фарод?»"
 
 #: 12363 12375
 msgid "\"I'm looking for a journal.\""
-msgstr ""
+msgstr "«Я ищу дневник»."
 
 #: 12364 12376
 msgid "\"Would you know of a Collector who has dealings with fiends?\""
-msgstr ""
+msgstr "«Вы знаете сборщика, который ведет дела с нечистыми?»"
 
 #: 12365
 msgid ""
@@ -115,6 +145,9 @@ msgid ""
 "been many hundreds of years, and we know how the minds of mortals tend to "
 "dissipate with age.\""
 msgstr ""
+"«Я тоже весьма огорчен, Тегарин. Хотя и могу легко пережить это. В конце "
+"концов, прошло много столетий, а мы хорошо знаем, что время неумолимо к "
+"разуму смертных»."
 
 #: 12366
 msgid ""
@@ -123,10 +156,13 @@ msgid ""
 "it is best not to have earned the sort of notice one bearing the name "
 "'Thrice-Damned' must surely have incurred.\""
 msgstr ""
+"Аэтелгрин, не обращая на тебя внимания, отвечает своему товарищу: «И снова, "
+"Тегарин, ты ухватил самую суть дела. Хотя лучше не стоит упоминать, за что "
+"ты получил прозвище Трижды Проклятый»."
 
 #: 12367 12368
 msgid "\"I had some other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 12369
 msgid ""
@@ -135,6 +171,10 @@ msgid ""
 "later.\" The abishai returns its attentions to you. \"Now, then... you said "
 "you had some questions?\""
 msgstr ""
+"«Ух ты, что я вижу - маленький летающий череп? Какой вокруг тебя приятный "
+"запах бааторийского разложения, дорогуша. Возможно, нам стоит обсудить "
+"это... позже, - абишай возвращается к тебе. - Итак... ты говорил, что у тебя "
+"есть вопросы?»"
 
 #: 12377
 msgid ""
@@ -143,6 +183,11 @@ msgid ""
 "rest and perhaps inducing some additional recruitment for our glorious "
 "cause. Our superiors fully support our presence, to be sure.\""
 msgstr ""
+"«Что мы делаем? Как, разве это не понятно, старый приятель? Мы оставили наш "
+"любимый пост, чтобы посвятить себя так необходимому нам отдыху и по "
+"возможности завербовать кого-нибудь в наши прославленные ряды. Наши "
+"предводители, вне всякого сомнения, полностью поддерживают наше присутствие "
+"здесь»."
 
 #: 12378
 msgid ""
@@ -151,158 +196,186 @@ msgid ""
 "side, that of the cursed, hated, chaotic tanar'ri, is incorrect and must be "
 "exterminated.\""
 msgstr ""
+"«Как мы знаем, есть две разновидности нечисти - правильные и неправильные. "
+"Мы, баатезу, из тех, кто правильные. А те проклятые, ненавистные с другой "
+"стороны - хаотичные танарри - неправильны и должны быть уничтожены»."
 
 #: 12379
 msgid ""
 "\"I keep no journals, friend, and I counsel that you should not either. Ask "
 "my dear comrade Tegar'in why, and you shall receive enlightenment.\""
 msgstr ""
+"«Я не веду дневников, приятель, и тебе не советую. Спроси моего дорогого "
+"товарища Тегарина почему - и ты получишь объяснение»."
 
 #: 12380
 msgid "\"Very well. Tegar'in, why should I not keep a journal?\""
-msgstr ""
+msgstr "«Хорошо. Тегарин, почему я не должен вести дневник?»"
 
 #: 12381
 msgid "\"Perhaps later. I had other questions...\""
-msgstr ""
+msgstr "«Может, позже. У меня есть другие вопросы...»"
 
 #: 12382
 msgid "\"Perhaps later. Farewell.\""
-msgstr ""
+msgstr "«Может, позже. Прощай»."
 
 #: 14654
 msgid "\"Yes, yes, he does. Does he know?\""
-msgstr ""
+msgstr "«Да-да. Он знает?»"
 
 #: 14655
 msgid ""
 "\"Yes, of course, you're all too right.\" The fiend turns to you. \"What do "
 "you know of this Collector, friend of long years?\""
 msgstr ""
+"«Да, конечно, ты несомненно прав, - нечистый поворачивается к тебе. - Что ты "
+"знаешь об этом сборщике, наш старинный приятель?»"
 
 #: 14656
 msgid ""
 "\"I would tell you, companion, but alas, I've sworn not to speak of it!\""
 msgstr ""
+"«Я бы рассказал тебе о нем, приятель, но увы, я поклялся не говорить об "
+"этом!»"
 
 #: 14657
 msgid "\"Did you not swear, Tegar'in?\""
-msgstr ""
+msgstr "«А ты разве не клялся, Тегарин?»"
 
 #: 14658
 msgid "\"Lovely!\""
-msgstr ""
+msgstr "«Восхитительно!»"
 
 #: 14659
 msgid ""
 "The other fiend interrupts before Tegar'in can speak: \"The pendant! Do not "
 "forget!\""
-msgstr ""
+msgstr "Другой нечистый прерывает Тегарина: «Кулон! Не забудь!»"
 
 #: 14660
 msgid ""
 "\"...perhaps you'd be willing to work out a deal with us? Like old times "
 "revisited...\""
 msgstr ""
+"«...может быть, ты захочешь заключить с нами сделку? Как в старые добрые "
+"времена...»"
 
 #: 14661
 msgid "\"We'll tell you everything we know of the 'Collector'...\""
-msgstr ""
+msgstr "«Мы сообщим все, что мы знаем о 'сборщике'...»"
 
 #: 14662
+#, fuzzy
 msgid ""
 "\"...his weakness, and how to defeat him, thereby securing his pendant - "
 "which we could use to make you much stronger. In return...\""
 msgstr ""
+"«...его слабостях, как его победить, обезопасив тем самым его кулон, с "
+"помощью которого мы сможем сделать тебя гораздо сильнее. В обмен...»"
 
 #: 14663
 msgid ""
 "\"Yes, the pendant. It is shaped like a human's skull, with six crystals "
 "radiating from its crown.\""
 msgstr ""
+"«Да, кулон. Он выглядит как человеческий череп, с шестью кристаллами над "
+"головой»."
 
 #: 14664
 msgid ""
 "\"We are forbidden to even approach the 'Collector,' let alone harass or "
 "harm him.\""
 msgstr ""
+"«Нам запрещено подходить к 'сборщику', беспокоить его и причинять ему вред»."
 
 #: 14665
 msgid "\"Nothing, for you.\""
-msgstr ""
+msgstr "«Для тебя - ничего»."
 
 #: 14666
 msgid "\"It has no powers beyond that; it's quite a passive thing, in fact.\""
-msgstr ""
+msgstr "«Сейчас у него нет силы. Фактически сейчас он - бесполезная вещь»."
 
 #: 14667
+#, fuzzy
 msgid "\"Surely, though, one can see our use for such an item.\""
-msgstr ""
+msgstr "«Несомненно, мы найдем применение подобной вещице»."
 
 #: 14668
 msgid "\"Too bad, too bad.\""
-msgstr ""
+msgstr "«Очень жаль, очень жаль»."
 
 #: 14669
 msgid "\"Excellent.\""
-msgstr ""
+msgstr "«Великолепно»."
 
 #: 14670
 msgid ""
 "\"She was cursed, you see, into the form you see her in. Much of her "
 "strength was wasted away, withered by the priest's holy power.\""
 msgstr ""
+"«Понимаешь, она была проклята и обращена в ту форму, которую ты видишь. "
+"Большая часть ее силы пропала впустую, ослабленная праведной силой жреца»."
 
 #: 14671
 msgid "\"Flitting, cooing things, they are.\""
-msgstr ""
+msgstr "«Порхает туда-сюда, воркует»."
 
 #: 14672
+#, fuzzy
 msgid ""
 "\"Simply remove the pendant from her corpse and return it to fulfill our "
 "bargain, friend. We shall use what power she's managed to capture within it "
 "to strengthen you, and then keep the emptied device for ourselves.\""
 msgstr ""
+"«Просто сними кулон с ее тела и принеси его в знак выполнения своей части "
+"сделки, приятель. А мы используем силу, которую она смогла заключить в него, "
+"чтобы усилить тебя, и оставим опустошенное устройство себе»."
 
 #: 14673
 msgid "\"How wonderful! Return here when the deed is done.\""
-msgstr ""
+msgstr "«Это просто чудесно! Возвращайся сюда, когда все будет сделано»."
 
 #: 14674
 msgid "\"How cruel!\""
-msgstr ""
+msgstr "«Как жестоко!»"
 
 #: 14675
 msgid "\"*Much* stronger, yes!\""
-msgstr ""
+msgstr "«Да, *намного* сильнее!»"
 
 #: 14676
 msgid "\"Tegar'in! What has happened?\""
-msgstr ""
+msgstr "«Тегарин! Что произошло?»"
 
 #: 14677
 msgid "\"Shall we slay him now, drag him to Baator?\""
-msgstr ""
+msgstr "«Может, убить его и забрать в Баатор?»"
 
 #: 14678
 msgid "\"Ha! See how he whimpers, Tegar'in?\""
-msgstr ""
+msgstr "«Ха! Смотри, как он хнычет, Тегарин»."
 
 #: 14679
 msgid ""
 "\"How excellent!\" Aethelgrin snatches the Pendant of Yemeth away from you, "
 "tossing it to Tegar'in."
 msgstr ""
+"«Великолепно!» Аэтелгрин выхватывает у тебя кулон Йемета, бросая его "
+"Тегарину."
 
 #: 14680
 msgid ""
 "Aethelgrin looks away, his attention suddenly drawn to something on the bar "
 "beside him."
 msgstr ""
+"Аэтелгрин смотрит в сторону, его внимание неожиданно переключается на что-то "
+"посреди бара."
 
 #: 14681
 msgid "\"Mmm? Oh, no, I did not.\""
-msgstr ""
+msgstr "«М-м? А, нет, я ничего не знал»."
 
 #: 14682
 msgid ""
@@ -310,32 +383,37 @@ msgid ""
 "lose it. Please, return when you've rid yourself of whatever magic prevents "
 "us from aiding you.\""
 msgstr ""
+"«Боюсь, это невозможно. Он наш, и он слишком многое для нас значит, чтобы "
+"его потерять. Пожалуйста, возвращайся, когда сможешь отделаться от магии, "
+"которая мешает нам помочь тебе»."
 
 #: 14683
 msgid "\"What? No! You can't!\""
-msgstr ""
+msgstr "«Что? Нет! Ты не можешь!»"
 
 #: 14684
 msgid "\"Kill him?\""
-msgstr ""
+msgstr "«Убить его?»"
 
 #: 14685
 msgid "\"Indignant wretch! Off with you!\""
-msgstr ""
+msgstr "«Возмутительный негодяй! Прочь!»"
 
 #: 14686
 msgid "\"Look, he has returned, and with the pendant!\""
-msgstr ""
+msgstr "«Смотри, смотри - он вернулся, и с кулоном!»"
 
 #: 14687
 msgid ""
 "\"Ah, look who has returned. So sorry, friend, but we won't be speaking to "
 "you until you've got our pendant. Farewell.\""
 msgstr ""
+"«О, смотри, кто вернулся. Очень жаль, приятель, но пока ты не принесешь нам "
+"кулон, мы не станем с тобой разговаривать. Прощай»."
 
 #: 14688
 msgid "\"Look who it is, Tegar'in...\""
-msgstr ""
+msgstr "«Ты только посмотри, кто это, Тегарин...»"
 
 #: 14689
 msgid ""
@@ -343,124 +421,133 @@ msgid ""
 "establishment, between two buildings. Seek her out there, late in the "
 "evening.\""
 msgstr ""
+"«Должно быть, она спряталась в переулке между двумя домами на севере от "
+"этого самого заведения. Ищи ее там поздним вечером»."
 
 #: 14729 14734
 msgid "\"Where is this Collector hiding, again?\""
-msgstr ""
+msgstr "«Еще раз, где прячется тот сборщик?»"
 
 #: 14730 14735
 msgid "\"What sort of 'power' is it that the pendant will give me?\""
-msgstr ""
+msgstr "«Что за 'силу' даст мне этот кулон?»"
 
 #: 14731 14736
+#, fuzzy
 msgid "\"I failed to get the pendant from the erinyes, and now she's gone.\""
-msgstr ""
+msgstr "«Мне не удалось добыть кулон у эринии, и теперь она исчезла»."
 
 #: 14732 14737
+#, fuzzy
 msgid ""
 "Lie: \"I could not find the erinyes; she was not in the alley you told me "
 "about.\""
 msgstr ""
+"Ложь: «Мне не удалось найти эринию. В том переулке, о котором вы говорили, "
+"ее нет»."
 
 #: 14733 14738 14762
 msgid "\"Here is the pendant.\""
-msgstr ""
+msgstr "«Вот кулон»."
 
 #: 14739
 msgid "\"No. Farewell.\""
-msgstr ""
+msgstr "«Нет. Прощай»."
 
 #: 14740
 msgid "\"Nothing, really. I was hoping you could enlighten me.\""
-msgstr ""
+msgstr "«На самом деле - ничего. Я надеялся, что вы меня просветите»."
 
 #: 14741
 msgid ""
 "\"Little, only that he has strange habits and has been seen conversing with "
 "fiends.\""
 msgstr ""
+"«Очень мало, только то, что он живет в странном месте и общается с нечистью»."
 
 #: 14742
 msgid "\"Very little. I'll ask you about him another time, though. Farewell.\""
-msgstr ""
+msgstr "«Очень мало. Я спрошу о нем в следующий раз. Прощай»."
 
 #: 14743 14748 14751
 msgid "\"No. No deal.\""
-msgstr ""
+msgstr "«Нет. Никаких сделок»."
 
 #: 14744
 msgid "\"What did you have in mind?\""
-msgstr ""
+msgstr "«Что вы можете мне предложить?»"
 
 #: 14745 14749
 msgid "\"Why don't you seize it yourself?\""
-msgstr ""
+msgstr "«А почему вы не заберете его сами?»"
 
 #: 14746
 msgid "\"What does this pendant do?\""
-msgstr ""
+msgstr "«Что делает этот кулон?»"
 
 #: 14747 14750
 msgid "\"Agreed.\""
-msgstr ""
+msgstr "«Согласен»."
 
 #: 14752
 msgid "\"Interesting...\""
-msgstr ""
+msgstr "«Интересно...»"
 
 #: 14753
 msgid "\"I understand.\""
-msgstr ""
+msgstr "«Понял»."
 
 #: 14754
 msgid "\"I won't do this. No deal.\""
-msgstr ""
+msgstr "«Я не буду делать этого. Никаких сделок»."
 
 #: 14755
 msgid "\"Before I leave, I had some questions...\""
-msgstr ""
+msgstr "«Перед тем, как я уйду, я задам несколько вопросов...»"
 
 #: 14757
 msgid "Attack the fiends."
-msgstr ""
+msgstr "Атаковать нечисть."
 
 #: 14758
 msgid "\"Hmph. Farewell.\""
-msgstr ""
+msgstr "«Хм. Прощай»."
 
 #: 14759
 msgid "\"Wait... I have the pendant.\""
-msgstr ""
+msgstr "«Постой... У меня есть кулон»."
 
 #: 14760 14764
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 14761
+#, fuzzy
 msgid "\"Wait - what sort of power will you be giving me?\""
-msgstr ""
+msgstr "«Постойте, что за силу вы дадите мне?»"
 
 #: 14763
 msgid "\"I have decided to keep the pendant.\""
-msgstr ""
+msgstr "«Я решил оставить кулон себе»."
 
 #: 14765
 msgid "\"I had other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 14766
 msgid "\"That's all I wanted to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 14814 14816
 msgid "\"I'm considering the bargain you spoke of, earlier.\""
-msgstr ""
+msgstr "«Я насчет той сделки, о которой вы говорили»."
 
 #: 14815
 msgid "\"Nothing. Farewell.\""
-msgstr ""
+msgstr "«Ничего. Прощай»."
 
 #: 3057
+#, fuzzy
 msgid ""
 "You see a scaled fiend who looks very similar to the one standing next to "
 "him - in addition to the pierced left ears, both are black-hued and "
@@ -469,8 +556,15 @@ msgid ""
 "you, and rasps, hissing, \"Take the Abyssal vermin away and we'll talk. Till "
 "then, we say nothing.\" It spits again for good measure."
 msgstr ""
+"Перед тобой чешуйчатый нечистый, очень похожий на своего собрата, стоящего "
+"рядом: у обоих проколото левое ухо, оба - черные ящеры со сложенными сзади "
+"перепончатыми крыльями. Только у этого не хватает зуба с правой стороны. "
+"Заметив Анну и Падшую Грацию рядом с тобой, он скрежещет зубами, шипя: "
+"«Убери своих червей с Бездны, тогда и поговорим. Иначе мы ничего не скажем». "
+"Он смачно сплевывает."
 
 #: 3061
+#, fuzzy
 msgid ""
 "You see a scaled fiend who looks very similar to the one standing next to "
 "him - in addition to the pierced left ears, both are black-hued and "
@@ -479,3 +573,9 @@ msgid ""
 "\"Take the little fiendling vermin away and we'll talk. Till then, we say "
 "nothing.\" It spits again for good measure."
 msgstr ""
+"Перед тобой чешуйчатый нечистый, очень похожий на своего собрата, стоящего "
+"рядом: у обоих проколото левое ухо, оба - черные ящеры со сложенными сзади "
+"перепончатыми крыльями. Только у этого не хватает зуба с правой стороны. "
+"Заметив Анну рядом с тобой, он скрежещет зубами, шипя: «Убери своего "
+"демонического червя, тогда и поговорим. Иначе мы ничего не скажем». Он "
+"смачно сплевывает."

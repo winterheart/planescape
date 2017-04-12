@@ -1,76 +1,87 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dadminas.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2015-11-22 14:25+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: 61498
 msgid ""
 "You see a middle aged man wearing fine clothes. He gives you a bored look as "
 "you approach. "
 msgstr ""
+"Перед тобой прилично одетый мужчины средних лет. При твоем приближении он "
+"бросает на тебя скучающий взгляд."
 
 #: 61499 61549
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 61500 61550
 msgid "Ignore the man."
-msgstr ""
+msgstr "Не обращать на него внимания."
 
 #: 61501
 msgid ""
 "He nods slightly. \"And to you, cutter. I am Carl Parfidor, administrative "
 "assistant. May I help you?\""
 msgstr ""
+"Он слегка кивает. «И тебе, рубака. Я - Карл Парфидор, помощник по "
+"административной части. Могу ли я чем-то помочь?»"
 
 #: 61502 61552
+#, fuzzy
 msgid "\"I am looking for a deva. I've been told he's in Curst.\""
-msgstr ""
+msgstr "«Я ищу одного дэва. Мне сказали, что он в Проклятом»."
 
 #: 61503
 msgid "\"No, I don't think so. Farewell.\""
-msgstr ""
+msgstr "«Нет, не думаю. Прощай»."
 
 #: 61504
 msgid ""
 "He frowns at you. \"You must mean Trias. Yes, he's here. He's in the prison "
 "as a matter of fact. Why do you want to see him?\""
 msgstr ""
+"Он хмуро смотрит на тебя. «Должно быть, ты имеешь в виду Триаса. Да, он "
+"здесь. Собственно, он находится в тюрьме. Зачем он тебе нужен?»"
 
 #: 61505
 msgid "\"Do I need a reason?\""
-msgstr ""
+msgstr "«Нужна причина?»"
 
 #: 61506 61510
 msgid "\"It's a private matter.\""
-msgstr ""
+msgstr "«Это мое личное дело»."
 
 #: 61507 61511 61514
 msgid "\"I have some questions that only he can answer.\""
-msgstr ""
+msgstr "«У меня есть вопросы, на которые сможет ответить только он»."
 
 #: 61508 61512 61515 61518 61522 61525
 msgid "\"Never mind, farewell.\""
-msgstr ""
+msgstr "«Неважно, прощай»."
 
 #: 61509
 msgid "He laughs. \"Yes, you do. Now, why do you want to see Trias?\""
-msgstr ""
+msgstr "Он хохочет. «Да, нужна. Итак, зачем тебе нужен Триас?»"
 
 #: 61513
 msgid ""
 "He smiles and shakes his head. \"Nothing concerning Trias is private. Why do "
 "you want to see him?\""
 msgstr ""
+"Он улыбается, качая головой. «Ничто, касающееся Триаса, не может быть "
+"личным. Зачем он тебе нужен?»"
 
 #: 61516
 msgid ""
@@ -78,25 +89,30 @@ msgid ""
 "see Trias without permission from Tovus Giljaf.\" He smiles at you. \"And no "
 "one sees Tovus unless he sends for them. I suggest you leave.\""
 msgstr ""
+"Некоторое время он пристально смотрит на тебя. «Понятно. Что ж, никому не "
+"разрешается посещать Триаса без разрешения Товуса Гильяфа, - он улыбается "
+"тебе. - А Товус никого не принимает без приглашения. Советую тебе уйти»."
 
 #: 61517
 msgid "\"Surely you can get me in to see Tovus.\""
-msgstr ""
+msgstr "«Ты мог бы пустить меня к Товусу?»"
 
 #: 61519
 msgid ""
 "He laughs. \"Yes, but I have no intention of allowing you entry unless Tovus "
 "sends for you. Now leave.\""
 msgstr ""
+"Он хохочет. «Да, но я не намерен пускать тебя к Товусу, пока он не вызовет "
+"тебя. А теперь уходи»."
 
 #: 61520
 msgid "\"I can always take you out and just walk in to see him.\""
-msgstr ""
+msgstr "«Я мог бы просто убрать тебя с дороги и зайти к нему»."
 
 #: 61521 61524
 msgid ""
 "\"This is important. There must be some way I can get in to see Tovus.\""
-msgstr ""
+msgstr "«Это важно. Должен же быть способ увидеться с Товусом»."
 
 #: 61523
 msgid ""
@@ -105,6 +121,11 @@ msgid ""
 "city guard would be a match for you and then there is the fact that Tovus is "
 "an accomplished spellslinger himself. It would be foolish for you to try...\""
 msgstr ""
+"Он осматривает тебя с головы до ног, затем кивает головой. «О да, ты "
+"выглядишь достаточно грозно и мог бы пройти мимо меня без особых проблем. "
+"Вот только мне кажется, что городская стража будет тебе достойным "
+"противником, да и Товус сам по себе искусный волшебник. Было бы глупо даже "
+"пытаться...»"
 
 #: 61526
 msgid ""
@@ -113,46 +134,60 @@ msgid ""
 "letting you in myself.\" He laughs. \"Unless, of course, you do something "
 "important for me. Hmm. I can't think of anything I want from you.\""
 msgstr ""
+"Он качает головой. «Единственный способ пройти через эту дверь - это "
+"получить приглашение от Товуса либо разрешение от меня. Товус тебя не "
+"приглашал, а я не намерен тебя впускать, - он хохочет. - Разве что ты "
+"сделаешь для меня что-нибудь полезное. Хм-м. Вряд ли мне что-то от тебя "
+"нужно»."
 
 #: 61527
 msgid ""
 "\"What if I told you that your wife, Roberta, is plotting to have you killed?"
 "\""
-msgstr ""
+msgstr "«А если я скажу, что твоя жена, Роберта, собирается тебя убить?»"
 
 #: 61528
 msgid "\"I see. Farewell.\""
-msgstr ""
+msgstr "«Понятно. Прощай»."
 
 #: 61529
 msgid ""
 "He stares at you blankly then suddenly snorts. \"That's ridiculous. Why "
 "would she do that?\""
-msgstr ""
+msgstr "Он тупо пялится на тебя, затем фыркает. «Что за бред. Зачем ей это?»"
 
 #: 61530
 msgid ""
 "\"She's been checking up on you. She knows about all the harlots and wants "
 "you dead.\""
 msgstr ""
+"«Она тебя застукала. Ей известно обо всех проститутках, и она хочет тебя "
+"убить»."
 
 #: 61531
 msgid ""
 "You seem to have his attention; he is hanging on every word. \"And who, may "
 "I ask, is supposed to perform the deed. You perhaps?\""
 msgstr ""
+"Кажется, ты наконец привлек его внимание: он запинается на каждом слове. «И "
+"кто, позволь спросить, будет выполнять это дело? Случаем не ты?»"
 
 #: 61532
 msgid ""
 "\"No, Roberta was thinking of hiring a harlot to do it. Probably a girl "
 "named Kiri.\""
 msgstr ""
+"«Нет, Роберта хотела нанять для этого проститутку. Предположительно, девушку "
+"по имени Кири»."
 
 #: 61533
+#, fuzzy
 msgid ""
 "\"No, Roberta was thinking of hiring a harlot to do it since no one else can "
 "get close enough to you.\""
 msgstr ""
+"«Нет, Роберта думала нанять для этого проститутку, потому что больше никто "
+"не может подобраться к тебе достаточно близко»."
 
 #: 61534
 msgid ""
@@ -162,10 +197,16 @@ msgid ""
 "smiles. \"You can talk to him freely then, for all the good it will do you."
 "\" He walks away."
 msgstr ""
+"Некоторое время он пристально смотрит на тебя. «Жди здесь. Я вернусь в "
+"течение часа...» Уходя, он останавливается и добавляет: «Ох, и лучше бы твоя "
+"информация оказалась достоверной. Если я обнаружу, что это не так, тебя "
+"кинут в темницу вместе с Триасом, - он улыбается. - Вот тогда уж "
+"наговоришься с ним вдоволь - как будто от этого будет какой-то прок». Он "
+"уходит."
 
 #: 61535
 msgid "\"I will wait.\""
-msgstr ""
+msgstr "«Я подожду»."
 
 #: 61536
 msgid ""
@@ -173,18 +214,22 @@ msgid ""
 "approaches. \"Thank you for waiting, cutter. It seems your information "
 "proved correct. I thank you for that.\""
 msgstr ""
+"Ты видишь Карла Парфидора. Когда он подходит, ты замечаешь на его лице "
+"беспокойство. «Спасибо, что подождал, рубака. Похоже, твои сведения "
+"оказались достоверными. Спасибо тебе за это»."
 
 #: 61537
+#, fuzzy
 msgid "\"So, what happens to Roberta and Kiri now?\""
-msgstr ""
+msgstr "«А что теперь будет с Робертой и Кири?»"
 
 #: 61538
 msgid "\"So what happens to Roberta now?\""
-msgstr ""
+msgstr "«А что теперь будет с Робертой?»"
 
 #: 61539 61543 61546
 msgid "\"So, can I see Tovus now?\""
-msgstr ""
+msgstr "«Теперь мне можно повидаться с Товусом?»"
 
 #: 61540
 msgid ""
@@ -193,10 +238,14 @@ msgid ""
 "to assassinate a city official!\" He smiles at you. \"Unless you'd like to "
 "spend the rest of your days in a cell with Roberta?\""
 msgstr ""
+"Он качает головой. «Нет, нельзя. Товус никого не принимает без приглашения. "
+"Так что советую тебе уйти, пока я не арестовал тебя за участие в заговоре с "
+"целью убийства городского служащего! - он улыбается тебе. - Тебе ведь не "
+"хочется провести остаток своих дней в одной камере с Робертой?»"
 
 #: 61541
 msgid "\"No, I'll be leaving now. Farewell.\""
-msgstr ""
+msgstr "«Нет. Я уже ухожу. Прощай»."
 
 #: 61542
 msgid ""
@@ -204,10 +253,14 @@ msgid ""
 "\"Never mind... Roberta confessed to the crime and will be sent to the "
 "prison. Kiri on the other hand... I have other plans for her.\" He smiles."
 msgstr ""
+"Он удивленно смотрит на тебя. «Это действительно имеет для тебя значение? - "
+"он пожимает плечами. - Неважно... Роберта призналась в преступлении, и ее "
+"отправят в тюрьму. А Кири... у меня есть другие планы на ее счет». Он "
+"улыбается."
 
 #: 61544 61547
 msgid "\"I see. I must be going now. Farewell.\""
-msgstr ""
+msgstr "«Ясно. Я должен идти. Прощай»."
 
 #: 61545
 msgid ""
@@ -215,21 +268,28 @@ msgid ""
 "\"Never mind... Roberta confessed to the crime and will be sent to the "
 "prison.\" He smiles."
 msgstr ""
+"Он удивленно смотрит на тебя. «Это действительно имеет для тебя значение? - "
+"он пожимает плечами. - Неважно... Роберта призналась в преступлении, и ее "
+"отправят в тюрьму». Он улыбается."
 
 #: 61548
 msgid ""
 "You see a middle aged man wearing fine clothes. He smiles at your approach."
 msgstr ""
+"Ты видишь прилично одетого мужчину средних лет. При твоем приближении он "
+"улыбается."
 
 #: 61551
 msgid ""
 "He gives you a slight nod. \"Good day, cutter. I am the administrative "
 "assistant. How may I help you?\""
 msgstr ""
+"Он слегка кивает тебе. «Добрый день, рубака. Я помощник по административной "
+"части. Могу ли я чем-то помочь?»"
 
 #: 61553 61558 61561
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 61554
 msgid ""
@@ -237,46 +297,58 @@ msgid ""
 "pauses to read a page. \"Ah! Here we are... That would be Trias. Hmmm...\" "
 "He frowns and shakes his head."
 msgstr ""
+"«Секундочку...» Он листает какие-то бумаги, затем останавливается на одной "
+"из страниц. «А! Вот оно что... Это, наверное, Триас. Хм-м...» Он хмурит "
+"брови и качает головой."
 
 #: 61555
 msgid "\"Is there a problem?\""
-msgstr ""
+msgstr "«Какие-то проблемы?»"
 
 #: 61556
+#, fuzzy
 msgid ""
 "\"I'm afraid so... No one is allowed to see Trias without the express "
 "permission of Tovus Giljaf.\""
 msgstr ""
+"«Боюсь, что да... Никому не разрешается посещать Триаса без специального "
+"разрешения Товуса Гильяфа»."
 
 #: 61557
 msgid "\"Then I would like to see Tovus.\""
-msgstr ""
+msgstr "«Тогда я хотел бы видеть Товуса»."
 
 #: 61559
 msgid ""
 "He frowns and shakes his head. \"I'm afraid that's not possible. No one sees "
 "Tovus unless he sends for them.\""
 msgstr ""
+"Он хмурит брови и качает головой. «Боюсь, что это невозможно. Товус никого "
+"не принимает без приглашения»."
 
 #: 61560
+#, fuzzy
 msgid "\"It's important that I see him.\""
-msgstr ""
+msgstr "«Мне важно увидеться с ним»."
 
 #: 61562
 msgid ""
 "He gives you an irritated look. \"I'm sorry, cutter, but no one sees Tovus "
 "unless he sends for them. Please leave.\""
 msgstr ""
+"Он раздраженно смотрит на тебя. «Извини, рубака, но Товус никого не "
+"принимает без приглашения. Пожалуйста, уходи»."
 
 #: 61563
 msgid "\"I can't even make an appointment for some future date?\""
-msgstr ""
+msgstr "«И я даже не могу записаться на встречу с ним?»"
 
 #: 61564
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 61565
+#, fuzzy
 msgid ""
 "He glares at you. \"No. You cannot see Tovus today, tomorrow, or any other "
 "day unless he sends for you. You cannot make an appointment to see Tovus "
@@ -285,7 +357,17 @@ msgid ""
 "will send for YOU.\" He pauses to take a breath and smiles. \"Have I made "
 "myself clear?\""
 msgstr ""
+"Он враждебно смотрит на тебя. «Нет. Ты не сможешь увидеться с Товусом, ни "
+"сегодня, ни завтра, ни в любой другой день, пока он пригласит тебя. Ты не "
+"сможешь записаться на встречу с Товусом ни сегодня, ни завтра, ни в любой "
+"другой день, потому что он никого не принимает. Если ты хочешь встретиться с "
+"Товусом, ты встретишься с ним только тогда, когда ОН захочет встретиться с "
+"ТОБОЙ, потому что ОН пригласит ТЕБЯ». Он останавливается перевести дыхание и "
+"улыбается. «Я ясно выражаюсь?»"
 
 #: 61566
 msgid "\"Very, farewell.\""
-msgstr ""
+msgstr "«Вполне. Прощай»."
+
+#~ msgid "\"I am looking for a deva. I've been told he's in curst."
+#~ msgstr "«Я ищу одного дэва. Мне сказали, что он в Проклятом»."

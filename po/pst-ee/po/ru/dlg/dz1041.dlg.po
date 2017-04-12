@@ -1,18 +1,21 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dz1041.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-10-12 02:15+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 6573
+#, fuzzy
 msgid ""
 "This re-animated, male corpse has the numbers \"1041\" carved into its "
 "forehead. Despite its taut, desiccated flesh, it is apparent that its "
@@ -20,64 +23,104 @@ msgid ""
 "been stitched closed - most likely to prevent it from moaning incessantly - "
 "and it smells strongly of formaldehyde."
 msgstr ""
+"У этого поднятого трупа мужчины на лбу вырезан номер «1041». Несмотря на "
+"жесткую высушенную плоть, совершенно очевидно, что его лицо когда-то "
+"придавало ему довольно «экзотическую» внешность. Губы зомби крепко зашиты - "
+"скорее всего, чтобы не стонал все время, - а сам он сильно пахнет "
+"формальдегидом."
 
 #: 6574
 msgid "The corpse continues to stare at you."
-msgstr ""
+msgstr "Труп продолжает пялиться на тебя."
 
 #: 6575
 msgid ""
 "The corpse reels for a moment as the spirit revisits its one-time home. Its "
 "almond-shaped eyes become dark once more, a faint bronze cast creeping over "
-"the pale flesh. It straightens itself, brushing the dust off its clothes. \\n"
-"\\nAt last noticing its caller, the ghost peers at you for a moment with "
+"the pale flesh. It straightens itself, brushing the dust off its clothes. \n"
+"\n"
+"At last noticing its caller, the ghost peers at you for a moment with "
 "curious eyes, then bows slightly."
 msgstr ""
+"В миг, когда дух возвращается в свою прежнюю обитель, труп вздрагивает. Его "
+"миндалевидные глаза снова темнеют, бледная кожа приобретает слегка бронзовый "
+"оттенок. Он выпрямляется, отряхивая пыль из одежды.\n"
+"\n"
+"Заметив, наконец, вызывающего, призрак бросает на тебя пытливый взгляд, "
+"затем делает легкий поклон."
 
 #: 6576 6577
 msgid "\"So... seen anything interesting going on?\""
-msgstr ""
+msgstr "«Итак... что тут у нас интересного?»"
 
 #: 6578
 msgid "\"I know you're not a zombie, you know. You're not fooling anyone.\""
-msgstr ""
+msgstr "«Знаешь, мне известно, что ты не зомби. Тебе никого не одурачить»."
 
 #: 6579 6580
 msgid "Use your Stories-Bones-Tell ability on the corpse."
-msgstr ""
+msgstr "Использовать на трупе свою способность «История костей»."
 
 #: 6581
 msgid "\"It was great talking to you. Farewell.\""
-msgstr ""
+msgstr "«Было приятно с тобой поболтать. Прощай»."
 
 #: 6582 9095
 msgid "Leave the corpse in peace."
-msgstr ""
+msgstr "Оставить труп в покое."
 
 #: 6583
 msgid "Bow in return."
-msgstr ""
+msgstr "Поклониться в ответ."
 
 #: 9060
 msgid ""
 "The spirit smiles for a moment, as if pleased. He composes himself, standing "
-"with one hand behind him as he begins to speak in a soft, lilting tone:\\n\\n"
-"\"Suiang jianne shyr nan bye yih nan;\\n\"Dong feng wu lih bay hua tsarn;\\n"
-"\"Chuen tsarn daw syy sy fang jinn;\\n\"Lah Jiuh cherng huei ley shyy gan."
-"\"\\n\\nThat being said, he appears content to stand and wait patiently for "
-"your reply."
+"with one hand behind him as he begins to speak in a soft, lilting tone:\n"
+"\n"
+"\"Suiang jianne shyr nan bye yih nan;\n"
+"\"Dong feng wu lih bay hua tsarn;\n"
+"\"Chuen tsarn daw syy sy fang jinn;\n"
+"\"Lah Jiuh cherng huei ley shyy gan.\"\n"
+"\n"
+"That being said, he appears content to stand and wait patiently for your "
+"reply."
 msgstr ""
+"Несколько мгновений дух удовлетворенно улыбается. Он собирается, закладывает "
+"одну руку за спину и начинает тихо, нараспев декламировать:\n"
+"\n"
+"«Сян цзянь ши нань, бе и нань\n"
+"Дун фэн у ли, бай хуа цань\n"
+"Чунь цань дао сы, сы фань цзинь\n"
+"Да цзю чэн хуи, лэй ши гань».\n"
+"\n"
+"Сказав это, он принимает довольный вид, терпеливо ожидая твоей реакции."
 
 #: 9061
 msgid ""
 "You open your mouth to voice a question, but before you can begin the spirit "
-"begins to speak in a soft, lilting tone:\\n\\n\"Suiang jianne shyr nan bye "
-"yih nan;\\n\"Dong feng wu lih bay hua tsarn;\\n\"Chuen tsarn daw syy sy fang "
-"jinn;\\n\"Lah Jiuh cherng huei ley shyy gan.\"\\n\\nThat being said, he "
-"appears content to stand and wait patiently for your reply."
+"begins to speak in a soft, lilting tone:\n"
+"\n"
+"\"Suiang jianne shyr nan bye yih nan;\n"
+"\"Dong feng wu lih bay hua tsarn;\n"
+"\"Chuen tsarn daw syy sy fang jinn;\n"
+"\"Lah Jiuh cherng huei ley shyy gan.\"\n"
+"\n"
+"That being said, he appears content to stand and wait patiently for your "
+"reply."
 msgstr ""
+"Ты открываешь рот, чтобы задать вопрос, но дух опережает тебя, начав тихо, "
+"нараспев декламировать:\n"
+"\n"
+"«Сян цзянь ши нань, бе и нань\n"
+"Дун фэн у ли, бай хуа цань\n"
+"Чунь цань дао сы, сы фань цзинь\n"
+"Да цзю чэн хуй, лэй ши гань».\n"
+"\n"
+"Сказав это, он принимает довольный вид, терпеливо ожидая твоей реакции."
 
 #: 9062
+#, fuzzy
 msgid ""
 "The spirit pauses for a moment, as if to think. He then begins to speak "
 "again in a thickly accented, yet deeply refined voice. \"You must forgive "
@@ -85,6 +128,12 @@ msgid ""
 "speak your language. No doubt my spirit has been summoned here to answer "
 "your questions; what is it you would know of me?\""
 msgstr ""
+"Дух на некоторое время умолкает, словно чтобы поразмыслить. Затем он "
+"начинает говорить, с сильным акцентом, и все же с весьма изысканным "
+"произношением.\n"
+"«Прости меня, достопочтенный господин. Прошло немало времени с тех пор, как "
+"я говорил на твоем языке. Не сомневаюсь, что мой дух был призван сюда, чтобы "
+"отвечать на твои вопросы. Что же ты хотел узнать от меня?»"
 
 #: 9063
 msgid ""
@@ -92,6 +141,8 @@ msgid ""
 "known as Zhuang Bei, tutor and bodyguard to Liu Xixi, daughter of Censor "
 "Chi'an."
 msgstr ""
+"«Трудно объяснить, кто я... а вот кем я *был* - нет. Я был известен как "
+"Чжуань Бэй, наставник и телохранитель Лю Сиси, дочери Цензора Ши-аня»."
 
 #: 9064
 msgid ""
@@ -100,35 +151,60 @@ msgid ""
 "\"So many places, so many worlds. I once considered myself a truly learned "
 "man, yet truly knew so little when I died...\""
 msgstr ""
+"«Я родом из места под названием Шоу Лунь... места, которое я когда-то считал "
+"центром вселенной» Похоже, на него накатили теплые воспоминания. «Столько "
+"мест, столько миров. Раньше я считал себя довольно образованным человеком, и "
+"все же перед смертью я знал слишком мало...»"
 
 #: 9065
+#, fuzzy
 msgid ""
 "\"I was murdered by one of the men I fell into this world with. I had been "
 "hunting him in this city for many, many weeks - it was during this time that "
 "I learned your language - but he found me first. A professional assassin, he "
 "caught me unawares and slew me as I slept.\""
 msgstr ""
+"«Я был убит одним из тех, с кем я попал в этот мир. Я охотился за ним в этом "
+"городе многие недели - за это время я успел изучить ваш язык, - но он нашел "
+"меня первым. Он профессиональный убийца; он застигнул меня врасплох и убил "
+"меня во сне»."
 
 #: 9066
+#, fuzzy
 msgid ""
 "\"This building? Nothing at all; I had heard of it, knew my corpse was to "
-"serve here, but that is all.\"\\n\\n\"I know almost as little about this "
-"great city, 'Sigil.' My weeks here were spent searching for the men I fell "
-"into this world with and learning the language; though it pained me, I had "
-"time for little else. I could have learned so much from the myriad wonders "
-"of such a place...\""
+"serve here, but that is all.\"\n"
+"\n"
+"\"I know almost as little about this great city, 'Sigil.' My weeks here were "
+"spent searching for the men I fell into this world with and learning the "
+"language; though it pained me, I had time for little else. I could have "
+"learned so much from the myriad wonders of such a place...\""
 msgstr ""
+"«Об этом здании? Совершенно ничего. Я слышал о нем, знаю, что мое тело "
+"работает здесь, но это все».\n"
+"«Я довольно мало знаю об этом великом городе, 'Сигиле'. Недели, проведенные "
+"здесь, я потратил на поиски людей, с которыми попал в этот мир, и на "
+"изучение языка; хоть это и огорчало меня, но времени на другие вещи у меня "
+"не было. А ведь я мог познать мириады чудес этого места...»\n"
 
 #: 9067
 msgid ""
 "\"No, the name means nothing to me. I am sorry I could not aid you in this.\""
 msgstr ""
+"«Нет, это имя ничего для меня не значит. Я прошу прощения, но в данном "
+"вопросе я тебе не помощник»."
 
 #: 9068
+#, fuzzy
 msgid ""
-"The spirit seems pained for a moment.\\n\\n\"I... My spirit resides in the "
-"realm of the Illustrious Magistrate, Yen-Wang-Yeh: the Palace of Judgement.\""
+"The spirit seems pained for a moment.\n"
+"\n"
+"\"I... My spirit resides in the realm of the Illustrious Magistrate, Yen-"
+"Wang-Yeh: the Palace of Judgement.\""
 msgstr ""
+"На миг тебе кажется, что дух огорчен.\n"
+"«Я... Мой дух находится во владениях прославленного магистрата Яньвана, в "
+"Дворце Правосудия».\n"
 
 #: 9069
 msgid ""
@@ -137,18 +213,26 @@ msgid ""
 "was regarded as a scholar of some repute as well as a swordsman, you see. "
 "Perhaps I would have served her better were I a better swordsman, though...\""
 msgstr ""
+"«Да. Там, откуда я родом, это встречается не так уж редко. Моей обязанностью "
+"было все время находиться рядом с госпожой Лю, и не только оберегать ее, но "
+"и обучать. Я был уважаемым учителем, а также фехтовальщиком. Возможно, я "
+"послужил бы ей лучше, будь я лучшим фехтовальщиком...»"
 
 #: 9070
 msgid ""
 "\"Impressive? Yes, perhaps too much so for me. I... I failed Miss Liu and "
 "the Censor in my task.\""
 msgstr ""
+"«Впечатляюще? Да, как для меня, то даже слишком. Я... я подвел госпожу Лю и "
+"Цензора в своей миссии»."
 
 #: 9071
 msgid ""
 "The spirit nods, an unexpectedly graceful movement for a wizened corpse to "
 "make. \"Please, ask what you will.\""
 msgstr ""
+"Дух кивает с неожиданной грацией, как для иссохшего трупа. «Пожалуйста, "
+"спрашивай все, что пожелаешь»."
 
 #: 9072
 msgid ""
@@ -159,28 +243,48 @@ msgid ""
 "left alone in a side room with the promise that I would be attended to in a "
 "moment.\""
 msgstr ""
+"«Ну, видишь ли... - дух на время умолкает в раздумьях, потирая иссохшие руки "
+"трупа. - Прибыв туда, после недолгого ожидания меня должны были сопроводить "
+"в мое конечное, *истинное* место назначения. Тем не менее, пока меня вели по "
+"дворцу, началась какая-то суматоха, и меня оставили в комнате, пообещав, что "
+"тотчас же вернутся»."
 
 #: 9073
+#, fuzzy
 msgid ""
 "\"I will tell you the entire tale. As the tutor and bodyguard of Liu Xixi, I "
 "am of course charged with both her education and defense. One fair evening "
 "we were standing on a balcony over the Courtyard, where I was teaching her "
 "about the various constellations.\""
 msgstr ""
+"«Я расскажу тебе всю историю. Как наставник и телохранитель Лю Сиси, я, "
+"конечно же, отвечал за ее безопасность и образование. Одним ясным вечером мы "
+"стояли на балконе, выходившем во внутренний двор, где я показывал ей "
+"различные созвездия»."
 
 #: 9074
+#, fuzzy
 msgid ""
 "\"Ah, that. I was approached one night by a young woman on the street; she "
 "was from an organization called the Dustmen, the same that oversees this "
-"complex.\"\\n\"She proposed to me that, in return for a small sum of money, "
-"that my corpse could be... used... here upon my demise.\""
+"complex.\"\n"
+"\"She proposed to me that, in return for a small sum of money, that my "
+"corpse could be... used... here upon my demise.\""
 msgstr ""
+"«Ах, это. Однажды ночью я встретил на улице девушку. Она принадлежала к "
+"организации под названием Тленные, той самой, что присматривает за этим "
+"комплексом».\n"
+"«Она сделала мне предложение, согласно которому в обмен за небольшую сумму "
+"мое тело может быть... использовано... здесь после моей кончины».\n"
 
 #: 9075 9718
 msgid ""
 "\"Linguistics, in fact, is an area of great interest to me. When I became a "
 "scholar I found I could learn new tongues with little trouble at all.\""
 msgstr ""
+"«На самом деле, лингвистика всегда представляла для меня большой интерес. "
+"Будучи студентом, я обнаружил, что могу без особых проблем изучать новые "
+"наречия»."
 
 #: 9076
 msgid ""
@@ -191,6 +295,11 @@ msgid ""
 "9,001 rooms here; in each one I have passed through I was merely directed to "
 "another. I seem to have fallen between the cracks, for the time being.\""
 msgstr ""
+"«Видишь ли... за мной так никто и не вернулся. Я терпеливо ждал несколько "
+"дней, но безуспешно. В конце концов, я покинул комнату и стал бродить по "
+"дворцу в надежде на то, что кто-нибудь проведет меня...» Он тихо вздыхает, "
+"выдыхая легкое облачко бальзамирующей жидкости. «Там 9001 комната, и в "
+"каждой из них меня направляли в другую. Я словно навеки попал в трясину»."
 
 #: 9077
 msgid ""
@@ -198,6 +307,9 @@ msgid ""
 "regain his composure, the stiffened joints and tendons of the cadaver "
 "creaking softly as they relax once more. "
 msgstr ""
+"«Не могу сказать. Все это сильно огорчает меня!» Он умолкает, чтобы "
+"восстановить самообладание. При этом его закостеневшие суставы и сухожилия "
+"тихонько поскрипывают. "
 
 #: 9078
 msgid ""
@@ -207,8 +319,13 @@ msgid ""
 "ensuing battle, the balcony's railing was shattered and the four of us fell "
 "into the Jade Portal.\""
 msgstr ""
+"«Да-да, конечно. Пока мы стояли, с крыши над балконом внезапно спрыгнули "
+"двое убийц, скорее всего, чтобы убить или похитить госпожу Лю. Позвав "
+"стражу, я обнажил свой клинок и бросился на ее защиту. В разгар битвы перила "
+"балкона обломились, и мы вчетвером упали в Нефритовый Портал»."
 
 #: 9079
+#, fuzzy
 msgid ""
 "\"Perhaps at first... the idea is a bit macabre after all. But after "
 "speaking with her for some time, I realized that they - the Dustmen - feel "
@@ -219,6 +336,14 @@ msgid ""
 "manage to serve some small purpose here, so much the better.\" The spirit "
 "smiles at you politely."
 msgstr ""
+"«Пожалуй, только сначала... В конце концов, эта идея немного жутковата. Но "
+"поговорив с ней немного, я понял, что они, тленные, разделяют со мной "
+"взгляды на смерть. Мое тело? Это всего лишь оболочка, не более. Я верю, что "
+"их 'Истинная Смерть' будет тем достойным местом, которого лично я когда-"
+"нибудь достигну... полностью освободившись и отделившись от материального "
+"мира. И если мое тело, служившее этой цели в качестве моей смертной "
+"оболочки, сможет служить здесь каким-нибудь целям, тем лучше». Дух учтиво "
+"улыбается тебе."
 
 #: 9080
 msgid ""
@@ -227,6 +352,10 @@ msgid ""
 "it is called the Portal because it is said, at times, glimpses of another "
 "place appear reflected in its shimmering waters.\""
 msgstr ""
+"«О! Прошу прощения за упущение... Нефритовый Портал - это круглый водоем во "
+"внутреннем дворе. Он выложен зелеными и белыми стеатитами и назван Порталом "
+"из-за того, что время от времени в отражении его мерцающих вод можно увидеть "
+"совершенно другое место»."
 
 #: 9081
 msgid ""
@@ -234,18 +363,25 @@ msgid ""
 "can do... I am sure that, in time, I will be sped on my way. Again, though, "
 "thank you.\""
 msgstr ""
+"«Твое предложение великодушно. Но я боюсь, что здесь ничего нельзя "
+"поделать... Я уверен, что со временем все-таки найду свой путь. Так или "
+"иначе, благодарю тебя»."
 
 #: 9082
 msgid ""
 "The spirit stares at you coldly, ghost-lights burning deep within the "
 "corpse's eyes; you seem to have offended him."
 msgstr ""
+"Дух недовольно смотрит на тебя, в глазах трупа вспыхивает призрачный огонек. "
+"Кажется, ты его оскорбил."
 
 #: 9083
 msgid ""
 "\"Oh, that... ah... it was a poem. Difficult to translate. Did you have "
 "another question, perhaps?\" He smiles at you uneasily."
 msgstr ""
+"«Ах, это... э-э... это стихи. Трудно перевести. Может, есть другой вопрос?» "
+"Он неловко улыбается."
 
 #: 9084
 msgid ""
@@ -255,16 +391,34 @@ msgid ""
 "reoriented myself only in time to see the assassins fleeing, Liu Xixi tossed "
 "over one of their shoulders.\""
 msgstr ""
+"«Как я уже сказал, мы упали в Нефритовый Портал. Я даже и не предполагал, "
+"что он *на самом* деле был порталом, во всех смыслах этого слова, и все же "
+"это так! Неожиданно я очутился в незнакомом переулке, лежащий со сломанной "
+"ногой. Придя в себя, я успел увидеть, как убийцы убегают, унося на плечах Лю "
+"Сиси»."
 
 #: 9085
 msgid ""
 "\"Very well.\" He thinks for a moment, tapping the ends of the corpse's "
 "long, bony fingers together. Soon, he begins to speak once more in a steady, "
-"measured rhythm:\\n\\n\"It is difficult to meet as it is difficult to part."
-"\\n\"The north wind has weakened; hundreds of flowers fade away.\\n\"When "
-"the Spring worms die, the silk shall never come again.\\n\"When the candle "
-"wax becomes ash, tears shall stop.\"\\n\\nHe smiles at you politely. "
+"measured rhythm:\n"
+"\n"
+"\"It is difficult to meet as it is difficult to part.\n"
+"\"The north wind has weakened; hundreds of flowers fade away.\n"
+"\"When the Spring worms die, the silk shall never come again.\n"
+"\"When the candle wax becomes ash, tears shall stop.\"\n"
+"\n"
+"He smiles at you politely. "
 msgstr ""
+"«Хорошо». Он ненадолго задумывается, барабаня длинными костлявыми пальцами "
+"трупа. Затем он начинает декламировать в более твердом, выверенном ритме:\n"
+"\n"
+"«Как встречаться нам тяжело, так тяжело расставаться.\n"
+"Ветер жизни лишился сил, все цветы увядают.\n"
+"Лишь когда шелкопряд умрет, нити дум прекратятся.\n"
+"Лишь когда фитиль догорит, слезы свечи иссякнут».\n"
+"\n"
+"Он учтиво улыбается тебе."
 
 #: 9086
 msgid ""
@@ -273,6 +427,10 @@ msgid ""
 "longer desire to have any part in this...\" The spirit makes a sweeping "
 "gesture to indicate everything around him. \"...world.\""
 msgstr ""
+"«Ну, мне стыдно признаться, но это было деликатной попыткой сказать... "
+"сказать, что, наверно, лучше бы тебе оставить в покое души мертвых. У меня "
+"больше нет желания быть частью этого, - дух делает широкий жест, охватывая "
+"все, что находится вокруг него, - мира»."
 
 #: 9087
 msgid ""
@@ -281,6 +439,10 @@ msgid ""
 "The spirit makes a sweeping gesture to indicate everything around him. \"..."
 "world.\""
 msgstr ""
+"«А... э-э... нет. Я не хотел быть столь прямолинеен, чтобы избежать "
+"конфронтации. Это всего лишь означает, что у меня нет больше желания быть "
+"частью этого, - дух делает широкий жест, охватывая все, что находится вокруг "
+"него, - мира»."
 
 #: 9088
 msgid ""
@@ -289,8 +451,13 @@ msgid ""
 "healer and others I learned the tongue of the people here, all the while "
 "scouring the place for the two assassins and my charge.\""
 msgstr ""
+"«Ну, это почти все. Мне пришлось хромать с болью в ноге, пока я не нашел "
+"того, кто вылечил мою ногу. Он взял в качестве платы все те небольшие "
+"накопления, что у меня были. У этого целителя и у других людей я научился "
+"здешнему языку, не переставая разыскивать двух убийц и свою подопечную»."
 
 #: 9089
+#, fuzzy
 msgid ""
 "\"I hunted down one of them, but he would not speak. I executed him and kept "
 "his head in a silk bag, so that I could bring it back for the Censor when I "
@@ -299,12 +466,20 @@ msgid ""
 "me before I could kill him and rescue my charge. Sad, but it is all behind "
 "me, now.\""
 msgstr ""
+"«Я поймал одного из них, но он не пожелал говорить. Я казнил его и положил "
+"его голову в шелковый мешок, чтобы преподнести ее Цензору, когда я вернусь "
+"назад с его дочерью, - на миг он мрачнеет, потом продолжает. - Другой "
+"убийца... ускользнул от меня. Даже больше: он убил меня, прежде чем я смог "
+"убить его и спасти свою подопечную. Мне жаль, но теперь для меня уже все "
+"кончено»."
 
 #: 9090
 msgid ""
 "\"No, but I am confident I would have found a way. A moot point now, really."
 "\""
 msgstr ""
+"«Нет, но я был уверен, что смог бы найти способ. Хотя теперь это под "
+"сомнением»."
 
 #: 9091
 msgid ""
@@ -312,8 +487,12 @@ msgid ""
 "years have passed since I was slain. The man who assassinated me is long "
 "dead by now, and most likely Xixi as well.\""
 msgstr ""
+"«Твое предложение отличает в тебе благородного человека... тем не менее, "
+"прошло не меньше семидесяти пяти лет с тех пор, как я был убит. Человек, "
+"убивший меня, давно уже мертв, и Сиси, скорее всего, тоже»."
 
 #: 9092
+#, fuzzy
 msgid ""
 "\"The assassin would have features similar to mine, and a Lotus Blossom "
 "tattooed upon his brow.\" Seeing your confusion, he adds \"It's a sort of "
@@ -321,398 +500,426 @@ msgid ""
 "age. Perhaps she or the assassin would know where the way back was, and how "
 "to activate it again.\""
 msgstr ""
+"«Убийца похож на меня внешне, над бровью у него татуировка лотоса». Заметив "
+"твое смятение, он добавляет: «Это такой цветок с семью лепестками. Лю Сиси - "
+"это молодая девушка, ей всего лишь четырнадцать лет. Возможно, она или "
+"убийца знают путь назад и как снова активировать портал»."
 
 #: 9093
 msgid ""
 "\"You are a kind and honorable man. Do not do it for me, however... it is "
 "the girl and the father you help most greatly.\""
 msgstr ""
+"«Ты добрый и благородный человек. Однако не делай этого для меня... девушка "
+"и ее отец - вот кому нужна твоя помощь»."
 
 #: 9094
 msgid ""
 "\"I certainly did not expect to see you again.\" The spirit bows politely, "
 "but his expression remains blank. \"What is it you would have of me?\""
 msgstr ""
+"«Я определенно не ожидал увидеть тебя снова, - дух учтиво кланяется, но его "
+"лицо остается непроницаемым. - Что тебе нужно от меня?»"
 
 #: 9096
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть вопросы...» "
 
 #: 9097
 msgid "Leave the spirit."
-msgstr ""
+msgstr "Оставить духа."
 
 #: 9098 9101
 msgid "\"I... er...\""
-msgstr ""
+msgstr "«Я... э-э...»"
 
 #: 9099 9102
 msgid ""
 "\"I have no idea what you are saying... can you understand my words at all?\""
 msgstr ""
+"«Я понятия не имею, о чем ты говоришь... Ты вообще понял, что я говорю?»"
 
 #: 9100 9103
 msgid "\"I cannot understand you. Farewell.\""
-msgstr ""
+msgstr "«Я тебя не понимаю. Прощай»."
 
 #: 9104 9140
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Так кто ты?»"
 
 #: 9105 9141
 msgid "\"Where are you from?\""
-msgstr ""
+msgstr "«Откуда ты?»"
 
 #: 9106 9142
 msgid "\"How did you end up here? As a zombie, I mean?\""
-msgstr ""
+msgstr "«Как ты попал сюда? То есть, как стал зомби?»"
 
 #: 9107 9143
 msgid "\"Where are you... where your spirit resides... now?\""
-msgstr ""
+msgstr "«Где ты... где находится твой дух... сейчас?»"
 
 #: 9108 9144
 msgid "\"What do you know of this place?\""
-msgstr ""
+msgstr "«Что ты знаешь об этом месте?»"
 
 #: 9109 9145
 msgid "\"Do you know someone named Pharod?\""
-msgstr ""
+msgstr "«Ты знаешь кого-нибудь по имени Фарод?»"
 
 #: 9110
 msgid "\"Nothing, never mind.\""
-msgstr ""
+msgstr "«Ничего, неважно»."
 
 #: 9111 9153
 msgid "\"Tutor *and* bodyguard?\""
-msgstr ""
+msgstr "«Наставник *и* телохранитель?»"
 
 #: 9112
 msgid "\"Hmm. Sounds impressive.\""
-msgstr ""
+msgstr "«Хм-м. Звучит впечатляюще»."
 
 #: 9113 9116 9122 9127
 msgid "\"I see. I had more questions...\""
-msgstr ""
+msgstr "«Понятно. У меня еще вопросы...»"
 
 #: 9114 9117 9123 9133 9136
 msgid "\"That's all I wished to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 9115
+#, fuzzy
 msgid "\"How did you arrive from this 'Shou Lung'?\""
-msgstr ""
+msgstr "«А как ты попал сюда из этого 'Шоу Луня'?»"
 
 #: 9118 9125
 msgid "\"Fell into this world?\""
-msgstr ""
+msgstr "«Попал в этот мир?»"
 
 #: 9119
 msgid "\"Hunting assassins?\""
-msgstr ""
+msgstr "«Охотился за убийцами?»"
 
 #: 9120
 msgid "\"I see, but do you know how your corpse come to be working here?\""
-msgstr ""
+msgstr "«Понятно, но ты знаешь, как твое тело стало здесь работать?»"
 
 #: 9121 9126
 msgid "\"You speak well for one with so little time to learn a language.\""
-msgstr ""
+msgstr "«Ты говоришь достаточно хорошо для того, кто так недолго изучал язык»."
 
 #: 9124
 msgid "\"Your corpse was to serve here? How did that come about?\""
-msgstr ""
+msgstr "«Твое тело служит здесь? Как это могло случиться?»"
 
 #: 9128 9130
 msgid "\"Very well. Perhaps we will speak again.\""
-msgstr ""
+msgstr "«Хорошо. Возможно, мы еще встретимся»."
 
 #: 9129 9132
 msgid "\"I understand. I had more questions...\""
-msgstr ""
+msgstr "«Понимаю. У меня еще вопросы...»"
 
 #: 9131
 msgid "\"Is something wrong? Is it such a bad place?\""
-msgstr ""
+msgstr "«Что-то не так? Это плохое место?»"
 
 #: 9134
 msgid "\"Served her better? Did you fail her somehow?\""
-msgstr ""
+msgstr "«Послужить ей лучше? Ты чем-то ей не услужил?»"
 
 #: 9135
 msgid "\"Perhaps. I had more questions...\""
-msgstr ""
+msgstr "«Возможно. У меня есть еще вопросы...»"
 
 #: 9137
 msgid "\"How so?\""
-msgstr ""
+msgstr "«Каким образом?»"
 
 #: 9138
 msgid "\"I had more questions...\""
-msgstr ""
+msgstr "«У меня есть еще вопросы...» "
 
 #: 9139
 msgid "\"I see. Perhaps we will speak again.\""
-msgstr ""
+msgstr "«Ясно. Возможно, мы еще встретимся»."
 
 #: 9146
 msgid "\"What was that you spoke when you first appeared?\""
-msgstr ""
+msgstr "«Что ты сказал, когда впервые появился здесь?»"
 
 #: 9147
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 9148
 msgid "\"And...?\""
-msgstr ""
+msgstr "«И?..»"
 
 #: 9149
 msgid "\"Final destination? Where were you to be sent?\""
-msgstr ""
+msgstr "«Конечное место назначения? Куда тебя послали?»"
 
 #: 9150 9168
 msgid "\"Wait... I had other questions, before you continue.\""
-msgstr ""
+msgstr "«Постой... Перед тем как ты продолжишь, у меня есть другие вопросы...»"
 
 #: 9151 9154 9166 9169
 msgid "\"Perhaps I'll hear the rest another time. Farewell.\""
-msgstr ""
+msgstr "«Пожалуй, я выслушаю оставшуюся часть в другой раз. Прощай»."
 
 #: 9152
 msgid "\"Please, go on.\""
-msgstr ""
+msgstr "«Пожалуйста, продолжай»."
 
 #: 9155
 msgid "\"And that didn't seem a bit odd to you?\""
-msgstr ""
+msgstr "«И это не кажется тебе немного странным?»"
 
 #: 9156
 msgid "\"I see. Another question, if I may...\""
-msgstr ""
+msgstr "«Понятно. Еще вопрос, если можно...»"
 
 #: 9157
 msgid "\"That's all wished to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 9158
 msgid "\"That would explain things. Another question...\""
-msgstr ""
+msgstr "«Тогда это все объясняет. Еще один вопрос...»"
 
 #: 9159 9721
 msgid "\"I understand. Thank you for speaking with me. Farewell.\""
-msgstr ""
+msgstr "«Понятно. Спасибо за разговор. Прощай»."
 
 #: 9160
 msgid "\"I see. I had another question, though...\""
-msgstr ""
+msgstr "«Понятно. Тогда у меня есть другой вопрос...»"
 
 #: 9161
 msgid "\"Anything I could do to help?\""
-msgstr ""
+msgstr "«Я могу чем-нибудь помочь?»"
 
 #: 9162
 msgid "\"Poor fool... I wonder how long they'll let you wander!\""
 msgstr ""
+"«Несчастный глупец... Представляю, как долго тебе придется там бродить!»"
 
 #: 9163
 msgid "\"I wish you good luck. Farewell.\""
-msgstr ""
+msgstr "«Желаю тебе удачи. Прощай»."
 
 #: 9164
 msgid "\"Please continue your tale.\""
-msgstr ""
+msgstr "«Пожалуйста, продолжай свой рассказ»."
 
 #: 9165
 msgid "\"I can imagine... I had another question...\""
-msgstr ""
+msgstr "«Могу себе представить... У меня есть другой вопрос...»"
 
 #: 9167
 msgid "\"The what? Jade Portal?\""
-msgstr ""
+msgstr "«Куда? В Нефритовый Портал?»"
 
 #: 9170
 msgid "\"I see your reasoning. Another question...\""
-msgstr ""
+msgstr "«Мне ясны твои доводы. Еще один вопрос...»"
 
 #: 9171
 msgid "\"Interesting. I had best be going now; farewell.\""
-msgstr ""
+msgstr "«Интересно. Теперь мне лучше уйти. Прощай»."
 
 #: 9172
 msgid "\"I see. Please, continue your story.\""
-msgstr ""
+msgstr "«Понятно. Пожалуйста, продолжай свой рассказ»."
 
 #: 9173
 msgid "\"Before you go on, I had other questions...\""
-msgstr ""
+msgstr "«Перед тем, как ты продолжишь, у меня есть другие вопросы...»"
 
 #: 9174
 msgid "\"That's all I wished to know for now. Farewell.\""
-msgstr ""
+msgstr "«Пока это все, что я хотел знать. Прощай»."
 
 #: 9175
 msgid "\"Of course. Say, I had another question...\""
-msgstr ""
+msgstr "«Несомненно. У меня еще вопрос...»"
 
 #: 9176
+#, fuzzy
 msgid "\"No worries. I had best leave, though. Farewell.\""
-msgstr ""
+msgstr "«Восхитительно. Теперь мне следует оставить тебя. Прощай»."
 
 #: 9177
 msgid "\"My apologies. May I ask you something else?\""
-msgstr ""
+msgstr "«Прошу прощения. Можно спросить тебя кое-что еще?»"
 
 #: 9178
 msgid "Walk off, leave the spirit floating there."
-msgstr ""
+msgstr "Отойти, оставить парящего духа."
 
 #: 9179
 msgid "\"Yes... yes, I did.\""
-msgstr ""
+msgstr "«Да... да, конечно»."
 
 #: 9180
 msgid "\"No... but I think I'd like to know more about this poem.\""
-msgstr ""
+msgstr "«Нет... но я хотел бы побольше знать об этих стихах»."
 
 #: 9181
 msgid "\"No. As a matter of fact, I think I'll be leaving. Farewell.\""
-msgstr ""
+msgstr "«Нет. Собственно, пожалуй, мне уже пора идти. Прощай»."
 
 #: 9182
 msgid "\"Strange indeed. Go on, please.\""
-msgstr ""
+msgstr "«Очень странно. Пожалуйста, продолжай»."
 
 #: 9183 9195
 msgid "\"Oh. Before you go on, I had other questions...\""
-msgstr ""
+msgstr "«Перед тем, как ты продолжишь, я хотел бы задать другие вопросы...»"
 
 #: 9184
 msgid "\"I see. Thank you, but I'd best take my leave now.\""
-msgstr ""
+msgstr "«Понятно. Спасибо тебе, но мне уже пора»."
 
 #: 9185
 msgid "\"Ah... I had another question.\""
-msgstr ""
+msgstr "«Ах... У меня есть другой вопрос»."
 
 #: 9186
 msgid "\"Interesting. What does it mean?\""
-msgstr ""
+msgstr "«Интересно. А что это означает?»"
 
 #: 9187
 msgid ""
 "\"So you're saying that I should have left your spirit alone? Have I "
 "offended you, calling you here?\""
 msgstr ""
+"«Значит, говоришь, я должен оставить твой дух в покое? Я оскорбил тебя, "
+"вызвав сюда?»"
 
 #: 9188
 msgid "\"Oh. I thank you for explaining that. Farewell.\""
-msgstr ""
+msgstr "«О. Спасибо, что разъяснил мне это. Прощай»."
 
 #: 9189
 msgid "\"Hmm. I see. I had something else to ask of you.\""
-msgstr ""
+msgstr "«Хм-м. Ясно. У меня есть еще кое-какие вопросы»."
 
 #: 9190 9192
 msgid "\"I understand. Farewell, then.\""
-msgstr ""
+msgstr "«Я понимаю. В таком случае, прощай»."
 
 #: 9191
 msgid "\"Hmm. I see. I had something else to ask of you...\""
-msgstr ""
+msgstr "«Хм-м. Ясно. У меня есть еще кое-какие вопросы...»"
 
 #: 9193
 msgid "\"You never found them, then?\""
-msgstr ""
+msgstr "«Значит, ты их не нашел?»"
 
 #: 9194
 msgid ""
 "\"Hmm. You know, it's odd how quickly you were able to pick up the "
 "language...\""
 msgstr ""
+"«Хм-м. Знаешь, довольно странно, что ты смог так быстро изучить язык...»"
 
 #: 9196
 msgid "\"I'll have to hear the rest another time; farewell.\""
-msgstr ""
+msgstr "«Я выслушаю оставшуюся часть истории в другой раз. Прощай»."
 
 #: 9197
+#, fuzzy
 msgid ""
 "\"Would you have known how to return to your land, had you rescued this... "
 "'Xi-xi'?\""
 msgstr ""
+"«А ты хоть знал, как вернуться назад, на родину, если бы спас эту... 'Сиси'?»"
 
 #: 9198
 msgid "\"Interesting story. I had more questions, though...\""
-msgstr ""
+msgstr "«Занятная история. Тем не менее, у меня есть еще вопросы...»"
 
 #: 9199
 msgid "\"Fascinating. I had best leave you be, now. Farewell.\""
-msgstr ""
+msgstr "«Восхитительно. Теперь мне следует оставить тебя. Прощай»."
 
 #: 9200
 msgid ""
 "\"I wonder if they are still in the city. Perhaps I could find and help this "
 "girl.\""
 msgstr ""
+"«Возможно, они все еще в городе. Может быть, я смогу найти и спасти эту "
+"девушку»."
 
 #: 9201
 msgid ""
 "\"It certainly seems easy for you to just not care about your duties because "
 "you're dead. I don't know if I could just let something like that go.\""
 msgstr ""
+"«Похоже, тебе легко забыть о своем долге только лишь потому, что ты мертв. "
+"Не представляю, как бы я смог допустить подобное»."
 
 #: 9202
 msgid "\"Interesting. Let me ask you something else...\""
-msgstr ""
+msgstr "«Интересно. Позволь мне спросить кое о чем еще...»"
 
 #: 9203
 msgid "\"Hmm. I'll leave you, now. Luck to you.\""
-msgstr ""
+msgstr "«Хм-м. Мне пора. Удачи тебе»."
 
 #: 9205
 msgid "\"Hmm. No matter, then. I had another question...\""
-msgstr ""
+msgstr "«Хм-м. Тогда неважно. У меня есть другой вопрос...»"
 
 #: 9206
 msgid "\"Never mind, then. Farewell.\""
-msgstr ""
+msgstr "«Тогда неважно. Прощай»."
 
 #: 9207
 msgid "\"If I see her, I will do my best to aid her in your memory.\""
 msgstr ""
+"«Если встречу ее - сделаю все, что в моих силах, чтобы помочь ей - в память "
+"о тебе»."
 
 #: 9208
 msgid "\"Never mind. I don't have time for this.\""
-msgstr ""
+msgstr "«Неважно. У меня нет времени на это»."
 
 #: 9209
 msgid "\"All right. I had another question...\""
-msgstr ""
+msgstr "«Хорошо. У меня есть другой вопрос...»"
 
 #: 9210
 msgid "\"That is all I need. Farewell.\""
-msgstr ""
+msgstr "«Это все, что мне нужно. Прощай»."
 
 #: 9211
 msgid "\"Very well. I had another question...\""
-msgstr ""
+msgstr "«Хорошо. У меня еще один вопрос...»"
 
 #: 9212
 msgid "\"I understand. Farewell, spirit.\""
-msgstr ""
+msgstr "«Я понимаю. Прощай, дух»."
 
 #: 9213
 msgid "\"A question...\""
-msgstr ""
+msgstr "«Вопрос...»"
 
 #: 9214
 msgid "\"Nothing; I shall leave you be.\""
-msgstr ""
+msgstr "«Ничего, я оставлю тебя в покое»."
 
 #: 9719
 msgid "\"That would explain things. So you never found the assassins?\""
-msgstr ""
+msgstr "«Это многое объясняет. Итак, ты больше не встречал убийц?»"
 
 #: 9720
 msgid "\"I see. Let me ask you something else, now...\""
-msgstr ""
+msgstr "«Понятно. Позволь мне спросить кое о чем еще...»"
+
+#~ msgid ""
+#~ "\"No worries. I had best leave, though; farewell.\"\"No worries. I had "
+#~ "best leave, though; farewell.\""
+#~ msgstr "«Не стоит беспокоиться. Теперь мне лучше уйти. Прощай»."

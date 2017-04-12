@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dagril.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2016-03-12 02:17+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: 54182
 msgid ""
@@ -19,116 +21,139 @@ msgid ""
 "hands. The head is dog-like with sharp fangs and violet eyes. It gazes at "
 "you steadily."
 msgstr ""
+"Перед тобой огромное существо ростом в пятнадцать футов. Из массивного "
+"туловища торчат две пары лап... одна из них оканчивается клешнями, а другая "
+"- когтями. Его голова с острыми клыками и фиолетовыми глазами напоминает "
+"собачью. Оно неотрывно следит за тобой."
 
 #: 57165
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 57166
 msgid "Ignore it."
-msgstr ""
+msgstr "Игнорировать его."
 
 #: 57167
+#, fuzzy
 msgid ""
 "The creature's gaze never wavers as it continues to stare at you. Finally "
 "you feel a tugging at your mind and a voice speaks in your head. \"Greetings "
 "to you as well, human. I am Agril-Shanak. Why are you here?\""
 msgstr ""
+"Существо продолжает неотрывно глядеть на тебя. Наконец ты чувствуешь легкое "
+"покалывание в черепе, и в твоей голове раздается чей-то голос. «Приветствую "
+"тебя, человек. Я Агриль-Шанак. Зачем ты сюда пришел?»"
 
 #: 57168 57179 57184 57189 57194 57197 57201 57248
 msgid "\"I have some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 57169
 msgid "\"Never mind. I must be going now, farewell.\""
-msgstr ""
+msgstr "«Неважно. Я должен идти. Прощай»."
 
 #: 57170
 msgid "\"Questions... this amuses me. You may ask.\""
-msgstr ""
+msgstr "«Вопросы... Забавно. Спрашивай»."
 
 #: 57171
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 57172
 msgid "\"What are you doing here?\""
-msgstr ""
+msgstr "«Что ты здесь делаешь?»"
 
 #: 57173
 msgid "\"What can you tell me about Curst?\""
-msgstr ""
+msgstr "«Что ты можешь сказать о Проклятом?»"
 
 #: 57174
 msgid "\"What can you tell me about Dona Quisho?\""
-msgstr ""
+msgstr "«Что ты можешь рассказать о Доне Куишо?»"
 
 #: 57175
 msgid "\"Dona Quisho sent me to free you. What's in it for me if I do?\""
-msgstr ""
+msgstr "«Дона Куишо послала меня освободить тебя. Что я получу взамен?»"
 
 #: 57176
 msgid "\"Dona Quisho sent me to free you. How do I do that?\""
-msgstr ""
+msgstr "«Дона Куишо послала меня освободить тебя. Как мне это сделать?»"
 
 #: 57177
 msgid "\"As I stated, I am Agril-Shanak. What more do you need to know?\""
-msgstr ""
+msgstr "«Как я уже сказал, я - Агриль-Шанак. Что еще ты хочешь знать?»"
 
 #: 57178
 msgid "\"What are you?\""
-msgstr ""
+msgstr "«Что ты такое?»"
 
 #: 57180 57185 57190 57195 57198 57202 57207 57211 57215 57218 57222 57226
 msgid "\"I must be going, farewell.\""
-msgstr ""
+msgstr "«Я должен идти. Прощай»."
 
+# ответ должен быть в рифму - "fiend - friend"
 #: 57181
 msgid ""
 "\"Some call me a fiend... some a friend. I am Agril-Shanak. I am tanar'ri. I "
 "have achieved my status through hard work, treachery, blood, and fear. I am "
 "a creature of nightmare.\" He falls silent."
 msgstr ""
+"«Кое-кто зовет меня нечистым духом... кое-кто - другом. Я - Агриль-Шанак, "
+"танарри. Я получил свой статус благодаря неустанной работе, предательству, "
+"крови и страху. Я - создание кошмара». Он умолкает."
 
 #: 57182 57187
+#, fuzzy
 msgid "\"Who calls you 'fiend'?\""
-msgstr ""
+msgstr "«Кто зовет тебя 'нечистым духом'?»"
 
 #: 57183 57192
+#, fuzzy
 msgid "\"Who calls you 'friend'?\""
-msgstr ""
+msgstr "«Кто зовет тебя 'другом'?»"
 
 #: 57186
 msgid ""
 "\"Those who desire power often see me as a means to an end. It is they who "
 "call me friend.\""
 msgstr ""
+"«Те, кто жаждет власти, часто видят во мне средство достижения цели. Они и "
+"называют меня другом»."
 
 #: 57188 57193
 msgid "\"That's a vague answer...\""
-msgstr ""
+msgstr "«Какой-то неопределенный ответ...»"
 
 #: 57191
 msgid ""
 "\"The ignorant who cannot see beyond fear and prejudice. It is their "
 "shortsightedness that causes them to label me such.\""
 msgstr ""
+"«Невежды, что не видят дальше своих страха и предрассудков. Их близорукость "
+"заставляет их вешать на меня подобные ярлыки»."
 
 #: 57196
 msgid ""
 "\"Ah, but it is an answer nonetheless.\" He leans toward you. \"It is the "
 "only answer I will give you...\""
 msgstr ""
+"«О, и все же это ответ... - он наклоняется к тебе. - Единственный, который я "
+"тебе дам...»"
 
 #: 57199
 msgid ""
 "\"Awaiting my freedom. Perhaps you have come to grant it? You have the "
 "scroll...\" He points a clawed finger at the parchment Dona Quisho gave you."
 msgstr ""
+"«Жду освобождения. Возможно, именно ты подаришь мне свободу? У тебя есть "
+"свиток...» Когтистым пальцем он указывает на пергамент, который дала тебе "
+"Дона Куишо."
 
 #: 57200
 msgid "\"How did you come to be trapped here?\""
-msgstr ""
+msgstr "«Как получилось, что ты оказался в этой ловушке?»"
 
 #: 57203
 msgid ""
@@ -136,29 +161,32 @@ msgid ""
 "summoned and I answered the call. A greater force then intercepted me and I "
 "came here. I have been trapped since.\""
 msgstr ""
+"«Я не знаю... - перед тем, как продолжить, существо делает долгую паузу. - Я "
+"был призван и ответил на призыв. Но затем более могущественная сила "
+"перехватила меня, и я оказался здесь. С тех пор я нахожусь здесь, в ловушке»."
 
 #: 57204 57213
 msgid "\"Who summoned you?\""
-msgstr ""
+msgstr "«Кто призвал тебя?»"
 
 #: 57205 57209 57224
 msgid "\"Who intercepted you?\""
-msgstr ""
+msgstr "«Кто перехватил тебя?»"
 
 #: 57206 57210 57214 57217 57221 57225
 msgid "\"I see. I have some questions...\""
-msgstr ""
+msgstr "«Понятно. У меня еще есть вопросы...»"
 
 #: 57208
 msgid ""
 "\"You know the answer, you hold the scroll in your hand. It was Dona Quisho."
 "\""
-msgstr ""
+msgstr "«Ты знаешь ответ, раз свиток у тебя в руках. Это была Дона Куишо»."
 
 #: 57212
 msgid ""
 "\"I do not know... My captor has not chosen to reveal his or her presence.\""
-msgstr ""
+msgstr "«Я не знаю... Мой захватчик решил не показывать свое присутствие»."
 
 #: 57216
 msgid ""
@@ -166,6 +194,8 @@ msgid ""
 "speak with any authority on the subject of Curst. To me, it is a prison - "
 "nothing more.\""
 msgstr ""
+"Ты слышишь смех в своей голове. «Я ведь не здешний... Не в моей компетенции "
+"говорить о Проклятом. Я считаю, что это тюрьма, и больше ничего»."
 
 #: 57219
 msgid ""
@@ -173,28 +203,37 @@ msgid ""
 "you already know, you hold the scroll...\" He points a clawed finger at the "
 "parchment Dona Quisho gave you."
 msgstr ""
+"«Я не знаю о ней ничего, кроме того, что она призвала меня... Но ты это и "
+"так знаешь, раз свиток у тебя в руках...» Когтистым пальцем он указывает на "
+"пергамент, который дала тебе Дона Куишо."
 
 #: 57220
 msgid "\"Why did she summon you?\""
-msgstr ""
+msgstr "«Зачем она призвала тебя?»"
 
 #: 57223
 msgid ""
 "\"I do not know. I was intercepted before I arrived. We never spoke...\" He "
 "falls silent."
 msgstr ""
+"«Я не знаю. Меня перехватили до того, как я прибыл. Мы даже не "
+"разговаривали...»"
 
 #: 57227
 msgid ""
 "\"My gratitude will know no bounds. I will lay the planes themselves at your "
 "feet... free me!\""
 msgstr ""
+"«Моей признательности не будет границ. Я возложу к твоим ногам сами планы... "
+"Освободи меня!»"
 
 #: 57228
 msgid ""
 "\"I need something more concrete than words... if you can't deliver, I'll "
 "just be leaving.\""
 msgstr ""
+"«Мне нужно что-нибудь поконкретнее простых слов ... Если тебе нечего "
+"предложить, я уйду»."
 
 #: 57229
 msgid ""
@@ -202,28 +241,33 @@ msgid ""
 "grant you a magical weapon, a weapon of great power, a weapon to bring your "
 "foes to their knees... I will grant you Heartgrinder!\""
 msgstr ""
+"«Хорошо...» Пока он размышляет, ты ощущаешь на себе его скучающий взгляд. «Я "
+"дам тебе магическое оружие, оружие великой силы, оружие, которое повергнет "
+"твоих врагов на колени... Я дам тебе Сердцемолку!»"
 
 #: 57230
 msgid "\"Heartgrinder?\""
-msgstr ""
+msgstr "«Сердцемолку?»"
 
 #: 57231
 msgid ""
 "\"Yes... A weapon dear to me, but one I would sacrifice for my freedom. What "
 "say you? Will you free me for Heartgrinder?\""
 msgstr ""
+"«Да... Это оружие очень дорого мне, но ради свободы я им пожертвую. Что "
+"скажешь? Освободишь меня в обмен на Сердцемолку?»"
 
 #: 57232 57252
 msgid "\"Yes, tell me how.\""
-msgstr ""
+msgstr "«Хорошо, только скажи мне как»."
 
 #: 57233 57237 57253
 msgid "\"No, I don't think so.\""
-msgstr ""
+msgstr "«Нет, я так не думаю»."
 
 #: 57234
 msgid "\"I'll think about it. Farewell.\""
-msgstr ""
+msgstr "«Я подумаю над этим. Прощай»."
 
 #: 57235
 msgid ""
@@ -231,14 +275,16 @@ msgid ""
 "diagram by erasing a small portion...\" He looks at you, his eyes boring "
 "into your skull."
 msgstr ""
+"Он указывает когтистым пальцем на край пентаграммы. «Просто нарушь диаграмму "
+"- сотри небольшую часть...» Он впивается взглядом в твой череп."
 
 #: 57236
 msgid "Break the pentagram."
-msgstr ""
+msgstr "Нарушить пентаграмму."
 
 #: 57238 57254
 msgid "\"I'll think about it, farewell.\""
-msgstr ""
+msgstr "«Я подумаю над этим. Прощай»."
 
 #: 57239
 msgid ""
@@ -246,10 +292,13 @@ msgid ""
 "a quick stroke you erase a part of it. Just as quickly the energy fades and "
 "you hear a cry of triumph within your mind. \"Free at last!\""
 msgstr ""
+"Встав на колени, ты прикасаешься к диаграмме. Волна энергии омывает твою "
+"руку. Быстрым движение ты стираешь часть диаграммы. Едва энергия начинает "
+"спадать, ты слышишь в голове торжествующий вопль: «Наконец-то я свободен!»"
 
 #: 57240
 msgid "\"I'll take Heartgrinder now.\""
-msgstr ""
+msgstr "«Я хочу забрать Сердцемолку»."
 
 #: 57241
 msgid ""
@@ -258,10 +307,14 @@ msgid ""
 "axe appears in his hand. He offers it to you. \"It looks like nothing... but "
 "it is powerful.\""
 msgstr ""
+"«Да... Я выполню свою часть сделки, человек. Оружие - тебе, свобода - мне. "
+"Честная сделка...» Он глядит на тебя некоторое время, затем в его руке "
+"возникает ржавый топор, который он протягивает тебе. «Выглядит не "
+"впечатляюще... Но оно весьма могущественно»."
 
 #: 57242
 msgid "Take the axe."
-msgstr ""
+msgstr "Взять топор."
 
 #: 57243
 msgid ""
@@ -269,31 +322,36 @@ msgid ""
 "you.\" He points a clawed finger at you. \"Know this, however. If ever we "
 "meet again, you shall rue the day. Farewell.\""
 msgstr ""
+"«Ты оказал мне большую услугу, и я, в знак признательности, не буду убивать "
+"тебя, - он указывает на тебя когтистым пальцем. - Однако помни: ты "
+"проклянешь тот день, когда мы встретимся снова. Прощай»."
 
 #: 57245
 msgid ""
 "\"You toy with me... if you will not grant me my freedom, then begone!\""
 msgstr ""
+"«Ты играешься со мной... Раз не собираешься дать мне свободу, тогда исчезни!»"
 
 #: 57246
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 57247
 msgid "You see Agril-Shanak, the glabrezu. \"You return to me, human. Why?\""
 msgstr ""
+"Перед тобой Агриль-Шанак, глабрезу. «Ты вернулся ко мне, человек. Почему?»"
 
 #: 57249
 msgid "\"I have considered freeing you.\""
-msgstr ""
+msgstr "«Я решил освободить тебя»."
 
 #: 57250
 msgid "\"Never mind, farewell.\""
-msgstr ""
+msgstr "«Неважно, прощай»."
 
 #: 57251
 msgid "\"And will you?\" He gazes at you malevolently."
-msgstr ""
+msgstr "«И ты это сделаешь?» Он недоброжелательно смотрит на тебя."
 
 #: 57255
 msgid ""
@@ -302,21 +360,33 @@ msgid ""
 "hands. The head is dog-like with sharp fangs and violet eyes. When if sees "
 "you, it rushes to the attack."
 msgstr ""
+"Перед тобой огромное существо ростом в пятнадцать футов. Из массивного "
+"туловища торчат две пары лап... одна из них оканчивается клешнями, а другая "
+"- когтями. Его голова с острыми клыками и фиолетовыми глазами напоминает "
+"собачью. Едва завидев тебя, оно бросается в атаку."
 
 #: 57256 57259
 msgid "Defend yourself."
-msgstr ""
+msgstr "Защищаться."
 
 #: 57257 57260
 msgid "Flee."
-msgstr ""
+msgstr "Сбежать."
 
 #: 57258
 msgid ""
 "You see Agril-Shanak, the glabrezu. \"I warned you that if we met again you "
 "would rue the day...\" He rushes to the attack."
 msgstr ""
+"Перед тобой Агриль-Шанак, глабрезу. «Я тебя предупреждал: ты проклянешь тот "
+"день, когда мы встретимся снова...» Он бросается в атаку."
 
 #: 57261
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
+
+#~ msgid "\"Who summoned you?"
+#~ msgstr "«Кто призвал тебя?»"
+
+#~ msgid "\"I have some questions..."
+#~ msgstr "«У меня есть несколько вопросов...» "

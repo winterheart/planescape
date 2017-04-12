@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dknfghl.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2011-12-24 19:05+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.2\n"
 
 #: 23790
 msgid ""
@@ -20,58 +22,71 @@ msgid ""
 "knife tucked into its waistband... the letters 'UHIR' are carved into its "
 "handle."
 msgstr ""
+"Лицо этого упыря пересекает глубокий порез, а один из его глаз полностью "
+"уничтожен. Несмотря на сравнительную свежесть раны, она, похоже, не "
+"причиняет этому зловонному существу никаких неудобств. Ты замечаешь грязный "
+"нож, заткнутый за его пояс... на его рукоятке вырезана надпись «ЮХИР»."
 
 #: 23791 23849
 msgid "\"Greetings...\""
-msgstr ""
+msgstr "«Приветствую...»"
 
 #: 23808 23813 23818 23822 23825
 msgid "\"Uh... could I have that knife you've got tucked in your belt?\""
-msgstr ""
+msgstr "«Э... можно взять тот нож, что у тебя за поясом?»"
 
 #: 23811 23850
 msgid "Leave the ghoul be."
-msgstr ""
+msgstr "Оставить упыря в покое."
 
 #: 23812
 msgid ""
 "The ghoul narrows his eyes and snarls at you. Its tongue - no less than two "
 "hands long - curls out to lick at its scabby lips."
 msgstr ""
+"Упырь прищуривается и рычит на тебя. Его язык, не менее двух ладоней в "
+"длину, высовывается и облизывает покрытые струпьями губы."
 
 #: 23814
 msgid "\"Are you... Uhir?\""
-msgstr ""
+msgstr "«Ты... Юхир?»"
 
 #: 23815
 msgid "\"I had some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 23816
 msgid "\"I must be taking my leave, now. Farewell.\""
-msgstr ""
+msgstr "«Мне уже нужно идти. Прощай»."
 
 #: 23817
 msgid ""
 "The ghoul continues to eye you hungrily. He clenches and unclenches his "
 "clawed fists, as if fighting the urge to leap upon you and feed."
 msgstr ""
+"Упырь продолжает жадно глядеть на тебя. Он стискивает и разжимает когтистые "
+"кулаки, будто борясь с желанием броситься на тебя и сожрать."
 
 #: 23819
 msgid "\"Calm yourself, and answer my questions.\""
-msgstr ""
+msgstr "«Успокойся и ответь на мои вопросы»."
 
 #: 23820 23823
 msgid "\"Farewell, then.\""
-msgstr ""
+msgstr "«Тогда прощай». "
 
 #: 23821
+#, fuzzy
 msgid ""
 "The ghoul hisses at you: \"Silence, meat! No talk! I no lissen to meat-"
 "thing! I hear only your heart, blood in meat's veins, sweet, delicious "
 "blood... tasty, rich, heart-meat...\" Drool pours from its mouth, spattering "
 "the dusty tiles. \"NO TALK!\""
 msgstr ""
+"Упырь шипит на тебя: «Молчать, мясо! Ни слова! Я не слушаю мясных тварей! Я "
+"слышу только твое сердце, кровь в мясных венах, сладкую, вкусную кровь... "
+"вкусное сочное сердце... - из его рта течет слюна, капая на пыльные плиты. - "
+"МОЛЧАТЬ!»"
 
 #: 23824
 msgid ""
@@ -80,10 +95,14 @@ msgid ""
 "hisses at you as you approach: \"Away! Go away! I no *talk* to meat thing, I "
 "no *listen,* meat! GO!\""
 msgstr ""
+"Лицо этого упыря пересекает глубокий порез, а один из его глаз полностью "
+"уничтожен. Ты замечаешь грязный нож, заткнутый за его пояс. При твоем "
+"приближении он начинает шипеть: «Прочь! Убирайся прочь! Я не *разговариваю* "
+"с мясной тварью, я не *слушаю*, мясо! УХОДИ!»"
 
 #: 23826 23852
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 23827
 msgid ""
@@ -91,36 +110,42 @@ msgid ""
 "it got there. Finally, it looks up and gives you a sly, toothy grin... "
 "\"Meat want knife? Meat make trade, yes...\""
 msgstr ""
+"Упырь смотрит на нож и чешет голову, будто удивляясь, как он туда попал. "
+"Наконец он обращает на тебя взгляд и дарит тебе хитрую клыкастую ухмылку... "
+"«Мясо хочет ножик? Мясо будет меняться, да?..»"
 
 #: 23828 23829 23842 23843
 msgid "\"How about these rat tails?\""
-msgstr ""
+msgstr "«Как насчет этих крысиных хвостиков?»"
 
 #: 23830 23845
 msgid "\"I could give you copper...\""
-msgstr ""
+msgstr "«Я мог бы подкинуть тебе меди...»"
 
 #: 23831 23846
 msgid "\"But I've no copper to give you.\""
-msgstr ""
+msgstr "«Но у меня нет денег»."
 
 #: 23832
 msgid "\"Hand it over, ghoul... before I have to take it from you.\""
-msgstr ""
+msgstr "«Дай-ка его мне, упырь... не то мне не придется самому его забрать»."
 
 #: 23833 23847
 msgid "\"Never mind, then. Farewell.\""
-msgstr ""
+msgstr "«Тогда неважно. Прощай»."
 
 #: 23834
+#, fuzzy
 msgid ""
 "The ghoul shakes its head, then points to its mouth. \"No, no... food, meat, "
 "yes...\" Its long, gray tongue lolls out as it slavers messily."
 msgstr ""
+"Упырь мотает головой, потом показывает на свой рот. «Нет, нет... еда, "
+"мясо...» Он вываливает свой длинный серый язык, тошнотворно пуская слюну."
 
 #: 23835
 msgid "\"I'll be back if I find you something to eat, then.\""
-msgstr ""
+msgstr "«Тогда я вернусь, когда раздобуду тебе что-нибудь поесть»."
 
 #: 23836
 msgid ""
@@ -128,32 +153,40 @@ msgid ""
 "blade... perhaps I can find or kill something down here, like rats, for it "
 "to eat."
 msgstr ""
+"Я нашел упыря с ножом Юхира. В обмен на нож он хочет еды... возможно, я "
+"найду или убью здесь что-нибудь, типа крыс, и накормлю его."
 
 #: 23837
 msgid ""
 "The ghoul regards them critically. \"Tasty yes, but small. More, meat... "
 "more! Hungrier!\""
 msgstr ""
+"Упырь критически осматривает их. «Да, вкусные, но мелкие. Больше, мясо... "
+"больше! Аппетитнее!»"
 
 #: 23838
 msgid "\"I'll be back with more, then.\""
-msgstr ""
+msgstr "«Тогда я принесу еще»."
 
 #: 23839
 msgid ""
 "\"Yes, yes!\" The ghoul snatches them away greedily and devours them. After "
 "licking his clawed fingers clean, he tosses you Uhir's knife."
 msgstr ""
+"«Да, да!» - упырь жадно хватает их и проглатывает. Облизав свои когтистые "
+"пальцы дочиста, он бросает тебе нож Юхира."
 
 #: 23840
 msgid "\"Uh... thanks. Farewell.\""
-msgstr ""
+msgstr "«Э... спасибо. Прощай»."
 
 #: 23841
 msgid ""
 "\"Hssst! You meat, delicious, red, wet meat - not threat! Meat wants knife? "
 "Meat make trade!\""
 msgstr ""
+"«Хссст! Ты мясо, вкусное, красное, сочное мясо - не угрожай! Мясо хочет "
+"ножик? Мясо будет меняться!»"
 
 #: 23848
 msgid ""
@@ -161,6 +194,9 @@ msgid ""
 "destroyed entirely. Despite the relative freshness of the wound, it seems to "
 "cause the foul-smelling creature no pain or discomfort."
 msgstr ""
+"Лицо этого упыря пересекает глубокий порез, а один из его глаз полностью "
+"уничтожен. Несмотря на сравнительную свежесть раны, она, похоже, не "
+"причиняет этому зловонному существу никаких неудобств."
 
 #: 23851
 msgid ""
@@ -168,3 +204,6 @@ msgid ""
 "destroyed entirely. It hisses at you as you approach: \"Away! Go away! I no "
 "*talk* to meat thing, I no *listen,* meat! GO!\""
 msgstr ""
+"Лицо этого упыря пересекает глубокий порез, а один из его глаз полностью "
+"уничтожен. При твоем приближении он начинает шипеть: «Прочь! Убирайся прочь! "
+"Я не *разговариваю* с мясной тварью, я не *слушаю*, мясо! УХОДИ!»"

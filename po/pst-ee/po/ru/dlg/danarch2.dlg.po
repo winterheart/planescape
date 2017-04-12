@@ -1,42 +1,50 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: danarch2.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2015-12-27 23:57+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: 44366
+#, fuzzy
 msgid ""
 "You see a thin, skulking man. His long, nimble fingers quiver slightly, and "
 "he has trouble meeting your eyes when he talks to you. \"You startled me! "
 "I... I haven't seen you around here before, stranger. What... what do you "
 "want from me?\""
 msgstr ""
+"Перед тобой скрытный худощавый мужчина. Его длинные проворные пальцы "
+"подрагивают, а при разговоре он избегает твоего взгляда. «Ты напугал меня! "
+"Я... я тебя здесь раньше не видел, незнакомец. Что... что ты хочешь от меня?»"
 
 #: 44370 44431 44435 44442
 msgid ""
 "\"I was told by a... friend... that I could find a cell of Anarchists here. "
 "The password is 'eclipse.'\" "
 msgstr ""
+"«Один мой... друг... сказал мне, что здесь я смогу найти ячейку анархистов. "
+"Пароль - 'затмение'»."
 
 #: 44371 44443
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 44373 44444
 msgid "\"What is this place?\""
-msgstr ""
+msgstr "«Что это за место?»"
 
 #: 44374
 msgid "\"Nothing. Farewell.\""
-msgstr ""
+msgstr "«Ничего. Прощай»."
 
 #: 44376
 msgid ""
@@ -47,54 +55,70 @@ msgid ""
 "Next time, how about I ask you for the password?\" He sighs. \"What do you "
 "want?\""
 msgstr ""
+"Бормотание тут же пропадает, и он начинает вести себя очень по-деловому. "
+"«Вот как. А он передал тебе секретное рукопожатие? Волшебное шифровальное "
+"кольцо? Ты знаешь секретный гимн ячейки? Тебя научили хоть чему-то из "
+"этого?» Какое-то время он осматривает тебя с головы до ног, затем говорит: "
+"«Очевидно, нет. В следующий раз пароль спрошу я, ладно? - он вздыхает. - "
+"Чего ты хочешь?»"
 
 #: 44377 44395 44409 44449
 msgid "\"I wanted to pick up some extra items.\""
-msgstr ""
+msgstr "«Я хотел бы купить пару вещей»."
 
 #: 44379 44396 44411 44451
 msgid "\"I need a place to hide out.\""
-msgstr ""
+msgstr "«Мне нужно место, чтобы залечь на дно»."
 
 #: 44381 44412 44452
 msgid "\"I need to ask you about your cell here.\""
-msgstr ""
+msgstr "«Мне нужно расспросить тебя о твоей ячейке»."
 
 #: 44382 44397 44453
 msgid "\"What are you trying to accomplish here?\""
-msgstr ""
+msgstr "«Чего вы пытаетесь здесь достичь?»"
 
 #: 44383 44399 44414 44454
 msgid "\"Why are you an Anarchist?\""
-msgstr ""
+msgstr "«Почему ты стал анархистом?»"
 
 #: 44384 44400 44415 44456
 msgid "\"Nothing, I guess. Farewell.\""
-msgstr ""
+msgstr "«Пожалуй, ничего. Прощай»."
 
 #: 44386
 msgid "\"Hope that's to your liking.\""
-msgstr ""
+msgstr "«Надеюсь, это придется тебе по вкусу»."
 
 #: 44387
 msgid "\"Yeah, thanks. Farewell.\""
-msgstr ""
+msgstr "«Ага, спасибо. Прощай»."
 
 #: 44389
+#, fuzzy
 msgid ""
 "\"You know what the first rule of being a secret revolutionary is?\" He "
 "waits just long enough for you to start to answer, and says, \"It's keeping "
 "it *secret.* I'm giving no secrets away, comrade, no matter *who* you say "
 "sent you. So, now that we've got that established, what else do you want?\""
 msgstr ""
+"«Ты знаешь первое правило тайного революционера?» Он ждет ровно столько, "
+"чтобы ты начал отвечать, и говорит: «Держи все в *тайне*. Я не выдаю "
+"секреты, приятель, и неважно, *кто* там тебя послал. Ладно, с этим мы "
+"разобрались. Чего еще ты хочешь?»"
 
 #: 44403
+#, fuzzy
 msgid ""
 "\"What we're trying to accomplish is secret. That's the point of bein' "
 "underground, wouldn't you agree? You'll know it when you see it, and you "
 "won't see it for a long time. We're laying our plans *careful,* you know "
 "what I'm saying? Now that we've talked about care, what do you want?\""
 msgstr ""
+"«Наши цели засекречены. В этом-то и есть суть подполья, согласен? Ты узнаешь "
+"об этом, когда сам увидишь, а увидишь ты это еще нескоро. Мы все делаем "
+"*осторожно*, ну, ты понимаешь, о чем я? И раз уж мы заговорили об "
+"осторожности, чего ты хочешь?»"
 
 #: 44418
 msgid ""
@@ -103,75 +127,92 @@ msgid ""
 "necks? Even the people who think they're important get pushed around. "
 "Someone needs to pull the system down.\""
 msgstr ""
+"«Оглянись, пень. Ты видишь здесь кого-нибудь свободного? Ты видишь хоть хоть "
+"кого-то, кому никто не наступает ботинком на шею? Даже тех, кто считает себя "
+"важно шишкой, и то шпыняют. Эту систему нужно разрушить до основания»."
 
 #: 44420
 msgid "\"And replace it with what?\""
-msgstr ""
+msgstr "«И чем же ее заменить?»"
 
 #: 44421
 msgid "\"Sounds like a good enough reason. Farewell.\""
-msgstr ""
+msgstr "«Похоже на довольно веский довод. Прощай»."
 
 #: 44423
+#, fuzzy
 msgid ""
 "\"That ain't for me to decide, berk. I'm good at destruction and leaving "
 "pieces for people to pick up. I destroy so others can create. We all got our "
 "specialties. I'm an optimist - I believe people'll create something good. "
 "Till they do, though, I have to keep tearing it down.\""
 msgstr ""
+"«А это не мне решать, пень. Я хорош в том, чтобы разрушать и оставлять "
+"другим осколки. Я уничтожаю, чтобы другие могли создавать. У каждого своя "
+"специализация. Я - оптимист: я верю, что люди смогут создать что-нибудь "
+"хорошее. Но пока они не займутся этим, мне придется продолжать разрушать»."
 
 #: 44424
 msgid "\"And who decides what's good? What makes you so special?\""
-msgstr ""
+msgstr "«И кто же решает, что есть хорошо? Что делает тебя таким особенным?»"
 
 #: 44426
 msgid "\"Good for you. Farewell.\""
-msgstr ""
+msgstr "«Рад за тебя. Прощай»."
 
 #: 44427
+#, fuzzy
 msgid ""
 "\"What makes me special is that I'm willing to do something about it. What "
 "makes me the person who decides what's right is that I look for equality. "
 "Till I see some common Hiver bein' treated like a Golden Lord, I'm going to "
 "keep doin' my bit.\""
 msgstr ""
+"«Особенным меня делает то, что я хочу хоть что-то с этим сделать. Право "
+"решать, что есть правильно, мне дает мое стремление к равенству. И я "
+"собираюсь продолжить свое дело, пока не перестану видеть, как какой-нибудь "
+"замухрышка из Улья строит из себя Золотого Повелителя»."
 
 #: 44428
 msgid "\"All right. That's all I wanted to know. Farewell.\""
-msgstr ""
+msgstr "«Отлично. Это все, что я хотел знать. Прощай»."
 
 #: 44429
 msgid "\"I'm Conall. I work here.\""
-msgstr ""
+msgstr "«Я Коналл. Я здесь работаю»."
 
 #: 44430
 msgid "\"And what is this place?\""
-msgstr ""
+msgstr "«А что это за место?»"
 
 #: 44433
 msgid ""
 "He looks at you carefully, to see if you're joking. \"It's the Vault of the "
 "Ninth World. It's a storehouse. Didn't you read the sign when you came in?\""
 msgstr ""
+"Он внимательно смотрит на тебя, гадая, не шутишь ли ты. «Это Хранилище "
+"Девятого Мира, склад. Ты разве не прочитал вывеску, когда входил?»"
 
 #: 44436
 msgid "\"Not that carefully. Who are you?\""
-msgstr ""
+msgstr "«Не очень внимательно. Кто ты?»"
 
 #: 44438
 msgid "\"Thanks for the answer. Farewell.\""
-msgstr ""
+msgstr "«Спасибо за ответ. Прощай»."
 
+# голова, а не главный
 #: 44440
 msgid ""
 "\"You again? If you want something here, go check in with the head at the "
 "door.\""
-msgstr ""
+msgstr "«Снова ты? Если чего-нибудь хочешь, пообщайся с головой у входа»."
 
 #: 44446
 msgid "\"Thanks. Farewell.\""
-msgstr ""
+msgstr "«Спасибо. Прощай»."
 
 #: 44448
+#, fuzzy
 msgid "\"You in trouble? You need something?\""
-msgstr ""
+msgstr "«Ты в беде? Тебе что-нибудь нужно?»"

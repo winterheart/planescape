@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dzm732.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-03-24 20:31+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: 64270
 msgid ""
@@ -20,27 +22,44 @@ msgid ""
 "sewn shut before or after the man's death. You notice he is carrying a huge "
 "tome in his hands, as if taking it somewhere. "
 msgstr ""
+"У этого ковыляющего зашит не только рот, но и глаза, а на брови вырезан "
+"номер «732». Похоже, глазные полости были зашиты давным-давно... тебе "
+"остается только гадать, когда потерял человек глаза - до смерти или после. "
+"Ты замечаешь, что в руках он несет тяжелую книгу, как будто он где-то ее "
+"забрал. "
 
 #: 64271
 msgid "Take the tome from his hands... carefully."
-msgstr ""
+msgstr "Взять том из его рук... осторожно."
 
 #: 64272 64275 6537 6538 6539
 msgid "Leave the corpse in peace."
-msgstr ""
+msgstr "Оставить труп в покое."
 
 #: 64273
+#, fuzzy
 msgid ""
 "You carefully take the tome from the corpse's hands - it doesn't seem to "
 "notice. The tome appears to be a book of enchantments and wards - it is "
 "filled with diagrams and charts detailing various aspects of the necromantic "
 "arts. The book itself is extremely heavy; as awkward as the zombie is, it "
-"must be extremely strong.\\n\\n^NNOTE: <READSTUFF>^-"
+"must be extremely strong.\n"
+"\n"
+"^NNOTE: <READSTUFF>^-"
 msgstr ""
+"Ты осторожно берешь книгу из рук трупа - он даже не замечает этого. Похоже, "
+"это книга заклинаний и оберегов: она исписана схемами и таблицами, "
+"описывающими различные аспекты искусства некромантии. Сама по себе книга "
+"очень тяжелая. Каким бы неуклюжим не был зомби, он, должно быть, очень "
+"силен.\n"
+"\n"
+"ПРИМЕЧАНИЕ: Чтобы «прочитать» записки, книги или свитки, помести их в свой "
+"инвентарь, а затем нажми по ним правой кнопкой, после чего появится "
+"информационная панель."
 
 #: 64274
 msgid "Examine the corpse again."
-msgstr ""
+msgstr "Снова осмотреть труп. "
 
 #: 6529
 msgid ""
@@ -49,31 +68,38 @@ msgid ""
 "ocular cavities sealed looks extremely old... you wonder if the eyes were "
 "sewn shut before or after the man's death."
 msgstr ""
+"У этого ковыляющего зашит не только рот, но и глаза, а на брови вырезан "
+"номер «732». Похоже, глазные полости были зашиты давным-давно... тебе "
+"остается только гадать, когда потерял человек глаза - до смерти или после."
 
 #: 6530
 msgid "The corpse continues to stare at you."
-msgstr ""
+msgstr "Труп продолжает пялиться на тебя."
 
 #: 6531
 msgid ""
 "The corpse makes no reply. It looks like it is too far gone to answer any of "
 "your questions."
 msgstr ""
+"Труп не реагирует. Кажется, он слишком далек от того, чтобы отвечать на твои "
+"вопросы."
 
 #: 6532 6533
 msgid ""
 "\"Sorry about taking that book from you... it just looked too interesting to "
 "pass up.\""
 msgstr ""
+"«Извини, что забрал ту книгу... она казалась слишком интересной, что "
+"пропустить ее мимо»."
 
 #: 6534
 msgid "\"I know you're not a zombie, you know. You're not fooling anyone.\""
-msgstr ""
+msgstr "«Знаешь, мне известно, что ты не зомби. Тебе никого не одурачить»."
 
 #: 6535
 msgid "Use your Stories-Bones-Tell ability on the corpse."
-msgstr ""
+msgstr "Использовать на трупе свою способность «История костей»."
 
 #: 6536
 msgid "\"It was great talking to you. Farewell.\""
-msgstr ""
+msgstr "«Было приятно с тобой поболтать. Прощай»."

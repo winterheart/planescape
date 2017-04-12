@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dbaen.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2016-07-11 00:44+0300\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: 21485
 msgid ""
@@ -20,14 +22,19 @@ msgid ""
 "approach, he looks up hopefully and calls out in a high voice: \"Craddock... "
 "good sir?\""
 msgstr ""
+"Перед тобой крупный мужчина с острыми чертами и страдальческим выражением "
+"лица. Несмотря на крупное телосложение, он больше похож на неженку. В "
+"отличие от большинства здешних обитателей, он, похоже, недавно принимал "
+"ванну. Завидев тебя, он преисполняется надеждой и начинает звать высоким "
+"голосом: «Сэр... Крэддок?»"
 
 #: 21486
 msgid "\"What?\""
-msgstr ""
+msgstr "«Что?»"
 
 #: 22732
 msgid "Ignore the man, pass on by."
-msgstr ""
+msgstr "Не обращать внимания на мужчину, пройти мимо."
 
 #: 22733
 msgid ""
@@ -36,18 +43,22 @@ msgid ""
 "am called Baen the Sender, third child of Dai'Baen the Sender. I am one of "
 "the many runners in the employ of the House of Senders.\""
 msgstr ""
+"«Эх...» Осмотрев тебя внимательней, он меняется в лице. «Тысяча извинений, "
+"уважаемый сэр, если я вас обидел, - он делает небольшой поклон. - Меня зовут "
+"Баен Посыльный, третий сын Дай-Баена Посыльного. Я один из курьеров, "
+"работающих на Дом Посыльных»."
 
 #: 22734
 msgid "\"No apologies necessary, Baen. What do you want?\""
-msgstr ""
+msgstr "«Не нужно извиняться, Баен. Что тебе нужно?»"
 
 #: 22735
 msgid "\"You haven't offended me... yet. What do you want?\""
-msgstr ""
+msgstr "«Ты не обидел меня... пока что. Что тебе нужно?»"
 
 #: 22736
 msgid "\"Look, I must take my leave, Baen...\""
-msgstr ""
+msgstr "«Послушай, Баен, мне нужно идти...»"
 
 #: 22737
 msgid ""
@@ -55,10 +66,13 @@ msgid ""
 "voice almost squeaks with the effort. \"Craddock?! Good sir, I bear a "
 "message for you!\""
 msgstr ""
+"Когда ты проходишь мимо, мужчина снова окликает тебя, на этот раз более "
+"настойчиво. Он едва не пищит от натуги. «Крэддок? Сэр, у меня для вас "
+"сообщение!»"
 
 #: 22738
 msgid "\"What are you talking about?\""
-msgstr ""
+msgstr "«О чем это ты?»"
 
 #: 22739
 msgid ""
@@ -66,14 +80,17 @@ msgid ""
 "Craddock, who is said to be found in the Hive, but alas... he eludes me. "
 "Have you heard of such a man?\""
 msgstr ""
+"«Уделите мне всего лишь минуту, уважаемый сэр. Я ищу надсмотрщика Крэддока, "
+"которого можно найти в Улье... но, увы, он ускользнул от меня. Возможно, вы "
+"слышали о нем?»"
 
 #: 22740 22743
 msgid "\"No.\""
-msgstr ""
+msgstr "«Нет»."
 
 #: 22741
 msgid "\"I'm sorry...\""
-msgstr ""
+msgstr "«Прошу прощения...»"
 
 #: 22742
 msgid ""
@@ -82,41 +99,52 @@ msgid ""
 "\"But alas, he eludes me.\" He looks at you hopefully again. \"Could it be "
 "you have you heard of such a man?\""
 msgstr ""
+"«Тысяча извинений за то, что беспокою вас по сущему пустяку, но я ищу "
+"Крэддока, надсмотрщика из Улья...» У Баен страдальческий вид. «Но, увы, он "
+"избегает меня, - он снова преисполняется надеждой. - Возможно, вы слышали о "
+"нем?»"
 
 #: 22744
 msgid "\"I'm sorry, I haven't.\""
-msgstr ""
+msgstr "«Извини, не слышал»."
 
 #: 22745
 msgid ""
 "Baen gives a deep sigh. \"I am bound to deliver a message to him, and as "
 "yet, fortune has chosen not to favor me...\""
 msgstr ""
+"Баен глубоко вздыхает. «Я должен доставить ему сообщение, но пока что удача "
+"определенно мне не улыбается...»"
 
 #: 22746
 msgid ""
 "\"I could help you... if I come across the man, I could pass along your "
 "message.\""
 msgstr ""
+"«Я могу помочь тебе... Если я встречусь с ним, я могу передать ему твое "
+"сообщение»."
 
 #: 22747
 msgid ""
 "\"I might be able to find him and deliver your message... for a price.\""
 msgstr ""
+"«Я мог бы найти его и передать твое сообщение... за определенную цену»."
 
 #: 22748
 msgid "\"I can't help you... look, I must take my leave.\""
-msgstr ""
+msgstr "«Ничем не могу помочь... послушай, мне нужно идти...»"
 
 #: 22749
 msgid ""
 "\"Of course, good sir, a thousand apologies for keeping you.\" Baen nods. "
 "\"Thank you for your time.\""
 msgstr ""
+"«Конечно, уважаемый сэр, тысяча извинений за задержку, - Баен кивает. - "
+"Благодарю за уделенное время»."
 
 #: 22750
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 22751
 msgid ""
@@ -125,10 +153,14 @@ msgid ""
 "you can find this Craddock and pass along the message, I shall see to it you "
 "are paid for your troubles.\""
 msgstr ""
+"Лицо Баена светится как лампа. «О, это счастливый день для Баена и Дома "
+"Посыльных! Любая помощь будет с радостью принята! Если вы найдете этого "
+"Крэддока и передадите ему сообщение, я позабочусь о том, чтобы вас "
+"вознаградили за беспокойство»."
 
 #: 22752 22754
 msgid "\"All right... what's the message?\""
-msgstr ""
+msgstr "«Хорошо... Что за сообщение?»"
 
 #: 22753
 msgid ""
@@ -136,6 +168,8 @@ msgid ""
 "this Craddock and pass along the message, I shall pay you for your troubles."
 "\""
 msgstr ""
+"Лицо Баена светится как лампа. «Конечно, уважаемый сэр. Если вы найдете "
+"этого Крэддока и передадите ему сообщение, я отплачу ваше беспокойство»."
 
 #: 22755
 msgid ""
@@ -144,12 +178,17 @@ msgid ""
 "told that Craddock will know of the 'shipment' to which the message pertains."
 "\""
 msgstr ""
+"Баен декламирует сообщение на манер мантры: «*Груз должен быть в Проклятом "
+"через три дня, или будет наложен штраф*, - Баен хмурится. - Мне сказали, что "
+"Крэддок знает, о каком 'грузе' идет речь»."
 
 #: 22756
 msgid ""
 "\"If I see Craddock, I will pass along the message. Is there anything you "
 "can tell me about him before I go that might help me find him?\""
 msgstr ""
+"«Если я встречу Крэддока, я передам это сообщение. Ты можешь сообщить мне "
+"что-нибудь еще, что могло бы мне помочь его найти?»"
 
 #: 22757
 msgid ""
@@ -157,10 +196,12 @@ msgid ""
 "overseer in one of the Hive marketplaces. Alas, I know little else than "
 "that, good sir.\""
 msgstr ""
+"«Мне сказали, что он *гигантского* роста, с суровыми чертами лица. Он "
+"надсмотрщик на одном из рынков Улья. Увы, больше я ничего не знаю»."
 
 #: 22758
 msgid "\"I see. That's enough to go on for now.\""
-msgstr ""
+msgstr "«Понятно. Для начала этого достаточно»."
 
 #: 22759
 msgid ""
@@ -168,10 +209,13 @@ msgid ""
 "bear the message to Craddock, be so kind as to return and tell me of it. I "
 "will see to it your efforts are rewarded.\""
 msgstr ""
+"Баен кивает. «Спасибо, сэр. Если удача улыбнется вам в доставке сообщения, "
+"вернитесь и сообщите мне об этом. Я позабочусь о том, что ваши усилия были "
+"вознаграждены»."
 
 #: 22760
 msgid "\"Very well. Farewell, Baen.\""
-msgstr ""
+msgstr "«Отлично. Прощай, Баен»."
 
 #: 22761
 msgid ""
@@ -179,46 +223,56 @@ msgid ""
 "he was an overseer in a marketplace somewhere in the Hive. I'll keep my eye "
 "out for it."
 msgstr ""
+"Я согласился доставить сообщение Крэддоку, если увижу его. Баен сказал, что "
+"он надсмотрщик на рынке где-то в Улье. Надо будет поискать его."
 
 #: 22762
 msgid ""
 "You see Baen the Sender. As you approach, he looks at you hopefully... but "
 "he does not address you. "
 msgstr ""
+"Ты видишь Баена Посыльного. Он смотрит на тебя с надеждой... но не "
+"обращается к тебе."
 
 #: 22763
 msgid ""
 "\"Look, if you still need help finding... Craddock, right? If you need help "
 "finding him, I'll help you.\""
 msgstr ""
+"«Послушай, если тебе все еще нужна помощь в поисках... Крэддока, верно? Если "
+"тебе нужна помощь в его поисках - я тебе помогу»."
 
 #: 22764
 msgid "\"I changed my mind. I'll help you find this Craddock... for a price.\""
 msgstr ""
+"«Я передумал. Я помогу тебе разыскать этого Крэддока... за определенную "
+"сумму»."
 
 #: 22765
 msgid "Ignore him."
-msgstr ""
+msgstr "Игнорировать его."
 
 #: 22766
 msgid ""
 "You see Baen the Sender. As you approach, he looks at you hopefully. \"Were "
 "you successful in finding Craddock, good sir?\""
 msgstr ""
+"Ты видишь Баена Посыльного. Он смотрит на тебя с надеждой. «Вы нашли "
+"Крэддока, уважаемый сэр?»"
 
 #: 22767
 msgid ""
 "\"Yes, and I passed along your message, although it didn't seem to please "
 "him any.\""
-msgstr ""
+msgstr "«Да, я передал ему твое сообщение, хотя оно и не порадовало его»."
 
 #: 22768
 msgid "\"Not yet, Baen. What can you tell me about him again?\""
-msgstr ""
+msgstr "«Пока нет, Баен. Расскажи мне о нем еще раз»."
 
 #: 22769
 msgid "\"No... I'm still looking for him. I'll return if I find him.\""
-msgstr ""
+msgstr "«Нет... Я все еще ищу его. Как найду - вернусь»."
 
 #: 22770
 msgid ""
@@ -226,6 +280,9 @@ msgid ""
 "pleased and rewarded me with a sum of copper. Not bad pay for just relaying "
 "a message to someone."
 msgstr ""
+"Я вернулся и сообщил Баену, что я доставил сообщение Крэддоку. Он был очень "
+"рад и в награду дал мне немного медяков. Неплохая сделка для простой "
+"доставки сообщения."
 
 #: 22771
 msgid ""
@@ -234,18 +291,22 @@ msgid ""
 "you.\" He reaches into his robe and pulls forth a handful of coppers, which "
 "he counts out, then hands to you."
 msgstr ""
+"Кажется, Баену после услышанного слова *да* все остальное уже безразлично. "
+"Он улыбается и облегченно вздыхает. «Какая удача! Спасибо вам, уважаемый "
+"сэр, спасибо». Он роется в одежде и вытаскивает пригоршню медяков, считает "
+"их и протягивает тебе."
 
 #: 22772
 msgid "\"Fifteen commons for delivering a message, eh? Fair enough.\""
-msgstr ""
+msgstr "«Пятнадцать монет за доставку сообщения? Вполне справедливо»."
 
 #: 22773
 msgid "\"Thirty commons for delivering a message, eh? Fair enough.\""
-msgstr ""
+msgstr "«Тридцать монет за доставку сообщения? Вполне справедливо»."
 
 #: 22774
 msgid "\"Forty-five commons for delivering a message, eh? Fair enough.\""
-msgstr ""
+msgstr "«Сорок пять монет за доставку сообщения? Вполне справедливо»."
 
 #: 22775
 msgid ""
@@ -253,10 +314,13 @@ msgid ""
 "hesitation that there is no finer profession in all Sigil than that of a "
 "runner for the House of Senders!\""
 msgstr ""
+"«Ох, *более чем* справедливо, уважаемый сэр, более чем! Без преувеличения "
+"могу сказать, что нет лучше работы во всем Сигиле, чем быть курьером Дома "
+"Посыльных!»"
 
 #: 22776
 msgid "\"I'll keep that in mind. Farewell, Baen.\""
-msgstr ""
+msgstr "«Я запомню это. Прощай, Баен»."
 
 #: 22777
 msgid ""
@@ -264,7 +328,10 @@ msgid ""
 "\"Well met, good sir. A thousand thanks for helping me find Craddock and "
 "delivering the message to him.\" "
 msgstr ""
+"Ты видишь Баена Посыльного. Когда ты подходишь, он с уважением кивает тебе. "
+"«Рад видеть вас, уважаемый сэр. Тысяча благодарностей за то, что помогли "
+"найти Крэддока и доставить ему сообщение»."
 
 #: 22778
 msgid "\"No trouble. Farewell, Baen.\""
-msgstr ""
+msgstr "«Без проблем. Прощай, Баен»."

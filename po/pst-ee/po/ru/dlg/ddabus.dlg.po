@@ -1,16 +1,19 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: planescape l10n\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-08 19:50+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 1782
 msgid ""
@@ -18,10 +21,13 @@ msgid ""
 "cast, and a pair of goat horns protrudes from its forehead. It is dressed in "
 "long flowing robes and appears to be floating slightly above the ground."
 msgstr ""
+"Перед тобой высокое существо с копной белых волос. Его кожа имеет "
+"зеленоватый оттенок, а из головы растет пара козлиных рожек. Он одет в "
+"длинное развевающееся одеяние и слегка парит над землей."
 
 #: 1783 1784 1785 6936
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 1786 2781
 msgid ""
@@ -29,6 +35,8 @@ msgid ""
 "head. The symbols have a slight glow about them, and they just... hover "
 "there."
 msgstr ""
+"Существо поворачивается к тебе, и над его головой появляется несколько "
+"символов. Они слегка светятся изнутри и... парят в воздухе."
 
 #: 1787
 msgid ""
@@ -36,6 +44,9 @@ msgid ""
 "symbols materialize above its head, then they vanish and a question mark "
 "appears."
 msgstr ""
+"Дабус терпеливо ждет, спрятав свои руки в рукава. Над его головой появляется "
+"несколько символов, затем они рассеиваются, уступив появившемуся знаку "
+"вопроса."
 
 #: 6730
 msgid ""
@@ -44,6 +55,11 @@ msgid ""
 "'discussion,' giving you easy sentences to translate. After a few minutes, "
 "you start to get the hang of it... it feels like you've done this before."
 msgstr ""
+"Задав дабусу несколько вопросов, ты пытаешься определить значение ребусов, "
+"появляющихся над его головой. Он очень терпеливо относится к подобной "
+"«дискуссии», предоставляя тебе простые для перевода образы. Спустя несколько "
+"минут ты начинаешь понимать его... кажется, ты уже делал нечто подобное "
+"раньше."
 
 #: 6731
 msgid ""
@@ -52,59 +68,74 @@ msgid ""
 "'discussion,' you can't seem to get the hang of it. Eventually, the dabus "
 "stops floating symbols and simply waits."
 msgstr ""
+"Задав дабусу несколько вопросов, ты пытаешься определить значение ребусов, "
+"появляющихся над его головой. Хотя он очень терпеливо относится к подобной "
+"«дискуссии», ты не можешь его понять. В конце концов дабус перестает "
+"показывать символы и замирает в ожидании."
 
 #: 6732
 msgid ""
 "The dabus bows slightly. Symbols swirl around its head, then it turns away."
 msgstr ""
+"Дабус делает небольшой поклон. Символы вихрем кружатся над его головой, "
+"затем он отстраняется."
 
 #: 6733
 msgid ""
 "A series of symbols appear above the dabus' head. It then bows and turns "
 "away."
 msgstr ""
+"Над головой дабуса появляется серия символов. Затем он кланяется и "
+"отворачивается."
 
 #: 6734
 msgid "The dabus waits."
-msgstr ""
+msgstr "Дабус ждет."
 
 #: 6735 6741
 msgid ""
 "The dabus inclines his head slightly, and a stream of symbols appears above "
 "his head. You think he's saying he's a dabus."
 msgstr ""
+"Дабус слегка кивает, и над его головой возникает поток символов. Кажется, он "
+"говорит, что он - дабус."
 
 #: 6736 6742
 msgid ""
 "A batch of symbols appears above the dabus' head. You think he's saying he's "
 "attending to his duty... or duties. "
 msgstr ""
+"Над головой дабуса появляется кучка символов. Кажется, он говорит, что он "
+"выполняет свою обязанность... или обязанности."
 
 #: 6737 6743
 msgid ""
 "The dabus inclines his head slightly, and a stream of symbols appears above "
 "his head. (I am a dabus.)"
 msgstr ""
+"Дабус слегка кивает, и над его головой возникает поток символов. (Я - дабус.)"
 
 #: 6738
 msgid ""
 "A batch of symbols appears above the dabus' head. (I attend to my duties.)"
 msgstr ""
+"Над головой дабуса появляется кучка символов: (Я выполняю свои обязанности.)"
 
 #: 6739
 msgid ""
 "The dabus inclines his head slightly, and a stream of symbols appears above "
 "his head. "
-msgstr ""
+msgstr "Дабус слегка кивает, и над его головой возникают поток символов."
 
 #: 6740
 msgid "A batch of symbols appears above the dabus' head. "
-msgstr ""
+msgstr "Над головой дабуса появляется кучка символов."
 
 #: 6744
 msgid ""
 "A batch of symbols appears above the dabus' head: (I attend to my duties.)"
 msgstr ""
+"Над головой дабуса появляется кучка символов: (Я выполняю свои обязанности.)"
 
 #: 6745
 msgid ""
@@ -112,6 +143,9 @@ msgid ""
 "female mask, with blades coming out of the sides. Just looking at the "
 "ghostly image makes you uncomfortable."
 msgstr ""
+"Над головой дабуса возникает единственный символ. Это женская металлическая "
+"маска, из которой во все стороны идут клинки. От одного вида этого "
+"призрачного изображения тебе становится неуютно."
 
 #: 6746
 msgid ""
@@ -119,167 +153,178 @@ msgid ""
 "black lightning bolt. The dabus floats the symbol for a few seconds, then "
 "turns away, ignoring you."
 msgstr ""
+"Над головой дабуса возникает единственный символ. Это белый овал, "
+"разделенный черной молнией. Дабус показывает символ несколько секунд, затем "
+"отворачивается, не обращая на тебя внимания."
 
 #: 6747
 msgid ""
 "You see a dabus. It is dressed in long flowing robes and is floating "
 "slightly above the ground."
 msgstr ""
+"Перед тобой дабус. Он одет в длинное развевающееся одеяние и слегка парит "
+"над землей."
 
 #: 6748
 msgid ""
 "It turns to face you, and a series of symbols appear around its head. The "
 "symbols have a slight glow about them, and they just... hover there."
 msgstr ""
+"Он поворачивается к тебе, и над его головой появляется несколько символов. "
+"Они слегка светятся изнутри и... парят в воздухе."
 
 #: 6863
 msgid "Leave the creature in peace."
-msgstr ""
+msgstr "Оставить существо в покое."
 
 #: 6864 6867
 msgid ""
 "Try and strike up a conversation, see if you can translate what the dabus is "
 "saying."
 msgstr ""
+"Попробовать наладить общение. Возможно, тебе удастся перевести то, что "
+"говорит дабус."
 
 #: 6869
 msgid "Try and speak to the dabus, see if you can understand it."
-msgstr ""
+msgstr "Попробовать поговорить с ним. Возможно, ты сможешь его понять."
 
 #: 6870 6942
 msgid "\"I had some questions for you...\""
-msgstr ""
+msgstr "«У меня есть вопросы...»"
 
 #: 6871 6872 6873 6874 6882 6883 6884 6885 6944 6945 6946 6947
 msgid "\"Morte, can you translate what he's saying for me?\""
-msgstr ""
+msgstr "«Морт, ты можешь перевести мне то, что он говорит?»"
 
 #: 6875 6886 6948
 msgid "\"Annah, can you translate what he's saying for me?\""
-msgstr ""
+msgstr "«Анна, ты можешь перевести мне то, что он говорит?»"
 
 #: 6876 6887
 msgid "\"Dak'kon, can you translate what he's saying for me?\""
-msgstr ""
+msgstr "«Даккон, ты можешь перевести мне то, что он говорит?»"
 
 #: 6877 6888
 msgid "\"Fall-from-Grace, can you translate what he's saying for me?\""
-msgstr ""
+msgstr "«Падшая Грация, ты можешь перевести мне то, что он говорит?»"
 
 #: 6878 6889
 msgid "\"I'm sorry, I don't understand you.\""
-msgstr ""
+msgstr "«Извини... Я не могу тебя понять»."
 
 #: 6879 6890 6892
 msgid "\"Uh... farewell.\""
-msgstr ""
+msgstr "«Э-э... Прощай»."
 
 #: 6880
 msgid "\"Maybe you can help me...\""
-msgstr ""
+msgstr "«Возможно, ты можешь помочь мне...»"
 
 #: 6881
 msgid "\"Just wanted to brush up on my rebuses. Farewell.\""
-msgstr ""
+msgstr "«Я просто хотел посмотреть на эти ребусы. Прощай»."
 
 #: 6891
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 6893 6895
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 6894 6896
 msgid "\"What are you doing?\""
-msgstr ""
+msgstr "«Чем ты занимаешься?»"
 
 #: 6897
 msgid "\"Can you tell me about the Lady of Pain?\""
-msgstr ""
+msgstr "«Можешь рассказать мне о Леди Боли?»"
 
 #: 6898
 msgid "\"Can you tell me about Fell?\""
-msgstr ""
+msgstr "«Можешь рассказать мне о Фелле?»"
 
 #: 6899
 msgid "\"Farewell.\""
-msgstr ""
+msgstr "«Прощай»."
 
 #: 6900 6902
 msgid "\"I had another question for you.\""
-msgstr ""
+msgstr "«У меня есть другой вопрос»."
 
 #: 6901 6903 6906 6909
 msgid "\"That is all I wished to know. Farewell.\""
-msgstr ""
+msgstr "«Это все, что я желал узнать. Прощай»."
 
 #: 6904 6907
 msgid "\"I had another question for you...\""
-msgstr ""
+msgstr "«У меня есть другой вопрос...»"
 
 #: 6905 6908
 msgid "\"Very descriptive. Thanks. Farewell.\""
-msgstr ""
+msgstr "«Очень доходчиво. Спасибо. Прощай»."
 
 #: 6910 6911 6914 6917 6918 6921 6924 6925 6928
 msgid "\"What did he say, Annah?\""
-msgstr ""
+msgstr "«Что он сказал, Анна?»"
 
 #: 6912 6915 6919 6922 6926 6929
 msgid "\"What did he say, Dak'kon?\""
-msgstr ""
+msgstr "«Что он сказал, Даккон?»"
 
 #: 6913 6916 6920 6923 6927 6930
 msgid "\"What did he say, Grace?\""
-msgstr ""
+msgstr "«Что он сказал, Грация?»"
 
 #: 6931
 msgid "\"Uh... not quite the answer I was expecting.\""
-msgstr ""
+msgstr "«Э-э... Это не совсем то, что я хотел узнать»."
 
 #: 6932
 msgid "\"Uh... I see. Dak'kon, can you ask it another question?\""
-msgstr ""
+msgstr "«Э-э... понятно. Даккон, ты можешь задать ему другой вопрос?»"
 
 #: 6933
 msgid "\"Uh... I had another question for you...\""
-msgstr ""
+msgstr "«Э-э... У меня есть другой вопрос...»"
 
 #: 6934
 msgid "\"Uh... that's all I wanted to know. Farewell.\""
-msgstr ""
+msgstr "«Э-э... Это все, что я хотел знать. Прощай»."
 
 #: 6935
 msgid "\"Uh... farewell then.\""
-msgstr ""
+msgstr "«Э-э... Тогда прощай»."
 
 #: 6938
 msgid "Leave the dabus in peace."
-msgstr ""
+msgstr "Оставить дабуса в покое."
 
 #: 6939 6940
 msgid ""
 "Try and strike up a conversation, see if you can translate what the creature "
 "is saying."
 msgstr ""
+"Попробовать наладить общение. Возможно, тебе удастся перевести то, что "
+"говорит существо."
 
 #: 6941
 msgid "Try and speak to it, see if you can understand it."
-msgstr ""
+msgstr "Попробовать поговорить с ним. Возможно, ты сможешь его понять."
 
 #: 6943
 msgid "\"I'm sorry... I can't understand you.\""
-msgstr ""
+msgstr "«Извини... Я не могу понять тебя»."
 
 #: 6949
 msgid "\"Dak'kon, can you translate what it's saying?\""
-msgstr ""
+msgstr "«Даккон, ты можешь перевести мне, что он говорит?»"
 
 #: 6950
 msgid "\"Fall-from-Grace, can you translate what he's saying?\""
-msgstr ""
+msgstr "«Падшая Грация, ты можешь перевести мне, что он говорит?»"
 
 #: 6951
 msgid "\"Never mind. Sorry to disturb you. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Извини за беспокойство. Прощай»."

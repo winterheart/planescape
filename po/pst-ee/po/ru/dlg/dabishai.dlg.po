@@ -1,18 +1,21 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dabishai.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2015-11-22 13:55+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: 58136
+#, fuzzy
 msgid ""
 "You see a red abishai. The creature is reptilian with a snake like-body, "
 "four clawed feet, leathery wings, and a draconian head. The scales covering "
@@ -20,14 +23,19 @@ msgid ""
 "legs, balancing with its prehensile tale. As you approach, its eyes narrow "
 "to slits and it begins to hiss."
 msgstr ""
+"Перед тобой красный абишай. Это существо представляет собой ящера со "
+"змееподобным телом, четырьмя когтистыми лапами, кожистыми крыльями и головой "
+"дракона. Его тело покрывает чешуя тускло-красного оттенка. Существо стоит на "
+"задних ногах, балансируя цепким хвостом. Когда ты приближаешься, его глаза "
+"сужаются в щелки, и оно начинает шипеть."
 
 #: 58137
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."
 
 #: 58138
 msgid "Ignore the creature."
-msgstr ""
+msgstr "Не обращать внимания на существо."
 
 #: 58139
 msgid ""
@@ -36,39 +44,50 @@ msgid ""
 "abishai. After a moment it cocks its head to the side and hisses at you. "
 "\"What want you?\""
 msgstr ""
+"Абишай бросает на тебя пристальный взгляд и шипит на каком-то гортанном "
+"наречии. Услышав ответ откуда-то из-за спины абишая, ты осознаешь, что "
+"говорит он не с тобой. Спустя мгновение, он склоняет голову набок и шипит: "
+"«Что ты хотеть?»"
 
 #: 58140
+#, fuzzy
 msgid "\"I have some questions...\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов...» "
 
 #: 58141
 msgid "\"Nothing, farewell.\""
-msgstr ""
+msgstr "«Ничего, прощай»."
 
 #: 58142
+#, fuzzy
 msgid ""
 "The abishai emits a series of hisses that are soon answered from the unknown "
 "source. \"No... you ssspeak Tek'elach.\" It gestures vaguely behind it. \"He "
 "agree talk you...\""
 msgstr ""
+"Абишай издает ряд шипящий звуков, на которые вскоре получает ответ "
+"неизвестно откуда. «Нет... ты говори ссс Текелач». Он указывает куда-то за "
+"своей спиной. «Он сссогласен говорить ссс тобой...»"
 
 #: 58143
 msgid "\"Why can't you answer my questions?\""
-msgstr ""
+msgstr "«Почему ты не можешь ответить на мои вопросы?»"
 
 #: 58144 58147
 msgid "\"I see. I'll go speak with this Tek'elach then.\""
-msgstr ""
+msgstr "«Понятно. Тогда я поговорю с Текелачем»."
 
 #: 58145 58148
 msgid "\"Never mind. Farewell.\""
-msgstr ""
+msgstr "«Неважно. Прощай»."
 
 #: 58146
 msgid ""
 "The abishai glares at you for a moment before answering. \"Tek'elach want "
 "talk you. Not I. You go.\""
 msgstr ""
+"Прежде чем ответить, абишай некоторое время пристально смотрит на тебя. "
+"«Текелач хотеть говорить ссс тобой. Не я. Иди»."
 
 #: 58149
 msgid ""
@@ -77,14 +96,18 @@ msgid ""
 "you do wrong.\" It displays rows of razor sharp teeth as it grins evilly at "
 "you. \"You understand?\""
 msgstr ""
+"Ты чувствуешь волну жара, исходящую от абишая, когда он наклоняется к тебе и "
+"произносит: «Прояви уважение... следи за собой... я наблюдать. Сделать что-"
+"то не то - я тебя убить». Он злобно скалится, демонстрируя ряд бритвенно-"
+"острых зубов. «Понятно?»"
 
 #: 58150
 msgid "\"Yes, I understand. Farewell.\""
-msgstr ""
+msgstr "«Да, понятно. Прощай»."
 
 #: 58151
 msgid "\"No, I'm stupid. Why don't you explain it to me.\""
-msgstr ""
+msgstr "«Нет, я тупой. Объяснишь поподробнее?»"
 
 #: 58152
 msgid ""
@@ -93,20 +116,25 @@ msgid ""
 "swipe of its claws. \"Understand now? Or want up close, personal explanation?"
 "\""
 msgstr ""
+"Абишай шипит на тебя, потом, не отрывая от тебя взгляда, одним взмахом "
+"когтистой лапы оставляет несколько глубоких борозд на каменной стене рядом с "
+"ним. «Теперь понять? Или хотеть персональное разъяснение?»"
 
 #: 58153
 msgid "\"I understand perfectly. Farewell.\""
-msgstr ""
+msgstr "«Весьма доходчиво. Прощай»."
 
 #: 58154
 msgid ""
 "Attack the abishai: \"Let's see what you can do with a real opponent.\" "
 msgstr ""
+"Атаковать абишая: «Посмотрим, сможешь ли ты справиться с настоящим "
+"противником»."
 
 #: 58155
 msgid "The abishai hisses at you angrily. \"You told talk Tek'elach... go!\""
-msgstr ""
+msgstr "Абишай яростно шипит на тебя. «Говорить с Текелач... иди!»"
 
 #: 58156
 msgid "\"All right. Farewell.\""
-msgstr ""
+msgstr "«Ладно. Прощай»."

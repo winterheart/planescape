@@ -1,16 +1,18 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2011-07-24 16:44+0200\n"
+"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 31493
 msgid ""
@@ -19,33 +21,41 @@ msgid ""
 "touching or grabbing one could be perilous. A placard on the pedestal reads "
 "'Dark Birds of Ocanthus.'"
 msgstr ""
+"Несколько осколков черного кристалла - или льда - кружат в ледяном потоке "
+"ветра, который исходит из богато украшенного основания. Каждый осколок "
+"кажется острым как бритва; было бы рискованно касаться или хватать их. "
+"Табличка на основании гласит «Темные птицы Окантуса»."
 
 #: 31494 31499 31510
 msgid "Leave them be."
-msgstr ""
+msgstr "Оставить осколки в покое."
 
 #: 31495
 msgid "Touch one."
-msgstr ""
+msgstr "Прикоснуться к одному из осколков."
 
 #: 31496 31502
 msgid "Grab one."
-msgstr ""
+msgstr "Схватить один из осколков."
 
 #: 31497 31503 31507 31514 31520
 msgid "Catch one in your Frost-Ale Mug."
-msgstr ""
+msgstr "Словить один из осколков Кружкой ледяного эля."
 
 #: 31498
+#, fuzzy
 msgid ""
 "As you reach out to touch one of the whirling shards, your finger enters the "
 "icy wind that rises from the pedestal. Instantly, a coat of numbing frost "
 "forms around your finger, causing you to momentarily draw back."
 msgstr ""
+"Когда ты пытаешься прикоснуться к одному из кружащих осколков, твой палец "
+"попадает в ледяной поток ветра, идущий из основания. Он моментально "
+"покрывается коркой оцепеняющего льда, от чего ты сразу же одергиваешь его."
 
 #: 31500 31501
 msgid "Place your finger back in and touch one."
-msgstr ""
+msgstr "Вернуть палец назад и прикоснуться к одному из осколков."
 
 #: 31504
 msgid ""
@@ -55,10 +65,15 @@ msgid ""
 "across the galleria floor. A normally trivial wound, in your battered "
 "condition it leads to your death."
 msgstr ""
+"Ты суешь указательный палец в холодный поток ветра. Хотя ты этого еще не "
+"осознаешь, твой палец отмерзает. Когда один из черных осколков попадает в "
+"него, кончик пальца раскалывается с резким *хрум* и разлетается по полу "
+"галереи. Обычно такое ранение незначительно, но в твоем потрепанном "
+"состоянии оно приводит к твоей смерти."
 
 #: 31505 31516
 msgid "Fall into darkness..."
-msgstr ""
+msgstr "Пасть во тьму..."
 
 #: 31506
 msgid ""
@@ -68,27 +83,37 @@ msgid ""
 "the galleria floor. The icy Dark Birds remain in their whirling orbit as you "
 "wait for your fingertip to grow back."
 msgstr ""
+"Ты суешь указательный палец в холодный леденящий поток ветра. Незаметно для "
+"тебя, твой палец отмерзает. Когда один из черных осколков попадает в него, "
+"кончик пальца раскалывается с резким *хрум* и разлетается по полу галереи. "
+"Ледяные Темные птицы продолжают кружиться по своим орбитам, пока ты ждешь, "
+"как твой палец снова отрастет."
 
 #: 31508 31521
 msgid "Leave, hope no one saw any of that."
-msgstr ""
+msgstr "Уйти в надежде на то, что никто ничего не заметил."
 
 #: 31509
+#, fuzzy
 msgid ""
 "As you reach out to grab one of the whirling shards, your fingers enter the "
 "icy wind that rises from the pedestal. Instantly, a coat of numbing frost "
 "forms around them, causing you to momentarily draw back."
 msgstr ""
+"Когда ты пытаешься схватить один из кружащих осколков, твои пальцы попадают "
+"в ледяной поток ветра, идущий из основания. Они моментально покрываются "
+"коркой оцепеняющего льда, от чего ты сразу же одергиваешь руку."
 
 #: 31511
 msgid "Just touch one."
-msgstr ""
+msgstr "Просто прикоснуться к одному из осколков."
 
 #: 31512 31513
 msgid "Place your hand back in and grab one."
-msgstr ""
+msgstr "Вернуть руку назад и схватить один из осколков."
 
 #: 31515
+#, fuzzy
 msgid ""
 "You thrust your hand into the frigid, numbing wind. Unbeknownst to you, your "
 "entire hand freezes solid as you wrap it around one of the Dark Birds. As "
@@ -96,18 +121,28 @@ msgid ""
 "the wrist with a sharp *crack* and goes clattering across the galleria "
 "floor. Already beaten and battered, you collapse, dying."
 msgstr ""
+"Ты суешь руку в холодный поток ветра. Когда ты хватаешь одну из Темных птиц, "
+"незаметно для тебя твоя рука полностью отмерзает. Когда другой черный "
+"осколок попадает в твой кулак, твоя рука с резким *хрум* откалывается по "
+"запястье и с грохотом падает на пол галереи. Уже порядком потрепанный и "
+"избитый, ты падаешь замертво."
 
 #: 31517
+#, fuzzy
 msgid ""
 "You thrust your hand into the frigid, numbing wind. Unbeknownst to you, your "
 "entire hand freezes solid as you wrap it around one of the Dark Birds. As "
 "another of the black shards spins into your fist, your hand breaks off at "
 "the wrist with a sharp *crack* and goes clattering across the galleria floor."
 msgstr ""
+"Ты суешь руку в холодный поток ветра. Когда ты хватаешь одну из Темных птиц, "
+"незаметно для тебя твоя рука полностью отмерзает. Когда другой черный "
+"осколок попадает в твой кулак, твоя рука с резким *хрум* откалывается по "
+"запястье и с грохотом падает на пол галереи."
 
 #: 31518
 msgid "Pick your hand up and stick it back on, quick!"
-msgstr ""
+msgstr "Быстро подобрать руку и воткнуть ее обратно!"
 
 #: 31519
 msgid ""
@@ -117,6 +152,11 @@ msgid ""
 "something that will keep it cold. Eventually, warmth and feeling returns to "
 "your hand as your tissues thaw and regenerate."
 msgstr ""
+"Ты поднимаешь обледеневший кулак и суешь его в кровоточащий обрубок, "
+"замечая, что схваченная тобой Темная птица, бритвенно-острый осколок черного "
+"льда, уже полностью растаяла. Похоже, тебе следует поймать ее чем-то, что "
+"могло бы сохранять ее в холоде. В конце концов, когда твои ткани растают и "
+"восстанавливаются, к твоей руке возвращается тепло и чувствительность."
 
 #: 31522
 msgid ""
@@ -125,7 +165,11 @@ msgid ""
 "the Dark Bird is a razor-sharp sliver of black ice. Only the mug's magical "
 "properties prevent the shard from melting away to nothing."
 msgstr ""
+"Ты «окунаешь» кружку в ледяной поток ветра, идущий из основания, зачерпнув "
+"маленький осколок с легким *дзынь*. Заглянув в кружку, ты видишь, что Темная "
+"птица - это бритвенно-острый кусок черного льда. Только волшебные свойства "
+"кружки не дают осколку растаять."
 
 #: 31523
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."

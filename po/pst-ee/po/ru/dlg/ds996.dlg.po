@@ -1,16 +1,19 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: planescape l10n\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2013-06-17 22:01+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #: 35460
 msgid ""
@@ -19,42 +22,49 @@ msgid ""
 "forehead with some amount of skill; a rougher hand later chiseled \"996\" "
 "onto both its temples."
 msgstr ""
+"Этот скелет довольно стар: кожаные ремешки потрескались и истерлись от "
+"времени. На лбу с особым искусством вырезано слово «ПОКАЙСЯ»; более грубая "
+"рука уже позднее высекла на обоих висках число «996»."
 
 #: 35461 35484
 msgid "\"Pardon me, have you seen any skeletons walking around here?\""
-msgstr ""
+msgstr "«Прошу прощения, ты не видал поблизости других скелетов?»"
 
 #: 35462
 msgid "The skeleton makes no reply."
-msgstr ""
+msgstr "Скелет не реагирует."
 
 #: 35463 35482 35483
 msgid "\"Great talking to you, Bones. Stay healthy.\""
-msgstr ""
+msgstr "«Приятно было поболтать с тобой, Костяшка. Будь здоров»."
 
 #: 35485 35486
 msgid ""
 "\"I have to ask: Why the smock? I mean, it's not like you have anything to "
 "be modest about.\""
 msgstr ""
+"«Один вопрос: зачем комбинезон? То есть, я хочу сказать: не похоже, что у "
+"тебя есть что скрывать»."
 
 #: 35487
 msgid "Use your Stories-Bones-Tell power on the skeleton."
-msgstr ""
+msgstr "Использовать на скелете свою способность «История костей»."
 
 #: 35488 35536
 msgid ""
 "This skeleton makes no reply. It looks like it is too far gone to answer any "
 "of your questions."
 msgstr ""
+"Скелет не реагирует. Кажется, он слишком далек от того, чтобы отвечать на "
+"твои вопросы."
 
 #: 35489 35490 35491 35503 35504 35505 35522 35523 35524 35533 35534 35535
 msgid "Leave the skeleton in peace."
-msgstr ""
+msgstr "Оставить скелет в покое."
 
 #: 35492
 msgid "Examine the skeleton carefully."
-msgstr ""
+msgstr "Внимательно осмотреть скелет."
 
 #: 35493
 msgid ""
@@ -65,22 +75,31 @@ msgid ""
 "service: many of its bones are chipped and its numerous fractures are bound "
 "with sealant and foul-smelling glues."
 msgstr ""
+"Кто-то позаботился о том, чтобы связать кости скелета кожаными ремнями, "
+"обвивающими тело на манер, напоминающий мускулы и сухожилия. Ремни привязаны "
+"к железными скобам, вбитым в суставы скелета. Кажется, этот скелет довольно "
+"долго служил: кости растрескались, многочисленные трещины на них залиты "
+"вонючим клеем."
 
 #: 35494 35516 35517 35518 35525 35526 35527 35528 35529 35530 35531
 msgid "Try and pry out the skeleton's joint bolts."
-msgstr ""
+msgstr "Попробовать вытащить скобы из суставов скелета."
 
 #: 35499
 msgid ""
 "You pull at the iron bolts, but you're not strong enough to pull them out. "
 "They've been hammered in pretty tight."
 msgstr ""
+"Ты тянешь за железные скобы, но тебе не хватает сил, чтобы вытащить их. Они "
+"накрепко забиты."
 
 #: 35500 35501 35502
 msgid ""
 "\"Maybe if I had the right tool, I could get them out... hmmmm. I may be "
 "back, Bones.\""
 msgstr ""
+"«Если бы у меня был подходящий инструмент, я бы смог их вытащить... хммм. Я "
+"еще вернусь, Костяшка»."
 
 #: 35507
 msgid ""
@@ -88,21 +107,26 @@ msgid ""
 "of tugging, you rip the bolts from the joints. The skeleton collapses, some "
 "of its bones still twitching."
 msgstr ""
+"Ты тянешь за железные скобы изо всех сил, и через несколько мгновений "
+"вырываешь их из суставов. Скелет разваливается, некоторые из его костей "
+"продолжают шевелиться."
 
 #: 35508 35511
 msgid "\"Sorry about that, Bones...\""
-msgstr ""
+msgstr "«Прости, Костяшка...»"
 
 #: 35510
 msgid ""
 "Using your prybar, you rip the bolts from the skeleton's joints. The "
 "skeleton collapses, some of its bones still twitching."
 msgstr ""
+"С помощью ломика ты вырываешь скобы из суставов. Скелет разваливается, хотя "
+"некоторые кости продолжают шевелиться."
 
 #: 35519 35520 35521
 msgid "\"Mind if I borrow some of those straps and bolts?\""
-msgstr ""
+msgstr "«Не против, если я возьму немного ремешков и скоб?»"
 
 #: 35532
 msgid "\"How about this skeleton, Morte? Will it do as a body?\""
-msgstr ""
+msgstr "«Как насчет этого скелета, Морт? Пойдет такое тело?»"

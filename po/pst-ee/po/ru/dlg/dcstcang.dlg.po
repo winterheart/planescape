@@ -1,20 +1,22 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: dcstcang.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2010-05-16 02:50+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: 13708
 msgid "Ignore him."
-msgstr ""
+msgstr "Игнорировать его."
 
 #: 13709
 msgid ""
@@ -22,24 +24,29 @@ msgid ""
 "you a cursory glance. After a moment he turns away. \"I don't know you, "
 "berk, and I don't want to know you. Go away and I won't have to hurt you.\""
 msgstr ""
+"Поначалу тебе кажется, что он не слышит тебя, но затем поворачивает голову, "
+"окидывая тебя беглым взглядом. Спустя секунду он отворачивается. «Я не знаю "
+"тебя, пень, и знать не хочу. Уходи, я не хочу причинять тебе вреда»."
 
 #: 13710
 msgid "\"Look, I just need to ask you some questions.\""
-msgstr ""
+msgstr "«Послушай, я просто хочу задать тебе несколько вопросов»."
 
 #: 13711 13715
 msgid ""
 "\"You're threatening the wrong person, fool. Just answer my questions and I "
 "won't have to teach you some manners.\""
 msgstr ""
+"«Ты угрожаешь не тому человеку, идиот. Просто ответь на мои вопросы, и я не "
+"буду учить тебя манерам»."
 
 #: 13712
 msgid "Attack him."
-msgstr ""
+msgstr "Атаковать его."
 
 #: 13713
 msgid "\"Fine. I'll be leaving then.\""
-msgstr ""
+msgstr "«Отлично. Тогда я ухожу»."
 
 #: 13714
 msgid ""
@@ -47,14 +54,17 @@ msgid ""
 "you between clenched teeth. \"Questions? Do I look like the local sage, "
 "berk? Get outta my face before I add a few scars to yours.\""
 msgstr ""
+"Он поворачивается к тебе снова, с лицом, полным гнева. Стиснув зубы, он "
+"отвечает. «Вопросы? Я что, похож на мудреца, пень? Прочь с глаз моих, пока я "
+"не добавил к твоим шрамам еще парочку»."
 
 #: 13716
 msgid "\"Let's see you try.\""
-msgstr ""
+msgstr "«Поглядим на твою попытку»."
 
 #: 13717
 msgid "\"Fine, I'll be leaving then.\""
-msgstr ""
+msgstr "«Отлично, тогда я ухожу»."
 
 #: 13718
 msgid ""
@@ -64,36 +74,44 @@ msgid ""
 "away and turn to fear. \"Uh... Sorry, cutter. What's the dark you're looking "
 "to find?\""
 msgstr ""
+"Он разворачивается, меча яростные молнии. Он уже собрался что-то сказать, "
+"как вдруг неожиданно останавливается и смотрит на тебя более внимательно. За "
+"то время, когда его глаза пробегаются по твоим многочисленным шрамам на "
+"теле, его гнев утихает, превращаясь в страх. «О... Извини, рубака. Что за "
+"темноту ты хочешь развеять?»"
 
 #: 13719 13735
 msgid "\"I'm looking for a deva. I've heard he can be found here.\""
-msgstr ""
+msgstr "«Я ищу одного дэва. Я слышал, что его можно найти здесь»."
 
 #: 13720 13736
 msgid "\"What's the local news?\""
-msgstr ""
+msgstr "«Какие местные новости?»"
 
 #: 13721 13737
 msgid "\"Tell me about Curst.\""
-msgstr ""
+msgstr "«Расскажи мне о Проклятом»."
 
 #: 13722 13738
 msgid "\"Never mind.\""
-msgstr ""
+msgstr "«Неважно»."
 
 #: 13723
 msgid ""
 "He frowns in thought then looks away from you for a moment. \"Wrong gate "
 "town, cutter. Devas don't come this way, at least not that I've heard.\""
 msgstr ""
+"Нахмурившись, он на секунду отворачивается от тебя. «Ошибся привратным "
+"городом, рубака. Дэва сюда не попадают, по крайней мере, я об этом не "
+"слышал»."
 
 #: 13724
 msgid "\"All right. Some other questions then.\""
-msgstr ""
+msgstr "«Хорошо. Тогда у меня есть другие вопросы»."
 
 #: 13725
 msgid "\"Thanks. I'll see you around.\""
-msgstr ""
+msgstr "«Спасибо. Еще увидимся»."
 
 #: 13726
 msgid ""
@@ -101,20 +119,25 @@ msgid ""
 "business. A cutter lives longer and better that way.\" He pauses and looks a "
 "little nervous. \"No offense intended... but you should do the same.\""
 msgstr ""
+"«Не могу сказать. Я стараюсь не вляпываться никуда и держаться от чужих "
+"забот подальше. Это серьезно продлевает жизнь». Он обеспокоенно замолкает. "
+"«Только без обид... но тебе лучше делать то же самое»."
 
 #: 13727
 msgid "\"I'll keep that in mind. Tell me something else though.\""
-msgstr ""
+msgstr "«Я запомню это. Позволь мне спросить о кое-чем еще»."
 
 #: 13728
 msgid ""
 "\"Funny... I don't recall asking you for advice. Another slip like that "
 "could cost you.\""
 msgstr ""
+"«Занятно... Что-то я не помню, что я хотел спросить у тебя совета. Еще один "
+"такой просчет дорого тебе обойдется»."
 
 #: 13729
 msgid "\"Thanks for the advice. I'll be seeing you.\""
-msgstr ""
+msgstr "«Спасибо за совет. Еще увидимся»."
 
 #: 13730
 msgid ""
@@ -123,36 +146,42 @@ msgid ""
 "up in life. The sad dark of the matter is that most berks don't even know "
 "they're captive.\""
 msgstr ""
+"Он хмыкает и озирается по сторонам перед тем, как ответить. «Его назвали "
+"Проклятым не просто так, рубака. Это место - тюрьма для всех бедолаг, "
+"которые набедокурили при жизни. И самое печальное то, что большинство пней "
+"даже не знают, что они пленники»."
 
 #: 13731
 msgid "\"A prison?\""
-msgstr ""
+msgstr "«Тюрьма?»"
 
 #: 13732
 msgid "\"I see. Another question.\""
-msgstr ""
+msgstr "«Теперь понятно. Еще вопрос»."
 
 #: 13733
 msgid "\"Well, thanks for the information.\""
-msgstr ""
+msgstr "«Ладно, спасибо за информацию»."
 
 #: 13734
 msgid "\"Sure. What you want to know?\""
-msgstr ""
+msgstr "«Конечно. Что ты хочешь знать?»"
 
 #: 13739
 msgid ""
 "His face begins to flush again as he fights for control. \"Sorry, won't "
 "happen again. You, uh, want something else?\""
 msgstr ""
+"Пытаясь справиться с собой, подавляет новые вспышки гнева. «Извини, больше "
+"не повторится. Ты, эээ, еще что-то хочешь?»"
 
 #: 13740
 msgid "\"Yeah, I have some questions for you.\""
-msgstr ""
+msgstr "«Ага, у меня есть несколько вопросов к тебе»."
 
 #: 13741
 msgid "\"No, that will be all.\""
-msgstr ""
+msgstr "«Нет, это все»."
 
 #: 13742
 msgid ""
@@ -162,21 +191,28 @@ msgid ""
 "do so, you don't get past the city gates.\" He pauses and looks around "
 "again. \"I can't say anything more.\""
 msgstr ""
+"Оглянувшись по сторонам, он наклоняется к тебе ближе. «Да, сперва так не "
+"скажешь, но Проклятый - настоящая тюрьма. Попробуй уйти отсюда и ты поймешь, "
+"что я имею в виду. Ты не сможешь пересечь городские ворота, если у тебя нет "
+"на это серьезных причин». Снова оглядевшись, он умолкает. «Больше я ничего "
+"не могу сказать»."
 
 #: 13743
 msgid "\"Hmm. Let me ask you something else.\""
-msgstr ""
+msgstr "«Хмм. Позволь мне спросить еще кое о чем»."
 
 #: 13744
 msgid "\"Thanks. I'll be seeing you.\""
-msgstr ""
+msgstr "«Спасибо. Еще увидимся»."
 
 #: 3172
 msgid ""
 "You see a young man with a scowling face. He is mumbling to himself and "
 "appears to be preoccupied."
 msgstr ""
+"Ты видишь молодого человека с рассерженным лицом. Он что-то бормочет себе "
+"под нос, похоже, он чем-то озабочен."
 
 #: 3173
 msgid "\"Greetings.\""
-msgstr ""
+msgstr "«Приветствую»."

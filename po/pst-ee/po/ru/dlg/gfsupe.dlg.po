@@ -1,83 +1,95 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-12 06:07 +0500\n"
-"PO-Revision-Date: 2017-04-12 06:07 +0500\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: gfsupe.tra\n"
+"POT-Creation-Date: 2017-04-12 06:55 +0500\n"
+"PO-Revision-Date: 2014-05-09 00:52+0600\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
 #: 5336
 msgid "\"Guards! Guards! Stop this man! STOP HIM!\""
-msgstr ""
+msgstr "«Стража! Стража! Задержите этого человека! ХВАТАЙТЕ ЕГО!»"
 
 #: 5337
 msgid "Done."
-msgstr ""
+msgstr "Готово."
 
 #: 5338
 msgid "\"Leave, berk. Come back some other time and maybe we'll talk.\""
 msgstr ""
+"«Проваливай, пень. Приходи в другой раз и, может быть, мы еще поговорим»."
 
 #: 5339
 msgid "\"I just had some questions...\""
-msgstr ""
+msgstr "«У меня только парочка вопросов...»"
 
 #: 5340
 msgid ""
 "\"I... said... LEAVE. Come back some other time when you've had a chance to "
 "think about following directions better.\""
 msgstr ""
+"«Я... сказала... ПРОВАЛИВАЙ. Вернешься в другой раз, когда как следует "
+"обдумаешь свою позицию на счет выполнения приказов»."
 
 #: 5341 5345 5353 5355 5358 5360 5502
 msgid "Leave."
-msgstr ""
+msgstr "Уйти."
 
 #: 5342
+#, fuzzy
 msgid ""
 "She smiles sarcastically at you. \"Thank you ever so much for consenting to "
 "fix our machinery. Your concern for the Foundry's welfare is heartening and "
 "uplifting. Berk.\" She spits on the ground at your feet and turns away."
 msgstr ""
+"Она ухмыляется тебе саркастически: «Спасибо тебе большое за то, что "
+"соизволил починить наши машины. Твоя забота о благополучии Литейной ну "
+"просто радует и воодушевляет. Пень». Она сплевывает на землю у твоих ног и "
+"отворачивается."
 
 #: 5343
 msgid "Attack her."
-msgstr ""
+msgstr "Напасть на нее."
 
 #: 5344 5467
 msgid "\"I had some questions for you.\""
-msgstr ""
+msgstr "«У меня есть вопросы к тебе»."
 
 #: 5346
 msgid ""
 "\"What? Make it quick, sod... I've got a short temper for the likes of you, "
 "and I've got a lot of work to do, thanks to you.\""
 msgstr ""
+"«Чего? Парень, давай быстрее... На таких, как ты, у меня терпения мало, да и "
+"к тому же у меня еще куча работы благодаря тебе»."
 
 #: 5347
 msgid "\"I've reconsidered. I'll help fix the gears.\""
-msgstr ""
+msgstr "«Я передумал. Я помогу починить механизм»."
 
 #: 5348
 msgid "\"Where's the clerk's office again?\""
-msgstr ""
+msgstr "«Еще раз, где контора клерка?»"
 
 #: 5349
 msgid "\"How do I join the Godsmen?\""
-msgstr ""
+msgstr "«Как мне присоединиться к боголюдям?»"
 
 #: 5350
 msgid "\"How do I make this up to you?\""
-msgstr ""
+msgstr "«Как мне загладить свою вину?»"
 
 #: 5351
 msgid "\"Forget it. I was leaving anyway.\""
-msgstr ""
+msgstr "«Забудь. В любом случае, я уже ухожу»."
 
 #: 5352
 msgid ""
@@ -86,12 +98,19 @@ msgid ""
 "don't. And I don't like you. We've already got someone else working on "
 "getting them working again. So pike it.\" She turns and walks away."
 msgstr ""
+"«О, так значит, если тебе что-то нужно, ты вдруг изъявляешь желание помочь? "
+"Может, все твои испытания как раз и проверяют уровень эгоизма, пень, но это "
+"вовсе не означает, что они мне должны нравиться. Вовсе нет. И ты мне не "
+"нравишься. У нас уже есть кое-кто другой, кто занимается его починкой. Так "
+"что забей». Она отворачивается и уходит."
 
 #: 5354
 msgid ""
 "\"Ask just about anyone else, berk, or figure it out yourself.\" She turns "
 "and walks away."
 msgstr ""
+"«Просто спроси еще кого-нибудь, пень, или сам выясни». Она отворачивается и "
+"уходит."
 
 #: 5356
 msgid ""
@@ -100,57 +119,70 @@ msgid ""
 "through the door on the rightmost wall of the Foundry and in the meeting "
 "hall. Look for Keldor of Durian there. He can help you.\""
 msgstr ""
+"Минуту она будто бы решается, как бы взвешивая, что лучше: послать тебя куда "
+"подальше или завербовать нового члена в ряды своей фракции. Неохотно она "
+"произносит: «Иди через дверь самой правой стены Литейной в зал собраний. "
+"Найди там Кельдора Дурианского. Он может тебе помочь»."
 
 #: 5357
 msgid "\"Thanks. I had another question.\""
-msgstr ""
+msgstr "«Спасибо. У меня есть другой вопрос»."
 
 #: 5359
 msgid ""
 "\"Is there any way you can make it up to me? Ha! I think not, sod. Get mazed."
 "\" She turns and walks away."
 msgstr ""
+"«Можешь ли ты загладить свою вину? Ха! Я так не думаю, парень. Шел бы ты в "
+"лабиринты». Она отворачивается и уходит."
 
 #: 5361
 msgid ""
 "\"Greetings, seeker. What can I help you with? Please keep it short... we do "
 "have a schedule to maintain.\""
 msgstr ""
+"«Приветствую, искатель. Чем я могу тебе помочь? Только, пожалуйста, "
+"побыстрее... нам еще нужно утвердить график»."
 
 #: 5362 5396
 msgid "\"I need to pick up something from the clerk. Where is he?\""
-msgstr ""
+msgstr "«Мне нужно кое-что забрать у клерка. Где он?»"
 
 #: 5363 5364 5366 5397 5398 5399 5400 5403
 msgid "\"I need to get in to that guarded room back there.\""
-msgstr ""
+msgstr "«Мне нужно попасть в охраняемую комнату в том конце»."
 
 #: 5367 5368 5401 5402 5404 5405
 msgid ""
 "\"I need to get in to that guarded room back there, and I lost my token.\""
 msgstr ""
+"«Мне нужно попасть в охраняемую комнату в том конце, но я потерял свой "
+"символ»."
 
 #: 5372 5373 5406 5407
 msgid "\"I need to use the forge.\""
-msgstr ""
+msgstr "«Мне нужно воспользоваться кузницей»."
 
 #: 5374 5415
 msgid "\"Where can I get those items to work the forge?\""
-msgstr ""
+msgstr "«Где мне найти вещи, с которыми работают в кузнице?»"
 
 #: 5375 5416
+#, fuzzy
 msgid "\"I guess I don't need anything. Farewell.\""
-msgstr ""
+msgstr "«Думаю, это все. Прощай»."
 
 #: 5376
 msgid ""
 "\"You see that room down there with the desk in it? He sits behind that "
 "desk. You should be able to get your item there.\""
 msgstr ""
+"«Видишь вон там комнату со столом? Он сидит за этим столом. Там ты сможешь "
+"получить то, что тебе нужно»."
 
 #: 5377 5380 5418 5421 5438 5482 5500
 msgid "\"Thanks. I had other questions.\""
-msgstr ""
+msgstr "«Спасибо. У меня есть другие вопросы»."
 
 #: 5378
 msgid ""
@@ -158,165 +190,187 @@ msgid ""
 "slips a golden medallion from around her neck and passes it furtively to "
 "you. \"Don't tell anyone where you got this,\" she hisses."
 msgstr ""
+"Она некоторое время оглядывается по сторонам, чтобы убедиться, что никто за "
+"ней не наблюдает, после чего снимает с шеи золотой медальон и украдкой дает "
+"его тебе. «Никому не говори о том, где ты достал это», - говорит она "
+"сдавленным голосом."
 
 #: 5379
 msgid "\"Thanks. Bye.\""
-msgstr ""
+msgstr "«Спасибо. Пока»."
 
 #: 5381 5388 5439 5483 5501
 msgid "\"Thanks. Farewell.\""
-msgstr ""
+msgstr "«Спасибо. Прощай»."
 
 #: 5382
 msgid ""
 "\"I'd love to help you, but only the real high-ups can authorize that. You'd "
 "have to speak to Keldor about that.\""
 msgstr ""
+"«Я бы хотела тебе помочь, но разрешить такое может только самое высшее "
+"начальство. Тебе следует поговорить с Кельдором»."
 
 #: 5383 5447
 msgid "\"Fine. I had other questions.\""
-msgstr ""
+msgstr "«Отлично. У меня есть другие вопросы»."
 
 #: 5384
 msgid "\"Thanks for nothing. Bye.\""
-msgstr ""
+msgstr "«Спасибо ни за что. Пока»."
 
 #: 5385
 msgid ""
 "\"Certainly. Just make sure you have the proper items for it: Protection "
 "from the flames, tongs, hammer, and, of course, your iron ore.\""
 msgstr ""
+"«Конечно. Только убедись, что у тебя имеются все необходимые для этого вещи: "
+"защита от пламени, щипцы, молот, и, конечно же, железная руда»."
 
 #: 5386
 msgid "\"Right. I had other questions.\""
-msgstr ""
+msgstr "«Ладно. У меня есть другие вопросы»."
 
 #: 5387
 msgid "\"Where would I get those items?\""
-msgstr ""
+msgstr "«Где мне найти эти вещи?»"
 
 #: 5389
 msgid ""
 "\"I'm afraid we need to allow our other members a chance at the forge. "
 "You've already monopolized it long enough, friend.\""
 msgstr ""
+"«Боюсь, что мы должны дать другим шанс воспользоваться кузницей. Ты уже и "
+"так долго ее занимаешь, дружище»."
 
 #: 5390
 msgid "\"Fine. I had other questions, then.\""
-msgstr ""
+msgstr "«Понятно. У меня есть другие вопросы»."
 
 #: 5391 5487
 msgid "\"Fine. Farewell.\""
-msgstr ""
+msgstr "«Отлично. Прощай»."
 
 #: 5392
 msgid ""
 "\"I would love to help you, but I seem to have mislaid the token that would "
 "enable my entrance there. My apologies, seeker.\""
 msgstr ""
+"«Я бы хотела тебе помочь, но я, кажется, потеряла символ, который разрешал "
+"мне входить туда. Прошу прощения, ищущий»."
 
 #: 5393
 msgid "\"That's all right. I had other questions.\""
-msgstr ""
+msgstr "«Это ничего. У меня есть другие вопросы»."
 
 #: 5394
 msgid "\"Oh well. So long.\""
-msgstr ""
+msgstr "«Ну ладно. Пока»."
 
 #: 5395
 msgid "\"More questions? What are they?\""
-msgstr ""
+msgstr "«Еще вопросы? И какие же?»"
 
 #: 5408 5468 5471
 msgid ""
 "\"Under Keldor's authority, I'm investigating the murder that occurred here. "
 "What can you tell me about it?\""
 msgstr ""
+"«По поручению Кельдора я расследую случившееся здесь убийство. Что ты можешь "
+"о нем рассказать?»"
 
 #: 5409 5472
 msgid "\"I'm looking for the way out.\""
-msgstr ""
+msgstr "«Я ищу выход отсюда»."
 
 #: 5410 5473
 msgid "\"I'm looking for the pickup office. I have an item waiting for me.\""
-msgstr ""
+msgstr "«Я ищу контору по приему заказов. Там меня ждет одна вещь»."
 
 #: 5411 5474
 msgid "\"I'd like a tour.\""
-msgstr ""
+msgstr "«Я хотел бы здесь осмотреться»."
 
 #: 5412 5475
 msgid "\"Who are you?\""
-msgstr ""
+msgstr "«Кто ты?»"
 
 #: 5413 5476
 msgid "\"What's going on here?\""
-msgstr ""
+msgstr "«Что здесь происходит?»"
 
 #: 5414 5477
 msgid "\"What exactly do the Godsmen stand for?\""
-msgstr ""
+msgstr "«Что конкретно отстаивают боголюди?»"
 
 #: 5417
 msgid ""
 "\"Then it's a good thing I still have mine. Take it, but don't tell anyone I "
 "gave it to you, all right? Good luck.\""
 msgstr ""
+"«Тогда хорошо, что у меня еще свой сохранился. Держи, но никому не "
+"рассказывай, что это я тебе его дала, ладно? Удачи»."
 
 #: 5419 5422 5425
 msgid "\"Thank you. Farewell.\""
-msgstr ""
+msgstr "«Спасибо. Прощай»."
 
 #: 5420
 msgid ""
 "\"I don't have one either, anymore. I'm sorry. You'll have to find another "
 "way in.\""
 msgstr ""
+"«У меня его тоже больше нет. Извини. Тебе придется найти другой способ "
+"попасть туда»."
 
 #: 5423
 msgid ""
 "\"If you can't find them lying around somewhere, then you'll have to buy "
 "them from the clerk... for a nominal price, of course.\""
 msgstr ""
+"«Если не найдешь их где-нибудь лежащими без дела, тогда придется купить их у "
+"клерка... конечно же, по номинальной цене»."
 
 #: 5424
 msgid "\"I see. I had other questions.\""
-msgstr ""
+msgstr "«Понятно. У меня есть другие вопросы...»"
 
 #: 5426
 msgid ""
 "\"Well? What are you waiting for? Get to forging! We can't keep leaving "
 "forges stoked up while you dilly-dally.\""
 msgstr ""
+"«Ну? Чего ты там ждешь? Иди в кузницу! Мы не можем поддерживать огонь в "
+"покинутых горнах, пока ты там прохлаждаешься»."
 
 #: 5427
 msgid "\"Well, I had some questions first...\""
-msgstr ""
+msgstr "«Ну, сперва у меня пару вопросов...»"
 
 #: 5428
 msgid "\"Where can I find those items for the forge again?\""
-msgstr ""
+msgstr "«Еще раз, где мне достать те вещи для кузницы?»"
 
 #: 5429
 msgid "\"All right, all right. I'm going.\""
-msgstr ""
+msgstr "«Ну хорошо, хорошо... Я уже иду»."
 
 #: 5430
 msgid ""
 "\"I've already told you everything I know! What more do you want from me?\""
-msgstr ""
+msgstr "«Я уже сказала тебе все, что знаю! Чего еще тебе от меня надо?»"
 
 #: 5431
 msgid "\"I want you to go over your story again... slowly.\""
-msgstr ""
+msgstr "«Я хочу, чтобы ты еще раз повторила свой рассказ... медленно»."
 
 #: 5432 5448 64147
 msgid "\"I had other questions.\""
-msgstr ""
+msgstr "«У меня есть другие вопросы»."
 
 #: 5433
 msgid "\"Nothing. So long.\""
-msgstr ""
+msgstr "«Ничего. Пока»."
 
 #: 5434
 msgid ""
@@ -324,18 +378,21 @@ msgid ""
 "late, when I heard the sound of a scuffle. When I came out, I saw a shadowy "
 "figure slip out the door into the meeting hall, and I raised the alarm.\""
 msgstr ""
+"«Ты хочешь знать, что я видела в ночь убийства? Значит так... я работала "
+"поздно ночью, когда вдруг услышала шум драки. Когда я вышла, то увидела "
+"темную фигуру, бегущую через дверь в зал собраний, и подняла тревогу»."
 
 #: 5435
 msgid "\"Do you have any other details?\""
-msgstr ""
+msgstr "«Тебе известны еще какие-нибудь детали?»"
 
 #: 5436
 msgid "\"That's it?\""
-msgstr ""
+msgstr "«И все?»"
 
 #: 5437 5441
 msgid "\"How do I know you didn't do it?\""
-msgstr ""
+msgstr "«Откуда мне знать, что это не ты сделала?»"
 
 #: 5440
 msgid ""
@@ -343,14 +400,17 @@ msgid ""
 "were Thildon, Saros, and Bedai-Lihn. The three of them have dramatically "
 "different builds, but in the haze of the foundry, I couldn't see clearly.\""
 msgstr ""
+"«Я знаю лишь трех людей, имеющих доступ к зданию в ту ночь. Это Тильдон, "
+"Сарос и Бедай-Линн. У них совершенно разное телосложение, но в дыму литейной "
+"я не смогла как следует разглядеть убийцу»."
 
 #: 5442
 msgid "\"So they're the only three suspects? It seems too pat.\""
-msgstr ""
+msgstr "«Значит, подозреваемых всего трое? Выглядит слишком просто»."
 
 #: 5443
 msgid "\"All right. Where can I find Thildon?\""
-msgstr ""
+msgstr "«Ладно. Где мне найти Тильдона?»"
 
 #: 5444
 msgid ""
@@ -358,46 +418,53 @@ msgid ""
 "from me. I have nothing to hide. Apparently Thildon, Saros, and Bedai-Lihn "
 "do, though, because they wouldn't go under Keldor's spell.\" "
 msgstr ""
+"«У меня алиби. Не говоря уже о том, что Кельдор уже выяснил у меня правду. "
+"Мне нечего скрывать. А вот у Тильдона, Сароса и Бедай-Лин, по всей "
+"видимости, есть, хотя бы потому, что они не желают быть проверенными чарами "
+"Кельдора»."
 
 #: 5445
 msgid "\"Fine. Where can I find Saros?\""
-msgstr ""
+msgstr "«Отлично. Где мне найти Сароса?»"
 
 #: 5446
 msgid "\"How convenient. Where can I find Bedai-Lihn?\""
-msgstr ""
+msgstr "«Как удобно. Где мне найти Бедай-Линн?»"
 
 #: 5449
 msgid "\"All right. I have other questions.\""
-msgstr ""
+msgstr "«Хорошо. У меня есть другие вопросы»."
 
 #: 5450 5458 5461
 msgid "\"Where can I find Thildon?\""
-msgstr ""
+msgstr "«Где мне найти Тильдона?»"
 
 #: 5451 5455 5462
 msgid "\"Where can I find Saros?\""
-msgstr ""
+msgstr "«Где мне найти Сароса?»"
 
 #: 5452 5456 5459
 msgid "\"Where can I find Bedai-Lihn?\""
-msgstr ""
+msgstr "«Где мне найти Бедай-Линн?»"
 
 #: 5453
 msgid "\"Thanks. That should help. Farewell.\""
-msgstr ""
+msgstr "«Спасибо. Этого будет достаточно. Прощай»."
 
 #: 5454
 msgid ""
 "\"He's usually in between the main foundry here and the experimental chamber "
 "in back. You shouldn't have trouble finding him.\""
 msgstr ""
+"«Обычно он либо в главном зале литейной, либо в комнате для экспериментов "
+"позади. Тебе не составит труда его найти»."
 
 #: 5457
 msgid ""
 "\"He usually remains in the main meeting hall. You shouldn't be able to miss "
 "him.\""
 msgstr ""
+"«Обычно он находится в главном зале собраний. Ты не сможешь его пропустить»."
 
 #: 5460
 msgid ""
@@ -405,6 +472,9 @@ msgid ""
 "engineers, and so she has the run of the place. You'll know her when you see "
 "her.\""
 msgstr ""
+"«Ее можно найти в одном из залов Литейной. Она - один из наших главных "
+"инженеров, и потому должна проводить регулярный обход. Ты ее узнаешь, когда "
+"увидишь»."
 
 #: 5463
 msgid ""
@@ -412,24 +482,29 @@ msgid ""
 "without you, but it would have taken far longer. You have our gratitude. "
 "What else can I do for you?\""
 msgstr ""
+"«Спасибо тебе за помощь с механизмом. Мы могли бы починить его и без тебя, "
+"но это заняло бы намного больше времени. Мы благодарны тебе. Что еще я могу "
+"для тебя сделать?»"
 
 #: 5464
 msgid "\"I had some questions.\""
-msgstr ""
+msgstr "«У меня есть несколько вопросов»."
 
 #: 5465
 msgid "\"Well, not much, actually. Farewell.\""
-msgstr ""
+msgstr "«Ну, вообще-то, больше ничего. Прощай»."
 
 #: 5466
 msgid ""
 "\"You again? What do you want now? My apologies for my impatience, but we "
 "are on a schedule here.\""
 msgstr ""
+"«Снова ты? Чего тебе на этот раз? Прошу извинить за мою раздражительность, "
+"но у нас здесь график»."
 
 #: 5469
 msgid "\"Nothing, right now. I'll be back.\""
-msgstr ""
+msgstr "«Пока ничего. Я вернусь»."
 
 #: 5470
 msgid ""
@@ -437,39 +512,47 @@ msgid ""
 "sharply back on her skull. She smells faintly of sulfur, even over the reek "
 "of the Foundry's fires. \"Greetings. What can I do for you?\""
 msgstr ""
+"Ты видишь невысокую женщину с небольшими рожками на лбу и загнутыми назад "
+"ушами. Она слегка отдает серой, даже на фоне зловонного жара Литейной. "
+"«Приветствую. Чем я могу тебе помочь?»"
 
 #: 5478
 msgid "\"Nothing, thanks. Farewell.\""
-msgstr ""
+msgstr "«Ничего, спасибо. Прощай»."
 
 #: 5479
 msgid ""
 "\"Look back that way. You see the long tunnel there? Simply walk through it "
 "and you'll find yourself at the main gate.\""
 msgstr ""
+"«Обернись сюда. Видишь этот длинный тоннель? Просто пройди через него и "
+"окажешься у главных ворот»."
 
 #: 5480
 msgid "\"Thank you.\""
-msgstr ""
+msgstr "«Спасибо»."
 
 #: 5481
 msgid ""
 "\"It's that office with the desk. He should be sitting right behind it.\""
-msgstr ""
+msgstr "«Это вон та контора со столом. Он должен сидеть прямо за ним»."
 
 #: 5484
 msgid ""
 "\"Ordinarily, there's nothing I'd like better. Sadly, right now we're a "
 "little busy. Come back in a year or so, and I'll be happy to provide one.\""
 msgstr ""
+"«Обычно я бы и сама была не против. Но, к сожалению, в данный момент мы "
+"немного заняты. Возвращайся через год или около того, и я с радостью проведу "
+"тебе экскурсию»."
 
 #: 5485
 msgid "\"What's going on?\""
-msgstr ""
+msgstr "«А что здесь происходит?»"
 
 #: 5486
 msgid "\"All right. I had other questions.\""
-msgstr ""
+msgstr "«Хорошо. У меня есть другие вопросы»."
 
 #: 5488
 msgid ""
@@ -479,20 +562,27 @@ msgid ""
 "contract we're working on, and we've been sworn to secrecy, so most of the "
 "work area is off-limits. My apologies.\""
 msgstr ""
+"«Я - Алисса Тилд, бригадир этого зала. Это главный литейный зал в Великой "
+"Литейной, где ведется большинство наших текущих публичных работ. Литейная, "
+"конечно же, больше него, но сейчас мы работаем над крупным заказом, и мы "
+"поклялись держать его в секрете, так что большинство рабочих зон закрыты для "
+"посторонних. Приношу свои извинения»."
 
 #: 5489
 msgid "\"I understand. I had some other questions.\""
-msgstr ""
+msgstr "«Понимаю. У меня есть другие вопросы»."
 
 #: 5490
+#, fuzzy
 msgid "\"Off-limits? Ridiculous! Farewell!\""
-msgstr ""
+msgstr "«Закрыты для посторонних? Это же смешно! Прощай!»"
 
 #: 5491
 msgid "\"I see. Thanks for your time.\""
-msgstr ""
+msgstr "«Понятно. Спасибо, что уделила время»."
 
 #: 5492
+#, fuzzy
 msgid ""
 "\"We've taken a huge - and very, very secret - contract, one that is taking "
 "up practically all our resources. We maintain a smaller operation for the "
@@ -500,14 +590,19 @@ msgid ""
 "to fulfilling our contract. Don't bother asking about it, because I won't "
 "tell you.\""
 msgstr ""
+"«Мы получили большой и очень, очень секретный заказ, который занимает "
+"практически все наши ресурсы. Мы выполняем и меньшие заказы на повседневные "
+"предметы, но в данный момент Литейная целиком брошена на выполнение нашего "
+"заказа. Не надоедай вопросами о нем, ведь я все равно ничего тебе не "
+"расскажу»."
 
 #: 5493
 msgid "\"You seem very firm about this. Very well. I had other questions.\""
-msgstr ""
+msgstr "«Кажется, в этом ты непоколебима. Отлично. У меня другие вопросы»."
 
 #: 5494
 msgid "\"You seem firm about this. Farewell.\""
-msgstr ""
+msgstr "«Кажется, в этом ты непоколебима. Прощай»."
 
 #: 5495
 msgid ""
@@ -518,41 +613,55 @@ msgid ""
 "understanding of everything. We seek the truth behind the multiverse, and "
 "it's apparent to us that ours is the right way.\""
 msgstr ""
+"«Это одновременно и общинная, и индивидуалистическая фракция, и есть много "
+"вариаций на тему, в зависимости от кого, кто говорит, но главная ее суть в "
+"том, что жизнь - да что там, все существующее - является чем-то типа "
+"испытания. Все происходящие вещи испытывают нас, и то, как мы реагируем, "
+"определяет, насколько близки мы к пониманию всего сущего. Мы ищем истину "
+"мультивселенной, и для нас очевидно, что мы на правильном пути»."
 
 #: 5496
 msgid "\"I... see. I had other questions.\""
-msgstr ""
+msgstr "«Понятно... У меня есть другие вопросы»."
 
 #: 5497
 msgid "\"How do I join?\""
-msgstr ""
+msgstr "«Как мне к вам присоединиться?»"
 
 #: 5498
 msgid "\"Hm. Thank you for your time.\""
-msgstr ""
+msgstr "«Хм. Спасибо, что уделила мне время»."
 
 #: 5499
 msgid ""
 "\"Go speak to Keldor of Durian, in the meeting hall, through the door on the "
 "right wall.\""
 msgstr ""
+"«Сходи поговори с Кельдором Дурианским. Он в зале собраний, что за дверью на "
+"правой стене»."
 
 #: 64145
 msgid "\"I had other questions...\""
-msgstr ""
+msgstr "«У меня есть другие вопросы...»"
 
 #: 64146
 msgid "\"I'll check with him. You haven't heard the last from me. Farewell.\""
-msgstr ""
+msgstr "«Я его проверю. Но разговор еще не окончен. Счастливо»."
 
 #: 64148
 msgid "\"I'll make sure of that. Farewell.\""
-msgstr ""
+msgstr "«Я позабочусь об этом. Счастливо»."
 
 #: 64149
 msgid "\"I'd better. I have other questions.\""
-msgstr ""
+msgstr "«С удовольствием. У меня другие вопросы»."
 
 #: 64150
 msgid "\"I'd better. Farewell.\""
-msgstr ""
+msgstr "«С удовольствием. Прощай»."
+
+#~ msgid "\"I need to get into that guarded room back there.\""
+#~ msgstr "«Мне нужно попасть в охраняемую комнату в том конце»."
+
+#~ msgid "\"Thanks. Goodbye.\""
+#~ msgstr "«Спасибо. Прощай»."
