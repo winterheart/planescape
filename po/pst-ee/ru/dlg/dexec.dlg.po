@@ -1,21 +1,20 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dexec.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-01-03 22:03+0600\n"
+"PO-Revision-Date: 2017-04-13 18:03+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 57394
-#, fuzzy
 msgid ""
 "This hulking man appears wholly apathetic to the situation around him. He "
 "yawns as you approach, picking at his dirt - or blood - caked fingernails."
@@ -25,7 +24,6 @@ msgstr ""
 "кровью... ногтях."
 
 #: 57395 57396 57397
-#, fuzzy
 msgid ""
 "\"That man's just a scapegoat. If you execute him, it'll only add to the "
 "chaos that threw this town into Carceri in the first place. We have to put "
@@ -38,7 +36,6 @@ msgstr ""
 "*всех* не убили»."
 
 #: 57398
-#, fuzzy
 msgid ""
 "\"You can't execute that man - he's just a scapegoat. It's *wrong.* This "
 "sort of thing's why Curst slid into Carceri... and it's what we need to stop "
@@ -50,7 +47,6 @@ msgstr ""
 "Внешние земли»."
 
 #: 57399
-#, fuzzy
 msgid "\"Stop. I won't let you execute this man.\""
 msgstr "«Стой. Я не позволю тебе казнить этого человека»."
 
@@ -75,7 +71,6 @@ msgid "Leave."
 msgstr "Уйти."
 
 #: 57404
-#, fuzzy
 msgid ""
 "He looks up from his nails for a moment. \"If the judge says to kill this "
 "man, I'm killin' this man... whether I got to go through you to do it is up "
@@ -93,3 +88,4 @@ msgid ""
 msgstr ""
 "Палач, с руками, заляпанными кровью, бросает на тебя скучающий взгляд. "
 "«Теперь все идет по плану, рубака. Словами ты уже ничего не изменишь. Уходи»."
+

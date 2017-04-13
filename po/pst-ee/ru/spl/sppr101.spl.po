@@ -1,21 +1,20 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2010-05-18 20:48+0600\n"
+"PO-Revision-Date: 2017-04-13 13:47+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 51299
-#, fuzzy
 msgid ""
 "BLESSING\n"
 "Range: 180 feet\n"
@@ -33,14 +32,15 @@ msgstr ""
 "Дистанция: 180 футов\n"
 "Длительность: 30 секунд\n"
 "Скорость: 1\n"
-"Область действия: 50-футовый куб\n"
+"Область действия: круг радиусом в 70 футов\n"
 "Спасбросок: нет\n"
 "\n"
 "Благо для спутников, дарующее силу, в которой они нуждаются.\n"
 "\n"
 "Благословение дает +1 к попаданию и +1 ко всем спасброскам для всех "
-"дружественных существ в радиусе 50 футов от точки наложения."
+"дружественных существ в радиусе 70 футов от точки наложения."
 
 #: 8820
 msgid "Blessing"
 msgstr "Благословение"
+

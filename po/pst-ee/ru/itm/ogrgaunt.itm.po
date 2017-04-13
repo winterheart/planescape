@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-01-17 00:40+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-13 23:50+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 38
 msgid "Spiked Gauntlets"
@@ -23,7 +23,6 @@ msgid "Spiked Gauntlets of Ogre Power"
 msgstr "Шипастые рукавицы силы огра"
 
 #: 43
-#, fuzzy
 msgid ""
 "SPIKED GAUNTLETS\n"
 "Damage: 4-6 Crushing\n"
@@ -47,10 +46,9 @@ msgstr ""
 "\n"
 "Из костяшек этих металлических рукавиц торчат гребни крупных черных шипов, "
 "позволяющие при ударе продырявить кого угодно. Края рукавиц охвачены "
-"скобами, как бы для того, чтобы защитить их от соскальзывания при ношении. "
+"скобами для защиты от соскальзывания при ношении."
 
 #: 44
-#, fuzzy
 msgid ""
 "SPIKED GAUNTLETS OF OGRE POWER\n"
 "Damage: 4-6 Crushing\n"
@@ -83,10 +81,11 @@ msgstr ""
 "\n"
 "Из костяшек этих металлических рукавиц торчат гребни крупных черных шипов, "
 "позволяющие при ударе продырявить кого угодно. Края рукавиц охвачены "
-"скобами, как бы для того, чтобы защитить их от соскальзывания при ношении.\n"
+"скобами для защиты от соскальзывания при ношении.\n"
 "\n"
 "Эти латные рукавицы несут в себе заклятие, позволяющее наносить противникам "
 "удары с силой десятерых мужчин. Шипы на костяшках попросту увеличивают "
 "повреждения: любая жертва, чьи кости не были раздроблены первой атакой, "
 "будет медленно истекать кровью из рваных ран, нанесенных шипами, аж до самой "
 "смерти.\n"
+

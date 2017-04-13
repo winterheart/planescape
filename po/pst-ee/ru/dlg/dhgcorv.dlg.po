@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dhgcorv.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 02:29+0600\n"
+"PO-Revision-Date: 2017-04-13 20:18+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 24718
 msgid "\"I wanted to talk to you about the merchant Zac.\""
@@ -178,7 +178,6 @@ msgstr ""
 "вопросы их представителям». Он улыбается, потом снова смотрит по сторонам."
 
 #: 37307
-#, fuzzy
 msgid ""
 "He turns his gaze on you and frowns. \"I would counsel you against "
 "disturbing Lothar, citizen. I doubt you really want to find him.\""
@@ -253,7 +252,6 @@ msgstr ""
 "похоже на проделки Лотара, Повелителя Костей»."
 
 #: 37322
-#, fuzzy
 msgid "\"Where can I find this 'Lothar'?\""
 msgstr "«Где я могу найти этого 'Лотара'?»"
 
@@ -383,7 +381,6 @@ msgid "\"You seem preoccupied. What are you looking at?\""
 msgstr "«Кажется, ты чем-то обеспокоен. На что ты смотришь?»"
 
 #: 37357
-#, fuzzy
 msgid ""
 "You see a Harmonium guard. He looks very distraught and barely in control of "
 "himself. \"Forgive me, citizen. I cannot speak with you at this time... I've "
@@ -398,7 +395,6 @@ msgid "Leave."
 msgstr "Уйти."
 
 #: 37359
-#, fuzzy
 msgid ""
 "You see Corvus, the Harmonium guard. He looks very distraught and barely in "
 "control of himself. \"Forgive me, citizen. I cannot speak with you at this "
@@ -521,7 +517,6 @@ msgstr ""
 "тем, как остаться с ним наедине, - он пожимает плечами. - Это все, друг»."
 
 #: 37396
-#, fuzzy
 msgid ""
 "He gives you a stern look. \"Anything I know about that individual is "
 "Harmonium business, citizen. I cannot discuss such matters with strangers. "
@@ -586,7 +581,6 @@ msgid "\"I think I should be going. Farewell.\""
 msgstr "«Думаю, мне пора идти. Прощай»."
 
 #: 39442
-#, fuzzy
 msgid ""
 "He examines the papers thoroughly then folds them and puts them away. He "
 "nods to you and smiles. \"Excellent work, citizen. I will see that these "
@@ -622,7 +616,6 @@ msgstr ""
 "того, как они натворят бед»."
 
 #: 43035
-#, fuzzy
 msgid ""
 "\"Their leader asked me to kill a Harmonium officer named Measure Three "
 "Vorten.\""
@@ -631,7 +624,6 @@ msgstr ""
 "Вортен, Третья ступень»."
 
 #: 43036 43037
-#, fuzzy
 msgid ""
 "\"Well, I have it on good authority that they are responsible for the death "
 "of Measure Three Vorten.\""
@@ -784,16 +776,14 @@ msgstr ""
 "Корвус говорит, что Лотара можно найти в разрушенном доме в Нижнем районе."
 
 #: 66535
-#, fuzzy
 msgid ""
 "I told Corvus that the anarchists asked me to kill Measure Three Vorten. He "
 "said he will see that they are dealt with."
 msgstr ""
-"Я сказал Корвусу, что анархистка попросила меня убить Вортена, Третью "
+"Я сказал Корвусу, что анархисты попросили меня убить Вортена, Третью "
 "ступень. Он сказал, что проследит, чтобы с ними разобрались."
 
 #: 66536
-#, fuzzy
 msgid ""
 "I told Corvus that the anarchists were responsible for the death of Measure "
 "Three Vorten. He immediately suspected my involvement in the matter but "
@@ -806,7 +796,6 @@ msgstr ""
 "нашей дружбы. Он сказал, что разберется с анархистами."
 
 #: 66537
-#, fuzzy
 msgid ""
 "I told Corvus that the anarchists were responsible for the death of Measure "
 "Three Vorten. He immediately suspected my involvement in the matter but "

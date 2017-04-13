@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-01-12 18:57+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-13 16:29+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 55153
 msgid "Bodice"
@@ -20,7 +20,6 @@ msgstr "Корсаж"
 
 # slating = slaking, это просто ошибка (намеренная?)
 #: 63486
-#, fuzzy
 msgid ""
 "BODICE\n"
 "Armor Class: 4\n"
@@ -46,7 +45,6 @@ msgstr "Корсаж опасных поисков"
 
 # slating = slaking, это просто ошибка (намеренная?)
 #: 63488
-#, fuzzy
 msgid ""
 "BODICE OF THE PERILOUS QUEST\n"
 "Armor class: 5\n"
@@ -71,3 +69,4 @@ msgstr ""
 "накладывая чары на это одеяние: оно не только самостоятельно чистится и "
 "чинит небольшие повреждения в своей ткани, но и медленно восстанавливает "
 "здоровье Падшей Грации с помощью магии."
+

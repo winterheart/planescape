@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: spin107.spl\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2009-05-29 16:32+0600\n"
+"PO-Revision-Date: 2017-04-13 20:39+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 106650
 msgid ""
@@ -26,7 +26,17 @@ msgid ""
 "This ability drains 1-10 hit points from a target and grants them to Grace. "
 "Creatures immune to normal weapons are still vulnerable to Grace's kiss."
 msgstr ""
+"ПОЦЕЛУЙ\n"
+"Дистанция: 0\n"
+"Длительность: постоянно\n"
+"Скорость: 0\n"
+"Область действия: 1 существо\n"
+"Спасбросок: нет\n"
+"\n"
+"Эта способность высасывает 1-10 очков здоровья из цели и передает из Грации."
+" Невосприимчивые к обычному оружию существа все еще уязвимы к поцелую Грации."
 
 #: 49054
 msgid "Kiss"
 msgstr "Поцелуй"
+

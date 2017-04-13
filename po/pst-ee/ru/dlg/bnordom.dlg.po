@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: bnordom.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2015-10-25 23:56+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-13 17:42+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 31490 64219
 msgid "\"Attention: Morte. Did you know I have six sides?\""
@@ -56,7 +56,6 @@ msgid ""
 msgstr "«Внимание: Морт. Знаешь ли ты, что у меня восемнадцать сочленений?»"
 
 #: 63637
-#, fuzzy
 msgid "\"Attention: Morte. I have a question. Do I have free will?\""
 msgstr "«Внимание: Морт. У меня есть вопрос. Есть ли у меня своя воля?»"
 
@@ -69,9 +68,8 @@ msgid "\"Negatory.\""
 msgstr "«Ответ отрицательный»."
 
 #: 63641
-#, fuzzy
 msgid "\"Attention: Morte. I have a question. What is the Rule of Three?\""
-msgstr "«Внимание: Морт. У меня есть вопрос. Что такое правило трех?»"
+msgstr "«Внимание: Морт. У меня есть вопрос. Что такое Правило Трех?»"
 
 #: 63642
 msgid "\"That conflicts with several previous definitions.\""
@@ -129,12 +127,10 @@ msgid "\"My analysis appears correct: Danger! Danger!\""
 msgstr "«Мой анализ верен: Опасность! Опасность!»"
 
 #: 63655
-#, fuzzy
 msgid "\"Annah, is it true that you 'dig' Morte?\""
 msgstr "«Анна, это правда, что ты 'тащишься' от Морта?»"
 
 #: 63656
-#, fuzzy
 msgid ""
 "\"I estimate Fall-from-Grace to be found attractive by the male sex of over "
 "321,423 separate species. Give or take five.\""
@@ -147,7 +143,6 @@ msgid "\"I am no longer able to answer that question. I do not know.\""
 msgstr "«Я не способен ответить на этот вопрос. Я не знаю»."
 
 #: 63658
-#, fuzzy
 msgid ""
 "\"Fall-from-Grace, is it true that 'every woman thinks floating skulls are "
 "hot stuff'?\""
@@ -156,7 +151,6 @@ msgstr ""
 "являются горячими штучками?»"
 
 #: 63659
-#, fuzzy
 msgid "\"Attention: Fall-from-Grace. Do you exert optical gravity?\""
 msgstr ""
 "«Внимание: Падшая Грация. Обладаешь ли ты силой оптического притяжения?»"
@@ -170,7 +164,6 @@ msgstr ""
 "за тобой. Они теряют контроль над своими мускулами»."
 
 #: 63661
-#, fuzzy
 msgid "\"Attention: Fall-from-Grace. I wish to address your body.\""
 msgstr "«Внимание: Падшая Грация. Я хочу обратиться к твоему телу»."
 
@@ -195,3 +188,4 @@ msgid "\"I am told Justice is blind. Is this why Mercykillers exist?\""
 msgstr ""
 "«Я слышал, что Правосудие слепо. Тогда почему же существуют убийцы "
 "милосердия?»"
+

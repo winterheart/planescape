@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-01-22 22:59+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-13 23:51+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 47876
 msgid "Dagger"
@@ -23,7 +23,6 @@ msgid "Porphatys Dagger"
 msgstr "Кинжал Порфатиса"
 
 #: 67841
-#, fuzzy
 msgid ""
 "PORPHATYS BLADE\n"
 "(Cursed)\n"
@@ -50,7 +49,7 @@ msgstr ""
 "Магический урон: +3\n"
 "Особенности:\n"
 "   1-6 кислотного урона\n"
-"   Вселяет ярость\n"
+"   Вселяет бешенство\n"
 "THAC0: +3\n"
 "Скорость: 0\n"
 "Вес: 1\n"
@@ -84,3 +83,4 @@ msgstr ""
 "\n"
 "У этого кинжала весьма необычное исполнение. Из-за острых углы и изгибов, "
 "украшающих лезвие, трудно определить преназначение этого клинка."
+
