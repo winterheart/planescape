@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: athug.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2015-10-25 21:50+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 00:58+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 34604
 msgid ""
@@ -122,13 +122,12 @@ msgid "\"Can't we come to some sort of agreement on this?\""
 msgstr "«А мы не можем как-нибудь договориться?»"
 
 #: 34626
-#, fuzzy
 msgid ""
 "\"Sorry, berk. We all got rules to play by and ye got blood to pay by. Give "
 "your power my regards.\""
 msgstr ""
 "«Извини, пень. Все должны играть по правилам, и тебе придется заплатить "
-"кровью. Передай своим Силам мой пламенный привет»."
+"кровью. Передай своим силам мой пламенный привет»."
 
 #: 34627
 msgid "Fight him."
@@ -137,3 +136,4 @@ msgstr "Сражаться."
 #: 34628
 msgid "Flee."
 msgstr "Сбежать."
+

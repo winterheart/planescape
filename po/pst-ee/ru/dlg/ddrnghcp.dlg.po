@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddrnghcp.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2011-12-24 18:04+0600\n"
+"PO-Revision-Date: 2017-04-14 15:27+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 38515
 msgid ""
@@ -27,7 +27,6 @@ msgid "\"Who are you? What are you doing here?\""
 msgstr "«Кто ты? Что ты здесь делаешь?»"
 
 #: 38517
-#, fuzzy
 msgid ""
 "\"I? I am... Alaina. These are my ghoulss. We are sscoutss and hunterss. We "
 "sseek more territory... we sseek more *food.* And now that I have ansswered "
@@ -58,7 +57,6 @@ msgid "\"I will ... ansswer what I can.\""
 msgstr "«Я... отвечу, ессли смогу»."
 
 #: 38523
-#, fuzzy
 msgid "\"What can you tell me of this place?\""
 msgstr "«Что ты можешь рассказать об этом месте?»"
 
@@ -103,7 +101,6 @@ msgid "\"It is very important to me that I find it.\""
 msgstr "«Для меня очень важно найти его»."
 
 #: 38533
-#, fuzzy
 msgid ""
 "The ghoul captain eyes you coolly, evaluating you. \"Ssseek it to the "
 "sssouth and easst. Do not disturb the other inhabitantsss of thesse cryptss "
@@ -121,7 +118,6 @@ msgid "\"It is very important that I find it.\""
 msgstr "«Для меня очень важно найти его»."
 
 #: 38537
-#, fuzzy
 msgid ""
 "The ghoul captain eyes you, heat growing in her eyes. \"I care *NOT* how "
 "much it meanss to you, meat creature. I will tell you *NOT.*\""
@@ -171,16 +167,16 @@ msgid "\"What denizens would those be?\""
 msgstr "«Что еще за обитатели?»"
 
 #: 38546
-#, fuzzy
 msgid ""
 "\"This place hass been overrun... with trocopotacas, white, horned "
 "creaturesss with boundlessss appetitess and cruel disspositionss. Many "
 "vargouilless make their homess here ass well, their number ever growing from "
 "foolsss who venture thisss far into the catacombsss.\""
 msgstr ""
-"«Это мессто кишшит... трокопотоками, вечно голодными белыми рогатыми тварями "
-"с жесстоким нравом. Еще здессь поселилоссь много варгулий, и их количесство "
-"расстет за счет глупцов, которые забираютсся так далеко в катакомбы»."
+"«Это мессто кишшит... трокопотоками, белыми рогатыми сущесствами с "
+"безмерными аппетитами и жесстоким нравом. Еще здессь поселилоссь много "
+"варгулий, и их количесство расстет за счет глупцов, которые забираютсся так "
+"далеко в катакомбы»."
 
 #: 38547
 msgid "\"I see... can you answer some other questions for me?\""
@@ -237,3 +233,4 @@ msgstr "«Я хотел задать пару вопросов...»"
 #: 38569
 msgid "\"Nothing. Farewell.\""
 msgstr "«Ничего. Прощай»."
+

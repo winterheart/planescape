@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dzm1664.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-09 00:49+0600\n"
+"PO-Revision-Date: 2017-04-14 12:22+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 47002
 msgid ""
@@ -52,7 +52,6 @@ msgid "Leave the corpse in peace."
 msgstr "Оставить труп в покое."
 
 #: 47009
-#, fuzzy
 msgid "The corpse stares blankly at the wall."
 msgstr "Зомби безучастно пялится в стену."
 
@@ -95,7 +94,6 @@ msgid "Read through it. "
 msgstr "Прочитать ее. "
 
 #: 47017
-#, fuzzy
 msgid ""
 "You take a moment to read through the page... it's a list of dead bodies "
 "brought to the Mortuary and logged in the Receiving Room. All the entries "
@@ -107,9 +105,7 @@ msgstr ""
 "зарегистрированных в Приемной комнате. Все записи принадлежат недавно "
 "прибывшим телам.\n"
 "\n"
-"ПРИМЕЧАНИЕ: Чтобы «прочитать» записки, книги или свитки, помести их в свой "
-"инвентарь, а затем нажми на них правой кнопкой мыши, чтобы вывести "
-"информационную панель."
+"^NПРИМЕЧАНИЕ: <READSTUFF>^-"
 
 #: 47018
 msgid "Examine the zombie again."
@@ -120,7 +116,6 @@ msgid "Take the page with you and leave."
 msgstr "Взять страницу с собой и уйти."
 
 #: 47021
-#, fuzzy
 msgid ""
 "The books appear to be old Mortuary ledgers, none of them of any particular "
 "interest. You do another search through the texts, but you find nothing more."
@@ -136,3 +131,4 @@ msgstr ""
 #: 47023
 msgid "Leave the zombie in peace."
 msgstr "Оставить зомби в покое."
+

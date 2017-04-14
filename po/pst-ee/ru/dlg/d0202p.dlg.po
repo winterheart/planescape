@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2013.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2015-10-26 23:30+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 01:02+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 36382
 msgid ""
@@ -137,7 +137,6 @@ msgid "\"...trying to sell Dak'kon to Vrischika.\""
 msgstr "«...о том, что пытался продать Даккона Вришике»."
 
 #: 53872
-#, fuzzy
 msgid "\"...trying to sell Fall-from-Grace to Vrischika.\""
 msgstr "«...о том, что пытался продать Падшую Грацию Вришике»."
 
@@ -202,7 +201,6 @@ msgid "\"...Morte's death.\""
 msgstr "«...о смерти Морта»."
 
 #: 53890
-#, fuzzy
 msgid "\"...Fall-from-Grace's death.\""
 msgstr "«...о смерти Падшей Грации»."
 
@@ -239,7 +237,6 @@ msgid "\"...having to slay Ravel.\""
 msgstr "«...о том, что пришлось убить Равель»."
 
 #: 53904
-#, fuzzy
 msgid ""
 "\"...I wandered all over the planes when the damn portal was right here when "
 "I FIRST woke up.\""
@@ -385,7 +382,6 @@ msgid "Go find your companions, then return to the portal."
 msgstr "Найти своих спутников и вернуться к порталу."
 
 #: 53967
-#, fuzzy
 msgid ""
 "In the few moments you spent thinking, the cut on your finger has healed "
 "completely; you are forced to re-open the tip of your finger and squeeze "
@@ -408,3 +404,4 @@ msgstr "Отойти от портала и поднять кожу."
 #: 66928
 msgid "Examine the skin..."
 msgstr "Осмотреть кожу..."
+

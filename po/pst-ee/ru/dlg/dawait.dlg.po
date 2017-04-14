@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2013, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2013, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dawait.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-06-06 22:52+0300\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 14:27+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 14007
 msgid ""
@@ -35,7 +35,6 @@ msgid "The Dustman doesn't respond. He keeps staring into the distance."
 msgstr "Тленный не отвечает, продолжая пялиться в пространство."
 
 #: 14011
-#, fuzzy
 msgid ""
 "As you turn to leave, the Dustman suddenly speaks, his voice barely a murmur "
 "- you have to strain to hear the words. You *think* he said something about "
@@ -90,7 +89,6 @@ msgstr ""
 "Смерть, гуляющая по улицам. Это идеал»."
 
 #: 14018
-#, fuzzy
 msgid ""
 "\"I would - the release is what I crave. The emptiness. No more pain and "
 "suffering.\""
@@ -103,7 +101,6 @@ msgstr ""
 "«И *все*? Ты не видишь сути. Я же вижу освобождение от боли и страданий»."
 
 #: 14020
-#, fuzzy
 msgid ""
 "As you turn to leave, the Dustman suddenly speaks, his voice barely a murmur "
 "- you have to strain to hear the words. You *think* he said something about "
@@ -212,7 +209,6 @@ msgstr ""
 "озираться в вашу сторону. "
 
 #: 14036
-#, fuzzy
 msgid ""
 "\"There is no difference...\" He looks down at the floor and chews his lips "
 "with a strange expression. \"Beyond the shadow of this existence, more "
@@ -329,7 +325,6 @@ msgid "He closes his eyes. "
 msgstr "Он закрывает глаза."
 
 #: 14051
-#, fuzzy
 msgid ""
 "You gently pick up the bag from the ground and leave quietly - the sack "
 "appears to hold about fifty copper pieces. The Dustman remains still as you "
@@ -339,7 +334,6 @@ msgstr ""
 "пятидесяти монет. Тленный продолжает стоять неподвижно, с закрытыми глазами."
 
 #: 14052
-#, fuzzy
 msgid ""
 "You place your hands on his neck, and you begin slowly to constrict. He "
 "gives a choked gasp, and his eyes open wide - with a pleading expression, he "
@@ -350,7 +344,6 @@ msgstr ""
 "царапать твои руки."
 
 #: 14053
-#, fuzzy
 msgid ""
 "You mean to keep strangling him when suddenly, without you even meaning to, "
 "you pull your hands from his neck. Awaiting-Death takes a breath - and looks "
@@ -449,7 +442,6 @@ msgstr ""
 "сильной»."
 
 #: 14066
-#, fuzzy
 msgid ""
 "\"A powerful sorcerer or priest... or one of the powers... but not anyone I "
 "know.\" He frowns. \"And I don't believe you know of anyone of that sort, "
@@ -616,7 +608,6 @@ msgid "\"Why would anyone want such a thing?\""
 msgstr "«И кто захочет такой участи?»"
 
 #: 14109
-#, fuzzy
 msgid "\"'Perfection'? Bar that. That's nothing but rotting meat.\""
 msgstr "«'Идеал'? Да не гони. Это не идеал, а просто тухлятина»."
 
@@ -630,7 +621,6 @@ msgstr ""
 "свое время она сама придет за тобой, так что живи, пока можешь»."
 
 #: 14111
-#, fuzzy
 msgid "\"Perhaps so - it is not for me to say. Farewell.\""
 msgstr "«Может и так. Не мне об этом судить. Прощай»."
 
@@ -917,7 +907,6 @@ msgstr ""
 "достигнешь»."
 
 #: 14194
-#, fuzzy
 msgid ""
 "\"Then why not make the beliefs of the Dustmen your focus? Perhaps this is a "
 "life of pain and misery, but if you focus on your beliefs and that which is "
@@ -928,7 +917,6 @@ msgstr ""
 "тому, что дорого для тебя, то они помогут тебе преодолеть ее»."
 
 #: 14196
-#, fuzzy
 msgid ""
 "\"They are correct to do so - they have only your wish to die at heart. If "
 "you wish to reach the True Death, you must come to terms with this life "
@@ -1123,7 +1111,6 @@ msgid "\"Who would be capable of such power?\""
 msgstr "«Кто может обладать подобной силой?»"
 
 #: 14254 14258
-#, fuzzy
 msgid ""
 "\"You don't believe I can't die? Try and kill me then. See what happens.\""
 msgstr ""
@@ -1131,7 +1118,6 @@ msgstr ""
 "этого выйдет»."
 
 #: 14255 14259
-#, fuzzy
 msgid "\"You don't believe I can't die? I can prove it to you.\""
 msgstr "«Ты не веришь, что я могу умереть? Я могу доказать это тебе»."
 
@@ -1140,7 +1126,6 @@ msgid "\"Then I shall force you to watch me: I'll show you what death holds.\""
 msgstr "«Тогда тебе придется смотреть - я покажу тебе, что забирает смерть»."
 
 #: 14263
-#, fuzzy
 msgid ""
 "\"Never mind, then. What did you mean before, about being 'resurrected'?\""
 msgstr "«А, неважно. Что ты имел ввиду под словом 'возрожден'?»"
@@ -1201,3 +1186,4 @@ msgstr "Ты видишь Ждущего Смерти. Кажется, он те
 msgid "Awaiting-Death ignores you; he makes no eye contact whatsoever."
 msgstr ""
 "Ждущий Смерти не обращает на тебя внимания; он избегает чьих-либо взглядов."
+

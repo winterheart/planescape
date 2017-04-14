@@ -1,19 +1,19 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-07-11 00:42+0300\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 21:26+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 10078
 msgid ""
@@ -33,7 +33,6 @@ msgstr ""
 "«Похоже, ты права, Анна. Возможно, нам следует что-нибудь с этим сделать». "
 
 #: 11267
-#, fuzzy
 msgid ""
 "Annah retorts angrily: \"Aye, and the Abyss be the best place for him, but "
 "he toils by free will. He's got choice, demonling, which is more'n I can say "
@@ -41,7 +40,7 @@ msgid ""
 msgstr ""
 "Анна резко отвечает: «Ага, и Бездна для него - самое подходящее местечко, но "
 "батрачит он по своей воле. У него был выбор, демон. И это даже больше, чем я "
-"могу сказать такому духу, как ты!»\n"
+"могу сказать такому духу, как ты!»"
 
 #: 11270
 msgid ""
@@ -93,7 +92,6 @@ msgstr ""
 "тем, как посмотреть на тебя здоровым глазом."
 
 #: 13086
-#, fuzzy
 msgid ""
 "Annah's tail suddenly stops lashing, and she turns her head to look at you - "
 "her eyes are wide with surprise. She seems as if she's going to speak... and "
@@ -111,7 +109,6 @@ msgstr ""
 "Хвост Анны перестает хлестать. Она просто кивает, не проронив ни слова."
 
 #: 13088
-#, fuzzy
 msgid ""
 "Annah's eyes flash like green flames, but she doesn't say a word - she "
 "merely scowls at you."
@@ -120,7 +117,6 @@ msgstr ""
 "только сердито смотрит на тебя."
 
 #: 13089
-#, fuzzy
 msgid ""
 "Annah's whole body tenses up for a moment - she doesn't speak, but her anger "
 "at your words seems to fill the air around her. You expect the worst - but "
@@ -410,7 +406,6 @@ msgid "\"Fine. I had some questions, Mourns...\""
 msgstr "«Отлично. У меня есть несколько вопросов, Скорбящий...»"
 
 #: 16912
-#, fuzzy
 msgid "\"Never mind, then. Farewell, Mourns-for-Trees.\""
 msgstr "«Тогда неважно. Прощай, Скорбящий-по-деревьям»."
 
@@ -447,7 +442,6 @@ msgid "\"Thanks. I had some questions, Mourns...\""
 msgstr "«Спасибо. У меня есть вопросы, Скорбящий...»"
 
 #: 16921
-#, fuzzy
 msgid "\"Thanks, Annah. Farewell, Mourns-for-Trees.\""
 msgstr "«Спасибо, Анна. Прощай, Скорбящий-по-деревьям»."
 
@@ -498,13 +492,12 @@ msgid "\"Hmm. I'll speak with him, just in case.\""
 msgstr "«Хм. Я все-таки поговорю с ним, на всякий случай»."
 
 #: 17426
-#, fuzzy
 msgid ""
 "\"Aye, he's sure; didn't yeh hear the man?\" Annah rolls her eyes. \"Fer the "
 "love o' the powers, why don't yeh pry yerself off the sod fer a bit? Yeh're "
 "embarrasin' yerself, yeh are.\""
 msgstr ""
-"«Да, он уверен! Ты че, глухая? - Анна закатывает глаза. - Ради Сил, почему "
+"«Да, он уверен! Ты че, глухая? - Анна закатывает глаза. - Ради сил, почему "
 "бы тебе не оторваться от бедолаги ненадолго? Ты же дуру из себя делаешь»."
 
 #: 17427
@@ -694,7 +687,6 @@ msgstr ""
 "шипит и плюет в ноги женщины: «Ш-ш-ш! Исчезни!»"
 
 #: 1891
-#, fuzzy
 msgid ""
 "Annah snarls, then slashes her punch dagger up in an arc... cutting through "
 "the sleeves of the woman's dress and revealing a bag tied the woman's wrist. "
@@ -802,7 +794,6 @@ msgstr ""
 "Звенелки?»"
 
 #: 1992 1993
-#, fuzzy
 msgid "\"'Jink-jink'?\""
 msgstr "«Звенелки?»"
 
@@ -815,7 +806,6 @@ msgid "\"Never mind, then. Farewell.\""
 msgstr "«Тогда неважно. Прощай»."
 
 #: 1996
-#, fuzzy
 msgid ""
 "The girl stares at you in disbelief and her tail stops moving for a moment. "
 "\"What are you about? Jink - coin... copper, silver, gold... money, aye?\" "
@@ -914,7 +904,6 @@ msgstr ""
 "хорошо вооруженными головорезами. Ты об этом знаешь?»"
 
 #: 2019
-#, fuzzy
 msgid ""
 "\"Ye're lost, but ye're about ta find trouble. Make yerself lost somewhere "
 "else, bubber.\""
@@ -963,7 +952,6 @@ msgid "\"South and west of the Mortuary? Thanks. Farewell.\""
 msgstr "«На юго-западе от Морга? Спасибо. Прощай»."
 
 #: 2041
-#, fuzzy
 msgid ""
 "\"*Do* I now?\" The girl looks at her tail. \"So I do! An' here I was "
 "thinking that it was a trick of me eye. My, aren't yeh a sharp cutter?\" She "
@@ -976,17 +964,14 @@ msgstr ""
 "не оставить меня в покое?! Ни я, ни мой хвост не продаются, усек?»"
 
 #: 2042
-#, fuzzy
 msgid "\"All right... I was just cur-\""
 msgstr "«Хорошо... Я просто полюбоп...»"
 
 #: 2043
-#, fuzzy
 msgid "\"Uh, okay... I had some other quest-\""
 msgstr "«Э, ладно... У меня есть другие вопр...»"
 
 #: 2044
-#, fuzzy
 msgid "\"Never mind, then. Fare-\""
 msgstr "«Тогда неважно. Проща...»"
 
@@ -1045,14 +1030,13 @@ msgid "\"Aye, piss off then.\""
 msgstr "«Ага, давай, проваливай»."
 
 #: 2058
-#, fuzzy
 msgid ""
 "The girl's eyes narrow to slits. \"Are yeh *daft?* Can it be that ye're "
 "dumber than stone, or mayhap ye're the power o' ignorance? May the dabus "
 "brick yeh over and make yeh a street!\""
 msgstr ""
 "Глаза девушки превращаются в щелочки. «Ты че, *тугой*? У тебя, видать, ума, "
-"что у камня? А, может, ты - Сила тупизны? Да чтоб тебя дабус в стену "
+"что у камня? А, может, ты - сила тупизны? Да чтоб тебя дабус в стену "
 "замуровал!»"
 
 #: 2059
@@ -1113,7 +1097,6 @@ msgid "\"I've had enough of your lip, girl... time for you to die.\""
 msgstr "«Мне надоели твои слова, крошка... пора умирать»."
 
 #: 2070
-#, fuzzy
 msgid ""
 "\"Yeh better latch yer bone-box, yeh foul-mouthed mimir, 'fore I splits it "
 "from yer jaw, jig?\""
@@ -1126,7 +1109,6 @@ msgid "\"Farewell.\""
 msgstr "«Прощай»."
 
 #: 20775
-#, fuzzy
 msgid ""
 "\"Gris, yeh half-witted vulture, yeh had none o' the sense that the powers "
 "gave yeh an' ye're dead, so yeh are, rot an' gone. May no power o' death "
@@ -1135,7 +1117,7 @@ msgid ""
 "demise.\""
 msgstr ""
 "«Грис, ах, стервятник ты полоумный. Так и не научился пользоваться мозгами, "
-"которые дали тебе Силы. Теперь ты мертвый, мертвее некуда. Да не сжалится "
+"которые дали тебе силы. Теперь ты мертвый, мертвей некуда. Да не сжалится "
 "смерть над твоим облепленным мухами трупом. Как же я рада, что твоя тушка "
 "гниет тут внизу. Жаль тока, что ты не можешь рассказать, как ты откинулся»."
 
@@ -1170,7 +1152,6 @@ msgstr ""
 "его тушкой, усек?»"
 
 #: 20780
-#, fuzzy
 msgid ""
 "Annah nudges the corpse with her toe, and turns to you. \"Yeh know why they "
 "called him Gris the Vulture, don't yeh? It was 'cause the idjit's got such a "
@@ -1225,7 +1206,6 @@ msgid ""
 msgstr "«Да, мимир! Че, промеж ушей так пусто, что аж эхом отдает? Вот идиот!»"
 
 #: 2085
-#, fuzzy
 msgid "\"You still haven't answered my question. What's a mimir?\""
 msgstr "«Ты не ответила на мой вопрос. Что такое мимир?»"
 
@@ -1259,7 +1239,6 @@ msgstr ""
 
 # аналогия про плохого и хорошего копа
 #: 2093
-#, fuzzy
 msgid ""
 "\"What's all this now? Yeh be playing stern hardhead, friendly hardhead with "
 "me?\" She sneers. \"Pike off, yeh lecherous filth.\""
@@ -1268,7 +1247,6 @@ msgstr ""
 "твердолобого? - она презрительно усмехается. - Слейся, кусок помоев»."
 
 #: 2094
-#, fuzzy
 msgid ""
 "\"Oh, aye? It's good I sell corpses then, aye? Yeh look ready for the "
 "Dustman's furnace, the both of yeh.\" Her tail begins to lash back and "
@@ -1276,7 +1254,7 @@ msgid ""
 msgstr ""
 "«Во как? Хорошо хоть жмуриками приторговываю, верно? А по вам обоим уже "
 "топка тленных плачет, - ее хвост начинает метаться из стороны в сторону. - "
-"Не заставляйте меня прописывать вас в Книгу Мертвых»."
+"Не заставляйте меня прописывать вас в книгу мертвых»."
 
 #: 2095 2101
 msgid "\"Sell corpses?\""
@@ -1342,7 +1320,6 @@ msgstr ""
 "другого своими вопросиками»."
 
 #: 2111
-#, fuzzy
 msgid "\"'Plane'?\""
 msgstr "«План?»"
 
@@ -1488,7 +1465,6 @@ msgstr ""
 "валить отсюдова, лады?»"
 
 #: 21615
-#, fuzzy
 msgid ""
 "\"Dabus are *Her* kin - they take care o' the city, fixin' it an' tearin' it "
 "down an' buildin' it back up n' all. They talk in symbol-puzzles in the air "
@@ -1530,7 +1506,6 @@ msgstr ""
 "лады?»"
 
 #: 21619
-#, fuzzy
 msgid ""
 "Annah grabs your arm. \"Please, nay, nay! No good'll come of it - anyone "
 "speakin' ta Fell could draw the Lady's gaze. I donnae want t'die, I don't!\" "
@@ -1541,7 +1516,6 @@ msgstr ""
 "помирать не хочу, не хочу!» К твоему удивлению, Анна готова заплакать."
 
 #: 21620
-#, fuzzy
 msgid ""
 "Annah flushes, as if slapped. She snarls, her tail lashing and her familiar "
 "anger re-surfacing. \"I donnae why I bother... go on, talk ta him till yer "
@@ -1602,7 +1576,6 @@ msgstr ""
 "подводят, это че-то типа салона наколок»."
 
 #: 21627
-#, fuzzy
 msgid ""
 "Annah squints at the symbols. \"First, he says... no, wait.\" She frowns. "
 "\"He says it's the *first* time yeh've come here... but at the same time, "
@@ -1915,7 +1888,6 @@ msgid "\"Fell?\""
 msgstr "«Фелл?»"
 
 #: 24729
-#, fuzzy
 msgid ""
 "\"Annah, no harm will come to you while I'm here. Tell me, what's a 'dabus'?"
 "\""
@@ -1923,12 +1895,10 @@ msgstr ""
 "«Анна, пока я здесь, тебе ничто не угрожает. Скажи мне, кто такой 'дабус'?»"
 
 #: 24730 50112 6961
-#, fuzzy
 msgid "\"What's a 'dabus'?\""
 msgstr "«Что за 'дабус'?»"
 
 #: 24731
-#, fuzzy
 msgid ""
 "\"Annah, no harm will come to you while I'm here. Now tell me what's wrong.\""
 msgstr ""
@@ -1954,14 +1924,12 @@ msgid "\"I see. Very well, we'll go.\""
 msgstr "«Понятно. Хорошо, тогда уйдем»."
 
 #: 24753
-#, fuzzy
 msgid "\"'Her'?\""
-msgstr "«'Ее'?» "
+msgstr "«'Ее'?»"
 
 #: 24754
-#, fuzzy
 msgid "\"'Her'? You mean the Lady of Pain?\""
-msgstr "«'Ее'? Ты имеешь в виду Леди Боли?» "
+msgstr "«'Ее'? Ты имеешь в виду Леди Боли?»"
 
 #: 24757 24759
 msgid "\"I'd like to speak to Fell, first.\""
@@ -1980,7 +1948,6 @@ msgstr ""
 "чтобы ты помолчала»."
 
 #: 24762
-#, fuzzy
 msgid ""
 "Promise: \"Annah, no harm will come to you while I'm here - I promise. I "
 "just want to speak to him for a moment.\""
@@ -1989,7 +1956,6 @@ msgstr ""
 "хочу немного с ним поговорить»."
 
 #: 24763
-#, fuzzy
 msgid ""
 "Lie to silence her crying: \"Annah, no harm will come to you while I'm here "
 "- I promise. I just want to speak to him for a moment.\""
@@ -2248,7 +2214,6 @@ msgstr ""
 "сказал, что она идет с нами? Нам не нужны такие, как она, ну уж нет»."
 
 #: 28629
-#, fuzzy
 msgid ""
 "\"Ye'd best latch yer bone-box, skull, or I'll rattle yeh so hard they'll be "
 "pickin' yer teeth off the spire-!\""
@@ -2285,13 +2250,12 @@ msgid "\"Hmph.\" She smirks at you, but makes no move to leave."
 msgstr "«Пф». Она ухмыляется, но не двигается с места."
 
 #: 30833
-#, fuzzy
 msgid ""
 "Annah becomes quiet for a time. She opens her mouth to speak, then stops "
 "herself..."
 msgstr ""
 "Анна какое-то время молчит. Она раскрывает рот, чтобы что-то сказать, но "
-"прерывает себя...\n"
+"прерывает себя..."
 
 #: 30834
 msgid ""
@@ -2322,7 +2286,6 @@ msgid "Try and get his attention."
 msgstr "Попробовать привлечь его внимание."
 
 #: 30837
-#, fuzzy
 msgid "\"Very amusing, Annah. I had some questions, sir...\""
 msgstr "«Очень смешно, Анна. У меня есть несколько вопросов, сэр...»"
 
@@ -2340,7 +2303,6 @@ msgstr ""
 "«Нет, Анна, не уходи. Я всего лишь подтрунивал над тобой... око за око»."
 
 #: 30840
-#, fuzzy
 msgid ""
 "\"Annah, no... I'd hate to see you leave. My apologies for the comment - "
 "please remain with me.\""
@@ -2468,7 +2430,6 @@ msgstr ""
 "я сам не позвал стражу»."
 
 #: 33296 33435
-#, fuzzy
 msgid ""
 "\"Shut yer yap, yeh loathsome tard! Didn't I tell yeh last time never ta "
 "speak ta me again? Lady knows how yeh ever got me name in the first place!\""
@@ -2557,7 +2518,6 @@ msgstr ""
 "паразитов, когда они вместе...»"
 
 #: 39005
-#, fuzzy
 msgid ""
 "Annah whispers to you: \"Yeh've managed ta get the brain vermin mad at yeh, "
 "aye? Let me tell yeh this, then: We'd best be gone as soon as possible "
@@ -2574,7 +2534,6 @@ msgstr ""
 "эти крысы. И ты еще умудрился их разозлить. Будь поосторожней, лады?»"
 
 #: 39006
-#, fuzzy
 msgid ""
 "Annah whispers to you: \"Yeh've managed ta get the brain vermin mad at yeh, "
 "aye? Let me tell you this, then: We'd best be gone as soon as possible "
@@ -2591,7 +2550,6 @@ msgstr ""
 "эти крысы. И ты еще умудрился их разозлить. Будь поосторожней, лады?»"
 
 #: 39007 39008
-#, fuzzy
 msgid ""
 "\"I don't ken what sort o' game the brain vermin are playin' with yeh, but "
 "if they're offerin' peace, yeh'd be best off acceptin' it. They get smarter "
@@ -2631,7 +2589,6 @@ msgstr ""
 "Тока она вам не придется по нутру, так что нефиг потом на *меня* пенять!»"
 
 #: 39587
-#, fuzzy
 msgid ""
 "Annah scowls, then finally relents with an exasperated sigh. \"I heard a "
 "story when I was a wee lass.\"\n"
@@ -2645,10 +2602,9 @@ msgstr ""
 "\n"
 "«Идет себе пень домой, очень поздно, около антипика, и тут встречает на "
 "обычно пустой улице старую беззубую старуху. 'Куда путь держишь', - "
-"спрашивает она». \n"
+"спрашивает она»."
 
 #: 39588
-#, fuzzy
 msgid ""
 "\"'Home, to me wife an' kip,' he says.\"\n"
 "\n"
@@ -2660,7 +2616,7 @@ msgstr ""
 "\n"
 "«'Мимо Шлаков?' - спрашивает».\n"
 "\n"
-"«'А как же', - отвечает он».\n"
+"«'А как же', - отвечает он»."
 
 #: 39589
 msgid ""
@@ -2730,7 +2686,6 @@ msgstr ""
 "спешит назад, в свою берлогу»."
 
 #: 39595
-#, fuzzy
 msgid ""
 "\"He's feelin' ill when he gets back, an' takes ta bed. His wife bitterly "
 "regretted openin' the box an' all, but it was too late... the next day he "
@@ -2744,7 +2699,7 @@ msgstr ""
 "следующий день пень умер от гнилой хвори, и первыми у него отвалились глаза "
 "и черенок».\n"
 "\n"
-"Анна мрачно кивает - ее рассказ окончен.\n"
+"Анна мрачно кивает - ее рассказ окончен."
 
 #: 39764
 msgid "\"Go ahead, Annah...\""
@@ -2854,7 +2809,6 @@ msgid "\"I'd gut yeh if yeh had somethin' t' gut, skull.\""
 msgstr "«Выпустить бы тебе кишки, череп, да нет их у тебя»."
 
 #: 46094
-#, fuzzy
 msgid ""
 "\"'Scrag'?! What in the nine Planes o' Baator are yeh talkin' about, yeh "
 "idjit? Scrag's nagged, nipped, yanked by the Hardheads, yeh clueless, addle-"
@@ -3023,13 +2977,12 @@ msgid "\"How did they do that?\""
 msgstr "«Как им это удалось?»"
 
 #: 47851
-#, fuzzy
 msgid ""
 "Annah shrugs. \"There's stranger things in th' planes.\" She suddenly "
 "frowns. \"You might as well ask how yeh got yerself out of the dead-book "
 "after I was SURE yeh were dead.\""
 msgstr ""
-"Анна пожимает плечами. «На Планах бывают и более странные штуки, - внезапно "
+"Анна пожимает плечами. «На планах бывают и более странные штуки, - внезапно "
 "она мрачнеет. - Ты еще спроси, как те удалось выписаться из книги мертвых "
 "после того, как я была УВЕРЕНА, что ты труп»."
 
@@ -3081,7 +3034,6 @@ msgstr ""
 "«Пойду-ка я захвачу еще оружия и отдохну чуток перед тем, как мы войдем»."
 
 #: 47859
-#, fuzzy
 msgid ""
 "\"Chaosmen,\" Annah whispers. \"Barmy as they come. Barking wild into th' "
 "day and night, ready to either paint yeh with colors or crack yer brain-box "
@@ -3131,7 +3083,6 @@ msgid "\"Eh...\" Annah looks at you oddly. \"He's a dabus, he is.\""
 msgstr "«Э-э... - Анна странно смотрит на тебе. - Это ж дабус»."
 
 #: 50113 6811
-#, fuzzy
 msgid ""
 "Annah's voice drops. \"Dabus is one o' *Her* kin - they take care o' the "
 "city, fixin' it and tearin' it down and buildin' it back up n' all. They "
@@ -3343,7 +3294,6 @@ msgstr ""
 "«Ага, может, жизнь его и проглотила, вот тока не *тем* концом он вышел...»"
 
 #: 52535
-#, fuzzy
 msgid ""
 "\"Enough of this - look, Ravel, you took my mortality from me, and it has "
 "caused more harm than good. I would take it back now - you have had it "
@@ -3468,7 +3418,6 @@ msgstr ""
 "пожелаешь»."
 
 #: 53977
-#, fuzzy
 msgid ""
 "Truth: \"It's sad, Annah, but he earned himself such a fate. Try not to "
 "suffer too greatly over it.\""
@@ -3576,7 +3525,6 @@ msgid "\"Of *course* I was jesting. Let's go.\""
 msgstr "«*Конечно* же, я шучу. Идем»."
 
 #: 54129
-#, fuzzy
 msgid ""
 "\"I...\" Annah shivers as another wave of cold emanates from the portal. "
 "\"Aye, I'll follow yeh... 'sides, yeh'd lose yer own head if it weren't "
@@ -3601,7 +3549,6 @@ msgstr ""
 "«Хорошо... А теперь посмотрим, что же находится по ту сторону портала»."
 
 #: 54137
-#, fuzzy
 msgid ""
 "\"I...\" Annah glares at Fall-from-Grace, then turns to you, fires in her "
 "eyes. \"If *she* goes, I'll go, so I will. I'll not turn stag on yeh here, I "
@@ -3635,7 +3582,6 @@ msgstr ""
 "призрак, меня ты не будешь допрашивать»."
 
 #: 56680
-#, fuzzy
 msgid ""
 "\"Aye? An' what justice might THAT be?! Yer justice is not MY justice - it's "
 "as hollow as yer suit o' armor! Yeh make yer OWN justice which yeh blindly "
@@ -3646,7 +3592,6 @@ msgstr ""
 "приходит пора судить себя самого - слепо игнорируешь ее!»"
 
 #: 56681
-#, fuzzy
 msgid ""
 "\"Oh, aye? Well, yeh and yer *Mercykillers* swung many o' me friends from "
 "the leafless tree in the name o' justice when the inclination struck yeh! "
@@ -3656,7 +3601,7 @@ msgid ""
 msgstr ""
 "«Во как? Что ж, ты со своими *убийцам милосердия*, когда на вас находило "
 "вдохновение, вздернул кучу моих друзей на дереве во имя справедливости! Гори "
-"в огне Баатора, полумертвая сволочь, и пусть Силы обоссут тебя с ног до "
+"в огне Баатора, полумертвая сволочь, и пусть силы обоссут тебя с ног до "
 "головы! Желаю, чтоб твои доспехи сбросили в чаны Литейной и чтоб от них ни "
 "кусочка не осталось!»"
 
@@ -3680,7 +3625,6 @@ msgstr ""
 "с ней прямо на улице?»"
 
 #: 61416
-#, fuzzy
 msgid ""
 "Annah bristles as you are about to follow the woman off. \"What are yeh "
 "*thinkin,* yeh eejt?!\" She whirls on the courtesan, drawing her punch "
@@ -3742,7 +3686,6 @@ msgid "Watch, see what happens."
 msgstr "Посмотреть, чем это закончится."
 
 #: 61429 7472
-#, fuzzy
 msgid "\"'Trimmin' my stem'? Do I have to pay for that?\""
 msgstr "«'Подровняешь мне корешок'? А за это надо платить?»"
 
@@ -3816,11 +3759,10 @@ msgstr ""
 "«Еще раз сыграешь со мной в умника, череп, и я запихну тебя в твою жопу»."
 
 #: 61769
-#, fuzzy
 msgid ""
 "\"Oh sweet suffering powers, skull, don't yeh ever get tired of hearing "
 "yerself jabber?\""
-msgstr "«Ох, святые Силы, череп, как ты сам не устаешь от своей болтовни?»"
+msgstr "«Ох, святые силы, череп, как ты сам не устаешь от своей болтовни?»"
 
 #: 61770
 msgid ""
@@ -3831,7 +3773,6 @@ msgstr ""
 "черепом»."
 
 #: 61771
-#, fuzzy
 msgid ""
 "\"Latch yer bone-box, skull! Don't be taking her name in vain like that!\""
 msgstr "«Захлопни свою черепушку, череп! Не вспоминай ее имя с такой фигней!»"
@@ -3843,7 +3784,6 @@ msgid ""
 msgstr "«Ты хочешь, чтоб нас порвало на куски?! Не испытывай судьбу, череп!»"
 
 #: 61773
-#, fuzzy
 msgid "\"Oh, if I were you, I'd learn to latch my bone-box.\""
 msgstr ""
 "«О, а я бы на твоем месте научилась как следует запирать свою черепушку»."
@@ -3963,7 +3903,6 @@ msgid "\"Forget I asked, then. Let's move on.\""
 msgstr "«Тогда забудь об этом. Пошли»."
 
 #: 67057
-#, fuzzy
 msgid ""
 "\"She's the evilest o' the Gray Ladies, she is.\" Annah's voice drops to "
 "almost a whisper, as if afraid of being overheard. \"Filthy mean, an' with "
@@ -3977,7 +3916,7 @@ msgstr ""
 "подлая, да и силенок-то уж побольше, чем у некоторых Сил. Говорят, она вся "
 "насквозь проросла ежевикой, даже в *сердце*. Еще говорят, что ее НЕЛЬЗЯ "
 "убить, потому что она как дерево: отрубишь одну ветку, а другая останется "
-"расти где-нибудь на Планах»."
+"расти где-нибудь на планах»."
 
 #: 67058
 msgid "\"You speak as if she's still alive.\""
@@ -4006,7 +3945,6 @@ msgid "\"I see. Let's move on.\""
 msgstr "«Понятно. Идем»."
 
 #: 67064
-#, fuzzy
 msgid ""
 "\"A piece of that hag? Nay, I donnae know where yeh'd find such a thing.\" "
 "Annah thinks for a moment, her tail waving slowly back and forth, then she "
@@ -4016,37 +3954,34 @@ msgstr ""
 "«Часть этой ведьмы? Не-а, понятия не имею, где можно будет найти такую "
 "вещицу». Анна задумывается, медленно размахивая хвостом из стороны в "
 "сторону, после чего усмехается: «Хотя, кажись она разбросала свое потомство "
-"по Планам, так что ты можешь поспрашивать у кого-то из них»."
+"по планам, так что ты можешь поспрашивать у кого-то из них»."
 
 #: 67065
-#, fuzzy
 msgid "\"'Seed'? What do you mean?\""
 msgstr "«Потомство? Что ты имеешь в виду?»"
 
 #: 67068
-#, fuzzy
 msgid ""
 "Annah said that Ravel had 'seed' - either one daughter or several daughters, "
 "scattered throughout the planes. I wonder if I could find one of them... "
 "maybe they would know how to reach her maze. I don't know where I'd begin "
 "looking, though."
 msgstr ""
-"Анна сказала, что у Равель есть 'потомство' - одна или несколько дочерей, "
-"разбросанных по Планам. Интересно, удастся ли мне найти хоть одну из них... "
+"Анна сказала, что у Равель есть «потомство» - одна или несколько дочерей, "
+"разбросанных по планам. Интересно, удастся ли мне найти хоть одну из них... "
 "может быть, они знают, как попасть в ее лабиринт. Даже не знаю, с чего стоит "
 "начать поиски."
 
 #: 67069
-#, fuzzy
 msgid ""
 "\"Seed, kin, wee ones - Oul' Ravel's said tae have a mess o' daughters, so "
 "the tale-tellers say - or just one, dependin' on which tale-teller yeh ask - "
 "an' whether they're downing bub when yeh talkin' to 'em.\" Annah's voice "
 "drops again. \"Ravel birthed 'em from some *fiend,* the tales say.\""
 msgstr ""
-"«Потомство, родню, малышей. Ходят слухи, что старой Равель куча дочек - так "
-"поговаривают некоторые байкочесы... или только одна, смотря на какого "
-"байкаря нарвешься и сколько он уже вылакал, - голос Анны снова затихает. - "
+"«Потомство, родню, малышей. Ходят слухи, что у старой Равель куча дочек - так "
+"поговаривают некоторые сказочники... или только одна, смотря на какого "
+"сказочника нарвешься и сколько он уже вылакал, - голос Анны снова затихает. - "
 "Говорят, Равель нагуляла их от какой-то *нечисти*»."
 
 #: 67070
@@ -4210,7 +4145,6 @@ msgid "\"So will you teach me?\""
 msgstr "«Так ты будешь меня учить?»"
 
 #: 67100
-#, fuzzy
 msgid ""
 "\"Hssst!\" As you lash out, Annah dodges back - but it's not fast enough, "
 "and your hands snag the edge of one of her punch daggers, drawing blood. "
@@ -4283,7 +4217,6 @@ msgid "\"I think I understand the basics, Annah.\""
 msgstr "«Кажется, я уяснил основы, Анна»."
 
 #: 67111
-#, fuzzy
 msgid ""
 "\"Yeh got to know where yeh are, and how quick yeh can become PART of where "
 "yeh are.\" She flicks her tail after each word, as if for emphasis. \"When "
@@ -4296,15 +4229,14 @@ msgstr ""
 "котором ты находишься, - каждое свое слово она подчеркивает щелканьем "
 "хвоста. - Ежели тебе удастся это, ты будешь все равно что тень, так то».\n"
 "\n"
-"ПРИМЕЧАНИЕ: Если ты решишь скрыться в темных местах, ты получишь бонус к "
-"шансу спрятаться в тенях."
+"^NПРИМЕЧАНИЕ: Если вы решитесь скрыться в темных местах, то получите бонус к "
+"шансу спрятаться в тенях.^-"
 
 #: 67112
 msgid "\"So how do I do that?\""
 msgstr "«А как мне это сделать?»"
 
 #: 67114
-#, fuzzy
 msgid ""
 "\"More important is how yeh NOT do it - yeh can't stay hid when someone's "
 "got an eye for yeh, yeh're attacking someone, nor when yeh're trying to fix "
@@ -4319,17 +4251,16 @@ msgstr ""
 "засекли, если ты нападаешь на кого-то или пытаешься вскрыть замок, так что "
 "будь на чеку, КОГДА собираешься заныкаться, усек?»\n"
 "\n"
-"ПРИМЕЧАНИЕ: Чтобы спрятаться в тенях, выбери иконку «Скрытность», нажав "
-"кнопку «Особые навыки» в быстром меню. При нажатии у тебя есть шанс скрыться "
+"^NПРИМЕЧАНИЕ: Чтобы спрятаться в тенях, выберите иконку «Скрытность», нажав "
+"кнопку «Особые навыки» в быстром меню. При нажатии у вас есть шанс скрыться "
 "в тенях. Любое действие против другого персонажа или объекта отменяет эффект "
-"способности."
+"способности.^-"
 
 #: 67115
 msgid "\"So what's the point of hiding in shadows, then?\""
 msgstr "«Тогда какой смысл прятаться в тенях?»"
 
 #: 67117
-#, fuzzy
 msgid ""
 "\"BECAUSE...\" Annah corkscrews her tail for emphasis. \"When yeh step outta "
 "the shadows and give someone that extra TWIST o' the knife in the back, it "
@@ -4338,15 +4269,14 @@ msgid ""
 "^NNOTE: When you strike someone from the shadows, it can double, triple, "
 "even quadruple your damage.^-"
 msgstr ""
-"«А ВОТ ТАКОЙ... - Анна скручивает хвост штопором для пущей выразительности. "
-"- Если выйти из тени и от души ЧИКАНУТЬ кого-то ножиком в спину, получится "
-"гораздо БОЛЬНЕЕ. Типа особенность такая, когда тебя не видно, так-то».\n"
+"«А ВОТ ТАКОЙ... - Анна скручивает хвост штопором для пущей выразительности. -"
+" Если выйти из тени и от души ЧИКАНУТЬ кого-то ножиком в спину, получится"
+" гораздо БОЛЬНЕЕ. Типа особенность такая, когда тебя не видно, так-то».\n"
 "\n"
-"ПРИМЕЧАНИЕ: Когда ты атакуешь кого-то из теней, нанесенный урон может "
-"удвоиться, утроиться или даже учетвериться."
+"^NПРИМЕЧАНИЕ: Когда вы атакуете кого-то из теней, нанесенный урон может"
+" удвоиться, утроиться или даже учетвериться.^-"
 
 #: 67120
-#, fuzzy
 msgid ""
 "\"Next thing yeh'll learn is how to nick something from someone's pockets. "
 "It's a small matter, but it's like being part of the shadows - yeh got to "
@@ -4366,7 +4296,6 @@ msgid "\"Sounds too risky to be of any use.\""
 msgstr "«Звучит слишком рискованно, чтоб этим пользоваться»."
 
 #: 67123
-#, fuzzy
 msgid ""
 "\"Well...\" Annah smirks. \"The purses of a lot of townsfolk can add up, "
 "they can. And sometimes, they've tucked away something more than copper, and "
@@ -4376,22 +4305,19 @@ msgid ""
 "^NNOTE: <PICKPOCKET> Stealing from stores is done through a button on the "
 "store screen.^-"
 msgstr ""
-"«Ну... - Анна усмехается. - Зато можно насобирать целую кучу кошельков у "
-"городских, так-то. Да и, бывает, туда суют кое-что еще, кроме меди - вот это "
-"уже находка, так-то». Она смеется. «А у торговцев можно спереть что-нибудь с "
-"прилавка, если ты порядком шустрый».\n"
+"«Ну... - Анна усмехается. - Зато можно насобирать целую кучу кошельков у"
+" городских, так-то. Да и, бывает, туда суют кое-что еще, кроме меди - вот это"
+" уже находка, так-то». Она смеется. «А у торговцев можно спереть что-нибудь с"
+" прилавка, если ты порядком шустрый».\n"
 "\n"
-"ПРИМЕЧАНИЕ: Чтобы обчистить карманы, выбери иконку воровских навыков, нажав "
-"кнопку «Особые навыки» в быстром меню, а затем наведи курсор на мишень. Он "
-"сменится на иконку карманного воровства. Воровство с прилавков можно "
-"совершить с помощью кнопки на экране магазина."
+"^NПРИМЕЧАНИЕ: <PICKPOCKET> Воровство с прилавков можно совершить с помощью"
+" кнопки на экране магазина.^-"
 
 #: 67124
 msgid "\"What if the merchants keep their stock locked up?\""
 msgstr "«А что если торговцы держат свои товары под замком?»"
 
 #: 67126
-#, fuzzy
 msgid ""
 "\"Well now, yeh got to know the way o' how tae coax a lock that won't open "
 "tae open, aye? It's a hard thing oftimes tae do, but anything's that's "
@@ -4403,9 +4329,7 @@ msgstr ""
 "верно? Порой это нелегко, но все запертое стоит того, чтобы его открыть... - "
 "она хмурится. - Ну, по большей части».\n"
 "\n"
-"ПРИМЕЧАНИЕ: Чтобы вскрыть замок, выбери иконку воровских навыков, нажав "
-"кнопку «Особые навыки», и наведи курсор на запертую дверь или контейнер. Он "
-"сменится на иконку взлома замка."
+"^NПРИМЕЧАНИЕ: <PICKLOCKS>^-"
 
 #: 67129
 msgid ""
@@ -4427,7 +4351,6 @@ msgid "\"So how do I spot these things?\""
 msgstr "«И как мне найти такие вещи?»"
 
 #: 67132
-#, fuzzy
 msgid ""
 "\"It's like the 'being a shadow' bit - yeh need tae pay *mind* tae yer "
 "surroundings. When yeh step into an area, take a look around - anythin' out-"
@@ -4444,17 +4367,16 @@ msgstr ""
 "закрытом коридоре? Странный кусок пола? Важный сундук посреди комнаты? - "
 "Анна тычет хвостом в твою сторону. - Вот так и находятся ловушки».\n"
 "\n"
-"ПРИМЕЧАНИЕ: Чтобы обнаружить ловушки, активизируй иконку «Найти/удалить "
+"^NПРИМЕЧАНИЕ: Чтобы обнаружить ловушки, активизируйте иконку «Найти/удалить "
 "ловушки», нажав кнопку «Особые навыки» в быстром меню. Когда она включена, у "
-"тебя есть определенный шанс обнаружить ловушку, которая будет подсвечена под "
-"курсором."
+"вас есть определенный шанс обнаружить ловушку, которая будет подсвечена под "
+"указателем.^-"
 
 #: 67133
 msgid "\"So how do I avoid these things?\""
 msgstr "«И как мне обойти это?»"
 
 #: 67135
-#, fuzzy
 msgid ""
 "\"Avoidin' it? Well, it's *skinnin'* the trap off the place yeh want to open "
 "or be that's the trick - unless yeh're really sure, yeh have about the same "
@@ -4464,16 +4386,13 @@ msgid ""
 "^NNOTE: <DISARMTRAP> If you fail, you have a chance of setting off the trap."
 "^-"
 msgstr ""
-"«Обойти? Ну, либо *сорвать* ловушку, либо оставить в покое - вот и вся "
-"хитрость. У тебя есть примерно те же шансы обезвредить ловушку, как при ее "
-"обнаружении. Но если ты уже ее обнаружил... - Анна пожимает плечами. - У "
-"тебя должны быть хорошие шансы. По большей части».\n"
+"«Обойти? Ну, либо *сорвать* ловушку, либо оставить в покое - вот и вся"
+" хитрость. У тебя есть примерно те же шансы обезвредить ловушку, как при ее"
+" обнаружении. Но если ты уже ее обнаружил... - Анна пожимает плечами. - У"
+" тебя должны быть хорошие шансы. По большей части».\n"
 "\n"
-"ПРИМЕЧАНИЕ: Чтобы обезвредить ловушку, выбери иконку воровских навыков, "
-"нажав кнопку «Особые навыки» на быстром меню, а затем наведи курсор на "
-"область с ловушкой и щелкни по области. У тебя есть шанс обезвредить "
-"ловушку. Если тебе не удастся обезвредить ее, у тебя еще есть шанс избежать "
-"ее срабатывания."
+"^NПРИМЕЧАНИЕ: <DISARMTRAP> Если вам не удастся обезвредить ее, у вас еще есть"
+" шанс избежать ее срабатывания.^-"
 
 #: 67136
 msgid "\"Anything else?\""
@@ -4494,7 +4413,6 @@ msgid "\"All right.\" "
 msgstr "«Хорошо». "
 
 #: 67140
-#, fuzzy
 msgid ""
 "\"All right, then...\" She looks you up and down. \"Let's get down to "
 "th'blood and th'sweat that comes with the job.\" She frowns as she studies "
@@ -4596,7 +4514,6 @@ msgid "\"Forget it. Let's move on.\""
 msgstr "«Забудь. Пошли»."
 
 #: 67316
-#, fuzzy
 msgid ""
 "She nods. \"Aye, well, the trick to being not-seen is knowing where yeh are "
 "and how quick yeh can become PART of where yeh are. There's some tricks I've "
@@ -4632,7 +4549,6 @@ msgstr ""
 "момент»."
 
 #: 67319
-#, fuzzy
 msgid ""
 "\"So let's see: be sure to fall back to places you know well, preferably in "
 "a surrounding where there are other distractions - and if there aren't any, "
@@ -4642,7 +4558,6 @@ msgstr ""
 "отвлекалок. А если их нет, можно их соорудить»."
 
 #: 67320
-#, fuzzy
 msgid ""
 "\"Pickin' at locks - well, I can tell yeh what NOT to do. First is, be sure "
 "yeh carry a little oil or something else to wet the tip o' yer lockpick in "
@@ -4651,7 +4566,7 @@ msgid ""
 "patterned by this one locksmith from a stone's age ago, an' they have this "
 "common catch yeh-\""
 msgstr ""
-"«Взлом... ну, могу сказать, чего тебе НЕ СТОИТ делать. Перво на перво, "
+"«Взлом... ну, могу сказать, чего тебе НЕ СТОИТ делать. Перво-наперво, "
 "всегда носи с собой немного масла или еще чего-нибудь, чтоб смочить кончик "
 "отмычки на случай, если замок будет тугой. Еще одной штуке я научилась у "
 "самого старого костыля Фарода. Много замков в Сигиле смастерил один и тот же "
@@ -4662,7 +4577,6 @@ msgid "\"Go on...\""
 msgstr "«Продолжай...»"
 
 #: 67322
-#, fuzzy
 msgid ""
 "\"...so it was gettin' near peak, with the first fingers o' dawn creepin' "
 "in, an' I knew they'd be searching the attics for me. But because the attic "
@@ -4685,7 +4599,6 @@ msgstr ""
 "замков... Надо запомнить это, когда я наткнусь на похожий замок»."
 
 #: 67324
-#, fuzzy
 msgid ""
 "\"Well, now that's an easy one tae give the knowing on - the most important "
 "thing is that someone had to SET the trap, and that they KNOW about it once "
@@ -4726,7 +4639,6 @@ msgstr ""
 "обойти их»."
 
 #: 67328
-#, fuzzy
 msgid ""
 "\"Well, nicking someone's purse isn't as hard as yeh would think...\" Annah "
 "shrugs. \"It's mostly a-matter o' doing it quick and gentle-like, so they "
@@ -4736,8 +4648,8 @@ msgstr ""
 "«Ну, обчистить чей-нибудь кошелек - это не так сложно, как ты думаешь, - "
 "Анна пожимает плечами. - Вообще фокус в том, чтобы делать это быстро и "
 "аккуратно, так, чтоб никто и не почувствовал, что его кошелек полегчал. Если "
-"у тебя не выходит, то проблема наверно в том, как ты это делаешь». Она "
-"кивает тебе. «Покажи мне»."
+"у тебя не выходит, то проблема наверно в том, как ты это делаешь, - она "
+"кивает тебе. - Покажи мне»."
 
 #: 67329
 msgid ""
@@ -4757,11 +4669,10 @@ msgid "\"All right... uh, where do you keep it?\""
 msgstr "«Ну хорошо... Э-э-э, а где ты их держишь?»"
 
 #: 67332
-#, fuzzy
 msgid ""
 "\"That's what *yeh* have to find out, if yeh want to be a true-blooded thief."
 "\""
-msgstr "«Это ты *сам* должен выяснить, раз хочешь внатуре стать вором»."
+msgstr "«Это ты *сам* должен выяснить, раз хочешь стать вором-знатоком»."
 
 #: 67333
 msgid "\"All right... let me try and nick... er, pick pocket you for it.\""
@@ -4900,7 +4811,6 @@ msgstr ""
 "раздвоенным кончиком, другая...»"
 
 #: 67355
-#, fuzzy
 msgid ""
 "\"When you try and pick someone's pockets, you should use your body to "
 "better effect; it shouldn't be too hard for you to distract a mark from his "
@@ -4911,7 +4821,6 @@ msgstr ""
 "вещей...»"
 
 #: 67356
-#, fuzzy
 msgid ""
 "\"Not only should you *look* for signs that traps have been placed, but "
 "there's other signs you can tell as well, from sulfur in the air, to changes "
@@ -4942,7 +4851,6 @@ msgstr ""
 "то. Это все от моей крови, наверное. Этот жилет позволяет моей коже дышать»."
 
 #: 67360
-#, fuzzy
 msgid ""
 "\"Well, you add a few more slashes to the front of that, and your marks "
 "aren't going to care if you're picking their pocket or not. Now, watch my "
@@ -4972,12 +4880,10 @@ msgstr ""
 "говорить про жилет, теперь я думаю об этом не переставая!»"
 
 #: 67364
-#, fuzzy
 msgid "\"Look me in the eye - now just calm down.\""
-msgstr "«Посмотри мне в глаза и успокойся»."
+msgstr "«Посмотри мне в глаза. А теперь успокойся»."
 
 #: 67365
-#, fuzzy
 msgid ""
 "Annah's gaze locks with yours, and you notice she's still stiff - and she's "
 "biting her lip."
@@ -5077,7 +4983,6 @@ msgid "\"I'm JUST trying to help you, Annah.\""
 msgstr "«Я ПРОСТО пытаюсь помочь тебе, Анна»."
 
 #: 67384
-#, fuzzy
 msgid ""
 "\"Oh, aye? Are yeh *sure* that every time I nick somethin' from someone's "
 "purse, or spring a lock, yeh aren't just shakin' your head behind your back, "
@@ -5277,7 +5182,6 @@ msgid "\"I just wanted to know. Let's move on.\""
 msgstr "«Это все, что я хотел знать. Пошли»."
 
 #: 67418
-#, fuzzy
 msgid "She nods, a little warily. \"Aye, yeh did - I haven't forgot yeh.\""
 msgstr "Она с опаской кивает: «Ага, встречал - тебя не забудешь»."
 
@@ -5324,7 +5228,6 @@ msgid "\"Let's move on.\""
 msgstr "«Идем»."
 
 #: 67428
-#, fuzzy
 msgid ""
 "Annah looks at you warily, and her tail stops flicking for a moment, then "
 "resumes, slower than before. \"Aye, *mayhap* I found somethin'. But *if* I "
@@ -5361,7 +5264,6 @@ msgid "\"I'd like that ring back. Now.\""
 msgstr "«Я хотел бы его забрать. Сейчас же»."
 
 #: 67432
-#, fuzzy
 msgid ""
 "She studies the ring with a frown, glances at you, then back at the ring. "
 "With a sneer, she flicks the ring to you. \"Dinnae want the ugly thing "
@@ -5445,7 +5347,6 @@ msgstr ""
 "получив практически ничего взамен, я нахожу эту мысль заманчивой»."
 
 #: 67446
-#, fuzzy
 msgid ""
 "\"Well, *good* - I'm warning yeh against such a thing, I am. Pharod can be "
 "daft sometimes, but he's mean as all fiend spit when he gets worked up.\" "
@@ -5599,7 +5500,6 @@ msgstr ""
 "а ты - нет»."
 
 #: 67477
-#, fuzzy
 msgid ""
 "\"Oh, that's rich, so it is! Yeh're staggerin' around like a walking stab "
 "wound, and yeh've got the brass to give me wash about what a *human* looks "
@@ -5607,10 +5507,9 @@ msgid ""
 msgstr ""
 "«О, роскошно, просто отпад! Шатаешься тут, ходячая дырка от ножика, и еще "
 "имеешь наглость вываливать мне какую-то фигню о том, на кого похожи *люди*? "
-"Можешь захлебнуться своим же дерьмом, и да помогут тебе Силы!»"
+"Можешь захлебнуться своим же дерьмом, и да помогут тебе силы!»"
 
 #: 67481
-#, fuzzy
 msgid ""
 "\"Oh, now what coulda tipped yeh off to that? My hair? My skin? I can't "
 "think of anything else...\" Annah slaps herself lightly on the forehead, "
@@ -5695,7 +5594,6 @@ msgstr ""
 "крысиный хвост, торчащий у тебя из зада»."
 
 #: 67497
-#, fuzzy
 msgid ""
 "Annah's face twists into a snarl, and her eyes flash. \"Oh - yeh'd best "
 "*watch* yerself with me, yeh should. Maybe next time I'll be putting yeh in "
@@ -5781,7 +5679,6 @@ msgstr ""
 "просто горю от него»."
 
 #: 67509
-#, fuzzy
 msgid ""
 "\"I want tae bite yeh, soft-like around the neck...\" She teases the side of "
 "your neck with her teeth, never breaking skin, and with every whisper, you "
@@ -5798,7 +5695,6 @@ msgstr ""
 
 # fermaldyhe - намеренная ошибка, Анна не знает этого слова.
 #: 67511
-#, fuzzy
 msgid ""
 "\"Do yeh know I can *smell* yeh from fifty paces, that smell of formaldehyde "
 "pouring offa yeh like one of them Dustie shamblers. Maybe if yeh cleaned "
@@ -6043,7 +5939,6 @@ msgstr ""
 "более»."
 
 #: 67559
-#, fuzzy
 msgid "\"Well, if you want to talk about it, I'm lis-\""
 msgstr "«Ну, если ты хочешь поговорить об этом, то я готов высл...»"
 
@@ -6060,7 +5955,6 @@ msgstr ""
 "это не нравится»."
 
 #: 67563
-#, fuzzy
 msgid ""
 "\"I...\" Annah takes a deep breath. \"I think I have *feelings* for yeh. It "
 "feels strange, it does... I don't think I've ever liked *anyone.* But yeh..."
@@ -6186,7 +6080,6 @@ msgid "\"Never mind. I had something else I wanted to ask you...\""
 msgstr "«Неважно. У меня есть еще несколько вопросов к тебе...»"
 
 #: 67590
-#, fuzzy
 msgid ""
 "Annah rolls her eyes. \"Oh, aye, yeh'll kiss the evilest, ugliest witch on "
 "all the known planes, but yeh won't lock lips with me? Oh, aye, anything yeh "
@@ -6218,7 +6111,6 @@ msgstr ""
 "укусом *сжимая* ее все сильнее и сильнее."
 
 #: 67599
-#, fuzzy
 msgid ""
 "At first, it's like kissing a wall, then she starts slowly kissing you back, "
 "hesitant at first, then with more confidence - her sharp teeth lightly "
@@ -6362,7 +6254,6 @@ msgstr ""
 "попрошу ее уйти»."
 
 #: 67623 67629 67638
-#, fuzzy
 msgid ""
 "\"I don't have *time* to argue this with you, Annah. If you don't like Fall-"
 "from-Grace being around, then leave.\""
@@ -6399,7 +6290,6 @@ msgid "\"Leave, then. I don't want to see you again.\""
 msgstr "«Ладно, уходи. Я не желаю тебя больше видеть»."
 
 #: 67633
-#, fuzzy
 msgid ""
 "\"Ye're a stem-shriveled *liar,* yeh are. Yeh only let me tag around with "
 "yeh 'cause yeh don't know what else tae do with me, yeh don't! Why didn't "
@@ -6410,7 +6300,6 @@ msgstr ""
 "не отшил меня, когда Фарод сделал меня твоей нянькой?»"
 
 #: 67634
-#, fuzzy
 msgid "\"Because-\""
 msgstr "«Потому что...»"
 
@@ -6504,12 +6393,10 @@ msgstr ""
 "«ЕЩЕ чего! Только не с такими, как *эта*! Валите вы оба ГНИТЬ в свою Бездну!»"
 
 #: 67649
-#, fuzzy
 msgid "\"Annah, I want *your* company. Will you travel with me again?\""
 msgstr "«Анна, ты *нужна* мне. Пойдешь со мной?»"
 
 #: 67650
-#, fuzzy
 msgid ""
 "Truth: \"Annah, Fall-from-Grace doesn't mean as much to me as you do. Will "
 "you please travel with us again?\""
@@ -6518,7 +6405,6 @@ msgstr ""
 "пойдем с нами, хорошо?»"
 
 #: 67651
-#, fuzzy
 msgid ""
 "Lie: \"Annah, Fall-from-Grace doesn't mean as much to me as you do. Will you "
 "please travel with us again?\""
@@ -6631,7 +6517,6 @@ msgstr ""
 "сплевывает. - Не хочу больше связываться с вами двумя!»"
 
 #: 67672
-#, fuzzy
 msgid ""
 "Annah's eyes narrow to slits. \"Where's the stuck-up-ubus, then? She try and "
 "take a bite out o' yer neck and send yeh off to the Abyss, did she?\""
@@ -6665,7 +6550,6 @@ msgid "\"Annah, it won't happen again.\""
 msgstr "«Этого больше не повторится, Анна»."
 
 #: 67678
-#, fuzzy
 msgid ""
 "\"Aye... well... yeh best be careful, yeh should. I'll travel with yeh "
 "again, I will.\""
@@ -6796,7 +6680,6 @@ msgid "\"All right, then. There was something else I wanted to ask you...\""
 msgstr "«Ну хорошо. Я хочу спросить кое о чем еще...»"
 
 #: 67709
-#, fuzzy
 msgid ""
 "\"Nay, I don't - I *need* tae see his body, though. Pharod's a tricky one, "
 "mayhap he's pulling a dodge on yeh...\""
@@ -6899,7 +6782,6 @@ msgstr ""
 "ХОЧЕШЬ, Я ВЕРНУ ТЕБЯ В СИГИЛ."
 
 #: 68329
-#, fuzzy
 msgid ""
 "\"Wh-\" Annah opens her mouth, then pauses. \"Wh- Where are *yeh* goin'?\""
 msgstr ""
@@ -6965,7 +6847,6 @@ msgid "\"What's the matter?\""
 msgstr "«В чем дело?»"
 
 #: 7599
-#, fuzzy
 msgid "\"What do you-?\""
 msgstr "«Что ты делаешь?..»"
 
@@ -7035,7 +6916,6 @@ msgid "\"What are you doing?\""
 msgstr "«Что ты делаешь?»"
 
 #: 7703
-#, fuzzy
 msgid ""
 "Annah nods back at the man who is still standing around, staring at the "
 "buildings. \"That Sig bastard peeled yeh, he did.\" Annah smiles. \"Yeh'd "
@@ -7048,7 +6928,6 @@ msgstr ""
 "и без звенелок остаться»."
 
 #: 7705
-#, fuzzy
 msgid ""
 "She holds out a handful of coins, which she hands to you. \"All yeh jink, "
 "back ta its owner, aye?\" She throws another glance back. \"Ee's a piss-poor "

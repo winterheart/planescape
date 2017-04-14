@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddust.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-01 16:02+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 15:29+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 1332 329 337 3917
 msgid "Leave. Quickly."
@@ -71,7 +71,6 @@ msgid "\"Can't have you alerting your friends...\""
 msgstr "«Нельзя дать тебе предупредить своих друзей...»"
 
 #: 1427
-#, fuzzy
 msgid "There is a *crack,* and the Dustman falls limp in your arms."
 msgstr ""
 "В шее раздается характерный хруст, и тело тленного безвольно падает в твои "
@@ -206,7 +205,6 @@ msgid "\"I'm here to see someone.\""
 msgstr "«Я хочу кое с кем повидаться»."
 
 #: 334 378
-#, fuzzy
 msgid ""
 "\"I was here for an interment, but there seems to have been a mistake.\""
 msgstr "«Я пришел сюда на похороны, но, похоже, произошла ошибка»."
@@ -279,7 +277,6 @@ msgstr ""
 "быть, это она?»"
 
 #: 351
-#, fuzzy
 msgid ""
 "\"I believe Soego is by the front gate on the first floor. He is acting as a "
 "guide during the anti-peak hours.\""
@@ -296,7 +293,6 @@ msgid "\"Very well. Thank you.\""
 msgstr "«Отлично. Спасибо»."
 
 #: 355
-#, fuzzy
 msgid ""
 "\"I believe Soego is by the front gate. He is acting as a guide during the "
 "anti-peak hours.\""
@@ -311,7 +307,6 @@ msgid ""
 msgstr "«Кто был погребен? Возможно, служба проводится в другом конце Морга»."
 
 #: 359
-#, fuzzy
 msgid "\"You misunderstand... the mistaken interment was ME.\""
 msgstr "«Ты не понимаешь... ошибка в том, что похоронить собирались МЕНЯ»."
 
@@ -324,7 +319,6 @@ msgid "\"Can you show me the way out?\""
 msgstr "«Ты можешь показать выход отсюда?»"
 
 #: 362
-#, fuzzy
 msgid ""
 "\"Several interment chambers line the perimeter of the Mortuary. They follow "
 "the curve of the wall on the first and second floors. Do you know the name "
@@ -501,13 +495,12 @@ msgid ""
 msgstr "«У меня такой же вопрос. Твое лицо мне незнакомо. Как тебя зовут?»"
 
 #: 394
-#, fuzzy
 msgid ""
 "\"This is the Mortuary...\" The Dustman looks at you for a moment, as if "
 "digesting what you've just said. \"What did you say your name was again?\""
 msgstr ""
-"«Это Морг...» Тленный какое-то время смотрит на тебя, как бы оценивая только "
-"что тобою сказанное. «Как, ты сказал, тебя зовут?»\n"
+"«Это Морг...» Тленная какое-то время смотрит на тебя, как бы оценивая только "
+"что тобою сказанное. «Как, ты сказал, тебя зовут?»"
 
 #: 398
 msgid "\"A journal? I have not seen one.\""
@@ -604,9 +597,8 @@ msgstr ""
 "последует за болезнью, которую он подхватил. Ему повезло»."
 
 #: 420
-#, fuzzy
 msgid "\"Githzerai standards?\""
-msgstr "«По меркам гитцерев?»\n"
+msgstr "«По меркам гитцераев?»"
 
 #: 421 433
 msgid "\"What is a *githzerai?*\""
@@ -743,3 +735,4 @@ msgstr ""
 #: 66682
 msgid "\"I will do so. Farewell.\""
 msgstr "«Конечно. Прощай». "
+

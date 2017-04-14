@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-08 20:15+0600\n"
+"PO-Revision-Date: 2017-04-14 01:10+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 17479
 msgid ""
@@ -27,7 +27,6 @@ msgstr ""
 "крошечных декоративных выступов и ободков."
 
 #: 17480
-#, fuzzy
 msgid ""
 "You pull out the old finger bone to examine it once more. It is a decayed "
 "and nearly meatless finger bone from a humanoid of roughly your size. There "
@@ -35,7 +34,7 @@ msgid ""
 "sculpted with dozens of tiny, ornate flanges and decorative protrusions."
 msgstr ""
 "Ты вынимаешь старый костяной палец, чтобы рассмотреть его еще раз. Это "
-"полностью разложившийся, практически без плоти, костяной палец "
+"разложившийся, практически без плоти, костяной палец "
 "человекоподобного существа размером примерно с тебя. На пальце надето какое-"
 "то необычное кольцо. Это замысловатый предмет, украшенный десятками "
 "крошечных декоративных выступов и ободков."
@@ -64,7 +63,6 @@ msgstr ""
 "тела не позволило выдержать такую травму, и ты падаешь на землю, умирая."
 
 #: 17483
-#, fuzzy
 msgid ""
 "You place the ring finger of your left hand into your mouth, close your "
 "eyes, take a deep breath, and bite down as hard as you can. There is a "
@@ -79,7 +77,6 @@ msgstr ""
 "обрубок..."
 
 #: 17484
-#, fuzzy
 msgid ""
 "At first, nothing happens, and you are horrified at the thought of what "
 "you've just done. Suddenly, though, you feel a strange tingling sensation as "
@@ -98,12 +95,10 @@ msgid "Pull the ring from the finger."
 msgstr "Снять кольцо с пальца."
 
 #: 17486 17488 17491
-#, fuzzy
 msgid "Put the finger bone away."
 msgstr "Спрятать костяной палец."
 
 #: 17489 17490
-#, fuzzy
 msgid "Remove your own finger, replace it with the finger bone."
 msgstr "Оторвать себе палец и заменить его костяным."
 
@@ -114,3 +109,4 @@ msgstr "Готово."
 #: 17493
 msgid "Continue..."
 msgstr "Продолжить..."
+

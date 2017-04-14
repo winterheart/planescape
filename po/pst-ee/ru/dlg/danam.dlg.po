@@ -1,21 +1,20 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: danam.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-03-12 20:58+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 01:08+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 32994 33051 33055 33106
-#, fuzzy
 msgid "Ignore the Collector and continue on."
 msgstr "Не обращать внимания на сборщика, пройти мимо."
 
@@ -24,7 +23,6 @@ msgid "\"I don't think so...\""
 msgstr "«Я так не думаю...»"
 
 #: 33042
-#, fuzzy
 msgid ""
 "A ragged, middle-aged Collector approaches as you enter the area. \"I...\" "
 "He quickly looks you over and then sneers. \"...don't know you.\""
@@ -33,7 +31,6 @@ msgstr ""
 "лохмотья. «Я... - хмыкнув, он быстро тебя оглядывает, - тебя не знаю»."
 
 #: 33043
-#, fuzzy
 msgid "The Collector continues to glare at you."
 msgstr "Сборщик продолжает пялиться на тебя."
 
@@ -42,7 +39,6 @@ msgid "\"Greetings.\""
 msgstr "«Приветствую»."
 
 #: 33045
-#, fuzzy
 msgid ""
 "\"What ye're lookin' for is no concern of mine, berk.\" He spits. \"What is "
 "concern'n me is that ye're still breathin' in my presence.\""
@@ -51,7 +47,6 @@ msgstr ""
 "колышет, так это то, что ты все еще дышишь в моем присутствии»."
 
 #: 33046
-#, fuzzy
 msgid ""
 "As you approach the Collector, he gives you a look of disgust. \"No more "
 "words, cutter. You'll find them hard to barter with in these parts.\" The "
@@ -72,7 +67,6 @@ msgstr ""
 "присутствии». Он сплевывает."
 
 #: 33048
-#, fuzzy
 msgid ""
 "As you turn to leave, you notice the Collector drawing a knife from one of "
 "his pockets. \"Don't know what ya was thinking about by coming down 'ere, "
@@ -103,12 +97,12 @@ msgid "\"Is there a problem?\""
 msgstr "«Какие-то проблемы?»"
 
 #: 33058 33093 33097 33101
-#, fuzzy
 msgid ""
 "\"If you don't let me pass, Collector, one of us is going to the Mortuary "
 "and it won't be me.\""
 msgstr ""
-"«Если ты меня не пропустишь, то один из нас попадет в Морг, и это точно буду "
+"«Если ты меня не пропустишь, сборщик, то один из нас попадет в Морг, и это"
+" точно буду "
 "не я»."
 
 #: 33090
@@ -120,7 +114,6 @@ msgstr ""
 "твоем месте следил за собой»."
 
 #: 33091
-#, fuzzy
 msgid ""
 "The Collector responds to your threat by pulling out a knife from one of his "
 "pockets. \"I be disagreein' with ya, berk. It's YOU who'll soon be jink in "
@@ -130,7 +123,6 @@ msgstr ""
 "согласиться с тобой, пень. Это ТЫ скоро станешь звенелками в моем кармане!»"
 
 #: 33092
-#, fuzzy
 msgid ""
 "You seem to talk some sense into the Collector, as he turns away from you. "
 "\"Watch yer back, cutter. Most 'ere will talk to ya with their blade before "
@@ -152,7 +144,6 @@ msgid "\"Then I'll leave your presence, berk.\""
 msgstr "«Тогда я оставлю тебя, пень»."
 
 #: 33096 33105
-#, fuzzy
 msgid "Attack the Collector."
 msgstr "Атаковать сборщика."
 
@@ -174,3 +165,4 @@ msgstr "«Ну попробуй...»"
 #: 33110
 msgid "\"Whatever...\""
 msgstr "«Как скажешь...»"
+

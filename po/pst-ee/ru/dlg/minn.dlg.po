@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-09 00:53+0600\n"
+"PO-Revision-Date: 2017-04-14 13:20+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 38976
 msgid ""
@@ -289,7 +289,6 @@ msgstr ""
 "молить о прощении»."
 
 #: 44475
-#, fuzzy
 msgid ""
 "\"I am a *githyanki.* I have nothing to do with the githzerai dogs. Can the "
 "same be said of you?\""
@@ -388,7 +387,6 @@ msgid "\"It came from insult.\""
 msgstr "«Это оскорбление»."
 
 #: 44502
-#, fuzzy
 msgid ""
 "\"It is a no-place, a place between places, where mind is all that matters. "
 "It is the home of my people. When people die, their souls flee to the Outer "
@@ -649,12 +647,11 @@ msgid ""
 msgstr "«Это уж слишком. Может, ответишь еще на несколько вопросов...»"
 
 #: 44574
-#, fuzzy
 msgid ""
 "The githyanki pockets your coins. \"Return here in a week's time, and I "
 "shall have a memory for you. Do not be late.\""
 msgstr ""
-"Гитьянки кладет твои монеты в карман и произносит: «Возвращайся сюда через "
+"Гитьянки кладет твои монеты в карман. «Возвращайся сюда через "
 "неделю, и у меня будут воспоминания для тебя. Не опаздывай»."
 
 #: 44577 44580
@@ -688,9 +685,8 @@ msgid "\"I will not tell you.\""
 msgstr "«Я не скажу тебе»."
 
 #: 44590 44603
-#, fuzzy
 msgid "\"I merely relieved a githzerai woman's pain.\""
-msgstr "«Я лишь облегчил боль женщины гитцерай»."
+msgstr "«Я лишь облегчил боль гитцерайки»."
 
 #: 44594 44605
 msgid "\"I merely asked some questions.\""
@@ -770,7 +766,6 @@ msgstr ""
 "останавливается."
 
 #: 44620
-#, fuzzy
 msgid ""
 "The githyanki has been watching your approach, and seems to ignore you "
 "entirely. \"Dak'kon-who-wails-on-the-walls-of-Shra'kt'lor... an unexpected "
@@ -781,7 +776,6 @@ msgstr ""
 "сюрприз», - он достает свое оружие."
 
 #: 44621
-#, fuzzy
 msgid ""
 "As you turn away, the githyanki, who has been watching you all this time, "
 "calls out to you. \"Do you turn your back on me, Dak'kon-who-wails-on-the-"
@@ -871,7 +865,6 @@ msgid "Let them fight."
 msgstr "Дать им сразиться."
 
 #: 44643
-#, fuzzy
 msgid ""
 "\"Leaving? No. Not without the heart of the traitor of Shra'kt'lor.\" The "
 "githyanki attacks!"
@@ -893,3 +886,4 @@ msgid ""
 "\"We shall see about that, githzerai dog!\" The githyanki attacks Dak'kon "
 "furiously."
 msgstr "«Посмотрим, гитцерайский пес!» Гитьянки яростно атакует Даккона."
+

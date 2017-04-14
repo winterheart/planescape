@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dzm732.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-03-24 20:31+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 17:07+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 64270
 msgid ""
@@ -37,7 +37,6 @@ msgid "Leave the corpse in peace."
 msgstr "Оставить труп в покое."
 
 #: 64273
-#, fuzzy
 msgid ""
 "You carefully take the tome from the corpse's hands - it doesn't seem to "
 "notice. The tome appears to be a book of enchantments and wards - it is "
@@ -53,9 +52,7 @@ msgstr ""
 "очень тяжелая. Каким бы неуклюжим не был зомби, он, должно быть, очень "
 "силен.\n"
 "\n"
-"ПРИМЕЧАНИЕ: Чтобы «прочитать» записки, книги или свитки, помести их в свой "
-"инвентарь, а затем нажми по ним правой кнопкой, после чего появится "
-"информационная панель."
+"^NПРИМЕЧАНИЕ: <READSTUFF>^-"
 
 #: 64274
 msgid "Examine the corpse again."
@@ -103,3 +100,4 @@ msgstr "Использовать на трупе свою способность
 #: 6536
 msgid "\"It was great talking to you. Farewell.\""
 msgstr "«Было приятно с тобой поболтать. Прощай»."
+

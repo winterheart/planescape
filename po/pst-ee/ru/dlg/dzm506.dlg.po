@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dzm506.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-03-24 20:15+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 01:23+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 45419
 msgid ""
@@ -27,9 +27,8 @@ msgstr ""
 "этого трупа так много швов, что его кожа выглядит как причудливая карта улиц."
 
 #: 45420
-#, fuzzy
 msgid "Examine the stitches."
-msgstr "Осмотреть швы.  "
+msgstr "Осмотреть швы."
 
 #: 45421 45510
 msgid "\"I know you're not a zombie, you know. You're not fooling anyone.\""
@@ -75,7 +74,6 @@ msgstr ""
 "разрезать нить. "
 
 #: 45428
-#, fuzzy
 msgid ""
 "You slice the thread neatly with the scalpel, then pluck out the needle and "
 "pull the stitches out. As you do, the skin covering the forehead peels back "
@@ -84,7 +82,7 @@ msgid ""
 msgstr ""
 "Ты аккуратно срезаешь нить с помощью скальпеля, а затем выдергиваешь иголку, "
 "распуская швы. Кожа на лбу отваливается, обнажая белый как мел череп. К "
-"твоему удивлению, на нем выбит номер «78».  "
+"твоему удивлению, на нем выбит номер «78»."
 
 #: 45429
 msgid ""
@@ -125,3 +123,4 @@ msgstr "«Похоже, у тебя два разных обозначения, 
 #: 50097
 msgid "Examine the corpse again. "
 msgstr "Снова осмотреть труп. "
+

@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: d300mer1.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2015-10-27 22:00+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 13:55+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 17215 17222 17357
 msgid "\"Tell me about this area.\""
@@ -39,7 +39,6 @@ msgid "\"I'm looking for a man named Pharod.\""
 msgstr "«Я разыскиваю мужчину по имени Фарод»."
 
 #: 17240
-#, fuzzy
 msgid ""
 "This dour-faced old fellow appears to be selling various hand weapons. \"Ah "
 "- c'mon over, then! Come ta see my blades, have yeh?\""
@@ -82,7 +81,6 @@ msgstr ""
 "Он кивает, пряча под одеждой три медяка. «Чего ты хочешь узнать, рубака?»"
 
 #: 17263
-#, fuzzy
 msgid ""
 "\"This? Just another marketplace in the Hive, worst ward in our blessed city "
 "a' Sigil.\" He smiles bitterly, then shrugs. \"As long as yeh watch yer back "
@@ -202,3 +200,4 @@ msgstr "«Можно взглянуть на твои товары?»"
 #: 17373
 msgid "\"Take care. Farewell.\""
 msgstr "«Береги себя. Прощай»."
+

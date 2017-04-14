@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dz1094.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-09 00:47+0600\n"
+"PO-Revision-Date: 2017-04-14 17:04+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 20061
 msgid "\"Back again, hmm?\" He smiles broadly."
@@ -49,7 +49,6 @@ msgid "The corpse continues to stare at you."
 msgstr "Труп продолжает пялиться на тебя."
 
 #: 6564
-#, fuzzy
 msgid ""
 "The corpse shudders for a moment, then stills, the spirit flowing into its "
 "abandoned mortal shell once more. Within seconds, a semblance of life seems "
@@ -183,7 +182,6 @@ msgstr ""
 "увлекательная игра."
 
 #: 9235
-#, fuzzy
 msgid ""
 "The spirit shrugs and smiles, chuckling softly. \"Perhaps you're right! What "
 "is it you wished to ask me?\" He begins absent-mindedly pulling the "
@@ -220,7 +218,6 @@ msgstr ""
 "что она находится на высохшем лице трупа."
 
 #: 9239
-#, fuzzy
 msgid ""
 "\"Arborea! A more wondrous place I could not ask for. Nowhere in my mortal "
 "life did I find a place of such great passion... such splendour...\" He "
@@ -233,7 +230,6 @@ msgstr ""
 "народ. Если честно, я уже скучаю по ней!»"
 
 #: 9240
-#, fuzzy
 msgid ""
 "\"Not so much. I signed a contract with a Dustman on a whim... she had "
 "pointed out the dreadful place to me, once, told me my corpse would be "
@@ -267,7 +263,6 @@ msgstr ""
 "*как-то* называть, верно?» Дух выжидающе смотрит на тебя."
 
 #: 9243
-#, fuzzy
 msgid ""
 "\"Certainly. Ask away!\" He smiles pleasantly, awaiting your query with "
 "interest. The last of the stitches now gone, his grin is not quite so eerie "
@@ -408,12 +403,10 @@ msgid "\"I do not know. Farewell.\""
 msgstr "«Не знаю. Прощай»."
 
 #: 9303
-#, fuzzy
 msgid "\"I am sure you can come up with something. I had a question...\""
 msgstr "«Можешь называть меня, как хочешь. У меня есть вопрос...»"
 
 #: 9304
-#, fuzzy
 msgid "Make a name up: \"I do not know... 'Adahn'?\""
 msgstr "Придумать имя: «Ну, не знаю... 'Адан'?»"
 
@@ -436,3 +429,4 @@ msgstr "«Да... наверное. У меня есть другой вопро
 #: 9316
 msgid "\"Perhaps. Farewell.\""
 msgstr "«Возможно. Прощай»."
+

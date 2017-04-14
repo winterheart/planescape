@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dvivian.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-04-26 19:05+0600\n"
+"PO-Revision-Date: 2017-04-14 17:33+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 2999 38431
 msgid ""
@@ -69,9 +69,8 @@ msgid "\"What's that phial you've got on your necklace?\""
 msgstr "«Что это за флакон у тебя в ожерелье?»"
 
 #: 39070
-#, fuzzy
 msgid "\"Can you tell me about this place?\""
-msgstr "«Что ты можешь сказать об этом месте?»"
+msgstr "«Что ты можешь рассказать об этом месте?»"
 
 #: 39071 67850
 msgid "\"What can you tell me about the silent prostitute?\""
@@ -82,12 +81,11 @@ msgid "\"I heard that Kesai-Serris is Ravel's daughter. Is that true?\""
 msgstr "«Я слышал, что Кесай-Серри - дочь Равель. Это правда?»"
 
 #: 39073
-#, fuzzy
 msgid ""
 "\"I'm trying to find Marissa's Crimson Veil... do you know where it might be?"
 "\""
 msgstr ""
-"«Я пытаюсь найти малиновую вуаль Мариссы... Ты не знаешь, где бы она могла "
+"«Я пытаюсь найти малиновую вуаль Мариссы... Ты не знаешь, где она может "
 "быть?»"
 
 #: 39074
@@ -155,7 +153,6 @@ msgid "\"That's all I wished to know. Farewell.\""
 msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 39086
-#, fuzzy
 msgid ""
 "\"Yes, I have a particular scent that seems to have gone... *wandering.* "
 "'Tis somewhat... difficult to keep in one place. I hope that someone did not "
@@ -206,7 +203,6 @@ msgstr ""
 "личным ароматом». Она вздыхает."
 
 #: 39098
-#, fuzzy
 msgid ""
 "Vivian shakes her head. \"I had meant to infer that it had been *taken.* The "
 "'ladies' here are a bit jealous at times, and have been known to take my "
@@ -279,7 +275,6 @@ msgid "\"Mine?\""
 msgstr "«Моим?»"
 
 #: 39117
-#, fuzzy
 msgid ""
 "She smirks, then points at you: \"Yes, *yours.* That foul, vinegary smell.\" "
 "She sniffs, then wrinkles her nose. \"'Tis in your *skin,* too... no bathing "
@@ -378,16 +373,14 @@ msgid "\"A night hag from Sigil's past, I think.\""
 msgstr "«Полагаю, ночная ведьма из прошлого Сигила»."
 
 #: 39142
-#, fuzzy
 msgid "\"Never mind... let me ask you something else...\""
-msgstr "«Не обращай внимания... Позволь мне спросить кое о чем еще...»"
+msgstr "«Не обращай внимания. Позволь мне спросить кое о чем еще»."
 
 #: 39143
 msgid "\"Forget it. Farewell.\""
 msgstr "«Забудь об этом. Прощай»."
 
 #: 39144
-#, fuzzy
 msgid ""
 "\"I hope she stays in the past, then. Night hags are foul creatures, "
 "besmirching all femininity everywhere in the planes.\" She suddenly pauses. "
@@ -435,7 +428,6 @@ msgid "\"The Society of Sensation?\""
 msgstr "«Общество Восприятия?»"
 
 #: 39155
-#, fuzzy
 msgid ""
 "Vivian sighs. \"You may wish to ask Fall-from-Grace - or better yet, someone "
 "at the Civic Festhall - about the Sensates. They would be happy to speak "
@@ -446,7 +438,6 @@ msgstr ""
 "будут рады поговорить с тобой»."
 
 #: 39158
-#, fuzzy
 msgid ""
 "Vivian nods, lowering her voice. \"I, too, have heard such a rumor. T'would "
 "explain the red eyes, the... unusual tone of her skin. I know not if such "
@@ -572,7 +563,6 @@ msgid "\"No thanks; I'm all right. Farewell.\""
 msgstr "«Нет, спасибо. Я в порядке. Прощай»."
 
 #: 39184
-#, fuzzy
 msgid ""
 "You step closer to Vivian; she takes your hand and, turning it over, takes a "
 "single cautious sniff of your wrist. \"Phew!\" She wrinkles her nose. "
@@ -616,7 +606,6 @@ msgid "Wait."
 msgstr "Подождать."
 
 #: 39191
-#, fuzzy
 msgid ""
 "\"There! That solves that! That hideous witch... always stealing my "
 "perfumes, but never did I think she would have the audacity to steal my own "
@@ -667,7 +656,6 @@ msgid "\"I have another question...\""
 msgstr "«У меня есть другой вопрос...»"
 
 #: 61607
-#, fuzzy
 msgid ""
 "I have agreed to help Vivian, one of the Prostitutes in the Brothel of "
 "Slating Intellectual Lusts, find her 'personal scent.' She said I'd know it "
@@ -710,3 +698,4 @@ msgstr ""
 "Одна из проституток предложила, чтобы я расспросил Долору об Экко, "
 "молчаливой проститутке. Она сказала, что когда-то Долора говорила с бывшим "
 "возлюбленным Экко, который знал ее еще до того, как она перестала говорить."
+

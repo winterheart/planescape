@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dphineas.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-11-09 18:52+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 13:08+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 2397
 msgid ""
@@ -70,13 +70,12 @@ msgid "\"Farewell.\""
 msgstr "«Прощай»."
 
 #: 2406
-#, fuzzy
 msgid ""
 "\"Aiiiiigh! By the powers... stop *creeping* up on me like that!\" He pushes "
 "his spectacles up on his nose and gives you a hard look. \"And what is it I "
 "can do for you *this* time, hmnnnn?\""
 msgstr ""
-"«Айййй! О, Силы... хватит ко мне так *подкрадываться*! - он надевает свои "
+"«Айййй! О, силы... хватит ко мне так *подкрадываться*! - он надевает свои "
 "очки на нос и окидывает тебя тяжелым взглядом. - Чем могу быть полезен на "
 "*этот* раз, м-м-м?»"
 
@@ -109,7 +108,6 @@ msgid "\"I see. Well, I think I've heard enough. Farewell.\""
 msgstr "«Понятно. Думаю, я выслушал достаточно. Прощай»."
 
 #: 2410
-#, fuzzy
 msgid ""
 "\"Yes, yes... we, in the bureaucratic sense of the word *we,* meaning, to "
 "encompass the Sigil bureaucracy as a whole, are accepting tangible proof of "
@@ -358,7 +356,6 @@ msgid "\"Never mind, farewell.\""
 msgstr "«Неважно, прощай»."
 
 #: 51476
-#, fuzzy
 msgid ""
 "\"Aiiiiigh! Please don't kill me...\" Phineas shrieks and jumps, startled. "
 "He looks at you as if he expected someone else. \"Thank the powers, it's "
@@ -366,7 +363,7 @@ msgid ""
 msgstr ""
 "«Айййй! Пожалуйста, не убивайте меня...» Финеас вскрикивает и испуганно "
 "подпрыгивает. По его взгляду ясно, что он ждал кого-то другого. «Хвала "
-"Силам, это всего лишь ты...» Он умолкает и пытается успокоиться."
+"силам, это всего лишь ты...» Он умолкает и пытается успокоиться."
 
 #: 51477
 msgid "\"Don't kill you? Are you in some sort of trouble?\""
@@ -415,7 +412,6 @@ msgid "\"What did you do?\""
 msgstr "«Что ты сделал?»"
 
 #: 51485
-#, fuzzy
 msgid ""
 "\"I ran for my very life! Praise the powers I made it back up here to my "
 "shop. I locked the door behind me, I'm certain the creature is trapped down "
@@ -423,14 +419,13 @@ msgid ""
 "scars. He meets your gaze again. \"Slay the creature for me... I'll make it "
 "worth your while.\""
 msgstr ""
-"«Я спасся бегством! Слава Силам, мне удалось подняться назад в лавку. Я "
+"«Я спасся бегством! Слава силам, мне удалось подняться назад в лавку. Я "
 "запер дверь за собой, и теперь существо там взаперти». Он смотрит на тебя, а "
 "затем его взгляд пробегает по твоим многочисленным шрамам. Он снова "
 "встречается с тобой взглядом. «Убей это существо для меня... Я вознагражу "
 "твои усилия»."
 
 #: 51486 51487
-#, fuzzy
 msgid "\"What'll you give me if I do?\""
 msgstr "«И что ты мне дашь взамен?»"
 
@@ -453,7 +448,6 @@ msgid "\"All right, I'll do it.\""
 msgstr "«Хорошо, я сделаю это»."
 
 #: 51492 51496
-#, fuzzy
 msgid "\"I don't want to get involved. Farewell.\""
 msgstr "«Я не хочу в это ввязываться. Прощай»."
 
@@ -590,7 +584,6 @@ msgid "\"Nothing, farewell.\""
 msgstr "«Ничего, прощай»."
 
 #: 64160
-#, fuzzy
 msgid ""
 "He sighs and then smiles at you. \"After your heroic deed I feel... at ease. "
 "I must admit that I have not felt so relaxed in years.\" He pauses to think "
@@ -614,3 +607,4 @@ msgstr ""
 "хвосты черепных крыс по цене один медяк за хвост. Думаю, немного деньжат в "
 "кармане - лучше, чем ничего... может быть, если я принесу ему достаточно "
 "крысиных хвостов, то смогу договориться о более выгодной цене."
+

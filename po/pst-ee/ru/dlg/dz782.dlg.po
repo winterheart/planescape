@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dz782.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-03-02 20:30+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 17:05+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 24708
 msgid ""
@@ -45,15 +45,14 @@ msgid "\"It was great talking to you. Farewell.\""
 msgstr "«Было приятно с тобой поболтать. Прощай»."
 
 #: 24715
-#, fuzzy
 msgid ""
 "This corpse looks like the one with the key. It is holding it tightly in its "
 "left hand, its thumb and forefinger locked around it in a death grip. It "
 "looks like you'll need to hack the corpse's hand off to free the key."
 msgstr ""
 "Кажется, у этого трупа есть какой-то ключ. Он крепко держит его в левой "
-"руке, намертво стиснув его большим и указательным пальцем. Чтобы взять ключ, "
-"тебе придется сломать руку."
+"руке, сжимая его большим и указательным пальцем мертвой хваткой. Чтобы взять "
+"ключ, тебе придется сломать руку."
 
 #: 24716
 msgid ""
@@ -69,3 +68,4 @@ msgstr "Оставить труп в покое."
 #: 24718
 msgid "\"I wanted to talk to you about the merchant Zac.\""
 msgstr "«Я хочу поговорить с тобой о торговце Заке»."
+

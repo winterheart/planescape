@@ -1,21 +1,20 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: d300mer7.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2015-11-01 17:04+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 01:06+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 17734
-#, fuzzy
 msgid ""
 "This thin young man - a cloth merchant - is calling out to passersby, a "
 "nervous smile on his face. He doesn't seem to notice you standing there."
@@ -43,7 +42,6 @@ msgstr ""
 "неуклюже пытаясь произвести хорошее впечатление."
 
 #: 17739
-#, fuzzy
 msgid ""
 "\"Oh!\" He seems suddenly disappointed. \"I... uh... well, I thought ye were "
 "goin' ta ask about... cloth.\""
@@ -60,7 +58,6 @@ msgstr ""
 "друг... какие только пожелаешь! Хочешь посмотреть что-нибудь конкретное?»"
 
 #: 17742
-#, fuzzy
 msgid ""
 "He frowns, shaking his head. \"Uh... no.\" Suddenly, he seems struck by a "
 "bright idea, and gestures to his rolls of textiles: \"Cloth?\""
@@ -127,3 +124,4 @@ msgstr "«Нет, но можешь ответить на вопрос?»"
 #: 17758 17759
 msgid "\"No. Farewell.\""
 msgstr "«Нет. Прощай»."
+

@@ -1,25 +1,24 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: daethel.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-03-12 02:08+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 14:25+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 12343 12345 12348 12350 12352 14756 3059
 msgid "\"Farewell, then.\""
 msgstr "«Тогда прощай». "
 
 #: 12344
-#, fuzzy
 msgid ""
 "You see a scaled fiend who looks very similar to the one standing next to "
 "him - in addition to the pierced left ears, both are black-hued and "
@@ -50,7 +49,6 @@ msgstr ""
 "визит»."
 
 #: 12347
-#, fuzzy
 msgid ""
 "The abishai rears back as you approach. \"Take the little chaos rats,\" "
 "indicating Fall-from-Grace and Annah, \"away from us and we shall bargain. "
@@ -61,7 +59,6 @@ msgstr ""
 "нам не о чем говорить»."
 
 #: 12349
-#, fuzzy
 msgid ""
 "The abishai rears back as you approach. \"Take the little chaos rat,\" "
 "indicating Annah, \"away from us and we shall bargain. Until then, we'll "
@@ -72,7 +69,6 @@ msgstr ""
 "говорить»."
 
 #: 12351
-#, fuzzy
 msgid ""
 "The abishai rears back as you approach. \"Take the little chaos rat,\" "
 "indicating Fall-from-Grace, \"away from us and we shall bargain. Until then, "
@@ -266,7 +262,6 @@ msgid "\"We'll tell you everything we know of the 'Collector'...\""
 msgstr "«Мы сообщим все, что мы знаем о 'сборщике'...»"
 
 #: 14662
-#, fuzzy
 msgid ""
 "\"...his weakness, and how to defeat him, thereby securing his pendant - "
 "which we could use to make you much stronger. In return...\""
@@ -298,7 +293,6 @@ msgid "\"It has no powers beyond that; it's quite a passive thing, in fact.\""
 msgstr "«Сейчас у него нет силы. Фактически сейчас он - бесполезная вещь»."
 
 #: 14667
-#, fuzzy
 msgid "\"Surely, though, one can see our use for such an item.\""
 msgstr "«Несомненно, мы найдем применение подобной вещице»."
 
@@ -323,7 +317,6 @@ msgid "\"Flitting, cooing things, they are.\""
 msgstr "«Порхает туда-сюда, воркует»."
 
 #: 14672
-#, fuzzy
 msgid ""
 "\"Simply remove the pendant from her corpse and return it to fulfill our "
 "bargain, friend. We shall use what power she's managed to capture within it "
@@ -433,12 +426,10 @@ msgid "\"What sort of 'power' is it that the pendant will give me?\""
 msgstr "«Что за 'силу' даст мне этот кулон?»"
 
 #: 14731 14736
-#, fuzzy
 msgid "\"I failed to get the pendant from the erinyes, and now she's gone.\""
 msgstr "«Мне не удалось добыть кулон у эринии, и теперь она исчезла»."
 
 #: 14732 14737
-#, fuzzy
 msgid ""
 "Lie: \"I could not find the erinyes; she was not in the alley you told me "
 "about.\""
@@ -522,9 +513,8 @@ msgid "Leave."
 msgstr "Уйти."
 
 #: 14761
-#, fuzzy
 msgid "\"Wait - what sort of power will you be giving me?\""
-msgstr "«Постойте, что за силу вы дадите мне?»"
+msgstr "«Постойте, что за силу в дадите мне?»"
 
 #: 14763
 msgid "\"I have decided to keep the pendant.\""
@@ -547,7 +537,6 @@ msgid "\"Nothing. Farewell.\""
 msgstr "«Ничего. Прощай»."
 
 #: 3057
-#, fuzzy
 msgid ""
 "You see a scaled fiend who looks very similar to the one standing next to "
 "him - in addition to the pierced left ears, both are black-hued and "
@@ -564,7 +553,6 @@ msgstr ""
 "Он смачно сплевывает."
 
 #: 3061
-#, fuzzy
 msgid ""
 "You see a scaled fiend who looks very similar to the one standing next to "
 "him - in addition to the pierced left ears, both are black-hued and "
@@ -579,3 +567,4 @@ msgstr ""
 "Заметив Анну рядом с тобой, он скрежещет зубами, шипя: «Убери своего "
 "демонического червя, тогда и поговорим. Иначе мы ничего не скажем». Он "
 "смачно сплевывает."
+

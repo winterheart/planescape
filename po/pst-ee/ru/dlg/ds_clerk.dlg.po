@@ -1,21 +1,20 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: ds_clerk.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-09-08 00:35+0600\n"
+"PO-Revision-Date: 2017-04-14 18:01+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 46336
-#, fuzzy
 msgid ""
 "This man's gentle voice complements his calm and refined demeanor. "
 "\"Greetings. Are you here to use one of the sensory stones?\""
@@ -80,7 +79,6 @@ msgid "\"No thanks. Farewell.\""
 msgstr "«Нет, спасибо. Прощай»."
 
 #: 46371 46405
-#, fuzzy
 msgid ""
 "The man smiles and explains to you some of the various sensations that are "
 "currently available for your perusal.\n"
@@ -90,7 +88,7 @@ msgstr ""
 "Человек улыбается и разъясняет тебе некоторые из тех разнообразных "
 "переживаний, который в данный момент доступны для тебя.\n"
 "\n"
-"«Какое из них вам подойдет?»\n"
+"«Какое из них вам подойдет?»"
 
 #: 46372 46406
 msgid "\"'Unavoidable pain' will do.\""
@@ -129,7 +127,6 @@ msgid "\"Not right now. Farewell.\""
 msgstr "«Не сейчас. Прощай»."
 
 #: 46381
-#, fuzzy
 msgid ""
 "The man nods, explaining several sensations that are available for your "
 "use.\n"
@@ -138,7 +135,7 @@ msgid ""
 msgstr ""
 "Человек кивает и разъясняет несколько переживаний, доступных для тебя.\n"
 "\n"
-"«Какое из них вам подойдет?»\n"
+"«Какое из них вам подойдет?»"
 
 #: 46382 46417
 msgid "\"'Psychosis' will do.\""
@@ -177,7 +174,6 @@ msgid "\"Are there any more?\""
 msgstr "«А еще есть?»"
 
 #: 46392
-#, fuzzy
 msgid ""
 "The man nods, smiling, and explains the last of the presently available "
 "sensations. \n"
@@ -187,7 +183,7 @@ msgstr ""
 "Человек кивает, улыбаясь, и растолковывает оставшиеся из доступных в текущий "
 "момент переживаний.\n"
 "\n"
-"«Какое из них вам подойдет?»\n"
+"«Какое из них вам подойдет?»"
 
 #: 46393 46428
 msgid "\"'Horrible regret' will do.\""
@@ -250,7 +246,6 @@ msgid "\"Actually, What are the extravagant ones like?\""
 msgstr "«А на что, вообще, похожи экстравагантные?»"
 
 #: 46416
-#, fuzzy
 msgid ""
 "The man nods and explains several sensations that are available for your "
 "use.\n"
@@ -259,7 +254,7 @@ msgid ""
 msgstr ""
 "Человек кивает и объясняет несколько переживаний, доступных для тебя.\n"
 "\n"
-"«Какое из них вам подойдет?»\n"
+"«Какое из них вам подойдет?»"
 
 #: 46424
 msgid "Wait... describe those last ones again...\""
@@ -270,7 +265,6 @@ msgid "\"Actually, can you tell me about the extravagant ones?\""
 msgstr "«Вообще-то, лучше расскажи об экстравагантных?»"
 
 #: 46427
-#, fuzzy
 msgid ""
 "The man nods, smiling, and explains the more involved sensations. \n"
 "\n"
@@ -278,7 +272,7 @@ msgid ""
 msgstr ""
 "Человек кивает, улыбаясь, и разъясняет более сложные переживания.\n"
 "\n"
-"«Какое из них подойдет вам?»\n"
+"«Какое из них подойдет вам?»"
 
 #: 46434
 msgid "\"Actually, can you tell me about the standard ones?\""
@@ -299,7 +293,6 @@ msgid "\"Thanks. Farewell.\""
 msgstr "«Спасибо. Прощай»."
 
 #: 46438
-#, fuzzy
 msgid ""
 "\"Excellent. The stone you shall want to use is in one of the larger "
 "chambers, two rooms counter-clockwise from the stairwell. It is violet in "
@@ -321,7 +314,6 @@ msgstr ""
 "фиолетового цвета»."
 
 #: 46442
-#, fuzzy
 msgid ""
 "\"Good. The stone you shall want to use is in one of the smaller chambers, "
 "one room clockwise from the stairwell. It is greenish-yellow in color.\""
@@ -331,7 +323,6 @@ msgstr ""
 "зеленого цвета»."
 
 #: 46444
-#, fuzzy
 msgid ""
 "\"A good choice. The stone you shall want to use is in one of the smaller "
 "chambers, two rooms clockwise from the stairwell. It is light blue in color."
@@ -342,7 +333,6 @@ msgstr ""
 "светло-голубого цвета»."
 
 #: 46446
-#, fuzzy
 msgid ""
 "\"A good choice. The stone you shall want to use is in one of the smaller "
 "chambers, three rooms clockwise from the stairwell. It is violet in color.\""
@@ -352,7 +342,6 @@ msgstr ""
 "фиолетового цвета»."
 
 #: 46448
-#, fuzzy
 msgid ""
 "\"A good choice. The stone you shall want to use is in one of the smaller "
 "chambers, four rooms clockwise from the stairwell. It is greenish-yellow in "
@@ -363,7 +352,6 @@ msgstr ""
 "Он желто-зеленого цвета»."
 
 #: 46450
-#, fuzzy
 msgid ""
 "\"A good choice. The stone you shall want to use is in one of the smaller "
 "chambers, five rooms clockwise from the stairwell. It is reddish-orange in "
@@ -374,7 +362,6 @@ msgstr ""
 "красно-оранжевого цвета»."
 
 #: 46452
-#, fuzzy
 msgid ""
 "\"A good choice. The stone you shall want to use is in one of the smaller "
 "chambers, six rooms clockwise from the stairwell. It is violet in color.\""
@@ -384,7 +371,6 @@ msgstr ""
 "фиолетового цвета»."
 
 #: 46454
-#, fuzzy
 msgid ""
 "\"A good choice. The stone you shall want to use is in one of the smaller "
 "chambers, seven rooms clockwise from the stairwell. It is light blue in "
@@ -395,7 +381,6 @@ msgstr ""
 "Он светло-голубого цвета»."
 
 #: 46456
-#, fuzzy
 msgid ""
 "\"I trust you enjoyed the sensory experience? Something I may do for you, "
 "now?\""
@@ -414,3 +399,4 @@ msgstr "«У меня есть несколько вопросов...» "
 #: 46460
 msgid "\"Nothing. Farewell.\""
 msgstr "«Ничего. Прощай»."
+

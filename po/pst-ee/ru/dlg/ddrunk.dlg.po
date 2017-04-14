@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddrunk.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-02 02:18+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 12:55+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 9710
 msgid ""
@@ -42,7 +42,6 @@ msgstr ""
 "озирается, пытаясь найти источник твоего голоса."
 
 #: 9795
-#, fuzzy
 msgid ""
 "\"Huh, huh? Whuh? G-guuuuurk!\" He suddenly begins to retch copiously; you "
 "hop back to avoid being spattered. You won't be getting anything useful from "
@@ -53,7 +52,6 @@ msgstr ""
 "растрепанного вонючего разочарования ты не получишь."
 
 #: 9796
-#, fuzzy
 msgid ""
 "\"Huh, huh? Whuh? G-guuuuurk!\" He suddenly begins to retch copiously; you "
 "and Annah hop back to avoid being spattered. You won't be getting anything "
@@ -82,3 +80,4 @@ msgstr "Встряхнуть его, чтобы привлечь внимани�
 #: 9824 9830 9832 9834
 msgid "Leave him be."
 msgstr "Оставить его в покое."
+

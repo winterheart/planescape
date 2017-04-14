@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dvaxis.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-10 23:47+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 17:55+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 1306 1348
 msgid ""
@@ -149,7 +149,6 @@ msgid "\"Yes, I am barmee. Very barmee.\""
 msgstr "«Да, я фпятил. Я окончательно фпятил»."
 
 #: 4379 4380
-#, fuzzy
 msgid "\"'Barmee'? What's that?\""
 msgstr "«Фпятил? Что это значит?»"
 
@@ -204,9 +203,8 @@ msgid "The fake zombie is looking at you both suspiciously."
 msgstr "Фальшивый зомби недоверчиво смотрит на вас обоих."
 
 #: 4391
-#, fuzzy
 msgid "\"It's the truth - I woke up on one of the slabs here.\""
-msgstr "«Это правда - я очнулся на одной из плит на верхнем этаже»."
+msgstr "«Это правда - я очнулся на одной из здешних плит»."
 
 #: 4392
 msgid ""
@@ -285,7 +283,6 @@ msgstr ""
 "пвячуффа двуфья, у тея фдефь *никоо*. Твонеф мея - они тея пвиконфят»."
 
 #: 4409 4410
-#, fuzzy
 msgid "\"What if I expose your disguise to the guards?\""
 msgstr "«Что, если я раскрою твою маскировку перед стражей?»"
 
@@ -351,7 +348,6 @@ msgid "\"That's all I wanted to know. Now stay out of my way, *zombie.*\""
 msgstr "«Это все, что я хотел знать. А теперь прочь с дороги, *зомби*»."
 
 #: 4425
-#, fuzzy
 msgid ""
 "The zombie falls into a frightened silence. He seems unwilling to say any "
 "more."
@@ -637,7 +633,7 @@ msgid ""
 "shears. \"Bladezz on fingerzz.\""
 msgstr ""
 "«Он у твуфьявой, - он показывает на свои глаза. - У нее воутые глафифи...» "
-"Затем он делает движение руками, похожее на стрижку ножницами. «Новы на "
+"Затем он делает движение руками, похожее на стрижку ножницами. «Лефвия на "
 "пайфах»."
 
 #: 4502
@@ -832,7 +828,6 @@ msgid "\"Slumz ousside this place.\""
 msgstr "«Твуффобы фнауви»."
 
 #: 4546
-#, fuzzy
 msgid ""
 "\"He'z a Cullector. Bringz deaderz to Mortuaree, sellz 'em to Dustmen. "
 "Bringz LOT uf deaderz. Dushties not know where he getz deaderz. Think he'z "
@@ -914,7 +909,6 @@ msgid "Use your Stories-Bones-Tell ability on the corpse."
 msgstr "Использовать на трупе свою способность «История костей»."
 
 #: 4570
-#, fuzzy
 msgid ""
 "\"Lissen! R'member!\" The zombie sounds angry. \"Arch, firzzzt fluur, "
 "nurthwezzt ruum...\" He holds up his index finger and bends it. \"Yuh need "
@@ -927,7 +921,6 @@ msgstr ""
 "выфод. Там ты мовефь ОДОФНУТЬ»."
 
 #: 4572
-#, fuzzy
 msgid ""
 "\"Arch, first floor, northwest room, opens with a crooked finger bone? All "
 "right, I got it this time.\""
@@ -1169,7 +1162,6 @@ msgid "\"Mmm-hmmph-mmm... Fanks.\""
 msgstr "«Ммм-ммф-ммм... Фпафибо»."
 
 #: 4637
-#, fuzzy
 msgid ""
 "The zombie holds up his hand. \"Curful! Talk pulls stitches out, ruin diz-"
 "gize. Zumbie no talk. Yoo got to talk? Talk slow, curful.\"\n"
@@ -1180,15 +1172,15 @@ msgstr ""
 "Зомби держит тебя за руку. «Офтововно! Вафгоов вафофет фвы, науфив мафкивку. "
 "Фомби не говоят. Поняу? Говои медвенно, офтовоно».\n"
 "\n"
-"ПРИМЕЧАНИЕ: Помни, что никто не ожидает, что зомби будет говорить. Если ты, "
-"будучи зомби, заговоришь с кем-нибудь, ты рискуешь раскрыть свою маскировку."
+"^NПРИМЕЧАНИЕ: Помните, что никто не ожидает, что зомби будет говорить. Если"
+" вы, "
+"будучи зомби, заговорите с кем-нибудь, вы рискуете раскрыть свою маскировку.^-"
 
 #: 4638
 msgid "\"Mmph... mmm. I... understand.\""
 msgstr "«Ммф... ммм. Я... понимаю»."
 
 #: 4639
-#, fuzzy
 msgid ""
 "The zombie frowns. \"Diz-gize wun't last long... um-balming fluid dry up, "
 "stitchez fall out.\" He shrugs. \"Prob-lee not last ousside Mortuaree. Uhnd "
@@ -1203,11 +1195,12 @@ msgstr ""
 "рвутфя, - он жмет плечами. - Фнаружи Морга от нее нифего не офтанетфя. Не "
 "бегай! Ефли ты побежифь, то науфифь вфю мафкирофку».\n"
 "\n"
-"ПРИМЕЧАНИЕ: Вооружение и/или бег немедленно разрушит твою маскировку. Если "
-"ты найдешь новое оружие, не используй его до тех пор, пока тебе больше не "
-"понадобится маскировка. Если у тебя включен автобег и ты хочешь сохранить "
-"маскировку, проверь, что он отключен сразу же, как закончишь разговаривать с "
-"Ваксисом."
+"^NПРИМЕЧАНИЕ: Вооружение и/или бег немедленно разрушит вашу маскировку. Если "
+"вы найдете новое оружие, не используйте его до тех пор, пока вам больше не "
+"понадобится маскировка. Если у вас включен автобег и вы хотите сохранить "
+"маскировку, проверьте, что он отключен сразу же, как закончите разговаривать"
+" с "
+"Ваксисом.^-"
 
 #: 464 480
 msgid "\"You're not a zombie! Who are you?\""
@@ -1284,7 +1277,6 @@ msgid "\"Leave? How?\""
 msgstr "«Уйдешь? Как?»"
 
 #: 4658
-#, fuzzy
 msgid ""
 "The zombie grunts. \"Portal's an arch - fizzzt floor, nurthwest ruhm, needs "
 "skel-tun finger bone tuh open.\" He nods. \"Guud luhk.\""
@@ -1440,7 +1432,7 @@ msgid ""
 "from some Dustwoman with blades for hands and yellow eyes. "
 msgstr ""
 "В обмен на помощь «зомби» я согласился достать ключ от бальзамационной, "
-"который находится у некой тленной с клинками на руках и желтыми глазами. "
+"который находится у некой тленной с лезвиями на руках и желтыми глазами. "
 
 #: 64519
 msgid ""
@@ -1455,12 +1447,11 @@ msgstr ""
 "руках открывать двери ключами - для меня остается загадкой. "
 
 #: 64520
-#, fuzzy
 msgid ""
 "\"A Dustman woman... with yellow eyes and blades on her fingers? I already "
 "met her in the embalming room. Hold on - I'll be back with the key shortly.\""
 msgstr ""
-"«Тленная... с желтыми глазами и клинками на пальцах? Я ее уже видел в "
+"«Тленная... с желтыми глазами и лезвиями на пальцах? Я ее уже видел в "
 "бальзамационной. Погоди... я скоро вернусь с ключом»."
 
 #: 64521
@@ -1496,7 +1487,6 @@ msgid "\"All right. I had some other questions...\""
 msgstr "«Хорошо. У меня есть другие вопросы...»"
 
 #: 64525
-#, fuzzy
 msgid ""
 "\"Very well. I'll check upstairs for this crooked finger bone, then head to "
 "the first floor, to one of the arches in the northwest room. Got it.\""
@@ -1509,7 +1499,6 @@ msgid "\"Crooked finger bone? Where am I going to find one of those?\""
 msgstr "«Кость согнутого пальца? А где можно найти ее?»"
 
 #: 64528
-#, fuzzy
 msgid ""
 "Vaxis told me there's a secret portal in the northwest room of the first "
 "floor of the Mortuary - if you take a crooked finger bone up to it, it will "
@@ -1524,7 +1513,6 @@ msgstr ""
 "тем не менее, он посоветовал мне поискать на верхнем этаже Морга. "
 
 #: 64529
-#, fuzzy
 msgid ""
 "Vaxis told me there's a secret portal in the northwest room of the first "
 "floor of the Mortuary - if you take a crooked finger bone up to it, it will "
@@ -1541,6 +1529,9 @@ msgid ""
 "\" whatever THAT means. Vaxis accusing anyone of being strange is ironic "
 "enough. "
 msgstr ""
+"Ваксис как-то странно отозвался о Соэго - сказал, что тот похож на «крысу», "
+"что бы ЭТО ни значило. Довольно иронично, что Ваксис обвиняет кого-то в "
+"странностях."
 
 #: 64531
 msgid ""

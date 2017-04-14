@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dfhjull.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 02:30+0600\n"
+"PO-Revision-Date: 2017-04-14 16:18+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 11798
 msgid "\"Thanks...\""
@@ -44,7 +44,6 @@ msgid "\"Farewell.\""
 msgstr "«Прощай»."
 
 #: 54883
-#, fuzzy
 msgid ""
 "\"I can smell the taint of your betrayal on you, feel and hear the approach "
 "of my brethren as they come to spirit me back to Baator... away with you, "
@@ -69,7 +68,6 @@ msgid "\"Farewell, then.\""
 msgstr "«Тогда прощай»."
 
 #: 54889
-#, fuzzy
 msgid ""
 "The fiend freezes. \"Eh... nothing of value. Maybe a trifling charm, a "
 "trinket you might have... if you are truly in need of them, then yes, you "
@@ -93,7 +91,6 @@ msgid "\"Forget it. Farewell.\""
 msgstr "«Забудь. Прощай»."
 
 #: 54895
-#, fuzzy
 msgid ""
 "\"Feh! Thrice-damned be you, mortal! You had best pray that the deva has "
 "eternity running through his veins, for if he has not, I shall see to it "
@@ -250,7 +247,6 @@ msgstr ""
 "возвращаются... фе!»"
 
 #: 54935
-#, fuzzy
 msgid ""
 "\"Feh... does this mean that you shall leave me to my solitude once again? "
 "Then I proclaim, with as much delight as possible, that the portal lies "
@@ -370,7 +366,6 @@ msgstr ""
 "еще острый. Это вовсе не то, что тебе нужно, поверь»."
 
 #: 55018 55872
-#, fuzzy
 msgid ""
 "\"Those? They are *kassegs,* parasites that will lodge in your brain and "
 "devour your mental energy with no appreciable benefit... Feh! Cursed "
@@ -450,7 +445,6 @@ msgstr ""
 "себе... лучше я заберу ее у тебя»."
 
 #: 55057 55950
-#, fuzzy
 msgid "\"Stygian Ice Storm? I'd like that.\""
 msgstr "«Стигийская ледяная буря? Беру»."
 
@@ -524,7 +518,6 @@ msgid "\"Argh! What? WHAT??\""
 msgstr "«Арг! Что? ЧТО??»"
 
 #: 55095 55097
-#, fuzzy
 msgid ""
 "\"Feh! The fetid stench of a tanar'ri! I can smell it for leagues! Show some "
 "respect for my home! Can't you find some fumes or acidic vapors to try and "
@@ -671,7 +664,6 @@ msgstr ""
 "«Будь ты проклят! Как будто мне не все равно! Фе! Как ты нашел это место?!»"
 
 #: 55563
-#, fuzzy
 msgid ""
 "He stiffens. \"Trias? Trias the *Betrayer* sent you here?\" His claws clench "
 "and unclench. \"This is the final indignity! That self-righteous bastard! "
@@ -682,10 +674,9 @@ msgstr ""
 "стискиваются и разжимаются. - Это будет его последнее оскорбление! "
 "Лицемерный ублюдок! Убей его, и я вознагражу тебя всем, что есть в моих "
 "запасах! Спусти с него шкуру и принеси мне, чтобы я мог носить ее, как "
-"плащ... урррк!»  "
+"плащ... урррк!»"
 
 #: 55565
-#, fuzzy
 msgid ""
 "\"I mean... no, no... do not harm the deva. It would be wrong to do so... I "
 "was mistaken. Mistaken, I was.\""
@@ -716,7 +707,6 @@ msgstr ""
 "справлялись, я наказывал их самым жестоким и изобретательным способом»."
 
 #: 55571
-#, fuzzy
 msgid ""
 "\"THEN... one slip, and it all comes crashing down! All due to CHANCE. "
 "CHAOS. RANDOMNESS. And the lesser races wonder why the baatezu wish the "
@@ -843,7 +833,6 @@ msgid "\"All right. Farewell.\""
 msgstr "«Ладно. Прощай»."
 
 #: 55676
-#, fuzzy
 msgid ""
 "\"Oh, yes. Aren't they beautiful...? Feh! They were the first things to be "
 "stripped from me before my exile. Before I was forced to flee the burning "
@@ -1038,7 +1027,6 @@ msgid "\"I had some more questions...\""
 msgstr "«У меня еще несколько вопросов...»"
 
 #: 55751
-#, fuzzy
 msgid ""
 "\"The violence is great, nearing acceptable levels, but the scars are "
 "applied with almost tanar'ric crudity, without any care for maximizing the "
@@ -1049,9 +1037,9 @@ msgid ""
 msgstr ""
 "«Жестокость велика, близка к приемлемому уровню, но рубцы нанесены с почти "
 "танарийской грубостью, без всякого беспокойства о том, чтобы причинить "
-"максимум боли. Художник-баатезу был бы намного более преданы следованию "
+"максимум боли. Художник-баатезу был бы намного более предан следованию "
 "путям боли в теле. Некоторые из ран кажутся смертельными, другие выглядят "
-"так, будто это слепой мясник нарезал стейки из человечины»."
+"так, будто это слепой мясник нарезал отбивные из человечины»."
 
 #: 55753 55754
 msgid "\"Feh. Human art makes me ill sometimes. Such potential, wasted.\""
@@ -1074,7 +1062,6 @@ msgstr ""
 "волнах застоя, называя все это 'злом', не может называться расой. Это звери»."
 
 #: 55759
-#, fuzzy
 msgid ""
 "\"Feh and double feh! The tanar'ri beasts want to strip law and order from "
 "the face of evil! Inexcusable! Intolerable! I cannot-\""
@@ -1117,7 +1104,6 @@ msgid "\"Yes.\""
 msgstr "«Да»."
 
 #: 55766
-#, fuzzy
 msgid ""
 "\"If so, then death itself is no longer sacred. Feh. In my day, mortals "
 "remained so and knew their place... now everybody and their mother has the "
@@ -1242,7 +1228,6 @@ msgid "\"Thanks.\""
 msgstr "«Спасибо»."
 
 #: 55969
-#, fuzzy
 msgid ""
 "\"Feh! Have you drummed your skull against every rock that falls from the "
 "mountain of ignorance? In the Lower Planes rages the Blood War. There is not "
@@ -1268,7 +1253,6 @@ msgid "\"Thanks. Farewell.\""
 msgstr "«Спасибо. Прощай»."
 
 #: 55976
-#, fuzzy
 msgid ""
 "\"This is the skeleton of Ul-Goris, the father of the goristro. They're "
 "living, bearlike siege-towers, juggernauts of chaos, huge, practically "
@@ -1308,7 +1292,6 @@ msgid "\"So what happened to you?\""
 msgstr "«Что с тобой случилось?»"
 
 #: 55987
-#, fuzzy
 msgid ""
 "\"That accursed deva is what happened to me! So secure I was, so sure... "
 "Feh! Stripped of my power like a fledgling. No wonder it is that the hordes "
@@ -1385,7 +1368,6 @@ msgstr ""
 "водовороте зла. Они грабят и убивают»."
 
 #: 56010
-#, fuzzy
 msgid "\"And the other side?\""
 msgstr "«А с другой стороны?»"
 
@@ -1489,7 +1471,6 @@ msgid "\"Great. Even more of a stench!\""
 msgstr "«Отлично. Еще больше вони!»"
 
 #: 61572
-#, fuzzy
 msgid ""
 "\"Feh! Accursed one! After all my warnings and swearings, still you bring "
 "Baator's legions to my door! Promise-breaker! Betrayer! I... hmmm... so this "
@@ -1553,3 +1534,5 @@ msgstr ""
 "пытка? Фе! Ладно, ладно, ладно! Располагайся на полу! Разори мои запасы! "
 "Разграбь мои опыты! Я буду кипеть от злости здесь, неподалеку! Фе!» - "
 "возмущается он."
+
+

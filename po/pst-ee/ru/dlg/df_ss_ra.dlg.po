@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: df_ss_ra.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-08 20:12+0600\n"
+"PO-Revision-Date: 2017-04-14 16:09+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 51466
 msgid ""
@@ -61,7 +61,6 @@ msgid "Shake off the experience, let go of the stone."
 msgstr "Стряхнуть с себя переживание, отойти от камня."
 
 #: 53019
-#, fuzzy
 msgid ""
 "Your vision clears, until you are standing once again before the hideously "
 "green stone... it looks different than before, more... horrid, somehow."
@@ -286,7 +285,6 @@ msgstr ""
 "стань: ты должен НАЙТИ меня, мой драгоценный»."
 
 #: 53051
-#, fuzzy
 msgid "\"But how? I do not know-\""
 msgstr "«Но как? Я не знаю...»"
 
@@ -295,7 +293,6 @@ msgid "\"I cannot stay, Ravel...\""
 msgstr "«Я не могу остаться, Равель...»"
 
 #: 53053
-#, fuzzy
 msgid ""
 "That sensory stone in the Private Sensorium held an experience with Ravel "
 "inside it, and I was actually able to speak to her through it, though I "
@@ -353,7 +350,6 @@ msgstr ""
 "ведущую ко мне...»"
 
 #: 53062 53068 53074 53089 53103
-#, fuzzy
 msgid ""
 "\"Ravel, I know that the key is a piece of you, but I don't know how to find "
 "it- \""
@@ -467,3 +463,4 @@ msgstr ""
 "«О камнях и переживаниях поведает Равель, но не о том, как она с тобой "
 "разговаривает, - говорит она успокаивающе. - Много у Равель ветвей и "
 "переплетений, много *тайн*. Ты мне нужен, и мне нужно, чтобы ты знал это»."
+

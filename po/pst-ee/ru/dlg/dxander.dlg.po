@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dxander.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 02:17+0600\n"
+"PO-Revision-Date: 2017-04-14 12:53+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 66567 8742
 msgid "\"Nothing right now. Farewell.\""
@@ -171,7 +171,6 @@ msgid "Peek."
 msgstr "Подглядеть."
 
 #: 6692
-#, fuzzy
 msgid ""
 "You feel a touch in the palm of your calloused hand. At first you can barely "
 "feel it, but it rapidly grows in solidity in moments, until you finally hear "
@@ -184,8 +183,8 @@ msgstr ""
 "едва можешь его различить, но уже через несколько мгновений оно быстро "
 "обретает твердость, пока Зандер, наконец, не говорит: «Открой глаза». Сделав "
 "это, ты обнаруживаешь у себя на ладони простое черное перо. «Моя работа "
-"окончена, - говорит Зандер. - Воспользуйся этим ключом на самой левой двери "
-"Литейной, и построитель снов откроется для тебя. Теперь я должен уйти... у "
+"окончена, - кивает Зандер. - Воспользуйся этим ключом на самой левой двери "
+"Литейной, и Построитель снов откроется для тебя. Теперь я должен уйти... у "
 "меня есть работа, нуждающаяся в моем внимании»."
 
 #: 6693
@@ -197,7 +196,6 @@ msgid "\"My thanks, Xander. Farewell.\""
 msgstr "«Спасибо, Зандер. Прощай»."
 
 #: 6696
-#, fuzzy
 msgid ""
 "You peer through a slit in your eyes as Xander concentrates for a moment and "
 "holds his hand in the air above yours. Nothing happens. Xander opens his "
@@ -261,7 +259,6 @@ msgid ""
 msgstr "«Забудь. У меня есть дела получше, чем выслушивать весь этот бред»."
 
 #: 6707
-#, fuzzy
 msgid ""
 "\"I need just one more item from you, and we can begin the final process of "
 "the Dreambuilder. I need a pillow that has lain inside a coffin - it will "
@@ -270,9 +267,9 @@ msgid ""
 "touch of inspiration on my part.\""
 msgstr ""
 "«Мне нужен от тебя еще один предмет, после чего мы сможем начать финальную "
-"стадию построителя снов. Мне нужна подушка, лежащая в гробу: она стимулирует "
+"стадию Построителя снов. Мне нужна подушка, лежащая в гробу: она стимулирует "
 "столь глубокий сон, что с таким же успехом ты мог бы умереть. Она открывает "
-"твой разум излучениям построителя снов. Это, если можно так сказать, капля "
+"твой разум излучениям Построителя снов. Это, если можно так сказать, капля "
 "вдохновения с моей стороны»."
 
 #: 6708
@@ -353,20 +350,18 @@ msgstr ""
 "сожалеть»."
 
 #: 6718
-#, fuzzy
 msgid ""
 "\"Pike it, sod. You will never recover your dreams. Your precious "
 "Dreambuilder is defunct.\""
 msgstr ""
 "«Забей, ублюдок. Ты никогда не вернешь свои сны. Твоего драгоценного "
-"построителя снов больше нет»."
+"Построителя снов больше нет»."
 
 #: 6719
 msgid "Done."
 msgstr "Готово."
 
 #: 6720
-#, fuzzy
 msgid ""
 "\"I'm sure you have, you brainless sod. Your stupid tough-basher pose is the "
 "final straw. You and your Dreambuilder both can go straight to the Abyss.\" "
@@ -374,7 +369,7 @@ msgid ""
 msgstr ""
 "«Уж в этом я не сомневаюсь, безмозглая ты сволочь. Твоя идиотская поза "
 "крутого вояки - это последняя капля. Можешь катиться прямиком в Бездну "
-"вместе со своим построителем снов». Он выглядит готовым позвать стражу."
+"вместе со своим Построителем снов». Кажется, он готов позвать стражу."
 
 #: 6721 6722
 msgid "Snap his neck before he can finish."
@@ -440,14 +435,13 @@ msgid "\"I will. You'll see me again.\""
 msgstr "«Конечно. Еще увидимся»."
 
 #: 6754
-#, fuzzy
 msgid ""
 "\"What I need to begin the final stages of the Dreambuilder is a piece of "
 "your skin immersed in your blood, so the machine can familiarize itself with "
 "your physical essence. It must be in a blue-green bottle, to symbolize the "
 "dream sea on which you will float.\""
 msgstr ""
-"«Все, что мне нужно, чтобы начать последнюю стадию подготовки построителя "
+"«Все, что мне нужно, чтобы начать последнюю стадию подготовки Построителя "
 "снов, - кусочек твоей кожи, погруженный в твою кровь, чтобы машина смогла "
 "познакомится с твоей физической сущностью. Все это должно быть в сине-"
 "зеленом флаконе, чтобы изобразить море снов, в котором ты будешь плавать»."
@@ -469,12 +463,11 @@ msgstr ""
 "Сперва ответь мне на вопрос»."
 
 #: 6758
-#, fuzzy
 msgid ""
 "\"Just answer me a question or two, will you? I'm not interested in your "
 "Dreambuilder.\""
 msgstr ""
-"«Просто ответь мне на пару вопросов, ладно? Твой построитель меня не "
+"«Просто ответь мне на пару вопросов, ладно? Твой Построитель меня не "
 "интересует»."
 
 #: 6759
@@ -500,7 +493,6 @@ msgid "\"No. I'm not interested. Just answer some questions for me.\""
 msgstr "«Нет. Мне это неинтересно. Просто ответь на несколько вопросов»."
 
 #: 6763
-#, fuzzy
 msgid ""
 "\"You came to my great-grandfather Xero and told him that you could not "
 "dream. You said you wished to dream again. You offered him a tremendous sum "
@@ -515,7 +507,7 @@ msgstr ""
 "вернешься через пару лет, чтобы поговорить с ним снова, но так и не сделал "
 "этого».\n"
 "\n"
-"Ты чувствуешь, как к тебе возвращаются воспоминания.\n"
+"Ты чувствуешь, как к тебе возвращаются воспоминания."
 
 #: 6764
 msgid "Repress it."
@@ -526,7 +518,6 @@ msgid "Accept it."
 msgstr "Принять их."
 
 #: 6767
-#, fuzzy
 msgid ""
 "By force of will, you keep the memory from filling your head.\n"
 "\n"
@@ -546,7 +537,7 @@ msgstr ""
 "частицы сна из Астрального и Эфирного планов. Мой дядя продвинулся вперед "
 "еще на один шаг, получив одновременно демоническую и небесную помощь в "
 "создании этого устройства. Что касается меня... я создал ритуалы, которые "
-"раскроют ее потенциал... и тогда ты сможешь получить назад свои сны».\n"
+"раскроют ее потенциал... и тогда ты сможешь получить назад свои сны»."
 
 #: 6768 6776
 msgid ""
@@ -565,7 +556,6 @@ msgid "\"Interesting. Perhaps I'll speak to you about this again. Farewell.\""
 msgstr "«Интересно. Пожалуй, я еще поговорю с тобой об этом. Счастливо»."
 
 #: 6772
-#, fuzzy
 msgid ""
 "The memory of the young artificer Xeno Xander overwhelms the words of his "
 "descendant, and you recall the brash young wizard showing off a spell of his "
@@ -581,9 +571,9 @@ msgstr ""
 "«Я называю его 'Усмиритель'», - говорит он. Вы вдвоем наблюдаете за "
 "волшебными частичками, которые спокойно оседают на тебе, и ты ощущаешь в "
 "своем сердце великую умиротворенность. «Действует, - говоришь ты. - Будем "
-"надеяться, что ты так же хорошо справишься с построителем снов».\n"
+"надеяться, что ты так же хорошо справишься с Построителем снов».\n"
 "\n"
-"Нил Зандер прерывает свой рассказ: «Ты меня слушаешь?»\n"
+"Нил Зандер прерывает свой рассказ: «Ты меня слушаешь?»"
 
 #: 6773
 msgid "\"What? Of course. Could you repeat that?\""
@@ -621,16 +611,14 @@ msgstr ""
 "хочешь знать?»"
 
 #: 6780
-#, fuzzy
 msgid "\"You mentioned a Dreambuilder before. Tell me more about that now.\""
-msgstr "«Ранее ты упоминал о построителе снов. Расскажи мне о нем побольше»."
+msgstr "«Ранее ты упоминал о Построителе снов. Расскажи мне о нем побольше»."
 
 #: 6781 6841
 msgid "\"Tell me what you know about the murder of the smith.\""
 msgstr "«Расскажи мне, что ты знаешь об убийстве кузнеца»."
 
 #: 6782 6842 6843
-#, fuzzy
 msgid ""
 "\"I've been asked to fix those gears in the Foundry. Can you tell me how?\""
 msgstr ""
@@ -669,7 +657,6 @@ msgid "\"How do you know it was built for me?\""
 msgstr "«Откуда ты знаешь, что его построили для меня?»"
 
 #: 6793
-#, fuzzy
 msgid "\"Yes.\""
 msgstr "«Да»."
 
@@ -712,13 +699,12 @@ msgstr ""
 "его забрал, но черты лица на нем я запомнил»."
 
 #: 68034
-#, fuzzy
 msgid ""
 "I finally finished that damnable Dreambuilder quest. What I received for it "
 "was... a feather. This is supposed to be the key that unlocks the door to "
 "the dreams. I hope that it'll be worth the trouble."
 msgstr ""
-"Я, наконец, закончил эти проклятые задания для построителя снов. И в "
+"Я, наконец, закончил эти проклятые задания для Построителя снов. И в "
 "результате получил... перо. Это должен быть ключ, открывающий дверь в сны. "
 "Надеюсь, он стоит того беспокойства."
 
@@ -739,18 +725,16 @@ msgstr ""
 "чтобы я достал подушку из гроба, чтобы изобразить сон мертвеца."
 
 #: 68037
-#, fuzzy
 msgid ""
 "I brought back a vial of flesh and blood for Xander and his... my... "
 "Dreambuilder. He next demanded a birdcage crusted with razors."
 msgstr ""
-"Я принес пузырек с плотью и кровью для Зандера и его... моего... построителя "
+"Я принес пузырек с плотью и кровью для Зандера и его... моего... Построителя "
 "снов. Далее он потребовал птичью клетку, покрытую лезвиями."
 
 #: 6804
-#, fuzzy
 msgid "\"All right. Let's finish the Dreambuilder.\""
-msgstr "«Ладно. Давай завершим построитель снов»."
+msgstr "«Ладно. Давай завершим Построитель снов»."
 
 #: 6805
 msgid ""
@@ -761,10 +745,9 @@ msgstr ""
 "несколько вопросов»."
 
 #: 6806
-#, fuzzy
 msgid "\"I'm not interested in the Dreambuilder. Maybe later. Farewell.\""
 msgstr ""
-"«В данный момент построитель снов меня не интересует. Может, позже. Прощай»."
+"«В данный момент Построитель снов меня не интересует. Может, позже. Прощай»."
 
 #: 6808
 msgid ""
@@ -785,7 +768,6 @@ msgid "\"All right, I'll do that right now.\""
 msgstr "«Ладно, я займусь этим сейчас же»."
 
 #: 6812
-#, fuzzy
 msgid ""
 "\"What I know is nothing. I've been here working on my construct and "
 "concentrating on my work. I haven't paid attention to what the workers do - "
@@ -804,18 +786,16 @@ msgid "\"I see. Farewell.\""
 msgstr "«Понятно. Прощай»."
 
 #: 6819
-#, fuzzy
 msgid ""
 "\"I am Nihl Xander, great-grandson of the artificer Xero Xander, engineer, "
 "dreamer, creator. And I have finished his work - the work that you "
 "commissioned - the Dreambuilder! Are you ready to claim the use of it now?\" "
 msgstr ""
 "«Я - Нил Зандер, правнук мастера Зено Зандера, инженера, мечтателя, творца. "
-"И я завершил его работу - ту самую, которую заказал ты, - построитель снов! "
+"И я завершил его работу - ту самую, которую заказал ты, - Построитель снов! "
 "Готов ли ты теперь заявить о своих правах на него?»"
 
 #: 6820
-#, fuzzy
 msgid "\"A Dreambuilder? What's that?\""
 msgstr "«Построитель снов? Что это такое?»"
 
@@ -898,7 +878,6 @@ msgid "\"Yes. Farewell.\""
 msgstr "«Да. Прощай»."
 
 #: 6839
-#, fuzzy
 msgid ""
 "You see a bushy-haired man, clad in the height of fashion - if you consider "
 "fashion to have died fifty years ago. His clothing seems to consist of "
@@ -912,11 +891,10 @@ msgstr ""
 "уличного оборванца, и он держится высокомерно по отношению к окружающим - "
 "или, может, высокомерие действительно ему присуще. Он даже не смотрит в твою "
 "сторону, пока ты не обращаешься к нему, после чего он начинает внимательно "
-"рассматривать твое лицо. «Ты чего-то хотел?» - протягивает он."
+"рассматривать твое лицо. «Ты чего-то хотел?»"
 
 # unused?
 #: 6852
-#, fuzzy
 msgid ""
 "He explodes: \"I can help her by steering her clear! Immortality is one of "
 "the greatest curses of the human imagination - every berk thinks they want "
@@ -1028,3 +1006,4 @@ msgstr "«Где мне найти фрактора?»"
 #: 8766
 msgid "\"I see. Answer some other questions for me, will you?\""
 msgstr "«Понятно. Ответь мне еще на несколько вопросов, ладно?»"
+

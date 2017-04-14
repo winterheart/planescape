@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2012, 2013.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2012, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dyves.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-11-17 01:55+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 17:01+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 3005
 msgid ""
@@ -60,9 +60,8 @@ msgid "Yves nods quietly."
 msgstr "Ив молча кивает."
 
 #: 39213
-#, fuzzy
 msgid "\"Why are you called the 'Tale-Chaser'?\""
-msgstr "«Почему тебя называют «Охотница-за-рассказами»?»"
+msgstr "«Почему тебя называют Охотницей-за-рассказами?»"
 
 #: 39214
 msgid "\"What are you doing here?\""
@@ -99,17 +98,15 @@ msgid "\"I heard that Kesai-Serris is Ravel's daughter. Is that true?\""
 msgstr "«Я слышал, что Кесай-Серри - дочь Равель. Это правда?»"
 
 #: 39222
-#, fuzzy
 msgid "\"I'm trying to find Vivian's scent... do you know where it might be?\""
-msgstr "«Я пытаюсь найти аромат Вивьен... не знаешь, где он может быть?»"
+msgstr "«Я пытаюсь найти аромат Вивьен... Ты не знаешь, где они могут быть?»"
 
 #: 39223
-#, fuzzy
 msgid ""
 "\"I'm trying to find Marissa's Crimson Veil... do you know where it might be?"
 "\""
 msgstr ""
-"«Я пытаюсь найти малиновую вуаль Мариссы... Ты не знаешь, где бы она могла "
+"«Я пытаюсь найти малиновую вуаль Мариссы... Ты не знаешь, где она может "
 "быть?»"
 
 #: 39224
@@ -193,7 +190,6 @@ msgid "\"I'll hear the rest another time, Yves. Farewell.\""
 msgstr "«Я выслушаю оставшуюся часть истории в другой раз, Ив. Прощай»."
 
 #: 39242
-#, fuzzy
 msgid ""
 "\"Once upon a time, an elderly man from the Clerk's Ward vanished, and his "
 "body could not be found. To conceal it, the murderer buried him beneath "
@@ -211,7 +207,7 @@ msgstr ""
 "сбило с толку. Пришлось отпустить подозреваемого, но потом, когда продолжили "
 "копать, чтобы заново похоронить старика, нашли второе тело».\n"
 "\n"
-"«Порой надо копать глубже, чтобы докопаться до истины».\n"
+"«Порой надо копать глубже, чтобы докопаться до истины»."
 
 #: 39243
 msgid "\"I... see. I have another question...\""
@@ -232,7 +228,6 @@ msgstr ""
 "спросила, чему же ей себя посвятить...»"
 
 #: 39249
-#, fuzzy
 msgid ""
 "\"Now, the oracle was not evil, but it was vague and tended towards drink, "
 "which caused it to be obscure in many matters of judgment and focus. Its "
@@ -251,7 +246,7 @@ msgstr ""
 "истории, за которыми она охотится по сей день, не зная, в какой из тысяч "
 "кроется истина».\n"
 "\n"
-"«Такова опасность глупого вопроса и мудрость вопроса незаданного».\n"
+"«Такова опасность глупого вопроса и мудрость вопроса незаданного»."
 
 #: 39250 39253 39257 39262 39277 39693 39697 66765 66768 66786 66788
 msgid "\"I had another question...\""
@@ -325,7 +320,6 @@ msgstr ""
 "что рассказывать о вещах, из которых состоят ночные кошмары»."
 
 #: 39268
-#, fuzzy
 msgid ""
 "\"The tale strikes me in this way: Ravel herself knew not the answer to this "
 "question, but she lusted for such an answer. Only the *why* of the matter "
@@ -338,7 +332,6 @@ msgstr ""
 "особенно такой могущественной, как Равель?»"
 
 #: 39272
-#, fuzzy
 msgid ""
 "\"It is said that she put the question to the Lady of Pain; not directly, "
 "but shouted it to Sigil itself, daring for the Lady to answer. When no reply "
@@ -348,10 +341,9 @@ msgstr ""
 "«Говорят, она задала этот вопрос Леди Боли; не напрямую, но прокричала его "
 "самому Сигилу, осмелившись адресовать его самой Леди. Когда ответа не "
 "последовало, она сотворила ужасающее заклинание, которое угрожало открыть "
-"Клетку и позволить ярости Планов прокатиться по ней подобно волне»."
+"Клетку и позволить ярости планов прокатиться по ней подобно волне»."
 
 #: 39276
-#, fuzzy
 msgid ""
 "\"She received no answer other than banishment. To this day, no one knows "
 "the answer to Ravel's question... and now there is no one to petition, for "
@@ -359,7 +351,7 @@ msgid ""
 msgstr ""
 "«Ответом на ее вопрос было лишь изгнание. И по сей день никто не знает "
 "ответа на вопрос Равель... и теперь некому спрашивать - ведь пропала сама "
-"Равель, навсегда исчезнув из Планов»."
+"Равель, навсегда исчезнув из планов»."
 
 #: 39279
 msgid "Yves nods. \"I would like that very much, yes.\""
@@ -427,7 +419,6 @@ msgid "\"Dak'kon... do you have a story to trade?\""
 msgstr "«Даккон... у тебя есть истории на обмен?»"
 
 #: 39296
-#, fuzzy
 msgid "\"Fall-from-Grace... do you have a story to trade?\""
 msgstr "«Падшая Грация... у тебя есть истории на обмен?»"
 
@@ -456,7 +447,6 @@ msgstr ""
 "тебе историю о тленных - Тленные Главы»."
 
 #: 39304
-#, fuzzy
 msgid ""
 "\"There are chapters in the dead-book, the massive tome which the Dustmen "
 "keep that records the passing of all that lives into the Eternal Boundary. "
@@ -770,7 +760,6 @@ msgstr ""
 "расскажу тебе историю - Поклонник Леди»."
 
 #: 39534
-#, fuzzy
 msgid ""
 "\"The tale concerns a suitor of the Lady of Pain, one of many over the "
 "years. He was a young man who was obsessed with the Mistress of Sigil. He "
@@ -806,7 +795,6 @@ msgstr ""
 "улыбается тебе. «Я запомню этот рассказ. А у меня есть рассказ для тебя...»"
 
 #: 39537
-#, fuzzy
 msgid ""
 "\"Once came a man who had experienced the most beautiful thing in the "
 "multiverse. It was his intention to place the experience within one of the "
@@ -857,7 +845,6 @@ msgstr ""
 "каждого, кто встанет у него на пути»."
 
 #: 39541
-#, fuzzy
 msgid ""
 "\"During one of his murderous rages, he was captured by the Harmonium with "
 "nets and brought before the Guvners. The trial was short, final, yet Kossacs "
@@ -872,7 +859,6 @@ msgstr ""
 "виновным и приговорили к смерти»."
 
 #: 39542
-#, fuzzy
 msgid ""
 "\"'Then I spit on your cowardice!' Kossacs laughed, feeling for the chalice "
 "in the darkness, then hurling it at the wall and shattering it. Its poison "
@@ -892,7 +878,6 @@ msgstr ""
 "твоему товарищу историю... Игра нечистого»."
 
 #: 39544
-#, fuzzy
 msgid ""
 "\"A fiend sometimes wandered the wilderness of a certain Prime world in the "
 "guise of a friendly old man. One day, he came upon some hunters in the wood."
@@ -964,7 +949,6 @@ msgstr ""
 "товарищем другой версией твоей истории, которую слышала я...»"
 
 #: 39550
-#, fuzzy
 msgid ""
 "Yves goes on to tell a different version of Dak'kon's tale, in which Ach'ali "
 "was driven from the githzerai city of Shra'kt'lor for her constant, useless "
@@ -986,7 +970,7 @@ msgstr ""
 "ненасытный слаади. Он подождал, и, проголодавшись, заговорил с ней через "
 "стену. Она стала расспрашивать его и так увлеклась бессмысленными вопросами "
 "и ответами со слаади, что ее собственная стена обветшала и обрушилась на "
-"нее... и таким образом она утонула в материи Лимбо».\n"
+"нее... и таким образом она утонула в материи Лимбо»."
 
 #: 39551
 msgid ""
@@ -1003,7 +987,6 @@ msgstr ""
 "земля»."
 
 #: 39553
-#, fuzzy
 msgid ""
 "\"Once, a large village was struck by a terrible drought. A farmer journeyed "
 "to the Worshipping Stone, and again implored it as to the cause of the "
@@ -1088,7 +1071,6 @@ msgstr ""
 "была по-своему ценной для каждого из них»."
 
 #: 39562
-#, fuzzy
 msgid ""
 "\"One found the spark of life returned to him, the gloom chased from his "
 "eyes and the corners of his mind.\"\n"
@@ -1100,7 +1082,7 @@ msgstr ""
 "перед глазами и в разуме».\n"
 "\n"
 "«Другой, ее возлюбленный, обнаружил кое-что другое, оказавшееся для него "
-"более ценным в его путешествии - раскаяние».\n"
+"более ценным в его путешествии - раскаяние»."
 
 #: 39663 39665
 msgid "\"Just tell the story already, Annah.\""
@@ -1163,9 +1145,8 @@ msgid "\"Flowers and Sensates.\""
 msgstr "«Цветы и чувствующие»."
 
 #: 39687
-#, fuzzy
 msgid "\"The tale of the father, the daughter, and her lover.\""
-msgstr "«Сказка об отце, дочери и ее любовнике»."
+msgstr "«Сказка об отце, дочери и ее возлюбленном»."
 
 #: 39688
 msgid "\"Actually, I had a question...\""
@@ -1234,7 +1215,6 @@ msgstr ""
 "тебе еще пригодится в будущем»."
 
 #: 50723
-#, fuzzy
 msgid ""
 "\"Kossacs' sentence proclaimed by the Guvners was this: 'Confinement for "
 "thrice-thirty days, during which time you shall give up your life, be "
@@ -1249,7 +1229,6 @@ msgstr ""
 "молчание»."
 
 #: 50727
-#, fuzzy
 msgid ""
 "\"The Mercykillers lead Kossacs to their prison and locked him in a dark, "
 "empty cell. There was no cot, no lights, and the only door was a steel grate "
@@ -1268,8 +1247,9 @@ msgstr ""
 "камере. Там не было ни койки, ни света, а единственной дверью была стальная "
 "решетка на потолке.\n"
 "\n"
-"Кинув его в камеру, убийцы милосердия сказали ему: В углу камеры стоит чаша. "
-"В ней яд. Твоя смерть будет быстрой.\n"
+"Кинув его в камеру, убийцы милосердия сказали ему:\n"
+"\n"
+"- В углу камеры стоит чаша. В ней яд. Твоя смерть будет быстрой.\n"
 "\n"
 " - Разве вы не собираетесь казнить меня? - прорычал Козакс охраннику.\n"
 "\n"
@@ -1277,7 +1257,6 @@ msgstr ""
 "милосердия»."
 
 #: 50731
-#, fuzzy
 msgid ""
 "\"But there was no response from the grate in the ceiling. It was then that "
 "Kossacs noticed the cell had no cot. No lights. And no food and water. All "
@@ -1293,7 +1272,7 @@ msgstr ""
 "разбитая чаша; весь яд пропал. И тут Козакс впервые познал леденящее "
 "прикосновение приближающейся смерти.\n"
 "\n"
-"«Через дважды по тридцать дней решетку открыли, и тело Козакса, уже "
+"Через дважды по тридцать дней решетку открыли, и тело Козакса, уже "
 "остывшее, было вынесено из камеры. Он отказался от жизни, и казнь была "
 "выполнена»."
 

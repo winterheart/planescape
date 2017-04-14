@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 02:20+0600\n"
+"PO-Revision-Date: 2017-04-14 01:16+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 24208
 msgid "\"Actually, nothing right now. Return me to the main menu.\""
@@ -231,7 +231,6 @@ msgid "\"Like...?\""
 msgstr "«Например?..»"
 
 #: 2676
-#, fuzzy
 msgid "Never mind. Let's go back to your main menu for a second."
 msgstr "Неважно. Давай вернемся на секундочку в твое главное меню."
 
@@ -253,12 +252,10 @@ msgstr ""
 "получится."
 
 #: 2679
-#, fuzzy
 msgid "\"Never mind. Farewell.\""
-msgstr "Неважно. Прощай."
+msgstr "«Неважно. Прощай»."
 
 #: 2702
-#, fuzzy
 msgid "Never mind. Go back to your normal animation cycle."
 msgstr "Неважно. Возвращайся в свой обычный цикл анимации."
 
@@ -267,7 +264,6 @@ msgid "Rolls her eyes. \"Like what dialogue stuff?\""
 msgstr "Она закатывает глаза. «Например, какие диалоги?»"
 
 #: 2704
-#, fuzzy
 msgid "Never mind. Let's go back to your main menu."
 msgstr "Неважно. Вернемся в твое главное меню."
 
@@ -296,7 +292,6 @@ msgstr ""
 "ответов на реплику Морта, что будет?"
 
 #: 2708
-#, fuzzy
 msgid "Never mind. Resume your normal animation state, Testocles."
 msgstr "Неважно. Возвращайся в свой обычный цикл анимации, Тестокль."
 
@@ -326,7 +321,6 @@ msgid "\"Show me 'Inn1,' please.\""
 msgstr "«Покажи мне, пожалуйста, 'Inn1'»."
 
 #: 39061
-#, fuzzy
 msgid ""
 "This was a new node, but by the time you see it it will be an old node. Da "
 "Node grew Ode! Text Text Text Words Words Words. One of these nodes is not "
@@ -372,7 +366,6 @@ msgid ""
 msgstr "Хорошо. Сегодня мы проверим MORTE_DEAD. Готов продолжить?"
 
 #: 46616
-#, fuzzy
 msgid "Of course I'm ready you idiot! I TOLD you that I wanted to do the test."
 msgstr "Конечно готов, дура! Я ЖЕ СКАЗАЛ, я хочу проверить."
 
@@ -398,12 +391,10 @@ msgstr ""
 "ветке."
 
 #: 46619
-#, fuzzy
 msgid "Great Idea! Why didn't I think of that?"
 msgstr "Отлично! Почему я сам не додумался?"
 
 #: 46620
-#, fuzzy
 msgid ""
 "There are two replies for this node, and only one of them should be visible. "
 "Hopefully it's the one which tells you that MORTE_DEAD is 1.\n"
@@ -412,7 +403,6 @@ msgstr ""
 "видимой. Надеюсь, что это та, которая говорит, что MORTE_DEAD равна 1.\n"
 
 #: 46621
-#, fuzzy
 msgid ""
 "MORTE_DEAD is 0. Sadness and Suffering in the highest degree. Pain and "
 "humiliation. Sulk back to main menu."
@@ -421,12 +411,11 @@ msgstr ""
 "Расстроенно вернуться в главное меню."
 
 #: 46622
-#, fuzzy
 msgid ""
 "Success! MORTE_DEAD is 1. Cancel plans for world destruction! Return to main "
 "menu for more dialogue bliss."
 msgstr ""
-"Успех!!! MORTE_DEAD равна 1. Отменить план уничтожение мира! Вернуться в "
+"Успех! MORTE_DEAD равна 1. Отменить план уничтожение мира! Вернуться в "
 "главное меню для дальнейших радостей общения."
 
 #: 49156
@@ -471,7 +460,6 @@ msgid "How about a Narrative text test, baby?"
 msgstr "Как насчет того, чтобы проверить Повествовательный текст, крошка?»"
 
 #: 49180
-#, fuzzy
 msgid "Uh... sure. Yeah."
 msgstr "Эээ... Конечно. Ага."
 
@@ -481,7 +469,6 @@ msgstr ""
 "Вопрос насчет переменной Джима, ты знаешь, когда она станет равной нулю?"
 
 #: 50014
-#, fuzzy
 msgid ""
 "I'm sorry, but I am only a test character and couldn't possibly know the "
 "answer to such a question. But now you've got me curious, it is set to zero?"
@@ -509,7 +496,6 @@ msgid "I'd like to do an in-party interaction test, Testocles."
 msgstr "Я бы хотел проверить общение внутри группы, Тестокль."
 
 #: 54301
-#, fuzzy
 msgid ""
 "Then a test it shall be. I will spew forth some pointless placeholder text, "
 "which you are reading now. My lovely assistant, Test babe, will ask a few "
@@ -521,7 +507,6 @@ msgstr ""
 "после чего я завершу общение завершающим кусочком ученого диалога."
 
 #: 54302
-#, fuzzy
 msgid ""
 "And there you have it. A successful test of character interaction, dripping "
 "with drama and suspense. I do hope you have enjoyed our little show."
@@ -530,7 +515,6 @@ msgstr ""
 "напряжением. Надеюсь, ты насладился нашим небольшим представлением."
 
 #: 54304
-#, fuzzy
 msgid ""
 "I wish I could help you, but I can't find TEST babe, my lovely assistant. If "
 "you place her next to me (via the world editor) I would be most happy to "
@@ -555,3 +539,4 @@ msgstr "«Неважно. Верни меня меня в главное мен�
 #: 7039
 msgid "\"I want out of this dialogue.\""
 msgstr "«Я хочу выйти из этого диалога»."
+

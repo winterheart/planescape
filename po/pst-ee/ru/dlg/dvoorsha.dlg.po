@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dvoorsha.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-05-11 21:43+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 17:33+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 57956
 msgid ""
@@ -64,7 +64,6 @@ msgid "\"I'm looking for a deva. I've heard he's in Curst.\""
 msgstr "«Я ищу одного дэва. Я слышал, что он в Проклятом»."
 
 #: 57971
-#, fuzzy
 msgid ""
 "He hesitates before answering. \"Name's Voorsha.\" He doesn't elaborate on "
 "his answer."
@@ -152,7 +151,6 @@ msgid "\"What kind of help?\""
 msgstr "«Какая требуется помощь?»"
 
 #: 57999
-#, fuzzy
 msgid ""
 "He thinks for a moment. \"There's a gehreleth near here. It's been trying to "
 "kill me and that makes it hard to get my stuff out. I need someone to take "
@@ -236,7 +234,6 @@ msgstr ""
 "вылечу в трубу, если не разберусь с этим гехрелетом»."
 
 #: 58067
-#, fuzzy
 msgid ""
 "He glances about. \"Nothing to tell really.\" He shrugs. \"Look around for "
 "yourself.\""
@@ -245,7 +242,6 @@ msgstr ""
 "плечами. - Лучше сам осмотрись»."
 
 #: 58070
-#, fuzzy
 msgid "He frowns. \"A deva... I've heard rumors...\" He pauses."
 msgstr "Он хмурится. «Дэва...  Что-то я об этом слышал...» Он умолкает."
 
@@ -387,7 +383,6 @@ msgid "\"I must be going now. Farewell.\""
 msgstr "«Я должен идти. Прощай»."
 
 #: 68272
-#, fuzzy
 msgid ""
 "\"I've already dealt with the gehreleth, it's dead. So, are we partners now?"
 "\""
@@ -396,3 +391,4 @@ msgstr "«Я уже разобрался с гехрелетом, он мерт�
 #: 68273
 msgid "\"I must be going now, farewell.\""
 msgstr "«Я должен идти, прощай»."
+

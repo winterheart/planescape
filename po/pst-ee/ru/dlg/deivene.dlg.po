@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: deivene.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-01-01 18:44+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 12:59+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 3404
 msgid ""
@@ -75,7 +75,6 @@ msgid "\"Uh... greetings.\""
 msgstr "«Э... Приветствую»."
 
 #: 3423
-#, fuzzy
 msgid ""
 "She doesn't seem to have heard you. She leans forward, squinting, as if she "
 "can't quite make you out... whatever is wrong with her eyes must make her "
@@ -94,9 +93,9 @@ msgstr ""
 "делает странное движение рукой. «Найди НИТКУ и БАЛЬЗАМ, принеси СЮДА, к Эи-"
 "Вейн. Пшел - пшел - пшел».\n"
 "\n"
-"ПРИМЕЧАНИЕ: Только что ты получил задание. Задания отображаются в твоем "
-"дневнике в разделе «Задания». Чтобы увидеть все задания, полученные тобой (а "
-"также их статус), просто выбери «Задания» из меню дневника."
+"^NПРИМЕЧАНИЕ: Только что вы получили задание. Задания отображаются в вашем "
+"дневнике в разделе «Задания». Чтобы увидеть все задания, полученные вами (а "
+"также их статус), просто выберите «Задания» из меню дневника.^-"
 
 #: 3424 3469
 msgid "Give her the thread and embalming fluid."
@@ -277,7 +276,6 @@ msgstr ""
 "пшел-пшел». "
 
 #: 3471
-#, fuzzy
 msgid ""
 "She leans forward, looks at your hand motions, then sniffs. Her hand darts "
 "into her robe, then emerges, a key hanging from her wickedly sharp index "
@@ -368,6 +366,11 @@ msgid ""
 "it sounds like there are a number of tieflings about... which would imply a "
 "fair number of fiends as well."
 msgstr ""
+"Недавно я встретил тленную-бальзамировщицу, которая оказалась «тифлингом», "
+"тем, у кого в жилах течет кровь нечисти. По всей видимости, кровь нечистых "
+"искажает их тела и, в некоторых случаях, также затрагивает и рассудок. Как "
+"сказал Морт, тифлингов в округе достаточно много... что может означать, что "
+"нечисти здесь тоже не меньше."
 
 #: 4200
 msgid ""
@@ -380,7 +383,6 @@ msgstr ""
 "нет». Она делает отгоняющее движение. «Пшел-пшел-пшел»."
 
 #: 4353
-#, fuzzy
 msgid ""
 "You watch her for a while, and the rhythm of her hands causes two memories "
 "to surface - one of you playing some sort of stringed instrument, perhaps a "
@@ -397,8 +399,10 @@ msgstr ""
 "твоему удивлению, это воспоминание внезапно толкает тебя на осмотр карманов "
 "Эи-Вейн.\n"
 "\n"
-"ПРИМЕЧАНИЕ: К тебе вернулась память. Эти вспышки дадут тебе дополнительный "
-"опыт, навыки и позже даже могут привести к тому, что ты вспомнишь еще больше."
+"^NПРИМЕЧАНИЕ: К вам вернулись воспоминания. Эти вспышки дадут вам"
+" дополнительный "
+"опыт, навыки и позже даже могут привести к тому, что вы вспомните еще"
+" больше.^-"
 
 #: 61612
 msgid ""
@@ -435,7 +439,6 @@ msgid "Echo: \"Keep these things safe and wait for my return.\""
 msgstr "Эхо: «Храни это, пока я не вернусь»."
 
 #: 63480
-#, fuzzy
 msgid ""
 "The memory of your voice is an echo, strange and hollow to your ears. You "
 "cross your arms in front of your chest, and to your surprise, the corpse "
@@ -452,7 +455,8 @@ msgstr ""
 "спустя его руки падают по швам и видение меркнет... ты снова наблюдаешь, как "
 "руки Эи-Вейн зашивают тело.\n"
 "\n"
-"ПРИМЕЧАНИЕ: К тебе вернулась память. Эти вспышки дадут тебе дополнительный "
-"опыт, навыки и позже даже могут привести к тому, что ты вспомнишь еще "
-"больше.\n"
-"\n"
+"^NПРИМЕЧАНИЕ: К вам вернулись воспоминания. Эти вспышки дадут вам"
+" дополнительный "
+"опыт, навыки и позже даже могут привести к тому, что вы вспомните еще"
+" больше.^-"
+

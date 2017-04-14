@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dadminas.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2015-11-22 14:25+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 12:54+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 61498
 msgid ""
@@ -39,7 +39,6 @@ msgstr ""
 "административной части. Могу ли я чем-то помочь?»"
 
 #: 61502 61552
-#, fuzzy
 msgid "\"I am looking for a deva. I've been told he's in Curst.\""
 msgstr "«Я ищу одного дэва. Мне сказали, что он в Проклятом»."
 
@@ -181,7 +180,6 @@ msgstr ""
 "по имени Кири»."
 
 #: 61533
-#, fuzzy
 msgid ""
 "\"No, Roberta was thinking of hiring a harlot to do it since no one else can "
 "get close enough to you.\""
@@ -219,7 +217,6 @@ msgstr ""
 "оказались достоверными. Спасибо тебе за это»."
 
 #: 61537
-#, fuzzy
 msgid "\"So, what happens to Roberta and Kiri now?\""
 msgstr "«А что теперь будет с Робертой и Кири?»"
 
@@ -306,7 +303,6 @@ msgid "\"Is there a problem?\""
 msgstr "«Какие-то проблемы?»"
 
 #: 61556
-#, fuzzy
 msgid ""
 "\"I'm afraid so... No one is allowed to see Trias without the express "
 "permission of Tovus Giljaf.\""
@@ -327,7 +323,6 @@ msgstr ""
 "не принимает без приглашения»."
 
 #: 61560
-#, fuzzy
 msgid "\"It's important that I see him.\""
 msgstr "«Мне важно увидеться с ним»."
 
@@ -348,7 +343,6 @@ msgid "\"Farewell.\""
 msgstr "«Прощай»."
 
 #: 61565
-#, fuzzy
 msgid ""
 "He glares at you. \"No. You cannot see Tovus today, tomorrow, or any other "
 "day unless he sends for you. You cannot make an appointment to see Tovus "

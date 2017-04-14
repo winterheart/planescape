@@ -1,21 +1,20 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dzm985.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-03-31 19:12+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 13:28+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 45515
-#, fuzzy
 msgid ""
 "This corpse - \"985\" - has stopped dead in its tracks; judging from the "
 "condition of its left leg, it looks as if some sort of tomb rot or corpse "
@@ -24,7 +23,7 @@ msgid ""
 msgstr ""
 "Этот труп, номер «985», встал как вкопанный; судя по состоянию его левой "
 "ноги, похоже, что его колено сгнило либо изъедено трупной плесенью. Труп "
-"неуверенно качается вперед и назад, пытаясь сохранить равновесие. "
+"неуверенно качается вперед и назад, пытаясь сохранить равновесие."
 
 #: 45516 45517
 msgid "Give the corpse a push."
@@ -93,14 +92,13 @@ msgstr ""
 "его, чем помогаешь удержаться..."
 
 #: 45531
-#, fuzzy
 msgid ""
 "It looks like someone has replaced this corpse's left arm and left leg with "
 "some spare limbs taken from other corpses. The left leg is shorter than the "
 "old one, but at least the corpse is able to stand now."
 msgstr ""
 "Похоже, кто-то заменил этому трупу левую руку и ногу от другого тела. Левая "
-"нога короче, чем надо, но теперь, по крайней мере, труп может стоять.  "
+"нога короче, чем надо, но теперь, по крайней мере, труп может стоять."
 
 #: 45532 45533
 msgid "\"Sorry about knocking you over before. It was an accident.\""
@@ -125,3 +123,4 @@ msgstr ""
 #: 64206
 msgid "\"Hmmm. I wonder if I could make use of that arm...\""
 msgstr "«Хм-м. Думаю, я смогу найти применение этой руке...»"
+

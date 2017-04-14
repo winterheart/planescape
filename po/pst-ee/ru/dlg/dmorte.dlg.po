@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014, 2016.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmorte.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-04-21 21:26+0500\n"
+"PO-Revision-Date: 2017-04-14 13:07+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: 1000 1105
@@ -652,7 +652,6 @@ msgstr ""
 "умолкает. - Знаешь, я понятия не имею, чем угрожать зубам»."
 
 #: 11950
-#, fuzzy
 msgid ""
 "The struggle is brief. You catch Morte in a headlock - the only move you can "
 "really do - and as he attempts to bite his way free, the teeth hop out of "
@@ -734,7 +733,6 @@ msgstr ""
 "прыгают в открывшиеся полости."
 
 #: 11959
-#, fuzzy
 msgid ""
 "The teeth suddenly unlock, and Morte takes a deep breath. \"I will *kill* "
 "you for this! You planned that! I know it!\""
@@ -811,7 +809,6 @@ msgid "\"You'll thank me later. You'll see.\""
 msgstr "«Поблагодаришь меня позже. Вот увидишь»."
 
 #: 11992
-#, fuzzy
 msgid "\"They sure do, don't th-\""
 msgstr "«Точно замышляют, так...»"
 
@@ -880,7 +877,6 @@ msgid "\"Shut up, you yammering skull! And you, goat-thing: Die...\""
 msgstr "«Умолкни, ноющий череп! А ты, козлик, сдохни...»"
 
 #: 12555
-#, fuzzy
 msgid "\"Oh, no... it was *you,* and you'll regret it...\""
 msgstr "«Э, нет... это все *ты*, и ты об этом пожалеешь...»"
 
@@ -933,7 +929,6 @@ msgid "\"Do you have an explanation, Morte?\""
 msgstr "«Ты можешь это объяснить, Морт?»"
 
 #: 12855
-#, fuzzy
 msgid "\"What is a 'mimir'?\""
 msgstr "«Что такое 'мимир'?»"
 
@@ -946,7 +941,6 @@ msgid "\"No... let's hear what you have to say, Morte.\""
 msgstr "«Нет... давай лучше выслушаем, что скажешь ты, Морт»."
 
 #: 12858
-#, fuzzy
 msgid "\"In a moment... what is a 'mimir'?\""
 msgstr "«Секунду... что такое 'мимир'?»"
 
@@ -991,7 +985,6 @@ msgid "\"I understand. Farewell.\""
 msgstr "«Понятно. Прощай»."
 
 #: 13748 13828
-#, fuzzy
 msgid ""
 "\"Well, that's a tree with one snapped branch too many.\" Morte rolls his "
 "eyes. \"No sense in chatting with Xaositects, chief. They're a barmy bunch.\""
@@ -1159,7 +1152,6 @@ msgid "\"Now's not the time, Morte. Let's go.\""
 msgstr "«Не в этот раз, Морт. Пошли»."
 
 #: 16613
-#, fuzzy
 msgid "\"Huh? Oh, yeah, chief, sure - whatever you say.\""
 msgstr "«А? А, да, шеф, конечно - как скажешь»."
 
@@ -1172,7 +1164,6 @@ msgstr ""
 "Если это настолько важно для тебя, я сделаю это»."
 
 #: 16615
-#, fuzzy
 msgid ""
 "\"You know, I *really* can't see this going anywhere. It's the old blood "
 "from a stone thing, chief - these little guys just don't work that way.\""
@@ -1209,7 +1200,6 @@ msgid "\"I'm serious, Morte. Can you make the effort?\""
 msgstr "«Я серьезно, Морт. Приложишь в этом усилия?»"
 
 #: 16883 16892
-#, fuzzy
 msgid "\"Thanks, Morte. Farewell, Mourns-for-Trees.\""
 msgstr "«Спасибо, Морт. Прощай, Скорбящий-по-деревьям»."
 
@@ -1274,7 +1264,6 @@ msgid "\"I thank you, Nordom. I had some questions, Mourns...\""
 msgstr "«Спасибо тебе, Нордом. У меня есть несколько вопросов, Скорбящий...»"
 
 #: 16901
-#, fuzzy
 msgid "\"I am grateful to you, Nordom. Farewell, Mourns-for-Trees.\""
 msgstr "«Я благодарен тебе, Нордом. Прощай, Скорбящий-по-деревьям»."
 
@@ -1373,6 +1362,8 @@ msgid ""
 "Truth: \"If you can prove to me the skull's yours, then I'll give it to you. "
 "It's only fair.\""
 msgstr ""
+"Правда: «Если тебе удастся доказать, что череп твой, я отдам его тебе. Так "
+"будет честно»."
 
 #: 18801
 msgid "Morte turns to the Hiver. \"Pike off.\""
@@ -1482,7 +1473,6 @@ msgid "\"I'm floating with the biggest idiot in the multiverse.\""
 msgstr "«Я летаю с самым большим болваном во всей мультивселенной»."
 
 #: 18827
-#, fuzzy
 msgid "\"...and what, Yellow-Fingers? Steal from you and you'll do *what?*\""
 msgstr "«... и что, Желтопалый? Еще раз обчищу тебя - и *что*?»"
 
@@ -1719,9 +1709,8 @@ msgid "\"Got it.\""
 msgstr "«Понятно»."
 
 #: 21602
-#, fuzzy
 msgid "\"Oh, for the powers' sake...! Piking dabus.\""
-msgstr "«Ох, Силы небесные!.. Чертов дабус»."
+msgstr "«Ох, силы небесные!.. Чертов дабус»."
 
 #: 21603 2788 50322
 msgid ""
@@ -1836,7 +1825,6 @@ msgid "Morte stares at you and shakes his head."
 msgstr "Глядя на тебя, Морт качает головой."
 
 #: 22850
-#, fuzzy
 msgid ""
 "\"What's that, cube hero? 'Morte's a stupid skull'? Why, yes he is, isn't "
 "he, cube hero?\""
@@ -1857,7 +1845,6 @@ msgid "\"Yes, it did! It said it just now!\""
 msgstr "«Нет, говорил! Он только что это сказал!»"
 
 #: 22855
-#, fuzzy
 msgid "\"Wh-?! Gimme that thing!\""
 msgstr "«Чт?!.. А ну дай его сюда!»"
 
@@ -1971,12 +1958,10 @@ msgid "\"What's wrong?\""
 msgstr "«Что не так?»"
 
 #: 24696 2791 50323
-#, fuzzy
 msgid "\"What's a 'dabus'?\""
 msgstr "«Что за 'дабус'?»"
 
 #: 24697 50325 6952
-#, fuzzy
 msgid "\"'Lady of Pain'? Who's that?\""
 msgstr "«'Леди Боли'? Кто это?»"
 
@@ -2083,7 +2068,6 @@ msgstr ""
 "архитектурой беременной паучихи»."
 
 #: 24919
-#, fuzzy
 msgid "\"'The Mortuary'? What... am I dead?\""
 msgstr "«Морг? Постой... я умер?»"
 
@@ -2146,7 +2130,6 @@ msgid "\"Well, all right... I'll take one of them down and get the key.\""
 msgstr "«Ну хорошо... Я собью одного из них и заберу ключ»."
 
 #: 24929
-#, fuzzy
 msgid ""
 "\"Well, before you do that, arm yourself first. I think there's a scalpel on "
 "one of the shelves around here.\"\n"
@@ -2157,8 +2140,8 @@ msgstr ""
 "«Хорошо, но перед этим неплохо бы вооружиться. Кажется, здесь где-то на "
 "полках есть скальпель».\n"
 "\n"
-"ПРИМЕЧАНИЕ: Обыщи полки в комнате, чтобы найти оружие, с которым можно "
-"напасть на зомби."
+"^NПРИМЕЧАНИЕ: Обыщите полки в комнате, чтобы найти оружие, с которым можно "
+"напасть на зомби.^-"
 
 #: 24930
 msgid "\"All right, I'll look for one.\""
@@ -2189,7 +2172,6 @@ msgid "\"All right. Thanks for the advice.\""
 msgstr "«Хорошо. Спасибо за совет»."
 
 #: 24933
-#, fuzzy
 msgid ""
 "I've started writing down my experiences to keep a clear head, and in the "
 "hopes I can make some sense of what's going on. I woke up in some place "
@@ -2237,7 +2219,6 @@ msgstr ""
 "быть *мертвым*...»"
 
 #: 25967 27916
-#, fuzzy
 msgid "\"Say... did you say 'on its own'? They usually don't?\""
 msgstr ""
 "«Постой... ты сказала 'разговаривает сам'? А разве обычно они не "
@@ -2252,7 +2233,6 @@ msgid "Leave the woman in peace."
 msgstr "Оставить женщину в покое."
 
 #: 25970 27919
-#, fuzzy
 msgid ""
 "Morte interrupts her: \"Well, you see, chief, it's all about differences in "
 "the *quality* of your mimir. Some - like me - are more enchanted than "
@@ -2287,7 +2267,6 @@ msgid "\"What are you *talking* about?\""
 msgstr "«О чем это ты *толкуешь*?»"
 
 #: 2604 34992 35024 35088 35120 35152 35184 35216 35280
-#, fuzzy
 msgid ""
 "\"Wha- are you BLIND?! She was scouting me out! It was shameless the way she "
 "WANTED me.\""
@@ -2360,7 +2339,6 @@ msgstr ""
 "меня от этого»."
 
 #: 27285
-#, fuzzy
 msgid ""
 "\"Some advice, chief: I'd keep it quiet from here on - no need to put any "
 "more corpses in the dead-book than necessary... especially the femmes. Plus, "
@@ -2383,7 +2361,6 @@ msgstr ""
 "умереть... и лучше раньше, чем позже»."
 
 #: 27287 41882
-#, fuzzy
 msgid ""
 "\"Weren't you listening?! I said the Dusties believe EVERYBODY'S got to die, "
 "sooner better than later. You think the corpses you've seen are happier in "
@@ -2394,16 +2371,14 @@ msgstr ""
 "ты видел, счастливее в книге мертвых, чем вне ее?»"
 
 #: 27288
-#, fuzzy
 msgid ""
 "\"Death visits the planes every day, chief. These lummoxes are all that's "
 "left of the poor sods who sold their bodies to the caretakers after death.\""
 msgstr ""
-"«Смерть посещает Планы каждый день, шеф. Эти увальни - все, что осталось от "
+"«Смерть посещает планы каждый день, шеф. Эти увальни - все, что осталось от "
 "тех бедолаг, кто продал свои тела смотрителям»."
 
 #: 27289 41894
-#, fuzzy
 msgid ""
 "\"Wh- are you *serious?* Look, chief, these dead chits are the last chance "
 "for a couple of hardy bashers like us. We need to be *chivalrous*... no "
@@ -2629,9 +2604,8 @@ msgid "\"All right.\""
 msgstr "«Хорошо». "
 
 #: 27327
-#, fuzzy
 msgid "\"I meant help in attacking the *corpse.*\""
-msgstr "«Я имел ввиду помощь в атаке *трупов*»."
+msgstr "«Я имел ввиду помощь в нападении на *трупов*»."
 
 #: 27328 27330
 msgid "\"All right, then.\""
@@ -2656,7 +2630,7 @@ msgstr "«Тогда я перепробую все двери»."
 #: 2782 50320
 #, fuzzy
 msgid "\"Oh, for the powers' sake! Piking dabus.\""
-msgstr "«Ох, во имя Сил! Чертов дабус»."
+msgstr "«Ох, Силы небесные!.. Чертов дабус»."
 
 #: 27911
 msgid "Morte hisses into your ear: \"Lawyer.\""
@@ -2881,9 +2855,8 @@ msgid "Strike the statue."
 msgstr "Ударить статую."
 
 #: 28978
-#, fuzzy
 msgid "\"I have questions about you...\""
-msgstr "«У меня есть к тебе вопросы...»"
+msgstr "«У меня есть вопросы о тебе...»"
 
 #: 28979
 msgid "\"I have questions about this place.\""
@@ -3562,7 +3535,6 @@ msgid "\"All right then, never mind. Maybe some other time.\""
 msgstr "«Ну, тогда ладно. Может, в другой раз»."
 
 #: 38205
-#, fuzzy
 msgid ""
 "Apparently, the Dustwoman embalmer I encountered is a \"tiefling,\" someone "
 "with fiendish blood in their veins. Apparently, the fiendish blood warps "
@@ -3574,7 +3546,7 @@ msgstr ""
 "тем, у кого в жилах течет кровь нечисти. По всей видимости, кровь нечистых "
 "искажает их тела и, в некоторых случаях, также затрагивает и рассудок. Как "
 "сказал Морт, тифлингов в округе достаточно много... что может означать, что "
-"нечисти здесь тоже не меньше.  "
+"нечисти здесь тоже не меньше."
 
 #: 38265
 msgid "\"I love this chit already!\""
@@ -6855,7 +6827,6 @@ msgid "Examine the other notices."
 msgstr "Осмотреть другие записки."
 
 #: 6330
-#, fuzzy
 msgid "Use your Stories-Bones-Tell power on the corpse."
 msgstr "Использовать на трупе свою способность «История костей»."
 

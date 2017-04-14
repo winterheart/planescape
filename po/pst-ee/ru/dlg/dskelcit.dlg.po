@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dskelcit.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-09 00:19+0600\n"
+"PO-Revision-Date: 2017-04-14 16:20+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 19719
 msgid ""
@@ -122,7 +122,6 @@ msgstr ""
 "Харгримма, нашего верховного жреца. Он сможет рассказать тебе больше»."
 
 #: 19730
-#, fuzzy
 msgid ""
 "\"Vermin, whose intelligence increases according to their proximity with "
 "others of their own kind. A serious threat, at one time... they raided our "
@@ -156,7 +155,6 @@ msgstr ""
 "пыльных залов. Возможно, ты захочешь с ним поговорить»."
 
 #: 19733
-#, fuzzy
 msgid ""
 "\"What do the living do, in the world above? We go about our lives here, in "
 "the quiet darkness. We work to protect our charges, the silent ones, from "
@@ -174,7 +172,6 @@ msgstr ""
 "покоем»."
 
 #: 19735
-#, fuzzy
 msgid ""
 "The skeleton shrugs, its shoulder blades scraping along the back of its rib "
 "cage. \"No, I have not. Perhaps thou should speak to Hargrimm, our high "
@@ -185,7 +182,6 @@ msgstr ""
 "Он многое знает»."
 
 #: 19736
-#, fuzzy
 msgid ""
 "The skeleton touches its chin, tilting its skull slightly upwards. \"The "
 "ghouls are permitted to feast upon all those found robbing the catacombs. "
@@ -214,7 +210,6 @@ msgid "\"Greetings, once more. Accustomed to thy new home, yet?\""
 msgstr "«И снова приветствую. Уже привыкаешь к новому дому?»"
 
 #: 19739
-#, fuzzy
 msgid ""
 "\"Many.\" He ticks them off on yellowed, dust-covered finger bones as he "
 "speaks. \"Hungry, uncontrolled ghouls, rats, and most of all... the living. "
@@ -384,7 +379,6 @@ msgid "\"Silent King?\""
 msgstr "«Безмолвный Король?»"
 
 #: 19832
-#, fuzzy
 msgid "\"'Lapse into your care'?\""
 msgstr "«Стали вашими подопечными?»"
 
@@ -443,3 +437,4 @@ msgstr "«Расскажи мне о зомби»."
 #: 19858
 msgid "\"Tell me of the Blighted Ones.\""
 msgstr "«Расскажи мне о Паршивых»."
+

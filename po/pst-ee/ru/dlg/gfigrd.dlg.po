@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: gfigrd.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2010-09-25 18:53+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 13:26+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 5691
 msgid "\"Comrades! To me! The intruder's here! Over here!\""
@@ -65,9 +65,8 @@ msgid "\"Where can I find a high-up here?\""
 msgstr "«Где я могу найти здешнее начальство?»"
 
 #: 5719
-#, fuzzy
 msgid "\"No, thank you. Farewell.\""
-msgstr "«Спасибо. Прощай»."
+msgstr "«Нет, спасибо. Прощай»."
 
 #: 5720
 msgid ""
@@ -128,7 +127,6 @@ msgid "\"What's behind those guarded doors?\""
 msgstr "«Что за теми охраняемыми дверьми?»"
 
 #: 5765
-#, fuzzy
 msgid ""
 "\"What with the death of Sandoz, Keldor's pretty much the only one who can "
 "give you any help. You can find him in the main meeting hall - out the door "
@@ -204,13 +202,12 @@ msgid "\"I see. Interesting. Thank you for your time.\""
 msgstr "«Понятно. Это интересно. Спасибо за уделенное время»."
 
 #: 5784
-#, fuzzy
 msgid ""
 "\"WHAT? Are you serious? Go talk to Keldor about this. In the meantime, "
 "we'll take care of the engineer. Thank you.\""
 msgstr ""
-"«ЧТО? Ты серьезно? Сходи поговори об этом с Кельдором. Тем временем мы "
-"позаботимся об инженере. Спасибо тебе, и прощай»."
+"«ЧТО? Ты серьезно? Сходи, поговори об этом с Кельдором. Тем временем мы "
+"позаботимся об инженере. Спасибо тебе»."
 
 #: 5786
 msgid ""
@@ -273,9 +270,8 @@ msgid "\"More questions?\""
 msgstr "«Еще вопросы?»"
 
 #: 5803 5818 5825
-#, fuzzy
 msgid "\"Forget it. Farewell.\""
-msgstr "«Ладно. Прощай»."
+msgstr "«Забудь об этом. Прощай»."
 
 #: 5804
 msgid "\"That's exactly right, sir. I saw nothing.\""

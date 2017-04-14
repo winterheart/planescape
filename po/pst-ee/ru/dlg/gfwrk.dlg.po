@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: gfwrk.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2010-11-27 15:44+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 13:22+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 5503
 msgid "The yard worker turns and flees from you."
@@ -30,7 +30,6 @@ msgstr ""
 "выходу."
 
 #: 5507
-#, fuzzy
 msgid ""
 "\"I heard that they found a smith's awl near the body. But then, I guess you "
 "could find one of those just about anywhere here. My money's on Thildon as "
@@ -66,9 +65,8 @@ msgid "\"Who's your boss?\""
 msgstr "«Кто твой начальник?»"
 
 #: 5514
-#, fuzzy
 msgid "\"Forget it. Farewell.\""
-msgstr "«Конечно. Прощай»."
+msgstr "«Забудь. Прощай»."
 
 #: 5515
 msgid "\"Why? You with the Takers? I already paid my taxes.\""
@@ -114,9 +112,8 @@ msgid "\"I see. So long.\""
 msgstr "«Ясно. Пока»."
 
 #: 5524
-#, fuzzy
 msgid "\"Why? You work for him?\""
-msgstr "«А что? Ты на него работаешь?"
+msgstr "«А что? Ты на него работаешь?»"
 
 #: 5525
 msgid "\"Um... yes.\""
@@ -181,14 +178,13 @@ msgid "\"I see. Farewell.\""
 msgstr "«Понятно. Прощай»."
 
 #: 5536
-#, fuzzy
 msgid ""
 "\"Then he's the salt of the earth. A real gentleman. Can't say enough good "
 "things about him, only I got to get back to work.\" The worker turns away "
 "and ignores further entreaties."
 msgstr ""
 "«Тогда он - соль земли. Настоящий джентльмен. Хороших вещей о нем просто не "
-"перечесть, вот только мне нужно возвращаться к работе. Пока». Рабочий "
+"перечесть, вот только мне нужно возвращаться к работе». Рабочий "
 "отворачивается и игнорирует последующие просьбы."
 
 #: 5538
@@ -234,7 +230,6 @@ msgstr ""
 "«Звучит убедительно. Но тебе не кажется, что ты мог бы добиться лучшего?»"
 
 #: 5544
-#, fuzzy
 msgid ""
 "\"Surprisingly, yes. Gives me hope that I'm going to end up better, either "
 "in this life or the next. I may be ignoring the obvious, but let me tell you "
@@ -247,7 +242,7 @@ msgstr ""
 "скажу тебе вот что: хлебнув помоев, как я, начинаешь ценить те маленькие "
 "радости, что жизнь подбрасывает тебе. Для низших классов жизнь - не одни "
 "лишь первоцветы, пень, - рабочий отворачивается. - Мне нужно возвращаться к "
-"работе. Прощай»."
+"работе»."
 
 #: 5546
 msgid ""

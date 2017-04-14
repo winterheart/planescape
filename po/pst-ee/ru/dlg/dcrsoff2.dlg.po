@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2013.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcrsoff2.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-06-01 19:24+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 14:39+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 3176
 msgid ""
@@ -45,7 +45,6 @@ msgid "\"I just had a few questions about Curst.\""
 msgstr "«У меня всего лишь несколько вопросов о Проклятом»."
 
 #: 60215 60228
-#, fuzzy
 msgid "\"I spoke with An'izius. He had an interesting proposition.\""
 msgstr "«Я переговорил с Анизиусом. Он сделал мне интересное предложение»."
 
@@ -54,7 +53,6 @@ msgid "\"Forget it, then. Farewell.\""
 msgstr "«Тогда забудь об этом. Прощай»."
 
 #: 60217
-#, fuzzy
 msgid "\"Well?\""
 msgstr "«И?»"
 
@@ -63,7 +61,6 @@ msgid "\"He's offered to pay me a large sum to double-cross you.\""
 msgstr "«Он предложил мне большую сумму за то, чтобы я встал на его сторону»."
 
 #: 60219
-#, fuzzy
 msgid ""
 "\"I spoke with the guard captain, and he said he'd send a detachment to "
 "escort An'izius to the prison.\""
@@ -80,7 +77,6 @@ msgid "\"I'm working on it. I'll be back.\""
 msgstr "«Я работаю над этим. Я вернусь»."
 
 #: 60222
-#, fuzzy
 msgid ""
 "I reported my success in turning An'izius over to the guards of Curst. "
 "Siabha was delighted, and paid me handsomely for this minor bit of treachery."
@@ -110,7 +106,6 @@ msgstr ""
 "«Я здесь не осведомителем стою ради твоих удовольствий и прихотей. Уходи»."
 
 #: 60231 60234
-#, fuzzy
 msgid ""
 "\"Then you might be interested in knowing that I spoke to An'izius. He had "
 "something interesting to say.\""
@@ -166,7 +161,6 @@ msgid "\"I'll be back, then.\""
 msgstr "«Тогда я скоро вернусь»."
 
 #: 60241
-#, fuzzy
 msgid ""
 "Siabha, the other official in Curst, has offered me double what An'izius "
 "offered in order to double cross him. I'll think about it."
@@ -256,7 +250,6 @@ msgid "\"Die well.\""
 msgstr "«Приятной смерти»."
 
 #: 68274
-#, fuzzy
 msgid ""
 "Siabha made her final offer to me in her game of betrayals with An'izius."
 msgstr ""
@@ -265,3 +258,5 @@ msgstr ""
 #: 68278
 msgid "\"Farewell, Siabha.\""
 msgstr "«Прощай, Сиабха»."
+
+

@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dzm310.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-11-17 01:56+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 01:24+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 20102
 msgid ""
@@ -173,7 +173,6 @@ msgid "\"Yes, m'lord. A wretched place, but not so dreadful as Oinos.\""
 msgstr "«Да, милорд. Плохое место, но там не так страшно, как в Ойносе»."
 
 #: 9652
-#, fuzzy
 msgid ""
 "\"Yes, m'lord. 'Tis a mighty tower, far greater than the highest of Sigil's. "
 "It has the appearance of bone, m'lord - like the spinal column of some "
@@ -186,7 +185,6 @@ msgstr ""
 "принцев, врагов моего Повелителя»."
 
 #: 9653
-#, fuzzy
 msgid ""
 "\"I know him only as the Master, m'lord; the Lord of Khin-Oin. He is a "
 "fiendish prince - an ultraloth of awesome power. It is he who owns my soul, "
@@ -199,7 +197,6 @@ msgstr ""
 "вечность не будет перемолота в Забвение»."
 
 #: 9654
-#, fuzzy
 msgid ""
 "\"Yes, m'lord, a Collector. Those who gather the dead of Sigil and haul them "
 "to the Mortuary - where we stand now - for a petty fee.\" The spirit takes a "
@@ -318,16 +315,14 @@ msgid "\"Farewell, then.\""
 msgstr "«Тогда прощай». "
 
 #: 9689
-#, fuzzy
 msgid "\"Who is this... 'Master'?\""
-msgstr "«Кто такой этот... «Повелитель'?»"
+msgstr "«Кто такой этот... 'Повелитель'?»"
 
 #: 9692
 msgid "\"It certainly sounds so. Farewell, spirit.\""
 msgstr "«Безусловно, это так. Прощай, дух»."
 
 #: 9696
-#, fuzzy
 msgid "\"Who is this 'Master'?\""
 msgstr "«Кто такой этот 'Повелитель'?»"
 
@@ -350,3 +345,4 @@ msgstr "«Понятно. У меня есть другой вопрос к те
 #: 9705
 msgid "\"Very well. I had other questions, then...\""
 msgstr "«Хорошо. Тогда у меня есть вопросы...»"
+
