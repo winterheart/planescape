@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: 3184
@@ -266,7 +266,7 @@ msgid ""
 "tide of goodness will swing... if you save me without thought of gain... "
 "better still to save us both.\""
 msgstr ""
-"«Ты ничего не выиграешь, спасая меня.... Должен это признать. Но право же... "
+"«Ты ничего не выиграешь, спасая меня... Должен это признать. Но право же... "
 "это доброе дело... если ты спасешь меня просто так... но лучше, если спасешь "
 "нас обоих»."
 
@@ -289,4 +289,3 @@ msgstr ""
 #: 57016
 msgid "\"I'll try to figure out a way. Farewell.\""
 msgstr "«Я попытаюсь найти способ. Счастливо»."
-

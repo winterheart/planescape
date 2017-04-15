@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: 50430
@@ -51,9 +51,8 @@ msgid ""
 "you..."
 msgstr ""
 "По лезвию Меча Винн проходит волна силы. Где-то вдалеке слышен раскат грома. "
-"Через миг игра закончится...."
+"Через миг игра закончится..."
 
 #: 50439
 msgid "Watch it unfold..."
 msgstr "Наблюдать..."
-
