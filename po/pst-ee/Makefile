@@ -24,3 +24,7 @@ all: po
 
 clean:
 	@rm $(OLD_FILES)
+
+touch: $(addprefix pot/, $(POT_FILES))
+	touch $^
+
