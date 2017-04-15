@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2013.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dburgher.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-06-28 20:52+0300\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 00:10+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 57017
 msgid ""
@@ -47,14 +47,13 @@ msgstr ""
 "тебе такого удовольствия». "
 
 #: 57031 57079
-#, fuzzy
 msgid ""
 "\"Yes, put the blade away, *zerth* dog. I spit on your teachings. Wear your "
 "chains a little longer.\" The githzerai turns his head toward you. \"I am "
 "Tovus Giljaf. I used to be the Burgher of this town... until the accursed "
 "deva broke free.\""
 msgstr ""
-"«Да, убери клинок, зертов пес. Я плюю на твои учения. Носи свои оковы "
+"«Да, убери клинок, *зертов* пес. Я плюю на твои учения. Носи свои оковы "
 "дальше, - гитцерай поворачивает голову к тебе. - Я - Товус Гильяф, был "
 "бюргером этого города... пока проклятый дэва не вырвался на свободу»."
 
@@ -79,12 +78,11 @@ msgid "\"In that case, I'll leave you to die. Farewell.\""
 msgstr "«В таком случае, я оставлю тебя умирать. Прощай»."
 
 #: 57038 57085
-#, fuzzy
 msgid ""
 "\"Yes, kill me, *zerth* dog. Do as your master orders.\" The old githzerai "
 "cackles bloodily until Dak'kon slashes his throat."
 msgstr ""
-"«Да, убей меня, зертов пес. Делай, как тебе велит твой хозяин». Старый "
+"«Да, убей меня, *зертов* пес. Делай, как тебе велит твой хозяин». Старый "
 "гитцерай хохочет, пока Даккон не перерезает ему горло."
 
 #: 57039 57086
@@ -128,7 +126,6 @@ msgid "\"So long.\""
 msgstr "«Пока»."
 
 #: 57051
-#, fuzzy
 msgid ""
 "You throw your weight against the cart, and manage to lift it enough for him "
 "to squirm out from underneath.\n"
@@ -139,6 +136,7 @@ msgid ""
 msgstr ""
 "Ты наваливаешься всем своим весом на повозку, поднимая ее достаточно высоко, "
 "чтобы он выполз из-под нее.\n"
+"\n"
 "«Спасибо, человек. Мне пора на стены, нужно помочь стражникам. Мой город не "
 "должен пасть, - он криво улыбается тебе. - Не завидую я тебе с этим дэва. Он "
 "грозный противник. Возьми, это поможет тебе»."
@@ -214,7 +212,6 @@ msgstr ""
 "доставлю тебе такого удовольствия»."
 
 #: 57098
-#, fuzzy
 msgid ""
 "You throw your weight against the cart, and manage to lift it enough for him "
 "to squirm out from underneath. You hear a scream of agony cut off suddenly "
@@ -326,3 +323,4 @@ msgstr ""
 msgid ""
 "\"It's... the Burgher, you little fool.\" He turns his attention to you."
 msgstr "«Это называется... бюргер, маленький идиот». Он поворачивается к тебе."
+

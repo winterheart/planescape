@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dscpat4.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2012-02-05 04:21+0600\n"
+"PO-Revision-Date: 2017-04-15 16:07+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 10941
 msgid ""
@@ -101,7 +101,6 @@ msgid "\"Then you probably can't answer my questions. Farewell.\""
 msgstr "«Тогда, скорее всего, ты не сможешь ответить на мои вопросы. Прощай»."
 
 #: 10957
-#, fuzzy
 msgid ""
 "\"Sorry. I'm new in town, and I can assure you I haven't seen anything that "
 "I'd recognize as a journal - though I am told that something that appears to "
@@ -156,7 +155,6 @@ msgid "\"That's possible. Farewell.\""
 msgstr "«Возможно. Прощай»."
 
 #: 10965
-#, fuzzy
 msgid ""
 "\"That is Ignus. He attempted to burn down a portion of the city some time "
 "back - centuries? - and was punished by being turned into a living flame. A "
@@ -181,7 +179,6 @@ msgid "\"Thank you. Good day.\""
 msgstr "«Спасибо. Хорошего дня»."
 
 #: 10969
-#, fuzzy
 msgid ""
 "\"He's not my friend, he's my cousin. He was just telling me that this isn't "
 "the center of the multiverse, despite it being located smack in the middle "
@@ -360,3 +357,4 @@ msgstr ""
 #: 11000
 msgid "\"That's a good suggestion. Thank you, and farewell.\""
 msgstr "«Хороший совет. Спасибо и прощай»."
+

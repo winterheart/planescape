@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddhall.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-10 14:36+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 21:49+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 1301
 msgid "\"Only surface wounds? What do you mean?\""
@@ -51,7 +51,6 @@ msgstr ""
 "все больше и больше вопросов. "
 
 #: 39460
-#, fuzzy
 msgid ""
 "I asked Dhall if he knew me, and he responded that he knew little about me - "
 "and even less about the companions that had traveled with me in the past. "
@@ -105,7 +104,6 @@ msgstr ""
 "нибудь в Улье. "
 
 #: 39468
-#, fuzzy
 msgid ""
 "I told that scribe, Dhall, about Vaxis and his disguise. Dhall should be "
 "sending the rest of the Dustmen out to round up Vaxis shortly."
@@ -114,7 +112,6 @@ msgstr ""
 "других тленных схватить Ваксиса. "
 
 #: 39469
-#, fuzzy
 msgid ""
 "I promised Vaxis I wouldn't betray him to the Dustmen, but so what? I told "
 "that scribe, Dhall, about him and his disguise. Dhall should be sending the "
@@ -122,7 +119,7 @@ msgid ""
 msgstr ""
 "Да, я обещал Ваксису, что не выдам его тленным, ну и что? Я рассказал писарю "
 "Дхоллу о Ваксисе и его маскировке. Дхолл должен послать других тленных "
-"схватить Ваксиса.  "
+"схватить Ваксиса."
 
 #: 39470
 msgid ""
@@ -466,7 +463,6 @@ msgstr ""
 "откладывает перо, - но глухотой я еще не страдаю»."
 
 #: 827 845
-#, fuzzy
 msgid "\"'Restless One'? Do you know me?\""
 msgstr "«Неугомонный? Ты меня знаешь?»"
 
@@ -823,7 +819,6 @@ msgstr ""
 "Истинной Смерти, и приносят их нам для подобающего погребения»."
 
 #: 897
-#, fuzzy
 msgid "\"Where can I find this 'Pharod'?\""
 msgstr "«Где я могу найти этого Фарода?»"
 
@@ -873,7 +868,6 @@ msgid "\"Can you tell me more about the Mortuary?\""
 msgstr "«Расскажи мне побольше о Морге»."
 
 #: 914
-#, fuzzy
 msgid ""
 "\"I know scant little of you, Restless One. I know little more of those that "
 "have journeyed with you and who now lie in our keeping.\" Dhall sighs. \"I "
@@ -886,7 +880,6 @@ msgstr ""
 "остается только несчастье. Не разделяй свою ношу с другими»."
 
 #: 915
-#, fuzzy
 msgid ""
 "Dhall sighs. \"It is said there are souls who can never attain the True "
 "Death. Death has forsaken them, and their names shall never be penned in the "
@@ -894,13 +887,12 @@ msgid ""
 "these souls. Your existence is unacceptable to our faction.\""
 msgstr ""
 "Дхолл вздыхает. «Говорят, что есть души, которые не могут достичь Истинной "
-"Смерти. Смерть отказалась от них, и их имена никогда не попадут в Книгу "
-"Мертвых. Подняться из мертвых, как это сделал ты... Это наводит на мысль, "
+"Смерти. Смерть отказалась от них, и их имена никогда не попадут в книгу "
+"мертвых. Подняться из мертвых, как это сделал ты... Это наводит на мысль, "
 "что ты - одна из таких душ. Само твое существование неприемлемо для нашей "
 "фракции»."
 
 #: 917
-#, fuzzy
 msgid ""
 "\"'Unacceptable'? That doesn't sound like it leaves me in a good position.\""
 msgstr "«Неприемлемо? Похоже, мое положение оставляет желать лучшего»."
@@ -1005,7 +997,6 @@ msgid ""
 msgstr "«Ты - тленный, и все же не пытаешься убить меня. Почему?»"
 
 #: 941
-#, fuzzy
 msgid ""
 "Dhall pauses, considering. \"Most likely. Are you missing anything... "
 "especially anything of value?\" His voice dips as he frowns. \"Not that "
@@ -1071,7 +1062,6 @@ msgid "\"Sigil?\""
 msgstr "«Сигил?»"
 
 #: 957
-#, fuzzy
 msgid ""
 "\"Yes, a shadow. You see, Restless One, this life... it is not real. Your "
 "life, my life, they are shadows, flickerings of what life once was. This "
@@ -1113,7 +1103,6 @@ msgstr ""
 "наживы, подлая мразь самого низкого пошиба»."
 
 #: 963
-#, fuzzy
 msgid "\"'Knight of the post'?\""
 msgstr "«Рыцарь легкой наживы?»"
 
@@ -1168,7 +1157,6 @@ msgid "\"I had some more questions for you, Dhall.\""
 msgstr "«У меня к тебе другие вопросы, Дхолл»."
 
 #: 980
-#, fuzzy
 msgid "\"Never mind. Farewell.\""
 msgstr "«Неважно. Прощай»."
 

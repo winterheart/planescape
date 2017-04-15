@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: daola.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-06-01 00:00+0300\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 00:05+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 45487
 msgid ""
@@ -84,7 +84,6 @@ msgid "\"Nothing for now. Farewell.\""
 msgstr "«На этот раз ничего. Прощай»."
 
 #: 45511
-#, fuzzy
 msgid ""
 "\"You have returned! Excuse my surprise, it is just that you are the first "
 "disciple to ever return. Most seem to disappear. How may I help you?\""
@@ -107,9 +106,8 @@ msgstr ""
 "услышать - это песнопения во славу Аоскара."
 
 #: 45605 45634 45643 45646 45657 60925
-#, fuzzy
 msgid "\"Farewell.\""
-msgstr "Попрощаться."
+msgstr "«Прощай»."
 
 #: 45606
 msgid ""
@@ -154,7 +152,6 @@ msgstr ""
 "остается - бежать изо всех сил из помещения."
 
 #: 45612
-#, fuzzy
 msgid ""
 "You notice that as the tendrils of smoke touch the sides of the pyramid they "
 "are drawn into the swirling vortex of the portals. As the last tendril of "
@@ -279,7 +276,6 @@ msgid "\"That's robbery... I won't pay it.\""
 msgstr "«Это грабеж... Я не стану столько платить»."
 
 #: 45641
-#, fuzzy
 msgid ""
 "\"May Aoskar, the god of portals, doors and 'opportunity,' smile upon you.\""
 msgstr ""
@@ -331,7 +327,6 @@ msgstr ""
 "пленения демона."
 
 #: 60914
-#, fuzzy
 msgid ""
 "After you explain your predicament, Aola examines the box briefly before "
 "handing it back to you. \"I sense nothing out of the ordinary with this box. "

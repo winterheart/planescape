@@ -1,21 +1,20 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: djudge.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-01-03 22:08+0600\n"
+"PO-Revision-Date: 2017-04-14 22:26+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 54119
-#, fuzzy
 msgid ""
 "This sour-faced little man raises an eyebrow as you approach. He speaks in "
 "the tone of an overfed, arrogant nobleman. \"Mind you, sirrah, that you're "
@@ -31,7 +30,6 @@ msgstr ""
 "этого человека»."
 
 #: 54120 54121 54122
-#, fuzzy
 msgid ""
 "\"If you execute him, it'll add to the chaos that threw this town into "
 "Carceri in the first place. Put an end to this madness so we can get Curst "
@@ -42,7 +40,6 @@ msgstr ""
 "Проклятий на прежнее место... пока нас *всех* не убили»."
 
 #: 54123 54124
-#, fuzzy
 msgid ""
 "\"You can't execute that man. This sort of thing's why Curst slid into "
 "Carceri... and it's what we need to stop in order to get the gate town back "
@@ -53,7 +50,6 @@ msgstr ""
 "привратный город во Внешние земли»."
 
 #: 54125
-#, fuzzy
 msgid "\"An 'official process'? Doubtful. You won't execute this man.\""
 msgstr "«'Официальный процесс'? Сомневаюсь. Ты не казнишь этого человека»."
 
@@ -72,28 +68,27 @@ msgstr ""
 "уважаемый?»"
 
 #: 54128 57330 57333 57379 57380 57381
-#, fuzzy
 msgid ""
 "\"That man's just a scapegoat. If you execute him, it'll only add to the "
 "chaos that threw this town into Carceri in the first place. We have to put "
 "an end to this madness so we can get Curst back where it belongs... before "
 "we're *all* killed.\""
 msgstr ""
-"«Этот человек - всего лишь козел отпущения. Если ты его казнишь, это только "
+"«Этот человек - всего лишь козел отпущения. Если его казнят, это только "
 "прибавит хаоса, который и сбросил этот город в Карцери. Мы должны положить "
 "конец этому безумию, чтобы вернуть Проклятый на прежнее место... пока нас "
 "*всех* не убили»."
 
 #: 57336 57339 57382 57383
-#, fuzzy
 msgid ""
 "\"You can't execute that man - he's just a scapegoat. It's *wrong.* This "
 "sort of thing's why Curst slid into Carceri... and it's what we need to stop "
 "in order to get the gate town back on the Outlands.\""
 msgstr ""
-"«Ты не можешь казнить этого человека - он всего лишь козел отпущения. Это "
-"*неправильно*. Из-за подобных вещей Проклятый и сполз в Карцери... мы должны "
-"это прекратить, чтобы вернуть привратный город во Внешние земли»."
+"«Ты не можешь позволить казнить этого человека - он всего лишь козел "
+"отпущения. Это *неправильно*. Из-за подобных вещей Проклятый и сполз в "
+"Карцери... мы должны это прекратить, чтобы вернуть привратный город во "
+"Внешние земли»."
 
 #: 57341
 msgid "\"By killing the executioner... and you, if need be.\""
@@ -142,7 +137,6 @@ msgstr ""
 "этом городе я решаю, что правильно, а что нет!»"
 
 #: 57354 57357 57359
-#, fuzzy
 msgid ""
 "\"But if you execute him, it'll only add to the chaos that threw this town "
 "into Carceri in the first place. We have to put an end to this madness so we "
@@ -207,3 +201,5 @@ msgid ""
 msgstr ""
 "«Опять? - судья издает раздраженный вздох. - Здесь тебе делать нечего, "
 "уважаемый, и не надоедай мне... Советую тебе удалиться»."
+
+

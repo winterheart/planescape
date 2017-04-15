@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2013, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2013, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dridskel.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-09 00:10+0600\n"
+"PO-Revision-Date: 2017-04-15 15:20+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 20324
 msgid ""
@@ -128,7 +128,6 @@ msgstr ""
 "пальцем и держится за воображаемый живот, смеясь и клацая зубами."
 
 #: 20339
-#, fuzzy
 msgid ""
 "\"Not a chance! Not a *chance!*\" Seeing your expression only causes it to "
 "laugh more, chattering its teeth at you."
@@ -176,7 +175,7 @@ msgid ""
 "The skeleton titters childishly. \"Not true, not true! The answer is "
 "'coffin,' and I certainly see mine!\""
 msgstr ""
-"Скелет по-детски хихикает. «Неправда, неправда! Ответ - 'гроб', а свой-то я "
+"Скелет по-детски хихикает. «Неправда, неправда! Ответ - гроб, а свой-то я "
 "точно видел!»"
 
 #: 20346
@@ -196,7 +195,6 @@ msgid "\"Eh... hmm. Ah... stars! Stars, hee-hee!\""
 msgstr "«Э... хм. А... звезды! Звезды, хи-хи!»"
 
 #: 20349
-#, fuzzy
 msgid ""
 "The skeleton cracks its knuckles. \"I never was, am always to be, no one "
 "ever saw me, nor will ever see. And yet I am the confidence of all, to live "
@@ -455,3 +453,4 @@ msgstr "Посмеяться и уйти."
 #: 48939
 msgid "The skeleton ignores any attempts to speak with it."
 msgstr "Скелет игнорирует все попытки заговорить с ним."
+

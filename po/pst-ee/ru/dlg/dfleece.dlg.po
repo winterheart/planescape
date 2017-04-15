@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dfleece.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-08 00:21+0600\n"
+"PO-Revision-Date: 2017-04-15 01:28+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 1754
 msgid ""
@@ -102,7 +102,6 @@ msgstr ""
 "Ложь: «Она живет к юго-востоку от Морга, неподалеку от одного из мавзолеев»."
 
 #: 2247
-#, fuzzy
 msgid ""
 "\"I'm sorry, did you say 'Aunt Marguerite'? I misunderstood you, and was "
 "thinking of someone else.\""
@@ -135,7 +134,6 @@ msgid "\"Farewell.\""
 msgstr "«Прощай»."
 
 #: 2255
-#, fuzzy
 msgid ""
 "The man frowns in disappointment. \"Ah, I suppose it would have been too "
 "much good fortune to hope that you would know of such a place.\" He nods "
@@ -256,11 +254,10 @@ msgid "The man jumps in surprise, then starts running."
 msgstr "От неожиданности мужчина подпрыгивает, а затем начинает убегать."
 
 #: 7637
-#, fuzzy
 msgid ""
 "He continues to struggle in your grip. It's getting difficult to hold him."
 msgstr ""
-"Он продолжает вырываться из твоей хватки. Становится трудно его удерживать.  "
+"Он продолжает вырываться из твоей хватки. Становится трудно его удерживать."
 
 #: 7639
 msgid "Punch him with your free hand, get his attention."
@@ -460,3 +457,4 @@ msgstr "«Нет, не сегодня»."
 #: 7697
 msgid "\"I mean it! I don't have anything more!\""
 msgstr "«Я же сказал! У меня ничего больше нет!»"
+

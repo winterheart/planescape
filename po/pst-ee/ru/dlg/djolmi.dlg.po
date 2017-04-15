@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: djolmi.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2011-07-03 19:26+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 17:35+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 43388
 msgid ""
@@ -131,12 +131,10 @@ msgstr ""
 "каков твой ответ? Стоит ли нам обсудить это более подробно?»"
 
 #: 43871 43872 43873 43877 43878 43879
-#, fuzzy
 msgid "\"Yes; let's work out the details.\""
 msgstr "«Да. Давай обсудим детали»."
 
 #: 43874
-#, fuzzy
 msgid "\"One moment... where did you hear these rumors?\""
 msgstr "«Одну минуту... где ты слышала такие слухи?»"
 
@@ -155,7 +153,6 @@ msgstr ""
 "принимаешь мое предложение?»"
 
 #: 43881
-#, fuzzy
 msgid ""
 "After a short discussion, it comes down to the following terms: Jolmi will "
 "pay you one thousand copper commons; in return, you will allow her to drive "
@@ -168,7 +165,7 @@ msgstr ""
 "тебе тысячу медных монет; взамен ты позволишь ей вонзить кинжал в свое "
 "сердце. Она дождется твоего пробуждения и после этого заплатит тебе.\n"
 "\n"
-"«Итак, ты согласен?»\n"
+"«Итак, ты согласен?»"
 
 #: 43883 43886 43889
 msgid "\"Yes... let's do it.\""
@@ -179,7 +176,6 @@ msgid "\"No, I don't think so. Farewell.\""
 msgstr "«Нет, не думаю. Прощай»."
 
 #: 43885
-#, fuzzy
 msgid ""
 "After a short discussion, it comes down to the following terms: Jolmi will "
 "pay you fifteen hundred copper commons; in return, you will allow her to "
@@ -192,10 +188,9 @@ msgstr ""
 "тебе полторы тысячи медных монет; взамен ты позволишь ей вонзить кинжал в "
 "свое сердце. Она дождется твоего пробуждения и после этого заплатит тебе.\n"
 "\n"
-"«Итак, ты согласен?»\n"
+"«Итак, ты согласен?»"
 
 #: 43888
-#, fuzzy
 msgid ""
 "After a short discussion, it comes down to the following terms: Jolmi will "
 "pay you two thousand copper commons; in return, you will allow her to drive "
@@ -208,10 +203,9 @@ msgstr ""
 "тебе две тысячи медных монет; взамен ты позволишь ей вонзить кинжал в свое "
 "сердце. Она дождется твоего пробуждения и после этого заплатит тебе.\n"
 "\n"
-"«Итак, ты согласен?»\n"
+"«Итак, ты согласен?»"
 
 #: 43891
-#, fuzzy
 msgid ""
 "The affair is over in moments... she's already cleaned her blade and put it "
 "away by the time you've recovered. After picking yourself up off the "
@@ -227,7 +221,7 @@ msgstr ""
 "ноющую грудь. \n"
 "\n"
 "«Должна заметить: я несколько разочарована. Ну что ж... как бы там ни было, "
-"стоит потраченных денег. Прощай».\n"
+"стоит потраченных денег. Прощай»."
 
 #: 43892
 msgid "\"Yes... farewell.\""
@@ -301,3 +295,4 @@ msgid ""
 msgstr ""
 "Я позволил Джолми пырнуть себя в сердце за кругленькую сумму... похоже, она "
 "слегка разочарована результатом, я же вполне рад полученным монетам."
+

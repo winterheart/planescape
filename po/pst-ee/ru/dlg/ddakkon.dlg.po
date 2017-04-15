@@ -1,21 +1,20 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014, 2016.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddakkon.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-03-26 22:59+0500\n"
+"PO-Revision-Date: 2017-04-15 01:03+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 14980
-#, fuzzy
 msgid ""
 "The man before you is *old.* His dry, yellow skin has the scars of one who "
 "has traveled everywhere and never rested long in any one place. His pinched "
@@ -100,30 +99,27 @@ msgstr ""
 "*неизвестен* мне»."
 
 #: 14990
-#, fuzzy
 msgid ""
 "\"That is for the best. In *knowing* yourself, there would be little in the "
 "planes left worth *knowing.*\" He falls silent for a moment, still studying "
 "you with his coal-black eyes. \"I would *know* why you have come to this "
 "city.\""
 msgstr ""
-"«Это к лучшему. *Познай* себя, и на Планах больше не останется ничего, что "
+"«Это к лучшему. *Познай* себя, и на планах больше не останется ничего, что "
 "стоило *познать*». Он умолкает, все еще изучая тебя своими угольно-черными "
 "глазами. «Могу ли я *знать*, зачем ты пришел в этот город?»"
 
 #: 14991
-#, fuzzy
 msgid ""
 "Dak'kon is silent for a moment, still studying you with his coal-black eyes. "
 "\"The planes number many infinities, yet you are here. I would *know* why "
 "you have come to this city.\""
 msgstr ""
-"Даккон умолкает, изучая тебя своими угольно-черными глазами. «Число Планов "
+"Даккон умолкает, изучая тебя своими угольно-черными глазами. «Число планов "
 "бесконечно, и все же ты здесь. Могу ли я *знать*, почему ты пришел в этот "
 "город?»"
 
 #: 14993
-#, fuzzy
 msgid ""
 "\"We are beneath the same sky in this matter, then.\" Dak'kon is silent for "
 "a moment, still studying you with his coal-black eyes. \"The planes number "
@@ -131,7 +127,7 @@ msgid ""
 "city.\""
 msgstr ""
 "«Тогда мы ходим под одним и тем же небом». Даккон умолкает, изучая тебя "
-"своими угольно-черными глазами. «Число Планов бесконечно, и все же ты здесь. "
+"своими угольно-черными глазами. «Число планов бесконечно, и все же ты здесь. "
 "Могу ли я *знать*, почему ты пришел в этот город?»"
 
 #: 14995
@@ -304,7 +300,6 @@ msgstr ""
 "есть ключ, двери становятся *известными* тебе»."
 
 #: 15025 59489
-#, fuzzy
 msgid ""
 "\"Every door has a different key. Some keys are *known,* others are not "
 "*known.*\""
@@ -312,7 +307,6 @@ msgstr ""
 "«У каждой двери есть свой ключ. Некоторые ключи *известны*, другие - нет»."
 
 #: 15026 59498
-#, fuzzy
 msgid ""
 "\"There are as many keys as there are doors. The keys are not always things "
 "of metal. The keys can be the clashing of two swords, a drop of blood drawn "
@@ -428,7 +422,6 @@ msgid "\"The githzerai.\""
 msgstr "«Гитцерай»."
 
 #: 15044
-#, fuzzy
 msgid ""
 "*\"Karach* is not shaped by heat, but by *knowing* oneself. It is a mirror "
 "that reflects the will of the wielder on its surface and in its edge. When "
@@ -865,7 +858,6 @@ msgid "\"The people?\""
 msgstr "«Народ?»"
 
 #: 15263 59577
-#, fuzzy
 msgid "\"Shape it with their thoughts?\""
 msgstr "«Придавать форму силой мысли?»"
 
@@ -982,7 +974,6 @@ msgid "\"Thanks. I had some questions, Mourns...\""
 msgstr "«Спасибо. У меня есть вопросы, Скорбящий...»"
 
 #: 16943
-#, fuzzy
 msgid "\"Thanks, Dak'kon. Farewell, Mourns-for-Trees.\""
 msgstr "Спасибо, Даккон. Прощай, Скорбящий-по-деревьям»."
 
@@ -1015,12 +1006,10 @@ msgid "\"There you are, Mourns. I had some questions...\""
 msgstr "«Вот так, Скорбящий. У меня есть еще вопросы...»"
 
 #: 16951
-#, fuzzy
 msgid "\"That should help some, Mourns-for-Trees. Farewell.\""
 msgstr "«Это должно немного помочь, Скорбящий-по-деревьям. Прощай»."
 
 #: 17626
-#, fuzzy
 msgid ""
 "\"The spice may taste of whatever one would like. It is little more than a "
 "matter of concentration and willpower to bend its flavor to one's whim.\""
@@ -1074,7 +1063,6 @@ msgid ""
 msgstr "«Ты *известен* ему. Но он не может сказать то, что ты хочешь *знать*»."
 
 #: 22546
-#, fuzzy
 msgid ""
 "\"In place of an answer, he surrenders an apology for his silence.\" Dak'kon "
 "pauses for a moment, and when he speaks again, his words are like ice. \"He "
@@ -1085,7 +1073,7 @@ msgstr ""
 "«Вместо ответа он приносит извинения за свое молчание». Даккон на мгновение "
 "умолкает, и следующие его слова похожи на лед. «Он говорит, что не может "
 "изменить *сущность человека*». При этих словах ты чувствуешь ужасное "
-"давление в голове... которое проходит с последним словом.  "
+"давление в голове... которое проходит с последним словом."
 
 #: 22547
 msgid "\"She is real.\""
@@ -1141,7 +1129,6 @@ msgstr ""
 "Даккон на минуту умолкает. «Оставшаяся часть символов *неизвестна* мне»."
 
 #: 22557
-#, fuzzy
 msgid ""
 "Dak'kon falls silent again; he does not turn to look at you - he seems to be "
 "staring at something leagues away. \"The symbols... there is no good in "
@@ -1200,13 +1187,12 @@ msgstr ""
 "*знает*, что страдает, даже когда разум об этом не догадывается»."
 
 #: 22564
-#, fuzzy
 msgid ""
 "Dak'kon is silent again. \"I will not speak of it here. Ask when what we "
 "speak of will only be for the ears of those that walk with you.\" "
 msgstr ""
 "Даккон снова умолкает. «Я не буду говорить об этом здесь. Спроси об этом, "
-"когда мы будем наедине с теми, кто тебя сопровождает». "
+"когда мы будем наедине с теми, кто тебя сопровождает»."
 
 #: 22565
 msgid ""
@@ -1322,11 +1308,16 @@ msgid ""
 "slave and his chains are words.' He said they were all tormented as I am, "
 "and in my suffering, I draw others that suffer as well."
 msgstr ""
+"Фелл перевел мне руну на моей старой руке... он сказал, что в ней говорится "
+"о четырех, кто раньше шли вместе со мной. Эти четверо - «нелюбимый, любящий "
+"того, кто не любит», «невидящий то, что видят другие, и видящий то, чего "
+"другие не видят», «фамильяр, связанный обязательствами», «раб, чьи цепи - "
+"слова». Он сказал, что все они страдали от мучений, как и я, и что мои муки "
+"притягивают притягивают таких же мучеников."
 
 #: 24893 24894 24895
-#, fuzzy
 msgid "\"Can he tell me anything about them?\""
-msgstr "«Он может нам что-нибудь о ней рассказать?»"
+msgstr "«Что он может рассказать о них?»"
 
 #: 25004 25005 25006 50171 50172 50173 7000 7001 7002
 msgid "\"Ask him who he is.\""
@@ -1749,9 +1740,13 @@ msgid ""
 "cruel yoke of their captors, the two camps chose to follow different "
 "leaders. There has been bad blood between them ever since."
 msgstr ""
+"Даккон объяснил мне разницу между гитьянки и гитцераями. Когда-то они были "
+"единой расой, порабощенной жестокими мозгососами - иллитидами (так он их "
+"назвал). Но как только им удалось вырваться на свободу от тяжелого рабства, "
+"возникло два лагеря, каждый из которых последовал за своим лидером. С тех "
+"пор между ними кровная вражда."
 
 #: 39583
-#, fuzzy
 msgid ""
 "Dak'kon nods solemnly. \"I shall impart the tale of 'Ach'ali Drowning.'\"\n"
 "\n"
@@ -1762,14 +1757,14 @@ msgid ""
 "unfocused questions in her quest to return home that her isle of matter "
 "dissolved around her, and she drowned."
 msgstr ""
-"Даккон торжественно кивает. «Я поделюсь историей об Ачали-утопленнице».\n"
+"Даккон торжественно кивает. «Я поделюсь историей о Тонущей Ачали».\n"
 "\n"
-"Даккон рассказывает историю Ачали-утопленницы, глупой гитцерай из мифа, "
+"Даккон рассказывает историю Тонущей Ачали, мифической глупой гитцерайки, "
 "которая затерялась в хаосе Лимбо. Обычно каждый гитцерай может использовать "
 "свою сосредоточенность и дисциплину разума, чтобы превращать хаос вокруг "
 "себя в небольшую, годную для жилья среду. Однако Ачали задавала так много "
 "бестолковых и рассредоточенных вопросов по дороге домой, что островок "
-"вещества вокруг нее растаял, и она утонула.\n"
+"вещества вокруг нее растаял, и она утонула."
 
 #: 39584
 msgid "Dak'kon looks attentive, and perhaps a little surprised."
@@ -2045,12 +2040,12 @@ msgstr ""
 "руках»."
 
 #: 43568
-#, fuzzy
 msgid ""
 "\"A group of githyanki are planning a raid on the fortress Vristigor within "
 "the sevenday. They are on their way there even now.\""
 msgstr ""
-"«Группа гитьянки планирует налет на крепость в течение недели. Как раз "
+"«Группа гитьянки планирует налет на крепость Вристигор в течение недели. Как"
+" раз "
 "сейчас они на пути к ней»."
 
 #: 43569
@@ -2091,9 +2086,8 @@ msgid "\"Let it go, Dak'kon.\""
 msgstr "«Брось это, Даккон»."
 
 #: 43575
-#, fuzzy
 msgid "Attack the *zerth* anyway."
-msgstr "Все равно напасть на зерта."
+msgstr "Все равно напасть на *зерта*."
 
 #: 43576 44668 44669 44694
 msgid "Let them fight."
@@ -2142,7 +2136,6 @@ msgid "\"What's a githyanki?\""
 msgstr "«Что за гитьянки?»"
 
 #: 44654
-#, fuzzy
 msgid ""
 "\"Githyanki and githzerai were once of common stock. We were slaves and food "
 "for the *illithids* - mind flayers - who devoured our lives in order to "
@@ -2154,7 +2147,7 @@ msgid ""
 "is a rift that cannot be crossed peacefully.\""
 msgstr ""
 "«Гитьянки и гитцерай однажды были едины. Мы были рабами и едой *иллитидов*, "
-"мозгососов, которые обрекли наши жизни на служение им. Один из наших "
+"мозгососов, которые обрекли наши жизни на служение им. Одна из наших "
 "предков, королева-воин Гит повела нас против *иллитидов*, и мы сбежали. С "
 "тех пор мы постоянно воюем с мозгососами. Но среди нас возникли разногласия, "
 "каково должно быть будущее Народа. На Проклятых равнинах наш лидер, "
@@ -2397,7 +2390,6 @@ msgstr ""
 "удивлению, грань *карача* беззвучно расщепляется на зазубренные клыки."
 
 #: 52548 52549 52550 52551 52552 52553
-#, fuzzy
 msgid "\"Ravel... leave him be. *I* will answer your questions, not them.\""
 msgstr ""
 "«Равель... оставь его в покое. *Я* буду отвечать на твои вопросы, а не они»."
@@ -2692,7 +2684,6 @@ msgid "\"Dak'kon... Ravel called you a slave. What did she mean?\""
 msgstr "«Даккон... Равель назвала тебя рабом. Что она имела в виду?»"
 
 #: 59182
-#, fuzzy
 msgid "\"Dak'kon, what is 'Shra'kt'lor'?\""
 msgstr "«Даккон, что такое Шракатлор?»"
 
@@ -2740,7 +2731,6 @@ msgid "\"I had some other questions about the githzerai...\""
 msgstr "«У меня есть еще несколько вопросов о гитцераях...»"
 
 #: 59205
-#, fuzzy
 msgid ""
 "Dak'kon is silent for a moment. \"*Know* this and accept it as an answer: We "
 "are the People who make our home upon the shifting plane of Limbo.\" With a "
@@ -2861,7 +2851,6 @@ msgid "\"Maybe it's best not to speak of it. Let's move on.\""
 msgstr "«Может, лучше об это не говорить. Пошли»."
 
 #: 59269
-#, fuzzy
 msgid ""
 "Dak'kon said he knew one of my previous incarnations... and he didn't have "
 "many pleasant things to say about him. He called him capable, but self-"
@@ -2942,7 +2931,6 @@ msgid "\"What are you talking about?\""
 msgstr "«О чем ты говоришь?»"
 
 #: 59286
-#, fuzzy
 msgid ""
 "Dak'kon told me the nature of his slavery... when I saved his life, he "
 "promised to serve me until I died. But he wasn't aware that I was immortal; "
@@ -3429,7 +3417,6 @@ msgid "\"We will speak of this another time. Let's move on.\""
 msgstr "«Мы поговорим об этом в другой раз. Пошли»."
 
 #: 59552
-#, fuzzy
 msgid "\"*Karach?* What does that mean?\""
 msgstr "«*Карач*? Что это значит?»"
 
@@ -3438,7 +3425,6 @@ msgid "\"Let's speak of this another time. Let's move on.\""
 msgstr "«Поговорим об этом в другой раз. Идем»."
 
 #: 59576
-#, fuzzy
 msgid "\"'The People'?\""
 msgstr "«Народ?»"
 
@@ -3451,7 +3437,6 @@ msgid "\"That's all I wished to know. Let's move on.\""
 msgstr "«Это все, что я хотел узнать. Идем»."
 
 #: 59594
-#, fuzzy
 msgid ""
 "\"*Karach* is not shaped by heat, but by *knowing* oneself. It is a mirror "
 "that reflects the will of the wielder on its surface and in its edge. When "
@@ -3583,22 +3568,18 @@ msgid "\"Can you teach me the ways in which your people speak?\""
 msgstr "«Ты можешь научить меня оборотам речи твоего народа?»"
 
 #: 59667
-#, fuzzy
 msgid "\"What is 'T'cha's Choice'?\""
-msgstr "«Что такое 'выбор Тча'?»"
+msgstr "«Что такое 'Выбор Тча'?»"
 
 #: 59668
-#, fuzzy
 msgid "\"What is 'T'cha's Choice,' again?\""
 msgstr "«Еще раз, что такое 'выбор Тча'?»"
 
 #: 59669
-#, fuzzy
 msgid "\"What is 'K'atzn'ii-at-the-Gate'?\""
 msgstr "«Что такое 'Катцнии-у-ворот'?»"
 
 #: 59672
-#, fuzzy
 msgid "\"What is 'Ach'ali Drowning'?\""
 msgstr "«Что такое 'Тонущая Ачали'?»"
 
@@ -3631,7 +3612,6 @@ msgid "\"Forget it. I had some other language questions...\""
 msgstr "«Забудь. У меня есть другие вопросы о языке...»"
 
 #: 59681 59687 59694
-#, fuzzy
 msgid "\"It is no matter. I had some other questions about the githzerai...\""
 msgstr "«Это неважно. У меня есть другие вопросы о гитцераях...»"
 
@@ -3648,7 +3628,6 @@ msgid "\"I had some other language questions...\""
 msgstr "«У меня есть другие вопросы о языке...»"
 
 #: 59690
-#, fuzzy
 msgid "\"T'cha's Choice' speaks of one who has no choice in their actions.\""
 msgstr "«'Выбор Тча' подразумевает того, у кого не было выбора в действиях»."
 
@@ -3686,7 +3665,6 @@ msgstr ""
 "ты упомянул много вещей, которые меня заинтересовали»."
 
 #: 59700
-#, fuzzy
 msgid "\"It is no matter, then. I had other questions about the githzerai...\""
 msgstr "«Тогда неважно. У меня есть другие вопросы о гитцераях...»"
 
@@ -3760,7 +3738,6 @@ msgid "\"No matter, then. I had some other language questions...\""
 msgstr "«Тогда неважно. У меня есть другие вопросы о языке...»"
 
 #: 59728
-#, fuzzy
 msgid "\"Very well, then. I had some other questions about the githzerai...\""
 msgstr "«Ну ладно. У меня есть другие вопросы о гитцераях...»"
 
@@ -3778,7 +3755,6 @@ msgstr ""
 "учением Зертимона, прежде чем я пойму Путь Зертимона."
 
 #: 59743
-#, fuzzy
 msgid ""
 "I came to understand the First Circle of Zerthimon by bringing my own wisdom "
 "to the text; in exchange, Dak'kon opened the next Circle of Zerthimon to me. "
@@ -3810,7 +3786,6 @@ msgstr ""
 "тобой»."
 
 #: 59756
-#, fuzzy
 msgid "\"What does it mean? Who is 'K'atzn'ii'?\""
 msgstr "«Что это значит? Кто такой Катцнии?»"
 
@@ -3833,7 +3808,6 @@ msgstr ""
 "Ответы Народа позволили ей *познать* суть тех, кто жил за стенами»."
 
 #: 59914
-#, fuzzy
 msgid ""
 "\"What was not *known* to K'atzn'ii was that the questions she asked allowed "
 "the People to *know* her as well. They saw her heart, and *knew* that it "
@@ -4042,7 +4016,6 @@ msgid "\"What did you come to *know?*\""
 msgstr "«Что ты *познал*?»"
 
 #: 59959
-#, fuzzy
 msgid ""
 "\"Strength lies in knowing oneself. I learned that once someone does not "
 "*know* themselves, they are lost. They become a tool for others.\""
@@ -4453,15 +4426,14 @@ msgid "\"Was it because of what happened at Shra'kt'lor?\""
 msgstr "«Это из-за того, что случилось при Шракатлоре?»"
 
 #: 60011
-#, fuzzy
 msgid ""
 "\"Dak'kon... there is one other thing I would *know.* Why is Vilquar's Eye "
 "in the Circle of Zerthimon? It seems strange. It tells of how the People "
 "benefited from a treachery from their own. It seems...\""
 msgstr ""
-"«Даккон... Я хотел бы *знать* еще одну вещь. Почему Око Вилькара в Круге "
-"Зертимона? Это кажется странным. Там говорится о том, как Народ извлек "
-"пользу из собственного предательства. Это кажется...»"
+"«Даккон... я хотел бы *познать* еще одну вещь: почему Око Вилькара находится "
+"в Круге Зертимона? Это кажется странным. Здесь говорится о том, как Народ "
+"извлек выгоду из своего предательства. Это кажется...»"
 
 #: 60012
 msgid ""
@@ -4817,7 +4789,6 @@ msgstr ""
 "Двуединой Смерти»."
 
 #: 60062
-#, fuzzy
 msgid ""
 "I think my discovery of the Eighth Circle brought Dak'kon to a greater "
 "understanding of himself and removed the *doubt* that had afflicted him. I "
@@ -5033,7 +5004,6 @@ msgstr ""
 "поверхность огромного мутного океана памяти."
 
 #: 60129
-#, fuzzy
 msgid ""
 "Echo: \"His name was *Xachariah*... he was blind, but in blindness, he had "
 "gained a second sight that allowed him to see things hidden to others. He "
@@ -5043,10 +5013,9 @@ msgstr ""
 "Эхо: «Его звали *Захария*... он был слеп, но, потеряв свое зрение, он "
 "получил другое зрение, позволявшее ему видеть невидимое от других. Он был "
 "лучником, и куда бы не летели его стрелы, они всюду попадали в сердца своих "
-"мишеней».\n"
+"мишеней»."
 
 #: 60130
-#, fuzzy
 msgid ""
 "In speaking to Dak'kon, I recalled the name of the blind archer that once "
 "traveled with me. His name was Xachariah; he possessed a second sight that "
@@ -5549,7 +5518,6 @@ msgstr ""
 "Даккон качает головой. «*Знай*, что враги уже близко. Сейчас не время»."
 
 #: 68270
-#, fuzzy
 msgid ""
 "As you speak the words, Dak'kon's eyes close - for a moment, you think he "
 "can't hold on to life any longer - then they open, and his eyes are no "
@@ -5564,7 +5532,6 @@ msgstr ""
 "*другим*, чем-то намного более могущественным."
 
 #: 68340
-#, fuzzy
 msgid "AWAKEN, DAK'KON OF SHRA'KT'LOR, LAST WIELDER OF THE *KARACH* BLADE."
 msgstr "ПРОБУДИСЬ, ДАККОН ИЗ ШРАКАТЛОРА, ПОСЛЕДНИЙ ВЛАДЕЛЕЦ КЛИНКА *КАРАЧ*."
 
@@ -5653,7 +5620,6 @@ msgid "\"Do not attack. I am not permitted to disobey.\""
 msgstr "«Не нападай. Мне нельзя ослушаться»."
 
 #: 8697
-#, fuzzy
 msgid ""
 "Dak'kon speaks slowly, again. \"T'cha's Choice is mine.\" His skin seems to "
 "take on an ashen shade as he speaks... it sounds like every word is slowly "
@@ -5662,7 +5628,7 @@ msgid ""
 "roots. Its resolution is one of impossibility and may never come.\" Dak'kon "
 "frowns. \"Do not attack, or a kin-slayer I will become.\""
 msgstr ""
-"Даккон снова говорит медленно. «Мой выбор - выбор Тча». Когда он произносит "
+"Даккон снова говорит медленно. «Мой выбор - Выбор Тча». Когда он произносит "
 "это, его кожа принимает пепельный оттенок... кажется, будто каждое слово "
 "медленно убивает его. «Это мои собственные оковы. Вождям сотни лет, но нет "
 "часов, способных измерить этот рассказ. Эта вещь запутана, как корни "
@@ -5689,7 +5655,6 @@ msgstr ""
 "словам время впитаться. «Говорит тот, что возле меня. Ты выслушаешь его?»"
 
 #: 8700
-#, fuzzy
 msgid ""
 "Dak'kon's reply is a short one, but his speech is slowed, as if he has to "
 "drag the words from his throat. \"T'cha's Choice has become mine.\""

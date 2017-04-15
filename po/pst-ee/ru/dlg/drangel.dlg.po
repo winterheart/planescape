@@ -1,26 +1,25 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: drangel.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-05 14:40+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 14:39+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 34502
-#, fuzzy
 msgid ""
 "\"Y'wrote Rotten William's name in the dead-book in red, cutter. That means "
 "you get through Razor Angel territory free o' charge.\""
 msgstr ""
-"«Ты вписал имя Гнилого Уильяма в Книгу Мертвых кровавыми чернилами, рубака. "
+"«Ты вписал имя Гнилого Уильяма в книгу мертвых кровавыми чернилами, рубака. "
 "Теперь ты можешь свободно проходить по территории Бритвенных Ангелов»."
 
 #: 34503
@@ -66,7 +65,6 @@ msgid "\"You'll have to catch me first.\""
 msgstr "«Сначала попробуй меня поймать»."
 
 #: 34512
-#, fuzzy
 msgid ""
 "\"It's a mere ten coppers. It's our territory. I'm sure ye knew this was no "
 "place for weaklings. Ye walked into it of your own free will. Now ye pay the "
@@ -74,7 +72,7 @@ msgid ""
 msgstr ""
 "«Всего лишь десять монет. Это наша территория. Уверен, ты знал, что это не "
 "место для слабаков. Ты явился сюда по собственной воле. Выбирай, чем будешь "
-"расплачиваться: монетами или кровью. Так что?»"
+"расплачиваться: медяками или кровью. Так что?»"
 
 #: 34513
 msgid "\"Coin. Here.\""
@@ -109,9 +107,8 @@ msgid "\"Y'have the thanks of the Razor Angels. Go in peace, traveler.\""
 msgstr "«Бритвенные Ангелы благодарят тебя. Иди с миром, путник»."
 
 #: 34521
-#, fuzzy
 msgid "\"Thanks - berk. Farewell.\""
-msgstr "«Спасибо. Пень. Прощай»."
+msgstr "«Спасибо, пень. Прощай»."
 
 #: 34522
 msgid ""
@@ -167,7 +164,6 @@ msgid "\"Here.\""
 msgstr "«Держи»."
 
 #: 34544
-#, fuzzy
 msgid ""
 "\"Ye haven't killed Rotten William yet, have ye? Ye pay the five coins till "
 "Krystall says otherwise.\""
@@ -236,3 +232,4 @@ msgstr "«Я убью его сразу после того, как распра
 #: 34567
 msgid "\"I don't think you can catch me.\""
 msgstr "«Не думаю, что тебе удастся догнать меня»"
+

@@ -1,19 +1,19 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-10-23 23:50+0300\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 00:23+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 46723
 msgid ""
@@ -69,7 +69,6 @@ msgid "Shake the earring, see if anything comes out. "
 msgstr "Потрясти серьгу: может, что-нибудь выпадет. "
 
 #: 46732
-#, fuzzy
 msgid ""
 "You shake the earring, but nothing comes out. Whatever was hidden in the "
 "earring is gone now.\n"
@@ -81,5 +80,7 @@ msgstr ""
 "Ты трясешь серьгу, но внутри ничего нет. Что бы там ни было раньше, теперь "
 "там ничего нет.\n"
 "\n"
-"ПРИМЕЧАНИЕ: Теперь, обнаружив застежку, ты можешь надевать серьгу. Вдобавок, "
-"наличие тайника может увеличить ее стоимость для торговца. "
+"^NПРИМЕЧАНИЕ: Теперь, обнаружив застежку, ты можешь надевать серьгу."
+" Вдобавок, "
+"наличие тайника может увеличить ее стоимость для торговца.^-"
+

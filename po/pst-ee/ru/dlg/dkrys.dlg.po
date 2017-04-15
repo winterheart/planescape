@@ -1,19 +1,19 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-04-21 21:54+0600\n"
+"PO-Revision-Date: 2017-04-15 18:05+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 1800
 msgid ""
@@ -79,7 +79,6 @@ msgstr ""
 "идут на растопку костров для еды»."
 
 #: 2818
-#, fuzzy
 msgid ""
 "\"Before you go, I need a favor from you. This slice of Alley just isn't big "
 "enough for us and the Darkalley Shivs. We've got heart. They've got hate. "
@@ -87,11 +86,11 @@ msgid ""
 "the Alley from us for the rest of your life. You come through here often "
 "enough, that'll save you a lotta jink.\""
 msgstr ""
-"«Перед тем, как ты уйдешь, я бы хотела попросить тебя об одолжении. Эта "
-"трясина слишком мала для нас и Заточек с Темного переулка. У нас есть "
-"милосердие. У них - ненависть. Убей их главаря, Гнилого Уильяма, и ты "
-"сможешь свободно ходить по переулку до конца своей жизни. Ты часто будешь "
-"здесь ходить, и это сэкономит тебе много денег»."
+"«Перед тем, как ты уйдешь, я бы хотела попросить тебя об одолжении. Этот"
+" кусок улицы слишком мал для нас и Заточек с Темного переулка. У нас есть"
+" милосердие. У них - ненависть. Убей их главаря, Гнилого Уильяма, и ты"
+" сможешь свободно ходить по переулку до конца своей жизни. Ты часто будешь"
+" здесь ходить, и это сэкономит тебе кучу звенелок»."
 
 #: 2819
 msgid ""
@@ -151,7 +150,6 @@ msgstr ""
 "ведомые злым человеком»."
 
 #: 34415
-#, fuzzy
 msgid ""
 "\"Yes. He's dead. You won't need to worry about him or his gang anymore.\""
 msgstr "«Да. Он мертв. Вам больше не нужно беспокоиться о нем и его банде»."
@@ -259,7 +257,6 @@ msgstr ""
 "нужно сделать»."
 
 #: 3802
-#, fuzzy
 msgid ""
 "\"Have you made any gain in seeking to write Rotten William into the dead-"
 "book?\""
@@ -299,12 +296,10 @@ msgstr ""
 "Бутон'. Он охотится на моих людей. Я прошу тебя остановить его»."
 
 #: 3807
-#, fuzzy
 msgid "\"Jink. Coin. Quite a bit of it. Are you interested?\""
 msgstr "«Звенелки. Твердой монетой. Много. Ты заинтересован?»"
 
 #: 3808
-#, fuzzy
 msgid ""
 "\"Then find the barmy Blackrose in this alley and write him into the dead-"
 "book. When he's dead, return and I shall reward you.\""
@@ -321,9 +316,8 @@ msgstr ""
 "до тех пор, пока ты не согласишься. До встречи, прощай»."
 
 #: 3810
-#, fuzzy
 msgid "\"Have you found Blackrose and eliminated him from the Alley?\""
-msgstr "«Ты нашел Черного Бутона? Уничтожил эту опухоль на теле переулка?»"
+msgstr "«Ты нашел Черного Бутона? Избавил переулок от него?»"
 
 #: 3812
 msgid ""
@@ -465,3 +459,4 @@ msgstr "«Я все еще не хочу этого делать. Прощай»
 #: 7729
 msgid "\"I told you I wasn't going to do it!\""
 msgstr "«Я уже говорил: я не собираюсь этого делать!»"
+

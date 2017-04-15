@@ -1,21 +1,20 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmortai.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-17 19:08+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 12:00+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 13350
-#, fuzzy
 msgid ""
 "\"Hmmmm... maybe I was mistaken.\" Mortai shakes his head. \"Well, no "
 "matter, no matter. How is it that Mortai Gravesend may help you? Do you "
@@ -26,7 +25,6 @@ msgstr ""
 "прищелкивает языком, - тебе нужен *контракт*?» "
 
 #: 13351
-#, fuzzy
 msgid ""
 "\"The Contract? Why, it is but a simple transaction.\" From the depths of "
 "his huge robe, Mortai pulls forth a dusty parchment and a quill pen. \"I "
@@ -40,7 +38,6 @@ msgstr ""
 "языком. - Да и зачем они тебе тогда нужны будут?» "
 
 #: 13352
-#, fuzzy
 msgid ""
 "\"The Contract? Why, it is but a simple transaction.\" From the depths of "
 "his huge robe, Mortai pulls forth a dusty parchment and a quill pen. \"The "
@@ -453,7 +450,6 @@ msgstr ""
 "наполняется мощным ревом ветра..."
 
 #: 13388
-#, fuzzy
 msgid ""
 "\"Yes, but it is much better that you sign with me rather than that greedy "
 "monster.\" Mortai clucks disapprovingly. \"Greed is the passion that kills, "
@@ -503,7 +499,6 @@ msgstr ""
 "отношениях, сколько в соблюдении законности»."
 
 #: 13393
-#, fuzzy
 msgid ""
 "Mortai chews it over for a moment - it looks like you've negotiated him into "
 "a corner. \"I cannot. It is a matter of law, my friend... besides, the "
@@ -582,7 +577,6 @@ msgid "(NULL NODE)"
 msgstr "(NULL NODE)"
 
 #: 13402
-#, fuzzy
 msgid ""
 "Mortai reaches into the folds of his robes and holds up the contract for you "
 "to look at. \"There it is, sir... Angyar was made very rich with a simple "
@@ -644,7 +638,6 @@ msgstr ""
 "улыбается и кивает тебе. - Что я могу для тебя сделать?»"
 
 #: 13409
-#, fuzzy
 msgid ""
 "\"Ah, traveler!\" Mortai smiles as he sees you. \"We meet again... and how "
 "may I help you on this fine Sigilian day?\" He looks hopeful. \"Come to sign "
@@ -663,7 +656,6 @@ msgstr ""
 "я могу тебе помочь в этот прекрасный сигильский денек?»"
 
 #: 13411
-#, fuzzy
 msgid ""
 "\"Eager?! I...\" Mortai's arches his eyebrows, then coughs politely. "
 "\"Sir... do you wish to sign the Contract or not? If not...\""
@@ -676,7 +668,6 @@ msgid "\"Hold on a moment...\" He steps up from the table and departs. "
 msgstr "«Подожди секундочку...» Он подымается из-за стола и уходит. "
 
 #: 13413
-#, fuzzy
 msgid ""
 "\"There it is, sir... Angyar... very somber fellow, was quick to sign...\" "
 "He clucks his tongue. \"And now a *much* richer fellow.\" You glance over "
@@ -687,7 +678,6 @@ msgstr ""
 "контракт. Выглядит настоящим... и очень официальным. "
 
 #: 13414
-#, fuzzy
 msgid ""
 "Mortai puts the Contract away, and you notice he tucks it into his robes "
 "instead of putting it in the backroom. Mortai clucks his tongue. \"Does that "
@@ -698,7 +688,6 @@ msgstr ""
 "исчерпаны?»"
 
 #: 13415
-#, fuzzy
 msgid ""
 "While examining the document, you turn away from Mortai briefly... as you "
 "are about to switch the contracts, Mortai coughs. \"Sir... I would be "
@@ -745,7 +734,6 @@ msgid "\"Contract?\""
 msgstr "«Контракт?»"
 
 #: 13424
-#, fuzzy
 msgid ""
 "\"Mortai Gravesend? Are you the Dustman who signed the Contract with Angyar?"
 "\""
@@ -810,17 +798,14 @@ msgstr ""
 "помочь мне. Прощай»."
 
 #: 13445 13446
-#, fuzzy
 msgid "\"Tell me about that Contract again.\""
 msgstr "«Расскажи мне еще раз о контракте»."
 
 #: 13447
-#, fuzzy
 msgid "\"I'd like to sign that Contract you mentioned.\""
 msgstr "«Я хочу подписать контракт, о котором ты говорил»."
 
 #: 13448
-#, fuzzy
 msgid "\"I'd like to cancel that Contract I signed with you.\""
 msgstr "«Я хотел бы разорвать контракт, который подписал с тобой»."
 
@@ -829,7 +814,6 @@ msgid "\"Are you the one who signed that Dead Contract with Angyar?\""
 msgstr "«Не ты ли подписал подписал Контракт Смерти с Ангиаром?»"
 
 #: 13450
-#, fuzzy
 msgid "\"Can I see that Contract you signed with Angyar?\""
 msgstr "«Могу ли я посмотреть на контракт, который ты заключил с Ангиаром?»"
 
@@ -850,7 +834,6 @@ msgid "\"No questions today. Farewell.\""
 msgstr "«На сегодня вопросов нет. Прощай»."
 
 #: 13455 13456
-#, fuzzy
 msgid "\"You mean that Contract you mentioned? What about it?\""
 msgstr "«Ты имеешь в виду тот контракт, который ты упоминал? Что это такое?»"
 
@@ -889,7 +872,6 @@ msgid "\"Never mind. I don't think you can help me. Farewell.\""
 msgstr "«Неважно. Не думаю, что ты можешь помочь мне. Прощай»."
 
 #: 13469 13470
-#, fuzzy
 msgid "\"I did not. Let me sign the Contract.\""
 msgstr "«Нет, конечно. Позволь мне подписать контракт»."
 
@@ -898,7 +880,6 @@ msgid "\"Is there a problem?\""
 msgstr "«Какие-то проблемы?»"
 
 #: 13472
-#, fuzzy
 msgid ""
 "\"I meant no offense... but you seem awfully eager to sign this Contract "
 "with me. And for a Dustman, eagerness strikes me as odd.\""
@@ -922,7 +903,6 @@ msgid "Continue signing..."
 msgstr "Продолжить подписание..."
 
 #: 13476
-#, fuzzy
 msgid "\"Uh... Mortai? What's with this Contract?\""
 msgstr "«Э-э... Мортай? Что с этим контрактом?»"
 
@@ -1056,12 +1036,10 @@ msgid "\"Can you tell me about Initiate Emoric?\""
 msgstr "«Что ты можешь сказать о посвященном Эморике?»"
 
 #: 13510
-#, fuzzy
 msgid "\"Can you tell me about Old Copper-Eyes?\""
 msgstr "«Что ты можешь сказать о старике Медноглазом?»"
 
 #: 13511
-#, fuzzy
 msgid ""
 "\"Actually, never mind - I don't know any of their names. I had some other "
 "questions instead...\""
@@ -1144,7 +1122,6 @@ msgid ""
 msgstr "«Ну, я уже подписал с ним контракт. И что ты будешь с этим делать?»"
 
 #: 13546
-#, fuzzy
 msgid "\"What would happen if I signed a contract with him?\""
 msgstr "«И что случится, если я подпишу с ним контракт?»"
 
@@ -1208,7 +1185,6 @@ msgstr ""
 "Смерти»."
 
 #: 13568 13574 13580 13587
-#, fuzzy
 msgid ""
 "Bluff: \"I suggest you hand over the contract right now, or I'll butcher you "
 "where you stand.\""
@@ -1217,7 +1193,6 @@ msgstr ""
 "месте»."
 
 #: 13569 13575 13581 13588
-#, fuzzy
 msgid ""
 "Truth: \"I suggest you hand over the contract right now, or I'll butcher you "
 "where you stand.\""
@@ -1470,3 +1445,5 @@ msgid ""
 msgstr ""
 "Видимо, Мортай не носит с собой контракт Ангиара. Сначала он за ним "
 "сходил... но после не вернул его в заднюю комнату."
+
+

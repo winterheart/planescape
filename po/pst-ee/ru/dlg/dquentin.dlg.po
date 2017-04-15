@@ -1,19 +1,19 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-05 00:34+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 14:30+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 7410
 msgid ""
@@ -51,29 +51,26 @@ msgid "\"Very well. Sorry to disturb you.\""
 msgstr "«Хорошо, прошу прощения, что побеспокоил»."
 
 #: 7416
-#, fuzzy
 msgid ""
 "\"It's a tombstone for the planes.\" He scoffs. \"Graveyards of names are "
 "scratched on that rock. Can only hope my name's the one that'll split this "
 "stone in 'twain.\" He points at the base of the monolith. \"'Quentin,' right "
 "there, hammered in just hard enough to send the damned thing crashing down.\""
 msgstr ""
-"«Это надгробие Планов, - он ухмыляется. - Целые кладбища имен нацарапаны на "
+"«Это надгробие планов, - он ухмыляется. - Целые кладбища имен нацарапаны на "
 "этом камне. Надеюсь, что мое имя расколет этот камень надвое, - он указывает "
 "на основание монолита. - 'Квентин', его выбьют прямо здесь, и его хватит для "
 "того, чтобы эта проклятая вещь свалилась на землю»."
 
 #: 7417
-#, fuzzy
 msgid "\"'Tombstone for the planes'?\""
-msgstr "«Надгробие Планов?»"
+msgstr "«Надгробие планов?»"
 
 #: 7418 7421 7424 7428 7431
 msgid "\"I see. Farewell.\""
 msgstr "«Понятно. Прощай»."
 
 #: 7419
-#, fuzzy
 msgid ""
 "\"Aye.\" Quentin smiles ruefully. \"The Dusties scratch the names of the "
 "dead on this monument here...\" He gestures around him. \"And on the walls "
@@ -228,7 +225,6 @@ msgid "\"I had some other questions for you...\""
 msgstr "«У меня есть другие вопросы к тебе...»"
 
 #: 7448
-#, fuzzy
 msgid ""
 "\"You mean come back from death?\" Quentin shakes his head. \"Not a one, "
 "cutter. Everything that lives dies, and that's the way of things.\" He "
@@ -237,7 +233,7 @@ msgid ""
 msgstr ""
 "«Ты имеешь в виду, возвращаются из смерти? - Квентин мотает головой. - Ни "
 "одного, рубака. Любой живущий умирает - такова природа вещей, - он пожимает "
-"плечами. - По крайней мере, на Планах всегда так было, но можно "
+"плечами. - По крайней мере, на планах всегда так было, но можно "
 "предположить, что возможно и такое»."
 
 #: 7449
@@ -257,3 +253,4 @@ msgid "\"Ever know anybody who came back after their name was carved here?\""
 msgstr ""
 "«А ты не слышал о ком-нибудь, кто вернулся назад после того, как его имя "
 "было высечено здесь?»"
+

@@ -1,21 +1,20 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dbathug.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-06-08 23:25+0300\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 21:36+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 2826
-#, fuzzy
 msgid ""
 "\"Who in the Abyss are you? Go talk to Rotten William - he don't like your "
 "answers, you'll get cut. You don't talk to him, you'll get cut by the rest "
@@ -46,7 +45,6 @@ msgid "Attack."
 msgstr "Атаковать."
 
 #: 3554
-#, fuzzy
 msgid ""
 "\"You killed that vigilante? Good. He was really crimping our style. Talk to "
 "William - he'll get you something nice.\""
@@ -77,3 +75,4 @@ msgstr "«Не будь бесполезным для общества, иди �
 #: 3562
 msgid "\"You! Die! DARKALLEY SHIVS! ATTACK!\""
 msgstr "«Ты! Сдохни! ЗАТОЧКИ! В АТАКУ!»"
+

@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dquisai.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-04-20 17:09+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 14:34+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 28756
 msgid ""
@@ -83,7 +83,6 @@ msgid "There is still no response."
 msgstr "По-прежнему нет ответа."
 
 #: 28904 28905
-#, fuzzy
 msgid ""
 "The statue's eyes open; he gazes at you with cold, gray eyes. He speaks "
 "ponderously, with a voice like two boulders grinding together. \"Your "
@@ -107,7 +106,6 @@ msgid "\"I am called... Qui-Sai.\""
 msgstr "«Меня зовут... Ки-Саи»."
 
 #: 28909
-#, fuzzy
 msgid ""
 "\"Qui-Sai... meditates. Qui-Sai... also trains... others, in the arts... of "
 "combat.\""
@@ -127,7 +125,6 @@ msgstr ""
 "тебе осколок камня."
 
 #: 28911
-#, fuzzy
 msgid ""
 "Try as you might, you cannot snap the stone. \"Qui-Sai finds you... "
 "unsuitable... too weak... for training in the arts of combat.\" He takes the "
@@ -152,7 +149,6 @@ msgstr ""
 "спрашивает тебя... зачем... тебе это обучение?»"
 
 #: 28913
-#, fuzzy
 msgid "\"Qui-Sai finds... no need for... melee, then.\""
 msgstr "«Тогда Ки-Саи не видит... надобности... в схватке»."
 
@@ -200,7 +196,6 @@ msgstr ""
 "тебя... подходящим для обучения. Встретимся... в тренировочном зале»."
 
 #: 28919
-#, fuzzy
 msgid ""
 "As you make to strike the statue, its eyes flash open and it catches your "
 "fist in an iron-hard grip. Narrowing its cold, gray eyes, it speaks with a "
@@ -253,7 +248,6 @@ msgid "\"Nothing.\""
 msgstr "«Ничего»."
 
 #: 28926
-#, fuzzy
 msgid ""
 "\"This is... the Civic Festhall. Need you know more... find another... to "
 "ask.\""
@@ -346,7 +340,6 @@ msgstr ""
 "«Ки-Саи обучит тебя... искусству боя... булавой. Это то... чего ты хочешь?»"
 
 #: 28941
-#, fuzzy
 msgid ""
 "\"Qui-Sai shall teach you... the art of fighting with... axes. Is this... "
 "what you wish?\""
@@ -354,7 +347,6 @@ msgstr ""
 "«Ки-Саи обучит тебя... искусству боя... топором. Это то... чего ты хочешь?»"
 
 #: 28942
-#, fuzzy
 msgid ""
 "\"Qui-Sai shall teach you... the art of fighting with... the mighty hammer. "
 "Is this... what you wish?\""
@@ -363,7 +355,6 @@ msgstr ""
 "хочешь?»"
 
 #: 28943
-#, fuzzy
 msgid ""
 "After evaluating what skill you have, Qui-Sai nods and makes a deep, "
 "rumbling sound. \"Qui-Sai finds you... ready for... more instruction with... "
@@ -398,12 +389,10 @@ msgstr ""
 "текущую специализацию, чтобы встать... на путь воина?»"
 
 #: 28947
-#, fuzzy
 msgid "\"Qui-Sai meditates upon... the Way of Stone.\""
 msgstr "«Ки-Саи размышляет о... Пути Камня»."
 
 #: 28948
-#, fuzzy
 msgid ""
 "Qui-Sai nods. \"A... philosophy. A... method of combat. With it... Qui-Sai "
 "seeks to achieve... invulnerability.\""
@@ -811,10 +800,8 @@ msgid "\"Could you make me a warrior?\""
 msgstr "«Ты можешь сделать меня воином?»"
 
 #: 29139
-#, fuzzy
 msgid "\"Yes. I no longer wish to study the Art. Make me a warrior.\""
-msgstr ""
-"«Да. Я больше не хочу изучать магическое искусство. Сделай меня воином»."
+msgstr "«Да. Я больше не хочу изучать Искусство. Сделай меня воином»."
 
 #: 29140
 msgid "\"Yes. I no longer wish to be a thief. Make me a warrior.\""
@@ -829,7 +816,6 @@ msgid "\"Not right now. Farewell.\""
 msgstr "«Не сейчас. Прощай»."
 
 #: 29143
-#, fuzzy
 msgid "\"The 'Way of Stone'?\""
 msgstr "«Путь Камня?»"
 

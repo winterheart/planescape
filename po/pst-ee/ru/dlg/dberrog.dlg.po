@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2013.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dberrog.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-07-11 00:03+0300\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 00:08+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 3184
 msgid ""
@@ -156,7 +156,6 @@ msgid "\"Farewell.\""
 msgstr "«Прощай»."
 
 #: 56981
-#, fuzzy
 msgid "\"Wait! Is... is that other fellow still trapped on the other side?\""
 msgstr "«Постой!.. А... а что с тем парнем с другой стороны?»"
 
@@ -202,7 +201,6 @@ msgid "\"Forget it. Maybe I'll come back later.\""
 msgstr "«Забудь. Может, я вернусь позже»."
 
 #: 56999
-#, fuzzy
 msgid ""
 "He crawls up as you heave the wagon aside. \"My thanks, mate. I've had... "
 "enough of this burg. I'm back to Mount Celestia. I hope your good deeds "
@@ -231,7 +229,6 @@ msgid "Keep lifting: \"Too bad.\""
 msgstr "Поднимать дальше: «Очень жаль»."
 
 #: 57005
-#, fuzzy
 msgid ""
 "\"My name... is Berrog Quickshoes... I came to Curst to free the deva... "
 "creature of good... but I was misinformed. I should never have come...\""
@@ -249,7 +246,6 @@ msgid "Lift the cart off Berrog."
 msgstr "Сдвинуть телегу с Беррога."
 
 #: 57009
-#, fuzzy
 msgid "\"Perhaps I had better come back later... Farewell.\""
 msgstr "«Наверное, мне стоит вернуться чуть позже... Прощай»."
 
@@ -293,3 +289,4 @@ msgstr ""
 #: 57016
 msgid "\"I'll try to figure out a way. Farewell.\""
 msgstr "«Я попытаюсь найти способ. Счастливо»."
+

@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dderan.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2012-02-02 23:35+0600\n"
+"PO-Revision-Date: 2017-04-14 21:47+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 35792
 msgid ""
@@ -144,7 +144,6 @@ msgstr ""
 "вам, дружище, представляет опасность... Я не хочу подвергать вас риску»."
 
 #: 35805
-#, fuzzy
 msgid ""
 "He lets out a boisterous laugh. \"Very well, friend. Lothar is the Master, "
 "the lord, of the famous Bones of the Night. The library where the dead "
@@ -272,7 +271,6 @@ msgstr ""
 "денек?»"
 
 #: 35817
-#, fuzzy
 msgid ""
 "He gives you a sad smile. \"I will answer no more of your questions, sir. I "
 "have already placed the both of us in danger, I see no reason to continue in "
@@ -311,7 +309,6 @@ msgstr ""
 "установленным судом Сигила, и можете позволить себе это». Он улыбается тебе."
 
 #: 35821
-#, fuzzy
 msgid ""
 "He begins to count off points on the fingers of one hand. \"First, you must "
 "be a citizen of Sigil. Second, you must show proof of permanent residence "
@@ -340,7 +337,6 @@ msgstr ""
 "тому, кто сделает наибольшую ставку, сэр. Таков закон»."
 
 #: 35824
-#, fuzzy
 msgid ""
 "He laughs and looks at you mockingly. \"As an agent of the courts, I could "
 "go before them with new evidence and have all judgements against Trist "
@@ -348,7 +344,7 @@ msgid ""
 msgstr ""
 "Он смеется и насмешливо смотрит на тебя. «Как судебный представитель, я могу "
 "передать суду новое доказательство, и все обвинения против Трист будут "
-"пересмотрены. У вас есть такое доказательство?"
+"пересмотрены. У вас есть такое доказательство?»"
 
 #: 35825
 msgid ""
@@ -458,9 +454,8 @@ msgid "\"Can you tell me about this ward?\""
 msgstr "«Можешь рассказать об этом районе?»"
 
 #: 35855
-#, fuzzy
 msgid "\"Can you tell me about Sigil?\""
-msgstr "«Что ты можешь сказать о Сигиле?»"
+msgstr "«Что ты можешь рассказать о Сигиле?»"
 
 #: 35856
 msgid "\"I must be going, farewell.\""

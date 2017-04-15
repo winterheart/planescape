@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dneml.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 01:59+0600\n"
+"PO-Revision-Date: 2017-04-15 01:49+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 35996
 msgid ""
@@ -117,7 +117,6 @@ msgid "\"Nothing, actually. Farewell.\""
 msgstr "«На самом деле, ничего. Прощай»."
 
 #: 43935
-#, fuzzy
 msgid ""
 "The woman makes no move to touch or examine the decanter, but only speaks. "
 "\"Nemelle took it from the stranger, turning it in her hands. Had she seen "
@@ -135,7 +134,6 @@ msgid "\"Uh...\""
 msgstr "«Э...»"
 
 #: 43937
-#, fuzzy
 msgid ""
 "You realize you know the word, now - 'Nildenosaj' - though you're certain "
 "the woman never whispered to you, but merely said she did. She blinks at "
@@ -251,7 +249,6 @@ msgid "\"Farewell, then.\""
 msgstr "«Тогда прощай»."
 
 #: 43957
-#, fuzzy
 msgid ""
 "Nemelle smiles at you, slowly shaking her head, your face reflected in her "
 "shimmering eyes. \"Frustrated, confused, he at last gave up. It was clear "
@@ -292,16 +289,14 @@ msgid "\"I could help you find your friend. What does she look like?\""
 msgstr "«Я бы мог помочь тебе найти твою подругу. Как она выглядит?»"
 
 #: 43964
-#, fuzzy
 msgid "\"I could find her for you - for a price, of course.\""
-msgstr "«Я бы мог найти ее для тебя... конечно, не бесплатно»."
+msgstr "«Я мог бы найти ее для тебя... конечно, не за бесплатно»."
 
 #: 43965
 msgid "\"I hope you find her. Farewell.\""
 msgstr "«Надеюсь, ты ее найдешь. Счастливо»."
 
 #: 43966
-#, fuzzy
 msgid ""
 "Nemelle clasps her hands together and bows her head to you. \"She would be "
 "so pleased to hear news of her friend! She told the kind stranger what "
@@ -387,7 +382,6 @@ msgid "\"No, I was just passing by. Farewell.\""
 msgstr "«Нет, я просто проходил мимо. Прощай»."
 
 #: 43984
-#, fuzzy
 msgid ""
 "Nemelle clasps her hands together and bows her head. When she finally looks "
 "up and smiles at you, a wave of pleasure washes over your body - the effect "
@@ -453,3 +447,4 @@ msgstr ""
 #: 68510
 msgid "\"I... think I do. Farewell, Nemelle.\""
 msgstr "«Думаю... да. Прощай, Немель»."
+

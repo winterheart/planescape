@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dnenny.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 01:58+0600\n"
+"PO-Revision-Date: 2017-04-15 17:43+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 2964
 msgid ""
@@ -29,7 +29,6 @@ msgid "\"Greetings...\""
 msgstr "«Приветствую...»"
 
 #: 39524
-#, fuzzy
 msgid ""
 "Nenny told me that she saw Kimasxi Addertongue sneaking out of Marissa's "
 "chambers... perhaps she took Marissa's Crimson Veil, or at least has some "
@@ -40,7 +39,6 @@ msgstr ""
 "минимум, имеет какое-то представление о том, где бы она могла быть."
 
 #: 39525
-#, fuzzy
 msgid ""
 "Nenny told me that she saw Marissa sneaking out of Vivian's chambers... "
 "perhaps she took Vivian's scent, or at least has some clue as to where it "
@@ -65,7 +63,6 @@ msgid "Leave her be."
 msgstr "Оставить ее в покое."
 
 #: 39866
-#, fuzzy
 msgid ""
 "The smiling young woman curtseys gracefully and looks up to you, smiling. "
 "\"Well *met,* good sir! I'm Nenny! And how are *you* this fine d-?\" She "
@@ -138,17 +135,16 @@ msgstr ""
 "ничего странного?»"
 
 #: 39881 39882
-#, fuzzy
 msgid "\"I'm trying to find Vivian's scent... do you know where it might be?\""
-msgstr "«Я пытаюсь найти аромат Вивьен... не знаешь, где он может быть?»"
+msgstr "«Я пытаюсь найти аромат Вивьен... Ты не знаешь, где он может быть?»"
 
 #: 39883 39884
-#, fuzzy
 msgid ""
 "\"I'm trying to find Marissa's Crimson Veil... do you know where it might be?"
 "\""
 msgstr ""
-"«Я пытаюсь найти малиновую вуаль Мариссы... не знаешь, где она может быть?»"
+"«Я пытаюсь найти малиновую вуаль Мариссы... Ты не знаешь, где она может "
+"быть?»"
 
 #: 39885
 msgid "\"Do you know anything about Ravel Puzzlewell?\""
@@ -177,7 +173,6 @@ msgid "\"That's all I wished to know. Farewell, Nenny.\""
 msgstr "«Это все, что я хотел узнать. Прощай, Ненни»."
 
 #: 39890
-#, fuzzy
 msgid ""
 "\"Huh?\" She can't seem to tear her eyes from your scars. \"Oh, how shameful "
 "of me! Don't mind my rude staring! I am named Nenny.\" She makes a little "
@@ -202,7 +197,6 @@ msgid "\"Never mind it, I-\""
 msgstr "«Неважно, я...»"
 
 #: 39893
-#, fuzzy
 msgid ""
 "\"Looks fascinating! Look at the way the lines of ink... I think that's "
 "ink...\" She squints at the tattoo, then reaches out to touch it."
@@ -371,7 +365,6 @@ msgid "\"What do the Lower Planes have to do with anything?\""
 msgstr "«Причем здесь Нижние планы?»"
 
 #: 39929
-#, fuzzy
 msgid ""
 "Nenny suddenly notices Fall-from-Grace beside you. \"Oh! Mistress Grace!\" "
 "She curtseys; Grace nods, smiling, in response."
@@ -420,7 +413,6 @@ msgid "\"I had a question...\""
 msgstr "«У меня вопрос...»"
 
 #: 39947
-#, fuzzy
 msgid ""
 "Nenny freezes, looking surprised, then a little hurt. \"I'm sorry! Sorry! Do "
 "you not like to be touched? I should have told you! That's how the Sensory "
@@ -638,7 +630,6 @@ msgstr ""
 "тогда, когда она еще могла говорить!»"
 
 #: 40001
-#, fuzzy
 msgid ""
 "\"I'm talking to *you,* silly!\" She giggles and pokes you in the belly. "
 "\"Just like I talk to *all* the patrons here. All the prostitutes do; that's "
@@ -651,7 +642,6 @@ msgstr ""
 "делиться впечатлениями и понимать других людей»."
 
 #: 40004
-#, fuzzy
 msgid ""
 "\"Um... sure I can! The Brothel of Slating Intellectual Lusts is a school "
 "that was started by Mistress Fall-from-Grace. The prostitutes here - like "
@@ -807,7 +797,6 @@ msgid "\"Ow! Damn, never have I been hit so hard!\""
 msgstr "«Ай! Проклятье, меня ни разу так сильно не били!»"
 
 #: 40036
-#, fuzzy
 msgid ""
 "\"Oh... I mean, oh!\" Nenny draws her tiny frame to its full height, balls "
 "her hands into fists, puts them on her hips, and scrunches up her face in a "
@@ -884,7 +873,6 @@ msgid "\"Sure. I have a question, now...\""
 msgstr "«Конечно. У меня еще вопрос...»"
 
 #: 40048
-#, fuzzy
 msgid ""
 "\"What?!\" Nenny's fury rises another notch. \"Have you forgotten our "
 "children?! Are you so sodden with drink that you can't even remember that we "

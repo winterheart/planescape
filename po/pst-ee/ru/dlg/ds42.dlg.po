@@ -1,19 +1,19 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-09 00:12+0600\n"
+"PO-Revision-Date: 2017-04-15 15:44+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 58983
 msgid ""
@@ -46,7 +46,6 @@ msgstr ""
 "тело скрывает черный комбинезон."
 
 #: 6596
-#, fuzzy
 msgid ""
 "At the sound of your voice, the skeleton suddenly straightens up. It crosses "
 "its arms over its chest, and its fingers hook into its rib cage."
@@ -78,7 +77,6 @@ msgstr ""
 "суставах, ремешки уже износились, а скобы вот-вот выпадут. "
 
 #: 6599
-#, fuzzy
 msgid ""
 "In response, the skeleton drops its arms to its sides. The leather cords "
 "securing the skeleton's torso snap, and the rib cage folds outward like a "
@@ -88,7 +86,6 @@ msgstr ""
 "скелета, лопается, и грудная клетка раскрывается, как двустворчатая дверь. "
 
 #: 6600
-#, fuzzy
 msgid ""
 "To your surprise, your hand vanishes as you reach inside the rib cage... you "
 "have a strange feeling it's somewhere *else.* As you reach inside the rib "
@@ -98,7 +95,7 @@ msgstr ""
 "К твоему удивлению, рука исчезает, едва ты засовываешь ее внутрь грудной "
 "клетки... у тебя странное ощущение, что теперь она находится где-то в "
 "*другом* месте. Оказавшись внутри, твоя рука натыкается на невидимый "
-"предмет. Он размером с кулак и, похоже, прикреплен к позвоночнику скелета.\n"
+"предмет. Он размером с кулак и, похоже, прикреплен к позвоночнику скелета."
 
 #: 6601
 msgid ""
@@ -119,7 +116,6 @@ msgstr ""
 "этот предмет, похоже, один только он и удерживал кости вместе."
 
 #: 6603
-#, fuzzy
 msgid ""
 "It looks like an unremarkable lump of iron. You can't imagine why someone "
 "would hide it inside the rib cage of a skeleton."
@@ -128,7 +124,6 @@ msgstr ""
 "зачем кому-то понадобилось прятать его в грудной клетке скелета."
 
 #: 6604
-#, fuzzy
 msgid ""
 "In response, the skeleton drops its arms to its sides. The leather cords "
 "securing the skeleton's torso snap, and the rib cage folds outward like a "
@@ -138,7 +133,7 @@ msgstr ""
 "В ответ скелет опускает руки по швам. Кожаная веревка, связывающая корпус "
 "скелета, лопается, и грудная клетка раскрывается, как двустворчатая дверь. "
 "Ты испытываешь непреодолимое желание засунуть руку внутрь грудной клетки, "
-"хотя не можешь объяснить почему. "
+"хотя не можешь объяснить почему."
 
 #: 6605
 msgid "The skeleton's arms drop to its sides."
@@ -209,7 +204,6 @@ msgid "\"Mind if I borrow some of those straps and bolts?\""
 msgstr "«Не против, если я возьму немного ремешков и скоб?»"
 
 #: 6638 6646
-#, fuzzy
 msgid "Reach into the rib cage, feel around."
 msgstr "Засунуть руку в грудную клетку, пошарить внутри."
 
@@ -236,3 +230,4 @@ msgstr "«Э... привет?»"
 #: 6652
 msgid "Examine the piece of iron carefully."
 msgstr "Внимательно осмотреть кусок железа."
+

@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dsadjuli.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 01:55+0600\n"
+"PO-Revision-Date: 2017-04-15 17:44+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 2982
 msgid ""
@@ -140,7 +140,6 @@ msgid "Null node."
 msgstr "Null node."
 
 #: 40232
-#, fuzzy
 msgid ""
 "\"The only thing it *lacks* is excitement, sir. Our families took the news "
 "of our courtship splendidly, his siblings love my siblings, and our friends "
@@ -151,11 +150,10 @@ msgstr ""
 "«Единственное, чего в них *не хватает* - это волнующих моментов, сэр. Наши "
 "семьи прекрасно восприняли новость о том, что мы встречаемся, его "
 "родственники любят моих, а наши друзья считают, что наш союз благословили "
-"сами Силы. Все просто чудесно, вот только... - она мрачнеет. - уж слишком "
+"сами силы. Все просто чудесно, вот только... - она мрачнеет. - уж слишком "
 "*гладко*. Ведь не должно же быть, чтобы отношения были такими беззаботными»."
 
 #: 40233
-#, fuzzy
 msgid ""
 "\"Yes, there is a problem...\" She huffs. \"...in that there are no problems "
 "to speak of! Our families took the news of our courtship splendidly, his "
@@ -167,12 +165,11 @@ msgstr ""
 "«Да, проблема в том... - она вспыхивает, - что нет проблем, о которых можно "
 "было бы рассказать! Наши семьи прекрасно восприняли новость о том, что мы "
 "встречаемся, его родственники любят моих, а наши друзья считают, что наш "
-"союз благословили сами Силы. Все просто чудесно, вот только... - она "
+"союз благословили сами силы. Все просто чудесно, вот только... - она "
 "мрачнеет. - уж слишком *гладко*. Ведь не должно же быть, чтобы отношения "
 "были такими беззаботными»."
 
 #: 40235
-#, fuzzy
 msgid ""
 "\"Dost thou not? Hast thou ever had such a courtship?\" She glances briefly "
 "at you. \"T'would seem that thy life is filled with a variety of problems, "
@@ -183,7 +180,6 @@ msgstr ""
 "трудностей, судя по бледности твоей кожи»."
 
 #: 40236
-#, fuzzy
 msgid ""
 "\"'Tis just that all my friends have such interesting relationships... ones "
 "fraught with turmoil, feuding families, daggers at one another's backs, "
@@ -237,7 +233,6 @@ msgstr ""
 "достаточно»."
 
 #: 40241
-#, fuzzy
 msgid ""
 "Her frown deepens at this complication. \"What didst thou have in mind... "
 "that does *not* involve touching me?\""
@@ -429,7 +424,6 @@ msgstr ""
 "жалобно рыдать."
 
 #: 40263
-#, fuzzy
 msgid ""
 "She manages to rein in her sobbing and, wiping her eyes, looks to you again."
 msgstr "Ей удается унять свои рыдания, и, утерев глаза, она смотрит на тебя."
@@ -528,7 +522,6 @@ msgid "\"Perhaps I could make it less boring for you, my lady.\""
 msgstr "«Возможно, я мог бы сделать ее менее скучной, моя госпожа»."
 
 #: 40287 40288
-#, fuzzy
 msgid "\"I'm certain I could add some excitement to your life...\""
 msgstr "«Уверен я мог бы добавить твою жизнь немного волнения...»"
 
@@ -694,17 +687,16 @@ msgid "\"I heard that Kesai-Serris is Ravel's daughter. Is that true?\""
 msgstr "«Я слышал, что Кесай-Серри - дочь Равель. Это правда?»"
 
 #: 40346 40353
-#, fuzzy
 msgid "\"I'm trying to find Vivian's scent... do you know where it might be?\""
-msgstr "«Я пытаюсь найти аромат Вивьен... не знаешь, где он может быть?»"
+msgstr "«Я пытаюсь найти аромат Вивьен... Ты не знаешь, где он может быть?»"
 
 #: 40347 40354
-#, fuzzy
 msgid ""
 "\"I'm trying to find Marissa's Crimson Veil... do you know where it might be?"
 "\""
 msgstr ""
-"«Я пытаюсь найти малиновую вуаль Мариссы... не знаешь, где она может быть?»"
+"«Я пытаюсь найти малиновую вуаль Мариссы... Ты не знаешь, где она может "
+"быть?»"
 
 #: 40348 40355
 msgid "\"Do you know anything about Ravel Puzzlewell?\""

@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014, 2016.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dporphir.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-03-26 23:37+0500\n"
+"PO-Revision-Date: 2017-04-15 14:23+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 24443
 msgid ""
@@ -44,7 +44,6 @@ msgid "Leave the illustrated man alone."
 msgstr "Оставить изрисованного человека в покое."
 
 #: 26633
-#, fuzzy
 msgid ""
 "You see Porphiron; he is still standing grimly on the street, paying no heed "
 "to the passersby. The web of lines on his face are staggered into a series "
@@ -119,7 +118,6 @@ msgstr ""
 "боялся убить троих»."
 
 #: 26641
-#, fuzzy
 msgid ""
 "\"This one walks the path of a warrior: Many weapons have walked with this "
 "one. The fist, the blade, the stave, the hatchet, the smiter: These tools "
@@ -139,12 +137,10 @@ msgstr ""
 "нарушен»."
 
 #: 26643
-#, fuzzy
 msgid "\"This one is unfamiliar with your speech: What is this 'pas-ivisst'?\""
 msgstr "«Некто незнаком с твоей речью: что такое 'пасси-фит'?»"
 
 #: 26644
-#, fuzzy
 msgid ""
 "\"This one is of the *Order of Erit-Agge:* We await the Final Days where all "
 "will be called to battle. The training and skills of this one: They are to "
@@ -155,7 +151,6 @@ msgstr ""
 "тайне до тех пор». "
 
 #: 26645
-#, fuzzy
 msgid ""
 "\"This one will clarify: The item is of value. The discipline of the *Erit-"
 "Agge* is of greater value.\""
@@ -258,7 +253,6 @@ msgstr ""
 "несколько спасибо и пожалуйста, да?»"
 
 #: 26658
-#, fuzzy
 msgid ""
 "\"This one would know: One who fights with deception carries a name in the "
 "Order of *Erit-Agge.*\" Porphiron's face breaks into angles again. \"Those "
@@ -270,7 +264,6 @@ msgstr ""
 "называют обманщиками - это путь без дисциплины и чести»."
 
 #: 26659
-#, fuzzy
 msgid ""
 "\"This one would know: One who fights with words carries a name in the Order "
 "of *Erit-Agge.*\" Porphiron's face breaks into angles again. \"Those ones "
@@ -281,7 +274,6 @@ msgstr ""
 "называют дипломатами - это путь без дисциплины и чести»."
 
 #: 26660
-#, fuzzy
 msgid ""
 "\"This one would know: One who fights with coin carries a name in the Order "
 "of *Erit-Agge.*\" Porphiron's face breaks into angles again. \"Those ones "
@@ -302,7 +294,6 @@ msgstr ""
 "«Некто благодарит: несколько спасибо и пожалуйста за твои услуги, да?»"
 
 #: 26662
-#, fuzzy
 msgid ""
 "\"This one clarifies: The *Erit-Agge* may train with one when there is no "
 "anger between them.\""
@@ -374,7 +365,6 @@ msgstr ""
 "возможно, ты готов к новым урокам?» "
 
 #: 26670
-#, fuzzy
 msgid ""
 "\"This one will speak of proficiency third: There is only so much one may "
 "learn about any weapon. This one would add: There is only so much that this "
@@ -386,8 +376,8 @@ msgstr ""
 "«Некто расскажет о мастерстве: любое оружие можно изучить лишь до "
 "определенного предела. Некто добавит: он может обучить только некоторым из "
 "них. Знания об оружии делятся на три уровня: невежда, опытный и мастер. "
-"Между ними есть несколько уровней, которые ученик должен пройти, чтобы по-"
-"настоящему достичь основы следующего навыка»."
+"Между ними есть несколько уровней, которые ученик должен пройти, пока наконец"
+" не достигнет основы следующего навыка»."
 
 #: 26671
 msgid ""
@@ -425,7 +415,6 @@ msgstr ""
 "о чем ты хочешь узнать?»"
 
 #: 26675
-#, fuzzy
 msgid ""
 "\"One who would use the fist: It strikes swiftly, the damage it does crushes "
 "the bones of an opponent. There will be weapons you may find: heavy "
@@ -440,7 +429,6 @@ msgstr ""
 "таланта, чтобы достигнуть уровня опытного в этом оружии?»"
 
 #: 26676
-#, fuzzy
 msgid ""
 "\"One who would use the dagger: It strikes swiftly. The damage it does is "
 "the slash of a claw or the piercing like a needle. The damage is determined "
@@ -452,7 +440,6 @@ msgstr ""
 "часть своего таланта, чтобы достигнуть уровня опытного в этом оружии?»"
 
 #: 26677
-#, fuzzy
 msgid ""
 "\"One who would use the club: Its speed is not that of the fist or dagger, "
 "but its damage is greater. It crushes the body of an opponent like a falling "
@@ -465,7 +452,6 @@ msgstr ""
 "опытного в этом оружии?»"
 
 #: 26678
-#, fuzzy
 msgid ""
 "\"One who would use the axe: Its speed is not that of the club, but its "
 "damage is greater. It slashes like a great claw at the body of an opponent. "
@@ -478,7 +464,6 @@ msgstr ""
 "опытного в этом оружии?»"
 
 #: 26679
-#, fuzzy
 msgid ""
 "\"One who would use the hammer: Its speed is not that of the club, but its "
 "damage is greater. The damage is like the falling of a great rock, crushing "
@@ -503,7 +488,6 @@ msgstr ""
 "уроки»."
 
 #: 26682
-#, fuzzy
 msgid ""
 "\"This one can teach you no more: Do you know you have already achieved the "
 "level of the proficient in the use of such a weapon? This one can only "
@@ -514,7 +498,7 @@ msgstr ""
 "«Некто больше не может обучать тебя: знаешь ли ты, что стал опытным в "
 "использовании этим оружием? Некто может дать тебе последний урок: чтобы "
 "узнать больше, если это вообще возможно, найди мастера. Оставайся на пути "
-"воина, и пройдет немало времени, прежде чем ты достигнешь пределов своих "
+"воина, и пройдет немного времени, прежде чем ты достигнешь пределов своих "
 "знаний»."
 
 #: 26683
@@ -670,7 +654,6 @@ msgstr ""
 "ты позволил им ограбить себя?»"
 
 #: 26720
-#, fuzzy
 msgid "\"Vow of non-violence? You're a warrior and a *pacifist?*\""
 msgstr "«Обет ненасилия? Ты воин и *пацифист*?»"
 
@@ -727,7 +710,6 @@ msgid "\"All right, then. I'll just go kill them anyway.\""
 msgstr "«Ну хорошо. Я их все равно убью»."
 
 #: 26734
-#, fuzzy
 msgid "\"You don't have *anything?*\""
 msgstr "«У тебя *вообще* ничего нет?»"
 
@@ -817,7 +799,6 @@ msgstr ""
 "их. Прощай»."
 
 #: 26759
-#, fuzzy
 msgid ""
 "While wandering the Hive, I came across a man with a series of shifting "
 "lines covering his skin. He claims that a necklace of his \"order\"... Erit-"
@@ -969,7 +950,6 @@ msgid ""
 msgstr "«Я уже знаком с ними. Чему ты можешь меня обучить по части оружия?»"
 
 #: 26794
-#, fuzzy
 msgid ""
 "\"Not at the moment... I merely wished to re-orient myself. Thanks, "
 "Porphiron.\""
@@ -1061,7 +1041,6 @@ msgid "\"And the level of the specialist?\""
 msgstr "«А уровень мастера?»"
 
 #: 26817
-#, fuzzy
 msgid ""
 "Porphiron said there are three levels of skill with any weapon.\n"
 "\n"
@@ -1085,7 +1064,7 @@ msgstr ""
 "\n"
 "Уровень невежды, когда атакующий использует оружие как недостаток. Его атаки "
 "неумелы, неточны и наносят гораздо меньший урон, чем атаки более умелого "
-"воин. Кажется, с этого уровня я и начал, когда очнулся в Морге. Мне нужно "
+"воина. Кажется, с этого уровня я и начал, когда очнулся в Морге. Мне нужно "
 "тренироваться, чтобы лучше владеть оружием в этом мире.\n"
 "\n"
 "Следующим за уровнем невежды является уровень опытного, который достигается "
@@ -1094,7 +1073,7 @@ msgstr ""
 "\n"
 "Вслед за опытным уровнем следует уровень мастера. На этом уровне атакующий "
 "не только обучен владением оружия, но и превратил его в продолжение своей "
-"воли. Его атаки с изученным оружием быстрее, а наносимый им урон - больше.\n"
+"воли. Его атаки с изученным оружием быстрее, а наносимый им урон - больше."
 
 #: 26818
 msgid "\"All right I understand. What can you teach me of weapons?\""
@@ -1153,7 +1132,6 @@ msgstr ""
 "рукопашном бое."
 
 #: 26841
-#, fuzzy
 msgid ""
 "With Porphiron's help... and many scars later... I have achieved the level "
 "of the proficient in the dagger. Once Porphiron found that I recovered "
@@ -1174,7 +1152,6 @@ msgstr ""
 "кинжалам, я должен найти мастера оружия."
 
 #: 26850
-#, fuzzy
 msgid ""
 "With Porphiron's help... and many bruises later... I have achieved the level "
 "of the proficient in clubs."

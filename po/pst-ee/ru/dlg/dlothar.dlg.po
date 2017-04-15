@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dlothar.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-08 23:19+0600\n"
+"PO-Revision-Date: 2017-04-15 18:17+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 28657
 msgid "\"Keep it quick, scarred one. I cannot tarry all day.\""
@@ -260,7 +260,6 @@ msgstr ""
 "распрощаться со своим другом...»"
 
 #: 28688
-#, fuzzy
 msgid ""
 "\"Your ignorance is astonishing. You truly know very little about very "
 "little. Now: Fetch me another skull to replace him or say farewell to your "
@@ -414,7 +413,6 @@ msgstr ""
 "череп, даже если он и не пригодится.  Можешь задавать свои вопросы»."
 
 #: 28702
-#, fuzzy
 msgid ""
 "Lothar takes the skull of the Silent King from you and gently cradles it. "
 "\"The Silent King, yes? This will be satisfactory indeed! You may have your "
@@ -427,7 +425,6 @@ msgstr ""
 "друг»."
 
 #: 28703
-#, fuzzy
 msgid ""
 "\"Your mortality - your soul, if you will, that which allows you to live and "
 "die - is gone from you. It was stripped from you by magical means, by the "
@@ -535,7 +532,6 @@ msgid "\"I have a human skull.\""
 msgstr "«У меня человеческий череп»."
 
 #: 28758
-#, fuzzy
 msgid "\"I have the skull of a wererat...\""
 msgstr "«У меня череп крысооборотня...»"
 
@@ -629,9 +625,8 @@ msgstr ""
 "«А у тебя есть ровно один шанс, чтобы наколоться перед тем, как я тебя убью»."
 
 #: 28794
-#, fuzzy
 msgid "\"Ack...\""
-msgstr "«Ах....»"
+msgstr "«Ах...»"
 
 #: 28795
 msgid "\"And?\""
@@ -775,7 +770,6 @@ msgstr ""
 "этот череп»."
 
 #: 2951
-#, fuzzy
 msgid ""
 "\"You again? What do you want from old Lothar now? I have given you your "
 "skull friend and your answers. I warn you, I haven't all day to attend to "

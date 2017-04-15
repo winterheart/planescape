@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dsheryl.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2009-09-03 18:14+0600\n"
+"PO-Revision-Date: 2017-04-15 01:55+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 64583
 msgid ""
@@ -27,7 +27,6 @@ msgstr ""
 "предположительно, дала отцу ключ к порталу. Я согласился помочь ей."
 
 #: 64681
-#, fuzzy
 msgid ""
 "You see a pretty young woman in tattered clothes. She is pacing back and "
 "forth with a worried expression on her face. She does not notice your "
@@ -145,9 +144,8 @@ msgid "\"Hmm. Never mind, I have other questions...\""
 msgstr "«Хм-м. Неважно, у меня есть другие вопросы...»"
 
 #: 64705
-#, fuzzy
 msgid "\"Never mind, I must be going. Farewell.\""
-msgstr "«Неважно. Я должен идти. Прощай."
+msgstr "«Неважно, я должен идти. Прощай»."
 
 #: 64706
 msgid ""
@@ -220,7 +218,6 @@ msgid "\"Tribute? From what?\""
 msgstr "«Дань? За что?»"
 
 #: 64718
-#, fuzzy
 msgid ""
 "She looks about nervously and then leans in close to whisper to you. "
 "\"Southeast of here is the Weeping Stone Catacombs. Pharod sends his "
@@ -239,7 +236,6 @@ msgid "\"Go on.\""
 msgstr "«Продолжай»."
 
 #: 64720
-#, fuzzy
 msgid ""
 "She shrugs. \"Pharod gets rich, his Collectors just get by... barely. It's "
 "the same story no matter where you go. The rich get richer and the poor get "
@@ -284,7 +280,6 @@ msgid "\"Hmm. I have some other questions...\""
 msgstr "«Хм-м. У меня есть другие вопросы...»"
 
 #: 64732
-#, fuzzy
 msgid ""
 "\"Southeast of here is a place called the Weeping Stone Catacombs. A lot of "
 "the Collectors, like my father, go there and...\" She looks embarrassed. "
@@ -433,7 +428,6 @@ msgid "\"Very well, farewell.\""
 msgstr "«Хорошо, прощай»."
 
 #: 64753
-#, fuzzy
 msgid ""
 "You see Sheryl. She is pacing back and forth with a worried look on her "
 "face. She smiles at your approach. \"Hello again, cutter. What's up?\""
@@ -446,7 +440,6 @@ msgid "\"Nothing, farewell.\""
 msgstr "«Ничего, прощай»."
 
 #: 64756
-#, fuzzy
 msgid ""
 "You see Sheryl. She is pacing back and forth with a worried look on her "
 "face. She smiles at your approach. \"Hello again, cutter. Have you given "
@@ -469,7 +462,6 @@ msgid "\"Yes, I've given it some thought and I will try to help you.\""
 msgstr "«Да, я думал над этим и решил попробовать помочь тебе»."
 
 #: 64760
-#, fuzzy
 msgid ""
 "You see Sheryl. She is pacing back and forth with a worried look on her "
 "face. She smiles at your approach. \"Hello again, cutter. I know you refused "
@@ -485,7 +477,6 @@ msgid "\"No, I don't want to get involved. Farewell.\""
 msgstr "«Нет, я не хочу ввязываться в это дело. Прощай»."
 
 #: 64764
-#, fuzzy
 msgid ""
 "You see Sheryl. She is pacing back and forth with a worried look on her "
 "face. She smiles at your approach and speaks to you anxiously. \"Hello "
@@ -526,7 +517,6 @@ msgid "\"Your gratitude is enough Sheryl, farewell.\""
 msgstr "«Твоей благодарности достаточно, Шерил. Прощай»."
 
 #: 64769
-#, fuzzy
 msgid ""
 "You see Sheryl. She looks up at your approach and smiles at you. \"Hello, "
 "cutter. What can I do for you?\""
@@ -565,7 +555,6 @@ msgid "\"Flying heads?\""
 msgstr "«Летающие головы?»"
 
 #: 64780
-#, fuzzy
 msgid ""
 "She shrugs. \"I know, it sounds crazy. As I said before, I've never seen any "
 "of these myself, but I've talked to Collectors who say they have. One of "
@@ -582,3 +571,4 @@ msgid ""
 msgstr ""
 "Я нашел кольцо на теле в склепе, в который можно попасть только через "
 "портал. Я отдал это кольцо Шерил, и она сказала, что это кольцо ее отца."
+

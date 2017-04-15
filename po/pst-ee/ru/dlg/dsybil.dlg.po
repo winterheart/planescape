@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dsybil.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-09 00:23+0600\n"
+"PO-Revision-Date: 2017-04-15 16:10+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 36032
 msgid ""
@@ -77,7 +77,6 @@ msgstr ""
 "протягивает ее для рукопожатия."
 
 #: 36175
-#, fuzzy
 msgid ""
 "\"Is there an echo in here? Yes, howling lunatics. They belong to the "
 "Starved Dog Barking gang, a band of barmy Xaositect thugs that plague this "
@@ -130,7 +129,6 @@ msgstr ""
 "одна проблема...»"
 
 #: 36180
-#, fuzzy
 msgid ""
 "\"The door's locked... I tried it. My guess is that the key is on one of the "
 "thugs upstairs. I'm not addle-coved enough to go up there looking for it, "
@@ -205,7 +203,6 @@ msgstr ""
 "я пойду сразу за тобой»."
 
 #: 36188
-#, fuzzy
 msgid ""
 "\"I must say, cutter... I'm impressed. I thought for sure those animals "
 "would chew you up good. Well, I guess I should thank you.\" She pauses for a "
@@ -299,12 +296,10 @@ msgid "\"Barking idiots?\""
 msgstr "«Лающие придурки?»"
 
 #: 36215
-#, fuzzy
 msgid "\"You're looking for food, eh? What's in the pouch?\""
 msgstr "«Значит, еду искала? Что в мешке?»"
 
 #: 36216
-#, fuzzy
 msgid "\"You're lying. You're a thief.\""
 msgstr "«Ты врешь. Ты - воровка»."
 
@@ -372,7 +367,6 @@ msgstr ""
 "доберешься до улицы целым, я пойду сразу за тобой»."
 
 #: 50010
-#, fuzzy
 msgid ""
 "\"I must say, cutter... I'm impressed. I thought for sure those animals "
 "would chew you up good. Well, I guess I should thank you.\" She pauses for a "
@@ -384,3 +378,5 @@ msgstr ""
 "тебя, - на миг она умолкает, затем сует руку в мешочек и достает оттуда "
 "маленький зеленый драгоценный камешек. - Вот... он был на одном из Псов. "
 "Увидимся, рубака»."
+
+

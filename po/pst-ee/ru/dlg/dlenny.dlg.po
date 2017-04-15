@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dlenny.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-08 23:17+0600\n"
+"PO-Revision-Date: 2017-04-15 18:12+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 36021
 msgid ""
@@ -95,7 +95,6 @@ msgstr ""
 "стащили? Ну, это не я - должно быть, это работа парней Лотара»."
 
 #: 36491
-#, fuzzy
 msgid ""
 "He smiles evilly. \"Master of the Bones is what they call him, and that's "
 "what he is. He is the highest of the high priests of some major power, I "
@@ -103,11 +102,10 @@ msgid ""
 "Bones of the Night.\""
 msgstr ""
 "Он зловеще усмехается. «Повелитель Костей - так его зовут, им он и является. "
-"Он главный верховный жрец какой-то влиятельной Силы, не знаю какой, - он "
+"Он главный верховный жрец какой-то влиятельной силы, не знаю какой, - он "
 "смеется. - Он обосновался в месте под названием Кости Ночи»."
 
 #: 36492
-#, fuzzy
 msgid ""
 "He frowns. \"Now I don't know that I want to be the one to answer that "
 "question...\" He glares at you for a while, then shrugs. \"Ruined building "
@@ -198,13 +196,12 @@ msgstr ""
 "робко смотрит на тебя."
 
 #: 36500
-#, fuzzy
 msgid ""
 "He shrugs. \"Fine. I guess that snake Pikit wins again...\" He looks at you "
 "defiantly."
 msgstr ""
 "Он пожимает плечами. «Отлично. Полагаю, эта змея Пикит снова окажется в "
-"выигрыше....» Он вызывающе смотрит на тебя."
+"выигрыше...» Он вызывающе смотрит на тебя."
 
 #: 36501
 msgid ""
@@ -281,7 +278,6 @@ msgstr ""
 "могу достать эти чертовы бумаги»."
 
 #: 36508
-#, fuzzy
 msgid ""
 "He smiles at you. \"Go to the warehouse and tell the clerk *I'm here for a "
 "loan* and he'll give you Trist's papers. If you then tell him *I gave Pikit "
@@ -314,7 +310,6 @@ msgstr ""
 "«Ты уверен, что хочешь покинуть свою текущую специализацию и стать вором?»"
 
 #: 36512
-#, fuzzy
 msgid ""
 "He looks around then shrugs. \"This is the Lower Ward, home of the common "
 "people. Life here isn't as desperate as it is in the Hive, but not as good "
@@ -327,7 +322,6 @@ msgstr ""
 "Больше тут особо не о чем рассказывать»."
 
 #: 36513
-#, fuzzy
 msgid ""
 "He shakes his head and smiles. \"I guess you would call it the slums of "
 "Sigil. Lots of poor sods there with no place to go other than the dead-book."
@@ -404,7 +398,6 @@ msgstr ""
 "типа того»."
 
 #: 36521
-#, fuzzy
 msgid "He shrugs. \"Well, that says it all then. Farewell, berk.\""
 msgstr "Он пожимает плечами. «Ну, тогда на этом все. Прощай, пень»."
 
@@ -645,7 +638,6 @@ msgid "\"What can you tell me about the Hive?\""
 msgstr "«Что ты можешь сказать об Улье?»"
 
 #: 36592 36595
-#, fuzzy
 msgid "\"What can you tell me about the Clerk's Ward?\""
 msgstr "«Что ты можешь рассказать о Чиновничьем районе?»"
 
@@ -710,7 +702,6 @@ msgid "\"No, let me think about it for a while. Farewell.\""
 msgstr "«Нет, дай мне немного об это подумать. Прощай»."
 
 #: 52391 64783
-#, fuzzy
 msgid ""
 "\"Show me what you know and I'll give you some pointers.\" He watches you "
 "carefully as you demonstrate what you know. At several points he stops you "
@@ -732,13 +723,12 @@ msgid "\"Thank you. I must be going.\""
 msgstr "«Спасибо. Мне пора»."
 
 #: 64223
-#, fuzzy
 msgid ""
 "Lenny smiles at you and nods his head in thought. \"Here, cutter. Take these "
 "as well. A gift from Lenny, to help you out in your new profession... I'm "
 "not going to be needing them anymore.\" He hands you a pair of punch daggers."
 msgstr ""
-"Ленни улыбается и задумчиво кивает. «Держи, рубака. Возьми еще и это. "
+"Ленни улыбается тебе и задумчиво кивает. «Держи, рубака. Возьми еще и это. "
 "Подарочек от Ленни, поможет тебе на новом поприще... Мне они все равно "
 "больше не нужны». Он дает тебе пару ударных кинжалов."
 

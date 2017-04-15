@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dpuzskel.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2011-12-25 02:44+0600\n"
+"PO-Revision-Date: 2017-04-15 14:25+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 20282
 msgid ""
@@ -62,7 +62,6 @@ msgstr ""
 "я его уже произнес»."
 
 #: 20288
-#, fuzzy
 msgid "It seems incredulous. \"'Tis *what?* But...\""
 msgstr "Он, похоже, не поверил. «*Что*? Но...»"
 
@@ -94,7 +93,6 @@ msgid "The skeleton looks up. \"Solve that dastardly riddle, yet?\""
 msgstr "Скелет смотрит на тебя. «Ну как, разгадал ту подлую загадку?»"
 
 #: 20293
-#, fuzzy
 msgid ""
 "\"I thank thee again for solving that riddle! I imagine my 'friend' would be "
 "quite upset over it!\" It chortles heartily."
@@ -107,7 +105,6 @@ msgid "\"But... but why? Come, now! Thou *must* tell me!\""
 msgstr "«Но... но почему? Ладно тебе! Ты *должен* мне рассказать!»"
 
 #: 20295
-#, fuzzy
 msgid ""
 "It gnashes its teeth together in frustration. \"Bah! Just like that... "
 "that... incessantly rattling dust-for-brains! And *thee!* I thank thee for "
@@ -233,3 +230,4 @@ msgstr "Скелет скрещивает руки на груди и отказ
 #: 68087
 msgid "Leave."
 msgstr "Уйти."
+

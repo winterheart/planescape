@@ -1,21 +1,20 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dbish.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-06-16 23:23+0300\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 21:39+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 34107
-#, fuzzy
 msgid ""
 "As you enter the room, a large, heavy-set man gets up from his chair and "
 "approaches you. \"'LO there! Name's Bish. Who might ya be?\""
@@ -34,7 +33,6 @@ msgstr ""
 "хочешь его говорить? Кажись, ты что-то там скрываешь»."
 
 #: 34109
-#, fuzzy
 msgid ""
 "\"Adh-what?\" Bish stares blankly at you, then shakes his head violently. "
 "\"I never seen ya before and Pharod didn't tell me about no 'Adahn' comin' "
@@ -47,7 +45,6 @@ msgstr ""
 "лучше сказать мне, какое у тебя дело, пень»."
 
 #: 34110
-#, fuzzy
 msgid ""
 "Bish suddenly draws his weapon. \"Fine. Ye're not willin' to be straight "
 "with me, I'll just beat it outta ya.\""
@@ -64,7 +61,6 @@ msgstr ""
 "спрошу тебя еще раз, пень: как тебя ЗОВУТ?!»"
 
 #: 34112
-#, fuzzy
 msgid ""
 "\"If Pharod was wantin' to see ya, I'd know about it.\" Bish suddenly draws "
 "his weapon. \"I'm tired of playin' guessin' games with ya, berk. I'll just "
@@ -85,7 +81,6 @@ msgstr ""
 "Биш выхватывает оружие. - Надеюсь, дело было стоящее, пень»."
 
 #: 34114
-#, fuzzy
 msgid ""
 "Bish throws his hands up in the air in frustration. \"Forget it, berk! Not "
 "important anymore, anyhow.\" He shakes his head back and forth. \"More "
@@ -116,7 +111,6 @@ msgstr ""
 "или твоя голова»."
 
 #: 34117
-#, fuzzy
 msgid ""
 "\"Ye're more clueless than I thought, cutter!\" Bish shrugs. \"Alright then "
 "ya scrawny boy, lesss have at ya!\""
@@ -133,7 +127,6 @@ msgstr ""
 "тебе, перед тем как достать оружие. - Но отсюда ты уже не выберешься»."
 
 #: 34119
-#, fuzzy
 msgid ""
 "Bish conducts a thorough search of your belongings. \"I should still be "
 "takin' yer head since it seems to be all ye're worth! Now get on with ya. "
@@ -270,9 +263,8 @@ msgid "\"If you don't stand aside right now, there will be hell to pay.\""
 msgstr "«Если ты сейчас же не отойдешь - хлопот не оберешься»."
 
 #: 34164
-#, fuzzy
 msgid "\"Farewell...\""
-msgstr "«Прощай»."
+msgstr "«Прощай...»"
 
 #: 34165
 msgid "\"I'll do what I want...\""

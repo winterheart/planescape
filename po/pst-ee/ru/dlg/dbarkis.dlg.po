@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014, 2016.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dbarkis.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-07-10 22:54+0300\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 00:07+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: 10238
@@ -409,17 +409,16 @@ msgid "\"No, thanks. Farewell.\""
 msgstr "«Нет, спасибо. Прощай»."
 
 #: 10328
-#, fuzzy
 msgid ""
 "\"Whaddya want? We got your basic beer for a copper, bitters for two, mead "
 "for four. We got water straight from the Elemental Plane for eight copper, "
 "we got Arborean firewine and fireseeds for ten, Curst heartwine for eight, "
 "and Baator's own whiskey for twenty. What'll you have?\""
 msgstr ""
-"«Чего хочешь? У нас есть обычное пиво за одну монету, горькое - за две, "
-"медовуха - за четыре. У нас есть вода прямиком со стихийного плана за восемь "
-"монет, арборейское огненное вино с огненными семенами за десять, сердечное "
-"вино из Проклятого за восемь, бааторийский виски за двадцать. Чего будешь?»"
+"«Чего хочешь? У нас есть обычное пиво за медяк, горькое - за два, медовуха -"
+" за четыре. У нас есть вода прямиком со стихийного плана за восемь медяков,"
+" арборейское огненное вино с огненными семенами за десять, сердечное вино из"
+" Проклятого за восемь, бааторийский виски за двадцать. Чего будешь?»"
 
 #: 10329 10330 10346
 msgid "\"Beer.\""
@@ -468,7 +467,6 @@ msgid "\"Nothing. Farewell.\""
 msgstr "«Ничего. Прощай»."
 
 #: 10355
-#, fuzzy
 msgid ""
 "The barkeep scowls at you. \"You ain't got the jink to pay for that. You "
 "don't get a tab, either. I been burned too many times recently. You want "
@@ -512,7 +510,6 @@ msgid "\"Nothing.\""
 msgstr "«Ничего»."
 
 #: 10364
-#, fuzzy
 msgid ""
 "He moves back to a keg on the wall and turns the spigot. The clearest water "
 "you have ever seen pours from the nozzle into the glass he holds underneath "
@@ -528,7 +525,7 @@ msgstr ""
 "ставит его перед тобой, и ты делаешь большой глоток. Это чистейшая вещь из "
 "тех, что ты пробовал. Прохлада присуща самой воде; ощущение воздушности "
 "проходит через твой язык и попадает в живот, где на миг утоляет твои даже "
-"самые горячие желания. «Прямо из сердца Стихийного плана воды, - говорит "
+"самые горячие желания. «Прямо из сердца Стихийного плана воды, - хмыкает "
 "бармен. - Любая другая вода по сравнению с этой покажется грязной на вкус»."
 
 #: 10365
@@ -548,7 +545,6 @@ msgid "\"Quite an experience. My thanks. Farewell.\""
 msgstr "«Совершенное ощущение. Спасибо. Прощай»."
 
 #: 10369
-#, fuzzy
 msgid ""
 "He passes you a glass of deepest red wine and a handful of brightly-colored "
 "seeds. \"Stick the seeds in your mouth,\" he advises, \"and take a swig of "
@@ -583,7 +579,6 @@ msgid "\"Not right now. Farewell.\""
 msgstr "«Не сейчас. Прощай»."
 
 #: 10374
-#, fuzzy
 msgid ""
 "He passes you a glass of Curst's famous heartwine. The bouquet is "
 "breathtaking, and the wine itself is full-bodied and fruity. The aftertaste "
@@ -594,7 +589,7 @@ msgstr ""
 "Он приносит тебе знаменитое сердечное вино из Проклятого. От букета "
 "перехватывает дыхание, само вино густое и ароматное. Послевкусие - выше всех "
 "ожиданий. «Сделано из настоящего остролистника, так-то. Хотел бы я знать его "
-"секрет, - говорит хозяин. - Еще хочешь?»"
+"секрет, - хозяин кивает на пустой стакан. - Еще хочешь?»"
 
 #: 10375 10376
 msgid "\"I certainly do.\""
@@ -853,3 +848,4 @@ msgstr ""
 #: 57944
 msgid "\"Just answer some questions for me.\""
 msgstr "«Ответь мне на другие вопросы»."
+

@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dhailcii.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-08 20:29+0600\n"
+"PO-Revision-Date: 2017-04-15 16:39+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 2919
 msgid ""
@@ -122,7 +122,6 @@ msgid "\"They're just scars. I had some other questions...\""
 msgstr "«Это всего лишь шрамы. У меня есть другие вопросы...»"
 
 #: 45167 45319
-#, fuzzy
 msgid ""
 "\"They speak of the history of my kin and grant me their strength and minds. "
 "One etched by Arja'rok of the Isle of Seal, tells of my kin, Ji'li'kai, who "
@@ -330,7 +329,6 @@ msgid "\"What kind of strength?\""
 msgstr "«Какого рода силу?»"
 
 #: 45222 45336
-#, fuzzy
 msgid ""
 "\"You can find him in the Hive, in the northern part of the southeastern "
 "portion. The directions in this city are poorly given - they are like "
@@ -338,7 +336,7 @@ msgid ""
 msgstr ""
 "«Он находится в Улье, на севере юго-восточной области. В этом городе плохо "
 "объясняют дорогу: как будто ты следуешь бредовым идеям Вождя, *не знающего* "
-"себя». "
+"себя»."
 
 #: 45223 45337
 msgid "\"What kind of strength can his tattoos give?\""
@@ -507,7 +505,6 @@ msgstr ""
 "Попроси его, и, возможно, он тебя обучит»."
 
 #: 45347
-#, fuzzy
 msgid ""
 "\"His words are *known* to me, *zerth,* as are his timely actions concerning "
 "our fortress. I will hear him.\""

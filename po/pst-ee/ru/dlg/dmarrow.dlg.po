@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmarrow.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2012-08-23 00:42+0600\n"
+"PO-Revision-Date: 2017-04-15 01:36+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 17170
 msgid ""
@@ -126,7 +126,6 @@ msgstr ""
 "оказывается смертельной. Ты падаешь замертво."
 
 #: 17182
-#, fuzzy
 msgid ""
 "You grab his hand, and he starts flailing against you. As he does, he bites "
 "a large chunk out of your arm, and you are forced to let him go... not "
@@ -168,7 +167,6 @@ msgstr ""
 "садится на корточки, громко пережевывая откушенный кусок мяса."
 
 #: 17186
-#, fuzzy
 msgid "He nods greedily and lets you take the finger bone. "
 msgstr "Он жадно кивает и позволяет тебе забрать костяной палец."
 
@@ -181,7 +179,6 @@ msgstr ""
 "словно пес, получивший пинок от хозяина..."
 
 #: 17188
-#, fuzzy
 msgid ""
 "He clutches the finger bone to his chest, looking up at you pitifully and "
 "shaking his head. \"N-nooo. Hun-greee!\""
@@ -190,7 +187,6 @@ msgstr ""
 "«Не-е-е. Го-о-олоден!»"
 
 #: 17189
-#, fuzzy
 msgid "His eyes gleam, and he is distracted from the finger bone. \"Uh-kay.\""
 msgstr ""
 "В его глазах появляется блеск, он отвлекается от костяного пальца. «Лады»."
@@ -206,7 +202,6 @@ msgstr ""
 "подбородку стекает желтоватая слюна."
 
 #: 17191
-#, fuzzy
 msgid ""
 "As you leave, he pulls the finger bone from the cord and swallows it whole, "
 "ring and all."
@@ -215,7 +210,6 @@ msgstr ""
 "целиком, вместе с кольцом."
 
 #: 17193
-#, fuzzy
 msgid "He whines miserably. \"H-hun-greeee.\""
 msgstr "Он жалобно воет: «Голо-о-оден»."
 
@@ -260,7 +254,6 @@ msgstr ""
 "нет мя-я-яса! Ты врешь... врешь!»"
 
 #: 17202
-#, fuzzy
 msgid ""
 "\"Nooo? So... h-hungreee...\" He looks down at the finger bone, licking his "
 "scab-covered lips with a yellow tongue."
@@ -311,14 +304,13 @@ msgstr "«Нет, я не мертвый»."
 
 #: 17250
 msgid "\"No, but you'll be in moments...\""
-msgstr ""
+msgstr "«Нет, а вот ты им скоро станешь...»"
 
 #: 17252 17257
 msgid "\"What do you usually eat?\""
 msgstr "«Чем ты обычно питаешься?»"
 
 #: 17253 17258 17260
-#, fuzzy
 msgid "\"What is that finger bone?\""
 msgstr "«Что это за костяной палец?»"
 
@@ -340,12 +332,10 @@ msgid "Fall into darkness..."
 msgstr "Пасть во тьму..."
 
 #: 17274 17276
-#, fuzzy
 msgid "Stop him from eating the finger bone."
 msgstr "Не дать ему съесть костяной палец."
 
 #: 17281
-#, fuzzy
 msgid "\"Give me the finger bone first, 'marrow-friend.'\""
 msgstr "«Сперва отдай мне костяной палец, Корефан»."
 
@@ -370,13 +360,11 @@ msgid "Leave."
 msgstr "Уйти."
 
 #: 17295
-#, fuzzy
 msgid ""
 "\"I'll let you have another of mine, if you'll give me the finger bone.\""
 msgstr "«Если дашь мне костяной палец, я отдам тебе один из своих пальцев»."
 
 #: 17298
-#, fuzzy
 msgid ""
 "\"I'll go fetch some... meat... for you. *Don't* eat that finger bone, or no "
 "meat for you. Farewell.\""
@@ -421,7 +409,6 @@ msgid "Pull your arm away, leave him."
 msgstr "Выдернуть свою руку, оставить его."
 
 #: 17338
-#, fuzzy
 msgid "Lie: \"Yes, but give me the finger bone, first.\""
 msgstr "Ложь: «Да, но сперва дай мне костяной палец»."
 

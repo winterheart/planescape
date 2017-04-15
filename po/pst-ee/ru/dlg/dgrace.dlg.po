@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dgrace.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 02:29+0600\n"
+"PO-Revision-Date: 2017-04-15 16:36+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 11273
 msgid ""
@@ -124,7 +124,6 @@ msgid "\"Thanks. I had some questions, Mourns...\""
 msgstr "«Спасибо. У меня есть вопросы, Скорбящий...»"
 
 #: 16935
-#, fuzzy
 msgid "\"Thanks, Grace. Farewell, Mourns-for-Trees.\""
 msgstr "«Спасибо, Грация. Прощай, Скорбящий-по-деревьям»."
 
@@ -184,7 +183,6 @@ msgstr ""
 "рассказывать твою историю»."
 
 #: 22591
-#, fuzzy
 msgid ""
 "\"He apologizes, but he cannot say.\" Grace turns to you, meeting your gaze. "
 "\"What he says next is strange: He says that he *'cannot change the nature "
@@ -223,7 +221,6 @@ msgstr ""
 "поворачивается к тебе. - Ты знаком с понятием лабиринтов?»"
 
 #: 23014
-#, fuzzy
 msgid ""
 "Grace places her hands together, thumbs and fingers touching, forming a "
 "rough circle. \"The Lady is said to have the power to take pieces of Sigil..."
@@ -238,7 +235,6 @@ msgstr ""
 "из них лабиринт»."
 
 #: 23015
-#, fuzzy
 msgid ""
 "The small ghostly circle floats in the air, then begins slowly rotating. "
 "\"The piece of Sigil she takes holds the prisoner; there is no escaping "
@@ -269,7 +265,6 @@ msgstr ""
 "того, и для другого»."
 
 #: 23017
-#, fuzzy
 msgid ""
 "Grace studies the symbols carefully. \"Fell says that Ravel attempted to "
 "'open the Cage.'\" Grace turns to you. \"'The Cage' is another name for "
@@ -503,10 +498,15 @@ msgid ""
 "slave and his chains are words.' He said they were all tormented as I am, "
 "and in my suffering, I draw others that suffer as well."
 msgstr ""
+"Фелл перевел мне руну на моей старой руке... он сказал, что в ней говорится "
+"о четырех, кто раньше шли вместе со мной. Эти четверо - «нелюбимый, любящий "
+"того, кто не любит», «невидящий то, что видят другие, и видящий то, чего "
+"другие не видят», «фамильяр, связанный обязательствами», «раб, чьи цепи - "
+"слова». Он сказал, что все они страдали от мучений, как и я, и что мои муки "
+"притягивают притягивают таких же мучеников."
 
 # Неиспользуемое в диалогах предложение. Congo line - http://en.wikipedia.org/wiki/Conga_line
 #: 24998
-#, fuzzy
 msgid ""
 "\"C'mon, Grace. I don't have time to chit-chat with you, so hurry up and hop "
 "on the conga line.\""
@@ -587,7 +587,6 @@ msgid "\"That is all I wished to know. Farewell.\""
 msgstr "«Это все, что я хотел узнать. Прощай»."
 
 #: 25294 25295 25296
-#, fuzzy
 msgid "\"Not 'permitted'? Why not?\""
 msgstr "«Не дозволено? Почему?»"
 
@@ -788,7 +787,6 @@ msgid "\"Perhaps so. Can I ask you some other questions?\""
 msgstr "«Пожалуй, да. Могу ли я задать тебе другие вопросы?»"
 
 #: 27456
-#, fuzzy
 msgid ""
 "Fall-from-Grace said someone in the Civic Festhall might know more about "
 "Ravel."
@@ -797,14 +795,12 @@ msgstr ""
 "нибудь еще о Равель."
 
 #: 27457
-#, fuzzy
 msgid ""
 "Fall-from-Grace said Ravel was imprisoned in one of the Lady of Pain's mazes."
 msgstr ""
 "Падшая Грация сказала, что Равель заточили в одном из лабиринтов Леди Боли."
 
 #: 27458
-#, fuzzy
 msgid ""
 "Fall-from-Grace said Ravel is a night hag, one of the gray sisters that roam "
 "the Gray Waste. She possesses powers far beyond those of her sisters, and "
@@ -817,7 +813,6 @@ msgstr ""
 "была наказана."
 
 #: 27459
-#, fuzzy
 msgid ""
 "Fall-from-Grace warned me about Ravel... she said if even a few of the "
 "stories about the night hag are true, then she is perhaps one of the evilest "
@@ -825,10 +820,9 @@ msgid ""
 msgstr ""
 "Падшая Грация предупредила меня насчет Равель... Она сказала, что если "
 "истории о ночной ведьме хоть отчасти правдивы, то она, наверное, самая злая "
-"и могущественная из ночных ведьм, когда-либо ходивших по Планам."
+"и могущественная из ночных ведьм, когда-либо ходивших по планам."
 
 #: 27460
-#, fuzzy
 msgid ""
 "Fall-from-Grace told me that her own mother sold her into slavery... to the "
 "tanar'ri's hated enemies, the baatezu, no less. Apparently, Fall-from-Grace "
@@ -841,7 +835,6 @@ msgstr ""
 "она не вдавалась."
 
 #: 27461
-#, fuzzy
 msgid ""
 "Fall-from-Grace suggested I speak with the students in the Brothel, that "
 "interacting with some of them might spark my memory of who I am."
@@ -850,7 +843,6 @@ msgstr ""
 "кем-то из них я могу вспомнить что-нибудь о себе."
 
 #: 27462
-#, fuzzy
 msgid ""
 "I convinced Fall-from-Grace to become a companion on one condition: I have "
 "to speak to all ten of her students in the brothel, then return to her with "
@@ -861,7 +853,6 @@ msgstr ""
 "сказать ей, что я об этом думаю."
 
 #: 27463
-#, fuzzy
 msgid ""
 "I convinced Fall-from-Grace to become a companion on one condition: that I "
 "speak to all ten of her students in the brothel, then return to her with my "
@@ -873,7 +864,6 @@ msgstr ""
 "десятый избегает меня."
 
 #: 27464
-#, fuzzy
 msgid ""
 "Fall-from-Grace suggested I try the Civic Festhall if I wanted to join the "
 "Society of Sensation. She said someone there should be able to help me."
@@ -882,7 +872,6 @@ msgstr ""
 "вступить в ряды Общества Восприятия. Она сказала, что там мне могут помочь."
 
 #: 27465 27466
-#, fuzzy
 msgid ""
 "Fall-from-Grace said she was a succubus, a \"lesser tanar'ri,\" one of the "
 "fiends that roam the Lower Planes. Apparently, her race seeks out mortals "
@@ -894,7 +883,6 @@ msgstr ""
 "очаровательно."
 
 #: 27467
-#, fuzzy
 msgid ""
 "I met a woman named Fall-from-Grace in the Clerk's Ward. She is easily one "
 "of the most beautiful women I've ever seen... she's not human, though; she "
@@ -925,7 +913,6 @@ msgid "Ignore the winged woman, explore the building."
 msgstr "Не обращать внимания на женщину с крыльям, обследовать здание."
 
 #: 28233
-#, fuzzy
 msgid ""
 "Fall-from-Grace turns as you approach and smiles slightly. \"How may I help "
 "you?\""
@@ -1022,7 +1009,6 @@ msgid "\"Nothing today, thanks. Farewell.\""
 msgstr "«Пока ничем, спасибо. Прощай»."
 
 #: 28259
-#, fuzzy
 msgid ""
 "\"I am called Fall-from-Grace.\" She studies you for a moment. \"You are new "
 "to Sigil, are you not?\""
@@ -1040,7 +1026,6 @@ msgstr ""
 "«Нет, на самом деле, у меня есть подозрение, что я здесь уже довольно давно»."
 
 #: 28262 28268 28275
-#, fuzzy
 msgid "\"Fall-from-Grace... that's an interesting name.\""
 msgstr "«Падшая Грация... какое интересное имя»."
 
@@ -1049,7 +1034,6 @@ msgid "\"That is not a matter I wish to discuss at the moment. Farewell.\""
 msgstr "«Я не хотел бы сейчас это обсуждать. Прощай»."
 
 #: 28264
-#, fuzzy
 msgid ""
 "\"I am Fall-from-Grace.\" She smiles slightly. \"Can it be you have "
 "forgotten me already?\""
@@ -1078,7 +1062,6 @@ msgid "\"Perhaps so. Farewell.\""
 msgstr "«Может и так. Прощай»."
 
 #: 28271
-#, fuzzy
 msgid ""
 "Fall-from-Grace becomes somber as she glances back and forth between the two "
 "of you. \"No offense was meant. Forgive my teasing.\""
@@ -1142,7 +1125,6 @@ msgstr ""
 "этого заведения?»"
 
 #: 28285 28286 28289 28290
-#, fuzzy
 msgid ""
 "\"'Brothel of Slating Intellectual Lusts'? What kind of brothel is this?\""
 msgstr "«Бордель утоления интеллектуальной страсти? Что это за бордель такой?»"
@@ -1211,7 +1193,6 @@ msgid "\"Perhaps I will tour the brothel, then. Farewell.\""
 msgstr "«Тогда я, пожалуй, пройдусь по борделю. Прощай»."
 
 #: 28309 61784
-#, fuzzy
 msgid ""
 "Fall-from-Grace raises an eyebrow. \"That is an odd question.\" She frowns. "
 "\"I don't think anyone has ever asked me that. At least, directly.\""
@@ -1335,7 +1316,6 @@ msgid "\"Sensates?\""
 msgstr "«Чувствующие?»"
 
 #: 28332
-#, fuzzy
 msgid "\"I see. So the ladies here are ladies-in-training, so to speak?\""
 msgstr ""
 "«Понятно. Значит, здешние дамы, иначе говоря, являются практикантками?»"
@@ -1404,7 +1384,6 @@ msgstr "«Да. Я должен идти. Прощай»."
 
 # Название фракции - с большой буквы - спорный вопрос
 #: 28352
-#, fuzzy
 msgid ""
 "\"The Sensates are the faction of Sigil that is devoted to experience. "
 "Without experience, without sensation, we are blinded to much of the "
@@ -1458,14 +1437,13 @@ msgstr ""
 "«Ну... - она слегка улыбается. - Это довольно прямолинейно с твоей стороны»."
 
 #: 28364 28365 28567 28574 28575 28582
-#, fuzzy
 msgid ""
 "\"I'd rather be honest with my intentions. You seem extremely pleasant and "
 "well-versed in the ways of the planes. A companion with that kind of "
 "knowledge would be welcome.\""
 msgstr ""
 "«Я хочу быть откровенным в своих намерениях. Ты невероятно мила и хорошо "
-"осведомлена по части Планов. Компаньону с подобными знаниями я всегда буду "
+"осведомлена по части планов. Компаньону с подобными знаниями я всегда буду "
 "рад»."
 
 #: 28366 28568 28576 28583
@@ -1501,13 +1479,12 @@ msgstr ""
 "тобой?»"
 
 #: 28372 28385 28391
-#, fuzzy
 msgid ""
 "\"You mean you wouldn't be interested in traveling with an immortal amnesiac "
 "who is searching the planes for himself?\""
 msgstr ""
 "«То есть, тебе было бы неинтересно путешествовать с забывшим все "
-"бессмертным, который ищет себя по всем Планам?»"
+"бессмертным, который ищет себя по всем планам?»"
 
 #: 28373
 msgid ""
@@ -1554,7 +1531,6 @@ msgstr ""
 "путешествовать вместе или нет»."
 
 #: 28381
-#, fuzzy
 msgid ""
 "\"I have already spoken to them... but there are only nine students here. I "
 "could not find a tenth.\""
@@ -1617,7 +1593,6 @@ msgid "\"Perhaps we will speak about this another time. Farewell.\""
 msgstr "«Возможно, мы поговорим об этом в другой раз. Прощай»."
 
 #: 28399
-#, fuzzy
 msgid ""
 "\"You have been stricken with amnesia?\" Fall-from-Grace looks pained. \"How "
 "terrible! Do you have any idea how it happened?\""
@@ -1626,7 +1601,6 @@ msgstr ""
 "знаешь, как это произошло?»"
 
 #: 28400
-#, fuzzy
 msgid ""
 "\"Not really... at least not that I can remember. I woke up on a slab in the "
 "Mortuary, and everything before that is black.\""
@@ -1649,7 +1623,6 @@ msgstr ""
 "Возможно, я бессмертен, но даже этого не знаю наверняка»."
 
 #: 28408
-#, fuzzy
 msgid ""
 "Fall-from-Grace seems to be appraising you with renewed interest. \"Those "
 "scars on your body.\" She reaches out a hand, as if to touch you. \"May I?\""
@@ -1674,7 +1647,6 @@ msgstr ""
 "несколько вопросов?»"
 
 #: 28413
-#, fuzzy
 msgid ""
 "Fall-from-Grace drags her finger across your chest lightly, tracing the "
 "edges of your scars and following the curves where they blend into some of "
@@ -1698,7 +1670,6 @@ msgstr ""
 "вопросов?»"
 
 #: 28417
-#, fuzzy
 msgid ""
 "Fall-from-Grace steps back. \"Some of those wounds would have been fatal. To "
 "a normal man.\" She taps her chin, thinking. \"What do you intend to do now?"
@@ -1709,14 +1680,13 @@ msgstr ""
 "собираешься теперь делать?»"
 
 #: 28418 28419
-#, fuzzy
 msgid ""
 "\"I need to get my memories back, and my life back. I intend to scour the "
 "planes and search inside myself until I can piece together who I am and what "
 "brought me to this state.\""
 msgstr ""
 "«Мне нужно вернуть свои воспоминания и свою жизнь. Я собираюсь прочесывать "
-"Планы и продолжать поиск в самом себе, покуда не соберу воедино все сведения "
+"планы и продолжать поиск в самом себе, покуда не соберу воедино все сведения "
 "о том, кто я и что привело меня в это состояние»."
 
 #: 28420
@@ -1736,7 +1706,6 @@ msgstr ""
 "найдут... со временем»."
 
 #: 28424
-#, fuzzy
 msgid ""
 "Fall-from-Grace is still thinking, her finger tapping on her chin. \"I must "
 "say, I've never met a man who had lost himself in the literal sense.\" She "
@@ -1756,7 +1725,6 @@ msgid "\"It is that.\""
 msgstr "«Это так»."
 
 #: 28427
-#, fuzzy
 msgid ""
 "\"'Intriguing'? Frightening is more like it. I don't like not knowing who I "
 "am, what I may have done, who my enemies are, and who are my friends.\""
@@ -1765,7 +1733,6 @@ msgstr ""
 "что я мог сделать, кто мои враги и кто мои друзья»."
 
 #: 28430
-#, fuzzy
 msgid ""
 "\"I have offended you with my words.\" Fall-from-Grace bows her head. \"I "
 "give my apology, if you will have it.\""
@@ -1782,7 +1749,6 @@ msgid "\"Never mind, no harm done.\""
 msgstr "«Неважно, ты не сказала ничего плохого»."
 
 #: 28435
-#, fuzzy
 msgid ""
 "Fall-from-Grace nods. \"If it will help, you are welcome to tour the "
 "Brothel. Several of our students are well-versed in the verbal arts. Perhaps "
@@ -1801,7 +1767,6 @@ msgid "\"I'm grateful. I may go speak to them. Farewell.\""
 msgstr "«Благодарю. Пойду, пообщаюсь с ними. Прощай»."
 
 #: 28438 62049
-#, fuzzy
 msgid ""
 "\"The Blood War is the conflict that rages across the Lower Planes between "
 "the baatezu and the tanar'ri. They fight over whether evil should be lawful "
@@ -1817,7 +1782,6 @@ msgstr ""
 "как минимум, в относительном мире»."
 
 #: 28439 62050
-#, fuzzy
 msgid "\"Relative peace?\""
 msgstr "«Относительном?»"
 
@@ -1866,7 +1830,6 @@ msgstr ""
 
 #: 28452 28458 28465 28472 28480 28488 28495 28502 62063 62069 62076 62083
 #: 62091 62107 62114 62121
-#, fuzzy
 msgid ""
 "\"You said that as long as the war goes on, the rest of the planes are "
 "allowed 'relative peace'?\""
@@ -1875,7 +1838,6 @@ msgstr ""
 "относительном покое»."
 
 #: 28457 62068
-#, fuzzy
 msgid ""
 "\"According to the chronicles, the Blood War has been fought ever since the "
 "baatezu met the tanar'ri... a *very* long time ago. I am not certain there "
@@ -1943,7 +1905,6 @@ msgid "\"She sold you to the tanar'ri's sworn enemies?\""
 msgstr "«Она продала тебя заклятым врагам танарри?»"
 
 #: 28494 62113
-#, fuzzy
 msgid ""
 "\"Yes.\" Fall-from-Grace draws herself up. \"Was there anything else you "
 "wished to know?\""
@@ -1960,18 +1921,16 @@ msgstr ""
 "ЕСЛИ ты поимеешь меня»."
 
 #: 28501 62120
-#, fuzzy
 msgid ""
 "\"Oh, no, not at all. It's best you know this - the Blood War underlies most "
 "events on the planes; it's important to understand what it is and why it is "
 "taking place.\""
 msgstr ""
 "«О, нет-нет, вовсе нет. Лучше помни вот о чем: Кровавая война стоит за "
-"большинством событий на Планах. Важно понимать, что она из себя представляет "
+"большинством событий на планах. Важно понимать, что она из себя представляет "
 "и зачем ведется»."
 
 #: 28508 62127
-#, fuzzy
 msgid ""
 "\"I am familiar with the name.\" Fall-from-Grace pauses and thinks for a "
 "moment. \"Rumors cluster thickly about that name, and most tend to discount "
@@ -2129,7 +2088,6 @@ msgid "\"Someone in the Festhall may know more of her.\""
 msgstr "«Кто-нибудь в Фестхолле может знать о ней больше»."
 
 #: 28552
-#, fuzzy
 msgid "Fall-from-Grace raises an eyebrow. \"Indeed?\""
 msgstr "Падшая Грация вскидывает бровь. «В самом деле?»"
 
@@ -2165,7 +2123,6 @@ msgstr ""
 "другой раз»."
 
 #: 28560 62172
-#, fuzzy
 msgid "\"Is Fall-from-Grace your real name?\""
 msgstr "«Падшая Грация - это твое настоящее имя?»"
 
@@ -2188,7 +2145,6 @@ msgstr ""
 "настоящее? Точно не мне»."
 
 #: 28566
-#, fuzzy
 msgid ""
 "\"Travel with you?\" Fall-from-Grace smiles slightly. She seems to be "
 "ignoring your companions. \"That's rather forward of you.\""
@@ -2197,7 +2153,6 @@ msgstr ""
 "внимания на твоих спутников. «Это довольно бесцеремонно с твоей стороны»."
 
 #: 28573
-#, fuzzy
 msgid ""
 "\"Travel with you?\" Fall-from-Grace smiles slightly. She seems to be "
 "ignoring Annah. \"That's rather forward of you.\""
@@ -2206,7 +2161,6 @@ msgstr ""
 "внимания на Анну. «Это довольно бесцеремонно с твоей стороны»."
 
 #: 28581
-#, fuzzy
 msgid ""
 "\"Travel with you?\" Fall-from-Grace smiles slightly. She seems to be "
 "ignoring Morte. \"That's rather forward of you.\""
@@ -2259,12 +2213,11 @@ msgid "She nods. \"Very well. And your thoughts?\""
 msgstr "Она кивает. «Хорошо. И каковы твои мысли?»"
 
 #: 28597
-#, fuzzy
 msgid ""
 "\"You and I should leave this place and explore the planes. There is nothing "
 "more for either one of us to experience here.\" "
 msgstr ""
-"«Нам с тобой следует покинуть это место и отправиться исследовать Планы. "
+"«Нам с тобой следует покинуть это место и отправиться исследовать планы. "
 "Здесь для нас не осталось ничего, что можно было бы испытать»."
 
 #: 28598
@@ -2272,7 +2225,6 @@ msgid "\"The student is around... perhaps you should look harder.\""
 msgstr "«Ученик где-то рядом... Может, тебе стоит присмотреться получше»."
 
 #: 28605 62219
-#, fuzzy
 msgid ""
 "Grace places her hands together, thumbs and fingers touching, forming a "
 "rough circle. \"The Lady is said to have the power to take pieces of Sigil..."
@@ -2280,11 +2232,11 @@ msgid ""
 "itself from the hand and floats into the air, curling into a small circle. "
 "\"...And make a maze.\""
 msgstr ""
-"Грация соединяет пальцы так, чтобы ладони образовали неровный круг. "
-"«Говорят, Леди обладает способностью брать части Сигила...» Ты с удивлением "
-"наблюдаешь, как призрачный образ мизинца Грации отделяется от руки и сам по "
-"себе парит в воздухе, вращаясь вдоль небольшого круга. «...и делать из них "
-"лабиринт»."
+"Грация соединяет пальцы так, чтобы ладони образовали подобие круга. "
+"«Говорят, что Леди обладает способностью брать части Сигила...» Ты с "
+"удивлением видишь, как призрачный образ мизинца Грации отделяется от руки и "
+"сам по себе парит в воздухе, вращаясь вдоль небольшого круга. «...и делать "
+"из них лабиринт»."
 
 #: 28607 28613 28618 62221 62227 62232
 msgid ""
@@ -2304,7 +2256,6 @@ msgid "\"Never mind. Can I ask you some other questions?\""
 msgstr "«Неважно. Можно задать тебе другие вопросы?»"
 
 #: 28611 62225
-#, fuzzy
 msgid ""
 "The small ghostly circle floats in the air, then begins slowly rotating. "
 "\"The piece of Sigil she takes holds the prisoner; there is no escaping "
@@ -2336,7 +2287,6 @@ msgstr ""
 "них нуждается»."
 
 #: 30827
-#, fuzzy
 msgid ""
 "She smiles slightly. \"It is no matter, Able. I am certain only Tuerny would "
 "have been offended by the comment, and as you know, his subjects buried him "
@@ -2359,7 +2309,6 @@ msgid "\"Young Sarhava? Sarhava Vhjul, could it be you?\""
 msgstr "«Сархава? Сархава Вджул, это ты?»"
 
 #: 32698
-#, fuzzy
 msgid ""
 "Fall-from-Grace gives the barest of nods. \"Your words are most skillfully "
 "chosen, unlike those heard so recently.\""
@@ -2419,13 +2368,12 @@ msgid "\"What other sorts of forces serve in the Blood War?\""
 msgstr "«Какие еще рода войск участвуют в Кровавой войне?»"
 
 #: 34014
-#, fuzzy
 msgid ""
 "Fall-from-Grace looks up as you approach. \"Would you like me to travel with "
 "you again?\""
 msgstr ""
 "Когда ты подходишь, Падшая Грация поднимает взгляд. «Ты хочешь, чтобы я "
-"снова путешествовать с тобой?»"
+"снова путешествовала с тобой?»"
 
 #: 34015
 msgid "\"Yes. If you're up for it.\""
@@ -2506,7 +2454,6 @@ msgstr ""
 "сторону, - хотел бы с вами немного поговорить...»"
 
 #: 49782
-#, fuzzy
 msgid ""
 "Fall-from-Grace looks closely at the man. \"I believe I've heard of this "
 "sort of performance art. It's common on a number of Prime Worlds...\" She "
@@ -2630,7 +2577,6 @@ msgstr ""
 "стала знаменосцем батальона Стервятников. Как ты очутилась в Сигиле?»"
 
 #: 50687
-#, fuzzy
 msgid ""
 "Fall-from-Grace speaks with a coldness you have never heard before. The air "
 "almost becomes ice as she dissects Vrischika with her gaze. \"That is enough."
@@ -2659,7 +2605,6 @@ msgstr ""
 "было непросто...»"
 
 #: 50690
-#, fuzzy
 msgid ""
 "Fall-from-Grace maintains her flawless composure and simply nods... though "
 "when you catch her eye, she gives you a slightly exasperated look, then "
@@ -2704,7 +2649,6 @@ msgid ""
 msgstr "«Равель... - тихо и осторожно отвечает Грация. - Я смирилась с м...»"
 
 #: 52555
-#, fuzzy
 msgid ""
 "\"Because love would not allow it - and it can bend even the strongest to "
 "its will.\" Fall-from-Grace's voice is soft, questioning. \"Does it not, "
@@ -2746,7 +2690,6 @@ msgstr ""
 "ожидала."
 
 #: 52971
-#, fuzzy
 msgid ""
 "And suddenly, Fall-from-Grace is there, and her touch is gentle like silk, "
 "and she brushes the tears from your eyes, even as you feel the screams "
@@ -2759,7 +2702,6 @@ msgstr ""
 "к своей груди."
 
 #: 52972
-#, fuzzy
 msgid ""
 "\"I... I... can't... bear it... I... couldn't STOP her, I WANTED to, but I "
 "couldn't do *anything*...!\""
@@ -2768,7 +2710,6 @@ msgstr ""
 "не смог сделать *ничего*!..»"
 
 #: 52973
-#, fuzzy
 msgid ""
 "Fall-from-Grace looks into your eyes, and she nods sadly, in understanding. "
 "\"And that is the nature of *longing.* The desire for that which you cannot "
@@ -2785,7 +2726,6 @@ msgid "\"Yes... yes... I just need a moment...\""
 msgstr "«Да... Да... Мне нужно немного времени...»"
 
 #: 52976
-#, fuzzy
 msgid ""
 "\"Very well...\" Fall-from-Grace steps back. \"We will continue when you are "
 "ready.\""
@@ -2859,7 +2799,6 @@ msgstr ""
 "вопросы»."
 
 #: 54069
-#, fuzzy
 msgid ""
 "Fall-from-Grace seems unmoved by your statement, merely looking from the "
 "pillar to you. \"I would never willingly allow the Pillar of Skulls to have "
@@ -2905,7 +2844,6 @@ msgid "\"No, I wouldn't. Let's go.\""
 msgstr "«Нет. Пошли»."
 
 #: 54082
-#, fuzzy
 msgid ""
 "Fall-from-Grace's eyes become hard and cold as ice, though her face and form "
 "remain perfectly composed. \"Then I must bid you farewell, Nameless One. "
@@ -2965,7 +2903,6 @@ msgstr ""
 "свои секреты?»"
 
 #: 54771
-#, fuzzy
 msgid ""
 "\"Do you think that you can end the Blood War by taking it to the gates of "
 "Paradise? The evil in the Lower Planes is nigh-infinite. The legions of the "
@@ -3051,7 +2988,6 @@ msgid "\"That's all I wanted to know. Let's move on.\""
 msgstr "«Это все, что я хотел знать. Пошли»."
 
 #: 55722
-#, fuzzy
 msgid ""
 "Fall-from-Grace nods. \"Morte is correct - modrons share a common 'energy.' "
 "In some ways, this energy links all of them. When one of them dies, the "
@@ -3066,7 +3002,6 @@ msgstr ""
 "он обрывает связь со своим народом и забирает с собой частицу этой энергии»."
 
 #: 55723
-#, fuzzy
 msgid ""
 "Fall-from-Grace nods slightly. \"My apologies, Morte. I did not mean to "
 "offend.\""
@@ -3075,7 +3010,6 @@ msgstr ""
 "обидеть»."
 
 #: 55725
-#, fuzzy
 msgid ""
 "\"Morte, I need all the information I can get, so don't get territorial on "
 "me. If Fall-from-Grace has something to add, then I want to *hear* it, all "
@@ -3110,7 +3044,6 @@ msgid "\"So... in turning rogue, he's become... mortal?\""
 msgstr "«Значит... став бродягой, он превратился... в смертного?»"
 
 #: 55739
-#, fuzzy
 msgid ""
 "Fall-from-Grace nods. \"The raw energy cannot be destroyed - as far as I "
 "understand it - but Nordom as an individual, as 'Nordom,' would cease to "
@@ -3121,7 +3054,6 @@ msgstr ""
 "прекращению существования»."
 
 #: 55745
-#, fuzzy
 msgid ""
 "\"Morte...\" Fall-from-Grace breaks in gently. \"I must confess, without "
 "your original foundation of information, I would have been hard-pressed to "
@@ -3177,7 +3109,6 @@ msgstr ""
 "страстное?»"
 
 #: 56683
-#, fuzzy
 msgid ""
 "\"I know of justice, Vhailor. I temper it with experience and wisdom, and "
 "when justice is tempered with those two truths, it becomes *stronger.* I "
@@ -3186,7 +3117,7 @@ msgid ""
 msgstr ""
 "«Мне известно о справедливости, Вейлор. Я смягчаю ее опытом и мудростью, а "
 "если смягчить справедливость этими двумя истинами, она становится *сильнее*. "
-"Также мне ведомо милосердие и прощение. Без них Планы были бы куда более "
+"Также мне ведомо милосердие и прощение. Без них планы были бы куда более "
 "жестоким местом»."
 
 #: 56688
@@ -3200,7 +3131,6 @@ msgstr ""
 "*мультивселенную*. В этом вся суть идеала, о котором ты говоришь»."
 
 #: 56689
-#, fuzzy
 msgid ""
 "Fall-from-Grace draws herself up at this. \"*Am* I, Vhailor? Then *judge* me "
 "with your sight, see if you find me wanting. See if you can find the "
@@ -3216,7 +3146,7 @@ msgstr "«С этого мига наши пути разошлись, Вейл�
 
 #: 56691
 msgid "\"Vhailor, Let me ask you about someone else.\""
-msgstr "«Вейлор, позволь мне спросит о ком-то другом»."
+msgstr "«Вейлор, позволь мне спросить о ком-то другом»."
 
 #: 56692
 msgid "\"Enough of this - Vhailor. I had other questions for you...\""
@@ -3231,7 +3161,6 @@ msgid "\"Never mind, Vhailor. Let's continue on.\""
 msgstr "«Неважно, Вейлор. Давай продолжим»."
 
 #: 56695
-#, fuzzy
 msgid ""
 "\"Stop your questioning, Vhailor.\" Fall-from-Grace's words are spoken "
 "without the slightest hint of a threat, but somehow, they feel dangerous. "
@@ -3263,7 +3192,6 @@ msgid "Follow the prostitute..."
 msgstr "Пойти за проституткой..."
 
 #: 61615
-#, fuzzy
 msgid ""
 "Fall-from-Grace said that the war of fiends that Ravel was referring to "
 "probably meant the Blood War, a conflict between the baatezu and tanar'ri "
@@ -3276,7 +3204,6 @@ msgstr ""
 "войной."
 
 #: 61616
-#, fuzzy
 msgid ""
 "Fall-from-Grace told me her kiss can drain the life from a victim... for "
 "some reason, that arouses me. I mean, I can't die, right? Hmmmm. I'll have "
@@ -3287,7 +3214,6 @@ msgstr ""
 "м. Надо бы это запомнить."
 
 #: 61635
-#, fuzzy
 msgid ""
 "Fall-from-Grace nods. \"Very well. I will travel with you, if you still "
 "desire my company.\""
@@ -3316,16 +3242,14 @@ msgstr ""
 "камина»."
 
 #: 61640
-#, fuzzy
 msgid ""
 "\"Teaching within a sheltered environment such as this only harms the "
 "student, and the planes themselves are often the best teacher.\""
 msgstr ""
-"«Обучение в защищенной среде вроде этой только вредит ученикам, и Планы "
+"«Обучение в защищенной среде вроде этой только вредит ученикам, и планы "
 "нередко сами по себе являются лучшими учителями»."
 
 #: 61641
-#, fuzzy
 msgid ""
 "\"Ah!\" Fall-from-Grace laughs softly, and her eyes sparkle. \"A practical "
 "thought indeed. Very well... I will travel with you, if you still desire my "
@@ -3364,12 +3288,10 @@ msgstr ""
 "удовольствия, общаясь или соревнуясь с другими в искусстве говорить»."
 
 #: 61953 61957
-#, fuzzy
 msgid "\"How did you come by the name 'Fall-from-Grace'?\""
 msgstr "«Как ты получила имя 'Падшая Грация'?»"
 
 #: 61954 61955 61956
-#, fuzzy
 msgid "\"Why are you called 'Fall-from-Grace'?\""
 msgstr "«Почему тебя зовут Падшей Грацией?»"
 
@@ -3643,7 +3565,6 @@ msgid "She looks at you curiously. \"Truly?\""
 msgstr "Он с любопытством глядит на тебя: «Правда?»"
 
 #: 62189
-#, fuzzy
 msgid ""
 "\"A name is a cloak of letters thrown across a person, nothing more. A name "
 "can sometimes tell you something about a fraction of the person, maybe even "
@@ -3658,7 +3579,6 @@ msgid "Grace nods. \"Your point is well-taken.\""
 msgstr "Грация кивает. «Верно подмечено»."
 
 #: 62191 62192 62193
-#, fuzzy
 msgid "\"So why are you called Fall-from-Grace?\""
 msgstr "«Так почему же тебя зовут Падшей Грацией?»"
 
@@ -3704,7 +3624,6 @@ msgid "\"Yes... I think I understand. Let's move on.\""
 msgstr "«Да... Кажется, я понимаю. Пойдем»."
 
 #: 62204
-#, fuzzy
 msgid ""
 "Fall-from-Grace is silent for a moment, then nods thoughtfully. \"Yes... "
 "perhaps that is why it felt as it did. I... came to terms with the loss long "
@@ -3725,7 +3644,6 @@ msgid ""
 msgstr "«Ты уверена, что смирилась с этим? Похоже, Равель другого мнения»."
 
 #: 62211
-#, fuzzy
 msgid ""
 "Fall-from-Grace meets your gaze, and you are once again struck by the "
 "brilliant shade of blue of her eyes... it is turbulent, like the ocean "
@@ -3815,7 +3733,6 @@ msgid "\"Surely you remember what I told you about my past?\""
 msgstr "«Ты ведь помнишь, что я рассказывала тебе о моем прошлом?»"
 
 #: 62258
-#, fuzzy
 msgid ""
 "Fall-from-Grace takes on a curious expression... she seems to be studying "
 "you for a moment, trying to read your features. After a moment, she speaks, "
@@ -3888,7 +3805,6 @@ msgstr ""
 "Бесполезное. Во многих смыслах это даже хуже, чем смертный приговор»."
 
 #: 62278
-#, fuzzy
 msgid ""
 "Fall-from-Grace is silent for a moment, her gaze becoming distant. When she "
 "turns back to you, her eyes are a strange shade of azure, a shade that "
@@ -3951,7 +3867,6 @@ msgid "\"Sure. I was just checking on you. Let's move on.\""
 msgstr "«Конечно. Просто проверял, все ли с тобой хорошо. Идем»."
 
 #: 62289
-#, fuzzy
 msgid ""
 "Fall-from-Grace shakes her head slightly. \"No, I do not believe so. The "
 "Art... and the disciplines I practice are different.\""
@@ -4063,7 +3978,6 @@ msgstr ""
 "воплощать эти изменения»."
 
 #: 62440
-#, fuzzy
 msgid ""
 "Fall-from-Grace nods. \"I have thought long upon that, and I believe so, yes."
 "\" She looks at you questioningly. \"I think it is because I am content with "
@@ -4096,7 +4010,6 @@ msgstr ""
 "Тебя изменила сила твоего характера»."
 
 #: 62447
-#, fuzzy
 msgid ""
 "Fall-from-Grace nods slowly; she seems thoughtful. \"There is truth in what "
 "you say.\""
@@ -4130,7 +4043,6 @@ msgid "\"That is all I wished to say. Let's move on.\""
 msgstr "«Это все, что я хотел сказать. Идем»."
 
 #: 62452
-#, fuzzy
 msgid "Fall-from-Grace is looking at you silently. "
 msgstr "Падшая Грация молча смотрит на тебя."
 
@@ -4159,7 +4071,6 @@ msgid "\"And that is all.\" "
 msgstr "«И это все». "
 
 #: 62456
-#, fuzzy
 msgid ""
 "Fall-from-Grace smiles, then nods. \"I thank you. Your words are insightful "
 "and kind. But I fear that my strength of character is not as strong as it "
@@ -4628,12 +4539,10 @@ msgstr ""
 "к черепу с осторожностью»."
 
 #: 62572
-#, fuzzy
 msgid "\"What do you mean when you say 'baatezu' and 'Baatorian'?\""
 msgstr "«Что ты имела в виду, говоря 'баатезу' и 'Баатор'?»"
 
 #: 62573 62574 62580 62581
-#, fuzzy
 msgid "\"What were you saying about a 'mimir' before?\""
 msgstr "«Что ты там говорила о мимирах?»"
 
@@ -4743,7 +4652,6 @@ msgid "\"All right. That's all I wished to discuss.\""
 msgstr "«Хорошо. Это все, что я хотел обсудить»."
 
 #: 62612
-#, fuzzy
 msgid ""
 "\"That would explain his reservoir of knowledge. However -\" Fall-from-Grace "
 "pauses. \"One can only end up on the Pillar under certain circumstances.\""
@@ -4849,7 +4757,6 @@ msgstr ""
 "жизнь?»"
 
 #: 62640
-#, fuzzy
 msgid ""
 "\"After he fell from Shra'kt'lor, one of my previous incarnations came to "
 "him as he lay dying in Limbo and gave him the Unbroken Circle of Zerthimon, "
@@ -4895,14 +4802,14 @@ msgstr ""
 "еще о Дакконе?»"
 
 #: 62651
-#, fuzzy
 msgid ""
 "\"Curious.\" Fall-from-Grace is silent for a moment. \"You know, a blade "
 "that reflects the will of the wielder is a potent weapon if the wielder "
 "knows himself.\""
 msgstr ""
-"«Любопытно. А знаешь, клинок, который отражает волю хозяина, становится "
-"могущественным оружием, если хозяин понимает себя»."
+"«Любопытно, - Падшая Грация на мгновение умолкает. - А знаешь, клинок,"
+" который отражает волю хозяина, становится могущественным оружием, если"
+" хозяин понимает себя»."
 
 #: 62652
 msgid ""
@@ -4987,7 +4894,6 @@ msgid "\"Not now - let's move out.\""
 msgstr "«Не сейчас. Пойдем»."
 
 #: 62671
-#, fuzzy
 msgid ""
 "\"Nordom's existence has been shaken - the more you help him make sense of "
 "his situation, his place in this party's hierarchy, and what led him to the "
@@ -5013,7 +4919,6 @@ msgid "\"Hmmm. I may see what I can do, then. Thanks. Let's move on.\""
 msgstr "«Хм-м-м. Я подумаю, что можно будет сделать. Спасибо за совет. Идем»."
 
 #: 62675
-#, fuzzy
 msgid ""
 "\"You would be wise to travel with him no longer. He is insane, and he has "
 "proven capable of great acts of destruction. As I understand it, he was "
@@ -5022,7 +4927,7 @@ msgid ""
 msgstr ""
 "«Было бы разумно больше не путешествовать с ним. Он безумен и способен "
 "совершать огромные разрушения. Насколько я понимаю, он трансформировался в "
-"проводник стихийного плана огня... Подобное превращение убило бы многих "
+"проводник Стихийного плана Огня... Подобное превращение убило бы многих "
 "смертных»."
 
 #: 62676
@@ -5107,7 +5012,6 @@ msgid "\"We'll continue this some other time. For now, let's move on.\""
 msgstr "«Мы поговорим об этом как-нибудь в другой раз. А теперь идем»."
 
 #: 62697
-#, fuzzy
 msgid ""
 "Fall-from-Grace nods thoughtfully. \"That would explain a great deal.\" She "
 "studies your features for a moment. \"Did the realization trouble you?\""
@@ -5132,7 +5036,6 @@ msgstr ""
 "могло привести к его сумасшествию, но точно я не знаю»."
 
 #: 62700
-#, fuzzy
 msgid ""
 "\"Yes, it did. I regret that my past lives touched Ignus and burned him so.\""
 msgstr "«Да. Я сожалею, что мои прошлые жизни коснулись Игнуса и опалили его»."
@@ -5231,7 +5134,6 @@ msgid "\"It is. Look, I wanted to talk about someone else...\""
 msgstr "«Это так. Я хотел бы поговорить о кое-ком еще...»"
 
 #: 62729
-#, fuzzy
 msgid ""
 "Fall-from-Grace nods. \"Even an immortal may want to leave an opening for "
 "mortality to creep in. There are many for whom immortality is *not* a "
@@ -5251,7 +5153,6 @@ msgid "\"Do you know anything else that might prove helpful?\""
 msgstr "«Ты знаешь что-нибудь еще, что может быть полезным?»"
 
 #: 62734
-#, fuzzy
 msgid ""
 "\"Well, shadows keep coming to kill me - I have a feeling they're following "
 "me, but I don't know why.\""
@@ -5310,7 +5211,6 @@ msgid "\"Never mind. Perhaps another time.\""
 msgstr "«Неважно. Может, в другой раз»."
 
 #: 62742
-#, fuzzy
 msgid ""
 "\"Shadows?\" Fall-from-Grace is silent for a moment. \"Shadows are shades of "
 "the dead. They do not tend to hunt, they tend to lie in wait for victims. "
@@ -5328,7 +5228,6 @@ msgid "\"Let's discuss this another time. For now, let's move on.\""
 msgstr "«Давай поговорим об этом в другой раз. Идем»."
 
 #: 62746
-#, fuzzy
 msgid ""
 "\"And Ravel did say that you were the caster of shadows - perhaps these "
 "shades are drawn to you in some way?\" Fall-from-Grace taps her chin for a "
@@ -5339,7 +5238,6 @@ msgstr ""
 "- Трудно сказать наверняка»."
 
 #: 62750
-#, fuzzy
 msgid ""
 "\"Anything touched by Ravel's magicks are seldom of benefit to anyone, it "
 "seems.\" Fall-from-Grace's voice drops. \"It makes one wonder how many times "
@@ -5443,7 +5341,6 @@ msgid "\"I don't know. Let's move on.\""
 msgstr "«Я не знаю. Идем»."
 
 #: 62776
-#, fuzzy
 msgid ""
 "\"Hmmmm. A 'war of fiends' undoubtedly means the Blood War.\" Fall-from-"
 "Grace nods. \"You know, the Gray Waste, the plane where Ravel made her home "
@@ -5609,7 +5506,6 @@ msgid "\"Why don't you trust her?\""
 msgstr "«Почему ты не доверяешь ей?»"
 
 #: 62825
-#, fuzzy
 msgid ""
 "\"She conveniently found me in the Alley of Lingering Sighs when I died, "
 "despite the fact that every other Collector is frightened to go in there, "
@@ -5676,7 +5572,6 @@ msgid "\"I... see. Let's move on.\""
 msgstr "«Понятно... Идем»."
 
 #: 62841
-#, fuzzy
 msgid ""
 "\"The kiss of a succubus is lethal to mortals - though they rarely realize "
 "the danger until their death is almost upon them.\" Fall-from-Grace sighs. "
@@ -5722,7 +5617,6 @@ msgid "\"Let's just move on, then.\""
 msgstr "«Тогда идем дальше»."
 
 #: 62852
-#, fuzzy
 msgid ""
 "\"Very well... know my past is not a long one, at least by tanar'ri "
 "standards. I do not know if you are familiar with the tanar'ri, but we are a "
@@ -5752,7 +5646,6 @@ msgid "\"Your mother sold you into slavery?\""
 msgstr "«Твоя мать продала тебя в рабство?»"
 
 #: 62860
-#, fuzzy
 msgid ""
 "\"Yes, she sold me to the baatezu, the blood enemies of the tanar'ri. I "
 "think she rather expected that they would kill me - despite her knowledge of "
@@ -5768,7 +5661,6 @@ msgid "\"How did you escape?\""
 msgstr "«Как тебе удалось сбежать?»"
 
 #: 62864
-#, fuzzy
 msgid ""
 "\"The baatezu are a proud species. The thought a tanar'ri could best them at "
 "anything was intolerable to them. So I challenged one of the proudest of the "
@@ -5778,13 +5670,13 @@ msgid ""
 "understand improvisation, but they are not its best practitioners. And thus, "
 "I won my freedom - and my path brought me to Sigil.\""
 msgstr ""
-"«Баатезу - гордые создания. Сама мысль о том, что танарри могут в чем-то их "
-"превзойти, для них невыносима. Поэтому я вызвала одного из самых горделивых "
-"балоров на поединок импровизаций, и тут моя сущность танарри позволило мне "
-"выиграть. Танарри - существа хаотичные, дикие и непредсказуемые. Баатезу же "
-"более коварны и дисциплинированы. Они понимают импровизацию, но в ней они не "
-"из числа лучших. Так что я выиграла свою свободу, и мои странствия привели "
-"меня в Сигил»."
+"«Баатезу - гордые создания. Сама мысль о том, что танарри могут в чем-то их"
+" превзойти, для них невыносима. Поэтому я вызвала одного из самых горделивых"
+" пещерных демонов на поединок импровизаций, и тут моя сущность танарри"
+" позволило мне выиграть. Танарри - существа хаотичные, дикие и"
+" непредсказуемые. Баатезу же более коварны и дисциплинированы. Они понимают"
+" импровизацию, но в ней они не из числа лучших. Так что я выиграла свою"
+" свободу, и мои странствия привели меня в Сигил»."
 
 #: 62865
 msgid "\"I see. I had some other questions...\""
@@ -5815,13 +5707,12 @@ msgid "\"Yes, she was. I did something terrible to her, but I know not what.\""
 msgstr "«Да. Я сделал с ней нечто ужасное, но не знаю, что именно»."
 
 #: 62877
-#, fuzzy
 msgid ""
 "\"To that, I would say this - love may move the planes themselves when it is "
 "strong and true, and there is nothing truer in all of my experiences than "
 "the truth about how one *feels* about another.\""
 msgstr ""
-"«На это я скажу вот что: истинно сильная любовь может смещать даже Планы, и "
+"«На это я скажу вот что: истинно сильная любовь может смещать даже планы, и "
 "из всего пережитого мной нет ничего истиннее *чувств* одного человека к "
 "другому»."
 
@@ -5854,14 +5745,13 @@ msgstr ""
 "она может принести»."
 
 #: 62886
-#, fuzzy
 msgid ""
 "\"Ah - I deserved that.\" Fall-from-Grace smiles. \"To that, I would say "
 "this - one's feelings for another may move the planes themselves, and there "
 "is no greater truth than what one *feels* about another.\""
 msgstr ""
 "«Ах, так мне и надо, - Падшая Грация улыбается. - Скажу лишь одно: чувства "
-"могут смещать даже Планы, и нет ничего истиннее, чем *чувства* одного "
+"могут смещать даже планы, и нет ничего истиннее, чем *чувства* одного "
 "человека к другому»."
 
 #: 63241
@@ -5869,7 +5759,6 @@ msgid "\"Thousands.\""
 msgstr "«Тысячи»."
 
 #: 63245
-#, fuzzy
 msgid "\"You know, Morte, on some planes they burn jesters for firewood.\""
 msgstr "«Знаешь, Морт, на некоторых планах шутников жгут вместо дров»."
 
@@ -5902,7 +5791,6 @@ msgstr ""
 "тем не менее, в тебе много хороших качеств»."
 
 #: 63473
-#, fuzzy
 msgid "\"Annah, jealousy is a two-edged blade. If you keep-\""
 msgstr "«Анна, ревность - обоюдоострое оружие. Если ты будешь продолжать...»"
 
@@ -5911,7 +5799,6 @@ msgid "\"Very well, then.\""
 msgstr "«Ну и хорошо»."
 
 #: 63475
-#, fuzzy
 msgid "\"Annah, look, we should-\""
 msgstr "«Анна, послушай, нам надо...»"
 
@@ -5920,7 +5807,6 @@ msgid "\"Morte, come on.\""
 msgstr "«Морт, хватит»."
 
 #: 63698
-#, fuzzy
 msgid "\"Oh? Does that include modrons?\""
 msgstr "«О? А сюда входят модроны?»"
 
@@ -5942,7 +5828,6 @@ msgid "\"Why, Nordom, are you trying to court me?\""
 msgstr "«Нордом, ты пытаешься ухаживать за мной?»"
 
 #: 63860
-#, fuzzy
 msgid ""
 "\"Such 'sins' break no tanar'ri law, Vhailor. My path is my own and one of "
 "free choice, not punishment.\""
@@ -5973,17 +5858,15 @@ msgid "\"I understand.\""
 msgstr "«Я понимаю»."
 
 #: 68209
-#, fuzzy
 msgid ""
 "As your power touches Fall-from-Grace, she rises dizzily to her feet - even "
 "disoriented, she somehow manages to maintain her composure."
 msgstr ""
 "Когда твоя сила касается Падшей Грации, она неуверенно встает на ноги. Даже "
-"будучи дезориентированное, ей каким-то образом удается сохранять "
+"будучи дезориентированной, ей каким-то образом удается сохранять "
 "хладнокровие."
 
 #: 68210
-#, fuzzy
 msgid ""
 "\"Fall-from-Grace - we're at the Fortress of Regrets, and I found my killer; "
 "it's my own mortality - it's taken on a life of its own. I really need your "
@@ -5994,7 +5877,6 @@ msgstr ""
 "нужна твоя помощь, прямо сейчас»."
 
 #: 68211
-#, fuzzy
 msgid ""
 "She nods, slowly; her strength seems to return as she hears your words. \"I "
 "fear that now we have entered, this place will not easily let us go.\""
@@ -6012,7 +5894,6 @@ msgid "FALL-FROM-GRACE."
 msgstr "ПАДШАЯ ГРАЦИЯ."
 
 #: 68355
-#, fuzzy
 msgid ""
 "Fall-from-Grace looks up, and she holds your eyes for a moment, then she "
 "smiles - but it is a slight smile, that carries more sadness than anything "
@@ -6028,7 +5909,6 @@ msgid ""
 msgstr "ДА. ЦЕНА БЫЛА... ВЫСОКА. МНОЖЕСТВО ЖИЗНЕЙ, ВКЛЮЧАЯ МОЮ И ЖИЗНИ ДРУГИХ."
 
 #: 68357
-#, fuzzy
 msgid ""
 "\"The price of such a thing is seldom measured in copper.\" Fall-from-Grace "
 "studies your features. \"Are you still -\""
@@ -6045,7 +5925,6 @@ msgstr ""
 "ТЕБЯ, ЕСЛИ ТЫ ЭТОГО БОИШЬСЯ."
 
 #: 68359
-#, fuzzy
 msgid ""
 "Fall-from-Grace smiles again, the same sad smile as before. \"No, that was "
 "not my fear.\""
@@ -6062,7 +5941,6 @@ msgstr ""
 "ВРЕМЯ И СУДЬБА. Я ВЕРНУ ТЕБЯ В СИГИЛ, ЕСЛИ ХОЧЕШЬ."
 
 #: 68361
-#, fuzzy
 msgid ""
 "\"That is not my wish.\" Fall-from-Grace reaches forward, and her hand "
 "lightly touches your arm. There is a slight tingling sensation, barely felt, "
@@ -6083,14 +5961,13 @@ msgstr ""
 "ГОДАМИ. А ПРЕСТУПЛЕНИЕ, КОТОРЫЕ Я СОВЕРШИЛ, СИЛЬНЕЕ ЛЮБОЙ КЛЕТКИ."
 
 #: 68363
-#, fuzzy
 msgid ""
 "\"No cage shall separate us, and no Plane shall divide us.\" Fall-from-"
 "Grace's face becomes like stone. \"Keep thinking of me, and we shall meet "
 "again.\""
 msgstr ""
 "«Никакая клетка не разделит нас, никакой план не станет нам преградой, - "
-"лицо Падшей Грации каменеет. - Продолжай обо мне вспоминать, и мы еще "
+"лицо Падшей Грации каменеет. - Помни меня, и мы еще "
 "увидимся»."
 
 #: 68364
@@ -6114,7 +5991,6 @@ msgid "PERHAPS SO. FAREWELL, GRACE."
 msgstr "НАВЕРНО, ТАК И ЕСТЬ. ПРОЩАЙ, ГРАЦИЯ."
 
 #: 68416
-#, fuzzy
 msgid ""
 "Grace nods as you speak to her. \"I fear that now we have entered, this "
 "place will not easily let us go.\""
@@ -6141,3 +6017,4 @@ msgid ""
 "some more questions for me.\""
 msgstr ""
 "«Очень интересно. Я запомню это. А пока, Келлера, ответь на другие вопросы»."
+

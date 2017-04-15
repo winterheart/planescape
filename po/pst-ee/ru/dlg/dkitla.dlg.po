@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2013, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2013, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dkitla.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 02:27+0600\n"
+"PO-Revision-Date: 2017-04-15 17:59+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 3787
 msgid "\"I won't do it.\""
@@ -490,7 +490,6 @@ msgstr ""
 "необходимые для завершения заклинания."
 
 #: 67746
-#, fuzzy
 msgid ""
 "Try as you might, you can't get the letters on the scroll to make sense to "
 "you. Every time you think you've fixed the symbols in your mind, they swim "
@@ -500,12 +499,12 @@ msgid ""
 "arcane syllables, spell components, gestures, and rituals necessary for the "
 "completion of a spell."
 msgstr ""
-"Как бы ты ни старался, ты не улавливаешь смысла из символов на свитке. Не "
-"успеваешь ты запомнить символы в голове, как они расплываются, оставляя тебя "
-"только с головной болью. Наконец, после долгих минут внимательного изучения, "
-"ты откладываешь пергамент и расслабляешь глаза... и вдруг содержимое свитка "
-"становится ясным. В свитке указаны тайные слова, компоненты заклинания, "
-"жесты и ритуалы, необходимые для завершения заклинания."
+"Как бы ты ни старался, ты не улавливаешь смысла из символов на свитке. Едва"
+" ты успеваешь запомнить символы в голове, как они расплываются, оставляя тебя"
+" только с головной болью. Наконец, после долгих минут внимательного изучения,"
+" ты откладываешь пергамент и расслабляешь глаза... и вдруг содержимое свитка"
+" становится ясным. В свитке указаны тайные слова, компоненты заклинания,"
+" жесты и ритуалы, необходимые для завершения заклинания."
 
 #: 67747
 msgid ""
@@ -551,7 +550,6 @@ msgstr ""
 "вмещать все больше и больше»."
 
 #: 67750
-#, fuzzy
 msgid ""
 "\"Once you cast a spell, it's erased from your memory. If you need to cast "
 "the same spell twice, you'll need to memorize it twice.\" She pauses, "
@@ -568,7 +566,6 @@ msgstr ""
 "внимательно изучи и перепиши»."
 
 #: 67751
-#, fuzzy
 msgid ""
 "\"You've got it. Good. Here. Take these scrolls, and put them in your spell "
 "book. Good luck.\""
@@ -668,7 +665,6 @@ msgid "\"All right. Is that all?\""
 msgstr "«Хорошо. Это все?»"
 
 #: 67781
-#, fuzzy
 msgid ""
 "Kitla taught me the fundamentals of magic. Before I rest, I'll need to pick "
 "the spells I want to memorize by going to my spell book and choosing them. "
@@ -683,3 +679,4 @@ msgstr ""
 "после отдыха я просыпаюсь на утро с готовыми к применению заклинаниями в "
 "памяти. В день я могу создавать небольшое количество заклинаний, однако с "
 "опытом оно будет расти."
+

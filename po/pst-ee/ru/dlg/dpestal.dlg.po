@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dpestal.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-08 23:53+0600\n"
+"PO-Revision-Date: 2017-04-15 14:00+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 26924
 msgid ""
@@ -124,7 +124,6 @@ msgid "\"True. Farewell.\""
 msgstr "«И то правда. Прощай»."
 
 #: 26980
-#, fuzzy
 msgid ""
 "\"The question you ask is not a simple one, my master, but your servant "
 "shall seek to answer it as best it can. I am a codex of moments-now-"
@@ -146,9 +145,8 @@ msgid ""
 msgstr "«Сейчас меня это не интересует. Лучше ответь на пару вопросов»."
 
 #: 26983 27212
-#, fuzzy
 msgid "\"Not interested. Farewell, book.\""
-msgstr "«Неинтересно. Пока, книга»."
+msgstr "«Неинтересно. Прощай, книга»."
 
 #: 26984
 msgid ""
@@ -389,7 +387,6 @@ msgstr ""
 "естественное состояние человека, и ему следует отдаться сполна»."
 
 #: 27039
-#, fuzzy
 msgid ""
 "\"Then I bestow this advice, my master. Know the meaning of mercy, use it to "
 "your advantage... but do not practice it.\""
@@ -398,7 +395,6 @@ msgstr ""
 "пользуйся им в своих целях... но никогда его не практикуй»."
 
 #: 27043
-#, fuzzy
 msgid ""
 "The book advised me: 'Know the meaning of mercy, use it to your advantage... "
 "but do not practice it.'"
@@ -473,7 +469,6 @@ msgstr ""
 "многому обучился, слушая мои советы; поразмышляй над ними»."
 
 #: 27062
-#, fuzzy
 msgid ""
 "\"These are powers, my master, that can improve your life immeasurably. "
 "Unfortunately, the laws that bind me... they demand a small service in "
@@ -492,7 +487,6 @@ msgid "\"Then I wish nothing.\""
 msgstr "«Тогда я ничего не хочу»."
 
 #: 27065
-#, fuzzy
 msgid ""
 "\"The service required is a trifling one, my master. I would barely mention "
 "it if it were not for the sake of the laws that bind me to these pages...\" "
@@ -529,7 +523,6 @@ msgstr ""
 "она пообещала мне больше силы."
 
 #: 27069
-#, fuzzy
 msgid ""
 "You cut yourself and allow a few drops of blood to drip upon the page. A "
 "strange chill settles in your bones, and you feel empty and hurt. At the "
@@ -625,7 +618,6 @@ msgid "\"Forget it, then.\""
 msgstr "«Тогда забудь об этом»."
 
 #: 27086
-#, fuzzy
 msgid ""
 "\"The second sacrifice is that you sell one of your companions into durance, "
 "bondage, slavery. This will signify the binding between you and the power - "
@@ -660,7 +652,6 @@ msgid "\"I'll think about it. Farewell.\""
 msgstr "«Я подумаю над этим. Прощай»."
 
 #: 27092
-#, fuzzy
 msgid ""
 "The book has offered me another spell in exchange for selling one of my "
 "companions into slavery. I am to seek out *Vrischika the Importer,* in the "
@@ -671,7 +662,6 @@ msgstr ""
 "поставщицу Вришику."
 
 #: 27093
-#, fuzzy
 msgid ""
 "The book has offered me another spell in exchange for selling one of my "
 "companions into slavery. I am to seek out Vrischika the Importer, if I wish "
@@ -682,7 +672,6 @@ msgstr ""
 "поставщицу Вришику. Я согласился сделать это."
 
 #: 27094
-#, fuzzy
 msgid ""
 "\"I am saddened that you do not think my powers worth such a small price. Do "
 "not let doubt and confusion shackle you, master... but I speak out of turn. "
@@ -1281,3 +1270,4 @@ msgstr "Книга молчит и не отвечает. Кажется, у н�
 #: 27284
 msgid "The book speaks to me no longer."
 msgstr "Книга больше не разговаривает со мной."
+

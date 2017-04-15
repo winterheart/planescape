@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dpregal.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2011-12-26 09:45+0600\n"
+"PO-Revision-Date: 2017-04-15 14:25+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 52613
 msgid ""
@@ -211,7 +211,6 @@ msgstr ""
 "«ДВА МЕСТА НА МНЕ. ОДНО К ЗАПАДУ ОТ ДРУГОГО. ОДНО К ВОСТОКУ ОТ ДРУГОГО»."
 
 #: 52637
-#, fuzzy
 msgid ""
 "\"YES. ALL IS IN ORDER. I AM GRATEFUL.\" Again the wind begins to blow "
 "around you, this time with fierce intensity. The omnipresent sounds of the "
@@ -225,7 +224,6 @@ msgstr ""
 "ДОЛЖЕН УЙТИ. НАЧИНАЕТСЯ РАЗДЕЛЕНИЕ. ПУТЬ ДЛЯ ТЕБЯ ОТКРЫТ»."
 
 #: 52638
-#, fuzzy
 msgid ""
 "The stone face before you begins to transform once again, its mass shifting "
 "and roiling as you look on. The entire wall seems to melt before your eyes, "
@@ -331,7 +329,6 @@ msgstr ""
 "в Нижний район."
 
 #: 52679
-#, fuzzy
 msgid ""
 "Although I managed to get rid of the dabus, the repairs it made are still "
 "preventing the Alley from dividing. I've agreed to find and somehow reverse "
@@ -420,7 +417,6 @@ msgid "\"I've killed the dabus. He won't be interfering any longer.\""
 msgstr "«Я убил дабуса. Он больше не помешает»."
 
 #: 52695
-#, fuzzy
 msgid ""
 "\"I spoke with the dabus. I told him about his dead brethren and he left to "
 "investigate.\""
@@ -508,7 +504,6 @@ msgid "\"Very well. I'll go find and reverse the repairs for you.\""
 msgstr "«Хорошо. Пойду, поищу изменения и устраню их»."
 
 #: 52711
-#, fuzzy
 msgid "\"Very descriptive. Thanks for your help.\""
 msgstr "«Понятнее некуда. Спасибо, что помогла»."
 
@@ -523,3 +518,4 @@ msgstr "Закрыть глаза и попытаться вспомнить."
 #: 52723
 msgid "Leave."
 msgstr "Уйти."
+

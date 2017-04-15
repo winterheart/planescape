@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dkorur.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-08 23:14+0600\n"
+"PO-Revision-Date: 2017-04-15 18:02+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 36238
 msgid ""
@@ -73,7 +73,6 @@ msgstr ""
 "потом вновь сосредотачивает свое внимание на тебе."
 
 #: 36245
-#, fuzzy
 msgid ""
 "\"Lots of doors to the Lower Planes here let'n in bad air an' fumes an' such "
 "from who knows what layer of the Abyss. That's why this here's the *Lower* "
@@ -83,7 +82,7 @@ msgid ""
 "\"Pretty-pretty, hey?\""
 msgstr ""
 "«Тьма дверей в Нижние планы впускает сюда дурной воздух, испарения и тому "
-"подобное с черт-знает-какого уровня бездны. Потому-то это и *нижний* район, "
+"подобное с черт-знает-какого уровня Бездны. Потому-то это и *Нижний* район, "
 "- он смеется. - Гулять по этому месту - все равно что дышать мукой. Соль, "
 "копоть, дым... все эти желтые покрывала дыма и жгучего серного газа, которые "
 "выплевывает этот район, - он дарит тебе редкозубую улыбку. - Чудненько, а?»"
@@ -98,7 +97,6 @@ msgstr ""
 "железа; не черт-знает-что, но работает. Добавляет сюда дурной воздух»."
 
 #: 36247
-#, fuzzy
 msgid ""
 "\"The Believers. Have their kip in the Great Foundry, banging and singing "
 "and chantin' their barmy silliness on being powers in the next ten upon ten "
@@ -108,10 +106,10 @@ msgid ""
 "me, berk?\" He laughs hollowly."
 msgstr ""
 "«Верящие. Обосновались в Великой Литейной, грохочут, поют и болтают свои "
-"бредовые глупости о том, как стать Силой через десять по десять помногу раз "
+"бредовые глупости о том, как стать силой через десять по десять помногу раз "
 "десять жизней, - он закатывает глаза, потом сплевывает коричневую массу. - "
 "Они только и делают, что терпят и батрачат... я батрачу раза в два больше, и "
-"все равно черта-с-два стану какой-нибудь Силой, улавливаешь, пень?» Он глухо "
+"все равно черта-с-два стану какой-нибудь силой, улавливаешь, пень?» Он глухо "
 "смеется."
 
 #: 36248
@@ -185,7 +183,6 @@ msgstr ""
 "вспоминают»."
 
 #: 36256
-#, fuzzy
 msgid ""
 "\"Ha!\" He laughs, but it soon breaks into coughing. \"One of the more "
 "damnable mysteries of this Ward... hear tell it simply dumped itself in "
@@ -269,7 +266,6 @@ msgstr ""
 "прошли, но я до сих пор знаю пару трюков»."
 
 #: 36264
-#, fuzzy
 msgid "\"Well... why not. Ya sure ye want ta give up ye current profession?\""
 msgstr "«Ну... отчего нет. Ты уверен, что хочешь сменить специализацию?»"
 
@@ -419,9 +415,8 @@ msgid "\"I have some other questions for you...\""
 msgstr "«У меня к тебе еще несколько вопросов...»"
 
 #: 36336
-#, fuzzy
 msgid "\"Where can I find this place?\""
-msgstr "«Где я могу найти это место?»"
+msgstr "«Где можно найти это место?»"
 
 #: 36337
 msgid "\"Thank you. I have some other questions...\""
@@ -436,7 +431,6 @@ msgid "\"Thank you, farewell.\""
 msgstr "«Спасибо, прощай»."
 
 #: 36345
-#, fuzzy
 msgid "\"Can you teach me the warrior's way?\""
 msgstr "«Ты можешь обучить меня пути воина?»"
 
@@ -449,9 +443,8 @@ msgid "\"No, let me think about it. Farewell.\""
 msgstr "«Нет, я подумаю над этим. Прощай»."
 
 #: 52334
-#, fuzzy
 msgid "\"Well... What exactly do ye want training in?\""
-msgstr "«Ну... Чему именно ты хотел обучиться?"
+msgstr "«Ну... Чему именно ты хотел обучиться?»"
 
 #: 52335 52336
 msgid "\"Can you tell me if I am ready for more instruction?\""
@@ -482,7 +475,6 @@ msgid "\"I'm ready, what can you teach me?\""
 msgstr "«Я готов, чему ты можешь обучить меня?»"
 
 #: 52343
-#, fuzzy
 msgid "\"What ya be wantin' ta learn?\""
 msgstr "«Чему ты хочешь научиться?»"
 
@@ -511,7 +503,6 @@ msgid "\"I'm not up to training today. I'll come back later.\" "
 msgstr "«Мне сегодня не до тренировок. Я вернусь позже» ."
 
 #: 52350
-#, fuzzy
 msgid ""
 "\"Ye've exceeded my abilities. Ye're the best fighter I've ever seen... "
 "perhaps one of the best ever to walk the planes.\""
@@ -602,7 +593,6 @@ msgid "\"Thank you. I must be going, farewell.\""
 msgstr "«Спасибо. Мне нужно идти, прощай»"
 
 #: 66931
-#, fuzzy
 msgid ""
 "He looks at you in amazement. \"Ye're wanting to learn more? Friend, there's "
 "no more for ye to learn about that weapon. No one in all the planes can "

@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014, 2016.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dthugoe.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-03-26 23:49+0500\n"
+"PO-Revision-Date: 2017-04-15 01:50+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 28823
 msgid ""
@@ -64,7 +64,6 @@ msgid ""
 msgstr "«Что ты только что сказал?» Его правая рука ложится на рукоятку ножа."
 
 #: 30174
-#, fuzzy
 msgid ""
 "\"I donnae know what ye're talkin' about, berk.\" He glares at you angrily. "
 "\"Now, I suggest yeh get yer mangled carcass out of my sight before I carve "
@@ -113,7 +112,6 @@ msgstr ""
 "взял да и откусил мне ухо! Начисто!»"
 
 #: 30179
-#, fuzzy
 msgid ""
 "\"What do yeh think happened? The barmy sod bit my ear off, so I thumped his "
 "skull and put him in the dead-book! I'm right sorry I did, too...\" He "
@@ -121,12 +119,11 @@ msgid ""
 "me.\""
 msgstr ""
 "«А что потом? Этот идиот откусил мне ухо, а я двинул ему по черепу и "
-"прописал его в Книгу Мертвых! Теперь жалею об этом...» Перед тем как "
+"прописал его в книгу мертвых! Теперь жалею об этом...» Перед тем как "
 "продолжить, он нервно оглядывается. «Мне кажется, что его дух преследует "
 "меня»."
 
 #: 30180
-#, fuzzy
 msgid ""
 "He nods and quickly traces a semicircle over his heart. \"Aye, 'tis true. "
 "Sometimes I hear his voice in my head, cursin' an' tellin' me how he's "
@@ -188,7 +185,6 @@ msgid "Leave him alone."
 msgstr "Оставить его в покое."
 
 #: 30189
-#, fuzzy
 msgid ""
 "\"If it's garters you're after... I just happen to have a pair. Your mother "
 "left them in my bed last night.\""
@@ -272,7 +268,6 @@ msgid "\"Go on...\""
 msgstr "«Продолжай...»"
 
 #: 30207
-#, fuzzy
 msgid ""
 "\"Let me guess... he bit your ear off, so you clubbed him senseless and "
 "peeled his fork. Am I right?\""
@@ -313,7 +308,6 @@ msgstr ""
 "'преследовать' тебя»."
 
 #: 30218
-#, fuzzy
 msgid ""
 "\"By putting *YOU* in the dead-book, you cross-trading piece of filth.\""
 msgstr "«Просто запишу *ТЕБЯ* в книгу мертвых, воровское отребье»."
@@ -338,3 +332,4 @@ msgstr "«Не бойся... дух больше не будет тебя бес
 #: 30223
 msgid "Defend yourself."
 msgstr "Защищаться."
+

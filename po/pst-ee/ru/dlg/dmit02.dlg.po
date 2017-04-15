@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmit02.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2011-07-11 21:35+0600\n"
+"PO-Revision-Date: 2017-04-15 11:56+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 43002
 msgid ""
@@ -35,7 +35,6 @@ msgid "\"I just passing by. Farewell.\""
 msgstr "«Я просто проходил мимо. Прощай»."
 
 #: 43005
-#, fuzzy
 msgid ""
 "\"This is where aspiring mages can come to train and study. Many wizards "
 "took their first steps in the Art as fledgling sorcerers, here.\""
@@ -74,7 +73,6 @@ msgstr ""
 "доберешься, но он доставит тебя туда»."
 
 #: 66871
-#, fuzzy
 msgid ""
 "I entered the mage training chamber of the Civic Festhall, but found no "
 "tutor. One of the aspiring mages there told me to seek out Lady Thorncombe - "
@@ -83,3 +81,4 @@ msgstr ""
 "Я вошел в тренировочный зал магов Городского Фестхолла, но не обнаружил "
 "наставника. Один из начинающих магов посоветовал поискать леди Торнкомб - "
 "наставницу - в сенсориумах Фестхолла."
+

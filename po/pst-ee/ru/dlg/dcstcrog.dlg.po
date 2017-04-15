@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcstcrog.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-06-15 00:59+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 00:34+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 10037
 msgid ""
@@ -120,7 +120,6 @@ msgid "\"No, I'm almost positive that's what you were doing.\""
 msgstr "«Нет, я почти уверен, что ты делал кое-то другое»."
 
 #: 10055
-#, fuzzy
 msgid ""
 "He steps forward and give you a friendly pat on the back. As he does, you "
 "feel the weight of your purse increase. \"Then I bid you farewell, friend. "
@@ -156,7 +155,6 @@ msgid "\"No, I know what I saw.\""
 msgstr "«Нет, я знаю, что видел»."
 
 #: 10060
-#, fuzzy
 msgid ""
 "He steps forward and gives you a friendly pat on the back. As he does, you "
 "feel the weight of your purse increase. \"Then I bid you farewell, friend. "
@@ -253,3 +251,4 @@ msgstr "«Я так не думаю. Подкинь-ка золотишка, и�
 #: 10076
 msgid "\"I'm sorry we couldn't come to terms.\""
 msgstr "«Мне жаль, что мы так и не договорились»."
+

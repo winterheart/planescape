@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dsere.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 02:21+0600\n"
+"PO-Revision-Date: 2017-04-15 16:08+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 14338 1797
 msgid "\"I didn't crawl out of any crypt.\""
@@ -260,7 +260,6 @@ msgid "\"What's wrong with here?\""
 msgstr "«А что здесь не так?»"
 
 #: 14390
-#, fuzzy
 msgid "\"I'll keep that in mind. I had some questions...\""
 msgstr "«Я запомню. У меня еще несколько вопросов...»"
 
@@ -359,7 +358,6 @@ msgid "\"Are you afraid of dying?\""
 msgstr "«Ты боишься умереть?»"
 
 #: 14410
-#, fuzzy
 msgid ""
 "\"'Course I am, boy! Who isn't?\" She frowns and glances around. \"Well, "
 "except Dustmen. They're not afraid because they've been swallowing so much "
@@ -412,9 +410,8 @@ msgid "\"All right. I had some other questions...\""
 msgstr "«Хорошо. У меня есть другие вопросы...»"
 
 #: 14426
-#, fuzzy
 msgid "\"Well, thank the powers for that. Farewell.\""
-msgstr "«Спасибо Силам за это. Прощай»."
+msgstr "«Спасибо силам за это. Прощай»."
 
 #: 14428
 msgid ""
@@ -486,7 +483,6 @@ msgstr ""
 "лишь преддверием к Истинной Смерти». "
 
 #: 14445
-#, fuzzy
 msgid ""
 "Sere frowns. \"Tchhhh. *You* were the one who asked me to rattle my bone-"
 "box, boy. I'd be careful what you ask for in the future.\" "
@@ -670,7 +666,6 @@ msgid ""
 msgstr "«Я не хочу об этом говорить. Но у меня есть другие вопросы...»"
 
 #: 14483
-#, fuzzy
 msgid "Sere blinks. \"Ye're rattling my coffin.\""
 msgstr "Увядшая моргает. «Ты издеваешься надо мной»."
 
@@ -691,13 +686,12 @@ msgid "\"I think I've said enough. Farewell.\""
 msgstr "«Думаю, я достаточно наговорился. Прощай»."
 
 #: 14489
-#, fuzzy
 msgid ""
 "\"Strange are the ways of the planes, and I've seen too much to throw *any* "
 "tale out with the wash.\" She studies your face. \"If it's true, why does "
 "this happen?\""
 msgstr ""
-"«Всякое случается на Планах, и я многое повидала, чтобы не верить в *любую* "
+"«Всякое случается на планах, и я многое повидала, чтобы не верить в *любую* "
 "небылицу, - она изучает твое лицо. - Если это правда, как такое могло "
 "произойти?»"
 
@@ -1018,7 +1012,6 @@ msgid "\"Can you tell me about Emoric?\""
 msgstr "«Что ты можешь сказать об Эморике?»"
 
 #: 14557
-#, fuzzy
 msgid "\"Can you tell me about Old Copper-Eyes?\""
 msgstr "«Что ты можешь сказать о старике Медноглазом?»"
 
@@ -1229,7 +1222,6 @@ msgid "\"I suppose not. I had some other questions, though...\""
 msgstr "«Пожалуй, это так. Слушай, у меня есть еще вопросы к тебе...»"
 
 #: 14639
-#, fuzzy
 msgid ""
 "\"La, well, that's a shame, boy.\" Sere harumphs. \"If a death's head grin "
 "isn't enough to make you want to hold onto life, there's probably not a "
@@ -1285,7 +1277,6 @@ msgstr ""
 "тобой словами»."
 
 #: 1796
-#, fuzzy
 msgid ""
 "As you approach, the elderly woman turns and stares at you. \"La, look who's "
 "come a-calling on Sere today... death's dearest son.\" She looks you up and "
@@ -1295,7 +1286,7 @@ msgstr ""
 "При твоем приближении пожилая женщина поворачивается в твою сторону и "
 "пристально смотрит на тебя. «О-ля-ля, смотрите, кто сегодня пожаловал к "
 "Увядшей... любимый сын смерти». Она окидывает тебя взглядом, затем трясет "
-"головой в неверии. «Во имя Сил и их матерей, парень... из какого склепа *ты* "
+"головой в неверии. «Во имя сил и их матерей, парень... из какого склепа *ты* "
 "выполз?»"
 
 #~ msgid " \"I had some questions...\""

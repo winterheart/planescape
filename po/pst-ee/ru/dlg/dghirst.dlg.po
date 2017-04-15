@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dghirst.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-05-27 22:01+0600\n"
+"PO-Revision-Date: 2017-04-15 11:51+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 58302
 msgid ""
@@ -42,9 +42,8 @@ msgstr ""
 "своей когтистой рукой. «Немного жестковат, но все равно должен быть вкусным»."
 
 #: 58312
-#, fuzzy
 msgid "\"I have some questions.\""
-msgstr "«У меня есть несколько вопросов...» "
+msgstr "«У меня есть несколько вопросов»."
 
 #: 58313 58322 58338 58343
 msgid "\"I must be going now, farewell.\""
@@ -83,7 +82,6 @@ msgid "\"What can you tell me about these catacombs?\""
 msgstr "«Что ты можешь рассказать об этих катакомбах?»"
 
 #: 58321
-#, fuzzy
 msgid "\"There's a bootlegger down here who wants you dead.\""
 msgstr "«Тут есть один контрабандист, желающий твоей смерти»."
 
@@ -174,7 +172,6 @@ msgid "\"What's a farastu?\""
 msgstr "«Что такое фарасту?»"
 
 #: 58344
-#, fuzzy
 msgid ""
 "It yawns and a wave of fetid breath washes over you. \"Lookin' for deva. "
 "Good eating. Suck the marrow from his bones.\""
@@ -187,11 +184,10 @@ msgid "\"You want to eat Trias?\""
 msgstr "«Ты хочешь съесть Триаса?»"
 
 #: 58348
-#, fuzzy
 msgid "It gives you a bored look. \"No, deva. I don't care about any Trias.\""
 msgstr ""
-"Оно смотрит на тебя скучающим взглядом. «Нет, я дэва ищу. Мне нет дела до "
-"всяких там триасов»."
+"Оно смотрит на тебя скучающим взглядом. «Нет, я дэва ищу. Мне нет дела и до"
+" какого Триаса»."
 
 #: 58349
 msgid "\"Trias is the name of the deva.\""

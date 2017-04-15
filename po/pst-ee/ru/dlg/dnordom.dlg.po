@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2013, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dnordom.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 01:57+0600\n"
+"PO-Revision-Date: 2017-04-15 13:54+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 16630
 msgid "\"Define: Aid, required.\""
@@ -23,13 +23,12 @@ msgid "\"In what manner shall I tend to them.\""
 msgstr "«Каким образом мне следует их обслуживать»."
 
 #: 16632
-#, fuzzy
 msgid ""
 "\"Request: Aid Mourns (AKA Mourns-for-Trees) (Hold trees dear). Invalid "
 "command/object name.\""
 msgstr ""
-"«Запрос: Помочь Скорбящему (псевдоним: Скорбящий-по-деревьям) [Проявить к "
-"деревьям нежность]. Неверное название команды/объекта»."
+"«Запрос: Помочь Скорбящему (псевдоним: Скорбящий-по-деревьям) (Проявить к "
+"деревьям нежность). Неверное название команды/объекта»."
 
 #: 16633
 msgid ""
@@ -64,7 +63,6 @@ msgid "\"Never mind. I have some questions, Mourns...\""
 msgstr "«Неважно. У меня есть еще вопросы, Скорбящий...»"
 
 #: 16958 16990
-#, fuzzy
 msgid "\"Forget it. Farewell, Mourns-for-Trees.\""
 msgstr "«Забудь. Прощай, Скорбящий-по-деревьям»."
 
@@ -137,7 +135,6 @@ msgid "\"I thank you, Nordom. I had some questions, Mourns...\""
 msgstr "«Спасибо тебе, Нордом. У меня есть несколько вопросов, Скорбящий...»"
 
 #: 17002
-#, fuzzy
 msgid "\"I am grateful to you, Nordom. Farewell, Mourns-for-Trees.\""
 msgstr "«Я благодарен тебе, Нордом. Прощай, Скорбящий-по-деревьям»."
 
@@ -258,7 +255,6 @@ msgid "\"Yes... but I've reconsidered. Let's go, Nordom.\""
 msgstr "«Да... но я передумал. Пошли, Нордом»."
 
 #: 50716
-#, fuzzy
 msgid ""
 "\"Nordom preparing to assume Vrischika - alu-fiend, importer, curiosity shop "
 "proprietress - as primary authority figure.\""
@@ -275,7 +271,6 @@ msgstr ""
 "селекции; право либо возможность вы...»"
 
 #: 52581 52582 52583 52584 52585
-#, fuzzy
 msgid "\"Nordom, stop. This is between Ravel and I. Look, Ravel-\""
 msgstr "«Нордом, прекрати. Это между Равель и мной. Послушай, Равель...»"
 
@@ -296,7 +291,6 @@ msgid "\"Actually, it's 'process'... never mind. Ignus?\""
 msgstr "«Вообще-то, для 'обработки'... А, неважно. Игнус?»"
 
 #: 54850
-#, fuzzy
 msgid "\"Actually, it's 'process'... never mind. Fall-from-Grace?\""
 msgstr "«Вообще-то, для 'обработки'... А, неважно. Падшая Грация?»"
 
@@ -374,7 +368,6 @@ msgid "\"Uh... do you know you're facing backwards?\""
 msgstr "«Э-э... ничего, что ты смотришь не в ту сторону?»"
 
 #: 55107
-#, fuzzy
 msgid ""
 "The creature suddenly stops its bobbing motion, then swivels back around to "
 "face you. \"Backwards modron = 'Nordom'?\" The cube's voice has a metallic, "
@@ -404,7 +397,6 @@ msgstr ""
 "зовут 'Нордом', и для модрона он немного... помешанный."
 
 #: 55110
-#, fuzzy
 msgid ""
 "\"Backwards modron = 'Nordom'?\" The cube's voice has a metallic, warbling "
 "quality to it, as if every word it speaks is jumping off a spring and "
@@ -419,7 +411,6 @@ msgstr ""
 # Нордом говорит с ошибками, но при этом каламубрит. Хорошее начало...
 # Ошибки в переводе намерены.
 #: 55112
-#, fuzzy
 msgid ""
 "\"Not sorries. Null sorries. Gratitudes! Indentification of self comprosized "
 "by doubtings + mullings + analysis.\" The cube *chrrrups* again, and one of "
@@ -440,7 +431,6 @@ msgstr ""
 "«Ты благодарен за то... что я тебя идентифицировал? Разве ты не модрон?»"
 
 #: 55115
-#, fuzzy
 msgid ""
 "The cube's features steady themselves, and its mouth forms a flat line. "
 "\"Indemnification of this unit (was) compromised. Subject - addressee "
@@ -669,7 +659,6 @@ msgstr ""
 "твоих происках?»"
 
 #: 55157
-#, fuzzy
 msgid "\"Uh, don't you mean 'journey'?\""
 msgstr "«Э-э, ты, наверное, имел в виду 'поисках'»?"
 
@@ -936,7 +925,6 @@ msgid "\"Uh, Nordom? Any idea what happened to him?\""
 msgstr "«Э-э, Нордом? Ты знаешь, что с ним случилось?»"
 
 #: 55231
-#, fuzzy
 msgid "\"Forget it - what happened during the third stage of the project?\""
 msgstr ""
 "«Ладно, забудь об этом, лучше скажи, что случилось во время третьего этапа "
@@ -1055,7 +1043,6 @@ msgid "\"Uh... you all right, Nordom?\""
 msgstr "«Э-э... С тобой все в порядке, Нордом?»"
 
 #: 55261
-#, fuzzy
 msgid ""
 "Had a repeat of that stabilizing incident with Nordom, similar to when I "
 "told him that his separation from the Source may have caused his shift in "
@@ -1130,12 +1117,10 @@ msgstr ""
 "восприятия /Нордома/ от нормы»."
 
 #: 55270
-#, fuzzy
 msgid "\"'Deviate from norm'? How?\""
 msgstr "«К отклонению от нормы? Каким образом?»"
 
 #: 55273
-#, fuzzy
 msgid ""
 "\"Introspective cycle commencing.\" Nordom *kliks* his eyes closed and "
 "begins to *hum.* A few moments later, his eyes *klik* open. \"Introspective "
@@ -1152,7 +1137,6 @@ msgstr ""
 "стали результатом затруднений в обработке информации»."
 
 #: 55274 55508 55512
-#, fuzzy
 msgid ""
 "\"Do you think your separation from the Source is what caused your "
 "perspective shift from that quieter, broader 'one' to the smaller, louder "
@@ -1202,7 +1186,6 @@ msgstr ""
 "вообразить."
 
 #: 55281
-#, fuzzy
 msgid ""
 "Something strange happened when I told Nordom that it was probably his "
 "separation from the Source that caused his change in perspective - he seemed "
@@ -1242,9 +1225,8 @@ msgstr ""
 "нулевой дом/Нордом»."
 
 #: 55286
-#, fuzzy
 msgid "\"Nordom, what do you mean, 'Null Home'?\""
-msgstr "«Что ты имеешь в виду под 'нулевой домом', Нордом?»"
+msgstr "«Что ты имеешь в виду под 'нулевым домом', Нордом?»"
 
 #: 55288
 msgid ""
@@ -1258,7 +1240,6 @@ msgstr ""
 "нулевой дом, дом: нулевое место»."
 
 #: 55289 55290 55291
-#, fuzzy
 msgid "\"What do you mean by '!SOURCE!'?\""
 msgstr "«Что ты подразумеваешь под '!ИСТОЧНИКОМ!'?»"
 
@@ -1339,7 +1320,6 @@ msgid "\"Yes, but what *is* a modron?\""
 msgstr "«Да, но что *такое* модрон?»"
 
 #: 55315
-#, fuzzy
 msgid ""
 "\"Query: Modron, Defined: Modron, I am a modron, Answered.\" The shutters "
 "over Nordom's eyes *klik* close a few times, and his 'eyes' dilate to "
@@ -1431,7 +1411,6 @@ msgid "\"All right then, Nordom. I had some other questions for you...\""
 msgstr "«Ну хорошо. Нордом, у меня есть к тебе другие вопросы...»"
 
 #: 55335
-#, fuzzy
 msgid ""
 "\"Define: Blood War. The largest conflict in recorded history. Underlying "
 "cause of war: ideological differences between baatezu - law and tanar'ri - "
@@ -1448,12 +1427,10 @@ msgstr ""
 "Участники войны: все»."
 
 #: 55336 55345
-#, fuzzy
 msgid "\"Tell me about the baatezu.\""
 msgstr "«Расскажи мне о баатезу»."
 
 #: 55337 55341
-#, fuzzy
 msgid "\"Tell me about the tanar'ri.\""
 msgstr "«Расскажи мне о танарри»."
 
@@ -1722,7 +1699,6 @@ msgid "\"Come on, Nordom... Strength. Speed. Power. Focus.\""
 msgstr "«Ну же, Нордом... Сила. Скорость. Мощь. Концентрация»."
 
 #: 55398
-#, fuzzy
 msgid ""
 "\"AFFIRMATORY.\" The pupils of Nordom's eyes suddenly *klik* and become "
 "brilliant, white dots, like tiny suns. His hand cranks raise above his head, "
@@ -1840,7 +1816,6 @@ msgstr ""
 "чувствительностью к трещинам»."
 
 #: 55435
-#, fuzzy
 msgid "\"Hold on a minute. You can see 'cracks' in planes? Portals? How?\""
 msgstr "«Погоди минуту. Ты можешь видеть 'трещины' в планах? Порталы? Но как?»"
 
@@ -1849,7 +1824,6 @@ msgid "\"I 'see.' What were your tasks again?\""
 msgstr "«Понятно. Какие еще у тебя были задачи?»"
 
 #: 55442
-#, fuzzy
 msgid ""
 "Nordom mentioned that he has the ability to see portals, what he calls "
 "\"flaws\" in planes with an 80 - 90% accuracy. It sounds like all he has to "
@@ -1860,7 +1834,7 @@ msgstr ""
 "Нордом упомянул, что у него есть способность видеть порталы, которые он "
 "называет «трещинами» в планах, с точностью в 80-90%. Похоже на то, что ему "
 "достаточно просто пройти мимо портала, чтобы обнаружить его... Скорее всего, "
-"он не сможет сказать, *как* открыть портала, но, по крайней мере, я смогу "
+"он не сможет сказать, *как* открыть портал, но, по крайней мере, я смогу "
 "сузить круг поисков."
 
 #: 55445
@@ -2107,7 +2081,6 @@ msgid "Wait for Nordom to complete his analysis."
 msgstr "Подождать, пока Нордом не завершит свой анализ."
 
 #: 55507
-#, fuzzy
 msgid ""
 "A few moments later, his eyes *klik* open. \"Introspective Evaluation: "
 "Perceptions have become (1) smaller and (B) louder. Wings have been replaced "
@@ -2122,7 +2095,6 @@ msgstr ""
 "были результатом проблем обработки информации»."
 
 #: 55511
-#, fuzzy
 msgid ""
 "A few moments later, his eyes *klik* open. \"Introspective Evaluation: "
 "Perceptions have become (1) smaller and (B) louder. Wings have been replaced "
@@ -2139,7 +2111,6 @@ msgstr ""
 "ДИРЕКТОРА улучшило обработку информации на 5%»."
 
 #: 55515
-#, fuzzy
 msgid ""
 "A few moments later, his eyes *klik* open. \"Introspective Evaluation: "
 "Perceptions have become (1) smaller and (B) louder. Wings have been replaced "
@@ -2156,7 +2127,6 @@ msgstr ""
 "информации на 5%»."
 
 #: 55518
-#, fuzzy
 msgid ""
 "A few moments later, his eyes *klik* open. \"Introspective Evaluation: "
 "Perceptions have become (1) smaller and (B) louder. Wings have been replaced "
@@ -2554,7 +2524,6 @@ msgstr ""
 "держать ради *выкупа*. Или в качестве марионетки»."
 
 #: 55668
-#, fuzzy
 msgid ""
 "\"Query: Why? Formulating... Motivations...\" Nordom *whrrrrs,* then "
 "*chrrrups.* \"Nordom recall Ravel Response: '-No telling what horrible "
@@ -2595,7 +2564,6 @@ msgstr ""
 "Итак?..»"
 
 #: 55681
-#, fuzzy
 msgid ""
 "I've been trying to figure out what my 'murderer' may want, and I keep "
 "hitting the same damn obstacles - the only thing he seems to want is me to "
@@ -2616,7 +2584,6 @@ msgid "Nordom falls silent. He doesn't even blink."
 msgstr "Нордом умолкает. Он даже перестает моргать."
 
 #: 55685
-#, fuzzy
 msgid ""
 "\"So... my mortality is locked away in this damn Fortress, and the more "
 "people forget where it is, the less chance it will ever be recovered. So "
@@ -2750,7 +2717,6 @@ msgid "\"Awaiting Order.\""
 msgstr "«Ожидание инструкций»."
 
 #: 68237 68238
-#, fuzzy
 msgid "\"Get ready. You'll have a target for your crossbows soon enough...\""
 msgstr "«Приготовься. Для твоих арбалетов очень скоро найдется мишень...»"
 

@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dincar3.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-08 20:39+0600\n"
+"PO-Revision-Date: 2017-04-15 17:31+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 52688
 msgid "\"He has awakened.\""
@@ -39,7 +39,6 @@ msgstr ""
 "чтобы осмотреться»."
 
 #: 63864
-#, fuzzy
 msgid "\"This arguing avails us nothing! Give him his space, leave him be.\""
 msgstr "«Этот спор ни к чему не приведет! Расступитесь, оставьте его»."
 
@@ -76,7 +75,6 @@ msgid "\"But who *are* you?\""
 msgstr "«Но кто *ты* такой?»"
 
 #: 63870
-#, fuzzy
 msgid ""
 "\"Ah...\" His smile fades, and he looks at you with concern. \"This must be "
 "disorienting for you. Let me try and explain - I am one of your "
@@ -257,7 +255,6 @@ msgstr ""
 "питает ненависть к живым»."
 
 #: 63913
-#, fuzzy
 msgid ""
 "\"It was quiet, and long, and was filled with much of the pain and the joys "
 "that one would expect in life. I served as a cartographer for a time, and I "
@@ -360,7 +357,6 @@ msgid "\"No. I was reborn in a terrible place, and I am sorry to have lived.\""
 msgstr "«Нет. Я был возрожден в ужасном месте, и жалею, что жил»."
 
 #: 63937
-#, fuzzy
 msgid ""
 "\"It seemed so... short. What little I experienced, I enjoyed, and I do not "
 "wish to forget it.\""
@@ -381,7 +377,6 @@ msgid "\"Your question is of no matter - I would leave now.\""
 msgstr "«Твой вопрос не имеет смысла. Я ухожу»."
 
 #: 63940
-#, fuzzy
 msgid ""
 "\"This life seems to have only caused suffering for myself and others. I "
 "would see it end, and the planes allowed peace once more.\""
@@ -524,7 +519,6 @@ msgstr ""
 "убила тебя, ты все забыл. *Полностью*»."
 
 #: 63960
-#, fuzzy
 msgid ""
 "He looks broken. \"And the planes have been dying ever since. The crime is "
 "great, and the blame is mine.\""
@@ -554,3 +548,4 @@ msgstr ""
 #: 63963
 msgid "\"Very well, then... we shall become as one. Are you ready?\""
 msgstr "«Ну что ж... мы станем одним целым. Ты готов?»"
+

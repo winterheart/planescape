@@ -1,25 +1,24 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dforge.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-08 20:16+0600\n"
+"PO-Revision-Date: 2017-04-15 01:30+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 5086
 msgid "You prepare to lift the hammer again..."
 msgstr "Ты готовишься снова поднять молот..."
 
 #: 5087
-#, fuzzy
 msgid "\"...what now?\""
 msgstr "«... и что теперь?»"
 
@@ -126,7 +125,6 @@ msgstr ""
 "от боли. Что теперь?"
 
 #: 5123 5263
-#, fuzzy
 msgid "Hold the ore in the flame of the forge with the tongs."
 msgstr "Держать руду в пламени горна клещами."
 
@@ -155,7 +153,6 @@ msgid "Step away from the forge."
 msgstr "Отойти от кузницы."
 
 #: 5152
-#, fuzzy
 msgid ""
 "You place the cold ore on the anvil and smash at it with the hammer. You "
 "reduce it to smaller, unusable chunks. The flames from the nearby forge "
@@ -170,7 +167,6 @@ msgid "Die. The heat is overwhelming."
 msgstr "Смерть. Жара просто сокрушительна."
 
 #: 5155 5274
-#, fuzzy
 msgid ""
 "The pain from the flame is astonishing. The ore softens like clay within "
 "your grasp, and the scent of burning flesh fills the air. The iron fuses to "
@@ -445,7 +441,6 @@ msgid "The heat and force of the foundry's inferno proves to be unstoppable."
 msgstr "Жара и мощь пекла литейной оказались невыносимыми."
 
 #: 5228 5323
-#, fuzzy
 msgid ""
 "This is a competent piece of work. It won't win you any awards, but it's "
 "functional and deadly."
@@ -553,7 +548,6 @@ msgstr ""
 "Твои руки становятся скользкими от пота."
 
 #: 5272
-#, fuzzy
 msgid ""
 "You place the cold ore on the anvil and smash at it with the hammer. You "
 "reduce it to smaller, unusable chunks. The flames from the nearby forge "
@@ -584,7 +578,6 @@ msgstr ""
 "действительно хочешь молот?"
 
 #: 5293
-#, fuzzy
 msgid ""
 "An axe will take some time - you're going to be damn uncomfortable for a "
 "while, but at least you're not burning to death. Are you sure you want an "
@@ -603,7 +596,6 @@ msgstr ""
 "нашел. По крайней мере... должно сработать."
 
 #: 5329
-#, fuzzy
 msgid ""
 "Your innate fire resistance allows you hold the ore in the flame until it "
 "softens and runs between your fingers. The other smiths in the foundry watch "
@@ -618,3 +610,4 @@ msgstr ""
 #: 5330
 msgid "Leave."
 msgstr "Уйти."
+

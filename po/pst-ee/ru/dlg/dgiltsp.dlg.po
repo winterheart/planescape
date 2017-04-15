@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dgiltsp.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 02:30+0600\n"
+"PO-Revision-Date: 2017-04-15 16:14+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 39508
 msgid ""
@@ -55,7 +55,6 @@ msgstr ""
 "тоном."
 
 #: 45544
-#, fuzzy
 msgid ""
 "You see a florid, boisterous man. He's shouting and carrying on like there's "
 "a war that's about to come through, like he's got something lodged in his "
@@ -422,17 +421,14 @@ msgstr ""
 "Чтобы подчеркнуть это, он водит бровями."
 
 #: 45669
-#, fuzzy
 msgid "::Sigh:: \"Thanks. I had a few more questions...\""
-msgstr "«::вздох:: Спасибо. У меня еще несколько вопросов...»"
+msgstr "::Вздох:: «Спасибо. У меня еще несколько вопросов...»"
 
 #: 45670
-#, fuzzy
 msgid "::Sigh:: \"Thanks. Farewell.\""
-msgstr "«::вздох:: Спасибо. Прощай»."
+msgstr "::Вздох:: «Спасибо. Прощай»."
 
 #: 45671
-#, fuzzy
 msgid ""
 "\"I? I am Giltspur the auctioneer, at your service! I buy, I sell, I provide "
 "services and employment!\""
@@ -509,7 +505,6 @@ msgid "\"I had a few more questions...\""
 msgstr "«У меня еще вопросы...»"
 
 #: 45690
-#, fuzzy
 msgid ""
 "\"To me, the Foundry is but an opportunity! A place where all can test their "
 "mettle against their metal, where souls meet their measure and are quenched "
@@ -625,3 +620,4 @@ msgid ""
 msgstr ""
 "Доставив рекламный листок в Тлеющий труп, я вернулся к Гилтспуру, и он "
 "сказал, что у него больше нет для меня работы."
+

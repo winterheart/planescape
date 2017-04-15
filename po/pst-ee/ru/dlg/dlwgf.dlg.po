@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dlwgf.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2012-04-11 21:55+0600\n"
+"PO-Revision-Date: 2017-04-15 18:19+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 65087
 msgid ""
@@ -83,7 +83,6 @@ msgstr ""
 "Она бросает на тебя взгляд, когда ты подходишь."
 
 #: 65101
-#, fuzzy
 msgid ""
 "She smiles at you and tries to answer you but her cough is interfering. "
 "\"Yes...\" She has a coughing fit. \"Hello, cutter... You want something?\""
@@ -128,7 +127,6 @@ msgid "\"Very well. I have some questions...\""
 msgstr "«Ладно. У меня еще вопросы...»"
 
 #: 65113
-#, fuzzy
 msgid ""
 "\"Well...\" She looks embarrassed. \"It's the air in this ward. It's not of "
 "the best quality and it causes some problems for most folks. It's all the "
@@ -137,7 +135,7 @@ msgid ""
 msgstr ""
 "«Ну... - она выглядит смущенной. - Это все воздух этого района. Он не "
 "лучшего качества, и от него у многих бывают проблемы. Это все из-за дыма и "
-"прочего от литейной...» Она снова начинает кашлять, жестом поторапливая тебя "
+"прочего от Литейной...» Она снова начинает кашлять, жестом поторапливая тебя "
 "с вопросами."
 
 #: 65116
@@ -159,7 +157,6 @@ msgid "\"I see. I have some more questions...\""
 msgstr "«Понятно. У меня еще вопросы...»"
 
 #: 65120
-#, fuzzy
 msgid "She smiles. \"Absolutely...\" She begins patting herself on the chest."
 msgstr "Она улыбается. «Абсолютно...» Она похлопывает себя по груди."
 
@@ -212,7 +209,6 @@ msgid "\"Never mind, farewell.\""
 msgstr "«Неважно, прощай»."
 
 #: 65136
-#, fuzzy
 msgid ""
 "\"This here's the Lower Ward, home of the common folk like myself. Not much "
 "else to know about, just look around and discover it for yourself.\""
@@ -255,3 +251,4 @@ msgstr ""
 #: 65144
 msgid "\"No, farewell.\""
 msgstr "«Нет, прощай»."
+

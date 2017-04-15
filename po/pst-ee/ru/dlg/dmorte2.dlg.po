@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmorte2.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-11 23:26+0600\n"
+"PO-Revision-Date: 2017-04-15 01:45+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 39516
 msgid ""
@@ -54,7 +54,6 @@ msgstr ""
 "этого «Фарода» и свой дневник."
 
 #: 41144
-#, fuzzy
 msgid ""
 "\"Pssst... Some advice, chief: I'd keep it quiet from here on - no need to "
 "put any more corpses in the dead-book than necessary... especially the "
@@ -98,7 +97,6 @@ msgid "\"I'm confused... why do these Dustmen care if I escape?\""
 msgstr "«Я запутался... какое тленным дело, если я сбегу?»"
 
 #: 41151 41221
-#, fuzzy
 msgid ""
 "\"Weren't you listening?! I said the Dusties believe EVERYBODY'S got to die, "
 "sooner better than later. You think the corpses you've seen are happier in "
@@ -119,12 +117,11 @@ msgid ""
 msgstr "«До этого ты говорил, чтобы я не убивал *женские* трупы. Почему?»"
 
 #: 41155 41229
-#, fuzzy
 msgid ""
 "\"Death visits the planes every day, chief. These shamblers are all that's "
 "left of the poor sods who sold their bodies to the caretakers after death.\""
 msgstr ""
-"«Смерть посещает Планы каждый день, шеф. Эти увальни - все, что осталось от "
+"«Смерть посещает планы каждый день, шеф. Эти увальни - все, что осталось от "
 "тех бедолаг, кто продал свои тела смотрителям»."
 
 #: 41156
@@ -132,7 +129,6 @@ msgid "\"Enlighten me... *who* are these caretakers?\""
 msgstr "«Просвяти меня... *кто* такие эти смотрители?»"
 
 #: 41159 41233
-#, fuzzy
 msgid ""
 "\"Wh- are you *serious?* Look, chief, these dead chits are the last chance "
 "for a couple of hardy bashers like us. We need to be *chivalrous*... no "
@@ -200,7 +196,6 @@ msgid "\"All right... I'll try and remember that.\""
 msgstr "«Ладно... Я попробую это запомнить»."
 
 #: 41170
-#, fuzzy
 msgid ""
 "\"Look, chief. It's obvious you're still a little addled after your kiss "
 "with death, so I got two bits of advice for you: one, if you got questions, "
@@ -212,9 +207,7 @@ msgstr ""
 "меня два небольших совета для тебя. Во-первых, если у тебя возникают "
 "вопросы, *спроси* меня, хорошо?»\n"
 "\n"
-"ПРИМЕЧАНИЕ: Чтобы поговорить с членом команды, выбери пункт 'поговорить' из "
-"быстрого меню, а затем кликни по тому члену команды, с которым хочешь "
-"поговорить."
+"^NПРИМЕЧАНИЕ: <SPEAKTO>^-"
 
 #: 41171
 msgid "\"All right... if I have any questions, I'll ask you.\""
@@ -250,7 +243,6 @@ msgid "\"Hmmmm. All right. It couldn't hurt... I'll make a new one, then.\""
 msgstr "«Хм-м. Ну хорошо. Хуже от этого не будет... Заведу себе новый»."
 
 #: 41176
-#, fuzzy
 msgid ""
 "\"Use it to keep track of your movements. If you ever start to get cloudy on "
 "important things, like who you are... or more importantly, who *I* am... use "
@@ -263,9 +255,9 @@ msgstr ""
 "например, кто ты... или, что еще важнее, кто *я*... то воспользуйся им, "
 "чтобы освежить свою память».\n"
 "\n"
-"ПРИМЕЧАНИЕ: Чтобы получить доступ к дневнику, нажми на кнопку дневника в "
-"правом нижнем углу или выбери кнопку дневника из быстрого меню. Твой дневник "
-"будет автоматически обновляться в течение всей игры."
+"^NПРИМЕЧАНИЕ: Чтобы получить доступ к дневнику, выберите кнопку дневника из"
+" быстрого меню. Ваш дневник "
+"будет автоматически обновляться в течение всей игры.^-"
 
 #: 41177
 msgid "\"All right... I got it. Let's go.\""
@@ -276,7 +268,6 @@ msgid "\"What's eating you, chief?\""
 msgstr "«Что гложет тебя, шеф?»"
 
 #: 41179
-#, fuzzy
 msgid "\"Can you read to me what's tattooed on my back again?\""
 msgstr "«Можешь еще раз прочитать, что у меня вытатуировано на спине?»"
 

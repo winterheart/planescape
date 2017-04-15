@@ -1,21 +1,20 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: darmoire.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-07-11 00:44+0300\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 17:42+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 2879
-#, fuzzy
 msgid ""
 "As you make to search the armoire, its handles suddenly yank out of your "
 "grasp as the drawers slam themselves shut. A disdainful *hmph!* issues from "
@@ -84,7 +83,6 @@ msgstr ""
 "одернуть пальцы."
 
 #: 42538
-#, fuzzy
 msgid ""
 "\"Ha ha! Cretin! Idiot! 'Open the drawer,' I said, and you reach in-\" He "
 "slams his drawer again for emphasis, then begins shaking with laughter."
@@ -94,7 +92,6 @@ msgstr ""
 "смеха."
 
 #: 42539
-#, fuzzy
 msgid ""
 "\"Very well! Posh! Open the third drawer, you scalawag.\" As you reach your "
 "hand into the drawer, it slams shut on your fingers with great force. "
@@ -214,7 +211,6 @@ msgstr ""
 "вуаль пропала?»"
 
 #: 42549
-#, fuzzy
 msgid ""
 "\"Few folk who've dwelled in Sigil for any length of time don't. I must "
 "wonder, though, what is it about her you wish to know?\""
@@ -270,7 +266,6 @@ msgstr ""
 "просто впитываю ощущения, необходимые для моего личностного роста»."
 
 #: 42555
-#, fuzzy
 msgid ""
 "You simply cannot move your hand quickly enough to snatch the crimson cloth "
 "from within Luis... the most you could accomplish would be getting your "
@@ -284,7 +279,6 @@ msgid "\"Shan't. Won't. Never.\""
 msgstr "«Нет. Ни за что. Никогда»."
 
 #: 42557
-#, fuzzy
 msgid ""
 "\"*Mmmph.* Stop! Stop, I say! Watch the handles! Don't scratch the finish! "
 "Damn you, you prying filth!\" The armoire puts up a valiant effort, but you "
@@ -479,7 +473,6 @@ msgid "\"Can you return to your normal form at will?\""
 msgstr "«Ты можешь вернуть себе нормальную форму, если захочешь?»"
 
 #: 42598
-#, fuzzy
 msgid "\"Can you tell me about this place?\""
 msgstr "«Что ты можешь сказать об этом месте?»"
 
@@ -500,17 +493,16 @@ msgid "\"I heard that Kesai-Serris is Ravel's daughter. Is that true?\""
 msgstr "«Я слышал, что Кесай-Серри - дочь Равель. Это правда?»"
 
 #: 42602
-#, fuzzy
 msgid "\"I'm trying to find Vivian's scent... do you know where it might be?\""
-msgstr "«Я пытаюсь найти аромат Вивьен... не знаешь, где он может быть?»"
+msgstr "«Я пытаюсь найти аромат Вивьен... Ты не знаешь, где он может быть?»"
 
 #: 42603
-#, fuzzy
 msgid ""
 "\"I'm trying to find Marissa's Crimson Veil... do you know where it might be?"
 "\""
 msgstr ""
-"«Я пытаюсь найти малиновую вуаль Мариссы... не знаешь, где она может быть?»"
+"«Я пытаюсь найти малиновую вуаль Мариссы... Ты не знаешь, где она может "
+"быть?»"
 
 #: 42604
 msgid "\"Do you know anything about Ravel Puzzlewell?\""
@@ -619,3 +611,5 @@ msgid ""
 msgstr ""
 "«И в самом деле, привет, - шкаф снова фыркает. - Так, что тут у нас? Негодяй "
 "в поисках вычурного дамского белья, хм-м?»"
+
+

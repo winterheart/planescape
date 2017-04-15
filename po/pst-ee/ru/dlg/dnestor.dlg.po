@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dnestor.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-17 00:42+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 13:36+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 28825
 msgid ""
@@ -27,14 +27,13 @@ msgstr ""
 "возможности вернуться домой?"
 
 #: 29868
-#, fuzzy
 msgid ""
 "I've agreed to help the Flophouse loon, Nestor, find his fork. The poor sod "
 "seemed quite deranged, carrying around a severed ear in his pocket and "
 "talking to it like it could hear him, but I don't suppose it could do any "
 "harm to look for a fork for him."
 msgstr ""
-"Я согласился помочь психу Нестору из ночлежки найти его вилку. Бедолага явно "
+"Я согласился помочь психу Нестору из Ночлежки найти его вилку. Бедолага явно "
 "спятил, раз держит у себя в кармане оторванное ухо и разговаривает с ним, "
 "будто оно может услышать его. Хотя вроде большого вреда от того, что я поищу "
 "его вилку, не будет."
@@ -64,7 +63,6 @@ msgstr ""
 "Не могу попасть домой без своей вилки»."
 
 #: 30121
-#, fuzzy
 msgid ""
 "At the sound of your voice, the old loon whirls about to face you, his wide, "
 "staring eyes bulging in their sockets. He regards you for a brief moment, "
@@ -103,7 +101,6 @@ msgstr ""
 "вилка!»"
 
 #: 30125
-#, fuzzy
 msgid ""
 "\"Fork? Fork! Fork! Can't go home without my fork!\" Nestor's frenzy reaches "
 "a violent crescendo. He begins hopping up and down maniacally, then suddenly "
@@ -121,7 +118,6 @@ msgstr ""
 "Украли. Не могу попасть домой без своей вилки»."
 
 #: 30126
-#, fuzzy
 msgid ""
 "Nestor stares at you for a long moment, then begins rummaging through the "
 "pockets of his filthy tunic. After a few seconds he produces what appears to "
@@ -220,7 +216,6 @@ msgid "\"Is this the fork you speak of?\""
 msgstr "«Это та вилка, о которой ты говорил?»"
 
 #: 30138 30145
-#, fuzzy
 msgid "\"Never mind. Farewell.\""
 msgstr "«Неважно. Прощай»."
 
@@ -237,7 +232,6 @@ msgid "Leave him be."
 msgstr "Оставить его в покое."
 
 #: 30142 30147
-#, fuzzy
 msgid "\"Are you all right?\""
 msgstr "«С тобой все в порядке?»"
 
@@ -324,3 +318,4 @@ msgstr "Нестор полностью тебя игнорирует, его в
 #: 61634
 msgid "Leave."
 msgstr "Уйти."
+

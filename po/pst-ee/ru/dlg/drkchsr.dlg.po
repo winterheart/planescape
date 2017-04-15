@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: drkchsr.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-11-17 01:35+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 15:26+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 15496
 msgid ""
@@ -95,7 +95,6 @@ msgstr ""
 "что у них было, если они умерли одни. Без друзей»."
 
 #: 15507
-#, fuzzy
 msgid ""
 "\"Who, him? I dunno, m'lord. Wandered in one day, started pickin' fights... "
 "'duels,' he calls 'em. I don't speak to him, ya see... just drag off the "
@@ -179,7 +178,6 @@ msgid "\"Eh? What do ya mean, m'lord?\" He seems genuinely confused."
 msgstr "«А? О чем вы говорите, господин?» Похоже, он неподдельно смущен."
 
 #: 15517
-#, fuzzy
 msgid ""
 "\"I... I don't know what ye're gettin' at, m'lord... I surely don't! Have ya "
 "mistaken me for someone else, mayhap?\""
@@ -410,3 +408,4 @@ msgstr "«Не бойся, я здесь не для того, чтобы при
 #: 15604
 msgid "\"As I thought. Farewell.\""
 msgstr "«Я так и думал. Прощай»."
+

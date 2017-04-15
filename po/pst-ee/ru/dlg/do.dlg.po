@@ -1,19 +1,19 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-17 18:20+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 13:56+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 10698
 msgid ""
@@ -70,7 +70,6 @@ msgid "\"Nothing. Farewell.\""
 msgstr "«Ничего. Прощай»."
 
 #: 10709
-#, fuzzy
 msgid ""
 "As he opens his mouth, you get that feeling of eternity again - inside his "
 "mouth, you see no tongue, no teeth. It's almost as if this man were a shell "
@@ -170,7 +169,6 @@ msgid "\"That's enough pomposity. Farewell.\""
 msgstr "«Хватит с меня этой напыщенности. Прощай»."
 
 #: 10725
-#, fuzzy
 msgid ""
 "\"I am O.\" For some reason, when he speaks his name, it sounds like he's "
 "speaking of much more than a single letter - as if the speaking of his name "
@@ -382,7 +380,6 @@ msgid "\"And what do you see?\""
 msgstr "«И что же ты видишь?»"
 
 #: 10769
-#, fuzzy
 msgid ""
 "\"You mortals are like wasps. You build your lives/nests from the slimmest "
 "of branches, and when the wind shakes your home/life free, you seek to sting "
@@ -482,7 +479,6 @@ msgid "\"My thanks. Farewell.\""
 msgstr "«Спасибо. Прощай»."
 
 #: 3070
-#, fuzzy
 msgid ""
 "You see a man, standing stock still. He isn't moving a muscle. On closer "
 "examination, it appears that he isn't even breathing - just standing. His "
@@ -507,3 +503,4 @@ msgstr ""
 #: 3370
 msgid "\"Do you know me, stranger?\""
 msgstr "«Ты знаешь меня, незнакомец?»"
+

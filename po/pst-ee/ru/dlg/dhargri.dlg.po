@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2012, 2014, 2016.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2011, 2012, 2014, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dhargri.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-04-21 22:09+0500\n"
+"PO-Revision-Date: 2017-04-15 16:45+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 21040
 msgid "Leave the 'skeleton priest' alone."
@@ -434,7 +434,6 @@ msgid "\"Tell me about the ghouls.\""
 msgstr "«Расскажи мне об упырях»."
 
 #: 21209
-#, fuzzy
 msgid ""
 "Hargrimm told me that, in order to better fight the cranium rats, I should "
 "seek out and destroy as many smaller concentrations of them as possible. "
@@ -541,7 +540,6 @@ msgstr ""
 "обязанностей. Ему угодно, чтобы мы умерли...»"
 
 #: 21249
-#, fuzzy
 msgid ""
 "Hargrimm is unhappy with Soego, because the Dustman is constantly trying to "
 "convince the citizens of the Dead Nations to die. Should that happen and "
@@ -572,7 +570,6 @@ msgid "\"Why do you allow him to stay?\""
 msgstr "«Почему вы позволяете ему оставаться?»"
 
 #: 21255
-#, fuzzy
 msgid ""
 "\"We cannot force him to leave. He knows we cannot harm him. The Dead "
 "Truce... no undead may injure a Dustman unless first attacked. Also, the "
@@ -691,7 +688,6 @@ msgstr ""
 "возвращение шара»."
 
 #: 21291
-#, fuzzy
 msgid ""
 "It looks you over carefully, tapping its chin with a bony finger - *click, "
 "click, click.* \"Thou do not seem the sort to follow such a man. Perhaps you "
@@ -1029,7 +1025,6 @@ msgstr "«Ужасы катакомб?»"
 
 # internment=interment
 #: 21385
-#, fuzzy
 msgid ""
 "\"The Living... human scavengers, the vermin scavengers... all who defy our "
 "sworn duty to interment. May the Silent King protect us.\""
@@ -1072,7 +1067,6 @@ msgid "\"I'm looking for something. A small bronze sphere.\""
 msgstr "«Я кое-что ищу. Маленький бронзовый шар»."
 
 #: 21405 21416 21432
-#, fuzzy
 msgid "\"The cranium rat collective, Many-as-One, sent me.\""
 msgstr "«Меня послал коллектив черепных крыс, Многоединый»."
 
@@ -1133,7 +1127,6 @@ msgid "Lie: \"No.\""
 msgstr "Ложь: «Нет»."
 
 #: 21428
-#, fuzzy
 msgid "\"Fmm!\" The skeleton looks away from you, shaking its head."
 msgstr "«Фм-м!» Скелет отводит от тебя взгляд, качая головой."
 
@@ -1154,7 +1147,6 @@ msgid "Lie: \"It's true.\""
 msgstr "Ложь: «Это правда»."
 
 #: 21440
-#, fuzzy
 msgid ""
 "\"By the Silent King! Thou are in league with the *vermin?!*\" It becomes "
 "furious. \"Thou hold counsel with those hive-brained scavengers that "
@@ -1346,7 +1338,6 @@ msgid "\"None must know that the King speaks only silence.\""
 msgstr "«Никто не должен знать, что Король больше не говорит»."
 
 #: 23958
-#, fuzzy
 msgid ""
 "Hargrimm stares off into the shadows. \"He stopped speaking to us long ago - "
 "he himself has left for the thrice-damned True Death.\" A trace of rage and "
@@ -1390,7 +1381,6 @@ msgid "\"I wish to preserve what we have created. I do not wish to die.\""
 msgstr "«Я хочу сохранить то, что он создал. Я не хочу умирать»."
 
 #: 23964
-#, fuzzy
 msgid ""
 "\"If our own people were to learn of this... or Acaste were to discover this "
 "deception... or Many-as-One, the hive mind of the cranium rats... all that "
@@ -1715,7 +1705,6 @@ msgid "\"Could I rest here?\""
 msgstr "«Я могу здесь отдохнуть?»"
 
 #: 63995 68094
-#, fuzzy
 msgid "\"I'm in need of healing - could you help me?\""
 msgstr "«Мне нужно лечение. Ты не мог бы мне помочь?»"
 
@@ -1724,7 +1713,6 @@ msgid "\"Could we rest here?\""
 msgstr "«Мы можем здесь отдохнуть?»"
 
 #: 63997 68096
-#, fuzzy
 msgid "\"We're in need of healing - could you help us?\""
 msgstr "«Нам нужно лечение. Ты не мог бы помочь нам?»"
 
@@ -1815,3 +1803,4 @@ msgstr "«Нет. Не будь ты пленным смертником, отв
 #: 68090
 msgid "\"Why *am* I a prisoner here?\""
 msgstr "«*Почему* я здесь пленник?»"
+

@@ -1,19 +1,19 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-16 23:42+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 16:49+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 1567
 msgid ""
@@ -229,7 +229,6 @@ msgstr ""
 "югу, рядом с Моргом. Бар трухлявых чуток юго-западнее Морга»."
 
 #: 1617
-#, fuzzy
 msgid ""
 "\"Anywhere in the Hive, once dark falls. Then there's the Angled Alley... ye "
 "want ta be keepin' yerself outta there unless ye want ta be in the dead-book."
@@ -248,7 +247,6 @@ msgid "\"Thanks for the information. Farewell.\""
 msgstr " «Спасибо за информацию. Прощай»."
 
 #: 1621
-#, fuzzy
 msgid ""
 "He thinks. \"Precious little... eh, honest... work ta be found 'round here, "
 "cutter. Ye ken hunt some brain vermin fer some coppers, pass them off ta the "
@@ -299,7 +297,6 @@ msgid "\"Where was that branch office you mentioned located?\""
 msgstr "«А где филиал, про который ты говорил?»"
 
 #: 1630
-#, fuzzy
 msgid "\"What were you saying about 'brain vermin'?\""
 msgstr "«А что ты там говорил о 'мозгогрызунах'?»"
 
@@ -328,7 +325,6 @@ msgstr ""
 "прибавит, уж поверь»."
 
 #: 1635
-#, fuzzy
 msgid ""
 "\"Aye... Dusties... Dustmen... the pale-faced Dead, they are, all grim and "
 "no humor to speak of. They keep the streets free o' the dead, stack 'em in "
@@ -348,9 +344,8 @@ msgid "\"How about the Dustmen...\""
 msgstr "«Как насчет тленных...»"
 
 #: 1641
-#, fuzzy
 msgid "\"The Chaosmen... they sound interesting.\""
-msgstr "«Хаоты... звучит интригующе»."
+msgstr "«Хаоситы... звучит интригующе»."
 
 #: 1642
 msgid "\"The Indeps?\""
@@ -381,7 +376,6 @@ msgid "\"Never mind. Farewell.\""
 msgstr "«Неважно. Прощай»."
 
 #: 1650
-#, fuzzy
 msgid ""
 "\"Th'city. City o' Doors, the Cage. Place where all doors lead to, n' from. "
 "Center of the planes, and gets most of the backwash from all places, too. "
@@ -406,7 +400,6 @@ msgstr ""
 "повсюду и... ну, понимаешь... двери...» Он снова хмурится, бессильно вздыхая."
 
 #: 1655
-#, fuzzy
 msgid ""
 "\"Let me rattle my bone-box with a lil' more sense: Y'see, there's 'doors' "
 "all over Sigil, but they don't always look like doors. They're more like "
@@ -454,7 +447,6 @@ msgid "\"What makes you say that?\""
 msgstr "«А какое это отношение имеет к сказанному?»"
 
 #: 1664
-#, fuzzy
 msgid "\"Eh... well, ye don't act like ye're from 'round Sigil, see?\""
 msgstr "«Э... ну, ты ведь не из Сигила, верно?»"
 
@@ -508,7 +500,6 @@ msgid "\"Ye get used ta it, ye do.\""
 msgstr "«Когда ты это увидишь, вмиг все поймешь»."
 
 #: 1677
-#, fuzzy
 msgid ""
 "He shrugs. \"Doors ken go *anywhere,* cutter. Some don't even lead ta the "
 "same place twice.\" He sighs. \"Y'see, such is the way and number of the "
@@ -527,7 +518,6 @@ msgid "\"You said these doors have 'keys'...?\""
 msgstr "«Ты сказал, что у этих дверей есть 'ключи'...»"
 
 #: 1680
-#, fuzzy
 msgid ""
 "\"Center of the planes, ta here tell. Don't know from experience.\" He "
 "shrugs. \"I imagine everyplace touches here... one way or another. Not all "
@@ -551,7 +541,6 @@ msgstr ""
 "убийственно молчалива»."
 
 #: 1684
-#, fuzzy
 msgid ""
 "\"Ye're missin' a what?\" He looks confused. \"No idea where ye'd find such "
 "a thing, cutter.\""
@@ -579,7 +568,6 @@ msgid "\"What else can you tell me about this Lady?\""
 msgstr "«Что ты еще можешь рассказать об этой Леди?»"
 
 #: 1690
-#, fuzzy
 msgid ""
 "\"The Dusties' kip. Grim-lookin' place. Don't even want ta be seein' that "
 "place even when they pen me in the dead-book.\""
@@ -610,7 +598,6 @@ msgid "\"Why do they do that?\""
 msgstr "«А почему они это делают?»"
 
 #: 1699
-#, fuzzy
 msgid ""
 "\"Dusties pay jink ta people fer bringin' 'em deaders off the streets and "
 "alleys, makes the Dusties' lives a lil' easier ta have a batch of Hivers "
@@ -671,7 +658,6 @@ msgstr ""
 "само окочурится, чтобы его взять, понимаешь?»"
 
 #: 1712
-#, fuzzy
 msgid ""
 "\"Place o' gangers and muggers, cutter. Don't be going there unless ye want "
 "yer next stop ta be the Mortuary. Th'alley's a big burnt wreck, used ta be a "

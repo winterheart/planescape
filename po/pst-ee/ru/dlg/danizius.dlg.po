@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2013.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: danizius.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2016-03-13 21:45+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-15 00:04+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 59314
 msgid ""
@@ -127,7 +127,6 @@ msgid "\"What might that be? Perhaps as a town leader, I can help you.\""
 msgstr "«И что же это? Я, как городской лидер, мог бы помочь тебе в этом»."
 
 #: 59418
-#, fuzzy
 msgid ""
 "\"As a town leader, you might be needing *me.* A friend told me you were in "
 "need of help.\""
@@ -278,7 +277,6 @@ msgid "\"I'll be back.\""
 msgstr "«Я еще вернусь»."
 
 #: 59505
-#, fuzzy
 msgid ""
 "An'izius, a githyanki official of the town Curst, wishes me to humiliate a "
 "political enemy of his by lying to the captain of the guard. Her name is "
@@ -350,7 +348,6 @@ msgid "\"I'm working on it. I'll be back.\""
 msgstr "«Я работаю над этим. Я вернусь»."
 
 #: 59578
-#, fuzzy
 msgid ""
 "An'izius paid me handsomely for turning Siabha over to the guards of Curst - "
 "more than enough to justify such a small lie."
@@ -414,3 +411,4 @@ msgstr "«Я постараюсь...»"
 #: 66924
 msgid "\"We'll see about that...\""
 msgstr "«Это мы еще посмотрим...»"
+

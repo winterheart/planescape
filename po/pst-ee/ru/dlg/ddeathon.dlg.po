@@ -1,25 +1,24 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: ddeathon.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2013-07-27 18:44+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 21:45+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 26086
 msgid "\"No name today. Farewell.\""
 msgstr "«На сегодня имен нет. Прощай»."
 
 #: 26108
-#, fuzzy
 msgid ""
 "I had the name of the City of Es-Annon carved upon the Dustman memorial "
 "outside the Mortuary. I should return and tell the Crier of Es-Annon that he "
@@ -300,7 +299,6 @@ msgid "\"No names today. Sorry to disturb you.\""
 msgstr "«На сегодня имен нет. Извини, что отвлек тебя»."
 
 #: 9769
-#, fuzzy
 msgid "\"Hmmmm... Es-Annon.\""
 msgstr "«Хм-м... Эс-Аннон»."
 
@@ -313,6 +311,6 @@ msgid "\"Es-Annon.\""
 msgstr "«Эс-Аннон»."
 
 #: 9772
-#, fuzzy
 msgid "\"Uh... 'Adahn'?\""
 msgstr "«Э... 'Адан'?»"
+
