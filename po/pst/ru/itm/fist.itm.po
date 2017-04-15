@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: fist.itm\n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2009-05-25 08:10+0600\n"
+"PO-Revision-Date: 2017-04-14 00:30+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
+"Language: ru\n"
 
 #: 239 247
 msgid ""
@@ -38,7 +39,7 @@ msgstr ""
 "Специализация: кулаки\n"
 "\n"
 "ПРИМЕЧАНИЕ: Твои кулаки являются оружием по умолчанию. Хотя количество "
-"урона, наносимого ими, отностительно мало, ты можешь наносить удары "
+"урона, наносимого ими, относительно мало, ты можешь наносить удары "
 "достаточно быстро, а урон *полностью* зависит от твоей Силы.\n"
 "\n"
 "Твои удары летальны; ты МОЖЕШЬ забивать насмерть. Пока у тебя не заполнены "
@@ -48,3 +49,4 @@ msgstr ""
 #: 3383 3390
 msgid "Fist"
 msgstr "Кулак"
+

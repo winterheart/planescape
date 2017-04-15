@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: gfigrd.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-09-25 18:53+0200\n"
-"Last-Translator: tob1az <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 13:25+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
+"Language: ru\n"
 
 #: 5691
 msgid "\"Comrades! To me! The intruder's here! Over here!\""
@@ -205,7 +206,7 @@ msgid ""
 "\"WHAT? Are you serious? Go talk to Keldor about this. In the meantime, "
 "we'll take care of the engineer. Thank you, and goodbye.\""
 msgstr ""
-"«ЧТО? Ты серьезно? Сходи поговори об этом с Кельдором. Тем временем мы "
+"«ЧТО? Ты серьезно? Сходи, поговори об этом с Кельдором. Тем временем мы "
 "позаботимся об инженере. Спасибо тебе, и прощай»."
 
 #: 5786
@@ -335,3 +336,4 @@ msgstr ""
 #: 67222
 msgid "\"Farewell.\""
 msgstr "«Прощай»."
+

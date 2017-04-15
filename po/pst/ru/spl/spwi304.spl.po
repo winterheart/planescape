@@ -1,17 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2009-05-24 13:55 +0600\n"
-"PO-Revision-Date: 2010-05-19 00:31+0600\n"
+"PO-Revision-Date: 2017-04-13 20:25+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
+"Language: ru\n"
 
 #: 51026
 msgid ""
@@ -40,7 +41,7 @@ msgstr ""
 "Это заклинание создает вокруг твоего тела волшебную мантию силы, которая "
 "поглощает урон.\n"
 "\n"
-"Заклинание создает эффект «щита», похожий на заклинание щита, который "
+"Заклинание создает эффект «щита», похожий на заклинание Щита, который "
 "поглощает 3-12 очков урона + 1 очко за каждый уровень заклинателя. Как "
 "только поглощено данное количество урона, он раскалывается или "
 "«выключается». Кроме того, заклинание завершит свое действие, когда пройдет "
@@ -49,3 +50,4 @@ msgstr ""
 #: 8639
 msgid "Cloak of Warding"
 msgstr "Мантия защиты"
+

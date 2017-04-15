@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2011, 2014, 2016.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2011, 2014, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: debb.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-07-15 00:26+0300\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 15:45+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 "Language: ru\n"
 
 #: 11001
@@ -995,7 +995,7 @@ msgid ""
 "and ever since, a bunch of bad bloods have set up their kip in that stretch "
 "of desert.\""
 msgstr ""
-"Ну... - пыхтя трубкой, Эбб изучает тебя. - Пожалуй, это лучшая берлога, в "
+"«Ну... - пыхтя трубкой, Эбб изучает тебя. - Пожалуй, это лучшая берлога, в "
 "которую ты мог забрести для начала... судя по твоим татуировкам, ты "
 "неравнодушен к украшению своего тела, а в таком случае тут неподалеку есть "
 "тату-салон, буквально в двух шагах. И держись подальше от переулка Опасных "
@@ -1183,7 +1183,8 @@ msgstr ""
 msgid ""
 "\"What are you doing in the company of Anarchists, Ebb? I thought you were "
 "Harmonium.\""
-msgstr "«Что ты делаешь в компании анархистов, Эбб? Я думал, ты из Гармониума»."
+msgstr ""
+"«Что ты делаешь в компании анархистов, Эбб? Я думал, ты из Гармониума»."
 
 #: 56875
 msgid "\"Tell me.\""
@@ -1436,7 +1437,8 @@ msgstr "«Тогда нам больше нечего друг другу ска
 #: 56922
 msgid ""
 "\"Then I'll have to kill you in order to return Curst to its natural place.\""
-msgstr "«Тогда мне придется тебя убить, чтобы вернуть Проклятый на свое место»."
+msgstr ""
+"«Тогда мне придется тебя убить, чтобы вернуть Проклятый на свое место»."
 
 #: 56923
 msgid ""
@@ -1519,7 +1521,7 @@ msgstr ""
 "«Я под прикрытием. Тройной агент. Агент Гармониума, внедренный к анархистам, "
 "притворяющийся двойным агентом Гармониума. Нужно мыслить еще более коварно, "
 "чем эти пни, чтобы попасть внутрь... и я до сих пор не знаю, близок ли я к "
-"провалу или нет. Итак... ты мне собираешься помочь мне помочь тебе?»"
+"провалу или нет. Итак... ты собираешься помочь мне помочь тебе?»"
 
 #: 56934
 msgid "\"What do I have to do?\""
@@ -1528,3 +1530,5 @@ msgstr "«Что мне нужно сделать?»"
 #: 56935
 msgid "\"I can't do that.\""
 msgstr "«Я не могу этого сделать»."
+
+

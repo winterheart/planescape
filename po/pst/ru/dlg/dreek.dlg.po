@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014, 2016.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2014, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dreek.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2016-03-26 21:43+0500\n"
+"PO-Revision-Date: 2017-04-14 21:39+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 "Language: ru\n"
 
 #: 11276
@@ -745,7 +745,7 @@ msgstr "«Знаешь, я, пожалуй, мог бы заставить ег�
 
 #: 11389 11414 11425 11619 11636
 msgid "\"Farewell.\""
-msgstr "«Счастливо»."
+msgstr "«Прощай»."
 
 #: 11411 11413 11521
 msgid "\"I had some other questions for you...\""
@@ -1184,4 +1184,5 @@ msgstr ""
 #: 9341
 msgid "\"Who are you?\""
 msgstr "«Кто ты?»"
+
 

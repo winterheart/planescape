@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2013.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2012, 2013, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-10-26 23:30+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-14 01:22+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 "Language: ru\n"
 
 #: 36382
@@ -226,11 +226,11 @@ msgstr "«...о том, что не было случая убить еще бо
 
 #: 53898 53899
 msgid "\"...not setting Coaxmetal free from the siege tower.\""
-msgstr "«...о том, что не выпустил Убежденный Металл из осадной башни»."
+msgstr "«...о том, что не выпустил Убежденного Металла из осадной башни»."
 
 #: 53900
 msgid "\"...setting Coaxmetal free from the siege tower.\""
-msgstr "«...о том, что выпустил Убежденный Металл из осадной башни»."
+msgstr "«...о том, что выпустил Убежденного Металла из осадной башни»."
 
 #: 53903
 msgid "\"...having to slay Ravel.\""
@@ -314,7 +314,7 @@ msgstr ""
 "Ты пишешь раскаяние на клочке кожи... но из-за быстрой регенерации тебе "
 "часто приходится прерываться, чтобы снова проколоть палец и выдавить еще "
 "немного крови. Несколькими мгновениями позже ты заканчиваешь. Твоя кровь "
-"блестит на клочке кожи... сочетание плоти, крови, и твоего раскаяния."
+"блестит на клочке кожи... сочетание плоти, крови и твоего раскаяния."
 
 #: 53926 53927
 msgid "Watch the blood dry..."
@@ -404,3 +404,5 @@ msgstr "Отойти от портала и поднять кожу."
 #: 66928
 msgid "Examine the skin..."
 msgstr "Осмотреть кожу..."
+
+
