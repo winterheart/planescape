@@ -1,25 +1,24 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2013, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2013, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmarquez.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-10-12 02:26+0600\n"
+"PO-Revision-Date: 2017-04-15 19:01+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 29133
 msgid "\"Teach me, then.\""
 msgstr "«Тогда обучи меня»."
 
 #: 49143
-#, fuzzy
 msgid ""
 "You see a burly blond man wearing the armor of a Harmonium officer. His face "
 "is rosy with drink, and behind his smile, his eyes are filled with "
@@ -74,7 +73,6 @@ msgid "\"Fine. Farewell.\""
 msgstr "«Отлично. Прощай»."
 
 #: 49153
-#, fuzzy
 msgid ""
 "I have accepted a commission to go find the slavers behind the city "
 "barracks, make sure Tainted Barse's daughter is all right, and kill them. "
@@ -82,9 +80,9 @@ msgid ""
 "key I need to get to where the imprisoned deva is."
 msgstr ""
 "Я согласился найти работорговцев за городскими бараками, спасти дочь "
-"Гниющего Копчика и убить их. Я делаю это по поручению Маркеса. За это он "
-"даст мне первую часть ключа, который мне понадобится для того, чтобы попасть "
-"к заключенному дэва."
+"Гниющего Копчика и убить их по поручению Маркеса. В обмен на это он даст мне "
+"первую часть ключа, который мне понадобится для того, чтобы попасть к "
+"заключенному дэва."
 
 #: 49157
 msgid ""
@@ -309,7 +307,6 @@ msgstr ""
 "нее вторая часть ключа. Или я могу обучить тебя владению оружием»."
 
 #: 49224
-#, fuzzy
 msgid ""
 "\"You don't need to talk to me anymore. We've said all we need to say. I "
 "told you to talk to Kitla; she'll steer you from here. Let me drink in "
@@ -626,3 +623,4 @@ msgstr ""
 "сосредоточусь на пути воина. Более полное посвящение себя искусству боя, без "
 "отвлечения на воровство и магию, должно обеспечить мне специализацию, о "
 "которой говорит мой наставник."
+
