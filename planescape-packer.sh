@@ -13,9 +13,8 @@ PST_VERSION_QWINN="4.13"
 
 PSTEE_BASE="po/pst-ee"
 PSTEE_IN_TRA="${PSTEE_BASE}/trans/0-106833.tra"
-PSTEE_OUT_TRA="${PSTEE_BASE}/installer/pst-ee-l10n/tra/russian/0-106833.tra"
+PSTEE_OUT_TRA="${PSTEE_BASE}/installer/pst-ee-l10n/lang/ru_RU/0-106833.tra"
 PSTEE_PO_FILES="${PSTEE_BASE}/ru/"
-
 
 echo "== Making PST pack =="
 
@@ -45,5 +44,5 @@ echo "==== Making *.tra ===="
 "${ITP}" -t ${PSTEE_IN_TRA} -i ${PSTEE_PO_FILES} -o ${PSTEE_OUT_TRA}
 cd ${PSTEE_BASE}/installer
 zip -9 -r ~/pst-ee-l10n-${PST_VERSION_PSTL10N}.zip .
-cd -
+
 
