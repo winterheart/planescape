@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dmorte2.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-10-11 23:26+0600\n"
+"PO-Revision-Date: 2017-04-15 21:52+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 "Language: ru\n"
 
 #: 39516
@@ -428,7 +428,7 @@ msgstr ""
 "«Нууу... просто *используй* их. Останавливает кровотечение и все такое».\n"
 "\n"
 "ПРИМЕЧАНИЕ: Чтобы воспользоваться бинтами, щелкни по ним правой кнопкой в "
-"окне инвентаря. Чтобы использовать их на другом персонаже, помести их в один "
+"окне инвентаря. Чтобы использовать их на другом персонаже, помести их в одну "
 "из быстрых ячеек, затем выбери кнопку «использовать» в быстром меню, а затем "
 "- свою мишень."
 
@@ -540,3 +540,4 @@ msgstr ""
 #: 41267
 msgid "\"Well, I need answers. I'm going to go speak with him.\" "
 msgstr "«Мне нужны ответы. Я поговорю с ним»."
+
