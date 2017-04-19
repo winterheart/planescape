@@ -122,7 +122,6 @@ COPY_EXISTING	~MERCHF.CRE~   ~override~
 
 // Copy female Old Hive Dweller
 COPY_EXISTING	~MMOURN.CRE~   ~override~
-	SAY NAME1 @3353
 	SAY NAME2 @1750
 
 // Copy female Sensate
