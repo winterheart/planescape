@@ -1,0 +1,35 @@
+BACKUP ~pst-ee-l10n/backup~
+AUTHOR ~azamat.hackimov@gmail.com~
+VERSION ~v1.05~
+
+LANGUAGE
+	~Russian~	~russian~
+	~pst-ee-l10n/lang/ru_RU/pst-ee-l10n.tra~
+	~pst-ee-l10n/lang/ru_RU/names.tra~
+
+BEGIN @1000
+
+
+// Copying include.LUA for new language support
+COPY	~pst-ee-l10n/override/includes.LUA~		~override~
+
+// Copying images and font for localization
+COPY	~pst-ee-l10n/override/ru_RU/BOOKMANI.TTF~	~lang/ru_RU/override~
+	~pst-ee-l10n/override/ru_RU/Exocet.TTF~       	~lang/ru_RU/override~
+	~pst-ee-l10n/override/ru_RU/CGATTR.BAM~       	~lang/ru_RU/override~
+	~pst-ee-l10n/override/ru_RU/STARTBUT.BAM~       ~lang/ru_RU/override~
+	~pst-ee-l10n/override/ru_RU/MOS2000.PVRZ~       ~lang/ru_RU/override~
+	~pst-ee-l10n/override/ru_RU/MOS2001.PVRZ~       ~lang/ru_RU/override~
+	~pst-ee-l10n/override/ru_RU/MOS2002.PVRZ~       ~lang/ru_RU/override~
+	~pst-ee-l10n/override/ru_RU/MOS2003.PVRZ~       ~lang/ru_RU/override~
+	~pst-ee-l10n/override/ru_RU/MOS2004.PVRZ~       ~lang/ru_RU/override~
+	~pst-ee-l10n/override/ru_RU/MOS2005.PVRZ~       ~lang/ru_RU/override~
+	~pst-ee-l10n/override/ru_RU/MOS2006.PVRZ~       ~lang/ru_RU/override~
+	~pst-ee-l10n/override/ru_RU/MOS2007.PVRZ~       ~lang/ru_RU/override~
+
+STRING_SET_RANGE #0 #106833 USING ~pst-ee-l10n/lang/ru_RU/0-106833.tra~
+
+// MOD: Female Names
+// CREDIT: pst-l10n team
+INCLUDE ~pst-ee-l10n/tph/names.tph~
+

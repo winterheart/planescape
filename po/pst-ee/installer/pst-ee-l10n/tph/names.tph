@@ -1,0 +1,197 @@
+// Copy female Dustman
+COPY_EXISTING	~0203FD1.CRE~  ~lang/ru_RU/override~
+		~0203FD2.CRE~  ~lang/ru_RU/override~
+		~DUSTFB.CRE~   ~lang/ru_RU/override~
+		~DUSTFB2.CRE~  ~lang/ru_RU/override~
+		~DUSTFB3.CRE~  ~lang/ru_RU/override~
+		~DUSTFBAR.CRE~ ~lang/ru_RU/override~
+		~DUSTFBR2.CRE~ ~lang/ru_RU/override~
+		~DUSTFBR3.CRE~ ~lang/ru_RU/override~
+		~DUSTFM.CRE~   ~lang/ru_RU/override~
+		~DUSTFM2.CRE~  ~lang/ru_RU/override~
+		~MOURN2.CRE~   ~lang/ru_RU/override~
+		~MOURN4.CRE~   ~lang/ru_RU/override~
+	SAY NAME1 @255
+	SAY NAME2 @256
+
+// Copy female Brothel Patron
+COPY_EXISTING	~BPATRON2.CRE~ ~lang/ru_RU/override~
+		~BROCUS2.CRE~  ~lang/ru_RU/override~
+	SAY NAME1 @3088
+	SAY NAME2 @3048
+
+// Copy female Buried Villager
+COPY_EXISTING	~BURIEDF.CRE~   ~lang/ru_RU/override~
+		~BURIEDF1.CRE~  ~lang/ru_RU/override~
+		~BURIEDF2.CRE~  ~lang/ru_RU/override~
+		~BURIEDF3.CRE~  ~lang/ru_RU/override~
+		~BURIEDF4.CRE~  ~lang/ru_RU/override~
+		~BURIEDF5.CRE~  ~lang/ru_RU/override~
+		~BURIEDF6.CRE~  ~lang/ru_RU/override~
+		~BURIEDF7.CRE~  ~lang/ru_RU/override~
+		~BVTIEFF.CRE~   ~lang/ru_RU/override~
+	SAY NAME1 @19316
+	SAY NAME2 @13347
+
+// Copy female Curst Anarchist
+COPY_EXISTING	~CFANARCH.CRE~  ~lang/ru_RU/override~
+	SAY NAME1 @3085
+	SAY NAME2 @3046
+
+// Copy female Curst Citizen
+COPY_EXISTING	~CRSGIRL.CRE~  ~lang/ru_RU/override~
+	SAY NAME1 @67998
+	SAY NAME2 @67997
+
+// Copy female Anarchist
+COPY_EXISTING	~CRSTANC4.CRE~ ~lang/ru_RU/override~
+		~CRSTANC5.CRE~ ~lang/ru_RU/override~
+		~CRSTANC6.CRE~ ~lang/ru_RU/override~
+	SAY NAME1 @51056
+	SAY NAME2 @67997
+
+// Copy female Warehouse Worker
+COPY_EXISTING	~CRSTWKF2.CRE~ ~lang/ru_RU/override~
+		~CRSTWKF3.CRE~ ~lang/ru_RU/override~
+		~CRSTWRKF.CRE~ ~lang/ru_RU/override~
+	SAY NAME1 @3084
+	SAY NAME2 @3044
+
+// Copy female Hive Dweller
+COPY_EXISTING	~CUSHF.CRE~    ~lang/ru_RU/override~
+		~CUSHF2.CRE~   ~lang/ru_RU/override~
+		~CUSHF3.CRE~   ~lang/ru_RU/override~
+		~CUSHF4.CRE~   ~lang/ru_RU/override~
+		~CUSHF5.CRE~   ~lang/ru_RU/override~
+		~GHF1.CRE~     ~lang/ru_RU/override~
+		~GHF2.CRE~     ~lang/ru_RU/override~
+		~GHF3.CRE~     ~lang/ru_RU/override~
+		~HAODA.CRE~    ~lang/ru_RU/override~
+		~HIVEVAG4.CRE~ ~lang/ru_RU/override~
+		~HIVEVAG5.CRE~ ~lang/ru_RU/override~
+		~HIVEVAG6.CRE~ ~lang/ru_RU/override~
+		~HIVEW1.CRE~   ~lang/ru_RU/override~
+		~HIVEW2.CRE~   ~lang/ru_RU/override~
+		~HIVEW3.CRE~   ~lang/ru_RU/override~
+		~HIVEW4.CRE~   ~lang/ru_RU/override~
+		~HIVEW5.CRE~   ~lang/ru_RU/override~
+		~LISTENF.CRE~  ~lang/ru_RU/override~
+	SAY NAME1 @2343
+	SAY NAME2 @1750
+
+// Copy female CLerk's Ward Citizen
+COPY_EXISTING	~CWACTF1.CRE~  ~lang/ru_RU/override~
+		~CWACTF2.CRE~  ~lang/ru_RU/override~
+		~CWFEM.CRE~    ~lang/ru_RU/override~
+		~CWMIMEF1.CRE~ ~lang/ru_RU/override~
+		~CWMIMEF2.CRE~ ~lang/ru_RU/override~
+		~CWPOETF1.CRE~ ~lang/ru_RU/override~
+	SAY NAME1 @3108
+	SAY NAME2 @3153
+
+// Copy female Cafe Patron
+COPY_EXISTING	~CWCAFEF1.CRE~ ~lang/ru_RU/override~
+		~CWCAFEF2.CRE~ ~lang/ru_RU/override~
+	SAY NAME1 @29361
+	SAY NAME2 @3153
+
+// Copy female Lower Ward Townsperson
+COPY_EXISTING	~LWCUSF.CRE~   ~lang/ru_RU/override~
+		~LWCUSF2.CRE~  ~lang/ru_RU/override~
+		~LWCUSF3.CRE~  ~lang/ru_RU/override~
+		~LWFEM.CRE~    ~lang/ru_RU/override~
+		~LWFEM2.CRE~   ~lang/ru_RU/override~
+		~LWFEM3.CRE~   ~lang/ru_RU/override~
+		~LWTIEFF.CRE~  ~lang/ru_RU/override~
+		~LWTIEFF2.CRE~ ~lang/ru_RU/override~
+		~LWTIEFF3.CRE~ ~lang/ru_RU/override~
+	SAY NAME1 @2870
+	SAY NAME2 @2858
+
+// Copy female Mage-in-Training
+COPY_EXISTING	~MAGEF1.CRE~   ~lang/ru_RU/override~
+		~MAGEF2.CRE~   ~lang/ru_RU/override~
+	SAY NAME1 @29694
+	SAY NAME2 @29696
+
+// Copy female Hive Merchant
+COPY_EXISTING	~MERCHF.CRE~   ~lang/ru_RU/override~
+		~MERCHFO.CRE~  ~lang/ru_RU/override~
+	SAY NAME1 @9378
+	SAY NAME2 @9048
+
+// Copy female Old Hive Dweller
+COPY_EXISTING	~MMOURN.CRE~   ~lang/ru_RU/override~
+	SAY NAME2 @1750
+
+// Copy female Sensate
+COPY_EXISTING	~PATRON3.CRE~  ~lang/ru_RU/override~
+		~PATRON6.CRE~  ~lang/ru_RU/override~
+		~PATRON7.CRE~  ~lang/ru_RU/override~
+		~SENSAF1.CRE~  ~lang/ru_RU/override~
+		~SENSF1.CRE~   ~lang/ru_RU/override~
+		~SENSF2.CRE~   ~lang/ru_RU/override~
+		~SENSF3.CRE~   ~lang/ru_RU/override~
+		~SENSF4.CRE~   ~lang/ru_RU/override~
+	SAY NAME1 @3250
+	SAY NAME2 @3229
+
+// Copy female Smoldering Corpse Patron
+COPY_EXISTING	~SCFPAT.CRE~   ~lang/ru_RU/override~
+		~SCFPAT2.CRE~  ~lang/ru_RU/override~
+	SAY NAME1 @9044
+	SAY NAME2 @3306
+
+// Copy female Thief-in-Training
+COPY_EXISTING	~THIEF3.CRE~   ~lang/ru_RU/override~
+		~THIEF4.CRE~   ~lang/ru_RU/override~
+		~THIEF5.CRE~   ~lang/ru_RU/override~
+		~THIEF6.CRE~   ~lang/ru_RU/override~
+		~THIEF7.CRE~   ~lang/ru_RU/override~
+		~THIEF8.CRE~   ~lang/ru_RU/override~
+		~THIEF9.CRE~   ~lang/ru_RU/override~
+		~THIEF10.CRE~  ~lang/ru_RU/override~
+	SAY NAME1 @29697
+	SAY NAME2 @29698
+
+// Copy female Collector
+COPY_EXISTING	~VILF1.CRE~    ~lang/ru_RU/override~
+		~VILF2.CRE~    ~lang/ru_RU/override~
+	SAY NAME1 @2628
+	SAY NAME2 @2804
+
+// Copy female Warrior-in-Training
+COPY_EXISTING	~WARR4.CRE~    ~lang/ru_RU/override~
+	SAY NAME1 @29699
+	SAY NAME2 @29700
+
+// Copy female Zombie Worker
+COPY_EXISTING	~ZF1072.CRE~   ~lang/ru_RU/override~
+		~ZF1096.CRE~   ~lang/ru_RU/override~
+		~ZF114.CRE~    ~lang/ru_RU/override~
+		~ZF1148.CRE~   ~lang/ru_RU/override~
+		~ZF444.CRE~    ~lang/ru_RU/override~
+		~ZF594.CRE~    ~lang/ru_RU/override~
+		~ZF626.CRE~    ~lang/ru_RU/override~
+		~ZF679.CRE~    ~lang/ru_RU/override~
+		~ZF832.CRE~    ~lang/ru_RU/override~
+		~ZF891.CRE~    ~lang/ru_RU/override~
+		~ZF916.CRE~    ~lang/ru_RU/override~
+		~ZFWEAK.CRE~   ~lang/ru_RU/override~
+		~ZOMBIEF.CRE~  ~lang/ru_RU/override~
+		~ZOMBIEF2.CRE~ ~lang/ru_RU/override~
+		~ZOMBIEF3.CRE~ ~lang/ru_RU/override~
+		~ZOMFBAR1.CRE~ ~lang/ru_RU/override~
+		~ZOMFBAR2.CRE~ ~lang/ru_RU/override~
+		~ZOMFBAR3.CRE~ ~lang/ru_RU/override~
+	SAY NAME1 @259
+	SAY NAME2 @260
+
+// Copy female Sensate Artist
+COPY_EXISTING	~ARTIST.CRE~   ~lang/ru_RU/override~
+	SAY NAME2 @3229
+
+// Copy female Ultera (Buried Villager)
+COPY_EXISTING	~ULTHERA.CRE~  ~lang/ru_RU/override~
+	SAY NAME2 @13347
+
