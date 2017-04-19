@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE martif PUBLIC 'ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN' 'TBXcdv04.dtd'>
-<martif xml:lang="en" type="TBX">
+<martif type="TBX" xml:lang="en">
     <martifHeader>
         <fileDesc>
             <titleStmt>
@@ -9038,6 +9038,58 @@
           <descrip type="definition">Один из видов баатезу</descrip>
           <tig>
             <term>спинагон</term>
+          </tig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-172">
+        <descrip type="subjectField">общие термины</descrip>
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>slider</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <tig>
+            <term>бегунок</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-492">
+        <descrip type="subjectField">механика AD&amp;D</descrip>
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>party</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <tig>
+            <term>группа</term>
+          </tig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-493">
+        <descrip type="subjectField">общие термины</descrip>
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>area</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <tig>
+            <term>местности</term>
+          </tig>
+        </langSet>
+      </termEntry>
+      <termEntry id="azamat_h._hackimov-494">
+        <descrip type="subjectField">planescape</descrip>
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>warding</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <tig>
+            <term>защита</term>
           </tig>
         </langSet>
       </termEntry>
