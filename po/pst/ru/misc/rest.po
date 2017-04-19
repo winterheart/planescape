@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
 "POT-Creation-Date: 2009-09-06 02:51 +0600\n"
-"PO-Revision-Date: 2017-04-13 21:03+0500\n"
+"PO-Revision-Date: 2017-04-18 00:45+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 "Language: ru\n"
 "X-Poedit-Bookmarks: -1,659,-1,-1,-1,-1,-1,-1,-1,-1\n"
@@ -2316,7 +2316,7 @@ msgid ""
 "slot and use it on the world screen."
 msgstr ""
 "Ты не можешь использовать предметы в этом окне. Для этого помести их в "
-"быстрые слоты и используй на экране мира."
+"быстрые ячейки и используй на экране мира."
 
 #: 4279
 msgid "This item has not been identified."
@@ -3242,8 +3242,8 @@ msgstr ""
 "This should lead to Node 3. ACTION VARIABLES were removed from this "
 "responce. The variable was entered as an Area when it was a Global in the "
 "DB.\n"
-"SetGlobal(«FedEx», «Global», 10)\n"
-"SetGlobal(«Aoskar», «AR3006D», 1)"
+"SetGlobal(\"FedEx\", \"Global\", 10)\n"
+"SetGlobal(\"Aoskar\", \"AR3006D\", 1)"
 
 #: 17163
 msgid "This should lead to Node 3."
@@ -4697,7 +4697,7 @@ msgstr "Покои Соэго."
 
 #: 25623
 msgid "Antechamber of the Silent King's throne room."
-msgstr "Прихожая тронного зала Безмолвного Короля."
+msgstr "Передняя тронного зала Безмолвного Короля."
 
 #: 25624
 msgid "To the Cranium Rat Collective."
@@ -4962,7 +4962,7 @@ msgstr "Ты уверен, что хочешь удалить этого пер�
 
 #: 28080
 msgid "You cannot change the Nameless One's party order."
-msgstr "Ты не можешь менять порядок в группе Безымянного."
+msgstr "Ты не можешь менять порядок Безымянного в группе."
 
 #: 28081
 msgid "Confusion"
@@ -9430,7 +9430,7 @@ msgstr "Очков Персонажа получено."
 
 #: 38715
 msgid "Weapon Proficiency slots gained."
-msgstr "слот оружейного навыка получен."
+msgstr "ячейка оружейного навыка получена."
 
 #: 38716
 msgid "Thief Skill points gained."
@@ -10580,7 +10580,7 @@ msgstr "4 и 2"
 
 #: 44961
 msgid "3 by 2"
-msgstr "3 за 2"
+msgstr "3 на 2"
 
 #: 44962
 msgid "Protect"
@@ -10706,7 +10706,7 @@ msgid ""
 "are successfully memorized."
 msgstr ""
 "Все отдыхают в гостинице на протяжении 8 часов и восстанавливают по <HP> "
-"очков жизни. Заклинания запомнены удачно."
+"очков жизни. Заклинания успешно запомнены."
 
 #: 45582
 msgid "\"I'd like to talk trades.\""
@@ -10836,7 +10836,7 @@ msgstr "«А что? Что-то не так?»"
 
 #: 48152
 msgid "2 by 3"
-msgstr "2 за 3"
+msgstr "2 на 3"
 
 #: 48153
 msgid ""
@@ -10881,7 +10881,7 @@ msgid ""
 "InParty(\"MORTE\")\n"
 "Class(SelectedCharacter, Fighter)"
 msgstr ""
-"InParty(«MORTE»)\n"
+"InParty(\"MORTE\")\n"
 "Class(SelectedCharacter, Fighter)"
 
 #: 48283
@@ -10890,7 +10890,7 @@ msgstr "::Прикрывает рот::"
 
 #: 48284
 msgid "Global(\"Appearance\", \"GLOBAL\", 1)"
-msgstr "Global(«Appearance», «GLOBAL», 1)"
+msgstr "Global(\"Appearance\", \"GLOBAL\", 1)"
 
 #: 48286
 msgid "Sealed Scroll"
@@ -11206,7 +11206,7 @@ msgstr ""
 #: 49155
 msgid ""
 "<KEY> key is already assigned to <OPERATION>.  Would you like to reassign it?"
-msgstr "На <KEY> уже назначили <OPERATION>. Хочешь переназначить?"
+msgstr "На <KEY> уже назначено действие <OPERATION>. Переназначить?"
 
 #: 49220 49223 67823 67825
 msgid "\"Teach me something about weapons first.\""
@@ -11595,43 +11595,43 @@ msgstr ""
 
 #: 51350
 msgid "Global(\"Fell_Arm\",\"GLOBAL\",1)"
-msgstr "Global(«Fell_Arm»,«GLOBAL»,1)"
+msgstr "Global(\"Fell_Arm\",\"GLOBAL\",1)"
 
 #: 51351
 msgid "Global(\"Trias_Redeem\", \"GLOBAL\", 1)"
-msgstr "Global(«Trias_Redeem», «GLOBAL», 1)"
+msgstr "Global(\"Trias_Redeem\", \"GLOBAL\", 1)"
 
 #: 51352
 msgid "Global(\"Trias_Dead\", \"KAPUTZ\", 1)"
-msgstr "Global(«Trias_Dead», «KAPUTZ», 1)"
+msgstr "Global(\"Trias_Dead\", \"KAPUTZ\", 1)"
 
 #: 51353 67270
 msgid "GlobalGT(\"Join_Anarchists\", \"GLOBAL\", 0)"
-msgstr "GlobalGT(«Join_Anarchists», «GLOBAL», 0)"
+msgstr "GlobalGT(\"Join_Anarchists\", \"GLOBAL\", 0)"
 
 #: 51354
 msgid "Global(\"Specialist\", \"GLOBAL\", 5)"
-msgstr "Global(«Specialist», «GLOBAL», 5)"
+msgstr "Global(\"Specialist\", \"GLOBAL\", 5)"
 
 #: 51355
 msgid "Global(\"Specialist\", \"GLOBAL\", 2)"
-msgstr "Global(«Specialist», «GLOBAL», 2)"
+msgstr "Global(\"Specialist\", \"GLOBAL\", 2)"
 
 #: 51356
 msgid "Global(\"Specialist\", \"GLOBAL\", 6)"
-msgstr "Global(«Specialist», «GLOBAL», 6)"
+msgstr "Global(\"Specialist\", \"GLOBAL\", 6)"
 
 #: 51357
 msgid "Global(\"Specialist\", \"GLOBAL\", 3)"
-msgstr "Global(«Specialist», «GLOBAL», 3)"
+msgstr "Global(\"Specialist\", \"GLOBAL\", 3)"
 
 #: 51358
 msgid "Global(\"Specialist\", \"GLOBAL\", 4)"
-msgstr "Global(«Specialist», «GLOBAL», 4)"
+msgstr "Global(\"Specialist\", \"GLOBAL\", 4)"
 
 #: 51359
 msgid "Global(\"Specialist\", \"GLOBAL\", 1)"
-msgstr "Global(«Specialist», «GLOBAL», 1)"
+msgstr "Global(\"Specialist\", \"GLOBAL\", 1)"
 
 #: 51360
 msgid ""
@@ -11639,7 +11639,7 @@ msgid ""
 "Global(\"Specialist\", \"GLOBAL\", 9)"
 msgstr ""
 "Class(Myself, MAGE)\n"
-"Global(«Specialist», «GLOBAL», 9)"
+"Global(\"Specialist\", \"GLOBAL\", 9)"
 
 #: 51361
 msgid ""
@@ -11647,35 +11647,35 @@ msgid ""
 "Global(\"Specialist\", \"GLOBAL\", 8)"
 msgstr ""
 "Class(Myself, THIEF)\n"
-"Global(«Specialist», «GLOBAL», 8)"
+"Global(\"Specialist\", \"GLOBAL\", 8)"
 
 #: 51362
 msgid "GlobalGT(\"Ravel_Teach\", \"GLOBAL\", 1)"
-msgstr "GlobalGT(«Ravel_Teach», «GLOBAL», 1)"
+msgstr "GlobalGT(\"Ravel_Teach\", \"GLOBAL\", 1)"
 
 #: 51363
 msgid "GlobalGT(\"Githzerai\", \"GLOBAL\", 4)"
-msgstr "GlobalGT(«Githzerai», «GLOBAL», 4)"
+msgstr "GlobalGT(\"Githzerai\", \"GLOBAL\", 4)"
 
 #: 51364
 msgid ""
 "Global(\"Join_Godsmen\", \"GLOBAL\", 6)\n"
 "!Global(\"Join_Anarchists\", \"GLOBAL\", 1)"
 msgstr ""
-"Global(«Join_Godsmen», «GLOBAL», 6)\n"
-"!Global(«Join_Anarchists», «GLOBAL», 1)"
+"Global(\"Join_Godsmen\", \"GLOBAL\", 6)\n"
+"!Global(\"Join_Anarchists\", \"GLOBAL\", 1)"
 
 #: 51365
 msgid "Global(\"AR1000_Visited\", \"GLOBAL\", 1)"
-msgstr "Global(«AR1000_Visited», «GLOBAL», 1)"
+msgstr "Global(\"AR1000_Visited\", \"GLOBAL\", 1)"
 
 #: 51366
 msgid "Global(\"Sybil_Quest\", \"GLOBAL\", 3)"
-msgstr "Global(«Sybil_Quest», «GLOBAL», 3)"
+msgstr "Global(\"Sybil_Quest\", \"GLOBAL\", 3)"
 
 #: 51367
 msgid "GlobalGT(\"Mausoleum_Quest\", \"GLOBAL\", 1)"
-msgstr "GlobalGT(«Mausoleum_Quest», «GLOBAL», 1)"
+msgstr "GlobalGT(\"Mausoleum_Quest\", \"GLOBAL\", 1)"
 
 #: 51368
 msgid "CheckStatGT(Protagonist, 99, STEALTH)"
@@ -11692,23 +11692,24 @@ msgstr "CheckStatGT(Protagonist, 99, LOCKPICKING)"
 #: 51371
 msgid ""
 "GlobalORGlobal(\"Vris_Buy_07\", \"GLOBAL\", \"Vris_Buy_12\", \"GLOBAL\")"
-msgstr "GlobalORGlobal(«Vris_Buy_07», «GLOBAL», «Vris_Buy_12», «GLOBAL»)"
+msgstr ""
+"GlobalORGlobal(\"Vris_Buy_07\", \"GLOBAL\", \"Vris_Buy_12\", \"GLOBAL\")"
 
 #: 51372
 msgid "Global(\"Speak_With_Dead\", \"GLOBAL\", 1)"
-msgstr "Global(«Speak_With_Dead», «GLOBAL», 1)"
+msgstr "Global(\"Speak_With_Dead\", \"GLOBAL\", 1)"
 
 #: 51373
 msgid ""
 "Global(\"Join_Sensates\", \"GLOBAL\", 1)\n"
 "!Global(\"Join_Anarchists\", \"GLOBAL\", 1)"
 msgstr ""
-"Global(«Join_Sensates», «GLOBAL», 1)\n"
-"!Global(«Join_Anarchists», «GLOBAL», 1)"
+"Global(\"Join_Sensates\", \"GLOBAL\", 1)\n"
+"!Global(\"Join_Anarchists\", \"GLOBAL\", 1)"
 
 #: 51374
 msgid "GlobalGT(\"Rat_Eater\", \"GLOBAL\", 99)"
-msgstr "GlobalGT(«Rat_Eater», «GLOBAL», 99)"
+msgstr "GlobalGT(\"Rat_Eater\", \"GLOBAL\", 99)"
 
 #: 51375
 msgid ""
@@ -11721,74 +11722,74 @@ msgid ""
 "Global(\"Yves_Story_07\", \"GLOBAL\", 1) \n"
 "Global(\"Yves_Story_13\", \"GLOBAL\", 1)"
 msgstr ""
-"Global(«Yves_Story_01», «GLOBAL», 1)\n"
-"Global(«Yves_Story_02», «GLOBAL», 1) \n"
-"Global(«Yves_Story_03», «GLOBAL», 1) \n"
-"Global(«Yves_Story_04», «GLOBAL», 1) \n"
-"Global(«Yves_Story_05», «GLOBAL», 1) \n"
-"Global(«Yves_Story_06», «GLOBAL», 1) \n"
-"Global(«Yves_Story_07», «GLOBAL», 1) \n"
-"Global(«Yves_Story_13», «GLOBAL», 1)"
+"Global(\"Yves_Story_01\", \"GLOBAL\", 1)\n"
+"Global(\"Yves_Story_02\", \"GLOBAL\", 1) \n"
+"Global(\"Yves_Story_03\", \"GLOBAL\", 1) \n"
+"Global(\"Yves_Story_04\", \"GLOBAL\", 1) \n"
+"Global(\"Yves_Story_05\", \"GLOBAL\", 1) \n"
+"Global(\"Yves_Story_06\", \"GLOBAL\", 1) \n"
+"Global(\"Yves_Story_07\", \"GLOBAL\", 1) \n"
+"Global(\"Yves_Story_13\", \"GLOBAL\", 1)"
 
 #: 51376
 msgid "Global (\"Krystall\", \"GLOBAL\", 4)"
-msgstr "Global («Krystall», «GLOBAL», 4)"
+msgstr "Global (\"Krystall\", \"GLOBAL\", 4)"
 
 #: 51377
 msgid "GlobalGT(\"Ravel_Teach\", \"GLOBAL\", 0)"
-msgstr "GlobalGT(«Ravel_Teach», «GLOBAL», 0)"
+msgstr "GlobalGT(\"Ravel_Teach\", \"GLOBAL\", 0)"
 
 #: 51378
 msgid "GlobalGT(\"Ravel\", \"GLOBAL\", 0)"
-msgstr "GlobalGT(«Ravel», «GLOBAL», 0)"
+msgstr "GlobalGT(\"Ravel\", \"GLOBAL\", 0)"
 
 #: 51379
 msgid "GlobalGT(\"Ravel_Flatter\", \"GLOBAL\", 2)"
-msgstr "GlobalGT(«Ravel_Flatter», «GLOBAL», 2)"
+msgstr "GlobalGT(\"Ravel_Flatter\", \"GLOBAL\", 2)"
 
 #: 51380
 msgid "GlobalGT(\"Ravel_Kiss\", \"GLOBAL\", 0)"
-msgstr "GlobalGT(«Ravel_Kiss», «GLOBAL», 0)"
+msgstr "GlobalGT(\"Ravel_Kiss\", \"GLOBAL\", 0)"
 
 #: 51381
 msgid ""
 "Global(\"Crier\",\"GLOBAL\", 2)\n"
 "Global(\"Crier_Answer\",\"GLOBAL\", 0)\n"
 msgstr ""
-"Global(«Crier»,«GLOBAL», 2)\n"
-"Global(«Crier_Answer»,«GLOBAL», 0)\n"
+"Global(\"Crier\",\"GLOBAL\", 2)\n"
+"Global(\"Crier_Answer\",\"GLOBAL\", 0)\n"
 
 #: 51382
 msgid "Global(\"Karina_Friend\", \"GLOBAL\", 2)"
-msgstr "Global(«Karina_Friend», «GLOBAL», 2)"
+msgstr "Global(\"Karina_Friend\", \"GLOBAL\", 2)"
 
 #: 51383
 msgid "GlobalGT(\"Crier_Answer\",\"GLOBAL\", 0)"
-msgstr "GlobalGT(«Crier_Answer»,«GLOBAL», 0)"
+msgstr "GlobalGT(\"Crier_Answer\",\"GLOBAL\", 0)"
 
 #: 51384
 msgid "Global(\"Release_Dimtree\",\"GLOBAL\", 5)"
-msgstr "Global(«Release_Dimtree»,«GLOBAL», 5)"
+msgstr "Global(\"Release_Dimtree\",\"GLOBAL\", 5)"
 
 #: 51385
 msgid "Global(\"Byron_Arrested\",\"GLOBAL\", 1)"
-msgstr "Global(«Byron_Arrested»,«GLOBAL», 1)"
+msgstr "Global(\"Byron_Arrested\",\"GLOBAL\", 1)"
 
 #: 51386
 msgid "Global(\"Evil_Grosuk_1\",\"GLOBAL\", 1)"
-msgstr "Global(«Evil_Grosuk_1»,«GLOBAL», 1)"
+msgstr "Global(\"Evil_Grosuk_1\",\"GLOBAL\", 1)"
 
 #: 51387
 msgid "Global(\"Kill_Grosuk\",\"GLOBAL\", 4)"
-msgstr "Global(«Kill_Grosuk»,«GLOBAL», 4)"
+msgstr "Global(\"Kill_Grosuk\",\"GLOBAL\", 4)"
 
 #: 51388
 msgid "Global(\"Trist_Quest\", \"GLOBAL\", 4)"
-msgstr "Global(«Trist_Quest», «GLOBAL», 4)"
+msgstr "Global(\"Trist_Quest\", \"GLOBAL\", 4)"
 
 #: 51389
 msgid "Global(\"Karina_Friend\", \"GLOBAL\", 3)"
-msgstr "Global(«Karina_Friend», «GLOBAL», 3)"
+msgstr "Global(\"Karina_Friend\", \"GLOBAL\", 3)"
 
 #: 51393
 msgid ""
@@ -11796,7 +11797,7 @@ msgid ""
 "Global(\"Specialist\", \"GLOBAL\", 7)"
 msgstr ""
 "Class(Myself, FIGHTER)\n"
-"Global(«Specialist», «GLOBAL», 7)"
+"Global(\"Specialist\", \"GLOBAL\", 7)"
 
 #: 51394
 msgid ""
@@ -11804,7 +11805,7 @@ msgid ""
 "Global(\"Specialist\", \"GLOBAL\", 6)"
 msgstr ""
 "Class(Myself, MAGE)\n"
-"Global(«Specialist», «GLOBAL», 6)"
+"Global(\"Specialist\", \"GLOBAL\", 6)"
 
 #: 51395
 msgid ""
@@ -11812,7 +11813,7 @@ msgid ""
 "Global(\"Specialist\", \"GLOBAL\", 3)"
 msgstr ""
 "Class(Myself, MAGE)\n"
-"Global(«Specialist», «GLOBAL», 3)"
+"Global(\"Specialist\", \"GLOBAL\", 3)"
 
 #: 51396
 msgid ""
@@ -11820,7 +11821,7 @@ msgid ""
 "Global(\"Specialist\", \"GLOBAL\", 2)"
 msgstr ""
 "Class(Myself, THIEF)\n"
-"Global(«Specialist», «GLOBAL», 2)"
+"Global(\"Specialist\", \"GLOBAL\", 2)"
 
 #: 51397
 msgid "InParty(\"Nordom\")"
@@ -11832,7 +11833,7 @@ msgid ""
 "Global(\"Specialist\", \"GLOBAL\", 5)"
 msgstr ""
 "Class(Myself, THIEF)\n"
-"Global(«Specialist», «GLOBAL», 5)"
+"Global(\"Specialist\", \"GLOBAL\", 5)"
 
 #: 51399
 msgid "InParty(\"Morte\")"
@@ -11844,7 +11845,7 @@ msgid ""
 "Global(\"Specialist\", \"GLOBAL\", 4)"
 msgstr ""
 "Class(Myself, FIGHTER)\n"
-"Global(«Specialist», «GLOBAL», 4)"
+"Global(\"Specialist\", \"GLOBAL\", 4)"
 
 #: 51401
 msgid "InParty(\"Grace\")"
@@ -11856,7 +11857,7 @@ msgid ""
 "Global(\"Specialist\", \"GLOBAL\", 1)"
 msgstr ""
 "Class(Myself, FIGHTER)\n"
-"Global(«Specialist», «GLOBAL», 1)"
+"Global(\"Specialist\", \"GLOBAL\", 1)"
 
 #: 51403
 msgid "InParty(\"Ignus\")"
@@ -11885,7 +11886,7 @@ msgid ""
 "put your quest in danger."
 msgstr ""
 "Ты навлек на себя немилость Леди, пожалуй, в последний раз. Советуем "
-"сохраниться в другой слот, поскольку, перезаписав эту сохраненную игру, ты "
+"сохраниться в другую ячейку, поскольку, перезаписав эту сохраненную игру, ты "
 "поставишь свои приключения под угрозу."
 
 #: 52394
@@ -12131,58 +12132,58 @@ msgstr "«Головы на воротах»"
 
 #: 53004
 msgid "GlobalGT(\"Mage_Training\", \"GLOBAL\", 0)"
-msgstr "GlobalGT(«Mage_Training», «GLOBAL», 0)"
+msgstr "GlobalGT(\"Mage_Training\", \"GLOBAL\", 0)"
 
 #: 53005
 msgid ""
 "InParty(\"Grace\")\n"
 "Global(\"Know_Goncalves_Mage\", \"AR0611\", 1)"
 msgstr ""
-"InParty(«Grace»)\n"
-"Global(«Know_Goncalves_Mage», «AR0611», 1)"
+"InParty(\"Grace\")\n"
+"Global(\"Know_Goncalves_Mage\", \"AR0611\", 1)"
 
 #: 53006
 msgid ""
 "InParty(\"Annah\")\n"
 "Global(\"Know_Goncalves_Mage\", \"AR0611\", 1)"
 msgstr ""
-"InParty(«Annah»)\n"
-"Global(«Know_Goncalves_Mage», «AR0611», 1)"
+"InParty(\"Annah\")\n"
+"Global(\"Know_Goncalves_Mage\", \"AR0611\", 1)"
 
 #: 53007
 msgid "Global(\"AR0900_Visited\",\"GLOBAL\",1)"
-msgstr "Global(«AR0900_Visited»,«GLOBAL»,1)"
+msgstr "Global(\"AR0900_Visited\",\"GLOBAL\",1)"
 
 #: 53008
 msgid ""
 "InParty(\"Nordom\")\n"
 "Global(\"Nordom_Bolt_07\", \"GLOBAL\", 1)"
 msgstr ""
-"InParty(«Nordom»)\n"
-"Global(«Nordom_Bolt_07», «GLOBAL», 1)"
+"InParty(\"Nordom\")\n"
+"Global(\"Nordom_Bolt_07\", \"GLOBAL\", 1)"
 
 #: 53009
 msgid ""
 "InParty(\"Nordom\")\n"
 "Global(\"Nordom_Bolt_06\", \"GLOBAL\", 1)"
 msgstr ""
-"InParty(«Nordom»)\n"
-"Global(«Nordom_Bolt_06», «GLOBAL», 1)"
+"InParty(\"Nordom\")\n"
+"Global(\"Nordom_Bolt_06\", \"GLOBAL\", 1)"
 
 #: 53010
 msgid ""
 "InParty(\"Nordom\")\n"
 "Global(\"Nordom_Bolt_03\", \"GLOBAL\", 1)"
 msgstr ""
-"InParty(«Nordom»)\n"
-"Global(«Nordom_Bolt_03», «GLOBAL», 1)"
+"InParty(\"Nordom\")\n"
+"Global(\"Nordom_Bolt_03\", \"GLOBAL\", 1)"
 
 #: 53011
 msgid ""
 "GlobalGT(\"Murder\", \"GLOBAL\", 29)\n"
 "Class(Myself, FIGHTER)"
 msgstr ""
-"GlobalGT(«Murder», «GLOBAL», 29)\n"
+"GlobalGT(\"Murder\", \"GLOBAL\", 29)\n"
 "Class(Myself, FIGHTER)"
 
 #: 53296
@@ -12688,7 +12689,7 @@ msgid ""
 "turns out Ingress left her living teeth as payment. I'll try not to spend "
 "them all in one place."
 msgstr ""
-"Я поговорил с Кандрианом Болезнерожденным в баре «Тлеющий труп», и "
+"Я поговорил с Кандрианом Низкородным в баре «Тлеющий труп», и "
 "оказалось, что он знает о портале, через который прошла Ингресс. Я попросил "
 "его о помощи, и он согласился провести ее обратно. Я вернулся и рассказал "
 "Ингресс, затем снова встретился с Кандрианом... оказывается, Ингресс "
@@ -15580,7 +15581,7 @@ msgstr "Снарядные атаки"
 
 #: 67220
 msgid "Normal"
-msgstr "Нормальная"
+msgstr "Норма"
 
 #: 67289
 msgid ""
@@ -15818,7 +15819,7 @@ msgstr ""
 
 #: 68425
 msgid "GlobalGT(\"Regret\",\"GLOBAL\",1)"
-msgstr "GlobalGT(«Regret»,«GLOBAL»,1)"
+msgstr "GlobalGT(\"Regret\",\"GLOBAL\",1)"
 
 #: 68459
 msgid "Intelligence decreased permanently"
