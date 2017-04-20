@@ -1,12 +1,12 @@
 #!/bin/sh
 
 ITP='po/script/Infinity Text Parser/InfinityPacker.pl'
-IN_TRA="po/trans/0-106496.tra"
+IN_TRA="po/pst/trans/0-106496.tra"
 OUT_TRA="installer/pst-l10n/tra/russian/0-106496.tra"
-PO_FILES="po/ru/"
-PO_NAMES="po/names/"
+PO_FILES="po/pst/ru/"
+PO_NAMES="po/pst/names/"
 
-VERSION_PSTL10N="1.01"
+VERSION_PSTL10N="1.02"
 VERSION_QWINN="4.13"
 
 echo "==== Making *.tra ===="
