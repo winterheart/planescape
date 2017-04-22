@@ -8,7 +8,7 @@ PST_PO_FILES="${PST_BASE}/ru/"
 PST_PO_NAMES="${PST_BASE}/names/"
 
 # REMINDER Don't forget modify tp2 file
-PST_VERSION_PSTL10N="1.02"
+PST_VERSION_PSTL10N="1.05"
 PST_VERSION_QWINN="4.13"
 
 PSTEE_BASE="po/pst-ee"
