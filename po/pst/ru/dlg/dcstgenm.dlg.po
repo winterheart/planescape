@@ -3,15 +3,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dcstgenm.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-03-21 00:10+0600\n"
-"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"PO-Revision-Date: 2017-02-08 22:41+0200\n"
+"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"X-Generator: Poedit 1.8.11\n"
 "Language: ru\n"
 
 #: 64432
@@ -19,8 +19,8 @@ msgid ""
 "You see a man with a worried expression. He glances at you as you approach "
 "and frowns."
 msgstr ""
-"Ты видишь мужчину с озабоченным выражением лица. Увидев, как ты "
-"приближаешься, он хмурится."
+"Ты видишь человека со встревоженным видом. Заметив, что ты подходишь к нему, "
+"он хмурит брови."
 
 #: 64433 64445 64473
 msgid "\"Greetings.\""
@@ -35,7 +35,8 @@ msgid ""
 "He sighs and turns his attention to you. \"Greetings to you as well... What "
 "do you want?\""
 msgstr ""
-"Со вздохом он поворачивается к тебе. «И тебе привет... Чего тебе нужно?»"
+"Со вздохом он переключает на тебя свое внимание. «И тебе привет... Чего ты "
+"хочешь?»"
 
 #: 64436 64448 64476
 msgid "\"I have some questions...\""
@@ -47,11 +48,11 @@ msgstr "«Ничего, неважно»."
 
 #: 64438
 msgid "He frowns. \"Questions... Bar that, berk. Pike off.\" "
-msgstr "Она хмурится. «Вопросы... Задвинься, пень. Отвали»."
+msgstr "Она хмурится. «Вопросы... Пень, ты бы задвинулся, что ли. Отвали»."
 
 #: 64439
 msgid "\"It will take just a moment of your time...\""
-msgstr "«Это займет совсем немного твоего времени...»"
+msgstr "«Это не займет много времени...»"
 
 #: 64440
 msgid "\"Farewell then.\""
@@ -62,9 +63,8 @@ msgid ""
 "\"I don't have a moment to give you.\" He pauses, reaches into his belt and "
 "pulls out a dagger. \"How about I give you some baatorian steel instead?\""
 msgstr ""
-"«У меня нет ни секунды на тебя, - он выхватывает из-под пояса кинжал - Как "
-"насчет того, чтобы вместо этого угостить тебя отличнейшей бааторийской "
-"сталью?»"
+"«У меня нет ни секунды на тебя, - он выхватывает из-за пояса кинжал. - Не "
+"желаешь вместо этого угоститься отличнейшей бааторийской сталью?»"
 
 #: 64442
 msgid "Attack him."
@@ -76,23 +76,23 @@ msgstr "Уйти."
 
 #: 64444
 msgid "You see a young man. He glances at you as you approach and frowns."
-msgstr "Ты видишь молодого парня. Увидев, как ты приближаешься, он хмурится."
+msgstr "Перед тобой юноша. Заметив, что ты подходишь к нему, он хмурится."
 
 #: 64447
 msgid ""
 "He smiles at you but looks about nervously. \"Yes. Greetings and all that... "
 "You want something?\""
 msgstr ""
-"Он улыбается тебе, но при этом выглядит нервозным. «Да. Привет и все "
-"такое... Тебе нужно что-то?»"
+"Он улыбается тебе, но при этом нервно оглядывается. «Да. Привет и все "
+"такое... Тебе что-то нужно?»"
 
 #: 64449
 msgid "\"No, never mind. Farewell.\""
-msgstr "«Нет, неважно. Прощай»."
+msgstr "«Забудь об этом. Прощай»."
 
 #: 64450
 msgid "He frowns and sighs. \"If you must.\""
-msgstr "Протяжно вздохнув, он хмурится. «Ну если так хочешь»."
+msgstr "Протяжно вздохнув, он хмурит брови. «Если это необходимо»."
 
 #: 64451
 msgid "\"Who are you?\""
@@ -100,15 +100,15 @@ msgstr "«Кто ты?»"
 
 #: 64452
 msgid "\"What are you doing?\""
-msgstr "«Что ты делаешь?»"
+msgstr "«Чем ты занимаешься?»"
 
 #: 64453
 msgid "\"What can you tell me about Curst?\""
-msgstr "«Что ты можешь сказать о Проклятом?»"
+msgstr "«Что ты можешь рассказать о Проклятом?»"
 
 #: 64454
 msgid "\"Do you know anything about a deva?\""
-msgstr "«Тебе известно что-нибудь о дэва?»"
+msgstr "«Тебе что-нибудь известно про дэва?»"
 
 #: 64455 64458 64461 64465 64468
 msgid "\"I must be going, farewell.\""
@@ -119,25 +119,25 @@ msgid ""
 "\"It isn't important who I am. Just ask your questions. He gives you an "
 "impatient look."
 msgstr ""
-"«Неважно кто я. Просто задай вопросы и я попробую на них ответить». Он "
-"нетерпеливо смотрит на тебя."
+"«Неважно, кто я. Просто задавай свои вопросы». Он с нетерпением смотрит на "
+"тебя."
 
 #: 64457 64460
 msgid "\"Very well. I have some questions...\""
-msgstr "«Ладно. У меня еще вопросы...»"
+msgstr "«Ладно. У меня еще пара вопросов...»"
 
 #: 64459
 msgid ""
 "\"What I am doing is not really your concern. Just ask your questions.\""
-msgstr "«Что я делаю - тебя не касается. Просто задай свои вопросы»."
+msgstr "«Чем я занимаюсь, тебя не касается. Просто задай свои вопросы»."
 
 #: 64462
 msgid ""
 "\"Curst...\" He pauses and glances about. \"Don't trust nobody. That's all "
 "you got to know about Curst to survive. Don't trust nobody...\""
 msgstr ""
-"«Проклятый... - он озирается вокруг. - Никому не верь. Это все, что нужно "
-"тебе знать о Проклятом, чтобы выжить. Никому не верь...»"
+"«Проклятый... - он озирается вокруг. - Никому не верь. Это все, что тебе "
+"нужно знать о Проклятом, чтобы выжить. Никому не верь...»"
 
 #: 64463
 msgid "\"Does that include you?\""
@@ -149,19 +149,19 @@ msgstr "«Понятно. У меня есть еще вопросы...»"
 
 #: 64466
 msgid "He smiles. \"Absolutely...\""
-msgstr "Он улыбается. «Ну конечно...»"
+msgstr "Он улыбается. «Безусловно...»"
 
 #: 64469
 msgid ""
 "He frowns as he thinks. \"No, nothing about a deva.\" He shrugs. \"Ask at "
 "the administration office in the center of town.\""
 msgstr ""
-"Он задумывается. «Нет, о дэва - ничего, - он пожимает плечам. Спроси кого-"
-"нибудь в административном здании в центре города»."
+"Он задумывается. «Нет, про дэва - ничего, - он пожимает плечам. - Спроси "
+"кого-нибудь в административном здании в центре города»."
 
 #: 64470
 msgid "\"I will. I have some more questions...\""
-msgstr "«Я так и сделаю. У меня есть другие вопросы...»"
+msgstr "«Так и сделаю. У меня есть другие вопросы...»"
 
 #: 64471
 msgid "\"Thank you, farewell.\""
@@ -170,7 +170,9 @@ msgstr "«Спасибо, прощай»."
 #: 64472
 msgid ""
 "You see an angry looking man. He glances at you as you approach and frowns."
-msgstr "Ты видишь злобного мужчину. Увидев, как ты приближаешься, он хмурится."
+msgstr ""
+"Перед тобой сердитый мужчина. Увидев, как ты приближаешься к нему, он "
+"хмурится."
 
 #: 64475
 msgid ""
@@ -178,8 +180,9 @@ msgid ""
 "it. Whatever it is you're trying to sell, I don't want it. Now leave me be."
 "\" He glares at you."
 msgstr ""
-"Он осторожно смотрит на тебя. «Э-э-э... Привет. Чего бы ты ни хотел продать, "
-"мне это не нужно. Оставь меня в покое». Она озирается по сторонам."
+"Он настороженно смотрит на тебя. «Э-э-э... Привет. Чего бы ты там ни хотел, "
+"у меня его нет. Чего бы ты там ни пытался продать, меня это не интересует. "
+"Оставь меня в покое». Он пристально смотрит на тебя."
 
 #: 64477 64480 64485
 msgid "\"Very well, farewell.\""
@@ -190,12 +193,12 @@ msgid ""
 "\"Hmm... How nice. You have questions.  Well, be that as it may, I still "
 "don't want to be bothered by you. Go away.\" He frowns."
 msgstr ""
-"«Хмм... Как мило. У тебя есть вопросы. Пусть даже так, но я все равно не "
-"хочу, чтобы ты надоедал мне. Уходи». Он хмурится."
+"«Хм-м... Как мило. У тебя есть вопросы. Пусть даже так, я все равно не хочу, "
+"чтобы ты мне надоедал. Уходи». Он хмурится."
 
 #: 64479
 msgid "\"It will only take a moment of your time.\""
-msgstr "«Это не займет много твоего времени»."
+msgstr "«Это не займет много времени»."
 
 #: 64481
 msgid ""
@@ -203,8 +206,8 @@ msgid ""
 "understand my saying *no* the nice way... Do I have to do it the not so nice "
 "way?\""
 msgstr ""
-"Вздыхая он гневно трясет руками. «Ладно, ты не понимаешь *по-хорошему*... "
-"Может мне сказать это не так обходительно?»"
+"Он вздыхает и с раздражением вскидывает руки. «Ладно, *по-хорошему* ты не "
+"понимаешь... Может, мне разъяснить все не так обходительно?»"
 
 #: 64482
 msgid "\"Yes, you do.\""
@@ -219,8 +222,8 @@ msgid ""
 "He smiles. \"Very well then... Go blow your questions out your arse!\" He "
 "makes a rude gesture at you. \"Pike off you berk!\""
 msgstr ""
-"Он улыбается. «Ну хорошо... Иди вздуй себе задницу своими вопросами! - он "
-"показывает тебе оскорбительный жест. - «Отвали, пень!»"
+"Он улыбается. «Ну хорошо... Засунь-ка свои вопросы себе в жопу! - он "
+"показывает тебе оскорбительный жест. - Отвали, пень!»"
 
 #: 64486
 msgid ""
@@ -228,9 +231,9 @@ msgid ""
 "\"I've had enough of you already, bugger off...\" He turns away and ignores "
 "you."
 msgstr ""
-"Ты видишь скучающего мужчину Увидев, как ты приближаешься, он хмурится.. "
-"«Как мне надоел, хватит меня доканывать...» Он отворачивается и не обращает "
-"на тебя внимания."
+"Ты видишь скучающего человека. Заметив, что ты приближаешься к нему, он "
+"хмурится. «Как ты мне надоел, хватит меня доканывать...» Он отворачивается и "
+"не обращает на тебя внимания."
 
 #: 64488
 msgid ""
@@ -238,4 +241,4 @@ msgid ""
 "response from them regardless of how hard you try."
 msgstr ""
 "Этот субъект настолько сильно расстроен пребыванием в тюрьме, что, несмотря "
-"на все твои попытки привлечь внимание, ни на что не реагирует."
+"на все твои попытки привлечь внимание, ты не можешь добиться ответа."
