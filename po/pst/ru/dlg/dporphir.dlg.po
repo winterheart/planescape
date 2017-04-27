@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dporphir.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-04-15 14:22+0500\n"
+"PO-Revision-Date: 2017-04-28 00:37+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 "Language: ru\n"
 
@@ -549,7 +549,7 @@ msgstr "Оставить Порфирона в покое."
 
 #: 26694
 msgid "\"I think so. Is this it?\""
-msgstr "«Думаю, да. Это оно?»"
+msgstr "«Думаю, да. Это они?»"
 
 #: 26695
 msgid "\"Not yet... where did you say it was stolen from you again?\""
@@ -1273,3 +1273,4 @@ msgstr "«Чему ты можешь меня обучить?»"
 #: 26877
 msgid "\"None today, thanks. Maybe later.\""
 msgstr "«Спасибо, не сегодня. Может быть, потом»."
+
