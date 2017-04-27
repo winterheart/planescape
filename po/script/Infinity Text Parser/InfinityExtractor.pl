@@ -7,6 +7,7 @@ use InfinityParser::CHUI;
 use InfinityParser::CRE;
 use InfinityParser::DLG;
 use InfinityParser::ITM;
+use InfinityParser::LUA;
 use InfinityParser::SPL;
 use InfinityParser::SRC;
 use InfinityParser::STOR;
@@ -44,6 +45,8 @@ foreach $file (@files) {
 		$src = InfinityParser::SRC->new();
 	} elsif ($file =~ m/\.(BAF|baf)$/ ) {
 		$src = InfinityParser::BAF->new();
+	} elsif ($file =~ m/\.(LUA|lua)$/ ) {
+		$src = InfinityParser::LUA->new();
 	} else {		
 		open(FILE,"<", $file);
 		read(FILE, my $buffer, 4);
@@ -129,7 +132,7 @@ foreach my $i (@rest) {
 	}
 }
 # Формируем файл, в котором сохраняются строки, не найденные больше нигде
-Locale::PO->save_file_fromarray($config{output}."rest.pot", \@po);
+Locale::PO->save_file_fromarray($config{output}."/rest.pot", \@po);
 system("msguniq", $config{output}."/rest.pot", "-o", $config{output}."/rest.pot");
 
 #print @all;
