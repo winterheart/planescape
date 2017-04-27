@@ -1,0 +1,1433 @@
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-04-28 00:06 +0500\n"
+"PO-Revision-Date: 2017-04-28 00:26+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
+"Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: 106527
+msgid "Quick Load"
+msgstr "Быстрая загрузка"
+
+#: 106533
+msgid "Scroll Up"
+msgstr "Прокрутка вверх"
+
+#: 106534
+msgid "Scroll Left"
+msgstr "Прокрутка влево"
+
+#: 106535
+msgid "Scroll Down"
+msgstr "Прокрутка вниз"
+
+#: 106536
+msgid "Scroll Right"
+msgstr "Прокрутка вправо"
+
+#: 106537
+msgid "Spell Slot 1"
+msgstr "Ячейка заклинания 1"
+
+#: 106538
+msgid "Spell Slot 2"
+msgstr "Ячейка заклинания 2"
+
+#: 106539
+msgid "Spell Slot 3"
+msgstr "Ячейка заклинания 3"
+
+#: 106540
+msgid "Weapon Slot 1"
+msgstr "Ячейка оружия 1"
+
+#: 106541
+msgid "Weapon Slot 2"
+msgstr "Ячейка оружия 2"
+
+#: 106542
+msgid "Weapon Slot 3"
+msgstr "Ячейка оружия 3"
+
+#: 106543
+msgid "Weapon Slot 4"
+msgstr "Ячейка оружия 4"
+
+#: 106544
+msgid "Item Slot 1"
+msgstr "Ячейка предмета 1"
+
+#: 106545
+msgid "Item Slot 2"
+msgstr "Ячейка предмета 2"
+
+#: 106546
+msgid "Item Slot 3"
+msgstr "Ячейка предмета 3"
+
+#: 106547
+msgid "Formation Slot 1"
+msgstr "Ячейка формирования 1"
+
+#: 106548
+msgid "Formation Slot 2"
+msgstr "Ячейка формирования 2"
+
+#: 106549
+msgid "Formation Slot 3"
+msgstr "Ячейка формирования 3"
+
+#: 106550
+msgid "Formation Slot 4"
+msgstr "Ячейка формирования 4"
+
+#: 106551
+msgid "Formation Slot 5"
+msgstr "Ячейка формирования 5"
+
+#: 106552
+msgid "Character 1"
+msgstr "Персонаж 1"
+
+#: 106553
+msgid "Character 2"
+msgstr "Персонаж 2"
+
+#: 106554
+msgid "Character 3"
+msgstr "Персонаж 3"
+
+#: 106555
+msgid "Character 4"
+msgstr "Персонаж 4"
+
+#: 106556
+msgid "Character 5"
+msgstr "Персонаж 5"
+
+#: 106557
+msgid "Character 6"
+msgstr "Персонаж 6"
+
+#: 106564
+msgid "Zoom In"
+msgstr "Приближение"
+
+#: 106565
+msgid "Zoom Out"
+msgstr "Отдаление"
+
+#: 106567
+msgid "Quick Slots"
+msgstr "Быстрые ячейки"
+
+#: 106579
+msgid "Sounds"
+msgstr "Звуки"
+
+#: 106580
+msgid "Graphics"
+msgstr "Графика"
+
+#: 106581
+msgid "Sound"
+msgstr "Звук"
+
+#: 106582
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: 106583
+msgid "Gameplay"
+msgstr "Игра"
+
+#: 106584
+msgid "Auto-pause"
+msgstr "Автопауза"
+
+#: 106585
+msgid "Feedback"
+msgstr "Обратная связь"
+
+#: 106586 33078
+msgid "Credits"
+msgstr "Авторы"
+
+#: 106587
+msgid "Language"
+msgstr "Язык"
+
+#: 106588
+msgid "Enable Cloud Saves"
+msgstr "Включить сохранения в облаке"
+
+#: 106589
+msgid "Heal on Rest"
+msgstr "Исцеление во время отдыха"
+
+#: 106590
+msgid "Max HP on Level Up"
+msgstr "Макс. ЗД при повышении уровня"
+
+#: 106591
+msgid "Enemy Sighted"
+msgstr "Замечен враг"
+
+#: 106592
+msgid "Spell Cast"
+msgstr "Чтение заклинания"
+
+#: 106593
+msgid "Trap Found"
+msgstr "Найдена ловушка"
+
+#: 106594
+msgid "Center on Party Member"
+msgstr "Центрировать на персонаже"
+
+#: 106595
+msgid "Hardware Mouse Cursor"
+msgstr "Аппаратный указатель мыши"
+
+#: 106596
+msgid "Zoom Lock"
+msgstr "Заблокировать приближение"
+
+#: 106597
+msgid "Sprite Outlines*"
+msgstr "Контуры спрайтов*"
+
+#: 106598
+msgid "Display Options"
+msgstr "Параметры экрана"
+
+#: 106599
+msgid "Always"
+msgstr "Всегда"
+
+#: 106600
+msgid "Seldom"
+msgstr "Иногда"
+
+#: 106601
+msgid "Never"
+msgstr "Никогда"
+
+#: 106602
+msgid "Enable Confirmation"
+msgstr "Включить подтверждение"
+
+#: 106603
+msgid "Disable Cosmetic Attacks"
+msgstr "Отключить косметические атаки"
+
+#: 106604
+msgid "Show Movie Subtitles"
+msgstr "Показывать субтитры в роликах"
+
+#: 106605
+msgid "Travel"
+msgstr "Путешествие"
+
+#: 106606
+msgid "New Save"
+msgstr "Новое сохранение"
+
+#: 106607
+msgid "Show Map Notes"
+msgstr "Показывать метки на карте"
+
+#: 106608
+msgid "Show Walkable"
+msgstr "Достижимые области"
+
+#: 106610
+msgid "Use Steam Cloud saves."
+msgstr "Использовать сохранения в Steam Cloud."
+
+#: 106611
+msgid ""
+"Gain maximum additional Hit Points on level up. Otherwise, Hit Points are "
+"randomly rolled as per AD&D rules."
+msgstr ""
+"Получать максимально возможную прибавку к очкам жизни при повышении уровня."
+" Иначе очки жизни будут назначаться в соответствии с правилами AD&D."
+
+#: 106617
+msgid ""
+"Enable this option to allow the area map to scroll past the edge of the user "
+"interface."
+msgstr ""
+
+#: 106618
+msgid "Allow Scrolling Out Of Bounds"
+msgstr ""
+
+#: 106619
+msgid ""
+"If this setting is turned on, creatures and spells will have a smoothing "
+"effect applied to them at high resolutions. Disable it to revert to Nearest "
+"Neighbor scaling which is what the original game used.\n"
+"\n"
+"This is an Enhanced Edition feature."
+msgstr ""
+"При включении данного параметра на существа и заклинания будет наложен эффект"
+" сглаживания при высоких разрешениях. При отключении будет использован метод"
+" «Ближайшего соседа», применявшийся в оригинальной версии игры.\n"
+"\n"
+"Это нововведение Enhanced Edition."
+
+#: 106620
+msgid "Linear Scaling*"
+msgstr "Линейное масштабирование*"
+
+#: 106622
+msgid "Compatibility Renderer"
+msgstr "Совместимый ренедер"
+
+#: 106623
+msgid "Grayscale on Pause*"
+msgstr "Черно-белая палитра при паузе*"
+
+#: 106624
+msgid "Highlight Selected Sprite*"
+msgstr "Подсветка выбранного спрайта*"
+
+#: 106626
+msgid "Select a key binding to modify."
+msgstr "Выберите клавишу для изменения."
+
+#: 106627
+msgid "Skip"
+msgstr "Пропуск"
+
+#: 106628
+msgid "Hit Points"
+msgstr "Очки жизни"
+
+#: 106629
+msgid "Enter Search Term"
+msgstr "Введите запрос для поиска"
+
+#: 106631
+msgid "Replay"
+msgstr "Повтор"
+
+#: 106632
+msgid "Show More"
+msgstr "Еще"
+
+#: 106633
+msgid "Close"
+msgstr "Закрыть"
+
+#: 106634
+msgid "Load the Last Saved Game"
+msgstr "Загрузка последнего сохранения"
+
+#: 106635
+msgid ""
+"Your party is full, please remove party members until you have 6 or fewer."
+msgstr ""
+"Ваша группа полна, пожалуйста, удалите лишних членов группы, пока их"
+" количество станет больше 6."
+
+#: 106636
+msgid "Map Note"
+msgstr "Метка на карте"
+
+#: 106642 106757
+msgid "How To Play"
+msgstr "Приступая к игре"
+
+#: 106644
+msgid "AC"
+msgstr "КБ"
+
+#: 106682
+msgid "Choose Amount"
+msgstr "Укажите количество"
+
+#: 106683
+msgid "No items to identify"
+msgstr "Нет предмето на опознание"
+
+#: 106688
+msgid "Gameworld Scaling*"
+msgstr "Масштабирование игрового мира*"
+
+#: 106689
+msgid ""
+"If this setting is turned on, then pressing the middle mouse button will set "
+"the zoom level to a pixel perfect match of the original game (larger viewing "
+"field, unscaled, pixel perfect gameworld).\n"
+"\n"
+"If this setting is turned off, then pressing the middle mouse button will "
+"set the zoom level to that of the original game (smaller viewing field, "
+"scaled gameworld).\n"
+"\n"
+"This is an Enhanced Edition feature."
+msgstr ""
+"При включении данного параметра нажатие средней клавиши мыши устанавливает"
+" уровень приближения в идеальное соответствие с оригинальной игрой (более"
+" широкое поле обзора, без масштабирования игрового мира, точное соответствие"
+" спрайтам).\n"
+"\n"
+"При отключении данного параметра нажатие средней клавиши мыши устанавливает"
+" уровень приближения в соответствие оригинальному (малое поле обзора,"
+" масштабирование игрового мира).\n"
+"\n"
+"Это нововведение Enhanced Edition."
+
+#: 106690
+msgid "Frame Rate*"
+msgstr "Частота кадров*"
+
+#: 106691
+msgid ""
+"This slider allows you to increase the frame rate at which the game runs, "
+"thereby speeding up all aspects of the gameplay.\n"
+"\n"
+"Left: Original Game (30) Middle: Enhanced (40) Right: Fastest (50).\n"
+"\n"
+"WARNING: Adjusting the frame rate above 30 may result in audio sync issues "
+"during cutscenes as well as mistimed spell effects during combat."
+msgstr ""
+"Этот бегунок позволяет вам увеличить частоту кадров, с которой будет работать"
+" игра, из-за чего некоторые аспекты игрового процесса будут ускорены.\n"
+"\n"
+"Левое положение: оригинальная игра (30), среднее положение: Enhanced (40),"
+" правое положение: быстро (50).\n"
+"\n"
+"ВНИМАНИЕ: Повышение частоты кадров выше 30 может привести к приблемам"
+" синхронизации звука во время воспроизведения роликов и неправильному показу"
+" эффектов заклинаний во время битв."
+
+#: 106695
+msgid "Smooth Area Transitions*"
+msgstr "Плавный переход между местностями*"
+
+#: 106696
+msgid ""
+"If this setting is turned on, the name of the destination will be displayed "
+"when you arrive at an area. The game will also fade out and in when "
+"transitioning between areas.\n"
+"\n"
+"This is an Enhanced Edition feature."
+msgstr ""
+"При включении данного параметра при переходе в новую местность будет"
+" отображено"
+" ее название. Также во время перехода между местностями игра будет плавно"
+" менять отображение.\n"
+"\n"
+"Это нововведение Enhanced Edition."
+
+#: 106697
+msgid "Quickloot"
+msgstr "Быстрый подбор"
+
+#: 106698
+msgid "Combat Log"
+msgstr "Боевая сводка"
+
+#: 106700
+msgid "Double Size Cursors"
+msgstr "Указатели двойного размера"
+
+#: 106701
+msgid "Enabling this option will double the size of the cursors on screen."
+msgstr "Включение этого параметра удваивает размеры указателей на экране."
+
+#: 106702
+msgid ""
+"Welcome to the Planescape: Enhanced Edition! We can't tell you how proud we "
+"are that Planescape has gathered such a following over the years to allow "
+"this return to the multiverse and all its wonders - on behalf of the "
+"original team and the team at Beamdog, thank you.\n"
+"\n"
+"To provide the best experience for both our long-time fans and newcomers, "
+"you can select from one of two playstyles: the Original option for those "
+"that want an experience as close as possible to the original Torment, and "
+"the Enhanced option for those who seek the functionality present in previous "
+"enhanced editions. \n"
+"\n"
+"Feel free to choose whichever one suits your tastes - you can customize "
+"individual settings on the Options menu."
+msgstr ""
+"Добро пожаловать в Planescape: Enhanced Edition! Мы очень рады тому, что на"
+" протяжении стольких лет Planescape сумел собрать вокруг себя так много"
+" фанатов, благодаря чему стало возможным это возвращение в мультивселенную к"
+" ее удивительным чудесам. От имени оригинальной команды и команды Beamdog,"
+" огромное вам спасибо.\n"
+"\n"
+"Чтобы обеспечить наилучшее восприятие от игры, как среди закоренелых фанатов,"
+" так и среди новичков, мы предлагаем вам выбрать один из двух стилей игры:"
+" Оригинальная игра - для тех, кто хочет испытать максимально близкие к"
+" оригинальному Torment ощущения; и Расширенная игра - для тех, кому"
+" необходимы удобства, появившиеся в расширенных изданиях.\n"
+"\n"
+"Вы можете выбрать тот, что ближе вам - в любой момент вы сможете подобрать"
+" собственный вариант в меню настроек."
+
+#: 106703
+msgid "Welcome..."
+msgstr "Здравствуйте..."
+
+#: 106704
+msgid "Enhanced"
+msgstr "Расширенная игра"
+
+#: 106705
+msgid "Original"
+msgstr "Оригинальная игра"
+
+#: 106706
+msgid ""
+"Enhanced options are enabled to make interacting with the gameworld more "
+"enjoyable. These options include:\n"
+"\n"
+"- Larger field of view\n"
+"- Creatures are smoothed out, have outlines, and are highlighted when "
+"selected\n"
+"- Faster game speed\n"
+"\n"
+"Adjust these options, individually, and at any time, by accessing the "
+"Options screen. These options are marked with an * to make finding them in "
+"the menus easier."
+msgstr ""
+"Включены расширенные параметры для более лучшего взаимодействия с игровым"
+" миром. Эти параметры включают в себя:\n"
+"\n"
+"- Более широкую область обзора\n"
+"- Существа отрисовываются с применением сглаживания, имеют контуры и"
+" подсвечиваются при выборе\n"
+"- Более быстрая скорость игры\n"
+"\n"
+"Вы можете изменить эти параметры любой момент и по отдельности через меню"
+" Настроек. Эти параметры отмечены * для более удобного поиска."
+
+#: 106707
+msgid ""
+"Several enhanced options are turned off so the experience is closer to the "
+"original, including:\n"
+"\n"
+"- Tighter field of view, matching original\n"
+"- Creatures are not smoothed out\n"
+"- Original game speed\n"
+"\n"
+"Adjust these options, individually, and at any time, by accessing the "
+"Options screen. These options are marked with an * to make finding them in "
+"the menus easier."
+msgstr ""
+"Ряд расширенных параметров отключено для наиболее близкого соответствия"
+" оригинальной игре:\n"
+"\n"
+"- Более узкая область обзора, как у оригинала\n"
+"- При отрисовке существ не используется сглаживание\n"
+"- Скорость игры соответствует оригиналу\n"
+"\n"
+"Вы можете изменить эти параметры любой момент и по отдельности через меню"
+" Настроек. Эти параметры отмечены * для более удобного поиска."
+
+#: 106710
+msgid "Equip Weapon"
+msgstr "Взять оружие"
+
+#: 106711
+msgid "Memorized Mage Spells"
+msgstr "Запомненные заклинания мага"
+
+#: 106712
+msgid "Memorized Priest Spells"
+msgstr "Запомненные заклинания жреца"
+
+#: 106732
+msgid "Show Enemy Health Status"
+msgstr "Показывать уровень здоровья врагов"
+
+#: 106733
+msgid ""
+"When this setting is turned on, the approximate health status of enemies "
+"will be displayed above their sprites if they are selected or highlighted. "
+"If this setting is turned off, the health status of enemies will not be "
+"shown."
+msgstr ""
+"При включении данного параметра над спрайтами выбранных или подсвеченных"
+" противников будет отображаться примерное состояние их здоровья. При"
+" отключенном параметре состояние здоровья противников не отображается."
+
+#: 106734
+msgid "Item Slot 4"
+msgstr "Ячейка предмета 4"
+
+#: 106735
+msgid "Item Slot 5"
+msgstr "Ячейка предмета 5"
+
+#: 106756
+msgid "Show / Hide Hit Points"
+msgstr "Показать / скрыть очки жизни"
+
+#: 106764
+msgid "Use Tablet Interface"
+msgstr "Интерфейс для планшетов"
+
+#: 106765
+msgid ""
+"If this setting is on, the tablet interface will be used. When off, the PC "
+"interface will be used.\n"
+"\n"
+"^NNote: Only advanced users should change this option.^-"
+msgstr ""
+"При включении данного параметра будет использован интерфейс для планшетов."
+" При отключении данного параметра будет использовать интерфейс для"
+" компьютеров.\n"
+"\n"
+"^NПримечание: Этот параметр рекомендуется включать только опытным"
+" пользователям.^-"
+
+#: 106787
+msgid "Tablet Menu"
+msgstr "Меню планшета"
+
+#: 106788
+msgid "Game Menu"
+msgstr "Меню игры"
+
+#: 106800
+msgid "Right-click an item icon to read its description"
+msgstr "Щелкните правой кнопкой мыши по предмету для прочтения его описания"
+
+#: 106802
+msgid "Drop items here"
+msgstr "Сбрасывайте предметы сюда"
+
+#: 106804
+msgid "Reveal Details"
+msgstr "Показать детали"
+
+#: 106805
+msgid "Selection Mode Toggle"
+msgstr "Переключатель режима выбора"
+
+#: 106808
+msgid "Current Action"
+msgstr "Текущее действие"
+
+#: 106813
+msgid ""
+"Statistics are influenced by character level, items equipped, and active "
+"spells"
+msgstr ""
+"На характеристики влияют уровень персонажа, надетые предметы и активные"
+" заклинания"
+
+#: 106815
+msgid "Memorized Spells (able to cast)"
+msgstr "Запомненные заклинания (можно колдовать)"
+
+#: 106816
+msgid "Known spells (able to memorize)"
+msgstr "Известные заклинания (можно запоминать)"
+
+#: 106819
+msgid "Party Member Slots"
+msgstr "Ячейки членов группы"
+
+#: 106832
+msgid "Weight:"
+msgstr "Вес:"
+
+#: 106833
+msgid "Slots:"
+msgstr "Ячейки:"
+
+#: 1403
+msgid "Done"
+msgstr "Готово"
+
+#: 1899
+msgid "NEW LIFE"
+msgstr "НОВАЯ ЖИЗНЬ"
+
+#: 20106
+msgid ""
+"FACTION\n"
+"\n"
+"A group of individuals who hold similar beliefs about the nature of the "
+"multiverse. Belief is power on the planes; if enough people believe in an "
+"idea, that idea may become reality."
+msgstr ""
+"ФРАКЦИЯ\n"
+"\n"
+"Группа субъектов со схожими убеждениями о природе мультивселенной. Убеждения "
+"являются силой на планах; если достаточное количество людей верят какую-либо "
+"идею, то она становится реальностью."
+
+#: 20429
+msgid "World Map"
+msgstr "Карта мира"
+
+#: 20430
+msgid "Quests"
+msgstr "Задания"
+
+#: 20634
+msgid "Beasts"
+msgstr "Существа"
+
+#: 20635 48870
+msgid "Journal"
+msgstr "Дневник"
+
+#: 20637
+msgid "PC"
+msgstr "Игровые персонажи"
+
+#: 20638
+msgid "NPC"
+msgstr "Неигровые персонажи"
+
+#: 20639
+msgid "Save Game"
+msgstr "Сохранить игру"
+
+#: 23787
+msgid "Yes"
+msgstr "Да"
+
+#: 23789
+msgid "No"
+msgstr "Нет"
+
+#: 2592
+msgid "Load Game"
+msgstr "Загрузить игру"
+
+#: 2593
+msgid "Start a New Game"
+msgstr "Начать новую игру"
+
+#: 2595
+msgid "Quit Game"
+msgstr "Выйти"
+
+#: 28071
+msgid "Are you sure you want to remove this character from your party?"
+msgstr "Вы уверены, что хотите удалить этого персонажа из своей группы?"
+
+#: 28640
+msgid "Delete"
+msgstr "Удалить"
+
+#: 28644
+msgid "Overwrite"
+msgstr "Переписать"
+
+#: 28645
+msgid "Save"
+msgstr "Сохранить"
+
+#: 28648
+msgid "Load"
+msgstr "Загрузить"
+
+#: 28649
+msgid "SAVE GAME"
+msgstr "СОХРАНИТЬ ИГРУ"
+
+#: 28651
+msgid "Please Enter a Save Game Title:"
+msgstr "Введите название сохранения:"
+
+#: 28652
+msgid "LOAD GAME"
+msgstr "ЗАГРУЗИТЬ ИГРУ"
+
+#: 29723
+msgid "Assign Keys"
+msgstr "Клавиши"
+
+#: 29726
+msgid "Full Screen"
+msgstr "На весь экран"
+
+#: 30296
+msgid "GAMEPLAY OPTIONS"
+msgstr "ПАРАМЕТРЫ ИГРЫ"
+
+#: 30298
+msgid "ASSIGN KEYS"
+msgstr "НАЗНАЧЕНИЕ КЛАВИШ"
+
+#: 30299
+msgid "MOVIES"
+msgstr "РОЛИКИ"
+
+#: 31212
+msgid ""
+"This screen contains options to modify how the game plays. Select a control "
+"to see a description of what it does."
+msgstr ""
+"В этом окне содержатся параметры, изменяющие поведение игры. Выберите"
+" параметр для отображения описания его действия."
+
+#: 31217
+msgid "Dither Always"
+msgstr "Всегда использовать дизеринг"
+
+#: 31218
+msgid "Gore"
+msgstr "Кровь"
+
+#: 31233
+msgid ""
+"This control determines the difficulty of Gameplay. Moving the slider to the "
+"left will cause enemies to deal less damage, making the game easier. Moving "
+"the slider right will increase the damage caused by enemies, making the game "
+"harder."
+msgstr ""
+"Этот параметр определяет сложность игрового процесса. При перемещении бегунка"
+" влево противники будут наносить меньше урона, делая игру проще. При"
+" перемещении бегунка вправо противники будут наносить больше урона, делая"
+" игру сложнее."
+
+#: 31234
+msgid "Brightness"
+msgstr "Яркость"
+
+#: 31429
+msgid "Contrast"
+msgstr "Контраст"
+
+#: 31460
+msgid "Ambient"
+msgstr "Фоновые звуки"
+
+#: 31466
+msgid "Sound FX"
+msgstr "Звуковые эффекты"
+
+#: 31467
+msgid "Voice"
+msgstr "Голос"
+
+#: 31468
+msgid "Music"
+msgstr "Музыка"
+
+#: 31469
+msgid "Movie"
+msgstr "Ролики"
+
+#: 31479
+msgid "Difficulty"
+msgstr "Сложность"
+
+#: 31480
+msgid "Keyboard Scrolling Speed"
+msgstr "Прокрутка клавиатурой"
+
+#: 31481
+msgid "Tooltip Delay"
+msgstr "Задержка подсказок"
+
+#: 31482
+msgid "Mouse Scrolling Speed"
+msgstr "Прокрутка мышью"
+
+#: 33034
+msgid "Play Movie"
+msgstr "Проиграть ролики"
+
+#: 37463
+msgid "Marker Feedback"
+msgstr "Обратная связь в виде маркеров"
+
+#: 37586
+msgid "Locator Feedback"
+msgstr "Обратная связь в виде локаторов"
+
+#: 37588
+msgid "To Hit Rolls"
+msgstr "Броски попадания"
+
+#: 37590
+msgid "Combat Info"
+msgstr "Боевая сводка"
+
+#: 37592
+msgid "Spell Casting"
+msgstr "Чтение заклинаний"
+
+#: 37594
+msgid "Character States"
+msgstr "Состояние персонажа"
+
+#: 37596
+msgid "Miscellaneous Messages"
+msgstr "Разные сообщения"
+
+#: 37598
+msgid "Character Hit"
+msgstr "В персонажа попали"
+
+#: 37680
+msgid "THIEF SKILLS"
+msgstr "НАВЫКИ ВОРА"
+
+#: 37681
+msgid "Character Injured"
+msgstr "Персонаж ранен"
+
+#: 37682
+msgid "Character Dead"
+msgstr "Персонаж убит"
+
+#: 37683
+msgid "Character Attacked"
+msgstr "Персонаж атакован"
+
+#: 37684
+msgid "Weapon Unusable"
+msgstr "Оружие бесполезно"
+
+#: 37685
+msgid "Target Gone"
+msgstr "Цель исчезла"
+
+#: 37686
+msgid "End of Round"
+msgstr "Конец раунда"
+
+#: 38156
+msgid "Movies"
+msgstr "Ролики"
+
+#: 38570
+msgid "Points Left:"
+msgstr "Очки:"
+
+#: 38576
+msgid "SAVING THROWS"
+msgstr "СПАСБРОСКИ"
+
+#: 39434
+msgid "Completed"
+msgstr "Выполнено"
+
+#: 41275
+msgid "None"
+msgstr "Нет"
+
+#: 41601
+msgid "Inventory Screen"
+msgstr "Окно инвентаря"
+
+#: 41623
+msgid "Journal Screen"
+msgstr "Окно дневника"
+
+#: 41624
+msgid "Mage Spell Book"
+msgstr "Окно магических заклинаний"
+
+#: 41625
+msgid "Map Screen"
+msgstr "Окно карты"
+
+#: 41627
+msgid "Return to the Game World"
+msgstr "Вернуться в игровой мир"
+
+#: 41647
+msgid "Lock view on character"
+msgstr "Привязать вид к персонажу"
+
+#: 41655
+msgid "Abort Current Action"
+msgstr "Отменить текущее действие"
+
+#: 41659
+msgid "Select All Characters"
+msgstr "Выбрать всех персонажей"
+
+#: 41660
+msgid "Open Dialogue Window"
+msgstr "Открыть окно диалога"
+
+#: 41711
+msgid "Mage Spells"
+msgstr "Заклинания мага"
+
+#: 41715
+msgid "Priest Spells"
+msgstr "Заклинания жреца"
+
+#: 41717
+msgid "Rest Party"
+msgstr "Отдых группы"
+
+#: 4182
+msgid "Add Note"
+msgstr "Метка"
+
+#: 4192
+msgid "Accept"
+msgstr "Готово"
+
+#: 4196
+msgid "Cancel"
+msgstr "Отмена"
+
+#: 4197
+msgid "Armor Class"
+msgstr "Класс брони"
+
+#: 4198
+msgid "Current Hit Points"
+msgstr "Текущие очки жизни"
+
+#: 4199
+msgid "Maximum Hit Points"
+msgstr "Максимальные очки жизни"
+
+#: 4242
+msgid "Rest"
+msgstr "Отдых"
+
+#: 4244
+msgid "Reform Party"
+msgstr "Изменить группу"
+
+#: 4245
+msgid "Information"
+msgstr "Информация"
+
+#: 4246
+msgid "Level Up"
+msgstr "Новый уровень"
+
+#: 4247
+msgid "Biography"
+msgstr "Биография"
+
+#: 42514
+msgid "Remove"
+msgstr "Удалить"
+
+#: 4255
+msgid "Abilities"
+msgstr "Способности"
+
+#: 4256
+msgid "Identify"
+msgstr "Опознать"
+
+#: 4259
+msgid "Spell"
+msgstr "Заклинание"
+
+#: 4260
+msgid "Scroll"
+msgstr "Свиток"
+
+#: 44945 48890
+msgid "Formations"
+msgstr "Формирования"
+
+#: 44957
+msgid "Follow"
+msgstr "Следовать"
+
+#: 44958
+msgid "T"
+msgstr "T"
+
+#: 44959
+msgid "Gather"
+msgstr "Собраться"
+
+#: 44960
+msgid "4 and 2"
+msgstr "4 и 2"
+
+#: 44961
+msgid "3 by 2"
+msgstr "3 на 2"
+
+#: 44962
+msgid "Protect"
+msgstr "Защищать"
+
+#: 44964
+msgid "Rank"
+msgstr "Шеренга"
+
+#: 44965
+msgid "V"
+msgstr "V"
+
+#: 44966
+msgid "Wedge"
+msgstr "Клин"
+
+#: 44967
+msgid "S"
+msgstr "S"
+
+#: 44968
+msgid "Line"
+msgstr "Линия"
+
+#: 44972
+msgid "Steal"
+msgstr "Украсть"
+
+#: 45119
+msgid "Drinks"
+msgstr "Напитки"
+
+#: 45120
+msgid "Rooms"
+msgstr "Комнаты"
+
+#: 45121
+msgid "Donate"
+msgstr "Пожертвовать"
+
+#: 45303
+msgid "Buy"
+msgstr "Купить"
+
+#: 45304
+msgid "Sell"
+msgstr "Продать"
+
+#: 45306
+msgid "Rent"
+msgstr "Снять"
+
+#: 45308
+msgid "Peasant"
+msgstr "Крестьянин"
+
+#: 45310
+msgid "Merchant"
+msgstr "Торговец"
+
+#: 45313
+msgid "Noble"
+msgstr "Аристократ"
+
+#: 45316
+msgid "Royal"
+msgstr "Король"
+
+#: 46677
+msgid "Back"
+msgstr "Назад"
+
+#: 4707
+msgid "Statistics Screen"
+msgstr "Окно характеристик"
+
+#: 4709
+msgid "Priest Scroll"
+msgstr "Свиток жреца"
+
+#: 48152
+msgid "2 by 3"
+msgstr "2 на 3"
+
+#: 48394
+msgid "Pause/Unpause Game"
+msgstr "Остановить/продолжить игру"
+
+#: 48395
+msgid "Page Access"
+msgstr "Страницы"
+
+#: 48869
+msgid "Inventory"
+msgstr "Инвентарь"
+
+#: 48871
+msgid "Map"
+msgstr "Карта"
+
+#: 48874
+msgid "Options"
+msgstr "Параметры"
+
+#: 48875
+msgid "Character Stats"
+msgstr "Характеристики персонажа"
+
+#: 48876
+msgid "Return to Game"
+msgstr "Вернуться в игру"
+
+#: 48877
+msgid "Center Character"
+msgstr "Центрировать на персонаже"
+
+#: 48881
+msgid "Miscellaneous"
+msgstr "Разное"
+
+#: 48882
+msgid "Location"
+msgstr "Расположение"
+
+#: 48883
+msgid "Quick Save"
+msgstr "Быстрое сохранение"
+
+#: 48884
+msgid "Actions"
+msgstr "Действия"
+
+#: 48885
+msgid "Attack"
+msgstr "Атаковать"
+
+#: 48886
+msgid "Cast Spell"
+msgstr "Произнести заклинание"
+
+#: 48887
+msgid "Guard"
+msgstr "Охранять"
+
+#: 48888
+msgid "Use Item"
+msgstr "Использовать предмет"
+
+#: 48889
+msgid "Dialog"
+msgstr "Диалог"
+
+#: 48891
+msgid "Thieving"
+msgstr "Воровство"
+
+#: 48892
+msgid "Stealth"
+msgstr "Скрытность"
+
+#: 48893
+msgid "Trap Detection"
+msgstr "Обнаружение ловушек"
+
+#: 48894
+msgid "Stop"
+msgstr "Стоп"
+
+#: 48895
+msgid "Special Abilities"
+msgstr "Особые навыки"
+
+#: 48897
+msgid "Multiselect 1-2"
+msgstr "Выбрать 1-2"
+
+#: 48898
+msgid "Multiselect 3-4"
+msgstr "Выбрать 3-4"
+
+#: 48899
+msgid "Multiselect 5-6"
+msgstr "Выбрать 5-6"
+
+#: 48900
+msgid "Multiselect 1-3"
+msgstr "Выбрать 1-3"
+
+#: 48903
+msgid "Multiselect 4-6"
+msgstr "Выбрать 4-6"
+
+#: 48904
+msgid "Multiselect All"
+msgstr "Выбрать всех"
+
+#: 48947
+msgid "Toggle Always Run"
+msgstr "Вкл/выкл бег"
+
+#: 48957
+msgid "Toggle AI"
+msgstr "Вкл/выкл ИИ"
+
+#: 49051
+msgid "Default"
+msgstr "По умолчанию"
+
+#: 49057
+msgid "Character Selection"
+msgstr "Выбор персонажа"
+
+#: 5027
+msgid "CHARACTER POINTS"
+msgstr "ОЧКИ ПЕРСОНАЖА"
+
+#: 53296
+msgid "ITEM ABILITIES"
+msgstr "СВОЙСТВА ПРЕДМЕТА"
+
+#: 54879
+msgid "Selection Feedback Level"
+msgstr "Обратная связь при выборе"
+
+#: 55012
+msgid "Command Feedback Level"
+msgstr "Обратная связь при команде"
+
+#: 62418
+msgid "Always Run"
+msgstr "Всегда бежать"
+
+#: 62419
+msgid ""
+"Enabling this option reverses the default run and walk behavior.  "
+"<RUNOPTIONHELP> "
+msgstr ""
+"При включении этого параметра шаг и бег по умолчанию меняются местами.  "
+"<RUNOPTIONHELP> "
+
+#: 67048
+msgid "Press to cycle"
+msgstr "Нажми для перебора"
+
+#: 67220
+msgid "Normal"
+msgstr "Норма"
+
+#: 68536
+msgid "Continue"
+msgstr "Продолжить"
+
+#: 68666
+msgid " Pick Pockets Succeeded"
+msgstr " Воровство успешно"
+
+#: 68834
+msgid "Enable this option for gory combat animations."
+msgstr ""
+"При включении этого параметра будут использоваться кровавые анимации во время"
+" боя."
+
+#: 68856
+msgid ""
+"This slider controls how fast the area scrolls in response to the keyboard "
+"shortcuts."
+msgstr ""
+"Этот бегунок регулирует скорость прокрутки области при нажатии клавиш"
+" клавиатуры."
+
+#: 68873
+msgid ""
+"This slider controls how fast the area scrolls in response to mouse "
+"movement.\n"
+"\n"
+"^NNote: Setting this slider to the far left disables edge of window "
+"scrolling.^-"
+msgstr ""
+"Этот бегунок регулирует скорость прокрутки области при движении мышью.\n"
+"\n"
+"^NПримечание: Перемещение бегунка в крайнее левое положение отключает границу"
+" окна прокрутки.^-"
+
+#: 68891
+msgid ""
+"Enable this option to rest repeatedly, casting healing spells until fully "
+"healed.  Otherwise, the party will rest only once and cast only the "
+"currently memorized healing spells."
+msgstr ""
+"При включении этого параметра отдых будет проходить несколько раз, будут"
+" использоваться заклинания исцеления до полного излечения. В противном случае"
+" команда будет отдыхать только раз и использовать только запомненные в данный"
+" момент заклинания исцеления."
+
+#: 68917
+msgid ""
+"This slider controls the delay before a tooltip appears over a control. The "
+"maximum value disables tooltips."
+msgstr ""
+"Этот бегунок регулирует задержку появления подсказки над элементом"
+" управления. Максимальное значение отключает подсказки."
+
+#: 68979
+msgid "Close Container"
+msgstr "Закрыть контейнер"
+
+#: 69084
+msgid "To Backpack"
+msgstr ""
+
+#: 69085
+msgid "To Container"
+msgstr ""
+
+#: 69101
+msgid " Open Container"
+msgstr " Открыть контейнер"
+
+#: 69253
+msgid " Hard"
+msgstr " Тяжело"
+
+#: 69254
+msgid " Core Rules"
+msgstr " Основные правила"
+
+#: 69255
+msgid " Easy"
+msgstr " Просто"
+
+#: 69256
+msgid " Insane"
+msgstr " Безумие"
+
+#: 69309
+msgid " Known Mage Spells"
+msgstr " Известные заклинания мага"
+
+#: 69310
+msgid " Known Priest Spells"
+msgstr " Известные заклинания жреца"
+
+#: 8191
+msgid "Dialogue"
+msgstr "Диалог"
+
+#: 8192
+msgid "Select Weapon"
+msgstr "Выбрать оружие"
+
+#: 8193
+msgid "Select Spell"
+msgstr "Выбрать заклинание"
+
+#: 8194
+msgid "Select Item"
+msgstr "Выбрать предмет"
+
+#: 8195
+msgid "Select Special Ability"
+msgstr "Выбрать особый навык"
+
+#: 8836
+msgid "Heal"
+msgstr "Лечение"
+
