@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: planescape l10n\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-05-10 16:52+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2017-04-29 14:41+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Lokalize 2.0\n"
 "Language: ru_RU\n"
 
 #: 1165
@@ -224,7 +224,7 @@ msgstr ""
 "На этот раз снятие заклинаний заняло гораздо меньше времени, и руны быстро "
 "разрушаются под твоей атакой. Спустя несколько минут, ты избавляешь скелет "
 "от наложенных на него заклинаний. Помня о прошлом случае, ты подхватываешь "
-"скелет до того, как он падает, и тяжело пыхтя, медленно кладешь его на пол."
+"скелет до того, как он упадет, и тяжело пыхтя, медленно кладешь его на пол."
 
 #: 4017
 msgid ""
@@ -362,3 +362,4 @@ msgid ""
 msgstr ""
 "Сначала разрушить руны, поддерживающие защитное заклинание, затем - "
 "некромантское, а затем - охранное заклинание. "
+
