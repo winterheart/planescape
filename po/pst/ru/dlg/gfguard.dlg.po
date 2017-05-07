@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: gfguard.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-05-09 00:51+0600\n"
+"PO-Revision-Date: 2017-05-08 02:07+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 "Language: ru\n"
 
 #: 5826 5829
@@ -70,11 +70,11 @@ msgstr "«Чем ты занимаешься?»"
 
 #: 5846
 msgid "\"I'm helping Xander with the dreambuilder.\""
-msgstr "«Я помогаю Зандеру с построителем снов»."
+msgstr "«Я помогаю Зандеру с Построителем снов»."
 
 #: 5847
 msgid "\"I'm here to use the dreambuilder. .\""
-msgstr "«Я здесь, чтобы воспользоваться построителем снов»."
+msgstr "«Я здесь, чтобы воспользоваться Построителем снов»."
 
 #: 5848
 msgid "\"Then I'm certain you won't mind just passing along.\""
@@ -343,3 +343,4 @@ msgstr ""
 #: 67933
 msgid "\"No business. Sorry. Farewell.\""
 msgstr "«Извини, я здесь не по делу. Прощай»."
+
