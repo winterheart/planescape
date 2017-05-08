@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2017-04-28 00:06 +0500\n"
-"PO-Revision-Date: 2017-04-28 00:26+0500\n"
+"PO-Revision-Date: 2017-05-08 17:31+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -267,10 +267,12 @@ msgid ""
 "Enable this option to allow the area map to scroll past the edge of the user "
 "interface."
 msgstr ""
+"При включении этого параметра разрешается прокрутка области карты за краем"
+" пользовательского интерфейса."
 
 #: 106618
 msgid "Allow Scrolling Out Of Bounds"
-msgstr ""
+msgstr "Разрешить прокрутку за пределами границ"
 
 #: 106619
 msgid ""
@@ -1373,11 +1375,11 @@ msgstr "Закрыть контейнер"
 
 #: 69084
 msgid "To Backpack"
-msgstr ""
+msgstr "К инвентарю"
 
 #: 69085
 msgid "To Container"
-msgstr ""
+msgstr "К контейнеру"
 
 #: 69101
 msgid " Open Container"
@@ -1430,4 +1432,5 @@ msgstr "Выбрать особый навык"
 #: 8836
 msgid "Heal"
 msgstr "Лечение"
+
 
