@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: 0
@@ -37,7 +37,7 @@ msgstr ""
 #: 11948
 msgid "\"Bar that.\" Morte shudders. \"Would you want those things in *you?*\""
 msgstr ""
-"«Задвинься, - Морт вздрагивает. - А ты бы хотел, чтобы они оказались в "
+"«Задвинься, — Морт вздрагивает. — А ты бы хотел, чтобы они оказались в "
 "*тебе*?»"
 
 #: 11949
@@ -45,8 +45,8 @@ msgid ""
 "\"Those little pikers better not come anywhere near me, or I'll...\" Morte "
 "pauses. \"You know, I have no idea how to threaten teeth.\""
 msgstr ""
-"«Лучше этим мелким засранцам не приближаться ко мне, иначе я... - Морт "
-"умолкает. - Знаешь, я понятия не имею, чем угрожать зубам»."
+"«Лучше этим мелким засранцам не приближаться ко мне, иначе я... — Морт "
+"умолкает. — Знаешь, я понятия не имею, чем угрожать зубам»."
 
 #: 11950
 msgid ""
@@ -55,8 +55,8 @@ msgid ""
 "your hand and swarm onto his jaw. Morte howls as Ingress' teeth promptly rip "
 "out his old teeth and then jump into the exposed cavities."
 msgstr ""
-"Схватка длится не долго. Ты ловишь Морта в захват - единственное движение, "
-"которое ты можешь сделать - и, пока он, кусаясь, пытается освободиться, зубы "
+"Схватка длится не долго. Ты ловишь Морта в захват — единственное движение, "
+"которое ты можешь сделать — и, пока он, кусаясь, пытается освободиться, зубы "
 "спрыгивают с твоей руки и налетают на его челюсть. Морт воет, а зубы Ингресс "
 "быстро выкорчевывают его старые зубы и прыгают в открывшиеся полости."
 
@@ -89,7 +89,7 @@ msgid ""
 "you for this,\" he says. \"That was a dirty thing to do.\""
 msgstr ""
 "Внезапно зубы расцепляются, и Морт делает глубокий вздох. «Я *убью* тебя за "
-"это, - говорит он. - Это было нечестно»."
+"это, — говорит он. — Это было нечестно»."
 
 #: 11955
 msgid ""
@@ -97,8 +97,8 @@ msgid ""
 "the teeth extend into fangs. \"Ooooooh! They change!\" They shrink down to "
 "normal, then fangs again, then normal... \"I think I'm going to like these.\""
 msgstr ""
-"Морт пробует двигать челюстью. «Странно. Но неплохо, - внезапно зубы "
-"превращаются в клыки. - О-о-о! Они меняются!» Они превращаются в нормальные "
+"Морт пробует двигать челюстью. «Странно. Но неплохо, — внезапно зубы "
+"превращаются в клыки. — О-о-о! Они меняются!» Они превращаются в нормальные "
 "зубы, потом в клики, потом обратно... «Думаю, они мне понравятся»."
 
 #: 11983
@@ -259,7 +259,7 @@ msgid ""
 "on to something else.\" His pen fairly flies over the paper."
 msgstr ""
 "«Это куча памфлетов против Гармониума. Очень скоро они разойдутся по Нижнему "
-"Району, - он продолжает писать. - Скоро я закончу с ними, и возьмусь за что-"
+"Району, — он продолжает писать. — Скоро я закончу с ними, и возьмусь за что-"
 "нибудь другое». Его перо с легкостью порхает над бумагой."
 
 #: 65343
@@ -323,81 +323,3 @@ msgstr "«Э-э... 'мимира'?»"
 #: 8260
 msgid "Listen to their chanting."
 msgstr "Слушать их пение."
-
-#~ msgid ""
-#~ "\"I shall wait for you in death's halls, my Love.\" She smiles, but there "
-#~ "is only sadness in it. She closes her eyes, and with an ethereal whisper, "
-#~ "she fades."
-#~ msgstr ""
-#~ "«Я буду ждать тебя в залах смерти, любовь моя». Дейонарра улыбается, но в "
-#~ "улыбке нет ничего, кроме печали. Закрыв глаза, она исчезает с беззвучным "
-#~ "вздохом."
-
-#~ msgid "THIEF SKILLS"
-#~ msgstr "НАВЫКИ ВОРА"
-
-#~ msgid "Points Left:"
-#~ msgstr "Очки:"
-
-#~ msgid "Stealth:"
-#~ msgstr "Скрытность:"
-
-#~ msgid "Detect Traps:"
-#~ msgstr "Обнаружение ловушек:"
-
-#~ msgid "Pick Pockets:"
-#~ msgstr "Воровство:"
-
-#~ msgid "Open Doors:"
-#~ msgstr "Взлом:"
-
-#~ msgid "SAVING THROWS"
-#~ msgstr "СПАСБРОСКИ"
-
-#~ msgid "Save Vs. Death:"
-#~ msgstr "от смерти:"
-
-#~ msgid "Save Vs. Wands:"
-#~ msgstr "от жезлов:"
-
-#~ msgid "Save Vs. Polymorph:"
-#~ msgstr "от полиморфизма:"
-
-#~ msgid "Save Vs. Breath:"
-#~ msgstr "от атак дыханием:"
-
-#~ msgid "Save Vs. Spell:"
-#~ msgstr "от заклинаний:"
-
-#~ msgid "Armor Class:"
-#~ msgstr "Класс Брони:"
-
-#~ msgid "Current Hit Points:"
-#~ msgstr "Текущие очки жизни:"
-
-#~ msgid "Max Hit Points:"
-#~ msgstr "Максимальные очки жизни:"
-
-#~ msgid "Strongest Creature Killed:"
-#~ msgstr "Самое сильное убитое создание:"
-
-#~ msgid "Time With Party:"
-#~ msgstr "Время с группой:"
-
-#~ msgid "Favorite Spell:"
-#~ msgstr "Любимое заклинание:"
-
-#~ msgid "Favorite Weapon:"
-#~ msgstr "Любимое оружие:"
-
-#~ msgid "Number of Kills:"
-#~ msgstr "Число убитых:"
-
-#~ msgid "Party Kills:"
-#~ msgstr "Убийств в группе:"
-
-#~ msgid "Party Experience:"
-#~ msgstr "Опыт в группе:"
-
-#~ msgid "Kill Experience:"
-#~ msgstr "Опыт от убийств:"
