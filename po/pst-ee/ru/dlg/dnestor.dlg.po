@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: 28825
@@ -87,7 +87,7 @@ msgid ""
 "exhaustion. \"Long have I waited... waiting.\" He takes a deep breath and "
 "springs back to his feet. \"Wait forever if I have to! Do you hear me?\""
 msgstr ""
-"«Ждать, да... - он неожиданно падает на пол, словно от изнурения. - Долго я "
+"«Ждать, да... — он неожиданно падает на пол, словно от изнурения. — Долго я "
 "ждал... ждать». Он делает глубокий вдох и снова поднимается на ноги. «Ждать "
 "вечно, если нужно. Ты понял меня?»"
 
@@ -96,8 +96,8 @@ msgid ""
 "\"Nooooooo!\" Nestor's face turns beet-red and his whole body shakes in "
 "protest. \"My fork! Can't leave without my fork! Hoo hoo! Fork, fork, fork!\""
 msgstr ""
-"«Неееееет! - лицо Нестора наливается кровью, его буквально трясет от "
-"протеста. - Моя вилка! Не могу уйти без моей вилки! Ху-ху! Вилка, вилка, "
+"«Неееееет! — лицо Нестора наливается кровью, его буквально трясет от "
+"протеста. — Моя вилка! Не могу уйти без моей вилки! Ху-ху! Вилка, вилка, "
 "вилка!»"
 
 #: 30125
@@ -146,7 +146,7 @@ msgid ""
 "\"Nooooo! Can't go home without my fork!\" He backs away from you, snarling "
 "and baring his teeth like a cornered animal."
 msgstr ""
-"«Нееет! Не могу попасть домой без моей вилки!» - он отстраняется от тебя, "
+"«Нееет! Не могу попасть домой без моей вилки!» — он отстраняется от тебя, "
 "рыча и скаля зубы, словно загнанное животное."
 
 #: 30129
@@ -318,4 +318,3 @@ msgstr "Нестор полностью тебя игнорирует, его в
 #: 61634
 msgid "Leave."
 msgstr "Уйти."
-

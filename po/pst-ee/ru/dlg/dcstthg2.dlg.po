@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: 9902
@@ -91,7 +91,7 @@ msgid ""
 "I came to sign up. Most of the damn city's sealed off because of the plague, "
 "though. I can't get to where I need to go.\""
 msgstr ""
-"«По профессии я наемник. Мне сказали, что в Проклятом можно найти работу - "
+"«По профессии я наемник. Мне сказали, что в Проклятом можно найти работу — "
 "вот я и пришел. Но из-за чумы большая часть чертового города запечатана. Я "
 "не могу попасть туда, куда направлялся»."
 
@@ -113,9 +113,9 @@ msgid ""
 "but was quickly controlled by sealing off the infected areas of the city.\" "
 "He sighs. \"Damned inconvenient. I can't meet my contact now.\""
 msgstr ""
-"Он пожимает плечами. «В сущности - ничего. Мне сказали, что она началась "
+"Он пожимает плечами. «В сущности — ничего. Мне сказали, что она началась "
 "внезапно, но ее быстро взяли под контроль, запечатав зараженные районы "
-"города, - он вздыхает. - Чертовски неудобно. Теперь я не могу попасть на "
+"города, — он вздыхает. — Чертовски неудобно. Теперь я не могу попасть на "
 "встречу»."
 
 #: 9923
@@ -133,4 +133,3 @@ msgstr ""
 #: 9925
 msgid "\"I see. I must take my leave now.\""
 msgstr "«Понятно. Мне уже нужно идти»."
-

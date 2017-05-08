@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: 1956
@@ -42,7 +42,7 @@ msgid ""
 "speaks. \"...but ye're the one who should watch yerself if you think yeh can "
 "take me, you should!\""
 msgstr ""
-"«Ни на какую драку я не нарываюсь, - при разговоре из его рта летит слюна, - "
+"«Ни на какую драку я не нарываюсь, — при разговоре из его рта летит слюна, — "
 "но ты бы последил за собой, раз думаешь, что можешь меня взять!»"
 
 #: 1960
@@ -119,4 +119,3 @@ msgstr "«Ладно. Убирайся с глаз моих»."
 #: 1980
 msgid "Attack him anyway. "
 msgstr "Все равно напасть на него."
-

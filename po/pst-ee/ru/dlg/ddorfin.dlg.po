@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: 57994
@@ -75,14 +75,14 @@ msgid ""
 "\"I'm Dorfin, cutter. I'm one of the warehousemen here.\" He gives you a "
 "friendly smile."
 msgstr ""
-"«Я - Дорфин, я один из здешних кладовщиков». Он озаряет тебя дружелюбной "
+"«Я — Дорфин, я один из здешних кладовщиков». Он озаряет тебя дружелюбной "
 "улыбкой."
 
 #: 58024
 msgid ""
 "\"Inventory.\" He frowns. \"For the third time this month, I might add.\""
 msgstr ""
-"«Составляю опись, - он хмурится. - Уже третий раз за месяц, должен сказать»."
+"«Составляю опись, — он хмурится. — Уже третий раз за месяц, должен сказать»."
 
 #: 58025
 msgid "\"Is that unusual?\""
@@ -97,8 +97,8 @@ msgid ""
 "He sighs. \"No, the boss is a slave driver. He works us hard and rarely lets "
 "up on us.\" He shrugs. \"It's a living.\""
 msgstr ""
-"Он вздыхает. «Нет, босс - сущий погонщик рабов. Он заставляет нас вкалывать "
-"на работе и редко нас отпускает, - он вздыхает. - Такова жизнь»."
+"Он вздыхает. «Нет, босс — сущий погонщик рабов. Он заставляет нас вкалывать "
+"на работе и редко нас отпускает, — он вздыхает. — Такова жизнь»."
 
 #: 58031
 msgid "\"If he's such a slave driver, why do you work for him?\""
@@ -138,7 +138,7 @@ msgid ""
 "would a deva come here?\" He pauses for a moment then barks out a laugh. "
 "\"Ha! Unless it was to rain *holy justice* down upon us.\""
 msgstr ""
-"«Правда? - он удивлен. - Даже представить себе этого не могу... То есть, что "
+"«Правда? — он удивлен. — Даже представить себе этого не могу... То есть, что "
 "дэва мог забыть здесь?» Спустя секунду он разряжается громким смехом. «Ха! "
 "Если только он не собирается обрушить на нас *святое правосудие*»."
 
@@ -170,4 +170,3 @@ msgstr "Перед тобой Дорфин, служащий склада. Он 
 #: 58064
 msgid "\"Never mind. Farewell.\""
 msgstr "«Неважно. Прощай»."
-

@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: 32994 33051 33055 33106
@@ -28,7 +28,7 @@ msgid ""
 "He quickly looks you over and then sneers. \"...don't know you.\""
 msgstr ""
 "Едва ты входишь, как к тебе приближается сборщик средних лет, одетый в "
-"лохмотья. «Я... - хмыкнув, он быстро тебя оглядывает, - тебя не знаю»."
+"лохмотья. «Я... — хмыкнув, он быстро тебя оглядывает, — тебя не знаю»."
 
 #: 33043
 msgid "The Collector continues to glare at you."
@@ -43,7 +43,7 @@ msgid ""
 "\"What ye're lookin' for is no concern of mine, berk.\" He spits. \"What is "
 "concern'n me is that ye're still breathin' in my presence.\""
 msgstr ""
-"Меня не колышет, чего ты там ищешь, пень, - он сплевывает. - Что меня "
+"Меня не колышет, чего ты там ищешь, пень, — он сплевывает. — Что меня "
 "колышет, так это то, что ты все еще дышишь в моем присутствии»."
 
 #: 33046
@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 "Уходя, ты замечаешь, что сборщик достает нож из кармана. «Не знаю, чего ты "
 "думал, когда шел сюда, рубака, но единственное место, куда ты теперь "
-"попадешь - это Морг»."
+"попадешь — это Морг»."
 
 #: 33049
 msgid "\"I don't believe I've made your acquaintance, either.\""
@@ -101,16 +101,15 @@ msgid ""
 "\"If you don't let me pass, Collector, one of us is going to the Mortuary "
 "and it won't be me.\""
 msgstr ""
-"«Если ты меня не пропустишь, сборщик, то один из нас попадет в Морг, и это"
-" точно буду "
-"не я»."
+"«Если ты меня не пропустишь, сборщик, то один из нас попадет в Морг, и это "
+"точно буду не я»."
 
 #: 33090
 msgid ""
 "Your threat appears to soften his demeanor. \"Get out of 'ere, cutter!\" He "
 "hisses. \"And I'd be watchin' ya back if I were ya.\""
 msgstr ""
-"Твоя угроза охладила его пыл. «Вали отсюда, рубака! - шипит он. - Я бы на "
+"Твоя угроза охладила его пыл. «Вали отсюда, рубака! — шипит он. — Я бы на "
 "твоем месте следил за собой»."
 
 #: 33091
@@ -129,15 +128,15 @@ msgid ""
 "their bone-box, and if ya stay much longer, I be doin' the same.\""
 msgstr ""
 "Похоже, твои слова вразумили сборщика: он разворачивается и уходит. «Следи "
-"за собой, рубака. Большинство здесь говорит сперва ножами, а уж потом - "
-"черепушками. Будешь и дальше здесь торчать - и я с тобой так поболтаю»."
+"за собой, рубака. Большинство здесь говорит сперва ножами, а уж потом — "
+"черепушками. Будешь и дальше здесь торчать — и я с тобой так поболтаю»."
 
 #: 33094
 msgid ""
 "\"Collecting bodies before they're dead sounds like a really good way to "
 "meet the Lady.\""
 msgstr ""
-"«Собирать тела до того, как они умерли - верный способ повидаться с Леди»."
+"«Собирать тела до того, как они умерли — верный способ повидаться с Леди»."
 
 #: 33095 33104
 msgid "\"Then I'll leave your presence, berk.\""
@@ -152,7 +151,7 @@ msgid ""
 "\"Collecting bodies before they're dead sounds like a good way to meet the "
 "Lady.\""
 msgstr ""
-"«Собирать тела до того, как они умерли - хороший способ повидаться с Леди»."
+"«Собирать тела до того, как они умерли — хороший способ повидаться с Леди»."
 
 #: 33108
 msgid "\"Likewise...\""
@@ -165,4 +164,3 @@ msgstr "«Ну попробуй...»"
 #: 33110
 msgid "\"Whatever...\""
 msgstr "«Как скажешь...»"
-

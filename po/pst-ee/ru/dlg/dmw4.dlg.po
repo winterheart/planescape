@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: 47991
@@ -92,8 +92,8 @@ msgid ""
 "\"Sorry, I wouldn't know anything about that...\" He looks like he wants to "
 "ask you something but thinks better of it."
 msgstr ""
-"Он смотрит на тебя равнодушно. «Череп пропал... я, э... - он пожимает "
-"плечами. - Извини, я ничего об этом не знаю...» Похоже на то, что он хочет "
+"Он смотрит на тебя равнодушно. «Череп пропал... я, э... — он пожимает "
+"плечами. — Извини, я ничего об этом не знаю...» Похоже на то, что он хочет "
 "что-то у тебя спросить, но не решается."
 
 #: 48009
@@ -129,7 +129,7 @@ msgid ""
 "of the merchants here maybe, but magic isn't all that prevalent... is it?\" "
 "He awaits your answer."
 msgstr ""
-"«Магические? Я... - его лицо принимает растерянный вид. - Я не знаю. Может, "
+"«Магические? Я... — его лицо принимает растерянный вид. — Я не знаю. Может, "
 "у одного из торговцев, но ведь магия не то чтобы распространена... так "
 "ведь?» Он ждет твоего ответа."
 
@@ -144,7 +144,7 @@ msgid ""
 "case. I'm just not as *worldly* as some, that's all.\""
 msgstr ""
 "Он смотрит на тебя потрясенно. «Ну, нет... то есть, да... э, ну... пожалуй, "
-"нет, - он пожимает плечами. - Меня называют наивным, но я вовсе так не "
+"нет, — он пожимает плечами. — Меня называют наивным, но я вовсе так не "
 "считаю. Просто я не такой *бывалый*, как некоторые, вот и все»."
 
 # this is an expression I have been taught as a response to statements that are clearly and patently untrue
@@ -167,4 +167,3 @@ msgstr "«Неважно. У меня есть другие вопросы...»"
 #: 48027
 msgid "The workman looks up at you. \"Hello again. Can I help you.\""
 msgstr "Рабочий смотрит на тебя. «Здравствуй. Чем могу помочь?»"
-

@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: 32470
@@ -34,8 +34,8 @@ msgid ""
 "should concern you most.\" As he speaks, he looks you up and down, as if "
 "somehow fascinated by you."
 msgstr ""
-"«Кто я такой - для тебя не имеет значения. Что мне нужно - вот что тебя "
-"должно беспокоить в первую очередь», - говорит он, зачарованно осматривая "
+"«Кто я такой — для тебя не имеет значения. Что мне нужно — вот что тебя "
+"должно беспокоить в первую очередь», — говорит он, зачарованно осматривая "
 "тебя с ног до головы."
 
 #: 32472
@@ -105,7 +105,7 @@ msgid ""
 "\"You're wrong. What you want *doesn't* interest me... I'm here to kill you."
 "\""
 msgstr ""
-"«Ты ошибаешься. Что тебе нужно - меня *не интересует*... Я здесь, чтобы "
+"«Ты ошибаешься. Что тебе нужно — меня *не интересует*... Я здесь, чтобы "
 "убить тебя»."
 
 #: 32481
@@ -129,4 +129,3 @@ msgstr "«Э-э... Меня это не интересует. Прощай»."
 #: 32485
 msgid "Attack."
 msgstr "Атаковать."
-
