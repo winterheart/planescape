@@ -27,7 +27,7 @@ COPY	~pst-ee-l10n/override/ru_RU/BOOKMANI.TTF~	~lang/ru_RU/override~
 	~pst-ee-l10n/override/ru_RU/MOS2006.PVRZ~       ~lang/ru_RU/override~
 	~pst-ee-l10n/override/ru_RU/MOS2007.PVRZ~       ~lang/ru_RU/override~
 
-STRING_SET_RANGE #0 #106833 USING ~pst-ee-l10n/lang/ru_RU/0-106833.tra~
+//STRING_SET_RANGE #0 #106833 USING ~pst-ee-l10n/lang/ru_RU/0-106833.tra~
 
 // MOD: Female Names
 // CREDIT: pst-l10n team
