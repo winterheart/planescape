@@ -3,14 +3,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gfwrk.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-04-14 13:22+0500\n"
+"PO-Revision-Date: 2017-05-17 18:58+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 "Language: ru\n"
 
@@ -35,9 +35,9 @@ msgid ""
 "could find one of those just about anywhere here. My money's on Thildon as "
 "the culprit -- never was a meaner man in the Foundry.\""
 msgstr ""
-"«Я слышал, что рядом с телом нашли шило кузнеца. Но, другой стороны, я "
-"считаю, что здесь его можно было бы найти где угодно. Ставлю на то, что "
-"виновен Тильдон — в Литейной не было более злобного человека»."
+"«Я слышал, что рядом с телом нашли шило кузнеца. Но, с другой стороны, я"
+" считаю, что здесь его можно было бы найти где угодно. Ставлю на то, что"
+" виновен Тильдон — в Литейной не было более злобного человека»."
 
 #: 5508
 msgid "\"Thanks for your help. But I need some questions answered.\""
@@ -117,7 +117,7 @@ msgstr "«А что? Ты на него работаешь?»"
 
 #: 5525
 msgid "\"Um... yes.\""
-msgstr "«Ммм... да»."
+msgstr "«М-м-м... да»."
 
 #: 5526
 msgid "\"Are you kidding?\""
@@ -141,9 +141,9 @@ msgid ""
 "lookin' over the shoulder. We're busy these days. How about if I just tell "
 "you I can be friendly when this project's done?\""
 msgstr ""
-"«Нет у меня времени быть дружелюбным, особенно когда начальник смотрит тебе "
-"через плечо. Последнее время мы заняты. Что, если я просто скажу, что могу "
-"побыть дружелюбным, когда этот проект закончится?»"
+"«Нет у меня времени быть дружелюбным, особенно когда начальник смотрит тебе"
+" через плечо. Последнее время мы сильно заняты. Что, если я просто скажу, что"
+" могу побыть дружелюбным, когда этот проект закончится?»"
 
 #: 5530
 msgid "\"All right. Maybe you can answer another question.\""
@@ -166,8 +166,8 @@ msgstr ""
 #: 5533
 msgid "\"Why not look at it as a test of smarts and just walk away?\""
 msgstr ""
-"«Почему бы не посмотреть на это как на тест на сообразительность, и просто "
-"не уйти?»"
+"«Почему бы не посмотреть на это как на проверку на сообразительность и просто"
+" уйти?»"
 
 #: 5534
 msgid "\"Does that really help?\""
@@ -312,3 +312,4 @@ msgstr "«Просто несколько ответов»."
 #: 5558
 msgid "\"Nothing.\""
 msgstr "«Ничего»."
+
