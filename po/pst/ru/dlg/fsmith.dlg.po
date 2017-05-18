@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: fsmith.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-02-02 22:52+0600\n"
+"PO-Revision-Date: 2017-05-17 19:08+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 "Language: ru\n"
 
 #: 4729
@@ -62,9 +62,9 @@ msgid ""
 "that bastard taken down, but then, there wasn't anyone who didn't have it in "
 "for that bubber. Where should you look? I don't know.\""
 msgstr ""
-"«Значит, ты расследуешь убийство, так? Не скажу, что сильно огорчен тем, что "
-"того ублюдка завалили, но, с другой стороны, не скажешь, чтобы кто-нибудь "
-"имел зуб на этого алкаша. Где тебе искать? Даже не знаю»."
+"«Значит, ты расследуешь убийство, так? Не скажу, что сильно огорчен тем, что"
+" того ублюдка завалили, но, с другой стороны, не скажешь, чтобы кто-нибудь"
+" имел зуб на этого алкаша. С чего начинать? Даже не знаю»."
 
 #: 4739 4740
 msgid "\"But you have more you'd like to tell me, don't you?\""
@@ -138,8 +138,8 @@ msgid ""
 "\"You can usually find her down by the clerk's office... watching us. Hells, "
 "I guess it's her job, but I can be trusted to do it.\""
 msgstr ""
-"«Обычно она где-то возле конторы клерка... наблюдает за нами. Черт, я "
-"понимаю, что это ее работа, но мне вполне можно было бы ее доверить»."
+"«Обычно она где-то возле конторы клерка... наблюдает за нами. Черт, я"
+" понимаю, что это ее работа, но мне-то можно было бы доверять»."
 
 #: 4754
 msgid "\"Thanks. I had some other questions.\""
@@ -150,8 +150,7 @@ msgid ""
 "\"If you could be trusted to do it, you wouldn't need a supervisor. Goodbye."
 "\""
 msgstr ""
-"«Если бы тебе можно было это доверить, тебе бы не нужен был бригадир. "
-"Прощай»."
+"«Если бы тебе можно было доверять, тебе бы не нужен был бригадир. Прощай»."
 
 #: 4756
 msgid "\"I'd imagine. Goodbye.\""
@@ -326,3 +325,4 @@ msgstr ""
 #: 64515
 msgid "\"Sorry. Farewell.\""
 msgstr "«Извини. Прощай»."
+
