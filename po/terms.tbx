@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE martif PUBLIC 'ISO 12200:1999A//DTD MARTIF core (DXFcdV04)//EN' 'TBXcdv04.dtd'>
-<martif xml:lang="en" type="TBX">
+<martif type="TBX" xml:lang="en">
     <martifHeader>
         <fileDesc>
             <titleStmt>
@@ -3798,7 +3798,7 @@
                 <langSet xml:lang="ru">
                     <ntig>
                         <termGrp>
-                            <term>дискорл</term>
+                            <term>Гискорл</term>
                         </termGrp>
                     </ntig>
                 </langSet>
@@ -9090,6 +9090,20 @@
         <langSet xml:lang="ru">
           <tig>
             <term>защита</term>
+          </tig>
+        </langSet>
+      </termEntry>
+    <termEntry id="azamat_h._hackimov-495">
+        <descrip type="subjectField">персонажи</descrip>
+        <langSet xml:lang="en-US">
+          <tig>
+            <term>avildon</term>
+          </tig>
+        </langSet>
+        <langSet xml:lang="ru">
+          <descrip type="definition">Убитый инженер</descrip>
+          <tig>
+            <term>авильдон</term>
           </tig>
         </langSet>
       </termEntry>
