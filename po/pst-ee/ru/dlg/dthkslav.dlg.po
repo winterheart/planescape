@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dthkslav.tra\n"
 "POT-Creation-Date: 2017-04-12 06:55 +0500\n"
-"PO-Revision-Date: 2014-05-09 00:26+0600\n"
+"PO-Revision-Date: 2017-05-21 21:31+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 50969
 msgid ""
@@ -42,7 +42,7 @@ msgid ""
 "stares at you. It grunts at nearly everything you say, but offers no "
 "response."
 msgstr ""
-"Перед тобой крепкий толока-работорговец. Его тусклые, наполненные ненавистью "
+"Перед тобой крепкий токола-работорговец. Его тусклые, наполненные ненавистью "
 "глаза пристально смотрят на тебя. Он фыркает каждый раз, когда ты к нему "
 "обращаешься, и не дает ответа."
 
@@ -52,8 +52,9 @@ msgstr "«Тогда прощай...» "
 
 #: 50975 50979
 msgid "The thokola just grunts at you."
-msgstr "Толока что-то тебе ворчит."
+msgstr "Токола что-то тебе ворчит."
 
 #: 50976 50980
 msgid "\"Farewell, then.\""
 msgstr "«Тогда прощай». "
+
