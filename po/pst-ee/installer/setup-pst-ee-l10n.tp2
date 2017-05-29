@@ -10,8 +10,8 @@ LANGUAGE
 BEGIN @1000
 
 
-// Copying include.LUA for new language support
-COPY	~pst-ee-l10n/override/includes.LUA~		~override~
+// Copying M_RU-RU.LUA for new language support
+COPY	~pst-ee-l10n/override/M_RU-RU.LUA~		~override~
 
 // Copying images and font for localization
 COPY	~pst-ee-l10n/override/ru_RU/BOOKMANI.TTF~	~lang/ru_RU/override~
