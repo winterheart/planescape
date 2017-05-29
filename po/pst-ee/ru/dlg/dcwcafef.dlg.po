@@ -1,18 +1,18 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010, 2011, 2012, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dcwcafef.tra\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2017-05-09 23:49+0300\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"POT-Creation-Date: 2017-05-29 21:33 +0500\n"
+"PO-Revision-Date: 2017-05-29 21:47+0500\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 2.0.1\n"
-"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: 27654
 msgid ""
@@ -175,7 +175,7 @@ msgstr "«Своих обязанностей?»"
 msgid "\"What makes this section different?\""
 msgstr "«Чем выделяется эта часть района?»"
 
-#: 27688 27692 27695
+#: 27688 27692 27695 27698 27703 27707
 msgid "\"I had some other questions...\""
 msgstr "«У меня есть другие вопросы...»"
 
@@ -418,13 +418,13 @@ msgstr "«Где находится Фестхолл?»"
 
 #: 27770
 msgid ""
-"\"I won't profess to have been their myself, but I understand it's run by an "
+"\"I won't profess to have been there myself, but I understand it's run by an "
 "importer of sorts... a half-fiend, in fact, whose goods come from the Lower "
 "Planes.\""
 msgstr ""
 "«Не могу похвастаться, что я там бывала, но насколько я понимаю, им "
-"заправляет одна поставщица товаров... полунечисть. Ее товары приходят с "
-"Нижних планов»."
+"заправляет какая-то поставщица товаров... по сути, она полунечисть, чьи "
+"товары приходят с Нижних планов»."
 
 #: 27771
 msgid "\"A half-fiend?\""

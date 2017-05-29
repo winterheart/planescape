@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-04-28 00:06 +0500\n"
+"POT-Creation-Date: 2017-05-29 21:33 +0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -247,7 +247,11 @@ msgid "Show Walkable"
 msgstr ""
 
 #: 106610
-msgid "Use Steam Cloud saves."
+msgid ""
+"Use Steam Cloud saves.\n"
+"\n"
+"^NNOTE: While this option is enabled, when you save your game it will be "
+"uploaded to the steam cloud.^-"
 msgstr ""
 
 #: 106611

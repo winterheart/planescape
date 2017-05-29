@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
-"POT-Creation-Date: 2017-04-28 00:06 +0500\n"
-"PO-Revision-Date: 2017-05-21 21:15+0500\n"
+"POT-Creation-Date: 2017-05-29 21:33 +0500\n"
+"PO-Revision-Date: 2017-05-29 21:47+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
@@ -4065,14 +4065,6 @@ msgstr "Этот контейнер заперт."
 msgid "Damage:"
 msgstr "Урон:"
 
-#: 22079
-msgid "The Hive"
-msgstr "Улей"
-
-#: 22080
-msgid "Ragpicker's Square"
-msgstr "Площадь Старьевщиков"
-
 #: 22081
 msgid "Midwife's Hut"
 msgstr "Лачуга повитухи"
@@ -4096,10 +4088,6 @@ msgstr "Дом швеи"
 #: 22086
 msgid "Trash Warrens"
 msgstr "Мусорные районы"
-
-#: 22087
-msgid "Buried Village"
-msgstr "Погребенная деревня"
 
 #: 22088
 msgid "Pharod's Court"
@@ -4129,10 +4117,6 @@ msgstr "Могила"
 msgid "Mausoleum"
 msgstr "Мавзолей"
 
-#: 22095
-msgid "Alley of Dangerous Angles"
-msgstr "Переулок Опасных углов"
-
 #: 22096
 msgid "House of Vermin and Disease Control"
 msgstr "Управление по борьбе с вредителями и болезнями"
@@ -4140,10 +4124,6 @@ msgstr "Управление по борьбе с вредителями и бо
 #: 22097
 msgid "House of Vermin and Disease Control Cellar"
 msgstr "Подвал Управления по борьбе с вредителями и болезнями"
-
-#: 22099
-msgid "Alley of Lingering Sighs"
-msgstr "Улица Протяжных вздохов"
 
 #: 22100 59803
 msgid "Smoldering Corpse Bar"
@@ -4156,10 +4136,6 @@ msgstr "Пристанище головорезов"
 #: 22102 59804
 msgid "Fell's Tattoo Parlor"
 msgstr "Тату-салон Фелла"
-
-#: 22103
-msgid "Lower Ward"
-msgstr "Нижний район"
 
 #: 22104
 msgid "Inside the Siege Tower"
@@ -4214,10 +4190,6 @@ msgstr "Арсенал Литейной"
 msgid "\"Great... I'll go look for one, then I'll be back.\""
 msgstr "«Отлично... Пойду, поищу, потом вернусь»."
 
-#: 22125
-msgid "Clerk's Ward"
-msgstr "Чиновничий район"
-
 #: 22128
 msgid "Civic Festhall"
 msgstr "Городской Фестхолл"
@@ -4250,10 +4222,6 @@ msgstr "Художественная галерея"
 msgid "Curiosity Shop"
 msgstr "Антикварная лавка"
 
-#: 22138
-msgid "Ravel's Maze"
-msgstr "Лабиринт Равель"
-
 #: 22139
 msgid "Tailor"
 msgstr "Портной"
@@ -4261,10 +4229,6 @@ msgstr "Портной"
 #: 22140
 msgid "Apothecary"
 msgstr "Аптека"
-
-#: 22141 65019
-msgid "Curst"
-msgstr "Проклятый"
 
 #: 22142
 msgid "Prison"
@@ -4282,14 +4246,6 @@ msgstr "Зернохранилище"
 msgid "Curst Underground"
 msgstr "Подземелья Проклятого"
 
-#: 22147
-msgid "Curst Gone"
-msgstr "Пропавший Проклятый"
-
-#: 22148 65017
-msgid "Carceri"
-msgstr "Карцери"
-
 #: 22150
 msgid "Curst Administration"
 msgstr "Администрация Проклятого"
@@ -4306,17 +4262,9 @@ msgstr "Баатор"
 msgid "Pillar of Skulls"
 msgstr "Колонна черепов"
 
-#: 22155
-msgid "Outlands"
-msgstr "Внешние земли"
-
 #: 22156 62399
 msgid "House of Fhjull"
 msgstr "Дом Фьюла"
-
-#: 22158
-msgid "Fortress Entrance"
-msgstr "Вход в Крепость"
 
 #: 22159
 msgid "Fortress Interior"
@@ -4345,10 +4293,6 @@ msgstr "Комната Нордома"
 #: 22165
 msgid "Modron Foyer"
 msgstr "Фойе модронов"
-
-#: 22166
-msgid "Modron Maze"
-msgstr "Лабиринт Модрона"
 
 #: 22167
 msgid "Wizard's Lair"
@@ -4397,10 +4341,6 @@ msgstr "Коллектив черепных крыс"
 #: 22178
 msgid "Drowned Nations"
 msgstr "Затопленные Народы"
-
-#: 22181
-msgid "Player's Maze"
-msgstr "Лабиринт игрока"
 
 #: 22182
 msgid "Catacombs"
@@ -4977,10 +4917,6 @@ msgstr "«Может, эта...»"
 #: 29252
 msgid "\"Hurry and get me those parts!\""
 msgstr "«Подай-ка мне те части, да побыстрее!»"
-
-#: 29362
-msgid "Drusilla"
-msgstr "Друзилла"
 
 #: 29384
 msgid "\"I seek the master of this place.\""
@@ -14521,6 +14457,10 @@ msgstr "Жительница Проклятого"
 msgid "Dustman, Male"
 msgstr "Тленный"
 
+#: 64661
+msgid "Dustman, Female"
+msgstr "Тленная"
+
 #: 64662
 msgid "Ghoul, Male"
 msgstr "Упырь"
@@ -14641,9 +14581,17 @@ msgstr "Появление Игнуса"
 msgid "Vhailor's Arrival"
 msgstr "Появление Вейлора"
 
+#: 65017
+msgid "Carceri"
+msgstr "Карцери"
+
 #: 65018
 msgid "Curst Returns"
 msgstr "Возвращение в Проклятый"
+
+#: 65019
+msgid "Curst"
+msgstr "Проклятый"
 
 #: 65020
 msgid "Finale"
@@ -15751,7 +15699,7 @@ msgstr " Избегает эффекты от <RESOURCE>"
 
 #: 68625
 msgid " Fatigued"
-msgstr ""
+msgstr " Усталость"
 
 #: 68626
 msgid " The Party Has Gained Experience"
@@ -21232,18 +21180,18 @@ msgid ""
 "Dave Hendee\n"
 "\n"
 "^NCast^-\n"
-"John DeLance\n"
+"John de Lancie\n"
 "Flo Di Re\n"
 "Jennifer Hale\n"
 "Tony Jay\n"
 "Charlie Adler\n"
 "Sheena Easton\n"
-"Rob Paulsens\n"
+"Rob Paulsen\n"
 "Rodger Bumpass\n"
 "Keith David\n"
 "Mitch Pileggi\n"
 "Michael T. Weiss\n"
-"Dan Castellanetta\n"
+"Dan Castellaneta\n"
 "\n"
 "^NWalla Group^-\n"
 "Barbara Harris, Voice Casting\n"
@@ -21428,7 +21376,7 @@ msgstr ""
 "\n"
 "^NExternal QA^-\n"
 "\n"
-"^NBabel — a Keywords Studio^-\n"
+"^NBabel - a Keywords Studio^-\n"
 "  \n"
 "^NFQA Project Manager^-\n"
 "Derek Tsunokawa\n"
@@ -21684,18 +21632,18 @@ msgstr ""
 "Dave Hendee\n"
 "\n"
 "^NCast^-\n"
-"John DeLance\n"
+"John de Lancie\n"
 "Flo Di Re\n"
 "Jennifer Hale\n"
 "Tony Jay\n"
 "Charlie Adler\n"
 "Sheena Easton\n"
-"Rob Paulsens\n"
+"Rob Paulsen\n"
 "Rodger Bumpass\n"
 "Keith David\n"
 "Mitch Pileggi\n"
 "Michael T. Weiss\n"
-"Dan Castellanetta\n"
+"Dan Castellaneta\n"
 "\n"
 "^NWalla Group^-\n"
 "Barbara Harris, Voice Casting\n"
@@ -21755,7 +21703,7 @@ msgstr ""
 "Sabljic, and Tomato.” (Steve B.) “Phil and the rest of the staff at SC "
 "Village.”\n"
 "(Colin M.) “Colin has too many people to thank to list them individually. "
-"Kitty, Quez, Brad, Kev, Dally, Nabs, Mom and family, and all of you — you "
+"Kitty, Quez, Brad, Kev, Dally, Nabs, Mom and family, and all of you - you "
 "know who you are. Thanks for the sanity.”\n"
 "(Brian M.) “Mom, Dad, and Patricia, and the big, green lizard.”\n"
 "(Ken L.) “Ken would like to thank Mom, Dad, Rob, Sab for supporting him all "
@@ -22603,4 +22551,44 @@ msgstr ""
 msgid "Unable to bind that key"
 msgstr "Невозможно назначить эту клавишу"
 
+#~ msgid "The Hive"
+#~ msgstr "Улей"
 
+#~ msgid "Ragpicker's Square"
+#~ msgstr "Площадь Старьевщиков"
+
+#~ msgid "Buried Village"
+#~ msgstr "Погребенная деревня"
+
+#~ msgid "Alley of Dangerous Angles"
+#~ msgstr "Переулок Опасных углов"
+
+#~ msgid "Alley of Lingering Sighs"
+#~ msgstr "Улица Протяжных вздохов"
+
+#~ msgid "Lower Ward"
+#~ msgstr "Нижний район"
+
+#~ msgid "Clerk's Ward"
+#~ msgstr "Чиновничий район"
+
+#~ msgid "Ravel's Maze"
+#~ msgstr "Лабиринт Равель"
+
+#~ msgid "Curst Gone"
+#~ msgstr "Пропавший Проклятый"
+
+#~ msgid "Outlands"
+#~ msgstr "Внешние земли"
+
+#~ msgid "Fortress Entrance"
+#~ msgstr "Вход в Крепость"
+
+#~ msgid "Modron Maze"
+#~ msgstr "Лабиринт Модрона"
+
+#~ msgid "Player's Maze"
+#~ msgstr "Лабиринт игрока"
+
+#~ msgid "Drusilla"
+#~ msgstr "Друзилла"
