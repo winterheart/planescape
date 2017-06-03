@@ -1,4 +1,5 @@
 // Copy female Dustman
+
 COPY_EXISTING	~0203FD1.CRE~  ~lang/ru_RU/override~
 		~0203FD2.CRE~  ~lang/ru_RU/override~
 		~DUSTFB.CRE~   ~lang/ru_RU/override~
@@ -11,14 +12,16 @@ COPY_EXISTING	~0203FD1.CRE~  ~lang/ru_RU/override~
 		~DUSTFM2.CRE~  ~lang/ru_RU/override~
 		~MOURN2.CRE~   ~lang/ru_RU/override~
 		~MOURN4.CRE~   ~lang/ru_RU/override~
-	SAY NAME1 @255
-	SAY NAME2 @256
+	SAY NAME1 #85700
+	SAY NAME2 #85701
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Brothel Patron
 COPY_EXISTING	~BPATRON2.CRE~ ~lang/ru_RU/override~
 		~BROCUS2.CRE~  ~lang/ru_RU/override~
-	SAY NAME1 @3088
-	SAY NAME2 @3048
+	SAY NAME1 #85715
+	SAY NAME2 #85712
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Buried Villager
 COPY_EXISTING	~BURIEDF.CRE~   ~lang/ru_RU/override~
@@ -30,32 +33,37 @@ COPY_EXISTING	~BURIEDF.CRE~   ~lang/ru_RU/override~
 		~BURIEDF6.CRE~  ~lang/ru_RU/override~
 		~BURIEDF7.CRE~  ~lang/ru_RU/override~
 		~BVTIEFF.CRE~   ~lang/ru_RU/override~
-	SAY NAME1 @19316
-	SAY NAME2 @13347
+	SAY NAME1 #85725
+	SAY NAME2 #85724
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Curst Anarchist
 COPY_EXISTING	~CFANARCH.CRE~  ~lang/ru_RU/override~
-	SAY NAME1 @3085
-	SAY NAME2 @3046
+	SAY NAME1 #85714
+	SAY NAME2 #85711
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Curst Citizen
 COPY_EXISTING	~CRSGIRL.CRE~  ~lang/ru_RU/override~
-	SAY NAME1 @67998
-	SAY NAME2 @67997
+	SAY NAME1 #85735
+	SAY NAME2 #85734
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Anarchist
 COPY_EXISTING	~CRSTANC4.CRE~ ~lang/ru_RU/override~
 		~CRSTANC5.CRE~ ~lang/ru_RU/override~
 		~CRSTANC6.CRE~ ~lang/ru_RU/override~
-	SAY NAME1 @51056
-	SAY NAME2 @67997
+	SAY NAME1 #85733
+	SAY NAME2 #85734
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Warehouse Worker
 COPY_EXISTING	~CRSTWKF2.CRE~ ~lang/ru_RU/override~
 		~CRSTWKF3.CRE~ ~lang/ru_RU/override~
 		~CRSTWRKF.CRE~ ~lang/ru_RU/override~
-	SAY NAME1 @3084
-	SAY NAME2 @3044
+	SAY NAME1 #85713
+	SAY NAME2 #85710
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Hive Dweller
 COPY_EXISTING	~CUSHF.CRE~    ~lang/ru_RU/override~
@@ -76,8 +84,9 @@ COPY_EXISTING	~CUSHF.CRE~    ~lang/ru_RU/override~
 		~HIVEW4.CRE~   ~lang/ru_RU/override~
 		~HIVEW5.CRE~   ~lang/ru_RU/override~
 		~LISTENF.CRE~  ~lang/ru_RU/override~
-	SAY NAME1 @2343
-	SAY NAME2 @1750
+	SAY NAME1 #85705
+	SAY NAME2 #85704
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female CLerk's Ward Citizen
 COPY_EXISTING	~CWACTF1.CRE~  ~lang/ru_RU/override~
@@ -86,14 +95,16 @@ COPY_EXISTING	~CWACTF1.CRE~  ~lang/ru_RU/override~
 		~CWMIMEF1.CRE~ ~lang/ru_RU/override~
 		~CWMIMEF2.CRE~ ~lang/ru_RU/override~
 		~CWPOETF1.CRE~ ~lang/ru_RU/override~
-	SAY NAME1 @3108
-	SAY NAME2 @3153
+	SAY NAME1 #85716
+	SAY NAME2 #85717
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Cafe Patron
 COPY_EXISTING	~CWCAFEF1.CRE~ ~lang/ru_RU/override~
 		~CWCAFEF2.CRE~ ~lang/ru_RU/override~
-	SAY NAME1 @29361
-	SAY NAME2 @3153
+	SAY NAME1 #85726
+	SAY NAME2 #85717
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Lower Ward Townsperson
 COPY_EXISTING	~LWCUSF.CRE~   ~lang/ru_RU/override~
@@ -105,24 +116,28 @@ COPY_EXISTING	~LWCUSF.CRE~   ~lang/ru_RU/override~
 		~LWTIEFF.CRE~  ~lang/ru_RU/override~
 		~LWTIEFF2.CRE~ ~lang/ru_RU/override~
 		~LWTIEFF3.CRE~ ~lang/ru_RU/override~
-	SAY NAME1 @2870
-	SAY NAME2 @2858
+	SAY NAME1 #85709
+	SAY NAME2 #85708
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Mage-in-Training
 COPY_EXISTING	~MAGEF1.CRE~   ~lang/ru_RU/override~
 		~MAGEF2.CRE~   ~lang/ru_RU/override~
-	SAY NAME1 @29694
-	SAY NAME2 @29696
+	SAY NAME1 #85727
+	SAY NAME2 #85728
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Hive Merchant
 COPY_EXISTING	~MERCHF.CRE~   ~lang/ru_RU/override~
 		~MERCHFO.CRE~  ~lang/ru_RU/override~
-	SAY NAME1 @9378
-	SAY NAME2 @9048
+	SAY NAME1 #85723
+	SAY NAME2 #85722
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Old Hive Dweller
 COPY_EXISTING	~MMOURN.CRE~   ~lang/ru_RU/override~
-	SAY NAME2 @1750
+	SAY NAME2 #85704
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Sensate
 COPY_EXISTING	~PATRON3.CRE~  ~lang/ru_RU/override~
@@ -133,14 +148,16 @@ COPY_EXISTING	~PATRON3.CRE~  ~lang/ru_RU/override~
 		~SENSF2.CRE~   ~lang/ru_RU/override~
 		~SENSF3.CRE~   ~lang/ru_RU/override~
 		~SENSF4.CRE~   ~lang/ru_RU/override~
-	SAY NAME1 @3250
-	SAY NAME2 @3229
+	SAY NAME1 #85719
+	SAY NAME2 #85718
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Smoldering Corpse Patron
 COPY_EXISTING	~SCFPAT.CRE~   ~lang/ru_RU/override~
 		~SCFPAT2.CRE~  ~lang/ru_RU/override~
-	SAY NAME1 @9044
-	SAY NAME2 @3306
+	SAY NAME1 #85721
+	SAY NAME2 #85720
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Thief-in-Training
 COPY_EXISTING	~THIEF3.CRE~   ~lang/ru_RU/override~
@@ -151,19 +168,22 @@ COPY_EXISTING	~THIEF3.CRE~   ~lang/ru_RU/override~
 		~THIEF8.CRE~   ~lang/ru_RU/override~
 		~THIEF9.CRE~   ~lang/ru_RU/override~
 		~THIEF10.CRE~  ~lang/ru_RU/override~
-	SAY NAME1 @29697
-	SAY NAME2 @29698
+	SAY NAME1 #85729
+	SAY NAME2 #85730
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Collector
 COPY_EXISTING	~VILF1.CRE~    ~lang/ru_RU/override~
 		~VILF2.CRE~    ~lang/ru_RU/override~
-	SAY NAME1 @2628
-	SAY NAME2 @2804
+	SAY NAME1 #85706
+	SAY NAME2 #85707
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Warrior-in-Training
 COPY_EXISTING	~WARR4.CRE~    ~lang/ru_RU/override~
-	SAY NAME1 @29699
-	SAY NAME2 @29700
+	SAY NAME1 #85731
+	SAY NAME2 #85732
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Zombie Worker
 COPY_EXISTING	~ZF1072.CRE~   ~lang/ru_RU/override~
@@ -184,14 +204,16 @@ COPY_EXISTING	~ZF1072.CRE~   ~lang/ru_RU/override~
 		~ZOMFBAR1.CRE~ ~lang/ru_RU/override~
 		~ZOMFBAR2.CRE~ ~lang/ru_RU/override~
 		~ZOMFBAR3.CRE~ ~lang/ru_RU/override~
-	SAY NAME1 @259
-	SAY NAME2 @260
+	SAY NAME1 #85702
+	SAY NAME2 #85703
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Sensate Artist
 COPY_EXISTING	~ARTIST.CRE~   ~lang/ru_RU/override~
-	SAY NAME2 @3229
+	SAY NAME2 #85718
+	BUT_ONLY_IF_IT_CHANGES
 
 // Copy female Ultera (Buried Villager)
 COPY_EXISTING	~ULTHERA.CRE~  ~lang/ru_RU/override~
-	SAY NAME2 @13347
-
+	SAY NAME2 #85724
+	BUT_ONLY_IF_IT_CHANGES

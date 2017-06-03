@@ -1,6 +1,6 @@
 BACKUP ~pst-ee-l10n/backup~
 AUTHOR ~azamat.hackimov@gmail.com~
-VERSION ~v1.05~
+VERSION ~v1.06~
 
 LANGUAGE
 	~Russian~	~russian~
@@ -9,6 +9,7 @@ LANGUAGE
 
 BEGIN @1000
 
+MKDIR ~override~ ~lang/ru_RU/override~
 
 // Copying M_RU-RU.LUA for new language support
 COPY	~pst-ee-l10n/override/M_RU-RU.LUA~		~override~
@@ -31,5 +32,6 @@ COPY	~pst-ee-l10n/override/ru_RU/BOOKMANI.TTF~	~lang/ru_RU/override~
 
 // MOD: Female Names
 // CREDIT: pst-l10n team
+STRING_SET_RANGE #85700 #85735 USING ~pst-ee-l10n/lang/ru_RU/names.tra~
 INCLUDE ~pst-ee-l10n/tph/names.tph~
 
