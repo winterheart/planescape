@@ -51,7 +51,7 @@ rm -f lang/ru_RU/dialog.tlk
 
 # Generate new TLK and install mod
 cd "${CUR}/po/script/Infinity Text Parser"
-./InfinityPackerTLK.pl -t "${PSTEE_INSTALL}/lang/en_US/dialog.tlk" -i "${PSTEE_INSTALL}/po/pst-ee/ru/" -o "${PSTEE_INSTALL}/lang/ru_RU/dialog.tlk"
+./InfinityPackerTLK.pl -t "${PSTEE_INSTALL}/lang/en_US/dialog.tlk" -i "${CUR}/po/pst-ee/ru/" -o "${PSTEE_INSTALL}/lang/ru_RU/dialog.tlk"
 cd "${PSTEE_INSTALL}"
 wine weidu.exe setup-pst-ee-l10n.tp2 --yes
 
