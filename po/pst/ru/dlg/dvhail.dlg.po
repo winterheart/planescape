@@ -1,17 +1,17 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2013, 2014.
+# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2012, 2013, 2014, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: dvhail.tra\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-05-07 23:14+0600\n"
+"PO-Revision-Date: 2017-06-13 00:04+0500\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
 "Language: ru\n"
 
 #: 16635 2848 33999 34004
@@ -1380,15 +1380,15 @@ msgstr "«Что ты видишь, когда смотришь на Нордо�
 
 #: 56375 56389
 msgid "\"What do you see when you look at Ignus?\""
-msgstr "«Что ты видишь, когда смотришь Игнуса?»"
+msgstr "«Что ты видишь, когда смотришь на Игнуса?»"
 
 #: 56376 56377 56390 56391
 msgid "\"What do you see when you look at yourself?\""
-msgstr "«Что ты видишь, когда ты смотришь себя?»"
+msgstr "«Что ты видишь, когда смотришь на себя?»"
 
 #: 56378 56392
 msgid "\"What do you see when you look at me?\""
-msgstr "«Что ты видишь, когда ты смотришь меня?»"
+msgstr "«Что ты видишь, когда смотришь на меня?»"
 
 #: 56382
 msgid "*ASK.*"
@@ -2572,3 +2572,4 @@ msgstr ""
 msgid ""
 "\"Keep up the pressure, Vhailor. Don't give him a chance to concentrate.\""
 msgstr "«Не убавляй натиск, Вейлор. Не дай ему шанса сосредоточиться»."
+
