@@ -94,6 +94,9 @@ foreach $file (@files) {
 			}
 		}
 		push(@all, @str);
+
+		$filename = lc($filename);
+
 		Locale::PO->save_file_fromarray($config{output}."/$filename.pot", \@po);
 		@po = ();
 		@po_entries= (); 
