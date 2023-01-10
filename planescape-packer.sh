@@ -1,6 +1,9 @@
 #!/bin/sh
 
 CUR=$(pwd)
+WEIDU_BIN="${CUR}/bin/weidu"
+CENTRALFIX_BIN="${CUR}/bin/centralfix"
+
 ITP="${CUR}/po/script/Infinity Text Parser/InfinityPacker.pl"
 PST_BASE="${CUR}/po/pst"
 PST_IN_TRA="${PST_BASE}/trans/0-106496.tra"
@@ -9,7 +12,7 @@ PST_PO_FILES="${PST_BASE}/ru/"
 PST_PO_NAMES="${PST_BASE}/names/"
 
 # REMINDER Don't forget modify tp2 file
-PST_VERSION_PSTL10N="1.07"
+PST_VERSION_PSTL10N="1.08"
 PST_VERSION_QWINN="4.13"
 
 PSTEE_BASE="${CUR}/po/pst-ee"
@@ -17,7 +20,7 @@ PSTEE_IN_TRA="${PSTEE_BASE}/trans/0-106833.tra"
 PSTEE_OUT_TRA="${PSTEE_BASE}/installer/pst-ee-l10n/lang/ru_RU/0-106833.tra"
 PSTEE_PO_FILES="${PSTEE_BASE}/ru/"
 
-PSTEE_INSTALL="/home/$(whoami)/.local/share/Steam/SteamApps/common/Project P"
+PSTEE_INSTALL="/home/$(whoami)/.local/share/Steam/steamapps/common/Project P"
 
 
 
@@ -46,19 +49,19 @@ echo "==== Making *.tra ===="
 
 cd "${PSTEE_INSTALL}"
 # Uninstall and remove old files
-wine weidu.exe setup-pst-ee-l10n.tp2 --uninstall
+"${WEIDU_BIN}" setup-pst-ee-l10n.tp2 --tlkin "${PSTEE_INSTALL}/lang/ru_RU/dialog.tlk" --uninstall
 rm -f lang/ru_RU/dialog.tlk
 
 # Generate new TLK and install mod
 cd "${CUR}/po/script/Infinity Text Parser"
 ./InfinityPackerTLK.pl -t "${PSTEE_INSTALL}/lang/en_US/dialog.tlk" -i "${CUR}/po/pst-ee/ru/" -o "${PSTEE_INSTALL}/lang/ru_RU/dialog.tlk"
 cd "${PSTEE_INSTALL}"
-wine weidu.exe setup-pst-ee-l10n.tp2 --yes
+"${WEIDU_BIN}" setup-pst-ee-l10n.tp2 --yes
 
 # All set. We ready to generate archives
 cp "${CUR}/readme.md" readme.txt
 zip -9 -r "${CUR}/out/pst-ee-l10n-${PST_VERSION_PSTL10N}.zip" override lang/ru_RU readme.txt
 
 zip -0 -r "${CUR}/out/pst-ee-l10n-Android-${PST_VERSION_PSTL10N}.zip" override lang/ru_RU readme.txt
-./centralfix "${CUR}/out/pst-ee-l10n-Android-${PST_VERSION_PSTL10N}.zip"
+"${CENTRALFIX_BIN}" "${CUR}/out/pst-ee-l10n-Android-${PST_VERSION_PSTL10N}.zip"
 
