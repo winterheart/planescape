@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rest\n"
-"POT-Creation-Date: 2017-10-24 22:34 +0500\n"
+"POT-Creation-Date: 2026-10-03 18:34 +0300\n"
 "PO-Revision-Date: 2023-08-02 02:38+0300\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
@@ -160,6 +160,10 @@ msgstr ""
 msgid "PLAY TORMENT"
 msgstr "ИГРАТЬ В TORMENT"
 
+#: 1403 20636 28641 38102
+msgid "Done"
+msgstr "Готово"
+
 #: 1404
 msgid "Lawful Good"
 msgstr "Законопослушный добрый"
@@ -221,6 +225,10 @@ msgid ""
 msgstr ""
 "Женщина отступает на шаг, а затем внезапно начинает кричать во все горло!"
 
+#: 1899 19360
+msgid "NEW LIFE"
+msgstr "НОВАЯ ЖИЗНЬ"
+
 #: 1901
 msgid ""
 "Examination of the quill pen reveals that the feather is from a Vrock, one "
@@ -277,9 +285,24 @@ msgstr "Agrive (Alley/B)"
 msgid "Tegar'in"
 msgstr "Тегарин"
 
+#: 2592
+#, fuzzy
+msgid "Load Game"
+msgstr " Загрузка игры"
+
+#: 2593
+#, fuzzy
+msgid "Start a New Game"
+msgstr " Запуск новой игры"
+
 #: 2594
 msgid "Replay Movies"
 msgstr "Повторить ролики"
+
+#: 2595
+#, fuzzy
+msgid "Quit Game"
+msgstr " выйти из игры"
 
 #: 2596
 msgid "LEVEL"
@@ -1878,6 +1901,10 @@ msgstr ""
 "Квитанция со штампом в виде символа боголюдей. Наверно, ее можно "
 "использовать в Великой Литейной."
 
+#: 4182
+msgid "Add Note"
+msgstr ""
+
 #: 4184
 msgid "Neutral Good"
 msgstr "Нейтрально добрый"
@@ -1910,6 +1937,11 @@ msgstr "Мужчина"
 msgid "Female"
 msgstr "Женщина"
 
+#: 4192
+#, fuzzy
+msgid "Accept"
+msgstr " принять"
+
 #: 4193
 msgid "Return to previous screen"
 msgstr "Вернуться назад"
@@ -1921,6 +1953,26 @@ msgstr "Эта способность достигла максимальног�
 #: 4195
 msgid "This ability is currently at its minimum value."
 msgstr "Эта способность достигла минимального значения."
+
+#: 4196
+#, fuzzy
+msgid "Cancel"
+msgstr " отмена"
+
+#: 4197
+#, fuzzy
+msgid "Armor Class"
+msgstr "Класс брони:"
+
+#: 4198
+#, fuzzy
+msgid "Current Hit Points"
+msgstr "Текущие очки жизни:"
+
+#: 4199
+#, fuzzy
+msgid "Maximum Hit Points"
+msgstr "Максимальные очки жизни:"
 
 #: 4202
 msgid ""
@@ -1967,7 +2019,7 @@ msgstr "Осведомленность"
 msgid "Open Locks"
 msgstr "Вскрытие замков"
 
-#: 4212
+#: 4212 48892
 msgid "Stealth"
 msgstr "Скрытность"
 
@@ -2088,9 +2140,33 @@ msgstr "Реакция"
 msgid "Are you sure you want to rest?"
 msgstr "Вы уверены, что хотите отдохнуть?"
 
+#: 4242 41628
+msgid "Rest"
+msgstr "Отдых"
+
 #: 4243
 msgid "DONE"
 msgstr "ГОТОВО"
+
+#: 4244
+#, fuzzy
+msgid "Reform Party"
+msgstr " изменить группу"
+
+#: 4245
+#, fuzzy
+msgid "Information"
+msgstr " информация"
+
+#: 4246
+#, fuzzy
+msgid "Level Up"
+msgstr "Уровень"
+
+#: 4247
+#, fuzzy
+msgid "Biography"
+msgstr " биография"
 
 #: 4248
 msgid "Character Points"
@@ -2120,6 +2196,15 @@ msgstr "съесть ягоды"
 msgid "Talk to Item"
 msgstr "Поговорить с предметом"
 
+#: 4255
+#, fuzzy
+msgid "Abilities"
+msgstr " способности"
+
+#: 4256 44971
+msgid "Identify"
+msgstr "Опознать"
+
 #: 4257
 msgid "This item was removed from your inventory."
 msgstr "Этот предмет был удален из твоего инвентаря."
@@ -2127,6 +2212,16 @@ msgstr "Этот предмет был удален из твоего инвен
 #: 4258
 msgid "How would you like to Identify this item?"
 msgstr "Как ты хочешь опознать этот предмет?"
+
+#: 4259
+#, fuzzy
+msgid "Spell"
+msgstr "Заклинания"
+
+#: 4260
+#, fuzzy
+msgid "Scroll"
+msgstr " свиток"
 
 #: 4261
 msgid "Quick Weapon"
@@ -2219,6 +2314,16 @@ msgstr "Порталы?"
 #: 4529
 msgid "Do you know someone named Pharod?"
 msgstr "Ты знаешь кого-нибудь по имени Фарод?"
+
+#: 4707
+#, fuzzy
+msgid "Statistics Screen"
+msgstr "Окно характеристик персонажа"
+
+#: 4709
+#, fuzzy
+msgid "Priest Scroll"
+msgstr "Заклинания жреца"
 
 #: 4714 32830
 msgid "Central Chamber"
@@ -2353,6 +2458,11 @@ msgstr "КЛАСС БРОНИ"
 msgid "HIT POINTS"
 msgstr "ОЧКИ ЖИЗНИ"
 
+#: 5027
+#, fuzzy
+msgid "CHARACTER POINTS"
+msgstr "РАСПРЕДЕЛЕНИЕ ОЧКОВ ПЕРСОНАЖА"
+
 #: 5044
 msgid "(Auto-Link.)"
 msgstr "(Auto-Link.)"
@@ -2430,6 +2540,31 @@ msgstr "«Проклятье...»"
 #: 8190
 msgid "Character Select"
 msgstr "Выбор персонажа"
+
+#: 8191
+#, fuzzy
+msgid "Dialogue"
+msgstr "Диалог ..."
+
+#: 8192
+#, fuzzy
+msgid "Select Weapon"
+msgstr " Выбор"
+
+#: 8193
+#, fuzzy
+msgid "Select Spell"
+msgstr "Выбрать всех"
+
+#: 8194
+#, fuzzy
+msgid "Select Item"
+msgstr "Выбрать всех"
+
+#: 8195
+#, fuzzy
+msgid "Select Special Ability"
+msgstr "Особый навык"
 
 #: 8196
 msgid "Action Button"
@@ -3742,10 +3877,6 @@ msgstr "НАВЫКИ"
 msgid "CP ALLOCATION"
 msgstr "РАСПРЕДЕЛИ ОЧКИ"
 
-#: 19360
-msgid "NEW LIFE"
-msgstr "НОВАЯ ЖИЗНЬ"
-
 #: 19361
 msgid "GENERALIST"
 msgstr "УНИВЕРСАЛ"
@@ -3972,6 +4103,24 @@ msgstr ""
 "\n"
 "Твое отношение к добру и злу, порядку и хаосу."
 
+#: 20106
+msgid ""
+"FACTION\n"
+"\n"
+"A group of individuals who hold similar beliefs about the nature of the "
+"multiverse. Belief is power on the planes; if enough people believe in an "
+"idea, that idea may become reality."
+msgstr ""
+
+#: 20429
+msgid "World Map"
+msgstr ""
+
+#: 20430
+#, fuzzy
+msgid "Quests"
+msgstr " задания"
+
 #: 20582
 msgid "Are you sure you want to quit the game?"
 msgstr "Вы уверены, что хотите покинуть игру?"
@@ -3980,9 +4129,28 @@ msgstr "Вы уверены, что хотите покинуть игру?"
 msgid "\"Forget this, then...\""
 msgstr "«Тогда забудь об этом...»"
 
-#: 20636 28641 38102
-msgid "Done"
-msgstr "Готово"
+#: 20634
+#, fuzzy
+msgid "Beasts"
+msgstr " Произносит"
+
+#: 20635 48870
+#, fuzzy
+msgid "Journal"
+msgstr " дневник"
+
+#: 20637
+msgid "PC"
+msgstr ""
+
+#: 20638
+msgid "NPC"
+msgstr ""
+
+#: 20639
+#, fuzzy
+msgid "Save Game"
+msgstr " Сохранение игры"
 
 #: 20652 20653
 msgid ""
@@ -4395,6 +4563,15 @@ msgstr "Пожалуйста, выпусти меня наружу, или я н
 msgid "\"Perhaps I'll seek it out. Farewell.\""
 msgstr "«Пожалуй, я его поищу. Прощай»."
 
+#: 23787 106731
+msgid "Yes"
+msgstr "Да"
+
+#: 23789
+#, fuzzy
+msgid "No"
+msgstr "Сейчас"
+
 #: 23932
 msgid "\"Fine.\""
 msgstr "«Отлично»."
@@ -4770,6 +4947,11 @@ msgstr "«Что ты можешь рассказать о Фестхолле?»
 msgid "\"Thanks. Let me ask you about something else...\""
 msgstr "«Спасибо. Позволь мне спросить еще кое о чем...»"
 
+#: 28071
+#, fuzzy
+msgid "Are you sure you want to remove this character from your party?"
+msgstr " Вы уверены, что хотите удалить этого персонажа из группы?"
+
 #: 28080
 msgid "You cannot change the Nameless One's party order."
 msgstr "Ты не можешь менять порядок Безымянного в группе."
@@ -4793,13 +4975,18 @@ msgid ""
 msgstr ""
 "«Думаю, что десятый ученик — это я. В таком случае, я поговорил со всеми»."
 
-#: 28638
+#: 28638 48876
 msgid "Return to Game"
 msgstr "Вернуться в игру"
 
 #: 28639
 msgid "Are you sure you want to delete this saved game?"
 msgstr "Вы действительно хотите удалить эту сохраненную игру?"
+
+#: 28640
+#, fuzzy
+msgid "Delete"
+msgstr " удалить"
 
 #: 28642
 msgid ""
@@ -4813,6 +5000,15 @@ msgstr ""
 msgid "The save name is invalid. Please use a different name."
 msgstr "Имя сохранения неверно. Укажи другое имя."
 
+#: 28644
+#, fuzzy
+msgid "Overwrite"
+msgstr " перезаписать"
+
+#: 28645
+msgid "Save"
+msgstr ""
+
 #: 28646
 msgid "The game was successfully saved."
 msgstr "Игра успешно сохранена."
@@ -4820,6 +5016,10 @@ msgstr "Игра успешно сохранена."
 #: 28647
 msgid "Empty"
 msgstr "Пусто"
+
+#: 28648
+msgid "Load"
+msgstr ""
 
 #: 28781
 msgid "Video Options"
@@ -4934,6 +5134,16 @@ msgstr "Параметры аудио"
 msgid "Gameplay Options"
 msgstr "Параметры игры"
 
+#: 29723
+#, fuzzy
+msgid "Assign Keys"
+msgstr " назначить клавиши"
+
+#: 29726
+#, fuzzy
+msgid "Full Screen"
+msgstr "Окно дневника"
+
 #: 29999
 msgid ""
 "This is the Trigit's main crushing attack. It's of average speed, and it "
@@ -4964,6 +5174,10 @@ msgstr ""
 "Если съесть эту парализованную муху, она немедленно излечивает небольшие "
 "повреждения, а также на некоторое время наделяет способностью восстановления "
 "здоровья. Если человек уже владеет способностью регенерации, она усиливается."
+
+#: 30298
+msgid "ASSIGN KEYS"
+msgstr ""
 
 #: 30406
 msgid "Unbroken Circle of Zerthimon"
@@ -5164,6 +5378,15 @@ msgstr ""
 msgid "STRREF_OPTIONS_HELP_GAMEPLAY"
 msgstr "STRREF_OPTIONS_HELP_GAMEPLAY"
 
+#: 31212
+#, fuzzy
+msgid ""
+"This screen contains options to modify how the game plays. Select a control "
+"to see a description of what it does."
+msgstr ""
+"В этом окне содержатся параметры, управляющие свойствами звука в игре. "
+"Выберите параметр для отображения описания его действия."
+
 #: 31213
 msgid ""
 "This screen contains options to control the amount of feedback in the game. "
@@ -5200,6 +5423,15 @@ msgstr ""
 "программно, не используя аппаратное ускорение. Используй этот параметр "
 "только в случае, если графическая карта не поддерживает должным образом "
 "отражения спрайтов."
+
+#: 31217
+#, fuzzy
+msgid "Dither Always"
+msgstr " всегда использовать дизеринг"
+
+#: 31218
+msgid "Gore"
+msgstr ""
 
 #: 31219
 msgid "<WEAPONNAME>"
@@ -5302,6 +5534,18 @@ msgstr ""
 "положение, подсказки будут появляться мгновенно. Крайнее правое положение "
 "выключает подсказки."
 
+#: 31233
+msgid ""
+"This control determines the difficulty of Gameplay. Moving the slider to the "
+"left will cause enemies to deal less damage, making the game easier. Moving "
+"the slider right will increase the damage caused by enemies, making the game "
+"harder."
+msgstr ""
+
+#: 31234
+msgid "Brightness"
+msgstr ""
+
 #: 31361
 msgid ""
 "\"My time and attention is reserved for my students, sir. I suggest you "
@@ -5314,6 +5558,10 @@ msgstr ""
 msgid "\"That I am.\""
 msgstr "«Так и есть»."
 
+#: 31429
+msgid "Contrast"
+msgstr ""
+
 #: 31431
 msgid "This controls the brightness of the graphics in the game."
 msgstr "Управление яркостью в игре."
@@ -5322,9 +5570,30 @@ msgstr "Управление яркостью в игре."
 msgid "This controls the contrast of the graphics in the game."
 msgstr "Управление контрастом в игре."
 
+#: 31460
+msgid "Ambient"
+msgstr ""
+
 #: 31462
 msgid "Don't bother translating"
 msgstr "Don't bother translating"
+
+#: 31466
+msgid "Sound FX"
+msgstr ""
+
+#: 31467
+msgid "Voice"
+msgstr ""
+
+#: 31468
+msgid "Music"
+msgstr ""
+
+#: 31469
+#, fuzzy
+msgid "Movie"
+msgstr " ролики"
 
 #: 31470
 msgid "Autopause Options"
@@ -5333,6 +5602,23 @@ msgstr "Параметры автопаузы"
 #: 31478
 msgid "Feedback Options"
 msgstr "Параметры обратной связи"
+
+#: 31479
+#, fuzzy
+msgid "Difficulty"
+msgstr " Уровень сложности"
+
+#: 31480
+msgid "Keyboard Scrolling Speed"
+msgstr ""
+
+#: 31481
+msgid "Tooltip Delay"
+msgstr ""
+
+#: 31482
+msgid "Mouse Scrolling Speed"
+msgstr ""
 
 #: 31483
 msgid "Please place Planescape: Torment disc number"
@@ -5511,7 +5797,7 @@ msgstr "Мелкий головорез"
 msgid "Huge Thug"
 msgstr "Крупный головорез"
 
-#: 31656
+#: 31656 45310
 msgid "Merchant"
 msgstr "Торговец"
 
@@ -5808,7 +6094,7 @@ msgstr "«Я должен убедиться, что у нас достаточ�
 msgid "\"I need to find out when the next shift is coming.\""
 msgstr "«Мне нужно узнать, когда придет следующая смена»."
 
-#: 32431 41652
+#: 32431 41652 48887
 msgid "Guard"
 msgstr "Охранять"
 
@@ -5967,6 +6253,16 @@ msgstr "«На что похож Авернус?»"
 #: 33033
 msgid "Current Alignment:"
 msgstr "Текущее мировоззрение:"
+
+#: 33034
+#, fuzzy
+msgid "Play Movie"
+msgstr "Повторить ролики"
+
+#: 33078 106586
+#, fuzzy
+msgid "Credits"
+msgstr " авторы"
 
 #: 33079
 msgid "Your Strength is average."
@@ -8845,6 +9141,11 @@ msgstr ""
 "Управляет отображением текстовых сообщений всех видов игровых ситуаций вроде "
 "неудачного взлома, потери предмета, получения опыта и обновления дневника."
 
+#: 37463
+#, fuzzy
+msgid "Marker Feedback"
+msgstr " обратная связь"
+
 # roamed
 #: 37464
 msgid ""
@@ -8943,6 +9244,40 @@ msgstr ""
 "\n"
 "Я — Безымянный."
 
+#: 37586
+#, fuzzy
+msgid "Locator Feedback"
+msgstr " обратная связь"
+
+# to hit roll
+#: 37588
+#, fuzzy
+msgid "To Hit Rolls"
+msgstr "Бросок на попадание"
+
+#: 37590
+msgid "Combat Info"
+msgstr ""
+
+#: 37592
+#, fuzzy
+msgid "Spell Casting"
+msgstr "Брошено заклинание: "
+
+#: 37594
+#, fuzzy
+msgid "Character States"
+msgstr "Выбор персонажа"
+
+#: 37596
+msgid "Miscellaneous Messages"
+msgstr ""
+
+#: 37598
+#, fuzzy
+msgid "Character Hit"
+msgstr "Очки персонажа"
+
 #: 37637
 msgid "\"Never mind, Sebastion. Farewell.\""
 msgstr "«Не бери в голову, Себастион. Прощай»."
@@ -8950,6 +9285,40 @@ msgstr "«Не бери в голову, Себастион. Прощай»."
 #: 37679 52389
 msgid "\"Thank you. I must be going now. Farewell.\""
 msgstr "«Спасибо. Я должен идти. Прощай»."
+
+#: 37680
+#, fuzzy
+msgid "THIEF SKILLS"
+msgstr " НЕАКТИВНЫЕ НАВЫКИ"
+
+#: 37681
+#, fuzzy
+msgid "Character Injured"
+msgstr "Легкое ранение"
+
+#: 37682
+#, fuzzy
+msgid "Character Dead"
+msgstr " Персонаж"
+
+#: 37683
+#, fuzzy
+msgid "Character Attacked"
+msgstr "Управление персонажем"
+
+#: 37684
+#, fuzzy
+msgid "Weapon Unusable"
+msgstr "Автопауза: оружие бесполезно"
+
+#: 37685
+#, fuzzy
+msgid "Target Gone"
+msgstr " — цель пропала"
+
+#: 37686
+msgid "End of Round"
+msgstr ""
 
 #: 37687
 msgid ""
@@ -9107,6 +9476,11 @@ msgstr ""
 "установлена в 16 бит. Пожалуйста, переключись на 16-битную глубину цвета, "
 "если хочешь, чтобы ролики проигрывались."
 
+#: 38156
+#, fuzzy
+msgid "Movies"
+msgstr " ролики"
+
 #: 38164
 msgid "\"Never mind. I'll find my own way.\""
 msgstr "«Неважно. Я найду выход»."
@@ -9155,6 +9529,10 @@ msgstr ""
 "«Постой... этого достаточно для вознаграждения, но как на счет стоимости "
 "слез дэва? Знаешь ли, я заплатил за них девятьсот девяносто девять монет»."
 
+#: 38570
+msgid "Points Left:"
+msgstr ""
+
 #: 38571
 msgid "Stealth:"
 msgstr "Скрытность:"
@@ -9170,6 +9548,10 @@ msgstr "Воровство:"
 #: 38575
 msgid "Open Doors:"
 msgstr "Взлом:"
+
+#: 38576
+msgid "SAVING THROWS"
+msgstr ""
 
 #: 38577
 msgid "Save Vs. Death:"
@@ -9766,6 +10148,11 @@ msgstr ""
 msgid "Assigned"
 msgstr "Текущие"
 
+#: 39434
+#, fuzzy
+msgid "Completed"
+msgstr "Выполненные задания"
+
 #: 39435
 msgid "You may not enter more than 256 notes on a single area map."
 msgstr "Ты не можешь ввести больше 256 заметок на одной карте."
@@ -9976,6 +10363,10 @@ msgstr "Телосложение улучшено в качестве бонус
 msgid "Strength gained from specialization bonus."
 msgstr "Сила улучшена в качестве бонуса за специализацию."
 
+#: 41275 44969 67223
+msgid "None"
+msgstr "Нет"
+
 #: 41276
 msgid "Dexterity gained from specialization bonus."
 msgstr "Ловкость улучшена в качестве бонуса за специализацию."
@@ -10008,13 +10399,31 @@ msgstr "Убийств в группе:"
 msgid "Party Experience:"
 msgstr "Опыт в группе:"
 
+#: 41601 41709
+msgid "Inventory Screen"
+msgstr "Окно инвентаря"
+
+#: 41623 41714
+msgid "Journal Screen"
+msgstr "Окно дневника"
+
+#: 41624
+#, fuzzy
+msgid "Mage Spell Book"
+msgstr "Заклинания мага"
+
+#: 41625 41710
+msgid "Map Screen"
+msgstr "Окно карты"
+
 #: 41626 41716
 msgid "Options Screen"
 msgstr "Окно параметров"
 
-#: 41628
-msgid "Rest"
-msgstr "Отдых"
+#: 41627
+#, fuzzy
+msgid "Return to the Game World"
+msgstr "Вернуться в игру"
 
 #: 41631
 msgid "Deactivate Party AI"
@@ -10023,6 +10432,11 @@ msgstr "Выключить ИИ группы"
 #: 41646
 msgid "Activate Party AI"
 msgstr "Включить ИИ группы"
+
+#: 41647
+#, fuzzy
+msgid "Lock view on character"
+msgstr "Отключить привязку вида к персонажу"
 
 #: 41648
 msgid "Unlock view on character"
@@ -10044,9 +10458,13 @@ msgstr "Войти в незаметный режим"
 msgid "Initiate Dialogue"
 msgstr "Начать диалог"
 
-#: 41654
+#: 41654 48885
 msgid "Attack"
 msgstr "Атаковать"
+
+#: 41655
+msgid "Abort Current Action"
+msgstr ""
 
 #: 41656
 msgid ""
@@ -10064,6 +10482,16 @@ msgstr "Особый навык"
 msgid "Quick Spell"
 msgstr "Быстрое заклинание"
 
+#: 41659
+#, fuzzy
+msgid "Select All Characters"
+msgstr "Выбрать персонажа 1"
+
+#: 41660
+#, fuzzy
+msgid "Open Dialogue Window"
+msgstr "Закрыть окно диалога"
+
 #: 41661
 msgid "Close Dialogue Window"
 msgstr "Закрыть окно диалога"
@@ -10072,13 +10500,9 @@ msgstr "Закрыть окно диалога"
 msgid "Center On Leader Toggle"
 msgstr "Переключение центрирования по лидеру"
 
-#: 41709
-msgid "Inventory Screen"
-msgstr "Окно инвентаря"
-
-#: 41710
-msgid "Map Screen"
-msgstr "Окно карты"
+#: 41711 48872
+msgid "Mage Spells"
+msgstr "Заклинания мага"
 
 #: 41712
 msgid "AI Toggle"
@@ -10088,9 +10512,14 @@ msgstr "Переключение ИИ"
 msgid "Character Statistics Screen"
 msgstr "Окно характеристик персонажа"
 
-#: 41714
-msgid "Journal Screen"
-msgstr "Окно дневника"
+#: 41715 48873
+msgid "Priest Spells"
+msgstr "Заклинания жреца"
+
+#: 41717
+#, fuzzy
+msgid "Rest Party"
+msgstr "Время с группой:"
 
 #: 41718
 msgid "Dialog Window"
@@ -10107,6 +10536,11 @@ msgstr "Число смертей:"
 #: 42307
 msgid "Note from Corpse #1201"
 msgstr "Записка от трупа #1201"
+
+#: 42514
+#, fuzzy
+msgid "Remove"
+msgstr " удалить"
 
 #: 42518
 msgid "was Attacked"
@@ -10281,6 +10715,11 @@ msgstr ""
 msgid "\"What is Rubikon?\""
 msgstr "«Что такое Рубикон?»"
 
+#: 44945 48890
+#, fuzzy
+msgid "Formations"
+msgstr " информация"
+
 #: 44946
 msgid "Legendary Villain"
 msgstr "Легендарный злодей"
@@ -10325,23 +10764,65 @@ msgstr "Сказочный герой"
 msgid "Legendary Hero"
 msgstr "Легендарный герой"
 
+#: 44957
+msgid "Follow"
+msgstr ""
+
+#: 44958
+msgid "T"
+msgstr ""
+
+#: 44959
+#, fuzzy
+msgid "Gather"
+msgstr "Другой"
+
+#: 44960
+msgid "4 and 2"
+msgstr ""
+
+#: 44961
+msgid "3 by 2"
+msgstr ""
+
+#: 44962
+#, fuzzy
+msgid "Protect"
+msgstr "Хаоситек"
+
 #: 44963
 msgid ""
 "You have tested your immortality against the wrong creature and have been "
 "destroyed."
 msgstr "Ты проверил свое бессмертие не на том существе и был уничтожен."
 
-#: 44969 67223
-msgid "None"
-msgstr "Нет"
+#: 44964
+msgid "Rank"
+msgstr ""
+
+#: 44965
+msgid "V"
+msgstr ""
+
+#: 44966
+msgid "Wedge"
+msgstr ""
+
+#: 44967
+msgid "S"
+msgstr ""
+
+#: 44968
+msgid "Line"
+msgstr ""
 
 #: 44970
 msgid "Buy/Sell"
 msgstr "Купить/продать"
 
-#: 44971
-msgid "Identify"
-msgstr "Опознать"
+#: 44972 45305
+msgid "Steal"
+msgstr "Украсть"
 
 #: 45078
 msgid "I'm another character of Jason's."
@@ -10363,17 +10844,49 @@ msgstr "Ты уже это говорил."
 msgid "If you say so."
 msgstr "Как скажешь."
 
+#: 45119
+msgid "Drinks"
+msgstr ""
+
+#: 45120
+msgid "Rooms"
+msgstr ""
+
+#: 45121 45307
+msgid "Donate"
+msgstr "Пожертвовать"
+
 #: 45244
 msgid "\"Then go help him! Go help him!\""
 msgstr "«Так пойди и помоги ему! Вперед!»"
 
-#: 45305
-msgid "Steal"
-msgstr "Украсть"
+#: 45303
+msgid "Buy"
+msgstr ""
 
-#: 45307
-msgid "Donate"
-msgstr "Пожертвовать"
+#: 45304
+#, fuzzy
+msgid "Sell"
+msgstr "Купить/продать"
+
+#: 45306
+msgid "Rent"
+msgstr ""
+
+#: 45308
+#, fuzzy
+msgid "Peasant"
+msgstr " крестьянин"
+
+#: 45313
+#, fuzzy
+msgid "Noble"
+msgstr " аристократ"
+
+#: 45316
+#, fuzzy
+msgid "Royal"
+msgstr " король"
 
 #: 45374
 msgid "<ITEMNAME> - <ITEMCOST>CP"
@@ -10428,6 +10941,10 @@ msgstr ""
 #: 46675 46676
 msgid "Vault 9 Temp"
 msgstr "Хранилище 9"
+
+#: 46677
+msgid "Back"
+msgstr ""
 
 #: 46703
 msgid "Morte's Skull Mob"
@@ -10508,6 +11025,10 @@ msgstr "Окровавленный платок"
 #: 48115
 msgid "\"Why? What's wrong?\""
 msgstr "«А что? Что-то не так?»"
+
+#: 48152
+msgid "2 by 3"
+msgstr ""
 
 #: 48153
 msgid ""
@@ -10623,17 +11144,42 @@ msgstr ""
 "\n"
 "ОПИСАНИЕ:"
 
+#: 48394
+#, fuzzy
+msgid "Pause/Unpause Game"
+msgstr " Остановить игру"
+
+#: 48395
+msgid "Page Access"
+msgstr ""
+
 #: 48555
 msgid "\"Yes, please do.\""
 msgstr "«Да, пожалуйста»."
 
-#: 48872
-msgid "Mage Spells"
-msgstr "Заклинания мага"
+#: 48869
+#, fuzzy
+msgid "Inventory"
+msgstr "Инвентарь полон"
 
-#: 48873
-msgid "Priest Spells"
-msgstr "Заклинания жреца"
+#: 48871
+msgid "Map"
+msgstr ""
+
+#: 48874
+#, fuzzy
+msgid "Options"
+msgstr " параметры"
+
+#: 48875
+#, fuzzy
+msgid "Character Stats"
+msgstr "Выбор персонажа"
+
+#: 48877
+#, fuzzy
+msgid "Center Character"
+msgstr " Создать персонажа"
 
 #: 48878
 msgid "Action Menu"
@@ -10647,8 +11193,91 @@ msgstr "Меню действий — назад"
 msgid "Action Menu - Next"
 msgstr "Меню действий — вперед"
 
+#: 48881
+msgid "Miscellaneous"
+msgstr ""
+
+#: 48882
+#, fuzzy
+msgid "Location"
+msgstr "Оповещения"
+
+#: 48883
+#, fuzzy
+msgid "Quick Save"
+msgstr "Быстрое заклинание"
+
+#: 48884
+#, fuzzy
+msgid "Actions"
+msgstr "Меню действий"
+
+#: 48886
+#, fuzzy
+msgid "Cast Spell"
+msgstr "Переписать заклинание"
+
+#: 48888
+#, fuzzy
+msgid "Use Item"
+msgstr "Потерян предмет"
+
+#: 48889
+#, fuzzy
+msgid "Dialog"
+msgstr "Диалог ..."
+
+#: 48891
+#, fuzzy
+msgid "Thieving"
+msgstr "Вор"
+
+#: 48893
+#, fuzzy
+msgid "Trap Detection"
+msgstr "Обнаружена ловушка"
+
+#: 48894
+msgid "Stop"
+msgstr ""
+
+#: 48895
+#, fuzzy
+msgid "Special Abilities"
+msgstr "Особый навык"
+
 #: 48896
 msgid "Multi-Select"
+msgstr "Множественный выбор"
+
+#: 48897
+#, fuzzy
+msgid "Multiselect 1-2"
+msgstr "Множественный выбор"
+
+#: 48898
+#, fuzzy
+msgid "Multiselect 3-4"
+msgstr "Множественный выбор"
+
+#: 48899
+#, fuzzy
+msgid "Multiselect 5-6"
+msgstr "Множественный выбор"
+
+#: 48900
+#, fuzzy
+msgid "Multiselect 1-3"
+msgstr "Множественный выбор"
+
+#: 48903
+#, fuzzy
+msgid "Multiselect 4-6"
+msgstr "Множественный выбор"
+
+#: 48904
+#, fuzzy
+msgid "Multiselect All"
 msgstr "Множественный выбор"
 
 #: 48941
@@ -10674,6 +11303,10 @@ msgstr "Выбрать персонажа 5"
 #: 48946
 msgid "Select Character 6"
 msgstr "Выбрать персонажа 6"
+
+#: 48947
+msgid "Toggle Always Run"
+msgstr ""
 
 #: 48948
 msgid "Quick Weapon 1"
@@ -10711,6 +11344,15 @@ msgstr "Быстрый предмет 4"
 msgid "Quick Item 5"
 msgstr "Быстрый предмет 5"
 
+#: 48957
+#, fuzzy
+msgid "Toggle AI"
+msgstr "Переключение ИИ"
+
+#: 49051
+msgid "Default"
+msgstr ""
+
 #: 49053
 msgid "Page <PAGE> of <NUMPAGES>"
 msgstr "Страница <PAGE> из <NUMPAGES>"
@@ -10722,6 +11364,11 @@ msgstr "Быстрое оружие"
 #: 49056
 msgid "Quick Items"
 msgstr "Быстрые предметы"
+
+#: 49057
+#, fuzzy
+msgid "Character Selection"
+msgstr "Выбор персонажа"
 
 #: 49104
 msgid "Tasha's Laughter"
@@ -11671,6 +12318,10 @@ msgstr ""
 "GlobalGT(\"Murder\", \"GLOBAL\", 29)\n"
 "Class(Myself, FIGHTER)"
 
+#: 53296
+msgid "ITEM ABILITIES"
+msgstr ""
+
 #: 53774
 msgid "\"Impulse\""
 msgstr "«Импульс»"
@@ -11701,6 +12352,10 @@ msgstr ""
 "членов отряда. Для уменьшения передвинь ползунок влево, для увеличения — "
 "вправо."
 
+#: 54879
+msgid "Selection Feedback Level"
+msgstr ""
+
 #: 54880
 msgid ""
 "This controls the amount of voice feedback you will receive when ordering "
@@ -11714,6 +12369,10 @@ msgstr ""
 #: 55011
 msgid "Unused Slots"
 msgstr "Неиспользованные ячейки"
+
+#: 55012
+msgid "Command Feedback Level"
+msgstr ""
 
 #: 55013
 msgid "Rest not permitted."
@@ -14121,6 +14780,16 @@ msgstr "Во Внутренний Проклятый"
 msgid "Examine the sphere."
 msgstr "Осмотреть сферу."
 
+#: 62418
+msgid "Always Run"
+msgstr ""
+
+#: 62419
+msgid ""
+"Enabling this option reverses the default run and walk behavior.  "
+"<RUNOPTIONHELP> "
+msgstr ""
+
 #: 62421
 msgid "Townsperson, Male"
 msgstr "Горожанин"
@@ -14908,6 +15577,11 @@ msgstr "Убежденный Металл"
 msgid "Rod"
 msgstr "Жезл"
 
+#: 67048
+#, fuzzy
+msgid "Press to cycle"
+msgstr "Закрыть"
+
 #: 67049
 msgid "AC Bonuses"
 msgstr "Бонусы КБ"
@@ -14987,6 +15661,11 @@ msgstr "Крушащие атаки"
 #: 67219
 msgid "Missile Attacks"
 msgstr "Снарядные атаки"
+
+#: 67220
+#, fuzzy
+msgid "Normal"
+msgstr "Обычный огонь"
 
 #: 67289
 msgid ""
@@ -15335,6 +16014,11 @@ msgid ""
 "We cannot detect a CD-ROM drive on your system. You cannot play Planescape: "
 "Torment without a CD-ROM drive."
 msgstr ""
+
+#: 68536
+#, fuzzy
+msgid "Continue"
+msgstr "(продолжить)"
 
 #: 68537
 msgid "End Dialogue"
@@ -15869,6 +16553,11 @@ msgstr " У цели нет предметов, которые вы могли �
 #: 68665
 msgid " Pick Pockets Failed"
 msgstr " Воровство неудачно"
+
+#: 68666
+#, fuzzy
+msgid " Pick Pockets Succeeded"
+msgstr " Успешный взлом"
 
 #: 68667
 msgid " Your priest spells have been disabled."
@@ -17046,6 +17735,10 @@ msgid ""
 "— +1 Intelligence, -1 Wisdom."
 msgstr ""
 
+#: 68834
+msgid "Enable this option for gory combat animations."
+msgstr ""
+
 #: 68835
 msgid " This panel controls the appearance of the graphics in the game."
 msgstr ""
@@ -17233,6 +17926,13 @@ msgid ""
 msgstr ""
 "Выбранный предмет обладает всеми нижеописанными свойствами. Ты можешь менять "
 "выбранное в данный момент свойство, щелкая по нему."
+
+#: 68856
+#, fuzzy
+msgid ""
+"This slider controls how fast the area scrolls in response to the keyboard "
+"shortcuts."
+msgstr "Этот бегунок регулирует уровень громкости роликов в игре."
 
 #: 68857
 msgid ""
@@ -17431,6 +18131,15 @@ msgid ""
 "— Hit Die: d8"
 msgstr ""
 
+#: 68873
+msgid ""
+"This slider controls how fast the area scrolls in response to mouse "
+"movement.\n"
+"\n"
+"^NNote: Setting this slider to the far left disables edge of window "
+"scrolling.^-"
+msgstr ""
+
 #: 68874
 msgid ""
 "MOVE SILENTLY: When a character uses this ability, <PRO_HESHE> is able to "
@@ -17582,6 +18291,13 @@ msgid ""
 "as well as assign possible intrinsic talents such as infravision. Some "
 "restrictions in class selection may also apply, because game balance "
 "dictates that certain races are unsuited for certain professions."
+msgstr ""
+
+#: 68891
+msgid ""
+"Enable this option to rest repeatedly, casting healing spells until fully "
+"healed.  Otherwise, the party will rest only once and cast only the "
+"currently memorized healing spells."
 msgstr ""
 
 #: 68892
@@ -17809,6 +18525,12 @@ msgid ""
 "— Alignment restricted to any except lawful good.\n"
 "— Hit Die: d6\n"
 "Prime Requisites For Dual-Classing: Dexterity"
+msgstr ""
+
+#: 68917
+msgid ""
+"This slider controls the delay before a tooltip appears over a control. The "
+"maximum value disables tooltips."
 msgstr ""
 
 #: 68918
@@ -18129,6 +18851,11 @@ msgstr " клерик/следопыт"
 #: 68978
 msgid " cleric/thief"
 msgstr " клерик/вор"
+
+#: 68979
+#, fuzzy
+msgid "Close Container"
+msgstr " Контейнер"
 
 #: 68980
 msgid " connect"
@@ -18548,6 +19275,15 @@ msgstr " изменить персонажей"
 msgid " morning"
 msgstr " утро"
 
+#: 69084
+msgid "To Backpack"
+msgstr ""
+
+#: 69085
+#, fuzzy
+msgid "To Container"
+msgstr " Контейнер"
+
 #: 69086
 msgid " movies"
 msgstr " ролики"
@@ -18607,6 +19343,11 @@ msgstr " боец"
 #: 69100
 msgid " ogre"
 msgstr " огр"
+
+#: 69101
+#, fuzzy
+msgid " Open Container"
+msgstr " Контейнер"
 
 #: 69102
 msgid " options"
@@ -19242,6 +19983,22 @@ msgstr " Подключение к удаленному хосту..."
 msgid " Difficulty Level"
 msgstr " Уровень сложности"
 
+#: 69253
+msgid " Hard"
+msgstr ""
+
+#: 69254
+msgid " Core Rules"
+msgstr ""
+
+#: 69255
+msgid " Easy"
+msgstr ""
+
+#: 69256
+msgid " Insane"
+msgstr ""
+
 #: 69257
 msgid ""
 "Your donation to the church was greatly appreciated, and your reputation has "
@@ -19490,6 +20247,16 @@ msgstr " Подключение к игре."
 #: 69308
 msgid "Joining selected session... This may take a while, please wait."
 msgstr ""
+
+#: 69309
+#, fuzzy
+msgid " Known Mage Spells"
+msgstr "Заклинания мага"
+
+#: 69310
+#, fuzzy
+msgid " Known Priest Spells"
+msgstr "Дополнительные заклинания жреца"
 
 #: 69311
 msgid " Large Sword"
@@ -20329,6 +21096,11 @@ msgstr "Взять рукопашное оружие"
 msgid "Equip Ranged Weapon"
 msgstr "Взять дистанционное оружие"
 
+#: 106527
+#, fuzzy
+msgid "Quick Load"
+msgstr " Быстрый подбор"
+
 #: 106528
 msgid "Hide Interface"
 msgstr "Скрыть интерфейс"
@@ -20348,6 +21120,120 @@ msgstr "Левый интерфейс"
 #: 106532
 msgid "Hard Pause"
 msgstr "Жесткая пауза"
+
+#: 106533
+#, fuzzy
+msgid "Scroll Up"
+msgstr " свиток"
+
+#: 106534
+msgid "Scroll Left"
+msgstr ""
+
+#: 106535
+msgid "Scroll Down"
+msgstr ""
+
+#: 106536
+msgid "Scroll Right"
+msgstr ""
+
+#: 106537
+#, fuzzy
+msgid "Spell Slot 1"
+msgstr "Брошено заклинание: "
+
+#: 106538
+#, fuzzy
+msgid "Spell Slot 2"
+msgstr "Брошено заклинание: "
+
+#: 106539
+#, fuzzy
+msgid "Spell Slot 3"
+msgstr "Брошено заклинание: "
+
+#: 106540
+#, fuzzy
+msgid "Weapon Slot 1"
+msgstr " Скорость оружия"
+
+#: 106541
+#, fuzzy
+msgid "Weapon Slot 2"
+msgstr " Скорость оружия"
+
+#: 106542
+#, fuzzy
+msgid "Weapon Slot 3"
+msgstr " Скорость оружия"
+
+#: 106543
+#, fuzzy
+msgid "Weapon Slot 4"
+msgstr " Скорость оружия"
+
+#: 106544
+msgid "Item Slot 1"
+msgstr ""
+
+#: 106545
+msgid "Item Slot 2"
+msgstr ""
+
+#: 106546
+msgid "Item Slot 3"
+msgstr ""
+
+#: 106547
+msgid "Formation Slot 1"
+msgstr ""
+
+#: 106548
+msgid "Formation Slot 2"
+msgstr ""
+
+#: 106549
+msgid "Formation Slot 3"
+msgstr ""
+
+#: 106550
+msgid "Formation Slot 4"
+msgstr ""
+
+#: 106551
+msgid "Formation Slot 5"
+msgstr ""
+
+#: 106552
+#, fuzzy
+msgid "Character 1"
+msgstr " Персонаж"
+
+#: 106553
+#, fuzzy
+msgid "Character 2"
+msgstr " Персонаж"
+
+#: 106554
+#, fuzzy
+msgid "Character 3"
+msgstr " Персонаж"
+
+#: 106555
+#, fuzzy
+msgid "Character 4"
+msgstr " Персонаж"
+
+#: 106556
+#, fuzzy
+msgid "Character 5"
+msgstr " Персонаж"
+
+#: 106557
+#, fuzzy
+msgid "Character 6"
+msgstr " Персонаж"
 
 #: 106558
 msgid "Characters 1 & 2"
@@ -20373,9 +21259,22 @@ msgstr "Персонажи 4, 5, 6"
 msgid "Select All"
 msgstr "Выбрать всех"
 
+#: 106564
+msgid "Zoom In"
+msgstr ""
+
+#: 106565
+msgid "Zoom Out"
+msgstr ""
+
 #: 106566
 msgid "Page"
 msgstr "Страница"
+
+#: 106567
+#, fuzzy
+msgid "Quick Slots"
+msgstr "Быстрое заклинание"
 
 #: 106568
 msgid "000000001-Quick-Save"
@@ -20421,9 +21320,157 @@ msgstr "Итак, ты пришел?"
 msgid "Then you shall die again!"
 msgstr "Тогда ты умрешь снова!"
 
+#: 106579
+#, fuzzy
+msgid "Sounds"
+msgstr " звуки"
+
+#: 106580
+#, fuzzy
+msgid "Graphics"
+msgstr " графика"
+
+#: 106581
+#, fuzzy
+msgid "Sound"
+msgstr " звук"
+
+#: 106582
+#, fuzzy
+msgid "Font Size"
+msgstr "Главные ворота"
+
+#: 106583
+#, fuzzy
+msgid "Gameplay"
+msgstr " игра"
+
+#: 106584
+#, fuzzy
+msgid "Auto-pause"
+msgstr " автопауза"
+
+#: 106585
+#, fuzzy
+msgid "Feedback"
+msgstr "Включить обратную связь"
+
+#: 106587
+msgid "Language"
+msgstr ""
+
+#: 106588
+msgid "Enable Cloud Saves"
+msgstr ""
+
+#: 106589
+msgid "Heal on Rest"
+msgstr ""
+
+#: 106590
+#, fuzzy
+msgid "Max HP on Level Up"
+msgstr "ТЕЛ ЗД бонус/уров."
+
+#: 106591
+#, fuzzy
+msgid "Enemy Sighted"
+msgstr "Автопауза: замечен враг"
+
+#: 106592
+#, fuzzy
+msgid "Spell Cast"
+msgstr "Брошено заклинание: "
+
+#: 106593
+#, fuzzy
+msgid "Trap Found"
+msgstr "Литейная"
+
+#: 106594
+#, fuzzy
+msgid "Center on Party Member"
+msgstr " сервер удаляет членов группы"
+
+#: 106595
+msgid "Hardware Mouse Cursor"
+msgstr ""
+
+#: 106596
+msgid "Zoom Lock"
+msgstr ""
+
+#: 106597
+msgid "Sprite Outlines*"
+msgstr ""
+
+#: 106598
+#, fuzzy
+msgid "Display Options"
+msgstr "Параметры игры"
+
+#: 106599
+msgid "Always"
+msgstr ""
+
+#: 106600
+msgid "Seldom"
+msgstr ""
+
+#: 106601
+#, fuzzy
+msgid "Never"
+msgstr " отменить"
+
+#: 106602
+#, fuzzy
+msgid "Enable Confirmation"
+msgstr " информация"
+
+#: 106603
+#, fuzzy
+msgid "Disable Cosmetic Attacks"
+msgstr "Снарядные атаки"
+
+#: 106604
+msgid "Show Movie Subtitles"
+msgstr ""
+
+#: 106605
+#, fuzzy
+msgid "Travel"
+msgstr " Путешествие"
+
+#: 106606
+msgid "New Save"
+msgstr ""
+
+#: 106607
+#, fuzzy
+msgid "Show Map Notes"
+msgstr " Показать и скрыть заметки области"
+
+#: 106608
+msgid "Show Walkable"
+msgstr ""
+
 #: 106609
 msgid "You must restart the game for these changes to take effect."
 msgstr "Для применения данных изменений необходимо перезапустить игру."
+
+#: 106610
+msgid ""
+"Use Steam Cloud saves.\n"
+"\n"
+"^NNOTE: While this option is enabled, when you save your game it will be "
+"uploaded to the steam cloud.^-"
+msgstr ""
+
+#: 106611
+msgid ""
+"Gain maximum additional Hit Points on level up. Otherwise, Hit Points are "
+"randomly rolled as per AD&D rules."
+msgstr ""
 
 #: 106612
 msgid ""
@@ -20489,6 +21536,40 @@ msgstr ""
 "персонаж станет полупрозрачным только при наведении указателя мыши на его "
 "портрет; в ином случае персонаж не будет виден вообще."
 
+#: 106617
+#, fuzzy
+msgid ""
+"Enable this option to allow the area map to scroll past the edge of the user "
+"interface."
+msgstr ""
+"При включении этого параметра игра автоматически ставится на паузу, когда "
+"любой из членов команды атакован."
+
+#: 106618
+msgid "Allow Scrolling Out Of Bounds"
+msgstr ""
+
+#: 106619
+#, fuzzy
+msgid ""
+"If this setting is turned on, creatures and spells will have a smoothing "
+"effect applied to them at high resolutions. Disable it to revert to Nearest "
+"Neighbor scaling which is what the original game used.\n"
+"\n"
+"This is an Enhanced Edition feature."
+msgstr ""
+"При включении данного параметра на существа и заклинания будет наложен "
+"контур для лучшего отображения\n"
+"\n"
+"Это нововведение Enhanced Edition.\n"
+"\n"
+"^NПримечание: Для применения эффекта необходимо перезагрузить действующую "
+"игру.^-"
+
+#: 106620
+msgid "Linear Scaling*"
+msgstr ""
+
 #: 106621
 msgid ""
 "Enable DirectX rendering support. Only use this if you experience graphical "
@@ -20501,6 +21582,19 @@ msgstr ""
 "\n"
 "^NПримечание: Для применения эффекта необходимо перезапустить игру.^-"
 
+#: 106622
+msgid "Compatibility Renderer"
+msgstr ""
+
+#: 106623
+#, fuzzy
+msgid "Grayscale on Pause*"
+msgstr "Игра остановлена"
+
+#: 106624
+msgid "Highlight Selected Sprite*"
+msgstr ""
+
 #: 106625
 msgid ""
 "This slider controls when the ellipsoid markers are rendered under "
@@ -20512,9 +21606,55 @@ msgid ""
 "Maximum – all creatures and characters"
 msgstr ""
 
+#: 106626
+msgid "Select a key binding to modify."
+msgstr ""
+
+#: 106627
+msgid "Skip"
+msgstr ""
+
+#: 106628
+#, fuzzy
+msgid "Hit Points"
+msgstr "Максимальные очки жизни:"
+
+#: 106629
+#, fuzzy
+msgid "Enter Search Term"
+msgstr "Войти в незаметный режим"
+
 #: 106630
 msgid "Points Remaining"
 msgstr "Осталось очков"
+
+#: 106631
+#, fuzzy
+msgid "Replay"
+msgstr " повтор"
+
+#: 106632
+#, fuzzy
+msgid "Show More"
+msgstr "Тень-прислужник"
+
+#: 106633
+msgid "Close"
+msgstr ""
+
+#: 106634
+msgid "Load the Last Saved Game"
+msgstr ""
+
+#: 106635
+msgid ""
+"Your party is full, please remove party members until you have 6 or fewer."
+msgstr ""
+
+#: 106636
+#, fuzzy
+msgid "Map Note"
+msgstr "Скопировать заметку"
 
 #: 106637
 msgid "Minimum"
@@ -20536,9 +21676,18 @@ msgstr "Высоко"
 msgid "Maximum"
 msgstr "Максимум"
 
+#: 106642 106757
+#, fuzzy
+msgid "How To Play"
+msgstr "Включить справку «Приступая к игре»"
+
 #: 106643
 msgid "WOTC Logo"
 msgstr "Логотип WOTC"
+
+#: 106644
+msgid "AC"
+msgstr ""
 
 #: 106645
 msgid "Original Planescape: Torment Credits"
@@ -20816,7 +21965,17 @@ msgstr ""
 "Чтобы БЕЖАТЬ, включите кнопку бега в быстром меню, а затем нажмите на точку "
 "назначения."
 
+#: 106682
+msgid "Choose Amount"
+msgstr ""
+
+#: 106683
+#, fuzzy
+msgid "No items to identify"
+msgstr "Предмет не опознан"
+
 #: 106685
+#, fuzzy
 msgid ""
 "^NPLANESCAPE: TORMENT\n"
 "ENHANCED EDITION CREDITS^-\n"
@@ -20943,6 +22102,25 @@ msgid ""
 "\n"
 "^NLOCALIZATION^-\n"
 "Roboto\n"
+"\n"
+"^NCzech Translation^-\n"
+"Radim \"Edvin\" Klímek\n"
+"\n"
+"^NOriginal Czech Translation^-\n"
+"Aleš \"Garalda\" Gardavský Dana \"Erina\" Baborová Daniel \"Mesires\" "
+"Zaleski David \"Emperor2\" Spousta Jan \"Boris\" Borovka Jan \"Dukeps\" "
+"Tříska Jan \"Kostěj\" Ostatek Jan \"Kunowski\" Dunovský Jindra \"Fucking\" "
+"Král Jiří \"Birdman\" Matyskiewicz Jiří \"Markus\" Petrů Jiří \"Sedrick\" "
+"Špaček Jozef \"Julus\" Bačík  Kamil Horký Karel \"Karlos\" Studnička Libor "
+"\"Trauma Zero\" Čižmář Luboš \"Sjk\" Novotný Lukáš \"Complique\" Veselý "
+"Martin \"Brattasso\" Čapka Martin \"Merlin\" Svadbík Martin \"Psycho\" "
+"Pohanka Michal \"Frogg\" Kvak Michal & Peter \"Miki\" Mikula Miroslav "
+"\"FCBfan\" Pohořalý Miroslav \"Rico\" Mašlar Pavel \"Orias\" Šťastný Petr "
+"\"Chemist\" Kucharčík Petr \"Kopr\" Kopřiva Petr \"Vochomůrka\" Karas Radek "
+"\"Platzman\" Platoš Richard \"Mawerick\" Kordík Richard \"Mawerick\" Kordík "
+"Roman \"HellikXs\" Koldušek Roman \"Kopin\" Kopecký Tomáš \"BigTom\" Jantač "
+"Tomáš \"Thomas*\" Mazáč Tonda \"Horny\" Kohout Vladimír \"Sir Qwerty\" Sojka "
+"Vraťa \"Root\" Šafařík Vít \"Arccos\" Výmola\n"
 "\n"
 "^NCOMMUNITY MANAGER^-\n"
 "Julius Borisov\n"
@@ -21247,10 +22425,9 @@ msgid ""
 "(Chris A.) “Ma and Pa Avellone, Eileen Suh, Thuy Dang, Chris Wright, and "
 "Roger Zelazny”.(Dave M.) “Thanks to my beautiful wife, Jen, for putting up "
 "with the ridiculous amount of time I spend here and away from her.”\n"
-"(Adam H.) “To Cindy, who loves me enough to let me come to work "
-"everyday.” (Scott W.) “Thanks for the inspiration: David Konieczny, Tania "
-"Sabljic, and Tomato.” (Steve B.) “Phil and the rest of the staff at SC "
-"Village.”\n"
+"(Adam H.) “To Cindy, who loves me enough to let me come to work everyday.” "
+"(Scott W.) “Thanks for the inspiration: David Konieczny, Tania Sabljic, and "
+"Tomato.” (Steve B.) “Phil and the rest of the staff at SC Village.”\n"
 "(Colin M.) “Colin has too many people to thank to list them individually. "
 "Kitty, Quez, Brad, Kev, Dally, Nabs, Mom and family, and all of you - you "
 "know who you are. Thanks for the sanity.”\n"
@@ -21699,10 +22876,9 @@ msgstr ""
 "(Chris A.) “Ma and Pa Avellone, Eileen Suh, Thuy Dang, Chris Wright, and "
 "Roger Zelazny”.(Dave M.) “Thanks to my beautiful wife, Jen, for putting up "
 "with the ridiculous amount of time I spend here and away from her.”\n"
-"(Adam H.) “To Cindy, who loves me enough to let me come to work "
-"everyday.” (Scott W.) “Thanks for the inspiration: David Konieczny, Tania "
-"Sabljic, and Tomato.” (Steve B.) “Phil and the rest of the staff at SC "
-"Village.”\n"
+"(Adam H.) “To Cindy, who loves me enough to let me come to work everyday.” "
+"(Scott W.) “Thanks for the inspiration: David Konieczny, Tania Sabljic, and "
+"Tomato.” (Steve B.) “Phil and the rest of the staff at SC Village.”\n"
 "(Colin M.) “Colin has too many people to thank to list them individually. "
 "Kitty, Quez, Brad, Kev, Dally, Nabs, Mom and family, and all of you - you "
 "know who you are. Thanks for the sanity.”\n"
@@ -21737,6 +22913,66 @@ msgstr ""
 msgid "This option can also be toggled from the quick menu."
 msgstr "Этот параметр также можно изменить в быстром меню."
 
+#: 106688
+msgid "Gameworld Scaling*"
+msgstr ""
+
+#: 106689
+msgid ""
+"If this setting is turned on, then pressing the middle mouse button will set "
+"the zoom level to a pixel perfect match of the original game (larger viewing "
+"field, unscaled, pixel perfect gameworld).\n"
+"\n"
+"If this setting is turned off, then pressing the middle mouse button will "
+"set the zoom level to that of the original game (smaller viewing field, "
+"scaled gameworld).\n"
+"\n"
+"This is an Enhanced Edition feature."
+msgstr ""
+
+#: 106690
+#, fuzzy
+msgid "Frame Rate*"
+msgstr "Черепная крыса"
+
+#: 106691
+msgid ""
+"This slider allows you to increase the frame rate at which the game runs, "
+"thereby speeding up all aspects of the gameplay.\n"
+"\n"
+"Left: Original Game (30) Middle: Enhanced (40) Right: Fastest (50).\n"
+"\n"
+"WARNING: Adjusting the frame rate above 30 may result in audio sync issues "
+"during cutscenes as well as mistimed spell effects during combat."
+msgstr ""
+
+#: 106695
+#, fuzzy
+msgid "Smooth Area Transitions*"
+msgstr "Перемещение пламени"
+
+#: 106696
+#, fuzzy
+msgid ""
+"If this setting is turned on, the name of the destination will be displayed "
+"when you arrive at an area. The game will also fade out and in when "
+"transitioning between areas.\n"
+"\n"
+"This is an Enhanced Edition feature."
+msgstr ""
+"Переключает изображение в черно-белую палитру при постановке игры на паузу.\n"
+"\n"
+"Это нововведение Enhanced Edition."
+
+#: 106697
+#, fuzzy
+msgid "Quickloot"
+msgstr " Быстрый подбор"
+
+#: 106698
+msgid "Combat Log"
+msgstr ""
+
 #: 106699
 msgid ""
 "Although I managed to get rid of the dabus, the repairs it made are still "
@@ -21750,6 +22986,87 @@ msgstr ""
 "изменения. Похоже, улица вот-вот разродится, и в ее слабом состоянии она не "
 "в силах сделать это сама. Наверняка мне понадобятся кое-какие инструменты... "
 "молотка и лома должно хватить."
+
+#: 106700
+msgid "Double Size Cursors"
+msgstr ""
+
+#: 106701
+msgid "Enabling this option will double the size of the cursors on screen."
+msgstr ""
+
+#: 106702
+msgid ""
+"Welcome to the Planescape: Enhanced Edition! We can't tell you how proud we "
+"are that Planescape has gathered such a following over the years to allow "
+"this return to the multiverse and all its wonders - on behalf of the "
+"original team and the team at Beamdog, thank you.\n"
+"\n"
+"To provide the best experience for both our long-time fans and newcomers, "
+"you can select from one of two playstyles: the Original option for those "
+"that want an experience as close as possible to the original Torment, and "
+"the Enhanced option for those who seek the functionality present in previous "
+"enhanced editions. \n"
+"\n"
+"Feel free to choose whichever one suits your tastes - you can customize "
+"individual settings on the Options menu."
+msgstr ""
+
+#: 106703
+msgid "Welcome..."
+msgstr ""
+
+#: 106704
+msgid "Enhanced"
+msgstr ""
+
+#: 106705
+msgid "Original"
+msgstr ""
+
+#: 106706
+msgid ""
+"Enhanced options are enabled to make interacting with the gameworld more "
+"enjoyable. These options include:\n"
+"\n"
+"- Larger field of view\n"
+"- Creatures are smoothed out, have outlines, and are highlighted when "
+"selected\n"
+"- Faster game speed\n"
+"\n"
+"Adjust these options, individually, and at any time, by accessing the "
+"Options screen. These options are marked with an * to make finding them in "
+"the menus easier."
+msgstr ""
+
+#: 106707
+msgid ""
+"Several enhanced options are turned off so the experience is closer to the "
+"original, including:\n"
+"\n"
+"- Tighter field of view, matching original\n"
+"- Creatures are not smoothed out\n"
+"- Original game speed\n"
+"\n"
+"Adjust these options, individually, and at any time, by accessing the "
+"Options screen. These options are marked with an * to make finding them in "
+"the menus easier."
+msgstr ""
+
+#: 106710
+#, fuzzy
+msgid "Equip Weapon"
+msgstr "Взять рукопашное оружие"
+
+#: 106711
+#, fuzzy
+msgid "Memorized Mage Spells"
+msgstr " Запомнить заклинания мага"
+
+#: 106712
+#, fuzzy
+msgid "Memorized Priest Spells"
+msgstr " Запомнить заклинания жреца"
 
 #: 106715
 msgid ""
@@ -21853,9 +23170,25 @@ msgstr ""
 "Вы действительно хотите перезаписать это сохранение? Существующая игра будет "
 "уничтожена."
 
-#: 106731
-msgid "Yes"
-msgstr "Да"
+#: 106732
+msgid "Show Enemy Health Status"
+msgstr ""
+
+#: 106733
+msgid ""
+"When this setting is turned on, the approximate health status of enemies "
+"will be displayed above their sprites if they are selected or highlighted. "
+"If this setting is turned off, the health status of enemies will not be "
+"shown."
+msgstr ""
+
+#: 106734
+msgid "Item Slot 4"
+msgstr ""
+
+#: 106735
+msgid "Item Slot 5"
+msgstr ""
 
 #: 106736
 msgid "fire"
@@ -21933,6 +23266,11 @@ msgstr "Отозван"
 msgid "Transfer Items"
 msgstr "Обмен предметами"
 
+#: 106756
+#, fuzzy
+msgid "Show / Hide Hit Points"
+msgstr " Показать и скрыть заметки области"
+
 #: 106758
 msgid ""
 "^NCombat Log^-\n"
@@ -21983,6 +23321,19 @@ msgstr ""
 "Если эта настройка включена, нажатие на кнопку Леди Боли в нижней части "
 "главного экрана отобразит справку. Если настройка выключена, кнопка "
 "активирует режим паузы."
+
+#: 106764
+#, fuzzy
+msgid "Use Tablet Interface"
+msgstr "Левый интерфейс"
+
+#: 106765
+msgid ""
+"If this setting is on, the tablet interface will be used. When off, the PC "
+"interface will be used.\n"
+"\n"
+"^NNote: Only advanced users should change this option.^-"
+msgstr ""
 
 #: 106766
 msgid ""
@@ -22170,6 +23521,15 @@ msgstr ""
 "^NБыстрое сохранение^-\n"
 "Сохранение текущей игры с именем по умолчанию."
 
+#: 106787
+msgid "Tablet Menu"
+msgstr ""
+
+#: 106788
+#, fuzzy
+msgid "Game Menu"
+msgstr "Игра остановлена"
+
 #: 106789
 msgid ""
 "^NSelection Mode^-\n"
@@ -22290,9 +23650,18 @@ msgstr ""
 "\n"
 "Этот навык может быть улучшен с получением вором новых уровней."
 
+#: 106800
+#, fuzzy
+msgid "Right-click an item icon to read its description"
+msgstr "Нажмите и удерживайте предмет для прочтения его описания"
+
 #: 106801
 msgid "Press and hold an item icon to read its description"
 msgstr "Нажмите и удерживайте предмет для прочтения его описания"
+
+#: 106802
+msgid "Drop items here"
+msgstr ""
 
 #: 106803
 msgid ""
@@ -22317,6 +23686,14 @@ msgstr ""
 "Предметы можно передать другому члену группы, переместив предмет на его "
 "портрет. Предметы также можно выбросить, переместив их в ячейки справа."
 
+#: 106804
+msgid "Reveal Details"
+msgstr ""
+
+#: 106805
+msgid "Selection Mode Toggle"
+msgstr ""
+
 #: 106806
 msgid "Select Target"
 msgstr "Выбрать цель"
@@ -22330,6 +23707,11 @@ msgstr ""
 "^NТекущее действие^-\n"
 "Сообщает игроку действие, которое ему необходимо выполнить при команде с "
 "выбранным персонажем."
+
+#: 106808
+#, fuzzy
+msgid "Current Action"
+msgstr "Текущее мировоззрение:"
 
 #: 106809
 msgid ""
@@ -22425,6 +23807,12 @@ msgstr ""
 "навыки владения оружием можно потратить только найдя подходящего "
 "наставника.^-"
 
+#: 106813
+msgid ""
+"Statistics are influenced by character level, items equipped, and active "
+"spells"
+msgstr ""
+
 #: 106814
 msgid ""
 "This screen is used to memorize spells (if the character is a caster).\n"
@@ -22477,6 +23865,14 @@ msgstr ""
 "получают дополнительные ячейки для запоминания, так что они смогут "
 "производить больше заклинаний после отдыха."
 
+#: 106815
+msgid "Memorized Spells (able to cast)"
+msgstr ""
+
+#: 106816
+msgid "Known spells (able to memorize)"
+msgstr ""
+
 #: 106817
 msgid "Right-click on a slot to read the spell's description"
 msgstr ""
@@ -22485,6 +23881,10 @@ msgstr ""
 #: 106818
 msgid "Long press on a slot to read the spell's description"
 msgstr "Удерживайте ячейку для прочтения описания заклинания"
+
+#: 106819
+msgid "Party Member Slots"
+msgstr ""
 
 #: 106820
 msgid "Spell behavior affected by the plane of Carceri"
@@ -22551,6 +23951,192 @@ msgstr ""
 #: 106831
 msgid "Unable to bind that key"
 msgstr "Невозможно назначить эту клавишу"
+
+#: 106832
+#, fuzzy
+msgid "Weight:"
+msgstr " ночь"
+
+#: 106833
+msgid "Slots:"
+msgstr ""
+
+#: 106834
+msgid ""
+"~ PST:EE Chinese Translation ~\n"
+"\n"
+"~ Translation Team ~\n"
+"The Ring of Wonder\n"
+"\n"
+"~ Translators ~\n"
+"whisper\n"
+"wrhunter\n"
+"Mephisto Satan Devil\n"
+"\n"
+"~ Proofreaders ~\n"
+"wrhunter\n"
+"Mephisto Satan Devil\n"
+"\n"
+"~ Community ~\n"
+"For questions or suggestions, please submit feedback at trow.cc"
+msgstr ""
+
+#: 106835
+msgid "New Life"
+msgstr ""
+
+#: 106836
+msgid "Resume Life"
+msgstr ""
+
+#: 106837
+#, fuzzy
+msgid "Alter Senses"
+msgstr "Чувствительность к искажениям"
+
+#: 106838
+#, fuzzy
+msgid "Select Life"
+msgstr "Выбрать всех"
+
+#: 106839
+msgid "The Abyss"
+msgstr ""
+
+#: 106840
+msgid ""
+"~ PST:EE Italian Translation ~\n"
+"\n"
+"Giuseppe \"Aedan\" Calì\n"
+"Davide Torti"
+msgstr ""
+
+#: 106841
+msgid ""
+"~ PST:EE Russian Translation ~\n"
+"\n"
+"~ Translation Team ~\n"
+"Arcane Coast\n"
+"\n"
+"~ Project Lead ~\n"
+"Eugene \"Si1ver\" Vlasov\n"
+"\n"
+"~ Proofreader ~\n"
+"wooder\n"
+"\n"
+"~ Creators of Arcane Pack ~\n"
+"Macbeth, Refiler, wooder, Aldark\n"
+"\n"
+"Based on the Russian translation of the original PST by Fargus."
+msgstr ""
+
+#: 106842
+msgid ""
+"~ PST:EE Brazilian Portuguese Translation ~\n"
+"\n"
+"Translation Lead: Heron Farias\n"
+"Translator: Owltiss"
+msgstr ""
+
+#: 106843
+msgid ""
+"~ PST:EE Czech Translation ~\n"
+"\n"
+"[Czech translation team credits]"
+msgstr ""
+
+#: 106844
+msgid ""
+"~ PST:EE French Translation ~\n"
+"\n"
+"[French translation team credits]"
+msgstr ""
+
+#: 106845
+msgid ""
+"~ PST:EE German Translation ~\n"
+"\n"
+"[German translation team credits]"
+msgstr ""
+
+#: 106846
+msgid ""
+"~ PST:EE Korean Translation ~\n"
+"\n"
+"[Korean translation team credits]"
+msgstr ""
+
+#: 106847
+msgid ""
+"~ PST:EE Polish Translation ~\n"
+"\n"
+"[Polish translation team credits]"
+msgstr ""
+
+#: 106848
+msgid ""
+"~ PST:EE Ukrainian Translation ~\n"
+"\n"
+" SBT Localization LLC\n"
+"\n"
+"~ Project lead ~\n"
+"Sofia Shul\n"
+"\n"
+"~ Proofreading and testing ~\n"
+"Yura \"Dragon\" Pavliuk\n"
+"\n"
+"~ Translators ~\n"
+"Olena Androsiuk, Marharyta Pylypchuk, Valentyna Puryha, Anna Chyrva, "
+"Yevhenia Babchynetska, Anastasia Rantiuk, Maria Polishchuk, Oleksii Ivanov, "
+"Taras Korzhyk, Andrii Yatsechko, Pavlo Kuliamin, Vladyslav Kravchenko, Alina "
+"Farafonova, Natalia Kompaniiets, Oleksandr Vlasiuk, Tetiana Khvastova, Yehor "
+"Vlasov, Bohdana Vozniuk, Anna Tsvira, Anna Demydenko, Anastasia "
+"Zhyshchynska, Dinadin, Maria Ihnatieva, Yulia Dmytrenko, Anastasia "
+"Dehtiariova, Petro Kudriashov, Iryna Shust, Yulia Serbina, Solomiia Kotiai, "
+"Anastasia Zaitseva, Victoria Farenyk, Yana Chorna, Anastasia Kachanova, "
+"Oleksandr Kutuza, Alina Savchak\n"
+"\n"
+"~ DnD Community Support ~\n"
+"Anton Smilevsky, Marichka Panfiorova, Selerian\n"
+"\n"
+"~ Technical support ~\n"
+"Yura \"Dragon\" Pavliuk, Serhii Olendarenko, Ivan Yankovyi"
+msgstr ""
+
+#: 106849
+msgid ""
+"~ PST:EE Chinese Traditional Translation ~\n"
+"\n"
+"[Chinese Traditional translation team credits]"
+msgstr ""
+
+#: 106850
+msgid ""
+"~ PST:EE Hungarian Translation ~\n"
+"\n"
+"[Hungarian translation team credits]"
+msgstr ""
+
+#: 106851
+msgid ""
+"~ PST:EE Japanese Translation ~\n"
+"\n"
+"[Japanese translation team credits]"
+msgstr ""
+
+#: 106852
+msgid ""
+"~ PST:EE Turkish Translation ~\n"
+"\n"
+"[Turkish translation team credits]"
+msgstr ""
+
+#: 106853
+msgid ""
+"~ PST:EE Spanish Translation ~\n"
+"\n"
+"[Spanish translation team credits]"
+msgstr ""
 
 #~ msgid "Drusilla"
 #~ msgstr "Друзилла"
