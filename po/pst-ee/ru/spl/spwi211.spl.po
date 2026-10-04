@@ -1,9 +1,9 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# SPDX-FileCopyrightText: 2009-2010, 2026 Azamat H. Hackimov <azamat.hackimov@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2026-10-03 18:34 +0300\n"
-"PO-Revision-Date: 2010-05-18 23:06+0600\n"
+"PO-Revision-Date: 2026-10-03 19:03+0300\n"
 "Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
@@ -12,10 +12,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: 51019
-#, fuzzy
 msgid ""
 "STRENGTH\n"
 "Range: Touch\n"
@@ -49,10 +48,10 @@ msgstr ""
 "десятых долей очков свыше 18-и), которые, однако, будут определены с учетом "
 "ограничений расы/класса. Заклинание не может даровать Силу 19 и выше. "
 "Прибавка следующая:\n"
-"Жрец              1d6 очков\n"
-"Вор                 1d6 очков\n"
-"Воин               1d8 очков\n"
-"Маг                 1d4 очков\n"
+"Жрец          1d6 очков\n"
+"Вор           1d6 очков\n"
+"Воин          1d8 очков\n"
+"Маг           1d4 очков"
 
 #: 8634
 msgid "Strength"

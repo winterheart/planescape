@@ -1,10 +1,10 @@
-# Azamat H. Hackimov <azamat.hackimov@gmail.com>, 2009, 2010.
+# SPDX-FileCopyrightText: 2009-2010, 2026 Azamat H. Hackimov <azamat.hackimov@gmail.com>
 msgid ""
 msgstr ""
 "Project-Id-Version: backbtr.itm\n"
 "POT-Creation-Date: 2026-10-03 18:34 +0300\n"
-"PO-Revision-Date: 2013-01-12 18:40+0200\n"
-"Last-Translator: Sergey Ternovtsov <tob1az@ukr.net>\n"
+"PO-Revision-Date: 2026-10-03 18:49+0300\n"
+"Last-Translator: Azamat H. Hackimov <azamat.hackimov@gmail.com>\n"
 "Language-Team: Russian <azamat.hackimov@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Lokalize 26.04.3\n"
 
 #: 48309
 msgid ""
@@ -41,7 +41,6 @@ msgid "Backbiter"
 msgstr "Клеветник"
 
 #: 52831
-#, fuzzy
 msgid ""
 "BACKBITER\n"
 "Damage: 2-5 Piercing\n"
@@ -75,7 +74,7 @@ msgstr ""
 "Этот волшебный клинок, будучи изготовленным специально для мастера темных "
 "дел, скрывает приближение своего владельца, заглушая любые звуки, которые "
 "тот производит при передвижении, и таким образом улучшает его или ее шансы "
-"незаметно подкрасться к цели.\n"
+"незаметно подкрасться к цели."
 
 #: 52980
 msgid "Dagger"
