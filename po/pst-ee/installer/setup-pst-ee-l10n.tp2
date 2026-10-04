@@ -1,37 +1,40 @@
 BACKUP ~pst-ee-l10n/backup~
 AUTHOR ~azamat.hackimov@gmail.com~
-VERSION ~v1.08~
+VERSION ~v1.09~
 
 LANGUAGE
 	~Russian~	~russian~
-	~pst-ee-l10n/lang/ru_RU/pst-ee-l10n.tra~
-	~pst-ee-l10n/lang/ru_RU/names.tra~
+	~pst-ee-l10n/lang/ru_ZZ/pst-ee-l10n.tra~
+	~pst-ee-l10n/lang/ru_ZZ/names.tra~
 
 BEGIN @1000
 
-MKDIR ~override~ ~lang/ru_RU/override~
+MKDIR ~override~ ~lang/ru_ZZ/override~
 
 // Copying M_RU-RU.LUA for new language support
 COPY	~pst-ee-l10n/override/M_RU-RU.LUA~		~override~
 
 // Copying images and font for localization
-COPY	~pst-ee-l10n/override/ru_RU/BOOKMANI.TTF~	~lang/ru_RU/override~
-	~pst-ee-l10n/override/ru_RU/Exocet.TTF~       	~lang/ru_RU/override~
-	~pst-ee-l10n/override/ru_RU/CGATTR.BAM~       	~lang/ru_RU/override~
-	~pst-ee-l10n/override/ru_RU/STARTBUT.BAM~       ~lang/ru_RU/override~
-	~pst-ee-l10n/override/ru_RU/MOS2000.PVRZ~       ~lang/ru_RU/override~
-	~pst-ee-l10n/override/ru_RU/MOS2001.PVRZ~       ~lang/ru_RU/override~
-	~pst-ee-l10n/override/ru_RU/MOS2002.PVRZ~       ~lang/ru_RU/override~
-	~pst-ee-l10n/override/ru_RU/MOS2003.PVRZ~       ~lang/ru_RU/override~
-	~pst-ee-l10n/override/ru_RU/MOS2004.PVRZ~       ~lang/ru_RU/override~
-	~pst-ee-l10n/override/ru_RU/MOS2005.PVRZ~       ~lang/ru_RU/override~
-	~pst-ee-l10n/override/ru_RU/MOS2006.PVRZ~       ~lang/ru_RU/override~
-	~pst-ee-l10n/override/ru_RU/MOS2007.PVRZ~       ~lang/ru_RU/override~
+COPY	~pst-ee-l10n/override/ru_ZZ/BOOKMANI.TTF~	~lang/ru_ZZ/override~
+	~pst-ee-l10n/override/ru_ZZ/Exocet.TTF~       	~lang/ru_ZZ/override~
+	~pst-ee-l10n/override/ru_ZZ/CGATTR.BAM~       	~lang/ru_ZZ/override~
+	~pst-ee-l10n/override/ru_ZZ/STARTBUT.BAM~       ~lang/ru_ZZ/override~
+	~pst-ee-l10n/override/ru_ZZ/MOS2000.PVRZ~       ~lang/ru_ZZ/override~
+	~pst-ee-l10n/override/ru_ZZ/MOS2001.PVRZ~       ~lang/ru_ZZ/override~
+	~pst-ee-l10n/override/ru_ZZ/MOS2002.PVRZ~       ~lang/ru_ZZ/override~
+	~pst-ee-l10n/override/ru_ZZ/MOS2003.PVRZ~       ~lang/ru_ZZ/override~
+	~pst-ee-l10n/override/ru_ZZ/MOS2004.PVRZ~       ~lang/ru_ZZ/override~
+	~pst-ee-l10n/override/ru_ZZ/MOS2005.PVRZ~       ~lang/ru_ZZ/override~
+	~pst-ee-l10n/override/ru_ZZ/MOS2006.PVRZ~       ~lang/ru_ZZ/override~
+	~pst-ee-l10n/override/ru_ZZ/MOS2007.PVRZ~       ~lang/ru_ZZ/override~
+	~pst-ee-l10n/override/ru_ZZ/L_ru_ZZ.lua~		~lang/ru_ZZ/override~
 
-//STRING_SET_RANGE #0 #106833 USING ~pst-ee-l10n/lang/ru_RU/0-106833.tra~
+//STRING_SET_RANGE #0 #106833 USING ~pst-ee-l10n/lang/ru_ZZ/0-106833.tra~
+
+STRING_SET_RANGE #85699 #85699 USING ~pst-ee-l10n/lang/ru_ZZ/pst-ee-l10n.tra~
 
 // MOD: Female Names
 // CREDIT: pst-l10n team
-STRING_SET_RANGE #85700 #85735 USING ~pst-ee-l10n/lang/ru_RU/names.tra~
+STRING_SET_RANGE #85700 #85740 USING ~pst-ee-l10n/lang/ru_ZZ/names.tra~
 INCLUDE ~pst-ee-l10n/tph/names.tph~
 
